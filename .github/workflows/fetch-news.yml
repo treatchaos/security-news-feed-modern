@@ -33,15 +33,19 @@ jobs:
           USER_AGENT: SecurityNewsBot/1.0 (+https://treatchaos.github.io/security-news-feed-modern/)
         run: |
           python fetch_news.py
+          # Ensure history dir exists so it can be committed if new
+          if [ ! -d history ]; then mkdir -p history; fi
+          # Optional: add a .keep so empty dir is tracked first run
+          if [ ! -f history/.keep ]; then echo "" > history/.keep; fi
       - name: Commit and push if changed
         run: |
           git config user.name "github-actions"
           git config user.email "github-actions@github.com"
-          git add news.json
+          git add news.json archive.json history/
           if git diff --cached --quiet; then
             echo "No changes to commit";
             exit 0;
           fi
-          git commit -m "chore: update news feed ($(date -u +%Y-%m-%dT%H:%M:%SZ))"
+          git commit -m "chore: update feeds ($(date -u +%Y-%m-%dT%H:%M:%SZ))"
           git pull --rebase || true
           git push
