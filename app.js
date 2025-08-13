@@ -3,7 +3,6 @@ document.addEventListener("DOMContentLoaded", () => {
   const themeToggle = document.getElementById("theme-toggle");
   const searchInput = document.getElementById("search");
   const sortSelect = document.getElementById("sort");
-  const sourceFilter = document.getElementById("source-filter");
   const clearFilters = document.getElementById("clear-filters");
   const statsEl = document.getElementById("stats");
   const loader = document.getElementById("loader");
@@ -50,12 +49,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
   function renderStats() {
     statsEl.classList.remove('hidden');
-    statsEl.innerHTML = `<strong>${filtered.length}</strong> articles shown / <strong>${allNews.length}</strong> total`;
-  }
-
-  function buildSources() {
-    const unique = Array.from(new Set(allNews.map(n => n.source))).sort();
-    sourceFilter.innerHTML = '<option value="">All Sources</option>' + unique.map(s => `<option value="${s}">${s}</option>`).join('');
+    statsEl.innerHTML = `<strong>${filtered.length}</strong> shown (last 30 days)`;
   }
 
   function normalizeDate(d) {
@@ -66,12 +60,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
   function applyFilters() {
     const q = (searchInput.value || '').toLowerCase();
-    const sourceVal = sourceFilter.value;
-    filtered = allNews.filter(item => {
-      const matchQuery = !q || (item.title + ' ' + item.description).toLowerCase().includes(q);
-      const matchSource = !sourceVal || item.source === sourceVal;
-      return matchQuery && matchSource;
-    });
+    filtered = allNews.filter(item => !q || (item.title + ' ' + item.description).toLowerCase().includes(q));
 
     switch (sortSelect.value) {
       case 'oldest':
@@ -104,19 +93,17 @@ document.addEventListener("DOMContentLoaded", () => {
       card.className = 'news-card bg-white dark:bg-gray-800 rounded-lg shadow p-5 hover:shadow-lg transition-shadow duration-300 focus-within:ring-2 focus-within:ring-blue-500';
       const dateStr = item.date ? new Date(item.date).toLocaleString(undefined, { dateStyle: 'medium', timeStyle: 'short' }).replace(/,\s*/, ' ') : '';
       card.innerHTML = `
-        <div class="flex items-start justify-between gap-3 mb-3">
-          <h2 class="text-lg font-semibold leading-snug flex-1"><a href="${item.link}" target="_blank" rel="noopener" class="hover:underline break-words">${item.title}</a></h2>
-          <span class="text-[0.65rem] uppercase tracking-wide px-2 py-1 rounded bg-blue-50 dark:bg-blue-900/40 text-blue-600 dark:text-blue-300 font-medium">${item.source || ''}</span>
+        <div class="mb-3">
+          <h2 class="text-lg font-semibold leading-snug"><a href="${item.link}" target="_blank" rel="noopener" class="hover:underline break-words">${item.title}</a></h2>
         </div>
         <p class="text-xs text-gray-500 dark:text-gray-400 mb-2">${dateStr}</p>
         <p class="text-sm leading-relaxed mb-4 line-clamp">${item.description || ''}</p>
         <div class="flex justify-between items-center text-sm">
           <a href="${item.link}" target="_blank" rel="noopener" class="text-blue-600 dark:text-blue-400 font-medium hover:underline">Read More</a>
           <button class="copy-btn text-gray-400 hover:text-gray-600 dark:hover:text-gray-300" data-link="${item.link}" title="Copy link">Copy</button>
-        </div>
-      `;
+        </div>`;
       container.appendChild(card);
-      setTimeout(() => card.classList.add('visible'), index * 60);
+      setTimeout(() => card.classList.add('visible'), index * 50);
     });
     attachCopyHandlers();
     renderStats();
@@ -138,34 +125,24 @@ document.addEventListener("DOMContentLoaded", () => {
   function fetchNews(force = false) {
     showLoader();
     fetch('news.json' + (force ? `?t=${Date.now()}` : ''))
-      .then(res => res.json())
-      .then(data => {
+      .then(res => { if(!res.ok) throw new Error('HTTP '+res.status); return res.json(); })
+      .then(payload => {
         hideLoader();
-        // Derive source domain
-        allNews = data.map(item => ({
-          ...item,
-          source: (() => {
-            try { return new URL(item.link).hostname.replace('www.',''); } catch { return 'unknown'; }
-          })()
-        }));
-        buildSources();
+        const data = Array.isArray(payload) ? payload : (payload.items || []);
+        const THIRTY_DAYS = 1000*60*60*24*30;
+        const now = Date.now();
+        allNews = data.filter(item => {
+          const ts = normalizeDate(item.date);
+          return !ts || (now - ts) <= THIRTY_DAYS; // keep if within 30 days or date missing
+        });
         applyFilters();
       })
-      .catch(err => {
-        hideLoader();
-        container.innerHTML = '<p class="col-span-full text-red-600">Failed to load news.</p>';
-        console.error(err);
-      });
+      .catch(err => { hideLoader(); container.innerHTML = '<p class="col-span-full text-red-600">Failed to load news.</p>'; console.error(err); });
   }
 
   // Events
-  [searchInput, sortSelect, sourceFilter].forEach(el => el && el.addEventListener('input', applyFilters));
-  clearFilters.addEventListener('click', () => {
-    searchInput.value = '';
-    sortSelect.value = 'latest';
-    sourceFilter.value = '';
-    applyFilters();
-  });
+  [searchInput, sortSelect].forEach(el => el && el.addEventListener('input', applyFilters));
+  clearFilters.addEventListener('click', () => { searchInput.value=''; sortSelect.value='latest'; applyFilters(); });
   refreshBtn.addEventListener('click', () => fetchNews(true));
 
   window.addEventListener('scroll', () => {
@@ -174,7 +151,7 @@ document.addEventListener("DOMContentLoaded", () => {
   });
   scrollTopBtn.addEventListener('click', () => window.scrollTo({ top:0, behavior:'smooth' }));
 
-  aboutLink.addEventListener('click', (e) => { e.preventDefault(); if (aboutDialog) aboutDialog.showModal(); });
+  aboutLink.addEventListener('click', (e) => { e.preventDefault(); aboutDialog?.showModal(); });
   aboutDialog?.addEventListener('click', (e) => { if (e.target === aboutDialog) aboutDialog.close(); });
 
   // Initial load
