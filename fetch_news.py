@@ -127,14 +127,16 @@ def read_existing(path):
 def main():
     items = sort_items(gather_items())
     payload = {
-        "last_updated": datetime.datetime.utcnow().strftime('%Y-%m-%dT%H:%M:%SZ'),
+        "last_updated": datetime.datetime.now(datetime.timezone.utc).strftime('%Y-%m-%dT%H:%M:%SZ'),
         "count": len(items),
         "items": items
     }
     out_path = 'news.json'
     existing = read_existing(out_path)
-    if existing and existing.get('items') == payload['items']:
-        # Keep previous last_updated to avoid noisy commits.
+    # Backward compatibility: legacy file was a raw list
+    if isinstance(existing, list):
+        existing = {"items": existing}
+    if isinstance(existing, dict) and existing.get('items') == payload['items']:
         print("No content changes; skipping file update.")
         return
     with open(out_path, 'w', encoding='utf-8') as f:
