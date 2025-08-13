@@ -1,7 +1,57 @@
 {
   "date": "2025-08-13",
-  "count": 44,
+  "count": 56,
   "items": [
+    {
+      "id": "09fb760bd2f0803e8fe5f1fa39fefda23f43852b",
+      "title": "Microsoft removes PowerShell 2.0 from Windows 11, Windows Server",
+      "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-removes-powershell-20-from-windows-11-windows-server/",
+      "date": "2025-08-13T13:35:22Z",
+      "description": "Microsoft will remove PowerShell 2.0 from Windows starting in August, eight years after announcing its deprecation and keeping it around as an optional feature. [...]",
+      "source": "bleepingcomputer.com",
+      "first_seen": "2025-08-13T13:49:47Z",
+      "last_seen": "2025-08-13T13:49:47Z"
+    },
+    {
+      "id": "3ee065b46eb4fae1a72f0240e8d1b3067d2c01aa",
+      "title": "Chipmaker Patch Tuesday: Many Vulnerabilities Addressed by Intel, AMD, Nvidia",
+      "link": "https://www.securityweek.com/chipmaker-patch-tuesday-many-vulnerabilities-addressed-by-intel-amd-nvidia/",
+      "date": "2025-08-13T12:29:01Z",
+      "description": "Intel, AMD and Nvidia have published security advisories describing vulnerabilities found recently in their products. The post Chipmaker Patch Tuesday: Many Vulnerabilities Addressed by Intel, AMD, Nvidia appeared first on SecurityWeek.",
+      "source": "securityweek.com",
+      "first_seen": "2025-08-13T13:49:47Z",
+      "last_seen": "2025-08-13T13:49:47Z"
+    },
+    {
+      "id": "da0df0dbe2994025f5bd8da504efd1df00c77c1a",
+      "title": "Microsoft asks users to ignore certificate enrollment errors",
+      "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-asks-users-to-ignore-certificate-enrollment-errors/",
+      "date": "2025-08-13T12:24:08Z",
+      "description": "Microsoft has asked customers this week to disregard incorrect CertificateServicesClient (CertEnroll) errors that appear after installing the July 2025 preview update and subsequent Windows 11 24H2 updates. [...]",
+      "source": "bleepingcomputer.com",
+      "first_seen": "2025-08-13T13:49:47Z",
+      "last_seen": "2025-08-13T13:49:47Z"
+    },
+    {
+      "id": "e6703927556f466432181017d4b0a8db061a95cf",
+      "title": "FortiWeb Authentication Bypass Vulnerability Let Attackers Log in As Any Existing User",
+      "link": "https://cybersecuritynews.com/fortiweb-authentication-bypass-vulnerability/",
+      "date": "2025-08-13T12:02:50Z",
+      "description": "A critical authentication bypass vulnerability in FortiWeb allows unauthenticated remote attackers to impersonate any existing user on affected systems. The vulnerability, tracked as CVE-2025-52970 with a CVSS score of 7.7, affects multiple FortiWeb versions and stems from improper parameter handling in the cookie parsing mechanism. Key Takeaways1. CVE-2025-52970 lets attackers bypass…",
+      "source": "cybersecuritynews.com",
+      "first_seen": "2025-08-13T13:49:47Z",
+      "last_seen": "2025-08-13T13:49:47Z"
+    },
+    {
+      "id": "d5d98e88c312eae1ae2f409b5c21247f2722af59",
+      "title": "Fortinet Warns About FortiSIEM Vulnerability (CVE-2025-25256) With In-the-Wild Exploit Code",
+      "link": "https://thehackernews.com/2025/08/fortinet-warns-about-fortisiem.html",
+      "date": "2025-08-13T11:37:00Z",
+      "description": "Fortinet is alerting customers of a critical security flaw in FortiSIEM for which it said there exists an exploit in the wild. The vulnerability, tracked as CVE-2025-25256, carries a CVSS score of 9.8 out of a maximum of 10.0. \"An improper neutralization of special elements used in an OS command ('OS Command Injection') vulnerability [CWE-78] in FortiSIEM may allow an unauthenticated attacker to",
+      "source": "thehackernews.com",
+      "first_seen": "2025-08-13T13:49:47Z",
+      "last_seen": "2025-08-13T13:49:47Z"
+    },
     {
       "id": "86a1cb35eb55685c1b0e3af253dbe2526bd9a8c4",
       "title": "Several Docker Images Contain Infamous XZ Backdoor Planted for More Than a Year",
@@ -10,7 +60,17 @@
       "description": "The cybersecurity community continues to grapple with the lingering effects of the XZ Utils backdoor, a sophisticated supply chain attack that shook the industry in March 2024. What began as a carefully orchestrated two-year campaign by the pseudonymous developer ‘Jia Tan’ has evolved into a persistent threat that extends far beyond its initial discovery. The […] The post Several Docker Images…",
       "source": "cybersecuritynews.com",
       "first_seen": "2025-08-13T11:31:57Z",
-      "last_seen": "2025-08-13T11:31:57Z"
+      "last_seen": "2025-08-13T13:49:47Z"
+    },
+    {
+      "id": "f9a710ef950bae704a6a03fea175a8adbadc188d",
+      "title": "AI SOC 101: Key Capabilities Security Leaders Need to Know",
+      "link": "https://thehackernews.com/2025/08/ai-soc-101-key-capabilities-security.html",
+      "date": "2025-08-13T11:25:00Z",
+      "description": "Security operations have never been a 9-to-5 job. For SOC analysts, the day often starts and ends deep in a queue of alerts, chasing down what turns out to be false positives, or switching between half a dozen tools to piece together context. The work is repetitive, time-consuming, and high-stakes, leaving SOCs under constant pressure to keep up, yet often struggling to stay ahead of emerging",
+      "source": "thehackernews.com",
+      "first_seen": "2025-08-13T13:49:47Z",
+      "last_seen": "2025-08-13T13:49:47Z"
     },
     {
       "id": "a0e0a1f39226e9b4be5c0b8a7b517ab9074a5046",
@@ -20,7 +80,7 @@
       "description": "One of the few things many disliked about ChatGPT was the confusing number of models. OpenAI claimed GPT-5 would fix this, but it seems to have made it worse. [...]",
       "source": "bleepingcomputer.com",
       "first_seen": "2025-08-13T11:31:57Z",
-      "last_seen": "2025-08-13T11:31:57Z"
+      "last_seen": "2025-08-13T13:49:47Z"
     },
     {
       "id": "52c6e0dca826ddcb9102f89b6b77255c145bd014",
@@ -30,7 +90,7 @@
       "description": "The post New Zero-Click Flaw Bypasses Microsoft’s Patch, Leaking NTLM Credentials, PoC Available appeared first on Daily CyberSecurity.",
       "source": "securityonline.info",
       "first_seen": "2025-08-13T11:31:57Z",
-      "last_seen": "2025-08-13T11:31:57Z"
+      "last_seen": "2025-08-13T13:49:47Z"
     },
     {
       "id": "e25bf89d1adeb9819b70afb7f773240e46e4fdaf",
@@ -40,7 +100,7 @@
       "description": "The RansomHub ransomware group stole sensitive information from staffing and recruiting firm Manpower in January. The post Manpower Says Data Breach Stemming From Ransomware Attack Impacts 140,000 appeared first on SecurityWeek.",
       "source": "securityweek.com",
       "first_seen": "2025-08-13T11:31:57Z",
-      "last_seen": "2025-08-13T11:31:57Z"
+      "last_seen": "2025-08-13T13:49:47Z"
     },
     {
       "id": "451b33b050a3654c49e50c41cf3e0c1aa276a9b5",
@@ -50,7 +110,7 @@
       "description": "A sophisticated new ransomware family called Charon has emerged in the cybersecurity landscape, targeting organizations in the Middle East’s public sector and aviation industry with advanced persistent threat (APT) techniques typically reserved for nation-state actors. The ransomware campaign represents a concerning evolution in cybercriminal operations, combining stealth, precision, and…",
       "source": "cybersecuritynews.com",
       "first_seen": "2025-08-13T11:31:57Z",
-      "last_seen": "2025-08-13T11:31:57Z"
+      "last_seen": "2025-08-13T13:49:47Z"
     },
     {
       "id": "fcd1a98f4ffa9645f2ddc86e7be1d208fe4ee1b4",
@@ -60,7 +120,7 @@
       "description": "Microsoft released security patches addressing a significant vulnerability in Windows Remote Desktop Services that could allow unauthorized attackers to launch denial of service attacks over network connections. The vulnerability, designated as CVE-2025-53722, affects multiple Windows versions spanning from legacy systems to the latest Windows Server 2025 and Windows 11 24H2 releases. Key…",
       "source": "cybersecuritynews.com",
       "first_seen": "2025-08-13T10:48:37Z",
-      "last_seen": "2025-08-13T11:31:57Z"
+      "last_seen": "2025-08-13T13:49:47Z"
     },
     {
       "id": "671a5d2fd1611ec8bbbc22ba1e27d8ce2059bc72",
@@ -70,7 +130,7 @@
       "description": "The AI revolution isn’t coming. It’s already here. From copilots that write our emails to autonomous agents that can take action without us lifting a finger, AI is transforming how we work. But here’s the uncomfortable truth: Attackers are evolving just as fast. Every leap forward in AI gives bad actors new tools — deepfake scams so real they trick your CFO, bots that can bypass human review,",
       "source": "thehackernews.com",
       "first_seen": "2025-08-13T10:48:37Z",
-      "last_seen": "2025-08-13T11:31:57Z"
+      "last_seen": "2025-08-13T13:49:47Z"
     },
     {
       "id": "eabfce10553f8ef5720306ad50d9d1804d9da7f2",
@@ -80,7 +140,7 @@
       "description": "Fortinet and Ivanti have published new security advisories for their August 2025 Patch Tuesday updates. The post Fortinet, Ivanti Release August 2025 Security Patches appeared first on SecurityWeek.",
       "source": "securityweek.com",
       "first_seen": "2025-08-13T09:44:49Z",
-      "last_seen": "2025-08-13T11:31:57Z"
+      "last_seen": "2025-08-13T13:49:47Z"
     },
     {
       "id": "93f6678d3fac3f7d50cddad65c7f7389311eabe8",
@@ -90,7 +150,7 @@
       "description": "A sophisticated cybercriminal operation disguised as a Ukrainian Web3 development team has been targeting job seekers through weaponized NPM packages, security researchers warn. The attack leverages fake interview processes to trick unsuspecting candidates into downloading and executing malicious code that steals cryptocurrency wallets, browser data, and sensitive personal information. The…",
       "source": "cybersecuritynews.com",
       "first_seen": "2025-08-13T09:44:49Z",
-      "last_seen": "2025-08-13T11:31:57Z"
+      "last_seen": "2025-08-13T13:49:47Z"
     },
     {
       "id": "3419e0ba3b20d1cecdc511708c91c164bb7c2ae2",
@@ -120,7 +180,7 @@
       "description": "Microsoft on Tuesday rolled out fixes for a massive set of 111 security flaws across its software portfolio, including one flaw that has been disclosed as publicly known at the time of the release. Of the 111 vulnerabilities, 16 are rated Critical, 92 are rated Important, two are rated Moderate, and one is rated Low in severity. Forty-four of the vulnerabilities relate to privilege",
       "source": "thehackernews.com",
       "first_seen": "2025-08-13T09:11:28Z",
-      "last_seen": "2025-08-13T11:31:57Z"
+      "last_seen": "2025-08-13T13:49:47Z"
     },
     {
       "id": "e9b048f01cf928ba6ea46a0fb03ce46b20992a99",
@@ -140,7 +200,7 @@
       "description": "August 2025 ICS Patch Tuesday advisories have been published by Siemens, Schneider, Aveva, Honeywell, ABB and Phoenix Contact. The post ICS Patch Tuesday: Major Vendors Address Code Execution Vulnerabilities appeared first on SecurityWeek.",
       "source": "securityweek.com",
       "first_seen": "2025-08-13T09:11:28Z",
-      "last_seen": "2025-08-13T11:31:57Z"
+      "last_seen": "2025-08-13T13:49:47Z"
     },
     {
       "id": "00dda488f6778c6ea6245854d58cdf9e9c2fee5f",
@@ -170,7 +230,7 @@
       "description": "Cybersecurity researchers have discovered a new campaign that employs a previously undocumented ransomware family called Charon to target the Middle East's public sector and aviation industry. The threat actor behind the activity, according to Trend Micro, exhibited tactics mirroring those of advanced persistent threat (APT) groups, such as DLL side-loading, process injection, and the ability",
       "source": "thehackernews.com",
       "first_seen": "2025-08-13T09:11:28Z",
-      "last_seen": "2025-08-13T11:31:57Z"
+      "last_seen": "2025-08-13T13:49:47Z"
     },
     {
       "id": "11183740c8a5a6e584a5fd45584679adf65d2087",
@@ -180,7 +240,7 @@
       "description": "Adobe’s security updates fix vulnerabilities in Commerce, Substance, InDesign, FrameMaker, Dimension and other products. The post Adobe Patches Over 60 Vulnerabilities Across 13 Products appeared first on SecurityWeek.",
       "source": "securityweek.com",
       "first_seen": "2025-08-13T09:11:28Z",
-      "last_seen": "2025-08-13T11:31:57Z"
+      "last_seen": "2025-08-13T13:49:47Z"
     },
     {
       "id": "13fc024bc3ae581fa6dda50789c33e6297c8c66b",
@@ -203,6 +263,16 @@
       "last_seen": "2025-08-13T11:31:57Z"
     },
     {
+      "id": "a098f5685a4b2b6acee6f9274773e0e64ef6909d",
+      "title": "China Questions Security of AI Chips From NVIDIA, AMD",
+      "link": "https://www.darkreading.com/cyber-risk/china-questions-security-ai-chips-nvidia-amd",
+      "date": "2025-08-13T01:00:00Z",
+      "description": "The US banned the sale of AI chips to China and then backed off. Now, Chinese sources are calling on NVIDIA to prove its AI chips have no backdoors.",
+      "source": "darkreading.com",
+      "first_seen": "2025-08-13T13:49:47Z",
+      "last_seen": "2025-08-13T13:49:47Z"
+    },
+    {
       "id": "94e1e1a0ab942f561b5a001bce0164d10852f9e4",
       "title": "Claude gets 1M tokens support via API to take on Gemini 2.5 Pro",
       "link": "https://www.bleepingcomputer.com/news/artificial-intelligence/claude-gets-1m-tokens-support-via-api-to-take-on-gemini-25-pro/",
@@ -210,7 +280,7 @@
       "description": "Claude Sonnet 4 has been upgraded, and it can now remember up to 1 million tokens of context, but only when it's used via API. This could change in the future. [...]",
       "source": "bleepingcomputer.com",
       "first_seen": "2025-08-13T09:11:28Z",
-      "last_seen": "2025-08-13T11:31:57Z"
+      "last_seen": "2025-08-13T13:49:47Z"
     },
     {
       "id": "b776476f51be0cded5c20778d63df42fef275d42",
@@ -220,7 +290,7 @@
       "description": "Hackers have released stolen data belonging to US insurance giant Allianz Life, exposing 2.8 million records with sensitive information on business partners and customers in ongoing Salesforce data theft attacks. [...]",
       "source": "bleepingcomputer.com",
       "first_seen": "2025-08-13T09:11:28Z",
-      "last_seen": "2025-08-13T11:31:57Z"
+      "last_seen": "2025-08-13T13:49:47Z"
     },
     {
       "id": "59c8f3e8dcc4832b4240ae5a549b8212fac77fc4",
@@ -230,7 +300,7 @@
       "description": "The company's August security update consisted of patches for 111 unique Common Vulnerabilities and Exposures (CVEs).",
       "source": "darkreading.com",
       "first_seen": "2025-08-13T09:11:28Z",
-      "last_seen": "2025-08-13T11:31:57Z"
+      "last_seen": "2025-08-13T13:49:47Z"
     },
     {
       "id": "4e33cb37d54320dbf4a43d2e721995593c2053a1",
@@ -310,7 +380,7 @@
       "description": "The first documented deployment of the novel malware in a campaign against the Middle Eastern public sector and aviation industry may be tied to China's state-sponsored actor Earth Baxia.",
       "source": "darkreading.com",
       "first_seen": "2025-08-13T09:11:28Z",
-      "last_seen": "2025-08-13T11:31:57Z"
+      "last_seen": "2025-08-13T13:49:47Z"
     },
     {
       "id": "4b2a32b15c4404adf86aaf90039284f7b9d3d2e2",
@@ -320,7 +390,7 @@
       "description": "Securing business logic isn't just a technical requirement — it's a business imperative.",
       "source": "darkreading.com",
       "first_seen": "2025-08-13T09:11:28Z",
-      "last_seen": "2025-08-13T11:31:57Z"
+      "last_seen": "2025-08-13T13:49:47Z"
     },
     {
       "id": "d468e33b31dbcf8c53756b236ff385ea874a2689",
@@ -340,7 +410,57 @@
       "description": "There's growing evidence that two of arguably the most dangerous cybercrime groups out there are tag-teaming big targets.",
       "source": "darkreading.com",
       "first_seen": "2025-08-13T09:11:28Z",
-      "last_seen": "2025-08-13T11:31:57Z"
+      "last_seen": "2025-08-13T13:49:47Z"
+    },
+    {
+      "id": "df4c02fd4af05c79db79b9031d3b4531c63d7d58",
+      "title": "ZDI-CAN-27349: Siemens",
+      "link": "http://www.zerodayinitiative.com/advisories/upcoming/",
+      "date": "2025-08-12T05:00:00Z",
+      "description": "A CVSS score 7.8 AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H severity vulnerability discovered by 'Rocco Calvi (@TecR0c) with TecSecurity' was reported to the affected vendor on: 2025-08-12, 1 days ago. The vendor is given until 2025-12-10 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
+      "source": "zerodayinitiative.com",
+      "first_seen": "2025-08-13T13:49:47Z",
+      "last_seen": "2025-08-13T13:49:47Z"
+    },
+    {
+      "id": "5c466f2384d269aaedefa232a35b48d510adb7fb",
+      "title": "ZDI-CAN-27857: NVIDIA",
+      "link": "http://www.zerodayinitiative.com/advisories/upcoming/",
+      "date": "2025-08-12T05:00:00Z",
+      "description": "A CVSS score 7.5 AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N severity vulnerability discovered by 'Peter Girnus (@gothburz) of Trend Zero Day Initiative' was reported to the affected vendor on: 2025-08-12, 1 days ago. The vendor is given until 2025-12-10 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
+      "source": "zerodayinitiative.com",
+      "first_seen": "2025-08-13T13:49:47Z",
+      "last_seen": "2025-08-13T13:49:47Z"
+    },
+    {
+      "id": "2d798239556972dd2968f629bb31d1f8d8f89dce",
+      "title": "ZDI-CAN-27874: NVIDIA",
+      "link": "http://www.zerodayinitiative.com/advisories/upcoming/",
+      "date": "2025-08-12T05:00:00Z",
+      "description": "A CVSS score 7.5 AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N severity vulnerability discovered by 'Peter Girnus (@gothburz) of Trend Zero Day Initiative' was reported to the affected vendor on: 2025-08-12, 1 days ago. The vendor is given until 2025-12-10 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
+      "source": "zerodayinitiative.com",
+      "first_seen": "2025-08-13T13:49:47Z",
+      "last_seen": "2025-08-13T13:49:47Z"
+    },
+    {
+      "id": "7fb7a3124ffcddee5f1c9cd3b8a615d62f90275f",
+      "title": "ZDI-CAN-27858: NVIDIA",
+      "link": "http://www.zerodayinitiative.com/advisories/upcoming/",
+      "date": "2025-08-12T05:00:00Z",
+      "description": "A CVSS score 9.8 AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H severity vulnerability discovered by 'Peter Girnus (@gothburz) of Trend Zero Day Initiative' was reported to the affected vendor on: 2025-08-12, 1 days ago. The vendor is given until 2025-12-10 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
+      "source": "zerodayinitiative.com",
+      "first_seen": "2025-08-13T13:49:47Z",
+      "last_seen": "2025-08-13T13:49:47Z"
+    },
+    {
+      "id": "88be4e19f9e586d30628e13acae52a2348806331",
+      "title": "ZDI-CAN-27146: Siemens",
+      "link": "http://www.zerodayinitiative.com/advisories/upcoming/",
+      "date": "2025-08-12T05:00:00Z",
+      "description": "A CVSS score 7.8 AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H severity vulnerability discovered by 'Rocco Calvi (@TecR0c) with TecSecurity' was reported to the affected vendor on: 2025-08-12, 1 days ago. The vendor is given until 2025-12-10 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
+      "source": "zerodayinitiative.com",
+      "first_seen": "2025-08-13T13:49:47Z",
+      "last_seen": "2025-08-13T13:49:47Z"
     },
     {
       "id": "f2474b0b8520b44949c1ddf3353b6f4c397f9a67",
@@ -350,7 +470,7 @@
       "description": "The post Critical macOS Flaw (CVSS 9.8) Bypasses TCC Without Root Access: PoC Published appeared first on Daily CyberSecurity.",
       "source": "securityonline.info",
       "first_seen": "2025-08-13T09:11:28Z",
-      "last_seen": "2025-08-13T11:31:57Z"
+      "last_seen": "2025-08-13T13:49:47Z"
     },
     {
       "id": "120092f90a877804e589f3026df19ff1b6125254",
@@ -360,7 +480,7 @@
       "description": "The post Critical Flaw (CVSS 9.8) in Ubiquiti UniFi Connect EV Stations Allows Remote Code Execution appeared first on Daily CyberSecurity.",
       "source": "securityonline.info",
       "first_seen": "2025-08-13T09:11:28Z",
-      "last_seen": "2025-08-13T11:31:57Z"
+      "last_seen": "2025-08-13T13:49:47Z"
     },
     {
       "id": "effc01bfa7af4383753d54b9c46224d7c1573704",
@@ -370,7 +490,7 @@
       "description": "The post VirtualBox VM Escape: Integer Overflow Flaw Allows Full Host Takeover, PoC Published appeared first on Daily CyberSecurity.",
       "source": "securityonline.info",
       "first_seen": "2025-08-13T09:11:28Z",
-      "last_seen": "2025-08-13T11:31:57Z"
+      "last_seen": "2025-08-13T13:49:47Z"
     },
     {
       "id": "32ff6817e0e4c03c215620ec847c8dc8cfd74b27",
@@ -380,7 +500,7 @@
       "description": "The post Critical Dell DD OS Flaw (CVSS 9.8) Allows Unauthenticated Remote Access appeared first on Daily CyberSecurity.",
       "source": "securityonline.info",
       "first_seen": "2025-08-13T09:11:28Z",
-      "last_seen": "2025-08-13T11:31:57Z"
+      "last_seen": "2025-08-13T13:49:47Z"
     },
     {
       "id": "87e65944634b6fcec8720600dd9b123c618b85bc",
@@ -400,7 +520,7 @@
       "description": "2.5 million people were affected, in a breach that could spell more trouble down the line.",
       "source": "threatpost.com",
       "first_seen": "2025-08-13T09:11:28Z",
-      "last_seen": "2025-08-13T11:31:57Z"
+      "last_seen": "2025-08-13T13:49:47Z"
     },
     {
       "id": "4140c7a34b0ba94ad2e6b0cae9f59b0cb9bfffea",
@@ -410,7 +530,7 @@
       "description": "Researchers uncover a watering hole attack likely carried out by APT TA423, which attempts to plant the ScanBox JavaScript-based reconnaissance tool.",
       "source": "threatpost.com",
       "first_seen": "2025-08-13T09:11:28Z",
-      "last_seen": "2025-08-13T11:31:57Z"
+      "last_seen": "2025-08-13T13:49:47Z"
     },
     {
       "id": "9359ee40a641a4b565080313045f1d7e7fe6552b",
@@ -420,7 +540,7 @@
       "description": "Over 130 companies tangled in sprawling phishing campaign that spoofed a multi-factor authentication system.",
       "source": "threatpost.com",
       "first_seen": "2025-08-13T09:11:28Z",
-      "last_seen": "2025-08-13T11:31:57Z"
+      "last_seen": "2025-08-13T13:49:47Z"
     },
     {
       "id": "b4ccef0737cd4050d65241bf754072030b6b5e6a",
@@ -430,7 +550,7 @@
       "description": "Lockbit is by far this summer’s most prolific ransomware group, trailed by two offshoots of the Conti group.",
       "source": "threatpost.com",
       "first_seen": "2025-08-13T09:11:28Z",
-      "last_seen": "2025-08-13T11:31:57Z"
+      "last_seen": "2025-08-13T13:49:47Z"
     },
     {
       "id": "12ee113fc8fce91f6d7fb28deab2b1ad20061ec7",
@@ -440,7 +560,7 @@
       "description": "Tens of thousands of cameras have failed to patch a critical, 11-month-old CVE, leaving thousands of organizations exposed.",
       "source": "threatpost.com",
       "first_seen": "2025-08-13T09:11:28Z",
-      "last_seen": "2025-08-13T11:31:57Z"
+      "last_seen": "2025-08-13T13:49:47Z"
     }
   ]
 }
