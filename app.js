@@ -14,11 +14,20 @@ document.addEventListener("DOMContentLoaded", () => {
   const yearEl = document.getElementById("year");
   const iconSun = document.getElementById("icon-sun");
   const iconMoon = document.getElementById("icon-moon");
+  const datasetControls = document.getElementById('dataset-controls');
+  const segButtons = () => Array.from(datasetControls.querySelectorAll('.seg-btn'));
+  const daySelect = document.getElementById('day-select');
+  const daySelectLabel = document.getElementById('day-select-label');
+  const datasetBadges = document.getElementById('dataset-badges');
 
   yearEl.textContent = new Date().getFullYear();
 
   let allNews = [];
   let filtered = [];
+  let mode = 'latest'; // 'latest' | 'archive' | 'day'
+  let historyIndex = null; // loaded index.json
+  let currentDay = null; // selected day
+  let archiveMeta = null; // archive metadata for badges
 
   // Theme handling
   function applyTheme(theme) {
@@ -49,7 +58,8 @@ document.addEventListener("DOMContentLoaded", () => {
 
   function renderStats() {
     statsEl.classList.remove('hidden');
-    statsEl.innerHTML = `<strong>${filtered.length}</strong> shown (last 30 days)`;
+    const windowText = mode === 'latest' ? 'last 30 days' : (mode === 'archive' ? `archive (${archiveMeta?.retention_days || 0}d)` : (currentDay || '')); 
+    statsEl.innerHTML = `<strong>${filtered.length}</strong> shown <span class="opacity-70">(${windowText})</span>`;
   }
 
   function normalizeDate(d) {
@@ -122,12 +132,124 @@ document.addEventListener("DOMContentLoaded", () => {
     });
   }
 
+  function setMode(newMode) {
+    if (mode === newMode) return;
+    mode = newMode;
+    segButtons().forEach(btn => {
+      const active = btn.dataset.mode === mode;
+      btn.classList.toggle('active', active);
+      btn.setAttribute('aria-pressed', active ? 'true' : 'false');
+    });
+    // Show/Hide day selector
+    const showDay = mode === 'day';
+    daySelect.classList.toggle('hidden', !showDay);
+    daySelectLabel.classList.toggle('hidden', !showDay);
+    // Load appropriate dataset
+    if (mode === 'latest') {
+      fetchNews();
+    } else if (mode === 'archive') {
+      fetchArchive();
+    } else if (mode === 'day') {
+      ensureHistoryIndex().then(() => {
+        if (!currentDay && historyIndex?.days?.length) {
+          currentDay = historyIndex.days[0].date;
+          buildDaySelect();
+        }
+        if (currentDay) fetchDay(currentDay);
+      });
+    }
+  }
+
+  function updateSegmentedSlider() {
+    const wrapper = datasetControls.querySelector('.segmented');
+    const activeBtn = wrapper.querySelector('.seg-btn.active');
+    if (!activeBtn) return;
+    const rect = activeBtn.getBoundingClientRect();
+    const wRect = wrapper.getBoundingClientRect();
+    wrapper.style.setProperty('--seg-w', rect.width + 'px');
+    wrapper.style.setProperty('--seg-x', (rect.left - wRect.left) + 'px');
+  }
+  window.addEventListener('resize', updateSegmentedSlider);
+
+  function buildBadges() {
+    datasetBadges.innerHTML = '';
+    if (mode === 'archive' && archiveMeta) {
+      addBadge('archive', `${archiveMeta.count} items`, 'Archive size');
+      addBadge('archive', `${archiveMeta.retention_days}d retention`, 'Retention window');
+    }
+    if (mode === 'day' && currentDay) {
+      addBadge('day', currentDay, 'Selected day');
+    }
+  }
+  function addBadge(modeValue, text, title) {
+    const span = document.createElement('span');
+    span.className = 'badge';
+    span.dataset.mode = modeValue;
+    span.textContent = text;
+    if (title) span.title = title;
+    datasetBadges.appendChild(span);
+  }
+
+  function ensureHistoryIndex() {
+    if (historyIndex) return Promise.resolve(historyIndex);
+    return fetch('history/index.json?_=' + Date.now())
+      .then(r => { if (!r.ok) throw new Error('index'); return r.json(); })
+      .then(idx => { historyIndex = idx; buildDaySelect(); return idx; })
+      .catch(e => { console.warn('No history index yet', e); });
+  }
+
+  function buildDaySelect() {
+    if (!historyIndex?.days) return;
+    daySelect.innerHTML = historyIndex.days.map(d => `<option value="${d.date}">${d.date} (${d.count})</option>`).join('');
+    if (currentDay) daySelect.value = currentDay;
+  }
+
+  daySelect?.addEventListener('change', () => {
+    currentDay = daySelect.value;
+    if (currentDay) fetchDay(currentDay);
+  });
+
+  function fetchDay(day) {
+    container.classList.add('loading');
+    showLoader();
+    fetch(`history/${day}.json?_=${Date.now()}`)
+      .then(r => { if(!r.ok) throw new Error('day'); return r.json(); })
+      .then(data => {
+        hideLoader();
+        container.classList.remove('loading');
+        const items = data.items || [];
+        allNews = items; // day view shows that day only
+        applyFilters();
+        buildBadges();
+      })
+      .catch(e => { hideLoader(); container.classList.remove('loading'); console.error(e); });
+  }
+
+  function fetchArchive() {
+    container.classList.add('loading');
+    showLoader();
+    fetch('archive.json?_=' + Date.now())
+      .then(r => { if(!r.ok) throw new Error('archive'); return r.json(); })
+      .then(data => {
+        hideLoader();
+        container.classList.remove('loading');
+        archiveMeta = data;
+        const items = data.items || [];
+        allNews = items; // full archive (already trimmed by retention)
+        applyFilters();
+        buildBadges();
+      })
+      .catch(e => { hideLoader(); container.classList.remove('loading'); console.error(e); });
+  }
+
   function fetchNews(force = false) {
+    container.classList.add('loading');
     showLoader();
     fetch('news.json' + (force ? `?t=${Date.now()}` : ''))
       .then(res => { if(!res.ok) throw new Error('HTTP '+res.status); return res.json(); })
       .then(payload => {
         hideLoader();
+        container.classList.remove('loading');
         const data = Array.isArray(payload) ? payload : (payload.items || []);
         const THIRTY_DAYS = 1000*60*60*24*30;
         const now = Date.now();
@@ -136,24 +258,22 @@ document.addEventListener("DOMContentLoaded", () => {
           return !ts || (now - ts) <= THIRTY_DAYS; // keep if within 30 days or date missing
         });
         applyFilters();
+        buildBadges();
       })
-      .catch(err => { hideLoader(); container.innerHTML = '<p class="col-span-full text-red-600">Failed to load news.</p>'; console.error(err); });
+      .catch(err => { hideLoader(); container.classList.remove('loading'); container.innerHTML = '<p class="col-span-full text-red-600">Failed to load news.</p>'; console.error(err); });
   }
 
-  // Events
-  [searchInput, sortSelect].forEach(el => el && el.addEventListener('input', applyFilters));
-  clearFilters.addEventListener('click', () => { searchInput.value=''; sortSelect.value='latest'; applyFilters(); });
-  refreshBtn.addEventListener('click', () => fetchNews(true));
-
-  window.addEventListener('scroll', () => {
-    const show = window.scrollY > 400;
-    scrollTopBtn.classList.toggle('show', show);
+  // Segmented control events
+  datasetControls?.addEventListener('click', (e) => {
+    const btn = e.target.closest('.seg-btn');
+    if (!btn) return;
+    setMode(btn.dataset.mode);
+    updateSegmentedSlider();
   });
-  scrollTopBtn.addEventListener('click', () => window.scrollTo({ top:0, behavior:'smooth' }));
 
-  aboutLink.addEventListener('click', (e) => { e.preventDefault(); aboutDialog?.showModal(); });
-  aboutDialog?.addEventListener('click', (e) => { if (e.target === aboutDialog) aboutDialog.close(); });
+  // After first paint adjust slider
+  setTimeout(updateSegmentedSlider, 150);
 
-  // Initial load
+  // Initial load still uses latest mode
   fetchNews();
 });

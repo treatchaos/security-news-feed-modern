@@ -8,6 +8,11 @@ feedparser.USER_AGENT = USER_AGENT
 MAX_ITEMS_PER_FEED = int(os.environ.get("MAX_ITEMS_PER_FEED", 5))
 DESC_LIMIT = int(os.environ.get("DESC_LIMIT", 400))
 ENABLE_CONCURRENCY = os.environ.get("DISABLE_CONCURRENCY") is None
+# New archive-related settings
+RETENTION_DAYS = int(os.environ.get("RETENTION_DAYS", 90))
+ARCHIVE_PATH = os.environ.get("ARCHIVE_PATH", "archive.json")
+HISTORY_DIR = os.environ.get("HISTORY_DIR", "history")  # per-day files
+HISTORY_INDEX_PATH = os.path.join(HISTORY_DIR, "index.json")
 
 SOURCES = [
     "https://securityonline.info/category/news/vulnerability/feed/",
@@ -56,6 +61,37 @@ def domain_from_link(link: str) -> str:
 
 def hash_entry(title: str, link: str) -> str:
     return hashlib.sha1(f"{title}|{link}".encode()).hexdigest()
+
+# New helper functions for archive management
+
+def parse_iso(ts: str):
+    if not ts:
+        return None
+    try:
+        # Support both Z and +00:00
+        if ts.endswith('Z'):
+            ts = ts.replace('Z', '+00:00')
+        return datetime.datetime.fromisoformat(ts)
+    except Exception:
+        return None
+
+def load_json(path):
+    if not os.path.exists(path):
+        return None
+    try:
+        with open(path, 'r', encoding='utf-8') as f:
+            return json.load(f)
+    except Exception:
+        return None
+
+def write_json_if_changed(path, data):
+    existing = load_json(path)
+    if existing == data:
+        return False
+    os.makedirs(os.path.dirname(path) or '.', exist_ok=True)
+    with open(path, 'w', encoding='utf-8') as f:
+        json.dump(data, f, indent=2, ensure_ascii=False)
+    return True
 
 # ----------------- Fetch -----------------
 
@@ -125,23 +161,122 @@ def read_existing(path):
         return None
 
 def main():
+    now_dt = datetime.datetime.now(datetime.timezone.utc)
+    now_str = now_dt.strftime('%Y-%m-%dT%H:%M:%SZ')
     items = sort_items(gather_items())
     payload = {
-        "last_updated": datetime.datetime.now(datetime.timezone.utc).strftime('%Y-%m-%dT%H:%M:%SZ'),
+        "last_updated": now_str,
         "count": len(items),
         "items": items
     }
     out_path = 'news.json'
-    existing = read_existing(out_path)
+    existing = load_json(out_path)
     # Backward compatibility: legacy file was a raw list
     if isinstance(existing, list):
         existing = {"items": existing}
     if isinstance(existing, dict) and existing.get('items') == payload['items']:
-        print("No content changes; skipping file update.")
+        print("No content changes; skipping file update (news.json & archive).")
         return
+    # Write latest snapshot
     with open(out_path, 'w', encoding='utf-8') as f:
         json.dump(payload, f, indent=2, ensure_ascii=False)
-    print(f"Wrote {payload['count']} items -> {out_path}")
+    print(f"Wrote {payload['count']} items -> {out_path}\nUpdating archive & daily history...")
+
+    # ---- Archive update ----
+    archive = load_json(ARCHIVE_PATH) or {"items": []}
+    if isinstance(archive, list):  # legacy safety
+        archive = {"items": archive}
+    archive_items = archive.get('items', [])
+
+    # Build map
+    idx = {it.get('id') or hash_entry(it['title'], it['link']): it for it in archive_items}
+
+    changed = False
+    for it in items:
+        _id = hash_entry(it['title'], it['link'])
+        if _id not in idx:
+            new_entry = {
+                "id": _id,
+                **it,
+                "first_seen": now_str,
+                "last_seen": now_str
+            }
+            idx[_id] = new_entry
+            changed = True
+        else:
+            # Update last_seen if different
+            if idx[_id].get('last_seen') != now_str:
+                idx[_id]['last_seen'] = now_str
+                changed = True
+            # Optionally refresh description if new one longer
+            if len(it.get('description','')) > len(idx[_id].get('description','')):
+                idx[_id]['description'] = it['description']
+
+    # Retention pruning
+    cutoff = now_dt - datetime.timedelta(days=RETENTION_DAYS)
+    pruned = {}
+    for _id, it in idx.items():
+        fs = parse_iso(it.get('first_seen'))
+        if not fs or fs >= cutoff:
+            pruned[_id] = it
+        else:
+            changed = True
+    idx = pruned
+
+    # Sort archive by original article date (fallback: first_seen) desc
+    def sort_key(a):
+        d = parse_iso(a.get('date')) or parse_iso(a.get('first_seen')) or datetime.datetime.min.replace(tzinfo=datetime.timezone.utc)
+        return d
+    archive_sorted = sorted(idx.values(), key=sort_key, reverse=True)
+
+    archive_payload = {
+        "last_updated": now_str,
+        "retention_days": RETENTION_DAYS,
+        "count": len(archive_sorted),
+        "items": archive_sorted
+    }
+
+    if changed or not os.path.exists(ARCHIVE_PATH):
+        with open(ARCHIVE_PATH, 'w', encoding='utf-8') as f:
+            json.dump(archive_payload, f, indent=2, ensure_ascii=False)
+        print(f"Archive updated: {len(archive_sorted)} items -> {ARCHIVE_PATH}")
+    else:
+        print("Archive unchanged (no new/pruned items).")
+
+    # ---- Daily history & index ----
+    # Group by first_seen date (YYYY-MM-DD)
+    groups = {}
+    for it in archive_sorted:
+        fs = it.get('first_seen', '')[:10]
+        if not fs:
+            continue
+        groups.setdefault(fs, []).append(it)
+
+    os.makedirs(HISTORY_DIR, exist_ok=True)
+    # Write per-day files
+    day_write_count = 0
+    for day, day_items in groups.items():
+        day_path = os.path.join(HISTORY_DIR, f"{day}.json")
+        # Store a compact version without archive-only fields? Keep full for flexibility.
+        if write_json_if_changed(day_path, {"date": day, "count": len(day_items), "items": day_items}):
+            day_write_count += 1
+
+    # Build index
+    daily_summary = [
+        {"date": day, "count": len(items)} for day, items in sorted(groups.items(), reverse=True)
+    ]
+    index_payload = {
+        "generated": now_str,
+        "retention_days": RETENTION_DAYS,
+        "days": daily_summary
+    }
+    if write_json_if_changed(HISTORY_INDEX_PATH, index_payload):
+        print(f"History index updated ({len(daily_summary)} days) -> {HISTORY_INDEX_PATH}")
+    else:
+        print("History index unchanged.")
+
+    if day_write_count:
+        print(f"Updated {day_write_count} daily history file(s).")
 
 if __name__ == '__main__':
     main()

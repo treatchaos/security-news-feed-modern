@@ -32,19 +32,34 @@
       </div>
     </div>
     <div class="border-t border-gray-200 dark:border-gray-800">
-      <div class="max-w-7xl mx-auto px-4 py-3 flex flex-col sm:flex-row gap-3 sm:items-center">
-        <div class="relative flex-1">
-          <input id="search" type="text" placeholder="Search title or description..." class="input w-full" aria-label="Search news" />
-          <svg class="w-5 h-5 text-gray-400 absolute top-1/2 -translate-y-1/2 right-3 pointer-events-none" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/></svg>
+      <div class="max-w-7xl mx-auto px-4 py-3 flex flex-col gap-4">
+        <div class="flex flex-col sm:flex-row gap-3 sm:items-center w-full">
+          <div class="relative flex-1">
+            <input id="search" type="text" placeholder="Search title or description..." class="input w-full" aria-label="Search news" />
+            <svg class="w-5 h-5 text-gray-400 absolute top-1/2 -translate-y-1/2 right-3 pointer-events-none" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/></svg>
+          </div>
+          <div class="flex gap-2 flex-wrap items-stretch">
+            <select id="sort" class="input pr-8" aria-label="Sort news">
+              <option value="latest">Latest</option>
+              <option value="oldest">Oldest</option>
+              <option value="az">Title A→Z</option>
+              <option value="za">Title Z→A</option>
+            </select>
+            <button id="clear-filters" class="btn-subtle" aria-label="Clear filters">Clear</button>
+          </div>
         </div>
-        <div class="flex gap-2 flex-wrap">
-          <select id="sort" class="input pr-8" aria-label="Sort news">
-            <option value="latest">Latest</option>
-            <option value="oldest">Oldest</option>
-            <option value="az">Title A→Z</option>
-            <option value="za">Title Z→A</option>
-          </select>
-          <button id="clear-filters" class="btn-subtle" aria-label="Clear filters">Clear</button>
+        <!-- Dataset controls -->
+        <div id="dataset-controls" class="flex flex-wrap items-center gap-3">
+          <div class="segmented" role="radiogroup" aria-label="Dataset mode">
+            <button type="button" class="seg-btn active" data-mode="latest" aria-pressed="true">Latest</button>
+            <button type="button" class="seg-btn" data-mode="archive" aria-pressed="false">Archive</button>
+            <button type="button" class="seg-btn" data-mode="day" aria-pressed="false">Day</button>
+          </div>
+          <div class="flex items-center gap-2">
+            <label for="day-select" class="text-xs uppercase tracking-wide text-gray-500 dark:text-gray-400 hidden" id="day-select-label">Day</label>
+            <select id="day-select" class="input pr-8 hidden"></select>
+          </div>
+          <div id="dataset-badges" class="flex flex-wrap gap-2 text-xs"></div>
         </div>
       </div>
     </div>

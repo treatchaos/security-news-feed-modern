@@ -95,3 +95,30 @@ body, input, button { -webkit-font-smoothing:antialiased; }
 
 /* Utility */
 .hidden { display:none !important; }
+.segmented { display:inline-flex; background:rgba(255,255,255,0.55); backdrop-filter:saturate(150%) blur(14px); border:1px solid var(--color-border); border-radius:0.75rem; overflow:hidden; position:relative; }
+.dark .segmented { background:rgba(31,41,55,0.55); border:1px solid rgba(255,255,255,0.1); }
+.seg-btn { position:relative; appearance:none; border:none; background:transparent; font-size:.75rem; letter-spacing:.05em; padding:.55rem .9rem; font-weight:600; text-transform:uppercase; color:#475569; cursor:pointer; transition:color .25s; }
+.dark .seg-btn { color:#94a3b8; }
+.seg-btn:hover { color:#111827; }
+.dark .seg-btn:hover { color:#f1f5f9; }
+.seg-btn.active { color:#111827; }
+.dark .seg-btn.active { color:#ffffff; }
+.segmented:before { content:""; position:absolute; top:3px; bottom:3px; width: var(--seg-w, 0); left: var(--seg-x, 0); background:linear-gradient(135deg,#ffffff,#eef2ff); border-radius:0.55rem; box-shadow:0 2px 6px rgba(0,0,0,0.08); transition: left .35s cubic-bezier(.4,0,.2,1), width .35s; }
+.dark .segmented:before { background:linear-gradient(135deg,#1f2937,#334155); box-shadow:0 2px 6px rgba(0,0,0,0.4); }
+
+#day-select.hidden { display:none; }
+#day-select-label.hidden { display:none; }
+
+#dataset-badges .badge { display:inline-flex; align-items:center; gap:.35rem; background:rgba(255,255,255,0.6); padding:.35rem .6rem; border-radius:999px; font-weight:500; color:#334155; border:1px solid var(--color-border); font-size:.65rem; letter-spacing:.05em; backdrop-filter:saturate(150%) blur(8px); }
+.dark #dataset-badges .badge { background:rgba(31,41,55,0.6); color:#cbd5e1; border:1px solid rgba(255,255,255,0.08); }
+#dataset-badges .badge strong { font-weight:600; }
+
+/* Mode color accents */
+.badge[data-mode="latest"] { background:linear-gradient(135deg,#dbeafe,#e0f2fe); }
+.badge[data-mode="archive"] { background:linear-gradient(135deg,#ede9fe,#e0e7ff); }
+.badge[data-mode="day"] { background:linear-gradient(135deg,#fee2e2,#ffe4e6); }
+.dark .badge[data-mode] { filter:brightness(.9) saturate(1.1); }
+
+/* Smooth fade for content reload (optional) */
+#news-container { transition: opacity .35s; }
+#news-container.loading { opacity:.35; }
