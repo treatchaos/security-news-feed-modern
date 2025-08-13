@@ -43,7 +43,7 @@ body, input, button { -webkit-font-smoothing:antialiased; }
 /* Enhanced cards */
 .news-card { position: relative; border: 1px solid var(--color-border); display: flex; flex-direction: column; background:rgba(255,255,255,0.85); backdrop-filter:saturate(160%) blur(18px); box-shadow:var(--shadow-sm); border-radius:1rem; overflow:hidden; }
 .dark .news-card { background:rgba(31,41,55,0.75); border:1px solid rgba(255,255,255,0.08); }
-.news-card:after { content:""; position:absolute; inset:0; opacity:0; background:linear-gradient(120deg,rgba(255,255,255,0.4),rgba(255,255,255,0)); transition:opacity .4s; }
+.news-card:after { content:""; position:absolute; inset:0; opacity:0; background:linear-gradient(120deg,rgba(255,255,255,0.4),rgba(255,255,255,0)); transition:opacity .4s; pointer-events:none; }
 .news-card:hover:after { opacity:1; }
 .news-card:hover { transform:translateY(-4px) scale(1.01); box-shadow:var(--shadow-lg); }
 .news-card h2 a { background:linear-gradient(90deg,var(--color-accent),#3b82f6); -webkit-background-clip:text; background-clip:text; color:transparent; }
