@@ -174,13 +174,14 @@ def main():
     # Backward compatibility: legacy file was a raw list
     if isinstance(existing, list):
         existing = {"items": existing}
-    if isinstance(existing, dict) and existing.get('items') == payload['items']:
-        print("No content changes; skipping file update (news.json & archive).")
-        return
-    # Write latest snapshot
-    with open(out_path, 'w', encoding='utf-8') as f:
-        json.dump(payload, f, indent=2, ensure_ascii=False)
-    print(f"Wrote {payload['count']} items -> {out_path}\nUpdating archive & daily history...")
+    news_unchanged = isinstance(existing, dict) and existing.get('items') == payload['items']
+    if news_unchanged:
+        print("No content changes in news.json (will still ensure archive & history).")
+    else:
+        with open(out_path, 'w', encoding='utf-8') as f:
+            json.dump(payload, f, indent=2, ensure_ascii=False)
+        print(f"Wrote {payload['count']} items -> {out_path}")
+    print("Updating archive & daily history...")
 
     # ---- Archive update ----
     archive = load_json(ARCHIVE_PATH) or {"items": []}
