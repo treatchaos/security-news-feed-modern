@@ -1,251 +1,357 @@
 {
   "last_updated": "2025-08-13T09:11:28Z",
+  "retention_days": 90,
   "count": 35,
   "items": [
     {
+      "id": "3419e0ba3b20d1cecdc511708c91c164bb7c2ae2",
       "title": "What is MCP Server – How it is Powering AI-Driven Cyber Defense",
       "link": "https://cybersecuritynews.com/mcp-server/",
       "date": "2025-08-13T09:07:21Z",
       "description": "MCP (Model Control Plane) Server is a centralized platform that orchestrates, manages, and secures the lifecycle of AI models deployed across an organization’s infrastructure. By providing integration, management, and real-time monitoring of models, MCP servers enable enterprises to defend against sophisticated, AI-powered cyberattacks. This article explores MCP server integration and usage, its…",
-      "source": "cybersecuritynews.com"
+      "source": "cybersecuritynews.com",
+      "first_seen": "2025-08-13T09:11:28Z",
+      "last_seen": "2025-08-13T09:11:28Z"
     },
     {
+      "id": "eddb8ef4f724cc6b9663542bfa7900ceed5584a5",
       "title": "New Windows 0-Click NTLM Credential Leakage Vulnerability Bypasses Microsoft’s Patch",
       "link": "https://cybersecuritynews.com/windows-0-click-ntlm-credential-leakage/",
       "date": "2025-08-13T08:54:10Z",
       "description": "A critical zero-click NTLM credential leakage vulnerability that circumvents Microsoft’s recent patch for CVE-2025-24054. The newly identified flaw, assigned CVE-2025-50154, allows attackers to extract NTLM hashes from fully patched Windows systems without any user interaction, demonstrating that Microsoft’s April security update was incomplete. Key Takeaways1. CVE-2025-50154 bypasses…",
-      "source": "cybersecuritynews.com"
+      "source": "cybersecuritynews.com",
+      "first_seen": "2025-08-13T09:11:28Z",
+      "last_seen": "2025-08-13T09:11:28Z"
     },
     {
+      "id": "de77097b9ac54e9d449fa685c44fa7d3eb7a2d94",
       "title": "Microsoft August 2025 Patch Tuesday Fixes Kerberos Zero-Day Among 111 Total New Flaws",
       "link": "https://thehackernews.com/2025/08/microsoft-august-2025-patch-tuesday.html",
       "date": "2025-08-13T08:47:00Z",
       "description": "Microsoft on Tuesday rolled out fixes for a massive set of 111 security flaws across its software portfolio, including one flaw that has been disclosed as publicly known at the time of the release. Of the 111 vulnerabilities, 16 are rated Critical, 92 are rated Important, two are rated Moderate, and one is rated Low in severity. Forty-four of the vulnerabilities relate to privilege",
-      "source": "thehackernews.com"
+      "source": "thehackernews.com",
+      "first_seen": "2025-08-13T09:11:28Z",
+      "last_seen": "2025-08-13T09:11:28Z"
     },
     {
+      "id": "e9b048f01cf928ba6ea46a0fb03ce46b20992a99",
       "title": "FortiOS, FortiProxy, and FortiPAM Auth Bypass Vulnerability Allows Attackers to Gain Full Control",
       "link": "https://cybersecuritynews.com/fortinet-authentication-bypass/",
       "date": "2025-08-13T08:41:37Z",
       "description": "A high-severity authentication bypass vulnerability affecting multiple Fortinet security products, including FortiOS, FortiProxy, and FortiPAM systems. The flaw, designated as CVE-2024-26009 with a CVSS score of 7.9, enables unauthenticated attackers to seize complete control of managed devices through exploitation of the FortiGate-to-FortiManager (FGFM) communication protocol. Key Takeaways1.…",
-      "source": "cybersecuritynews.com"
+      "source": "cybersecuritynews.com",
+      "first_seen": "2025-08-13T09:11:28Z",
+      "last_seen": "2025-08-13T09:11:28Z"
     },
     {
+      "id": "eb458c96d58f37b677a7fd9fabe4dcc7ca7a1829",
       "title": "ICS Patch Tuesday: Major Vendors Address Code Execution Vulnerabilities",
       "link": "https://www.securityweek.com/ics-patch-tuesday-major-vendors-address-code-execution-vulnerabilities/",
       "date": "2025-08-13T06:36:25Z",
       "description": "August 2025 ICS Patch Tuesday advisories have been published by Siemens, Schneider, Aveva, Honeywell, ABB and Phoenix Contact. The post ICS Patch Tuesday: Major Vendors Address Code Execution Vulnerabilities appeared first on SecurityWeek.",
-      "source": "securityweek.com"
+      "source": "securityweek.com",
+      "first_seen": "2025-08-13T09:11:28Z",
+      "last_seen": "2025-08-13T09:11:28Z"
     },
     {
+      "id": "00dda488f6778c6ea6245854d58cdf9e9c2fee5f",
       "title": "Multiple Chrome High-Severity Vulnerabilities Let Attackers Execute Arbitrary Code",
       "link": "https://cybersecuritynews.com/chrome-security-update-aug/",
       "date": "2025-08-13T06:29:16Z",
       "description": "Google Chrome has released a critical security update addressing six vulnerabilities that could potentially enable arbitrary code execution on affected systems. The stable channel update to version 139.0.7258.127/.128 for Windows and Mac, and 139.0.7258.127 for Linux, contains patches for multiple high-severity security flaws that pose significant risks to user data and system integrity. Key…",
-      "source": "cybersecuritynews.com"
+      "source": "cybersecuritynews.com",
+      "first_seen": "2025-08-13T09:11:28Z",
+      "last_seen": "2025-08-13T09:11:28Z"
     },
     {
+      "id": "d227a4317cb8c1abd9a76c4c8f2321a4e6d33750",
       "title": "Critical FortiSIEM Vulnerability Lets Attackers Execute Malicious Commands – PoC Found in the Wild",
       "link": "https://cybersecuritynews.com/fortisiem-vulnerability-poc-found-in-wild/",
       "date": "2025-08-13T05:45:19Z",
       "description": "A critical security vulnerability in the Fortinet FortiSIEM platform allows unauthenticated attackers to execute arbitrary commands remotely. The vulnerability CVE-2025-25256, classified as CWE-78 (OS Command Injection), has been actively exploited in the wild with practical exploit code already circulating among threat actors. Key Takeaways1. Critical FortiSIEM flaw actively exploited with PoC…",
-      "source": "cybersecuritynews.com"
+      "source": "cybersecuritynews.com",
+      "first_seen": "2025-08-13T09:11:28Z",
+      "last_seen": "2025-08-13T09:11:28Z"
     },
     {
+      "id": "1660145ad723142d911134448bb7bfec7bc0fcc8",
       "title": "Charon Ransomware Hits Middle East Sectors Using APT-Level Evasion Tactics",
       "link": "https://thehackernews.com/2025/08/charon-ransomware-hits-middle-east.html",
       "date": "2025-08-13T05:45:00Z",
       "description": "Cybersecurity researchers have discovered a new campaign that employs a previously undocumented ransomware family called Charon to target the Middle East's public sector and aviation industry. The threat actor behind the activity, according to Trend Micro, exhibited tactics mirroring those of advanced persistent threat (APT) groups, such as DLL side-loading, process injection, and the ability",
-      "source": "thehackernews.com"
+      "source": "thehackernews.com",
+      "first_seen": "2025-08-13T09:11:28Z",
+      "last_seen": "2025-08-13T09:11:28Z"
     },
     {
+      "id": "11183740c8a5a6e584a5fd45584679adf65d2087",
       "title": "Adobe Patches Over 60 Vulnerabilities Across 13 Products",
       "link": "https://www.securityweek.com/adobe-patches-over-60-vulnerabilities-across-13-products/",
       "date": "2025-08-13T04:36:10Z",
       "description": "Adobe’s security updates fix vulnerabilities in Commerce, Substance, InDesign, FrameMaker, Dimension and other products. The post Adobe Patches Over 60 Vulnerabilities Across 13 Products appeared first on SecurityWeek.",
-      "source": "securityweek.com"
+      "source": "securityweek.com",
+      "first_seen": "2025-08-13T09:11:28Z",
+      "last_seen": "2025-08-13T09:11:28Z"
     },
     {
+      "id": "13fc024bc3ae581fa6dda50789c33e6297c8c66b",
       "title": "Microsoft Patches Over 100 Vulnerabilities",
       "link": "https://www.securityweek.com/microsoft-patches-over-100-vulnerabilities/",
       "date": "2025-08-13T03:47:56Z",
       "description": "Microsoft’s August 2025 Patch Tuesday updates address critical vulnerabilities in Windows, Office, and Hyper-V. The post Microsoft Patches Over 100 Vulnerabilities appeared first on SecurityWeek.",
-      "source": "securityweek.com"
+      "source": "securityweek.com",
+      "first_seen": "2025-08-13T09:11:28Z",
+      "last_seen": "2025-08-13T09:11:28Z"
     },
     {
+      "id": "d4dbeb9792954cfb3b30277206e76be41e1bd957",
       "title": "China Questions Security of AI Chips From Nvidia, AMD",
       "link": "https://www.darkreading.com/cyber-risk/china-questions-security-ai-chips-nvidia-amd",
       "date": "2025-08-13T01:00:00Z",
       "description": "The US banned the sale of AI chips to China and then backed off. Now, Chinese sources are calling on NVIDIA to prove its AI chips have no backdoors.",
-      "source": "darkreading.com"
+      "source": "darkreading.com",
+      "first_seen": "2025-08-13T09:11:28Z",
+      "last_seen": "2025-08-13T09:11:28Z"
     },
     {
+      "id": "94e1e1a0ab942f561b5a001bce0164d10852f9e4",
       "title": "Claude gets 1M tokens support via API to take on Gemini 2.5 Pro",
       "link": "https://www.bleepingcomputer.com/news/artificial-intelligence/claude-gets-1m-tokens-support-via-api-to-take-on-gemini-25-pro/",
       "date": "2025-08-12T22:13:00Z",
       "description": "Claude Sonnet 4 has been upgraded, and it can now remember up to 1 million tokens of context, but only when it's used via API. This could change in the future. [...]",
-      "source": "bleepingcomputer.com"
+      "source": "bleepingcomputer.com",
+      "first_seen": "2025-08-13T09:11:28Z",
+      "last_seen": "2025-08-13T09:11:28Z"
     },
     {
+      "id": "b776476f51be0cded5c20778d63df42fef275d42",
       "title": "Hackers leak Allianz Life data stolen in Salesforce attacks",
       "link": "https://www.bleepingcomputer.com/news/security/hackers-leak-allianz-life-data-stolen-in-salesforce-attacks/",
       "date": "2025-08-12T22:03:47Z",
       "description": "Hackers have released stolen data belonging to US insurance giant Allianz Life, exposing 2.8 million records with sensitive information on business partners and customers in ongoing Salesforce data theft attacks. [...]",
-      "source": "bleepingcomputer.com"
+      "source": "bleepingcomputer.com",
+      "first_seen": "2025-08-13T09:11:28Z",
+      "last_seen": "2025-08-13T09:11:28Z"
     },
     {
+      "id": "59c8f3e8dcc4832b4240ae5a549b8212fac77fc4",
       "title": "Elevation-of-Privilege Vulns Dominate Microsoft's Patch Tuesday",
       "link": "https://www.darkreading.com/application-security/elevation-privilege-vulns-dominate-microsoft-patches",
       "date": "2025-08-12T21:47:03Z",
       "description": "The company's August security update consisted of patches for 111 unique Common Vulnerabilities and Exposures (CVEs).",
-      "source": "darkreading.com"
+      "source": "darkreading.com",
+      "first_seen": "2025-08-13T09:11:28Z",
+      "last_seen": "2025-08-13T09:11:28Z"
     },
     {
+      "id": "4e33cb37d54320dbf4a43d2e721995593c2053a1",
       "title": "OpenAI rolls out Gmail, Calendar, and Contacts integration in ChatGPT",
       "link": "https://www.bleepingcomputer.com/news/artificial-intelligence/openai-rolls-out-gmail-calendar-and-contacts-integration-in-chatgpt/",
       "date": "2025-08-12T21:12:39Z",
       "description": "OpenAI wants ChatGPT to know more about you, including your emails, calendar events in Google Calendar and even your Google contacts to reference everything in a conversation. [...]",
-      "source": "bleepingcomputer.com"
+      "source": "bleepingcomputer.com",
+      "first_seen": "2025-08-13T09:11:28Z",
+      "last_seen": "2025-08-13T09:11:28Z"
     },
     {
+      "id": "bce76f878a9c5b979fb41d41e5aa2275ecb42bf4",
       "title": "ChatGPT's new subscription costs less than $5, but it's not for everyone",
       "link": "https://www.bleepingcomputer.com/news/artificial-intelligence/chatgpts-new-subscription-costs-less-than-5-but-its-not-for-everyone/",
       "date": "2025-08-12T21:01:24Z",
       "description": "OpenAI has begun updating its pricing page to include a new plan called 'ChatGPT Go.' It costs 399 INR (Indian Rupee) or roughly $4.55, but there's a catch. [...]",
-      "source": "bleepingcomputer.com"
+      "source": "bleepingcomputer.com",
+      "first_seen": "2025-08-13T09:11:28Z",
+      "last_seen": "2025-08-13T09:11:28Z"
     },
     {
+      "id": "b162828e2bae00622ba1dd864b902ca57b5d926f",
       "title": "Docker Hub still hosts dozens of Linux images with the XZ backdoor",
       "link": "https://www.bleepingcomputer.com/news/security/docker-hub-still-hosts-dozens-of-linux-images-with-the-xz-backdoor/",
       "date": "2025-08-12T18:43:20Z",
       "description": "The XZ-Utils backdoor, first discovered in March 2024, is still present in at least 35 Linux images on Docker Hub, potentially putting users, organizations, and their data at risk. [...]",
-      "source": "bleepingcomputer.com"
+      "source": "bleepingcomputer.com",
+      "first_seen": "2025-08-13T09:11:28Z",
+      "last_seen": "2025-08-13T09:11:28Z"
     },
     {
+      "id": "63698f7015479db7c740118580211b3a388b95c2",
       "title": "Researchers Spot XZ Utils Backdoor in Dozens of Docker Hub Images, Fueling Supply Chain Risks",
       "link": "https://thehackernews.com/2025/08/researchers-spot-xz-utils-backdoor-in.html",
       "date": "2025-08-12T18:17:00Z",
       "description": "New research has uncovered Docker images on Docker Hub that contain the infamous XZ Utils backdoor, more than a year after the discovery of the incident. More troubling is the fact that other images have been built on top of these infected base images, effectively propagating the infection further in a transitive manner, Binarly REsearch said in a report shared with The Hacker News. The firmware",
-      "source": "thehackernews.com"
+      "source": "thehackernews.com",
+      "first_seen": "2025-08-13T09:11:28Z",
+      "last_seen": "2025-08-13T09:11:28Z"
     },
     {
+      "id": "057ab07502c2e60bec7e0a697ccb54491ce0758f",
       "title": "Fortinet SSL VPNs Hit by Global Brute-Force Wave Before Attackers Shift to FortiManager",
       "link": "https://thehackernews.com/2025/08/fortinet-ssl-vpns-hit-by-global-brute.html",
       "date": "2025-08-12T17:05:00Z",
       "description": "Cybersecurity researchers are warning of a \"significant spike\" in brute-force traffic aimed at Fortinet SSL VPN devices. The coordinated activity, per threat intelligence firm GreyNoise, was observed on August 3, 2025, with over 780 unique IP addresses participating in the effort. As many as 56 unique IP addresses have been detected over the past 24 hours. All the IP addresses have been",
-      "source": "thehackernews.com"
+      "source": "thehackernews.com",
+      "first_seen": "2025-08-13T09:11:28Z",
+      "last_seen": "2025-08-13T09:11:28Z"
     },
     {
+      "id": "e2b6c864e92edaf37c262223be606ce9dd6520e1",
       "title": "Cybercrime Groups ShinyHunters, Scattered Spider Join Forces in Extortion Attacks on Businesses",
       "link": "https://thehackernews.com/2025/08/cybercrime-groups-shinyhunters.html",
       "date": "2025-08-12T16:20:00Z",
       "description": "An ongoing data extortion campaign targeting Salesforce customers may soon turn its attention to financial services and technology service providers, as ShinyHunters and Scattered Spider appear to be working hand in hand, new findings show. \"This latest wave of ShinyHunters-attributed attacks reveals a dramatic shift in tactics, moving beyond the group's previous credential theft and database",
-      "source": "thehackernews.com"
+      "source": "thehackernews.com",
+      "first_seen": "2025-08-13T09:11:28Z",
+      "last_seen": "2025-08-13T09:11:28Z"
     },
     {
+      "id": "73b7b4ffb94297bcde657479115b2ed71a913e53",
       "title": "Inside the Dark Web’s Access Economy: How Hackers Sell the Keys to Enterprise Networks",
       "link": "https://www.securityweek.com/inside-the-dark-webs-access-economy-how-hackers-sell-the-keys-to-enterprise-networks/",
       "date": "2025-08-12T15:05:03Z",
       "description": "Rapid7’s analysis of dark web forums reveals a thriving market where elite hackers sell corporate network access to buyers, turning cybercrime into a streamlined business. The post Inside the Dark Web’s Access Economy: How Hackers Sell the Keys to Enterprise Networks appeared first on SecurityWeek.",
-      "source": "securityweek.com"
+      "source": "securityweek.com",
+      "first_seen": "2025-08-13T09:11:28Z",
+      "last_seen": "2025-08-13T09:11:28Z"
     },
     {
+      "id": "35da0591dd121d5bf229d1c3bb646d85e9833e61",
       "title": "Charon Ransomware Emerges With APT-Style Tactics",
       "link": "https://www.darkreading.com/threat-intelligence/charon-ransomware-apt-tactics",
       "date": "2025-08-12T14:45:43Z",
       "description": "The first documented deployment of the novel malware in a campaign against the Middle Eastern public sector and aviation industry may be tied to China's state-sponsored actor Earth Baxia.",
-      "source": "darkreading.com"
+      "source": "darkreading.com",
+      "first_seen": "2025-08-13T09:11:28Z",
+      "last_seen": "2025-08-13T09:11:28Z"
     },
     {
+      "id": "4b2a32b15c4404adf86aaf90039284f7b9d3d2e2",
       "title": "How to Stay a Step Ahead of a Non-Obvious Threat",
       "link": "https://www.darkreading.com/vulnerabilities-threats/stay-step-ahead-non-obvious-threat",
       "date": "2025-08-12T14:00:00Z",
       "description": "Securing business logic isn't just a technical requirement — it's a business imperative.",
-      "source": "darkreading.com"
+      "source": "darkreading.com",
+      "first_seen": "2025-08-13T09:11:28Z",
+      "last_seen": "2025-08-13T09:11:28Z"
     },
     {
+      "id": "d468e33b31dbcf8c53756b236ff385ea874a2689",
       "title": "1Kosmos Raises $57 Million for Identity Verification and Authentication Platform",
       "link": "https://www.securityweek.com/1kosmos-raises-57-million-for-identity-verification-and-authentication-platform/",
       "date": "2025-08-12T13:00:00Z",
       "description": "1Kosmos has raised $57 million in Series B funding, which brings the total raised by the company to $72 million. The post 1Kosmos Raises $57 Million for Identity Verification and Authentication Platform appeared first on SecurityWeek.",
-      "source": "securityweek.com"
+      "source": "securityweek.com",
+      "first_seen": "2025-08-13T09:11:28Z",
+      "last_seen": "2025-08-13T09:11:28Z"
     },
     {
+      "id": "320b73481825de91a5804174f8af9cf8af05ee32",
       "title": "ShinyHunters Tactics Now Mirror Scattered Spider",
       "link": "https://www.darkreading.com/cyberattacks-data-breaches/shinyhunters-tactics-mirror-scattered-spider",
       "date": "2025-08-12T12:00:00Z",
       "description": "There's growing evidence that two of arguably the most dangerous cybercrime groups out there are tag-teaming big targets.",
-      "source": "darkreading.com"
+      "source": "darkreading.com",
+      "first_seen": "2025-08-13T09:11:28Z",
+      "last_seen": "2025-08-13T09:11:28Z"
     },
     {
+      "id": "f2474b0b8520b44949c1ddf3353b6f4c397f9a67",
       "title": "Critical macOS Flaw (CVSS 9.8) Bypasses TCC Without Root Access: PoC Published",
       "link": "https://securityonline.info/critical-macos-flaw-cvss-9-8-bypasses-tcc-without-root-access-poc-published/",
       "date": "2025-08-11T10:31:51Z",
       "description": "The post Critical macOS Flaw (CVSS 9.8) Bypasses TCC Without Root Access: PoC Published appeared first on Daily CyberSecurity.",
-      "source": "securityonline.info"
+      "source": "securityonline.info",
+      "first_seen": "2025-08-13T09:11:28Z",
+      "last_seen": "2025-08-13T09:11:28Z"
     },
     {
+      "id": "120092f90a877804e589f3026df19ff1b6125254",
       "title": "Critical Flaw (CVSS 9.8) in Ubiquiti UniFi Connect EV Stations Allows Remote Code Execution",
       "link": "https://securityonline.info/critical-flaw-cvss-9-8-in-ubiquiti-unifi-connect-ev-stations-allows-remote-code-execution/",
       "date": "2025-08-07T03:45:59Z",
       "description": "The post Critical Flaw (CVSS 9.8) in Ubiquiti UniFi Connect EV Stations Allows Remote Code Execution appeared first on Daily CyberSecurity.",
-      "source": "securityonline.info"
+      "source": "securityonline.info",
+      "first_seen": "2025-08-13T09:11:28Z",
+      "last_seen": "2025-08-13T09:11:28Z"
     },
     {
+      "id": "effc01bfa7af4383753d54b9c46224d7c1573704",
       "title": "VirtualBox VM Escape: Integer Overflow Flaw Allows Full Host Takeover, PoC Published",
       "link": "https://securityonline.info/virtualbox-vm-escape-integer-overflow-flaw-allows-full-host-takeover-poc-published/",
       "date": "2025-08-06T10:14:36Z",
       "description": "The post VirtualBox VM Escape: Integer Overflow Flaw Allows Full Host Takeover, PoC Published appeared first on Daily CyberSecurity.",
-      "source": "securityonline.info"
+      "source": "securityonline.info",
+      "first_seen": "2025-08-13T09:11:28Z",
+      "last_seen": "2025-08-13T09:11:28Z"
     },
     {
+      "id": "32ff6817e0e4c03c215620ec847c8dc8cfd74b27",
       "title": "Critical Dell DD OS Flaw (CVSS 9.8) Allows Unauthenticated Remote Access",
       "link": "https://securityonline.info/critical-dell-dd-os-flaw-cvss-9-8-allows-unauthenticated-remote-access/",
       "date": "2025-08-05T00:16:34Z",
       "description": "The post Critical Dell DD OS Flaw (CVSS 9.8) Allows Unauthenticated Remote Access appeared first on Daily CyberSecurity.",
-      "source": "securityonline.info"
+      "source": "securityonline.info",
+      "first_seen": "2025-08-13T09:11:28Z",
+      "last_seen": "2025-08-13T09:11:28Z"
     },
     {
+      "id": "87e65944634b6fcec8720600dd9b123c618b85bc",
       "title": "Critical Rtpengine Flaws (CVE-2025-53399) Allow Audio Interception and Injection in VoIP Calls, PoC Publishes",
       "link": "https://securityonline.info/critical-rtpengine-flaws-cve-2025-53399-allow-audio-interception-and-injection-in-voip-calls-poc-publishes/",
       "date": "2025-07-31T09:03:06Z",
       "description": "The post Critical Rtpengine Flaws (CVE-2025-53399) Allow Audio Interception and Injection in VoIP Calls, PoC Publishes appeared first on Daily CyberSecurity.",
-      "source": "securityonline.info"
+      "source": "securityonline.info",
+      "first_seen": "2025-08-13T09:11:28Z",
+      "last_seen": "2025-08-13T09:11:28Z"
     },
     {
+      "id": "664df53292fd50e8b1e7bf61d1267fe95047525f",
       "title": "Student Loan Breach Exposes 2.5M Records",
       "link": "https://threatpost.com/student-loan-breach-exposes-2-5m-records/180492/",
       "date": "2022-08-31T12:57:48Z",
       "description": "2.5 million people were affected, in a breach that could spell more trouble down the line.",
-      "source": "threatpost.com"
+      "source": "threatpost.com",
+      "first_seen": "2025-08-13T09:11:28Z",
+      "last_seen": "2025-08-13T09:11:28Z"
     },
     {
+      "id": "4140c7a34b0ba94ad2e6b0cae9f59b0cb9bfffea",
       "title": "Watering Hole Attacks Push ScanBox Keylogger",
       "link": "https://threatpost.com/watering-hole-attacks-push-scanbox-keylogger/180490/",
       "date": "2022-08-30T16:00:43Z",
       "description": "Researchers uncover a watering hole attack likely carried out by APT TA423, which attempts to plant the ScanBox JavaScript-based reconnaissance tool.",
-      "source": "threatpost.com"
+      "source": "threatpost.com",
+      "first_seen": "2025-08-13T09:11:28Z",
+      "last_seen": "2025-08-13T09:11:28Z"
     },
     {
+      "id": "9359ee40a641a4b565080313045f1d7e7fe6552b",
       "title": "Tentacles of ‘0ktapus’ Threat Group Victimize 130 Firms",
       "link": "https://threatpost.com/0ktapus-victimize-130-firms/180487/",
       "date": "2022-08-29T14:56:19Z",
       "description": "Over 130 companies tangled in sprawling phishing campaign that spoofed a multi-factor authentication system.",
-      "source": "threatpost.com"
+      "source": "threatpost.com",
+      "first_seen": "2025-08-13T09:11:28Z",
+      "last_seen": "2025-08-13T09:11:28Z"
     },
     {
+      "id": "b4ccef0737cd4050d65241bf754072030b6b5e6a",
       "title": "Ransomware Attacks are on the Rise",
       "link": "https://threatpost.com/ransomware-attacks-are-on-the-rise/180481/",
       "date": "2022-08-26T16:44:27Z",
       "description": "Lockbit is by far this summer’s most prolific ransomware group, trailed by two offshoots of the Conti group.",
-      "source": "threatpost.com"
+      "source": "threatpost.com",
+      "first_seen": "2025-08-13T09:11:28Z",
+      "last_seen": "2025-08-13T09:11:28Z"
     },
     {
+      "id": "12ee113fc8fce91f6d7fb28deab2b1ad20061ec7",
       "title": "Cybercriminals Are Selling Access to Chinese Surveillance Cameras",
       "link": "https://threatpost.com/cybercriminals-are-selling-access-to-chinese-surveillance-cameras/180478/",
       "date": "2022-08-25T18:47:15Z",
       "description": "Tens of thousands of cameras have failed to patch a critical, 11-month-old CVE, leaving thousands of organizations exposed.",
-      "source": "threatpost.com"
+      "source": "threatpost.com",
+      "first_seen": "2025-08-13T09:11:28Z",
+      "last_seen": "2025-08-13T09:11:28Z"
     }
   ]
 }
