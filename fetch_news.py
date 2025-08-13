@@ -1,8 +1,5 @@
-import feedparser, json, requests, os, time
+import feedparser, json, requests
 from bs4 import BeautifulSoup
-
-USER_AGENT = os.environ.get("USER_AGENT", "SecurityNewsBot/1.0 (+https://treatchaos.github.io/security-news-feed-modern/)")
-feedparser.USER_AGENT = USER_AGENT
 
 sources = [
     "https://securityonline.info/category/news/vulnerability/feed/",
@@ -31,7 +28,6 @@ for url in sources:
                 "date": entry.get("published", ""),
                 "description": clean_desc
             })
-        time.sleep(0.5)  # polite delay
     except Exception as e:
         print(f"Error fetching {url}: {e}")
 
