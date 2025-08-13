@@ -271,6 +271,35 @@ document.addEventListener("DOMContentLoaded", () => {
     updateSegmentedSlider();
   });
 
+  // Add (or restore) unified refresh logic & event listeners
+  function refresh(force=true){
+    if(mode==='latest') return fetchNews(force);
+    if(mode==='archive') return fetchArchive();
+    if(mode==='day' && currentDay) return fetchDay(currentDay);
+  }
+
+  // Search & sort listeners (re-add if lost)
+  [searchInput, sortSelect].forEach(el => el && el.addEventListener('input', applyFilters));
+
+  clearFilters?.addEventListener('click', () => {
+    searchInput.value='';
+    sortSelect.value='latest';
+    applyFilters();
+  });
+
+  refreshBtn?.addEventListener('click', () => refresh(true));
+
+  // Scroll top visibility
+  window.addEventListener('scroll', () => {
+    const show = window.scrollY > 400;
+    scrollTopBtn.classList.toggle('show', show);
+  });
+  scrollTopBtn?.addEventListener('click', () => window.scrollTo({ top:0, behavior:'smooth' }));
+
+  // About dialog
+  aboutLink?.addEventListener('click', (e) => { e.preventDefault(); aboutDialog?.showModal(); });
+  aboutDialog?.addEventListener('click', (e) => { if (e.target === aboutDialog) aboutDialog.close(); });
+
   // After first paint adjust slider
   setTimeout(updateSegmentedSlider, 150);
 
