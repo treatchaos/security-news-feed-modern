@@ -1,7 +1,42 @@
 {
-  "last_updated": "2025-08-14T07:38:55Z",
+  "last_updated": "2025-08-14T08:56:32Z",
   "count": 40,
   "items": [
+    {
+      "title": "Critical WordPress Plugin Vulnerability Exposes 70,000+ Sites to RCE Attacks",
+      "link": "https://cybersecuritynews.com/critical-wordpress-plugin-vulnerability-3/",
+      "date": "2025-08-14T08:56:26Z",
+      "description": "A critical security vulnerability has been discovered in the popular “Database for Contact Form 7, WPforms, Elementor forms” WordPress plugin, potentially exposing over 70,000 websites to remote code execution attacks. The vulnerability, tracked as CVE-2025-7384 with a maximum CVSS score of 9.8, affects all versions up to and including 1.4.3 and was publicly disclosed on […] The post Critical…",
+      "source": "cybersecuritynews.com"
+    },
+    {
+      "title": "CISA Warns of N-able N-Central Deserialization and Injection Vulnerability Exploited in Attacks",
+      "link": "https://cybersecuritynews.com/cisa-warns-of-n-able-n-central-vulnerabilities/",
+      "date": "2025-08-14T08:31:39Z",
+      "description": "CISA has issued urgent warnings regarding two critical security vulnerabilities in N-able N-Central remote monitoring and management (RMM) software that threat actors are actively exploiting. The vulnerabilities, identified as CVE-2025-8875 and CVE-2025-8876, pose significant risks to organizations using this widely-deployed IT management platform. Key Takeaways1. Two critical N-able N-Central…",
+      "source": "cybersecuritynews.com"
+    },
+    {
+      "title": "ShinyHunters Possibly Collaborates With Scattered Spider in Salesforce Attack Campaigns",
+      "link": "https://cybersecuritynews.com/shinyhunters-possibly-collaborates-with-scattered-spider/",
+      "date": "2025-08-14T08:16:01Z",
+      "description": "The notorious ShinyHunters cybercriminal group has emerged from a year-long hiatus with a sophisticated new wave of attacks targeting Salesforce platforms across major organizations, including high-profile victims like Google. This resurgence marks a significant tactical evolution for the financially motivated threat actors, who have traditionally focused on database exploitation and credential…",
+      "source": "cybersecuritynews.com"
+    },
+    {
+      "title": "“AI-Induced Destruction” – New Attack Vector Where Helpful Tools Become Accidental Weapons",
+      "link": "https://cybersecuritynews.com/ai-induced-destruction/",
+      "date": "2025-08-14T07:50:04Z",
+      "description": "Artificial intelligence coding assistants, designed to boost developer productivity, are inadvertently causing massive system destruction. Researchers report a significant spike in what they term “AI-induced destruction” incidents, where helpful AI tools become accidental weapons against the very systems they’re meant to improve. Key Takeaways1. AI assistants accidentally destroy systems when…",
+      "source": "cybersecuritynews.com"
+    },
+    {
+      "title": "Microsoft fixes Windows 11 24H2 updates failing with 0x80240069 error",
+      "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-windows-11-24h2-updates-failing-with-0x80240069-error/",
+      "date": "2025-08-14T07:41:20Z",
+      "description": "Microsoft has resolved a known issue preventing the August 2025 Windows 11 24H2 cumulative update from being delivered via Windows Server Update Services (WSUS). [...]",
+      "source": "bleepingcomputer.com"
+    },
     {
       "title": "Web DDoS, App Exploitation Attacks Saw a Huge Surge in First Half of 2025",
       "link": "https://cybersecuritynews.com/web-ddos-app-exploitation-attacks/",
@@ -10,25 +45,11 @@
       "source": "cybersecuritynews.com"
     },
     {
-      "title": "What Is Out-of-Bounds Read and Write Vulnerability?",
-      "link": "https://cybersecuritynews.com/out-of-bounds-read-and-write/",
-      "date": "2025-08-14T06:39:36Z",
-      "description": "Out-of-bounds read and write vulnerabilities represent critical security vulnerabilities that occur when software accesses memory locations beyond the allocated boundaries of data structures such as arrays, buffers, or other memory regions. These vulnerabilities can lead to information disclosure, system crashes, and in severe cases, arbitrary code execution that allows attackers to gain…",
-      "source": "cybersecuritynews.com"
-    },
-    {
-      "title": "VexTrio Hackers Attacking Users via Fake CAPTCHA Robots and Malicious Apps into Google Play and App Store",
-      "link": "https://cybersecuritynews.com/vextrio-hackers-attacking-users-via-fake-captcha-robots/",
-      "date": "2025-08-14T05:35:00Z",
-      "description": "A sophisticated cybercriminal organization known as VexTrio has been orchestrating a massive fraud empire through deceptive CAPTCHA robots and malicious applications distributed across Google Play and the App Store. This criminal network, operating for over 15 years, has successfully infiltrated legitimate app stores with fraudulent software that has collectively garnered over one million…",
-      "source": "cybersecuritynews.com"
-    },
-    {
-      "title": "Breaking Windows Out-of-Box-Experience to Gain Command Line Access With Admin Privileges",
-      "link": "https://cybersecuritynews.com/breaking-windows-out-of-box-experience/",
-      "date": "2025-08-14T05:32:28Z",
-      "description": "A new method has been identified to exploit Windows Out-of-Box-Experience (OOBE) that bypasses existing protections and grants administrative command line access to Windows machines. This technique works even when Microsoft’s recommended security measure, the DisableCMDRequest.tag file, is implemented to block the well-known Shift + F10 keyboard shortcut vulnerability. The discovery highlights…",
-      "source": "cybersecuritynews.com"
+      "title": "Google Requires Crypto App Licenses in 15 Regions as FBI Warns of $9.9M Scam Losses",
+      "link": "https://thehackernews.com/2025/08/google-requires-crypto-app-licenses-in.html",
+      "date": "2025-08-14T06:46:00Z",
+      "description": "Google said it's implementing a new policy requiring developers of cryptocurrency exchanges and wallets to obtain government licenses before publishing apps in 15 jurisdictions in order to \"ensure a safe and compliant ecosystem for users.\" The policy applies to markets like Bahrain, Canada, Hong Kong, Indonesia, Israel, Japan, the Philippines, South Africa, South Korea, Switzerland, Thailand,",
+      "source": "thehackernews.com"
     },
     {
       "title": "CISA Adds Two N-able N-central Flaws to Known Exploited Vulnerabilities Catalog",
@@ -36,13 +57,6 @@
       "date": "2025-08-14T04:02:00Z",
       "description": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Wednesday added two security flaws impacting N-able N-central to its Known Exploited Vulnerabilities (KEV) catalog, citing evidence of active exploitation. N-able N-central is a Remote Monitoring and Management (RMM) platform designed for Managed Service Providers (MSPs), allowing customers to efficiently manage and secure",
       "source": "thehackernews.com"
-    },
-    {
-      "title": "Microsoft Exchange Server Vulnerabilities Let Attackers Spoof and Tamper Over Network",
-      "link": "https://cybersecuritynews.com/microsoft-exchange-server-vulnerabilities/",
-      "date": "2025-08-14T03:55:34Z",
-      "description": "Critical security vulnerabilities in Microsoft Exchange Server enable attackers to perform spoofing and tampering attacks over network connections. The vulnerabilities include two Exchange Server flaws (CVE-2025-25007 and CVE-2025-25005) enabling spoofing and tampering attacks, plus a Windows Graphics Component elevation of privilege vulnerability (CVE-2025-49743) that could facilitate privilege…",
-      "source": "cybersecuritynews.com"
     },
     {
       "title": "Google Gemini's Deep Research is finally coming to API",
@@ -101,13 +115,6 @@
       "source": "bleepingcomputer.com"
     },
     {
-      "title": "New downgrade attack can bypass FIDO auth in Microsoft Entra ID",
-      "link": "https://www.bleepingcomputer.com/news/security/new-downgrade-attack-can-bypass-fido-auth-in-microsoft-entra-id/",
-      "date": "2025-08-13T19:14:23Z",
-      "description": "Security researchers have created a new FIDO downgrade attack against Microsoft Entra ID that tricks users into authenticating with weaker login methods, making them susceptible to phishing and session hijacking. [...]",
-      "source": "bleepingcomputer.com"
-    },
-    {
       "title": "Popular AI Systems Still a Work-in-Progress for Security",
       "link": "https://www.darkreading.com/vulnerabilities-threats/popular-ai-systems-still-work-in-progress-security",
       "date": "2025-08-13T19:08:09Z",
@@ -147,13 +154,6 @@
       "link": "https://thehackernews.com/2025/08/fortinet-warns-about-fortisiem.html",
       "date": "2025-08-13T11:37:00Z",
       "description": "Fortinet is alerting customers of a critical security flaw in FortiSIEM for which it said there exists an exploit in the wild. The vulnerability, tracked as CVE-2025-25256, carries a CVSS score of 9.8 out of a maximum of 10.0. \"An improper neutralization of special elements used in an OS command ('OS Command Injection') vulnerability [CWE-78] in FortiSIEM may allow an unauthenticated attacker to",
-      "source": "thehackernews.com"
-    },
-    {
-      "title": "AI SOC 101: Key Capabilities Security Leaders Need to Know",
-      "link": "https://thehackernews.com/2025/08/ai-soc-101-key-capabilities-security.html",
-      "date": "2025-08-13T11:25:00Z",
-      "description": "Security operations have never been a 9-to-5 job. For SOC analysts, the day often starts and ends deep in a queue of alerts, chasing down what turns out to be false positives, or switching between half a dozen tools to piece together context. The work is repetitive, time-consuming, and high-stakes, leaving SOCs under constant pressure to keep up, yet often struggling to stay ahead of emerging",
       "source": "thehackernews.com"
     },
     {
