@@ -1,7 +1,49 @@
 {
-  "last_updated": "2025-08-15T07:35:55Z",
+  "last_updated": "2025-08-15T08:52:35Z",
   "count": 40,
   "items": [
+    {
+      "title": "US sanctions Grinex crypto-exchange, Garantex’s successor",
+      "link": "https://www.bleepingcomputer.com/news/security/us-sanctions-grinex-crypto-exchange-garantexs-successor/",
+      "date": "2025-08-15T08:46:59Z",
+      "description": "The U.S. Department of the Treasury has announced sanctions against Grinex, the successor to Russian cryptocurrency exchange Garantex, which was previously sanctioned for helping ransomware gangs launder their money. [...]",
+      "source": "bleepingcomputer.com"
+    },
+    {
+      "title": "Critical Flaws Patched in Rockwell FactoryTalk, Micro800, ControlLogix Products",
+      "link": "https://www.securityweek.com/critical-flaws-patched-in-rockwell-factorytalk-micro800-controllogix-products/",
+      "date": "2025-08-15T08:33:50Z",
+      "description": "Rockwell Automation has published several advisories describing critical and high-severity vulnerabilities affecting its products. The post Critical Flaws Patched in Rockwell FactoryTalk, Micro800, ControlLogix Products appeared first on SecurityWeek.",
+      "source": "securityweek.com"
+    },
+    {
+      "title": "HexStrike AI Connects ChatGPT, Claude, Copilot with 150+ Security Tools like Burp Suite and Nmap",
+      "link": "https://cybersecuritynews.com/hexstrike-ai/",
+      "date": "2025-08-15T08:26:02Z",
+      "description": "A new AI tool named HexStrike AI has been launched, designed to bridge the gap between large language models (LLMs) and practical cybersecurity operations. The latest release, v6.0, equips AI agents like OpenAI’s GPT, Anthropic’s Claude, and GitHub’s Copilot with a formidable arsenal of over 150 professional security tools, enabling autonomous penetration testing, vulnerability research, […] The…",
+      "source": "cybersecuritynews.com"
+    },
+    {
+      "title": "Cisco Secure Firewall Snort 3 Detection Engine Vulnerability Enables DoS Attacks",
+      "link": "https://cybersecuritynews.com/snort-3-detection-engine-vulnerability/",
+      "date": "2025-08-15T07:56:38Z",
+      "description": "Critical security flaw CVE-2025-20217 allows unauthenticated attackers to trigger denial-of-service conditions in Cisco’s widely deployed firewall systems Cisco has disclosed a high-severity vulnerability in its Secure Firewall Threat Defense (FTD) Software that could allow remote attackers to cause denial-of-service conditions through the Snort 3 Detection Engine. The vulnerability, tracked as…",
+      "source": "cybersecuritynews.com"
+    },
+    {
+      "title": "10 Best Deception Tools in 2025",
+      "link": "https://cybersecuritynews.com/deception-tools/",
+      "date": "2025-08-15T07:54:50Z",
+      "description": "The goal of deception technology, which uses some of the best deception tools, is to trick attackers by dispersing a variety of traps and dummy assets throughout a system’s infrastructure to mimic real assets. There is always a possibility that cybercriminals will breach your network, regardless of how effective your perimeter defenses. You’ll lure them […] The post 10 Best Deception Tools in…",
+      "source": "cybersecuritynews.com"
+    },
+    {
+      "title": "Cisco Patches Critical Vulnerability in Firewall Management Platform",
+      "link": "https://www.securityweek.com/cisco-patches-critical-vulnerability-in-firewall-management-platform/",
+      "date": "2025-08-15T07:45:30Z",
+      "description": "Cisco has released over 20 advisories as part of its August 2025 bundled publication for ASA, FMC and FTD products. The post Cisco Patches Critical Vulnerability in Firewall Management Platform appeared first on SecurityWeek.",
+      "source": "securityweek.com"
+    },
     {
       "title": "CVE-2025-8088 – WinRAR 0-Day Path Traversal Vulnerability Exploited to Execute Malware",
       "link": "https://cybersecuritynews.com/winrar-0-day-exploited/",
@@ -10,31 +52,17 @@
       "source": "cybersecuritynews.com"
     },
     {
+      "title": "Cisco Warns of CVSS 10.0 FMC RADIUS Flaw Allowing Remote Code Execution",
+      "link": "https://thehackernews.com/2025/08/cisco-warns-of-cvss-100-fmc-radius-flaw.html",
+      "date": "2025-08-15T06:49:00Z",
+      "description": "Cisco has released security updates to address a maximum-severity security flaw in Secure Firewall Management Center (FMC) Software that could allow an attacker to execute arbitrary code on affected systems. The vulnerability, assigned the CVE identifier CVE-2025-20265 (CVSS score: 10.0), affects the RADIUS subsystem implementation that could permit an unauthenticated, remote attacker to inject",
+      "source": "thehackernews.com"
+    },
+    {
       "title": "Threat Actors Attacking Windows Systems With New Multi-Stage Malware Framework PS1Bot",
       "link": "https://cybersecuritynews.com/new-multi-stage-malware-framework-ps1bot/",
       "date": "2025-08-15T06:46:40Z",
       "description": "A sophisticated new malware campaign targeting Windows systems has emerged, employing a multi-stage framework dubbed “PS1Bot” that combines PowerShell and C# components to conduct extensive information theft operations. The malware represents a significant evolution in attack methodologies, utilizing modular architecture and in-memory execution techniques to evade traditional detection…",
-      "source": "cybersecuritynews.com"
-    },
-    {
-      "title": "New HTTP/2 MadeYouReset Vulnerability Enables Large-Scale DDoS Attacks",
-      "link": "https://cybersecuritynews.com/http-2-madeyoureset-vulnerability/",
-      "date": "2025-08-15T06:12:42Z",
-      "description": "Security researchers have identified a new denial-of-service (DoS) vulnerability in HTTP/2 implementations, referred to as MadeYouReset (CVE-2025-8671). This discovery represents a notable escalation in the threats associated with web protocols. Publicly disclosed on August 13, 2025, this flaw allows attackers to bypass built-in concurrency limits, overwhelming servers with unbounded concurrent…",
-      "source": "cybersecuritynews.com"
-    },
-    {
-      "title": "New NFC-Driven PhantomCard Android Malware Attacking Banking Users",
-      "link": "https://cybersecuritynews.com/new-nfc-driven-phantomcard-android-malware/",
-      "date": "2025-08-15T06:04:25Z",
-      "description": "A sophisticated new Android malware dubbed PhantomCard has emerged from the shadows of Brazil’s cybercriminal underground, representing a significant evolution in mobile banking threats. This malicious application leverages Near Field Communication (NFC) technology to create a seamless bridge between victims’ physical banking cards and fraudsters’ devices, enabling real-time financial theft…",
-      "source": "cybersecuritynews.com"
-    },
-    {
-      "title": "Cisco Secure Firewall Vulnerability Allows Hackers to Inject Remote Shell Command Injection",
-      "link": "https://cybersecuritynews.com/cisco-secure-firewall-vulnerability/",
-      "date": "2025-08-15T03:59:41Z",
-      "description": "Cisco has disclosed a critical security vulnerability in its Secure Firewall Management Center (FMC) Software that could allow unauthenticated attackers to execute arbitrary shell commands with high-level privileges remotely. The vulnerability, tracked as CVE-2025-20265 and assigned the maximum CVSS score of 10.0, represents one of the most severe security flaws discovered in enterprise firewall…",
       "source": "cybersecuritynews.com"
     },
     {
@@ -108,13 +136,6 @@
       "source": "bleepingcomputer.com"
     },
     {
-      "title": "Booking.com phishing campaign uses sneaky 'ん' character to trick you",
-      "link": "https://www.bleepingcomputer.com/news/security/bookingcom-phishing-campaign-uses-sneaky-character-to-trick-you/",
-      "date": "2025-08-14T14:23:45Z",
-      "description": "Threat actors are leveraging a Unicode character to make phishing links appear like legitimate Booking.com links in a new campaign distributing malware. The attack makes use of the Japanese hiragana character, ん, which can, on some systems, appear as a forward slash and make a phishing URL appear realistic to a person at first. [...]",
-      "source": "bleepingcomputer.com"
-    },
-    {
       "title": "Vulnerabilities in Xerox Print Orchestration Product Allow Remote Code Execution",
       "link": "https://www.securityweek.com/vulnerabilities-in-xerox-print-orchestration-product-allow-remote-code-execution/",
       "date": "2025-08-14T13:47:57Z",
@@ -157,20 +178,6 @@
       "source": "thehackernews.com"
     },
     {
-      "title": "Simple Steps for Attack Surface Reduction",
-      "link": "https://thehackernews.com/2025/08/simple-steps-for-attack-surface.html",
-      "date": "2025-08-14T09:30:00Z",
-      "description": "Story teaser text: Cybersecurity leaders face mounting pressure to stop attacks before they start, and the best defense may come down to the settings you choose on day one. In this piece, Yuriy Tsibere explores how default policies like deny-by-default, MFA enforcement, and application Ringfencing ™ can eliminate entire categories of risk. From disabling Office macros to blocking outbound server",
-      "source": "thehackernews.com"
-    },
-    {
-      "title": "Passkey Login Bypassed via WebAuthn Process Manipulation",
-      "link": "https://www.securityweek.com/passkey-login-bypassed-via-webauthn-process-manipulation/",
-      "date": "2025-08-14T09:09:07Z",
-      "description": "Researchers at enterprise browser security firm SquareX showed how an attacker can impersonate a user and bypass passkey security. The post Passkey Login Bypassed via WebAuthn Process Manipulation appeared first on SecurityWeek.",
-      "source": "securityweek.com"
-    },
-    {
       "title": "ZDI-CAN-27786: Katana Network",
       "link": "http://www.zerodayinitiative.com/advisories/upcoming/",
       "date": "2025-08-14T05:00:00Z",
@@ -204,13 +211,6 @@
       "date": "2025-08-14T05:00:00Z",
       "description": "A CVSS score 7.8 AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H severity vulnerability discovered by 'Nikolai Skliarenko of Trend Micro Security Research' was reported to the affected vendor on: 2025-08-14, 1 days ago. The vendor is given until 2025-12-12 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
       "source": "zerodayinitiative.com"
-    },
-    {
-      "title": "Norwegian Police Say Pro-Russian Hackers Were Likely Behind Suspected Sabotage at a Dam",
-      "link": "https://www.securityweek.com/norwegian-police-say-pro-russian-hackers-were-likely-behind-suspected-sabotage-at-a-dam/",
-      "date": "2025-08-13T20:05:00Z",
-      "description": "During the April incident, hackers gained access to a digital system which remotely controls one of the dam’s valves and opened it to increase the water flow. The post Norwegian Police Say Pro-Russian Hackers Were Likely Behind Suspected Sabotage at a Dam appeared first on SecurityWeek.",
-      "source": "securityweek.com"
     },
     {
       "title": "New Zero-Click Flaw Bypasses Microsoft’s Patch, Leaking NTLM Credentials, PoC Available",
