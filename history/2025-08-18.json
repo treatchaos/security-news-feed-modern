@@ -1,7 +1,107 @@
 {
   "date": "2025-08-18",
-  "count": 15,
+  "count": 27,
   "items": [
+    {
+      "id": "66e9963f2bec0342e1d8ea9593edb4fc5d215ab8",
+      "title": "Linux Kernel netfilter Vulnerability Let Attackers Escalate Privileges",
+      "link": "https://cybersecuritynews.com/linux-kernel-netfilter-vulnerability/",
+      "date": "2025-08-18T13:39:41Z",
+      "description": "A critical vulnerability in the Linux kernel’s netfilter ipset subsystem has been discovered that allows local attackers to escalate privileges to root-level access. The flaw, identified in the bitmap:ip implementation within the ipset framework, stems from insufficient range validation when processing CIDR notation in IP address ranges. This missing bounds check enables attackers to trigger […]…",
+      "source": "cybersecuritynews.com",
+      "first_seen": "2025-08-18T13:49:28Z",
+      "last_seen": "2025-08-18T13:49:28Z"
+    },
+    {
+      "id": "2cfd9e287a5feaaec22c757a8ff610cdfc88c25b",
+      "title": "X-VPN’s August Update Lets Mobile Users Choose Servers in 26 Regions with Military-Grade AES-256 Encryption",
+      "link": "https://cybersecuritynews.com/x-vpns-august-update-lets-mobile-users-choose-servers-in-26-regions-with-military-grade-aes-256-encryption/",
+      "date": "2025-08-18T13:39:34Z",
+      "description": "San Francisco, CA – August 12, 2025 — Addressing the growing demand for data privacy in financial workflows, X-VPN has rolled out an update to its mobile application, now offering free users the ability to manually choose from 26 server regions globally. In addition, the previously paywalled Kill Switch feature is now unlocked for all […] The post X-VPN’s August Update Lets Mobile Users Choose…",
+      "source": "cybersecuritynews.com",
+      "first_seen": "2025-08-18T13:49:28Z",
+      "last_seen": "2025-08-18T13:49:28Z"
+    },
+    {
+      "id": "5a57c8757f018f6040fed3334726dfe8b6cb4538",
+      "title": "APT SideWinder Actor Profile – Recent Attacks, Tactics, Techniques, and Procedures",
+      "link": "https://cybersecuritynews.com/apt-sidewinder-actor-profile/",
+      "date": "2025-08-18T13:26:06Z",
+      "description": "APT SideWinder, also known as Rattlesnake, Razor Tiger, and T-APT-04, is a nation-state advanced persistent threat (APT) group active since at least 2012 and believed to originate from India. Noted for targeting military, government, and strategic business entities, particularly in South Asia, SideWinder’s operational footprint has recently expanded to critical infrastructure in the Middle East…",
+      "source": "cybersecuritynews.com",
+      "first_seen": "2025-08-18T13:49:28Z",
+      "last_seen": "2025-08-18T13:49:28Z"
+    },
+    {
+      "id": "8efb46d932904722f4010fccd63cd921768d574d",
+      "title": "⚡ Weekly Recap: NFC Fraud, Curly COMrades, N-able Exploits, Docker Backdoors & More",
+      "link": "https://thehackernews.com/2025/08/weekly-recap-nfc-fraud-curly-comrades-n.html",
+      "date": "2025-08-18T12:47:00Z",
+      "description": "Power doesn’t just disappear in one big breach. It slips away in the small stuff—a patch that’s missed, a setting that’s wrong, a system no one is watching. Security usually doesn’t fail all at once; it breaks slowly, then suddenly. Staying safe isn’t about knowing everything—it’s about acting fast and clear before problems pile up. Clarity keeps control. Hesitation creates risk. Here are this",
+      "source": "thehackernews.com",
+      "first_seen": "2025-08-18T13:49:28Z",
+      "last_seen": "2025-08-18T13:49:28Z"
+    },
+    {
+      "id": "22f641d5bd565166ecba36bbe918dcd8ef0dfdf0",
+      "title": "1000+ Exposed N-able N-central RMM Servers Unpatched for 0-Day Vulnerabilities",
+      "link": "https://cybersecuritynews.com/1000-exposed-n-able-n-central-rmm-servers/",
+      "date": "2025-08-18T12:40:59Z",
+      "description": "Over 1,000 exposed and unpatched N-able N-central Remote Monitoring and Management (RMM) servers are vulnerable to two newly disclosed zero-day vulnerabilities – CVE-2025-8875 and CVE-2025-8876. As of August 15, 2025, exactly 1,077 unique IPs have been identified as running outdated N-central versions, presenting a significant risk to managed service providers (MSPs) and their clients. These […]…",
+      "source": "cybersecuritynews.com",
+      "first_seen": "2025-08-18T13:49:28Z",
+      "last_seen": "2025-08-18T13:49:28Z"
+    },
+    {
+      "id": "3d675eac253c1b3653b19bd5b35dfdbe5cea86d4",
+      "title": "VirtualBox 7.2 Released With Support for Windows 11/Arm VMs and 50 Bug Fixes",
+      "link": "https://cybersecuritynews.com/virtualbox-7-2-released/",
+      "date": "2025-08-18T12:23:10Z",
+      "description": "Oracle has announced the release of VirtualBox 7.2, a major update to the popular open-source virtualization platform that introduces significant enhancements for Windows 11/Arm virtualization, comprehensive GUI improvements, and numerous bug fixes. Released on August 14, 2025, this version marks a substantial advancement in cross-platform virtualization capabilities, particularly targeting the…",
+      "source": "cybersecuritynews.com",
+      "first_seen": "2025-08-18T13:49:28Z",
+      "last_seen": "2025-08-18T13:49:28Z"
+    },
+    {
+      "id": "d88bc599b99ec507b6c7a46ce60f3f94b45d7b87",
+      "title": "Defending Against Cloud Threats Across Multicloud Environments",
+      "link": "https://www.darkreading.com/cloud-security/defending-against-cloud-threats-across-multi-cloud-environments",
+      "date": "2025-08-18T12:22:00Z",
+      "description": "The vast majority of companies are using more than one cloud platform, yet struggle to establish and monitor security across different environments giving attackers an opening.",
+      "source": "darkreading.com",
+      "first_seen": "2025-08-18T13:49:28Z",
+      "last_seen": "2025-08-18T13:49:28Z"
+    },
+    {
+      "id": "76d4de80913f60c2b38908d5943e8c9223d7f5bf",
+      "title": "Hundreds of N-able N-central Instances Affected by Exploited Vulnerabilities",
+      "link": "https://www.securityweek.com/hundreds-of-n-able-n-central-instances-affected-by-exploited-vulnerabilities/",
+      "date": "2025-08-18T12:17:11Z",
+      "description": "More than 870 N-able N-central instances have not been patched against CVE-2025-8875 and CVE-2025-8876, two exploited vulnerabilities. The post Hundreds of N-able N-central Instances Affected by Exploited Vulnerabilities appeared first on SecurityWeek.",
+      "source": "securityweek.com",
+      "first_seen": "2025-08-18T13:49:28Z",
+      "last_seen": "2025-08-18T13:49:28Z"
+    },
+    {
+      "id": "741547d51101b352927e6d1bc1fbdde706799b2a",
+      "title": "Workday Data Breach Bears Signs of Widespread Salesforce Hack",
+      "link": "https://www.securityweek.com/workday-data-breach-bears-signs-of-widespread-salesforce-hack/",
+      "date": "2025-08-18T11:59:25Z",
+      "description": "Workday appears to have joined the list of major companies that had their Salesforce instances targeted by hackers. The post Workday Data Breach Bears Signs of Widespread Salesforce Hack appeared first on SecurityWeek.",
+      "source": "securityweek.com",
+      "first_seen": "2025-08-18T13:49:28Z",
+      "last_seen": "2025-08-18T13:49:28Z"
+    },
+    {
+      "id": "fa2a59a1dbfffc4e7413e7aa5d286dee184d36da",
+      "title": "Microsoft: Recent Windows updates may fail to install via WUSA",
+      "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-windows-11-windows-server-2025-updates-may-fail-from-network-shares/",
+      "date": "2025-08-18T11:07:07Z",
+      "description": "Microsoft has mitigated a known issue that caused Windows update failures when installing them from a network share using the Windows Update Standalone Installer (WUSA). [...]",
+      "source": "bleepingcomputer.com",
+      "first_seen": "2025-08-18T13:49:28Z",
+      "last_seen": "2025-08-18T13:49:28Z"
+    },
     {
       "id": "94dfde7df2c460fbe58f8bdfcc2bea48a4f3f4b8",
       "title": "US Seizes $2.8 Million From Zeppelin Ransomware Operator",
@@ -10,7 +110,17 @@
       "description": "The US has indicted Zeppelin ransomware operator Ianis Antropenko, seizing over $2.8 million in cryptocurrency from his wallet. The post US Seizes $2.8 Million From Zeppelin Ransomware Operator appeared first on SecurityWeek.",
       "source": "securityweek.com",
       "first_seen": "2025-08-18T11:32:14Z",
-      "last_seen": "2025-08-18T11:32:14Z"
+      "last_seen": "2025-08-18T13:49:28Z"
+    },
+    {
+      "id": "5923528a87e54c1fcf950a601e59f7aacc540d00",
+      "title": "Malicious PyPI and npm Packages Discovered Exploiting Dependencies in Supply Chain Attacks",
+      "link": "https://thehackernews.com/2025/08/malicious-pypi-and-npm-packages.html",
+      "date": "2025-08-18T10:56:00Z",
+      "description": "Cybersecurity researchers have discovered a malicious package in the Python Package Index (PyPI) repository that introduces malicious behavior through a dependency that allows it to establish persistence and achieve code execution. The package, named termncolor, realizes its nefarious functionality through a dependency package called colorinal by means of a multi-stage malware operation, Zscaler",
+      "source": "thehackernews.com",
+      "first_seen": "2025-08-18T13:49:28Z",
+      "last_seen": "2025-08-18T13:49:28Z"
     },
     {
       "id": "13c6131c34b5d9a0772b6f22da5fca72167e5919",
@@ -50,7 +160,7 @@
       "description": "Organizations handling various forms of sensitive data or personally identifiable information (PII) require adherence to regulatory compliance standards and frameworks. These compliance standards also apply to organizations operating in regulated sectors such as healthcare, finance, government contracting, or education. Some of these standards and frameworks include, but are not limited to:",
       "source": "thehackernews.com",
       "first_seen": "2025-08-18T10:50:13Z",
-      "last_seen": "2025-08-18T11:32:14Z"
+      "last_seen": "2025-08-18T13:49:28Z"
     },
     {
       "id": "18b741c8ebcd591cb254f5738b375c2fad8b4e00",
@@ -60,7 +170,7 @@
       "description": "Chinese APT UAT-7237 has been targeting Taiwanese web infrastructure for long-term access to high-value entities. The post Web Hosting Firms in Taiwan Attacked by Chinese APT for Access to High-Value Targets appeared first on SecurityWeek.",
       "source": "securityweek.com",
       "first_seen": "2025-08-18T09:48:39Z",
-      "last_seen": "2025-08-18T11:32:14Z"
+      "last_seen": "2025-08-18T13:49:28Z"
     },
     {
       "id": "77db56aa06c11cdaffb00d7df59087cf7dba6cba",
@@ -90,7 +200,7 @@
       "description": "Human resources giant Workday has disclosed a data breach after attackers gained access to a third-party customer relationship management (CRM) platform in a recent social engineering attack. [...]",
       "source": "bleepingcomputer.com",
       "first_seen": "2025-08-18T09:48:39Z",
-      "last_seen": "2025-08-18T11:32:14Z"
+      "last_seen": "2025-08-18T13:49:28Z"
     },
     {
       "id": "f44ed03367eddbaef57e57928367b74b7582f96c",
@@ -150,7 +260,17 @@
       "description": "OpenAI has confirmed it has begun rolling out a new warmer personality for GPT-5, but remember that it won't be as warm as GPT-4o, which is still available for use under legacy models. [...]",
       "source": "bleepingcomputer.com",
       "first_seen": "2025-08-18T08:56:36Z",
-      "last_seen": "2025-08-18T11:32:14Z"
+      "last_seen": "2025-08-18T13:49:28Z"
+    },
+    {
+      "id": "7fb333c1cb3dca96be178964f269b14157f18996",
+      "title": "New Quantum-Safe Alliance Aims to Accelerate PQC Implementation",
+      "link": "https://www.darkreading.com/cybersecurity-operations/new-quantum-safe-alliance-accelerate-pqc-implementation",
+      "date": "2025-08-15T22:16:11Z",
+      "description": "The new Quantum-Safe 360 Alliance will provide road maps, technology, and services to help organizations navigate the post-quantum cryptography transition before the 2030 deadline.",
+      "source": "darkreading.com",
+      "first_seen": "2025-08-18T13:49:28Z",
+      "last_seen": "2025-08-18T13:49:28Z"
     }
   ]
 }
