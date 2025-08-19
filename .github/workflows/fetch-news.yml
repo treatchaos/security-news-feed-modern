@@ -37,15 +37,28 @@ jobs:
           if [ ! -d history ]; then mkdir -p history; fi
           # Optional: add a .keep so empty dir is tracked first run
           if [ ! -f history/.keep ]; then echo "" > history/.keep; fi
-      - name: Commit and push if changed
+      - name: Commit and push if changed (local files)
         run: |
           git config user.name "github-actions"
           git config user.email "github-actions@github.com"
           git add news.json archive.json history/
           if git diff --cached --quiet; then
             echo "No changes to commit";
-            exit 0;
+          else
+            git commit -m "chore: update feeds ($(date -u +%Y-%m-%dT%H:%M:%SZ))"
+            git pull --rebase || true
+            git push
           fi
-          git commit -m "chore: update feeds ($(date -u +%Y-%m-%dT%H:%M:%SZ))"
-          git pull --rebase || true
-          git push
+      - name: Configure GCP auth (Firestore)
+        if: ${{ secrets.GCP_SA_JSON != '' }}
+        env:
+          GCP_SA_JSON: ${{ secrets.GCP_SA_JSON }}
+        run: |
+          echo "$GCP_SA_JSON" | base64 -d > ${GITHUB_WORKSPACE}/gcp-key.json
+          echo "GOOGLE_APPLICATION_CREDENTIALS=${GITHUB_WORKSPACE}/gcp-key.json" >> $GITHUB_ENV
+      - name: Publish to Firestore
+        if: ${{ env.GOOGLE_APPLICATION_CREDENTIALS != '' && secrets.GCP_PROJECT_ID != '' }}
+        env:
+          GCP_PROJECT_ID: ${{ secrets.GCP_PROJECT_ID }}
+        run: |
+          python publish_to_firestore.py
