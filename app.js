@@ -398,15 +398,42 @@ document.addEventListener("DOMContentLoaded", () => {
     if (!fb) return Promise.resolve();
     try {
       const days = await fsQueryDaysIndex();
-      historyIndex = { days };
-      buildDaySelect();
-      return historyIndex;
+      if (Array.isArray(days) && days.length) {
+        historyIndex = { days };
+        buildDaySelect();
+        return historyIndex;
+      }
+      // Fallback to static index if FS empty
+      try {
+        const data = await fetchJSON('history/index.json');
+        if (data?.days?.length) {
+          historyIndex = data;
+          buildDaySelect();
+          return historyIndex;
+        }
+      } catch {}
     } catch (e) {
-      console.warn('No history index yet', e);
+      console.warn('FS history index failed, falling back to static', e);
+      try {
+        const data = await fetchJSON('history/index.json');
+        if (data?.days?.length) {
+          historyIndex = data;
+          buildDaySelect();
+          return historyIndex;
+        }
+      } catch {}
     }
   }
 
-  // Patch data fetchers to use Firestore when available and authed
+  // Helper: timeout wrapper for promises
+  function withTimeout(promise, ms = 2500) {
+    return new Promise((resolve, reject) => {
+      const t = setTimeout(() => reject(new Error('timeout')), ms);
+      promise.then((v)=>{ clearTimeout(t); resolve(v); }, (e)=>{ clearTimeout(t); reject(e); });
+    });
+  }
+
+  // Patch data fetchers to use Firestore when available and authed (with static fallback + timeout)
   const prevFetchNews = fetchNews;
   const prevFetchArchive = fetchArchive;
   const prevFetchDay = fetchDay;
@@ -414,9 +441,16 @@ document.addEventListener("DOMContentLoaded", () => {
   fetchNews = function(force=false){
     if (fb && currentUser) {
       container.classList.add('loading'); showLoader();
-      fsQueryLatest()
-        .then(items => { allNews = items; hideLoader(); container.classList.remove('loading'); applyFilters(); buildBadges(); })
-        .catch(e => { hideLoader(); container.classList.remove('loading'); console.error(e); });
+      withTimeout(fsQueryLatest(), 2500)
+        .then(items => {
+          if (!items || items.length === 0) throw new Error('empty');
+          allNews = items; hideLoader(); container.classList.remove('loading'); applyFilters(); buildBadges();
+        })
+        .catch(() => {
+          console.warn('Firestore latest blocked/empty, falling back to static');
+          // keep loader until fallback finishes
+          prevFetchNews.call(this, force);
+        });
       return;
     }
     return prevFetchNews.call(this, force);
@@ -426,9 +460,15 @@ document.addEventListener("DOMContentLoaded", () => {
     if (fb && !currentUser) { alert('Sign in to view Archive.'); return; }
     if (fb && currentUser) {
       container.classList.add('loading'); showLoader();
-      fsQueryArchive()
-        .then(items => { allNews = items; hideLoader(); container.classList.remove('loading'); applyFilters(); buildBadges(); })
-        .catch(e => { hideLoader(); container.classList.remove('loading'); console.error(e); });
+      withTimeout(fsQueryArchive(), 3000)
+        .then(items => {
+          if (!items || items.length === 0) throw new Error('empty');
+          allNews = items; hideLoader(); container.classList.remove('loading'); applyFilters(); buildBadges();
+        })
+        .catch(() => {
+          console.warn('Firestore archive blocked/empty, falling back to static');
+          prevFetchArchive.call(this);
+        });
       return;
     }
     return prevFetchArchive.call(this);
@@ -438,9 +478,15 @@ document.addEventListener("DOMContentLoaded", () => {
     if (fb && !currentUser) { alert('Sign in to view Day-wise items.'); return; }
     if (fb && currentUser) {
       container.classList.add('loading'); showLoader();
-      fsQueryDay(day)
-        .then(items => { allNews = items; hideLoader(); container.classList.remove('loading'); applyFilters(); buildBadges(); })
-        .catch(e => { hideLoader(); container.classList.remove('loading'); console.error(e); });
+      withTimeout(fsQueryDay(day), 3000)
+        .then(items => {
+          if (!items || items.length === 0) throw new Error('empty');
+          allNews = items; hideLoader(); container.classList.remove('loading'); applyFilters(); buildBadges();
+        })
+        .catch(() => {
+          console.warn('Firestore day blocked/empty, falling back to static');
+          prevFetchDay.call(this, day);
+        });
       return;
     }
     return prevFetchDay.call(this, day);

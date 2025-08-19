@@ -107,7 +107,7 @@
   <script type="module">
     import { initializeApp } from "https://www.gstatic.com/firebasejs/12.1.0/firebase-app.js";
     import { getAuth, onAuthStateChanged, GoogleAuthProvider, signInWithPopup, signOut } from "https://www.gstatic.com/firebasejs/12.1.0/firebase-auth.js";
-    import { getFirestore, collection, getDocs, query, where, orderBy, limit } from "https://www.gstatic.com/firebasejs/12.1.0/firebase-firestore.js";
+    import { initializeFirestore, collection, getDocs, query, where, orderBy, limit } from "https://www.gstatic.com/firebasejs/12.1.0/firebase-firestore.js";
 
     const firebaseConfig = {
       apiKey: "AIzaSyDHSm-aT8SKMjL7bZtFq_VfGbkOty_OsW4",
@@ -117,7 +117,8 @@
 
     const app = initializeApp(firebaseConfig);
     const auth = getAuth(app);
-    const db = getFirestore(app);
+    // Use long-polling and disable fetch streams to reduce ad-block issues
+    const db = initializeFirestore(app, { experimentalForceLongPolling: true, useFetchStreams: false });
 
     window.firebaseCtx = { auth, db, GoogleAuthProvider, signInWithPopup, signOut, onAuthStateChanged, collection, getDocs, query, where, orderBy, limit };
   </script>
