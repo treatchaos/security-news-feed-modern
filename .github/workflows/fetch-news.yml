@@ -50,15 +50,22 @@ jobs:
             git push
           fi
       - name: Configure GCP auth (Firestore)
-        if: ${{ secrets.GCP_SA_JSON != '' }}
         env:
           GCP_SA_JSON: ${{ secrets.GCP_SA_JSON }}
         run: |
-          echo "$GCP_SA_JSON" | base64 -d > ${GITHUB_WORKSPACE}/gcp-key.json
-          echo "GOOGLE_APPLICATION_CREDENTIALS=${GITHUB_WORKSPACE}/gcp-key.json" >> $GITHUB_ENV
+          if [ -n "$GCP_SA_JSON" ]; then
+            echo "$GCP_SA_JSON" | base64 -d > "${GITHUB_WORKSPACE}/gcp-key.json"
+            echo "GOOGLE_APPLICATION_CREDENTIALS=${GITHUB_WORKSPACE}/gcp-key.json" >> "$GITHUB_ENV"
+            echo "GCP auth configured."
+          else
+            echo "No GCP_SA_JSON provided. Skipping GCP auth."
+          fi
       - name: Publish to Firestore
-        if: ${{ env.GOOGLE_APPLICATION_CREDENTIALS != '' && secrets.GCP_PROJECT_ID != '' }}
         env:
           GCP_PROJECT_ID: ${{ secrets.GCP_PROJECT_ID }}
         run: |
-          python publish_to_firestore.py
+          if [ -n "$GOOGLE_APPLICATION_CREDENTIALS" ] && [ -n "$GCP_PROJECT_ID" ] && [ -f "$GOOGLE_APPLICATION_CREDENTIALS" ]; then
+            python publish_to_firestore.py
+          else
+            echo "Skipping Firestore publish (missing credentials or project id)."
+          fi
