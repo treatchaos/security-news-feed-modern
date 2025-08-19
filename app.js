@@ -261,6 +261,93 @@ document.addEventListener("DOMContentLoaded", () => {
     });
   }
 
+  // ---- UI event handlers (search/sort/clear/refresh) ----
+  searchInput.addEventListener('input', () => applyFilters());
+  sortSelect.addEventListener('change', () => applyFilters());
+  clearFilters.addEventListener('click', () => {
+    searchInput.value = '';
+    sortSelect.value = 'latest';
+    applyFilters();
+  });
+  refreshBtn.addEventListener('click', () => {
+    if (mode === 'latest') fetchNews(true);
+    else if (mode === 'archive') fetchArchive();
+    else if (mode === 'day' && currentDay) fetchDay(currentDay);
+  });
+
+  // ---- Static JSON loaders (fallback before login or without Firebase) ----
+  async function fetchJSON(url) {
+    const res = await fetch(`${url}${url.includes('?') ? '&' : '?'}t=${Date.now()}`, { cache: 'no-store' });
+    if (!res.ok) throw new Error(`Failed to fetch ${url}: ${res.status}`);
+    return res.json();
+  }
+
+  async function fetchNews(force=false) {
+    try {
+      container.classList.add('loading'); showLoader();
+      const data = await fetchJSON('news.json');
+      const items = Array.isArray(data) ? data : (data.items || []);
+      allNews = items;
+      hideLoader(); container.classList.remove('loading');
+      applyFilters();
+      buildBadges();
+    } catch (e) {
+      console.error('fetchNews failed', e);
+      hideLoader(); container.classList.remove('loading');
+    }
+  }
+
+  async function fetchArchive() {
+    try {
+      container.classList.add('loading'); showLoader();
+      const data = await fetchJSON('archive.json');
+      archiveMeta = {
+        count: data.count || (data.items ? data.items.length : 0),
+        retention_days: data.retention_days || 90,
+        last_updated: data.last_updated || null,
+      };
+      allNews = data.items || [];
+      hideLoader(); container.classList.remove('loading');
+      applyFilters();
+      buildBadges();
+    } catch (e) {
+      console.error('fetchArchive failed', e);
+      hideLoader(); container.classList.remove('loading');
+    }
+  }
+
+  async function fetchDay(day) {
+    try {
+      if (!day) return;
+      container.classList.add('loading'); showLoader();
+      const data = await fetchJSON(`history/${day}.json`);
+      allNews = Array.isArray(data) ? data : (data.items || []);
+      hideLoader(); container.classList.remove('loading');
+      applyFilters();
+      buildBadges();
+    } catch (e) {
+      console.error('fetchDay failed', e);
+      hideLoader(); container.classList.remove('loading');
+    }
+  }
+
+  function buildDaySelect() {
+    if (!historyIndex?.days?.length) return;
+    daySelect.innerHTML = '';
+    historyIndex.days.forEach((d, i) => {
+      const opt = document.createElement('option');
+      opt.value = d.date;
+      opt.textContent = `${d.date}${typeof d.count === 'number' ? ` (${d.count})` : ''}`;
+      daySelect.appendChild(opt);
+    });
+    if (!currentDay) currentDay = historyIndex.days[0].date;
+    daySelect.value = currentDay;
+    daySelect.addEventListener('change', () => {
+      currentDay = daySelect.value;
+      fetchDay(currentDay);
+    });
+  }
+
   // ---- Firestore loaders ----
   async function fsQueryLatest() {
     const { db, collection, getDocs, query, where, orderBy, limit } = fb;
