@@ -19,6 +19,41 @@ document.addEventListener("DOMContentLoaded", () => {
   const daySelect = document.getElementById('day-select');
   const daySelectLabel = document.getElementById('day-select-label');
   const datasetBadges = document.getElementById('dataset-badges');
+  const loginBtn = document.getElementById('login-btn');
+  const logoutBtn = document.getElementById('logout-btn');
+  const fb = window.firebaseCtx || null;
+  let currentUser = null;
+
+  function updateDatasetAuthState(authed){
+    // Disable Archive & Day buttons when not authed
+    segButtons().forEach(btn => {
+      const m = btn.dataset.mode;
+      const shouldDisable = !authed && (m === 'archive' || m === 'day');
+      btn.setAttribute('aria-disabled', shouldDisable ? 'true' : 'false');
+      btn.classList.toggle('opacity-50', shouldDisable);
+      btn.classList.toggle('cursor-not-allowed', shouldDisable);
+      if (shouldDisable && m !== 'latest' && btn.classList.contains('active')) {
+        // Ensure Latest stays active
+        const latestBtn = segButtons().find(b=>b.dataset.mode==='latest');
+        latestBtn?.classList.add('active'); latestBtn?.setAttribute('aria-pressed','true');
+        btn.classList.remove('active'); btn.setAttribute('aria-pressed','false');
+      }
+    });
+  }
+
+  // Intercept clicks on segmented control
+  datasetControls.addEventListener('click', (e) => {
+    const btn = e.target.closest('.seg-btn');
+    if (!btn) return;
+    const disabled = btn.getAttribute('aria-disabled') === 'true';
+    const targetMode = btn.dataset.mode;
+    if (disabled) {
+      // Soft prompt; do not switch
+      if (!currentUser) alert('Sign in to view Archive and Day.');
+      return;
+    }
+    setMode(targetMode);
+  });
 
   yearEl.textContent = new Date().getFullYear();
 
@@ -190,115 +225,156 @@ document.addEventListener("DOMContentLoaded", () => {
     datasetBadges.appendChild(span);
   }
 
-  function ensureHistoryIndex() {
-    if (historyIndex) return Promise.resolve(historyIndex);
-    return fetch('history/index.json?_=' + Date.now())
-      .then(r => { if (!r.ok) throw new Error('index'); return r.json(); })
-      .then(idx => { historyIndex = idx; buildDaySelect(); return idx; })
-      .catch(e => { console.warn('No history index yet', e); });
+  function showSignInRequired() {
+    // No longer hide the feed; we allow Latest before login
+    // Optionally could show a small hint somewhere; skipping for now
   }
 
-  function buildDaySelect() {
-    if (!historyIndex?.days) return;
-    daySelect.innerHTML = historyIndex.days.map(d => `<option value="${d.date}">${d.date} (${d.count})</option>`).join('');
-    if (currentDay) daySelect.value = currentDay;
+  // ---- Auth wiring (if Firebase present) ----
+  if (fb && fb.auth) {
+    // Buttons
+    loginBtn?.addEventListener('click', async () => {
+      try {
+        const provider = new fb.GoogleAuthProvider();
+        await fb.signInWithPopup(fb.auth, provider);
+      } catch (e) { console.error(e); }
+    });
+    logoutBtn?.addEventListener('click', async () => {
+      try { await fb.signOut(fb.auth); } catch (e) { console.error(e); }
+    });
+
+    fb.onAuthStateChanged(fb.auth, (user) => {
+      currentUser = user || null;
+      loginBtn?.classList.toggle('hidden', !!user);
+      logoutBtn?.classList.toggle('hidden', !user);
+      updateDatasetAuthState(!!user);
+      if (!user) {
+        // Force Latest view and load static latest data
+        if (mode !== 'latest') setMode('latest');
+        fetchNews();
+        return;
+      }
+      // On first auth, load current mode via Firestore
+      if (mode === 'latest') fetchNews();
+      else if (mode === 'archive') fetchArchive();
+      else if (mode === 'day' && currentDay) fetchDay(currentDay); else if (mode === 'day') ensureHistoryIndex().then(() => buildDaySelect());
+    });
   }
 
-  daySelect?.addEventListener('change', () => {
-    currentDay = daySelect.value;
-    if (currentDay) fetchDay(currentDay);
-  });
-
-  function fetchDay(day) {
-    container.classList.add('loading');
-    showLoader();
-    fetch(`history/${day}.json?_=${Date.now()}`)
-      .then(r => { if(!r.ok) throw new Error('day'); return r.json(); })
-      .then(data => {
-        hideLoader();
-        container.classList.remove('loading');
-        const items = data.items || [];
-        allNews = items; // day view shows that day only
-        applyFilters();
-        buildBadges();
-      })
-      .catch(e => { hideLoader(); container.classList.remove('loading'); console.error(e); });
+  // ---- Firestore loaders ----
+  async function fsQueryLatest() {
+    const { db, collection, getDocs, query, where, orderBy, limit } = fb;
+    const THIRTY_DAYS = 1000*60*60*24*30;
+    const cutoff = Date.now() - THIRTY_DAYS;
+    const q = query(
+      collection(db, 'items'),
+      where('date_ts', '>=', cutoff),
+      orderBy('date_ts', 'desc'),
+      limit(600)
+    );
+    const snap = await getDocs(q);
+    return snap.docs.map(d => d.data());
   }
 
-  function fetchArchive() {
-    container.classList.add('loading');
-    showLoader();
-    fetch('archive.json?_=' + Date.now())
-      .then(r => { if(!r.ok) throw new Error('archive'); return r.json(); })
-      .then(data => {
-        hideLoader();
-        container.classList.remove('loading');
-        archiveMeta = data;
-        const items = data.items || [];
-        allNews = items; // full archive (already trimmed by retention)
-        applyFilters();
-        buildBadges();
-      })
-      .catch(e => { hideLoader(); container.classList.remove('loading'); console.error(e); });
+  async function fsQueryArchive() {
+    const { db, collection, getDocs, query, orderBy, limit } = fb;
+    const q = query(
+      collection(db, 'items'),
+      orderBy('date_ts', 'desc'),
+      limit(2000)
+    );
+    const snap = await getDocs(q);
+    return snap.docs.map(d => d.data());
   }
 
-  function fetchNews(force = false) {
-    container.classList.add('loading');
-    showLoader();
-    fetch('news.json' + (force ? `?t=${Date.now()}` : ''))
-      .then(res => { if(!res.ok) throw new Error('HTTP '+res.status); return res.json(); })
-      .then(payload => {
-        hideLoader();
-        container.classList.remove('loading');
-        const data = Array.isArray(payload) ? payload : (payload.items || []);
-        const THIRTY_DAYS = 1000*60*60*24*30;
-        const now = Date.now();
-        allNews = data.filter(item => {
-          const ts = normalizeDate(item.date);
-          return !ts || (now - ts) <= THIRTY_DAYS; // keep if within 30 days or date missing
-        });
-        applyFilters();
-        buildBadges();
-      })
-      .catch(err => { hideLoader(); container.classList.remove('loading'); container.innerHTML = '<p class="col-span-full text-red-600">Failed to load news.</p>'; console.error(err); });
+  async function fsQueryDaysIndex() {
+    const { db, collection, getDocs, query, orderBy, limit } = fb;
+    const q = query(collection(db, 'daily'), orderBy('date', 'desc'), limit(180));
+    const snap = await getDocs(q);
+    return snap.docs.map(d => ({ date: d.id || d.data().date, count: d.data().count || 0 }));
   }
 
-  // Segmented control events
-  datasetControls?.addEventListener('click', (e) => {
-    const btn = e.target.closest('.seg-btn');
-    if (!btn) return;
-    setMode(btn.dataset.mode);
-    updateSegmentedSlider();
-  });
-
-  // Add (or restore) unified refresh logic & event listeners
-  function refresh(force=true){
-    if(mode==='latest') return fetchNews(force);
-    if(mode==='archive') return fetchArchive();
-    if(mode==='day' && currentDay) return fetchDay(currentDay);
+  async function fsQueryDay(day) {
+    const { db, collection, getDocs, query, where, orderBy, limit } = fb;
+    const q = query(
+      collection(db, 'items'),
+      where('first_seen_date', '==', day),
+      orderBy('date_ts', 'desc'),
+      limit(1000)
+    );
+    const snap = await getDocs(q);
+    return snap.docs.map(d => d.data());
   }
 
-  // Search & sort listeners (re-add if lost)
-  [searchInput, sortSelect].forEach(el => el && el.addEventListener('input', applyFilters));
+  // Override history index builder if Firebase present
+  async function ensureHistoryIndex() {
+    if (!fb) return Promise.resolve();
+    try {
+      const days = await fsQueryDaysIndex();
+      historyIndex = { days };
+      buildDaySelect();
+      return historyIndex;
+    } catch (e) {
+      console.warn('No history index yet', e);
+    }
+  }
 
-  clearFilters?.addEventListener('click', () => {
-    searchInput.value='';
-    sortSelect.value='latest';
-    applyFilters();
-  });
+  // Patch data fetchers to use Firestore when available and authed
+  const prevFetchNews = fetchNews;
+  const prevFetchArchive = fetchArchive;
+  const prevFetchDay = fetchDay;
 
-  refreshBtn?.addEventListener('click', () => refresh(true));
+  fetchNews = function(force=false){
+    if (fb && currentUser) {
+      container.classList.add('loading'); showLoader();
+      fsQueryLatest()
+        .then(items => { allNews = items; hideLoader(); container.classList.remove('loading'); applyFilters(); buildBadges(); })
+        .catch(e => { hideLoader(); container.classList.remove('loading'); console.error(e); });
+      return;
+    }
+    return prevFetchNews.call(this, force);
+  }
 
-  // Scroll top visibility
-  window.addEventListener('scroll', () => {
-    const show = window.scrollY > 400;
-    scrollTopBtn.classList.toggle('show', show);
-  });
-  scrollTopBtn?.addEventListener('click', () => window.scrollTo({ top:0, behavior:'smooth' }));
+  fetchArchive = function(){
+    if (fb && !currentUser) { alert('Sign in to view Archive.'); return; }
+    if (fb && currentUser) {
+      container.classList.add('loading'); showLoader();
+      fsQueryArchive()
+        .then(items => { allNews = items; hideLoader(); container.classList.remove('loading'); applyFilters(); buildBadges(); })
+        .catch(e => { hideLoader(); container.classList.remove('loading'); console.error(e); });
+      return;
+    }
+    return prevFetchArchive.call(this);
+  }
 
-  // About dialog
-  aboutLink?.addEventListener('click', (e) => { e.preventDefault(); aboutDialog?.showModal(); });
-  aboutDialog?.addEventListener('click', (e) => { if (e.target === aboutDialog) aboutDialog.close(); });
+  fetchDay = function(day){
+    if (fb && !currentUser) { alert('Sign in to view Day-wise items.'); return; }
+    if (fb && currentUser) {
+      container.classList.add('loading'); showLoader();
+      fsQueryDay(day)
+        .then(items => { allNews = items; hideLoader(); container.classList.remove('loading'); applyFilters(); buildBadges(); })
+        .catch(e => { hideLoader(); container.classList.remove('loading'); console.error(e); });
+      return;
+    }
+    return prevFetchDay.call(this, day);
+  }
+
+  // Update segmented control to use Firestore index when available, and gate unauth users
+  const prevSetMode = setMode;
+  setMode = function(newMode){
+    if (fb && !currentUser && newMode !== 'latest') {
+      alert('Sign in to use Archive and Day.');
+      return;
+    }
+    prevSetMode.call(this, newMode);
+    if (fb && currentUser && newMode === 'day') ensureHistoryIndex();
+  }
+
+  // Initialize unauth state on load
+  updateDatasetAuthState(false);
+
+  // Remove previous immediate sign-in block (we now allow Latest pre-login)
+  // if (fb && !currentUser) { showSignInRequired(); }
 
   // After first paint adjust slider
   setTimeout(updateSegmentedSlider, 150);

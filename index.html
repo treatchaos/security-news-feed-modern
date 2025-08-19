@@ -18,6 +18,8 @@
         <h1 class="text-xl sm:text-2xl font-bold tracking-tight">Security News Feed</h1>
       </div>
       <div class="ml-auto flex items-center gap-2 sm:gap-3">
+        <button id="login-btn" class="btn-subtle">Sign in</button>
+        <button id="logout-btn" class="btn-subtle hidden">Sign out</button>
         <button id="refresh-btn" class="btn-subtle" title="Refresh feeds" aria-label="Refresh feeds">
           <span class="hidden sm:inline">Refresh</span>
           <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" class="w-5 h-5" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
@@ -101,6 +103,24 @@
     </form>
   </dialog>
 
+  <!-- Firebase SDK (module) -->
+  <script type="module">
+    import { initializeApp } from "https://www.gstatic.com/firebasejs/12.1.0/firebase-app.js";
+    import { getAuth, onAuthStateChanged, GoogleAuthProvider, signInWithPopup, signOut } from "https://www.gstatic.com/firebasejs/12.1.0/firebase-auth.js";
+    import { getFirestore, collection, getDocs, query, where, orderBy, limit } from "https://www.gstatic.com/firebasejs/12.1.0/firebase-firestore.js";
+
+    const firebaseConfig = {
+      apiKey: "AIzaSyDHSm-aT8SKMjL7bZtFq_VfGbkOty_OsW4",
+      authDomain: "newsfeed-f07f9.firebaseapp.com",
+      projectId: "newsfeed-f07f9"
+    };
+
+    const app = initializeApp(firebaseConfig);
+    const auth = getAuth(app);
+    const db = getFirestore(app);
+
+    window.firebaseCtx = { auth, db, GoogleAuthProvider, signInWithPopup, signOut, onAuthStateChanged, collection, getDocs, query, where, orderBy, limit };
+  </script>
   <script src="app.js"></script>
 </body>
 </html>
