@@ -1,7 +1,47 @@
 {
   "date": "2025-08-20",
-  "count": 9,
+  "count": 13,
   "items": [
+    {
+      "id": "c7e590e4237c0f7dd2cfa43085e314dd3ec5749e",
+      "title": "CodeRabbit’s Production Servers RCE Vulnerability Enables Write Access on 1M Repositories",
+      "link": "https://cybersecuritynews.com/coderabbits-production-servers-rce-vulnerability/",
+      "date": "2025-08-20T08:38:34Z",
+      "description": "A critical remote code execution (RCE) vulnerability in CodeRabbit’s production infrastructure that provided unauthorized access to over one million code repositories, including private ones. The vulnerability, discovered in December 2024 and responsibly disclosed in January 2025, exploited the platform’s static analysis tool integration to leak sensitive API credentials and gain write access to…",
+      "source": "cybersecuritynews.com",
+      "first_seen": "2025-08-20T08:44:39Z",
+      "last_seen": "2025-08-20T08:44:39Z"
+    },
+    {
+      "id": "9360a73444edd341dee1dbbb87fe3c2f0917b644",
+      "title": "Microsoft fixes Windows upgrades failing with 0x8007007F error",
+      "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-windows-upgrades-failing-with-0x8007007f-error/",
+      "date": "2025-08-20T08:21:22Z",
+      "description": "Microsoft has resolved a known issue that caused Windows upgrades to fail with 0x8007007F errors on some Windows 11 and Windows Server systems. [...]",
+      "source": "bleepingcomputer.com",
+      "first_seen": "2025-08-20T08:44:39Z",
+      "last_seen": "2025-08-20T08:44:39Z"
+    },
+    {
+      "id": "bf47800a553d91f0dae619f73a3a950909e83eb3",
+      "title": "High-Severity Vulnerabilities Patched in Chrome, Firefox",
+      "link": "https://www.securityweek.com/high-severity-vulnerabilities-patched-in-chrome-firefox/",
+      "date": "2025-08-20T08:09:46Z",
+      "description": "Google and Mozilla have released patches for multiple high-severity vulnerabilities affecting Chrome and Firefox. The post High-Severity Vulnerabilities Patched in Chrome, Firefox appeared first on SecurityWeek.",
+      "source": "securityweek.com",
+      "first_seen": "2025-08-20T08:44:39Z",
+      "last_seen": "2025-08-20T08:44:39Z"
+    },
+    {
+      "id": "8310ad0f660dbb8dd151b3268eec0a4ba7d8ad5d",
+      "title": "Legitimate Chrome VPN With 100,000+ Installs Silently Captures Screenshots and Exfiltrate Sensitive Data",
+      "link": "https://cybersecuritynews.com/legitimate-chrome-vpn/",
+      "date": "2025-08-20T08:04:58Z",
+      "description": "A Chrome VPN extension with over 100,000 installations and verified badge status has been discovered operating as sophisticated spyware, continuously capturing user screenshots and exfiltrating sensitive data without consent. The extension, known as FreeVPN.One, masqueraded as a legitimate privacy tool while secretly implementing comprehensive surveillance capabilities that directly contradict…",
+      "source": "cybersecuritynews.com",
+      "first_seen": "2025-08-20T08:44:39Z",
+      "last_seen": "2025-08-20T08:44:39Z"
+    },
     {
       "id": "552f2a0a8c05794cf27b9ee42e2ac588619632e1",
       "title": "Intel Employee Data Exposed by Vulnerabilities",
@@ -10,7 +50,7 @@
       "description": "A researcher said he found vulnerable internal services that exposed the information of 270,000 Intel employees. The post Intel Employee Data Exposed by Vulnerabilities appeared first on SecurityWeek.",
       "source": "securityweek.com",
       "first_seen": "2025-08-20T07:32:45Z",
-      "last_seen": "2025-08-20T07:32:45Z"
+      "last_seen": "2025-08-20T08:44:39Z"
     },
     {
       "id": "e95a2388cdfd797ceba1c8dd78e1fb17bd5876a6",
@@ -20,7 +60,7 @@
       "description": "Microsoft has released emergency Windows out-of-band updates to resolve a known issue breaking reset and recovery operations after installing the August 2025 Windows security updates. [...]",
       "source": "bleepingcomputer.com",
       "first_seen": "2025-08-20T06:55:05Z",
-      "last_seen": "2025-08-20T07:32:45Z"
+      "last_seen": "2025-08-20T08:44:39Z"
     },
     {
       "id": "d08884fd4693a764956b0f41008a09e2b86d236b",
@@ -30,7 +70,7 @@
       "description": "Google has released an emergency security update for Chrome to address a critical vulnerability that could allow attackers to crash the browser or execute arbitrary code on affected systems. The high-severity flaw, designated as CVE-2025-9132, affects Chrome’s V8 JavaScript engine and was discovered by Google’s automated vulnerability detection system, Big Sleep, on August 4, 2025. […] The post…",
       "source": "cybersecuritynews.com",
       "first_seen": "2025-08-20T06:55:05Z",
-      "last_seen": "2025-08-20T07:32:45Z"
+      "last_seen": "2025-08-20T08:44:39Z"
     },
     {
       "id": "f5c012928fbd0f085c0a3bc892b465343e756f8f",
@@ -40,7 +80,7 @@
       "description": "A sophisticated new Phishing-as-a-Service (PhaaS) framework dubbed “Salty 2FA” has emerged as a significant threat to Microsoft 365 users across US and European industries. This previously undocumented platform employs advanced obfuscation techniques and multi-stage execution chains specifically designed to bypass two-factor authentication mechanisms while stealing corporate credentials. The…",
       "source": "cybersecuritynews.com",
       "first_seen": "2025-08-20T06:55:05Z",
-      "last_seen": "2025-08-20T07:32:45Z"
+      "last_seen": "2025-08-20T08:44:39Z"
     },
     {
       "id": "cedb2519b43e28559018e0554e8ee2e17581b8e6",
@@ -50,7 +90,7 @@
       "description": "A sophisticated new Remote Access Trojan named GodRAT has emerged as a significant threat to financial institutions, leveraging deceptive screen saver files and steganographic techniques to infiltrate organizational networks. First detected in September 2024, this malware campaign has demonstrated remarkable persistence, with the most recent attacks observed as recently as August 12, 2025,…",
       "source": "cybersecuritynews.com",
       "first_seen": "2025-08-20T06:55:05Z",
-      "last_seen": "2025-08-20T07:32:45Z"
+      "last_seen": "2025-08-20T08:44:39Z"
     },
     {
       "id": "cfefc923b84a6a2bafcfe35cc7c0bdff0733ea6a",
@@ -70,7 +110,7 @@
       "description": "A 22-year-old man from the U.S. state of Oregon has been charged with allegedly developing and overseeing a distributed denial-of-service (DDoS)-for-hire botnet called RapperBot. Ethan Foltz of Eugene, Oregon, has been identified as the administrator of the service, the U.S. Department of Justice (DoJ) said. The botnet has been used to carry out large-scale DDoS-for-hire attacks targeting",
       "source": "thehackernews.com",
       "first_seen": "2025-08-20T05:39:16Z",
-      "last_seen": "2025-08-20T07:32:45Z"
+      "last_seen": "2025-08-20T08:44:39Z"
     },
     {
       "id": "654490819e0eae203984279322a899da4b48d6ae",
@@ -90,7 +130,7 @@
       "description": "The uptick in breaches in Asia has prompted a Japanese chipmaker and the Singaporean government to require vendors to pass cybersecurity checks to do business.",
       "source": "darkreading.com",
       "first_seen": "2025-08-20T03:30:33Z",
-      "last_seen": "2025-08-20T07:32:45Z"
+      "last_seen": "2025-08-20T08:44:39Z"
     }
   ]
 }
