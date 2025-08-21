@@ -1,7 +1,37 @@
 {
   "date": "2025-08-21",
-  "count": 17,
+  "count": 21,
   "items": [
+    {
+      "id": "d1322d18f9e9c71c633d710b60bf2211f01b2ab6",
+      "title": "New MITM6 + NTLM Relay Attack Let Attackers Escalate Privileges and Compromise Entire Domain",
+      "link": "https://cybersecuritynews.com/new-mitm6-ntlm-relay-attack/",
+      "date": "2025-08-21T09:05:18Z",
+      "description": "A sophisticated attack chain that combines MITM6 with NTLM relay techniques to achieve full Active Directory domain compromise. The attack exploits Windows’ default IPv6 auto-configuration behavior, allowing attackers to escalate from network access to Domain Admin privileges in minutes. Key Takeaways1. Abuses Windows IPv6 auto-config and AD's 10-machine account quota for domain compromise.2.…",
+      "source": "cybersecuritynews.com",
+      "first_seen": "2025-08-21T09:38:14Z",
+      "last_seen": "2025-08-21T09:38:14Z"
+    },
+    {
+      "id": "91eb121dca97a44b4853590c3be972eefb5f138b",
+      "title": "New SHAMOS Malware Attacking macOS Via Fake Help Websites to Steal Login Credentials",
+      "link": "https://cybersecuritynews.com/new-shamos-malware-attacking-macos/",
+      "date": "2025-08-21T08:52:48Z",
+      "description": "A sophisticated malware campaign targeting macOS users has emerged between June and August 2025, successfully attempting to compromise over 300 customer environments through deceptive help websites. The malicious operation deploys SHAMOS, a variant of the notorious Atomic macOS Stealer (AMOS), developed by the cybercriminal group COOKIE SPIDER who operates this information stealer as…",
+      "source": "cybersecuritynews.com",
+      "first_seen": "2025-08-21T09:38:14Z",
+      "last_seen": "2025-08-21T09:38:14Z"
+    },
+    {
+      "id": "258aa26a08d741638001d7da6b91abe5d423a795",
+      "title": "Apple Patches Zero-Day Exploited in Targeted Attacks",
+      "link": "https://www.securityweek.com/apple-patches-zero-day-exploited-in-targeted-attacks/",
+      "date": "2025-08-21T08:51:34Z",
+      "description": "Apple has rolled out iOS and macOS updates that resolve a zero-day vulnerability exploited in highly targeted attacks. The post Apple Patches Zero-Day Exploited in Targeted Attacks appeared first on SecurityWeek.",
+      "source": "securityweek.com",
+      "first_seen": "2025-08-21T09:38:14Z",
+      "last_seen": "2025-08-21T09:38:14Z"
+    },
     {
       "id": "7145bfaa8bd5b5e77d6b1bd9189d37b72c8aa316",
       "title": "Scattered Spider hacker gets sentenced to 10 years in prison",
@@ -10,7 +40,7 @@
       "description": "Noah Michael Urban, a key member of the Scattered Spider cybercrime collective, was sentenced to 10 years in prison on Wednesday after pleading guilty to charges of wire fraud and conspiracy in April. [...]",
       "source": "bleepingcomputer.com",
       "first_seen": "2025-08-21T08:47:44Z",
-      "last_seen": "2025-08-21T08:47:44Z"
+      "last_seen": "2025-08-21T09:38:14Z"
     },
     {
       "id": "d8303b59d98a2e47ca4aa09b1bb62828a983249a",
@@ -20,7 +50,7 @@
       "description": "A critical security vulnerability has been discovered in Microsoft’s VS Code Remote-SSH extension that allows attackers to execute malicious code on developers’ local machines through compromised remote servers. Security researchers have demonstrated how this attack, dubbed “Vibe Hacking,” exploits the inherent trust relationship between remote development environments and local machines,…",
       "source": "cybersecuritynews.com",
       "first_seen": "2025-08-21T08:47:44Z",
-      "last_seen": "2025-08-21T08:47:44Z"
+      "last_seen": "2025-08-21T09:38:14Z"
     },
     {
       "id": "296da1fe7ac297c6f4bcb64c1b0f9d3bb21a8661",
@@ -30,7 +60,17 @@
       "description": "Orange Belgium, a subsidiary of telecommunications giant Orange Group, disclosed on Wednesday that attackers who breached its systems in July have stolen the data of approximately 850,000 customers. [...]",
       "source": "bleepingcomputer.com",
       "first_seen": "2025-08-21T07:36:06Z",
-      "last_seen": "2025-08-21T08:47:44Z"
+      "last_seen": "2025-08-21T09:38:14Z"
+    },
+    {
+      "id": "93621a39b99108df25bc798e71915f057a04da24",
+      "title": "Scattered Spider Hacker Gets 10 Years, $13M Restitution for SIM Swapping Crypto Theft",
+      "link": "https://thehackernews.com/2025/08/scattered-spider-hacker-gets-10-years.html",
+      "date": "2025-08-21T06:45:00Z",
+      "description": "A 20-year-old member of the notorious cybercrime gang known as Scattered Spider has been sentenced to ten years in prison in the U.S. in connection with a series of major hacks and cryptocurrency thefts. Noah Michael Urban pleaded guilty to charges related to wire fraud and aggravated identity theft back in April 2025. News of Urban's sentencing was reported by Bloomberg and Jacksonville news",
+      "source": "thehackernews.com",
+      "first_seen": "2025-08-21T09:38:14Z",
+      "last_seen": "2025-08-21T09:38:14Z"
     },
     {
       "id": "aadc7803d6168c346b388fb7033fc35d6349042f",
@@ -40,7 +80,7 @@
       "description": "A critical security vulnerability has been discovered in Apache Tika’s PDF parser module that could enable attackers to access sensitive data and trigger malicious requests to internal systems. The flaw, designated as CVE-2025-54988, affects multiple versions of the widely used document parsing library and has been assigned a critical severity rating by security researchers. Key […] The post…",
       "source": "cybersecuritynews.com",
       "first_seen": "2025-08-21T07:00:44Z",
-      "last_seen": "2025-08-21T08:47:44Z"
+      "last_seen": "2025-08-21T09:38:14Z"
     },
     {
       "id": "687286e275dfc66380c61e00df967b4846936104",
@@ -50,7 +90,7 @@
       "description": "A Russian state-sponsored cyber espionage group designated as Static Tundra has been actively exploiting a seven-year-old vulnerability in Cisco networking devices to steal configuration data and establish persistent access across critical infrastructure networks. The sophisticated threat actor, linked to Russia’s Federal Security Service (FSB) Center 16 unit, has been targeting unpatched and…",
       "source": "cybersecuritynews.com",
       "first_seen": "2025-08-21T07:00:44Z",
-      "last_seen": "2025-08-21T08:47:44Z"
+      "last_seen": "2025-08-21T09:38:14Z"
     },
     {
       "id": "94f5cfe3a35d8d7640c138def2b5f90f749569a9",
@@ -80,7 +120,7 @@
       "description": "At one point, Al-Tahery Al-Mashriky was hacking thousands of websites within the span of three months while stealing personal data and sensitive information.",
       "source": "darkreading.com",
       "first_seen": "2025-08-21T07:00:44Z",
-      "last_seen": "2025-08-21T08:47:44Z"
+      "last_seen": "2025-08-21T09:38:14Z"
     },
     {
       "id": "e86fef88c04ed5d778a839716d5eb1e437dab965",
@@ -90,7 +130,7 @@
       "description": "A $50,000 reward from Europol for two members of the Qilin ransomware group is a ‘scam’, according to the law enforcement agency. The post Europol Says Qilin Ransomware Reward Fake appeared first on SecurityWeek.",
       "source": "securityweek.com",
       "first_seen": "2025-08-21T07:00:44Z",
-      "last_seen": "2025-08-21T08:47:44Z"
+      "last_seen": "2025-08-21T09:38:14Z"
     },
     {
       "id": "308d6b553ae98acb8ed6edeae8d88b0d0722f41c",
@@ -110,7 +150,7 @@
       "description": "Apple has released security updates to address a security flaw impacting iOS, iPadOS, and macOS that it said has come under active exploitation in the wild. The zero-day out-of-bounds write vulnerability, tracked as CVE-2025-43300, resides in the ImageIO framework that could result in memory corruption when processing a malicious image. \"Apple is aware of a report that this issue may have been",
       "source": "thehackernews.com",
       "first_seen": "2025-08-21T07:00:44Z",
-      "last_seen": "2025-08-21T08:47:44Z"
+      "last_seen": "2025-08-21T09:38:14Z"
     },
     {
       "id": "bcc397af6b40bcf2b7ae1c01db61e836cf1164e4",
@@ -140,7 +180,7 @@
       "description": "Detailed spear-phishing emails sent to European government entities in Seoul are being tied to North Korea, China, or both.",
       "source": "darkreading.com",
       "first_seen": "2025-08-21T03:27:59Z",
-      "last_seen": "2025-08-21T08:47:44Z"
+      "last_seen": "2025-08-21T09:38:14Z"
     },
     {
       "id": "f67667eefeb97ac7f777344836cce98a155a5781",
@@ -150,7 +190,7 @@
       "description": "OpenAI's CEO Sam Altman told reporters that GPT-6 is already in the works, and it'll not take as long as GPT-5. [...]",
       "source": "bleepingcomputer.com",
       "first_seen": "2025-08-21T03:27:59Z",
-      "last_seen": "2025-08-21T08:47:44Z"
+      "last_seen": "2025-08-21T09:38:14Z"
     },
     {
       "id": "0c522113acc449293466ca3328533a0ec90ea713",
@@ -160,7 +200,7 @@
       "description": "The goal of the Quantum-Safe Program is to ensure that by 2033, all Microsoft products and services are safe by default from quantum-based attacks.",
       "source": "darkreading.com",
       "first_seen": "2025-08-21T03:27:59Z",
-      "last_seen": "2025-08-21T08:47:44Z"
+      "last_seen": "2025-08-21T09:38:14Z"
     },
     {
       "id": "aeb58f8e5a90f1b3dca9936133053e41bb3692d9",
@@ -170,7 +210,7 @@
       "description": "The security risks posed by fake employees are particularly severe when they secure IT positions with privileged access and administrative permissions.",
       "source": "darkreading.com",
       "first_seen": "2025-08-21T08:47:44Z",
-      "last_seen": "2025-08-21T08:47:44Z"
+      "last_seen": "2025-08-21T09:38:14Z"
     }
   ]
 }
