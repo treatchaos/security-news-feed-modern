@@ -1,7 +1,47 @@
 {
   "date": "2025-08-21",
-  "count": 46,
+  "count": 50,
   "items": [
+    {
+      "id": "53e5d837de0b7c8fb7c874ee95366caca997f561",
+      "title": "Threat Actors Gaining Access to Victims’ Machines and Monetizing Access to Their Bandwidth",
+      "link": "https://cybersecuritynews.com/threat-actors-gaining-access-to-victims-machines-and-monetizing-access/",
+      "date": "2025-08-21T15:19:01Z",
+      "description": "A stealthy campaign emerged in early March 2025 that capitalized on a critical remote code execution flaw in GeoServer (CVE-2024-36401) to compromise publicly exposed geospatial servers. Attackers exploited JXPath query injection within Apache Commons libraries, allowing arbitrary code execution through crafted XML requests. This vector enabled the silent deployment of customized executables…",
+      "source": "cybersecuritynews.com",
+      "first_seen": "2025-08-21T15:38:08Z",
+      "last_seen": "2025-08-21T15:38:08Z"
+    },
+    {
+      "id": "e42005581e4ae723280228393c805bf587388107",
+      "title": "Hackers Weaponize QR Codes Embedded with Malicious Links to Steal Sensitive Information",
+      "link": "https://cybersecuritynews.com/hackers-weaponize-qr-codes-embedded/",
+      "date": "2025-08-21T15:06:13Z",
+      "description": "Cybersecurity researchers have observed a surge in phishing campaigns leveraging QR codes to deliver malicious payloads. This emerging threat, often dubbed “quishing,” exploits the opaque nature of QR codes to conceal harmful URLs that redirect victims to credential-harvesting sites or malware downloads. Unlike traditional phishing links that can be flagged by email gateways, QR codes […] The…",
+      "source": "cybersecuritynews.com",
+      "first_seen": "2025-08-21T15:38:08Z",
+      "last_seen": "2025-08-21T15:38:08Z"
+    },
+    {
+      "id": "58caedfbb7ea09de1a71a8e84bf2247407081e10",
+      "title": "Telecom Firm Colt Confirms Data Breach as Ransomware Group Auctions Files",
+      "link": "https://www.securityweek.com/telecom-firm-colt-confirms-data-breach-as-ransomware-group-auctions-files/",
+      "date": "2025-08-21T14:49:03Z",
+      "description": "Colt Technology Services is working on restoring systems disrupted by a ransomware attack that involved data theft. The post Telecom Firm Colt Confirms Data Breach as Ransomware Group Auctions Files appeared first on SecurityWeek.",
+      "source": "securityweek.com",
+      "first_seen": "2025-08-21T15:38:08Z",
+      "last_seen": "2025-08-21T15:38:08Z"
+    },
+    {
+      "id": "be8a0559aec8a594ccff232c2149881efeb37034",
+      "title": "Microsoft asks customers for feedback on SSD failure issues",
+      "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-asks-customers-for-feedback-on-ssd-failure-issues/",
+      "date": "2025-08-21T14:48:35Z",
+      "description": "​Microsoft is seeking further information from customers who reported failure and data corruption issues affecting their solid-state drives (SSDs) and hard disk drives (HDDs) after installing the August 2025 security update. [...]",
+      "source": "bleepingcomputer.com",
+      "first_seen": "2025-08-21T15:38:08Z",
+      "last_seen": "2025-08-21T15:38:08Z"
+    },
     {
       "id": "b1f647e2ad89c2201b27aa69e31fe19c92656cf1",
       "title": "Threat Actors Abuse AI Website Creation App to Deliver Malware",
@@ -10,7 +50,7 @@
       "description": "Cybercriminals have discovered a new avenue for malicious activities by exploiting Lovable, an AI-powered website creation platform, to develop sophisticated phishing campaigns and malware delivery systems. The platform, designed to democratize web development through natural language prompts, has inadvertently become a tool for threat actors seeking to create convincing fraudulent websites with…",
       "source": "cybersecuritynews.com",
       "first_seen": "2025-08-21T14:42:25Z",
-      "last_seen": "2025-08-21T14:42:25Z"
+      "last_seen": "2025-08-21T15:38:08Z"
     },
     {
       "id": "2c0c324faaf5e95662149b9b63eeb86df040ea07",
@@ -20,7 +60,7 @@
       "description": "In recent weeks, the cybersecurity community has witnessed the rapid emergence of Warlock, a novel ransomware strain that weaponizes unpatched Microsoft SharePoint servers to infiltrate enterprise networks. Initial analysis reveals that threat actors exploit publicly exposed SharePoint instances via specially crafted HTTP POST requests, deploying web shells that grant remote code execution…",
       "source": "cybersecuritynews.com",
       "first_seen": "2025-08-21T14:42:25Z",
-      "last_seen": "2025-08-21T14:42:25Z"
+      "last_seen": "2025-08-21T15:38:08Z"
     },
     {
       "id": "b5da8ff7a7fe04d94d716e934527e03c3105d4f2",
@@ -30,7 +70,7 @@
       "description": "Attackers will continue to evolve, and the help desk will always be a target. But with the right mix of training, support, and trust, frontline agents can become your biggest security assets.",
       "source": "darkreading.com",
       "first_seen": "2025-08-21T14:42:25Z",
-      "last_seen": "2025-08-21T14:42:25Z"
+      "last_seen": "2025-08-21T15:38:08Z"
     },
     {
       "id": "f2de6bc240379c383d3e2669d8d391b51e90ee4d",
@@ -40,7 +80,7 @@
       "description": "From hybrid cloud to AI, IT complexity and security risks are accelerating. Certified VMware pros bring clarity and resilience that keep teams ahead. See why CIOs are making certification a workforce strategy with VMUG. [...]",
       "source": "bleepingcomputer.com",
       "first_seen": "2025-08-21T14:42:25Z",
-      "last_seen": "2025-08-21T14:42:25Z"
+      "last_seen": "2025-08-21T15:38:08Z"
     },
     {
       "id": "aa6eedc720e12b27f0bfdb443a37c77cd5d97d5f",
@@ -50,7 +90,7 @@
       "description": "Security researchers have uncovered a novel malware delivery chain in recent weeks that leverages the Internet Archive’s legitimate infrastructure to host obfuscated payloads. The attack begins with a seemingly innocuous JScript file delivered via malspam, which in turn invokes a PowerShell loader. This PowerShell script reaches out to the Internet Archive (archive.org) to retrieve a […] The…",
       "source": "cybersecuritynews.com",
       "first_seen": "2025-08-21T14:42:25Z",
-      "last_seen": "2025-08-21T14:42:25Z"
+      "last_seen": "2025-08-21T15:38:08Z"
     },
     {
       "id": "9cca3158ba3ea80523b4828cd860b3d880694086",
@@ -70,7 +110,7 @@
       "description": "Logging netflows provided valuable insight about attacker tactics during a breach by state-sponsored hackers targeting Columbia's research labs.",
       "source": "darkreading.com",
       "first_seen": "2025-08-21T14:42:25Z",
-      "last_seen": "2025-08-21T14:42:25Z"
+      "last_seen": "2025-08-21T15:38:08Z"
     },
     {
       "id": "c3d4bfb7b73e257bb096dbecd635b95e7cb59ad6",
@@ -100,7 +140,7 @@
       "description": "DARPA's Kathleen Fisher discusses the AI Cyber Challenge at DEF CON 33, and the results that proved how automation can help patch vulnerabilities at scale.",
       "source": "darkreading.com",
       "first_seen": "2025-08-21T13:38:32Z",
-      "last_seen": "2025-08-21T14:42:25Z"
+      "last_seen": "2025-08-21T15:38:08Z"
     },
     {
       "id": "589414f5c91059c3572272db2a890396920a4ce4",
@@ -110,7 +150,7 @@
       "description": "Noah Urban was sentenced to 10 years in prison for his role in the notorious cybercriminal operation known as Scattered Spider. The post Scattered Spider Hacker Sentenced to Prison appeared first on SecurityWeek.",
       "source": "securityweek.com",
       "first_seen": "2025-08-21T13:38:32Z",
-      "last_seen": "2025-08-21T14:42:25Z"
+      "last_seen": "2025-08-21T15:38:08Z"
     },
     {
       "id": "7df71a40541461efe5ad08fcadc7feadcb576e96",
@@ -140,7 +180,7 @@
       "description": "A researcher has tested nearly a dozen password managers and found that they were all vulnerable to clickjacking attacks. The post Password Managers Vulnerable to Data Theft via Clickjacking appeared first on SecurityWeek.",
       "source": "securityweek.com",
       "first_seen": "2025-08-21T13:38:32Z",
-      "last_seen": "2025-08-21T14:42:25Z"
+      "last_seen": "2025-08-21T15:38:08Z"
     },
     {
       "id": "276656aebbe05ee899acb266b533939fc4a6f753",
@@ -150,7 +190,7 @@
       "description": "The Federal Bureau of Investigation (FBI) has warned that hackers linked to Russia's Federal Security Service (FSB) are targeting critical infrastructure organizations in attacks exploiting a 7-year-old vulnerability in Cisco devices. [...]",
       "source": "bleepingcomputer.com",
       "first_seen": "2025-08-21T13:38:32Z",
-      "last_seen": "2025-08-21T14:42:25Z"
+      "last_seen": "2025-08-21T15:38:08Z"
     },
     {
       "id": "048dfe02be8b2308e7ce1f2c0d52c437e917a591",
@@ -190,7 +230,7 @@
       "description": "Russian state-sponsored hackers tracked as Static Tundra continue to target Cisco devices affected by CVE-2018-0171. The post Russian APT Exploiting 7-Year-Old Cisco Vulnerability: FBI appeared first on SecurityWeek.",
       "source": "securityweek.com",
       "first_seen": "2025-08-21T11:27:43Z",
-      "last_seen": "2025-08-21T14:42:25Z"
+      "last_seen": "2025-08-21T15:38:08Z"
     },
     {
       "id": "433da214840cbf59de35a2a9eca4285be693a536",
@@ -210,7 +250,7 @@
       "description": "Cybersecurity researchers have disclosed details of a new malware loader called QuirkyLoader that's being used to deliver via email spam campaigns an array of next-stage payloads ranging from information stealers to remote access trojans since November 2024. Some of the notable malware families distributed using QuirkyLoader include Agent Tesla, AsyncRAT, Formbook, Masslogger, Remcos RAT,",
       "source": "thehackernews.com",
       "first_seen": "2025-08-21T13:38:32Z",
-      "last_seen": "2025-08-21T14:42:25Z"
+      "last_seen": "2025-08-21T15:38:08Z"
     },
     {
       "id": "1fab273c2aade35db55b818c0e57a0f8802f369e",
@@ -220,7 +260,7 @@
       "description": "As security professionals, it's easy to get caught up in a race to counter the latest advanced adversary techniques. Yet the most impactful attacks often aren't from cutting-edge exploits, but from cracked credentials and compromised accounts. Despite widespread awareness of this threat vector, Picus Security's Blue Report 2025 shows that organizations continue to struggle with preventing",
       "source": "thehackernews.com",
       "first_seen": "2025-08-21T10:41:57Z",
-      "last_seen": "2025-08-21T14:42:25Z"
+      "last_seen": "2025-08-21T15:38:08Z"
     },
     {
       "id": "0f3103dbc62810275d268f39d7a6dd2a1f8239d7",
@@ -230,7 +270,7 @@
       "description": "Orange Belgium says hackers accessed data pertaining to 850,000 customer accounts during a July cyberattack. The post Orange Belgium Data Breach Impacts 850,000 Customers appeared first on SecurityWeek.",
       "source": "securityweek.com",
       "first_seen": "2025-08-21T10:41:57Z",
-      "last_seen": "2025-08-21T14:42:25Z"
+      "last_seen": "2025-08-21T15:38:08Z"
     },
     {
       "id": "6cbf3a426e1bccce2230ad3e47fefd67ecefa865",
@@ -280,7 +320,7 @@
       "description": "Noah Michael Urban, a key member of the Scattered Spider cybercrime collective, was sentenced to 10 years in prison on Wednesday after pleading guilty to charges of wire fraud and conspiracy in April. [...]",
       "source": "bleepingcomputer.com",
       "first_seen": "2025-08-21T08:47:44Z",
-      "last_seen": "2025-08-21T14:42:25Z"
+      "last_seen": "2025-08-21T15:38:08Z"
     },
     {
       "id": "d8303b59d98a2e47ca4aa09b1bb62828a983249a",
@@ -300,7 +340,7 @@
       "description": "Orange Belgium, a subsidiary of telecommunications giant Orange Group, disclosed on Wednesday that attackers who breached its systems in July have stolen the data of approximately 850,000 customers. [...]",
       "source": "bleepingcomputer.com",
       "first_seen": "2025-08-21T07:36:06Z",
-      "last_seen": "2025-08-21T14:42:25Z"
+      "last_seen": "2025-08-21T15:38:08Z"
     },
     {
       "id": "93621a39b99108df25bc798e71915f057a04da24",
@@ -310,7 +350,7 @@
       "description": "A 20-year-old member of the notorious cybercrime gang known as Scattered Spider has been sentenced to ten years in prison in the U.S. in connection with a series of major hacks and cryptocurrency thefts. Noah Michael Urban pleaded guilty to charges related to wire fraud and aggravated identity theft back in April 2025. News of Urban's sentencing was reported by Bloomberg and Jacksonville news",
       "source": "thehackernews.com",
       "first_seen": "2025-08-21T09:38:14Z",
-      "last_seen": "2025-08-21T14:42:25Z"
+      "last_seen": "2025-08-21T15:38:08Z"
     },
     {
       "id": "aadc7803d6168c346b388fb7033fc35d6349042f",
@@ -360,7 +400,7 @@
       "description": "At one point, Al-Tahery Al-Mashriky was hacking thousands of websites within the span of three months while stealing personal data and sensitive information.",
       "source": "darkreading.com",
       "first_seen": "2025-08-21T07:00:44Z",
-      "last_seen": "2025-08-21T14:42:25Z"
+      "last_seen": "2025-08-21T15:38:08Z"
     },
     {
       "id": "e86fef88c04ed5d778a839716d5eb1e437dab965",
@@ -390,7 +430,7 @@
       "description": "Apple has released security updates to address a security flaw impacting iOS, iPadOS, and macOS that it said has come under active exploitation in the wild. The zero-day out-of-bounds write vulnerability, tracked as CVE-2025-43300, resides in the ImageIO framework that could result in memory corruption when processing a malicious image. \"Apple is aware of a report that this issue may have been",
       "source": "thehackernews.com",
       "first_seen": "2025-08-21T07:00:44Z",
-      "last_seen": "2025-08-21T14:42:25Z"
+      "last_seen": "2025-08-21T15:38:08Z"
     },
     {
       "id": "bcc397af6b40bcf2b7ae1c01db61e836cf1164e4",
@@ -420,7 +460,7 @@
       "description": "Detailed spear-phishing emails sent to European government entities in Seoul are being tied to North Korea, China, or both.",
       "source": "darkreading.com",
       "first_seen": "2025-08-21T03:27:59Z",
-      "last_seen": "2025-08-21T14:42:25Z"
+      "last_seen": "2025-08-21T15:38:08Z"
     },
     {
       "id": "f67667eefeb97ac7f777344836cce98a155a5781",
