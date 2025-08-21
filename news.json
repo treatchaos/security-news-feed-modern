@@ -1,19 +1,61 @@
 {
-  "last_updated": "2025-08-21T13:38:32Z",
+  "last_updated": "2025-08-21T14:42:25Z",
   "count": 40,
   "items": [
+    {
+      "title": "Threat Actors Abuse AI Website Creation App to Deliver Malware",
+      "link": "https://cybersecuritynews.com/threat-actors-abuse-ai-website/",
+      "date": "2025-08-21T14:41:03Z",
+      "description": "Cybercriminals have discovered a new avenue for malicious activities by exploiting Lovable, an AI-powered website creation platform, to develop sophisticated phishing campaigns and malware delivery systems. The platform, designed to democratize web development through natural language prompts, has inadvertently become a tool for threat actors seeking to create convincing fraudulent websites with…",
+      "source": "cybersecuritynews.com"
+    },
+    {
+      "title": "Warlock Ransomware Exploiting SharePoint Vulnerabilities to Gain Access and Steal Credentials",
+      "link": "https://cybersecuritynews.com/warlock-ransomware-exploiting-sharepoint-vulnerabilities/",
+      "date": "2025-08-21T14:09:21Z",
+      "description": "In recent weeks, the cybersecurity community has witnessed the rapid emergence of Warlock, a novel ransomware strain that weaponizes unpatched Microsoft SharePoint servers to infiltrate enterprise networks. Initial analysis reveals that threat actors exploit publicly exposed SharePoint instances via specially crafted HTTP POST requests, deploying web shells that grant remote code execution…",
+      "source": "cybersecuritynews.com"
+    },
+    {
+      "title": "Prepping the Front Line for MFA Social Engineering Attacks",
+      "link": "https://www.darkreading.com/cyberattacks-data-breaches/prepping-front-line-mfa-social-engineering-attacks",
+      "date": "2025-08-21T14:00:00Z",
+      "description": "Attackers will continue to evolve, and the help desk will always be a target. But with the right mix of training, support, and trust, frontline agents can become your biggest security assets.",
+      "source": "darkreading.com"
+    },
+    {
+      "title": "Why Certified VMware Pros Are Driving the Future of IT",
+      "link": "https://www.bleepingcomputer.com/news/security/why-certified-vmware-pros-are-driving-the-future-of-it/",
+      "date": "2025-08-21T13:53:34Z",
+      "description": "From hybrid cloud to AI, IT complexity and security risks are accelerating. Certified VMware pros bring clarity and resilience that keep teams ahead. See why CIOs are making certification a workforce strategy with VMUG. [...]",
+      "source": "bleepingcomputer.com"
+    },
+    {
+      "title": "Internet Archive Abused for Hosting Stealthy JScript Loader Malware",
+      "link": "https://cybersecuritynews.com/internet-archive-abused/",
+      "date": "2025-08-21T13:51:38Z",
+      "description": "Security researchers have uncovered a novel malware delivery chain in recent weeks that leverages the Internet Archive’s legitimate infrastructure to host obfuscated payloads. The attack begins with a seemingly innocuous JScript file delivered via malspam, which in turn invokes a PowerShell loader. This PowerShell script reaches out to the Internet Archive (archive.org) to retrieve a […] The…",
+      "source": "cybersecuritynews.com"
+    },
+    {
+      "title": "Mozilla High Severity Vulnerabilities Enables Remote Code Execution",
+      "link": "https://cybersecuritynews.com/mozilla-high-severity-vulnerabilities/",
+      "date": "2025-08-21T13:49:35Z",
+      "description": "Mozilla has released Firefox 142 to address multiple high-severity security vulnerabilities that could allow attackers to execute arbitrary code remotely on affected systems. The security advisory, published on August 19, 2025, reveals nine distinct vulnerabilities ranging from sandbox escapes to memory safety bugs, with several classified as high-impact threats capable of enabling remote code…",
+      "source": "cybersecuritynews.com"
+    },
+    {
+      "title": "Tailing Hackers, Columbia University Uses Logging to Improve Security",
+      "link": "https://www.darkreading.com/threat-intelligence/tailing-hackers-columbia-university-logging-improve-security",
+      "date": "2025-08-21T13:38:18Z",
+      "description": "Logging netflows provided valuable insight about attacker tactics during a breach by state-sponsored hackers targeting Columbia's research labs.",
+      "source": "darkreading.com"
+    },
     {
       "title": "APT MuddyWater Attacking CFOs Leveraging OpenSSH, Enables RDP, and Scheduled Task",
       "link": "https://cybersecuritynews.com/apt-muddywater-attacking-cfos/",
       "date": "2025-08-21T13:28:18Z",
       "description": "A sophisticated cyber espionage campaign attributed to APT MuddyWater has emerged targeting Chief Financial Officers and finance executives across Europe, North America, South America, Africa, and Asia. The threat actors are deploying a multi-stage phishing operation that masquerades as legitimate recruitment communications from Rothschild & Co, leveraging Firebase-hosted phishing pages with…",
-      "source": "cybersecuritynews.com"
-    },
-    {
-      "title": "New QUIC-LEAK Vulnerability Let Attackers Exhaust Server Memory and Trigger DoS Attack",
-      "link": "https://cybersecuritynews.com/quic-leak-vulnerability/",
-      "date": "2025-08-21T13:01:49Z",
-      "description": "A critical pre-handshake vulnerability in the LSQUIC QUIC implementation that allows remote attackers to crash servers through memory exhaustion attacks. The vulnerability, designated CVE-2025-54939 and dubbed “QUIC-LEAK,” affects the second most widely used QUIC implementation globally, potentially impacting over 34% of HTTP/3-enabled websites that rely on LiteSpeed technologies. Key…",
       "source": "cybersecuritynews.com"
     },
     {
@@ -31,20 +73,6 @@
       "source": "securityweek.com"
     },
     {
-      "title": "Threat Actors Weaponize PDF Editor With New Torjan to Turn Device Into Proxy",
-      "link": "https://cybersecuritynews.com/threat-actors-weaponize-pdf-editor/",
-      "date": "2025-08-21T12:23:35Z",
-      "description": "Cybersecurity researchers have uncovered a sophisticated new threat campaign that leverages a seemingly legitimate PDF editor application to transform infected devices into residential proxies. The malicious software, distributed under the guise of productivity tools, represents an evolving approach by threat actors who are increasingly exploiting trusted software categories to establish…",
-      "source": "cybersecuritynews.com"
-    },
-    {
-      "title": "Kali Vagrant Rebuilt Released – Pre-configured DebOS VMs via Command Line",
-      "link": "https://cybersecuritynews.com/kali-vagrant-rebuilt/",
-      "date": "2025-08-21T12:16:54Z",
-      "description": "The Kali Linux team has announced a significant enhancement of its Vagrant image build process, streamlining development and simplifying deployment for users. In a move to unify its infrastructure, the team has transitioned from HashiCorp’s Packer to DebOS for generating its pre-configured Vagrant virtual machines. The release also includes a handy cheat sheet to get […] The post Kali Vagrant…",
-      "source": "cybersecuritynews.com"
-    },
-    {
       "title": "Password Managers Vulnerable to Data Theft via Clickjacking",
       "link": "https://www.securityweek.com/password-managers-vulnerable-to-data-theft-via-clickjacking/",
       "date": "2025-08-21T12:15:56Z",
@@ -57,13 +85,6 @@
       "date": "2025-08-21T12:04:08Z",
       "description": "The Federal Bureau of Investigation (FBI) has warned that hackers linked to Russia's Federal Security Service (FSB) are targeting critical infrastructure organizations in attacks exploiting a 7-year-old vulnerability in Cisco devices. [...]",
       "source": "bleepingcomputer.com"
-    },
-    {
-      "title": "FBI Warns of Russian Government Hackers Attacking Networking Devices of Critical Infrastructure",
-      "link": "https://cybersecuritynews.com/fbi-warns-of-russian-government-hackers/",
-      "date": "2025-08-21T11:51:51Z",
-      "description": "The Federal Bureau of Investigation has issued a critical security alert regarding sophisticated cyber operations conducted by Russian Federal Security Service (FSB) Center 16, targeting networking infrastructure across the United States and globally. The threat actors have been exploiting vulnerable networking devices to gain unauthorized access to critical infrastructure systems, demonstrating…",
-      "source": "cybersecuritynews.com"
     },
     {
       "title": "Russian APT Exploiting 7-Year-Old Cisco Vulnerability: FBI",
@@ -155,27 +176,6 @@
       "date": "2025-08-20T23:06:48Z",
       "description": "The post Critical Docker Desktop Vulnerability Exposes Host Systems to Container Abuse appeared first on Daily CyberSecurity.",
       "source": "securityonline.info"
-    },
-    {
-      "title": "Microsoft Lays Out Its Quantum-Safe Plans",
-      "link": "https://www.darkreading.com/endpoint-security/microsoft-lays-out-its-quantum-safe-plans",
-      "date": "2025-08-20T22:42:32Z",
-      "description": "The goal of the Quantum-Safe Program is to ensure that by 2033 all Microsoft products and services are safe by default against quantum-based attacks.",
-      "source": "darkreading.com"
-    },
-    {
-      "title": "AI website builder Lovable increasingly abused for malicious activity",
-      "link": "https://www.bleepingcomputer.com/news/security/ai-website-builder-lovable-increasingly-abused-for-malicious-activity/",
-      "date": "2025-08-20T22:11:05Z",
-      "description": "Cybercriminals are increasingly abusing the AI-powered Lovable website creation and hosting platform to generate phishing pages, malware-dropping portals, and various fraudulent websites. [...]",
-      "source": "bleepingcomputer.com"
-    },
-    {
-      "title": "Fake Employees Pose Real Security Risks",
-      "link": "https://www.darkreading.com/cyberattacks-data-breaches/fake-employees-pose-real-security-risks",
-      "date": "2025-08-20T21:39:28Z",
-      "description": "The security risks posed by fake employees are particularly severe when they secure IT positions with privileged access and administrative permissions.",
-      "source": "darkreading.com"
     },
     {
       "title": "DOM-Based Extension Clickjacking Exposes Popular Password Managers to Credential and Data Theft",

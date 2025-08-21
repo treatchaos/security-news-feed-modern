@@ -1,7 +1,77 @@
 {
   "date": "2025-08-21",
-  "count": 39,
+  "count": 46,
   "items": [
+    {
+      "id": "b1f647e2ad89c2201b27aa69e31fe19c92656cf1",
+      "title": "Threat Actors Abuse AI Website Creation App to Deliver Malware",
+      "link": "https://cybersecuritynews.com/threat-actors-abuse-ai-website/",
+      "date": "2025-08-21T14:41:03Z",
+      "description": "Cybercriminals have discovered a new avenue for malicious activities by exploiting Lovable, an AI-powered website creation platform, to develop sophisticated phishing campaigns and malware delivery systems. The platform, designed to democratize web development through natural language prompts, has inadvertently become a tool for threat actors seeking to create convincing fraudulent websites with…",
+      "source": "cybersecuritynews.com",
+      "first_seen": "2025-08-21T14:42:25Z",
+      "last_seen": "2025-08-21T14:42:25Z"
+    },
+    {
+      "id": "2c0c324faaf5e95662149b9b63eeb86df040ea07",
+      "title": "Warlock Ransomware Exploiting SharePoint Vulnerabilities to Gain Access and Steal Credentials",
+      "link": "https://cybersecuritynews.com/warlock-ransomware-exploiting-sharepoint-vulnerabilities/",
+      "date": "2025-08-21T14:09:21Z",
+      "description": "In recent weeks, the cybersecurity community has witnessed the rapid emergence of Warlock, a novel ransomware strain that weaponizes unpatched Microsoft SharePoint servers to infiltrate enterprise networks. Initial analysis reveals that threat actors exploit publicly exposed SharePoint instances via specially crafted HTTP POST requests, deploying web shells that grant remote code execution…",
+      "source": "cybersecuritynews.com",
+      "first_seen": "2025-08-21T14:42:25Z",
+      "last_seen": "2025-08-21T14:42:25Z"
+    },
+    {
+      "id": "b5da8ff7a7fe04d94d716e934527e03c3105d4f2",
+      "title": "Prepping the Front Line for MFA Social Engineering Attacks",
+      "link": "https://www.darkreading.com/cyberattacks-data-breaches/prepping-front-line-mfa-social-engineering-attacks",
+      "date": "2025-08-21T14:00:00Z",
+      "description": "Attackers will continue to evolve, and the help desk will always be a target. But with the right mix of training, support, and trust, frontline agents can become your biggest security assets.",
+      "source": "darkreading.com",
+      "first_seen": "2025-08-21T14:42:25Z",
+      "last_seen": "2025-08-21T14:42:25Z"
+    },
+    {
+      "id": "f2de6bc240379c383d3e2669d8d391b51e90ee4d",
+      "title": "Why Certified VMware Pros Are Driving the Future of IT",
+      "link": "https://www.bleepingcomputer.com/news/security/why-certified-vmware-pros-are-driving-the-future-of-it/",
+      "date": "2025-08-21T13:53:34Z",
+      "description": "From hybrid cloud to AI, IT complexity and security risks are accelerating. Certified VMware pros bring clarity and resilience that keep teams ahead. See why CIOs are making certification a workforce strategy with VMUG. [...]",
+      "source": "bleepingcomputer.com",
+      "first_seen": "2025-08-21T14:42:25Z",
+      "last_seen": "2025-08-21T14:42:25Z"
+    },
+    {
+      "id": "aa6eedc720e12b27f0bfdb443a37c77cd5d97d5f",
+      "title": "Internet Archive Abused for Hosting Stealthy JScript Loader Malware",
+      "link": "https://cybersecuritynews.com/internet-archive-abused/",
+      "date": "2025-08-21T13:51:38Z",
+      "description": "Security researchers have uncovered a novel malware delivery chain in recent weeks that leverages the Internet Archive’s legitimate infrastructure to host obfuscated payloads. The attack begins with a seemingly innocuous JScript file delivered via malspam, which in turn invokes a PowerShell loader. This PowerShell script reaches out to the Internet Archive (archive.org) to retrieve a […] The…",
+      "source": "cybersecuritynews.com",
+      "first_seen": "2025-08-21T14:42:25Z",
+      "last_seen": "2025-08-21T14:42:25Z"
+    },
+    {
+      "id": "9cca3158ba3ea80523b4828cd860b3d880694086",
+      "title": "Mozilla High Severity Vulnerabilities Enables Remote Code Execution",
+      "link": "https://cybersecuritynews.com/mozilla-high-severity-vulnerabilities/",
+      "date": "2025-08-21T13:49:35Z",
+      "description": "Mozilla has released Firefox 142 to address multiple high-severity security vulnerabilities that could allow attackers to execute arbitrary code remotely on affected systems. The security advisory, published on August 19, 2025, reveals nine distinct vulnerabilities ranging from sandbox escapes to memory safety bugs, with several classified as high-impact threats capable of enabling remote code…",
+      "source": "cybersecuritynews.com",
+      "first_seen": "2025-08-21T14:42:25Z",
+      "last_seen": "2025-08-21T14:42:25Z"
+    },
+    {
+      "id": "c6bc5231569223a0e8db5e2c14cc8bfe35226484",
+      "title": "Tailing Hackers, Columbia University Uses Logging to Improve Security",
+      "link": "https://www.darkreading.com/threat-intelligence/tailing-hackers-columbia-university-logging-improve-security",
+      "date": "2025-08-21T13:38:18Z",
+      "description": "Logging netflows provided valuable insight about attacker tactics during a breach by state-sponsored hackers targeting Columbia's research labs.",
+      "source": "darkreading.com",
+      "first_seen": "2025-08-21T14:42:25Z",
+      "last_seen": "2025-08-21T14:42:25Z"
+    },
     {
       "id": "c3d4bfb7b73e257bb096dbecd635b95e7cb59ad6",
       "title": "APT MuddyWater Attacking CFOs Leveraging OpenSSH, Enables RDP, and Scheduled Task",
@@ -10,7 +80,7 @@
       "description": "A sophisticated cyber espionage campaign attributed to APT MuddyWater has emerged targeting Chief Financial Officers and finance executives across Europe, North America, South America, Africa, and Asia. The threat actors are deploying a multi-stage phishing operation that masquerades as legitimate recruitment communications from Rothschild & Co, leveraging Firebase-hosted phishing pages with…",
       "source": "cybersecuritynews.com",
       "first_seen": "2025-08-21T13:38:32Z",
-      "last_seen": "2025-08-21T13:38:32Z"
+      "last_seen": "2025-08-21T14:42:25Z"
     },
     {
       "id": "53f038f1ef831344a0a8da03de263462261c7c22",
@@ -30,7 +100,7 @@
       "description": "DARPA's Kathleen Fisher discusses the AI Cyber Challenge at DEF CON 33, and the results that proved how automation can help patch vulnerabilities at scale.",
       "source": "darkreading.com",
       "first_seen": "2025-08-21T13:38:32Z",
-      "last_seen": "2025-08-21T13:38:32Z"
+      "last_seen": "2025-08-21T14:42:25Z"
     },
     {
       "id": "589414f5c91059c3572272db2a890396920a4ce4",
@@ -40,7 +110,7 @@
       "description": "Noah Urban was sentenced to 10 years in prison for his role in the notorious cybercriminal operation known as Scattered Spider. The post Scattered Spider Hacker Sentenced to Prison appeared first on SecurityWeek.",
       "source": "securityweek.com",
       "first_seen": "2025-08-21T13:38:32Z",
-      "last_seen": "2025-08-21T13:38:32Z"
+      "last_seen": "2025-08-21T14:42:25Z"
     },
     {
       "id": "7df71a40541461efe5ad08fcadc7feadcb576e96",
@@ -70,7 +140,7 @@
       "description": "A researcher has tested nearly a dozen password managers and found that they were all vulnerable to clickjacking attacks. The post Password Managers Vulnerable to Data Theft via Clickjacking appeared first on SecurityWeek.",
       "source": "securityweek.com",
       "first_seen": "2025-08-21T13:38:32Z",
-      "last_seen": "2025-08-21T13:38:32Z"
+      "last_seen": "2025-08-21T14:42:25Z"
     },
     {
       "id": "276656aebbe05ee899acb266b533939fc4a6f753",
@@ -80,7 +150,7 @@
       "description": "The Federal Bureau of Investigation (FBI) has warned that hackers linked to Russia's Federal Security Service (FSB) are targeting critical infrastructure organizations in attacks exploiting a 7-year-old vulnerability in Cisco devices. [...]",
       "source": "bleepingcomputer.com",
       "first_seen": "2025-08-21T13:38:32Z",
-      "last_seen": "2025-08-21T13:38:32Z"
+      "last_seen": "2025-08-21T14:42:25Z"
     },
     {
       "id": "048dfe02be8b2308e7ce1f2c0d52c437e917a591",
@@ -120,7 +190,7 @@
       "description": "Russian state-sponsored hackers tracked as Static Tundra continue to target Cisco devices affected by CVE-2018-0171. The post Russian APT Exploiting 7-Year-Old Cisco Vulnerability: FBI appeared first on SecurityWeek.",
       "source": "securityweek.com",
       "first_seen": "2025-08-21T11:27:43Z",
-      "last_seen": "2025-08-21T13:38:32Z"
+      "last_seen": "2025-08-21T14:42:25Z"
     },
     {
       "id": "433da214840cbf59de35a2a9eca4285be693a536",
@@ -140,7 +210,7 @@
       "description": "Cybersecurity researchers have disclosed details of a new malware loader called QuirkyLoader that's being used to deliver via email spam campaigns an array of next-stage payloads ranging from information stealers to remote access trojans since November 2024. Some of the notable malware families distributed using QuirkyLoader include Agent Tesla, AsyncRAT, Formbook, Masslogger, Remcos RAT,",
       "source": "thehackernews.com",
       "first_seen": "2025-08-21T13:38:32Z",
-      "last_seen": "2025-08-21T13:38:32Z"
+      "last_seen": "2025-08-21T14:42:25Z"
     },
     {
       "id": "1fab273c2aade35db55b818c0e57a0f8802f369e",
@@ -150,7 +220,7 @@
       "description": "As security professionals, it's easy to get caught up in a race to counter the latest advanced adversary techniques. Yet the most impactful attacks often aren't from cutting-edge exploits, but from cracked credentials and compromised accounts. Despite widespread awareness of this threat vector, Picus Security's Blue Report 2025 shows that organizations continue to struggle with preventing",
       "source": "thehackernews.com",
       "first_seen": "2025-08-21T10:41:57Z",
-      "last_seen": "2025-08-21T13:38:32Z"
+      "last_seen": "2025-08-21T14:42:25Z"
     },
     {
       "id": "0f3103dbc62810275d268f39d7a6dd2a1f8239d7",
@@ -160,7 +230,7 @@
       "description": "Orange Belgium says hackers accessed data pertaining to 850,000 customer accounts during a July cyberattack. The post Orange Belgium Data Breach Impacts 850,000 Customers appeared first on SecurityWeek.",
       "source": "securityweek.com",
       "first_seen": "2025-08-21T10:41:57Z",
-      "last_seen": "2025-08-21T13:38:32Z"
+      "last_seen": "2025-08-21T14:42:25Z"
     },
     {
       "id": "6cbf3a426e1bccce2230ad3e47fefd67ecefa865",
@@ -200,7 +270,7 @@
       "description": "Apple has rolled out iOS and macOS updates that resolve a zero-day vulnerability exploited in highly targeted attacks. The post Apple Patches Zero-Day Exploited in Targeted Attacks appeared first on SecurityWeek.",
       "source": "securityweek.com",
       "first_seen": "2025-08-21T09:38:14Z",
-      "last_seen": "2025-08-21T13:38:32Z"
+      "last_seen": "2025-08-21T14:42:25Z"
     },
     {
       "id": "7145bfaa8bd5b5e77d6b1bd9189d37b72c8aa316",
@@ -210,7 +280,7 @@
       "description": "Noah Michael Urban, a key member of the Scattered Spider cybercrime collective, was sentenced to 10 years in prison on Wednesday after pleading guilty to charges of wire fraud and conspiracy in April. [...]",
       "source": "bleepingcomputer.com",
       "first_seen": "2025-08-21T08:47:44Z",
-      "last_seen": "2025-08-21T13:38:32Z"
+      "last_seen": "2025-08-21T14:42:25Z"
     },
     {
       "id": "d8303b59d98a2e47ca4aa09b1bb62828a983249a",
@@ -230,7 +300,7 @@
       "description": "Orange Belgium, a subsidiary of telecommunications giant Orange Group, disclosed on Wednesday that attackers who breached its systems in July have stolen the data of approximately 850,000 customers. [...]",
       "source": "bleepingcomputer.com",
       "first_seen": "2025-08-21T07:36:06Z",
-      "last_seen": "2025-08-21T13:38:32Z"
+      "last_seen": "2025-08-21T14:42:25Z"
     },
     {
       "id": "93621a39b99108df25bc798e71915f057a04da24",
@@ -240,7 +310,7 @@
       "description": "A 20-year-old member of the notorious cybercrime gang known as Scattered Spider has been sentenced to ten years in prison in the U.S. in connection with a series of major hacks and cryptocurrency thefts. Noah Michael Urban pleaded guilty to charges related to wire fraud and aggravated identity theft back in April 2025. News of Urban's sentencing was reported by Bloomberg and Jacksonville news",
       "source": "thehackernews.com",
       "first_seen": "2025-08-21T09:38:14Z",
-      "last_seen": "2025-08-21T13:38:32Z"
+      "last_seen": "2025-08-21T14:42:25Z"
     },
     {
       "id": "aadc7803d6168c346b388fb7033fc35d6349042f",
@@ -290,7 +360,7 @@
       "description": "At one point, Al-Tahery Al-Mashriky was hacking thousands of websites within the span of three months while stealing personal data and sensitive information.",
       "source": "darkreading.com",
       "first_seen": "2025-08-21T07:00:44Z",
-      "last_seen": "2025-08-21T13:38:32Z"
+      "last_seen": "2025-08-21T14:42:25Z"
     },
     {
       "id": "e86fef88c04ed5d778a839716d5eb1e437dab965",
@@ -320,7 +390,7 @@
       "description": "Apple has released security updates to address a security flaw impacting iOS, iPadOS, and macOS that it said has come under active exploitation in the wild. The zero-day out-of-bounds write vulnerability, tracked as CVE-2025-43300, resides in the ImageIO framework that could result in memory corruption when processing a malicious image. \"Apple is aware of a report that this issue may have been",
       "source": "thehackernews.com",
       "first_seen": "2025-08-21T07:00:44Z",
-      "last_seen": "2025-08-21T13:38:32Z"
+      "last_seen": "2025-08-21T14:42:25Z"
     },
     {
       "id": "bcc397af6b40bcf2b7ae1c01db61e836cf1164e4",
@@ -350,7 +420,7 @@
       "description": "Detailed spear-phishing emails sent to European government entities in Seoul are being tied to North Korea, China, or both.",
       "source": "darkreading.com",
       "first_seen": "2025-08-21T03:27:59Z",
-      "last_seen": "2025-08-21T13:38:32Z"
+      "last_seen": "2025-08-21T14:42:25Z"
     },
     {
       "id": "f67667eefeb97ac7f777344836cce98a155a5781",
@@ -360,7 +430,7 @@
       "description": "OpenAI's CEO Sam Altman told reporters that GPT-6 is already in the works, and it'll not take as long as GPT-5. [...]",
       "source": "bleepingcomputer.com",
       "first_seen": "2025-08-21T03:27:59Z",
-      "last_seen": "2025-08-21T13:38:32Z"
+      "last_seen": "2025-08-21T14:42:25Z"
     },
     {
       "id": "0c522113acc449293466ca3328533a0ec90ea713",
