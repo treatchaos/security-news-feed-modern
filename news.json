@@ -1,7 +1,49 @@
 {
-  "last_updated": "2025-08-27T16:45:01Z",
+  "last_updated": "2025-08-27T17:32:06Z",
   "count": 40,
   "items": [
+    {
+      "title": "IPFire Web-Based Firewall Interface Allows Authenticated Administrator to Inject Persistent JavaScript",
+      "link": "https://cybersecuritynews.com/ipfire-web-based-firewall-interface-flaw/",
+      "date": "2025-08-27T17:14:36Z",
+      "description": "A stored cross-site scripting (XSS) flaw identified in IPFire 2.29’s web-based firewall interface (firewall.cgi). Tracked as CVE-2025-50975, the vulnerability allows any authenticated administrator to inject persistent JavaScript into firewall rule parameters. Once stored, the payload executes automatically when another administrator loads the rules page, potentially resulting in session…",
+      "source": "cybersecuritynews.com"
+    },
+    {
+      "title": "NVIDIA NeMo AI Curator Enables Code Execution and Privilege Escalation",
+      "link": "https://cybersecuritynews.com/nvidia-nemo-ai-curator-vulnerability/",
+      "date": "2025-08-27T17:08:33Z",
+      "description": "NVIDIA has issued a critical security bulletin addressing a high-severity vulnerability in its NeMo Curator platform that could allow attackers to execute malicious code and escalate privileges on affected systems. The vulnerability, designated CVE-2025-23307, affects all versions of NVIDIA NeMo Curator prior to release 25.07 across Windows, Linux, and macOS platforms. The security flaw stems…",
+      "source": "cybersecuritynews.com"
+    },
+    {
+      "title": "Someone Created First AI-Powered Ransomware Using OpenAI's gpt-oss:20b Model",
+      "link": "https://thehackernews.com/2025/08/someone-created-first-ai-powered.html",
+      "date": "2025-08-27T17:07:00Z",
+      "description": "Cybersecurity company ESET has disclosed that it discovered an artificial intelligence (AI)-powered ransomware variant codenamed PromptLock. Written in Golang, the newly identified strain uses the gpt-oss:20b model from OpenAI locally via the Ollama API to generate malicious Lua scripts in real-time. The open-weight language model was released by OpenAI earlier this month. \"PromptLock",
+      "source": "thehackernews.com"
+    },
+    {
+      "title": "Hackers Weaponize Trust with AI-Crafted Emails to Deploy ScreenConnect",
+      "link": "https://www.securityweek.com/hackers-weaponize-trust-with-ai-crafted-emails-to-deploy-screenconnect/",
+      "date": "2025-08-27T16:54:19Z",
+      "description": "AI-powered phishing attacks leverage ConnectWise ScreenConnect for remote access, underscoring their sophistication. The post Hackers Weaponize Trust with AI-Crafted Emails to Deploy ScreenConnect appeared first on SecurityWeek.",
+      "source": "securityweek.com"
+    },
+    {
+      "title": "CISA releases New ICS Advisories Surrounding Vulnerabilities and Exploits",
+      "link": "https://cybersecuritynews.com/cisa-releases-new-ics-advisories/",
+      "date": "2025-08-27T16:51:24Z",
+      "description": "CISA released three significant Industrial Control Systems (ICS) advisories on August 26, 2025, alerting organizations to critical vulnerabilities affecting widely-deployed automation systems. These advisories highlight severe security flaws across INVT Electric’s engineering tools, Schneider Electric’s Modicon controllers, and Danfoss refrigeration systems, with CVSS v4 scores reaching 8.7,…",
+      "source": "cybersecuritynews.com"
+    },
+    {
+      "title": "Over 28,000 Citrix devices vulnerable to new exploited RCE flaw",
+      "link": "https://www.bleepingcomputer.com/news/security/over-28-200-citrix-instances-vulnerable-to-actively-exploited-rce-bug/",
+      "date": "2025-08-27T16:48:00Z",
+      "description": "More than 28,200 Citrix instances are vulnerable to a critical remote code execution vulnerability tracked as CVE-2025-7775 that is already being exploited in the wild. [...]",
+      "source": "bleepingcomputer.com"
+    },
     {
       "title": "Analysis of Apple’s ImageIO Zero-Day Vulnerability: Attacker Context and Historical iOS Zero-Click Similarities",
       "link": "https://cybersecuritynews.com/apples-imageio-zero-day/",
@@ -52,25 +94,11 @@
       "source": "bleepingcomputer.com"
     },
     {
-      "title": "New Zip Slip Vulnerability Allows Attackers to Manipulate ZIP Files During Decompression",
-      "link": "https://cybersecuritynews.com/new-zip-slip-vulnerability-allows-attackers/",
-      "date": "2025-08-27T13:51:47Z",
-      "description": "A newly observed variant of the Zip Slip vulnerability has emerged, enabling threat actors to exploit path traversal flaws in widely used decompression utilities. Exploits leveraging this vulnerability craft malicious archives containing specially constructed file names with relative paths. When an unsuspecting user or automated system extracts these archives, files are written outside the…",
-      "source": "cybersecuritynews.com"
-    },
-    {
       "title": "ShadowSilk Hits 35 Organizations in Central Asia and APAC Using Telegram Bots",
       "link": "https://thehackernews.com/2025/08/shadowsilk-hits-36-government-targets.html",
       "date": "2025-08-27T13:47:00Z",
       "description": "A threat activity cluster known as ShadowSilk has been attributed to a fresh set of attacks targeting government entities within Central Asia and Asia-Pacific (APAC). According to Group-IB, nearly three dozen victims have been identified, with the intrusions mainly geared towards data exfiltration. The hacking group shares toolset and infrastructural overlaps with campaigns undertaken by threat",
       "source": "thehackernews.com"
-    },
-    {
-      "title": "Spotify Launches Direct Message Feature for Music Sharing, What are the Risks Associated?",
-      "link": "https://cybersecuritynews.com/spotify-direct-message/",
-      "date": "2025-08-27T13:28:45Z",
-      "description": "Spotify today rolled out a native direct messaging feature, Messages, for both Free and Premium users aged 16+ in select markets on mobile. This long-awaited addition creates a dedicated in-app space to share tracks, podcasts, and audiobooks, supercharging word-of-mouth recommendations. However, security researchers warn that the new chat API could introduce attack vectors if not […] The post…",
-      "source": "cybersecuritynews.com"
     },
     {
       "title": "Healthcare Services Group data breach impacts 624,000 people",
@@ -87,13 +115,6 @@
       "source": "darkreading.com"
     },
     {
-      "title": "New BruteForceAI Tool Automatically Detects Login Pages and Executes Smart Brute-Force Attacks",
-      "link": "https://cybersecuritynews.com/bruteforceai-penetration-testing-tool/",
-      "date": "2025-08-27T13:17:04Z",
-      "description": "BruteForceAI, an innovative penetration testing framework developed by Mor David, integrates large language models (LLMs) with browser automation to autonomously identify login forms and conduct sophisticated brute-force attacks. By combining AI-driven form analysis with evasion techniques and comprehensive logging, BruteForceAI streamlines credential-testing workflows, enabling security teams…",
-      "source": "cybersecuritynews.com"
-    },
-    {
       "title": "Nevada State Offices Closed Following Disruptive Cyberattack",
       "link": "https://www.securityweek.com/nevada-state-offices-closed-following-disruptive-cyberattack/",
       "date": "2025-08-27T13:15:10Z",
@@ -108,13 +129,6 @@
       "source": "securityweek.com"
     },
     {
-      "title": "Citrix Patches Exploited NetScaler Zero-Day",
-      "link": "https://www.securityweek.com/citrix-patches-exploited-netscaler-zero-day/",
-      "date": "2025-08-27T11:44:00Z",
-      "description": "Zero-day exploited in the wild forces Citrix and CISA to push emergency patch deadlines for federal agencies. The post Citrix Patches Exploited NetScaler Zero-Day appeared first on SecurityWeek.",
-      "source": "securityweek.com"
-    },
-    {
       "title": "The 5 Golden Rules of Safe AI Adoption",
       "link": "https://thehackernews.com/2025/08/the-5-golden-rules-of-safe-ai-adoption.html",
       "date": "2025-08-27T11:30:00Z",
@@ -126,13 +140,6 @@
       "link": "https://thehackernews.com/2025/08/salesloft-oauth-breach-via-drift-ai.html",
       "date": "2025-08-27T09:39:00Z",
       "description": "A widespread data theft campaign has allowed hackers to breach sales automation platform Salesloft to steal OAuth and refresh tokens associated with the Drift artificial intelligence (AI) chat agent. The activity, assessed to be opportunistic in nature, has been attributed to a threat actor tracked by Google Threat Intelligence Group and Mandiant, tracked as UNC6395. \"Beginning as early as",
-      "source": "thehackernews.com"
-    },
-    {
-      "title": "Blind Eagle’s Five Clusters Target Colombia Using RATs, Phishing Lures, and Dynamic DNS Infra",
-      "link": "https://thehackernews.com/2025/08/blind-eagles-five-clusters-target.html",
-      "date": "2025-08-27T09:28:00Z",
-      "description": "Cybersecurity researchers have discovered five distinct activity clusters linked to a persistent threat actor known as Blind Eagle between May 2024 and July 2025. These attacks, observed by Recorded Future Insikt Group, targeted various victims, but primarily within the Colombian government across local, municipal, and federal levels. The threat intelligence firm is tracking the activity under",
       "source": "thehackernews.com"
     },
     {
@@ -196,13 +203,6 @@
       "link": "https://www.bleepingcomputer.com/news/security/citrix-fixes-critical-netscaler-rce-flaw-exploited-in-zero-day-attacks/",
       "date": "2025-08-26T21:37:53Z",
       "description": "Citrix fixed three NetScaler ADC and NetScaler Gateway flaws today, including a critical remote code execution flaw tracked as CVE-2025-7775 that was actively exploited in attacks as a zero-day vulnerability. [...]",
-      "source": "bleepingcomputer.com"
-    },
-    {
-      "title": "Silk Typhoon hackers hijack network captive portals in diplomat attacks",
-      "link": "https://www.bleepingcomputer.com/news/security/silk-typhoon-hackers-hijack-network-captive-portals-in-diplomat-attacks/",
-      "date": "2025-08-26T21:33:59Z",
-      "description": "State-sponsored hackers linked to the Mustang Panda activity cluster targeted diplomats by hijacking web traffic to redirect to a malware serving website. [...]",
       "source": "bleepingcomputer.com"
     },
     {
