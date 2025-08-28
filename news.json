@@ -1,7 +1,35 @@
 {
-  "last_updated": "2025-08-28T15:34:11Z",
+  "last_updated": "2025-08-28T16:44:36Z",
   "count": 40,
   "items": [
+    {
+      "title": "BadSuccessor Post-Patch: Leveraging dMSAs for Credential Acquisition and Lateral Movement in Active Directory",
+      "link": "https://cybersecuritynews.com/badsuccessor-post-patch/",
+      "date": "2025-08-28T16:23:53Z",
+      "description": "Microsoft’s recent patch for the BadSuccessor vulnerability (CVE-2025-53779) has successfully closed the direct privilege escalation path, but security researchers warn that the underlying technique remains viable for sophisticated attackers. While the patch prevents immediate Domain Admin escalation through one-sided delegated Managed Service Account (dMSA) links, threat actors can still…",
+      "source": "cybersecuritynews.com"
+    },
+    {
+      "title": "Passwordstate dev urges users to patch auth bypass vulnerability",
+      "link": "https://www.bleepingcomputer.com/news/security/passwordstate-dev-urges-users-to-patch-auth-bypass-vulnerability-as-soon-as-possible/",
+      "date": "2025-08-28T16:16:20Z",
+      "description": "Click Studios, the company behind the Passwordstate enterprise-grade password manager, has warned customers to patch a high-severity authentication bypass vulnerability as soon as possible. [...]",
+      "source": "bleepingcomputer.com"
+    },
+    {
+      "title": "Police seize VerifTools fake ID marketplace servers, domains",
+      "link": "https://www.bleepingcomputer.com/news/security/police-seize-veriftools-fake-id-marketplace-servers-domains/",
+      "date": "2025-08-28T16:00:35Z",
+      "description": "The FBI and the Dutch Police have shut down the VerifTools marketplace for fraudulent identity documents after seizing servers in Amsterdam that hosted the online operation. [...]",
+      "source": "bleepingcomputer.com"
+    },
+    {
+      "title": "MathWorks Confirms Cyberattack, User Personal Information Stolen",
+      "link": "https://cybersecuritynews.com/mathworks-confirms-cyberattack/",
+      "date": "2025-08-28T15:41:21Z",
+      "description": "MathWorks, Inc., the developer of the popular MATLAB and Simulink software, confirmed today that it was the target of a significant cyberattack, resulting in the theft of sensitive personal information belonging to an undisclosed number of users. In a notice sent to affected individuals, the company disclosed that it discovered a security incident on May […] The post MathWorks Confirms…",
+      "source": "cybersecuritynews.com"
+    },
     {
       "title": "Threat Actors Abuse Velociraptor Incident Response Tool to Gain Remote Access",
       "link": "https://cybersecuritynews.com/velociraptor-incident-response-tool-abused/",
@@ -15,6 +43,13 @@
       "date": "2025-08-28T15:19:17Z",
       "description": "A significant cyberattack disrupted Nevada’s state government network on August 24, forcing all state office branches to shut down operations for 48 hours. The intrusion began with the exploitation of an unpatched VPN gateway, allowing the threat actor to gain initial foothold on the internal network. Within hours, the attackers deployed a custom malware payload […] The post Nevada IT Systems…",
       "source": "cybersecuritynews.com"
+    },
+    {
+      "title": "CISA's New SBOM Guidelines Get Mixed Reviews",
+      "link": "https://www.darkreading.com/application-security/cisas-new-sbom-guidelines-mixed-reviews",
+      "date": "2025-08-28T15:17:50Z",
+      "description": "Updated SBOM rules from CISA are a solid step toward making them more useful for cyber defenders but don't address many critical needs, experts say.",
+      "source": "darkreading.com"
     },
     {
       "title": "Cisco Nexus 3000 and 9000 Series Vulnerability Let Attackers Trigger DoS Attack",
@@ -31,20 +66,6 @@
       "source": "bleepingcomputer.com"
     },
     {
-      "title": "Farmers Insurance Cyber Attack – 1.1 Million Customers Data Exposed in Salesforce Attack",
-      "link": "https://cybersecuritynews.com/farmers-insurance-cyber-attack/",
-      "date": "2025-08-28T14:56:54Z",
-      "description": "Farmers Insurance Exchange and its subsidiaries recently disclosed a significant security incident that compromised personal information of approximately 1.1 million customers through an unauthorized access to a third-party vendor’s database. The breach, which occurred on May 29, 2025, represents one of the largest insurance industry data exposures of the year, affecting customer records…",
-      "source": "cybersecuritynews.com"
-    },
-    {
-      "title": "Hackers Attempted to Misuse Claude AI to Launch Cyber Attacks",
-      "link": "https://cybersecuritynews.com/claude-ai-misuse-cyber-attacks/",
-      "date": "2025-08-28T14:53:58Z",
-      "description": "Anthropic has thwarted multiple sophisticated attempts by cybercriminals to misuse its Claude AI platform, according to a newly released Threat Intelligence report. Despite layered safeguards designed to prevent harmful outputs, malicious actors have adapted to exploit Claude’s advanced capabilities, weaponizing agentic AI to execute large-scale extortion, employment fraud, and ransomware…",
-      "source": "cybersecuritynews.com"
-    },
-    {
       "title": "Shadow IT Is Expanding Your Attack Surface. Here’s Proof",
       "link": "https://www.bleepingcomputer.com/news/security/shadow-it-is-expanding-your-attack-surface-heres-proof/",
       "date": "2025-08-28T14:15:25Z",
@@ -55,7 +76,7 @@
       "title": "TransUnion suffers data breach impacting over 4.4 million people",
       "link": "https://www.bleepingcomputer.com/news/security/transunion-suffers-data-breach-impacting-over-44-million-people/",
       "date": "2025-08-28T14:10:34Z",
-      "description": "Consumer credit reporting giant TransUnion warns it suffered a data breach exposing the personal information of over 4.4 million people in the United States. [...]",
+      "description": "Consumer credit reporting giant TransUnion warns it suffered a data breach exposing the personal information of over 4.4 million people in the United States, with BleepingComputer learning the data was stolen from it's Salesforce account. [...]",
       "source": "bleepingcomputer.com"
     },
     {
@@ -136,25 +157,11 @@
       "source": "darkreading.com"
     },
     {
-      "title": "Storm-0501 hackers shift to ransomware attacks in the cloud",
-      "link": "https://www.bleepingcomputer.com/news/security/storm-0501-hackers-shift-to-ransomware-attacks-in-the-cloud/",
-      "date": "2025-08-27T22:38:12Z",
-      "description": "Microsoft warns that a threat actor tracked as Storm-0501 has evolved its operations, shifting away from encrypting devices with ransomware to focusing on cloud-based encryption, data theft, and extortion. [...]",
-      "source": "bleepingcomputer.com"
-    },
-    {
       "title": "Anthropic AI Used to Automate Data Extortion Campaign",
       "link": "https://www.darkreading.com/cyberattacks-data-breaches/anthropic-ai-automate-data-extortion-campaign",
       "date": "2025-08-27T21:15:08Z",
       "description": "The company said the threat actor abused its Claude Code service to \"an unprecedented degree,\" automating reconnaissance, intrusions, and credential harvesting.",
       "source": "darkreading.com"
-    },
-    {
-      "title": "Experimental PromptLock ransomware uses AI to encrypt, steal data",
-      "link": "https://www.bleepingcomputer.com/news/security/experimental-promptlock-ransomware-uses-ai-to-encrypt-steal-data/",
-      "date": "2025-08-27T20:47:01Z",
-      "description": "Threat researchers discovered the first AI-powered ransomware, called PromptLock, that uses Lua scripts to steal and encrypt data on Windows, macOS, and Linux systems. [...]",
-      "source": "bleepingcomputer.com"
     },
     {
       "title": "'ZipLine' Phishers Flip Script as Victims Email First",
@@ -168,13 +175,6 @@
       "link": "https://www.darkreading.com/cyberattacks-data-breaches/nevada-state-agencies-cyberattack",
       "date": "2025-08-27T19:59:53Z",
       "description": "In response to a cyberattack that was first detected on Sunday, the governor shut down in-person services for state offices while restoration efforts are underway.",
-      "source": "darkreading.com"
-    },
-    {
-      "title": "China Hijacks Captive Portals to Spy on Asian Diplomats",
-      "link": "https://www.darkreading.com/cyberattacks-data-breaches/china-hijacks-captive-portals-spy-asian-diplomats",
-      "date": "2025-08-27T19:31:03Z",
-      "description": "The Mustang Panda APT is hijacking Google Chrome browsers when they attempt to connect to new networks and redirecting them to phishing sites.",
       "source": "darkreading.com"
     },
     {

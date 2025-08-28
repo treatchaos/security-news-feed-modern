@@ -1,7 +1,47 @@
 {
   "date": "2025-08-28",
-  "count": 39,
+  "count": 44,
   "items": [
+    {
+      "id": "159d94a930db6cba42ebaa6edb4e4e8d2460623d",
+      "title": "BadSuccessor Post-Patch: Leveraging dMSAs for Credential Acquisition and Lateral Movement in Active Directory",
+      "link": "https://cybersecuritynews.com/badsuccessor-post-patch/",
+      "date": "2025-08-28T16:23:53Z",
+      "description": "Microsoft’s recent patch for the BadSuccessor vulnerability (CVE-2025-53779) has successfully closed the direct privilege escalation path, but security researchers warn that the underlying technique remains viable for sophisticated attackers. While the patch prevents immediate Domain Admin escalation through one-sided delegated Managed Service Account (dMSA) links, threat actors can still…",
+      "source": "cybersecuritynews.com",
+      "first_seen": "2025-08-28T16:44:36Z",
+      "last_seen": "2025-08-28T16:44:36Z"
+    },
+    {
+      "id": "7c5354efeb488ac00d33730441bb7485500b8c89",
+      "title": "Passwordstate dev urges users to patch auth bypass vulnerability",
+      "link": "https://www.bleepingcomputer.com/news/security/passwordstate-dev-urges-users-to-patch-auth-bypass-vulnerability-as-soon-as-possible/",
+      "date": "2025-08-28T16:16:20Z",
+      "description": "Click Studios, the company behind the Passwordstate enterprise-grade password manager, has warned customers to patch a high-severity authentication bypass vulnerability as soon as possible. [...]",
+      "source": "bleepingcomputer.com",
+      "first_seen": "2025-08-28T16:44:36Z",
+      "last_seen": "2025-08-28T16:44:36Z"
+    },
+    {
+      "id": "9907677750d37763cb4595b5819fbc6ae9d5f740",
+      "title": "Police seize VerifTools fake ID marketplace servers, domains",
+      "link": "https://www.bleepingcomputer.com/news/security/police-seize-veriftools-fake-id-marketplace-servers-domains/",
+      "date": "2025-08-28T16:00:35Z",
+      "description": "The FBI and the Dutch Police have shut down the VerifTools marketplace for fraudulent identity documents after seizing servers in Amsterdam that hosted the online operation. [...]",
+      "source": "bleepingcomputer.com",
+      "first_seen": "2025-08-28T16:44:36Z",
+      "last_seen": "2025-08-28T16:44:36Z"
+    },
+    {
+      "id": "17227b300f6b20322bd147a60f633b7a66c76eae",
+      "title": "MathWorks Confirms Cyberattack, User Personal Information Stolen",
+      "link": "https://cybersecuritynews.com/mathworks-confirms-cyberattack/",
+      "date": "2025-08-28T15:41:21Z",
+      "description": "MathWorks, Inc., the developer of the popular MATLAB and Simulink software, confirmed today that it was the target of a significant cyberattack, resulting in the theft of sensitive personal information belonging to an undisclosed number of users. In a notice sent to affected individuals, the company disclosed that it discovered a security incident on May […] The post MathWorks Confirms…",
+      "source": "cybersecuritynews.com",
+      "first_seen": "2025-08-28T16:44:36Z",
+      "last_seen": "2025-08-28T16:44:36Z"
+    },
     {
       "id": "dcb71ce989d20224fd7fb946ffb9ba00c0dcfa60",
       "title": "Threat Actors Abuse Velociraptor Incident Response Tool to Gain Remote Access",
@@ -10,7 +50,7 @@
       "description": "A sophisticated intrusion in which threat actors co-opted the legitimate, open-source Velociraptor digital forensics and incident response (DFIR) tool to establish a covert remote access channel. This represents an evolution from the long-standing tactic of abusing remote monitoring and management (RMM) utilities, with attackers now repurposing DFIR frameworks to minimize custom malware…",
       "source": "cybersecuritynews.com",
       "first_seen": "2025-08-28T15:34:11Z",
-      "last_seen": "2025-08-28T15:34:11Z"
+      "last_seen": "2025-08-28T16:44:36Z"
     },
     {
       "id": "f714c70cb519a148b259bf2e1cc410d88571b992",
@@ -20,7 +60,17 @@
       "description": "A significant cyberattack disrupted Nevada’s state government network on August 24, forcing all state office branches to shut down operations for 48 hours. The intrusion began with the exploitation of an unpatched VPN gateway, allowing the threat actor to gain initial foothold on the internal network. Within hours, the attackers deployed a custom malware payload […] The post Nevada IT Systems…",
       "source": "cybersecuritynews.com",
       "first_seen": "2025-08-28T15:34:11Z",
-      "last_seen": "2025-08-28T15:34:11Z"
+      "last_seen": "2025-08-28T16:44:36Z"
+    },
+    {
+      "id": "5b5688515e7c7ac82291a5807ac7be16dca9a789",
+      "title": "CISA's New SBOM Guidelines Get Mixed Reviews",
+      "link": "https://www.darkreading.com/application-security/cisas-new-sbom-guidelines-mixed-reviews",
+      "date": "2025-08-28T15:17:50Z",
+      "description": "Updated SBOM rules from CISA are a solid step toward making them more useful for cyber defenders but don't address many critical needs, experts say.",
+      "source": "darkreading.com",
+      "first_seen": "2025-08-28T16:44:36Z",
+      "last_seen": "2025-08-28T16:44:36Z"
     },
     {
       "id": "157ff181467e6a46d771cb31aa2d9b25f078f9ad",
@@ -30,7 +80,7 @@
       "description": "Cisco has issued a High-severity security advisory alerting customers to a critical vulnerability in the Intermediate System-to-Intermediate System (IS-IS) feature of NX-OS Software for Cisco Nexus 3000 and 9000 Series switches. Tracked as CVE-2025-20241 with a CVSS base score of 7.4, the flaw could allow an unauthenticated, Layer 2-adjacent attacker to send a malformed IS-IS […] The post Cisco…",
       "source": "cybersecuritynews.com",
       "first_seen": "2025-08-28T15:34:11Z",
-      "last_seen": "2025-08-28T15:34:11Z"
+      "last_seen": "2025-08-28T16:44:36Z"
     },
     {
       "id": "e38f508edd070e5f1cde0910573bc8403325a67d",
@@ -40,7 +90,7 @@
       "description": "MathWorks, a leading developer of mathematical simulation and computing software, revealed that a ransomware gang stole the data of over 10,000 people after breaching its network in April. [...]",
       "source": "bleepingcomputer.com",
       "first_seen": "2025-08-28T15:34:11Z",
-      "last_seen": "2025-08-28T15:34:11Z"
+      "last_seen": "2025-08-28T16:44:36Z"
     },
     {
       "id": "ef5bae08ddc17aa3c65726bd4fa25b156f1d97eb",
@@ -80,7 +130,7 @@
       "description": "Shadow IT isn't theoretical—it's everywhere. Intruder uncovered exposed backups, open Git repos, and admin panels in just days, all hiding sensitive data. Make your hidden assets visible before attackers do. [...]",
       "source": "bleepingcomputer.com",
       "first_seen": "2025-08-28T14:40:23Z",
-      "last_seen": "2025-08-28T15:34:11Z"
+      "last_seen": "2025-08-28T16:44:36Z"
     },
     {
       "id": "17d5e3edbf1a802fa39bb1c137fdeeab3909ff17",
@@ -107,10 +157,10 @@
       "title": "TransUnion suffers data breach impacting over 4.4 million people",
       "link": "https://www.bleepingcomputer.com/news/security/transunion-suffers-data-breach-impacting-over-44-million-people/",
       "date": "2025-08-28T14:10:34Z",
-      "description": "Consumer credit reporting giant TransUnion warns it suffered a data breach exposing the personal information of over 4.4 million people in the United States. [...]",
+      "description": "Consumer credit reporting giant TransUnion warns it suffered a data breach exposing the personal information of over 4.4 million people in the United States, with BleepingComputer learning the data was stolen from it's Salesforce account. [...]",
       "source": "bleepingcomputer.com",
       "first_seen": "2025-08-28T14:40:23Z",
-      "last_seen": "2025-08-28T15:34:11Z"
+      "last_seen": "2025-08-28T16:44:36Z"
     },
     {
       "id": "1950c8e17f90fdad8b8a1d34c532598ee810c6ce",
@@ -120,7 +170,7 @@
       "description": "The China-linked advanced persistent threat (APT) actor known as Salt Typhoon has continued its attacks targeting networks across the world, including organizations in the telecommunications, government, transportation, lodging, and military infrastructure sectors. \"While these actors focus on large backbone routers of major telecommunications providers, as well as provider edge (PE) and",
       "source": "thehackernews.com",
       "first_seen": "2025-08-28T14:40:23Z",
-      "last_seen": "2025-08-28T15:34:11Z"
+      "last_seen": "2025-08-28T16:44:36Z"
     },
     {
       "id": "de011c0efb0b3558da735baf47fa38cdf0f1324e",
@@ -130,7 +180,7 @@
       "description": "China-linked APT ‘Salt Typhoon’ exploited known router flaws to maintain persistent access across telecom, government, and military networks, giving Beijing’s intelligence services global surveillance reach. The post China’s Salt Typhoon Hacked Critical Infrastructure Globally for Years appeared first on SecurityWeek.",
       "source": "securityweek.com",
       "first_seen": "2025-08-28T14:40:23Z",
-      "last_seen": "2025-08-28T15:34:11Z"
+      "last_seen": "2025-08-28T16:44:36Z"
     },
     {
       "id": "8ff28387cac72c844ec6639f41413bf752d5c50c",
@@ -190,7 +240,7 @@
       "description": "CrowdStrike says the acquisition will bring valuable technology to enhance its Falcon Next-Gen SIEM. The post CrowdStrike to Acquire Onum to Fuel Falcon Next-Gen SIEM With Real-Time Telemetry appeared first on SecurityWeek.",
       "source": "securityweek.com",
       "first_seen": "2025-08-28T13:35:16Z",
-      "last_seen": "2025-08-28T15:34:11Z"
+      "last_seen": "2025-08-28T16:44:36Z"
     },
     {
       "id": "4ca75605d3f60ac9751edf838e5dab9f251fb731",
@@ -200,7 +250,7 @@
       "description": "Picture this: Your team rolls out some new code, thinking everything's fine. But hidden in there is a tiny flaw that explodes into a huge problem once it hits the cloud. Next thing you know, hackers are in, and your company is dealing with a mess that costs millions. Scary, right? In 2025, the average data breach hits businesses with a whopping $4.44 million bill globally. And guess what? A big",
       "source": "thehackernews.com",
       "first_seen": "2025-08-28T13:35:16Z",
-      "last_seen": "2025-08-28T15:34:11Z"
+      "last_seen": "2025-08-28T16:44:36Z"
     },
     {
       "id": "1c979b6e423d95e87cf1cc8a647f140332b8dd19",
@@ -210,7 +260,7 @@
       "description": "Join this live discussion to learn how organizations can strengthen ransomware defenses while staying ahead of tightening compliance requirements. The post Webinar Today: Ransomware Defense That Meets Evolving Compliance Mandates appeared first on SecurityWeek.",
       "source": "securityweek.com",
       "first_seen": "2025-08-28T11:26:03Z",
-      "last_seen": "2025-08-28T15:34:11Z"
+      "last_seen": "2025-08-28T16:44:36Z"
     },
     {
       "id": "43c611268c06bd3f44994dd5864c3c2e38ba45b1",
@@ -220,7 +270,7 @@
       "description": "Every day, businesses, teams, and project managers trust platforms like Trello, Asana, etc., to collaborate and manage tasks. But what happens when that trust is broken? According to a recent report by Statista, the average cost of a data breach worldwide was about $4.88 million. Also, in 2024, the private data of over 15 million Trello user profiles was shared on a popular hacker forum. Yet,",
       "source": "thehackernews.com",
       "first_seen": "2025-08-28T13:35:16Z",
-      "last_seen": "2025-08-28T15:34:11Z"
+      "last_seen": "2025-08-28T16:44:36Z"
     },
     {
       "id": "dbadc7cebcb8b482fa47a8ed586f3202c9bdf5cd",
@@ -240,7 +290,7 @@
       "description": "With more than 4 million weekly downloads, the Nx build platform became the first known supply chain breach where hackers weaponized AI assistants for data theft. The post Hackers Target Popular Nx Build System in First AI-Weaponized Supply Chain Attack appeared first on SecurityWeek.",
       "source": "securityweek.com",
       "first_seen": "2025-08-28T11:26:03Z",
-      "last_seen": "2025-08-28T15:34:11Z"
+      "last_seen": "2025-08-28T16:44:36Z"
     },
     {
       "id": "7cf25f0b820c630f0e14516bd341c63043976cfe",
@@ -250,7 +300,7 @@
       "description": "The maintainers of the nx build system have alerted users to a supply chain attack that allowed attackers to publish malicious versions of the popular npm package and other auxiliary plugins with data-gathering capabilities. \"Malicious versions of the nx package, as well as some supporting plugin packages, were published to npm, containing code that scans the file system, collects credentials,",
       "source": "thehackernews.com",
       "first_seen": "2025-08-28T11:26:03Z",
-      "last_seen": "2025-08-28T15:34:11Z"
+      "last_seen": "2025-08-28T16:44:36Z"
     },
     {
       "id": "f63ae5a7a06dbfde06a7e5c353d6d7b4639e7c38",
@@ -280,7 +330,7 @@
       "description": "The U.S. Department of the Treasury's Office of Foreign Assets Control (OFAC) announced a fresh round of sanctions against two individuals and two entities for their role in the North Korean remote information technology (IT) worker scheme to generate illicit revenue for the regime's weapons of mass destruction and ballistic missile programs. \"The North Korean regime continues to target American",
       "source": "thehackernews.com",
       "first_seen": "2025-08-28T10:39:55Z",
-      "last_seen": "2025-08-28T15:34:11Z"
+      "last_seen": "2025-08-28T16:44:36Z"
     },
     {
       "id": "54ef43949ce8a48a6df132b0c949544148a728c9",
@@ -350,7 +400,7 @@
       "description": "The post A CVSS 9.6 Remote Flaw Allows Unauthenticated Attackers to Bypass Dell ThinOS appeared first on Daily CyberSecurity.",
       "source": "securityonline.info",
       "first_seen": "2025-08-28T04:39:49Z",
-      "last_seen": "2025-08-28T15:34:11Z"
+      "last_seen": "2025-08-28T16:44:36Z"
     },
     {
       "id": "18b1dd149f69a57822d69decd7a247bd7c518f2d",
@@ -370,7 +420,7 @@
       "description": "This acquisition will bring Onum's real-time data pipeline to CrowdStrike's Falcon Next-Gen SIEM platform to deliver autonomous threat detection capabilities.",
       "source": "darkreading.com",
       "first_seen": "2025-08-28T11:26:03Z",
-      "last_seen": "2025-08-28T15:34:11Z"
+      "last_seen": "2025-08-28T16:44:36Z"
     },
     {
       "id": "485fb8e49719b3f131dde07a7970870017d09711",
