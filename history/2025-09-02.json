@@ -1,7 +1,37 @@
 {
   "date": "2025-09-02",
-  "count": 6,
+  "count": 9,
   "items": [
+    {
+      "id": "4db017d62bf852106798319e72cc9ca303ccce5a",
+      "title": "HashiCorp Vault Vulnerability Let Attackers to Crash Servers",
+      "link": "https://cybersecuritynews.com/hashicorp-vault-vulnerability/",
+      "date": "2025-09-02T08:47:31Z",
+      "description": "A critical denial-of-service vulnerability in HashiCorp Vault could allow malicious actors to overwhelm servers with specially crafted JSON payloads, leading to excessive resource consumption and rendering Vault instances unresponsive. Tracked as CVE-2025-6203 and published on August 28, 2025, the flaw affects both Vault Community and Enterprise editions from version 1.15.0 up to several patched…",
+      "source": "cybersecuritynews.com",
+      "first_seen": "2025-09-02T08:47:57Z",
+      "last_seen": "2025-09-02T08:47:57Z"
+    },
+    {
+      "id": "0767bc9242b82c0440224646403897928edd743e",
+      "title": "MobSF Security Testing Tool Vulnerability Let Attackers Upload Malicious Files",
+      "link": "https://cybersecuritynews.com/mobsf-security-testing-tool-vulnerability/",
+      "date": "2025-09-02T08:44:26Z",
+      "description": "A critical flaw in the Mobile Security Framework (MobSF) has been discovered, allowing authenticated attackers to upload and execute malicious files by exploiting improper path validation. The vulnerability, present in version 4.4.0 and patched in 4.4.1, underscores the importance of rigorous sanitization when handling user‐supplied file paths and archives. Key Takeaways1. MobSF v4.4.0 allowed…",
+      "source": "cybersecuritynews.com",
+      "first_seen": "2025-09-02T08:47:57Z",
+      "last_seen": "2025-09-02T08:47:57Z"
+    },
+    {
+      "id": "9661e57592102d9ca176af8fdf8b80853cd22ba1",
+      "title": "New TinkyWinkey Stealthily Attacking Windows Systems With Advanced Keylogging Capabilities",
+      "link": "https://cybersecuritynews.com/new-tinkywinkey-stealthily-attacking-windows-systems/",
+      "date": "2025-09-02T08:38:42Z",
+      "description": "A sophisticated Windows-based keylogger known as TinkyWinkey began surfacing on underground forums in late June 2025, targeting enterprise and individual endpoints with unprecedented stealth. Unlike traditional keylogging tools that rely on simple hooks or user-mode processes, TinkyWinkey leverages dual components—a Windows service and an injected DLL payload—to remain hidden while harvesting…",
+      "source": "cybersecuritynews.com",
+      "first_seen": "2025-09-02T08:47:57Z",
+      "last_seen": "2025-09-02T08:47:57Z"
+    },
     {
       "id": "ab953e0e5964fa3cce23cea10c8d91c3271eb2f7",
       "title": "Critical Qualcomm Vulnerabilities Allow Attackers to Execute Arbitrary Code Remotely",
@@ -10,7 +40,7 @@
       "description": "Multiple critical vulnerabilities in Qualcomm Technologies’ proprietary Data Network Stack and Multi-Mode Call Processor that permit remote attackers to execute arbitrary code. These flaws, tracked as CVE-2025-21483 and CVE-2025-27034, each carry a CVSS score of 9.8 and exploit buffer-corruption weaknesses to compromise device security. Key Takeaways1. CVE-2025-21483 & CVE-2025-27034 allow…",
       "source": "cybersecuritynews.com",
       "first_seen": "2025-09-02T07:31:06Z",
-      "last_seen": "2025-09-02T07:31:06Z"
+      "last_seen": "2025-09-02T08:47:57Z"
     },
     {
       "id": "e07c1cef555c5f78ba18bd99b4454494f49d0717",
@@ -20,7 +50,7 @@
       "description": "A critical security vulnerability has emerged in Azure Active Directory (Azure AD) configurations that exposes sensitive application credentials, providing attackers with unprecedented access to cloud environments. This vulnerability centers around the exposure of appsettings.json files containing ClientId and ClientSecret credentials, effectively handing adversaries the keys to entire Microsoft…",
       "source": "cybersecuritynews.com",
       "first_seen": "2025-09-02T07:31:06Z",
-      "last_seen": "2025-09-02T07:31:06Z"
+      "last_seen": "2025-09-02T08:47:57Z"
     },
     {
       "id": "df32bb1dddea44fb846638d07f5b29d209a419f7",
@@ -40,7 +70,7 @@
       "description": "Cybersecurity researchers have discovered a malicious npm package that comes with stealthy features to inject malicious code into desktop apps for cryptocurrency wallets like Atomic and Exodus on Windows systems. The package, named nodejs-smtp, impersonates the legitimate email library nodemailer with an identical tagline, page styling, and README descriptions, attracting a total of 347",
       "source": "thehackernews.com",
       "first_seen": "2025-09-02T06:52:11Z",
-      "last_seen": "2025-09-02T07:31:06Z"
+      "last_seen": "2025-09-02T08:47:57Z"
     },
     {
       "id": "753e6f210da5e01a671539315d01acabcf7a81b4",
@@ -50,7 +80,7 @@
       "description": "The post Linux Kernel Panic Triggered by Race Condition, PoC Released appeared first on Daily CyberSecurity.",
       "source": "securityonline.info",
       "first_seen": "2025-09-02T04:41:00Z",
-      "last_seen": "2025-09-02T07:31:06Z"
+      "last_seen": "2025-09-02T08:47:57Z"
     },
     {
       "id": "bf0ca8e6ffea1e81acd2751d43fa26679e244071",
