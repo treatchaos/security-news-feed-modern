@@ -1,7 +1,70 @@
 {
-  "last_updated": "2025-09-02T11:26:21Z",
+  "last_updated": "2025-09-02T13:36:38Z",
   "count": 40,
   "items": [
+    {
+      "title": "Pennsylvania AG Office says ransomware attack behind recent outage",
+      "link": "https://www.bleepingcomputer.com/news/security/pennsylvania-ag-office-says-ransomware-attack-behind-recent-outage/",
+      "date": "2025-09-02T13:20:01Z",
+      "description": "The Office of the Pennsylvania Attorney General announced that a ransomware attack is behind the ongoing two-week service outage. [...]",
+      "source": "bleepingcomputer.com"
+    },
+    {
+      "title": "New ClickFix Attack Mimic as AnyDesk Leverages Windows Search to Drop MetaStealer",
+      "link": "https://cybersecuritynews.com/new-clickfix-attack-mimic-as-anydesk/",
+      "date": "2025-09-02T13:02:13Z",
+      "description": "A novel variant of the ClickFix attack has recently emerged, masquerading as a legitimate AnyDesk installer to spread the MetaStealer infostealer. This campaign exploits a fake Cloudflare Turnstile verification page to lure victims into executing a crafted Windows protocol handler, ultimately delivering a malicious MSI package disguised as a PDF. As organizations continue to harden […] The post…",
+      "source": "cybersecuritynews.com"
+    },
+    {
+      "title": "NIST Enhances Security Controls for Improved Patching",
+      "link": "https://www.darkreading.com/cybersecurity-operations/nist-enhances-security-controls-for-improved-patching",
+      "date": "2025-09-02T13:01:53Z",
+      "description": "The US National Institute of Standards and Technology released Security and Privacy Control version 5.2.0 to help organizations be more proactive regarding patching.",
+      "source": "darkreading.com"
+    },
+    {
+      "title": "Palo Alto Networks Confirms Data Breach – Hackers Stole Customer Data from Salesforce Instances",
+      "link": "https://cybersecuritynews.com/palo-alto-networks-data-breach/",
+      "date": "2025-09-02T12:48:38Z",
+      "description": "Palo Alto Networks has confirmed that it was affected by a supply chain attack, resulting in the theft of customer data from its Salesforce instances. The breach originated from a compromised third-party application, Salesloft’s Drift, and did not affect any of Palo Alto Networks’ own products or services, which the company says remain secure. The […] The post Palo Alto Networks Confirms Data…",
+      "source": "cybersecuritynews.com"
+    },
+    {
+      "title": "Amazon Disrupts Russian Hacking Campaign Targeting Microsoft Users",
+      "link": "https://www.securityweek.com/amazon-disrupts-russian-hacking-campaign-targeting-microsoft-users/",
+      "date": "2025-09-02T12:12:12Z",
+      "description": "The Midnight Blizzard cyberspies used compromised websites to trick users into authorizing devices they controlled. The post Amazon Disrupts Russian Hacking Campaign Targeting Microsoft Users appeared first on SecurityWeek.",
+      "source": "securityweek.com"
+    },
+    {
+      "title": "Palo Alto Networks data breach exposes customer info, support tickets",
+      "link": "https://www.bleepingcomputer.com/news/security/palo-alto-networks-data-breach-exposes-customer-info-support-tickets/",
+      "date": "2025-09-02T12:00:00Z",
+      "description": "Palo Alto Networks suffered a data breach that exposed customer data and support cases after attackers abused compromised OAuth tokens from the Salesloft Drift breach to access its Salesforce instance. [...]",
+      "source": "bleepingcomputer.com"
+    },
+    {
+      "title": "WhatsApp Zero-Day Exploited in Attacks Targeting Apple Users",
+      "link": "https://www.securityweek.com/whatsapp-zero-day-exploited-in-attacks-targeting-apple-users/",
+      "date": "2025-09-02T11:39:32Z",
+      "description": "The vulnerability (CVE-2025-55177) was exploited along an iOS/macOS zero-day in suspected spyware attacks. The post WhatsApp Zero-Day Exploited in Attacks Targeting Apple Users appeared first on SecurityWeek.",
+      "source": "securityweek.com"
+    },
+    {
+      "title": "Microsoft to Kill Popular Editor Browser Extensions on Edge and Chrome",
+      "link": "https://cybersecuritynews.com/microsoft-to-kill-poplar-editor-browser-extensions/",
+      "date": "2025-09-02T11:30:09Z",
+      "description": "On August 29, 2025, Microsoft announced the retirement of its popular Microsoft Editor browser extensions for Microsoft Edge and Google Chrome. The Editor extensions will be officially deprecated on October 31, 2025, as part of Microsoft’s strategy to integrate AI-powered writing assistance directly into the native proofing tools of Edge. Key Takeaways1. Editor extensions retirement […] The post…",
+      "source": "cybersecuritynews.com"
+    },
+    {
+      "title": "Shadow AI Discovery: A Critical Part of Enterprise AI Governance",
+      "link": "https://thehackernews.com/2025/09/shadow-ai-discovery-critical-part-of.html",
+      "date": "2025-09-02T11:30:00Z",
+      "description": "The Harsh Truths of AI Adoption MITs State of AI in Business report revealed that while 40% of organizations have purchased enterprise LLM subscriptions, over 90% of employees are actively using AI tools in their daily work. Similarly, research from Harmonic Security found that 45.4% of sensitive AI interactions are coming from personal email accounts, where employees are bypassing corporate",
+      "source": "thehackernews.com"
+    },
     {
       "title": "Record-breaking 11.5 Tbps UDP Flood DDoS Attack Originated from Google Cloud Platform",
       "link": "https://cybersecuritynews.com/record-breaking-ddos-attack-11-5-tbps/",
@@ -24,32 +87,11 @@
       "source": "cybersecuritynews.com"
     },
     {
-      "title": "HashiCorp Vault Vulnerability Let Attackers to Crash Servers",
-      "link": "https://cybersecuritynews.com/hashicorp-vault-vulnerability/",
-      "date": "2025-09-02T08:47:31Z",
-      "description": "A critical denial-of-service vulnerability in HashiCorp Vault could allow malicious actors to overwhelm servers with specially crafted JSON payloads, leading to excessive resource consumption and rendering Vault instances unresponsive. Tracked as CVE-2025-6203 and published on August 28, 2025, the flaw affects both Vault Community and Enterprise editions from version 1.15.0 up to several patched…",
-      "source": "cybersecuritynews.com"
-    },
-    {
-      "title": "MobSF Security Testing Tool Vulnerability Let Attackers Upload Malicious Files",
-      "link": "https://cybersecuritynews.com/mobsf-security-testing-tool-vulnerability/",
-      "date": "2025-09-02T08:44:26Z",
-      "description": "A critical flaw in the Mobile Security Framework (MobSF) has been discovered, allowing authenticated attackers to upload and execute malicious files by exploiting improper path validation. The vulnerability, present in version 4.4.0 and patched in 4.4.1, underscores the importance of rigorous sanitization when handling user‐supplied file paths and archives. Key Takeaways1. MobSF v4.4.0 allowed…",
-      "source": "cybersecuritynews.com"
-    },
-    {
       "title": "Silver Fox Exploits Microsoft-Signed WatchDog Driver to Deploy ValleyRAT Malware",
       "link": "https://thehackernews.com/2025/09/silver-fox-exploits-microsoft-signed.html",
       "date": "2025-09-02T08:39:00Z",
       "description": "The threat actor known as Silver Fox has been attributed to abuse of a previously unknown vulnerable driver associated with WatchDog Anti-malware as part of a Bring Your Own Vulnerable Driver (BYOVD) attack aimed at disarming security solutions installed on compromised hosts. The vulnerable driver in question is \"amsdk.sys\" (version 1.0.600), a 64-bit, validly signed Windows kernel device driver",
       "source": "thehackernews.com"
-    },
-    {
-      "title": "New TinkyWinkey Stealthily Attacking Windows Systems With Advanced Keylogging Capabilities",
-      "link": "https://cybersecuritynews.com/new-tinkywinkey-stealthily-attacking-windows-systems/",
-      "date": "2025-09-02T08:38:42Z",
-      "description": "A sophisticated Windows-based keylogger known as TinkyWinkey began surfacing on underground forums in late June 2025, targeting enterprise and individual endpoints with unprecedented stealth. Unlike traditional keylogging tools that rely on simple hooks or user-mode processes, TinkyWinkey leverages dual components—a Windows service and an injected DLL payload—to remain hidden while harvesting…",
-      "source": "cybersecuritynews.com"
     },
     {
       "title": "Malicious npm Package nodejs-smtp Mimics Nodemailer, Targets Atomic and Exodus Wallets",
@@ -87,13 +129,6 @@
       "source": "bleepingcomputer.com"
     },
     {
-      "title": "⚡ Weekly Recap: WhatsApp 0-Day, Docker Bug, Salesforce Breach, Fake CAPTCHAs, Spyware App & More",
-      "link": "https://thehackernews.com/2025/09/weekly-recap-whatsapp-0-day-docker-bug.html",
-      "date": "2025-09-01T13:02:00Z",
-      "description": "Cybersecurity today is less about single attacks and more about chains of small weaknesses that connect into big risks. One overlooked update, one misused account, or one hidden tool in the wrong hands can be enough to open the door. The news this week shows how attackers are mixing methods—combining stolen access, unpatched software, and clever tricks to move from small entry points to large",
-      "source": "thehackernews.com"
-    },
-    {
       "title": "PoC Exploit Released for Nagios XI RCE Flaw Allows Attackers to Hijack Servers",
       "link": "https://securityonline.info/poc-exploit-released-for-nagios-xi-rce-flaw-allows-attackers-to-hijack-servers/",
       "date": "2025-09-01T00:00:47Z",
@@ -105,20 +140,6 @@
       "link": "https://www.bleepingcomputer.com/news/security/brokewell-android-malware-delivered-through-fake-tradingview-ads/",
       "date": "2025-08-31T18:35:26Z",
       "description": "Cybercriminals are abusing Meta's advertising platforms with fake offers of a free TradingView Premium app that spreads the Brokewell malware for Android. [...]",
-      "source": "bleepingcomputer.com"
-    },
-    {
-      "title": "OpenAI releases big upgrade for ChatGPT Codex for agentic coding",
-      "link": "https://www.bleepingcomputer.com/news/artificial-intelligence/openai-releases-big-upgrade-for-chatgpt-codex-for-agentic-coding/",
-      "date": "2025-08-31T17:00:00Z",
-      "description": "OpenAI has announced a big update for Codex, which is the company's agentic coding tool. [...]",
-      "source": "bleepingcomputer.com"
-    },
-    {
-      "title": "Anthropic is testing GPT Codex-like Claude Code web app",
-      "link": "https://www.bleepingcomputer.com/news/artificial-intelligence/anthropic-is-testing-gpt-codex-like-claude-code-web-app/",
-      "date": "2025-08-31T15:00:00Z",
-      "description": "Anthropic is planning to bring the famous Claude Code to the web, and it might be similar to ChatGPT Codex, but you'll need GitHub to get started. [...]",
       "source": "bleepingcomputer.com"
     },
     {
@@ -157,20 +178,6 @@
       "source": "securityweek.com"
     },
     {
-      "title": "TransUnion Data Breach Impacts 4.4 Million",
-      "link": "https://www.securityweek.com/transunion-data-breach-impacts-4-4-million/",
-      "date": "2025-08-29T12:36:02Z",
-      "description": "The credit reporting firm did not name the third-party application involved in the incident, only noting that it was used for its US consumer support operations. The post TransUnion Data Breach Impacts 4.4 Million appeared first on SecurityWeek.",
-      "source": "securityweek.com"
-    },
-    {
-      "title": "Nevada Confirms Ransomware Attack Behind Statewide Service Disruptions",
-      "link": "https://www.securityweek.com/nevada-confirms-ransomware-attack-behind-statewide-service-disruptions/",
-      "date": "2025-08-29T12:28:45Z",
-      "description": "State officials confirm ransomware forced office closures, disrupted services, and led to data theft, as Nevada works with CISA and law enforcement to restore critical systems. The post Nevada Confirms Ransomware Attack Behind Statewide Service Disruptions appeared first on SecurityWeek.",
-      "source": "securityweek.com"
-    },
-    {
       "title": "PoC Published: A Format String Bug in ImageMagick Could Allow Remote Code Execution",
       "link": "https://securityonline.info/poc-published-a-format-string-bug-in-imagemagick-could-allow-remote-code-execution/",
       "date": "2025-08-29T08:12:51Z",
@@ -203,13 +210,6 @@
       "link": "https://www.darkreading.com/cyberattacks-data-breaches/hackers-transunion-customer-data",
       "date": "2025-08-28T19:25:50Z",
       "description": "The credit reporting agency said the breach was \"limited to specific data elements\" and didn't include credit reports or core credit information.",
-      "source": "darkreading.com"
-    },
-    {
-      "title": "Akira, Cl0p Top List of 5 Most Active Ransomware-as-a-Service Groups",
-      "link": "https://www.darkreading.com/threat-intelligence/akira-clop-top-5-most-active-ransomware-groups-list",
-      "date": "2025-08-28T18:49:55Z",
-      "description": "Many familiar faces made Flashpoint's 2025 midyear ransomware report, as well as new gangs, which are increasingly using AI.",
       "source": "darkreading.com"
     },
     {
