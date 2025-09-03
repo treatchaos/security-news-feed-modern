@@ -1,13 +1,62 @@
 {
-  "last_updated": "2025-09-03T11:24:39Z",
+  "last_updated": "2025-09-03T13:18:13Z",
   "count": 40,
   "items": [
+    {
+      "title": "PagerDuty Confirms Data Breach After Third-Party App Vulnerability Exposes Salesforce Data",
+      "link": "https://cybersecuritynews.com/pagerduty-confirms-data-breach/",
+      "date": "2025-09-03T12:47:28Z",
+      "description": "PagerDuty, a leader in digital operations management, has confirmed a security incident that resulted in unauthorized access to some of its data stored in Salesforce. The company stated that no PagerDuty platform credentials were compromised and that the breach resulted from a vulnerability in a third-party application, Salesloft Drift. The incident’s timeline began on August […] The post…",
+      "source": "cybersecuritynews.com"
+    },
+    {
+      "title": "Threat Actors Weaponize HexStrike AI to Exploit Citrix Flaws Within a Week of Disclosure",
+      "link": "https://thehackernews.com/2025/09/threat-actors-weaponize-hexstrike-ai-to.html",
+      "date": "2025-09-03T12:20:00Z",
+      "description": "Threat actors are attempting to leverage a newly released artificial intelligence (AI) offensive security tool called HexStrike AI to exploit recently disclosed security flaws. HexStrike AI, according to its website, is pitched as an AI‑driven security platform to automate reconnaissance and vulnerability discovery with an aim to accelerate authorized red teaming operations, bug bounty hunting,",
+      "source": "thehackernews.com"
+    },
+    {
+      "title": "Hacker Conversations: McKenzie Wark, Author of A Hacker Manifesto",
+      "link": "https://www.securityweek.com/hacker-conversations-mckenzie-wark-author-of-a-hacker-manifesto/",
+      "date": "2025-09-03T12:00:00Z",
+      "description": "Known for her seminal book, A Hacker Manifesto, Wark reframes hacking as a cultural force rooted in play, creativity, and human nature. The post Hacker Conversations: McKenzie Wark, Author of A Hacker Manifesto appeared first on SecurityWeek.",
+      "source": "securityweek.com"
+    },
+    {
+      "title": "Varonis Acquires Email Security Provider SlashNext to Enhance BEC Defenses",
+      "link": "https://www.darkreading.com/endpoint-security/varonis-acquires-email-security-provider-slashnext-enhance-bec-defenses",
+      "date": "2025-09-03T12:00:00Z",
+      "description": "Varonis plans to integrate SlashNext's advanced phishing, BEC, and social engineering attack protection capabilities into its data security platform.",
+      "source": "darkreading.com"
+    },
+    {
+      "title": "Detecting Data Leaks Before Disaster",
+      "link": "https://thehackernews.com/2025/09/detecting-data-leaks-before-disaster.html",
+      "date": "2025-09-03T11:45:00Z",
+      "description": "In January 2025, cybersecurity experts at Wiz Research found that Chinese AI specialist DeepSeek had suffered a data leak, putting more than 1 million sensitive log streams at risk. According to the Wiz Research team, they identified a publicly accessible ClickHouse database belonging to DeepSeek. This allowed “full control over database operations, including the ability to access",
+      "source": "thehackernews.com"
+    },
+    {
+      "title": "Pennsylvania Attorney General Confirms Ransomware Behind Weeks-Long Outage",
+      "link": "https://www.securityweek.com/pennsylvania-attorney-general-confirms-ransomware-behind-weeks-long-outage/",
+      "date": "2025-09-03T11:29:16Z",
+      "description": "Attack disrupted email, phones, and websites for weeks, but officials say no ransom was paid. The post Pennsylvania Attorney General Confirms Ransomware Behind Weeks-Long Outage appeared first on SecurityWeek.",
+      "source": "securityweek.com"
+    },
     {
       "title": "OpenAI Set to Acquire Analytics Platform Statsig in $1.1 Billion Agreement",
       "link": "https://cybersecuritynews.com/openai-acquire-statsig/",
       "date": "2025-09-03T11:13:04Z",
       "description": "OpenAI announced today its definitive agreement to acquire Statsig, a product experimentation and analytics platform, for $1.1 billion. The acquisition is a key move by the leader in artificial intelligence. It aims to add strong data tools to its system. This will help speed up the creation and launch of AI-based products. Statsig, founded in […] The post OpenAI Set to Acquire Analytics…",
       "source": "cybersecuritynews.com"
+    },
+    {
+      "title": "Android Security Alert: Google Patches 120 Flaws, Including Two Zero-Days Under Attack",
+      "link": "https://thehackernews.com/2025/09/android-security-alert-google-patches.html",
+      "date": "2025-09-03T11:05:00Z",
+      "description": "Google has shipped security updates to address 120 security flaws in its Android operating system as part of its monthly fixes for September 2025, including two issues that it said have been exploited in targeted attacks. The vulnerabilities are listed below - CVE-2025-38352 (CVSS score: 7.4) - A privilege escalation flaw in the Linux Kernel component CVE-2025-48543 (CVSS score: N/A) - A",
+      "source": "thehackernews.com"
     },
     {
       "title": "Iranian Hackers Exploit 100+ Embassy Email Accounts in Global Phishing Targeting Diplomats",
@@ -59,20 +108,6 @@
       "source": "cybersecuritynews.com"
     },
     {
-      "title": "Cloudflare Blocks Record-Breaking 11.5 Tbps DDoS Attack",
-      "link": "https://thehackernews.com/2025/09/cloudflare-blocks-record-breaking-115.html",
-      "date": "2025-09-03T07:49:00Z",
-      "description": "Cloudflare on Tuesday said it automatically mitigated a record-setting volumetric distributed denial-of-service (DDoS) attack that peaked at 11.5 terabits per second (Tbps). \"Over the past few weeks, we've autonomously blocked hundreds of hyper-volumetric DDoS attacks, with the largest reaching peaks of 5.1 Bpps and 11.5 Tbps,\" the web infrastructure and security company said in a post on X. \"",
-      "source": "thehackernews.com"
-    },
-    {
-      "title": "PoC Exploit Released for IIS WebDeploy Remote Code Execution Vulnerability",
-      "link": "https://cybersecuritynews.com/poc-exploit-iis-vulnerability/",
-      "date": "2025-09-03T07:46:51Z",
-      "description": "A proof-of-concept exploit for CVE-2025-53772, a critical remote code execution vulnerability in Microsoft’s IIS Web Deploy (msdeploy) tool, was published this week, raising urgent alarms across the .NET and DevOps communities. The flaw resides in the unsafe deserialization of HTTP header contents in both the msdeployagentservice and msdeploy.axd endpoints, enabling authenticated attackers to…",
-      "source": "cybersecuritynews.com"
-    },
-    {
       "title": "UAE to Implement Cyber Education Initiative",
       "link": "https://www.darkreading.com/cybersecurity-operations/uae-cyber-education-initiative",
       "date": "2025-09-03T06:00:00Z",
@@ -80,25 +115,11 @@
       "source": "darkreading.com"
     },
     {
-      "title": "CISA Adds TP-Link and WhatsApp Flaws to KEV Catalog Amid Active Exploitation",
-      "link": "https://thehackernews.com/2025/09/cisa-adds-tp-link-and-whatsapp-flaws-to.html",
-      "date": "2025-09-03T05:09:00Z",
-      "description": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Tuesday added a high-severity security flaw impacting TP-Link TL-WA855RE Wi-Fi Ranger Extender products to its Known Exploited Vulnerabilities (KEV) catalog, citing evidence of active exploitation. The vulnerability, CVE-2020-24363 (CVSS score: 8.8), concerns a case of missing authentication that could be abused to obtain",
-      "source": "thehackernews.com"
-    },
-    {
       "title": "PoC Published for Remote Code Execution Flaw in Microsoft IIS Web Deploy",
       "link": "https://securityonline.info/poc-published-for-remote-code-execution-flaw-in-microsoft-iis-web-deploy/",
       "date": "2025-09-03T04:15:55Z",
       "description": "The post PoC Published for Remote Code Execution Flaw in Microsoft IIS Web Deploy appeared first on Daily CyberSecurity.",
       "source": "securityonline.info"
-    },
-    {
-      "title": "Salesloft Takes Drift Offline After OAuth Token Theft Hits Hundreds of Organizations",
-      "link": "https://thehackernews.com/2025/09/salesloft-takes-drift-offline-after.html",
-      "date": "2025-09-03T03:53:00Z",
-      "description": "Salesloft on Tuesday announced that it's taking Drift temporarily offline \"in the very near future,\" as multiple companies have been ensnared in a far-reaching supply chain attack spree targeting the marketing software-as-a-service product, resulting in the mass theft of authentication tokens. \"This will provide the fastest path forward to comprehensively review the application and build",
-      "source": "thehackernews.com"
     },
     {
       "title": "Hackers breach fintech firm in attempted $130M bank heist",
@@ -143,13 +164,6 @@
       "source": "darkreading.com"
     },
     {
-      "title": "Jaguar Land Rover Shuts Down in Scramble to Secure 'Cyber Incident'",
-      "link": "https://www.darkreading.com/cyberattacks-data-breaches/jaguar-land-rover-cyber-incident",
-      "date": "2025-09-02T16:44:27Z",
-      "description": "The luxury automaker said its retail and production activities have been \"severely disrupted.\"",
-      "source": "darkreading.com"
-    },
-    {
       "title": "Cloudflare blocks largest recorded DDoS attack peaking at 11.5 Tbps",
       "link": "https://www.bleepingcomputer.com/news/security/cloudflare-blocks-record-breaking-115-tbps-ddos-attack/",
       "date": "2025-09-02T15:52:30Z",
@@ -157,25 +171,11 @@
       "source": "bleepingcomputer.com"
     },
     {
-      "title": "Cloudflare Blocks Record-Breaking 11.5 Tbps DDoS Attack",
-      "link": "https://www.securityweek.com/cloudflare-blocks-record-11-5-tbps-ddos-attack/",
-      "date": "2025-09-02T15:02:36Z",
-      "description": "Part of a wave of DDoS attacks that lasted for weeks, the assault was a UDP flood, originating from several IoT and cloud providers. The post Cloudflare Blocks Record-Breaking 11.5 Tbps DDoS Attack appeared first on SecurityWeek.",
-      "source": "securityweek.com"
-    },
-    {
       "title": "No, Google did not warn 2.5 billion Gmail users to reset passwords",
       "link": "https://www.bleepingcomputer.com/news/technology/no-google-did-not-warn-25-billion-gmail-users-to-reset-passwords/",
       "date": "2025-09-02T14:57:28Z",
       "description": "Google has disputed a widely reported story about the company warning all Gmail users to reset their passwords due to a recent data breach that also affected some Workspace accounts. [...]",
       "source": "bleepingcomputer.com"
-    },
-    {
-      "title": "Varonis Acquires Email Security Firm SlashNext",
-      "link": "https://www.securityweek.com/varonis-acquires-email-security-firm-slashnext/",
-      "date": "2025-09-02T14:56:23Z",
-      "description": "The transaction is valued up to $150 million, including performance-based retention awards, a Varonis spokesperson told SecurityWeek. The post Varonis Acquires Email Security Firm SlashNext appeared first on SecurityWeek.",
-      "source": "securityweek.com"
     },
     {
       "title": "Jaguar Land Rover says cyberattack ‘severely disrupted’ production",
