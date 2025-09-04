@@ -1,40 +1,40 @@
 {
-  "last_updated": "2025-09-04T04:37:58Z",
+  "last_updated": "2025-09-04T05:32:16Z",
   "count": 40,
   "items": [
+    {
+      "title": "New Namespace Reuse Vulnerability Allows Remote Code Execution in Microsoft Azure AI, Google Vertex AI, and Hugging Face",
+      "link": "https://cybersecuritynews.com/new-namespace-reuse-vulnerability/",
+      "date": "2025-09-04T05:15:39Z",
+      "description": "Cybersecurity researchers have uncovered a critical vulnerability in the artificial intelligence supply chain that enables attackers to achieve remote code execution across major cloud platforms including Microsoft Azure AI Foundry, Google Vertex AI, and thousands of open-source projects. The newly discovered attack method, termed “Model Namespace Reuse,” exploits a fundamental flaw in how AI…",
+      "source": "cybersecuritynews.com"
+    },
+    {
+      "title": "Mis-issued TLS Certificates for 1.1.1.1 DNS Service Enable Attackers to Decrypt Traffic",
+      "link": "https://cybersecuritynews.com/tls-certificates-1-1-1-1-dns-service/",
+      "date": "2025-09-04T04:59:54Z",
+      "description": "The discovery of three improperly issued TLS certificates for 1.1.1.1, the popular public DNS service from Cloudflare, and the Asia Pacific Network Information Centre (APNIC). The certificates, which were issued in May 2025, could allow attackers to intercept and decrypt encrypted DNS lookups, potentially exposing users’ browsing habits. The existence of the unauthorized certificates was […] The…",
+      "source": "cybersecuritynews.com"
+    },
+    {
+      "title": "1,100 Ollama AI Servers Exposed to Internet With 20% of Them are Vulnerable",
+      "link": "https://cybersecuritynews.com/1100-ollama-ai-servers-exposed/",
+      "date": "2025-09-04T04:58:16Z",
+      "description": "A comprehensive security investigation has uncovered a disturbing reality in the artificial intelligence infrastructure landscape: more than 1,100 instances of Ollama, a popular framework for running large language models locally, have been discovered exposed directly to the internet. This widespread exposure represents a significant security breach that affects organizations across multiple…",
+      "source": "cybersecuritynews.com"
+    },
+    {
+      "title": "New Dire Wolf Ransomware Attack Windows Systems, Deletes Event Logs and Backup-Related Data",
+      "link": "https://cybersecuritynews.com/new-dire-wolf-ransomware-attack-windows-systems/",
+      "date": "2025-09-04T04:43:46Z",
+      "description": "A sophisticated new ransomware strain known as Dire Wolf has emerged as a significant threat to organizations worldwide, combining advanced encryption techniques with destructive anti-recovery capabilities. The malware group first appeared in May 2025 and has since targeted 16 organizations across diverse industries including manufacturing, IT, construction, and finance in regions spanning Asia,…",
+      "source": "cybersecuritynews.com"
+    },
     {
       "title": "Apache DolphinScheduler Default Permissions Vulnerability Fixed – Update Now",
       "link": "https://cybersecuritynews.com/apache-dolphinscheduler/",
       "date": "2025-09-04T04:25:50Z",
       "description": "A critical security vulnerability affecting Apache DolphinScheduler’s default permission system has been identified and patched, prompting urgent update recommendations from the Apache Software Foundation. The vulnerability, which stems from overly permissive default configurations in the popular workflow scheduling platform, allows unauthorized users to execute arbitrary workflows and access…",
-      "source": "cybersecuritynews.com"
-    },
-    {
-      "title": "Google Won’t Be Forced to Sell Chrome, But Must Share Search Data With Rivals",
-      "link": "https://cybersecuritynews.com/google-wont-be-forced-to-sell-chrome/",
-      "date": "2025-09-04T04:10:12Z",
-      "description": "The U.S. District Court for the District of Columbia has ordered Google to share critical search data with competitors while allowing the tech giant to retain ownership of its Chrome browser. The decision, announced Tuesday by the Department of Justice’s Antitrust Division, represents a significant victory in the government’s ongoing battle against Google’s search monopoly […] The post Google…",
-      "source": "cybersecuritynews.com"
-    },
-    {
-      "title": "New ‘NotDoor’ Malware Attacks Outlook Users to Exfiltrate Data and Compromise Computers",
-      "link": "https://cybersecuritynews.com/notdoor-malware-attack-outlook/",
-      "date": "2025-09-04T04:02:31Z",
-      "description": "A sophisticated backdoor linked to the notorious Russian cyber-espionage group APT28 allows attackers to exfiltrate data, upload files, and execute commands on compromised computers. The new, sophisticated backdoor targets Microsoft Outlook, which allows threat actors to steal data and take control of a victim’s machine. The malware, dubbed “NotDoor,” has been attributed to the Russian […] The…",
-      "source": "cybersecuritynews.com"
-    },
-    {
-      "title": "MystRodX Leveraging DNS and ICMP to Steal Sensitive Data From Hacked Systems",
-      "link": "https://cybersecuritynews.com/mystrodx-leveraging-dns-and-icmp/",
-      "date": "2025-09-04T03:57:44Z",
-      "description": "A sophisticated new backdoor malware has emerged from the shadows, operating undetected for over 20 months while infiltrating networks through an ingenious dual-mode activation system. Initially discovered masquerading as a Mirai variant, MystRodX represents a significant evolution in stealth malware design, utilizing DNS queries and ICMP packets as covert communication channels to evade…",
-      "source": "cybersecuritynews.com"
-    },
-    {
-      "title": "Phishing Campaign Went Undetected for Over 3 Years on Google Cloud and Cloudflare",
-      "link": "https://cybersecuritynews.com/phishing-campaign-went-undetected-for-over-3-years/",
-      "date": "2025-09-04T03:42:47Z",
-      "description": "A sophisticated phishing operation has been running undetected for over three years across Google Cloud and Cloudflare infrastructure, impersonating major corporations including defense contractor Lockheed Martin. The campaign, which utilized advanced cloaking techniques and compromised expired domains, demonstrates a concerning failure in detection capabilities by two of the internet’s largest…",
       "source": "cybersecuritynews.com"
     },
     {
@@ -195,14 +195,14 @@
       "title": "ZDI-CAN-27969: aws-mcp-server",
       "link": "http://www.zerodayinitiative.com/advisories/upcoming/",
       "date": "2025-09-03T05:00:00Z",
-      "description": "A CVSS score 9.8 AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H severity vulnerability discovered by 'Alfredo Oliveira and David Fiser of Trend Research' was reported to the affected vendor on: 2025-09-03, 0 days ago. The vendor is given until 2026-01-01 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
+      "description": "A CVSS score 9.8 AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H severity vulnerability discovered by 'Alfredo Oliveira and David Fiser of Trend Research' was reported to the affected vendor on: 2025-09-03, 1 days ago. The vendor is given until 2026-01-01 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
       "source": "zerodayinitiative.com"
     },
     {
       "title": "ZDI-CAN-27968: aws-mcp-server",
       "link": "http://www.zerodayinitiative.com/advisories/upcoming/",
       "date": "2025-09-03T05:00:00Z",
-      "description": "A CVSS score 9.8 AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H severity vulnerability discovered by 'Alfredo Oliveira and David Fiser of Trend Research' was reported to the affected vendor on: 2025-09-03, 0 days ago. The vendor is given until 2026-01-01 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
+      "description": "A CVSS score 9.8 AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H severity vulnerability discovered by 'Alfredo Oliveira and David Fiser of Trend Research' was reported to the affected vendor on: 2025-09-03, 1 days ago. The vendor is given until 2026-01-01 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
       "source": "zerodayinitiative.com"
     },
     {
@@ -216,21 +216,21 @@
       "title": "ZDI-CAN-27920: FontForge",
       "link": "http://www.zerodayinitiative.com/advisories/upcoming/",
       "date": "2025-09-02T05:00:00Z",
-      "description": "A CVSS score 7.8 AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H severity vulnerability discovered by 'volticks (@movx64 on twitter) ' was reported to the affected vendor on: 2025-09-02, 1 days ago. The vendor is given until 2025-12-31 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
+      "description": "A CVSS score 7.8 AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H severity vulnerability discovered by 'volticks (@movx64 on twitter) ' was reported to the affected vendor on: 2025-09-02, 2 days ago. The vendor is given until 2025-12-31 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
       "source": "zerodayinitiative.com"
     },
     {
       "title": "ZDI-CAN-27863: GIMP",
       "link": "http://www.zerodayinitiative.com/advisories/upcoming/",
       "date": "2025-09-02T05:00:00Z",
-      "description": "A CVSS score 7.8 AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H severity vulnerability discovered by 'Anonymous' was reported to the affected vendor on: 2025-09-02, 1 days ago. The vendor is given until 2025-12-31 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
+      "description": "A CVSS score 7.8 AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H severity vulnerability discovered by 'Anonymous' was reported to the affected vendor on: 2025-09-02, 2 days ago. The vendor is given until 2025-12-31 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
       "source": "zerodayinitiative.com"
     },
     {
       "title": "ZDI-CAN-27803: GIMP",
       "link": "http://www.zerodayinitiative.com/advisories/upcoming/",
       "date": "2025-09-02T05:00:00Z",
-      "description": "A CVSS score 7.8 AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H severity vulnerability discovered by 'MICHAEL RANDRIANANTENAINA [https://elkamika.blogspot.com/]' was reported to the affected vendor on: 2025-09-02, 1 days ago. The vendor is given until 2025-12-31 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
+      "description": "A CVSS score 7.8 AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H severity vulnerability discovered by 'MICHAEL RANDRIANANTENAINA [https://elkamika.blogspot.com/]' was reported to the affected vendor on: 2025-09-02, 2 days ago. The vendor is given until 2025-12-31 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
       "source": "zerodayinitiative.com"
     },
     {
