@@ -1,7 +1,17 @@
 {
   "date": "2025-09-06",
-  "count": 3,
+  "count": 4,
   "items": [
+    {
+      "id": "3882a2b50bb892dbd4f8d5a95be48d8ebb9215cf",
+      "title": "Critical Argo CD API Vulnerability Exposes Repository Credentials",
+      "link": "https://cybersecuritynews.com/argo-cd-api-vulnerability/",
+      "date": "2025-09-06T10:29:08Z",
+      "description": "A critical vulnerability has been discovered in Argo CD that allows API tokens with limited permissions to access sensitive repository credentials. The flaw in the project details API endpoint exposes usernames and passwords, undermining the platform’s security model by granting access to secrets without explicit permissions. The vulnerability stems from an improper authorization check in […]…",
+      "source": "cybersecuritynews.com",
+      "first_seen": "2025-09-06T11:07:17Z",
+      "last_seen": "2025-09-06T11:07:17Z"
+    },
     {
       "id": "42b6965bfcf0c485a79007fea94f85d2cf3bdec3",
       "title": "“GPUGate” Malware Abuses Google Ads and GitHub to Deliver Advanced Malware Payload",
@@ -10,7 +20,7 @@
       "description": "A sophisticated malware campaign, dubbed “GPUGate,” abuses Google Ads and GitHub’s repository structure to trick users into downloading malicious software. The Arctic Wolf Cybersecurity Operations Center, the attack chain uses a novel technique to evade security analysis by leveraging a computer’s Graphics Processing Unit (GPU). The campaign appears to be the work of a Russian-speaking […] The…",
       "source": "cybersecuritynews.com",
       "first_seen": "2025-09-06T10:09:06Z",
-      "last_seen": "2025-09-06T10:09:06Z"
+      "last_seen": "2025-09-06T11:07:17Z"
     },
     {
       "id": "e166758c7d5156a4c0194f5b2d09e5bdb310ab58",
@@ -20,7 +30,7 @@
       "description": "A new set of four malicious packages have been discovered in the npm package registry with capabilities to steal cryptocurrency wallet credentials from Ethereum developers. \"The packages masquerade as legitimate cryptographic utilities and Flashbots MEV infrastructure while secretly exfiltrating private keys and mnemonic seeds to a Telegram bot controlled by the threat actor,\" Socket researcher",
       "source": "thehackernews.com",
       "first_seen": "2025-09-06T08:11:37Z",
-      "last_seen": "2025-09-06T10:09:06Z"
+      "last_seen": "2025-09-06T11:07:17Z"
     },
     {
       "id": "d2bf10ee1bf70cbc96d9e79c5123c00aa4cb485e",
@@ -30,7 +40,7 @@
       "description": "Penetration testing and ethical hacking have been dominated by specialized Linux distributions designed to provide security professionals with comprehensive toolsets for vulnerability assessment and network analysis. Among the most prominent options, Kali Linux and Parrot OS have emerged as leading contenders, each offering unique approaches to cybersecurity operations. This comprehensive…",
       "source": "cybersecuritynews.com",
       "first_seen": "2025-09-06T06:13:38Z",
-      "last_seen": "2025-09-06T10:09:06Z"
+      "last_seen": "2025-09-06T11:07:17Z"
     }
   ]
 }
