@@ -1,13 +1,41 @@
 {
-  "last_updated": "2025-09-08T16:11:15Z",
+  "last_updated": "2025-09-08T17:09:45Z",
   "count": 40,
   "items": [
+    {
+      "title": "Progress OpenEdge AdminServer Vulnerability Let Attackers Execute Remote Code",
+      "link": "https://cybersecuritynews.com/progress-openedge-adminserver-vulnerability/",
+      "date": "2025-09-08T17:04:31Z",
+      "description": "A critical security vulnerability has been discovered in Progress OpenEdge, a platform for developing and deploying business applications. The flaw, identified as CVE-2025-7388, allows for remote code execution (RCE) and affects multiple versions of the software, potentially enabling attackers to execute arbitrary commands with elevated system privileges. The vulnerability resides in the…",
+      "source": "cybersecuritynews.com"
+    },
+    {
+      "title": "Windows Defender Vulnerability Allows Service Hijacking and Disablement via Symbolic Link Attack",
+      "link": "https://cybersecuritynews.com/windows-defender-vulnerability/",
+      "date": "2025-09-08T16:57:23Z",
+      "description": "A severe vulnerability in Windows Defender’s update process allows attackers with administrator privileges to disable the security service and manipulate its core files. The technique, which leverages a flaw in how Defender selects its execution folder, can be carried out using tools already available on the Windows operating system. The vulnerability was detailed by Zero […] The post Windows…",
+      "source": "cybersecuritynews.com"
+    },
+    {
+      "title": "Hackers hijack npm packages with 2 billion weekly downloads in supply chain attack",
+      "link": "https://www.bleepingcomputer.com/news/security/hackers-hijack-npm-packages-with-2-billion-weekly-downloads-in-supply-chain-attack/",
+      "date": "2025-09-08T16:47:51Z",
+      "description": "In what is being called the largest supply chain attack in history, attackers have injected malware into NPM packages with over 2.6 billion weekly downloads after compromising a maintainer's account in a phishing attack. [...]",
+      "source": "bleepingcomputer.com"
+    },
     {
       "title": "Salesloft: March GitHub repo breach led to Salesforce data theft attacks",
       "link": "https://www.bleepingcomputer.com/news/security/salesloft-march-github-repo-breach-led-to-salesforce-data-theft-attacks/",
       "date": "2025-09-08T15:43:30Z",
       "description": "Salesloft says attackers first breached its GitHub account in March, leading to the theft of Drift OAuth tokens later used in widespread Salesforce data theft attacks in August. [...]",
       "source": "bleepingcomputer.com"
+    },
+    {
+      "title": "GitHub Account Compromise Led to Salesloft Drift Breach Affecting 22 Companies",
+      "link": "https://thehackernews.com/2025/09/github-account-compromise-led-to.html",
+      "date": "2025-09-08T15:26:00Z",
+      "description": "Salesloft has revealed that the data breach linked to its Drift application started with the compromise of its GitHub account. Google-owned Mandiant, which began an investigation into the incident, said the threat actor, tracked as UNC6395, accessed the Salesloft GitHub account from March through June 2025. So far, 22 companies have confirmed they were impacted by a supply chain breach. \"With",
+      "source": "thehackernews.com"
     },
     {
       "title": "Chinese Spies Impersonated US Lawmaker to Deliver Malware to Trade Groups: Report",
@@ -73,20 +101,6 @@
       "source": "securityweek.com"
     },
     {
-      "title": "Hackers Weaponize Amazon Simple Email Service to Send 50,000+ Malicious Emails Per Day",
-      "link": "https://cybersecuritynews.com/hackers-weaponizee-amazon-simple-email-service/",
-      "date": "2025-09-08T13:12:41Z",
-      "description": "A sophisticated cybercriminal campaign has emerged, exploiting Amazon’s Simple Email Service (SES) to orchestrate large-scale phishing operations capable of delivering over 50,000 malicious emails daily. The attack represents a significant evolution in cloud service abuse, transforming AWS’s legitimate bulk email platform into a weapon for credential theft and financial fraud. The campaign…",
-      "source": "cybersecuritynews.com"
-    },
-    {
-      "title": "Qualys Confirms Data Breach – Hackers Accessed Salesforce Data in Supply Chain Attack",
-      "link": "https://cybersecuritynews.com/qualys-confirms-data-breach/",
-      "date": "2025-09-08T12:58:44Z",
-      "description": "Qualys has confirmed it was impacted by a widespread supply chain attack that targeted the Salesloft Drift marketing platform, resulting in unauthorized access to a portion of its Salesforce data. The breach originated from a sophisticated cyberattack campaign targeting Salesloft Drift, a third-party Software-as-a-Service (SaaS) application used by Qualys to automate sales workflows and manage…",
-      "source": "cybersecuritynews.com"
-    },
-    {
       "title": "Salesloft GitHub Account Compromised Months Before Salesforce Attack",
       "link": "https://www.securityweek.com/salesloft-github-account-compromised-months-before-salesforce-attack/",
       "date": "2025-09-08T12:53:32Z",
@@ -143,24 +157,10 @@
       "source": "bleepingcomputer.com"
     },
     {
-      "title": "iCloud Calendar abused to send phishing emails from Apple’s servers",
-      "link": "https://www.bleepingcomputer.com/news/security/icloud-calendar-abused-to-send-phishing-emails-from-apples-servers/",
-      "date": "2025-09-07T17:10:29Z",
-      "description": "iCloud Calendar invites are being abused to send callback phishing emails disguised as purchase notifications directly from Apple's email servers, making them more likely to bypass spam filters to land in targets' inboxes. [...]",
-      "source": "bleepingcomputer.com"
-    },
-    {
       "title": "Noisy Bear Campaign Targeting Kazakhstan Energy Sector Outed as a Planned Phishing Test",
       "link": "https://thehackernews.com/2025/09/noisy-bear-targets-kazakhstan-energy.html",
       "date": "2025-09-06T15:13:00Z",
       "description": "A threat actor possibly of Russian origin has been attributed to a new set of attacks targeting the energy sector in Kazakhstan. The activity, codenamed Operation BarrelFire, is tied to a new threat group tracked by Seqrite Labs as Noisy Bear. The threat actor has been active since at least April 2025. \"The campaign is targeted towards employees of KazMunaiGas or KMG where the threat entity",
-      "source": "thehackernews.com"
-    },
-    {
-      "title": "Malicious npm Packages Impersonate Flashbots, Steal Ethereum Wallet Keys",
-      "link": "https://thehackernews.com/2025/09/malicious-npm-packages-impersonate.html",
-      "date": "2025-09-06T06:42:00Z",
-      "description": "A new set of four malicious packages have been discovered in the npm package registry with capabilities to steal cryptocurrency wallet credentials from Ethereum developers. \"The packages masquerade as legitimate cryptographic utilities and Flashbots MEV infrastructure while secretly exfiltrating private keys and mnemonic seeds to a Telegram bot controlled by the threat actor,\" Socket researcher",
       "source": "thehackernews.com"
     },
     {
