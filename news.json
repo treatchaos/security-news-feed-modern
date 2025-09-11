@@ -1,13 +1,62 @@
 {
-  "last_updated": "2025-09-11T14:10:37Z",
+  "last_updated": "2025-09-11T15:11:17Z",
   "count": 40,
   "items": [
+    {
+      "title": "New VMScape attack breaks guest-host isolation on AMD, Intel CPUs",
+      "link": "https://www.bleepingcomputer.com/news/security/new-vmscape-attack-breaks-guest-host-isolation-on-amd-intel-cpus/",
+      "date": "2025-09-11T15:05:05Z",
+      "description": "A new Spectre-like attack dubbed VMScape allows a malicious virtual machine (VM) to leak cryptographic keys from an unmodified QEMU hypervisor process running on modern AMD or Intel CPUs. [...]",
+      "source": "bleepingcomputer.com"
+    },
+    {
+      "title": "Webinar Today: Breaking AI – Inside the Art of LLM Pen Testing",
+      "link": "https://www.securityweek.com/webinar-today-breaking-ai-inside-the-art-of-llm-pen-testing/",
+      "date": "2025-09-11T15:01:53Z",
+      "description": "Join the webinar as we reveal a new model for AI pen testing – one grounded in social engineering, behavioral manipulation, and even therapeutic dialogue. The post Webinar Today: Breaking AI – Inside the Art of LLM Pen Testing appeared first on SecurityWeek.",
+      "source": "securityweek.com"
+    },
+    {
+      "title": "Lessons from Salesforce/Salesloft Drift Data Breaches – Detailed Case Study",
+      "link": "https://cybersecuritynews.com/salesloft-drift-data-breaches/",
+      "date": "2025-09-11T15:01:15Z",
+      "description": "The Salesloft Drift data breaches of August 2025 stand as one of the most significant supply chain attacks in SaaS history, demonstrating how a single compromised integration can cascade into widespread organizational exposure. This sophisticated campaign, staged by the threat actor UNC6395, exploited OAuth token vulnerabilities to access sensitive data from over 700 organizations, including […]…",
+      "source": "cybersecuritynews.com"
+    },
+    {
+      "title": "Kenyan Filmmakers Installed With FlexiSPY Spyware That Monitors Messages and Social Media",
+      "link": "https://cybersecuritynews.com/kenyan-filmmakers-installed-with-flexispy-spyware/",
+      "date": "2025-09-11T14:41:42Z",
+      "description": "Four Kenyan filmmakers became victims of sophisticated surveillance when FlexiSPY spyware was covertly installed on their devices while in police custody, according to forensic analysis conducted by the University of Toronto’s Citizen Lab. The incident occurred on or around May 21, 2025, after authorities seized the devices during arrests connected to allegations surrounding the BBC […] The post…",
+      "source": "cybersecuritynews.com"
+    },
+    {
+      "title": "New EggStreme Malware With Fileless Capabilities Leverages DLL Sideloading to Execute Payloads",
+      "link": "https://cybersecuritynews.com/new-eggstreme-malware-with-fileless-capabilities/",
+      "date": "2025-09-11T14:33:12Z",
+      "description": "A previously unknown advanced persistent threat (APT) group has unleashed a new fileless malware framework, dubbed EggStreme, in a highly targeted espionage campaign against strategic organizations. Emerging in early 2024, EggStreme exploits the legitimate Windows Mail executable (WinMail[.]exe) to sideload a malicious library, allowing attackers to achieve in-memory code execution without…",
+      "source": "cybersecuritynews.com"
+    },
+    {
+      "title": "Cisco Patches High-Severity IOS XR Vulnerabilities",
+      "link": "https://www.securityweek.com/cisco-patches-high-severity-ios-xr-vulnerabilities/",
+      "date": "2025-09-11T14:31:01Z",
+      "description": "High-severity flaws in IOS XR could lead to ISO image verification bypass and denial-of-service conditions. The post Cisco Patches High-Severity IOS XR Vulnerabilities appeared first on SecurityWeek.",
+      "source": "securityweek.com"
+    },
     {
       "title": "kkRAT Employs Network Communication Protocol to Steal Clipboard Contents",
       "link": "https://cybersecuritynews.com/kkrat-employs-network-communication-protocol/",
       "date": "2025-09-11T14:06:08Z",
       "description": "In early May 2025, cybersecurity researchers began tracking a novel Remote Access Trojan (RAT) targeting Chinese-speaking users via phishing sites hosted on GitHub Pages. Masked as legitimate installers for popular applications, the initial ZIP archives contained malicious executables engineered to bypass sandbox and virtual machine defenses. Once executed, the first-stage shellcode performs…",
       "source": "cybersecuritynews.com"
+    },
+    {
+      "title": "The Buyer’s Guide to Browser Extension Management",
+      "link": "https://www.bleepingcomputer.com/news/security/the-buyers-guide-to-browser-extension-management/",
+      "date": "2025-09-11T14:01:11Z",
+      "description": "Browser extensions boost productivity—but also open the door to hidden risks like data exfiltration and AitM attacks. Keep Aware's Buyer's Guide shows how to gain visibility, enforce policies, and block risky add-ons in real time. [...]",
+      "source": "bleepingcomputer.com"
     },
     {
       "title": "UK Train Operator LNER Warns Customers of Data Breach",
@@ -24,27 +73,6 @@
       "source": "cybersecuritynews.com"
     },
     {
-      "title": "PoisonSeed Threat Actor Registering New Domains in Attempt to Compromise Enterprise Credentials",
-      "link": "https://cybersecuritynews.com/poisonseed-threat-actor-registering-new-domains/",
-      "date": "2025-09-11T13:51:31Z",
-      "description": "In recent months, cybersecurity researchers have observed a surge in malicious domain registrations linked to an emerging e-crime group known as PoisonSeed. First identified in April 2025, this actor has focused its efforts on impersonating legitimate cloud-based email platforms, most notably SendGrid, to harvest enterprise credentials. By embedding fake Cloudflare CAPTCHA interstitials and Ray…",
-      "source": "cybersecuritynews.com"
-    },
-    {
-      "title": "CoreDNS Vulnerability Let Attackers Pin DNS Cache And Deny Service Updates",
-      "link": "https://cybersecuritynews.com/coredns-vulnerability/",
-      "date": "2025-09-11T13:46:30Z",
-      "description": "A significant vulnerability has been discovered in CoreDNS that could allow attackers to disrupt services by pinning DNS cache entries, effectively creating a denial of service for updates. The flaw, residing in the CoreDNS etcd plugin stems from a critical logic error where an etcd lease ID is misinterpreted as a Time-To-Live (TTL) value, leading […] The post CoreDNS Vulnerability Let Attackers…",
-      "source": "cybersecuritynews.com"
-    },
-    {
-      "title": "UK Train Operator LNER Passengers Data Accessed In Cyber Attack",
-      "link": "https://cybersecuritynews.com/lner-train-passengers-data/",
-      "date": "2025-09-11T13:37:55Z",
-      "description": "London North Eastern Railway (LNER) has confirmed that passenger data was accessed following a cyber attack on one of its third-party suppliers. The breach involved unauthorized access to files containing customer contact details and information related to previous journeys. LNER announced it was made aware of the security incident and is treating the matter with […] The post UK Train Operator…",
-      "source": "cybersecuritynews.com"
-    },
-    {
       "title": "Critical Chrome Vulnerability Earns Researcher $43,000",
       "link": "https://www.securityweek.com/critical-chrome-vulnerability-earns-researcher-43000/",
       "date": "2025-09-11T13:22:22Z",
@@ -56,20 +84,6 @@
       "link": "https://www.securityweek.com/akira-ransomware-attacks-fuel-uptick-in-exploitation-of-sonicwall-flaw/",
       "date": "2025-09-11T12:24:56Z",
       "description": "The Akira ransomware group is likely exploiting a combination of three attack vectors to gain unauthorized access to vulnerable appliances. The post Akira Ransomware Attacks Fuel Uptick in Exploitation of SonicWall Flaw appeared first on SecurityWeek.",
-      "source": "securityweek.com"
-    },
-    {
-      "title": "UAE’s K2 Think AI Jailbroken Through Its Own Transparency Features",
-      "link": "https://www.securityweek.com/uaes-k2-think-ai-jailbroken-through-its-own-transparency-features/",
-      "date": "2025-09-11T12:16:35Z",
-      "description": "Researchers exploited K2 Think’s built-in explainability to dismantle its safety guardrails, raising new questions about whether transparency and security in AI can truly coexist. The post UAE’s K2 Think AI Jailbroken Through Its Own Transparency Features appeared first on SecurityWeek.",
-      "source": "securityweek.com"
-    },
-    {
-      "title": "100,000 Impacted by Cornwell Quality Tools Data Breach",
-      "link": "https://www.securityweek.com/100000-impacted-by-cornwell-quality-tools-data-breach/",
-      "date": "2025-09-11T12:13:47Z",
-      "description": "The tools manufacturer was targeted in a ransomware attack claimed by the Cactus group. The post 100,000 Impacted by Cornwell Quality Tools Data Breach appeared first on SecurityWeek.",
       "source": "securityweek.com"
     },
     {
@@ -148,20 +162,6 @@
       "date": "2025-09-10T16:44:30Z",
       "description": "Chinese state-backed threat actors are suspected of posing as Michigan congressman John Moolenaar in a series of spear-phishing attacks.",
       "source": "darkreading.com"
-    },
-    {
-      "title": "Pixel 10 fights AI fakes with new Android photo verification tech",
-      "link": "https://www.bleepingcomputer.com/news/security/pixel-10-fights-ai-fakes-with-new-android-photo-verification-tech/",
-      "date": "2025-09-10T16:00:00Z",
-      "description": "Google is integrating C2PA Content Credentials into the Pixel 10 camera and Google Photos, to help users distinguish between authentic, unaltered images and those generated or edited with artificial intelligence technology. [...]",
-      "source": "bleepingcomputer.com"
-    },
-    {
-      "title": "Cursor AI editor lets repos “autorun” malicious code on devices",
-      "link": "https://www.bleepingcomputer.com/news/security/cursor-ai-editor-lets-repos-autorun-malicious-code-on-devices/",
-      "date": "2025-09-10T15:46:24Z",
-      "description": "A weakness in the Cursor code editor exposes developers to the risk of automatically executing tasks in a malicious repository as soon as it's opened. [...]",
-      "source": "bleepingcomputer.com"
     },
     {
       "title": "Chinese APT Deploys EggStreme Fileless Malware to Breach Philippine Military Systems",
