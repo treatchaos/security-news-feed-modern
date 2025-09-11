@@ -1,27 +1,55 @@
 {
-  "last_updated": "2025-09-11T13:17:32Z",
+  "last_updated": "2025-09-11T14:10:37Z",
   "count": 40,
   "items": [
     {
-      "title": "ChillyHell macOS Malware Profiles Compromised Machines and Maintain Persistence with 3 Methods",
-      "link": "https://cybersecuritynews.com/chillyhell-macos-malware-profiles-compromised-machines/",
-      "date": "2025-09-11T12:59:33Z",
-      "description": "ChillyHell first surfaced on public malware repositories in early May 2025, although its developer-signed notarization dates back to 2021. This modular backdoor has eluded detection by major antivirus vendors despite leveraging Apple’s own notarization process to appear legitimate. By masquerading as a benign macOS applet, ChillyHell gains an initial foothold on target machines before deploying…",
+      "title": "kkRAT Employs Network Communication Protocol to Steal Clipboard Contents",
+      "link": "https://cybersecuritynews.com/kkrat-employs-network-communication-protocol/",
+      "date": "2025-09-11T14:06:08Z",
+      "description": "In early May 2025, cybersecurity researchers began tracking a novel Remote Access Trojan (RAT) targeting Chinese-speaking users via phishing sites hosted on GitHub Pages. Masked as legitimate installers for popular applications, the initial ZIP archives contained malicious executables engineered to bypass sandbox and virtual machine defenses. Once executed, the first-stage shellcode performs…",
       "source": "cybersecuritynews.com"
     },
     {
-      "title": "Palo Alto Networks User-ID Credential Agent Vulnerability Exposes password In Cleartext",
-      "link": "https://cybersecuritynews.com/palo-alto-networks-user-id-credential-agent-vulnerability/",
-      "date": "2025-09-11T12:58:26Z",
-      "description": "A newly disclosed vulnerability in Palo Alto Networks’ User-ID Credential Agent for Windows, identified as CVE-2025-4235, could expose a service account’s password in cleartext under certain non-standard configurations. This flaw creates a significant security risk, as it could allow an unprivileged domain user to escalate their privileges by exploiting the compromised account’s permissions. The…",
+      "title": "UK Train Operator LNER Warns Customers of Data Breach",
+      "link": "https://www.securityweek.com/uk-train-operator-lner-warns-customers-of-data-breach/",
+      "date": "2025-09-11T13:55:55Z",
+      "description": "LNER said the security incident involved a third-party supplier and resulted in contact information and other data being compromised. The post UK Train Operator LNER Warns Customers of Data Breach appeared first on SecurityWeek.",
+      "source": "securityweek.com"
+    },
+    {
+      "title": "Cornwell Quality Tools Data Breach – 100,000 Users Data Was Compromised",
+      "link": "https://cybersecuritynews.com/cornwell-quality-tools/",
+      "date": "2025-09-11T13:55:38Z",
+      "description": "Cornwell Quality Tools has disclosed a significant data breach that compromised the sensitive information of nearly 104,000 individuals. The incident involved unauthorized access to the company’s network, resulting in the exposure of both personally identifiable information (PII) and protected health information (PHI). According to the company’s report, the security incident was first identified…",
       "source": "cybersecuritynews.com"
     },
     {
-      "title": "New Attack Technique That Enables Attackers To Exfiltrate Git Credentials In Argocd",
-      "link": "https://cybersecuritynews.com/git-credentials-argocd/",
-      "date": "2025-09-11T12:44:42Z",
-      "description": "A newly disclosed attack technique enables authenticated users within the popular GitOps tool ArgoCD to exfiltrate powerful Git credentials. The method, discovered by the cybersecurity research group Future Sight, exploits Kubernetes’ internal DNS resolution to intercept credentials in transit, posing a significant risk to organizations relying on the continuous delivery tool. ArgoCD, a leading…",
+      "title": "PoisonSeed Threat Actor Registering New Domains in Attempt to Compromise Enterprise Credentials",
+      "link": "https://cybersecuritynews.com/poisonseed-threat-actor-registering-new-domains/",
+      "date": "2025-09-11T13:51:31Z",
+      "description": "In recent months, cybersecurity researchers have observed a surge in malicious domain registrations linked to an emerging e-crime group known as PoisonSeed. First identified in April 2025, this actor has focused its efforts on impersonating legitimate cloud-based email platforms, most notably SendGrid, to harvest enterprise credentials. By embedding fake Cloudflare CAPTCHA interstitials and Ray…",
       "source": "cybersecuritynews.com"
+    },
+    {
+      "title": "CoreDNS Vulnerability Let Attackers Pin DNS Cache And Deny Service Updates",
+      "link": "https://cybersecuritynews.com/coredns-vulnerability/",
+      "date": "2025-09-11T13:46:30Z",
+      "description": "A significant vulnerability has been discovered in CoreDNS that could allow attackers to disrupt services by pinning DNS cache entries, effectively creating a denial of service for updates. The flaw, residing in the CoreDNS etcd plugin stems from a critical logic error where an etcd lease ID is misinterpreted as a Time-To-Live (TTL) value, leading […] The post CoreDNS Vulnerability Let Attackers…",
+      "source": "cybersecuritynews.com"
+    },
+    {
+      "title": "UK Train Operator LNER Passengers Data Accessed In Cyber Attack",
+      "link": "https://cybersecuritynews.com/lner-train-passengers-data/",
+      "date": "2025-09-11T13:37:55Z",
+      "description": "London North Eastern Railway (LNER) has confirmed that passenger data was accessed following a cyber attack on one of its third-party suppliers. The breach involved unauthorized access to files containing customer contact details and information related to previous journeys. LNER announced it was made aware of the security incident and is treating the matter with […] The post UK Train Operator…",
+      "source": "cybersecuritynews.com"
+    },
+    {
+      "title": "Critical Chrome Vulnerability Earns Researcher $43,000",
+      "link": "https://www.securityweek.com/critical-chrome-vulnerability-earns-researcher-43000/",
+      "date": "2025-09-11T13:22:22Z",
+      "description": "Google patched a critical use-after-free vulnerability in Chrome that could potentially lead to code execution. The post Critical Chrome Vulnerability Earns Researcher $43,000 appeared first on SecurityWeek.",
+      "source": "securityweek.com"
     },
     {
       "title": "Akira Ransomware Attacks Fuel Uptick in Exploitation of SonicWall Flaw",
@@ -57,34 +85,6 @@
       "date": "2025-09-11T12:00:00Z",
       "description": "Researchers discovered that measures designed to make AI more transparent to users and regulators can also make it easier for bad actors to abuse.",
       "source": "darkreading.com"
-    },
-    {
-      "title": "Malicious Chrome Extension Attacking Users to Steal Meta Login Credentials",
-      "link": "https://cybersecuritynews.com/malicious-chrome-extension-attacking-users/",
-      "date": "2025-09-11T11:47:27Z",
-      "description": "A novel malicious Chrome extension has been uncovered targeting digital marketers by masquerading as a productivity tool for Meta ad campaigns. Dubbed “Madgicx Plus,” this extension is distributed through a network of deceptive websites posing as legitimate AI-driven advertising platforms. Rather than optimizing ad performance, the extension leverages powerful browser permissions to hijack user…",
-      "source": "cybersecuritynews.com"
-    },
-    {
-      "title": "Senator Urges FTC Probe of Microsoft Over Security Failures",
-      "link": "https://www.securityweek.com/senator-urges-ftc-probe-of-microsoft-over-security-failures/",
-      "date": "2025-09-11T11:28:18Z",
-      "description": "Senator Ron Wyden’s complaints focus on Windows security and the Kerberoasting attack technique. The post Senator Urges FTC Probe of Microsoft Over Security Failures appeared first on SecurityWeek.",
-      "source": "securityweek.com"
-    },
-    {
-      "title": "AI Emerges as the Hope—and Risk—for Overloaded SOCs",
-      "link": "https://www.securityweek.com/ai-emerges-as-the-hope-and-risk-for-overloaded-socs/",
-      "date": "2025-09-11T11:27:46Z",
-      "description": "With security teams drowning in alerts, many suppress detection rules and accept hidden risks. AI promises relief through automation and triage—but without human oversight, it risks becoming part of the problem. The post AI Emerges as the Hope—and Risk—for Overloaded SOCs appeared first on SecurityWeek.",
-      "source": "securityweek.com"
-    },
-    {
-      "title": "Hackers Booked Very Little Profit with Widespread npm Supply Chain Attack",
-      "link": "https://cybersecuritynews.com/hackers-booked-little-profit-with-npm-supply-chain-attack/",
-      "date": "2025-09-11T11:12:40Z",
-      "description": "A sophisticated npm supply chain attack that surfaced in late August targeted thousands of downstream projects by injecting malicious payloads into popular JavaScript libraries. Initial reports pointed to a new variant of the notorious Typosquatting technique, but further analysis revealed a more elaborate campaign that leveraged compromised maintainer credentials to publish backdoored modules…",
-      "source": "cybersecuritynews.com"
     },
     {
       "title": "Cracking the Boardroom Code: Helping CISOs Speak the Language of Business",
