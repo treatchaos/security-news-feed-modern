@@ -1,7 +1,27 @@
 {
   "date": "2025-09-12",
-  "count": 7,
+  "count": 10,
   "items": [
+    {
+      "id": "b2fdde89c949337a7b0c1cb6fb83af068705809d",
+      "title": "Windows Defender Firewall Vulnerabilities Let Attackers Escalate Privileges",
+      "link": "https://cybersecuritynews.com/windows-defender-firewall-vulnerabilities/",
+      "date": "2025-09-12T08:59:16Z",
+      "description": "Microsoft has addressed four elevation of privilege vulnerabilities in its Windows Defender Firewall service, all rated as “Important” in severity. The security flaws were detailed in Microsoft’s September 9, 2025, security update release. If exploited, these vulnerabilities could allow an authenticated attacker to gain higher privileges on an affected system. The four vulnerabilities are…",
+      "source": "cybersecuritynews.com",
+      "first_seen": "2025-09-12T09:10:43Z",
+      "last_seen": "2025-09-12T09:10:43Z"
+    },
+    {
+      "id": "ac734648d674b26508b990b46ad74e4085fe70e2",
+      "title": "Payment System Vendor Took Year+ to Patch Infinite Card Top-Up Hack: Security Firm",
+      "link": "https://www.securityweek.com/payment-system-vendor-took-year-to-patch-infinite-card-top-up-hack-security-firm/",
+      "date": "2025-09-12T08:40:27Z",
+      "description": "KioSoft was notified about a serious NFC card vulnerability in 2023 and only recently claimed to have released a patch. The post Payment System Vendor Took Year+ to Patch Infinite Card Top-Up Hack: Security Firm appeared first on SecurityWeek.",
+      "source": "securityweek.com",
+      "first_seen": "2025-09-12T09:10:43Z",
+      "last_seen": "2025-09-12T09:10:43Z"
+    },
     {
       "id": "a216ff906e796598b14133d20d929ebc5a306fa8",
       "title": "Microsoft To Depreciate VBScript In Windows Warns Developers To Adapt Their Projects",
@@ -10,7 +30,17 @@
       "description": "Microsoft has officially announced a multi-phase plan to deprecate VBScript in Windows, a move that signals a significant shift for developers, particularly those working with Visual Basic for Applications (VBA). The change, first detailed in May 2024, will gradually phase out the legacy scripting language, requiring developers to adapt their projects to ensure future compatibility. […] The post…",
       "source": "cybersecuritynews.com",
       "first_seen": "2025-09-12T08:14:03Z",
-      "last_seen": "2025-09-12T08:14:03Z"
+      "last_seen": "2025-09-12T09:10:43Z"
+    },
+    {
+      "id": "67c52c4775de850cec0469b77e02f88bc767551e",
+      "title": "Cloud-Native Security in 2025: Why Runtime Visibility Must Take Center Stage",
+      "link": "https://thehackernews.com/2025/09/cloud-native-security-in-2025-why.html",
+      "date": "2025-09-12T08:00:00Z",
+      "description": "The security landscape for cloud-native applications is undergoing a profound transformation. Containers, Kubernetes, and serverless technologies are now the default for modern enterprises, accelerating delivery but also expanding the attack surface in ways traditional security models can’t keep up with. As adoption grows, so does complexity. Security teams are asked to monitor sprawling hybrid",
+      "source": "thehackernews.com",
+      "first_seen": "2025-09-12T09:10:43Z",
+      "last_seen": "2025-09-12T09:10:43Z"
     },
     {
       "id": "6ade563f1eaeb61c9c5efbe9f7eece5c72ffbde1",
@@ -20,7 +50,7 @@
       "description": "Apple has issued a warning regarding highly sophisticated “mercenary spyware” attacks targeting a select group of its users. The company’s threat notification system is designed to alert and support individuals who may have been targeted due to their profession or public profile, such as journalists, activists, politicians, and diplomats, CERT-FR said. These attacks are far […] The post Apple…",
       "source": "cybersecuritynews.com",
       "first_seen": "2025-09-12T08:14:03Z",
-      "last_seen": "2025-09-12T08:14:03Z"
+      "last_seen": "2025-09-12T09:10:43Z"
     },
     {
       "id": "e87fea02d0228436a02cd92e92320df2a71da146",
@@ -30,7 +60,7 @@
       "description": "Oracle has released VirtualBox 7.2.2, a maintenance update for its open-source virtualization platform, focusing on improving stability and addressing a range of bugs. Released on September 10, 2025, this version comes as a follow-up to the major 7.2 release, which introduced significant new features like support for Windows-on-Arm virtualization. The 7.2.2 update primarily delivers corrective…",
       "source": "cybersecuritynews.com",
       "first_seen": "2025-09-12T07:10:09Z",
-      "last_seen": "2025-09-12T08:14:03Z"
+      "last_seen": "2025-09-12T09:10:43Z"
     },
     {
       "id": "e161669767497e5af052148c59dfd8a5b4a535fe",
@@ -40,7 +70,7 @@
       "description": "A security weakness has been disclosed in the artificial intelligence (AI)-powered code editor Cursor that could trigger code execution when a maliciously crafted repository is opened using the program. The issue stems from the fact that an out-of-the-box security setting is disabled by default, opening the door for attackers to run arbitrary code on users' computers with their privileges. \"",
       "source": "thehackernews.com",
       "first_seen": "2025-09-12T05:10:13Z",
-      "last_seen": "2025-09-12T08:14:03Z"
+      "last_seen": "2025-09-12T09:10:43Z"
     },
     {
       "id": "8a35d769fd5cda48ac6452aa9ecd03b580992114",
@@ -50,7 +80,7 @@
       "description": "Microsoft is investigating a significant Exchange Online service disruption that is preventing users in North and South America from accessing their mailboxes. The ongoing incident, tracked under the ID EX1151485 in the admin center, impacts all methods of connecting to the email service. Microsoft first acknowledged the issue as affecting a portion of its infrastructure […] The post Microsoft…",
       "source": "cybersecuritynews.com",
       "first_seen": "2025-09-12T04:12:11Z",
-      "last_seen": "2025-09-12T08:14:03Z"
+      "last_seen": "2025-09-12T09:10:43Z"
     },
     {
       "id": "ec65eafaafc79818f38a51a8e8f9378c32909fa0",
@@ -70,7 +100,7 @@
       "description": "Microsoft says that it has mitigated an Exchange Online outage affecting customers worldwide, which blocked their access to emails and calendars. [...]",
       "source": "bleepingcomputer.com",
       "first_seen": "2025-09-12T08:14:03Z",
-      "last_seen": "2025-09-12T08:14:03Z"
+      "last_seen": "2025-09-12T09:10:43Z"
     }
   ]
 }
