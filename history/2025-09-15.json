@@ -1,7 +1,27 @@
 {
   "date": "2025-09-15",
-  "count": 14,
+  "count": 16,
   "items": [
+    {
+      "id": "c7159d9dd719d4b764665f9bf33482d2bdc6e765",
+      "title": "IBM QRadar SIEM Vulnerability Let Attackers Perform Unauthorized Actions",
+      "link": "https://cybersecuritynews.com/ibm-qradar-siem-vulnerability-unauthorized/",
+      "date": "2025-09-15T09:56:40Z",
+      "description": "A critical permission misconfiguration in the IBM QRadar Security Information and Event Management (SIEM) platform could allow local privileged users to manipulate configuration files without authorization. Tracked as CVE-2025-0164, the flaw stems from improper permission assignment and carries a CVSS 3.1 base score of 2.3 (AV:L/AC:L/PR:H/UI:N/S:U/C:L/I:N/A:N). Key Takeaways1. CVE-2025-0164 in…",
+      "source": "cybersecuritynews.com",
+      "first_seen": "2025-09-15T10:12:09Z",
+      "last_seen": "2025-09-15T10:12:09Z"
+    },
+    {
+      "id": "f5272c02c0ffcdcc17e81d1427a5921b2ee72e7a",
+      "title": "West Virginia Credit Union Notifying 187,000 People Impacted by 2023 Data Breach",
+      "link": "https://www.securityweek.com/west-virginia-credit-union-notifying-187000-people-impacted-by-2023-data-breach/",
+      "date": "2025-09-15T09:45:41Z",
+      "description": "Two years after the fact, Fairmont Federal Credit Union tells customers their personal, financial, and medical information was compromised. The post West Virginia Credit Union Notifying 187,000 People Impacted by 2023 Data Breach appeared first on SecurityWeek.",
+      "source": "securityweek.com",
+      "first_seen": "2025-09-15T10:12:09Z",
+      "last_seen": "2025-09-15T10:12:09Z"
+    },
     {
       "id": "edfa99076d51fe6f121fcab54111f040223f95f4",
       "title": "Great Firewall of China’s Sensitive Data of Over 500GB+ Leaked Online",
@@ -10,7 +30,7 @@
       "description": "The Great Firewall of China (GFW) suffered its largest-ever internal data breach. More than 500 GB of sensitive material—including source code, work logs, configuration files, and internal communications—was exfiltrated and published online. The breach stems from Geedge Networks and the MESA Lab at the Institute of Information Engineering, Chinese Academy of Sciences. The leaked archive […] The…",
       "source": "cybersecuritynews.com",
       "first_seen": "2025-09-15T09:12:37Z",
-      "last_seen": "2025-09-15T09:12:37Z"
+      "last_seen": "2025-09-15T10:12:09Z"
     },
     {
       "id": "6fc328719c39584f750470fe6d59db383f85c10c",
@@ -20,7 +40,7 @@
       "description": "The post Stack-Based Buffer Overflow in Squid Could Let Hackers Execute Arbitrary Code appeared first on Daily CyberSecurity.",
       "source": "securityonline.info",
       "first_seen": "2025-09-15T09:12:37Z",
-      "last_seen": "2025-09-15T09:12:37Z"
+      "last_seen": "2025-09-15T10:12:09Z"
     },
     {
       "id": "2a0dfe7d373948c0b69ad984e5ad06e20b5d5f96",
@@ -30,7 +50,7 @@
       "description": "DarkCloud Stealer has recently emerged as a potent threat targeting financial organizations through convincing phishing campaigns. Adversaries employ weaponized RAR attachments masquerading as legitimate documents to deliver a multi-stage JavaScript-based payload. Upon opening the archive, victims execute a VBE script that leverages Windows Script Host to initiate a PowerShell downloader hidden…",
       "source": "cybersecuritynews.com",
       "first_seen": "2025-09-15T09:12:37Z",
-      "last_seen": "2025-09-15T09:12:37Z"
+      "last_seen": "2025-09-15T10:12:09Z"
     },
     {
       "id": "e351c983f5b85ce55de631065d03ffbf11406a2e",
@@ -40,7 +60,7 @@
       "description": "Emerging in early September 2025, the Yurei ransomware has swiftly drawn attention for its novel combination of Go-based execution and ChaCha20 encryption. First documented on September 5 when a Sri Lankan food manufacturer fell victim, the threat actor behind Yurei adopted a double-extortion model: encrypting files while exfiltrating sensitive data for additional leverage. Within days, […] The…",
       "source": "cybersecuritynews.com",
       "first_seen": "2025-09-15T09:12:37Z",
-      "last_seen": "2025-09-15T09:12:37Z"
+      "last_seen": "2025-09-15T10:12:09Z"
     },
     {
       "id": "885bd0c1d6f5f3461dbc401b33ebdab71103d809",
@@ -50,7 +70,7 @@
       "description": "Reported by Meta and WhatsApp, the vulnerability leads to remote code execution and was likely exploited by a spyware vendor. The post Samsung Patches Zero-Day Exploited Against Android Users appeared first on SecurityWeek.",
       "source": "securityweek.com",
       "first_seen": "2025-09-15T08:15:10Z",
-      "last_seen": "2025-09-15T09:12:37Z"
+      "last_seen": "2025-09-15T10:12:09Z"
     },
     {
       "id": "0919d2546c8a9dff294d062fd969b778c05225e8",
@@ -60,7 +80,7 @@
       "description": "Ransomware continues to be one of the most destructive and pervasive cyber threats facing organizations of all sizes. In 2025, the sophistication of ransomware attacks has reached unprecedented levels, with threat actors employing advanced techniques like double extortion, supply chain attacks, and leveraging artificial intelligence to bypass traditional defenses. The cost of a ransomware attack…",
       "source": "cybersecuritynews.com",
       "first_seen": "2025-09-15T08:15:10Z",
-      "last_seen": "2025-09-15T09:12:37Z"
+      "last_seen": "2025-09-15T10:12:09Z"
     },
     {
       "id": "edac2fe7b4a481e6e50730a2eb00422ebb78152f",
@@ -100,7 +120,7 @@
       "description": "A new artificial intelligence (AI)-powered penetration testing tool linked to a China-based company has attracted nearly 11,000 downloads on the Python Package Index (PyPI) repository, raising concerns that it could be repurposed by cybercriminals for malicious purposes. Dubbed Villager, the framework is assessed to be the work of Cyberspike, which has positioned the tools as a red teaming",
       "source": "thehackernews.com",
       "first_seen": "2025-09-15T08:15:10Z",
-      "last_seen": "2025-09-15T09:12:37Z"
+      "last_seen": "2025-09-15T10:12:09Z"
     },
     {
       "id": "c443688fe381c9f2d0d56e63663095c1ae5695b9",
@@ -120,7 +140,7 @@
       "description": "Chinese-speaking users are the target of a search engine optimization (SEO) poisoning campaign that uses fake software sites to distribute malware. \"The attackers manipulated search rankings with SEO plugins and registered lookalike domains that closely mimicked legitimate software sites,\" Fortinet FortiGuard Labs researcher Pei Han Liao said. \"By using convincing language and small character",
       "source": "thehackernews.com",
       "first_seen": "2025-09-15T07:11:31Z",
-      "last_seen": "2025-09-15T09:12:37Z"
+      "last_seen": "2025-09-15T10:12:09Z"
     },
     {
       "id": "06c68da668240193a20318c1c83fb3289048f937",
