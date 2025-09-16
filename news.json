@@ -1,7 +1,77 @@
 {
-  "last_updated": "2025-09-16T11:09:02Z",
+  "last_updated": "2025-09-16T12:20:16Z",
   "count": 40,
   "items": [
+    {
+      "title": "Apple backports zero-day patches to older iPhones and iPads",
+      "link": "https://www.bleepingcomputer.com/news/security/apple-backports-zero-day-patches-to-older-iphones-and-ipads/",
+      "date": "2025-09-16T12:16:53Z",
+      "description": "​Apple has released security updates to backport patches released last month to older iPhones and iPads, addressing a zero-day bug that was exploited in \"extremely sophisticated\" attacks. [...]",
+      "source": "bleepingcomputer.com"
+    },
+    {
+      "title": "New FileFix attack uses steganography to drop StealC malware",
+      "link": "https://www.bleepingcomputer.com/news/security/new-filefix-attack-uses-steganography-to-drop-stealc-malware/",
+      "date": "2025-09-16T12:00:00Z",
+      "description": "A newly discovered FileFix social engineering attack impersonates Meta account suspension warnings to trick users into unknowingly installing the StealC infostealer malware. [...]",
+      "source": "bleepingcomputer.com"
+    },
+    {
+      "title": "WordPress Plugin Vulnerability Let Attackers Bypass Authentication via Social Login",
+      "link": "https://cybersecuritynews.com/wordpress-plugin-vulnerability-3/",
+      "date": "2025-09-16T11:57:34Z",
+      "description": "A critical authentication bypass vulnerability in the Case Theme User WordPress plugin has emerged as a significant security threat, allowing unauthenticated attackers to gain administrative access to websites by exploiting the social login functionality. The vulnerability, tracked as CVE-2025-5821 with a CVSS score of 9.8, affects all versions of the plugin up to 1.0.3 and […] The post…",
+      "source": "cybersecuritynews.com"
+    },
+    {
+      "title": "CrowdStrike npm Packages Compromised in Ongoing Supply Chain Attack",
+      "link": "https://cybersecuritynews.com/npm-supply-chain-attack-crowdstrike/",
+      "date": "2025-09-16T11:51:55Z",
+      "description": "An ongoing supply chain attack has compromised multiple npm packages published by CrowdStrike, extending a malicious campaign known as the “Shai-Halud attack.” The incident, which involves the same malware previously used to target the popular tinycolor package, highlights the persistent threat of supply chain vulnerabilities within the open-source ecosystem. The npm registry acted swiftly to…",
+      "source": "cybersecuritynews.com"
+    },
+    {
+      "title": "Threat Actors Can Weaponize MCP Servers To Harvests Sensitive Data",
+      "link": "https://cybersecuritynews.com/threat-actors-can-weaponize-mcp-servers/",
+      "date": "2025-09-16T11:32:10Z",
+      "description": "In recent months, threat actors have begun exploiting the Model Context Protocol (MCP)—a universal “plug-in bus” designed to streamline AI-assistant integrations—as a novel supply chain attack vector. MCP servers allow AI assistants and development tools to translate natural-language requests into executable commands, but this convenience comes at a steep price: unvetted MCP servers can run […]…",
+      "source": "cybersecuritynews.com"
+    },
+    {
+      "title": "Neon Cyber Emerges from Stealth, Shining a Light into the Browser",
+      "link": "https://www.securityweek.com/neon-cyber-emerges-from-stealth-shining-a-light-into-the-browser/",
+      "date": "2025-09-16T11:30:00Z",
+      "description": "Neon Cyber argues that phishing, social engineering, and insider threats demand protections that follow users into the browser, where most attacks now begin. The post Neon Cyber Emerges from Stealth, Shining a Light into the Browser appeared first on SecurityWeek.",
+      "source": "securityweek.com"
+    },
+    {
+      "title": "Rowhammer Attack Demonstrated Against DDR5",
+      "link": "https://www.securityweek.com/rowhammer-attack-demonstrated-against-ddr5/",
+      "date": "2025-09-16T11:28:37Z",
+      "description": "Researchers devise Phoenix, a new Rowhammer attack that achieves root on DDR5 systems in less than two minutes. The post Rowhammer Attack Demonstrated Against DDR5 appeared first on SecurityWeek.",
+      "source": "securityweek.com"
+    },
+    {
+      "title": "Apple Backports Fix for CVE-2025-43300 Exploited in Sophisticated Spyware Attack",
+      "link": "https://thehackernews.com/2025/09/apple-backports-fix-for-cve-2025-43300.html",
+      "date": "2025-09-16T11:06:00Z",
+      "description": "Apple on Monday backported fixes for a recently patched security flaw that has been actively exploited in the wild. The vulnerability in question is CVE-2025-43300 (CVSS score: 8.8), an out-of-bounds write issue in the ImageIO component that could result in memory corruption when processing a malicious image file. \"Apple is aware of a report that this issue may have been exploited in an",
+      "source": "thehackernews.com"
+    },
+    {
+      "title": "Webinar: Your browser is the breach — securing the modern web edge",
+      "link": "https://www.bleepingcomputer.com/news/security/webinar-your-browser-is-the-breach-securing-the-modern-web-edge/",
+      "date": "2025-09-16T11:01:08Z",
+      "description": "The web browser has quietly become one of the most critical components of enterprise infrastructure—and one of the most dangerous. Join BleepingComputer, SC Media, and Push Security on September 29 at 12:00 PM ET for a live webinar on how attackers are targeting the browser to hijack sessions, steal data, and bypass security. [...]",
+      "source": "bleepingcomputer.com"
+    },
+    {
+      "title": "Securing the Agentic Era: Introducing Astrix's AI Agent Control Plane",
+      "link": "https://thehackernews.com/2025/09/securing-agentic-era-introducing.html",
+      "date": "2025-09-16T11:00:00Z",
+      "description": "AI agents are rapidly becoming a core part of the enterprise, being embedded across enterprise workflows, operating with autonomy, and making decisions about which systems to access and how to use them. But as agents grow in power and autonomy, so do the risks and threats. Recent studies show 80% of companies have already experienced unintended AI agent actions, from unauthorized system",
+      "source": "thehackernews.com"
+    },
     {
       "title": "AWSDoor – New Persistence Technique Allows Attackers to Hide Malware Within AWS Cloud Environment",
       "link": "https://cybersecuritynews.com/awsdoor/",
@@ -10,10 +80,10 @@
       "source": "cybersecuritynews.com"
     },
     {
-      "title": "ChatGPT’s New Calendar Integration Can Be Abused to Steal Emails",
+      "title": "ChatGPT’s Calendar Integration Can Be Exploited to Steal Emails",
       "link": "https://www.securityweek.com/chatgpts-new-calendar-integration-can-be-abused-to-steal-emails/",
       "date": "2025-09-16T10:51:37Z",
-      "description": "EdisonWatch researchers demonstrated the new hack after OpenAI added support for MCP tools in ChatGPT. The post ChatGPT’s New Calendar Integration Can Be Abused to Steal Emails appeared first on SecurityWeek.",
+      "description": "Researchers show how a crafted calendar invite can trigger ChatGPT to exfiltrate sensitive emails. The post ChatGPT’s Calendar Integration Can Be Exploited to Steal Emails appeared first on SecurityWeek.",
       "source": "securityweek.com"
     },
     {
@@ -31,38 +101,10 @@
       "source": "securityweek.com"
     },
     {
-      "title": "Spring Framework Security Flaws Enable Authorization Bypass and Annotation Detection Issues",
-      "link": "https://cybersecuritynews.com/spring-framework-and-security-vulnerabilities/",
-      "date": "2025-09-16T09:43:20Z",
-      "description": "Two critical vulnerabilities, CVE-2025-41248 and CVE-2025-41249, have emerged in Spring Security and Spring Framework that could allow attackers to bypass authorization controls in enterprise applications. These flaws arise when using Spring Security’s @EnableMethodSecurity feature in conjunction with method-level annotations such as @PreAuthorize and @PostAuthorize. In applications where…",
-      "source": "cybersecuritynews.com"
-    },
-    {
-      "title": "SmokeLoader Utilizes Optional Plugins To Perform Tasks Such as Stealing Data and DoS Attacks",
-      "link": "https://cybersecuritynews.com/smokeloader-utilizes-optional-plugins/",
-      "date": "2025-09-16T09:25:19Z",
-      "description": "SmokeLoader, first seen on criminal forums in 2011, has evolved into a highly modular malware loader designed to deliver a variety of second-stage payloads, including trojans, ransomware, and credential stealers. After Operation Endgame disrupted numerous campaigns in mid-2024, the loader reemerged in early 2025 as two distinct variants: version 2025 alpha and version 2025. Both […] The post…",
-      "source": "cybersecuritynews.com"
-    },
-    {
-      "title": "AISURU Botnet With 300,000 Hijacked Routers Behind The Recent Massive 11.5 Tbps DDoS Attack",
-      "link": "https://cybersecuritynews.com/aisuru-botnet-with-300000-hijacked-routers/",
-      "date": "2025-09-16T08:56:54Z",
-      "description": "Since early 2025, the cybersecurity community has witnessed an unprecedented surge in distributed denial-of-service (DDoS) bandwidth, culminating in a record-shattering 11.5 Tbps assault attributed to a botnet named AISURU. Emerging from XLab’s continuous monitoring of global DDoS incidents, this botnet leveraged compromised router firmware to amass approximately 300,000 active devices…",
-      "source": "cybersecuritynews.com"
-    },
-    {
       "title": "Apple Rolls Out iOS 26, macOS Tahoe 26 With Patches for Over 50 Vulnerabilities",
       "link": "https://www.securityweek.com/apple-rolls-out-ios-26-macos-tahoe-26-with-patches-for-over-50-vulnerabilities/",
       "date": "2025-09-16T08:44:31Z",
       "description": "Apple has announced major mobile and desktop platform releases and addressed an exploited bug in older platforms. The post Apple Rolls Out iOS 26, macOS Tahoe 26 With Patches for Over 50 Vulnerabilities appeared first on SecurityWeek.",
-      "source": "securityweek.com"
-    },
-    {
-      "title": "Endpoint Security Firm Remedio Raises $65 Million in First Funding Round",
-      "link": "https://www.securityweek.com/endpoint-security-firm-remedio-raises-65-million-in-first-funding-round/",
-      "date": "2025-09-16T08:29:52Z",
-      "description": "The bootstrapped company will invest in an AI-powered unified enterprise platform combining configuration, compliance, patching, and vulnerability management. The post Endpoint Security Firm Remedio Raises $65 Million in First Funding Round appeared first on SecurityWeek.",
       "source": "securityweek.com"
     },
     {
@@ -85,6 +127,13 @@
       "date": "2025-09-16T00:51:22Z",
       "description": "OpenAI is rolling out the GPT-5 Codex model to all Codex instances, including Terminal, IDE extension, and Codex Web (codex.chatgpt.com). [...]",
       "source": "bleepingcomputer.com"
+    },
+    {
+      "title": "SecurityScorecard Buys AI Automation Capabilities, Boosts Vendor Risk Management",
+      "link": "https://www.darkreading.com/cyber-risk/securityscorecard-buys-ai-automation-capabilities-boosts-vendor-risk-management",
+      "date": "2025-09-15T22:09:33Z",
+      "description": "The company acquired HyperComply to help enterprises automate vendor security reviews and gain a real-time picture of the security of their entire supply chain.",
+      "source": "darkreading.com"
     },
     {
       "title": "KillSec Ransomware Hits Brazilian Healthcare Software Provider",
@@ -115,53 +164,11 @@
       "source": "thehackernews.com"
     },
     {
-      "title": "FinWise insider breach impacts 689K American First Finance customers",
-      "link": "https://www.bleepingcomputer.com/news/security/finwise-insider-breach-impacts-689k-american-first-finance-customers/",
-      "date": "2025-09-15T18:18:10Z",
-      "description": "FinWise Bank is warning on behalf of corporate customers that it suffered a data breach after a former employee accessed sensitive files after the end of their employment. [...]",
-      "source": "bleepingcomputer.com"
-    },
-    {
-      "title": "689,000 Affected by Insider Breach at FinWise Bank",
-      "link": "https://www.securityweek.com/689000-affected-by-insider-breach-at-finwise-bank/",
-      "date": "2025-09-15T18:02:21Z",
-      "description": "A former FinWise employee gained access to American First Finance customer information. The post 689,000 Affected by Insider Breach at FinWise Bank appeared first on SecurityWeek.",
-      "source": "securityweek.com"
-    },
-    {
-      "title": "New Phoenix attack bypasses Rowhammer defenses in DDR5 memory",
-      "link": "https://www.bleepingcomputer.com/news/security/new-phoenix-attack-bypasses-rowhammer-defenses-in-ddr5-memory/",
-      "date": "2025-09-15T18:01:24Z",
-      "description": "Academic researchers have devised a new variant of Rowhammer attacks that bypass the latest protection mechanisms on DDR5 memory chips from SK Hynix. [...]",
-      "source": "bleepingcomputer.com"
-    },
-    {
-      "title": "Microsoft: Exchange 2016 and 2019 reach end of support in 30 days",
-      "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-exchange-2016-and-2019-reach-end-of-support-in-30-days/",
-      "date": "2025-09-15T17:04:05Z",
-      "description": "​Microsoft has reminded administrators again that Exchange 2016 and Exchange 2019 will reach the end of extended support next month and has provided guidance for decommissioning outdated servers. [...]",
-      "source": "bleepingcomputer.com"
-    },
-    {
       "title": "Building Resilient IT Infrastructure From the Start",
       "link": "https://www.darkreading.com/vulnerabilities-threats/building-resilient-it-infrastructure",
       "date": "2025-09-15T14:00:00Z",
       "description": "CISA's Secure by Design planted a flag. Now, it's on those who care about safeguarding systems to pick up the torch and take action to secure systems throughout the enterprise.",
       "source": "darkreading.com"
-    },
-    {
-      "title": "6 Browser-Based Attacks Security Teams Need to Prepare For Right Now",
-      "link": "https://thehackernews.com/2025/09/6-browser-based-attacks-security-teams.html",
-      "date": "2025-09-15T11:55:00Z",
-      "description": "Attacks that target users in their web browsers have seen an unprecedented rise in recent years. In this article, we’ll explore what a “browser-based attack” is, and why they’re proving to be so effective. What is a browser-based attack? First, it’s important to establish what a browser-based attack is. In most scenarios, attackers don’t think of themselves as attacking your web browser.",
-      "source": "thehackernews.com"
-    },
-    {
-      "title": "⚡ Weekly Recap: Bootkit Malware, AI-Powered Attacks, Supply Chain Breaches, Zero-Days & More",
-      "link": "https://thehackernews.com/2025/09/weekly-recap-bootkit-malware-ai-powered.html",
-      "date": "2025-09-15T11:22:00Z",
-      "description": "In a world where threats are persistent, the modern CISO’s real job isn't just to secure technology—it's to preserve institutional trust and ensure business continuity. This week, we saw a clear pattern: adversaries are targeting the complex relationships that hold businesses together, from supply chains to strategic partnerships. With new regulations and the rise of AI-driven attacks, the",
-      "source": "thehackernews.com"
     },
     {
       "title": "'Lies-in-the-Loop' Attack Defeats AI Coding Agents",
@@ -176,13 +183,6 @@
       "date": "2025-09-15T09:00:15Z",
       "description": "The post Stack-Based Buffer Overflow in Squid Could Let Hackers Execute Arbitrary Code appeared first on Daily CyberSecurity.",
       "source": "securityonline.info"
-    },
-    {
-      "title": "French Advisory Sheds Light on Apple Spyware Activity",
-      "link": "https://www.darkreading.com/vulnerabilities-threats/french-sheds-light-apple-spyware-activity",
-      "date": "2025-09-12T19:28:23Z",
-      "description": "CERT-FR's advisory follows last month's disclosure of a zero-day flaw Apple said was used in \"sophisticated\" attacks against targeted individuals.",
-      "source": "darkreading.com"
     },
     {
       "title": "ZDI-CAN-27900: Autodesk",
