@@ -1,7 +1,14 @@
 {
-  "last_updated": "2025-09-17T10:10:50Z",
+  "last_updated": "2025-09-17T11:09:09Z",
   "count": 40,
   "items": [
+    {
+      "title": "Critical Chaos Mesh Vulnerabilities Let Attackers Takeover Kubernetes Cluster",
+      "link": "https://cybersecuritynews.com/chaos-mesh-vulnerabilities/",
+      "date": "2025-09-17T10:16:33Z",
+      "description": "Critical vulnerabilities were identified in Chaos Mesh, a popular Cloud Native Computing Foundation chaos engineering platform used for fault injection testing in Kubernetes environments. The security flaws, collectively dubbed “Chaotic Deputy,” comprise four CVEs that enable complete cluster compromise through relatively simple exploitation techniques. Key Takeaways1. “Chaotic Deputy” in Chaos…",
+      "source": "cybersecuritynews.com"
+    },
     {
       "title": "Kubernetes C# Client Vulnerability Exposes API Server Communication To MiTM Attack",
       "link": "https://cybersecuritynews.com/kubernetes-c-client-vulnerability-exposes/",
@@ -49,13 +56,6 @@
       "link": "https://cybersecuritynews.com/linux-kernels-ksmbd-subsystem-vulnerability/",
       "date": "2025-09-17T07:40:20Z",
       "description": "A denial-of-service flaw in the Linux kernel’s KSMBD (SMB Direct) subsystem has raised alarms across the open-source community. Tracked as CVE-2025-38501, the issue allows a remote, unauthenticated adversary to exhaust all available SMB connections by exploiting the kernel’s handling of half-open TCP sessions. Key Takeaways1. CVE-2025-38501 lets attackers exhaust KSMBD connections via half-open…",
-      "source": "cybersecuritynews.com"
-    },
-    {
-      "title": "Massive “Shai-Halud” Supply Chain Attack Compromised 477 NPM Packages",
-      "link": "https://cybersecuritynews.com/shai-halud-supply-chain-attack/",
-      "date": "2025-09-17T07:34:09Z",
-      "description": "A large-scale supply chain attack dubbed “Shai-Halud” that infiltrated the JavaScript ecosystem via the npm registry. In total, 477 packages, including packages from CrowdStrike, were found to contain stealthy backdoors and trojanized modules designed to siphon credentials, exfiltrate source code, and enable remote code execution (RCE) on developer machines. Key Takeaways1. Obfuscated backdoors…",
       "source": "cybersecuritynews.com"
     },
     {
