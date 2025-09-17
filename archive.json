@@ -1,8 +1,28 @@
 {
-  "last_updated": "2025-09-17T09:11:27Z",
+  "last_updated": "2025-09-17T10:10:50Z",
   "retention_days": 90,
-  "count": 1505,
+  "count": 1508,
   "items": [
+    {
+      "id": "a22797a6b3b8c2114c3ce5834e63644590889fc0",
+      "title": "Kubernetes C# Client Vulnerability Exposes API Server Communication To MiTM Attack",
+      "link": "https://cybersecuritynews.com/kubernetes-c-client-vulnerability-exposes/",
+      "date": "2025-09-17T10:07:03Z",
+      "description": "A medium-severity vulnerability has been discovered in the official Kubernetes C# client, which could allow an attacker to intercept and manipulate sensitive communications. The flaw, rated 6.8 on the CVSS scale, stems from improper certificate validation logic. This weakness exposes applications using the client to Man-in-the-Middle (MiTM) attacks, potentially leading to the compromise of…",
+      "source": "cybersecuritynews.com",
+      "first_seen": "2025-09-17T10:10:50Z",
+      "last_seen": "2025-09-17T10:10:50Z"
+    },
+    {
+      "id": "5b52d1f6df10714074a6696981d2942a377ea811",
+      "title": "World’s Largest Hacking Forum BreachForums Creator Sentenced to Three Years in Prison",
+      "link": "https://cybersecuritynews.com/breachforums-creator-sentenced/",
+      "date": "2025-09-17T09:57:36Z",
+      "description": "Conor Brian Fitzpatrick, the 22-year-old founder of BreachForums, has been resentenced to three years in federal prison for operating one of the world’s largest cybercriminal marketplaces. The New York resident was sentenced on September 16, 2025, for creating and administering a platform that facilitated the sale of stolen data and harbored child sexual abuse material […] The post World’s…",
+      "source": "cybersecuritynews.com",
+      "first_seen": "2025-09-17T10:10:50Z",
+      "last_seen": "2025-09-17T10:10:50Z"
+    },
     {
       "id": "c149581cd2193603ea805899b4c4c79c9a886259",
       "title": "Shai-Hulud Supply Chain Attack: Worm Used to Steal Secrets, 180+ NPM Packages Hit",
@@ -11,7 +31,17 @@
       "description": "The packages were injected with malicious code to harvest secrets, dump them to a public repository, and make private repositories public. The post Shai-Hulud Supply Chain Attack: Worm Used to Steal Secrets, 180+ NPM Packages Hit appeared first on SecurityWeek.",
       "source": "securityweek.com",
       "first_seen": "2025-09-17T09:11:27Z",
-      "last_seen": "2025-09-17T09:11:27Z"
+      "last_seen": "2025-09-17T10:10:50Z"
+    },
+    {
+      "id": "22e0bc79ba9e95ee100f3ac513273bae3f9ec20d",
+      "title": "Scattered Spider Resurfaces With Financial Sector Attacks Despite Retirement Claims",
+      "link": "https://thehackernews.com/2025/09/scattered-spider-resurfaces-with.html",
+      "date": "2025-09-17T08:49:00Z",
+      "description": "Cybersecurity researchers have tied a fresh round of cyber attacks targeting financial services to the notorious cybercrime group known as Scattered Spider, casting doubt on their claims of going \"dark.\" Threat intelligence firm ReliaQuest said it has observed indications that the threat actor has shifted their focus to the financial sector. This is supported by an increase in lookalike domains",
+      "source": "thehackernews.com",
+      "first_seen": "2025-09-17T10:10:50Z",
+      "last_seen": "2025-09-17T10:10:50Z"
     },
     {
       "id": "6f780cdd9b3d06716971a9dc7e45be643c57aec2",
@@ -21,7 +51,7 @@
       "description": "Microsoft and Cloudflare have teamed up to take down the infrastructure used by RaccoonO365. The post RaccoonO365 Phishing Service Disrupted, Leader Identified appeared first on SecurityWeek.",
       "source": "securityweek.com",
       "first_seen": "2025-09-17T09:11:27Z",
-      "last_seen": "2025-09-17T09:11:27Z"
+      "last_seen": "2025-09-17T10:10:50Z"
     },
     {
       "id": "a3c4d677eb3e2ce5c37f75dfbd27cf0b513ff8d1",
@@ -31,7 +61,7 @@
       "description": "A threat actor who gained initial access through a SonicWall VPN device was able to escalate their attack by finding Huntress recovery codes saved in a plaintext file on a user’s desktop. This allowed the attacker to log into the client’s security portal, where they attempted to remediate incident reports and uninstall security agents to […] The post How a Plaintext File On Users’ Desktops…",
       "source": "cybersecuritynews.com",
       "first_seen": "2025-09-17T09:11:27Z",
-      "last_seen": "2025-09-17T09:11:27Z"
+      "last_seen": "2025-09-17T10:10:50Z"
     },
     {
       "id": "501313463c51a6dbdd3939226fe600594c95dc77",
@@ -41,7 +71,7 @@
       "description": "A denial-of-service flaw in the Linux kernel’s KSMBD (SMB Direct) subsystem has raised alarms across the open-source community. Tracked as CVE-2025-38501, the issue allows a remote, unauthenticated adversary to exhaust all available SMB connections by exploiting the kernel’s handling of half-open TCP sessions. Key Takeaways1. CVE-2025-38501 lets attackers exhaust KSMBD connections via half-open…",
       "source": "cybersecuritynews.com",
       "first_seen": "2025-09-17T08:14:19Z",
-      "last_seen": "2025-09-17T09:11:27Z"
+      "last_seen": "2025-09-17T10:10:50Z"
     },
     {
       "id": "6a193c70a289aecb42dd7d3f9f2793d2026ed71b",
@@ -51,7 +81,7 @@
       "description": "A large-scale supply chain attack dubbed “Shai-Halud” that infiltrated the JavaScript ecosystem via the npm registry. In total, 477 packages, including packages from CrowdStrike, were found to contain stealthy backdoors and trojanized modules designed to siphon credentials, exfiltrate source code, and enable remote code execution (RCE) on developer machines. Key Takeaways1. Obfuscated backdoors…",
       "source": "cybersecuritynews.com",
       "first_seen": "2025-09-17T08:14:19Z",
-      "last_seen": "2025-09-17T09:11:27Z"
+      "last_seen": "2025-09-17T10:10:50Z"
     },
     {
       "id": "13c76f03eb55b72b86701def071200a0b7d877c2",
@@ -81,7 +111,7 @@
       "description": "The U.S. Department of Justice (DoJ) on Tuesday resentenced the former administrator of BreachForums to three years in prison in connection with his role in running the cybercrime forum and possessing child sexual abuse material (CSAM). Conor Brian Fitzpatrick (aka Pompompurin), 22, of Peekskill, New York, pleaded guilty to one count of access device conspiracy, one count of access device",
       "source": "thehackernews.com",
       "first_seen": "2025-09-17T07:10:19Z",
-      "last_seen": "2025-09-17T09:11:27Z"
+      "last_seen": "2025-09-17T10:10:50Z"
     },
     {
       "id": "804e483a638a2f6a4b07d6963bd486713ff802e2",
@@ -101,7 +131,7 @@
       "description": "Microsoft's Digital Crimes Unit said it teamed up with Cloudflare to coordinate the seizure of 338 domains used by RaccoonO365, a financially motivated threat group that was behind a phishing-as-a-service (Phaas) toolkit used to steal more than 5,000 Microsoft 365 credentials from 94 countries since July 2024. \"Using a court order granted by the Southern District of New York, the DCU seized 338",
       "source": "thehackernews.com",
       "first_seen": "2025-09-17T07:10:19Z",
-      "last_seen": "2025-09-17T09:11:27Z"
+      "last_seen": "2025-09-17T10:10:50Z"
     },
     {
       "id": "929112691a56d8d8557e4f99da26ac602d3469c0",
@@ -111,7 +141,7 @@
       "description": "The North Korea-linked group Kimsuky used ChatGPT to create deepfakes of military ID documents in an attempt to compromise South Korean targets.",
       "source": "darkreading.com",
       "first_seen": "2025-09-17T00:47:06Z",
-      "last_seen": "2025-09-17T09:11:27Z"
+      "last_seen": "2025-09-17T10:10:50Z"
     },
     {
       "id": "3f695157a596aae8409bb0d7d8c1eb1944e0e4d9",
@@ -121,7 +151,7 @@
       "description": "Acquisition extends CrowdStrike’s Falcon platform into AI security, introducing AI Detection and Response (AIDR) to protect enterprise models, agents, and applications across the full AI lifecycle. The post CrowdStrike to Acquire Pangea to Launch AI Detection and Response (AIDR) appeared first on SecurityWeek.",
       "source": "securityweek.com",
       "first_seen": "2025-09-16T23:07:42Z",
-      "last_seen": "2025-09-17T09:11:27Z"
+      "last_seen": "2025-09-17T10:10:50Z"
     },
     {
       "id": "5d2ab4b27d7a58f02f44e111af38ff0da6939c00",
@@ -131,7 +161,7 @@
       "description": "Conor Brian Fitzpatrick, the 22-year-old behind the notorious BreachForums hacking forum, was resentenced today to three years in prison after a federal appeals court overturned his prior sentence of time served and 20 years of supervised release. [...]",
       "source": "bleepingcomputer.com",
       "first_seen": "2025-09-16T22:09:09Z",
-      "last_seen": "2025-09-17T09:11:27Z"
+      "last_seen": "2025-09-17T10:10:50Z"
     },
     {
       "id": "09cabd45d0efe6bbfc16998bfd4a9101dac7a5ae",
@@ -141,7 +171,7 @@
       "description": "A data security platform based on action is what the industry needs right now to protect enterprise data.",
       "source": "darkreading.com",
       "first_seen": "2025-09-17T05:10:27Z",
-      "last_seen": "2025-09-17T09:11:27Z"
+      "last_seen": "2025-09-17T10:10:50Z"
     },
     {
       "id": "32ffeb938ab1ce6d58e37b2e7103b4a47e85946b",
@@ -151,7 +181,7 @@
       "description": "\"Chaotic Deputy\" is a set of four vulnerabilities in the chaos engineering platform that many organizations use to test the resilience of their Kubernetes environments.",
       "source": "darkreading.com",
       "first_seen": "2025-09-16T21:09:08Z",
-      "last_seen": "2025-09-17T09:11:27Z"
+      "last_seen": "2025-09-17T10:10:50Z"
     },
     {
       "id": "4dd8281edc4488632dd161b0c8bd735dd31689c8",
@@ -161,7 +191,7 @@
       "description": "The newly emerged worm has spread across hundreds of open source software packages, stealing credentials and infecting other components without much direct attacker input.",
       "source": "darkreading.com",
       "first_seen": "2025-09-16T21:09:08Z",
-      "last_seen": "2025-09-17T09:11:27Z"
+      "last_seen": "2025-09-17T10:10:50Z"
     },
     {
       "id": "b90450ec2a337592827aa6a3298cad45371a60a7",
@@ -171,7 +201,7 @@
       "description": "Researchers say the commercial adtech platform and several other companies form the infrastructure of a massive cybercrime operation.",
       "source": "darkreading.com",
       "first_seen": "2025-09-16T20:11:33Z",
-      "last_seen": "2025-09-17T09:11:27Z"
+      "last_seen": "2025-09-17T10:10:50Z"
     },
     {
       "id": "b94c3069018857dd60426531a2580fdbc2f26996",
@@ -181,7 +211,7 @@
       "description": "Move highlights rising demand for AI-native security as enterprises face new risks from generative models and autonomous agents The post Check Point to Acquire AI Security Firm Lakera appeared first on SecurityWeek.",
       "source": "securityweek.com",
       "first_seen": "2025-09-16T19:08:13Z",
-      "last_seen": "2025-09-17T09:11:27Z"
+      "last_seen": "2025-09-17T10:10:50Z"
     },
     {
       "id": "1651724c566a7402e2c380122261c1a3eaa512c4",
@@ -201,7 +231,7 @@
       "description": "​Microsoft is rolling out Copilot Chat to Word, Excel, PowerPoint, Outlook, and OneNote for paying Microsoft 365 business customers. [...]",
       "source": "bleepingcomputer.com",
       "first_seen": "2025-09-16T18:15:36Z",
-      "last_seen": "2025-09-17T09:11:27Z"
+      "last_seen": "2025-09-17T10:10:50Z"
     },
     {
       "id": "60078758387014148c38a235ff003ab0cecc790a",
@@ -211,7 +241,7 @@
       "description": "A massive Android ad fraud operation dubbed \"SlopAds\" was disrupted after 224 malicious applications on Google Play were used to generate 2.3 billion ad requests per day. [...]",
       "source": "bleepingcomputer.com",
       "first_seen": "2025-09-16T18:15:36Z",
-      "last_seen": "2025-09-17T09:11:27Z"
+      "last_seen": "2025-09-17T10:10:50Z"
     },
     {
       "id": "0acd1771076cefbb1783ba7a6192010517bf5e29",
@@ -231,7 +261,7 @@
       "description": "Security researchers have identified at least 187 npm packages compromised in an ongoing supply chain attack. The coordinated worm-style campaign dubbed 'Shai-Hulud' started yesterday with the compromise of the @ctrl/tinycolor npm package, and has now expanded to CrowdStrike's npm namespace. [...]",
       "source": "bleepingcomputer.com",
       "first_seen": "2025-09-16T17:09:28Z",
-      "last_seen": "2025-09-17T09:11:27Z"
+      "last_seen": "2025-09-17T10:10:50Z"
     },
     {
       "id": "3c99142910d7bbbcab90c58e14dbf624c4e0d7f5",
@@ -241,7 +271,7 @@
       "description": "Cybersecurity researchers have disclosed multiple critical security vulnerabilities in Chaos Mesh that, if successfully exploited, could lead to cluster takeover in Kubernetes environments. \"Attackers need only minimal in-cluster network access to exploit these vulnerabilities, execute the platform's fault injections (such as shutting down pods or disrupting network communications), and perform",
       "source": "thehackernews.com",
       "first_seen": "2025-09-16T18:15:36Z",
-      "last_seen": "2025-09-17T09:11:27Z"
+      "last_seen": "2025-09-17T10:10:50Z"
     },
     {
       "id": "179e0593d94e83924735cf479b4f40e6fd8a68ff",
@@ -251,7 +281,7 @@
       "description": "Microsoft has announced that the Windows Management Instrumentation Command-line (WMIC) tool will be removed after upgrading to Windows 11 25H2 and later. [...]",
       "source": "bleepingcomputer.com",
       "first_seen": "2025-09-16T16:13:05Z",
-      "last_seen": "2025-09-17T09:11:27Z"
+      "last_seen": "2025-09-17T10:10:50Z"
     },
     {
       "id": "7214bf531a199b440fe6f8174796c3aef168efe4",
@@ -281,7 +311,7 @@
       "description": "A massive ad fraud and click fraud operation dubbed SlopAds ran a cluster of 224 apps, collectively attracting 38 million downloads across 228 countries and territories. \"These apps deliver their fraud payload using steganography and create hidden WebViews to navigate to threat actor-owned cashout sites, generating fraudulent ad impressions and clicks,\" HUMAN’s Satori Threat Intelligence and",
       "source": "thehackernews.com",
       "first_seen": "2025-09-16T15:11:22Z",
-      "last_seen": "2025-09-17T09:11:27Z"
+      "last_seen": "2025-09-17T10:10:50Z"
     },
     {
       "id": "e2b4c8f7c34b37c9899ba88ca9a51a7357c092d4",
@@ -301,7 +331,7 @@
       "description": "Vega provides security analytics and operations solutions designed to help organizations detect and respond to threats. The post Security Analytics Firm Vega Emerges From Stealth With $65M in Funding appeared first on SecurityWeek.",
       "source": "securityweek.com",
       "first_seen": "2025-09-16T14:11:32Z",
-      "last_seen": "2025-09-17T09:11:27Z"
+      "last_seen": "2025-09-17T10:10:50Z"
     },
     {
       "id": "ef4c8ff920a1569c335bfc604d275e561d284e77",
@@ -701,7 +731,7 @@
       "description": "A CVSS score 7.3 AV:L/AC:L/PR:L/UI:R/S:U/C:H/I:H/A:H severity vulnerability discovered by 'Kolja Grassmann (Neodyme AG)' was reported to the affected vendor on: 2025-09-16, 0 days ago. The vendor is given until 2026-01-14 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
       "source": "zerodayinitiative.com",
       "first_seen": "2025-09-17T04:13:14Z",
-      "last_seen": "2025-09-17T09:11:27Z"
+      "last_seen": "2025-09-17T10:10:50Z"
     },
     {
       "id": "ba26977256c41e9fec9e0731b74cee4e8afdce4d",
@@ -711,7 +741,7 @@
       "description": "A CVSS score 7.8 AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H severity vulnerability discovered by 'Mat Powell of Trend Zero Day Initiative' was reported to the affected vendor on: 2025-09-16, 0 days ago. The vendor is given until 2026-01-14 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
       "source": "zerodayinitiative.com",
       "first_seen": "2025-09-17T04:13:14Z",
-      "last_seen": "2025-09-17T09:11:27Z"
+      "last_seen": "2025-09-17T10:10:50Z"
     },
     {
       "id": "814da7fa03cd91ebaa1494d5f35f3a2d187d2911",
@@ -721,7 +751,7 @@
       "description": "A CVSS score 7.8 AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H severity vulnerability discovered by 'Mat Powell of Trend Zero Day Initiative' was reported to the affected vendor on: 2025-09-16, 0 days ago. The vendor is given until 2026-01-14 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
       "source": "zerodayinitiative.com",
       "first_seen": "2025-09-17T04:13:14Z",
-      "last_seen": "2025-09-17T09:11:27Z"
+      "last_seen": "2025-09-17T10:10:50Z"
     },
     {
       "id": "4cf5d888106942da6fff97bbfa9bcd25e67ea9fc",
@@ -731,7 +761,7 @@
       "description": "A CVSS score 7.8 AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H severity vulnerability discovered by 'Mat Powell of Trend Zero Day Initiative' was reported to the affected vendor on: 2025-09-16, 0 days ago. The vendor is given until 2026-01-14 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
       "source": "zerodayinitiative.com",
       "first_seen": "2025-09-17T04:13:14Z",
-      "last_seen": "2025-09-17T09:11:27Z"
+      "last_seen": "2025-09-17T10:10:50Z"
     },
     {
       "id": "f4d5fbef7c2ec675740a3070ec3107e23c1c7efe",
@@ -741,7 +771,7 @@
       "description": "A CVSS score 7.8 AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H severity vulnerability discovered by 'Mat Powell of Trend Zero Day Initiative' was reported to the affected vendor on: 2025-09-16, 0 days ago. The vendor is given until 2026-01-14 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
       "source": "zerodayinitiative.com",
       "first_seen": "2025-09-17T04:13:14Z",
-      "last_seen": "2025-09-17T09:11:27Z"
+      "last_seen": "2025-09-17T10:10:50Z"
     },
     {
       "id": "018067cacb962427d15dd5b019dae991adbb5fbb",
@@ -1191,7 +1221,7 @@
       "description": "The post Stack-Based Buffer Overflow in Squid Could Let Hackers Execute Arbitrary Code appeared first on Daily CyberSecurity.",
       "source": "securityonline.info",
       "first_seen": "2025-09-15T09:12:37Z",
-      "last_seen": "2025-09-17T09:11:27Z"
+      "last_seen": "2025-09-17T10:10:50Z"
     },
     {
       "id": "2a0dfe7d373948c0b69ad984e5ad06e20b5d5f96",
@@ -3081,7 +3111,7 @@
       "description": "The post PoC Released: Django SQL Injection Flaw with Technical Details appeared first on Daily CyberSecurity.",
       "source": "securityonline.info",
       "first_seen": "2025-09-10T04:11:58Z",
-      "last_seen": "2025-09-17T09:11:27Z"
+      "last_seen": "2025-09-17T10:10:50Z"
     },
     {
       "id": "bb45c1c6922be1a0e959bb78257055a040a2cc26",
@@ -3801,7 +3831,7 @@
       "description": "The post CVSS 9.8 Flaw in macOS Allows Apps to Access Protected User Data, PoC Available appeared first on Daily CyberSecurity.",
       "source": "securityonline.info",
       "first_seen": "2025-09-09T00:48:55Z",
-      "last_seen": "2025-09-17T09:11:27Z"
+      "last_seen": "2025-09-17T10:10:50Z"
     },
     {
       "id": "84ea86e3c17b1699da885056024021f6113c5da4",
@@ -4241,7 +4271,7 @@
       "description": "The post PgAdmin Flaw Exposes Accounts to OAuth Hijacking Attacks appeared first on Daily CyberSecurity.",
       "source": "securityonline.info",
       "first_seen": "2025-09-08T04:13:22Z",
-      "last_seen": "2025-09-17T09:11:27Z"
+      "last_seen": "2025-09-17T10:10:50Z"
     },
     {
       "id": "096977c73e3b046ba8240c2770dfbebf322aacff",
@@ -4881,7 +4911,7 @@
       "description": "The post PoC Available: macOS Sequoia Flaw Allows Keychain Dump and TCC Bypass (CVSS 9.8) appeared first on Daily CyberSecurity.",
       "source": "securityonline.info",
       "first_seen": "2025-09-05T03:24:39Z",
-      "last_seen": "2025-09-17T09:11:27Z"
+      "last_seen": "2025-09-17T10:10:50Z"
     },
     {
       "id": "264a257a4aedb134299588e6527495cf60cb8574",
@@ -15011,7 +15041,7 @@
       "description": "2.5 million people were affected, in a breach that could spell more trouble down the line.",
       "source": "threatpost.com",
       "first_seen": "2025-08-13T09:11:28Z",
-      "last_seen": "2025-09-17T09:11:27Z"
+      "last_seen": "2025-09-17T10:10:50Z"
     },
     {
       "id": "4140c7a34b0ba94ad2e6b0cae9f59b0cb9bfffea",
@@ -15021,7 +15051,7 @@
       "description": "Researchers uncover a watering hole attack likely carried out by APT TA423, which attempts to plant the ScanBox JavaScript-based reconnaissance tool.",
       "source": "threatpost.com",
       "first_seen": "2025-08-13T09:11:28Z",
-      "last_seen": "2025-09-17T09:11:27Z"
+      "last_seen": "2025-09-17T10:10:50Z"
     },
     {
       "id": "9359ee40a641a4b565080313045f1d7e7fe6552b",
@@ -15031,7 +15061,7 @@
       "description": "Over 130 companies tangled in sprawling phishing campaign that spoofed a multi-factor authentication system.",
       "source": "threatpost.com",
       "first_seen": "2025-08-13T09:11:28Z",
-      "last_seen": "2025-09-17T09:11:27Z"
+      "last_seen": "2025-09-17T10:10:50Z"
     },
     {
       "id": "b4ccef0737cd4050d65241bf754072030b6b5e6a",
@@ -15041,7 +15071,7 @@
       "description": "Lockbit is by far this summer’s most prolific ransomware group, trailed by two offshoots of the Conti group.",
       "source": "threatpost.com",
       "first_seen": "2025-08-13T09:11:28Z",
-      "last_seen": "2025-09-17T09:11:27Z"
+      "last_seen": "2025-09-17T10:10:50Z"
     },
     {
       "id": "12ee113fc8fce91f6d7fb28deab2b1ad20061ec7",
@@ -15051,7 +15081,7 @@
       "description": "Tens of thousands of cameras have failed to patch a critical, 11-month-old CVE, leaving thousands of organizations exposed.",
       "source": "threatpost.com",
       "first_seen": "2025-08-13T09:11:28Z",
-      "last_seen": "2025-09-17T09:11:27Z"
+      "last_seen": "2025-09-17T10:10:50Z"
     }
   ]
 }
