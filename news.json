@@ -1,7 +1,21 @@
 {
-  "last_updated": "2025-09-17T07:10:19Z",
+  "last_updated": "2025-09-17T08:14:19Z",
   "count": 40,
   "items": [
+    {
+      "title": "Linux Kernel’s KSMBD Subsystem Vulnerability Let Remote Attackers Exhaust Server Resources",
+      "link": "https://cybersecuritynews.com/linux-kernels-ksmbd-subsystem-vulnerability/",
+      "date": "2025-09-17T07:40:20Z",
+      "description": "A denial-of-service flaw in the Linux kernel’s KSMBD (SMB Direct) subsystem has raised alarms across the open-source community. Tracked as CVE-2025-38501, the issue allows a remote, unauthenticated adversary to exhaust all available SMB connections by exploiting the kernel’s handling of half-open TCP sessions. Key Takeaways1. CVE-2025-38501 lets attackers exhaust KSMBD connections via half-open…",
+      "source": "cybersecuritynews.com"
+    },
+    {
+      "title": "Massive “Shai-Halud” Supply Chain Attack Compromised 477 NPM Packages",
+      "link": "https://cybersecuritynews.com/shai-halud-supply-chain-attack/",
+      "date": "2025-09-17T07:34:09Z",
+      "description": "A large-scale supply chain attack dubbed “Shai-Halud” that infiltrated the JavaScript ecosystem via the npm registry. In total, 477 packages, including packages from CrowdStrike, were found to contain stealthy backdoors and trojanized modules designed to siphon credentials, exfiltrate source code, and enable remote code execution (RCE) on developer machines. Key Takeaways1. Obfuscated backdoors…",
+      "source": "cybersecuritynews.com"
+    },
     {
       "title": "FinWise Insider Breach Exposes 700K Customer Records to Former Employee",
       "link": "https://cybersecuritynews.com/finwise-insider-breach/",
@@ -108,13 +122,6 @@
       "source": "bleepingcomputer.com"
     },
     {
-      "title": "Hackers Stolen Millions of Users Personal Data from Gucci, Balenciaga and Alexander McQueen Stores",
-      "link": "https://cybersecuritynews.com/gucci-balenciaga-alexander-mcqueen-data-leak/",
-      "date": "2025-09-16T17:16:50Z",
-      "description": "Luxury fashion company Kering has confirmed a data exfiltration incident in which threat actor Shiny Hunters accessed private customer records for Gucci, Balenciaga, and Alexander McQueen. The breach, detected in June but occurring in April, exposed personally identifiable information (PII) for an estimated 7.4 million unique email addresses. Key Takeaways1. PII and spend data of […] The post…",
-      "source": "cybersecuritynews.com"
-    },
-    {
       "title": "Self-propagating supply chain attack hits 187 npm packages",
       "link": "https://www.bleepingcomputer.com/news/security/self-propagating-supply-chain-attack-hits-187-npm-packages/",
       "date": "2025-09-16T16:46:43Z",
@@ -134,13 +141,6 @@
       "date": "2025-09-16T15:58:59Z",
       "description": "Microsoft has announced that the Windows Management Instrumentation Command-line (WMIC) tool will be removed after upgrading to Windows 11 25H2 and later. [...]",
       "source": "bleepingcomputer.com"
-    },
-    {
-      "title": "Seraphic Browser-Native Protection Now Available for Purchase on the CrowdStrike Marketplace",
-      "link": "https://cybersecuritynews.com/seraphic-browser-native-protection-now-available-for-purchase-on-the-crowdstrike-marketplace/",
-      "date": "2025-09-16T15:45:29Z",
-      "description": "Las Vegas, United States, September 16th, 2025, CyberNewsWire Seraphic today announced at Fal.Con 2025 that its Secure Enterprise Browser (SEB) solution is now available for purchase in the CrowdStrike Marketplace, a one-stop destination for the world-class ecosystem of CrowdStrike-compatible security products. This availability enables customers to discover, buy, and implement Seraphic’s…",
-      "source": "cybersecuritynews.com"
     },
     {
       "title": "SlopAds Fraud Ring Exploits 224 Android Apps to Drive 2.3 Billion Daily Ad Bids",
