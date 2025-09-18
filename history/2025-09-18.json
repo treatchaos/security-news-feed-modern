@@ -1,7 +1,47 @@
 {
   "date": "2025-09-18",
-  "count": 32,
+  "count": 37,
   "items": [
+    {
+      "id": "901eb3a0229cb14c081d2aa587094297b75c53ac",
+      "title": "Hackers Injecting Malicious Code into GitHub Actions Workflows to Steal PyPI Publishing Tokens",
+      "link": "https://cybersecuritynews.com/github-actions-workflows-to-steal-pypi/",
+      "date": "2025-09-18T14:01:42Z",
+      "description": "Attackers injected malicious code into GitHub Actions workflows in a widespread campaign to steal Python Package Index (PyPI) publishing tokens. While some tokens stored as GitHub secrets were successfully exfiltrated, PyPI administrators have confirmed that the platform itself was not compromised and the stolen tokens do not appear to have been used. The attack campaign […] The post Hackers…",
+      "source": "cybersecuritynews.com",
+      "first_seen": "2025-09-18T14:11:59Z",
+      "last_seen": "2025-09-18T14:11:59Z"
+    },
+    {
+      "id": "9e9fdcbc14a9f80865f30dcdf348c6762aedba46",
+      "title": "Notepad gets free AI features on Copilot+ PCs with Windows 11",
+      "link": "https://www.bleepingcomputer.com/news/microsoft/notepad-gets-free-ai-features-on-copilot-plus-pcs-with-windows-11/",
+      "date": "2025-09-18T13:50:04Z",
+      "description": "Microsoft is adding free AI-powered text writing capabilities to Notepad for customers with Copilot+ PCs running Windows 11. [...]",
+      "source": "bleepingcomputer.com",
+      "first_seen": "2025-09-18T14:11:59Z",
+      "last_seen": "2025-09-18T14:11:59Z"
+    },
+    {
+      "id": "226b838d981b476f462a6779a968ea07e9629144",
+      "title": "Critical Microsoft’s Entra ID Vulnerability Allows Attackers to Gain Complete Administrative Control",
+      "link": "https://cybersecuritynews.com/microsofts-entra-id-vulnerability/",
+      "date": "2025-09-18T13:30:16Z",
+      "description": "A critical vulnerability in Microsoft’s Entra ID could have allowed an attacker to gain complete administrative control over any tenant in Microsoft’s global cloud infrastructure. The flaw, now patched, was discovered in July 2025 and has been assigned CVE-2025-55241. The vulnerability, described by the researcher as the most impactful he will probably ever find, resided […] The post Critical…",
+      "source": "cybersecuritynews.com",
+      "first_seen": "2025-09-18T14:11:59Z",
+      "last_seen": "2025-09-18T14:11:59Z"
+    },
+    {
+      "id": "31ed45be94f0474122967e1b84791aa841f97405",
+      "title": "Palo Alto Networks Acknowledges SquareX Research on Limitations of SWGs Against Last Mile Reassembly Attacks",
+      "link": "https://cybersecuritynews.com/palo-alto-networks-acknowledges-squarex-research-on-limitations/",
+      "date": "2025-09-18T13:24:52Z",
+      "description": "SquareX first discovered and disclosed Last Mile Reassembly attacks at DEF CON 32 last year, warning the security community of 20+ attacks that allow attackers to bypass all major SASE/SSE solutions and smuggle malware through the browser. Despite responsible disclosures to all major SASE/SSE providers, no vendor has made an official statement to warn its […] The post Palo Alto Networks…",
+      "source": "cybersecuritynews.com",
+      "first_seen": "2025-09-18T14:11:59Z",
+      "last_seen": "2025-09-18T14:11:59Z"
+    },
     {
       "id": "fe5e9a5c6ef969e67df09572e83dd506b06cfeae",
       "title": "PyPI invalidates tokens stolen in GhostAction supply chain attack",
@@ -10,7 +50,7 @@
       "description": "The Python Software Foundation team has invalidated all PyPI tokens stolen in the GhostAction supply chain attack in early September, confirming that the threat actors didn't abuse them to publish malware. [...]",
       "source": "bleepingcomputer.com",
       "first_seen": "2025-09-18T13:20:57Z",
-      "last_seen": "2025-09-18T13:20:57Z"
+      "last_seen": "2025-09-18T14:11:59Z"
     },
     {
       "id": "81f2b6ac622b84bcbdb95ffc75700b6eaae2d735",
@@ -20,7 +60,7 @@
       "description": "Cybersecurity researchers have discovered a new malware loader codenamed CountLoader that has been put to use by Russian ransomware gangs to deliver post-exploitation tools like Cobalt Strike and AdaptixC2, and a remote access trojan known as PureHVNC RAT. \"CountLoader is being used either as part of an Initial Access Broker's (IAB) toolset or by a ransomware affiliate with ties to the LockBit,",
       "source": "thehackernews.com",
       "first_seen": "2025-09-18T13:20:57Z",
-      "last_seen": "2025-09-18T13:20:57Z"
+      "last_seen": "2025-09-18T14:11:59Z"
     },
     {
       "id": "82e8d46cc12e6f00e7d45f682f55d2d63c089d06",
@@ -30,7 +70,7 @@
       "description": "Emerging in mid-2025, the shinysp1d3r ransomware-as-a-service (RaaS) platform represents the next evolution of cloud-focused extortion tools. Unlike traditional ransomware that targets Windows endpoints or network file shares, shinysp1d3r is engineered specifically to infect and encrypt VMware ESXi hypervisors and their attached datastores. Early deployments have demonstrated a two-stage payload…",
       "source": "cybersecuritynews.com",
       "first_seen": "2025-09-18T13:20:57Z",
-      "last_seen": "2025-09-18T13:20:57Z"
+      "last_seen": "2025-09-18T14:11:59Z"
     },
     {
       "id": "fc144a3d26035c67147a28c884b713dbe0f33a04",
@@ -40,7 +80,7 @@
       "description": "Videos from SecurityWeek's Attack Surface Management Virtual Summit are now available to watch on demand. The post Watch Now: Attack Surface Management Summit – All Sessions Available appeared first on SecurityWeek.",
       "source": "securityweek.com",
       "first_seen": "2025-09-18T13:20:57Z",
-      "last_seen": "2025-09-18T13:20:57Z"
+      "last_seen": "2025-09-18T14:11:59Z"
     },
     {
       "id": "88a994e0613a2844581aef52d6febc70cc39c55d",
@@ -50,7 +90,7 @@
       "description": "PureVPN’s Linux clients leak users’ IPv6 addresses when Wi-Fi reconnections or system resumes occur, and also obliterate host firewall rules without restoring them upon disconnect. This undermines privacy guarantees and leaves systems more exposed than before VPN use, with critical failures in the kill-switch and firewall handling modules. PureVPN Linux Client Flaws Anagogistis stated that […]…",
       "source": "cybersecuritynews.com",
       "first_seen": "2025-09-18T12:19:52Z",
-      "last_seen": "2025-09-18T13:20:57Z"
+      "last_seen": "2025-09-18T14:11:59Z"
     },
     {
       "id": "f6cdacec12da4551559b721866544e4f3ce65e12",
@@ -60,7 +100,7 @@
       "description": "The high-end jewelry retailer is informing customers in the United States and Canada that hackers accessed information related to gift cards. The post Tiffany Data Breach Impacts Thousands of Customers appeared first on SecurityWeek.",
       "source": "securityweek.com",
       "first_seen": "2025-09-18T12:19:52Z",
-      "last_seen": "2025-09-18T13:20:57Z"
+      "last_seen": "2025-09-18T14:11:59Z"
     },
     {
       "id": "367324deaaae1437c1287d9101842ed4e2a6ac7a",
@@ -70,7 +110,7 @@
       "description": "Cybersecurity researchers have discovered two new malicious packages in the Python Package Index (PyPI) repository that are designed to deliver a remote access trojan called SilentSync on Windows systems. \"SilentSync is capable of remote command execution, file exfiltration, and screen capturing,\" Zscaler ThreatLabz's Manisha Ramcharan Prajapati and Satyam Singh said. \"SilentSync also extracts",
       "source": "thehackernews.com",
       "first_seen": "2025-09-18T12:19:52Z",
-      "last_seen": "2025-09-18T13:20:57Z"
+      "last_seen": "2025-09-18T14:11:59Z"
     },
     {
       "id": "754be4c3f92d1bfe9b8ebe47b4937f4229967b08",
@@ -80,7 +120,7 @@
       "description": "AI’s growing role in enterprise environments has heightened the urgency for Chief Information Security Officers (CISOs) to drive effective AI governance. When it comes to any emerging technology, governance is hard – but effective governance is even harder. The first instinct for most organizations is to respond with rigid policies. Write a policy document, circulate a set of restrictions, and",
       "source": "thehackernews.com",
       "first_seen": "2025-09-18T12:19:52Z",
-      "last_seen": "2025-09-18T13:20:57Z"
+      "last_seen": "2025-09-18T14:11:59Z"
     },
     {
       "id": "85910654b60383c2bf23278a1bb92fe8c533350e",
@@ -90,7 +130,7 @@
       "description": "RevengeHotels has been targeting hotels in Brazil and Spanish-speaking regions with VenomRAT implants in 2025. The post Threat Actor Infests Hotels With New RAT appeared first on SecurityWeek.",
       "source": "securityweek.com",
       "first_seen": "2025-09-18T12:19:52Z",
-      "last_seen": "2025-09-18T13:20:57Z"
+      "last_seen": "2025-09-18T14:11:59Z"
     },
     {
       "id": "7d5b7d6c35a0bccd31be52ee0f734958116e1448",
@@ -130,7 +170,7 @@
       "description": "The company sent a new preferences file to less than 5% of customers, urging them to import it into firewalls and reset their passwords. The post SonicWall Prompts Password Resets After Hackers Obtain Firewall Configurations appeared first on SecurityWeek.",
       "source": "securityweek.com",
       "first_seen": "2025-09-18T10:11:04Z",
-      "last_seen": "2025-09-18T13:20:57Z"
+      "last_seen": "2025-09-18T14:11:59Z"
     },
     {
       "id": "90efa5baab149632fbbdb050da0876cd56bd1075",
@@ -170,7 +210,7 @@
       "description": "The BianLian ransomware group took credit for the cyberattack on the healthcare organization in January 2025. The post Nearly 250,000 Impacted by Data Breach at Medical Associates of Brevard appeared first on SecurityWeek.",
       "source": "securityweek.com",
       "first_seen": "2025-09-18T09:11:19Z",
-      "last_seen": "2025-09-18T13:20:57Z"
+      "last_seen": "2025-09-18T14:11:59Z"
     },
     {
       "id": "f0f6ae2e67cc036ed2a31006e1197a9c7ee7ab43",
@@ -180,7 +220,7 @@
       "description": "WatchGuard has released security updates to address a remote code execution vulnerability impacting the company's Firebox firewalls. [...]",
       "source": "bleepingcomputer.com",
       "first_seen": "2025-09-18T09:11:19Z",
-      "last_seen": "2025-09-18T13:20:57Z"
+      "last_seen": "2025-09-18T14:11:59Z"
     },
     {
       "id": "2336081a2d9600081fb8076591a74150eb96ab79",
@@ -240,7 +280,7 @@
       "description": "Google has released emergency security updates to patch a Chrome zero-day vulnerability, the sixth one tagged as exploited in attacks since the start of the year. [...]",
       "source": "bleepingcomputer.com",
       "first_seen": "2025-09-18T08:13:58Z",
-      "last_seen": "2025-09-18T13:20:57Z"
+      "last_seen": "2025-09-18T14:11:59Z"
     },
     {
       "id": "986fce5de850f2edc87b1fb87effc4896178ee7d",
@@ -270,7 +310,7 @@
       "description": "Google on Wednesday released security updates for the Chrome web browser to address four vulnerabilities, including one that it said has been exploited in the wild. The zero-day vulnerability in question is CVE-2025-10585, which has been described as a type confusion issue in the V8 JavaScript and WebAssembly engine. Type confusion vulnerabilities can have severe consequences as they can be",
       "source": "thehackernews.com",
       "first_seen": "2025-09-18T07:10:30Z",
-      "last_seen": "2025-09-18T13:20:57Z"
+      "last_seen": "2025-09-18T14:11:59Z"
     },
     {
       "id": "57fc776b87c7b36971c3ea918d3f424d863900d0",
@@ -310,7 +350,7 @@
       "description": "Digital forensics offers a challenging but rewarding career path for cybersecurity professionals willing to invest in specialized knowledge and continuous learning.",
       "source": "darkreading.com",
       "first_seen": "2025-09-18T13:20:57Z",
-      "last_seen": "2025-09-18T13:20:57Z"
+      "last_seen": "2025-09-18T14:11:59Z"
     },
     {
       "id": "acc1e466c394c331f3338711c00d0d9fb6c55e29",
@@ -321,6 +361,16 @@
       "source": "darkreading.com",
       "first_seen": "2025-09-18T12:19:52Z",
       "last_seen": "2025-09-18T13:20:57Z"
+    },
+    {
+      "id": "2d2ad31dcf3705ae8c989a37b0592da709f02705",
+      "title": "The Cloud Edge Is the New Attack Surface",
+      "link": "https://www.darkreading.com/cloud-security/cloud-edge-new-attack-surface",
+      "date": "2025-09-17T21:44:02Z",
+      "description": "The cloud now acts as the connecting infrastructure for many companies' assets — from IoT devices to workstations to applications and workloads — exposing the edge to threats.",
+      "source": "darkreading.com",
+      "first_seen": "2025-09-18T14:11:59Z",
+      "last_seen": "2025-09-18T14:11:59Z"
     }
   ]
 }

@@ -1,7 +1,35 @@
 {
-  "last_updated": "2025-09-18T13:20:57Z",
+  "last_updated": "2025-09-18T14:11:59Z",
   "count": 40,
   "items": [
+    {
+      "title": "Hackers Injecting Malicious Code into GitHub Actions Workflows to Steal PyPI Publishing Tokens",
+      "link": "https://cybersecuritynews.com/github-actions-workflows-to-steal-pypi/",
+      "date": "2025-09-18T14:01:42Z",
+      "description": "Attackers injected malicious code into GitHub Actions workflows in a widespread campaign to steal Python Package Index (PyPI) publishing tokens. While some tokens stored as GitHub secrets were successfully exfiltrated, PyPI administrators have confirmed that the platform itself was not compromised and the stolen tokens do not appear to have been used. The attack campaign […] The post Hackers…",
+      "source": "cybersecuritynews.com"
+    },
+    {
+      "title": "Notepad gets free AI features on Copilot+ PCs with Windows 11",
+      "link": "https://www.bleepingcomputer.com/news/microsoft/notepad-gets-free-ai-features-on-copilot-plus-pcs-with-windows-11/",
+      "date": "2025-09-18T13:50:04Z",
+      "description": "Microsoft is adding free AI-powered text writing capabilities to Notepad for customers with Copilot+ PCs running Windows 11. [...]",
+      "source": "bleepingcomputer.com"
+    },
+    {
+      "title": "Critical Microsoft’s Entra ID Vulnerability Allows Attackers to Gain Complete Administrative Control",
+      "link": "https://cybersecuritynews.com/microsofts-entra-id-vulnerability/",
+      "date": "2025-09-18T13:30:16Z",
+      "description": "A critical vulnerability in Microsoft’s Entra ID could have allowed an attacker to gain complete administrative control over any tenant in Microsoft’s global cloud infrastructure. The flaw, now patched, was discovered in July 2025 and has been assigned CVE-2025-55241. The vulnerability, described by the researcher as the most impactful he will probably ever find, resided […] The post Critical…",
+      "source": "cybersecuritynews.com"
+    },
+    {
+      "title": "Palo Alto Networks Acknowledges SquareX Research on Limitations of SWGs Against Last Mile Reassembly Attacks",
+      "link": "https://cybersecuritynews.com/palo-alto-networks-acknowledges-squarex-research-on-limitations/",
+      "date": "2025-09-18T13:24:52Z",
+      "description": "SquareX first discovered and disclosed Last Mile Reassembly attacks at DEF CON 32 last year, warning the security community of 20+ attacks that allow attackers to bypass all major SASE/SSE solutions and smuggle malware through the browser. Despite responsible disclosures to all major SASE/SSE providers, no vendor has made an official statement to warn its […] The post Palo Alto Networks…",
+      "source": "cybersecuritynews.com"
+    },
     {
       "title": "PyPI invalidates tokens stolen in GhostAction supply chain attack",
       "link": "https://www.bleepingcomputer.com/news/security/pypi-invalidates-tokens-stolen-in-ghostaction-supply-chain-attack/",
@@ -66,27 +94,6 @@
       "source": "securityweek.com"
     },
     {
-      "title": "SonicWall Urges Customers to Reset Login Credentials After Configuration Backup Files Exposed",
-      "link": "https://cybersecuritynews.com/sonicwall-reset-login-credentials/",
-      "date": "2025-09-18T11:15:52Z",
-      "description": "SonicWall has issued an urgent advisory urging all customers to perform an Essential Credential Reset after security researchers discovered that MySonicWall configuration backup files were inadvertently exposed on public storage. The sensitive files contained encrypted passwords, pre-shared keys, and TLS certificates used by SonicOS appliances, potentially allowing threat actors to decrypt and…",
-      "source": "cybersecuritynews.com"
-    },
-    {
-      "title": "BMW Allegedly Breached by Everest Ransomware Group, Internal Documents Reportedly Stolen",
-      "link": "https://cybersecuritynews.com/bmw-allegedly-breached/",
-      "date": "2025-09-18T10:49:12Z",
-      "description": "The infamous Everest ransomware group has reportedly included Bayerische Motoren Werke AG (BMW) as a high-profile target, claiming the theft of a significant amount of critical internal documents from the German automotive manufacturer. According to information surfaced, Everest claims to have exfiltrated a staggering 600,000 lines of sensitive internal data from BMW, now using the […] The post…",
-      "source": "cybersecuritynews.com"
-    },
-    {
-      "title": "Researchers Uncover Hidden Connections Between Ransomware Groups and Relationships Between Them",
-      "link": "https://cybersecuritynews.com/researchers-uncover-hidden-connections-between-ransomware-groups/",
-      "date": "2025-09-18T09:55:01Z",
-      "description": "In recent months, cybersecurity researchers have exposed a tangled web of hidden alliances among leading ransomware operations, reshaping how defenders perceive these threats. Historically treated as distinct entities—Conti, LockBit, Evil Corp, and others—ransomware groups have evolved into a dynamic marketplace where code, infrastructure, and human capital flow freely between operators. The…",
-      "source": "cybersecuritynews.com"
-    },
-    {
       "title": "SonicWall Prompts Password Resets After Hackers Obtain Firewall Configurations",
       "link": "https://www.securityweek.com/sonicwall-prompts-password-resets-after-firewall-configurations-exposed-in-breach/",
       "date": "2025-09-18T09:41:04Z",
@@ -129,7 +136,7 @@
       "source": "darkreading.com"
     },
     {
-      "title": "The Cloud Edge Is The New Attack Surface",
+      "title": "The Cloud Edge Is the New Attack Surface",
       "link": "https://www.darkreading.com/cloud-security/cloud-edge-new-attack-surface",
       "date": "2025-09-17T21:44:02Z",
       "description": "The cloud now acts as the connecting infrastructure for many companies' assets — from IoT devices to workstations to applications and workloads — exposing the edge to threats.",
@@ -162,13 +169,6 @@
       "date": "2025-09-17T18:30:00Z",
       "description": "The threat actor known as TA558 has been attributed to a fresh set of attacks delivering various remote access trojans (RATs) like Venom RAT to breach hotels in Brazil and Spanish-speaking markets. Russian cybersecurity vendor Kaspersky is tracking the activity, observed in summer 2025, to a cluster it tracks as RevengeHotels. \"The threat actors continue to employ phishing emails with invoice",
       "source": "thehackernews.com"
-    },
-    {
-      "title": "VC giant Insight Partners warns thousands after ransomware breach",
-      "link": "https://www.bleepingcomputer.com/news/security/vc-giant-insight-partners-warns-thousands-after-ransomware-breach/",
-      "date": "2025-09-17T17:50:52Z",
-      "description": "New York-based venture capital and private equity firm Insight Partners is notifying thousands of individuals whose personal information was stolen in a ransomware attack. [...]",
-      "source": "bleepingcomputer.com"
     },
     {
       "title": "AI-Powered Sign-up Fraud Is Scaling Fast",
