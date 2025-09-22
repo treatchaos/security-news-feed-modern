@@ -1,7 +1,47 @@
 {
   "date": "2025-09-22",
-  "count": 6,
+  "count": 10,
   "items": [
+    {
+      "id": "0c0a65a6c369bfd163d81a7059784bfd9e086ee3",
+      "title": "Widespread Infostealer Campaign Targeting macOS Users",
+      "link": "https://www.securityweek.com/widespread-infostealer-campaign-targeting-macos-users/",
+      "date": "2025-09-22T09:56:04Z",
+      "description": "Threat actors rely on malicious GitHub repositories to infect LastPass’s macOS users with the Atomic infostealer. The post Widespread Infostealer Campaign Targeting macOS Users appeared first on SecurityWeek.",
+      "source": "securityweek.com",
+      "first_seen": "2025-09-22T10:12:35Z",
+      "last_seen": "2025-09-22T10:12:35Z"
+    },
+    {
+      "id": "5724123551b556539bc96a16bc7d54407757b9c3",
+      "title": "FBI Warns of Spoofed IC3 Website",
+      "link": "https://www.securityweek.com/fbi-warns-of-spoofed-ic3-website/",
+      "date": "2025-09-22T09:43:08Z",
+      "description": "Threat actors likely spoofed the official government website for personal information theft and monetary fraudulent activity. The post FBI Warns of Spoofed IC3 Website appeared first on SecurityWeek.",
+      "source": "securityweek.com",
+      "first_seen": "2025-09-22T10:12:35Z",
+      "last_seen": "2025-09-22T10:12:35Z"
+    },
+    {
+      "id": "25ea164fa63ab92ee04ab346cf114fd97a4be7b3",
+      "title": "Verified Steam game steals streamer's cancer treatment donations",
+      "link": "https://www.bleepingcomputer.com/news/security/verified-steam-game-steals-streamers-cancer-treatment-donations/",
+      "date": "2025-09-22T09:28:10Z",
+      "description": "A gamer seeking financial support for cancer treatment lost $32,000 after downloading from Steam a verified game named Block Blasters that drained his cryptocurrency wallet. [...]",
+      "source": "bleepingcomputer.com",
+      "first_seen": "2025-09-22T10:12:35Z",
+      "last_seen": "2025-09-22T10:12:35Z"
+    },
+    {
+      "id": "494b6878e0b5daeb54d629a428a0a60988627995",
+      "title": "New Botnet Leverages DNS Misconfiguration to Launch Massive Cyber Attack",
+      "link": "https://cybersecuritynews.com/new-botnet-leverages-dns-misconfiguration/",
+      "date": "2025-09-22T09:24:20Z",
+      "description": "A previously unseen botnet campaign emerged in late November, using a novel combination of DNS misconfiguration and hijacked networking devices to propel a global malspam operation. Initial reports surfaced when dozens of organizations received what appeared to be legitimate freight invoices, each containing a ZIP archive with a malicious JavaScript payload. Upon execution, the script […] The…",
+      "source": "cybersecuritynews.com",
+      "first_seen": "2025-09-22T10:12:35Z",
+      "last_seen": "2025-09-22T10:12:35Z"
+    },
     {
       "id": "4bad4b2fadc7892aa4b3d2f5645b30124aceeaa0",
       "title": "Hackers Bypassing Windows Mark of the Web Files Using LNK Stomping Attack",
@@ -10,7 +50,7 @@
       "description": "A sophisticated attack technique called LNK Stomping has emerged as a critical threat to Windows security, exploiting a fundamental flaw in how the operating system handles shortcut files to bypass security controls. Designated as CVE-2024-38217 and patched on September 10, 2024, this vulnerability demonstrates how attackers can manipulate Windows shortcuts (LNK files) to circumvent the […] The…",
       "source": "cybersecuritynews.com",
       "first_seen": "2025-09-22T09:13:23Z",
-      "last_seen": "2025-09-22T09:13:23Z"
+      "last_seen": "2025-09-22T10:12:35Z"
     },
     {
       "id": "7622ffa92384abcab8bf0e53b1e7c084924a3716",
@@ -20,7 +60,7 @@
       "description": "Tracked as CVE-2025-10035 (CVSS score of 10), the critical deserialization vulnerability could be exploited for command injection. The post Fortra Patches Critical GoAnywhere MFT Vulnerability appeared first on SecurityWeek.",
       "source": "securityweek.com",
       "first_seen": "2025-09-22T08:15:28Z",
-      "last_seen": "2025-09-22T09:13:23Z"
+      "last_seen": "2025-09-22T10:12:35Z"
     },
     {
       "id": "bc92d22c5e4894578118f8d39c8521366dee991b",
@@ -30,7 +70,7 @@
       "description": "A sophisticated cyber-attack campaign exploiting GitHub Pages to distribute the notorious Atomic stealer malware to macOS users. The threat actors behind this operation are leveraging Search Engine Optimization (SEO) techniques to position malicious repositories at the top of search results across major platforms, including Google and Bing, targeting users searching for legitimate software from…",
       "source": "cybersecuritynews.com",
       "first_seen": "2025-09-22T08:15:28Z",
-      "last_seen": "2025-09-22T09:13:23Z"
+      "last_seen": "2025-09-22T10:12:35Z"
     },
     {
       "id": "f4787574eb424182bdb4c317fb0c16fe7b0aebf4",
@@ -40,7 +80,7 @@
       "description": "A sophisticated new ransomware operation dubbed BlackLock has emerged as a significant threat to organizations worldwide, demonstrating advanced cross-platform capabilities and targeting diverse computing environments. Originally operating under the name “El Dorado” since March 2024, the group rebranded to BlackLock in September 2024, establishing itself as a formidable player in the ransomware…",
       "source": "cybersecuritynews.com",
       "first_seen": "2025-09-22T06:17:09Z",
-      "last_seen": "2025-09-22T09:13:23Z"
+      "last_seen": "2025-09-22T10:12:35Z"
     },
     {
       "id": "421f98ff62aa8717859809e6f786f816c1e38e2c",
@@ -50,7 +90,7 @@
       "description": "A critical token validation failure in Microsoft Entra ID (previously Azure Active Directory) could have allowed attackers to impersonate any user, including Global Administrators, across any tenant. The vulnerability, tracked as CVE-2025-55241, has been assigned the maximum CVSS score of 10.0. It has been described by Microsoft as a privilege escalation flaw in Azure Entra. There is no",
       "source": "thehackernews.com",
       "first_seen": "2025-09-22T06:17:09Z",
-      "last_seen": "2025-09-22T09:13:23Z"
+      "last_seen": "2025-09-22T10:12:35Z"
     },
     {
       "id": "e4bd3a1ea45e5a4e9a9aa64f8a1fe518500baacc",
@@ -60,7 +100,7 @@
       "description": "The post PoC Released for CVE-2025-41243 – A Spring Cloud Gateway Flaw with CVSS 10.0 appeared first on Daily CyberSecurity.",
       "source": "securityonline.info",
       "first_seen": "2025-09-22T02:25:08Z",
-      "last_seen": "2025-09-22T09:13:23Z"
+      "last_seen": "2025-09-22T10:12:35Z"
     }
   ]
 }
