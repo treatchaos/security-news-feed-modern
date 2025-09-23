@@ -1,13 +1,34 @@
 {
-  "last_updated": "2025-09-23T13:21:41Z",
-  "count": 40,
+  "last_updated": "2025-09-23T14:10:53Z",
+  "count": 35,
   "items": [
     {
-      "title": "[Dark Reading Virtual Event] Know Your Enemy: How cybercriminals and nation-state hackers operate",
-      "link": "https://www.darkreading.com/events/-dark-reading-virtual-event-know-your-enemy-how-cybercriminals-and-nation-state-hackers-operate",
-      "date": "2025-11-13T16:00:00Z",
-      "description": "",
-      "source": "darkreading.com"
+      "title": "SonicWall Releases Urgent Update to Remove Rootkit Malware ‘OVERSTEP’ from SMA Devices",
+      "link": "https://cybersecuritynews.com/sonicwall-firmware-update-rootkit-malware/",
+      "date": "2025-09-23T13:50:39Z",
+      "description": "SonicWall has issued an urgent firmware update, version 10.2.2.2-92sv, for its Secure Mobile Access (SMA) 100 series appliances to detect and remove known rootkit malware. The advisory, SNWLID-2025-0015, published on September 22, 2025, strongly recommends that all users of SMA 210, 410, and 500v devices apply the update immediately to protect against persistent threats. This […] The post…",
+      "source": "cybersecuritynews.com"
+    },
+    {
+      "title": "SolarWinds releases third patch to fix Web Help Desk RCE bug",
+      "link": "https://www.bleepingcomputer.com/news/security/solarwinds-releases-third-patch-to-fix-web-help-desk-rce-bug/",
+      "date": "2025-09-23T13:41:54Z",
+      "description": "SolarWinds has released a hotfix for a critical a critical vulnerability in Web Help Desk that allows remote code execution (RCE) without authentication. [...]",
+      "source": "bleepingcomputer.com"
+    },
+    {
+      "title": "Threat Actors with Fake Job Lures Attacking Job Seekers to Deploy Advanced Malware",
+      "link": "https://cybersecuritynews.com/threat-actors-with-fake-job-lures-attacking-job-seekers/",
+      "date": "2025-09-23T13:26:19Z",
+      "description": "In recent months, a sophisticated campaign has emerged in which state-linked threat actors are leveraging fake job offers to ensnare unsuspecting job seekers and deliver advanced malware. These attackers craft convincing phishing emails that direct victims to look-alike career portals, impersonating leading aerospace and defense firms. The lure often begins with a personalized outreach on […]…",
+      "source": "cybersecuritynews.com"
+    },
+    {
+      "title": "U.S. Secret Service Dismantles 300 SIM Servers and 100,000 SIM Cards Disabling Cell Phone Towers",
+      "link": "https://cybersecuritynews.com/300-sim-servers-dismantled/",
+      "date": "2025-09-23T13:21:44Z",
+      "description": "The U.S. Secret Service has dismantled a massive, sophisticated network of electronic devices in the New York tristate area, thwarting what it described as an “imminent threat” to senior U.S. government officials and the agency’s protective operations. The operation led to the seizure of over 300 SIM servers and 100,000 SIM cards that could have […] The post U.S. Secret Service Dismantles 300…",
+      "source": "cybersecuritynews.com"
     },
     {
       "title": "SonicWall releases SMA100 firmware update to wipe rootkit malware",
@@ -22,6 +43,13 @@
       "date": "2025-09-23T13:05:49Z",
       "description": "Austin, Texas, USA, September 23rd, 2025, CyberNewsWire New SpyCloud 2025 Identity Threat Report reveals dangerous disconnect between perceived security readiness and operational reality. SpyCloud, the leader in identity threat protection, today released the 2025 SpyCloud Identity Threat Report, revealing that while 86% of security leaders report confidence in their ability to prevent…",
       "source": "cybersecuritynews.com"
+    },
+    {
+      "title": "SolarWinds Releases Hotfix for Critical CVE-2025-26399 Remote Code Execution Flaw",
+      "link": "https://thehackernews.com/2025/09/solarwinds-releases-hotfix-for-critical.html",
+      "date": "2025-09-23T12:46:00Z",
+      "description": "SolarWinds has released hot fixes to address a critical security flaw impacting its Web Help Desk software that, if successfully exploited, could allow attackers to execute arbitrary commands on susceptible systems. The vulnerability, tracked as CVE-2025-26399 (CVSS score: 9.8), has been described as an instance of deserialization of untrusted data that could result in code execution. It affects",
+      "source": "thehackernews.com"
     },
     {
       "title": "Unit 221B Raises $5 Million for Threat Intel Aiding Hacker Arrests",
@@ -43,13 +71,6 @@
       "date": "2025-09-23T12:05:37Z",
       "description": "GitHub is introducing a set of defenses against supply-chain attacks on the platform that led to multiple large-scale incidents recently. [...]",
       "source": "bleepingcomputer.com"
-    },
-    {
-      "title": "Hackers Exploits IMDS Service to Gain Initial Access to a Cloud Environment",
-      "link": "https://cybersecuritynews.com/exploit-imds-access-cloud-environment/",
-      "date": "2025-09-23T11:58:14Z",
-      "description": "Threat actors were manipulating the Instance Metadata Service (IMDS), a core component designed to securely furnish compute instances with temporary credentials to infiltrate and navigate cloud infrastructures. By compelling unsuspecting applications to query IMDS endpoints, attackers harvest short-lived tokens, enabling credential theft, lateral movement, and privilege escalation within victim…",
-      "source": "cybersecuritynews.com"
     },
     {
       "title": "All Microsoft Entra Tenants Were Exposed to Silent Compromise via Invisible Actor Tokens: Researcher",
@@ -87,25 +108,11 @@
       "source": "securityweek.com"
     },
     {
-      "title": "GitHub Enhances NPM’s Security with Strict Authentication, Granular Tokens, and  Trusted Publishing",
-      "link": "https://cybersecuritynews.com/github-enhances-npms-security/",
-      "date": "2025-09-23T10:46:57Z",
-      "description": "Recent High-profile supply‐chain attacks have exposed critical weaknesses in package registry security, prompting GitHub to roll out a suite of defenses designed to harden the npm ecosystem. “GitHub Enhances npm’s security with strict authentication, granular tokens, and trusted publishing” marks the latest milestone in defending open source against account takeovers and malicious post-install…",
-      "source": "cybersecuritynews.com"
-    },
-    {
       "title": "NPM package caught using QR Code to fetch cookie-stealing malware",
       "link": "https://www.bleepingcomputer.com/news/security/npm-package-caught-using-qr-code-to-fetch-cookie-stealing-malware/",
       "date": "2025-09-23T10:42:14Z",
       "description": "Newly discovered npm package 'fezbox' employs QR codes to hide a second-stage payload to steal cookies from a user's web browser. The package, masquerading as a utility library, leverages this innovative steganographic technique to harvest sensitive data, such as user credentials, from a compromised machine. [...]",
       "source": "bleepingcomputer.com"
-    },
-    {
-      "title": "EV Charging Provider Confirm Data Breach – Customers Personal Data Exposed",
-      "link": "https://cybersecuritynews.com/ev-charging-provider-data-breach/",
-      "date": "2025-09-23T10:34:57Z",
-      "description": "Digital Charging Solutions GmbH (DCS), a leading provider of white-label charging services for automotive OEMs and fleet operators, has confirmed a data breach affecting a limited number of its customers. DCS disclosed that unauthorized access to personal data occurred in the course of its customer-support processes. The incident was detected through irregularities in log data and […] The post…",
-      "source": "cybersecuritynews.com"
     },
     {
       "title": "Scattered Spider Suspect Arrested in US",
@@ -134,48 +141,6 @@
       "date": "2025-09-22T21:24:19Z",
       "description": "The disruptions over the weekend at several major European airports were caused by a ransomware attack targeting the check-in and boarding systems. [...]",
       "source": "bleepingcomputer.com"
-    },
-    {
-      "title": "Iran-Linked Hackers Target Europe With New Malware",
-      "link": "https://www.darkreading.com/cyberattacks-data-breaches/iran-linked-hackers-europe-new-malware",
-      "date": "2025-09-22T21:00:50Z",
-      "description": "\"Nimbus Manticore\" is back at it, this time with improved variants of its flagship malware and targets that are outside its usual focus area.",
-      "source": "darkreading.com"
-    },
-    {
-      "title": "American Archive of Public Broadcasting fixes bug exposing restricted media",
-      "link": "https://www.bleepingcomputer.com/news/security/american-archive-of-public-broadcasting-fixes-bug-exposing-restricted-media/",
-      "date": "2025-09-22T20:25:07Z",
-      "description": "​A vulnerability in the American Archive of Public Broadcasting's website allowed downloading of protected and private media for years, with the flaw quietly patched this month. [...]",
-      "source": "bleepingcomputer.com"
-    },
-    {
-      "title": "Attackers Use Phony GitHub Pages to Deliver Mac Malware",
-      "link": "https://www.darkreading.com/application-security/attackers-phony-github-pages-mac-malware",
-      "date": "2025-09-22T19:44:25Z",
-      "description": "Threat actors are using a large-scale SEO poisoning campaign and fake GitHub repositories to deliver Atomic infostealers to Mac users.",
-      "source": "darkreading.com"
-    },
-    {
-      "title": "ComicForm and SectorJ149 Hackers Deploy Formbook Malware in Eurasian Cyberattacks",
-      "link": "https://thehackernews.com/2025/09/comicform-and-sectorj149-hackers-deploy.html",
-      "date": "2025-09-22T15:40:00Z",
-      "description": "Organizations in Belarus, Kazakhstan, and Russia have emerged as the target of a phishing campaign undertaken by a previously undocumented hacking group called ComicForm since at least April 2025. The activity primarily targeted industrial, financial, tourism, biotechnology, research, and trade sectors, cybersecurity company F6 said in an analysis published last week. The attack chain involves",
-      "source": "thehackernews.com"
-    },
-    {
-      "title": "Airport Chaos Shows Human Impact of 3rd-Party Attacks",
-      "link": "https://www.darkreading.com/cyberattacks-data-breaches/airport-chaos-human-impact-3rd-party-attacks",
-      "date": "2025-09-22T14:43:28Z",
-      "description": "Major EU airports such as Heathrow were disrupted over the weekend after a cyberattack hit the provider of check-in kiosk software, which caused delays and flight cancellations.",
-      "source": "darkreading.com"
-    },
-    {
-      "title": "15 Years of Zero Trust: Why It Matters More Than Ever",
-      "link": "https://www.darkreading.com/cyberattacks-data-breaches/15-years-of-zero-trust-why-it-matters-more-than-ever",
-      "date": "2025-09-22T14:00:00Z",
-      "description": "With the emergence of AI-driven attacks and quantum computing, and the explosion of hyperconnected devices, zero trust remains a core strategy for security operations.",
-      "source": "darkreading.com"
     },
     {
       "title": "PoC Released for CVE-2025-41243 – A Spring Cloud Gateway Flaw with CVSS 10.0",
