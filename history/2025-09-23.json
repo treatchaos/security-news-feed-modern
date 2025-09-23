@@ -1,7 +1,57 @@
 {
   "date": "2025-09-23",
-  "count": 14,
+  "count": 19,
   "items": [
+    {
+      "id": "7e65b8da9b31316a5996c2a10fff27831e903725",
+      "title": "SolarWinds Web Help Desk Vulnerability Enables Unauthenticated RCE",
+      "link": "https://cybersecuritynews.com/solarwinds-web-help-desk-vulnerability/",
+      "date": "2025-09-23T12:16:29Z",
+      "description": "SolarWinds has released an urgent security advisory for a critical vulnerability in its Web Help Desk software that could allow an unauthenticated attacker to achieve remote code execution (RCE). The flaw, tracked as CVE-2025-26399, carries a critical severity rating of 9.8 out of 10, highlighting the severe risk it poses to affected systems. The vulnerability […] The post SolarWinds Web Help…",
+      "source": "cybersecuritynews.com",
+      "first_seen": "2025-09-23T12:19:56Z",
+      "last_seen": "2025-09-23T12:19:56Z"
+    },
+    {
+      "id": "d273dcb511997c9b0e898a21a704eebf41e29e08",
+      "title": "GitHub tightens npm security with mandatory 2FA, access tokens",
+      "link": "https://www.bleepingcomputer.com/news/security/github-tightens-npm-security-with-mandatory-2fa-access-tokens/",
+      "date": "2025-09-23T12:05:37Z",
+      "description": "GitHub is introducing a set of defenses against supply-chain attacks on the platform that led to multiple large-scale incidents recently. [...]",
+      "source": "bleepingcomputer.com",
+      "first_seen": "2025-09-23T12:19:56Z",
+      "last_seen": "2025-09-23T12:19:56Z"
+    },
+    {
+      "id": "ee07fb507c3889b80534b7ecec2a711d27cdc8de",
+      "title": "Hackers Exploits IMDS Service to Gain Initial Access to a Cloud Environment",
+      "link": "https://cybersecuritynews.com/exploit-imds-access-cloud-environment/",
+      "date": "2025-09-23T11:58:14Z",
+      "description": "Threat actors were manipulating the Instance Metadata Service (IMDS), a core component designed to securely furnish compute instances with temporary credentials to infiltrate and navigate cloud infrastructures. By compelling unsuspecting applications to query IMDS endpoints, attackers harvest short-lived tokens, enabling credential theft, lateral movement, and privilege escalation within victim…",
+      "source": "cybersecuritynews.com",
+      "first_seen": "2025-09-23T12:19:56Z",
+      "last_seen": "2025-09-23T12:19:56Z"
+    },
+    {
+      "id": "78b18f179075329ca6744b48dfa9e26466439fee",
+      "title": "All Microsoft Entra Tenants Were Exposed to Silent Compromise via Invisible Actor Tokens: Researcher",
+      "link": "https://www.securityweek.com/all-microsoft-entra-tenants-were-exposed-to-silent-compromise-via-invisible-actor-tokens-researcher/",
+      "date": "2025-09-23T11:44:16Z",
+      "description": "The strength of responsible disclosure is that it can solve problems before they are actioned. The weakness is that it potentially generates a false sense of security in the vendor. The post All Microsoft Entra Tenants Were Exposed to Silent Compromise via Invisible Actor Tokens: Researcher appeared first on SecurityWeek.",
+      "source": "securityweek.com",
+      "first_seen": "2025-09-23T12:19:56Z",
+      "last_seen": "2025-09-23T12:19:56Z"
+    },
+    {
+      "id": "303c61e3eb38786ab1414a72908b5b9477f305d5",
+      "title": "Top 25 MCP Vulnerabilities Reveal How AI Agents Can Be Exploited",
+      "link": "https://www.securityweek.com/top-25-mcp-vulnerabilities-reveal-how-ai-agents-can-be-exploited/",
+      "date": "2025-09-23T11:13:28Z",
+      "description": "A new ranking of Model Context Protocol weaknesses highlights critical risks—from prompt injection to command injection—and provides a roadmap for securing the foundations of agentic AI. The post Top 25 MCP Vulnerabilities Reveal How AI Agents Can Be Exploited appeared first on SecurityWeek.",
+      "source": "securityweek.com",
+      "first_seen": "2025-09-23T12:19:56Z",
+      "last_seen": "2025-09-23T12:19:56Z"
+    },
     {
       "id": "fa04ab7c8f00664c0d1cf7373683fbe3fc33889e",
       "title": "ShadowV2 DDoS Service Lets Customers Self-Manage Attacks",
@@ -10,7 +60,7 @@
       "description": "The botnet’s operators provide customers with access to an infected network of Docker containers so they can conduct DDoS attacks. The post ShadowV2 DDoS Service Lets Customers Self-Manage Attacks appeared first on SecurityWeek.",
       "source": "securityweek.com",
       "first_seen": "2025-09-23T11:09:09Z",
-      "last_seen": "2025-09-23T11:09:09Z"
+      "last_seen": "2025-09-23T12:19:56Z"
     },
     {
       "id": "dc18644b658277a439c0f1bd53a92c307afc8294",
@@ -20,7 +70,7 @@
       "description": "Recent High-profile supply‐chain attacks have exposed critical weaknesses in package registry security, prompting GitHub to roll out a suite of defenses designed to harden the npm ecosystem. “GitHub Enhances npm’s security with strict authentication, granular tokens, and trusted publishing” marks the latest milestone in defending open source against account takeovers and malicious post-install…",
       "source": "cybersecuritynews.com",
       "first_seen": "2025-09-23T11:09:09Z",
-      "last_seen": "2025-09-23T11:09:09Z"
+      "last_seen": "2025-09-23T12:19:56Z"
     },
     {
       "id": "463dd56a315788033adb6e82d26f0ce01b605d63",
@@ -30,7 +80,7 @@
       "description": "Newly discovered npm package 'fezbox' employs QR codes to hide a second-stage payload to steal cookies from a user's web browser. The package, masquerading as a utility library, leverages this innovative steganographic technique to harvest sensitive data, such as user credentials, from a compromised machine. [...]",
       "source": "bleepingcomputer.com",
       "first_seen": "2025-09-23T11:09:09Z",
-      "last_seen": "2025-09-23T11:09:09Z"
+      "last_seen": "2025-09-23T12:19:56Z"
     },
     {
       "id": "e46e129c890cbb1648df673e1d3fb7932c3df0cb",
@@ -40,7 +90,7 @@
       "description": "Digital Charging Solutions GmbH (DCS), a leading provider of white-label charging services for automotive OEMs and fleet operators, has confirmed a data breach affecting a limited number of its customers. DCS disclosed that unauthorized access to personal data occurred in the course of its customer-support processes. The incident was detected through irregularities in log data and […] The post…",
       "source": "cybersecuritynews.com",
       "first_seen": "2025-09-23T11:09:09Z",
-      "last_seen": "2025-09-23T11:09:09Z"
+      "last_seen": "2025-09-23T12:19:56Z"
     },
     {
       "id": "aa4d2ecac717e55b7a54b31839e1a7e305c3ec4c",
@@ -50,7 +100,7 @@
       "description": "A sophisticated cyber campaign, dubbed “Operation Rewrite,” is actively hijacking Microsoft Internet Information Services (IIS) web servers to serve malicious content through a technique known as search engine optimization (SEO) poisoning. Palo Alto Networks uncovered the operation in March 2025, attributing it with high confidence to a Chinese-speaking threat actor who uses a malicious IIS […]…",
       "source": "cybersecuritynews.com",
       "first_seen": "2025-09-23T11:09:09Z",
-      "last_seen": "2025-09-23T11:09:09Z"
+      "last_seen": "2025-09-23T12:19:56Z"
     },
     {
       "id": "1a002aa1c47eb447835c8a0981e4424d1ccd603f",
@@ -60,7 +110,7 @@
       "description": "The juvenile suspect surrendered on September 17 and was booked on computer intrusion, extortion, and identity theft charges. The post Scattered Spider Suspect Arrested in US appeared first on SecurityWeek.",
       "source": "securityweek.com",
       "first_seen": "2025-09-23T10:10:50Z",
-      "last_seen": "2025-09-23T11:09:09Z"
+      "last_seen": "2025-09-23T12:19:56Z"
     },
     {
       "id": "ffbaace61bfc4fe9aa50457239aca43b90196c16",
@@ -80,7 +130,7 @@
       "description": "GitHub on Monday announced that it will be changing its authentication and publishing options \"in the near future\" in response to a recent wave of supply chain attacks targeting the npm ecosystem, including the Shai-Hulud attack. This includes steps to address threats posed by token abuse and self-replicating malware by allowing local publishing with required two-factor authentication (2FA),",
       "source": "thehackernews.com",
       "first_seen": "2025-09-23T10:10:50Z",
-      "last_seen": "2025-09-23T11:09:09Z"
+      "last_seen": "2025-09-23T12:19:56Z"
     },
     {
       "id": "dfb3ac1fcbc87a2dc1bf05560bab4350bd7288aa",
@@ -90,7 +140,7 @@
       "description": "The company says customer contact information was stolen from a third-party service provider’s platform. The post Automotive Titan Stellantis Discloses Data Breach appeared first on SecurityWeek.",
       "source": "securityweek.com",
       "first_seen": "2025-09-23T09:11:52Z",
-      "last_seen": "2025-09-23T11:09:09Z"
+      "last_seen": "2025-09-23T12:19:56Z"
     },
     {
       "id": "25d6e52b7d0e5e77edc08cff1acf6a3d2fa5eaf9",
@@ -100,7 +150,7 @@
       "description": "Cybersecurity researchers are calling attention to a search engine optimization (SEO) poisoning campaign likely undertaken by a Chinese-speaking threat actor using a malware called BadIIS in attacks targeting East and Southeast Asia, particularly with a focus on Vietnam. The activity, dubbed Operation Rewrite, is being tracked by Palo Alto Networks Unit 42 under the moniker CL-UNK-1037, where \"",
       "source": "thehackernews.com",
       "first_seen": "2025-09-23T09:11:52Z",
-      "last_seen": "2025-09-23T11:09:09Z"
+      "last_seen": "2025-09-23T12:19:56Z"
     },
     {
       "id": "1a7669f2656bfe03a7a948b427c46ce4bcf26a62",
