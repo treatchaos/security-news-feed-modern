@@ -1,7 +1,37 @@
 {
   "date": "2025-09-24",
-  "count": 13,
+  "count": 17,
   "items": [
+    {
+      "id": "06f1e523c77b2d3663dd534494ad36ded139a69e",
+      "title": "New YiBackdoor Allows Attackers to Execute Arbitrary Commands and Exfiltrate Sensitive Data from Hacked Systems",
+      "link": "https://cybersecuritynews.com/new-yibackdoor-allows-attackers-to-execute-arbitrary-commands/",
+      "date": "2025-09-24T08:34:55Z",
+      "description": "A sophisticated new malware family dubbed YiBackdoor has emerged in the cybersecurity landscape, posing a significant threat to organizations worldwide. First observed in June 2025, this malicious software represents a concerning evolution in backdoor technology, featuring advanced capabilities that enable threat actors to execute arbitrary commands, capture screenshots, collect sensitive system…",
+      "source": "cybersecuritynews.com",
+      "first_seen": "2025-09-24T09:11:58Z",
+      "last_seen": "2025-09-24T09:11:58Z"
+    },
+    {
+      "id": "7083e65135ca461522260dc66000917fbb131c6e",
+      "title": "SonicWall Updates SMA 100 Appliances to Remove Overstep Malware",
+      "link": "https://www.securityweek.com/sonicwall-updates-sma-100-appliances-to-remove-overstep-malware/",
+      "date": "2025-09-24T08:28:33Z",
+      "description": "The software update includes additional file checks and helps users remove the known rootkit deployed in a recent campaign. The post SonicWall Updates SMA 100 Appliances to Remove Overstep Malware appeared first on SecurityWeek.",
+      "source": "securityweek.com",
+      "first_seen": "2025-09-24T09:11:58Z",
+      "last_seen": "2025-09-24T09:11:58Z"
+    },
+    {
+      "id": "92ae06ba2c26a72cae248c5e741d10c6683152cc",
+      "title": "CISA Warns of Google Chrome 0-Day Vulnerability Exploited in Attacks",
+      "link": "https://cybersecuritynews.com/cisa-google-chrome-0-day/",
+      "date": "2025-09-24T08:16:04Z",
+      "description": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) has issued a warning about a high-severity zero-day vulnerability in Google Chrome that is being actively exploited in attacks. The vulnerability, tracked as CVE-2025-10585, has been added to CISA’s Known Exploited Vulnerabilities (KEV) catalog, signaling an urgent need for users and administrators to take action. Google has […]…",
+      "source": "cybersecuritynews.com",
+      "first_seen": "2025-09-24T09:11:58Z",
+      "last_seen": "2025-09-24T09:11:58Z"
+    },
     {
       "id": "32ae2c5abba5fe169d5e3297a8fdd17454aecb50",
       "title": "Hackers Exploit WerFaultSecure.exe Tool to Steal Cached Passwords From Windows 11 24H2",
@@ -13,6 +43,16 @@
       "last_seen": "2025-09-24T08:14:46Z"
     },
     {
+      "id": "b3e96c82a754d75f00deb636b2ab00f5a3dfde9b",
+      "title": "Hackers Exploit WerFaultSecure.exe Tool to Steal Cached Passwords From LSASS on Windows 11 24H2",
+      "link": "https://cybersecuritynews.com/windows-11-cached-passwords/",
+      "date": "2025-09-24T07:56:20Z",
+      "description": "Threat actors are leveraging the legacy Windows error‐reporting utility WerFaultSecure.exe to extract the memory region of the Local Security Authority Subsystem Service (LSASS.EXE) and harvest cached credentials from fully patched Windows 11 24H2 systems. After gaining initial access to a host, adversaries frequently seek to dump LSASS memory to escalate privileges and move laterally across […]…",
+      "source": "cybersecuritynews.com",
+      "first_seen": "2025-09-24T09:11:58Z",
+      "last_seen": "2025-09-24T09:11:58Z"
+    },
+    {
       "id": "3dbb13003ec9414ec3f793affb7e0732a448366f",
       "title": "CISA Warns of Shai-Hulud Self-Replicating Worm Compromised 500+ Packages in npm Registry",
       "link": "https://cybersecuritynews.com/cisa-shai-hulud-npm-attack/",
@@ -20,7 +60,7 @@
       "description": "CISA has issued an urgent security Alert in response to a large-scale software supply chain attack on npmjs.com, the world’s largest JavaScript package registry. A self-replicating worm, dubbed Shai-Hulud, has infiltrated more than 500 npm packages and injected malicious code that aggressively spreads by abusing developer credentials and npm publish workflows. Self-Replicating npm Supply Chain…",
       "source": "cybersecuritynews.com",
       "first_seen": "2025-09-24T08:14:46Z",
-      "last_seen": "2025-09-24T08:14:46Z"
+      "last_seen": "2025-09-24T09:11:58Z"
     },
     {
       "id": "68cb9392d567de5d0b53854ec6eba0054d2149f0",
@@ -30,7 +70,7 @@
       "description": "Tracked as CVE-2025-59689, the command injection bug could be triggered via malicious emails containing crafted compressed attachments. The post Libraesva Email Security Gateway Vulnerability Exploited by Nation-State Hackers appeared first on SecurityWeek.",
       "source": "securityweek.com",
       "first_seen": "2025-09-24T08:14:46Z",
-      "last_seen": "2025-09-24T08:14:46Z"
+      "last_seen": "2025-09-24T09:11:58Z"
     },
     {
       "id": "559baf7e3becd2e09de020f0eac1304512e93c91",
@@ -40,7 +80,7 @@
       "description": "Cloud security company Wiz has revealed that it uncovered in-the-wild exploitation of a security flaw in a Linux utility called Pandoc as part of attacks designed to infiltrate Amazon Web Services (AWS) Instance Metadata Service (IMDS). The vulnerability in question is CVE-2025-51591 (CVSS score: 6.5), which refers to a case of Server-Side Request Forgery (SSRF) that allows attackers to",
       "source": "thehackernews.com",
       "first_seen": "2025-09-24T08:14:46Z",
-      "last_seen": "2025-09-24T08:14:46Z"
+      "last_seen": "2025-09-24T09:11:58Z"
     },
     {
       "id": "49fe92b9a4420e133845d8df6a0494705a5fc8cf",
@@ -50,7 +90,7 @@
       "description": "Kali team has released Kali Linux 2025.3, the third major update of the year for the popular penetration testing and ethical hacking distribution. This release introduces 10 new tools, brings significant updates to its mobile platform, Kali NetHunter, and enhances wireless capabilities for Raspberry Pi devices Key updates in this version include a refresh of […] The post Kali Linux 2025.3…",
       "source": "cybersecuritynews.com",
       "first_seen": "2025-09-24T08:14:46Z",
-      "last_seen": "2025-09-24T08:14:46Z"
+      "last_seen": "2025-09-24T09:11:58Z"
     },
     {
       "id": "abca21cf4d46a57041139f2ebe5776edfb95736f",
@@ -60,7 +100,7 @@
       "description": "Libraesva has released a security update to address a vulnerability in its Email Security Gateway (ESG) solution that it said has been exploited by state-sponsored threat actors. The vulnerability, tracked as CVE-2025-59689, carries a CVSS score of 6.1, indicating medium severity. \"Libraesva ESG is affected by a command injection flaw that can be triggered by a malicious email containing a",
       "source": "thehackernews.com",
       "first_seen": "2025-09-24T07:11:03Z",
-      "last_seen": "2025-09-24T08:14:46Z"
+      "last_seen": "2025-09-24T09:11:58Z"
     },
     {
       "id": "bcecf41e1bab16e3ed9c62a8ea51af1112d27084",
@@ -100,7 +140,7 @@
       "description": "The Japanese government suffered the most cybersecurity incidents in 2024 — 447, nearly double the previous year — while failing to manage 16% of critical systems.",
       "source": "darkreading.com",
       "first_seen": "2025-09-24T00:48:37Z",
-      "last_seen": "2025-09-24T08:14:46Z"
+      "last_seen": "2025-09-24T09:11:58Z"
     },
     {
       "id": "e01020453285bb7efa5cf40703b3c2233c0f6f3e",
@@ -130,7 +170,7 @@
       "description": "A CVSS score 7.8 AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H severity vulnerability discovered by 'Peter Girnus (@gothburz) and Brandon Niemczyk of Trend Zero Day Initiative' was reported to the affected vendor on: 2025-09-23, 0 days ago. The vendor is given until 2026-01-21 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
       "source": "zerodayinitiative.com",
       "first_seen": "2025-09-24T04:12:41Z",
-      "last_seen": "2025-09-24T08:14:46Z"
+      "last_seen": "2025-09-24T09:11:58Z"
     }
   ]
 }
