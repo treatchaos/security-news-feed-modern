@@ -1,7 +1,35 @@
 {
-  "last_updated": "2025-09-24T10:11:11Z",
+  "last_updated": "2025-09-24T11:08:55Z",
   "count": 40,
   "items": [
+    {
+      "title": "OnePlus OxygenOS Vulnerability Allows Any App to Read SMS Data Without Permission",
+      "link": "https://cybersecuritynews.com/oneplus-oxygenos-vulnerability/",
+      "date": "2025-09-24T10:59:07Z",
+      "description": "A severe security vulnerability in OnePlus OxygenOS has been discovered that allows any installed application to read SMS and MMS messages without requesting permission or notifying users. The flaw, designated CVE-2025-10184, affects multiple OnePlus devices running OxygenOS versions 12 through 15, potentially compromising SMS-based multi-factor authentication (MFA) systems and exposing…",
+      "source": "cybersecuritynews.com"
+    },
+    {
+      "title": "Salesforce CLI Installer Vulnerability Let Attackers Execute Code and Gain SYSTEM-Level Access",
+      "link": "https://cybersecuritynews.com/salesforce-cli-installer-vulnerability/",
+      "date": "2025-09-24T10:44:46Z",
+      "description": "A critical vulnerability in the Salesforce CLI installer (sf-x64.exe) enables attackers to achieve arbitrary code execution, privilege escalation, and SYSTEM-level access on Windows systems. Tracked as CVE-2025-9844, the flaw stems from improper handling of executable file paths by the installer, allowing malicious files to be executed in place of legitimate binaries when the software is […] The…",
+      "source": "cybersecuritynews.com"
+    },
+    {
+      "title": "GitHub Boosting Security in Response to NPM Supply Chain Attacks",
+      "link": "https://www.securityweek.com/github-boosting-security-in-response-to-npm-supply-chain-attacks/",
+      "date": "2025-09-24T10:17:20Z",
+      "description": "GitHub will implement local publishing with mandatory 2FA, granular tokens that expire after seven days, and trusted publishing. The post GitHub Boosting Security in Response to NPM Supply Chain Attacks appeared first on SecurityWeek.",
+      "source": "securityweek.com"
+    },
+    {
+      "title": "Hackers Exploiting Libraesva Email Security Gateway Vulnerability to Inject Malicious Commands",
+      "link": "https://cybersecuritynews.com/libraesva-email-security-gateway-vulnerability/",
+      "date": "2025-09-24T10:16:47Z",
+      "description": "Libraesva has issued an emergency patch for a significant command injection vulnerability in its Email Security Gateway (ESG) after confirming state-sponsored hackers exploited it. The flaw, identified as CVE-2025-59689, allowed attackers to execute arbitrary commands by sending a malicious email with a specially crafted compressed attachment. The company responded by deploying an automated fix…",
+      "source": "cybersecuritynews.com"
+    },
     {
       "title": "ShadowV2 Botnet Exploits Docker Containers on AWS to Turn Thems as Infected System for DDoS Attack",
       "link": "https://cybersecuritynews.com/shadowv2-botnet-exploits-docker-containers-on-aws/",
@@ -29,27 +57,6 @@
       "date": "2025-09-24T08:28:33Z",
       "description": "The software update includes additional file checks and helps users remove the known rootkit deployed in a recent campaign. The post SonicWall Updates SMA 100 Appliances to Remove Overstep Malware appeared first on SecurityWeek.",
       "source": "securityweek.com"
-    },
-    {
-      "title": "CISA Warns of Google Chrome 0-Day Vulnerability Exploited in Attacks",
-      "link": "https://cybersecuritynews.com/cisa-google-chrome-0-day/",
-      "date": "2025-09-24T08:16:04Z",
-      "description": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) has issued a warning about a high-severity zero-day vulnerability in Google Chrome that is being actively exploited in attacks. The vulnerability, tracked as CVE-2025-10585, has been added to CISA’s Known Exploited Vulnerabilities (KEV) catalog, signaling an urgent need for users and administrators to take action. Google has […]…",
-      "source": "cybersecuritynews.com"
-    },
-    {
-      "title": "Hackers Exploit WerFaultSecure.exe Tool to Steal Cached Passwords From LSASS on Windows 11 24H2",
-      "link": "https://cybersecuritynews.com/windows-11-cached-passwords/",
-      "date": "2025-09-24T07:56:20Z",
-      "description": "Threat actors are leveraging the legacy Windows error‐reporting utility WerFaultSecure.exe to extract the memory region of the Local Security Authority Subsystem Service (LSASS.EXE) and harvest cached credentials from fully patched Windows 11 24H2 systems. After gaining initial access to a host, adversaries frequently seek to dump LSASS memory to escalate privileges and move laterally across […]…",
-      "source": "cybersecuritynews.com"
-    },
-    {
-      "title": "CISA Warns of Shai-Hulud Self-Replicating Worm Compromised 500+ Packages in npm Registry",
-      "link": "https://cybersecuritynews.com/cisa-shai-hulud-npm-attack/",
-      "date": "2025-09-24T07:40:43Z",
-      "description": "CISA has issued an urgent security Alert in response to a large-scale software supply chain attack on npmjs.com, the world’s largest JavaScript package registry. A self-replicating worm, dubbed Shai-Hulud, has infiltrated more than 500 npm packages and injected malicious code that aggressively spreads by abusing developer credentials and npm publish workflows. Self-Replicating npm Supply Chain…",
-      "source": "cybersecuritynews.com"
     },
     {
       "title": "Libraesva Email Security Gateway Vulnerability Exploited by Nation-State Hackers",
@@ -84,13 +91,6 @@
       "link": "https://www.securityweek.com/jaguar-land-rover-says-shutdown-will-continue-until-at-least-oct-1-after-cyberattack/",
       "date": "2025-09-23T22:39:48Z",
       "description": "JLR extended the pause in production “to give clarity for the coming week as we build the timeline for the phased restart of our operations and continue our investigation.” The post Jaguar Land Rover Says Shutdown Will Continue Until at Least Oct 1 After Cyberattack appeared first on SecurityWeek.",
-      "source": "securityweek.com"
-    },
-    {
-      "title": "A Massive Telecom Threat Was Stopped Right As World Leaders Gathered at UN Headquarters in New York",
-      "link": "https://www.securityweek.com/a-massive-telecom-threat-was-stopped-right-as-world-leaders-gathered-at-un-headquarters-in-new-york/",
-      "date": "2025-09-23T22:30:25Z",
-      "description": "More than 300 servers and 100,000 SIM cards designed to mimic cellphones and overwhelm networks. The post A Massive Telecom Threat Was Stopped Right As World Leaders Gathered at UN Headquarters in New York appeared first on SecurityWeek.",
       "source": "securityweek.com"
     },
     {
