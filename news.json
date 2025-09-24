@@ -1,7 +1,42 @@
 {
-  "last_updated": "2025-09-24T07:11:03Z",
+  "last_updated": "2025-09-24T08:14:46Z",
   "count": 40,
   "items": [
+    {
+      "title": "Hackers Exploit WerFaultSecure.exe Tool to Steal Cached Passwords From Windows 11 24H2",
+      "link": "https://cybersecuritynews.com/windows-11-cached-passwords/",
+      "date": "2025-09-24T07:56:20Z",
+      "description": "Threat actors are leveraging the legacy Windows error‐reporting utility WerFaultSecure.exe to extract the memory region of the Local Security Authority Subsystem Service (LSASS.EXE) and harvest cached credentials from fully patched Windows 11 24H2 systems. After gaining initial access to a host, adversaries frequently seek to dump LSASS memory to escalate privileges and move laterally across […]…",
+      "source": "cybersecuritynews.com"
+    },
+    {
+      "title": "CISA Warns of Shai-Hulud Self-Replicating Worm Compromised 500+ Packages in npm Registry",
+      "link": "https://cybersecuritynews.com/cisa-shai-hulud-npm-attack/",
+      "date": "2025-09-24T07:40:43Z",
+      "description": "CISA has issued an urgent security Alert in response to a large-scale software supply chain attack on npmjs.com, the world’s largest JavaScript package registry. A self-replicating worm, dubbed Shai-Hulud, has infiltrated more than 500 npm packages and injected malicious code that aggressively spreads by abusing developer credentials and npm publish workflows. Self-Replicating npm Supply Chain…",
+      "source": "cybersecuritynews.com"
+    },
+    {
+      "title": "Libraesva Email Security Gateway Vulnerability Exploited by Nation-State Hackers",
+      "link": "https://www.securityweek.com/libraesva-email-security-gateway-vulnerability-exploited-by-nation-state-hackers/",
+      "date": "2025-09-24T07:26:20Z",
+      "description": "Tracked as CVE-2025-59689, the command injection bug could be triggered via malicious emails containing crafted compressed attachments. The post Libraesva Email Security Gateway Vulnerability Exploited by Nation-State Hackers appeared first on SecurityWeek.",
+      "source": "securityweek.com"
+    },
+    {
+      "title": "Hackers Exploit Pandoc CVE-2025-51591 to Target AWS IMDS and Steal EC2 IAM Credentials",
+      "link": "https://thehackernews.com/2025/09/hackers-exploit-pandoc-cve-2025-51591.html",
+      "date": "2025-09-24T07:15:00Z",
+      "description": "Cloud security company Wiz has revealed that it uncovered in-the-wild exploitation of a security flaw in a Linux utility called Pandoc as part of attacks designed to infiltrate Amazon Web Services (AWS) Instance Metadata Service (IMDS). The vulnerability in question is CVE-2025-51591 (CVSS score: 6.5), which refers to a case of Server-Side Request Forgery (SSRF) that allows attackers to",
+      "source": "thehackernews.com"
+    },
+    {
+      "title": "Kali Linux 2025.3 Released With New Features and 10 New Hacking Tools",
+      "link": "https://cybersecuritynews.com/kali-linux-2025-3-released/",
+      "date": "2025-09-24T07:11:21Z",
+      "description": "Kali team has released Kali Linux 2025.3, the third major update of the year for the popular penetration testing and ethical hacking distribution. This release introduces 10 new tools, brings significant updates to its mobile platform, Kali NetHunter, and enhances wireless capabilities for Raspberry Pi devices Key updates in this version include a refresh of […] The post Kali Linux 2025.3…",
+      "source": "cybersecuritynews.com"
+    },
     {
       "title": "State-Sponsored Hackers Exploiting Libraesva Email Security Gateway Vulnerability",
       "link": "https://thehackernews.com/2025/09/state-sponsored-hackers-exploiting.html",
@@ -24,32 +59,11 @@
       "source": "cybersecuritynews.com"
     },
     {
-      "title": "Threat Actors Breaking to Enterprise Infrastructure Within 18 Minutes From Initial Access",
-      "link": "https://cybersecuritynews.com/threat-actors-breaking-to-enterprise-infrastructure/",
-      "date": "2025-09-24T00:07:11Z",
-      "description": "Cybersecurity professionals are facing an unprecedented acceleration in threat actor capabilities as the average breakout time—the period from initial access to lateral movement—has plummeted to a mere 18 minutes during the June-August 2025 reporting period. This alarming statistic represents a dramatic reduction from previous timeframes, with the fastest recorded incident clocking in at just…",
-      "source": "cybersecuritynews.com"
-    },
-    {
       "title": "As Incidents Rise, Japanese Government's Cybersecurity Falls Short",
       "link": "https://www.darkreading.com/cyber-risk/japanese-governments-cybersecurity-falls-short",
       "date": "2025-09-24T00:00:00Z",
       "description": "The Japanese government suffered the most cybersecurity incidents in 2024 — 447, nearly double the previous year — while failing to manage 16% of critical systems.",
       "source": "darkreading.com"
-    },
-    {
-      "title": "New Malware in npm Package Steals Browser Passwords Using Steganographic QR Code",
-      "link": "https://cybersecuritynews.com/new-malware-in-npm-package-steals-browser-passwords/",
-      "date": "2025-09-23T23:49:55Z",
-      "description": "A sophisticated malware campaign has emerged in the npm ecosystem, utilizing an innovative steganographic technique to conceal malicious code within QR codes. The malicious package, identified as “fezbox,” presents itself as a legitimate JavaScript/TypeScript utility library while secretly executing password-stealing operations through a cleverly disguised QR code payload. This attack represents…",
-      "source": "cybersecuritynews.com"
-    },
-    {
-      "title": "Zloader Malware Repurposed to Act as Entry Point Into Corporate Environments to Deploy Ransomware",
-      "link": "https://cybersecuritynews.com/zloader-malware-repurposed/",
-      "date": "2025-09-23T23:27:23Z",
-      "description": "Zloader, a sophisticated Zeus-based modular trojan that first emerged in 2015, has undergone a significant transformation from its original banking-focused operations to become a dangerous entry point for ransomware attacks in corporate environments. Originally designed to facilitate financial fraud, this malware family has evolved into a powerful tool for initial access brokers who specialize…",
-      "source": "cybersecuritynews.com"
     },
     {
       "title": "Jaguar Land Rover Says Shutdown Will Continue Until at Least Oct 1 After Cyberattack",
@@ -162,20 +176,6 @@
       "date": "2025-09-23T15:07:27Z",
       "description": "CISA has revealed that attackers breached the network of an unnamed U.S. federal civilian executive branch (FCEB) agency last year after compromising an unpatched GeoServer instance. [...]",
       "source": "bleepingcomputer.com"
-    },
-    {
-      "title": "SolarWinds Releases Hotfix for Critical CVE-2025-26399 Remote Code Execution Flaw",
-      "link": "https://thehackernews.com/2025/09/solarwinds-releases-hotfix-for-critical.html",
-      "date": "2025-09-23T12:46:00Z",
-      "description": "SolarWinds has released hot fixes to address a critical security flaw impacting its Web Help Desk software that, if successfully exploited, could allow attackers to execute arbitrary commands on susceptible systems. The vulnerability, tracked as CVE-2025-26399 (CVSS score: 9.8), has been described as an instance of deserialization of untrusted data that could result in code execution. It affects",
-      "source": "thehackernews.com"
-    },
-    {
-      "title": "Unit 221B Raises $5 Million for Threat Intel Aiding Hacker Arrests",
-      "link": "https://www.securityweek.com/unit-221b-raises-5-million-for-threat-intel-aiding-hacker-arrests/",
-      "date": "2025-09-23T12:44:17Z",
-      "description": "The company will expand its platform’s capabilities and accelerate investigative collaboration and go-to-market efforts. The post Unit 221B Raises $5 Million for Threat Intel Aiding Hacker Arrests appeared first on SecurityWeek.",
-      "source": "securityweek.com"
     },
     {
       "title": "ZDI-CAN-28179: Autodesk",

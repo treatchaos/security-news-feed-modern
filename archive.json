@@ -1,7 +1,7 @@
 {
-  "last_updated": "2025-09-24T07:11:03Z",
+  "last_updated": "2025-09-24T08:14:46Z",
   "retention_days": 90,
-  "count": 1792,
+  "count": 1797,
   "items": [
     {
       "id": "038a769a72d3622090d4a7ec7eb7846e40e3d135",
@@ -14,6 +14,56 @@
       "last_seen": "2025-09-23T21:09:13Z"
     },
     {
+      "id": "32ae2c5abba5fe169d5e3297a8fdd17454aecb50",
+      "title": "Hackers Exploit WerFaultSecure.exe Tool to Steal Cached Passwords From Windows 11 24H2",
+      "link": "https://cybersecuritynews.com/windows-11-cached-passwords/",
+      "date": "2025-09-24T07:56:20Z",
+      "description": "Threat actors are leveraging the legacy Windows error‐reporting utility WerFaultSecure.exe to extract the memory region of the Local Security Authority Subsystem Service (LSASS.EXE) and harvest cached credentials from fully patched Windows 11 24H2 systems. After gaining initial access to a host, adversaries frequently seek to dump LSASS memory to escalate privileges and move laterally across […]…",
+      "source": "cybersecuritynews.com",
+      "first_seen": "2025-09-24T08:14:46Z",
+      "last_seen": "2025-09-24T08:14:46Z"
+    },
+    {
+      "id": "3dbb13003ec9414ec3f793affb7e0732a448366f",
+      "title": "CISA Warns of Shai-Hulud Self-Replicating Worm Compromised 500+ Packages in npm Registry",
+      "link": "https://cybersecuritynews.com/cisa-shai-hulud-npm-attack/",
+      "date": "2025-09-24T07:40:43Z",
+      "description": "CISA has issued an urgent security Alert in response to a large-scale software supply chain attack on npmjs.com, the world’s largest JavaScript package registry. A self-replicating worm, dubbed Shai-Hulud, has infiltrated more than 500 npm packages and injected malicious code that aggressively spreads by abusing developer credentials and npm publish workflows. Self-Replicating npm Supply Chain…",
+      "source": "cybersecuritynews.com",
+      "first_seen": "2025-09-24T08:14:46Z",
+      "last_seen": "2025-09-24T08:14:46Z"
+    },
+    {
+      "id": "68cb9392d567de5d0b53854ec6eba0054d2149f0",
+      "title": "Libraesva Email Security Gateway Vulnerability Exploited by Nation-State Hackers",
+      "link": "https://www.securityweek.com/libraesva-email-security-gateway-vulnerability-exploited-by-nation-state-hackers/",
+      "date": "2025-09-24T07:26:20Z",
+      "description": "Tracked as CVE-2025-59689, the command injection bug could be triggered via malicious emails containing crafted compressed attachments. The post Libraesva Email Security Gateway Vulnerability Exploited by Nation-State Hackers appeared first on SecurityWeek.",
+      "source": "securityweek.com",
+      "first_seen": "2025-09-24T08:14:46Z",
+      "last_seen": "2025-09-24T08:14:46Z"
+    },
+    {
+      "id": "559baf7e3becd2e09de020f0eac1304512e93c91",
+      "title": "Hackers Exploit Pandoc CVE-2025-51591 to Target AWS IMDS and Steal EC2 IAM Credentials",
+      "link": "https://thehackernews.com/2025/09/hackers-exploit-pandoc-cve-2025-51591.html",
+      "date": "2025-09-24T07:15:00Z",
+      "description": "Cloud security company Wiz has revealed that it uncovered in-the-wild exploitation of a security flaw in a Linux utility called Pandoc as part of attacks designed to infiltrate Amazon Web Services (AWS) Instance Metadata Service (IMDS). The vulnerability in question is CVE-2025-51591 (CVSS score: 6.5), which refers to a case of Server-Side Request Forgery (SSRF) that allows attackers to",
+      "source": "thehackernews.com",
+      "first_seen": "2025-09-24T08:14:46Z",
+      "last_seen": "2025-09-24T08:14:46Z"
+    },
+    {
+      "id": "49fe92b9a4420e133845d8df6a0494705a5fc8cf",
+      "title": "Kali Linux 2025.3 Released With New Features and 10 New Hacking Tools",
+      "link": "https://cybersecuritynews.com/kali-linux-2025-3-released/",
+      "date": "2025-09-24T07:11:21Z",
+      "description": "Kali team has released Kali Linux 2025.3, the third major update of the year for the popular penetration testing and ethical hacking distribution. This release introduces 10 new tools, brings significant updates to its mobile platform, Kali NetHunter, and enhances wireless capabilities for Raspberry Pi devices Key updates in this version include a refresh of […] The post Kali Linux 2025.3…",
+      "source": "cybersecuritynews.com",
+      "first_seen": "2025-09-24T08:14:46Z",
+      "last_seen": "2025-09-24T08:14:46Z"
+    },
+    {
       "id": "abca21cf4d46a57041139f2ebe5776edfb95736f",
       "title": "State-Sponsored Hackers Exploiting Libraesva Email Security Gateway Vulnerability",
       "link": "https://thehackernews.com/2025/09/state-sponsored-hackers-exploiting.html",
@@ -21,7 +71,7 @@
       "description": "Libraesva has released a security update to address a vulnerability in its Email Security Gateway (ESG) solution that it said has been exploited by state-sponsored threat actors. The vulnerability, tracked as CVE-2025-59689, carries a CVSS score of 6.1, indicating medium severity. \"Libraesva ESG is affected by a command injection flaw that can be triggered by a malicious email containing a",
       "source": "thehackernews.com",
       "first_seen": "2025-09-24T07:11:03Z",
-      "last_seen": "2025-09-24T07:11:03Z"
+      "last_seen": "2025-09-24T08:14:46Z"
     },
     {
       "id": "bcecf41e1bab16e3ed9c62a8ea51af1112d27084",
@@ -31,7 +81,7 @@
       "description": "CISA has released a comprehensive cybersecurity advisory detailing how threat actors successfully compromised a U.S. federal civilian executive branch agency’s network by exploiting CVE-2024-36401, a critical remote code execution vulnerability in GeoServer. The incident, which remained undetected for three weeks, highlights significant gaps in vulnerability management and incident response…",
       "source": "cybersecuritynews.com",
       "first_seen": "2025-09-24T06:16:14Z",
-      "last_seen": "2025-09-24T07:11:03Z"
+      "last_seen": "2025-09-24T08:14:46Z"
     },
     {
       "id": "df76bda2593cdf3b045eeca43dbf595f16747c03",
@@ -41,7 +91,7 @@
       "description": "Google has issued an urgent security update for its Chrome web browser to address three high-severity vulnerabilities that could allow attackers to access sensitive information or cause the system to crash. The company is advising users to update their browsers immediately to mitigate the potential risks associated with these flaws. The latest patch brings the […] The post Chrome High-severity…",
       "source": "cybersecuritynews.com",
       "first_seen": "2025-09-24T03:25:43Z",
-      "last_seen": "2025-09-24T07:11:03Z"
+      "last_seen": "2025-09-24T08:14:46Z"
     },
     {
       "id": "d26e4f69bc281ae9aec3ea8e51a19f80ae22c7c0",
@@ -61,7 +111,7 @@
       "description": "The Japanese government suffered the most cybersecurity incidents in 2024 — 447, nearly double the previous year — while failing to manage 16% of critical systems.",
       "source": "darkreading.com",
       "first_seen": "2025-09-24T00:48:37Z",
-      "last_seen": "2025-09-24T07:11:03Z"
+      "last_seen": "2025-09-24T08:14:46Z"
     },
     {
       "id": "e01020453285bb7efa5cf40703b3c2233c0f6f3e",
@@ -91,7 +141,7 @@
       "description": "JLR extended the pause in production “to give clarity for the coming week as we build the timeline for the phased restart of our operations and continue our investigation.” The post Jaguar Land Rover Says Shutdown Will Continue Until at Least Oct 1 After Cyberattack appeared first on SecurityWeek.",
       "source": "securityweek.com",
       "first_seen": "2025-09-23T23:08:58Z",
-      "last_seen": "2025-09-24T07:11:03Z"
+      "last_seen": "2025-09-24T08:14:46Z"
     },
     {
       "id": "994bdbd3b78fa90ac53fae0c6c14727e38c42bc4",
@@ -101,7 +151,7 @@
       "description": "More than 300 servers and 100,000 SIM cards designed to mimic cellphones and overwhelm networks. The post A Massive Telecom Threat Was Stopped Right As World Leaders Gathered at UN Headquarters in New York appeared first on SecurityWeek.",
       "source": "securityweek.com",
       "first_seen": "2025-09-23T23:08:58Z",
-      "last_seen": "2025-09-24T07:11:03Z"
+      "last_seen": "2025-09-24T08:14:46Z"
     },
     {
       "id": "53c6de10f352a4f5f171e1a2620d09e3c7a1b88f",
@@ -111,7 +161,7 @@
       "description": "US gaming and casino operator Boyd Gaming Corporation disclosed it suffered a breach after threat actors gained access to its systems and stole data, including employee information and data belonging to a limited number of other individuals. [...]",
       "source": "bleepingcomputer.com",
       "first_seen": "2025-09-23T23:08:58Z",
-      "last_seen": "2025-09-24T07:11:03Z"
+      "last_seen": "2025-09-24T08:14:46Z"
     },
     {
       "id": "97de507fb3dfb73c7c90a3121abb82e54cb76176",
@@ -121,7 +171,7 @@
       "description": "GitHub will address weak authentication and overly permissive tokens in the NPM ecosystem, following high-profile threat campaigns like those involving Shai-Hulud malware.",
       "source": "darkreading.com",
       "first_seen": "2025-09-23T22:09:43Z",
-      "last_seen": "2025-09-24T07:11:03Z"
+      "last_seen": "2025-09-24T08:14:46Z"
     },
     {
       "id": "58e144d32371ac2423515b1e98b17684170f192a",
@@ -131,7 +181,7 @@
       "description": "The for-hire platform leverages legitimate cloud-native tools to make detection and disruption harder for defenders and SOC analysts.",
       "source": "darkreading.com",
       "first_seen": "2025-09-23T21:09:13Z",
-      "last_seen": "2025-09-24T07:11:03Z"
+      "last_seen": "2025-09-24T08:14:46Z"
     },
     {
       "id": "345768482018a699139402b86a03fb3dc836a9d2",
@@ -141,7 +191,7 @@
       "description": "Cybersecurity leader Jason Manar shares insights on diverse career paths, essential skills, and practical advice for entering and thriving in the high-stress yet rewarding field of cybersecurity.",
       "source": "darkreading.com",
       "first_seen": "2025-09-23T21:09:13Z",
-      "last_seen": "2025-09-24T07:11:03Z"
+      "last_seen": "2025-09-24T08:14:46Z"
     },
     {
       "id": "af9fe90c2009370c350995a7708cb9d0d88ccce1",
@@ -161,7 +211,7 @@
       "description": "Dark Reading Confidential Episode 10: It’s past time for a comprehensive plan to protect vital US systems from nation-state cyberattacks, and increasingly, that responsibility is falling to asset owners across a vast swath of organizations, who likely never bargained for an international cyber conflict playing out in their environments. But here we are. And here’s what comes next, according to…",
       "source": "darkreading.com",
       "first_seen": "2025-09-23T20:11:24Z",
-      "last_seen": "2025-09-24T07:11:03Z"
+      "last_seen": "2025-09-24T08:14:46Z"
     },
     {
       "id": "481eb35e471c632be5ce789b16d84cb10961454c",
@@ -171,7 +221,7 @@
       "description": "Binarly researchers have found a way to bypass a patch for a previously disclosed vulnerability. The post Patch Bypassed for Supermicro Vulnerability Allowing BMC Hack appeared first on SecurityWeek.",
       "source": "securityweek.com",
       "first_seen": "2025-09-23T18:15:55Z",
-      "last_seen": "2025-09-24T07:11:03Z"
+      "last_seen": "2025-09-24T08:14:46Z"
     },
     {
       "id": "1f4faa81bcc836c1409fe1f52f154b94822200b4",
@@ -181,7 +231,7 @@
       "description": "Cybersecurity researchers have disclosed details of two security vulnerabilities impacting Supermicro Baseboard Management Controller (BMC) firmware that could potentially allow attackers to bypass crucial verification steps and update the system with a specially crafted image. The medium-severity vulnerabilities, both of which stem from improper verification of a cryptographic signature, are",
       "source": "thehackernews.com",
       "first_seen": "2025-09-23T19:08:14Z",
-      "last_seen": "2025-09-24T07:11:03Z"
+      "last_seen": "2025-09-24T08:14:46Z"
     },
     {
       "id": "5fd4e821e1ec895fac7af5180bd87e29b493ed90",
@@ -191,7 +241,7 @@
       "description": "Libraesva rolled out an emergency update for its Email Security Gateway solution to fix a vulnerability exploited by threat actors believed to be state sponsored. [...]",
       "source": "bleepingcomputer.com",
       "first_seen": "2025-09-23T18:15:55Z",
-      "last_seen": "2025-09-24T07:11:03Z"
+      "last_seen": "2025-09-24T08:14:46Z"
     },
     {
       "id": "b53d810ff34cc1ca134d1a9c0fe86e303539c885",
@@ -221,7 +271,7 @@
       "description": "Law enforcement authorities in Europe have arrested five suspects in connection with an \"elaborate\" online investment fraud scheme that stole more than €100 million ($118 million) from over 100 victims in France, Germany, Italy, and Spain. According to Eurojust, the coordinated action saw searches in five places across Spain and Portugal, as well as in Italy, Romania and Bulgaria. Bank accounts",
       "source": "thehackernews.com",
       "first_seen": "2025-09-23T18:15:55Z",
-      "last_seen": "2025-09-24T07:11:03Z"
+      "last_seen": "2025-09-24T08:14:46Z"
     },
     {
       "id": "9cf9fbba06e984e5b80ca7f298796f143a130149",
@@ -231,7 +281,7 @@
       "description": "WhatsApp has started rolling out a new translation feature that enables Android and iPhone users to translate messages in chats, groups, and channel updates. [...]",
       "source": "bleepingcomputer.com",
       "first_seen": "2025-09-23T18:15:55Z",
-      "last_seen": "2025-09-24T07:11:03Z"
+      "last_seen": "2025-09-24T08:14:46Z"
     },
     {
       "id": "9f4c3bd89f0639179ecce363da43f8ad8b943c0b",
@@ -251,7 +301,7 @@
       "description": "CVE-2025-26399 is a patch bypass of CVE-2024-28988, which is a patch bypass of the exploited CVE-2024-28986. The post SolarWinds Makes Third Attempt at Patching Exploited Vulnerability appeared first on SecurityWeek.",
       "source": "securityweek.com",
       "first_seen": "2025-09-23T17:07:49Z",
-      "last_seen": "2025-09-24T07:11:03Z"
+      "last_seen": "2025-09-24T08:14:46Z"
     },
     {
       "id": "eefec4b39c9ba9d4e99a970e83ee120103fd3408",
@@ -271,7 +321,7 @@
       "description": "Cloudflare has mitigated a distributed denial-of-service (DDoS) attack that peaked at a record-breaking 22.2 terabits per second (Tbps) and 10.6 billion packets per second (Bpps). [...]",
       "source": "bleepingcomputer.com",
       "first_seen": "2025-09-23T16:13:26Z",
-      "last_seen": "2025-09-24T07:11:03Z"
+      "last_seen": "2025-09-24T08:14:46Z"
     },
     {
       "id": "e3f6931cac779de7400f9846d7c110200943a1cc",
@@ -281,7 +331,7 @@
       "description": "The U.S. Secret Service on Tuesday said it took down a network of electronic devices located across the New York tri-state area that were used to threaten U.S. government officials and posed an imminent threat to national security. \"This protective intelligence investigation led to the discovery of more than 300 co-located SIM servers and 100,000 SIM cards across multiple sites,\" the Secret",
       "source": "thehackernews.com",
       "first_seen": "2025-09-23T17:07:49Z",
-      "last_seen": "2025-09-24T07:11:03Z"
+      "last_seen": "2025-09-24T08:14:46Z"
     },
     {
       "id": "f478e88ca38b884e325a9cc7cb48ed27cf96dcce",
@@ -291,7 +341,7 @@
       "description": "CISA has revealed that attackers breached the network of an unnamed U.S. federal civilian executive branch (FCEB) agency last year after compromising an unpatched GeoServer instance. [...]",
       "source": "bleepingcomputer.com",
       "first_seen": "2025-09-23T15:11:15Z",
-      "last_seen": "2025-09-24T07:11:03Z"
+      "last_seen": "2025-09-24T08:14:46Z"
     },
     {
       "id": "3aa3b713a68daec8776af9db684f4f8bab17a853",
@@ -621,7 +671,7 @@
       "description": "A CVSS score 7.8 AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H severity vulnerability discovered by 'Mat Powell of Trend Zero Day Initiative' was reported to the affected vendor on: 2025-09-23, 0 days ago. The vendor is given until 2026-01-21 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
       "source": "zerodayinitiative.com",
       "first_seen": "2025-09-23T20:11:24Z",
-      "last_seen": "2025-09-24T07:11:03Z"
+      "last_seen": "2025-09-24T08:14:46Z"
     },
     {
       "id": "399b5afff40a9163b3b21fb53582adb9794c580c",
@@ -631,7 +681,7 @@
       "description": "A CVSS score 7.8 AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H severity vulnerability discovered by 'Mat Powell of Trend Zero Day Initiative' was reported to the affected vendor on: 2025-09-23, 0 days ago. The vendor is given until 2026-01-21 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
       "source": "zerodayinitiative.com",
       "first_seen": "2025-09-23T20:11:24Z",
-      "last_seen": "2025-09-24T07:11:03Z"
+      "last_seen": "2025-09-24T08:14:46Z"
     },
     {
       "id": "1958f84e468286db49c834f883149419260580d1",
@@ -641,7 +691,7 @@
       "description": "A CVSS score 7.8 AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H severity vulnerability discovered by 'Mat Powell of Trend Zero Day Initiative' was reported to the affected vendor on: 2025-09-23, 0 days ago. The vendor is given until 2026-01-21 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
       "source": "zerodayinitiative.com",
       "first_seen": "2025-09-23T20:11:24Z",
-      "last_seen": "2025-09-24T07:11:03Z"
+      "last_seen": "2025-09-24T08:14:46Z"
     },
     {
       "id": "da705d786405f7c50c4dce4b441cec53510b4d2e",
@@ -651,7 +701,7 @@
       "description": "A CVSS score 7.8 AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H severity vulnerability discovered by 'Peter Girnus (@gothburz) and Brandon Niemczyk of Trend Zero Day Initiative' was reported to the affected vendor on: 2025-09-23, 0 days ago. The vendor is given until 2026-01-21 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
       "source": "zerodayinitiative.com",
       "first_seen": "2025-09-23T20:11:24Z",
-      "last_seen": "2025-09-24T07:11:03Z"
+      "last_seen": "2025-09-24T08:14:46Z"
     },
     {
       "id": "fcbf1fe0a71c56c0003335c4b8546bc5145daf88",
@@ -661,7 +711,7 @@
       "description": "A CVSS score 7.8 AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H severity vulnerability discovered by 'Peter Girnus (@gothburz) and Brandon Niemczyk of Trend Zero Day Initiative' was reported to the affected vendor on: 2025-09-23, 0 days ago. The vendor is given until 2026-01-21 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
       "source": "zerodayinitiative.com",
       "first_seen": "2025-09-24T04:12:41Z",
-      "last_seen": "2025-09-24T07:11:03Z"
+      "last_seen": "2025-09-24T08:14:46Z"
     },
     {
       "id": "f82cea38f44b8c93e39f860f85a1f223f276766a",
@@ -1111,7 +1161,7 @@
       "description": "The post PoC Released for CVE-2025-41243 – A Spring Cloud Gateway Flaw with CVSS 10.0 appeared first on Daily CyberSecurity.",
       "source": "securityonline.info",
       "first_seen": "2025-09-22T02:25:08Z",
-      "last_seen": "2025-09-24T07:11:03Z"
+      "last_seen": "2025-09-24T08:14:46Z"
     },
     {
       "id": "24293fd1bd222551e54a6925990b3406ab30601b",
@@ -4061,7 +4111,7 @@
       "description": "The post Stack-Based Buffer Overflow in Squid Could Let Hackers Execute Arbitrary Code appeared first on Daily CyberSecurity.",
       "source": "securityonline.info",
       "first_seen": "2025-09-15T09:12:37Z",
-      "last_seen": "2025-09-24T07:11:03Z"
+      "last_seen": "2025-09-24T08:14:46Z"
     },
     {
       "id": "2a0dfe7d373948c0b69ad984e5ad06e20b5d5f96",
@@ -5951,7 +6001,7 @@
       "description": "The post PoC Released: Django SQL Injection Flaw with Technical Details appeared first on Daily CyberSecurity.",
       "source": "securityonline.info",
       "first_seen": "2025-09-10T04:11:58Z",
-      "last_seen": "2025-09-24T07:11:03Z"
+      "last_seen": "2025-09-24T08:14:46Z"
     },
     {
       "id": "bb45c1c6922be1a0e959bb78257055a040a2cc26",
@@ -6671,7 +6721,7 @@
       "description": "The post CVSS 9.8 Flaw in macOS Allows Apps to Access Protected User Data, PoC Available appeared first on Daily CyberSecurity.",
       "source": "securityonline.info",
       "first_seen": "2025-09-09T00:48:55Z",
-      "last_seen": "2025-09-24T07:11:03Z"
+      "last_seen": "2025-09-24T08:14:46Z"
     },
     {
       "id": "84ea86e3c17b1699da885056024021f6113c5da4",
@@ -7111,7 +7161,7 @@
       "description": "The post PgAdmin Flaw Exposes Accounts to OAuth Hijacking Attacks appeared first on Daily CyberSecurity.",
       "source": "securityonline.info",
       "first_seen": "2025-09-08T04:13:22Z",
-      "last_seen": "2025-09-24T07:11:03Z"
+      "last_seen": "2025-09-24T08:14:46Z"
     },
     {
       "id": "096977c73e3b046ba8240c2770dfbebf322aacff",
@@ -17881,7 +17931,7 @@
       "description": "2.5 million people were affected, in a breach that could spell more trouble down the line.",
       "source": "threatpost.com",
       "first_seen": "2025-08-13T09:11:28Z",
-      "last_seen": "2025-09-24T07:11:03Z"
+      "last_seen": "2025-09-24T08:14:46Z"
     },
     {
       "id": "4140c7a34b0ba94ad2e6b0cae9f59b0cb9bfffea",
@@ -17891,7 +17941,7 @@
       "description": "Researchers uncover a watering hole attack likely carried out by APT TA423, which attempts to plant the ScanBox JavaScript-based reconnaissance tool.",
       "source": "threatpost.com",
       "first_seen": "2025-08-13T09:11:28Z",
-      "last_seen": "2025-09-24T07:11:03Z"
+      "last_seen": "2025-09-24T08:14:46Z"
     },
     {
       "id": "9359ee40a641a4b565080313045f1d7e7fe6552b",
@@ -17901,7 +17951,7 @@
       "description": "Over 130 companies tangled in sprawling phishing campaign that spoofed a multi-factor authentication system.",
       "source": "threatpost.com",
       "first_seen": "2025-08-13T09:11:28Z",
-      "last_seen": "2025-09-24T07:11:03Z"
+      "last_seen": "2025-09-24T08:14:46Z"
     },
     {
       "id": "b4ccef0737cd4050d65241bf754072030b6b5e6a",
@@ -17911,7 +17961,7 @@
       "description": "Lockbit is by far this summer’s most prolific ransomware group, trailed by two offshoots of the Conti group.",
       "source": "threatpost.com",
       "first_seen": "2025-08-13T09:11:28Z",
-      "last_seen": "2025-09-24T07:11:03Z"
+      "last_seen": "2025-09-24T08:14:46Z"
     },
     {
       "id": "12ee113fc8fce91f6d7fb28deab2b1ad20061ec7",
@@ -17921,7 +17971,7 @@
       "description": "Tens of thousands of cameras have failed to patch a critical, 11-month-old CVE, leaving thousands of organizations exposed.",
       "source": "threatpost.com",
       "first_seen": "2025-08-13T09:11:28Z",
-      "last_seen": "2025-09-24T07:11:03Z"
+      "last_seen": "2025-09-24T08:14:46Z"
     }
   ]
 }
