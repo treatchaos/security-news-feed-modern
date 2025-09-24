@@ -1,7 +1,49 @@
 {
-  "last_updated": "2025-09-24T12:20:41Z",
+  "last_updated": "2025-09-24T13:21:37Z",
   "count": 40,
   "items": [
+    {
+      "title": "PyPI urges users to reset credentials after new phishing attacks",
+      "link": "https://www.bleepingcomputer.com/news/security/pypi-urges-users-to-reset-credentials-after-new-phishing-attacks/",
+      "date": "2025-09-24T13:15:30Z",
+      "description": "The Python Software Foundation has warned victims of a new wave of phishing attacks using a fake Python Package Index (PyPI) website to reset credentials. [...]",
+      "source": "bleepingcomputer.com"
+    },
+    {
+      "title": "Hackers Can Compromise Chromium Browsers in Windows by Loading Arbitrary Extensions",
+      "link": "https://cybersecuritynews.com/chromium-browsers-windows-arbitrary-extensions/",
+      "date": "2025-09-24T13:12:08Z",
+      "description": "Chromium-based browsers, including Chrome, Edge, and Brave, manage installed extensions via JSON preference files stored under %AppData%\\Google\\User Data\\Default\\Preferences (for domain-joined machines) or Secure Preferences (for standalone systems). Synacktiv research indicates that by directly altering these files, attackers can make the browser load any extensions without the user’s consent…",
+      "source": "cybersecuritynews.com"
+    },
+    {
+      "title": "Threat Actor Deploys 'OVERSTEP' Backdoor in Ongoing SonicWall SMA Attacks",
+      "link": "https://www.darkreading.com/cyberattacks-data-breaches/threat-actor-deploys-overstep-backdoor-in-ongoing-sonicwall-sma-attacks",
+      "date": "2025-09-24T13:00:00Z",
+      "description": "Hackers tracked as UNC6148 are attacking SonicWall security devices by installing hidden software, allowing them to control systems, steal passwords, and hide their activities.",
+      "source": "darkreading.com"
+    },
+    {
+      "title": "GitHub notifications abused to impersonate Y Combinator for crypto theft",
+      "link": "https://www.bleepingcomputer.com/news/security/github-notifications-abused-to-impersonate-y-combinator-for-crypto-theft/",
+      "date": "2025-09-24T12:37:31Z",
+      "description": "A massive phishing campaign targeted GitHub users with cryptocurrency drainers, delivered via fake invitations to the Y Combinator (YC) W2026 program. [...]",
+      "source": "bleepingcomputer.com"
+    },
+    {
+      "title": "GeoServer Flaw Exploited in US Federal Agency Hack",
+      "link": "https://www.securityweek.com/geoserver-flaw-exploited-in-us-federal-agency-hack/",
+      "date": "2025-09-24T12:25:34Z",
+      "description": "The hackers remained undetected for three weeks, deploying China Chopper, remote access scripts, and reconnaissance tools. The post GeoServer Flaw Exploited in US Federal Agency Hack appeared first on SecurityWeek.",
+      "source": "securityweek.com"
+    },
+    {
+      "title": "UK Police Arrested Man Linked to Ransomware Attack That Crippeled European Airports",
+      "link": "https://cybersecuritynews.com/man-arrested-european-airports/",
+      "date": "2025-09-24T12:23:57Z",
+      "description": "A man in his forties has been arrested in West Sussex, England, in connection with a cyber-attack that has caused days of widespread disruption at several major European airports, including London’s Heathrow. The UK’s National Crime Agency (NCA) confirmed the man was arrested on Tuesday evening on suspicion of offenses under the Computer Misuse Act […] The post UK Police Arrested Man Linked to…",
+      "source": "cybersecuritynews.com"
+    },
     {
       "title": "European Airport Cyberattack Linked to Obscure Ransomware, Suspect Arrested",
       "link": "https://www.securityweek.com/european-airport-cyberattack-linked-to-obscure-ransomware-suspect-arrested/",
@@ -52,25 +94,11 @@
       "source": "cybersecuritynews.com"
     },
     {
-      "title": "Salesforce CLI Installer Vulnerability Let Attackers Execute Code and Gain SYSTEM-Level Access",
-      "link": "https://cybersecuritynews.com/salesforce-cli-installer-vulnerability/",
-      "date": "2025-09-24T10:44:46Z",
-      "description": "A critical vulnerability in the Salesforce CLI installer (sf-x64.exe) enables attackers to achieve arbitrary code execution, privilege escalation, and SYSTEM-level access on Windows systems. Tracked as CVE-2025-9844, the flaw stems from improper handling of executable file paths by the installer, allowing malicious files to be executed in place of legitimate binaries when the software is […] The…",
-      "source": "cybersecuritynews.com"
-    },
-    {
       "title": "GitHub Boosting Security in Response to NPM Supply Chain Attacks",
       "link": "https://www.securityweek.com/github-boosting-security-in-response-to-npm-supply-chain-attacks/",
       "date": "2025-09-24T10:17:20Z",
       "description": "GitHub will implement local publishing with mandatory 2FA, granular tokens that expire after seven days, and trusted publishing. The post GitHub Boosting Security in Response to NPM Supply Chain Attacks appeared first on SecurityWeek.",
       "source": "securityweek.com"
-    },
-    {
-      "title": "Hackers Exploiting Libraesva Email Security Gateway Vulnerability to Inject Malicious Commands",
-      "link": "https://cybersecuritynews.com/libraesva-email-security-gateway-vulnerability/",
-      "date": "2025-09-24T10:16:47Z",
-      "description": "Libraesva has issued an emergency patch for a significant command injection vulnerability in its Email Security Gateway (ESG) after confirming state-sponsored hackers exploited it. The flaw, identified as CVE-2025-59689, allowed attackers to execute arbitrary commands by sending a malicious email with a specially crafted compressed attachment. The company responded by deploying an automated fix…",
-      "source": "cybersecuritynews.com"
     },
     {
       "title": "Record-Breaking DDoS Attack Peaks at 22 Tbps and 10 Bpps",
@@ -84,13 +112,6 @@
       "link": "https://www.securityweek.com/sonicwall-updates-sma-100-appliances-to-remove-overstep-malware/",
       "date": "2025-09-24T08:28:33Z",
       "description": "The software update includes additional file checks and helps users remove the known rootkit deployed in a recent campaign. The post SonicWall Updates SMA 100 Appliances to Remove Overstep Malware appeared first on SecurityWeek.",
-      "source": "securityweek.com"
-    },
-    {
-      "title": "Libraesva Email Security Gateway Vulnerability Exploited by Nation-State Hackers",
-      "link": "https://www.securityweek.com/libraesva-email-security-gateway-vulnerability-exploited-by-nation-state-hackers/",
-      "date": "2025-09-24T07:26:20Z",
-      "description": "Tracked as CVE-2025-59689, the command injection bug could be triggered via malicious emails containing crafted compressed attachments. The post Libraesva Email Security Gateway Vulnerability Exploited by Nation-State Hackers appeared first on SecurityWeek.",
       "source": "securityweek.com"
     },
     {
@@ -143,13 +164,6 @@
       "source": "darkreading.com"
     },
     {
-      "title": "Dark Reading Confidential: Battle Space: Cyber Pros Land on the Front Lines of Protecting US Critical Infrastructure",
-      "link": "https://www.darkreading.com/cyber-risk/dark-reading-confidential-battle-space-cyber-pros-land-on-the-front-lines-of-protecting-us-critical-infrastructure",
-      "date": "2025-09-23T18:41:11Z",
-      "description": "Dark Reading Confidential Episode 10: It’s past time for a comprehensive plan to protect vital US systems from nation-state cyberattacks, and increasingly, that responsibility is falling to asset owners across a vast swath of organizations, who likely never bargained for an international cyber conflict playing out in their environments. But here we are. And here's what comes next, according to…",
-      "source": "darkreading.com"
-    },
-    {
       "title": "Libraesva ESG issues emergency fix for bug exploited by state hackers",
       "link": "https://www.bleepingcomputer.com/news/security/libraesva-esg-issues-emergency-fix-for-bug-exploited-by-state-hackers/",
       "date": "2025-09-23T17:51:19Z",
@@ -161,20 +175,6 @@
       "link": "https://www.bleepingcomputer.com/news/security/whatsapp-adds-message-translation-to-iphone-and-android-apps/",
       "date": "2025-09-23T17:11:31Z",
       "description": "WhatsApp has started rolling out a new translation feature that enables Android and iPhone users to translate messages in chats, groups, and channel updates. [...]",
-      "source": "bleepingcomputer.com"
-    },
-    {
-      "title": "Cloudflare mitigates new record-breaking 22.2 Tbps DDoS attack",
-      "link": "https://www.bleepingcomputer.com/news/security/cloudflare-mitigates-new-record-breaking-222-tbps-ddos-attack/",
-      "date": "2025-09-23T15:58:55Z",
-      "description": "Cloudflare has mitigated a distributed denial-of-service (DDoS) attack that peaked at a record-breaking 22.2 terabits per second (Tbps) and 10.6 billion packets per second (Bpps). [...]",
-      "source": "bleepingcomputer.com"
-    },
-    {
-      "title": "CISA says hackers breached federal agency using GeoServer exploit",
-      "link": "https://www.bleepingcomputer.com/news/security/cisa-says-hackers-breached-federal-agency-using-geoserver-exploit/",
-      "date": "2025-09-23T15:07:27Z",
-      "description": "CISA has revealed that attackers breached the network of an unnamed U.S. federal civilian executive branch (FCEB) agency last year after compromising an unpatched GeoServer instance. [...]",
       "source": "bleepingcomputer.com"
     },
     {
