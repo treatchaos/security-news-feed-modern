@@ -1,7 +1,35 @@
 {
-  "last_updated": "2025-09-25T08:14:41Z",
+  "last_updated": "2025-09-25T09:11:50Z",
   "count": 40,
   "items": [
+    {
+      "title": "NVIDIA Merlin Vulnerability Allow Attacker to Achieve Remote Code Execution With Root Privileges",
+      "link": "https://cybersecuritynews.com/nvidia-merlin-vulnerability/",
+      "date": "2025-09-25T08:55:37Z",
+      "description": "A critical vulnerability in NVIDIA’s Merlin Transformers4Rec library (CVE-2025-23298) enables unauthenticated attackers to achieve remote code execution (RCE) with root privileges via unsafe deserialization in the model checkpoint loader. The discovery underscores the persistent security risks inherent in ML/AI frameworks’ reliance on Python’s pickle serialization. NVIDIA Merlin Vulnerability…",
+      "source": "cybersecuritynews.com"
+    },
+    {
+      "title": "Cisco Patches Zero-Day Flaw Affecting Routers and Switches",
+      "link": "https://www.securityweek.com/cisco-patches-zero-day-flaw-affecting-routers-and-switches/",
+      "date": "2025-09-25T08:40:41Z",
+      "description": "The security defect allows remote attackers with administrative privileges to execute arbitrary code as the root user. The post Cisco Patches Zero-Day Flaw Affecting Routers and Switches appeared first on SecurityWeek.",
+      "source": "securityweek.com"
+    },
+    {
+      "title": "Numerous Applications Using Google’s Firebase Platform Leaking Highly Sensitive Data",
+      "link": "https://cybersecuritynews.com/numerous-applications-using-googles-firebase-platform/",
+      "date": "2025-09-25T08:28:09Z",
+      "description": "Numerous mobile applications have been found to expose critical user information through misconfigured Firebase services, allowing unauthenticated attackers to access databases, storage buckets, Firestore collections, and Remote Config secrets. This widespread issue first came to light when security researcher Mike Oude Reimer published findings on 16 September 2025, demonstrating that…",
+      "source": "cybersecuritynews.com"
+    },
+    {
+      "title": "Malicious Rust Crates Steal Solana and Ethereum Keys — 8,424 Downloads Confirmed",
+      "link": "https://thehackernews.com/2025/09/malicious-rust-crates-steal-solana-and.html",
+      "date": "2025-09-25T07:59:00Z",
+      "description": "Cybersecurity researchers have discovered two malicious Rust crates impersonating a legitimate library called fast_log to steal Solana and Ethereum wallet keys from source code. The crates, named faster_log and async_println, were published by the threat actor under the alias rustguruman and dumbnbased on May 25, 2025, amassing 8,424 downloads in total, according to software supply chain",
+      "source": "thehackernews.com"
+    },
     {
       "title": "New Domain-fronting Attack Uses Google Meet, YouTube, Chrome and GCP to Tunnel Traffic",
       "link": "https://cybersecuritynews.com/domain-fronting-attack/",
@@ -29,20 +57,6 @@
       "date": "2025-09-25T06:30:00Z",
       "description": "Cisco has warned of a high-severity security flaw in IOS Software and IOS XE Software that could allow a remote attacker to execute arbitrary code or trigger a denial-of-service (DoS) condition under specific circumstances. The company said the vulnerability, CVE-2025-20352 (CVSS score: 7.7), has been exploited in the wild, adding it became aware of it \"after local Administrator credentials were",
       "source": "thehackernews.com"
-    },
-    {
-      "title": "Hackers Exploiting Hikvision Camera Vulnerability to Access Sensitive Information",
-      "link": "https://cybersecuritynews.com/hikvision-camera-vulnerability/",
-      "date": "2025-09-25T06:11:40Z",
-      "description": "A critical vulnerability in Hikvision security cameras, first disclosed in 2017, is being actively exploited by hackers to gain unauthorized access to sensitive information. SANS researchers observed a recent surge in malicious activity targeting a specific flaw, identified as CVE-2017-7921, which carries a critical severity score of 10.0 on the CVSS scale. The exploit attempts […] The post…",
-      "source": "cybersecuritynews.com"
-    },
-    {
-      "title": "BMC Firmware Vulnerabilities Allow Attackers to Bypass Signature Verification Features",
-      "link": "https://cybersecuritynews.com/bmc-firmware-vulnerabilities/",
-      "date": "2025-09-25T06:01:57Z",
-      "description": "Critical vulnerabilities discovered in Supermicro Baseboard Management Controller (BMC) firmware have exposed a troubling pattern where inadequate security fixes create new attack vectors, allowing sophisticated adversaries to bypass signature verification mechanisms and maintain persistent control over enterprise server infrastructure. These flaws, affecting multiple generations of Supermicro…",
-      "source": "cybersecuritynews.com"
     },
     {
       "title": "CISA: Attackers Breach Federal Agency via Critical GeoServer Flaw",
@@ -150,24 +164,10 @@
       "source": "securityweek.com"
     },
     {
-      "title": "How One Bad Password Ended a 158-Year-Old Business",
-      "link": "https://thehackernews.com/2025/09/how-one-bad-password-ended-158-year-old.html",
-      "date": "2025-09-24T11:58:00Z",
-      "description": "Most businesses don't make it past their fifth birthday - studies show that roughly 50% of small businesses fail within the first five years. So when KNP Logistics Group (formerly Knights of Old) celebrated more than a century and a half of operations, it had mastered the art of survival. For 158 years, KNP adapted and endured, building a transport business that operated 500 trucks",
-      "source": "thehackernews.com"
-    },
-    {
       "title": "GitHub Boosting Security in Response to NPM Supply Chain Attacks",
       "link": "https://www.securityweek.com/github-boosting-security-in-response-to-npm-supply-chain-attacks/",
       "date": "2025-09-24T10:17:20Z",
       "description": "GitHub will implement local publishing with mandatory 2FA, granular tokens that expire after seven days, and trusted publishing. The post GitHub Boosting Security in Response to NPM Supply Chain Attacks appeared first on SecurityWeek.",
-      "source": "securityweek.com"
-    },
-    {
-      "title": "Record-Breaking DDoS Attack Peaks at 22 Tbps and 10 Bpps",
-      "link": "https://www.securityweek.com/record-breaking-ddos-attack-peaks-at-22-tbps-and-10-bpps/",
-      "date": "2025-09-24T09:24:34Z",
-      "description": "The attack was aimed at a European network infrastructure company and it has been linked to the Aisuru botnet. The post Record-Breaking DDoS Attack Peaks at 22 Tbps and 10 Bpps appeared first on SecurityWeek.",
       "source": "securityweek.com"
     },
     {
