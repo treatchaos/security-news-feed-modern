@@ -1,7 +1,77 @@
 {
   "date": "2025-09-25",
-  "count": 18,
+  "count": 25,
   "items": [
+    {
+      "id": "f1131136115a016a8e8d218d802b7754a528397f",
+      "title": "SetupHijack Tool Exploits Race Conditions and Insecure File Handling in Windows Installer Processes",
+      "link": "https://cybersecuritynews.com/setuphijack-tool/",
+      "date": "2025-09-25T12:17:31Z",
+      "description": "SetupHijack, an open-source research utility, has emerged as a powerful method for red teaming and security research by targeting race conditions and insecure file handling within Windows installer and update mechanisms. By polling world-writable directories such as %TEMP%, %APPDATA%, and %USERPROFILE%\\Downloads, the tool intercepts installer‐dropped payloads before they execute with elevated…",
+      "source": "cybersecuritynews.com",
+      "first_seen": "2025-09-25T12:21:21Z",
+      "last_seen": "2025-09-25T12:21:21Z"
+    },
+    {
+      "id": "1ce10172ee32ecf43ad79a51147b79edd07993fd",
+      "title": "New BRICKSTORM Stealthy Backdoor Attacking Tech and Legal Sectors",
+      "link": "https://cybersecuritynews.com/new-brickstorm-stealthy-backdoor/",
+      "date": "2025-09-25T12:06:37Z",
+      "description": "BRICKSTORM has surfaced as a highly evasive backdoor targeting organizations within the technology and legal industries, exploiting trust relationships to infiltrate critical networks. First detected in mid-2025, this malware leverages multi-stage loaders and covert communication channels to avoid detection. Early victims reported unusual latency in remote desktop sessions, prompting deeper…",
+      "source": "cybersecuritynews.com",
+      "first_seen": "2025-09-25T12:21:21Z",
+      "last_seen": "2025-09-25T12:21:21Z"
+    },
+    {
+      "id": "9245e19d610dddcace85e761d3d81a9a0002d858",
+      "title": "CTEM's Core: Prioritization and Validation",
+      "link": "https://thehackernews.com/2025/09/ctems-core-prioritization-and-validation.html",
+      "date": "2025-09-25T11:49:00Z",
+      "description": "Despite a coordinated investment of time, effort, planning, and resources, even the most up-to-date cybersecurity systems continue to fail. Every day. Why? It’s not because security teams can't see enough. Quite the contrary. Every security tool spits out thousands of findings. Patch this. Block that. Investigate this. It's a tsunami of red dots that not even the most crackerjack team on",
+      "source": "thehackernews.com",
+      "first_seen": "2025-09-25T12:21:21Z",
+      "last_seen": "2025-09-25T12:21:21Z"
+    },
+    {
+      "id": "957e0eafd6d7339097e6a622dc43218d7696c380",
+      "title": "Threatsday Bulletin: Rootkit Patch, Federal Breach, OnePlus SMS Leak, TikTok Scandal & More",
+      "link": "https://thehackernews.com/2025/09/threatsday-bulletin-rootkit-patch.html",
+      "date": "2025-09-25T11:48:00Z",
+      "description": "/* ===== Container ===== */ .td-wrap {} /* ===== Section ===== */ .td-section { } .td-title { margin: 16px 0 4px; font-size: 32px; line-height: 1.2; font-weight: 800; } .td-subtitle { margin: 0 0 24px; color: #64748b; font-size: 16px; } /* ===== Timeline ===== */ .td-timeline { position: relative; margin: 0 !important;padding: 0!important; list-style: none; } /* spine */ .td-timeline:before {",
+      "source": "thehackernews.com",
+      "first_seen": "2025-09-25T12:21:21Z",
+      "last_seen": "2025-09-25T12:21:21Z"
+    },
+    {
+      "id": "adcbb153db2fe48741f7cf3a3ad375757b1bd866",
+      "title": "COLDRIVER APT Group Uses ClickFix To Deliver a New PowerShell-Based Backdoor BAITSWITCH",
+      "link": "https://cybersecuritynews.com/coldriver-apt-group-uses-clickfix/",
+      "date": "2025-09-25T11:39:04Z",
+      "description": "In recent weeks, security researchers have observed a surge in targeted attacks attributed to the COLDRIVER advanced persistent threat (APT) group. This adversary has introduced a new PowerShell-based backdoor, dubbed BAITSWITCH, which exhibits sophisticated command-and-control techniques while blending into legitimate Windows processes. Initial sightings trace back to late July 2025, when…",
+      "source": "cybersecuritynews.com",
+      "first_seen": "2025-09-25T12:21:21Z",
+      "last_seen": "2025-09-25T12:21:21Z"
+    },
+    {
+      "id": "9031ba9ef5c4078640e897fa248e759af744b370",
+      "title": "Chinese Spies Lurked in Networks for 393 Days, Hunted for Zero-Day Intel",
+      "link": "https://www.securityweek.com/chinese-spies-lurked-in-networks-for-393-days-hunted-for-zero-day-intel/",
+      "date": "2025-09-25T11:35:33Z",
+      "description": "Google’s Threat Intelligence Group and Mandiant have shared findings on a recent BrickStorm campaign linked to UNC5221. The post Chinese Spies Lurked in Networks for 393 Days, Hunted for Zero-Day Intel appeared first on SecurityWeek.",
+      "source": "securityweek.com",
+      "first_seen": "2025-09-25T12:21:21Z",
+      "last_seen": "2025-09-25T12:21:21Z"
+    },
+    {
+      "id": "aed427299562b15b4a412c6c3f8b622ef4b58af4",
+      "title": "Cisco IOS and XE Vulnerability Let Remote Attacker Bypass Authentication and Access Sensitive Data",
+      "link": "https://cybersecuritynews.com/cisco-ios-and-xe-vulnerability/",
+      "date": "2025-09-25T11:27:09Z",
+      "description": "A critical vulnerability in the implementation of the TACACS+ protocol for Cisco IOS and IOS XE Software could allow an unauthenticated, remote attacker to bypass authentication controls or access sensitive data. The flaw originates from the software’s failure to properly verify whether a required TACACS+ shared secret is configured, creating a window for machine-in-the-middle (MitM) […] The…",
+      "source": "cybersecuritynews.com",
+      "first_seen": "2025-09-25T12:21:21Z",
+      "last_seen": "2025-09-25T12:21:21Z"
+    },
     {
       "id": "5c31bec848bd1cf971d07ebccc6950e9b942e033",
       "title": "CSA Unveils SaaS Security Controls Framework to Ease Complexity",
@@ -10,7 +80,7 @@
       "description": "New framework from the Cloud Security Alliance helps SaaS customers navigate the shared responsibility model with confidence. The post CSA Unveils SaaS Security Controls Framework to Ease Complexity appeared first on SecurityWeek.",
       "source": "securityweek.com",
       "first_seen": "2025-09-25T11:09:46Z",
-      "last_seen": "2025-09-25T11:09:46Z"
+      "last_seen": "2025-09-25T12:21:21Z"
     },
     {
       "id": "1e008f231aadada884a0a24340dd3c37d0b94282",
@@ -20,7 +90,7 @@
       "description": "Volvo Group North America has begun notifying employees and associates about a data breach that exposed their personal information, including names and Social Security numbers. The security incident did not originate within Volvo’s own networks but was the result of a ransomware attack on one of its third-party human resources software suppliers, a company named […] The post Volvo Group…",
       "source": "cybersecuritynews.com",
       "first_seen": "2025-09-25T11:09:46Z",
-      "last_seen": "2025-09-25T11:09:46Z"
+      "last_seen": "2025-09-25T12:21:21Z"
     },
     {
       "id": "c8fbb9230f465a29249891a82fab39731af7c201",
@@ -30,7 +100,7 @@
       "description": "The latest Gcore Radar report analyzing attack data from Q1–Q2 2025, reveals a 41% year-on-year increase in total attack volume. The largest attack peaked at 2.2 Tbps, surpassing the 2 Tbps record in late 2024. Attacks are growing not only in scale but in sophistication, with longer durations, multi-layered strategies, and a shift in target industries. Technology now overtakes gaming as the most",
       "source": "thehackernews.com",
       "first_seen": "2025-09-25T11:09:46Z",
-      "last_seen": "2025-09-25T11:09:46Z"
+      "last_seen": "2025-09-25T12:21:21Z"
     },
     {
       "id": "03a428f856fd223273e42b53df92ca893167ae1a",
@@ -40,7 +110,7 @@
       "description": "The Miljödata data breach has impacted numerous organizations, education institutions, and Swedish municipalities. The post Volvo Group Employee Data Stolen in Ransomware Attack appeared first on SecurityWeek.",
       "source": "securityweek.com",
       "first_seen": "2025-09-25T10:11:26Z",
-      "last_seen": "2025-09-25T11:09:46Z"
+      "last_seen": "2025-09-25T12:21:21Z"
     },
     {
       "id": "3071993552a23806d3d541eec06bcb3fdce2a9cf",
@@ -60,7 +130,7 @@
       "description": "The security defect allows remote attackers with administrative privileges to execute arbitrary code as the root user. The post Cisco Patches Zero-Day Flaw Affecting Routers and Switches appeared first on SecurityWeek.",
       "source": "securityweek.com",
       "first_seen": "2025-09-25T09:11:50Z",
-      "last_seen": "2025-09-25T11:09:46Z"
+      "last_seen": "2025-09-25T12:21:21Z"
     },
     {
       "id": "586d0201fbde69d92bc4ab3e7ff976cbfde0336a",
@@ -80,7 +150,7 @@
       "description": "Cybersecurity researchers have discovered two malicious Rust crates impersonating a legitimate library called fast_log to steal Solana and Ethereum wallet keys from source code. The crates, named faster_log and async_println, were published by the threat actor under the alias rustguruman and dumbnbased on May 25, 2025, amassing 8,424 downloads in total, according to software supply chain",
       "source": "thehackernews.com",
       "first_seen": "2025-09-25T09:11:50Z",
-      "last_seen": "2025-09-25T11:09:46Z"
+      "last_seen": "2025-09-25T12:21:21Z"
     },
     {
       "id": "907057c79e9397350b6975c8acf4b9a2fcfd1b23",
@@ -120,7 +190,7 @@
       "description": "Cisco has warned of a high-severity security flaw in IOS Software and IOS XE Software that could allow a remote attacker to execute arbitrary code or trigger a denial-of-service (DoS) condition under specific circumstances. The company said the vulnerability, CVE-2025-20352 (CVSS score: 7.7), has been exploited in the wild, adding it became aware of it \"after local Administrator credentials were",
       "source": "thehackernews.com",
       "first_seen": "2025-09-25T08:14:41Z",
-      "last_seen": "2025-09-25T11:09:46Z"
+      "last_seen": "2025-09-25T12:21:21Z"
     },
     {
       "id": "71b25214de3ea0516022cceeae83ca58ccdec6f3",
@@ -180,7 +250,7 @@
       "description": "Kali Linux has released version 2025.3, the third version of 2025, featuring ten new tools, Nexmon support, and NetHunter improvements. [...]",
       "source": "bleepingcomputer.com",
       "first_seen": "2025-09-25T06:16:38Z",
-      "last_seen": "2025-09-25T11:09:46Z"
+      "last_seen": "2025-09-25T12:21:21Z"
     }
   ]
 }
