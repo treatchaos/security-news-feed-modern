@@ -1,7 +1,49 @@
 {
-  "last_updated": "2025-09-25T16:12:48Z",
+  "last_updated": "2025-09-25T17:09:19Z",
   "count": 40,
   "items": [
+    {
+      "title": "Salesforce AI Agent Vulnerability Allows Let Attackers Exfiltration Sensitive Data",
+      "link": "https://cybersecuritynews.com/salesforce-ai-agent-vulnerability/",
+      "date": "2025-09-25T17:05:37Z",
+      "description": "A critical vulnerability chain in Salesforce’s Agentforce AI platform, which could have allowed external attackers to steal sensitive CRM data. The vulnerability, dubbed ForcedLeak by Noma Labs, which discovered it, carries a CVSS score of 9.4 and was executed through a sophisticated indirect prompt injection attack. This discovery highlights the expanded and fundamentally different attack…",
+      "source": "cybersecuritynews.com"
+    },
+    {
+      "title": "Cisco warns of ASA firewall zero-days exploited in attacks",
+      "link": "https://www.bleepingcomputer.com/news/security/cisco-warns-of-asa-firewall-zero-days-exploited-in-attacks/",
+      "date": "2025-09-25T16:49:36Z",
+      "description": "Cisco warned customers today to patch two zero-day vulnerabilities that are actively being exploited in attacks and impact the company's firewall software. [...]",
+      "source": "bleepingcomputer.com"
+    },
+    {
+      "title": "Hackers Leverage GitHub Notifications to Mimic as Y Combinator to Steal Funds from Wallets",
+      "link": "https://cybersecuritynews.com/hackers-leverage-github-notifications/",
+      "date": "2025-09-25T16:26:36Z",
+      "description": "Cybercriminals have orchestrated a sophisticated phishing campaign exploiting GitHub’s notification system to impersonate the prestigious startup accelerator Y Combinator, targeting developers’ cryptocurrency wallets through fake funding opportunity notifications. The attack leverages GitHub’s issue tracking system to mass-distribute phishing notifications, bypassing traditional email security…",
+      "source": "cybersecuritynews.com"
+    },
+    {
+      "title": "Amazon pays $2.5 billion to settle Prime memberships lawsuit",
+      "link": "https://www.bleepingcomputer.com/news/technology/amazon-pays-25-billion-to-settle-prime-memberships-lawsuit/",
+      "date": "2025-09-25T16:21:24Z",
+      "description": "Amazon will pay $2.5 billion to settle claims by the U.S. Federal Trade Commission (FTC) that it used dark patterns to trick millions of users into enrolling in its Prime program and made it as difficult as possible to cancel the recurring subscriptions. [...]",
+      "source": "bleepingcomputer.com"
+    },
+    {
+      "title": "New LNK Malware Uses Windows Binaries to Bypass Security Tools and Execute Malware",
+      "link": "https://cybersecuritynews.com/new-lnk-malware-uses-windows-binaries/",
+      "date": "2025-09-25T16:17:46Z",
+      "description": "A recent wave of attacks leveraging malicious Windows shortcut files (.LNK) has put security teams on high alert. Emerging in late August 2025, this new LNK malware distribution exploits trusted Microsoft binaries to bypass endpoint protections and execute payloads without raising suspicions. Delivered primarily via spear-phishing emails and compromised websites, the shortcut files appear…",
+      "source": "cybersecuritynews.com"
+    },
+    {
+      "title": "Salesforce AI Hack Enabled CRM Data Theft",
+      "link": "https://www.securityweek.com/salesforce-ai-hack-enabled-crm-data-theft/",
+      "date": "2025-09-25T16:15:26Z",
+      "description": "Prompt injection has been leveraged alongside an expired domain to steal Salesforce data in an attack named ForcedLeak. The post Salesforce AI Hack Enabled CRM Data Theft appeared first on SecurityWeek.",
+      "source": "securityweek.com"
+    },
     {
       "title": "Malicious Rust packages on Crates.io steal crypto wallet keys",
       "link": "https://www.bleepingcomputer.com/news/security/malicious-rust-packages-on-cratesio-steal-crypto-wallet-keys/",
@@ -59,13 +101,6 @@
       "source": "bleepingcomputer.com"
     },
     {
-      "title": "Microsoft will offer free Windows 10 security updates in Europe",
-      "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-will-offer-free-windows-10-security-updates-in-europe/",
-      "date": "2025-09-25T12:45:06Z",
-      "description": "Microsoft will offer free extended security updates for Windows 10 users in the European Economic Area (EEA), which includes Iceland, Liechtenstein, Norway, and all 27 European Union member states. [...]",
-      "source": "bleepingcomputer.com"
-    },
-    {
       "title": "New LockBit 5.0 Ransomware Variant Attacking Windows, Linux, and ESXi Systems",
       "link": "https://cybersecuritynews.com/new-lockbit-5-0-ransomware-variant/",
       "date": "2025-09-25T12:43:12Z",
@@ -94,20 +129,6 @@
       "source": "cybersecuritynews.com"
     },
     {
-      "title": "SetupHijack Tool Exploits Race Conditions and Insecure File Handling in Windows Installer Processes",
-      "link": "https://cybersecuritynews.com/setuphijack-tool/",
-      "date": "2025-09-25T12:17:31Z",
-      "description": "SetupHijack, an open-source research utility, has emerged as a powerful method for red teaming and security research by targeting race conditions and insecure file handling within Windows installer and update mechanisms. By polling world-writable directories such as %TEMP%, %APPDATA%, and %USERPROFILE%\\Downloads, the tool intercepts installer‐dropped payloads before they execute with elevated…",
-      "source": "cybersecuritynews.com"
-    },
-    {
-      "title": "New BRICKSTORM Stealthy Backdoor Attacking Tech and Legal Sectors",
-      "link": "https://cybersecuritynews.com/new-brickstorm-stealthy-backdoor/",
-      "date": "2025-09-25T12:06:37Z",
-      "description": "BRICKSTORM has surfaced as a highly evasive backdoor targeting organizations within the technology and legal industries, exploiting trust relationships to infiltrate critical networks. First detected in mid-2025, this malware leverages multi-stage loaders and covert communication channels to avoid detection. Early victims reported unusual latency in remote desktop sessions, prompting deeper…",
-      "source": "cybersecuritynews.com"
-    },
-    {
       "title": "CTEM's Core: Prioritization and Validation",
       "link": "https://thehackernews.com/2025/09/ctems-core-prioritization-and-validation.html",
       "date": "2025-09-25T11:49:00Z",
@@ -120,20 +141,6 @@
       "date": "2025-09-25T11:48:00Z",
       "description": "/* ===== Container ===== */ .td-wrap {} /* ===== Section ===== */ .td-section { } .td-title { margin: 16px 0 4px; font-size: 32px; line-height: 1.2; font-weight: 800; } .td-subtitle { margin: 0 0 24px; color: #64748b; font-size: 16px; } /* ===== Timeline ===== */ .td-timeline { position: relative; margin: 0 !important;padding: 0!important; list-style: none; } /* spine */ .td-timeline:before {",
       "source": "thehackernews.com"
-    },
-    {
-      "title": "COLDRIVER APT Group Uses ClickFix To Deliver a New PowerShell-Based Backdoor BAITSWITCH",
-      "link": "https://cybersecuritynews.com/coldriver-apt-group-uses-clickfix/",
-      "date": "2025-09-25T11:39:04Z",
-      "description": "In recent weeks, security researchers have observed a surge in targeted attacks attributed to the COLDRIVER advanced persistent threat (APT) group. This adversary has introduced a new PowerShell-based backdoor, dubbed BAITSWITCH, which exhibits sophisticated command-and-control techniques while blending into legitimate Windows processes. Initial sightings trace back to late July 2025, when…",
-      "source": "cybersecuritynews.com"
-    },
-    {
-      "title": "Chinese Hackers Lurked Nearly 400 Days in Networks With Stealthy BrickStorm Malware",
-      "link": "https://www.securityweek.com/chinese-spies-lurked-in-networks-for-393-days-hunted-for-zero-day-intel/",
-      "date": "2025-09-25T11:35:33Z",
-      "description": "Google’s Threat Intelligence Group and Mandiant link the BrickStorm campaign to UNC5221, warning that hackers are analyzing stolen code to weaponize zero-day vulnerabilities. The post Chinese Hackers Lurked Nearly 400 Days in Networks With Stealthy BrickStorm Malware appeared first on SecurityWeek.",
-      "source": "securityweek.com"
     },
     {
       "title": "Tech Overtakes Gaming as Top DDoS Attack Target, New Gcore Radar Report Finds",
@@ -155,13 +162,6 @@
       "date": "2025-09-24T20:21:31Z",
       "description": "The cybercrime group continues to gain attention despite its apparent shutdown last week.",
       "source": "darkreading.com"
-    },
-    {
-      "title": "New Supermicro BMC flaws can create persistent backdoors",
-      "link": "https://www.bleepingcomputer.com/news/security/new-supermicro-bmc-flaws-can-create-persistent-backdoors/",
-      "date": "2025-09-24T20:13:49Z",
-      "description": "Two vulnerabilities affecting the firmware of Supermicro hardware, including Baseboard Management Controller (BMC) allow attackers to update systems with maliciously crafted images. [...]",
-      "source": "bleepingcomputer.com"
     },
     {
       "title": "Russia Targets Moldovan Election in Disinformation Play",
