@@ -1,13 +1,34 @@
 {
-  "last_updated": "2025-09-26T09:11:38Z",
+  "last_updated": "2025-09-26T10:11:04Z",
   "count": 40,
   "items": [
+    {
+      "title": "Hackers Compromise Active Directory to Steal NTDS.dit Exfiltration that Leads to Full Domain Compromise",
+      "link": "https://cybersecuritynews.com/active-directory-breach-exfiltrate-ntds/",
+      "date": "2025-09-26T10:02:21Z",
+      "description": "Active Directory (AD) remains the foundation of authentication and authorization in Windows environments. Threat actors targeting the NTDS.dit database can harvest every domain credential, unlock lateral movement, and achieve full domain compromise. Attackers leveraged native Windows utilities to dump and exfiltrate NTDS.dit, bypassing standard defenses. The adversary in this case obtained…",
+      "source": "cybersecuritynews.com"
+    },
+    {
+      "title": "Fortra GoAnywhere CVSS 10 Flaw Exploited as 0-Day a Week Before Public Disclosure",
+      "link": "https://thehackernews.com/2025/09/fortra-goanywhere-cvss-10-flaw.html",
+      "date": "2025-09-26T09:22:00Z",
+      "description": "Cybersecurity company watchTowr Labs has disclosed that it has \"credible evidence\" of active exploitation of the recently disclosed security flaw in Fortra GoAnywhere Managed File Transfer (MFT) software as early as September 10, 2025, a whole week before it was publicly disclosed. \"This is not 'just' a CVSS 10.0 flaw in a solution long favored by APT groups and ransomware operators – it is a",
+      "source": "thehackernews.com"
+    },
     {
       "title": "New Malicious Rust Crates Impersonating fast_log to Steal Solana and Ethereum Wallet Keys",
       "link": "https://cybersecuritynews.com/new-malicious-rust-crates-impersonating-fast_log/",
       "date": "2025-09-26T09:09:40Z",
       "description": "Cybercriminals have launched a sophisticated supply chain attack targeting cryptocurrency developers through malicious Rust crates designed to steal digital wallet keys. Two fraudulent packages, faster_log and async_println, have infiltrated the Rust package registry by impersonating the legitimate fast_log logging library, embedding malicious code that scans source files for Solana and Ethereum…",
       "source": "cybersecuritynews.com"
+    },
+    {
+      "title": "New macOS XCSSET Variant Targets Firefox with Clipper and Persistence Module",
+      "link": "https://thehackernews.com/2025/09/new-macos-xcsset-variant-targets.html",
+      "date": "2025-09-26T09:09:00Z",
+      "description": "Cybersecurity researchers have discovered an updated version of a known Apple macOS malware called XCSSET that has been observed in limited attacks. \"This new variant of XCSSET brings key changes related to browser targeting, clipboard hijacking, and persistence mechanisms,\" the Microsoft Threat Intelligence team said in a Thursday report. \"It employs sophisticated encryption and obfuscation",
+      "source": "thehackernews.com"
     },
     {
       "title": "Recent Fortra GoAnywhere MFT Vulnerability Exploited as Zero-Day",
@@ -50,13 +71,6 @@
       "date": "2025-09-26T05:51:00Z",
       "description": "The U.K. National Cyber Security Centre (NCSC) has revealed that threat actors have exploited the recently disclosed security flaws impacting Cisco firewalls as part of zero-day attacks to deliver previously undocumented malware families like RayInitiator and LINE VIPER. \"The RayInitiator and LINE VIPER malware represent a significant evolution on that used in the previous campaign, both in",
       "source": "thehackernews.com"
-    },
-    {
-      "title": "RedNovember Hackers Attacking Government and Technology Organizations to Deploy Backdoor",
-      "link": "https://cybersecuritynews.com/rednovember-hackers-attacking-government/",
-      "date": "2025-09-26T05:39:50Z",
-      "description": "In mid-2024, cybersecurity professionals began observing a surge of targeted intrusions against government, defense, and technology organizations worldwide. These incidents were linked to a previously uncharacterized threat group later christened RedNovember, which leverages open-source and commodity tools to deploy a stealthy Go-based backdoor. Initial compromises often stemmed from the…",
-      "source": "cybersecuritynews.com"
     },
     {
       "title": "Two Linux Kernel Vulnerabilities Expose HID Subsystem to Exploitation, PoC Published",
@@ -129,13 +143,6 @@
       "source": "thehackernews.com"
     },
     {
-      "title": "Vane Viper Generates 1 Trillion DNS Queries to Power Global Malware and Ad Fraud Network",
-      "link": "https://thehackernews.com/2025/09/vane-viper-generates-1-trillion-dns.html",
-      "date": "2025-09-25T17:22:00Z",
-      "description": "The threat actor known as Vane Viper has been outed as a purveyor of malicious ad technology (adtech), while relying on a tangled web of shell companies and opaque ownership structures to deliberately evade responsibility. \"Vane Viper has provided core infrastructure in widespread malvertising, ad fraud, and cyberthreat proliferation for at least a decade,\" Infoblox said in a technical report",
-      "source": "thehackernews.com"
-    },
-    {
       "title": "Cisco warns of ASA firewall zero-days exploited in attacks",
       "link": "https://www.bleepingcomputer.com/news/security/cisco-warns-of-asa-firewall-zero-days-exploited-in-attacks/",
       "date": "2025-09-25T16:49:36Z",
@@ -148,13 +155,6 @@
       "date": "2025-09-25T16:15:26Z",
       "description": "Prompt injection has been leveraged alongside an expired domain to steal Salesforce data in an attack named ForcedLeak. The post Salesforce AI Hack Enabled CRM Data Theft appeared first on SecurityWeek.",
       "source": "securityweek.com"
-    },
-    {
-      "title": "Salesforce Patches Critical ForcedLeak Bug Exposing CRM Data via AI Prompt Injection",
-      "link": "https://thehackernews.com/2025/09/salesforce-patches-critical-forcedleak.html",
-      "date": "2025-09-25T15:17:00Z",
-      "description": "Cybersecurity researchers have disclosed a critical flaw impacting Salesforce Agentforce, a platform for building artificial intelligence (AI) agents, that could allow attackers to potentially exfiltrate sensitive data from its customer relationship management (CRM) tool by means of an indirect prompt injection. The vulnerability has been codenamed ForcedLeak (CVSS score: 9.4) by Noma Security,",
-      "source": "thehackernews.com"
     },
     {
       "title": "PyPI Warns Users of Fresh Phishing Campaign",
