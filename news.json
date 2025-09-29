@@ -1,7 +1,14 @@
 {
-  "last_updated": "2025-09-29T08:16:06Z",
+  "last_updated": "2025-09-29T09:12:51Z",
   "count": 40,
   "items": [
+    {
+      "title": "Formbricks Signature Verification Vulnerability Let Attackers Reset User Passwords Without Authorization",
+      "link": "https://cybersecuritynews.com/formbricks-signature-verification-vulnerability/",
+      "date": "2025-09-29T08:23:29Z",
+      "description": "A critical security flaw discovered in Formbricks, an open-source experience management platform, demonstrates how missing JWT signature verification can lead to complete account takeovers. The vulnerability tracked as CVE-2025-59934 affects all versions prior to 4.0.1 and stems from improper token validation that uses jwt.decode() instead of jwt.verify(), allowing attackers to bypass…",
+      "source": "cybersecuritynews.com"
+    },
     {
       "title": "Windows Heap Exploitation Vulnerability With Record’s Size Field Leads to Arbitrary R/W",
       "link": "https://cybersecuritynews.com/windows-heap-exploitation-vulnerability/",
@@ -28,13 +35,6 @@
       "link": "https://cybersecuritynews.com/notepad-hijacking-vulnerability/",
       "date": "2025-09-29T05:20:04Z",
       "description": "A newly discovered DLL hijacking vulnerability in Notepad++, the popular source code editor, could allow attackers to execute arbitrary code on a victim’s machine. Tracked as CVE-2025-56383, the flaw exists in version 8.8.3 and potentially affects all installed versions of the software, putting millions of users at risk. The vulnerability enables a local attacker to […] The post Notepad++ DLL…",
-      "source": "cybersecuritynews.com"
-    },
-    {
-      "title": "DataCenter Fire Takes 600+ South Korean Government Websites Offline",
-      "link": "https://cybersecuritynews.com/datacenter-fire/",
-      "date": "2025-09-29T05:08:14Z",
-      "description": "A fire caused by a lithium-ion battery explosion at a key government data center in South Korea has knocked more than 600 essential services offline, disrupting daily life across the highly digitized nation. The incident, which began Friday night at the National Information Resources Service (NIRS) facility in Daejeon, has affected systems for postal banking, […] The post DataCenter Fire Takes…",
       "source": "cybersecuritynews.com"
     },
     {
