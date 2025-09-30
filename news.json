@@ -1,9 +1,44 @@
 {
-  "last_updated": "2025-09-30T12:21:12Z",
+  "last_updated": "2025-09-30T13:23:15Z",
   "count": 40,
   "items": [
     {
-      "title": "Lunar Spider Infected Windows Machine in Single Click and Harvested Login Credentials",
+      "title": "Hackers Actively Scanning to Exploit Palo Alto Networks PAN-OS Global Protect Vulnerability",
+      "link": "https://cybersecuritynews.com/pan-os-global-protect-vulnerability/",
+      "date": "2025-09-30T13:18:51Z",
+      "description": "Security researchers are observing a significant increase in internet-wide scans targeting the critical PAN-OS GlobalProtect vulnerability (CVE-2024-3400). Exploit attempts have surged as attackers seek to leverage an arbitrary file creation flaw to achieve OS command injection and ultimately full root code execution on vulnerable firewalls. Exploitation of Critical PAN-OS SSL VPN Flaw…",
+      "source": "cybersecuritynews.com"
+    },
+    {
+      "title": "Linux 6.17 Released With Fix for use-after-free Vulnerabilities",
+      "link": "https://cybersecuritynews.com/linux-6-17-released/",
+      "date": "2025-09-30T13:07:12Z",
+      "description": "Linus Torvalds has announced the release of Linux Kernel 6.17, a new version focused on stability and incremental improvements rather than groundbreaking features. The update brings a host of bug fixes, security enhancements, and driver updates across various subsystems. In his release message, Torvalds described the final week of development as having “no huge surprises,” […] The post Linux…",
+      "source": "cybersecuritynews.com"
+    },
+    {
+      "title": "Windows 11 KB5065789 update released with 41 changes and fixes",
+      "link": "https://www.bleepingcomputer.com/news/microsoft/windows-11-kb5065789-update-released-with-41-changes-and-fixes/",
+      "date": "2025-09-30T12:50:47Z",
+      "description": "​​Microsoft has released the KB5065789 preview cumulative update for Windows 11 24H2, which includes 41 improvements, including new AI actions in File Explorer and bug fixes for Windows Update and Windows Sandbox. [...]",
+      "source": "bleepingcomputer.com"
+    },
+    {
+      "title": "Tesla’s Telematics Control Unit Vulnerability Let Attackers Gain Code Execution as Root",
+      "link": "https://cybersecuritynews.com/teslas-telematics-control-unit-vulnerability/",
+      "date": "2025-09-30T12:48:41Z",
+      "description": "A security vulnerability in Tesla’s Telematics Control Unit (TCU) allowed attackers with physical access to bypass security measures and gain full root-level code execution. The flaw stemmed from an incomplete lockdown of the Android Debug Bridge (ADB) on an external Micro USB port, enabling a physically present attacker to compromise the vehicle’s TCU. Tesla has […] The post Tesla’s Telematics…",
+      "source": "cybersecuritynews.com"
+    },
+    {
+      "title": "Mondoo Raises $17.5 Million for Vulnerability Management Platform",
+      "link": "https://www.securityweek.com/mondoo-raises-17-5-million-for-vulnerability-management-platform/",
+      "date": "2025-09-30T12:37:38Z",
+      "description": "Mondoo has raised more than $32 million in total, with the latest funding round led by HV Capital. The post Mondoo Raises $17.5 Million for Vulnerability Management Platform appeared first on SecurityWeek.",
+      "source": "securityweek.com"
+    },
+    {
+      "title": "Lunar Spider Infected Windows Machine in Single Click to Harvest Login Credentials",
       "link": "https://cybersecuritynews.com/lunar-spider-infected-windows-machine/",
       "date": "2025-09-30T12:15:40Z",
       "description": "Lunar Spider, a newly observed malware strain, has emerged as a potent threat to Windows environments by compromising systems in a single click. First detected in mid-September 2025, its operators have quickly refined delivery and payload strategies to evade traditional defenses. Initial reports show that victims receive a seemingly innocuous link via phishing emails or […] The post Lunar Spider…",
@@ -45,13 +80,6 @@
       "source": "securityweek.com"
     },
     {
-      "title": "Webinar Today: AI and the Trust Dilemma: Balancing Innovation and Risk",
-      "link": "https://www.securityweek.com/webinar-today-ai-and-the-trust-dilemma-balancing-innovation-and-risk/",
-      "date": "2025-09-30T11:00:16Z",
-      "description": "Webinar: How do you embrace AI’s potential while defending against its threats? The post Webinar Today: AI and the Trust Dilemma: Balancing Innovation and Risk appeared first on SecurityWeek.",
-      "source": "securityweek.com"
-    },
-    {
       "title": "Beer Brewing Giant Asahi Halts Production Following Cyberattack",
       "link": "https://cybersecuritynews.com/asahi-cyberattack/",
       "date": "2025-09-30T10:58:32Z",
@@ -64,13 +92,6 @@
       "date": "2025-09-30T09:20:00Z",
       "description": "Cybersecurity researchers have flagged a previously undocumented Android banking trojan called Datzbro that can conduct device takeover (DTO) attacks and perform fraudulent transactions by preying on the elderly. Dutch mobile security company ThreatFabric said it discovered the campaign in August 2025 after users in Australia reported scammers managing Facebook groups promoting \"active senior",
       "source": "thehackernews.com"
-    },
-    {
-      "title": "Fake Postmark MCP Server Silently Stole Thousands of Emails With a Single Line of Malicious Code",
-      "link": "https://cybersecuritynews.com/fake-postmark-mcp-server/",
-      "date": "2025-09-30T08:50:43Z",
-      "description": "A malicious npm package masquerading as the official Postmark MCP Server has been exfiltrating user emails to an external server. This fake “postmark-mcp” module, available on npm from versions 1.0.0 through 1.0.15, built trust over 15 incremental releases before dropping a backdoor in version 1.0.16. The stealthy payload consisted of a single line of code […] The post Fake Postmark MCP Server…",
-      "source": "cybersecuritynews.com"
     },
     {
       "title": "Evolving Enterprise Defense to Secure the Modern AI Supply Chain",
@@ -87,25 +108,11 @@
       "source": "thehackernews.com"
     },
     {
-      "title": "VMware Tools and Aria 0-Day Vulnerability Exploited to Escalate Privileges and Execute Code as Root",
-      "link": "https://cybersecuritynews.com/vmware-tools-0-day-vulnerability/",
-      "date": "2025-09-30T07:03:24Z",
-      "description": "A zero-day local privilege escalation vulnerability in VMware Tools and VMware Aria Operations is being actively exploited in the wild. The flaw, tracked as CVE-2025-41244, allows an unprivileged local attacker to gain root-level code execution on affected systems. On September 29, 2025, Broadcom disclosed the vulnerability, which exists within VMware’s guest service discovery features. However,…",
-      "source": "cybersecuritynews.com"
-    },
-    {
       "title": "AI-Powered Voice Cloning Raises Vishing Risks",
       "link": "https://www.darkreading.com/cyberattacks-data-breaches/ai-voice-cloning-vishing-risks",
       "date": "2025-09-30T07:00:00Z",
       "description": "A researcher-developed framework could enable attackers to conduct real-time conversations using simulated audio to compromise organizations and extract sensitive information.",
       "source": "darkreading.com"
-    },
-    {
-      "title": "VMware Tools and Aria Operations Vulnerabilities Let Attackers Escalate Privileges to Root",
-      "link": "https://cybersecuritynews.com/vmware-tools-and-aria-operations-vulnerabilities/",
-      "date": "2025-09-30T06:45:44Z",
-      "description": "VMware has released an advisory to address three high-severity vulnerabilities in VMware Aria Operations, VMware Tools, VMware Cloud Foundation, VMware Telco Cloud Platform, and VMware Telco Cloud Infrastructure. Disclosed on 29 September 2025, the advisory covers CVE-2025-41244, CVE-2025-41245, and CVE-2025-41246 with CVSSv3 base scores ranging from 4.9 to 7.8. Administrators must apply the…",
-      "source": "cybersecuritynews.com"
     },
     {
       "title": "CISA Sounds Alarm on Critical Sudo Flaw Actively Exploited in Linux and Unix Systems",
@@ -139,7 +146,7 @@
       "title": "IoT Security Flounders Amid Churning Risk",
       "link": "https://www.darkreading.com/iot/iot-security-flounders-amid-churning-risk",
       "date": "2025-09-29T21:45:13Z",
-      "description": "The Internet of Things (IoT) has made everything more interconnected than ever, but an important US government security initiative is stuck in limbo even as threat actors step up attacks on everything from medical gear to printers.",
+      "description": "The Internet of Things (IoT) has made everything more interconnected, but an important US government security initiative is stuck in limbo while threat actors step up attacks on everything from medical gear to printers.",
       "source": "darkreading.com"
     },
     {
@@ -176,13 +183,6 @@
       "date": "2025-09-29T16:36:00Z",
       "description": "Threat actors have been observed using seemingly legitimate artificial intelligence (AI) tools and software to sneakily slip malware for future attacks on organizations worldwide. According to Trend Micro, the campaign is using productivity or AI-enhanced tools to deliver malware targeting various regions, including Europe, the Americas, and the Asia, Middle East, and Africa (AMEA) region.",
       "source": "thehackernews.com"
-    },
-    {
-      "title": "UK govt backs JLR with £1.5 billion loan guarantee after cyberattack",
-      "link": "https://www.bleepingcomputer.com/news/security/uk-govt-backs-jlr-with-15-billion-loan-guarantee-after-cyberattack/",
-      "date": "2025-09-29T16:31:20Z",
-      "description": "The UK Government is providing Jaguar Land Rover (JLR) with a £1.5 billion loan guarantee to restore its supply chain after a catastrophic cyberattack forced the automaker to halt production. [...]",
-      "source": "bleepingcomputer.com"
     },
     {
       "title": "Ukrainian Cops Spoofed in Fileless Phishing Attacks on Kyiv",
