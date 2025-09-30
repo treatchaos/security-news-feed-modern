@@ -1,6 +1,6 @@
 {
   "date": "2025-09-30",
-  "count": 11,
+  "count": 13,
   "items": [
     {
       "id": "0146d42ed384a85823fae61119edabf5ed8d9eae",
@@ -10,7 +10,7 @@
       "description": "A zero-day local privilege escalation vulnerability in VMware Tools and VMware Aria Operations is being actively exploited in the wild. The flaw, tracked as CVE-2025-41244, allows an unprivileged local attacker to gain root-level code execution on affected systems. On September 29, 2025, Broadcom disclosed the vulnerability, which exists within VMware’s guest service discovery features. However,…",
       "source": "cybersecuritynews.com",
       "first_seen": "2025-09-30T07:11:25Z",
-      "last_seen": "2025-09-30T07:11:25Z"
+      "last_seen": "2025-09-30T08:15:08Z"
     },
     {
       "id": "6a24c4f340a7207b4b769c488e0cd07b74d78259",
@@ -20,7 +20,7 @@
       "description": "A researcher-developed framework could enable attackers to conduct real-time conversations using simulated audio to compromise organizations and extract sensitive information.",
       "source": "darkreading.com",
       "first_seen": "2025-09-30T07:11:25Z",
-      "last_seen": "2025-09-30T07:11:25Z"
+      "last_seen": "2025-09-30T08:15:08Z"
     },
     {
       "id": "1c56e149e5c8810e5ed1155fd62a4ae45f613e42",
@@ -30,7 +30,7 @@
       "description": "VMware has released an advisory to address three high-severity vulnerabilities in VMware Aria Operations, VMware Tools, VMware Cloud Foundation, VMware Telco Cloud Platform, and VMware Telco Cloud Infrastructure. Disclosed on 29 September 2025, the advisory covers CVE-2025-41244, CVE-2025-41245, and CVE-2025-41246 with CVSSv3 base scores ranging from 4.9 to 7.8. Administrators must apply the…",
       "source": "cybersecuritynews.com",
       "first_seen": "2025-09-30T07:11:25Z",
-      "last_seen": "2025-09-30T07:11:25Z"
+      "last_seen": "2025-09-30T08:15:08Z"
     },
     {
       "id": "88f6fda6f1fb7c642b7260e2cb4842ce316af9b6",
@@ -43,6 +43,16 @@
       "last_seen": "2025-09-30T07:11:25Z"
     },
     {
+      "id": "0560aa24b8c8626a0b4e2ebb8daf42d3be78509b",
+      "title": "Critical Western Digital My Cloud NAS Vulnerability Allows Remote Code Execution",
+      "link": "https://cybersecuritynews.com/western-digital-my-cloud-devices-vulnerability/",
+      "date": "2025-09-30T06:18:49Z",
+      "description": "Western Digital has released security updates for a critical vulnerability affecting multiple My Cloud network-attached storage (NAS) devices. The flaw, tracked as CVE-2025-30247, could allow a remote attacker to execute arbitrary code on vulnerable systems, potentially leading to a complete device takeover. The company addressed the high-severity issue in My Cloud Firmware version 5.31.108,…",
+      "source": "cybersecuritynews.com",
+      "first_seen": "2025-09-30T08:15:08Z",
+      "last_seen": "2025-09-30T08:15:08Z"
+    },
+    {
       "id": "e4474080efc2cdcf29df754d36a9e0e829ace65f",
       "title": "Apple Font Parser Vulnerability Enables Malicious Fonts to Crash or Corrupt Process Memory",
       "link": "https://cybersecuritynews.com/apple-font-parser-vulnerability/",
@@ -53,6 +63,16 @@
       "last_seen": "2025-09-30T07:11:25Z"
     },
     {
+      "id": "846afa4aaee47f0850566295aa563ee0e35a2593",
+      "title": "Apple Font Parser Vulnerability Enables Malicious Fonts to Corrupt Process Memory",
+      "link": "https://cybersecuritynews.com/apple-font-parser-vulnerability/",
+      "date": "2025-09-30T05:55:32Z",
+      "description": "Apple has rolled out security updates across its operating systems to address a vulnerability in the Font Parser component that could allow malicious fonts to crash applications or corrupt process memory. The vulnerability, identified as CVE-2025-43400, affects a wide range of products, including the newly released macOS Tahoe and iOS 26, as well as older […] The post Apple Font Parser…",
+      "source": "cybersecuritynews.com",
+      "first_seen": "2025-09-30T08:15:08Z",
+      "last_seen": "2025-09-30T08:15:08Z"
+    },
+    {
       "id": "e0f8e58701de6a76c7d71e1e3ef07a6c6f26132a",
       "title": "CISA Sounds Alarm on Critical Sudo Flaw Actively Exploited in Linux and Unix Systems",
       "link": "https://thehackernews.com/2025/09/cisa-sounds-alarm-on-critical-sudo-flaw.html",
@@ -60,7 +80,7 @@
       "description": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Monday added a critical security flaw impacting the Sudo command-line utility for Linux and Unix-like operating systems to its Known Exploited Vulnerabilities (KEV) catalog, citing evidence of active exploitation in the wild. The vulnerability in question is CVE-2025-32463 (CVSS score: 9.3), which affects Sudo versions prior to",
       "source": "thehackernews.com",
       "first_seen": "2025-09-30T06:16:41Z",
-      "last_seen": "2025-09-30T07:11:25Z"
+      "last_seen": "2025-09-30T08:15:08Z"
     },
     {
       "id": "55a0e5c02ef26c4ac5c12bdd609ff802326c6733",
@@ -70,7 +90,7 @@
       "description": "VMware has disclosed critical security vulnerabilities in vCenter Server and NSX platforms that could allow attackers to enumerate valid usernames and manipulate system notifications. The vulnerabilities, tracked as CVE-2025-41250, CVE-2025-41251, and CVE-2025-41252, affect multiple VMware products, including Cloud Foundation, vSphere Foundation, NSX, NSX-T, and Telco Cloud platforms. Broadcom,…",
       "source": "cybersecuritynews.com",
       "first_seen": "2025-09-30T06:16:41Z",
-      "last_seen": "2025-09-30T07:11:25Z"
+      "last_seen": "2025-09-30T08:15:08Z"
     },
     {
       "id": "95d3c7bb027f5166dcf028ce5905f18fe9e09f48",
@@ -80,7 +100,7 @@
       "description": "The post Zero-Day PoC Published: Privilege Escalation Flaw in VMware Tools Used by Chinese APT appeared first on Daily CyberSecurity.",
       "source": "securityonline.info",
       "first_seen": "2025-09-30T03:25:17Z",
-      "last_seen": "2025-09-30T07:11:25Z"
+      "last_seen": "2025-09-30T08:15:08Z"
     },
     {
       "id": "0d9ef06e38dc6da2b77d485fa62171d5f6adbc56",
@@ -90,7 +110,7 @@
       "description": "The CISA is set to expire on September 30, 2025, raising urgent questions about risk, politics, and the future of threat intelligence. The post The Cybersecurity Information Sharing Act Faces Expiration appeared first on SecurityWeek.",
       "source": "securityweek.com",
       "first_seen": "2025-09-30T02:15:32Z",
-      "last_seen": "2025-09-30T07:11:25Z"
+      "last_seen": "2025-09-30T08:15:08Z"
     },
     {
       "id": "5328170e0672fd6fc988ba4976a82fec2e68a927",
@@ -100,7 +120,7 @@
       "description": "The post Under the Hood of a Kernel Crash: PoC Exposes Race Condition in Qualcomm’s Driver appeared first on Daily CyberSecurity.",
       "source": "securityonline.info",
       "first_seen": "2025-09-30T00:48:55Z",
-      "last_seen": "2025-09-30T07:11:25Z"
+      "last_seen": "2025-09-30T08:15:08Z"
     },
     {
       "id": "6cbc216a49e8706835e94335b9cf3be55e2020b8",
