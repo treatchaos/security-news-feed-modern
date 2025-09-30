@@ -1,7 +1,35 @@
 {
-  "last_updated": "2025-09-30T08:15:08Z",
+  "last_updated": "2025-09-30T09:11:22Z",
   "count": 40,
   "items": [
+    {
+      "title": "Fake Postmark MCP Server Silently Stole Thousands of Emails With a Single Line of Malicious Code",
+      "link": "https://cybersecuritynews.com/fake-postmark-mcp-server/",
+      "date": "2025-09-30T08:50:43Z",
+      "description": "A malicious npm package masquerading as the official Postmark MCP Server has been exfiltrating user emails to an external server. This fake “postmark-mcp” module, available on npm from versions 1.0.0 through 1.0.15, built trust over 15 incremental releases before dropping a backdoor in version 1.0.16. The stealthy payload consisted of a single line of code […] The post Fake Postmark MCP Server…",
+      "source": "cybersecuritynews.com"
+    },
+    {
+      "title": "Organizations Warned of Exploited Sudo Vulnerability",
+      "link": "https://www.securityweek.com/organizations-warned-of-exploited-sudo-vulnerability/",
+      "date": "2025-09-30T08:35:11Z",
+      "description": "The vulnerability could allow local, low-privileged attackers to execute commands with root privileges, leading to full system compromise. The post Organizations Warned of Exploited Sudo Vulnerability appeared first on SecurityWeek.",
+      "source": "securityweek.com"
+    },
+    {
+      "title": "Evolving Enterprise Defense to Secure the Modern AI Supply Chain",
+      "link": "https://thehackernews.com/2025/09/evolving-enterprise-defense-to-secure.html",
+      "date": "2025-09-30T08:33:00Z",
+      "description": "The world of enterprise technology is undergoing a dramatic shift. Gen-AI adoption is accelerating at an unprecedented pace, and SaaS vendors are embedding powerful LLMs directly into their platforms. Organizations are embracing AI-powered applications across every function, from marketing and development to finance and HR. This transformation unlocks innovation and efficiency, but it also",
+      "source": "thehackernews.com"
+    },
+    {
+      "title": "U.K. Police Just Seized £5.5 Billion in Bitcoin — The World’s Largest Crypto Bust",
+      "link": "https://thehackernews.com/2025/09/uk-police-just-seized-55-billion-in.html",
+      "date": "2025-09-30T08:23:00Z",
+      "description": "A Chinese national has been convicted for her role in a fraudulent cryptocurrency scheme after law enforcement authorities in the U.K. confiscated £5.5 billion (about $7.39 billion) during a raid of her home in London. The cryptocurrency seizure, amounting to 61,000 Bitcoin, is believed to be the single largest such effort in the world, the Metropolitan Police said. Zhimin Qian (aka Yadi Zhang),",
+      "source": "thehackernews.com"
+    },
     {
       "title": "VMware Tools and Aria 0-Day Vulnerability Exploited for Privilege Escalation and Code Execution",
       "link": "https://cybersecuritynews.com/vmware-tools-0-day-vulnerability/",
@@ -43,13 +71,6 @@
       "date": "2025-09-30T05:41:00Z",
       "description": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Monday added a critical security flaw impacting the Sudo command-line utility for Linux and Unix-like operating systems to its Known Exploited Vulnerabilities (KEV) catalog, citing evidence of active exploitation in the wild. The vulnerability in question is CVE-2025-32463 (CVSS score: 9.3), which affects Sudo versions prior to",
       "source": "thehackernews.com"
-    },
-    {
-      "title": "VMware vCenter and NSX Vulnerabilities Let Attackers Enumerate Valid Usernames",
-      "link": "https://cybersecuritynews.com/vmware-vcenter-and-nsx-vulnerabilities/",
-      "date": "2025-09-30T05:21:25Z",
-      "description": "VMware has disclosed critical security vulnerabilities in vCenter Server and NSX platforms that could allow attackers to enumerate valid usernames and manipulate system notifications. The vulnerabilities, tracked as CVE-2025-41250, CVE-2025-41251, and CVE-2025-41252, affect multiple VMware products, including Cloud Foundation, vSphere Foundation, NSX, NSX-T, and Telco Cloud platforms. Broadcom,…",
-      "source": "cybersecuritynews.com"
     },
     {
       "title": "Zero-Day PoC Published: Privilege Escalation Flaw in VMware Tools Used by Chinese APT",
@@ -150,13 +171,6 @@
       "source": "thehackernews.com"
     },
     {
-      "title": "The State of AI in the SOC 2025 - Insights from Recent Study",
-      "link": "https://thehackernews.com/2025/09/the-state-of-ai-in-soc-2025-insights.html",
-      "date": "2025-09-29T11:30:00Z",
-      "description": "Security leaders are embracing AI for triage, detection engineering, and threat hunting as alert volumes and burnout hit breaking points. A comprehensive survey of 282 security leaders at companies across industries reveals a stark reality facing modern Security Operations Centers: alert volumes have reached unsustainable levels, forcing teams to leave critical threats uninvestigated. You can",
-      "source": "thehackernews.com"
-    },
-    {
       "title": "Cyberattack on JLR Prompts £1.5 Billion UK Government Intervention",
       "link": "https://www.securityweek.com/cyberattack-on-jlr-prompts-1-5-billion-uk-government-intervention/",
       "date": "2025-09-29T10:57:36Z",
@@ -176,20 +190,6 @@
       "date": "2025-09-29T09:58:09Z",
       "description": "One of the two 17-year-old boys allegedly walked by law enforcement and embassy offices carrying a Wi-Fi sniffer. The post Dutch Teens Arrested for Allegedly Helping Russian Hackers appeared first on SecurityWeek.",
       "source": "securityweek.com"
-    },
-    {
-      "title": "Akira Ransomware’s Exploitation of SonicWall Vulnerability Continues",
-      "link": "https://www.securityweek.com/akira-ransomwares-exploitation-of-sonicwall-vulnerability-continues/",
-      "date": "2025-09-29T09:32:34Z",
-      "description": "In one attack, the hackers leveraged the Datto RMM utility on a domain controller and various other legitimate tools to evade detection. The post Akira Ransomware’s Exploitation of SonicWall Vulnerability Continues appeared first on SecurityWeek.",
-      "source": "securityweek.com"
-    },
-    {
-      "title": "Microsoft Flags AI-Driven Phishing: LLM-Crafted SVG Files Outsmart Email Security",
-      "link": "https://thehackernews.com/2025/09/microsoft-flags-ai-driven-phishing-llm.html",
-      "date": "2025-09-29T08:52:00Z",
-      "description": "Microsoft is calling attention to a new phishing campaign primarily aimed at U.S.-based organizations that has likely utilized code generated using large language models (LLMs) to obfuscate payloads and evade security defenses. \"Appearing to be aided by a large language model (LLM), the activity obfuscated its behavior within an SVG file, leveraging business terminology and a synthetic structure",
-      "source": "thehackernews.com"
     },
     {
       "title": "PoC Exploit Details for Actively Exploited iOS Zero-Day Flaw Now Public",
