@@ -1,7 +1,28 @@
 {
-  "last_updated": "2025-10-01T15:10:56Z",
+  "last_updated": "2025-10-01T16:13:09Z",
   "count": 40,
   "items": [
+    {
+      "title": "New DNS Malware Detour Dog Delivers Strela Stealer Using DNS TXT Records",
+      "link": "https://cybersecuritynews.com/new-dns-malware-detour-dog/",
+      "date": "2025-10-01T16:07:35Z",
+      "description": "A sophisticated DNS-based malware campaign has emerged, utilizing thousands of compromised websites worldwide to deliver the Strela Stealer information-stealing malware through an unprecedented technique involving DNS TXT records. The threat, tracked as Detour Dog by security researchers, represents a significant evolution in malware distribution methods that leverages the Domain Name System as…",
+      "source": "cybersecuritynews.com"
+    },
+    {
+      "title": "Hackers Abuse EV Certificates to Sign Completely Undetectable DMG Malware",
+      "link": "https://cybersecuritynews.com/hackers-abuse-ev-certificates/",
+      "date": "2025-10-01T15:45:34Z",
+      "description": "In recent weeks, security analysts have observed a new wave of macOS attacks leveraging legitimately issued Extended Validation (EV) certificates to sign malicious disk images (DMGs). This technique allows malware authors to evade detection by VirusTotal and built-in macOS security checks. The campaign first surfaced when multiple samples appeared on threat intelligence feeds, each bearing […]…",
+      "source": "cybersecuritynews.com"
+    },
+    {
+      "title": "Allianz Life Data Breach Exposes Personal Records of 1.5 Million Users",
+      "link": "https://cybersecuritynews.com/allianz-life-data-breach-report/",
+      "date": "2025-10-01T15:20:51Z",
+      "description": "Allianz Life Insurance Company of North America has reported a significant data security incident that has exposed the sensitive personal information of an estimated 1.5 million customers, financial professionals, and employees. The breach involved unauthorized access to a cloud-based system, compromising highly sensitive data, including Social Security numbers. The incident occurred on July 16,…",
+      "source": "cybersecuritynews.com"
+    },
     {
       "title": "Google Drive for desktop gets AI-powered ransomware detection",
       "link": "https://www.bleepingcomputer.com/news/security/google-drive-for-desktop-gets-ai-powered-ransomware-detection/",
@@ -31,6 +52,13 @@
       "source": "bleepingcomputer.com"
     },
     {
+      "title": "A $50 'Battering RAM' Can Bust Confidential Computing",
+      "link": "https://www.darkreading.com/cloud-security/50-battering-ram-bust-confidential-computing",
+      "date": "2025-10-01T14:54:08Z",
+      "description": "Researchers have demonstrated an attack that can break through modern Intel and AMD processor technologies that protect encrypted data stored in memory.",
+      "source": "darkreading.com"
+    },
+    {
       "title": "How To Simplify CISA's Zero Trust Roadmap with Modern Microsegmentation",
       "link": "https://www.bleepingcomputer.com/news/security/how-to-simplify-cisas-zero-trust-roadmap-with-modern-microsegmentation/",
       "date": "2025-10-01T14:02:12Z",
@@ -52,18 +80,11 @@
       "source": "securityweek.com"
     },
     {
-      "title": "CISA Warns of Cisco IOS and IOS XE SNMP Vulnerabilities Exploited in Attacks",
-      "link": "https://cybersecuritynews.com/cisco-ios-and-ios-xe-snmp-vulnerabilities/",
-      "date": "2025-10-01T13:58:41Z",
-      "description": "Cisco’s Simple Network Management Protocol (SNMP) implementations in IOS and IOS XE have come under intense scrutiny following reports of active exploitation in the wild. First disclosed in August 2025, CVE-2025-20352 describes a critical buffer overflow in the SNMP engine that allows unauthenticated remote attackers to execute arbitrary code. The vulnerability arises when an oversized […] The…",
-      "source": "cybersecuritynews.com"
-    },
-    {
-      "title": "MatrixPDF Attacks Gmail Users Bypassing Email Filters and Fetch Malicious Payload",
-      "link": "https://cybersecuritynews.com/matrixpdf-attacks-gmail-users-bypassing-email-filters/",
-      "date": "2025-10-01T13:27:54Z",
-      "description": "In recent weeks, a novel malware campaign dubbed MatrixPDF has surfaced, targeting Gmail users with carefully crafted emails that slip past conventional spam and phishing filters. This campaign has been active since mid-September 2025 and leverages PDF attachments that, when opened, initiate a stealthy infection chain designed to exfiltrate sensitive information and deliver additional payloads.…",
-      "source": "cybersecuritynews.com"
+      "title": "Undead Operating Systems Haunt Enterprise Security Networks",
+      "link": "https://www.darkreading.com/endpoint-security/undead-operating-systems-haunt-enterprise-security-networks",
+      "date": "2025-10-01T13:59:17Z",
+      "description": "Windows 10 reaches end-of-life on Oct. 14, which will triple the number of vulnerable enterprise systems and create a massive attack surface for cybercriminals.",
+      "source": "darkreading.com"
     },
     {
       "title": "OneLogin Bug Let Attackers Use API Keys to Steal OIDC Secrets and Impersonate Apps",
@@ -71,13 +92,6 @@
       "date": "2025-10-01T13:27:00Z",
       "description": "A high-severity security flaw has been disclosed in the One Identity OneLogin Identity and Access Management (IAM) solution that, if successfully exploited, could expose sensitive OpenID Connect (OIDC) application client secrets under certain circumstances. The vulnerability, tracked as CVE-2025-59363, has been assigned a CVSS score of 7.7 out of 10.0. It has been described as a case of",
       "source": "thehackernews.com"
-    },
-    {
-      "title": "WestJet Confirms Data Breach – Customers Personal Information Exposed",
-      "link": "https://cybersecuritynews.com/westjet-data-breach/",
-      "date": "2025-10-01T13:12:12Z",
-      "description": "WestJet announced a cybersecurity incident in which a sophisticated third-party actor gained unauthorized access to internal systems, exposing personal information of some customers. The breach, discovered on June 13, 2025, has since been contained and remediated, but not before sensitive data elements were exfiltrated. WestJet Passenger Data Exposed WestJet’s security team first detected…",
-      "source": "cybersecuritynews.com"
     },
     {
       "title": "Learn How Leading Security Teams Blend AI + Human Workflows (Free Webinar)",
@@ -161,20 +175,6 @@
       "link": "https://www.darkreading.com/threat-intelligence/klopatra-trojan-bank-transfers-sleep",
       "date": "2025-09-30T20:28:44Z",
       "description": "A sophisticated new banking malware is hard to detect, capable of stealing lots of money, and infecting thousands of people in Italy and Spain.",
-      "source": "darkreading.com"
-    },
-    {
-      "title": "China Exploited New VMware Bug for Nearly a Year",
-      "link": "https://www.darkreading.com/remote-workforce/china-exploited-new-vmware-bug-nearly",
-      "date": "2025-09-30T19:41:14Z",
-      "description": "A seemingly benign privilege-escalation process in VMware and other software has likely benefited attackers and other malware strains for years, researchers noted.",
-      "source": "darkreading.com"
-    },
-    {
-      "title": "Can Shadow AI Risks Be Stopped?",
-      "link": "https://www.darkreading.com/cyber-risk/can-shadow-ai-risks-be-stopped",
-      "date": "2025-09-30T13:58:14Z",
-      "description": "Agentic AI has introduced abundant shadow artificial intelligence (AI) risks. Cybersecurity startup Entro Security extends its platform to help enterprises combat the growing issue.",
       "source": "darkreading.com"
     },
     {
