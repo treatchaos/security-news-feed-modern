@@ -1,13 +1,48 @@
 {
-  "last_updated": "2025-10-02T12:19:18Z",
+  "last_updated": "2025-10-02T13:20:03Z",
   "count": 40,
   "items": [
+    {
+      "title": "'Confucius' Cyberspy Evolves From Stealers to Backdoors in Pakistan",
+      "link": "https://www.darkreading.com/threat-intelligence/south-asian-cyberspy-evolves-stealers-backdoors",
+      "date": "2025-10-02T13:00:00Z",
+      "description": "The long-running South Asian advanced persistent threat (APT) group is advancing its objectives against Pakistani targets, with a shift to deploying Python-based surveillance malware.",
+      "source": "darkreading.com"
+    },
+    {
+      "title": "1.2 Million Impacted by WestJet Data Breach",
+      "link": "https://www.securityweek.com/1-2-million-impacted-by-westjet-data-breach/",
+      "date": "2025-10-02T12:31:47Z",
+      "description": "The Canadian airline fell victim to a cyberattack in June and has completed the analysis of stolen information. The post 1.2 Million Impacted by WestJet Data Breach appeared first on SecurityWeek.",
+      "source": "securityweek.com"
+    },
+    {
+      "title": "Automating Pentest Delivery: 7 Key Workflows for Maximum Impact",
+      "link": "https://thehackernews.com/2025/10/automating-pentest-delivery-7-key.html",
+      "date": "2025-10-02T11:55:00Z",
+      "description": "Penetration testing is critical to uncovering real-world security weaknesses. With the shift into continuous testing and validation, it is time we automate the delivery of these results. The way results are delivered hasn’t kept up with today’s fast-moving threat landscape. Too often, findings are packaged into static reports, buried in PDFs or spreadsheets, and handed off manually to",
+      "source": "thehackernews.com"
+    },
     {
       "title": "766,000 Impacted by Data Breach at Dealership Software Provider Motility",
       "link": "https://www.securityweek.com/766000-impacted-by-data-breach-at-dealership-software-provider-motility/",
       "date": "2025-10-02T11:34:22Z",
       "description": "The hackers stole names, contact details, Social Security numbers, and driver’s license numbers in an August 19 ransomware attack. The post 766,000 Impacted by Data Breach at Dealership Software Provider Motility appeared first on SecurityWeek.",
       "source": "securityweek.com"
+    },
+    {
+      "title": "ThreatsDay Bulletin: CarPlay Exploit, BYOVD Tactics, SQL C2 Attacks, iCloud Backdoor Demand & More",
+      "link": "https://thehackernews.com/2025/10/threatsday-bulletin-carplay-exploit.html",
+      "date": "2025-10-02T11:30:00Z",
+      "description": "From unpatched cars to hijacked clouds, this week’s Threatsday headlines remind us of one thing — no corner of technology is safe. Attackers are scanning firewalls for critical flaws, bending vulnerable SQL servers into powerful command centers, and even finding ways to poison Chrome’s settings to sneak in malicious extensions. On the defense side, AI is stepping up to block ransomware in real",
+      "source": "thehackernews.com"
+    },
+    {
+      "title": "Google Mandiant Probes New Oracle Extortion Wave Possibly Linked to Cl0p Ransomware",
+      "link": "https://thehackernews.com/2025/10/google-mandiant-probes-new-oracle.html",
+      "date": "2025-10-02T11:25:00Z",
+      "description": "Google Mandiant and Google Threat Intelligence Group (GTIG) have disclosed that they are tracking a new cluster of activity possibly linked to a financially motivated threat actor known as Cl0p. The malicious activity involves sending extortion emails to executives at various organizations and claiming to have stolen sensitive data from their Oracle E-Business Suite. \"This activity began on or",
+      "source": "thehackernews.com"
     },
     {
       "title": "WireTap Attack Breaks Intel SGX Security",
@@ -31,10 +66,10 @@
       "source": "bleepingcomputer.com"
     },
     {
-      "title": "Cybercriminals Claim Theft of Data From Oracle E-Business Suite Customers",
+      "title": "Hackers Launch Extortion Campaign Targeting Oracle E-Business Suite Customers",
       "link": "https://www.securityweek.com/cybercriminals-claim-theft-of-data-from-oracle-e-business-suite-customers/",
       "date": "2025-10-02T10:28:03Z",
-      "description": "The attackers are claiming to be affiliated with the notorious Cl0p ransomware group and links have been found to FIN11. The post Cybercriminals Claim Theft of Data From Oracle E-Business Suite Customers appeared first on SecurityWeek.",
+      "description": "Executives at major firms received extortion threats alleging theft of sensitive data from Oracle EBS, with possible ties to Cl0p and FIN11. The post Hackers Launch Extortion Campaign Targeting Oracle E-Business Suite Customers appeared first on SecurityWeek.",
       "source": "securityweek.com"
     },
     {
@@ -71,13 +106,6 @@
       "date": "2025-10-02T08:29:17Z",
       "description": "Google has released Chrome 141 to address 21 security vulnerabilities, including critical flaws that could allow attackers to crash browsers and potentially execute malicious code. The update, rolling out across Windows, Mac, and Linux platforms, patches several high-severity vulnerabilities that pose significant risks to user security. The most severe vulnerability addressed is CVE-2025-11205,…",
       "source": "cybersecuritynews.com"
-    },
-    {
-      "title": "1.5 Million Impacted by Allianz Life Data Breach",
-      "link": "https://www.securityweek.com/1-5-million-impacted-by-allianz-life-data-breach/",
-      "date": "2025-10-02T08:02:18Z",
-      "description": "In July, hackers stole files containing names, addresses, dates of birth, and Social Security numbers from a cloud-based CRM. The post 1.5 Million Impacted by Allianz Life Data Breach appeared first on SecurityWeek.",
-      "source": "securityweek.com"
     },
     {
       "title": "Red Hat confirms security incident after hackers claim GitHub breach",
@@ -150,39 +178,11 @@
       "source": "bleepingcomputer.com"
     },
     {
-      "title": "New WireTap Attack Extracts Intel SGX ECDSA Key via DDR4 Memory-Bus Interposer",
-      "link": "https://thehackernews.com/2025/10/new-wiretap-attack-extracts-intel-sgx.html",
-      "date": "2025-10-01T17:20:00Z",
-      "description": "In yet another piece of research, academics from Georgia Institute of Technology and Purdue University have demonstrated that the security guarantees offered by Intel's Software Guard eXtensions (SGX) can be bypassed on DDR4 systems to passively decrypt sensitive data. SGX is designed as a hardware feature in Intel server processors that allows applications to be run in a Trusted Execution",
-      "source": "thehackernews.com"
-    },
-    {
       "title": "A $50 'Battering RAM' Can Bust Confidential Computing",
       "link": "https://www.darkreading.com/cloud-security/50-battering-ram-bust-confidential-computing",
       "date": "2025-10-01T14:54:08Z",
       "description": "Researchers have demonstrated an attack that can break through modern Intel and AMD processor technologies that protect encrypted data stored in memory.",
       "source": "darkreading.com"
-    },
-    {
-      "title": "Undead Operating Systems Haunt Enterprise Security Networks",
-      "link": "https://www.darkreading.com/endpoint-security/undead-operating-systems-haunt-enterprise-security-networks",
-      "date": "2025-10-01T13:59:17Z",
-      "description": "Windows 10 reaches end-of-life on Oct. 14, which will triple the number of vulnerable enterprise systems and create a massive attack surface for cybercriminals.",
-      "source": "darkreading.com"
-    },
-    {
-      "title": "OneLogin Bug Let Attackers Use API Keys to Steal OIDC Secrets and Impersonate Apps",
-      "link": "https://thehackernews.com/2025/10/onelogin-bug-let-attackers-use-api-keys.html",
-      "date": "2025-10-01T13:27:00Z",
-      "description": "A high-severity security flaw has been disclosed in the One Identity OneLogin Identity and Access Management (IAM) solution that, if successfully exploited, could expose sensitive OpenID Connect (OIDC) application client secrets under certain circumstances. The vulnerability, tracked as CVE-2025-59363, has been assigned a CVSS score of 7.7 out of 10.0. It has been described as a case of",
-      "source": "thehackernews.com"
-    },
-    {
-      "title": "Learn How Leading Security Teams Blend AI + Human Workflows (Free Webinar)",
-      "link": "https://thehackernews.com/2025/10/how-leading-security-teams-blend-ai.html",
-      "date": "2025-10-01T12:45:00Z",
-      "description": "AI is changing automation—but not always for the better. That’s why we’re hosting a new webinar, \"Workflow Clarity: Where AI Fits in Modern Automation,\" with Thomas Kinsella, Co-founder & Chief Customer Officer at Tines, to explore how leading teams are cutting through the hype and building workflows that actually deliver.The rise of AI has changed how organizations think about automation.",
-      "source": "thehackernews.com"
     },
     {
       "title": "Zero-Day PoC Published: Privilege Escalation Flaw in VMware Tools Used by Chinese APT",
