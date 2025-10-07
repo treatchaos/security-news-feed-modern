@@ -1,7 +1,7 @@
 {
-  "last_updated": "2025-10-07T09:12:16Z",
+  "last_updated": "2025-10-07T10:11:17Z",
   "retention_days": 90,
-  "count": 2318,
+  "count": 2323,
   "items": [
     {
       "id": "038a769a72d3622090d4a7ec7eb7846e40e3d135",
@@ -14,6 +14,36 @@
       "last_seen": "2025-09-23T21:09:13Z"
     },
     {
+      "id": "3c919efc25a11c89f5d5002ec2635beef175c792",
+      "title": "GoAnywhere 0-Day RCE Vulnerability Exploited in the Wild to Deploy Medusa Ransomware",
+      "link": "https://cybersecuritynews.com/goanywhere-0-day-rce-medusa-ransomware/",
+      "date": "2025-10-07T09:45:04Z",
+      "description": "A critical deserialization flaw in GoAnywhere MFT’s License Servlet, tracked as CVE-2025-10035, has already been weaponized by the Storm-1175 group to execute the Medusa ransomware. The vulnerability affects GoAnywhere MFT versions up to 7.8.3. It resides in the License Servlet Admin Console, where a threat actor can forge a license response signature and bypass validation […] The post…",
+      "source": "cybersecuritynews.com",
+      "first_seen": "2025-10-07T10:11:17Z",
+      "last_seen": "2025-10-07T10:11:17Z"
+    },
+    {
+      "id": "4cff34c2ac4923cc67bb392ff06bf6c41721580c",
+      "title": "Fortra GoAnywhere MFT Zero-Day Exploited in Ransomware Attacks",
+      "link": "https://www.securityweek.com/fortra-goanywhere-mft-zero-day-exploited-in-ransomware-attacks/",
+      "date": "2025-10-07T09:40:59Z",
+      "description": "The Medusa ransomware operators exploited the GoAnywhere MFT vulnerability one week before patches were released. The post Fortra GoAnywhere MFT Zero-Day Exploited in Ransomware Attacks appeared first on SecurityWeek.",
+      "source": "securityweek.com",
+      "first_seen": "2025-10-07T10:11:17Z",
+      "last_seen": "2025-10-07T10:11:17Z"
+    },
+    {
+      "id": "2b1e246992d14c0f5b7024247a56464896ca69cb",
+      "title": "Kibana Crowdstrike Connector Vulnerability Exposes Protected Credentials",
+      "link": "https://cybersecuritynews.com/kibana-crowdstrike-connector-vulnerability/",
+      "date": "2025-10-07T09:32:17Z",
+      "description": "Elastic has released a security advisory detailing a medium-severity vulnerability in the Kibana CrowdStrike Connector that could allow for the exposure of sensitive credentials. The flaw, tracked as CVE-2025-37728, affects multiple versions of Kibana and could allow a malicious user to access cached CrowdStrike credentials from other users within the same environment. The vulnerability…",
+      "source": "cybersecuritynews.com",
+      "first_seen": "2025-10-07T10:11:17Z",
+      "last_seen": "2025-10-07T10:11:17Z"
+    },
+    {
       "id": "e6ebe2e1915361ed06ede7ec9c35bc4e2c67f9a2",
       "title": "The Y2K38 Bug Is a Vulnerability, Not Just a Date Problem, Researchers Warn",
       "link": "https://www.securityweek.com/the-y2k38-bug-is-a-vulnerability-not-just-a-date-problem-researchers-warn/",
@@ -21,7 +51,17 @@
       "description": "The Year 2036/2038 problem is a bug that will be triggered in more than a decade, but hackers could exploit it today against ICS and consumer devices. The post The Y2K38 Bug Is a Vulnerability, Not Just a Date Problem, Researchers Warn appeared first on SecurityWeek.",
       "source": "securityweek.com",
       "first_seen": "2025-10-07T09:12:16Z",
-      "last_seen": "2025-10-07T09:12:16Z"
+      "last_seen": "2025-10-07T10:11:17Z"
+    },
+    {
+      "id": "c9f427b7dc8b4e6323f96169e5d2ebbf048a5fa1",
+      "title": "13-Year Redis Flaw Exposed: CVSS 10.0 Vulnerability Lets Attackers Run Code Remotely",
+      "link": "https://thehackernews.com/2025/10/13-year-redis-flaw-exposed-cvss-100.html",
+      "date": "2025-10-07T08:33:00Z",
+      "description": "Redis has disclosed details of a maximum-severity security flaw in its in-memory database software that could result in remote code execution under certain circumstances. The vulnerability, tracked as CVE-2025-49844 (aka RediShell), has been assigned a CVSS score of 10.0. \"An authenticated user may use a specially crafted Lua script to manipulate the garbage collector, trigger a use-after-free,",
+      "source": "thehackernews.com",
+      "first_seen": "2025-10-07T10:11:17Z",
+      "last_seen": "2025-10-07T10:11:17Z"
     },
     {
       "id": "c22f57f7251151949b9c0579295d1a8f78298713",
@@ -31,7 +71,17 @@
       "description": "Authenticated attackers can exploit the security flaw to trigger a use-after-free and potentially execute arbitrary code. The post Critical Vulnerability Puts 60,000 Redis Servers at Risk of Exploitation appeared first on SecurityWeek.",
       "source": "securityweek.com",
       "first_seen": "2025-10-07T09:12:16Z",
-      "last_seen": "2025-10-07T09:12:16Z"
+      "last_seen": "2025-10-07T10:11:17Z"
+    },
+    {
+      "id": "06245d9786a44c36203ab9d34c14c1b2ad440e08",
+      "title": "Microsoft Links Storm-1175 to GoAnywhere Exploit Deploying Medusa Ransomware",
+      "link": "https://thehackernews.com/2025/10/microsoft-links-storm-1175-to.html",
+      "date": "2025-10-07T08:15:00Z",
+      "description": "Microsoft on Monday attributed a threat actor it tracks as Storm-1175 to the exploitation of a critical security flaw in Fortra GoAnywhere software to facilitate the deployment of Medusa ransomware. The vulnerability is CVE-2025-10035 (CVSS score: 10.0), a critical deserialization bug that could result in command injection without authentication. It was addressed in version 7.8.4, or the Sustain",
+      "source": "thehackernews.com",
+      "first_seen": "2025-10-07T10:11:17Z",
+      "last_seen": "2025-10-07T10:11:17Z"
     },
     {
       "id": "02ba3a0f4fb44829e5854348818501d2e3647c67",
@@ -41,7 +91,7 @@
       "description": "CISA has issued an urgent security advisory, adding Microsoft Windows privilege escalation vulnerability CVE-2021-43226 to its Known Exploited Vulnerabilities (KEV) catalog on October 6, 2025. The vulnerability affects the Microsoft Windows Common Log File System (CLFS) Driver and poses significant security risks to enterprise environments. The CVE-2021-43226 vulnerability resides within…",
       "source": "cybersecuritynews.com",
       "first_seen": "2025-10-07T08:15:03Z",
-      "last_seen": "2025-10-07T09:12:16Z"
+      "last_seen": "2025-10-07T10:11:17Z"
     },
     {
       "id": "26a9441487377fe4fd6a040ee6e64d589150c623",
@@ -51,7 +101,7 @@
       "description": "A new command injection vulnerability in OpenSSH, tracked as CVE-2025-61984, has been disclosed, which could allow an attacker to achieve remote code execution on a victim’s machine. The vulnerability is a bypass of a previous fix for a similar issue (CVE-2023-51385) and exploits how the ProxyCommand feature interacts with the underlying system shell when handling […] The post OpenSSH…",
       "source": "cybersecuritynews.com",
       "first_seen": "2025-10-07T07:11:12Z",
-      "last_seen": "2025-10-07T09:12:16Z"
+      "last_seen": "2025-10-07T10:11:17Z"
     },
     {
       "id": "c73a25a154cacbf93fa7d81bd17ac8909aa30346",
@@ -61,7 +111,7 @@
       "description": "Oracle has issued an emergency security alert for a critical zero-day vulnerability (CVE-2025-61882) in its E-Business Suite after the notorious Cl0p ransomware group began extorting customers who failed to patch their systems. The vulnerability, carrying a maximum CVSS score of 9.8, affects the Business Intelligence Publisher (BI Publisher) Integration component and enables remote code…",
       "source": "cybersecuritynews.com",
       "first_seen": "2025-10-07T06:15:56Z",
-      "last_seen": "2025-10-07T09:12:16Z"
+      "last_seen": "2025-10-07T10:11:17Z"
     },
     {
       "id": "47d1756e886b26dd2bc6f71ca1368621615869aa",
@@ -71,7 +121,7 @@
       "description": "CrowdStrike on Monday said it's attributing the exploitation of a recently disclosed security flaw in Oracle E-Business Suite with moderate confidence to a threat actor it tracks as Graceful Spider (aka Cl0p), and that the first known exploitation occurred on August 9, 2025. The exploitation involves the exploitation of CVE-2025-61882 (CVSS score: 9.8), a critical vulnerability that facilitates",
       "source": "thehackernews.com",
       "first_seen": "2025-10-07T06:15:56Z",
-      "last_seen": "2025-10-07T09:12:16Z"
+      "last_seen": "2025-10-07T10:11:17Z"
     },
     {
       "id": "effe56ceb9119a2f53b6fe8ce948fe86c931a932",
@@ -101,7 +151,7 @@
       "description": "The post PoC Released for Linux Kernel Escalates Privileges Flaw appeared first on Daily CyberSecurity.",
       "source": "securityonline.info",
       "first_seen": "2025-10-07T00:48:03Z",
-      "last_seen": "2025-10-07T09:12:16Z"
+      "last_seen": "2025-10-07T10:11:17Z"
     },
     {
       "id": "8d5e9babec65c897e75f278f6d570f9a5e38b1aa",
@@ -111,7 +161,7 @@
       "description": "Enterprise software giant Red Hat is now being extorted by the ShinyHunters gang, with samples of stolen customer engagement reports (CERs) leaked on their data leak site. [...]",
       "source": "bleepingcomputer.com",
       "first_seen": "2025-10-06T21:08:56Z",
-      "last_seen": "2025-10-07T09:12:16Z"
+      "last_seen": "2025-10-07T10:11:17Z"
     },
     {
       "id": "f54fc652794c4f25abfd5d1a6553d0bd1120a5ad",
@@ -121,7 +171,7 @@
       "description": "A threat actor purporting to be from the Libyan Navy's Office of Protocol targeted Brazil's military earlier this year using the rare tactic.",
       "source": "darkreading.com",
       "first_seen": "2025-10-06T21:08:56Z",
-      "last_seen": "2025-10-07T09:12:16Z"
+      "last_seen": "2025-10-07T10:11:17Z"
     },
     {
       "id": "366e0b979d29210fad34f0046467e6263acaf059",
@@ -131,7 +181,7 @@
       "description": "The infamous Clop gang has targeted a wide range of Oracle E-Business Suite customers using a newly disclosed zero-day vulnerability.",
       "source": "darkreading.com",
       "first_seen": "2025-10-06T20:11:27Z",
-      "last_seen": "2025-10-07T09:12:16Z"
+      "last_seen": "2025-10-07T10:11:17Z"
     },
     {
       "id": "03f67ac1e4bf80ad8d20ebe09aadb21dcfdd6fa3",
@@ -141,7 +191,7 @@
       "description": "A cybercrime group, tracked as Storm-1175, has been actively exploiting a maximum severity GoAnywhere MFT vulnerability in Medusa ransomware attacks for nearly a month. [...]",
       "source": "bleepingcomputer.com",
       "first_seen": "2025-10-06T18:15:21Z",
-      "last_seen": "2025-10-07T09:12:16Z"
+      "last_seen": "2025-10-07T10:11:17Z"
     },
     {
       "id": "5b52f20efc8c2fe10f17e21426bb5e86cf31ef29",
@@ -161,7 +211,7 @@
       "description": "Microsoft is investigating a bug that causes Copilot issues when multiple Office apps are running simultaneously on the same system. [...]",
       "source": "bleepingcomputer.com",
       "first_seen": "2025-10-06T18:15:21Z",
-      "last_seen": "2025-10-07T09:12:16Z"
+      "last_seen": "2025-10-07T10:11:17Z"
     },
     {
       "id": "2080108829df43ec573484323f32a662b181b5b3",
@@ -171,7 +221,7 @@
       "description": "A new hacking competition called Zeroday Cloud, focused on open-source cloud and AI tools, announced a total prize pool of $4.5 million in bug bounties for researchers that submit exploits for various targets. [...]",
       "source": "bleepingcomputer.com",
       "first_seen": "2025-10-06T18:15:21Z",
-      "last_seen": "2025-10-07T09:12:16Z"
+      "last_seen": "2025-10-07T10:11:17Z"
     },
     {
       "id": "dbd1c0babd40679ac1e1a556412f935b1cca0950",
@@ -181,7 +231,7 @@
       "description": "OpenAI's ChatGPT Pulse, which is a tool that gives you personalised updates based on usage patterns, is coming to the web. [...]",
       "source": "bleepingcomputer.com",
       "first_seen": "2025-10-06T17:09:57Z",
-      "last_seen": "2025-10-07T09:12:16Z"
+      "last_seen": "2025-10-07T10:11:17Z"
     },
     {
       "id": "845c1b92b5fc5f6d8479e66a33daee8f21f63930",
@@ -231,7 +281,7 @@
       "description": "Names, usernames, email addresses, contact information, IP addresses, and billing information was compromised. The post Discord Says User Information Stolen in Third-Party Data Breach appeared first on SecurityWeek.",
       "source": "securityweek.com",
       "first_seen": "2025-10-06T15:10:58Z",
-      "last_seen": "2025-10-07T09:12:16Z"
+      "last_seen": "2025-10-07T10:11:17Z"
     },
     {
       "id": "5aabb27c031e4b4835500aae0fbce2f6ffdcd7ff",
@@ -241,7 +291,7 @@
       "description": "Outwardly neutral Chinese institutions have been collaborating with Western orgs and researchers for the benefit of PRC state intelligence.",
       "source": "darkreading.com",
       "first_seen": "2025-10-06T14:11:09Z",
-      "last_seen": "2025-10-07T09:12:16Z"
+      "last_seen": "2025-10-07T10:11:17Z"
     },
     {
       "id": "41c1605b02265529e6241c5e07ed274d9fc8d6e0",
@@ -261,7 +311,7 @@
       "description": "A Chinese company named the Beijing Institute of Electronics Technology and Application (BIETA) has been assessed to be likely led by the Ministry of State Security (MSS). The assessment comes from evidence that at least four BIETA personnel have clear or possible links to MSS officers and their relationship with the University of International Relations, which is known to share links with the",
       "source": "thehackernews.com",
       "first_seen": "2025-10-06T15:10:58Z",
-      "last_seen": "2025-10-07T09:12:16Z"
+      "last_seen": "2025-10-07T10:11:17Z"
     },
     {
       "id": "6a678f20832233cd4ef9e006a1291c7114bdab51",
@@ -311,7 +361,7 @@
       "description": "The flaw could lead to local code execution, allowing attackers to access confidential information on devices running Unity-built applications. The post Microsoft and Steam Take Action as Unity Vulnerability Puts Games at Risk appeared first on SecurityWeek.",
       "source": "securityweek.com",
       "first_seen": "2025-10-06T13:22:34Z",
-      "last_seen": "2025-10-07T09:12:16Z"
+      "last_seen": "2025-10-07T10:11:17Z"
     },
     {
       "id": "06b4e681bcaf2d7f96ab1fdf2555b0307c7410d2",
@@ -341,7 +391,7 @@
       "description": "The cyber world never hits pause, and staying alert matters more than ever. Every week brings new tricks, smarter attacks, and fresh lessons from the field. This recap cuts through the noise to share what really matters—key trends, warning signs, and stories shaping today’s security landscape. Whether you’re defending systems or just keeping up, these highlights help you spot what’s coming",
       "source": "thehackernews.com",
       "first_seen": "2025-10-06T12:20:43Z",
-      "last_seen": "2025-10-07T09:12:16Z"
+      "last_seen": "2025-10-07T10:11:17Z"
     },
     {
       "id": "de12c585a2189e6435bbe631c3c902084a872a5a",
@@ -411,7 +461,7 @@
       "description": "The enterprise-focused Water Saci campaign spreads Sorvepotel, which can steal credentials and monitor browser activity to defraud financial institutions in the region.",
       "source": "darkreading.com",
       "first_seen": "2025-10-06T15:10:58Z",
-      "last_seen": "2025-10-07T09:12:16Z"
+      "last_seen": "2025-10-07T10:11:17Z"
     },
     {
       "id": "d2417a94d9e851ec4325e1f4dcc4b8e0501d818b",
@@ -541,7 +591,7 @@
       "description": "A CVSS score 9.8 AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H severity vulnerability discovered by 'Peter Girnus (@gothburz) of Trend Research' was reported to the affected vendor on: 2025-10-06, 0 days ago. The vendor is given until 2026-02-03 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
       "source": "zerodayinitiative.com",
       "first_seen": "2025-10-06T22:09:35Z",
-      "last_seen": "2025-10-07T09:12:16Z"
+      "last_seen": "2025-10-07T10:11:17Z"
     },
     {
       "id": "02d47b99580f51788af25c2ab1a3c66fe8141ae8",
@@ -561,7 +611,7 @@
       "description": "The post Critical Denial-of-Service Vulnerability Discovered in HAProxy appeared first on Daily CyberSecurity.",
       "source": "securityonline.info",
       "first_seen": "2025-10-06T03:29:07Z",
-      "last_seen": "2025-10-07T09:12:16Z"
+      "last_seen": "2025-10-07T10:11:17Z"
     },
     {
       "id": "cf93255b010cb8fc8398de9118398af23b242a03",
@@ -761,7 +811,7 @@
       "description": "After claiming it would shut down, the cybercriminal collective reemerged and threatened to publish the stolen data of Salesforce customers by Oct. 10 if its demands are not met.",
       "source": "darkreading.com",
       "first_seen": "2025-10-03T20:10:54Z",
-      "last_seen": "2025-10-07T09:12:16Z"
+      "last_seen": "2025-10-07T10:11:17Z"
     },
     {
       "id": "c326d0f43e590d74c17800fc615cf8be8d583dd8",
@@ -1301,7 +1351,7 @@
       "description": "A CVSS score 5.3 AV:N/AC:H/PR:L/UI:N/S:U/C:H/I:N/A:N severity vulnerability discovered by 'Xavier DANEST - Decathlon' was reported to the affected vendor on: 2025-10-03, 0 days ago. The vendor is given until 2026-01-31 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
       "source": "zerodayinitiative.com",
       "first_seen": "2025-10-03T14:10:20Z",
-      "last_seen": "2025-10-07T09:12:16Z"
+      "last_seen": "2025-10-07T10:11:17Z"
     },
     {
       "id": "0a18ea895133abc69c9f454f4cfedc81a58a8bf8",
@@ -1311,7 +1361,7 @@
       "description": "A CVSS score 8.8 AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H severity vulnerability discovered by ' Bobby Gould (@bobbygould5) of Trend Zero Day Initiative' was reported to the affected vendor on: 2025-10-03, 0 days ago. The vendor is given until 2026-01-31 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
       "source": "zerodayinitiative.com",
       "first_seen": "2025-10-03T14:10:20Z",
-      "last_seen": "2025-10-07T09:12:16Z"
+      "last_seen": "2025-10-07T10:11:17Z"
     },
     {
       "id": "620b0700c6a8870a2487a7d34699c3f397396362",
@@ -1321,7 +1371,7 @@
       "description": "A CVSS score 6.1 AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:H/A:L severity vulnerability discovered by 'Ryota Shiga (GMO Flatt Security Inc.) with takumi-san.ai' was reported to the affected vendor on: 2025-10-03, 0 days ago. The vendor is given until 2026-01-31 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
       "source": "zerodayinitiative.com",
       "first_seen": "2025-10-03T14:10:20Z",
-      "last_seen": "2025-10-07T09:12:16Z"
+      "last_seen": "2025-10-07T10:11:17Z"
     },
     {
       "id": "c43026edf813df873deb121d863fd815967a354c",
@@ -1331,7 +1381,7 @@
       "description": "A CVSS score 5.0 AV:A/AC:H/PR:N/UI:N/S:U/C:L/I:L/A:L severity vulnerability discovered by 'Tyler Zars' was reported to the affected vendor on: 2025-10-03, 0 days ago. The vendor is given until 2026-01-31 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
       "source": "zerodayinitiative.com",
       "first_seen": "2025-10-03T14:10:20Z",
-      "last_seen": "2025-10-07T09:12:16Z"
+      "last_seen": "2025-10-07T10:11:17Z"
     },
     {
       "id": "3ce5ef85e80e74f0caffbe34a76c677577ce818d",
@@ -1761,7 +1811,7 @@
       "description": "The post PoC Released: Linux Kernel Flaw Allows User to Gain Root Privileges appeared first on Daily CyberSecurity.",
       "source": "securityonline.info",
       "first_seen": "2025-10-02T05:09:59Z",
-      "last_seen": "2025-10-07T09:12:16Z"
+      "last_seen": "2025-10-07T10:11:17Z"
     },
     {
       "id": "0fa9c920c8dc2978a2ba098596d5a049e0de1d74",
@@ -3041,7 +3091,7 @@
       "description": "The post Zero-Day PoC Published: Privilege Escalation Flaw in VMware Tools Used by Chinese APT appeared first on Daily CyberSecurity.",
       "source": "securityonline.info",
       "first_seen": "2025-09-30T03:25:17Z",
-      "last_seen": "2025-10-07T09:12:16Z"
+      "last_seen": "2025-10-07T10:11:17Z"
     },
     {
       "id": "0d9ef06e38dc6da2b77d485fa62171d5f6adbc56",
@@ -3061,7 +3111,7 @@
       "description": "The post Under the Hood of a Kernel Crash: PoC Exposes Race Condition in Qualcomm’s Driver appeared first on Daily CyberSecurity.",
       "source": "securityonline.info",
       "first_seen": "2025-09-30T00:48:55Z",
-      "last_seen": "2025-10-07T09:12:16Z"
+      "last_seen": "2025-10-07T10:11:17Z"
     },
     {
       "id": "5f6dac3263acd8c52c97bea4d475617b05caf17f",
@@ -23141,7 +23191,7 @@
       "description": "2.5 million people were affected, in a breach that could spell more trouble down the line.",
       "source": "threatpost.com",
       "first_seen": "2025-08-13T09:11:28Z",
-      "last_seen": "2025-10-07T09:12:16Z"
+      "last_seen": "2025-10-07T10:11:17Z"
     },
     {
       "id": "4140c7a34b0ba94ad2e6b0cae9f59b0cb9bfffea",
@@ -23151,7 +23201,7 @@
       "description": "Researchers uncover a watering hole attack likely carried out by APT TA423, which attempts to plant the ScanBox JavaScript-based reconnaissance tool.",
       "source": "threatpost.com",
       "first_seen": "2025-08-13T09:11:28Z",
-      "last_seen": "2025-10-07T09:12:16Z"
+      "last_seen": "2025-10-07T10:11:17Z"
     },
     {
       "id": "9359ee40a641a4b565080313045f1d7e7fe6552b",
@@ -23161,7 +23211,7 @@
       "description": "Over 130 companies tangled in sprawling phishing campaign that spoofed a multi-factor authentication system.",
       "source": "threatpost.com",
       "first_seen": "2025-08-13T09:11:28Z",
-      "last_seen": "2025-10-07T09:12:16Z"
+      "last_seen": "2025-10-07T10:11:17Z"
     },
     {
       "id": "b4ccef0737cd4050d65241bf754072030b6b5e6a",
@@ -23171,7 +23221,7 @@
       "description": "Lockbit is by far this summer’s most prolific ransomware group, trailed by two offshoots of the Conti group.",
       "source": "threatpost.com",
       "first_seen": "2025-08-13T09:11:28Z",
-      "last_seen": "2025-10-07T09:12:16Z"
+      "last_seen": "2025-10-07T10:11:17Z"
     },
     {
       "id": "12ee113fc8fce91f6d7fb28deab2b1ad20061ec7",
@@ -23181,7 +23231,7 @@
       "description": "Tens of thousands of cameras have failed to patch a critical, 11-month-old CVE, leaving thousands of organizations exposed.",
       "source": "threatpost.com",
       "first_seen": "2025-08-13T09:11:28Z",
-      "last_seen": "2025-10-07T09:12:16Z"
+      "last_seen": "2025-10-07T10:11:17Z"
     }
   ]
 }

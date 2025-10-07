@@ -1,7 +1,28 @@
 {
-  "last_updated": "2025-10-07T09:12:16Z",
+  "last_updated": "2025-10-07T10:11:17Z",
   "count": 40,
   "items": [
+    {
+      "title": "GoAnywhere 0-Day RCE Vulnerability Exploited in the Wild to Deploy Medusa Ransomware",
+      "link": "https://cybersecuritynews.com/goanywhere-0-day-rce-medusa-ransomware/",
+      "date": "2025-10-07T09:45:04Z",
+      "description": "A critical deserialization flaw in GoAnywhere MFT’s License Servlet, tracked as CVE-2025-10035, has already been weaponized by the Storm-1175 group to execute the Medusa ransomware. The vulnerability affects GoAnywhere MFT versions up to 7.8.3. It resides in the License Servlet Admin Console, where a threat actor can forge a license response signature and bypass validation […] The post…",
+      "source": "cybersecuritynews.com"
+    },
+    {
+      "title": "Fortra GoAnywhere MFT Zero-Day Exploited in Ransomware Attacks",
+      "link": "https://www.securityweek.com/fortra-goanywhere-mft-zero-day-exploited-in-ransomware-attacks/",
+      "date": "2025-10-07T09:40:59Z",
+      "description": "The Medusa ransomware operators exploited the GoAnywhere MFT vulnerability one week before patches were released. The post Fortra GoAnywhere MFT Zero-Day Exploited in Ransomware Attacks appeared first on SecurityWeek.",
+      "source": "securityweek.com"
+    },
+    {
+      "title": "Kibana Crowdstrike Connector Vulnerability Exposes Protected Credentials",
+      "link": "https://cybersecuritynews.com/kibana-crowdstrike-connector-vulnerability/",
+      "date": "2025-10-07T09:32:17Z",
+      "description": "Elastic has released a security advisory detailing a medium-severity vulnerability in the Kibana CrowdStrike Connector that could allow for the exposure of sensitive credentials. The flaw, tracked as CVE-2025-37728, affects multiple versions of Kibana and could allow a malicious user to access cached CrowdStrike credentials from other users within the same environment. The vulnerability…",
+      "source": "cybersecuritynews.com"
+    },
     {
       "title": "The Y2K38 Bug Is a Vulnerability, Not Just a Date Problem, Researchers Warn",
       "link": "https://www.securityweek.com/the-y2k38-bug-is-a-vulnerability-not-just-a-date-problem-researchers-warn/",
@@ -10,11 +31,25 @@
       "source": "securityweek.com"
     },
     {
+      "title": "13-Year Redis Flaw Exposed: CVSS 10.0 Vulnerability Lets Attackers Run Code Remotely",
+      "link": "https://thehackernews.com/2025/10/13-year-redis-flaw-exposed-cvss-100.html",
+      "date": "2025-10-07T08:33:00Z",
+      "description": "Redis has disclosed details of a maximum-severity security flaw in its in-memory database software that could result in remote code execution under certain circumstances. The vulnerability, tracked as CVE-2025-49844 (aka RediShell), has been assigned a CVSS score of 10.0. \"An authenticated user may use a specially crafted Lua script to manipulate the garbage collector, trigger a use-after-free,",
+      "source": "thehackernews.com"
+    },
+    {
       "title": "Critical Vulnerability Puts 60,000 Redis Servers at Risk of Exploitation",
       "link": "https://www.securityweek.com/critical-vulnerability-puts-60000-redis-servers-at-risk-of-exploitation/",
       "date": "2025-10-07T08:32:44Z",
       "description": "Authenticated attackers can exploit the security flaw to trigger a use-after-free and potentially execute arbitrary code. The post Critical Vulnerability Puts 60,000 Redis Servers at Risk of Exploitation appeared first on SecurityWeek.",
       "source": "securityweek.com"
+    },
+    {
+      "title": "Microsoft Links Storm-1175 to GoAnywhere Exploit Deploying Medusa Ransomware",
+      "link": "https://thehackernews.com/2025/10/microsoft-links-storm-1175-to.html",
+      "date": "2025-10-07T08:15:00Z",
+      "description": "Microsoft on Monday attributed a threat actor it tracks as Storm-1175 to the exploitation of a critical security flaw in Fortra GoAnywhere software to facilitate the deployment of Medusa ransomware. The vulnerability is CVE-2025-10035 (CVSS score: 10.0), a critical deserialization bug that could result in command injection without authentication. It was addressed in version 7.8.4, or the Sustain",
+      "source": "thehackernews.com"
     },
     {
       "title": "CISA Warns of Windows Privilege Escalation Vulnerability Exploited in Attacks",
@@ -43,13 +78,6 @@
       "date": "2025-10-07T05:12:00Z",
       "description": "CrowdStrike on Monday said it's attributing the exploitation of a recently disclosed security flaw in Oracle E-Business Suite with moderate confidence to a threat actor it tracks as Graceful Spider (aka Cl0p), and that the first known exploitation occurred on August 9, 2025. The exploitation involves the exploitation of CVE-2025-61882 (CVSS score: 9.8), a critical vulnerability that facilitates",
       "source": "thehackernews.com"
-    },
-    {
-      "title": "13-year-old Critical Redis RCE Vulnerability Let Attackers Gain Full Access to Host System",
-      "link": "https://cybersecuritynews.com/redis-rce-vulnerability/",
-      "date": "2025-10-07T02:11:24Z",
-      "description": "A 13-year-old critical remote code execution (RCE) vulnerability in Redis, dubbed RediShell, allows attackers to gain full access to the underlying host system. The flaw, tracked as CVE-2025-49844, was discovered by Wiz Research and has been assigned the highest possible CVSS severity score of 10.0, a rating reserved for the most severe security issues. The […] The post 13-year-old Critical…",
-      "source": "cybersecuritynews.com"
     },
     {
       "title": "PoC Released for Linux Kernel Escalates Privileges Flaw",
@@ -85,13 +113,6 @@
       "date": "2025-10-06T18:11:46Z",
       "description": "A cybercrime group, tracked as Storm-1175, has been actively exploiting a maximum severity GoAnywhere MFT vulnerability in Medusa ransomware attacks for nearly a month. [...]",
       "source": "bleepingcomputer.com"
-    },
-    {
-      "title": "Reemo Unveils Bastion+: A Scalable Solution for Global Privileged Access Management",
-      "link": "https://cybersecuritynews.com/reemo-unveils-bastion-a-scalable-solution-for-global-privileged-access-management/",
-      "date": "2025-10-06T17:58:11Z",
-      "description": "Paris, France, October 6th, 2025, CyberNewsWire Reemo continues its mission to secure enterprise remote access and becomes the first French cybersecurity provider to protect all remote access within a single platform. Reemo announces Bastion+, a next-generation bastion solution deployable without limits. “Companies don’t need another bastion. They need a global vision that remains simple and […]…",
-      "source": "cybersecuritynews.com"
     },
     {
       "title": "Microsoft: Running multiple Office apps causes Copilot issues",
@@ -148,27 +169,6 @@
       "date": "2025-10-06T11:38:00Z",
       "description": "The cyber world never hits pause, and staying alert matters more than ever. Every week brings new tricks, smarter attacks, and fresh lessons from the field. This recap cuts through the noise to share what really matters—key trends, warning signs, and stories shaping today’s security landscape. Whether you’re defending systems or just keeping up, these highlights help you spot what’s coming",
       "source": "thehackernews.com"
-    },
-    {
-      "title": "5 Critical Questions For Adopting an AI Security Solution",
-      "link": "https://thehackernews.com/2025/10/5-critical-questions-for-adopting-ai.html",
-      "date": "2025-10-06T11:38:00Z",
-      "description": "In the era of rapidly advancing artificial intelligence (AI) and cloud technologies, organizations are increasingly implementing security measures to protect sensitive data and ensure regulatory compliance. Among these measures, AI-SPM (AI Security Posture Management) solutions have gained traction to secure AI pipelines, sensitive data assets, and the overall AI ecosystem. These solutions help",
-      "source": "thehackernews.com"
-    },
-    {
-      "title": "Oracle Rushes Patch for CVE-2025-61882 After Cl0p Exploited It in Data Theft Attacks",
-      "link": "https://thehackernews.com/2025/10/oracle-rushes-patch-for-cve-2025-61882.html",
-      "date": "2025-10-06T11:37:00Z",
-      "description": "Oracle has released an emergency update to address a critical security flaw in its E-Business Suite software that it said has been exploited in the recent wave of Cl0p data theft attacks. The vulnerability, tracked as CVE-2025-61882 (CVSS score: 9.8), concerns an unspecified bug that could allow an unauthenticated attacker with network access via HTTP to compromise and take control of the Oracle",
-      "source": "thehackernews.com"
-    },
-    {
-      "title": "Hackers Extorting Salesforce After Stealing Data From Dozens of Customers",
-      "link": "https://www.securityweek.com/hackers-extorting-salesforce-after-stealing-data-from-dozens-of-customers/",
-      "date": "2025-10-06T11:24:35Z",
-      "description": "Salesforce says the extortion attempts are related to past or unsubstantiated incidents, and not to fresh intrusions. The post Hackers Extorting Salesforce After Stealing Data From Dozens of Customers appeared first on SecurityWeek.",
-      "source": "securityweek.com"
     },
     {
       "title": "Self-Propagating Malware Hits WhatsApp Users in Brazil",
