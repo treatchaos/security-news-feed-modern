@@ -1,7 +1,37 @@
 {
   "date": "2025-10-07",
-  "count": 14,
+  "count": 18,
   "items": [
+    {
+      "id": "12e1fd74c037cde2fc6a8b5ff11a221954712799",
+      "title": "Filigran Raises $58 Million in Series C Funding",
+      "link": "https://www.securityweek.com/filigran-raises-58-million-in-series-c-funding/",
+      "date": "2025-10-07T11:05:09Z",
+      "description": "The company plans to expand to new markets, fuel the development of a new module for its platform, and accelerate AI integration. The post Filigran Raises $58 Million in Series C Funding appeared first on SecurityWeek.",
+      "source": "securityweek.com",
+      "first_seen": "2025-10-07T11:09:13Z",
+      "last_seen": "2025-10-07T11:09:13Z"
+    },
+    {
+      "id": "675fab860451fab53985de29765a871b0222bfad",
+      "title": "Security Firm Exposes Role of Beijing Research Institute in China’s Cyber Operations",
+      "link": "https://www.securityweek.com/security-firm-exposes-role-of-beijing-research-institute-in-chinas-cyber-operations/",
+      "date": "2025-10-07T10:34:36Z",
+      "description": "BIETA and its subsidiary CIII research develop and sell technologies supporting China’s intelligence, counterintelligence, and military operations. The post Security Firm Exposes Role of Beijing Research Institute in China’s Cyber Operations appeared first on SecurityWeek.",
+      "source": "securityweek.com",
+      "first_seen": "2025-10-07T11:09:13Z",
+      "last_seen": "2025-10-07T11:09:13Z"
+    },
+    {
+      "id": "e342b2bf9c0b7f4a9dc9a3402aaf288aa03873ad",
+      "title": "Red Hat Breach Exposes 5000+ High Profile Enterprise Customers at Risk",
+      "link": "https://cybersecuritynews.com/red-hat-breach/",
+      "date": "2025-10-07T10:18:40Z",
+      "description": "A sophisticated cyberattack has compromised Red Hat Consulting’s infrastructure, potentially exposing sensitive data from over 5,000 enterprise customers worldwide. The breach, executed by the extortion group Crimson Collective, has raised serious concerns about the security of critical business documentation and source code belonging to major corporations, including Vodafone, HSBC, American…",
+      "source": "cybersecuritynews.com",
+      "first_seen": "2025-10-07T11:09:13Z",
+      "last_seen": "2025-10-07T11:09:13Z"
+    },
     {
       "id": "3c919efc25a11c89f5d5002ec2635beef175c792",
       "title": "GoAnywhere 0-Day RCE Vulnerability Exploited in the Wild to Deploy Medusa Ransomware",
@@ -10,7 +40,7 @@
       "description": "A critical deserialization flaw in GoAnywhere MFT’s License Servlet, tracked as CVE-2025-10035, has already been weaponized by the Storm-1175 group to execute the Medusa ransomware. The vulnerability affects GoAnywhere MFT versions up to 7.8.3. It resides in the License Servlet Admin Console, where a threat actor can forge a license response signature and bypass validation […] The post…",
       "source": "cybersecuritynews.com",
       "first_seen": "2025-10-07T10:11:17Z",
-      "last_seen": "2025-10-07T10:11:17Z"
+      "last_seen": "2025-10-07T11:09:13Z"
     },
     {
       "id": "4cff34c2ac4923cc67bb392ff06bf6c41721580c",
@@ -20,7 +50,7 @@
       "description": "The Medusa ransomware operators exploited the GoAnywhere MFT vulnerability one week before patches were released. The post Fortra GoAnywhere MFT Zero-Day Exploited in Ransomware Attacks appeared first on SecurityWeek.",
       "source": "securityweek.com",
       "first_seen": "2025-10-07T10:11:17Z",
-      "last_seen": "2025-10-07T10:11:17Z"
+      "last_seen": "2025-10-07T11:09:13Z"
     },
     {
       "id": "2b1e246992d14c0f5b7024247a56464896ca69cb",
@@ -30,7 +60,7 @@
       "description": "Elastic has released a security advisory detailing a medium-severity vulnerability in the Kibana CrowdStrike Connector that could allow for the exposure of sensitive credentials. The flaw, tracked as CVE-2025-37728, affects multiple versions of Kibana and could allow a malicious user to access cached CrowdStrike credentials from other users within the same environment. The vulnerability…",
       "source": "cybersecuritynews.com",
       "first_seen": "2025-10-07T10:11:17Z",
-      "last_seen": "2025-10-07T10:11:17Z"
+      "last_seen": "2025-10-07T11:09:13Z"
     },
     {
       "id": "e6ebe2e1915361ed06ede7ec9c35bc4e2c67f9a2",
@@ -40,7 +70,7 @@
       "description": "The Year 2036/2038 problem is a bug that will be triggered in more than a decade, but hackers could exploit it today against ICS and consumer devices. The post The Y2K38 Bug Is a Vulnerability, Not Just a Date Problem, Researchers Warn appeared first on SecurityWeek.",
       "source": "securityweek.com",
       "first_seen": "2025-10-07T09:12:16Z",
-      "last_seen": "2025-10-07T10:11:17Z"
+      "last_seen": "2025-10-07T11:09:13Z"
     },
     {
       "id": "c9f427b7dc8b4e6323f96169e5d2ebbf048a5fa1",
@@ -53,6 +83,16 @@
       "last_seen": "2025-10-07T10:11:17Z"
     },
     {
+      "id": "f4d0daca1d30e888839a5313b4f100b0d6274072",
+      "title": "13-Year-Old Redis Flaw Exposed: CVSS 10.0 Vulnerability Lets Attackers Run Code Remotely",
+      "link": "https://thehackernews.com/2025/10/13-year-redis-flaw-exposed-cvss-100.html",
+      "date": "2025-10-07T08:33:00Z",
+      "description": "Redis has disclosed details of a maximum-severity security flaw in its in-memory database software that could result in remote code execution under certain circumstances. The vulnerability, tracked as CVE-2025-49844 (aka RediShell), has been assigned a CVSS score of 10.0. \"An authenticated user may use a specially crafted Lua script to manipulate the garbage collector, trigger a use-after-free,",
+      "source": "thehackernews.com",
+      "first_seen": "2025-10-07T11:09:13Z",
+      "last_seen": "2025-10-07T11:09:13Z"
+    },
+    {
       "id": "c22f57f7251151949b9c0579295d1a8f78298713",
       "title": "Critical Vulnerability Puts 60,000 Redis Servers at Risk of Exploitation",
       "link": "https://www.securityweek.com/critical-vulnerability-puts-60000-redis-servers-at-risk-of-exploitation/",
@@ -60,7 +100,7 @@
       "description": "Authenticated attackers can exploit the security flaw to trigger a use-after-free and potentially execute arbitrary code. The post Critical Vulnerability Puts 60,000 Redis Servers at Risk of Exploitation appeared first on SecurityWeek.",
       "source": "securityweek.com",
       "first_seen": "2025-10-07T09:12:16Z",
-      "last_seen": "2025-10-07T10:11:17Z"
+      "last_seen": "2025-10-07T11:09:13Z"
     },
     {
       "id": "06245d9786a44c36203ab9d34c14c1b2ad440e08",
@@ -70,7 +110,7 @@
       "description": "Microsoft on Monday attributed a threat actor it tracks as Storm-1175 to the exploitation of a critical security flaw in Fortra GoAnywhere software to facilitate the deployment of Medusa ransomware. The vulnerability is CVE-2025-10035 (CVSS score: 10.0), a critical deserialization bug that could result in command injection without authentication. It was addressed in version 7.8.4, or the Sustain",
       "source": "thehackernews.com",
       "first_seen": "2025-10-07T10:11:17Z",
-      "last_seen": "2025-10-07T10:11:17Z"
+      "last_seen": "2025-10-07T11:09:13Z"
     },
     {
       "id": "02ba3a0f4fb44829e5854348818501d2e3647c67",
@@ -80,7 +120,7 @@
       "description": "CISA has issued an urgent security advisory, adding Microsoft Windows privilege escalation vulnerability CVE-2021-43226 to its Known Exploited Vulnerabilities (KEV) catalog on October 6, 2025. The vulnerability affects the Microsoft Windows Common Log File System (CLFS) Driver and poses significant security risks to enterprise environments. The CVE-2021-43226 vulnerability resides within…",
       "source": "cybersecuritynews.com",
       "first_seen": "2025-10-07T08:15:03Z",
-      "last_seen": "2025-10-07T10:11:17Z"
+      "last_seen": "2025-10-07T11:09:13Z"
     },
     {
       "id": "26a9441487377fe4fd6a040ee6e64d589150c623",
@@ -90,7 +130,7 @@
       "description": "A new command injection vulnerability in OpenSSH, tracked as CVE-2025-61984, has been disclosed, which could allow an attacker to achieve remote code execution on a victim’s machine. The vulnerability is a bypass of a previous fix for a similar issue (CVE-2023-51385) and exploits how the ProxyCommand feature interacts with the underlying system shell when handling […] The post OpenSSH…",
       "source": "cybersecuritynews.com",
       "first_seen": "2025-10-07T07:11:12Z",
-      "last_seen": "2025-10-07T10:11:17Z"
+      "last_seen": "2025-10-07T11:09:13Z"
     },
     {
       "id": "c73a25a154cacbf93fa7d81bd17ac8909aa30346",
@@ -110,7 +150,7 @@
       "description": "CrowdStrike on Monday said it's attributing the exploitation of a recently disclosed security flaw in Oracle E-Business Suite with moderate confidence to a threat actor it tracks as Graceful Spider (aka Cl0p), and that the first known exploitation occurred on August 9, 2025. The exploitation involves the exploitation of CVE-2025-61882 (CVSS score: 9.8), a critical vulnerability that facilitates",
       "source": "thehackernews.com",
       "first_seen": "2025-10-07T06:15:56Z",
-      "last_seen": "2025-10-07T10:11:17Z"
+      "last_seen": "2025-10-07T11:09:13Z"
     },
     {
       "id": "effe56ceb9119a2f53b6fe8ce948fe86c931a932",
@@ -140,7 +180,7 @@
       "description": "The post PoC Released for Linux Kernel Escalates Privileges Flaw appeared first on Daily CyberSecurity.",
       "source": "securityonline.info",
       "first_seen": "2025-10-07T00:48:03Z",
-      "last_seen": "2025-10-07T10:11:17Z"
+      "last_seen": "2025-10-07T11:09:13Z"
     }
   ]
 }
