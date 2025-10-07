@@ -1,7 +1,35 @@
 {
-  "last_updated": "2025-10-07T12:20:55Z",
+  "last_updated": "2025-10-07T13:22:36Z",
   "count": 40,
   "items": [
+    {
+      "title": "CrowdStrike Warns of New Mass Exploitation Campaign Leveraging Oracle E-Business Suite 0-Day",
+      "link": "https://cybersecuritynews.com/mass-exploitation-oracle-e-business/",
+      "date": "2025-10-07T13:20:01Z",
+      "description": "A widespread campaign observed exploiting a novel zero-day vulnerability in Oracle E-Business Suite (EBS) applications, now tracked as CVE-2025-61882. First observed on August 9, 2025, this unauthenticated remote code execution (RCE) flaw is being weaponized to bypass authentication, deploy web shells, and exfiltrate sensitive data from internet-exposed EBS instances. CrowdStrike assesses with…",
+      "source": "cybersecuritynews.com"
+    },
+    {
+      "title": "Google's new AI bug bounty program pays up to $30,000 for flaws",
+      "link": "https://www.bleepingcomputer.com/news/google/googles-new-ai-bug-bounty-program-pays-up-to-30-000-for-flaws/",
+      "date": "2025-10-07T13:19:27Z",
+      "description": "This week, Google has launched an AI Vulnerability Reward Program dedicated to security researchers who find and report flaws in the company's AI systems. [...]",
+      "source": "bleepingcomputer.com"
+    },
+    {
+      "title": "Hackers Stole Data From Public Safety Comms Firm BK Technologies",
+      "link": "https://www.securityweek.com/hackers-stole-data-from-public-safety-comms-firm-bk-technologies/",
+      "date": "2025-10-07T13:15:33Z",
+      "description": "BK Technologies has informed the SEC that it discovered an IT intrusion on September 20. The post Hackers Stole Data From Public Safety Comms Firm BK Technologies appeared first on SecurityWeek.",
+      "source": "securityweek.com"
+    },
+    {
+      "title": "Threat Actors Behind WARMCOOKIE Malware Added New Features to It’s Arsenal",
+      "link": "https://cybersecuritynews.com/threat-actors-behind-warmcookie-malware/",
+      "date": "2025-10-07T12:37:07Z",
+      "description": "The WARMCOOKIE backdoor first surfaced in mid-2024, delivered primarily via recruiting-themed phishing campaigns that coaxed victims into executing malicious documents. Initially designed as a lightweight implant for remote command execution, its modular codebase enabled rapid adaptation to new objectives. Over the past year, targets have included enterprise networks across multiple regions,…",
+      "source": "cybersecuritynews.com"
+    },
     {
       "title": "Cybersecurity M&A Roundup: 40 Deals Announced in September 2025",
       "link": "https://www.securityweek.com/cybersecurity-ma-roundup-40-deals-announced-in-september-2025/",
@@ -66,20 +94,6 @@
       "source": "securityweek.com"
     },
     {
-      "title": "Kibana Crowdstrike Connector Vulnerability Exposes Protected Credentials",
-      "link": "https://cybersecuritynews.com/kibana-crowdstrike-connector-vulnerability/",
-      "date": "2025-10-07T09:32:17Z",
-      "description": "Elastic has released a security advisory detailing a medium-severity vulnerability in the Kibana CrowdStrike Connector that could allow for the exposure of sensitive credentials. The flaw, tracked as CVE-2025-37728, affects multiple versions of Kibana and could allow a malicious user to access cached CrowdStrike credentials from other users within the same environment. The vulnerability…",
-      "source": "cybersecuritynews.com"
-    },
-    {
-      "title": "The Y2K38 Bug Is a Vulnerability, Not Just a Date Problem, Researchers Warn",
-      "link": "https://www.securityweek.com/the-y2k38-bug-is-a-vulnerability-not-just-a-date-problem-researchers-warn/",
-      "date": "2025-10-07T08:43:06Z",
-      "description": "The Year 2036/2038 problem is a bug that will be triggered in more than a decade, but hackers could exploit it today against ICS and consumer devices. The post The Y2K38 Bug Is a Vulnerability, Not Just a Date Problem, Researchers Warn appeared first on SecurityWeek.",
-      "source": "securityweek.com"
-    },
-    {
       "title": "13-Year-Old Redis Flaw Exposed: CVSS 10.0 Vulnerability Lets Attackers Run Code Remotely",
       "link": "https://thehackernews.com/2025/10/13-year-redis-flaw-exposed-cvss-100.html",
       "date": "2025-10-07T08:33:00Z",
@@ -92,13 +106,6 @@
       "date": "2025-10-07T08:15:00Z",
       "description": "Microsoft on Monday attributed a threat actor it tracks as Storm-1175 to the exploitation of a critical security flaw in Fortra GoAnywhere software to facilitate the deployment of Medusa ransomware. The vulnerability is CVE-2025-10035 (CVSS score: 10.0), a critical deserialization bug that could result in command injection without authentication. It was addressed in version 7.8.4, or the Sustain",
       "source": "thehackernews.com"
-    },
-    {
-      "title": "CISA Warns of Windows Privilege Escalation Vulnerability Exploited in Attacks",
-      "link": "https://cybersecuritynews.com/cisa-windows-privilege-escalation-vulnerability/",
-      "date": "2025-10-07T07:36:43Z",
-      "description": "CISA has issued an urgent security advisory, adding Microsoft Windows privilege escalation vulnerability CVE-2021-43226 to its Known Exploited Vulnerabilities (KEV) catalog on October 6, 2025. The vulnerability affects the Microsoft Windows Common Log File System (CLFS) Driver and poses significant security risks to enterprise environments. The CVE-2021-43226 vulnerability resides within…",
-      "source": "cybersecuritynews.com"
     },
     {
       "title": "Oracle EBS Under Fire as Cl0p Exploits CVE-2025-61882 in Real-World Attacks",
@@ -154,13 +161,6 @@
       "link": "https://www.bleepingcomputer.com/news/security/zeroday-cloud-hacking-contest-offers-45-million-in-bounties/",
       "date": "2025-10-06T17:12:13Z",
       "description": "A new hacking competition called Zeroday Cloud, focused on open-source cloud and AI tools, announced a total prize pool of $4.5 million in bug bounties for researchers that submit exploits for various targets. [...]",
-      "source": "bleepingcomputer.com"
-    },
-    {
-      "title": "ChatGPT Pulse is coming to the web, but no word on free or Plus roll out",
-      "link": "https://www.bleepingcomputer.com/news/artificial-intelligence/chatgpt-pulse-is-coming-to-the-web-but-no-word-on-free-or-plus-roll-out/",
-      "date": "2025-10-06T16:59:26Z",
-      "description": "OpenAI's ChatGPT Pulse, which is a tool that gives you personalised updates based on usage patterns, is coming to the web. [...]",
       "source": "bleepingcomputer.com"
     },
     {
