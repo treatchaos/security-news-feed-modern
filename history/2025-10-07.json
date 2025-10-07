@@ -1,7 +1,17 @@
 {
   "date": "2025-10-07",
-  "count": 5,
+  "count": 6,
   "items": [
+    {
+      "id": "26a9441487377fe4fd6a040ee6e64d589150c623",
+      "title": "OpenSSH Vulnerability Exploited Via ProxyCommand to Execute Remote Code – PoC Released",
+      "link": "https://cybersecuritynews.com/openssh-vulnerability-proxycommand/",
+      "date": "2025-10-07T06:29:55Z",
+      "description": "A new command injection vulnerability in OpenSSH, tracked as CVE-2025-61984, has been disclosed, which could allow an attacker to achieve remote code execution on a victim’s machine. The vulnerability is a bypass of a previous fix for a similar issue (CVE-2023-51385) and exploits how the ProxyCommand feature interacts with the underlying system shell when handling […] The post OpenSSH…",
+      "source": "cybersecuritynews.com",
+      "first_seen": "2025-10-07T07:11:12Z",
+      "last_seen": "2025-10-07T07:11:12Z"
+    },
     {
       "id": "c73a25a154cacbf93fa7d81bd17ac8909aa30346",
       "title": "Cl0p Ransomware Actively Exploiting Oracle E-Business Suite 0-Day Vulnerability in the Wild",
@@ -10,7 +20,7 @@
       "description": "Oracle has issued an emergency security alert for a critical zero-day vulnerability (CVE-2025-61882) in its E-Business Suite after the notorious Cl0p ransomware group began extorting customers who failed to patch their systems. The vulnerability, carrying a maximum CVSS score of 9.8, affects the Business Intelligence Publisher (BI Publisher) Integration component and enables remote code…",
       "source": "cybersecuritynews.com",
       "first_seen": "2025-10-07T06:15:56Z",
-      "last_seen": "2025-10-07T06:15:56Z"
+      "last_seen": "2025-10-07T07:11:12Z"
     },
     {
       "id": "47d1756e886b26dd2bc6f71ca1368621615869aa",
@@ -20,7 +30,7 @@
       "description": "CrowdStrike on Monday said it's attributing the exploitation of a recently disclosed security flaw in Oracle E-Business Suite with moderate confidence to a threat actor it tracks as Graceful Spider (aka Cl0p), and that the first known exploitation occurred on August 9, 2025. The exploitation involves the exploitation of CVE-2025-61882 (CVSS score: 9.8), a critical vulnerability that facilitates",
       "source": "thehackernews.com",
       "first_seen": "2025-10-07T06:15:56Z",
-      "last_seen": "2025-10-07T06:15:56Z"
+      "last_seen": "2025-10-07T07:11:12Z"
     },
     {
       "id": "effe56ceb9119a2f53b6fe8ce948fe86c931a932",
@@ -40,7 +50,7 @@
       "description": "A 13-year-old critical remote code execution (RCE) vulnerability in Redis, dubbed RediShell, allows attackers to gain full access to the underlying host system. The flaw, tracked as CVE-2025-49844, was discovered by Wiz Research and has been assigned the highest possible CVSS severity score of 10.0, a rating reserved for the most severe security issues. The […] The post 13-year-old Critical…",
       "source": "cybersecuritynews.com",
       "first_seen": "2025-10-07T03:24:19Z",
-      "last_seen": "2025-10-07T06:15:56Z"
+      "last_seen": "2025-10-07T07:11:12Z"
     },
     {
       "id": "01bee3f84417df14b008f3bb61f9f3ec90208800",
@@ -50,7 +60,7 @@
       "description": "The post PoC Released for Linux Kernel Escalates Privileges Flaw appeared first on Daily CyberSecurity.",
       "source": "securityonline.info",
       "first_seen": "2025-10-07T00:48:03Z",
-      "last_seen": "2025-10-07T06:15:56Z"
+      "last_seen": "2025-10-07T07:11:12Z"
     }
   ]
 }
