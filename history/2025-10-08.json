@@ -1,7 +1,67 @@
 {
   "date": "2025-10-08",
-  "count": 15,
+  "count": 21,
   "items": [
+    {
+      "id": "46ad7259cb4e027d45d29cd631d2ba0bafa31abe",
+      "title": "ClamAV 1.5.0 Released with New MS Office and PDF Verification Features",
+      "link": "https://cybersecuritynews.com/clamav-1-5-0-released/",
+      "date": "2025-10-08T12:06:38Z",
+      "description": "Cisco has announced the release of ClamAV 1.5.0, a significant update to the open-source antivirus engine that introduces major security enhancements, new document scanning capabilities, and extensive API improvements. This version strengthens the platform’s detection and verification mechanisms, with a particular focus on Microsoft Office documents, PDF files, and overall cryptographic…",
+      "source": "cybersecuritynews.com",
+      "first_seen": "2025-10-08T12:21:16Z",
+      "last_seen": "2025-10-08T12:21:16Z"
+    },
+    {
+      "id": "46ea2d9c1457af265035f50e8a2e534070d652a0",
+      "title": "Critical AWS ClientVPN for macOS Vulnerability Let Attackers Escalate Privileges",
+      "link": "https://cybersecuritynews.com/aws-clientvpn-for-macos-vulnerability/",
+      "date": "2025-10-08T11:53:29Z",
+      "description": "A critical flaw in the AWS Client VPN for macOS has been disclosed, presenting a local privilege escalation risk to non-administrator users. The vulnerability tracked as CVE-2025-11462 allows attackers to gain root privileges by abusing the client’s log rotation mechanism. AWS Client VPN is a managed, client-based VPN service that secures access to AWS and […] The post Critical AWS ClientVPN for…",
+      "source": "cybersecuritynews.com",
+      "first_seen": "2025-10-08T12:21:16Z",
+      "last_seen": "2025-10-08T12:21:16Z"
+    },
+    {
+      "id": "9100ecc4bd8ca7274b5f21a595d467470f07f81f",
+      "title": "Step Into the Password Graveyard… If You Dare (and Join the Live Session)",
+      "link": "https://thehackernews.com/2025/10/step-into-password-graveyard-if-you.html",
+      "date": "2025-10-08T11:35:00Z",
+      "description": "Every year, weak passwords lead to millions in losses — and many of those breaches could have been stopped. Attackers don’t need advanced tools; they just need one careless login. For IT teams, that means endless resets, compliance struggles, and sleepless nights worrying about the next credential leak. This Halloween, The Hacker News and Specops Software invite you to a live webinar: “",
+      "source": "thehackernews.com",
+      "first_seen": "2025-10-08T12:21:16Z",
+      "last_seen": "2025-10-08T12:21:16Z"
+    },
+    {
+      "id": "da3b3f5f4c3c5a5e3f0b4348323790d4377c7906",
+      "title": "ASCII Smuggling Attack Lets Hackers Manipulate Gemini to Deliver Smuggled Data to Users",
+      "link": "https://cybersecuritynews.com/ascii-smuggling-attack-gemini/",
+      "date": "2025-10-08T11:24:32Z",
+      "description": "Researchers set out to test leading large language models (LLMs) for resilience against the long-standing ASCII Smuggling technique. By embedding invisible control characters within seemingly harmless text, ASCII Smuggling abuses Unicode “tag” blocks to hide malicious instructions from human reviewers while feeding them directly into the raw input stream consumed by LLMs. FireTail researcher…",
+      "source": "cybersecuritynews.com",
+      "first_seen": "2025-10-08T12:21:16Z",
+      "last_seen": "2025-10-08T12:21:16Z"
+    },
+    {
+      "id": "6e41b82479fa27c6279c243d2ab33539b6761a98",
+      "title": "North Korean Hackers Have Stolen $2 Billion in Cryptocurrency in 2025",
+      "link": "https://www.securityweek.com/north-korean-hackers-have-stolen-2-billion-in-cryptocurrency-in-2025/",
+      "date": "2025-10-08T11:09:29Z",
+      "description": "The hackers are believed to have stolen over $6 billion for the Pyongyang regime, financing its military programs. The post North Korean Hackers Have Stolen $2 Billion in Cryptocurrency in 2025 appeared first on SecurityWeek.",
+      "source": "securityweek.com",
+      "first_seen": "2025-10-08T12:21:16Z",
+      "last_seen": "2025-10-08T12:21:16Z"
+    },
+    {
+      "id": "04841f15a230f65f1bc725b0618b49130e10f6d3",
+      "title": "Severe Figma MCP Vulnerability Lets Hackers Execute Code Remotely — Patch Now",
+      "link": "https://thehackernews.com/2025/10/severe-figma-mcp-vulnerability-lets.html",
+      "date": "2025-10-08T10:58:00Z",
+      "description": "Cybersecurity researchers have disclosed details of a now-patched vulnerability in the popular figma-developer-mcp Model Context Protocol (MCP) server that could allow attackers to achieve code execution. The vulnerability, tracked as CVE-2025-53967 (CVSS score: 7.5), is a command injection bug stemming from the unsanitized use of user input, opening the door to a scenario where an attacker can",
+      "source": "thehackernews.com",
+      "first_seen": "2025-10-08T12:21:16Z",
+      "last_seen": "2025-10-08T12:21:16Z"
+    },
     {
       "id": "3de708b0f4bca8696452af7cadeef0043fc03f6a",
       "title": "PoC Exploit Released for Critical Lua Engine Vulnerabilities",
@@ -10,7 +70,7 @@
       "description": "Three newly disclosed vulnerabilities have been identified in the Lua scripting engine of Redis 7.4.5, each presenting severe risks of remote code execution and privilege escalation. Redrays has released a detailed proof-of-concept (PoC) to exploit these vulnerabilities, which is now publicly available. Organizations are urged to act immediately. Use-After-Free Flaw (CVE-2025-49844) This…",
       "source": "cybersecuritynews.com",
       "first_seen": "2025-10-08T11:08:54Z",
-      "last_seen": "2025-10-08T11:08:54Z"
+      "last_seen": "2025-10-08T12:21:16Z"
     },
     {
       "id": "3c117e376958698312e607beed43bc5c2487affd",
@@ -20,7 +80,7 @@
       "description": "Radiflow360 provides enhanced visibility, risk management, and incident response capabilities for mid-sized industrial enterprises. The post Radiflow Unveils New OT Security Platform appeared first on SecurityWeek.",
       "source": "securityweek.com",
       "first_seen": "2025-10-08T10:11:17Z",
-      "last_seen": "2025-10-08T11:08:54Z"
+      "last_seen": "2025-10-08T12:21:16Z"
     },
     {
       "id": "11d4f33a6d9524e778207d2b4a95e0edf840ed53",
@@ -40,7 +100,7 @@
       "description": "OpenAI announced it has banned a series of ChatGPT accounts linked to Chinese state-affiliated hacking groups that used the AI models to refine malware and create phishing content. The October 2025 report details the disruption of several malicious networks as part of the company’s ongoing commitment to preventing the abuse of its AI technologies by […] The post OpenAI Banned ChatGPT Accounts…",
       "source": "cybersecuritynews.com",
       "first_seen": "2025-10-08T11:08:54Z",
-      "last_seen": "2025-10-08T11:08:54Z"
+      "last_seen": "2025-10-08T12:21:16Z"
     },
     {
       "id": "cc89ce3a9d181e46e391826b17d50209bdd941cf",
@@ -50,7 +110,7 @@
       "description": "The hackers claim the theft of 27 gigabytes of data, including contracts, employee information, and financial documents. The post Ransomware Group Claims Attack on Beer Giant Asahi appeared first on SecurityWeek.",
       "source": "securityweek.com",
       "first_seen": "2025-10-08T10:11:17Z",
-      "last_seen": "2025-10-08T11:08:54Z"
+      "last_seen": "2025-10-08T12:21:16Z"
     },
     {
       "id": "be69363e8d9574a5b9ef1e260ea4e8a7141405d0",
@@ -60,7 +120,7 @@
       "description": "Hackers accessed user accounts and compromised names, addresses, phone numbers, email addresses, and other information. The post DraftKings Warns Users of Credential Stuffing Attacks appeared first on SecurityWeek.",
       "source": "securityweek.com",
       "first_seen": "2025-10-08T09:12:03Z",
-      "last_seen": "2025-10-08T11:08:54Z"
+      "last_seen": "2025-10-08T12:21:16Z"
     },
     {
       "id": "04780d52771e5da98815b3eedcb054a68c179814",
@@ -70,7 +130,7 @@
       "description": "Artificial intelligence is reshaping cybersecurity on both sides of the battlefield. Cybercriminals are using AI-powered tools to accelerate and automate attacks at a scale defenders have never faced before. Security teams are overwhelmed by an explosion of vulnerability data, tool outputs, and alerts, all while operating with finite human resources. The irony is that while AI has become a",
       "source": "thehackernews.com",
       "first_seen": "2025-10-08T10:11:17Z",
-      "last_seen": "2025-10-08T11:08:54Z"
+      "last_seen": "2025-10-08T12:21:16Z"
     },
     {
       "id": "f6a171862269509608ef35250b451da4cc8a148f",
@@ -110,7 +170,7 @@
       "description": "Hundreds of internet-exposed Oracle E-Business Suite instances may still be vulnerable to attacks. The post Exploitation of Oracle EBS Zero-Day Started 2 Months Before Patching appeared first on SecurityWeek.",
       "source": "securityweek.com",
       "first_seen": "2025-10-08T08:15:17Z",
-      "last_seen": "2025-10-08T11:08:54Z"
+      "last_seen": "2025-10-08T12:21:16Z"
     },
     {
       "id": "ee1b49b59e67f6a11e80baed3bc50c32466cdd61",
@@ -130,7 +190,7 @@
       "description": "OpenAI on Tuesday said it disrupted three activity clusters for misusing its ChatGPT artificial intelligence (AI) tool to facilitate malware development. This includes a Russian‑language threat actor, who is said to have used the chatbot to help develop and refine a remote access trojan (RAT), a credential stealer with an aim to evade detection. The operator also used several ChatGPT accounts to",
       "source": "thehackernews.com",
       "first_seen": "2025-10-08T08:15:17Z",
-      "last_seen": "2025-10-08T11:08:54Z"
+      "last_seen": "2025-10-08T12:21:16Z"
     },
     {
       "id": "f14d381352581d6db06447471d7789a52cd167c7",
@@ -140,7 +200,7 @@
       "description": "A ransomware last week left the Asahi brewery in Japan struggling to take orders and deliver its products domestically, as manufacturers become a favored target.",
       "source": "darkreading.com",
       "first_seen": "2025-10-08T02:15:38Z",
-      "last_seen": "2025-10-08T11:08:54Z"
+      "last_seen": "2025-10-08T12:21:16Z"
     },
     {
       "id": "9443a38adbcfd98cc019cfea6b6a17bb64da7bf0",
@@ -150,7 +210,7 @@
       "description": "Salesforce has confirmed that it will not negotiate with or pay a ransom to the threat actors behind a massive wave of data theft attacks that impacted the company's customers this year. [...]",
       "source": "bleepingcomputer.com",
       "first_seen": "2025-10-08T00:47:37Z",
-      "last_seen": "2025-10-08T11:08:54Z"
+      "last_seen": "2025-10-08T12:21:16Z"
     }
   ]
 }
