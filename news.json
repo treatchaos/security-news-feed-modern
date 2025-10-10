@@ -1,7 +1,49 @@
 {
-  "last_updated": "2025-10-10T11:09:03Z",
+  "last_updated": "2025-10-10T12:21:09Z",
   "count": 40,
   "items": [
+    {
+      "title": "RondoDox Botnet Takes ‘Exploit Shotgun’ Approach",
+      "link": "https://www.securityweek.com/rondodox-botnet-takes-exploit-shotgun-approach/",
+      "date": "2025-10-10T12:06:03Z",
+      "description": "The botnet packs over 50 exploits targeting unpatched routers, DVRs, NVRs, CCTV systems, servers, and other network devices. The post RondoDox Botnet Takes ‘Exploit Shotgun’ Approach appeared first on SecurityWeek.",
+      "source": "securityweek.com"
+    },
+    {
+      "title": "Microsoft Defender Incorrectly Flags SQL Server Software as End-of-life",
+      "link": "https://cybersecuritynews.com/microsoft-defender-flags-sql-server/",
+      "date": "2025-10-10T11:43:18Z",
+      "description": "Microsoft Defender for Endpoint is incorrectly flagging specific versions of SQL Server as having reached their end-of-life, causing potential confusion for system administrators. The issue, tracked under advisory DZ1168079, stems from a code bug and affects the Threat and Vulnerability Management feature within the Microsoft Defender XDR suite. The bug impacts explicitly organizations running…",
+      "source": "cybersecuritynews.com"
+    },
+    {
+      "title": "From Detection to Patch: Fortra Reveals Full Timeline of CVE-2025-10035 Exploitation",
+      "link": "https://thehackernews.com/2025/10/from-detection-to-patch-fortra-reveals.html",
+      "date": "2025-10-10T11:42:00Z",
+      "description": "Fortra on Thursday revealed the results of its investigation into CVE-2025-10035, a critical security flaw in GoAnywhere Managed File Transfer (MFT) that's assessed to have come under active exploitation since at least September 11, 2025. The company said it began its investigation on September 11 following a \"potential vulnerability\" reported by a customer, uncovering \"potentially suspicious",
+      "source": "thehackernews.com"
+    },
+    {
+      "title": "Critical GitHub Copilot Vulnerability Let Attackers Exfiltrate Source Code From Private Repos",
+      "link": "https://cybersecuritynews.com/github-copilot-vulnerability/",
+      "date": "2025-10-10T11:18:20Z",
+      "description": "A critical vulnerability in GitHub Copilot Chat, rated 9.6 on the CVSS scale, could have allowed attackers to exfiltrate source code and secrets from private repositories silently. The exploit combined a novel prompt injection technique with a clever bypass of GitHub’s Content Security Policy (CSP), granting the attacker significant control over a victim’s Copilot instance, […] The post Critical…",
+      "source": "cybersecuritynews.com"
+    },
+    {
+      "title": "The AI SOC Stack of 2026: What Sets Top-Tier Platforms Apart?",
+      "link": "https://thehackernews.com/2025/10/the-ai-soc-stack-of-2026-what-sets-top.html",
+      "date": "2025-10-10T11:00:00Z",
+      "description": "The SOC of 2026 will no longer be a human-only battlefield. As organizations scale and threats evolve in sophistication and velocity, a new generation of AI-powered agents is reshaping how Security Operations Centers (SOCs) detect, respond, and adapt. But not all AI SOC platforms are created equal. From prompt-dependent copilots to autonomous, multi-agent systems, the current market offers",
+      "source": "thehackernews.com"
+    },
+    {
+      "title": "175 Malicious npm Packages with 26,000 Downloads Used in Credential Phishing Campaign",
+      "link": "https://thehackernews.com/2025/10/175-malicious-npm-packages-with-26000.html",
+      "date": "2025-10-10T10:45:00Z",
+      "description": "Cybersecurity researchers have flagged a new set of 175 malicious packages on the npm registry that have been used to facilitate credential harvesting attacks as part of an unusual campaign. The packages have been collectively downloaded 26,000 times, acting as an infrastructure for a widespread phishing campaign codenamed Beamglea targeting more than 135 industrial, technology, and energy",
+      "source": "thehackernews.com"
+    },
     {
       "title": "Juniper Networks Patches Critical Junos Space Vulnerabilities",
       "link": "https://www.securityweek.com/juniper-networks-patches-critical-junos-space-vulnerabilities/",
@@ -56,20 +98,6 @@
       "link": "https://cybersecuritynews.com/snakekeylogger-via-weaponized-e-mails/",
       "date": "2025-10-10T08:13:04Z",
       "description": "Emerging from a recent wave of targeted campaigns, SnakeKeylogger has surfaced as a potent infostealer that capitalizes on PowerShell and social engineering. The malware’s operators craft convincing spear-phishing e-mails under aliases such as “CPA-Payment Files,” impersonating reputable financial and research firms. Recipients encounter ISO or ZIP attachments containing a seemingly innocuous…",
-      "source": "cybersecuritynews.com"
-    },
-    {
-      "title": "Microsoft Warns of Hackers Compromising Employee Accounts to Steal Salary Payments",
-      "link": "https://cybersecuritynews.com/hackers-compromising-employee-accounts/",
-      "date": "2025-10-10T07:51:16Z",
-      "description": "A sophisticated financially motivated threat actor known as Storm-2657 has been orchestrating elaborate “payroll pirate” attacks targeting US universities and other organizations, Microsoft Threat Intelligence has revealed. These attacks represent a concerning evolution in cybercriminal tactics, where hackers compromise employee accounts to gain unauthorized access to human resources systems and…",
-      "source": "cybersecuritynews.com"
-    },
-    {
-      "title": "Gladinet CentreStack And Triofox 0-Day RCE Vulnerability Actively Exploited In Attacks",
-      "link": "https://cybersecuritynews.com/gladinet-centrestack-and-triofox-0-day-rce/",
-      "date": "2025-10-10T07:47:19Z",
-      "description": "An active in-the-wild exploitation of a zero-day vulnerability in Gladinet CentreStack and Triofox products. Tracked as CVE-2025-11371, the unauthenticated Local File Inclusion (LFI) flaw allows attackers to achieve remote code execution (RCE) on affected systems. The vulnerability is currently unpatched, but a mitigation has been provided. Organizations using the affected software are strongly…",
       "source": "cybersecuritynews.com"
     },
     {
@@ -136,13 +164,6 @@
       "source": "bleepingcomputer.com"
     },
     {
-      "title": "From HealthKick to GOVERSHELL: The Evolution of UTA0388's Espionage Malware",
-      "link": "https://thehackernews.com/2025/10/from-healthkick-to-govershell-evolution.html",
-      "date": "2025-10-09T17:19:00Z",
-      "description": "A China-aligned threat actor codenamed UTA0388 has been attributed to a series of spear-phishing campaigns targeting North America, Asia, and Europe that are designed to deliver a Go-based implant known as GOVERSHELL. \"The initially observed campaigns were tailored to the targets, and the messages purported to be sent by senior researchers and analysts from legitimate-sounding, completely",
-      "source": "thehackernews.com"
-    },
-    {
       "title": "Fastly CISO: Using Major Incidents as Career Catalysts",
       "link": "https://www.darkreading.com/cybersecurity-operations/fastly-ciso-major-incidents-career-catalysts",
       "date": "2025-10-09T15:33:49Z",
@@ -150,32 +171,11 @@
       "source": "darkreading.com"
     },
     {
-      "title": "New ClayRat Spyware Targets Android Users via Fake WhatsApp and TikTok Apps",
-      "link": "https://thehackernews.com/2025/10/new-clayrat-spyware-targets-android.html",
-      "date": "2025-10-09T15:30:00Z",
-      "description": "A rapidly evolving Android spyware campaign called ClayRat has targeted users in Russia using a mix of Telegram channels and lookalike phishing websites by impersonating popular apps like WhatsApp, Google Photos, TikTok, and YouTube as lures to install them. \"Once active, the spyware can exfiltrate SMS messages, call logs, notifications, and device information; taking photos with the front",
-      "source": "thehackernews.com"
-    },
-    {
       "title": "Take Note: Cyber-Risks With AI Notetakers",
       "link": "https://www.darkreading.com/cyber-risk/take-note-cyber-risks-with-ai-notetakers",
       "date": "2025-10-09T14:00:00Z",
       "description": "Transcription applications are joining your online meetings. Here's how to create policies for ensuring compliance and security of your information.",
       "source": "darkreading.com"
-    },
-    {
-      "title": "Hackers Access SonicWall Cloud Firewall Backups, Spark Urgent Security Checks",
-      "link": "https://thehackernews.com/2025/10/hackers-access-sonicwall-cloud-firewall.html",
-      "date": "2025-10-09T13:48:00Z",
-      "description": "SonicWall on Wednesday disclosed that an unauthorized party accessed firewall configuration backup files for all customers who have used the cloud backup service. \"The files contain encrypted credentials and configuration data; while encryption remains in place, possession of these files could increase the risk of targeted attacks,\" the company said. It also noted that it's working to notify all",
-      "source": "thehackernews.com"
-    },
-    {
-      "title": "Realm.Security Raises $15 Million in Series A Funding",
-      "link": "https://www.securityweek.com/realm-security-raises-15-million-in-series-a-funding/",
-      "date": "2025-10-09T11:38:15Z",
-      "description": "The cybersecurity startup will use the investment to accelerate its product development and market expansion efforts. The post Realm.Security Raises $15 Million in Series A Funding appeared first on SecurityWeek.",
-      "source": "securityweek.com"
     },
     {
       "title": "Chaos Ransomware Upgrades With Aggressive New C++ Variant",
