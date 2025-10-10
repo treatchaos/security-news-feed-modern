@@ -1,7 +1,21 @@
 {
-  "last_updated": "2025-10-10T15:10:34Z",
+  "last_updated": "2025-10-10T16:13:06Z",
   "count": 40,
   "items": [
+    {
+      "title": "New Chaosbot Leveraging CiscoVPN and Active Directory Passwords to Execute Network Commands",
+      "link": "https://cybersecuritynews.com/new-chaosbot-leveraging-ciscovpn-and-active-directory-passwords/",
+      "date": "2025-10-10T15:31:52Z",
+      "description": "ChaosBot surfaced in late September 2025 as a sophisticated Rust-based backdoor targeting enterprise networks. Initial investigations revealed that threat actors gained entry by exploiting compromised CiscoVPN credentials coupled with over-privileged Active Directory service accounts. Once inside, ChaosBot was stealthily deployed via side-loading techniques using the legitimate Microsoft Edge…",
+      "source": "cybersecuritynews.com"
+    },
+    {
+      "title": "Threat Actors Exploiting SonicWall SSL VPN Devices in Wild to Deploy Akira Ransomware",
+      "link": "https://cybersecuritynews.com/threat-actors-exploiting-sonicwall-ssl-vpn-devices/",
+      "date": "2025-10-10T15:11:47Z",
+      "description": "Threat actors have reemerged in mid-2025 leveraging previously disclosed vulnerabilities in SonicWall SSL VPN appliances to deploy Akira ransomware on enterprise networks. Beginning in July, multiple incidents of initial access via unpatched SonicWall devices were reported across North America and EMEA. Attackers exploited CVE-2024-40766, an access control flaw in SonicOS versions up to…",
+      "source": "cybersecuritynews.com"
+    },
     {
       "title": "Copilot on Windows can now connect to email, create Office docs",
       "link": "https://www.bleepingcomputer.com/news/microsoft/copilot-on-windows-can-now-connect-to-email-create-office-docs/",
@@ -87,25 +101,11 @@
       "source": "securityweek.com"
     },
     {
-      "title": "Microsoft Defender Incorrectly Flags SQL Server Software as End-of-life",
-      "link": "https://cybersecuritynews.com/microsoft-defender-flags-sql-server/",
-      "date": "2025-10-10T11:43:18Z",
-      "description": "Microsoft Defender for Endpoint is incorrectly flagging specific versions of SQL Server as having reached their end-of-life, causing potential confusion for system administrators. The issue, tracked under advisory DZ1168079, stems from a code bug and affects the Threat and Vulnerability Management feature within the Microsoft Defender XDR suite. The bug impacts explicitly organizations running…",
-      "source": "cybersecuritynews.com"
-    },
-    {
       "title": "From Detection to Patch: Fortra Reveals Full Timeline of CVE-2025-10035 Exploitation",
       "link": "https://thehackernews.com/2025/10/from-detection-to-patch-fortra-reveals.html",
       "date": "2025-10-10T11:42:00Z",
       "description": "Fortra on Thursday revealed the results of its investigation into CVE-2025-10035, a critical security flaw in GoAnywhere Managed File Transfer (MFT) that's assessed to have come under active exploitation since at least September 11, 2025. The company said it began its investigation on September 11 following a \"potential vulnerability\" reported by a customer, uncovering \"potentially suspicious",
       "source": "thehackernews.com"
-    },
-    {
-      "title": "Critical GitHub Copilot Vulnerability Let Attackers Exfiltrate Source Code From Private Repos",
-      "link": "https://cybersecuritynews.com/github-copilot-vulnerability/",
-      "date": "2025-10-10T11:18:20Z",
-      "description": "A critical vulnerability in GitHub Copilot Chat, rated 9.6 on the CVSS scale, could have allowed attackers to exfiltrate source code and secrets from private repositories silently. The exploit combined a novel prompt injection technique with a clever bypass of GitHub’s Content Security Policy (CSP), granting the attacker significant control over a victim’s Copilot instance, […] The post Critical…",
-      "source": "cybersecuritynews.com"
     },
     {
       "title": "The AI SOC Stack of 2026: What Sets Top-Tier Platforms Apart?",
