@@ -1,7 +1,28 @@
 {
-  "last_updated": "2025-10-15T05:11:08Z",
+  "last_updated": "2025-10-15T06:16:36Z",
   "count": 40,
   "items": [
+    {
+      "title": "Windows Remote Desktop Client Vulnerability Let Attackers Execute Remote Code",
+      "link": "https://cybersecuritynews.com/windows-remote-desktop-client-vulnerability/",
+      "date": "2025-10-15T06:04:24Z",
+      "description": "Microsoft has patched a critical flaw in its Remote Desktop Client that could allow attackers to execute malicious code on victims’ systems. Disclosed on October 14, 2025, as CVE-2025-58718, the vulnerability stems from a use-after-free error, earning an “Important” severity rating. While not yet exploited in the wild, security experts warn that it poses a […] The post Windows Remote Desktop…",
+      "source": "cybersecuritynews.com"
+    },
+    {
+      "title": "Chrome Use After Free Vulnerability Let Attackers Execute Arbitrary Code",
+      "link": "https://cybersecuritynews.com/google-chrome-use-after-free-vulnerability/",
+      "date": "2025-10-15T05:44:19Z",
+      "description": "Google has rolled out an urgent security update for its Chrome browser, addressing a high-severity use-after-free vulnerability that could allow attackers to execute arbitrary code on users’ systems. The patch is included in version 141.0.7390.107 for Linux and 141.0.7390.107/.108 for Windows and macOS, which began deploying to the Stable channel this week. Full release notes […] The post Chrome…",
+      "source": "cybersecuritynews.com"
+    },
+    {
+      "title": "New SAP NetWeaver Bug Lets Attackers Take Over Servers Without Login",
+      "link": "https://thehackernews.com/2025/10/new-sap-netweaver-bug-lets-attackers.html",
+      "date": "2025-10-15T05:36:00Z",
+      "description": "SAP has rolled out security fixes for 13 new security issues, including additional hardening for a maximum-severity bug in SAP NetWeaver AS Java that could result in arbitrary command execution. The vulnerability, tracked as CVE-2025-42944, carries a CVSS score of 10.0. It has been described as a case of insecure deserialization. \"Due to a deserialization vulnerability in SAP NetWeaver, an",
+      "source": "thehackernews.com"
+    },
     {
       "title": "Adobe Patches Critical Vulnerability in Connect Collaboration Suite",
       "link": "https://www.securityweek.com/adobe-patches-critical-vulnerability-in-collaboration-suite/",
@@ -80,25 +101,11 @@
       "source": "bleepingcomputer.com"
     },
     {
-      "title": "Hackers Leverage Judicial Notifications to Deploy Info-Stealer Malware",
-      "link": "https://cybersecuritynews.com/hackers-leverage-judicial-notifications/",
-      "date": "2025-10-14T18:40:19Z",
-      "description": "Cybercriminals have developed a sophisticated phishing campaign targeting Colombian users through fake judicial notifications, deploying a complex multi-stage malware delivery system that culminates in AsyncRAT infection. The campaign demonstrates an alarming evolution in social engineering tactics, leveraging legitimate-looking governmental communications to bypass traditional security measures…",
-      "source": "cybersecuritynews.com"
-    },
-    {
       "title": "Microsoft: Exchange 2016 and 2019 have reached end of support",
       "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-exchange-2016-and-2019-have-reached-end-of-support/",
       "date": "2025-10-14T18:26:16Z",
       "description": "Microsoft has reminded that Exchange Server 2016 and 2019 reached the end of support and advised IT administrators to upgrade servers to Exchange Server SE or migrate to Exchange Online. [...]",
       "source": "bleepingcomputer.com"
-    },
-    {
-      "title": "FortiPAM and FortiSwitch Manager Vulnerability Let Attackers Bypass Authentication Process",
-      "link": "https://cybersecuritynews.com/fortipam-and-fortiswitch-manager-vulnerability/",
-      "date": "2025-10-14T18:23:50Z",
-      "description": "Fortinet has issued an urgent advisory revealing a critical weakness in its FortiPAM and FortiSwitch Manager products that could allow attackers to sidestep authentication entirely through brute-force methods. Tracked as CVE-2025-49201, the flaw stems from a weak authentication mechanism in the Web Application Delivery (WAD) and Graphical User Interface (GUI) components, classified under…",
-      "source": "cybersecuritynews.com"
     },
     {
       "title": "Microsoft October 2025 Patch Tuesday fixes 6 zero-days, 172 flaws",
@@ -154,13 +161,6 @@
       "link": "https://thehackernews.com/2025/10/new-pixnapping-android-flaw-lets-rogue.html",
       "date": "2025-10-14T11:18:00Z",
       "description": "Android devices from Google and Samsung have been found vulnerable to a side-channel attack that could be exploited to covertly steal two-factor authentication (2FA) codes, Google Maps timelines, and other sensitive data without the users' knowledge pixel-by-pixel. The attack has been codenamed Pixnapping by a group of academics from the University of California (Berkeley), University of",
-      "source": "thehackernews.com"
-    },
-    {
-      "title": "What AI Reveals About Web Applications— and Why It Matters",
-      "link": "https://thehackernews.com/2025/10/what-ai-reveals-about-web-applications.html",
-      "date": "2025-10-14T11:00:00Z",
-      "description": "Before an attacker ever sends a payload, they’ve already done the work of understanding how your environment is built. They look at your login flows, your JavaScript files, your error messages, your API documentation, your GitHub repos. These are all clues that help them understand how your systems behave. AI is significantly accelerating reconnaissance and enabling attackers to map your",
       "source": "thehackernews.com"
     },
     {
