@@ -1,7 +1,14 @@
 {
-  "last_updated": "2025-10-15T02:21:08Z",
+  "last_updated": "2025-10-15T03:31:45Z",
   "count": 40,
   "items": [
+    {
+      "title": "Windows Remote Access Connection Manager 0-Day Vulnerability Actively Exploited in Attacks",
+      "link": "https://cybersecuritynews.com/remote-access-connection-manager-0-day/",
+      "date": "2025-10-15T02:43:34Z",
+      "description": "Microsoft has confirmed active exploitation of a critical zero-day vulnerability in the Windows Remote Access Connection Manager (RasMan) service, allowing attackers to escalate privileges and potentially compromise entire systems. Tracked as CVE-2025-59230, the flaw stems from improper access control, enabling low-privileged users to gain SYSTEM-level access. Disclosed on October 14, 2025, the…",
+      "source": "cybersecuritynews.com"
+    },
     {
       "title": "Microsoft Drops Terrifyingly Large October Patch Update",
       "link": "https://www.darkreading.com/vulnerabilities-threats/microsoft-october-patch-update",
@@ -77,13 +84,6 @@
       "link": "https://cybersecuritynews.com/fortipam-and-fortiswitch-manager-vulnerability/",
       "date": "2025-10-14T18:23:50Z",
       "description": "Fortinet has issued an urgent advisory revealing a critical weakness in its FortiPAM and FortiSwitch Manager products that could allow attackers to sidestep authentication entirely through brute-force methods. Tracked as CVE-2025-49201, the flaw stems from a weak authentication mechanism in the Web Application Delivery (WAD) and Graphical User Interface (GUI) components, classified under…",
-      "source": "cybersecuritynews.com"
-    },
-    {
-      "title": "FortiOS CLI Command Bypass Vulnerability Let Attacker Execute System Commands",
-      "link": "https://cybersecuritynews.com/fortios-cli-command-bypass-vulnerability/",
-      "date": "2025-10-14T18:07:35Z",
-      "description": "Fortinet disclosed a high-severity vulnerability in its FortiOS operating system on October 14, 2025, that could enable local authenticated attackers to execute arbitrary system commands. Tracked as CVE-2025-58325, the flaw stems from an incorrect provision of specified functionality (CWE-684) in the CLI component, potentially leading to privilege escalation. With a CVSS v3.1 score of 7.8 […]…",
       "source": "cybersecuritynews.com"
     },
     {
@@ -178,6 +178,27 @@
       "source": "zerodayinitiative.com"
     },
     {
+      "title": "ZDI-CAN-28252: Hugging Face",
+      "link": "http://www.zerodayinitiative.com/advisories/upcoming/",
+      "date": "2025-10-14T05:00:00Z",
+      "description": "A CVSS score 7.8 AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H severity vulnerability discovered by 'Peter Girnus (@gothburz), Brandon Niemczyk of Trend Zero Day Initiative' was reported to the affected vendor on: 2025-10-14, 0 days ago. The vendor is given until 2026-02-11 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
+      "source": "zerodayinitiative.com"
+    },
+    {
+      "title": "ZDI-CAN-28253: Hugging Face",
+      "link": "http://www.zerodayinitiative.com/advisories/upcoming/",
+      "date": "2025-10-14T05:00:00Z",
+      "description": "A CVSS score 7.8 AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H severity vulnerability discovered by 'Peter Girnus (@gothburz), Brandon Niemczyk of Trend Zero Day Initiative' was reported to the affected vendor on: 2025-10-14, 0 days ago. The vendor is given until 2026-02-11 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
+      "source": "zerodayinitiative.com"
+    },
+    {
+      "title": "ZDI-CAN-28251: Hugging Face",
+      "link": "http://www.zerodayinitiative.com/advisories/upcoming/",
+      "date": "2025-10-14T05:00:00Z",
+      "description": "A CVSS score 7.8 AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H severity vulnerability discovered by 'Peter Girnus (@gothburz), Brandon Niemczyk of Trend Zero Day Initiative' was reported to the affected vendor on: 2025-10-14, 0 days ago. The vendor is given until 2026-02-11 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
+      "source": "zerodayinitiative.com"
+    },
+    {
       "title": "Financial, Other Industries Urged to Prepare for Quantum Computers",
       "link": "https://www.darkreading.com/cybersecurity-operations/financial-industries-urged-prepare-quantum-computers",
       "date": "2025-10-13T15:01:28Z",
@@ -190,27 +211,6 @@
       "date": "2025-10-13T14:00:00Z",
       "description": "OT and ICS systems indeed hold the crown jewels of critical infrastructure organizations, but unmonitored data sprawl is proving to be pure gold for increasingly brazen nation-state threat actors like Volt Typhoon, Pearce argues.",
       "source": "darkreading.com"
-    },
-    {
-      "title": "ZDI-CAN-28066: Microsoft",
-      "link": "http://www.zerodayinitiative.com/advisories/upcoming/",
-      "date": "2025-10-13T05:00:00Z",
-      "description": "A CVSS score 8.8 AV:L/AC:L/PR:L/UI:N/S:C/C:H/I:H/A:H severity vulnerability discovered by 'Marcin Wiazowski' was reported to the affected vendor on: 2025-10-13, 1 days ago. The vendor is given until 2026-02-10 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
-      "source": "zerodayinitiative.com"
-    },
-    {
-      "title": "ZDI-CAN-28211: Fortinet",
-      "link": "http://www.zerodayinitiative.com/advisories/upcoming/",
-      "date": "2025-10-10T05:00:00Z",
-      "description": "A CVSS score 8.1 AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H severity vulnerability discovered by 'Jason McFadyen of Trend Research' was reported to the affected vendor on: 2025-10-10, 4 days ago. The vendor is given until 2026-02-07 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
-      "source": "zerodayinitiative.com"
-    },
-    {
-      "title": "ZDI-CAN-28082: Microsoft",
-      "link": "http://www.zerodayinitiative.com/advisories/upcoming/",
-      "date": "2025-10-10T05:00:00Z",
-      "description": "A CVSS score 7.8 AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H severity vulnerability discovered by 'Anonymous' was reported to the affected vendor on: 2025-10-10, 4 days ago. The vendor is given until 2026-02-07 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
-      "source": "zerodayinitiative.com"
     },
     {
       "title": "Linux Kernel TLS UAF Flaw Allows Local RCE via Async Decrypt – PoC Available",
