@@ -1,7 +1,37 @@
 {
   "date": "2025-10-15",
-  "count": 13,
+  "count": 17,
   "items": [
+    {
+      "id": "649b7753c53404f4fc3f6ba24609438fb0cffa57",
+      "title": "Africa Remains Top Global Target, Even as Attacks Decline",
+      "link": "https://www.darkreading.com/cyber-risk/africa-top-global-target-attacks-decline",
+      "date": "2025-10-15T08:00:00Z",
+      "description": "Organizations across the continent saw 10% fewer attacks in September, but Africa remains the most attacked region in the world, leading the Global South.",
+      "source": "darkreading.com",
+      "first_seen": "2025-10-15T08:15:43Z",
+      "last_seen": "2025-10-15T08:15:43Z"
+    },
+    {
+      "id": "8b4e62661cbf29cc82eb97a270648c5e23b4b50e",
+      "title": "High-Severity Vulnerabilities Patched by Fortinet and Ivanti",
+      "link": "https://www.securityweek.com/high-severity-vulnerabilities-patched-by-fortinet-and-ivanti/",
+      "date": "2025-10-15T07:45:22Z",
+      "description": "Fortinet and Ivanti have announced their October 2025 Patch Tuesday updates, which patch many vulnerabilities across their products. The post High-Severity Vulnerabilities Patched by Fortinet and Ivanti appeared first on SecurityWeek.",
+      "source": "securityweek.com",
+      "first_seen": "2025-10-15T08:15:43Z",
+      "last_seen": "2025-10-15T08:15:43Z"
+    },
+    {
+      "id": "616ebb9c583a509a6a50dc7ed10a245e00f32509",
+      "title": "Two CVSS 10.0 Bugs in Red Lion RTUs Could Hand Hackers Full Industrial Control",
+      "link": "https://thehackernews.com/2025/10/two-cvss-100-bugs-in-red-lion-rtus.html",
+      "date": "2025-10-15T06:50:00Z",
+      "description": "Cybersecurity researchers have disclosed two critical security flaws impacting Red Lion Sixnet remote terminal unit (RTU) products that, if successfully exploited, could result in code execution with the highest privileges. The shortcomings, tracked as CVE-2023-40151 and CVE-2023-42770, are both rated 10.0 on the CVSS scoring system. \"The vulnerabilities affect Red Lion SixTRAK and VersaTRAK",
+      "source": "thehackernews.com",
+      "first_seen": "2025-10-15T08:15:43Z",
+      "last_seen": "2025-10-15T08:15:43Z"
+    },
     {
       "id": "fc143e60362b69cbf3ab586d18adac3da9a28ae0",
       "title": "Critical Veeam Backup RCE Vulnerabilities Let Attackers Execute Malicious Code Remotely",
@@ -10,7 +40,17 @@
       "description": "Veeam Software has disclosed three serious security flaws in its Backup & Replication suite and Agent for Microsoft Windows, which enable remote code execution and privilege escalation, potentially compromising enterprise backup infrastructures. These vulnerabilities, patched in recent updates, primarily affect domain-joined systems in version 12 of the software. Organizations are urged to apply…",
       "source": "cybersecuritynews.com",
       "first_seen": "2025-10-15T07:11:20Z",
-      "last_seen": "2025-10-15T07:11:20Z"
+      "last_seen": "2025-10-15T08:15:43Z"
+    },
+    {
+      "id": "b6b84217ff8559c8add7f8e785873af37818bf11",
+      "title": "Hackers Target ICTBroadcast Servers via Cookie Exploit to Gain Remote Shell Access",
+      "link": "https://thehackernews.com/2025/10/hackers-target-ictbroadcast-servers-via.html",
+      "date": "2025-10-15T06:16:00Z",
+      "description": "Cybersecurity researchers have disclosed that a critical security flaw impacting ICTBroadcast, an autodialer software from ICT Innovations, has come under active exploitation in the wild. The vulnerability, assigned the CVE identifier CVE-2025-2611 (CVSS score: 9.3), relates to improper input validation that can result in unauthenticated remote code execution due to the fact that the call center",
+      "source": "thehackernews.com",
+      "first_seen": "2025-10-15T08:15:43Z",
+      "last_seen": "2025-10-15T08:15:43Z"
     },
     {
       "id": "1405fdf23e418763afca814a6599a49ff89332ee",
@@ -20,7 +60,7 @@
       "description": "Microsoft has patched a critical flaw in its Remote Desktop Client that could allow attackers to execute malicious code on victims’ systems. Disclosed on October 14, 2025, as CVE-2025-58718, the vulnerability stems from a use-after-free error, earning an “Important” severity rating. While not yet exploited in the wild, security experts warn that it poses a […] The post Windows Remote Desktop…",
       "source": "cybersecuritynews.com",
       "first_seen": "2025-10-15T06:16:36Z",
-      "last_seen": "2025-10-15T07:11:20Z"
+      "last_seen": "2025-10-15T08:15:43Z"
     },
     {
       "id": "0b03a7fcb2fe900d28f95a8f5fd538af7ce703ab",
@@ -30,7 +70,7 @@
       "description": "Google has rolled out an urgent security update for its Chrome browser, addressing a high-severity use-after-free vulnerability that could allow attackers to execute arbitrary code on users’ systems. The patch is included in version 141.0.7390.107 for Linux and 141.0.7390.107/.108 for Windows and macOS, which began deploying to the Stable channel this week. Full release notes […] The post Chrome…",
       "source": "cybersecuritynews.com",
       "first_seen": "2025-10-15T06:16:36Z",
-      "last_seen": "2025-10-15T07:11:20Z"
+      "last_seen": "2025-10-15T08:15:43Z"
     },
     {
       "id": "32102e7914dba23ea47e771fd310b95e79bf2204",
@@ -40,7 +80,7 @@
       "description": "SAP has rolled out security fixes for 13 new security issues, including additional hardening for a maximum-severity bug in SAP NetWeaver AS Java that could result in arbitrary command execution. The vulnerability, tracked as CVE-2025-42944, carries a CVSS score of 10.0. It has been described as a case of insecure deserialization. \"Due to a deserialization vulnerability in SAP NetWeaver, an",
       "source": "thehackernews.com",
       "first_seen": "2025-10-15T06:16:36Z",
-      "last_seen": "2025-10-15T07:11:20Z"
+      "last_seen": "2025-10-15T08:15:43Z"
     },
     {
       "id": "2083e92a1428d4b6d5682b29e597204f2ebbb93c",
@@ -50,7 +90,7 @@
       "description": "Adobe has published a dozen security advisories detailing over 35 vulnerabilities across its product portfolio. The post Adobe Patches Critical Vulnerability in Connect Collaboration Suite appeared first on SecurityWeek.",
       "source": "securityweek.com",
       "first_seen": "2025-10-15T05:11:08Z",
-      "last_seen": "2025-10-15T07:11:20Z"
+      "last_seen": "2025-10-15T08:15:43Z"
     },
     {
       "id": "b8ed200a76e6d445b219193fbccd9a0fe59e8dd9",
@@ -60,7 +100,7 @@
       "description": "The tech giant has rolled out fixes for 173 CVEs, including five critical-severity security defects. The post Microsoft Patches 173 Vulnerabilities, Including Exploited Windows Flaws appeared first on SecurityWeek.",
       "source": "securityweek.com",
       "first_seen": "2025-10-15T04:13:05Z",
-      "last_seen": "2025-10-15T07:11:20Z"
+      "last_seen": "2025-10-15T08:15:43Z"
     },
     {
       "id": "5d5f365e9e78634fcd0f33342115638f3f39f5f2",
@@ -70,7 +110,7 @@
       "description": "Microsoft has confirmed active exploitation of a critical zero-day vulnerability in the Windows Remote Access Connection Manager (RasMan) service, allowing attackers to escalate privileges and potentially compromise entire systems. Tracked as CVE-2025-59230, the flaw stems from improper access control, enabling low-privileged users to gain SYSTEM-level access. Disclosed on October 14, 2025, the…",
       "source": "cybersecuritynews.com",
       "first_seen": "2025-10-15T03:31:45Z",
-      "last_seen": "2025-10-15T07:11:20Z"
+      "last_seen": "2025-10-15T08:15:43Z"
     },
     {
       "id": "cd814d00c22feb2bd15c059d1d5f54f5e3634d7b",
@@ -80,7 +120,7 @@
       "description": "This is LevelBlue’s third acquisition this year, after Trustwave and Aon’s Cybersecurity & IP Litigation Consulting groups. The post Cybereason to Be Acquired by MSSP Giant LevelBlue appeared first on SecurityWeek.",
       "source": "securityweek.com",
       "first_seen": "2025-10-15T04:13:05Z",
-      "last_seen": "2025-10-15T07:11:20Z"
+      "last_seen": "2025-10-15T08:15:43Z"
     },
     {
       "id": "471766bd6f5d4922f7742ab52088959ccc5e57b3",
@@ -90,7 +130,7 @@
       "description": "A CVSS score 9.8 AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H severity vulnerability discovered by 'Peter Girnus (@gothburz) of Trend Zero Day Initiative' was reported to the affected vendor on: 2025-10-14, 0 days ago. The vendor is given until 2026-02-11 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
       "source": "zerodayinitiative.com",
       "first_seen": "2025-10-15T02:21:08Z",
-      "last_seen": "2025-10-15T07:11:20Z"
+      "last_seen": "2025-10-15T08:15:43Z"
     },
     {
       "id": "c2574a7633799423a8be7315f49803a74e467571",
@@ -100,7 +140,7 @@
       "description": "A CVSS score 7.8 AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H severity vulnerability discovered by 'khongtrang' was reported to the affected vendor on: 2025-10-14, 0 days ago. The vendor is given until 2026-02-11 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
       "source": "zerodayinitiative.com",
       "first_seen": "2025-10-15T02:21:08Z",
-      "last_seen": "2025-10-15T07:11:20Z"
+      "last_seen": "2025-10-15T08:15:43Z"
     },
     {
       "id": "43baa76c3dbb36adb8eebadb33e97ac21bbe2517",
@@ -110,7 +150,7 @@
       "description": "A CVSS score 7.8 AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H severity vulnerability discovered by 'Peter Girnus (@gothburz), Brandon Niemczyk of Trend Zero Day Initiative' was reported to the affected vendor on: 2025-10-14, 0 days ago. The vendor is given until 2026-02-11 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
       "source": "zerodayinitiative.com",
       "first_seen": "2025-10-15T03:31:45Z",
-      "last_seen": "2025-10-15T07:11:20Z"
+      "last_seen": "2025-10-15T08:15:43Z"
     },
     {
       "id": "3231509f78ec8b1c41ba8face055e32580e43e9f",
@@ -120,7 +160,7 @@
       "description": "A CVSS score 7.8 AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H severity vulnerability discovered by 'Peter Girnus (@gothburz), Brandon Niemczyk of Trend Zero Day Initiative' was reported to the affected vendor on: 2025-10-14, 0 days ago. The vendor is given until 2026-02-11 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
       "source": "zerodayinitiative.com",
       "first_seen": "2025-10-15T03:31:45Z",
-      "last_seen": "2025-10-15T07:11:20Z"
+      "last_seen": "2025-10-15T08:15:43Z"
     },
     {
       "id": "cf7a5fa13d9a4bf5a782eb6f45e1f0fd09ccfb12",
@@ -130,7 +170,7 @@
       "description": "A CVSS score 7.8 AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H severity vulnerability discovered by 'Peter Girnus (@gothburz), Brandon Niemczyk of Trend Zero Day Initiative' was reported to the affected vendor on: 2025-10-14, 0 days ago. The vendor is given until 2026-02-11 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
       "source": "zerodayinitiative.com",
       "first_seen": "2025-10-15T03:31:45Z",
-      "last_seen": "2025-10-15T07:11:20Z"
+      "last_seen": "2025-10-15T08:15:43Z"
     }
   ]
 }
