@@ -1,7 +1,77 @@
 {
   "date": "2025-10-17",
-  "count": 16,
+  "count": 23,
   "items": [
+    {
+      "id": "70cffbf40fb2149280e915aa8f0be99465b12ffa",
+      "title": "Over 266,000 F5 BIG-IP instances exposed to remote attacks",
+      "link": "https://www.bleepingcomputer.com/news/security/over-266-000-f5-big-ip-instances-exposed-to-remote-attacks/",
+      "date": "2025-10-17T12:16:23Z",
+      "description": "Internet security nonprofit Shadowserver Foundation has found more than 266,000 F5 BIG-IP instances exposed online after the security breach disclosed by cybersecurity company F5 this week. [...]",
+      "source": "bleepingcomputer.com",
+      "first_seen": "2025-10-17T12:20:33Z",
+      "last_seen": "2025-10-17T12:20:33Z"
+    },
+    {
+      "id": "5a724940607f754008e3dcb051f08da8bdf7c3bb",
+      "title": "Windows Rust-based Kernel GDI Vulnerability Leads to Crash and Blue Screen of Death Error",
+      "link": "https://cybersecuritynews.com/windows-gdi-vulnerability-bsod-error/",
+      "date": "2025-10-17T11:58:35Z",
+      "description": "A vulnerability in Microsoft’s newly implemented Rust-based kernel component for the Graphics Device Interface (GDI) in Windows. This flaw, which could trigger a system-wide crash via a Blue Screen of Death (BSOD), highlights the challenges of integrating memory-safe languages into critical OS components. Although Microsoft classified it as moderate severity, the issue underscores potential…",
+      "source": "cybersecuritynews.com",
+      "first_seen": "2025-10-17T12:20:33Z",
+      "last_seen": "2025-10-17T12:20:33Z"
+    },
+    {
+      "id": "6871be072e0a54ae474a2c8017512efc3d841432",
+      "title": "APT28 With Weaponized Office Documents Delivers BeardShell and Covenant Modules",
+      "link": "https://cybersecuritynews.com/apt28-with-weaponized-office-documents/",
+      "date": "2025-10-17T11:51:20Z",
+      "description": "Russia’s APT28 has resurfaced in mid-2025 with a sophisticated spear-phishing campaign that weaponizes Office documents to deploy two novel payloads: BeardShell, a C-based backdoor leveraging IceDrive as a command-and-control channel, and Covenant’s HTTP Grunt Stager, which communicates via the Koofr cloud API. These malicious documents are distributed through private Signal chats, exploiting…",
+      "source": "cybersecuritynews.com",
+      "first_seen": "2025-10-17T12:20:33Z",
+      "last_seen": "2025-10-17T12:20:33Z"
+    },
+    {
+      "id": "2f43864a2ac7689d929a837e5697f4cfa2239556",
+      "title": "Over $3 Million in Prizes Offered at Pwn2Own Automotive 2026",
+      "link": "https://www.securityweek.com/over-3-million-in-prizes-offered-at-pwn2own-automotive-2026/",
+      "date": "2025-10-17T11:35:14Z",
+      "description": "Set for January 2026 at Automotive World in Tokyo, the contest will have six categories, including Tesla, infotainment systems, EV chargers, and automotive OSes. The post Over $3 Million in Prizes Offered at Pwn2Own Automotive 2026 appeared first on SecurityWeek.",
+      "source": "securityweek.com",
+      "first_seen": "2025-10-17T12:20:33Z",
+      "last_seen": "2025-10-17T12:20:33Z"
+    },
+    {
+      "id": "5479a4cce5cca65c39af4635f25a1ae31a28347d",
+      "title": "Critical ConnectWise Vulnerabilities Allow Attackers To Inject Malicious Updates",
+      "link": "https://cybersecuritynews.com/connectwise-vulnerabilities/",
+      "date": "2025-10-17T11:33:09Z",
+      "description": "ConnectWise released a critical security update for its Automate platform on October 16, 2025. The patch, version 2025.9, addresses serious flaws in agent communications that could let attackers intercept sensitive data or push malicious software updates. These vulnerabilities primarily affect on-premises installations, where misconfigurations might expose systems to network-based exploits. The…",
+      "source": "cybersecuritynews.com",
+      "first_seen": "2025-10-17T12:20:33Z",
+      "last_seen": "2025-10-17T12:20:33Z"
+    },
+    {
+      "id": "1ec0f6bbc4e709cb79b8d9a5a349cf21842d925e",
+      "title": "Hackers Steal Sensitive Data From Auction House Sotheby’s",
+      "link": "https://www.securityweek.com/hackers-steal-sensitive-data-from-auction-house-sothebys/",
+      "date": "2025-10-17T11:17:20Z",
+      "description": "Sotheby's has disclosed a data breach impacting personal information, including SSNs. The post Hackers Steal Sensitive Data From Auction House Sotheby’s appeared first on SecurityWeek.",
+      "source": "securityweek.com",
+      "first_seen": "2025-10-17T12:20:33Z",
+      "last_seen": "2025-10-17T12:20:33Z"
+    },
+    {
+      "id": "a41d4dcc45e0526603b3badd20d9700fb4cb3431",
+      "title": "Identity Security: Your First and Last Line of Defense",
+      "link": "https://thehackernews.com/2025/10/identity-security-your-first-and-last.html",
+      "date": "2025-10-17T11:00:00Z",
+      "description": "The danger isn’t that AI agents have bad days — it’s that they never do. They execute faithfully, even when what they’re executing is a mistake. A single misstep in logic or access can turn flawless automation into a flawless catastrophe. This isn't some dystopian fantasy—it's Tuesday at the office now. We've entered a new phase where autonomous AI agents act with serious system privileges. They",
+      "source": "thehackernews.com",
+      "first_seen": "2025-10-17T12:20:33Z",
+      "last_seen": "2025-10-17T12:20:33Z"
+    },
     {
       "id": "525c922228900e7ba73dcd13d6e7f7898642a530",
       "title": "LinkPro Rootkit Attacking GNU/Linux Systems Using eBPF Module to Hide Malicious Activities",
@@ -10,7 +80,7 @@
       "description": "A sophisticated rootkit targeting GNU/Linux systems has emerged, leveraging advanced eBPF (extended Berkeley Packet Filter) technology to conceal malicious activities and evade traditional monitoring tools. The threat, known as LinkPro, was discovered during a digital forensic investigation of a compromised AWS-hosted infrastructure, where it functioned as a stealthy backdoor with capabilities…",
       "source": "cybersecuritynews.com",
       "first_seen": "2025-10-17T11:08:56Z",
-      "last_seen": "2025-10-17T11:08:56Z"
+      "last_seen": "2025-10-17T12:20:33Z"
     },
     {
       "id": "97e59afe433519279101186ec651527e5d1510dd",
@@ -20,7 +90,7 @@
       "description": "CVE-2025-55315 is an HTTP request smuggling bug leading to information leaks, file content tampering, and server crashes. The post ‘Highest Ever’ Severity Score Assigned by Microsoft to ASP.NET Core Vulnerability appeared first on SecurityWeek.",
       "source": "securityweek.com",
       "first_seen": "2025-10-17T11:08:56Z",
-      "last_seen": "2025-10-17T11:08:56Z"
+      "last_seen": "2025-10-17T12:20:33Z"
     },
     {
       "id": "c5db7958d357f23ba52ca5ff97e398eee922aa43",
@@ -30,7 +100,7 @@
       "description": "Cisco has issued a security advisory warning of multiple vulnerabilities in its Desk Phone 9800 Series, IP Phone 7800 and 8800 Series, and Video Phone 8875 models running Cisco Session Initiation Protocol (SIP) Software. Published on October 15, 2025, the advisory details risks that could enable unauthenticated remote attackers to trigger denial-of-service (DoS) conditions or […] The post Cisco…",
       "source": "cybersecuritynews.com",
       "first_seen": "2025-10-17T10:11:40Z",
-      "last_seen": "2025-10-17T11:08:56Z"
+      "last_seen": "2025-10-17T12:20:33Z"
     },
     {
       "id": "3153166ac4546c94398c5e46477d0fe551fdbb41",
@@ -40,7 +110,7 @@
       "description": "Cybersecurity researchers have disclosed details of a recently patched critical security flaw in WatchGuard Fireware that could allow unauthenticated attackers to execute arbitrary code. The vulnerability, tracked as CVE-2025-9242 (CVSS score: 9.3), is described as an out-of-bounds write vulnerability affecting Fireware OS 11.10.2 up to and including 11.12.4_Update1, 12.0 up to and including",
       "source": "thehackernews.com",
       "first_seen": "2025-10-17T10:11:40Z",
-      "last_seen": "2025-10-17T11:08:56Z"
+      "last_seen": "2025-10-17T12:20:33Z"
     },
     {
       "id": "8440f3f79ae5f45ca559e0129f5450c858a430c7",
@@ -60,7 +130,7 @@
       "description": "Hackers stole names, addresses, dates of birth, email addresses, Social Security numbers, government IDs, and other information. The post Prosper Data Breach Impacts 17.6 Million Accounts appeared first on SecurityWeek.",
       "source": "securityweek.com",
       "first_seen": "2025-10-17T09:12:26Z",
-      "last_seen": "2025-10-17T11:08:56Z"
+      "last_seen": "2025-10-17T12:20:33Z"
     },
     {
       "id": "100a57598d018c77d90b7c8791eb3e5a1e99a20e",
@@ -80,7 +150,7 @@
       "description": "An attacker can exploit the flaws to put devices into a permanent DoS condition that prevents remote restoration. The post Vulnerabilities Allow Disruption of Phoenix Contact UPS Devices appeared first on SecurityWeek.",
       "source": "securityweek.com",
       "first_seen": "2025-10-17T09:12:26Z",
-      "last_seen": "2025-10-17T11:08:56Z"
+      "last_seen": "2025-10-17T12:20:33Z"
     },
     {
       "id": "313623daccbe7fa7315c0e0126e7a17848d446d0",
@@ -120,7 +190,7 @@
       "description": "Microsoft on Thursday disclosed that it revoked more than 200 certificates used by a threat actor it tracks as Vanilla Tempest to fraudulently sign malicious binaries in ransomware attacks. The certificates were \"used in fake Teams setup files to deliver the Oyster backdoor and ultimately deploy Rhysida ransomware,\" the Microsoft Threat Intelligence team said in a post shared on X. The tech",
       "source": "thehackernews.com",
       "first_seen": "2025-10-17T07:11:03Z",
-      "last_seen": "2025-10-17T11:08:56Z"
+      "last_seen": "2025-10-17T12:20:33Z"
     },
     {
       "id": "eec163c9ae00fb624d734dbda9fb41dc44cfbbf3",
@@ -140,7 +210,7 @@
       "description": "The post Zero-Click NTLM Leak Returns: New LNK Bypass (PoC Available) Bypasses Patch, Exposing Credentials appeared first on Daily CyberSecurity.",
       "source": "securityonline.info",
       "first_seen": "2025-10-17T00:49:37Z",
-      "last_seen": "2025-10-17T11:08:56Z"
+      "last_seen": "2025-10-17T12:20:33Z"
     },
     {
       "id": "d81e244caa9611d9f92242a6a7063fbb90cfe107",
@@ -150,7 +220,7 @@
       "description": "Major international auction house Sotheby's is notifying individuals of a data breach incident on its systems where threat actors stole sensitive information, including financial details. [...]",
       "source": "bleepingcomputer.com",
       "first_seen": "2025-10-17T06:15:53Z",
-      "last_seen": "2025-10-17T11:08:56Z"
+      "last_seen": "2025-10-17T12:20:33Z"
     },
     {
       "id": "5abc54de9fb8f3d0dbcaced8d443437a61bbf5c2",
