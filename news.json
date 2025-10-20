@@ -1,7 +1,21 @@
 {
-  "last_updated": "2025-10-20T05:11:39Z",
+  "last_updated": "2025-10-20T07:12:03Z",
   "count": 40,
   "items": [
+    {
+      "title": "PoC Exploit Released for Windows Server Update Services Remote Code Execution Vulnerability",
+      "link": "https://cybersecuritynews.com/poc-wsus-rce-vulnerability/",
+      "date": "2025-10-20T06:52:38Z",
+      "description": "A proof-of-concept (PoC) exploit has been released for a critical vulnerability in Microsoft’s Windows Server Update Services (WSUS), enabling unauthenticated attackers to execute remote code with SYSTEM privileges on affected servers. Dubbed CVE-2025-59287 and assigned a CVSS v3.1 score of 9.8, the flaw stems from unsafe deserialization of untrusted data in WSUS’s AuthorizationCookie handling.…",
+      "source": "cybersecuritynews.com"
+    },
+    {
+      "title": "MSS Claims NSA Used 42 Cyber Tools in Multi-Stage Attack on Beijing Time Systems",
+      "link": "https://thehackernews.com/2025/10/mss-claims-nsa-used-42-cyber-tools-in.html",
+      "date": "2025-10-20T05:32:00Z",
+      "description": "China on Sunday accused the U.S. National Security Agency (NSA) of carrying out a \"premeditated\" cyber attack targeting the National Time Service Center (NTSC), as it described the U.S. as a \"hacker empire\" and the \"greatest source of chaos in cyberspace.\" The Ministry of State Security (MSS), in a WeChat post, said it uncovered \"irrefutable evidence\" of the agency's involvement in the intrusion",
+      "source": "thehackernews.com"
+    },
     {
       "title": "New DefenderWrite Tool Let Attackers Inject Malicious DLLs into AV Executable Folders",
       "link": "https://cybersecuritynews.com/defenderwrite-tool/",
@@ -63,13 +77,6 @@
       "link": "https://cybersecuritynews.com/volkswagen-ransomware-attack/",
       "date": "2025-10-19T03:00:09Z",
       "description": "Volkswagen Group has issued a statement addressing claims by the ransomware group 8Base, which alleges it has stolen and leaked sensitive data from the automaker. The German carmaker maintains that its core IT infrastructure remains unaffected; however, the company’s vague response leaves questions about the full scope of the incident and raises concerns about a […] The post Volkswagen Allegedly…",
-      "source": "cybersecuritynews.com"
-    },
-    {
-      "title": "Windows 11 24H2/25H2 Update Blocks Mouse and Keyboard in Recovery Mode",
-      "link": "https://cybersecuritynews.com/windows-11-24h2-25h2-update-blocks-recovery/",
-      "date": "2025-10-19T02:20:03Z",
-      "description": "Microsoft’s latest security update has rendered USB keyboards and mice inoperable within the Windows Recovery Environment (WinRE). Released on October 14, 2025, as KB5066835 for OS Build 26100.6899, the patch affects Windows 11 versions 24H2 and 25H2, as well as Windows Server 2025. The glitch emerged shortly after installation, leaving users unable to navigate recovery […] The post Windows 11…",
       "source": "cybersecuritynews.com"
     },
     {
@@ -169,13 +176,6 @@
       "date": "2025-10-17T11:17:20Z",
       "description": "Sotheby's has disclosed a data breach impacting personal information, including SSNs. The post Hackers Steal Sensitive Data From Auction House Sotheby’s appeared first on SecurityWeek.",
       "source": "securityweek.com"
-    },
-    {
-      "title": "Identity Security: Your First and Last Line of Defense",
-      "link": "https://thehackernews.com/2025/10/identity-security-your-first-and-last.html",
-      "date": "2025-10-17T11:00:00Z",
-      "description": "The danger isn’t that AI agents have bad days — it’s that they never do. They execute faithfully, even when what they’re executing is a mistake. A single misstep in logic or access can turn flawless automation into a flawless catastrophe. This isn't some dystopian fantasy—it's Tuesday at the office now. We've entered a new phase where autonomous AI agents act with serious system privileges. They",
-      "source": "thehackernews.com"
     },
     {
       "title": "Zero-Click NTLM Leak Returns: New LNK Bypass (PoC Available) Bypasses Patch, Exposing Credentials",
