@@ -1,7 +1,35 @@
 {
-  "last_updated": "2025-10-23T05:11:31Z",
+  "last_updated": "2025-10-23T06:16:45Z",
   "count": 40,
   "items": [
+    {
+      "title": "Multiple BIND 9 Vulnerabilities Enables Cache Poisoning And Denial Of Service Attacks",
+      "link": "https://cybersecuritynews.com/bind-9-vulnerabilities-dos/",
+      "date": "2025-10-23T06:15:15Z",
+      "description": "The Internet Systems Consortium (ISC) disclosed three high-severity vulnerabilities in BIND 9 on October 22, 2025, potentially allowing remote attackers to conduct cache poisoning attacks or cause denial-of-service (DoS) conditions on affected DNS resolvers. These flaws, tracked as CVE-2025-8677, CVE-2025-40778, and CVE-2025-40780, primarily impact recursive resolvers used by organizations for…",
+      "source": "cybersecuritynews.com"
+    },
+    {
+      "title": "Mideast, African Hackers Target Gov'ts, Banks, Small Retailers",
+      "link": "https://www.darkreading.com/cybersecurity-analytics/mea-hackers-govts-finance-smb-retailers",
+      "date": "2025-10-23T06:00:00Z",
+      "description": "In the hotly political Middle East, you'd expect hacktivism and disruption of services. But retail attacks?",
+      "source": "darkreading.com"
+    },
+    {
+      "title": "Over 250 Magento Stores Hit Overnight as Hackers Exploit New Adobe Commerce Flaw",
+      "link": "https://thehackernews.com/2025/10/over-250-magento-stores-hit-overnight.html",
+      "date": "2025-10-23T05:47:00Z",
+      "description": "E-commerce security company Sansec has warned that threat actors have begun to exploit a recently disclosed security vulnerability in Adobe Commerce and Magento Open Source platforms, with more than 250 attack attempts recorded against multiple stores over the past 24 hours. The vulnerability in question is CVE-2025-54236 (CVSS score: 9.1), a critical improper input validation flaw that could be",
+      "source": "thehackernews.com"
+    },
+    {
+      "title": "Critical Lanscope Endpoint Manager Bug Exploited in Ongoing Cyberattacks, CISA Confirms",
+      "link": "https://thehackernews.com/2025/10/critical-lanscope-endpoint-manager-bug.html",
+      "date": "2025-10-23T05:37:00Z",
+      "description": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Wednesday added a critical security flaw impacting Motex Lanscope Endpoint Manager to its Known Exploited Vulnerabilities (KEV) catalog, stating it has been actively exploited in the wild. The vulnerability, CVE-2025-61932 (CVSS v4 score: 9.3), impacts on-premises versions of Lanscope Endpoint Manager, specifically Client",
+      "source": "thehackernews.com"
+    },
     {
       "title": "Lazarus Group Hunts European Drone Manufacturing Data",
       "link": "https://www.darkreading.com/cyberattacks-data-breaches/lazarus-group-hunts-european-drone-manufacturing-data",
@@ -101,13 +129,6 @@
       "source": "thehackernews.com"
     },
     {
-      "title": "New PassiveNeuron Attacking Servers of High-Profile Organizations to Implant Malware",
-      "link": "https://cybersecuritynews.com/new-passiveneuron-attacking-servers/",
-      "date": "2025-10-22T16:27:20Z",
-      "description": "A sophisticated cyberespionage campaign dubbed PassiveNeuron has resurfaced with infections targeting government, financial, and industrial organizations across Asia, Africa, and Latin America. First detected in 2024, the campaign remained dormant for six months before re-emerging in December 2024, with the latest infections observed as recently as August 2025. The threat involves deploying…",
-      "source": "cybersecuritynews.com"
-    },
-    {
       "title": "Meta launches new anti-scam tools for WhatsApp and Messenger",
       "link": "https://www.bleepingcomputer.com/news/security/meta-launches-new-anti-scam-tools-for-whatsapp-and-messenger/",
       "date": "2025-10-22T15:11:54Z",
@@ -120,13 +141,6 @@
       "date": "2025-10-22T15:00:15Z",
       "description": "The vulnerability impacts multiple Rust tar parsers, allowing attackers to smuggle additional archive entries. The post TARmageddon Flaw in Popular Rust Library Leads to RCE appeared first on SecurityWeek.",
       "source": "securityweek.com"
-    },
-    {
-      "title": "Russia Pivots, Cracks Down on Resident Hackers",
-      "link": "https://www.darkreading.com/threat-intelligence/russia-cracks-down-low-level-hackers",
-      "date": "2025-10-22T14:00:00Z",
-      "description": "Thanks to improving cybersecurity and law enforcement action from the West, Russia's government is reevaluating which cybercriminals it wants to give safe haven from the law.",
-      "source": "darkreading.com"
     },
     {
       "title": "Critical Vulnerabilities Patched in TP-Link’s Omada Gateways",
@@ -155,20 +169,6 @@
       "date": "2025-10-22T12:03:06Z",
       "description": "Star Blizzard started using the NoRobot (BaitSwitch) and MaybeRobot (SimpleFix) malware after public reporting on the LostKeys malware. The post Russian APT Switches to New Backdoor After Malware Exposed by Researchers appeared first on SecurityWeek.",
       "source": "securityweek.com"
-    },
-    {
-      "title": "Bridging the Remediation Gap: Introducing Pentera Resolve",
-      "link": "https://thehackernews.com/2025/10/bridging-remediation-gap-introducing.html",
-      "date": "2025-10-22T11:55:00Z",
-      "description": "From Detection to Resolution: Why the Gap Persists A critical vulnerability is identified in an exposed cloud asset. Within hours, five different tools alert you about it: your vulnerability scanner, XDR, CSPM, SIEM, and CMDB each surface the issue in their own way, with different severity levels, metadata, and context. What’s missing is a system of action. How do you transition from the",
-      "source": "thehackernews.com"
-    },
-    {
-      "title": "Fake Nethereum NuGet Package Used Homoglyph Trick to Steal Crypto Wallet Keys",
-      "link": "https://thehackernews.com/2025/10/fake-nethereum-nuget-package-used.html",
-      "date": "2025-10-22T11:43:00Z",
-      "description": "Cybersecurity researchers have uncovered a new supply chain attack targeting the NuGet package manager with malicious typosquats of Nethereum, a popular Ethereum .NET integration platform, to steal victims' cryptocurrency wallet keys. The package, Netherеum.All, has been found to harbor functionality to decode a command-and-control (C2) endpoint and exfiltrate mnemonic phrases, private keys, and",
-      "source": "thehackernews.com"
     },
     {
       "title": "What Makes a Great Field CXO: Lessons from the Front Lines",
