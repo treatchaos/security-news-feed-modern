@@ -1,9 +1,23 @@
 {
-  "last_updated": "2025-10-23T07:11:13Z",
+  "last_updated": "2025-10-23T08:15:25Z",
   "count": 40,
   "items": [
     {
-      "title": "Multiple BIND 9 DNS Vulnerabilities Enable Cache Poisoning and Denial Of Service Attacks",
+      "title": "TARmageddon Vulnerability In Rust Library Let Attackers Replace Config Files And Execute Remote Codes",
+      "link": "https://cybersecuritynews.com/tarmageddon-vulnerability/",
+      "date": "2025-10-23T07:53:35Z",
+      "description": "A severe vulnerability in the async-tar Rust library and its popular forks, including the widely used tokio-tar. Dubbed TARmageddon and tracked as CVE-2025-62518, the bug carries a CVSS score of 8.1, classifying it as high severity. It allows attackers to manipulate TAR archive parsing, potentially overwriting critical files like configuration scripts and triggering remote code […] The post…",
+      "source": "cybersecuritynews.com"
+    },
+    {
+      "title": "Multiple Oracle VM VirtualBox Vulnerabilities Enables Complete Takeover Of VirtualBox",
+      "link": "https://cybersecuritynews.com/multiple-oracle-vm-virtualbox-vulnerabilities/",
+      "date": "2025-10-23T07:46:48Z",
+      "description": "Oracle has disclosed multiple critical vulnerabilities in its Oracle VM VirtualBox virtualization software, potentially allowing attackers to achieve complete control over the VirtualBox environment. These flaws, detailed in the October 2025 Critical Patch Update (CPU), affect the Core component of VirtualBox versions 7.1.12 and 7.2.2, enabling high-privileged local attackers to compromise…",
+      "source": "cybersecuritynews.com"
+    },
+    {
+      "title": "Multiple BIND 9 DNS Vulnerabilities Enable Cache Poisoning and Denial of Service Attacks",
       "link": "https://cybersecuritynews.com/bind-9-vulnerabilities-dos/",
       "date": "2025-10-23T06:15:15Z",
       "description": "The Internet Systems Consortium (ISC) disclosed three high-severity vulnerabilities in BIND 9 on October 22, 2025, potentially allowing remote attackers to conduct cache poisoning attacks or cause denial-of-service (DoS) conditions on affected DNS resolvers. These flaws, tracked as CVE-2025-8677, CVE-2025-40778, and CVE-2025-40780, primarily impact recursive resolvers used by organizations for…",
@@ -106,20 +120,6 @@
       "date": "2025-10-22T17:21:00Z",
       "description": "The Iranian nation-state group known as MuddyWater has been attributed to a new campaign that has leveraged a compromised email account to distribute a backdoor called Phoenix to various organizations across the Middle East and North Africa (MENA) region, including over 100 government entities. The end goal of the campaign is to infiltrate high-value targets and facilitate intelligence gathering",
       "source": "thehackernews.com"
-    },
-    {
-      "title": "Critical Argument Injection Vulnerability in Popular AI Agents Let Attackers Execute Remote Code",
-      "link": "https://cybersecuritynews.com/argument-injection-vulnerability-ai-agents/",
-      "date": "2025-10-22T16:55:58Z",
-      "description": "A critical argument injection flaw in three unnamed popular AI agent platforms enables attackers to bypass human approval safeguards and achieve remote code execution (RCE) through seemingly innocuous prompts. According to Trail of Bits, these vulnerabilities exploit pre-approved system commands designed for efficiency in tasks like file searches and code analysis, highlighting a widespread…",
-      "source": "cybersecuritynews.com"
-    },
-    {
-      "title": "SOCs Have a Quishing Problem: Here’s How to Solve It",
-      "link": "https://cybersecuritynews.com/socs-have-a-quishing-problem/",
-      "date": "2025-10-22T16:55:22Z",
-      "description": "QR codes used to be harmless, now they’re one of the sneakiest ways attackers slip past defenses. Quishing, or QR code phishing, hides malicious links inside innocent-looking images that filters can’t read. One scan, and the victim lands on a fake login page designed to steal credentials or trigger a download; often from a mobile device completely outside your SOC’s visibility. […] The post SOCs…",
-      "source": "cybersecuritynews.com"
     },
     {
       "title": "Ukraine Aid Groups Targeted Through Fake Zoom Meetings and Weaponized PDF Files",

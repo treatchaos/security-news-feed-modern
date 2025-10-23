@@ -1,7 +1,27 @@
 {
   "date": "2025-10-23",
-  "count": 6,
+  "count": 9,
   "items": [
+    {
+      "id": "975f7f119ff6bbe0ba28dbf4263512bcae6799df",
+      "title": "TARmageddon Vulnerability In Rust Library Let Attackers Replace Config Files And Execute Remote Codes",
+      "link": "https://cybersecuritynews.com/tarmageddon-vulnerability/",
+      "date": "2025-10-23T07:53:35Z",
+      "description": "A severe vulnerability in the async-tar Rust library and its popular forks, including the widely used tokio-tar. Dubbed TARmageddon and tracked as CVE-2025-62518, the bug carries a CVSS score of 8.1, classifying it as high severity. It allows attackers to manipulate TAR archive parsing, potentially overwriting critical files like configuration scripts and triggering remote code […] The post…",
+      "source": "cybersecuritynews.com",
+      "first_seen": "2025-10-23T08:15:25Z",
+      "last_seen": "2025-10-23T08:15:25Z"
+    },
+    {
+      "id": "d1e62f89484da1c212d2363c3f76e9e6935b0909",
+      "title": "Multiple Oracle VM VirtualBox Vulnerabilities Enables Complete Takeover Of VirtualBox",
+      "link": "https://cybersecuritynews.com/multiple-oracle-vm-virtualbox-vulnerabilities/",
+      "date": "2025-10-23T07:46:48Z",
+      "description": "Oracle has disclosed multiple critical vulnerabilities in its Oracle VM VirtualBox virtualization software, potentially allowing attackers to achieve complete control over the VirtualBox environment. These flaws, detailed in the October 2025 Critical Patch Update (CPU), affect the Core component of VirtualBox versions 7.1.12 and 7.2.2, enabling high-privileged local attackers to compromise…",
+      "source": "cybersecuritynews.com",
+      "first_seen": "2025-10-23T08:15:25Z",
+      "last_seen": "2025-10-23T08:15:25Z"
+    },
     {
       "id": "777c5f45fe339afc4be4ccfefda469a59518a6db",
       "title": "Multiple BIND 9 Vulnerabilities Enables Cache Poisoning And Denial Of Service Attacks",
@@ -23,6 +43,16 @@
       "last_seen": "2025-10-23T07:11:13Z"
     },
     {
+      "id": "c9001e74f76a8c9957e35a7cb736f0bc78ac5c7e",
+      "title": "Multiple BIND 9 DNS Vulnerabilities Enable Cache Poisoning and Denial of Service Attacks",
+      "link": "https://cybersecuritynews.com/bind-9-vulnerabilities-dos/",
+      "date": "2025-10-23T06:15:15Z",
+      "description": "The Internet Systems Consortium (ISC) disclosed three high-severity vulnerabilities in BIND 9 on October 22, 2025, potentially allowing remote attackers to conduct cache poisoning attacks or cause denial-of-service (DoS) conditions on affected DNS resolvers. These flaws, tracked as CVE-2025-8677, CVE-2025-40778, and CVE-2025-40780, primarily impact recursive resolvers used by organizations for…",
+      "source": "cybersecuritynews.com",
+      "first_seen": "2025-10-23T08:15:25Z",
+      "last_seen": "2025-10-23T08:15:25Z"
+    },
+    {
       "id": "079bb3fcaefe42e8992865a01097402c461893c8",
       "title": "Mideast, African Hackers Target Gov'ts, Banks, Small Retailers",
       "link": "https://www.darkreading.com/cybersecurity-analytics/mea-hackers-govts-finance-smb-retailers",
@@ -30,7 +60,7 @@
       "description": "In the hotly political Middle East, you'd expect hacktivism and disruption of services. But retail attacks?",
       "source": "darkreading.com",
       "first_seen": "2025-10-23T06:16:45Z",
-      "last_seen": "2025-10-23T07:11:13Z"
+      "last_seen": "2025-10-23T08:15:25Z"
     },
     {
       "id": "ae1ffeada9ace152c64629696723fcfa994c8b45",
@@ -40,7 +70,7 @@
       "description": "E-commerce security company Sansec has warned that threat actors have begun to exploit a recently disclosed security vulnerability in Adobe Commerce and Magento Open Source platforms, with more than 250 attack attempts recorded against multiple stores over the past 24 hours. The vulnerability in question is CVE-2025-54236 (CVSS score: 9.1), a critical improper input validation flaw that could be",
       "source": "thehackernews.com",
       "first_seen": "2025-10-23T06:16:45Z",
-      "last_seen": "2025-10-23T07:11:13Z"
+      "last_seen": "2025-10-23T08:15:25Z"
     },
     {
       "id": "7e7b86b7875d7342e729f1a16c534b862a213695",
@@ -50,7 +80,7 @@
       "description": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Wednesday added a critical security flaw impacting Motex Lanscope Endpoint Manager to its Known Exploited Vulnerabilities (KEV) catalog, stating it has been actively exploited in the wild. The vulnerability, CVE-2025-61932 (CVSS v4 score: 9.3), impacts on-premises versions of Lanscope Endpoint Manager, specifically Client",
       "source": "thehackernews.com",
       "first_seen": "2025-10-23T06:16:45Z",
-      "last_seen": "2025-10-23T07:11:13Z"
+      "last_seen": "2025-10-23T08:15:25Z"
     },
     {
       "id": "f5542cb5cb6290aabaf2f47ba26a4ef8fffd4a3b",
@@ -60,7 +90,7 @@
       "description": "The campaign is the latest effort by the North Korean threat actor to collect data of strategic interest to Pyongyang.",
       "source": "darkreading.com",
       "first_seen": "2025-10-23T04:13:26Z",
-      "last_seen": "2025-10-23T07:11:13Z"
+      "last_seen": "2025-10-23T08:15:25Z"
     }
   ]
 }
