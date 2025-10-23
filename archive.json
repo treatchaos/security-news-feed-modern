@@ -1,7 +1,7 @@
 {
-  "last_updated": "2025-10-23T08:15:25Z",
+  "last_updated": "2025-10-23T09:12:28Z",
   "retention_days": 90,
-  "count": 2998,
+  "count": 3000,
   "items": [
     {
       "id": "038a769a72d3622090d4a7ec7eb7846e40e3d135",
@@ -14,6 +14,16 @@
       "last_seen": "2025-09-23T21:09:13Z"
     },
     {
+      "id": "33c4f77b9df238c90ba90982f6548ef3ecfc35f3",
+      "title": "DHS Asks OpenAI To Share Information on ChatGPT Prompts Used By Users",
+      "link": "https://cybersecuritynews.com/dhs-warrant-openai/",
+      "date": "2025-10-23T08:52:39Z",
+      "description": "The Department of Homeland Security (DHS) has issued the first known federal search warrant compelling OpenAI to disclose user data tied to ChatGPT prompts. The warrant, unsealed last week in Maine and reviewed by cybersecurity outlets, stems from a year-long probe into a dark web site distributing child sexual abuse material (CSAM). Federal agents, operating […] The post DHS Asks OpenAI To…",
+      "source": "cybersecuritynews.com",
+      "first_seen": "2025-10-23T09:12:28Z",
+      "last_seen": "2025-10-23T09:12:28Z"
+    },
+    {
       "id": "975f7f119ff6bbe0ba28dbf4263512bcae6799df",
       "title": "TARmageddon Vulnerability In Rust Library Let Attackers Replace Config Files And Execute Remote Codes",
       "link": "https://cybersecuritynews.com/tarmageddon-vulnerability/",
@@ -21,7 +31,17 @@
       "description": "A severe vulnerability in the async-tar Rust library and its popular forks, including the widely used tokio-tar. Dubbed TARmageddon and tracked as CVE-2025-62518, the bug carries a CVSS score of 8.1, classifying it as high severity. It allows attackers to manipulate TAR archive parsing, potentially overwriting critical files like configuration scripts and triggering remote code […] The post…",
       "source": "cybersecuritynews.com",
       "first_seen": "2025-10-23T08:15:25Z",
-      "last_seen": "2025-10-23T08:15:25Z"
+      "last_seen": "2025-10-23T09:12:28Z"
+    },
+    {
+      "id": "14157635f1b9aff52e99c462323b7c62dcceb955",
+      "title": "“Jingle Thief” Hackers Exploit Cloud Infrastructure to Steal Millions in Gift Cards",
+      "link": "https://thehackernews.com/2025/10/jingle-thief-hackers-exploit-cloud.html",
+      "date": "2025-10-23T07:52:00Z",
+      "description": "Cybersecurity researchers have shed light on a cybercriminal group called Jingle Thief that has been observed targeting cloud environments associated with organizations in the retail and consumer services sectors for gift card fraud. \"Jingle Thief attackers use phishing and smishing to steal credentials, to compromise organizations that issue gift cards,\" Palo Alto Networks Unit 42 researchers",
+      "source": "thehackernews.com",
+      "first_seen": "2025-10-23T09:12:28Z",
+      "last_seen": "2025-10-23T09:12:28Z"
     },
     {
       "id": "d1e62f89484da1c212d2363c3f76e9e6935b0909",
@@ -31,7 +51,7 @@
       "description": "Oracle has disclosed multiple critical vulnerabilities in its Oracle VM VirtualBox virtualization software, potentially allowing attackers to achieve complete control over the VirtualBox environment. These flaws, detailed in the October 2025 Critical Patch Update (CPU), affect the Core component of VirtualBox versions 7.1.12 and 7.2.2, enabling high-privileged local attackers to compromise…",
       "source": "cybersecuritynews.com",
       "first_seen": "2025-10-23T08:15:25Z",
-      "last_seen": "2025-10-23T08:15:25Z"
+      "last_seen": "2025-10-23T09:12:28Z"
     },
     {
       "id": "777c5f45fe339afc4be4ccfefda469a59518a6db",
@@ -61,7 +81,7 @@
       "description": "The Internet Systems Consortium (ISC) disclosed three high-severity vulnerabilities in BIND 9 on October 22, 2025, potentially allowing remote attackers to conduct cache poisoning attacks or cause denial-of-service (DoS) conditions on affected DNS resolvers. These flaws, tracked as CVE-2025-8677, CVE-2025-40778, and CVE-2025-40780, primarily impact recursive resolvers used by organizations for…",
       "source": "cybersecuritynews.com",
       "first_seen": "2025-10-23T08:15:25Z",
-      "last_seen": "2025-10-23T08:15:25Z"
+      "last_seen": "2025-10-23T09:12:28Z"
     },
     {
       "id": "079bb3fcaefe42e8992865a01097402c461893c8",
@@ -71,7 +91,7 @@
       "description": "In the hotly political Middle East, you'd expect hacktivism and disruption of services. But retail attacks?",
       "source": "darkreading.com",
       "first_seen": "2025-10-23T06:16:45Z",
-      "last_seen": "2025-10-23T08:15:25Z"
+      "last_seen": "2025-10-23T09:12:28Z"
     },
     {
       "id": "ae1ffeada9ace152c64629696723fcfa994c8b45",
@@ -81,7 +101,7 @@
       "description": "E-commerce security company Sansec has warned that threat actors have begun to exploit a recently disclosed security vulnerability in Adobe Commerce and Magento Open Source platforms, with more than 250 attack attempts recorded against multiple stores over the past 24 hours. The vulnerability in question is CVE-2025-54236 (CVSS score: 9.1), a critical improper input validation flaw that could be",
       "source": "thehackernews.com",
       "first_seen": "2025-10-23T06:16:45Z",
-      "last_seen": "2025-10-23T08:15:25Z"
+      "last_seen": "2025-10-23T09:12:28Z"
     },
     {
       "id": "7e7b86b7875d7342e729f1a16c534b862a213695",
@@ -91,7 +111,7 @@
       "description": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Wednesday added a critical security flaw impacting Motex Lanscope Endpoint Manager to its Known Exploited Vulnerabilities (KEV) catalog, stating it has been actively exploited in the wild. The vulnerability, CVE-2025-61932 (CVSS v4 score: 9.3), impacts on-premises versions of Lanscope Endpoint Manager, specifically Client",
       "source": "thehackernews.com",
       "first_seen": "2025-10-23T06:16:45Z",
-      "last_seen": "2025-10-23T08:15:25Z"
+      "last_seen": "2025-10-23T09:12:28Z"
     },
     {
       "id": "f5542cb5cb6290aabaf2f47ba26a4ef8fffd4a3b",
@@ -101,7 +121,7 @@
       "description": "The campaign is the latest effort by the North Korean threat actor to collect data of strategic interest to Pyongyang.",
       "source": "darkreading.com",
       "first_seen": "2025-10-23T04:13:26Z",
-      "last_seen": "2025-10-23T08:15:25Z"
+      "last_seen": "2025-10-23T09:12:28Z"
     },
     {
       "id": "f5c2341c7c105e6eb26df419c623cc5db203cf47",
@@ -111,7 +131,7 @@
       "description": "Cloud account takeover attacks have evolved into a sophisticated threat as cybercriminals and state-sponsored actors increasingly weaponize OAuth applications to establish persistent access within compromised environments. These malicious actors are exploiting the fundamental trust mechanisms of cloud authentication systems, specifically targeting Microsoft Entra ID environments where they can…",
       "source": "cybersecuritynews.com",
       "first_seen": "2025-10-22T22:08:29Z",
-      "last_seen": "2025-10-23T08:15:25Z"
+      "last_seen": "2025-10-23T09:12:28Z"
     },
     {
       "id": "5850f1104e1326958da20555201865586b5f27a3",
@@ -121,7 +141,7 @@
       "description": "State-sponsored Iranian hacker group MuddyWater has targeted more than 100 government entities in attacks that deployed version 4 of the Phoenix backdoor. [...]",
       "source": "bleepingcomputer.com",
       "first_seen": "2025-10-22T22:08:29Z",
-      "last_seen": "2025-10-23T08:15:25Z"
+      "last_seen": "2025-10-23T09:12:28Z"
     },
     {
       "id": "6c6a9c743b2540f02a2d00909e3506409a133328",
@@ -131,7 +151,7 @@
       "description": "Researchers find it takes far less to manipulate a large language model's (LLM) behavior than anyone previously assumed.",
       "source": "darkreading.com",
       "first_seen": "2025-10-22T21:08:12Z",
-      "last_seen": "2025-10-23T08:15:25Z"
+      "last_seen": "2025-10-23T09:12:28Z"
     },
     {
       "id": "52e046fe876b7360f4da2ffd953dca94bb037acc",
@@ -141,7 +161,7 @@
       "description": "Hardcoded credentials, access tokens, and API keys are ending up in the darnedest places, prompting a call for organizations to stop over-privileging secrets.",
       "source": "darkreading.com",
       "first_seen": "2025-10-22T22:08:29Z",
-      "last_seen": "2025-10-23T08:15:25Z"
+      "last_seen": "2025-10-23T09:12:28Z"
     },
     {
       "id": "5887503873b3ee613193f8fcbf88ef97344356ad",
@@ -151,7 +171,7 @@
       "description": "Security researchers collected $792,750 in cash after exploiting 56​​​​​​​ unique zero-day vulnerabilities during the second day of the Pwn2Own Ireland 2025 hacking competition. [...]",
       "source": "bleepingcomputer.com",
       "first_seen": "2025-10-22T19:08:39Z",
-      "last_seen": "2025-10-23T08:15:25Z"
+      "last_seen": "2025-10-23T09:12:28Z"
     },
     {
       "id": "7474d56f2efbeef785f07e08133ced2fac5016c1",
@@ -161,7 +181,7 @@
       "description": "Hackers are actively exploiting the critical SessionReaper vulnerability (CVE-2025-54236) in Adobe Commerce (formerly Magento) platforms, with hundreds of attempts recorded. [...]",
       "source": "bleepingcomputer.com",
       "first_seen": "2025-10-22T19:08:39Z",
-      "last_seen": "2025-10-23T08:15:25Z"
+      "last_seen": "2025-10-23T09:12:28Z"
     },
     {
       "id": "3adf0c95bf4f8673b10924b0339e318e8d99dc7c",
@@ -171,7 +191,7 @@
       "description": "NSO Group must pay $4 million in damages and is permanently prohibited from reverse-engineering WhatsApp or creating new accounts after targeting users with spyware.",
       "source": "darkreading.com",
       "first_seen": "2025-10-22T18:17:37Z",
-      "last_seen": "2025-10-23T08:15:25Z"
+      "last_seen": "2025-10-23T09:12:28Z"
     },
     {
       "id": "2a38ff3ae7484382f26f6d5934d8f13aa8d8c128",
@@ -191,7 +211,7 @@
       "description": "A high-severity vulnerability in the now-abandoned async-tar Rust library and its forks can be exploited to gain remote code execution on systems running unpatched software. [...]",
       "source": "bleepingcomputer.com",
       "first_seen": "2025-10-22T18:17:37Z",
-      "last_seen": "2025-10-23T08:15:25Z"
+      "last_seen": "2025-10-23T09:12:28Z"
     },
     {
       "id": "0823b9c4581c9c7e6884312153bc668e5eaac3e1",
@@ -201,7 +221,7 @@
       "description": "The Iranian nation-state group known as MuddyWater has been attributed to a new campaign that has leveraged a compromised email account to distribute a backdoor called Phoenix to various organizations across the Middle East and North Africa (MENA) region, including over 100 government entities. The end goal of the campaign is to infiltrate high-value targets and facilitate intelligence gathering",
       "source": "thehackernews.com",
       "first_seen": "2025-10-22T18:17:37Z",
-      "last_seen": "2025-10-23T08:15:25Z"
+      "last_seen": "2025-10-23T09:12:28Z"
     },
     {
       "id": "e6fad05f5f2470848b1f9981201b753d36ccf110",
@@ -231,7 +251,7 @@
       "description": "Cybersecurity researchers have disclosed details of a coordinated spear-phishing campaign dubbed PhantomCaptcha targeting organizations associated with Ukraine's war relief efforts to deliver a remote access trojan that uses a WebSocket for command-and-control (C2). The activity, which took place on October 8, 2025, targeted individual members of the International Red Cross, Norwegian Refugee",
       "source": "thehackernews.com",
       "first_seen": "2025-10-22T18:17:37Z",
-      "last_seen": "2025-10-23T08:15:25Z"
+      "last_seen": "2025-10-23T09:12:28Z"
     },
     {
       "id": "ac589d3e37b05edce5f5a124f2535c99f12109fe",
@@ -251,7 +271,7 @@
       "description": "Meta has announced new tools to help WhatsApp and Messenger users protect themselves from potential scams and secure their accounts. [...]",
       "source": "bleepingcomputer.com",
       "first_seen": "2025-10-22T16:13:51Z",
-      "last_seen": "2025-10-23T08:15:25Z"
+      "last_seen": "2025-10-23T09:12:28Z"
     },
     {
       "id": "f171dac5175327ca1019789e1a3b990f0e83f30b",
@@ -271,7 +291,7 @@
       "description": "The vulnerability impacts multiple Rust tar parsers, allowing attackers to smuggle additional archive entries. The post TARmageddon Flaw in Popular Rust Library Leads to RCE appeared first on SecurityWeek.",
       "source": "securityweek.com",
       "first_seen": "2025-10-22T15:10:30Z",
-      "last_seen": "2025-10-23T08:15:25Z"
+      "last_seen": "2025-10-23T09:12:28Z"
     },
     {
       "id": "7b56adfb809226c8ea6d39827a2a975ebe86516c",
@@ -321,7 +341,7 @@
       "description": "One of the flaws can be exploited by remote unauthenticated attackers for arbitrary command execution. The post Critical Vulnerabilities Patched in TP-Link’s Omada Gateways appeared first on SecurityWeek.",
       "source": "securityweek.com",
       "first_seen": "2025-10-22T14:12:31Z",
-      "last_seen": "2025-10-23T08:15:25Z"
+      "last_seen": "2025-10-23T09:12:28Z"
     },
     {
       "id": "745e53bcce4139ed9e7c4b14b2defd9f7ec64f67",
@@ -411,7 +431,7 @@
       "description": "The company’s IAM platform identifies AI agents, supports assigning permission to them, and tracks all activity. The post Keycard Emerges From Stealth Mode With $38 Million in Funding appeared first on SecurityWeek.",
       "source": "securityweek.com",
       "first_seen": "2025-10-22T13:27:19Z",
-      "last_seen": "2025-10-23T08:15:25Z"
+      "last_seen": "2025-10-23T09:12:28Z"
     },
     {
       "id": "23894ba1cf91a4ef892ce59b7252afb9a188669c",
@@ -421,7 +441,7 @@
       "description": "Star Blizzard started using the NoRobot (BaitSwitch) and MaybeRobot (SimpleFix) malware after public reporting on the LostKeys malware. The post Russian APT Switches to New Backdoor After Malware Exposed by Researchers appeared first on SecurityWeek.",
       "source": "securityweek.com",
       "first_seen": "2025-10-22T12:21:43Z",
-      "last_seen": "2025-10-23T08:15:25Z"
+      "last_seen": "2025-10-23T09:12:28Z"
     },
     {
       "id": "ae658fbdb88792f75ee565d0dec12f1e5de97d7c",
@@ -451,7 +471,7 @@
       "description": "If you are recruiting for a Field CISO, Field CTO, etc., or are looking to leverage a resource at your company in one of these roles, what are some things you should be aware of? The post What Makes a Great Field CXO: Lessons from the Front Lines appeared first on SecurityWeek.",
       "source": "securityweek.com",
       "first_seen": "2025-10-22T12:21:43Z",
-      "last_seen": "2025-10-23T08:15:25Z"
+      "last_seen": "2025-10-23T09:12:28Z"
     },
     {
       "id": "8d5168cd430f97eb56887f766640207cb7f7a212",
@@ -631,7 +651,7 @@
       "description": "The post Researcher Demonstrates Local Privilege Escalation in Legacy Windows Modem Driver Exploited in the Wild appeared first on Daily CyberSecurity.",
       "source": "securityonline.info",
       "first_seen": "2025-10-22T00:52:26Z",
-      "last_seen": "2025-10-23T08:15:25Z"
+      "last_seen": "2025-10-23T09:12:28Z"
     },
     {
       "id": "b05cc970daa5980f1e57f85a9ce97db42844facd",
@@ -1551,7 +1571,7 @@
       "description": "The post Researcher Details Zero-Click RCE in Dolby Audio Decoder Affecting Android, iOS, and macOS appeared first on Daily CyberSecurity.",
       "source": "securityonline.info",
       "first_seen": "2025-10-20T00:54:18Z",
-      "last_seen": "2025-10-23T08:15:25Z"
+      "last_seen": "2025-10-23T09:12:28Z"
     },
     {
       "id": "349fdf7267c7bdf20b4c0f589261da80557f2436",
@@ -2131,7 +2151,7 @@
       "description": "The post Zero-Click NTLM Leak Returns: New LNK Bypass (PoC Available) Bypasses Patch, Exposing Credentials appeared first on Daily CyberSecurity.",
       "source": "securityonline.info",
       "first_seen": "2025-10-17T00:49:37Z",
-      "last_seen": "2025-10-23T08:15:25Z"
+      "last_seen": "2025-10-23T09:12:28Z"
     },
     {
       "id": "7da0fcd5def2bd64ffe268087198ec0a829e2f7c",
@@ -2651,7 +2671,7 @@
       "description": "A CVSS score 7.8 AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H severity vulnerability discovered by 'Nitesh Surana (niteshsurana.com) of Trend Research' was reported to the affected vendor on: 2025-10-16, 0 days ago. The vendor is given until 2026-02-13 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
       "source": "zerodayinitiative.com",
       "first_seen": "2025-10-16T23:09:56Z",
-      "last_seen": "2025-10-23T08:15:25Z"
+      "last_seen": "2025-10-23T09:12:28Z"
     },
     {
       "id": "8f669fdb481305e029b8487ef23ab83ba3daffd2",
@@ -3231,7 +3251,7 @@
       "description": "A CVSS score 8.8 AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H severity vulnerability discovered by 'Hossein Lotfi (@hosselot) of Trend Zero Day Initiative' was reported to the affected vendor on: 2025-10-15, 0 days ago. The vendor is given until 2026-02-12 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
       "source": "zerodayinitiative.com",
       "first_seen": "2025-10-15T16:11:42Z",
-      "last_seen": "2025-10-23T08:15:25Z"
+      "last_seen": "2025-10-23T09:12:28Z"
     },
     {
       "id": "e33b055ab5150b78a46c7be532cfbd30a8685862",
@@ -3241,7 +3261,7 @@
       "description": "A CVSS score 8.8 AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H severity vulnerability discovered by 'Hossein Lotfi (@hosselot) of Trend Zero Day Initiative' was reported to the affected vendor on: 2025-10-15, 0 days ago. The vendor is given until 2026-02-12 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
       "source": "zerodayinitiative.com",
       "first_seen": "2025-10-15T16:11:42Z",
-      "last_seen": "2025-10-23T08:15:25Z"
+      "last_seen": "2025-10-23T09:12:28Z"
     },
     {
       "id": "99ee28ac6d3dea24338193a56e874ac8e373a416",
@@ -3251,7 +3271,7 @@
       "description": "A CVSS score 8.8 AV:L/AC:L/PR:L/UI:N/S:C/C:H/I:H/A:H severity vulnerability discovered by 'Xiaobye(@xiaobye_tw) of DEVCORE Research Team' was reported to the affected vendor on: 2025-10-15, 0 days ago. The vendor is given until 2026-02-12 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
       "source": "zerodayinitiative.com",
       "first_seen": "2025-10-15T19:09:07Z",
-      "last_seen": "2025-10-23T08:15:25Z"
+      "last_seen": "2025-10-23T09:12:28Z"
     },
     {
       "id": "62383397e61ef824308018eef056a4e26fe0d582",
@@ -3261,7 +3281,7 @@
       "description": "A CVSS score 6.8 AV:A/AC:L/PR:H/UI:N/S:U/C:H/I:H/A:H severity vulnerability discovered by 'Alex Williams from Converge Technology Solutions' was reported to the affected vendor on: 2025-10-15, 0 days ago. The vendor is given until 2026-02-12 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
       "source": "zerodayinitiative.com",
       "first_seen": "2025-10-15T19:09:07Z",
-      "last_seen": "2025-10-23T08:15:25Z"
+      "last_seen": "2025-10-23T09:12:28Z"
     },
     {
       "id": "3109389e97a4ecc152b2cc1e3b0fbcdbdaeef245",
@@ -5081,7 +5101,7 @@
       "description": "The post Linux Kernel TLS UAF Flaw Allows Local RCE via Async Decrypt – PoC Available appeared first on Daily CyberSecurity.",
       "source": "securityonline.info",
       "first_seen": "2025-10-10T05:11:16Z",
-      "last_seen": "2025-10-23T08:15:25Z"
+      "last_seen": "2025-10-23T09:12:28Z"
     },
     {
       "id": "bc09e34782e0c7ed2f4b5bc0fa3a6bac4a22bb65",
@@ -5701,7 +5721,7 @@
       "description": "The post Critical CVSS 10.0 SQL Injection Vulnerability Patched in Esri ArcGIS Server appeared first on Daily CyberSecurity.",
       "source": "securityonline.info",
       "first_seen": "2025-10-09T04:13:00Z",
-      "last_seen": "2025-10-23T08:15:25Z"
+      "last_seen": "2025-10-23T09:12:28Z"
     },
     {
       "id": "f6fe63a41d9bb7bafeb3c734bc3aaca55bf2e35c",
@@ -29941,7 +29961,7 @@
       "description": "2.5 million people were affected, in a breach that could spell more trouble down the line.",
       "source": "threatpost.com",
       "first_seen": "2025-08-13T09:11:28Z",
-      "last_seen": "2025-10-23T08:15:25Z"
+      "last_seen": "2025-10-23T09:12:28Z"
     },
     {
       "id": "4140c7a34b0ba94ad2e6b0cae9f59b0cb9bfffea",
@@ -29951,7 +29971,7 @@
       "description": "Researchers uncover a watering hole attack likely carried out by APT TA423, which attempts to plant the ScanBox JavaScript-based reconnaissance tool.",
       "source": "threatpost.com",
       "first_seen": "2025-08-13T09:11:28Z",
-      "last_seen": "2025-10-23T08:15:25Z"
+      "last_seen": "2025-10-23T09:12:28Z"
     },
     {
       "id": "9359ee40a641a4b565080313045f1d7e7fe6552b",
@@ -29961,7 +29981,7 @@
       "description": "Over 130 companies tangled in sprawling phishing campaign that spoofed a multi-factor authentication system.",
       "source": "threatpost.com",
       "first_seen": "2025-08-13T09:11:28Z",
-      "last_seen": "2025-10-23T08:15:25Z"
+      "last_seen": "2025-10-23T09:12:28Z"
     },
     {
       "id": "b4ccef0737cd4050d65241bf754072030b6b5e6a",
@@ -29971,7 +29991,7 @@
       "description": "Lockbit is by far this summer’s most prolific ransomware group, trailed by two offshoots of the Conti group.",
       "source": "threatpost.com",
       "first_seen": "2025-08-13T09:11:28Z",
-      "last_seen": "2025-10-23T08:15:25Z"
+      "last_seen": "2025-10-23T09:12:28Z"
     },
     {
       "id": "12ee113fc8fce91f6d7fb28deab2b1ad20061ec7",
@@ -29981,7 +30001,7 @@
       "description": "Tens of thousands of cameras have failed to patch a critical, 11-month-old CVE, leaving thousands of organizations exposed.",
       "source": "threatpost.com",
       "first_seen": "2025-08-13T09:11:28Z",
-      "last_seen": "2025-10-23T08:15:25Z"
+      "last_seen": "2025-10-23T09:12:28Z"
     }
   ]
 }
