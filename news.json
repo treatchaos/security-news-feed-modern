@@ -1,7 +1,49 @@
 {
-  "last_updated": "2025-10-24T07:10:44Z",
+  "last_updated": "2025-10-24T08:14:51Z",
   "count": 40,
   "items": [
+    {
+      "title": "HP OneAgent Update Brokes Trust And Disconnect Devices From Entra ID",
+      "link": "https://cybersecuritynews.com/hp-oneagent-update-brokes-trust/",
+      "date": "2025-10-24T08:04:14Z",
+      "description": "The HP OneAgent software update has disconnected Windows devices from Microsoft Entra ID. As a result, users can no longer access their corporate identities. Version 1.2.50.9581 of the agent, pushed silently to HP’s Next Gen AI systems like the EliteBook X Flip G1i, deleted critical certificates, causing devices to drop their Entra join status overnight. […] The post HP OneAgent Update Brokes…",
+      "source": "cybersecuritynews.com"
+    },
+    {
+      "title": "Pwn2Own WhatsApp Hacker Says Exploit Privately Reported to Meta",
+      "link": "https://www.securityweek.com/pwn2own-whatsapp-hacker-says-exploit-privately-reported-to-meta/",
+      "date": "2025-10-24T08:01:42Z",
+      "description": "Questions have been raised over the technical viability of the purported WhatsApp exploit, but the researcher says he wants to keep his identity private. The post Pwn2Own WhatsApp Hacker Says Exploit Privately Reported to Meta appeared first on SecurityWeek.",
+      "source": "securityweek.com"
+    },
+    {
+      "title": "Threat Actors Attacking Azure Blob Storage to Compromise Organizational Repositories",
+      "link": "https://cybersecuritynews.com/threat-actors-attacking-azure-blob-storage/",
+      "date": "2025-10-24T07:49:28Z",
+      "description": "Cybersecurity researchers have identified a sophisticated campaign where threat actors are leveraging compromised credentials to infiltrate Azure Blob Storage containers, targeting organizations’ critical code repositories and sensitive data. This emerging threat exploits misconfigured storage access controls to establish persistence and exfiltrate valuable intellectual property. The attack…",
+      "source": "cybersecuritynews.com"
+    },
+    {
+      "title": "New PDF Tool to Detect Malicious PDF Using PDF Object Hashing Technique",
+      "link": "https://cybersecuritynews.com/pdf-tool-to-detect-malicious-pdf/",
+      "date": "2025-10-24T07:36:43Z",
+      "description": "A new open-source tool called PDF Object Hashing is designed to detect malicious PDFs by analyzing their structural “fingerprints.” Released by Proofpoint, the tool empowers security teams to create robust threat detection rules based on unique object characteristics in PDF files. This innovation addresses the growing reliance of threat actors on PDFs for delivering malware, […] The post New PDF…",
+      "source": "cybersecuritynews.com"
+    },
+    {
+      "title": "Windows Server emergency patches fix WSUS bug with PoC exploit",
+      "link": "https://www.bleepingcomputer.com/news/security/microsoft-releases-windows-server-emergency-updates-for-critical-wsus-rce-flaw/",
+      "date": "2025-10-24T07:27:56Z",
+      "description": "Microsoft has released out-of-band (OOB) security updates to patch a critical-severity Windows Server Update Service (WSUS) vulnerability with publicly available proof-of-concept exploit code. [...]",
+      "source": "bleepingcomputer.com"
+    },
+    {
+      "title": "Self-Spreading 'GlassWorm' Infects VS Code Extensions in Widespread Supply Chain Attack",
+      "link": "https://thehackernews.com/2025/10/self-spreading-glassworm-infects-vs.html",
+      "date": "2025-10-24T07:00:00Z",
+      "description": "Cybersecurity researchers have discovered a self-propagating worm that spreads via Visual Studio Code (VS Code) extensions on the Open VSX Registry and the Microsoft Extension Marketplace, underscoring how developers have become a prime target for attacks. The sophisticated threat, codenamed GlassWorm by Koi Security, is the second such supply chain attack to hit the DevOps space within a span",
+      "source": "thehackernews.com"
+    },
     {
       "title": "SharkStealer Using EtherHiding Pattern to Resolves Communications With C2 Channels",
       "link": "https://cybersecuritynews.com/sharkstealer-using-etherhiding-pattern/",
@@ -21,27 +63,6 @@
       "link": "https://cybersecuritynews.com/hackers-abuse-microsoft-365-exchange-direct-send/",
       "date": "2025-10-24T05:47:03Z",
       "description": "Microsoft 365 Exchange Online’s Direct Send feature, originally designed to enable legacy devices and applications to send emails without authentication, has become an exploitable pathway for cybercriminals conducting sophisticated phishing and business email compromise attacks. The feature allows multifunction printers, scanners, and older line-of-business applications to transmit messages by…",
-      "source": "cybersecuritynews.com"
-    },
-    {
-      "title": "Bitter APT Hackers Exploit WinRAR Zero-Day Via Weaponized Word Documents to Steal Sensitive Data",
-      "link": "https://cybersecuritynews.com/bitter-apt-hackers-exploit-winrar-zero-day/",
-      "date": "2025-10-24T04:39:15Z",
-      "description": "The Bitter APT group, also tracked as APT-Q-37 and known in China as 蔓灵花, has launched a sophisticated cyberespionage campaign targeting government agencies, military installations, and critical infrastructure across China and Pakistan. The threat actor has deployed weaponized Microsoft Office documents that exploit a previously unknown zero-day vulnerability in WinRAR archive software to…",
-      "source": "cybersecuritynews.com"
-    },
-    {
-      "title": "AI Sidebar Spoofing Attack: SquareX Uncovers Malicious Extensions that Impersonate AI Browser Sidebars",
-      "link": "https://cybersecuritynews.com/ai-sidebar-spoofing-attack/",
-      "date": "2025-10-24T03:58:08Z",
-      "description": "SquareX released critical research exposing a new class of attack targeting AI browsers. The AI Sidebar Spoofing attack leverages malicious browser extensions to impersonate trusted AI sidebar interfaces, which is used to trick users into executing dangerous commands that can lead to credential theft, device hijacking, and password exfiltration. The research demonstrates how attackers can […]…",
-      "source": "cybersecuritynews.com"
-    },
-    {
-      "title": "Hackers Can Access Microsoft Teams Chat and Emails by Retrieving Access Tokens",
-      "link": "https://cybersecuritynews.com/microsoft-teams-access-tokens/",
-      "date": "2025-10-24T03:16:39Z",
-      "description": "A new technique allows hackers to extract encrypted authentication tokens from Microsoft Teams on Windows, enabling unauthorized access to chats, emails, and SharePoint files. In a blog post dated October 23, 2025, Brahim El Fikhi explains how these tokens, stored in a Chromium-like Cookies database, can be decrypted using Windows’ Data Protection API (DPAPI). This […] The post Hackers Can…",
       "source": "cybersecuritynews.com"
     },
     {
@@ -94,17 +115,10 @@
       "source": "bleepingcomputer.com"
     },
     {
-      "title": "CISA warns of Lanscope Endpoint Manager flaw exploited in attacks",
-      "link": "https://www.bleepingcomputer.com/news/security/cisa-warns-of-lanscope-endpoint-manager-flaw-exploited-in-attacks/",
-      "date": "2025-10-23T16:24:06Z",
-      "description": "The Cybersecurity & Infrastructure Security Agency (CISA) is warning that hackers are exploiting a critical vulnerability in the Motex Landscope Endpoint Manager. [...]",
-      "source": "bleepingcomputer.com"
-    },
-    {
       "title": "North Korean Hackers Lure Defense Engineers With Fake Jobs to Steal Drone Secrets",
       "link": "https://thehackernews.com/2025/10/north-korean-hackers-lure-defense.html",
       "date": "2025-10-23T15:29:00Z",
-      "description": "Threat actors with ties to North Korea have been attributed to a new wave of attacks targeting European companies active in the defense industry as part of a long-running campaign known as Operation Dream Job. \"Some of these [companies' are heavily involved in the unmanned aerial vehicle (UAV) sector, suggesting that the operation may be linked to North Korea's current efforts to scale up its",
+      "description": "Threat actors with ties to North Korea have been attributed to a new wave of attacks targeting European companies active in the defense industry as part of a long-running campaign known as Operation Dream Job. \"Some of these [companies] are heavily involved in the unmanned aerial vehicle (UAV) sector, suggesting that the operation may be linked to North Korea's current efforts to scale up its",
       "source": "thehackernews.com"
     },
     {
@@ -154,20 +168,6 @@
       "link": "https://thehackernews.com/2025/10/why-organizations-are-abandoning-static.html",
       "date": "2025-10-23T11:00:00Z",
       "description": "As machine identities explode across cloud environments, enterprises report dramatic productivity gains from eliminating static credentials. And only legacy systems remain the weak link. For decades, organizations have relied on static secrets, such as API keys, passwords, and tokens, as unique identifiers for workloads. While this approach provides clear traceability, it creates what security",
-      "source": "thehackernews.com"
-    },
-    {
-      "title": "BIND Updates Address High-Severity Cache Poisoning Flaws",
-      "link": "https://www.securityweek.com/bind-updates-address-high-severity-cache-poisoning-flaws/",
-      "date": "2025-10-23T10:10:47Z",
-      "description": "The vulnerabilities allow attackers to predict source ports and query IDs BIND will use, and to inject forged records into the cache. The post BIND Updates Address High-Severity Cache Poisoning Flaws appeared first on SecurityWeek.",
-      "source": "securityweek.com"
-    },
-    {
-      "title": "“Jingle Thief” Hackers Exploit Cloud Infrastructure to Steal Millions in Gift Cards",
-      "link": "https://thehackernews.com/2025/10/jingle-thief-hackers-exploit-cloud.html",
-      "date": "2025-10-23T07:52:00Z",
-      "description": "Cybersecurity researchers have shed light on a cybercriminal group called Jingle Thief that has been observed targeting cloud environments associated with organizations in the retail and consumer services sectors for gift card fraud. \"Jingle Thief attackers use phishing and smishing to steal credentials, to compromise organizations that issue gift cards,\" Palo Alto Networks Unit 42 researchers",
       "source": "thehackernews.com"
     },
     {
