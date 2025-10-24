@@ -1,7 +1,27 @@
 {
   "date": "2025-10-24",
-  "count": 18,
+  "count": 20,
   "items": [
+    {
+      "id": "dc8da4e47715b3bdb98e3163fc2f1417fb293cc6",
+      "title": "Microsoft Disables Downloaded File Previews to Block NTLM Hash Leaks",
+      "link": "https://www.securityweek.com/microsoft-disables-downloaded-file-previews-to-block-ntlm-hash-leaks/",
+      "date": "2025-10-24T09:57:30Z",
+      "description": "In files downloaded from the internet, HTML tags referencing external paths could be used to leak NTLM hashes during file previews. The post Microsoft Disables Downloaded File Previews to Block NTLM Hash Leaks appeared first on SecurityWeek.",
+      "source": "securityweek.com",
+      "first_seen": "2025-10-24T10:11:53Z",
+      "last_seen": "2025-10-24T10:11:53Z"
+    },
+    {
+      "id": "9d4e5234e76810fcfd306a3d3fc55c6f3ae4b465",
+      "title": "Threat Actors Advancing Email Phishing Attacks to Bypass Security Filters",
+      "link": "https://cybersecuritynews.com/threat-actors-advancing-email-phishing-attacks/",
+      "date": "2025-10-24T09:19:19Z",
+      "description": "Email phishing attacks have reached a critical inflection point in 2025, as threat actors deploy increasingly sophisticated evasion techniques to circumvent traditional security infrastructure and user defenses. The threat landscape continues to evolve with the revival and refinement of established tactics that were once considered outdated, combined with novel delivery mechanisms that exploit…",
+      "source": "cybersecuritynews.com",
+      "first_seen": "2025-10-24T10:11:53Z",
+      "last_seen": "2025-10-24T10:11:53Z"
+    },
     {
       "id": "ec208ec12731f69a13083c45bf3802c77ba66909",
       "title": "Microsoft Releases Emergency Patch For Windows Server Update Service RCE Vulnerability",
@@ -10,7 +30,7 @@
       "description": "Microsoft has rolled out an out-of-band emergency patch for a remote code execution (RCE) vulnerability affecting the Windows Server Update Services (WSUS). Identified as CVE-2025-59287, the issue stems from the deserialization of untrusted data in a legacy serialization mechanism, allowing unauthorized attackers to execute arbitrary code over the network. The patch, released on October 23, […]…",
       "source": "cybersecuritynews.com",
       "first_seen": "2025-10-24T09:12:52Z",
-      "last_seen": "2025-10-24T09:12:52Z"
+      "last_seen": "2025-10-24T10:11:53Z"
     },
     {
       "id": "f7de1505bb3e5542e13de0b879c3d9dfa9a53b93",
@@ -20,7 +40,7 @@
       "description": "Toys “R” Us Canada has alerted customers to a significant data breach that potentially exposed their personal information, marking another blow to consumer trust in retail data security. In emails dispatched to affected individuals this morning, the popular toy retailer revealed that unauthorized access to its databases occurred earlier this year, with stolen data surfacing […] The post Toys “R”…",
       "source": "cybersecuritynews.com",
       "first_seen": "2025-10-24T09:12:52Z",
-      "last_seen": "2025-10-24T09:12:52Z"
+      "last_seen": "2025-10-24T10:11:53Z"
     },
     {
       "id": "afc02097e7b4bec77c534a8f06c7b824fc85b194",
@@ -30,7 +50,7 @@
       "description": "Remcos, a commercial remote access tool marketed as legitimate surveillance software, has become the leading infostealer in malware campaigns during the third quarter of 2025, accounting for approximately 11 percent of detected cases. In a notable shift from traditional deployment methods, threat actors are now weaponizing this remote control and surveillance platform through sophisticated…",
       "source": "cybersecuritynews.com",
       "first_seen": "2025-10-24T09:12:52Z",
-      "last_seen": "2025-10-24T09:12:52Z"
+      "last_seen": "2025-10-24T10:11:53Z"
     },
     {
       "id": "e65f05527fe5f0e62fce774afa3e84ade8055fd6",
@@ -40,7 +60,7 @@
       "description": "The HP OneAgent software update has disconnected Windows devices from Microsoft Entra ID. As a result, users can no longer access their corporate identities. Version 1.2.50.9581 of the agent, pushed silently to HP’s Next Gen AI systems like the EliteBook X Flip G1i, deleted critical certificates, causing devices to drop their Entra join status overnight. […] The post HP OneAgent Update Brokes…",
       "source": "cybersecuritynews.com",
       "first_seen": "2025-10-24T08:14:51Z",
-      "last_seen": "2025-10-24T09:12:52Z"
+      "last_seen": "2025-10-24T10:11:53Z"
     },
     {
       "id": "d7163074518f3a7c5979995510dc17d37a5304dd",
@@ -60,7 +80,7 @@
       "description": "Questions have been raised over the technical viability of the purported WhatsApp exploit, but the researcher says he wants to keep his identity private. The post Pwn2Own WhatsApp Hacker Says Exploit Privately Disclosed to Meta appeared first on SecurityWeek.",
       "source": "securityweek.com",
       "first_seen": "2025-10-24T09:12:52Z",
-      "last_seen": "2025-10-24T09:12:52Z"
+      "last_seen": "2025-10-24T10:11:53Z"
     },
     {
       "id": "559d0c6d3b30afcf1c0fe33fea11b5b2aaffda01",
@@ -90,7 +110,7 @@
       "description": "Microsoft has released out-of-band (OOB) security updates to patch a critical-severity Windows Server Update Service (WSUS) vulnerability with publicly available proof-of-concept exploit code. [...]",
       "source": "bleepingcomputer.com",
       "first_seen": "2025-10-24T08:14:51Z",
-      "last_seen": "2025-10-24T09:12:52Z"
+      "last_seen": "2025-10-24T10:11:53Z"
     },
     {
       "id": "8ed1edbb5b5a86106e7b7e9a85f3089b265c3bf8",
@@ -100,7 +120,7 @@
       "description": "Cybersecurity researchers have discovered a self-propagating worm that spreads via Visual Studio Code (VS Code) extensions on the Open VSX Registry and the Microsoft Extension Marketplace, underscoring how developers have become a prime target for attacks. The sophisticated threat, codenamed GlassWorm by Koi Security, is the second such supply chain attack to hit the DevOps space within a span",
       "source": "thehackernews.com",
       "first_seen": "2025-10-24T08:14:51Z",
-      "last_seen": "2025-10-24T09:12:52Z"
+      "last_seen": "2025-10-24T10:11:53Z"
     },
     {
       "id": "616615224114f0b1e72a075087f1060387675d5a",
@@ -120,7 +140,7 @@
       "description": "​The Pwn2Own Ireland 2025 hacking competition has ended with security researchers collecting $1,024,750 in cash awards after exploiting 73 zero-day vulnerabilities. [...]",
       "source": "bleepingcomputer.com",
       "first_seen": "2025-10-24T07:10:44Z",
-      "last_seen": "2025-10-24T09:12:52Z"
+      "last_seen": "2025-10-24T10:11:53Z"
     },
     {
       "id": "bb348666e7ec3f8c6e915a6548e59620049a4e63",
@@ -170,7 +190,7 @@
       "description": "A $14 billion seizure by US investigators presents a warning for cybercriminals' reliance on bitcoin but is still a positive development for the cryptocurrency industry.",
       "source": "darkreading.com",
       "first_seen": "2025-10-24T02:17:23Z",
-      "last_seen": "2025-10-24T09:12:52Z"
+      "last_seen": "2025-10-24T10:11:53Z"
     },
     {
       "id": "e7bb090e076a2de6ef2a5414fdbdd4f8ae240e8d",
@@ -180,7 +200,7 @@
       "description": "The post Jingle Thief Cybercrime Gang Steals Hundreds of Thousands in Gift Card Fraud via Microsoft 365 Identity Abuse appeared first on Daily CyberSecurity.",
       "source": "securityonline.info",
       "first_seen": "2025-10-24T00:46:27Z",
-      "last_seen": "2025-10-24T09:12:52Z"
+      "last_seen": "2025-10-24T10:11:53Z"
     }
   ]
 }
