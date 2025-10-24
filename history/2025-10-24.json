@@ -1,7 +1,37 @@
 {
   "date": "2025-10-24",
-  "count": 14,
+  "count": 18,
   "items": [
+    {
+      "id": "ec208ec12731f69a13083c45bf3802c77ba66909",
+      "title": "Microsoft Releases Emergency Patch For Windows Server Update Service RCE Vulnerability",
+      "link": "https://cybersecuritynews.com/wsus-rce-vulnerability/",
+      "date": "2025-10-24T08:37:44Z",
+      "description": "Microsoft has rolled out an out-of-band emergency patch for a remote code execution (RCE) vulnerability affecting the Windows Server Update Services (WSUS). Identified as CVE-2025-59287, the issue stems from the deserialization of untrusted data in a legacy serialization mechanism, allowing unauthorized attackers to execute arbitrary code over the network. The patch, released on October 23, […]…",
+      "source": "cybersecuritynews.com",
+      "first_seen": "2025-10-24T09:12:52Z",
+      "last_seen": "2025-10-24T09:12:52Z"
+    },
+    {
+      "id": "f7de1505bb3e5542e13de0b879c3d9dfa9a53b93",
+      "title": "Toys “R” Us Canada Confirms Data Breach – Customers Personal Data Stolen",
+      "link": "https://cybersecuritynews.com/toys-r-us-canada-confirms-data-breach/",
+      "date": "2025-10-24T08:17:15Z",
+      "description": "Toys “R” Us Canada has alerted customers to a significant data breach that potentially exposed their personal information, marking another blow to consumer trust in retail data security. In emails dispatched to affected individuals this morning, the popular toy retailer revealed that unauthorized access to its databases occurred earlier this year, with stolen data surfacing […] The post Toys “R”…",
+      "source": "cybersecuritynews.com",
+      "first_seen": "2025-10-24T09:12:52Z",
+      "last_seen": "2025-10-24T09:12:52Z"
+    },
+    {
+      "id": "afc02097e7b4bec77c534a8f06c7b824fc85b194",
+      "title": "New Fileless Remcos Attacks Bypassing EDRs Malicious Code into RMClient",
+      "link": "https://cybersecuritynews.com/new-fileless-remcos-attacks-bypassing-edrs/",
+      "date": "2025-10-24T08:16:30Z",
+      "description": "Remcos, a commercial remote access tool marketed as legitimate surveillance software, has become the leading infostealer in malware campaigns during the third quarter of 2025, accounting for approximately 11 percent of detected cases. In a notable shift from traditional deployment methods, threat actors are now weaponizing this remote control and surveillance platform through sophisticated…",
+      "source": "cybersecuritynews.com",
+      "first_seen": "2025-10-24T09:12:52Z",
+      "last_seen": "2025-10-24T09:12:52Z"
+    },
     {
       "id": "e65f05527fe5f0e62fce774afa3e84ade8055fd6",
       "title": "HP OneAgent Update Brokes Trust And Disconnect Devices From Entra ID",
@@ -10,7 +40,7 @@
       "description": "The HP OneAgent software update has disconnected Windows devices from Microsoft Entra ID. As a result, users can no longer access their corporate identities. Version 1.2.50.9581 of the agent, pushed silently to HP’s Next Gen AI systems like the EliteBook X Flip G1i, deleted critical certificates, causing devices to drop their Entra join status overnight. […] The post HP OneAgent Update Brokes…",
       "source": "cybersecuritynews.com",
       "first_seen": "2025-10-24T08:14:51Z",
-      "last_seen": "2025-10-24T08:14:51Z"
+      "last_seen": "2025-10-24T09:12:52Z"
     },
     {
       "id": "d7163074518f3a7c5979995510dc17d37a5304dd",
@@ -23,6 +53,16 @@
       "last_seen": "2025-10-24T08:14:51Z"
     },
     {
+      "id": "85123a84e94c203f372b444ebba35d79846d4afe",
+      "title": "Pwn2Own WhatsApp Hacker Says Exploit Privately Disclosed to Meta",
+      "link": "https://www.securityweek.com/pwn2own-whatsapp-hacker-says-exploit-privately-reported-to-meta/",
+      "date": "2025-10-24T08:01:42Z",
+      "description": "Questions have been raised over the technical viability of the purported WhatsApp exploit, but the researcher says he wants to keep his identity private. The post Pwn2Own WhatsApp Hacker Says Exploit Privately Disclosed to Meta appeared first on SecurityWeek.",
+      "source": "securityweek.com",
+      "first_seen": "2025-10-24T09:12:52Z",
+      "last_seen": "2025-10-24T09:12:52Z"
+    },
+    {
       "id": "559d0c6d3b30afcf1c0fe33fea11b5b2aaffda01",
       "title": "Threat Actors Attacking Azure Blob Storage to Compromise Organizational Repositories",
       "link": "https://cybersecuritynews.com/threat-actors-attacking-azure-blob-storage/",
@@ -30,7 +70,7 @@
       "description": "Cybersecurity researchers have identified a sophisticated campaign where threat actors are leveraging compromised credentials to infiltrate Azure Blob Storage containers, targeting organizations’ critical code repositories and sensitive data. This emerging threat exploits misconfigured storage access controls to establish persistence and exfiltrate valuable intellectual property. The attack…",
       "source": "cybersecuritynews.com",
       "first_seen": "2025-10-24T08:14:51Z",
-      "last_seen": "2025-10-24T08:14:51Z"
+      "last_seen": "2025-10-24T09:12:52Z"
     },
     {
       "id": "81dc108bfcd93e733170735a1a1449382585c036",
@@ -50,7 +90,7 @@
       "description": "Microsoft has released out-of-band (OOB) security updates to patch a critical-severity Windows Server Update Service (WSUS) vulnerability with publicly available proof-of-concept exploit code. [...]",
       "source": "bleepingcomputer.com",
       "first_seen": "2025-10-24T08:14:51Z",
-      "last_seen": "2025-10-24T08:14:51Z"
+      "last_seen": "2025-10-24T09:12:52Z"
     },
     {
       "id": "8ed1edbb5b5a86106e7b7e9a85f3089b265c3bf8",
@@ -60,7 +100,7 @@
       "description": "Cybersecurity researchers have discovered a self-propagating worm that spreads via Visual Studio Code (VS Code) extensions on the Open VSX Registry and the Microsoft Extension Marketplace, underscoring how developers have become a prime target for attacks. The sophisticated threat, codenamed GlassWorm by Koi Security, is the second such supply chain attack to hit the DevOps space within a span",
       "source": "thehackernews.com",
       "first_seen": "2025-10-24T08:14:51Z",
-      "last_seen": "2025-10-24T08:14:51Z"
+      "last_seen": "2025-10-24T09:12:52Z"
     },
     {
       "id": "616615224114f0b1e72a075087f1060387675d5a",
@@ -80,7 +120,7 @@
       "description": "​The Pwn2Own Ireland 2025 hacking competition has ended with security researchers collecting $1,024,750 in cash awards after exploiting 73 zero-day vulnerabilities. [...]",
       "source": "bleepingcomputer.com",
       "first_seen": "2025-10-24T07:10:44Z",
-      "last_seen": "2025-10-24T08:14:51Z"
+      "last_seen": "2025-10-24T09:12:52Z"
     },
     {
       "id": "bb348666e7ec3f8c6e915a6548e59620049a4e63",
@@ -130,7 +170,7 @@
       "description": "A $14 billion seizure by US investigators presents a warning for cybercriminals' reliance on bitcoin but is still a positive development for the cryptocurrency industry.",
       "source": "darkreading.com",
       "first_seen": "2025-10-24T02:17:23Z",
-      "last_seen": "2025-10-24T08:14:51Z"
+      "last_seen": "2025-10-24T09:12:52Z"
     },
     {
       "id": "e7bb090e076a2de6ef2a5414fdbdd4f8ae240e8d",
@@ -140,7 +180,7 @@
       "description": "The post Jingle Thief Cybercrime Gang Steals Hundreds of Thousands in Gift Card Fraud via Microsoft 365 Identity Abuse appeared first on Daily CyberSecurity.",
       "source": "securityonline.info",
       "first_seen": "2025-10-24T00:46:27Z",
-      "last_seen": "2025-10-24T08:14:51Z"
+      "last_seen": "2025-10-24T09:12:52Z"
     }
   ]
 }
