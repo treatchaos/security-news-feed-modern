@@ -1,7 +1,17 @@
 {
   "date": "2025-10-28",
-  "count": 2,
+  "count": 3,
   "items": [
+    {
+      "id": "e87bdab73aa11e225c1e715e123e0abab7ca05c9",
+      "title": "OpenVPN Vulnerability Exposes Linux, macOS Systems to Script Injection Attacks",
+      "link": "https://cybersecuritynews.com/openvpn-vulnerability-exposes-systems/",
+      "date": "2025-10-28T06:22:25Z",
+      "description": "A new vulnerability in early versions of OpenVPN has been disclosed, potentially allowing malicious servers to execute arbitrary commands on client machines. The flaw affects OpenVPN releases from 2.7_alpha1 to 2.7_beta1, enabling script-injection attacks on POSIX-based systems such as Linux, macOS, and BSD variants. The issue stems from inadequate sanitization of the –dns and –dhcp-option […]…",
+      "source": "cybersecuritynews.com",
+      "first_seen": "2025-10-28T07:11:08Z",
+      "last_seen": "2025-10-28T07:11:08Z"
+    },
     {
       "id": "b8e3ebbb936c970135b3b2cbb480142c804bacd0",
       "title": "SideWinder Adopts New ClickOnce-Based Attack Chain Targeting South Asian Diplomats",
@@ -10,7 +20,7 @@
       "description": "A European embassy located in the Indian capital of New Delhi, as well as multiple organizations in Sri Lanka, Pakistan, and Bangladesh, have emerged as the target of a new campaign orchestrated by a threat actor known as SideWinder in September 2025. The activity \"reveals a notable evolution in SideWinder's TTPs, particularly the adoption of a novel PDF and ClickOnce-based infection chain, in",
       "source": "thehackernews.com",
       "first_seen": "2025-10-28T05:12:08Z",
-      "last_seen": "2025-10-28T06:17:11Z"
+      "last_seen": "2025-10-28T07:11:08Z"
     },
     {
       "id": "34f7109b83b8c602e59bdca306fafee665efbb11",
@@ -20,7 +30,7 @@
       "description": "The Apache Software Foundation has highlighted critical flaws in Apache Tomcat, a widely used open-source Java servlet container that powers numerous web applications. On October 27, 2025, Apache disclosed two vulnerabilities, CVE-2025-55752 and CVE-2025-55754, affecting multiple versions of Tomcat. While the first poses a risk of remote code execution (RCE) under specific configurations, the…",
       "source": "cybersecuritynews.com",
       "first_seen": "2025-10-28T03:36:04Z",
-      "last_seen": "2025-10-28T06:17:11Z"
+      "last_seen": "2025-10-28T07:11:08Z"
     }
   ]
 }
