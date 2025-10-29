@@ -1,7 +1,42 @@
 {
-  "last_updated": "2025-10-29T15:12:08Z",
+  "last_updated": "2025-10-29T16:14:06Z",
   "count": 40,
   "items": [
+    {
+      "title": "Botnets Step Up Cloud Attacks Via Flaws, Misconfigurations",
+      "link": "https://www.darkreading.com/cloud-security/botnets-cloud-attacks-flaws-misconfigurations",
+      "date": "2025-10-29T16:04:10Z",
+      "description": "Infamous botnets like Mirai are exploiting Web-exposed assets such as PHP servers, IoT devices, and cloud gateways to gain control over systems and build strength.",
+      "source": "darkreading.com"
+    },
+    {
+      "title": "WordPress Plugin Vulnerability Exposes 7 Million Sites to XSS Attack",
+      "link": "https://cybersecuritynews.com/wordpress-litespeed-cache-plugin-vulnerability/",
+      "date": "2025-10-29T16:01:26Z",
+      "description": "A critical cross-site scripting (XSS) vulnerability has been discovered in the popular LiteSpeed Cache plugin for WordPress, affecting millions of websites worldwide. The vulnerability, tracked as CVE-2025-12450, poses a significant risk to site visitors and administrators alike. The LiteSpeed Cache plugin is one of the most widely used performance optimization tools in the WordPress ecosystem,…",
+      "source": "cybersecuritynews.com"
+    },
+    {
+      "title": "Hikvision Exploiter – An  Automated Exploitation Toolkit Targeting Hikvision IP Cameras",
+      "link": "https://cybersecuritynews.com/hikvisionexploiter-exploitation-toolkit/",
+      "date": "2025-10-29T15:50:42Z",
+      "description": "A new open-source tool called HikvisionExploiter has emerged, designed to automate attacks on vulnerable Hikvision IP cameras. Released on GitHub in mid-2024 but gaining renewed attention amid 2025’s surge in camera exploits, this Python-based utility targets unauthenticated endpoints in cameras running outdated firmware, such as version 3.1.3.150324. Developed for researchers and red teamers,…",
+      "source": "cybersecuritynews.com"
+    },
+    {
+      "title": "Experts Reports Sharp Increase in Automated Botnet Attacks Targeting PHP Servers and IoT Devices",
+      "link": "https://thehackernews.com/2025/10/experts-reports-sharp-increase-in.html",
+      "date": "2025-10-29T15:38:00Z",
+      "description": "Cybersecurity researchers are calling attention to a spike in automated attacks targeting PHP servers, IoT devices, and cloud gateways by various botnets such as Mirai, Gafgyt, and Mozi. \"These automated campaigns exploit known CVE vulnerabilities and cloud misconfigurations to gain control over exposed systems and expand botnet networks,\" the Qualys Threat Research Unit (TRU) said in a report",
+      "source": "thehackernews.com"
+    },
+    {
+      "title": "New AI-Targeted Cloaking Attack Tricks AI Crawlers Into Citing Fake Info as Verified Facts",
+      "link": "https://thehackernews.com/2025/10/new-ai-targeted-cloaking-attack-tricks.html",
+      "date": "2025-10-29T14:57:00Z",
+      "description": "Cybersecurity researchers have flagged a new security issue in agentic web browsers like OpenAI ChatGPT Atlas that exposes underlying artificial intelligence (AI) models to context poisoning attacks. In the attack devised by AI security company SPLX, a bad actor can set up websites that serve different content to browsers and AI crawlers run by ChatGPT and Perplexity. The technique has been",
+      "source": "thehackernews.com"
+    },
     {
       "title": "10 Malicious npm Packages with Auto-Run Feature on Install Deploys Multi-Stage Credential Harvester",
       "link": "https://cybersecuritynews.com/10-malicious-npm-packages-with-auto-run-feature/",
@@ -38,25 +73,11 @@
       "source": "cybersecuritynews.com"
     },
     {
-      "title": "Gunra Ransomware Leveraging Attacking Windows and Linux Systems with Two Encryption Methods",
-      "link": "https://cybersecuritynews.com/gunra-ransomware-leveraging-attacking-windows/",
-      "date": "2025-10-29T13:41:06Z",
-      "description": "The threat landscape continues to evolve as Gunra ransomware emerged in April 2025, establishing itself as a significant threat to organizations worldwide. This dual-platform attack group has demonstrated a systematic approach to compromising both Windows and Linux environments, making their campaign one of the more noteworthy distributed ransomware operations in recent months. Organizations…",
-      "source": "cybersecuritynews.com"
-    },
-    {
       "title": "MITRE Unveils ATT&CK v18 With Updates to Detections, Mobile, ICS",
       "link": "https://www.securityweek.com/mitre-unveils-attck-v18-with-updates-to-detections-mobile-ics/",
       "date": "2025-10-29T13:30:57Z",
       "description": "MITRE has unveiled the latest version of ATT&CK, with the most significant changes in the defensive part of the framework. The post MITRE Unveils ATT&CK v18 With Updates to Detections, Mobile, ICS appeared first on SecurityWeek.",
       "source": "securityweek.com"
-    },
-    {
-      "title": "Google Unveils Guide for Defenders to Monitor Privileged User Accounts",
-      "link": "https://cybersecuritynews.com/googles-guide-for-defenders/",
-      "date": "2025-10-29T13:24:43Z",
-      "description": "In response to escalating threats of credential theft, Google, through its Mandiant cybersecurity division, has unveiled a detailed guide to help defenders monitor and secure privileged accounts across modern IT environments. This resource emphasizes practical strategies to mitigate risks posed by stolen credentials, which accounted for 16% of intrusions in 2024, according to Mandiant’s M-Trends…",
-      "source": "cybersecuritynews.com"
     },
     {
       "title": "AI Security Firm Polygraf Raises $9.5 Million in Seed Funding",
@@ -106,20 +127,6 @@
       "date": "2025-10-29T10:41:52Z",
       "description": "Japan’s Dentsu has disclosed a Merkle data breach impacting clients, suppliers, and employees. The post Ad and PR Giant Dentsu Says Hackers Stole Merkle Data appeared first on SecurityWeek.",
       "source": "securityweek.com"
-    },
-    {
-      "title": "10 npm Packages Caught Stealing Developer Credentials on Windows, macOS, and Linux",
-      "link": "https://thehackernews.com/2025/10/10-npm-packages-caught-stealing.html",
-      "date": "2025-10-29T08:34:00Z",
-      "description": "Cybersecurity researchers have discovered a set of 10 malicious npm packages that are designed to deliver an information stealer targeting Windows, Linux, and macOS systems. \"The malware uses four layers of obfuscation to hide its payload, displays a fake CAPTCHA to appear legitimate, fingerprints victims by IP address, and downloads a 24MB PyInstaller-packaged information stealer that harvests",
-      "source": "thehackernews.com"
-    },
-    {
-      "title": "Active Exploits Hit Dassault and XWiki — CISA Confirms Critical Flaws Under Attack",
-      "link": "https://thehackernews.com/2025/10/active-exploits-hit-dassault-and-xwiki.html",
-      "date": "2025-10-29T07:44:00Z",
-      "description": "Threat actors are actively exploiting multiple security flaws impacting Dassault Systèmes DELMIA Apriso and XWiki, according to alerts issued by the U.S. Cybersecurity and Infrastructure Security Agency (CISA) and VulnCheck. The vulnerabilities are listed below - CVE-2025-6204 (CVSS score: 8.0) - A code injection vulnerability in Dassault Systèmes DELMIA Apriso that could allow an attacker to",
-      "source": "thehackernews.com"
     },
     {
       "title": "Cybersecurity Firms See Surge in AI-Powered Attacks Across Africa",
@@ -175,13 +182,6 @@
       "link": "https://www.darkreading.com/cybersecurity-operations/chef-ciso-empathy-first-cybersecurity-leadership",
       "date": "2025-10-28T20:51:11Z",
       "description": "Myke Lyons, CISO at data-processing SaaS company Cribl, shares how he cooked up an unconventional journey from culinary school to cybersecurity leadership.",
-      "source": "darkreading.com"
-    },
-    {
-      "title": "YouTube Ghost Network Utilizes Spooky Tactics to Target Users",
-      "link": "https://www.darkreading.com/cyberattacks-data-breaches/youtube-ghost-network-target-users",
-      "date": "2025-10-28T20:22:39Z",
-      "description": "The malware operation uses compromised accounts and bot networks to distribute infostealers and has tripled its output in 2025.",
       "source": "darkreading.com"
     },
     {
