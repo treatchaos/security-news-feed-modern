@@ -1,7 +1,37 @@
 {
   "date": "2025-10-29",
-  "count": 12,
+  "count": 16,
   "items": [
+    {
+      "id": "9f7b53075f0a05c6aceaceddbc492436540f8a45",
+      "title": "Google Wear OS Message App Vulnerability Let Any Installed App To Send SMS Behalf Of User",
+      "link": "https://cybersecuritynews.com/google-wear-os-message-app-vulnerability/",
+      "date": "2025-10-29T08:58:15Z",
+      "description": "A vulnerability in Google Messages on Wear OS devices allows any installed app to silently send SMS, MMS, or RCS messages on behalf of the user. Dubbed CVE-2025-12080, the issue stems from improper handling of ACTION_SENDTO intents using URI schemes like sms:, smsto:, mms:, and mmsto:. This misconfiguration bypasses user confirmation and permission checks, enabling […] The post Google Wear OS…",
+      "source": "cybersecuritynews.com",
+      "first_seen": "2025-10-29T09:12:02Z",
+      "last_seen": "2025-10-29T09:12:02Z"
+    },
+    {
+      "id": "69964572f371a908be06ab8841068836adce910b",
+      "title": "New Beast Ransomware Actively Scans for Active SMB Port from Breached System to Spread Across Network",
+      "link": "https://cybersecuritynews.com/new-beast-ransomware-actively-scans-for-active-smb-port/",
+      "date": "2025-10-29T08:48:53Z",
+      "description": "The Beast ransomware group has emerged as a significant threat in the cybersecurity landscape, evolving from the Monster ransomware strain to establish itself as a formidable Ransomware-as-a-Service operation. Officially launched in February 2025, the group rapidly expanded their infrastructure by deploying a Tor-based data leak site in July, solidifying their presence in the underground…",
+      "source": "cybersecuritynews.com",
+      "first_seen": "2025-10-29T09:12:02Z",
+      "last_seen": "2025-10-29T09:12:02Z"
+    },
+    {
+      "id": "54c96c7eb0ea68cbb0bb4dfb1e06e13f4000a06b",
+      "title": "CISA Warns of Exploited DELMIA Factory Software Vulnerabilities",
+      "link": "https://www.securityweek.com/cisa-warns-of-exploited-delmia-factory-software-vulnerabilities/",
+      "date": "2025-10-29T08:24:31Z",
+      "description": "Two DELMIA Apriso flaws can be chained together to gain privileged access to the application and execute arbitrary code remotely. The post CISA Warns of Exploited DELMIA Factory Software Vulnerabilities appeared first on SecurityWeek.",
+      "source": "securityweek.com",
+      "first_seen": "2025-10-29T09:12:02Z",
+      "last_seen": "2025-10-29T09:12:02Z"
+    },
     {
       "id": "c7b8a2aa7e7dc7c874570dc18e4ea66f89565fb6",
       "title": "Microsoft Sued for Allegedly Misleading Millions to Subscribe for Microsoft 365 Subscriptions",
@@ -10,7 +40,7 @@
       "description": "Australia’s competition regulator has filed legal proceedings against Microsoft for allegedly misleading approximately 2.7 million Australian consumers regarding subscription options and pricing for Microsoft 365 plans. The Australian Competition and Consumer Commission claims that Microsoft deliberately concealed the availability of cheaper alternative plans when integrating its AI assistant…",
       "source": "cybersecuritynews.com",
       "first_seen": "2025-10-29T08:15:42Z",
-      "last_seen": "2025-10-29T08:15:42Z"
+      "last_seen": "2025-10-29T09:12:02Z"
     },
     {
       "id": "839f23b94b6944152bb448c532f7f81bb2c2c1bc",
@@ -20,7 +50,7 @@
       "description": "A critical vulnerability in Magento, the popular e-commerce platform, is now rebranded as Adobe Commerce. Dubbed SessionReaper and tracked as CVE-2025-54236, this improper input validation flaw allows attackers to hijack user sessions and, in some cases, execute malicious code remotely. The discovery highlights the ongoing risks to online retailers, with over 250 Magento stores reportedly […]…",
       "source": "cybersecuritynews.com",
       "first_seen": "2025-10-29T08:15:42Z",
-      "last_seen": "2025-10-29T08:15:42Z"
+      "last_seen": "2025-10-29T09:12:02Z"
     },
     {
       "id": "70918e4574878d5a3311aecb6efb088e58c187b9",
@@ -30,7 +60,17 @@
       "description": "Intel and AMD have published advisories after academics disclosed details of the new TEE.fail attack method. The post New Attack Targets DDR5 Memory to Steal Keys From Intel and AMD TEEs appeared first on SecurityWeek.",
       "source": "securityweek.com",
       "first_seen": "2025-10-29T08:15:42Z",
-      "last_seen": "2025-10-29T08:15:42Z"
+      "last_seen": "2025-10-29T09:12:02Z"
+    },
+    {
+      "id": "bf333d5c99776c3662f91fc2a46b864bf672c7a7",
+      "title": "Active Exploits Hit Dassault and XWiki — CISA Confirms Critical Flaws Under Attack",
+      "link": "https://thehackernews.com/2025/10/active-exploits-hit-dassault-and-xwiki.html",
+      "date": "2025-10-29T07:44:00Z",
+      "description": "Threat actors are actively exploiting multiple security flaws impacting Dassault Systèmes DELMIA Apriso and XWiki, according to alerts issued by the U.S. Cybersecurity and Infrastructure Security Agency (CISA) and VulnCheck. The vulnerabilities are listed below - CVE-2025-6204 (CVSS score: 8.0) - A code injection vulnerability in Dassault Systèmes DELMIA Apriso that could allow an attacker to",
+      "source": "thehackernews.com",
+      "first_seen": "2025-10-29T09:12:02Z",
+      "last_seen": "2025-10-29T09:12:02Z"
     },
     {
       "id": "20851035be608a74930177690f51e57d03c97366",
@@ -40,7 +80,7 @@
       "description": "Microsoft has issued a critical security update for ASP.NET Core to address CVE-2025-55315, a high-severity flaw that enables HTTP request smuggling and could allow attackers to bypass key security controls. Disclosed on October 14, 2025, this vulnerability has a CVSS v3.1 score of 9.9, making it one of the most severe issues ever reported in […] The post Microsoft Details ASP.NET Vulnerability…",
       "source": "cybersecuritynews.com",
       "first_seen": "2025-10-29T08:15:42Z",
-      "last_seen": "2025-10-29T08:15:42Z"
+      "last_seen": "2025-10-29T09:12:02Z"
     },
     {
       "id": "50f6307dc6ac661af75f0f1b3a3d4fa362bc209c",
@@ -60,7 +100,7 @@
       "description": "Africa becomes a proving ground for AI-driven phishing, deepfakes, and impersonation, with attackers testing techniques against governments and enterprises.",
       "source": "darkreading.com",
       "first_seen": "2025-10-29T06:17:22Z",
-      "last_seen": "2025-10-29T08:15:42Z"
+      "last_seen": "2025-10-29T09:12:02Z"
     },
     {
       "id": "ab22a63682f6e5803bf81e0a880a17e5f8ad64c9",
@@ -70,7 +110,7 @@
       "description": "The post Critical strongSwan Heap Overflow in EAP-MSCHAPv2 Plugin Allows Remote Code Execution appeared first on Daily CyberSecurity.",
       "source": "securityonline.info",
       "first_seen": "2025-10-29T05:11:56Z",
-      "last_seen": "2025-10-29T08:15:42Z"
+      "last_seen": "2025-10-29T09:12:02Z"
     },
     {
       "id": "4c084dca07b4bc4142820e92a8ef07323a70c19d",
@@ -120,7 +160,7 @@
       "description": "​​Microsoft has released the KB5067036 preview cumulative update for Windows 11 24H2 and 25H2, which begins the rollout of the Administrator Protection cybersecurity feature and an updated Start Menu. [...]",
       "source": "bleepingcomputer.com",
       "first_seen": "2025-10-29T00:53:56Z",
-      "last_seen": "2025-10-29T08:15:42Z"
+      "last_seen": "2025-10-29T09:12:02Z"
     }
   ]
 }
