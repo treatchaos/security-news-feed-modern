@@ -1,7 +1,21 @@
 {
-  "last_updated": "2025-10-30T16:14:05Z",
+  "last_updated": "2025-10-30T17:10:25Z",
   "count": 40,
   "items": [
+    {
+      "title": "Ex-L3Harris exec guilty of selling cyber exploits to Russian broker",
+      "link": "https://www.bleepingcomputer.com/news/security/ex-l3harris-exec-guilty-of-selling-cyber-exploits-to-russian-broker/",
+      "date": "2025-10-30T16:43:51Z",
+      "description": "Peter Williams, a former general manager at U.S. defense contractor L3Harris Trenchant, has pleaded guilty in U.S. District Court to stealing and selling confidential cybersecurity information to a Russian vulnerability exploit broker. [...]",
+      "source": "bleepingcomputer.com"
+    },
+    {
+      "title": "RediShell RCE Vulnerability Exposes 8,500+ Redis Instances to Code Execution Attacks",
+      "link": "https://cybersecuritynews.com/redishell-rce-vulnerability-exposes-8500-redis/",
+      "date": "2025-10-30T16:35:56Z",
+      "description": "The cybersecurity landscape faced a critical threat in early October 2025 with the public disclosure of RediShell, a severe use-after-free vulnerability in Redis’s Lua scripting engine. Identified as CVE-2025-49844 and dubbed “RediShell” by Wiz researchers, this flaw enables attackers to escape the Lua sandbox restrictions and achieve host-level remote code execution on vulnerable systems. The…",
+      "source": "cybersecuritynews.com"
+    },
     {
       "title": "CISA and NSA share tips on securing Microsoft Exchange servers",
       "link": "https://www.bleepingcomputer.com/news/security/cisa-and-nsa-share-tips-on-securing-microsoft-exchange-servers/",
@@ -56,13 +70,6 @@
       "link": "https://cybersecuritynews.com/multiple-jenkins-vulnerability/",
       "date": "2025-10-30T13:44:02Z",
       "description": "The Jenkins project released Security Advisory 2025-10-29 on October 28, 2025, disclosing multiple vulnerabilities across 13 plugins that power the popular open-source automation server. These flaws range from high-severity authentication bypasses to permission misconfigurations and credential exposures, potentially exposing enterprise CI/CD pipelines to unauthorized access and code execution.…",
-      "source": "cybersecuritynews.com"
-    },
-    {
-      "title": "Critical Vulnerability in Chromium’s Blink Let Attackers Crash Chromium-based Browsers Within Seconds",
-      "link": "https://cybersecuritynews.com/chromium-blink-vulnerability/",
-      "date": "2025-10-30T13:32:31Z",
-      "description": "Security researcher Jofpin has disclosed “Brash,” a critical flaw in Google’s Blink rendering engine that enables attackers to crash Chromium-based browsers almost instantly. Affecting billions of users worldwide, this architectural weakness exploits unchecked updates to the document.title API, overwhelming the browser’s main thread and triggering system-wide denial of service without…",
       "source": "cybersecuritynews.com"
     },
     {
@@ -134,13 +141,6 @@
       "date": "2025-10-30T06:00:00Z",
       "description": "A school for the Iranian state hackers of tomorrow has itself, ironically, been hacked.",
       "source": "darkreading.com"
-    },
-    {
-      "title": "Malicious NPM packages fetch infostealer for Windows, Linux, macOS",
-      "link": "https://www.bleepingcomputer.com/news/security/malicious-npm-packages-fetch-infostealer-for-windows-linux-macos/",
-      "date": "2025-10-29T23:16:10Z",
-      "description": "Ten malicious packages mimicking legitimate software projects in the npm registry download an information-stealing component that collects sensitive data from Windows, Linux, and macOS systems. [...]",
-      "source": "bleepingcomputer.com"
     },
     {
       "title": "Malicious NPM Packages Disguised With 'Invisible' Dependencies",
