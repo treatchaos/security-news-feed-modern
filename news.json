@@ -1,13 +1,55 @@
 {
-  "last_updated": "2025-10-30T17:10:25Z",
+  "last_updated": "2025-10-30T18:15:26Z",
   "count": 40,
   "items": [
+    {
+      "title": "New Agent-Aware Cloaking Leverages OpenAI ChatGPT Atlas Browser to Deliver Fake Content",
+      "link": "https://cybersecuritynews.com/agent-aware-cloaking-chatgpt-atlas/",
+      "date": "2025-10-30T18:05:02Z",
+      "description": "A new agent-aware cloaking technique uses AI browsers like OpenAI’s ChatGPT Atlas to deliver misleading content. This method allows malicious actors to poison the information AI systems ingest, potentially manipulating decisions in hiring, commerce, and reputation management. By detecting AI crawlers through user-agent headers, websites can deliver altered pages that appear benign to humans but…",
+      "source": "cybersecuritynews.com"
+    },
+    {
+      "title": "WhatsApp adds passwordless chat backups on iOS and Android",
+      "link": "https://www.bleepingcomputer.com/news/security/whatsapp-adds-passwordless-chat-backups-on-ios-and-android/",
+      "date": "2025-10-30T18:02:49Z",
+      "description": "WhatsApp is rolling out passkey-encrypted backups for iOS and Android devices, enabling users to encrypt their chat history using their fingerprint, face, or a screen lock code. [...]",
+      "source": "bleepingcomputer.com"
+    },
+    {
+      "title": "New Windows-Based Airstalk Malware Employs Multi-Threaded C2 Communication to Steal Logins",
+      "link": "https://cybersecuritynews.com/new-windows-based-airstalk-malware/",
+      "date": "2025-10-30T17:58:52Z",
+      "description": "A newly discovered Windows malware family named Airstalk has emerged as a sophisticated threat capable of exfiltrating sensitive browser credentials through an innovative covert command-and-control channel. Available in PowerShell and .NET variants, this malware demonstrates advanced capabilities including multi-threaded communications, versioning, and the misuse of legitimate mobile device…",
+      "source": "cybersecuritynews.com"
+    },
+    {
+      "title": "700+ Malicious Android Apps Abusing NFC Relay to Exfiltrate Banking Login Credentials",
+      "link": "https://cybersecuritynews.com/700-malicious-android-apps-abusing-nfc-relay/",
+      "date": "2025-10-30T17:23:45Z",
+      "description": "A sophisticated malware campaign exploiting Near Field Communication technology on Android devices has expanded dramatically since its emergence in April 2024. What began as isolated incidents has escalated into a widespread threat, with over 760 malicious applications now circulating in the wild. These malicious apps abuse NFC and Host Card Emulation capabilities to illegally capture […] The…",
+      "source": "cybersecuritynews.com"
+    },
+    {
+      "title": "Google's Built-In AI Defenses on Android Now Block 10 Billion Scam Messages a Month",
+      "link": "https://thehackernews.com/2025/10/googles-built-in-ai-defenses-on-android.html",
+      "date": "2025-10-30T17:00:00Z",
+      "description": "Google on Thursday revealed that the scam defenses built into Android safeguard users around the world from more than 10 billion suspected malicious calls and messages every month. The tech giant also said it has blocked over 100 million suspicious numbers from using Rich Communication Services (RCS), an evolution of the SMS protocol, thereby preventing scams before they could even be sent. In",
+      "source": "thehackernews.com"
+    },
     {
       "title": "Ex-L3Harris exec guilty of selling cyber exploits to Russian broker",
       "link": "https://www.bleepingcomputer.com/news/security/ex-l3harris-exec-guilty-of-selling-cyber-exploits-to-russian-broker/",
       "date": "2025-10-30T16:43:51Z",
       "description": "Peter Williams, a former general manager at U.S. defense contractor L3Harris Trenchant, has pleaded guilty in U.S. District Court to stealing and selling confidential cybersecurity information to a Russian vulnerability exploit broker. [...]",
       "source": "bleepingcomputer.com"
+    },
+    {
+      "title": "Russian Ransomware Gangs Weaponize Open-Source AdaptixC2 for Advanced Attacks",
+      "link": "https://thehackernews.com/2025/10/russian-ransomware-gangs-weaponize-open.html",
+      "date": "2025-10-30T16:40:00Z",
+      "description": "The open-source command-and-control (C2) framework known as AdaptixC2 is being used by a growing number of threat actors, some of whom are related to Russian ransomware gangs. AdaptixC2 is an emerging extensible post-exploitation and adversarial emulation framework designed for penetration testing. While the server component is written in Golang, the GUI Client is written in C++ QT for",
+      "source": "thehackernews.com"
     },
     {
       "title": "RediShell RCE Vulnerability Exposes 8,500+ Redis Instances to Code Execution Attacks",
@@ -38,13 +80,6 @@
       "source": "securityweek.com"
     },
     {
-      "title": "New Malware Targeting WooCommerce Sites with Malicious Plugins Steals Credit Card Data",
-      "link": "https://cybersecuritynews.com/new-malware-targeting-woocommerce-sites/",
-      "date": "2025-10-30T14:58:23Z",
-      "description": "A sophisticated malware campaign has emerged targeting WordPress e-commerce sites, particularly those leveraging the WooCommerce plugin to process customer transactions. The threat, discovered in August 2025, demonstrates advanced evasion capabilities combined with multi-tiered credit card harvesting mechanisms designed to bypass conventional security detection methods. The malware operates as a…",
-      "source": "cybersecuritynews.com"
-    },
-    {
       "title": "New \"Brash\" Exploit Crashes Chromium Browsers Instantly with a Single Malicious URL",
       "link": "https://thehackernews.com/2025/10/new-brash-exploit-crashes-chromium.html",
       "date": "2025-10-30T14:45:00Z",
@@ -52,25 +87,11 @@
       "source": "thehackernews.com"
     },
     {
-      "title": "12 Malicious Extension in VSCode Marketplace Steal Source Code and Exfiltrate Login Credentials",
-      "link": "https://cybersecuritynews.com/12-malicious-extension-in-vscode-marketplace/",
-      "date": "2025-10-30T14:21:56Z",
-      "description": "A recent discovery has shaken the Visual Studio Code (VSCode) ecosystem, unveiling a sophisticated supply chain attack targeting developers worldwide. At least a dozen malicious extensions were identified in the official VSCode Marketplace, with four remaining active as of the time of reporting. These plugins, some disguised as legitimate productivity tools, infiltrated developer environments,…",
-      "source": "cybersecuritynews.com"
-    },
-    {
       "title": "Rethinking identity security in the age of autonomous AI agents",
       "link": "https://www.bleepingcomputer.com/news/security/rethinking-identity-security-in-the-age-of-autonomous-ai-agents/",
       "date": "2025-10-30T14:00:10Z",
       "description": "AI agents now make decisions and access systems on their own, creating identity blind spots traditional tools can't see. Learn how Token Security brings identity-first security to agentic AI — making every agent verified, owned, and accountable. [...]",
       "source": "bleepingcomputer.com"
-    },
-    {
-      "title": "Multiple Jenkins Vulnerability SAML Authentication Bypass And MCP Server Plugin Permissions",
-      "link": "https://cybersecuritynews.com/multiple-jenkins-vulnerability/",
-      "date": "2025-10-30T13:44:02Z",
-      "description": "The Jenkins project released Security Advisory 2025-10-29 on October 28, 2025, disclosing multiple vulnerabilities across 13 plugins that power the popular open-source automation server. These flaws range from high-severity authentication bypasses to permission misconfigurations and credential exposures, potentially exposing enterprise CI/CD pipelines to unauthorized access and code execution.…",
-      "source": "cybersecuritynews.com"
     },
     {
       "title": "Reflectiz Raises $22 Million for Website Security Solution",
@@ -108,13 +129,6 @@
       "source": "thehackernews.com"
     },
     {
-      "title": "Microsoft promises more Copilot features in Microsoft 365 companion apps",
-      "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-promises-more-copilot-features-in-microsoft-365-companion-apps/",
-      "date": "2025-10-30T11:42:03Z",
-      "description": "Microsoft 365 companion apps will be getting more Copilot features in the coming weeks. [...]",
-      "source": "bleepingcomputer.com"
-    },
-    {
       "title": "Canada Says Hackers Tampered With ICS at Water Facility, Oil and Gas Firm",
       "link": "https://www.securityweek.com/canada-says-hackers-tampered-with-ics-at-water-facility-oil-and-gas-firm/",
       "date": "2025-10-30T11:36:39Z",
@@ -126,13 +140,6 @@
       "link": "https://thehackernews.com/2025/10/threatsday-bulletin-dns-poisoning-flaw.html",
       "date": "2025-10-30T10:54:00Z",
       "description": "The comfort zone in cybersecurity is gone. Attackers are scaling down, focusing tighter, and squeezing more value from fewer, high-impact targets. At the same time, defenders face growing blind spots — from spoofed messages to large-scale social engineering. This week’s findings show how that shrinking margin of safety is redrawing the threat landscape. Here’s what’s",
-      "source": "thehackernews.com"
-    },
-    {
-      "title": "PhantomRaven Malware Found in 126 npm Packages Stealing GitHub Tokens From Devs",
-      "link": "https://thehackernews.com/2025/10/phantomraven-malware-found-in-126-npm.html",
-      "date": "2025-10-30T10:16:00Z",
-      "description": "Cybersecurity researchers have uncovered yet another active software supply chain attack campaign targeting the npm registry with over 100 malicious packages that can steal authentication tokens, CI/CD secrets, and GitHub credentials from developers' machines. The campaign has been codenamed PhantomRaven by Koi Security. The activity is assessed to have begun in August 2025, when the first",
       "source": "thehackernews.com"
     },
     {
@@ -169,13 +176,6 @@
       "date": "2025-10-29T17:49:44Z",
       "description": "Firms using Azure infrastructure gained a reprieve from a security-focused switch that could have broken apps that relied on public Internet access.",
       "source": "darkreading.com"
-    },
-    {
-      "title": "Experts Reports Sharp Increase in Automated Botnet Attacks Targeting PHP Servers and IoT Devices",
-      "link": "https://thehackernews.com/2025/10/experts-reports-sharp-increase-in.html",
-      "date": "2025-10-29T15:38:00Z",
-      "description": "Cybersecurity researchers are calling attention to a spike in automated attacks targeting PHP servers, IoT devices, and cloud gateways by various botnets such as Mirai, Gafgyt, and Mozi. \"These automated campaigns exploit known CVE vulnerabilities and cloud misconfigurations to gain control over exposed systems and expand botnet networks,\" the Qualys Threat Research Unit (TRU) said in a report",
-      "source": "thehackernews.com"
     },
     {
       "title": "ZDI-CAN-27594: Progress Software",
