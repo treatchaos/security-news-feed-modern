@@ -1,13 +1,48 @@
 {
-  "last_updated": "2025-11-04T10:13:17Z",
-  "count": 35,
+  "last_updated": "2025-11-04T11:09:54Z",
+  "count": 40,
   "items": [
+    {
+      "title": "Apple Patches 19 WebKit Vulnerabilities",
+      "link": "https://www.securityweek.com/apple-patches-19-webkit-vulnerabilities/",
+      "date": "2025-11-04T11:07:37Z",
+      "description": "Apple has released iOS 26.1 and macOS Tahoe 26.1 with patches for over 100 vulnerabilities, including critical flaws. The post Apple Patches 19 WebKit Vulnerabilities appeared first on SecurityWeek.",
+      "source": "securityweek.com"
+    },
+    {
+      "title": "Zscaler Acquires AI Security Company SPLX",
+      "link": "https://www.securityweek.com/zscaler-acquires-ai-security-company-splx/",
+      "date": "2025-11-04T10:19:45Z",
+      "description": "SPLX red teaming, asset management, and threat inspection technology will enable Zscaler to expand its Zero Trust Exchange platform. The post Zscaler Acquires AI Security Company SPLX appeared first on SecurityWeek.",
+      "source": "securityweek.com"
+    },
+    {
+      "title": "Hackers Actively Scanning Internet to Exploit XWiki Remote Code Execution Vulnerability",
+      "link": "https://cybersecuritynews.com/xwiki-remote-code-vulnerability/",
+      "date": "2025-11-04T10:04:58Z",
+      "description": "A critical remote code execution vulnerability affecting XWiki’s SolrSearch component has become the target of widespread exploitation attempts, prompting cybersecurity authorities to add it to their watchlist. The flaw allows attackers with minimal guest privileges to execute arbitrary commands on vulnerable systems, posing a significant security risk to organizations using this open-source…",
+      "source": "cybersecuritynews.com"
+    },
+    {
+      "title": "Critical Android 0-Click Vulnerability in System Component Allows Remote Code Execution Attacks",
+      "link": "https://cybersecuritynews.com/android-0-click-rce-vulnerability/",
+      "date": "2025-11-04T09:53:50Z",
+      "description": "Google has issued a critical security alert for Android devices, highlighting a severe zero-click vulnerability in the system’s core components that could allow attackers to execute malicious code remotely without any user interaction. Disclosed in the November 2025 Android Security Bulletin, this flaw affects multiple versions of the Android Open Source Project (AOSP) and underscores […] The…",
+      "source": "cybersecuritynews.com"
+    },
     {
       "title": "Android Update Patches Critical Remote Code Execution Flaw",
       "link": "https://www.securityweek.com/android-update-patches-critical-remote-code-execution-flaw/",
       "date": "2025-11-04T09:24:31Z",
       "description": "The November 2025 Android patches resolve two vulnerabilities, both in the platform’s System component. The post Android Update Patches Critical Remote Code Execution Flaw appeared first on SecurityWeek.",
       "source": "securityweek.com"
+    },
+    {
+      "title": "Weaponized Putty and Teams Ads Deliver Malware Allowing Hackers to Access Network",
+      "link": "https://cybersecuritynews.com/weaponized-putty-and-teams-ads/",
+      "date": "2025-11-04T08:10:41Z",
+      "description": "An ongoing malicious advertising campaign is weaponizing legitimate software downloads to deploy OysterLoader malware, previously identified as Broomstick and CleanUpLoader. This sophisticated initial access tool enables cybercriminals to establish footholds in corporate networks, ultimately serving as a delivery mechanism for the notorious Rhysida ransomware gang. The Rhysida ransomware…",
+      "source": "cybersecuritynews.com"
     },
     {
       "title": "Google’s AI ‘Big Sleep’ Finds 5 New Vulnerabilities in Apple’s Safari WebKit",
@@ -36,6 +71,20 @@
       "date": "2025-11-04T05:58:00Z",
       "description": "Microsoft has disclosed details of a novel backdoor dubbed SesameOp that uses OpenAI Assistants Application Programming Interface (API) for command-and-control (C2) communications. \"Instead of relying on more traditional methods, the threat actor behind this backdoor abuses OpenAI as a C2 channel as a way to stealthily communicate and orchestrate malicious activities within the compromised",
       "source": "thehackernews.com"
+    },
+    {
+      "title": "AMD Zen 5 Processors RDSEED Vulnerability Breaks Integrity With Randomness",
+      "link": "https://cybersecuritynews.com/amd-zen-5-rdseed-vulnerability/",
+      "date": "2025-11-04T04:43:15Z",
+      "description": "AMD has disclosed a critical vulnerability affecting its Zen 5 processor lineup that compromises the reliability of random number generation, a fundamental security feature in modern computing. The flaw, tracked as CVE-2025-62626, impacts the RDSEED instruction used by systems to generate cryptographically secure random numbers essential for encryption, authentication, and other security…",
+      "source": "cybersecuritynews.com"
+    },
+    {
+      "title": "Open VSX Registry Addresses Leaked Tokens and Malicious Extensions in Wake of Security Scare",
+      "link": "https://cybersecuritynews.com/open-vsx-registry-addresses-leaked/",
+      "date": "2025-11-04T03:47:23Z",
+      "description": "The Open VSX Registry and the Eclipse Foundation have completed their investigation into a significant security incident involving exposed developer tokens and malicious extensions. The comprehensive response reveals how the platform is strengthening defenses across the entire VS Code extension ecosystem following the breach. The security incident began when researchers at Wiz identified…",
+      "source": "cybersecuritynews.com"
     },
     {
       "title": "Researcher Releases PoC Exploit for Windows Elevation of Privilege Vulnerability",
@@ -105,20 +154,6 @@
       "link": "https://www.securityweek.com/how-software-development-teams-can-securely-and-ethically-deploy-ai-tools/",
       "date": "2025-11-03T16:00:00Z",
       "description": "To deploy AI tools securely and ethically, teams must balance innovation with accountability—establishing strong governance, upskilling developers, and enforcing rigorous code reviews. The post How Software Development Teams Can Securely and Ethically Deploy AI Tools appeared first on SecurityWeek.",
-      "source": "securityweek.com"
-    },
-    {
-      "title": "CISO Burnout – Epidemic, Endemic, or Simply Inevitable?",
-      "link": "https://www.securityweek.com/ciso-burnout-epidemic-endemic-or-simply-inevitable/",
-      "date": "2025-11-03T15:00:00Z",
-      "description": "CISO burnout is increasing. Are we simply more aware of the condition? Or have demands on the CISO grown and burnout is now the inevitable result? The post CISO Burnout – Epidemic, Endemic, or Simply Inevitable? appeared first on SecurityWeek.",
-      "source": "securityweek.com"
-    },
-    {
-      "title": "Who is Zico Kolter? A Professor Leads OpenAI Safety Panel With Power to Halt Unsafe AI Releases",
-      "link": "https://www.securityweek.com/who-is-zico-kolter-a-professor-leads-openai-safety-panel-with-power-to-halt-unsafe-ai-releases/",
-      "date": "2025-11-03T14:21:49Z",
-      "description": "Kolter leads a panel at OpenAI that has the authority to halt the ChatGPT maker’s release of new AI systems if it finds them unsafe. The post Who is Zico Kolter? A Professor Leads OpenAI Safety Panel With Power to Halt Unsafe AI Releases appeared first on SecurityWeek.",
       "source": "securityweek.com"
     },
     {
