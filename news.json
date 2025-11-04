@@ -1,7 +1,49 @@
 {
-  "last_updated": "2025-11-04T13:27:40Z",
+  "last_updated": "2025-11-04T14:11:33Z",
   "count": 40,
   "items": [
+    {
+      "title": "Microsoft Entra Credentials in the Authenticator App on Jail-Broken Devices to be Wiped Out",
+      "link": "https://cybersecuritynews.com/microsoft-entra-credentials-jail-broken-devices/",
+      "date": "2025-11-04T14:00:14Z",
+      "description": "Microsoft is implementing a significant security enhancement to its Authenticator app, introducing automatic detection of jailbroken and rooted devices for Microsoft Entra credentials. Beginning in February 2026, the company will automatically delete all Microsoft Entra credentials stored on jailbroken iOS devices and rooted Android devices to prevent unauthorized access and strengthen the…",
+      "source": "cybersecuritynews.com"
+    },
+    {
+      "title": "Russian hackers abuse Hyper-V to hide malware in Linux VMs",
+      "link": "https://www.bleepingcomputer.com/news/security/russian-hackers-abuse-hyper-v-to-hide-malware-in-linux-vms/",
+      "date": "2025-11-04T14:00:00Z",
+      "description": "The Russian hacker group Curly COMrades has been abusing Microsoft's Hyper-V virtualization technology in Windows to bypass endpoint detection and response solutions by creating a hidden Alpine Linux-based virtual machine. [...]",
+      "source": "bleepingcomputer.com"
+    },
+    {
+      "title": "Hacker Conversations: Kunal Agarwal and the DNA of a Hacker",
+      "link": "https://www.securityweek.com/hacker-conversations-kunal-agarwal-and-the-dna-of-a-hacker/",
+      "date": "2025-11-04T14:00:00Z",
+      "description": "For Agarwal, being a hacker is not what you do, but who you are; that is, someone who always questions the status quo and questions how it could be different. The post Hacker Conversations: Kunal Agarwal and the DNA of a Hacker appeared first on SecurityWeek.",
+      "source": "securityweek.com"
+    },
+    {
+      "title": "SesameOp Leveraging OpenAI Assistants API for Stealthy Communication with C2 Servers",
+      "link": "https://cybersecuritynews.com/sesameop-leveraging-openai-assistants-api/",
+      "date": "2025-11-04T13:55:17Z",
+      "description": "A sophisticated new backdoor named SesameOp has emerged with a novel approach to command-and-control communications that fundamentally challenges traditional security assumptions. Discovered in July 2025 by Microsoft’s Incident Response and Detection and Response Team, this malware represents a significant shift in how threat actors exploit legitimate cloud services for covert operations. Rather…",
+      "source": "cybersecuritynews.com"
+    },
+    {
+      "title": "SesameOp Malware Abuses OpenAI API",
+      "link": "https://www.securityweek.com/sesameop-malware-abuses-openai-api/",
+      "date": "2025-11-04T13:38:23Z",
+      "description": "A component of the newly discovered SesameOp backdoor uses the API to store and relay commands from the C&C server. The post SesameOp Malware Abuses OpenAI API appeared first on SecurityWeek.",
+      "source": "securityweek.com"
+    },
+    {
+      "title": "Windows 10 update bug triggers incorrect end-of-support alerts",
+      "link": "https://www.bleepingcomputer.com/news/microsoft/windows-10-update-bug-triggers-incorrect-end-of-support-alerts/",
+      "date": "2025-11-04T13:31:05Z",
+      "description": "​Microsoft says the October 2025 updates trigger incorrect end-of-support warnings on Windows 10 systems with active security coverage or still under active support. [...]",
+      "source": "bleepingcomputer.com"
+    },
     {
       "title": "Bugcrowd Acquires Application Security Firm Mayhem",
       "link": "https://www.securityweek.com/bugcrowd-acquires-application-security-firm-mayhem/",
@@ -56,27 +98,6 @@
       "link": "https://cybersecuritynews.com/xwiki-remote-code-vulnerability/",
       "date": "2025-11-04T10:04:58Z",
       "description": "A critical remote code execution vulnerability affecting XWiki’s SolrSearch component has become the target of widespread exploitation attempts, prompting cybersecurity authorities to add it to their watchlist. The flaw allows attackers with minimal guest privileges to execute arbitrary commands on vulnerable systems, posing a significant security risk to organizations using this open-source…",
-      "source": "cybersecuritynews.com"
-    },
-    {
-      "title": "Critical Android 0-Click Vulnerability in System Component Allows Remote Code Execution Attacks",
-      "link": "https://cybersecuritynews.com/android-0-click-rce-vulnerability/",
-      "date": "2025-11-04T09:53:50Z",
-      "description": "Google has issued a critical security alert for Android devices, highlighting a severe zero-click vulnerability in the system’s core components that could allow attackers to execute malicious code remotely without any user interaction. Disclosed in the November 2025 Android Security Bulletin, this flaw affects multiple versions of the Android Open Source Project (AOSP) and underscores […] The…",
-      "source": "cybersecuritynews.com"
-    },
-    {
-      "title": "Android Update Patches Critical Remote Code Execution Flaw",
-      "link": "https://www.securityweek.com/android-update-patches-critical-remote-code-execution-flaw/",
-      "date": "2025-11-04T09:24:31Z",
-      "description": "The November 2025 Android patches resolve two vulnerabilities, both in the platform’s System component. The post Android Update Patches Critical Remote Code Execution Flaw appeared first on SecurityWeek.",
-      "source": "securityweek.com"
-    },
-    {
-      "title": "Weaponized Putty and Teams Ads Deliver Malware Allowing Hackers to Access Network",
-      "link": "https://cybersecuritynews.com/weaponized-putty-and-teams-ads/",
-      "date": "2025-11-04T08:10:41Z",
-      "description": "An ongoing malicious advertising campaign is weaponizing legitimate software downloads to deploy OysterLoader malware, previously identified as Broomstick and CleanUpLoader. This sophisticated initial access tool enables cybercriminals to establish footholds in corporate networks, ultimately serving as a delivery mechanism for the notorious Rhysida ransomware gang. The Rhysida ransomware…",
       "source": "cybersecuritynews.com"
     },
     {
@@ -141,27 +162,6 @@
       "date": "2025-11-03T19:01:15Z",
       "description": "Researchers uncovered a new threat campaign in which attackers use RMM tools to steal physical cargo out of the supply chain.",
       "source": "darkreading.com"
-    },
-    {
-      "title": "Microsoft: SesameOp malware abuses OpenAI Assistants API in attacks",
-      "link": "https://www.bleepingcomputer.com/news/security/microsoft-sesameop-malware-abuses-openai-assistants-api-in-attacks/",
-      "date": "2025-11-03T18:35:15Z",
-      "description": "Microsoft security researchers have discovered a new backdoor malware that uses the OpenAI Assistants API as a covert command-and-control channel. [...]",
-      "source": "bleepingcomputer.com"
-    },
-    {
-      "title": "US cybersecurity experts indicted for BlackCat ransomware attacks",
-      "link": "https://www.bleepingcomputer.com/news/security/us-cybersecurity-experts-indicted-for-blackcat-ransomware-attacks/",
-      "date": "2025-11-03T17:15:39Z",
-      "description": "Three former employees of cybersecurity incident response companies DigitalMint and Sygnia have been indicted for allegedly hacking the networks of five U.S. companies in BlackCat (ALPHV) ransomware attacks between May 2023 and November 2023. [...]",
-      "source": "bleepingcomputer.com"
-    },
-    {
-      "title": "Ukrainian Extradited to US Faces Charges in Jabber Zeus Cybercrime Case",
-      "link": "https://www.securityweek.com/ukrainian-extradited-to-us-faces-charges-in-jabber-zeus-cybercrime-case/",
-      "date": "2025-11-03T16:42:32Z",
-      "description": "Yuriy Igorevich Rybtsov, aka MrICQ, was arrested in Italy and lost his appeal to avoid extradition to the US. The post Ukrainian Extradited to US Faces Charges in Jabber Zeus Cybercrime Case appeared first on SecurityWeek.",
-      "source": "securityweek.com"
     },
     {
       "title": "Let's Get Physical: A New Convergence for Electrical Grid Security",
