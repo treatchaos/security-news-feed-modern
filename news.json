@@ -1,7 +1,14 @@
 {
-  "last_updated": "2025-11-03T23:10:11Z",
-  "count": 35,
+  "last_updated": "2025-11-04T00:51:46Z",
+  "count": 40,
   "items": [
+    {
+      "title": "Researcher Releases PoC Exploit for Windows Elevation of Privilege Vulnerability",
+      "link": "https://securityonline.info/researcher-releases-poc-exploit-for-windows-elevation-of-privilege-vulnerability/",
+      "date": "2025-11-04T00:12:27Z",
+      "description": "The post Researcher Releases PoC Exploit for Windows Elevation of Privilege Vulnerability appeared first on Daily CyberSecurity.",
+      "source": "securityonline.info"
+    },
     {
       "title": "Android Malware Mutes Alerts, Drains Crypto Wallets",
       "link": "https://www.darkreading.com/vulnerabilities-threats/android-malware-mutes-alerts-drains-crypto-wallets",
@@ -15,6 +22,13 @@
       "date": "2025-11-03T21:53:35Z",
       "description": "The Balancer Protocol announced that hackers had targeted its v2 pools, with losses reportedly estimated to be more than $128 million. [...]",
       "source": "bleepingcomputer.com"
+    },
+    {
+      "title": "New TruffleNet BEC Campaign Leverages AWS SES Using Stolen Credentials to Compromise 800+ Hosts",
+      "link": "https://cybersecuritynews.com/new-trufflenet-bec-campaign-leverages-aws-ses/",
+      "date": "2025-11-03T20:53:34Z",
+      "description": "Identity compromise has become one of the most significant threats facing cloud infrastructure, particularly when attackers gain access to legitimate credentials. These valid access keys enable adversaries to bypass traditional security defenses, creating opportunities for widespread exploitation. Amazon Web Services environments have witnessed a surge in such attacks, with the Simple Email…",
+      "source": "cybersecuritynews.com"
     },
     {
       "title": "Fake Solidity VSCode extension on Open VSX backdoors developers",
@@ -43,6 +57,20 @@
       "date": "2025-11-03T18:08:00Z",
       "description": "Cybersecurity researchers have flagged a new malicious extension in the Open VSX registry that harbors a remote access trojan called SleepyDuck. According to Secure Annex's John Tuckner, the extension in question, juan-bianco.solidity-vlang (version 0.0.7), was first published on October 31, 2025, as a completely benign library that was subsequently updated to version 0.0.8 on November 1 to",
       "source": "thehackernews.com"
+    },
+    {
+      "title": "Hackers Can Manipulate Claude AI APIs with Indirect Prompts to Steal User Data",
+      "link": "https://cybersecuritynews.com/claude-ai-indirect-prompt-attack/",
+      "date": "2025-11-03T17:40:07Z",
+      "description": "Hackers can exploit Anthropic’s Claude AI to steal sensitive user data. By leveraging the model’s newly added network capabilities in its Code Interpreter tool, attackers can use indirect prompt injection to extract private information, such as chat histories, and upload it directly to their own accounts. This revelation, detailed in Rehberger’s October 2025 blog post, […] The post Hackers Can…",
+      "source": "cybersecuritynews.com"
+    },
+    {
+      "title": "Microsoft Patch for WSUS Vulnerability has Broken Hotpatching on Windows Server 2025",
+      "link": "https://cybersecuritynews.com/wsus-patch-broken-hotpatching/",
+      "date": "2025-11-03T17:18:54Z",
+      "description": "In a recent setback for Windows administrators, Microsoft’s October 2025 security update addressing a critical vulnerability in Windows Server Update Services (WSUS) has inadvertently broken hotpatching functionality on a subset of Windows Server 2025 systems. The flaw, tracked as CVE-2025-59287, allows remote code execution in WSUS environments, posing significant risks to enterprise update…",
+      "source": "cybersecuritynews.com"
     },
     {
       "title": "US cybersecurity experts indicted for BlackCat ransomware attacks",
@@ -80,11 +108,25 @@
       "source": "securityweek.com"
     },
     {
+      "title": "Beware of New Phishing Attack that Abuses Cloudflare and ZenDesk Pages to Steal Logins",
+      "link": "https://cybersecuritynews.com/phishing-attack-that-abuses-cloudflare/",
+      "date": "2025-11-03T14:44:10Z",
+      "description": "A sophisticated phishing campaign has emerged, exploiting the trust placed in legitimate cloud hosting services. Threat actors are leveraging Cloudflare Pages and ZenDesk platforms to conduct large-scale credential theft operations targeting unsuspecting users. The campaign demonstrates a concerning trend where established infrastructure services become vectors for social engineering attacks.…",
+      "source": "cybersecuritynews.com"
+    },
+    {
       "title": "Who is Zico Kolter? A Professor Leads OpenAI Safety Panel With Power to Halt Unsafe AI Releases",
       "link": "https://www.securityweek.com/who-is-zico-kolter-a-professor-leads-openai-safety-panel-with-power-to-halt-unsafe-ai-releases/",
       "date": "2025-11-03T14:21:49Z",
       "description": "Kolter leads a panel at OpenAI that has the authority to halt the ChatGPT maker’s release of new AI systems if it finds them unsafe. The post Who is Zico Kolter? A Professor Leads OpenAI Safety Panel With Power to Halt Unsafe AI Releases appeared first on SecurityWeek.",
       "source": "securityweek.com"
+    },
+    {
+      "title": "New Business Email Protection Technique Blocks the Phishing Email Behind NPM Breach",
+      "link": "https://cybersecuritynews.com/new-business-email-protection-technique/",
+      "date": "2025-11-03T14:07:10Z",
+      "description": "Supply chain attacks targeting the JavaScript ecosystem have evolved into sophisticated operations combining domain manipulation with social engineering. On September 8, 2025, threat actors launched a coordinated phishing campaign aimed at compromising high-profile NPM developers. The attack successfully infiltrated the accounts of developer Josh Junon, known as “qix,” and targeted at least four…",
+      "source": "cybersecuritynews.com"
     },
     {
       "title": "Let's Get Physical: A New Convergence for Electrical Grid Security",
@@ -203,13 +245,6 @@
       "link": "https://securityonline.info/researcher-details-zero-click-rce-in-dolby-audio-decoder-affecting-android-ios-and-macos/",
       "date": "2025-10-20T00:11:20Z",
       "description": "The post Researcher Details Zero-Click RCE in Dolby Audio Decoder Affecting Android, iOS, and macOS appeared first on Daily CyberSecurity.",
-      "source": "securityonline.info"
-    },
-    {
-      "title": "Zero-Click NTLM Leak Returns: New LNK Bypass (PoC Available) Bypasses Patch, Exposing Credentials",
-      "link": "https://securityonline.info/zero-click-ntlm-leak-returns-new-lnk-bypass-poc-available-bypasses-patch-exposing-credentials/",
-      "date": "2025-10-17T00:02:38Z",
-      "description": "The post Zero-Click NTLM Leak Returns: New LNK Bypass (PoC Available) Bypasses Patch, Exposing Credentials appeared first on Daily CyberSecurity.",
       "source": "securityonline.info"
     },
     {
