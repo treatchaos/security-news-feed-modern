@@ -1,7 +1,21 @@
 {
-  "last_updated": "2025-11-10T06:18:34Z",
+  "last_updated": "2025-11-10T08:16:57Z",
   "count": 40,
   "items": [
+    {
+      "title": "Critical runc Vulnerabilities Put Docker and Kubernetes Container Isolation at Risk",
+      "link": "https://cybersecuritynews.com/runc-tool-vulnerability/",
+      "date": "2025-11-10T08:05:30Z",
+      "description": "Three critical vulnerabilities in runc, the container runtime powering Docker, Kubernetes, and other containerization platforms. These flaws could allow attackers to escape container isolation and gain root access to host systems. However, no active exploits have been detected yet. The vulnerabilities leverage race mount conditions and procfs write redirects to break out of container boundaries.…",
+      "source": "cybersecuritynews.com"
+    },
+    {
+      "title": "Monsta web-based FTP Remote Code Execution Vulnerability Exploited",
+      "link": "https://cybersecuritynews.com/monsta-ftp-remote-code-vulnerability/",
+      "date": "2025-11-10T07:38:21Z",
+      "description": "A critical remote code execution vulnerability in Monsta FTP, a popular web-based FTP client used by financial institutions and enterprises worldwide. The flaw, now tracked as CVE-2025-34299, affects multiple versions of the software and has been exploited in the wild. Monsta FTP is a browser-based file transfer client that allows users to manage files on remote […] The post Monsta web-based FTP…",
+      "source": "cybersecuritynews.com"
+    },
     {
       "title": "HackGPT: AI-Powered Penetration Testing Platform Includes GPT-4 and Other AI Engines",
       "link": "https://cybersecuritynews.com/hackgpt-ai-penetration-testing/",
@@ -64,20 +78,6 @@
       "date": "2025-11-08T14:29:00Z",
       "description": "Microsoft has disclosed details of a novel side-channel attack targeting remote language models that could enable a passive adversary with capabilities to observe network traffic to glean details about model conversation topics despite encryption protections under certain circumstances. This leakage of data exchanged between humans and streaming-mode language models could pose serious risks to",
       "source": "thehackernews.com"
-    },
-    {
-      "title": "Seven QNAP Zero-Day Vulnerabilities Exploited at Pwn2Own 2025 Now Patched",
-      "link": "https://cybersecuritynews.com/qnap-zero-day-vulnerabilities-exploited/",
-      "date": "2025-11-08T14:03:20Z",
-      "description": "QNAP has addressed seven critical zero-day vulnerabilities in its network-attached storage (NAS) operating systems, following their successful exploitation by security researchers at Pwn2Own Ireland 2025. These flaws, identified as CVE-2025-62847, CVE-2025-62848, CVE-2025-62849, and associated ZDI canonical entries ZDI-CAN-28353, ZDI-CAN-28435, ZDI-CAN-28436, enable remote code execution (RCE)…",
-      "source": "cybersecuritynews.com"
-    },
-    {
-      "title": "Google Maps Adds Feature for Businesses to Report Ransom Demands Over Reviews",
-      "link": "https://cybersecuritynews.com/google-maps-feature-ransom-demands/",
-      "date": "2025-11-08T11:22:44Z",
-      "description": "Scammers are targeting businesses with a new extortion scheme, and Google Maps is fighting back with a dedicated reporting tool. Google has introduced a feature that allows business owners to report ransom demands directly to malicious actors who threaten them with fake negative reviews. Cybercriminals have developed a sophisticated plan to extort money from businesses […] The post Google Maps…",
-      "source": "cybersecuritynews.com"
     },
     {
       "title": "'Landfall' Malware Targeted Samsung Galaxy Users",

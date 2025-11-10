@@ -1,7 +1,27 @@
 {
   "date": "2025-11-10",
-  "count": 2,
+  "count": 4,
   "items": [
+    {
+      "id": "bc1b6e9fa7cd2299ea176d02cbba898c55ad7347",
+      "title": "Critical runc Vulnerabilities Put Docker and Kubernetes Container Isolation at Risk",
+      "link": "https://cybersecuritynews.com/runc-tool-vulnerability/",
+      "date": "2025-11-10T08:05:30Z",
+      "description": "Three critical vulnerabilities in runc, the container runtime powering Docker, Kubernetes, and other containerization platforms. These flaws could allow attackers to escape container isolation and gain root access to host systems. However, no active exploits have been detected yet. The vulnerabilities leverage race mount conditions and procfs write redirects to break out of container boundaries.…",
+      "source": "cybersecuritynews.com",
+      "first_seen": "2025-11-10T08:16:57Z",
+      "last_seen": "2025-11-10T08:16:57Z"
+    },
+    {
+      "id": "431abc320fe815c9bd34e7fc4c84c1b15d6208c5",
+      "title": "Monsta web-based FTP Remote Code Execution Vulnerability Exploited",
+      "link": "https://cybersecuritynews.com/monsta-ftp-remote-code-vulnerability/",
+      "date": "2025-11-10T07:38:21Z",
+      "description": "A critical remote code execution vulnerability in Monsta FTP, a popular web-based FTP client used by financial institutions and enterprises worldwide. The flaw, now tracked as CVE-2025-34299, affects multiple versions of the software and has been exploited in the wild. Monsta FTP is a browser-based file transfer client that allows users to manage files on remote […] The post Monsta web-based FTP…",
+      "source": "cybersecuritynews.com",
+      "first_seen": "2025-11-10T08:16:57Z",
+      "last_seen": "2025-11-10T08:16:57Z"
+    },
     {
       "id": "b46899f3d8a473fc96ab1bda944560b9184c7a6b",
       "title": "HackGPT: AI-Powered Penetration Testing Platform Includes GPT-4 and Other AI Engines",
@@ -10,7 +30,7 @@
       "description": "HackGPT Enterprise is a new tool made for security teams focuses on being scalable and compliant, meeting the growing need for effective vulnerability assessments. The platform supports multi-model AI, including OpenAI’s GPT-4 and local LLMs like Ollama, enabling pattern recognition, anomaly detection, and zero-day vulnerability discovery. Developed by Yashab Alam, this cloud-native platform…",
       "source": "cybersecuritynews.com",
       "first_seen": "2025-11-10T03:44:58Z",
-      "last_seen": "2025-11-10T07:12:01Z"
+      "last_seen": "2025-11-10T08:16:57Z"
     },
     {
       "id": "d49948569df6b33d38a1df2dc059ab3e8cc68663",
@@ -20,7 +40,7 @@
       "description": "The Windows Start menu is getting its first major redesign since 2021 and will be rolled out to everyone with the November 11 Patch Tuesday update. [...]",
       "source": "bleepingcomputer.com",
       "first_seen": "2025-11-10T00:55:14Z",
-      "last_seen": "2025-11-10T07:12:01Z"
+      "last_seen": "2025-11-10T08:16:57Z"
     }
   ]
 }
