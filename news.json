@@ -1,13 +1,55 @@
 {
-  "last_updated": "2025-11-10T12:21:43Z",
+  "last_updated": "2025-11-10T13:25:36Z",
   "count": 40,
   "items": [
     {
-      "title": "Fired Intel Engineer Stolen 18,000 Files Many of which Were Classified as “Top Secret”",
+      "title": "Two New Web Application Risk Categories Added to OWASP Top 10",
+      "link": "https://www.securityweek.com/two-new-web-application-risk-categories-added-to-owasp-top-10/",
+      "date": "2025-11-10T13:21:12Z",
+      "description": "OWASP has added two new categories to the revised version of its Top 10 list of the most critical risks to web applications. The post Two New Web Application Risk Categories Added to OWASP Top 10 appeared first on SecurityWeek.",
+      "source": "securityweek.com"
+    },
+    {
+      "title": "Critical Vulnerability in Popular NPM Library Exposes AI and NLP Apps to Remote Code Execution",
+      "link": "https://cybersecuritynews.com/npm-library-vulnerability/",
+      "date": "2025-11-10T13:14:30Z",
+      "description": "A critical security flaw has been discovered in the widely used npm package expr-eval, potentially exposing AI and natural language processing applications to remote code execution attacks. The vulnerability, tracked as CVE-2025-12735, allows attackers to execute arbitrary system commands through maliciously crafted input. The expr-eval library is a JavaScript tool designed to parse and evaluate…",
+      "source": "cybersecuritynews.com"
+    },
+    {
+      "title": "LangGraph Vulnerability Allows Malicious Python Code Execution During Deserialization",
+      "link": "https://cybersecuritynews.com/langgraph-vulnerability/",
+      "date": "2025-11-10T13:10:42Z",
+      "description": "A critical remote code execution vulnerability has been discovered in LangGraph’s checkpoint serialization system. The flaw CVE-2025-64439 affects versions of langgraph-checkpoint before 3.0. It allows attackers to execute arbitrary Python code when untrusted data is deserialized. The vulnerability resides in LangGraph’s JsonPlusSerializer, the default serialization protocol used for checkpoint…",
+      "source": "cybersecuritynews.com"
+    },
+    {
+      "title": "⚡ Weekly Recap: Hyper-V Malware, Malicious AI Bots, RDP Exploits, WhatsApp Lockdown and More",
+      "link": "https://thehackernews.com/2025/11/weekly-recap-hyper-v-malware-malicious.html",
+      "date": "2025-11-10T12:51:00Z",
+      "description": "Cyber threats didn’t slow down last week—and attackers are getting smarter. We’re seeing malware hidden in virtual machines, side-channel leaks exposing AI chats, and spyware quietly targeting Android devices in the wild. But that’s just the surface. From sleeper logic bombs to a fresh alliance between major threat groups, this week’s roundup highlights a clear shift: cybercrime is evolving fast",
+      "source": "thehackernews.com"
+    },
+    {
+      "title": "GlassWorm Malware Returns to Open VSX, Emerges on GitHub",
+      "link": "https://www.securityweek.com/glassworm-malware-returns-to-open-vsx-emerges-on-github/",
+      "date": "2025-11-10T12:46:59Z",
+      "description": "Three more VS Code extensions were infected last week and the malware has emerged in GitHub repositories as well. The post GlassWorm Malware Returns to Open VSX, Emerges on GitHub appeared first on SecurityWeek.",
+      "source": "securityweek.com"
+    },
+    {
+      "title": "Fired Intel Engineer Stolen 18,000 Files, Many of which Were Classified as “Top Secret”",
       "link": "https://cybersecuritynews.com/intel-engineer-stolen-confidential-files/",
       "date": "2025-11-10T12:17:51Z",
       "description": "Intel has filed a federal lawsuit against a former employee accused of downloading thousands of classified documents shortly after being terminated, raising serious concerns about corporate data security and insider threats. Jinfeng Luo, a software developer who has worked at Intel since 2014, was based in Seattle when the company notified him of his pending […] The post Fired Intel Engineer…",
       "source": "cybersecuritynews.com"
+    },
+    {
+      "title": "New Browser Security Report Reveals Emerging Threats for Enterprises",
+      "link": "https://thehackernews.com/2025/11/new-browser-security-report-reveals.html",
+      "date": "2025-11-10T11:58:06Z",
+      "description": "According to the new Browser Security Report 2025, security leaders are discovering that most identity, SaaS, and AI-related risks converge in a single place, the user’s browser. Yet traditional controls like DLP, EDR, and SSE still operate one layer too low. What’s emerging isn’t just a blindspot. It’s a parallel threat surface: unmanaged extensions acting like supply chain implants, GenAI",
+      "source": "thehackernews.com"
     },
     {
       "title": "Nearly 30 Alleged Victims of Oracle EBS Hack Named on Cl0p Ransomware Site",
@@ -43,20 +85,6 @@
       "date": "2025-11-10T10:37:19Z",
       "description": "Australia mirrored the US’s recent sanctions against bankers, financial institutions, and others allegedly involved in laundering funds for North Korea. The post Australia Sanctions Hackers Supporting North Korea’s Weapons Program appeared first on SecurityWeek.",
       "source": "securityweek.com"
-    },
-    {
-      "title": "Elastic Defend for Windows Vulnerability Let Attackers Escalate Privileges",
-      "link": "https://cybersecuritynews.com/elastic-defend-for-windows-vulnerability/",
-      "date": "2025-11-10T10:05:34Z",
-      "description": "Elastic has disclosed a significant security vulnerability in Elastic Defend for Windows that could allow attackers to escalate their privileges on affected systems. Tracked as CVE-2025-37735 and designated as ESA-2025-23, the flaw stems from improper permission preservation within the Defend service running with SYSTEM-level privileges. The vulnerability exists in how Elastic Defend handles…",
-      "source": "cybersecuritynews.com"
-    },
-    {
-      "title": "10 Popular Black Friday Scams – How to Detect the Red Flags and Protect your wallet and Data",
-      "link": "https://cybersecuritynews.com/black-friday-scams/",
-      "date": "2025-11-10T09:59:58Z",
-      "description": "Black Friday 2025 represents the most dangerous shopping season in cybercrime history, with fraudsters leveraging artificial intelligence, deepfake technology, and sophisticated social engineering tactics to target millions of consumers globally. Recent cybersecurity research indicates that scam websites surged 89% year-over-year, while phishing attacks account for 42% of Black Friday-specific…",
-      "source": "cybersecuritynews.com"
     },
     {
       "title": "Large-Scale ClickFix Phishing Attacks Target Hotel Systems with PureRAT Malware",
@@ -134,34 +162,6 @@
       "date": "2025-11-07T20:08:51Z",
       "description": "In partnership with Emirates tech company G42, Microsoft is building the first stage of a 5-gigawatt US-UAE AI campus using Nvidia GPUs.",
       "source": "darkreading.com"
-    },
-    {
-      "title": "Samsung Mobile Flaw Exploited as Zero-Day to Deploy LANDFALL Android Spyware",
-      "link": "https://thehackernews.com/2025/11/samsung-zero-click-flaw-exploited-to.html",
-      "date": "2025-11-07T18:00:00Z",
-      "description": "A now-patched security flaw in Samsung Galaxy Android devices was exploited as a zero-day to deliver a \"commercial-grade\" Android spyware dubbed LANDFALL in targeted attacks in the Middle East. The activity involved the exploitation of CVE-2025-21042 (CVSS score: 8.8), an out-of-bounds write flaw in the \"libimagecodec.quram.so\" component that could allow remote attackers to execute arbitrary",
-      "source": "thehackernews.com"
-    },
-    {
-      "title": "In Other News: Controversial Ransomware Report, Gootloader Returns, More AN0M Arrests",
-      "link": "https://www.securityweek.com/in-other-news-controversial-ransomware-report-gootloader-returns-more-an0m-arrests/",
-      "date": "2025-11-07T16:20:49Z",
-      "description": "Other noteworthy stories that might have slipped under the radar: rogue ransomware negotiators charged, F5 hack prompts OT security guidance, Germany targets Huawei tech. The post In Other News: Controversial Ransomware Report, Gootloader Returns, More AN0M Arrests appeared first on SecurityWeek.",
-      "source": "securityweek.com"
-    },
-    {
-      "title": "From Log4j to IIS, China’s Hackers Turn Legacy Bugs into Global Espionage Tools",
-      "link": "https://thehackernews.com/2025/11/from-log4j-to-iis-chinas-hackers-turn.html",
-      "date": "2025-11-07T16:07:00Z",
-      "description": "A China-linked threat actor has been attributed to a cyber attack targeting an U.S. non-profit organization with an aim to establish long-term persistence, as part of broader activity aimed at U.S. entities that are linked to or involved in policy issues. The organization, according to a report from Broadcom's Symantec and Carbon Black teams, is \"active in attempting to influence U.S. government",
-      "source": "thehackernews.com"
-    },
-    {
-      "title": "Landfall Android Spyware Targeted Samsung Phones via Zero-Day",
-      "link": "https://www.securityweek.com/landfall-android-spyware-targeted-samsung-phones-via-zero-day/",
-      "date": "2025-11-07T15:29:34Z",
-      "description": "Threat actors exploited CVE-2025-21042 to deliver malware via specially crafted images to users in the Middle East. The post Landfall Android Spyware Targeted Samsung Phones via Zero-Day appeared first on SecurityWeek.",
-      "source": "securityweek.com"
     },
     {
       "title": "AI Agents Are Going Rogue: Here's How to Rein Them In",
