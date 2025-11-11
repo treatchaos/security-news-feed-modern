@@ -1,7 +1,67 @@
 {
   "date": "2025-11-11",
-  "count": 15,
+  "count": 21,
   "items": [
+    {
+      "id": "7381b642bfaf6d5a4fdb1321ecf613079683017a",
+      "title": "‘Whisper Leak’ LLM Side-Channel Attack Infers User Prompt Topics",
+      "link": "https://www.securityweek.com/whisper-leak-llm-side-channel-attack-infers-user-prompt-topics/",
+      "date": "2025-11-11T12:10:51Z",
+      "description": "Attackers intercepting network traffic can determine the conversation topic with a chatbot despite end-to-end encrypted communication. The post ‘Whisper Leak’ LLM Side-Channel Attack Infers User Prompt Topics appeared first on SecurityWeek.",
+      "source": "securityweek.com",
+      "first_seen": "2025-11-11T12:21:31Z",
+      "last_seen": "2025-11-11T12:21:31Z"
+    },
+    {
+      "id": "8601da2ec4697a5639db029b25f268cb4d40d70f",
+      "title": "CISO's Expert Guide To AI Supply Chain Attacks",
+      "link": "https://thehackernews.com/2025/11/cisos-expert-guide-to-ai-supply-chain.html",
+      "date": "2025-11-11T11:58:00Z",
+      "description": "AI-enabled supply chain attacks jumped 156% last year. Discover why traditional defenses are failing and what CISOs must do now to protect their organizations. Download the full CISO’s expert guide to AI Supply chain attacks here. TL;DR AI-enabled supply chain attacks are exploding in scale and sophistication - Malicious package uploads to open-source repositories jumped 156% in",
+      "source": "thehackernews.com",
+      "first_seen": "2025-11-11T12:21:31Z",
+      "last_seen": "2025-11-11T12:21:31Z"
+    },
+    {
+      "id": "81579fac4d9e95466be4ba155b96098950a03ec6",
+      "title": "Researchers Detect Malicious npm Package Targeting GitHub-Owned Repositories",
+      "link": "https://thehackernews.com/2025/11/researchers-detect-malicious-npm.html",
+      "date": "2025-11-11T11:55:00Z",
+      "description": "Cybersecurity researchers have discovered a malicious npm package named \"@acitons/artifact\" that typosquats the legitimate \"@actions/artifact\" package with the intent to target GitHub-owned repositories. \"We think the intent was to have this script execute during a build of a GitHub-owned repository, exfiltrate the tokens available to the build environment, and then use those tokens to publish",
+      "source": "thehackernews.com",
+      "first_seen": "2025-11-11T12:21:31Z",
+      "last_seen": "2025-11-11T12:21:31Z"
+    },
+    {
+      "id": "de29ce8971893c3d5740a39a96813c0c2a1813bb",
+      "title": "65% of Leading AI Companies Exposes Verified Secrets Including Keys and Tokens on GitHub",
+      "link": "https://cybersecuritynews.com/ai-companies-exposes-keys-and-tokens/",
+      "date": "2025-11-11T11:47:24Z",
+      "description": "A new security investigation reveals that 65% of prominent AI companies have leaked verified secrets on GitHub, exposing API keys, tokens, and sensitive credentials that could compromise their operations and intellectual property. The wiz research, which examined 50 leading AI companies from the Forbes AI 50 list, uncovered widespread security vulnerabilities across the industry. These […] The…",
+      "source": "cybersecuritynews.com",
+      "first_seen": "2025-11-11T12:21:31Z",
+      "last_seen": "2025-11-11T12:21:31Z"
+    },
+    {
+      "id": "b574c804338b253bde624fb79a21aa63d03bfdbb",
+      "title": "Android Trojan 'Fantasy Hub' Malware Service Turns Telegram Into a Hub for Hackers",
+      "link": "https://thehackernews.com/2025/11/android-trojan-fantasy-hub-malware.html",
+      "date": "2025-11-11T11:44:00Z",
+      "description": "Cybersecurity researchers have disclosed details of a new Android remote access trojan (RAT) called Fantasy Hub that's sold on Russian-speaking Telegram channels under a Malware-as-a-Service (MaaS) model. According to its seller, the malware enables device control and espionage, allowing threat actors to collect SMS messages, contacts, call logs, images, and videos, as well as intercept, reply,",
+      "source": "thehackernews.com",
+      "first_seen": "2025-11-11T12:21:31Z",
+      "last_seen": "2025-11-11T12:21:31Z"
+    },
+    {
+      "id": "6c585db77daac5443f039fac2d0d614e8ca50aa8",
+      "title": "WatchGuard Firebox Firewall Vulnerability Let Attackers Gain Unauthorized SSH Access",
+      "link": "https://cybersecuritynews.com/watchguard-firebox-firewall-vulnerability/",
+      "date": "2025-11-11T11:38:46Z",
+      "description": "A critical vulnerability in WatchGuard Firebox firewalls could allow attackers to gain complete administrative access to the devices without any authentication. The flaw, tracked as CVE-2025-59396, stems from insecure default configurations that expose SSH access on port 4118 using hardcoded credentials. WatchGuard Firebox appliances through September 10, 2025, ship with default SSH credentials…",
+      "source": "cybersecuritynews.com",
+      "first_seen": "2025-11-11T12:21:31Z",
+      "last_seen": "2025-11-11T12:21:31Z"
+    },
     {
       "id": "c5ebe851cbfac6df980a39d60ae305349793f4bd",
       "title": "Threat Actors Attacking Outlook and Google Bypassing Traditional Email Defenses",
@@ -10,7 +70,7 @@
       "description": "Email-based threats have reached a critical inflection point in the third quarter of 2025. Threat actors are systematically exploiting weaknesses in traditional email security defenses by targeting the world’s two largest email ecosystems: Microsoft Outlook and Google Gmail. The Q3 Email Threat Trends Report reveals that over 90 percent of phishing attacks now concentrate on […] The post Threat…",
       "source": "cybersecuritynews.com",
       "first_seen": "2025-11-11T11:09:59Z",
-      "last_seen": "2025-11-11T11:09:59Z"
+      "last_seen": "2025-11-11T12:21:31Z"
     },
     {
       "id": "d1626ce88a6e7d9138cc98504b8c98ee0fc210ea",
@@ -20,7 +80,7 @@
       "description": "The post Critical Zimbra Flaw Fixed: Patch Addresses Multiple Stored XSS and Unauthenticated LFI in Mail Client appeared first on Daily CyberSecurity.",
       "source": "securityonline.info",
       "first_seen": "2025-11-11T10:12:45Z",
-      "last_seen": "2025-11-11T11:09:59Z"
+      "last_seen": "2025-11-11T12:21:31Z"
     },
     {
       "id": "dfa126a68ddc46823b323339e500ac638305e856",
@@ -40,7 +100,7 @@
       "description": "Zoom has issued multiple security bulletins detailing patches for several vulnerabilities affecting its Workplace applications. The disclosures, published today, highlight two high-severity issues alongside medium-rated flaws, underscoring the ongoing challenges in securing video conferencing tools used by millions in hybrid work environments. These updates come as cybersecurity experts warn of…",
       "source": "cybersecuritynews.com",
       "first_seen": "2025-11-11T10:12:45Z",
-      "last_seen": "2025-11-11T11:09:59Z"
+      "last_seen": "2025-11-11T12:21:31Z"
     },
     {
       "id": "27ffe9d6952ec091b6165896c8b3f604a486cd5a",
@@ -50,7 +110,7 @@
       "description": "SAP released its monthly Security Patch Day updates, addressing 18 new security notes and providing two updates to existing ones, focusing on vulnerabilities that could enable remote code execution and various injection attacks across its product ecosystem. These patches are crucial for enterprises relying on SAP systems, as unpatched flaws could expose sensitive data and […] The post SAP…",
       "source": "cybersecuritynews.com",
       "first_seen": "2025-11-11T08:15:15Z",
-      "last_seen": "2025-11-11T11:09:59Z"
+      "last_seen": "2025-11-11T12:21:31Z"
     },
     {
       "id": "153b794e4001a6ee0d0b1d77d8f60e1b337b30c8",
@@ -90,7 +150,7 @@
       "description": "North Korean hackers from the KONNI activity cluster are abusing Google's Find Hub tool to track their targets' GPS positions and trigger remote factory resets of Android devices. [...]",
       "source": "bleepingcomputer.com",
       "first_seen": "2025-11-11T00:53:16Z",
-      "last_seen": "2025-11-11T11:09:59Z"
+      "last_seen": "2025-11-11T12:21:31Z"
     },
     {
       "id": "d2717f85c3c55f1d509dc13b70bed32e2b283f83",
@@ -100,7 +160,7 @@
       "description": "Security misconfiguration jumped to second place while injection vulnerabilities dropped, as organizations improve defenses against traditional coding flaws.",
       "source": "darkreading.com",
       "first_seen": "2025-11-11T02:27:47Z",
-      "last_seen": "2025-11-11T11:09:59Z"
+      "last_seen": "2025-11-11T12:21:31Z"
     },
     {
       "id": "664df53292fd50e8b1e7bf61d1267fe95047525f",
@@ -110,7 +170,7 @@
       "description": "2.5 million people were affected, in a breach that could spell more trouble down the line.",
       "source": "threatpost.com",
       "first_seen": "2025-11-11T10:12:45Z",
-      "last_seen": "2025-11-11T11:09:59Z"
+      "last_seen": "2025-11-11T12:21:31Z"
     },
     {
       "id": "4140c7a34b0ba94ad2e6b0cae9f59b0cb9bfffea",
@@ -120,7 +180,7 @@
       "description": "Researchers uncover a watering hole attack likely carried out by APT TA423, which attempts to plant the ScanBox JavaScript-based reconnaissance tool.",
       "source": "threatpost.com",
       "first_seen": "2025-11-11T10:12:45Z",
-      "last_seen": "2025-11-11T11:09:59Z"
+      "last_seen": "2025-11-11T12:21:31Z"
     },
     {
       "id": "9359ee40a641a4b565080313045f1d7e7fe6552b",
@@ -130,7 +190,7 @@
       "description": "Over 130 companies tangled in sprawling phishing campaign that spoofed a multi-factor authentication system.",
       "source": "threatpost.com",
       "first_seen": "2025-11-11T10:12:45Z",
-      "last_seen": "2025-11-11T11:09:59Z"
+      "last_seen": "2025-11-11T12:21:31Z"
     },
     {
       "id": "b4ccef0737cd4050d65241bf754072030b6b5e6a",
@@ -140,7 +200,7 @@
       "description": "Lockbit is by far this summer’s most prolific ransomware group, trailed by two offshoots of the Conti group.",
       "source": "threatpost.com",
       "first_seen": "2025-11-11T10:12:45Z",
-      "last_seen": "2025-11-11T11:09:59Z"
+      "last_seen": "2025-11-11T12:21:31Z"
     },
     {
       "id": "12ee113fc8fce91f6d7fb28deab2b1ad20061ec7",
@@ -150,7 +210,7 @@
       "description": "Tens of thousands of cameras have failed to patch a critical, 11-month-old CVE, leaving thousands of organizations exposed.",
       "source": "threatpost.com",
       "first_seen": "2025-11-11T10:12:45Z",
-      "last_seen": "2025-11-11T11:09:59Z"
+      "last_seen": "2025-11-11T12:21:31Z"
     }
   ]
 }
