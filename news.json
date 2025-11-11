@@ -1,13 +1,62 @@
 {
-  "last_updated": "2025-11-11T13:25:03Z",
-  "count": 35,
+  "last_updated": "2025-11-11T14:11:13Z",
+  "count": 40,
   "items": [
+    {
+      "title": "Hackers Weaponizing Calendar Files as New Attack Vector Bypassing Traditional Email Defenses",
+      "link": "https://cybersecuritynews.com/calendar-files-weaponized-as-attack-vector/",
+      "date": "2025-11-11T14:10:40Z",
+      "description": "A surge in attacks exploiting iCalendar (.ics) files as a sophisticated threat vector that bypasses traditional email security defenses. These attacks leverage the trusted, plain-text nature of calendar invitations to deliver credential phishing campaigns, malware payloads, and zero-day exploits. Over the past year, calendar-based phishing has emerged as the third most common email social…",
+      "source": "cybersecuritynews.com"
+    },
+    {
+      "title": "New Firefox Protections Halve the Number of Trackable Users",
+      "link": "https://www.securityweek.com/new-firefox-protections-halve-the-number-of-trackable-users/",
+      "date": "2025-11-11T14:00:41Z",
+      "description": "Mozilla has implemented fresh fingerprinting protections to prevent hidden trackers from identifying Firefox users. The post New Firefox Protections Halve the Number of Trackable Users appeared first on SecurityWeek.",
+      "source": "securityweek.com"
+    },
+    {
+      "title": "Bridging the Skills Gap: How Military Veterans Are Strengthening Cybersecurity",
+      "link": "https://www.darkreading.com/cybersecurity-operations/military-veterans-strengthening-cybersecurity",
+      "date": "2025-11-11T14:00:00Z",
+      "description": "From intelligence analysts to surface warfare officers, military veterans of all backgrounds are successfully pivoting to cybersecurity careers and strengthening the industry's defense capabilities.",
+      "source": "darkreading.com"
+    },
+    {
+      "title": "Weaponized NuGet Packages Inject Time-Delayed Destructive Payloads to Attack ICS Systems",
+      "link": "https://cybersecuritynews.com/weaponized-nuget-packages/",
+      "date": "2025-11-11T13:49:00Z",
+      "description": "A sophisticated supply chain attack has emerged, targeting industrial control systems through compromised .NET packages. The threat landscape shifted on November 5, 2025, when researchers identified nine malicious NuGet packages designed to inject destructive payloads into critical infrastructure environments. Published under the NuGet alias shanhai666 between 2023 and 2024, these packages…",
+      "source": "cybersecuritynews.com"
+    },
+    {
+      "title": "SAP Patches Critical Flaws in SQL Anywhere Monitor, Solution Manager",
+      "link": "https://www.securityweek.com/sap-patches-critical-flaws-in-sql-anywhere-monitor-solution-manager/",
+      "date": "2025-11-11T13:36:20Z",
+      "description": "Hardcoded credentials in SQL Anywhere Monitor could allow attackers to execute arbitrary code on vulnerable deployments. The post SAP Patches Critical Flaws in SQL Anywhere Monitor, Solution Manager appeared first on SecurityWeek.",
+      "source": "securityweek.com"
+    },
+    {
+      "title": "Zoom Workplace for Windows Vulnerability Allow Users to Escalate Privilege",
+      "link": "https://cybersecuritynews.com/zoom-workplace-for-windows-vulnerability/",
+      "date": "2025-11-11T13:25:55Z",
+      "description": "A security vulnerability has been discovered in Zoom Workplace VDI Client for Windows that could allow attackers to gain elevated privileges on affected systems. The flaw, tracked as CVE-2025-64740, has been assigned a high severity rating with a CVSS score of 7.5, according to Zoom’s security bulletin ZSB-25042. The vulnerability stems from improper verification of […] The post Zoom Workplace…",
+      "source": "cybersecuritynews.com"
+    },
     {
       "title": "CMMC Live: Pentagon Demands Verified Cybersecurity From Contractors",
       "link": "https://www.securityweek.com/cmmc-live-pentagon-demands-verified-cybersecurity-from-contractors/",
       "date": "2025-11-11T13:21:49Z",
       "description": "Enforcement of the Department of Defense’s Cybersecurity Maturity Model Certification (CMMC) requirements started on November 10, 2025. The post CMMC Live: Pentagon Demands Verified Cybersecurity From Contractors appeared first on SecurityWeek.",
       "source": "securityweek.com"
+    },
+    {
+      "title": "Devolutions Server Vulnerability Let Attackers Impersonate Users Using Pre-MFA Cookie",
+      "link": "https://cybersecuritynews.com/devolutions-server-vulnerability-pre-mfa-cookie/",
+      "date": "2025-11-11T13:20:23Z",
+      "description": "A critical vulnerability in Devolutions Server could allow attackers with low-level access to impersonate other user accounts by exploiting how the application handles authentication cookies before multi-factor authentication is completed. The security flaw, tracked as CVE-2025-12485, stems from improper privilege management during pre-MFA cookie handling. When users log in to Devolutions…",
+      "source": "cybersecuritynews.com"
     },
     {
       "title": "Honoring Our Veteran Readers: Thank You for Your Service",
@@ -36,6 +85,13 @@
       "date": "2025-11-11T11:55:00Z",
       "description": "Cybersecurity researchers have discovered a malicious npm package named \"@acitons/artifact\" that typosquats the legitimate \"@actions/artifact\" package with the intent to target GitHub-owned repositories. \"We think the intent was to have this script execute during a build of a GitHub-owned repository, exfiltrate the tokens available to the build environment, and then use those tokens to publish",
       "source": "thehackernews.com"
+    },
+    {
+      "title": "65% of Leading AI Companies Exposes Verified Secrets Including Keys and Tokens on GitHub",
+      "link": "https://cybersecuritynews.com/ai-companies-exposes-keys-and-tokens/",
+      "date": "2025-11-11T11:47:24Z",
+      "description": "A new security investigation reveals that 65% of prominent AI companies have leaked verified secrets on GitHub, exposing API keys, tokens, and sensitive credentials that could compromise their operations and intellectual property. The wiz research, which examined 50 leading AI companies from the Forbes AI 50 list, uncovered widespread security vulnerabilities across the industry. These […] The…",
+      "source": "cybersecuritynews.com"
     },
     {
       "title": "Android Trojan 'Fantasy Hub' Malware Service Turns Telegram Into a Hub for Hackers",
@@ -115,13 +171,6 @@
       "source": "bleepingcomputer.com"
     },
     {
-      "title": "Many Forbes AI 50 Companies Leak Secrets on GitHub",
-      "link": "https://www.securityweek.com/many-forbes-ai-50-companies-leak-secrets-on-github/",
-      "date": "2025-11-10T16:12:37Z",
-      "description": "Wiz found the secrets and warned that they can expose training data, organizational structures, and private models. The post Many Forbes AI 50 Companies Leak Secrets on GitHub appeared first on SecurityWeek.",
-      "source": "securityweek.com"
-    },
-    {
       "title": "ClickFix Campaign Targets Hotels, Spurs Secondary Customer Attacks",
       "link": "https://www.darkreading.com/cyberattacks-data-breaches/clickfix-targets-hotels-secondary-customer-attacks",
       "date": "2025-11-10T15:16:58Z",
@@ -129,24 +178,10 @@
       "source": "darkreading.com"
     },
     {
-      "title": "Runc Vulnerabilities Can Be Exploited to Escape Containers",
-      "link": "https://www.securityweek.com/runc-vulnerabilities-can-be-exploited-to-escape-containers/",
-      "date": "2025-11-10T14:29:39Z",
-      "description": "The flaws tracked as CVE-2025-31133, CVE-2025-52565, and CVE-2025-52881 have been patched. The post Runc Vulnerabilities Can Be Exploited to Escape Containers appeared first on SecurityWeek.",
-      "source": "securityweek.com"
-    },
-    {
       "title": "'Landfall' Malware Targets Samsung Galaxy Users",
       "link": "https://www.darkreading.com/mobile-security/landfall-malware-targeted-samsung-galaxy-users",
       "date": "2025-11-07T21:15:29Z",
       "description": "The tool let its operators secretly record conversations, track device locations, capture photos, collect contacts, and perform other surveillance on compromised devices.",
-      "source": "darkreading.com"
-    },
-    {
-      "title": "'Ransomvibing' Infests Visual Studio Extension Market",
-      "link": "https://www.darkreading.com/application-security/ransomvibing-infests-visual-studio-extension-market",
-      "date": "2025-11-07T20:36:15Z",
-      "description": "A published VS Code extension didn't hide the fact that it encrypts and exfiltrates data and also failed to remove obvious signs it was AI-generated.",
       "source": "darkreading.com"
     },
     {
