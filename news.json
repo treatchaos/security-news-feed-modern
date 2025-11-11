@@ -1,7 +1,56 @@
 {
-  "last_updated": "2025-11-11T15:11:47Z",
+  "last_updated": "2025-11-11T16:13:49Z",
   "count": 40,
   "items": [
+    {
+      "title": "GootLoader Is Back, Using a New Font Trick to Hide Malware on WordPress Sites",
+      "link": "https://thehackernews.com/2025/11/gootloader-is-back-using-new-font-trick.html",
+      "date": "2025-11-11T15:44:00Z",
+      "description": "The malware known as GootLoader has resurfaced yet again after a brief spike in activity earlier this March, according to new findings from Huntress. The cybersecurity company said it observed three GootLoader infections since October 27, 2025, out of which two resulted in hands-on keyboard intrusions with domain controller compromise taking place within 17 hours of initial infection. \"",
+      "source": "thehackernews.com"
+    },
+    {
+      "title": "New VanHelsing Ransomware RaaS Model Attacking Windows, Linux, BSD, ARM, and ESXi Systems",
+      "link": "https://cybersecuritynews.com/new-vanhelsing-ransomware-raas-model/",
+      "date": "2025-11-11T15:42:22Z",
+      "description": "VanHelsing has emerged as a sophisticated ransomware-as-a-service operation that fundamentally changes the threat landscape for organizations worldwide. First observed on March 7, 2025, this multi-platform locker represents a significant escalation in ransomware deployment strategies by providing affiliates with a streamlined service model. The operation requires a $5,000 deposit from new…",
+      "source": "cybersecuritynews.com"
+    },
+    {
+      "title": "SAP fixes hardcoded credentials flaw in SQL Anywhere Monitor",
+      "link": "https://www.bleepingcomputer.com/news/security/sap-fixes-hardcoded-credentials-flaw-in-sql-anywhere-monitor/",
+      "date": "2025-11-11T15:38:55Z",
+      "description": "SAP has released its November security updates that address multiple security vulnerabilities, including a maximum severity flaw in the non-GUI variant of the SQL Anywhere Monitor and a critical code injection issue in the Solution Manager platform. [...]",
+      "source": "bleepingcomputer.com"
+    },
+    {
+      "title": "Ivanti Endpoint Manager Vulnerabilities Let Attackers Write Arbitrary Files to Disk",
+      "link": "https://cybersecuritynews.com/ivanti-endpoint-manager-vulnerabilities/",
+      "date": "2025-11-11T15:29:17Z",
+      "description": "Ivanti has rolled out security updates for its Endpoint Manager product, addressing three high-severity vulnerabilities that could let authenticated local attackers write arbitrary files anywhere on the system disk. The flaws, if exploited, pose significant risks to enterprise environments by potentially allowing malicious code execution or data tampering. The most recent issue, tracked as…",
+      "source": "cybersecuritynews.com"
+    },
+    {
+      "title": "Critical Triofox Vulnerability Exploited in the Wild",
+      "link": "https://www.securityweek.com/critical-triofox-vulnerability-exploited-in-the-wild/",
+      "date": "2025-11-11T15:26:42Z",
+      "description": "A threat actor has exploited the issue to create a new administrator account and then used the account to execute remote access tools. The post Critical Triofox Vulnerability Exploited in the Wild appeared first on SecurityWeek.",
+      "source": "securityweek.com"
+    },
+    {
+      "title": "GlobalLogic warns 10,000 employees of data theft after Oracle breach",
+      "link": "https://www.bleepingcomputer.com/news/security/globallogic-warns-10-000-employees-of-data-theft-after-oracle-breach/",
+      "date": "2025-11-11T15:24:23Z",
+      "description": "GlobalLogic, a provider of digital engineering services part of the Hitachi group, is notifying over 10,000 current and former employees that their data was stolen in an Oracle E-Business Suite (EBS) data breach. [...]",
+      "source": "bleepingcomputer.com"
+    },
+    {
+      "title": "How a CPU spike led to uncovering a RansomHub ransomware attack",
+      "link": "https://www.bleepingcomputer.com/news/security/how-a-cpu-spike-led-to-uncovering-a-ransomhub-ransomware-attack/",
+      "date": "2025-11-11T15:01:11Z",
+      "description": "A sudden CPU spike turned out to be the first clue of an in-progress RansomHub ransomware attack. Varonis breaks down how their team traced the attack from fake browser updates to domain-admin takeover, ultimately stopping the attack before files were encrypted. [...]",
+      "source": "bleepingcomputer.com"
+    },
     {
       "title": "Android Remote Data-Wipe Malware Attacking Users Leveraging Google’s Find Hub",
       "link": "https://cybersecuritynews.com/android-remote-data-wipe-malware/",
@@ -38,25 +87,11 @@
       "source": "darkreading.com"
     },
     {
-      "title": "Weaponized NuGet Packages Inject Time-Delayed Destructive Payloads to Attack ICS Systems",
-      "link": "https://cybersecuritynews.com/weaponized-nuget-packages/",
-      "date": "2025-11-11T13:49:00Z",
-      "description": "A sophisticated supply chain attack has emerged, targeting industrial control systems through compromised .NET packages. The threat landscape shifted on November 5, 2025, when researchers identified nine malicious NuGet packages designed to inject destructive payloads into critical infrastructure environments. Published under the NuGet alias shanhai666 between 2023 and 2024, these packages…",
-      "source": "cybersecuritynews.com"
-    },
-    {
       "title": "SAP Patches Critical Flaws in SQL Anywhere Monitor, Solution Manager",
       "link": "https://www.securityweek.com/sap-patches-critical-flaws-in-sql-anywhere-monitor-solution-manager/",
       "date": "2025-11-11T13:36:20Z",
       "description": "Hardcoded credentials in SQL Anywhere Monitor could allow attackers to execute arbitrary code on vulnerable deployments. The post SAP Patches Critical Flaws in SQL Anywhere Monitor, Solution Manager appeared first on SecurityWeek.",
       "source": "securityweek.com"
-    },
-    {
-      "title": "Zoom Workplace for Windows Vulnerability Allow Users to Escalate Privilege",
-      "link": "https://cybersecuritynews.com/zoom-workplace-for-windows-vulnerability/",
-      "date": "2025-11-11T13:25:55Z",
-      "description": "A security vulnerability has been discovered in Zoom Workplace VDI Client for Windows that could allow attackers to gain elevated privileges on affected systems. The flaw, tracked as CVE-2025-64740, has been assigned a high severity rating with a CVSS score of 7.5, according to Zoom’s security bulletin ZSB-25042. The vulnerability stems from improper verification of […] The post Zoom Workplace…",
-      "source": "cybersecuritynews.com"
     },
     {
       "title": "CMMC Live: Pentagon Demands Verified Cybersecurity From Contractors",
@@ -77,13 +112,6 @@
       "link": "https://www.securityweek.com/honoring-our-veteran-readers-thank-you-for-your-service/",
       "date": "2025-11-11T13:00:00Z",
       "description": "Your dedication to service, teamwork, and resilience is woven into the very fabric of cybersecurity. The post Honoring Our Veteran Readers: Thank You for Your Service appeared first on SecurityWeek.",
-      "source": "securityweek.com"
-    },
-    {
-      "title": "‘Whisper Leak’ LLM Side-Channel Attack Infers User Prompt Topics",
-      "link": "https://www.securityweek.com/whisper-leak-llm-side-channel-attack-infers-user-prompt-topics/",
-      "date": "2025-11-11T12:10:51Z",
-      "description": "Attackers intercepting network traffic can determine the conversation topic with a chatbot despite end-to-end encrypted communication. The post ‘Whisper Leak’ LLM Side-Channel Attack Infers User Prompt Topics appeared first on SecurityWeek.",
       "source": "securityweek.com"
     },
     {
@@ -122,13 +150,6 @@
       "source": "bleepingcomputer.com"
     },
     {
-      "title": "Mozilla Firefox gets new anti-fingerprinting defenses",
-      "link": "https://www.bleepingcomputer.com/news/security/mozilla-firefox-gets-new-anti-fingerprinting-defenses/",
-      "date": "2025-11-10T22:25:55Z",
-      "description": "Mozilla announced a major privacy upgrade in Firefox 145 that reduces even more the number of users vulnerable to digital fingerprinting. [...]",
-      "source": "bleepingcomputer.com"
-    },
-    {
       "title": "OWASP Highlights Supply Chain Risks in New Top 10 List",
       "link": "https://www.darkreading.com/application-security/owasp-highlights-supply-chain-risks-new-top-10",
       "date": "2025-11-10T22:14:09Z",
@@ -143,13 +164,6 @@
       "source": "darkreading.com"
     },
     {
-      "title": "Quantum Route Redirect PhaaS targets Microsoft 365 users worldwide",
-      "link": "https://www.bleepingcomputer.com/news/security/quantum-route-redirect-phaas-targets-microsoft-365-users-worldwide/",
-      "date": "2025-11-10T21:29:03Z",
-      "description": "A new phishing automation platform named Quantum Route Redirect is using around 1,000 domains to steal Microsoft 365 users' credentials. [...]",
-      "source": "bleepingcomputer.com"
-    },
-    {
       "title": "Hackers Exploiting Triofox Flaw to Install Remote Access Tools via Antivirus Feature",
       "link": "https://thehackernews.com/2025/11/hackers-exploiting-triofox-flaw-to.html",
       "date": "2025-11-10T20:49:00Z",
@@ -157,31 +171,10 @@
       "source": "thehackernews.com"
     },
     {
-      "title": "Konni Hackers Turn Google’s Find Hub into a Remote Data-Wiping Weapon",
-      "link": "https://thehackernews.com/2025/11/konni-hackers-turn-googles-find-hub.html",
-      "date": "2025-11-10T20:29:00Z",
-      "description": "The North Korea-affiliated threat actor known as Konni (aka Earth Imp, Opal Sleet, Osmium, TA406, and Vedalia) has been attributed to a new set of attacks targeting both Android and Windows devices for data theft and remote control. \"Attackers impersonated psychological counselors and North Korean human rights activists, distributing malware disguised as stress-relief programs,\" the Genians",
-      "source": "thehackernews.com"
-    },
-    {
-      "title": "CISA orders feds to patch Samsung zero-day used in spyware attacks",
-      "link": "https://www.bleepingcomputer.com/news/security/cisa-orders-feds-to-patch-samsung-zero-day-used-in-spyware-attacks/",
-      "date": "2025-11-10T20:00:34Z",
-      "description": "CISA ordered U.S. federal agencies today to patch a critical Samsung vulnerability that has been exploited in zero-day attacks to deploy LandFall spyware on devices running WhatsApp. [...]",
-      "source": "bleepingcomputer.com"
-    },
-    {
       "title": "ClickFix Campaign Targets Hotels, Spurs Secondary Customer Attacks",
       "link": "https://www.darkreading.com/cyberattacks-data-breaches/clickfix-targets-hotels-secondary-customer-attacks",
       "date": "2025-11-10T15:16:58Z",
       "description": "Attackers compromise hospitality providers with an infostealer and RAT malware and then use stolen data to launch phishing attacks against customers via both email and WhatsApp.",
-      "source": "darkreading.com"
-    },
-    {
-      "title": "'Landfall' Malware Targets Samsung Galaxy Users",
-      "link": "https://www.darkreading.com/mobile-security/landfall-malware-targeted-samsung-galaxy-users",
-      "date": "2025-11-07T21:15:29Z",
-      "description": "The tool let its operators secretly record conversations, track device locations, capture photos, collect contacts, and perform other surveillance on compromised devices.",
       "source": "darkreading.com"
     },
     {
@@ -246,6 +239,13 @@
       "date": "2025-10-27T00:26:23Z",
       "description": "The post Ubiquiti Patches Critical CVSS 10 Flaw in UniFi Access That Exposed Management API Without Authentication appeared first on Daily CyberSecurity.",
       "source": "securityonline.info"
+    },
+    {
+      "title": "Stay Ahead with Dark Reading's Online Events",
+      "link": "https://www.darkreading.com/events/dark-reading-online-events",
+      "date": "2025-01-01T05:00:00Z",
+      "description": "",
+      "source": "darkreading.com"
     },
     {
       "title": "Student Loan Breach Exposes 2.5M Records",
