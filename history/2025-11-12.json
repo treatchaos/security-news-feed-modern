@@ -1,7 +1,37 @@
 {
   "date": "2025-11-12",
-  "count": 18,
+  "count": 21,
   "items": [
+    {
+      "id": "0f33bd7c0a45b38b758ece36829a390d643ccd9e",
+      "title": "Tor Browser 15.0.1 Released With Fix for Multiple Security Vulnerabilities",
+      "link": "https://cybersecuritynews.com/tor-browser-15-0-1-released/",
+      "date": "2025-11-12T10:04:08Z",
+      "description": "Tor Browser 15.0.1 is now available for download, bringing essential security patches and bug fixes to users across all platforms. The latest release includes critical security updates from Firefox 140.5.0esr, addressing multiple vulnerabilities that could impact browser security and user privacy. The update upgrades the Tor Browser to Firefox 140.5.0esr and includes critical security fixes […]…",
+      "source": "cybersecuritynews.com",
+      "first_seen": "2025-11-12T10:13:08Z",
+      "last_seen": "2025-11-12T10:13:08Z"
+    },
+    {
+      "id": "620789c94e360c80cb7203aaa0126ca8e541370e",
+      "title": "Authentication Coercion Attack Tricks Windows Machines into Revealing Credentials to Attack-controlled Servers",
+      "link": "https://cybersecuritynews.com/authentication-coercion-attack-tricks-windows-machines/",
+      "date": "2025-11-12T10:02:48Z",
+      "description": "Authentication coercion represents a sophisticated and evolving threat targeting Windows and Active Directory environments across organizations globally. This attack method exploits the fundamental communication mechanisms embedded within every Windows operating system, manipulating machines into automatically transmitting sensitive credentials to attacker-controlled infrastructure. The…",
+      "source": "cybersecuritynews.com",
+      "first_seen": "2025-11-12T10:13:08Z",
+      "last_seen": "2025-11-12T10:13:08Z"
+    },
+    {
+      "id": "4521a80d369fbf97b9dea09a9209ce275a126ad0",
+      "title": "ChatGPT Hacked Using Custom GPTs Exploiting SSRF Vulnerability to Expose Secrets",
+      "link": "https://cybersecuritynews.com/chatgpt-hacked-using-custom-gpts/",
+      "date": "2025-11-12T09:27:00Z",
+      "description": "A Server-Side Request Forgery (SSRF) vulnerability in OpenAI’s ChatGPT. The flaw, lurking in the Custom GPT “Actions” feature, allowed attackers to trick the system into accessing internal cloud metadata, potentially exposing sensitive Azure credentials. The bug, discovered by Open Security during casual experimentation, highlights the risks of user-controlled URL handling in AI tools. SSRF…",
+      "source": "cybersecuritynews.com",
+      "first_seen": "2025-11-12T10:13:08Z",
+      "last_seen": "2025-11-12T10:13:08Z"
+    },
     {
       "id": "24da5c56f9a3666306854aa2a2c090b20724e491",
       "title": "Google Launches 'Private AI Compute' — Secure AI Processing with On-Device-Level Privacy",
@@ -10,7 +40,7 @@
       "description": "Google on Tuesday unveiled a new privacy-enhancing technology called Private AI Compute to process artificial intelligence (AI) queries in a secure platform in the cloud. The company said it has built Private AI Compute to \"unlock the full speed and power of Gemini cloud models for AI experiences, while ensuring your personal data stays private to you and is not accessible to anyone else, not",
       "source": "thehackernews.com",
       "first_seen": "2025-11-12T09:13:23Z",
-      "last_seen": "2025-11-12T09:13:23Z"
+      "last_seen": "2025-11-12T10:13:08Z"
     },
     {
       "id": "4b383cc6accc48141d2eb9d3089fbc9dd17ca0a6",
@@ -20,7 +50,7 @@
       "description": "A newly identified Android remote access trojan (RAT) dubbed KomeX has surfaced on underground hacker forums, generating widespread concern within the cybersecurity community. Marketed by a threat actor under the alias “Gendirector,” KomeX is built atop the infamous BTMOB RAT codebase and presents a formidable arsenal of spying and device control features. Recognized for its […] The post New…",
       "source": "cybersecuritynews.com",
       "first_seen": "2025-11-12T09:13:23Z",
-      "last_seen": "2025-11-12T09:13:23Z"
+      "last_seen": "2025-11-12T10:13:08Z"
     },
     {
       "id": "de5c8c40bdd7154bc91e10231478fe4bc6ddcd27",
@@ -30,7 +60,7 @@
       "description": "An Aveva vulnerability also impacts Schneider Electric products and both vendors have published advisories. The post ICS Patch Tuesday: Vulnerabilities Addressed by Siemens, Rockwell, Aveva, Schneider appeared first on SecurityWeek.",
       "source": "securityweek.com",
       "first_seen": "2025-11-12T08:15:38Z",
-      "last_seen": "2025-11-12T09:13:23Z"
+      "last_seen": "2025-11-12T10:13:08Z"
     },
     {
       "id": "a70b39dbd322f7c4e9fe0d1c151ea15f6702a00e",
@@ -40,7 +70,7 @@
       "description": "A large-scale phishing campaign has emerged, exploiting Meta’s Business Suite to compromise credentials across thousands of small and medium-sized businesses worldwide. Check Point security researchers identified approximately 40,000 phishing emails distributed to more than 5,000 customers, primarily targeting industries including automotive, education, real estate, hospitality, and finance…",
       "source": "cybersecuritynews.com",
       "first_seen": "2025-11-12T08:15:38Z",
-      "last_seen": "2025-11-12T09:13:23Z"
+      "last_seen": "2025-11-12T10:13:08Z"
     },
     {
       "id": "db8260268044c82f517cddc200d42daf9b900dbd",
@@ -130,7 +160,7 @@
       "description": "The Rhadamanthys infostealer operation has been disrupted, with numerous \"customers\" of the malware-as-a-service reporting that they no longer have access to their servers. [...]",
       "source": "bleepingcomputer.com",
       "first_seen": "2025-11-12T00:53:06Z",
-      "last_seen": "2025-11-12T09:13:23Z"
+      "last_seen": "2025-11-12T10:13:08Z"
     },
     {
       "id": "2a0dc614a5bdfb2687c80854da6d5d41efe3c9e1",
@@ -140,7 +170,7 @@
       "description": "Cybersecurity researchers have discovered a malicious npm package named \"@acitons/artifact\" that typosquats the legitimate \"@actions/artifact\" package with the intent to target GitHub-owned repositories. \"We think the intent was to have this script execute during a build of a GitHub-owned repository, exfiltrate the tokens available to the build environment, and then use those tokens to publish",
       "source": "thehackernews.com",
       "first_seen": "2025-11-12T09:13:23Z",
-      "last_seen": "2025-11-12T09:13:23Z"
+      "last_seen": "2025-11-12T10:13:08Z"
     },
     {
       "id": "cb9b1bf501b7e148afaddd5ebfc0389b1bd9d460",
@@ -150,7 +180,7 @@
       "description": "A CVSS score 7.8 AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H severity vulnerability discovered by 'Anonymous' was reported to the affected vendor on: 2025-11-11, 0 days ago. The vendor is given until 2026-03-11 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
       "source": "zerodayinitiative.com",
       "first_seen": "2025-11-12T03:39:27Z",
-      "last_seen": "2025-11-12T09:13:23Z"
+      "last_seen": "2025-11-12T10:13:08Z"
     },
     {
       "id": "6540a28ba5ba3ef457ea67e74a6e9273f457ab3b",
@@ -160,7 +190,7 @@
       "description": "A CVSS score 7.8 AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H severity vulnerability discovered by 'Rocco Calvi (@TecR0c) with TecSecurity' was reported to the affected vendor on: 2025-11-11, 0 days ago. The vendor is given until 2026-03-11 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
       "source": "zerodayinitiative.com",
       "first_seen": "2025-11-12T03:39:27Z",
-      "last_seen": "2025-11-12T09:13:23Z"
+      "last_seen": "2025-11-12T10:13:08Z"
     },
     {
       "id": "ffac566a4901ca4c68a0ff24f463422d44febdea",
@@ -170,7 +200,7 @@
       "description": "A CVSS score 7.8 AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H severity vulnerability discovered by 'Rocco Calvi (@TecR0c) with TecSecurity' was reported to the affected vendor on: 2025-11-11, 0 days ago. The vendor is given until 2026-03-11 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
       "source": "zerodayinitiative.com",
       "first_seen": "2025-11-12T03:39:27Z",
-      "last_seen": "2025-11-12T09:13:23Z"
+      "last_seen": "2025-11-12T10:13:08Z"
     },
     {
       "id": "4a725c3bdaf4f1c8ba557972e9850add6f25a5f5",
@@ -180,7 +210,7 @@
       "description": "A CVSS score 7.8 AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H severity vulnerability discovered by 'Anonymous' was reported to the affected vendor on: 2025-11-11, 0 days ago. The vendor is given until 2026-03-11 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
       "source": "zerodayinitiative.com",
       "first_seen": "2025-11-12T03:39:27Z",
-      "last_seen": "2025-11-12T09:13:23Z"
+      "last_seen": "2025-11-12T10:13:08Z"
     }
   ]
 }
