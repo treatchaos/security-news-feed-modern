@@ -1,7 +1,56 @@
 {
-  "last_updated": "2025-11-17T12:21:42Z",
+  "last_updated": "2025-11-17T13:25:58Z",
   "count": 40,
   "items": [
+    {
+      "title": "Hackers Leverages Microsoft Entra Tenant Invitations to Launch TOAD Attacks",
+      "link": "https://cybersecuritynews.com/hackers-leverages-microsoft-entra-tenant-invitations/",
+      "date": "2025-11-17T13:06:03Z",
+      "description": "A new phishing campaign has emerged that weaponizes Microsoft Entra guest user invitations to deceive recipients into making phone calls to attackers posing as Microsoft support. The attack leverages a critical security gap in how Microsoft Entra communicates with external users, turning a legitimate collaboration feature into a delivery mechanism for sophisticated social engineering attacks.…",
+      "source": "cybersecuritynews.com"
+    },
+    {
+      "title": "CISA Warns of Fortinet FortiWeb WAF Vulnerability Exploited in the Wild to Gain Admin Access",
+      "link": "https://cybersecuritynews.com/fortiweb-waf-vulnerability-exploited-in-the-wild/",
+      "date": "2025-11-17T13:02:10Z",
+      "description": "CISA has issued an urgent alert about a critical vulnerability in Fortinet’s FortiWeb Web Application Firewall (WAF), actively exploited by threat actors to seize administrative control of affected systems. Tracked as CVE-2025-64446, the flaw stems from a relative path traversal issue (CWE-23) that enables unauthenticated attackers to execute arbitrary administrative commands through specially…",
+      "source": "cybersecuritynews.com"
+    },
+    {
+      "title": "DoorDash Says Personal Information Stolen in Data Breach",
+      "link": "https://www.securityweek.com/doordash-says-personal-information-stolen-in-data-breach/",
+      "date": "2025-11-17T13:00:21Z",
+      "description": "Names, addresses, email addresses, and phone numbers were compromised after an employee fell for a social engineering attack. The post DoorDash Says Personal Information Stolen in Data Breach appeared first on SecurityWeek.",
+      "source": "securityweek.com"
+    },
+    {
+      "title": "5 Plead Guilty in US to Helping North Korean IT Workers",
+      "link": "https://www.securityweek.com/5-plead-guilty-in-us-to-helping-north-korean-it-workers/",
+      "date": "2025-11-17T12:42:46Z",
+      "description": "Audricus Phagnasay, Jason Salazar, Alexander Paul Travis, Erick Ntekereze, and Oleksandr Didenko have pleaded guilty. The post 5 Plead Guilty in US to Helping North Korean IT Workers appeared first on SecurityWeek.",
+      "source": "securityweek.com"
+    },
+    {
+      "title": "⚡ Weekly Recap: Fortinet Exploited, China's AI Hacks, PhaaS Empire Falls & More",
+      "link": "https://thehackernews.com/2025/11/weekly-recap-fortinet-exploited-chinas.html",
+      "date": "2025-11-17T12:34:00Z",
+      "description": "This week showed just how fast things can go wrong when no one’s watching. Some attacks were silent and sneaky. Others used tools we trust every day — like AI, VPNs, or app stores — to cause damage without setting off alarms. It’s not just about hacking anymore. Criminals are building systems to make money, spy, or spread malware like it’s a business. And in some cases, they’re using the same",
+      "source": "thehackernews.com"
+    },
+    {
+      "title": "EVALUSION Campaign Using ClickFix Technique to deploy Amatera Stealer and NetSupport RAT",
+      "link": "https://cybersecuritynews.com/evalusion-campaign-using-clickfix-technique/",
+      "date": "2025-11-17T12:32:42Z",
+      "description": "In November 2025, a new malware campaign emerged that combines social engineering tricks with advanced stealing tools. The attack starts when criminals trick users into running commands through the Windows Run window, a technique known as ClickFix. Once users follow these instructions, their computers become infected with Amatera Stealer, an advanced piece of malware designed […] The post…",
+      "source": "cybersecuritynews.com"
+    },
+    {
+      "title": "Critical RCE Vulnerabilities in AI Inference Engines Exposes Meta, Nvidia and Microsoft Frameworks",
+      "link": "https://cybersecuritynews.com/ai-inference-engines-rce-vulnerabilities/",
+      "date": "2025-11-17T12:27:02Z",
+      "description": "As artificial intelligence infrastructure rapidly expands, critical security flaws threaten the backbone of enterprise AI deployments. Security researchers at Oligo Security have uncovered a series of dangerous Remote Code Execution (RCE) vulnerabilities affecting major AI frameworks from Meta, NVIDIA, Microsoft, and PyTorch projects, including vLLM and SGLang. The vulnerabilities, collectively…",
+      "source": "cybersecuritynews.com"
+    },
     {
       "title": "Iranian SpearSpecter Attacking High-Value Officials Using Personalized Social Engineering Tactics",
       "link": "https://cybersecuritynews.com/iranian-spearspecter-attacking-high-value-officials/",
@@ -10,18 +59,18 @@
       "source": "cybersecuritynews.com"
     },
     {
+      "title": "5 Reasons Why Attackers Are Phishing Over LinkedIn",
+      "link": "https://thehackernews.com/2025/11/5-reasons-why-attackers-are-phishing.html",
+      "date": "2025-11-17T11:55:00Z",
+      "description": "Phishing attacks are no longer confined to the email inbox, with 1 in 3 phishing attacks now taking place over non-email channels like social media, search engines, and messaging apps. LinkedIn in particular has become a hotbed for phishing attacks, and for good reason. Attackers are running sophisticated spear-phishing attacks against company executives, with recent campaigns seen targeting",
+      "source": "thehackernews.com"
+    },
+    {
       "title": "Dragon Breath Uses RONINGLOADER to Disable Security Tools and Deploy Gh0st RAT",
       "link": "https://thehackernews.com/2025/11/dragon-breath-uses-roningloader-to.html",
       "date": "2025-11-17T11:20:00Z",
       "description": "The threat actor known as Dragon Breath has been observed making use of a multi-stage loader codenamed RONINGLOADER to deliver a modified variant of a remote access trojan called Gh0st RAT. The campaign, which is primarily aimed at Chinese-speaking users, employs trojanized NSIS installers masquerading as legitimate like Google Chrome and Microsoft Teams, according to Elastic Security Labs. \"The",
       "source": "thehackernews.com"
-    },
-    {
-      "title": "New MobileGestalt Exploit for iOS 26.0.1 Enables Unauthorized Writes to Protected Data",
-      "link": "https://cybersecuritynews.com/mobilegestalt-exploit-ios-26-0-1/",
-      "date": "2025-11-17T11:11:07Z",
-      "description": "A sandbox escape vulnerability affecting iPhones and iPads running iOS 16.2 beta 1 or earlier versions. The proof-of-concept (POC) exploits weaknesses in the itunesstored and bookassetd daemons, enabling attackers to modify sensitive files on the device’s Data partition areas typically protected from unauthorized access. Researcher Kim shared the details in a blog post on October […] The post…",
-      "source": "cybersecuritynews.com"
     },
     {
       "title": "Logitech Confirms Data Breach Following Designation as Oracle Hack Victim",
@@ -36,27 +85,6 @@
       "date": "2025-11-17T11:06:37Z",
       "description": "The exploitation of the recent XWiki vulnerability has expanded to botnets, cryptocurrency miners, scanners, and custom tools. The post Widespread Exploitation of XWiki Vulnerability Observed appeared first on SecurityWeek.",
       "source": "securityweek.com"
-    },
-    {
-      "title": "Researchers Detailed Techniques to Detect Outlook NotDoor Backdoor Malware",
-      "link": "https://cybersecuritynews.com/techniques-to-detect-outlook-notdoor/",
-      "date": "2025-11-17T11:03:53Z",
-      "description": "Outlook NotDoor backdoor malware first appeared in threat campaigns identified by Lab52, the intelligence arm of Spanish firm S2 Grupo. Linked to APT28/Fancy Bear, NotDoor leverages malicious Outlook macros for persistent access and data theft. Attackers embed these macro payloads within Outlook’s data files to monitor incoming emails and trigger hidden code on infected systems. […] The post…",
-      "source": "cybersecuritynews.com"
-    },
-    {
-      "title": "North Korean Hackers Infiltrated 136 U.S. Companies to Generate $2.2 Million in Revenue",
-      "link": "https://cybersecuritynews.com/north-korean-hackers-infiltrated-u-s-companies/",
-      "date": "2025-11-17T10:25:15Z",
-      "description": "The U.S. Justice Department announced major actions against North Korean cybercrime, including five people admitting guilt and the government taking more than $15 million in property linked to the crimes. These operations reveal how the Democratic People’s Republic of Korea (DPRK) uses fraudulent IT workers and cryptocurrency heists to fund its weapons programs while evading […] The post North…",
-      "source": "cybersecuritynews.com"
-    },
-    {
-      "title": "Hackers Exploiting XWiki Vulnerability in the Wild to Hire the Servers for Botnet",
-      "link": "https://cybersecuritynews.com/xwiki-vulnerability-exploited-in-the-wild/",
-      "date": "2025-11-17T09:35:30Z",
-      "description": "A sharp increase in attacks targeting a critical vulnerability in XWiki servers. Multiple threat actors are actively exploiting CVE-2025-24893 to deploy botnets and coin miners, and to establish unauthorized server access across the internet. Since the initial discovery on October 28, 2025, exploitation has expanded dramatically. VulnCheck reported that multiple independent attackers are now…",
-      "source": "cybersecuritynews.com"
     },
     {
       "title": "Rust Adoption Drives Android Memory Safety Bugs Below 20% for First Time",
@@ -101,13 +129,6 @@
       "source": "bleepingcomputer.com"
     },
     {
-      "title": "Five Plead Guilty in U.S. for Helping North Korean IT Workers Infiltrate 136 Companies",
-      "link": "https://thehackernews.com/2025/11/five-us-citizens-plead-guilty-to.html",
-      "date": "2025-11-15T10:21:00Z",
-      "description": "The U.S. Department of Justice (DoJ) on Friday announced that five individuals have pleaded guilty to assisting North Korea's illicit revenue generation schemes by enabling information technology (IT) worker fraud in violation of international sanctions. The five individuals are listed below - Audricus Phagnasay, 24 Jason Salazar, 30 Alexander Paul Travis, 34 Oleksandr Didenko, 28, and Erick",
-      "source": "thehackernews.com"
-    },
-    {
       "title": "Logitech confirms data breach after Clop extortion attack",
       "link": "https://www.bleepingcomputer.com/news/security/logitech-confirms-data-breach-after-clop-extortion-attack/",
       "date": "2025-11-14T22:18:36Z",
@@ -150,32 +171,11 @@
       "source": "darkreading.com"
     },
     {
-      "title": "North Korean Hackers Turn JSON Services into Covert Malware Delivery Channels",
-      "link": "https://thehackernews.com/2025/11/north-korean-hackers-turn-json-services.html",
-      "date": "2025-11-14T18:25:00Z",
-      "description": "The North Korean threat actors behind the Contagious Interview campaign have once again tweaked their tactics by using JSON storage services to stage malicious payloads. \"The threat actors have recently resorted to utilizing JSON storage services like JSON Keeper, JSONsilo, and npoint.io to host and deliver malware from trojanized code projects, with the lure,\" NVISO researchers Bart Parys, Stef",
-      "source": "thehackernews.com"
-    },
-    {
-      "title": "CYBERCOM 2.0: Pentagon Unveils Plan to Fix Cyber Talent Shortfalls",
-      "link": "https://www.securityweek.com/cybercom-2-0-pentagon-unveils-plan-to-fix-cyber-talent-shortfalls/",
-      "date": "2025-11-14T18:03:06Z",
-      "description": "The goal is to produce a cyber force capable of defeating threats posed by major adversaries such as China. The post CYBERCOM 2.0: Pentagon Unveils Plan to Fix Cyber Talent Shortfalls appeared first on SecurityWeek.",
-      "source": "securityweek.com"
-    },
-    {
       "title": "Learning Sales Skills Can Make Security Professionals More Effective",
       "link": "https://www.darkreading.com/cybersecurity-careers/shadow-program-gives-aws-exec-new-security-lens",
       "date": "2025-11-14T17:09:17Z",
       "description": "Amazon Web Services VP Sara Duffer highlights the top lessons she brought back to her security role after taking part in Amazon's shadow program.",
       "source": "darkreading.com"
-    },
-    {
-      "title": "Watch on Demand: CISO Forum 2025 Virtual Summit",
-      "link": "https://www.securityweek.com/virtual-event-today-ciso-forum-2025-virtual-summit/",
-      "date": "2025-11-14T17:06:45Z",
-      "description": "The CISO Forum Virtual Summit brought together CISOs, researchers, and innovators to share practical insights and strategies. The post Watch on Demand: CISO Forum 2025 Virtual Summit appeared first on SecurityWeek.",
-      "source": "securityweek.com"
     },
     {
       "title": "ZDI-CAN-28190: Docker",
