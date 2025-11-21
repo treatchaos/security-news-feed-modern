@@ -1,7 +1,14 @@
 {
-  "last_updated": "2025-11-21T16:13:46Z",
-  "count": 40,
+  "last_updated": "2025-11-21T17:10:03Z",
+  "count": 35,
   "items": [
+    {
+      "title": "CrowdStrike catches insider feeding information to hackers",
+      "link": "https://www.bleepingcomputer.com/news/security/crowdstrike-catches-insider-feeding-information-to-hackers/",
+      "date": "2025-11-21T16:48:41Z",
+      "description": "American cybersecurity firm CrowdStrike has confirmed that an insider shared screenshots taken on internal systems with unnamed threat actors. [...]",
+      "source": "bleepingcomputer.com"
+    },
     {
       "title": "FCC rolls back cybersecurity rules for telcos, despite state-hacking risks",
       "link": "https://www.bleepingcomputer.com/news/security/fcc-rolls-back-cybersecurity-rules-for-telcos-despite-state-hacking-risks/",
@@ -22,13 +29,6 @@
       "date": "2025-11-21T15:40:00Z",
       "description": "Grafana has released security updates to address a maximum severity security flaw that could allow privilege escalation or user impersonation under certain configurations. The vulnerability, tracked as CVE-2025-41115, carries a CVSS score of 10.0. It resides in the System for Cross-domain Identity Management (SCIM) component that allows automated user provisioning and management. First",
       "source": "thehackernews.com"
-    },
-    {
-      "title": "Ransomware Actors Primarily Targeting Retailers This Holiday Season to Deploy Malicious Payloads",
-      "link": "https://cybersecuritynews.com/ransomware-actors-primarily-targeting-retailers/",
-      "date": "2025-11-21T15:30:18Z",
-      "description": "Retailers are facing a sharp rise in targeted ransomware activity as the holiday shopping season begins. Threat groups are timing their attacks to peak sales periods, when downtime is most painful and the pressure to pay is highest. This campaign focuses on point-of-sale networks, e‑commerce backends, and supporting IT systems that handle orders, loyalty data, […] The post Ransomware Actors…",
-      "source": "cybersecuritynews.com"
     },
     {
       "title": "In Other News: ATM Jackpotting, WhatsApp-NSO Lawsuit Continues, CISA Hiring",
@@ -94,32 +94,11 @@
       "source": "securityweek.com"
     },
     {
-      "title": "China-linked APT24 Hackers New BadAudio Compromised Legitimate Public Websites to Attack Users",
-      "link": "https://cybersecuritynews.com/china-linked-apt24-hackers-new-badaudio-compromised/",
-      "date": "2025-11-21T11:42:12Z",
-      "description": "APT24, a sophisticated cyber espionage group linked to China’s People’s Republic, has launched a relentless three-year campaign delivering BadAudio, a highly obfuscated first-stage downloader that enables persistent network access to targeted organizations. The threat actor has demonstrated remarkable adaptability by shifting from broad strategic web compromises to precision-targeted attacks…",
-      "source": "cybersecuritynews.com"
-    },
-    {
       "title": "Chinese Cyberspies Deploy ‘BadAudio’ Malware via Supply Chain Attacks",
       "link": "https://www.securityweek.com/chinese-cyberspies-deploy-badaudio-malware-via-supply-chain-attacks/",
       "date": "2025-11-21T11:36:29Z",
       "description": "APT24 has been relying on various techniques to drop the BadAudio downloader and then deploy additional payloads. The post Chinese Cyberspies Deploy ‘BadAudio’ Malware via Supply Chain Attacks appeared first on SecurityWeek.",
       "source": "securityweek.com"
-    },
-    {
-      "title": "Broadcom Allegedly Breached by Clop Ransomware via E-Business Suite 0-Day Hack",
-      "link": "https://cybersecuritynews.com/broadcom-allegedly-breached-by-clop-ransomware/",
-      "date": "2025-11-21T11:05:20Z",
-      "description": "The Cl0p ransomware group has claimed responsibility for infiltrating Broadcom’s internal systems as part of an ongoing exploitation campaign targeting Oracle E-Business Suite vulnerabilities. The hack uses a critical zero-day vulnerability (CVE-2025-61882) rated 9.8 on the CVSS scale, allowing attackers to execute arbitrary code without authentication.​ Broadcom, a major semiconductor and…",
-      "source": "cybersecuritynews.com"
-    },
-    {
-      "title": "Critical Grafana Vulnerability Let Attackers Escalate Privilege",
-      "link": "https://cybersecuritynews.com/critical-grafana-vulnerability/",
-      "date": "2025-11-21T11:01:20Z",
-      "description": "Grafana Labs has disclosed a critical security vulnerability affecting Grafana Enterprise that could allow attackers to escalate privileges and impersonate users. The flaw, tracked as CVE-2025-41115, has received the maximum CVSS score of 10.0, making it one of the most severe vulnerabilities discovered in recent times. The vulnerability exists in Grafana’s SCIM (System for Cross-domain Identity…",
-      "source": "cybersecuritynews.com"
     },
     {
       "title": "Why IT Admins Choose Samsung for Mobile Security",
@@ -134,13 +113,6 @@
       "date": "2025-11-21T10:42:00Z",
       "description": "A China-nexus threat actor known as APT24 has been observed using a previously undocumented malware dubbed BADAUDIO to establish persistent remote access to compromised networks as part of a nearly three-year campaign. \"While earlier operations relied on broad strategic web compromises to compromise legitimate websites, APT24 has recently pivoted to using more sophisticated vectors targeting",
       "source": "thehackernews.com"
-    },
-    {
-      "title": "Critical ASUSTOR Vulnerability Let Attackers Execute Malicious Code with Elevated Privileges",
-      "link": "https://cybersecuritynews.com/asustor-vulnerability-attackers-execute-malicious-code/",
-      "date": "2025-11-21T10:04:59Z",
-      "description": "A critical security vulnerability has been discovered in ASUSTOR backup and synchronization software, allowing attackers to execute malicious code with elevated system privileges. The flaw, tracked as CVE-2025-13051, affects two widely used ASUSTOR applications and poses a significant risk to users running outdated versions. The DLL Hijacking Vulnerability The vulnerability stems from a DLL…",
-      "source": "cybersecuritynews.com"
     },
     {
       "title": "SEC Drops SolarWinds Case After Years of High-Stakes Cybersecurity Scrutiny",
@@ -164,17 +136,10 @@
       "source": "darkreading.com"
     },
     {
-      "title": "Google exposes BadAudio malware used in APT24 espionage campaigns",
-      "link": "https://www.bleepingcomputer.com/news/security/google-exposes-badaudio-malware-used-in-apt24-espionage-campaigns/",
-      "date": "2025-11-20T22:12:32Z",
-      "description": "China-linked APT24 hackers have been using a previously undocumented malware called BadAudio in a three-year espionage campaign that recently switched to more sophisticated attack methods. [...]",
-      "source": "bleepingcomputer.com"
-    },
-    {
-      "title": "Chinese APT Infects Routers to Hijack Software Updates",
+      "title": "China's 'PlushDaemon' Hackers Infect Routers to Hijack Software Updates",
       "link": "https://www.darkreading.com/endpoint-security/chinese-apt-routers-hijack-software-updates",
       "date": "2025-11-20T21:20:32Z",
-      "description": "A unique take on the software update gambit has allowed \"PlushDaemon\" to evade attention as it mostly targets Chinese organizations.",
+      "description": "A unique take on the software update gambit has allowed Beijing's state-sponsored advanced persistent threat (APT) to evade attention as it mostly targets Chinese organizations.",
       "source": "darkreading.com"
     },
     {
