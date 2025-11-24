@@ -1,7 +1,47 @@
 {
   "date": "2025-11-24",
-  "count": 5,
+  "count": 9,
   "items": [
+    {
+      "id": "7fd132b458a6f9ec51bc5fe685adb1444d11f841",
+      "title": "Cox Confirms Oracle EBS Hack as Cybercriminals Name 100 Alleged Victims",
+      "link": "https://www.securityweek.com/cox-confirms-oracle-ebs-hack-as-cybercriminals-name-100-alleged-victims/",
+      "date": "2025-11-24T10:52:36Z",
+      "description": "More than 1.6 Tb of data allegedly stolen from Cox was made public by the hackers. The post Cox Confirms Oracle EBS Hack as Cybercriminals Name 100 Alleged Victims appeared first on SecurityWeek.",
+      "source": "securityweek.com",
+      "first_seen": "2025-11-24T11:10:15Z",
+      "last_seen": "2025-11-24T11:10:15Z"
+    },
+    {
+      "id": "5a0349a9464ee0c947fb57997a72a333e0280eda",
+      "title": "Microsoft: Windows 11 24H2 bug crashes Explorer and Start Menu",
+      "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-windows-11-24h2-bug-crashes-key-system-components/",
+      "date": "2025-11-24T10:41:50Z",
+      "description": "Microsoft has confirmed a critical Windows 11 24H2 bug that causes the File Explorer, the Start Menu, and other key system components to crash after installing cumulative updates released since July 2025. [...]",
+      "source": "bleepingcomputer.com",
+      "first_seen": "2025-11-24T11:10:15Z",
+      "last_seen": "2025-11-24T11:10:15Z"
+    },
+    {
+      "id": "32f9b4eea1165b8253af8da36507d81886121d53",
+      "title": "Hackers Replace ‘m’ with ‘rn’ in Microsoft(.)com to Steal Users’ Login Credentials",
+      "link": "https://cybersecuritynews.com/microsoft-phishing-replace-m-with-rn/",
+      "date": "2025-11-24T10:38:43Z",
+      "description": "A sophisticated phishing campaign is currently leveraging a subtle typographical trick to bypass user vigilance, deceiving victims into handing over sensitive login credentials. Attackers utilize the domain “rnicrosoft.com” to impersonate the tech giant. By replacing the letter ‘m’ with the combination of ‘r’ and ‘n’, fraudsters create a visual doppleganger that is nearly indistinguishable from…",
+      "source": "cybersecuritynews.com",
+      "first_seen": "2025-11-24T11:10:15Z",
+      "last_seen": "2025-11-24T11:10:15Z"
+    },
+    {
+      "id": "3b8e5617a0c331d8a86e4cc80e47bcd24c821b8a",
+      "title": "vLLM Vulnerability Enables Remote Code Execution Via Malicious Payloads",
+      "link": "https://cybersecuritynews.com/vllm-vulnerability-enables-remote-code-execution/",
+      "date": "2025-11-24T10:17:16Z",
+      "description": "A critical memory corruption vulnerability in vLLM versions 0.10.2 and later allows attackers to achieve remote code execution through the Completions API endpoint by sending maliciously crafted prompt embeddings. The vulnerability resides in the tensor deserialization process within vLLM’s entrypoints/renderer.py at line 148. When processing user-supplied prompt embeddings, the system loads…",
+      "source": "cybersecuritynews.com",
+      "first_seen": "2025-11-24T11:10:15Z",
+      "last_seen": "2025-11-24T11:10:15Z"
+    },
     {
       "id": "6d178d594697e57c5ee8f7891b4a9ee43bb7b098",
       "title": "Beware of North Korean Fake Job Platform Targeting U.S. Based AI-Developers",
@@ -10,7 +50,7 @@
       "description": "A sophisticated recruitment scam linked to North Korea has emerged, targeting American artificial intelligence developers, software engineers, and cryptocurrency professionals through an elaborate fake job platform. Validin security researchers have uncovered a new variant of what they call the “Contagious Interview” operation, designed to compromise job seekers through a seemingly legitimate…",
       "source": "cybersecuritynews.com",
       "first_seen": "2025-11-24T08:17:02Z",
-      "last_seen": "2025-11-24T10:13:31Z"
+      "last_seen": "2025-11-24T11:10:15Z"
     },
     {
       "id": "b093f041c3128fb887cd0fc7ec77b4aea021c5af",
@@ -20,7 +60,7 @@
       "description": "A concerning vulnerability in DeepSeek-R1, a Chinese-developed artificial intelligence coding assistant. When the AI model encounters politically sensitive topics related to the Chinese Communist Party, it produces code with severe security flaws at rates up to 50% higher than usual. Released in January 2025 by Chinese AI startup DeepSeek, the R1 model initially appeared comparable […] The post…",
       "source": "cybersecuritynews.com",
       "first_seen": "2025-11-24T08:17:02Z",
-      "last_seen": "2025-11-24T10:13:31Z"
+      "last_seen": "2025-11-24T11:10:15Z"
     },
     {
       "id": "654e57da3d7e3b52be3a521bb2d0a15ac96f0756",
@@ -30,7 +70,7 @@
       "description": "A recently patched security flaw in Microsoft Windows Server Update Services (WSUS) has been exploited by threat actors to distribute malware known as ShadowPad. \"The attacker targeted Windows Servers with WSUS enabled, exploiting CVE-2025-59287 for initial access,\" AhnLab Security Intelligence Center (ASEC) said in a report published last week. \"They then used PowerCat, an open-source",
       "source": "thehackernews.com",
       "first_seen": "2025-11-24T09:14:57Z",
-      "last_seen": "2025-11-24T10:13:31Z"
+      "last_seen": "2025-11-24T11:10:15Z"
     },
     {
       "id": "4807973697c051287d32ada0c0fc7db0671fc894",
@@ -40,7 +80,7 @@
       "description": "The Wireshark Foundation has rolled out a crucial security update for its widely used network protocol analyzer, addressing multiple vulnerabilities that could lead to denial-of-service conditions. The latest release, version 4.6.1, specifically targets flaws discovered in the Bundle Protocol version 7 (BPv7) and Kafka dissectors. These vulnerabilities, if left unpatched, allow attackers to…",
       "source": "cybersecuritynews.com",
       "first_seen": "2025-11-24T05:13:10Z",
-      "last_seen": "2025-11-24T10:13:31Z"
+      "last_seen": "2025-11-24T11:10:15Z"
     },
     {
       "id": "e4aa2f985b09d92042d3be65d2e81c3d7aa9e15b",
