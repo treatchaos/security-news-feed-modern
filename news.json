@@ -1,7 +1,28 @@
 {
-  "last_updated": "2025-11-25T12:22:38Z",
+  "last_updated": "2025-11-25T13:27:50Z",
   "count": 40,
   "items": [
+    {
+      "title": "CISA Warns of Threat Actors Leveraging Commercial Spyware to Target Users of Signal and WhatsApp",
+      "link": "https://cybersecuritynews.com/cisa-warns-of-threat-actors-leveraging-commercial-spyware/",
+      "date": "2025-11-25T13:27:40Z",
+      "description": "Cybersecurity authorities have raised fresh alarms over the spread of advanced commercial spyware targeting secure messaging apps like Signal and WhatsApp. According to a recent CISA advisory, multiple cyber threat actors actively deploy this sophisticated malware to compromise users’ smartphones, using methods designed to bypass established security protections. These threats first emerged in…",
+      "source": "cybersecuritynews.com"
+    },
+    {
+      "title": "'JackFix' Attack Circumvents ClickFix Mitigations",
+      "link": "https://www.darkreading.com/threat-intelligence/jackfix-attack-clickfix-mitigations",
+      "date": "2025-11-25T13:00:00Z",
+      "description": "A new ClickFix variant ratchets up the psychological pressure to 100 and addresses some technical mitigations to classic ClickFix attacks.",
+      "source": "darkreading.com"
+    },
+    {
+      "title": "Threat Actors Leverage Blender Foundation Files to Deliver Notorious StealC V2 Infostealer",
+      "link": "https://cybersecuritynews.com/threat-actors-leverage-blender-foundation-files/",
+      "date": "2025-11-25T12:37:25Z",
+      "description": "Cybercriminals have discovered a new attack vector targeting the creative design community by exploiting Blender, a widely used open-source 3D modeling application. Threat actors are uploading malicious files to popular asset platforms like CGTrader, containing embedded Python scripts that execute automatically when users open the files in Blender. This sophisticated campaign, uncovered through…",
+      "source": "cybersecuritynews.com"
+    },
     {
       "title": "Major US Banks Impacted by SitusAMC Hack",
       "link": "https://www.securityweek.com/major-us-banks-impacted-by-situsamc-hack/",
@@ -22,6 +43,13 @@
       "date": "2025-11-25T11:38:49Z",
       "description": "The 2025 Black Friday shopping season has become a prime hunting ground for cybercriminals, with threat actors recording over 2 million phishing attacks targeting online gamers and shoppers worldwide. As global e-commerce continues to grow at 7-9% annually, attackers have adapted their tactics to exploit the seasonal rush, reduced user vigilance, and high-demand retail periods. […] The post…",
       "source": "cybersecuritynews.com"
+    },
+    {
+      "title": "ToddyCat’s New Hacking Tools Steal Outlook Emails and Microsoft 365 Access Tokens",
+      "link": "https://thehackernews.com/2025/11/toddycats-new-hacking-tools-steal.html",
+      "date": "2025-11-25T11:36:00Z",
+      "description": "The threat actor known as ToddyCat has been observed adopting new methods to obtain access to corporate email data belonging to target companies, including using a custom tool dubbed TCSectorCopy. \"This attack allows them to obtain tokens for the OAuth 2.0 authorization protocol using the user's browser, which can be used outside the perimeter of the compromised infrastructure to access",
+      "source": "thehackernews.com"
     },
     {
       "title": "3 SOC Challenges You Need to Solve Before 2026",
@@ -66,13 +94,6 @@
       "source": "cybersecuritynews.com"
     },
     {
-      "title": "Microsoft’s Update Health Tools Configuration Vulnerability Let Attackers Execute Arbitrary Code Remotely",
-      "link": "https://cybersecuritynews.com/microsofts-update-health-tools-vulnerability/",
-      "date": "2025-11-25T07:54:36Z",
-      "description": "A critical remote code execution (RCE) vulnerability in Microsoft’s Update Health Tools (KB4023057). A widely deployed Windows component designed to expedite security updates through Intune. The flaw stems from the tool connecting to dropped Azure Blob storage accounts that attackers could register and control.​ How the Vulnerability Works The vulnerability exists in version 1.0 of the Update…",
-      "source": "cybersecuritynews.com"
-    },
-    {
       "title": "Canon Says Subsidiary Impacted by Oracle EBS Hack",
       "link": "https://www.securityweek.com/canon-says-subsidiary-impacted-by-oracle-ebs-hack/",
       "date": "2025-11-25T07:22:04Z",
@@ -85,13 +106,6 @@
       "date": "2025-11-25T06:42:00Z",
       "description": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Monday issued an alert warning of bad actors actively leveraging commercial spyware and remote access trojans (RATs) to target users of mobile messaging applications. \"These cyber actors use sophisticated targeting and social engineering techniques to deliver spyware and gain unauthorized access to a victim's messaging app,",
       "source": "thehackernews.com"
-    },
-    {
-      "title": "Top 10 Best Exposure Management Tools In 2026",
-      "link": "https://cybersecuritynews.com/best-exposure-management-tools/",
-      "date": "2025-11-25T05:37:04Z",
-      "description": "Exposure Management is a proactive cybersecurity discipline that systematically identifies, assesses, prioritizes, and remediates security vulnerabilities and misconfigurations across an organization’s entire attack surface both internal and external. Unlike traditional, periodic vulnerability scanning, EM leverages continuous monitoring, threat intelligence, and a holistic, graph-based view of…",
-      "source": "cybersecuritynews.com"
     },
     {
       "title": "ShadowRay 2.0 Turns AI Clusters into Crypto Botnets",
@@ -162,20 +176,6 @@
       "date": "2025-11-24T15:03:00Z",
       "description": "Cybersecurity researchers have discovered five vulnerabilities in Fluent Bit, an open-source and lightweight telemetry agent, that could be chained to compromise and take over cloud infrastructures. The security defects \"allow attackers to bypass authentication, perform path traversal, achieve remote code execution, cause denial-of-service conditions, and manipulate tags,\" Oligo Security said in",
       "source": "thehackernews.com"
-    },
-    {
-      "title": "Second Sha1-Hulud Wave Affects 25,000+ Repositories via npm Preinstall Credential Theft",
-      "link": "https://thehackernews.com/2025/11/second-sha1-hulud-wave-affects-25000.html",
-      "date": "2025-11-24T13:03:00Z",
-      "description": "Multiple security vendors are sounding the alarm about a second wave of attacks targeting the npm registry in a manner that's reminiscent of the Shai-Hulud attack. The new supply chain campaign, dubbed Sha1-Hulud, has compromised hundreds of npm packages, according to reports from Aikido, HelixGuard, JFrog, Koi Security, ReversingLabs, SafeDep, Socket, Step Security, and Wiz. The trojanized",
-      "source": "thehackernews.com"
-    },
-    {
-      "title": "Deja Vu: Salesforce Customers Hacked Again, Via Gainsight",
-      "link": "https://www.darkreading.com/cyberattacks-data-breaches/salesforce-customers-hacked-gainsight",
-      "date": "2025-11-21T21:22:51Z",
-      "description": "In a repeat of similar attacks during the summer, threat actors affiliated with the ShinyHunters extortion group used a third-party application to steal organizations' Salesforce data.",
-      "source": "darkreading.com"
     },
     {
       "title": "ZDI-CAN-28388: MindsDB",
