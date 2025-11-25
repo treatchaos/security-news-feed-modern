@@ -1,6 +1,6 @@
 {
   "date": "2025-08-27",
-  "count": 20,
+  "count": 14,
   "items": [
     {
       "id": "a5e4868cdd96516fb4cb5ebaab1a51391efeee82",
@@ -141,66 +141,6 @@
       "source": "bleepingcomputer.com",
       "first_seen": "2025-08-27T18:45:05Z",
       "last_seen": "2025-08-28T13:35:16Z"
-    },
-    {
-      "id": "286ce45db4816edd72a47a56f78732c85f6a8d6d",
-      "title": "IPFire Web-Based Firewall Interface Allows Authenticated Administrator to Inject Persistent JavaScript",
-      "link": "https://cybersecuritynews.com/ipfire-web-based-firewall-interface-flaw/",
-      "date": "2025-08-27T17:14:36Z",
-      "description": "A stored cross-site scripting (XSS) flaw identified in IPFire 2.29’s web-based firewall interface (firewall.cgi). Tracked as CVE-2025-50975, the vulnerability allows any authenticated administrator to inject persistent JavaScript into firewall rule parameters. Once stored, the payload executes automatically when another administrator loads the rules page, potentially resulting in session…",
-      "source": "cybersecuritynews.com",
-      "first_seen": "2025-08-27T17:32:06Z",
-      "last_seen": "2025-08-28T04:39:49Z"
-    },
-    {
-      "id": "5417f7c7b6bffdc1ea778f46ad8a7d7c37bc6a9c",
-      "title": "NVIDIA NeMo AI Curator Enables Code Execution and Privilege Escalation",
-      "link": "https://cybersecuritynews.com/nvidia-nemo-ai-curator-vulnerability/",
-      "date": "2025-08-27T17:08:33Z",
-      "description": "NVIDIA has issued a critical security bulletin addressing a high-severity vulnerability in its NeMo Curator platform that could allow attackers to execute malicious code and escalate privileges on affected systems. The vulnerability, designated CVE-2025-23307, affects all versions of NVIDIA NeMo Curator prior to release 25.07 across Windows, Linux, and macOS platforms. The security flaw stems…",
-      "source": "cybersecuritynews.com",
-      "first_seen": "2025-08-27T17:32:06Z",
-      "last_seen": "2025-08-27T23:27:08Z"
-    },
-    {
-      "id": "1ea64a3138457e7ea9f182a10f21fc684ebc593c",
-      "title": "Someone Created First AI-Powered Ransomware Using OpenAI's gpt-oss:20b Model",
-      "link": "https://thehackernews.com/2025/08/someone-created-first-ai-powered.html",
-      "date": "2025-08-27T17:07:00Z",
-      "description": "Cybersecurity company ESET has disclosed that it discovered an artificial intelligence (AI)-powered ransomware variant codenamed PromptLock. Written in Golang, the newly identified strain uses the gpt-oss:20b model from OpenAI locally via the Ollama API to generate malicious Lua scripts in real-time. The open-weight language model was released by OpenAI earlier this month. \"PromptLock",
-      "source": "thehackernews.com",
-      "first_seen": "2025-08-27T17:32:06Z",
-      "last_seen": "2025-08-28T04:39:49Z"
-    },
-    {
-      "id": "281d21b9e1ec447333a68686d69e0bbc61614c07",
-      "title": "Hackers Weaponize Trust with AI-Crafted Emails to Deploy ScreenConnect",
-      "link": "https://www.securityweek.com/hackers-weaponize-trust-with-ai-crafted-emails-to-deploy-screenconnect/",
-      "date": "2025-08-27T16:54:19Z",
-      "description": "AI-powered phishing attacks leverage ConnectWise ScreenConnect for remote access, underscoring their sophistication. The post Hackers Weaponize Trust with AI-Crafted Emails to Deploy ScreenConnect appeared first on SecurityWeek.",
-      "source": "securityweek.com",
-      "first_seen": "2025-08-27T17:32:06Z",
-      "last_seen": "2025-08-29T11:25:21Z"
-    },
-    {
-      "id": "5b4f6472ca4eb0ebb22c875b6e70a9feb8c43469",
-      "title": "CISA releases New ICS Advisories Surrounding Vulnerabilities and Exploits",
-      "link": "https://cybersecuritynews.com/cisa-releases-new-ics-advisories/",
-      "date": "2025-08-27T16:51:24Z",
-      "description": "CISA released three significant Industrial Control Systems (ICS) advisories on August 26, 2025, alerting organizations to critical vulnerabilities affecting widely-deployed automation systems. These advisories highlight severe security flaws across INVT Electric’s engineering tools, Schneider Electric’s Modicon controllers, and Danfoss refrigeration systems, with CVSS v4 scores reaching 8.7,…",
-      "source": "cybersecuritynews.com",
-      "first_seen": "2025-08-27T17:32:06Z",
-      "last_seen": "2025-08-27T17:32:06Z"
-    },
-    {
-      "id": "66181675e2dc4246de695a2bb55fa709b28341d9",
-      "title": "Over 28,000 Citrix devices vulnerable to new exploited RCE flaw",
-      "link": "https://www.bleepingcomputer.com/news/security/over-28-200-citrix-instances-vulnerable-to-actively-exploited-rce-bug/",
-      "date": "2025-08-27T16:48:00Z",
-      "description": "More than 28,200 Citrix instances are vulnerable to a critical remote code execution vulnerability tracked as CVE-2025-7775 that is already being exploited in the wild. [...]",
-      "source": "bleepingcomputer.com",
-      "first_seen": "2025-08-27T17:32:06Z",
-      "last_seen": "2025-08-27T22:33:15Z"
     }
   ]
 }
