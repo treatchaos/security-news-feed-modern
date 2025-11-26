@@ -1,7 +1,49 @@
 {
-  "last_updated": "2025-11-26T12:22:20Z",
+  "last_updated": "2025-11-26T13:28:53Z",
   "count": 40,
   "items": [
+    {
+      "title": "Microsoft to secure Entra ID sign-ins from script injection attacks",
+      "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-to-secure-entra-id-sign-ins-from-external-script-injection-attacks/",
+      "date": "2025-11-26T13:26:06Z",
+      "description": "Starting in mid-to-late October 2026, Microsoft will enhance the security of the Entra ID authentication system against external script injection attacks. [...]",
+      "source": "bleepingcomputer.com"
+    },
+    {
+      "title": "Account Takeover Fraud Caused $262 Million in Losses in 2025: FBI",
+      "link": "https://www.securityweek.com/account-takeover-fraud-caused-262-million-in-losses-in-2025-fbi/",
+      "date": "2025-11-26T13:23:38Z",
+      "description": "Cybercriminals impersonating financial institutions have targeted individuals, businesses, and organizations of different sizes. The post Account Takeover Fraud Caused $262 Million in Losses in 2025: FBI appeared first on SecurityWeek.",
+      "source": "securityweek.com"
+    },
+    {
+      "title": "New “JackFix” Attack Leverages Windows Updates into Executing Malicious Commands",
+      "link": "https://cybersecuritynews.com/jackfix-attack-leverages-windows-updates/",
+      "date": "2025-11-26T13:05:43Z",
+      "description": "A sophisticated ClickFix campaign dubbed “JackFix” that uses fake adult websites to hijack screens with realistic Windows Update prompts, tricking users into running multistage malware payloads. Attackers mimic popular adult sites like xHamster clones to lure victims, likely via malvertising on shady platforms. Interaction with the phishing page triggers a full-screen overlay resembling a…",
+      "source": "cybersecuritynews.com"
+    },
+    {
+      "title": "Thousands of Secrets Leaked on Code Formatting Platforms",
+      "link": "https://www.securityweek.com/thousands-of-secrets-leaked-on-code-formatting-platforms/",
+      "date": "2025-11-26T12:58:18Z",
+      "description": "JSONFormatter and CodeBeautify users exposed credentials, authentication keys, configuration information, private keys, and other secrets. The post Thousands of Secrets Leaked on Code Formatting Platforms appeared first on SecurityWeek.",
+      "source": "securityweek.com"
+    },
+    {
+      "title": "Hackers Exploit NTLM Authentication Flaws to Target Windows Systems",
+      "link": "https://cybersecuritynews.com/hackers-exploit-ntlm-authentication-flaws-to-target-windows-systems/",
+      "date": "2025-11-26T12:41:09Z",
+      "description": "More than two decades after its initial discovery, the NTLM authentication protocol continues to plague Windows systems worldwide. What started in 2001 as a theoretical vulnerability has evolved into a widespread security crisis, with attackers actively weaponizing multiple NTLM flaws to compromise networks across different regions. The New Technology LAN Manager (NTLM) protocol was designed […]…",
+      "source": "cybersecuritynews.com"
+    },
+    {
+      "title": "Hackers Sell Lifetime Access to WormGPT and KawaiiGPT for Just $220",
+      "link": "https://cybersecuritynews.com/hackers-sell-lifetime-access-to-wormgpt-and-kawaiigpt/",
+      "date": "2025-11-26T12:24:15Z",
+      "description": "Cybercriminals are now selling lifetime access to malicious AI chatbots WormGPT and KawaiiGPT for as little as $220, marking a dangerous new chapter in AI-powered cybercrime. These tools remove all ethical restrictions found in mainstream AI models, enabling attackers to generate phishing emails, create ransomware, and automate hacking operations with minimal technical skill. Large language […]…",
+      "source": "cybersecuritynews.com"
+    },
     {
       "title": "Cybersecurity Is Now a Core Business Discipline",
       "link": "https://www.securityweek.com/cybersecurity-is-now-a-core-business-discipline/",
@@ -15,6 +57,13 @@
       "date": "2025-11-26T11:56:05Z",
       "description": "A new offensive security tool developed in Rust is demonstrating a novel method for bypassing modern Endpoint Detection and Response (EDR) systems by exploiting an overlooked behavior in the Windows API. Dubbed Indirect-Shellcode-Executor, the tool leverages the ReadProcessMemory function to inject shellcode, effectively avoiding standard API calls that security vendors monitor for malicious…",
       "source": "cybersecuritynews.com"
+    },
+    {
+      "title": "When Your $2M Security Detection Fails: Can your SOC Save You?",
+      "link": "https://thehackernews.com/2025/11/when-your-2m-security-detection-fails.html",
+      "date": "2025-11-26T11:55:00Z",
+      "description": "Enterprises today are expected to have at least 6-8 detection tools, as detection is considered a standard investment and the first line of defense. Yet security leaders struggle to justify dedicating resources further down the alert lifecycle to their superiors. As a result, most organizations' security investments are asymmetrical, robust detection tools paired with an under-resourced SOC,",
+      "source": "thehackernews.com"
     },
     {
       "title": "ASUS warns of new critical auth bypass flaw in AiCloud routers",
@@ -52,13 +101,6 @@
       "source": "cybersecuritynews.com"
     },
     {
-      "title": "Developers Expose Passwords and API Keys via Online Tools like JSONFormatter",
-      "link": "https://cybersecuritynews.com/developers-expose-passwords-and-api-keys/",
-      "date": "2025-11-26T10:06:06Z",
-      "description": "Developers are unintentionally exposing passwords, API keys, and sensitive data in production information into online formatting tools such as JSONFormatter and CodeBeautify. New research from watchTowr shows that thousands of secrets from critical organizations have been publicly accessible for years through these seemingly harmless utilities. Online code and JSON formatters are popular among…",
-      "source": "cybersecuritynews.com"
-    },
-    {
       "title": "Opti Raises $20 Million for Identity Security Platform",
       "link": "https://www.securityweek.com/opti-raises-20-million-for-identity-security-platform/",
       "date": "2025-11-26T09:42:01Z",
@@ -71,27 +113,6 @@
       "date": "2025-11-26T08:28:00Z",
       "description": "The threat actors behind a malware family known as RomCom targeted a U.S.-based civil engineering company via a JavaScript loader dubbed SocGholish to deliver the Mythic Agent. \"This is the first time that a RomCom payload has been observed being distributed by SocGholish,\" Arctic Wolf Labs researcher Jacob Faires said in a Tuesday report. The activity has been attributed with medium-to-high",
       "source": "thehackernews.com"
-    },
-    {
-      "title": "HashJack: New Attack Technique Tricks AI Browsers Using a Simple ‘#’",
-      "link": "https://cybersecuritynews.com/hashjack-new-attack-technique-tricks-ai-browsers-using-a-simple/",
-      "date": "2025-11-26T08:11:46Z",
-      "description": "Security researchers at Cato CTRL have discovered a new indirect prompt injection technique called HashJack, which weaponises legitimate websites to manipulate AI browser assistants. The attack conceals malicious instructions after the “#” symbol within trusted URLs, enabling threat actors to conduct a wide range of attacks without compromising any website. How HashJack Works The technique…",
-      "source": "cybersecuritynews.com"
-    },
-    {
-      "title": "Dartmouth College Confirms Data Theft in Oracle Hack",
-      "link": "https://www.securityweek.com/dartmouth-college-confirms-data-theft-in-oracle-hack/",
-      "date": "2025-11-26T08:09:20Z",
-      "description": "Dartmouth College has disclosed a data breach after cybercriminals leaked over 226 Gb of files stolen from the university. The post Dartmouth College Confirms Data Theft in Oracle Hack appeared first on SecurityWeek.",
-      "source": "securityweek.com"
-    },
-    {
-      "title": "Tor Adopts Galois Onion Encryption to Strengthen Defense Against Online Attacks",
-      "link": "https://cybersecuritynews.com/tor-adopts-galois-onion-encryption/",
-      "date": "2025-11-26T06:44:42Z",
-      "description": "The Tor Project has announced a significant cryptographic overhaul, retiring its legacy relay encryption algorithm after decades of service and replacing it with Counter Galois Onion (CGO). This research-backed encryption design defends against a broader class of sophisticated online attackers. Tor’s relay encryption serves a specialized function distinct from the standard TLS protocol used…",
-      "source": "cybersecuritynews.com"
     },
     {
       "title": "Iran Exploits Cyber Domain to Aid Kinetic Strikes",
@@ -113,13 +134,6 @@
       "date": "2025-11-26T04:00:14Z",
       "description": "The post PoC Exploit Releases for Windows NTLM Elevation of Privilege Vulnerability appeared first on Daily CyberSecurity.",
       "source": "securityonline.info"
-    },
-    {
-      "title": "Russian Hackers Target US Engineering Firm Because of Work Done for Ukrainian Sister City",
-      "link": "https://www.securityweek.com/russian-hackers-target-us-engineering-firm-because-of-work-done-for-ukrainian-sister-city/",
-      "date": "2025-11-26T00:28:40Z",
-      "description": "The attack on the engineering firm was identified by Arctic Wolf in September before it could disrupt the engineering company’s operations or spread further. The post Russian Hackers Target US Engineering Firm Because of Work Done for Ukrainian Sister City appeared first on SecurityWeek.",
-      "source": "securityweek.com"
     },
     {
       "title": "Advanced Security Isn't Stopping Ancient Phishing Tactics",
@@ -162,20 +176,6 @@
       "date": "2025-11-25T17:23:23Z",
       "description": "The FBI warns of a surge in account takeover (ATO) fraud schemes and says that cybercriminals impersonating various financial institutions have stolen over $262 million in ATO attacks since the start of the year. [...]",
       "source": "bleepingcomputer.com"
-    },
-    {
-      "title": "Tor switches to new Counter Galois Onion relay encryption algorithm",
-      "link": "https://www.bleepingcomputer.com/news/security/tor-switches-to-new-counter-galois-onion-relay-encryption-algorithm/",
-      "date": "2025-11-25T17:09:19Z",
-      "description": "Tor has announced improved encryption and security for the circuit traffic by replacing the old tor1 relay encryption algorithm with a new design called Counter Galois Onion (CGO). [...]",
-      "source": "bleepingcomputer.com"
-    },
-    {
-      "title": "Years of JSONFormatter and CodeBeautify Leaks Expose Thousands of Passwords and API Keys",
-      "link": "https://thehackernews.com/2025/11/years-of-jsonformatter-and-codebeautify.html",
-      "date": "2025-11-25T16:49:00Z",
-      "description": "New research has found that organizations in various sensitive sectors, including governments, telecoms, and critical infrastructure, are pasting passwords and credentials into online tools like JSONformatter and CodeBeautify that are used to format and validate code. Cybersecurity company watchTowr Labs said it captured a dataset of over 80,000 files on these sites, uncovering thousands of",
-      "source": "thehackernews.com"
     },
     {
       "title": "With Friends Like These: China Spies on Russian IT Orgs",
