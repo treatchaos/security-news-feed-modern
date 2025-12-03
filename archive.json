@@ -1,7 +1,7 @@
 {
-  "last_updated": "2025-12-03T09:16:08Z",
+  "last_updated": "2025-12-03T10:13:32Z",
   "retention_days": 90,
-  "count": 3666,
+  "count": 3667,
   "items": [
     {
       "id": "9ec02f3c8f975ac7ab5a9fdfdaec657cfeeb555f",
@@ -14,6 +14,46 @@
       "last_seen": "2025-11-14T20:12:50Z"
     },
     {
+      "id": "5aabb2500a70875b979f537f0a36ffea456dd0e8",
+      "title": "Angular Platform Vulnerability Allows Malicious Code Execution Via Weaponized SVG Animation Files",
+      "link": "https://cybersecuritynews.com/angular-platform-vulnerability-weaponized-svg-animation-files/",
+      "date": "2025-12-03T09:51:20Z",
+      "description": "A critical Stored XSS vulnerability in Angular’s template compiler (CVE-2025-66412) allows attackers to execute arbitrary code by weaponizing SVG animation attributes. Bypassing Angular’s built-in security sanitization mechanisms and affecting applications using versions below 19.2.17, 20.3.15, or 21.0.2. The Angular template compiler includes an incomplete security schema that fails to classify…",
+      "source": "cybersecuritynews.com",
+      "first_seen": "2025-12-03T10:13:32Z",
+      "last_seen": "2025-12-03T10:13:32Z"
+    },
+    {
+      "id": "e996ab65aad4d3cff08f85f9a45558c4257007d2",
+      "title": "CISA Warns of Iskra iHUB Vulnerability Allowing Remote Device Reconfiguration",
+      "link": "https://cybersecuritynews.com/cisa-warns-of-iskra-ihub-authentication-vulnerability/",
+      "date": "2025-12-03T09:38:09Z",
+      "description": "A critical warning regarding a severe authentication vulnerability affecting Iskra’s iHUB and iHUB Lite intelligent metering gateways used in energy infrastructure worldwide. The flaw, tracked as CVE-2025-13510, carries a CVSS v4 severity score of 9.3, indicating an exploit that requires minimal technical complexity for attackers. The vulnerability stems from the absence of an authentication…",
+      "source": "cybersecuritynews.com",
+      "first_seen": "2025-12-03T10:13:32Z",
+      "last_seen": "2025-12-03T10:13:32Z"
+    },
+    {
+      "id": "9987356cc5c3615f28493302436dac128db9cda0",
+      "title": "Picklescan Bugs Allow Malicious PyTorch Models to Evade Scans and Execute Code",
+      "link": "https://thehackernews.com/2025/12/picklescan-bugs-allow-malicious-pytorch.html",
+      "date": "2025-12-03T09:30:00Z",
+      "description": "Three critical security flaws have been disclosed in an open-source utility called Picklescan that could allow malicious actors to execute arbitrary code by loading untrusted PyTorch models, effectively bypassing the tool's protections. Picklescan, developed and maintained by Matthieu Maitre (@mmaitre314), is a security scanner that's designed to parse Python pickle files and detect suspicious",
+      "source": "thehackernews.com",
+      "first_seen": "2025-12-03T10:13:32Z",
+      "last_seen": "2025-12-03T10:13:32Z"
+    },
+    {
+      "id": "4fd1d191eebe95aae354ca596e31fc433f91fe78",
+      "title": "Threat Actors Allegedly Promoting Fully Undetectable K.G.B RAT on Hacker Forums",
+      "link": "https://cybersecuritynews.com/undetectable-k-g-b-rat/",
+      "date": "2025-12-03T09:24:48Z",
+      "description": "A concerning development has emerged within the cybercriminal ecosystem as threat actors continue distributing K.G.B RAT, a remote access trojan bundled with advanced detection evasion capabilities. According to recent reports, this tool combination surfaced on underground forums and has caught the attention of security researchers worldwide. The malware package includes not only the K.G.B RAT…",
+      "source": "cybersecuritynews.com",
+      "first_seen": "2025-12-03T10:13:32Z",
+      "last_seen": "2025-12-03T10:13:32Z"
+    },
+    {
       "id": "af3571be3f0bfde662fb91148d624df6feef7cd2",
       "title": "BPFDoor and Symbiote Rootkits Attacking Linux Systems Exploiting eBPF Filters",
       "link": "https://cybersecuritynews.com/bpfdoor-and-symbiote-rootkits/",
@@ -21,7 +61,7 @@
       "description": "Two sophisticated Linux rootkits are posing increasingly serious threats to network security by exploiting eBPF technology to hide their presence from traditional detection systems. BPFDoor and Symbiote, both originating from 2021, represent a dangerous class of malware that combines advanced kernel-level access with powerful evasion capabilities. In 2025 alone, security researchers detected 151…",
       "source": "cybersecuritynews.com",
       "first_seen": "2025-12-03T09:16:08Z",
-      "last_seen": "2025-12-03T09:16:08Z"
+      "last_seen": "2025-12-03T10:13:32Z"
     },
     {
       "id": "f763044085c78ba93f671ed201d3733d568ef426",
@@ -31,7 +71,17 @@
       "description": "Chrome 143 stable was released with patches for 13 vulnerabilities, including a high-severity flaw in the V8 JavaScript engine. The post Chrome 143 Patches High-Severity Vulnerabilities appeared first on SecurityWeek.",
       "source": "securityweek.com",
       "first_seen": "2025-12-03T09:16:08Z",
-      "last_seen": "2025-12-03T09:16:08Z"
+      "last_seen": "2025-12-03T10:13:32Z"
+    },
+    {
+      "id": "d8cf991591117c50ad734138e1a172409c097bdf",
+      "title": "Malicious Rust Crate Delivers OS-Specific Malware to Web3 Developer Systems",
+      "link": "https://thehackernews.com/2025/12/malicious-rust-crate-delivers-os.html",
+      "date": "2025-12-03T08:39:00Z",
+      "description": "Cybersecurity researchers have discovered a malicious Rust package that's capable of targeting Windows, macOS, and Linux systems, and features malicious functionality to stealthily execute on developer machines by masquerading as an Ethereum Virtual Machine (EVM) unit helper tool. The Rust crate, named \"evm-units,\" was uploaded to crates.io in mid-April 2025 by a user named \"ablerust,\"",
+      "source": "thehackernews.com",
+      "first_seen": "2025-12-03T10:13:32Z",
+      "last_seen": "2025-12-03T10:13:32Z"
     },
     {
       "id": "ac2af739e240f01d00b325f7a61ea9e6fb2c9fde",
@@ -41,7 +91,7 @@
       "description": "Matanbuchus represents a significant threat in the cybercriminal landscape as a dangerous malware downloader written in C++. Since 2020, this tool has been sold as Malware-as-a-Service, allowing threat actors to rent access and deploy it against targeted organizations. In July 2025, security researchers discovered version 3.0 operating in real-world attacks, marking a notable evolution in […]…",
       "source": "cybersecuritynews.com",
       "first_seen": "2025-12-03T09:16:08Z",
-      "last_seen": "2025-12-03T09:16:08Z"
+      "last_seen": "2025-12-03T10:13:32Z"
     },
     {
       "id": "307cdf6f230d85da6beded30e667965911d5e1e2",
@@ -71,7 +121,7 @@
       "description": "The post Critical cPanel Flaw (CVSS 9.3) Allows Directory Traversal LPE for Full Server Takeover appeared first on Daily CyberSecurity.",
       "source": "securityonline.info",
       "first_seen": "2025-12-03T05:12:02Z",
-      "last_seen": "2025-12-03T09:16:08Z"
+      "last_seen": "2025-12-03T10:13:32Z"
     },
     {
       "id": "34e2fb6e359acf49d53e1601c3ca16fefe7886c2",
@@ -111,7 +161,7 @@
       "description": "While satellite constellations — such as Starlink — are resilient, 2,000 drones could cut communications to a region the size of Taiwan, researchers find.",
       "source": "darkreading.com",
       "first_seen": "2025-12-03T02:42:25Z",
-      "last_seen": "2025-12-03T09:16:08Z"
+      "last_seen": "2025-12-03T10:13:32Z"
     },
     {
       "id": "0e3e54998377bb8d043f44ae3f7e54093e8e5108",
@@ -121,7 +171,7 @@
       "description": "Is the new privacy protocol helping malicious actors more than Internet users?",
       "source": "darkreading.com",
       "first_seen": "2025-12-03T07:14:15Z",
-      "last_seen": "2025-12-03T09:16:08Z"
+      "last_seen": "2025-12-03T10:13:32Z"
     },
     {
       "id": "aae7eea5812b16378d7b91f9650f14695a2d1348",
@@ -131,7 +181,7 @@
       "description": "The Korean National Police have arrested four individuals suspected of hacking over 120,000 IP cameras across the country and then selling stolen footage to a foreign adult site. [...]",
       "source": "bleepingcomputer.com",
       "first_seen": "2025-12-02T22:10:29Z",
-      "last_seen": "2025-12-03T09:16:08Z"
+      "last_seen": "2025-12-03T10:13:32Z"
     },
     {
       "id": "274c9b6997f51aec5a219e4e7aea73bb7459f89d",
@@ -141,7 +191,7 @@
       "description": "New Fooder loader and memory-only tactics suggest MuddyWater has evolved from its usual noisy ops to more stealthy espionage operations.",
       "source": "darkreading.com",
       "first_seen": "2025-12-02T22:10:29Z",
-      "last_seen": "2025-12-03T09:16:08Z"
+      "last_seen": "2025-12-03T10:13:32Z"
     },
     {
       "id": "93d614e75c831816beacbad6f8938eb81f7b6e31",
@@ -181,7 +231,7 @@
       "description": "The Federal Trade Commission (FTC) is proposing that education technology provider Illuminate Education to delete unnecessary student data and improve its security to settle allegations related to an incident in 2021 that exposed info of 10 million students. [...]",
       "source": "bleepingcomputer.com",
       "first_seen": "2025-12-02T21:11:13Z",
-      "last_seen": "2025-12-03T09:16:08Z"
+      "last_seen": "2025-12-03T10:13:32Z"
     },
     {
       "id": "b715964378f2ec9be2bf506c34c20c086e93ee2e",
@@ -201,7 +251,7 @@
       "description": "When prompts were presented in poetic rather than prose form, attack success rates increased from 8% to 43%, on average — a fivefold increase.",
       "source": "darkreading.com",
       "first_seen": "2025-12-02T21:11:13Z",
-      "last_seen": "2025-12-03T09:16:08Z"
+      "last_seen": "2025-12-03T10:13:32Z"
     },
     {
       "id": "8f03a4713a580a8391177fda9b7e9579819821ce",
@@ -224,6 +274,16 @@
       "last_seen": "2025-12-03T09:16:08Z"
     },
     {
+      "id": "fc53c86ade4bc27bb7ca9776781b3d9e02fd5533",
+      "title": "ChatGPT is down worldwide, conversations disappeared for users",
+      "link": "https://www.bleepingcomputer.com/news/artificial-intelligence/chatgpt-is-down-worldwide-conversations-disappeared-for-users/",
+      "date": "2025-12-02T19:52:16Z",
+      "description": "OpenAI's AI-powered ChatGPT is down worldwide with users receiving errors when attempting to access chats, with no reasons currently given. [...]",
+      "source": "bleepingcomputer.com",
+      "first_seen": "2025-12-03T10:13:32Z",
+      "last_seen": "2025-12-03T10:13:32Z"
+    },
+    {
       "id": "6bf6f5fe8dc65e5debc74c076fd50736de0a04c5",
       "title": "Hackers Leverage Evilginx to Undermine MFA Security Mimicking Legitimate SSO Sites",
       "link": "https://cybersecuritynews.com/hackers-leverage-evilginx/",
@@ -241,7 +301,7 @@
       "description": "The second Shai-Hulud attack last week exposed around 400,000 raw secrets after infecting hundreds of packages in the NPM (Node Package Manager) registry and publishing stolen data in 30,000 GitHub repositories. [...]",
       "source": "bleepingcomputer.com",
       "first_seen": "2025-12-02T19:12:41Z",
-      "last_seen": "2025-12-03T09:16:08Z"
+      "last_seen": "2025-12-03T10:13:32Z"
     },
     {
       "id": "53ee8f0b37bdb3ee6621da9eb996022c7aded0d3",
@@ -271,7 +331,7 @@
       "description": "India's Department of Telecommunications (DoT) has issued directions to app-based communication service providers to ensure that the platforms cannot be used without an active SIM card linked to the user's mobile number. To that end, messaging apps like WhatsApp, Telegram, Snapchat, Arattai, Sharechat, Josh, JioChat, and Signal that use an Indian mobile number for uniquely identifying their",
       "source": "thehackernews.com",
       "first_seen": "2025-12-02T19:12:41Z",
-      "last_seen": "2025-12-03T09:16:08Z"
+      "last_seen": "2025-12-03T10:13:32Z"
     },
     {
       "id": "40f390079e406c05f98012d6a94fc124b3e41f93",
@@ -291,7 +351,7 @@
       "description": "The cybersecurity startup will use the investment to accelerate product innovation and global expansion. The post Zafran Security Raises $60 Million in Series C Funding appeared first on SecurityWeek.",
       "source": "securityweek.com",
       "first_seen": "2025-12-02T17:15:32Z",
-      "last_seen": "2025-12-03T09:16:08Z"
+      "last_seen": "2025-12-03T10:13:32Z"
     },
     {
       "id": "7614fdd443f8a31d67b12dc17868f10b86ae0dd2",
@@ -301,7 +361,7 @@
       "description": "Microsoft is working to mitigate an ongoing incident that has been blocking access to some Defender XDR portal capabilities, including threat hunting alerts. [...]",
       "source": "bleepingcomputer.com",
       "first_seen": "2025-12-02T16:15:28Z",
-      "last_seen": "2025-12-03T09:16:08Z"
+      "last_seen": "2025-12-03T10:13:32Z"
     },
     {
       "id": "0ee4976f1b1ae8c809a44a309f3b87b69da650cc",
@@ -311,7 +371,7 @@
       "description": "Researchers utilized prompts and large language models to develop an open-source AI framework capable of generating both vulnerability exploits and patches.",
       "source": "darkreading.com",
       "first_seen": "2025-12-03T07:14:15Z",
-      "last_seen": "2025-12-03T09:16:08Z"
+      "last_seen": "2025-12-03T10:13:32Z"
     },
     {
       "id": "b693d95cb34efff9d7cc044c0c6891f496db782b",
@@ -331,7 +391,7 @@
       "description": "A joint investigation led by Mauro Eldritch, founder of BCA LTD, conducted together with threat-intel initiative NorthScan and ANY.RUN, a solution for interactive malware analysis and threat intelligence, has uncovered one of North Korea’s most persistent infiltration schemes: a network of remote IT workers tied to Lazarus Group’s Famous Chollima division. For the first time, researchers managed",
       "source": "thehackernews.com",
       "first_seen": "2025-12-02T16:15:28Z",
-      "last_seen": "2025-12-03T09:16:08Z"
+      "last_seen": "2025-12-03T10:13:32Z"
     },
     {
       "id": "70f606f06a543feca1c64997dc1d6cb7c964b18f",
@@ -341,7 +401,7 @@
       "description": "The supply chain campaign known as GlassWorm has once again reared its head, infiltrating both Microsoft Visual Studio Marketplace and Open VSX with 24 extensions impersonating popular developer tools and frameworks like Flutter, React, Tailwind, Vim, and Vue. GlassWorm was first documented in October 2025, detailing its use of the Solana blockchain for command-and-control (C2) and harvest npm,",
       "source": "thehackernews.com",
       "first_seen": "2025-12-02T16:15:28Z",
-      "last_seen": "2025-12-03T09:16:08Z"
+      "last_seen": "2025-12-03T10:13:32Z"
     },
     {
       "id": "84acc29d77b922c5ab5317a6635a423afebd1181",
@@ -411,7 +471,7 @@
       "description": "When familiar security concepts carry unfamiliar meanings for different audiences, teams talk past each other without even realizing it. This silent disconnect weakens communication, clarity, and outcomes. The post The Great Disconnect: Unmasking the ‘Two Separate Conversations’ in Security appeared first on SecurityWeek.",
       "source": "securityweek.com",
       "first_seen": "2025-12-02T15:13:09Z",
-      "last_seen": "2025-12-03T09:16:08Z"
+      "last_seen": "2025-12-03T10:13:32Z"
     },
     {
       "id": "7bc8c84f8ecdfa39d822d1be788922b261f781fe",
@@ -451,7 +511,7 @@
       "description": "The extensions were seen profiling users, reading cookie data to create unique identifiers, and executing payloads with browser API access. The post Chrome, Edge Extensions Caught Tracking Users, Creating Backdoors appeared first on SecurityWeek.",
       "source": "securityweek.com",
       "first_seen": "2025-12-02T14:12:57Z",
-      "last_seen": "2025-12-03T09:16:08Z"
+      "last_seen": "2025-12-03T10:13:32Z"
     },
     {
       "id": "ce7c981b9a4a49bbd0f9541be00b4387912e9cd5",
@@ -541,7 +601,7 @@
       "description": "The Swiss cybersecurity firm will scale its R&D, sales and marketing teams as it pursues expansion across Europe. The post Saporo Raises $8 Million for Identity Security Platform appeared first on SecurityWeek.",
       "source": "securityweek.com",
       "first_seen": "2025-12-02T12:23:53Z",
-      "last_seen": "2025-12-03T09:16:08Z"
+      "last_seen": "2025-12-03T10:13:32Z"
     },
     {
       "id": "5ee178e5a96a01295acb34b11126b88a3525d46f",
@@ -681,7 +741,7 @@
       "description": "A CVSS score 3.3 AV:L/AC:L/PR:N/UI:R/S:U/C:L/I:N/A:N severity vulnerability discovered by 'Anonymous' was reported to the affected vendor on: 2025-12-02, 0 days ago. The vendor is given until 2026-04-01 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
       "source": "zerodayinitiative.com",
       "first_seen": "2025-12-03T00:53:52Z",
-      "last_seen": "2025-12-03T09:16:08Z"
+      "last_seen": "2025-12-03T10:13:32Z"
     },
     {
       "id": "a50d980b70777a4ccafffa688fa2d4aefdc04b95",
@@ -691,7 +751,7 @@
       "description": "A CVSS score 8.8 AV:L/AC:L/PR:L/UI:N/S:C/C:H/I:H/A:H severity vulnerability discovered by 'Marcin Wiazowski' was reported to the affected vendor on: 2025-12-02, 0 days ago. The vendor is given until 2026-04-01 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
       "source": "zerodayinitiative.com",
       "first_seen": "2025-12-03T00:53:52Z",
-      "last_seen": "2025-12-03T09:16:08Z"
+      "last_seen": "2025-12-03T10:13:32Z"
     },
     {
       "id": "20451eb2a28f6cdca9e559ec055535623d658162",
@@ -701,7 +761,7 @@
       "description": "A CVSS score 7.8 AV:L/AC:H/PR:L/UI:N/S:C/C:H/I:H/A:H severity vulnerability discovered by 'Marcin Wiazowski' was reported to the affected vendor on: 2025-12-02, 0 days ago. The vendor is given until 2026-04-01 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
       "source": "zerodayinitiative.com",
       "first_seen": "2025-12-03T00:53:52Z",
-      "last_seen": "2025-12-03T09:16:08Z"
+      "last_seen": "2025-12-03T10:13:32Z"
     },
     {
       "id": "0cdd621c76453ed0fb9c88bd30032db9bbca12dc",
@@ -711,7 +771,7 @@
       "description": "A CVSS score 8.8 AV:L/AC:L/PR:L/UI:N/S:C/C:H/I:H/A:H severity vulnerability discovered by 'Marcin Wiazowski' was reported to the affected vendor on: 2025-12-02, 0 days ago. The vendor is given until 2026-04-01 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
       "source": "zerodayinitiative.com",
       "first_seen": "2025-12-03T00:53:52Z",
-      "last_seen": "2025-12-03T09:16:08Z"
+      "last_seen": "2025-12-03T10:13:32Z"
     },
     {
       "id": "27cefd418ec618d69de7dc613b0a5879337adabe",
@@ -721,7 +781,7 @@
       "description": "A CVSS score 7.8 AV:L/AC:H/PR:L/UI:N/S:C/C:H/I:H/A:H severity vulnerability discovered by 'Marcin Wiazowski' was reported to the affected vendor on: 2025-12-02, 0 days ago. The vendor is given until 2026-04-01 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
       "source": "zerodayinitiative.com",
       "first_seen": "2025-12-03T00:53:52Z",
-      "last_seen": "2025-12-03T09:16:08Z"
+      "last_seen": "2025-12-03T10:13:32Z"
     },
     {
       "id": "b3cfc961dffee92591078dc6bcaa5d95cdbfda36",
@@ -1171,7 +1231,7 @@
       "description": "The post PoC Exploit Releases for CVE-2025-60718 – Windows Administrator Protection Elevation of Privilege Vulnerability appeared first on Daily CyberSecurity.",
       "source": "securityonline.info",
       "first_seen": "2025-12-01T08:18:18Z",
-      "last_seen": "2025-12-03T09:16:08Z"
+      "last_seen": "2025-12-03T10:13:32Z"
     },
     {
       "id": "2c30fa1dd4bfed6ee2b7bbd9267b5c0831ec28d6",
@@ -2361,7 +2421,7 @@
       "description": "The post CVE-2025-54918: Windows NTLM Elevation of Privilege Vulnerability appeared first on Daily CyberSecurity.",
       "source": "securityonline.info",
       "first_seen": "2025-11-27T11:10:21Z",
-      "last_seen": "2025-12-03T09:16:08Z"
+      "last_seen": "2025-12-03T10:13:32Z"
     },
     {
       "id": "fe19d75c3ea4d3362313470e296ab11db3dee464",
@@ -5691,7 +5751,7 @@
       "description": "The post Critical Flowise Flaw Allows Unauthenticated Remote Admin Takeover via Exposed Registration Endpoint appeared first on Daily CyberSecurity.",
       "source": "securityonline.info",
       "first_seen": "2025-11-18T11:10:07Z",
-      "last_seen": "2025-12-03T09:16:08Z"
+      "last_seen": "2025-12-03T10:13:32Z"
     },
     {
       "id": "96620dabeb4a32740e0ecf0b0486f8a085385f95",
@@ -7621,7 +7681,7 @@
       "description": "The post PoC Exploit Releases for Windows Privilege Escalation Vulnerability appeared first on Daily CyberSecurity.",
       "source": "securityonline.info",
       "first_seen": "2025-11-13T08:15:08Z",
-      "last_seen": "2025-12-03T09:16:08Z"
+      "last_seen": "2025-12-03T10:13:32Z"
     },
     {
       "id": "05630dc3c6b94731d64b438cbcc072547c2c8165",
@@ -36464,56 +36524,6 @@
       "last_seen": "2025-09-04T14:38:13Z"
     },
     {
-      "id": "c2aa78ff83424f4ef7aa5e4acc64fef50da975f9",
-      "title": "Microsoft Confirms UAC Bug Breaks App Install On Windows 11 And 10 Versions",
-      "link": "https://cybersecuritynews.com/windows-uac-bug-breaks-app/",
-      "date": "2025-09-04T09:28:36Z",
-      "description": "Microsoft has officially acknowledged a significant bug in recent Windows security updates that is causing application installation and repair failures across multiple versions of Windows 10, Windows 11, and Windows Server. The issue stems from a security enhancement in the August 2025 updates, which now incorrectly triggers User Account Control (UAC) prompts for standard, non-administrator […]…",
-      "source": "cybersecuritynews.com",
-      "first_seen": "2025-09-04T09:31:38Z",
-      "last_seen": "2025-09-04T13:15:49Z"
-    },
-    {
-      "id": "83a4780b733f47388fbb48d56f5afd7320aa9796",
-      "title": "Threat Actors Using Stealerium Malware to Attack Educational Organizations",
-      "link": "https://cybersecuritynews.com/threat-actors-using-stealerium-malware/",
-      "date": "2025-09-04T09:21:16Z",
-      "description": "Educational institutions have become prime targets in the escalating battle against commodity information stealers. First emerging in 2022 as an open-source project on GitHub, Stealerium was initially released “for educational purposes” but rapidly attracted illicit interest. Adversaries adapted and enhanced the code to create variants—such as Phantom Stealer and Warp Stealer—resulting in a…",
-      "source": "cybersecuritynews.com",
-      "first_seen": "2025-09-04T09:31:38Z",
-      "last_seen": "2025-09-04T11:25:45Z"
-    },
-    {
-      "id": "411cc95075a826ea253590fd0ac4eb277df1acf3",
-      "title": "Django Critical Vulnerability Let attackers Execute Malicious SQL Code on Web Servers",
-      "link": "https://cybersecuritynews.com/django-sql-injection-vulnerability/",
-      "date": "2025-09-04T09:08:27Z",
-      "description": "The Django development team has issued critical security updates to address a high-severity vulnerability that could allow attackers to execute malicious SQL code on web servers using the popular framework. The flaw, identified as CVE-2025-57833, affects multiple versions of Django, prompting an urgent call for all users to upgrade their installations as soon as possible. […] The post Django…",
-      "source": "cybersecuritynews.com",
-      "first_seen": "2025-09-04T09:31:38Z",
-      "last_seen": "2025-09-04T11:25:45Z"
-    },
-    {
-      "id": "9328a424506ebea75236400fdda95e19fccf5d5b",
-      "title": "US Offers $10M Bounty For FSB Hackers Who Exploited Cisco Vulnerability To Attack Critical Infrastructure",
-      "link": "https://cybersecuritynews.com/us-offers-10m-bounty-for-fsb-hackers/",
-      "date": "2025-09-04T08:46:37Z",
-      "description": "The United States government has announced a reward of up to $10 million for information leading to the identification or location of three Russian intelligence officers. The bounty, offered through the Department of State’s Rewards for Justice program, targets members of the Russian Federal Security Service (FSB) accused of conducting widespread malicious cyber campaigns against […] The post US…",
-      "source": "cybersecuritynews.com",
-      "first_seen": "2025-09-04T09:31:38Z",
-      "last_seen": "2025-09-04T10:36:56Z"
-    },
-    {
-      "id": "ffdaf7f15590aec0c971152f4e28f7b0fc08c937",
-      "title": "Hackers Exploit Sitecore Zero-Day for Malware Delivery",
-      "link": "https://www.securityweek.com/hackers-exploit-sitecore-zero-day-for-malware-delivery/",
-      "date": "2025-09-04T08:46:34Z",
-      "description": "Google has observed ViewState deserialization attacks leveraging a sample machine key exposed in older deployment guides. The post Hackers Exploit Sitecore Zero-Day for Malware Delivery appeared first on SecurityWeek.",
-      "source": "securityweek.com",
-      "first_seen": "2025-09-04T09:31:38Z",
-      "last_seen": "2025-09-04T11:25:45Z"
-    },
-    {
       "id": "dc0f4b5425ce0eef025c7fd79dba71068a9c562b",
       "title": "ZDI-CAN-28071: Adobe",
       "link": "http://www.zerodayinitiative.com/advisories/upcoming/",
@@ -36621,7 +36631,7 @@
       "description": "2.5 million people were affected, in a breach that could spell more trouble down the line.",
       "source": "threatpost.com",
       "first_seen": "2025-11-11T10:12:45Z",
-      "last_seen": "2025-12-03T09:16:08Z"
+      "last_seen": "2025-12-03T10:13:32Z"
     },
     {
       "id": "4140c7a34b0ba94ad2e6b0cae9f59b0cb9bfffea",
@@ -36631,7 +36641,7 @@
       "description": "Researchers uncover a watering hole attack likely carried out by APT TA423, which attempts to plant the ScanBox JavaScript-based reconnaissance tool.",
       "source": "threatpost.com",
       "first_seen": "2025-11-11T10:12:45Z",
-      "last_seen": "2025-12-03T09:16:08Z"
+      "last_seen": "2025-12-03T10:13:32Z"
     },
     {
       "id": "9359ee40a641a4b565080313045f1d7e7fe6552b",
@@ -36641,7 +36651,7 @@
       "description": "Over 130 companies tangled in sprawling phishing campaign that spoofed a multi-factor authentication system.",
       "source": "threatpost.com",
       "first_seen": "2025-11-11T10:12:45Z",
-      "last_seen": "2025-12-03T09:16:08Z"
+      "last_seen": "2025-12-03T10:13:32Z"
     },
     {
       "id": "b4ccef0737cd4050d65241bf754072030b6b5e6a",
@@ -36651,7 +36661,7 @@
       "description": "Lockbit is by far this summer’s most prolific ransomware group, trailed by two offshoots of the Conti group.",
       "source": "threatpost.com",
       "first_seen": "2025-11-11T10:12:45Z",
-      "last_seen": "2025-12-03T09:16:08Z"
+      "last_seen": "2025-12-03T10:13:32Z"
     },
     {
       "id": "12ee113fc8fce91f6d7fb28deab2b1ad20061ec7",
@@ -36661,7 +36671,7 @@
       "description": "Tens of thousands of cameras have failed to patch a critical, 11-month-old CVE, leaving thousands of organizations exposed.",
       "source": "threatpost.com",
       "first_seen": "2025-11-11T10:12:45Z",
-      "last_seen": "2025-12-03T09:16:08Z"
+      "last_seen": "2025-12-03T10:13:32Z"
     }
   ]
 }

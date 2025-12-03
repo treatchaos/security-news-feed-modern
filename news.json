@@ -1,7 +1,35 @@
 {
-  "last_updated": "2025-12-03T09:16:08Z",
+  "last_updated": "2025-12-03T10:13:32Z",
   "count": 40,
   "items": [
+    {
+      "title": "Angular Platform Vulnerability Allows Malicious Code Execution Via Weaponized SVG Animation Files",
+      "link": "https://cybersecuritynews.com/angular-platform-vulnerability-weaponized-svg-animation-files/",
+      "date": "2025-12-03T09:51:20Z",
+      "description": "A critical Stored XSS vulnerability in Angular’s template compiler (CVE-2025-66412) allows attackers to execute arbitrary code by weaponizing SVG animation attributes. Bypassing Angular’s built-in security sanitization mechanisms and affecting applications using versions below 19.2.17, 20.3.15, or 21.0.2. The Angular template compiler includes an incomplete security schema that fails to classify…",
+      "source": "cybersecuritynews.com"
+    },
+    {
+      "title": "CISA Warns of Iskra iHUB Vulnerability Allowing Remote Device Reconfiguration",
+      "link": "https://cybersecuritynews.com/cisa-warns-of-iskra-ihub-authentication-vulnerability/",
+      "date": "2025-12-03T09:38:09Z",
+      "description": "A critical warning regarding a severe authentication vulnerability affecting Iskra’s iHUB and iHUB Lite intelligent metering gateways used in energy infrastructure worldwide. The flaw, tracked as CVE-2025-13510, carries a CVSS v4 severity score of 9.3, indicating an exploit that requires minimal technical complexity for attackers. The vulnerability stems from the absence of an authentication…",
+      "source": "cybersecuritynews.com"
+    },
+    {
+      "title": "Picklescan Bugs Allow Malicious PyTorch Models to Evade Scans and Execute Code",
+      "link": "https://thehackernews.com/2025/12/picklescan-bugs-allow-malicious-pytorch.html",
+      "date": "2025-12-03T09:30:00Z",
+      "description": "Three critical security flaws have been disclosed in an open-source utility called Picklescan that could allow malicious actors to execute arbitrary code by loading untrusted PyTorch models, effectively bypassing the tool's protections. Picklescan, developed and maintained by Matthieu Maitre (@mmaitre314), is a security scanner that's designed to parse Python pickle files and detect suspicious",
+      "source": "thehackernews.com"
+    },
+    {
+      "title": "Threat Actors Allegedly Promoting Fully Undetectable K.G.B RAT on Hacker Forums",
+      "link": "https://cybersecuritynews.com/undetectable-k-g-b-rat/",
+      "date": "2025-12-03T09:24:48Z",
+      "description": "A concerning development has emerged within the cybercriminal ecosystem as threat actors continue distributing K.G.B RAT, a remote access trojan bundled with advanced detection evasion capabilities. According to recent reports, this tool combination surfaced on underground forums and has caught the attention of security researchers worldwide. The malware package includes not only the K.G.B RAT…",
+      "source": "cybersecuritynews.com"
+    },
     {
       "title": "BPFDoor and Symbiote Rootkits Attacking Linux Systems Exploiting eBPF Filters",
       "link": "https://cybersecuritynews.com/bpfdoor-and-symbiote-rootkits/",
@@ -17,24 +45,17 @@
       "source": "securityweek.com"
     },
     {
+      "title": "Malicious Rust Crate Delivers OS-Specific Malware to Web3 Developer Systems",
+      "link": "https://thehackernews.com/2025/12/malicious-rust-crate-delivers-os.html",
+      "date": "2025-12-03T08:39:00Z",
+      "description": "Cybersecurity researchers have discovered a malicious Rust package that's capable of targeting Windows, macOS, and Linux systems, and features malicious functionality to stealthily execute on developer machines by masquerading as an Ethereum Virtual Machine (EVM) unit helper tool. The Rust crate, named \"evm-units,\" was uploaded to crates.io in mid-April 2025 by a user named \"ablerust,\"",
+      "source": "thehackernews.com"
+    },
+    {
       "title": "Threat Actors Leveraging Matanbuchus Malicious Downloader to Ransomware and Establish Persistence",
       "link": "https://cybersecuritynews.com/threat-actors-leveraging-matanbuchus-malicious-downloader/",
       "date": "2025-12-03T08:30:17Z",
       "description": "Matanbuchus represents a significant threat in the cybercriminal landscape as a dangerous malware downloader written in C++. Since 2020, this tool has been sold as Malware-as-a-Service, allowing threat actors to rent access and deploy it against targeted organizations. In July 2025, security researchers discovered version 3.0 operating in real-world attacks, marking a notable evolution in […]…",
-      "source": "cybersecuritynews.com"
-    },
-    {
-      "title": "Let’s Encrypt to Reduce Certificate Validity from 90 Days to 45 Days",
-      "link": "https://cybersecuritynews.com/lets-encrypt-45-days-certificate/",
-      "date": "2025-12-03T08:21:23Z",
-      "description": "Let’s Encrypt has officially announced plans to reduce the maximum validity period of its SSL/TLS certificates from 90 days to 45 days. The transition, which will be completed by 2028, aligns with broader industry shifts mandated by the CA/Browser Forum Baseline Requirements. This move is designed to enhance internet security by limiting the window of […] The post Let’s Encrypt to Reduce…",
-      "source": "cybersecuritynews.com"
-    },
-    {
-      "title": "Multiple Django Vulnerabilities Enables SQL Injection and Denial-of-Service Attacks",
-      "link": "https://cybersecuritynews.com/multiple-django-vulnerabilities/",
-      "date": "2025-12-03T06:44:40Z",
-      "description": "The development team has officially released essential security updates to address two significant vulnerabilities found in the popular web framework. These issues range from high to moderate severity. They could allow attackers to compromise database integrity or crash servers through resource exhaustion. The most critical flaw, tracked as CVE-2025-13372, is a high-severity SQL injection…",
       "source": "cybersecuritynews.com"
     },
     {
@@ -43,13 +64,6 @@
       "date": "2025-12-03T04:29:58Z",
       "description": "The post Critical cPanel Flaw (CVSS 9.3) Allows Directory Traversal LPE for Full Server Takeover appeared first on Daily CyberSecurity.",
       "source": "securityonline.info"
-    },
-    {
-      "title": "Chrome 143 Released With Fix for 13 Vulnerabilities that Enable Arbitrary Code Execution",
-      "link": "https://cybersecuritynews.com/chrome-143-released/",
-      "date": "2025-12-03T03:22:21Z",
-      "description": "Google has officially promoted Chrome 143 to the Stable channel, rolling out version 143.0.7499.40 for Linux and 143.0.7499.40/41 for Windows and Mac. This significant update addresses 13 security vulnerabilities, including several high-severity flaws that could allow attackers to execute arbitrary code or compromise the browser’s rendering engine. The most critical vulnerability addressed in…",
-      "source": "cybersecuritynews.com"
     },
     {
       "title": "China Researches Ways to Disrupt Satellite Internet",
@@ -94,8 +108,8 @@
       "source": "darkreading.com"
     },
     {
-      "title": "ChatGPT is down worldwide, conversations dissapeared for users",
-      "link": "https://www.bleepingcomputer.com/news/artificial-intelligence/chatgpt-is-down-worldwide-conversations-dissapeared-for-users/",
+      "title": "ChatGPT is down worldwide, conversations disappeared for users",
+      "link": "https://www.bleepingcomputer.com/news/artificial-intelligence/chatgpt-is-down-worldwide-conversations-disappeared-for-users/",
       "date": "2025-12-02T19:52:16Z",
       "description": "OpenAI's AI-powered ChatGPT is down worldwide with users receiving errors when attempting to access chats, with no reasons currently given. [...]",
       "source": "bleepingcomputer.com"
@@ -157,25 +171,11 @@
       "source": "securityweek.com"
     },
     {
-      "title": "Malicious npm Package Uses Hidden Prompt and Script to Evade AI Security Tools",
-      "link": "https://thehackernews.com/2025/12/malicious-npm-package-uses-hidden.html",
-      "date": "2025-12-02T14:17:00Z",
-      "description": "Cybersecurity researchers have disclosed details of an npm package that attempts to influence artificial intelligence (AI)-driven security scanners. The package in question is eslint-plugin-unicorn-ts-2, which masquerades as a TypeScript extension of the popular ESLint plugin. It was uploaded to the registry by a user named \"hamburgerisland\" in February 2024. The package has been downloaded",
-      "source": "thehackernews.com"
-    },
-    {
       "title": "Chrome, Edge Extensions Caught Tracking Users, Creating Backdoors",
       "link": "https://www.securityweek.com/chrome-edge-extensions-caught-tracking-users-creating-backdoors/",
       "date": "2025-12-02T13:48:47Z",
       "description": "The extensions were seen profiling users, reading cookie data to create unique identifiers, and executing payloads with browser API access. The post Chrome, Edge Extensions Caught Tracking Users, Creating Backdoors appeared first on SecurityWeek.",
       "source": "securityweek.com"
-    },
-    {
-      "title": "Iran-Linked Hackers Hit Israeli Sectors with New MuddyViper Backdoor in Targeted Attacks",
-      "link": "https://thehackernews.com/2025/12/iran-linked-hackers-hits-israeli_2.html",
-      "date": "2025-12-02T13:37:00Z",
-      "description": "Israeli entities spanning academia, engineering, local government, manufacturing, technology, transportation, and utilities sectors have emerged as the target of a new set of attacks undertaken by Iranian nation-state actors that have delivered a previously undocumented backdoor called MuddyViper. The activity has been attributed by ESET to a hacking group known as MuddyWater (aka Mango",
-      "source": "thehackernews.com"
     },
     {
       "title": "Saporo Raises $8 Million for Identity Security Platform",
