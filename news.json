@@ -1,7 +1,28 @@
 {
-  "last_updated": "2025-12-08T02:44:55Z",
+  "last_updated": "2025-12-08T06:20:12Z",
   "count": 40,
   "items": [
+    {
+      "title": "Predator Spyware Compamy Used 15 Zero-Days Since 2021 to Target iOS Users",
+      "link": "https://cybersecuritynews.com/predator-spyware-compamy-used-15-zero-days/",
+      "date": "2025-12-08T06:12:22Z",
+      "description": "A commercial spyware company called Intellexa has exploited 15 zero-day vulnerabilities since 2021 to target iOS and Android users worldwide. The company, known for developing the Predator spyware, continues operations despite being sanctioned by the US government. The threats remain active across multiple countries, with recent attacks detected in Saudi Arabia, Pakistan, Egypt, and other […]…",
+      "source": "cybersecuritynews.com"
+    },
+    {
+      "title": "Critical React2Shell RCE Vulnerability Exploited in the Wild to Execute Malicious Code",
+      "link": "https://cybersecuritynews.com/react2shell-rce-vulnerability/",
+      "date": "2025-12-08T06:02:19Z",
+      "description": "A critical remote code execution vulnerability, tracked as CVE-2025-55182 and dubbed “React2Shell,” is now under active exploitation in the wild. GreyNoise researchers have detected opportunistic, largely automated exploitation attempts targeting the unsafe deserialization flaw in the React Server Components Flight protocol. The vulnerability enables unauthenticated remote code execution (RCE)…",
+      "source": "cybersecuritynews.com"
+    },
+    {
+      "title": "Malicious Go Packages Mimic as Google’s UUID Library to Exfiltrate Sensitive Data",
+      "link": "https://cybersecuritynews.com/malicious-go-packages-as-googles-uuid-library/",
+      "date": "2025-12-08T05:49:01Z",
+      "description": "Security researchers have uncovered a long-running supply chain attack targeting the Go programming community. The Socket Threat Research Team recently identified two malicious packages. github.com/bpoorman/uuid and github.com/bpoorman/uid. That has been silently stealing data from unsuspecting developers for years. The attack relies on a technique called “typosquatting.” Fake Go Packages…",
+      "source": "cybersecuritynews.com"
+    },
     {
       "title": "NETREAPER Offensive Security Toolkit That Wraps 70+ Penetration Testing Tools",
       "link": "https://cybersecuritynews.com/netreaper-offensive-security-toolkit/",
@@ -38,32 +59,11 @@
       "source": "cybersecuritynews.com"
     },
     {
-      "title": "LockBit 5.0 Infrastructure Exposed in New Server, IP, and Domain Leak",
-      "link": "https://cybersecuritynews.com/lockbit-5-0-infrastructure-exposed/",
-      "date": "2025-12-07T08:01:41Z",
-      "description": "LockBit 5.0 key infrastructure exposed, revealing the IP address 205.185.116.233, and the domain karma0.xyz is hosting the ransomware group’s latest leak site. According to researcher Rakesh Krishnan, hosted under AS53667 (PONYNET, operated by FranTech Solutions), a network frequently abused for illicit activities, the server displays a DDoS protection page branded with “LOCKBITS.5.0,”…",
-      "source": "cybersecuritynews.com"
-    },
-    {
-      "title": "Hackers Launch Widespread Attacks on Palo Alto GlobalProtect Portals from 7,000+ IPs",
-      "link": "https://cybersecuritynews.com/palo-alto-globalprotect-attacks/",
-      "date": "2025-12-07T05:26:13Z",
-      "description": "In an escalating campaign targeting remote access infrastructure, threat actors have initiated active exploitation attempts against Palo Alto Networks’ GlobalProtect VPN portals. GrayNoise tracking activity report scans and exploitation efforts originating from more than 7,000 unique IP addresses worldwide, raising alarms for organizations relying on the popular VPN solution for secure remote…",
-      "source": "cybersecuritynews.com"
-    },
-    {
       "title": "React2Shell flaw exploited to breach 30 orgs, 77k IP addresses vulnerable",
       "link": "https://www.bleepingcomputer.com/news/security/react2shell-flaw-exploited-to-breach-30-orgs-77k-ip-addresses-vulnerable/",
       "date": "2025-12-06T19:07:33Z",
       "description": "Over 77,000 Internet-exposed IP addresses are vulnerable to the critical React2Shell remote code execution flaw (CVE-2025-55182), with researchers now confirming that attackers have already compromised over 30 organizations across multiple sectors. [...]",
       "source": "bleepingcomputer.com"
-    },
-    {
-      "title": "New FvncBot Android Banking Attacking Users to Log Keystrokes and Inject Malicious Payloads",
-      "link": "https://cybersecuritynews.com/fvncbot-android-banking-attacking/",
-      "date": "2025-12-06T15:53:29Z",
-      "description": "A dangerous new Android banking malware named FvncBot was first observed on November 25, 2025. This malicious tool is designed to steal sensitive financial information by logging keystrokes, recording screens, and injecting fake login pages into banking apps. The malware initially spreads through a fake application disguised as a security tool for mBank, a popular Polish bank. The […] The post…",
-      "source": "cybersecuritynews.com"
     },
     {
       "title": "Researchers Uncover 30+ Flaws in AI Coding Tools Enabling Data Theft and RCE Attacks",
@@ -188,35 +188,35 @@
       "title": "ZDI-CAN-28176: Apple",
       "link": "http://www.zerodayinitiative.com/advisories/upcoming/",
       "date": "2025-12-05T06:00:00Z",
-      "description": "A CVSS score 7.8 AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H severity vulnerability discovered by 'George Karchemsky (@gkarchemsky)' was reported to the affected vendor on: 2025-12-05, 2 days ago. The vendor is given until 2026-04-04 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
+      "description": "A CVSS score 7.8 AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H severity vulnerability discovered by 'George Karchemsky (@gkarchemsky)' was reported to the affected vendor on: 2025-12-05, 3 days ago. The vendor is given until 2026-04-04 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
       "source": "zerodayinitiative.com"
     },
     {
       "title": "ZDI-CAN-28487: Microsoft",
       "link": "http://www.zerodayinitiative.com/advisories/upcoming/",
       "date": "2025-12-05T06:00:00Z",
-      "description": "A CVSS score 7.8 AV:L/AC:H/PR:L/UI:N/S:C/C:H/I:H/A:H severity vulnerability discovered by 'Marcin Wiazowski' was reported to the affected vendor on: 2025-12-05, 2 days ago. The vendor is given until 2026-04-04 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
+      "description": "A CVSS score 7.8 AV:L/AC:H/PR:L/UI:N/S:C/C:H/I:H/A:H severity vulnerability discovered by 'Marcin Wiazowski' was reported to the affected vendor on: 2025-12-05, 3 days ago. The vendor is given until 2026-04-04 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
       "source": "zerodayinitiative.com"
     },
     {
       "title": "ZDI-CAN-28381: Microsoft",
       "link": "http://www.zerodayinitiative.com/advisories/upcoming/",
       "date": "2025-12-05T06:00:00Z",
-      "description": "A CVSS score 7.8 AV:L/AC:H/PR:L/UI:N/S:C/C:H/I:H/A:H severity vulnerability discovered by 'Anonymous' was reported to the affected vendor on: 2025-12-05, 2 days ago. The vendor is given until 2026-04-04 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
+      "description": "A CVSS score 7.8 AV:L/AC:H/PR:L/UI:N/S:C/C:H/I:H/A:H severity vulnerability discovered by 'Anonymous' was reported to the affected vendor on: 2025-12-05, 3 days ago. The vendor is given until 2026-04-04 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
       "source": "zerodayinitiative.com"
     },
     {
       "title": "ZDI-CAN-28486: QNAP",
       "link": "http://www.zerodayinitiative.com/advisories/upcoming/",
       "date": "2025-12-04T06:00:00Z",
-      "description": "A CVSS score 7.5 AV:A/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H severity vulnerability discovered by 'gcali (@_gcali)' was reported to the affected vendor on: 2025-12-04, 3 days ago. The vendor is given until 2026-04-03 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
+      "description": "A CVSS score 7.5 AV:A/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H severity vulnerability discovered by 'gcali (@_gcali)' was reported to the affected vendor on: 2025-12-04, 4 days ago. The vendor is given until 2026-04-03 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
       "source": "zerodayinitiative.com"
     },
     {
       "title": "ZDI-CAN-28623: SolarWinds",
       "link": "http://www.zerodayinitiative.com/advisories/upcoming/",
       "date": "2025-12-04T06:00:00Z",
-      "description": "A CVSS score 9.8 AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H severity vulnerability discovered by 'Guy Lederfein of Trend Research' was reported to the affected vendor on: 2025-12-04, 3 days ago. The vendor is given until 2026-04-03 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
+      "description": "A CVSS score 9.8 AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H severity vulnerability discovered by 'Guy Lederfein of Trend Research' was reported to the affected vendor on: 2025-12-04, 4 days ago. The vendor is given until 2026-04-03 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
       "source": "zerodayinitiative.com"
     },
     {
