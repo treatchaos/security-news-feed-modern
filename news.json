@@ -1,7 +1,35 @@
 {
-  "last_updated": "2025-12-09T08:17:10Z",
+  "last_updated": "2025-12-09T09:15:22Z",
   "count": 40,
   "items": [
+    {
+      "title": "Operation FrostBeacon Attacking Finance and Legal Departments with Cobalt Strike Malware",
+      "link": "https://cybersecuritynews.com/operation-frostbeacon-attacking-finance/",
+      "date": "2025-12-09T09:00:19Z",
+      "description": "A sophisticated malware campaign has emerged targeting financial and legal sectors in the Russian Federation, delivering the notorious Cobalt Strike remote access tool to organizations handling sensitive business transactions. Security researchers have identified over twenty initial infection files involved in this multi-stage attack chain, revealing a well-orchestrated operation designed to…",
+      "source": "cybersecuritynews.com"
+    },
+    {
+      "title": "New Multi-stage JS#SMUGGLER Malware Attack Delivers ‘NetSupport RAT’ to Gain Full System Control",
+      "link": "https://cybersecuritynews.com/new-multi-stage-jssmuggler-malware-attack/",
+      "date": "2025-12-09T08:25:36Z",
+      "description": "A new malware campaign using multiple attack stages has been discovered that delivers NetSupport RAT through hidden web-based redirects and obfuscated code. The attack unfolds in three stages, starting with a JavaScript loader injected into compromised websites. This first stage downloads a stealthy HTA file that runs encrypted PowerShell commands using mshta.exe. The final stage […] The post…",
+      "source": "cybersecuritynews.com"
+    },
+    {
+      "title": "CISA Warns of D-Link Routers Buffer Overflow Vulnerability Exploited in Attacks",
+      "link": "https://cybersecuritynews.com/cisa-d-link-routers-vulnerability/",
+      "date": "2025-12-09T08:20:51Z",
+      "description": "A critical buffer overflow vulnerability affecting D-Link routers has been added to the CISA catalog of Known Exploited Vulnerabilities, indicating active exploitation in the wild. The flaw, tracked as CVE-2022-37055, poses severe risks to organizations and enterprise networks relying on affected D-Link networking equipment. The vulnerability stems from improper memory management in D-Link…",
+      "source": "cybersecuritynews.com"
+    },
+    {
+      "title": "Researchers Find Malicious VS Code, Go, npm, and Rust Packages Stealing Developer Data",
+      "link": "https://thehackernews.com/2025/12/researchers-find-malicious-vs-code-go.html",
+      "date": "2025-12-09T08:07:00Z",
+      "description": "Cybersecurity researchers have discovered two new extensions on Microsoft Visual Studio Code (VS Code) Marketplace that are designed to infect developer machines with stealer malware. The VS Code extensions masquerade as a premium dark theme and an artificial intelligence (AI)-powered coding assistant, but, in actuality, harbor covert functionality to download additional payloads, take",
+      "source": "thehackernews.com"
+    },
     {
       "title": "SAP Security Patch Day: Fix for Critical Vulnerabilities in SAP Solution Manager, NetWeaver, and Other Products",
       "link": "https://cybersecuritynews.com/sap-security-patch-day-december/",
@@ -17,25 +45,11 @@
       "source": "cybersecuritynews.com"
     },
     {
-      "title": "Burp Suite’s Scanning Arsenal Powered With Detection for Critical React2Shell Vulnerabilities",
-      "link": "https://cybersecuritynews.com/burp-suite-react2shell-vulnerabilities/",
-      "date": "2025-12-09T06:27:24Z",
-      "description": "PortSwigger has enhanced Burp Suite’s scanning arsenal with the latest update to its ActiveScan++ extension, introducing detection for the critical React2Shell vulnerabilities (CVE-2025-55182 and CVE-2025-66478). This server-side request forgery (SSRF) flaw in React applications allows attackers to execute arbitrary shell commands, potentially leading to full remote code execution (RCE) on…",
-      "source": "cybersecuritynews.com"
-    },
-    {
       "title": "macOS Privilege Escalation Flaw Bypasses Patch for Root Access, Poc Releases!",
       "link": "https://securityonline.info/macos-privilege-escalation-flaw-bypasses-patch-for-root-access-poc-releases/",
       "date": "2025-12-09T02:59:46Z",
       "description": "The post macOS Privilege Escalation Flaw Bypasses Patch for Root Access, Poc Releases! appeared first on Daily CyberSecurity.",
       "source": "securityonline.info"
-    },
-    {
-      "title": "Apple, Google and Samsung May Enable Always-On GPS in India",
-      "link": "https://cybersecuritynews.com/apple-google-and-samsung-always-on-gps/",
-      "date": "2025-12-09T02:27:01Z",
-      "description": "The Indian government is currently evaluating a controversial proposal from the telecom industry that would mandate smartphone manufacturers to enable “always-on” satellite location tracking. This move has sparked significant opposition from major technology companies, including Apple, Google, and Samsung, who argue it poses serious privacy and security risks. The proposal was put forward by the…",
-      "source": "cybersecuritynews.com"
     },
     {
       "title": "Ransomware gangs turn to Shanya EXE packer to hide EDR killers",
@@ -108,13 +122,6 @@
       "source": "thehackernews.com"
     },
     {
-      "title": "Malicious Document Reader App in Google Play With 50K Downloads Installs Anatsa Malware",
-      "link": "https://cybersecuritynews.com/malicious-document-reader-app-google-play/",
-      "date": "2025-12-08T17:24:26Z",
-      "description": "A deceptive Android application lurking in the Google Play Store, disguised as a document reader and file manager, but delivering the Anatsa banking trojan to users. Cybersecurity firm Zscaler ThreatLabz found an app named “Document Reader – File Manager” by developer ISTOQMAH. The app has amassed over 50,000 downloads while remaining live, tricking users into […] The post Malicious Document…",
-      "source": "cybersecuritynews.com"
-    },
-    {
       "title": "CISO Conversations: Keith McCammon, CSO and Co-founder at Red Canary",
       "link": "https://www.securityweek.com/ciso-conversations-keith-mccammon-cso-and-co-founder-at-red-canary/",
       "date": "2025-12-08T15:00:00Z",
@@ -168,13 +175,6 @@
       "link": "https://thehackernews.com/2025/12/android-malware-fvncbot-seedsnatcher.html",
       "date": "2025-12-08T11:00:00Z",
       "description": "Cybersecurity researchers have disclosed details of two new Android malware families dubbed FvncBot and SeedSnatcher, as another upgraded version of ClayRat has been spotted in the wild. The findings come from Intel 471, CYFIRMA, and Zimperium, respectively. FvncBot, which masquerades as a security app developed by mBank, targets mobile banking users in Poland. What's notable about the malware",
-      "source": "thehackernews.com"
-    },
-    {
-      "title": "Sneeit WordPress RCE Exploited in the Wild While ICTBroadcast Bug Fuels Frost Botnet Attacks",
-      "link": "https://thehackernews.com/2025/12/sneeit-wordpress-rce-exploited-in-wild.html",
-      "date": "2025-12-08T09:15:00Z",
-      "description": "A critical security flaw in the Sneeit Framework plugin for WordPress is being actively exploited in the wild, per data from Wordfence. The remote code execution vulnerability in question is CVE-2025-6389 (CVSS score: 9.8), which affects all versions of the plugin prior to and including 8.3. It has been patched in version 8.4, released on August 5, 2025. The plugin has more than 1,700 active",
       "source": "thehackernews.com"
     },
     {

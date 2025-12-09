@@ -1,7 +1,47 @@
 {
   "date": "2025-12-09",
-  "count": 6,
+  "count": 10,
   "items": [
+    {
+      "id": "0ed9e97f7a092dab6f16fe396a5de28db4805ae8",
+      "title": "Operation FrostBeacon Attacking Finance and Legal Departments with Cobalt Strike Malware",
+      "link": "https://cybersecuritynews.com/operation-frostbeacon-attacking-finance/",
+      "date": "2025-12-09T09:00:19Z",
+      "description": "A sophisticated malware campaign has emerged targeting financial and legal sectors in the Russian Federation, delivering the notorious Cobalt Strike remote access tool to organizations handling sensitive business transactions. Security researchers have identified over twenty initial infection files involved in this multi-stage attack chain, revealing a well-orchestrated operation designed to…",
+      "source": "cybersecuritynews.com",
+      "first_seen": "2025-12-09T09:15:22Z",
+      "last_seen": "2025-12-09T09:15:22Z"
+    },
+    {
+      "id": "ed198a493e9f272044bd7525dcc9641d017a3f9c",
+      "title": "New Multi-stage JS#SMUGGLER Malware Attack Delivers ‘NetSupport RAT’ to Gain Full System Control",
+      "link": "https://cybersecuritynews.com/new-multi-stage-jssmuggler-malware-attack/",
+      "date": "2025-12-09T08:25:36Z",
+      "description": "A new malware campaign using multiple attack stages has been discovered that delivers NetSupport RAT through hidden web-based redirects and obfuscated code. The attack unfolds in three stages, starting with a JavaScript loader injected into compromised websites. This first stage downloads a stealthy HTA file that runs encrypted PowerShell commands using mshta.exe. The final stage […] The post…",
+      "source": "cybersecuritynews.com",
+      "first_seen": "2025-12-09T09:15:22Z",
+      "last_seen": "2025-12-09T09:15:22Z"
+    },
+    {
+      "id": "2de90eac948c22ef9e865e5260c2a3c6b7ac9f30",
+      "title": "CISA Warns of D-Link Routers Buffer Overflow Vulnerability Exploited in Attacks",
+      "link": "https://cybersecuritynews.com/cisa-d-link-routers-vulnerability/",
+      "date": "2025-12-09T08:20:51Z",
+      "description": "A critical buffer overflow vulnerability affecting D-Link routers has been added to the CISA catalog of Known Exploited Vulnerabilities, indicating active exploitation in the wild. The flaw, tracked as CVE-2022-37055, poses severe risks to organizations and enterprise networks relying on affected D-Link networking equipment. The vulnerability stems from improper memory management in D-Link…",
+      "source": "cybersecuritynews.com",
+      "first_seen": "2025-12-09T09:15:22Z",
+      "last_seen": "2025-12-09T09:15:22Z"
+    },
+    {
+      "id": "326ca7042771c7bf9ff41f529a427089e2c840e4",
+      "title": "Researchers Find Malicious VS Code, Go, npm, and Rust Packages Stealing Developer Data",
+      "link": "https://thehackernews.com/2025/12/researchers-find-malicious-vs-code-go.html",
+      "date": "2025-12-09T08:07:00Z",
+      "description": "Cybersecurity researchers have discovered two new extensions on Microsoft Visual Studio Code (VS Code) Marketplace that are designed to infect developer machines with stealer malware. The VS Code extensions masquerade as a premium dark theme and an artificial intelligence (AI)-powered coding assistant, but, in actuality, harbor covert functionality to download additional payloads, take",
+      "source": "thehackernews.com",
+      "first_seen": "2025-12-09T09:15:22Z",
+      "last_seen": "2025-12-09T09:15:22Z"
+    },
     {
       "id": "ca81452d7252ecb56593c961cbfd811c9708ddde",
       "title": "SAP Security Patch Day: Fix for Critical Vulnerabilities in SAP Solution Manager, NetWeaver, and Other Products",
@@ -10,7 +50,7 @@
       "description": "SAP released 14 new security notes on its monthly Security Patch Day on December 9, 2025, addressing vulnerabilities across key products, including SAP Solution Manager, NetWeaver, Commerce Cloud, and more. Three critical flaws with CVSS scores exceeding 9.0 demand immediate attention from organizations running affected systems.​ The most severe issue, tracked as CVE-2025-42880 with a […] The…",
       "source": "cybersecuritynews.com",
       "first_seen": "2025-12-09T08:17:10Z",
-      "last_seen": "2025-12-09T08:17:10Z"
+      "last_seen": "2025-12-09T09:15:22Z"
     },
     {
       "id": "1b2fc601739d75ae9bd73af896ddad5211f07b5a",
@@ -20,7 +60,7 @@
       "description": "Over 565 internet-exposed Apache Tika Server instances are vulnerable to a critical XML External Entity (XXE) injection flaw. That could enable attackers to steal sensitive data, launch denial-of-service attacks, or conduct server-side request forgery operations. The vulnerability, tracked as CVE-2025-66516, affects tika-core versions 1.13.0 through 3.2.1 and carries a maximum CVSS severity…",
       "source": "cybersecuritynews.com",
       "first_seen": "2025-12-09T08:17:10Z",
-      "last_seen": "2025-12-09T08:17:10Z"
+      "last_seen": "2025-12-09T09:15:22Z"
     },
     {
       "id": "5cf3d835054babef90badd0856cd264e386d2249",
@@ -40,7 +80,7 @@
       "description": "The post macOS Privilege Escalation Flaw Bypasses Patch for Root Access, Poc Releases! appeared first on Daily CyberSecurity.",
       "source": "securityonline.info",
       "first_seen": "2025-12-09T03:45:18Z",
-      "last_seen": "2025-12-09T08:17:10Z"
+      "last_seen": "2025-12-09T09:15:22Z"
     },
     {
       "id": "3983de027ec8f3f8f2cb0b9b56bc59616e1281f4",
@@ -60,7 +100,7 @@
       "description": "Several ransomware groups have been spotted using a packer-as-a-service (PaaS) platform named Shanya to assist in EDR (endpoint detection and response) killing operations. [...]",
       "source": "bleepingcomputer.com",
       "first_seen": "2025-12-09T00:54:24Z",
-      "last_seen": "2025-12-09T08:17:10Z"
+      "last_seen": "2025-12-09T09:15:22Z"
     }
   ]
 }
