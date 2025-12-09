@@ -1,7 +1,37 @@
 {
   "date": "2025-12-09",
-  "count": 32,
+  "count": 38,
   "items": [
+    {
+      "id": "94c149b85df20e9eb8ac7db5e5daa5429943a564",
+      "title": "Microsoft Teams New feature Allows Users to Flag Malicious Calls",
+      "link": "https://cybersecuritynews.com/microsoft-teams-call-flag/",
+      "date": "2025-12-09T14:59:42Z",
+      "description": "Microsoft is set to introduce a significant security enhancement to its Teams platform that will empower users to flag potentially malicious or unsolicited calls. This upcoming feature, “Report a Suspicious Call,” is designed to strengthen the platform’s defenses against fraudulent activities by leveraging user-submitted reports to identify and mitigate threats. The new capability will allow […]…",
+      "source": "cybersecuritynews.com",
+      "first_seen": "2025-12-09T15:13:49Z",
+      "last_seen": "2025-12-09T15:13:49Z"
+    },
+    {
+      "id": "ffdb60b3c193a42a3d39323ea5f7596a442905bc",
+      "title": "Identity Security Firm Saviynt Raises $700 Million at $3 Billion Valuation",
+      "link": "https://www.securityweek.com/identity-security-firm-saviynt-raises-700-million-at-3-billion-valuation/",
+      "date": "2025-12-09T14:49:26Z",
+      "description": "The funding round was led by KKR, with participation from Sixth Street Growth, TenEleven, and Carrick Capital Partners. The post Identity Security Firm Saviynt Raises $700 Million at $3 Billion Valuation appeared first on SecurityWeek.",
+      "source": "securityweek.com",
+      "first_seen": "2025-12-09T15:13:49Z",
+      "last_seen": "2025-12-09T15:13:49Z"
+    },
+    {
+      "id": "ae70d1ec8a00301ee8670d27c513bfbe792001e0",
+      "title": "Critical Emby Server Vulnerability Let Attackers Gain Admin Access",
+      "link": "https://cybersecuritynews.com/critical-emby-server-vulnerability/",
+      "date": "2025-12-09T14:14:42Z",
+      "description": "A critical vulnerability has been discovered in Emby Server that allows unauthenticated attackers to gain full administrative access to affected systems. Tracked as CVE-2025-64113 with a severity score of 9.3 out of 10 (CVSS v4), this weakness affects both stable and beta versions of the popular media server software. The vulnerability stems from a weak password recovery […] The post Critical…",
+      "source": "cybersecuritynews.com",
+      "first_seen": "2025-12-09T15:13:49Z",
+      "last_seen": "2025-12-09T15:13:49Z"
+    },
     {
       "id": "52435f71d880c14da260f71bca9d7353bea2dd38",
       "title": "New Vishing Attack Leverages Microsoft Teams Call and QuickAssist to Deploy .NET Malware",
@@ -13,6 +43,16 @@
       "last_seen": "2025-12-09T14:13:36Z"
     },
     {
+      "id": "9646c4882afd7a4123182b17c256732f72f1fe42",
+      "title": "New Vishing Attack Leverages Microsoft Teams Calls and QuickAssist to Deploy .NET Malware",
+      "link": "https://cybersecuritynews.com/new-vishing-attack-leverages-microsoft-teams-call/",
+      "date": "2025-12-09T14:08:57Z",
+      "description": "A sophisticated new vishing campaign has emerged, blending traditional voice phishing with modern collaboration tools to deploy stealthy malware. Attackers are leveraging Microsoft Teams calls and the remote support tool QuickAssist to bypass security perimeters. By impersonating senior IT staff, they create a sense of urgency that disarms victims, leading to a multi-stage infection process […]…",
+      "source": "cybersecuritynews.com",
+      "first_seen": "2025-12-09T15:13:49Z",
+      "last_seen": "2025-12-09T15:13:49Z"
+    },
+    {
       "id": "094d875070abe678807f3e8743bc747718a0793c",
       "title": "Ruby SAML Library Vulnerability Let Attackers Bypass Authentication",
       "link": "https://cybersecuritynews.com/ruby-saml-library-vulnerability/",
@@ -20,7 +60,7 @@
       "description": "A critical vulnerability has been discovered in the Ruby SAML library that could allow attackers to bypass authentication mechanisms in affected applications completely. The flaw, tracked as CVE-2025-66567, impacts all versions up to and including 1.12.4 and has been assigned a critical CVSS score of 10.0. The vulnerability stems from an incomplete fix for a […] The post Ruby SAML Library…",
       "source": "cybersecuritynews.com",
       "first_seen": "2025-12-09T14:13:36Z",
-      "last_seen": "2025-12-09T14:13:36Z"
+      "last_seen": "2025-12-09T15:13:49Z"
     },
     {
       "id": "c75555142caa763b7b4efdf01bdf36a4c555b522",
@@ -30,7 +70,7 @@
       "description": "Security researchers have uncovered critical vulnerabilities in the Model Context Protocol (MCP) sampling feature. Revealing how malicious servers can exploit LLM-integrated applications to conduct resource theft, conversation hijacking, and unauthorized system modifications. Attack Vector Mechanism Impact Resource theft Hidden instructions in sampling requests make the LLM generate extra,…",
       "source": "cybersecuritynews.com",
       "first_seen": "2025-12-09T14:13:36Z",
-      "last_seen": "2025-12-09T14:13:36Z"
+      "last_seen": "2025-12-09T15:13:49Z"
     },
     {
       "id": "8c93108a64a4da1385572cf7046a665f03055759",
@@ -51,6 +91,16 @@
       "source": "cybersecuritynews.com",
       "first_seen": "2025-12-09T14:13:36Z",
       "last_seen": "2025-12-09T14:13:36Z"
+    },
+    {
+      "id": "59ba2b4fe056c442e882a140d5fbfa86b35d20bd",
+      "title": "Storm-0249 Escalates Ransomware Attacks with ClickFix, Fileless PowerShell, and DLL Sideloading",
+      "link": "https://thehackernews.com/2025/12/storm-0249-escalates-ransomware-attacks.html",
+      "date": "2025-12-09T13:37:00Z",
+      "description": "The threat actor known as Storm-0249 is likely shifting from its role as an initial access broker to adopt a combination of more advanced tactics like domain spoofing, DLL side-loading, and fileless PowerShell execution to facilitate ransomware attacks. \"These methods allow them to bypass defenses, infiltrate networks, maintain persistence, and operate undetected, raising serious concerns for",
+      "source": "thehackernews.com",
+      "first_seen": "2025-12-09T15:13:49Z",
+      "last_seen": "2025-12-09T15:13:49Z"
     },
     {
       "id": "e5c99644abaabc6f5d1ba9ad0198bb03efd67224",
@@ -90,7 +140,7 @@
       "description": "The US seeks information on the leader of Emennet Pasargad, Mohammad Bagher Shirinkar, and long-time employee Fatemeh Sedighian Kashi. The post US Posts $10 Million Bounty for Iranian Hackers appeared first on SecurityWeek.",
       "source": "securityweek.com",
       "first_seen": "2025-12-09T13:29:48Z",
-      "last_seen": "2025-12-09T14:13:36Z"
+      "last_seen": "2025-12-09T15:13:49Z"
     },
     {
       "id": "190a29aefd71263c256f339bd04f5f4bc5ccd772",
@@ -100,7 +150,17 @@
       "description": "Enterprise cybersecurity giant Proofpoint has completed the acquisition of Germany-based Microsoft 365 security solutions provider Hornetsecurity. Financial details were not officially disclosed when news of the transaction came to light, but it was reported that Proofpoint would be paying $1 billion for its European competitor. SecurityWeek learned at the time that the deal size well […] The…",
       "source": "securityweek.com",
       "first_seen": "2025-12-09T12:23:03Z",
-      "last_seen": "2025-12-09T14:13:36Z"
+      "last_seen": "2025-12-09T15:13:49Z"
+    },
+    {
+      "id": "7612f141e031f5770a82132f603faf4a73b86034",
+      "title": "Gemini Enterprise No-Click Flaw Exposes Sensitive Data",
+      "link": "https://www.darkreading.com/remote-workforce/gemini-enterprise-exposes-sensitive-data",
+      "date": "2025-12-09T12:08:41Z",
+      "description": "Google has fixed a critical vulnerability that enabled attackers to add malicious instructions to common documents to exfiltrate sensitive corporate information.",
+      "source": "darkreading.com",
+      "first_seen": "2025-12-09T15:13:49Z",
+      "last_seen": "2025-12-09T15:13:49Z"
     },
     {
       "id": "f8c7f26794a2cbacd36e7848059fce72636881a7",
@@ -120,7 +180,7 @@
       "description": "Microsoft is working to mitigate an ongoing incident that has been blocking users in Europe from accessing the company's AI-powered Copilot digital assistant. [...]",
       "source": "bleepingcomputer.com",
       "first_seen": "2025-12-09T12:23:03Z",
-      "last_seen": "2025-12-09T14:13:36Z"
+      "last_seen": "2025-12-09T15:13:49Z"
     },
     {
       "id": "6ca27b2410e6270f6665b3a55b267050f27d6d9f",
@@ -130,7 +190,7 @@
       "description": "The botnet attempts to steal credentials from infected TBK DVR devices, in addition to abusing them to launch DDoS attacks. The post New ‘Broadside’ Botnet Poses Risk to Shipping Companies appeared first on SecurityWeek.",
       "source": "securityweek.com",
       "first_seen": "2025-12-09T12:23:03Z",
-      "last_seen": "2025-12-09T14:13:36Z"
+      "last_seen": "2025-12-09T15:13:49Z"
     },
     {
       "id": "ad0a3d3ec8ed83e074b39ec8de8a10df62e1953a",
@@ -140,7 +200,7 @@
       "description": "Zero Trust helps organizations shrink their attack surface and respond to threats faster, but many still struggle to implement it because their security tools don’t share signals reliably. 88% of organizations admit they’ve suffered significant challenges in trying to implement such approaches, according to Accenture. When products can’t communicate, real-time access decisions break down. The",
       "source": "thehackernews.com",
       "first_seen": "2025-12-09T13:29:48Z",
-      "last_seen": "2025-12-09T14:13:36Z"
+      "last_seen": "2025-12-09T15:13:49Z"
     },
     {
       "id": "46f966aff353d043a6deff4447091cb41fb691df",
@@ -150,7 +210,7 @@
       "description": "Google on Monday announced a set of new security features in Chrome, following the company's addition of agentic artificial intelligence (AI) capabilities to the web browser. To that end, the tech giant said it has implemented layered defenses to make it harder for bad actors to exploit indirect prompt injections that arise as a result of exposure to untrusted web content and inflict harm. Chief",
       "source": "thehackernews.com",
       "first_seen": "2025-12-09T13:29:48Z",
-      "last_seen": "2025-12-09T14:13:36Z"
+      "last_seen": "2025-12-09T15:13:49Z"
     },
     {
       "id": "fb669a92537bd9941645ae9f55af0d8da775e1df",
@@ -160,7 +220,7 @@
       "description": "The Italian startup will use the investment to build proprietary AI models, accelerate global expansion, and hire new talent. The post Equixly Raises $11 Million for AI-Powered API Penetration Testing appeared first on SecurityWeek.",
       "source": "securityweek.com",
       "first_seen": "2025-12-09T11:11:10Z",
-      "last_seen": "2025-12-09T14:13:36Z"
+      "last_seen": "2025-12-09T15:13:49Z"
     },
     {
       "id": "192ef0dae1a9adc90b35e822e2d826d6168e9e9a",
@@ -210,7 +270,7 @@
       "description": "Canadian organizations have emerged as the focus of a targeted cyber campaign orchestrated by a threat activity cluster known as STAC6565. Cybersecurity company Sophos said it investigated almost 40 intrusions linked to the threat actor between February 2024 and August 2025. The campaign is assessed with high confidence to share overlaps with a hacking group known as Gold Blade, which is also",
       "source": "thehackernews.com",
       "first_seen": "2025-12-09T10:14:21Z",
-      "last_seen": "2025-12-09T14:13:36Z"
+      "last_seen": "2025-12-09T15:13:49Z"
     },
     {
       "id": "43c486c5d316e03e1b6664fee1a68cfc632f5cbf",
@@ -260,7 +320,7 @@
       "description": "Cybersecurity researchers have discovered two new extensions on Microsoft Visual Studio Code (VS Code) Marketplace that are designed to infect developer machines with stealer malware. The VS Code extensions masquerade as a premium dark theme and an artificial intelligence (AI)-powered coding assistant, but, in actuality, harbor covert functionality to download additional payloads, take",
       "source": "thehackernews.com",
       "first_seen": "2025-12-09T09:15:22Z",
-      "last_seen": "2025-12-09T14:13:36Z"
+      "last_seen": "2025-12-09T15:13:49Z"
     },
     {
       "id": "ca81452d7252ecb56593c961cbfd811c9708ddde",
@@ -300,7 +360,7 @@
       "description": "The post macOS Privilege Escalation Flaw Bypasses Patch for Root Access, Poc Releases! appeared first on Daily CyberSecurity.",
       "source": "securityonline.info",
       "first_seen": "2025-12-09T03:45:18Z",
-      "last_seen": "2025-12-09T14:13:36Z"
+      "last_seen": "2025-12-09T15:13:49Z"
     },
     {
       "id": "3983de027ec8f3f8f2cb0b9b56bc59616e1281f4",
@@ -320,7 +380,7 @@
       "description": "Several ransomware groups have been spotted using a packer-as-a-service (PaaS) platform named Shanya to assist in EDR (endpoint detection and response) killing operations. [...]",
       "source": "bleepingcomputer.com",
       "first_seen": "2025-12-09T00:54:24Z",
-      "last_seen": "2025-12-09T14:13:36Z"
+      "last_seen": "2025-12-09T15:13:49Z"
     }
   ]
 }
