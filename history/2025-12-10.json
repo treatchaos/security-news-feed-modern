@@ -1,7 +1,27 @@
 {
   "date": "2025-12-10",
-  "count": 13,
+  "count": 15,
   "items": [
+    {
+      "id": "1bb60a7dc747e73d30c088f5bd6e91c85a502187",
+      "title": "SAP Patches Critical Vulnerabilities With December 2025 Security Updates",
+      "link": "https://www.securityweek.com/sap-patches-critical-vulnerabilities-with-december-2025-security-updates/",
+      "date": "2025-12-10T11:08:55Z",
+      "description": "Affecting Solution Manager, Commerce Cloud, and jConnect SDK, the bugs could lead to code injection and remote code execution. The post SAP Patches Critical Vulnerabilities With December 2025 Security Updates appeared first on SecurityWeek.",
+      "source": "securityweek.com",
+      "first_seen": "2025-12-10T11:11:09Z",
+      "last_seen": "2025-12-10T11:11:09Z"
+    },
+    {
+      "id": "db7d1e3e011f62fea1f503f7150e5e4cd0e85ae8",
+      "title": "North Korean Hackers Exploit React2Shell Vulnerability in the Wild to Deploy EtherRAT",
+      "link": "https://cybersecuritynews.com/hackers-exploit-react2shell-vulnerability/",
+      "date": "2025-12-10T11:00:28Z",
+      "description": "A novel, highly sophisticated malware strain targeting vulnerable React Server Components, signaling a significant evolution in how state-sponsored threat actors are exploiting the critical React2Shell vulnerability disclosed just days earlier. On December 5, 2025, just two days after the disclosure of the maximum-severity vulnerability CVE-2025-55182 (dubbed “React2Shell”), the Sysdig Threat…",
+      "source": "cybersecuritynews.com",
+      "first_seen": "2025-12-10T11:11:09Z",
+      "last_seen": "2025-12-10T11:11:09Z"
+    },
     {
       "id": "1f2c3d07f07b87452dcb42e8b8f7e22d31ea032a",
       "title": "FortiSandbox OS command injection Vulnerability Let Attackers execute Malicious code",
@@ -10,7 +30,7 @@
       "description": "Fortinet has released a critical security update for its FortiSandbox analysis appliances to fix a dangerous vulnerability. If left unpatched, this flaw could allow attackers to take control of the underlying system. The vulnerability, tracked as CVE-2025-53949, was officially published on December 9, 2025. The security flaw is described as an “OS Command Injection” vulnerability. In […] The…",
       "source": "cybersecuritynews.com",
       "first_seen": "2025-12-10T10:13:38Z",
-      "last_seen": "2025-12-10T10:13:38Z"
+      "last_seen": "2025-12-10T11:11:09Z"
     },
     {
       "id": "e3bda1d22ed4a23598d9d33c7840e0d842ae44e9",
@@ -20,7 +40,7 @@
       "description": "Security update addressing a dangerous Windows PowerShell vulnerability that allows attackers to execute malicious code on affected systems. The vulnerability, tracked as CVE-2025-54100, was publicly disclosed on December 9, 2025, and represents a significant security risk for organizations worldwide. The flaw stems from improper neutralization of special elements in Windows PowerShell during…",
       "source": "cybersecuritynews.com",
       "first_seen": "2025-12-10T10:13:38Z",
-      "last_seen": "2025-12-10T10:13:38Z"
+      "last_seen": "2025-12-10T11:11:09Z"
     },
     {
       "id": "ba6705db57481e6f75bd2c6c79e6b478d1482ecd",
@@ -30,7 +50,7 @@
       "description": "Dozens of vulnerabilities have been patched by the industrial giants across their products. The post ICS Patch Tuesday: Vulnerabilities Fixed by Siemens, Rockwell, Schneider appeared first on SecurityWeek.",
       "source": "securityweek.com",
       "first_seen": "2025-12-10T10:13:38Z",
-      "last_seen": "2025-12-10T10:13:38Z"
+      "last_seen": "2025-12-10T11:11:09Z"
     },
     {
       "id": "ddfd20140cd62e8f6affa9655241e4fd96cdcd6b",
@@ -40,7 +60,7 @@
       "description": "A high-priority warning regarding a critical security flaw in WinRAR, the popular file compression tool used by millions of Windows users. The vulnerability, tracked as CVE-2025-6218, is currently being exploited by attackers to compromise systems and execute malicious code. The specific flaw is known as a “path traversal” vulnerability. In simple terms, WinRAR fails to properly […] The post…",
       "source": "cybersecuritynews.com",
       "first_seen": "2025-12-10T09:15:40Z",
-      "last_seen": "2025-12-10T10:13:38Z"
+      "last_seen": "2025-12-10T11:11:09Z"
     },
     {
       "id": "8f9443300f88083d86d984061b05742d9753435e",
@@ -50,7 +70,7 @@
       "description": "Microsoft closed out 2025 with patches for 56 security flaws in various products across the Windows platform, including one vulnerability that has been actively exploited in the wild. Of the 56 flaws, three are rated Critical, and 53 are rated Important in severity. Two other defects are listed as publicly known at the time of the release. These include 29 privilege escalation, 18 remote code",
       "source": "thehackernews.com",
       "first_seen": "2025-12-10T10:13:38Z",
-      "last_seen": "2025-12-10T10:13:38Z"
+      "last_seen": "2025-12-10T11:11:09Z"
     },
     {
       "id": "59850c99690fd8567d1629a2199b5ed2d4327b14",
@@ -60,7 +80,7 @@
       "description": "The PCIe flaws, found by Intel employees, can be exploited for information disclosure, escalation of privilege, or DoS. The post Intel, AMD Processors Affected by PCIe Vulnerabilities appeared first on SecurityWeek.",
       "source": "securityweek.com",
       "first_seen": "2025-12-10T08:16:51Z",
-      "last_seen": "2025-12-10T10:13:38Z"
+      "last_seen": "2025-12-10T11:11:09Z"
     },
     {
       "id": "91c1093df0623369282b7cfcb6a228df56e0e137",
@@ -70,7 +90,7 @@
       "description": "A critical zero-click vulnerability dubbed “GeminiJack” in Google Gemini Enterprise and previously Vertex AI Search that let attackers siphon sensitive corporate data from Gmail, Calendar, and Docs with minimal effort. According to Noma Labs, it was considered an architectural flaw rather than merely a bug. This flaw exploited how AI systems process shared content, allowing […] The post Gemini…",
       "source": "cybersecuritynews.com",
       "first_seen": "2025-12-10T08:16:51Z",
-      "last_seen": "2025-12-10T10:13:38Z"
+      "last_seen": "2025-12-10T11:11:09Z"
     },
     {
       "id": "96a88207ad3d4e5adc9f620beacef8a056e88635",
@@ -80,7 +100,7 @@
       "description": "Fortinet, Ivanti, and SAP have moved to address critical security flaws in their products that, if successfully exploited, could result in an authentication bypass and code execution. The Fortinet vulnerabilities affect FortiOS, FortiWeb, FortiProxy, and FortiSwitchManager and relate to a case of improper verification of a cryptographic signature. They are tracked as CVE-2025-59718 and",
       "source": "thehackernews.com",
       "first_seen": "2025-12-10T05:13:37Z",
-      "last_seen": "2025-12-10T10:13:38Z"
+      "last_seen": "2025-12-10T11:11:09Z"
     },
     {
       "id": "f931c3020d1af326878516e08badd3e8689c25d0",
@@ -120,7 +140,7 @@
       "description": "Britain and its allies face escalating “hybrid threats … designed to weaken critical national infrastructure, undermine our interests and interfere in our democracies.” The post UK Sanctions Russian and Chinese Firms Suspected of Being ‘Malign Actors’ in Information Warfare appeared first on SecurityWeek.",
       "source": "securityweek.com",
       "first_seen": "2025-12-10T02:47:16Z",
-      "last_seen": "2025-12-10T10:13:38Z"
+      "last_seen": "2025-12-10T11:11:09Z"
     },
     {
       "id": "9217d7656be3d37577f2cd6bd249c1f936adc460",
@@ -130,7 +150,7 @@
       "description": "Ransomware actors have targeted manufacturers, retailers, and the Japanese government, with many organizations requiring months to recover.",
       "source": "darkreading.com",
       "first_seen": "2025-12-10T00:55:55Z",
-      "last_seen": "2025-12-10T10:13:38Z"
+      "last_seen": "2025-12-10T11:11:09Z"
     }
   ]
 }
