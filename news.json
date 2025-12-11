@@ -1,7 +1,42 @@
 {
-  "last_updated": "2025-12-11T10:13:17Z",
+  "last_updated": "2025-12-11T11:11:29Z",
   "count": 40,
   "items": [
+    {
+      "title": "GitLab Patches Multiple Vulnerabilities that Allows Attackers to Trigger XSS and DoS Attack",
+      "link": "https://cybersecuritynews.com/gitlab-patches-vulnerabilities-2/",
+      "date": "2025-12-11T11:00:03Z",
+      "description": "Critical security patches on December 10, 2025, addressing ten significant vulnerabilities across its Community Edition and Enterprise Edition platforms. GitLab has released updated versions 18.6.2, 18.5.4, and 18.4.6 to address multiple high-severity security issues. High-Severity Threats Identified Four vulnerabilities received high-severity ratings and require immediate remediation. The…",
+      "source": "cybersecuritynews.com"
+    },
+    {
+      "title": "High-Severity Jenkins Vulnerability Allows Unauthenticated DoS via HTTP CLI",
+      "link": "https://cybersecuritynews.com/jenkins-vulnerability-2/",
+      "date": "2025-12-11T10:59:12Z",
+      "description": "Patches released by Jenkins address a significant denial-of-service (DoS) vulnerability affecting millions of organizations. That rely on the popular automation server for continuous integration and deployment pipelines. A high-severity vulnerability in Jenkins versions 2.540 and earlier (LTS 2.528.2 and earlier). Enables unauthenticated attackers to trigger denial of service attacks through the…",
+      "source": "cybersecuritynews.com"
+    },
+    {
+      "title": "Unpatched Gogs Zero-Day Exploited Across 700+ Instances Amid Active Attacks",
+      "link": "https://thehackernews.com/2025/12/unpatched-gogs-zero-day-exploited.html",
+      "date": "2025-12-11T10:30:00Z",
+      "description": "A high-severity unpatched security vulnerability in Gogs has come under active exploitation, with more than 700 compromised instances accessible over the internet, according to new findings from Wiz. The flaw, tracked as CVE-2025-8110 (CVSS score: 8.7), is a case of file overwrite in the file update API of the Go-based self-hosted Git service. A fix for the issue is said to be currently in the",
+      "source": "thehackernews.com"
+    },
+    {
+      "title": "IBM Patches Over 100 Vulnerabilities",
+      "link": "https://www.securityweek.com/ibm-patches-over-100-vulnerabilities/",
+      "date": "2025-12-11T10:23:28Z",
+      "description": "Most of the 100 vulnerabilities resolved this week, including critical flaws, were in third-party dependencies. The post IBM Patches Over 100 Vulnerabilities appeared first on SecurityWeek.",
+      "source": "securityweek.com"
+    },
+    {
+      "title": "ValleyRAT Malware Uses Stealthy Driver Install to Bypass Windows 11 Protections",
+      "link": "https://cybersecuritynews.com/valleyrat-malware-uses-stealthy-driver-install/",
+      "date": "2025-12-11T10:17:44Z",
+      "description": "ValleyRAT, also known as Winos or Winos4.0, has emerged as one of the most sophisticated backdoors targeting organizations worldwide. This modular malware family represents a significant threat to Windows systems, particularly Windows 11 installations running the latest security patches. The threat landscape has shifted dramatically following the public leak of the ValleyRAT builder and its […]…",
+      "source": "cybersecuritynews.com"
+    },
     {
       "title": "Microsoft fixes Windows Explorer white flashes in dark mode",
       "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-windows-explorer-white-flashes-in-dark-mode/",
@@ -31,25 +66,11 @@
       "source": "cybersecuritynews.com"
     },
     {
-      "title": "Threat Actors Leverage ChatGPT to Attack Mac Devices With AMOS InfoStealer",
-      "link": "https://cybersecuritynews.com/threat-actors-leverage-chatgpt/",
-      "date": "2025-12-11T08:14:56Z",
-      "description": "A new AMOS InfoStealer campaign is abusing trust in ChatGPT to infect Mac devices under the guise of simple troubleshooting help. Victims search for a fix to a sound problem, click a sponsored ChatGPT result, and are shown what looks like a normal chat session. The chat then returns a “repair” command and tells the […] The post Threat Actors Leverage ChatGPT to Attack Mac Devices With AMOS…",
-      "source": "cybersecuritynews.com"
-    },
-    {
       "title": "Google fixes eighth Chrome zero-day exploited in attacks in 2025",
       "link": "https://www.bleepingcomputer.com/news/security/google-fixes-eighth-chrome-zero-day-exploited-in-attacks-in-2025/",
       "date": "2025-12-11T08:01:21Z",
       "description": "Google has released emergency updates to fix another Chrome zero-day vulnerability exploited in the wild, marking the eighth such security flaw patched since the start of the year. [...]",
       "source": "bleepingcomputer.com"
-    },
-    {
-      "title": "Hackers Infiltrate VS Code Marketplace with 19 Malicious Extensions Posing as PNG File",
-      "link": "https://cybersecuritynews.com/hackers-infiltrate-vs-code-marketplace/",
-      "date": "2025-12-11T07:44:07Z",
-      "description": "Security researchers have uncovered a significant threat targeting developers through the VS Code Marketplace. A coordinated campaign involving 19 malicious extensions has been actively infiltrating the platform, with the attack remaining undetected since February 2025. These deceptive extensions carry hidden malware in their dependency folders, designed to evade security detection and…",
-      "source": "cybersecuritynews.com"
     },
     {
       "title": "Google Patches Mysterious Chrome Zero-Day Exploited in the Wild",
@@ -71,13 +92,6 @@
       "date": "2025-12-11T05:56:00Z",
       "description": "Huntress is warning of a new actively exploited vulnerability in Gladinet's CentreStack and Triofox products stemming from the use of hard-coded cryptographic keys that have affected nine organizations so far. \"Threat actors can potentially abuse this as a way to access the web.config file, opening the door for deserialization and remote code execution,\" security researcher Bryan Masters said.",
       "source": "thehackernews.com"
-    },
-    {
-      "title": "Windows Defender Firewall Service Vulnerability Let Attackers Disclose Sensitive Data",
-      "link": "https://cybersecuritynews.com/windows-defender-firewall-service-vulnerability/",
-      "date": "2025-12-11T04:15:59Z",
-      "description": "A critical information disclosure vulnerability in Windows Defender Firewall Service, which could allow authorized attackers to access sensitive heap memory on affected systems. The vulnerability, tracked as CVE-2025-62468, was assigned an Important severity rating and released on December 9, 2025. The flaw stems from an out-of-bounds read condition in the Windows Defender Firewall Service…",
-      "source": "cybersecuritynews.com"
     },
     {
       "title": "Facebook Gets New Look, But Instagram Secretly Uses AI for SEO Bait",
@@ -157,25 +171,11 @@
       "source": "securityweek.com"
     },
     {
-      "title": "Three PCIe Encryption Weaknesses Expose PCIe 5.0+ Systems to Faulty Data Handling",
-      "link": "https://thehackernews.com/2025/12/three-pcie-encryption-weaknesses-expose.html",
-      "date": "2025-12-10T13:32:00Z",
-      "description": "Three security vulnerabilities have been disclosed in the Peripheral Component Interconnect Express (PCIe) Integrity and Data Encryption (IDE) protocol specification that could expose a local attacker to serious risks. The flaws impact PCIe Base Specification Revision 5.0 and onwards in the protocol mechanism introduced by the IDE Engineering Change Notice (ECN), according to the PCI Special",
-      "source": "thehackernews.com"
-    },
-    {
       "title": "Feds: Pro-Russia Hactivists Target US Critical Infrastructure",
       "link": "https://www.darkreading.com/threat-intelligence/hactivists-target-critical-infrastructure",
       "date": "2025-12-10T12:56:02Z",
       "description": "So far the attacks, which compromise virtual network computing (VNC) connections in OT systems, have not been particularly destructive, but this could change as they evolve.",
       "source": "darkreading.com"
-    },
-    {
-      "title": "Google Patches Gemini Enterprise Vulnerability Exposing Corporate Data",
-      "link": "https://www.securityweek.com/google-patches-gemini-enterprise-vulnerability-exposing-corporate-data/",
-      "date": "2025-12-10T12:53:17Z",
-      "description": "GeminiJack is a zero-click Gemini attack that could have been exploited using specially crafted emails, calendar invites, or documents. The post Google Patches Gemini Enterprise Vulnerability Exposing Corporate Data appeared first on SecurityWeek.",
-      "source": "securityweek.com"
     },
     {
       "title": "Japanese Firms Suffer Long Tail of Ransomware Damage",

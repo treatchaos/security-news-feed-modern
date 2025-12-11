@@ -1,7 +1,57 @@
 {
   "date": "2025-12-11",
-  "count": 15,
+  "count": 20,
   "items": [
+    {
+      "id": "7da9327b1be0d1b73a6747a0c8b984acdae035b3",
+      "title": "GitLab Patches Multiple Vulnerabilities that Allows Attackers to Trigger XSS and DoS Attack",
+      "link": "https://cybersecuritynews.com/gitlab-patches-vulnerabilities-2/",
+      "date": "2025-12-11T11:00:03Z",
+      "description": "Critical security patches on December 10, 2025, addressing ten significant vulnerabilities across its Community Edition and Enterprise Edition platforms. GitLab has released updated versions 18.6.2, 18.5.4, and 18.4.6 to address multiple high-severity security issues. High-Severity Threats Identified Four vulnerabilities received high-severity ratings and require immediate remediation. The…",
+      "source": "cybersecuritynews.com",
+      "first_seen": "2025-12-11T11:11:29Z",
+      "last_seen": "2025-12-11T11:11:29Z"
+    },
+    {
+      "id": "eebcb5a3a076b673c8d12b2c8a0b0b5b9f28d61b",
+      "title": "High-Severity Jenkins Vulnerability Allows Unauthenticated DoS via HTTP CLI",
+      "link": "https://cybersecuritynews.com/jenkins-vulnerability-2/",
+      "date": "2025-12-11T10:59:12Z",
+      "description": "Patches released by Jenkins address a significant denial-of-service (DoS) vulnerability affecting millions of organizations. That rely on the popular automation server for continuous integration and deployment pipelines. A high-severity vulnerability in Jenkins versions 2.540 and earlier (LTS 2.528.2 and earlier). Enables unauthenticated attackers to trigger denial of service attacks through the…",
+      "source": "cybersecuritynews.com",
+      "first_seen": "2025-12-11T11:11:29Z",
+      "last_seen": "2025-12-11T11:11:29Z"
+    },
+    {
+      "id": "036f1386d6f89de128015916eb60590cb60582e0",
+      "title": "Unpatched Gogs Zero-Day Exploited Across 700+ Instances Amid Active Attacks",
+      "link": "https://thehackernews.com/2025/12/unpatched-gogs-zero-day-exploited.html",
+      "date": "2025-12-11T10:30:00Z",
+      "description": "A high-severity unpatched security vulnerability in Gogs has come under active exploitation, with more than 700 compromised instances accessible over the internet, according to new findings from Wiz. The flaw, tracked as CVE-2025-8110 (CVSS score: 8.7), is a case of file overwrite in the file update API of the Go-based self-hosted Git service. A fix for the issue is said to be currently in the",
+      "source": "thehackernews.com",
+      "first_seen": "2025-12-11T11:11:29Z",
+      "last_seen": "2025-12-11T11:11:29Z"
+    },
+    {
+      "id": "f6da9b435355087c3d3b7456eab818883d717d44",
+      "title": "IBM Patches Over 100 Vulnerabilities",
+      "link": "https://www.securityweek.com/ibm-patches-over-100-vulnerabilities/",
+      "date": "2025-12-11T10:23:28Z",
+      "description": "Most of the 100 vulnerabilities resolved this week, including critical flaws, were in third-party dependencies. The post IBM Patches Over 100 Vulnerabilities appeared first on SecurityWeek.",
+      "source": "securityweek.com",
+      "first_seen": "2025-12-11T11:11:29Z",
+      "last_seen": "2025-12-11T11:11:29Z"
+    },
+    {
+      "id": "d1f6b64c28c28f9660f8d39133aeac1bc37fef97",
+      "title": "ValleyRAT Malware Uses Stealthy Driver Install to Bypass Windows 11 Protections",
+      "link": "https://cybersecuritynews.com/valleyrat-malware-uses-stealthy-driver-install/",
+      "date": "2025-12-11T10:17:44Z",
+      "description": "ValleyRAT, also known as Winos or Winos4.0, has emerged as one of the most sophisticated backdoors targeting organizations worldwide. This modular malware family represents a significant threat to Windows systems, particularly Windows 11 installations running the latest security patches. The threat landscape has shifted dramatically following the public leak of the ValleyRAT builder and its […]…",
+      "source": "cybersecuritynews.com",
+      "first_seen": "2025-12-11T11:11:29Z",
+      "last_seen": "2025-12-11T11:11:29Z"
+    },
     {
       "id": "46d46374ac74c167775ff1a8fb0176d6bb5075b7",
       "title": "Microsoft fixes Windows Explorer white flashes in dark mode",
@@ -10,7 +60,7 @@
       "description": "Microsoft has fixed a known issue that caused bright white flashes when launching File Explorer in dark mode on Windows 11 systems after installing the KB5070311 optional update. [...]",
       "source": "bleepingcomputer.com",
       "first_seen": "2025-12-11T10:13:17Z",
-      "last_seen": "2025-12-11T10:13:17Z"
+      "last_seen": "2025-12-11T11:11:29Z"
     },
     {
       "id": "405200d2328ee2577837b90a21954eef48dae47c",
@@ -20,7 +70,7 @@
       "description": "Microsoft puts the power of AI in the hands of everyday non-technical Joes. It's a nice idea, and a surefire recipe for security issues.",
       "source": "darkreading.com",
       "first_seen": "2025-12-11T10:13:17Z",
-      "last_seen": "2025-12-11T10:13:17Z"
+      "last_seen": "2025-12-11T11:11:29Z"
     },
     {
       "id": "4a7c6a8bac33a33f95e57854153c2b7f913ed475",
@@ -30,7 +80,7 @@
       "description": "The cybersecurity world faces an ironic threat as two Chinese hackers who once excelled in Cisco’s training program are now leading sophisticated attacks against the company’s devices. Yuyang and Qiu Daibing were identified as key operators behind the notorious Salt Typhoon campaign. Have leveraged their Cisco Network Academy education to orchestrate one of the most […] The post 2 Chinese…",
       "source": "cybersecuritynews.com",
       "first_seen": "2025-12-11T10:13:17Z",
-      "last_seen": "2025-12-11T10:13:17Z"
+      "last_seen": "2025-12-11T11:11:29Z"
     },
     {
       "id": "455fecbb30b954740ef54ff6a77e757782051df1",
@@ -40,7 +90,7 @@
       "description": "Security researchers at Palo Alto Networks discovered a new ransomware threat in June 2025 that marks a significant shift in malware development tactics. The 01flip ransomware family emerges as a fully Rust-written malware designed to attack both Windows and Linux systems simultaneously. This cross-platform capability represents a growing trend where cybercriminals leverage modern programming…",
       "source": "cybersecuritynews.com",
       "first_seen": "2025-12-11T09:16:54Z",
-      "last_seen": "2025-12-11T10:13:17Z"
+      "last_seen": "2025-12-11T11:11:29Z"
     },
     {
       "id": "7107e0944533c0fb298d77554be3067d05aa5e38",
@@ -60,7 +110,7 @@
       "description": "Google has released emergency updates to fix another Chrome zero-day vulnerability exploited in the wild, marking the eighth such security flaw patched since the start of the year. [...]",
       "source": "bleepingcomputer.com",
       "first_seen": "2025-12-11T08:17:42Z",
-      "last_seen": "2025-12-11T10:13:17Z"
+      "last_seen": "2025-12-11T11:11:29Z"
     },
     {
       "id": "c1975b3d5eafbda05841cc6b37972ce58e1e1afe",
@@ -80,7 +130,7 @@
       "description": "The Chrome zero-day does not have a CVE and it's unclear who reported it and which browser component it affects. The post Google Patches Mysterious Chrome Zero-Day Exploited in the Wild appeared first on SecurityWeek.",
       "source": "securityweek.com",
       "first_seen": "2025-12-11T08:17:42Z",
-      "last_seen": "2025-12-11T10:13:17Z"
+      "last_seen": "2025-12-11T11:11:29Z"
     },
     {
       "id": "1feaa0d512f605472818bfdd4a3a77fc85235a6a",
@@ -90,7 +140,7 @@
       "description": "Google on Wednesday shipped security updates for its Chrome browser to address three security flaws, including one it said has come under active exploitation in the wild. The vulnerability, rated high in severity, is being tracked under the Chromium issue tracker ID \"466192044.\" Unlike other disclosures, Google has opted to keep information about the CVE identifier, the affected component, and",
       "source": "thehackernews.com",
       "first_seen": "2025-12-11T10:13:17Z",
-      "last_seen": "2025-12-11T10:13:17Z"
+      "last_seen": "2025-12-11T11:11:29Z"
     },
     {
       "id": "52d93f98fc4b0f3d334ba96c0f5c353f74840fb6",
@@ -100,7 +150,7 @@
       "description": "Huntress is warning of a new actively exploited vulnerability in Gladinet's CentreStack and Triofox products stemming from the use of hard-coded cryptographic keys that have affected nine organizations so far. \"Threat actors can potentially abuse this as a way to access the web.config file, opening the door for deserialization and remote code execution,\" security researcher Bryan Masters said.",
       "source": "thehackernews.com",
       "first_seen": "2025-12-11T07:17:02Z",
-      "last_seen": "2025-12-11T10:13:17Z"
+      "last_seen": "2025-12-11T11:11:29Z"
     },
     {
       "id": "d3f33e23650d8482e28464080fc5493e84064484",
@@ -140,7 +190,7 @@
       "description": "The post Facebook Gets New Look, But Instagram Secretly Uses AI for SEO Bait appeared first on Daily CyberSecurity.",
       "source": "securityonline.info",
       "first_seen": "2025-12-11T00:56:07Z",
-      "last_seen": "2025-12-11T10:13:17Z"
+      "last_seen": "2025-12-11T11:11:29Z"
     },
     {
       "id": "04e81038d1bb82bc2e1120e80b8bfdb5946741ee",
@@ -150,7 +200,7 @@
       "description": "A new AMOS infostealer campaign is abusing Google search ads to lure users into Grok and ChatGPT conversations that appear to offer \"helpful\" instructions but ultimately lead to installing the AMOS info-stealing malware on macOS. [...]",
       "source": "bleepingcomputer.com",
       "first_seen": "2025-12-11T00:56:07Z",
-      "last_seen": "2025-12-11T10:13:17Z"
+      "last_seen": "2025-12-11T11:11:29Z"
     }
   ]
 }

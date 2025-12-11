@@ -1,7 +1,7 @@
 {
-  "last_updated": "2025-12-11T10:13:17Z",
+  "last_updated": "2025-12-11T11:11:29Z",
   "retention_days": 90,
-  "count": 3672,
+  "count": 3676,
   "items": [
     {
       "id": "ad2f81caf2212cb4984f6e8476b080821f33a7a1",
@@ -14,6 +14,56 @@
       "last_seen": "2025-12-04T15:14:08Z"
     },
     {
+      "id": "7da9327b1be0d1b73a6747a0c8b984acdae035b3",
+      "title": "GitLab Patches Multiple Vulnerabilities that Allows Attackers to Trigger XSS and DoS Attack",
+      "link": "https://cybersecuritynews.com/gitlab-patches-vulnerabilities-2/",
+      "date": "2025-12-11T11:00:03Z",
+      "description": "Critical security patches on December 10, 2025, addressing ten significant vulnerabilities across its Community Edition and Enterprise Edition platforms. GitLab has released updated versions 18.6.2, 18.5.4, and 18.4.6 to address multiple high-severity security issues. High-Severity Threats Identified Four vulnerabilities received high-severity ratings and require immediate remediation. The…",
+      "source": "cybersecuritynews.com",
+      "first_seen": "2025-12-11T11:11:29Z",
+      "last_seen": "2025-12-11T11:11:29Z"
+    },
+    {
+      "id": "eebcb5a3a076b673c8d12b2c8a0b0b5b9f28d61b",
+      "title": "High-Severity Jenkins Vulnerability Allows Unauthenticated DoS via HTTP CLI",
+      "link": "https://cybersecuritynews.com/jenkins-vulnerability-2/",
+      "date": "2025-12-11T10:59:12Z",
+      "description": "Patches released by Jenkins address a significant denial-of-service (DoS) vulnerability affecting millions of organizations. That rely on the popular automation server for continuous integration and deployment pipelines. A high-severity vulnerability in Jenkins versions 2.540 and earlier (LTS 2.528.2 and earlier). Enables unauthenticated attackers to trigger denial of service attacks through the…",
+      "source": "cybersecuritynews.com",
+      "first_seen": "2025-12-11T11:11:29Z",
+      "last_seen": "2025-12-11T11:11:29Z"
+    },
+    {
+      "id": "036f1386d6f89de128015916eb60590cb60582e0",
+      "title": "Unpatched Gogs Zero-Day Exploited Across 700+ Instances Amid Active Attacks",
+      "link": "https://thehackernews.com/2025/12/unpatched-gogs-zero-day-exploited.html",
+      "date": "2025-12-11T10:30:00Z",
+      "description": "A high-severity unpatched security vulnerability in Gogs has come under active exploitation, with more than 700 compromised instances accessible over the internet, according to new findings from Wiz. The flaw, tracked as CVE-2025-8110 (CVSS score: 8.7), is a case of file overwrite in the file update API of the Go-based self-hosted Git service. A fix for the issue is said to be currently in the",
+      "source": "thehackernews.com",
+      "first_seen": "2025-12-11T11:11:29Z",
+      "last_seen": "2025-12-11T11:11:29Z"
+    },
+    {
+      "id": "f6da9b435355087c3d3b7456eab818883d717d44",
+      "title": "IBM Patches Over 100 Vulnerabilities",
+      "link": "https://www.securityweek.com/ibm-patches-over-100-vulnerabilities/",
+      "date": "2025-12-11T10:23:28Z",
+      "description": "Most of the 100 vulnerabilities resolved this week, including critical flaws, were in third-party dependencies. The post IBM Patches Over 100 Vulnerabilities appeared first on SecurityWeek.",
+      "source": "securityweek.com",
+      "first_seen": "2025-12-11T11:11:29Z",
+      "last_seen": "2025-12-11T11:11:29Z"
+    },
+    {
+      "id": "d1f6b64c28c28f9660f8d39133aeac1bc37fef97",
+      "title": "ValleyRAT Malware Uses Stealthy Driver Install to Bypass Windows 11 Protections",
+      "link": "https://cybersecuritynews.com/valleyrat-malware-uses-stealthy-driver-install/",
+      "date": "2025-12-11T10:17:44Z",
+      "description": "ValleyRAT, also known as Winos or Winos4.0, has emerged as one of the most sophisticated backdoors targeting organizations worldwide. This modular malware family represents a significant threat to Windows systems, particularly Windows 11 installations running the latest security patches. The threat landscape has shifted dramatically following the public leak of the ValleyRAT builder and its […]…",
+      "source": "cybersecuritynews.com",
+      "first_seen": "2025-12-11T11:11:29Z",
+      "last_seen": "2025-12-11T11:11:29Z"
+    },
+    {
       "id": "46d46374ac74c167775ff1a8fb0176d6bb5075b7",
       "title": "Microsoft fixes Windows Explorer white flashes in dark mode",
       "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-windows-explorer-white-flashes-in-dark-mode/",
@@ -21,7 +71,7 @@
       "description": "Microsoft has fixed a known issue that caused bright white flashes when launching File Explorer in dark mode on Windows 11 systems after installing the KB5070311 optional update. [...]",
       "source": "bleepingcomputer.com",
       "first_seen": "2025-12-11T10:13:17Z",
-      "last_seen": "2025-12-11T10:13:17Z"
+      "last_seen": "2025-12-11T11:11:29Z"
     },
     {
       "id": "405200d2328ee2577837b90a21954eef48dae47c",
@@ -31,7 +81,7 @@
       "description": "Microsoft puts the power of AI in the hands of everyday non-technical Joes. It's a nice idea, and a surefire recipe for security issues.",
       "source": "darkreading.com",
       "first_seen": "2025-12-11T10:13:17Z",
-      "last_seen": "2025-12-11T10:13:17Z"
+      "last_seen": "2025-12-11T11:11:29Z"
     },
     {
       "id": "4a7c6a8bac33a33f95e57854153c2b7f913ed475",
@@ -41,7 +91,7 @@
       "description": "The cybersecurity world faces an ironic threat as two Chinese hackers who once excelled in Cisco’s training program are now leading sophisticated attacks against the company’s devices. Yuyang and Qiu Daibing were identified as key operators behind the notorious Salt Typhoon campaign. Have leveraged their Cisco Network Academy education to orchestrate one of the most […] The post 2 Chinese…",
       "source": "cybersecuritynews.com",
       "first_seen": "2025-12-11T10:13:17Z",
-      "last_seen": "2025-12-11T10:13:17Z"
+      "last_seen": "2025-12-11T11:11:29Z"
     },
     {
       "id": "455fecbb30b954740ef54ff6a77e757782051df1",
@@ -51,7 +101,7 @@
       "description": "Security researchers at Palo Alto Networks discovered a new ransomware threat in June 2025 that marks a significant shift in malware development tactics. The 01flip ransomware family emerges as a fully Rust-written malware designed to attack both Windows and Linux systems simultaneously. This cross-platform capability represents a growing trend where cybercriminals leverage modern programming…",
       "source": "cybersecuritynews.com",
       "first_seen": "2025-12-11T09:16:54Z",
-      "last_seen": "2025-12-11T10:13:17Z"
+      "last_seen": "2025-12-11T11:11:29Z"
     },
     {
       "id": "7107e0944533c0fb298d77554be3067d05aa5e38",
@@ -71,7 +121,7 @@
       "description": "Google has released emergency updates to fix another Chrome zero-day vulnerability exploited in the wild, marking the eighth such security flaw patched since the start of the year. [...]",
       "source": "bleepingcomputer.com",
       "first_seen": "2025-12-11T08:17:42Z",
-      "last_seen": "2025-12-11T10:13:17Z"
+      "last_seen": "2025-12-11T11:11:29Z"
     },
     {
       "id": "c1975b3d5eafbda05841cc6b37972ce58e1e1afe",
@@ -91,7 +141,7 @@
       "description": "The Chrome zero-day does not have a CVE and it's unclear who reported it and which browser component it affects. The post Google Patches Mysterious Chrome Zero-Day Exploited in the Wild appeared first on SecurityWeek.",
       "source": "securityweek.com",
       "first_seen": "2025-12-11T08:17:42Z",
-      "last_seen": "2025-12-11T10:13:17Z"
+      "last_seen": "2025-12-11T11:11:29Z"
     },
     {
       "id": "1feaa0d512f605472818bfdd4a3a77fc85235a6a",
@@ -101,7 +151,7 @@
       "description": "Google on Wednesday shipped security updates for its Chrome browser to address three security flaws, including one it said has come under active exploitation in the wild. The vulnerability, rated high in severity, is being tracked under the Chromium issue tracker ID \"466192044.\" Unlike other disclosures, Google has opted to keep information about the CVE identifier, the affected component, and",
       "source": "thehackernews.com",
       "first_seen": "2025-12-11T10:13:17Z",
-      "last_seen": "2025-12-11T10:13:17Z"
+      "last_seen": "2025-12-11T11:11:29Z"
     },
     {
       "id": "52d93f98fc4b0f3d334ba96c0f5c353f74840fb6",
@@ -111,7 +161,7 @@
       "description": "Huntress is warning of a new actively exploited vulnerability in Gladinet's CentreStack and Triofox products stemming from the use of hard-coded cryptographic keys that have affected nine organizations so far. \"Threat actors can potentially abuse this as a way to access the web.config file, opening the door for deserialization and remote code execution,\" security researcher Bryan Masters said.",
       "source": "thehackernews.com",
       "first_seen": "2025-12-11T07:17:02Z",
-      "last_seen": "2025-12-11T10:13:17Z"
+      "last_seen": "2025-12-11T11:11:29Z"
     },
     {
       "id": "d3f33e23650d8482e28464080fc5493e84064484",
@@ -151,7 +201,7 @@
       "description": "The post Facebook Gets New Look, But Instagram Secretly Uses AI for SEO Bait appeared first on Daily CyberSecurity.",
       "source": "securityonline.info",
       "first_seen": "2025-12-11T00:56:07Z",
-      "last_seen": "2025-12-11T10:13:17Z"
+      "last_seen": "2025-12-11T11:11:29Z"
     },
     {
       "id": "04e81038d1bb82bc2e1120e80b8bfdb5946741ee",
@@ -161,7 +211,7 @@
       "description": "A new AMOS infostealer campaign is abusing Google search ads to lure users into Grok and ChatGPT conversations that appear to offer \"helpful\" instructions but ultimately lead to installing the AMOS info-stealing malware on macOS. [...]",
       "source": "bleepingcomputer.com",
       "first_seen": "2025-12-11T00:56:07Z",
-      "last_seen": "2025-12-11T10:13:17Z"
+      "last_seen": "2025-12-11T11:11:29Z"
     },
     {
       "id": "30d2ff2ba7ecf44e7b32c96987b29bb34d3bb9e0",
@@ -171,7 +221,7 @@
       "description": "The initial access broker has been weaponizing endpoint detection and response (EDR) platforms and Windows utilities in recent high-precision attacks.",
       "source": "darkreading.com",
       "first_seen": "2025-12-10T23:09:41Z",
-      "last_seen": "2025-12-11T10:13:17Z"
+      "last_seen": "2025-12-11T11:11:29Z"
     },
     {
       "id": "2f910afda2bc1feaa606c54af2c587c20403b9ab",
@@ -181,7 +231,7 @@
       "description": "A new Android malware called DroidLock has emerged with capabilities to lock screens for ransom payments, erase data, access text messages, call logs, contacts, and audio data. [...]",
       "source": "bleepingcomputer.com",
       "first_seen": "2025-12-10T22:12:16Z",
-      "last_seen": "2025-12-11T10:13:17Z"
+      "last_seen": "2025-12-11T11:11:29Z"
     },
     {
       "id": "eb1fd1e6d87d1f299b84a7be5de13601e477ec31",
@@ -191,7 +241,7 @@
       "description": "A new twist on the social engineering tactic is making waves, combining SEO poisoning and legitimate AI domains to install malware on victims' computers.",
       "source": "darkreading.com",
       "first_seen": "2025-12-10T22:12:16Z",
-      "last_seen": "2025-12-11T10:13:17Z"
+      "last_seen": "2025-12-11T11:11:29Z"
     },
     {
       "id": "f9439f0228cdb5bf353728f101cb54b33c86ea91",
@@ -201,7 +251,7 @@
       "description": "React2Shell continues to witness heavy exploitation, with threat actors leveraging the maximum-severity security flaw in React Server Components (RSC) to deliver cryptocurrency miners and an array of previously undocumented malware families, according to new findings from Huntress. This includes a Linux backdoor called PeerBlight, a reverse proxy tunnel named CowTunnel, and a Go-based",
       "source": "thehackernews.com",
       "first_seen": "2025-12-10T21:13:07Z",
-      "last_seen": "2025-12-11T10:13:17Z"
+      "last_seen": "2025-12-11T11:11:29Z"
     },
     {
       "id": "5417179e6fb1c1a741694f771f10bd35377ed86b",
@@ -211,7 +261,7 @@
       "description": "Microsoft is working on a new Teams security feature that will analyze suspicious traffic with external domains to help IT administrators tackle potential security threats. [...]",
       "source": "bleepingcomputer.com",
       "first_seen": "2025-12-10T20:13:24Z",
-      "last_seen": "2025-12-11T10:13:17Z"
+      "last_seen": "2025-12-11T11:11:29Z"
     },
     {
       "id": "90fe4e1bc85fdd138cafb698104ae0e87f5f30da",
@@ -221,7 +271,7 @@
       "description": "New research has uncovered exploitation primitives in the .NET Framework that could be leveraged against enterprise-grade applications to achieve remote code execution. WatchTowr Labs, which has codenamed the \"invalid cast vulnerability\" SOAPwn, said the issue impacts Barracuda Service Center RMM, Ivanti Endpoint Manager (EPM), and Umbraco 8. But the number of affected vendors is likely to be",
       "source": "thehackernews.com",
       "first_seen": "2025-12-10T20:13:24Z",
-      "last_seen": "2025-12-11T10:13:17Z"
+      "last_seen": "2025-12-11T11:11:29Z"
     },
     {
       "id": "df9591daf1a7ea9902b79f2abc2d244787848910",
@@ -271,7 +321,7 @@
       "description": "Over the past decade, overall funding in Israeli cybersecurity companies has increased by more than 500%, according to YL Ventures. The post Israeli Cybersecurity Funding Hits $4.4 Billion Record High appeared first on SecurityWeek.",
       "source": "securityweek.com",
       "first_seen": "2025-12-10T16:17:01Z",
-      "last_seen": "2025-12-11T10:13:17Z"
+      "last_seen": "2025-12-11T11:11:29Z"
     },
     {
       "id": "fd07f5a1866cadb731a41f1f3cb4aa0e75eb8129",
@@ -281,7 +331,7 @@
       "description": "Join to access sessions aimed at educating, inspiring, and provoking new ways of thinking about the hype and promise surrounding AI-powered enterprise security solutions and the threats posed by adversarial use of AI. The post Virtual Event Today: Cyber AI & Automation Summit appeared first on SecurityWeek.",
       "source": "securityweek.com",
       "first_seen": "2025-12-10T15:14:32Z",
-      "last_seen": "2025-12-11T10:13:17Z"
+      "last_seen": "2025-12-11T11:11:29Z"
     },
     {
       "id": "a05e2a283816ba0c49f3de2ac3cf60cf2c45390e",
@@ -321,7 +371,7 @@
       "description": "Victoria Dubranova faces over 25 years in prison for links to Russia-backed CARR and NoName hacktivist groups. The post US Indicts Extradited Ukrainian on Charges of Aiding Russian Hacking Groups appeared first on SecurityWeek.",
       "source": "securityweek.com",
       "first_seen": "2025-12-10T14:14:20Z",
-      "last_seen": "2025-12-11T10:13:17Z"
+      "last_seen": "2025-12-11T11:11:29Z"
     },
     {
       "id": "62b26da32d08df5647ace248486f8cabcd1d487c",
@@ -341,7 +391,7 @@
       "description": "So far the attacks, which compromise virtual network computing (VNC) connections in OT systems, have not been particularly destructive, but this could change as they evolve.",
       "source": "darkreading.com",
       "first_seen": "2025-12-10T16:17:01Z",
-      "last_seen": "2025-12-11T10:13:17Z"
+      "last_seen": "2025-12-11T11:11:29Z"
     },
     {
       "id": "6325ef438a341d08eb039d98a8f1b1e3f00a9fdb",
@@ -571,7 +621,7 @@
       "description": "Ransomware actors have targeted manufacturers, retailers, and the Japanese government, with many organizations requiring months to recover.",
       "source": "darkreading.com",
       "first_seen": "2025-12-10T00:55:55Z",
-      "last_seen": "2025-12-11T10:13:17Z"
+      "last_seen": "2025-12-11T11:11:29Z"
     },
     {
       "id": "546b7be845dc3018f7e9937125c59bfb88ae6e7c",
@@ -1241,7 +1291,7 @@
       "description": "A CVSS score 7.5 AV:L/AC:H/PR:H/UI:N/S:C/C:H/I:H/A:H severity vulnerability discovered by 'fastfail' was reported to the affected vendor on: 2025-12-09, 0 days ago. The vendor is given until 2026-04-08 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
       "source": "zerodayinitiative.com",
       "first_seen": "2025-12-09T18:15:15Z",
-      "last_seen": "2025-12-11T10:13:17Z"
+      "last_seen": "2025-12-11T11:11:29Z"
     },
     {
       "id": "72e0626e68be4b51888cf763b3d1809d7a6e75ce",
@@ -1251,7 +1301,7 @@
       "description": "A CVSS score 6.5 AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H severity vulnerability discovered by 'Jason McFadyen of Trend Research' was reported to the affected vendor on: 2025-12-09, 0 days ago. The vendor is given until 2026-04-08 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
       "source": "zerodayinitiative.com",
       "first_seen": "2025-12-09T18:15:15Z",
-      "last_seen": "2025-12-11T10:13:17Z"
+      "last_seen": "2025-12-11T11:11:29Z"
     },
     {
       "id": "22f753c03a8834ea6d4e883971f40c1aab0035a7",
@@ -1261,7 +1311,7 @@
       "description": "A CVSS score 8.8 AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H severity vulnerability discovered by 'Jason McFadyen of Trend Research' was reported to the affected vendor on: 2025-12-09, 0 days ago. The vendor is given until 2026-04-08 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
       "source": "zerodayinitiative.com",
       "first_seen": "2025-12-09T18:15:15Z",
-      "last_seen": "2025-12-11T10:13:17Z"
+      "last_seen": "2025-12-11T11:11:29Z"
     },
     {
       "id": "6ceec5ae7dff4214d21928a2237e1143140c9c26",
@@ -1271,7 +1321,7 @@
       "description": "A CVSS score 7.8 AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H severity vulnerability discovered by 'Rocco Calvi (@TecR0c) with TecSecurity' was reported to the affected vendor on: 2025-12-09, 0 days ago. The vendor is given until 2026-04-08 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
       "source": "zerodayinitiative.com",
       "first_seen": "2025-12-09T18:15:15Z",
-      "last_seen": "2025-12-11T10:13:17Z"
+      "last_seen": "2025-12-11T11:11:29Z"
     },
     {
       "id": "d3a8cf6105313d03653f150904e9b32dd28ae486",
@@ -1281,7 +1331,7 @@
       "description": "A CVSS score 7.8 AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H severity vulnerability discovered by 'kimiya' was reported to the affected vendor on: 2025-12-09, 0 days ago. The vendor is given until 2026-04-08 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
       "source": "zerodayinitiative.com",
       "first_seen": "2025-12-09T18:15:15Z",
-      "last_seen": "2025-12-11T10:13:17Z"
+      "last_seen": "2025-12-11T11:11:29Z"
     },
     {
       "id": "4ea774896bff4fb4888cce2f30a6767091c4687d",
@@ -1291,7 +1341,7 @@
       "description": "The post macOS Privilege Escalation Flaw Bypasses Patch for Root Access, Poc Releases! appeared first on Daily CyberSecurity.",
       "source": "securityonline.info",
       "first_seen": "2025-12-09T03:45:18Z",
-      "last_seen": "2025-12-11T10:13:17Z"
+      "last_seen": "2025-12-11T11:11:29Z"
     },
     {
       "id": "3983de027ec8f3f8f2cb0b9b56bc59616e1281f4",
@@ -1841,7 +1891,7 @@
       "description": "The post PoC Available: Bluetooth Flaw Risks DoS Crash on Smart Cars and Wear OS appeared first on Daily CyberSecurity.",
       "source": "securityonline.info",
       "first_seen": "2025-12-08T00:54:38Z",
-      "last_seen": "2025-12-11T10:13:17Z"
+      "last_seen": "2025-12-11T11:11:29Z"
     },
     {
       "id": "56fa7e5a031cdb070c48c001aa429036722be89a",
@@ -3771,7 +3821,7 @@
       "description": "The post Critical cPanel Flaw (CVSS 9.3) Allows Directory Traversal LPE for Full Server Takeover appeared first on Daily CyberSecurity.",
       "source": "securityonline.info",
       "first_seen": "2025-12-03T05:12:02Z",
-      "last_seen": "2025-12-11T10:13:17Z"
+      "last_seen": "2025-12-11T11:11:29Z"
     },
     {
       "id": "34e2fb6e359acf49d53e1601c3ca16fefe7886c2",
@@ -4881,7 +4931,7 @@
       "description": "The post PoC Exploit Releases for CVE-2025-60718 – Windows Administrator Protection Elevation of Privilege Vulnerability appeared first on Daily CyberSecurity.",
       "source": "securityonline.info",
       "first_seen": "2025-12-01T08:18:18Z",
-      "last_seen": "2025-12-11T10:13:17Z"
+      "last_seen": "2025-12-11T11:11:29Z"
     },
     {
       "id": "2c30fa1dd4bfed6ee2b7bbd9267b5c0831ec28d6",
@@ -36624,16 +36674,6 @@
       "last_seen": "2025-09-15T06:17:17Z"
     },
     {
-      "id": "c6c14f441a8370d60bb285e09a4d648a0206a948",
-      "title": "CISA: CVE Program to Focus on Vulnerability Data Quality",
-      "link": "https://www.securityweek.com/cisa-cve-program-to-focus-on-vulnerability-data-quality/",
-      "date": "2025-09-12T10:53:01Z",
-      "description": "CISA says it is time for the CVE Program to focus on improving trust, responsiveness, and the caliber of vulnerability data. The post CISA: CVE Program to Focus on Vulnerability Data Quality appeared first on SecurityWeek.",
-      "source": "securityweek.com",
-      "first_seen": "2025-09-12T11:08:35Z",
-      "last_seen": "2025-09-15T07:11:31Z"
-    },
-    {
       "id": "69c147d58a64572da324948468a4a1be8661fdf4",
       "title": "F5 to Acquire CalypsoAI for Advanced AI Security Capabilities",
       "link": "https://www.darkreading.com/cyber-risk/f5-calypsoai-advanced-ai-security-capabilities",
@@ -36681,7 +36721,7 @@
       "description": "2.5 million people were affected, in a breach that could spell more trouble down the line.",
       "source": "threatpost.com",
       "first_seen": "2025-11-11T10:12:45Z",
-      "last_seen": "2025-12-11T10:13:17Z"
+      "last_seen": "2025-12-11T11:11:29Z"
     },
     {
       "id": "4140c7a34b0ba94ad2e6b0cae9f59b0cb9bfffea",
@@ -36691,7 +36731,7 @@
       "description": "Researchers uncover a watering hole attack likely carried out by APT TA423, which attempts to plant the ScanBox JavaScript-based reconnaissance tool.",
       "source": "threatpost.com",
       "first_seen": "2025-11-11T10:12:45Z",
-      "last_seen": "2025-12-11T10:13:17Z"
+      "last_seen": "2025-12-11T11:11:29Z"
     },
     {
       "id": "9359ee40a641a4b565080313045f1d7e7fe6552b",
@@ -36701,7 +36741,7 @@
       "description": "Over 130 companies tangled in sprawling phishing campaign that spoofed a multi-factor authentication system.",
       "source": "threatpost.com",
       "first_seen": "2025-11-11T10:12:45Z",
-      "last_seen": "2025-12-11T10:13:17Z"
+      "last_seen": "2025-12-11T11:11:29Z"
     },
     {
       "id": "b4ccef0737cd4050d65241bf754072030b6b5e6a",
@@ -36711,7 +36751,7 @@
       "description": "Lockbit is by far this summer’s most prolific ransomware group, trailed by two offshoots of the Conti group.",
       "source": "threatpost.com",
       "first_seen": "2025-11-11T10:12:45Z",
-      "last_seen": "2025-12-11T10:13:17Z"
+      "last_seen": "2025-12-11T11:11:29Z"
     },
     {
       "id": "12ee113fc8fce91f6d7fb28deab2b1ad20061ec7",
@@ -36721,7 +36761,7 @@
       "description": "Tens of thousands of cameras have failed to patch a critical, 11-month-old CVE, leaving thousands of organizations exposed.",
       "source": "threatpost.com",
       "first_seen": "2025-11-11T10:12:45Z",
-      "last_seen": "2025-12-11T10:13:17Z"
+      "last_seen": "2025-12-11T11:11:29Z"
     }
   ]
 }
