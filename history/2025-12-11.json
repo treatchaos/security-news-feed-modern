@@ -1,7 +1,37 @@
 {
   "date": "2025-12-11",
-  "count": 11,
+  "count": 15,
   "items": [
+    {
+      "id": "46d46374ac74c167775ff1a8fb0176d6bb5075b7",
+      "title": "Microsoft fixes Windows Explorer white flashes in dark mode",
+      "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-windows-explorer-white-flashes-in-dark-mode/",
+      "date": "2025-12-11T10:09:52Z",
+      "description": "Microsoft has fixed a known issue that caused bright white flashes when launching File Explorer in dark mode on Windows 11 systems after installing the KB5070311 optional update. [...]",
+      "source": "bleepingcomputer.com",
+      "first_seen": "2025-12-11T10:13:17Z",
+      "last_seen": "2025-12-11T10:13:17Z"
+    },
+    {
+      "id": "405200d2328ee2577837b90a21954eef48dae47c",
+      "title": "Copilot's No-Code AI Agents Liable to Leak Company Data",
+      "link": "https://www.darkreading.com/application-security/copilot-no-code-ai-agents-leak-company-data",
+      "date": "2025-12-11T10:00:00Z",
+      "description": "Microsoft puts the power of AI in the hands of everyday non-technical Joes. It's a nice idea, and a surefire recipe for security issues.",
+      "source": "darkreading.com",
+      "first_seen": "2025-12-11T10:13:17Z",
+      "last_seen": "2025-12-11T10:13:17Z"
+    },
+    {
+      "id": "4a7c6a8bac33a33f95e57854153c2b7f913ed475",
+      "title": "2 Chinese Hackers Trained in Cisco Program Now Leading Sophisticated Attacks on Cisco Devices",
+      "link": "https://cybersecuritynews.com/chinese-hackers-attacking-cisco-devices/",
+      "date": "2025-12-11T09:35:30Z",
+      "description": "The cybersecurity world faces an ironic threat as two Chinese hackers who once excelled in Cisco’s training program are now leading sophisticated attacks against the company’s devices. Yuyang and Qiu Daibing were identified as key operators behind the notorious Salt Typhoon campaign. Have leveraged their Cisco Network Academy education to orchestrate one of the most […] The post 2 Chinese…",
+      "source": "cybersecuritynews.com",
+      "first_seen": "2025-12-11T10:13:17Z",
+      "last_seen": "2025-12-11T10:13:17Z"
+    },
     {
       "id": "455fecbb30b954740ef54ff6a77e757782051df1",
       "title": "New Multi-Platform 01flip Ransomware Supports Multi-platform Architecture, Including Windows and Linux",
@@ -10,7 +40,7 @@
       "description": "Security researchers at Palo Alto Networks discovered a new ransomware threat in June 2025 that marks a significant shift in malware development tactics. The 01flip ransomware family emerges as a fully Rust-written malware designed to attack both Windows and Linux systems simultaneously. This cross-platform capability represents a growing trend where cybercriminals leverage modern programming…",
       "source": "cybersecuritynews.com",
       "first_seen": "2025-12-11T09:16:54Z",
-      "last_seen": "2025-12-11T09:16:54Z"
+      "last_seen": "2025-12-11T10:13:17Z"
     },
     {
       "id": "7107e0944533c0fb298d77554be3067d05aa5e38",
@@ -20,7 +50,7 @@
       "description": "A new AMOS InfoStealer campaign is abusing trust in ChatGPT to infect Mac devices under the guise of simple troubleshooting help. Victims search for a fix to a sound problem, click a sponsored ChatGPT result, and are shown what looks like a normal chat session. The chat then returns a “repair” command and tells the […] The post Threat Actors Leverage ChatGPT to Attack Mac Devices With AMOS…",
       "source": "cybersecuritynews.com",
       "first_seen": "2025-12-11T08:17:42Z",
-      "last_seen": "2025-12-11T09:16:54Z"
+      "last_seen": "2025-12-11T10:13:17Z"
     },
     {
       "id": "b6063131df0602f3aa3fab0345095966c898d5f9",
@@ -30,7 +60,7 @@
       "description": "Google has released emergency updates to fix another Chrome zero-day vulnerability exploited in the wild, marking the eighth such security flaw patched since the start of the year. [...]",
       "source": "bleepingcomputer.com",
       "first_seen": "2025-12-11T08:17:42Z",
-      "last_seen": "2025-12-11T09:16:54Z"
+      "last_seen": "2025-12-11T10:13:17Z"
     },
     {
       "id": "c1975b3d5eafbda05841cc6b37972ce58e1e1afe",
@@ -40,7 +70,7 @@
       "description": "Security researchers have uncovered a significant threat targeting developers through the VS Code Marketplace. A coordinated campaign involving 19 malicious extensions has been actively infiltrating the platform, with the attack remaining undetected since February 2025. These deceptive extensions carry hidden malware in their dependency folders, designed to evade security detection and…",
       "source": "cybersecuritynews.com",
       "first_seen": "2025-12-11T08:17:42Z",
-      "last_seen": "2025-12-11T09:16:54Z"
+      "last_seen": "2025-12-11T10:13:17Z"
     },
     {
       "id": "cc24261072be87b882d50978e7c76828c19d0ab4",
@@ -50,7 +80,17 @@
       "description": "The Chrome zero-day does not have a CVE and it's unclear who reported it and which browser component it affects. The post Google Patches Mysterious Chrome Zero-Day Exploited in the Wild appeared first on SecurityWeek.",
       "source": "securityweek.com",
       "first_seen": "2025-12-11T08:17:42Z",
-      "last_seen": "2025-12-11T09:16:54Z"
+      "last_seen": "2025-12-11T10:13:17Z"
+    },
+    {
+      "id": "1feaa0d512f605472818bfdd4a3a77fc85235a6a",
+      "title": "Chrome Targeted by Active In-the-Wild Exploit Tied to Undisclosed High-Severity Flaw",
+      "link": "https://thehackernews.com/2025/12/chrome-targeted-by-active-in-wild.html",
+      "date": "2025-12-11T07:09:00Z",
+      "description": "Google on Wednesday shipped security updates for its Chrome browser to address three security flaws, including one it said has come under active exploitation in the wild. The vulnerability, rated high in severity, is being tracked under the Chromium issue tracker ID \"466192044.\" Unlike other disclosures, Google has opted to keep information about the CVE identifier, the affected component, and",
+      "source": "thehackernews.com",
+      "first_seen": "2025-12-11T10:13:17Z",
+      "last_seen": "2025-12-11T10:13:17Z"
     },
     {
       "id": "52d93f98fc4b0f3d334ba96c0f5c353f74840fb6",
@@ -60,7 +100,7 @@
       "description": "Huntress is warning of a new actively exploited vulnerability in Gladinet's CentreStack and Triofox products stemming from the use of hard-coded cryptographic keys that have affected nine organizations so far. \"Threat actors can potentially abuse this as a way to access the web.config file, opening the door for deserialization and remote code execution,\" security researcher Bryan Masters said.",
       "source": "thehackernews.com",
       "first_seen": "2025-12-11T07:17:02Z",
-      "last_seen": "2025-12-11T09:16:54Z"
+      "last_seen": "2025-12-11T10:13:17Z"
     },
     {
       "id": "d3f33e23650d8482e28464080fc5493e84064484",
@@ -70,7 +110,7 @@
       "description": "A critical information disclosure vulnerability in Windows Defender Firewall Service, which could allow authorized attackers to access sensitive heap memory on affected systems. The vulnerability, tracked as CVE-2025-62468, was assigned an Important severity rating and released on December 9, 2025. The flaw stems from an out-of-bounds read condition in the Windows Defender Firewall Service…",
       "source": "cybersecuritynews.com",
       "first_seen": "2025-12-11T04:27:07Z",
-      "last_seen": "2025-12-11T09:16:54Z"
+      "last_seen": "2025-12-11T10:13:17Z"
     },
     {
       "id": "4c0d9261b051ff30963619fae8d123c39cd54738",
@@ -100,7 +140,7 @@
       "description": "The post Facebook Gets New Look, But Instagram Secretly Uses AI for SEO Bait appeared first on Daily CyberSecurity.",
       "source": "securityonline.info",
       "first_seen": "2025-12-11T00:56:07Z",
-      "last_seen": "2025-12-11T09:16:54Z"
+      "last_seen": "2025-12-11T10:13:17Z"
     },
     {
       "id": "04e81038d1bb82bc2e1120e80b8bfdb5946741ee",
@@ -110,7 +150,7 @@
       "description": "A new AMOS infostealer campaign is abusing Google search ads to lure users into Grok and ChatGPT conversations that appear to offer \"helpful\" instructions but ultimately lead to installing the AMOS info-stealing malware on macOS. [...]",
       "source": "bleepingcomputer.com",
       "first_seen": "2025-12-11T00:56:07Z",
-      "last_seen": "2025-12-11T09:16:54Z"
+      "last_seen": "2025-12-11T10:13:17Z"
     }
   ]
 }
