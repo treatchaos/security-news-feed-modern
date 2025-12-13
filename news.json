@@ -1,20 +1,13 @@
 {
-  "last_updated": "2025-12-13T11:08:48Z",
-  "count": 40,
+  "last_updated": "2025-12-13T13:20:41Z",
+  "count": 35,
   "items": [
     {
-      "title": "Rust-Based Luca Stealer Spreads Across Linux and Windows Systems",
-      "link": "https://cybersecuritynews.com/rust-based-luca-stealer-spreads-across-linux-and-windows-systems/",
-      "date": "2025-12-13T08:33:23Z",
-      "description": "Threat actors are increasingly abandoning traditional languages like C and C++ in favor of modern alternatives such as Golang, Rust, and Nim. This strategic shift enables developers to compile malicious code for both Linux and Windows with minimal modifications. Among the emerging threats in this landscape is “Luca Stealer,” a Rust-based information stealer that has […] The post Rust-Based Luca…",
-      "source": "cybersecuritynews.com"
-    },
-    {
-      "title": "New Phantom Stealer Campaign Hits Windows Machines Through ISO Mounting",
-      "link": "https://cybersecuritynews.com/new-phantom-stealer-campaign-hits-windows-machines/",
-      "date": "2025-12-13T06:23:29Z",
-      "description": "Researchers have uncovered a sophisticated phishing campaign originating in Russia that deploys the Phantom information-stealing malware via malicious ISO files. The attack, dubbed “Operation MoneyMount-ISO,” targets finance and accounting departments explicitly using fake payment confirmation emails to trick victims into executing the payload. The campaign primarily focuses on finance,…",
-      "source": "cybersecuritynews.com"
+      "title": "CISA Adds Actively Exploited Sierra Wireless Router Flaw Enabling RCE Attacks",
+      "link": "https://thehackernews.com/2025/12/cisa-adds-actively-exploited-sierra.html",
+      "date": "2025-12-13T12:33:00Z",
+      "description": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Friday added a high-severity flaw impacting Sierra Wireless AirLink ALEOS routers to its Known Exploited Vulnerabilities (KEV) catalog, following reports of active exploitation in the wild. CVE-2018-4063 (CVSS score: 8.8/9.9) refers to an unrestricted file upload vulnerability that could be exploited to achieve remote code",
+      "source": "thehackernews.com"
     },
     {
       "title": "Apple Issues Security Updates After Two WebKit Flaws Found Exploited in the Wild",
@@ -29,13 +22,6 @@
       "date": "2025-12-13T03:04:19Z",
       "description": "The post Linux Kernel io_uring UAF Flaw Used to Cheat BPF Verifier and Achieve Container Escape, PoC Releases appeared first on Daily CyberSecurity.",
       "source": "securityonline.info"
-    },
-    {
-      "title": "Apple 0-Day Vulnerabilities Exploited in Sophisticated Attacks Targeting iPhone Users",
-      "link": "https://cybersecuritynews.com/apple-0-day-vulnerabilities-exploited-2/",
-      "date": "2025-12-13T02:44:13Z",
-      "description": "Apple patches two WebKit zero-day flaws actively exploited in sophisticated attacks targeting specific iPhone users running iOS versions prior to 26.​ The iOS 26.2 and iPadOS 26.2 updates, released December 12, 2025, address CVE-2025-43529 and CVE-2025-14174 in WebKit. CVE-2025-43529 involves a use-after-free vulnerability enabling arbitrary code execution via malicious web content, discovered…",
-      "source": "cybersecuritynews.com"
     },
     {
       "title": "Apple fixes two zero-day flaws exploited in 'sophisticated' attacks",
@@ -94,25 +80,11 @@
       "source": "bleepingcomputer.com"
     },
     {
-      "title": "Kali Linux 2025.4 Released With 3 New Hacking Tools and Wifipumpkin3",
-      "link": "https://cybersecuritynews.com/kali-linux-2025-4/",
-      "date": "2025-12-12T17:30:02Z",
-      "description": "Kali Linux 2025.4, released with substantial desktop environment improvements, full Wayland support across virtual machines, and three powerful new hacking tools, including the much-anticipated Wifipumpkin3.​ Released on December 12, 2025, this update focuses on modernizing the user experience while maintaining Kali’s position as the premier penetration testing platform. The release brings GNOME…",
-      "source": "cybersecuritynews.com"
-    },
-    {
       "title": "Fake ‘One Battle After Another’ torrent hides malware in subtitles",
       "link": "https://www.bleepingcomputer.com/news/security/fake-one-battle-after-another-torrent-hides-malware-in-subtitles/",
       "date": "2025-12-12T17:12:47Z",
       "description": "A fake torrent for Leonardo DiCaprio's 'One Battle After Another' hides malicious PowerShell malware loaders inside subtitle files that ultimately infect devices with the Agent Tesla RAT malware. [...]",
       "source": "bleepingcomputer.com"
-    },
-    {
-      "title": "Critical React2Shell Vulnerability (CVE-2025-55182) Analysis: Surge in Attacks Targeting RSC-Enabled Services Worldwide",
-      "link": "https://cybersecuritynews.com/react2shell-cve-2025-55182-attacks-rsc-enabled-services/",
-      "date": "2025-12-12T15:42:17Z",
-      "description": "Torrance, United States / California, December 12th, 2025, CyberNewsWire In December 2025, CVE-2025-55182 (React2Shell), a vulnerability in React Server Components (RSC) that enables remote code execution (RCE), was publicly disclosed. Shortly after publication, multiple security vendors reported scanning activity and suspected exploitation attempts, and CISA has since added the flaw to its…",
-      "source": "cybersecuritynews.com"
     },
     {
       "title": "In Other News: PromptPwnd Attack, macOS Bounty Complaints, Chinese Hackers Trained in Cisco Academy",
@@ -175,13 +147,6 @@
       "link": "https://thehackernews.com/2025/12/securing-genai-in-browser-policy.html",
       "date": "2025-12-12T10:18:00Z",
       "description": "The browser has become the main interface to GenAI for most enterprises: from web-based LLMs and copilots, to GenAI‑powered extensions and agentic browsers like ChatGPT Atlas. Employees are leveraging the power of GenAI to draft emails, summarize documents, work on code, and analyze data, often by copying/pasting sensitive information directly into prompts or uploading files. Traditional",
-      "source": "thehackernews.com"
-    },
-    {
-      "title": "New React RSC Vulnerabilities Enable DoS and Source Code Exposure",
-      "link": "https://thehackernews.com/2025/12/new-react-rsc-vulnerabilities-enable.html",
-      "date": "2025-12-12T08:55:00Z",
-      "description": "The React team has released fixes for two new types of flaws in React Server Components (RSC) that, if successfully exploited, could result in denial-of-service (DoS) or source code exposure. The team said the issues were found by the security community while attempting to exploit the patches released for CVE-2025-55182 (CVSS score: 10.0), a critical bug in RSC that has since been weaponized in",
       "source": "thehackernews.com"
     },
     {
