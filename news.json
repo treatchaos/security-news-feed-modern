@@ -1,7 +1,42 @@
 {
-  "last_updated": "2025-12-15T14:16:26Z",
+  "last_updated": "2025-12-15T15:16:13Z",
   "count": 40,
   "items": [
+    {
+      "title": "Critical pgAdmin Vulnerability Let Attackers Execute Shell Commands on the Host",
+      "link": "https://cybersecuritynews.com/pgadmin-vulnerability-shell-commands/",
+      "date": "2025-12-15T15:13:04Z",
+      "description": "A severe security vulnerability has been uncovered in pgAdmin 4, the popular open-source PostgreSQL database management tool. Tracked as CVE-2025-13780, this critical flaw allows attackers to bypass security filters and execute arbitrary shell commands on the host server. The issue stems from the application’s plain-text restore feature, which failed to block dangerous commands hidden in […] The…",
+      "source": "cybersecuritynews.com"
+    },
+    {
+      "title": "Microsoft Recent Update Breaks VPS Access for Windows Subsystem for Linux Users",
+      "link": "https://cybersecuritynews.com/windows-update-breaks-vps-access/",
+      "date": "2025-12-15T15:10:16Z",
+      "description": "Microsoft’s October 2025 non-security update is disrupting virtual private server (VPS) access for Windows Subsystem for Linux (WSL) users, particularly those relying on third-party VPNs for enterprise connectivity. Released on October 28, 2025, as KB5067036, the update targets OS builds 26200.7019 and 26100.7019 (preview). Users report “No route to host” errors in WSL’s mirrored networking […]…",
+      "source": "cybersecuritynews.com"
+    },
+    {
+      "title": "Microsoft: Recent Windows updates break VPN access for WSL users",
+      "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-recent-windows-updates-cause-wsl-networking-issues/",
+      "date": "2025-12-15T14:34:31Z",
+      "description": "Microsoft says that recent Windows 11 security updates are causing VPN networking failures for enterprise users running Windows Subsystem for Linux. [...]",
+      "source": "bleepingcomputer.com"
+    },
+    {
+      "title": "FreePBX Patches Critical SQLi, File-Upload, and AUTHTYPE Bypass Flaws Enabling RCE",
+      "link": "https://thehackernews.com/2025/12/freepbx-authentication-bypass-exposed.html",
+      "date": "2025-12-15T14:32:00Z",
+      "description": "Multiple security vulnerabilities have been disclosed in the open-source private branch exchange (PBX) platform FreePBX, including a critical flaw that could result in an authentication bypass under certain configurations. The shortcomings, discovered by Horizon3.ai and reported to the project maintainers on September 15, 2025, are listed below - CVE-2025-61675 (CVSS score: 8.6) - Numerous",
+      "source": "thehackernews.com"
+    },
+    {
+      "title": "Wireshark 4.6.2 Released With Fix for Vulnerabilities, and Updated Protocol Support",
+      "link": "https://cybersecuritynews.com/wireshark-4-6-2-released/",
+      "date": "2025-12-15T14:20:34Z",
+      "description": "Wireshark 4.6.2, the latest version of the leading open-source network protocol analyzer, addresses critical crash vulnerabilities and plugin compatibility issues. This maintenance release prioritizes stability for users in troubleshooting and security analysis.​ Developers patched two denial-of-service vulnerabilities identified in recent dissectors. The HTTP3 dissector crash (CVE-2025-13945)…",
+      "source": "cybersecuritynews.com"
+    },
     {
       "title": "New ARTEMIS AI Agent Outperformed 9 out of 10 Human Penetration Testers in Detecting Vulnerabilities",
       "link": "https://cybersecuritynews.com/ai-agent-outperformed-human-penetration-testers/",
@@ -31,13 +66,6 @@
       "source": "bleepingcomputer.com"
     },
     {
-      "title": "Critical Plesk Vulnerability Allows Plesk Users to Gain Root-Level Access",
-      "link": "https://cybersecuritynews.com/plesk-vulnerability/",
-      "date": "2025-12-15T12:44:35Z",
-      "description": "A severe security vulnerability has been discovered in Plesk for Linux that could allow users to gain root access on affected servers. The flaw, tracked as CVE-2025-66430, exists within Plesk’s Password-Protected Directories feature and allows attackers to inject arbitrary data into Apache configuration files. The vulnerability stems from improper handling of user input within the […] The post…",
-      "source": "cybersecuritynews.com"
-    },
-    {
       "title": "⚡ Weekly Recap: Apple 0-Days, WinRAR Exploit, LastPass Fines, .NET RCE, OAuth Scams & More",
       "link": "https://thehackernews.com/2025/12/weekly-recap-apple-0-days-winrar.html",
       "date": "2025-12-15T12:24:00Z",
@@ -59,13 +87,6 @@
       "source": "securityweek.com"
     },
     {
-      "title": "New Clickfix Attack Exploits finger.exe Tool to Trick Users into Execute Malicious Code",
-      "link": "https://cybersecuritynews.com/new-clickfix-attack-exploits-finger-exe-tool/",
-      "date": "2025-12-15T11:44:19Z",
-      "description": "A novel social engineering campaign, dubbed ClickFix, has been identified, which cleverly employs an old Windows command-line tool, finger.exe, to install malware on victims’ systems. This attack begins with a deceptive CAPTCHA verification page, tricking users into running a script that initiates the infection process. The technique has been in use since at least November […] The post New…",
-      "source": "cybersecuritynews.com"
-    },
-    {
       "title": "French Interior Ministry confirms cyberattack on email servers",
       "link": "https://www.bleepingcomputer.com/news/security/france-interior-ministry-confirms-cyberattack-on-email-servers/",
       "date": "2025-12-15T11:06:10Z",
@@ -78,13 +99,6 @@
       "date": "2025-12-15T11:00:46Z",
       "description": "Atlassian has released software updates for Bamboo, Bitbucket, Confluence, Crowd, Fisheye/Crucible, and Jira. The post Atlassian Patches Critical Apache Tika Flaw appeared first on SecurityWeek.",
       "source": "securityweek.com"
-    },
-    {
-      "title": "Shannon – AI Pentesting Tool that Autonomously Checks for Code Vulnerabilities and Executes Real Exploits",
-      "link": "https://cybersecuritynews.com/shannon-ai-pentesting-tool/",
-      "date": "2025-12-15T10:45:22Z",
-      "description": "Shannon is a fully autonomous AI pentesting tool for web applications that identifies attack vectors via code analysis and validates them with live browser exploits. Unlike traditional static analysis tools that merely flag potential issues, Shannon operates as a fully autonomous penetration tester that identifies attack vectors and actively executes real-world exploits to validate them. […] The…",
-      "source": "cybersecuritynews.com"
     },
     {
       "title": "Third DraftKings Hacker Pleads Guilty",
@@ -129,20 +143,6 @@
       "source": "bleepingcomputer.com"
     },
     {
-      "title": "CyberVolk’s ransomware debut stumbles on cryptography weakness",
-      "link": "https://www.bleepingcomputer.com/news/security/cybervolks-ransomware-debut-stumbles-on-cryptography-weakness/",
-      "date": "2025-12-13T15:11:21Z",
-      "description": "The pro-Russia hacktivist group CyberVolk launched a ransomware-as-a-service (RaaS) called VolkLocker that suffered from serious implementation flaws, allowing victims to potentially decrypt files for free. [...]",
-      "source": "bleepingcomputer.com"
-    },
-    {
-      "title": "CISA Adds Actively Exploited Sierra Wireless Router Flaw Enabling RCE Attacks",
-      "link": "https://thehackernews.com/2025/12/cisa-adds-actively-exploited-sierra.html",
-      "date": "2025-12-13T12:33:00Z",
-      "description": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Friday added a high-severity flaw impacting Sierra Wireless AirLink ALEOS routers to its Known Exploited Vulnerabilities (KEV) catalog, following reports of active exploitation in the wild. CVE-2018-4063 (CVSS score: 8.8/9.9) refers to an unrestricted file upload vulnerability that could be exploited to achieve remote code",
-      "source": "thehackernews.com"
-    },
-    {
       "title": "Linux Kernel io_uring UAF Flaw Used to Cheat BPF Verifier and Achieve Container Escape, PoC Releases",
       "link": "https://securityonline.info/linux-kernel-io_uring-uaf-flaw-used-to-cheat-bpf-verifier-and-achieve-container-escape-poc-releases/",
       "date": "2025-12-13T03:04:19Z",
@@ -153,7 +153,7 @@
       "title": "The CISO-COO Partnership: Protecting Operational Excellence",
       "link": "https://www.darkreading.com/cybersecurity-operations/the-ciso-coo-partnership-protecting-operational-excellence",
       "date": "2025-12-12T21:12:13Z",
-      "description": "Digital transformation has made cybersecurity preparation part of operational resilience for most organizations. This calls for a new relationship between CISO and COO.",
+      "description": "Digital transformation has made cybersecurity preparation part of operational resilience for most organizations. This calls for a new relationship between CISOs and COOs.",
       "source": "darkreading.com"
     },
     {

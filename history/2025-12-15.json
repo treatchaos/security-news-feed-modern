@@ -1,7 +1,57 @@
 {
   "date": "2025-12-15",
-  "count": 24,
+  "count": 29,
   "items": [
+    {
+      "id": "ac6c3d65d951d4881fcdfcdb4775cbbf9b69151e",
+      "title": "Critical pgAdmin Vulnerability Let Attackers Execute Shell Commands on the Host",
+      "link": "https://cybersecuritynews.com/pgadmin-vulnerability-shell-commands/",
+      "date": "2025-12-15T15:13:04Z",
+      "description": "A severe security vulnerability has been uncovered in pgAdmin 4, the popular open-source PostgreSQL database management tool. Tracked as CVE-2025-13780, this critical flaw allows attackers to bypass security filters and execute arbitrary shell commands on the host server. The issue stems from the application’s plain-text restore feature, which failed to block dangerous commands hidden in […] The…",
+      "source": "cybersecuritynews.com",
+      "first_seen": "2025-12-15T15:16:13Z",
+      "last_seen": "2025-12-15T15:16:13Z"
+    },
+    {
+      "id": "c282d54e15a4d93e05693fbadb39ff7258a02cd2",
+      "title": "Microsoft Recent Update Breaks VPS Access for Windows Subsystem for Linux Users",
+      "link": "https://cybersecuritynews.com/windows-update-breaks-vps-access/",
+      "date": "2025-12-15T15:10:16Z",
+      "description": "Microsoft’s October 2025 non-security update is disrupting virtual private server (VPS) access for Windows Subsystem for Linux (WSL) users, particularly those relying on third-party VPNs for enterprise connectivity. Released on October 28, 2025, as KB5067036, the update targets OS builds 26200.7019 and 26100.7019 (preview). Users report “No route to host” errors in WSL’s mirrored networking […]…",
+      "source": "cybersecuritynews.com",
+      "first_seen": "2025-12-15T15:16:13Z",
+      "last_seen": "2025-12-15T15:16:13Z"
+    },
+    {
+      "id": "889d2561f173dd0768fce681a298be2af58adad5",
+      "title": "Microsoft: Recent Windows updates break VPN access for WSL users",
+      "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-recent-windows-updates-cause-wsl-networking-issues/",
+      "date": "2025-12-15T14:34:31Z",
+      "description": "Microsoft says that recent Windows 11 security updates are causing VPN networking failures for enterprise users running Windows Subsystem for Linux. [...]",
+      "source": "bleepingcomputer.com",
+      "first_seen": "2025-12-15T15:16:13Z",
+      "last_seen": "2025-12-15T15:16:13Z"
+    },
+    {
+      "id": "5ad245d9b3bd43d880ff4fd8c017ba49e6b8d743",
+      "title": "FreePBX Patches Critical SQLi, File-Upload, and AUTHTYPE Bypass Flaws Enabling RCE",
+      "link": "https://thehackernews.com/2025/12/freepbx-authentication-bypass-exposed.html",
+      "date": "2025-12-15T14:32:00Z",
+      "description": "Multiple security vulnerabilities have been disclosed in the open-source private branch exchange (PBX) platform FreePBX, including a critical flaw that could result in an authentication bypass under certain configurations. The shortcomings, discovered by Horizon3.ai and reported to the project maintainers on September 15, 2025, are listed below - CVE-2025-61675 (CVSS score: 8.6) - Numerous",
+      "source": "thehackernews.com",
+      "first_seen": "2025-12-15T15:16:13Z",
+      "last_seen": "2025-12-15T15:16:13Z"
+    },
+    {
+      "id": "9c8a2fb60f6a3837d342df7219dcf709d7af4c48",
+      "title": "Wireshark 4.6.2 Released With Fix for Vulnerabilities, and Updated Protocol Support",
+      "link": "https://cybersecuritynews.com/wireshark-4-6-2-released/",
+      "date": "2025-12-15T14:20:34Z",
+      "description": "Wireshark 4.6.2, the latest version of the leading open-source network protocol analyzer, addresses critical crash vulnerabilities and plugin compatibility issues. This maintenance release prioritizes stability for users in troubleshooting and security analysis.​ Developers patched two denial-of-service vulnerabilities identified in recent dissectors. The HTTP3 dissector crash (CVE-2025-13945)…",
+      "source": "cybersecuritynews.com",
+      "first_seen": "2025-12-15T15:16:13Z",
+      "last_seen": "2025-12-15T15:16:13Z"
+    },
     {
       "id": "066d0cecb2ea9d6da9981c71f144bc634478fded",
       "title": "New ARTEMIS AI Agent Outperformed 9 out of 10 Human Penetration Testers in Detecting Vulnerabilities",
@@ -10,7 +60,7 @@
       "description": "Researchers from Stanford University, Carnegie Mellon University, and Gray Swan AI have unveiled ARTEMIS, a sophisticated AI agent framework that demonstrates remarkable competitive capabilities against seasoned cybersecurity professionals. In the first-ever comprehensive comparison of AI agents against human experts in a live enterprise environment, ARTEMIS placed second overall, outperforming…",
       "source": "cybersecuritynews.com",
       "first_seen": "2025-12-15T14:16:26Z",
-      "last_seen": "2025-12-15T14:16:26Z"
+      "last_seen": "2025-12-15T15:16:13Z"
     },
     {
       "id": "b4ad285866e3ec80baa0ba86bade52be907964b2",
@@ -20,7 +70,7 @@
       "description": "Google has also mentioned seeing React2Shell attacks conducted by Iranian threat actors. The post Google Sees 5 Chinese Groups Exploiting React2Shell for Malware Delivery appeared first on SecurityWeek.",
       "source": "securityweek.com",
       "first_seen": "2025-12-15T14:16:26Z",
-      "last_seen": "2025-12-15T14:16:26Z"
+      "last_seen": "2025-12-15T15:16:13Z"
     },
     {
       "id": "dfe3a26719d57c7d1a500e3480aad7159bba3388",
@@ -30,7 +80,7 @@
       "description": "A sophisticated Android malware campaign named NexusRoute is actively targeting Indian citizens by impersonating government services. The operation uses fake versions of the official mParivahan and e-Challan applications to harvest login credentials and financial information from unsuspecting users. This coordinated attack combines phishing websites, fraudulent payment interfaces, and advanced…",
       "source": "cybersecuritynews.com",
       "first_seen": "2025-12-15T13:34:05Z",
-      "last_seen": "2025-12-15T14:16:26Z"
+      "last_seen": "2025-12-15T15:16:13Z"
     },
     {
       "id": "355f7c46ac64b1f25be4e91dcdd387ffeeb56146",
@@ -40,7 +90,7 @@
       "description": "Over the weekend, ​Google's threat intelligence team linked five more Chinese hacking groups to attacks exploiting the maximum-severity \"React2Shell\" remote code execution vulnerability. [...]",
       "source": "bleepingcomputer.com",
       "first_seen": "2025-12-15T13:34:05Z",
-      "last_seen": "2025-12-15T14:16:26Z"
+      "last_seen": "2025-12-15T15:16:13Z"
     },
     {
       "id": "8f3d27747d12ce33b72f34fb320f4a1c86e84c38",
@@ -60,7 +110,7 @@
       "description": "If you use a smartphone, browse the web, or unzip files on your computer, you are in the crosshairs this week. Hackers are currently exploiting critical flaws in the daily software we all rely on—and in some cases, they started attacking before a fix was even ready. Below, we list the urgent updates you need to install right now to stop these active threats. ⚡ Threat of the Week Apple and",
       "source": "thehackernews.com",
       "first_seen": "2025-12-15T13:34:05Z",
-      "last_seen": "2025-12-15T14:16:26Z"
+      "last_seen": "2025-12-15T15:16:13Z"
     },
     {
       "id": "d28e645cba89b278adc1f9159af5ba0b9bee7e9e",
@@ -70,7 +120,7 @@
       "description": "In early December 2025, security researchers exposed a cybercrime campaign that had quietly hijacked popular Chrome and Edge browser extensions on a massive scale. A threat group dubbed ShadyPanda spent seven years playing the long game, publishing or acquiring harmless extensions, letting them run clean for years to build trust and gain millions of installs, then suddenly flipping them into",
       "source": "thehackernews.com",
       "first_seen": "2025-12-15T13:34:05Z",
-      "last_seen": "2025-12-15T14:16:26Z"
+      "last_seen": "2025-12-15T15:16:13Z"
     },
     {
       "id": "65485146718023ef0d3d10f219290d675ca817af",
@@ -80,7 +130,7 @@
       "description": "The sovereign smartphone OS runs along Android or iOS, allowing users to switch between secure, isolated environments. The post Soverli Raises $2.6 Million for Secure Smartphone OS appeared first on SecurityWeek.",
       "source": "securityweek.com",
       "first_seen": "2025-12-15T12:24:41Z",
-      "last_seen": "2025-12-15T14:16:26Z"
+      "last_seen": "2025-12-15T15:16:13Z"
     },
     {
       "id": "6735158ce777d7dd340bcbae9747845b0c394961",
@@ -100,7 +150,7 @@
       "description": "The French Interior Minister confirmed on Friday that the country's Ministry of the Interior was breached in a cyberattack that compromised e-mail servers. [...]",
       "source": "bleepingcomputer.com",
       "first_seen": "2025-12-15T11:11:33Z",
-      "last_seen": "2025-12-15T14:16:26Z"
+      "last_seen": "2025-12-15T15:16:13Z"
     },
     {
       "id": "ef4fc6320d130c6ecd092f1c9916445e9fc7fda0",
@@ -110,7 +160,7 @@
       "description": "Atlassian has released software updates for Bamboo, Bitbucket, Confluence, Crowd, Fisheye/Crucible, and Jira. The post Atlassian Patches Critical Apache Tika Flaw appeared first on SecurityWeek.",
       "source": "securityweek.com",
       "first_seen": "2025-12-15T11:11:33Z",
-      "last_seen": "2025-12-15T14:16:26Z"
+      "last_seen": "2025-12-15T15:16:13Z"
     },
     {
       "id": "7f744c066d7ff7c40d7442fe61b7092ddf562191",
@@ -130,7 +180,7 @@
       "description": "Nathan Austad admitted in court to launching a credential stuffing attack against a fantasy sports and betting website. The post Third DraftKings Hacker Pleads Guilty appeared first on SecurityWeek.",
       "source": "securityweek.com",
       "first_seen": "2025-12-15T11:11:33Z",
-      "last_seen": "2025-12-15T14:16:26Z"
+      "last_seen": "2025-12-15T15:16:13Z"
     },
     {
       "id": "1c3f7b9a49eb270b75f3974a200a438947b4dfc8",
@@ -160,7 +210,7 @@
       "description": "Cybersecurity researchers have disclosed details of an active phishing campaign that's targeting a wide range of sectors in Russia with phishing emails that deliver Phantom Stealer via malicious ISO optical disc images. The activity, codenamed Operation MoneyMount-ISO by Seqrite Labs, has primarily singled out finance and accounting entities, with those in the procurement, legal, payroll",
       "source": "thehackernews.com",
       "first_seen": "2025-12-15T10:15:38Z",
-      "last_seen": "2025-12-15T14:16:26Z"
+      "last_seen": "2025-12-15T15:16:13Z"
     },
     {
       "id": "30b087c68495ef24b1ee465a7bfeb0202a04bdfb",
@@ -180,7 +230,7 @@
       "description": "Hackers stole names, addresses, dates of birth, and Social Security numbers from the credit report and identity verification services provider. The post 700Credit Data Breach Impacts 5.8 Million Individuals appeared first on SecurityWeek.",
       "source": "securityweek.com",
       "first_seen": "2025-12-15T10:15:38Z",
-      "last_seen": "2025-12-15T14:16:26Z"
+      "last_seen": "2025-12-15T15:16:13Z"
     },
     {
       "id": "9a406eb248ad15bd1f27119133a6a92e68f04a40",
@@ -190,7 +240,7 @@
       "description": "Microsoft has confirmed that the December 2025 security updates are breaking Message Queuing (MSMQ) functionality, affecting enterprise applications and Internet Information Services (IIS) websites. [...]",
       "source": "bleepingcomputer.com",
       "first_seen": "2025-12-15T09:21:35Z",
-      "last_seen": "2025-12-15T14:16:26Z"
+      "last_seen": "2025-12-15T15:16:13Z"
     },
     {
       "id": "3f79fb721fc3649c8ba96e288c2fcaa43dbdbb48",
@@ -230,7 +280,7 @@
       "description": "The pro-Russian hacktivist group known as CyberVolk (aka GLORIAMIST) has resurfaced with a new ransomware-as-a-service (RaaS) offering called VolkLocker that suffers from implementation lapses in test artifacts, allowing users to decrypt files without paying an extortion fee. According to SentinelOne, VolkLocker (aka CyberVolk 2.x) emerged in August 2025 and is capable of targeting both Windows",
       "source": "thehackernews.com",
       "first_seen": "2025-12-15T07:17:13Z",
-      "last_seen": "2025-12-15T14:16:26Z"
+      "last_seen": "2025-12-15T15:16:13Z"
     },
     {
       "id": "25ad580223177c05dfedad7990b576e29f0a28ab",
