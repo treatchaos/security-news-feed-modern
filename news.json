@@ -1,7 +1,35 @@
 {
-  "last_updated": "2025-12-15T09:21:35Z",
+  "last_updated": "2025-12-15T10:15:38Z",
   "count": 40,
   "items": [
+    {
+      "title": "Microsoft December 2025 Security Updates Breaking Message Queuing (MSMQ) Functionality Affects IIS Sites",
+      "link": "https://cybersecuritynews.com/message-queuing-functionality-iis-sites/",
+      "date": "2025-12-15T09:44:18Z",
+      "description": "Microsoft’s December 2025 security updates have unleashed an unexpected headache for enterprise admins relying on Message Queuing (MSMQ). Installed via KB5071546 on December 9, the patch targeting OS Build 19045.6691 alters MSMQ’s security model, leading to widespread failures in queue operations. Confirmed on December 12, the issue is most severe in high-load clustered environments, causing […]…",
+      "source": "cybersecuritynews.com"
+    },
+    {
+      "title": "Phantom Stealer Spread by ISO Phishing Emails Hitting Russian Finance Sector",
+      "link": "https://thehackernews.com/2025/12/phantom-stealer-spread-by-iso-phishing.html",
+      "date": "2025-12-15T09:24:00Z",
+      "description": "Cybersecurity researchers have disclosed details of an active phishing campaign that's targeting a wide range of sectors in Russia with phishing emails that deliver Phantom Stealer via malicious ISO optical disc images. The activity, codenamed Operation MoneyMount-ISO by Seqrite Labs, has primarily singled out finance and accounting entities, with those in the procurement, legal, payroll",
+      "source": "thehackernews.com"
+    },
+    {
+      "title": "New Gentlemen Ransomware Breaching Corporate Networks to Exfiltrate and Encrypt Sensitive Data",
+      "link": "https://cybersecuritynews.com/new-gentlemen-ransomware-breaching-corporate-networks/",
+      "date": "2025-12-15T09:22:39Z",
+      "description": "Gentlemen ransomware, first identified in August 2025, has rapidly evolved into a significant threat targeting corporate networks globally. Operating on a double extortion model, this group exfiltrates sensitive data before encrypting it, ensuring they can leverage stolen information even if backups exist. The ransomware is developed in the Go programming language, allowing for efficient…",
+      "source": "cybersecuritynews.com"
+    },
+    {
+      "title": "700Credit Data Breach Impacts 5.8 Million Individuals",
+      "link": "https://www.securityweek.com/700credit-data-breach-impacts-5-8-million-individuals/",
+      "date": "2025-12-15T09:21:39Z",
+      "description": "Hackers stole names, addresses, dates of birth, and Social Security numbers from the credit report and identity verification services provider. The post 700Credit Data Breach Impacts 5.8 Million Individuals appeared first on SecurityWeek.",
+      "source": "securityweek.com"
+    },
     {
       "title": "Microsoft: December security updates cause Message Queuing failures",
       "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-december-security-updates-cause-message-queuing-failures/",
@@ -50,20 +78,6 @@
       "date": "2025-12-14T16:06:10Z",
       "description": "An email scam is abusing abusing PayPal's \"Subscriptions\" billing feature to send legitimate PayPal emails that contain fake purchase notifications embedded in the Customer service URL field. [...]",
       "source": "bleepingcomputer.com"
-    },
-    {
-      "title": "Cybersecurity News Weekly Newsletter – Windows, Chrome, and Apple 0-days, Kali Linux 2025.4, and MITRE Top 25",
-      "link": "https://cybersecuritynews.com/cybersecurity-newsletter-december-week2/",
-      "date": "2025-12-14T14:46:15Z",
-      "description": "As 2025 nears its close, the cybersecurity landscape shows no signs of slowing down. This week’s developments highlight how rapidly the threat environment continues to evolve with major zero-day vulnerabilities targeting Windows, Chrome, and Apple devices, each actively exploited in the wild. These high-risk flaws underline the continued importance of swift patching, layered defense, and […] The…",
-      "source": "cybersecuritynews.com"
-    },
-    {
-      "title": "CISA Warns of Windows Cloud Files Mini Filter 0-Day Vulnerability Exploited in Attacks",
-      "link": "https://cybersecuritynews.com/cisa-warns-of-windows-cloud-files-mini-filter-vulnerability-exploited/",
-      "date": "2025-12-14T13:50:42Z",
-      "description": "A critical alert regarding an active zero-day vulnerability affecting the Microsoft Windows Cloud Files Mini Filter Driver. The vulnerability poses a significant risk to organizations running affected Windows systems and requires immediate remediation efforts. CISA reports that the vulnerability, tracked as CVE-2025-62221, is a use-after-free flaw in the Windows Cloud Files Mini Filter Driver.…",
-      "source": "cybersecuritynews.com"
     },
     {
       "title": "CyberVolk’s ransomware debut stumbles on cryptography weakness",
@@ -157,13 +171,6 @@
       "source": "securityweek.com"
     },
     {
-      "title": "New Advanced Phishing Kits Use AI and MFA Bypass Tactics to Steal Credentials at Scale",
-      "link": "https://thehackernews.com/2025/12/new-advanced-phishing-kits-use-ai-and.html",
-      "date": "2025-12-12T14:04:00Z",
-      "description": "Cybersecurity researchers have documented four new phishing kits named BlackForce, GhostFrame, InboxPrime AI, and Spiderman that are capable of facilitating credential theft at scale. BlackForce, first detected in August 2025, is designed to steal credentials and perform Man-in-the-Browser (MitB) attacks to capture one-time passwords (OTPs) and bypass multi-factor authentication (MFA). The kit",
-      "source": "thehackernews.com"
-    },
-    {
       "title": "Gladinet CentreStack Flaw Exploited to Hack Organizations",
       "link": "https://www.securityweek.com/gladinet-centrestack-flaw-exploited-to-hack-organizations/",
       "date": "2025-12-12T13:49:35Z",
@@ -175,13 +182,6 @@
       "link": "https://www.securityweek.com/fieldtex-data-breach-impacts-238000/",
       "date": "2025-12-12T13:12:33Z",
       "description": "The Akira ransomware group took credit for the Fieldtex Products hack in November, claiming to have stolen 14 Gb of data. The post Fieldtex Data Breach Impacts 238,000 appeared first on SecurityWeek.",
-      "source": "securityweek.com"
-    },
-    {
-      "title": "Recent GeoServer Vulnerability Exploited in Attacks",
-      "link": "https://www.securityweek.com/recent-geoserver-vulnerability-exploited-in-attacks/",
-      "date": "2025-12-12T12:13:10Z",
-      "description": "Because user input is not sufficiently sanitized, attackers could exploit the flaw to define external entities within an XML request. The post Recent GeoServer Vulnerability Exploited in Attacks appeared first on SecurityWeek.",
       "source": "securityweek.com"
     },
     {
