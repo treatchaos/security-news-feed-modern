@@ -1,7 +1,37 @@
 {
   "date": "2025-12-17",
-  "count": 39,
+  "count": 42,
   "items": [
+    {
+      "id": "5a71848c8c7dac0602dec443d95652b58b388cfd",
+      "title": "Sonicwall warns of new SMA1000 zero-day exploited in attacks",
+      "link": "https://www.bleepingcomputer.com/news/security/sonicwall-warns-of-new-sma1000-zero-day-exploited-in-attacks/",
+      "date": "2025-12-17T17:44:18Z",
+      "description": "SonicWall warned customers today to patch a vulnerability in the SonicWall SMA1000 Appliance Management Console (AMC) that was chained in zero-day attacks to escalate privileges. [...]",
+      "source": "bleepingcomputer.com",
+      "first_seen": "2025-12-17T18:18:27Z",
+      "last_seen": "2025-12-17T18:18:27Z"
+    },
+    {
+      "id": "98e047d1aa3f2c5698bfbcb5ca15e9f889c317f2",
+      "title": "5 SOC Analyst Tips for Super-Fast Triage",
+      "link": "https://cybersecuritynews.com/5-soc-analyst-tips/",
+      "date": "2025-12-17T17:21:33Z",
+      "description": "Every extra minute spent guessing during triage puts your SOC at risk. When it’s unclear what a file does, whether it’s malicious, or how urgent it is, real threats slip through while time is wasted on noise. Fast triage depends on removing uncertainty early, so decisions are based on evidence, not guesswork or incomplete signals. Here are five practical […] The post 5 SOC Analyst Tips for…",
+      "source": "cybersecuritynews.com",
+      "first_seen": "2025-12-17T18:18:27Z",
+      "last_seen": "2025-12-17T18:18:27Z"
+    },
+    {
+      "id": "745d2013d969bc1832f79861c033d1a15da32c22",
+      "title": "Hackers Could Take Control of Car Dashboard by Hacking Its Modem",
+      "link": "https://cybersecuritynews.com/hackers-could-take-control-of-car-dashboard/",
+      "date": "2025-12-17T17:16:08Z",
+      "description": "Modern vehicles are increasingly defined by their connectivity, transforming them into sophisticated IoT devices on wheels. While this digital evolution enhances the driving experience, it introduces severe security risks. A hypothetical scenario where a car dashboard is remotely hijacked to run video games like Doom has become a frightening reality. This vulnerability stems from the […] The…",
+      "source": "cybersecuritynews.com",
+      "first_seen": "2025-12-17T18:18:27Z",
+      "last_seen": "2025-12-17T18:18:27Z"
+    },
     {
       "id": "bf163c336f4c953f70e042a4688d3ee602fafc3e",
       "title": "Attackers Use Stolen AWS Credentials in Cryptomining Campaign",
@@ -10,7 +40,7 @@
       "description": "Threat actors wielding stolen AWS Identity and Access Management (IAM) credentials leverage Amazon EC and EC2 infrastructure across multiple customer environments.",
       "source": "darkreading.com",
       "first_seen": "2025-12-17T17:16:07Z",
-      "last_seen": "2025-12-17T17:16:07Z"
+      "last_seen": "2025-12-17T18:18:27Z"
     },
     {
       "id": "2e7418262d651b7e2ad84059b8cedb00aa6bfb81",
@@ -20,7 +50,7 @@
       "description": "A ransomware gang exploited the critical React2Shell vulnerability (CVE-2025-55182) to gain initial access to corporate networks and deployed the file-encrypting malware less than a minute later. [...]",
       "source": "bleepingcomputer.com",
       "first_seen": "2025-12-17T16:15:37Z",
-      "last_seen": "2025-12-17T17:16:07Z"
+      "last_seen": "2025-12-17T18:18:27Z"
     },
     {
       "id": "79faa5a00a1d717cd727e40f0839b4e6cf2c593b",
@@ -30,7 +60,7 @@
       "description": "Microsoft has confirmed a critical out-of-bounds vulnerability in the Desktop Window Manager (DWM) that allows local attackers to escalate privileges to SYSTEM on affected Windows systems. The vulnerability, identified as CVE-2025-55681, resides in the dwmcore.dll component and impacts Windows 10, Windows 11, and related server editions worldwide. Product Affected Versions Windows 10 All…",
       "source": "cybersecuritynews.com",
       "first_seen": "2025-12-17T16:15:37Z",
-      "last_seen": "2025-12-17T17:16:07Z"
+      "last_seen": "2025-12-17T18:18:27Z"
     },
     {
       "id": "8d8eff805304cd49c0dbc181d79f2be5c314a474",
@@ -40,7 +70,7 @@
       "description": "The Russian state-sponsored threat actor known as APT28 has been attributed to what has been described as a \"sustained\" credential-harvesting campaign targeting users of UKR[.]net, a webmail and news service popular in Ukraine. The activity, observed by Recorded Future's Insikt Group between June 2024 and April 2025, builds upon prior findings from the cybersecurity company in May 2024 that",
       "source": "thehackernews.com",
       "first_seen": "2025-12-17T16:15:37Z",
-      "last_seen": "2025-12-17T17:16:07Z"
+      "last_seen": "2025-12-17T18:18:27Z"
     },
     {
       "id": "da8e538b76a3f0a27fbc0956118345b988a19521",
@@ -50,7 +80,7 @@
       "description": "The threat actor linked to Operation ForumTroll has been attributed to a fresh set of phishing attacks targeting individuals within Russia, according to Kaspersky. The Russian cybersecurity vendor said it detected the new activity in October 2025. The origins of the threat actor are presently unknown. \"While the spring cyberattacks focused on organizations, the fall campaign honed in on",
       "source": "thehackernews.com",
       "first_seen": "2025-12-17T16:15:37Z",
-      "last_seen": "2025-12-17T17:16:07Z"
+      "last_seen": "2025-12-17T18:18:27Z"
     },
     {
       "id": "336ddd40866fab402470a6fb158e2e76d6cd5e09",
@@ -60,7 +90,7 @@
       "description": "Microsoft has confirmed that its December 2025 Windows security update (KB5071546, OS Build 19045.6691) is causing Message Queuing (MSMQ) failures, leading to widespread IIS site crashes. First reported on December 12 and last updated December 16, the problem manifests under load, particularly in clustered setups, disrupting critical messaging workflows. Affected users report MSMQ queues going…",
       "source": "cybersecuritynews.com",
       "first_seen": "2025-12-17T14:13:26Z",
-      "last_seen": "2025-12-17T17:16:07Z"
+      "last_seen": "2025-12-17T18:18:27Z"
     },
     {
       "id": "b0c735089995cc996bf68f54b898e438c1b495d7",
@@ -70,7 +100,7 @@
       "description": "Passwords and app-based MFA add hidden costs through lost productivity, frequent resets, and risk of phishing and social engineering attacks. Token explains how wireless biometric, passwordless authentication eliminates credential-based attacks and delivers measurable financial returns by reducing login time across the enterprise. [...]",
       "source": "bleepingcomputer.com",
       "first_seen": "2025-12-17T14:13:26Z",
-      "last_seen": "2025-12-17T17:16:07Z"
+      "last_seen": "2025-12-17T18:18:27Z"
     },
     {
       "id": "c9c6ae5869047987ed9a985d2da16e345fee1887",
@@ -80,7 +110,7 @@
       "description": "The trucking industry group has released its 2026 Transportation Industry Cybersecurity Trends Report. The post NMFTA Warns of Surge and Sophistication of Cyber-Enabled Cargo Theft appeared first on SecurityWeek.",
       "source": "securityweek.com",
       "first_seen": "2025-12-17T14:13:26Z",
-      "last_seen": "2025-12-17T17:16:07Z"
+      "last_seen": "2025-12-17T18:18:27Z"
     },
     {
       "id": "1fed637fcb156a5dd8aad75ba971a8a32269c633",
@@ -90,7 +120,7 @@
       "description": "A first-person journey from undetected fraud to defending trust—how life events, neurodiversity, and hard-won insight shaped a former fraudster into a fraud fighter. The post Hacker Conversations: Alex Hall, One-time Fraudster appeared first on SecurityWeek.",
       "source": "securityweek.com",
       "first_seen": "2025-12-17T13:27:58Z",
-      "last_seen": "2025-12-17T17:16:07Z"
+      "last_seen": "2025-12-17T18:18:27Z"
     },
     {
       "id": "96aff3e376379650d40573b597dfa8aa8b74ea72",
@@ -100,7 +130,7 @@
       "description": "The malware provides full device control and real-time surveillance capabilities like those of advanced spyware. The post New $150 Cellik RAT Grants Android Control, Trojanizes Google Play Apps appeared first on SecurityWeek.",
       "source": "securityweek.com",
       "first_seen": "2025-12-17T13:27:58Z",
-      "last_seen": "2025-12-17T17:16:07Z"
+      "last_seen": "2025-12-17T18:18:27Z"
     },
     {
       "id": "65f911b8a1a7a13b6578087916e2d4bf9424cd7b",
@@ -110,7 +140,7 @@
       "description": "The group employs a custom ShadowPad IIS Listener module to transform compromised servers into a resilient, distributed relay network. This approach allows attackers to route malicious traffic through victim infrastructure, effectively turning hacked organizations into a mesh of command-and-control nodes. The operation begins by exploiting long-standing vulnerabilities, specifically ASP.NET…",
       "source": "cybersecuritynews.com",
       "first_seen": "2025-12-17T13:27:58Z",
-      "last_seen": "2025-12-17T17:16:07Z"
+      "last_seen": "2025-12-17T18:18:27Z"
     },
     {
       "id": "3f39b4e704d99cf068ff2f327a4eb0d78bbb6157",
@@ -130,7 +160,7 @@
       "description": "Microsoft has asked businesses to reach out for advice on how to temporarily mitigate a Message Queuing (MSMQ) issue causing enterprise apps and Internet Information Services (IIS) sites to fail. [...]",
       "source": "bleepingcomputer.com",
       "first_seen": "2025-12-17T17:16:07Z",
-      "last_seen": "2025-12-17T17:16:07Z"
+      "last_seen": "2025-12-17T18:18:27Z"
     },
     {
       "id": "69fab676b305f75a8815e98d325d935db7ed231e",
@@ -150,7 +180,7 @@
       "description": "The perimeter is gone. Credentials are no longer sufficient. And security can no longer rely on static controls in a dynamic threat environment. The post Five Cybersecurity Predictions for 2026: Identity, AI, and the Collapse of Perimeter Thinking appeared first on SecurityWeek.",
       "source": "securityweek.com",
       "first_seen": "2025-12-17T12:23:03Z",
-      "last_seen": "2025-12-17T17:16:07Z"
+      "last_seen": "2025-12-17T18:18:27Z"
     },
     {
       "id": "b4c920f045043bb18fa688a834225f975056e2bb",
@@ -190,7 +220,7 @@
       "description": "Modern security teams often feel like they’re driving through fog with failing headlights. Threats accelerate, alerts multiply, and SOCs struggle to understand which dangers matter right now for their business. Breaking out of reactive defense is no longer optional. It’s the difference between preventing incidents and cleaning up after them. Below is the path from reactive firefighting to a",
       "source": "thehackernews.com",
       "first_seen": "2025-12-17T12:23:03Z",
-      "last_seen": "2025-12-17T17:16:07Z"
+      "last_seen": "2025-12-17T18:18:27Z"
     },
     {
       "id": "7277519485cb0969b104181114068a3bc9ff82c5",
@@ -210,7 +240,7 @@
       "description": "Led by Bain Capital Ventures, the investment round brings the total raised by the company to $146.5 million. The post Adaptive Security Raises $81 Million in Series B Funding appeared first on SecurityWeek.",
       "source": "securityweek.com",
       "first_seen": "2025-12-17T12:23:03Z",
-      "last_seen": "2025-12-17T17:16:07Z"
+      "last_seen": "2025-12-17T18:18:27Z"
     },
     {
       "id": "2001eabab7ca829f2042aee3771c708c79a57f99",
@@ -220,7 +250,7 @@
       "description": "The threat actor known as Jewelbug has been increasingly focusing on government targets in Europe since July 2025, even as it continues to attack entities located in Southeast Asia and South America. Check Point Research is tracking the cluster under the name Ink Dragon. It's also referenced by the broader cybersecurity community under the names CL-STA-0049, Earth Alux, and REF7707. The",
       "source": "thehackernews.com",
       "first_seen": "2025-12-17T12:23:03Z",
-      "last_seen": "2025-12-17T17:16:07Z"
+      "last_seen": "2025-12-17T18:18:27Z"
     },
     {
       "id": "1ea7ecb6ec18e9cd67041310b511b433a4a8d110",
@@ -290,7 +320,7 @@
       "description": "A new campaign named GhostPoster has leveraged logo files associated with 17 Mozilla Firefox browser add-ons to embed malicious JavaScript code designed to hijack affiliate links, inject tracking code, and commit click and ad fraud. The extensions have been collectively downloaded over 50,000 times, according to Koi Security, which discovered the campaign. The add-ons are no longer available.",
       "source": "thehackernews.com",
       "first_seen": "2025-12-17T10:14:09Z",
-      "last_seen": "2025-12-17T17:16:07Z"
+      "last_seen": "2025-12-17T18:18:27Z"
     },
     {
       "id": "95ba850d8afc078f119d07dd9900b2ba779c090c",
@@ -330,7 +360,7 @@
       "description": "Rapid digitization, uneven cybersecurity know-how, and growing cybercriminal syndicates in the region have challenged law enforcement and prosecutors.",
       "source": "darkreading.com",
       "first_seen": "2025-12-17T07:15:31Z",
-      "last_seen": "2025-12-17T17:16:07Z"
+      "last_seen": "2025-12-17T18:18:27Z"
     },
     {
       "id": "0b09c7a8f2f973f898513f09de69bbe8053b82a1",
@@ -360,7 +390,7 @@
       "description": "The post Dropbear SSH Flaw Risks Root Access on Embedded Linux via Unix Stream Forwarding appeared first on Daily CyberSecurity.",
       "source": "securityonline.info",
       "first_seen": "2025-12-17T03:48:56Z",
-      "last_seen": "2025-12-17T17:16:07Z"
+      "last_seen": "2025-12-17T18:18:27Z"
     },
     {
       "id": "27867e782e57a4f91186ae60c6b4877af4bccf90",
@@ -380,7 +410,7 @@
       "description": "A high-school student is tackling the overlooked risk of AI-generated satellite imagery that could mislead governments and emergency responders.",
       "source": "darkreading.com",
       "first_seen": "2025-12-17T14:13:26Z",
-      "last_seen": "2025-12-17T17:16:07Z"
+      "last_seen": "2025-12-17T18:18:27Z"
     },
     {
       "id": "e28d304ff3b415672f974fa91e981294e52a04e8",
@@ -390,7 +420,7 @@
       "description": "The key elements in a security operations center's strategy map very closely to the swim/bike/run events in a triathlon. SOCs, like triathletes, perform well when their \"inputs\" are strong.",
       "source": "darkreading.com",
       "first_seen": "2025-12-17T12:23:03Z",
-      "last_seen": "2025-12-17T17:16:07Z"
+      "last_seen": "2025-12-17T18:18:27Z"
     }
   ]
 }
