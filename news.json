@@ -1,7 +1,35 @@
 {
-  "last_updated": "2025-12-17T14:13:26Z",
+  "last_updated": "2025-12-17T16:15:37Z",
   "count": 40,
   "items": [
+    {
+      "title": "Critical React2Shell flaw exploited in ransomware attacks",
+      "link": "https://www.bleepingcomputer.com/news/security/critical-react2shell-flaw-exploited-in-ransomware-attacks/",
+      "date": "2025-12-17T16:09:51Z",
+      "description": "A ransomware gang exploited the critical React2Shell vulnerability (CVE-2025-55182) to gain initial access to corporate networks and deployed the file-encrypting malware less than a minute later. [...]",
+      "source": "bleepingcomputer.com"
+    },
+    {
+      "title": "Microsoft Desktop Windows Manager Out-Of-Bounds Vulnerability Let Attackers Escalate Privileges",
+      "link": "https://cybersecuritynews.com/microsoft-desktop-windows-manager-vulnerability/",
+      "date": "2025-12-17T15:52:48Z",
+      "description": "Microsoft has confirmed a critical out-of-bounds vulnerability in the Desktop Window Manager (DWM) that allows local attackers to escalate privileges to SYSTEM on affected Windows systems. The vulnerability, identified as CVE-2025-55681, resides in the dwmcore.dll component and impacts Windows 10, Windows 11, and related server editions worldwide. Product Affected Versions Windows 10 All…",
+      "source": "cybersecuritynews.com"
+    },
+    {
+      "title": "APT28 Targets Ukrainian UKR-net Users in Long-Running Credential Phishing Campaign",
+      "link": "https://thehackernews.com/2025/12/apt28-targets-ukrainian-ukr-net-users.html",
+      "date": "2025-12-17T15:30:00Z",
+      "description": "The Russian state-sponsored threat actor known as APT28 has been attributed to what has been described as a \"sustained\" credential-harvesting campaign targeting users of UKR[.]net, a webmail and news service popular in Ukraine. The activity, observed by Recorded Future's Insikt Group between June 2024 and April 2025, builds upon prior findings from the cybersecurity company in May 2024 that",
+      "source": "thehackernews.com"
+    },
+    {
+      "title": "New ForumTroll Phishing Attacks Target Russian Scholars Using Fake eLibrary Emails",
+      "link": "https://thehackernews.com/2025/12/new-forumtroll-phishing-attacks-target.html",
+      "date": "2025-12-17T14:54:00Z",
+      "description": "The threat actor linked to Operation ForumTroll has been attributed to a fresh set of phishing attacks targeting individuals within Russia, according to Kaspersky. The Russian cybersecurity vendor said it detected the new activity in October 2025. The origins of the threat actor are presently unknown. \"While the spring cyberattacks focused on organizations, the fall campaign honed in on",
+      "source": "thehackernews.com"
+    },
     {
       "title": "Microsoft Asks IT Admins to Contact for Fix Related to Windows IIS Failure Issues",
       "link": "https://cybersecuritynews.com/microsoft-it-admins-iis-failure/",
@@ -70,13 +98,6 @@
       "link": "https://cybersecuritynews.com/cisa-fortinet-kev-catalog/",
       "date": "2025-12-17T11:46:00Z",
       "description": "CISA has officially added CVE-2025-59718 to its Known Exploited Vulnerabilities (KEV) catalog on December 16, 2025. Designating a critical deadline of December 23, 2025, for organizations to apply necessary remediation measures. This action reflects the vulnerability’s active exploitation in the wild and the immediate threat it poses to enterprise networks. The vulnerability affects multiple…",
-      "source": "cybersecuritynews.com"
-    },
-    {
-      "title": "New Moonwalk++ PoC Shows How Malware Can Spoof Windows Call Stacks and Evade Elastic-Inspired Rules",
-      "link": "https://cybersecuritynews.com/moonwalk-poc-shows-malware-spoof-rules/",
-      "date": "2025-12-17T11:40:21Z",
-      "description": "A sophisticated proof-of-concept demonstrating how malware can bypass advanced call stack detection mechanisms increasingly adopted by enterprise security vendors like Elastic. The new Moonwalk++ technique extends prior stack-spoofing research and reveals critical gaps in current endpoint detection strategies. The Evasion Challenge As defenders increasingly rely on call stack telemetry to…",
       "source": "cybersecuritynews.com"
     },
     {
@@ -157,32 +178,11 @@
       "source": "darkreading.com"
     },
     {
-      "title": "Amazon disrupts Russian GRU hackers attacking edge network devices",
-      "link": "https://www.bleepingcomputer.com/news/security/amazon-disrupts-russian-gru-hackers-attacking-edge-network-devices/",
-      "date": "2025-12-16T20:13:09Z",
-      "description": "The Amazon Threat Intelligence team has disrupted active operations attributed to hackers working for the Russian foreign military intelligence agency, the GRU, who targeted customers' cloud infrastructure. [...]",
-      "source": "bleepingcomputer.com"
-    },
-    {
       "title": "Russia Hits Critical Orgs Via Misconfigured Edge Devices",
       "link": "https://www.darkreading.com/endpoint-security/russian-apt-attacking-critical-orgs-around-world",
       "date": "2025-12-16T20:03:15Z",
       "description": "Amazon detailed a long-running campaign by Russia against critical infrastructure organizations, particularly in the energy sector.",
       "source": "darkreading.com"
-    },
-    {
-      "title": "Compromised IAM Credentials Power a Large AWS Crypto Mining Campaign",
-      "link": "https://thehackernews.com/2025/12/compromised-iam-credentials-power-large.html",
-      "date": "2025-12-16T16:35:00Z",
-      "description": "An ongoing campaign has been observed targeting Amazon Web Services (AWS) customers using compromised Identity and Access Management (IAM) credentials to enable cryptocurrency mining. The activity, first detected by Amazon's GuardDuty managed threat detection service and its automated security monitoring systems on November 2, 2025, employs never-before-seen persistence techniques to hamper",
-      "source": "thehackernews.com"
-    },
-    {
-      "title": "Rogue NuGet Package Poses as Tracer.Fody, Steals Cryptocurrency Wallet Data",
-      "link": "https://thehackernews.com/2025/12/rogue-nuget-package-poses-as-tracerfody.html",
-      "date": "2025-12-16T15:39:00Z",
-      "description": "Cybersecurity researchers have discovered a new malicious NuGet package that typosquats and impersonates the popular .NET tracing library and its author to sneak in a cryptocurrency wallet stealer. The malicious package, named \"Tracer.Fody.NLog,\" remained on the repository for nearly six years. It was published by a user named \"csnemess\" on February 26, 2020. It masquerades as \"Tracer.Fody,\"",
-      "source": "thehackernews.com"
     },
     {
       "title": "ZDI-CAN-28556: Signal",
