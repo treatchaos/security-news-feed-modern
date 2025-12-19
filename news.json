@@ -1,7 +1,14 @@
 {
-  "last_updated": "2025-12-18T23:11:59Z",
+  "last_updated": "2025-12-19T02:48:30Z",
   "count": 40,
   "items": [
+    {
+      "title": "Windows 10 OOB update released to fix Message Queuing (MSMQ) issues",
+      "link": "https://www.bleepingcomputer.com/news/microsoft/windows-10-oob-update-released-to-fix-message-queuing-msmq-issues/",
+      "date": "2025-12-19T01:15:19Z",
+      "description": "This month's extended security update for Windows 11 broke Message Queuing (MSMQ), which is typically used by enterprises to manage background tasks. [...]",
+      "source": "bleepingcomputer.com"
+    },
     {
       "title": "SonicWall Edge Access Devices Hit by Zero-Day Attacks",
       "link": "https://www.darkreading.com/vulnerabilities-threats/sonicwall-edge-devices-zero-day-attacks",
@@ -64,13 +71,6 @@
       "date": "2025-12-18T15:07:19Z",
       "description": "Tracked as CVE-2025-37164, the critical flaw could allow unauthenticated, remote attackers to execute arbitrary code. The post HPE Patches Critical Flaw in IT Infrastructure Management Software appeared first on SecurityWeek.",
       "source": "securityweek.com"
-    },
-    {
-      "title": "NIS2 compliance: How to get passwords and MFA right",
-      "link": "https://www.bleepingcomputer.com/news/security/nis2-compliance-how-to-get-passwords-and-mfa-right/",
-      "date": "2025-12-18T15:01:11Z",
-      "description": "NIS2 puts identity and access controls under the spotlight, with weak passwords and poor authentication now a compliance risk. Specops Software explains how to align password policies and MFA with NIS2 requirements. [...]",
-      "source": "bleepingcomputer.com"
     },
     {
       "title": "HPE OneView Flaw Rated CVSS 10.0 Allows Unauthenticated Remote Code Execution",
@@ -185,6 +185,13 @@
       "source": "zerodayinitiative.com"
     },
     {
+      "title": "ZDI-CAN-28624: LiteLLM",
+      "link": "http://www.zerodayinitiative.com/advisories/upcoming/",
+      "date": "2025-12-18T06:00:00Z",
+      "description": "A CVSS score 7.2 AV:N/AC:L/PR:H/UI:N/S:U/C:H/I:H/A:H severity vulnerability discovered by 'Alfredo Oliveira and David Fiser of Trend Research' was reported to the affected vendor on: 2025-12-18, 0 days ago. The vendor is given until 2026-04-17 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
+      "source": "zerodayinitiative.com"
+    },
+    {
       "title": "Critical Fortinet Flaws Under Active Attack",
       "link": "https://www.darkreading.com/cyberattacks-data-breaches/critical-fortinet-flaws-under-active-attack",
       "date": "2025-12-17T22:44:38Z",
@@ -211,13 +218,6 @@
       "date": "2025-12-17T02:56:59Z",
       "description": "The post Dropbear SSH Flaw Risks Root Access on Embedded Linux via Unix Stream Forwarding appeared first on Daily CyberSecurity.",
       "source": "securityonline.info"
-    },
-    {
-      "title": "ZDI-CAN-28556: Signal",
-      "link": "http://www.zerodayinitiative.com/advisories/upcoming/",
-      "date": "2025-12-16T06:00:00Z",
-      "description": "A CVSS score 8.8 AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H severity vulnerability discovered by 'Kusol Watchara-Apanukorn' was reported to the affected vendor on: 2025-12-16, 2 days ago. The vendor is given until 2026-04-15 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
-      "source": "zerodayinitiative.com"
     },
     {
       "title": "Linux Kernel io_uring UAF Flaw Used to Cheat BPF Verifier and Achieve Container Escape, PoC Releases",
