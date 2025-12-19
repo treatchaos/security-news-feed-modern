@@ -1,7 +1,56 @@
 {
-  "last_updated": "2025-12-19T11:11:00Z",
+  "last_updated": "2025-12-19T12:22:12Z",
   "count": 40,
   "items": [
+    {
+      "title": "Hackers Using PuTTY for Both Lateral Movement and Data Exfiltration",
+      "link": "https://cybersecuritynews.com/putty-lateral-movement-and-data-exfiltration/",
+      "date": "2025-12-19T12:03:41Z",
+      "description": "Hackers are increasingly abusing the popular PuTTY SSH client for stealthy lateral movement and data exfiltration in compromised networks, leaving subtle forensic traces that investigators can exploit. In a recent investigation, responders pivoted to persistent Windows registry artifacts after attackers wiped most filesystem evidence.​ Threat actors favor PuTTY, a legitimate tool for secure…",
+      "source": "cybersecuritynews.com"
+    },
+    {
+      "title": "University of Sydney Data Breach Affects 27,000 Individuals",
+      "link": "https://www.securityweek.com/university-of-sydney-data-breach-affects-27000-individuals/",
+      "date": "2025-12-19T11:59:57Z",
+      "description": "Downloaded from a code library, the information pertains to current and former staff and affiliates, and to alumni and students. The post University of Sydney Data Breach Affects 27,000 Individuals appeared first on SecurityWeek.",
+      "source": "securityweek.com"
+    },
+    {
+      "title": "‘Kimwolf’ Android Botnet Ensnares 1.8 Million Devices",
+      "link": "https://www.securityweek.com/kimwolf-android-botnet-ensnares-1-8-million-devices/",
+      "date": "2025-12-19T11:48:49Z",
+      "description": "Linked to the Aisuru IoT botnet, Kimwolf was seen launching over 1.7 billion DDoS attack commands and increasing its C&C domain’s popularity. The post ‘Kimwolf’ Android Botnet Ensnares 1.8 Million Devices appeared first on SecurityWeek.",
+      "source": "securityweek.com"
+    },
+    {
+      "title": "New Tool Released to Detect Cisco Secure Email Gateway 0-Day Vulnerability Exploited in the Wild",
+      "link": "https://cybersecuritynews.com/tool-cisco-secure-email-gateway-0-day/",
+      "date": "2025-12-19T11:34:27Z",
+      "description": "A lightweight Python script to help organizations quickly identify exposure to CVE-2025-20393, a critical zero-day vulnerability in Cisco Secure Email Gateway (SEG) and Secure Malware Analytics (SMA), also known as Cisco Secure Email and Web Manager. The tool “Cisco SMA Exposure Check” detects open ports and services that have been exploited in recent attacks, as […] The post New Tool Released…",
+      "source": "cybersecuritynews.com"
+    },
+    {
+      "title": "WatchGuard Warns of Active Exploitation of Critical Fireware OS VPN Vulnerability",
+      "link": "https://thehackernews.com/2025/12/watchguard-warns-of-active-exploitation.html",
+      "date": "2025-12-19T11:23:00Z",
+      "description": "WatchGuard has released fixes to address a critical security flaw in Fireware OS that it said has been exploited in real-world attacks. Tracked as CVE-2025-14733 (CVSS score: 9.3), the vulnerability has been described as a case of out-of-bounds write affecting the iked process that could allow a remote unauthenticated attacker to execute arbitrary code. \"This vulnerability affects both the",
+      "source": "thehackernews.com"
+    },
+    {
+      "title": "Microsoft Released Out-of-band Update to Fix MSMQ Bug that Impacts IIS Sites",
+      "link": "https://cybersecuritynews.com/microsoft-msmq-bug-fixed/",
+      "date": "2025-12-19T11:20:21Z",
+      "description": "Microsoft has deployed an emergency out-of-band update to address a significant issue with Message Queuing (MSMQ) functionality that emerged following the December 9 security patches. The update, released on December 18, 2025, targets Windows 10 versions 22H2 and 21H2 through OS Builds 19044.6693 and 19045.6693. The MSMQ vulnerability became apparent after users installed the previous […] The…",
+      "source": "cybersecuritynews.com"
+    },
+    {
+      "title": "Roundcube Vulnerabilities Allow Attackers to Execute Malicious Scripts",
+      "link": "https://cybersecuritynews.com/roundcube-vulnerabilities/",
+      "date": "2025-12-19T11:16:30Z",
+      "description": "Roundcube Webmail has released critical security updates addressing two significant vulnerabilities affecting versions 1.6 and 1.5 LTS. The flaws could enable attackers to execute malicious scripts and gain unauthorized access to sensitive information through multiple attack vectors. The first vulnerability is a Cross-Site Scripting (XSS) flaw in Roundcube’s SVG handling mechanism. Attackers can…",
+      "source": "cybersecuritynews.com"
+    },
     {
       "title": "Nigeria Arrests RaccoonO365 Phishing Developer Linked to Microsoft 365 Attacks",
       "link": "https://thehackernews.com/2025/12/nigeria-arrests-raccoono365-phishing.html",
@@ -38,39 +87,11 @@
       "source": "bleepingcomputer.com"
     },
     {
-      "title": "WatchGuard 0-day Vulnerability Exploited in the Wild to Hijack Firewalls",
-      "link": "https://cybersecuritynews.com/watchguard-0-day-vulnerability-exploited/",
-      "date": "2025-12-19T08:31:36Z",
-      "description": "An urgent security update has been released to fix a critical zero-day vulnerability in WatchGuard Firebox firewalls. With warnings that hackers are already actively exploiting the flaw in the wild to take control of affected devices. The vulnerability, tracked as CVE-2025-14733, carries a critical severity score of 9.3 out of 10. It allows a remote attacker to […] The post WatchGuard 0-day…",
-      "source": "cybersecuritynews.com"
-    },
-    {
       "title": "New UEFI Flaw Enables Early-Boot DMA Attacks on ASRock, ASUS, GIGABYTE, MSI Motherboards",
       "link": "https://thehackernews.com/2025/12/new-uefi-flaw-enables-early-boot-dma.html",
       "date": "2025-12-19T08:25:00Z",
       "description": "Certain motherboard models from vendors like ASRock, ASUSTeK Computer, GIGABYTE, and MSI are affected by a security vulnerability that leaves them susceptible to early-boot direct memory access (DMA) attacks across architectures that implement a Unified Extensible Firmware Interface (UEFI) and input–output memory management unit (IOMMU). UEFI and IOMMU are designed to enforce a security",
       "source": "thehackernews.com"
-    },
-    {
-      "title": "Clop Ransomware Group Exploiting Gladinet CentreStack Servers to Steal Data",
-      "link": "https://cybersecuritynews.com/clop-ransomware-group/",
-      "date": "2025-12-19T08:04:29Z",
-      "description": "The Clop ransomware group has launched a new data extortion campaign targeting Internet-facing Gladinet CentreStack file servers, marking another chapter in the threat actor’s pattern of exploiting file transfer solutions. The campaign appears to leverage multiple security weaknesses in CentreStack and its sister product Triofox, including recently discovered vulnerabilities that allow attackers…",
-      "source": "cybersecuritynews.com"
-    },
-    {
-      "title": "University of Sydney Hacked – Students and Staff Data Exposed",
-      "link": "https://cybersecuritynews.com/university-of-sydney-hacked/",
-      "date": "2025-12-19T07:49:09Z",
-      "description": "The University of Sydney has confirmed a significant data breach affecting thousands of current and former staff members, as well as students and alums. In a message to the university community, Vice-President (Operations) Nicole Gower revealed that suspicious activity was detected in an online IT code library last week. While this digital storage space was […] The post University of Sydney…",
-      "source": "cybersecuritynews.com"
-    },
-    {
-      "title": "China-Aligned APT Hackers Exploit Windows Group Policy to Deploy Malware",
-      "link": "https://cybersecuritynews.com/china-aligned-apt-hackers-exploit-windows-group-policy/",
-      "date": "2025-12-19T06:44:14Z",
-      "description": "A sophisticated cyberespionage campaign targeting governmental entities in Southeast Asia and Japan has unveiled a new China-aligned threat actor dubbed LongNosedGoblin. Active since at least September 2023, this advanced persistent threat (APT) group distinguishes itself by leveraging a diverse toolset of custom C#/.NET malware families. Their operations primarily focus on intelligence…",
-      "source": "cybersecuritynews.com"
     },
     {
       "title": "Windows 10 OOB update released to fix Message Queuing (MSMQ) issues",
@@ -129,32 +150,11 @@
       "source": "thehackernews.com"
     },
     {
-      "title": "CISA Warns of Exploited Flaw in Asus Update Tool",
-      "link": "https://www.securityweek.com/cisa-warns-of-exploited-flaw-in-asus-update-tool/",
-      "date": "2025-12-18T13:27:51Z",
-      "description": "Tracked as CVE-2025-59374, the issue is a software backdoor implanted in Asus Live Update in a supply chain attack. The post CISA Warns of Exploited Flaw in Asus Update Tool appeared first on SecurityWeek.",
-      "source": "securityweek.com"
-    },
-    {
-      "title": "ThreatsDay Bulletin: WhatsApp Hijacks, MCP Leaks, AI Recon, React2Shell Exploit and 15 More Stories",
-      "link": "https://thehackernews.com/2025/12/threatsday-bulletin-whatsapp-hijacks.html",
-      "date": "2025-12-18T13:10:00Z",
-      "description": "This week’s ThreatsDay Bulletin tracks how attackers keep reshaping old tools and finding new angles in familiar systems. Small changes in tactics are stacking up fast, and each one hints at where the next big breach could come from. From shifting infrastructures to clever social hooks, the week’s activity shows just how fluid the threat landscape has become. Here’s the full rundown of what",
-      "source": "thehackernews.com"
-    },
-    {
       "title": "Dormant Iran APT is Still Alive, Spying on Dissidents",
       "link": "https://www.darkreading.com/threat-intelligence/iran-apt-spying-dissidents",
       "date": "2025-12-18T13:00:00Z",
       "description": "\"Prince of Persia\" has rewritten the rules of persistence with advanced operational security and cryptographic communication with its command-and-control server.",
       "source": "darkreading.com"
-    },
-    {
-      "title": "113,000 Impacted by Data Breach at Virginia Mental Health Authority",
-      "link": "https://www.securityweek.com/113000-impacted-by-data-breach-at-virginia-mental-health-authority/",
-      "date": "2025-12-18T11:05:02Z",
-      "description": "Threat actors stole names, Social Security numbers, and financial and health information, and deployed ransomware on RBHA’s systems. The post 113,000 Impacted by Data Breach at Virginia Mental Health Authority appeared first on SecurityWeek.",
-      "source": "securityweek.com"
     },
     {
       "title": "ZDI-CAN-25440: IceWarp",
