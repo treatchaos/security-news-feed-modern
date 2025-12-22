@@ -1,7 +1,63 @@
 {
-  "last_updated": "2025-12-22T15:12:32Z",
+  "last_updated": "2025-12-22T16:14:19Z",
   "count": 40,
   "items": [
+    {
+      "title": "Malicious npm package steals WhatsApp accounts and messages",
+      "link": "https://www.bleepingcomputer.com/news/security/malicious-npm-package-steals-whatsapp-accounts-and-messages/",
+      "date": "2025-12-22T16:08:46Z",
+      "description": "A malicious package in the Node Package Manager (NPM) registry poses as a legitimate WhatsApp Web API library to steal WhatsApp messages, collect contacts, and gain access to the account. [...]",
+      "source": "bleepingcomputer.com"
+    },
+    {
+      "title": "BlindEagle Hackers Attacking Government Agencies with Powershell Scripts",
+      "link": "https://cybersecuritynews.com/blindeagle-hackers-attacking-government-agencies/",
+      "date": "2025-12-22T16:00:19Z",
+      "description": "BlindEagle, a South American threat group, has launched a sophisticated campaign against Colombian government agencies, demonstrating an alarming evolution in attack techniques. In early September 2025, the group targeted a government agency under the Ministry of Commerce, Industry and Tourism (MCIT) using coordinated phishing emails and multi-stage malware delivery. This attack represents a…",
+      "source": "cybersecuritynews.com"
+    },
+    {
+      "title": "PoC Exploit Released for Use-After-Free Vulnerability in Linux Kernel’s POSIX CPU Timers Implementation",
+      "link": "https://cybersecuritynews.com/use-after-free-vulnerability-linux-kernel/",
+      "date": "2025-12-22T15:42:37Z",
+      "description": "A proof-of-concept (PoC) exploit has been publicly released for CVE-2025-38352, a race condition vulnerability affecting the Linux kernel’s POSIX CPU timer implementation. The flaw enables attackers to trigger use-after-free conditions in kernel memory, potentially leading to privilege escalation and system compromise. CVE-2025-38352 is a race condition that occurs in the kernel’s…",
+      "source": "cybersecuritynews.com"
+    },
+    {
+      "title": "Microsoft Brokering File System Vulnerability Let Attackers Escalate Privileges",
+      "link": "https://cybersecuritynews.com/microsoft-brokering-file-system-vulnerability/",
+      "date": "2025-12-22T15:33:46Z",
+      "description": "Microsoft has patched a significant use-after-free vulnerability in its Brokering File System (BFS) driver, tracked as CVE-2025-29970. The flaw enables local attackers to escalate privileges on Windows systems running isolated or sandboxed applications, making it a notable concern for enterprise security. The vulnerability exists in bfs.sys, a minifilter driver developed alongside Windows…",
+      "source": "cybersecuritynews.com"
+    },
+    {
+      "title": "Nissan Confirms Data Breach Following Unauthorized Access to Red Hat Servers",
+      "link": "https://cybersecuritynews.com/nissan-data-breach/",
+      "date": "2025-12-22T15:29:50Z",
+      "description": "Nissan Motor Corporation has publicly confirmed a significant data breach stemming from unauthorized access to Red Hat servers. Managed by a third-party contractor responsible for developing a customer management system. The incident exposed personal information for approximately 21,000 Nissan Fukuoka Sales Co., Ltd. customers. Red Hat, the contracted service provider, detected the unauthorized…",
+      "source": "cybersecuritynews.com"
+    },
+    {
+      "title": "Romanian water authority hit by ransomware attack over weekend",
+      "link": "https://www.bleepingcomputer.com/news/security/romanian-water-authority-hit-by-ransomware-attack-over-weekend/",
+      "date": "2025-12-22T15:25:50Z",
+      "description": "Romanian Waters (Administrația Națională Apele Române), the country's water management authority, was hit by a ransomware attack over the weekend. [...]",
+      "source": "bleepingcomputer.com"
+    },
+    {
+      "title": "SideWinder APT Hackers Attacking Indian Entities by Masquerading as the Income Tax Department of India",
+      "link": "https://cybersecuritynews.com/sidewinder-apt-hackers-attacking-indian-entities/",
+      "date": "2025-12-22T15:18:00Z",
+      "description": "The campaign is run by the SideWinder advanced persistent threat group and aims to plant a silent Windows backdoor on victim machines. Once active, the malware can steal files, capture data and give remote control to the attacker. Each attack starts with a tax-themed email that urges the victim to review an inspection document. The […] The post SideWinder APT Hackers Attacking Indian Entities by…",
+      "source": "cybersecuritynews.com"
+    },
+    {
+      "title": "Rising Tides: When Cybersecurity Becomes Personal – Inside the Work of an OSINT Investigator",
+      "link": "https://www.securityweek.com/rising-tides-when-cybersecurity-becomes-personal-inside-the-work-of-an-osint-investigator/",
+      "date": "2025-12-22T15:00:00Z",
+      "description": "Shannon Miller shares her approach to creating domestic safety and a call to the cyber community to help reduce harm. The post Rising Tides: When Cybersecurity Becomes Personal – Inside the Work of an OSINT Investigator appeared first on SecurityWeek.",
+      "source": "securityweek.com"
+    },
     {
       "title": "University of Phoenix data breach impacts nearly 3.5 million individuals",
       "link": "https://www.bleepingcomputer.com/news/security/university-of-phoenix-data-breach-impacts-nearly-35-million-individuals/",
@@ -17,13 +73,6 @@
       "source": "bleepingcomputer.com"
     },
     {
-      "title": "Sleeping Bouncer Vulnerability Impacts Motherboards from Gigabyte, MSI, ASRock and ASUS",
-      "link": "https://cybersecuritynews.com/sleeping-bouncer-vulnerability/",
-      "date": "2025-12-22T13:58:25Z",
-      "description": "A significant security vulnerability has emerged affecting motherboards from Gigabyte, MSI, ASRock, and ASUS. Riot Games analysts and researchers identified a critical flaw during their ongoing investigation into gaming system security. The vulnerability, termed “Sleeping Bouncer,” exploits a weakness in the pre-boot protection mechanisms that are supposed to safeguard computer hardware during…",
-      "source": "cybersecuritynews.com"
-    },
-    {
       "title": "ATM Hackers Using ‘Ploutus’ Malware Charged in US",
       "link": "https://www.securityweek.com/54-charged-in-us-over-atm-attacks-involving-ploutus-malware/",
       "date": "2025-12-22T13:53:02Z",
@@ -31,39 +80,11 @@
       "source": "securityweek.com"
     },
     {
-      "title": "Docker Open Sources Production-Ready Hardened Images for Free",
-      "link": "https://cybersecuritynews.com/docker-hardened-images-for-free/",
-      "date": "2025-12-22T13:30:17Z",
-      "description": "Docker has announced a significant shift in its container security strategy, making its Docker Hardened Images (DHI) freely available to all developers. Previously a commercial-only offering, DHI provides a set of secure, minimal, and production-ready container images. By releasing these under an Apache 2.0 license, Docker aims to combat the rising tide of software supply chain attacks, which…",
-      "source": "cybersecuritynews.com"
-    },
-    {
-      "title": "Arcane Werewolf Hacker Group Added Loki 2.1 Malware Toolkit to their Arsenal",
-      "link": "https://cybersecuritynews.com/arcane-werewolf-hacker-group/",
-      "date": "2025-12-22T13:27:23Z",
-      "description": "The threat actor group known as Arcane Werewolf, also tracked as Mythic Likho, has refreshed its attack capabilities by deploying a new version of its custom malware called Loki 2.1. During October and November 2025, researchers observed this group launching campaigns specifically targeting Russian manufacturing companies. The group continues to refine its tactics, showing a […] The post Arcane…",
-      "source": "cybersecuritynews.com"
-    },
-    {
       "title": "MacSync macOS Malware Distributed via Signed Swift Application",
       "link": "https://www.securityweek.com/macsync-macos-malware-distributed-via-signed-swift-application/",
       "date": "2025-12-22T13:00:00Z",
       "description": "A recent MacSync Stealer version no longer requires users to directly interact with the terminal for execution. The post MacSync macOS Malware Distributed via Signed Swift Application appeared first on SecurityWeek.",
       "source": "securityweek.com"
-    },
-    {
-      "title": "New Wonderland Android Malware with Bidirectional SMS-Stealing Capabilities Stealing OTPs",
-      "link": "https://cybersecuritynews.com/new-wonderland-android-malware/",
-      "date": "2025-12-22T12:55:00Z",
-      "description": "A sophisticated new Android malware family called Wonderland has emerged as a significant threat to users in Uzbekistan and the broader Central Asia region. The malware, which specializes in stealing SMS messages and intercepting one-time passwords, represents a major escalation in mobile threats targeting financial systems. First discovered in October 2025, this advanced stealer demonstrates…",
-      "source": "cybersecuritynews.com"
-    },
-    {
-      "title": "Hackers Exploiting .onmicrosoft.com Domains to Launch TOAD Scam Attack",
-      "link": "https://cybersecuritynews.com/hackers-exploiting-onmicrosoft-com-domains/",
-      "date": "2025-12-22T12:24:25Z",
-      "description": "Cybercriminals are increasingly weaponizing legitimate Microsoft infrastructure to bypass security filters and trick users into falling for Telephone-Oriented Attack Delivery (TOAD) scams. By abusing the default .onmicrosoft.com When domains are assigned to Azure tenants, attackers send malicious invites that appear to originate from trusted Microsoft addresses. The attack vector is deceptively…",
-      "source": "cybersecuritynews.com"
     },
     {
       "title": "Gambit Cyber Raises $3.4 Million in Seed Funding",
@@ -99,27 +120,6 @@
       "date": "2025-12-22T10:56:32Z",
       "description": "Artem Stryzhak pleaded guilty to conspiracy to commit computer fraud after he was extradited earlier this year. The post Ukrainian Nefilim Ransomware Affiliate Pleads Guilty in US appeared first on SecurityWeek.",
       "source": "securityweek.com"
-    },
-    {
-      "title": "Ukrainian hacker admits affiliate role in Nefilim ransomware gang",
-      "link": "https://www.bleepingcomputer.com/news/security/ukrainian-hacker-admits-affiliate-role-in-nefilim-ransomware-gang/",
-      "date": "2025-12-22T09:46:45Z",
-      "description": "A Ukrainian national pleaded guilty on Friday to conducting Nefilim ransomware attacks that targeted high-revenue businesses across the United States and other countries. [...]",
-      "source": "bleepingcomputer.com"
-    },
-    {
-      "title": "WatchGuard Patches Firebox Zero-Day Exploited in the Wild",
-      "link": "https://www.securityweek.com/watchguard-patches-firebox-zero-day-exploited-in-the-wild/",
-      "date": "2025-12-22T09:44:19Z",
-      "description": "The critical-severity bug in the Fireware OS’s iked process leads to unauthenticated remote code execution. The post WatchGuard Patches Firebox Zero-Day Exploited in the Wild appeared first on SecurityWeek.",
-      "source": "securityweek.com"
-    },
-    {
-      "title": "Critical RCE flaw impacts over 115,000 WatchGuard firewalls",
-      "link": "https://www.bleepingcomputer.com/news/security/over-115-000-watchguard-firewalls-vulnerable-to-ongoing-rce-attacks/",
-      "date": "2025-12-22T09:00:55Z",
-      "description": "Over 115,000 WatchGuard Firebox devices exposed online remain unpatched against a critical remote code execution (RCE) vulnerability actively exploited in attacks. [...]",
-      "source": "bleepingcomputer.com"
     },
     {
       "title": "Android Malware Operations Merge Droppers, SMS Theft, and RAT Capabilities at Scale",
