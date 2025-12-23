@@ -1,7 +1,35 @@
 {
-  "last_updated": "2025-12-23T07:16:26Z",
+  "last_updated": "2025-12-23T08:17:30Z",
   "count": 40,
   "items": [
+    {
+      "title": "Threat Actors Weaponizing Nezha Monitoring Tool as Remote Access Trojan",
+      "link": "https://cybersecuritynews.com/threat-actors-weaponizing-nezha-monitoring-tool/",
+      "date": "2025-12-23T08:06:37Z",
+      "description": "Researchers at Ontinue’s Cyber Defense Center have uncovered a significant threat as attackers exploit Nezha, a legitimate open-source server monitoring tool, for post-exploitation access. The discovery reveals how sophisticated threat actors repurpose benign software to gain complete control over compromised systems while evading traditional security detection mechanisms. Nezha, originally…",
+      "source": "cybersecuritynews.com"
+    },
+    {
+      "title": "CISA Adds Digiever Authorization Vulnerability to KEV List Following Active Exploitation",
+      "link": "https://cybersecuritynews.com/cisa-adds-digiever-authorization-vulnerability/",
+      "date": "2025-12-23T07:43:39Z",
+      "description": "A critical vulnerability affecting Digiever DS-2105 Pro network video recorders was added to the Known Exploited Vulnerabilities (KEV) catalog on December 22, 2025, following evidence of active exploitation in the wild. CVE-2023-52163 is a missing authorization vulnerability in Digiever DS-2105 Pro devices. That enables attackers to execute unauthorized commands through the time_tzsetup—cgi…",
+      "source": "cybersecuritynews.com"
+    },
+    {
+      "title": "Critical n8n Flaw (CVSS 9.9) Enables Arbitrary Code Execution Across Thousands of Instances",
+      "link": "https://thehackernews.com/2025/12/critical-n8n-flaw-cvss-99-enables.html",
+      "date": "2025-12-23T07:34:00Z",
+      "description": "A critical security vulnerability has been disclosed in the n8n workflow automation platform that, if successfully exploited, could result in arbitrary code execution under certain circumstances. The vulnerability, tracked as CVE-2025-68613, carries a CVSS score of 9.9 out of a maximum of 10.0. The package has about 57,000 weekly downloads, according to statistics on npm. \"Under certain",
+      "source": "thehackernews.com"
+    },
+    {
+      "title": "3.5 Million Affected by University of Phoenix Data Breach",
+      "link": "https://www.securityweek.com/3-5-million-affected-by-university-of-phoenix-data-breach/",
+      "date": "2025-12-23T07:24:43Z",
+      "description": "The University of Phoenix is one of the many victims of the recent Oracle EBS hacking campaign attributed to the Cl0p ransomware group. The post 3.5 Million Affected by University of Phoenix Data Breach appeared first on SecurityWeek.",
+      "source": "securityweek.com"
+    },
     {
       "title": "Hackers Using ClickFix Technique to Hide Images within the Image Files",
       "link": "https://cybersecuritynews.com/hackers-using-clickfix-technique/",
@@ -94,20 +122,6 @@
       "source": "bleepingcomputer.com"
     },
     {
-      "title": "BlindEagle Hackers Attacking Government Agencies with Powershell Scripts",
-      "link": "https://cybersecuritynews.com/blindeagle-hackers-attacking-government-agencies/",
-      "date": "2025-12-22T16:00:19Z",
-      "description": "BlindEagle, a South American threat group, has launched a sophisticated campaign against Colombian government agencies, demonstrating an alarming evolution in attack techniques. In early September 2025, the group targeted a government agency under the Ministry of Commerce, Industry and Tourism (MCIT) using coordinated phishing emails and multi-stage malware delivery. This attack represents a…",
-      "source": "cybersecuritynews.com"
-    },
-    {
-      "title": "PoC Exploit Released for Use-After-Free Vulnerability in Linux Kernel’s POSIX CPU Timers Implementation",
-      "link": "https://cybersecuritynews.com/use-after-free-vulnerability-linux-kernel/",
-      "date": "2025-12-22T15:42:37Z",
-      "description": "A proof-of-concept (PoC) exploit has been publicly released for CVE-2025-38352, a race condition vulnerability affecting the Linux kernel’s POSIX CPU timer implementation. The flaw enables attackers to trigger use-after-free conditions in kernel memory, potentially leading to privilege escalation and system compromise. CVE-2025-38352 is a race condition that occurs in the kernel’s…",
-      "source": "cybersecuritynews.com"
-    },
-    {
       "title": "Romanian water authority hit by ransomware attack over weekend",
       "link": "https://www.bleepingcomputer.com/news/security/romanian-water-authority-hit-by-ransomware-attack-over-weekend/",
       "date": "2025-12-22T15:25:50Z",
@@ -136,13 +150,6 @@
       "source": "securityweek.com"
     },
     {
-      "title": "Gambit Cyber Raises $3.4 Million in Seed Funding",
-      "link": "https://www.securityweek.com/gambit-cyber-raises-3-4-million-in-seed-funding/",
-      "date": "2025-12-22T12:15:28Z",
-      "description": "The cybersecurity startup will use the funds to accelerate platform improvements, global expansion, and partnerships. The post Gambit Cyber Raises $3.4 Million in Seed Funding appeared first on SecurityWeek.",
-      "source": "securityweek.com"
-    },
-    {
       "title": "⚡ Weekly Recap: Firewall Exploits, AI Data Theft, Android Hacks, APT Attacks, Insider Leaks & More",
       "link": "https://thehackernews.com/2025/12/weekly-recap-firewall-exploits-ai-data.html",
       "date": "2025-12-22T12:00:00Z",
@@ -154,13 +161,6 @@
       "link": "https://thehackernews.com/2025/12/how-to-browse-sustainably-with-a-green-browser.html",
       "date": "2025-12-22T11:55:00Z",
       "description": "As the internet becomes an essential part of daily life, its environmental footprint continues to grow. Data centers, constant connectivity, and resource-heavy browsing habits all contribute to energy consumption and digital waste. While individual users may not see this impact directly, the collective effect of everyday browsing is significant. Choosing a browser designed with",
-      "source": "thehackernews.com"
-    },
-    {
-      "title": "Android Malware Operations Merge Droppers, SMS Theft, and RAT Capabilities at Scale",
-      "link": "https://thehackernews.com/2025/12/android-malware-operations-merge.html",
-      "date": "2025-12-22T06:11:00Z",
-      "description": "Threat actors have been observed leveraging malicious dropper apps masquerading as legitimate applications to deliver an Android SMS stealer dubbed Wonderland in mobile attacks targeting users in Uzbekistan. \"Previously, users received 'pure' Trojan APKs that acted as malware immediately upon installation,\" Group-IB said in an analysis published last week. \"Now, adversaries increasingly deploy",
       "source": "thehackernews.com"
     },
     {
