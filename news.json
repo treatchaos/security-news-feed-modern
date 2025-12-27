@@ -1,7 +1,14 @@
 {
-  "last_updated": "2025-12-27T10:11:37Z",
+  "last_updated": "2025-12-27T12:21:03Z",
   "count": 40,
   "items": [
+    {
+      "title": "Mongobleed PoC Exploit Tool Released for MongoDB Flaw that Exposes Sensitive Data",
+      "link": "https://cybersecuritynews.com/mongobleed-poc-exploit-mongodb/",
+      "date": "2025-12-27T12:00:42Z",
+      "description": "A proof-of-concept (PoC) exploit dubbed “mongobleed” for CVE-2025-14847, a critical unauthenticated memory leak vulnerability in MongoDB’s zlib decompression handling. Dubbed by its creator Joe Desimone as a way to bleed sensitive server memory, the flaw lets attackers remotely extract uninitialized data without credentials, potentially exposing internal logs, system stats, and more. The…",
+      "source": "cybersecuritynews.com"
+    },
     {
       "title": "OpenAI's ChatGPT ads will allegedly prioritize sponsored content in answers",
       "link": "https://www.bleepingcomputer.com/news/artificial-intelligence/openais-chatgpt-ads-will-allegedly-prioritize-sponsored-content-in-answers/",
@@ -98,13 +105,6 @@
       "link": "https://cybersecuritynews.com/parrot-7-0-released/",
       "date": "2025-12-26T05:04:39Z",
       "description": "Parrot OS 7.0, codenamed Echo, launches as a complete system rewrite based on Debian 13, bringing KDE Plasma 6, Wayland by default, and fresh penetration testing tools, including a dedicated AI category. This release emphasizes lightweight theming and community-driven spins, marking a pivotal update for ethical hackers and security professionals.​ The Echo theme draws from […] The post Parrot…",
-      "source": "cybersecuritynews.com"
-    },
-    {
-      "title": "Critical Langchain Vulnerability Let attackers Exfiltrate Sensitive Secrets from AI systems",
-      "link": "https://cybersecuritynews.com/langchain-vulnerability/",
-      "date": "2025-12-26T02:48:17Z",
-      "description": "A critical vulnerability in LangChain’s core library (CVE-2025-68664) allows attackers to exfiltrate sensitive environment variables and potentially execute code through deserialization flaws. Discovered by a Cyata researcher and patched just before Christmas 2025, the issue affects one of the most popular AI frameworks with hundreds of millions of downloads.​ LangChain-core’s dumps() and…",
       "source": "cybersecuritynews.com"
     },
     {
