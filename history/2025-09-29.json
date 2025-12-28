@@ -1,6 +1,6 @@
 {
   "date": "2025-09-29",
-  "count": 37,
+  "count": 36,
   "items": [
     {
       "id": "5f6dac3263acd8c52c97bea4d475617b05caf17f",
@@ -361,16 +361,6 @@
       "source": "thehackernews.com",
       "first_seen": "2025-09-29T10:12:36Z",
       "last_seen": "2025-09-30T05:10:55Z"
-    },
-    {
-      "id": "20dc066b83d26b07caf23437836b0e9cf6856815",
-      "title": "Formbricks Signature Verification Vulnerability Let Attackers Reset User Passwords Without Authorization",
-      "link": "https://cybersecuritynews.com/formbricks-signature-verification-vulnerability/",
-      "date": "2025-09-29T08:23:29Z",
-      "description": "A critical security flaw discovered in Formbricks, an open-source experience management platform, demonstrates how missing JWT signature verification can lead to complete account takeovers. The vulnerability tracked as CVE-2025-59934 affects all versions prior to 4.0.1 and stems from improper token validation that uses jwt.decode() instead of jwt.verify(), allowing attackers to bypass…",
-      "source": "cybersecuritynews.com",
-      "first_seen": "2025-09-29T09:12:51Z",
-      "last_seen": "2025-09-29T11:09:19Z"
     }
   ]
 }
