@@ -1,7 +1,14 @@
 {
-  "last_updated": "2025-12-28T10:11:38Z",
+  "last_updated": "2025-12-28T16:13:21Z",
   "count": 40,
   "items": [
+    {
+      "title": "MongoBleed (CVE-2025-14847) Now Exploited in the Wild: MongoDB Servers at Critical Risk",
+      "link": "https://cybersecuritynews.com/mongobleed-vulnerability/",
+      "date": "2025-12-28T15:43:33Z",
+      "description": "A high-severity unauthenticated information-leak vulnerability in MongoDB Server, dubbed MongoBleed after the infamous Heartbleed bug, is now being actively exploited in real-world attacks. MongoDB has disclosed CVE-2025-14847, a critical flaw affecting multiple supported and legacy server versions that allows unauthenticated remote attackers to exfiltrate sensitive data and authentication…",
+      "source": "cybersecuritynews.com"
+    },
     {
       "title": "Ubisoft Rainbow Six Siege Servers Breach linked to MongoBleed Vulnerability",
       "link": "https://cybersecuritynews.com/ubisoft-rainbow-six-siege-servers-breached/",
@@ -49,13 +56,6 @@
       "link": "https://cybersecuritynews.com/teamviewer-dex-vulnerabilities/",
       "date": "2025-12-27T04:49:32Z",
       "description": "Multiple critical vulnerabilities in TeamViewer DEX Client’s Content Distribution Service (NomadBranch.exe), formerly part of 1E Client. Affecting Windows versions before 25.11 and select older branches, the flaws stem from improper input validation (CWE-20), potentially enabling attackers on the local network to execute code, crash the service, or leak sensitive data. The most severe issue,…",
-      "source": "cybersecuritynews.com"
-    },
-    {
-      "title": "M-Files Vulnerability Let Attacker Capture Session Tokens of Other Active Users",
-      "link": "https://cybersecuritynews.com/m-files-vulnerability/",
-      "date": "2025-12-27T02:33:54Z",
-      "description": "An information disclosure vulnerability in M-Files Server enables authenticated attackers to capture and reuse session tokens from active users. Potentially gaining unauthorized access to sensitive document management systems. The flaw, tracked as CVE-2025-13008, affects multiple versions across different release branches and carries a high-severity CVSS 4.0 base score of 8.6. The vulnerability…",
       "source": "cybersecuritynews.com"
     },
     {
