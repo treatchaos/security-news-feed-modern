@@ -1,7 +1,17 @@
 {
   "date": "2025-12-29",
-  "count": 8,
+  "count": 9,
   "items": [
+    {
+      "id": "5151f237261edb57e66e4b948c685aeadf4f6258",
+      "title": "Windows LPE Vulnerabilities via Kernel Drivers and Named Pipes Allows Privilege Escalation",
+      "link": "https://cybersecuritynews.com/windows-lpe-vulnerabilities/",
+      "date": "2025-12-29T10:37:11Z",
+      "description": "Security researchers are increasingly focusing on privilege escalation attacks through two primary Windows attack surfaces: kernel drivers and named pipes. These vectors exploit fundamental trust boundary weaknesses between the user and kernel modes. Enabling attackers to escalate from standard user privileges to SYSTEM-level access. Kernel drivers present a significant LPE attack surface due to…",
+      "source": "cybersecuritynews.com",
+      "first_seen": "2025-12-29T11:11:09Z",
+      "last_seen": "2025-12-29T11:11:09Z"
+    },
     {
       "id": "b415eef35f49122e342bd252a2017bbea7197bee",
       "title": "Fresh MongoDB Vulnerability Exploited in Attacks",
@@ -10,7 +20,7 @@
       "description": "Dubbed MongoBleed, the high-severity flaw allows unauthenticated, remote attackers to leak sensitive information from MongoDB servers. The post Fresh MongoDB Vulnerability Exploited in Attacks appeared first on SecurityWeek.",
       "source": "securityweek.com",
       "first_seen": "2025-12-29T10:14:00Z",
-      "last_seen": "2025-12-29T10:14:00Z"
+      "last_seen": "2025-12-29T11:11:09Z"
     },
     {
       "id": "5ba56f3490cd33c421de2f4e6676e482f69dd50b",
@@ -20,7 +30,7 @@
       "description": "Cybersecurity researchers have disclosed details of what has been described as a \"sustained and targeted\" spear-phishing campaign that has published over two dozen packages to the npm registry to facilitate credential theft. The activity, which involved uploading 27 npm packages from six different npm aliases, has primarily targeted sales and commercial personnel at critical",
       "source": "thehackernews.com",
       "first_seen": "2025-12-29T10:14:00Z",
-      "last_seen": "2025-12-29T10:14:00Z"
+      "last_seen": "2025-12-29T11:11:09Z"
     },
     {
       "id": "033ebdd44969588dbbb548b4d9ad50e2a572ad63",
@@ -30,7 +40,7 @@
       "description": "A hacker named Lovely made public 2.3 million records representing Wired subscriber information. The post Hacker Claims Theft of 40 Million Condé Nast Records After Wired Data Leak appeared first on SecurityWeek.",
       "source": "securityweek.com",
       "first_seen": "2025-12-29T10:14:00Z",
-      "last_seen": "2025-12-29T10:14:00Z"
+      "last_seen": "2025-12-29T11:11:09Z"
     },
     {
       "id": "ec382d3eafb1abc04f26997b070aadf6afbdddd3",
@@ -40,7 +50,7 @@
       "description": "An open-source detection tool to help organizations identify potential exploitation of MongoBleed (CVE-2025-14847), a critical memory disclosure vulnerability affecting MongoDB databases.​ The vulnerability allows attackers to extract sensitive information, including credentials, session tokens, and personally identifiable information, directly from server memory without requiring…",
       "source": "cybersecuritynews.com",
       "first_seen": "2025-12-29T09:20:40Z",
-      "last_seen": "2025-12-29T10:14:00Z"
+      "last_seen": "2025-12-29T11:11:09Z"
     },
     {
       "id": "2a0261cacf3f9b2173bd56f66088374a9d8664ce",
@@ -50,7 +60,7 @@
       "description": "OpenAI has rolled out a critical security update to ChatGPT Atlas, its browser-based AI agent, introducing advanced defenses against prompt injection attacks. The update marks a significant step in protecting users from emerging adversarial threats targeting agentic AI systems. What Are Prompt Injection Attacks? Prompt injection attacks exploit AI agents by embedding malicious instructions into…",
       "source": "cybersecuritynews.com",
       "first_seen": "2025-12-29T08:18:55Z",
-      "last_seen": "2025-12-29T10:14:00Z"
+      "last_seen": "2025-12-29T11:11:09Z"
     },
     {
       "id": "b48ea2ca891a4f5898cf1f7b5368efb1cf9ac515",
@@ -60,7 +70,7 @@
       "description": "A recently disclosed security vulnerability in MongoDB has come under active exploitation in the wild, with over 87,000 potentially susceptible instances identified across the world. The vulnerability in question is CVE-2025-14847 (CVSS score: 8.7), which allows an unauthenticated attacker to remotely leak sensitive data from the MongoDB server memory. It has been codenamed MongoBleed. \"A flaw",
       "source": "thehackernews.com",
       "first_seen": "2025-12-29T08:18:55Z",
-      "last_seen": "2025-12-29T10:14:00Z"
+      "last_seen": "2025-12-29T11:11:09Z"
     },
     {
       "id": "e3753daf907539d8b6c535d62d4f70de8a073d9f",
@@ -70,7 +80,7 @@
       "description": "In December 2024, the popular Ultralytics AI library was compromised, installing malicious code that hijacked system resources for cryptocurrency mining. In August 2025, malicious Nx packages leaked 2,349 GitHub, cloud, and AI credentials. Throughout 2024, ChatGPT vulnerabilities allowed unauthorized extraction of user data from AI memory. The result: 23.77 million secrets were leaked through AI",
       "source": "thehackernews.com",
       "first_seen": "2025-12-29T08:18:55Z",
-      "last_seen": "2025-12-29T10:14:00Z"
+      "last_seen": "2025-12-29T11:11:09Z"
     },
     {
       "id": "241fe38364aff1f95746024f24a372eb0ad47038",
@@ -80,7 +90,7 @@
       "description": "Hackers have leaked a database containing over 2.3 million WIRED subscriber records, marking a major breach at Condé Nast, the parent company. The threat actor “Lovely” claims this is just the start, promising to release up to 40 million more records from brands like Vogue and The New Yorker.​ The data dump, posted on hacking […] The post Hackers Claim Breach of WIRED Database Containing 2.3…",
       "source": "cybersecuritynews.com",
       "first_seen": "2025-12-29T03:29:46Z",
-      "last_seen": "2025-12-29T10:14:00Z"
+      "last_seen": "2025-12-29T11:11:09Z"
     }
   ]
 }
