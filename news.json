@@ -1,7 +1,28 @@
 {
-  "last_updated": "2025-12-29T06:21:06Z",
+  "last_updated": "2025-12-29T08:18:55Z",
   "count": 40,
   "items": [
+    {
+      "title": "OpenAI Hardened ChatGPT Atlas Against Prompt Injection Attacks",
+      "link": "https://cybersecuritynews.com/openai-hardened-chatgpt-atlas/",
+      "date": "2025-12-29T07:56:15Z",
+      "description": "OpenAI has rolled out a critical security update to ChatGPT Atlas, its browser-based AI agent, introducing advanced defenses against prompt injection attacks. The update marks a significant step in protecting users from emerging adversarial threats targeting agentic AI systems. What Are Prompt Injection Attacks? Prompt injection attacks exploit AI agents by embedding malicious instructions into…",
+      "source": "cybersecuritynews.com"
+    },
+    {
+      "title": "MongoDB Vulnerability CVE-2025-14847 Under Active Exploitation Worldwide",
+      "link": "https://thehackernews.com/2025/12/mongodb-vulnerability-cve-2025-14847.html",
+      "date": "2025-12-29T07:49:00Z",
+      "description": "A recently disclosed security vulnerability in MongoDB has come under active exploitation in the wild, with over 87,000 potentially susceptible instances identified across the world. The vulnerability in question is CVE-2025-14847 (CVSS score: 8.7), which allows an unauthenticated attacker to remotely leak sensitive data from the MongoDB server memory. It has been codenamed MongoBleed. \"A flaw",
+      "source": "thehackernews.com"
+    },
+    {
+      "title": "Traditional Security Frameworks Leave Organizations Exposed to AI-Specific Attack Vectors",
+      "link": "https://thehackernews.com/2025/12/traditional-security-frameworks-leave.html",
+      "date": "2025-12-29T06:34:00Z",
+      "description": "In December 2024, the popular Ultralytics AI library was compromised, installing malicious code that hijacked system resources for cryptocurrency mining. In August 2025, malicious Nx packages leaked 2,349 GitHub, cloud, and AI credentials. Throughout 2024, ChatGPT vulnerabilities allowed unauthorized extraction of user data from AI memory. The result: 23.77 million secrets were leaked through AI",
+      "source": "thehackernews.com"
+    },
     {
       "title": "Hackers Claim Breach of WIRED Database Containing 2.3 million Subscriber Records",
       "link": "https://cybersecuritynews.com/wired-database-breach/",
@@ -49,13 +70,6 @@
       "link": "https://cybersecuritynews.com/mongobleed/",
       "date": "2025-12-28T03:41:34Z",
       "description": "A high-severity vulnerability in MongoDB Server that allows unauthenticated remote attackers to siphon sensitive data from database memory. Dubbed “MongoBleed” due to its automated similarities to the infamous Heartbleed bug, the flaw tracks as CVE-2025-14847 and carries a CVSS score of 7.5. The vulnerability resides in the MongoDB Server’s zlib message decompression implementation. According to…",
-      "source": "cybersecuritynews.com"
-    },
-    {
-      "title": "Mongobleed PoC Exploit Tool Released for MongoDB Flaw that Exposes Sensitive Data",
-      "link": "https://cybersecuritynews.com/mongobleed-poc-exploit-mongodb/",
-      "date": "2025-12-27T12:00:42Z",
-      "description": "A proof-of-concept (PoC) exploit dubbed “mongobleed” for CVE-2025-14847, a critical unauthenticated memory leak vulnerability in MongoDB’s zlib decompression handling. Dubbed by its creator Joe Desimone as a way to bleed sensitive server memory, the flaw lets attackers remotely extract uninitialized data without credentials, potentially exposing internal logs, system stats, and more. The…",
       "source": "cybersecuritynews.com"
     },
     {
@@ -113,20 +127,6 @@
       "date": "2025-12-26T12:00:48Z",
       "description": "Take part in the new survey from Dark Reading and help uncover trends, challenges, and solutions shaping the future of application security.",
       "source": "darkreading.com"
-    },
-    {
-      "title": "Critical LangChain Core Vulnerability Exposes Secrets via Serialization Injection",
-      "link": "https://thehackernews.com/2025/12/critical-langchain-core-vulnerability.html",
-      "date": "2025-12-26T09:27:00Z",
-      "description": "A critical security flaw has been disclosed in LangChain Core that could be exploited by an attacker to steal sensitive secrets and even influence large language model (LLM) responses through prompt injection. LangChain Core (i.e., langchain-core) is a core Python package that's part of the LangChain ecosystem, providing the core interfaces and model-agnostic abstractions for building",
-      "source": "thehackernews.com"
-    },
-    {
-      "title": "ThreatsDay Bulletin: Stealth Loaders, AI Chatbot Flaws AI Exploits, Docker Hack, and 15 More Stories",
-      "link": "https://thehackernews.com/2025/12/threatsday-bulletin-stealth-loaders-ai.html",
-      "date": "2025-12-25T14:01:00Z",
-      "description": "It’s getting harder to tell where normal tech ends and malicious intent begins. Attackers are no longer just breaking in — they’re blending in, hijacking everyday tools, trusted apps, and even AI assistants. What used to feel like clear-cut “hacker stories” now looks more like a mirror of the systems we all use. This week’s findings show a pattern: precision, patience, and persuasion. The",
-      "source": "thehackernews.com"
     },
     {
       "title": "Pro-Russian Hackers Claim Cyberattack on French Postal Service",
