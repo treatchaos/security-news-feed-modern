@@ -1,6 +1,6 @@
 {
   "date": "2025-10-07",
-  "count": 43,
+  "count": 38,
   "items": [
     {
       "id": "84eae647f4769255ac2ddcc56a557cf05836a7d1",
@@ -323,46 +323,6 @@
       "last_seen": "2025-10-07T13:22:36Z"
     },
     {
-      "id": "3c919efc25a11c89f5d5002ec2635beef175c792",
-      "title": "GoAnywhere 0-Day RCE Vulnerability Exploited in the Wild to Deploy Medusa Ransomware",
-      "link": "https://cybersecuritynews.com/goanywhere-0-day-rce-medusa-ransomware/",
-      "date": "2025-10-07T09:45:04Z",
-      "description": "A critical deserialization flaw in GoAnywhere MFT’s License Servlet, tracked as CVE-2025-10035, has already been weaponized by the Storm-1175 group to execute the Medusa ransomware. The vulnerability affects GoAnywhere MFT versions up to 7.8.3. It resides in the License Servlet Admin Console, where a threat actor can forge a license response signature and bypass validation […] The post…",
-      "source": "cybersecuritynews.com",
-      "first_seen": "2025-10-07T10:11:17Z",
-      "last_seen": "2025-10-07T13:22:36Z"
-    },
-    {
-      "id": "4cff34c2ac4923cc67bb392ff06bf6c41721580c",
-      "title": "Fortra GoAnywhere MFT Zero-Day Exploited in Ransomware Attacks",
-      "link": "https://www.securityweek.com/fortra-goanywhere-mft-zero-day-exploited-in-ransomware-attacks/",
-      "date": "2025-10-07T09:40:59Z",
-      "description": "The Medusa ransomware operators exploited the GoAnywhere MFT vulnerability one week before patches were released. The post Fortra GoAnywhere MFT Zero-Day Exploited in Ransomware Attacks appeared first on SecurityWeek.",
-      "source": "securityweek.com",
-      "first_seen": "2025-10-07T10:11:17Z",
-      "last_seen": "2025-10-08T07:10:23Z"
-    },
-    {
-      "id": "2b1e246992d14c0f5b7024247a56464896ca69cb",
-      "title": "Kibana Crowdstrike Connector Vulnerability Exposes Protected Credentials",
-      "link": "https://cybersecuritynews.com/kibana-crowdstrike-connector-vulnerability/",
-      "date": "2025-10-07T09:32:17Z",
-      "description": "Elastic has released a security advisory detailing a medium-severity vulnerability in the Kibana CrowdStrike Connector that could allow for the exposure of sensitive credentials. The flaw, tracked as CVE-2025-37728, affects multiple versions of Kibana and could allow a malicious user to access cached CrowdStrike credentials from other users within the same environment. The vulnerability…",
-      "source": "cybersecuritynews.com",
-      "first_seen": "2025-10-07T10:11:17Z",
-      "last_seen": "2025-10-07T12:20:55Z"
-    },
-    {
-      "id": "c9f427b7dc8b4e6323f96169e5d2ebbf048a5fa1",
-      "title": "13-Year Redis Flaw Exposed: CVSS 10.0 Vulnerability Lets Attackers Run Code Remotely",
-      "link": "https://thehackernews.com/2025/10/13-year-redis-flaw-exposed-cvss-100.html",
-      "date": "2025-10-07T08:33:00Z",
-      "description": "Redis has disclosed details of a maximum-severity security flaw in its in-memory database software that could result in remote code execution under certain circumstances. The vulnerability, tracked as CVE-2025-49844 (aka RediShell), has been assigned a CVSS score of 10.0. \"An authenticated user may use a specially crafted Lua script to manipulate the garbage collector, trigger a use-after-free,",
-      "source": "thehackernews.com",
-      "first_seen": "2025-10-07T10:11:17Z",
-      "last_seen": "2025-10-07T10:11:17Z"
-    },
-    {
       "id": "f4d0daca1d30e888839a5313b4f100b0d6274072",
       "title": "13-Year-Old Redis Flaw Exposed: CVSS 10.0 Vulnerability Lets Attackers Run Code Remotely",
       "link": "https://thehackernews.com/2025/10/13-year-redis-flaw-exposed-cvss-100.html",
@@ -371,16 +331,6 @@
       "source": "thehackernews.com",
       "first_seen": "2025-10-07T11:09:13Z",
       "last_seen": "2025-10-08T07:10:23Z"
-    },
-    {
-      "id": "06245d9786a44c36203ab9d34c14c1b2ad440e08",
-      "title": "Microsoft Links Storm-1175 to GoAnywhere Exploit Deploying Medusa Ransomware",
-      "link": "https://thehackernews.com/2025/10/microsoft-links-storm-1175-to.html",
-      "date": "2025-10-07T08:15:00Z",
-      "description": "Microsoft on Monday attributed a threat actor it tracks as Storm-1175 to the exploitation of a critical security flaw in Fortra GoAnywhere software to facilitate the deployment of Medusa ransomware. The vulnerability is CVE-2025-10035 (CVSS score: 10.0), a critical deserialization bug that could result in command injection without authentication. It was addressed in version 7.8.4, or the Sustain",
-      "source": "thehackernews.com",
-      "first_seen": "2025-10-07T10:11:17Z",
-      "last_seen": "2025-10-07T17:09:20Z"
     },
     {
       "id": "3b4c06c6e729c42ce5a79ec6fd4a1ff4dbb18e18",
