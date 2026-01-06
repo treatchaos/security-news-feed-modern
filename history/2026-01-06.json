@@ -1,7 +1,27 @@
 {
   "date": "2026-01-06",
-  "count": 7,
+  "count": 10,
   "items": [
+    {
+      "id": "32a747e5dffc0ce568eb0213333bd4f574913cc3",
+      "title": "Threat Actors Hacked Global Companies via Leaked Cloud Credentials from Infostealer Infections",
+      "link": "https://cybersecuritynews.com/threat-actors-hacked-global-companies-via-leaked-cloud-credentials/",
+      "date": "2026-01-06T06:58:42Z",
+      "description": "Dozens of major global enterprises have been breached through a surprisingly simple yet devastating attack vector: stolen credentials extracted from infostealer malware. A threat actor operating under the nickname “Zestix” and his alias “Sentap” has been systematically accessing corporate cloud storage platforms, including ShareFile, Nextcloud, and OwnCloud, belonging to approximately 50…",
+      "source": "cybersecuritynews.com",
+      "first_seen": "2026-01-06T07:18:17Z",
+      "last_seen": "2026-01-06T07:18:17Z"
+    },
+    {
+      "id": "7d6edc5cdcfd3f7046ca5ed43c593841058491b7",
+      "title": "Stealthy Tuoni C2 Malware Targets Major U.S. Real Estate Firm with AI-Enhanced Tactics",
+      "link": "https://cybersecuritynews.com/stealthy-tuoni-c2-malware-targets-major-u-s-real-estate-firm/",
+      "date": "2026-01-06T06:34:27Z",
+      "description": "Cybercriminals have shifted their approach to infiltration. Rather than launching quick attacks, they now work silently within networks, stealing important information, and waiting weeks or months before striking. This is exactly what happened in a recent attack discovered by Morphisec Threat Labs targeting a major U.S. real estate company. This was not a common phishing […] The post Stealthy…",
+      "source": "cybersecuritynews.com",
+      "first_seen": "2026-01-06T07:18:17Z",
+      "last_seen": "2026-01-06T07:18:17Z"
+    },
     {
       "id": "168171676851a70bb775c815cf9dad33d85e350c",
       "title": "Scattered Lapsus$ Hunters Resurface with New RaaS Platform ‘ShinySp1d3r’ and Aggressive Insider Recruitment",
@@ -10,7 +30,7 @@
       "description": "The notorious Scattered Lapsus$ Hunters threat group has returned to active operations after a period of silence following their high-profile supply chain attack targeting Salesforce third-party integrations, including Gainsight and Salesloft. Recent activity observed across underground Telegram channels and credential-trading forums shows the collective has rebuilt its operational structure and…",
       "source": "cybersecuritynews.com",
       "first_seen": "2026-01-06T06:19:38Z",
-      "last_seen": "2026-01-06T06:19:38Z"
+      "last_seen": "2026-01-06T07:18:17Z"
     },
     {
       "id": "8108ab78be8f6844d506285cf48b3701b55287a1",
@@ -20,7 +40,7 @@
       "description": "Blockchain intelligence firm TRM Labs has traced over $35 million in stolen cryptocurrency to the 2022 LastPass breach, revealing a sophisticated Russian cybercriminal laundering operation that remains active into 2025. In 2022, hackers breached LastPass and stole encrypted password vaults containing the credentials of roughly 30 million users worldwide. Although the vaults were encrypted,…",
       "source": "cybersecuritynews.com",
       "first_seen": "2026-01-06T06:19:38Z",
-      "last_seen": "2026-01-06T06:19:38Z"
+      "last_seen": "2026-01-06T07:18:17Z"
     },
     {
       "id": "1ce24aac3d4bcde6f22e81f7098f139da6bfad7f",
@@ -30,7 +50,7 @@
       "description": "A new critical security vulnerability has been disclosed in n8n, an open-source workflow automation platform, that could enable an authenticated attacker to execute arbitrary system commands on the underlying host. The vulnerability, tracked as CVE-2025-68668, is rated 9.9 on the CVSS scoring system. It has been described as a case of a protection mechanism failure. It affects n8n versions from",
       "source": "thehackernews.com",
       "first_seen": "2026-01-06T05:16:58Z",
-      "last_seen": "2026-01-06T06:19:38Z"
+      "last_seen": "2026-01-06T07:18:17Z"
     },
     {
       "id": "9aa20136f9a8a2c345fbf82fe28dc47c2af6bc62",
@@ -40,7 +60,7 @@
       "description": "GravityRAT is a remote access trojan that has been targeting government agencies and military organizations since 2016. This malware originated as a Windows-only threat but has evolved into a cross-platform tool that can attack Windows, Android, and macOS systems. The malware uses fake apps and tricky emails to spread, making it hard for regular users […] The post GravityRAT with Remote Access…",
       "source": "cybersecuritynews.com",
       "first_seen": "2026-01-06T05:16:58Z",
-      "last_seen": "2026-01-06T06:19:38Z"
+      "last_seen": "2026-01-06T07:18:17Z"
     },
     {
       "id": "c6b3bcbfac1c4d2772f7395e23293fc9372e6460",
@@ -50,7 +70,17 @@
       "description": "The post The Open Door: Critical 9.8 Severity Flaw in Harvester Lets Hackers Hijack New Servers appeared first on Daily CyberSecurity.",
       "source": "securityonline.info",
       "first_seen": "2026-01-06T03:58:13Z",
-      "last_seen": "2026-01-06T06:19:38Z"
+      "last_seen": "2026-01-06T07:18:17Z"
+    },
+    {
+      "id": "b8ff248ed98f025827a82fbac8525cfcda069404",
+      "title": "Critical AdonisJS Bodyparser Flaw (CVSS 9.2) Enables Arbitrary File Write on Servers",
+      "link": "https://thehackernews.com/2026/01/critical-adonisjs-bodyparser-flaw-cvss.html",
+      "date": "2026-01-06T03:30:00Z",
+      "description": "Users of the \"@adonisjs/bodyparser\" npm package are being advised to update to the latest version following the disclosure of a critical security vulnerability that, if successfully exploited, could allow a remote attacker to write arbitrary files on the server. Tracked as CVE-2026-21440 (CVSS score: 9.2), the flaw has been described as a path traversal issue affecting the AdonisJS multipart",
+      "source": "thehackernews.com",
+      "first_seen": "2026-01-06T07:18:17Z",
+      "last_seen": "2026-01-06T07:18:17Z"
     },
     {
       "id": "0b2b40d3844594a0d68733d2e85747155cfc7938",
@@ -60,7 +90,7 @@
       "description": "The post Researcher Details Stack Buffer Overflow Flaw in Net-SNMP snmptrapd with PoC appeared first on Daily CyberSecurity.",
       "source": "securityonline.info",
       "first_seen": "2026-01-06T00:57:22Z",
-      "last_seen": "2026-01-06T06:19:38Z"
+      "last_seen": "2026-01-06T07:18:17Z"
     },
     {
       "id": "4a1fba7826c06e23405a4613ea77922a5210c4c0",
