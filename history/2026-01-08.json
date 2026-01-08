@@ -1,7 +1,27 @@
 {
   "date": "2026-01-08",
-  "count": 7,
+  "count": 11,
   "items": [
+    {
+      "id": "e5c144d1c3888650d1d08c03e0aeb33bed5affaa",
+      "title": "CISA tags max severity HPE OneView flaw as actively exploited",
+      "link": "https://www.bleepingcomputer.com/news/security/cisa-tags-max-severity-hpe-oneview-flaw-as-actively-exploited/",
+      "date": "2026-01-08T07:45:25Z",
+      "description": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) has flagged a maximum-severity HPE OneView vulnerability as actively exploited in attacks. [...]",
+      "source": "bleepingcomputer.com",
+      "first_seen": "2026-01-08T08:18:03Z",
+      "last_seen": "2026-01-08T08:18:03Z"
+    },
+    {
+      "id": "59370413fc436fa962e8466d24f66242845dd415",
+      "title": "BlueDelta Hackers Attacking Microsoft OWA, Google, and Sophos VPN Users to Steal Logins",
+      "link": "https://cybersecuritynews.com/bluedelta-hackers-attacking-microsoft-owa/",
+      "date": "2026-01-08T07:31:28Z",
+      "description": "BlueDelta, a Russian state-sponsored threat group linked to the country’s military intelligence agency known as the GRU, has expanded its credential-stealing operations significantly throughout 2025. Between February and September, the group launched multiple phishing campaigns designed to deceive users of Microsoft Outlook Web Access, Google, and Sophos VPN services into surrendering their…",
+      "source": "cybersecuritynews.com",
+      "first_seen": "2026-01-08T08:18:03Z",
+      "last_seen": "2026-01-08T08:18:03Z"
+    },
     {
       "id": "6d333b3f83864511644464121cfa8edbcdc0028a",
       "title": "Ni8mare Vulnerability Let Attackers Hijack n8n Servers – Exploit Released With 26,512 Vulnerable Hosts",
@@ -13,6 +33,16 @@
       "last_seen": "2026-01-08T07:17:33Z"
     },
     {
+      "id": "f99e469727667bd5a6100eb8fc0a011b26d1e762",
+      "title": "Ni8mare Vulnerability Let Attackers Hijack n8n Servers – Exploit Released and 26,512 Hosts Vulnerable",
+      "link": "https://cybersecuritynews.com/ni8mare-hijack-n8n-servers/",
+      "date": "2026-01-08T07:17:04Z",
+      "description": "A critical unauthenticated remote code execution vulnerability discovered in n8n, the popular workflow automation platform, exposes an estimated 100,000 servers globally to complete takeover. Tracked as CVE-2026-21858 with a maximum CVSS score of 10.0, the flaw allows unauthenticated attackers to execute arbitrary system commands and achieve full host compromise without triggering any alarms.…",
+      "source": "cybersecuritynews.com",
+      "first_seen": "2026-01-08T08:18:03Z",
+      "last_seen": "2026-01-08T08:18:03Z"
+    },
+    {
       "id": "4ba354586504acb8d504d81b2529d276a9c9d798",
       "title": "Three Malicious NPM Packages Attacking Developers to Steal Login Credentials",
       "link": "https://cybersecuritynews.com/three-malicious-npm-packages-attacking-developers/",
@@ -20,7 +50,17 @@
       "description": "Three malicious npm packages are targeting JavaScript developers to steal browser logins, API keys, and cryptocurrency wallet data. The packages, named bitcoin-main-lib, bitcoin-lib-js, and bip40, were uploaded to the public npm registry and posed as tools linked to the popular bitcoinjs project. Any developer who added them as dependencies could silently install a new remote […] The post Three…",
       "source": "cybersecuritynews.com",
       "first_seen": "2026-01-08T07:17:33Z",
-      "last_seen": "2026-01-08T07:17:33Z"
+      "last_seen": "2026-01-08T08:18:03Z"
+    },
+    {
+      "id": "35c72b49ab70f3b8ed45b08b3ce4069a119628c0",
+      "title": "OpenAI Launches ChatGPT Health with Isolated, Encrypted Health Data Controls",
+      "link": "https://thehackernews.com/2026/01/openai-launches-chatgpt-health-with.html",
+      "date": "2026-01-08T06:57:00Z",
+      "description": "Artificial intelligence (AI) company OpenAI on Wednesday announced the launch of ChatGPT Health, a dedicated space that allows users to have conversations with the chatbot about their health. To that end, the sandboxed experience offers users the optional ability to securely connect medical records and wellness apps, including Apple Health, Function, MyFitnessPal, Weight Watchers, AllTrails,",
+      "source": "thehackernews.com",
+      "first_seen": "2026-01-08T08:18:03Z",
+      "last_seen": "2026-01-08T08:18:03Z"
     },
     {
       "id": "d73b52128057839a526ee4a8238592066c91bd35",
@@ -30,7 +70,7 @@
       "description": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Wednesday added two security flaws impacting Microsoft Office and Hewlett Packard Enterprise (HPE) OneView to its Known Exploited Vulnerabilities (KEV) catalog, citing evidence of active exploitation. The vulnerabilities are listed below - CVE-2009-0556 (CVSS score: 8.8) - A code injection vulnerability in Microsoft Office",
       "source": "thehackernews.com",
       "first_seen": "2026-01-08T06:19:18Z",
-      "last_seen": "2026-01-08T07:17:33Z"
+      "last_seen": "2026-01-08T08:18:03Z"
     },
     {
       "id": "bd08361eb9e4ce9019623ac889d1272ace01bec8",
@@ -40,7 +80,7 @@
       "description": "Hackers are exploiting VMware ESXi instances in the wild with a zero-day exploit toolkit that chains multiple vulnerabilities for VM escapes. Cybersecurity firm Huntress disrupted one such attack, attributing initial access to a compromised SonicWall VPN.​ Threat actors gained a foothold via SonicWall VPN, then used a compromised Domain Admin account for lateral movement to […] The post Hackers…",
       "source": "cybersecuritynews.com",
       "first_seen": "2026-01-08T02:54:38Z",
-      "last_seen": "2026-01-08T07:17:33Z"
+      "last_seen": "2026-01-08T08:18:03Z"
     },
     {
       "id": "8c74f0f63a4e74640e2335f7d39dcbb36c10cd1c",
@@ -50,7 +90,7 @@
       "description": "The post “Sophisticated” Zero-Day Demystified: Public Exploit Drop Blows Cover on Critical Apple WebKit Flaw appeared first on Daily CyberSecurity.",
       "source": "securityonline.info",
       "first_seen": "2026-01-08T00:57:32Z",
-      "last_seen": "2026-01-08T07:17:33Z"
+      "last_seen": "2026-01-08T08:18:03Z"
     },
     {
       "id": "4ff31b091e4cc479173ab4aad7755ae93b7aac67",
@@ -60,7 +100,7 @@
       "description": "OpenAI is rolling out ChatGPT Health, which is a dedicated space for health conversations. Amidst privacy concerns, OpenAI said it won't use your health data. [...]",
       "source": "bleepingcomputer.com",
       "first_seen": "2026-01-08T00:57:32Z",
-      "last_seen": "2026-01-08T07:17:33Z"
+      "last_seen": "2026-01-08T08:18:03Z"
     },
     {
       "id": "f18c84952fc1511a777aaf99936dc49256241213",
@@ -70,7 +110,7 @@
       "description": "A new wave of GoBruteforcer botnet malware attacks is targeting databases of cryptocurrency and blockchain projects on exposed servers believed to be configured using AI-generated examples. [...]",
       "source": "bleepingcomputer.com",
       "first_seen": "2026-01-08T00:57:32Z",
-      "last_seen": "2026-01-08T07:17:33Z"
+      "last_seen": "2026-01-08T08:18:03Z"
     }
   ]
 }
