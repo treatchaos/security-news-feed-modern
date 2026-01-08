@@ -1,7 +1,37 @@
 {
   "date": "2026-01-08",
-  "count": 19,
+  "count": 23,
   "items": [
+    {
+      "id": "47049918dc0216d59461e3cdee91493ba95a4e27",
+      "title": "Critical HPE OneView Vulnerability Exploited in Attacks",
+      "link": "https://www.securityweek.com/critical-hpe-oneview-vulnerability-exploited-in-attacks/",
+      "date": "2026-01-08T11:09:03Z",
+      "description": "The maximum-severity code injection flaw can be exploited without authentication for remote code execution. The post Critical HPE OneView Vulnerability Exploited in Attacks appeared first on SecurityWeek.",
+      "source": "securityweek.com",
+      "first_seen": "2026-01-08T11:12:31Z",
+      "last_seen": "2026-01-08T11:12:31Z"
+    },
+    {
+      "id": "c077795c34567e88b9f484927b6080c9cdf0301d",
+      "title": "Cisco Patches ISE Security Vulnerability After Public PoC Exploit Release",
+      "link": "https://thehackernews.com/2026/01/cisco-patches-ise-security.html",
+      "date": "2026-01-08T10:44:00Z",
+      "description": "Cisco has released updates to address a medium-severity security flaw in Identity Services Engine (ISE) and ISE Passive Identity Connector (ISE-PIC) with a public proof-of-concept (PoC) exploit. The vulnerability, tracked as CVE-2026-20029 (CVSS score: 4.9), resides in the licensing feature and could allow an authenticated, remote attacker with administrative privileges to gain access to",
+      "source": "thehackernews.com",
+      "first_seen": "2026-01-08T11:12:31Z",
+      "last_seen": "2026-01-08T11:12:31Z"
+    },
+    {
+      "id": "e473fcdebc7b952839d3f7e5a39d5fd792c5e327",
+      "title": "Researchers Uncover NodeCordRAT Hidden in npm Bitcoin-Themed Packages",
+      "link": "https://thehackernews.com/2026/01/researchers-uncover-nodecordrat-hidden.html",
+      "date": "2026-01-08T10:31:00Z",
+      "description": "Cybersecurity researchers have discovered three malicious npm packages that are designed to deliver a previously undocumented malware called NodeCordRAT. The names of the packages, all of which were taken down as of November 2025, are listed below. They were uploaded by a user named \"wenmoonx.\" bitcoin-main-lib (2,300 Downloads) bitcoin-lib-js (193 Downloads) bip40 (970 Downloads) \"The",
+      "source": "thehackernews.com",
+      "first_seen": "2026-01-08T11:12:31Z",
+      "last_seen": "2026-01-08T11:12:31Z"
+    },
     {
       "id": "18c508cb9aeec532154bf592465d4de72badfaa1",
       "title": "Hackers Can Leverage Kernel Patch Protection to Hide Process from Task Manager",
@@ -10,7 +40,17 @@
       "description": "A new technique discovered in 2026 reveals that attackers can manipulate Windows kernel structures to conceal running processes from detection systems, even while modern security layers like PatchGuard protect the system. Outflank analysts identified a method that exploits the timing of system validation checks to hide malicious activity from plain sight. The discovery highlights a […] The post…",
       "source": "cybersecuritynews.com",
       "first_seen": "2026-01-08T10:14:31Z",
-      "last_seen": "2026-01-08T10:14:31Z"
+      "last_seen": "2026-01-08T11:12:31Z"
+    },
+    {
+      "id": "5eb7629390c66242ee4257d477c0c837466ad375",
+      "title": "Coolify Discloses 11 Critical Flaws Enabling Full Server Compromise on Self-Hosted Instances",
+      "link": "https://thehackernews.com/2026/01/coolify-discloses-11-critical-flaws.html",
+      "date": "2026-01-08T09:53:00Z",
+      "description": "Cybersecurity researchers have disclosed details of multiple critical-severity security flaws affecting Coolify, an open-source, self-hosting platform, that could result in authentication bypass and remote code execution. The list of vulnerabilities is as follows - CVE-2025-66209 (CVSS score: 10.0) - A command injection vulnerability in the database backup functionality allows any authenticated",
+      "source": "thehackernews.com",
+      "first_seen": "2026-01-08T11:12:31Z",
+      "last_seen": "2026-01-08T11:12:31Z"
     },
     {
       "id": "2b92eaba5c56106eabde01c1e709151c26c65604",
@@ -20,7 +60,7 @@
       "description": "GitLab has released emergency security patches for multiple versions of its platform, addressing eight vulnerabilities that could enable arbitrary code execution and unauthorized access in self-managed installations. The updated versions 18.7.1, 18.6.3, and 18.5.5 were deployed to GitLab.com on January 7, 2026, with self-hosted customers strongly advised to upgrade immediately. The most severe…",
       "source": "cybersecuritynews.com",
       "first_seen": "2026-01-08T10:14:31Z",
-      "last_seen": "2026-01-08T10:14:31Z"
+      "last_seen": "2026-01-08T11:12:31Z"
     },
     {
       "id": "548d7b3bc9b868fdba832b3127077456c8a664c4",
@@ -30,7 +70,7 @@
       "description": "A critical security vulnerability has been discovered in TLP, a widely used Linux laptop battery optimization utility, allowing local attackers to bypass authentication controls and manipulate system power settings without authorization. Security researchers from openSUSE identified a severe authentication bypass flaw in the power profiles daemon in TLP version 1.9.0, tracked as CVE-2025-67859.…",
       "source": "cybersecuritynews.com",
       "first_seen": "2026-01-08T09:19:55Z",
-      "last_seen": "2026-01-08T10:14:31Z"
+      "last_seen": "2026-01-08T11:12:31Z"
     },
     {
       "id": "d4d453c2130cc4ecfb78430405098e37ffa0c029",
@@ -40,7 +80,7 @@
       "description": "Cisco has patched an ISE vulnerability with public proof-of-concept exploit code that can be abused by attackers with admin privileges. [...]",
       "source": "bleepingcomputer.com",
       "first_seen": "2026-01-08T09:19:55Z",
-      "last_seen": "2026-01-08T10:14:31Z"
+      "last_seen": "2026-01-08T11:12:31Z"
     },
     {
       "id": "658dbf3dd28dcf68ba8e9176e3d2fafe0715b881",
@@ -50,7 +90,7 @@
       "description": "A sophisticated Chinese hacking group has breached email systems accessed by staffers on critical U.S. House committees, exposing sensitive communications amid escalating cyber tensions between Washington and Beijing. The Financial Times revealed on Wednesday that the intruders, tracked as Salt Typhoon, targeted aides supporting the House Select Committee on China, as well as panels overseeing…",
       "source": "cybersecuritynews.com",
       "first_seen": "2026-01-08T09:19:55Z",
-      "last_seen": "2026-01-08T10:14:31Z"
+      "last_seen": "2026-01-08T11:12:31Z"
     },
     {
       "id": "272b141f1be24d95c27e389cc25e171d95952be7",
@@ -60,7 +100,7 @@
       "description": "Penetration testing companies serve as vital cybersecurity allies, simulating real-world cyberattacks to expose vulnerabilities in systems, networks, and applications before malicious actors strike. Employing ethical hackers with advanced techniques, they rigorously assess defenses, pinpoint misconfigurations, and evaluate control effectiveness to ensure regulatory compliance and threat…",
       "source": "cybersecuritynews.com",
       "first_seen": "2026-01-08T09:19:55Z",
-      "last_seen": "2026-01-08T10:14:31Z"
+      "last_seen": "2026-01-08T11:12:31Z"
     },
     {
       "id": "a3ef96e690dc1cf6a9eeb91e67ed1eb5c595a959",
@@ -90,7 +130,7 @@
       "description": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) has flagged a maximum-severity HPE OneView vulnerability as actively exploited in attacks. [...]",
       "source": "bleepingcomputer.com",
       "first_seen": "2026-01-08T08:18:03Z",
-      "last_seen": "2026-01-08T10:14:31Z"
+      "last_seen": "2026-01-08T11:12:31Z"
     },
     {
       "id": "59370413fc436fa962e8466d24f66242845dd415",
@@ -140,7 +180,7 @@
       "description": "Artificial intelligence (AI) company OpenAI on Wednesday announced the launch of ChatGPT Health, a dedicated space that allows users to have conversations with the chatbot about their health. To that end, the sandboxed experience offers users the optional ability to securely connect medical records and wellness apps, including Apple Health, Function, MyFitnessPal, Weight Watchers, AllTrails,",
       "source": "thehackernews.com",
       "first_seen": "2026-01-08T08:18:03Z",
-      "last_seen": "2026-01-08T10:14:31Z"
+      "last_seen": "2026-01-08T11:12:31Z"
     },
     {
       "id": "d73b52128057839a526ee4a8238592066c91bd35",
@@ -150,7 +190,7 @@
       "description": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Wednesday added two security flaws impacting Microsoft Office and Hewlett Packard Enterprise (HPE) OneView to its Known Exploited Vulnerabilities (KEV) catalog, citing evidence of active exploitation. The vulnerabilities are listed below - CVE-2009-0556 (CVSS score: 8.8) - A code injection vulnerability in Microsoft Office",
       "source": "thehackernews.com",
       "first_seen": "2026-01-08T06:19:18Z",
-      "last_seen": "2026-01-08T10:14:31Z"
+      "last_seen": "2026-01-08T11:12:31Z"
     },
     {
       "id": "bd08361eb9e4ce9019623ac889d1272ace01bec8",
@@ -170,7 +210,7 @@
       "description": "The post “Sophisticated” Zero-Day Demystified: Public Exploit Drop Blows Cover on Critical Apple WebKit Flaw appeared first on Daily CyberSecurity.",
       "source": "securityonline.info",
       "first_seen": "2026-01-08T00:57:32Z",
-      "last_seen": "2026-01-08T10:14:31Z"
+      "last_seen": "2026-01-08T11:12:31Z"
     },
     {
       "id": "4ff31b091e4cc479173ab4aad7755ae93b7aac67",
@@ -180,7 +220,7 @@
       "description": "OpenAI is rolling out ChatGPT Health, which is a dedicated space for health conversations. Amidst privacy concerns, OpenAI said it won't use your health data. [...]",
       "source": "bleepingcomputer.com",
       "first_seen": "2026-01-08T00:57:32Z",
-      "last_seen": "2026-01-08T10:14:31Z"
+      "last_seen": "2026-01-08T11:12:31Z"
     },
     {
       "id": "f18c84952fc1511a777aaf99936dc49256241213",
@@ -190,7 +230,7 @@
       "description": "A new wave of GoBruteforcer botnet malware attacks is targeting databases of cryptocurrency and blockchain projects on exposed servers believed to be configured using AI-generated examples. [...]",
       "source": "bleepingcomputer.com",
       "first_seen": "2026-01-08T00:57:32Z",
-      "last_seen": "2026-01-08T10:14:31Z"
+      "last_seen": "2026-01-08T11:12:31Z"
     }
   ]
 }
