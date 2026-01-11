@@ -1,6 +1,6 @@
 {
   "date": "2025-10-13",
-  "count": 39,
+  "count": 32,
   "items": [
     {
       "id": "0f853e5abc5c03e6dddc21153d32955f97c9380a",
@@ -311,76 +311,6 @@
       "source": "bleepingcomputer.com",
       "first_seen": "2025-10-13T13:23:44Z",
       "last_seen": "2025-10-13T15:10:54Z"
-    },
-    {
-      "id": "21745b43ae871dd15b6103b56e6e7fb43ce512d4",
-      "title": "EDR-Freeze Tool Technical Workings Along With Forensic Artifacts Revealed",
-      "link": "https://cybersecuritynews.com/edr-freeze-tool-technical-workings/",
-      "date": "2025-10-13T10:49:41Z",
-      "description": "A recent analysis from researcher Itamar Hällström has revealed the technical workings and forensic trail of “EDR-Freeze,” a proof-of-concept technique that temporarily disables security software. By abusing legitimate Windows components, this method can place Endpoint Detection and Response (EDR) and antivirus (AV) processes into a temporary, reversible coma, allowing attackers to operate…",
-      "source": "cybersecuritynews.com",
-      "first_seen": "2025-10-13T11:09:16Z",
-      "last_seen": "2025-10-13T14:11:15Z"
-    },
-    {
-      "id": "5dbdcf0dec449d338dc9f39ffddb046165812340",
-      "title": "Oracle Patches EBS Vulnerability Allowing Access to Sensitive Data",
-      "link": "https://www.securityweek.com/oracle-patches-ebs-vulnerability-allowing-access-to-sensitive-data/",
-      "date": "2025-10-13T10:37:59Z",
-      "description": "It’s unclear if the new Oracle E-Business Suite flaw, which can be exploited remotely without authentication, has been used in the wild. The post Oracle Patches EBS Vulnerability Allowing Access to Sensitive Data appeared first on SecurityWeek.",
-      "source": "securityweek.com",
-      "first_seen": "2025-10-13T11:09:16Z",
-      "last_seen": "2025-10-13T15:10:54Z"
-    },
-    {
-      "id": "7714df7597000b41cd2c8f4c10f0f807fd8a5e7d",
-      "title": "Happy DOM Vulnerability Exposes 2.7 Million Users To Remote Code Execution Attacks",
-      "link": "https://cybersecuritynews.com/happy-dom-vulnerability/",
-      "date": "2025-10-13T10:37:43Z",
-      "description": "A significant security flaw has been discovered in Happy DOM, a popular JavaScript DOM implementation, affecting versions up to v19. This vulnerability places systems at risk of Remote Code Execution (RCE) attacks, potentially impacting the package’s 2.7 million weekly users. The flaw arises because the Node.js VM Context used by Happy DOM is not a […] The post Happy DOM Vulnerability Exposes…",
-      "source": "cybersecuritynews.com",
-      "first_seen": "2025-10-13T11:09:16Z",
-      "last_seen": "2025-10-13T13:23:44Z"
-    },
-    {
-      "id": "380bcb01fb2429077c36d7977063a104b7613c09",
-      "title": "Researchers Warn RondoDox Botnet is Weaponizing Over 50 Flaws Across 30+ Vendors",
-      "link": "https://thehackernews.com/2025/10/researchers-warn-rondodox-botnet-is.html",
-      "date": "2025-10-13T10:12:00Z",
-      "description": "Malware campaigns distributing the RondoDox botnet have expanded their targeting focus to exploit more than 50 vulnerabilities across over 30 vendors. The activity, described as akin to an \"exploit shotgun\" approach, has singled out a wide range of internet-exposed infrastructure, including routers, digital video recorders (DVRs), network video recorders (NVRs), CCTV systems, web servers, and",
-      "source": "thehackernews.com",
-      "first_seen": "2025-10-13T11:09:16Z",
-      "last_seen": "2025-10-14T11:09:12Z"
-    },
-    {
-      "id": "869a95f08afe6f7bbaabb3d6a077b52c9a5e7e73",
-      "title": "Microsoft Locks Down IE Mode After Hackers Turned Legacy Feature Into Backdoor",
-      "link": "https://thehackernews.com/2025/10/microsoft-locks-down-ie-mode-after.html",
-      "date": "2025-10-13T09:54:00Z",
-      "description": "Microsoft said it has revamped the Internet Explorer (IE) mode in its Edge browser after receiving \"credible reports\" in August 2025 that unknown threat actors were abusing the backward compatibility feature to gain unauthorized access to users' devices. \"Threat actors were leveraging basic social engineering techniques alongside unpatched (0-day) exploits in Internet Explorer's JavaScript",
-      "source": "thehackernews.com",
-      "first_seen": "2025-10-13T11:09:16Z",
-      "last_seen": "2025-10-14T07:11:30Z"
-    },
-    {
-      "id": "1f50bf888ee04fe7b9e39e07d478269f96b02e28",
-      "title": "Spanish Authorities Dismantle ‘GXC Team’ Crime-as-a-Service Operation",
-      "link": "https://www.securityweek.com/spanish-authorities-dismantle-gxc-team-crime-as-a-service-operation/",
-      "date": "2025-10-13T09:35:48Z",
-      "description": "The authorities arrested GoogleXcoder, the alleged administrator of GXC Team, which offered phishing kits and Android malware. The post Spanish Authorities Dismantle ‘GXC Team’ Crime-as-a-Service Operation appeared first on SecurityWeek.",
-      "source": "securityweek.com",
-      "first_seen": "2025-10-13T10:13:04Z",
-      "last_seen": "2025-10-13T14:11:15Z"
-    },
-    {
-      "id": "e9d37511518eb6c599aa8f8151df842aa3d91062",
-      "title": "New Stealit Malware Attacking Windows Systems Abuses Node.js Extensions",
-      "link": "https://cybersecuritynews.com/new-stealit-malware-attacking-windows-systems/",
-      "date": "2025-10-13T09:32:14Z",
-      "description": "A sophisticated new malware campaign targeting Windows systems has emerged, leveraging Node.js Single Executable Application (SEA) features to distribute malicious payloads while evading traditional detection mechanisms. The Stealit malware represents a significant evolution in malware-as-a-service operations, combining advanced obfuscation techniques with extensive anti-analysis capabilities to…",
-      "source": "cybersecuritynews.com",
-      "first_seen": "2025-10-13T10:13:04Z",
-      "last_seen": "2025-10-13T12:21:04Z"
     },
     {
       "id": "b285529433a392b7ed23a75e1b8757bb9c569e30",
