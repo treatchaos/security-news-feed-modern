@@ -1,13 +1,13 @@
 {
-  "last_updated": "2026-01-12T17:16:17Z",
-  "count": 40,
+  "last_updated": "2026-01-12T18:18:33Z",
+  "count": 35,
   "items": [
     {
-      "title": "Hackers Infiltrated n8n’s Community Node Ecosystem With a Weaponized npm Package",
-      "link": "https://cybersecuritynews.com/n8ns-community-weaponized-npm-package/",
-      "date": "2026-01-12T16:46:57Z",
-      "description": "Attackers have successfully infiltrated n8n’s community node ecosystem using a malicious npm package disguised as a legitimate Google Ads integration tool. The attack reveals a critical vulnerability in how workflow automation platforms handle third-party integrations and user credentials. The malicious package, named n8n-nodes-hfgjf-irtuinvcm-lasdqewriit, tricked developers into entering their…",
-      "source": "cybersecuritynews.com"
+      "title": "Target's dev server offline after hackers claim to steal source code",
+      "link": "https://www.bleepingcomputer.com/news/security/targets-dev-server-offline-after-hackers-claim-to-steal-source-code/",
+      "date": "2026-01-12T17:52:10Z",
+      "description": "Hackers are claiming to be selling internal source code belonging to Target Corporation, after publishing what appears to be a sample of stolen code repositories on a public software development platform. After BleepingComputer notified Target, the files were taken offline and the retailer's developer Git server was inaccessible. [...]",
+      "source": "bleepingcomputer.com"
     },
     {
       "title": "Apple confirms Google Gemini will power Siri, says privacy remains a priority",
@@ -17,11 +17,11 @@
       "source": "bleepingcomputer.com"
     },
     {
-      "title": "One-Click Telegram Flaw Exposes Real IP Addresses, Bypassing Proxies on Android and iOS",
-      "link": "https://cybersecuritynews.com/one-click-telegram-flaw/",
-      "date": "2026-01-12T16:43:35Z",
-      "description": "A stealthy flaw in Telegram’s mobile clients that lets attackers unmask users’ real IP addresses with a single click, even those hiding behind proxies. Dubbed a “one-click IP leak,” the vulnerability turns seemingly innocuous username links into potent tracking weapons. The issue hinges on Telegram’s automatic proxy validation mechanism. When users encounter a disguised proxy […] The post…",
-      "source": "cybersecuritynews.com"
+      "title": "n8n Supply Chain Attack Abuses Community Nodes to Steal OAuth Tokens",
+      "link": "https://thehackernews.com/2026/01/n8n-supply-chain-attack-abuses.html",
+      "date": "2026-01-12T16:39:00Z",
+      "description": "Threat actors have been observed uploading a set of eight packages on the npm registry that masqueraded as integrations targeting the n8n workflow automation platform to steal developers' OAuth credentials. One such package, named \"n8n-nodes-hfgjf-irtuinvcm-lasdqewriit,\" mimics a Google Ads integration, and prompts users to link their advertising account in a seemingly legitimate form and then",
+      "source": "thehackernews.com"
     },
     {
       "title": "Hidden Telegram proxy links can reveal your IP address in one click",
@@ -59,39 +59,11 @@
       "source": "securityweek.com"
     },
     {
-      "title": "InvisibleJS Tool Hides Executable ES Modules in Empty Files Using Zero-Width Steganography",
-      "link": "https://cybersecuritynews.com/invisiblejs-tool/",
-      "date": "2026-01-12T14:59:07Z",
-      "description": "InvisibleJS, a new open-source tool that conceals JavaScript code using invisible zero-width Unicode characters, raises alarms about potential misuse in malware campaigns. InvisibleJS, hosted on GitHub by developer With alias oscarmine, employs steganography to embed source code into seemingly blank files. The process converts JavaScript into binary strings, mapping 0s to Zero Width Space…",
-      "source": "cybersecuritynews.com"
-    },
-    {
-      "title": "Prevent cloud data leaks with Microsoft 365 access reviews",
-      "link": "https://www.bleepingcomputer.com/news/security/prevent-cloud-data-leaks-with-microsoft-365-access-reviews/",
-      "date": "2026-01-12T14:45:00Z",
-      "description": "Microsoft 365 has made file sharing effortless, but that convenience often leaves organizations with little visibility into who can access sensitive data. Tenfold explains how access reviews for shared cloud content can help organizations regain visibility, reduce unnecessary permissions, and prevent data leaks in Microsoft 365. [...]",
-      "source": "bleepingcomputer.com"
-    },
-    {
       "title": "Instagram Fixes Password Reset Vulnerability Amid User Data Leak",
       "link": "https://www.securityweek.com/instagram-fixes-password-reset-vulnerability-amid-user-data-leak/",
       "date": "2026-01-12T14:13:24Z",
       "description": "The social media platform confirmed that the issue allowed third parties to send password reset emails to Instagram users. The post Instagram Fixes Password Reset Vulnerability Amid User Data Leak appeared first on SecurityWeek.",
       "source": "securityweek.com"
-    },
-    {
-      "title": "YARA-X 1.11.0 Released With a New Hash Function Warnings",
-      "link": "https://cybersecuritynews.com/yara-x-1-11-0-released/",
-      "date": "2026-01-12T13:54:41Z",
-      "description": "VirusTotal has released YARA-X version 1.11.0, introducing an important new feature designed to improve rule reliability and reduce false negatives in malware detection. The latest update introduces hash-function warnings that help security researchers catch common mistakes when writing YARA detection rules. YARA-X is a malware detection engine widely used by cybersecurity professionals to…",
-      "source": "cybersecuritynews.com"
-    },
-    {
-      "title": "Google Integrating Gemini With Gmail With New features",
-      "link": "https://cybersecuritynews.com/google-gemini-with-gmail/",
-      "date": "2026-01-12T13:48:39Z",
-      "description": "Google announced Monday it’s integrating its Gemini AI model into Gmail, introducing features that transform the email service into a proactive personal assistant for its 3 billion users. The company is launching AI Overviews, a feature that synthesizes long email threads into concise summaries of key points. Users can also ask their inbox natural-language questions, such […] The post Google…",
-      "source": "cybersecuritynews.com"
     },
     {
       "title": "⚡ Weekly Recap: AI Automation Exploits, Telecom Espionage, Prompt Poaching & More",
@@ -148,13 +120,6 @@
       "date": "2026-01-12T03:16:33Z",
       "description": "The post WAFs Wide Open: Critical OWASP CRS Flaw Bypasses Filters appeared first on Daily CyberSecurity.",
       "source": "securityonline.info"
-    },
-    {
-      "title": "MuddyWater Launches RustyWater RAT via Spear-Phishing Across Middle East Sectors",
-      "link": "https://thehackernews.com/2026/01/muddywater-launches-rustywater-rat-via.html",
-      "date": "2026-01-10T10:35:00Z",
-      "description": "The Iranian threat actor known as MuddyWater has been attributed to a spear-phishing campaign targeting diplomatic, maritime, financial, and telecom entities in the Middle East with a Rust-based implant codenamed RustyWater. \"The campaign uses icon spoofing and malicious Word documents to deliver Rust based implants capable of asynchronous C2, anti-analysis, registry persistence, and modular",
-      "source": "thehackernews.com"
     },
     {
       "title": "Deepfake Fraud Tools Are Lagging Behind Expectations",
