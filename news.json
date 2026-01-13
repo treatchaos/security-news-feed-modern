@@ -1,7 +1,28 @@
 {
-  "last_updated": "2026-01-13T08:17:44Z",
+  "last_updated": "2026-01-13T09:19:16Z",
   "count": 40,
   "items": [
+    {
+      "title": "CISA Warns of Gogs Path Traversal Vulnerability Exploited in Attacks",
+      "link": "https://cybersecuritynews.com/cisa-gogs-path-traversal-vulnerability/",
+      "date": "2026-01-13T08:55:14Z",
+      "description": "A critical warning about a path traversal vulnerability in Gogs, a self-hosted Git service, that is being actively exploited in the wild. The vulnerability, tracked as CVE-2025-8110, was added to CISA’s Known Exploited Vulnerabilities (KEV) catalog on January 12, 2026, signaling active exploitation by threat actors. CVE ID CVE-2025-8110 Vulnerability Type Path Traversal – Improper […] The post…",
+      "source": "cybersecuritynews.com"
+    },
+    {
+      "title": "DPRK’s Remote Workers Generating $600M Using Identity Theft to Gain Access to Sensitive Systems",
+      "link": "https://cybersecuritynews.com/dprks-remote-workers-generating-600m-using/",
+      "date": "2026-01-13T08:46:18Z",
+      "description": "The cybersecurity landscape has undergone a fundamental shift in recent years, as the definition of insider threats continues to evolve. For decades, organizations focused their security efforts on detecting disgruntled employees or negligent contractors who might compromise sensitive data. Today, the most dangerous insider threat is often an operative hired under false pretenses, working to […]…",
+      "source": "cybersecuritynews.com"
+    },
+    {
+      "title": "New Angular Vulnerability Enables an Attacker to Execute Malicious Payload",
+      "link": "https://cybersecuritynews.com/angular-vulnerability/",
+      "date": "2026-01-13T08:30:03Z",
+      "description": "A critical Cross-Site Scripting (XSS) vulnerability has been discovered in Angular’s Template Compiler, affecting multiple versions of both @angular/compiler and @angular/core packages. Tracked as CVE-2026-22610, this vulnerability allows attackers to bypass Angular’s built-in security protections and execute arbitrary JavaScript code within victim browsers. The Vulnerability The flaw exists in…",
+      "source": "cybersecuritynews.com"
+    },
     {
       "title": "Cyber Fraud Overtakes Ransomware as Top CEO Concern: WEF",
       "link": "https://www.securityweek.com/cyber-fraud-overtakes-ransomware-as-top-ceo-concern-wef/",
@@ -24,32 +45,11 @@
       "source": "cybersecuritynews.com"
     },
     {
-      "title": "AsyncRAT Leveraging Cloudflare’s Free-Tier Services to Mask Malicious Activities and Detection",
-      "link": "https://cybersecuritynews.com/asyncrat-leveraging-cloudflares-free-tier-services/",
-      "date": "2026-01-13T07:24:50Z",
-      "description": "A recent AsyncRAT campaign is using Cloudflare’s free tier services and TryCloudflare tunnels to hide remote access activity inside normal looking cloud traffic. In these attacks, threat actors send phishing emails that link to a Dropbox hosted ZIP archive named to look like an invoice in German, luring users into opening what appears to be […] The post AsyncRAT Leveraging Cloudflare’s Free-Tier…",
-      "source": "cybersecuritynews.com"
-    },
-    {
       "title": "CISA Warns of Active Exploitation of Gogs Vulnerability Enabling Code Execution",
       "link": "https://thehackernews.com/2026/01/cisa-warns-of-active-exploitation-of.html",
       "date": "2026-01-13T07:15:00Z",
       "description": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) has warned of active exploitation of a high-severity security flaw impacting Gogs by adding it to its Known Exploited Vulnerabilities (KEV) catalog. The vulnerability, tracked as CVE-2025-8110 (CVSS score: 8.7), relates to a case of path traversal in the repository file editor that could result in code execution. \"Gogs Path",
       "source": "thehackernews.com"
-    },
-    {
-      "title": "Multiple Hikvision Vulnerabilities Let Attackers Cause Device Malfunction Using Crafted Packets",
-      "link": "https://cybersecuritynews.com/multiple-hikvision-lan-vulnerabilities/",
-      "date": "2026-01-13T06:20:43Z",
-      "description": "Hikvision, a leading provider of surveillance and access control systems, faces serious security risks from two newly disclosed stack overflow vulnerabilities. These flaws, tracked as CVE-2025-66176 and CVE-2025-66177, allow attackers on the same local area network (LAN) to trigger device malfunctions by sending specially crafted packets. Both carry a high CVSS v3.1 base score of […] The post…",
-      "source": "cybersecuritynews.com"
-    },
-    {
-      "title": "Malicious Chrome Extension Steals Wallet Login Credentials and Enables Automated Trading",
-      "link": "https://cybersecuritynews.com/malicious-chrome-extension-steals-wallet-login-credentials/",
-      "date": "2026-01-13T06:15:27Z",
-      "description": "A malicious Chrome extension called MEXC API Automator is abusing trust in browser add-ons to steal cryptocurrency trading access from MEXC users. Posed as a tool that helps automate trading and API key creation, it quietly takes control of newly created API keys and turns a normal browser session into a full account takeover channel. […] The post Malicious Chrome Extension Steals Wallet Login…",
-      "source": "cybersecuritynews.com"
     },
     {
       "title": "Hikvision Security Cameras and Access Controls Hit by Stack Overflow Flaws",
