@@ -1,7 +1,49 @@
 {
-  "last_updated": "2026-01-13T17:18:57Z",
+  "last_updated": "2026-01-13T18:20:18Z",
   "count": 40,
   "items": [
+    {
+      "title": "Microsoft Patch Tuesday January 2026 – 114 Vulnerabilities Fixed Including 3 Zero-days",
+      "link": "https://cybersecuritynews.com/microsoft-patch-tuesday-january-2026/",
+      "date": "2026-01-13T18:10:06Z",
+      "description": "Microsoft’s January 2026 updates fix 114 vulnerabilities, with several remote code execution bugs rated critical across Office applications and Windows services such as LSASS. Vulnerability Type Count Remote Code Execution 22 Denial of Service 2 Elevation of Privilege 57 Information Disclosure 22 Security Feature Bypass 3 Spoofing 5 Tampering 3 Total 114 The release includes […] The post…",
+      "source": "cybersecuritynews.com"
+    },
+    {
+      "title": "FortiSandbox SSRF Vulnerability Allow Attacker to proxy Internal Traffic via Crafted HTTP Requests",
+      "link": "https://cybersecuritynews.com/fortisandbox-ssrf-vulnerability/",
+      "date": "2026-01-13T17:50:21Z",
+      "description": "Fortinet disclosed a Server-Side Request Forgery (SSRF) vulnerability in its FortiSandbox appliance on January 13, 2026, urging users to update amid risks of internal network proxied requests. Tracked as CVE-2025-67685 (FG-IR-25-783), the flaw resides in the GUI component and stems from CWE-918, enabling authenticated attackers to craft HTTP requests that proxy traffic to internal plaintext […]…",
+      "source": "cybersecuritynews.com"
+    },
+    {
+      "title": "Node.js Security Release Patches 7 Vulnerabilities Across All Release Lines",
+      "link": "https://cybersecuritynews.com/node-js-security-release/",
+      "date": "2026-01-13T17:37:41Z",
+      "description": "Node.js issued critical security updates across its active release lines on January 13, 2026, patching vulnerabilities that could lead to memory leaks, denial-of-service attacks, and permission bypasses. These releases address three high-severity flaws, among others, urging immediate upgrades for affected systems. High Severity Vulnerabilities High-severity issues dominate this release, with…",
+      "source": "cybersecuritynews.com"
+    },
+    {
+      "title": "Long-Running Web Skimming Campaign Steals Credit Cards From Online Checkout Pages",
+      "link": "https://thehackernews.com/2026/01/long-running-web-skimming-campaign.html",
+      "date": "2026-01-13T17:30:00Z",
+      "description": "Cybersecurity researchers have discovered a major web skimming campaign that has been active since January 2022, targeting several major payment networks like American Express, Diners Club, Discover, JCB Co., Ltd., Mastercard, and UnionPay. \"Enterprise organizations that are clients of these payment providers are the most likely to be impacted,\" Silent Push said in a report published today.",
+      "source": "thehackernews.com"
+    },
+    {
+      "title": "Malicious Chrome Extension Steals MEXC API Keys by Masquerading as Trading Tool",
+      "link": "https://thehackernews.com/2026/01/malicious-chrome-extension-steals-mexc.html",
+      "date": "2026-01-13T17:22:00Z",
+      "description": "Cybersecurity researchers have disclosed details of a malicious Google Chrome extension that's capable of stealing API keys associated with MEXC, a centralized cryptocurrency exchange (CEX) available in over 170 countries, while masquerading as a tool to automate trading on the platform. The extension, named MEXC API Automator (ID: pppdfgkfdemgfknfnhpkibbkabhghhfh), has 29 downloads and is still",
+      "source": "thehackernews.com"
+    },
+    {
+      "title": "GoBruteforcer Botnet Targeting Crypto, Blockchain Projects",
+      "link": "https://www.securityweek.com/gobruteforcer-botnet-targeting-crypto-blockchain-projects/",
+      "date": "2026-01-13T17:21:53Z",
+      "description": "The botnet’s propagation is fueled by the AI-generated server deployments that use weak credentials, and legacy web stacks. The post GoBruteforcer Botnet Targeting Crypto, Blockchain Projects appeared first on SecurityWeek.",
+      "source": "securityweek.com"
+    },
     {
       "title": "After Goldman, JPMorgan Discloses Law Firm Data Breach",
       "link": "https://www.securityweek.com/after-goldman-jpmorgan-discloses-law-firm-data-breach/",
@@ -38,13 +80,6 @@
       "source": "cybersecuritynews.com"
     },
     {
-      "title": "Multi-Stage Windows Malware Invokes PowerShell Downloader Using Text-based Payloads Using Remote Host",
-      "link": "https://cybersecuritynews.com/multi-stage-windows-malware-invokes-powershell-downloader/",
-      "date": "2026-01-13T15:54:39Z",
-      "description": "Security researchers have identified a sophisticated multi-stage Windows malware campaign called SHADOW#REACTOR that represents a significant evolution in delivery mechanisms for remote access tools. The campaign demonstrates how threat actors combine traditional scripting techniques with modern obfuscation methods to bypass security defenses. The infection begins with an obfuscated Visual Basic…",
-      "source": "cybersecuritynews.com"
-    },
-    {
       "title": "Convincing LinkedIn comment-reply tactic used in new phishing",
       "link": "https://www.bleepingcomputer.com/news/security/convincing-linkedin-comment-reply-tactic-used-in-new-phishing/",
       "date": "2026-01-13T15:45:00Z",
@@ -52,25 +87,11 @@
       "source": "bleepingcomputer.com"
     },
     {
-      "title": "HoneyTrap – A New LLM Defense Framework to Counter Jailbreak Attacks",
-      "link": "https://cybersecuritynews.com/honeytrap-a-new-llm-defense-framework/",
-      "date": "2026-01-13T15:28:28Z",
-      "description": "Large language models have become essential tools across industries, from healthcare to creative services, revolutionizing how humans interact with artificial intelligence. However, this rapid expansion has exposed significant security vulnerabilities. Jailbreak attacks—sophisticated techniques designed to bypass safety mechanisms—pose an escalating threat to the safe deployment of these…",
-      "source": "cybersecuritynews.com"
-    },
-    {
       "title": "Attackers Abuse Python, Cloudflare to Deliver AsyncRAT",
       "link": "https://www.darkreading.com/endpoint-security/attackers-abuse-python-cloudflare-deliver-asyncrat",
       "date": "2026-01-13T14:58:48Z",
       "description": "The phishing campaign shows how attackers continue to weaponize legitimate cloud services and open source tools to evade detection and gain trust.",
       "source": "darkreading.com"
-    },
-    {
-      "title": "Anthropic Unveils “Claude for Healthcare” to Help Users Understand Medical Records",
-      "link": "https://cybersecuritynews.com/anthropic-unveils-claude-for-healthcare/",
-      "date": "2026-01-13T14:34:08Z",
-      "description": "Anthropic has launched Claude for Healthcare, a new set of tools designed to help doctors, insurance companies, and patients use artificial intelligence for medical purposes while meeting strict privacy regulations. The announcement represents a significant expansion of Claude’s capabilities in the Healthcare and life sciences sectors. New Tools Connect to Medical Databases The platform…",
-      "source": "cybersecuritynews.com"
     },
     {
       "title": "Broadcom Wi-Fi Chipset Flaw Allows Hackers to Disrupt Networks",
@@ -112,27 +133,6 @@
       "link": "https://thehackernews.com/2026/01/what-should-we-learn-from-how-attackers.html",
       "date": "2026-01-13T11:55:00Z",
       "description": "Old Playbook, New Scale: While defenders are chasing trends, attackers are optimizing the basics The security industry loves talking about \"new\" threats. AI-powered attacks. Quantum-resistant encryption. Zero-trust architectures. But looking around, it seems like the most effective attacks in 2025 are pretty much the same as they were in 2015. Attackers are exploiting the same entry points that",
-      "source": "thehackernews.com"
-    },
-    {
-      "title": "Dutch Port Hacker Sentenced to Prison",
-      "link": "https://www.securityweek.com/dutch-port-hacker-sentenced-to-prison/",
-      "date": "2026-01-13T11:50:23Z",
-      "description": "The 44-year-old individual planted remote access malware on a logistics firm’s systems, with help from employees. The post Dutch Port Hacker Sentenced to Prison appeared first on SecurityWeek.",
-      "source": "securityweek.com"
-    },
-    {
-      "title": "ServiceNow Patches Critical AI Platform Flaw Allowing Unauthenticated User Impersonation",
-      "link": "https://thehackernews.com/2026/01/servicenow-patches-critical-ai-platform.html",
-      "date": "2026-01-13T11:47:00Z",
-      "description": "ServiceNow has disclosed details of a now-patched critical security flaw impacting its ServiceNow AI Platform that could enable an unauthenticated user to impersonate another user and perform arbitrary actions as that user. The vulnerability, tracked as CVE-2025-12420, carries a CVSS score of 9.3 out of 10.0 \"This issue [...] could enable an unauthenticated user to impersonate another user and",
-      "source": "thehackernews.com"
-    },
-    {
-      "title": "New Malware Campaign Delivers Remcos RAT Through Multi-Stage Windows Attack",
-      "link": "https://thehackernews.com/2026/01/new-malware-campaign-delivers-remcos.html",
-      "date": "2026-01-13T09:08:00Z",
-      "description": "Cybersecurity researchers have disclosed details of a new campaign dubbed SHADOW#REACTOR that employs an evasive multi-stage attack chain to deliver a commercially available remote administration tool called Remcos RAT and establish persistent, covert remote access. \"The infection chain follows a tightly orchestrated execution path: an obfuscated VBS launcher executed via wscript.exe invokes a",
       "source": "thehackernews.com"
     },
     {
