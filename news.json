@@ -1,7 +1,56 @@
 {
-  "last_updated": "2026-01-14T11:13:24Z",
+  "last_updated": "2026-01-14T12:24:35Z",
   "count": 40,
   "items": [
+    {
+      "title": "AuraAudit – Open-Source Tool for Salesforce Aura Framework Misconfiguration Analysis",
+      "link": "https://cybersecuritynews.com/aurainspector-audit-salesforce/",
+      "date": "2026-01-14T12:06:52Z",
+      "description": "Mandiant has released AuraInspector, an open-source command-line tool that helps security defenders identify and audit access-control misconfigurations in the Salesforce Aura framework. The tool addresses a critical security gap in Salesforce Experience Cloud deployments, where misconfigurations frequently expose sensitive data, including credit card numbers, identity documents, and health…",
+      "source": "cybersecuritynews.com"
+    },
+    {
+      "title": "Cloud marketplace Pax8 accidentally exposes data on 1,800 MSP partners",
+      "link": "https://www.bleepingcomputer.com/news/security/cloud-marketplace-pax8-accidentally-exposes-data-on-1-800-msp-partners/",
+      "date": "2026-01-14T12:01:07Z",
+      "description": "Cloud marketplace and distributor Pax8 has confirmed that it mistakenly sent an email to fewer than 40 UK-based partners containing a spreadsheet with internal business information, including MSP customer and Microsoft licensing data. [...]",
+      "source": "bleepingcomputer.com"
+    },
+    {
+      "title": "Fortinet Fixes Critical FortiSIEM Flaw Allowing Unauthenticated Remote Code Execution",
+      "link": "https://thehackernews.com/2026/01/fortinet-fixes-critical-fortisiem-flaw.html",
+      "date": "2026-01-14T11:53:00Z",
+      "description": "Fortinet has released updates to fix a critical security flaw impacting FortiSIEM that could allow an unauthenticated attacker to achieve code execution on susceptible instances. The operating system (OS) injection vulnerability, tracked as CVE-2025-64155, is rated 9.4 out of 10.0 on the CVSS scoring system. \"An improper neutralization of special elements used in an OS command ('OS command",
+      "source": "thehackernews.com"
+    },
+    {
+      "title": "WitnessAI Raises $58 Million for AI Security Platform",
+      "link": "https://www.securityweek.com/witnessai-raises-58-million-for-ai-security-platform/",
+      "date": "2026-01-14T11:49:40Z",
+      "description": "The company will use the fresh investment to accelerate its global go-to-market and product expansion. The post WitnessAI Raises $58 Million for AI Security Platform appeared first on SecurityWeek.",
+      "source": "securityweek.com"
+    },
+    {
+      "title": "Victorian Department of Education says hackers stole students’ data",
+      "link": "https://www.bleepingcomputer.com/news/security/victorian-department-of-education-notifies-parents-of-data-breach/",
+      "date": "2026-01-14T11:44:56Z",
+      "description": "The Department of Education in Victoria, Australia, notified parents that attackers gained access to a database containing the personal information of current and former students. [...]",
+      "source": "bleepingcomputer.com"
+    },
+    {
+      "title": "Researchers Proposed Game-Theoretic AI for Guiding Attack and Defense",
+      "link": "https://cybersecuritynews.com/researchers-proposed-game-theoretic-ai/",
+      "date": "2026-01-14T11:24:52Z",
+      "description": "Researchers from Alias Robotics and Johannes Kepler University Linz have unveiled a groundbreaking approach to automated penetration testing that combines artificial intelligence with game theory. Led by Víctor Mayoral-Vilches, Mara Sanz-Gómez, Francesco Balassone, Stefan Rass, and their collaborators, the team introduced Generative Cut-the-Rope (G-CTR), a system designed to guide both attackers…",
+      "source": "cybersecuritynews.com"
+    },
+    {
+      "title": "Critical FortiSIEM Vulnerability Lets Attackers Run Arbitrary Commands via TCP Packets",
+      "link": "https://cybersecuritynews.com/fortisiem-vulnerability/",
+      "date": "2026-01-14T11:17:58Z",
+      "description": "Fortinet disclosed a critical OS command injection vulnerability in FortiSIEM on January 13, 2026, warning users of a high-risk flaw that lets unauthenticated attackers execute arbitrary code. Tracked as CVE-2025-64155, the issue stems from improper neutralization of special elements in OS commands (CWE-78) within the phMonitor component on port 7900. Attackers can craft malicious TCP […] The…",
+      "source": "cybersecuritynews.com"
+    },
     {
       "title": "Betterment Confirms that Hackers Gained Access to Internal Systems",
       "link": "https://cybersecuritynews.com/betterment-confirms-hackers-access/",
@@ -28,20 +77,6 @@
       "link": "https://cybersecuritynews.com/android-bug-impacts-volume-buttons-function/",
       "date": "2026-01-14T10:24:31Z",
       "description": "Google has identified a critical bug affecting Android devices where the volume buttons malfunction when the Select to Speak accessibility feature is enabled. The issue causes volume keys to adjust accessibility volume rather than media volume. It prevents photo capture when volume buttons are pressed during photography. Users with Select to Speak enabled, an accessibility […] The post New…",
-      "source": "cybersecuritynews.com"
-    },
-    {
-      "title": "Spring CLI Tool Vulnerability Enables Command Execution on the Users Machine",
-      "link": "https://cybersecuritynews.com/spring-cli-tool-vulnerability/",
-      "date": "2026-01-14T10:21:54Z",
-      "description": "A command injection vulnerability in the Spring CLI VSCode extension poses a security risk to developers still using the outdated tool. The flaw, tracked as CVE-2026-22718, enables attackers to execute arbitrary commands on affected machines, resulting in a medium-severity impact. The vulnerability affects Spring CLI VSCode Extension version 0.9.0 and earlier. Despite reaching end-of-life on […]…",
-      "source": "cybersecuritynews.com"
-    },
-    {
-      "title": "Elastic Patches Multiple Vulnerabilities That Enables Arbitrary File Theft and DoS Attacks",
-      "link": "https://cybersecuritynews.com/elastic-patches-multiple-vulnerabilities/",
-      "date": "2026-01-14T10:19:59Z",
-      "description": "Elastic has released critical security updates addressing four significant vulnerabilities across its stack, including a high-severity flaw that permits arbitrary file disclosure through compromised connector configurations. The patches resolve issues affecting file handling, input validation, and resource allocation mechanisms in Kibana and related components. The most severe vulnerability…",
       "source": "cybersecuritynews.com"
     },
     {
@@ -85,13 +120,6 @@
       "date": "2026-01-14T09:21:18Z",
       "description": "The post Details Exposed: High-Severity Aruba VIA Root Flaw Publicly Disclosed appeared first on Daily CyberSecurity.",
       "source": "securityonline.info"
-    },
-    {
-      "title": "New Magecart Attack Steals Customers Credit Cards from Website Checkout Pages",
-      "link": "https://cybersecuritynews.com/new-magecart-attack-steals-customers-credit-cards/",
-      "date": "2026-01-14T09:18:19Z",
-      "description": "A sophisticated web-skimming campaign targeting online shoppers has emerged with renewed intensity in 2026, compromising e-commerce websites and extracting sensitive payment information during checkout processes. The attack, identified as part of the broader Magecart family of threats, represents an evolving challenge to online retail security. Threat researchers have documented extensive…",
-      "source": "cybersecuritynews.com"
     },
     {
       "title": "Monroe University says 2024 data breach affects 320,000 people",
@@ -143,13 +171,6 @@
       "source": "bleepingcomputer.com"
     },
     {
-      "title": "New VoidLink malware framework targets Linux cloud servers",
-      "link": "https://www.bleepingcomputer.com/news/security/new-voidlink-malware-framework-targets-linux-cloud-servers/",
-      "date": "2026-01-13T22:12:20Z",
-      "description": "A newly discovered advanced cloud-native Linux malware framework named VoidLink focuses on cloud environments, providing attackers with custom loaders, implants, rootkits, and plugins designed for modern infrastructures. [...]",
-      "source": "bleepingcomputer.com"
-    },
-    {
       "title": "'Most Severe AI Vulnerability to Date' Hits ServiceNow",
       "link": "https://www.darkreading.com/remote-workforce/ai-vulnerability-servicenow",
       "date": "2026-01-13T21:44:48Z",
@@ -171,32 +192,11 @@
       "source": "securityweek.com"
     },
     {
-      "title": "CrowdStrike to Acquire Browser Security Firm Seraphic for $420 Million",
-      "link": "https://www.securityweek.com/crowdstrike-to-acquire-browser-security-firm-seraphic-for-420-million/",
-      "date": "2026-01-13T20:42:29Z",
-      "description": "News of the move to acquire Seraphic comes less than a week after CrowdStrike announced an agreement to acquire identity security startup SGNL for $740 million. The post CrowdStrike to Acquire Browser Security Firm Seraphic for $420 Million appeared first on SecurityWeek.",
-      "source": "securityweek.com"
-    },
-    {
-      "title": "Central Maine Healthcare breach exposed data of over 145,000 people",
-      "link": "https://www.bleepingcomputer.com/news/security/central-maine-healthcare-breach-exposed-data-of-over-145-000-people/",
-      "date": "2026-01-13T20:32:29Z",
-      "description": "A data breach last year at Central Maine Healthcare (CMH) exposed sensitive information of more than 145,000 individuals. [...]",
-      "source": "bleepingcomputer.com"
-    },
-    {
       "title": "Shadow#Reactor Uses Text Files to Deliver Remcos RAT",
       "link": "https://www.darkreading.com/endpoint-security/shadow-reactor-uses-text-files-to-deliver-remcos-rat",
       "date": "2026-01-13T17:46:57Z",
       "description": "Attackers use a sophisticated delivery mechanism of text-only files for RAT deployment, showcasing a clever way to bypass defensive tools and rely on the target's own utilities.",
       "source": "darkreading.com"
-    },
-    {
-      "title": "Long-Running Web Skimming Campaign Steals Credit Cards From Online Checkout Pages",
-      "link": "https://thehackernews.com/2026/01/long-running-web-skimming-campaign.html",
-      "date": "2026-01-13T17:30:00Z",
-      "description": "Cybersecurity researchers have discovered a major web skimming campaign that has been active since January 2022, targeting several major payment networks like American Express, Diners Club, Discover, JCB Co., Ltd., Mastercard, and UnionPay. \"Enterprise organizations that are clients of these payment providers are the most likely to be impacted,\" Silent Push said in a report published today.",
-      "source": "thehackernews.com"
     },
     {
       "title": "ZDI-CAN-28892: Linux",
