@@ -1,7 +1,17 @@
 {
   "date": "2026-01-15",
-  "count": 1,
+  "count": 5,
   "items": [
+    {
+      "id": "fc52a37905d6f015d7ce66c69be5a1a1bda31d8e",
+      "title": "Palo Alto Networks Firewall Vulnerability Allows Attackers to Trigger Denial of Service",
+      "link": "https://cybersecuritynews.com/palo-alto-networks-firewall-dos-vulnerability/",
+      "date": "2026-01-15T04:01:41Z",
+      "description": "Palo Alto Networks has patched a critical denial-of-service vulnerability in its PAN-OS firewall software, tracked as CVE-2026-0227, which lets unauthenticated attackers disrupt GlobalProtect gateways and portals. The flaw carries a CVSS v4.0 base score of 7.7 (HIGH severity), stemming from improper checks for unusual conditions that force firewalls into maintenance mode after repeated…",
+      "source": "cybersecuritynews.com",
+      "first_seen": "2026-01-15T05:18:58Z",
+      "last_seen": "2026-01-15T05:18:58Z"
+    },
     {
       "id": "72750e90f4000572e367a60b6dffc044fdba2c8b",
       "title": "Microsoft SQL Server Vulnerability Allows Attackers to Elevate Privileges over a Network",
@@ -10,7 +20,37 @@
       "description": "Microsoft released security updates on January 13, 2026, addressing a critical elevation of privilege vulnerability in SQL Server that enables authorized attackers to bypass authentication controls and gain elevated system privileges remotely. Tracked as CVE-2026-20803, the vulnerability stems from missing authentication mechanisms for critical functions within the database engine. The flaw…",
       "source": "cybersecuritynews.com",
       "first_seen": "2026-01-15T04:00:48Z",
-      "last_seen": "2026-01-15T04:00:48Z"
+      "last_seen": "2026-01-15T05:18:58Z"
+    },
+    {
+      "id": "410d2e416d2584af16f2ab59e858ddca70a67a56",
+      "title": "ChatGPT's upcoming cross-platform feature is codenamed \"Agora\"",
+      "link": "https://www.bleepingcomputer.com/news/artificial-intelligence/chatgpts-upcoming-cross-platform-feature-is-codenamed-agora/",
+      "date": "2026-01-15T03:00:00Z",
+      "description": "OpenAI is internally testing a new feature called \"Agora,\" and it could be related to some sort of cross-platform feature that works in real time or some other new product. [...]",
+      "source": "bleepingcomputer.com",
+      "first_seen": "2026-01-15T05:18:58Z",
+      "last_seen": "2026-01-15T05:18:58Z"
+    },
+    {
+      "id": "eea51472f71453b982fc965ec2a09da0f398b6a4",
+      "title": "Google plans to make Chrome for Android an agentic browser with Gemini",
+      "link": "https://www.bleepingcomputer.com/news/artificial-intelligence/google-plans-to-make-chrome-for-android-an-agentic-browser-with-gemini/",
+      "date": "2026-01-15T01:30:00Z",
+      "description": "Google appears to be testing a new feature that integrates Gemini into Chrome for Android, allowing you to use agentic browser capabilities on your mobile device. [...]",
+      "source": "bleepingcomputer.com",
+      "first_seen": "2026-01-15T05:18:58Z",
+      "last_seen": "2026-01-15T05:18:58Z"
+    },
+    {
+      "id": "6c47d7d4ed29f728ba6e2afc39c3c4b3f10a23f7",
+      "title": "Google's Personal Intelligence links Gmail, Photos and Search to Gemini",
+      "link": "https://www.bleepingcomputer.com/news/artificial-intelligence/googles-personal-intelligence-links-gmail-photos-and-search-to-gemini/",
+      "date": "2026-01-15T00:00:00Z",
+      "description": "Google is rolling out 'Personal Intelligence,' a new Gemini feature that pulls your data from Gmail, Photos, Google Search, and other products. [...]",
+      "source": "bleepingcomputer.com",
+      "first_seen": "2026-01-15T05:18:58Z",
+      "last_seen": "2026-01-15T05:18:58Z"
     }
   ]
 }
