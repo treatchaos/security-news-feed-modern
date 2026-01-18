@@ -1,7 +1,14 @@
 {
-  "last_updated": "2026-01-18T04:34:22Z",
-  "count": 35,
+  "last_updated": "2026-01-18T05:16:20Z",
+  "count": 40,
   "items": [
+    {
+      "title": "Mandiant Releases Rainbow Tables Enabling NTLMv1 Admin Password Hacking",
+      "link": "https://cybersecuritynews.com/rainbow-tables-enabling-ntlmv1-hack/",
+      "date": "2026-01-18T03:57:45Z",
+      "description": "Google-owned Mandiant has publicly released a comprehensive dataset of Net-NTLMv1 rainbow tables, marking a significant escalation in demonstrating the security risks of legacy authentication protocols. The release underscores an urgent message: organizations must immediately migrate away from Net-NTLMv1, a deprecated protocol that has been cryptographically broken since 1999 and widely known to…",
+      "source": "cybersecuritynews.com"
+    },
     {
       "title": "Google Chrome now lets you turn off on-device AI model powering scam detection",
       "link": "https://www.bleepingcomputer.com/news/artificial-intelligence/google-chrome-now-lets-you-turn-off-on-device-ai-model-powering-scam-detection/",
@@ -24,11 +31,32 @@
       "source": "bleepingcomputer.com"
     },
     {
+      "title": "Let’s Encrypt has made 6-day IP-based TLS certificates Generally Available",
+      "link": "https://cybersecuritynews.com/lets-encrypt-6-day-tls-certificates/",
+      "date": "2026-01-17T16:17:54Z",
+      "description": "Let’s Encrypt, a key provider of free TLS certificates, has rolled out short-lived and IP address-based certificates for general use. These new options became available starting in early 2026, addressing long-standing issues in certificate security. Short-lived certificates last just 160 hours, about six and a half days, while IP-based ones tie directly to IP addresses […] The post Let’s Encrypt…",
+      "source": "cybersecuritynews.com"
+    },
+    {
       "title": "Malicious GhostPoster browser extensions found with 840,000 installs",
       "link": "https://www.bleepingcomputer.com/news/security/malicious-ghostposter-browser-extensions-found-with-840-000-installs/",
       "date": "2026-01-17T15:23:34Z",
       "description": "Another set of 17 malicious extensions linked to the GhostPoster campaign has been discovered in Chrome, Firefox, and Edge stores, where they accumulated a total of 840,000 installations. [...]",
       "source": "bleepingcomputer.com"
+    },
+    {
+      "title": "Argus – Python-powered Toolkit for Information Gathering and Reconnaissance",
+      "link": "https://cybersecuritynews.com/argus-python-toolkit/",
+      "date": "2026-01-17T11:29:57Z",
+      "description": "Argus is a comprehensive Python-based toolkit designed for reconnaissance tasks in cybersecurity. The developers recently released version 2.0, expanding it to include 135 modules. This tool consolidates network analysis, web app scanning, and threat intelligence into one interface. Users access modules through an interactive CLI that supports searching, favorites, and batch runs. Network and…",
+      "source": "cybersecuritynews.com"
+    },
+    {
+      "title": "Google’s Vertex AI Vulnerability Enables Low-Privileged Users to Gain Service Agent Roles",
+      "link": "https://cybersecuritynews.com/google-vertex-ai-vulnerability/",
+      "date": "2026-01-17T11:14:19Z",
+      "description": "Google’s Vertex AI contains default configurations that allow low-privileged users to escalate privileges by hijacking Service Agent roles. XM Cyber researchers identified two attack vectors in the Vertex AI Agent Engine and Ray on Vertex AI, which Google deemed “working as intended. Service Agents are managed identities that Google Cloud attaches to Vertex AI instances […] The post Google’s…",
+      "source": "cybersecuritynews.com"
     },
     {
       "title": "Tennessee Man Pleads Guilty to Repeatedly Hacking Supreme Court’s Filing System",
@@ -43,6 +71,13 @@
       "date": "2026-01-17T08:34:00Z",
       "description": "OpenAI on Friday said it would start showing ads in ChatGPT to logged-in adult U.S. users in both the free and ChatGPT Go tiers in the coming weeks, as the artificial intelligence (AI) company expanded access to its low-cost subscription globally. \"You need to know that your data and conversations are protected and never sold to advertisers,\" OpenAI said. \"And we need to keep a high bar and give",
       "source": "thehackernews.com"
+    },
+    {
+      "title": "Researchers Gain Access to StealC Malware Command-and-Control Systems",
+      "link": "https://cybersecuritynews.com/researchers-gain-access-to-stealc-malware-command-and-control-systems/",
+      "date": "2026-01-17T05:53:52Z",
+      "description": "Security researchers successfully exploited vulnerabilities in the StealC malware infrastructure, gaining access to operator control panels and exposing a threat actor’s identity through their own stolen session cookies. The breach highlights critical security failures in criminal operations built around credential theft. XSS Vulnerability Exposes StealC Operators StealC, an information-stealing…",
+      "source": "cybersecuritynews.com"
     },
     {
       "title": "ChatGPT Go subscription rolls out worldwide at $8, but it'll show you ads",
