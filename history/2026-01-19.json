@@ -1,7 +1,57 @@
 {
   "date": "2026-01-19",
-  "count": 4,
+  "count": 9,
   "items": [
+    {
+      "id": "f28c03540e51f1bd2819a6b19c04e7e9f2840460",
+      "title": "CrashFix – Hackers Using Malicious Extensions to Display Fake Browser Warnings",
+      "link": "https://cybersecuritynews.com/crashfix-hackers-using-malicious-extensions/",
+      "date": "2026-01-19T08:13:02Z",
+      "description": "Cybersecurity researchers have discovered a sophisticated malware campaign using an unusual but effective tactic: deliberately crashing users’ browsers. The threat, named CrashFix, operates through a malicious Chrome extension disguised as the legitimate ad blocker NexShield. When users search for privacy tools online, malicious advertisements direct them to download what appears to be a…",
+      "source": "cybersecuritynews.com",
+      "first_seen": "2026-01-19T08:20:13Z",
+      "last_seen": "2026-01-19T08:20:13Z"
+    },
+    {
+      "id": "07cce75fb4e31d92e2377f91a4ddd3a8cbc3f756",
+      "title": "Redmi Buds Vulnerability Allow Attackers Access Call Data and Trigger Firmware Crashes",
+      "link": "https://cybersecuritynews.com/redmi-buds-vulnerability/",
+      "date": "2026-01-19T07:55:20Z",
+      "description": "Security researchers have uncovered significant vulnerabilities in the firmware of Xiaomi’s popular Redmi Buds series, specifically affecting models ranging from the Redmi Buds 3 Pro up to the latest Redmi Buds 6 Pro. The discovery highlights critical flaws in the Bluetooth implementation of these devices, allowing attackers to access sensitive information or force the devices […] The post Redmi…",
+      "source": "cybersecuritynews.com",
+      "first_seen": "2026-01-19T08:20:13Z",
+      "last_seen": "2026-01-19T08:20:13Z"
+    },
+    {
+      "id": "94e1623867d999c48260135b26cd8989176506a8",
+      "title": "PoC Exploit Released: Failed Windows Patch Leaks Kernel Secrets",
+      "link": "https://securityonline.info/poc-exploit-released-failed-windows-patch-leaks-kernel-secrets/",
+      "date": "2026-01-19T07:54:47Z",
+      "description": "The post PoC Exploit Released: Failed Windows Patch Leaks Kernel Secrets appeared first on Daily CyberSecurity.",
+      "source": "securityonline.info",
+      "first_seen": "2026-01-19T08:20:13Z",
+      "last_seen": "2026-01-19T08:20:13Z"
+    },
+    {
+      "id": "611d55559f54980645f4752c075999404b5815e0",
+      "title": "17 New Malicious Chrome GhostPoster Extensions with 840,000+ Installs Steals User Data",
+      "link": "https://cybersecuritynews.com/17-new-malicious-chrome-ghostposter-extensions/",
+      "date": "2026-01-19T07:41:14Z",
+      "description": "Cybercriminals have distributed 17 malicious browser extensions across Chrome, Firefox, and Edge platforms, collectively downloading over 840,000 times and compromising user security for years. The GhostPoster campaign, which emerged as early as 2020, used deceptive extension names like “Google Translate in Right Click,” “Youtube Download,” and “Ads Block Ultimate” to appear legitimate while…",
+      "source": "cybersecuritynews.com",
+      "first_seen": "2026-01-19T08:20:13Z",
+      "last_seen": "2026-01-19T08:20:13Z"
+    },
+    {
+      "id": "f3d906088546ae7d739fb2d2fe08999d04803fbd",
+      "title": "New Kerberos Relay Attack Uses DNS CNAME to Bypass Mitigations – PoC Released",
+      "link": "https://cybersecuritynews.com/kerberos-relay-attack-uses-dns-cname/",
+      "date": "2026-01-19T07:27:09Z",
+      "description": "A critical flaw in Windows Kerberos authentication that significantly expands the attack surface for credential relay attacks in Active Directory environments. By abusing how Windows clients handle DNS CNAME responses during Kerberos service ticket requests, attackers can coerce systems into requesting tickets for attacker-controlled services, bypassing traditional protections. The Attack Vector…",
+      "source": "cybersecuritynews.com",
+      "first_seen": "2026-01-19T08:20:13Z",
+      "last_seen": "2026-01-19T08:20:13Z"
+    },
     {
       "id": "e93446730d7d508fc88523f8afb21fb34a6261fb",
       "title": "Security Bug in StealC Malware Panel Let Researchers Spy on Threat Actor Operations",
@@ -10,7 +60,7 @@
       "description": "Cybersecurity researchers have disclosed a cross-site scripting (XSS) vulnerability in the web-based control panel used by operators of the StealC information stealer, allowing them to gather crucial insights on one of the threat actors using the malware in their operations. \"By exploiting it, we were able to collect system fingerprints, monitor active sessions, and – in a twist that will",
       "source": "thehackernews.com",
       "first_seen": "2026-01-19T07:21:48Z",
-      "last_seen": "2026-01-19T07:21:48Z"
+      "last_seen": "2026-01-19T08:20:13Z"
     },
     {
       "id": "aa825c08b7079cc3f23acb32e01660f7ec0ac5b6",
@@ -20,7 +70,7 @@
       "description": "A critical vulnerability in ServiceNow’s Virtual Agent API and the Now Assist AI Agents application has been discovered, allowing unauthenticated attackers to impersonate any user and execute privileged AI agents remotely. Security researcher Aaron Costello from AppOmni disclosed the flaw, tracked as CVE-2025-12420, which combines a hardcoded platform-wide secret with insecure account-linking…",
       "source": "cybersecuritynews.com",
       "first_seen": "2026-01-19T06:24:07Z",
-      "last_seen": "2026-01-19T07:21:48Z"
+      "last_seen": "2026-01-19T08:20:13Z"
     },
     {
       "id": "007a785c58f439aa71740ba30c179c7eb45dc778",
@@ -30,7 +80,7 @@
       "description": "OpenAI is internally testing a new update for ChatGPT, at least on the web. It'll begin rolling out in the coming weeks. [...]",
       "source": "bleepingcomputer.com",
       "first_seen": "2026-01-19T01:02:02Z",
-      "last_seen": "2026-01-19T07:21:48Z"
+      "last_seen": "2026-01-19T08:20:13Z"
     },
     {
       "id": "b8cf5b19f16036e7fb81ed389727068e0cc1e1f0",
@@ -40,7 +90,7 @@
       "description": "The post Invisible Intruder: Fileless Remcos RAT Hides in Shipping Emails appeared first on Daily CyberSecurity.",
       "source": "securityonline.info",
       "first_seen": "2026-01-19T01:02:02Z",
-      "last_seen": "2026-01-19T07:21:48Z"
+      "last_seen": "2026-01-19T08:20:13Z"
     }
   ]
 }
