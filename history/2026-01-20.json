@@ -1,7 +1,47 @@
 {
   "date": "2026-01-20",
-  "count": 17,
+  "count": 23,
   "items": [
+    {
+      "id": "198e003d02310feb919764351d37257cbedd7574",
+      "title": "TP-Link Vulnerability Allows Authentication Bypass Via Password Recovery Feature",
+      "link": "https://cybersecuritynews.com/tp-link-vulnerability/",
+      "date": "2026-01-20T13:24:33Z",
+      "description": "A critical authentication vulnerability affecting TP-Link’s VIGI surveillance camera lineup has been disclosed, enabling attackers on local networks to reset administrative credentials without authorization. Tracked as CVE-2026-0629, the flaw resides in the camera’s web interface password recovery function and carries a CVSS v4.0 score of 8.7, indicating high severity. The authentication bypass…",
+      "source": "cybersecuritynews.com",
+      "first_seen": "2026-01-20T13:39:19Z",
+      "last_seen": "2026-01-20T13:39:19Z"
+    },
+    {
+      "id": "3c7bcf4838b53b966629a19abf7d33fac3b930fd",
+      "title": "Open Source Firewall OPNsense 25.7.11 Released With Host Discovery Service",
+      "link": "https://cybersecuritynews.com/opnsense-firewall-25-7-11-released/",
+      "date": "2026-01-20T13:21:19Z",
+      "description": "The popular open-source firewall and routing platform built on FreeBSD, released version 25.7.11 on January 15, 2026, bringing significant improvements, including a new host discovery service designed to enhance network management capabilities. The release marks an essential incremental update that strengthens both IPv4 and IPv6 functionality while preparing infrastructure for the upcoming major…",
+      "source": "cybersecuritynews.com",
+      "first_seen": "2026-01-20T13:39:19Z",
+      "last_seen": "2026-01-20T13:39:19Z"
+    },
+    {
+      "id": "494bf86090c78589860cef486e5261aba46eac80",
+      "title": "Webinar: Why execs don’t buy SOC teams the tools they need",
+      "link": "https://www.bleepingcomputer.com/news/security/webinar-why-execs-dont-buy-soc-teams-the-tools-they-need/",
+      "date": "2026-01-20T13:15:23Z",
+      "description": "Many security teams are forced to defend environments using tools they didn't choose. This webinar explores how SOC teams can overcome alert fatigue, platform gaps, and AI hype to get real results from the tools they already have. [...]",
+      "source": "bleepingcomputer.com",
+      "first_seen": "2026-01-20T13:39:19Z",
+      "last_seen": "2026-01-20T13:39:19Z"
+    },
+    {
+      "id": "9b11ead5c8eb21cc57d37cd6b304176dd00bd4a8",
+      "title": "Raaga Data Breach Exposes 10.2 Million User Records",
+      "link": "https://cybersecuritynews.com/raaga-data-breach/",
+      "date": "2026-01-20T13:06:08Z",
+      "description": "Indian music streaming platform Raaga suffered a significant data breach in December 2025, compromising the personal information of 10.2 million users. The stolen database was subsequently offered for sale on a prominent underground hacking forum, raising serious concerns about user privacy and platform security. According to HIBP, the breach was detected when threat actors posted […] The post…",
+      "source": "cybersecuritynews.com",
+      "first_seen": "2026-01-20T13:39:19Z",
+      "last_seen": "2026-01-20T13:39:19Z"
+    },
     {
       "id": "9985d38ed3ed617ab852cfb5621424df7d4c1637",
       "title": "APT-Grade PDFSider Malware Used by Ransomware Groups",
@@ -10,7 +50,27 @@
       "description": "Providing cyberespionage and remote code execution capabilities, the malware is executed via DLL sideloading. The post APT-Grade PDFSider Malware Used by Ransomware Groups appeared first on SecurityWeek.",
       "source": "securityweek.com",
       "first_seen": "2026-01-20T12:26:27Z",
-      "last_seen": "2026-01-20T12:26:27Z"
+      "last_seen": "2026-01-20T13:39:19Z"
+    },
+    {
+      "id": "4bb2096449ec8772b20fd37549124db08b379424",
+      "title": "The Hidden Risk of Orphan Accounts",
+      "link": "https://thehackernews.com/2026/01/the-hidden-risk-of-orphan-accounts.html",
+      "date": "2026-01-20T11:58:00Z",
+      "description": "The Problem: The Identities Left Behind As organizations grow and evolve, employees, contractors, services, and systems come and go - but their accounts often remain. These abandoned or “orphan” accounts sit dormant across applications, platforms, assets, and cloud consoles. The reason they persist isn’t negligence - it’s fragmentation. Traditional IAM and IGA systems are designed",
+      "source": "thehackernews.com",
+      "first_seen": "2026-01-20T13:39:19Z",
+      "last_seen": "2026-01-20T13:39:19Z"
+    },
+    {
+      "id": "bc9c6d1af28c731c1c4773e1dec731da52b44142",
+      "title": "Evelyn Stealer Malware Abuses VS Code Extensions to Steal Developer Credentials and Crypto",
+      "link": "https://thehackernews.com/2026/01/evelyn-stealer-malware-abuses-vs-code.html",
+      "date": "2026-01-20T11:48:00Z",
+      "description": "Cybersecurity researchers have disclosed details of a malware campaign that's targeting software developers with a new information stealer called Evelyn Stealer by weaponizing the Microsoft Visual Studio Code (VS Code) extension ecosystem. \"The malware is designed to exfiltrate sensitive information, including developer credentials and cryptocurrency-related data. Compromised developer",
+      "source": "thehackernews.com",
+      "first_seen": "2026-01-20T13:39:19Z",
+      "last_seen": "2026-01-20T13:39:19Z"
     },
     {
       "id": "78056953b18fa84c56a62adaf22cc23ebbf02cfc",
@@ -20,7 +80,7 @@
       "description": "Cloudflare has addressed a security vulnerability impacting its Automatic Certificate Management Environment (ACME) validation logic that made it possible to bypass security controls and access origin servers. \"The vulnerability was rooted in how our edge network processed requests destined for the ACME HTTP-01 challenge path (/.well-known/acme-challenge/*),\" the web infrastructure",
       "source": "thehackernews.com",
       "first_seen": "2026-01-20T12:26:27Z",
-      "last_seen": "2026-01-20T12:26:27Z"
+      "last_seen": "2026-01-20T13:39:19Z"
     },
     {
       "id": "fa13ef81f51c80ac891a6c483ed7a02d8c95d14a",
@@ -30,7 +90,7 @@
       "description": "A simple payload allowed attackers to create a new event leaking summaries of the victim’s private meetings. The post Weaponized Invite Enabled Calendar Data Theft via Google Gemini appeared first on SecurityWeek.",
       "source": "securityweek.com",
       "first_seen": "2026-01-20T11:16:05Z",
-      "last_seen": "2026-01-20T12:26:27Z"
+      "last_seen": "2026-01-20T13:39:19Z"
     },
     {
       "id": "1816929dc3030578897be4b0c65b84365b488b24",
@@ -40,7 +100,7 @@
       "description": "VoidLink emerges as a significant threat to Linux cloud environments, representing a major shift in how rootkits are designed and deployed. This Chinese-developed malware framework was first discovered by Check Point Research on January 13, 2026, marking the beginning of a new era in Linux-targeted attacks. Unlike traditional rootkits that struggle with portability across different […] The post…",
       "source": "cybersecuritynews.com",
       "first_seen": "2026-01-20T11:16:05Z",
-      "last_seen": "2026-01-20T12:26:27Z"
+      "last_seen": "2026-01-20T13:39:19Z"
     },
     {
       "id": "592fff9279d77650d7ec1c15807eec3866f742bb",
@@ -50,7 +110,7 @@
       "description": "Leaked API keys are no longer unusual, nor are the breaches that follow. So why are sensitive tokens still being so easily exposed? To find out, Intruder’s research team looked at what traditional vulnerability scanners actually cover and built a new secrets detection method to address gaps in existing approaches. Applying this at scale by scanning 5 million applications revealed over",
       "source": "thehackernews.com",
       "first_seen": "2026-01-20T12:26:27Z",
-      "last_seen": "2026-01-20T12:26:27Z"
+      "last_seen": "2026-01-20T13:39:19Z"
     },
     {
       "id": "4d40d01a1123230e3e2c9b455d7a063ff8c83cb1",
@@ -60,7 +120,7 @@
       "description": "A new clipboard hijacker is quietly draining cryptocurrency from gamers and streamers by abusing trust inside Discord communities. The campaign centers on a malicious Windows program shared as a supposed streaming or security tool. Once installed, it silently watches the user’s clipboard, waiting for the moment they copy a crypto wallet address. When the victim […] The post Attackers Abuse…",
       "source": "cybersecuritynews.com",
       "first_seen": "2026-01-20T10:17:43Z",
-      "last_seen": "2026-01-20T12:26:27Z"
+      "last_seen": "2026-01-20T13:39:19Z"
     },
     {
       "id": "ec410ee1f3585243f2f6fc2d3285583fe7b4de71",
@@ -90,7 +150,7 @@
       "description": "A Telegram-based guarantee marketplace known for advertising a broad range of illicit services appears to be winding down its operations, according to new findings from Elliptic. The blockchain intelligence company said Tudou Guarantee has effectively ceased transactions through its public Telegram groups following a period of significant growth. The marketplace is estimated to have processed",
       "source": "thehackernews.com",
       "first_seen": "2026-01-20T09:23:59Z",
-      "last_seen": "2026-01-20T12:26:27Z"
+      "last_seen": "2026-01-20T13:39:19Z"
     },
     {
       "id": "44411d1a557ee741da7b7bf737ca5b2aac274848",
@@ -160,7 +220,7 @@
       "description": "ChatGPT Go is finally worth your money, as OpenAI has almost doubled the usage limits and enabled ultimate access to GPT 5.2 Instant. [...]",
       "source": "bleepingcomputer.com",
       "first_seen": "2026-01-20T02:58:01Z",
-      "last_seen": "2026-01-20T12:26:27Z"
+      "last_seen": "2026-01-20T13:39:19Z"
     },
     {
       "id": "574e71568d1360954e93d5677347a3c23d7fb1e6",
@@ -170,7 +230,7 @@
       "description": "OpenAI is offering ChatGPT Plus, which costs $20 in the United States, for free, but the offer is valid for some accounts only, and it's a limited-time deal. [...]",
       "source": "bleepingcomputer.com",
       "first_seen": "2026-01-20T02:58:01Z",
-      "last_seen": "2026-01-20T12:26:27Z"
+      "last_seen": "2026-01-20T13:39:19Z"
     }
   ]
 }

@@ -1,13 +1,55 @@
 {
-  "last_updated": "2026-01-20T12:26:27Z",
+  "last_updated": "2026-01-20T13:39:19Z",
   "count": 40,
   "items": [
+    {
+      "title": "TP-Link Vulnerability Allows Authentication Bypass Via Password Recovery Feature",
+      "link": "https://cybersecuritynews.com/tp-link-vulnerability/",
+      "date": "2026-01-20T13:24:33Z",
+      "description": "A critical authentication vulnerability affecting TP-Link’s VIGI surveillance camera lineup has been disclosed, enabling attackers on local networks to reset administrative credentials without authorization. Tracked as CVE-2026-0629, the flaw resides in the camera’s web interface password recovery function and carries a CVSS v4.0 score of 8.7, indicating high severity. The authentication bypass…",
+      "source": "cybersecuritynews.com"
+    },
+    {
+      "title": "Open Source Firewall OPNsense 25.7.11 Released With Host Discovery Service",
+      "link": "https://cybersecuritynews.com/opnsense-firewall-25-7-11-released/",
+      "date": "2026-01-20T13:21:19Z",
+      "description": "The popular open-source firewall and routing platform built on FreeBSD, released version 25.7.11 on January 15, 2026, bringing significant improvements, including a new host discovery service designed to enhance network management capabilities. The release marks an essential incremental update that strengthens both IPv4 and IPv6 functionality while preparing infrastructure for the upcoming major…",
+      "source": "cybersecuritynews.com"
+    },
+    {
+      "title": "Webinar: Why execs don’t buy SOC teams the tools they need",
+      "link": "https://www.bleepingcomputer.com/news/security/webinar-why-execs-dont-buy-soc-teams-the-tools-they-need/",
+      "date": "2026-01-20T13:15:23Z",
+      "description": "Many security teams are forced to defend environments using tools they didn't choose. This webinar explores how SOC teams can overcome alert fatigue, platform gaps, and AI hype to get real results from the tools they already have. [...]",
+      "source": "bleepingcomputer.com"
+    },
+    {
+      "title": "Raaga Data Breach Exposes 10.2 Million User Records",
+      "link": "https://cybersecuritynews.com/raaga-data-breach/",
+      "date": "2026-01-20T13:06:08Z",
+      "description": "Indian music streaming platform Raaga suffered a significant data breach in December 2025, compromising the personal information of 10.2 million users. The stolen database was subsequently offered for sale on a prominent underground hacking forum, raising serious concerns about user privacy and platform security. According to HIBP, the breach was detected when threat actors posted […] The post…",
+      "source": "cybersecuritynews.com"
+    },
     {
       "title": "APT-Grade PDFSider Malware Used by Ransomware Groups",
       "link": "https://www.securityweek.com/apt-grade-pdfsider-malware-used-by-ransomware-groups/",
       "date": "2026-01-20T12:09:44Z",
       "description": "Providing cyberespionage and remote code execution capabilities, the malware is executed via DLL sideloading. The post APT-Grade PDFSider Malware Used by Ransomware Groups appeared first on SecurityWeek.",
       "source": "securityweek.com"
+    },
+    {
+      "title": "The Hidden Risk of Orphan Accounts",
+      "link": "https://thehackernews.com/2026/01/the-hidden-risk-of-orphan-accounts.html",
+      "date": "2026-01-20T11:58:00Z",
+      "description": "The Problem: The Identities Left Behind As organizations grow and evolve, employees, contractors, services, and systems come and go - but their accounts often remain. These abandoned or “orphan” accounts sit dormant across applications, platforms, assets, and cloud consoles. The reason they persist isn’t negligence - it’s fragmentation. Traditional IAM and IGA systems are designed",
+      "source": "thehackernews.com"
+    },
+    {
+      "title": "Evelyn Stealer Malware Abuses VS Code Extensions to Steal Developer Credentials and Crypto",
+      "link": "https://thehackernews.com/2026/01/evelyn-stealer-malware-abuses-vs-code.html",
+      "date": "2026-01-20T11:48:00Z",
+      "description": "Cybersecurity researchers have disclosed details of a malware campaign that's targeting software developers with a new information stealer called Evelyn Stealer by weaponizing the Microsoft Visual Studio Code (VS Code) extension ecosystem. \"The malware is designed to exfiltrate sensitive information, including developer credentials and cryptocurrency-related data. Compromised developer",
+      "source": "thehackernews.com"
     },
     {
       "title": "Cloudflare Fixes ACME Validation Bug Allowing WAF Bypass to Origin Servers",
@@ -45,32 +87,11 @@
       "source": "cybersecuritynews.com"
     },
     {
-      "title": "Python-based Malware SolyxImmortal Leverages Discord to Silently Harvest Sensitive Data",
-      "link": "https://cybersecuritynews.com/python-based-malware-solyximmortal-leverages-discord/",
-      "date": "2026-01-20T08:29:37Z",
-      "description": "SolyxImmortal represents a notable advancement in information-stealing malware targeting Windows systems. This Python-based threat combines multiple data theft capabilities into a single, persistent implant designed for long-term surveillance rather than destructive activity. The malware operates silently in the background, collecting credentials, documents, keystrokes, and screenshots while…",
-      "source": "cybersecuritynews.com"
-    },
-    {
-      "title": "Critical AVEVA Software Vulnerabilities Enables Remote Code Execution Under System Privileges",
-      "link": "https://cybersecuritynews.com/aveva-software-vulnerabilities/",
-      "date": "2026-01-20T08:03:27Z",
-      "description": "Seven vulnerabilities were disclosed in Process Optimization (formerly ROMeo) 2024.1 and earlier on January 13, 2026, including a critical flaw enabling unauthenticated SYSTEM-level remote code execution. The most severe vulnerability enables unauthenticated attackers to achieve remote code execution under system privileges, posing an immediate risk to industrial process control environments…",
-      "source": "cybersecuritynews.com"
-    },
-    {
       "title": "Tudou Guarantee Marketplace Halts Telegram Transactions After Processing Over $12 Billion",
       "link": "https://thehackernews.com/2026/01/tudou-guarantee-marketplace-halts.html",
       "date": "2026-01-20T07:40:00Z",
       "description": "A Telegram-based guarantee marketplace known for advertising a broad range of illicit services appears to be winding down its operations, according to new findings from Elliptic. The blockchain intelligence company said Tudou Guarantee has effectively ceased transactions through its public Telegram groups following a period of significant growth. The marketplace is estimated to have processed",
       "source": "thehackernews.com"
-    },
-    {
-      "title": "WhisperPair Attack Allows Hijacking of Laptops, Earbuds Without User Consent – Millions Affected",
-      "link": "https://cybersecuritynews.com/whisperpair-attack/",
-      "date": "2026-01-20T07:31:59Z",
-      "description": "A critical vulnerability in Google’s Fast Pair protocol that allows attackers to hijack Bluetooth audio accessories and track users without their knowledge or consent.​ Security researchers from KU Leuven have uncovered a vulnerability, tracked as CVE-2025-36911 and dubbed WhisperPair, that affects hundreds of millions of wireless earbuds, headphones, and speakers from major manufacturers.…",
-      "source": "cybersecuritynews.com"
     },
     {
       "title": "ChatGPT Go now unlocks unlimited access to GPT-5.2 Instant for $8",
@@ -108,20 +129,6 @@
       "source": "darkreading.com"
     },
     {
-      "title": "Google Gemini Prompt Injection Flaw Exposed Private Calendar Data via Malicious Invites",
-      "link": "https://thehackernews.com/2026/01/google-gemini-prompt-injection-flaw.html",
-      "date": "2026-01-19T17:21:00Z",
-      "description": "Cybersecurity researchers have disclosed details of a security flaw that leverages indirect prompt injection targeting Google Gemini as a way to bypass authorization guardrails and use Google Calendar as a data extraction mechanism. The vulnerability, Miggo Security's Head of Research, Liad Eliyahu, said, made it possible to circumvent Google Calendar's privacy controls by hiding a dormant",
-      "source": "thehackernews.com"
-    },
-    {
-      "title": "UK govt. warns about ongoing Russian hacktivist group attacks",
-      "link": "https://www.bleepingcomputer.com/news/security/uk-govt-warns-about-ongoing-russian-hacktivist-group-attacks/",
-      "date": "2026-01-19T17:20:39Z",
-      "description": "The U.K. government is warning of continued malicious activity from Russian-aligned hacktivist groups targeting critical infrastructure and local government organizations in the country in disruptive denial-of-service (DDoS) attacks. [...]",
-      "source": "bleepingcomputer.com"
-    },
-    {
       "title": "TP-Link Patches Vulnerability Exposing VIGI Cameras to Remote Hacking",
       "link": "https://www.securityweek.com/tp-link-patches-vulnerability-exposing-vigi-cameras-to-hacking/",
       "date": "2026-01-19T14:39:37Z",
@@ -141,13 +148,6 @@
       "date": "2026-01-19T13:35:09Z",
       "description": "The information stealer abuses legitimate APIs and libraries to exfiltrate data to Discord webhooks. The post ‘SolyxImmortal’ Information Stealer Emerges appeared first on SecurityWeek.",
       "source": "securityweek.com"
-    },
-    {
-      "title": "⚡ Weekly Recap: Fortinet Exploits, RedLine Clipjack, NTLM Crack, Copilot Attack & More",
-      "link": "https://thehackernews.com/2026/01/weekly-recap-fortinet-exploits-redline.html",
-      "date": "2026-01-19T13:17:00Z",
-      "description": "In cybersecurity, the line between a normal update and a serious incident keeps getting thinner. Systems that once felt reliable are now under pressure from constant change. New AI tools, connected devices, and automated systems quietly create more ways in, often faster than security teams can react. This week’s stories show how easily a small mistake or hidden service can turn into a real",
-      "source": "thehackernews.com"
     },
     {
       "title": "PoC Exploit Released: Failed Windows Patch Leaks Kernel Secrets",
