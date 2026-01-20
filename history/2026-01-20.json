@@ -1,7 +1,27 @@
 {
   "date": "2026-01-20",
-  "count": 26,
+  "count": 31,
   "items": [
+    {
+      "id": "b1ade31293270ed7743d0c6989c785eaa1e476ac",
+      "title": "Make Identity Threat Detection your security strategy for 2026",
+      "link": "https://www.bleepingcomputer.com/news/security/make-identity-threat-detection-your-security-strategy-for-2026/",
+      "date": "2026-01-20T15:01:11Z",
+      "description": "Identity-based attacks are one of the primary paths attackers use to breach corporate networks. Tenfold shows how Identity Threat Detection helps spot suspicious account activity before real damage occurs. [...]",
+      "source": "bleepingcomputer.com",
+      "first_seen": "2026-01-20T15:20:42Z",
+      "last_seen": "2026-01-20T15:20:42Z"
+    },
+    {
+      "id": "a765430d6c9fbd2a4822def248787d78596c575b",
+      "title": "NCSC Warns of Hacktivist Groups Attacking UK Organisations and Online Services",
+      "link": "https://cybersecuritynews.com/ncsc-warns-of-hacktivist-groups/",
+      "date": "2026-01-20T14:41:13Z",
+      "description": "A critical alert issued on January 19, 2026, warned of rising cyber-attacks by Russian-aligned hacktivist groups targeting UK organisations. These state-aligned threat actors are conducting disruptive denial-of-service (DoS) operations against local government authorities. Critical national infrastructure operators are aiming to cripple essential services and turn off public-facing websites. The…",
+      "source": "cybersecuritynews.com",
+      "first_seen": "2026-01-20T15:20:42Z",
+      "last_seen": "2026-01-20T15:20:42Z"
+    },
     {
       "id": "1a363f0916c6b8b64e875f77aa86c6cc55c11ad0",
       "title": "Chainlit Vulnerabilities May Leak Sensitive Information",
@@ -10,7 +30,7 @@
       "description": "The two bugs, an arbitrary file read and an SSRF bug, can be exploited without user interaction to leak credentials, databases, and other data. The post Chainlit Vulnerabilities May Leak Sensitive Information appeared first on SecurityWeek.",
       "source": "securityweek.com",
       "first_seen": "2026-01-20T14:21:30Z",
-      "last_seen": "2026-01-20T14:21:30Z"
+      "last_seen": "2026-01-20T15:20:42Z"
     },
     {
       "id": "566dbbd6b80aef2c119196989f8c30e2cc217dfc",
@@ -20,7 +40,7 @@
       "description": "A critical security flaw in the popular Advanced Custom Fields: Extended WordPress plugin has put more than 100,000 websites at risk of full takeover. The vulnerability, tracked as CVE-2025-14533, affects plugin versions up to and including 0.9.2.1 and carries a CVSS score of 9.8 (Critical). If left unpatched, it allows an unauthenticated attacker to gain […] The post WordPress Plugin…",
       "source": "cybersecuritynews.com",
       "first_seen": "2026-01-20T14:21:30Z",
-      "last_seen": "2026-01-20T14:21:30Z"
+      "last_seen": "2026-01-20T15:20:42Z"
     },
     {
       "id": "bdbb90e2ccda81a05efc9566d6910a351af37759",
@@ -30,7 +50,27 @@
       "description": "Multiple vulnerabilities in Apache Airflow versions prior to 3.1.6 could reveal sensitive authentication credentials and secrets within logs and user interfaces. Both issues stem from inadequate masking of sensitive data during rendering and logging operations, potentially compromising proxy credentials and database secrets in production environments. Proxy Credentials Leak in Task Logs The…",
       "source": "cybersecuritynews.com",
       "first_seen": "2026-01-20T14:21:30Z",
-      "last_seen": "2026-01-20T14:21:30Z"
+      "last_seen": "2026-01-20T15:20:42Z"
+    },
+    {
+      "id": "298f0f2f3a07ded40343a895f7fd1e4764c7881c",
+      "title": "Three Flaws in Anthropic MCP Git Server Enable File Access and Code Execution",
+      "link": "https://thehackernews.com/2026/01/three-flaws-in-anthropic-mcp-git-server.html",
+      "date": "2026-01-20T13:55:00Z",
+      "description": "A set of three security vulnerabilities has been disclosed in mcp-server-git, the official Git Model Context Protocol (MCP) server maintained by Anthropic, that could be exploited to read or delete arbitrary files and execute code under certain conditions. \"These flaws can be exploited through prompt injection, meaning an attacker who can influence what an AI assistant reads (a malicious README,",
+      "source": "thehackernews.com",
+      "first_seen": "2026-01-20T15:20:42Z",
+      "last_seen": "2026-01-20T15:20:42Z"
+    },
+    {
+      "id": "85e1303ac9208f0c3e2621a44cd9cb7c140e9699",
+      "title": "Hackers Use LinkedIn Messages to Spread RAT Malware Through DLL Sideloading",
+      "link": "https://thehackernews.com/2026/01/hackers-use-linkedin-messages-to-spread.html",
+      "date": "2026-01-20T13:46:00Z",
+      "description": "Cybersecurity researchers have uncovered a new phishing campaign that exploits social media private messages to propagate malicious payloads, likely with the intent to deploy a remote access trojan (RAT). The activity delivers \"weaponized files via Dynamic Link Library (DLL) sideloading, combined with a legitimate, open-source Python pen-testing script,\" ReliaQuest said in a report shared with",
+      "source": "thehackernews.com",
+      "first_seen": "2026-01-20T15:20:42Z",
+      "last_seen": "2026-01-20T15:20:42Z"
     },
     {
       "id": "198e003d02310feb919764351d37257cbedd7574",
@@ -40,7 +80,7 @@
       "description": "A critical authentication vulnerability affecting TP-Link’s VIGI surveillance camera lineup has been disclosed, enabling attackers on local networks to reset administrative credentials without authorization. Tracked as CVE-2026-0629, the flaw resides in the camera’s web interface password recovery function and carries a CVSS v4.0 score of 8.7, indicating high severity. The authentication bypass…",
       "source": "cybersecuritynews.com",
       "first_seen": "2026-01-20T13:39:19Z",
-      "last_seen": "2026-01-20T14:21:30Z"
+      "last_seen": "2026-01-20T15:20:42Z"
     },
     {
       "id": "3c7bcf4838b53b966629a19abf7d33fac3b930fd",
@@ -50,7 +90,7 @@
       "description": "The popular open-source firewall and routing platform built on FreeBSD, released version 25.7.11 on January 15, 2026, bringing significant improvements, including a new host discovery service designed to enhance network management capabilities. The release marks an essential incremental update that strengthens both IPv4 and IPv6 functionality while preparing infrastructure for the upcoming major…",
       "source": "cybersecuritynews.com",
       "first_seen": "2026-01-20T13:39:19Z",
-      "last_seen": "2026-01-20T14:21:30Z"
+      "last_seen": "2026-01-20T15:20:42Z"
     },
     {
       "id": "494bf86090c78589860cef486e5261aba46eac80",
@@ -61,6 +101,16 @@
       "source": "bleepingcomputer.com",
       "first_seen": "2026-01-20T13:39:19Z",
       "last_seen": "2026-01-20T14:21:30Z"
+    },
+    {
+      "id": "6373cd19510e0b28f2726d740575c778c979d184",
+      "title": "Webinar: Aligning cybersecurity purchases with what your SOC team needs",
+      "link": "https://www.bleepingcomputer.com/news/security/webinar-aligning-cybersecurity-purchases-with-what-your-soc-team-needs/",
+      "date": "2026-01-20T13:15:23Z",
+      "description": "Learn how security leaders and SOC teams can work together to close the gap between platform decisions and operational needs. Join Sumo Logic and BleepingComputer on January 29 for a practical webinar on aligning security tools with real-world workflows. [...]",
+      "source": "bleepingcomputer.com",
+      "first_seen": "2026-01-20T15:20:42Z",
+      "last_seen": "2026-01-20T15:20:42Z"
     },
     {
       "id": "9b11ead5c8eb21cc57d37cd6b304176dd00bd4a8",
@@ -80,7 +130,7 @@
       "description": "Providing cyberespionage and remote code execution capabilities, the malware is executed via DLL sideloading. The post APT-Grade PDFSider Malware Used by Ransomware Groups appeared first on SecurityWeek.",
       "source": "securityweek.com",
       "first_seen": "2026-01-20T12:26:27Z",
-      "last_seen": "2026-01-20T14:21:30Z"
+      "last_seen": "2026-01-20T15:20:42Z"
     },
     {
       "id": "4bb2096449ec8772b20fd37549124db08b379424",
@@ -90,7 +140,7 @@
       "description": "The Problem: The Identities Left Behind As organizations grow and evolve, employees, contractors, services, and systems come and go - but their accounts often remain. These abandoned or “orphan” accounts sit dormant across applications, platforms, assets, and cloud consoles. The reason they persist isn’t negligence - it’s fragmentation. Traditional IAM and IGA systems are designed",
       "source": "thehackernews.com",
       "first_seen": "2026-01-20T13:39:19Z",
-      "last_seen": "2026-01-20T14:21:30Z"
+      "last_seen": "2026-01-20T15:20:42Z"
     },
     {
       "id": "bc9c6d1af28c731c1c4773e1dec731da52b44142",
@@ -100,7 +150,7 @@
       "description": "Cybersecurity researchers have disclosed details of a malware campaign that's targeting software developers with a new information stealer called Evelyn Stealer by weaponizing the Microsoft Visual Studio Code (VS Code) extension ecosystem. \"The malware is designed to exfiltrate sensitive information, including developer credentials and cryptocurrency-related data. Compromised developer",
       "source": "thehackernews.com",
       "first_seen": "2026-01-20T13:39:19Z",
-      "last_seen": "2026-01-20T14:21:30Z"
+      "last_seen": "2026-01-20T15:20:42Z"
     },
     {
       "id": "78056953b18fa84c56a62adaf22cc23ebbf02cfc",
@@ -110,7 +160,7 @@
       "description": "Cloudflare has addressed a security vulnerability impacting its Automatic Certificate Management Environment (ACME) validation logic that made it possible to bypass security controls and access origin servers. \"The vulnerability was rooted in how our edge network processed requests destined for the ACME HTTP-01 challenge path (/.well-known/acme-challenge/*),\" the web infrastructure",
       "source": "thehackernews.com",
       "first_seen": "2026-01-20T12:26:27Z",
-      "last_seen": "2026-01-20T14:21:30Z"
+      "last_seen": "2026-01-20T15:20:42Z"
     },
     {
       "id": "fa13ef81f51c80ac891a6c483ed7a02d8c95d14a",
@@ -120,7 +170,7 @@
       "description": "A simple payload allowed attackers to create a new event leaking summaries of the victim’s private meetings. The post Weaponized Invite Enabled Calendar Data Theft via Google Gemini appeared first on SecurityWeek.",
       "source": "securityweek.com",
       "first_seen": "2026-01-20T11:16:05Z",
-      "last_seen": "2026-01-20T14:21:30Z"
+      "last_seen": "2026-01-20T15:20:42Z"
     },
     {
       "id": "1816929dc3030578897be4b0c65b84365b488b24",
@@ -250,7 +300,7 @@
       "description": "ChatGPT Go is finally worth your money, as OpenAI has almost doubled the usage limits and enabled ultimate access to GPT 5.2 Instant. [...]",
       "source": "bleepingcomputer.com",
       "first_seen": "2026-01-20T02:58:01Z",
-      "last_seen": "2026-01-20T14:21:30Z"
+      "last_seen": "2026-01-20T15:20:42Z"
     },
     {
       "id": "574e71568d1360954e93d5677347a3c23d7fb1e6",
@@ -260,7 +310,7 @@
       "description": "OpenAI is offering ChatGPT Plus, which costs $20 in the United States, for free, but the offer is valid for some accounts only, and it's a limited-time deal. [...]",
       "source": "bleepingcomputer.com",
       "first_seen": "2026-01-20T02:58:01Z",
-      "last_seen": "2026-01-20T14:21:30Z"
+      "last_seen": "2026-01-20T15:20:42Z"
     }
   ]
 }
