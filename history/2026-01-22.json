@@ -1,7 +1,67 @@
 {
   "date": "2026-01-22",
-  "count": 10,
+  "count": 16,
   "items": [
+    {
+      "id": "77fd766a821eae579d5f8b0dccfdf1766ec2b58f",
+      "title": "BIND 9 Vulnerability Allow Attackers to Crash Server by Sending Malicious Records",
+      "link": "https://cybersecuritynews.com/bind-9-vulnerability/",
+      "date": "2026-01-22T10:11:31Z",
+      "description": "A high-severity vulnerability has been disclosed in BIND 9, the widely used DNS server software responsible for domain name resolution across millions of internet services. The vulnerability, tracked as CVE-2025-13878, enables remote attackers to crash DNS servers by sending specially crafted, malformed DNS records, potentially disrupting critical internet infrastructure and organizational…",
+      "source": "cybersecuritynews.com",
+      "first_seen": "2026-01-22T10:17:33Z",
+      "last_seen": "2026-01-22T10:17:33Z"
+    },
+    {
+      "id": "4d1290b3b76a2c52543ffd02b105e986785a17dc",
+      "title": "New Multi-Stage Windows Malware Disables Microsoft Defender Before Dropping Malicious Payloads",
+      "link": "https://cybersecuritynews.com/new-multi-stage-windows-malware-disables-microsoft-defender/",
+      "date": "2026-01-22T10:11:24Z",
+      "description": "Security researchers have identified a sophisticated multi-stage malware campaign targeting Windows systems through social engineering and weaponized cloud services. The attack employs business-themed documents as deceptive entry points, luring users into extracting compressed archives containing malicious shortcuts that execute PowerShell commands in the background. Once initiated, the…",
+      "source": "cybersecuritynews.com",
+      "first_seen": "2026-01-22T10:17:33Z",
+      "last_seen": "2026-01-22T10:17:33Z"
+    },
+    {
+      "id": "61e654d94f067994dece51b9c16b95cab7046357",
+      "title": "Critical Vulnerability in Binary-Parser Library for Node.js Allows Malicious Code injection",
+      "link": "https://cybersecuritynews.com/node-js-binary-parser-library-vulnerability/",
+      "date": "2026-01-22T10:08:44Z",
+      "description": "A critical code-injection vulnerability has been identified in the Node.js binary-parser library, affecting all versions before 2.3.0. The flaw allows attackers to execute arbitrary JavaScript code if untrusted input is used to construct parser definitions, potentially compromising application integrity and system security. The binary-parser library, designed to facilitate writing efficient…",
+      "source": "cybersecuritynews.com",
+      "first_seen": "2026-01-22T10:17:33Z",
+      "last_seen": "2026-01-22T10:17:33Z"
+    },
+    {
+      "id": "3967d5015aea327de4569f643fddb66ec908919a",
+      "title": "Critical Chainlit AI Vulnerabilities Let Hackers Gain Control Over Cloud Environments",
+      "link": "https://cybersecuritynews.com/chainlit-ai-vulnerabilities/",
+      "date": "2026-01-22T09:48:21Z",
+      "description": "Cybersecurity researchers have uncovered two critical security flaws in Chainlit, a widely used open-source AI framework with over 700,000 monthly downloads. The vulnerabilities allow attackers to steal sensitive cloud credentials, leak database files, and take control of enterprise AI environments without user interaction. Zafran Labs identified these flaws affecting internet-facing deployments…",
+      "source": "cybersecuritynews.com",
+      "first_seen": "2026-01-22T10:17:33Z",
+      "last_seen": "2026-01-22T10:17:33Z"
+    },
+    {
+      "id": "ddb6389d3403254471eaefb113213ea470d59b8b",
+      "title": "7 Million Exposed: Critical CVSS 9.8 RCE Vulnerability Hits Laravel Reverb",
+      "link": "https://securityonline.info/7-million-exposed-critical-cvss-9-8-rce-vulnerability-hits-laravel-reverb/",
+      "date": "2026-01-22T09:41:42Z",
+      "description": "The post 7 Million Exposed: Critical CVSS 9.8 RCE Vulnerability Hits Laravel Reverb appeared first on Daily CyberSecurity.",
+      "source": "securityonline.info",
+      "first_seen": "2026-01-22T10:17:33Z",
+      "last_seen": "2026-01-22T10:17:33Z"
+    },
+    {
+      "id": "ddea0a826fb5e55739ad63c4f501819fee57e325",
+      "title": "Atlassian, GitLab, Zoom Release Security Patches",
+      "link": "https://www.securityweek.com/atlassian-gitlab-zoom-release-security-patches/",
+      "date": "2026-01-22T09:39:54Z",
+      "description": "Fixes were rolled out for over two dozen vulnerabilities, including critical- and high-severity bugs. The post Atlassian, GitLab, Zoom Release Security Patches appeared first on SecurityWeek.",
+      "source": "securityweek.com",
+      "first_seen": "2026-01-22T10:17:33Z",
+      "last_seen": "2026-01-22T10:17:33Z"
+    },
     {
       "id": "562c0f94803e8ec6437e0e51df8b1958d18ffc94",
       "title": "Hackers Targeting Cisco Unified CM Zero-Day",
@@ -10,7 +70,7 @@
       "description": "Cisco has released patches for CVE-2026-20045, a critical vulnerability that can be exploited for unauthenticated remote code execution. The post Hackers Targeting Cisco Unified CM Zero-Day appeared first on SecurityWeek.",
       "source": "securityweek.com",
       "first_seen": "2026-01-22T09:23:33Z",
-      "last_seen": "2026-01-22T09:23:33Z"
+      "last_seen": "2026-01-22T10:17:33Z"
     },
     {
       "id": "e8c4fac1e138fe1ce04c8d8ad0c1f3503a4a626a",
@@ -20,7 +80,7 @@
       "description": "A dangerous Android malware campaign has emerged, targeting users through mobile games and pirated streaming app modifications. The threat, known as Android.Phantom, employs machine learning technology to perform automated ad-click fraud on infected smartphones. Over 155,000 downloads of compromised games have been recorded, with additional infections spreading through modified versions of…",
       "source": "cybersecuritynews.com",
       "first_seen": "2026-01-22T09:23:33Z",
-      "last_seen": "2026-01-22T09:23:33Z"
+      "last_seen": "2026-01-22T10:17:33Z"
     },
     {
       "id": "f8e4f131f0ee79f7625e775a1bef25916e81bd6b",
@@ -40,7 +100,7 @@
       "description": "Cybersecurity company Arctic Wolf has warned of a \"new cluster of automated malicious activity\" that involves unauthorized firewall configuration changes on Fortinet FortiGate devices. The activity, it said, commenced on January 15, 2026, adding it shares similarities with a December 2025 campaign in which malicious SSO logins on FortiGate appliances were recorded against the admin account from",
       "source": "thehackernews.com",
       "first_seen": "2026-01-22T07:19:51Z",
-      "last_seen": "2026-01-22T09:23:33Z"
+      "last_seen": "2026-01-22T10:17:33Z"
     },
     {
       "id": "9eaf36d9758acd23a82dfa6f63efd8269409c173",
@@ -50,7 +110,7 @@
       "description": "Cisco has released fresh patches to address what it described as a \"critical\" security vulnerability impacting multiple Unified Communications (CM) products and Webex Calling Dedicated Instance that it has been actively exploited as a zero-day in the wild. The vulnerability, CVE-2026-20045 (CVSS score: 8.2), could permit an unauthenticated remote attacker to execute arbitrary commands on the",
       "source": "thehackernews.com",
       "first_seen": "2026-01-22T04:39:42Z",
-      "last_seen": "2026-01-22T09:23:33Z"
+      "last_seen": "2026-01-22T10:17:33Z"
     },
     {
       "id": "0a04b6b6bb93cab3d5b59c0e53f6d829f7afe57d",
@@ -80,7 +140,7 @@
       "description": "People worldwide are being targeted by a massive spam wave originating from unsecured Zendesk support systems, with victims reporting receiving hundreds of emails with strange and sometimes alarming subject lines. [...]",
       "source": "bleepingcomputer.com",
       "first_seen": "2026-01-22T00:58:21Z",
-      "last_seen": "2026-01-22T09:23:33Z"
+      "last_seen": "2026-01-22T10:17:33Z"
     },
     {
       "id": "455b954a25794b60d1d0ed45b34a8ac9545ae139",
@@ -100,7 +160,7 @@
       "description": "aiFWall is a firewall protection for AI deployments built to use AI to improve its own performance. The post aiFWall Emerges From Stealth With an AI Firewall appeared first on SecurityWeek.",
       "source": "securityweek.com",
       "first_seen": "2026-01-22T05:20:38Z",
-      "last_seen": "2026-01-22T09:23:33Z"
+      "last_seen": "2026-01-22T10:17:33Z"
     }
   ]
 }
