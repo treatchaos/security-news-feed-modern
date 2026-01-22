@@ -1,7 +1,42 @@
 {
-  "last_updated": "2026-01-22T15:20:08Z",
+  "last_updated": "2026-01-22T16:21:39Z",
   "count": 40,
   "items": [
+    {
+      "title": "INC ransomware opsec fail allowed data recovery for 12 US orgs",
+      "link": "https://www.bleepingcomputer.com/news/security/inc-ransomware-opsec-fail-allowed-data-recovery-for-12-us-orgs/",
+      "date": "2026-01-22T16:21:17Z",
+      "description": "An operational security failure allowed researchers to recover data that the INC ransomware gang stole from a dozen U.S. organizations. [...]",
+      "source": "bleepingcomputer.com"
+    },
+    {
+      "title": "Attackers Infrastructure Exposed Using JA3 Fingerprinting Tool",
+      "link": "https://cybersecuritynews.com/ja3-fingerprinting-tool/",
+      "date": "2026-01-22T16:02:36Z",
+      "description": "Cybersecurity researchers have discovered a powerful method to detect and trace attacker infrastructure using JA3 fingerprinting, a technique that identifies malicious tools through network communication patterns. While many security teams considered JA3 fingerprints outdated after fingerprint lists remained largely unchanged since 2021, fresh analysis reveals this technology remains highly…",
+      "source": "cybersecuritynews.com"
+    },
+    {
+      "title": "Researchers Detailed r1z Initial Access Broker OPSEC Failures",
+      "link": "https://cybersecuritynews.com/researchers-detailed-r1z-initial-access/",
+      "date": "2026-01-22T15:37:26Z",
+      "description": "U.S. authorities have pulled back the curtain on “r1z,” an initial access broker who quietly sold gateways into corporate networks around the world. Operating across popular cybercrime forums, he offered stolen VPN credentials, remote access to enterprise environments, and custom tools designed to bypass security controls. His activity fed the ransomware supply chain by giving […] The post…",
+      "source": "cybersecuritynews.com"
+    },
+    {
+      "title": "Hackers Earned $516,500 for 37 Unique 0-day Vulnerabilities – Pwn2Own Automotive 2026",
+      "link": "https://cybersecuritynews.com/0-day-vulnerabilities-pwn2own-automotive-2026/",
+      "date": "2026-01-22T15:30:41Z",
+      "description": "Day One of Pwn2Own Automotive 2026, which delivered $516,500 USD for 37 zero-days, the event has now accumulated $955,750 USD across 66 unique vulnerabilities, demonstrating the automotive sector’s substantial attack surface. The competition showcased exploits targeting multiple vehicle subsystems, including in-vehicle infotainment (IVI) systems, EV charging stations, and embedded Linux…",
+      "source": "cybersecuritynews.com"
+    },
+    {
+      "title": "Attackers Reverse‑Engineer Patch to Exploit SmarterMail Admin Bypass in the Wild",
+      "link": "https://cybersecuritynews.com/smartermail-vulnerability-exploited/",
+      "date": "2026-01-22T15:21:14Z",
+      "description": "A critical authentication bypass vulnerability in SmarterTools SmarterMail is actively being exploited in the wild by attackers, according to security researchers at watchTowr Labs. The vulnerability, tracked as WT-2026-0001, allows unauthenticated attackers to reset the system administrator password without any validation, leading to complete system takeover. The flaw exists in the…",
+      "source": "cybersecuritynews.com"
+    },
     {
       "title": "Old Attack, New Speed: Researchers Optimize Page Cache Exploits",
       "link": "https://www.securityweek.com/old-attack-new-speed-researchers-optimize-page-cache-exploits/",
@@ -52,13 +87,6 @@
       "source": "darkreading.com"
     },
     {
-      "title": "Critical Vivotek Vulnerability Allows Remote Users to Inject Arbitrary Code",
-      "link": "https://cybersecuritynews.com/vivotek-vulnerability/",
-      "date": "2026-01-22T13:29:33Z",
-      "description": "A critical remote code injection vulnerability in Vivotek legacy firmware that enables unauthenticated attackers to execute arbitrary commands with root privileges. The vulnerability, tracked as CVE-2026-22755, affects dozens of camera models and poses significant risks to organizations relying on legacy surveillance infrastructure. The vulnerability exists in the upload_map.cgi script, where…",
-      "source": "cybersecuritynews.com"
-    },
-    {
       "title": "AiStrike Raises $7 Million in Seed Funding",
       "link": "https://www.securityweek.com/aistrike-raises-7-million-in-seed-funding/",
       "date": "2026-01-22T12:58:03Z",
@@ -66,32 +94,11 @@
       "source": "securityweek.com"
     },
     {
-      "title": "FortiGate Firewalls Hacked in Automated Attacks to Steal Configuration Data",
-      "link": "https://cybersecuritynews.com/fortigate-firewalls-hacked/",
-      "date": "2026-01-22T12:53:29Z",
-      "description": "A new cluster of automated malicious activity targeting FortiGate firewall devices. Beginning January 15, 2026, threat actors have been observed executing unauthorized configuration changes, establishing persistence through generic accounts, and exfiltrating sensitive firewall configuration data. This campaign echoes a December 2025 incident involving malicious SSO logins shortly after Fortinet…",
-      "source": "cybersecuritynews.com"
-    },
-    {
       "title": "Hackers exploit 29 zero-days on second day of Pwn2Own Automotive",
       "link": "https://www.bleepingcomputer.com/news/security/hackers-exploit-29-zero-day-vulnerabilities-on-second-day-of-pwn2own-automotive/",
       "date": "2026-01-22T12:30:30Z",
       "description": "Hackers collect $439,250 after exploiting 29 zero-day vulnerabilities on the second day of Pwn2Own Automotive 2026. [...]",
       "source": "bleepingcomputer.com"
-    },
-    {
-      "title": "CISA Warns of Cisco Unified CM 0-Day RCE Vulnerability Exploited in Attacks",
-      "link": "https://cybersecuritynews.com/cisa-warns-cisco-unified-cm-0-day/",
-      "date": "2026-01-22T12:27:47Z",
-      "description": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) has issued an urgent alert after confirming active exploitation of a zero-day remote code execution (RCE) vulnerability in multiple Cisco Unified Communications products. Tracked as CVE-2026-20045, the flaw enables code injection attacks that grant attackers user-level access to the underlying OS, followed by full root privilege…",
-      "source": "cybersecuritynews.com"
-    },
-    {
-      "title": "Malicious PyPI Package Mimic as Popular Sympy-Dev to Attack Millions of Users",
-      "link": "https://cybersecuritynews.com/malicious-pypi-package-mimic-as-popular-sympy-dev/",
-      "date": "2026-01-22T12:14:34Z",
-      "description": "A new malicious package on the Python Package Index (PyPI), named sympy-dev, has been caught impersonating the widely used SymPy library to deliver cryptomining malware. SymPy is a popular symbolic mathematics library that sees tens of millions of downloads every month, making it an attractive target for attackers looking to abuse developer trust and widespread adoption. […] The post Malicious…",
-      "source": "cybersecuritynews.com"
     },
     {
       "title": "New Wave of Attacks Targeting FortiGate Firewalls",
@@ -148,13 +155,6 @@
       "date": "2026-01-22T05:55:00Z",
       "description": "Cybersecurity company Arctic Wolf has warned of a \"new cluster of automated malicious activity\" that involves unauthorized firewall configuration changes on Fortinet FortiGate devices. The activity, it said, commenced on January 15, 2026, adding it shares similarities with a December 2025 campaign in which malicious SSO logins on FortiGate appliances were recorded against the admin account from",
       "source": "thehackernews.com"
-    },
-    {
-      "title": "Zendesk ticket systems hijacked in massive global spam wave",
-      "link": "https://www.bleepingcomputer.com/news/security/zendesk-ticket-systems-hijacked-in-massive-global-spam-wave/",
-      "date": "2026-01-21T23:46:53Z",
-      "description": "People worldwide are being targeted by a massive spam wave originating from unsecured Zendesk support systems, with victims reporting receiving hundreds of emails with strange and sometimes alarming subject lines. [...]",
-      "source": "bleepingcomputer.com"
     },
     {
       "title": "AI Agents Undermine Progress in Browser Security",
