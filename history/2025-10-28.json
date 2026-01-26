@@ -1,6 +1,6 @@
 {
   "date": "2025-10-28",
-  "count": 23,
+  "count": 16,
   "items": [
     {
       "id": "29979709ec06374303708b893171832a8cdbb53d",
@@ -153,46 +153,6 @@
       "last_seen": "2025-10-29T00:53:56Z"
     },
     {
-      "id": "bbb13d04d2e720e2bfc8ff197ec25945012e1de8",
-      "title": "TEE.Fail attack breaks confidential computing on Intel, AMD, NVIDIA CPUs",
-      "link": "https://www.bleepingcomputer.com/news/security/teefail-attack-breaks-confidential-computing-on-intel-amd-nvidia-cpus/",
-      "date": "2025-10-28T17:00:00Z",
-      "description": "Academic researchers developed a side-channel attack called TEE.Fail, which allows extracting secrets from the trusted execution environment in the CPU, the highly secure area of a system, such as Intel's SGX and TDX, and AMD's SEV-SNP. [...]",
-      "source": "bleepingcomputer.com",
-      "first_seen": "2025-10-28T17:10:53Z",
-      "last_seen": "2025-10-28T21:09:33Z"
-    },
-    {
-      "id": "e0832e9ea125df0804d236a5174c13bcdc3b35fe",
-      "title": "Google Chrome to warn users before opening insecure HTTP sites",
-      "link": "https://www.bleepingcomputer.com/news/google/google-chrome-to-warn-users-before-opening-insecure-http-sites/",
-      "date": "2025-10-28T17:00:00Z",
-      "description": "Google announced today that the Chrome web browser will ask for permission by default before connecting to public, insecure HTTP websites, beginning with Chrome 154 in October 2026. [...]",
-      "source": "bleepingcomputer.com",
-      "first_seen": "2025-10-28T17:10:53Z",
-      "last_seen": "2025-10-28T19:08:39Z"
-    },
-    {
-      "id": "6fba3fab17169186da33d3c4aefd40bd7cf8fea0",
-      "title": "Mozilla Wants All New Firefox Extensions to Disclose Data Collection Policies",
-      "link": "https://cybersecuritynews.com/mozilla-extensions-disclose-data-collection-policies/",
-      "date": "2025-10-28T16:44:20Z",
-      "description": "Mozilla is implementing a significant transparency requirement for Firefox extensions, mandating that all new browser add-ons disclose their data collection practices to users before installation. Starting November 3rd, 2025, developers submitting fresh extensions to the Firefox ecosystem must declare whether their software collects or transmits personal data through a new standardized framework…",
-      "source": "cybersecuritynews.com",
-      "first_seen": "2025-10-28T17:10:53Z",
-      "last_seen": "2025-10-29T00:53:56Z"
-    },
-    {
-      "id": "1c145d3a36eadfd9f426d366ddf26d3d66ba72bb",
-      "title": "XWiki RCE Vulnerability Actively Exploted In Wild To Deliver Coinminer",
-      "link": "https://cybersecuritynews.com/xwiki-rce-vulnerability/",
-      "date": "2025-10-28T16:39:09Z",
-      "description": "A critical remote code execution (RCE) flaw in XWiki, a popular open-source wiki platform, was exploited in the wild to deploy cryptocurrency mining malware on compromised servers. The vulnerability, tracked as CVE-2025-24893, allows unauthenticated attackers to inject malicious templates and execute arbitrary code, bypassing authentication entirely. This discovery highlights the growing threat…",
-      "source": "cybersecuritynews.com",
-      "first_seen": "2025-10-28T17:10:53Z",
-      "last_seen": "2025-10-28T21:09:33Z"
-    },
-    {
       "id": "2a50ce4f1689a3ce7ae1d9fe035a24c35571d99c",
       "title": "New Android Trojan 'Herodotus' Outsmarts Anti-Fraud Systems by Typing Like a Human",
       "link": "https://thehackernews.com/2025/10/new-android-trojan-herodotus-outsmarts.html",
@@ -200,36 +160,6 @@
       "description": "Cybersecurity researchers have disclosed details of a new Android banking trojan called Herodotus that has been observed in active campaigns targeting Italy and Brazil to conduct device takeover (DTO) attacks. \"Herodotus is designed to perform device takeover while making first attempts to mimic human behaviour and bypass behaviour biometrics detection,\" ThreatFabric said in a report shared with",
       "source": "thehackernews.com",
       "first_seen": "2025-10-28T18:16:35Z",
-      "last_seen": "2025-10-29T11:09:45Z"
-    },
-    {
-      "id": "865f56a0df36adfa43d7b0130ac2bc17deec1175",
-      "title": "How Threat Intelligence Feeds Help Organizations Quickly Mitigate Malware Attacks",
-      "link": "https://cybersecuritynews.com/threat-intelligence-feeds-help-organizations/",
-      "date": "2025-10-28T16:21:13Z",
-      "description": "Organizations today face constant threats from malware, including ransomware, phishing attacks, and zero-day exploits. These threats are evolving faster than ever. Threat intelligence feeds emerge as a game-changer, delivering real-time, actionable data that empowers security teams to detect and neutralize attacks before they cause widespread damage. These feeds aggregate indicators of…",
-      "source": "cybersecuritynews.com",
-      "first_seen": "2025-10-28T17:10:53Z",
-      "last_seen": "2025-10-28T19:08:39Z"
-    },
-    {
-      "id": "2286bd2bb5589348dee5f666f67e03dc2981368e",
-      "title": "Researchers Expose GhostCall and GhostHire: BlueNoroff's New Malware Chains",
-      "link": "https://thehackernews.com/2025/10/researchers-expose-ghostcall-and.html",
-      "date": "2025-10-28T16:12:00Z",
-      "description": "Threat actors tied to North Korea have been observed targeting the Web3 and blockchain sectors as part of twin campaigns tracked as GhostCall and GhostHire. According to Kaspersky, the campaigns are part of a broader operation called SnatchCrypto that has been underway since at least 2017. The activity is attributed to a Lazarus Group sub-cluster called BlueNoroff, which is also known as APT38,",
-      "source": "thehackernews.com",
-      "first_seen": "2025-10-28T17:10:53Z",
-      "last_seen": "2025-10-29T10:12:44Z"
-    },
-    {
-      "id": "04d5b5554e982e82c1fd91884aef06b647fa828c",
-      "title": "North Korea's BlueNoroff Expands Scope of Crypto Heists",
-      "link": "https://www.darkreading.com/threat-intelligence/north-korea-bluenoroff-expands-crypto-heists",
-      "date": "2025-10-28T16:10:39Z",
-      "description": "Two campaigns targeting fintech execs and Web3 developers show the APT going cross-platform in financially motivated campaigns that use fake business collaboration and job recruitment lures.",
-      "source": "darkreading.com",
-      "first_seen": "2025-10-28T17:10:53Z",
       "last_seen": "2025-10-29T11:09:45Z"
     }
   ]
