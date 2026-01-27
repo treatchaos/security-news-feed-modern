@@ -1,7 +1,17 @@
 {
   "date": "2026-01-27",
-  "count": 16,
+  "count": 19,
   "items": [
+    {
+      "id": "8b8208b636c597807ad7838db2931d45bc7da5b2",
+      "title": "Have I Been Pwned: SoundCloud data breach impacts 29.8 million accounts",
+      "link": "https://www.bleepingcomputer.com/news/security/have-i-been-pwned-soundcloud-data-breach-impacts-298-million-accounts/",
+      "date": "2026-01-27T12:25:00Z",
+      "description": "Hackers have stolen the personal and contact information belonging to over 29.8 million SoundCloud user accounts after breaching the audio streaming platform's systems. [...]",
+      "source": "bleepingcomputer.com",
+      "first_seen": "2026-01-27T12:26:18Z",
+      "last_seen": "2026-01-27T12:26:18Z"
+    },
     {
       "id": "57e4e3a3859cbadeab648a7cca48973b67ecd431",
       "title": "Organizations Warned of Exploited Linux Vulnerabilities",
@@ -10,7 +20,17 @@
       "description": "The flaws allow threat actors to obtain root privileges or bypass authentication via Telnet and gain shell access as root. The post Organizations Warned of Exploited Linux Vulnerabilities appeared first on SecurityWeek.",
       "source": "securityweek.com",
       "first_seen": "2026-01-27T11:15:33Z",
-      "last_seen": "2026-01-27T11:15:33Z"
+      "last_seen": "2026-01-27T12:26:18Z"
+    },
+    {
+      "id": "1cc19a96d73f18defd8853714a4a30d666d98349",
+      "title": "Critical Grist-Core Vulnerability Allows RCE Attacks via Spreadsheet Formulas",
+      "link": "https://thehackernews.com/2026/01/critical-grist-core-vulnerability.html",
+      "date": "2026-01-27T10:36:00Z",
+      "description": "A critical security flaw has been disclosed in Grist‑Core, an open-source, self-hosted version of the Grist relational spreadsheet-database, that could result in remote code execution. The vulnerability, tracked as CVE-2026-24002 (CVSS score: 9.1), has been codenamed Cellbreak by Cyera Research Labs. \"One malicious formula can turn a spreadsheet into a Remote Code Execution (RCE) beachhead,\"",
+      "source": "thehackernews.com",
+      "first_seen": "2026-01-27T12:26:18Z",
+      "last_seen": "2026-01-27T12:26:18Z"
     },
     {
       "id": "0a2c38af70b6300868add77453690ce5abb104e1",
@@ -20,7 +40,7 @@
       "description": "Node.js version 25.5.0 was released on January 26, 2026, introducing significant developer-focused enhancements and security updates. The release prioritizes simplified application packaging through a new command-line flag while maintaining cryptographic security standards through updated certificate authorities. The most significant developer improvement in this release is the introduction of…",
       "source": "cybersecuritynews.com",
       "first_seen": "2026-01-27T11:15:33Z",
-      "last_seen": "2026-01-27T11:15:33Z"
+      "last_seen": "2026-01-27T12:26:18Z"
     },
     {
       "id": "418c52938d272ef121b2d9ca9ab8b89deffdcbe1",
@@ -30,7 +50,7 @@
       "description": "The Cybersecurity and Infrastructure Security Agency (CISA) and the United Kingdom’s National Cyber Security Centre (NCSC-UK) have jointly released comprehensive guidance on Secure Connectivity Principles for Operational Technology (OT) environments. Published on January 14, 2026, this framework addresses mounting pressures on asset owners to balance network connectivity requirements with…",
       "source": "cybersecuritynews.com",
       "first_seen": "2026-01-27T11:15:33Z",
-      "last_seen": "2026-01-27T11:15:33Z"
+      "last_seen": "2026-01-27T12:26:18Z"
     },
     {
       "id": "17dfb5451cee04a221f5752e29c8cc16e29a4924",
@@ -40,7 +60,7 @@
       "description": "A serious security vulnerability in Western Digital’s WD Discovery desktop application has been disclosed, potentially allowing attackers to execute arbitrary code on Windows systems. The flaw, tracked as CVE-2025-30248, affects WD Discovery version 5.2.730 and all prior releases. The security issue involves a DLL hijacking vulnerability within the WD Discovery installer. This type of attack […]…",
       "source": "cybersecuritynews.com",
       "first_seen": "2026-01-27T10:17:26Z",
-      "last_seen": "2026-01-27T11:15:33Z"
+      "last_seen": "2026-01-27T12:26:18Z"
     },
     {
       "id": "e276f59492e3f9d075c30bbdeb7f0612dc434562",
@@ -50,7 +70,17 @@
       "description": "Caminho Loader is a new Loader-as-a-Service threat that blends steganography, fileless execution, and cloud abuse to quietly deliver malware across several regions. First seen in March 2025 and believed to originate from Brazil, this service hides .NET payloads inside harmless-looking image files hosted on trusted platforms. Once triggered, it can deploy a wide range of […] The post Caminho…",
       "source": "cybersecuritynews.com",
       "first_seen": "2026-01-27T09:23:06Z",
-      "last_seen": "2026-01-27T11:15:33Z"
+      "last_seen": "2026-01-27T12:26:18Z"
+    },
+    {
+      "id": "6088477f6d36d1a0fc25468250fe54330c6d1df3",
+      "title": "China-Linked Hackers Have Used the PeckBirdy JavaScript C2 Framework Since 2023",
+      "link": "https://thehackernews.com/2026/01/china-linked-hackers-have-used.html",
+      "date": "2026-01-27T09:01:00Z",
+      "description": "Cybersecurity researchers have discovered a JScript-based command-and-control (C2) framework called PeckBirdy that has been put to use by China-aligned APT actors since 2023 to target multiple environments. The flexible framework has been put to use against Chinese gambling industries and malicious activities targeting Asian government entities and private organizations, according to Trend Micro",
+      "source": "thehackernews.com",
+      "first_seen": "2026-01-27T12:26:18Z",
+      "last_seen": "2026-01-27T12:26:18Z"
     },
     {
       "id": "bf596cf83e68dda53544409f98aac508a00f780f",
@@ -60,7 +90,7 @@
       "description": "A critical vulnerability has been identified in the PyPI-distributed version of PLY (Python Lex-Yacc) 3.11, allowing arbitrary code execution through unsafe deserialization of untrusted pickle files. The vulnerability, assigned CVE-2025-56005, affects the undocumented picklefile parameter in the yacc() function, which remains absent from official documentation despite being present in the…",
       "source": "cybersecuritynews.com",
       "first_seen": "2026-01-27T09:23:06Z",
-      "last_seen": "2026-01-27T11:15:33Z"
+      "last_seen": "2026-01-27T12:26:18Z"
     },
     {
       "id": "ea4b54d1a56d5902c6c5a07a7036c7704381548f",
@@ -90,7 +120,7 @@
       "description": "The vulnerability is tracked as CVE-2026-21509 and it can be exploited to bypass security features. The post Microsoft Patches Office Zero-Day Likely Exploited in Targeted Attacks appeared first on SecurityWeek.",
       "source": "securityweek.com",
       "first_seen": "2026-01-27T09:23:06Z",
-      "last_seen": "2026-01-27T11:15:33Z"
+      "last_seen": "2026-01-27T12:26:18Z"
     },
     {
       "id": "f44be10e65dbae4274a11e0366d0fc4378d60cdf",
@@ -110,7 +140,7 @@
       "description": "Microsoft on Monday issued out-of-band security patches for a high-severity Microsoft Office zero-day vulnerability exploited in attacks. The vulnerability, tracked as CVE-2026-21509, carries a CVSS score of 7.8 out of 10.0. It has been described as a security feature bypass in Microsoft Office. \"Reliance on untrusted inputs in a security decision in Microsoft Office allows an unauthorized",
       "source": "thehackernews.com",
       "first_seen": "2026-01-27T09:23:06Z",
-      "last_seen": "2026-01-27T11:15:33Z"
+      "last_seen": "2026-01-27T12:26:18Z"
     },
     {
       "id": "4034a7150ec337b797cf404d9aa8673c58643bc3",
@@ -150,7 +180,7 @@
       "description": "The post Exploit Code Publicly Released: Critical Firefox WebRTC Flaw Allows RCE (CVSS 9.8) appeared first on Daily CyberSecurity.",
       "source": "securityonline.info",
       "first_seen": "2026-01-27T01:01:20Z",
-      "last_seen": "2026-01-27T11:15:33Z"
+      "last_seen": "2026-01-27T12:26:18Z"
     },
     {
       "id": "3d250dd55a2f8e493888ee666fd380a2511ea1d7",
@@ -160,7 +190,7 @@
       "description": "A new malware-as-a-service (MaaS) called 'Stanley' promises malicious Chrome extensions that can clear Google's review process and publish them to the Chrome Web Store. [...]",
       "source": "bleepingcomputer.com",
       "first_seen": "2026-01-27T01:01:20Z",
-      "last_seen": "2026-01-27T11:15:33Z"
+      "last_seen": "2026-01-27T12:26:18Z"
     }
   ]
 }
