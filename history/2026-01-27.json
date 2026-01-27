@@ -1,7 +1,17 @@
 {
   "date": "2026-01-27",
-  "count": 12,
+  "count": 13,
   "items": [
+    {
+      "id": "17dfb5451cee04a221f5752e29c8cc16e29a4924",
+      "title": "WD Discovery Desktop App for Windows Vulnerability Enables Arbitrary Code Execution",
+      "link": "https://cybersecuritynews.com/wd-discovery-desktop-app-for-windows-vulnerability/",
+      "date": "2026-01-27T09:57:05Z",
+      "description": "A serious security vulnerability in Western Digital’s WD Discovery desktop application has been disclosed, potentially allowing attackers to execute arbitrary code on Windows systems. The flaw, tracked as CVE-2025-30248, affects WD Discovery version 5.2.730 and all prior releases. The security issue involves a DLL hijacking vulnerability within the WD Discovery installer. This type of attack […]…",
+      "source": "cybersecuritynews.com",
+      "first_seen": "2026-01-27T10:17:26Z",
+      "last_seen": "2026-01-27T10:17:26Z"
+    },
     {
       "id": "e276f59492e3f9d075c30bbdeb7f0612dc434562",
       "title": "Caminho Loader-as-a-Service Using Steganography to Conceal .NET Payloads within Image Files",
@@ -10,7 +20,7 @@
       "description": "Caminho Loader is a new Loader-as-a-Service threat that blends steganography, fileless execution, and cloud abuse to quietly deliver malware across several regions. First seen in March 2025 and believed to originate from Brazil, this service hides .NET payloads inside harmless-looking image files hosted on trusted platforms. Once triggered, it can deploy a wide range of […] The post Caminho…",
       "source": "cybersecuritynews.com",
       "first_seen": "2026-01-27T09:23:06Z",
-      "last_seen": "2026-01-27T09:23:06Z"
+      "last_seen": "2026-01-27T10:17:26Z"
     },
     {
       "id": "bf596cf83e68dda53544409f98aac508a00f780f",
@@ -20,7 +30,7 @@
       "description": "A critical vulnerability has been identified in the PyPI-distributed version of PLY (Python Lex-Yacc) 3.11, allowing arbitrary code execution through unsafe deserialization of untrusted pickle files. The vulnerability, assigned CVE-2025-56005, affects the undocumented picklefile parameter in the yacc() function, which remains absent from official documentation despite being present in the…",
       "source": "cybersecuritynews.com",
       "first_seen": "2026-01-27T09:23:06Z",
-      "last_seen": "2026-01-27T09:23:06Z"
+      "last_seen": "2026-01-27T10:17:26Z"
     },
     {
       "id": "ea4b54d1a56d5902c6c5a07a7036c7704381548f",
@@ -30,7 +40,7 @@
       "description": "Advanced persistent threat actors operating from Pakistan have launched coordinated attacks against Indian government organizations using newly discovered tools and malware designed to bypass security defenses. The campaign, identified as Gopher Strike, emerged in September 2025 and represents a significant escalation in targeted cyber operations against sensitive government infrastructure. This…",
       "source": "cybersecuritynews.com",
       "first_seen": "2026-01-27T09:23:06Z",
-      "last_seen": "2026-01-27T09:23:06Z"
+      "last_seen": "2026-01-27T10:17:26Z"
     },
     {
       "id": "8a83cd93e75cb9bb24ee588f06a0a40edb5b45ee",
@@ -40,7 +50,7 @@
       "description": "Multiple critical security vulnerabilities have recently been disclosed in React Server Components, enabling threat actors to launch Denial-of-Service (DoS) attacks against vulnerable servers. The flaws, tracked as CVE-2026-23864 with a CVSS score of 7.5, are due to incomplete patches from previous security fixes and require immediate remediation. Security researchers discovered additional…",
       "source": "cybersecuritynews.com",
       "first_seen": "2026-01-27T09:23:06Z",
-      "last_seen": "2026-01-27T09:23:06Z"
+      "last_seen": "2026-01-27T10:17:26Z"
     },
     {
       "id": "d857936245dacad2458ee3139e363003a663d008",
@@ -50,7 +60,7 @@
       "description": "The vulnerability is tracked as CVE-2026-21509 and it can be exploited to bypass security features. The post Microsoft Patches Office Zero-Day Likely Exploited in Targeted Attacks appeared first on SecurityWeek.",
       "source": "securityweek.com",
       "first_seen": "2026-01-27T09:23:06Z",
-      "last_seen": "2026-01-27T09:23:06Z"
+      "last_seen": "2026-01-27T10:17:26Z"
     },
     {
       "id": "f44be10e65dbae4274a11e0366d0fc4378d60cdf",
@@ -70,7 +80,7 @@
       "description": "Microsoft on Monday issued out-of-band security patches for a high-severity Microsoft Office zero-day vulnerability exploited in attacks. The vulnerability, tracked as CVE-2026-21509, carries a CVSS score of 7.8 out of 10.0. It has been described as a security feature bypass in Microsoft Office. \"Reliance on untrusted inputs in a security decision in Microsoft Office allows an unauthorized",
       "source": "thehackernews.com",
       "first_seen": "2026-01-27T09:23:06Z",
-      "last_seen": "2026-01-27T09:23:06Z"
+      "last_seen": "2026-01-27T10:17:26Z"
     },
     {
       "id": "4034a7150ec337b797cf404d9aa8673c58643bc3",
@@ -110,7 +120,7 @@
       "description": "The post Exploit Code Publicly Released: Critical Firefox WebRTC Flaw Allows RCE (CVSS 9.8) appeared first on Daily CyberSecurity.",
       "source": "securityonline.info",
       "first_seen": "2026-01-27T01:01:20Z",
-      "last_seen": "2026-01-27T09:23:06Z"
+      "last_seen": "2026-01-27T10:17:26Z"
     },
     {
       "id": "3d250dd55a2f8e493888ee666fd380a2511ea1d7",
@@ -120,7 +130,7 @@
       "description": "A new malware-as-a-service (MaaS) called 'Stanley' promises malicious Chrome extensions that can clear Google's review process and publish them to the Chrome Web Store. [...]",
       "source": "bleepingcomputer.com",
       "first_seen": "2026-01-27T01:01:20Z",
-      "last_seen": "2026-01-27T09:23:06Z"
+      "last_seen": "2026-01-27T10:17:26Z"
     }
   ]
 }
