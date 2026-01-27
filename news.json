@@ -1,7 +1,42 @@
 {
-  "last_updated": "2026-01-27T08:18:50Z",
+  "last_updated": "2026-01-27T09:23:06Z",
   "count": 40,
   "items": [
+    {
+      "title": "Caminho Loader-as-a-Service Using Steganography to Conceal .NET Payloads within Image Files",
+      "link": "https://cybersecuritynews.com/caminho-loader-as-a-service-using-steganography/",
+      "date": "2026-01-27T09:17:00Z",
+      "description": "Caminho Loader is a new Loader-as-a-Service threat that blends steganography, fileless execution, and cloud abuse to quietly deliver malware across several regions. First seen in March 2025 and believed to originate from Brazil, this service hides .NET payloads inside harmless-looking image files hosted on trusted platforms. Once triggered, it can deploy a wide range of […] The post Caminho…",
+      "source": "cybersecuritynews.com"
+    },
+    {
+      "title": "Critical Vulnerability in Python PLY Library Enables Remote Code Execution – PoC Published",
+      "link": "https://cybersecuritynews.com/python-ply-library-vulnerability/",
+      "date": "2026-01-27T08:53:01Z",
+      "description": "A critical vulnerability has been identified in the PyPI-distributed version of PLY (Python Lex-Yacc) 3.11, allowing arbitrary code execution through unsafe deserialization of untrusted pickle files. The vulnerability, assigned CVE-2025-56005, affects the undocumented picklefile parameter in the yacc() function, which remains absent from official documentation despite being present in the…",
+      "source": "cybersecuritynews.com"
+    },
+    {
+      "title": "APT Hackers Attacking Indian Government Using GOGITTER Tool and GITSHELLPAD Malware",
+      "link": "https://cybersecuritynews.com/apt-hackers-attacking-indian-government-using-gogitter-tool/",
+      "date": "2026-01-27T08:47:32Z",
+      "description": "Advanced persistent threat actors operating from Pakistan have launched coordinated attacks against Indian government organizations using newly discovered tools and malware designed to bypass security defenses. The campaign, identified as Gopher Strike, emerged in September 2025 and represents a significant escalation in targeted cyber operations against sensitive government infrastructure. This…",
+      "source": "cybersecuritynews.com"
+    },
+    {
+      "title": "Multiple Vulnerabilities in React Server Components Enable DoS Attacks",
+      "link": "https://cybersecuritynews.com/react-server-components-vulnerability/",
+      "date": "2026-01-27T08:46:52Z",
+      "description": "Multiple critical security vulnerabilities have recently been disclosed in React Server Components, enabling threat actors to launch Denial-of-Service (DoS) attacks against vulnerable servers. The flaws, tracked as CVE-2026-23864 with a CVSS score of 7.5, are due to incomplete patches from previous security fixes and require immediate remediation. Security researchers discovered additional…",
+      "source": "cybersecuritynews.com"
+    },
+    {
+      "title": "Microsoft Patches Office Zero-Day Likely Exploited in Targeted Attacks",
+      "link": "https://www.securityweek.com/microsoft-patches-office-zero-day-likely-exploited-in-targeted-attacks/",
+      "date": "2026-01-27T08:41:04Z",
+      "description": "The vulnerability is tracked as CVE-2026-21509 and it can be exploited to bypass security features. The post Microsoft Patches Office Zero-Day Likely Exploited in Targeted Attacks appeared first on SecurityWeek.",
+      "source": "securityweek.com"
+    },
     {
       "title": "China-Aligned APTs Use PeckBirdy C&C Framework in Multi-Vector Attacks, Exploiting Stolen Certificates",
       "link": "https://cybersecuritynews.com/china-aligned-apts-use-peckbirdy-cc-framework/",
@@ -10,25 +45,11 @@
       "source": "cybersecuritynews.com"
     },
     {
-      "title": "Threat Actors Using Fake Notepad++ and 7-zip Websites to Deploy Remote Monitoring Tools",
-      "link": "https://cybersecuritynews.com/threat-actors-using-fake-notepad-and-7-zip-websites/",
-      "date": "2026-01-27T06:47:09Z",
-      "description": "Cybercriminals are increasingly distributing malicious Remote Monitoring and Management (RMM) tools through fake websites that mimic popular software download pages. These deceptive sites impersonate legitimate utilities like Notepad++ and 7-Zip, tricking users into installing remote access tools such as LogMeIn Resolve instead of the software they intended to download. Once installed, these RMM…",
-      "source": "cybersecuritynews.com"
-    },
-    {
-      "title": "Microsoft Office Zero-day Vulnerability Actively Exploited in Attacks",
-      "link": "https://cybersecuritynews.com/microsoft-office-zero-day-vulnerability-2/",
-      "date": "2026-01-27T03:46:33Z",
-      "description": "Microsoft released emergency out-of-band security updates on January 26, 2026, to address CVE-2026-21509, a zero-day security feature bypass vulnerability in Microsoft Office that attackers are actively exploiting. The flaw, rated “Important” with a CVSS v3.1 base score of 7.8, relies on untrusted inputs in security decisions to circumvent OLE mitigations protecting against vulnerable COM/OLE…",
-      "source": "cybersecuritynews.com"
-    },
-    {
-      "title": "New Lawsuit Claims that Meta Can Read All the WhatsApp Users Messages",
-      "link": "https://cybersecuritynews.com/whatsapp-lawsuit/",
-      "date": "2026-01-27T03:19:02Z",
-      "description": "A new class-action lawsuit accuses Meta Platforms of misleading billions of WhatsApp users by claiming their messages are protected by unbreakable end-to-end encryption. Filed in the San Francisco federal court, the suit alleges the company secretly stores, analyzes, and grants employee access to chat contents via internal tools. Plaintiffs from Australia, Brazil, India, Mexico, and […] The post…",
-      "source": "cybersecuritynews.com"
+      "title": "Microsoft Office Zero-Day (CVE-2026-21509) - Emergency Patch Issued for Active Exploitation",
+      "link": "https://thehackernews.com/2026/01/microsoft-issues-emergency-patch-for.html",
+      "date": "2026-01-27T07:19:00Z",
+      "description": "Microsoft on Monday issued out-of-band security patches for a high-severity Microsoft Office zero-day vulnerability exploited in attacks. The vulnerability, tracked as CVE-2026-21509, carries a CVSS score of 7.8 out of 10.0. It has been described as a security feature bypass in Microsoft Office. \"Reliance on untrusted inputs in a security decision in Microsoft Office allows an unauthorized",
+      "source": "thehackernews.com"
     },
     {
       "title": "Exploit Code Publicly Released: Critical Firefox WebRTC Flaw Allows RCE (CVSS 9.8)",
@@ -57,13 +78,6 @@
       "date": "2026-01-26T21:30:14Z",
       "description": "Researchers attributed the failed attempt to the infamous Russian APT Sandworm, which is notorious for wiper attacks on critical infrastructure organizations.",
       "source": "darkreading.com"
-    },
-    {
-      "title": "Best VPN Services of 2026: Fast, Secure & Affordable",
-      "link": "https://cybersecuritynews.com/best-vpn-services/",
-      "date": "2026-01-26T19:30:02Z",
-      "description": "In today’s digital world, online privacy and security have never been more important. With cybercrime on the rise and government surveillance becoming more common, protecting your personal information online is crucial. Whether you’re browsing on public Wi-Fi, shopping online, or just scrolling through social media, using a Virtual Private Network (VPN) is one of the […] The post Best VPN…",
-      "source": "cybersecuritynews.com"
     },
     {
       "title": "Microsoft patches actively exploited Office zero-day vulnerability",
@@ -143,24 +157,10 @@
       "source": "thehackernews.com"
     },
     {
-      "title": "‘Stanley’ Malware Toolkit Enables Phishing via Website Spoofing",
-      "link": "https://www.securityweek.com/stanley-malware-toolkit-enables-phishing-via-website-spoofing/",
-      "date": "2026-01-26T11:44:38Z",
-      "description": "Priced $2,000 - $6,000 on a cybercrime forum, the MaaS toolkit promises publication on the Chrome Web Store. The post ‘Stanley’ Malware Toolkit Enables Phishing via Website Spoofing appeared first on SecurityWeek.",
-      "source": "securityweek.com"
-    },
-    {
       "title": "Winning Against AI-Based Attacks Requires a Combined Defensive Approach",
       "link": "https://thehackernews.com/2026/01/winning-against-ai-based-attacks.html",
       "date": "2026-01-26T11:30:00Z",
       "description": "If there’s a constant in cybersecurity, it’s that adversaries are always innovating. The rise of offensive AI is transforming attack strategies and making them harder to detect. Google’s Threat Intelligence Group, recently reported on adversaries using Large Language Models (LLMs) to both conceal code and generate malicious scripts on the fly, letting malware shape-shift in real-time to evade",
-      "source": "thehackernews.com"
-    },
-    {
-      "title": "Konni Hackers Deploy AI-Generated PowerShell Backdoor Against Blockchain Developers",
-      "link": "https://thehackernews.com/2026/01/konni-hackers-deploy-ai-generated.html",
-      "date": "2026-01-26T08:54:00Z",
-      "description": "The North Korean threat actor known as Konni has been observed using PowerShell malware generated using artificial intelligence (AI) tools to target developers and engineering teams in the blockchain sector. The phishing campaign has targeted Japan, Australia, and India, highlighting the adversary's expansion of the targeting scope beyond South Korea, Russia, Ukraine, and European nations, Check",
       "source": "thehackernews.com"
     },
     {
