@@ -1,7 +1,28 @@
 {
-  "last_updated": "2026-01-28T05:20:40Z",
+  "last_updated": "2026-01-28T06:22:14Z",
   "count": 40,
   "items": [
+    {
+      "title": "Fortinet Disabled FortiCloud SSO Following 0-day Vulnerability Exploited in the Wild",
+      "link": "https://cybersecuritynews.com/fortinet-disabled-forticloud-sso-0-day/",
+      "date": "2026-01-28T06:20:44Z",
+      "description": "Fortinet temporarily disabled its FortiCloud Single Sign-On (SSO) service after confirming active exploitation of a zero-day authentication bypass vulnerability in multiple products. The issue, tracked as FG-IR-26-060, allows attackers with a malicious FortiCloud account to log into devices registered to other accounts. The flaw stems from an Authentication Bypass Using an Alternate Path or…",
+      "source": "cybersecuritynews.com"
+    },
+    {
+      "title": "OpenSSL Vulnerabilities Allow Remote Attackers to Execute Malicious Code",
+      "link": "https://cybersecuritynews.com/openssl-vulnerabilities-code-execution/",
+      "date": "2026-01-28T05:52:57Z",
+      "description": "OpenSSL patched 12 vulnerabilities on January 27, 2026, including one high-severity flaw that could lead to remote code execution. Most issues cause denial-of-service attacks but highlight risks in parsing untrusted data. The most serious issue, CVE-2025-15467, hits CMS AuthEnvelopedData parsing with AEAD ciphers like AES-GCM. Attackers craft oversized IVs in ASN.1 parameters, causing stack…",
+      "source": "cybersecuritynews.com"
+    },
+    {
+      "title": "Google Warns of WinRAR Vulnerability Exploited to Gain Control Over Windows System",
+      "link": "https://cybersecuritynews.com/google-warns-of-winrar-vulnerability-exploited/",
+      "date": "2026-01-28T05:42:26Z",
+      "description": "A critical security flaw in WinRAR, one of the most widely used file compression tools for Windows, has become a favorite weapon for attackers seeking unauthorized access to computer systems. The vulnerability, tracked as CVE-2025-8088, allows threat actors to place malicious files into sensitive system directories without user awareness, essentially handing over control of Windows […] The post…",
+      "source": "cybersecuritynews.com"
+    },
     {
       "title": "Fortinet Patches CVE-2026-24858 After Active FortiOS SSO Exploitation Detected",
       "link": "https://thehackernews.com/2026/01/fortinet-patches-cve-2026-24858-after.html",
@@ -87,13 +108,6 @@
       "source": "cybersecuritynews.com"
     },
     {
-      "title": "Instagram, Facebook, and WhatsApp to Test New Premium Subscriptions",
-      "link": "https://cybersecuritynews.com/meta-premium-subscriptions/",
-      "date": "2026-01-27T16:57:30Z",
-      "description": "Meta is gearing up to roll out premium subscription tiers across its flagship apps, Instagram, Facebook, and WhatsApp, offering users exclusive features to boost productivity, creativity, and AI-driven interactions. The company confirmed the plans to emphasize that core app experiences will remain free while paid tiers unlock advanced controls for sharing and connectivity. This move […] The post…",
-      "source": "cybersecuritynews.com"
-    },
-    {
       "title": "WhatsApp Rolls Out Lockdown-Style Security Mode to Protect Targeted Users From Spyware",
       "link": "https://thehackernews.com/2026/01/whatsapp-rolls-out-lockdown-style.html",
       "date": "2026-01-27T16:54:00Z",
@@ -113,20 +127,6 @@
       "date": "2026-01-27T16:45:00Z",
       "description": "Indian government entities have been targeted in two campaigns undertaken by a threat actor that operates in Pakistan using previously undocumented tradecraft. The campaigns have been codenamed Gopher Strike and Sheet Attack by Zscaler ThreatLabz, which identified them in September 2025. \"While these campaigns share some similarities with the Pakistan-linked Advanced Persistent Threat (APT)",
       "source": "thehackernews.com"
-    },
-    {
-      "title": "G_Wagon npm Package Attacking Users to Exfiltrates Browser Credentials using Obfuscated Payload",
-      "link": "https://cybersecuritynews.com/g_wagon-npm-package-attacking-users/",
-      "date": "2026-01-27T16:25:32Z",
-      "description": "On January 23rd, 2026, security researchers discovered a dangerous npm package named ansi-universal-ui that disguised itself as a legitimate user interface component library. The deceptive package description claimed to offer a lightweight UI system for modern web applications. However, beneath this innocent facade lay G_Wagon, a highly sophisticated multi-stage information stealer designed to…",
-      "source": "cybersecuritynews.com"
-    },
-    {
-      "title": "Hackers Exploit Teams Functionality to Steal Credentials Mimicking Microsoft Services",
-      "link": "https://cybersecuritynews.com/teams-to-deliver-malicious-content/",
-      "date": "2026-01-27T16:05:25Z",
-      "description": "A sophisticated phishing campaign has been identified in which threat actors are abusing legitimate Microsoft Teams functionality to distribute malicious content that appears to originate from trusted Microsoft services. By leveraging the platform’s “Invite a Guest” feature and crafting deceptive team names, attackers are bypassing traditional email security controls to deliver fraudulent…",
-      "source": "cybersecuritynews.com"
     },
     {
       "title": "Memcyco Raises $37 Million for Anti-Impersonation Technology",
@@ -181,7 +181,7 @@
       "title": "ZDI-CAN-28673: pdfforge",
       "link": "http://www.zerodayinitiative.com/advisories/upcoming/",
       "date": "2026-01-27T06:00:00Z",
-      "description": "A CVSS score 7.8 AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H severity vulnerability discovered by 'soiax' was reported to the affected vendor on: 2026-01-27, 0 days ago. The vendor is given until 2026-05-27 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
+      "description": "A CVSS score 7.8 AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H severity vulnerability discovered by 'soiax' was reported to the affected vendor on: 2026-01-27, 1 days ago. The vendor is given until 2026-05-27 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
       "source": "zerodayinitiative.com"
     },
     {
@@ -216,28 +216,28 @@
       "title": "ZDI-CAN-27843: Delta Electronics",
       "link": "http://www.zerodayinitiative.com/advisories/upcoming/",
       "date": "2026-01-22T06:00:00Z",
-      "description": "A CVSS score 7.8 AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H severity vulnerability discovered by 'kimiya' was reported to the affected vendor on: 2026-01-22, 5 days ago. The vendor is given until 2026-04-22 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
+      "description": "A CVSS score 7.8 AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H severity vulnerability discovered by 'kimiya' was reported to the affected vendor on: 2026-01-22, 6 days ago. The vendor is given until 2026-04-22 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
       "source": "zerodayinitiative.com"
     },
     {
       "title": "ZDI-CAN-28759: Siemens",
       "link": "http://www.zerodayinitiative.com/advisories/upcoming/",
       "date": "2026-01-22T06:00:00Z",
-      "description": "A CVSS score 8.8 AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H severity vulnerability discovered by 'Rocco Calvi (@TecR0c) with TecSecurity' was reported to the affected vendor on: 2026-01-22, 5 days ago. The vendor is given until 2026-05-22 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
+      "description": "A CVSS score 8.8 AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H severity vulnerability discovered by 'Rocco Calvi (@TecR0c) with TecSecurity' was reported to the affected vendor on: 2026-01-22, 6 days ago. The vendor is given until 2026-05-22 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
       "source": "zerodayinitiative.com"
     },
     {
       "title": "ZDI-CAN-28834: Netdata",
       "link": "http://www.zerodayinitiative.com/advisories/upcoming/",
       "date": "2026-01-22T06:00:00Z",
-      "description": "A CVSS score 7.8 AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H severity vulnerability discovered by 'welpsigh' was reported to the affected vendor on: 2026-01-22, 5 days ago. The vendor is given until 2026-05-22 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
+      "description": "A CVSS score 7.8 AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H severity vulnerability discovered by 'welpsigh' was reported to the affected vendor on: 2026-01-22, 6 days ago. The vendor is given until 2026-05-22 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
       "source": "zerodayinitiative.com"
     },
     {
       "title": "ZDI-CAN-28327: QNAP",
       "link": "http://www.zerodayinitiative.com/advisories/upcoming/",
       "date": "2026-01-22T06:00:00Z",
-      "description": "A CVSS score 8.8 AV:A/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H severity vulnerability discovered by 'Daniel FREDERIC from Fuzzinglabs, Julien COHEN-SCALI from Fuzzinglabs, Patrick VENTUZELO from Fuzzinglabs' was reported to the affected vendor on: 2026-01-22, 5 days ago. The vendor is given until 2026-05-22 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate…",
+      "description": "A CVSS score 8.8 AV:A/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H severity vulnerability discovered by 'Daniel FREDERIC from Fuzzinglabs, Julien COHEN-SCALI from Fuzzinglabs, Patrick VENTUZELO from Fuzzinglabs' was reported to the affected vendor on: 2026-01-22, 6 days ago. The vendor is given until 2026-05-22 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate…",
       "source": "zerodayinitiative.com"
     },
     {

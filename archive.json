@@ -1,7 +1,7 @@
 {
-  "last_updated": "2026-01-28T05:20:40Z",
+  "last_updated": "2026-01-28T06:22:14Z",
   "retention_days": 90,
-  "count": 3415,
+  "count": 3417,
   "items": [
     {
       "id": "ad2f81caf2212cb4984f6e8476b080821f33a7a1",
@@ -24,6 +24,36 @@
       "last_seen": "2026-01-15T21:12:34Z"
     },
     {
+      "id": "7401870c05f80a6e903d38dd807552edc31029c3",
+      "title": "Fortinet Disabled FortiCloud SSO Following 0-day Vulnerability Exploited in the Wild",
+      "link": "https://cybersecuritynews.com/fortinet-disabled-forticloud-sso-0-day/",
+      "date": "2026-01-28T06:20:44Z",
+      "description": "Fortinet temporarily disabled its FortiCloud Single Sign-On (SSO) service after confirming active exploitation of a zero-day authentication bypass vulnerability in multiple products. The issue, tracked as FG-IR-26-060, allows attackers with a malicious FortiCloud account to log into devices registered to other accounts. The flaw stems from an Authentication Bypass Using an Alternate Path or…",
+      "source": "cybersecuritynews.com",
+      "first_seen": "2026-01-28T06:22:14Z",
+      "last_seen": "2026-01-28T06:22:14Z"
+    },
+    {
+      "id": "33e765712c9b0c0aeade56c46143ac2b9f35a52c",
+      "title": "OpenSSL Vulnerabilities Allow Remote Attackers to Execute Malicious Code",
+      "link": "https://cybersecuritynews.com/openssl-vulnerabilities-code-execution/",
+      "date": "2026-01-28T05:52:57Z",
+      "description": "OpenSSL patched 12 vulnerabilities on January 27, 2026, including one high-severity flaw that could lead to remote code execution. Most issues cause denial-of-service attacks but highlight risks in parsing untrusted data. The most serious issue, CVE-2025-15467, hits CMS AuthEnvelopedData parsing with AEAD ciphers like AES-GCM. Attackers craft oversized IVs in ASN.1 parameters, causing stack…",
+      "source": "cybersecuritynews.com",
+      "first_seen": "2026-01-28T06:22:14Z",
+      "last_seen": "2026-01-28T06:22:14Z"
+    },
+    {
+      "id": "e1acfefde5e333e7e8aee7661e57746ada6643e7",
+      "title": "Google Warns of WinRAR Vulnerability Exploited to Gain Control Over Windows System",
+      "link": "https://cybersecuritynews.com/google-warns-of-winrar-vulnerability-exploited/",
+      "date": "2026-01-28T05:42:26Z",
+      "description": "A critical security flaw in WinRAR, one of the most widely used file compression tools for Windows, has become a favorite weapon for attackers seeking unauthorized access to computer systems. The vulnerability, tracked as CVE-2025-8088, allows threat actors to place malicious files into sensitive system directories without user awareness, essentially handing over control of Windows […] The post…",
+      "source": "cybersecuritynews.com",
+      "first_seen": "2026-01-28T06:22:14Z",
+      "last_seen": "2026-01-28T06:22:14Z"
+    },
+    {
       "id": "a4343dfc89430659a05c5ad7d65a73709e8e5c10",
       "title": "Fortinet Patches CVE-2026-24858 After Active FortiOS SSO Exploitation Detected",
       "link": "https://thehackernews.com/2026/01/fortinet-patches-cve-2026-24858-after.html",
@@ -31,7 +61,7 @@
       "description": "Fortinet has begun releasing security updates to address a critical flaw impacting FortiOS that has come under active exploitation in the wild. The vulnerability, assigned the CVE identifier CVE-2026-24858 (CVSS score: 9.4), has been described as an authentication bypass related to FortiOS single sign-on (SSO). The flaw also affects FortiManager and FortiAnalyzer. The company said it's",
       "source": "thehackernews.com",
       "first_seen": "2026-01-28T05:20:40Z",
-      "last_seen": "2026-01-28T05:20:40Z"
+      "last_seen": "2026-01-28T06:22:14Z"
     },
     {
       "id": "e6477f6434f3065f155bbf00f3ab6f0b6ffd2311",
@@ -41,7 +71,7 @@
       "description": "A critical sandbox escape vulnerability has been identified in vm2. This widely used Node.js library provides sandbox isolation for executing untrusted code. The flaw, tracked as CVE-2026-22709 (GHSA-99p7-6v5w-7xg8), affects all versions up to and including 3.10.0 and carries a CVSS v3.1 base score of 10.0, indicating maximum severity. The vulnerability stems from incomplete callback…",
       "source": "cybersecuritynews.com",
       "first_seen": "2026-01-28T03:01:50Z",
-      "last_seen": "2026-01-28T05:20:40Z"
+      "last_seen": "2026-01-28T06:22:14Z"
     },
     {
       "id": "7c0e310d2c058241e21abed48ad681a6830b4e7f",
@@ -51,7 +81,7 @@
       "description": "OpenAI plans to begin rolling out ads on ChatGPT in the United States if you have a free or $8 Go subscription, but the catch is that the ads could be very expensive for advertisers. [...]",
       "source": "bleepingcomputer.com",
       "first_seen": "2026-01-28T00:58:36Z",
-      "last_seen": "2026-01-28T05:20:40Z"
+      "last_seen": "2026-01-28T06:22:14Z"
     },
     {
       "id": "5388da7e495133793505c5fef41f63e98cede846",
@@ -61,7 +91,7 @@
       "description": "Fortinet has confirmed a new, actively exploited critical FortiCloud single sign-on (SSO) authentication bypass vulnerability, tracked as CVE-2026-24858, and says it has mitigated the zero-day attacks by blocking FortiCloud SSO connections from devices running vulnerable firmware versions. [...]",
       "source": "bleepingcomputer.com",
       "first_seen": "2026-01-28T00:58:36Z",
-      "last_seen": "2026-01-28T05:20:40Z"
+      "last_seen": "2026-01-28T06:22:14Z"
     },
     {
       "id": "a12542fbbcb04b7ac10b72a23e652f0ad7ffaf30",
@@ -71,7 +101,7 @@
       "description": "AI \"model collapse,\" where LLMs over time train on more and more AI-generated data and become degraded as a result, can introduce inaccuracies, promulgate malicious activity, and impact PII protections.",
       "source": "darkreading.com",
       "first_seen": "2026-01-27T23:12:55Z",
-      "last_seen": "2026-01-28T05:20:40Z"
+      "last_seen": "2026-01-28T06:22:14Z"
     },
     {
       "id": "f0e9e7410ab3afe4d1123be13998d975c5357158",
@@ -81,7 +111,7 @@
       "description": "The Chinese espionage threat group Mustang Panda has updated its CoolClient backdoor to a new variant that can steal login data from browsers and monitor the clipboard. [...]",
       "source": "bleepingcomputer.com",
       "first_seen": "2026-01-27T23:12:55Z",
-      "last_seen": "2026-01-28T05:20:40Z"
+      "last_seen": "2026-01-28T06:22:14Z"
     },
     {
       "id": "3063a8fe3f8333f2a6659b365e5776fd3262cdb7",
@@ -91,7 +121,7 @@
       "description": "A new ransomware strain that entered the scene last year has poorly designed code and an odd \"Hebrew\" identity that might be a false flag.",
       "source": "darkreading.com",
       "first_seen": "2026-01-27T23:12:55Z",
-      "last_seen": "2026-01-28T05:20:40Z"
+      "last_seen": "2026-01-28T06:22:14Z"
     },
     {
       "id": "2db2a958b0649ca70e82f4eb8055e30cc4863449",
@@ -101,7 +131,7 @@
       "description": "While telnet is considered obsolete, the network protocol is still used by hundreds of thousands of legacy systems and IoT devices for remote access.",
       "source": "darkreading.com",
       "first_seen": "2026-01-27T22:13:58Z",
-      "last_seen": "2026-01-28T05:20:40Z"
+      "last_seen": "2026-01-28T06:22:14Z"
     },
     {
       "id": "1ba25fcd6f665857abdf6e2aa7971726cf787592",
@@ -111,7 +141,7 @@
       "description": "To exploit the vulnerability, an attacker would need either system access or be able to convince a user to open a malicious Office file.",
       "source": "darkreading.com",
       "first_seen": "2026-01-27T22:13:58Z",
-      "last_seen": "2026-01-28T05:20:40Z"
+      "last_seen": "2026-01-28T06:22:14Z"
     },
     {
       "id": "f1779e3e0cee61c04946d90d931e68f7c0dac392",
@@ -121,7 +151,7 @@
       "description": "Multiple threat actors, both state-sponsored and financially motivated, are exploiting the CVE-2025-8088 high-severity vulnerability in WinRAR for initial access and to deliver various malicious payloads. [...]",
       "source": "bleepingcomputer.com",
       "first_seen": "2026-01-27T20:13:33Z",
-      "last_seen": "2026-01-28T05:20:40Z"
+      "last_seen": "2026-01-28T06:22:14Z"
     },
     {
       "id": "ded8f9871cdfa84d7706bbf58706b34398514cdd",
@@ -131,7 +161,7 @@
       "description": "The malware-as-a-service kit enables malicious extensions to overlay pages on real websites without changing the visible URL, signaling a fresh challenge for enterprise security.",
       "source": "darkreading.com",
       "first_seen": "2026-01-27T22:13:58Z",
-      "last_seen": "2026-01-28T05:20:40Z"
+      "last_seen": "2026-01-28T06:22:14Z"
     },
     {
       "id": "a10ae5ff80617d84afc0e99927bb92bfa5271337",
@@ -141,7 +171,7 @@
       "description": "Cybercriminals have discovered a dangerous way to trick developers into downloading malware by exploiting how GitHub works. The attack involves creating fake versions of the GitHub Desktop installer and making them appear legitimate to unsuspecting users. Between September and October 2025, this campaign primarily targeted users in Europe and the European Economic Area, though infections […] The…",
       "source": "cybersecuritynews.com",
       "first_seen": "2026-01-27T17:20:17Z",
-      "last_seen": "2026-01-28T05:20:40Z"
+      "last_seen": "2026-01-28T06:22:14Z"
     },
     {
       "id": "204cda3f1e33f33283cce84f5d38dcbcd2439da7",
@@ -161,7 +191,7 @@
       "description": "Meta on Tuesday announced it's adding Strict Account Settings on WhatsApp to secure certain users against advanced cyber attacks because of who they are and what they do. The feature, similar to Lockdown Mode in Apple iOS and Advanced Protection in Android, aims to protect individuals, such as journalists or public-facing figures, from sophisticated spyware by trading some functionality for",
       "source": "thehackernews.com",
       "first_seen": "2026-01-27T18:23:43Z",
-      "last_seen": "2026-01-28T05:20:40Z"
+      "last_seen": "2026-01-28T06:22:14Z"
     },
     {
       "id": "c2e0c51bb614f1f7e41882c0761459728ec6cc05",
@@ -171,7 +201,7 @@
       "description": "Nike is investigating what it described as a \"potential cyber security incident\" after the World Leaks ransomware gang leaked 1.4 TB of files allegedly stolen from the sportswear giant. [...]",
       "source": "bleepingcomputer.com",
       "first_seen": "2026-01-27T17:20:17Z",
-      "last_seen": "2026-01-28T05:20:40Z"
+      "last_seen": "2026-01-28T06:22:14Z"
     },
     {
       "id": "8f2bf2786758dffa492083e055cad4d7789848a1",
@@ -181,7 +211,7 @@
       "description": "Indian government entities have been targeted in two campaigns undertaken by a threat actor that operates in Pakistan using previously undocumented tradecraft. The campaigns have been codenamed Gopher Strike and Sheet Attack by Zscaler ThreatLabz, which identified them in September 2025. \"While these campaigns share some similarities with the Pakistan-linked Advanced Persistent Threat (APT)",
       "source": "thehackernews.com",
       "first_seen": "2026-01-27T18:23:43Z",
-      "last_seen": "2026-01-28T05:20:40Z"
+      "last_seen": "2026-01-28T06:22:14Z"
     },
     {
       "id": "da8b51152d35b9eb5ac3cac732abd256b707e2ad",
@@ -261,7 +291,7 @@
       "description": "The startup will use the investment to fuel global expansion of its agentless platform, including in Latin America. The post Memcyco Raises $37 Million for Anti-Impersonation Technology appeared first on SecurityWeek.",
       "source": "securityweek.com",
       "first_seen": "2026-01-27T16:18:13Z",
-      "last_seen": "2026-01-28T05:20:40Z"
+      "last_seen": "2026-01-28T06:22:14Z"
     },
     {
       "id": "38e2bfd5fe46954a7dcfcf6fb3053a449b6c8ff2",
@@ -281,7 +311,7 @@
       "description": "Domains set up by the threat actor suggest attacks aimed at Atlassian, Canva, Epic Games, HubSpot, Moderna, ZoomInfo, and WeWork. The post Over 100 Organizations Targeted in ShinyHunters Phishing Campaign appeared first on SecurityWeek.",
       "source": "securityweek.com",
       "first_seen": "2026-01-27T15:21:17Z",
-      "last_seen": "2026-01-28T05:20:40Z"
+      "last_seen": "2026-01-28T06:22:14Z"
     },
     {
       "id": "b6d2e08f35e811a8b84759331ca289850e713c79",
@@ -291,7 +321,7 @@
       "description": "Cybersecurity researchers have disclosed details of a new campaign that combines ClickFix-style fake CAPTCHAs with a signed Microsoft Application Virtualization (App-V) script to distribute an information stealer called Amatera. \"Instead of launching PowerShell directly, the attacker uses this script to control how execution begins and to avoid more common, easily recognized execution paths,\"",
       "source": "thehackernews.com",
       "first_seen": "2026-01-27T15:21:17Z",
-      "last_seen": "2026-01-28T05:20:40Z"
+      "last_seen": "2026-01-28T06:22:14Z"
     },
     {
       "id": "79908cd3f9242007b35e6b085dec2f9898ed0dea",
@@ -341,7 +371,7 @@
       "description": "The protections against NPM supply chain attacks could be bypassed, leading to arbitrary code execution. The post ‘PackageGate’ Flaws Open JavaScript Ecosystem to Supply Chain Attacks appeared first on SecurityWeek.",
       "source": "securityweek.com",
       "first_seen": "2026-01-27T14:21:23Z",
-      "last_seen": "2026-01-28T05:20:40Z"
+      "last_seen": "2026-01-28T06:22:14Z"
     },
     {
       "id": "8aa57ba9cc1f6143f99e5f2f395a9929b51c4452",
@@ -371,7 +401,7 @@
       "description": "Quantum computers are coming, with a potential computing power almost beyond comprehension. The post Cyber Insights 2026: Quantum Computing and the Potential Synergy With Advanced AI appeared first on SecurityWeek.",
       "source": "securityweek.com",
       "first_seen": "2026-01-27T13:39:18Z",
-      "last_seen": "2026-01-28T05:20:40Z"
+      "last_seen": "2026-01-28T06:22:14Z"
     },
     {
       "id": "ec3ea35b3cf6185f010644480b16562eeada1a33",
@@ -381,7 +411,7 @@
       "description": "Marketed as ChatGPT enhancement and productivity tools, the extensions allow the threat actor to access the victim's ChatGPT data. The post Chrome, Edge Extensions Caught Stealing ChatGPT Sessions appeared first on SecurityWeek.",
       "source": "securityweek.com",
       "first_seen": "2026-01-27T13:39:18Z",
-      "last_seen": "2026-01-28T05:20:40Z"
+      "last_seen": "2026-01-28T06:22:14Z"
     },
     {
       "id": "8b8208b636c597807ad7838db2931d45bc7da5b2",
@@ -401,7 +431,7 @@
       "description": "Cybersecurity teams increasingly want to move beyond looking at threats and vulnerabilities in isolation. It’s not only about what could go wrong (vulnerabilities) or who might attack (threats), but where they intersect in your actual environment to create real, exploitable exposure. Which exposures truly matter? Can attackers exploit them? Are our defenses effective? Continuous Threat Exposure",
       "source": "thehackernews.com",
       "first_seen": "2026-01-27T13:39:18Z",
-      "last_seen": "2026-01-28T05:20:40Z"
+      "last_seen": "2026-01-28T06:22:14Z"
     },
     {
       "id": "57e4e3a3859cbadeab648a7cca48973b67ecd431",
@@ -551,7 +581,7 @@
       "description": "A CVSS score 7.8 AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H severity vulnerability discovered by 'soiax' was reported to the affected vendor on: 2026-01-27, 0 days ago. The vendor is given until 2026-05-27 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
       "source": "zerodayinitiative.com",
       "first_seen": "2026-01-27T18:23:43Z",
-      "last_seen": "2026-01-28T05:20:40Z"
+      "last_seen": "2026-01-28T06:22:14Z"
     },
     {
       "id": "9a4fff8de3631fffe2591a33ca6a335b3dbe2c96",
@@ -581,7 +611,7 @@
       "description": "The post Exploit Code Publicly Released: Critical Firefox WebRTC Flaw Allows RCE (CVSS 9.8) appeared first on Daily CyberSecurity.",
       "source": "securityonline.info",
       "first_seen": "2026-01-27T01:01:20Z",
-      "last_seen": "2026-01-28T05:20:40Z"
+      "last_seen": "2026-01-28T06:22:14Z"
     },
     {
       "id": "3d250dd55a2f8e493888ee666fd380a2511ea1d7",
@@ -1051,7 +1081,7 @@
       "description": "The post PoC Released for Critical Oracle E-Business Suite Flaw Exploited by Ransomware appeared first on Daily CyberSecurity.",
       "source": "securityonline.info",
       "first_seen": "2026-01-26T01:02:45Z",
-      "last_seen": "2026-01-28T05:20:40Z"
+      "last_seen": "2026-01-28T06:22:14Z"
     },
     {
       "id": "aae7aa064c39d396f2f869b0c1357ed97ea75991",
@@ -1771,7 +1801,7 @@
       "description": "The post Public PoC Exploit Released for Critical Android Flaw Grants Apps Permissions Without You Knowing appeared first on Daily CyberSecurity.",
       "source": "securityonline.info",
       "first_seen": "2026-01-23T04:04:41Z",
-      "last_seen": "2026-01-28T05:20:40Z"
+      "last_seen": "2026-01-28T06:22:14Z"
     },
     {
       "id": "20ed7dfa3b93c993336a759afb604d48c8d65234",
@@ -2231,7 +2261,7 @@
       "description": "The post 7 Million Exposed: Critical CVSS 9.8 RCE Vulnerability Hits Laravel Reverb appeared first on Daily CyberSecurity.",
       "source": "securityonline.info",
       "first_seen": "2026-01-22T10:17:33Z",
-      "last_seen": "2026-01-28T05:20:40Z"
+      "last_seen": "2026-01-28T06:22:14Z"
     },
     {
       "id": "ddea0a826fb5e55739ad63c4f501819fee57e325",
@@ -2281,7 +2311,7 @@
       "description": "A CVSS score 7.8 AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H severity vulnerability discovered by 'kimiya' was reported to the affected vendor on: 2026-01-22, 0 days ago. The vendor is given until 2026-05-22 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
       "source": "zerodayinitiative.com",
       "first_seen": "2026-01-22T20:14:57Z",
-      "last_seen": "2026-01-28T05:20:40Z"
+      "last_seen": "2026-01-28T06:22:14Z"
     },
     {
       "id": "dde3943d3afc6e5453d28a3b294cfe873db8d850",
@@ -2291,7 +2321,7 @@
       "description": "A CVSS score 8.8 AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H severity vulnerability discovered by 'Rocco Calvi (@TecR0c) with TecSecurity' was reported to the affected vendor on: 2026-01-22, 0 days ago. The vendor is given until 2026-05-22 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
       "source": "zerodayinitiative.com",
       "first_seen": "2026-01-22T21:14:05Z",
-      "last_seen": "2026-01-28T05:20:40Z"
+      "last_seen": "2026-01-28T06:22:14Z"
     },
     {
       "id": "2912e7b625b2a778f56d1a9d3ebe0b8f4ec802a7",
@@ -2301,7 +2331,7 @@
       "description": "A CVSS score 7.8 AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H severity vulnerability discovered by 'welpsigh' was reported to the affected vendor on: 2026-01-22, 0 days ago. The vendor is given until 2026-05-22 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
       "source": "zerodayinitiative.com",
       "first_seen": "2026-01-22T21:14:05Z",
-      "last_seen": "2026-01-28T05:20:40Z"
+      "last_seen": "2026-01-28T06:22:14Z"
     },
     {
       "id": "e97ddd3bd3b66a2b7166c085f03df44ef2e8b868",
@@ -2311,7 +2341,7 @@
       "description": "A CVSS score 8.8 AV:A/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H severity vulnerability discovered by 'Daniel FREDERIC from Fuzzinglabs, Julien COHEN-SCALI from Fuzzinglabs, Patrick VENTUZELO from Fuzzinglabs' was reported to the affected vendor on: 2026-01-22, 0 days ago. The vendor is given until 2026-05-22 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate…",
       "source": "zerodayinitiative.com",
       "first_seen": "2026-01-22T21:14:05Z",
-      "last_seen": "2026-01-28T05:20:40Z"
+      "last_seen": "2026-01-28T06:22:14Z"
     },
     {
       "id": "8f05651806c3fe9bd9b00ef5a90125e2e09efd82",
@@ -3021,7 +3051,7 @@
       "description": "The post 10-Year-Old GNU Inetutils Telnetd Flaw Lets Hackers Log In as Root via “-f root” appeared first on Daily CyberSecurity.",
       "source": "securityonline.info",
       "first_seen": "2026-01-21T04:06:14Z",
-      "last_seen": "2026-01-28T05:20:40Z"
+      "last_seen": "2026-01-28T06:22:14Z"
     },
     {
       "id": "104175dad31d057a680133da1b79d3f06d403915",
@@ -34044,16 +34074,6 @@
       "last_seen": "2025-10-30T09:12:28Z"
     },
     {
-      "id": "c497f078e939942d83d011ded7316a659b563f3f",
-      "title": "Data Leak Outs Students of Iran's MOIS Training Academy",
-      "link": "https://www.darkreading.com/threat-intelligence/data-leak-students-iran-mois-training-academy",
-      "date": "2025-10-30T06:00:00Z",
-      "description": "A school for the Iranian state hackers of tomorrow has itself, ironically, been hacked.",
-      "source": "darkreading.com",
-      "first_seen": "2025-10-30T06:16:29Z",
-      "last_seen": "2025-10-30T18:15:26Z"
-    },
-    {
       "id": "886437058bd420b0f3ad766140ee53e70094a464",
       "title": "Data Leak Outs Hacker Students of Iran's MOIS Training Academy",
       "link": "https://www.darkreading.com/threat-intelligence/data-leak-students-iran-mois-training-academy",
@@ -34111,7 +34131,7 @@
       "description": "2.5 million people were affected, in a breach that could spell more trouble down the line.",
       "source": "threatpost.com",
       "first_seen": "2025-11-11T10:12:45Z",
-      "last_seen": "2026-01-28T05:20:40Z"
+      "last_seen": "2026-01-28T06:22:14Z"
     },
     {
       "id": "4140c7a34b0ba94ad2e6b0cae9f59b0cb9bfffea",
@@ -34121,7 +34141,7 @@
       "description": "Researchers uncover a watering hole attack likely carried out by APT TA423, which attempts to plant the ScanBox JavaScript-based reconnaissance tool.",
       "source": "threatpost.com",
       "first_seen": "2025-11-11T10:12:45Z",
-      "last_seen": "2026-01-28T05:20:40Z"
+      "last_seen": "2026-01-28T06:22:14Z"
     },
     {
       "id": "9359ee40a641a4b565080313045f1d7e7fe6552b",
@@ -34131,7 +34151,7 @@
       "description": "Over 130 companies tangled in sprawling phishing campaign that spoofed a multi-factor authentication system.",
       "source": "threatpost.com",
       "first_seen": "2025-11-11T10:12:45Z",
-      "last_seen": "2026-01-28T05:20:40Z"
+      "last_seen": "2026-01-28T06:22:14Z"
     },
     {
       "id": "b4ccef0737cd4050d65241bf754072030b6b5e6a",
@@ -34141,7 +34161,7 @@
       "description": "Lockbit is by far this summer’s most prolific ransomware group, trailed by two offshoots of the Conti group.",
       "source": "threatpost.com",
       "first_seen": "2025-11-11T10:12:45Z",
-      "last_seen": "2026-01-28T05:20:40Z"
+      "last_seen": "2026-01-28T06:22:14Z"
     },
     {
       "id": "12ee113fc8fce91f6d7fb28deab2b1ad20061ec7",
@@ -34151,7 +34171,7 @@
       "description": "Tens of thousands of cameras have failed to patch a critical, 11-month-old CVE, leaving thousands of organizations exposed.",
       "source": "threatpost.com",
       "first_seen": "2025-11-11T10:12:45Z",
-      "last_seen": "2026-01-28T05:20:40Z"
+      "last_seen": "2026-01-28T06:22:14Z"
     }
   ]
 }
