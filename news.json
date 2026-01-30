@@ -1,7 +1,14 @@
 {
-  "last_updated": "2026-01-30T15:24:25Z",
+  "last_updated": "2026-01-30T16:25:58Z",
   "count": 40,
   "items": [
+    {
+      "title": "UAT-8099 Targets Vulnerable IIS Servers Using Web Shells, PowerShell, and Region-Customized BadIIS",
+      "link": "https://cybersecuritynews.com/uat-8099-targets-vulnerable-iis-servers/",
+      "date": "2026-01-30T15:32:44Z",
+      "description": "A new wave of targeted attacks has emerged against Internet Information Services (IIS) servers across Asia, with threat actors deploying sophisticated malware designed to compromise vulnerable systems. The campaign, active from late 2025 through early 2026, focuses primarily on victims in Thailand and Vietnam, marking a strategic shift toward region-specific operations. The attackers exploit…",
+      "source": "cybersecuritynews.com"
+    },
     {
       "title": "",
       "link": "https://cybersecuritynews.com/175000-exposed-ollama-hosts/",
@@ -56,13 +63,6 @@
       "link": "https://cybersecuritynews.com/attackers-hijacked-200-websites-exploiting-magento-vulnerability/",
       "date": "2026-01-30T13:18:57Z",
       "description": "A critical security breach has exposed multiple Magento e-commerce platforms worldwide as threat actors successfully exploited a severe authentication flaw to achieve complete system control. The attack campaign, identified in January 2026, represents one of the most significant waves of coordinated web server compromises in recent months, affecting hundreds of online stores across different…",
-      "source": "cybersecuritynews.com"
-    },
-    {
-      "title": "NVIDIA GPU Display Driver Vulnerabilities Allows Code Execution and Privilege Escalation",
-      "link": "https://cybersecuritynews.com/nvidia-gpu-display-driver-code-execution-vulnerability/",
-      "date": "2026-01-30T12:59:14Z",
-      "description": "NVIDIA has issued a critical security update addressing multiple high-severity vulnerabilities in its GPU Display Driver, vGPU software, and HD Audio components. That could enable attackers to execute arbitrary code and escalate privileges on affected systems. The vulnerabilities, disclosed on January 28, 2026, impact Windows and Linux platforms across GeForce, RTX, Quadro, NVS, and Tesla […]…",
       "source": "cybersecuritynews.com"
     },
     {
@@ -122,6 +122,27 @@
       "source": "thehackernews.com"
     },
     {
+      "title": "ZDI-CAN-28734: Medplum",
+      "link": "http://www.zerodayinitiative.com/advisories/upcoming/",
+      "date": "2026-01-30T06:00:00Z",
+      "description": "A CVSS score 7.7 AV:N/AC:L/PR:L/UI:N/S:C/C:H/I:N/A:N severity vulnerability discovered by 'Brandon Evans of TrendAI Zero Day Initiative' was reported to the affected vendor on: 2026-01-30, 0 days ago. The vendor is given until 2026-05-30 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
+      "source": "zerodayinitiative.com"
+    },
+    {
+      "title": "ZDI-CAN-29041: ATEN",
+      "link": "http://www.zerodayinitiative.com/advisories/upcoming/",
+      "date": "2026-01-30T06:00:00Z",
+      "description": "A CVSS score 7.5 AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H severity vulnerability discovered by 'Bobby Gould (@bobbygould5) of TrendAI Zero Day Initiative' was reported to the affected vendor on: 2026-01-30, 0 days ago. The vendor is given until 2026-05-30 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
+      "source": "zerodayinitiative.com"
+    },
+    {
+      "title": "ZDI-CAN-28733: Medplum",
+      "link": "http://www.zerodayinitiative.com/advisories/upcoming/",
+      "date": "2026-01-30T06:00:00Z",
+      "description": "A CVSS score 7.2 AV:N/AC:L/PR:H/UI:N/S:U/C:H/I:H/A:H severity vulnerability discovered by 'Brandon Evans of TrendAI Zero Day Initiative' was reported to the affected vendor on: 2026-01-30, 0 days ago. The vendor is given until 2026-05-30 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
+      "source": "zerodayinitiative.com"
+    },
+    {
       "title": "From User to SYSTEM: PoC Released for Zabbix Privilege Escalation",
       "link": "https://securityonline.info/from-user-to-system-poc-released-for-zabbix-privilege-escalation/",
       "date": "2026-01-30T02:52:48Z",
@@ -143,10 +164,10 @@
       "source": "bleepingcomputer.com"
     },
     {
-      "title": "Trump Administration Rescinds Biden-Era SBOM Guidance",
+      "title": "Trump Administration Rescinds Biden-Era Software Guidance",
       "link": "https://www.darkreading.com/application-security/trump-administration-rescinds-biden-era-sbom-guidance",
       "date": "2026-01-29T22:25:07Z",
-      "description": "Federal agencies will no longer be required to solicit software bills of material (SBOMs) from tech vendors, nor attestations that they comply with NIST's Secure Software Development Framework (SSDF). What that means long term is unclear.",
+      "description": "Federal agencies will no longer be required to solicit software attestations that they comply with NIST's Secure Software Development Framework (SSDF). What that means long term is unclear.",
       "source": "darkreading.com"
     },
     {
@@ -224,27 +245,6 @@
       "link": "http://www.zerodayinitiative.com/advisories/upcoming/",
       "date": "2026-01-22T06:00:00Z",
       "description": "A CVSS score 7.8 AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H severity vulnerability discovered by 'kimiya' was reported to the affected vendor on: 2026-01-22, 8 days ago. The vendor is given until 2026-04-22 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
-      "source": "zerodayinitiative.com"
-    },
-    {
-      "title": "ZDI-CAN-28759: Siemens",
-      "link": "http://www.zerodayinitiative.com/advisories/upcoming/",
-      "date": "2026-01-22T06:00:00Z",
-      "description": "A CVSS score 8.8 AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H severity vulnerability discovered by 'Rocco Calvi (@TecR0c) with TecSecurity' was reported to the affected vendor on: 2026-01-22, 8 days ago. The vendor is given until 2026-05-22 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
-      "source": "zerodayinitiative.com"
-    },
-    {
-      "title": "ZDI-CAN-28834: Netdata",
-      "link": "http://www.zerodayinitiative.com/advisories/upcoming/",
-      "date": "2026-01-22T06:00:00Z",
-      "description": "A CVSS score 7.8 AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H severity vulnerability discovered by 'welpsigh' was reported to the affected vendor on: 2026-01-22, 8 days ago. The vendor is given until 2026-05-22 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
-      "source": "zerodayinitiative.com"
-    },
-    {
-      "title": "ZDI-CAN-28327: QNAP",
-      "link": "http://www.zerodayinitiative.com/advisories/upcoming/",
-      "date": "2026-01-22T06:00:00Z",
-      "description": "A CVSS score 8.8 AV:A/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H severity vulnerability discovered by 'Daniel FREDERIC from Fuzzinglabs, Julien COHEN-SCALI from Fuzzinglabs, Patrick VENTUZELO from Fuzzinglabs' was reported to the affected vendor on: 2026-01-22, 8 days ago. The vendor is given until 2026-05-22 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate…",
       "source": "zerodayinitiative.com"
     },
     {
