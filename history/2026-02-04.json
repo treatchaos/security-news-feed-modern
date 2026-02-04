@@ -1,7 +1,37 @@
 {
   "date": "2026-02-04",
-  "count": 4,
+  "count": 7,
   "items": [
+    {
+      "id": "63a718fc88d4687b8436c847ed24badec577b552",
+      "title": "Ingress-Nginx Vulnerability Allow Attackers to Execute Arbitrary Code",
+      "link": "https://cybersecuritynews.com/ingress-nginx-vulnerability/",
+      "date": "2026-02-04T08:22:01Z",
+      "description": "A critical security vulnerability has been discovered in ingress-nginx, a popular Kubernetes ingress controller, that could allow authenticated attackers to execute arbitrary code and access sensitive cluster secrets. The vulnerability, tracked as CVE-2026-24512, affects multiple versions of the software and requires immediate action from administrators. The security flaw exists in the…",
+      "source": "cybersecuritynews.com",
+      "first_seen": "2026-02-04T08:28:30Z",
+      "last_seen": "2026-02-04T08:28:30Z"
+    },
+    {
+      "id": "fd147ae550d73647e44b3fb91cb3facd77b3f619",
+      "title": "CISA Warns of SolarWinds Web Help Desk RCE Vulnerability Exploited in Attacks",
+      "link": "https://cybersecuritynews.com/solarwinds-web-help-desk-rce-vulnerability-2/",
+      "date": "2026-02-04T08:19:41Z",
+      "description": "An urgent warning regarding a critical remote code execution (RCE) vulnerability in SolarWinds Web Help Desk. The vulnerability, tracked as CVE-2025-40551, exploits unsafe deserialization of untrusted data and could allow attackers to execute arbitrary commands on affected systems without requiring authentication. CVE-2025-40551 is a deserialization vulnerability classified under CWE-502…",
+      "source": "cybersecuritynews.com",
+      "first_seen": "2026-02-04T08:28:30Z",
+      "last_seen": "2026-02-04T08:28:30Z"
+    },
+    {
+      "id": "a7bc614518d529ed0bd4b0e83ceb25c14d40fef6",
+      "title": "Critical Django Vulnerabilities Enables DoS and SQL Injection Attacks",
+      "link": "https://cybersecuritynews.com/django-vulnerabilities/",
+      "date": "2026-02-04T08:16:50Z",
+      "description": "The development team has issued urgent security updates to fix six critical vulnerabilities affecting multiple versions of the popular Python web framework. The flaws, which include three high-severity SQL injection vulnerabilities and multiple denial-of-service vectors, impact Django versions 4.2, 5.2, 6.0, and the main development branch. Three of the disclosed vulnerabilities carry…",
+      "source": "cybersecuritynews.com",
+      "first_seen": "2026-02-04T08:28:30Z",
+      "last_seen": "2026-02-04T08:28:30Z"
+    },
     {
       "id": "a80cf0b393ce32ce6de0ce540679550a93375621",
       "title": "Eclipse Foundation Mandates Pre-Publish Security Checks for Open VSX Extensions",
@@ -10,7 +40,7 @@
       "description": "The Eclipse Foundation, which maintains the Open VSX Registry, has announced plans to enforce security checks before Microsoft Visual Studio Code (VS Code) extensions are published to the open-source repository to combat supply chain threats. The move marks a shift from a reactive to a proactive approach to ensure that malicious extensions don't end up getting published on the Open VSX Registry.",
       "source": "thehackernews.com",
       "first_seen": "2026-02-04T07:37:32Z",
-      "last_seen": "2026-02-04T07:37:32Z"
+      "last_seen": "2026-02-04T08:28:30Z"
     },
     {
       "id": "a3e56f70d8d61d8ba1fba282ff97d0bac915f237",
@@ -20,7 +50,7 @@
       "description": "Google has released a critical security update for the Chrome Stable channel, addressing two high-severity vulnerabilities that expose users to potential arbitrary code execution (ACE) and denial-of-service (DoS) attacks. The update pushes the browser version to 144.0.7559.132/.133 for Windows and macOS, and 144.0.7559.132 for Linux. The technology giant confirmed that the rollout will occur…",
       "source": "cybersecuritynews.com",
       "first_seen": "2026-02-04T06:37:34Z",
-      "last_seen": "2026-02-04T07:37:32Z"
+      "last_seen": "2026-02-04T08:28:30Z"
     },
     {
       "id": "9cd52e2ebbafb83854ea592ecbc53945a065a3cd",
@@ -30,7 +60,7 @@
       "description": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Tuesday added a critical security flaw impacting SolarWinds Web Help Desk (WHD) to its Known Exploited Vulnerabilities (KEV) catalog, flagging it as actively exploited in attacks. The vulnerability, tracked as CVE-2025-40551 (CVSS score: 9.8), is a untrusted data deserialization vulnerability that could pave the way for remote",
       "source": "thehackernews.com",
       "first_seen": "2026-02-04T07:37:32Z",
-      "last_seen": "2026-02-04T07:37:32Z"
+      "last_seen": "2026-02-04T08:28:30Z"
     },
     {
       "id": "ffd1fd665473b746d52cbeb9cb823d002e7b7fe9",
@@ -40,7 +70,7 @@
       "description": "Two months following the disclosure of CVE-2025-55182, exploitation activity targeting React Server Components has evolved from broad scanning into consolidated, high-volume attack campaigns. According to telemetry from GreyNoise collected between January 26 and February 2, 2026, threat actors are actively leveraging this critical vulnerability to deploy cryptominers and establish persistent…",
       "source": "cybersecuritynews.com",
       "first_seen": "2026-02-04T04:03:17Z",
-      "last_seen": "2026-02-04T07:37:32Z"
+      "last_seen": "2026-02-04T08:28:30Z"
     }
   ]
 }

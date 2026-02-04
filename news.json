@@ -1,7 +1,28 @@
 {
-  "last_updated": "2026-02-04T07:37:32Z",
+  "last_updated": "2026-02-04T08:28:30Z",
   "count": 35,
   "items": [
+    {
+      "title": "Ingress-Nginx Vulnerability Allow Attackers to Execute Arbitrary Code",
+      "link": "https://cybersecuritynews.com/ingress-nginx-vulnerability/",
+      "date": "2026-02-04T08:22:01Z",
+      "description": "A critical security vulnerability has been discovered in ingress-nginx, a popular Kubernetes ingress controller, that could allow authenticated attackers to execute arbitrary code and access sensitive cluster secrets. The vulnerability, tracked as CVE-2026-24512, affects multiple versions of the software and requires immediate action from administrators. The security flaw exists in the…",
+      "source": "cybersecuritynews.com"
+    },
+    {
+      "title": "CISA Warns of SolarWinds Web Help Desk RCE Vulnerability Exploited in Attacks",
+      "link": "https://cybersecuritynews.com/solarwinds-web-help-desk-rce-vulnerability-2/",
+      "date": "2026-02-04T08:19:41Z",
+      "description": "An urgent warning regarding a critical remote code execution (RCE) vulnerability in SolarWinds Web Help Desk. The vulnerability, tracked as CVE-2025-40551, exploits unsafe deserialization of untrusted data and could allow attackers to execute arbitrary commands on affected systems without requiring authentication. CVE-2025-40551 is a deserialization vulnerability classified under CWE-502…",
+      "source": "cybersecuritynews.com"
+    },
+    {
+      "title": "Critical Django Vulnerabilities Enables DoS and SQL Injection Attacks",
+      "link": "https://cybersecuritynews.com/django-vulnerabilities/",
+      "date": "2026-02-04T08:16:50Z",
+      "description": "The development team has issued urgent security updates to fix six critical vulnerabilities affecting multiple versions of the popular Python web framework. The flaws, which include three high-severity SQL injection vulnerabilities and multiple denial-of-service vectors, impact Django versions 4.2, 5.2, 6.0, and the main development branch. Three of the disclosed vulnerabilities carry…",
+      "source": "cybersecuritynews.com"
+    },
     {
       "title": "Eclipse Foundation Mandates Pre-Publish Security Checks for Open VSX Extensions",
       "link": "https://thehackernews.com/2026/02/eclipse-foundation-mandates-pre-publish.html",
@@ -43,27 +64,6 @@
       "date": "2026-02-03T20:55:51Z",
       "description": "The self-replicating malware has poisoned a fresh set of Open VSX software components, leaving potential downstream victims with infostealer infections.",
       "source": "darkreading.com"
-    },
-    {
-      "title": "GlassWorm Infiltrated VSX Extensions with More than 22,000 Downloads to Attack Developers",
-      "link": "https://cybersecuritynews.com/glassworm-infiltrated-vsx-extensions/",
-      "date": "2026-02-03T20:01:28Z",
-      "description": "GlassWorm has emerged as a serious threat to developers using the Open VSX Registry, where popular VSX extensions were silently turned into delivery vehicles for malware. Threat actors compromised a trusted publisher account and pushed poisoned updates that looked like routine releases but actually carried a staged loader. These extensions, which had more than 22,000 […] The post GlassWorm…",
-      "source": "cybersecuritynews.com"
-    },
-    {
-      "title": "Infostealer Campaigns Expand to macOS as Attackers Abuse Python and Trusted Platforms",
-      "link": "https://cybersecuritynews.com/infostealer-campaigns-expand/",
-      "date": "2026-02-03T19:42:11Z",
-      "description": "Infostealer campaigns that once focused mainly on Windows are now expanding aggressively to macOS, using Python and trusted platforms to reach new victims. Recent attacks show a clear shift: threat actors are abusing online ads, fake apps, and familiar tools to quietly steal credentials, session cookies, and cryptocurrency data from Mac users. Cross‑platform Python stealers […] The post…",
-      "source": "cybersecuritynews.com"
-    },
-    {
-      "title": "Beware of Fake Dropbox Phishing Attack that Harvest Login Credentials",
-      "link": "https://cybersecuritynews.com/beware-of-fake-dropbox-phishing-attack/",
-      "date": "2026-02-03T19:01:02Z",
-      "description": "Cybercriminals are launching a dangerous phishing campaign that tricks users into giving away their login credentials by impersonating Dropbox. This attack uses a multi-stage approach to bypass email security checks and content scanners. The threat actors exploit trusted cloud platforms and harmless-looking PDF files to create a deception chain that leads victims to a fake […] The post Beware of…",
-      "source": "cybersecuritynews.com"
     },
     {
       "title": "Docker Fixes Critical Ask Gordon AI Flaw Allowing Code Execution via Image Metadata",
