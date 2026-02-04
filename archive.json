@@ -1,7 +1,7 @@
 {
-  "last_updated": "2026-02-04T08:28:30Z",
+  "last_updated": "2026-02-04T09:32:58Z",
   "retention_days": 90,
-  "count": 3403,
+  "count": 3401,
   "items": [
     {
       "id": "ad2f81caf2212cb4984f6e8476b080821f33a7a1",
@@ -24,6 +24,36 @@
       "last_seen": "2026-01-15T21:12:34Z"
     },
     {
+      "id": "6389154336aaa98dbbf99b6738f56765e879044a",
+      "title": "PoC Public & Exploited: Critical SolarWinds Help Desk Flaw Exploited in the Wild",
+      "link": "https://securityonline.info/poc-public-exploited-critical-solarwinds-help-desk-flaw-exploited-in-the-wild/",
+      "date": "2026-02-04T09:31:54Z",
+      "description": "The post PoC Public & Exploited: Critical SolarWinds Help Desk Flaw Exploited in the Wild appeared first on Daily CyberSecurity.",
+      "source": "securityonline.info",
+      "first_seen": "2026-02-04T09:32:58Z",
+      "last_seen": "2026-02-04T09:32:58Z"
+    },
+    {
+      "id": "7f9ef9591bd92e801b9cc1607d5b80acefe2b08c",
+      "title": "Hackers Actively Scanning Citrix NetScaler Infrastructure to Discover Login Panels",
+      "link": "https://cybersecuritynews.com/scanning-citrix-netscaler-login/",
+      "date": "2026-02-04T08:47:17Z",
+      "description": "A large-scale reconnaissance campaign targeting Citrix ADC Gateway and NetScaler Gateway infrastructure was detected between January 28 and February 2, 2026, by the GreyNoise Global Observation Grid. The coordinated operation combined residential proxy rotation for login panel discovery with concentrated AWS-hosted version disclosure scanning, generating over 111,834 sessions from more than…",
+      "source": "cybersecuritynews.com",
+      "first_seen": "2026-02-04T09:32:58Z",
+      "last_seen": "2026-02-04T09:32:58Z"
+    },
+    {
+      "id": "b5bb653c37bfeda225b4acbb752dc4890923b393",
+      "title": "Security Analysis of Moltbook Agent Network: Bot-to-Bot Prompt Injection and Data Leaks",
+      "link": "https://www.securityweek.com/security-analysis-of-moltbook-agent-network-bot-to-bot-prompt-injection-and-data-leaks/",
+      "date": "2026-02-04T08:43:18Z",
+      "description": "Wiz and Permiso have analyzed the AI agent social network and found serious security issues and threats. The post Security Analysis of Moltbook Agent Network: Bot-to-Bot Prompt Injection and Data Leaks appeared first on SecurityWeek.",
+      "source": "securityweek.com",
+      "first_seen": "2026-02-04T09:32:58Z",
+      "last_seen": "2026-02-04T09:32:58Z"
+    },
+    {
       "id": "63a718fc88d4687b8436c847ed24badec577b552",
       "title": "Ingress-Nginx Vulnerability Allow Attackers to Execute Arbitrary Code",
       "link": "https://cybersecuritynews.com/ingress-nginx-vulnerability/",
@@ -31,7 +61,7 @@
       "description": "A critical security vulnerability has been discovered in ingress-nginx, a popular Kubernetes ingress controller, that could allow authenticated attackers to execute arbitrary code and access sensitive cluster secrets. The vulnerability, tracked as CVE-2026-24512, affects multiple versions of the software and requires immediate action from administrators. The security flaw exists in the…",
       "source": "cybersecuritynews.com",
       "first_seen": "2026-02-04T08:28:30Z",
-      "last_seen": "2026-02-04T08:28:30Z"
+      "last_seen": "2026-02-04T09:32:58Z"
     },
     {
       "id": "fd147ae550d73647e44b3fb91cb3facd77b3f619",
@@ -41,7 +71,7 @@
       "description": "An urgent warning regarding a critical remote code execution (RCE) vulnerability in SolarWinds Web Help Desk. The vulnerability, tracked as CVE-2025-40551, exploits unsafe deserialization of untrusted data and could allow attackers to execute arbitrary commands on affected systems without requiring authentication. CVE-2025-40551 is a deserialization vulnerability classified under CWE-502…",
       "source": "cybersecuritynews.com",
       "first_seen": "2026-02-04T08:28:30Z",
-      "last_seen": "2026-02-04T08:28:30Z"
+      "last_seen": "2026-02-04T09:32:58Z"
     },
     {
       "id": "a7bc614518d529ed0bd4b0e83ceb25c14d40fef6",
@@ -51,7 +81,17 @@
       "description": "The development team has issued urgent security updates to fix six critical vulnerabilities affecting multiple versions of the popular Python web framework. The flaws, which include three high-severity SQL injection vulnerabilities and multiple denial-of-service vectors, impact Django versions 4.2, 5.2, 6.0, and the main development branch. Three of the disclosed vulnerabilities carry…",
       "source": "cybersecuritynews.com",
       "first_seen": "2026-02-04T08:28:30Z",
-      "last_seen": "2026-02-04T08:28:30Z"
+      "last_seen": "2026-02-04T09:32:58Z"
+    },
+    {
+      "id": "b6332105c3806deeb34405d4446f0e5828d5c3f4",
+      "title": "Microsoft Warns Python Infostealers Target macOS via Fake Ads and Installers",
+      "link": "https://thehackernews.com/2026/02/microsoft-warns-python-infostealers.html",
+      "date": "2026-02-04T07:42:00Z",
+      "description": "Microsoft has warned that information-stealing attacks are \"rapidly expanding\" beyond Windows to target Apple macOS environments by leveraging cross-platform languages like Python and abusing trusted platforms for distribution at scale. The tech giant's Defender Security Research Team said it observed macOS-targeted infostealer campaigns using social engineering techniques such as ClickFix since",
+      "source": "thehackernews.com",
+      "first_seen": "2026-02-04T09:32:58Z",
+      "last_seen": "2026-02-04T09:32:58Z"
     },
     {
       "id": "a80cf0b393ce32ce6de0ce540679550a93375621",
@@ -61,7 +101,7 @@
       "description": "The Eclipse Foundation, which maintains the Open VSX Registry, has announced plans to enforce security checks before Microsoft Visual Studio Code (VS Code) extensions are published to the open-source repository to combat supply chain threats. The move marks a shift from a reactive to a proactive approach to ensure that malicious extensions don't end up getting published on the Open VSX Registry.",
       "source": "thehackernews.com",
       "first_seen": "2026-02-04T07:37:32Z",
-      "last_seen": "2026-02-04T08:28:30Z"
+      "last_seen": "2026-02-04T09:32:58Z"
     },
     {
       "id": "a3e56f70d8d61d8ba1fba282ff97d0bac915f237",
@@ -71,7 +111,7 @@
       "description": "Google has released a critical security update for the Chrome Stable channel, addressing two high-severity vulnerabilities that expose users to potential arbitrary code execution (ACE) and denial-of-service (DoS) attacks. The update pushes the browser version to 144.0.7559.132/.133 for Windows and macOS, and 144.0.7559.132 for Linux. The technology giant confirmed that the rollout will occur…",
       "source": "cybersecuritynews.com",
       "first_seen": "2026-02-04T06:37:34Z",
-      "last_seen": "2026-02-04T08:28:30Z"
+      "last_seen": "2026-02-04T09:32:58Z"
     },
     {
       "id": "9cd52e2ebbafb83854ea592ecbc53945a065a3cd",
@@ -81,7 +121,7 @@
       "description": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Tuesday added a critical security flaw impacting SolarWinds Web Help Desk (WHD) to its Known Exploited Vulnerabilities (KEV) catalog, flagging it as actively exploited in attacks. The vulnerability, tracked as CVE-2025-40551 (CVSS score: 9.8), is a untrusted data deserialization vulnerability that could pave the way for remote",
       "source": "thehackernews.com",
       "first_seen": "2026-02-04T07:37:32Z",
-      "last_seen": "2026-02-04T08:28:30Z"
+      "last_seen": "2026-02-04T09:32:58Z"
     },
     {
       "id": "ffd1fd665473b746d52cbeb9cb823d002e7b7fe9",
@@ -101,7 +141,7 @@
       "description": "APT28's attacks rely on specially crafted Microsoft Rich Text Format (RTF) documents to kick off a multistage infection chain to deliver malicious payloads.",
       "source": "darkreading.com",
       "first_seen": "2026-02-03T22:19:50Z",
-      "last_seen": "2026-02-04T08:28:30Z"
+      "last_seen": "2026-02-04T09:32:58Z"
     },
     {
       "id": "32794dcaae74c90ba833a09de827fbfdbeb5c9e0",
@@ -121,7 +161,7 @@
       "description": "The self-replicating malware has poisoned a fresh set of Open VSX software components, leaving potential downstream victims with infostealer infections.",
       "source": "darkreading.com",
       "first_seen": "2026-02-03T21:24:15Z",
-      "last_seen": "2026-02-04T08:28:30Z"
+      "last_seen": "2026-02-04T09:32:58Z"
     },
     {
       "id": "86c1ae3d06f404775eb1dd1af9a977e380fc263e",
@@ -191,7 +231,7 @@
       "description": "Cybersecurity researchers have disclosed details of a now-patched security flaw impacting Ask Gordon, an artificial intelligence (AI) assistant built into Docker Desktop and the Docker Command-Line Interface (CLI), that could be exploited to execute code and exfiltrate sensitive data. The critical vulnerability has been codenamed DockerDash by cybersecurity company Noma Labs. It was addressed by",
       "source": "thehackernews.com",
       "first_seen": "2026-02-03T17:43:48Z",
-      "last_seen": "2026-02-04T08:28:30Z"
+      "last_seen": "2026-02-04T09:32:58Z"
     },
     {
       "id": "3ed882f59592665cd785fe72c1ce377f173c14b8",
@@ -201,7 +241,7 @@
       "description": "The AI-assisted attack, which started with exposed credentials from public S3 buckets, rapidly achieved administrative privilges.",
       "source": "darkreading.com",
       "first_seen": "2026-02-03T19:38:39Z",
-      "last_seen": "2026-02-04T08:28:30Z"
+      "last_seen": "2026-02-04T09:32:58Z"
     },
     {
       "id": "91c4a34f30ecd14d162d18ce9fdafc541df9bff0",
@@ -221,7 +261,7 @@
       "description": "People trust organizations to do the right thing, but some websites and apps have user interfaces that ultimately lead to inadequate security for users.",
       "source": "darkreading.com",
       "first_seen": "2026-02-03T19:38:39Z",
-      "last_seen": "2026-02-04T08:28:30Z"
+      "last_seen": "2026-02-04T09:32:58Z"
     },
     {
       "id": "d37f56e995c91b9a2fc01a40d9299d3ea9291d40",
@@ -251,7 +291,7 @@
       "description": "The company will use the investment to accelerate development of its autonomous virtual security operations center (vSOC). The post RADICL Raises $31 Million for vSOC appeared first on SecurityWeek.",
       "source": "securityweek.com",
       "first_seen": "2026-02-03T15:39:03Z",
-      "last_seen": "2026-02-04T08:28:30Z"
+      "last_seen": "2026-02-04T09:32:58Z"
     },
     {
       "id": "77c888766c907eb4d308889adc921d3354a1d05f",
@@ -291,7 +331,7 @@
       "description": "The company will use the latest capital to scale its go-to-market efforts and expand its platform’s capabilities. The post RapidFort Raises $42M to Automate Software Supply Chain Security appeared first on SecurityWeek.",
       "source": "securityweek.com",
       "first_seen": "2026-02-03T15:39:03Z",
-      "last_seen": "2026-02-04T08:28:30Z"
+      "last_seen": "2026-02-04T09:32:58Z"
     },
     {
       "id": "33d3cae7b9ae7530489b1bd33c550cc5b77a5805",
@@ -321,7 +361,7 @@
       "description": "Most security teams today are buried under tools. Too many dashboards. Too much noise. Not enough real progress. Every vendor promises “complete coverage” or “AI-powered automation,” but inside most SOCs, teams are still overwhelmed, stretched thin, and unsure which tools are truly pulling their weight. The result? Bloated stacks, missed signals, and mounting pressure to do more with less. This",
       "source": "thehackernews.com",
       "first_seen": "2026-02-03T15:39:03Z",
-      "last_seen": "2026-02-04T08:28:30Z"
+      "last_seen": "2026-02-04T09:32:58Z"
     },
     {
       "id": "9a6d465925209a5b332979f7e7866f0ab1357e59",
@@ -341,7 +381,7 @@
       "description": "Albeit mainly considered a theoretical risk, the flaw has been exploited to disable protections and deliver malware. The post Critical React Native Vulnerability Exploited in the Wild appeared first on SecurityWeek.",
       "source": "securityweek.com",
       "first_seen": "2026-02-03T14:39:06Z",
-      "last_seen": "2026-02-04T08:28:30Z"
+      "last_seen": "2026-02-04T09:32:58Z"
     },
     {
       "id": "263a34817ad7455354de55ff534eb26f8741553c",
@@ -361,7 +401,7 @@
       "description": "OpenClaw (aka Moltbot and Clawdbot) is vulnerable to one-click remote code execution attacks. The post Vulnerability Allows Hackers to Hijack OpenClaw AI Assistant appeared first on SecurityWeek.",
       "source": "securityweek.com",
       "first_seen": "2026-02-03T13:56:34Z",
-      "last_seen": "2026-02-04T08:28:30Z"
+      "last_seen": "2026-02-04T09:32:58Z"
     },
     {
       "id": "3dccc6f348e4400e2fca112448bfef30e2878bc3",
@@ -471,7 +511,7 @@
       "description": "The post Gatekeeper Breached: 4 Critical Ingress-Nginx Flaws Risk Cluster Secrets appeared first on Daily CyberSecurity.",
       "source": "securityonline.info",
       "first_seen": "2026-02-03T10:29:30Z",
-      "last_seen": "2026-02-04T08:28:30Z"
+      "last_seen": "2026-02-04T09:32:58Z"
     },
     {
       "id": "891477ff2c85e6e7d1acf3ad3da166f69f220c4f",
@@ -541,7 +581,7 @@
       "description": "A CVSS score 7.8 AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H severity vulnerability discovered by 'Mark Vincent Yason (markyason.github.io)' was reported to the affected vendor on: 2026-02-03, 0 days ago. The vendor is given until 2026-06-03 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
       "source": "zerodayinitiative.com",
       "first_seen": "2026-02-03T17:43:48Z",
-      "last_seen": "2026-02-04T08:28:30Z"
+      "last_seen": "2026-02-04T09:32:58Z"
     },
     {
       "id": "51e03f739534584a219cb7b50f984e390d9617e2",
@@ -551,7 +591,7 @@
       "description": "A CVSS score 8.8 AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H severity vulnerability discovered by 'Hossein Lotfi (@hosselot) of TrendAI Zero Day Initiative' was reported to the affected vendor on: 2026-02-03, 0 days ago. The vendor is given until 2026-06-03 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
       "source": "zerodayinitiative.com",
       "first_seen": "2026-02-03T20:25:10Z",
-      "last_seen": "2026-02-04T08:28:30Z"
+      "last_seen": "2026-02-04T09:32:58Z"
     },
     {
       "id": "303d43c107993efc13e0d7a9c156b2d22b12c24d",
@@ -591,7 +631,7 @@
       "description": "A malware-free phishing campaign targets corporate inboxes and asks employees to view \"request orders,\" ultimately leading to Dropbox credential theft.",
       "source": "darkreading.com",
       "first_seen": "2026-02-02T23:18:14Z",
-      "last_seen": "2026-02-04T08:28:30Z"
+      "last_seen": "2026-02-04T09:32:58Z"
     },
     {
       "id": "04aaed2972d2d7ba0c93e9a6693b275d61c95024",
@@ -1041,7 +1081,7 @@
       "description": "A CVSS score 8.8 AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H severity vulnerability discovered by ' hassan ali' was reported to the affected vendor on: 2026-02-02, 0 days ago. The vendor is given until 2026-06-02 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
       "source": "zerodayinitiative.com",
       "first_seen": "2026-02-02T16:24:48Z",
-      "last_seen": "2026-02-04T08:28:30Z"
+      "last_seen": "2026-02-04T09:32:58Z"
     },
     {
       "id": "21437a5dc1d492ad5e9db97fa4057fe8b3cf05c7",
@@ -1661,7 +1701,7 @@
       "description": "A CVSS score 7.7 AV:N/AC:L/PR:L/UI:N/S:C/C:H/I:N/A:N severity vulnerability discovered by 'Brandon Evans of TrendAI Zero Day Initiative' was reported to the affected vendor on: 2026-01-30, 0 days ago. The vendor is given until 2026-05-30 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
       "source": "zerodayinitiative.com",
       "first_seen": "2026-01-30T16:25:58Z",
-      "last_seen": "2026-02-04T08:28:30Z"
+      "last_seen": "2026-02-04T09:32:58Z"
     },
     {
       "id": "abf68e7e57d6057539870d663bf586a463eed77a",
@@ -1671,7 +1711,7 @@
       "description": "A CVSS score 7.5 AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H severity vulnerability discovered by 'Bobby Gould (@bobbygould5) of TrendAI Zero Day Initiative' was reported to the affected vendor on: 2026-01-30, 0 days ago. The vendor is given until 2026-05-30 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
       "source": "zerodayinitiative.com",
       "first_seen": "2026-01-30T16:25:58Z",
-      "last_seen": "2026-02-04T08:28:30Z"
+      "last_seen": "2026-02-04T09:32:58Z"
     },
     {
       "id": "416ea5fad2d8016b1c9c5fc3215f2227a5f148ab",
@@ -1701,7 +1741,7 @@
       "description": "The post From User to SYSTEM: PoC Released for Zabbix Privilege Escalation appeared first on Daily CyberSecurity.",
       "source": "securityonline.info",
       "first_seen": "2026-01-30T03:59:36Z",
-      "last_seen": "2026-02-04T08:28:30Z"
+      "last_seen": "2026-02-04T09:32:58Z"
     },
     {
       "id": "8c1494054824cb354543c909c2eee609eb473b4d",
@@ -3401,7 +3441,7 @@
       "description": "The post Exploit Code Publicly Released: Critical Firefox WebRTC Flaw Allows RCE (CVSS 9.8) appeared first on Daily CyberSecurity.",
       "source": "securityonline.info",
       "first_seen": "2026-01-27T01:01:20Z",
-      "last_seen": "2026-02-04T08:28:30Z"
+      "last_seen": "2026-02-04T09:32:58Z"
     },
     {
       "id": "3d250dd55a2f8e493888ee666fd380a2511ea1d7",
@@ -3871,7 +3911,7 @@
       "description": "The post PoC Released for Critical Oracle E-Business Suite Flaw Exploited by Ransomware appeared first on Daily CyberSecurity.",
       "source": "securityonline.info",
       "first_seen": "2026-01-26T01:02:45Z",
-      "last_seen": "2026-02-04T08:28:30Z"
+      "last_seen": "2026-02-04T09:32:58Z"
     },
     {
       "id": "aae7aa064c39d396f2f869b0c1357ed97ea75991",
@@ -33864,66 +33904,6 @@
       "last_seen": "2025-11-06T12:21:27Z"
     },
     {
-      "id": "d55727b2d46f9fbc04ea90ebfeacbf39ce6566e3",
-      "title": "Cisco Warns of Hackers Actively Exploiting ASA and FTD 0-day RCE Vulnerability in the Wild",
-      "link": "https://cybersecuritynews.com/cisco-asa-and-ftd-0-day-rce-vulnerability/",
-      "date": "2025-11-06T09:10:12Z",
-      "description": "Cisco has confirmed that threat actors are actively exploiting a critical remote code execution (RCE) flaw in its Secure Firewall Adaptive Security Appliance (ASA) and Threat Defense (FTD) software. First disclosed on September 25, 2025, the vulnerability tracked as CVE-2025-20333 poses a severe risk to organizations relying on these firewalls for VPN access. With a […] The post Cisco Warns of…",
-      "source": "cybersecuritynews.com",
-      "first_seen": "2025-11-06T09:12:29Z",
-      "last_seen": "2025-11-06T13:25:46Z"
-    },
-    {
-      "id": "1c3faf135e067b00b64582b8fc5ffb2bac88ea17",
-      "title": "Clop Ransomware Actors Exploiting the Latest 0-Day Exploits in the Wild",
-      "link": "https://cybersecuritynews.com/clop-ransomware-actors/",
-      "date": "2025-11-06T08:54:14Z",
-      "description": "Cl0p, a prominent ransomware group operating since early 2019, has emerged as one of the most dangerous threats in the cybersecurity landscape. With over 1,025 confirmed victims and more than $500 million in extorted funds, this Russian-linked group has consistently targeted corporate and private networks worldwide while strategically avoiding CIS countries. The group earned its […] The post…",
-      "source": "cybersecuritynews.com",
-      "first_seen": "2025-11-06T09:12:29Z",
-      "last_seen": "2025-11-06T12:21:27Z"
-    },
-    {
-      "id": "182ac962699690168c5b819af02b697ebc9ea102",
-      "title": "Critical Dell CloudLink Flaws Allow User to Escape Shell and Gain Full System Control",
-      "link": "https://securityonline.info/critical-dell-cloudlink-flaws-allow-user-to-escape-shell-and-gain-full-system-control/",
-      "date": "2025-11-06T08:17:27Z",
-      "description": "The post Critical Dell CloudLink Flaws Allow User to Escape Shell and Gain Full System Control appeared first on Daily CyberSecurity.",
-      "source": "securityonline.info",
-      "first_seen": "2025-11-06T09:12:29Z",
-      "last_seen": "2025-12-01T07:15:38Z"
-    },
-    {
-      "id": "b102606990e0a0bd45b04b2600c66df9f6200e0b",
-      "title": "Three Infamous Cybercriminal Groups Form a New Alliance Dubbed ‘Scattered LAPSUS$ Hunters’",
-      "link": "https://cybersecuritynews.com/new-alliance-dubbed-scattered-lapsus-hunters/",
-      "date": "2025-11-06T08:09:58Z",
-      "description": "Three well-known threat groups have consolidated into a unified cybercriminal entity that represents a significant shift in underground tactics. Scattered LAPSUS$ Hunters (SLH) emerged in early August 2025 as a federated alliance combining Scattered Spider, ShinyHunters, and LAPSUS$, creating what researchers describe as the first consolidated alliance among mature cybercriminal clusters. This…",
-      "source": "cybersecuritynews.com",
-      "first_seen": "2025-11-06T09:12:29Z",
-      "last_seen": "2025-11-06T11:09:48Z"
-    },
-    {
-      "id": "685b31bf554e7eacb44d3921c153a6e0aaca40b5",
-      "title": "Hyundai AutoEver Confirms Data Breach Exposing Users’ Personal Information and SSNs",
-      "link": "https://cybersecuritynews.com/hyundai-autoever-confirms-data-breach/",
-      "date": "2025-11-06T07:47:05Z",
-      "description": "Hyundai AutoEver America has disclosed a significant data breach that compromised sensitive personal information of customers, including Social Security numbers and driver’s license details. The cybersecurity incident highlights growing concerns about data protection in the automotive technology sector.​ Hyundai AutoEver America discovered the cyber incident on March 1, 2025, when unauthorized…",
-      "source": "cybersecuritynews.com",
-      "first_seen": "2025-11-06T09:12:29Z",
-      "last_seen": "2025-11-06T10:13:28Z"
-    },
-    {
-      "id": "e5a6fccf6aa55bf8c621f79bd42142ccc46a2a53",
-      "title": "Cybersecurity Forecast 2026 – Google Warns Threat Actors Use AI to Enhance Speed and Effectiveness",
-      "link": "https://cybersecuritynews.com/cybersecurity-forecast-2026-google-warns-threat-actors-use-ai/",
-      "date": "2025-11-06T07:36:28Z",
-      "description": "The cybersecurity landscape stands at a critical inflection point as organizations prepare for unprecedented challenges in 2026. Google Cloud researchers have released their annual Cybersecurity Forecast, revealing a stark reality: threat actors are transitioning from experimenting with advanced technologies to embedding them as standard operational tools. This shift represents a fundamental…",
-      "source": "cybersecuritynews.com",
-      "first_seen": "2025-11-06T09:12:29Z",
-      "last_seen": "2025-11-06T09:12:29Z"
-    },
-    {
       "id": "a2421a72625b1af2471967fb3a5a5c5c2e18251b",
       "title": "ZDI-CAN-28529: llama.cpp",
       "link": "http://www.zerodayinitiative.com/advisories/upcoming/",
@@ -33991,7 +33971,7 @@
       "description": "2.5 million people were affected, in a breach that could spell more trouble down the line.",
       "source": "threatpost.com",
       "first_seen": "2025-11-11T10:12:45Z",
-      "last_seen": "2026-02-04T08:28:30Z"
+      "last_seen": "2026-02-04T09:32:58Z"
     },
     {
       "id": "4140c7a34b0ba94ad2e6b0cae9f59b0cb9bfffea",
@@ -34001,7 +33981,7 @@
       "description": "Researchers uncover a watering hole attack likely carried out by APT TA423, which attempts to plant the ScanBox JavaScript-based reconnaissance tool.",
       "source": "threatpost.com",
       "first_seen": "2025-11-11T10:12:45Z",
-      "last_seen": "2026-02-04T08:28:30Z"
+      "last_seen": "2026-02-04T09:32:58Z"
     },
     {
       "id": "9359ee40a641a4b565080313045f1d7e7fe6552b",
@@ -34011,7 +33991,7 @@
       "description": "Over 130 companies tangled in sprawling phishing campaign that spoofed a multi-factor authentication system.",
       "source": "threatpost.com",
       "first_seen": "2025-11-11T10:12:45Z",
-      "last_seen": "2026-02-04T08:28:30Z"
+      "last_seen": "2026-02-04T09:32:58Z"
     },
     {
       "id": "b4ccef0737cd4050d65241bf754072030b6b5e6a",
@@ -34021,7 +34001,7 @@
       "description": "Lockbit is by far this summer’s most prolific ransomware group, trailed by two offshoots of the Conti group.",
       "source": "threatpost.com",
       "first_seen": "2025-11-11T10:12:45Z",
-      "last_seen": "2026-02-04T08:28:30Z"
+      "last_seen": "2026-02-04T09:32:58Z"
     },
     {
       "id": "12ee113fc8fce91f6d7fb28deab2b1ad20061ec7",
@@ -34031,7 +34011,7 @@
       "description": "Tens of thousands of cameras have failed to patch a critical, 11-month-old CVE, leaving thousands of organizations exposed.",
       "source": "threatpost.com",
       "first_seen": "2025-11-11T10:12:45Z",
-      "last_seen": "2026-02-04T08:28:30Z"
+      "last_seen": "2026-02-04T09:32:58Z"
     }
   ]
 }
