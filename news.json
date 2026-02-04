@@ -1,7 +1,21 @@
 {
-  "last_updated": "2026-02-04T05:40:11Z",
-  "count": 30,
+  "last_updated": "2026-02-04T06:37:34Z",
+  "count": 35,
   "items": [
+    {
+      "title": "Chrome Vulnerabilities Let Attackers Execute Arbitrary Code and Crash System",
+      "link": "https://cybersecuritynews.com/chrome-vulnerabilities-arbitrary-code-2/",
+      "date": "2026-02-04T06:05:05Z",
+      "description": "Google has released a critical security update for the Chrome Stable channel, addressing two high-severity vulnerabilities that expose users to potential arbitrary code execution (ACE) and denial-of-service (DoS) attacks. The update pushes the browser version to 144.0.7559.132/.133 for Windows and macOS, and 144.0.7559.132 for Linux. The technology giant confirmed that the rollout will occur…",
+      "source": "cybersecuritynews.com"
+    },
+    {
+      "title": "Hackers Exploiting React Server Components Vulnerability in the Wild to Deploy Malicious Payloads",
+      "link": "https://cybersecuritynews.com/react-server-vulnerability-exploited/",
+      "date": "2026-02-04T02:00:50Z",
+      "description": "Two months following the disclosure of CVE-2025-55182, exploitation activity targeting React Server Components has evolved from broad scanning into consolidated, high-volume attack campaigns. According to telemetry from GreyNoise collected between January 26 and February 2, 2026, threat actors are actively leveraging this critical vulnerability to deploy cryptominers and establish persistent…",
+      "source": "cybersecuritynews.com"
+    },
     {
       "title": "Russian Hackers Weaponize Microsoft Office Bug in Just 3 Days",
       "link": "https://www.darkreading.com/cyberattacks-data-breaches/russian-hackers-weaponize-office-bug-within-days",
@@ -15,6 +29,27 @@
       "date": "2026-02-03T20:55:51Z",
       "description": "The self-replicating malware has poisoned a fresh set of Open VSX software components, leaving potential downstream victims with infostealer infections.",
       "source": "darkreading.com"
+    },
+    {
+      "title": "GlassWorm Infiltrated VSX Extensions with More than 22,000 Downloads to Attack Developers",
+      "link": "https://cybersecuritynews.com/glassworm-infiltrated-vsx-extensions/",
+      "date": "2026-02-03T20:01:28Z",
+      "description": "GlassWorm has emerged as a serious threat to developers using the Open VSX Registry, where popular VSX extensions were silently turned into delivery vehicles for malware. Threat actors compromised a trusted publisher account and pushed poisoned updates that looked like routine releases but actually carried a staged loader. These extensions, which had more than 22,000 […] The post GlassWorm…",
+      "source": "cybersecuritynews.com"
+    },
+    {
+      "title": "Infostealer Campaigns Expand to macOS as Attackers Abuse Python and Trusted Platforms",
+      "link": "https://cybersecuritynews.com/infostealer-campaigns-expand/",
+      "date": "2026-02-03T19:42:11Z",
+      "description": "Infostealer campaigns that once focused mainly on Windows are now expanding aggressively to macOS, using Python and trusted platforms to reach new victims. Recent attacks show a clear shift: threat actors are abusing online ads, fake apps, and familiar tools to quietly steal credentials, session cookies, and cryptocurrency data from Mac users. Cross‑platform Python stealers […] The post…",
+      "source": "cybersecuritynews.com"
+    },
+    {
+      "title": "Beware of Fake Dropbox Phishing Attack that Harvest Login Credentials",
+      "link": "https://cybersecuritynews.com/beware-of-fake-dropbox-phishing-attack/",
+      "date": "2026-02-03T19:01:02Z",
+      "description": "Cybercriminals are launching a dangerous phishing campaign that tricks users into giving away their login credentials by impersonating Dropbox. This attack uses a multi-stage approach to bypass email security checks and content scanners. The threat actors exploit trusted cloud platforms and harmless-looking PDF files to create a deception chain that leads victims to a fake […] The post Beware of…",
+      "source": "cybersecuritynews.com"
     },
     {
       "title": "Docker Fixes Critical Ask Gordon AI Flaw Allowing Code Execution via Image Metadata",
@@ -111,14 +146,14 @@
       "title": "ZDI-CAN-28816: Adobe",
       "link": "http://www.zerodayinitiative.com/advisories/upcoming/",
       "date": "2026-02-03T06:00:00Z",
-      "description": "A CVSS score 7.8 AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H severity vulnerability discovered by 'Mark Vincent Yason (markyason.github.io)' was reported to the affected vendor on: 2026-02-03, 0 days ago. The vendor is given until 2026-06-03 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
+      "description": "A CVSS score 7.8 AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H severity vulnerability discovered by 'Mark Vincent Yason (markyason.github.io)' was reported to the affected vendor on: 2026-02-03, 1 days ago. The vendor is given until 2026-06-03 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
       "source": "zerodayinitiative.com"
     },
     {
       "title": "ZDI-CAN-29162: Apple",
       "link": "http://www.zerodayinitiative.com/advisories/upcoming/",
       "date": "2026-02-03T06:00:00Z",
-      "description": "A CVSS score 8.8 AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H severity vulnerability discovered by 'Hossein Lotfi (@hosselot) of TrendAI Zero Day Initiative' was reported to the affected vendor on: 2026-02-03, 0 days ago. The vendor is given until 2026-06-03 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
+      "description": "A CVSS score 8.8 AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H severity vulnerability discovered by 'Hossein Lotfi (@hosselot) of TrendAI Zero Day Initiative' was reported to the affected vendor on: 2026-02-03, 1 days ago. The vendor is given until 2026-06-03 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
       "source": "zerodayinitiative.com"
     },
     {
@@ -132,21 +167,21 @@
       "title": "ZDI-CAN-28034: Schneider Electric",
       "link": "http://www.zerodayinitiative.com/advisories/upcoming/",
       "date": "2026-02-02T06:00:00Z",
-      "description": "A CVSS score 8.8 AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H severity vulnerability discovered by ' hassan ali' was reported to the affected vendor on: 2026-02-02, 1 days ago. The vendor is given until 2026-06-02 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
+      "description": "A CVSS score 8.8 AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H severity vulnerability discovered by ' hassan ali' was reported to the affected vendor on: 2026-02-02, 2 days ago. The vendor is given until 2026-06-02 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
       "source": "zerodayinitiative.com"
     },
     {
       "title": "ZDI-CAN-28734: Medplum",
       "link": "http://www.zerodayinitiative.com/advisories/upcoming/",
       "date": "2026-01-30T06:00:00Z",
-      "description": "A CVSS score 7.7 AV:N/AC:L/PR:L/UI:N/S:C/C:H/I:N/A:N severity vulnerability discovered by 'Brandon Evans of TrendAI Zero Day Initiative' was reported to the affected vendor on: 2026-01-30, 4 days ago. The vendor is given until 2026-05-30 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
+      "description": "A CVSS score 7.7 AV:N/AC:L/PR:L/UI:N/S:C/C:H/I:N/A:N severity vulnerability discovered by 'Brandon Evans of TrendAI Zero Day Initiative' was reported to the affected vendor on: 2026-01-30, 5 days ago. The vendor is given until 2026-05-30 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
       "source": "zerodayinitiative.com"
     },
     {
       "title": "ZDI-CAN-29041: ATEN",
       "link": "http://www.zerodayinitiative.com/advisories/upcoming/",
       "date": "2026-01-30T06:00:00Z",
-      "description": "A CVSS score 7.5 AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H severity vulnerability discovered by 'Bobby Gould (@bobbygould5) of TrendAI Zero Day Initiative' was reported to the affected vendor on: 2026-01-30, 4 days ago. The vendor is given until 2026-05-30 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
+      "description": "A CVSS score 7.5 AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H severity vulnerability discovered by 'Bobby Gould (@bobbygould5) of TrendAI Zero Day Initiative' was reported to the affected vendor on: 2026-01-30, 5 days ago. The vendor is given until 2026-05-30 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
       "source": "zerodayinitiative.com"
     },
     {
