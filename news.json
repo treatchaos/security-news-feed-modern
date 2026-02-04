@@ -1,27 +1,41 @@
 {
-  "last_updated": "2026-02-04T11:26:01Z",
+  "last_updated": "2026-02-04T12:35:10Z",
   "count": 35,
   "items": [
+    {
+      "title": "Orion Raises $32 Million for Data Security",
+      "link": "https://www.securityweek.com/orion-raises-32-million-for-data-security/",
+      "date": "2026-02-04T12:07:13Z",
+      "description": "The startup will use the funding to accelerate product development and go-to-market operations. The post Orion Raises $32 Million for Data Security appeared first on SecurityWeek.",
+      "source": "securityweek.com"
+    },
+    {
+      "title": "Orchid Security Introduces Continuous Identity Observability for Enterprise Applications",
+      "link": "https://thehackernews.com/2026/02/orchid-security-introduces-continuous.html",
+      "date": "2026-02-04T11:58:00Z",
+      "description": "An innovative approach to discovering, analyzing, and governing identity usage beyond traditional IAM controls. The Challenge: Identity Lives Outside the Identity Stack Identity and access management tools were built to govern users and directories. Modern enterprises run on applications. Over time, identity logic has moved into application code, APIs, service accounts, and custom authentication",
+      "source": "thehackernews.com"
+    },
+    {
+      "title": "DockerDash Flaw in Docker AI Assistant Leads to RCE, Data Theft",
+      "link": "https://www.securityweek.com/dockerdash-flaw-in-docker-ai-assistant-leads-to-rce-data-theft/",
+      "date": "2026-02-04T11:34:55Z",
+      "description": "The critical vulnerability exists in the contextual trust in MCP Gateway architecture, as instructions are passed without validation. The post DockerDash Flaw in Docker AI Assistant Leads to RCE, Data Theft appeared first on SecurityWeek.",
+      "source": "securityweek.com"
+    },
+    {
+      "title": "Owner of Incognito dark web drugs market gets 30 years in prison",
+      "link": "https://www.bleepingcomputer.com/news/security/taiwanese-man-gets-30-years-for-operating-dark-web-drug-market/",
+      "date": "2026-02-04T11:24:23Z",
+      "description": "A Taiwanese man was sentenced to 30 years in prison for operating Incognito Market, one of the world's largest online narcotics marketplaces that sold over $105 million worth of illegal drugs to customers worldwide. [...]",
+      "source": "bleepingcomputer.com"
+    },
     {
       "title": "Google Looker Bugs Allow Cross-Tenant RCE, Data Exfil",
       "link": "https://www.darkreading.com/application-security/google-looker-bugs-cross-tenant-rce-data-exfil",
       "date": "2026-02-04T11:00:00Z",
       "description": "Attackers could even have used one vulnerable Lookout user to gain access to other GCP tenants' environments.",
       "source": "darkreading.com"
-    },
-    {
-      "title": "One Identity Appoints Gihan Munasinghe as Chief Technology Officer",
-      "link": "https://cybersecuritynews.com/one-identity-appoints-gihan-munasinghe-as-chief-technology-officer/",
-      "date": "2026-02-04T10:35:07Z",
-      "description": "Alisa Viejo, United States, February 4th, 2026, CyberNewsWire One Identity, a leader in unified identity security, today announced the appointment of Gihan Munasinghe as Chief Technology Officer. Munasinghe brings more than 15 years of experience leading global engineering organizations and delivering large-scale, customer-centric software platforms. In this role, he will lead the engineering…",
-      "source": "cybersecuritynews.com"
-    },
-    {
-      "title": "Hackers Exfiltrating NTDS.dit File to Gain Full Active Directory Access",
-      "link": "https://cybersecuritynews.com/hackers-exfiltrating-ntds-dit-file/",
-      "date": "2026-02-04T10:05:50Z",
-      "description": "Active Directory serves as the foundation of enterprise authentication systems, making it a prime target for sophisticated threat actors. The NTDS.dit database file, which stores encrypted password hashes and critical domain configurations, has become one of the most sought-after assets in corporate networks. When adversaries successfully obtain this file, they gain unrestricted access to an […]…",
-      "source": "cybersecuritynews.com"
     },
     {
       "title": "Cryptominers, Reverse Shells Dropped in Recent React2Shell Attacks",
@@ -52,32 +66,11 @@
       "source": "securityonline.info"
     },
     {
-      "title": "Hackers Actively Scanning Citrix NetScaler Infrastructure to Discover Login Panels",
-      "link": "https://cybersecuritynews.com/scanning-citrix-netscaler-login/",
-      "date": "2026-02-04T08:47:17Z",
-      "description": "A large-scale reconnaissance campaign targeting Citrix ADC Gateway and NetScaler Gateway infrastructure was detected between January 28 and February 2, 2026, by the GreyNoise Global Observation Grid. The coordinated operation combined residential proxy rotation for login panel discovery with concentrated AWS-hosted version disclosure scanning, generating over 111,834 sessions from more than…",
-      "source": "cybersecuritynews.com"
-    },
-    {
       "title": "Security Analysis of Moltbook Agent Network: Bot-to-Bot Prompt Injection and Data Leaks",
       "link": "https://www.securityweek.com/security-analysis-of-moltbook-agent-network-bot-to-bot-prompt-injection-and-data-leaks/",
       "date": "2026-02-04T08:43:18Z",
       "description": "Wiz and Permiso have analyzed the AI agent social network and found serious security issues and threats. The post Security Analysis of Moltbook Agent Network: Bot-to-Bot Prompt Injection and Data Leaks appeared first on SecurityWeek.",
       "source": "securityweek.com"
-    },
-    {
-      "title": "Ingress-Nginx Vulnerability Allow Attackers to Execute Arbitrary Code",
-      "link": "https://cybersecuritynews.com/ingress-nginx-vulnerability/",
-      "date": "2026-02-04T08:22:01Z",
-      "description": "A critical security vulnerability has been discovered in ingress-nginx, a popular Kubernetes ingress controller, that could allow authenticated attackers to execute arbitrary code and access sensitive cluster secrets. The vulnerability, tracked as CVE-2026-24512, affects multiple versions of the software and requires immediate action from administrators. The security flaw exists in the…",
-      "source": "cybersecuritynews.com"
-    },
-    {
-      "title": "CISA Warns of SolarWinds Web Help Desk RCE Vulnerability Exploited in Attacks",
-      "link": "https://cybersecuritynews.com/solarwinds-web-help-desk-rce-vulnerability-2/",
-      "date": "2026-02-04T08:19:41Z",
-      "description": "An urgent warning regarding a critical remote code execution (RCE) vulnerability in SolarWinds Web Help Desk. The vulnerability, tracked as CVE-2025-40551, exploits unsafe deserialization of untrusted data and could allow attackers to execute arbitrary commands on affected systems without requiring authentication. CVE-2025-40551 is a deserialization vulnerability classified under CWE-502…",
-      "source": "cybersecuritynews.com"
     },
     {
       "title": "Microsoft Warns Python Infostealers Target macOS via Fake Ads and Installers",
@@ -101,11 +94,25 @@
       "source": "thehackernews.com"
     },
     {
+      "title": "Coinbase confirms insider breach linked to leaked support tool screenshots",
+      "link": "https://www.bleepingcomputer.com/news/security/coinbase-confirms-insider-breach-linked-to-leaked-support-tool-screenshots/",
+      "date": "2026-02-04T02:04:23Z",
+      "description": "Coinbase has confirmed an insider breach after a contractor improperly accessed the data of approximately thirty customers, which BleepingComputer has learned is a new incident that occurred in December. [...]",
+      "source": "bleepingcomputer.com"
+    },
+    {
       "title": "Russian Hackers Weaponize Microsoft Office Bug in Just 3 Days",
       "link": "https://www.darkreading.com/cyberattacks-data-breaches/russian-hackers-weaponize-office-bug-within-days",
       "date": "2026-02-03T21:52:22Z",
       "description": "APT28's attacks rely on specially crafted Microsoft Rich Text Format (RTF) documents to kick off a multistage infection chain to deliver malicious payloads.",
       "source": "darkreading.com"
+    },
+    {
+      "title": "Step Finance says compromised execs' devices led to $40M crypto theft",
+      "link": "https://www.bleepingcomputer.com/news/security/step-finance-says-compromised-execs-devices-led-to-40m-crypto-theft/",
+      "date": "2026-02-03T21:33:23Z",
+      "description": "Step Finance announced that it lost $40 million worth of digital assets after hackers compromised devices belonging to the company's team of executives. [...]",
+      "source": "bleepingcomputer.com"
     },
     {
       "title": "GlassWorm Malware Returns to Shatter Developer Ecosystems",
@@ -115,11 +122,18 @@
       "source": "darkreading.com"
     },
     {
-      "title": "Docker Fixes Critical Ask Gordon AI Flaw Allowing Code Execution via Image Metadata",
-      "link": "https://thehackernews.com/2026/02/docker-fixes-critical-ask-gordon-ai.html",
-      "date": "2026-02-03T16:41:00Z",
-      "description": "Cybersecurity researchers have disclosed details of a now-patched security flaw impacting Ask Gordon, an artificial intelligence (AI) assistant built into Docker Desktop and the Docker Command-Line Interface (CLI), that could be exploited to execute code and exfiltrate sensitive data. The critical vulnerability has been codenamed DockerDash by cybersecurity company Noma Labs. It was addressed by",
-      "source": "thehackernews.com"
+      "title": "Wave of Citrix NetScaler scans use thousands of residential proxies",
+      "link": "https://www.bleepingcomputer.com/news/security/wave-of-citrix-netscaler-scans-use-thousands-of-residential-proxies/",
+      "date": "2026-02-03T20:25:40Z",
+      "description": "A coordinated reconnaissance campaign targeting Citrix NetScaler infrastructure over the past week used tens of thousands of residential proxies to discover login panels. [...]",
+      "source": "bleepingcomputer.com"
+    },
+    {
+      "title": "CISA flags critical SolarWinds RCE flaw as exploited in attacks",
+      "link": "https://www.bleepingcomputer.com/news/security/cisa-flags-critical-solarwinds-rce-flaw-as-actively-exploited/",
+      "date": "2026-02-03T19:37:00Z",
+      "description": "CISA has flagged a critical SolarWinds Web Help Desk vulnerability as actively exploited in attacks and ordered federal agencies to patch their systems within three days. [...]",
+      "source": "bleepingcomputer.com"
     },
     {
       "title": "8-Minute Access: AI Accelerates Breach of AWS Environment",
@@ -134,20 +148,6 @@
       "date": "2026-02-03T16:30:41Z",
       "description": "People trust organizations to do the right thing, but some websites and apps have user interfaces that ultimately lead to inadequate security for users.",
       "source": "darkreading.com"
-    },
-    {
-      "title": "RADICL Raises $31 Million for vSOC",
-      "link": "https://www.securityweek.com/radicl-raises-31-million-for-vsoc/",
-      "date": "2026-02-03T15:32:00Z",
-      "description": "The company will use the investment to accelerate development of its autonomous virtual security operations center (vSOC). The post RADICL Raises $31 Million for vSOC appeared first on SecurityWeek.",
-      "source": "securityweek.com"
-    },
-    {
-      "title": "RapidFort Raises $42M to Automate Software Supply Chain Security",
-      "link": "https://www.securityweek.com/rapidfort-raises-42m-to-automate-software-supply-chain-security/",
-      "date": "2026-02-03T14:41:18Z",
-      "description": "The company will use the latest capital to scale its go-to-market efforts and expand its platform’s capabilities. The post RapidFort Raises $42M to Automate Software Supply Chain Security appeared first on SecurityWeek.",
-      "source": "securityweek.com"
     },
     {
       "title": "Gatekeeper Breached: 4 Critical Ingress-Nginx Flaws Risk Cluster Secrets",
