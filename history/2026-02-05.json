@@ -1,7 +1,47 @@
 {
   "date": "2026-02-05",
-  "count": 22,
+  "count": 26,
   "items": [
+    {
+      "id": "db6991e675d1056c61d61155c2957fe39a20f1a8",
+      "title": "Critical N8n Sandbox Escape Could Lead to Server Compromise",
+      "link": "https://www.securityweek.com/critical-n8n-sandbox-escape-could-lead-to-server-compromise/",
+      "date": "2026-02-05T11:23:19Z",
+      "description": "A critical sandbox escape vulnerability in the n8n AI workflow automation platform could allow attackers to execute arbitrary commands on the server, Pillar Security reports. Tracked as CVE-2026-25049 (CVSS score of 9.4), the issue impacts the manner in which the n8n sandbox’s sanitization routine evaluates JavaScript expressions. Pillar discovered that the sandbox’s sanitizer could be […] The…",
+      "source": "securityweek.com",
+      "first_seen": "2026-02-05T11:27:55Z",
+      "last_seen": "2026-02-05T11:27:55Z"
+    },
+    {
+      "id": "190863b4c54d91757185f87ee606173d0d669f80",
+      "title": "Microsoft to Add Sysmon Threat Detection Feature Natively to Windows 11",
+      "link": "https://cybersecuritynews.com/microsoft-to-add-sysmon-threat-detection-feature-natively-to-windows-11/",
+      "date": "2026-02-05T11:17:50Z",
+      "description": "A major upgrade has been announced to enhance capabilities for cybersecurity defenders and threat hunters in the Windows ecosystem. With the release of Windows 11 Insider Preview Build 26300.7733 (KB5074178) to the Dev Channel. The company is integrating the popular System Monitor (Sysmon) tool directly into the operating system. Previously available only as a standalone […] The post Microsoft…",
+      "source": "cybersecuritynews.com",
+      "first_seen": "2026-02-05T11:27:55Z",
+      "last_seen": "2026-02-05T11:27:55Z"
+    },
+    {
+      "id": "687b1bab209679559afe06c791c64ff9cea521f5",
+      "title": "Data breach at fintech firm Betterment exposes 1.4 million accounts",
+      "link": "https://www.bleepingcomputer.com/news/security/data-breach-at-fintech-firm-betterment-exposes-14-million-accounts/",
+      "date": "2026-02-05T11:16:12Z",
+      "description": "Hackers stole email addresses and other personal information from 1.4 million accounts after breaching the systems of automated investment platform Betterment in January. [...]",
+      "source": "bleepingcomputer.com",
+      "first_seen": "2026-02-05T11:27:55Z",
+      "last_seen": "2026-02-05T11:27:55Z"
+    },
+    {
+      "id": "bd057d949d5a5319fbd61bc03b432bf0e5f63448",
+      "title": "Cyberspy Group Hacked Governments and Critical Infrastructure in 37 Countries",
+      "link": "https://www.securityweek.com/cyberspy-group-hacked-governments-and-critical-infrastructure-in-37-countries/",
+      "date": "2026-02-05T11:00:00Z",
+      "description": "Palo Alto Networks has not attributed the APT activity to any specific country, but evidence points to China. The post Cyberspy Group Hacked Governments and Critical Infrastructure in 37 Countries appeared first on SecurityWeek.",
+      "source": "securityweek.com",
+      "first_seen": "2026-02-05T11:27:55Z",
+      "last_seen": "2026-02-05T11:27:55Z"
+    },
     {
       "id": "f3c14f1e7bc26db40da076ff61fe972da3079f17",
       "title": "Zendesk spam wave returns, floods users with 'Activate account' emails",
@@ -10,7 +50,7 @@
       "description": "A fresh wave of spam is hitting inboxes worldwide, with users reporting that they are once again being bombarded by automated emails generated through companies' unsecured Zendesk support systems. Some recipients say they are receiving hundreds of messages with strange or alarming subject lines. such as 'Activate account...' [...]",
       "source": "bleepingcomputer.com",
       "first_seen": "2026-02-05T10:31:01Z",
-      "last_seen": "2026-02-05T10:31:01Z"
+      "last_seen": "2026-02-05T11:27:55Z"
     },
     {
       "id": "1dbeda6f1144a7d881841082c168dfb1d609b09f",
@@ -20,7 +60,7 @@
       "description": "A high-severity security advisory has been issued for a critical vulnerability in Meeting Management software. This vulnerability allows authenticated remote attackers to upload harmful files and gain complete control over the affected system. The security flaw, identified as CVE-2026-20098, carries a high severity rating because it enables “root” access, the highest level of administrative…",
       "source": "cybersecuritynews.com",
       "first_seen": "2026-02-05T10:31:01Z",
-      "last_seen": "2026-02-05T10:31:01Z"
+      "last_seen": "2026-02-05T11:27:55Z"
     },
     {
       "id": "eb1862579052fd1c8ebb89e53d0277fe4da608fd",
@@ -30,7 +70,7 @@
       "description": "The security defects can lead to DoS conditions, arbitrary command execution, and privilege escalation. The post Cisco, F5 Patch High-Severity Vulnerabilities appeared first on SecurityWeek.",
       "source": "securityweek.com",
       "first_seen": "2026-02-05T10:31:01Z",
-      "last_seen": "2026-02-05T10:31:01Z"
+      "last_seen": "2026-02-05T11:27:55Z"
     },
     {
       "id": "0d640788f45ec59c395c41d5fa243142fcdf3e13",
@@ -40,7 +80,7 @@
       "description": "A sophisticated phishing campaign targeting Canadian citizens has emerged, using fake traffic ticket payment portals to steal personal and financial information. The attackers employ SEO poisoning techniques to manipulate search engine results, ensuring their fraudulent websites appear legitimate when users search for provincial traffic ticket payment options. These malicious portals…",
       "source": "cybersecuritynews.com",
       "first_seen": "2026-02-05T09:33:48Z",
-      "last_seen": "2026-02-05T10:31:01Z"
+      "last_seen": "2026-02-05T11:27:55Z"
     },
     {
       "id": "1f7ad3e68813b37ae88f8e9dd0f1ad240b4a0185",
@@ -50,7 +90,7 @@
       "description": "The post High-Severity NGINX Flaw Lets Attackers Inject Malicious Data appeared first on Daily CyberSecurity.",
       "source": "securityonline.info",
       "first_seen": "2026-02-05T09:33:48Z",
-      "last_seen": "2026-02-05T10:31:01Z"
+      "last_seen": "2026-02-05T11:27:55Z"
     },
     {
       "id": "368070e16e153002e93b3d3300eb724b23a508f7",
@@ -60,7 +100,7 @@
       "description": "Threat actors are actively leveraging compromised SonicWall SSLVPN credentials to breach networks and deploy a sophisticated “EDR killer” that can blind endpoint security solutions. In a campaign analyzed by Huntress in early February 2026, attackers utilized valid VPN accounts to gain initial access before executing a Bring Your Own Vulnerable Driver (BYOVD) attack using a […] The post Hackers…",
       "source": "cybersecuritynews.com",
       "first_seen": "2026-02-05T08:30:29Z",
-      "last_seen": "2026-02-05T10:31:01Z"
+      "last_seen": "2026-02-05T11:27:55Z"
     },
     {
       "id": "fd8f1fa1f74d9e5cae8d9df076f7b07bf1dad7e1",
@@ -70,7 +110,7 @@
       "description": "A new ransomware operation known as DragonForce has emerged as a major threat to organizations worldwide since its appearance in late 2023. This sophisticated malware campaign targets critical business infrastructure across multiple industries, using advanced techniques to encrypt files and steal sensitive corporate data. The group operates on a ransomware-as-a-service model, offering…",
       "source": "cybersecuritynews.com",
       "first_seen": "2026-02-05T08:30:29Z",
-      "last_seen": "2026-02-05T10:31:01Z"
+      "last_seen": "2026-02-05T11:27:55Z"
     },
     {
       "id": "32e35a324426095348ad9f1830333ae6d5366593",
@@ -110,7 +150,7 @@
       "description": "Iranian threat actors have been stealing credentials from people of interest across the Middle East, using spear-phishing and social engineering.",
       "source": "darkreading.com",
       "first_seen": "2026-02-05T07:42:39Z",
-      "last_seen": "2026-02-05T10:31:01Z"
+      "last_seen": "2026-02-05T11:27:55Z"
     },
     {
       "id": "1181ae1ea41853b9c409910c22f963fce718535d",
@@ -140,7 +180,7 @@
       "description": "A new, critical security vulnerability has been disclosed in the n8n workflow automation platform that, if successfully exploited, could result in the execution of arbitrary system commands. The flaw, tracked as CVE-2026-25049 (CVSS score: 9.4), is the result of inadequate sanitization that bypasses safeguards put in place to address CVE-2025-68613 (CVSS score: 9.9), another critical defect that",
       "source": "thehackernews.com",
       "first_seen": "2026-02-05T06:44:04Z",
-      "last_seen": "2026-02-05T10:31:01Z"
+      "last_seen": "2026-02-05T11:27:55Z"
     },
     {
       "id": "cfe48fa36f48637ddea95bea275ca812c847fee6",
@@ -170,7 +210,7 @@
       "description": "Cybersecurity researchers have disclosed details of an active web traffic hijacking campaign that has targeted NGINX installations and management panels like Baota (BT) in an attempt to route it through the attacker's infrastructure. Datadog Security Labs said it observed threat actors associated with the recent React2Shell (CVE-2025-55182, CVSS score: 10.0) exploitation using malicious NGINX",
       "source": "thehackernews.com",
       "first_seen": "2026-02-05T06:44:04Z",
-      "last_seen": "2026-02-05T10:31:01Z"
+      "last_seen": "2026-02-05T11:27:55Z"
     },
     {
       "id": "a64842d7deccf4094da902b617974e97dce3be14",
@@ -220,7 +260,7 @@
       "description": "A threat actor is compromising NGINX servers in a campaign that hijacks user traffic and reroutes it through the attacker's backend infrastructure. [...]",
       "source": "bleepingcomputer.com",
       "first_seen": "2026-02-05T01:07:36Z",
-      "last_seen": "2026-02-05T10:31:01Z"
+      "last_seen": "2026-02-05T11:27:55Z"
     }
   ]
 }
