@@ -1,7 +1,57 @@
 {
   "date": "2026-02-05",
-  "count": 30,
+  "count": 35,
   "items": [
+    {
+      "id": "ee7d4f985353b056edfeb641c066ef02e8dd995c",
+      "title": "Critical n8n Vulnerability Enables System Command Execution Via Weaponized Workflows",
+      "link": "https://cybersecuritynews.com/n8n-rce-vulnerability/",
+      "date": "2026-02-05T13:49:04Z",
+      "description": "A critical remote code execution (RCE) vulnerability in n8n, the popular workflow automation platform. This flaw allows authenticated attackers to execute arbitrary system commands on the host server by leveraging weaponized workflows. The vulnerability represents a significant regression and expansion of the previously identified CVE-2025-68613, highlighting persistent risks in the platform’s…",
+      "source": "cybersecuritynews.com",
+      "first_seen": "2026-02-05T13:58:49Z",
+      "last_seen": "2026-02-05T13:58:49Z"
+    },
+    {
+      "id": "97575f5953a6ab6dcff75e1f8efa806d04990205",
+      "title": "VS Code Configs Expose GitHub Codespaces to Attacks",
+      "link": "https://www.securityweek.com/vs-code-configs-expose-github-codespaces-to-attacks/",
+      "date": "2026-02-05T13:41:48Z",
+      "description": "VS Code-integrated configuration files are automatically executed in Codespaces when the user opens a repository or pull request. The post VS Code Configs Expose GitHub Codespaces to Attacks appeared first on SecurityWeek.",
+      "source": "securityweek.com",
+      "first_seen": "2026-02-05T13:58:49Z",
+      "last_seen": "2026-02-05T13:58:49Z"
+    },
+    {
+      "id": "f9348df82b410b6b6c3ad9f41435b91ac5e26158",
+      "title": "Nullify Secures $12.5 Million in Seed Funding for Cybersecurity AI Workforce",
+      "link": "https://www.securityweek.com/nullify-secures-12-5-million-in-seed-funding-for-cybersecurity-ai-workforce/",
+      "date": "2026-02-05T13:02:15Z",
+      "description": "This latest infusion, led by SYN Ventures, brings the company’s total funding to $16.9 million. The post Nullify Secures $12.5 Million in Seed Funding for Cybersecurity AI Workforce appeared first on SecurityWeek.",
+      "source": "securityweek.com",
+      "first_seen": "2026-02-05T13:58:49Z",
+      "last_seen": "2026-02-05T13:58:49Z"
+    },
+    {
+      "id": "46c8932069b52313078a90a86934c578a96fe6d1",
+      "title": "ThreatsDay Bulletin: Codespaces RCE, AsyncRAT C2, BYOVD Abuse, AI Cloud Intrusions & 15+ Stories",
+      "link": "https://thehackernews.com/2026/02/threatsday-bulletin-codespaces-rce.html",
+      "date": "2026-02-05T12:57:00Z",
+      "description": "This week didn’t produce one big headline. It produced many small signals — the kind that quietly shape what attacks will look like next. Researchers tracked intrusions that start in ordinary places: developer workflows, remote tools, cloud access, identity paths, and even routine user actions. Nothing looked dramatic on the surface. That’s the point. Entry is becoming less",
+      "source": "thehackernews.com",
+      "first_seen": "2026-02-05T13:58:49Z",
+      "last_seen": "2026-02-05T13:58:49Z"
+    },
+    {
+      "id": "9231c37a24c0349d766dd2cf2745c40a5b5a0444",
+      "title": "Newsletter platform Substack notifies users of data breach",
+      "link": "https://www.bleepingcomputer.com/news/security/newsletter-platform-substack-notifies-users-of-data-breach/",
+      "date": "2026-02-05T12:54:48Z",
+      "description": "Newsletter platform Substack is notifying users of a data breach after attackers stole their email addresses and phone numbers in October 2025. [...]",
+      "source": "bleepingcomputer.com",
+      "first_seen": "2026-02-05T13:58:49Z",
+      "last_seen": "2026-02-05T13:58:49Z"
+    },
     {
       "id": "b003ebd371cc8bc40f7cf552ff1cfe9dd1a8091b",
       "title": "Italy Averted Russian-Linked Cyberattacks Targeting Winter Olympics Websites, Foreign Minister Says",
@@ -10,7 +60,7 @@
       "description": "Italy has foiled a series of cyberattacks targeting some of its foreign ministry offices, including one in Washington. The post Italy Averted Russian-Linked Cyberattacks Targeting Winter Olympics Websites, Foreign Minister Says appeared first on SecurityWeek.",
       "source": "securityweek.com",
       "first_seen": "2026-02-05T12:36:26Z",
-      "last_seen": "2026-02-05T12:36:26Z"
+      "last_seen": "2026-02-05T13:58:49Z"
     },
     {
       "id": "ef411fd9e7c43940e41d45ab9dd0353081acf6c4",
@@ -20,7 +70,7 @@
       "description": "The malware is known for dropping ransomware and other payloads, and for abusing infected machines to proxy traffic. The post SystemBC Infects 10,000 Devices After Defying Law Enforcement Takedown appeared first on SecurityWeek.",
       "source": "securityweek.com",
       "first_seen": "2026-02-05T12:36:26Z",
-      "last_seen": "2026-02-05T12:36:26Z"
+      "last_seen": "2026-02-05T13:58:49Z"
     },
     {
       "id": "bb0819ff25f758660d32263a1fb246275c79d6d9",
@@ -30,7 +80,7 @@
       "description": "Today’s “AI everywhere” reality is woven into everyday workflows across the enterprise, embedded in SaaS platforms, browsers, copilots, extensions, and a rapidly expanding universe of shadow tools that appear faster than security teams can track. Yet most organizations still rely on legacy controls that operate far away from where AI interactions actually occur. The result is a widening",
       "source": "thehackernews.com",
       "first_seen": "2026-02-05T12:36:26Z",
-      "last_seen": "2026-02-05T12:36:26Z"
+      "last_seen": "2026-02-05T13:58:49Z"
     },
     {
       "id": "db6991e675d1056c61d61155c2957fe39a20f1a8",
@@ -40,7 +90,7 @@
       "description": "A critical sandbox escape vulnerability in the n8n AI workflow automation platform could allow attackers to execute arbitrary commands on the server, Pillar Security reports. Tracked as CVE-2026-25049 (CVSS score of 9.4), the issue impacts the manner in which the n8n sandbox’s sanitization routine evaluates JavaScript expressions. Pillar discovered that the sandbox’s sanitizer could be […] The…",
       "source": "securityweek.com",
       "first_seen": "2026-02-05T11:27:55Z",
-      "last_seen": "2026-02-05T12:36:26Z"
+      "last_seen": "2026-02-05T13:58:49Z"
     },
     {
       "id": "190863b4c54d91757185f87ee606173d0d669f80",
@@ -50,7 +100,7 @@
       "description": "A major upgrade has been announced to enhance capabilities for cybersecurity defenders and threat hunters in the Windows ecosystem. With the release of Windows 11 Insider Preview Build 26300.7733 (KB5074178) to the Dev Channel. The company is integrating the popular System Monitor (Sysmon) tool directly into the operating system. Previously available only as a standalone […] The post Microsoft…",
       "source": "cybersecuritynews.com",
       "first_seen": "2026-02-05T11:27:55Z",
-      "last_seen": "2026-02-05T12:36:26Z"
+      "last_seen": "2026-02-05T13:58:49Z"
     },
     {
       "id": "687b1bab209679559afe06c791c64ff9cea521f5",
@@ -60,7 +110,7 @@
       "description": "Hackers stole email addresses and other personal information from 1.4 million accounts after breaching the systems of automated investment platform Betterment in January. [...]",
       "source": "bleepingcomputer.com",
       "first_seen": "2026-02-05T11:27:55Z",
-      "last_seen": "2026-02-05T12:36:26Z"
+      "last_seen": "2026-02-05T13:58:49Z"
     },
     {
       "id": "bd057d949d5a5319fbd61bc03b432bf0e5f63448",
@@ -80,7 +130,7 @@
       "description": "The elusive Iranian threat group known as Infy (aka Prince of Persia) has evolved its tactics as part of efforts to hide its tracks, even as it readied new command-and-control (C2) infrastructure coinciding with the end of the widespread internet blackout the regime imposed at the start of the month. \"The threat actor stopped maintaining its C2 servers on January 8 for the first time since we",
       "source": "thehackernews.com",
       "first_seen": "2026-02-05T12:36:26Z",
-      "last_seen": "2026-02-05T12:36:26Z"
+      "last_seen": "2026-02-05T13:58:49Z"
     },
     {
       "id": "f3c14f1e7bc26db40da076ff61fe972da3079f17",
@@ -90,7 +140,7 @@
       "description": "A fresh wave of spam is hitting inboxes worldwide, with users reporting that they are once again being bombarded by automated emails generated through companies' unsecured Zendesk support systems. Some recipients say they are receiving hundreds of messages with strange or alarming subject lines. such as 'Activate account...' [...]",
       "source": "bleepingcomputer.com",
       "first_seen": "2026-02-05T10:31:01Z",
-      "last_seen": "2026-02-05T12:36:26Z"
+      "last_seen": "2026-02-05T13:58:49Z"
     },
     {
       "id": "1dbeda6f1144a7d881841082c168dfb1d609b09f",
@@ -100,7 +150,7 @@
       "description": "A high-severity security advisory has been issued for a critical vulnerability in Meeting Management software. This vulnerability allows authenticated remote attackers to upload harmful files and gain complete control over the affected system. The security flaw, identified as CVE-2026-20098, carries a high severity rating because it enables “root” access, the highest level of administrative…",
       "source": "cybersecuritynews.com",
       "first_seen": "2026-02-05T10:31:01Z",
-      "last_seen": "2026-02-05T12:36:26Z"
+      "last_seen": "2026-02-05T13:58:49Z"
     },
     {
       "id": "eb1862579052fd1c8ebb89e53d0277fe4da608fd",
@@ -120,7 +170,7 @@
       "description": "A sophisticated phishing campaign targeting Canadian citizens has emerged, using fake traffic ticket payment portals to steal personal and financial information. The attackers employ SEO poisoning techniques to manipulate search engine results, ensuring their fraudulent websites appear legitimate when users search for provincial traffic ticket payment options. These malicious portals…",
       "source": "cybersecuritynews.com",
       "first_seen": "2026-02-05T09:33:48Z",
-      "last_seen": "2026-02-05T12:36:26Z"
+      "last_seen": "2026-02-05T13:58:49Z"
     },
     {
       "id": "1f7ad3e68813b37ae88f8e9dd0f1ad240b4a0185",
@@ -130,7 +180,7 @@
       "description": "The post High-Severity NGINX Flaw Lets Attackers Inject Malicious Data appeared first on Daily CyberSecurity.",
       "source": "securityonline.info",
       "first_seen": "2026-02-05T09:33:48Z",
-      "last_seen": "2026-02-05T12:36:26Z"
+      "last_seen": "2026-02-05T13:58:49Z"
     },
     {
       "id": "368070e16e153002e93b3d3300eb724b23a508f7",
@@ -140,7 +190,7 @@
       "description": "Threat actors are actively leveraging compromised SonicWall SSLVPN credentials to breach networks and deploy a sophisticated “EDR killer” that can blind endpoint security solutions. In a campaign analyzed by Huntress in early February 2026, attackers utilized valid VPN accounts to gain initial access before executing a Bring Your Own Vulnerable Driver (BYOVD) attack using a […] The post Hackers…",
       "source": "cybersecuritynews.com",
       "first_seen": "2026-02-05T08:30:29Z",
-      "last_seen": "2026-02-05T12:36:26Z"
+      "last_seen": "2026-02-05T13:58:49Z"
     },
     {
       "id": "fd8f1fa1f74d9e5cae8d9df076f7b07bf1dad7e1",
@@ -190,7 +240,7 @@
       "description": "Iranian threat actors have been stealing credentials from people of interest across the Middle East, using spear-phishing and social engineering.",
       "source": "darkreading.com",
       "first_seen": "2026-02-05T07:42:39Z",
-      "last_seen": "2026-02-05T12:36:26Z"
+      "last_seen": "2026-02-05T13:58:49Z"
     },
     {
       "id": "1181ae1ea41853b9c409910c22f963fce718535d",
@@ -220,7 +270,7 @@
       "description": "A new, critical security vulnerability has been disclosed in the n8n workflow automation platform that, if successfully exploited, could result in the execution of arbitrary system commands. The flaw, tracked as CVE-2026-25049 (CVSS score: 9.4), is the result of inadequate sanitization that bypasses safeguards put in place to address CVE-2025-68613 (CVSS score: 9.9), another critical defect that",
       "source": "thehackernews.com",
       "first_seen": "2026-02-05T06:44:04Z",
-      "last_seen": "2026-02-05T12:36:26Z"
+      "last_seen": "2026-02-05T13:58:49Z"
     },
     {
       "id": "cfe48fa36f48637ddea95bea275ca812c847fee6",
@@ -250,7 +300,7 @@
       "description": "Cybersecurity researchers have disclosed details of an active web traffic hijacking campaign that has targeted NGINX installations and management panels like Baota (BT) in an attempt to route it through the attacker's infrastructure. Datadog Security Labs said it observed threat actors associated with the recent React2Shell (CVE-2025-55182, CVSS score: 10.0) exploitation using malicious NGINX",
       "source": "thehackernews.com",
       "first_seen": "2026-02-05T06:44:04Z",
-      "last_seen": "2026-02-05T12:36:26Z"
+      "last_seen": "2026-02-05T13:58:49Z"
     },
     {
       "id": "a64842d7deccf4094da902b617974e97dce3be14",
@@ -300,7 +350,7 @@
       "description": "A threat actor is compromising NGINX servers in a campaign that hijacks user traffic and reroutes it through the attacker's backend infrastructure. [...]",
       "source": "bleepingcomputer.com",
       "first_seen": "2026-02-05T01:07:36Z",
-      "last_seen": "2026-02-05T12:36:26Z"
+      "last_seen": "2026-02-05T13:58:49Z"
     }
   ]
 }
