@@ -1,7 +1,28 @@
 {
-  "last_updated": "2026-02-06T05:44:44Z",
+  "last_updated": "2026-02-06T06:39:55Z",
   "count": 40,
   "items": [
+    {
+      "title": "F5 Patches Critical Vulnerabilities in BIG-IP, NGINX, and Related Products",
+      "link": "https://cybersecuritynews.com/f5-patches-critical-vulnerabilities/",
+      "date": "2026-02-06T06:18:11Z",
+      "description": "F5 released its February 2026 Quarterly Security Notification on February 4, announcing several medium and low-severity CVEs, plus a security exposure affecting BIG-IP, NGINX, and container services. These issues primarily stem from denial-of-service (DoS) risks and configuration weaknesses, potentially disrupting high-traffic environments like web application firewalls (WAF) and Kubernetes…",
+      "source": "cybersecuritynews.com"
+    },
+    {
+      "title": "CISA Warns of React Native Community Command Injection Vulnerability Exploited in Attacks",
+      "link": "https://cybersecuritynews.com/react-native-command-injection-flaw/",
+      "date": "2026-02-06T06:03:00Z",
+      "description": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) has added CVE-2025-11953 to its Known Exploited Vulnerabilities (KEV) catalog, flagging an OS command injection flaw in the React Native Community CLI as actively exploited in the wild. Added on February 5, 2026, with a federal patching deadline of February 26, 2026, the vulnerability poses severe risks […] The post CISA Warns of…",
+      "source": "cybersecuritynews.com"
+    },
+    {
+      "title": "Claude Opus 4.6 Finds 500+ High-Severity Flaws Across Major Open-Source Libraries",
+      "link": "https://thehackernews.com/2026/02/claude-opus-46-finds-500-high-severity.html",
+      "date": "2026-02-06T05:49:00Z",
+      "description": "Artificial intelligence (AI) company Anthropic revealed that its latest large language model (LLM), Claude Opus 4.6, has found more than 500 previously unknown high-severity security flaws in open-source libraries, including Ghostscript, OpenSC, and CGIF. Claude Opus 4.6, which was launched on Thursday, comes with improved coding skills, including code review and debugging capabilities, along",
+      "source": "thehackernews.com"
+    },
     {
       "title": "Concerns Raised Over CISA’s Silent Ransomware Updates in KEV Catalog",
       "link": "https://www.securityweek.com/questions-raised-over-cisas-silent-ransomware-updates-in-kev-catalog/",
@@ -87,13 +108,6 @@
       "source": "cybersecuritynews.com"
     },
     {
-      "title": "170+ SolarWinds Help Desk Installations Vulnerable to RCE Attacks Exposed Online",
-      "link": "https://cybersecuritynews.com/solarwinds-help-desk-installations-vulnerable/",
-      "date": "2026-02-05T15:17:51Z",
-      "description": "Over 170 SolarWinds Web Help Desk installations remain vulnerable to a critical remote code execution (RCE) flaw that has been actively exploited in the wild and recently added to CISA’s Known Exploited Vulnerabilities catalog. The vulnerability, tracked as CVE-2025-40551, carries a CVSS score of 9.8 and allows unauthenticated attackers to execute arbitrary commands on affected […] The post 170+…",
-      "source": "cybersecuritynews.com"
-    },
-    {
       "title": "Romanian oil pipeline operator Conpet discloses cyberattack",
       "link": "https://www.bleepingcomputer.com/news/security/romanian-oil-pipeline-operator-conpet-discloses-cyberattack-qilin-ransomware/",
       "date": "2026-02-05T15:15:49Z",
@@ -106,13 +120,6 @@
       "date": "2026-02-05T15:13:55Z",
       "description": "The hacker claims to have stolen nearly 700,000 Substack user records, including email addresses and phone numbers. The post Substack Discloses Security Incident After Hacker Leaks Data appeared first on SecurityWeek.",
       "source": "securityweek.com"
-    },
-    {
-      "title": "ShadowSyndicate Using Server Transition Technique in Ransomware Attacks",
-      "link": "https://cybersecuritynews.com/shadowsyndicate-using-server-transition/",
-      "date": "2026-02-05T14:33:57Z",
-      "description": "ShadowSyndicate, a malicious activity cluster first identified in 2022, has evolved its infrastructure management techniques by adopting a server transition method that allows the threat actor to rotate SSH keys across multiple servers. This new approach makes it harder for security teams to track the group’s operations. The threat actor initially gained attention for using […] The post…",
-      "source": "cybersecuritynews.com"
     },
     {
       "title": "Researchers Expose Network of 150 Cloned Law Firm Websites in AI-Powered Scam Campaign",
@@ -171,45 +178,38 @@
       "source": "darkreading.com"
     },
     {
-      "title": "Critical n8n Flaw CVE-2026-25049 Enables System Command Execution via Malicious Workflows",
-      "link": "https://thehackernews.com/2026/02/critical-n8n-flaw-cve-2026-25049.html",
-      "date": "2026-02-05T06:16:00Z",
-      "description": "A new, critical security vulnerability has been disclosed in the n8n workflow automation platform that, if successfully exploited, could result in the execution of arbitrary system commands. The flaw, tracked as CVE-2026-25049 (CVSS score: 9.4), is the result of inadequate sanitization that bypasses safeguards put in place to address CVE-2025-68613 (CVSS score: 9.9), another critical defect that",
-      "source": "thehackernews.com"
-    },
-    {
       "title": "ZDI-CAN-28091: DeepSpeed",
       "link": "http://www.zerodayinitiative.com/advisories/upcoming/",
       "date": "2026-02-05T06:00:00Z",
-      "description": "A CVSS score 7.8 AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H severity vulnerability discovered by 'Michael DePlante (@izobashi) of TrendAI Zero Day Initiative' was reported to the affected vendor on: 2026-02-05, 0 days ago. The vendor is given until 2026-06-05 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
+      "description": "A CVSS score 7.8 AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H severity vulnerability discovered by 'Michael DePlante (@izobashi) of TrendAI Zero Day Initiative' was reported to the affected vendor on: 2026-02-05, 1 days ago. The vendor is given until 2026-06-05 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
       "source": "zerodayinitiative.com"
     },
     {
       "title": "ZDI-CAN-28889: Intel",
       "link": "http://www.zerodayinitiative.com/advisories/upcoming/",
       "date": "2026-02-05T06:00:00Z",
-      "description": "A CVSS score 7.8 AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H severity vulnerability discovered by 'Michael DePlante (@izobashi) of TrendAI Zero Day Initiative' was reported to the affected vendor on: 2026-02-05, 0 days ago. The vendor is given until 2026-06-05 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
+      "description": "A CVSS score 7.8 AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H severity vulnerability discovered by 'Michael DePlante (@izobashi) of TrendAI Zero Day Initiative' was reported to the affected vendor on: 2026-02-05, 1 days ago. The vendor is given until 2026-06-05 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
       "source": "zerodayinitiative.com"
     },
     {
       "title": "ZDI-CAN-28651: Microsoft",
       "link": "http://www.zerodayinitiative.com/advisories/upcoming/",
       "date": "2026-02-05T06:00:00Z",
-      "description": "A CVSS score 4.3 AV:N/AC:L/PR:N/UI:R/S:U/C:L/I:N/A:N severity vulnerability discovered by 'Len Sadowski (lytnc) and Oğuz Bektaş (_ozb_) ' was reported to the affected vendor on: 2026-02-05, 0 days ago. The vendor is given until 2026-06-05 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
+      "description": "A CVSS score 4.3 AV:N/AC:L/PR:N/UI:R/S:U/C:L/I:N/A:N severity vulnerability discovered by 'Len Sadowski (lytnc) and Oğuz Bektaş (_ozb_) ' was reported to the affected vendor on: 2026-02-05, 1 days ago. The vendor is given until 2026-06-05 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
       "source": "zerodayinitiative.com"
     },
     {
       "title": "ZDI-CAN-27986: Hugging Face",
       "link": "http://www.zerodayinitiative.com/advisories/upcoming/",
       "date": "2026-02-05T06:00:00Z",
-      "description": "A CVSS score 7.8 AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H severity vulnerability discovered by 'Michael DePlante (@izobashi) of TrendAI Zero Day Initiative' was reported to the affected vendor on: 2026-02-05, 0 days ago. The vendor is given until 2026-06-05 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
+      "description": "A CVSS score 7.8 AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H severity vulnerability discovered by 'Michael DePlante (@izobashi) of TrendAI Zero Day Initiative' was reported to the affected vendor on: 2026-02-05, 1 days ago. The vendor is given until 2026-06-05 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
       "source": "zerodayinitiative.com"
     },
     {
       "title": "ZDI-CAN-27987: Hugging Face",
       "link": "http://www.zerodayinitiative.com/advisories/upcoming/",
       "date": "2026-02-05T06:00:00Z",
-      "description": "A CVSS score 7.8 AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H severity vulnerability discovered by 'Michael DePlante (@izobashi) of TrendAI Zero Day Initiative' was reported to the affected vendor on: 2026-02-05, 0 days ago. The vendor is given until 2026-06-05 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
+      "description": "A CVSS score 7.8 AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H severity vulnerability discovered by 'Michael DePlante (@izobashi) of TrendAI Zero Day Initiative' was reported to the affected vendor on: 2026-02-05, 1 days ago. The vendor is given until 2026-06-05 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
       "source": "zerodayinitiative.com"
     },
     {
