@@ -1,6 +1,6 @@
 {
   "date": "2025-11-11",
-  "count": 42,
+  "count": 32,
   "items": [
     {
       "id": "10133d5525699c075b4ff08bd217a275229a9fd7",
@@ -270,106 +270,6 @@
       "description": "A sudden CPU spike turned out to be the first clue of an in-progress RansomHub ransomware attack. Varonis breaks down how their team traced the attack from fake browser updates to domain-admin takeover, ultimately stopping the attack before files were encrypted. [...]",
       "source": "bleepingcomputer.com",
       "first_seen": "2025-11-11T16:13:49Z",
-      "last_seen": "2025-11-11T18:15:36Z"
-    },
-    {
-      "id": "0d809b8a3541b44e2a9aca8d2ac922cd0b929b64",
-      "title": "Android Remote Data-Wipe Malware Attacking Users Leveraging Google’s Find Hub",
-      "link": "https://cybersecuritynews.com/android-remote-data-wipe-malware/",
-      "date": "2025-11-11T14:53:23Z",
-      "description": "A sophisticated remote data-wipe attack targeting Android devices has emerged, exploiting Google’s Find Hub service to execute destructive operations on smartphones and tablets across South Korea. This campaign represents the first documented case where state-sponsored threat actors weaponized a legitimate device protection service to remotely erase user data and disrupt normal device…",
-      "source": "cybersecuritynews.com",
-      "first_seen": "2025-11-11T15:11:47Z",
-      "last_seen": "2025-11-11T17:10:24Z"
-    },
-    {
-      "id": "e448c0344f3a8f76ed92fbaf4d6c70eabf25e26b",
-      "title": "Synology BeeStation 0-Day Vulnerability Let Remote Attackers Execute Arbitrary Code",
-      "link": "https://cybersecuritynews.com/synology-beestation-0-day-vulnerability/",
-      "date": "2025-11-11T14:20:06Z",
-      "description": "Synology has released an urgent security update addressing a critical remote code execution vulnerability in BeeStation OS that allows unauthenticated attackers to execute arbitrary code on affected devices. The vulnerability, tracked as CVE-2025-12686 and identified by ZDI-CAN-28275, carries a critical CVSS3 base score of 9.8, reflecting its severe impact and exploitability. The flaw stems from…",
-      "source": "cybersecuritynews.com",
-      "first_seen": "2025-11-11T15:11:47Z",
-      "last_seen": "2025-11-11T16:13:49Z"
-    },
-    {
-      "id": "5ae3f6396452285dca5df2d25910992a0f604508",
-      "title": "Hackers Weaponizing Calendar Files as New Attack Vector Bypassing Traditional Email Defenses",
-      "link": "https://cybersecuritynews.com/calendar-files-weaponized-as-attack-vector/",
-      "date": "2025-11-11T14:10:40Z",
-      "description": "A surge in attacks exploiting iCalendar (.ics) files as a sophisticated threat vector that bypasses traditional email security defenses. These attacks leverage the trusted, plain-text nature of calendar invitations to deliver credential phishing campaigns, malware payloads, and zero-day exploits. Over the past year, calendar-based phishing has emerged as the third most common email social…",
-      "source": "cybersecuritynews.com",
-      "first_seen": "2025-11-11T14:11:13Z",
-      "last_seen": "2025-11-11T16:13:49Z"
-    },
-    {
-      "id": "3dda1215e27453290729b7515f7b965262243bea",
-      "title": "New Firefox Protections Halve the Number of Trackable Users",
-      "link": "https://www.securityweek.com/new-firefox-protections-halve-the-number-of-trackable-users/",
-      "date": "2025-11-11T14:00:41Z",
-      "description": "Mozilla has implemented fresh fingerprinting protections to prevent hidden trackers from identifying Firefox users. The post New Firefox Protections Halve the Number of Trackable Users appeared first on SecurityWeek.",
-      "source": "securityweek.com",
-      "first_seen": "2025-11-11T14:11:13Z",
-      "last_seen": "2025-11-12T07:11:29Z"
-    },
-    {
-      "id": "b5a8cf601fee8923d8c06ebd583058306b115656",
-      "title": "Bridging the Skills Gap: How Military Veterans Are Strengthening Cybersecurity",
-      "link": "https://www.darkreading.com/cybersecurity-operations/military-veterans-strengthening-cybersecurity",
-      "date": "2025-11-11T14:00:00Z",
-      "description": "From intelligence analysts to surface warfare officers, military veterans of all backgrounds are successfully pivoting to cybersecurity careers and strengthening the industry's defense capabilities.",
-      "source": "darkreading.com",
-      "first_seen": "2025-11-11T14:11:13Z",
-      "last_seen": "2025-11-12T17:11:23Z"
-    },
-    {
-      "id": "2b01d31e81296de7cb3fcab9b257322f04fbbd79",
-      "title": "Weaponized NuGet Packages Inject Time-Delayed Destructive Payloads to Attack ICS Systems",
-      "link": "https://cybersecuritynews.com/weaponized-nuget-packages/",
-      "date": "2025-11-11T13:49:00Z",
-      "description": "A sophisticated supply chain attack has emerged, targeting industrial control systems through compromised .NET packages. The threat landscape shifted on November 5, 2025, when researchers identified nine malicious NuGet packages designed to inject destructive payloads into critical infrastructure environments. Published under the NuGet alias shanhai666 between 2023 and 2024, these packages…",
-      "source": "cybersecuritynews.com",
-      "first_seen": "2025-11-11T14:11:13Z",
-      "last_seen": "2025-11-11T15:11:47Z"
-    },
-    {
-      "id": "5225837a693bea3f9a6f980aa0dac9e456999f94",
-      "title": "SAP Patches Critical Flaws in SQL Anywhere Monitor, Solution Manager",
-      "link": "https://www.securityweek.com/sap-patches-critical-flaws-in-sql-anywhere-monitor-solution-manager/",
-      "date": "2025-11-11T13:36:20Z",
-      "description": "Hardcoded credentials in SQL Anywhere Monitor could allow attackers to execute arbitrary code on vulnerable deployments. The post SAP Patches Critical Flaws in SQL Anywhere Monitor, Solution Manager appeared first on SecurityWeek.",
-      "source": "securityweek.com",
-      "first_seen": "2025-11-11T14:11:13Z",
-      "last_seen": "2025-11-11T21:10:13Z"
-    },
-    {
-      "id": "cc235f77e5be57ecaea87a5eb72b5f24f1a6d9ab",
-      "title": "Zoom Workplace for Windows Vulnerability Allow Users to Escalate Privilege",
-      "link": "https://cybersecuritynews.com/zoom-workplace-for-windows-vulnerability/",
-      "date": "2025-11-11T13:25:55Z",
-      "description": "A security vulnerability has been discovered in Zoom Workplace VDI Client for Windows that could allow attackers to gain elevated privileges on affected systems. The flaw, tracked as CVE-2025-64740, has been assigned a high severity rating with a CVSS score of 7.5, according to Zoom’s security bulletin ZSB-25042. The vulnerability stems from improper verification of […] The post Zoom Workplace…",
-      "source": "cybersecuritynews.com",
-      "first_seen": "2025-11-11T14:11:13Z",
-      "last_seen": "2025-11-11T15:11:47Z"
-    },
-    {
-      "id": "a2f4211b0094797c03b1d889f665562d8f95d122",
-      "title": "Devolutions Server Vulnerability Let Attackers Impersonate Users Using Pre-MFA Cookie",
-      "link": "https://cybersecuritynews.com/devolutions-server-vulnerability-pre-mfa-cookie/",
-      "date": "2025-11-11T13:20:23Z",
-      "description": "A critical vulnerability in Devolutions Server could allow attackers with low-level access to impersonate other user accounts by exploiting how the application handles authentication cookies before multi-factor authentication is completed. The security flaw, tracked as CVE-2025-12485, stems from improper privilege management during pre-MFA cookie handling. When users log in to Devolutions…",
-      "source": "cybersecuritynews.com",
-      "first_seen": "2025-11-11T14:11:13Z",
-      "last_seen": "2025-11-11T14:11:13Z"
-    },
-    {
-      "id": "f3c518461b0b2cbafd16e337224d26af2f3933b7",
-      "title": "Webinar: Modern Patch Management – Strategies to patch faster with less risk",
-      "link": "https://www.bleepingcomputer.com/news/security/webinar-modern-patch-management-strategies-to-patch-faster-with-less-risk/",
-      "date": "2025-11-11T13:10:18Z",
-      "description": "Many organizations still struggle to patch fast enough to prevent breaches. Join us December 2 at 2PM ET to learn how modern patch management strategies can reduce risk and close the remediation gap. [...]",
-      "source": "bleepingcomputer.com",
-      "first_seen": "2025-11-11T15:11:47Z",
       "last_seen": "2025-11-11T18:15:36Z"
     },
     {
