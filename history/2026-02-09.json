@@ -1,7 +1,57 @@
 {
   "date": "2026-02-09",
-  "count": 12,
+  "count": 17,
   "items": [
+    {
+      "id": "e6e6e1fc7f8a6843734be44cca18744067efed2f",
+      "title": "European Commission discloses breach that exposed staff data",
+      "link": "https://www.bleepingcomputer.com/news/security/european-commission-discloses-breach-that-exposed-staff-data/",
+      "date": "2026-02-09T09:49:04Z",
+      "description": "The European Commission is investigating a breach after finding evidence that its mobile device management platform was hacked. [...]",
+      "source": "bleepingcomputer.com",
+      "first_seen": "2026-02-09T09:51:16Z",
+      "last_seen": "2026-02-09T09:51:16Z"
+    },
+    {
+      "id": "5430c27e57f2b969874f948c4644eaaf2b921abd",
+      "title": "Vortex Werewolf Attacking Organizations to Gain Tor-Enabled Remote Access Over the RDP, SMB, SFTP, and SSH Protocols",
+      "link": "https://cybersecuritynews.com/vortex-werewolf-attacking-organizations/",
+      "date": "2026-02-09T09:33:17Z",
+      "description": "A new cyber espionage cluster has recently emerged, focusing its aggressive targeting on Russian government and defense organizations. Active since at least December 2025, the group, designated as Vortex Werewolf, employs a combination of social engineering and legitimate software utilities to breach secure networks. Their primary objective appears to be establishing persistent, covert remote…",
+      "source": "cybersecuritynews.com",
+      "first_seen": "2026-02-09T09:51:16Z",
+      "last_seen": "2026-02-09T09:51:16Z"
+    },
+    {
+      "id": "d76cab14de26b17cf599577c9c25969b83c16ae2",
+      "title": "New RecoverIt Tool Exploits Windows Service Failure Recovery Functions to Execute Payload",
+      "link": "https://cybersecuritynews.com/recoverit-tool/",
+      "date": "2026-02-09T09:31:24Z",
+      "description": "A new open-source offensive security tool named “RecoverIt” has been released, offering Red Teamers and penetration testers a novel method for establishing persistence and executing lateral movement on compromised Windows systems. The tool, developed by security researcher TwoSevenOneT, weaponizes the built-in failure recovery mechanism of Windows Services to trigger arbitrary code execution,…",
+      "source": "cybersecuritynews.com",
+      "first_seen": "2026-02-09T09:51:16Z",
+      "last_seen": "2026-02-09T09:51:16Z"
+    },
+    {
+      "id": "9086d8032a6e31014e999d4c24d825cc959e8aaf",
+      "title": "New Paper and Tool Help Security Teams Move Beyond Blind Reliance on CISA’s KEV Catalog",
+      "link": "https://www.securityweek.com/new-paper-and-tool-help-security-teams-move-beyond-blind-reliance-on-cisas-kev-catalog/",
+      "date": "2026-02-09T09:10:25Z",
+      "description": "The KEV list is useful but largely misunderstood. KEVology explains what it is, and how best to use it. The post New Paper and Tool Help Security Teams Move Beyond Blind Reliance on CISA’s KEV Catalog appeared first on SecurityWeek.",
+      "source": "securityweek.com",
+      "first_seen": "2026-02-09T09:51:16Z",
+      "last_seen": "2026-02-09T09:51:16Z"
+    },
+    {
+      "id": "f0c918af88743a7356d5a2015d746c36004549fc",
+      "title": "TeamPCP Worm Exploits Cloud Infrastructure to Build Criminal Infrastructure",
+      "link": "https://thehackernews.com/2026/02/teampcp-worm-exploits-cloud.html",
+      "date": "2026-02-09T08:37:00Z",
+      "description": "Cybersecurity researchers have called attention to a \"massive campaign\" that has systematically targeted cloud native environments to set up malicious infrastructure for follow-on exploitation. The activity, observed around December 25, 2025, and described as \"worm-driven,\" leveraged exposed Docker APIs, Kubernetes clusters, Ray dashboards, and Redis servers, along with the recently disclosed",
+      "source": "thehackernews.com",
+      "first_seen": "2026-02-09T09:51:16Z",
+      "last_seen": "2026-02-09T09:51:16Z"
+    },
     {
       "id": "982110f18853d25582cc39ce6ce0921e273577db",
       "title": "European Commission Investigating Cyberattack",
@@ -10,7 +60,7 @@
       "description": "The signs of a cyberattack were identified on systems EU's main executive body uses for mobile device management. The post European Commission Investigating Cyberattack appeared first on SecurityWeek.",
       "source": "securityweek.com",
       "first_seen": "2026-02-09T08:38:34Z",
-      "last_seen": "2026-02-09T08:38:34Z"
+      "last_seen": "2026-02-09T09:51:16Z"
     },
     {
       "id": "50dc357408f66da9804694e96713ed766dab53ac",
@@ -20,7 +70,7 @@
       "description": "Fortinet has issued a critical security advisory warning administrators to immediately patch instances of FortiClientEMS, its central management solution for endpoint protection. The vulnerability, tracked as CVE-2026-21643, carries a CVSSv3 score of 9.1 and could allow unauthenticated, remote attackers to execute arbitrary code or unauthorized commands on affected servers. The flaw is…",
       "source": "cybersecuritynews.com",
       "first_seen": "2026-02-09T08:38:34Z",
-      "last_seen": "2026-02-09T08:38:34Z"
+      "last_seen": "2026-02-09T09:51:16Z"
     },
     {
       "id": "c565ed9fb1ae40937873fe81b8d92e1c426e8f7e",
@@ -30,7 +80,7 @@
       "description": "BeyondTrust has released updates to address a critical security flaw impacting Remote Support (RS) and Privileged Remote Access (PRA) products that, if successfully exploited, could result in remote code execution. \"BeyondTrust Remote Support (RS) and certain older versions of Privileged Remote Access (PRA) contain a critical pre-authentication remote code execution vulnerability,\" the company",
       "source": "thehackernews.com",
       "first_seen": "2026-02-09T08:38:34Z",
-      "last_seen": "2026-02-09T08:38:34Z"
+      "last_seen": "2026-02-09T09:51:16Z"
     },
     {
       "id": "a5b4abbd29f6fddb05be225c217d7ae6d17efe26",
@@ -40,7 +90,7 @@
       "description": "A sophisticated Telegram phishing campaign has re-emerged, marking a significant evolution in how threat actors compromise user accounts. Unlike traditional credential harvesting, this operation does not rely on cloning login pages to steal passwords but instead manipulates the platform’s legitimate authentication infrastructure. By integrating directly with Telegram’s official login workflows,…",
       "source": "cybersecuritynews.com",
       "first_seen": "2026-02-09T07:48:42Z",
-      "last_seen": "2026-02-09T08:38:34Z"
+      "last_seen": "2026-02-09T09:51:16Z"
     },
     {
       "id": "7d143fa14d6ada5f7f353d773a91ed0a0a604bb6",
@@ -50,7 +100,7 @@
       "description": "Ransomware continues to be the most financially damaging type of cyberattack affecting organizations around the world. One of the most effective tools for monitoring in Windows is the minifilter driver. By sitting directly in the file system I/O pipeline, a minifilter can observe, intercept, and even block malicious file operations in real time, providing a […] The post Ransomware Detection With…",
       "source": "cybersecuritynews.com",
       "first_seen": "2026-02-09T07:48:42Z",
-      "last_seen": "2026-02-09T08:38:34Z"
+      "last_seen": "2026-02-09T09:51:16Z"
     },
     {
       "id": "8068afae9c163ff50b39cb6657e43f51d92d4d3f",
@@ -120,7 +170,7 @@
       "description": "The post Critical RCE Flaws (CVSS 9.3) Exposed in Lexmark Printers appeared first on Daily CyberSecurity.",
       "source": "securityonline.info",
       "first_seen": "2026-02-09T01:12:39Z",
-      "last_seen": "2026-02-09T08:38:34Z"
+      "last_seen": "2026-02-09T09:51:16Z"
     }
   ]
 }
