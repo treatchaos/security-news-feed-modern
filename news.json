@@ -1,7 +1,49 @@
 {
-  "last_updated": "2026-02-10T15:56:30Z",
+  "last_updated": "2026-02-10T16:56:04Z",
   "count": 40,
   "items": [
+    {
+      "title": "Threat Hunting Is Critical to SOC Maturity but Often Misses Real Attacks",
+      "link": "https://cybersecuritynews.com/threat-hunting-for-soc-maturity/",
+      "date": "2026-02-10T16:40:04Z",
+      "description": "High-performing SOC teams are increasingly turning to sandbox-derived threat intelligence to make threat hunting repeatable and impactful. Tools like ANY.RUN’s TI Lookup enables faster hunts grounded in real attacker behaviours from millions of analyses. Threat hunting remains a cornerstone of mature Security Operations Centers (SOCs), aiming to detect stealthy adversaries before they cause…",
+      "source": "cybersecuritynews.com"
+    },
+    {
+      "title": "FortiOS Authentication Bypass Vulnerability Lets Attackers Bypass LDAP Authentication",
+      "link": "https://cybersecuritynews.com/fortios-ldap-authentication-bypass-vulnerability/",
+      "date": "2026-02-10T16:40:00Z",
+      "description": "Fortinet has disclosed a high-severity authentication bypass vulnerability in FortiOS, tracked as CVE-2026-22153 (FG-IR-25-1052), that could allow unauthenticated attackers to sidestep LDAP authentication for Agentless VPN or Fortinet Single Sign-On (FSSO) policies. Classified under CWE-305 (Authentication Bypass by Primary Weakness), the flaw resides in the fnbamd daemon and requires specific…",
+      "source": "cybersecuritynews.com"
+    },
+    {
+      "title": "Microsoft 365 Admin Center Outage Hits users in North America",
+      "link": "https://cybersecuritynews.com/microsoft-365-admin-center-outage/",
+      "date": "2026-02-10T16:25:20Z",
+      "description": "Microsoft 365 administrators in North America are grappling with widespread access issues to the Microsoft 365 admin center, as confirmed by the company’s service health dashboard. Issue ID MO1230320 marks a service degradation affecting the core Microsoft 365 suite, disrupting critical management tasks like user provisioning, security configurations, and compliance monitoring. The outage, first…",
+      "source": "cybersecuritynews.com"
+    },
+    {
+      "title": "OT Attacks Get Scary With 'Living-off-the-Plant' Techniques",
+      "link": "https://www.darkreading.com/ics-ot-security/ot-attacks-living-off-the-plant",
+      "date": "2026-02-10T16:14:29Z",
+      "description": "Ironically, security by obscurity has helped prevent dangerous OT attacks in recent years. It won't be that way forever.",
+      "source": "darkreading.com"
+    },
+    {
+      "title": "Ivanti Endpoint Manager Vulnerability Lets Remote Attacker Leak Arbitrary Data",
+      "link": "https://cybersecuritynews.com/multiple-ivanti-endpoint-manager-vulnerability/",
+      "date": "2026-02-10T16:09:47Z",
+      "description": "Ivanti has released critical security updates for its Endpoint Manager (EPM) platform, addressing two newly discovered vulnerabilities that could enable unauthorized access to sensitive database information and compromise user credentials. The updates, released in version 2024 SU5, also resolve 11 medium-severity vulnerabilities previously disclosed in October 2025. The security advisory…",
+      "source": "cybersecuritynews.com"
+    },
+    {
+      "title": "RATs in the Machine: Inside a Pakistan-Linked Three-Pronged Cyber Assault on India",
+      "link": "https://www.securityweek.com/rats-in-the-machine-inside-a-pakistan-linked-three-pronged-cyber-assault-on-india/",
+      "date": "2026-02-10T16:00:00Z",
+      "description": "Transparent Tribe (APT36) is targeting Indian defense and government sectors with GETA, ARES, and Desk RATs in a new wave of economic cyber espionage. The post RATs in the Machine: Inside a Pakistan-Linked Three-Pronged Cyber Assault on India appeared first on SecurityWeek.",
+      "source": "securityweek.com"
+    },
     {
       "title": "Microsoft 365 outage takes down admin center in North America",
       "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-365-outage-takes-down-admin-center-in-north-america/",
@@ -14,27 +56,6 @@
       "link": "https://cybersecuritynews.com/hackers-weaponizing-7-zip-downloads/",
       "date": "2026-02-10T15:29:43Z",
       "description": "A deceptive campaign targeting unsuspecting users has emerged, using a counterfeit version of the widely used 7-Zip file archiving software to silently transform home computers into residential proxy nodes. The malicious operation relies on a lookalike domain, 7zip[.]com, which closely mimics the legitimate 7-zip.org website, tricking users into downloading a compromised installer that appears…",
-      "source": "cybersecuritynews.com"
-    },
-    {
-      "title": "SAP Security Patch Day – Critical SAP CRM and SAP S/4HANA Code Injection Vulnerabilities Fixed",
-      "link": "https://cybersecuritynews.com/sap-security-patch-day-feburary/",
-      "date": "2026-02-10T15:27:58Z",
-      "description": "SAP’s February 2026 Security Patch Day delivered fixes that SAP urges customers to prioritize to reduce exposure across core enterprise workloads. The release includes 26 new SAP Security Notes and one update to a previously published note. SAP’s monthly bulletin is a remediation guide for vulnerabilities identified in SAP products, with an explicit recommendation to […] The post SAP Security…",
-      "source": "cybersecuritynews.com"
-    },
-    {
-      "title": "ILOVEPOOP Toolkit Exploiting React2Shell Vulnerability to Deploy Malicious Payload",
-      "link": "https://cybersecuritynews.com/ilovepoop-toolkit-exploiting-react2shell-vulnerability/",
-      "date": "2026-02-10T15:23:08Z",
-      "description": "The cybersecurity sector has been impacted by the sudden appearance of “React2Shell” (CVE-2025-55182), a critical vulnerability affecting Next.js and React Server Components. Following its public disclosure on December 4, 2025, threat actors mobilized with alarming speed, launching exploitation attempts against internet-facing systems within just 20 hours. The flaw allows unauthenticated…",
-      "source": "cybersecuritynews.com"
-    },
-    {
-      "title": "TeamPCP Industrializes Cloud Misconfigurations Into a Self-Propagating Cybercrime Platform",
-      "link": "https://cybersecuritynews.com/teampcp-industrializes-cloud-misconfigurations/",
-      "date": "2026-02-10T15:07:20Z",
-      "description": "TeamPCP, also known as PCPcat, ShellForce, and DeadCatx3, emerged in December 2025 as a sophisticated cloud-native threat actor targeting exposed Docker APIs, Kubernetes clusters, Ray dashboards, Redis servers, and React2Shell vulnerabilities. The group launched a massive campaign designed to build a distributed proxy and scanning infrastructure at scale, then compromise servers to exfiltrate…",
       "source": "cybersecuritynews.com"
     },
     {
@@ -57,13 +78,6 @@
       "date": "2026-02-10T14:36:00Z",
       "description": "Cybersecurity researchers have disclosed details of an emergent ransomware family dubbed Reynolds that comes embedded with a built-in bring your own vulnerable driver (BYOVD) component for defense evasion purposes within the ransomware payload itself. BYOVD refers to an adversarial technique that abuses legitimate but flawed driver software to escalate privileges and disable Endpoint Detection",
       "source": "thehackernews.com"
-    },
-    {
-      "title": "APT36 Hacker Group Attacking Linux Systems with New Tools to Disturb Services",
-      "link": "https://cybersecuritynews.com/apt36-hacker-group-attacking-linux-systems/",
-      "date": "2026-02-10T14:28:36Z",
-      "description": "For more than a decade, Indian government and defense organizations have operated under a constant digital shadow. A tightly connected espionage ecosystem, primarily involving the Transparent Tribe (APT36) group and the aligned SideCopy cluster, has continued to probe and adapt. These actors rely on proven tactics like spear-phishing and weaponized documents to quietly embed themselves […] The…",
-      "source": "cybersecuritynews.com"
     },
     {
       "title": "Backslash Raises $19 Million to Secure Vibe Coding",
@@ -122,13 +136,6 @@
       "source": "thehackernews.com"
     },
     {
-      "title": "BeyondTrust Patches Critical RCE Vulnerability",
-      "link": "https://www.securityweek.com/beyondtrust-patches-critical-rce-vulnerability/",
-      "date": "2026-02-10T11:24:02Z",
-      "description": "Affecting both RS and PRA, the bug can be exploited remotely via crafted requests without authentication. The post BeyondTrust Patches Critical RCE Vulnerability appeared first on SecurityWeek.",
-      "source": "securityweek.com"
-    },
-    {
       "title": "Warlock Ransomware Breaches SmarterTools Through Unpatched SmarterMail Server",
       "link": "https://thehackernews.com/2026/02/warlock-ransomware-breaches.html",
       "date": "2026-02-10T10:24:00Z",
@@ -154,13 +161,6 @@
       "link": "https://www.darkreading.com/application-security/warlock-gang-breaches-smartertools-smartermail-bugs",
       "date": "2026-02-09T21:59:02Z",
       "description": "The ransomware group breached SmarterTools through a vulnerability in the company's own SmarterMail product.",
-      "source": "darkreading.com"
-    },
-    {
-      "title": "OT Attacks Get Scary With 'Living-off-the-Plant' Techniques",
-      "link": "https://www.darkreading.com/ics-ot-security/ot-attacks-living-off-the-plant",
-      "date": "2026-02-09T21:15:04Z",
-      "description": "Ironically, security by obscurity has helped prevent dangerous OT attacks in recent years. It won't be that way forever.",
       "source": "darkreading.com"
     },
     {
