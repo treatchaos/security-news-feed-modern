@@ -1,7 +1,21 @@
 {
-  "last_updated": "2026-02-11T04:21:27Z",
+  "last_updated": "2026-02-11T06:02:43Z",
   "count": 40,
   "items": [
+    {
+      "title": "GitLab Patches Multiple Vulnerabilities That Enables DoS and Cross-site Scripting Attacks",
+      "link": "https://cybersecuritynews.com/gitlab-patches-dos-xssattacks/",
+      "date": "2026-02-11T05:50:19Z",
+      "description": "A critical security update has been released for both the Community Edition (CE) and Enterprise Edition (EE) to address multiple high-severity vulnerabilities. The patches, available in versions 18.8.4, 18.7.4, and 18.6.6, fix flaws that could allow attackers to crash servers, steal data, or hijack user sessions. Security experts urge administrators of self-managed instances to upgrade […] The…",
+      "source": "cybersecuritynews.com"
+    },
+    {
+      "title": "Windows Notepad Vulnerability Allows Attackers to Execute Code Remotely",
+      "link": "https://cybersecuritynews.com/windows-notepad-rce-vulnerability/",
+      "date": "2026-02-11T05:06:03Z",
+      "description": "Microsoft has patched a critical remote code execution (RCE) flaw in the Windows Notepad app, tracked as CVE-2026-20841, which could let attackers run malicious code on victims’ machines. Disclosed on February 10, 2026, Microsoft Patch Tuesday updates, the vulnerability stems from improper neutralization of special elements in commands (CWE-77: Command Injection) and carries a CVSS […] The post…",
+      "source": "cybersecuritynews.com"
+    },
     {
       "title": "Backup Breach: Critical Acronis Flaws (CVSS 10.0) Allow Data Manipulation",
       "link": "https://securityonline.info/backup-breach-critical-acronis-flaws-cvss-10-0-allow-data-manipulation/",
@@ -22,6 +36,13 @@
       "date": "2026-02-11T02:06:42Z",
       "description": "Microsoft has announced Windows 11 26H1, but it's not for existing PCs. Instead, it will ship on devices with Snapdragon X2 processors and possibly other rumored ARM chips.w [...]",
       "source": "bleepingcomputer.com"
+    },
+    {
+      "title": "Asia Fumbles With Throttling Back Telnet Traffic in Region",
+      "link": "https://www.darkreading.com/threat-intelligence/asia-fumbles-telnet-threat-traffic",
+      "date": "2026-02-11T02:00:00Z",
+      "description": "Only Taiwan made the top 10 list of governments, effectively blocking the threat-ridden protocol, but overall the region lagged in curbing Telnet traffic.",
+      "source": "darkreading.com"
     },
     {
       "title": "New Linux botnet SSHStalker uses old-school IRC for C2 comms",
@@ -129,20 +150,6 @@
       "source": "securityweek.com"
     },
     {
-      "title": "Threat Hunting Is Critical to SOC Maturity but Often Misses Real Attacks",
-      "link": "https://cybersecuritynews.com/threat-hunting-for-soc-maturity/",
-      "date": "2026-02-10T16:40:04Z",
-      "description": "High-performing SOC teams are increasingly turning to sandbox-derived threat intelligence to make threat hunting repeatable and impactful. Tools like ANY.RUN’s TI Lookup enables faster hunts grounded in real attacker behaviours from millions of analyses. Threat hunting remains a cornerstone of mature Security Operations Centers (SOCs), aiming to detect stealthy adversaries before they cause…",
-      "source": "cybersecuritynews.com"
-    },
-    {
-      "title": "FortiOS Authentication Bypass Vulnerability Lets Attackers Bypass LDAP Authentication",
-      "link": "https://cybersecuritynews.com/fortios-ldap-authentication-bypass-vulnerability/",
-      "date": "2026-02-10T16:40:00Z",
-      "description": "Fortinet has disclosed a high-severity authentication bypass vulnerability in FortiOS, tracked as CVE-2026-22153 (FG-IR-25-1052), that could allow unauthenticated attackers to sidestep LDAP authentication for Agentless VPN or Fortinet Single Sign-On (FSSO) policies. Classified under CWE-305 (Authentication Bypass by Primary Weakness), the flaw resides in the fnbamd daemon and requires specific…",
-      "source": "cybersecuritynews.com"
-    },
-    {
       "title": "OT Attacks Get Scary With 'Living-off-the-Plant' Techniques",
       "link": "https://www.darkreading.com/ics-ot-security/ot-attacks-living-off-the-plant",
       "date": "2026-02-10T16:14:29Z",
@@ -178,13 +185,6 @@
       "source": "thehackernews.com"
     },
     {
-      "title": "TransUnion's Real Networks Deal Focuses on Robocall Blocking",
-      "link": "https://www.darkreading.com/cyber-risk/transunion-s-real-networks-deal-focuses-on-robocall-blocking",
-      "date": "2026-02-09T23:05:21Z",
-      "description": "The acquisition allows the credit reporting agency to add SMS spam and scam prevention to its robocall blocking capabilities.",
-      "source": "darkreading.com"
-    },
-    {
       "title": "Critical RCE Flaws (CVSS 9.3) Exposed in Lexmark Printers",
       "link": "https://securityonline.info/critical-rce-flaws-cvss-9-3-exposed-in-lexmark-printers/",
       "date": "2026-02-09T00:13:29Z",
@@ -195,35 +195,35 @@
       "title": "ZDI-CAN-28719: DriveLock",
       "link": "http://www.zerodayinitiative.com/advisories/upcoming/",
       "date": "2026-02-06T06:00:00Z",
-      "description": "A CVSS score 5.3 AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N severity vulnerability discovered by 'stuxxn' was reported to the affected vendor on: 2026-02-06, 4 days ago. The vendor is given until 2026-06-06 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
+      "description": "A CVSS score 5.3 AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N severity vulnerability discovered by 'stuxxn' was reported to the affected vendor on: 2026-02-06, 5 days ago. The vendor is given until 2026-06-06 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
       "source": "zerodayinitiative.com"
     },
     {
       "title": "ZDI-CAN-28746: DriveLock",
       "link": "http://www.zerodayinitiative.com/advisories/upcoming/",
       "date": "2026-02-06T06:00:00Z",
-      "description": "A CVSS score 7.5 AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N severity vulnerability discovered by 'stuxxn' was reported to the affected vendor on: 2026-02-06, 4 days ago. The vendor is given until 2026-06-06 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
+      "description": "A CVSS score 7.5 AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N severity vulnerability discovered by 'stuxxn' was reported to the affected vendor on: 2026-02-06, 5 days ago. The vendor is given until 2026-06-06 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
       "source": "zerodayinitiative.com"
     },
     {
       "title": "ZDI-CAN-28785: Krita",
       "link": "http://www.zerodayinitiative.com/advisories/upcoming/",
       "date": "2026-02-06T06:00:00Z",
-      "description": "A CVSS score 7.8 AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H severity vulnerability discovered by 'Anonymous' was reported to the affected vendor on: 2026-02-06, 4 days ago. The vendor is given until 2026-06-06 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
+      "description": "A CVSS score 7.8 AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H severity vulnerability discovered by 'Anonymous' was reported to the affected vendor on: 2026-02-06, 5 days ago. The vendor is given until 2026-06-06 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
       "source": "zerodayinitiative.com"
     },
     {
       "title": "ZDI-CAN-28752: Krita",
       "link": "http://www.zerodayinitiative.com/advisories/upcoming/",
       "date": "2026-02-06T06:00:00Z",
-      "description": "A CVSS score 7.8 AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H severity vulnerability discovered by 'Anonymous' was reported to the affected vendor on: 2026-02-06, 4 days ago. The vendor is given until 2026-06-06 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
+      "description": "A CVSS score 7.8 AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H severity vulnerability discovered by 'Anonymous' was reported to the affected vendor on: 2026-02-06, 5 days ago. The vendor is given until 2026-06-06 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
       "source": "zerodayinitiative.com"
     },
     {
       "title": "ZDI-CAN-28771: Krita",
       "link": "http://www.zerodayinitiative.com/advisories/upcoming/",
       "date": "2026-02-06T06:00:00Z",
-      "description": "A CVSS score 7.8 AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H severity vulnerability discovered by 'Anonymous' was reported to the affected vendor on: 2026-02-06, 4 days ago. The vendor is given until 2026-06-06 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
+      "description": "A CVSS score 7.8 AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H severity vulnerability discovered by 'Anonymous' was reported to the affected vendor on: 2026-02-06, 5 days ago. The vendor is given until 2026-06-06 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
       "source": "zerodayinitiative.com"
     },
     {
