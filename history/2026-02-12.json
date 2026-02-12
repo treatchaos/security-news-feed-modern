@@ -1,7 +1,27 @@
 {
   "date": "2026-02-12",
-  "count": 31,
+  "count": 34,
   "items": [
+    {
+      "id": "2a9e82f8c0eaa814153e9e15ed78a33e10645b21",
+      "title": "WordPress Backup Plugin Vulnerability Exposes 800,000 Sites to Remote Code Execution Attacks",
+      "link": "https://cybersecuritynews.com/wordpress-backup-plugin-vulnerability/",
+      "date": "2026-02-12T15:09:57Z",
+      "description": "A critical flaw in the WPvivid Backup & Migration WordPress plugin can let an unauthenticated attacker upload files and run code on the server, a path that often ends in full site takeover. The issue is tracked as CVE-2026-1357, scored 9.8 (Critical), and affects plugin versions up to and including 0.9.123, with a fix available […] The post WordPress Backup Plugin Vulnerability Exposes 800,000…",
+      "source": "cybersecuritynews.com",
+      "first_seen": "2026-02-12T15:41:20Z",
+      "last_seen": "2026-02-12T15:41:20Z"
+    },
+    {
+      "id": "fcf5c6c31389035a7692efc08ed41a99d05c0655",
+      "title": "AMOS infostealer targets macOS through a popular AI app",
+      "link": "https://www.bleepingcomputer.com/news/security/amos-infostealer-targets-macos-through-a-popular-ai-app/",
+      "date": "2026-02-12T14:25:38Z",
+      "description": "AMOS infostealer is targeting macOS users by abusing popular AI apps and extension marketplaces to harvest credentials. Flare examines how AMOS operates, spreads through AI-driven lures, and feeds the broader stealer-log cybercrime economy. [...]",
+      "source": "bleepingcomputer.com",
+      "first_seen": "2026-02-12T15:41:20Z",
+      "last_seen": "2026-02-12T15:41:20Z"
+    },
     {
       "id": "72867f598ae4555ed1c6e27ced08e50fd1ca44ba",
       "title": "Chrome Security Update – Patch for Vulnerabilities that Enables Code Execution Attacks",
@@ -10,7 +30,7 @@
       "description": "Google has released Chrome 145 to the stable channel for Windows, Mac, and Linux, addressing 11 security vulnerabilities that could enable attackers to execute malicious code on user systems. The update, rolling out over the coming weeks, includes several high-severity fixes that warrant immediate attention. The most severe flaw, CVE-2026-2313, is a use-after-free vulnerability in […] The post…",
       "source": "cybersecuritynews.com",
       "first_seen": "2026-02-12T14:03:32Z",
-      "last_seen": "2026-02-12T14:03:32Z"
+      "last_seen": "2026-02-12T15:41:20Z"
     },
     {
       "id": "1fa9cb6660af25bbf6657fe23b025e84c3edfb7c",
@@ -20,7 +40,7 @@
       "description": "A set of 30 malicious Chrome extensions that have been installed by more than 300,000 users are masquerading as AI assistants to steal credentials, email content, and browsing information. [...]",
       "source": "bleepingcomputer.com",
       "first_seen": "2026-02-12T14:03:32Z",
-      "last_seen": "2026-02-12T14:03:32Z"
+      "last_seen": "2026-02-12T15:41:20Z"
     },
     {
       "id": "414026b2e5813b7e54347f257ff83a4d78d5c0de",
@@ -30,7 +50,7 @@
       "description": "A dangerous malware campaign has emerged on the NPM package registry, putting thousands of developers and Windows users at risk. The malicious package, known as “duer-js,” was published by a user named “luizaearlyx” and disguised itself as a legitimate console visibility tool. Despite having only 528 downloads, security experts warn that its sophisticated attack methods […] The post…",
       "source": "cybersecuritynews.com",
       "first_seen": "2026-02-12T14:03:32Z",
-      "last_seen": "2026-02-12T14:03:32Z"
+      "last_seen": "2026-02-12T15:41:20Z"
     },
     {
       "id": "a8050bc2164edbec0286b1ea25d392f53277e44e",
@@ -40,7 +60,7 @@
       "description": "The company says hackers stole the personal information of patients of affiliated physicians and practices. The post ApolloMD Data Breach Impacts 626,000 Individuals appeared first on SecurityWeek.",
       "source": "securityweek.com",
       "first_seen": "2026-02-12T12:39:19Z",
-      "last_seen": "2026-02-12T14:03:32Z"
+      "last_seen": "2026-02-12T15:41:20Z"
     },
     {
       "id": "c3f8f859301685cbc23b8b08e9699568caf602f3",
@@ -50,7 +70,7 @@
       "description": "Threat actors have begun leveraging Google’s Gemini API to dynamically generate C# code for multi-stage malware, evading traditional detection methods. The Google Threat Intelligence Group (GTIG) detailed this in its February 2026 AI Threat Tracker report, spotlighting the HONESTCUE framework first observed in September 2025. HONESTCUE operates as a downloader and launcher that queries Gemini’s…",
       "source": "cybersecuritynews.com",
       "first_seen": "2026-02-12T12:39:19Z",
-      "last_seen": "2026-02-12T14:03:32Z"
+      "last_seen": "2026-02-12T15:41:20Z"
     },
     {
       "id": "e3226cf7cbff8188872a5a3533948e2ef7f2f6a2",
@@ -60,7 +80,7 @@
       "description": "Threat activity this week shows one consistent signal — attackers are leaning harder on what already works. Instead of flashy new exploits, many operations are built around quiet misuse of trusted tools, familiar workflows, and overlooked exposures that sit in plain sight. Another shift is how access is gained versus how it’s used. Initial entry points are getting simpler, while post-compromise",
       "source": "thehackernews.com",
       "first_seen": "2026-02-12T12:39:19Z",
-      "last_seen": "2026-02-12T14:03:32Z"
+      "last_seen": "2026-02-12T15:41:20Z"
     },
     {
       "id": "b852afb6eef61e387e580f42a4340408579ecae1",
@@ -70,7 +90,7 @@
       "description": "The North Korean state-sponsored hacking team, Lazarus Group, has launched a sophisticated fake recruiter campaign targeting cryptocurrency developers through a malicious operation called “graphalgo.” Active since May 2025, this coordinated attack uses fraudulent job offers to distribute remote access trojans to unsuspecting developers working with blockchain and cryptocurrency technologies. The…",
       "source": "cybersecuritynews.com",
       "first_seen": "2026-02-12T12:39:19Z",
-      "last_seen": "2026-02-12T14:03:32Z"
+      "last_seen": "2026-02-12T15:41:20Z"
     },
     {
       "id": "e0c6c3f961c4eb44511277d752f671953ca5801b",
@@ -80,7 +100,7 @@
       "description": "Windows will have runtime safeguards enabled by default, ensuring that only properly signed software runs. The post Microsoft to Enable ‘Windows Baseline Security’ With New Runtime Integrity Safeguards appeared first on SecurityWeek.",
       "source": "securityweek.com",
       "first_seen": "2026-02-12T11:33:03Z",
-      "last_seen": "2026-02-12T14:03:32Z"
+      "last_seen": "2026-02-12T15:41:20Z"
     },
     {
       "id": "ac485127451c545e25efa3913277ea0c17954107",
@@ -90,7 +110,7 @@
       "description": "Threat actors from Russia, China, North Korea and Iran have been observed launching attacks. The post Hacktivists, State Actors, Cybercriminals Target Global Defense Industry, Google Warns appeared first on SecurityWeek.",
       "source": "securityweek.com",
       "first_seen": "2026-02-12T11:33:03Z",
-      "last_seen": "2026-02-12T14:03:32Z"
+      "last_seen": "2026-02-12T15:41:20Z"
     },
     {
       "id": "57a24eecc05de781ded5bc592a570f9b63ac5af3",
@@ -110,7 +130,7 @@
       "description": "A new 2026 market intelligence study of 128 enterprise security decision-makers (available here) reveals a stark divide forming between organizations – one that has nothing to do with budget size or industry and everything to do with a single framework decision. Organizations implementing Continuous Threat Exposure Management (CTEM) demonstrate 50% better attack surface visibility, 23-point",
       "source": "thehackernews.com",
       "first_seen": "2026-02-12T11:33:03Z",
-      "last_seen": "2026-02-12T14:03:32Z"
+      "last_seen": "2026-02-12T15:41:20Z"
     },
     {
       "id": "02b1c41fddd2a45adb537e06fad50b4a357831a6",
@@ -130,7 +150,7 @@
       "description": "The company will use the investment to scale operations and deepen intelligence and automation. The post Nucleus Raises $20 Million for Exposure Management appeared first on SecurityWeek.",
       "source": "securityweek.com",
       "first_seen": "2026-02-12T09:37:31Z",
-      "last_seen": "2026-02-12T14:03:32Z"
+      "last_seen": "2026-02-12T15:41:20Z"
     },
     {
       "id": "d72d11637e2b78a61e1d431c5486ce08b400bb57",
@@ -140,7 +160,7 @@
       "description": "Green Blood Group steals personal records and biometric data of the West African nation's nearly 20 million residents.",
       "source": "darkreading.com",
       "first_seen": "2026-02-12T09:37:31Z",
-      "last_seen": "2026-02-12T14:03:32Z"
+      "last_seen": "2026-02-12T15:41:20Z"
     },
     {
       "id": "837a9c272c17fd5ce703696cacb43c45338f4d7d",
@@ -180,7 +200,7 @@
       "description": "Impacting the ‘dyld’ system component, the memory corruption issue can be exploited for arbitrary code execution. The post Apple Patches iOS Zero-Day Exploited in ‘Extremely Sophisticated Attack’ appeared first on SecurityWeek.",
       "source": "securityweek.com",
       "first_seen": "2026-02-12T08:34:10Z",
-      "last_seen": "2026-02-12T14:03:32Z"
+      "last_seen": "2026-02-12T15:41:20Z"
     },
     {
       "id": "13952fcfd959189041fc88d9c6d44a0995aae376",
@@ -190,7 +210,7 @@
       "description": "A significant chunk of the exploitation attempts targeting a newly disclosed security flaw in Ivanti Endpoint Manager Mobile (EPMM) can be traced back to a single IP address on bulletproof hosting infrastructure offered by PROSPERO. Threat intelligence firm GreyNoise said it recorded 417 exploitation sessions from 8 unique source IP addresses between February 1 and 9, 2026. An estimated 346",
       "source": "thehackernews.com",
       "first_seen": "2026-02-12T08:34:10Z",
-      "last_seen": "2026-02-12T14:03:32Z"
+      "last_seen": "2026-02-12T15:41:20Z"
     },
     {
       "id": "ceccf9ba5ffd81cb224d852d2b84f4e3cea8bfaa",
@@ -210,7 +230,7 @@
       "description": "Google Threat Intelligence Group (GTIG) has published a new report warning about AI model extraction/distillation attacks, in which private-sector firms and researchers use legitimate API access to systematically probe models and replicate their logic and reasoning. [...]",
       "source": "bleepingcomputer.com",
       "first_seen": "2026-02-12T07:46:27Z",
-      "last_seen": "2026-02-12T14:03:32Z"
+      "last_seen": "2026-02-12T15:41:20Z"
     },
     {
       "id": "a202e552cec59422cb858794c53a7e33bbba4f32",
@@ -230,7 +250,7 @@
       "description": "Apple on Wednesday released iOS, iPadOS, macOS Tahoe, tvOS, watchOS, and visionOS updates to address a zero-day flaw that it said has been exploited in sophisticated cyber attacks. The vulnerability, tracked as CVE-2026-20700 (CVSS score: N/A), has been described as a memory corruption issue in dyld, Apple's Dynamic Link Editor. Successful exploitation of the vulnerability could allow an",
       "source": "thehackernews.com",
       "first_seen": "2026-02-12T07:46:27Z",
-      "last_seen": "2026-02-12T14:03:32Z"
+      "last_seen": "2026-02-12T15:41:20Z"
     },
     {
       "id": "5d3fc4c7c53d8901810c3d91e465798b9fb065d6",
@@ -240,7 +260,7 @@
       "description": "The post MongoDB Flaw Allows Unauthenticated Attackers to Crash Database Servers appeared first on Daily CyberSecurity.",
       "source": "securityonline.info",
       "first_seen": "2026-02-12T05:57:41Z",
-      "last_seen": "2026-02-12T14:03:32Z"
+      "last_seen": "2026-02-12T15:41:20Z"
     },
     {
       "id": "84f6677570128fc9a879867135cc747de60ad5c1",
@@ -270,7 +290,7 @@
       "description": "The post Exploit Code Released: Windows Storage Elevation of Privilege Flaw Details Now Public appeared first on Daily CyberSecurity.",
       "source": "securityonline.info",
       "first_seen": "2026-02-12T04:14:00Z",
-      "last_seen": "2026-02-12T14:03:32Z"
+      "last_seen": "2026-02-12T15:41:20Z"
     },
     {
       "id": "7f514efbf4fd6d4af88a9bdc2ac871bb8a8a020c",
@@ -290,7 +310,7 @@
       "description": "Apple has released security updates to fix a zero-day vulnerability that was exploited in an \"extremely sophisticated attack\" targeting specific individuals. [...]",
       "source": "bleepingcomputer.com",
       "first_seen": "2026-02-12T01:11:58Z",
-      "last_seen": "2026-02-12T14:03:32Z"
+      "last_seen": "2026-02-12T15:41:20Z"
     },
     {
       "id": "ff341b68e1dda764199a38730bfb50bc2192d5d3",
@@ -300,7 +320,17 @@
       "description": "CISOs should focus on harnessing and securing AI and building new skills among their people. Vision and change management can transform security.",
       "source": "darkreading.com",
       "first_seen": "2026-02-12T14:03:32Z",
-      "last_seen": "2026-02-12T14:03:32Z"
+      "last_seen": "2026-02-12T15:41:20Z"
+    },
+    {
+      "id": "7b9d8c2400fadcd6e01d62ac71fe9363cd1d0ccc",
+      "title": "Automaker Secures the Supply Chain With Developer-Friendly Platform",
+      "link": "https://www.darkreading.com/application-security/automaker-secures-supply-chain-developer-friendly-platform",
+      "date": "2026-02-11T19:35:53Z",
+      "description": "How a platform engineering team embeds supply chain security into infrastructure without slowing developers.",
+      "source": "darkreading.com",
+      "first_seen": "2026-02-12T15:41:20Z",
+      "last_seen": "2026-02-12T15:41:20Z"
     },
     {
       "id": "56081c29524dcb02768bda7829d35ad939e9fee6",
@@ -310,7 +340,7 @@
       "description": "Cybersecurity researchers have discovered what they said is the first known malicious Microsoft Outlook add-in detected in the wild. In this unusual supply chain attack detailed by Koi Security, an unknown attacker claimed the domain associated with a now-abandoned legitimate add-in to serve a fake Microsoft login page, stealing over 4,000 credentials in the process. The activity has been",
       "source": "thehackernews.com",
       "first_seen": "2026-02-12T01:11:58Z",
-      "last_seen": "2026-02-12T14:03:32Z"
+      "last_seen": "2026-02-12T15:41:20Z"
     }
   ]
 }
