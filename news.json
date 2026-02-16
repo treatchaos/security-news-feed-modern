@@ -1,7 +1,35 @@
 {
-  "last_updated": "2026-02-16T07:05:27Z",
+  "last_updated": "2026-02-16T08:34:44Z",
   "count": 40,
   "items": [
+    {
+      "title": "Google patches first Chrome zero-day exploited in attacks this year",
+      "link": "https://www.bleepingcomputer.com/news/security/google-patches-first-chrome-zero-day-exploited-in-attacks-this-year/",
+      "date": "2026-02-16T08:19:19Z",
+      "description": "Google has released emergency updates to fix a high-severity Chrome vulnerability exploited in zero-day attacks, marking the first such security flaw patched since the start of the year. [...]",
+      "source": "bleepingcomputer.com"
+    },
+    {
+      "title": "Google Patches First Actively Exploited Chrome Zero-Day of 2026",
+      "link": "https://www.securityweek.com/google-patches-first-actively-exploited-chrome-zero-day-of-2026/",
+      "date": "2026-02-16T07:54:15Z",
+      "description": "A Chrome 145 update fixes CVE-2026-2441, a vulnerability that can likely be exploited for arbitrary code execution. The post Google Patches First Actively Exploited Chrome Zero-Day of 2026 appeared first on SecurityWeek.",
+      "source": "securityweek.com"
+    },
+    {
+      "title": "Critical BeyondTrust Vulnerability Exploited in the Wild to Gain Full Domain Control",
+      "link": "https://cybersecuritynews.com/beyondtrust-vulnerability-exploited/",
+      "date": "2026-02-16T07:42:25Z",
+      "description": "A critical vulnerability tracked as CVE-2026-1731 is being actively exploited in the wild, enabling attackers to gain full domain control over affected systems. Threat actors are leveraging this flaw to execute operating system commands remotely without authentication. The flaw, discovered in self-hosted BeyondTrust deployments, allows unauthenticated attackers to run arbitrary OS commands via…",
+      "source": "cybersecuritynews.com"
+    },
+    {
+      "title": "New Chrome Zero-Day (CVE-2026-2441) Under Active Attack — Patch Released",
+      "link": "https://thehackernews.com/2026/02/new-chrome-zero-day-cve-2026-2441-under.html",
+      "date": "2026-02-16T06:38:00Z",
+      "description": "Google on Friday released security updates for its Chrome browser to address a security flaw that it said has been exploited in the wild. The high-severity vulnerability, tracked as CVE-2026-2441 (CVSS score: 8.8), has been described as a use-after-free bug in CSS. Security researcher Shaheen Fazim has been credited with discovering and reporting the shortcoming on February 11, 2026. \"Use after",
+      "source": "thehackernews.com"
+    },
     {
       "title": "Canada Goose investigating as hackers leak 600K customer records",
       "link": "https://www.bleepingcomputer.com/news/security/canada-goose-investigating-as-hackers-leak-600k-customer-records/",
@@ -45,13 +73,6 @@
       "source": "bleepingcomputer.com"
     },
     {
-      "title": "Pastebin comments push ClickFix JavaScript attack to hijack crypto swaps",
-      "link": "https://www.bleepingcomputer.com/news/security/pastebin-comments-push-clickfix-javascript-attack-to-hijack-crypto-swaps/",
-      "date": "2026-02-15T15:17:27Z",
-      "description": "Threat actors are abusing Pastebin comments to distribute a new ClickFix-style attack that tricks cryptocurrency users into executing malicious JavaScript in their browser, allowing attackers to hijack Bitcoin swap transactions and redirect funds to attacker-controlled wallets. [...]",
-      "source": "bleepingcomputer.com"
-    },
-    {
       "title": "Microsoft Discloses DNS-Based ClickFix Attack Using Nslookup for Malware Staging",
       "link": "https://thehackernews.com/2026/02/microsoft-discloses-dns-based-clickfix.html",
       "date": "2026-02-15T14:10:00Z",
@@ -84,13 +105,6 @@
       "link": "https://cybersecuritynews.com/new-clickfix-attack-uses-dns-hijacking/",
       "date": "2026-02-14T11:11:39Z",
       "description": "A new evolution in the ClickFix social engineering campaign, which now employs a custom DNS hijacking technique to deliver malware. This attack method tricks users into executing malicious commands that utilize DNS lookups to fetch the next stage of the infection, allowing attackers to bypass traditional detection methods and blend in with normal network traffic. […] The post New Clickfix…",
-      "source": "cybersecuritynews.com"
-    },
-    {
-      "title": "Threat Actors Exploit Claude Artifacts and Google Ads to Target macOS Users",
-      "link": "https://cybersecuritynews.com/threat-actors-exploit-claude-artifacts-and-google-ads/",
-      "date": "2026-02-14T09:25:12Z",
-      "description": "A sophisticated malware campaign targeting macOS users through Google-sponsored search results and legitimate platforms, including Anthropic’s Claude AI and Medium. The campaign has already reached over 15,000 potential victims through two distinct attack variants that exploit users’ trust in established online services. The first attack vector leverages Google Ads to promote a malicious Claude…",
       "source": "cybersecuritynews.com"
     },
     {
@@ -161,20 +175,6 @@
       "link": "https://www.securityweek.com/dutch-carrier-odido-discloses-data-breach-impacting-6-million/",
       "date": "2026-02-13T12:02:20Z",
       "description": "Hackers stole personal information such as names, addresses, and phone numbers from a customer contact system. The post Dutch Carrier Odido Discloses Data Breach Impacting 6 Million appeared first on SecurityWeek.",
-      "source": "securityweek.com"
-    },
-    {
-      "title": "Malicious Chrome Extensions Caught Stealing Business Data, Emails, and Browsing History",
-      "link": "https://thehackernews.com/2026/02/malicious-chrome-extensions-caught.html",
-      "date": "2026-02-13T11:25:00Z",
-      "description": "Cybersecurity researchers have discovered a malicious Google Chrome extension that's designed to steal data associated with Meta Business Suite and Facebook Business Manager. The extension, named CL Suite by @CLMasters (ID: jkphinfhmfkckkcnifhjiplhfoiefffl), is marketed as a way to scrape Meta Business Suite data, remove verification pop-ups, and generate two-factor authentication (2FA) codes.",
-      "source": "thehackernews.com"
-    },
-    {
-      "title": "BeyondTrust Vulnerability Targeted by Hackers Within 24 Hours of PoC Release",
-      "link": "https://www.securityweek.com/beyondtrust-vulnerability-targeted-by-hackers-within-24-hours-of-poc-release/",
-      "date": "2026-02-13T11:01:15Z",
-      "description": "Exploitation attempts target CVE-2026-1731, a critical unauthenticated remote code execution flaw in BeyondTrust Remote Support. The post BeyondTrust Vulnerability Targeted by Hackers Within 24 Hours of PoC Release appeared first on SecurityWeek.",
       "source": "securityweek.com"
     },
     {
