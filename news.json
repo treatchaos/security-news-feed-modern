@@ -1,13 +1,48 @@
 {
-  "last_updated": "2026-02-17T11:32:10Z",
+  "last_updated": "2026-02-17T12:37:17Z",
   "count": 40,
   "items": [
+    {
+      "title": "Threat Actors Attacking OpenClaw Configurations to Steal Login Credentials",
+      "link": "https://cybersecuritynews.com/threat-actors-attacking-openclaw-configurations/",
+      "date": "2026-02-17T12:26:28Z",
+      "description": "Cybercriminals have discovered a new attack surface in the world of personal AI assistants. Recent investigations show that infostealers now target OpenClaw configuration files to steal sensitive authentication credentials and personal data. This marks a dangerous evolution in malware behavior, shifting from traditional browser-based credential theft to harvesting complete AI agent identities…",
+      "source": "cybersecuritynews.com"
+    },
+    {
+      "title": "Webinar: How Modern SOC Teams Use AI and Context to Investigate Cloud Breaches Faster",
+      "link": "https://thehackernews.com/2026/02/cloud-forensics-webinar-learn-how-ai.html",
+      "date": "2026-02-17T11:59:00Z",
+      "description": "Cloud attacks move fast — faster than most incident response teams. In data centers, investigations had time. Teams could collect disk images, review logs, and build timelines over days. In the cloud, infrastructure is short-lived. A compromised instance can disappear in minutes. Identities rotate. Logs expire. Evidence can vanish before analysis even begins. Cloud forensics is fundamentally",
+      "source": "thehackernews.com"
+    },
+    {
+      "title": "Firefox v147.0.3 Released With Fix for Heap Buffer Overflow Vulnerability",
+      "link": "https://cybersecuritynews.com/firefox-v147-0-3-released/",
+      "date": "2026-02-17T11:50:28Z",
+      "description": "Mozilla has released Firefox version 147.0.3, addressing a critical memory-related flaw that could allow attackers to execute arbitrary code by exploiting a heap buffer overflow issue in the browser’s media processing library. The fix, part of the Mozilla Foundation Security Advisory 2026-10, improves overall browser security across both desktop and Extended Support Release (ESR) versions. The…",
+      "source": "cybersecuritynews.com"
+    },
+    {
+      "title": "Microsoft Teams With AI Workflows Use Microsoft 365 Copilot to Automate Tasks via Scheduled Prompts",
+      "link": "https://cybersecuritynews.com/microsoft-teams-with-ai-workflows/",
+      "date": "2026-02-17T11:47:31Z",
+      "description": "Microsoft is enhancing Teams productivity with AI Workflows. This new feature leverages Microsoft 365 Copilot to automate routine tasks through scheduled prompts and intelligent templates. The capability, scheduled to roll out between late January and mid-February 2026, aims to streamline daily operations for enterprise users. AI Workflows operates within the Teams Workflows app and uses […] The…",
+      "source": "cybersecuritynews.com"
+    },
     {
       "title": "Poland arrests suspect linked to Phobos ransomware operation",
       "link": "https://www.bleepingcomputer.com/news/security/poland-arrests-suspect-linked-to-phobos-ransomware-operation/",
       "date": "2026-02-17T11:31:37Z",
       "description": "Polish police have detained a 47-year-old man suspected of ties to the Phobos ransomware group and seized computers and mobile phones containing stolen credentials, credit card numbers, and server access data. [...]",
       "source": "bleepingcomputer.com"
+    },
+    {
+      "title": "My Day Getting My Hands Dirty with an NDR System",
+      "link": "https://thehackernews.com/2026/02/my-day-getting-my-hands-dirty-with-ndr.html",
+      "date": "2026-02-17T11:30:00Z",
+      "description": "My objectiveThe role of NDR in SOC workflowsStarting up the NDR systemHow AI complements the human responseWhat else did I try out?What could I see with NDR that I wouldn’t otherwise?Am I ready to be a network security analyst now? My objective As someone relatively inexperienced with network threat hunting, I wanted to get some hands-on experience using a network detection and response (",
+      "source": "thehackernews.com"
     },
     {
       "title": "3 Threat Groups Started Targeting ICS/OT in 2025: Dragos",
@@ -52,32 +87,11 @@
       "source": "cybersecuritynews.com"
     },
     {
-      "title": "Malicious Chrome Extension Steals Facebook Business Manage 2FA Codes and Analytics Data",
-      "link": "https://cybersecuritynews.com/chrome-extension-steals-facebook-2fa-codes/",
-      "date": "2026-02-17T07:42:44Z",
-      "description": "A malicious Chrome extension that claims to help Meta Business users quietly steals Facebook Business Manager 2FA codes and analytics data, putting high‑value ad accounts at risk of takeover. The extension, “CL Suite by @CLMasters” (ID: jkphinfhmfkckkcnifhjiplhfoiefffl), is still available in the Chrome Web Store and specifically targets Meta Business Suite and Facebook Business Manager…",
-      "source": "cybersecuritynews.com"
-    },
-    {
-      "title": "Langchain Community SSRF Bypass Vulnerability Enables Access to Internal Services",
-      "link": "https://cybersecuritynews.com/langchain-community-ssrf-bypass-vulnerability/",
-      "date": "2026-02-17T07:39:49Z",
-      "description": "A Server‑Side Request Forgery (SSRF) vulnerability has been identified in the langchain/community package, affecting versions up to 1.1.13. The flaw, tracked as CVE‑2026‑26019, has a moderate severity rating, with a CVSS 3.1 score, due on its potential to expose sensitive cloud metadata and internal infrastructure. The vulnerability originates from the RecursiveUrlLoader class, which performs…",
-      "source": "cybersecuritynews.com"
-    },
-    {
       "title": "Apple Tests End-to-End Encrypted RCS Messaging in iOS 26.4 Developer Beta",
       "link": "https://thehackernews.com/2026/02/apple-tests-end-to-end-encrypted-rcs.html",
       "date": "2026-02-17T06:44:00Z",
       "description": "Apple on Monday released a new developer beta of iOS and iPadOS with support for end-to-end encryption (E2EE) in Rich Communications Services (RCS) messages. The feature is currently available for testing in iOS and iPadOS 26.4 Beta, and is expected to be shipped to customers in a future update for iOS, iPadOS, macOS, and watchOS. \"End-to-end encryption is in beta and is not available for all",
       "source": "thehackernews.com"
-    },
-    {
-      "title": "25 Vulnerabilities in Cloud Password Managers Allow Unauthorized Access and Modifications",
-      "link": "https://cybersecuritynews.com/password-managers-vulnerability/",
-      "date": "2026-02-17T03:03:50Z",
-      "description": "Researchers from ETH Zurich have uncovered 25 serious vulnerabilities in three leading cloud-based password managers: Bitwarden, LastPass, and Dashlane. These flaws enable a malicious server to bypass zero-knowledge encryption claims, allowing unauthorized access, modification, and recovery of users’ stored passwords and vault data. Bitwarden, LastPass, and Dashlane collectively serve over 60…",
-      "source": "cybersecuritynews.com"
     },
     {
       "title": "Washington Hotel in Japan discloses ransomware infection incident",
@@ -105,13 +119,6 @@
       "link": "https://thehackernews.com/2026/02/infostealer-steals-openclaw-ai-agent.html",
       "date": "2026-02-16T18:43:00Z",
       "description": "Cybersecurity researchers disclosed they have detected a case of an information stealer infection successfully exfiltrating a victim's OpenClaw (formerly Clawdbot and Moltbot) configuration environment. \"This finding marks a significant milestone in the evolution of infostealer behavior: the transition from stealing browser credentials to harvesting the 'souls' and identities of personal AI [",
-      "source": "thehackernews.com"
-    },
-    {
-      "title": "Study Uncovers 25 Password Recovery Attacks in Major Cloud Password Managers",
-      "link": "https://thehackernews.com/2026/02/study-uncovers-25-password-recovery.html",
-      "date": "2026-02-16T18:06:00Z",
-      "description": "A new study has found that multiple cloud-based password managers, including Bitwarden, Dashlane, and LastPass, are susceptible to password recovery attacks under certain conditions. \"The attacks range in severity from integrity violations to the complete compromise of all vaults in an organization,\" researchers Matteo Scarlata, Giovanni Torrisi, Matilda Backendal, and Kenneth G. Paterson said.",
       "source": "thehackernews.com"
     },
     {
@@ -148,13 +155,6 @@
       "date": "2026-02-16T13:49:03Z",
       "description": "CISA is currently operating at roughly 38% capacity (888 out of 2,341 staff) due to the DHS shutdown that began February 14, 2026. The post CISA Navigates DHS Shutdown With Reduced Staff appeared first on SecurityWeek.",
       "source": "securityweek.com"
-    },
-    {
-      "title": "Weekly Recap: Outlook Add-Ins Hijack, 0-Day Patches, Wormable Botnet & AI Malware",
-      "link": "https://thehackernews.com/2026/02/weekly-recap-outlook-add-ins-hijack-0.html",
-      "date": "2026-02-16T12:55:00Z",
-      "description": "This week’s recap shows how small gaps are turning into big entry points. Not always through new exploits, often through tools, add-ons, cloud setups, or workflows that people already trust and rarely question. Another signal: attackers are mixing old and new methods. Legacy botnet tactics, modern cloud abuse, AI assistance, and supply-chain exposure are being used side by side, whichever path",
-      "source": "thehackernews.com"
     },
     {
       "title": "HAProxy Patches High-Severity QUIC Flaws That Can Kill the Load Balancer",
