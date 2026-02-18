@@ -1,7 +1,21 @@
 {
-  "last_updated": "2026-02-18T09:36:15Z",
+  "last_updated": "2026-02-18T10:33:24Z",
   "count": 40,
   "items": [
+    {
+      "title": "Single-Character Typo of “&” Instead of “|” Leads to 0-Day RCE in Firefox",
+      "link": "https://cybersecuritynews.com/firefox-0-day-rce/",
+      "date": "2026-02-18T10:28:03Z",
+      "description": "A critical Remote Code Execution (RCE) vulnerability in Mozilla Firefox was caused by a single-character typo in the SpiderMonkey JavaScript engine’s WebAssembly garbage collection code, where a developer mistakenly typed “&” (bitwise AND) instead of “|” (bitwise OR). Security researcher Erge discovered the flaw while examining the Firefox 149 Nightly source code for inspiration for […] The post…",
+      "source": "cybersecuritynews.com"
+    },
+    {
+      "title": "CISA: Hackers Exploiting Vulnerability in Product of Taiwan Security Firm TeamT5",
+      "link": "https://www.securityweek.com/cisa-hackers-exploiting-vulnerability-in-product-of-taiwan-security-firm-teamt5/",
+      "date": "2026-02-18T10:26:03Z",
+      "description": "The vulnerability added to CISA’s KEV catalog affects ThreatSonar Anti-Ransomware and it was patched in 2024. The post CISA: Hackers Exploiting Vulnerability in Product of Taiwan Security Firm TeamT5 appeared first on SecurityWeek.",
+      "source": "securityweek.com"
+    },
     {
       "title": "New Phishing Campaign Targets Booking.com Partners and Customers in Multi-Stage Financial Fraud Scheme",
       "link": "https://cybersecuritynews.com/new-phishing-campaign-targets-booking-com-partners-and-customers/",
@@ -42,13 +56,6 @@
       "link": "https://cybersecuritynews.com/notepad-v8-9-2-released/",
       "date": "2026-02-18T07:28:32Z",
       "description": "The widely used open-source text and code editor has released version v8.9.2, introducing a major security enhancement known as the “Double-Lock” update mechanism. This update addresses vulnerabilities that were exploited in a recent state-sponsored attack targeting the application’s update infrastructure. Last month, Notepad++’s official site confirmed that attackers had successfully hijacked…",
-      "source": "cybersecuritynews.com"
-    },
-    {
-      "title": "New ‘Foxveil’ Malware Loader Leverages Cloudflare, Netlify, and Discord to Evade Detection",
-      "link": "https://cybersecuritynews.com/new-foxveil-malware-loader/",
-      "date": "2026-02-18T07:21:33Z",
-      "description": "A new malware loader called “Foxveil” has been discovered actively targeting systems through legitimate cloud platforms, raising concerns about how threat actors are weaponizing trusted services to bypass security measures. The malware has been operational since August 2025 and has since evolved significantly. It now exists in two distinct variants, each using sophisticated techniques to […] The…",
       "source": "cybersecuritynews.com"
     },
     {
@@ -168,13 +175,6 @@
       "link": "https://www.securityweek.com/hackers-offer-to-sell-millions-of-eurail-user-records/",
       "date": "2026-02-17T15:27:12Z",
       "description": "Eurail has confirmed that the stolen data is up for sale, but it’s still trying to determine how many individuals are impacted. The post Hackers Offer to Sell Millions of Eurail User Records appeared first on SecurityWeek.",
-      "source": "securityweek.com"
-    },
-    {
-      "title": "API Threats Grow in Scale as AI Expands the Blast Radius",
-      "link": "https://www.securityweek.com/api-threats-grow-in-scale-as-ai-expands-the-blast-radius/",
-      "date": "2026-02-17T14:00:00Z",
-      "description": "New research shows attackers increasingly abusing APIs at machine speed as AI-driven systems widen exposure and amplify impact. The post API Threats Grow in Scale as AI Expands the Blast Radius appeared first on SecurityWeek.",
       "source": "securityweek.com"
     },
     {
