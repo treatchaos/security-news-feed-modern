@@ -1,7 +1,27 @@
 {
   "date": "2026-02-18",
-  "count": 21,
+  "count": 23,
   "items": [
+    {
+      "id": "daf1bd0085dc64c08799a859e46437d19ed769bb",
+      "title": "CISA Adds Windows Video ActiveX Control RCE Flaw to KEV Catalog Following Active Exploitation",
+      "link": "https://cybersecuritynews.com/windows-video-activex-control-rce-flaw-exploited/",
+      "date": "2026-02-18T11:19:13Z",
+      "description": "A long-dormant Microsoft Windows vulnerability, CVE-2008-0015, has been added to the Known Exploited Vulnerabilities (KEV) catalog following evidence of active exploitation in the wild. The flaw, first disclosed more than a decade ago, impacts the Windows Video ActiveX Control component and poses a serious Remote Code Execution (RCE) risk. According to CISA, attackers are exploiting the…",
+      "source": "cybersecuritynews.com",
+      "first_seen": "2026-02-18T11:31:34Z",
+      "last_seen": "2026-02-18T11:31:34Z"
+    },
+    {
+      "id": "67af32c4855843b6e0361f5b2232cde10ac8c3ad",
+      "title": "Glendale man gets 5 years in prison for role in darknet drug ring",
+      "link": "https://www.bleepingcomputer.com/news/security/glendale-man-gets-5-years-in-prison-for-role-in-darknet-drug-trafficking-operation/",
+      "date": "2026-02-18T10:50:50Z",
+      "description": "​A Glendale man was sentenced to nearly five years in federal prison for his role in a darknet drug trafficking operation that sold cocaine, methamphetamine, MDMA, and ketamine to customers across the United States. [...]",
+      "source": "bleepingcomputer.com",
+      "first_seen": "2026-02-18T11:31:34Z",
+      "last_seen": "2026-02-18T11:31:34Z"
+    },
     {
       "id": "beb935b090b9323f2bb3c57ed41468f8891773de",
       "title": "Single-Character Typo of “&” Instead of “|” Leads to 0-Day RCE in Firefox",
@@ -10,7 +30,7 @@
       "description": "A critical Remote Code Execution (RCE) vulnerability in Mozilla Firefox was caused by a single-character typo in the SpiderMonkey JavaScript engine’s WebAssembly garbage collection code, where a developer mistakenly typed “&” (bitwise AND) instead of “|” (bitwise OR). Security researcher Erge discovered the flaw while examining the Firefox 149 Nightly source code for inspiration for […] The post…",
       "source": "cybersecuritynews.com",
       "first_seen": "2026-02-18T10:33:24Z",
-      "last_seen": "2026-02-18T10:33:24Z"
+      "last_seen": "2026-02-18T11:31:34Z"
     },
     {
       "id": "91efcb6a3ecfb1dce373bd3824d5107eee9665db",
@@ -20,7 +40,7 @@
       "description": "The vulnerability added to CISA’s KEV catalog affects ThreatSonar Anti-Ransomware and it was patched in 2024. The post CISA: Hackers Exploiting Vulnerability in Product of Taiwan Security Firm TeamT5 appeared first on SecurityWeek.",
       "source": "securityweek.com",
       "first_seen": "2026-02-18T10:33:24Z",
-      "last_seen": "2026-02-18T10:33:24Z"
+      "last_seen": "2026-02-18T11:31:34Z"
     },
     {
       "id": "5d490731c34a59a4eb39270210c79c59290571cf",
@@ -30,7 +50,7 @@
       "description": "A new Booking.com‑themed phishing campaign is abusing trust in travel brands to steal money and sensitive data from both hotels and guests. The scheme can start as a service message, but it can end with payment fraud and card exposure. Early lures are sent to hotel reservation or support mailboxes and push staff to click […] The post New Phishing Campaign Targets Booking.com Partners and…",
       "source": "cybersecuritynews.com",
       "first_seen": "2026-02-18T09:36:15Z",
-      "last_seen": "2026-02-18T10:33:24Z"
+      "last_seen": "2026-02-18T11:31:34Z"
     },
     {
       "id": "664dea0571a6328c7de16409c719cfa6a31756d3",
@@ -40,7 +60,7 @@
       "description": "An urgent warning regarding a newly discovered zero-day vulnerability in Google Chromium, which is reportedly under active exploitation in the wild. The vulnerability, tracked as CVE-2026-2441, affects Chromium’s CSS (Cascading Style Sheets) engine and can enable remote attackers to execute arbitrary code on a victim’s system. According to the advisory published on February 17, 2026,…",
       "source": "cybersecuritynews.com",
       "first_seen": "2026-02-18T09:36:15Z",
-      "last_seen": "2026-02-18T10:33:24Z"
+      "last_seen": "2026-02-18T11:31:34Z"
     },
     {
       "id": "7f66e5b6196df338bfd9f4d46ecd20f13c6669e2",
@@ -50,7 +70,7 @@
       "description": "A critical vulnerability discovered in Microsoft’s popular Visual Studio Code (VS Code) Live Preview extension, downloaded over 11 million times, exposes developers to one-click cross-site scripting (XSS) and local file exfiltration attacks. The flaw, now patched, was discovered by researchers Nir Zadok and Moshe Siman Tov Bustan from OX Security. The issue affects all versions of the Live…",
       "source": "cybersecuritynews.com",
       "first_seen": "2026-02-18T09:36:15Z",
-      "last_seen": "2026-02-18T10:33:24Z"
+      "last_seen": "2026-02-18T11:31:34Z"
     },
     {
       "id": "015989b97495e1f53a7e7135e10d7c52f729917e",
@@ -60,7 +80,7 @@
       "description": "Koi has developed an endpoint security solution that Palo Alto will use to enhance its products. The post Palo Alto Networks to Acquire Koi in Reported $400 Million Transaction appeared first on SecurityWeek.",
       "source": "securityweek.com",
       "first_seen": "2026-02-18T08:33:38Z",
-      "last_seen": "2026-02-18T10:33:24Z"
+      "last_seen": "2026-02-18T11:31:34Z"
     },
     {
       "id": "448168bb251db9b06af721969c2764e43d57bfcf",
@@ -70,7 +90,7 @@
       "description": "Notepad++ has released a security fix to plug gaps that were exploited by an advanced threat actor from China to hijack the software update mechanism to selectively deliver malware to targets of interest. The version 8.9.2 update incorporates what maintainer Don Ho calls a \"double lock\" design that aims to make the update process \"robust and effectively unexploitable.\" This includes verification",
       "source": "thehackernews.com",
       "first_seen": "2026-02-18T09:36:15Z",
-      "last_seen": "2026-02-18T10:33:24Z"
+      "last_seen": "2026-02-18T11:31:34Z"
     },
     {
       "id": "57a7b9037da8f9619ee3564b8d7f464c2af849fe",
@@ -100,7 +120,7 @@
       "description": "GTIG and Mandiant said the zero-day tracked as CVE-2026-22769 has been exploited by UNC6201 since at least 2024. The post Dell RecoverPoint Zero-Day Exploited by Chinese Cyberespionage Group appeared first on SecurityWeek.",
       "source": "securityweek.com",
       "first_seen": "2026-02-18T07:43:37Z",
-      "last_seen": "2026-02-18T10:33:24Z"
+      "last_seen": "2026-02-18T11:31:34Z"
     },
     {
       "id": "ab5523a2dc44f48b038792970d973376d4e4c5c1",
@@ -120,7 +140,7 @@
       "description": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Tuesday added four security flaws to its Known Exploited Vulnerabilities (KEV) catalog, citing evidence of active exploitation in the wild. The list of vulnerabilities is as follows - CVE-2026-2441 (CVSS score: 8.8) - A use-after-free vulnerability in Google Chrome that could allow a remote attacker to potentially exploit heap",
       "source": "thehackernews.com",
       "first_seen": "2026-02-18T07:43:37Z",
-      "last_seen": "2026-02-18T10:33:24Z"
+      "last_seen": "2026-02-18T11:31:34Z"
     },
     {
       "id": "e3f52a42a4be70d2129dc79631f4948e16f8f893",
@@ -190,7 +210,7 @@
       "description": "After detecting a zero-day attack, the country's effective response was attributed to the tight relationship between its government and private industry.",
       "source": "darkreading.com",
       "first_seen": "2026-02-18T01:13:25Z",
-      "last_seen": "2026-02-18T10:33:24Z"
+      "last_seen": "2026-02-18T11:31:34Z"
     },
     {
       "id": "20b8ff20af65fb7803ba618646846f7d1cc4281b",
@@ -210,7 +230,7 @@
       "description": "A Spanish court has granted precautionary measures against NordVPN and ProtonVPN, ordering the two popular VPN providers to block 16 websites that facilitate piracy of football matches. [...]",
       "source": "bleepingcomputer.com",
       "first_seen": "2026-02-18T01:13:25Z",
-      "last_seen": "2026-02-18T10:33:24Z"
+      "last_seen": "2026-02-18T11:31:34Z"
     }
   ]
 }
