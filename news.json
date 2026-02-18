@@ -1,7 +1,35 @@
 {
-  "last_updated": "2026-02-18T12:36:45Z",
+  "last_updated": "2026-02-18T14:01:04Z",
   "count": 40,
   "items": [
+    {
+      "title": "16 Zero-Day Vulnerabilities in Popular PDF Platforms Enable Code Execution and Data Exfiltration",
+      "link": "https://cybersecuritynews.com/pdf-zero-day-vulnerabilities/",
+      "date": "2026-02-18T13:56:37Z",
+      "description": "16 zero-day vulnerabilities, including critical OS Command Injection, DOM-based XSS, SSRF, and Path Traversal flaws across Apryse WebViewer (formerly PDFTron) and Foxit PDF cloud services, affecting millions of enterprise users worldwide. The disclosure from Novee Security, made in stealth, showcases its AI-augmented human-agent research workflow to demonstrate scalable zero-day discovery across…",
+      "source": "cybersecuritynews.com"
+    },
+    {
+      "title": "MetaMask Users Targeted with Phishing Emails Containing Forged Security Report to Evade Detection",
+      "link": "https://cybersecuritynews.com/metamask-users-targeted-with-phishing-emails/",
+      "date": "2026-02-18T13:17:52Z",
+      "description": "A new phishing campaign is targeting MetaMask users through carefully crafted emails that contain fake security incident reports designed to manipulate victims into compromising their accounts. The attack leverages social engineering tactics by creating a false sense of urgency around account security, specifically pushing users to enable two-factor authentication through malicious links.…",
+      "source": "cybersecuritynews.com"
+    },
+    {
+      "title": "Vulnerabilities in Popular PDF Platforms Allowed Account Takeover, Data Exfiltration",
+      "link": "https://www.securityweek.com/vulnerabilities-in-popular-pdf-platforms-allowed-account-takeover-data-exfiltration/",
+      "date": "2026-02-18T13:16:19Z",
+      "description": "Novee researchers discovered 16 vulnerabilities in Foxit and Apryse PDF tools that could have been exploited via malicious documents or URLs. The post Vulnerabilities in Popular PDF Platforms Allowed Account Takeover, Data Exfiltration appeared first on SecurityWeek.",
+      "source": "securityweek.com"
+    },
+    {
+      "title": "Critical Flaws Found in Four VS Code Extensions with Over 125 Million Installs",
+      "link": "https://thehackernews.com/2026/02/critical-flaws-found-in-four-vs-code.html",
+      "date": "2026-02-18T13:16:00Z",
+      "description": "Cybersecurity researchers have disclosed multiple security vulnerabilities in four popular Microsoft Visual Studio Code (VS Code) extensions that, if successfully exploited, could allow threat actors to steal local files and execute code remotely. The extensions, which have been collectively installed more than 125 million times, are Live Server, Code Runner, Markdown Preview Enhanced, and",
+      "source": "thehackernews.com"
+    },
     {
       "title": "Paloalto to Acquire Koi Security for Establishing Agentic Endpoint security",
       "link": "https://cybersecuritynews.com/paloalto-to-acquire-koi-security/",
@@ -15,6 +43,13 @@
       "date": "2026-02-18T12:03:05Z",
       "description": "Microsoft says a Microsoft 365 Copilot bug has been causing the AI assistant to summarize confidential emails since late January, bypassing data loss prevention (DLP) policies that organizations rely on to protect sensitive information. [...]",
       "source": "bleepingcomputer.com"
+    },
+    {
+      "title": "Cybersecurity Tech Predictions for 2026: Operating in a World of Permanent Instability",
+      "link": "https://thehackernews.com/2026/02/cybersecurity-tech-predictions-for-2026.html",
+      "date": "2026-02-18T11:58:00Z",
+      "description": "In 2025, navigating the digital seas still felt like a matter of direction. Organizations charted routes, watched the horizon, and adjusted course to reach safe harbors of resilience, trust, and compliance. In 2026, the seas are no longer calm between storms. Cybersecurity now unfolds in a state of continuous atmospheric instability: AI-driven threats that adapt in real time, expanding",
+      "source": "thehackernews.com"
     },
     {
       "title": "Anthropic Releases Claude Sonnet 4.6 with Improved Coding, Computer Use, and 1M Token Context Window",
@@ -52,25 +87,11 @@
       "source": "thehackernews.com"
     },
     {
-      "title": "Single-Character Typo of “&” Instead of “|” Leads to 0-Day RCE in Firefox",
-      "link": "https://cybersecuritynews.com/firefox-0-day-rce/",
-      "date": "2026-02-18T10:28:03Z",
-      "description": "A critical Remote Code Execution (RCE) vulnerability in Mozilla Firefox was caused by a single-character typo in the SpiderMonkey JavaScript engine’s WebAssembly garbage collection code, where a developer mistakenly typed “&” (bitwise AND) instead of “|” (bitwise OR). Security researcher Erge discovered the flaw while examining the Firefox 149 Nightly source code for inspiration for […] The post…",
-      "source": "cybersecuritynews.com"
-    },
-    {
       "title": "CISA: Hackers Exploiting Vulnerability in Product of Taiwan Security Firm TeamT5",
       "link": "https://www.securityweek.com/cisa-hackers-exploiting-vulnerability-in-product-of-taiwan-security-firm-teamt5/",
       "date": "2026-02-18T10:26:03Z",
       "description": "The vulnerability added to CISA’s KEV catalog affects ThreatSonar Anti-Ransomware and it was patched in 2024. The post CISA: Hackers Exploiting Vulnerability in Product of Taiwan Security Firm TeamT5 appeared first on SecurityWeek.",
       "source": "securityweek.com"
-    },
-    {
-      "title": "New Phishing Campaign Targets Booking.com Partners and Customers in Multi-Stage Financial Fraud Scheme",
-      "link": "https://cybersecuritynews.com/new-phishing-campaign-targets-booking-com-partners-and-customers/",
-      "date": "2026-02-18T09:23:56Z",
-      "description": "A new Booking.com‑themed phishing campaign is abusing trust in travel brands to steal money and sensitive data from both hotels and guests. The scheme can start as a service message, but it can end with payment fraud and card exposure. Early lures are sent to hotel reservation or support mailboxes and push staff to click […] The post New Phishing Campaign Targets Booking.com Partners and…",
-      "source": "cybersecuritynews.com"
     },
     {
       "title": "Palo Alto Networks to Acquire Koi in Reported $400 Million Transaction",
@@ -92,13 +113,6 @@
       "date": "2026-02-18T07:09:01Z",
       "description": "GTIG and Mandiant said the zero-day tracked as CVE-2026-22769 has been exploited by UNC6201 since at least 2024. The post Dell RecoverPoint Zero-Day Exploited by Chinese Cyberespionage Group appeared first on SecurityWeek.",
       "source": "securityweek.com"
-    },
-    {
-      "title": "CISA Flags Four Security Flaws Under Active Exploitation in Latest KEV Update",
-      "link": "https://thehackernews.com/2026/02/cisa-flags-four-security-flaws-under.html",
-      "date": "2026-02-18T06:52:00Z",
-      "description": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Tuesday added four security flaws to its Known Exploited Vulnerabilities (KEV) catalog, citing evidence of active exploitation in the wild. The list of vulnerabilities is as follows - CVE-2026-2441 (CVSS score: 8.8) - A use-after-free vulnerability in Google Chrome that could allow a remote attacker to potentially exploit heap",
-      "source": "thehackernews.com"
     },
     {
       "title": "Singapore &amp; Its 4 Major Telcos Fend Off Chinese Hackers",
@@ -157,24 +171,10 @@
       "source": "bleepingcomputer.com"
     },
     {
-      "title": "Webinar: How Modern SOC Teams Use AI and Context to Investigate Cloud Breaches Faster",
-      "link": "https://thehackernews.com/2026/02/cloud-forensics-webinar-learn-how-ai.html",
-      "date": "2026-02-17T19:08:00Z",
-      "description": "Cloud attacks move fast — faster than most incident response teams. In data centers, investigations had time. Teams could collect disk images, review logs, and build timelines over days. In the cloud, infrastructure is short-lived. A compromised instance can disappear in minutes. Identities rotate. Logs expire. Evidence can vanish before analysis even begins. Cloud forensics is fundamentally",
-      "source": "thehackernews.com"
-    },
-    {
       "title": "VulnCheck Raises $25 Million in Series B Funding to Scale Vulnerability Intelligence",
       "link": "https://www.securityweek.com/vulncheck-raises-25-million-in-series-b-funding-to-scale-vulnerability-intelligence/",
       "date": "2026-02-17T16:00:04Z",
       "description": "The latest funding round was led by Sorenson Capital and brings the total investment to $45 million. The post VulnCheck Raises $25 Million in Series B Funding to Scale Vulnerability Intelligence appeared first on SecurityWeek.",
-      "source": "securityweek.com"
-    },
-    {
-      "title": "Hackers Offer to Sell Millions of Eurail User Records",
-      "link": "https://www.securityweek.com/hackers-offer-to-sell-millions-of-eurail-user-records/",
-      "date": "2026-02-17T15:27:12Z",
-      "description": "Eurail has confirmed that the stolen data is up for sale, but it’s still trying to determine how many individuals are impacted. The post Hackers Offer to Sell Millions of Eurail User Records appeared first on SecurityWeek.",
       "source": "securityweek.com"
     },
     {
