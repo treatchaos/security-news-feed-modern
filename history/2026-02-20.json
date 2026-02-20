@@ -1,7 +1,37 @@
 {
   "date": "2026-02-20",
-  "count": 29,
+  "count": 34,
   "items": [
+    {
+      "id": "7ac378f1e2bcb5fb351e7c7cf4054f011cb63374",
+      "title": "PayPal discloses data breach that exposed user info for 6 months",
+      "link": "https://www.bleepingcomputer.com/news/security/paypal-discloses-data-breach-exposing-users-personal-information/",
+      "date": "2026-02-20T13:12:01Z",
+      "description": "PayPal is notifying customers of a data breach after a software error in a loan application exposed their sensitive personal information, including Social Security numbers, for nearly 6 months last year. [...]",
+      "source": "bleepingcomputer.com",
+      "first_seen": "2026-02-20T13:53:19Z",
+      "last_seen": "2026-02-20T13:53:19Z"
+    },
+    {
+      "id": "99739364dc118376b7324a91f668284b0be9c908",
+      "title": "CharlieKirk Grabber Stealer Attacking Windows Systems to Exfiltrate Login Credentials",
+      "link": "https://cybersecuritynews.com/charliekirk-grabber-stealer-attacking-windows-systems/",
+      "date": "2026-02-20T13:05:29Z",
+      "description": "A new Python-based infostealer called CharlieKirk Grabber has been identified targeting Windows systems, with a focused goal of stealing stored login credentials, browser cookies, and session data. The malware is built to work as a “smash-and-grab” threat — it launches quickly, collects whatever sensitive data it can find, and disappears before the user notices anything […] The post CharlieKirk…",
+      "source": "cybersecuritynews.com",
+      "first_seen": "2026-02-20T13:53:19Z",
+      "last_seen": "2026-02-20T13:53:19Z"
+    },
+    {
+      "id": "280344b00ad984dd7d49f9b46fb564517f2f4b47",
+      "title": "Critical Jenkins Vulnerability Exposes Build Environments to XSS Attacks",
+      "link": "https://cybersecuritynews.com/jenkins-vulnerability-exposes-xss-attacks/",
+      "date": "2026-02-20T12:36:58Z",
+      "description": "Security Advisory has revealed multiple vulnerabilities in Jenkins Core, including a stored Cross-Site Scripting (XSS) flaw that could expose build environments to severe security risks. The issues, identified as CVE-2026-27099 and CVE-2026-27100, were responsibly disclosed under the Jenkins Bug Bounty Program sponsored by the European Commission. The most critical of the two, tracked as…",
+      "source": "cybersecuritynews.com",
+      "first_seen": "2026-02-20T13:53:19Z",
+      "last_seen": "2026-02-20T13:53:19Z"
+    },
     {
       "id": "556e83136e56cf156f2dfeb5db740ad4fb97d2e6",
       "title": "BeyondTrust Vulnerability Exploited in Ransomware Attacks",
@@ -10,7 +40,7 @@
       "description": "CISA has updated its KEV entry for CVE-2026-1731 to alert organizations of exploitation in ransomware attacks. The post BeyondTrust Vulnerability Exploited in Ransomware Attacks appeared first on SecurityWeek.",
       "source": "securityweek.com",
       "first_seen": "2026-02-20T12:33:28Z",
-      "last_seen": "2026-02-20T12:33:28Z"
+      "last_seen": "2026-02-20T13:53:19Z"
     },
     {
       "id": "e9120d1953fd12249c5ad50dd0434bc4ea46806b",
@@ -20,7 +50,17 @@
       "description": "Apache Tomcat has disclosed CVE-2026-24733, a Low-severity security constraint bypass that can be triggered via HTTP/0.9 requests when certain access-control rules are configured in a specific way. The Apache Tomcat security team identified the issue, and the original advisory was published on 2026-02-17. At a high level, the vulnerability stems from Tomcat not restricting HTTP/0.9 […] The post…",
       "source": "cybersecuritynews.com",
       "first_seen": "2026-02-20T12:33:28Z",
-      "last_seen": "2026-02-20T12:33:28Z"
+      "last_seen": "2026-02-20T13:53:19Z"
+    },
+    {
+      "id": "79e68854a171ecac3fd5b89a80d0fac8f1279a8f",
+      "title": "ClickFix Campaign Abuses Compromised Sites to Deploy MIMICRAT RAT",
+      "link": "https://thehackernews.com/2026/02/clickfix-campaign-abuses-compromised.html",
+      "date": "2026-02-20T11:55:00Z",
+      "description": "Cybersecurity researchers have disclosed details of a new ClickFix campaign that abuses compromised legitimate sites to deliver a previously undocumented remote access trojan (RAT) called MIMICRAT (aka AstarionRAT). \"The campaign demonstrates a high level of operational sophistication: compromised sites spanning multiple industries and geographies serve as delivery infrastructure, a multi-stage",
+      "source": "thehackernews.com",
+      "first_seen": "2026-02-20T13:53:19Z",
+      "last_seen": "2026-02-20T13:53:19Z"
     },
     {
       "id": "6fac40620683b4fd12748f0d41de39bca116e0da",
@@ -30,7 +70,7 @@
       "description": "Three critical vulnerabilities have been found in four popular Visual Studio Code extensions. These extensions have been downloaded over 128 million times. The vulnerabilities are identified as CVE-2025-65715, CVE-2025-65716, and CVE-2025-65717. The findings from the OX Security Research team, later confirmed on Cursor and Windsurf IDEs, expose a systemic blind spot in modern software supply […]…",
       "source": "cybersecuritynews.com",
       "first_seen": "2026-02-20T12:33:28Z",
-      "last_seen": "2026-02-20T12:33:28Z"
+      "last_seen": "2026-02-20T13:53:19Z"
     },
     {
       "id": "33fa823cb66848615f958206c47c35af2f507db0",
@@ -40,7 +80,7 @@
       "description": "The University of Mississippi Medical Center (UMMC) closed all its clinic locations statewide on Thursday following a ransomware attack. [...]",
       "source": "bleepingcomputer.com",
       "first_seen": "2026-02-20T12:33:28Z",
-      "last_seen": "2026-02-20T12:33:28Z"
+      "last_seen": "2026-02-20T13:53:19Z"
     },
     {
       "id": "41a3b28a0c349f995de3b425a9e9b62caff989cd",
@@ -50,7 +90,7 @@
       "description": "Large language models, commonly known as LLMs, are increasingly being asked to generate passwords — and new research has shown that the passwords they produce are far weaker than they appear. A password like G7$kL9#mQ2&xP4!w may look convincingly random, but it carries a fundamental flaw that standard password-strength tools consistently miss. The core problem lies in how […] The post…",
       "source": "cybersecuritynews.com",
       "first_seen": "2026-02-20T12:33:28Z",
-      "last_seen": "2026-02-20T12:33:28Z"
+      "last_seen": "2026-02-20T13:53:19Z"
     },
     {
       "id": "29b6fb1bf80df43cfc2714a84a9f95d1ce849f38",
@@ -70,7 +110,7 @@
       "description": "The FBI has confirmed that the Ploutus malware, which has been around for over a decade, is still being used in the wild. The post FBI: $20 Million Losses Caused by 700 ATM Jackpotting Attacks in 2025 appeared first on SecurityWeek.",
       "source": "securityweek.com",
       "first_seen": "2026-02-20T11:23:20Z",
-      "last_seen": "2026-02-20T12:33:28Z"
+      "last_seen": "2026-02-20T13:53:19Z"
     },
     {
       "id": "de54220e77cac4585bd34a2bdc0707275ff7e4f9",
@@ -90,7 +130,7 @@
       "description": "With one in three cyber-attacks now involving compromised employee accounts, insurers and regulators are placing far greater emphasis on identity posture when assessing cyber risk. For many organizations, however, these assessments remain largely opaque. Elements such as password hygiene, privileged access management, and the extent of multi-factor authentication (MFA) coverage are",
       "source": "thehackernews.com",
       "first_seen": "2026-02-20T11:23:20Z",
-      "last_seen": "2026-02-20T12:33:28Z"
+      "last_seen": "2026-02-20T13:53:19Z"
     },
     {
       "id": "64167b32e122f63a63082942bffbe55ccbd0978f",
@@ -110,7 +150,7 @@
       "description": "The FBI warned that Americans lost more than $20 million last year amid a massive surge in ATM \"jackpotting\" attacks, in which criminals use malware to force cash machines to dispense money. [...]",
       "source": "bleepingcomputer.com",
       "first_seen": "2026-02-20T10:27:34Z",
-      "last_seen": "2026-02-20T12:33:28Z"
+      "last_seen": "2026-02-20T13:53:19Z"
     },
     {
       "id": "5221f5778848bc1f6a92ed8cefa751b3693a81e7",
@@ -120,7 +160,7 @@
       "description": "A 29-year-old Ukrainian national has been sentenced to five years in prison in the U.S. for his role in facilitating North Korea's fraudulent information technology (IT) worker scheme. In November 2025, Oleksandr \"Alexander\" Didenko pleaded guilty to wire fraud conspiracy and aggravated identity theft for stealing the identities of U.S. citizens and selling them to IT workers to help them land",
       "source": "thehackernews.com",
       "first_seen": "2026-02-20T11:23:20Z",
-      "last_seen": "2026-02-20T12:33:28Z"
+      "last_seen": "2026-02-20T13:53:19Z"
     },
     {
       "id": "5e015af35369af4f5567120ff7f40f5736ac8aeb",
@@ -130,7 +170,7 @@
       "description": "The company is investigating whether any customer or employee data was stolen by hackers. The post Chip Testing Giant Advantest Hit by Ransomware appeared first on SecurityWeek.",
       "source": "securityweek.com",
       "first_seen": "2026-02-20T10:27:34Z",
-      "last_seen": "2026-02-20T12:33:28Z"
+      "last_seen": "2026-02-20T13:53:19Z"
     },
     {
       "id": "48a70bfb5e07055c7ebeaa45f591ccf9f2c720e3",
@@ -140,7 +180,7 @@
       "description": "A Ukrainian national was sentenced to five years in prison for providing North Korean IT workers with stolen identities that helped them infiltrate U.S. companies. [...]",
       "source": "bleepingcomputer.com",
       "first_seen": "2026-02-20T09:30:58Z",
-      "last_seen": "2026-02-20T12:33:28Z"
+      "last_seen": "2026-02-20T13:53:19Z"
     },
     {
       "id": "994498ac625b2dd50c95c927ca4257afa55aeae7",
@@ -160,7 +200,7 @@
       "description": "The U.S. Federal Bureau of Investigation (FBI) has warned of an increase in ATM jackpotting incidents across the country, leading to losses of more than $20 million in 2025. The agency said 1,900 ATM jackpotting incidents have been reported since 2020, out of which 700 took place last year. In December 2025, the U.S. Department of Justice (DoJ) said about $40.73 million has been collectively",
       "source": "thehackernews.com",
       "first_seen": "2026-02-20T09:30:58Z",
-      "last_seen": "2026-02-20T12:33:28Z"
+      "last_seen": "2026-02-20T13:53:19Z"
     },
     {
       "id": "40918ec995bcddfd8ce7894730265ed65c041727",
@@ -200,7 +240,7 @@
       "description": "The malware leverages Gemini to analyze on-screen elements and ensure that it remains on the device even after a reboot. The post PromptSpy Android Malware Abuses Gemini AI at Runtime for Persistence appeared first on SecurityWeek.",
       "source": "securityweek.com",
       "first_seen": "2026-02-20T07:40:51Z",
-      "last_seen": "2026-02-20T12:33:28Z"
+      "last_seen": "2026-02-20T13:53:19Z"
     },
     {
       "id": "bda1de763df7cfbdd06f711992cec75b01b6c732",
@@ -250,7 +290,7 @@
       "description": "Two former Google engineers and one of their husbands have been indicted in the U.S. for allegedly committing trade secret theft from the search giant and other tech firms and transferring the information to unauthorized locations, including Iran. Samaneh Ghandali, 41, and her husband Mohammadjavad Khosravi (aka Mohammad Khosravi), 40, along with her sister Soroor Ghandali, 32, have been accused",
       "source": "thehackernews.com",
       "first_seen": "2026-02-20T09:30:58Z",
-      "last_seen": "2026-02-20T12:33:28Z"
+      "last_seen": "2026-02-20T13:53:19Z"
     },
     {
       "id": "c46d412db795037e2d8c785113d2f2c588d224cb",
@@ -263,6 +303,16 @@
       "last_seen": "2026-02-20T07:40:51Z"
     },
     {
+      "id": "34f170b37250d42d5630c60d4db84899f7b91568",
+      "title": "Emerging Chiplet Designs Spark Fresh Cybersecurity Challenges",
+      "link": "https://www.darkreading.com/cyber-risk/emerging-chiplet-designs-spark-fresh-cybersecurity-challenges",
+      "date": "2026-02-19T23:17:19Z",
+      "description": "As scaled-down circuits with limited functions redefine computing for AI systems and autonomous vehicles, their flexibility demands new approaches to safeguard critical infrastructure.",
+      "source": "darkreading.com",
+      "first_seen": "2026-02-20T13:53:19Z",
+      "last_seen": "2026-02-20T13:53:19Z"
+    },
+    {
       "id": "f22cfbc1d04ad28408dd9fead475cfc2928aa030",
       "title": "ZDI-CAN-28762: Flowise",
       "link": "http://www.zerodayinitiative.com/advisories/upcoming/",
@@ -270,7 +320,7 @@
       "description": "A CVSS score 8.1 AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H severity vulnerability discovered by 'Nicholas Zubrisky (@NZubrisky) of TrendAI Research' was reported to the affected vendor on: 2026-02-19, 0 days ago. The vendor is given until 2026-06-19 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
       "source": "zerodayinitiative.com",
       "first_seen": "2026-02-20T01:07:55Z",
-      "last_seen": "2026-02-20T12:33:28Z"
+      "last_seen": "2026-02-20T13:53:19Z"
     },
     {
       "id": "b2799e1e930da2c746b89303eee143074cad6220",
@@ -280,7 +330,7 @@
       "description": "A CVSS score 7.8 AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H severity vulnerability discovered by 'Jan-Niklas Sohn' was reported to the affected vendor on: 2026-02-19, 0 days ago. The vendor is given until 2026-06-19 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
       "source": "zerodayinitiative.com",
       "first_seen": "2026-02-20T04:05:31Z",
-      "last_seen": "2026-02-20T12:33:28Z"
+      "last_seen": "2026-02-20T13:53:19Z"
     },
     {
       "id": "ca0ac8f338c6f7c6e9e0a1894114b765f4186db9",
@@ -290,7 +340,7 @@
       "description": "A CVSS score 7.8 AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H severity vulnerability discovered by 'Mat Powell of TrendAI Zero Day Initiative' was reported to the affected vendor on: 2026-02-19, 0 days ago. The vendor is given until 2026-06-19 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
       "source": "zerodayinitiative.com",
       "first_seen": "2026-02-20T04:05:31Z",
-      "last_seen": "2026-02-20T12:33:28Z"
+      "last_seen": "2026-02-20T13:53:19Z"
     }
   ]
 }

@@ -1,7 +1,28 @@
 {
-  "last_updated": "2026-02-20T12:33:28Z",
+  "last_updated": "2026-02-20T13:53:19Z",
   "count": 40,
   "items": [
+    {
+      "title": "PayPal discloses data breach that exposed user info for 6 months",
+      "link": "https://www.bleepingcomputer.com/news/security/paypal-discloses-data-breach-exposing-users-personal-information/",
+      "date": "2026-02-20T13:12:01Z",
+      "description": "PayPal is notifying customers of a data breach after a software error in a loan application exposed their sensitive personal information, including Social Security numbers, for nearly 6 months last year. [...]",
+      "source": "bleepingcomputer.com"
+    },
+    {
+      "title": "CharlieKirk Grabber Stealer Attacking Windows Systems to Exfiltrate Login Credentials",
+      "link": "https://cybersecuritynews.com/charliekirk-grabber-stealer-attacking-windows-systems/",
+      "date": "2026-02-20T13:05:29Z",
+      "description": "A new Python-based infostealer called CharlieKirk Grabber has been identified targeting Windows systems, with a focused goal of stealing stored login credentials, browser cookies, and session data. The malware is built to work as a “smash-and-grab” threat — it launches quickly, collects whatever sensitive data it can find, and disappears before the user notices anything […] The post CharlieKirk…",
+      "source": "cybersecuritynews.com"
+    },
+    {
+      "title": "Critical Jenkins Vulnerability Exposes Build Environments to XSS Attacks",
+      "link": "https://cybersecuritynews.com/jenkins-vulnerability-exposes-xss-attacks/",
+      "date": "2026-02-20T12:36:58Z",
+      "description": "Security Advisory has revealed multiple vulnerabilities in Jenkins Core, including a stored Cross-Site Scripting (XSS) flaw that could expose build environments to severe security risks. The issues, identified as CVE-2026-27099 and CVE-2026-27100, were responsibly disclosed under the Jenkins Bug Bounty Program sponsored by the European Commission. The most critical of the two, tracked as…",
+      "source": "cybersecuritynews.com"
+    },
     {
       "title": "BeyondTrust Vulnerability Exploited in Ransomware Attacks",
       "link": "https://www.securityweek.com/beyondtrust-vulnerability-exploited-in-ransomware-attacks/",
@@ -15,6 +36,13 @@
       "date": "2026-02-20T12:06:07Z",
       "description": "Apache Tomcat has disclosed CVE-2026-24733, a Low-severity security constraint bypass that can be triggered via HTTP/0.9 requests when certain access-control rules are configured in a specific way. The Apache Tomcat security team identified the issue, and the original advisory was published on 2026-02-17. At a high level, the vulnerability stems from Tomcat not restricting HTTP/0.9 […] The post…",
       "source": "cybersecuritynews.com"
+    },
+    {
+      "title": "ClickFix Campaign Abuses Compromised Sites to Deploy MIMICRAT RAT",
+      "link": "https://thehackernews.com/2026/02/clickfix-campaign-abuses-compromised.html",
+      "date": "2026-02-20T11:55:00Z",
+      "description": "Cybersecurity researchers have disclosed details of a new ClickFix campaign that abuses compromised legitimate sites to deliver a previously undocumented remote access trojan (RAT) called MIMICRAT (aka AstarionRAT). \"The campaign demonstrates a high level of operational sophistication: compromised sites spanning multiple industries and geographies serve as delivery infrastructure, a multi-stage",
+      "source": "thehackernews.com"
     },
     {
       "title": "Critical Vulnerabilities in VS Code Extensions Threaten 128 Million Developer Environments",
@@ -38,25 +66,11 @@
       "source": "cybersecuritynews.com"
     },
     {
-      "title": "PoC Released for Critical Chrome 0-day Vulnerability Exploited in the Wild",
-      "link": "https://cybersecuritynews.com/chrome-0-day-vulnerability-poc/",
-      "date": "2026-02-20T11:21:08Z",
-      "description": "A public proof-of-concept exploit has been released for CVE-2026-2441, a critical use-after-free zero-day vulnerability in Google Chrome’s Blink CSS engine that Google confirmed is being actively exploited in the wild. Security researcher Shaheen Fazim reported the flaw on February 11, 2026, and Google issued an emergency patch just two days later. Classified as Chrome’s first […] The post PoC…",
-      "source": "cybersecuritynews.com"
-    },
-    {
       "title": "FBI: $20 Million Losses Caused by 700 ATM Jackpotting Attacks in 2025",
       "link": "https://www.securityweek.com/fbi-20-million-losses-caused-by-700-atm-jackpotting-attacks-in-2025/",
       "date": "2026-02-20T11:05:26Z",
       "description": "The FBI has confirmed that the Ploutus malware, which has been around for over a decade, is still being used in the wild. The post FBI: $20 Million Losses Caused by 700 ATM Jackpotting Attacks in 2025 appeared first on SecurityWeek.",
       "source": "securityweek.com"
-    },
-    {
-      "title": "Silicon Valley Engineers Charged With Stealing Trade Secrets From Google and Other Tech Companies",
-      "link": "https://cybersecuritynews.com/silicon-valley-engineers-charged/",
-      "date": "2026-02-20T11:04:03Z",
-      "description": "Three Silicon Valley engineers have been indicted for allegedly stealing confidential technology data from Google and other major companies and transferring that information to unauthorized locations, including Iran. The defendants Samaneh Ghandali (41), Mohammadjavad “Mohammad” Khosravi (40), and Soroor Ghandali (32), all residents of San Jose, were arrested and appeared before a federal court…",
-      "source": "cybersecuritynews.com"
     },
     {
       "title": "Identity Cyber Scores: The New Metric Shaping Cyber Insurance in 2026",
@@ -115,6 +129,13 @@
       "source": "thehackernews.com"
     },
     {
+      "title": "Emerging Chiplet Designs Spark Fresh Cybersecurity Challenges",
+      "link": "https://www.darkreading.com/cyber-risk/emerging-chiplet-designs-spark-fresh-cybersecurity-challenges",
+      "date": "2026-02-19T23:17:19Z",
+      "description": "As scaled-down circuits with limited functions redefine computing for AI systems and autonomous vehicles, their flexibility demands new approaches to safeguard critical infrastructure.",
+      "source": "darkreading.com"
+    },
+    {
       "title": "PromptSpy is the first known Android malware to use generative AI at runtime",
       "link": "https://www.bleepingcomputer.com/news/security/promptspy-is-the-first-known-android-malware-to-use-generative-ai-at-runtime/",
       "date": "2026-02-19T22:36:25Z",
@@ -143,20 +164,6 @@
       "source": "darkreading.com"
     },
     {
-      "title": "PromptSpy Android Malware Abuses Gemini AI to Automate Recent-Apps Persistence",
-      "link": "https://thehackernews.com/2026/02/promptspy-android-malware-abuses-google.html",
-      "date": "2026-02-19T17:52:00Z",
-      "description": "Cybersecurity researchers have discovered what they say is the first Android malware that abuses Gemini, Google's generative artificial intelligence (AI) chatbot, as part of its execution flow and achieves persistence. The malware has been codenamed PromptSpy by ESET. The malware is equipped to capture lockscreen data, block uninstallation efforts, gather device information, take screenshots,",
-      "source": "thehackernews.com"
-    },
-    {
-      "title": "Flaw in Grandstream VoIP phones allows stealthy eavesdropping",
-      "link": "https://www.bleepingcomputer.com/news/security/flaw-in-grandstream-voip-phones-allows-stealthy-eavesdropping/",
-      "date": "2026-02-19T17:16:32Z",
-      "description": "A critical vulnerability in Grandstream GXP1600 series VoIP phones allows a remote, unauthenticated attacker to gain root privileges and silently eavesdrop on communications. [...]",
-      "source": "bleepingcomputer.com"
-    },
-    {
       "title": "Connected and Compromised: When IoT Devices Turn Into Threats",
       "link": "https://www.darkreading.com/iot/connected-compromised-iot-devices-turn-threats",
       "date": "2026-02-19T15:18:23Z",
@@ -169,13 +176,6 @@
       "date": "2026-02-19T15:02:58Z",
       "description": "The Ministry of Economy reported discovering unauthorized access to the national bank account registry FICOBA. The post French Government Says 1.2 Million Bank Accounts Exposed in Breach appeared first on SecurityWeek.",
       "source": "securityweek.com"
-    },
-    {
-      "title": "More Than 40% of South Africans Were Scammed in 2025",
-      "link": "https://www.darkreading.com/cybersecurity-analytics/south-africans-scammed-2025",
-      "date": "2026-02-19T07:00:00Z",
-      "description": "Survey underscores the reality that scammers follow \"scalable opportunities and low friction,\" rather than rich targets that tend to be better protected.",
-      "source": "darkreading.com"
     },
     {
       "title": "ZDI-CAN-29240: Apple",
