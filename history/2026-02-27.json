@@ -1,7 +1,27 @@
 {
   "date": "2026-02-27",
-  "count": 1,
+  "count": 3,
   "items": [
+    {
+      "id": "5fa8bb59f6cc166ee982770c49e7d33ef71a5263",
+      "title": "Claude Code Hacked to Achieve Full RCE and Hijacked Organization API keys",
+      "link": "https://cybersecuritynews.com/claude-code-hacked/",
+      "date": "2026-02-27T06:16:21Z",
+      "description": "Critical vulnerabilities in Anthropic’s Claude Code, an AI-powered command-line development tool. The flaws could allow attackers to achieve Remote Code Execution (RCE) and exfiltrate Anthropic API keys by exploiting project configuration files. The issues were reported by Check Point Research (CPR), and Anthropic has fully patched all vulnerabilities prior to public disclosure. The…",
+      "source": "cybersecuritynews.com",
+      "first_seen": "2026-02-27T06:39:16Z",
+      "last_seen": "2026-02-27T06:39:16Z"
+    },
+    {
+      "id": "ab7a78a3c4f87c220d9e2e71bb24d17f0fd8884f",
+      "title": "1 Million Records from Dutch Telco Odido Published Online After Extortion Attempt",
+      "link": "https://cybersecuritynews.com/odido-data-breach/",
+      "date": "2026-02-27T05:57:59Z",
+      "description": "A major data breach has hit Odido, one of the Netherlands’ prominent telecommunications providers, with cybercriminals publishing over one million customer records online following a failed extortion attempt in February 2026. The threat actor group ShinyHunters is believed to be behind the attack, which came to light when the perpetrators first released an initial tranche […] The post 1 Million…",
+      "source": "cybersecuritynews.com",
+      "first_seen": "2026-02-27T06:39:16Z",
+      "last_seen": "2026-02-27T06:39:16Z"
+    },
     {
       "id": "ca6644e4628984e5fd1aa56c43584cd76e34af68",
       "title": "Google API Keys Expose Private Data Silently Through Gemini",
@@ -10,7 +30,7 @@
       "description": "A critical privilege escalation vulnerability affecting Google Cloud API keys specifically how legacy public-facing keys now silently grant unauthorized access to Google’s Gemini AI endpoints, exposing private files, cached data, and billable AI usage to attackers. For over a decade, Google explicitly instructed developers to embed API keys formatted as AIza... strings directly into client-side…",
       "source": "cybersecuritynews.com",
       "first_seen": "2026-02-27T04:03:15Z",
-      "last_seen": "2026-02-27T05:43:47Z"
+      "last_seen": "2026-02-27T06:39:16Z"
     }
   ]
 }
