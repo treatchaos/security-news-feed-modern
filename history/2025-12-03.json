@@ -1,6 +1,6 @@
 {
   "date": "2025-12-03",
-  "count": 53,
+  "count": 47,
   "items": [
     {
       "id": "ad2f81caf2212cb4984f6e8476b080821f33a7a1",
@@ -463,56 +463,6 @@
       "last_seen": "2025-12-03T18:17:35Z"
     },
     {
-      "id": "5aabb2500a70875b979f537f0a36ffea456dd0e8",
-      "title": "Angular Platform Vulnerability Allows Malicious Code Execution Via Weaponized SVG Animation Files",
-      "link": "https://cybersecuritynews.com/angular-platform-vulnerability-weaponized-svg-animation-files/",
-      "date": "2025-12-03T09:51:20Z",
-      "description": "A critical Stored XSS vulnerability in Angular’s template compiler (CVE-2025-66412) allows attackers to execute arbitrary code by weaponizing SVG animation attributes. Bypassing Angular’s built-in security sanitization mechanisms and affecting applications using versions below 19.2.17, 20.3.15, or 21.0.2. The Angular template compiler includes an incomplete security schema that fails to classify…",
-      "source": "cybersecuritynews.com",
-      "first_seen": "2025-12-03T10:13:32Z",
-      "last_seen": "2025-12-03T12:22:42Z"
-    },
-    {
-      "id": "e996ab65aad4d3cff08f85f9a45558c4257007d2",
-      "title": "CISA Warns of Iskra iHUB Vulnerability Allowing Remote Device Reconfiguration",
-      "link": "https://cybersecuritynews.com/cisa-warns-of-iskra-ihub-authentication-vulnerability/",
-      "date": "2025-12-03T09:38:09Z",
-      "description": "A critical warning regarding a severe authentication vulnerability affecting Iskra’s iHUB and iHUB Lite intelligent metering gateways used in energy infrastructure worldwide. The flaw, tracked as CVE-2025-13510, carries a CVSS v4 severity score of 9.3, indicating an exploit that requires minimal technical complexity for attackers. The vulnerability stems from the absence of an authentication…",
-      "source": "cybersecuritynews.com",
-      "first_seen": "2025-12-03T10:13:32Z",
-      "last_seen": "2025-12-03T12:22:42Z"
-    },
-    {
-      "id": "9987356cc5c3615f28493302436dac128db9cda0",
-      "title": "Picklescan Bugs Allow Malicious PyTorch Models to Evade Scans and Execute Code",
-      "link": "https://thehackernews.com/2025/12/picklescan-bugs-allow-malicious-pytorch.html",
-      "date": "2025-12-03T09:30:00Z",
-      "description": "Three critical security flaws have been disclosed in an open-source utility called Picklescan that could allow malicious actors to execute arbitrary code by loading untrusted PyTorch models, effectively bypassing the tool's protections. Picklescan, developed and maintained by Matthieu Maitre (@mmaitre314), is a security scanner that's designed to parse Python pickle files and detect suspicious",
-      "source": "thehackernews.com",
-      "first_seen": "2025-12-03T10:13:32Z",
-      "last_seen": "2025-12-03T17:15:00Z"
-    },
-    {
-      "id": "4fd1d191eebe95aae354ca596e31fc433f91fe78",
-      "title": "Threat Actors Allegedly Promoting Fully Undetectable K.G.B RAT on Hacker Forums",
-      "link": "https://cybersecuritynews.com/undetectable-k-g-b-rat/",
-      "date": "2025-12-03T09:24:48Z",
-      "description": "A concerning development has emerged within the cybercriminal ecosystem as threat actors continue distributing K.G.B RAT, a remote access trojan bundled with advanced detection evasion capabilities. According to recent reports, this tool combination surfaced on underground forums and has caught the attention of security researchers worldwide. The malware package includes not only the K.G.B RAT…",
-      "source": "cybersecuritynews.com",
-      "first_seen": "2025-12-03T10:13:32Z",
-      "last_seen": "2025-12-03T11:11:11Z"
-    },
-    {
-      "id": "d8cf991591117c50ad734138e1a172409c097bdf",
-      "title": "Malicious Rust Crate Delivers OS-Specific Malware to Web3 Developer Systems",
-      "link": "https://thehackernews.com/2025/12/malicious-rust-crate-delivers-os.html",
-      "date": "2025-12-03T08:39:00Z",
-      "description": "Cybersecurity researchers have discovered a malicious Rust package that's capable of targeting Windows, macOS, and Linux systems, and features malicious functionality to stealthily execute on developer machines by masquerading as an Ethereum Virtual Machine (EVM) unit helper tool. The Rust crate, named \"evm-units,\" was uploaded to crates.io in mid-April 2025 by a user named \"ablerust,\"",
-      "source": "thehackernews.com",
-      "first_seen": "2025-12-03T10:13:32Z",
-      "last_seen": "2025-12-03T17:15:00Z"
-    },
-    {
       "id": "ddd493acafb4a3814c067e3abdd5dcaff00d1954",
       "title": "ZDI-CAN-28260: Microsoft",
       "link": "http://www.zerodayinitiative.com/advisories/upcoming/",
@@ -521,16 +471,6 @@
       "source": "zerodayinitiative.com",
       "first_seen": "2025-12-03T16:16:27Z",
       "last_seen": "2025-12-04T17:15:10Z"
-    },
-    {
-      "id": "fc53c86ade4bc27bb7ca9776781b3d9e02fd5533",
-      "title": "ChatGPT is down worldwide, conversations disappeared for users",
-      "link": "https://www.bleepingcomputer.com/news/artificial-intelligence/chatgpt-is-down-worldwide-conversations-disappeared-for-users/",
-      "date": "2025-12-02T19:52:16Z",
-      "description": "OpenAI's AI-powered ChatGPT is down worldwide with users receiving errors when attempting to access chats, with no reasons currently given. [...]",
-      "source": "bleepingcomputer.com",
-      "first_seen": "2025-12-03T10:13:32Z",
-      "last_seen": "2025-12-03T15:13:22Z"
     }
   ]
 }
