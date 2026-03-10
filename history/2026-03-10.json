@@ -1,7 +1,77 @@
 {
   "date": "2026-03-10",
-  "count": 39,
+  "count": 46,
   "items": [
+    {
+      "id": "10e3430e9d8a46c9e7d67a6690526f2f1745962a",
+      "title": "Microsoft Patch Tuesday March 2026 – 78 Vulnerabilities Fixed, Including One 0-day",
+      "link": "https://cybersecuritynews.com/microsoft-patch-tuesday-march-2026/",
+      "date": "2026-03-10T17:31:07Z",
+      "description": "Microsoft released its March 2026 Patch Tuesday security update on March 10, 2026, addressing 78 vulnerabilities across a wide range of products, including Windows, Microsoft Office, Azure, SQL Server, and .NET. The update includes one actively exploited zero-day vulnerability and multiple Critical-rated flaws demanding immediate attention from security teams. The most urgent fix this month […]…",
+      "source": "cybersecuritynews.com",
+      "first_seen": "2026-03-10T17:38:17Z",
+      "last_seen": "2026-03-10T17:38:17Z"
+    },
+    {
+      "id": "c5ffe7c13084fcc5738777f5e50fdf8f73a5097f",
+      "title": "HPE warns of critical AOS-CX flaw allowing admin password resets",
+      "link": "https://www.bleepingcomputer.com/news/security/hpe-warns-of-critical-aos-cx-flaw-allowing-admin-password-resets/",
+      "date": "2026-03-10T17:30:35Z",
+      "description": "Hewlett Packard Enterprise (HPE) has patched multiple security vulnerabilities in the Aruba Networking AOS-CX operating system, including several authentication and code execution issues. [...]",
+      "source": "bleepingcomputer.com",
+      "first_seen": "2026-03-10T17:38:17Z",
+      "last_seen": "2026-03-10T17:38:17Z"
+    },
+    {
+      "id": "1bbfa1b2ce894981414d6228d521187db16a351c",
+      "title": "Cloudflare Pingora Vulnerabilities Allows Request Smuggling & Cache Poisoning Attacks",
+      "link": "https://cybersecuritynews.com/cloudflare-pingora-vulnerabilities/",
+      "date": "2026-03-10T17:15:36Z",
+      "description": "Cloudflare has released version 0.8.0 of its open-source Pingora framework to patch three critical vulnerabilities: CVE-2026-2833, CVE-2026-2835, and CVE-2026-2836. These flaws allow HTTP request smuggling and cache poisoning, posing a severe threat to standalone Pingora deployments exposed directly to the internet. Cloudflare confirmed that its own Content Delivery Network (CDN) and customer…",
+      "source": "cybersecuritynews.com",
+      "first_seen": "2026-03-10T17:38:17Z",
+      "last_seen": "2026-03-10T17:38:17Z"
+    },
+    {
+      "id": "eddf512cf12f37d77be297bd41ff0a018294d6c9",
+      "title": "Malformed ZIP Files Allows Attackers to Bypass Antivirus and EDR Detections",
+      "link": "https://cybersecuritynews.com/malformed-zip-files-bypass-antivirus-and-edr-detections/",
+      "date": "2026-03-10T17:11:46Z",
+      "description": "A critical flaw in how antivirus and Endpoint Detection and Response (EDR) systems process archive files. Tracked as CVE-2026-0866, this weakness allows attackers to use intentionally malformed ZIP headers to sneak malicious payloads past standard security scanners entirely undetected. ZIP archives contain embedded metadata, such as version details, operational flags, and specific compression…",
+      "source": "cybersecuritynews.com",
+      "first_seen": "2026-03-10T17:38:17Z",
+      "last_seen": "2026-03-10T17:38:17Z"
+    },
+    {
+      "id": "53aa5f7146bd950b6ec6cb372a028cac4e729ec8",
+      "title": "OpenAI to Acquire Promptfoo to Fix Vulnerabilities in AI Systems",
+      "link": "https://cybersecuritynews.com/openai-to-acquire-promptfoo/",
+      "date": "2026-03-10T17:03:51Z",
+      "description": "OpenAI has announced its acquisition of Promptfoo, an artificial intelligence security platform designed to help enterprises find and fix vulnerabilities during development. This strategic move aims to secure AI systems against emerging threats, such as prompt injection and jailbreaks, before they are deployed into live business environments. Once the acquisition is finalized, OpenAI plans to…",
+      "source": "cybersecuritynews.com",
+      "first_seen": "2026-03-10T17:38:17Z",
+      "last_seen": "2026-03-10T17:38:17Z"
+    },
+    {
+      "id": "ec8b5c3a3c671b4c950c4a5d6beaee6aa4efd358",
+      "title": "Ivanti Desktop and Server Management Vulnerability Allows Attackers to Escalate Privileges",
+      "link": "https://cybersecuritynews.com/ivanti-desktop-and-server-management-vulnerability/",
+      "date": "2026-03-10T17:02:34Z",
+      "description": "Ivanti has issued a security update for its Desktop and Server Management (DSM) software, addressing a high-severity vulnerability that could allow a local authenticated attacker to escalate their privileges on affected systems. The flaw, tracked as CVE-2026-3483, carries a CVSS score of 7.8 and affects all DSM versions up to and including 2026.1. The vulnerability […] The post Ivanti Desktop…",
+      "source": "cybersecuritynews.com",
+      "first_seen": "2026-03-10T17:38:17Z",
+      "last_seen": "2026-03-10T17:38:17Z"
+    },
+    {
+      "id": "e183c8471fd40b3278f5b40952540be7166d0fa7",
+      "title": "FortiGate Devices Exploited to Breach Networks and Steal Service Account Credentials",
+      "link": "https://thehackernews.com/2026/03/fortigate-devices-exploited-to-breach.html",
+      "date": "2026-03-10T16:21:00Z",
+      "description": "Cybersecurity researchers are calling attention to a new campaign where threat actors are abusing FortiGate Next-Generation Firewall (NGFW) appliances as entry points to breach victim networks. The activity involves the exploitation of recently disclosed security vulnerabilities or weak credentials to extract configuration files containing service account credentials and network topology",
+      "source": "thehackernews.com",
+      "first_seen": "2026-03-10T17:38:17Z",
+      "last_seen": "2026-03-10T17:38:17Z"
+    },
     {
       "id": "273480b71140bc1285e5d8c51229e7c594743e19",
       "title": "KadNap Malware Infects 14,000+ Edge Devices to Power Stealth Proxy Botnet",
@@ -10,7 +80,7 @@
       "description": "Cybersecurity researchers have discovered a new malware called KadNap that's primarily targeting Asus routers to enlist them into a botnet for proxying malicious traffic. The malware, first detected in the wild in August 2025, has expanded to over 14,000 infected devices, with more than 60% of victims located in the U.S., according to the Black Lotus Labs team at Lumen. A lesser number of",
       "source": "thehackernews.com",
       "first_seen": "2026-03-10T16:45:13Z",
-      "last_seen": "2026-03-10T16:45:13Z"
+      "last_seen": "2026-03-10T17:38:17Z"
     },
     {
       "id": "c4bbfda05cc98dc6e237198b06b23c5e7202a5fb",
@@ -20,7 +90,7 @@
       "description": "Microsoft is rolling out passkey support for Microsoft Entra on Windows devices, adding phishing-resistant passwordless authentication via Windows Hello. [...]",
       "source": "bleepingcomputer.com",
       "first_seen": "2026-03-10T15:51:26Z",
-      "last_seen": "2026-03-10T16:45:13Z"
+      "last_seen": "2026-03-10T17:38:17Z"
     },
     {
       "id": "7463e1eba0e626518822b172a96ec88e1811c3ff",
@@ -30,7 +100,7 @@
       "description": "The company was created by a Claroty founder and is backed by Evolution Equity Partners, N47, and other investors. The post Kai Emerges From Stealth With $125M in Funding for AI Platform Bridging IT and OT Security appeared first on SecurityWeek.",
       "source": "securityweek.com",
       "first_seen": "2026-03-10T15:51:26Z",
-      "last_seen": "2026-03-10T16:45:13Z"
+      "last_seen": "2026-03-10T17:38:17Z"
     },
     {
       "id": "c630a575b85f1c5f13e652bbc66b70e634449105",
@@ -40,7 +110,7 @@
       "description": "Join the webinar as we examine the current OT threat landscape and move past the \"doom and gloom\" to discuss the mechanics of modern OT exposure. The post Webinar Today: Securing Fragile OT in an Exposed World appeared first on SecurityWeek.",
       "source": "securityweek.com",
       "first_seen": "2026-03-10T15:51:26Z",
-      "last_seen": "2026-03-10T16:45:13Z"
+      "last_seen": "2026-03-10T17:38:17Z"
     },
     {
       "id": "f8793a0c8018193d381716837fe35e07d58274c1",
@@ -50,7 +120,7 @@
       "description": "A newly discovered botnet malware called KadNap is targeting ASUS routers and other edge networking devices to turn them into proxies for malicious traffic. [...]",
       "source": "bleepingcomputer.com",
       "first_seen": "2026-03-10T15:51:26Z",
-      "last_seen": "2026-03-10T16:45:13Z"
+      "last_seen": "2026-03-10T17:38:17Z"
     },
     {
       "id": "80ba95040ebd51ded65ba0158ffc1d386df145f5",
@@ -60,7 +130,7 @@
       "description": "A code injection bug in FS-QUO and an insecure deserialization flaw in NetWeaver could lead to arbitrary code execution. The post SAP Patches Critical FS-QUO, NetWeaver Vulnerabilities appeared first on SecurityWeek.",
       "source": "securityweek.com",
       "first_seen": "2026-03-10T14:40:26Z",
-      "last_seen": "2026-03-10T16:45:13Z"
+      "last_seen": "2026-03-10T17:38:17Z"
     },
     {
       "id": "14011450952a9e48abdee6d96870b320f5eba3d9",
@@ -70,7 +140,7 @@
       "description": "The telecommunications equipment and services giant has blamed the incident on a third-party vendor. The post Thousands Affected by Ericsson Data Breach appeared first on SecurityWeek.",
       "source": "securityweek.com",
       "first_seen": "2026-03-10T14:40:26Z",
-      "last_seen": "2026-03-10T16:45:13Z"
+      "last_seen": "2026-03-10T17:38:17Z"
     },
     {
       "id": "e35b72ecc9caa0704b0b44a17258f1487ed9e9a5",
@@ -90,7 +160,7 @@
       "description": "Malware is evolving to evade sandboxes by pretending to be a real human behind the keyboard. The Picus Red Report 2026 shows 80% of top attacker techniques now focus on evasion and persistence, including geometry-based cursor tests and CPU timing checks. [...]",
       "source": "bleepingcomputer.com",
       "first_seen": "2026-03-10T14:40:26Z",
-      "last_seen": "2026-03-10T16:45:13Z"
+      "last_seen": "2026-03-10T17:38:17Z"
     },
     {
       "id": "afab46f1a49fdf1c9947374fffc056a32f0ea2b1",
@@ -110,7 +180,7 @@
       "description": "A campaign by Russian-speaking cyberattackers hijacks workflows to deliver security-busting malware, allowing attackers to steal data without detection.",
       "source": "darkreading.com",
       "first_seen": "2026-03-10T14:40:26Z",
-      "last_seen": "2026-03-10T16:45:13Z"
+      "last_seen": "2026-03-10T17:38:17Z"
     },
     {
       "id": "0cbce2bb9cf7889807360d11a97e4f222fb3e6a4",
@@ -120,7 +190,7 @@
       "description": "Codex Security, formerly Aardvark⁠, has found hundreds of critical vulnerabilities in tested software in the past month. The post OpenAI Rolls Out Codex Security Vulnerability Scanner appeared first on SecurityWeek.",
       "source": "securityweek.com",
       "first_seen": "2026-03-10T13:54:56Z",
-      "last_seen": "2026-03-10T16:45:13Z"
+      "last_seen": "2026-03-10T17:38:17Z"
     },
     {
       "id": "c8ec4bd00c9ec6bdeacf39a07cee01f03c00e480",
@@ -140,7 +210,7 @@
       "description": "Cybersecurity researchers have disclosed nine cross-tenant vulnerabilities in Google Looker Studio that could have permitted attackers to run arbitrary SQL queries on victims' databases and exfiltrate sensitive data within organizations' Google Cloud environments. The shortcomings have been collectively named LeakyLooker by Tenable. There is no evidence that the vulnerabilities were exploited in",
       "source": "thehackernews.com",
       "first_seen": "2026-03-10T13:54:56Z",
-      "last_seen": "2026-03-10T16:45:13Z"
+      "last_seen": "2026-03-10T17:38:17Z"
     },
     {
       "id": "fab4c01fc1660eef7b319c774b4af6982c3bcad7",
@@ -190,7 +260,7 @@
       "description": "Artificial Intelligence (AI) is no longer just a tool we talk to; it is a tool that does things for us. These are called AI Agents. They can send emails, move data, and even manage software on their own. But there is a problem. While these agents make work faster, they also open a new \"back door\" for hackers. The Problem: \"The Invisible Employee\" Think of an AI Agent like a new employee who has",
       "source": "thehackernews.com",
       "first_seen": "2026-03-10T12:35:55Z",
-      "last_seen": "2026-03-10T16:45:13Z"
+      "last_seen": "2026-03-10T17:38:17Z"
     },
     {
       "id": "23c8052d603d606777720658797af3483280f536",
@@ -200,7 +270,7 @@
       "description": "CISA flagged a high-severity Ivanti Endpoint Manager (EPM) vulnerability as actively exploited in attacks and ordered U.S. federal agencies to patch systems within three weeks. [...]",
       "source": "bleepingcomputer.com",
       "first_seen": "2026-03-10T12:35:55Z",
-      "last_seen": "2026-03-10T16:45:13Z"
+      "last_seen": "2026-03-10T17:38:17Z"
     },
     {
       "id": "61860323c355fea44d58555f935eeacd51e06902",
@@ -220,7 +290,7 @@
       "description": "You can't control when the next critical vulnerability drops. You can control how much of your environment is exposed when it does. The problem is that most teams have more internet-facing exposure than they realise. Intruder's Head of Security digs into why this happens and how teams can manage it deliberately. Time-to-exploit is shrinking The larger and less controlled your attack surface is,",
       "source": "thehackernews.com",
       "first_seen": "2026-03-10T12:35:55Z",
-      "last_seen": "2026-03-10T16:45:13Z"
+      "last_seen": "2026-03-10T17:38:17Z"
     },
     {
       "id": "aa2c4cff9b98468e0b63e557935381b1c9ed962e",

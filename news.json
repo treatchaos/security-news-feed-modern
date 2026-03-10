@@ -1,7 +1,63 @@
 {
-  "last_updated": "2026-03-10T16:45:13Z",
+  "last_updated": "2026-03-10T17:38:17Z",
   "count": 35,
   "items": [
+    {
+      "title": "Microsoft Patch Tuesday March 2026 – 78 Vulnerabilities Fixed, Including One 0-day",
+      "link": "https://cybersecuritynews.com/microsoft-patch-tuesday-march-2026/",
+      "date": "2026-03-10T17:31:07Z",
+      "description": "Microsoft released its March 2026 Patch Tuesday security update on March 10, 2026, addressing 78 vulnerabilities across a wide range of products, including Windows, Microsoft Office, Azure, SQL Server, and .NET. The update includes one actively exploited zero-day vulnerability and multiple Critical-rated flaws demanding immediate attention from security teams. The most urgent fix this month […]…",
+      "source": "cybersecuritynews.com"
+    },
+    {
+      "title": "HPE warns of critical AOS-CX flaw allowing admin password resets",
+      "link": "https://www.bleepingcomputer.com/news/security/hpe-warns-of-critical-aos-cx-flaw-allowing-admin-password-resets/",
+      "date": "2026-03-10T17:30:35Z",
+      "description": "Hewlett Packard Enterprise (HPE) has patched multiple security vulnerabilities in the Aruba Networking AOS-CX operating system, including several authentication and code execution issues. [...]",
+      "source": "bleepingcomputer.com"
+    },
+    {
+      "title": "Cloudflare Pingora Vulnerabilities Allows Request Smuggling & Cache Poisoning Attacks",
+      "link": "https://cybersecuritynews.com/cloudflare-pingora-vulnerabilities/",
+      "date": "2026-03-10T17:15:36Z",
+      "description": "Cloudflare has released version 0.8.0 of its open-source Pingora framework to patch three critical vulnerabilities: CVE-2026-2833, CVE-2026-2835, and CVE-2026-2836. These flaws allow HTTP request smuggling and cache poisoning, posing a severe threat to standalone Pingora deployments exposed directly to the internet. Cloudflare confirmed that its own Content Delivery Network (CDN) and customer…",
+      "source": "cybersecuritynews.com"
+    },
+    {
+      "title": "Malformed ZIP Files Allows Attackers to Bypass Antivirus and EDR Detections",
+      "link": "https://cybersecuritynews.com/malformed-zip-files-bypass-antivirus-and-edr-detections/",
+      "date": "2026-03-10T17:11:46Z",
+      "description": "A critical flaw in how antivirus and Endpoint Detection and Response (EDR) systems process archive files. Tracked as CVE-2026-0866, this weakness allows attackers to use intentionally malformed ZIP headers to sneak malicious payloads past standard security scanners entirely undetected. ZIP archives contain embedded metadata, such as version details, operational flags, and specific compression…",
+      "source": "cybersecuritynews.com"
+    },
+    {
+      "title": "OpenAI to Acquire Promptfoo to Fix Vulnerabilities in AI Systems",
+      "link": "https://cybersecuritynews.com/openai-to-acquire-promptfoo/",
+      "date": "2026-03-10T17:03:51Z",
+      "description": "OpenAI has announced its acquisition of Promptfoo, an artificial intelligence security platform designed to help enterprises find and fix vulnerabilities during development. This strategic move aims to secure AI systems against emerging threats, such as prompt injection and jailbreaks, before they are deployed into live business environments. Once the acquisition is finalized, OpenAI plans to…",
+      "source": "cybersecuritynews.com"
+    },
+    {
+      "title": "Ivanti Desktop and Server Management Vulnerability Allows Attackers to Escalate Privileges",
+      "link": "https://cybersecuritynews.com/ivanti-desktop-and-server-management-vulnerability/",
+      "date": "2026-03-10T17:02:34Z",
+      "description": "Ivanti has issued a security update for its Desktop and Server Management (DSM) software, addressing a high-severity vulnerability that could allow a local authenticated attacker to escalate their privileges on affected systems. The flaw, tracked as CVE-2026-3483, carries a CVSS score of 7.8 and affects all DSM versions up to and including 2026.1. The vulnerability […] The post Ivanti Desktop…",
+      "source": "cybersecuritynews.com"
+    },
+    {
+      "title": "How to Stop AI Data Leaks: A Webinar Guide to Auditing Modern Agentic Workflows",
+      "link": "https://thehackernews.com/2026/03/how-to-stop-ai-data-leaks-webinar-guide.html",
+      "date": "2026-03-10T16:21:00Z",
+      "description": "Artificial Intelligence (AI) is no longer just a tool we talk to; it is a tool that does things for us. These are called AI Agents. They can send emails, move data, and even manage software on their own. But there is a problem. While these agents make work faster, they also open a new \"back door\" for hackers. The Problem: \"The Invisible Employee\" Think of an AI Agent like a new employee who has",
+      "source": "thehackernews.com"
+    },
+    {
+      "title": "FortiGate Devices Exploited to Breach Networks and Steal Service Account Credentials",
+      "link": "https://thehackernews.com/2026/03/fortigate-devices-exploited-to-breach.html",
+      "date": "2026-03-10T16:21:00Z",
+      "description": "Cybersecurity researchers are calling attention to a new campaign where threat actors are abusing FortiGate Next-Generation Firewall (NGFW) appliances as entry points to breach victim networks. The activity involves the exploitation of recently disclosed security vulnerabilities or weak credentials to extract configuration files containing service account credentials and network topology",
+      "source": "thehackernews.com"
+    },
     {
       "title": "KadNap Malware Infects 14,000+ Edge Devices to Power Stealth Proxy Botnet",
       "link": "https://thehackernews.com/2026/03/kadnap-malware-infects-14000-edge.html",
@@ -52,25 +108,11 @@
       "source": "securityweek.com"
     },
     {
-      "title": "Kali Linux Enhances AI-driven Penetration Testing with Local Ollama, 5ire, and MCP Kali Server",
-      "link": "https://cybersecuritynews.com/kali-linux-ai-driven-penetration-testing/",
-      "date": "2026-03-10T14:11:15Z",
-      "description": "The Kali Linux team has published a new entry in its growing LLM-driven security series, this time eliminating all reliance on third-party cloud services by running large language models entirely on local hardware. The guide demonstrates how security professionals can use natural language to drive penetration testing tools, all processed on-premise, with no data leaving […] The post Kali Linux…",
-      "source": "cybersecuritynews.com"
-    },
-    {
       "title": "The New Turing Test: How Threats Use Geometry to Prove 'Humanness'",
       "link": "https://www.bleepingcomputer.com/news/security/the-new-turing-test-how-threats-use-geometry-to-prove-humanness/",
       "date": "2026-03-10T14:02:12Z",
       "description": "Malware is evolving to evade sandboxes by pretending to be a real human behind the keyboard. The Picus Red Report 2026 shows 80% of top attacker techniques now focus on evasion and persistence, including geometry-based cursor tests and CPU timing checks. [...]",
       "source": "bleepingcomputer.com"
-    },
-    {
-      "title": "CISA Warns of Ivanti Endpoint Manager Authentication Bypass Vulnerability Exploited in Attacks",
-      "link": "https://cybersecuritynews.com/ivanti-endpoint-manager-authentication-bypass/",
-      "date": "2026-03-10T13:33:46Z",
-      "description": "A serious security flaw in Ivanti Endpoint Manager has caught federal attention after the Cybersecurity and Infrastructure Security Agency (CISA) added it to the Known Exploited Vulnerabilities (KEV) catalog on March 9, 2026. Tracked as CVE-2026-1603, this authentication bypass vulnerability affects all versions of Ivanti Endpoint Manager prior to the 2024 SU5 release and enables […] The post…",
-      "source": "cybersecuritynews.com"
     },
     {
       "title": "'BlackSanta' EDR Killer Targets HR Workflows",
@@ -94,20 +136,6 @@
       "source": "thehackernews.com"
     },
     {
-      "title": "SAP Security Update – Patch for Multiple Vulnerabilities that Enable Remote Code Execution",
-      "link": "https://cybersecuritynews.com/sap-security-update-march2006/",
-      "date": "2026-03-10T11:56:59Z",
-      "description": "SAP released 15 new security notes on its March 2026 Patch Day, addressing a range of vulnerabilities across its product portfolio, including two critical-rated flaws that could enable remote code execution and complete system compromise. SAP strongly urges all customers to visit its Support Portal and prioritize patch application to safeguard their SAP landscapes. The […] The post SAP Security…",
-      "source": "cybersecuritynews.com"
-    },
-    {
-      "title": "How to Stop AI Data Leaks: A Webinar Guide to Auditing Modern Agentic Workflows",
-      "link": "https://thehackernews.com/2026/03/how-to-stop-ai-data-leaks-webinar-guide.html",
-      "date": "2026-03-10T11:45:00Z",
-      "description": "Artificial Intelligence (AI) is no longer just a tool we talk to; it is a tool that does things for us. These are called AI Agents. They can send emails, move data, and even manage software on their own. But there is a problem. While these agents make work faster, they also open a new \"back door\" for hackers. The Problem: \"The Invisible Employee\" Think of an AI Agent like a new employee who has",
-      "source": "thehackernews.com"
-    },
-    {
       "title": "CISA: Recently patched Ivanti EPM flaw now actively exploited",
       "link": "https://www.bleepingcomputer.com/news/security/cisa-recently-patched-ivanti-epm-flaw-now-actively-exploited/",
       "date": "2026-03-10T11:36:13Z",
@@ -120,34 +148,6 @@
       "date": "2026-03-10T11:00:00Z",
       "description": "You can't control when the next critical vulnerability drops. You can control how much of your environment is exposed when it does. The problem is that most teams have more internet-facing exposure than they realise. Intruder's Head of Security digs into why this happens and how teams can manage it deliberately. Time-to-exploit is shrinking The larger and less controlled your attack surface is,",
       "source": "thehackernews.com"
-    },
-    {
-      "title": "APT28 Uses BEARDSHELL and COVENANT Malware to Spy on Ukrainian Military",
-      "link": "https://thehackernews.com/2026/03/apt28-uses-beardshell-and-covenant.html",
-      "date": "2026-03-10T10:55:00Z",
-      "description": "The Russian state-sponsored hacking group tracked as APT28 has been observed using a pair of implants dubbed BEARDSHELL and COVENANT to facilitate long‑term surveillance of Ukrainian military personnel. The two malware families have been put to use since April 2024, ESET said in a new report shared with The Hacker News. APT28, also tracked as Blue Athena, BlueDelta, Fancy Bear, Fighting Ursa,",
-      "source": "thehackernews.com"
-    },
-    {
-      "title": "Leading Myanmar Fleet Management Company Yoma Fleet Selects AccuKnox SIEM to Replace Legacy Tools",
-      "link": "https://cybersecuritynews.com/leading-myanmar-fleet-management-company-yoma-fleet-selects-accuknox-siem-to-replace-legacy-tools/",
-      "date": "2026-03-10T10:42:01Z",
-      "description": "Menlo Park, USA, March 10th, 2026, CyberNewswire AccuKnox, a leading Zero Trust Cloud-Native Application Protection Platform (CNAPP), today announced that Yoma Fleet, a premier fleet management and leasing company in Myanmar, has selected AccuKnox SIEM to secure its operations and enhance its cybersecurity infrastructure. Yoma Fleet, a part of the Singapore-listed Yoma Strategic Holdings Ltd,…",
-      "source": "cybersecuritynews.com"
-    },
-    {
-      "title": "Microsoft to enable Windows hotpatch security updates by default",
-      "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-to-enable-hotpatch-security-updates-by-default-in-may/",
-      "date": "2026-03-10T10:35:33Z",
-      "description": "Microsoft will turn on hotpatch security updates by default for all eligible Windows devices managed through Microsoft Intune and the Microsoft Graph API, beginning with the May 2026 Windows security update. [...]",
-      "source": "bleepingcomputer.com"
-    },
-    {
-      "title": "OpenClaw Advisory Surge Exposes Gap Between GitHub and CVE Vulnerability Tracking",
-      "link": "https://cybersecuritynews.com/openclaw-advisory-surge-exposes-gap/",
-      "date": "2026-03-10T09:47:07Z",
-      "description": "OpenClaw, a self-hosted AI agent, rose to become GitHub’s most-starred repository weeks after its launch, drawing a large developer community and immediate researcher attention. Nobody anticipated this growth would soon become an unexpected stress test for the global vulnerability tracking ecosystem. In late February, the project began publishing security advisories at a rate few open […] The…",
-      "source": "cybersecuritynews.com"
     },
     {
       "title": "White House Cyber Strategy Prioritizes Offense",
