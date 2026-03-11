@@ -1,7 +1,28 @@
 {
-  "last_updated": "2026-03-11T05:12:39Z",
+  "last_updated": "2026-03-11T06:38:51Z",
   "count": 40,
   "items": [
+    {
+      "title": "Gogs Vulnerability Enables Attackers to Silently Overwrite Large File Storage Objects",
+      "link": "https://cybersecuritynews.com/gogs-overwrite-vulnerability/",
+      "date": "2026-03-11T05:54:27Z",
+      "description": "A critical security flaw has been discovered in a popular open-source, self-hosted Git service, allowing attackers to overwrite Large File Storage (LFS) objects secretly. Tracked as CVE-2026-25921, this maximum-severity vulnerability carries a CVSS 3.1 score of 10.0. It creates a severe risk for software supply-chain attacks. The flaw currently affects Gogs versions 0.14.1 and earlier, […] The…",
+      "source": "cybersecuritynews.com"
+    },
+    {
+      "title": "Microsoft .NET 0-Day Vulnerability Enables Denial-of-Service Attacks",
+      "link": "https://cybersecuritynews.com/microsoft-net-0-day-vulnerability/",
+      "date": "2026-03-11T05:50:58Z",
+      "description": "An emergency security update has been released to address a newly disclosed .NET Framework vulnerability, tracked as CVE-2026-26127. This security flaw allows unauthenticated, remote attackers to trigger a Denial-of-Service (DoS) condition on the network. With a CVSS score of 7.5, Microsoft has classified the vulnerability as “Important.” It affects multiple versions of .NET across Windows, […]…",
+      "source": "cybersecuritynews.com"
+    },
+    {
+      "title": "Five Malicious Rust Crates and AI Bot Exploit CI/CD Pipelines to Steal Developer Secrets",
+      "link": "https://thehackernews.com/2026/03/five-malicious-rust-crates-and-ai-bot.html",
+      "date": "2026-03-11T05:12:00Z",
+      "description": "Cybersecurity researchers have discovered five malicious Rust crates that masquerade as time-related utilities to transmit .env file data to the threat actors. The Rust packages, published to crates.io, are listed below - chrono_anchor dnp3times time_calibrator time_calibrators time-sync The crates, per Socket, impersonate timeapi.io and were published between late February and early March",
+      "source": "thehackernews.com"
+    },
     {
       "title": "Middle East Conflict Highlights Cloud Resilience Gaps",
       "link": "https://www.darkreading.com/cyber-risk/middle-east-conflict-highlights-cloud-resilience-gaps",
@@ -94,13 +115,6 @@
       "source": "cybersecuritynews.com"
     },
     {
-      "title": "Fortinet FortiManager fgtupdates Vulnerability Allows Attackers to Execute Malicious Commands",
-      "link": "https://cybersecuritynews.com/fortinet-fortimanager-fgtupdates-vulnerability/",
-      "date": "2026-03-10T18:05:46Z",
-      "description": "Fortinet has disclosed a high-severity stack-based buffer overflow vulnerability in its FortiManager platform that could allow remote unauthenticated attackers to execute unauthorized commands. Tracked as CVE-2025-54820 and assigned a CVSSv3 score of 7.0, the flaw poses a significant risk to enterprise network management environments running affected versions of FortiManager. The vulnerability…",
-      "source": "cybersecuritynews.com"
-    },
-    {
       "title": "Microsoft March 2026 Patch Tuesday fixes 2 zero-days, 79 flaws",
       "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-march-2026-patch-tuesday-fixes-2-zero-days-79-flaws/",
       "date": "2026-03-10T17:49:51Z",
@@ -113,13 +127,6 @@
       "date": "2026-03-10T17:45:32Z",
       "description": "The startup brings AI to data loss prevention to provide visibility into intent, context, and risk. The post Jazz Emerges From Stealth With $61M in Funding for AI-Powered DLP appeared first on SecurityWeek.",
       "source": "securityweek.com"
-    },
-    {
-      "title": "Microsoft Patch Tuesday March 2026 – 78 Vulnerabilities Fixed, Including One 0-day",
-      "link": "https://cybersecuritynews.com/microsoft-patch-tuesday-march-2026/",
-      "date": "2026-03-10T17:31:07Z",
-      "description": "Microsoft released its March 2026 Patch Tuesday security update on March 10, 2026, addressing 78 vulnerabilities across Windows, Microsoft Office, Azure, SQL Server, and .NET. The update includes one actively exploited zero-day vulnerability and multiple Critical-rated flaws demanding immediate attention from security teams. The most urgent fix this month is CVE-2026-21262, the sole zero-day in…",
-      "source": "cybersecuritynews.com"
     },
     {
       "title": "FortiGate Devices Exploited to Breach Networks and Steal Service Account Credentials",
@@ -168,13 +175,6 @@
       "link": "https://thehackernews.com/2026/03/new-leakylooker-flaws-in-google-looker.html",
       "date": "2026-03-10T13:20:00Z",
       "description": "Cybersecurity researchers have disclosed nine cross-tenant vulnerabilities in Google Looker Studio that could have permitted attackers to run arbitrary SQL queries on victims' databases and exfiltrate sensitive data within organizations' Google Cloud environments. The shortcomings have been collectively named LeakyLooker by Tenable. There is no evidence that the vulnerabilities were exploited in",
-      "source": "thehackernews.com"
-    },
-    {
-      "title": "The Zero-Day Scramble is Avoidable: A Guide to Attack Surface Reduction",
-      "link": "https://thehackernews.com/2026/03/the-zero-day-scramble-is-avoidable.html",
-      "date": "2026-03-10T11:00:00Z",
-      "description": "You can't control when the next critical vulnerability drops. You can control how much of your environment is exposed when it does. The problem is that most teams have more internet-facing exposure than they realise. Intruder's Head of Security digs into why this happens and how teams can manage it deliberately. Time-to-exploit is shrinking The larger and less controlled your attack surface is,",
       "source": "thehackernews.com"
     },
     {
