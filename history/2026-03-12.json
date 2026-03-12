@@ -1,7 +1,67 @@
 {
   "date": "2026-03-12",
-  "count": 7,
+  "count": 13,
   "items": [
+    {
+      "id": "a52e881fca01d85f5a3c3bcb5ec4418a9d9618f0",
+      "title": "Cisco Patches High-Severity IOS XR Vulnerabilities",
+      "link": "https://www.securityweek.com/cisco-patches-high-severity-ios-xr-vulnerabilities-2/",
+      "date": "2026-03-12T10:25:26Z",
+      "description": "The security defects could lead to denial-of-service (DoS) conditions, command execution, or device takeover. The post Cisco Patches High-Severity IOS XR Vulnerabilities appeared first on SecurityWeek.",
+      "source": "securityweek.com",
+      "first_seen": "2026-03-12T10:29:23Z",
+      "last_seen": "2026-03-12T10:29:23Z"
+    },
+    {
+      "id": "45dce2ea0c1af32c5b98cc0ae50fd66628120661",
+      "title": "Cisco IOS XR Software Vulnerability Allow Attacker to Execute Commands as Root",
+      "link": "https://cybersecuritynews.com/cisco-ios-xr-software-vulnerability-root/",
+      "date": "2026-03-12T10:19:30Z",
+      "description": "Cisco has issued a high-severity security advisory warning organizations about two critical privilege-escalation vulnerabilities in its IOS XR Software. If exploited, these flaws could allow an authenticated, local attacker to execute arbitrary commands as root or gain full administrative control over affected routing devices. Both vulnerabilities were discovered during internal security testing…",
+      "source": "cybersecuritynews.com",
+      "first_seen": "2026-03-12T10:29:23Z",
+      "last_seen": "2026-03-12T10:29:23Z"
+    },
+    {
+      "id": "63bba954797fb486af1f3f6b13be4b118f95dbd9",
+      "title": "Critical N8n Vulnerabilities Allowed Server Takeover",
+      "link": "https://www.securityweek.com/critical-n8n-vulnerabilities-allowed-server-takeover/",
+      "date": "2026-03-12T09:54:40Z",
+      "description": "The bugs allowed unauthenticated attackers to execute arbitrary code, steal credentials, and take over servers. The post Critical N8n Vulnerabilities Allowed Server Takeover appeared first on SecurityWeek.",
+      "source": "securityweek.com",
+      "first_seen": "2026-03-12T10:29:23Z",
+      "last_seen": "2026-03-12T10:29:23Z"
+    },
+    {
+      "id": "717af985ae7da77220a80a8ba832bed5a9f84044",
+      "title": "Splunk RCE Vulnerability Allows Attackers to Execute Arbitrary Shell Commands",
+      "link": "https://cybersecuritynews.com/splunk-rce-vulnerability-2/",
+      "date": "2026-03-12T09:43:33Z",
+      "description": "A critical security advisory has been released, warning users of a high-severity vulnerability affecting both Enterprise and Cloud platforms. Tracked as CVE-2026-20163, this flaw carries a CVSS score of 8.0. It enables attackers to perform Remote Command Execution (RCE) on targeted systems. The vulnerability stems from improper handling of user inputs when the system previews […] The post Splunk…",
+      "source": "cybersecuritynews.com",
+      "first_seen": "2026-03-12T10:29:23Z",
+      "last_seen": "2026-03-12T10:29:23Z"
+    },
+    {
+      "id": "7c9354a401ba013daa164cb3812933d06aa55a88",
+      "title": "Polyfill Supply Chain Attack Impacting 100k Sites Linked to North Korea",
+      "link": "https://www.securityweek.com/polyfill-supply-chain-attack-impacting-100k-sites-linked-to-north-korea/",
+      "date": "2026-03-12T09:40:59Z",
+      "description": "The 2024 incident was initially linked to China, but an infostealer infection has now revealed North Korean involvement. The post Polyfill Supply Chain Attack Impacting 100k Sites Linked to North Korea appeared first on SecurityWeek.",
+      "source": "securityweek.com",
+      "first_seen": "2026-03-12T10:29:23Z",
+      "last_seen": "2026-03-12T10:29:23Z"
+    },
+    {
+      "id": "f08a36cf63a331d14f621b1d2ac4a8ece47b6f4b",
+      "title": "SolarWinds Web Help Desk Deserialization Vulnerability Enables Command Execution",
+      "link": "https://cybersecuritynews.com/solarwinds-web-help-desk-deserialization-vulnerability/",
+      "date": "2026-03-12T09:33:10Z",
+      "description": "Cybersecurity authorities have flagged a severe security flaw in SolarWinds Web Help Desk that requires immediate attention from system administrators. Tracked as CVE-2025-26399, this vulnerability allows malicious actors to execute unauthorized commands directly on the host machine. Because of its severity and active exploitation, the Cybersecurity and Infrastructure Security Agency (CISA) has…",
+      "source": "cybersecuritynews.com",
+      "first_seen": "2026-03-12T10:29:23Z",
+      "last_seen": "2026-03-12T10:29:23Z"
+    },
     {
       "id": "c909e3bb70dda642331128fd0e09fae740b542e5",
       "title": "Six Android Malware Families Target Pix Payments, Banking Apps, and Crypto Wallets",
@@ -10,7 +70,7 @@
       "description": "Cybersecurity researchers have discovered half-a-dozen new Android malware families that come with capabilities to steal data from compromised devices and conduct financial fraud. The Android malware range from traditional banking trojans like PixRevolution, TaxiSpy RAT, BeatBanker, Mirax, and Oblivion RAT to full-fledged remote administration tools such as SURXRAT. PixRevolution, according to",
       "source": "thehackernews.com",
       "first_seen": "2026-03-12T09:33:08Z",
-      "last_seen": "2026-03-12T09:33:08Z"
+      "last_seen": "2026-03-12T10:29:23Z"
     },
     {
       "id": "279737f8d975a1edc2a9bac45090e939852b91f7",
@@ -20,7 +80,7 @@
       "description": "On March 10, 2026, Microsoft released security updates to address a critical vulnerability in its widely used Office suite. Tracked as CVE-2026-26110, this security flaw allows an unauthorized attacker to execute malicious code on a victim’s device. With a high severity rating and a CVSS base score of 8.4 out of 10, the vulnerability affects […] The post Critical Microsoft Office Vulnerability…",
       "source": "cybersecuritynews.com",
       "first_seen": "2026-03-12T07:39:19Z",
-      "last_seen": "2026-03-12T09:33:08Z"
+      "last_seen": "2026-03-12T10:29:23Z"
     },
     {
       "id": "680ffcb8f1800eb09d0d320e3e15f0157e775b81",
@@ -30,7 +90,7 @@
       "description": "GitLab has released urgent security updates for its Community Edition (CE) and Enterprise Edition (EE) to address a wide range of vulnerabilities. The newly released versions 18.9.2, 18.8.6, and 18.7.6 fix a total of 15 security issues, including critical Cross-Site Scripting (XSS) and Denial-of-Service (DoS) flaws. Administrators of self-managed instances are strongly urged to apply […] The…",
       "source": "cybersecuritynews.com",
       "first_seen": "2026-03-12T07:39:19Z",
-      "last_seen": "2026-03-12T09:33:08Z"
+      "last_seen": "2026-03-12T10:29:23Z"
     },
     {
       "id": "ed40e9d4d7564f533d030cd55c360809652c1fda",
@@ -60,7 +120,7 @@
       "description": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Wednesday added a critical security flaw impacting n8n to its Known Exploited Vulnerabilities (KEV) catalog, based on evidence of active exploitation. The vulnerability, tracked as CVE-2025-68613 (CVSS score: 9.9), concerns a case of expression injection that leads to remote code execution. The security shortcoming was patched",
       "source": "thehackernews.com",
       "first_seen": "2026-03-12T05:43:16Z",
-      "last_seen": "2026-03-12T09:33:08Z"
+      "last_seen": "2026-03-12T10:29:23Z"
     },
     {
       "id": "02fb0eb325cf2063be062e3a8461ba6b4fa70d8e",
