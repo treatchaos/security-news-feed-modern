@@ -1,7 +1,47 @@
 {
   "date": "2026-03-13",
-  "count": 6,
+  "count": 10,
   "items": [
+    {
+      "id": "d08113179b1ce362e9c8aabee0b42af887972464",
+      "title": "Chrome Zero-Day Vulnerabilities Actively Exploited in the Wild to Execute Malicious Code",
+      "link": "https://cybersecuritynews.com/chrome-zero-day-vulnerabilities-actively-exploited/",
+      "date": "2026-03-13T07:26:57Z",
+      "description": "Google has released an urgent security update for its Chrome browser after confirming that two high-severity zero-day vulnerabilities are being actively exploited in the wild. The stable channel has been updated to version 146.0.7680.75/76 for Windows and macOS, and 146.0.7680.75 for Linux, with the rollout expected to reach users over the coming days and weeks. […] The post Chrome Zero-Day…",
+      "source": "cybersecuritynews.com",
+      "first_seen": "2026-03-13T07:38:01Z",
+      "last_seen": "2026-03-13T07:38:01Z"
+    },
+    {
+      "id": "537bc6eb54bfb8f87ce585c752f4a76e6e84443f",
+      "title": "Salesforce Warns of ShinyHunters Group Exploiting Experience Cloud Sites",
+      "link": "https://cybersecuritynews.com/salesforce-warns-shinyhunters/",
+      "date": "2026-03-13T07:12:53Z",
+      "description": "A critical warning has been issued about an active threat campaign targeting misconfigured Experience Cloud sites. The notorious threat actor group ShinyHunters has claimed responsibility for a massive data theft operation exploiting overly permissive guest user configurations, reportedly impacting hundreds of high-profile organizations. According to Salesforce’s Cyber Security Operations…",
+      "source": "cybersecuritynews.com",
+      "first_seen": "2026-03-13T07:38:01Z",
+      "last_seen": "2026-03-13T07:38:01Z"
+    },
+    {
+      "id": "e20d79229e8bbf31b5282b7975bd744c526ed9e7",
+      "title": "Google fixes two new Chrome zero-days exploited in attacks",
+      "link": "https://www.bleepingcomputer.com/news/google/google-fixes-two-new-chrome-zero-days-exploited-in-attacks/",
+      "date": "2026-03-13T06:56:58Z",
+      "description": "Google has released emergency security updates to patch two high-severity Chrome vulnerabilities exploited in zero-day attacks. [...]",
+      "source": "bleepingcomputer.com",
+      "first_seen": "2026-03-13T07:38:01Z",
+      "last_seen": "2026-03-13T07:38:01Z"
+    },
+    {
+      "id": "4e9b213b406ecdd508cf025cf62443dcc0eb6741",
+      "title": "Authorities Disrupt SocksEscort Proxy Botnet Exploiting 369,000 IPs Across 163 Countries",
+      "link": "https://thehackernews.com/2026/03/authorities-disrupt-socksescort-proxy.html",
+      "date": "2026-03-13T05:26:00Z",
+      "description": "A court-authorized international law enforcement operation has dismantled a criminal proxy service named SocksEscort that enslaved thousands of residential routers worldwide into a botnet for committing large-scale fraud. \"SocksEscort infected home and small business internet routers with malware,\" the U.S. Department of Justice (DoJ) said. \"The malware allowed SocksEscort to direct internet",
+      "source": "thehackernews.com",
+      "first_seen": "2026-03-13T07:38:01Z",
+      "last_seen": "2026-03-13T07:38:01Z"
+    },
     {
       "id": "89da090ad89b5c694091889e4c2f1cb350896863",
       "title": "Veeam Patches 7 Critical Backup & Replication Flaws Allowing Remote Code Execution",
@@ -10,7 +50,7 @@
       "description": "Veeam has released security updates to address multiple critical vulnerabilities in its Backup & Replication software that, if successfully exploited, could result in remote code execution. The vulnerabilities are as follows - CVE-2026-21666 (CVSS score: 9.9) - A vulnerability that allows an authenticated domain user to perform remote code execution on the Backup Server. CVE-2026-21667 (",
       "source": "thehackernews.com",
       "first_seen": "2026-03-13T05:41:08Z",
-      "last_seen": "2026-03-13T06:38:22Z"
+      "last_seen": "2026-03-13T07:38:01Z"
     },
     {
       "id": "dc6f56a484d01aeaf91ab1f0575ebfee1d6e9c5e",
@@ -20,7 +60,7 @@
       "description": "Nine critical vulnerabilities have been discovered in AppArmor, which is a widely used mandatory access control framework for Linux. These vulnerabilities, collectively referred to as “CrackArmor,” enable unprivileged local users to escalate their privileges to root, break container isolation, and cause kernel operations to crash. This issue affects over 12.6 million enterprise Linux systems…",
       "source": "cybersecuritynews.com",
       "first_seen": "2026-03-13T05:41:08Z",
-      "last_seen": "2026-03-13T06:38:22Z"
+      "last_seen": "2026-03-13T07:38:01Z"
     },
     {
       "id": "8cfae88d6a6079097067752a056002a5d9eae332",
@@ -30,7 +70,7 @@
       "description": "A significant vulnerability in the GSSAPI Key Exchange patch was applied by numerous Linux distributions on top of their OpenSSH packages. The flaw, tracked as CVE-2026-3497, was uncovered by security researcher Jeremy Brown. It allows an attacker to crash SSH child processes reliably and potentially violates privilege separation boundaries, all with a single crafted network […] The post OpenSSH…",
       "source": "cybersecuritynews.com",
       "first_seen": "2026-03-13T04:02:33Z",
-      "last_seen": "2026-03-13T06:38:22Z"
+      "last_seen": "2026-03-13T07:38:01Z"
     },
     {
       "id": "4d86cf4b11091e3bd0bf2f78633327fa44ee12b1",
@@ -40,7 +80,7 @@
       "description": "Meta has launched a suite of advanced anti-scam tools across WhatsApp, Facebook, and Messenger to combat the growing industrialization of online fraud. These new defenses combine artificial intelligence, behavioral alerts, and global law enforcement partnerships to protect users proactively. To protect users from evolving social engineering tactics, Meta introduced specific warning mechanisms…",
       "source": "cybersecuritynews.com",
       "first_seen": "2026-03-13T04:02:33Z",
-      "last_seen": "2026-03-13T06:38:22Z"
+      "last_seen": "2026-03-13T07:38:01Z"
     },
     {
       "id": "fb48aa53a8c46f2d99699e5b0c8a8a94b313d0de",
@@ -50,7 +90,7 @@
       "description": "The post Critical 9.8 CVSS telnetd Buffer Overflow Grants Pre-Auth Root appeared first on Daily CyberSecurity. Related posts: Critical 9.4 CVSS Zephyr RTOS Flaw Exposes Millions of IoT Devices to RCE D-Link Router Flaw Allows Remote Code Execution, PoC Publishes, NO PATCH Root Access for All: Critical Auth Bypass Hits Cisco Firewall Management Center",
       "source": "securityonline.info",
       "first_seen": "2026-03-13T01:08:33Z",
-      "last_seen": "2026-03-13T06:38:22Z"
+      "last_seen": "2026-03-13T07:38:01Z"
     },
     {
       "id": "abd45dc55e0f292abd2e4ec2146f8b2147f94bc9",
@@ -60,7 +100,7 @@
       "description": "StrongDM, which injects ephemeral, real-time credentials into developer workflows, will enable Delinea to offer privilege access management across cloud, SaaS, Kubernetes, and database environments.",
       "source": "darkreading.com",
       "first_seen": "2026-03-13T04:02:33Z",
-      "last_seen": "2026-03-13T06:38:22Z"
+      "last_seen": "2026-03-13T07:38:01Z"
     }
   ]
 }
