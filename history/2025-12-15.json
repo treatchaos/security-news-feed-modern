@@ -1,6 +1,6 @@
 {
   "date": "2025-12-15",
-  "count": 24,
+  "count": 19,
   "items": [
     {
       "id": "eb32f18361e98fd75312d297065f09de923d8df8",
@@ -183,26 +183,6 @@
       "last_seen": "2025-12-15T16:17:42Z"
     },
     {
-      "id": "ac6c3d65d951d4881fcdfcdb4775cbbf9b69151e",
-      "title": "Critical pgAdmin Vulnerability Let Attackers Execute Shell Commands on the Host",
-      "link": "https://cybersecuritynews.com/pgadmin-vulnerability-shell-commands/",
-      "date": "2025-12-15T15:13:04Z",
-      "description": "A severe security vulnerability has been uncovered in pgAdmin 4, the popular open-source PostgreSQL database management tool. Tracked as CVE-2025-13780, this critical flaw allows attackers to bypass security filters and execute arbitrary shell commands on the host server. The issue stems from the application’s plain-text restore feature, which failed to block dangerous commands hidden in […] The…",
-      "source": "cybersecuritynews.com",
-      "first_seen": "2025-12-15T15:16:13Z",
-      "last_seen": "2025-12-15T16:17:42Z"
-    },
-    {
-      "id": "c282d54e15a4d93e05693fbadb39ff7258a02cd2",
-      "title": "Microsoft Recent Update Breaks VPS Access for Windows Subsystem for Linux Users",
-      "link": "https://cybersecuritynews.com/windows-update-breaks-vps-access/",
-      "date": "2025-12-15T15:10:16Z",
-      "description": "Microsoft’s October 2025 non-security update is disrupting virtual private server (VPS) access for Windows Subsystem for Linux (WSL) users, particularly those relying on third-party VPNs for enterprise connectivity. Released on October 28, 2025, as KB5067036, the update targets OS builds 26200.7019 and 26100.7019 (preview). Users report “No route to host” errors in WSL’s mirrored networking […]…",
-      "source": "cybersecuritynews.com",
-      "first_seen": "2025-12-15T15:16:13Z",
-      "last_seen": "2025-12-15T16:17:42Z"
-    },
-    {
       "id": "9a128bab9d5230a3ccb81ab86bcd731a4faadcb9",
       "title": "2025’s Top Phishing Trends and What They Mean for Your Security Strategy",
       "link": "https://www.bleepingcomputer.com/news/security/2025s-top-phishing-trends-and-what-they-mean-for-your-security-strategy/",
@@ -211,36 +191,6 @@
       "source": "bleepingcomputer.com",
       "first_seen": "2025-12-15T16:17:42Z",
       "last_seen": "2025-12-15T23:11:44Z"
-    },
-    {
-      "id": "889d2561f173dd0768fce681a298be2af58adad5",
-      "title": "Microsoft: Recent Windows updates break VPN access for WSL users",
-      "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-recent-windows-updates-cause-wsl-networking-issues/",
-      "date": "2025-12-15T14:34:31Z",
-      "description": "Microsoft says that recent Windows 11 security updates are causing VPN networking failures for enterprise users running Windows Subsystem for Linux. [...]",
-      "source": "bleepingcomputer.com",
-      "first_seen": "2025-12-15T15:16:13Z",
-      "last_seen": "2025-12-15T22:11:56Z"
-    },
-    {
-      "id": "5ad245d9b3bd43d880ff4fd8c017ba49e6b8d743",
-      "title": "FreePBX Patches Critical SQLi, File-Upload, and AUTHTYPE Bypass Flaws Enabling RCE",
-      "link": "https://thehackernews.com/2025/12/freepbx-authentication-bypass-exposed.html",
-      "date": "2025-12-15T14:32:00Z",
-      "description": "Multiple security vulnerabilities have been disclosed in the open-source private branch exchange (PBX) platform FreePBX, including a critical flaw that could result in an authentication bypass under certain configurations. The shortcomings, discovered by Horizon3.ai and reported to the project maintainers on September 15, 2025, are listed below - CVE-2025-61675 (CVSS score: 8.6) - Numerous",
-      "source": "thehackernews.com",
-      "first_seen": "2025-12-15T15:16:13Z",
-      "last_seen": "2025-12-16T11:11:35Z"
-    },
-    {
-      "id": "9c8a2fb60f6a3837d342df7219dcf709d7af4c48",
-      "title": "Wireshark 4.6.2 Released With Fix for Vulnerabilities, and Updated Protocol Support",
-      "link": "https://cybersecuritynews.com/wireshark-4-6-2-released/",
-      "date": "2025-12-15T14:20:34Z",
-      "description": "Wireshark 4.6.2, the latest version of the leading open-source network protocol analyzer, addresses critical crash vulnerabilities and plugin compatibility issues. This maintenance release prioritizes stability for users in troubleshooting and security analysis.​ Developers patched two denial-of-service vulnerabilities identified in recent dissectors. The HTTP3 dissector crash (CVE-2025-13945)…",
-      "source": "cybersecuritynews.com",
-      "first_seen": "2025-12-15T15:16:13Z",
-      "last_seen": "2025-12-15T15:16:13Z"
     }
   ]
 }
