@@ -1,7 +1,35 @@
 {
-  "last_updated": "2026-03-17T16:54:43Z",
+  "last_updated": "2026-03-17T17:53:13Z",
   "count": 40,
   "items": [
+    {
+      "title": "Glassworm Hits Popular React Native Packages With Credential-Stealing npm Malware",
+      "link": "https://cybersecuritynews.com/glassworm-hits-popular-react-native-packages/",
+      "date": "2026-03-17T17:49:12Z",
+      "description": "A coordinated supply chain attack struck the developer community on March 16, 2026, when a threat actor known as Glassworm backdoored two widely used React Native npm packages, turning them into silent credential and cryptocurrency stealers. The affected packages — react-native-country-select@0.3.91 and react-native-international-phone-number@0.11.8 — were published within minutes of each other…",
+      "source": "cybersecuritynews.com"
+    },
+    {
+      "title": "Simple Custom Font Rendering Can Poison ChatGPT, Claude, Gemini, and Other AI Systems",
+      "link": "https://cybersecuritynews.com/custom-font-poison-ai-systems/",
+      "date": "2026-03-17T17:23:22Z",
+      "description": "A novel attack technique that exploits a fundamental blind spot in AI web assistants the gap between what a browser renders for a user and what an AI tool actually reads from the underlying HTML. Using nothing more than a custom font file and basic CSS, attackers can silently deliver malicious instructions to users while […] The post Simple Custom Font Rendering Can Poison ChatGPT, Claude,…",
+      "source": "cybersecuritynews.com"
+    },
+    {
+      "title": "How to Shop Online Safely While Finding Better Deals",
+      "link": "https://cybersecuritynews.com/shop-online-safely-better-deals/",
+      "date": "2026-03-17T17:04:25Z",
+      "description": "With the rapid growth of e-commerce and mobile payments, online shopping has become an essential part of everyday life for many people. Consumers now purchase everything from electronics and household products to digital services through online platforms. While this convenience has made shopping faster and more accessible, it has also introduced new cybersecurity challenges. Fake […] The post…",
+      "source": "cybersecuritynews.com"
+    },
+    {
+      "title": "AI Flaws in Amazon Bedrock, LangSmith, and SGLang Enable Data Exfiltration and RCE",
+      "link": "https://thehackernews.com/2026/03/ai-flaws-in-amazon-bedrock-langsmith.html",
+      "date": "2026-03-17T16:39:00Z",
+      "description": "Cybersecurity researchers have disclosed details of a new method for exfiltrating sensitive data from artificial intelligence (AI) code execution environments using domain name system (DNS) queries. In a report published Monday, BeyondTrust revealed that Amazon Bedrock AgentCore Code Interpreter's sandbox mode permits outbound DNS queries that an attacker can exploit to enable interactive shells",
+      "source": "thehackernews.com"
+    },
     {
       "title": "Tech Giants Invest $12.5 Million in Open Source Security",
       "link": "https://www.securityweek.com/tech-giants-invest-12-5-million-in-open-source-security/",
@@ -38,13 +66,6 @@
       "source": "darkreading.com"
     },
     {
-      "title": "Attackers Use SEO Poisoning and Signed Trojans to Steal VPN Credentials",
-      "link": "https://cybersecuritynews.com/attackers-use-seo-poisoning-and-signed-trojans/",
-      "date": "2026-03-17T15:06:00Z",
-      "description": "A financially motivated threat actor known as Storm-2561 has been running a credential theft campaign since May 2025, manipulating search engine rankings to push fake VPN software toward enterprise users. The campaign targets employees searching for tools such as Pulse Secure, Fortinet, and Ivanti, redirecting them to spoofed websites that serve malicious download packages. Once […] The post…",
-      "source": "cybersecuritynews.com"
-    },
-    {
       "title": "LeakNet Ransomware Uses ClickFix via Hacked Sites, Deploys Deno In-Memory Loader",
       "link": "https://thehackernews.com/2026/03/leaknet-ransomware-uses-clickfix-via.html",
       "date": "2026-03-17T14:34:00Z",
@@ -52,25 +73,11 @@
       "source": "thehackernews.com"
     },
     {
-      "title": "Kubernetes CSI Driver for NFS Vulnerability Lets Attackers Delete or Modify NFS Server Directories",
-      "link": "https://cybersecuritynews.com/kubernetes-csi-driver-nfs-vulnerability/",
-      "date": "2026-03-17T14:24:27Z",
-      "description": "A path traversal vulnerability has been identified in the Kubernetes Container Storage Interface (CSI) Driver for NFS, potentially allowing attackers to delete or modify unintended directories on NFS servers. The flaw stems from insufficient validation of the subDir parameter in volume identifiers, exposing clusters that permit users to create PersistentVolumes referencing the NFS CSI driver.…",
-      "source": "cybersecuritynews.com"
-    },
-    {
       "title": "Surf AI Raises $57 Million for Agentic Security Operations Platform",
       "link": "https://www.securityweek.com/surf-ai-raises-57-million-for-agentic-security-operations-platform/",
       "date": "2026-03-17T14:21:43Z",
       "description": "The company has announced its launch, backed by funding from Accel, Cyberstarts, and Boldstart Ventures. The post Surf AI Raises $57 Million for Agentic Security Operations Platform appeared first on SecurityWeek.",
       "source": "securityweek.com"
-    },
-    {
-      "title": "New Windows 11 25H2/24H2 Update Fixes Bluetooth Devices Visibility Issues",
-      "link": "https://cybersecuritynews.com/windows-11-bluetooth-visibility-bug/",
-      "date": "2026-03-17T14:03:44Z",
-      "description": "Microsoft has rolled out an out-of-band update for Windows 11 users to address a frustrating interface bug affecting Bluetooth device visibility. Released on March 16, 2026, this emergency patch resolves a software glitch in which connected wireless peripherals mysteriously disappeared from the operating system’s settings menus. While Microsoft typically issues security and performance fixes on…",
-      "source": "cybersecuritynews.com"
     },
     {
       "title": "Top 5 Things CISOs Need to Do Today to Secure AI Agents",
@@ -90,7 +97,7 @@
       "title": "Microsoft stops force-installing the Microsoft 365 Copilot app",
       "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-stops-force-installing-the-microsoft-365-copilot-app/",
       "date": "2026-03-17T13:54:37Z",
-      "description": "Microsoft has stopped automatically installing the Microsoft 365 Copilot app on Windows devices outside the European Economic Area (EEA) that have the Microsoft 365 desktop client apps. [...]",
+      "description": "Microsoft has stopped automatically installing the Microsoft 365 Copilot app on Windows devices that have the Microsoft 365 desktop client apps. [...]",
       "source": "bleepingcomputer.com"
     },
     {
@@ -162,13 +169,6 @@
       "date": "2026-03-16T20:28:19Z",
       "description": "Discover how Franz Regul, former CISO for the Paris 2024 Olympics, tackled unique cybersecurity challenges to protect the Games from evolving threats.",
       "source": "darkreading.com"
-    },
-    {
-      "title": "GlassWorm Attack Uses Stolen GitHub Tokens to Force-Push Malware Into Python Repos",
-      "link": "https://thehackernews.com/2026/03/glassworm-attack-uses-stolen-github.html",
-      "date": "2026-03-16T19:37:00Z",
-      "description": "The GlassWorm malware campaign is being used to fuel an ongoing attack that leverages the stolen GitHub tokens to inject malware into hundreds of Python repositories. \"The attack targets Python projects — including Django apps, ML research code, Streamlit dashboards, and PyPI packages — by appending obfuscated code to files like setup.py, main.py, and app.py,\" StepSecurity said. \"Anyone who runs",
-      "source": "thehackernews.com"
     },
     {
       "title": "Attackers Abuse LiveChat to Phish Credit Card, Personal Data",
