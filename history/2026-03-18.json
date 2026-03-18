@@ -1,7 +1,27 @@
 {
   "date": "2026-03-18",
-  "count": 9,
+  "count": 12,
   "items": [
+    {
+      "id": "a75b0d5421f60b4bdda0a5a218b89df2cf4028b5",
+      "title": "Boggy Serpens Targets Diplomats and Critical Infrastructure in Multi-Wave Espionage Campaign",
+      "link": "https://cybersecuritynews.com/boggy-serpens-targets-diplomats/",
+      "date": "2026-03-18T09:07:28Z",
+      "description": "A well-resourced Iranian nation-state group known as Boggy Serpens — also tracked as MuddyWater — has sharply escalated its cyberespionage operations, running sustained and targeted campaigns against diplomatic missions, energy companies, maritime operators, and financial institutions. Attributed to Iran’s Ministry of Intelligence and Security (MOIS), the group has been active since at least…",
+      "source": "cybersecuritynews.com",
+      "first_seen": "2026-03-18T09:42:13Z",
+      "last_seen": "2026-03-18T09:42:13Z"
+    },
+    {
+      "id": "2670384189a16c29650ca07f090dcdcda937176d",
+      "title": "Attackers Abuse Court Documents, GitHub Payloads to Infect Judicial Targets With COVERT RAT",
+      "link": "https://cybersecuritynews.com/attackers-abuse-court-documents-targets-with-covert-rat/",
+      "date": "2026-03-18T08:40:24Z",
+      "description": "A new wave of targeted attacks is quietly hitting Argentina’s judicial system, using fake court documents to lure legal professionals into installing a dangerous piece of malware. The campaign, formally called Operation Covert Access, deploys a Rust-built Remote Access Trojan known as COVERT RAT via spear-phishing emails that closely mimic genuine federal court communications. Once […] The post…",
+      "source": "cybersecuritynews.com",
+      "first_seen": "2026-03-18T09:42:13Z",
+      "last_seen": "2026-03-18T09:42:13Z"
+    },
     {
       "id": "edafe38313ff2b1a85579e75c18b153367602f2c",
       "title": "Microsoft to Stop Force Installation of 365 Copilot App on Windows Devices",
@@ -10,7 +30,17 @@
       "description": "Microsoft has temporarily halted the automatic installation of the Microsoft 365 Copilot app on Windows devices. According to a recent update in the Microsoft 365 Message Center on March 16, 2026, the company paused the mandatory rollout, originally scheduled to be completed late last year. This change directly affects IT administrators and global system deployment […] The post Microsoft to Stop…",
       "source": "cybersecuritynews.com",
       "first_seen": "2026-03-18T08:36:15Z",
-      "last_seen": "2026-03-18T08:36:15Z"
+      "last_seen": "2026-03-18T09:42:13Z"
+    },
+    {
+      "id": "3c733cd37ea8ae16be0d14f305dc4e29709fceae",
+      "title": "Ubuntu CVE-2026-3888 Bug Lets Attackers Gain Root via systemd Cleanup Timing Exploit",
+      "link": "https://thehackernews.com/2026/03/ubuntu-cve-2026-3888-bug-lets-attackers.html",
+      "date": "2026-03-18T08:08:00Z",
+      "description": "A high-severity security flaw affecting default installations of Ubuntu Desktop versions 24.04 and later could be exploited to escalate privileges to the root level. Tracked as CVE-2026-3888 (CVSS score: 7.8), the issue could allow an attacker to seize control of a susceptible system. \"This flaw (CVE-2026-3888) allows an unprivileged local attacker to escalate privileges to full root access",
+      "source": "thehackernews.com",
+      "first_seen": "2026-03-18T09:42:13Z",
+      "last_seen": "2026-03-18T09:42:13Z"
     },
     {
       "id": "517a5891251e705bc26ba466092ee87785b25710",
@@ -20,7 +50,7 @@
       "description": "The post Critical Craft CMS Flaw Grants Instant Admin Access appeared first on Daily CyberSecurity. Related posts: Critical 9.8 CVSS telnetd Buffer Overflow Grants Pre-Auth Root Windows 11 Privilege Escalation Flaws Uncovered: CVE-2025-24076 and CVE-2025-24994 Critical CVE-2025-1976 Vulnerability in Brocade Fabric OS Actively Exploited",
       "source": "securityonline.info",
       "first_seen": "2026-03-18T08:36:15Z",
-      "last_seen": "2026-03-18T08:36:15Z"
+      "last_seen": "2026-03-18T09:42:13Z"
     },
     {
       "id": "46f80cdf15346cc3ead391a8b6983304729c90bd",
@@ -30,7 +60,7 @@
       "description": "A high-severity Windows vulnerability dubbed “RegPwn” (CVE-2026-24291) is an elevation-of-privilege flaw that allows low-privileged users to gain full SYSTEM access. The MDSec red team discovered the vulnerability and successfully used it in internal engagements since January 2025, before it was addressed in a recent Microsoft Patch Tuesday update. The attack targets the way Windows manages […]…",
       "source": "cybersecuritynews.com",
       "first_seen": "2026-03-18T08:36:15Z",
-      "last_seen": "2026-03-18T08:36:15Z"
+      "last_seen": "2026-03-18T09:42:13Z"
     },
     {
       "id": "f664b2823e83670fda1e19abd416db5a51a249f7",
@@ -40,7 +70,7 @@
       "description": "A critical SQL injection vulnerability in Fortinet’s FortiClient Endpoint Management Server (EMS). Tracked as CVE-2026-21643, this severe flaw carries a CVSS score of 9.1. It allows unauthenticated attackers to execute arbitrary SQL commands and access sensitive database information. The issue specifically affects FortiClient EMS version 7.4.4 when multi-tenant mode is active. The root cause…",
       "source": "cybersecuritynews.com",
       "first_seen": "2026-03-18T07:45:09Z",
-      "last_seen": "2026-03-18T08:36:15Z"
+      "last_seen": "2026-03-18T09:42:13Z"
     },
     {
       "id": "bd0fbbdd1ef0431e7f55d3de1ecf1155e98128ac",
@@ -60,7 +90,7 @@
       "description": "Apple on Tuesday released its first round of Background Security Improvements to address a security flaw in WebKit that affects iOS, iPadOS, and macOS. The vulnerability, tracked as CVE-2026-20643 (CVSS score: N/A), has been described as a cross-origin issue in WebKit's Navigation API that could be exploited to bypass the same-origin policy when processing maliciously crafted web content. The",
       "source": "thehackernews.com",
       "first_seen": "2026-03-18T07:45:09Z",
-      "last_seen": "2026-03-18T08:36:15Z"
+      "last_seen": "2026-03-18T09:42:13Z"
     },
     {
       "id": "fead87e297b506707736689f369f805d02d33cfb",
@@ -70,7 +100,7 @@
       "description": "Cybersecurity researchers have disclosed a critical security flaw impacting the GNU InetUtils telnet daemon (telnetd) that could be exploited by an unauthenticated remote attacker to execute arbitrary code with elevated privileges. The vulnerability, tracked as CVE-2026-32746, carries a CVSS score of 9.8 out of 10.0. It has been described as a case of out-of-bounds write in the LINEMODE Set",
       "source": "thehackernews.com",
       "first_seen": "2026-03-18T05:56:21Z",
-      "last_seen": "2026-03-18T08:36:15Z"
+      "last_seen": "2026-03-18T09:42:13Z"
     },
     {
       "id": "5a7d3c6fe94715a84c268d700d0eb78a83427000",
@@ -90,7 +120,7 @@
       "description": "Apple has released its first Background Security Improvements update to fix a WebKit flaw tracked as CVE-2026-20643 on iPhones, iPads, and Macs without requiring a full operating system upgrade. [...]",
       "source": "bleepingcomputer.com",
       "first_seen": "2026-03-18T01:14:39Z",
-      "last_seen": "2026-03-18T08:36:15Z"
+      "last_seen": "2026-03-18T09:42:13Z"
     }
   ]
 }
