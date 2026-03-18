@@ -1,13 +1,27 @@
 {
-  "last_updated": "2026-03-18T06:52:59Z",
+  "last_updated": "2026-03-18T07:45:09Z",
   "count": 40,
   "items": [
+    {
+      "title": "Critical FortiClient SQL Injection Vulnerability Enables Arbitrary Database Access",
+      "link": "https://cybersecuritynews.com/forticlient-sql-injection-vulnerability/",
+      "date": "2026-03-18T07:40:38Z",
+      "description": "A critical SQL injection vulnerability in Fortinet’s FortiClient Endpoint Management Server (EMS). Tracked as CVE-2026-21643, this severe flaw carries a CVSS score of 9.1. It allows unauthenticated attackers to execute arbitrary SQL commands and access sensitive database information. The issue specifically affects FortiClient EMS version 7.4.4 when multi-tenant mode is active. The root cause…",
+      "source": "cybersecuritynews.com"
+    },
     {
       "title": "Ubuntu Desktop Systems Vulnerability Enables Attackers to Gain Full Root Access",
       "link": "https://cybersecuritynews.com/ubuntu-desktop-systems-vulnerability/",
       "date": "2026-03-18T06:37:52Z",
       "description": "A Local Privilege Escalation (LPE) vulnerability in default installations of Ubuntu Desktop 24.04 and later allows an unprivileged local attacker to gain full root access. Tracked as CVE-2026-3888, uncovered by The Qualys Threat Research Unit, the flaw exploits an unintended interaction between two standard system components, snap-confine and systemd-tmpfiles, making it particularly dangerous…",
       "source": "cybersecuritynews.com"
+    },
+    {
+      "title": "Apple Fixes WebKit Vulnerability Enabling Same-Origin Policy Bypass on iOS and macOS",
+      "link": "https://thehackernews.com/2026/03/apple-fixes-webkit-vulnerability.html",
+      "date": "2026-03-18T06:31:00Z",
+      "description": "Apple on Tuesday released its first round of Background Security Improvements to address a security flaw in WebKit that affects iOS, iPadOS, and macOS. The vulnerability, tracked as CVE-2026-20643 (CVSS score: N/A), has been described as a cross-origin issue in WebKit's Navigation API that could be exploited to bypass the same-origin policy when processing maliciously crafted web content. The",
+      "source": "thehackernews.com"
     },
     {
       "title": "Critical Unpatched Telnetd Flaw (CVE-2026-32746) Enables Unauthenticated Root RCE via Port 23",
@@ -77,13 +91,6 @@
       "link": "https://cybersecuritynews.com/google-warns-ransomware-actors-are-shifting/",
       "date": "2026-03-17T18:08:07Z",
       "description": "The ransomware threat landscape entered a new phase in 2025. Once a highly reliable criminal business model built on encrypting victim files and collecting ransom payments, it is now under significant financial pressure. Ransom payment rates have hit historic lows, average demands have dropped sharply, and organizations are recovering from attacks more effectively than in […] The post Google…",
-      "source": "cybersecuritynews.com"
-    },
-    {
-      "title": "Glassworm Hits Popular React Native Packages With Credential-Stealing npm Malware",
-      "link": "https://cybersecuritynews.com/glassworm-hits-popular-react-native-packages/",
-      "date": "2026-03-17T17:49:12Z",
-      "description": "A coordinated supply chain attack struck the developer community on March 16, 2026, when a threat actor known as Glassworm backdoored two widely used React Native npm packages, turning them into silent credential and cryptocurrency stealers. The affected packages — react-native-country-select@0.3.91 and react-native-international-phone-number@0.11.8 — were published within minutes of each other…",
       "source": "cybersecuritynews.com"
     },
     {
@@ -161,13 +168,6 @@
       "link": "https://thehackernews.com/2026/03/ai-is-everywhere-but-cisos-are-still.html",
       "date": "2026-03-17T11:30:00Z",
       "description": "A majority of security leaders are struggling to defend AI systems with tools and skills that are not fit for the challenge, according to the AI and Adversarial Testing Benchmark Report 2026 from Pentera. The report, based on a survey of 300 US CISOs and senior security leaders, examines how organizations are securing AI infrastructure and highlights critical gaps tied to skills shortages and",
-      "source": "thehackernews.com"
-    },
-    {
-      "title": "Konni Deploys EndRAT Through Phishing, Uses KakaoTalk to Propagate Malware",
-      "link": "https://thehackernews.com/2026/03/konni-deploys-endrat-through-spear.html",
-      "date": "2026-03-17T09:53:00Z",
-      "description": "North Korean threat actors have been observed sending phishing to compromise targets and obtain access to a victim's KakaoTalk desktop application to distribute malicious payloads to certain contacts. The activity has been attributed by South Korean threat intelligence firm Genians to a hacking group referred to as Konni. \"Initial access was achieved through a spear-phishing email disguised as a",
       "source": "thehackernews.com"
     },
     {

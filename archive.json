@@ -1,7 +1,7 @@
 {
-  "last_updated": "2026-03-18T06:52:59Z",
+  "last_updated": "2026-03-18T07:45:09Z",
   "retention_days": 90,
-  "count": 3351,
+  "count": 3350,
   "items": [
     {
       "id": "1c2d4175617aa3be94d732d3224345239555d13e",
@@ -34,6 +34,16 @@
       "last_seen": "2026-02-10T14:15:59Z"
     },
     {
+      "id": "f664b2823e83670fda1e19abd416db5a51a249f7",
+      "title": "Critical FortiClient SQL Injection Vulnerability Enables Arbitrary Database Access",
+      "link": "https://cybersecuritynews.com/forticlient-sql-injection-vulnerability/",
+      "date": "2026-03-18T07:40:38Z",
+      "description": "A critical SQL injection vulnerability in Fortinet’s FortiClient Endpoint Management Server (EMS). Tracked as CVE-2026-21643, this severe flaw carries a CVSS score of 9.1. It allows unauthenticated attackers to execute arbitrary SQL commands and access sensitive database information. The issue specifically affects FortiClient EMS version 7.4.4 when multi-tenant mode is active. The root cause…",
+      "source": "cybersecuritynews.com",
+      "first_seen": "2026-03-18T07:45:09Z",
+      "last_seen": "2026-03-18T07:45:09Z"
+    },
+    {
       "id": "bd0fbbdd1ef0431e7f55d3de1ecf1155e98128ac",
       "title": "Ubuntu Desktop Systems Vulnerability Enables Attackers to Gain Full Root Access",
       "link": "https://cybersecuritynews.com/ubuntu-desktop-systems-vulnerability/",
@@ -41,7 +51,17 @@
       "description": "A Local Privilege Escalation (LPE) vulnerability in default installations of Ubuntu Desktop 24.04 and later allows an unprivileged local attacker to gain full root access. Tracked as CVE-2026-3888, uncovered by The Qualys Threat Research Unit, the flaw exploits an unintended interaction between two standard system components, snap-confine and systemd-tmpfiles, making it particularly dangerous…",
       "source": "cybersecuritynews.com",
       "first_seen": "2026-03-18T06:52:59Z",
-      "last_seen": "2026-03-18T06:52:59Z"
+      "last_seen": "2026-03-18T07:45:09Z"
+    },
+    {
+      "id": "ae9ffa30c31b93e85354e563bba2af530816fc16",
+      "title": "Apple Fixes WebKit Vulnerability Enabling Same-Origin Policy Bypass on iOS and macOS",
+      "link": "https://thehackernews.com/2026/03/apple-fixes-webkit-vulnerability.html",
+      "date": "2026-03-18T06:31:00Z",
+      "description": "Apple on Tuesday released its first round of Background Security Improvements to address a security flaw in WebKit that affects iOS, iPadOS, and macOS. The vulnerability, tracked as CVE-2026-20643 (CVSS score: N/A), has been described as a cross-origin issue in WebKit's Navigation API that could be exploited to bypass the same-origin policy when processing maliciously crafted web content. The",
+      "source": "thehackernews.com",
+      "first_seen": "2026-03-18T07:45:09Z",
+      "last_seen": "2026-03-18T07:45:09Z"
     },
     {
       "id": "fead87e297b506707736689f369f805d02d33cfb",
@@ -51,7 +71,7 @@
       "description": "Cybersecurity researchers have disclosed a critical security flaw impacting the GNU InetUtils telnet daemon (telnetd) that could be exploited by an unauthenticated remote attacker to execute arbitrary code with elevated privileges. The vulnerability, tracked as CVE-2026-32746, carries a CVSS score of 9.8 out of 10.0. It has been described as a case of out-of-bounds write in the LINEMODE Set",
       "source": "thehackernews.com",
       "first_seen": "2026-03-18T05:56:21Z",
-      "last_seen": "2026-03-18T06:52:59Z"
+      "last_seen": "2026-03-18T07:45:09Z"
     },
     {
       "id": "5a7d3c6fe94715a84c268d700d0eb78a83427000",
@@ -61,7 +81,7 @@
       "description": "Microsoft Detection and Response Team details a sophisticated voice phishing (vishing) campaign that successfully compromised a corporate environment in November 2025. Unlike conventional intrusions that rely on software exploits, this attack weaponized trust, collaboration platforms, and built-in Windows tooling to gain initial access. The threat actor initiated the campaign by impersonating IT…",
       "source": "cybersecuritynews.com",
       "first_seen": "2026-03-18T04:13:38Z",
-      "last_seen": "2026-03-18T06:52:59Z"
+      "last_seen": "2026-03-18T07:45:09Z"
     },
     {
       "id": "d95b3ce62c89385fea1e41dc0f7e7a24fb3d771b",
@@ -71,7 +91,7 @@
       "description": "Apple has released its first Background Security Improvements update to fix a WebKit flaw tracked as CVE-2026-20643 on iPhones, iPads, and Macs without requiring a full operating system upgrade. [...]",
       "source": "bleepingcomputer.com",
       "first_seen": "2026-03-18T01:14:39Z",
-      "last_seen": "2026-03-18T06:52:59Z"
+      "last_seen": "2026-03-18T07:45:09Z"
     },
     {
       "id": "d36d92ecc1e38b0130f73e36a91354c9afcdbe60",
@@ -81,7 +101,7 @@
       "description": "Credential theft soared in the second half of 2025, thanks in part to the industrialization of infostealer malware and AI-enabled social engineering.",
       "source": "darkreading.com",
       "first_seen": "2026-03-17T23:22:17Z",
-      "last_seen": "2026-03-18T06:52:59Z"
+      "last_seen": "2026-03-18T07:45:09Z"
     },
     {
       "id": "1ca55430c21c34bfb1ab60948271614327a51d66",
@@ -91,7 +111,7 @@
       "description": "The GlassWorm supply-chain campaign has returned with a new, coordinated attack that targeted hundreds of packages, repositories, and extensions on GitHub, npm, and VSCode/OpenVSX extensions. [...]",
       "source": "bleepingcomputer.com",
       "first_seen": "2026-03-17T22:22:46Z",
-      "last_seen": "2026-03-18T06:52:59Z"
+      "last_seen": "2026-03-18T07:45:09Z"
     },
     {
       "id": "fa94efe8d2c826b1bcc532c19d521a5e45be5299",
@@ -101,7 +121,7 @@
       "description": "Ransomware actors are ditching Cobalt Strike in favor of native Windows tools, as payment rates hit record lows and data theft surges.",
       "source": "darkreading.com",
       "first_seen": "2026-03-17T22:22:46Z",
-      "last_seen": "2026-03-18T06:52:59Z"
+      "last_seen": "2026-03-18T07:45:09Z"
     },
     {
       "id": "99097e902b504a960469108e5a4dc296bc3c3972",
@@ -111,7 +131,7 @@
       "description": "In an unsuccessful phishing attack, threat actors leveraged trusted brands and domains to try to redirect a C-suite executive at Outpost24 to give up his credentials.",
       "source": "darkreading.com",
       "first_seen": "2026-03-17T20:28:31Z",
-      "last_seen": "2026-03-18T06:52:59Z"
+      "last_seen": "2026-03-18T07:45:09Z"
     },
     {
       "id": "bae2d31856c9b17d81863bc08d4c1ceba6a0bc23",
@@ -121,7 +141,7 @@
       "description": "The European Union Council has announced sanctions against three entities and two individuals for their involvement in cyberattacks targeting critical infrastructure in the region. [...]",
       "source": "bleepingcomputer.com",
       "first_seen": "2026-03-17T18:46:20Z",
-      "last_seen": "2026-03-18T06:52:59Z"
+      "last_seen": "2026-03-18T07:45:09Z"
     },
     {
       "id": "1d8761fa72ed048c706c5fd05ede7bf7cc37abec",
@@ -131,7 +151,7 @@
       "description": "Iran’s cyber operations took a sharp turn in early 2026, with state-linked threat actors quietly embedding themselves inside US and Canadian networks while also targeting internet-connected surveillance cameras across the Middle East for battlefield intelligence. The Iranian APT group MuddyWater, tied to Iran’s Ministry of Intelligence and Security (MOIS), maintained unauthorized access to…",
       "source": "cybersecuritynews.com",
       "first_seen": "2026-03-17T18:46:20Z",
-      "last_seen": "2026-03-18T06:52:59Z"
+      "last_seen": "2026-03-18T07:45:09Z"
     },
     {
       "id": "041acaee92e5dccecb1f23f0251d337449e016b0",
@@ -141,7 +161,7 @@
       "description": "The ransomware threat landscape entered a new phase in 2025. Once a highly reliable criminal business model built on encrypting victim files and collecting ransom payments, it is now under significant financial pressure. Ransom payment rates have hit historic lows, average demands have dropped sharply, and organizations are recovering from attacks more effectively than in […] The post Google…",
       "source": "cybersecuritynews.com",
       "first_seen": "2026-03-17T18:46:20Z",
-      "last_seen": "2026-03-18T06:52:59Z"
+      "last_seen": "2026-03-18T07:45:09Z"
     },
     {
       "id": "59e35d6b885ffe0692cd17f2143543ba6318c787",
@@ -181,7 +201,7 @@
       "description": "Cybersecurity researchers have disclosed details of a new method for exfiltrating sensitive data from artificial intelligence (AI) code execution environments using domain name system (DNS) queries. In a report published Monday, BeyondTrust revealed that Amazon Bedrock AgentCore Code Interpreter's sandbox mode permits outbound DNS queries that an attacker can exploit to enable interactive shells",
       "source": "thehackernews.com",
       "first_seen": "2026-03-17T17:53:13Z",
-      "last_seen": "2026-03-18T06:52:59Z"
+      "last_seen": "2026-03-18T07:45:09Z"
     },
     {
       "id": "076352f4c29a0447e2443f539120c2070d98fff1",
@@ -191,7 +211,7 @@
       "description": "Anthropic, AWS, Google, Microsoft, and OpenAI fund the Linux Foundation’s long-term security initiatives focused on open source software. The post Tech Giants Invest $12.5 Million in Open Source Security appeared first on SecurityWeek.",
       "source": "securityweek.com",
       "first_seen": "2026-03-17T16:54:43Z",
-      "last_seen": "2026-03-18T06:52:59Z"
+      "last_seen": "2026-03-18T07:45:09Z"
     },
     {
       "id": "79a79328aa94a754962b1c4d6047b69e6c448296",
@@ -211,7 +231,7 @@
       "description": "The government agency confirmed the vulnerability could have been exploited to obtain company details and alter records. The post UK Companies House Exposed Details of Millions of Firms appeared first on SecurityWeek.",
       "source": "securityweek.com",
       "first_seen": "2026-03-17T15:54:24Z",
-      "last_seen": "2026-03-18T06:52:59Z"
+      "last_seen": "2026-03-18T07:45:09Z"
     },
     {
       "id": "c609e3ae547713a8bd7cadc5f6854d96e7e8957d",
@@ -231,7 +251,7 @@
       "description": "In a recent attack, the group showcased stealthier cross-network activity, thanks to its use of a new BYOVD technique and other tools.",
       "source": "darkreading.com",
       "first_seen": "2026-03-17T16:54:43Z",
-      "last_seen": "2026-03-18T06:52:59Z"
+      "last_seen": "2026-03-18T07:45:09Z"
     },
     {
       "id": "ffee9223348646a2b094cb40bba07157494a0a94",
@@ -251,7 +271,7 @@
       "description": "The ransomware operation known as LeakNet has adopted the ClickFix social engineering tactic delivered through compromised websites as an initial access method. The use of ClickFix, where users are tricked into manually running malicious commands to address non-existent errors, is a departure from relying on traditional methods for obtaining initial access, such as through stolen credentials",
       "source": "thehackernews.com",
       "first_seen": "2026-03-17T15:54:24Z",
-      "last_seen": "2026-03-18T06:52:59Z"
+      "last_seen": "2026-03-18T07:45:09Z"
     },
     {
       "id": "f2a16b8403657454893aa39c027c6bc7442020e9",
@@ -271,7 +291,7 @@
       "description": "The company has announced its launch, backed by funding from Accel, Cyberstarts, and Boldstart Ventures. The post Surf AI Raises $57 Million for Agentic Security Operations Platform appeared first on SecurityWeek.",
       "source": "securityweek.com",
       "first_seen": "2026-03-17T15:54:24Z",
-      "last_seen": "2026-03-18T06:52:59Z"
+      "last_seen": "2026-03-18T07:45:09Z"
     },
     {
       "id": "07e10c4c197ebfd2bc6730162fe1e5b07f74de7a",
@@ -291,7 +311,7 @@
       "description": "AI agents are autonomous actors with real access to data and systems, not just copilots. Token Security explains why identity-based access control is critical to prevent misuse and data exposure. [...]",
       "source": "bleepingcomputer.com",
       "first_seen": "2026-03-17T14:13:00Z",
-      "last_seen": "2026-03-18T06:52:59Z"
+      "last_seen": "2026-03-18T07:45:09Z"
     },
     {
       "id": "deb964953a2ce2c12aa39a8d871cf4ee9e8f43b5",
@@ -321,7 +341,7 @@
       "description": "A new font-rendering attack causes AI assistants to miss malicious commands shown on webpages by hiding them in seemingly harmless HTML. [...]",
       "source": "bleepingcomputer.com",
       "first_seen": "2026-03-17T14:13:00Z",
-      "last_seen": "2026-03-18T06:52:59Z"
+      "last_seen": "2026-03-18T07:45:09Z"
     },
     {
       "id": "0c0adcf97d327cd434163281854fc20e9823ef2a",
@@ -361,7 +381,7 @@
       "description": "The company says some of its internal business applications were accessed after an employee fell victim to a phishing attack. The post Robotic Surgery Giant Intuitive Discloses Cyberattack appeared first on SecurityWeek.",
       "source": "securityweek.com",
       "first_seen": "2026-03-17T14:13:00Z",
-      "last_seen": "2026-03-18T06:52:59Z"
+      "last_seen": "2026-03-18T07:45:09Z"
     },
     {
       "id": "26707b8aea37b5699912b35fa39d375fef6d7320",
@@ -381,7 +401,7 @@
       "description": "The botnet has increased its activity, peaking at 15,000 exploitation attempts per day, and taking a more targeted approach. The post 174 Vulnerabilities Targeted by RondoDox Botnet appeared first on SecurityWeek.",
       "source": "securityweek.com",
       "first_seen": "2026-03-17T12:43:59Z",
-      "last_seen": "2026-03-18T06:52:59Z"
+      "last_seen": "2026-03-18T07:45:09Z"
     },
     {
       "id": "2324e5b34a10dea65698fb937f2e5308733b1c91",
@@ -431,7 +451,7 @@
       "description": "A majority of security leaders are struggling to defend AI systems with tools and skills that are not fit for the challenge, according to the AI and Adversarial Testing Benchmark Report 2026 from Pentera. The report, based on a survey of 300 US CISOs and senior security leaders, examines how organizations are securing AI infrastructure and highlights critical gaps tied to skills shortages and",
       "source": "thehackernews.com",
       "first_seen": "2026-03-17T11:36:32Z",
-      "last_seen": "2026-03-18T06:52:59Z"
+      "last_seen": "2026-03-18T07:45:09Z"
     },
     {
       "id": "f04308c7a8d3450ceec008ca894a2d92c9f9d5ae",
@@ -591,7 +611,7 @@
       "description": "Researchers uncovered an extensive cyber espionage campaign that used novel backdoors and familiar evasion techniques to maintain persistent access to regional targets.",
       "source": "darkreading.com",
       "first_seen": "2026-03-17T01:10:31Z",
-      "last_seen": "2026-03-18T06:52:59Z"
+      "last_seen": "2026-03-18T07:45:09Z"
     },
     {
       "id": "0c583f0c918da7e2cc8b9cee5bed171333013082",
@@ -841,7 +861,7 @@
       "description": "The post Root of the Problem: Sudo Flaw Exposes Linux Systems to Local Privilege Escalation appeared first on Daily CyberSecurity. Related posts: Privilege Escalation in guix-daemon: Critical Vulnerabilities Threaten Multi-User Systems Details Exposed: High-Severity Aruba VIA Root Flaw Publicly Disclosed Critical Auth Bypass in Apache Artemis: Attackers Can Hijack Message Queues",
       "source": "securityonline.info",
       "first_seen": "2026-03-16T12:45:20Z",
-      "last_seen": "2026-03-18T06:52:59Z"
+      "last_seen": "2026-03-18T07:45:09Z"
     },
     {
       "id": "d650d9a6b0f4b9b55098450983e10c00dd892468",
@@ -1601,7 +1621,7 @@
       "description": "A CVSS score 7.3 AV:L/AC:L/PR:L/UI:R/S:U/C:H/I:H/A:H severity vulnerability discovered by 'Anonymous' was reported to the affected vendor on: 2026-03-13, 0 days ago. The vendor is given until 2026-07-11 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
       "source": "zerodayinitiative.com",
       "first_seen": "2026-03-13T21:23:39Z",
-      "last_seen": "2026-03-18T06:52:59Z"
+      "last_seen": "2026-03-18T07:45:09Z"
     },
     {
       "id": "d30769e3ddce2b25ebfad4a468655e4ef4af59a5",
@@ -1611,7 +1631,7 @@
       "description": "A CVSS score 7.5 AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N severity vulnerability discovered by 'Ahmed Y. Elmogy' was reported to the affected vendor on: 2026-03-13, 0 days ago. The vendor is given until 2026-07-11 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
       "source": "zerodayinitiative.com",
       "first_seen": "2026-03-13T21:23:39Z",
-      "last_seen": "2026-03-18T06:52:59Z"
+      "last_seen": "2026-03-18T07:45:09Z"
     },
     {
       "id": "e6b99eeb7a691608c54fddd4726a802b75b04b63",
@@ -1621,7 +1641,7 @@
       "description": "A CVSS score 5.5 AV:N/AC:L/PR:H/UI:N/S:U/C:N/I:L/A:H severity vulnerability discovered by 'Ahmed Y. Elmogy' was reported to the affected vendor on: 2026-03-13, 0 days ago. The vendor is given until 2026-07-11 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
       "source": "zerodayinitiative.com",
       "first_seen": "2026-03-13T21:23:39Z",
-      "last_seen": "2026-03-18T06:52:59Z"
+      "last_seen": "2026-03-18T07:45:09Z"
     },
     {
       "id": "3d0fd40e1b32cf172bbe932e07250ff5e66ab8d0",
@@ -1631,7 +1651,7 @@
       "description": "A CVSS score 7.2 AV:N/AC:L/PR:H/UI:N/S:U/C:H/I:H/A:H severity vulnerability discovered by 'Ahmed Y. Elmogy' was reported to the affected vendor on: 2026-03-13, 0 days ago. The vendor is given until 2026-07-11 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
       "source": "zerodayinitiative.com",
       "first_seen": "2026-03-13T21:23:39Z",
-      "last_seen": "2026-03-18T06:52:59Z"
+      "last_seen": "2026-03-18T07:45:09Z"
     },
     {
       "id": "0018cb3e9ae764d5200c874c3b5354ced2b61c57",
@@ -1641,7 +1661,7 @@
       "description": "A CVSS score 5.5 AV:N/AC:L/PR:H/UI:N/S:U/C:N/I:L/A:H severity vulnerability discovered by 'Ahmed Y. Elmogy' was reported to the affected vendor on: 2026-03-13, 0 days ago. The vendor is given until 2026-07-11 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
       "source": "zerodayinitiative.com",
       "first_seen": "2026-03-13T21:23:39Z",
-      "last_seen": "2026-03-18T06:52:59Z"
+      "last_seen": "2026-03-18T07:45:09Z"
     },
     {
       "id": "89da090ad89b5c694091889e4c2f1cb350896863",
@@ -1691,7 +1711,7 @@
       "description": "The post Critical 9.8 CVSS telnetd Buffer Overflow Grants Pre-Auth Root appeared first on Daily CyberSecurity. Related posts: Critical 9.4 CVSS Zephyr RTOS Flaw Exposes Millions of IoT Devices to RCE Stream Hijacked: Critical Zero-Click Command Injection Flaw Exposed in AVideo-Encoder Home Network Alert: TP-Link Patches RCE Vulnerability in Archer AXE75 Routers",
       "source": "securityonline.info",
       "first_seen": "2026-03-13T01:08:33Z",
-      "last_seen": "2026-03-18T06:52:59Z"
+      "last_seen": "2026-03-18T07:45:09Z"
     },
     {
       "id": "5f82888c5e66c698d472d48753046366f1da4625",
@@ -3641,7 +3661,7 @@
       "description": "The post Industrial Alert: Urgent Apache IoTDB Patches Fix RCE and “Open Door” Default Flaws appeared first on Daily CyberSecurity. Related posts: Three Vulnerabilities Expose Apache IoTDB to Attacks Siemens Security Alert: Critical Vulnerabilities in SENTRON 7KT PAC1260 Data Manager Researchers Detail Critical Vulnerability in AI-as-a-Service Provider Replicate",
       "source": "securityonline.info",
       "first_seen": "2026-03-09T05:50:25Z",
-      "last_seen": "2026-03-18T06:52:59Z"
+      "last_seen": "2026-03-18T07:45:09Z"
     },
     {
       "id": "1ac6d963065856637fcdba0ce586f617ad39faa9",
@@ -5411,7 +5431,7 @@
       "description": "The post Critical Auth Bypass in Apache Artemis: Attackers Can Hijack Message Queues appeared first on Daily CyberSecurity. Related posts: Unpatched 0-Days (CVSS 10): Versa Concerto Flaws Threaten Enterprise Networks Print Security Warning: Canon Printers Exposed to Data Theft Critical SSRF Flaw in Esri Portal for ArcGIS Exposes Internal Networks",
       "source": "securityonline.info",
       "first_seen": "2026-03-04T03:59:14Z",
-      "last_seen": "2026-03-18T06:52:59Z"
+      "last_seen": "2026-03-18T07:45:09Z"
     },
     {
       "id": "f7014e15fc215886d3d994bc2dbc590ee2a9b618",
@@ -7391,7 +7411,7 @@
       "description": "The post Critical 9.9 Severity Flaws Expose Centreon Servers to Remote Takeover appeared first on Daily CyberSecurity. Related posts: PoC Exploit Released for Nagios XI RCE Flaw Allows Attackers to Hijack Servers HPE Aruba Patches High-Severity RCE and OpenSSL Flaws Critical Flaw in Juniper PTX Routers: Unauthenticated Root Access Discovered",
       "source": "securityonline.info",
       "first_seen": "2026-02-26T10:35:26Z",
-      "last_seen": "2026-03-18T06:52:59Z"
+      "last_seen": "2026-03-18T07:45:09Z"
     },
     {
       "id": "703ee5e439526b02799c134409c704e5da01f876",
@@ -33364,26 +33384,6 @@
       "last_seen": "2025-12-18T17:15:47Z"
     },
     {
-      "id": "1145ba40db0418f1c31c863b776ba8654903c1be",
-      "title": "China-Linked Hackers Exploiting Zero-Day in Cisco Security Gear",
-      "link": "https://www.securityweek.com/china-linked-hackers-exploiting-zero-day-in-cisco-security-gear/",
-      "date": "2025-12-18T07:12:31Z",
-      "description": "The critical zero-day is tracked as CVE-2025-20393 and it impacts Secure Email Gateway and Secure Email and Web Manager appliances. The post China-Linked Hackers Exploiting Zero-Day in Cisco Security Gear appeared first on SecurityWeek.",
-      "source": "securityweek.com",
-      "first_seen": "2025-12-18T07:15:12Z",
-      "last_seen": "2025-12-18T12:22:53Z"
-    },
-    {
-      "id": "d84788abef1b65f2ac1a82819bbc83290e5214c3",
-      "title": "Let’s Encrypt Unveils New “Generation Y” Root and 45-Day Certificates",
-      "link": "https://cybersecuritynews.com/lets-encrypt-unveils-new-generation-y-root/",
-      "date": "2025-12-18T06:26:30Z",
-      "description": "Let’s Encrypt, the nonprofit certificate authority powering free TLS/SSL certificates for millions of websites, announced sweeping updates to its issuance policies. The changes introduce a new “Generation Y” root hierarchy, deprecate TLS client authentication, and progressively shorten certificate lifetimes to align with CA/Browser Forum requirements. To ensure a smooth transition, Let’s Encrypt…",
-      "source": "cybersecuritynews.com",
-      "first_seen": "2025-12-18T07:15:12Z",
-      "last_seen": "2025-12-18T09:17:42Z"
-    },
-    {
       "id": "eba213fc579c76d916568fb954cbbf0561d7eb3e",
       "title": "ZDI-CAN-25440: IceWarp",
       "link": "http://www.zerodayinitiative.com/advisories/upcoming/",
@@ -33454,16 +33454,6 @@
       "last_seen": "2025-12-18T12:22:53Z"
     },
     {
-      "id": "7b016774efc830f43628b02fdb112d750ba9b24b",
-      "title": "Hacker Conversations: Alex Hall, One-Time Fraudster",
-      "link": "https://www.securityweek.com/hacker-conversations-alex-hall-one-time-fraudster/",
-      "date": "2025-12-17T13:00:00Z",
-      "description": "A first-person journey from undetected fraud to defending trust—how life events, neurodiversity, and hard-won insight shaped a former fraudster into a fraud fighter. The post Hacker Conversations: Alex Hall, One-Time Fraudster appeared first on SecurityWeek.",
-      "source": "securityweek.com",
-      "first_seen": "2025-12-18T07:15:12Z",
-      "last_seen": "2025-12-18T10:13:04Z"
-    },
-    {
       "id": "664df53292fd50e8b1e7bf61d1267fe95047525f",
       "title": "Student Loan Breach Exposes 2.5M Records",
       "link": "https://threatpost.com/student-loan-breach-exposes-2-5m-records/180492/",
@@ -33471,7 +33461,7 @@
       "description": "2.5 million people were affected, in a breach that could spell more trouble down the line.",
       "source": "threatpost.com",
       "first_seen": "2026-02-09T11:38:39Z",
-      "last_seen": "2026-03-18T06:52:59Z"
+      "last_seen": "2026-03-18T07:45:09Z"
     },
     {
       "id": "4140c7a34b0ba94ad2e6b0cae9f59b0cb9bfffea",
@@ -33481,7 +33471,7 @@
       "description": "Researchers uncover a watering hole attack likely carried out by APT TA423, which attempts to plant the ScanBox JavaScript-based reconnaissance tool.",
       "source": "threatpost.com",
       "first_seen": "2026-02-09T11:38:39Z",
-      "last_seen": "2026-03-18T06:52:59Z"
+      "last_seen": "2026-03-18T07:45:09Z"
     },
     {
       "id": "9359ee40a641a4b565080313045f1d7e7fe6552b",
@@ -33491,7 +33481,7 @@
       "description": "Over 130 companies tangled in sprawling phishing campaign that spoofed a multi-factor authentication system.",
       "source": "threatpost.com",
       "first_seen": "2026-02-09T11:38:39Z",
-      "last_seen": "2026-03-18T06:52:59Z"
+      "last_seen": "2026-03-18T07:45:09Z"
     },
     {
       "id": "b4ccef0737cd4050d65241bf754072030b6b5e6a",
@@ -33501,7 +33491,7 @@
       "description": "Lockbit is by far this summer’s most prolific ransomware group, trailed by two offshoots of the Conti group.",
       "source": "threatpost.com",
       "first_seen": "2026-02-09T11:38:39Z",
-      "last_seen": "2026-03-18T06:52:59Z"
+      "last_seen": "2026-03-18T07:45:09Z"
     },
     {
       "id": "12ee113fc8fce91f6d7fb28deab2b1ad20061ec7",
@@ -33511,7 +33501,7 @@
       "description": "Tens of thousands of cameras have failed to patch a critical, 11-month-old CVE, leaving thousands of organizations exposed.",
       "source": "threatpost.com",
       "first_seen": "2026-02-09T11:38:39Z",
-      "last_seen": "2026-03-18T06:52:59Z"
+      "last_seen": "2026-03-18T07:45:09Z"
     }
   ]
 }

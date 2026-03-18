@@ -1,7 +1,17 @@
 {
   "date": "2026-03-18",
-  "count": 4,
+  "count": 6,
   "items": [
+    {
+      "id": "f664b2823e83670fda1e19abd416db5a51a249f7",
+      "title": "Critical FortiClient SQL Injection Vulnerability Enables Arbitrary Database Access",
+      "link": "https://cybersecuritynews.com/forticlient-sql-injection-vulnerability/",
+      "date": "2026-03-18T07:40:38Z",
+      "description": "A critical SQL injection vulnerability in Fortinet’s FortiClient Endpoint Management Server (EMS). Tracked as CVE-2026-21643, this severe flaw carries a CVSS score of 9.1. It allows unauthenticated attackers to execute arbitrary SQL commands and access sensitive database information. The issue specifically affects FortiClient EMS version 7.4.4 when multi-tenant mode is active. The root cause…",
+      "source": "cybersecuritynews.com",
+      "first_seen": "2026-03-18T07:45:09Z",
+      "last_seen": "2026-03-18T07:45:09Z"
+    },
     {
       "id": "bd0fbbdd1ef0431e7f55d3de1ecf1155e98128ac",
       "title": "Ubuntu Desktop Systems Vulnerability Enables Attackers to Gain Full Root Access",
@@ -10,7 +20,17 @@
       "description": "A Local Privilege Escalation (LPE) vulnerability in default installations of Ubuntu Desktop 24.04 and later allows an unprivileged local attacker to gain full root access. Tracked as CVE-2026-3888, uncovered by The Qualys Threat Research Unit, the flaw exploits an unintended interaction between two standard system components, snap-confine and systemd-tmpfiles, making it particularly dangerous…",
       "source": "cybersecuritynews.com",
       "first_seen": "2026-03-18T06:52:59Z",
-      "last_seen": "2026-03-18T06:52:59Z"
+      "last_seen": "2026-03-18T07:45:09Z"
+    },
+    {
+      "id": "ae9ffa30c31b93e85354e563bba2af530816fc16",
+      "title": "Apple Fixes WebKit Vulnerability Enabling Same-Origin Policy Bypass on iOS and macOS",
+      "link": "https://thehackernews.com/2026/03/apple-fixes-webkit-vulnerability.html",
+      "date": "2026-03-18T06:31:00Z",
+      "description": "Apple on Tuesday released its first round of Background Security Improvements to address a security flaw in WebKit that affects iOS, iPadOS, and macOS. The vulnerability, tracked as CVE-2026-20643 (CVSS score: N/A), has been described as a cross-origin issue in WebKit's Navigation API that could be exploited to bypass the same-origin policy when processing maliciously crafted web content. The",
+      "source": "thehackernews.com",
+      "first_seen": "2026-03-18T07:45:09Z",
+      "last_seen": "2026-03-18T07:45:09Z"
     },
     {
       "id": "fead87e297b506707736689f369f805d02d33cfb",
@@ -20,7 +40,7 @@
       "description": "Cybersecurity researchers have disclosed a critical security flaw impacting the GNU InetUtils telnet daemon (telnetd) that could be exploited by an unauthenticated remote attacker to execute arbitrary code with elevated privileges. The vulnerability, tracked as CVE-2026-32746, carries a CVSS score of 9.8 out of 10.0. It has been described as a case of out-of-bounds write in the LINEMODE Set",
       "source": "thehackernews.com",
       "first_seen": "2026-03-18T05:56:21Z",
-      "last_seen": "2026-03-18T06:52:59Z"
+      "last_seen": "2026-03-18T07:45:09Z"
     },
     {
       "id": "5a7d3c6fe94715a84c268d700d0eb78a83427000",
@@ -30,7 +50,7 @@
       "description": "Microsoft Detection and Response Team details a sophisticated voice phishing (vishing) campaign that successfully compromised a corporate environment in November 2025. Unlike conventional intrusions that rely on software exploits, this attack weaponized trust, collaboration platforms, and built-in Windows tooling to gain initial access. The threat actor initiated the campaign by impersonating IT…",
       "source": "cybersecuritynews.com",
       "first_seen": "2026-03-18T04:13:38Z",
-      "last_seen": "2026-03-18T06:52:59Z"
+      "last_seen": "2026-03-18T07:45:09Z"
     },
     {
       "id": "d95b3ce62c89385fea1e41dc0f7e7a24fb3d771b",
@@ -40,7 +60,7 @@
       "description": "Apple has released its first Background Security Improvements update to fix a WebKit flaw tracked as CVE-2026-20643 on iPhones, iPads, and Macs without requiring a full operating system upgrade. [...]",
       "source": "bleepingcomputer.com",
       "first_seen": "2026-03-18T01:14:39Z",
-      "last_seen": "2026-03-18T06:52:59Z"
+      "last_seen": "2026-03-18T07:45:09Z"
     }
   ]
 }
