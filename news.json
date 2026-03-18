@@ -1,7 +1,56 @@
 {
-  "last_updated": "2026-03-18T11:37:29Z",
+  "last_updated": "2026-03-18T12:44:09Z",
   "count": 40,
   "items": [
+    {
+      "title": "Apple Debuts Background Security Improvements With Fresh WebKit Patches",
+      "link": "https://www.securityweek.com/apple-debuts-background-security-improvements-with-fresh-webkit-patches/",
+      "date": "2026-03-18T12:35:49Z",
+      "description": "The lightweight updates are meant to deliver security protections between security updates. The post Apple Debuts Background Security Improvements With Fresh WebKit Patches appeared first on SecurityWeek.",
+      "source": "securityweek.com"
+    },
+    {
+      "title": "Critical Unpatched Telnetd Flaw (CVE-2026-32746) Enables Unauthenticated Root RCE",
+      "link": "https://thehackernews.com/2026/03/critical-telnetd-flaw-cve-2026-32746.html",
+      "date": "2026-03-18T12:30:00Z",
+      "description": "Cybersecurity researchers have disclosed a critical security flaw impacting the GNU InetUtils telnet daemon (telnetd) that could be exploited by an unauthenticated remote attacker to execute arbitrary code with elevated privileges. The vulnerability, tracked as CVE-2026-32746, carries a CVSS score of 9.8 out of 10.0. It has been described as a case of out-of-bounds write in the LINEMODE Set",
+      "source": "thehackernews.com"
+    },
+    {
+      "title": "Critical Telnetd Vulnerability Enables Remote Attacker to Execute Arbitrary Code via Port 23",
+      "link": "https://cybersecuritynews.com/telnetd-vulnerability-enables-remote-attack/",
+      "date": "2026-03-18T12:27:06Z",
+      "description": "A critical buffer overflow vulnerability in the GNU Inetutils telnetd daemon. Tracked as CVE-2026-32746, this flaw allows an unauthenticated remote attacker to execute arbitrary code and gain root access to affected systems. The vulnerability requires zero user interaction and possesses a highly trivial exploitation path, prompting an urgent warning for defenders managing legacy infrastructure.…",
+      "source": "cybersecuritynews.com"
+    },
+    {
+      "title": "ForceMemo Hijacks GitHub Accounts, Backdoors Hundreds of Python Repos via Force-Push",
+      "link": "https://cybersecuritynews.com/forcememo-hijacks-github-accounts/",
+      "date": "2026-03-18T12:23:06Z",
+      "description": "A new malware campaign tracked as ForceMemo is quietly compromising hundreds of GitHub accounts and injecting hidden malicious code into Python repositories, leaving almost no visible trace. The earliest confirmed infections date back to March 8, 2026, and the campaign is still active, with new repositories being hit each day. The attack targets a broad […] The post ForceMemo Hijacks GitHub…",
+      "source": "cybersecuritynews.com"
+    },
+    {
+      "title": "Iran-Linked Cyber Campaigns Converge With Electronic and Psychological Warfare as Regional Conflict Escalates",
+      "link": "https://cybersecuritynews.com/iran-linked-cyber-campaigns-converge-with-electronic/",
+      "date": "2026-03-18T12:01:23Z",
+      "description": "On February 28, 2026, a joint US-Israeli military operation launched strikes inside Iran, opening a conflict that rapidly extended into cyberspace. Iran responded with ballistic missiles and drone strikes across Bahrain, Kuwait, Iraq, Saudi Arabia, the UAE, Israel, and Qatar. Hacktivist groups on both sides mobilized almost immediately, targeting critical infrastructure, military logistics, and…",
+      "source": "cybersecuritynews.com"
+    },
+    {
+      "title": "Claude Code Security and Magecart: Getting the Threat Model Right",
+      "link": "https://thehackernews.com/2026/03/claude-code-security-and-magecart.html",
+      "date": "2026-03-18T11:58:00Z",
+      "description": "When a Magecart payload hides inside the EXIF data of a dynamically loaded third-party favicon, no repository scanner will catch it – because the malicious code never actually touches your repo. As teams adopt Claude Code Security for static analysis, this is the exact technical boundary where AI code scanning stops and client-side runtime execution begins. A detailed analysis of where Claude",
+      "source": "thehackernews.com"
+    },
+    {
+      "title": "9 Critical IP KVM Flaws Enable Unauthenticated Root Access Across Four Vendors",
+      "link": "https://thehackernews.com/2026/03/9-critical-ip-kvm-flaws-enable.html",
+      "date": "2026-03-18T11:42:00Z",
+      "description": "Cybersecurity researchers have warned about the risks posed by low-cost IP KVM (Keyboard, Video, Mouse over Internet Protocol) devices, which can grant attackers extensive control over compromised hosts. The nine vulnerabilities, discovered by Eclypsium, span four different products from GL-iNet Comet RM-1, Angeet/Yeeso ES3 KVM, Sipeed NanoKVM, and JetKVM. The most severe of them allow",
+      "source": "thehackernews.com"
+    },
     {
       "title": "Vidar Stealer 2.0 Spreads Through Fake Game Cheats Promoted on GitHub and Reddit",
       "link": "https://cybersecuritynews.com/vidar-stealer-2-0-spreads-through-fake-game-cheats/",
@@ -31,27 +80,6 @@
       "source": "thehackernews.com"
     },
     {
-      "title": "Boggy Serpens Targets Diplomats and Critical Infrastructure in Multi-Wave Espionage Campaign",
-      "link": "https://cybersecuritynews.com/boggy-serpens-targets-diplomats/",
-      "date": "2026-03-18T09:07:28Z",
-      "description": "A well-resourced Iranian nation-state group known as Boggy Serpens — also tracked as MuddyWater — has sharply escalated its cyberespionage operations, running sustained and targeted campaigns against diplomatic missions, energy companies, maritime operators, and financial institutions. Attributed to Iran’s Ministry of Intelligence and Security (MOIS), the group has been active since at least…",
-      "source": "cybersecuritynews.com"
-    },
-    {
-      "title": "Attackers Abuse Court Documents, GitHub Payloads to Infect Judicial Targets With COVERT RAT",
-      "link": "https://cybersecuritynews.com/attackers-abuse-court-documents-targets-with-covert-rat/",
-      "date": "2026-03-18T08:40:24Z",
-      "description": "A new wave of targeted attacks is quietly hitting Argentina’s judicial system, using fake court documents to lure legal professionals into installing a dangerous piece of malware. The campaign, formally called Operation Covert Access, deploys a Rust-built Remote Access Trojan known as COVERT RAT via spear-phishing emails that closely mimic genuine federal court communications. Once […] The post…",
-      "source": "cybersecuritynews.com"
-    },
-    {
-      "title": "Microsoft to Stop Force Installation of 365 Copilot App on Windows Devices",
-      "link": "https://cybersecuritynews.com/microsoft-365-copilot-app-installation/",
-      "date": "2026-03-18T08:08:48Z",
-      "description": "Microsoft has temporarily halted the automatic installation of the Microsoft 365 Copilot app on Windows devices. According to a recent update in the Microsoft 365 Message Center on March 16, 2026, the company paused the mandatory rollout, originally scheduled to be completed late last year. This change directly affects IT administrators and global system deployment […] The post Microsoft to Stop…",
-      "source": "cybersecuritynews.com"
-    },
-    {
       "title": "Ubuntu CVE-2026-3888 Bug Lets Attackers Gain Root via systemd Cleanup Timing Exploit",
       "link": "https://thehackernews.com/2026/03/ubuntu-cve-2026-3888-bug-lets-attackers.html",
       "date": "2026-03-18T08:08:00Z",
@@ -64,20 +92,6 @@
       "date": "2026-03-18T08:00:29Z",
       "description": "The post Critical Craft CMS Flaw Grants Instant Admin Access appeared first on Daily CyberSecurity. Related posts: Critical 9.8 CVSS telnetd Buffer Overflow Grants Pre-Auth Root Windows 11 Privilege Escalation Flaws Uncovered: CVE-2025-24076 and CVE-2025-24994 Critical CVE-2025-1976 Vulnerability in Brocade Fabric OS Actively Exploited",
       "source": "securityonline.info"
-    },
-    {
-      "title": "Apple Fixes WebKit Vulnerability Enabling Same-Origin Policy Bypass on iOS and macOS",
-      "link": "https://thehackernews.com/2026/03/apple-fixes-webkit-vulnerability.html",
-      "date": "2026-03-18T06:31:00Z",
-      "description": "Apple on Tuesday released its first round of Background Security Improvements to address a security flaw in WebKit that affects iOS, iPadOS, and macOS. The vulnerability, tracked as CVE-2026-20643 (CVSS score: N/A), has been described as a cross-origin issue in WebKit's Navigation API that could be exploited to bypass the same-origin policy when processing maliciously crafted web content. The",
-      "source": "thehackernews.com"
-    },
-    {
-      "title": "Critical Unpatched Telnetd Flaw (CVE-2026-32746) Enables Unauthenticated Root RCE via Port 23",
-      "link": "https://thehackernews.com/2026/03/critical-telnetd-flaw-cve-2026-32746.html",
-      "date": "2026-03-18T05:06:00Z",
-      "description": "Cybersecurity researchers have disclosed a critical security flaw impacting the GNU InetUtils telnet daemon (telnetd) that could be exploited by an unauthenticated remote attacker to execute arbitrary code with elevated privileges. The vulnerability, tracked as CVE-2026-32746, carries a CVSS score of 9.8 out of 10.0. It has been described as a case of out-of-bounds write in the LINEMODE Set",
-      "source": "thehackernews.com"
     },
     {
       "title": "Apple pushes first Background Security Improvements update to fix WebKit flaw",
@@ -122,13 +136,6 @@
       "source": "bleepingcomputer.com"
     },
     {
-      "title": "AI Flaws in Amazon Bedrock, LangSmith, and SGLang Enable Data Exfiltration and RCE",
-      "link": "https://thehackernews.com/2026/03/ai-flaws-in-amazon-bedrock-langsmith.html",
-      "date": "2026-03-17T16:39:00Z",
-      "description": "Cybersecurity researchers have disclosed details of a new method for exfiltrating sensitive data from artificial intelligence (AI) code execution environments using domain name system (DNS) queries. In a report published Monday, BeyondTrust revealed that Amazon Bedrock AgentCore Code Interpreter's sandbox mode permits outbound DNS queries that an attacker can exploit to enable interactive shells",
-      "source": "thehackernews.com"
-    },
-    {
       "title": "Tech Giants Invest $12.5 Million in Open Source Security",
       "link": "https://www.securityweek.com/tech-giants-invest-12-5-million-in-open-source-security/",
       "date": "2026-03-17T16:01:00Z",
@@ -169,13 +176,6 @@
       "date": "2026-03-17T13:59:12Z",
       "description": "A new font-rendering attack causes AI assistants to miss malicious commands shown on webpages by hiding them in seemingly harmless HTML. [...]",
       "source": "bleepingcomputer.com"
-    },
-    {
-      "title": "Robotic Surgery Giant Intuitive Discloses Cyberattack",
-      "link": "https://www.securityweek.com/robotic-surgery-giant-intuitive-discloses-cyberattack/",
-      "date": "2026-03-17T13:28:20Z",
-      "description": "The company says some of its internal business applications were accessed after an employee fell victim to a phishing attack. The post Robotic Surgery Giant Intuitive Discloses Cyberattack appeared first on SecurityWeek.",
-      "source": "securityweek.com"
     },
     {
       "title": "China-Nexus Hackers Skulk in Southeast Asian Military Orgs for Years",

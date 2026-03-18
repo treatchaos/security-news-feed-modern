@@ -1,7 +1,77 @@
 {
   "date": "2026-03-18",
-  "count": 16,
+  "count": 23,
   "items": [
+    {
+      "id": "f634f4bd79cbe96f00d089a7a269b2341fb38046",
+      "title": "Apple Debuts Background Security Improvements With Fresh WebKit Patches",
+      "link": "https://www.securityweek.com/apple-debuts-background-security-improvements-with-fresh-webkit-patches/",
+      "date": "2026-03-18T12:35:49Z",
+      "description": "The lightweight updates are meant to deliver security protections between security updates. The post Apple Debuts Background Security Improvements With Fresh WebKit Patches appeared first on SecurityWeek.",
+      "source": "securityweek.com",
+      "first_seen": "2026-03-18T12:44:09Z",
+      "last_seen": "2026-03-18T12:44:09Z"
+    },
+    {
+      "id": "6d173194b88de47d01a2721046bd311c649e0035",
+      "title": "Critical Unpatched Telnetd Flaw (CVE-2026-32746) Enables Unauthenticated Root RCE",
+      "link": "https://thehackernews.com/2026/03/critical-telnetd-flaw-cve-2026-32746.html",
+      "date": "2026-03-18T12:30:00Z",
+      "description": "Cybersecurity researchers have disclosed a critical security flaw impacting the GNU InetUtils telnet daemon (telnetd) that could be exploited by an unauthenticated remote attacker to execute arbitrary code with elevated privileges. The vulnerability, tracked as CVE-2026-32746, carries a CVSS score of 9.8 out of 10.0. It has been described as a case of out-of-bounds write in the LINEMODE Set",
+      "source": "thehackernews.com",
+      "first_seen": "2026-03-18T12:44:09Z",
+      "last_seen": "2026-03-18T12:44:09Z"
+    },
+    {
+      "id": "e7ced4f08518202588ccb9821fbc1050bdeac061",
+      "title": "Critical Telnetd Vulnerability Enables Remote Attacker to Execute Arbitrary Code via Port 23",
+      "link": "https://cybersecuritynews.com/telnetd-vulnerability-enables-remote-attack/",
+      "date": "2026-03-18T12:27:06Z",
+      "description": "A critical buffer overflow vulnerability in the GNU Inetutils telnetd daemon. Tracked as CVE-2026-32746, this flaw allows an unauthenticated remote attacker to execute arbitrary code and gain root access to affected systems. The vulnerability requires zero user interaction and possesses a highly trivial exploitation path, prompting an urgent warning for defenders managing legacy infrastructure.…",
+      "source": "cybersecuritynews.com",
+      "first_seen": "2026-03-18T12:44:09Z",
+      "last_seen": "2026-03-18T12:44:09Z"
+    },
+    {
+      "id": "05114d60e1c0cb4655b600332509804a2f9d8113",
+      "title": "ForceMemo Hijacks GitHub Accounts, Backdoors Hundreds of Python Repos via Force-Push",
+      "link": "https://cybersecuritynews.com/forcememo-hijacks-github-accounts/",
+      "date": "2026-03-18T12:23:06Z",
+      "description": "A new malware campaign tracked as ForceMemo is quietly compromising hundreds of GitHub accounts and injecting hidden malicious code into Python repositories, leaving almost no visible trace. The earliest confirmed infections date back to March 8, 2026, and the campaign is still active, with new repositories being hit each day. The attack targets a broad […] The post ForceMemo Hijacks GitHub…",
+      "source": "cybersecuritynews.com",
+      "first_seen": "2026-03-18T12:44:09Z",
+      "last_seen": "2026-03-18T12:44:09Z"
+    },
+    {
+      "id": "4c3710b08356659d18dd3503eab4bb3786883325",
+      "title": "Iran-Linked Cyber Campaigns Converge With Electronic and Psychological Warfare as Regional Conflict Escalates",
+      "link": "https://cybersecuritynews.com/iran-linked-cyber-campaigns-converge-with-electronic/",
+      "date": "2026-03-18T12:01:23Z",
+      "description": "On February 28, 2026, a joint US-Israeli military operation launched strikes inside Iran, opening a conflict that rapidly extended into cyberspace. Iran responded with ballistic missiles and drone strikes across Bahrain, Kuwait, Iraq, Saudi Arabia, the UAE, Israel, and Qatar. Hacktivist groups on both sides mobilized almost immediately, targeting critical infrastructure, military logistics, and…",
+      "source": "cybersecuritynews.com",
+      "first_seen": "2026-03-18T12:44:09Z",
+      "last_seen": "2026-03-18T12:44:09Z"
+    },
+    {
+      "id": "d1f687ed240440ae83720dde01c022717dfabd9e",
+      "title": "Claude Code Security and Magecart: Getting the Threat Model Right",
+      "link": "https://thehackernews.com/2026/03/claude-code-security-and-magecart.html",
+      "date": "2026-03-18T11:58:00Z",
+      "description": "When a Magecart payload hides inside the EXIF data of a dynamically loaded third-party favicon, no repository scanner will catch it – because the malicious code never actually touches your repo. As teams adopt Claude Code Security for static analysis, this is the exact technical boundary where AI code scanning stops and client-side runtime execution begins. A detailed analysis of where Claude",
+      "source": "thehackernews.com",
+      "first_seen": "2026-03-18T12:44:09Z",
+      "last_seen": "2026-03-18T12:44:09Z"
+    },
+    {
+      "id": "7c3b8e82668345374191e159335328f0f8fe9797",
+      "title": "9 Critical IP KVM Flaws Enable Unauthenticated Root Access Across Four Vendors",
+      "link": "https://thehackernews.com/2026/03/9-critical-ip-kvm-flaws-enable.html",
+      "date": "2026-03-18T11:42:00Z",
+      "description": "Cybersecurity researchers have warned about the risks posed by low-cost IP KVM (Keyboard, Video, Mouse over Internet Protocol) devices, which can grant attackers extensive control over compromised hosts. The nine vulnerabilities, discovered by Eclypsium, span four different products from GL-iNet Comet RM-1, Angeet/Yeeso ES3 KVM, Sipeed NanoKVM, and JetKVM. The most severe of them allow",
+      "source": "thehackernews.com",
+      "first_seen": "2026-03-18T12:44:09Z",
+      "last_seen": "2026-03-18T12:44:09Z"
+    },
     {
       "id": "93dd9bd6be77db43e967effb5e91b39c09c036fa",
       "title": "Vidar Stealer 2.0 Spreads Through Fake Game Cheats Promoted on GitHub and Reddit",
@@ -10,7 +80,7 @@
       "description": "A newly updated version of the Vidar infostealer, dubbed Vidar 2.0, is actively spreading through hundreds of fake game cheat repositories on GitHub and targeted posts on Reddit. The malware disguises itself as free cheating software for popular online games, tricking gamers into downloading a powerful credential-stealing tool.​ The threat of malware inside gaming software […] The post Vidar…",
       "source": "cybersecuritynews.com",
       "first_seen": "2026-03-18T11:37:29Z",
-      "last_seen": "2026-03-18T11:37:29Z"
+      "last_seen": "2026-03-18T12:44:09Z"
     },
     {
       "id": "4b11446239bcbf4cd3c208f702c040ab2dcacb8d",
@@ -20,7 +90,7 @@
       "description": "A fake Telegram download website is actively pushing dangerous malware onto unsuspecting users by disguising a malicious installer as a legitimate setup file. The site, hosted at the domain telegrgam[.]com — just one letter off from the real Telegram address — presents itself as an official portal and prompts visitors to download a Windows installer […] The post Malicious Telegram Download Site…",
       "source": "cybersecuritynews.com",
       "first_seen": "2026-03-18T11:37:29Z",
-      "last_seen": "2026-03-18T11:37:29Z"
+      "last_seen": "2026-03-18T12:44:09Z"
     },
     {
       "id": "aef9d780a29cfc0d1ae5146e29a969a8aba9b843",
@@ -30,7 +100,7 @@
       "description": "Meta does not plan on fixing the vulnerability because it involves the use of a modified client application. The post Researcher Discovers 4th WhatsApp View Once Bypass; Meta Won’t Patch appeared first on SecurityWeek.",
       "source": "securityweek.com",
       "first_seen": "2026-03-18T11:37:29Z",
-      "last_seen": "2026-03-18T11:37:29Z"
+      "last_seen": "2026-03-18T12:44:09Z"
     },
     {
       "id": "68b6246066cd0ce2f56987445cf5d842bee18ed0",
@@ -40,7 +110,7 @@
       "description": "Security teams today are not short on tools or data. They are overwhelmed by both. Yet within the terabytes of alerts, exposures, and misconfigurations – security teams still struggle to understand context: Q: Which exposures, misconfigurations, and vulnerabilities chain together to create viable attack paths to crown jewels? Even the most mature security teams can’t answer that",
       "source": "thehackernews.com",
       "first_seen": "2026-03-18T11:37:29Z",
-      "last_seen": "2026-03-18T11:37:29Z"
+      "last_seen": "2026-03-18T12:44:09Z"
     },
     {
       "id": "a75b0d5421f60b4bdda0a5a218b89df2cf4028b5",
@@ -80,7 +150,7 @@
       "description": "A high-severity security flaw affecting default installations of Ubuntu Desktop versions 24.04 and later could be exploited to escalate privileges to the root level. Tracked as CVE-2026-3888 (CVSS score: 7.8), the issue could allow an attacker to seize control of a susceptible system. \"This flaw (CVE-2026-3888) allows an unprivileged local attacker to escalate privileges to full root access",
       "source": "thehackernews.com",
       "first_seen": "2026-03-18T09:42:13Z",
-      "last_seen": "2026-03-18T11:37:29Z"
+      "last_seen": "2026-03-18T12:44:09Z"
     },
     {
       "id": "517a5891251e705bc26ba466092ee87785b25710",
@@ -90,7 +160,7 @@
       "description": "The post Critical Craft CMS Flaw Grants Instant Admin Access appeared first on Daily CyberSecurity. Related posts: Critical 9.8 CVSS telnetd Buffer Overflow Grants Pre-Auth Root Windows 11 Privilege Escalation Flaws Uncovered: CVE-2025-24076 and CVE-2025-24994 Critical CVE-2025-1976 Vulnerability in Brocade Fabric OS Actively Exploited",
       "source": "securityonline.info",
       "first_seen": "2026-03-18T08:36:15Z",
-      "last_seen": "2026-03-18T11:37:29Z"
+      "last_seen": "2026-03-18T12:44:09Z"
     },
     {
       "id": "46f80cdf15346cc3ead391a8b6983304729c90bd",
@@ -160,7 +230,7 @@
       "description": "Apple has released its first Background Security Improvements update to fix a WebKit flaw tracked as CVE-2026-20643 on iPhones, iPads, and Macs without requiring a full operating system upgrade. [...]",
       "source": "bleepingcomputer.com",
       "first_seen": "2026-03-18T01:14:39Z",
-      "last_seen": "2026-03-18T11:37:29Z"
+      "last_seen": "2026-03-18T12:44:09Z"
     }
   ]
 }
