@@ -1,7 +1,17 @@
 {
   "date": "2026-03-18",
-  "count": 2,
+  "count": 3,
   "items": [
+    {
+      "id": "fead87e297b506707736689f369f805d02d33cfb",
+      "title": "Critical Unpatched Telnetd Flaw (CVE-2026-32746) Enables Unauthenticated Root RCE via Port 23",
+      "link": "https://thehackernews.com/2026/03/critical-telnetd-flaw-cve-2026-32746.html",
+      "date": "2026-03-18T05:06:00Z",
+      "description": "Cybersecurity researchers have disclosed a critical security flaw impacting the GNU InetUtils telnet daemon (telnetd) that could be exploited by an unauthenticated remote attacker to execute arbitrary code with elevated privileges. The vulnerability, tracked as CVE-2026-32746, carries a CVSS score of 9.8 out of 10.0. It has been described as a case of out-of-bounds write in the LINEMODE Set",
+      "source": "thehackernews.com",
+      "first_seen": "2026-03-18T05:56:21Z",
+      "last_seen": "2026-03-18T05:56:21Z"
+    },
     {
       "id": "5a7d3c6fe94715a84c268d700d0eb78a83427000",
       "title": "Microsoft Teams Support Call Leads to Quick Assist Compromise in New Vishing Attack",
@@ -10,7 +20,7 @@
       "description": "Microsoft Detection and Response Team details a sophisticated voice phishing (vishing) campaign that successfully compromised a corporate environment in November 2025. Unlike conventional intrusions that rely on software exploits, this attack weaponized trust, collaboration platforms, and built-in Windows tooling to gain initial access. The threat actor initiated the campaign by impersonating IT…",
       "source": "cybersecuritynews.com",
       "first_seen": "2026-03-18T04:13:38Z",
-      "last_seen": "2026-03-18T04:13:38Z"
+      "last_seen": "2026-03-18T05:56:21Z"
     },
     {
       "id": "d95b3ce62c89385fea1e41dc0f7e7a24fb3d771b",
@@ -20,7 +30,7 @@
       "description": "Apple has released its first Background Security Improvements update to fix a WebKit flaw tracked as CVE-2026-20643 on iPhones, iPads, and Macs without requiring a full operating system upgrade. [...]",
       "source": "bleepingcomputer.com",
       "first_seen": "2026-03-18T01:14:39Z",
-      "last_seen": "2026-03-18T04:13:38Z"
+      "last_seen": "2026-03-18T05:56:21Z"
     }
   ]
 }
