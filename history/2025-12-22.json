@@ -1,6 +1,6 @@
 {
   "date": "2025-12-22",
-  "count": 14,
+  "count": 6,
   "items": [
     {
       "id": "06231c09d46991e42b7b679fcee68a6feb7077e9",
@@ -61,86 +61,6 @@
       "source": "thehackernews.com",
       "first_seen": "2025-12-22T18:17:37Z",
       "last_seen": "2025-12-23T11:11:21Z"
-    },
-    {
-      "id": "bc7d8d98f21b9b323d7e558242faff039538c665",
-      "title": "Malicious npm package steals WhatsApp accounts and messages",
-      "link": "https://www.bleepingcomputer.com/news/security/malicious-npm-package-steals-whatsapp-accounts-and-messages/",
-      "date": "2025-12-22T16:08:46Z",
-      "description": "A malicious package in the Node Package Manager (NPM) registry poses as a legitimate WhatsApp Web API library to steal WhatsApp messages, collect contacts, and gain access to the account. [...]",
-      "source": "bleepingcomputer.com",
-      "first_seen": "2025-12-22T16:14:19Z",
-      "last_seen": "2025-12-23T10:13:39Z"
-    },
-    {
-      "id": "2b1f8e8dcc751349a738f7db7086d1e8e207f234",
-      "title": "BlindEagle Hackers Attacking Government Agencies with Powershell Scripts",
-      "link": "https://cybersecuritynews.com/blindeagle-hackers-attacking-government-agencies/",
-      "date": "2025-12-22T16:00:19Z",
-      "description": "BlindEagle, a South American threat group, has launched a sophisticated campaign against Colombian government agencies, demonstrating an alarming evolution in attack techniques. In early September 2025, the group targeted a government agency under the Ministry of Commerce, Industry and Tourism (MCIT) using coordinated phishing emails and multi-stage malware delivery. This attack represents a…",
-      "source": "cybersecuritynews.com",
-      "first_seen": "2025-12-22T16:14:19Z",
-      "last_seen": "2025-12-23T07:16:26Z"
-    },
-    {
-      "id": "f5dd7cd735b6539d49cf942d9811b1125d384cb3",
-      "title": "PoC Exploit Released for Use-After-Free Vulnerability in Linux Kernel’s POSIX CPU Timers Implementation",
-      "link": "https://cybersecuritynews.com/use-after-free-vulnerability-linux-kernel/",
-      "date": "2025-12-22T15:42:37Z",
-      "description": "A proof-of-concept (PoC) exploit has been publicly released for CVE-2025-38352, a race condition vulnerability affecting the Linux kernel’s POSIX CPU timer implementation. The flaw enables attackers to trigger use-after-free conditions in kernel memory, potentially leading to privilege escalation and system compromise. CVE-2025-38352 is a race condition that occurs in the kernel’s…",
-      "source": "cybersecuritynews.com",
-      "first_seen": "2025-12-22T16:14:19Z",
-      "last_seen": "2025-12-23T07:16:26Z"
-    },
-    {
-      "id": "a536f106518a7a345142ae84a64601b36b71b588",
-      "title": "Microsoft Brokering File System Vulnerability Let Attackers Escalate Privileges",
-      "link": "https://cybersecuritynews.com/microsoft-brokering-file-system-vulnerability/",
-      "date": "2025-12-22T15:33:46Z",
-      "description": "Microsoft has patched a significant use-after-free vulnerability in its Brokering File System (BFS) driver, tracked as CVE-2025-29970. The flaw enables local attackers to escalate privileges on Windows systems running isolated or sandboxed applications, making it a notable concern for enterprise security. The vulnerability exists in bfs.sys, a minifilter driver developed alongside Windows…",
-      "source": "cybersecuritynews.com",
-      "first_seen": "2025-12-22T16:14:19Z",
-      "last_seen": "2025-12-23T06:19:16Z"
-    },
-    {
-      "id": "e12550fd62f46a76e76097a7a9d88d37f4637f02",
-      "title": "Nissan Confirms Data Breach Following Unauthorized Access to Red Hat Servers",
-      "link": "https://cybersecuritynews.com/nissan-data-breach/",
-      "date": "2025-12-22T15:29:50Z",
-      "description": "Nissan Motor Corporation has publicly confirmed a significant data breach stemming from unauthorized access to Red Hat servers. Managed by a third-party contractor responsible for developing a customer management system. The incident exposed personal information for approximately 21,000 Nissan Fukuoka Sales Co., Ltd. customers. Red Hat, the contracted service provider, detected the unauthorized…",
-      "source": "cybersecuritynews.com",
-      "first_seen": "2025-12-22T16:14:19Z",
-      "last_seen": "2025-12-23T06:19:16Z"
-    },
-    {
-      "id": "5eed67d46c833b443a82e2b6b2b82aa10cf8f8c4",
-      "title": "Romanian water authority hit by ransomware attack over weekend",
-      "link": "https://www.bleepingcomputer.com/news/security/romanian-water-authority-hit-by-ransomware-attack-over-weekend/",
-      "date": "2025-12-22T15:25:50Z",
-      "description": "Romanian Waters (Administrația Națională Apele Române), the country's water management authority, was hit by a ransomware attack over the weekend. [...]",
-      "source": "bleepingcomputer.com",
-      "first_seen": "2025-12-22T16:14:19Z",
-      "last_seen": "2025-12-23T09:16:11Z"
-    },
-    {
-      "id": "2ca3fa80ba5500759f4c7da3112316a105143477",
-      "title": "SideWinder APT Hackers Attacking Indian Entities by Masquerading as the Income Tax Department of India",
-      "link": "https://cybersecuritynews.com/sidewinder-apt-hackers-attacking-indian-entities/",
-      "date": "2025-12-22T15:18:00Z",
-      "description": "The campaign is run by the SideWinder advanced persistent threat group and aims to plant a silent Windows backdoor on victim machines. Once active, the malware can steal files, capture data and give remote control to the attacker. Each attack starts with a tax-themed email that urges the victim to review an inspection document. The […] The post SideWinder APT Hackers Attacking Indian Entities by…",
-      "source": "cybersecuritynews.com",
-      "first_seen": "2025-12-22T16:14:19Z",
-      "last_seen": "2025-12-23T04:30:49Z"
-    },
-    {
-      "id": "8d64c524b223e11bd5716bda3f6baf9de60dc74e",
-      "title": "Rising Tides: When Cybersecurity Becomes Personal – Inside the Work of an OSINT Investigator",
-      "link": "https://www.securityweek.com/rising-tides-when-cybersecurity-becomes-personal-inside-the-work-of-an-osint-investigator/",
-      "date": "2025-12-22T15:00:00Z",
-      "description": "Shannon Miller shares her approach to creating domestic safety and a call to the cyber community to help reduce harm. The post Rising Tides: When Cybersecurity Becomes Personal – Inside the Work of an OSINT Investigator appeared first on SecurityWeek.",
-      "source": "securityweek.com",
-      "first_seen": "2025-12-22T16:14:19Z",
-      "last_seen": "2025-12-23T10:13:39Z"
     }
   ]
 }
