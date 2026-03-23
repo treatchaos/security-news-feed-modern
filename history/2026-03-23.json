@@ -1,7 +1,27 @@
 {
   "date": "2026-03-23",
-  "count": 19,
+  "count": 23,
   "items": [
+    {
+      "id": "28aba0eff0491807ae9bbf8fdd4ca7aeafbdcf40",
+      "title": "Aqua’s Trivy Vulnerability Scanner Hit by Supply Chain Attack",
+      "link": "https://www.securityweek.com/aquas-trivy-vulnerability-scanner-hit-by-supply-chain-attack/",
+      "date": "2026-03-23T13:40:52Z",
+      "description": "Hackers published a malicious scanner release and replaced tags to point to information-stealer malware. The post Aqua’s Trivy Vulnerability Scanner Hit by Supply Chain Attack appeared first on SecurityWeek.",
+      "source": "securityweek.com",
+      "first_seen": "2026-03-23T14:07:31Z",
+      "last_seen": "2026-03-23T14:07:31Z"
+    },
+    {
+      "id": "503582bc01c42d47835710ddef40bcefe08251c4",
+      "title": "Trivy Supply Chain Attack Expands as Compromised Docker Images Hit Docker Hub",
+      "link": "https://cybersecuritynews.com/trivy-supply-chain-attack-expands-as-compromised-docker/",
+      "date": "2026-03-23T13:36:23Z",
+      "description": "A supply chain attack targeting Trivy, the widely used open-source vulnerability scanner, has grown well beyond its initial scope. What started as a GitHub Actions compromise has now extended to Docker Hub, where three malicious Docker image versions were silently published and made publicly available to developers worldwide. Trivy is trusted by thousands of DevSecOps […] The post Trivy Supply…",
+      "source": "cybersecuritynews.com",
+      "first_seen": "2026-03-23T14:07:31Z",
+      "last_seen": "2026-03-23T14:07:31Z"
+    },
     {
       "id": "8238d3054636101057dbdf21c723cf7ca0f5d600",
       "title": "Microsoft Exchange Online service change causes email access issues",
@@ -10,7 +30,7 @@
       "description": "Microsoft is working to address an ongoing service issue that has intermittently prevented some users from accessing their cloud-based Exchange Online mailboxes via Outlook mobile and Mac desktop clients since Thursday. [...]",
       "source": "bleepingcomputer.com",
       "first_seen": "2026-03-23T12:40:46Z",
-      "last_seen": "2026-03-23T12:40:46Z"
+      "last_seen": "2026-03-23T14:07:31Z"
     },
     {
       "id": "bf1fdf8af5086573c15d25e2306d24d1f3333a41",
@@ -20,7 +40,17 @@
       "description": "The post PoC Exploit Code Now Public: Windows .lnk Shortcut Flaw Leaks Sensitive Network Data appeared first on Daily CyberSecurity. Related posts: PoC Exploit Released: Failed Windows Patch Leaks Kernel Secrets PoC Exploit Publicly Disclosed: ‘RegPwn’ Flaw Grants SYSTEM Access via Windows Accessibility PoC Exploit Publicly Disclosed: Windows ‘libarchive’ Flaw Leaks NetNTLMv2 Hashes",
       "source": "securityonline.info",
       "first_seen": "2026-03-23T12:40:46Z",
-      "last_seen": "2026-03-23T12:40:46Z"
+      "last_seen": "2026-03-23T14:07:31Z"
+    },
+    {
+      "id": "a8c3c1f7be3ff2ce515e7a8902af070545e010d3",
+      "title": "We Found Eight Attack Vectors Inside AWS Bedrock. Here's What Attackers Can Do with Them",
+      "link": "https://thehackernews.com/2026/03/we-found-eight-attack-vectors-inside.html",
+      "date": "2026-03-23T11:55:00Z",
+      "description": "AWS Bedrock is Amazon's platform for building AI-powered applications. It gives developers access to foundation models and the tools to connect those models directly to enterprise data and systems. That connectivity is what makes it powerful – but it’s also what makes Bedrock a target. When an AI agent can query your Salesforce instance, trigger a Lambda function, or pull from a SharePoint",
+      "source": "thehackernews.com",
+      "first_seen": "2026-03-23T14:07:31Z",
+      "last_seen": "2026-03-23T14:07:31Z"
     },
     {
       "id": "81472d3a45bbf1744e8082902ac7b5b33344ce8e",
@@ -30,7 +60,7 @@
       "description": "Microsoft has released an out-of-band (OOB) update, KB5085516, for Windows 11 versions 25H2 and 24H2 to address a critical sign-in issue introduced by the March 2026 Patch Tuesday update. The emergency patch, released on March 21, 2026, targets a bug that falsely reports “no Internet” errors when users attempt to sign in to Microsoft services […] The post Windows 11 Emergency Update to Fix ‘No…",
       "source": "cybersecuritynews.com",
       "first_seen": "2026-03-23T12:40:46Z",
-      "last_seen": "2026-03-23T12:40:46Z"
+      "last_seen": "2026-03-23T14:07:31Z"
     },
     {
       "id": "594c658985b591f689b1e299f62b9df377631870",
@@ -40,7 +70,7 @@
       "description": "A critical vulnerability in Craft CMS (CVE-2025-32432) has been added to the Known Exploited Vulnerabilities catalog following confirmed active exploitation in the wild. Security teams and system administrators are advised to address this issue immediately to prevent severe network compromises. The vulnerability is a severe code injection flaw, categorized under CWE-94, which involves improper…",
       "source": "cybersecuritynews.com",
       "first_seen": "2026-03-23T11:36:34Z",
-      "last_seen": "2026-03-23T12:40:46Z"
+      "last_seen": "2026-03-23T14:07:31Z"
     },
     {
       "id": "badaf401bdf198394d474f1478397c9f0a6c61d9",
@@ -50,7 +80,7 @@
       "description": "The flaws could allow attackers to access sensitive information, execute code, or cause unexpected behavior. The post QNAP Patches Four Vulnerabilities Exploited at Pwn2Own appeared first on SecurityWeek.",
       "source": "securityweek.com",
       "first_seen": "2026-03-23T11:36:34Z",
-      "last_seen": "2026-03-23T12:40:46Z"
+      "last_seen": "2026-03-23T14:07:31Z"
     },
     {
       "id": "b3fb5b1e8aaa0fac20167352ece26c574d1a609d",
@@ -60,7 +90,7 @@
       "description": "Microsoft has warned of fresh campaigns that are capitalizing on the upcoming tax season in the U.S. to harvest credentials and deliver malware. The email campaigns take advantage of the urgency and time-sensitive nature of emails to send phishing messages masquerading as refund notices, payroll forms, filing reminders, and requests from tax professionals to deceive recipients into opening",
       "source": "thehackernews.com",
       "first_seen": "2026-03-23T11:36:34Z",
-      "last_seen": "2026-03-23T12:40:46Z"
+      "last_seen": "2026-03-23T14:07:31Z"
     },
     {
       "id": "1ecca549471177996b4bdcdc1f0ad72d9445984e",
@@ -70,7 +100,7 @@
       "description": "Attack volumes are back to pre-disruption levels, and the adversary tactics have remained unchanged. The post Tycoon 2FA Fully Operational Despite Law Enforcement Takedown appeared first on SecurityWeek.",
       "source": "securityweek.com",
       "first_seen": "2026-03-23T10:42:58Z",
-      "last_seen": "2026-03-23T12:40:46Z"
+      "last_seen": "2026-03-23T14:07:31Z"
     },
     {
       "id": "b04f3ec4a972be654382e07fd63837471bd99950",
@@ -80,7 +110,7 @@
       "description": "A recent security assessment by researchers has uncovered nine severe vulnerabilities across four popular low-cost IP-KVM devices. These flaws uncovered by Eclypsium allow attackers to gain complete, BIOS-level control over connected systems, effectively bypassing all operating system security controls and Endpoint Detection and Response (EDR) agents. Compromising a Keyboard, Video, and Mouse…",
       "source": "cybersecuritynews.com",
       "first_seen": "2026-03-23T10:42:58Z",
-      "last_seen": "2026-03-23T12:40:46Z"
+      "last_seen": "2026-03-23T14:07:31Z"
     },
     {
       "id": "bd7ee66d39ea59f28467d1b0776e63b80349ab77",
@@ -90,7 +120,7 @@
       "description": "The U.S. Federal Bureau of Investigation (FBI) warned network defenders that Iranian hackers linked to the country's Ministry of Intelligence and Security (MOIS) are using Telegram in malware attacks. [...]",
       "source": "bleepingcomputer.com",
       "first_seen": "2026-03-23T09:53:49Z",
-      "last_seen": "2026-03-23T12:40:46Z"
+      "last_seen": "2026-03-23T14:07:31Z"
     },
     {
       "id": "74d756b429a2e7a18df651550c5dd0c3f95ce1b7",
@@ -100,7 +130,7 @@
       "description": "A new wave of supply chain attacks is hitting the npm ecosystem through a self-propagating malware campaign known as CanisterWorm. The threat, linked to a group tracked as “TeamPCP,” compromises legitimate publisher namespaces and pushes poisoned package versions, effectively turning trusted developer tools into silent delivery mechanisms for credential-stealing code. CanisterWorm first came to…",
       "source": "cybersecuritynews.com",
       "first_seen": "2026-03-23T09:53:49Z",
-      "last_seen": "2026-03-23T12:40:46Z"
+      "last_seen": "2026-03-23T14:07:31Z"
     },
     {
       "id": "f3b1912a5c996725bac1961238d77d71aa1ead59",
@@ -120,7 +150,7 @@
       "description": "CISA ordered U.S. government agencies to patch three iOS vulnerabilities targeted in cryptocurrency theft and cyberespionage attacks using the DarkSword exploit kit. [...]",
       "source": "bleepingcomputer.com",
       "first_seen": "2026-03-23T08:43:26Z",
-      "last_seen": "2026-03-23T12:40:46Z"
+      "last_seen": "2026-03-23T14:07:31Z"
     },
     {
       "id": "e7426d7bf4f42814e7b411e30a5a6439e81c3464",
@@ -130,7 +160,7 @@
       "description": "Cybersecurity researchers have uncovered malicious artifacts distributed via Docker Hub following the Trivy supply chain attack, highlighting the widening blast radius across developer environments. The last known clean release of Trivy on Docker Hub is 0.69.3. The malicious versions 0.69.4, 0.69.5, and 0.69.6 have since been removed from the container image library. \"New image tags 0.69.5 and",
       "source": "thehackernews.com",
       "first_seen": "2026-03-23T09:53:49Z",
-      "last_seen": "2026-03-23T12:40:46Z"
+      "last_seen": "2026-03-23T14:07:31Z"
     },
     {
       "id": "53bc27a4f9e739fd4a1abf6ac78f7a4c99a9a84c",
@@ -140,7 +170,7 @@
       "description": "Microsoft has released an emergency update to address a major issue that breaks sign-ins with Microsoft accounts across multiple Microsoft apps, including Teams and OneDrive. [...]",
       "source": "bleepingcomputer.com",
       "first_seen": "2026-03-23T08:43:26Z",
-      "last_seen": "2026-03-23T12:40:46Z"
+      "last_seen": "2026-03-23T14:07:31Z"
     },
     {
       "id": "bd1388839fd6bb32b6989d1d942b655a3aea22ca",
@@ -170,7 +200,7 @@
       "description": "Threat actors are suspected to be exploiting a maximum-severity security flaw impacting Quest KACE Systems Management Appliance (SMA), according to Arctic Wolf. The cybersecurity company said it observed malicious activity starting the week of March 9, 2026, in customer environments that's consistent with the exploitation of CVE-2025-32975 on unpatched SMA systems exposed to the internet. It's",
       "source": "thehackernews.com",
       "first_seen": "2026-03-23T07:55:28Z",
-      "last_seen": "2026-03-23T12:40:46Z"
+      "last_seen": "2026-03-23T14:07:31Z"
     },
     {
       "id": "39977312fc5a53982a58cf7503c94fe75292f360",
@@ -180,7 +210,7 @@
       "description": "CVE-2026-21992 can be used without authentication for remote code execution and it may have been exploited in the wild. The post Oracle Releases Emergency Patch for Critical Identity Manager Vulnerability appeared first on SecurityWeek.",
       "source": "securityweek.com",
       "first_seen": "2026-03-23T06:03:52Z",
-      "last_seen": "2026-03-23T12:40:46Z"
+      "last_seen": "2026-03-23T14:07:31Z"
     },
     {
       "id": "caba3e5bf1e5aee1e12e54964006933d00b53356",
@@ -191,6 +221,16 @@
       "source": "cybersecuritynews.com",
       "first_seen": "2026-03-23T04:17:16Z",
       "last_seen": "2026-03-23T09:53:49Z"
+    },
+    {
+      "id": "cff9af28dbb0ac256cff591491d0309d6586cfd5",
+      "title": "AI Dominates RSAC Innovation Sandbox",
+      "link": "https://www.darkreading.com/cybersecurity-operations/ai-dominates-rsac-innovation-sandbox",
+      "date": "2026-03-22T11:40:03Z",
+      "description": "The 10 finalists will each have three minutes to make their case for being the most innovative, promising young security company of the year.",
+      "source": "darkreading.com",
+      "first_seen": "2026-03-23T14:07:31Z",
+      "last_seen": "2026-03-23T14:07:31Z"
     }
   ]
 }
