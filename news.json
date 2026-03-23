@@ -1,13 +1,41 @@
 {
-  "last_updated": "2026-03-23T08:43:26Z",
+  "last_updated": "2026-03-23T09:53:49Z",
   "count": 40,
   "items": [
+    {
+      "title": "FBI warns of Handala hackers using Telegram in malware attacks",
+      "link": "https://www.bleepingcomputer.com/news/security/fbi-warns-of-handala-hackers-using-telegram-in-malware-attacks/",
+      "date": "2026-03-23T09:45:55Z",
+      "description": "The U.S. Federal Bureau of Investigation (FBI) warned network defenders that Iranian hackers linked to the country's Ministry of Intelligence and Security (MOIS) are using Telegram in malware attacks. [...]",
+      "source": "bleepingcomputer.com"
+    },
+    {
+      "title": "New CanisterWorm Steals npm Tokens and Spreads Through Compromised Publisher Accounts",
+      "link": "https://cybersecuritynews.com/new-canisterworm-steals-npm-tokens/",
+      "date": "2026-03-23T09:40:45Z",
+      "description": "A new wave of supply chain attacks is hitting the npm ecosystem through a self-propagating malware campaign known as CanisterWorm. The threat, linked to a group tracked as “TeamPCP,” compromises legitimate publisher namespaces and pushes poisoned package versions, effectively turning trusted developer tools into silent delivery mechanisms for credential-stealing code. CanisterWorm first came to…",
+      "source": "cybersecuritynews.com"
+    },
+    {
+      "title": "CISA Warns of Apple Vulnerabilities Linked to DarkSword iOS Exploit Chain Exploited in Attacks",
+      "link": "https://cybersecuritynews.com/apple-vulnerabilities-darksword-ios-exploit/",
+      "date": "2026-03-23T09:03:58Z",
+      "description": "An urgent warning regarding three critical Apple vulnerabilities that threat actors are actively exploiting in the wild. These security flaws, officially tracked as CVE-2025-31277, CVE-2025-43510, and CVE-2025-43520, were recently added to CISA’s Known Exploited Vulnerabilities (KEV) catalog. Security researchers have linked this specific triad of vulnerabilities to the sophisticated DarkSword…",
+      "source": "cybersecuritynews.com"
+    },
     {
       "title": "CISA orders feds to patch DarkSword iOS flaws exploited attacks",
       "link": "https://www.bleepingcomputer.com/news/security/cisa-orders-feds-to-patch-darksword-ios-flaws-exploited-attacks/",
       "date": "2026-03-23T08:37:28Z",
       "description": "CISA ordered U.S. government agencies to patch three iOS vulnerabilities targeted in cryptocurrency theft and cyberespionage attacks using the DarkSword exploit kit. [...]",
       "source": "bleepingcomputer.com"
+    },
+    {
+      "title": "Trivy Hack Spreads Infostealer via Docker, Triggers Worm and Kubernetes Wiper",
+      "link": "https://thehackernews.com/2026/03/trivy-hack-spreads-infostealer-via.html",
+      "date": "2026-03-23T08:31:00Z",
+      "description": "Cybersecurity researchers have uncovered malicious artifacts distributed via Docker Hub following the Trivy supply chain attack, highlighting the widening blast radius across developer environments. The last known clean release of Trivy on Docker Hub is 0.69.3. The malicious versions 0.69.4, 0.69.5, and 0.69.6 have since been removed from the container image library. \"New image tags 0.69.5 and",
+      "source": "thehackernews.com"
     },
     {
       "title": "New KB5085516 emergency update fixes Microsoft account sign-in",
@@ -52,13 +80,6 @@
       "source": "cybersecuritynews.com"
     },
     {
-      "title": "AstraZeneca Data Breach – LAPSUS$ Group Allegedly Claims Access to Internal Data",
-      "link": "https://cybersecuritynews.com/astrazeneca-data-breach/",
-      "date": "2026-03-22T15:49:49Z",
-      "description": "The notorious hacking collective LAPSUS$ has resurfaced, allegedly claiming responsibility for a significant data breach involving the multinational pharmaceutical and biotechnology company AstraZeneca. The threat actors are currently attempting to sell a compressed 3GB internal data dump, signaling a potential shift towards pay-to-access extortion methods. LAPSUS$, previously known for…",
-      "source": "cybersecuritynews.com"
-    },
-    {
       "title": "VoidStealer malware steals Chrome master key via debugger trick",
       "link": "https://www.bleepingcomputer.com/news/security/voidstealer-malware-steals-chrome-master-key-via-debugger-trick/",
       "date": "2026-03-22T14:32:46Z",
@@ -70,13 +91,6 @@
       "link": "https://www.bleepingcomputer.com/news/security/trivy-vulnerability-scanner-breach-pushed-infostealer-via-github-actions/",
       "date": "2026-03-21T17:30:41Z",
       "description": "The Trivy vulnerability scanner was compromised in a supply-chain attack by threat actors known as TeamPCP, which distributed credential-stealing malware through official releases and GitHub Actions. [...]",
-      "source": "bleepingcomputer.com"
-    },
-    {
-      "title": "Google adds ‘Advanced Flow’ for safe APK sideloading on Android",
-      "link": "https://www.bleepingcomputer.com/news/security/google-adds-advanced-flow-for-safe-apk-sideloading-on-android/",
-      "date": "2026-03-21T14:18:23Z",
-      "description": "Google has announced a new mechanism in Android called Advanced Flow that will allow sideloading APKs from unverified developers for power users in a more secure way. [...]",
       "source": "bleepingcomputer.com"
     },
     {
@@ -101,24 +115,10 @@
       "source": "thehackernews.com"
     },
     {
-      "title": "Hackers Compromise Trivy Scanner to Inject malicious Scripts and Steal Login Credentials",
-      "link": "https://cybersecuritynews.com/malicious-script-injection-in-trivy/",
-      "date": "2026-03-21T08:53:35Z",
-      "description": "A sophisticated supply chain attack targeting the official Trivy GitHub Action (aquasecurity/trivy-action) has compromised continuous integration and continuous deployment (CI/CD) pipelines globally. Disclosed in late March 2026, this incident marks the second distinct compromise affecting the Trivy ecosystem within a single month. Threat actors successfully force-pushed 75 out of 76 existing…",
-      "source": "cybersecuritynews.com"
-    },
-    {
       "title": "Trivy Supply Chain Attack Triggers Self-Spreading CanisterWorm Across 47 npm Packages",
       "link": "https://thehackernews.com/2026/03/trivy-supply-chain-attack-triggers-self.html",
       "date": "2026-03-21T08:25:00Z",
       "description": "The threat actors behind the supply chain attack targeting the popular Trivy scanner are suspected to be conducting follow-on attacks that have led to the compromise of a large number of npm packages with a previously undocumented self-propagating worm dubbed CanisterWorm. The name is a reference to the fact that the malware uses an ICP canister, which denotes a tamperproof smart contract on",
-      "source": "thehackernews.com"
-    },
-    {
-      "title": "CISA Flags Apple, Craft CMS, Laravel Bugs in KEV, Orders Patching by April 3, 2026",
-      "link": "https://thehackernews.com/2026/03/cisa-flags-apple-craft-cms-laravel-bugs.html",
-      "date": "2026-03-21T08:25:00Z",
-      "description": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Friday added five security flaws impacting Apple, Craft CMS, and Laravel Livewire to its Known Exploited Vulnerabilities (KEV) catalog, urging federal agencies to patch them by April 3, 2026. The vulnerabilities that have come under exploitation are listed below - CVE-2025-31277 (CVSS score: 8.8) - A vulnerability in Apple",
       "source": "thehackernews.com"
     },
     {
