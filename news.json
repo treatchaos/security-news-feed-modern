@@ -1,7 +1,42 @@
 {
-  "last_updated": "2026-03-26T16:02:04Z",
+  "last_updated": "2026-03-26T17:52:07Z",
   "count": 40,
   "items": [
+    {
+      "title": "CISA Warns of Langflow Code Injection Vulnerability Exploited in Attacks",
+      "link": "https://cybersecuritynews.com/langflow-code-injection-vulnerability/",
+      "date": "2026-03-26T16:33:49Z",
+      "description": "The Cybersecurity and Infrastructure Security Agency (CISA) has officially added a critical security flaw affecting the Langflow platform to its Known Exploited Vulnerabilities (KEV) catalog on March 25, 2026. The vulnerability, tracked as CVE-2026-33017, involves a highly dangerous code injection issue that is currently being actively exploited in the wild. Langflow operates as a popular […]…",
+      "source": "cybersecuritynews.com"
+    },
+    {
+      "title": "IDrive for Windows Vulnerability Let Attackers Escalate Privileges",
+      "link": "https://cybersecuritynews.com/idrive-for-windows-vulnerability/",
+      "date": "2026-03-26T16:24:04Z",
+      "description": "A critical local privilege escalation vulnerability has been identified in the IDrive Cloud Backup Client for Windows. Tracked as CVE-2026-1995, this local privilege escalation vulnerability affects the IDrive Cloud Backup Client for Windows, specifically targeting versions 7.0.0.63 and earlier. Security researchers at FRSecure discovered that weak permission configurations within the…",
+      "source": "cybersecuritynews.com"
+    },
+    {
+      "title": "GhostClaw AI Assisted Malware Attacking macOS Users to Deploy Credential-Stealing Payloads",
+      "link": "https://cybersecuritynews.com/ghostclaw-ai-assisted-malware/",
+      "date": "2026-03-26T16:17:43Z",
+      "description": "A new malware campaign called GhostClaw is actively targeting macOS users through fake GitHub repositories and AI-assisted development workflows. The campaign uses social engineering disguised as legitimate developer tools to steal user credentials and drop secondary payloads on infected systems. GhostClaw first surfaced in early March 2026, when JFrog Security Research documented the initial…",
+      "source": "cybersecuritynews.com"
+    },
+    {
+      "title": "LeakBase Hacker Forum Admin Arrested in Russia by Law Enforcement Authorities",
+      "link": "https://cybersecuritynews.com/leakbase-hacker-forum-admin-arrested/",
+      "date": "2026-03-26T16:17:34Z",
+      "description": "Russian law enforcement has arrested the suspected administrator of LeakBase, a prominent international hacker forum. The operation, coordinated by the Russian Ministry of Internal Affairs (MVD) alongside the Bureau of Special Technical Measures (BSTM), dismantled a platform that traded in stolen personal data and compromised network access for four years. Authorities apprehended the suspect in…",
+      "source": "cybersecuritynews.com"
+    },
+    {
+      "title": "Hackers Plant Stealthy BPFdoor Backdoors in Telecom Networks for Long-Term Access",
+      "link": "https://cybersecuritynews.com/bpfdoor-backdoors-telecom-networks/",
+      "date": "2026-03-26T16:14:00Z",
+      "description": "A months-long investigation by Rapid7 Labs has exposed a sophisticated, state-sponsored espionage campaign by the China-nexus threat actor Red Menshen, which has embedded some of the most covert digital sleeper cells ever documented inside global telecommunications infrastructure. Released on March 26, 2026, the findings reveal a deliberate shift from opportunistic hacking to long-term…",
+      "source": "cybersecuritynews.com"
+    },
     {
       "title": "UK sanctions Xinbi marketplace linked to Asian scam centers",
       "link": "https://www.bleepingcomputer.com/news/security/uk-sanctions-xinbi-marketplace-linked-to-asian-scam-centers/",
@@ -13,7 +48,7 @@
       "title": "How Organizations Can Use Blunders to Level Up Their Security Programs",
       "link": "https://www.darkreading.com/cybersecurity-operations/blunders-level-up-security-programs",
       "date": "2026-03-26T15:29:32Z",
-      "description": "The industry highlights how organizations repeatedly make common security mistakes but one session during RSAC detailed ways to avoid them.",
+      "description": "Organizations repeatedly expose ports, reuse passwords, and skip patches, creating security gaps that attackers exploit for breaches. An industry veteran outlines ways to fix these common mistakes.",
       "source": "darkreading.com"
     },
     {
@@ -22,20 +57,6 @@
       "date": "2026-03-26T14:44:16Z",
       "description": "AI models often hallucinate or make costly mistakes when tasked with recommending software versions, upgrade paths, and security fixes — leading to significant technical debt.",
       "source": "darkreading.com"
-    },
-    {
-      "title": "New Torg Grabber Stealer Moves From Telegram Exfiltration to Encrypted REST API C2",
-      "link": "https://cybersecuritynews.com/new-torg-grabber-stealer-moves-from-telegram/",
-      "date": "2026-03-26T14:40:53Z",
-      "description": "A new Malware-as-a-Service (MaaS) credential stealer named Torg Grabber has surfaced, showing remarkable development pace over just three months. Starting with simple Telegram-based data exfiltration, it matured into a fully encrypted REST API command-and-control (C2) infrastructure. With 334 samples compiled in that short period and more than 40 confirmed operator tags found in the binaries,…",
-      "source": "cybersecuritynews.com"
-    },
-    {
-      "title": "Fake Screenshot Lures Used to Infect Web3 Support Staff With Multi-Stage Malware",
-      "link": "https://cybersecuritynews.com/fake-screenshot-lures-used/",
-      "date": "2026-03-26T14:18:24Z",
-      "description": "A threat group known as APT-Q-27 has been running an active campaign against Web3 customer support teams, using fake screenshot links in live chat windows to silently install a persistent backdoor on victim machines. The attack targets the most human part of any organization — the support agent answering tickets — rather than exploiting software […] The post Fake Screenshot Lures Used to Infect…",
-      "source": "cybersecuritynews.com"
     },
     {
       "title": "TikTok for Business accounts targeted in new phishing campaign",
@@ -64,13 +85,6 @@
       "date": "2026-03-26T14:00:10Z",
       "description": "Multi-stage fraud attacks chain bots, proxies, and stolen credentials from signup to takeover. IPQS shows why correlating IP, device, identity, and behavior is critical to stop it. [...]",
       "source": "bleepingcomputer.com"
-    },
-    {
-      "title": "Silver Fox Abuses Stolen EV Certificates in AtlasCross RAT Malware Campaign",
-      "link": "https://cybersecuritynews.com/silver-fox-abuses-stolen-ev-certificates/",
-      "date": "2026-03-26T13:36:59Z",
-      "description": "The Chinese-nexus advanced persistent threat group Silver Fox, also tracked as Void Arachne and SwimSnake, is actively targeting Chinese-speaking users and professionals with a sophisticated AtlasCross RAT campaign. Security researcher Maurice Fielenbach of Hexastrike found that threat actors leveraging typosquatted domains impersonating trusted software brands like Surfshark, Signal, and Zoom…",
-      "source": "cybersecuritynews.com"
     },
     {
       "title": "BIND Updates Patch High-Severity Vulnerabilities",
@@ -129,13 +143,6 @@
       "source": "thehackernews.com"
     },
     {
-      "title": "Synology DiskStation Manager Vulnerability Allow Remote Attackers to Execute Arbitrary Commands",
-      "link": "https://cybersecuritynews.com/synology-diskstation-manager-vulnerability/",
-      "date": "2026-03-26T11:53:32Z",
-      "description": "A critical security advisory has been issued for a severe vulnerability in DiskStation Manager (DSM) that allows unauthenticated remote attackers to execute arbitrary commands. Given the widespread use of Synology network-attached storage (NAS) systems for enterprise backups and data management, network administrators are strongly urged to apply the available patches immediately. Tracked as…",
-      "source": "cybersecuritynews.com"
-    },
-    {
       "title": "ThreatsDay Bulletin: PQC Push, AI Vuln Hunting, Pirated Traps, Phishing Kits & 20 More Stories",
       "link": "https://thehackernews.com/2026/03/threatsday-bulletin-pqc-push-ai-vuln.html",
       "date": "2026-03-26T11:45:00Z",
@@ -150,18 +157,25 @@
       "source": "thehackernews.com"
     },
     {
-      "title": "Cisco Secure Firewall Vulnerability Allows Remote Code Execution as Root User",
-      "link": "https://cybersecuritynews.com/critical-cisco-secure-firewall-vulnerability/",
-      "date": "2026-03-26T11:04:34Z",
-      "description": "Cisco has released an urgent security advisory addressing a critical vulnerability in its Secure Firewall Management Center (FMC) software. This severe flaw allows unauthenticated remote attackers to execute arbitrary code with full root privileges. CVE-2026-20131 is a critical vulnerability with a CVSS score of 10.0, stemming from insecure deserialization (CWE-502) and is exploitable remotely…",
-      "source": "cybersecuritynews.com"
-    },
-    {
       "title": "Alleged RedLine Malware Administrator Extradited to US",
       "link": "https://www.securityweek.com/alleged-redline-malware-administrator-extradited-to-us/",
       "date": "2026-03-26T10:06:56Z",
       "description": "Hambardzum Minasyan of Armenia has been accused of being involved in the development and administration of the infostealer malware. The post Alleged RedLine Malware Administrator Extradited to US appeared first on SecurityWeek.",
       "source": "securityweek.com"
+    },
+    {
+      "title": "ZDI-CAN-30207: Telegram",
+      "link": "http://www.zerodayinitiative.com/advisories/upcoming/",
+      "date": "2026-03-26T05:00:00Z",
+      "description": "A CVSS score 9.8 AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H severity vulnerability discovered by 'Michael DePlante (@izobashi) of TrendAI Zero Day Initiative' was reported to the affected vendor on: 2026-03-26, 0 days ago. The vendor is given until 2026-07-24 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
+      "source": "zerodayinitiative.com"
+    },
+    {
+      "title": "ZDI-CAN-29464: Meta",
+      "link": "http://www.zerodayinitiative.com/advisories/upcoming/",
+      "date": "2026-03-26T05:00:00Z",
+      "description": "A CVSS score 7.8 AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H severity vulnerability discovered by 'Mat Powell of TrendAI Zero Day Initiative' was reported to the affected vendor on: 2026-03-26, 0 days ago. The vendor is given until 2026-07-24 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
+      "source": "zerodayinitiative.com"
     },
     {
       "title": "At RSAC, the EU Leads While US Officials Are Sidelined",
@@ -203,20 +217,6 @@
       "link": "http://www.zerodayinitiative.com/advisories/upcoming/",
       "date": "2026-03-25T05:00:00Z",
       "description": "A CVSS score 7.8 AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H severity vulnerability discovered by 'rgod' was reported to the affected vendor on: 2026-03-25, 1 days ago. The vendor is given until 2026-07-23 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
-      "source": "zerodayinitiative.com"
-    },
-    {
-      "title": "ZDI-CAN-30097: WatchGuard",
-      "link": "http://www.zerodayinitiative.com/advisories/upcoming/",
-      "date": "2026-03-25T05:00:00Z",
-      "description": "A CVSS score 5.9 AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H severity vulnerability discovered by 'Nicholas Zubrisky (@NZubrisky) of TrendAI Research' was reported to the affected vendor on: 2026-03-25, 1 days ago. The vendor is given until 2026-07-23 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
-      "source": "zerodayinitiative.com"
-    },
-    {
-      "title": "ZDI-CAN-28806: Oracle",
-      "link": "http://www.zerodayinitiative.com/advisories/upcoming/",
-      "date": "2026-03-25T05:00:00Z",
-      "description": "A CVSS score 7.5 AV:L/AC:H/PR:H/UI:N/S:C/C:H/I:H/A:H severity vulnerability discovered by 'VMBreakers(SANGBIN KIM, GANGMIN KIM, Un3xploitable)' was reported to the affected vendor on: 2026-03-25, 1 days ago. The vendor is given until 2026-07-23 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
       "source": "zerodayinitiative.com"
     },
     {
