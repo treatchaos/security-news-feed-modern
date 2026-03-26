@@ -1,7 +1,21 @@
 {
-  "last_updated": "2026-03-26T10:42:25Z",
+  "last_updated": "2026-03-26T11:41:29Z",
   "count": 40,
   "items": [
+    {
+      "title": "Cisco Secure Firewall Vulnerability Allows Remote Code Execution as Root User",
+      "link": "https://cybersecuritynews.com/critical-cisco-secure-firewall-vulnerability/",
+      "date": "2026-03-26T11:04:34Z",
+      "description": "Cisco has released an urgent security advisory addressing a critical vulnerability in its Secure Firewall Management Center (FMC) software. This severe flaw allows unauthenticated remote attackers to execute arbitrary code with full root privileges. CVE-2026-20131 is a critical vulnerability with a CVSS score of 10.0, stemming from insecure deserialization (CWE-502) and is exploitable remotely…",
+      "source": "cybersecuritynews.com"
+    },
+    {
+      "title": "Microsoft Entra ID New Feature Removes MFA Limitations for Users",
+      "link": "https://cybersecuritynews.com/microsoft-entra-id-mfa-limitations/",
+      "date": "2026-03-26T10:47:49Z",
+      "description": "Multifactor authentication operates as a critical defense mechanism for securing user identities against targeted cyber attacks. Microsoft reports that implementing MFA effectively reduces the risk of account compromise by more than 99%. To expand these protections, Microsoft has announced the General Availability of external multifactor authentication for Microsoft Entra ID. This release…",
+      "source": "cybersecuritynews.com"
+    },
     {
       "title": "Alleged RedLine Malware Administrator Extradited to US",
       "link": "https://www.securityweek.com/alleged-redline-malware-administrator-extradited-to-us/",
@@ -38,25 +52,11 @@
       "source": "cybersecuritynews.com"
     },
     {
-      "title": "Fake VS Code Security Alerts on GitHub Used to Push Malware in Widespread Phishing Campaign",
-      "link": "https://cybersecuritynews.com/fake-vs-code-security-alerts-on-github/",
-      "date": "2026-03-26T07:00:54Z",
-      "description": "A large-scale phishing campaign is targeting software developers on GitHub, using fake Visual Studio Code security alerts posted in GitHub Discussions to trick users into downloading malicious software. The attacks are designed to look like legitimate security advisories, warning developers of critical vulnerabilities in VS Code and urging them to install a so-called “patched” version […] The…",
-      "source": "cybersecuritynews.com"
-    },
-    {
       "title": "WebRTC Skimmer Bypasses CSP to Steal Payment Data from E-Commerce Sites",
       "link": "https://thehackernews.com/2026/03/webrtc-skimmer-bypasses-csp-to-steal.html",
       "date": "2026-03-26T06:53:00Z",
       "description": "Cybersecurity researchers have discovered a new payment skimmer that uses WebRTC data channels as a means to receive payloads and exfiltrate data, effectively bypassing security controls. \"Instead of the usual HTTP requests or image beacons, this malware uses WebRTC data channels to load its payload and exfiltrate stolen payment data,\" Sansec said in a report published this week. The attack,",
       "source": "thehackernews.com"
-    },
-    {
-      "title": "Ghost SPN Attack Lets Hackers Conduct Stealthy Kerberoasting Under the Radar",
-      "link": "https://cybersecuritynews.com/ghost-spn-attack/",
-      "date": "2026-03-26T05:09:28Z",
-      "description": "A sophisticated evolution of Kerberoasting dubbed the “Ghost SPN” attack that allows adversaries to extract Active Directory credentials while erasing all traces of their activity, rendering traditional detection models effectively blind to the intrusion. The attack revealed by Trellix security researchers utilizes delegated administrative permissions, creating temporary exposure windows.…",
-      "source": "cybersecuritynews.com"
     },
     {
       "title": "GitHub adds AI-powered bug detection to expand security coverage",
