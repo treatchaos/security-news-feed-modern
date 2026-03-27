@@ -1,7 +1,37 @@
 {
   "date": "2026-03-27",
-  "count": 3,
+  "count": 6,
   "items": [
+    {
+      "id": "aeb7081abe89eeb5509bc413d47624d43905681f",
+      "title": "Fake Cloudflare CAPTCHA Pages Spread Infiniti Stealer Malware on macOS Systems",
+      "link": "https://cybersecuritynews.com/fake-cloudflare-captcha-pages-spread-infiniti-stealer/",
+      "date": "2026-03-27T07:50:00Z",
+      "description": "A new macOS malware that was undocumented previously, is quietly tricking users through fake Cloudflare human verification pages. Called Infiniti Stealer, this threat uses a well-known social engineering trick called ClickFix to convince Mac users into running dangerous commands directly on their own machines, bypassing the need for any software vulnerability or exploit. For a […] The post Fake…",
+      "source": "cybersecuritynews.com",
+      "first_seen": "2026-03-27T07:53:32Z",
+      "last_seen": "2026-03-27T07:53:32Z"
+    },
+    {
+      "id": "f20b9cf07d5f26e72541c8acd983cbbb7b391a4b",
+      "title": "New Windows Error Reporting Vulnerability Lets Attackers Escalate to Gain SYSTEM Access",
+      "link": "https://cybersecuritynews.com/new-windows-error-reporting-vulnerability/",
+      "date": "2026-03-27T07:14:48Z",
+      "description": "A newly analyzed local privilege escalation vulnerability in the Windows Error Reporting (WER) service allows attackers to easily gain full SYSTEM access. The flaw, tracked as CVE-2026-20817, was considered so structurally dangerous that Microsoft completely removed the vulnerable feature rather than attempting a traditional code patch.​ The security flaw exists within the main executable…",
+      "source": "cybersecuritynews.com",
+      "first_seen": "2026-03-27T07:53:32Z",
+      "last_seen": "2026-03-27T07:53:32Z"
+    },
+    {
+      "id": "04257d042fe09c568411d796573d31486491bdc6",
+      "title": "ISC Warns of High-Severity Kea DHCP Flaw That Can Crash Services Remotely",
+      "link": "https://cybersecuritynews.com/isc-warns-kea-dhcp-flaw/",
+      "date": "2026-03-27T07:08:38Z",
+      "description": "The Internet Systems Consortium (ISC) has released a critical security advisory warning network administrators of a high-severity vulnerability affecting the Kea DHCP server. Tracked as CVE-2026-3608, this flaw allows unauthenticated remote attackers to trigger a stack overflow error. When successfully exploited, the vulnerability causes the receiving daemon to crash, resulting in a sudden and…",
+      "source": "cybersecuritynews.com",
+      "first_seen": "2026-03-27T07:53:32Z",
+      "last_seen": "2026-03-27T07:53:32Z"
+    },
     {
       "id": "19975499a3ea77434b5eebc69bf2ef6af702869a",
       "title": "Anthropic’s Leaked Drafts Expose Powerful New AI Model “Claude Mythos”",
@@ -10,7 +40,7 @@
       "description": "Anthropic has inadvertently exposed highly sensitive internal documents, revealing the existence of a powerful, unreleased AI model dubbed “Claude Mythos.” The leak, which stems from an unsecured and publicly searchable data cache, has raised immediate alarms within the cybersecurity community, particularly due to internal assessments indicating the new model presents unprecedented cybersecurity…",
       "source": "cybersecuritynews.com",
       "first_seen": "2026-03-27T06:06:40Z",
-      "last_seen": "2026-03-27T06:06:40Z"
+      "last_seen": "2026-03-27T07:53:32Z"
     },
     {
       "id": "8a717d6e2e78df805f0a390d5082d4b9c4155ca4",
@@ -20,7 +50,7 @@
       "description": "A critical zero-click vulnerability in Anthropic’s Claude Chrome Extension exposed over 3 million users to silent prompt-injection attacks, allowing malicious websites to hijack the AI assistant without user interaction. The flaw, now patched, could have enabled attackers to steal Gmail access tokens, read Google Drive files, export chat history, and send emails all invisibly. The […] The post…",
       "source": "cybersecuritynews.com",
       "first_seen": "2026-03-27T04:25:23Z",
-      "last_seen": "2026-03-27T06:06:40Z"
+      "last_seen": "2026-03-27T07:53:32Z"
     },
     {
       "id": "61e91ea40a7049a661a070e9218a73757539384d",
