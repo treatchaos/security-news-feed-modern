@@ -1,7 +1,97 @@
 {
   "date": "2026-03-30",
-  "count": 14,
+  "count": 23,
   "items": [
+    {
+      "id": "d5b03211fc8655c0067430802a3042aff589e357",
+      "title": "The State of Secrets Sprawl 2026: 9 Takeaways for CISOs",
+      "link": "https://thehackernews.com/2026/03/the-state-of-secrets-sprawl-2026-9.html",
+      "date": "2026-03-30T11:30:00Z",
+      "description": "Secrets sprawl isn't slowing down: in 2025, it accelerated faster than most security teams anticipated. GitGuardian's State of Secrets Sprawl 2026 report analyzed billions of commits across public GitHub and uncovered 29 million new hardcoded secrets in 2025 alone, a 34% increase year over year and the largest single-year jump ever recorded. This year's findings reveal three core trends: AI has",
+      "source": "thehackernews.com",
+      "first_seen": "2026-03-30T11:46:40Z",
+      "last_seen": "2026-03-30T11:46:40Z"
+    },
+    {
+      "id": "838895f745f12e8002c1ffdd66d4635f396a46dd",
+      "title": "European Commission Reports Cyber Intrusion and Data Theft",
+      "link": "https://www.securityweek.com/european-commission-reports-cyber-intrusion-and-data-theft/",
+      "date": "2026-03-30T11:29:45Z",
+      "description": "The ShinyHunters hacker group claimed to have stolen over 350GB of information from European Commission cloud systems. The post European Commission Reports Cyber Intrusion and Data Theft appeared first on SecurityWeek.",
+      "source": "securityweek.com",
+      "first_seen": "2026-03-30T11:46:40Z",
+      "last_seen": "2026-03-30T11:46:40Z"
+    },
+    {
+      "id": "b4a1766aefb480aea87d176b12bb986d149a50c3",
+      "title": "Critical Grafana Vulnerabilities Let Attackers Achieve Remote Code Execution",
+      "link": "https://cybersecuritynews.com/grafana-vulnerabilities-rce/",
+      "date": "2026-03-30T11:16:05Z",
+      "description": "Urgent security updates for Grafana version 12.4.2 address two critical vulnerabilities that could allow attackers to achieve full remote code execution (RCE) and execute denial-of-service (DoS) attacks. System administrators utilizing Grafana for data visualization are strongly advised to apply these backported patches immediately to prevent potential system compromise. The most severe…",
+      "source": "cybersecuritynews.com",
+      "first_seen": "2026-03-30T11:46:40Z",
+      "last_seen": "2026-03-30T11:46:40Z"
+    },
+    {
+      "id": "6a650121214ba6f6bf382198c0eeda7ad625565d",
+      "title": "Hacked Hospitals, Hidden Spyware: Iran Conflict Shows How Digital Fight Is Ingrained in Warfare",
+      "link": "https://www.securityweek.com/hacked-hospitals-hidden-spyware-iran-conflict-shows-how-digital-fight-is-ingrained-in-warfare/",
+      "date": "2026-03-30T11:09:49Z",
+      "description": "Iran-linked hacking groups are turning to high-volume, low-impact cyberattacks, and AI is providing a boost. The post Hacked Hospitals, Hidden Spyware: Iran Conflict Shows How Digital Fight Is Ingrained in Warfare appeared first on SecurityWeek.",
+      "source": "securityweek.com",
+      "first_seen": "2026-03-30T11:46:40Z",
+      "last_seen": "2026-03-30T11:46:40Z"
+    },
+    {
+      "id": "eeaf4ff9489af08d4da3370c35ce821a062749de",
+      "title": "Critical n8n Vulnerability Let Attackers Achieve Remote Code Execution",
+      "link": "https://cybersecuritynews.com/n8n-vulnerability/",
+      "date": "2026-03-30T11:08:42Z",
+      "description": "A critical security flaw in n8n, a widely used open-source workflow automation platform, exposes host servers to Remote Code Execution (RCE) attacks. Tracked as CVE-2026-33660, this critical vulnerability allows authenticated threat actors to bypass built-in security restrictions, access sensitive data, and ultimately compromise the entire underlying host instance. AlaSQL Sandbox Escape The core…",
+      "source": "cybersecuritynews.com",
+      "first_seen": "2026-03-30T11:46:40Z",
+      "last_seen": "2026-03-30T11:46:40Z"
+    },
+    {
+      "id": "03f4a27d1160f3fd6e6fbebf439403151515c6dd",
+      "title": "Hackers now exploit critical F5 BIG-IP flaw in attacks, patch now",
+      "link": "https://www.bleepingcomputer.com/news/security/hackers-now-exploit-critical-f5-big-ip-flaw-in-attacks-patch-now/",
+      "date": "2026-03-30T10:59:38Z",
+      "description": "F5 has reclassified a BIG-IP APM denial-of-service (DoS) vulnerability as a critical-severity remote code execution (RCE) flaw, warning that attackers are exploiting it to deploy webshells on unpatched devices. [...]",
+      "source": "bleepingcomputer.com",
+      "first_seen": "2026-03-30T11:46:40Z",
+      "last_seen": "2026-03-30T11:46:40Z"
+    },
+    {
+      "id": "4ac500b61fd819521b71e5c4986411cd82e22f94",
+      "title": "TeamPCP Supply Chain Attack Allegedly Compromised Databricks Platform",
+      "link": "https://cybersecuritynews.com/databricks-teampcp-supply-chain/",
+      "date": "2026-03-30T10:58:36Z",
+      "description": "Databricks is currently investigating an alleged security compromise connected to the massive TeamPCP software supply chain attack after being alerted by threat intelligence researchers. According to International Cyber Digest, Databricks was notified of the potential breach last week. The organization reportedly took the alert seriously, scaling up its incident response teams immediately to…",
+      "source": "cybersecuritynews.com",
+      "first_seen": "2026-03-30T11:46:40Z",
+      "last_seen": "2026-03-30T11:46:40Z"
+    },
+    {
+      "id": "22afc668b20048f65cd6a618b7451a9e5614d6a6",
+      "title": "Telnyx Targeted in Growing TeamPCP Supply Chain Attack",
+      "link": "https://www.securityweek.com/telnyx-targeted-in-growing-teampcp-supply-chain-attack/",
+      "date": "2026-03-30T10:53:46Z",
+      "description": "Two malicious versions of the popular SDK were uploaded to the PyPI registry, targeting Windows, macOS, and Linux. The post Telnyx Targeted in Growing TeamPCP Supply Chain Attack appeared first on SecurityWeek.",
+      "source": "securityweek.com",
+      "first_seen": "2026-03-30T11:46:40Z",
+      "last_seen": "2026-03-30T11:46:40Z"
+    },
+    {
+      "id": "1ba7a315a236ff278682b1c0fbb6946d84ebca84",
+      "title": "Russian CTRL Toolkit Delivered via Malicious LNK Files Hijacks RDP via FRP Tunnels",
+      "link": "https://thehackernews.com/2026/03/russian-ctrl-toolkit-delivered-via.html",
+      "date": "2026-03-30T09:58:00Z",
+      "description": "Cybersecurity researchers have discovered a remote access toolkit of Russian-origin that's distributed via malicious Windows shortcut (LNK) files that are disguised as private key folders. The CTRL toolkit, according to Censys, is custom-built using .NET and includes various executables\" to facilitate credential phishing, keylogging, Remote Desktop Protocol (RDP) hijacking, and reverse tunneling",
+      "source": "thehackernews.com",
+      "first_seen": "2026-03-30T11:46:40Z",
+      "last_seen": "2026-03-30T11:46:40Z"
+    },
     {
       "id": "7092914c4abbb90afc6fb3d962f7bd5df7545ee8",
       "title": "Microsoft pulls KB5079391 Windows update over install issues",
@@ -10,7 +100,7 @@
       "description": "Microsoft has pulled a buggy Windows 11 non-security preview update to investigate a known issue that triggers 0x80073712 errors during installation. [...]",
       "source": "bleepingcomputer.com",
       "first_seen": "2026-03-30T10:06:06Z",
-      "last_seen": "2026-03-30T10:06:06Z"
+      "last_seen": "2026-03-30T11:46:40Z"
     },
     {
       "id": "0fe42ac4dcc70816c302c2207a9089ba9139367c",
@@ -20,7 +110,7 @@
       "description": "A critical SQL injection vulnerability in Fortinet’s FortiClient Endpoint Management Server (EMS), tracked as CVE-2026-21643, is actively being exploited in the wild. Threat actors have been leveraging this flaw in attacks starting four days ago, despite it not yet appearing on the CISA Known Exploited Vulnerabilities catalog. The security flaw affects FortiClient EMS version 7.4.4, […] The post…",
       "source": "cybersecuritynews.com",
       "first_seen": "2026-03-30T10:06:06Z",
-      "last_seen": "2026-03-30T10:06:06Z"
+      "last_seen": "2026-03-30T11:46:40Z"
     },
     {
       "id": "3f93f914fca927deed60dadaffb0d22897fb3bfe",
@@ -30,7 +120,7 @@
       "description": "The critical-severity flaw leaks application memory and can be exploited to obtain authenticated administrative session IDs. The post Exploitation of Fresh Citrix NetScaler Vulnerability Begins appeared first on SecurityWeek.",
       "source": "securityweek.com",
       "first_seen": "2026-03-30T10:06:06Z",
-      "last_seen": "2026-03-30T10:06:06Z"
+      "last_seen": "2026-03-30T11:46:40Z"
     },
     {
       "id": "254467ffb173e9d628292da42fa82df83cb88a4c",
@@ -40,7 +130,7 @@
       "description": "Starting April 1, 2026, the Indian government will effectively ban Chinese video surveillance giants, including Hikvision, Dahua, and TP-Link, from selling internet-connected CCTV cameras in the country. This decisive market restriction stems from new mandatory certification rules driven by national security concerns regarding foreign hardware. The Ministry of Electronics and Information…",
       "source": "cybersecuritynews.com",
       "first_seen": "2026-03-30T08:16:01Z",
-      "last_seen": "2026-03-30T10:06:06Z"
+      "last_seen": "2026-03-30T11:46:40Z"
     },
     {
       "id": "25c1058c630ee149a20d8fd8193c57d095ecbc6b",
@@ -50,7 +140,7 @@
       "description": "The agency said Iranian hackers targeted the director’s personal email account and noted that the compromised information is old. The post FBI Confirms Kash Patel Email Hack as US Offers $10M Reward for Hackers appeared first on SecurityWeek.",
       "source": "securityweek.com",
       "first_seen": "2026-03-30T08:16:01Z",
-      "last_seen": "2026-03-30T10:06:06Z"
+      "last_seen": "2026-03-30T11:46:40Z"
     },
     {
       "id": "cd31a0a8f5e90559610371d5c7997de03acf3115",
@@ -60,7 +150,7 @@
       "description": "Attackers are now actively exploiting a critical vulnerability in Fortinet's FortiClient EMS platform, according to threat intelligence company Defused. [...]",
       "source": "bleepingcomputer.com",
       "first_seen": "2026-03-30T08:16:01Z",
-      "last_seen": "2026-03-30T10:06:06Z"
+      "last_seen": "2026-03-30T11:46:40Z"
     },
     {
       "id": "337540af05a15b9b7ddb260f487465e01086038a",
@@ -90,7 +180,7 @@
       "description": "Three threat activity clusters aligned with China have targeted a government organization in Southeast Asia as part of what has been described as a \"complex and well-resourced operation.\" The campaigns have led to the deployment of various malware families, including HIUPAN (aka USBFect, MISTCLOAK, or U2DiskWatch), PUBLOAD, EggStremeFuel (aka RawCookie), EggStremeLoader (aka Gorem RAT), MASOL",
       "source": "thehackernews.com",
       "first_seen": "2026-03-30T08:16:01Z",
-      "last_seen": "2026-03-30T10:06:06Z"
+      "last_seen": "2026-03-30T11:46:40Z"
     },
     {
       "id": "39e748ad652cf8548cf525e6dee51d932bea8cf3",
@@ -100,7 +190,7 @@
       "description": "The European Commission has confirmed a data breach after its Europa.eu web platform was hacked in a cyberattack claimed by the ShinyHunters extortion gang. [...]",
       "source": "bleepingcomputer.com",
       "first_seen": "2026-03-30T08:16:01Z",
-      "last_seen": "2026-03-30T10:06:06Z"
+      "last_seen": "2026-03-30T11:46:40Z"
     },
     {
       "id": "7e6618fc5f4156441b0e95c42b9099652c4a69f1",
