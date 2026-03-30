@@ -1,7 +1,42 @@
 {
-  "last_updated": "2026-03-30T11:46:40Z",
+  "last_updated": "2026-03-30T12:53:09Z",
   "count": 40,
   "items": [
+    {
+      "title": "Stored XSS Bug in Jira Work Management Could Lead to Full Organization Takeover",
+      "link": "https://cybersecuritynews.com/stored-xss-bug-in-jira-work-management/",
+      "date": "2026-03-30T12:42:10Z",
+      "description": "A popular collaboration tool within the Atlassian ecosystem is widely used by organizations to track projects, manage approvals, and manage daily tasks. Recently, security researchers at Snapsec uncovered a critical Stored Cross-Site Scripting (XSS) vulnerability within the platform. By exploiting a seemingly low-risk configuration field, the team demonstrated how a low-privileged user could…",
+      "source": "cybersecuritynews.com"
+    },
+    {
+      "title": "Huskeys Emerges From Stealth With $8 Million in Funding",
+      "link": "https://www.securityweek.com/huskeys-emerges-from-stealth-with-8-million-in-funding/",
+      "date": "2026-03-30T12:40:27Z",
+      "description": "The startup has built an edge security management (ESM) platform, an AI engine atop the entire edge security stack. The post Huskeys Emerges From Stealth With $8 Million in Funding appeared first on SecurityWeek.",
+      "source": "securityweek.com"
+    },
+    {
+      "title": "CanisterWorm Malware Attacking Docker/K8s/Redis to Gain Access and Steal Secrets",
+      "link": "https://cybersecuritynews.com/canisterworm-malware-attacking-docker/",
+      "date": "2026-03-30T12:29:26Z",
+      "description": "A financially motivated cybercrime group has been quietly compromising cloud environments since late 2025, and its activities are now drawing serious concern across the security community. The group, known as TeamPCP, operates a self-propagating worm called CanisterWorm that hunts for poorly secured Docker APIs, Kubernetes clusters, Redis servers, and systems vulnerable to the React2Shell flaw.…",
+      "source": "cybersecuritynews.com"
+    },
+    {
+      "title": "Vim Vulnerability Let Attackers Execute Arbitrary Command Via Weaponized Files",
+      "link": "https://cybersecuritynews.com/vim-vulnerability/",
+      "date": "2026-03-30T12:08:12Z",
+      "description": "A high-severity security flaw has been discovered in Vim, one of the most widely used text editors among developers. This vulnerability allows attackers to execute arbitrary operating system commands simply by tricking a user into opening a specially crafted file. Discovered by security researcher Hung Nguyen, the bug chain highlights the persistent risks associated with how […] The post Vim…",
+      "source": "cybersecuritynews.com"
+    },
+    {
+      "title": "Russian APT Star Blizzard Adopts DarkSword iOS Exploit Kit",
+      "link": "https://www.securityweek.com/russian-apt-star-blizzard-adopts-darksword-ios-exploit-kit/",
+      "date": "2026-03-30T11:54:15Z",
+      "description": "The state-sponsored group’s campaign has targeted government, higher education, financial, and legal entities, as well as think tanks. The post Russian APT Star Blizzard Adopts DarkSword iOS Exploit Kit appeared first on SecurityWeek.",
+      "source": "securityweek.com"
+    },
     {
       "title": "The State of Secrets Sprawl 2026: 9 Takeaways for CISOs",
       "link": "https://thehackernews.com/2026/03/the-state-of-secrets-sprawl-2026-9.html",
@@ -45,13 +80,6 @@
       "source": "bleepingcomputer.com"
     },
     {
-      "title": "TeamPCP Supply Chain Attack Allegedly Compromised Databricks Platform",
-      "link": "https://cybersecuritynews.com/databricks-teampcp-supply-chain/",
-      "date": "2026-03-30T10:58:36Z",
-      "description": "Databricks is currently investigating an alleged security compromise connected to the massive TeamPCP software supply chain attack after being alerted by threat intelligence researchers. According to International Cyber Digest, Databricks was notified of the potential breach last week. The organization reportedly took the alert seriously, scaling up its incident response teams immediately to…",
-      "source": "cybersecuritynews.com"
-    },
-    {
       "title": "Telnyx Targeted in Growing TeamPCP Supply Chain Attack",
       "link": "https://www.securityweek.com/telnyx-targeted-in-growing-teampcp-supply-chain-attack/",
       "date": "2026-03-30T10:53:46Z",
@@ -71,34 +99,6 @@
       "date": "2026-03-30T09:38:45Z",
       "description": "Microsoft has pulled a buggy Windows 11 non-security preview update to investigate a known issue that triggers 0x80073712 errors during installation. [...]",
       "source": "bleepingcomputer.com"
-    },
-    {
-      "title": "Critical Fortinet Forticlient EMS Vulnerability Exploited in Attacks",
-      "link": "https://cybersecuritynews.com/forticlient-ems-vulnerability-exploited/",
-      "date": "2026-03-30T09:32:00Z",
-      "description": "A critical SQL injection vulnerability in Fortinet’s FortiClient Endpoint Management Server (EMS), tracked as CVE-2026-21643, is actively being exploited in the wild. Threat actors have been leveraging this flaw in attacks starting four days ago, despite it not yet appearing on the CISA Known Exploited Vulnerabilities catalog. The security flaw affects FortiClient EMS version 7.4.4, […] The post…",
-      "source": "cybersecuritynews.com"
-    },
-    {
-      "title": "Exploitation of Fresh Citrix NetScaler Vulnerability Begins",
-      "link": "https://www.securityweek.com/exploitation-of-fresh-citrix-netscaler-vulnerability-begins/",
-      "date": "2026-03-30T09:24:10Z",
-      "description": "The critical-severity flaw leaks application memory and can be exploited to obtain authenticated administrative session IDs. The post Exploitation of Fresh Citrix NetScaler Vulnerability Begins appeared first on SecurityWeek.",
-      "source": "securityweek.com"
-    },
-    {
-      "title": "India Set to Ban Sale of Hikvision, TP-Link, CCTV Products From April",
-      "link": "https://cybersecuritynews.com/india-ban-cctv-products/",
-      "date": "2026-03-30T08:09:26Z",
-      "description": "Starting April 1, 2026, the Indian government will effectively ban Chinese video surveillance giants, including Hikvision, Dahua, and TP-Link, from selling internet-connected CCTV cameras in the country. This decisive market restriction stems from new mandatory certification rules driven by national security concerns regarding foreign hardware. The Ministry of Electronics and Information…",
-      "source": "cybersecuritynews.com"
-    },
-    {
-      "title": "FBI Confirms Kash Patel Email Hack as US Offers $10M Reward for Hackers",
-      "link": "https://www.securityweek.com/fbi-confirms-kash-patel-email-hack-as-us-offers-10m-reward-for-hackers/",
-      "date": "2026-03-30T08:01:43Z",
-      "description": "The agency said Iranian hackers targeted the director’s personal email account and noted that the compromised information is old. The post FBI Confirms Kash Patel Email Hack as US Offers $10M Reward for Hackers appeared first on SecurityWeek.",
-      "source": "securityweek.com"
     },
     {
       "title": "Critical Fortinet Forticlient EMS flaw now exploited in attacks",
