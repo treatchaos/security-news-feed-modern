@@ -1,7 +1,28 @@
 {
-  "last_updated": "2026-03-30T15:59:30Z",
+  "last_updated": "2026-03-30T16:56:13Z",
   "count": 40,
   "items": [
+    {
+      "title": "North Korean IT Worker Allegedly Used Stolen Identity and AI Resume in Job Application Scam",
+      "link": "https://cybersecuritynews.com/north-korean-it-worker-allegedly-used-stolen-identity/",
+      "date": "2026-03-30T16:52:39Z",
+      "description": "A suspected North Korean operative tried to sneak into a remote job at a cybersecurity firm by using a stolen identity, a fake AI-generated resume, and a VoIP phone number. The case, uncovered in June 2025, shows how North Korea’s state-sponsored IT worker scheme has grown more sophisticated and harder to spot without proper screening. […] The post North Korean IT Worker Allegedly Used Stolen…",
+      "source": "cybersecuritynews.com"
+    },
+    {
+      "title": "CrySome RAT Emerges as Advanced .NET Malware With AV Killer and HVNC Capabilities",
+      "link": "https://cybersecuritynews.com/crysome-rat-emerges-as-advanced-net-malware/",
+      "date": "2026-03-30T16:30:44Z",
+      "description": "A new and dangerous piece of malware has surfaced in the threat landscape, and it is built to stay hidden, stay running, and stay in control of any system it infects. CrySome RAT is written in C# and targets the .NET ecosystem, giving attackers complete remote control over compromised Windows machines. From stealing passwords and […] The post CrySome RAT Emerges as Advanced .NET Malware With AV…",
+      "source": "cybersecuritynews.com"
+    },
+    {
+      "title": "New ClickFix Variant Uses Rundll32 and WebDAV to Evade PowerShell Detection",
+      "link": "https://cybersecuritynews.com/new-clickfix-variant-uses-rundll32/",
+      "date": "2026-03-30T16:01:26Z",
+      "description": "A new and more dangerous version of the ClickFix attack technique has been found actively targeting Windows users. Unlike older versions that used PowerShell or mshta to run malicious commands, this new variant takes a different path. It uses rundll32.exe and WebDAV, two built-in Windows components, to quietly deliver and execute harmful payloads without triggering […] The post New ClickFix…",
+      "source": "cybersecuritynews.com"
+    },
     {
       "title": "TA446 Hackers Deploying DarkSword Exploit Kit to Attack iOS Users",
       "link": "https://cybersecuritynews.com/ta446-hackers-deploying-darksword-exploit-kit/",
@@ -31,13 +52,6 @@
       "source": "securityweek.com"
     },
     {
-      "title": "Hackers Backdoor Telnyx Python SDK on PyPI to Steal Cloud and Dev Credentials",
-      "link": "https://cybersecuritynews.com/hackers-backdoor-telnyx-python-sdk/",
-      "date": "2026-03-30T14:15:55Z",
-      "description": "A widely used Python package was quietly turned into a weapon, and most developers who got hit had no idea it happened. On March 27, 2026, a threat actor known as TeamPCP uploaded two malicious versions of the Telnyx Python SDK to PyPI, the main repository where Python developers download software packages. The compromised versions, […] The post Hackers Backdoor Telnyx Python SDK on PyPI to…",
-      "source": "cybersecuritynews.com"
-    },
-    {
       "title": "Silent Drift: How LLMs Are Quietly Breaking Organizational Access Control",
       "link": "https://www.securityweek.com/silent-drift-how-llms-are-quietly-breaking-organizational-access-control/",
       "date": "2026-03-30T14:15:00Z",
@@ -52,25 +66,11 @@
       "source": "bleepingcomputer.com"
     },
     {
-      "title": "Open VSX’s New Scanner Vulnerability Allows Malicious Extension Goes Live",
-      "link": "https://cybersecuritynews.com/open-vsxs-new-scanner-vulnerability/",
-      "date": "2026-03-30T13:58:51Z",
-      "description": "A serious security flaw was recently found in Open VSX, the extension marketplace used by popular code editors like Cursor and Windsurf, as well as the broader VS Code fork ecosystem. The vulnerability was found inside the platform’s newly introduced pre-publish scanning pipeline, a security layer built to check every extension before it becomes available […] The post Open VSX’s New Scanner…",
-      "source": "cybersecuritynews.com"
-    },
-    {
       "title": "⚡ Weekly Recap: Telecom Sleeper Cells, LLM Jailbreaks, Apple Forces U.K. Age Checks and More",
       "link": "https://thehackernews.com/2026/03/weekly-recap-telecom-sleeper-cells-llm.html",
       "date": "2026-03-30T13:56:00Z",
       "description": "Some weeks are loud. This one was quieter but not in a good way. Long-running operations are finally hitting courtrooms, old attack methods are showing up in new places, and research that stopped being theoretical right around the time defenders stopped paying attention. There's a bit of everything this week. Persistence plays, legal wins, influence ops, and at least one thing that looks boring",
       "source": "thehackernews.com"
-    },
-    {
-      "title": "BlankGrabber Stealer Uses Fake Certificate Loader to Hide Malware Delivery Chain",
-      "link": "https://cybersecuritynews.com/blankgrabber-stealer-uses-fake-certificate-loader/",
-      "date": "2026-03-30T13:11:55Z",
-      "description": "A Python-based information stealer known as BlankGrabber has been caught using a deceptive certificate loader trick to hide a multi-stage malware delivery chain. First identified in 2023, this threat has grown more complex over time and keeps targeting everyday users through widely used online platforms. BlankGrabber is designed to steal as much sensitive data as […] The post BlankGrabber…",
-      "source": "cybersecuritynews.com"
     },
     {
       "title": "3 SOC Process Fixes That Unlock Tier 1 Productivity",
@@ -143,6 +143,20 @@
       "source": "thehackernews.com"
     },
     {
+      "title": "ZDI-CAN-29790: Linux",
+      "link": "http://www.zerodayinitiative.com/advisories/upcoming/",
+      "date": "2026-03-30T05:00:00Z",
+      "description": "A CVSS score 8.5 AV:N/AC:H/PR:L/UI:N/S:C/C:H/I:H/A:H severity vulnerability discovered by 'DongHyeon Hwang (kind_killerwhale)' was reported to the affected vendor on: 2026-03-30, 0 days ago. The vendor is given until 2026-07-28 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
+      "source": "zerodayinitiative.com"
+    },
+    {
+      "title": "ZDI-CAN-29838: LiteLLM",
+      "link": "http://www.zerodayinitiative.com/advisories/upcoming/",
+      "date": "2026-03-30T05:00:00Z",
+      "description": "A CVSS score 6.4 AV:N/AC:L/PR:L/UI:N/S:C/C:L/I:L/A:N severity vulnerability discovered by 'Javohir Abduxalilov (JavaSec.uz)' was reported to the affected vendor on: 2026-03-30, 0 days ago. The vendor is given until 2026-07-28 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
+      "source": "zerodayinitiative.com"
+    },
+    {
       "title": "China Upgrades the Backdoor It Uses to Spy on Telcos Globally",
       "link": "https://www.darkreading.com/threat-intelligence/china-upgrades-backdoor-spy-telcos",
       "date": "2026-03-27T16:48:49Z",
@@ -196,20 +210,6 @@
       "link": "http://www.zerodayinitiative.com/advisories/upcoming/",
       "date": "2026-03-26T05:00:00Z",
       "description": "A CVSS score 7.0 AV:L/AC:H/PR:N/UI:R/S:U/C:H/I:H/A:H severity vulnerability discovered by 'Michael DePlante (@izobashi) of TrendAI Zero Day Initiative' was reported to the affected vendor on: 2026-03-26, 4 days ago. The vendor is given until 2026-07-24 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
-      "source": "zerodayinitiative.com"
-    },
-    {
-      "title": "ZDI-CAN-29464: Meta",
-      "link": "http://www.zerodayinitiative.com/advisories/upcoming/",
-      "date": "2026-03-26T05:00:00Z",
-      "description": "A CVSS score 7.8 AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H severity vulnerability discovered by 'Mat Powell of TrendAI Zero Day Initiative' was reported to the affected vendor on: 2026-03-26, 4 days ago. The vendor is given until 2026-07-24 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
-      "source": "zerodayinitiative.com"
-    },
-    {
-      "title": "ZDI-CAN-29544: Meta",
-      "link": "http://www.zerodayinitiative.com/advisories/upcoming/",
-      "date": "2026-03-26T05:00:00Z",
-      "description": "A CVSS score 7.8 AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H severity vulnerability discovered by 'Mat Powell of TrendAI Zero Day Initiative' was reported to the affected vendor on: 2026-03-26, 4 days ago. The vendor is given until 2026-07-24 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
       "source": "zerodayinitiative.com"
     },
     {
