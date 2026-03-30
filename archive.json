@@ -1,8 +1,18 @@
 {
-  "last_updated": "2026-03-30T16:56:13Z",
+  "last_updated": "2026-03-30T17:44:21Z",
   "retention_days": 90,
-  "count": 3532,
+  "count": 3535,
   "items": [
+    {
+      "id": "8e4cfd9f4312324f82186e4515a6df9e16622c8b",
+      "title": "Exposed Server Reveals TheGentlemen Ransomware Toolkit, Victim Credentials, and Ngrok Tokens",
+      "link": "https://cybersecuritynews.com/exposed-server-reveals-thegentlemen-ransomware-toolkit/",
+      "date": "2026-03-30T17:30:34Z",
+      "description": "A misconfigured server hosted on a Russian bulletproof hosting provider has exposed the complete operational toolkit of a TheGentlemen ransomware affiliate, including harvested victim credentials and plaintext authentication tokens used to establish hidden remote access tunnels. TheGentlemen ransomware group operates as a Ransomware-as-a-Service, or RaaS, operation where affiliates carry out…",
+      "source": "cybersecuritynews.com",
+      "first_seen": "2026-03-30T17:44:21Z",
+      "last_seen": "2026-03-30T17:44:21Z"
+    },
     {
       "id": "60b0e565036bc5a5b2cb436deef5087c474ad8c1",
       "title": "North Korean IT Worker Allegedly Used Stolen Identity and AI Resume in Job Application Scam",
@@ -11,7 +21,7 @@
       "description": "A suspected North Korean operative tried to sneak into a remote job at a cybersecurity firm by using a stolen identity, a fake AI-generated resume, and a VoIP phone number. The case, uncovered in June 2025, shows how North Korea’s state-sponsored IT worker scheme has grown more sophisticated and harder to spot without proper screening. […] The post North Korean IT Worker Allegedly Used Stolen…",
       "source": "cybersecuritynews.com",
       "first_seen": "2026-03-30T16:56:13Z",
-      "last_seen": "2026-03-30T16:56:13Z"
+      "last_seen": "2026-03-30T17:44:21Z"
     },
     {
       "id": "c543127b026786ff2e2e8b2df3069752b0917343",
@@ -21,7 +31,7 @@
       "description": "A new and dangerous piece of malware has surfaced in the threat landscape, and it is built to stay hidden, stay running, and stay in control of any system it infects. CrySome RAT is written in C# and targets the .NET ecosystem, giving attackers complete remote control over compromised Windows machines. From stealing passwords and […] The post CrySome RAT Emerges as Advanced .NET Malware With AV…",
       "source": "cybersecuritynews.com",
       "first_seen": "2026-03-30T16:56:13Z",
-      "last_seen": "2026-03-30T16:56:13Z"
+      "last_seen": "2026-03-30T17:44:21Z"
     },
     {
       "id": "f7a522f2256751fc486541981a1a8f48e3122158",
@@ -31,7 +41,17 @@
       "description": "A new and more dangerous version of the ClickFix attack technique has been found actively targeting Windows users. Unlike older versions that used PowerShell or mshta to run malicious commands, this new variant takes a different path. It uses rundll32.exe and WebDAV, two built-in Windows components, to quietly deliver and execute harmful payloads without triggering […] The post New ClickFix…",
       "source": "cybersecuritynews.com",
       "first_seen": "2026-03-30T16:56:13Z",
-      "last_seen": "2026-03-30T16:56:13Z"
+      "last_seen": "2026-03-30T17:44:21Z"
+    },
+    {
+      "id": "698ad40d52d1b45deb0cf1bc3a7949974a147d5f",
+      "title": "DeepLoad Malware Uses ClickFix and WMI Persistence to Steal Browser Credentials",
+      "link": "https://thehackernews.com/2026/03/deepload-malware-uses-clickfix-and-wmi.html",
+      "date": "2026-03-30T15:47:00Z",
+      "description": "A new campaign has leveraged the ClickFix social engineering tactic as a way to distribute a previously undocumented malware loader referred to as DeepLoad. \"It likely uses AI-assisted obfuscation and process injection to evade static scanning, while credential theft starts immediately and captures passwords and sessions even if the primary loader is blocked,\" ReliaQuest researchers Thassanai",
+      "source": "thehackernews.com",
+      "first_seen": "2026-03-30T17:44:21Z",
+      "last_seen": "2026-03-30T17:44:21Z"
     },
     {
       "id": "8b21350775a7b18f1556f1683f0165b5f89c0f04",
@@ -41,7 +61,17 @@
       "description": "A known threat group called TA446 has been caught using a newly discovered exploit kit called DarkSword to target iOS users. This development marks a significant shift in the group’s tactics, as previous activity from TA446 showed no signs of exploit kit use at all. The campaign came to light around March 26, 2026, when […] The post TA446 Hackers Deploying DarkSword Exploit Kit to Attack iOS…",
       "source": "cybersecuritynews.com",
       "first_seen": "2026-03-30T15:59:30Z",
-      "last_seen": "2026-03-30T16:56:13Z"
+      "last_seen": "2026-03-30T17:44:21Z"
+    },
+    {
+      "id": "479ead89ac03b7b30166b17f810ee2a56c4e5c5b",
+      "title": "Storm Brews Over Critical, No-Click Telegram Flaw",
+      "link": "https://www.darkreading.com/application-security/storm-brews-critical-no-click-telegram-flaw",
+      "date": "2026-03-30T15:01:59Z",
+      "description": "The vulnerability, which is allegedly triggered by a corrupted sticker in the messaging app, received a 9.8 CVSS score, but Telegram denies it exists.",
+      "source": "darkreading.com",
+      "first_seen": "2026-03-30T17:44:21Z",
+      "last_seen": "2026-03-30T17:44:21Z"
     },
     {
       "id": "c53069e90cbae13cca3f14572e15f8058bc89e1b",
@@ -51,7 +81,7 @@
       "description": "Apple has introduced a security feature in macOS Tahoe 26.4 that blocks pasting and executing potentially harmful commands in Terminal and alerts users to possible risks. [...]",
       "source": "bleepingcomputer.com",
       "first_seen": "2026-03-30T15:59:30Z",
-      "last_seen": "2026-03-30T16:56:13Z"
+      "last_seen": "2026-03-30T17:44:21Z"
     },
     {
       "id": "1863e00cfa088a06d89d7b2244163c87981308a2",
@@ -71,7 +101,7 @@
       "description": "The company has disclosed a cybersecurity incident involving one of its electronic health record environments. The post Healthcare IT Platform CareCloud Probing Potential Data Breach appeared first on SecurityWeek.",
       "source": "securityweek.com",
       "first_seen": "2026-03-30T14:21:23Z",
-      "last_seen": "2026-03-30T16:56:13Z"
+      "last_seen": "2026-03-30T17:44:21Z"
     },
     {
       "id": "a1bdfe8b1970c03087eb85baa5ff1a39f9a277bf",
@@ -91,7 +121,7 @@
       "description": "LLMs can write complex Rego and Cedar code in seconds, but a single missing condition or hallucinated attribute can quietly dismantle your organization’s least-privilege security model. The post Silent Drift: How LLMs Are Quietly Breaking Organizational Access Control appeared first on SecurityWeek.",
       "source": "securityweek.com",
       "first_seen": "2026-03-30T14:21:23Z",
-      "last_seen": "2026-03-30T16:56:13Z"
+      "last_seen": "2026-03-30T17:44:21Z"
     },
     {
       "id": "7977dd37027acd70852fe07b7e4a2ef6c313b1cf",
@@ -101,7 +131,7 @@
       "description": "AI SOC agents can reduce alert fatigue, but most teams fail to measure real outcomes. Prophet Security breaks down Gartner's questions for evaluating AI SOC agents and separating real impact from hype. [...]",
       "source": "bleepingcomputer.com",
       "first_seen": "2026-03-30T14:21:23Z",
-      "last_seen": "2026-03-30T16:56:13Z"
+      "last_seen": "2026-03-30T17:44:21Z"
     },
     {
       "id": "898e92b6a527b4e3bece425cf73dbba014ad49df",
@@ -121,7 +151,7 @@
       "description": "Some weeks are loud. This one was quieter but not in a good way. Long-running operations are finally hitting courtrooms, old attack methods are showing up in new places, and research that stopped being theoretical right around the time defenders stopped paying attention. There's a bit of everything this week. Persistence plays, legal wins, influence ops, and at least one thing that looks boring",
       "source": "thehackernews.com",
       "first_seen": "2026-03-30T14:21:23Z",
-      "last_seen": "2026-03-30T16:56:13Z"
+      "last_seen": "2026-03-30T17:44:21Z"
     },
     {
       "id": "cde8bd28b0d1e80bb48b528ad3960e23a20b78b4",
@@ -141,7 +171,7 @@
       "description": "What is really slowing Tier 1 down: the threat itself or the process around it? In many SOCs, the biggest delays do not come from the threat alone. They come from fragmented workflows, manual triage steps, and limited visibility early in the investigation. Fixing those process gaps can help Tier 1 move faster, reduce unnecessary escalations, and improve how the entire SOC responds under pressure",
       "source": "thehackernews.com",
       "first_seen": "2026-03-30T14:21:23Z",
-      "last_seen": "2026-03-30T16:56:13Z"
+      "last_seen": "2026-03-30T17:44:21Z"
     },
     {
       "id": "9bac7d73da98d59c8e5bc6d7019363a1f4d16c79",
@@ -161,7 +191,7 @@
       "description": "The startup has built an edge security management (ESM) platform, an AI engine atop the entire edge security stack. The post Huskeys Emerges From Stealth With $8 Million in Funding appeared first on SecurityWeek.",
       "source": "securityweek.com",
       "first_seen": "2026-03-30T12:53:09Z",
-      "last_seen": "2026-03-30T16:56:13Z"
+      "last_seen": "2026-03-30T17:44:21Z"
     },
     {
       "id": "73112843dca6e11caf43b60f50ce5543bcf28fe7",
@@ -191,7 +221,7 @@
       "description": "The state-sponsored group’s campaign has targeted government, higher education, financial, and legal entities, as well as think tanks. The post Russian APT Star Blizzard Adopts DarkSword iOS Exploit Kit appeared first on SecurityWeek.",
       "source": "securityweek.com",
       "first_seen": "2026-03-30T12:53:09Z",
-      "last_seen": "2026-03-30T16:56:13Z"
+      "last_seen": "2026-03-30T17:44:21Z"
     },
     {
       "id": "d5b03211fc8655c0067430802a3042aff589e357",
@@ -201,7 +231,7 @@
       "description": "Secrets sprawl isn't slowing down: in 2025, it accelerated faster than most security teams anticipated. GitGuardian's State of Secrets Sprawl 2026 report analyzed billions of commits across public GitHub and uncovered 29 million new hardcoded secrets in 2025 alone, a 34% increase year over year and the largest single-year jump ever recorded. This year's findings reveal three core trends: AI has",
       "source": "thehackernews.com",
       "first_seen": "2026-03-30T11:46:40Z",
-      "last_seen": "2026-03-30T16:56:13Z"
+      "last_seen": "2026-03-30T17:44:21Z"
     },
     {
       "id": "838895f745f12e8002c1ffdd66d4635f396a46dd",
@@ -211,7 +241,7 @@
       "description": "The ShinyHunters hacker group claimed to have stolen over 350GB of information from European Commission cloud systems. The post European Commission Reports Cyber Intrusion and Data Theft appeared first on SecurityWeek.",
       "source": "securityweek.com",
       "first_seen": "2026-03-30T11:46:40Z",
-      "last_seen": "2026-03-30T16:56:13Z"
+      "last_seen": "2026-03-30T17:44:21Z"
     },
     {
       "id": "b4a1766aefb480aea87d176b12bb986d149a50c3",
@@ -251,7 +281,7 @@
       "description": "F5 has reclassified a BIG-IP APM denial-of-service (DoS) vulnerability as a critical-severity remote code execution (RCE) flaw, warning that attackers are exploiting it to deploy webshells on unpatched devices. [...]",
       "source": "bleepingcomputer.com",
       "first_seen": "2026-03-30T11:46:40Z",
-      "last_seen": "2026-03-30T16:56:13Z"
+      "last_seen": "2026-03-30T17:44:21Z"
     },
     {
       "id": "4ac500b61fd819521b71e5c4986411cd82e22f94",
@@ -281,7 +311,7 @@
       "description": "Cybersecurity researchers have discovered a remote access toolkit of Russian-origin that's distributed via malicious Windows shortcut (LNK) files that are disguised as private key folders. The CTRL toolkit, according to Censys, is custom-built using .NET and includes various executables\" to facilitate credential phishing, keylogging, Remote Desktop Protocol (RDP) hijacking, and reverse tunneling",
       "source": "thehackernews.com",
       "first_seen": "2026-03-30T11:46:40Z",
-      "last_seen": "2026-03-30T16:56:13Z"
+      "last_seen": "2026-03-30T17:44:21Z"
     },
     {
       "id": "7092914c4abbb90afc6fb3d962f7bd5df7545ee8",
@@ -291,7 +321,7 @@
       "description": "Microsoft has pulled a buggy Windows 11 non-security preview update to investigate a known issue that triggers 0x80073712 errors during installation. [...]",
       "source": "bleepingcomputer.com",
       "first_seen": "2026-03-30T10:06:06Z",
-      "last_seen": "2026-03-30T16:56:13Z"
+      "last_seen": "2026-03-30T17:44:21Z"
     },
     {
       "id": "0fe42ac4dcc70816c302c2207a9089ba9139367c",
@@ -341,7 +371,7 @@
       "description": "Attackers are now actively exploiting a critical vulnerability in Fortinet's FortiClient EMS platform, according to threat intelligence company Defused. [...]",
       "source": "bleepingcomputer.com",
       "first_seen": "2026-03-30T08:16:01Z",
-      "last_seen": "2026-03-30T16:56:13Z"
+      "last_seen": "2026-03-30T17:44:21Z"
     },
     {
       "id": "337540af05a15b9b7ddb260f487465e01086038a",
@@ -401,7 +431,7 @@
       "description": "A CVSS score 8.5 AV:N/AC:H/PR:L/UI:N/S:C/C:H/I:H/A:H severity vulnerability discovered by 'DongHyeon Hwang (kind_killerwhale)' was reported to the affected vendor on: 2026-03-30, 0 days ago. The vendor is given until 2026-07-28 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
       "source": "zerodayinitiative.com",
       "first_seen": "2026-03-30T16:56:13Z",
-      "last_seen": "2026-03-30T16:56:13Z"
+      "last_seen": "2026-03-30T17:44:21Z"
     },
     {
       "id": "3fe548d9a25eb944dae675ac3b3067866c31ca37",
@@ -411,7 +441,37 @@
       "description": "A CVSS score 6.4 AV:N/AC:L/PR:L/UI:N/S:C/C:L/I:L/A:N severity vulnerability discovered by 'Javohir Abduxalilov (JavaSec.uz)' was reported to the affected vendor on: 2026-03-30, 0 days ago. The vendor is given until 2026-07-28 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
       "source": "zerodayinitiative.com",
       "first_seen": "2026-03-30T16:56:13Z",
-      "last_seen": "2026-03-30T16:56:13Z"
+      "last_seen": "2026-03-30T17:44:21Z"
+    },
+    {
+      "id": "30c652e29dbc079f7dd428a3d8801288d62f1b35",
+      "title": "ZDI-CAN-29492: Foxit",
+      "link": "http://www.zerodayinitiative.com/advisories/upcoming/",
+      "date": "2026-03-30T05:00:00Z",
+      "description": "A CVSS score 7.8 AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H severity vulnerability discovered by 'Anonymous' was reported to the affected vendor on: 2026-03-30, 0 days ago. The vendor is given until 2026-07-28 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
+      "source": "zerodayinitiative.com",
+      "first_seen": "2026-03-30T17:44:21Z",
+      "last_seen": "2026-03-30T17:44:21Z"
+    },
+    {
+      "id": "4437493445fc3e46d7999325ae8529227b3c50c6",
+      "title": "ZDI-CAN-29522: libgme",
+      "link": "http://www.zerodayinitiative.com/advisories/upcoming/",
+      "date": "2026-03-30T05:00:00Z",
+      "description": "A CVSS score 7.8 AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H severity vulnerability discovered by 'MICHAEL RANDRIANANTENAINA [https://elkamika.blogspot.com/]' was reported to the affected vendor on: 2026-03-30, 0 days ago. The vendor is given until 2026-07-28 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
+      "source": "zerodayinitiative.com",
+      "first_seen": "2026-03-30T17:44:21Z",
+      "last_seen": "2026-03-30T17:44:21Z"
+    },
+    {
+      "id": "b152cc0d83924c683439d212e95e1798380c1d74",
+      "title": "ZDI-CAN-29939: MLflow",
+      "link": "http://www.zerodayinitiative.com/advisories/upcoming/",
+      "date": "2026-03-30T05:00:00Z",
+      "description": "A CVSS score 7.8 AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H severity vulnerability discovered by 'Mat Powell of TrendAI Zero Day Initiative' was reported to the affected vendor on: 2026-03-30, 0 days ago. The vendor is given until 2026-07-28 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
+      "source": "zerodayinitiative.com",
+      "first_seen": "2026-03-30T17:44:21Z",
+      "last_seen": "2026-03-30T17:44:21Z"
     },
     {
       "id": "ac77d89673668fd757f79f45c9af46da45b24fd4",
@@ -661,7 +721,7 @@
       "description": "Chinese APT Red Menshen's super-advanced BPFdoor malware defeats traditional cybersecurity protections. All telcos can do, really, is try hunting it down.",
       "source": "darkreading.com",
       "first_seen": "2026-03-27T17:41:24Z",
-      "last_seen": "2026-03-30T16:56:13Z"
+      "last_seen": "2026-03-30T17:44:21Z"
     },
     {
       "id": "f0b06603f073d4bd74514992bbf249ded8b8b05c",
@@ -681,7 +741,7 @@
       "description": "The list of countries exploiting internet-connected cameras to give them eye's inside their adversaries' borders continues to expand, with Russia, Iran, Israel, Ukraine, and the United States all using the tactic. What should companies look out for?",
       "source": "darkreading.com",
       "first_seen": "2026-03-27T16:41:46Z",
-      "last_seen": "2026-03-30T16:56:13Z"
+      "last_seen": "2026-03-30T17:44:21Z"
     },
     {
       "id": "9158c42e7e09df5d5298d1172bae20e218951076",
@@ -741,7 +801,7 @@
       "description": "The post-quantum future may be coming sooner than you think, as Google plans to have PQC migration in place by 2029.",
       "source": "darkreading.com",
       "first_seen": "2026-03-27T11:34:41Z",
-      "last_seen": "2026-03-30T16:56:13Z"
+      "last_seen": "2026-03-30T17:44:21Z"
     },
     {
       "id": "61f9fda1026abc44be290dee4e248855233dbe3c",
@@ -1041,7 +1101,7 @@
       "description": "Operational technology (OT) at industrial and critical infrastructure sites seem to have been benefitting from a lull in ransomware, and hackers' relative ignorance of OT systems.",
       "source": "darkreading.com",
       "first_seen": "2026-03-27T14:03:41Z",
-      "last_seen": "2026-03-30T16:56:13Z"
+      "last_seen": "2026-03-30T17:44:21Z"
     },
     {
       "id": "f5ee0948874ea083586f54ab4c2395a4af93d095",
@@ -2051,7 +2111,7 @@
       "description": "The post Code in the Wild: Full Technical Deep-Dive and Public GitHub PoC Released for Critical Linux TLS Root Exploit appeared first on Daily CyberSecurity. Related posts: PoC Unleashed: Linux vsock Flaw Enables Privilege Escalation to Root PoC Released: Linux Kernel Flaw Allows User to Gain Root Privileges From User to SYSTEM: PoC Released for Zabbix Privilege Escalation",
       "source": "securityonline.info",
       "first_seen": "2026-03-25T09:42:25Z",
-      "last_seen": "2026-03-30T16:56:13Z"
+      "last_seen": "2026-03-30T17:44:21Z"
     },
     {
       "id": "45e898d2ff4e673239ce34475ce12f764a5533b5",
@@ -3091,7 +3151,7 @@
       "description": "The post PoC Exploit Code Now Public: Windows .lnk Shortcut Flaw Leaks Sensitive Network Data appeared first on Daily CyberSecurity. Related posts: PoC Exploit Released: Failed Windows Patch Leaks Kernel Secrets PoC Exploit Publicly Disclosed: ‘RegPwn’ Flaw Grants SYSTEM Access via Windows Accessibility PoC Exploit Publicly Disclosed: Windows ‘libarchive’ Flaw Leaks NetNTLMv2 Hashes",
       "source": "securityonline.info",
       "first_seen": "2026-03-23T12:40:46Z",
-      "last_seen": "2026-03-30T16:56:13Z"
+      "last_seen": "2026-03-30T17:44:21Z"
     },
     {
       "id": "a8c3c1f7be3ff2ce515e7a8902af070545e010d3",
@@ -4961,7 +5021,7 @@
       "description": "The post Critical Craft CMS Flaw Grants Instant Admin Access appeared first on Daily CyberSecurity. Related posts: Critical 9.8 CVSS telnetd Buffer Overflow Grants Pre-Auth Root Windows 11 Privilege Escalation Flaws Uncovered: CVE-2025-24076 and CVE-2025-24994 Critical CVE-2025-1976 Vulnerability in Brocade Fabric OS Actively Exploited",
       "source": "securityonline.info",
       "first_seen": "2026-03-18T08:36:15Z",
-      "last_seen": "2026-03-30T16:56:13Z"
+      "last_seen": "2026-03-30T17:44:21Z"
     },
     {
       "id": "46f80cdf15346cc3ead391a8b6983304729c90bd",
@@ -5811,7 +5871,7 @@
       "description": "The post Root of the Problem: Sudo Flaw Exposes Linux Systems to Local Privilege Escalation appeared first on Daily CyberSecurity. Related posts: Privilege Escalation in guix-daemon: Critical Vulnerabilities Threaten Multi-User Systems Details Exposed: High-Severity Aruba VIA Root Flaw Publicly Disclosed Critical Auth Bypass in Apache Artemis: Attackers Can Hijack Message Queues",
       "source": "securityonline.info",
       "first_seen": "2026-03-16T12:45:20Z",
-      "last_seen": "2026-03-30T16:56:13Z"
+      "last_seen": "2026-03-30T17:44:21Z"
     },
     {
       "id": "d650d9a6b0f4b9b55098450983e10c00dd892468",
@@ -6661,7 +6721,7 @@
       "description": "The post Critical 9.8 CVSS telnetd Buffer Overflow Grants Pre-Auth Root appeared first on Daily CyberSecurity. Related posts: Critical 9.4 CVSS Zephyr RTOS Flaw Exposes Millions of IoT Devices to RCE Stream Hijacked: Critical Zero-Click Command Injection Flaw Exposed in AVideo-Encoder Home Network Alert: TP-Link Patches RCE Vulnerability in Archer AXE75 Routers",
       "source": "securityonline.info",
       "first_seen": "2026-03-13T01:08:33Z",
-      "last_seen": "2026-03-30T16:56:13Z"
+      "last_seen": "2026-03-30T17:44:21Z"
     },
     {
       "id": "5f82888c5e66c698d472d48753046366f1da4625",
@@ -35214,16 +35274,6 @@
       "last_seen": "2025-12-31T07:16:14Z"
     },
     {
-      "id": "6740cadcf86815d338d8226b36e2e4d99c8cf6f0",
-      "title": "Hackers Infiltrated Maven Central Masquerading as a Legitimate Jackson JSON Library",
-      "link": "https://cybersecuritynews.com/hackers-infiltrated-maven-central/",
-      "date": "2025-12-30T17:12:01Z",
-      "description": "A new malware campaign has successfully infiltrated Maven Central, one of the most trusted repositories for Java developers, by masquerading as a legitimate Jackson JSON library extension. The malicious package, published under the org.fasterxml.jackson.core/jackson-databind namespace, represents one of the first instances of sophisticated malware discovered on Maven Central through a…",
-      "source": "cybersecuritynews.com",
-      "first_seen": "2025-12-30T17:12:57Z",
-      "last_seen": "2025-12-30T19:10:34Z"
-    },
-    {
       "id": "c62126898ad9e7cab373c1b54667173ae180ff85",
       "title": "CSA Issues Alert on Critical SmarterMail Bug Allowing Remote Code Execution",
       "link": "https://thehackernews.com/2025/12/csa-issues-alert-on-critical.html",
@@ -35232,26 +35282,6 @@
       "source": "thehackernews.com",
       "first_seen": "2025-12-30T18:17:49Z",
       "last_seen": "2025-12-31T17:10:27Z"
-    },
-    {
-      "id": "a05cdaacdddb3e7eb6fb244048763293aed10050",
-      "title": "European Space Agency confirms breach of \"external servers\"",
-      "link": "https://www.bleepingcomputer.com/news/security/european-space-agency-confirms-breach-of-external-servers/",
-      "date": "2025-12-30T16:26:56Z",
-      "description": "The European Space Agency (ESA) confirmed that attackers recently breached servers outside its corporate network, which contained what it described as \"unclassified\" information on collaborative engineering activities. [...]",
-      "source": "bleepingcomputer.com",
-      "first_seen": "2025-12-30T17:12:57Z",
-      "last_seen": "2025-12-31T15:12:00Z"
-    },
-    {
-      "id": "5fae7b09948b7a9cbd218b51cc725e860bea8b72",
-      "title": "Zoom Stealer browser extensions harvest corporate meeting intelligence",
-      "link": "https://www.bleepingcomputer.com/news/security/zoom-stealer-browser-extensions-harvest-corporate-meeting-intelligence/",
-      "date": "2025-12-30T15:41:53Z",
-      "description": "A newly discovered campaign, which researchers call Zoom Stealer, is affecting 2.2 million Chrome, Firefox, and Microsoft Edge users through 18 extensions that collect online meeting-related data like URLs, IDs, topics, descriptions, and embedded passwords. [...]",
-      "source": "bleepingcomputer.com",
-      "first_seen": "2025-12-30T17:12:57Z",
-      "last_seen": "2025-12-31T14:11:56Z"
     },
     {
       "id": "f1ae791f04aba1a3572995db04a798e4f882097b",
@@ -35281,7 +35311,7 @@
       "description": "2.5 million people were affected, in a breach that could spell more trouble down the line.",
       "source": "threatpost.com",
       "first_seen": "2026-02-09T11:38:39Z",
-      "last_seen": "2026-03-30T16:56:13Z"
+      "last_seen": "2026-03-30T17:44:21Z"
     },
     {
       "id": "4140c7a34b0ba94ad2e6b0cae9f59b0cb9bfffea",
@@ -35291,7 +35321,7 @@
       "description": "Researchers uncover a watering hole attack likely carried out by APT TA423, which attempts to plant the ScanBox JavaScript-based reconnaissance tool.",
       "source": "threatpost.com",
       "first_seen": "2026-02-09T11:38:39Z",
-      "last_seen": "2026-03-30T16:56:13Z"
+      "last_seen": "2026-03-30T17:44:21Z"
     },
     {
       "id": "9359ee40a641a4b565080313045f1d7e7fe6552b",
@@ -35301,7 +35331,7 @@
       "description": "Over 130 companies tangled in sprawling phishing campaign that spoofed a multi-factor authentication system.",
       "source": "threatpost.com",
       "first_seen": "2026-02-09T11:38:39Z",
-      "last_seen": "2026-03-30T16:56:13Z"
+      "last_seen": "2026-03-30T17:44:21Z"
     },
     {
       "id": "b4ccef0737cd4050d65241bf754072030b6b5e6a",
@@ -35311,7 +35341,7 @@
       "description": "Lockbit is by far this summer’s most prolific ransomware group, trailed by two offshoots of the Conti group.",
       "source": "threatpost.com",
       "first_seen": "2026-02-09T11:38:39Z",
-      "last_seen": "2026-03-30T16:56:13Z"
+      "last_seen": "2026-03-30T17:44:21Z"
     },
     {
       "id": "12ee113fc8fce91f6d7fb28deab2b1ad20061ec7",
@@ -35321,7 +35351,7 @@
       "description": "Tens of thousands of cameras have failed to patch a critical, 11-month-old CVE, leaving thousands of organizations exposed.",
       "source": "threatpost.com",
       "first_seen": "2026-02-09T11:38:39Z",
-      "last_seen": "2026-03-30T16:56:13Z"
+      "last_seen": "2026-03-30T17:44:21Z"
     }
   ]
 }
