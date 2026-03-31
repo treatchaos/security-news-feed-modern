@@ -1,7 +1,42 @@
 {
-  "last_updated": "2026-03-31T08:01:11Z",
+  "last_updated": "2026-03-31T09:54:23Z",
   "count": 40,
   "items": [
+    {
+      "title": "Hacker charged with stealing $53 million from Uranium crypto exchange",
+      "link": "https://www.bleepingcomputer.com/news/security/hacker-charged-with-stealing-53-million-from-uranium-crypto-exchange/",
+      "date": "2026-03-31T09:15:45Z",
+      "description": "U.S. prosecutors have charged a Maryland man with stealing more than $53 million after hacking the Uranium Finance crypto exchange twice and laundering the proceeds through a cryptocurrency mixer. [...]",
+      "source": "bleepingcomputer.com"
+    },
+    {
+      "title": "Apple New macOS Tahoe Feature Warns Users on ClickFix Attacks",
+      "link": "https://cybersecuritynews.com/clickfix-protection-macos-tahoe-26-4/",
+      "date": "2026-03-31T09:03:54Z",
+      "description": "Apple has introduced a new security mechanism in the macOS Tahoe 26.4 release candidate to protect users against social engineering campaigns known as ClickFix attacks. Discovered by users testing the latest OS build and highlighted in a popular Reddit post on r/MacOSBeta, the undocumented feature actively blocks the execution of potentially malicious commands pasted into […] The post Apple New…",
+      "source": "cybersecuritynews.com"
+    },
+    {
+      "title": "CISA Warns of Citrix NetScaler Vulnerability Actively Exploited in Attacks",
+      "link": "https://cybersecuritynews.com/citrix-netscaler-vulnerability-exploited/",
+      "date": "2026-03-31T08:58:33Z",
+      "description": "The Cybersecurity and Infrastructure Security Agency (CISA) has issued an urgent warning regarding a critical vulnerability affecting Citrix NetScaler products. Identified as CVE-2026-3055, this security flaw has been officially added to CISA’s Known Exploited Vulnerabilities (KEV) catalog following confirmed evidence of active exploitation in the wild. Network defenders and system…",
+      "source": "cybersecuritynews.com"
+    },
+    {
+      "title": "Cybercriminals Abuse IRS and Tax Filing Lures to Push Malware in New Campaigns",
+      "link": "https://cybersecuritynews.com/cybercriminals-abuse-irs-and-tax-filing-lures/",
+      "date": "2026-03-31T08:37:40Z",
+      "description": "Tax season brings a reliable wave of phishing attacks, but 2026 has already shown a bigger and more organized push than in previous years. Cybercriminals are actively impersonating the Internal Revenue Service (IRS), national tax authorities, and company HR departments to trick people into installing malware or handing over login credentials. Over a hundred campaigns […] The post Cybercriminals…",
+      "source": "cybersecuritynews.com"
+    },
+    {
+      "title": "New DeepLoad Malware Uses ClickFix and AI-Generated Evasion to Breach Enterprise Networks",
+      "link": "https://cybersecuritynews.com/new-deepload-malware-uses-clickfix/",
+      "date": "2026-03-31T08:21:03Z",
+      "description": "A newly discovered malware named DeepLoad is targeting enterprise environments, turning a single user action into persistent, credential-stealing access that survives reboots and outlasts standard cleanup efforts. What sets this campaign apart is how every stage of the attack was deliberately built to defeat the security controls that most organizations already depend on. DeepLoad arrives […]…",
+      "source": "cybersecuritynews.com"
+    },
     {
       "title": "Dutch Finance Ministry takes treasury banking portal offline after breach",
       "link": "https://www.bleepingcomputer.com/news/security/dutch-finance-ministry-takes-treasury-banking-portal-offline-after-breach/",
@@ -31,39 +66,11 @@
       "source": "securityweek.com"
     },
     {
-      "title": "GhostSocks Turns Victim Systems Into Residential Proxies for Evasive Cyberattacks",
-      "link": "https://cybersecuritynews.com/ghostsocks-turns-victim-systems/",
-      "date": "2026-03-31T06:31:50Z",
-      "description": "A new malware called GhostSocks has been quietly spreading through compromised systems, turning home and office devices into residential proxies that threat actors use to conceal their malicious traffic. Unlike traditional malware that simply steals data or locks files, GhostSocks hijacks the victim’s internet connection to make attacker traffic appear as though it is coming […] The post…",
-      "source": "cybersecuritynews.com"
-    },
-    {
       "title": "Axios Supply Chain Attack Pushes Cross-Platform RAT via Compromised npm Account",
       "link": "https://thehackernews.com/2026/03/axios-supply-chain-attack-pushes-cross.html",
       "date": "2026-03-31T06:08:00Z",
       "description": "The popular HTTP client known as Axios has suffered a supply chain attack after two newly published versions of the npm package introduced a malicious dependency. Versions 1.14.1 and 0.30.4 of Axios have been found to inject \"plain-crypto-js\" version 4.2.1 as a fake dependency. According to StepSecurity, the two versions were published using the compromised npm credentials of the primary Axios",
       "source": "thehackernews.com"
-    },
-    {
-      "title": "Notepad++ v8.9.3 Released Addressing cURL Security Vulnerability and Crash Issues",
-      "link": "https://cybersecuritynews.com/notepad-v8-9-3-released/",
-      "date": "2026-03-31T04:09:17Z",
-      "description": "Notepad++ has officially released version 8.9.3, delivering critical security patches, structural performance enhancements, and resolutions for persistent crash issues. This update finalizes the text editor’s transition to a highly optimized XML parser, addressing multiple recent regressions while fortifying the application’s auto-update mechanism against documented vulnerabilities. Notepad++…",
-      "source": "cybersecuritynews.com"
-    },
-    {
-      "title": "Axios NPM Packages Compromised to Inject Malicious Codes in an Active Supply Chain Attack",
-      "link": "https://cybersecuritynews.com/axios-npm-packages-compromised/",
-      "date": "2026-03-31T03:39:45Z",
-      "description": "A sophisticated supply chain attack has targeted Axios, one of the most heavily adopted HTTP clients within the JavaScript ecosystem, by introducing a malicious transitive dependency into the official npm registry. Serving as a critical component across frontend frameworks, backend microservices, and enterprise applications, Axios records approximately 83 million weekly downloads on npm. The…",
-      "source": "cybersecuritynews.com"
-    },
-    {
-      "title": "Claude AI Discovers Zero-Day RCE Vulnerabilities in Vim and Emacs",
-      "link": "https://cybersecuritynews.com/claude-ai-0-day-rce-vim/",
-      "date": "2026-03-31T03:24:06Z",
-      "description": "Anthropic’s Claude AI successfully discovered zero-day Remote Code Execution (RCE) flaws in both Vim and GNU Emacs. The discoveries highlight a massive paradigm shift in bug hunting, demonstrating that AI models can uncover critical vulnerabilities in legacy software with simple natural-language prompts. The Vim RCE: Compromise Upon File Open The research initiative began with a […] The post…",
-      "source": "cybersecuritynews.com"
     },
     {
       "title": "Healthcare tech firm CareCloud says hackers stole patient data",
@@ -84,13 +91,6 @@
       "link": "https://www.bleepingcomputer.com/news/security/new-roadk1ll-websocket-implant-used-to-pivot-on-breached-networks/",
       "date": "2026-03-30T20:49:22Z",
       "description": "A newly identified malicious implant named RoadK1ll is enabling threat actors to quietly move from a compromised host to other systems on the network. [...]",
-      "source": "bleepingcomputer.com"
-    },
-    {
-      "title": "Critical Citrix NetScaler memory flaw actively exploited in attacks",
-      "link": "https://www.bleepingcomputer.com/news/security/critical-citrix-netscaler-memory-flaw-actively-exploited-in-attacks/",
-      "date": "2026-03-30T18:28:37Z",
-      "description": "Hackers are exploiting a critical severity vulnerability, tracked as CVE-2026-3055, in Citrix NetScaler ADC and NetScaler Gateway appliances to obtain sensitive data. [...]",
       "source": "bleepingcomputer.com"
     },
     {
