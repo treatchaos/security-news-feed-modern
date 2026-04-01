@@ -1,7 +1,49 @@
 {
-  "last_updated": "2026-04-01T06:21:08Z",
+  "last_updated": "2026-04-01T08:08:39Z",
   "count": 40,
   "items": [
+    {
+      "title": "New npm Supply Chain Attack Uses undicy-http to Deploy Screen-Streaming RAT and Browser Injector",
+      "link": "https://cybersecuritynews.com/new-npm-supply-chain-attack-uses-undicy-http/",
+      "date": "2026-04-01T07:55:34Z",
+      "description": "A malicious npm package named undicy-http has surfaced inside the Node.js developer ecosystem, quietly compromising machines of developers who mistakenly install it. The package impersonates undici, the official HTTP client library bundled with Node.js that handles millions of weekly downloads. Despite sharing a near-identical name, undicy-http contains zero HTTP client functionality. Instead,…",
+      "source": "cybersecuritynews.com"
+    },
+    {
+      "title": "Google Addresses Vertex Security Issues After Researchers Weaponize AI Agents",
+      "link": "https://www.securityweek.com/google-addresses-vertex-security-issues-after-researchers-weaponize-ai-agent/",
+      "date": "2026-04-01T07:43:16Z",
+      "description": "Palo Alto Networks has disclosed the details of its analysis of Google Cloud Platform’s Vertex AI. The post Google Addresses Vertex Security Issues After Researchers Weaponize AI Agents appeared first on SecurityWeek.",
+      "source": "securityweek.com"
+    },
+    {
+      "title": "PNG Vulnerabilities Allow Attackers to Trigger Process Crashes, Leak Sensitive Information",
+      "link": "https://cybersecuritynews.com/png-vulnerabilities/",
+      "date": "2026-04-01T07:21:04Z",
+      "description": "Two high-severity vulnerabilities have been discovered in libpng, the widely used reference library for reading and writing PNG images. These flaws allow attackers to trigger process crashes, leak sensitive information, and potentially execute arbitrary code by convincing a system to process a crafted PNG file. The vulnerabilities affect any software that parses malformed images, making […] The…",
+      "source": "cybersecuritynews.com"
+    },
+    {
+      "title": "XLoader Malware Upgrades Obfuscation Tactics and Hides C2 Traffic Behind Decoy Servers",
+      "link": "https://cybersecuritynews.com/xloader-malware-upgrades-obfuscation-tactics/",
+      "date": "2026-04-01T06:46:51Z",
+      "description": "A well-known information-stealing malware called XLoader has received significant upgrades in its latest versions, making it considerably harder to detect and analyze than before. Originally derived from a malware family known as FormBook, which first surfaced in 2016, XLoader was rebranded and relaunched in early 2020, and since then, its developers have consistently pushed new […] The post…",
+      "source": "cybersecuritynews.com"
+    },
+    {
+      "title": "Google Drive ransomware detection now on by default for paying users",
+      "link": "https://www.bleepingcomputer.com/news/security/google-drive-ransomware-detection-now-on-by-default-for-paying-users/",
+      "date": "2026-04-01T06:35:34Z",
+      "description": "Google announced that the AI-powered Google Drive ransomware detection feature has reached general availability and is now enabled by default for all paying users. [...]",
+      "source": "bleepingcomputer.com"
+    },
+    {
+      "title": "Claude Code Source Leaked via npm Packaging Error, Anthropic Confirms",
+      "link": "https://thehackernews.com/2026/04/claude-code-tleaked-via-npm-packaging.html",
+      "date": "2026-04-01T06:12:00Z",
+      "description": "Anthropic on Tuesday confirmed that internal code for its popular artificial intelligence (AI) coding assistant, Claude Code, had been inadvertently released due to a human error. \"No sensitive customer data or credentials were involved or exposed,\" an Anthropic spokesperson said in a statement shared with CNBC News. \"This was a release packaging issue caused by human error, not a security",
+      "source": "thehackernews.com"
+    },
     {
       "title": "New Windows 11 emergency update fixes preview update install issues",
       "link": "https://www.bleepingcomputer.com/news/microsoft/new-windows-11-kb5086672-emergency-update-fixes-install-issues/",
@@ -49,13 +91,6 @@
       "link": "https://www.bleepingcomputer.com/news/security/proton-launches-new-meet-privacy-focused-conferencing-platform/",
       "date": "2026-03-31T22:42:07Z",
       "description": "Proton has announced a new video conferencing service named Meet and positioned it as a privacy-focused alternative to mainstream services like Google Meet, Zoom, and Microsoft Teams. [...]",
-      "source": "bleepingcomputer.com"
-    },
-    {
-      "title": "GIGABYTE Control Center vulnerable to arbitrary file write flaw",
-      "link": "https://www.bleepingcomputer.com/news/security/gigabyte-control-center-vulnerable-to-arbitrary-file-write-flaw/",
-      "date": "2026-03-31T22:28:02Z",
-      "description": "The GIGABYTE Control Center is vulnerable to an arbitrary file-write flaw that could allow a remote, unauthenticated attacker to access files on vulnerable hosts. [...]",
       "source": "bleepingcomputer.com"
     },
     {
@@ -136,13 +171,6 @@
       "source": "securityweek.com"
     },
     {
-      "title": "TeamPCP Moves From OSS to AWS Environments",
-      "link": "https://www.securityweek.com/teampcp-moves-from-oss-to-aws-environments/",
-      "date": "2026-03-31T13:53:43Z",
-      "description": "After validating stolen credentials using TruffleHog, the hacking group started AWS services enumeration and lateral movement activities. The post TeamPCP Moves From OSS to AWS Environments appeared first on SecurityWeek.",
-      "source": "securityweek.com"
-    },
-    {
       "title": "Vertex AI Vulnerability Exposes Google Cloud Data and Private Artifacts",
       "link": "https://thehackernews.com/2026/03/vertex-ai-vulnerability-exposes-google.html",
       "date": "2026-03-31T13:09:00Z",
@@ -150,38 +178,10 @@
       "source": "thehackernews.com"
     },
     {
-      "title": "Hackers Weaponize Legitimate Windows Tools to Disable Antivirus Before Ransomware Attacks",
-      "link": "https://cybersecuritynews.com/hackers-weaponize-legitimate-windows-tools/",
-      "date": "2026-03-31T13:02:27Z",
-      "description": "Ransomware attacks have gone far beyond simple malicious code. Today, attackers operate with the precision of a well-planned business, using trusted Windows tools to quietly tear down defenses before ransomware even enters the picture. This shift has made modern ransomware campaigns harder to detect and significantly more damaging. The tools at the center of this […] The post Hackers Weaponize…",
-      "source": "cybersecuritynews.com"
-    },
-    {
-      "title": "Google Unveils Ransomware Detection and File Restoration for Google Drive",
-      "link": "https://cybersecuritynews.com/google-drive-ransomware-detection-2/",
-      "date": "2026-03-31T12:47:59Z",
-      "description": "Google has officially moved its ransomware detection and file restoration features for Google Drive into General Availability. Originally launched in beta in September 2025, the updated security controls offer organizations enhanced defenses against malware attacks targeting local machines and cloud synchronization. The updated artificial intelligence model driving this release features…",
-      "source": "cybersecuritynews.com"
-    },
-    {
-      "title": "Hackers Deploy Telegram-Based ResokerRAT With Screenshot and Persistence Features",
-      "link": "https://cybersecuritynews.com/hackers-deploy-telegram-based-resokerrat/",
-      "date": "2026-03-31T12:39:05Z",
-      "description": "A new remote access trojan known as ResokerRAT has come to light, using Telegram’s bot API as its core communication channel to silently monitor and control infected Windows machines. What makes this threat stand out is that it does not rely on a traditional command-and-control server. Instead, it misuses a widely trusted messaging platform to […] The post Hackers Deploy Telegram-Based…",
-      "source": "cybersecuritynews.com"
-    },
-    {
       "title": "The AI Arms Race – Why Unified Exposure Management Is Becoming a Boardroom Priority",
       "link": "https://thehackernews.com/2026/03/the-ai-arms-race-why-unified-exposure.html",
       "date": "2026-03-31T11:50:00Z",
       "description": "The cybersecurity landscape is accelerating at an unprecedented rate. What is emerging is not simply a rise in the number of vulnerabilities or tools, but a dramatic increase in speed. Speed of attack, speed of exploitation, and speed of change across modern environments. This is the defining challenge of the new era of digital warfare: the weaponization of Artificial Intelligence. Threat actors",
-      "source": "thehackernews.com"
-    },
-    {
-      "title": "Silver Fox Expands Asia Cyber Campaign with AtlasCross RAT and Fake Domains",
-      "link": "https://thehackernews.com/2026/03/silver-fox-expands-asia-cyber-campaign.html",
-      "date": "2026-03-31T11:46:00Z",
-      "description": "Chinese-speaking users are the target of an active campaign that uses typosquatted domains impersonating trusted software brands to deliver a previously undocumented remote access trojan named AtlasCross RAT. \"The operation covers VPN clients, encrypted messengers, video conferencing tools, cryptocurrency trackers, and e-commerce applications, with eleven confirmed delivery domains impersonating",
       "source": "thehackernews.com"
     },
     {

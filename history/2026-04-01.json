@@ -1,7 +1,67 @@
 {
   "date": "2026-04-01",
-  "count": 5,
+  "count": 11,
   "items": [
+    {
+      "id": "31f697a0c96b0395eae5e3f5fa6e4763d740b3d6",
+      "title": "New npm Supply Chain Attack Uses undicy-http to Deploy Screen-Streaming RAT and Browser Injector",
+      "link": "https://cybersecuritynews.com/new-npm-supply-chain-attack-uses-undicy-http/",
+      "date": "2026-04-01T07:55:34Z",
+      "description": "A malicious npm package named undicy-http has surfaced inside the Node.js developer ecosystem, quietly compromising machines of developers who mistakenly install it. The package impersonates undici, the official HTTP client library bundled with Node.js that handles millions of weekly downloads. Despite sharing a near-identical name, undicy-http contains zero HTTP client functionality. Instead,…",
+      "source": "cybersecuritynews.com",
+      "first_seen": "2026-04-01T08:08:39Z",
+      "last_seen": "2026-04-01T08:08:39Z"
+    },
+    {
+      "id": "36ee4c6cda12b288adbe381d97304ab45e66b064",
+      "title": "Google Addresses Vertex Security Issues After Researchers Weaponize AI Agents",
+      "link": "https://www.securityweek.com/google-addresses-vertex-security-issues-after-researchers-weaponize-ai-agent/",
+      "date": "2026-04-01T07:43:16Z",
+      "description": "Palo Alto Networks has disclosed the details of its analysis of Google Cloud Platform’s Vertex AI. The post Google Addresses Vertex Security Issues After Researchers Weaponize AI Agents appeared first on SecurityWeek.",
+      "source": "securityweek.com",
+      "first_seen": "2026-04-01T08:08:39Z",
+      "last_seen": "2026-04-01T08:08:39Z"
+    },
+    {
+      "id": "7c55d32916f72a81d3a2dad8a824e147ac5876d5",
+      "title": "PNG Vulnerabilities Allow Attackers to Trigger Process Crashes, Leak Sensitive Information",
+      "link": "https://cybersecuritynews.com/png-vulnerabilities/",
+      "date": "2026-04-01T07:21:04Z",
+      "description": "Two high-severity vulnerabilities have been discovered in libpng, the widely used reference library for reading and writing PNG images. These flaws allow attackers to trigger process crashes, leak sensitive information, and potentially execute arbitrary code by convincing a system to process a crafted PNG file. The vulnerabilities affect any software that parses malformed images, making […] The…",
+      "source": "cybersecuritynews.com",
+      "first_seen": "2026-04-01T08:08:39Z",
+      "last_seen": "2026-04-01T08:08:39Z"
+    },
+    {
+      "id": "57b9d164a1f37455bf2eab6c7313230cba6ef363",
+      "title": "XLoader Malware Upgrades Obfuscation Tactics and Hides C2 Traffic Behind Decoy Servers",
+      "link": "https://cybersecuritynews.com/xloader-malware-upgrades-obfuscation-tactics/",
+      "date": "2026-04-01T06:46:51Z",
+      "description": "A well-known information-stealing malware called XLoader has received significant upgrades in its latest versions, making it considerably harder to detect and analyze than before. Originally derived from a malware family known as FormBook, which first surfaced in 2016, XLoader was rebranded and relaunched in early 2020, and since then, its developers have consistently pushed new […] The post…",
+      "source": "cybersecuritynews.com",
+      "first_seen": "2026-04-01T08:08:39Z",
+      "last_seen": "2026-04-01T08:08:39Z"
+    },
+    {
+      "id": "cc5eb8a95205d61e3da61d7195649b6072af5e8f",
+      "title": "Google Drive ransomware detection now on by default for paying users",
+      "link": "https://www.bleepingcomputer.com/news/security/google-drive-ransomware-detection-now-on-by-default-for-paying-users/",
+      "date": "2026-04-01T06:35:34Z",
+      "description": "Google announced that the AI-powered Google Drive ransomware detection feature has reached general availability and is now enabled by default for all paying users. [...]",
+      "source": "bleepingcomputer.com",
+      "first_seen": "2026-04-01T08:08:39Z",
+      "last_seen": "2026-04-01T08:08:39Z"
+    },
+    {
+      "id": "43a42dc52f3288e2f4b2d38abde882d15fe0ac2f",
+      "title": "Claude Code Source Leaked via npm Packaging Error, Anthropic Confirms",
+      "link": "https://thehackernews.com/2026/04/claude-code-tleaked-via-npm-packaging.html",
+      "date": "2026-04-01T06:12:00Z",
+      "description": "Anthropic on Tuesday confirmed that internal code for its popular artificial intelligence (AI) coding assistant, Claude Code, had been inadvertently released due to a human error. \"No sensitive customer data or credentials were involved or exposed,\" an Anthropic spokesperson said in a statement shared with CNBC News. \"This was a release packaging issue caused by human error, not a security",
+      "source": "thehackernews.com",
+      "first_seen": "2026-04-01T08:08:39Z",
+      "last_seen": "2026-04-01T08:08:39Z"
+    },
     {
       "id": "01344b1ad359976f473350a14b4d7a263c89490d",
       "title": "New Windows 11 emergency update fixes preview update install issues",
@@ -10,7 +70,7 @@
       "description": "Microsoft released an emergency update to fix the March 2026 KB5079391 non-security preview update, which was pulled over the weekend due to installation issues. [...]",
       "source": "bleepingcomputer.com",
       "first_seen": "2026-04-01T06:21:08Z",
-      "last_seen": "2026-04-01T06:21:08Z"
+      "last_seen": "2026-04-01T08:08:39Z"
     },
     {
       "id": "e64b5c77e525fb0578f610e590ea811e586da6c0",
@@ -20,7 +80,7 @@
       "description": "Mercor AI has officially confirmed a severe data breach following claims by the notorious Lapsus$ hacking group that they stole 4 terabytes of sensitive company data. The incident, stemming from a recent supply chain attack on the open-source LiteLLM project, has exposed proprietary source code, internal databases, and massive amounts of user-verification data. The hacking […] The post Mercor AI…",
       "source": "cybersecuritynews.com",
       "first_seen": "2026-04-01T04:39:37Z",
-      "last_seen": "2026-04-01T06:21:08Z"
+      "last_seen": "2026-04-01T08:08:39Z"
     },
     {
       "id": "b97c4f3693c9e628fb69ef87c1c950101d156202",
@@ -30,7 +90,7 @@
       "description": "For over two decades, the permanence of a Google Account username has been a strict rule of the digital landscape. Many users found it frustrating to create new accounts and transfer data after outgrowing their childhood email addresses or changing their names. However, Google has recently updated its support documentation to announce that it will […] The post Google Now Allows You to Change…",
       "source": "cybersecuritynews.com",
       "first_seen": "2026-04-01T04:39:37Z",
-      "last_seen": "2026-04-01T06:21:08Z"
+      "last_seen": "2026-04-01T08:08:39Z"
     },
     {
       "id": "6a9385db8946bb4e5e31ff206f525b40539300ff",
@@ -40,7 +100,7 @@
       "description": "The post PolyShell Exposed: Public PoC and Active Exploitation Disclosed for Critical Magento RCE as Automated Attacks Surge appeared first on Daily CyberSecurity. Related posts: PolyShell Alert: Critical Magento REST API Vulnerability Faces Massive Global Exploitation in the Wild The Stealth Skimmer: How Hackers Weaponized WebRTC to Bypass PCI Security and Siphon Credit Cards Critical Magento…",
       "source": "securityonline.info",
       "first_seen": "2026-04-01T04:39:37Z",
-      "last_seen": "2026-04-01T06:21:08Z"
+      "last_seen": "2026-04-01T08:08:39Z"
     },
     {
       "id": "80bc5f3f3077433951144015cb0667f761deac3d",
@@ -50,7 +110,7 @@
       "description": "Anthropic says it accidentally leaked the source code for Claude Code, which is closed source, but the company says no customer data or credentials were exposed. [...]",
       "source": "bleepingcomputer.com",
       "first_seen": "2026-04-01T01:26:26Z",
-      "last_seen": "2026-04-01T06:21:08Z"
+      "last_seen": "2026-04-01T08:08:39Z"
     }
   ]
 }
