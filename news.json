@@ -1,13 +1,41 @@
 {
-  "last_updated": "2026-04-01T08:08:39Z",
+  "last_updated": "2026-04-01T09:58:22Z",
   "count": 40,
   "items": [
+    {
+      "title": "North Korean Hackers Compromise Widely Used Axios Package to Infect Windows, macOS, and Linux Systems",
+      "link": "https://cybersecuritynews.com/north-korean-hackers-compromise-widely-used-axios-package/",
+      "date": "2026-04-01T09:00:01Z",
+      "description": "A major software supply chain attack has struck the JavaScript ecosystem after threat actors slipped a malicious dependency into the widely used axios NPM package. The poisoned releases, axios 1.14.1 and 0.30.4, pulled in plain-crypto-js and quietly delivered the WAVESHAPER.V2 backdoor to Windows, macOS, and Linux systems during installation. The incident is serious because axios […] The post…",
+      "source": "cybersecuritynews.com"
+    },
+    {
+      "title": "Hackers Backdoor Telnyx Python SDK on PyPI to Steal Credentials Across Windows, macOS, and Linux",
+      "link": "https://cybersecuritynews.com/hackers-backdoor-telnyx-python-sdk-on-pypi/",
+      "date": "2026-04-01T08:48:26Z",
+      "description": "A threat actor group known as TeamPCP has been caught backdooring the Telnyx Python SDK on PyPI — a popular cloud communications library with over 700,000 downloads in February alone. On March 27, 2026, two malicious versions of the package, 4.87.1 and 4.87.2, were quietly published to the Python Package Index without any matching commits […] The post Hackers Backdoor Telnyx Python SDK on PyPI…",
+      "source": "cybersecuritynews.com"
+    },
+    {
+      "title": "Axios NPM Package Breached in North Korean Supply Chain Attack",
+      "link": "https://www.securityweek.com/axios-npm-package-breached-in-north-korean-supply-chain-attack/",
+      "date": "2026-04-01T08:45:47Z",
+      "description": "A long-lived NPM access token was used to bypass the GitHub Actions OIDC-based CI/CD publishing workflow and push backdoored package versions. The post Axios NPM Package Breached in North Korean Supply Chain Attack appeared first on SecurityWeek.",
+      "source": "securityweek.com"
+    },
     {
       "title": "New npm Supply Chain Attack Uses undicy-http to Deploy Screen-Streaming RAT and Browser Injector",
       "link": "https://cybersecuritynews.com/new-npm-supply-chain-attack-uses-undicy-http/",
       "date": "2026-04-01T07:55:34Z",
       "description": "A malicious npm package named undicy-http has surfaced inside the Node.js developer ecosystem, quietly compromising machines of developers who mistakenly install it. The package impersonates undici, the official HTTP client library bundled with Node.js that handles millions of weekly downloads. Despite sharing a near-identical name, undicy-http contains zero HTTP client functionality. Instead,…",
       "source": "cybersecuritynews.com"
+    },
+    {
+      "title": "Google Attributes Axios npm Supply Chain Attack to North Korean Group UNC1069",
+      "link": "https://thehackernews.com/2026/04/google-attributes-axios-npm-supply.html",
+      "date": "2026-04-01T07:44:00Z",
+      "description": "Google has formally attributed the supply chain compromise of the popular Axios npm package to a financially motivated North Korean threat activity cluster tracked as UNC1069. \"We have attributed the attack to a suspected North Korean threat actor we track as UNC1069,\" John Hultquist, chief analyst at Google Threat Intelligence Group (GTIG), told The Hacker News in a statement. \"North Korean",
+      "source": "thehackernews.com"
     },
     {
       "title": "Google Addresses Vertex Security Issues After Researchers Weaponize AI Agents",
@@ -50,20 +78,6 @@
       "date": "2026-04-01T05:33:43Z",
       "description": "Microsoft released an emergency update to fix the March 2026 KB5079391 non-security preview update, which was pulled over the weekend due to installation issues. [...]",
       "source": "bleepingcomputer.com"
-    },
-    {
-      "title": "Mercor AI Confirms Data Breach Following Lapsus$ Claims of 4TB Data Theft",
-      "link": "https://cybersecuritynews.com/mercor-ai-data-breach/",
-      "date": "2026-04-01T04:31:16Z",
-      "description": "Mercor AI has officially confirmed a severe data breach following claims by the notorious Lapsus$ hacking group that they stole 4 terabytes of sensitive company data. The incident, stemming from a recent supply chain attack on the open-source LiteLLM project, has exposed proprietary source code, internal databases, and massive amounts of user-verification data. The hacking […] The post Mercor AI…",
-      "source": "cybersecuritynews.com"
-    },
-    {
-      "title": "Google Now Allows You to Change Your @gmail.com Address in a Few Simple Steps",
-      "link": "https://cybersecuritynews.com/google-change-gmail-address/",
-      "date": "2026-04-01T04:04:58Z",
-      "description": "For over two decades, the permanence of a Google Account username has been a strict rule of the digital landscape. Many users found it frustrating to create new accounts and transfer data after outgrowing their childhood email addresses or changing their names. However, Google has recently updated its support documentation to announce that it will […] The post Google Now Allows You to Change…",
-      "source": "cybersecuritynews.com"
     },
     {
       "title": "PolyShell Exposed: Public PoC and Active Exploitation Disclosed for Critical Magento RCE as Automated Attacks Surge",
@@ -164,24 +178,10 @@
       "source": "securityweek.com"
     },
     {
-      "title": "Venom Stealer Raises Stakes With Continuous Credential Harvesting",
-      "link": "https://www.securityweek.com/venom-stealer-raises-stakes-with-continuous-credential-harvesting/",
-      "date": "2026-03-31T14:51:59Z",
-      "description": "Licensed malware with built-in persistence and automation enables attackers to continuously siphon credentials, session data, and cryptocurrency assets. The post Venom Stealer Raises Stakes With Continuous Credential Harvesting appeared first on SecurityWeek.",
-      "source": "securityweek.com"
-    },
-    {
       "title": "Vertex AI Vulnerability Exposes Google Cloud Data and Private Artifacts",
       "link": "https://thehackernews.com/2026/03/vertex-ai-vulnerability-exposes-google.html",
       "date": "2026-03-31T13:09:00Z",
       "description": "Cybersecurity researchers have disclosed a security \"blind spot\" in Google Cloud's Vertex AI platform that could allow artificial intelligence (AI) agents to be weaponized by an attacker to gain unauthorized access to sensitive data and compromise an organization's cloud environment. According to Palo Alto Networks Unit 42, the issue relates to how the Vertex AI permission model can be misused",
-      "source": "thehackernews.com"
-    },
-    {
-      "title": "The AI Arms Race – Why Unified Exposure Management Is Becoming a Boardroom Priority",
-      "link": "https://thehackernews.com/2026/03/the-ai-arms-race-why-unified-exposure.html",
-      "date": "2026-03-31T11:50:00Z",
-      "description": "The cybersecurity landscape is accelerating at an unprecedented rate. What is emerging is not simply a rise in the number of vulnerabilities or tools, but a dramatic increase in speed. Speed of attack, speed of exploitation, and speed of change across modern environments. This is the defining challenge of the new era of digital warfare: the weaponization of Artificial Intelligence. Threat actors",
       "source": "thehackernews.com"
     },
     {
