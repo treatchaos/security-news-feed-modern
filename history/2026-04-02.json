@@ -1,7 +1,77 @@
 {
   "date": "2026-04-02",
-  "count": 41,
+  "count": 48,
   "items": [
+    {
+      "id": "13048098e94c91a5473a2f828caebf4b1f208888",
+      "title": "Geopolitics, AI, and Cybersecurity: Insights From RSAC 2026",
+      "link": "https://www.darkreading.com/cybersecurity-operations/geopolitics-ai-cybersecurity-insights-rsac-2026",
+      "date": "2026-04-02T21:14:27Z",
+      "description": "AI-driven threats, global leadership shifts, and the future of cybersecurity in a rapidly evolving landscape were among the discussions at RSAC 2026 Conference.",
+      "source": "darkreading.com",
+      "first_seen": "2026-04-02T15:50:42Z",
+      "last_seen": "2026-04-02T15:50:42Z"
+    },
+    {
+      "id": "a8073adbff490647d8111f0018aad8b4c964124a",
+      "title": "Qilin Ransomware Uses Malicious DLL to Kill Almost Every Vendor’s EDR Solutions",
+      "link": "https://cybersecuritynews.com/qilin-ransomware-kill-edr/",
+      "date": "2026-04-02T15:42:35Z",
+      "description": "Qilin ransomware group is deploying a sophisticated, multi-stage infection chain via a malicious msimg32.dll that can disable over 300 endpoint detection and response (EDR) drivers from virtually every major security vendor. As organizations increasingly rely on EDR solutions, which offer far greater behavioral visibility than legacy antivirus, threat actors have adapted by weaponizing EDR…",
+      "source": "cybersecuritynews.com",
+      "first_seen": "2026-04-02T15:50:42Z",
+      "last_seen": "2026-04-02T15:50:42Z"
+    },
+    {
+      "id": "3c93800605e805e459ff6315afc2896fa38a2757",
+      "title": "Residential proxies evaded IP reputation checks in 78% of 4B sessions",
+      "link": "https://www.bleepingcomputer.com/news/security/residential-proxies-evaded-ip-reputation-checks-in-78-percent-of-4b-sessions/",
+      "date": "2026-04-02T15:21:02Z",
+      "description": "Researchers warn that residential proxies used to route malicious traffic are a big problem for IP reputation systems, as there is no clear distinction between attackers and legitimate users. [...]",
+      "source": "bleepingcomputer.com",
+      "first_seen": "2026-04-02T15:50:42Z",
+      "last_seen": "2026-04-02T15:50:42Z"
+    },
+    {
+      "id": "28e7306bf3f9f8608a6d22d72fc17d91fd2f9fb9",
+      "title": "OpenSSH 10.3 Fixes Shell Injection and Multiple SSH Security Issues",
+      "link": "https://cybersecuritynews.com/openssh-10-3-release/",
+      "date": "2026-04-02T14:54:30Z",
+      "description": "The OpenSSH project released version 10.3 and 10.3p1 on April 2, 2026, addressing a shell injection vulnerability and introducing several security-hardening changes that administrators should review before upgrading. The most notable security fix targets a shell injection vulnerability in the -J (ProxyJump) command-line option. Prior to this release, user and host names passed via -J […] The…",
+      "source": "cybersecuritynews.com",
+      "first_seen": "2026-04-02T15:50:42Z",
+      "last_seen": "2026-04-02T15:50:42Z"
+    },
+    {
+      "id": "02a86a0531b650b01d3e71662018a86ba958e69d",
+      "title": "Hackers Abuse DOCX, RTF, JS, and Python in Stealthy Boeing RFQ Malware Campaign",
+      "link": "https://cybersecuritynews.com/hackers-abuse-docx-rtf-js-and-python-in-boeing-rfq/",
+      "date": "2026-04-02T14:53:54Z",
+      "description": "A seemingly routine procurement email has become the entry point for a sophisticated six-stage malware attack targeting industrial suppliers and procurement teams. The campaign, tracked as NKFZ5966PURCHASE, disguises itself as a Boeing Request for Quotation (RFQ) from a person named “Joyce Malave,” luring victims into opening a malicious Word document. Once opened, the file silently […] The post…",
+      "source": "cybersecuritynews.com",
+      "first_seen": "2026-04-02T15:50:42Z",
+      "last_seen": "2026-04-02T15:50:42Z"
+    },
+    {
+      "id": "00f02d6edc85ba6d905447785e400cd93138113c",
+      "title": "CISA Warns of Chrome 0-Day Vulnerability Actively Exploited in Attacks",
+      "link": "https://cybersecuritynews.com/chrome-0-day-flaw-exploited/",
+      "date": "2026-04-02T14:31:00Z",
+      "description": "A critical warning has been issued over a newly discovered zero-day vulnerability in Google Chrome, raising serious concerns for users worldwide. This flaw is actively exploited in the wild, allowing attackers to bypass security protections and execute malicious code, and was added to the Known Exploited Vulnerabilities (KEV) catalog on April 1, 2026. The discovery […] The post CISA Warns of…",
+      "source": "cybersecuritynews.com",
+      "first_seen": "2026-04-02T15:50:42Z",
+      "last_seen": "2026-04-02T15:50:42Z"
+    },
+    {
+      "id": "da251e5f17a0c8b6994aea0756fdbd26e01aee35",
+      "title": "Cybersecurity M&A Roundup: 38 Deals Announced in March 2026",
+      "link": "https://www.securityweek.com/cybersecurity-ma-roundup-38-deals-announced-in-march-2026/",
+      "date": "2026-04-02T14:30:00Z",
+      "description": "Significant cybersecurity M&A deals announced by Airbus, Cellebrite, Databricks, Quantum eMotion, Rapid7, and OpenAI. The post Cybersecurity M&A Roundup: 38 Deals Announced in March 2026 appeared first on SecurityWeek.",
+      "source": "securityweek.com",
+      "first_seen": "2026-04-02T15:50:42Z",
+      "last_seen": "2026-04-02T15:50:42Z"
+    },
     {
       "id": "c008a5084793e84d6a6b04fff5a90ed14dabd435",
       "title": "Adversaries Exploit Vacant Homes to Intercept Mail in Hybrid Cybercrime",
@@ -10,7 +80,7 @@
       "description": "Threat actors are exploiting vacant homes as \"drop addresses\" to intercept mail and enable fraud. Flare shows how postal services and fake identities are abused to turn mail into a fraud vector. [...]",
       "source": "bleepingcomputer.com",
       "first_seen": "2026-04-02T14:15:54Z",
-      "last_seen": "2026-04-02T14:15:54Z"
+      "last_seen": "2026-04-02T15:50:42Z"
     },
     {
       "id": "1c564a2cce791ae3e0128bf54f2a6285330036ae",
@@ -20,7 +90,7 @@
       "description": "A dangerous Android rootkit named NoVoice has been hiding inside over 50 apps on Google Play, compromising more than 2.3 million devices worldwide. Tracked as Operation NoVoice, the malware uses 22 exploits to take full control of a device without raising any alerts, making it one of the most destructive Android threats uncovered in recent […] The post NoVoice on Google Play with 22 Exploits…",
       "source": "cybersecuritynews.com",
       "first_seen": "2026-04-02T14:15:54Z",
-      "last_seen": "2026-04-02T14:15:54Z"
+      "last_seen": "2026-04-02T15:50:42Z"
     },
     {
       "id": "04b659b442dfe84614a7977fa11d0c0447d99871",
@@ -30,7 +100,7 @@
       "description": "Two vulnerabilities in Progress ShareFile, an enterprise-grade secure file transfer solution, can be chained to enable unauthenticated file exfiltration from affected environments. [...]",
       "source": "bleepingcomputer.com",
       "first_seen": "2026-04-02T14:15:54Z",
-      "last_seen": "2026-04-02T14:15:54Z"
+      "last_seen": "2026-04-02T15:50:42Z"
     },
     {
       "id": "2d443721627a7c85610a4e9688be9eeee61802ac",
@@ -40,7 +110,7 @@
       "description": "Stryker Corporation, one of the world's leading medical technology companies, says it's fully operational three weeks after many of its systems were wiped out in a cyberattack claimed by the Iranian-linked Handala hacktivist group. [...]",
       "source": "bleepingcomputer.com",
       "first_seen": "2026-04-02T14:15:54Z",
-      "last_seen": "2026-04-02T14:15:54Z"
+      "last_seen": "2026-04-02T15:50:42Z"
     },
     {
       "id": "32469b7e6a854265fcec7bcae8b56d31a471d68a",
@@ -50,7 +120,7 @@
       "description": "Augmented Marauder's multipronged banking-Trojan cyber campaigns are targeting Spanish speakers, evading detection, and replicating rapidly.",
       "source": "darkreading.com",
       "first_seen": "2026-04-02T14:15:54Z",
-      "last_seen": "2026-04-02T14:15:54Z"
+      "last_seen": "2026-04-02T15:50:42Z"
     },
     {
       "id": "11aa2e80479f0af6ff71f182265d66f6f1378a64",
@@ -60,7 +130,7 @@
       "description": "The latest ThreatsDay Bulletin is basically a cheat sheet for everything breaking on the internet right now. No corporate fluff or boring lectures here, just a quick and honest look at the messy reality of keeping systems safe this week. Things are moving fast. The list includes researchers chaining small bugs together to create massive backdoors, old software flaws",
       "source": "thehackernews.com",
       "first_seen": "2026-04-02T14:15:54Z",
-      "last_seen": "2026-04-02T14:15:54Z"
+      "last_seen": "2026-04-02T15:50:42Z"
     },
     {
       "id": "1e58832fe317d09dab36f214e642ad093dd97ecd",
@@ -80,7 +150,7 @@
       "description": "The bugs could lead to authentication bypass, remote code execution, information disclosure, and privilege escalation. The post Cisco Patches Critical and High-Severity Vulnerabilities appeared first on SecurityWeek.",
       "source": "securityweek.com",
       "first_seen": "2026-04-02T12:46:29Z",
-      "last_seen": "2026-04-02T14:15:54Z"
+      "last_seen": "2026-04-02T15:50:42Z"
     },
     {
       "id": "1ff8492b50d943e0e6c6be4f2eda9e4fb4fcb021",
@@ -90,7 +160,7 @@
       "description": "In January 2026, a threat actor hacked the hospital’s internal network and stole personal and health information. The post 250,000 Affected by Data Breach at Nacogdoches Memorial Hospital appeared first on SecurityWeek.",
       "source": "securityweek.com",
       "first_seen": "2026-04-02T12:46:29Z",
-      "last_seen": "2026-04-02T14:15:54Z"
+      "last_seen": "2026-04-02T15:50:42Z"
     },
     {
       "id": "9fb3bba3dd45b6654edd53c1777bc3cfc2b04ced",
@@ -110,7 +180,7 @@
       "description": "A financially motivated operation codenamed REF1695 has been observed leveraging fake installers to deploy remote access trojans (RATs) and cryptocurrency miners since November 2023. \"Beyond cryptomining, the threat actor monetizes infections through CPA (Cost Per Action) fraud, directing victims to content locker pages under the guise of software registration,\" Elastic",
       "source": "thehackernews.com",
       "first_seen": "2026-04-02T12:46:29Z",
-      "last_seen": "2026-04-02T14:15:54Z"
+      "last_seen": "2026-04-02T15:50:42Z"
     },
     {
       "id": "2950e68563a9cb2fe936e8b053b26f8c7623e7fe",
@@ -120,7 +190,7 @@
       "description": "In December 2025, we shared the first-ever The State of Trusted Open Source report, featuring insights from our product data and customer base on open source consumption across our catalog of container image projects, versions, images, language libraries, and builds. These insights shed light on what teams pull, deploy, and maintain day to day, alongside the vulnerabilities and",
       "source": "thehackernews.com",
       "first_seen": "2026-04-02T12:46:29Z",
-      "last_seen": "2026-04-02T14:15:54Z"
+      "last_seen": "2026-04-02T15:50:42Z"
     },
     {
       "id": "a8ddbf04f28a890bd85de1858beeeb35aba0edf4",
@@ -160,7 +230,7 @@
       "description": "Cisco has patched several critical and high-severity vulnerabilities, including an Integrated Management Controller (IMC) authentication bypass that enables attackers to gain Admin access. [...]",
       "source": "bleepingcomputer.com",
       "first_seen": "2026-04-02T11:37:56Z",
-      "last_seen": "2026-04-02T14:15:54Z"
+      "last_seen": "2026-04-02T15:50:42Z"
     },
     {
       "id": "fcac16093aeb0f4db8dbcfb5e031c3c648ba5760",
@@ -170,7 +240,7 @@
       "description": "The AI recruiting firm is investigating the incident as Lapsus$ claimed the theft of 4TB of Mercor data. The post Mercor Hit by LiteLLM Supply Chain Attack appeared first on SecurityWeek.",
       "source": "securityweek.com",
       "first_seen": "2026-04-02T10:42:11Z",
-      "last_seen": "2026-04-02T14:15:54Z"
+      "last_seen": "2026-04-02T15:50:42Z"
     },
     {
       "id": "0eff8cb57b4edad1d725b82197824135f49635e2",
@@ -200,7 +270,7 @@
       "description": "The malware can spy on victims, steal their information, and make configuration changes on devices. The post Sophisticated CrystalX RAT Emerges appeared first on SecurityWeek.",
       "source": "securityweek.com",
       "first_seen": "2026-04-02T09:51:50Z",
-      "last_seen": "2026-04-02T14:15:54Z"
+      "last_seen": "2026-04-02T15:50:42Z"
     },
     {
       "id": "8e1445fd49feeb5472017ff2bf5dc40e5c974df4",
@@ -210,7 +280,7 @@
       "description": "Meta-owned messaging platform WhatsApp said it alerted about 200 users who were tricked into installing a bogus version of its iOS app that was infected with spyware. According to reports from Italian newspaper La Repubblica and news agency ANSA, the vast majority of the targets are located in Italy. It's assessed that the threat actors behind the activity used social engineering",
       "source": "thehackernews.com",
       "first_seen": "2026-04-02T10:42:11Z",
-      "last_seen": "2026-04-02T14:15:54Z"
+      "last_seen": "2026-04-02T15:50:42Z"
     },
     {
       "id": "b99e48d49be521eafca9336905b5a157b9edf7fd",
@@ -310,7 +380,7 @@
       "description": "Apple on Wednesday expanded the availability of iOS 18.7.7 and iPadOS 18.7.7 to a broader range of devices to protect users from the risk posed by a recently disclosed exploit kit known as DarkSword. \"We enabled the availability of iOS 18.7.7 for more devices on April 1, 2026, so users with Automatic Updates turned on can automatically receive important security",
       "source": "thehackernews.com",
       "first_seen": "2026-04-02T07:58:32Z",
-      "last_seen": "2026-04-02T14:15:54Z"
+      "last_seen": "2026-04-02T15:50:42Z"
     },
     {
       "id": "fe5e6fc81dac902a3c1ca7f93c321a905a876329",
@@ -410,7 +480,7 @@
       "description": "A chief medical information officer provided a peek into what hospitals face when they inevitably suffer a ransomware attack—whether it leads to short or long-term outages.",
       "source": "darkreading.com",
       "first_seen": "2026-04-02T12:46:29Z",
-      "last_seen": "2026-04-02T14:15:54Z"
+      "last_seen": "2026-04-02T15:50:42Z"
     }
   ]
 }
