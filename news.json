@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-04-02T18:41:09Z",
-  "count": 35,
+  "last_updated": "2026-04-02T19:41:39Z",
+  "count": 40,
   "items": [
     {
       "title": "Geopolitics, AI, and Cybersecurity: Insights From RSAC 2026",
@@ -10,11 +10,25 @@
       "source": "darkreading.com"
     },
     {
+      "title": "Drift loses $280 million as hackers seize Security Council powers",
+      "link": "https://www.bleepingcomputer.com/news/security/drift-loses-280-million-as-hackers-seize-security-council-powers/",
+      "date": "2026-04-02T19:03:39Z",
+      "description": "The Drift Protocol lost at least $280 million after a threat actor took control of its Security Council administrative powers in a planned, sophisticated operation. [...]",
+      "source": "bleepingcomputer.com"
+    },
+    {
       "title": "Critical Vulnerability in Claude Code Emerges Days After Source Leak",
       "link": "https://www.securityweek.com/critical-vulnerability-in-claude-code-emerges-days-after-source-leak/",
       "date": "2026-04-02T18:00:55Z",
       "description": "Within days of each other, Anthropic first leaked the source code to Claude Code, and then a critical vulnerability was found by Adversa AI. The post Critical Vulnerability in Claude Code Emerges Days After Source Leak appeared first on SecurityWeek.",
       "source": "securityweek.com"
+    },
+    {
+      "title": "How Elite SOCs Cut Escalation Rates by Arming Tier 1 With Better Threat Intelligence",
+      "link": "https://cybersecuritynews.com/reduce-soc-escalation-rates-tier-1-alert-triage/",
+      "date": "2026-04-02T16:58:08Z",
+      "description": "In a mature Security Operations Center, escalation is supposed to work like a scalpel, precise, intentional, and reserved for alerts that genuinely demand deeper expertise. But across many teams today, it has become something far less disciplined: a reflex, a pressure valve, a way to pass uncertainty up the chain. The consequences are predictable. Tier […] The post How Elite SOCs Cut Escalation…",
+      "source": "cybersecuritynews.com"
     },
     {
       "title": "Apple Rolls Out DarkSword Exploit Protection to More Devices",
@@ -24,11 +38,32 @@
       "source": "securityweek.com"
     },
     {
+      "title": "Hackers Clone CERT-UA Site to Trick Victims Into Installing Go-Based RAT",
+      "link": "https://cybersecuritynews.com/hackers-clone-cert-ua-site/",
+      "date": "2026-04-02T16:15:03Z",
+      "description": "A threat group recently set up a convincing fake version of Ukraine’s official cybersecurity authority website to trick targets into downloading a dangerous remote access tool. The campaign, now tracked under the identifier UAC-0255, relied on a mix of phishing emails and a cloned government website to push malware onto the computers of government workers, […] The post Hackers Clone CERT-UA Site…",
+      "source": "cybersecuritynews.com"
+    },
+    {
+      "title": "New Akira Lookalike Ransomware Campaign Targeting Windows Users in South America",
+      "link": "https://cybersecuritynews.com/new-akira-lookalike-ransomware-campaign/",
+      "date": "2026-04-02T16:12:28Z",
+      "description": "A new and dangerous ransomware campaign has surfaced across South America, targeting Windows users with a carefully crafted strain that closely imitates the well-known Akira ransomware. While the two may appear nearly identical on the surface, this new threat is built on an entirely different foundation — one that quietly borrows from another notorious ransomware […] The post New Akira Lookalike…",
+      "source": "cybersecuritynews.com"
+    },
+    {
       "title": "RSAC 2026: AI Dominates, But Community Remains Key to Security",
       "link": "https://www.darkreading.com/cybersecurity-operations/rsac-2026-ai-dominates-community",
       "date": "2026-04-02T15:56:32Z",
       "description": "As AI took center stage at this year's conference, experts debated automation, oversight and the evolving role of human intelligence in cybersecurity — despite the US government's notable absence.",
       "source": "darkreading.com"
+    },
+    {
+      "title": "Qilin Ransomware Uses Malicious DLL to Kill Almost Every Vendor’s EDR Solutions",
+      "link": "https://cybersecuritynews.com/qilin-ransomware-kill-edr/",
+      "date": "2026-04-02T15:42:35Z",
+      "description": "Qilin ransomware group is deploying a sophisticated, multi-stage infection chain via a malicious msimg32.dll that can disable over 300 endpoint detection and response (EDR) drivers from virtually every major security vendor. As organizations increasingly rely on EDR solutions, which offer far greater behavioral visibility than legacy antivirus, threat actors have adapted by weaponizing EDR…",
+      "source": "cybersecuritynews.com"
     },
     {
       "title": "Residential proxies evaded IP reputation checks in 78% of 4B sessions",
@@ -43,6 +78,13 @@
       "date": "2026-04-02T15:21:00Z",
       "description": "Cisco has released updates to address a critical security flaw in the Integrated Management Controller (IMC) that, if successfully exploited, could allow an unauthenticated, remote attacker to bypass authentication and gain access to the system with elevated privileges. The vulnerability, tracked as CVE-2026-20093, carries a CVSS score of 9.8 out of a maximum of 10.0. \"This",
       "source": "thehackernews.com"
+    },
+    {
+      "title": "OpenSSH 10.3 Fixes Shell Injection and Multiple SSH Security Issues",
+      "link": "https://cybersecuritynews.com/openssh-10-3-release/",
+      "date": "2026-04-02T14:54:30Z",
+      "description": "The OpenSSH project released version 10.3 and 10.3p1 on April 2, 2026, addressing a shell injection vulnerability and introducing several security-hardening changes that administrators should review before upgrading. The most notable security fix targets a shell injection vulnerability in the -J (ProxyJump) command-line option. Prior to this release, user and host names passed via -J […] The…",
+      "source": "cybersecuritynews.com"
     },
     {
       "title": "Cybersecurity M&A Roundup: 38 Deals Announced in March 2026",
@@ -113,13 +155,6 @@
       "date": "2026-04-02T11:30:00Z",
       "description": "In December 2025, we shared the first-ever The State of Trusted Open Source report, featuring insights from our product data and customer base on open source consumption across our catalog of container image projects, versions, images, language libraries, and builds. These insights shed light on what teams pull, deploy, and maintain day to day, alongside the vulnerabilities and",
       "source": "thehackernews.com"
-    },
-    {
-      "title": "Critical Cisco IMC auth bypass gives attackers Admin access",
-      "link": "https://www.bleepingcomputer.com/news/security/critical-cisco-imc-auth-bypass-gives-attackers-admin-access/",
-      "date": "2026-04-02T11:01:14Z",
-      "description": "Cisco has patched several critical and high-severity vulnerabilities, including an Integrated Management Controller (IMC) authentication bypass that enables attackers to gain Admin access. [...]",
-      "source": "bleepingcomputer.com"
     },
     {
       "title": "WhatsApp Alerts 200 Users After Fake iOS App Installed Spyware; Italian Firm Faces Action",
