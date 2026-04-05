@@ -1,7 +1,17 @@
 {
   "date": "2026-04-05",
-  "count": 2,
+  "count": 3,
   "items": [
+    {
+      "id": "bf9178c77285377d83e86e8f89621f22d14fb2fe",
+      "title": "Hackers exploit React2Shell in automated credential theft campaign",
+      "link": "https://www.bleepingcomputer.com/news/security/hackers-exploit-react2shell-in-automated-credential-theft-campaign/",
+      "date": "2026-04-05T14:17:23Z",
+      "description": "Hackers are running a large-scale campaign to steal credentials in an automated way after exploiting React2Shell (CVE-2025-55182) in vulnerable Next.js apps. [...]",
+      "source": "bleepingcomputer.com",
+      "first_seen": "2026-04-05T14:26:54Z",
+      "last_seen": "2026-04-05T14:26:54Z"
+    },
     {
       "id": "1b129f06758b8aad1c95721d6762bca5face58bf",
       "title": "36 Malicious npm Packages Exploited Redis, PostgreSQL to Deploy Persistent Implants",
@@ -10,7 +20,7 @@
       "description": "Cybersecurity researchers have discovered 36 malicious packages in the npm registry that are disguised as Strapi CMS plugins but come with different payloads to facilitate Redis and PostgreSQL exploitation, deploy reverse shells, harvest credentials, and drop a persistent implant. \"Every package contains three files (package.json, index.js, postinstall.js), has no description, repository,",
       "source": "thehackernews.com",
       "first_seen": "2026-04-05T06:09:00Z",
-      "last_seen": "2026-04-05T13:46:29Z"
+      "last_seen": "2026-04-05T14:26:54Z"
     },
     {
       "id": "f673d52c4785a37e736b673bef5e9c6f8a82dd54",
@@ -20,7 +30,7 @@
       "description": "Fortinet has released out-of-band patches for a critical security flaw impacting FortiClient EMS that it said has been exploited in the wild. The vulnerability, tracked as CVE-2026-35616 (CVSS score: 9.1), has been described as a pre-authentication API access bypass leading to privilege escalation. \"An improper access control vulnerability [CWE-284] in FortiClient EMS may allow an",
       "source": "thehackernews.com",
       "first_seen": "2026-04-05T06:09:00Z",
-      "last_seen": "2026-04-05T13:46:29Z"
+      "last_seen": "2026-04-05T14:26:54Z"
     }
   ]
 }
