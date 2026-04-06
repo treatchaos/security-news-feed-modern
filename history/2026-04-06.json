@@ -1,7 +1,57 @@
 {
   "date": "2026-04-06",
-  "count": 7,
+  "count": 12,
   "items": [
+    {
+      "id": "88baedba9247d157e6464c5a53425403cb42d250",
+      "title": "Hackers Use Poisoned Axios Package and Phantom Dependency to Spread Cross-Platform Malware",
+      "link": "https://cybersecuritynews.com/hackers-use-poisoned-axios-package-and-phantom-dependency/",
+      "date": "2026-04-06T09:58:04Z",
+      "description": "One of the most widely used JavaScript libraries in the world was turned into a weapon on March 30, 2026, when attackers poisoned the Axios npm package and silently deployed malware on developer machines running Windows, macOS, and Linux. With over 100 million weekly downloads, Axios is the most popular HTTP client in the JavaScript […] The post Hackers Use Poisoned Axios Package and Phantom…",
+      "source": "cybersecuritynews.com",
+      "first_seen": "2026-04-06T09:59:41Z",
+      "last_seen": "2026-04-06T09:59:41Z"
+    },
+    {
+      "id": "708eb686e192191e54ca93fdf4e4ecc789645d84",
+      "title": "Exploit Code Live: Full Technical Details and PoC Disclosed for Critical CWP RCE Vulnerability",
+      "link": "https://securityonline.info/cwp-rce-exploit-poc-disclosed/",
+      "date": "2026-04-06T09:42:55Z",
+      "description": "The post Exploit Code Live: Full Technical Details and PoC Disclosed for Critical CWP RCE Vulnerability appeared first on Daily CyberSecurity. Related posts: Pre-Auth Command Execution in CentOS Web Panel Exposes Over 200,000 Servers, PoC Publishes Critical Pre-Auth RCE: vBulletin Flaw Allows Full Server Compromise (PoC Available) PoC Reveals Apple Audio Zero-Day Enabling Remote Code Execution…",
+      "source": "securityonline.info",
+      "first_seen": "2026-04-06T09:59:41Z",
+      "last_seen": "2026-04-06T09:59:41Z"
+    },
+    {
+      "id": "b53a67273f717a6e6c4e098ae742917e083693ba",
+      "title": "Fortinet Rushes Emergency Fixes for Exploited Zero-Day",
+      "link": "https://www.securityweek.com/fortinet-rushes-emergency-fixes-for-exploited-zero-day/",
+      "date": "2026-04-06T09:37:28Z",
+      "description": "The improper access control bug in FortiClient EMS allows unauthenticated attackers to execute arbitrary code remotely. The post Fortinet Rushes Emergency Fixes for Exploited Zero-Day appeared first on SecurityWeek.",
+      "source": "securityweek.com",
+      "first_seen": "2026-04-06T09:59:41Z",
+      "last_seen": "2026-04-06T09:59:41Z"
+    },
+    {
+      "id": "fd462049d8e9030c80041607da10542c32f3c9c9",
+      "title": "Critical Claude Code Flaw Silently Bypasses Developer-Configured Security Rules",
+      "link": "https://cybersecuritynews.com/claude-code-vulnerability/",
+      "date": "2026-04-06T09:16:26Z",
+      "description": "A high-severity security bypass vulnerability in Anthropic’s Claude Code AI coding agent allows malicious actors to silently evade user-configured deny rules through a simple command-padding technique, exposing hundreds of thousands of developers to credential theft and supply chain compromise. According to Adversa, the flaw was traced to bashPermissions.ts (lines 2162–2178), stems from a…",
+      "source": "cybersecuritynews.com",
+      "first_seen": "2026-04-06T09:59:41Z",
+      "last_seen": "2026-04-06T09:59:41Z"
+    },
+    {
+      "id": "0334f068e1091446101c13a1a240e405978cdb9c",
+      "title": "Hackers Using Fake “Microsoft Teams” Domains to Attack Users Via Malicious Payload",
+      "link": "https://cybersecuritynews.com/hackers-using-fake-microsoft-teams-domains-attack-via-malicious-payload/",
+      "date": "2026-04-06T09:04:09Z",
+      "description": "Cybercriminals are launching a sophisticated new wave of attacks using fake Microsoft Teams domains. According to recent threat intelligence shared by SEAL Org, hackers are actively tricking corporate users into downloading malicious payloads by mimicking the widely used communication platform. As Microsoft Teams remains an essential tool for remote and hybrid work environments, threat actors…",
+      "source": "cybersecuritynews.com",
+      "first_seen": "2026-04-06T09:59:41Z",
+      "last_seen": "2026-04-06T09:59:41Z"
+    },
     {
       "id": "8e887da455e8a79f8892528208b977a904911216",
       "title": "New ResokerRAT Uses Telegram Bot API to Control Infected Windows Systems",
@@ -10,7 +60,7 @@
       "description": "A new Remote Access Trojan (RAT) called ResokerRAT has been found targeting Windows systems by abusing Telegram’s widely used Bot API to receive commands and send stolen data back to attackers. Unlike traditional malware that relies on custom command-and-control servers, this threat routes all communications through a trusted messaging platform, making it far harder for […] The post New…",
       "source": "cybersecuritynews.com",
       "first_seen": "2026-04-06T08:17:05Z",
-      "last_seen": "2026-04-06T08:17:05Z"
+      "last_seen": "2026-04-06T09:59:41Z"
     },
     {
       "id": "275034ed17c6333a5d93f718476d829d08564633",
@@ -20,7 +70,7 @@
       "description": "Germany's Federal Criminal Police Office (aka BKA or the Bundeskriminalamt) has unmasked the real identity of the main threat actors associated with the now-defunct REvil (aka Sodinokibi) ransomware-as-a-service (RaaS) operation. The threat actor, who went by the alias UNKN, functioned as a representative of the group, advertising the ransomware in June 2019 on the XSS cybercrime forum. He",
       "source": "thehackernews.com",
       "first_seen": "2026-04-06T08:17:05Z",
-      "last_seen": "2026-04-06T08:17:05Z"
+      "last_seen": "2026-04-06T09:59:41Z"
     },
     {
       "id": "c6d50b5992d859befb5a3cd68f50911cf562ece5",
@@ -30,7 +80,7 @@
       "description": "A new open-source penetration testing framework called METATRON is gaining attention in the security research community for its fully offline, AI-driven approach to vulnerability assessment. Built for Parrot OS and other Debian-based Linux distributions, METATRON combines automated reconnaissance tooling with a locally hosted large language model (LLM), eliminating the need for cloud…",
       "source": "cybersecuritynews.com",
       "first_seen": "2026-04-06T08:17:05Z",
-      "last_seen": "2026-04-06T08:17:05Z"
+      "last_seen": "2026-04-06T09:59:41Z"
     },
     {
       "id": "a6b0c0480ee4674f941e961eca88130a9431ddfc",
