@@ -1,7 +1,49 @@
 {
-  "last_updated": "2026-04-06T10:58:02Z",
+  "last_updated": "2026-04-06T11:44:46Z",
   "count": 40,
   "items": [
+    {
+      "title": "Guardarian Users Targeted With Malicious Strapi NPM Packages",
+      "link": "https://www.securityweek.com/guardarian-users-targeted-with-malicious-strapi-npm-packages/",
+      "date": "2026-04-06T11:40:56Z",
+      "description": "Hackers published 36 NPM packages posing as Strapi plugins to execute shells, escape containers, and harvest credentials. The post Guardarian Users Targeted With Malicious Strapi NPM Packages appeared first on SecurityWeek.",
+      "source": "securityweek.com"
+    },
+    {
+      "title": "Google’s Bug Bounty Program Hits All-Time High With $17 Million in 2025 Payouts",
+      "link": "https://cybersecuritynews.com/googles-bug-bounty-program-high-reward/",
+      "date": "2026-04-06T11:29:40Z",
+      "description": "Google’s Vulnerability Reward Program (VRP) celebrated its 15th anniversary in 2025 by breaking every payout record in its history. The tech giant awarded a staggering $17 million to external security researchers worldwide, representing a massive 40% surge compared to 2024. Over 700 ethical hackers from across the globe successfully identified and responsibly disclosed vulnerabilities, proving…",
+      "source": "cybersecuritynews.com"
+    },
+    {
+      "title": "Apache Traffic Server Vulnerabilities Let Attackers Trigger DoS Attack",
+      "link": "https://cybersecuritynews.com/apache-traffic-server-dos-vulnerabilities/",
+      "date": "2026-04-06T11:21:11Z",
+      "description": "The Apache Software Foundation has released emergency security updates to address two severe vulnerabilities in the Apache Traffic Server (ATS). ATS operates as a high-performance web proxy cache that improves network efficiency and handles massive volumes of enterprise web traffic. These newly discovered flaws stem from how the server processes HTTP requests with message bodies. […] The post…",
+      "source": "cybersecuritynews.com"
+    },
+    {
+      "title": "Critical Dgraph Database Vulnerability Let Attackers Bypass Authentication",
+      "link": "https://cybersecuritynews.com/dgraph-database-vulnerability/",
+      "date": "2026-04-06T11:15:21Z",
+      "description": "A maximum-severity vulnerability in Dgraph, a popular open-source graph database. Tracked as CVE-2026-34976, this critical flaw carries a perfect CVSS score of 10.0. It allows unauthenticated remote attackers to bypass all security controls, overwrite entire databases, read sensitive server files, and launch Server-Side Request Forgery (SSRF) attacks. Discovered by security researchers Matthew…",
+      "source": "cybersecuritynews.com"
+    },
+    {
+      "title": "Hackers Compromised ILSpy WordPress Domain to Deliver Malware",
+      "link": "https://cybersecuritynews.com/ilspy-wordpress-domain-malware/",
+      "date": "2026-04-06T11:12:35Z",
+      "description": "A new supply chain attack targeting developers after threat actors compromised the official WordPress domain for ILSpy on April 6, 2026. Instead of providing the legitimate software, the hijacked website began redirecting visitors to a malicious webpage to deliver malware. Normally, clicking the download button on the ILSpy website sends users directly to the project’s […] The post Hackers…",
+      "source": "cybersecuritynews.com"
+    },
+    {
+      "title": "North Korean Hackers Target High-Profile Node.js Maintainers",
+      "link": "https://www.securityweek.com/north-korean-hackers-target-high-profile-node-js-maintainers/",
+      "date": "2026-04-06T11:02:36Z",
+      "description": "The threat actor behind the Axios supply chain attack has been aiming at other maintainers in its social engineering campaign. The post North Korean Hackers Target High-Profile Node.js Maintainers appeared first on SecurityWeek.",
+      "source": "securityweek.com"
+    },
     {
       "title": "Qilin and Warlock Ransomware Use Vulnerable Drivers to Disable 300+ EDR Tools",
       "link": "https://thehackernews.com/2026/04/qilin-and-warlock-ransomware-use.html",
@@ -31,39 +73,11 @@
       "source": "securityweek.com"
     },
     {
-      "title": "Critical Claude Code Flaw Silently Bypasses Developer-Configured Security Rules",
-      "link": "https://cybersecuritynews.com/claude-code-vulnerability/",
-      "date": "2026-04-06T09:16:26Z",
-      "description": "A high-severity security bypass vulnerability in Anthropic’s Claude Code AI coding agent allows malicious actors to silently evade user-configured deny rules through a simple command-padding technique, exposing hundreds of thousands of developers to credential theft and supply chain compromise. According to Adversa, the flaw was traced to bashPermissions.ts (lines 2162–2178), stems from a…",
-      "source": "cybersecuritynews.com"
-    },
-    {
-      "title": "Hackers Using Fake “Microsoft Teams” Domains to Attack Users Via Malicious Payload",
-      "link": "https://cybersecuritynews.com/hackers-using-fake-microsoft-teams-domains-attack-via-malicious-payload/",
-      "date": "2026-04-06T09:04:09Z",
-      "description": "Cybercriminals are launching a sophisticated new wave of attacks using fake Microsoft Teams domains. According to recent threat intelligence shared by SEAL Org, hackers are actively tricking corporate users into downloading malicious payloads by mimicking the widely used communication platform. As Microsoft Teams remains an essential tool for remote and hybrid work environments, threat actors…",
-      "source": "cybersecuritynews.com"
-    },
-    {
-      "title": "New ResokerRAT Uses Telegram Bot API to Control Infected Windows Systems",
-      "link": "https://cybersecuritynews.com/new-resokerrat-uses-telegram-bot/",
-      "date": "2026-04-06T07:12:12Z",
-      "description": "A new Remote Access Trojan (RAT) called ResokerRAT has been found targeting Windows systems by abusing Telegram’s widely used Bot API to receive commands and send stolen data back to attackers. Unlike traditional malware that relies on custom command-and-control servers, this threat routes all communications through a trusted messaging platform, making it far harder for […] The post New…",
-      "source": "cybersecuritynews.com"
-    },
-    {
       "title": "BKA Identifies REvil Leaders Behind 130 German Ransomware Attacks",
       "link": "https://thehackernews.com/2026/04/bka-identifies-revil-leaders-behind-130.html",
       "date": "2026-04-06T06:59:00Z",
       "description": "Germany's Federal Criminal Police Office (aka BKA or the Bundeskriminalamt) has unmasked the real identities of two of the key figures associated with the now-defunct REvil (aka Sodinokibi) ransomware-as-a-service (RaaS) operation. One of the threat actors, who went by the alias UNKN, functioned as a representative of the group, advertising the ransomware in June 2019 on the XSS cybercrime forum",
       "source": "thehackernews.com"
-    },
-    {
-      "title": "METATRON – Open-Source AI Penetration Testing Assistant Brings Local LLM Analysis to Linux",
-      "link": "https://cybersecuritynews.com/metatron-ai-penetration-testing/",
-      "date": "2026-04-06T06:38:13Z",
-      "description": "A new open-source penetration testing framework called METATRON is gaining attention in the security research community for its fully offline, AI-driven approach to vulnerability assessment. Built for Parrot OS and other Debian-based Linux distributions, METATRON combines automated reconnaissance tooling with a locally hosted large language model (LLM), eliminating the need for cloud…",
-      "source": "cybersecuritynews.com"
     },
     {
       "title": "Traffic violation scams switch to QR codes in new phishing texts",
@@ -168,20 +182,6 @@
       "link": "https://www.securityweek.com/trueconf-zero-day-exploited-in-asian-government-attacks/",
       "date": "2026-04-03T12:47:16Z",
       "description": "A Chinese threat actor exploited the video conferencing platform to perform reconnaissance, escalate privileges, and execute additional payloads. The post TrueConf Zero-Day Exploited in Asian Government Attacks appeared first on SecurityWeek.",
-      "source": "securityweek.com"
-    },
-    {
-      "title": "In Other News: ChatGPT Data Leak, Android Rootkit, Water Facility Hit by Ransomware",
-      "link": "https://www.securityweek.com/in-other-news-chatgpt-data-leak-android-rootkit-water-facility-hit-by-ransomware/",
-      "date": "2026-04-03T12:30:53Z",
-      "description": "Other noteworthy stories that might have slipped under the radar: Symantec vulnerability, anti-ClickFix mechanism added to macOS, FBI hack classified as major incident. The post In Other News: ChatGPT Data Leak, Android Rootkit, Water Facility Hit by Ransomware appeared first on SecurityWeek.",
-      "source": "securityweek.com"
-    },
-    {
-      "title": "Critical ShareFile Flaws Lead to Unauthenticated RCE",
-      "link": "https://www.securityweek.com/critical-sharefile-flaws-lead-to-unauthenticated-rce/",
-      "date": "2026-04-03T12:12:22Z",
-      "description": "The vulnerabilities can be chained together to bypass authentication and upload arbitrary files to the server. The post Critical ShareFile Flaws Lead to Unauthenticated RCE appeared first on SecurityWeek.",
       "source": "securityweek.com"
     },
     {
