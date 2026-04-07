@@ -1,6 +1,6 @@
 {
   "date": "2026-01-07",
-  "count": 34,
+  "count": 22,
   "items": [
     {
       "id": "80c9a3eaa2d2f6ca2a30c0eea21b48255efb2ccf",
@@ -203,46 +203,6 @@
       "last_seen": "2026-01-07T20:13:56Z"
     },
     {
-      "id": "9f07e5ca502d4092b1cbf8b92941f2c5dcaec782",
-      "title": "PoC Exploit Released for Android/Linux Kernel Vulnerability CVE-2025-38352",
-      "link": "https://cybersecuritynews.com/chronomaly-exploit/",
-      "date": "2026-01-07T14:09:29Z",
-      "description": "A proof-of-concept (PoC) exploit for CVE-2025-38352, a critical race condition vulnerability in the Linux kernel, has been publicly released on GitHub. The vulnerability, discovered earlier this year, targets the POSIX CPU timers implementation and was previously exploited in limited, targeted attacks against 32-bit Android devices. CVE-2025-38352 is a use-after-free (UAF) vulnerability in the…",
-      "source": "cybersecuritynews.com",
-      "first_seen": "2026-01-07T14:15:23Z",
-      "last_seen": "2026-01-07T16:17:46Z"
-    },
-    {
-      "id": "269241e35a265387243dbab2d16789eb36d45d01",
-      "title": "DDoSia Powers Affiliate-Driven Hacktivist Attacks",
-      "link": "https://www.darkreading.com/cyberattacks-data-breaches/ddosia-powers-volunteer-driven-hacktivist-attacks",
-      "date": "2026-01-07T14:00:00Z",
-      "description": "Pro-Russian group NoName057(16) uses a custom denial-of-service tool to mobilize volunteers and disrupt government, media, and institutional sites tied to Ukraine and the West.",
-      "source": "darkreading.com",
-      "first_seen": "2026-01-07T14:15:23Z",
-      "last_seen": "2026-01-08T20:13:30Z"
-    },
-    {
-      "id": "c7eaeeb26bb1999f64b0f7cc7a848c4444291acb",
-      "title": "Cyberattacks Likely Part of Military Operation in Venezuela",
-      "link": "https://www.darkreading.com/cybersecurity-operations/cyberattacks-part-military-operation-venezuela",
-      "date": "2026-01-07T14:00:00Z",
-      "description": "Cyber's role in the US raid on Venezuela remains a question, though President Trump alluded to \"certain expertise\" in shutting down the power grid in Caracas.",
-      "source": "darkreading.com",
-      "first_seen": "2026-01-07T14:15:23Z",
-      "last_seen": "2026-01-08T21:12:26Z"
-    },
-    {
-      "id": "256de26237bc29e8e1b9c5d1c32a4722774d0cef",
-      "title": "Vulnerability in Totolink Range Extender Allows Device Takeover",
-      "link": "https://www.securityweek.com/vulnerability-in-totolink-range-extender-allows-device-takeover/",
-      "date": "2026-01-07T13:50:36Z",
-      "description": "An error in the firmware-upload handler leads to devices starting an unauthenticated root-level Telnet service. The post Vulnerability in Totolink Range Extender Allows Device Takeover appeared first on SecurityWeek.",
-      "source": "securityweek.com",
-      "first_seen": "2026-01-07T14:15:23Z",
-      "last_seen": "2026-01-08T12:25:06Z"
-    },
-    {
       "id": "bdd73bfbcdf9bb048842053eddf0dd23b0963ebb",
       "title": "Critical n8n Vulnerability (CVSS 10.0) Allows Unauthenticated Attackers to Take Full Control",
       "link": "https://thehackernews.com/2026/01/critical-n8n-vulnerability-cvss-100.html",
@@ -253,66 +213,6 @@
       "last_seen": "2026-01-08T10:14:31Z"
     },
     {
-      "id": "5b5e01fdd589c7f0b3e52e6467f0e1a10a4b5381",
-      "title": "Several Code Execution Flaws Patched in Veeam Backup & Replication",
-      "link": "https://www.securityweek.com/several-code-execution-flaws-patched-in-veeam-backup-replication/",
-      "date": "2026-01-07T13:27:11Z",
-      "description": "Four vulnerabilities have been fixed in the latest release of Veeam Backup & Replication. The post Several Code Execution Flaws Patched in Veeam Backup & Replication appeared first on SecurityWeek.",
-      "source": "securityweek.com",
-      "first_seen": "2026-01-07T13:32:54Z",
-      "last_seen": "2026-01-08T12:25:06Z"
-    },
-    {
-      "id": "7cf859bc4a7e349fe4b0575f4afaed6a3609d504",
-      "title": "Researchers Manipulate Stolen Data to Corrupt AI Models and Generate Inaccurate Outputs",
-      "link": "https://cybersecuritynews.com/manipulate-stolen-data-corrupt-ai/",
-      "date": "2026-01-07T13:10:37Z",
-      "description": "Researchers from the Chinese Academy of Sciences and Nanyang Technological University have introduced AURA, a novel framework to safeguard proprietary knowledge graphs in GraphRAG systems against theft and private exploitation. Published on arXiv just a week ago, the paper highlights how adulterating KGs with fake but plausible data renders stolen copies useless to attackers while […] The post…",
-      "source": "cybersecuritynews.com",
-      "first_seen": "2026-01-07T13:32:54Z",
-      "last_seen": "2026-01-07T16:17:46Z"
-    },
-    {
-      "id": "25c8202d1604f876c4bc6bdda1dd4757df686ca0",
-      "title": "New Veeam vulnerabilities expose backup servers to RCE attacks",
-      "link": "https://www.bleepingcomputer.com/news/security/new-veeam-vulnerabilities-expose-backup-servers-to-rce-attacks/",
-      "date": "2026-01-07T13:06:11Z",
-      "description": "Veeam released security updates to patch multiple security flaws in its Backup & Replication software, including a critical remote code execution (RCE) vulnerability. [...]",
-      "source": "bleepingcomputer.com",
-      "first_seen": "2026-01-07T13:32:54Z",
-      "last_seen": "2026-01-07T17:18:03Z"
-    },
-    {
-      "id": "e23fb9299cee03577ceebcf975ed859bb9452ad8",
-      "title": "Chinese Hackers Deploy NFC-enabled Android Malware to Steal Payment Data",
-      "link": "https://cybersecuritynews.com/chinese-hackers-deploy-nfc-enabled-android-malware/",
-      "date": "2026-01-07T13:03:12Z",
-      "description": "Chinese threat actors have launched a sophisticated campaign using NFC-enabled Android malware called Ghost Tap to intercept and steal financial information from victims worldwide. The malware operates through a deceptive distribution model, where attackers trick users into downloading seemingly legitimate applications via Telegram and other messaging platforms. Once installed, Ghost Tap…",
-      "source": "cybersecuritynews.com",
-      "first_seen": "2026-01-07T13:32:54Z",
-      "last_seen": "2026-01-07T15:14:36Z"
-    },
-    {
-      "id": "0bd3ba61033fd7f8a475d37ba4dfe2829d080c97",
-      "title": "Cybersecurity Firms Secured $14 Billion in Funding in 2025: Analysis",
-      "link": "https://www.securityweek.com/cybersecurity-firms-secured-14-billion-in-funding-in-2025/",
-      "date": "2026-01-07T13:00:00Z",
-      "description": "2025 was the strongest year for cybersecurity funding since the 2021 peak, according to Pinpoint Search Group. The post Cybersecurity Firms Secured $14 Billion in Funding in 2025: Analysis appeared first on SecurityWeek.",
-      "source": "securityweek.com",
-      "first_seen": "2026-01-07T13:32:54Z",
-      "last_seen": "2026-01-08T10:14:31Z"
-    },
-    {
-      "id": "e09aa8f30469d5620e969a5146fa651dbfbeb802",
-      "title": "Google Search AI hallucinations push Google to hire \"AI Answers Quality\" engineers",
-      "link": "https://www.bleepingcomputer.com/news/google/google-search-ai-hallucinations-push-google-to-hire-ai-answers-quality-engineers/",
-      "date": "2026-01-07T12:50:38Z",
-      "description": "AI, including AI Overviews on Google Search, can hallucinate and often make up stuff or offer contradicting answers when asked in two different ways. [...]",
-      "source": "bleepingcomputer.com",
-      "first_seen": "2026-01-07T13:32:54Z",
-      "last_seen": "2026-01-07T17:18:03Z"
-    },
-    {
       "id": "3b81e7911e1521be6795f0d5fd5f6bd4634f6286",
       "title": "Lack of MFA Is Common Thread in Vast Cloud Credential Heist",
       "link": "https://www.darkreading.com/cloud-security/lack-mfa-common-thread-vast-cloud-credential-heist",
@@ -321,26 +221,6 @@
       "source": "darkreading.com",
       "first_seen": "2026-01-07T17:18:03Z",
       "last_seen": "2026-01-08T19:12:46Z"
-    },
-    {
-      "id": "45972504440270490c0ee8242225986594cd89ee",
-      "title": "Hackers Exploit Zero-Day in Discontinued D-Link Devices",
-      "link": "https://www.securityweek.com/hackers-exploit-zero-day-in-discontinued-d-link-devices/",
-      "date": "2026-01-07T12:33:11Z",
-      "description": "The critical-severity vulnerability allows unauthenticated, remote attackers to execute arbitrary shell commands. The post Hackers Exploit Zero-Day in Discontinued D-Link Devices appeared first on SecurityWeek.",
-      "source": "securityweek.com",
-      "first_seen": "2026-01-07T13:32:54Z",
-      "last_seen": "2026-01-07T15:14:36Z"
-    },
-    {
-      "id": "0391e8aacbb4d7d5d1205b68a6dae85ad7b08c50",
-      "title": "Threat Actors Leversges Google Cloud Services to Steal Microsoft 365 Logins",
-      "link": "https://cybersecuritynews.com/threat-actors-leversges-google-cloud-services/",
-      "date": "2026-01-07T12:28:55Z",
-      "description": "A sophisticated new phishing campaign has emerged, leveraging the trusted infrastructure of Google Cloud services to bypass security filters and steal sensitive Microsoft 365 login credentials. By abusing legitimate workflow automation tools, threat actors are crafting convincing attacks that blend seamlessly with authentic communications, making detection increasingly difficult for both…",
-      "source": "cybersecuritynews.com",
-      "first_seen": "2026-01-07T13:32:54Z",
-      "last_seen": "2026-01-07T14:15:23Z"
     }
   ]
 }
