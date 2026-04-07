@@ -1,7 +1,42 @@
 {
-  "last_updated": "2026-04-07T06:12:51Z",
+  "last_updated": "2026-04-07T08:05:04Z",
   "count": 40,
   "items": [
+    {
+      "title": "Microsoft Warns Storm-1175 Exploits Web-Facing Assets 0-Day Flaws in Medusa Ransomware Attacks",
+      "link": "https://cybersecuritynews.com/microsoft-warns-storm-1175-exploits-web-facing-assets-0-day-flaws/",
+      "date": "2026-04-07T07:49:29Z",
+      "description": "A new ransomware campaign is putting organizations on high alert. A financially motivated threat group known as Storm-1175 has been running fast-paced attacks targeting vulnerable, internet-facing systems — and deploying the Medusa ransomware as the final blow. What makes this group especially dangerous is how quickly it moves: from the moment it breaks in, attackers […] The post Microsoft Warns…",
+      "source": "cybersecuritynews.com"
+    },
+    {
+      "title": "50,000 WordPress Sites Exposed to Critical Ninja Forms File Upload RCE Vulnerability",
+      "link": "https://cybersecuritynews.com/50000-wordpress-sites-exposed/",
+      "date": "2026-04-07T07:35:23Z",
+      "description": "A critical security flaw in the popular WordPress plugin “Ninja Forms – File Upload” has left approximately 50,000 websites vulnerable to complete takeover. Tracked as CVE-2026-0740, this flaw boasts a maximum CVSS severity score of 9.8, making it a severe threat that requires immediate attention from website administrators.​ Discovered by security researcher Sélim Lanouar, who […] The post…",
+      "source": "cybersecuritynews.com"
+    },
+    {
+      "title": "OpenAI Codex Command Injection Vulnerability Let Attackers Steal GitHub User Access Tokens",
+      "link": "https://cybersecuritynews.com/openai-codex-command-injection-vulnerability/",
+      "date": "2026-04-07T07:02:51Z",
+      "description": "The integration of AI coding agents has introduced new, high-impact attack surfaces for development teams. Phantom Labs at BeyondTrust recently discovered a critical command-injection vulnerability in OpenAI Codex. This flaw allowed attackers to steal sensitive GitHub User Access Tokens. By exploiting how Codex handles task creation requests, threat actors could laterally move into an…",
+      "source": "cybersecuritynews.com"
+    },
+    {
+      "title": "Hackers Use Fake TradingView Premium Posts on Reddit to Deliver Vidar and AMOS Stealers",
+      "link": "https://cybersecuritynews.com/hackers-use-fake-tradingview-premium-posts/",
+      "date": "2026-04-07T06:59:29Z",
+      "description": "A threat actor has been running an active campaign on Reddit, using fake posts that promise free TradingView Premium access to deliver two malware families — Vidar on Windows and AMOS on macOS. The operation is still live, with new posts surfacing as older ones get taken down. TradingView is one of the most widely […] The post Hackers Use Fake TradingView Premium Posts on Reddit to Deliver Vidar…",
+      "source": "cybersecuritynews.com"
+    },
+    {
+      "title": "China-Linked Storm-1175 Exploits Zero-Days to Rapidly Deploy Medusa Ransomware",
+      "link": "https://thehackernews.com/2026/04/china-linked-storm-1175-exploits-zero.html",
+      "date": "2026-04-07T06:35:00Z",
+      "description": "A China-based threat actor known for deploying Medusa ransomware has been linked to the weaponization of a combination of zero-day and N-day vulnerabilities to orchestrate \"high-velocity\" attacks and break into susceptible internet-facing systems. \"The threat actor's high operational tempo and proficiency in identifying exposed perimeter assets have proven successful, with recent",
+      "source": "thehackernews.com"
+    },
     {
       "title": "Wynn Resorts Says 21,000 Employees Affected by ShinyHunters Hack",
       "link": "https://www.securityweek.com/wynn-resorts-says-21000-employees-affected-by-shinyhunters-hack/",
@@ -87,13 +122,6 @@
       "source": "bleepingcomputer.com"
     },
     {
-      "title": "CISA Warns of Fortinet 0-Day Vulnerability Actively Exploited in Attacks",
-      "link": "https://cybersecuritynews.com/cisa-warns-fortinet-vulnerability/",
-      "date": "2026-04-06T16:37:57Z",
-      "description": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) has added CVE-2026-35616, a critical improper access control vulnerability in Fortinet FortiClient Enterprise Management Server (EMS), to its Known Exploited Vulnerabilities (KEV) catalog on April 6, 2026, mandating federal agencies to remediate by April 9, 2026. CVE-2026-35616 is a critical-severity flaw rooted in CWE-284…",
-      "source": "cybersecuritynews.com"
-    },
-    {
       "title": "DPRK-Linked Hackers Use GitHub as C2 in Multi-Stage Attacks Targeting South Korea",
       "link": "https://thehackernews.com/2026/04/dprk-linked-hackers-use-github-as-c2-in.html",
       "date": "2026-04-06T16:24:00Z",
@@ -115,27 +143,6 @@
       "source": "darkreading.com"
     },
     {
-      "title": "Trojanized PyPI AI Proxy Uses Stolen Claude Prompt to Exfiltrates Data",
-      "link": "https://cybersecuritynews.com/trojanized-pypi-ai-proxy-uses-stolen-claude-prompt/",
-      "date": "2026-04-06T15:26:27Z",
-      "description": "A malicious Python package has been discovered on PyPI that disguises itself as a privacy-focused AI inference tool while quietly stealing sensitive user data in the background. Named hermes-px, the package marketed itself as a “Secure AI Inference Proxy” that routes all AI requests through the Tor network to protect user anonymity. In reality, it hijacked […] The post Trojanized PyPI AI Proxy…",
-      "source": "cybersecuritynews.com"
-    },
-    {
-      "title": "Hackers Drain $286 Million From Drift Protocol in Suspected North Korea-Linked Exploit",
-      "link": "https://cybersecuritynews.com/hackers-drain-286-million-from-drift-protocol/",
-      "date": "2026-04-06T15:05:10Z",
-      "description": "The largest decentralized perpetual futures exchange on the Solana blockchain — became the target of a massive and well-orchestrated theft on April 1, 2026, Drift Protocol. Unknown attackers managed to drain $286 million in digital assets from the platform’s core liquidity vaults in less than an hour, causing widespread panic across the decentralized finance community. […] The post Hackers Drain…",
-      "source": "cybersecuritynews.com"
-    },
-    {
-      "title": "New GitHub Actions Attack Chain Uses Fake CI Updates to Exfiltrate Secrets and Tokens",
-      "link": "https://cybersecuritynews.com/new-github-actions-attack-chain-uses-fake-ci-updates/",
-      "date": "2026-04-06T14:34:20Z",
-      "description": "A new attack campaign is actively targeting open-source repositories on GitHub by carefully disguising malicious code as completely routine CI build configuration updates. The campaign, prt-scan exploits a widely misused GitHub Actions workflow trigger to steal sensitive tokens, credentials, and cloud secrets from developers who unknowingly trigger the fraudulent pull requests. The attack first…",
-      "source": "cybersecuritynews.com"
-    },
-    {
       "title": "Shadow AI in Healthcare Is Here to Stay",
       "link": "https://www.darkreading.com/cyber-risk/shadow-ai-in-healthcare-is-here-to-stay",
       "date": "2026-04-06T14:07:50Z",
@@ -147,13 +154,6 @@
       "link": "https://thehackernews.com/2026/04/multi-os-cyberattacks-how-socs-close.html",
       "date": "2026-04-06T13:00:00Z",
       "description": "Your attack surface no longer lives on one operating system, and neither do the campaigns targeting it. In enterprise environments, attackers move across Windows endpoints, executive MacBooks, Linux infrastructure, and mobile devices, taking advantage of the fact that many SOC workflows are still fragmented by platform. For security leaders, this creates a",
-      "source": "thehackernews.com"
-    },
-    {
-      "title": "⚡ Weekly Recap: Axios Hack, Chrome 0-Day, Fortinet Exploits, Paragon Spyware and More",
-      "link": "https://thehackernews.com/2026/04/weekly-recap-axios-hack-chrome-0-day.html",
-      "date": "2026-04-06T12:46:00Z",
-      "description": "This week had real hits. The key software got tampered with. Active bugs showed up in the tools people use every day. Some attacks didn’t even need much effort because the path was already there. One weak spot now spreads wider than before. What starts small can reach a lot of systems fast. New bugs, faster use, less time to react. That’s this week. Read&",
       "source": "thehackernews.com"
     },
     {
