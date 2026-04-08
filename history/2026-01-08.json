@@ -1,6 +1,6 @@
 {
   "date": "2026-01-08",
-  "count": 43,
+  "count": 36,
   "items": [
     {
       "id": "a532d83fc34bbf4d6f0960f9f11ddcb0fdd7fc92",
@@ -331,76 +331,6 @@
       "source": "securityweek.com",
       "first_seen": "2026-01-08T13:34:25Z",
       "last_seen": "2026-01-08T15:15:46Z"
-    },
-    {
-      "id": "43c48280020cb9424005b5e282b1f27271a2fc15",
-      "title": "CISA Adds HP Enterprise OneView Code Injection Vulnerability to KEV Following Active Exploitation",
-      "link": "https://cybersecuritynews.com/hp-enterprise-oneview-code-injection-vulnerability/",
-      "date": "2026-01-08T12:13:05Z",
-      "description": "A critical code injection flaw in Hewlett Packard Enterprise OneView, tracked as CVE-2025-37164, has been added to CISA’s Known Exploited Vulnerabilities (KEV) catalog. The vulnerability has been confirmed to be actively exploited by threat actors, triggering urgent remediation timelines for federal agencies and critical infrastructure operators. CVE-2025-37164 represents a severe security flaw…",
-      "source": "cybersecuritynews.com",
-      "first_seen": "2026-01-08T12:25:06Z",
-      "last_seen": "2026-01-08T14:16:35Z"
-    },
-    {
-      "id": "af59ca04e5164812dcddd887357a5cd043a9b5cf",
-      "title": "Microsoft to enforce MFA for Microsoft 365 admin center sign-ins",
-      "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-to-enforce-mfa-for-microsoft-365-admin-center-sign-ins/",
-      "date": "2026-01-08T12:10:34Z",
-      "description": "Microsoft will start enforcing multi-factor authentication (MFA) for all users accessing the Microsoft 365 admin center starting next month. [...]",
-      "source": "bleepingcomputer.com",
-      "first_seen": "2026-01-08T12:25:06Z",
-      "last_seen": "2026-01-08T21:12:26Z"
-    },
-    {
-      "id": "e0dbd008d139fb66c7b850287c8615e37ae13a1c",
-      "title": "Cisco Snort 3 Detection Engine Vulnerability Leaks Sensitive Data",
-      "link": "https://cybersecuritynews.com/cisco-snort-3-detection-engine-vulnerability/",
-      "date": "2026-01-08T11:59:54Z",
-      "description": "Two critical vulnerabilities have been identified in Cisco’s Snort 3 detection engine, posing significant risks to network security infrastructure across multiple Cisco products. These weaknesses stem from improper handling of Distributed Computing Environment and Remote Procedure Call (DCE/RPC) requests, allowing remote attackers to either disrupt packet inspection services or extract sensitive…",
-      "source": "cybersecuritynews.com",
-      "first_seen": "2026-01-08T12:25:06Z",
-      "last_seen": "2026-01-08T13:34:25Z"
-    },
-    {
-      "id": "64e2bc2a18574cb6378ff076b3fd09a069f52f4c",
-      "title": "The State of Trusted Open Source",
-      "link": "https://thehackernews.com/2026/01/the-state-of-trusted-open-source.html",
-      "date": "2026-01-08T11:50:00Z",
-      "description": "Chainguard, the trusted source for open source, has a unique view into how modern organizations actually consume open source software and where they run into risk and operational burdens. Across a growing customer base and an extensive catalog of over 1800 container image projects, 148,000 versions, 290,000 images, and 100,000 language libraries, and almost half a billion builds, they can see",
-      "source": "thehackernews.com",
-      "first_seen": "2026-01-08T12:25:06Z",
-      "last_seen": "2026-01-09T09:18:39Z"
-    },
-    {
-      "id": "ff38cf6e02ecb0e4fec1edfa0b9d886779bf3935",
-      "title": "Cisco ISE Vulnerability Let Remote attacker Access Sensitive Data – Public PoC Available",
-      "link": "https://cybersecuritynews.com/cisco-ise-vulnerability-sensitive-data/",
-      "date": "2026-01-08T11:48:22Z",
-      "description": "Cisco has patched a critical flaw in its Identity Services Engine (ISE) and ISE Passive Identity Connector (ISE-PIC) that lets authenticated administrators snoop on sensitive server files. Dubbed CVE-2026-20029, the vulnerability stems from a flaw in XML parsing in the web management interface and is assigned a CVSS score yet to be finalized, but is […] The post Cisco ISE Vulnerability Let…",
-      "source": "cybersecuritynews.com",
-      "first_seen": "2026-01-08T12:25:06Z",
-      "last_seen": "2026-01-08T12:25:06Z"
-    },
-    {
-      "id": "f258cfa77e8c690f3e680278b2107cdead5bcec7",
-      "title": "Researches Detailed AuraStealer Obfuscation, Anti-Analysis and Data Theft Capabilities",
-      "link": "https://cybersecuritynews.com/researches-detailed-aurastealer-obfuscation/",
-      "date": "2026-01-08T11:26:36Z",
-      "description": "AuraStealer has emerged as a dangerous malware-as-a-service targeting Windows systems from Windows 7 to Windows 11. This infostealer spreads primarily through Scam-Yourself campaigns on platforms like TikTok, where victims encounter tutorial videos promoting free activation of paid software. The malware is developed in C++ with a build size between 500 to 700 KB and claims […] The post…",
-      "source": "cybersecuritynews.com",
-      "first_seen": "2026-01-08T12:25:06Z",
-      "last_seen": "2026-01-08T12:25:06Z"
-    },
-    {
-      "id": "85af18ac307e380f0dd40c6fcf94b49d65914879",
-      "title": "CISA Warns of Microsoft PowerPoint Code Injection Vulnerability Exploited in Attacks",
-      "link": "https://cybersecuritynews.com/microsoft-powerpoint-code-injection-vulnerability/",
-      "date": "2026-01-08T11:25:44Z",
-      "description": "CISA issued a critical alert regarding a code-injection vulnerability in Microsoft PowerPoint that poses a significant risk to organizations worldwide. The vulnerability, tracked as CVE-2009-0556, allows remote attackers to execute arbitrary code by crafting malicious PowerPoint files. Potentially compromising system security and enabling unauthorized access to sensitive data. The flaw lies in…",
-      "source": "cybersecuritynews.com",
-      "first_seen": "2026-01-08T12:25:06Z",
-      "last_seen": "2026-01-08T12:25:06Z"
     },
     {
       "id": "04af82c8655c6147f7d52c4194be32a78e503021",
