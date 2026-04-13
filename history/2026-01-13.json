@@ -1,6 +1,6 @@
 {
   "date": "2026-01-13",
-  "count": 64,
+  "count": 55,
   "items": [
     {
       "id": "2dee584204d2467d7f17ac7721f4bd8a533c24c8",
@@ -541,96 +541,6 @@
       "source": "thehackernews.com",
       "first_seen": "2026-01-13T11:12:19Z",
       "last_seen": "2026-01-13T17:18:57Z"
-    },
-    {
-      "id": "7f0f466326f032ba94193cbd59b955a9fd8680a8",
-      "title": "CISA Warns of Gogs Path Traversal Vulnerability Exploited in Attacks",
-      "link": "https://cybersecuritynews.com/cisa-gogs-path-traversal-vulnerability/",
-      "date": "2026-01-13T08:55:14Z",
-      "description": "A critical warning about a path traversal vulnerability in Gogs, a self-hosted Git service, that is being actively exploited in the wild. The vulnerability, tracked as CVE-2025-8110, was added to CISA’s Known Exploited Vulnerabilities (KEV) catalog on January 12, 2026, signaling active exploitation by threat actors. CVE ID CVE-2025-8110 Vulnerability Type Path Traversal – Improper […] The post…",
-      "source": "cybersecuritynews.com",
-      "first_seen": "2026-01-13T09:19:16Z",
-      "last_seen": "2026-01-13T10:14:06Z"
-    },
-    {
-      "id": "8ff20474a76c33ab6d7623f804c4e320b64c9d39",
-      "title": "DPRK’s Remote Workers Generating $600M Using Identity Theft to Gain Access to Sensitive Systems",
-      "link": "https://cybersecuritynews.com/dprks-remote-workers-generating-600m-using/",
-      "date": "2026-01-13T08:46:18Z",
-      "description": "The cybersecurity landscape has undergone a fundamental shift in recent years, as the definition of insider threats continues to evolve. For decades, organizations focused their security efforts on detecting disgruntled employees or negligent contractors who might compromise sensitive data. Today, the most dangerous insider threat is often an operative hired under false pretenses, working to […]…",
-      "source": "cybersecuritynews.com",
-      "first_seen": "2026-01-13T09:19:16Z",
-      "last_seen": "2026-01-13T10:14:06Z"
-    },
-    {
-      "id": "57396a5939839f9ce8cbb953a5574e917d9d462f",
-      "title": "New Angular Vulnerability Enables an Attacker to Execute Malicious Payload",
-      "link": "https://cybersecuritynews.com/angular-vulnerability/",
-      "date": "2026-01-13T08:30:03Z",
-      "description": "A critical Cross-Site Scripting (XSS) vulnerability has been discovered in Angular’s Template Compiler, affecting multiple versions of both @angular/compiler and @angular/core packages. Tracked as CVE-2026-22610, this vulnerability allows attackers to bypass Angular’s built-in security protections and execute arbitrary JavaScript code within victim browsers. The Vulnerability The flaw exists in…",
-      "source": "cybersecuritynews.com",
-      "first_seen": "2026-01-13T09:19:16Z",
-      "last_seen": "2026-01-13T10:14:06Z"
-    },
-    {
-      "id": "e1e9d493139e571c53504b5a47e233bd9c0cc38d",
-      "title": "Cyber Fraud Overtakes Ransomware as Top CEO Concern: WEF",
-      "link": "https://www.securityweek.com/cyber-fraud-overtakes-ransomware-as-top-ceo-concern-wef/",
-      "date": "2026-01-13T08:16:57Z",
-      "description": "Ransomware remains the biggest concern for CISOs in 2026, according to WEF’s Global Cybersecurity Outlook 2026 report. The post Cyber Fraud Overtakes Ransomware as Top CEO Concern: WEF appeared first on SecurityWeek.",
-      "source": "securityweek.com",
-      "first_seen": "2026-01-13T08:17:44Z",
-      "last_seen": "2026-01-13T16:19:04Z"
-    },
-    {
-      "id": "ce7052dc9cb8a68c5df77bb2b59fceb4b357deb7",
-      "title": "Hackers Leverage Browser-in-the-browser Tactic to Trick Facebook Users and Steal Logins",
-      "link": "https://cybersecuritynews.com/hackers-leverage-browser-in-the-browser-tactic/",
-      "date": "2026-01-13T08:00:12Z",
-      "description": "Facebook users are increasingly becoming targets of a sophisticated phishing technique that bypasses conventional security measures. With over three billion active users on the platform, Facebook represents an attractive target for attackers seeking to compromise accounts and harvest personal credentials. The primary objective of these attacks remains clear: steal login credentials to hijack…",
-      "source": "cybersecuritynews.com",
-      "first_seen": "2026-01-13T08:17:44Z",
-      "last_seen": "2026-01-13T09:19:16Z"
-    },
-    {
-      "id": "a50a0bfffe888e4bb9df7110e8e2d898b74fa25d",
-      "title": "100,000+ n8n Instances Exposed to Internet Vulnerable to RCE Attacks",
-      "link": "https://cybersecuritynews.com/100000-n8n-instances-exposed/",
-      "date": "2026-01-13T07:32:03Z",
-      "description": "A critical vulnerability affecting the popular n8n workflow automation platform has put over 100,000 internet-exposed instances at severe risk. Security researchers from The Shadowserver Foundation discovered that 105,753 unique n8n instances are vulnerable to remote code execution (RCE) attacks through CVE-2026-21858. n8n is a workflow automation platform that connects various applications,…",
-      "source": "cybersecuritynews.com",
-      "first_seen": "2026-01-13T08:17:44Z",
-      "last_seen": "2026-01-13T09:19:16Z"
-    },
-    {
-      "id": "4d27bcf415fb39f0945fc0948dc8c5727f0a0fae",
-      "title": "AsyncRAT Leveraging Cloudflare’s Free-Tier Services to Mask Malicious Activities and Detection",
-      "link": "https://cybersecuritynews.com/asyncrat-leveraging-cloudflares-free-tier-services/",
-      "date": "2026-01-13T07:24:50Z",
-      "description": "A recent AsyncRAT campaign is using Cloudflare’s free tier services and TryCloudflare tunnels to hide remote access activity inside normal looking cloud traffic. In these attacks, threat actors send phishing emails that link to a Dropbox hosted ZIP archive named to look like an invoice in German, luring users into opening what appears to be […] The post AsyncRAT Leveraging Cloudflare’s Free-Tier…",
-      "source": "cybersecuritynews.com",
-      "first_seen": "2026-01-13T08:17:44Z",
-      "last_seen": "2026-01-13T08:17:44Z"
-    },
-    {
-      "id": "4ba7ae77ece61076b393fb60b2c84a29f1407c11",
-      "title": "CISA Warns of Active Exploitation of Gogs Vulnerability Enabling Code Execution",
-      "link": "https://thehackernews.com/2026/01/cisa-warns-of-active-exploitation-of.html",
-      "date": "2026-01-13T07:15:00Z",
-      "description": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) has warned of active exploitation of a high-severity security flaw impacting Gogs by adding it to its Known Exploited Vulnerabilities (KEV) catalog. The vulnerability, tracked as CVE-2025-8110 (CVSS score: 8.7), relates to a case of path traversal in the repository file editor that could result in code execution. \"Gogs Path",
-      "source": "thehackernews.com",
-      "first_seen": "2026-01-13T08:17:44Z",
-      "last_seen": "2026-01-13T14:16:37Z"
-    },
-    {
-      "id": "0a97b35a23d9fb32a8c8ba7886f237e0a2388ec8",
-      "title": "Multiple Hikvision Vulnerabilities Let Attackers Cause Device Malfunction Using Crafted Packets",
-      "link": "https://cybersecuritynews.com/multiple-hikvision-lan-vulnerabilities/",
-      "date": "2026-01-13T06:20:43Z",
-      "description": "Hikvision, a leading provider of surveillance and access control systems, faces serious security risks from two newly disclosed stack overflow vulnerabilities. These flaws, tracked as CVE-2025-66176 and CVE-2025-66177, allow attackers on the same local area network (LAN) to trigger device malfunctions by sending specially crafted packets. Both carry a high CVSS v3.1 base score of […] The post…",
-      "source": "cybersecuritynews.com",
-      "first_seen": "2026-01-13T07:17:47Z",
-      "last_seen": "2026-01-13T08:17:44Z"
     },
     {
       "id": "d833f495990603a71de6db1414443e9a58a324f7",
