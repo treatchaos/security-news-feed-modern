@@ -1,7 +1,117 @@
 {
   "date": "2026-04-14",
-  "count": 32,
+  "count": 43,
   "items": [
+    {
+      "id": "7fc172b331f8671e32036ea7be7957ff63effe97",
+      "title": "Windows 11 cumulative updates KB5083769 & KB5082052 released",
+      "link": "https://www.bleepingcomputer.com/news/microsoft/windows-11-cumulative-updates-kb5083769-and-kb5082052-released/",
+      "date": "2026-04-14T17:46:31Z",
+      "description": "Microsoft has released Windows 11 KB5083769 and KB5082052 cumulative updates for versions 25H2/24H2 and 23H2 to fix security vulnerabilities, bugs, and add new features. [...]",
+      "source": "bleepingcomputer.com",
+      "first_seen": "2026-04-14T17:57:24Z",
+      "last_seen": "2026-04-14T17:57:24Z"
+    },
+    {
+      "id": "b73ea2998ef72ed9a099e0a3b140efc876d8cd6d",
+      "title": "Microsoft April 2026 Patch Tuesday fixes 167 flaws, 2 zero-days",
+      "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-april-2026-patch-tuesday-fixes-167-flaws-2-zero-days/",
+      "date": "2026-04-14T17:41:13Z",
+      "description": "Today is Microsoft's April 2026 Patch Tuesday with security updates for 167 flaws, including 2 zero-day vulnerabilities. [...]",
+      "source": "bleepingcomputer.com",
+      "first_seen": "2026-04-14T17:57:24Z",
+      "last_seen": "2026-04-14T17:57:24Z"
+    },
+    {
+      "id": "d01013c3046b986d6ebabed81e889fe23f8e70a9",
+      "title": "Microsoft Patch Tuesday April 2026 – 168 Vulnerabilities Fixed, Including Actively Exploited 0-day",
+      "link": "https://cybersecuritynews.com/microsoft-patch-tuesday-april-2026/",
+      "date": "2026-04-14T17:19:30Z",
+      "description": "Microsoft has released its April 2026 Patch Tuesday security update, addressing 168 vulnerabilities across its product portfolio, including one actively exploited zero-day and one publicly disclosed flaw that organizations must prioritize immediately. Zero-Day Under Active Exploitation The most critical issue in this month’s release is CVE-2026-32201, a Microsoft SharePoint Server Spoofing…",
+      "source": "cybersecuritynews.com",
+      "first_seen": "2026-04-14T17:57:24Z",
+      "last_seen": "2026-04-14T17:57:24Z"
+    },
+    {
+      "id": "fdde77cd69997092080b36a90cce7d3099942eee",
+      "title": "Critical etcd Auth Bypass Flaw Allows Unauthorized Access to Sensitive Cluster APIs",
+      "link": "https://cybersecuritynews.com/etcd-auth-bypass-vulnerability/",
+      "date": "2026-04-14T16:59:13Z",
+      "description": "A critical authentication bypass vulnerability has emerged in etcd, the foundational distributed key-value store that supports countless cloud-native systems and Kubernetes clusters globally. Tracked as CVE-2026-33413, this high-severity flaw carries a CVSS score of 8.8. It enables attackers to access highly sensitive cluster APIs without proper authorization. An autonomous artificial…",
+      "source": "cybersecuritynews.com",
+      "first_seen": "2026-04-14T17:57:24Z",
+      "last_seen": "2026-04-14T17:57:24Z"
+    },
+    {
+      "id": "2f30a4649f403a666d0d750ea4a2a0ab8e198385",
+      "title": "Ivanti Neurons for ITSM Vulnerabilities Allow Remote Attacker to Obtain User Sessions",
+      "link": "https://cybersecuritynews.com/ivanti-neurons-itsm-vulnerabilities/",
+      "date": "2026-04-14T16:52:20Z",
+      "description": "Ivanti has released security updates addressing two medium-severity vulnerabilities in Ivanti Neurons for ITSM (N-ITSM), its on-premise IT service management platform. The flaws, if exploited, could allow remote authenticated attackers to retain unauthorized access or harvest session data from other users. The company confirmed it is not aware of any active exploitation of either vulnerability…",
+      "source": "cybersecuritynews.com",
+      "first_seen": "2026-04-14T17:57:24Z",
+      "last_seen": "2026-04-14T17:57:24Z"
+    },
+    {
+      "id": "21e2b88d739740b2449ada07b581e6a1ae2aa393",
+      "title": "Adobe Patches 55 Vulnerabilities Across 11 Products",
+      "link": "https://www.securityweek.com/adobe-patches-55-vulnerabilities-across-11-products/",
+      "date": "2026-04-14T16:48:03Z",
+      "description": "Critical ColdFusion vulnerabilities are the most at risk of being exploited in attacks, according to the software giant. The post Adobe Patches 55 Vulnerabilities Across 11 Products appeared first on SecurityWeek.",
+      "source": "securityweek.com",
+      "first_seen": "2026-04-14T17:57:24Z",
+      "last_seen": "2026-04-14T17:57:24Z"
+    },
+    {
+      "id": "d617e854ab7466a3ee790fce8a88fa97798b2d03",
+      "title": "Fake Ledger Live app on Apple’s App Store stole $9.5M in crypto",
+      "link": "https://www.bleepingcomputer.com/news/security/fake-ledger-live-app-on-apples-app-store-stole-95m-in-crypto/",
+      "date": "2026-04-14T16:37:01Z",
+      "description": "A malicious Ledger Live app for macOS available from Apple's App Store has drained approximately $9.5 million in cryptocurrency from 50 victims in just a few days this month. [...]",
+      "source": "bleepingcomputer.com",
+      "first_seen": "2026-04-14T17:57:24Z",
+      "last_seen": "2026-04-14T17:57:24Z"
+    },
+    {
+      "id": "4851567a26014e4ce6ddd62ece581cdfbbfdcd64",
+      "title": "CISA Warns of Microsoft Exchange and Windows CLFS Vulnerabilities Exploited in Attacks",
+      "link": "https://cybersecuritynews.com/microsoft-exchange-and-windows-clfs-vulnerabilities-exploited/",
+      "date": "2026-04-14T16:31:41Z",
+      "description": "The Cybersecurity and Infrastructure Security Agency (CISA) has issued an urgent warning to organizations regarding two severe Microsoft vulnerabilities. On April 13, 2026, the agency officially added flaws affecting Microsoft Exchange Server and the Windows Common Log File System (CLFS) Driver to its Known Exploited Vulnerabilities (KEV) catalog. According to CISA’s latest threat intelligence…",
+      "source": "cybersecuritynews.com",
+      "first_seen": "2026-04-14T17:57:24Z",
+      "last_seen": "2026-04-14T17:57:24Z"
+    },
+    {
+      "id": "0ad659d351d96cf8cd9104ff4a7eaa559e7788c9",
+      "title": "Critical ShowDoc RCE Vulnerability Active Exploited in the Wild",
+      "link": "https://cybersecuritynews.com/showdoc-rce-vulnerability-exploited/",
+      "date": "2026-04-14T16:28:09Z",
+      "description": "Threat actors are actively exploiting a critical vulnerability in ShowDoc, a popular online document-sharing and collaboration tool used by IT teams worldwide. Tracked under the identifier CNVD-2020-26585, this severe security flaw allows unauthenticated remote attackers to upload malicious files and execute arbitrary code on vulnerable servers. Because ShowDoc often houses sensitive internal…",
+      "source": "cybersecuritynews.com",
+      "first_seen": "2026-04-14T17:57:24Z",
+      "last_seen": "2026-04-14T17:57:24Z"
+    },
+    {
+      "id": "c0305d670e15240e1733df1e1219a12c38ef8a8b",
+      "title": "Wargame Exercise Demonstrates How Social Media Manipulation Works",
+      "link": "https://www.darkreading.com/cyber-risk/wargame-demonstrates-social-media-manipulation",
+      "date": "2026-04-14T16:06:14Z",
+      "description": "In an educational game called \"Capture the Narrative,\" students created bots to sway a fictional election, simulating influence in real-world political scenarios.",
+      "source": "darkreading.com",
+      "first_seen": "2026-04-14T17:57:24Z",
+      "last_seen": "2026-04-14T17:57:24Z"
+    },
+    {
+      "id": "6f50a893c06c4326d0f74ccdaa810af0d1d2dfa7",
+      "title": "New PHP Composer Flaws Enable Arbitrary Command Execution — Patches Released",
+      "link": "https://thehackernews.com/2026/04/new-php-composer-flaws-enable-arbitrary.html",
+      "date": "2026-04-14T15:57:00Z",
+      "description": "Two high-severity security vulnerabilities have been disclosed in Composer, a package manager for PHP, that, if successfully exploited, could result in arbitrary command execution. The vulnerabilities have been described as command injection flaws affecting the Perforce VCS (version control software) driver. Details of the two flaws are below - CVE-2026-40176 (CVSS",
+      "source": "thehackernews.com",
+      "first_seen": "2026-04-14T17:57:24Z",
+      "last_seen": "2026-04-14T17:57:24Z"
+    },
     {
       "id": "498ac83dc38f3d4c571ddcdb7aed42f75d7a1520",
       "title": "Microsoft rolls out fast-track to reinstate Windows hardware dev accounts",
@@ -10,7 +120,7 @@
       "description": "Microsoft has rolled out a fast-track process to help developers regain access to accounts recently suspended from its Windows Hardware Program, following widespread complaints that they were locked out without warning. [...]",
       "source": "bleepingcomputer.com",
       "first_seen": "2026-04-14T16:00:43Z",
-      "last_seen": "2026-04-14T16:00:43Z"
+      "last_seen": "2026-04-14T17:57:24Z"
     },
     {
       "id": "0aa48ae4eef1bff74c0bcb0bca0dbbcf98f8637f",
@@ -20,7 +130,7 @@
       "description": "Cybersecurity researchers have unmasked a novel ad fraud scheme that has been found to leverage search engine poisoning (SEO) techniques and artificial intelligence (AI)-generated content to push deceptive news stories into Google's Discover feed and trick users into enabling persistent browser notifications that lead to scareware and financial scams. The campaign, which has been",
       "source": "thehackernews.com",
       "first_seen": "2026-04-14T16:00:43Z",
-      "last_seen": "2026-04-14T16:00:43Z"
+      "last_seen": "2026-04-14T17:57:24Z"
     },
     {
       "id": "a0eb9d1eb3b0040717828a2e0d7130079916bc7c",
@@ -30,7 +140,7 @@
       "description": "Stolen credentials remain a top breach vector, often leading to unchecked privilege escalation. Specops explains how identity-first Zero Trust limits access, enforces device trust, and blocks lateral movement. [...]",
       "source": "bleepingcomputer.com",
       "first_seen": "2026-04-14T14:50:31Z",
-      "last_seen": "2026-04-14T16:00:43Z"
+      "last_seen": "2026-04-14T17:57:24Z"
     },
     {
       "id": "524d1d3d11e3518e664297e6340cd4ee182d8ef8",
@@ -40,7 +150,7 @@
       "description": "Google has announced the integration of a Rust-based Domain Name System (DNS) parser into the modem firmware as part of its ongoing efforts to beef up the security of Pixel devices and push memory-safe code at a more foundational level. \"The new Rust-based DNS parser significantly reduces our security risk by mitigating an entire class of vulnerabilities in a risky area, while also laying",
       "source": "thehackernews.com",
       "first_seen": "2026-04-14T14:50:31Z",
-      "last_seen": "2026-04-14T16:00:43Z"
+      "last_seen": "2026-04-14T17:57:24Z"
     },
     {
       "id": "fa33e128052ca0abaec21ce2eaf5e59bfa64f3b5",
@@ -80,7 +190,7 @@
       "description": "CISOs face a shrinking window to prepare as AI models like Mythos collapse the gap between vulnerability discovery and exploitation, driving a new era of high-velocity cyberattacks. The post ‘Mythos-Ready’ Security: CSA Urges CISOs to Prepare for Accelerated AI Threats appeared first on SecurityWeek.",
       "source": "securityweek.com",
       "first_seen": "2026-04-14T12:59:39Z",
-      "last_seen": "2026-04-14T16:00:43Z"
+      "last_seen": "2026-04-14T17:57:24Z"
     },
     {
       "id": "ce12e7a4474f9adc947816245c4e0fb6a927cf28",
@@ -90,7 +200,7 @@
       "description": "Basic-Fit has reported that hackers have stolen names, dates of birth, and even bank account details. The post Europe’s Largest Gym Chain Says Data Breach Impacts 1 Million Members appeared first on SecurityWeek.",
       "source": "securityweek.com",
       "first_seen": "2026-04-14T12:59:39Z",
-      "last_seen": "2026-04-14T16:00:43Z"
+      "last_seen": "2026-04-14T17:57:24Z"
     },
     {
       "id": "4e65934fae861ec973355a21f52f8392e922706d",
@@ -130,7 +240,7 @@
       "description": "The company has released 19 new security notes addressing flaws in over a dozen enterprise products. The post SAP Patches Critical ABAP Vulnerability appeared first on SecurityWeek.",
       "source": "securityweek.com",
       "first_seen": "2026-04-14T11:51:05Z",
-      "last_seen": "2026-04-14T16:00:43Z"
+      "last_seen": "2026-04-14T17:57:24Z"
     },
     {
       "id": "b746ce55203bc3b72bf22f17bf71f50e022b7f77",
@@ -150,7 +260,7 @@
       "description": "The sprawling cybercrime operation abuses major providers to prevent takedowns and distance itself from sanctions. The post Triad Nexus Evades Sanctions to Fuel Cybercrime appeared first on SecurityWeek.",
       "source": "securityweek.com",
       "first_seen": "2026-04-14T11:51:05Z",
-      "last_seen": "2026-04-14T16:00:43Z"
+      "last_seen": "2026-04-14T17:57:24Z"
     },
     {
       "id": "ed6c5ae71e39c7d0d97df6bceaf487f53e122399",
@@ -180,7 +290,7 @@
       "description": "A nascent Android remote access trojan called Mirax has been observed actively targeting Spanish-speaking countries, with campaigns reaching more than 220,000 accounts on Facebook, Instagram, Messenger, and Threads through advertisements on Meta. \"Mirax integrates advanced Remote Access Trojan (RAT) capabilities, allowing threat actors to fully interact with compromised devices in real",
       "source": "thehackernews.com",
       "first_seen": "2026-04-14T11:51:05Z",
-      "last_seen": "2026-04-14T16:00:43Z"
+      "last_seen": "2026-04-14T17:57:24Z"
     },
     {
       "id": "a7181c8ed3b47facf7b0b16786daca252d4b78f2",
@@ -190,7 +300,7 @@
       "description": "OX Security recently analyzed 216 million security findings across 250 organizations over a 90-day period. The primary takeaway: while raw alert volume grew by 52% year-over-year, prioritized critical risk grew by nearly 400%. The surge in AI-assisted development is creating a \"velocity gap\" where the density of high-impact vulnerabilities is scaling faster than",
       "source": "thehackernews.com",
       "first_seen": "2026-04-14T10:06:32Z",
-      "last_seen": "2026-04-14T16:00:43Z"
+      "last_seen": "2026-04-14T17:57:24Z"
     },
     {
       "id": "bf514e18e181fe0a2372d77fb45fb5d67cbdc22e",
@@ -250,7 +360,7 @@
       "description": "The post Python Under Pressure: Critical Memory Flaws and Command Injection Bypass Uncovered appeared first on Daily CyberSecurity. Related posts: CRITICAL (CVSS 9.4) Python ‘tarfile’ Vulnerability: Arbitrary Filesystem Writes Possible! SAP Security Alert: May 2025 Patch Day Exposes Critical Threats! Langroid Flaws (CVSS 9.8) Expose LLM Apps to RCE",
       "source": "securityonline.info",
       "first_seen": "2026-04-14T10:06:32Z",
-      "last_seen": "2026-04-14T16:00:43Z"
+      "last_seen": "2026-04-14T17:57:24Z"
     },
     {
       "id": "3662cc4cb12519727ca37986afe39ae420062cfa",
@@ -280,7 +390,7 @@
       "description": "The post Apache NiFi Patches High-Severity Code Execution Flaw appeared first on Daily CyberSecurity. Related posts: Critical 9.9 Severity Flaws Expose Centreon Servers to Remote Takeover Critical Auth Bypass in Apache Artemis: Attackers Can Hijack Message Queues Home Network Alert: TP-Link Patches RCE Vulnerability in Archer AXE75 Routers",
       "source": "securityonline.info",
       "first_seen": "2026-04-14T08:20:13Z",
-      "last_seen": "2026-04-14T16:00:43Z"
+      "last_seen": "2026-04-14T17:57:24Z"
     },
     {
       "id": "81c3dbe42eef020b9db95d17ef3d951794391d28",
