@@ -1,6 +1,6 @@
 {
   "date": "2026-01-14",
-  "count": 42,
+  "count": 35,
   "items": [
     {
       "id": "1c2d4175617aa3be94d732d3224345239555d13e",
@@ -331,76 +331,6 @@
       "source": "cybersecuritynews.com",
       "first_seen": "2026-01-14T13:34:17Z",
       "last_seen": "2026-01-14T14:16:48Z"
-    },
-    {
-      "id": "be7d2bfb4bce468b59eab8ea51f86ba4d4ecc2ec",
-      "title": "AuraAudit – Open-Source Tool for Salesforce Aura Framework Misconfiguration Analysis",
-      "link": "https://cybersecuritynews.com/aurainspector-audit-salesforce/",
-      "date": "2026-01-14T12:06:52Z",
-      "description": "Mandiant has released AuraInspector, an open-source command-line tool that helps security defenders identify and audit access-control misconfigurations in the Salesforce Aura framework. The tool addresses a critical security gap in Salesforce Experience Cloud deployments, where misconfigurations frequently expose sensitive data, including credit card numbers, identity documents, and health…",
-      "source": "cybersecuritynews.com",
-      "first_seen": "2026-01-14T12:24:35Z",
-      "last_seen": "2026-01-14T14:16:48Z"
-    },
-    {
-      "id": "aa20c6bcb9dc4e5e2e01554fd9efc0ee954dccdb",
-      "title": "Cloud marketplace Pax8 accidentally exposes data on 1,800 MSP partners",
-      "link": "https://www.bleepingcomputer.com/news/security/cloud-marketplace-pax8-accidentally-exposes-data-on-1-800-msp-partners/",
-      "date": "2026-01-14T12:01:07Z",
-      "description": "Cloud marketplace and distributor Pax8 has confirmed that it mistakenly sent an email to fewer than 40 UK-based partners containing a spreadsheet with internal business information, including MSP customer and Microsoft licensing data. [...]",
-      "source": "bleepingcomputer.com",
-      "first_seen": "2026-01-14T12:24:35Z",
-      "last_seen": "2026-01-14T18:19:51Z"
-    },
-    {
-      "id": "4e2d21c8f9eec20e12a3597ad8e339f9787ebbc0",
-      "title": "Fortinet Fixes Critical FortiSIEM Flaw Allowing Unauthenticated Remote Code Execution",
-      "link": "https://thehackernews.com/2026/01/fortinet-fixes-critical-fortisiem-flaw.html",
-      "date": "2026-01-14T11:53:00Z",
-      "description": "Fortinet has released updates to fix a critical security flaw impacting FortiSIEM that could allow an unauthenticated attacker to achieve code execution on susceptible instances. The operating system (OS) injection vulnerability, tracked as CVE-2025-64155, is rated 9.4 out of 10.0 on the CVSS scoring system. \"An improper neutralization of special elements used in an OS command ('OS command",
-      "source": "thehackernews.com",
-      "first_seen": "2026-01-14T12:24:35Z",
-      "last_seen": "2026-01-15T09:18:38Z"
-    },
-    {
-      "id": "d61d5bb00c90c40d79807e4597933a543d80a0b9",
-      "title": "WitnessAI Raises $58 Million for AI Security Platform",
-      "link": "https://www.securityweek.com/witnessai-raises-58-million-for-ai-security-platform/",
-      "date": "2026-01-14T11:49:40Z",
-      "description": "The company will use the fresh investment to accelerate its global go-to-market and product expansion. The post WitnessAI Raises $58 Million for AI Security Platform appeared first on SecurityWeek.",
-      "source": "securityweek.com",
-      "first_seen": "2026-01-14T12:24:35Z",
-      "last_seen": "2026-01-14T17:19:57Z"
-    },
-    {
-      "id": "fec7b42cbd20df242e13ebc8a6d9c865d4d3d401",
-      "title": "Victorian Department of Education says hackers stole students’ data",
-      "link": "https://www.bleepingcomputer.com/news/security/victorian-department-of-education-notifies-parents-of-data-breach/",
-      "date": "2026-01-14T11:44:56Z",
-      "description": "The Department of Education in Victoria, Australia, notified parents that attackers gained access to a database containing the personal information of current and former students. [...]",
-      "source": "bleepingcomputer.com",
-      "first_seen": "2026-01-14T12:24:35Z",
-      "last_seen": "2026-01-14T18:19:51Z"
-    },
-    {
-      "id": "243f5b4e3ef87430ea8e00b3c04e1b7eae7ec580",
-      "title": "Researchers Proposed Game-Theoretic AI for Guiding Attack and Defense",
-      "link": "https://cybersecuritynews.com/researchers-proposed-game-theoretic-ai/",
-      "date": "2026-01-14T11:24:52Z",
-      "description": "Researchers from Alias Robotics and Johannes Kepler University Linz have unveiled a groundbreaking approach to automated penetration testing that combines artificial intelligence with game theory. Led by Víctor Mayoral-Vilches, Mara Sanz-Gómez, Francesco Balassone, Stefan Rass, and their collaborators, the team introduced Generative Cut-the-Rope (G-CTR), a system designed to guide both attackers…",
-      "source": "cybersecuritynews.com",
-      "first_seen": "2026-01-14T12:24:35Z",
-      "last_seen": "2026-01-14T14:16:48Z"
-    },
-    {
-      "id": "91c6feb75b82384b8a8ed679a2013a2c0b2bd87f",
-      "title": "Critical FortiSIEM Vulnerability Lets Attackers Run Arbitrary Commands via TCP Packets",
-      "link": "https://cybersecuritynews.com/fortisiem-vulnerability/",
-      "date": "2026-01-14T11:17:58Z",
-      "description": "Fortinet disclosed a critical OS command injection vulnerability in FortiSIEM on January 13, 2026, warning users of a high-risk flaw that lets unauthenticated attackers execute arbitrary code. Tracked as CVE-2025-64155, the issue stems from improper neutralization of special elements in OS commands (CWE-78) within the phMonitor component on port 7900. Attackers can craft malicious TCP […] The…",
-      "source": "cybersecuritynews.com",
-      "first_seen": "2026-01-14T12:24:35Z",
-      "last_seen": "2026-01-14T13:34:17Z"
     },
     {
       "id": "c6ef2cb4b6b4ef1178d0f023dc9873707b4b1497",
