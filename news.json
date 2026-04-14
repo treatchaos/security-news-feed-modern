@@ -1,9 +1,30 @@
 {
-  "last_updated": "2026-04-14T21:41:31Z",
-  "count": 35,
+  "last_updated": "2026-04-14T22:36:37Z",
+  "count": 40,
   "items": [
     {
-      "title": "Over 100 Chrome extensions in Web Store target users accounts and data",
+      "title": "Microsoft adds Windows protections for malicious Remote Desktop files",
+      "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-adds-windows-protections-for-malicious-remote-desktop-files/",
+      "date": "2026-04-14T22:23:33Z",
+      "description": "Microsoft has introduced new Windows protections to defend against phishing attacks that abuse Remote Desktop connection (.rdp) files, adding warnings and disabling risky shared resources by default. [...]",
+      "source": "bleepingcomputer.com"
+    },
+    {
+      "title": "Crypto-exchange Kraken extorted by hackers after insider breach",
+      "link": "https://www.bleepingcomputer.com/news/security/crypto-exchange-kraken-extorted-by-hackers-after-insider-breach/",
+      "date": "2026-04-14T21:58:31Z",
+      "description": "The Kraken cryptocurrency exchange announced that a cybercrime group is trying to extort the company by threatening to release videos showing internal systems that host client data. [...]",
+      "source": "bleepingcomputer.com"
+    },
+    {
+      "title": "Privilege Elevation Dominates Massive Microsoft Patch Update",
+      "link": "https://www.darkreading.com/vulnerabilities-threats/privilege-elevation-dominates-microsoft-patch-update",
+      "date": "2026-04-14T21:22:07Z",
+      "description": "Elevation-of-privilege bugs accounted for more than half of the 165 vulnerabilities patched, with two zero-days in that mix.",
+      "source": "darkreading.com"
+    },
+    {
+      "title": "Over 100 Chrome Web Store extensions steal user accounts, data",
       "link": "https://www.bleepingcomputer.com/news/security/over-100-chrome-extensions-in-web-store-target-users-accounts-and-data/",
       "date": "2026-04-14T20:33:00Z",
       "description": "More than 100 malicious extensions in the official Chrome Web Store are attempting to steal Google OAuth2 Bearer tokens, deploy backdoors, and carry out ad fraud. [...]",
@@ -31,6 +52,13 @@
       "source": "bleepingcomputer.com"
     },
     {
+      "title": "Security Risk Advisors Purple Team Participants Can Now Earn CPE Credits",
+      "link": "https://cybersecuritynews.com/security-risk-advisors-purple-team-participants-can-now-earn-cpe-credits/",
+      "date": "2026-04-14T18:09:03Z",
+      "description": "Philadelphia, United States / Pennsylvania, April 14th, 2026, CyberNewswire GIAC and ISC2 now recognize active participation in SRA Purple Team exercises as an eligible Continuing Professional Education (CPE) activity. Teams can earn CPE credits while strengthening organizational detection and response capabilities! How? Some CPE activities are pretty passive – webinars, conferences and online…",
+      "source": "cybersecuritynews.com"
+    },
+    {
       "title": "McGraw-Hill confirms data breach following extortion threat",
       "link": "https://www.bleepingcomputer.com/news/security/mcgraw-hill-confirms-data-breach-following-extortion-threat/",
       "date": "2026-04-14T18:07:07Z",
@@ -38,18 +66,32 @@
       "source": "bleepingcomputer.com"
     },
     {
-      "title": "Windows 11 cumulative updates KB5083769 & KB5082052 released",
-      "link": "https://www.bleepingcomputer.com/news/microsoft/windows-11-cumulative-updates-kb5083769-and-kb5082052-released/",
-      "date": "2026-04-14T17:46:31Z",
-      "description": "Microsoft has released Windows 11 KB5083769 and KB5082052 cumulative updates for versions 25H2/24H2 and 23H2 to fix security vulnerabilities, bugs, and add new features. [...]",
-      "source": "bleepingcomputer.com"
+      "title": "Fortinet Patches 11 Vulnerabilities Across FortiSandbox, FortiOS, FortiAnalyzer, and FortiManager",
+      "link": "https://cybersecuritynews.com/fortinet-patches-11-vulnerabilities/",
+      "date": "2026-04-14T17:59:01Z",
+      "description": "Fortinet released a sweeping batch of security advisories on April 14, 2026, addressing 11 vulnerabilities spanning multiple product lines, including two rated Critical, two rated High, and seven rated Medium or Low. The disclosures affect FortiSandbox, FortiAnalyzer, FortiManager, FortiOS, FortiProxy, FortiPAM, and FortiSwitchManager, urging enterprise administrators to prioritize patching…",
+      "source": "cybersecuritynews.com"
     },
     {
-      "title": "Microsoft April 2026 Patch Tuesday fixes 167 flaws, 2 zero-days",
-      "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-april-2026-patch-tuesday-fixes-167-flaws-2-zero-days/",
-      "date": "2026-04-14T17:41:13Z",
-      "description": "Today is Microsoft's April 2026 Patch Tuesday with security updates for 167 flaws, including 2 zero-day vulnerabilities. [...]",
-      "source": "bleepingcomputer.com"
+      "title": "Microsoft Patch Tuesday April 2026 – 168 Vulnerabilities Fixed, Including Actively Exploited 0-day",
+      "link": "https://cybersecuritynews.com/microsoft-patch-tuesday-april-2026/",
+      "date": "2026-04-14T17:19:30Z",
+      "description": "Microsoft has released its April 2026 Patch Tuesday security update, addressing 168 vulnerabilities across its product portfolio, including one actively exploited zero-day and one publicly disclosed flaw that organizations must prioritize immediately. Zero-Day Under Active Exploitation The most critical issue in this month’s release is CVE-2026-32201, a Microsoft SharePoint Server Spoofing…",
+      "source": "cybersecuritynews.com"
+    },
+    {
+      "title": "Critical etcd Auth Bypass Flaw Allows Unauthorized Access to Sensitive Cluster APIs",
+      "link": "https://cybersecuritynews.com/etcd-auth-bypass-vulnerability/",
+      "date": "2026-04-14T16:59:13Z",
+      "description": "A critical authentication bypass vulnerability has emerged in etcd, the foundational distributed key-value store that supports countless cloud-native systems and Kubernetes clusters globally. Tracked as CVE-2026-33413, this high-severity flaw carries a CVSS score of 8.8. It enables attackers to access highly sensitive cluster APIs without proper authorization. An autonomous artificial…",
+      "source": "cybersecuritynews.com"
+    },
+    {
+      "title": "Ivanti Neurons for ITSM Vulnerabilities Allow Remote Attacker to Obtain User Sessions",
+      "link": "https://cybersecuritynews.com/ivanti-neurons-itsm-vulnerabilities/",
+      "date": "2026-04-14T16:52:20Z",
+      "description": "Ivanti has released security updates addressing two medium-severity vulnerabilities in Ivanti Neurons for ITSM (N-ITSM), its on-premise IT service management platform. The flaws, if exploited, could allow remote authenticated attackers to retain unauthorized access or harvest session data from other users. The company confirmed it is not aware of any active exploitation of either vulnerability…",
+      "source": "cybersecuritynews.com"
     },
     {
       "title": "Adobe Patches 55 Vulnerabilities Across 11 Products",
@@ -182,13 +224,6 @@
       "link": "https://www.darkreading.com/cloud-security/csa-cisos-prepare-post-mythos-exploit-storm",
       "date": "2026-04-13T21:29:31Z",
       "description": "In a new report from the Cloud Security Alliance (CSA), experts warn of an \"AI vulnerability storm\" triggered by the introduction of Anthropic's Claude Mythos.",
-      "source": "darkreading.com"
-    },
-    {
-      "title": "Adobe Patches Actively Exploited Zero-Day That Lingered for Months",
-      "link": "https://www.darkreading.com/application-security/adobe-patches-actively-exploited-zero-day",
-      "date": "2026-04-13T20:52:38Z",
-      "description": "An attacker has been using maliciously crafted PDF files to exploit a zero-day in Adobe Acrobat and Reader for at least four months.",
       "source": "darkreading.com"
     },
     {
