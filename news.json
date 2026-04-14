@@ -1,7 +1,42 @@
 {
-  "last_updated": "2026-04-14T12:59:39Z",
-  "count": 35,
+  "last_updated": "2026-04-14T14:50:31Z",
+  "count": 40,
   "items": [
+    {
+      "title": "5 Ways Zero Trust Maximizes Identity Security",
+      "link": "https://www.bleepingcomputer.com/news/security/5-ways-zero-trust-maximizes-identity-security/",
+      "date": "2026-04-14T14:02:12Z",
+      "description": "Stolen credentials remain a top breach vector, often leading to unchecked privilege escalation. Specops explains how identity-first Zero Trust limits access, enforces device trust, and blocks lateral movement. [...]",
+      "source": "bleepingcomputer.com"
+    },
+    {
+      "title": "Google Adds Rust-Based DNS Parser into Pixel 10 Modem to Enhance Security",
+      "link": "https://thehackernews.com/2026/04/google-adds-rust-based-dns-parser-into.html",
+      "date": "2026-04-14T13:55:00Z",
+      "description": "Google has announced the integration of a Rust-based Domain Name System (DNS) parser into the modem firmware as part of its ongoing efforts to beef up the security of Pixel devices and push memory-safe code at a more foundational level. \"The new Rust-based DNS parser significantly reduces our security risk by mitigating an entire class of vulnerabilities in a risky area, while also laying",
+      "source": "thehackernews.com"
+    },
+    {
+      "title": "New Mirax Android RAT Turns Infected Phones Into Residential Proxy Nodes",
+      "link": "https://cybersecuritynews.com/new-mirax-android-rat-turns-infected-phones/",
+      "date": "2026-04-14T13:39:39Z",
+      "description": "A newly discovered Android malware called Mirax has been quietly circulating in underground criminal forums since late 2025, posing a growing threat to mobile users across Europe and beyond. What sets it apart from typical banking trojans is its dual purpose: it steals banking credentials while simultaneously converting infected phones into residential proxy nodes, giving […] The post New Mirax…",
+      "source": "cybersecuritynews.com"
+    },
+    {
+      "title": "New PlugX USB Worm Spreads Across Multiple Continents Using DLL Sideloading",
+      "link": "https://cybersecuritynews.com/new-plugx-usb-worm-spreads/",
+      "date": "2026-04-14T13:27:27Z",
+      "description": "A newly discovered variant of the PlugX worm is silently crossing borders by hiding inside USB drives, and it has already been detected on multiple continents spanning nearly ten time zones. First spotted in Papua New Guinea in August 2022, the worm resurfaced in January 2023 in both Papua New Guinea and Ghana — two […] The post New PlugX USB Worm Spreads Across Multiple Continents Using DLL…",
+      "source": "cybersecuritynews.com"
+    },
+    {
+      "title": "Hackers Leave Credential Stuffing Botnet Wide Open With Full Worker Access and Root Passwords",
+      "link": "https://cybersecuritynews.com/hackers-leave-credential-stuffing-botnet-wide-open/",
+      "date": "2026-04-14T13:00:02Z",
+      "description": "A live credential stuffing botnet targeting Twitter/X accounts has been found completely exposed to the internet, with no password required to access its control panel, worker server credentials, or real-time attack data. The exposed system, running under the name “Twitter Checker Master Panel – FULL FIX v2.3,” left root SSH passwords for all 18 worker […] The post Hackers Leave Credential…",
+      "source": "cybersecuritynews.com"
+    },
     {
       "title": "‘Mythos-Ready’ Security: CSA Urges CISOs to Prepare for Accelerated AI Threats",
       "link": "https://www.securityweek.com/mythos-ready-security-csa-urges-cisos-to-prepare-for-accelerated-ai-threats/",
@@ -15,6 +50,20 @@
       "date": "2026-04-14T12:43:30Z",
       "description": "Basic-Fit has reported that hackers have stolen names, dates of birth, and even bank account details. The post Europe’s Largest Gym Chain Says Data Breach Impacts 1 Million Members appeared first on SecurityWeek.",
       "source": "securityweek.com"
+    },
+    {
+      "title": "Codex Hacks Samsung TV to Root by Exploiting World-Writable Driver Interfaces",
+      "link": "https://cybersecuritynews.com/codex-hacks-samsung-tv/",
+      "date": "2026-04-14T12:30:22Z",
+      "description": "OpenAI’s Codex AI model successfully escalated privileges to root on a real Samsung Smart TV by exploiting world-writable kernel driver interfaces — a finding that raises serious questions about how hardware vendors handle device security on consumer electronics. The experiment, published by CALIF on April 14, 2026, started from a browser-level foothold already established on […] The post Codex…",
+      "source": "cybersecuritynews.com"
+    },
+    {
+      "title": "CISA Warns of Fortinet SQL Injection Vulnerability Actively Exploited in Attacks",
+      "link": "https://cybersecuritynews.com/fortinet-sql-injection-vulnerability-exploited/",
+      "date": "2026-04-14T12:14:13Z",
+      "description": "The Cybersecurity and Infrastructure Security Agency (CISA) has issued an urgent warning regarding a critical security flaw in Fortinet products. On April 13, 2026, the agency added a severe SQL injection vulnerability to its Known Exploited Vulnerabilities (KEV) catalog. This addition confirms that threat actors are actively exploiting the flaw in the wild. Organizations relying […] The post…",
+      "source": "cybersecuritynews.com"
     },
     {
       "title": "SAP Patches Critical ABAP Vulnerability",
@@ -62,7 +111,7 @@
       "title": "108 Malicious Chrome Extensions Steal Google and Telegram Data, Affecting 20,000 Users",
       "link": "https://thehackernews.com/2026/04/108-malicious-chrome-extensions-steal.html",
       "date": "2026-04-14T08:35:00Z",
-      "description": "Cybersecurity researchers have discovered a new campaign in which a cluster of 108 Google Chrome extensions has been found to communicate with the same command-and-control (C2) infrastructure with the goal of collecting user data and enabling browser-level abuse by injecting ads and arbitrary JavaScript code into every web page visited. According to Socket, the extensions are published",
+      "description": "Cybersecurity researchers have discovered a new campaign in which a cluster of 108 Google Chrome extensions has been found to communicate with the same command-and-control (C2) infrastructure with the goal of collecting user data and enabling browser-level abuse by injecting ads and arbitrary JavaScript code into every web page visited. According to Socket, the extensions (complete list",
       "source": "thehackernews.com"
     },
     {
@@ -77,13 +126,6 @@
       "link": "https://thehackernews.com/2026/04/showdoc-rce-flaw-cve-2025-0520-actively.html",
       "date": "2026-04-14T05:50:00Z",
       "description": "A critical security vulnerability impacting ShowDoc, a document management and collaboration service popular in China, has come under active exploitation in the wild. The vulnerability in question is CVE-2025-0520 (aka CNVD-2020-26585), which carries a CVSS score of 9.4 out of 10.0. It relates to a case of unrestricted file upload that stems from improper validation of",
-      "source": "thehackernews.com"
-    },
-    {
-      "title": "CISA Adds 6 Known Exploited Flaws in Fortinet, Microsoft, and Adobe Software",
-      "link": "https://thehackernews.com/2026/04/cisa-adds-6-known-exploited-flaws-in.html",
-      "date": "2026-04-14T05:39:00Z",
-      "description": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Monday added half a dozen security flaws to its Known Exploited Vulnerabilities (KEV) catalog, citing evidence of active exploitation. The list of vulnerabilities is as follows - CVE-2026-21643 (CVSS score: 9.1) - An SQL injection vulnerability in Fortinet FortiClient EMS that could allow an unauthenticated attacker to",
       "source": "thehackernews.com"
     },
     {
@@ -133,13 +175,6 @@
       "link": "https://www.bleepingcomputer.com/news/security/fbi-takedown-of-w3ll-phishing-service-leads-to-developer-arrest/",
       "date": "2026-04-13T18:55:50Z",
       "description": "The FBI Atlanta Field Office and Indonesian authorities have dismantled the \"W3LL\" global phishing platform, seizing infrastructure and arresting the alleged developer in what is described as the first coordinated enforcement action between the United States and Indonesia targeting a phishing kit developer. [...]",
-      "source": "bleepingcomputer.com"
-    },
-    {
-      "title": "OpenAI rotates macOS certs after Axios attack hit code-signing workflow",
-      "link": "https://www.bleepingcomputer.com/news/security/openai-rotates-macos-certs-after-axios-attack-hit-code-signing-workflow/",
-      "date": "2026-04-13T17:39:10Z",
-      "description": "OpenAI is rotating potentially exposed macOS code-signing certificates after a GitHub Actions workflow executed a malicious Axios package during a recent supply chain attack. [...]",
       "source": "bleepingcomputer.com"
     },
     {
