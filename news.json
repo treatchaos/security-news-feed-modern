@@ -1,7 +1,21 @@
 {
-  "last_updated": "2026-04-17T01:25:45Z",
-  "count": 35,
+  "last_updated": "2026-04-17T04:40:40Z",
+  "count": 40,
   "items": [
+    {
+      "title": "Apache ActiveMQ CVE-2026-34197 Added to CISA KEV Amid Active Exploitation",
+      "link": "https://thehackernews.com/2026/04/apache-activemq-cve-2026-34197-added-to.html",
+      "date": "2026-04-17T03:22:00Z",
+      "description": "A recently disclosed high-severity security flaw in Apache ActiveMQ Classic has come under active exploitation in the wild, per the U.S. Cybersecurity and Infrastructure Security Agency (CISA). To that end, the agency has added the vulnerability, tracked as CVE-2026-34197 (CVSS score: 8.8), to its Known Exploited Vulnerabilities (KEV) catalog, requiring Federal Civilian",
+      "source": "thehackernews.com"
+    },
+    {
+      "title": "EU’s New Age Verification App Can Be Hacked Within 2 Minutes, Researchers Claim",
+      "link": "https://cybersecuritynews.com/eus-age-verification-app/",
+      "date": "2026-04-17T03:04:41Z",
+      "description": "The European Commission’s newly launched Digital Age Verification App, unveiled on April 14, 2026, to protect minors from harmful online content, has already been compromised, with UK-based security consultant Paul Moore demonstrating a full authentication bypass in under two minutes. During app setup, users are prompted to create a PIN. The app then encrypts this […] The post EU’s New Age…",
+      "source": "cybersecuritynews.com"
+    },
     {
       "title": "Operation PowerOFF identifies 75k DDoS users, takes down 53 domains",
       "link": "https://www.bleepingcomputer.com/news/security/operation-poweroff-identifies-75k-ddos-users-takes-down-53-domains/",
@@ -43,6 +57,13 @@
       "date": "2026-04-16T17:52:00Z",
       "description": "Cybersecurity researchers have warned of an active malicious campaign that's targeting the workforce in the Czech Republic with a previously undocumented botnet dubbed PowMix since at least December 2025. \"PowMix employs randomized command-and-control (C2) beaconing intervals, rather than persistent connection to the C2 server, to evade the network signature detections,\" Cisco Talos",
       "source": "thehackernews.com"
+    },
+    {
+      "title": "SpankRAT Exploits Windows Explorer Processes for Stealth and Delayed Detection",
+      "link": "https://cybersecuritynews.com/spankrat-exploits-windows-process/",
+      "date": "2026-04-16T17:31:29Z",
+      "description": "A newly identified two-component Remote Access Trojan (RAT) toolkit built in Rust, dubbed SpankRAT, is being used by threat actors to abuse legitimate Windows processes, bypass reputation-based security controls, and maintain persistent access to compromised environments while largely evading detection on VirusTotal. Researchers at ANY.RUN has identified and analyzed the SpankRAT toolkit,…",
+      "source": "cybersecuritynews.com"
     },
     {
       "title": "Government Can’t Win the Cyber War Without the Private Sector",
@@ -94,6 +115,13 @@
       "source": "thehackernews.com"
     },
     {
+      "title": "Microsoft 365 Web Services Hit by Google Chrome 147 Compatibility Issue",
+      "link": "https://cybersecuritynews.com/microsoft-365-chrome-147-issue/",
+      "date": "2026-04-16T12:54:28Z",
+      "description": "Microsoft is actively investigating a widespread authentication issue affecting users attempting to access Microsoft 365 web-based services through Google Chrome version 147. The problem, first reported on April 16, 2026, has left a significant number of users unable to properly load or interact with Microsoft 365 applications in their browser. According to Microsoft’s official service […] The…",
+      "source": "cybersecuritynews.com"
+    },
+    {
       "title": "Data Breach at Tennessee Hospital Affects 337,000",
       "link": "https://www.securityweek.com/data-breach-at-tennessee-hospital-affects-337000/",
       "date": "2026-04-16T12:40:36Z",
@@ -122,17 +150,24 @@
       "source": "securityweek.com"
     },
     {
+      "title": "Two U.S. Nationals Sentenced for Running Laptop Farm for DPRK Remote Workers",
+      "link": "https://cybersecuritynews.com/two-u-s-nationals-sentenced/",
+      "date": "2026-04-16T11:49:24Z",
+      "description": "Two American nationals have been sentenced to federal prison for operating a sophisticated “laptop farm” scheme. The operation successfully infiltrated over 100 U.S. companies, generating more than $5 million in illicit revenue to fund the Democratic People’s Republic of Korea (DPRK) and its weapons programs. Kejia Wang, 42, received a 108-month prison sentence, while his […] The post Two U.S.…",
+      "source": "cybersecuritynews.com"
+    },
+    {
+      "title": "New UAC-0247 Campaign Steals Browser and WhatsApp Data From Hospitals and Governments",
+      "link": "https://cybersecuritynews.com/new-uac-0247-campaign-steals-browser-and-whatsapp-data/",
+      "date": "2026-04-16T11:32:40Z",
+      "description": "A threat cluster tracked as UAC-0247 has been running an active campaign since early 2026, targeting local governments and municipal healthcare institutions across Ukraine, including clinical hospitals and emergency ambulance services. The attackers are not only stealing sensitive data from internet browsers and WhatsApp but are also moving quietly through compromised networks to expand their…",
+      "source": "cybersecuritynews.com"
+    },
+    {
       "title": "Cisco Patches Four Critical Identity Services, Webex Flaws Enabling Code Execution",
       "link": "https://thehackernews.com/2026/04/cisco-patches-four-critical-identity.html",
       "date": "2026-04-16T11:27:00Z",
       "description": "Cisco has announced patches to address four critical security flaws impacting Identity Services and Webex Services that could result in arbitrary code execution and allow an attacker to impersonate any user within the service. The details of the vulnerabilities are below - CVE-2026-20184 (CVSS score: 9.8) - An improper certificate validation in the integration of single sign-on (SSO)",
-      "source": "thehackernews.com"
-    },
-    {
-      "title": "Hidden Passenger? How Taboola Routes Logged-In Banking Sessions to Temu",
-      "link": "https://thehackernews.com/2026/04/hidden-passenger-how-taboola-routes.html",
-      "date": "2026-04-16T10:30:00Z",
-      "description": "A bank approved a Taboola pixel. That pixel quietly redirected logged-in users to a Temu tracking endpoint. This occurred without the bank’s knowledge, without user consent, and without a single security control registering a violation. Read the full technical breakdown in the Security Intelligence Brief. Download now → The \"First-Hop Bias\" Blind Spot Most&",
       "source": "thehackernews.com"
     },
     {
