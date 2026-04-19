@@ -1,6 +1,6 @@
 {
   "date": "2026-01-19",
-  "count": 41,
+  "count": 34,
   "items": [
     {
       "id": "34aff7c99816a74875c9cd15d193c64ca71296d7",
@@ -323,16 +323,6 @@
       "last_seen": "2026-01-19T12:26:43Z"
     },
     {
-      "id": "3fd51d6be98e029f0cf501c0ae910d2372e96e1d",
-      "title": "Researchers Gained Access to Hacker Domain Server Using Name Server Delegation",
-      "link": "https://cybersecuritynews.com/researchers-gained-access-to-hacker-domain-server/",
-      "date": "2026-01-19T09:16:48Z",
-      "description": "A recent investigation into a deceptive push-notification network shows how a simple DNS mistake can open a window into criminal infrastructure. The campaign abused browser notifications to flood Android users with fake security alerts, gambling lures, and adult offers. Random-looking domains and hidden hosting tried to hide the operator while keeping the flow of clicks […] The post Researchers…",
-      "source": "cybersecuritynews.com",
-      "first_seen": "2026-01-19T09:24:39Z",
-      "last_seen": "2026-01-19T12:26:43Z"
-    },
-    {
       "id": "7b4ea8ff18d9d9f50a5480251456b1b75231b8f9",
       "title": "CrashFix Chrome Extension Delivers ModeloRAT Using ClickFix-Style Browser Crash Lures",
       "link": "https://thehackernews.com/2026/01/crashfix-chrome-extension-delivers.html",
@@ -341,66 +331,6 @@
       "source": "thehackernews.com",
       "first_seen": "2026-01-19T11:14:16Z",
       "last_seen": "2026-01-20T08:19:00Z"
-    },
-    {
-      "id": "7153813aff14a6841dc91fa0f6badda62c4bba23",
-      "title": "Windows SMB Client Vulnerability Enables Attacker to Own Active Directory",
-      "link": "https://cybersecuritynews.com/windows-smb-client-vulnerability/",
-      "date": "2026-01-19T08:40:04Z",
-      "description": "A critical vulnerability in Windows SMB client authentication that enables attackers to compromise Active Directory environments through NTLM reflection exploitation. Classified as an improper access control vulnerability, this vulnerability allows authorized attackers to escalate privileges via carefully orchestrated authentication relay attacks over network connections. Seven months after the…",
-      "source": "cybersecuritynews.com",
-      "first_seen": "2026-01-19T09:24:39Z",
-      "last_seen": "2026-01-19T12:26:43Z"
-    },
-    {
-      "id": "f28c03540e51f1bd2819a6b19c04e7e9f2840460",
-      "title": "CrashFix – Hackers Using Malicious Extensions to Display Fake Browser Warnings",
-      "link": "https://cybersecuritynews.com/crashfix-hackers-using-malicious-extensions/",
-      "date": "2026-01-19T08:13:02Z",
-      "description": "Cybersecurity researchers have discovered a sophisticated malware campaign using an unusual but effective tactic: deliberately crashing users’ browsers. The threat, named CrashFix, operates through a malicious Chrome extension disguised as the legitimate ad blocker NexShield. When users search for privacy tools online, malicious advertisements direct them to download what appears to be a…",
-      "source": "cybersecuritynews.com",
-      "first_seen": "2026-01-19T08:20:13Z",
-      "last_seen": "2026-01-19T11:14:16Z"
-    },
-    {
-      "id": "07cce75fb4e31d92e2377f91a4ddd3a8cbc3f756",
-      "title": "Redmi Buds Vulnerability Allow Attackers Access Call Data and Trigger Firmware Crashes",
-      "link": "https://cybersecuritynews.com/redmi-buds-vulnerability/",
-      "date": "2026-01-19T07:55:20Z",
-      "description": "Security researchers have uncovered significant vulnerabilities in the firmware of Xiaomi’s popular Redmi Buds series, specifically affecting models ranging from the Redmi Buds 3 Pro up to the latest Redmi Buds 6 Pro. The discovery highlights critical flaws in the Bluetooth implementation of these devices, allowing attackers to access sensitive information or force the devices […] The post Redmi…",
-      "source": "cybersecuritynews.com",
-      "first_seen": "2026-01-19T08:20:13Z",
-      "last_seen": "2026-01-19T11:14:16Z"
-    },
-    {
-      "id": "94e1623867d999c48260135b26cd8989176506a8",
-      "title": "PoC Exploit Released: Failed Windows Patch Leaks Kernel Secrets",
-      "link": "https://securityonline.info/poc-exploit-released-failed-windows-patch-leaks-kernel-secrets/",
-      "date": "2026-01-19T07:54:47Z",
-      "description": "The post PoC Exploit Released: Failed Windows Patch Leaks Kernel Secrets appeared first on Daily CyberSecurity.",
-      "source": "securityonline.info",
-      "first_seen": "2026-01-19T08:20:13Z",
-      "last_seen": "2026-01-26T23:13:24Z"
-    },
-    {
-      "id": "611d55559f54980645f4752c075999404b5815e0",
-      "title": "17 New Malicious Chrome GhostPoster Extensions with 840,000+ Installs Steals User Data",
-      "link": "https://cybersecuritynews.com/17-new-malicious-chrome-ghostposter-extensions/",
-      "date": "2026-01-19T07:41:14Z",
-      "description": "Cybercriminals have distributed 17 malicious browser extensions across Chrome, Firefox, and Edge platforms, collectively downloading over 840,000 times and compromising user security for years. The GhostPoster campaign, which emerged as early as 2020, used deceptive extension names like “Google Translate in Right Click,” “Youtube Download,” and “Ads Block Ultimate” to appear legitimate while…",
-      "source": "cybersecuritynews.com",
-      "first_seen": "2026-01-19T08:20:13Z",
-      "last_seen": "2026-01-19T09:24:39Z"
-    },
-    {
-      "id": "f3d906088546ae7d739fb2d2fe08999d04803fbd",
-      "title": "New Kerberos Relay Attack Uses DNS CNAME to Bypass Mitigations – PoC Released",
-      "link": "https://cybersecuritynews.com/kerberos-relay-attack-uses-dns-cname/",
-      "date": "2026-01-19T07:27:09Z",
-      "description": "A critical flaw in Windows Kerberos authentication that significantly expands the attack surface for credential relay attacks in Active Directory environments. By abusing how Windows clients handle DNS CNAME responses during Kerberos service ticket requests, attackers can coerce systems into requesting tickets for attacker-controlled services, bypassing traditional protections. The Attack Vector…",
-      "source": "cybersecuritynews.com",
-      "first_seen": "2026-01-19T08:20:13Z",
-      "last_seen": "2026-01-19T08:20:13Z"
     },
     {
       "id": "d5cc06938889724a013199836883fb03b292b6fd",
