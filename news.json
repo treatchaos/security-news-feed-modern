@@ -1,7 +1,42 @@
 {
-  "last_updated": "2026-04-21T01:25:51Z",
+  "last_updated": "2026-04-21T04:40:20Z",
   "count": 40,
   "items": [
+    {
+      "title": "PoC Exploit Released for Windows Snipping Tool NTLM Hash Leak Vulnerability",
+      "link": "https://cybersecuritynews.com/windows-snipping-tool-ntlm-hash/",
+      "date": "2026-04-21T04:15:29Z",
+      "description": "A proof-of-concept (PoC) exploit has been publicly released for a newly disclosed vulnerability in Microsoft’s Snipping Tool that allows attackers to silently steal users’ Net-NTLM credential hashes by luring them to a malicious webpage. Tracked as CVE-2026-33829, the flaw resides in how Windows Snipping Tool handles deep link URI registrations using the ms-screensketch protocol schema. […] The…",
+      "source": "cybersecuritynews.com"
+    },
+    {
+      "title": "iTerm2 Flaw Abuses SSH Integration Escape Sequences to Turn Text Into Code Execution",
+      "link": "https://cybersecuritynews.com/iterm2-flaw-abuses-ssh-integration/",
+      "date": "2026-04-21T03:23:22Z",
+      "description": "Cybersecurity researchers, working in partnership with OpenAI, have uncovered a fascinating and severe vulnerability in iTerm2, a widely used macOS terminal emulator. According to Califio, the flaw abuses the application’s SSH integration feature, allowing attackers to turn seemingly harmless text output into local remote code execution (RCE). Simply viewing a maliciously crafted text file can…",
+      "source": "cybersecuritynews.com"
+    },
+    {
+      "title": "British National Admits Hacking Companies and Stealing Millions in Virtual Currency",
+      "link": "https://cybersecuritynews.com/british-national-stealing-millions-in-virtual-currency/",
+      "date": "2026-04-21T03:19:57Z",
+      "description": "A British man has pleaded guilty in the United States to his role in a large cybercrime scheme that used SMS phishing, company network intrusions, and SIM swapping to steal at least $1 million in virtual currency from victims across the country. Tyler Robert Buchanan, of Dundee, Scotland, was admitted to conspiracy to commit wire fraud […] The post British National Admits Hacking Companies and…",
+      "source": "cybersecuritynews.com"
+    },
+    {
+      "title": "Critical Gardyn Smart Gardens Vulnerabilities Let Attackers Control Devices Remotely",
+      "link": "https://cybersecuritynews.com/gardyn-smart-gardens-vulnerabilities/",
+      "date": "2026-04-21T03:14:27Z",
+      "description": "The Cybersecurity and Infrastructure Security Agency (CISA) has issued a critical warning about severe vulnerabilities in Gardyn Home Kit smart garden systems. Carrying a maximum severity score of 9.3 out of 10, these flaws could allow unauthenticated attackers to hijack smart agricultural devices from remote locations completely. First detailed in February 2026 and recently updated […] The post…",
+      "source": "cybersecuritynews.com"
+    },
+    {
+      "title": "Critical Anthropic’s MCP Vulnerability Enables Remote Code Execution Attacks",
+      "link": "https://cybersecuritynews.com/anthropics-mcp-vulnerability/",
+      "date": "2026-04-21T02:37:35Z",
+      "description": "A critical flaw in Anthropic’s Model Context Protocol (MCP) exposes over 150 million downloads to potential compromise. The vulnerability could enable full system takeover across up to 200,000 servers. The OX Security Research team identified the flaw as a fundamental design decision embedded in Anthropic’s official MCP SDKs across every supported programming language, including Python,…",
+      "source": "cybersecuritynews.com"
+    },
     {
       "title": "KelpDAO suffers $290 million heist tied to Lazarus hackers",
       "link": "https://www.bleepingcomputer.com/news/security/kelpdao-suffers-290-million-heist-tied-to-lazarus-hackers/",
@@ -31,32 +66,11 @@
       "source": "darkreading.com"
     },
     {
-      "title": "Gh0st RAT and CloverPlus Adware Delivered Together in New Dual-Payload Malware Campaign",
-      "link": "https://cybersecuritynews.com/gh0st-rat-and-cloverplus-adware-delivered-together/",
-      "date": "2026-04-20T20:39:59Z",
-      "description": "A newly identified malware campaign is raising serious concerns across the cybersecurity community by delivering two very different threats at the same time. Attackers are now using a single, obfuscated loader to push both Gh0st Remote Access Trojan (RAT) and CloverPlus adware onto the same victim machine, giving them both long-term system control and an […] The post Gh0st RAT and CloverPlus…",
-      "source": "cybersecuritynews.com"
-    },
-    {
-      "title": "Hackers Use AppDomain Hijacking to Turn Trusted Intel Utility Into Malware Launcher",
-      "link": "https://cybersecuritynews.com/hackers-use-appdomain-hijacking/",
-      "date": "2026-04-20T20:31:23Z",
-      "description": "Security researchers have uncovered a highly sophisticated attack campaign that weaponizes a legitimate, digitally signed Intel utility to secretly deploy malware, all without touching a single line of the original program’s code. The campaign, dubbed Operation PhantomCLR, represents a serious evolution in how advanced attackers hide inside trusted systems to avoid detection. The attack exploits…",
-      "source": "cybersecuritynews.com"
-    },
-    {
       "title": "The Gentlemen ransomware now uses SystemBC for bot-powered attacks",
       "link": "https://www.bleepingcomputer.com/news/security/the-gentlemen-ransomware-now-uses-systembc-for-bot-powered-attacks/",
       "date": "2026-04-20T20:02:37Z",
       "description": "A SystemBC proxy malware botnet of more than 1,570 hosts, believed to be corporate victims, has been discovered following an investigation into a Gentlemen ransomware attack carried out by a gang affiliate. [...]",
       "source": "bleepingcomputer.com"
-    },
-    {
-      "title": "North Korea-Linked UNC1069 Uses Fake Zoom and Teams Meetings to Hack Crypto Professionals",
-      "link": "https://cybersecuritynews.com/north-korea-linked-unc1069-uses-fake-zoom-and-teams-meetings/",
-      "date": "2026-04-20T18:57:48Z",
-      "description": "A North Korean threat group known as UNC1069 has been running a sophisticated campaign that tricks cryptocurrency and Web3 professionals into joining fake online meetings, only to infect their computers with malware designed to steal digital assets. The group pretends to be venture capital firms looking for investment partnerships, building trust with targets over time […] The post North…",
-      "source": "cybersecuritynews.com"
     },
     {
       "title": "Seiko USA website defaced as hacker claims customer data theft",
@@ -71,20 +85,6 @@
       "date": "2026-04-20T17:14:00Z",
       "description": "A critical security vulnerability has been disclosed in SGLang that, if successfully exploited, could result in remote code execution on susceptible systems. The vulnerability, tracked as CVE-2026-5760, carries a CVSS score of 9.8 out of 10.0. It has been described as a case of command injection leading to the execution of arbitrary code. SGLang is a high-performance, open-source serving",
       "source": "thehackernews.com"
-    },
-    {
-      "title": "Researchers Say Iranian MOIS Uses Multiple Hacker Personas for One Coordinated Cyber Campaign",
-      "link": "https://cybersecuritynews.com/iranian-mois-uses-multiple-hacker-personas/",
-      "date": "2026-04-20T16:48:17Z",
-      "description": "Iran’s Ministry of Intelligence and Security (MOIS) has been running a long and carefully organized cyber campaign using three separate hacker identities. These identities, known as Homeland Justice, Karma/KarmaBelow80, and Handala, were widely believed to be independent hacktivist groups. However, a detailed investigation has now confirmed that all three are part of a single, state-directed […]…",
-      "source": "cybersecuritynews.com"
-    },
-    {
-      "title": "Lovable AI App Builder Reportedly Exposes Thousands of Projects Data via API Flaw",
-      "link": "https://cybersecuritynews.com/lovable-ai-app-builder-customer-data/",
-      "date": "2026-04-20T16:09:35Z",
-      "description": "A critical Broken Object Level Authorization (BOLA) vulnerability in Lovable, the popular AI-powered app builder platform, is reportedly allowing unauthorized users to access sensitive project data, including source code, database credentials, AI chat histories, and real customer information from thousands of projects created before November 2025. The flaw, classified as a Broken Object Level…",
-      "source": "cybersecuritynews.com"
     },
     {
       "title": "Serial-to-IP Converter Flaws Expose OT and Healthcare Systems to Hacking",
