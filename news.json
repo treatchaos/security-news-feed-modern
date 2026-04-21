@@ -1,7 +1,56 @@
 {
-  "last_updated": "2026-04-21T11:53:24Z",
+  "last_updated": "2026-04-21T12:59:06Z",
   "count": 40,
   "items": [
+    {
+      "title": "Unsecured Perforce Servers Expose Sensitive Data From Major Orgs",
+      "link": "https://www.securityweek.com/unsecured-perforce-servers-expose-sensitive-data-from-major-orgs/",
+      "date": "2026-04-21T12:37:49Z",
+      "description": "Things are improving, but a researcher has still identified over 1,500 Perforce P4 instances allowing attackers to read files on the server. The post Unsecured Perforce Servers Expose Sensitive Data From Major Orgs appeared first on SecurityWeek.",
+      "source": "securityweek.com"
+    },
+    {
+      "title": "6000+ Apache ActiveMQ Instances Vulnerable to CVE-2026-34197 Exposed Online",
+      "link": "https://cybersecuritynews.com/apache-activemq-instances-exposed/",
+      "date": "2026-04-21T12:32:29Z",
+      "description": "More than 6,000 internet-exposed Apache ActiveMQ instances are still vulnerable to CVE-2026-34197. This newly tracked security flaw has now been added to the U.S. Cybersecurity and Infrastructure Security Agency’s Known Exploited Vulnerabilities (KEV) catalog. The exposure data comes from The Shadowserver Foundation, which said it has started daily internet scans for the flaw. In an update…",
+      "source": "cybersecuritynews.com"
+    },
+    {
+      "title": "CISA flags new SD-WAN flaw as actively exploited in attacks",
+      "link": "https://www.bleepingcomputer.com/news/security/cisa-flags-new-sd-wan-flaw-as-actively-exploited-in-attacks/",
+      "date": "2026-04-21T12:30:50Z",
+      "description": "​CISA has given U.S. government agencies four days to secure their systems against another Catalyst SD-WAN Manager vulnerability it flagged as actively exploited in attacks. [...]",
+      "source": "bleepingcomputer.com"
+    },
+    {
+      "title": "Progress Patches Multiple Vulnerabilities in MOVEit WAF, LoadMaster",
+      "link": "https://www.securityweek.com/progress-patches-multiple-vulnerabilities-in-moveit-waf-loadmaster/",
+      "date": "2026-04-21T12:14:26Z",
+      "description": "The security defects could be exploited for remote code execution, OS command injection, and WAF detection bypass. The post Progress Patches Multiple Vulnerabilities in MOVEit WAF, LoadMaster appeared first on SecurityWeek.",
+      "source": "securityweek.com"
+    },
+    {
+      "title": "Hackers Use Nightmare-Eclipse Tools After Compromising FortiGate SSL VPN Access",
+      "link": "https://cybersecuritynews.com/nightmare-eclipse-tools-fortigate-ssl-vpn/",
+      "date": "2026-04-21T12:05:38Z",
+      "description": "A real-world intrusion campaign leveraging publicly available Nightmare-Eclipse privilege escalation tooling, BlueHammer, RedSun, and UnDefend, following what appears to be unauthorized access through a compromised FortiGate SSL VPN. The incident marks the first confirmed in-the-wild deployment of these tools against a live enterprise environment, raising urgent alarms for security teams…",
+      "source": "cybersecuritynews.com"
+    },
+    {
+      "title": "Chinese APT Targets Indian Banks, Korean Policy Circles",
+      "link": "https://www.darkreading.com/cyberattacks-data-breaches/chinese-apt-indian-banks-korean-policy",
+      "date": "2026-04-21T12:00:00Z",
+      "description": "China is spying on India's financial sector, for some reason, and it's not putting much effort into it, judging by some stale TTPs.",
+      "source": "darkreading.com"
+    },
+    {
+      "title": "Gentlemen RaaS Attacking Windows, Linux With additional locker written in C for ESXi",
+      "link": "https://cybersecuritynews.com/gentlemen-raas-attacking-windows-linux/",
+      "date": "2026-04-21T11:57:46Z",
+      "description": "A new ransomware-as-a-service (RaaS) operation known as “The Gentlemen” has emerged as a serious threat to corporate networks worldwide. Since appearing around mid-2025, this group has rapidly grown into a well-organized criminal platform, publicly claiming over 320 victims, with most attacks — more than 240 — recorded in the opening months of 2026. The speed […] The post Gentlemen RaaS…",
+      "source": "cybersecuritynews.com"
+    },
     {
       "title": "No Exploit Needed: How Attackers Walk Through the Front Door via Identity-Based Attacks",
       "link": "https://thehackernews.com/2026/04/no-exploit-needed-how-attackers-walk.html",
@@ -41,7 +90,7 @@
       "title": "NGate Campaign Targets Brazil, Trojanizes HandyPay to Steal NFC Data and PINs",
       "link": "https://thehackernews.com/2026/04/ngate-campaign-targets-brazil.html",
       "date": "2026-04-21T10:40:00Z",
-      "description": "Cybersecurity researchers have discovered a new iteration of an Android malware family calledNGate that has been found to abuse a legitimate application called HandyPay instead of NFCGate. \"The threat actors took the app, which is used to relay NFC data, and patched it with malicious code that appears to have been AI-generated,\" ESET security researcher Lukáš Štefanko said in a report",
+      "description": "Cybersecurity researchers have discovered a new iteration of an Android malware family called NGate that has been found to abuse a legitimate application called HandyPay instead of NFCGate. \"The threat actors took the app, which is used to relay NFC data, and patched it with malicious code that appears to have been AI-generated,\" ESET security researcher Lukáš Štefanko said in a",
       "source": "thehackernews.com"
     },
     {
@@ -57,20 +106,6 @@
       "date": "2026-04-21T10:22:00Z",
       "description": "Cybersecurity researchers have discovered a vulnerability in Google's agentic integrated development environment (IDE), Antigravity, that could be exploited to achieve code execution. The flaw, since patched, combines Antigravity's permitted file-creation capabilities with an insufficient input sanitization in Antigravity's native file-searching tool, find_by_name, to bypass the program's Strict",
       "source": "thehackernews.com"
-    },
-    {
-      "title": "Hackers Could Weaponize GGUF Models to Achieve RCE on SGLang Inference Servers",
-      "link": "https://cybersecuritynews.com/hackers-weaponize-gguf-models/",
-      "date": "2026-04-21T10:20:08Z",
-      "description": "A critical vulnerability in the SGLang inference server that allows threat actors to execute arbitrary code. Tracked as CVE-2026-5760, this flaw allows hackers to weaponize standard GGUF machine learning models to compromise the underlying servers that host them. As enterprise artificial intelligence deployments grow, this discovery highlights the severe infrastructure risks posed by loading…",
-      "source": "cybersecuritynews.com"
-    },
-    {
-      "title": "CISA Warns Axios npm Package Was Compromised in Major Supply Chain Attack",
-      "link": "https://cybersecuritynews.com/cisa-warns-axios-npm-supply-chain/",
-      "date": "2026-04-21T10:15:34Z",
-      "description": "The Cybersecurity and Infrastructure Security Agency (CISA) has released a critical alert regarding a severe software supply chain compromise. The attack targets Axios, a massively popular HTTP client for JavaScript that developers worldwide rely on for Node.js and browser environments. Supply chain attacks have become a top priority for security teams, as compromising a single […] The post CISA…",
-      "source": "cybersecuritynews.com"
     },
     {
       "title": "Former ransomware negotiator pleads guilty to BlackCat attacks",
@@ -94,13 +129,6 @@
       "source": "bleepingcomputer.com"
     },
     {
-      "title": "Claude Code, Gemini CLI, and GitHub Copilot Vulnerable to Prompt Injection via GitHub Comments",
-      "link": "https://cybersecuritynews.com/prompt-injection-via-github-comments/",
-      "date": "2026-04-21T08:33:42Z",
-      "description": "A critical cross-vendor vulnerability class dubbed “Comment and Control” is a new category of prompt injection attacks that weaponizes GitHub pull request titles, issue bodies, and issue comments to hijack AI coding agents and steal API keys and access tokens directly from CI/CD environments. The attack name is a deliberate play on the classic Command and Control […] The post Claude Code, Gemini…",
-      "source": "cybersecuritynews.com"
-    },
-    {
       "title": "CISA Adds 8 Exploited Flaws to KEV, Sets April-May 2026 Federal Deadlines",
       "link": "https://thehackernews.com/2026/04/cisa-adds-8-exploited-flaws-to-kev-sets.html",
       "date": "2026-04-21T06:23:00Z",
@@ -115,21 +143,14 @@
       "source": "bleepingcomputer.com"
     },
     {
-      "title": "China's Apple App Store infiltrated by crypto-stealing wallet apps",
-      "link": "https://www.bleepingcomputer.com/news/security/chinas-apple-app-store-infiltrated-by-crypto-stealing-wallet-apps/",
-      "date": "2026-04-20T21:52:54Z",
-      "description": "A set of 26 malicious apps on Apple App Store impersonate popular wallets, such as Metamask, Coinbase, Trust Wallet, and OneKey, to steal recovery or seed phrases and drain them of cryptocurrency assets. [...]",
-      "source": "bleepingcomputer.com"
-    },
-    {
       "title": "Vercel Employee's AI Tool Access Led to Data Breach",
       "link": "https://www.darkreading.com/application-security/vercel-employees-ai-tool-access-data-breach",
       "date": "2026-04-20T21:01:31Z",
-      "description": "Stolen OAuth tokens, which are at the root of these breaches, \"are the new attack surface, the new lateral movement,\" a researcher noted.",
+      "description": "Stolen OAuth tokens, which are at the root of these breaches, \"are the new attack surface, the new lateral movement,\" a researcher notes.",
       "source": "darkreading.com"
     },
     {
-      "title": "Serial-to-IP Devices Hide Thousands of Old and New Bugs",
+      "title": "Serial-to-IP Devices Hide Thousands of Old &amp; New Bugs",
       "link": "https://www.darkreading.com/ics-ot-security/serial-ip-devices-thousands-of-bugs",
       "date": "2026-04-20T21:00:00Z",
       "description": "The OT devices that translate machine talk into Internet-speak are riddled with vulnerabilities and more frequently targeted for attacks, researchers say.",
@@ -141,13 +162,6 @@
       "date": "2026-04-20T17:14:00Z",
       "description": "A critical security vulnerability has been disclosed in SGLang that, if successfully exploited, could result in remote code execution on susceptible systems. The vulnerability, tracked as CVE-2026-5760, carries a CVSS score of 9.8 out of 10.0. It has been described as a case of command injection leading to the execution of arbitrary code. SGLang is a high-performance, open-source serving",
       "source": "thehackernews.com"
-    },
-    {
-      "title": "Serial-to-IP Converter Flaws Expose OT and Healthcare Systems to Hacking",
-      "link": "https://www.securityweek.com/serial-to-ip-converter-flaws-expose-ot-and-healthcare-systems-to-hacking/",
-      "date": "2026-04-20T15:42:22Z",
-      "description": "Forescout researchers discovered 20 new vulnerabilities in Lantronix and Silex products and described theoretical attack scenarios. The post Serial-to-IP Converter Flaws Expose OT and Healthcare Systems to Hacking appeared first on SecurityWeek.",
-      "source": "securityweek.com"
     },
     {
       "title": "WhatsApp Leaks User Metadata to Attackers",
@@ -164,13 +178,6 @@
       "source": "securityonline.info"
     },
     {
-      "title": "British Scattered Spider Hacker Pleads Guilty in the US",
-      "link": "https://www.securityweek.com/british-scattered-spider-hacker-pleads-guilty-in-the-us/",
-      "date": "2026-04-20T12:21:16Z",
-      "description": "Tyler Buchanan admitted in court to hacking into various companies, defrauding them, and stealing cryptocurrency from multiple individuals. The post British Scattered Spider Hacker Pleads Guilty in the US appeared first on SecurityWeek.",
-      "source": "securityweek.com"
-    },
-    {
       "title": "Windows Snipping Tool Can Leak Your Identity, PoC Available",
       "link": "https://securityonline.info/windows-snipping-tool-poc-exploit-disclosure/",
       "date": "2026-04-20T01:47:11Z",
@@ -182,13 +189,6 @@
       "link": "https://www.darkreading.com/threat-intelligence/nist-cutbacks-nvd-handling-impacts-cyber-teams",
       "date": "2026-04-17T19:51:57Z",
       "description": "Industry and ad hoc coalitions appear poised to help fill the gap created by NIST's decision to cut back on CVE data enrichment.",
-      "source": "darkreading.com"
-    },
-    {
-      "title": "Tycoon 2FA Phishers Scatter, Adopt Device Code Phishing",
-      "link": "https://www.darkreading.com/threat-intelligence/tycoon-2fa-hackers-device-code-phishing",
-      "date": "2026-04-17T19:05:51Z",
-      "description": "In embracing device code phishing, attackers trick victims into handing over account access by using a service's legitimate new-device login flow.",
       "source": "darkreading.com"
     },
     {
