@@ -1,6 +1,6 @@
 {
   "date": "2026-01-21",
-  "count": 59,
+  "count": 52,
   "items": [
     {
       "id": "2d29c787c8a9de3456abe60372999c21061c2c2d",
@@ -521,76 +521,6 @@
       "source": "cybersecuritynews.com",
       "first_seen": "2026-01-21T09:23:47Z",
       "last_seen": "2026-01-21T12:26:33Z"
-    },
-    {
-      "id": "0bf6252f3cd1901cf44af07861919aa7c6eaf528",
-      "title": "Critical GNU InetUtils Vulnerability Allows Unauthenticated Root Access Via “-f root”",
-      "link": "https://cybersecuritynews.com/gnu-inetutils-vulnerability/",
-      "date": "2026-01-21T08:16:47Z",
-      "description": "A critical remote authentication bypass vulnerability has been disclosed in GNU InetUtils affecting the telnetd server component. The flaw, reported by a security researcher on January 19, 2026, allows unauthenticated attackers to gain root access by exploiting improper input sanitization in the telnetd authentication mechanism. The vulnerability stems from how telnetd invokes the login program.…",
-      "source": "cybersecuritynews.com",
-      "first_seen": "2026-01-21T08:19:00Z",
-      "last_seen": "2026-01-21T11:16:00Z"
-    },
-    {
-      "id": "a78e4ec7edf46513a94e95832d0aea25e13aedff",
-      "title": "Attackers Leverages LinkedIn to Deliver Remote Access Trojan Targeting Corporate Environments",
-      "link": "https://cybersecuritynews.com/attackers-leverages-linkedin-to-deliver-remote-access-trojan/",
-      "date": "2026-01-21T08:01:25Z",
-      "description": "A sophisticated phishing campaign is actively exploiting LinkedIn’s trusted social media platform to distribute a dangerous remote access trojan to corporate employees. Attackers are leveraging the professional credibility of LinkedIn to craft convincing messages that appear legitimate, making employees more likely to download and execute malicious files. This attack vector represents a…",
-      "source": "cybersecuritynews.com",
-      "first_seen": "2026-01-21T08:19:00Z",
-      "last_seen": "2026-01-21T10:16:52Z"
-    },
-    {
-      "id": "97ce627fa013aacd3684cbe54cd1b0709fee8635",
-      "title": "LastPass Warns of Fake Maintenance Messages Targeting Users’ Master Passwords",
-      "link": "https://thehackernews.com/2026/01/lastpass-warns-of-fake-maintenance.html",
-      "date": "2026-01-21T06:40:00Z",
-      "description": "LastPass is alerting users to a new active phishing campaign that's impersonating the password management service, which aims to trick users into giving up their master passwords. The campaign, which began on or around January 19, 2026, involves sending phishing emails claiming upcoming maintenance and urging them to create a local backup of their password vaults in the next 24 hours. The",
-      "source": "thehackernews.com",
-      "first_seen": "2026-01-21T07:19:53Z",
-      "last_seen": "2026-01-21T15:21:15Z"
-    },
-    {
-      "id": "b9b57840664a1ce7b5893d81a4de1fd4f5dfafec",
-      "title": "Critical Oracle WebLogic Server Proxy Vulnerability Lets Attackers Compromise the Server",
-      "link": "https://cybersecuritynews.com/oracle-weblogic-server-proxy-vulnerability/",
-      "date": "2026-01-21T06:39:09Z",
-      "description": "Oracle has disclosed a severe security vulnerability affecting its Fusion Middleware suite, specifically targeting the Oracle HTTP Server and the Oracle WebLogic Server Proxy Plug-in. Assigned CVE-2026-21962, this flaw carries the maximum severity rating and poses an immediate threat to enterprise environments that use these proxy components. The vulnerability stems from a defect in how […] The…",
-      "source": "cybersecuritynews.com",
-      "first_seen": "2026-01-21T07:19:53Z",
-      "last_seen": "2026-01-21T09:23:47Z"
-    },
-    {
-      "id": "3a6e058113f076045b2b8c7987dba3f3a96a4540",
-      "title": "Azure Private Endpoint Deployments Exposes Azure Resources to DoS Attack",
-      "link": "https://cybersecuritynews.com/azure-private-endpoint-exposes-azure-resources/",
-      "date": "2026-01-21T06:26:32Z",
-      "description": "A critical architectural flaw in Microsoft Azure’s Private Endpoint implementation that enables denial-of-service (DoS) attacks against production Azure resources. The vulnerability affects over 5% of Azure storage accounts, exposing organizations to service disruptions across Key Vault, CosmosDB, Azure Container Registry, Function Apps, and OpenAI accounts. How the Vulnerability Works Palo Alto…",
-      "source": "cybersecuritynews.com",
-      "first_seen": "2026-01-21T07:19:53Z",
-      "last_seen": "2026-01-21T08:19:00Z"
-    },
-    {
-      "id": "1314be1f1bb7c17ee5fb633c1d035e8d7ec540dc",
-      "title": "CERT/CC Warns binary-parser Bug Allows Node.js Privilege-Level Code Execution",
-      "link": "https://thehackernews.com/2026/01/certcc-warns-binary-parser-bug-allows.html",
-      "date": "2026-01-21T06:04:00Z",
-      "description": "A security vulnerability has been disclosed in the popular binary-parser npm library that, if successfully exploited, could result in the execution of arbitrary JavaScript. The vulnerability, tracked as CVE-2026-1245 (CVSS score: N/A), affects all versions of the module prior to version 2.3.0, which addresses the issue. Patches for the flaw were released on November 26, 2025. Binary-parser is a",
-      "source": "thehackernews.com",
-      "first_seen": "2026-01-21T07:19:53Z",
-      "last_seen": "2026-01-21T11:16:00Z"
-    },
-    {
-      "id": "b8a40302d4e8470b0a8405b23616aca86884bf82",
-      "title": "CISA Releases BRICKSTORM Malware Analysis with New YARA Rules for VMware vSphere",
-      "link": "https://cybersecuritynews.com/cisa-releases-brickstorm-malware-report/",
-      "date": "2026-01-21T05:22:03Z",
-      "description": "The Cybersecurity and Infrastructure Security Agency has issued a malware analysis report on BRICKSTORM, a sophisticated backdoor linked to Chinese state-sponsored cyber operations. Released in December 2025 and updated through January 2026, the report identifies this threat targeting VMware vSphere platforms, specifically vCenter servers and ESXi environments. Organizations in government…",
-      "source": "cybersecuritynews.com",
-      "first_seen": "2026-01-21T07:19:53Z",
-      "last_seen": "2026-01-21T07:19:53Z"
     }
   ]
 }
