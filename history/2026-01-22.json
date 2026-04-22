@@ -1,6 +1,6 @@
 {
   "date": "2026-01-22",
-  "count": 53,
+  "count": 44,
   "items": [
     {
       "id": "20ed7dfa3b93c993336a759afb604d48c8d65234",
@@ -381,96 +381,6 @@
       "source": "thehackernews.com",
       "first_seen": "2026-01-22T12:26:36Z",
       "last_seen": "2026-01-23T11:13:08Z"
-    },
-    {
-      "id": "d5cfd70adadd96313ac74af18660292db3eb4a13",
-      "title": "Furl Raises $10 Million for Autonomous Vulnerability Remediation",
-      "link": "https://www.securityweek.com/furl-raises-10-million-for-autonomous-vulnerability-remediation/",
-      "date": "2026-01-22T11:07:34Z",
-      "description": "The startup will use the new funding to accelerate product development and deepen remediation capabilities. The post Furl Raises $10 Million for Autonomous Vulnerability Remediation appeared first on SecurityWeek.",
-      "source": "securityweek.com",
-      "first_seen": "2026-01-22T11:15:40Z",
-      "last_seen": "2026-01-22T14:21:46Z"
-    },
-    {
-      "id": "77fd766a821eae579d5f8b0dccfdf1766ec2b58f",
-      "title": "BIND 9 Vulnerability Allow Attackers to Crash Server by Sending Malicious Records",
-      "link": "https://cybersecuritynews.com/bind-9-vulnerability/",
-      "date": "2026-01-22T10:11:31Z",
-      "description": "A high-severity vulnerability has been disclosed in BIND 9, the widely used DNS server software responsible for domain name resolution across millions of internet services. The vulnerability, tracked as CVE-2025-13878, enables remote attackers to crash DNS servers by sending specially crafted, malformed DNS records, potentially disrupting critical internet infrastructure and organizational…",
-      "source": "cybersecuritynews.com",
-      "first_seen": "2026-01-22T10:17:33Z",
-      "last_seen": "2026-01-22T13:39:13Z"
-    },
-    {
-      "id": "4d1290b3b76a2c52543ffd02b105e986785a17dc",
-      "title": "New Multi-Stage Windows Malware Disables Microsoft Defender Before Dropping Malicious Payloads",
-      "link": "https://cybersecuritynews.com/new-multi-stage-windows-malware-disables-microsoft-defender/",
-      "date": "2026-01-22T10:11:24Z",
-      "description": "Security researchers have identified a sophisticated multi-stage malware campaign targeting Windows systems through social engineering and weaponized cloud services. The attack employs business-themed documents as deceptive entry points, luring users into extracting compressed archives containing malicious shortcuts that execute PowerShell commands in the background. Once initiated, the…",
-      "source": "cybersecuritynews.com",
-      "first_seen": "2026-01-22T10:17:33Z",
-      "last_seen": "2026-01-22T12:26:36Z"
-    },
-    {
-      "id": "61e654d94f067994dece51b9c16b95cab7046357",
-      "title": "Critical Vulnerability in Binary-Parser Library for Node.js Allows Malicious Code injection",
-      "link": "https://cybersecuritynews.com/node-js-binary-parser-library-vulnerability/",
-      "date": "2026-01-22T10:08:44Z",
-      "description": "A critical code-injection vulnerability has been identified in the Node.js binary-parser library, affecting all versions before 2.3.0. The flaw allows attackers to execute arbitrary JavaScript code if untrusted input is used to construct parser definitions, potentially compromising application integrity and system security. The binary-parser library, designed to facilitate writing efficient…",
-      "source": "cybersecuritynews.com",
-      "first_seen": "2026-01-22T10:17:33Z",
-      "last_seen": "2026-01-22T12:26:36Z"
-    },
-    {
-      "id": "356e115b6f07fda109e6443913ff785b92eb529c",
-      "title": "Malicious PyPI Package Impersonates SymPy, Deploys XMRig Miner on Linux Hosts",
-      "link": "https://thehackernews.com/2026/01/malicious-pypi-package-impersonates.html",
-      "date": "2026-01-22T10:04:00Z",
-      "description": "A new malicious package discovered in the Python Package Index (PyPI) has been found to impersonate a popular library for symbolic mathematics to deploy malicious payloads, including a cryptocurrency miner, on Linux hosts. The package, named sympy-dev, mimics SymPy, replicating the latter's project description verbatim in an attempt to deceive unsuspecting users into thinking that they are",
-      "source": "thehackernews.com",
-      "first_seen": "2026-01-22T11:15:40Z",
-      "last_seen": "2026-01-23T08:17:47Z"
-    },
-    {
-      "id": "3967d5015aea327de4569f643fddb66ec908919a",
-      "title": "Critical Chainlit AI Vulnerabilities Let Hackers Gain Control Over Cloud Environments",
-      "link": "https://cybersecuritynews.com/chainlit-ai-vulnerabilities/",
-      "date": "2026-01-22T09:48:21Z",
-      "description": "Cybersecurity researchers have uncovered two critical security flaws in Chainlit, a widely used open-source AI framework with over 700,000 monthly downloads. The vulnerabilities allow attackers to steal sensitive cloud credentials, leak database files, and take control of enterprise AI environments without user interaction. Zafran Labs identified these flaws affecting internet-facing deployments…",
-      "source": "cybersecuritynews.com",
-      "first_seen": "2026-01-22T10:17:33Z",
-      "last_seen": "2026-01-22T12:26:36Z"
-    },
-    {
-      "id": "ded3a8beb2b357caf2adb6d0bc91106251ee990f",
-      "title": "SmarterMail Auth Bypass Exploited in the Wild Two Days After Patch Release",
-      "link": "https://thehackernews.com/2026/01/smartermail-auth-bypass-exploited-in.html",
-      "date": "2026-01-22T09:46:00Z",
-      "description": "A new security flaw in SmarterTools SmarterMail email software has come under active exploitation in the wild, two days after the release of a patch. The vulnerability, which currently does not have a CVE identifier, is tracked by watchTowr Labs as WT-2026-0001. It was patched by SmarterTools on January 15, 2026, with Build 9511, following responsible disclosure by the exposure management",
-      "source": "thehackernews.com",
-      "first_seen": "2026-01-22T11:15:40Z",
-      "last_seen": "2026-01-22T18:18:29Z"
-    },
-    {
-      "id": "ddb6389d3403254471eaefb113213ea470d59b8b",
-      "title": "7 Million Exposed: Critical CVSS 9.8 RCE Vulnerability Hits Laravel Reverb",
-      "link": "https://securityonline.info/7-million-exposed-critical-cvss-9-8-rce-vulnerability-hits-laravel-reverb/",
-      "date": "2026-01-22T09:41:42Z",
-      "description": "The post 7 Million Exposed: Critical CVSS 9.8 RCE Vulnerability Hits Laravel Reverb appeared first on Daily CyberSecurity.",
-      "source": "securityonline.info",
-      "first_seen": "2026-01-22T10:17:33Z",
-      "last_seen": "2026-02-03T09:29:52Z"
-    },
-    {
-      "id": "ddea0a826fb5e55739ad63c4f501819fee57e325",
-      "title": "Atlassian, GitLab, Zoom Release Security Patches",
-      "link": "https://www.securityweek.com/atlassian-gitlab-zoom-release-security-patches/",
-      "date": "2026-01-22T09:39:54Z",
-      "description": "Fixes were rolled out for over two dozen vulnerabilities, including critical- and high-severity bugs. The post Atlassian, GitLab, Zoom Release Security Patches appeared first on SecurityWeek.",
-      "source": "securityweek.com",
-      "first_seen": "2026-01-22T10:17:33Z",
-      "last_seen": "2026-01-22T14:21:46Z"
     },
     {
       "id": "94944b2032df781689053dccad3e8990ea9af39d",
