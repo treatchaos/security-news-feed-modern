@@ -1,7 +1,14 @@
 {
-  "last_updated": "2026-04-22T21:41:48Z",
+  "last_updated": "2026-04-23T01:29:36Z",
   "count": 40,
   "items": [
+    {
+      "title": "Checkmarx KICS Official Docker Repo Compromised to Inject Malicious Code",
+      "link": "https://cybersecuritynews.com/checkmarx-kics-compromised/",
+      "date": "2026-04-23T01:00:19Z",
+      "description": "A significant supply chain attack targeting the official checkmarx/kics Docker Hub repository, where threat actors pushed trojanized images capable of harvesting and exfiltrating sensitive developer credentials and infrastructure secrets. Docker’s internal monitoring flagged suspicious activity around KICS image tags on April 22, 2026, and promptly alerted Socket researchers. The investigation…",
+      "source": "cybersecuritynews.com"
+    },
     {
       "title": "109 Fake GitHub Repositories Used to Deliver SmartLoader and StealC Malware",
       "link": "https://cybersecuritynews.com/109-fake-github-repositories-used/",
@@ -64,13 +71,6 @@
       "date": "2026-04-22T17:55:00Z",
       "description": "Cybersecurity researchers have warned of malicious images pushed to the official \"checkmarx/kics\" Docker Hub repository. In an alert published today, software supply chain security company Socket revealed that unknown threat actors managed to have overwritten existing tags, including v2.1.20 and alpine, while also introducing a new v2.1.21 tag that does not correspond to an official release. The",
       "source": "thehackernews.com"
-    },
-    {
-      "title": "Microsoft Warns Jasper Sleet Uses Fake IT Worker Identities to Infiltrate Cloud Environments",
-      "link": "https://cybersecuritynews.com/microsoft-warns-jasper-sleet-uses-fake-it-worker-identities/",
-      "date": "2026-04-22T17:44:48Z",
-      "description": "A North Korea-linked threat group is quietly getting hired by real companies. Jasper Sleet, a threat actor tied to North Korea, has been building fake professional identities and using them to land legitimate remote IT jobs, giving them direct access to cloud environments and sensitive internal data. The shift to remote and hybrid work after […] The post Microsoft Warns Jasper Sleet Uses Fake IT…",
-      "source": "cybersecuritynews.com"
     },
     {
       "title": "Self-Propagating Supply Chain Worm Hijacks npm Packages to Steal Developer Tokens",
