@@ -1,7 +1,21 @@
 {
-  "last_updated": "2026-04-23T01:29:36Z",
+  "last_updated": "2026-04-23T06:55:00Z",
   "count": 40,
   "items": [
+    {
+      "title": "Critical Pack2TheRoot Vulnerability Let Attackers Gain Root Access or Compromise the System",
+      "link": "https://cybersecuritynews.com/pack2theroot-vulnerability/",
+      "date": "2026-04-23T06:51:09Z",
+      "description": "A high-severity privilege escalation vulnerability, dubbed Pack2TheRoot (CVE-2026-41651, CVSS 3.1: 8.8), has been publicly disclosed by Deutsche Telekom’s Red Team, affecting multiple major Linux distributions in their default installations. The flaw allows any local unprivileged user to silently install or remove system packages, ultimately achieving full root access without requiring a…",
+      "source": "cybersecuritynews.com"
+    },
+    {
+      "title": "Apple Fixes Notification Privacy Flaw That Allowed FBI to Access Deleted Signal Messages",
+      "link": "https://cybersecuritynews.com/apple-fixes-notification-privacy-flaw/",
+      "date": "2026-04-23T05:56:59Z",
+      "description": "Apple released iOS 26.4.2 and iPadOS 26.4.2 on April 22, 2026, to patch a critical notification privacy vulnerability that allowed law enforcement to extract Signal message content from iPhones — even after the app had been deleted. The flaw, tracked as CVE-2026-28950, stems from a logging issue in Apple’s notification services. Notifications marked for deletion […] The post Apple Fixes…",
+      "source": "cybersecuritynews.com"
+    },
     {
       "title": "Checkmarx KICS Official Docker Repo Compromised to Inject Malicious Code",
       "link": "https://cybersecuritynews.com/checkmarx-kics-compromised/",
@@ -17,7 +31,7 @@
       "source": "cybersecuritynews.com"
     },
     {
-      "title": "Apple fixes iOS bug that retained deleted notification data",
+      "title": "Apple fixes bug that let the FBI recover deleted Signal messages",
       "link": "https://www.bleepingcomputer.com/news/security/apple-fixes-ios-bug-that-retained-deleted-notification-data/",
       "date": "2026-04-22T20:58:58Z",
       "description": "Apple has released out-of-band security updates for iPhone and iPad devices to fix a Notification Services flaw that could allow notifications marked for deletion to remain stored on the device. [...]",
@@ -45,25 +59,11 @@
       "source": "bleepingcomputer.com"
     },
     {
-      "title": "Cybercriminals Exploit French Fintech Accounts to Move Stolen Money Before Detection",
-      "link": "https://cybersecuritynews.com/cybercriminals-exploit-french-fintech-accounts/",
-      "date": "2026-04-22T19:45:39Z",
-      "description": "Organized fraud networks are now using a new method to move stolen money in France. They create fake business accounts on freelancer fintech platforms and use those accounts as mule accounts to launder funds quickly, often before anyone can trace the money. This is not a simple scam by one bad actor. It is a […] The post Cybercriminals Exploit French Fintech Accounts to Move Stolen Money Before…",
-      "source": "cybersecuritynews.com"
-    },
-    {
       "title": "Kyber ransomware gang toys with post-quantum encryption on Windows",
       "link": "https://www.bleepingcomputer.com/news/security/kyber-ransomware-gang-toys-with-post-quantum-encryption-on-windows/",
       "date": "2026-04-22T18:52:29Z",
       "description": "A new Kyber ransomware operation is targeting Windows systems and VMware ESXi endpoints in recent attacks, with one variant implementing Kyber1024 post-quantum encryption. [...]",
       "source": "bleepingcomputer.com"
-    },
-    {
-      "title": "Hackers Use Lotus Wiper to Destroy Drives and Delete Files in Energy Sector Attack",
-      "link": "https://cybersecuritynews.com/hackers-use-lotus-wiper-to-destroy-drives/",
-      "date": "2026-04-22T18:12:38Z",
-      "description": "A newly discovered malware called Lotus Wiper has been used in a targeted destructive attack against the energy and utilities sector in Venezuela. Unlike ransomware, this threat does not ask for money or lock files for a ransom payment. Instead, it permanently destroys data, wipes entire drives, and leaves systems in a state from which […] The post Hackers Use Lotus Wiper to Destroy Drives and…",
-      "source": "cybersecuritynews.com"
     },
     {
       "title": "Malicious KICS Docker Images and VS Code Extensions Hit Checkmarx Supply Chain",
@@ -160,35 +160,35 @@
       "title": "ZDI-CAN-30191: oFono",
       "link": "http://www.zerodayinitiative.com/advisories/upcoming/",
       "date": "2026-04-22T05:00:00Z",
-      "description": "A CVSS score 8.4 AV:L/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H severity vulnerability discovered by 'Anonymous' was reported to the affected vendor on: 2026-04-22, 0 days ago. The vendor is given until 2026-08-20 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
+      "description": "A CVSS score 8.4 AV:L/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H severity vulnerability discovered by 'Anonymous' was reported to the affected vendor on: 2026-04-22, 1 days ago. The vendor is given until 2026-08-20 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
       "source": "zerodayinitiative.com"
     },
     {
       "title": "ZDI-CAN-30461: Flowise",
       "link": "http://www.zerodayinitiative.com/advisories/upcoming/",
       "date": "2026-04-22T05:00:00Z",
-      "description": "A CVSS score 8.8 AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H severity vulnerability discovered by 'Dre Cura (@dre_cura) of TrendAI Research' was reported to the affected vendor on: 2026-04-22, 0 days ago. The vendor is given until 2026-08-20 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
+      "description": "A CVSS score 8.8 AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H severity vulnerability discovered by 'Dre Cura (@dre_cura) of TrendAI Research' was reported to the affected vendor on: 2026-04-22, 1 days ago. The vendor is given until 2026-08-20 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
       "source": "zerodayinitiative.com"
     },
     {
       "title": "ZDI-CAN-30187: oFono",
       "link": "http://www.zerodayinitiative.com/advisories/upcoming/",
       "date": "2026-04-22T05:00:00Z",
-      "description": "A CVSS score 8.4 AV:L/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H severity vulnerability discovered by 'Anonymous' was reported to the affected vendor on: 2026-04-22, 0 days ago. The vendor is given until 2026-08-20 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
+      "description": "A CVSS score 8.4 AV:L/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H severity vulnerability discovered by 'Anonymous' was reported to the affected vendor on: 2026-04-22, 1 days ago. The vendor is given until 2026-08-20 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
       "source": "zerodayinitiative.com"
     },
     {
       "title": "ZDI-CAN-30144: oFono",
       "link": "http://www.zerodayinitiative.com/advisories/upcoming/",
       "date": "2026-04-22T05:00:00Z",
-      "description": "A CVSS score 8.4 AV:L/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H severity vulnerability discovered by 'Anonymous' was reported to the affected vendor on: 2026-04-22, 0 days ago. The vendor is given until 2026-08-20 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
+      "description": "A CVSS score 8.4 AV:L/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H severity vulnerability discovered by 'Anonymous' was reported to the affected vendor on: 2026-04-22, 1 days ago. The vendor is given until 2026-08-20 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
       "source": "zerodayinitiative.com"
     },
     {
       "title": "ZDI-CAN-30142: oFono",
       "link": "http://www.zerodayinitiative.com/advisories/upcoming/",
       "date": "2026-04-22T05:00:00Z",
-      "description": "A CVSS score 8.4 AV:L/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H severity vulnerability discovered by 'Anonymous' was reported to the affected vendor on: 2026-04-22, 0 days ago. The vendor is given until 2026-08-20 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
+      "description": "A CVSS score 8.4 AV:L/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H severity vulnerability discovered by 'Anonymous' was reported to the affected vendor on: 2026-04-22, 1 days ago. The vendor is given until 2026-08-20 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
       "source": "zerodayinitiative.com"
     },
     {
