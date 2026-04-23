@@ -1,7 +1,87 @@
 {
   "date": "2026-04-23",
-  "count": 5,
+  "count": 13,
   "items": [
+    {
+      "id": "0db13e1229fe632a0efa884fb1897a7a479a8cfd",
+      "title": "AI Can Autonomously Hack Cloud Systems With Minimal Oversight: Researchers",
+      "link": "https://www.securityweek.com/ai-can-autonomously-hack-cloud-systems-with-minimal-oversight-researchers/",
+      "date": "2026-04-23T10:09:40Z",
+      "description": "Palo Alto Networks has developed Zealot, a multi-agent penetration testing PoC capable of reconnaissance, exploitation, and exfiltration. The post AI Can Autonomously Hack Cloud Systems With Minimal Oversight: Researchers appeared first on SecurityWeek.",
+      "source": "securityweek.com",
+      "first_seen": "2026-04-23T10:13:36Z",
+      "last_seen": "2026-04-23T10:13:36Z"
+    },
+    {
+      "id": "8fb55aa814c98b06612fa33d471f34e6ef0e71c7",
+      "title": "Vercel Confirms Security Breach – Set of Customer Account Compromised",
+      "link": "https://cybersecuritynews.com/vercel-confirms-security-breach/",
+      "date": "2026-04-23T10:03:40Z",
+      "description": "Web infrastructure platform Vercel has disclosed a significant security incident involving unauthorized access to internal systems, tracing the attack chain back to a compromise of Context.ai, a third-party AI productivity tool used by one of its employees. Vercel first published its security bulletin on April 19, 2026, confirming that an attacker successfully gained a foothold […] The post…",
+      "source": "cybersecuritynews.com",
+      "first_seen": "2026-04-23T10:13:36Z",
+      "last_seen": "2026-04-23T10:13:36Z"
+    },
+    {
+      "id": "25420a9afbd1c8765cf0774fa01882a836b0ce8a",
+      "title": "New Tropic Trooper Attack Uses Custom Beacon Listener and VS Code Tunnels for Remote Access",
+      "link": "https://cybersecuritynews.com/new-tropic-trooper-attack-uses-custom-beacon-listener/",
+      "date": "2026-04-23T10:01:20Z",
+      "description": "A sophisticated cyberattack campaign linked to the well-known threat group Tropic Trooper has recently surfaced, leveraging military-themed document lures to target Chinese-speaking individuals in Taiwan, along with individuals in South Korea and Japan. The campaign was discovered on March 12, 2026, when researchers came across a malicious ZIP archive that set off a multi-stage attack […] The…",
+      "source": "cybersecuritynews.com",
+      "first_seen": "2026-04-23T10:13:36Z",
+      "last_seen": "2026-04-23T10:13:36Z"
+    },
+    {
+      "id": "c2b4a868e181357f718b1d983888020f7a728a3c",
+      "title": "'Zealot' Shows What AI's Capable of in Staged Cloud Attack",
+      "link": "https://www.darkreading.com/cyber-risk/zealot-shows-ai-execute-full-cloud-attacks",
+      "date": "2026-04-23T10:00:00Z",
+      "description": "The proof of concept revealed AI-based attacks unfold too fast for human defenders to respond, and that AI evinced more autonomous behavior than expected.",
+      "source": "darkreading.com",
+      "first_seen": "2026-04-23T10:13:36Z",
+      "last_seen": "2026-04-23T10:13:36Z"
+    },
+    {
+      "id": "c2143d59247544b1b06aac967b23f473b66a6ab7",
+      "title": "China-Linked GopherWhisper Infects 12 Mongolian Government Systems with Go Backdoors",
+      "link": "https://thehackernews.com/2026/04/china-linked-gopherwhisper-infects-12.html",
+      "date": "2026-04-23T09:04:00Z",
+      "description": "Mongolian governmental institutions have emerged as the target of a previously undocumented China-aligned advanced persistent threat (APT) group tracked as GopherWhisper. \"The group wields a wide array of tools mostly written in Go, using injectors and loaders to deploy and execute various backdoors in its arsenal,\" Slovakian cybersecurity company ESET said in a report shared with The Hacker",
+      "source": "thehackernews.com",
+      "first_seen": "2026-04-23T10:13:36Z",
+      "last_seen": "2026-04-23T10:13:36Z"
+    },
+    {
+      "id": "4fb0fa0d3d32d2924916b3373d45b8f927559a6a",
+      "title": "Apple Patches iOS Flaw Allowing Recovery of Deleted Chats",
+      "link": "https://www.securityweek.com/apple-patches-ios-flaw-allowing-recovery-of-deleted-chats/",
+      "date": "2026-04-23T08:50:19Z",
+      "description": "Apple rolled out the security patches for dozens of iPhone and iPad models and generations. The post Apple Patches iOS Flaw Allowing Recovery of Deleted Chats appeared first on SecurityWeek.",
+      "source": "securityweek.com",
+      "first_seen": "2026-04-23T10:13:36Z",
+      "last_seen": "2026-04-23T10:13:36Z"
+    },
+    {
+      "id": "07fbd34149714ed483c72decb7581bacbdc38330",
+      "title": "Vercel Finds More Compromised Accounts in Context.ai-Linked Breach",
+      "link": "https://thehackernews.com/2026/04/vercel-finds-more-compromised-accounts.html",
+      "date": "2026-04-23T08:40:00Z",
+      "description": "Vercel on Wednesday revealed that it has identified an additional set of customer accounts that were compromised as part of a security incident that enabled unauthorized access to its internal systems. The company said it made the discovery after expanding its investigation to include an extra set of compromise indicators, alongside a review of requests to the Vercel network and environment",
+      "source": "thehackernews.com",
+      "first_seen": "2026-04-23T10:13:36Z",
+      "last_seen": "2026-04-23T10:13:36Z"
+    },
+    {
+      "id": "591e58c40ed6435c9e0d5b518638f9dc363e78c1",
+      "title": "Apple Patches iOS Flaw That Stored Deleted Signal Notifications in FBI Forensic Case",
+      "link": "https://thehackernews.com/2026/04/apple-patches-ios-flaw-that-stored.html",
+      "date": "2026-04-23T08:06:00Z",
+      "description": "Apple has rolled out a software fix for iOS and iPadOS to address a Notification Services flaw that stored notifications marked for deletion on the device. The vulnerability, tracked as CVE-2026-28950 (CVSS score: N/A), has been described as a logging issue that has been addressed with improved data redaction. \"Notifications marked for deletion could be unexpectedly retained on the device,\"",
+      "source": "thehackernews.com",
+      "first_seen": "2026-04-23T10:13:36Z",
+      "last_seen": "2026-04-23T10:13:36Z"
+    },
     {
       "id": "f9f65be930c83a2fcebcc1479fce7d9778c3fb40",
       "title": "Recent Microsoft Defender Vulnerability Exploited as Zero-Day",
@@ -10,7 +90,7 @@
       "description": "The flaw allows attackers to access the SAM database, extract NTLM hashes, and gain System privileges. The post Recent Microsoft Defender Vulnerability Exploited as Zero-Day appeared first on SecurityWeek.",
       "source": "securityweek.com",
       "first_seen": "2026-04-23T08:28:17Z",
-      "last_seen": "2026-04-23T08:28:17Z"
+      "last_seen": "2026-04-23T10:13:36Z"
     },
     {
       "id": "fd847eaf92d51ebdbb972fcfc828d5ac109233b8",
@@ -20,7 +100,7 @@
       "description": "A high-severity privilege escalation vulnerability, dubbed Pack2TheRoot (CVE-2026-41651, CVSS 3.1: 8.8), has been publicly disclosed by Deutsche Telekom’s Red Team, affecting multiple major Linux distributions in their default installations. The flaw allows any local unprivileged user to silently install or remove system packages, ultimately achieving full root access without requiring a…",
       "source": "cybersecuritynews.com",
       "first_seen": "2026-04-23T06:55:00Z",
-      "last_seen": "2026-04-23T08:28:17Z"
+      "last_seen": "2026-04-23T10:13:36Z"
     },
     {
       "id": "76a35266cc49396673554ce48e34e2b53b96257b",
@@ -30,7 +110,7 @@
       "description": "Apple released iOS 26.4.2 and iPadOS 26.4.2 on April 22, 2026, to patch a critical notification privacy vulnerability that allowed law enforcement to extract Signal message content from iPhones — even after the app had been deleted. The flaw, tracked as CVE-2026-28950, stems from a logging issue in Apple’s notification services. Notifications marked for deletion […] The post Apple Fixes…",
       "source": "cybersecuritynews.com",
       "first_seen": "2026-04-23T06:55:00Z",
-      "last_seen": "2026-04-23T08:28:17Z"
+      "last_seen": "2026-04-23T10:13:36Z"
     },
     {
       "id": "4a4b9f637dbeaa7afc741f7add909efd01dbeac9",
@@ -40,7 +120,7 @@
       "description": "A significant supply chain attack targeting the official checkmarx/kics Docker Hub repository, where threat actors pushed trojanized images capable of harvesting and exfiltrating sensitive developer credentials and infrastructure secrets. Docker’s internal monitoring flagged suspicious activity around KICS image tags on April 22, 2026, and promptly alerted Socket researchers. The investigation…",
       "source": "cybersecuritynews.com",
       "first_seen": "2026-04-23T01:29:36Z",
-      "last_seen": "2026-04-23T08:28:17Z"
+      "last_seen": "2026-04-23T10:13:36Z"
     },
     {
       "id": "1cc62112171b224790d5fea6c5620bcad838a1fd",
@@ -50,7 +130,7 @@
       "description": "Apple has released out-of-band security updates for iPhone and iPad devices to fix a Notification Services flaw that could allow notifications marked for deletion to remain stored on the device. [...]",
       "source": "bleepingcomputer.com",
       "first_seen": "2026-04-23T06:55:00Z",
-      "last_seen": "2026-04-23T08:28:17Z"
+      "last_seen": "2026-04-23T10:13:36Z"
     }
   ]
 }
