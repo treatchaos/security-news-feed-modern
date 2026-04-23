@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-04-23T15:11:56Z",
+  "last_updated": "2026-04-23T17:08:42Z",
   "count": 40,
   "items": [
     {
@@ -8,6 +8,20 @@
       "date": "2026-04-24T01:00:00Z",
       "description": "The threat actor gave itself plenty of options to support command and control, tapping Microsoft Outlook, Slack, Discord, and file.io for online espionage.",
       "source": "darkreading.com"
+    },
+    {
+      "title": "Bitwarden CLI Compromised in Supply Chain Attack via GitHub Actions",
+      "link": "https://cybersecuritynews.com/bitwarden-cli-compromised/",
+      "date": "2026-04-23T16:24:31Z",
+      "description": "Socket has confirmed that Bitwarden CLI version 2026.4.0 was compromised as part of the ongoing Checkmarx supply chain campaign, exposing millions of users and thousands of enterprises to credential theft and CI/CD pipeline infiltration. The attack targeted @bitwarden/cli 2026.4.0 on npm, injecting a malicious file named bw1.js into the package contents. Bitwarden CLI is used […] The post…",
+      "source": "cybersecuritynews.com"
+    },
+    {
+      "title": "New Checkmarx supply-chain breach affects KICS analysis tool",
+      "link": "https://www.bleepingcomputer.com/news/security/new-checkmarx-supply-chain-breach-affects-kics-analysis-tool/",
+      "date": "2026-04-23T16:05:12Z",
+      "description": "Hackers have compromised Docker images, VSCode and Open VSX extensions for the Checkmarx KICS analysis tool to harvest sensitive data from developer environments. [...]",
+      "source": "bleepingcomputer.com"
     },
     {
       "title": "Cloudsmith Raises $72 Million in Series C Funding",
@@ -41,7 +55,7 @@
       "title": "Bitwarden CLI Compromised in Ongoing Checkmarx Supply Chain Campaign",
       "link": "https://thehackernews.com/2026/04/bitwarden-cli-compromised-in-ongoing.html",
       "date": "2026-04-23T13:42:00Z",
-      "description": "Bitwarden CLI has been compromised as part of the newly discovered and ongoing Checkmarx supply chain campaign, according to new findings from Socket. \"The affected package version appears to be @bitwarden/cli@2026.4.0, and the malicious code was published in 'bw1.js,' a file included in the package contents,\" the application security company said. \"The attack appears to have leveraged a",
+      "description": "Bitwarden CLI has been compromised as part of the newly discovered and ongoing Checkmarx supply chain campaign, according to new findings from JFrog and Socket. \"The affected package version appears to be @bitwarden/cli@2026.4.0, and the malicious code was published in 'bw1.js,' a file included in the package contents,\" the application security company said. \"The attack appears to have leveraged",
       "source": "thehackernews.com"
     },
     {
@@ -84,13 +98,6 @@
       "link": "https://www.bleepingcomputer.com/news/security/uk-warns-of-chinese-hackers-using-botnets-of-hijacked-consumer-devices-to-evade-detection/",
       "date": "2026-04-23T12:28:39Z",
       "description": "The United Kingdom's National Cyber Security Centre (NCSC-UK) and international partners warned that China-nexus hackers are increasingly using large-scale proxy networks of hijacked consumer devices to evade detection and disguise their malicious activity. [...]",
-      "source": "bleepingcomputer.com"
-    },
-    {
-      "title": "New GopherWhisper APT group abuses Outlook, Slack, Discord for comms",
-      "link": "https://www.bleepingcomputer.com/news/security/new-gopherwhisper-apt-group-abuses-outlook-slack-discord-for-comms/",
-      "date": "2026-04-23T12:06:18Z",
-      "description": "A previously undocumented state-backed threat actor named GopherWhisper is using a Go-based custom toolkit and legitimate services like Microsoft 365 Outlook, Slack, and Discord in attacks against government entities. [...]",
       "source": "bleepingcomputer.com"
     },
     {
@@ -140,13 +147,6 @@
       "link": "https://cybersecuritynews.com/microsoft-teams-efficiency-mode/",
       "date": "2026-04-23T10:24:18Z",
       "description": "Microsoft is set to introduce Efficiency Mode in Microsoft Teams, a performance-enhancing feature designed to improve app responsiveness and meeting quality on hardware-constrained devices. The rollout begins in early May 2026 and is expected to be completed by mid-May 2026, with the feature linked to Microsoft 365 Roadmap ID 560055. Efficiency Mode is a performance-optimized […] The post…",
-      "source": "cybersecuritynews.com"
-    },
-    {
-      "title": "Vercel Confirms Security Breach – Set of Customer Account Compromised",
-      "link": "https://cybersecuritynews.com/vercel-confirms-security-breach/",
-      "date": "2026-04-23T10:03:40Z",
-      "description": "Web infrastructure platform Vercel has disclosed a significant security incident involving unauthorized access to internal systems, tracing the attack chain back to a compromise of Context.ai, a third-party AI productivity tool used by one of its employees. Vercel first published its security bulletin on April 19, 2026, confirming that an attacker successfully gained a foothold […] The post…",
       "source": "cybersecuritynews.com"
     },
     {
