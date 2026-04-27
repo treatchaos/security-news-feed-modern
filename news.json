@@ -1,7 +1,42 @@
 {
-  "last_updated": "2026-04-27T14:56:21Z",
-  "count": 35,
+  "last_updated": "2026-04-27T16:20:34Z",
+  "count": 40,
   "items": [
+    {
+      "title": "Notepad++ Vulnerability Allows Attackers to Crash Application, Leak Memory Data",
+      "link": "https://cybersecuritynews.com/notepad-vulnerability-crash/",
+      "date": "2026-04-27T16:06:56Z",
+      "description": "A security vulnerability has been identified in Notepad++, one of the most widely used open-source text editors among developers and IT professionals. The vulnerability CVE-2026-3008, which could allow a remote attacker to crash the application or extract sensitive memory address information from affected systems. The vulnerability is a string injection flaw located within the FindInFiles […]…",
+      "source": "cybersecuritynews.com"
+    },
+    {
+      "title": "ClickUp’s Hardcoded API Key Exposes 959 Emails from Fortune 500 Giants",
+      "link": "https://cybersecuritynews.com/clickup-hardcoded-api-key-expose/",
+      "date": "2026-04-27T15:34:31Z",
+      "description": "A publicly accessible JavaScript file on ClickUp’s homepage has been silently leaking nearly a thousand corporate and government email addresses, including employees from Fortinet, Home Depot, Tenable, Mayo Clinic, and U.S. state government workers, through a hardcoded third-party API key that was first reported in January 2025 and remains unrotated as of April 2026. The […] The post ClickUp’s…",
+      "source": "cybersecuritynews.com"
+    },
+    {
+      "title": "Unpatched 'PhantomRPC' Flaw in Windows Enables Privilege Escalation",
+      "link": "https://www.darkreading.com/vulnerabilities-threats/unpatched-phantomrpc-flaw-windows-privilege-escalation",
+      "date": "2026-04-27T15:31:41Z",
+      "description": "A researcher discovered five different exploit paths that stem from an architectural weakness in how Windows' Remote Procedure Call (RPC) mechanism handles connections to unavailable services.",
+      "source": "darkreading.com"
+    },
+    {
+      "title": "PyPI package with 1.1M monthly downloads hacked to push infostealer",
+      "link": "https://www.bleepingcomputer.com/news/security/pypi-package-with-11m-monthly-downloads-hacked-to-push-infostealer/",
+      "date": "2026-04-27T15:17:37Z",
+      "description": "An attacker pushed a malicious version of the popular elementary-data package Python Package Index (PyPI) to steal sensitive developer data and cryptocurrency wallets. [...]",
+      "source": "bleepingcomputer.com"
+    },
+    {
+      "title": "Critical Gemini CLI Vulnerability Enables Remote Code Execution Attacks",
+      "link": "https://cybersecuritynews.com/gemini-cli-rce-vulnerability/",
+      "date": "2026-04-27T15:13:39Z",
+      "description": "Google has fixed a critical security flaw in the Gemini CLI that could allow attackers to execute remote code in certain automated workflows. The issue affects the npm package @google/gemini-cli and the google-github-actions/run-gemini-cli GitHub Action, especially when they are used in headless environments such as CI/CD pipelines. According to the security advisory, the vulnerability comes…",
+      "source": "cybersecuritynews.com"
+    },
     {
       "title": "Home security giant ADT data breach affects 5.5 million people",
       "link": "https://www.bleepingcomputer.com/news/security/home-security-giant-adt-data-breach-affects-55-million-people/",
@@ -17,6 +52,13 @@
       "source": "bleepingcomputer.com"
     },
     {
+      "title": "Checkmarx Confirms GitHub Repository Data Posted on Dark Web After March 23 Attack",
+      "link": "https://thehackernews.com/2026/04/checkmarx-confirms-github-repository.html",
+      "date": "2026-04-27T14:19:00Z",
+      "description": "Checkmarx has disclosed that its ongoing investigation tied to the supply chain security incident has revealed that a cybercriminal group published data related to the company on the dark web. \"Based on current evidence, we believe this data originated from Checkmarx's GitHub repository, and that access to that repository was facilitated through the initial supply chain attack of March 23, 2026,",
+      "source": "thehackernews.com"
+    },
+    {
       "title": "Medtronic confirms breach after hackers claim 9 million records theft",
       "link": "https://www.bleepingcomputer.com/news/security/medtronic-confirms-breach-after-hackers-claim-9-million-records-theft/",
       "date": "2026-04-27T13:50:42Z",
@@ -24,11 +66,25 @@
       "source": "bleepingcomputer.com"
     },
     {
+      "title": "⚡ Weekly Recap: Fast16 Malware, XChat Launch, Federal Backdoor, AI Employee Tracking & More",
+      "link": "https://thehackernews.com/2026/04/weekly-recap-fast16-malware-xchat.html",
+      "date": "2026-04-27T13:30:00Z",
+      "description": "Everything is dumb again. This week feels broken in a very familiar way. Old tricks are back. New tools are doing shady crap. Supply chains got hit. Fake help desks worked. Weird research showed how easy some attacks still are. Most of it feels like stuff we should have fixed years ago. Bad extensions. Stolen creds. Remote tools are getting abused. Malware hides in places people trust. Same",
+      "source": "thehackernews.com"
+    },
+    {
       "title": "New Vidar Malware Campaign Uses Fake YouTube Software Downloads to Steal Corporate Credentials",
       "link": "https://cybersecuritynews.com/new-vidar-malware-uses-fake-youtube-software-downloads/",
       "date": "2026-04-27T13:25:21Z",
       "description": "A credential-stealing malware named Vidar has quietly emerged as one of the most active threats targeting corporate employees in early 2026. Threat actors are using fake software downloads promoted through YouTube videos to trick workers into installing it on their machines, resulting in widespread theft of login credentials, browser data, and cryptocurrency wallet information. The […] The post…",
       "source": "cybersecuritynews.com"
+    },
+    {
+      "title": "20-Year-Old Malware Rewrites History of Cyber Sabotage",
+      "link": "https://www.darkreading.com/cyber-risk/20-year-old-malware-rewrites-history-of-cyber-sabotage",
+      "date": "2026-04-27T13:09:54Z",
+      "description": "Researchers have uncovered a malware framework dubbed \"fast16\" that predates Stuxnet by five years.",
+      "source": "darkreading.com"
     },
     {
       "title": "Incomplete Windows Patch Opens Door to Zero-Click Attacks",
@@ -52,18 +108,11 @@
       "source": "bleepingcomputer.com"
     },
     {
-      "title": "Deepfake Voice Attacks are Outpacing Defenses: What Security Leaders Should Know",
-      "link": "https://www.bleepingcomputer.com/news/security/deepfake-voice-attacks-are-outpacing-defenses-what-security-leaders-should-know/",
-      "date": "2026-04-27T13:00:09Z",
-      "description": "Three seconds of audio is all it takes to clone a voice for fraud. Adaptive Security shows how deepfake calls trick employees into sending real money—and why most defenses don't catch them. [...]",
-      "source": "bleepingcomputer.com"
-    },
-    {
-      "title": "Hackers Using Fake Income Tax Department’s Notice to Deploy Malware",
-      "link": "https://cybersecuritynews.com/hackers-using-fake-income-tax-departments-notice/",
-      "date": "2026-04-27T12:37:20Z",
-      "description": "A new phishing campaign is actively targeting Indian taxpayers and businesses by impersonating the Income Tax Department of India. Threat actors have built convincing fake websites that look nearly identical to official government portals, using urgent language to pressure victims into downloading malware-laced files without hesitation. The attack relies on a fraudulent website displaying the…",
-      "source": "cybersecuritynews.com"
+      "title": "Parsing Agentic Offensive Security's Existential Threat",
+      "link": "https://www.darkreading.com/cyber-risk/industrialized-exploitation-agentic-offensive-security-existential-threat",
+      "date": "2026-04-27T13:00:00Z",
+      "description": "Some fear frontier LLMs like Claude Mythos and Anthropic's GPT-5.5 will lead to cybersecurity annihilation. Ari Herbert-Voss notes this could be an opportunity.",
+      "source": "darkreading.com"
     },
     {
       "title": "OpenSSH Flaw Allowing Full Root Shell Access Lurked for 15 Years",
@@ -71,20 +120,6 @@
       "date": "2026-04-27T12:29:18Z",
       "description": "A code reuse issue enabled comma characters in certificate principals to be interpreted as list separators. The post OpenSSH Flaw Allowing Full Root Shell Access Lurked for 15 Years appeared first on SecurityWeek.",
       "source": "securityweek.com"
-    },
-    {
-      "title": "Researchers Warn macOS textutil and KeePassXC Can Become Attack Primitives in Automation",
-      "link": "https://cybersecuritynews.com/researchers-warn-macos-textutil-and-keepassxc/",
-      "date": "2026-04-27T12:15:50Z",
-      "description": "Security researchers have raised a warning about two widely trusted tools, macOS textutil and KeePassXC, showing that both can become dangerous when placed inside automated pipelines that process attacker-controlled input. The findings do not point to traditional software flaws. Instead, they reveal how correct, well-designed features can turn into security risks the moment they cross […] The…",
-      "source": "cybersecuritynews.com"
-    },
-    {
-      "title": "EU Proposes Requiring Google to Share User Search Data with Rival Search Engines",
-      "link": "https://cybersecuritynews.com/eu-proposes-google-search-data/",
-      "date": "2026-04-27T12:08:32Z",
-      "description": "The European Commission has formally proposed measures requiring Google to share anonymized user search data with rival search engines and AI chatbots, marking a landmark enforcement step under the Digital Markets Act (DMA) aimed at dismantling the search giant’s competitive stranglehold across Europe. Announced on April 15, 2026, the Commission’s preliminary findings outline six specific […]…",
-      "source": "cybersecuritynews.com"
     },
     {
       "title": "Malicious AI Prompt Injection Attacks Increasing, but Sophistication Still Low: Google",
@@ -129,18 +164,18 @@
       "source": "securityweek.com"
     },
     {
-      "title": "Fake CAPTCHA IRSF Scam and 120 Keitaro Campaigns Drive Global SMS, Crypto Fraud",
-      "link": "https://thehackernews.com/2026/04/fake-captcha-irsf-scam-and-120-keitaro.html",
-      "date": "2026-04-27T06:33:00Z",
-      "description": "Cybersecurity researchers have disclosed details of a telecommunications fraud campaign that uses fake CAPTCHA verification tricks to dupe unsuspecting users into sending international text messages that incur charges on their mobile bills, generating illicit revenue for the threat actors who lease the phone numbers. According to a new report published by Infoblox, the operation is believed to",
-      "source": "thehackernews.com"
+      "title": "Helping Romance Scam Victims Requires a Proactive, Empathic Approach",
+      "link": "https://www.darkreading.com/cybersecurity-operations/building-teams-to-help-cyber-scam-victims",
+      "date": "2026-04-24T22:34:13Z",
+      "description": "People targeted by confidence schemes find getting help is a lonely road. Experts want law enforcement, financial, and government institutions to work together and protect them.",
+      "source": "darkreading.com"
     },
     {
-      "title": "Researchers Uncover Pre-Stuxnet ‘fast16’ Malware Targeting Engineering Software",
-      "link": "https://thehackernews.com/2026/04/researchers-uncover-pre-stuxnet-fast16.html",
-      "date": "2026-04-25T09:26:00Z",
-      "description": "Cybersecurity researchers have discovered a new Lua-based malware created years before the notorious Stuxnet worm that aimed to sabotage Iran's nuclear program by destroying uranium enrichment centrifuges. According to a new report published by SentinelOne, the previously undocumented cyber sabotage framework dates back to 2005, primarily targeting high-precision calculation software to tamper",
-      "source": "thehackernews.com"
+      "title": "US Busts Myanmar Ring Targeting US Citizens in Financial Fraud",
+      "link": "https://www.darkreading.com/cyber-risk/us-busts-myanmar-ring-targeting-us-citizens-financial-fraud",
+      "date": "2026-04-24T16:48:04Z",
+      "description": "Some 29 people were charged, including a Cambodian senator, and authorities seized more than 500 Web domains tied to fake investment sites.",
+      "source": "darkreading.com"
     },
     {
       "title": "ZDI-CAN-29143: Apple",
