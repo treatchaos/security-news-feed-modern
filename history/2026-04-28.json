@@ -1,7 +1,87 @@
 {
   "date": "2026-04-28",
-  "count": 1,
+  "count": 9,
   "items": [
+    {
+      "id": "c239c2698eecfc42e43ae43a2bdffb2442df0175",
+      "title": "Windows Remote Desktop Leaves Behind Image Fragments Attackers Can Stitch Into Screenshots",
+      "link": "https://cybersecuritynews.com/windows-remote-desktop-image-fragments/",
+      "date": "2026-04-28T07:54:06Z",
+      "description": "Whenever someone uses Windows Remote Desktop, the operating system quietly saves visual fragments of the active session. As recently highlighted by SCYTHE Labs, attackers can easily extract these breadcrumbs and rebuild them into readable screenshots. This process requires no special privileges, takes just a few minutes, and relies entirely on free tools. If your team […] The post Windows Remote…",
+      "source": "cybersecuritynews.com",
+      "first_seen": "2026-04-28T08:04:48Z",
+      "last_seen": "2026-04-28T08:04:48Z"
+    },
+    {
+      "id": "4b34446c86f5e8a94900b410b4416009ad70563f",
+      "title": "Multiple OpenClaw Vulnerabilities Enables Policy Bypass and Host Override",
+      "link": "https://cybersecuritynews.com/openclaw-vulnerabilities/",
+      "date": "2026-04-28T07:48:32Z",
+      "description": "Cybersecurity researchers have recently disclosed three moderate-severity vulnerabilities in OpenClaw, an AI agent framework previously known as Clawdbot and Moltbot. Distributed as an npm package, these security flaws allow bypasses of policy enforcement, gateway configuration mutations, and host override attacks that could lead to credential exposure. The development team has released OpenClaw…",
+      "source": "cybersecuritynews.com",
+      "first_seen": "2026-04-28T08:04:48Z",
+      "last_seen": "2026-04-28T08:04:48Z"
+    },
+    {
+      "id": "e3c11ef19c305acec4d458e366943126508eaef7",
+      "title": "Linux ELF Malware Generator Evades ML Detection With Semantic-Preserving Changes",
+      "link": "https://cybersecuritynews.com/linux-elf-malware-generator/",
+      "date": "2026-04-28T07:46:24Z",
+      "description": "Researchers from the Czech Technical University in Prague have developed a new adversarial malware generator targeting Linux ELF binaries. It achieves a 67.74% evasion rate against ML-based malware detectors while keeping the payload fully functional. Published on arXiv on April 24, 2026, the study by Lukáš Hrdonka and Martin Jurecek exposes a critical blind spot […] The post Linux ELF Malware…",
+      "source": "cybersecuritynews.com",
+      "first_seen": "2026-04-28T08:04:48Z",
+      "last_seen": "2026-04-28T08:04:48Z"
+    },
+    {
+      "id": "c96f0f17f78b916fb8f8aab771a2d0ad17c2224d",
+      "title": "OilRig Hides C2 Configuration in Google Drive Image Using LSB Steganography",
+      "link": "https://cybersecuritynews.com/oilrig-hides-c2-configuration/",
+      "date": "2026-04-28T07:13:39Z",
+      "description": "A well-known Iranian state-sponsored hacking group called OilRig, also tracked as APT34 and Helix Kitten, has been found hiding its command-and-control (C2) server configuration inside a regular-looking image file stored on Google Drive. The threat group used a technique called LSB (Least Significant Bit) steganography to quietly embed encrypted data into a PNG image, making […] The post OilRig…",
+      "source": "cybersecuritynews.com",
+      "first_seen": "2026-04-28T08:04:48Z",
+      "last_seen": "2026-04-28T08:04:48Z"
+    },
+    {
+      "id": "8780627ee78c5087cad87cd904383c106407d065",
+      "title": "New Android Banking Malware Abuses Fake KYC Workflow and WhatsApp Delivery to Hijack Accounts",
+      "link": "https://cybersecuritynews.com/new-android-banking-malware-abuses-fake-kyc/",
+      "date": "2026-04-28T06:46:58Z",
+      "description": "A new Android banking malware, tracked as KYCShadow, was discovered targeting bank customers across India through a carefully designed fake Know Your Customer (KYC) verification workflow. Distributed via WhatsApp, it tricks victims into installing what appears to be an official banking compliance application, only to begin silently harvesting sensitive financial credentials in the background.…",
+      "source": "cybersecuritynews.com",
+      "first_seen": "2026-04-28T08:04:48Z",
+      "last_seen": "2026-04-28T08:04:48Z"
+    },
+    {
+      "id": "d967636283004e3addbe331068e8e8e2b4479d8e",
+      "title": "Microsoft Patches Entra ID Role Flaw That Enabled Service Principal Takeover",
+      "link": "https://thehackernews.com/2026/04/microsoft-patches-entra-id-role-flaw.html",
+      "date": "2026-04-28T06:37:00Z",
+      "description": "An administrative role meant for artificial intelligence (AI) agents within Microsoft Entra ID could enable privilege escalation and identity takeover attacks, according to new findings from Silverfort. Agent ID Administrator is a privileged built-in role introduced by Microsoft as part of its agent identity platform to handle all aspects of an AI agent's identity lifecycle operations in a",
+      "source": "thehackernews.com",
+      "first_seen": "2026-04-28T08:04:48Z",
+      "last_seen": "2026-04-28T08:04:48Z"
+    },
+    {
+      "id": "e23a7ef9d5ca435e4cb5c4bb842f0f742be9a0a3",
+      "title": "Medtronic Hack Confirmed After ShinyHunters Threatens Data Leak",
+      "link": "https://www.securityweek.com/medtronic-hack-confirmed-after-shinyhunters-threatens-data-leak/",
+      "date": "2026-04-28T06:35:19Z",
+      "description": "The ShinyHunters cybercrime group claimed to have stolen 9 million records containing personal information from Medtronic. The post Medtronic Hack Confirmed After ShinyHunters Threatens Data Leak appeared first on SecurityWeek.",
+      "source": "securityweek.com",
+      "first_seen": "2026-04-28T08:04:48Z",
+      "last_seen": "2026-04-28T08:04:48Z"
+    },
+    {
+      "id": "9f700e207c1f0e7c0a3cf5c691a84f90150f50d7",
+      "title": "Microsoft Confirms Active Exploitation of Windows Shell CVE-2026-32202",
+      "link": "https://thehackernews.com/2026/04/microsoft-confirms-active-exploitation.html",
+      "date": "2026-04-28T05:50:00Z",
+      "description": "Microsoft on Monday revised its advisory for a now-patched, high-severity security flaw impacting Windows Shell to acknowledge that it has been actively exploited in the wild. The vulnerability in question is CVE-2026-32202 (CVSS score: 4.3), a spoofing vulnerability that could allow an attacker to access sensitive information. It was addressed as part of its Patch Tuesday update for this",
+      "source": "thehackernews.com",
+      "first_seen": "2026-04-28T08:04:48Z",
+      "last_seen": "2026-04-28T08:04:48Z"
+    },
     {
       "id": "aaad0384afc213ecca78b1f7d1cce3a0228bc620",
       "title": "AI Coding Agent Powered by Claude Opus 4.6 Deletes Production Database in 9 Seconds",
