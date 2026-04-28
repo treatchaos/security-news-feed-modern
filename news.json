@@ -1,7 +1,21 @@
 {
-  "last_updated": "2026-04-28T19:18:03Z",
-  "count": 35,
+  "last_updated": "2026-04-28T20:58:14Z",
+  "count": 40,
   "items": [
+    {
+      "title": "Feuding Ransomware Groups Leak Each Other's Data",
+      "link": "https://www.darkreading.com/threat-intelligence/feuding-ransomware-groups-leak-data",
+      "date": "2026-04-28T20:13:30Z",
+      "description": "When 0APT and KryBit attacked each other, they exposed infrastructure and operational data, giving defenders rare insight into ransomware operations.",
+      "source": "darkreading.com"
+    },
+    {
+      "title": "Vidar Rises to Top of Chaotic Infostealer Market",
+      "link": "https://www.darkreading.com/vulnerabilities-threats/vidar-top-chaotic-infostealer-market",
+      "date": "2026-04-28T19:07:16Z",
+      "description": "The malware has filled the gap created by last year's law enforcement takedowns of Lumma and Rhadamanthys.",
+      "source": "darkreading.com"
+    },
     {
       "title": "Video service Vimeo confirms Anodot breach exposed user data",
       "link": "https://www.bleepingcomputer.com/news/security/video-service-vimeo-confirms-anodot-breach-exposed-user-data/",
@@ -24,6 +38,13 @@
       "source": "thehackernews.com"
     },
     {
+      "title": "New BlobPhish Attack Leverages Browser Blob Objects to Steal Users’ Login Credentials",
+      "link": "https://cybersecuritynews.com/blobphish-phishing-attack/",
+      "date": "2026-04-28T17:40:18Z",
+      "description": "A sophisticated, memory-resident phishing campaign called BlobPhish, active since October 2024, that exploits browser Blob URL APIs to silently steal credentials from Microsoft 365 users, major U.S. banks, and financial platforms while remaining almost completely invisible to traditional security tools. BlobPhish is a sustained credential-phishing operation that fundamentally changes how…",
+      "source": "cybersecuritynews.com"
+    },
+    {
       "title": "Brazilian LofyGang Resurfaces After Three Years With Minecraft LofyStealer Campaign",
       "link": "https://thehackernews.com/2026/04/brazilian-lofygang-resurfaces-after.html",
       "date": "2026-04-28T17:39:00Z",
@@ -31,11 +52,32 @@
       "source": "thehackernews.com"
     },
     {
+      "title": "Critical GitHub.com and Enterprise Server RCE Vulnerability Enables Full Server Compromise",
+      "link": "https://cybersecuritynews.com/github-com-and-enterprise-server-rce/",
+      "date": "2026-04-28T17:30:24Z",
+      "description": "A critical remote code execution (RCE) vulnerability tracked as CVE-2026-3854 in GitHub’s internal git infrastructure that could have allowed any authenticated user to compromise backend servers, access millions of private repositories, and, in the case of GitHub Enterprise Server (GHES), achieve full server takeover. Discovered by Wiz researchers through AI-augmented reverse engineering of…",
+      "source": "cybersecuritynews.com"
+    },
+    {
       "title": "Vimeo Confirms User and Customer Data Breach",
       "link": "https://www.securityweek.com/vimeo-confirms-user-and-customer-data-breach/",
       "date": "2026-04-28T17:11:55Z",
       "description": "The ShinyHunters group is threatening to leak stolen files unless Vimeo agrees to pay a ransom. The post Vimeo Confirms User and Customer Data Breach appeared first on SecurityWeek.",
       "source": "securityweek.com"
+    },
+    {
+      "title": "Microsoft Confirms Remote Desktop Warnings May Display Incorrectly After April Update",
+      "link": "https://cybersecuritynews.com/remote-desktop-warnings-display-incorrectly/",
+      "date": "2026-04-28T16:29:44Z",
+      "description": "Microsoft has officially acknowledged a known issue in its April 2026 Windows 11 cumulative update: Remote Desktop Protocol (RDP) security warning dialogs may render incorrectly on certain system configurations, a significant usability concern given that the warnings are designed to protect users from active phishing threats. The bug was introduced alongside the April 14, 2026, […] The post…",
+      "source": "cybersecuritynews.com"
+    },
+    {
+      "title": "Checkmarx Confirms GitHub Repository Data Published on Dark Web",
+      "link": "https://cybersecuritynews.com/checkmarx-data-published-on-dark-web/",
+      "date": "2026-04-28T16:00:02Z",
+      "description": "Application security testing firm Checkmarx has confirmed a significant escalation in its ongoing security incident. Cybercriminals have officially published company data on the dark web. This new development directly ties back to a supply chain attack that initially compromised the company’s systems on March 23, 2026. Working alongside a leading third-party forensic firm, Checkmarx traced […]…",
+      "source": "cybersecuritynews.com"
     },
     {
       "title": "The Mythos Moment: Enterprises Must Fight Agents with Agents",
@@ -57,6 +99,13 @@
       "date": "2026-04-28T15:29:45Z",
       "description": "Join the webinar to explore a practical, multi-layered roadmap to transition from fragmented AI usage to a governed, scalable ecosystem. The post Webinar Today: A Step-by-Step Approach to AI Governance appeared first on SecurityWeek.",
       "source": "securityweek.com"
+    },
+    {
+      "title": "Critical LiteLLM SQL Injection Vulnerability Exploited in the Wild",
+      "link": "https://cybersecuritynews.com/litellm-sql-injection-vulnerability-exploited/",
+      "date": "2026-04-28T15:22:20Z",
+      "description": "A critical pre-authentication SQL injection vulnerability in LiteLLM, a widely used open-source AI gateway with over 22,000 GitHub stars, is actively being exploited in the wild. Tracked as CVE-2026-42208, this severe flaw allows unauthorized attackers to extract highly sensitive cloud and AI provider credentials directly from the platform’s PostgreSQL database. LiteLLM acts as a central […] The…",
+      "source": "cybersecuritynews.com"
     },
     {
       "title": "Fresh Wave of GlassWorm VS Code Extensions Slices Through Supply Chain",
@@ -126,20 +175,6 @@
       "link": "https://www.darkreading.com/vulnerabilities-threats/unpatched-phantomrpc-flaw-windows-privilege-escalation",
       "date": "2026-04-27T15:31:41Z",
       "description": "A researcher discovered five different exploit paths that stem from an architectural weakness in how Windows' Remote Procedure Call (RPC) mechanism handles connections to unavailable services.",
-      "source": "darkreading.com"
-    },
-    {
-      "title": "20-Year-Old Malware Rewrites History of Cyber Sabotage",
-      "link": "https://www.darkreading.com/cyber-risk/20-year-old-malware-rewrites-history-of-cyber-sabotage",
-      "date": "2026-04-27T13:09:54Z",
-      "description": "Researchers have uncovered a malware framework dubbed \"fast16\" that predates Stuxnet by five years.",
-      "source": "darkreading.com"
-    },
-    {
-      "title": "Parsing Agentic Offensive Security's Existential Threat",
-      "link": "https://www.darkreading.com/cyber-risk/industrialized-exploitation-agentic-offensive-security-existential-threat",
-      "date": "2026-04-27T13:00:00Z",
-      "description": "Some fear frontier LLMs like Claude Mythos and OpenAI's GPT-5.5 will lead to cybersecurity annihilation. Ari Herbert-Voss notes this could be an opportunity.",
       "source": "darkreading.com"
     },
     {
