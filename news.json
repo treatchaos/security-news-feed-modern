@@ -1,7 +1,14 @@
 {
-  "last_updated": "2026-04-28T21:54:22Z",
-  "count": 40,
+  "last_updated": "2026-04-29T05:20:46Z",
+  "count": 35,
   "items": [
+    {
+      "title": "Full Exploit Disclosed: Public PoC and Technical Details Released for Critical ProFTPD SQL Injection",
+      "link": "https://securityonline.info/proftpd-mod-sql-injection-cve-2026-poc-disclosure/",
+      "date": "2026-04-29T04:03:29Z",
+      "description": "The post Full Exploit Disclosed: Public PoC and Technical Details Released for Critical ProFTPD SQL Injection appeared first on Daily CyberSecurity. Related posts: Mitel Patches Critical SQL Injection and Privilege Escalation in MiCollab Microsoft May 2025 Patch Tuesday Fixes 83 Vulnerabilities, Including 5 Exploited in the Wild CVSS 10.0 Flaws in Siemens OZW Web Servers Enable Unauthenticated…",
+      "source": "securityonline.info"
+    },
     {
       "title": "BlueNoroff Uses Fake Zoom Calls to Turn Victims Into Attack Lures",
       "link": "https://www.darkreading.com/cyberattacks-data-breaches/bluenoroff-turns-victims-into-new-attack-lures",
@@ -66,13 +73,6 @@
       "source": "thehackernews.com"
     },
     {
-      "title": "New BlobPhish Attack Leverages Browser Blob Objects to Steal Users’ Login Credentials",
-      "link": "https://cybersecuritynews.com/blobphish-phishing-attack/",
-      "date": "2026-04-28T17:40:18Z",
-      "description": "A sophisticated, memory-resident phishing campaign called BlobPhish, active since October 2024, that exploits browser Blob URL APIs to silently steal credentials from Microsoft 365 users, major U.S. banks, and financial platforms while remaining almost completely invisible to traditional security tools. BlobPhish is a sustained credential-phishing operation that fundamentally changes how…",
-      "source": "cybersecuritynews.com"
-    },
-    {
       "title": "Brazilian LofyGang Resurfaces After Three Years With Minecraft LofyStealer Campaign",
       "link": "https://thehackernews.com/2026/04/brazilian-lofygang-resurfaces-after.html",
       "date": "2026-04-28T17:39:00Z",
@@ -80,32 +80,11 @@
       "source": "thehackernews.com"
     },
     {
-      "title": "Critical GitHub.com and Enterprise Server RCE Vulnerability Enables Full Server Compromise",
-      "link": "https://cybersecuritynews.com/github-com-and-enterprise-server-rce/",
-      "date": "2026-04-28T17:30:24Z",
-      "description": "A critical remote code execution (RCE) vulnerability tracked as CVE-2026-3854 in GitHub’s internal git infrastructure that could have allowed any authenticated user to compromise backend servers, access millions of private repositories, and, in the case of GitHub Enterprise Server (GHES), achieve full server takeover. Discovered by Wiz researchers through AI-augmented reverse engineering of…",
-      "source": "cybersecuritynews.com"
-    },
-    {
       "title": "Vimeo Confirms User and Customer Data Breach",
       "link": "https://www.securityweek.com/vimeo-confirms-user-and-customer-data-breach/",
       "date": "2026-04-28T17:11:55Z",
       "description": "The ShinyHunters group is threatening to leak stolen files unless Vimeo agrees to pay a ransom. The post Vimeo Confirms User and Customer Data Breach appeared first on SecurityWeek.",
       "source": "securityweek.com"
-    },
-    {
-      "title": "Microsoft Confirms Remote Desktop Warnings May Display Incorrectly After April Update",
-      "link": "https://cybersecuritynews.com/remote-desktop-warnings-display-incorrectly/",
-      "date": "2026-04-28T16:29:44Z",
-      "description": "Microsoft has officially acknowledged a known issue in its April 2026 Windows 11 cumulative update: Remote Desktop Protocol (RDP) security warning dialogs may render incorrectly on certain system configurations, a significant usability concern given that the warnings are designed to protect users from active phishing threats. The bug was introduced alongside the April 14, 2026, […] The post…",
-      "source": "cybersecuritynews.com"
-    },
-    {
-      "title": "Checkmarx Confirms GitHub Repository Data Published on Dark Web",
-      "link": "https://cybersecuritynews.com/checkmarx-data-published-on-dark-web/",
-      "date": "2026-04-28T16:00:02Z",
-      "description": "Application security testing firm Checkmarx has confirmed a significant escalation in its ongoing security incident. Cybercriminals have officially published company data on the dark web. This new development directly ties back to a supply chain attack that initially compromised the company’s systems on March 23, 2026. Working alongside a leading third-party forensic firm, Checkmarx traced […]…",
-      "source": "cybersecuritynews.com"
     },
     {
       "title": "The Mythos Moment: Enterprises Must Fight Agents with Agents",
@@ -127,13 +106,6 @@
       "date": "2026-04-28T15:29:45Z",
       "description": "Join the webinar to explore a practical, multi-layered roadmap to transition from fragmented AI usage to a governed, scalable ecosystem. The post Webinar Today: A Step-by-Step Approach to AI Governance appeared first on SecurityWeek.",
       "source": "securityweek.com"
-    },
-    {
-      "title": "Critical LiteLLM SQL Injection Vulnerability Exploited in the Wild",
-      "link": "https://cybersecuritynews.com/litellm-sql-injection-vulnerability-exploited/",
-      "date": "2026-04-28T15:22:20Z",
-      "description": "A critical pre-authentication SQL injection vulnerability in LiteLLM, a widely used open-source AI gateway with over 22,000 GitHub stars, is actively being exploited in the wild. Tracked as CVE-2026-42208, this severe flaw allows unauthorized attackers to extract highly sensitive cloud and AI provider credentials directly from the platform’s PostgreSQL database. LiteLLM acts as a central […] The…",
-      "source": "cybersecuritynews.com"
     },
     {
       "title": "Fresh Wave of GlassWorm VS Code Extensions Slices Through Supply Chain",
@@ -181,35 +153,35 @@
       "title": "ZDI-CAN-29143: Apple",
       "link": "http://www.zerodayinitiative.com/advisories/upcoming/",
       "date": "2026-04-23T05:00:00Z",
-      "description": "A CVSS score 8.8 AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H severity vulnerability discovered by 'Anonymous' was reported to the affected vendor on: 2026-04-23, 5 days ago. The vendor is given until 2026-08-21 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
+      "description": "A CVSS score 8.8 AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H severity vulnerability discovered by 'Anonymous' was reported to the affected vendor on: 2026-04-23, 6 days ago. The vendor is given until 2026-08-21 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
       "source": "zerodayinitiative.com"
     },
     {
       "title": "ZDI-CAN-28744: Quest",
       "link": "http://www.zerodayinitiative.com/advisories/upcoming/",
       "date": "2026-04-23T05:00:00Z",
-      "description": "A CVSS score 7.5 AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H severity vulnerability discovered by '06fe5fd2bc53027c4a3b7e395af0b850e7b8a044' was reported to the affected vendor on: 2026-04-23, 5 days ago. The vendor is given until 2026-08-21 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
+      "description": "A CVSS score 7.5 AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H severity vulnerability discovered by '06fe5fd2bc53027c4a3b7e395af0b850e7b8a044' was reported to the affected vendor on: 2026-04-23, 6 days ago. The vendor is given until 2026-08-21 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
       "source": "zerodayinitiative.com"
     },
     {
       "title": "ZDI-CAN-28743: Quest",
       "link": "http://www.zerodayinitiative.com/advisories/upcoming/",
       "date": "2026-04-23T05:00:00Z",
-      "description": "A CVSS score 7.5 AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H severity vulnerability discovered by '06fe5fd2bc53027c4a3b7e395af0b850e7b8a044' was reported to the affected vendor on: 2026-04-23, 5 days ago. The vendor is given until 2026-08-21 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
+      "description": "A CVSS score 7.5 AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H severity vulnerability discovered by '06fe5fd2bc53027c4a3b7e395af0b850e7b8a044' was reported to the affected vendor on: 2026-04-23, 6 days ago. The vendor is given until 2026-08-21 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
       "source": "zerodayinitiative.com"
     },
     {
       "title": "ZDI-CAN-30459: Flowise",
       "link": "http://www.zerodayinitiative.com/advisories/upcoming/",
       "date": "2026-04-23T05:00:00Z",
-      "description": "A CVSS score 9.8 AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H severity vulnerability discovered by 'Dre Cura (@dre_cura) of TrendAI Research' was reported to the affected vendor on: 2026-04-23, 5 days ago. The vendor is given until 2026-08-21 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
+      "description": "A CVSS score 9.8 AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H severity vulnerability discovered by 'Dre Cura (@dre_cura) of TrendAI Research' was reported to the affected vendor on: 2026-04-23, 6 days ago. The vendor is given until 2026-08-21 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
       "source": "zerodayinitiative.com"
     },
     {
       "title": "ZDI-CAN-30450: LiteLLM",
       "link": "http://www.zerodayinitiative.com/advisories/upcoming/",
       "date": "2026-04-23T05:00:00Z",
-      "description": "A CVSS score 8.5 AV:N/AC:L/PR:L/UI:N/S:C/C:H/I:L/A:N severity vulnerability discovered by 'Apex Security Research' was reported to the affected vendor on: 2026-04-23, 5 days ago. The vendor is given until 2026-08-21 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
+      "description": "A CVSS score 8.5 AV:N/AC:L/PR:L/UI:N/S:C/C:H/I:L/A:N severity vulnerability discovered by 'Apex Security Research' was reported to the affected vendor on: 2026-04-23, 6 days ago. The vendor is given until 2026-08-21 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
       "source": "zerodayinitiative.com"
     },
     {
@@ -238,13 +210,6 @@
       "link": "https://securityonline.info/rsync-xattr-use-after-free-vulnerability-fix/",
       "date": "2026-04-16T07:23:15Z",
       "description": "The post High-Severity Use-After-Free Vulnerability Uncovered in Rsync appeared first on Daily CyberSecurity. Related posts: Critical UAF Vulnerability Discovered in Ladybird Browser Engine (CVE-2025-47154) Root Access Unlocked: Public PoC Exposes GlobalProtect macOS Privilege Escalation Flaw Critical Privilege Escalation Flaw in FreeIPA Threatens Linux Domain Security",
-      "source": "securityonline.info"
-    },
-    {
-      "title": "Python Under Pressure: Critical Memory Flaws and Command Injection Bypass Uncovered",
-      "link": "https://securityonline.info/cpython-security-vulnerabilities-cve-2026/",
-      "date": "2026-04-14T09:23:39Z",
-      "description": "The post Python Under Pressure: Critical Memory Flaws and Command Injection Bypass Uncovered appeared first on Daily CyberSecurity. Related posts: CRITICAL (CVSS 9.4) Python ‘tarfile’ Vulnerability: Arbitrary Filesystem Writes Possible! SAP Security Alert: May 2025 Patch Day Exposes Critical Threats! Langroid Flaws (CVSS 9.8) Expose LLM Apps to RCE",
       "source": "securityonline.info"
     },
     {
