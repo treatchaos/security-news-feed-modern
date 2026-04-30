@@ -1,19 +1,47 @@
 {
-  "last_updated": "2026-04-30T05:23:02Z",
+  "last_updated": "2026-04-30T08:02:33Z",
   "count": 40,
   "items": [
     {
-      "title": "Cursor AI Extension Access Developer Tokens Leads to Full Credential Compromise",
-      "link": "https://cybersecuritynews.com/cursor-ai-extension-access-developer-tokens/",
-      "date": "2026-04-30T04:07:29Z",
-      "description": "A high-severity access-control vulnerability (CVSS 8.2) in Cursor, a widely used AI-powered coding environment. The flaw uncovered by LayerX has allowed any installed extension to access a developer’s API keys and session tokens secretly. This results in total credential compromise without triggering any alerts or requiring user interaction. Unlike secure applications that store sensitive…",
+      "title": "ProFTPD’s SQL Injection Vulnerability Enables Remote Code Execution Attacks",
+      "link": "https://cybersecuritynews.com/proftpds-sql-injection-vulnerability/",
+      "date": "2026-04-30T07:54:54Z",
+      "description": "A critical SQL injection vulnerability in ProFTPD, one of the Internet’s most widely deployed FTP servers. Tracked as CVE-2026-42167, this flaw carries a CVSS severity score of 8.1 and affects the mod_sql extension. Depending on how the server is configured, attackers can exploit this bug to bypass authentication, elevate their privileges, or achieve remote code execution (RCE). ProFTPD […] The…",
       "source": "cybersecuritynews.com"
     },
     {
-      "title": "Linux Kernel 0-Day “Copy Fail” Roots Every Major Distribution Since 2017",
-      "link": "https://cybersecuritynews.com/linux-kernel-0-day-copy-fail/",
-      "date": "2026-04-30T02:31:49Z",
-      "description": "A critical zero-day vulnerability in the Linux kernel has been publicly disclosed, enabling any unprivileged local user to obtain root access on virtually every major Linux distribution shipped since 2017. Dubbed “Copy Fail” and tracked as CVE-2026-31431, the flaw was discovered by Theori researcher Taeyang Lee and scaled into a full exploit chain by the […] The post Linux Kernel 0-Day “Copy…",
+      "title": "Malicious npm Package Brand-Squats TanStack Exfiltrate Developer Secrets",
+      "link": "https://cybersecuritynews.com/malicious-npm-package-brand-squats-tanstack/",
+      "date": "2026-04-30T07:49:39Z",
+      "description": "A fake npm package has been caught silently stealing sensitive developer credentials by impersonating the widely trusted TanStack library. The package, published under the unscoped name “tanstack” on the npm registry, tricked developers into installing it instead of the legitimate “@tanstack/*” packages. Once installed, it ran hidden scripts that sent environment variable files straight to […]…",
+      "source": "cybersecuritynews.com"
+    },
+    {
+      "title": "New EtherRAT Variant Uses Trojanized Tftpd64 Installer to Bridge Web2 Malware and Web3 Theft",
+      "link": "https://cybersecuritynews.com/new-etherrat-variant-uses-trojanized-tftpd64-installer/",
+      "date": "2026-04-30T07:13:11Z",
+      "description": "A new and more dangerous type of malware is quietly targeting Windows users by hiding inside a trusted software installer. Cybercriminals have combined traditional malware tactics with cryptocurrency theft, creating a threat that is harder to detect and far more destructive than what most users expect. For years, traditional malware and crypto-focused attacks operated in […] The post New…",
+      "source": "cybersecuritynews.com"
+    },
+    {
+      "title": "Google Fixes CVSS 10 Gemini CLI CI RCE and Cursor Flaws Enable Code Execution",
+      "link": "https://thehackernews.com/2026/04/google-fixes-cvss-10-gemini-cli-ci-rce.html",
+      "date": "2026-04-30T07:07:00Z",
+      "description": "Google has addressed a maximum severity security flaw in Gemini CLI -- the \"@google/gemini-cli\" npm package and the \"google-github-actions/run-gemini-cli\" GitHub Actions workflow -- that could have allowed attackers to execute arbitrary commands on host systems. \"The vulnerability allowed an unprivileged external attacker to force their own malicious content to load as Gemini configuration,\"",
+      "source": "thehackernews.com"
+    },
+    {
+      "title": "SonicWall SonicOS Vulnerabilities Allow Attackers to Bypass Access Controls and Crash Firewall",
+      "link": "https://cybersecuritynews.com/sonicwall-sonicos-vulnerabilities/",
+      "date": "2026-04-30T07:02:22Z",
+      "description": "SonicWall has released a security advisory addressing three vulnerabilities in its SonicOS software. Discovered by the Advanced Research Team at CrowdStrike, these flaws could allow attackers to bypass access controls, reach restricted services, or cause a denial-of-service condition by crashing the firewall. Administrators are urged to apply the latest firmware updates immediately to secure…",
+      "source": "cybersecuritynews.com"
+    },
+    {
+      "title": "Europol Busts €50 Million Online Fraud Network Running Corporate-Style Scam Call Centres",
+      "link": "https://cybersecuritynews.com/europol-busts-e50-million-online-fraud-network/",
+      "date": "2026-04-30T06:45:26Z",
+      "description": "A major international law enforcement operation has brought down a large-scale online fraud network that stole more than EUR 50 million from victims across Europe and beyond. Austrian and Albanian authorities, backed by Europol and Eurojust, carried out a coordinated action day on 17 April 2026 following a joint investigation that spanned more than two […] The post Europol Busts €50 Million…",
       "source": "cybersecuritynews.com"
     },
     {
@@ -66,20 +94,6 @@
       "source": "bleepingcomputer.com"
     },
     {
-      "title": "SAP npm Packages Compromised to Harvest Developer and CI/CD Secrets",
-      "link": "https://cybersecuritynews.com/sap-npm-packages-compromised/",
-      "date": "2026-04-29T17:02:37Z",
-      "description": "A new supply chain attack dubbed “mini Shai Hulud” has compromised four SAP-related npm packages by injecting malicious preinstall scripts that silently execute during dependency installation, targeting developer environments and CI/CD pipelines to steal credentials across GitHub, npm, and major cloud providers. Security researchers at StepSecurity, Aikido Security, SafeDep, Socket, and Wiz…",
-      "source": "cybersecuritynews.com"
-    },
-    {
-      "title": "Lazarus Hackers Attacking macOS Users With ‘Mach-O Man’ Malware Kit",
-      "link": "https://cybersecuritynews.com/mach-o-man-macos-malware-lazarus/",
-      "date": "2026-04-29T16:50:24Z",
-      "description": "North Korea’s state-sponsored Lazarus Group has unleashed a newly identified, modular macOS malware kit dubbed “Mach-O Man” a sophisticated, four-stage attack chain targeting fintech executives, crypto developers, and high-value enterprise users through fake meeting invitations and social engineering lures. Analyzed by Mauro Eldritch in collaboration with ANY.RUN’s interactive sandbox platform,…",
-      "source": "cybersecuritynews.com"
-    },
-    {
       "title": "SAP-Related npm Packages Compromised in Credential-Stealing Supply Chain Attack",
       "link": "https://thehackernews.com/2026/04/sap-npm-packages-compromised-by-mini.html",
       "date": "2026-04-29T16:26:00Z",
@@ -106,13 +120,6 @@
       "date": "2026-04-29T14:43:00Z",
       "description": "Cybersecurity researchers have discovered malicious code in an npm package after a malicious package as a dependency to the project by Anthropic's Claude Opus large language model (LLM). The package in question is \"@validate-sdk/v2,\" which is listed on npm as a utility software development kit (SDK) for hashing, validation, encoding/decoding, and secure random generation. However, its real",
       "source": "thehackernews.com"
-    },
-    {
-      "title": "Brinker Introduces a Novel Approach to Deepfake Detection",
-      "link": "https://cybersecuritynews.com/brinker-introduces-a-novel-approach-to-deepfake-detection/",
-      "date": "2026-04-29T13:45:18Z",
-      "description": "WILMINGTON, Delaware, April 29th, 2026, CyberNewswire Malicious intent-based deepfake detection shifts the focus from purely technical analysis to real-world risk and impact Brinker, recently named “Narrative Intelligence Solution of the Year 2026” by The Cyber Review, today announced the official launch of its malicious intent-based deepfake detection capability, introducing a fundamentally new…",
-      "source": "cybersecuritynews.com"
     },
     {
       "title": "Fresh LiteLLM Vulnerability Exploited Shortly After Disclosure",
@@ -169,13 +176,6 @@
       "date": "2026-04-29T09:54:17Z",
       "description": "Some of the vulnerabilities discovered by Aisle can be exploited to access and alter sensitive patient information. The post 38 Vulnerabilities Found in OpenEMR Medical Software appeared first on SecurityWeek.",
       "source": "securityweek.com"
-    },
-    {
-      "title": "Critical cPanel Authentication Vulnerability Identified — Update Your Server Immediately",
-      "link": "https://thehackernews.com/2026/04/critical-cpanel-authentication.html",
-      "date": "2026-04-29T09:37:00Z",
-      "description": "cPanel has released security updates to address a security issue impacting various authentication paths that could allow an attacker to obtain access to the control panel software. The problem affects all currently supported versions of cPanel and WebHost Manager (WHM), according to an alert published by WebPros on Tuesday. It does not have an official identifier. The issue has been addressed in",
-      "source": "thehackernews.com"
     },
     {
       "title": "ZDI-CAN-29268: Luxion",
