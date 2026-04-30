@@ -1,7 +1,87 @@
 {
   "date": "2026-04-30",
-  "count": 12,
+  "count": 20,
   "items": [
+    {
+      "id": "7cb4bc73c29fa419866f4a1ecf2db8e037504717",
+      "title": "‘Copy Fail’ Logic Flaw in Linux Kernel Enables System Takeover",
+      "link": "https://www.securityweek.com/copy-fail-logic-flaw-in-linux-kernel-enables-system-takeover/",
+      "date": "2026-04-30T10:06:00Z",
+      "description": "Affecting the kernel’s authencesn cryptographic template, the vulnerability was introduced in 2017 and impacts all distributions. The post ‘Copy Fail’ Logic Flaw in Linux Kernel Enables System Takeover appeared first on SecurityWeek.",
+      "source": "securityweek.com",
+      "first_seen": "2026-04-30T10:45:02Z",
+      "last_seen": "2026-04-30T10:45:02Z"
+    },
+    {
+      "id": "19f87602cfdf80393cc43611c6583af0ce5baac4",
+      "title": "OpenAI Releases 5-Point Action Plan to Strengthen AI-Powered Cyber Defense",
+      "link": "https://cybersecuritynews.com/openai-5-point-action-plan/",
+      "date": "2026-04-30T09:50:54Z",
+      "description": "OpenAI has published a comprehensive cybersecurity action plan titled “Cybersecurity in the Intelligence Age: An Action Plan for Democratizing AI-Powered Cyber Defense,” outlining a five-pillar strategy to equip trusted defenders with advanced AI capabilities while preventing adversarial misuse. Artificial intelligence is fundamentally reshaping the cybersecurity landscape and not just for…",
+      "source": "cybersecuritynews.com",
+      "first_seen": "2026-04-30T10:45:02Z",
+      "last_seen": "2026-04-30T10:45:02Z"
+    },
+    {
+      "id": "e7a6bfd25b635955a1f8b7cd3a5c6d26b2cf6616",
+      "title": "New Linux 'Copy Fail' Vulnerability Enables Root Access on Major Distributions",
+      "link": "https://thehackernews.com/2026/04/new-linux-copy-fail-vulnerability.html",
+      "date": "2026-04-30T09:24:00Z",
+      "description": "Cybersecurity researchers have disclosed details of a Linux local privilege escalation (LPE) flaw that could allow an unprivileged local user to obtain root. The high-severity vulnerability tracked as CVE-2026-31431 (CVSS score: 7.8) has been codenamed Copy Fail by Xint.io and Theori. \"An unprivileged local user can write four controlled bytes into the page cache of any readable file on a Linux",
+      "source": "thehackernews.com",
+      "first_seen": "2026-04-30T10:45:02Z",
+      "last_seen": "2026-04-30T10:45:02Z"
+    },
+    {
+      "id": "1517bbb61fb490c65359e96f60aede128e300f0d",
+      "title": "CVE MCP Server Turns Claude Into a Fully Capable Security Analyst With 27 Tools Across 21 APIs",
+      "link": "https://cybersecuritynews.com/cve-mcp-server-and-claude/",
+      "date": "2026-04-30T08:42:56Z",
+      "description": "A new open-source project called CVE MCP Server is redefining how security teams triage vulnerabilities, transforming Anthropic’s Claude AI into a fully capable security analyst by giving it direct, correlated access to 27 intelligence tools spanning 21 external APIs all through a single natural-language query. Every security analyst knows the painful reality: triaging even a […] The post CVE…",
+      "source": "cybersecuritynews.com",
+      "first_seen": "2026-04-30T10:45:02Z",
+      "last_seen": "2026-04-30T10:45:02Z"
+    },
+    {
+      "id": "1b814b51ec2509464eaa177a07f6e7984acc6c0e",
+      "title": "Claude-Generated Commit Adds PromptMink Malware to Crypto Trading Agent",
+      "link": "https://cybersecuritynews.com/claude-generated-commit-adds-promptmink-malware/",
+      "date": "2026-04-30T08:39:59Z",
+      "description": "A new threat has quietly taken root in the software development world, using an AI coding assistant as an unknowing participant in a supply chain attack. A malicious npm package campaign called PromptMink surfaced after being introduced into an open-source autonomous crypto trading project through a code commit co-authored by Anthropic’s Claude Opus large language […] The post Claude-Generated…",
+      "source": "cybersecuritynews.com",
+      "first_seen": "2026-04-30T10:45:02Z",
+      "last_seen": "2026-04-30T10:45:02Z"
+    },
+    {
+      "id": "6a706cb644a95504a1873b9fce25d17e99960b7f",
+      "title": "Sandhills Medical Says Ransomware Breach Affects 170,000",
+      "link": "https://www.securityweek.com/sandhills-medical-says-ransomware-breach-affects-170000/",
+      "date": "2026-04-30T08:35:59Z",
+      "description": "It took the healthcare organization nearly one year to publicly disclose a data breach after it was targeted by Inc Ransom. The post Sandhills Medical Says Ransomware Breach Affects 170,000 appeared first on SecurityWeek.",
+      "source": "securityweek.com",
+      "first_seen": "2026-04-30T10:45:02Z",
+      "last_seen": "2026-04-30T10:45:02Z"
+    },
+    {
+      "id": "461f995ec1146718787f624e1d145e960c95c1cf",
+      "title": "Qinglong Task Scheduler RCE Vulnerabilities Exploited in the Wild",
+      "link": "https://cybersecuritynews.com/qinglong-task-scheduler-rce-vulnerabilities/",
+      "date": "2026-04-30T08:18:54Z",
+      "description": "In early 2026, two critical authentication bypass vulnerabilities in the popular open-source Qinglong task scheduler were actively exploited by hackers. According to Snyk security reports, unauthenticated attackers breached publicly accessible panels, achieving remote code execution to install a hidden, resource-draining cryptominer named .fullgc. Qinglong is a self-hosted task scheduling…",
+      "source": "cybersecuritynews.com",
+      "first_seen": "2026-04-30T10:45:02Z",
+      "last_seen": "2026-04-30T10:45:02Z"
+    },
+    {
+      "id": "12e32ecd760fe2921a5d57494b75cdbb9800773b",
+      "title": "Novel KarstoRAT RAT Enables Webcam Monitoring, Audio Recording, and Remote Payload Execution",
+      "link": "https://cybersecuritynews.com/novel-karstorat-rat-enables-webcam-monitoring/",
+      "date": "2026-04-30T08:16:10Z",
+      "description": "A newly identified remote access trojan called KarstoRAT has been found in sandbox analyses and malware repositories since early 2026. The malware gives attackers a broad set of remote-control capabilities over compromised Windows machines, including webcam capture, audio recording, keylogging, screenshot theft, and the ability to fetch and run additional payloads on demand. KarstoRAT is […] The…",
+      "source": "cybersecuritynews.com",
+      "first_seen": "2026-04-30T10:45:02Z",
+      "last_seen": "2026-04-30T10:45:02Z"
+    },
     {
       "id": "65781c980cf6c9d9e449a376bf15b2fd8bad84de",
       "title": "ProFTPD’s SQL Injection Vulnerability Enables Remote Code Execution Attacks",
@@ -40,7 +120,7 @@
       "description": "Google has addressed a maximum severity security flaw in Gemini CLI -- the \"@google/gemini-cli\" npm package and the \"google-github-actions/run-gemini-cli\" GitHub Actions workflow -- that could have allowed attackers to execute arbitrary commands on host systems. \"The vulnerability allowed an unprivileged external attacker to force their own malicious content to load as Gemini configuration,\"",
       "source": "thehackernews.com",
       "first_seen": "2026-04-30T08:02:33Z",
-      "last_seen": "2026-04-30T08:02:33Z"
+      "last_seen": "2026-04-30T10:45:02Z"
     },
     {
       "id": "eb9ea9cd06d69c27ef4a74c936915630e7e8a168",
@@ -90,7 +170,7 @@
       "description": "Global financial institutions are panicked over Anthropic's new superhacker AI model. Cyber experts aren't quite as worried.",
       "source": "darkreading.com",
       "first_seen": "2026-04-30T01:55:59Z",
-      "last_seen": "2026-04-30T08:02:33Z"
+      "last_seen": "2026-04-30T10:45:02Z"
     },
     {
       "id": "71ca9ebe89dbf0a9b12b1b3d8a8d042b5eda3613",
@@ -100,7 +180,7 @@
       "description": "A CVSS score 7.8 AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H severity vulnerability discovered by '@pacbypass' was reported to the affected vendor on: 2026-04-29, 0 days ago. The vendor is given until 2026-08-27 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
       "source": "zerodayinitiative.com",
       "first_seen": "2026-04-30T01:55:59Z",
-      "last_seen": "2026-04-30T08:02:33Z"
+      "last_seen": "2026-04-30T10:45:02Z"
     },
     {
       "id": "f9f2fe9ea69105f9eb6f04f97f4ae368539e398b",
@@ -110,7 +190,7 @@
       "description": "A CVSS score 7.8 AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H severity vulnerability discovered by 'Sajeeb Lohani' was reported to the affected vendor on: 2026-04-29, 0 days ago. The vendor is given until 2026-08-27 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
       "source": "zerodayinitiative.com",
       "first_seen": "2026-04-30T01:55:59Z",
-      "last_seen": "2026-04-30T08:02:33Z"
+      "last_seen": "2026-04-30T10:45:02Z"
     },
     {
       "id": "7299b9561179d0f5d93a057e33b3810a546d5c4c",
@@ -120,7 +200,7 @@
       "description": "A CVSS score 7.8 AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H severity vulnerability discovered by 'Sajeeb Lohani' was reported to the affected vendor on: 2026-04-29, 0 days ago. The vendor is given until 2026-08-27 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
       "source": "zerodayinitiative.com",
       "first_seen": "2026-04-30T01:55:59Z",
-      "last_seen": "2026-04-30T08:02:33Z"
+      "last_seen": "2026-04-30T10:45:02Z"
     }
   ]
 }
