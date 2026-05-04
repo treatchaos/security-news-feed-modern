@@ -1,13 +1,69 @@
 {
-  "last_updated": "2026-05-04T15:03:03Z",
+  "last_updated": "2026-05-04T17:20:50Z",
   "count": 40,
   "items": [
+    {
+      "title": "Backdoored PyTorch Lightning package drops credential stealer",
+      "link": "https://www.bleepingcomputer.com/news/security/backdoored-pytorch-lightning-package-drops-credential-stealer/",
+      "date": "2026-05-04T17:15:27Z",
+      "description": "A malicious version of the PyTorch Lightning package published on the Python Package Index (PyPI) delivers a credential-stealing payload targeting browsers, environment files, and cloud services. [...]",
+      "source": "bleepingcomputer.com"
+    },
+    {
+      "title": "Progress Patches Critical MOVEit Automation Bug Enabling Authentication Bypass",
+      "link": "https://thehackernews.com/2026/05/progress-patches-critical-moveit.html",
+      "date": "2026-05-04T16:34:00Z",
+      "description": "Progress Software has released updates to address two security flaws in MOVEit Automation, including a critical bug that could result in an authentication bypass. MOVEit Automation (formerly Central) is a secure, server-based managed file transfer (MFT) solution used to schedule and automate file movement workflows in enterprise environments without requiring any custom scripts. The",
+      "source": "thehackernews.com"
+    },
+    {
+      "title": "New MicroStealer Malware Actively Attacking Telecom & Education Sectors",
+      "link": "https://cybersecuritynews.com/new-microstealer-malware-actively-attacking/",
+      "date": "2026-05-04T16:28:54Z",
+      "description": "A new infostealer malware called MicroStealer has quietly entered the threat landscape and is already showing a worrying reach. First spotted in December 2025, the malware has picked up speed fast, showing up across sandbox environments within weeks of its initial appearance in the wild. What makes it stand out is its ability to fly […] The post New MicroStealer Malware Actively Attacking…",
+      "source": "cybersecuritynews.com"
+    },
+    {
+      "title": "Trellix discloses data breach after source code repository hack",
+      "link": "https://www.bleepingcomputer.com/news/security/trellix-discloses-data-breach-after-source-code-repository-hack/",
+      "date": "2026-05-04T16:25:07Z",
+      "description": "Cybersecurity firm Trellix disclosed a data breach after attackers gained access to \"a portion\" of its source code repository. [...]",
+      "source": "bleepingcomputer.com"
+    },
+    {
+      "title": "Bluekit Phishing Kit Automates Domains, 2FA Lures, and Session Hijacking in One Panel",
+      "link": "https://cybersecuritynews.com/bluekit-phishing-kit-automates-domains/",
+      "date": "2026-05-04T16:12:16Z",
+      "description": "A newly identified phishing kit called Bluekit is changing how cybercriminals carry out phishing attacks by packing multiple attack capabilities into a single, easy-to-use operator panel. Rather than relying on separate tools stitched together from different sources, Bluekit gives attackers one centralized platform to manage everything from fake website creation to session hijacking. For years,…",
+      "source": "cybersecuritynews.com"
+    },
+    {
+      "title": "Malicious Tanstack Package Uses Postinstall Script to Steal Developer Environment Files",
+      "link": "https://cybersecuritynews.com/malicious-tanstack-package-uses-postinstall-script/",
+      "date": "2026-05-04T15:24:35Z",
+      "description": "A malicious npm package impersonating the widely trusted TanStack project was discovered on April 29, 2026, silently stealing developer environment files the moment it was installed. The attacker registered the unscoped “tanstack” package name on npm, dressed it up as a legitimate video player SDK called “TanStackPlayer,” and embedded a credential-harvesting script inside it that […] The post…",
+      "source": "cybersecuritynews.com"
+    },
+    {
+      "title": "Silver Fox Springs Tax-Themed Attacks on Orgs in India, Russia",
+      "link": "https://www.darkreading.com/endpoint-security/silver-fox-tax-themed-attacks-india-russia",
+      "date": "2026-05-04T14:39:26Z",
+      "description": "More than 1,600 socially engineered messages from the China-backed advanced persistent threat (APT) group target various sectors to deliver the previously undocumented ABCDoor backdoor, ValleyRAT, and other malware.",
+      "source": "darkreading.com"
+    },
     {
       "title": "New xlabs_v1 Botnet Targets Minecraft Servers Through ADB-Exposed Android Devices",
       "link": "https://cybersecuritynews.com/new-xlabs_v1-botnet-targets-minecraft-servers/",
       "date": "2026-05-04T14:35:00Z",
       "description": "A newly identified botnet called xlabs_v1 has been found targeting Minecraft game servers by exploiting Android devices with the Android Debug Bridge (ADB) port left open and exposed to the internet. The botnet is a modified version of the well-known Mirai malware, sold as a DDoS-for-hire service that lets paying customers flood game servers with […] The post New xlabs_v1 Botnet Targets…",
       "source": "cybersecuritynews.com"
+    },
+    {
+      "title": "⚡ Weekly Recap: AI-Powered Phishing, Android Spying Tool, Linux Exploit, GitHub RCE & More",
+      "link": "https://thehackernews.com/2026/05/weekly-recap-ai-powered-phishing.html",
+      "date": "2026-05-04T14:23:00Z",
+      "description": "This week, the shadows moved faster than the patches. While most teams were still triaging last month’s alerts, attackers had already turned control panels into kill switches, kernels into open doors, and open-source pipelines into silent delivery systems. The game has shifted from breach to occupation. They’re living inside SaaS sessions, pushing code with trusted commits, and scaling",
+      "source": "thehackernews.com"
     },
     {
       "title": "They don’t hack, they borrow: How fraudsters target credit unions",
@@ -38,13 +94,6 @@
       "source": "securityweek.com"
     },
     {
-      "title": "Attackers Weaponize SAP npm Packages to Steal GitHub, Cloud, and AI Coding Tool Secrets",
-      "link": "https://cybersecuritynews.com/attackers-weaponize-sap-npm-packages/",
-      "date": "2026-05-04T12:39:38Z",
-      "description": "A new supply chain attack is targeting the SAP developer ecosystem through poisoned npm packages. The campaign uses a malicious worm called “Mini Shai-Hulud,” which runs silently before any npm install completes and steals credentials from developer machines, cloud platforms, and AI coding tools. The attack hit four official SAP-published packages: mbt, @cap-js/sqlite, @cap-js/postgres, and […]…",
-      "source": "cybersecuritynews.com"
-    },
-    {
       "title": "Progress warns of critical MOVEit Automation auth bypass flaw",
       "link": "https://www.bleepingcomputer.com/news/security/moveit-automation-customers-warned-to-patch-critical-auth-bypass-flaw/",
       "date": "2026-05-04T12:18:57Z",
@@ -66,39 +115,11 @@
       "source": "thehackernews.com"
     },
     {
-      "title": "CISA Warns of Linux Kernel 0-Day Vulnerability Exploited in Attacks",
-      "link": "https://cybersecuritynews.com/linux-kernel-0-day-vulnerability-exploited/",
-      "date": "2026-05-04T11:57:31Z",
-      "description": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) has added a critical Linux kernel zero-day vulnerability to its Known Exploited Vulnerabilities (KEV) catalog, warning federal agencies and organizations worldwide to patch immediately or discontinue use of affected systems. Tracked as CVE-2026-31431 and dubbed “Copy Fail”, the flaw carries a CVSS score of 7.8 (High) and […] The…",
-      "source": "cybersecuritynews.com"
-    },
-    {
       "title": "Silver Fox Deploys ABCDoor Malware via Tax-Themed Phishing in India and Russia",
       "link": "https://thehackernews.com/2026/05/silver-fox-deploys-abcdoor-malware-via.html",
       "date": "2026-05-04T11:57:00Z",
       "description": "The China-based cybercrime group known as Silver Fox has been linked to a new campaign targeting organizations in Russia and India with a new malware called ABCDoor. The activity involved using phishing emails that mimic correspondence from the Income Tax Department of India in December 2025, followed by a similar campaign aimed at Russian entities. \"Both waves followed a nearly identical",
       "source": "thehackernews.com"
-    },
-    {
-      "title": "Silver Fox Springs Tax-Themed Attacks on Orgs in India, Russia",
-      "link": "https://www.darkreading.com/endpoint-security/silver-fox-tax-themed-attacks-india-russia",
-      "date": "2026-05-04T11:35:44Z",
-      "description": "More than 1,600 socially engineered messages from the China-backed advanced persistent threat (APT) group target various sectors to deliver the previously undocumented ABCDoor backdoor, ValleyRAT, and other malware.",
-      "source": "darkreading.com"
-    },
-    {
-      "title": "CISA says ‘Copy Fail’ flaw now exploited to root Linux systems",
-      "link": "https://www.bleepingcomputer.com/news/security/cisa-says-copy-fail-flaw-now-exploited-to-root-linux-systems/",
-      "date": "2026-05-04T11:28:15Z",
-      "description": "CISA has warned that threat actors have started exploiting the \"Copy Fail\" Linux security vulnerability in the wild, one day after Theori researchers disclosed it and shared a proof-of-concept (PoC) exploit. [...]",
-      "source": "bleepingcomputer.com"
-    },
-    {
-      "title": "Apache MINA Vulnerabilities Enables Remote Code Execution Attacks",
-      "link": "https://cybersecuritynews.com/apache-mina-vulnerabilities/",
-      "date": "2026-05-04T11:24:00Z",
-      "description": "The Apache MINA project has issued urgent security updates to address two critical vulnerabilities that could allow attackers to execute arbitrary code on affected systems. Developers relying on this network application framework are strongly urged to update their software immediately to protect their environments from potential exploitation. Developers widely use Apache MINA to create…",
-      "source": "cybersecuritynews.com"
     },
     {
       "title": "How Dark Reading Lifted Off the Launchpad in 2006",
@@ -113,13 +134,6 @@
       "date": "2026-05-04T10:42:33Z",
       "description": "CISA has added the bug to its KEV list, and Microsoft has observed limited exploitation, mainly associated with PoC testing. The post Exploitation of ‘Copy Fail’ Linux Vulnerability Begins appeared first on SecurityWeek.",
       "source": "securityweek.com"
-    },
-    {
-      "title": "Microsoft confirms April Windows updates cause backup failures",
-      "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-confirms-backup-failures-caused-by-vulnerable-driver-block/",
-      "date": "2026-05-04T10:40:11Z",
-      "description": "Microsoft has confirmed that the April 2026 security updates are causing failures in third-party backup applications using the psmounterex.sys driver. [...]",
-      "source": "bleepingcomputer.com"
     },
     {
       "title": "Fully Exposed: Public PoC Released for the Adobe PDF Vulnerabilities Exploited in the Wild",
@@ -148,20 +162,6 @@
       "date": "2026-05-04T08:25:04Z",
       "description": "The attacks likely target CVE-2026-41940, a recently patched zero-day leading to administrative access. The post Over 40,000 Servers Compromised in Ongoing cPanel Exploitation appeared first on SecurityWeek.",
       "source": "securityweek.com"
-    },
-    {
-      "title": "Global Crackdown Arrests 276, Shuts 9 Crypto Scam Centers, Seizes $701M",
-      "link": "https://thehackernews.com/2026/05/global-crackdown-arrests-276-shuts-9.html",
-      "date": "2026-05-04T05:59:00Z",
-      "description": "A coordinated international operation involving U.S. and Chinese authorities has arrested at least 276 suspects and shut down nine scam centers used for cryptocurrency investment fraud schemes targeting Americans, resulting in millions of dollars in losses. The crackdown was led by the Dubai Police, under the United Arab Emirates (UAE) Ministry of Interior, in partnership with the U.S. Federal",
-      "source": "thehackernews.com"
-    },
-    {
-      "title": "CISA Adds Actively Exploited Linux Root Access Bug CVE-2026-31431 to KEV",
-      "link": "https://thehackernews.com/2026/05/cisa-adds-actively-exploited-linux-root.html",
-      "date": "2026-05-03T06:26:00Z",
-      "description": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Friday added a recently disclosed security flaw impacting various Linux distributions to its Known Exploited Vulnerabilities (KEV) catalog, citing evidence of active exploitation in the wild. The vulnerability, tracked as CVE-2026-31431 (CVSS score: 7.8), is a case of local privilege escalation (LPE) flaw that could allow an",
-      "source": "thehackernews.com"
     },
     {
       "title": "76% of All Crypto Stolen in 2026 Is Now in North Korea",
