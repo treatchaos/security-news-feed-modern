@@ -1,7 +1,28 @@
 {
-  "last_updated": "2026-05-05T04:53:21Z",
-  "count": 35,
+  "last_updated": "2026-05-05T07:11:12Z",
+  "count": 40,
   "items": [
+    {
+      "title": "pnpm 11 Turns On Minimum Release Age by Default to Reduce npm Supply Chain Risk",
+      "link": "https://cybersecuritynews.com/pnpm-11-turns-on-minimum-release-age/",
+      "date": "2026-05-05T06:05:39Z",
+      "description": "The npm ecosystem has long been a target for supply chain attacks, where threat actors exploit the open nature of public package registries to push malicious code into developer environments. With pnpm 11, the package manager takes a direct step to address this growing risk by enabling key security protections out of the box, making […] The post pnpm 11 Turns On Minimum Release Age by Default to…",
+      "source": "cybersecuritynews.com"
+    },
+    {
+      "title": "Microsoft Edge Stores All Saved Passwords in Cleartext Process Memory at Launch",
+      "link": "https://cybersecuritynews.com/microsoft-edge-passwords-cleartext/",
+      "date": "2026-05-05T03:46:43Z",
+      "description": "A security researcher has discovered that Microsoft Edge decrypts every stored password into process memory the moment the browser launches and keeps them there as cleartext, regardless of whether the user ever visits those sites. The finding, disclosed on April 29 by PaloAltoNtwks Norway at BigBiteOfTech, was uncovered by researcher @L1v1ng0ffTh3L4N, who systematically tested every […] The post…",
+      "source": "cybersecuritynews.com"
+    },
+    {
+      "title": "Critical Apache HTTP Server Flaw Exposes Millions of Servers to RCE Attacks",
+      "link": "https://cybersecuritynews.com/apache-http-server-rce/",
+      "date": "2026-05-05T02:47:21Z",
+      "description": "The Apache Software Foundation has released a critical security update for Apache HTTP Server, patching five vulnerabilities, including a dangerous double-free flaw capable of enabling Remote Code Execution (RCE) in version 2.4.67, released on May 4, 2026. All users running version 2.4.66 or earlier are strongly urged to upgrade immediately. The most severe of the […] The post Critical Apache…",
+      "source": "cybersecuritynews.com"
+    },
     {
       "title": "Weaver E-cology critical bug exploited in attacks since March",
       "link": "https://www.bleepingcomputer.com/news/security/weaver-e-cology-critical-bug-exploited-in-attacks-since-march/",
@@ -41,8 +62,15 @@
       "title": "Phishing Campaign Hits 80+ Orgs Using SimpleHelp and ScreenConnect RMM Tools",
       "link": "https://thehackernews.com/2026/05/phishing-campaign-hits-80-orgs-using.html",
       "date": "2026-05-04T18:06:00Z",
-      "description": "An active phishing campaign has been observed targeting multiple vectors since at least April 2025, with legitimate Remote Monitoring and Management (RMM) software as a way to establish persistent remote access to compromised hosts. The activity, codenamed VENOMOUS#HELPER, has impacted over 80 organizations, most of which are in the U.S., according to Securonix. It shares overlaps with clusters",
+      "description": "An active phishing campaign has been observed targeting multiple vectors since at least April 2025 with legitimate Remote Monitoring and Management (RMM) software as a way to establish persistent remote access to compromised hosts. The activity, codenamed VENOMOUS#HELPER, has impacted over 80 organizations, most of which are in the U.S., according to Securonix. It shares overlaps with clusters",
       "source": "thehackernews.com"
+    },
+    {
+      "title": "DigiCert Hacked via Weaponized Screensaver File to Obtain EV Code Signing Certificates",
+      "link": "https://cybersecuritynews.com/digicert-hacked-screensaver/",
+      "date": "2026-05-04T17:50:41Z",
+      "description": "A sophisticated threat actor breached DigiCert’s internal support environment in early April 2026 by tricking support analysts into executing a disguised malicious screensaver file, ultimately obtaining stolen EV Code Signing certificates used to distribute the “Zhong Stealer” malware family. On April 2, 2026, a threat actor contacted DigiCert’s customer support team through a Salesforce-based…",
+      "source": "cybersecuritynews.com"
     },
     {
       "title": "Trellix Source Code Repository Breached",
@@ -64,6 +92,13 @@
       "date": "2026-05-04T16:34:00Z",
       "description": "Progress Software has released updates to address two security flaws in MOVEit Automation, including a critical bug that could result in an authentication bypass. MOVEit Automation (formerly Central) is a secure, server-based managed file transfer (MFT) solution used to schedule and automate file movement workflows in enterprise environments without requiring any custom scripts. The",
       "source": "thehackernews.com"
+    },
+    {
+      "title": "New MicroStealer Malware Actively Attacking Telecom & Education Sectors",
+      "link": "https://cybersecuritynews.com/new-microstealer-malware-actively-attacking/",
+      "date": "2026-05-04T16:28:54Z",
+      "description": "A new infostealer malware called MicroStealer has quietly entered the threat landscape and is already showing a worrying reach. First spotted in December 2025, the malware has picked up speed fast, showing up across sandbox environments within weeks of its initial appearance in the wild. What makes it stand out is its ability to fly […] The post New MicroStealer Malware Actively Attacking…",
+      "source": "cybersecuritynews.com"
     },
     {
       "title": "Trellix discloses data breach after source code repository hack",
@@ -118,7 +153,7 @@
       "title": "Silver Fox Deploys ABCDoor Malware via Tax-Themed Phishing in India and Russia",
       "link": "https://thehackernews.com/2026/05/silver-fox-deploys-abcdoor-malware-via.html",
       "date": "2026-05-04T11:57:00Z",
-      "description": "The China-based cybercrime group known as Silver Fox has been linked to a new campaign targeting organizations in Russia and India with a new malware called ABCDoor. The activity involved using phishing emails that mimic correspondence from the Income Tax Department of India in December 2025, followed by a similar campaign aimed at Russian entities. \"Both waves followed a nearly identical",
+      "description": "The China-based cybercrime group known as Silver Fox has been linked to a new campaign targeting organizations in Russia and India with a new malware called ABCDoor. The activity involved using phishing emails that mimic correspondence from the Income Tax Department of India in December 2025, followed by a similar campaign aimed at Russian entities in January 2026. \"Both waves followed a nearly",
       "source": "thehackernews.com"
     },
     {
@@ -153,35 +188,35 @@
       "title": "ZDI-CAN-30796: Docker",
       "link": "http://www.zerodayinitiative.com/advisories/upcoming/",
       "date": "2026-04-30T05:00:00Z",
-      "description": "A CVSS score 6.5 AV:L/AC:L/PR:L/UI:N/S:C/C:N/I:N/A:H severity vulnerability discovered by 'Nitesh Surana (niteshsurana.com) of TrendAI Research' was reported to the affected vendor on: 2026-04-30, 4 days ago. The vendor is given until 2026-08-28 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
+      "description": "A CVSS score 6.5 AV:L/AC:L/PR:L/UI:N/S:C/C:N/I:N/A:H severity vulnerability discovered by 'Nitesh Surana (niteshsurana.com) of TrendAI Research' was reported to the affected vendor on: 2026-04-30, 5 days ago. The vendor is given until 2026-08-28 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
       "source": "zerodayinitiative.com"
     },
     {
       "title": "ZDI-CAN-29987: Adobe",
       "link": "http://www.zerodayinitiative.com/advisories/upcoming/",
       "date": "2026-04-30T05:00:00Z",
-      "description": "A CVSS score 7.8 AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H severity vulnerability discovered by 'Anonymous' was reported to the affected vendor on: 2026-04-30, 4 days ago. The vendor is given until 2026-08-28 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
+      "description": "A CVSS score 7.8 AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H severity vulnerability discovered by 'Anonymous' was reported to the affected vendor on: 2026-04-30, 5 days ago. The vendor is given until 2026-08-28 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
       "source": "zerodayinitiative.com"
     },
     {
       "title": "ZDI-CAN-30387: Adobe",
       "link": "http://www.zerodayinitiative.com/advisories/upcoming/",
       "date": "2026-04-30T05:00:00Z",
-      "description": "A CVSS score 7.8 AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H severity vulnerability discovered by 'Anonymous' was reported to the affected vendor on: 2026-04-30, 4 days ago. The vendor is given until 2026-08-28 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
+      "description": "A CVSS score 7.8 AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H severity vulnerability discovered by 'Anonymous' was reported to the affected vendor on: 2026-04-30, 5 days ago. The vendor is given until 2026-08-28 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
       "source": "zerodayinitiative.com"
     },
     {
       "title": "ZDI-CAN-30755: Foxit",
       "link": "http://www.zerodayinitiative.com/advisories/upcoming/",
       "date": "2026-04-30T05:00:00Z",
-      "description": "A CVSS score 3.3 AV:L/AC:L/PR:N/UI:R/S:U/C:L/I:N/A:N severity vulnerability discovered by 'Anonymous' was reported to the affected vendor on: 2026-04-30, 4 days ago. The vendor is given until 2026-08-28 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
+      "description": "A CVSS score 3.3 AV:L/AC:L/PR:N/UI:R/S:U/C:L/I:N/A:N severity vulnerability discovered by 'Anonymous' was reported to the affected vendor on: 2026-04-30, 5 days ago. The vendor is given until 2026-08-28 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
       "source": "zerodayinitiative.com"
     },
     {
       "title": "ZDI-CAN-30696: Foxit",
       "link": "http://www.zerodayinitiative.com/advisories/upcoming/",
       "date": "2026-04-30T05:00:00Z",
-      "description": "A CVSS score 7.8 AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H severity vulnerability discovered by 'Anonymous' was reported to the affected vendor on: 2026-04-30, 4 days ago. The vendor is given until 2026-08-28 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
+      "description": "A CVSS score 7.8 AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H severity vulnerability discovered by 'Anonymous' was reported to the affected vendor on: 2026-04-30, 5 days ago. The vendor is given until 2026-08-28 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
       "source": "zerodayinitiative.com"
     },
     {
