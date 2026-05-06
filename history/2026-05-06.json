@@ -1,7 +1,67 @@
 {
   "date": "2026-05-06",
-  "count": 34,
+  "count": 40,
   "items": [
+    {
+      "id": "31708f06e37bc81ce6c35445ab52728109cccd88",
+      "title": "Member of Prolific Russian Ransomware Group Sentenced to 102 Months in Prison",
+      "link": "https://cybersecuritynews.com/ransomware-group-member-sentenced/",
+      "date": "2026-05-06T17:19:25Z",
+      "description": "A Latvian national operating out of Moscow was sentenced to 102 months in federal prison for his central role in a sprawling Russian ransomware syndicate. Deniss Zolotarjovs, 35, served as a primary extortionist and negotiator for a highly organized cybercriminal network that attacked over 54 companies worldwide. The United States Justice Department announced the sentencing, […] The post Member…",
+      "source": "cybersecuritynews.com",
+      "first_seen": "2026-05-06T17:21:25Z",
+      "last_seen": "2026-05-06T17:21:25Z"
+    },
+    {
+      "id": "d1f233c57cc6a000781ef6062e699cf6fd508cf8",
+      "title": "Argo CD’s ServerSideDiff Vulnerability Enables Kubernetes Secret Extraction",
+      "link": "https://cybersecuritynews.com/argo-cds-serversidediff-vulnerability/",
+      "date": "2026-05-06T17:17:59Z",
+      "description": "A critical cybersecurity vulnerability has been uncovered in Argo CD, a widely used declarative GitOps continuous delivery tool for Kubernetes environments. Tracked as CVE-2026-43824, this high-severity flaw allows low-privileged users to extract plaintext Kubernetes Secrets directly from a cluster. According to security analysis from Devoriales, the vulnerability carries a severe CVSS score of…",
+      "source": "cybersecuritynews.com",
+      "first_seen": "2026-05-06T17:21:25Z",
+      "last_seen": "2026-05-06T17:21:25Z"
+    },
+    {
+      "id": "4af753dfe95dc9cf3d30facef327c44e2cb3bf54",
+      "title": "Taiwan High Speed Rail Hacked Using Radio Signal Spoofing Attack That Halted Three Trains",
+      "link": "https://cybersecuritynews.com/taiwan-high-speed-rail-hacked/",
+      "date": "2026-05-06T17:16:14Z",
+      "description": "On the final night of the Qingming Festival holiday, three Taiwan High Speed Rail trains were forced into emergency stops due to a sophisticated radio signal spoofing attack. The malicious transmission triggered false alarms across the network, causing a nearly hour-long delay for passengers. Authorities have since apprehended a 23-year-old college student in connection with […] The post Taiwan…",
+      "source": "cybersecuritynews.com",
+      "first_seen": "2026-05-06T17:21:25Z",
+      "last_seen": "2026-05-06T17:21:25Z"
+    },
+    {
+      "id": "08aae7307e431f2fbdb502811958f776e988c417",
+      "title": "New MajorDoMo RCE Vulnerability Exposes Servers to Code Execution Attacks",
+      "link": "https://cybersecuritynews.com/majordomo-rce-vulnerability/",
+      "date": "2026-05-06T17:14:37Z",
+      "description": "A newly disclosed flaw exposes internet-facing MajorDoMo servers to unauthenticated remote code execution via a broken authentication flow and unsafe dynamic PHP evaluation. The vulnerability (CVE-2026-27174) stems from the /admin.php request flow, where improper handling of unauthorized access allows execution to continue even after a redirect, effectively bypassing access controls. That…",
+      "source": "cybersecuritynews.com",
+      "first_seen": "2026-05-06T17:21:25Z",
+      "last_seen": "2026-05-06T17:21:25Z"
+    },
+    {
+      "id": "1b148a63c20f4ebd0a42aa32f7206b2b4ea27f7f",
+      "title": "New Phishing-to-RMM Attacks: How Analysts Can Detect Trusted-Tool Abuse Early",
+      "link": "https://cybersecuritynews.com/phishing-to-rmm-attacks-detection/",
+      "date": "2026-05-06T16:57:58Z",
+      "description": "ANY.RUN researchers uncovered a phishing-to-RMM campaign in which attackers use fake Microsoft, Adobe, and OneDrive pages to deliver legitimate remote management tools such as ScreenConnect and LogMeIn Rescue. Detection is difficult because the payload and infrastructure can look legitimate in isolation. Analysts need to connect the full chain, from phishing lure to RMM execution and outbound…",
+      "source": "cybersecuritynews.com",
+      "first_seen": "2026-05-06T17:21:25Z",
+      "last_seen": "2026-05-06T17:21:25Z"
+    },
+    {
+      "id": "fa5134b81c2612036e263d654353ad39c2862d7f",
+      "title": "DAEMON Tools devs confirm breach, release malware-free version",
+      "link": "https://www.bleepingcomputer.com/news/security/daemon-tools-devs-confirm-breach-release-malware-free-version/",
+      "date": "2026-05-06T16:43:30Z",
+      "description": "Disc Soft Limited, the maker of DAEMON Tools Lite, confirmed that the software had been trojanized in a supply chain attack and released a new, malware-free version. [...]",
+      "source": "bleepingcomputer.com",
+      "first_seen": "2026-05-06T17:21:25Z",
+      "last_seen": "2026-05-06T17:21:25Z"
+    },
     {
       "id": "4a285733ddca260fddc85264c81eca047146eacc",
       "title": "Salesforce Marketing Cloud Vulnerability Opened Door to Email Data Exposure",
@@ -20,7 +80,7 @@
       "description": "The company raised another $35 million as an extension to its previously announced Series C funding round. The post Autonomous Offensive Security Firm XBOW Raises $35 Million appeared first on SecurityWeek.",
       "source": "securityweek.com",
       "first_seen": "2026-05-06T15:21:27Z",
-      "last_seen": "2026-05-06T15:21:27Z"
+      "last_seen": "2026-05-06T17:21:25Z"
     },
     {
       "id": "be922f37255a01480cac2b7451c42895696ebb8a",
@@ -30,7 +90,7 @@
       "description": "Backups don't fail because they're missing, they fail because attackers destroy them first. Acronis explains how ransomware targets backup systems before encryption, leaving no path to recovery. [...]",
       "source": "bleepingcomputer.com",
       "first_seen": "2026-05-06T15:21:27Z",
-      "last_seen": "2026-05-06T15:21:27Z"
+      "last_seen": "2026-05-06T17:21:25Z"
     },
     {
       "id": "ce6383e361ac199d720d1388267f4df4572d9cb0",
@@ -60,7 +120,7 @@
       "description": "The startup will invest in expanding its training categories, optimizing video generation, and growing its partnership ecosystem. The post Herd Security Raises $3 Million for AI-Powered Training Platform appeared first on SecurityWeek.",
       "source": "securityweek.com",
       "first_seen": "2026-05-06T15:21:27Z",
-      "last_seen": "2026-05-06T15:21:27Z"
+      "last_seen": "2026-05-06T17:21:25Z"
     },
     {
       "id": "692a329ef988a6a23f8594a3c6ec0bf96d6d0328",
@@ -70,7 +130,7 @@
       "description": "The MuddyWater Iranian hackers disguised their operations as a Chaos ransomware attack, relying on Microsoft Teams social engineering to gain access and establish persistence. [...]",
       "source": "bleepingcomputer.com",
       "first_seen": "2026-05-06T15:21:27Z",
-      "last_seen": "2026-05-06T15:21:27Z"
+      "last_seen": "2026-05-06T17:21:25Z"
     },
     {
       "id": "b19fed1ad7d2deb514badcbed4dffdc40b269b4f",
@@ -80,7 +140,7 @@
       "description": "Likely perpetrated by MuddyWater, the attack combined social engineering, persistence, credential harvesting, and data theft. The post Iranian APT Intrusion Masquerades as Chaos Ransomware Attack appeared first on SecurityWeek.",
       "source": "securityweek.com",
       "first_seen": "2026-05-06T15:21:27Z",
-      "last_seen": "2026-05-06T15:21:27Z"
+      "last_seen": "2026-05-06T17:21:25Z"
     },
     {
       "id": "b9e6e3065ecb9fcb3cb6b830d1bf97aa90a498bf",
@@ -90,7 +150,7 @@
       "description": "The Iranian state-sponsored hacking group known as MuddyWater (aka Mango Sandstorm, Seedworm, and Static Kitten) has been attributed to a ransomware attack in what has been described as a \"false flag\" operation. The attack, observed by Rapid7 in early 2026, has been found to leverage social engineering techniques via Microsoft Teams to initiate the infection sequence. Although the incident",
       "source": "thehackernews.com",
       "first_seen": "2026-05-06T15:21:27Z",
-      "last_seen": "2026-05-06T15:21:27Z"
+      "last_seen": "2026-05-06T17:21:25Z"
     },
     {
       "id": "2de91a254c9352ae01eca6c89bb2c830a7b16051",
@@ -100,7 +160,7 @@
       "description": "Most network incidents don't escalate due to a lack of alerts; they escalate when response breaks down. This webinar explores how to fix gaps in triage, enrichment, and coordination. [...]",
       "source": "bleepingcomputer.com",
       "first_seen": "2026-05-06T15:21:27Z",
-      "last_seen": "2026-05-06T15:21:27Z"
+      "last_seen": "2026-05-06T17:21:25Z"
     },
     {
       "id": "836164dc2fb0857e1a3bda044797be3402a4428a",
@@ -120,7 +180,7 @@
       "description": "For nearly 20 years, we at The Hacker News have mostly told scary stories about cyberspace — big hacks, broken systems, and new threats. But behind every headline, there’s a quieter, better story. It’s the story of leaders making tough calls under pressure, teams building smarter defenses, and security products that keep hunting threats 24/7 — even when it’s hard. Most of the time, this work is",
       "source": "thehackernews.com",
       "first_seen": "2026-05-06T15:21:27Z",
-      "last_seen": "2026-05-06T15:21:27Z"
+      "last_seen": "2026-05-06T17:21:25Z"
     },
     {
       "id": "37d43e6cbca99aa077ea4674f59a5c8171e3bc2d",
@@ -130,7 +190,7 @@
       "description": "As part of its 20th anniversary celebration, Dark Reading looks back on 20 of the biggest newsmaking events from the past two decades that influenced the risk landscape for today's cybersecurity teams.",
       "source": "darkreading.com",
       "first_seen": "2026-05-06T12:22:55Z",
-      "last_seen": "2026-05-06T15:21:27Z"
+      "last_seen": "2026-05-06T17:21:25Z"
     },
     {
       "id": "60aa978762dff81b4a2a699dcd2f7fd1177c71e2",
@@ -150,7 +210,7 @@
       "description": "Gavril Sandu, 53, was indicted in 2017, but was arrested and extradited to the United States only in 2026. The post Romanian Man Extradited to US for Role in Hacking Scheme 17 Years Ago appeared first on SecurityWeek.",
       "source": "securityweek.com",
       "first_seen": "2026-05-06T15:21:27Z",
-      "last_seen": "2026-05-06T15:21:27Z"
+      "last_seen": "2026-05-06T17:21:25Z"
     },
     {
       "id": "ca6a0239d8814dab28da05928acfa431f72089d3",
@@ -170,7 +230,7 @@
       "description": "Analysts recently confirmed what identity security teams have quietly feared: AI agents are being deployed faster than enterprises can govern them. In their inaugural Market Guide for Guardian Agents, Gartner states that “enterprise adoption of AI agents is accelerating, outpacing maturity of governance policy controls.” Enterprise leaders can request access to the Gartner Market Guide for",
       "source": "thehackernews.com",
       "first_seen": "2026-05-06T15:21:27Z",
-      "last_seen": "2026-05-06T15:21:27Z"
+      "last_seen": "2026-05-06T17:21:25Z"
     },
     {
       "id": "fa31967f91184b1885c754def94321c7b5bfa569",
@@ -180,7 +240,7 @@
       "description": "In hard-to-detect attacks, hackers are dropping the CloudZ RAT and a fresh plugin, Pheno, to hijack the Windows-based bridge between PCs and smartphones.",
       "source": "darkreading.com",
       "first_seen": "2026-05-06T15:21:27Z",
-      "last_seen": "2026-05-06T15:21:27Z"
+      "last_seen": "2026-05-06T17:21:25Z"
     },
     {
       "id": "69a7371756a503ff611580de9b21cf1708f94168",
@@ -190,7 +250,7 @@
       "description": "The agency has issued guidance to help critical infrastructure operators prepare for cyberattacks by foreign threat actors. The post CISA: Critical Infrastructure Must Master Isolation, Recovery appeared first on SecurityWeek.",
       "source": "securityweek.com",
       "first_seen": "2026-05-06T10:55:37Z",
-      "last_seen": "2026-05-06T15:21:27Z"
+      "last_seen": "2026-05-06T17:21:25Z"
     },
     {
       "id": "05ca36295e3342db5a3d87d37ae6c7e7fe085d38",
@@ -220,7 +280,7 @@
       "description": "Palo Alto Networks warned customers today that a critical-severity unpatched vulnerability in the PAN-OS User-ID Authentication Portal is being exploited in attacks. [...]",
       "source": "bleepingcomputer.com",
       "first_seen": "2026-05-06T10:55:37Z",
-      "last_seen": "2026-05-06T15:21:27Z"
+      "last_seen": "2026-05-06T17:21:25Z"
     },
     {
       "id": "7cc732769d0f45be5deea55edbdbb5ca9b1279d9",
@@ -230,7 +290,7 @@
       "description": "Google has announced expanded Binary Transparency for Android as a way to safeguard the ecosystem from supply chain attacks. \"This new public ledger ensures the Google apps on your device are exactly what we intended to build and distribute,\" Google's product and security teams said. The initiative builds upon the foundation of Pixel Binary Transparency, which Google introduced in October 2021",
       "source": "thehackernews.com",
       "first_seen": "2026-05-06T10:55:37Z",
-      "last_seen": "2026-05-06T15:21:27Z"
+      "last_seen": "2026-05-06T17:21:25Z"
     },
     {
       "id": "a62d89bf1eb274f9af25b783bd30364bc710eb69",
@@ -240,7 +300,7 @@
       "description": "Cybersecurity researchers have disclosed details of an intrusion that involved the use of a CloudZ remote access tool (RAT) and a previous undocumented plugin dubbed Pheno with the aim of facilitating credential theft. \"According to the functionalities of the CloudZ RAT and Pheno plugin, this was with the intention of stealing victims' credentials and potentially one-time passwords (OTPs),\"",
       "source": "thehackernews.com",
       "first_seen": "2026-05-06T10:55:37Z",
-      "last_seen": "2026-05-06T15:21:27Z"
+      "last_seen": "2026-05-06T17:21:25Z"
     },
     {
       "id": "63b2d0b642edeb36e1feb4edf63e57502b4f8aa0",
@@ -300,7 +360,7 @@
       "description": "As the war with Iran continues, breach attempts targeting the United Arab Emirates tripled in a few weeks — many targeting critical infrastructure.",
       "source": "darkreading.com",
       "first_seen": "2026-05-06T10:55:37Z",
-      "last_seen": "2026-05-06T15:21:27Z"
+      "last_seen": "2026-05-06T17:21:25Z"
     },
     {
       "id": "3c0d7ec9d5ddae896296efca951214e5604d9baf",
@@ -330,7 +390,7 @@
       "description": "The UC Berkeley Center for Long-Term Cybersecurity (CLTC) offers tools and support to schools, local governments, and non-profits as they defend themselves against a growing volume of cyberattacks.",
       "source": "darkreading.com",
       "first_seen": "2026-05-06T12:22:55Z",
-      "last_seen": "2026-05-06T15:21:27Z"
+      "last_seen": "2026-05-06T17:21:25Z"
     },
     {
       "id": "eacce155d8ec91dc92ec876d702503245b8b004d",

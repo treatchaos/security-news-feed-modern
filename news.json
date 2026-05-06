@@ -1,13 +1,48 @@
 {
-  "last_updated": "2026-05-06T15:21:27Z",
+  "last_updated": "2026-05-06T17:21:25Z",
   "count": 40,
   "items": [
     {
-      "title": "Salesforce Marketing Cloud Vulnerability Opened Door to Email Data Exposure",
-      "link": "https://cybersecuritynews.com/salesforce-marketing-cloud-vulnerability/",
-      "date": "2026-05-06T14:57:44Z",
-      "description": "A significant set of security vulnerabilities in Salesforce Marketing Cloud (SFMC) could have allowed attackers to read and expose private email data belonging to millions of users across hundreds of organizations. The flaws, now patched, were rooted in the platform’s built-in scripting features and a decades-old encryption method that was never properly retired. At their […] The post Salesforce…",
+      "title": "Member of Prolific Russian Ransomware Group Sentenced to 102 Months in Prison",
+      "link": "https://cybersecuritynews.com/ransomware-group-member-sentenced/",
+      "date": "2026-05-06T17:19:25Z",
+      "description": "A Latvian national operating out of Moscow was sentenced to 102 months in federal prison for his central role in a sprawling Russian ransomware syndicate. Deniss Zolotarjovs, 35, served as a primary extortionist and negotiator for a highly organized cybercriminal network that attacked over 54 companies worldwide. The United States Justice Department announced the sentencing, […] The post Member…",
       "source": "cybersecuritynews.com"
+    },
+    {
+      "title": "Argo CD’s ServerSideDiff Vulnerability Enables Kubernetes Secret Extraction",
+      "link": "https://cybersecuritynews.com/argo-cds-serversidediff-vulnerability/",
+      "date": "2026-05-06T17:17:59Z",
+      "description": "A critical cybersecurity vulnerability has been uncovered in Argo CD, a widely used declarative GitOps continuous delivery tool for Kubernetes environments. Tracked as CVE-2026-43824, this high-severity flaw allows low-privileged users to extract plaintext Kubernetes Secrets directly from a cluster. According to security analysis from Devoriales, the vulnerability carries a severe CVSS score of…",
+      "source": "cybersecuritynews.com"
+    },
+    {
+      "title": "Taiwan High Speed Rail Hacked Using Radio Signal Spoofing Attack That Halted Three Trains",
+      "link": "https://cybersecuritynews.com/taiwan-high-speed-rail-hacked/",
+      "date": "2026-05-06T17:16:14Z",
+      "description": "On the final night of the Qingming Festival holiday, three Taiwan High Speed Rail trains were forced into emergency stops due to a sophisticated radio signal spoofing attack. The malicious transmission triggered false alarms across the network, causing a nearly hour-long delay for passengers. Authorities have since apprehended a 23-year-old college student in connection with […] The post Taiwan…",
+      "source": "cybersecuritynews.com"
+    },
+    {
+      "title": "New MajorDoMo RCE Vulnerability Exposes Servers to Code Execution Attacks",
+      "link": "https://cybersecuritynews.com/majordomo-rce-vulnerability/",
+      "date": "2026-05-06T17:14:37Z",
+      "description": "A newly disclosed flaw exposes internet-facing MajorDoMo servers to unauthenticated remote code execution via a broken authentication flow and unsafe dynamic PHP evaluation. The vulnerability (CVE-2026-27174) stems from the /admin.php request flow, where improper handling of unauthorized access allows execution to continue even after a redirect, effectively bypassing access controls. That…",
+      "source": "cybersecuritynews.com"
+    },
+    {
+      "title": "New Phishing-to-RMM Attacks: How Analysts Can Detect Trusted-Tool Abuse Early",
+      "link": "https://cybersecuritynews.com/phishing-to-rmm-attacks-detection/",
+      "date": "2026-05-06T16:57:58Z",
+      "description": "ANY.RUN researchers uncovered a phishing-to-RMM campaign in which attackers use fake Microsoft, Adobe, and OneDrive pages to deliver legitimate remote management tools such as ScreenConnect and LogMeIn Rescue. Detection is difficult because the payload and infrastructure can look legitimate in isolation. Analysts need to connect the full chain, from phishing lure to RMM execution and outbound…",
+      "source": "cybersecuritynews.com"
+    },
+    {
+      "title": "DAEMON Tools devs confirm breach, release malware-free version",
+      "link": "https://www.bleepingcomputer.com/news/security/daemon-tools-devs-confirm-breach-release-malware-free-version/",
+      "date": "2026-05-06T16:43:30Z",
+      "description": "Disc Soft Limited, the maker of DAEMON Tools Lite, confirmed that the software had been trojanized in a supply chain attack and released a new, malware-free version. [...]",
+      "source": "bleepingcomputer.com"
     },
     {
       "title": "Autonomous Offensive Security Firm XBOW Raises $35 Million",
@@ -22,20 +57,6 @@
       "date": "2026-05-06T14:04:14Z",
       "description": "Backups don't fail because they're missing, they fail because attackers destroy them first. Acronis explains how ransomware targets backup systems before encryption, leaving no path to recovery. [...]",
       "source": "bleepingcomputer.com"
-    },
-    {
-      "title": "Malicious OpenClaw DeepSeek Skill Exploits Agentic AI Workflows to Deliver RAT and Stealer",
-      "link": "https://cybersecuritynews.com/malicious-openclaw-deepseek-skill-exploits-agentic-ai/",
-      "date": "2026-05-06T14:04:10Z",
-      "description": "A cleverly disguised malware campaign is targeting developers and AI-driven systems by hiding inside what looks like a legitimate plugin for an open-source AI framework. Security researchers have uncovered a threat that takes full advantage of how modern AI agents work, using their automated nature as a weapon against the very users they are meant […] The post Malicious OpenClaw DeepSeek Skill…",
-      "source": "cybersecuritynews.com"
-    },
-    {
-      "title": "Iranian-Nexus Operation Targets Oman Ministries With Webshells, SQL Escalation, and Data Theft",
-      "link": "https://cybersecuritynews.com/iranian-nexus-operation-targets-oman-ministries-with-webshells/",
-      "date": "2026-05-06T13:40:36Z",
-      "description": "A sophisticated cyber operation linked to an Iranian-nexus threat actor has quietly worked through at least 12 Omani government ministries, stealing tens of thousands of citizen records and leaving persistent backdoors behind. The attackers used webshells, SQL server escalation, and old but effective exploits to move through government networks. What made the discovery possible was […] The post…",
-      "source": "cybersecuritynews.com"
     },
     {
       "title": "Herd Security Raises $3 Million for AI-Powered Training Platform",
@@ -73,13 +94,6 @@
       "source": "bleepingcomputer.com"
     },
     {
-      "title": "Remus Infostealer Uses Lumma-Style Browser Key Theft and Application-Bound Encryption Bypass",
-      "link": "https://cybersecuritynews.com/remus-infostealer-uses-lumma-style-browser-key-theft/",
-      "date": "2026-05-06T12:13:34Z",
-      "description": "A dangerous new piece of malware called Remus has surfaced, quietly picking up where one of the most feared information stealers left off. Designed to steal browser passwords, cookies, and cryptocurrency wallets, Remus carries the DNA of Lumma Stealer, one of the most technically advanced stealers-as-a-service seen in recent history. Remus first appeared in the […] The post Remus Infostealer…",
-      "source": "cybersecuritynews.com"
-    },
-    {
       "title": "The Hacker News Launches 'Cybersecurity Stars Awards 2026' — Submissions Now Open",
       "link": "https://thehackernews.com/2026/05/the-hacker-news-launches-cybersecurity.html",
       "date": "2026-05-06T12:03:00Z",
@@ -99,13 +113,6 @@
       "date": "2026-05-06T11:57:40Z",
       "description": "Gavril Sandu, 53, was indicted in 2017, but was arrested and extradited to the United States only in 2026. The post Romanian Man Extradited to US for Role in Hacking Scheme 17 Years Ago appeared first on SecurityWeek.",
       "source": "securityweek.com"
-    },
-    {
-      "title": "Zero-Auth Flaw Exposes DoD Contractor to Cross-Tenant Data Access",
-      "link": "https://cybersecuritynews.com/zero-auth-flaw-exposes-dod-contractor/",
-      "date": "2026-05-06T11:49:25Z",
-      "description": "A severe zero-authorization vulnerability in Schemata’s API, an AI-powered virtual training platform holding active Department of Defense (DoD) contracts, recently exposed highly sensitive military training materials and U.S. service member records. Discovered by the open-source AI hacking agent Strix, the flaw allowed ordinary, low-privileged accounts to access cross-tenant data across the…",
-      "source": "cybersecuritynews.com"
     },
     {
       "title": "Your AI Agents Are Already Inside the Perimeter. Do You Know What They're Doing?",
@@ -155,13 +162,6 @@
       "date": "2026-05-06T05:30:00Z",
       "description": "As the war with Iran continues, breach attempts targeting the United Arab Emirates tripled in a few weeks — many targeting critical infrastructure.",
       "source": "darkreading.com"
-    },
-    {
-      "title": "New stealthy Quasar Linux malware targets software developers",
-      "link": "https://www.bleepingcomputer.com/news/security/new-stealthy-quasar-linux-malware-targets-software-developers/",
-      "date": "2026-05-05T22:01:39Z",
-      "description": "A previously undocumented Linux implant named Quasar Linux (QLNX) is targeting developers' systems with a mix of rootkit, backdoor, and credential-stealing capabilities. [...]",
-      "source": "bleepingcomputer.com"
     },
     {
       "title": "Trellix Source Code Breach Highlights Growing Supply Chain Threats",
