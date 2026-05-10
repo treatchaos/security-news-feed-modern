@@ -1,20 +1,20 @@
 {
-  "last_updated": "2026-05-10T12:53:08Z",
-  "count": 40,
+  "last_updated": "2026-05-10T15:42:15Z",
+  "count": 35,
   "items": [
+    {
+      "title": "Police shut down reboot of Crimenetwork marketplace, arrest admin",
+      "link": "https://www.bleepingcomputer.com/news/security/police-shut-down-reboot-of-crimenetwork-marketplace-arrest-admin/",
+      "date": "2026-05-10T14:16:47Z",
+      "description": "German authorities have shut down a relaunch version of the criminal marketplace 'Crimenetwork' that generated more than 3.6 million euros, and arrested its operator. [...]",
+      "source": "bleepingcomputer.com"
+    },
     {
       "title": "Ollama Out-of-Bounds Read Vulnerability Allows Remote Process Memory Leak",
       "link": "https://thehackernews.com/2026/05/ollama-out-of-bounds-read-vulnerability.html",
       "date": "2026-05-10T12:41:00Z",
       "description": "Cybersecurity researchers have disclosed a critical security vulnerability in Ollama that, if successfully exploited, could allow a remote, unauthenticated attacker to leak its entire process memory. The out-of-bounds read flaw, which likely impacts over 300,000 servers globally, is tracked as CVE-2026-7482 (CVSS score: 9.1). It has been codenamed Bleeding Llama by Cyera. Ollama is a",
       "source": "thehackernews.com"
-    },
-    {
-      "title": "New cPanel and WHM Flaws Enable Code Execution, DoS Attacks",
-      "link": "https://cybersecuritynews.com/cpanel-and-whm-flaws/",
-      "date": "2026-05-10T05:25:15Z",
-      "description": "cPanel has disclosed three critical security vulnerabilities tracked as CVE-2026-29201, CVE-2026-29202, and CVE-2026-29203 affecting its widely deployed cPanel & WHM web hosting control panel and WP Squared (WP2) platform. The flaws, patched on May 8, 2026, expose servers to arbitrary file reads, Perl code injection, and denial-of-service (DoS) attacks, making immediate patching essential for…",
-      "source": "cybersecuritynews.com"
     },
     {
       "title": "JDownloader site hacked to replace installers with Python RAT malware",
@@ -36,34 +36,6 @@
       "date": "2026-05-09T07:16:00Z",
       "description": "cPanel has released updates to address three vulnerabilities in cPanel and Web Host Manager (WHM) that could be exploited to achieve privilege escalation, code execution, and denial-of-service. The list of vulnerabilities is as follows - CVE-2026-29201 (CVSS score: 4.3) - An insufficient input validation of the feature file name in the \"feature::LOADFEATUREFILE\" adminbin call that could result",
       "source": "thehackernews.com"
-    },
-    {
-      "title": "TCLBANKER Malware Targets Users Through Self-Propagating WhatsApp and Outlook Worm Modules",
-      "link": "https://cybersecuritynews.com/tclbanker-malware-targets-users-whatsapp-outlook-worm-modules/",
-      "date": "2026-05-09T06:00:28Z",
-      "description": "A highly sophisticated Brazilian banking trojan named TCLBANKER, tracked under the campaign REF3076, this malware represents a major update to the older Maverick and SORVEPOTEL families. It stands out because it uses a fake, signed Logitech installer to infect systems and spreads automatically via WhatsApp and Microsoft Outlook. The attack begins when a user downloads […] The post TCLBANKER…",
-      "source": "cybersecuritynews.com"
-    },
-    {
-      "title": "NVIDIA Data Breach Reportedly Exposes Personal Information of GeForce Users",
-      "link": "https://cybersecuritynews.com/nvidia-data-breach-geforce-users/",
-      "date": "2026-05-09T03:33:48Z",
-      "description": "A data breach at GFN.AM, an authorized NVIDIA GeForce NOW cloud gaming service provider operating under “GFN CLOUD INTERNET SERVICES” LLC, has exposed personal information belonging to registered users. The company disclosed the incident on May 5, 2026, revealing that unauthorized access to its database occurred as far back as March 9, 2026, nearly two […] The post NVIDIA Data Breach Reportedly…",
-      "source": "cybersecuritynews.com"
-    },
-    {
-      "title": "Let’s Encrypt Halts Certificate Issuance After Cross-Signed Root Certificate Incident",
-      "link": "https://cybersecuritynews.com/lets-encrypt-halts-certificate-issuance/",
-      "date": "2026-05-09T03:00:51Z",
-      "description": "Let’s Encrypt temporarily suspended all certificate issuance on May 8, 2026, after engineers identified a critical issue involving a cross-signed certificate linking the organization’s Generation X root to its upcoming Generation Y root infrastructure. The incident triggered a complete shutdown of issuance across both production and staging environments before services were restored within…",
-      "source": "cybersecuritynews.com"
-    },
-    {
-      "title": "Critical Microsoft 365 Copilot Vulnerabilities Expose sensitive Information",
-      "link": "https://cybersecuritynews.com/microsoft-365-copilot-vulnerabilities-data/",
-      "date": "2026-05-09T02:34:14Z",
-      "description": "Microsoft has disclosed and fully remediated three critical information disclosure vulnerabilities affecting Microsoft 365 Copilot and Copilot Chat in Microsoft Edge, all released on May 7, 2026, requiring no action from end users or administrators. Microsoft’s Security Response Center published advisories for CVE-2026-26129, CVE-2026-26164, and CVE-2026-33111 as part of its ongoing commitment…",
-      "source": "cybersecuritynews.com"
     },
     {
       "title": "ShinyHunters Claims Second Attack Against Instructure",
@@ -113,13 +85,6 @@
       "date": "2026-05-08T14:01:00Z",
       "description": "The hardest part of cybersecurity isn't the technology, it’s the people. Every major breach you’ve read about lately usually starts the same way: one employee, one clever email, and one \"Patient Zero\" infection. In 2026, hackers are using AI to make these \"first clicks\" nearly impossible to spot. If a single laptop gets compromised on your watch, do you have a plan to stop it from taking down",
       "source": "thehackernews.com"
-    },
-    {
-      "title": "Trellix source code breach claimed by RansomHouse hackers",
-      "link": "https://www.bleepingcomputer.com/news/security/trellix-source-code-breach-claimed-by-ransomhouse-hackers/",
-      "date": "2026-05-08T13:23:23Z",
-      "description": "The attack on the Trellix source code repository disclosed last week has been claimed by the RansomHouse threat group, which leaked a small set of images as proof of the intrusion. [...]",
-      "source": "bleepingcomputer.com"
     },
     {
       "title": "Polish Security Agency Reports ICS Breaches at Five Water Treatment Plants",
