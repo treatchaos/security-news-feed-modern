@@ -1,7 +1,21 @@
 {
-  "last_updated": "2026-05-11T16:23:34Z",
+  "last_updated": "2026-05-11T18:50:05Z",
   "count": 40,
   "items": [
+    {
+      "title": "cPanel CVE-2026-41940 Under Active Exploitation to Deploy Filemanager Backdoor",
+      "link": "https://thehackernews.com/2026/05/cpanel-cve-2026-41940-under-active.html",
+      "date": "2026-05-11T17:54:00Z",
+      "description": "A threat actor named Mr_Rot13 has been attributed to the exploitation of a recently disclosed critical cPanel flaw to deploy a backdoor codenamed Filemanager on compromised environments. The attack exploits CVE-2026-41940, a vulnerability impacting cPanel and WebHost Manager (WHM) that could result in an authentication bypass and allow remote attackers to gain elevated control of the control",
+      "source": "thehackernews.com"
+    },
+    {
+      "title": "Frame Security Emerges From Stealth With $50M for Awareness and Training Platform",
+      "link": "https://www.securityweek.com/frame-security-emerges-from-stealth-with-50m-for-awareness-and-training-platform/",
+      "date": "2026-05-11T17:17:37Z",
+      "description": "Team8, Index Ventures, Picture Capital, Elad Gil, Cerca Partners, and Tesonet invested in Frame Security. The post Frame Security Emerges From Stealth With $50M for Awareness and Training Platform appeared first on SecurityWeek.",
+      "source": "securityweek.com"
+    },
     {
       "title": "Popular Go Library fsnotify Raises Supply Chain Alarms After Maintainer Access Changes",
       "link": "https://cybersecuritynews.com/popular-go-library-fsnotify-raises-supply-chain/",
@@ -22,6 +36,13 @@
       "date": "2026-05-11T15:55:58Z",
       "description": "Cybercriminals are getting creative with how they lure victims into downloading malware, and a new campaign involving a fake version of Anthropic’s Claude AI assistant is raising serious concerns. Attackers set up a convincing lookalike website to distribute a dangerous installer that quietly plants a backdoor on infected systems. The campaign uses a chain of […] The post Hackers Use PlugX-Like…",
       "source": "cybersecuritynews.com"
+    },
+    {
+      "title": "Hackers Used AI to Develop First Known Zero-Day 2FA Bypass for Mass Exploitation",
+      "link": "https://thehackernews.com/2026/05/hackers-used-ai-to-develop-first-known.html",
+      "date": "2026-05-11T15:45:00Z",
+      "description": "Google on Monday disclosed that it identified an unknown threat actor using a zero-day exploit that it said was likely developed with an artificial intelligence (AI) system, marking the first time the technology has been put to use in the wild in a malicious context for vulnerability discovery and exploit generation. The activity is said to be the work of cybercrime threat actors who appear to",
+      "source": "thehackernews.com"
     },
     {
       "title": "Instructure confirms hackers used Canvas flaw to deface portals",
@@ -129,13 +150,6 @@
       "source": "securityweek.com"
     },
     {
-      "title": "SailPoint Discloses GitHub Repository Hack",
-      "link": "https://www.securityweek.com/sailpoint-discloses-github-repository-hack/",
-      "date": "2026-05-11T10:52:23Z",
-      "description": "The incident occurred on April 20 and did not affect customer data in the company’s production and staging environments. The post SailPoint Discloses GitHub Repository Hack appeared first on SecurityWeek.",
-      "source": "securityweek.com"
-    },
-    {
       "title": "TrickMo Android banker adopts TON blockchain for covert comms",
       "link": "https://www.bleepingcomputer.com/news/security/trickmo-android-banker-adopts-ton-blockchain-for-covert-comms/",
       "date": "2026-05-11T09:03:02Z",
@@ -150,18 +164,39 @@
       "source": "thehackernews.com"
     },
     {
-      "title": "Ollama Out-of-Bounds Read Vulnerability Allows Remote Process Memory Leak",
-      "link": "https://thehackernews.com/2026/05/ollama-out-of-bounds-read-vulnerability.html",
-      "date": "2026-05-10T12:41:00Z",
-      "description": "Cybersecurity researchers have disclosed a critical security vulnerability in Ollama that, if successfully exploited, could allow a remote, unauthenticated attacker to leak its entire process memory. The out-of-bounds read flaw, which likely impacts over 300,000 servers globally, is tracked as CVE-2026-7482 (CVSS score: 9.1). It has been codenamed Bleeding Llama by Cyera. Ollama is a",
-      "source": "thehackernews.com"
+      "title": "ZDI-CAN-30747: Microsoft",
+      "link": "http://www.zerodayinitiative.com/advisories/upcoming/",
+      "date": "2026-05-11T05:00:00Z",
+      "description": "A CVSS score 7.8 AV:L/AC:H/PR:L/UI:N/S:C/C:H/I:H/A:H severity vulnerability discovered by 'Marcin Wiazowski' was reported to the affected vendor on: 2026-05-11, 0 days ago. The vendor is given until 2026-09-08 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
+      "source": "zerodayinitiative.com"
     },
     {
-      "title": "cPanel, WHM Release Fixes for Three New Vulnerabilities — Patch Now",
-      "link": "https://thehackernews.com/2026/05/cpanel-whm-patch-3-new-vulnerabilities.html",
-      "date": "2026-05-09T07:16:00Z",
-      "description": "cPanel has released updates to address three vulnerabilities in cPanel and Web Host Manager (WHM) that could be exploited to achieve privilege escalation, code execution, and denial-of-service. The list of vulnerabilities is as follows - CVE-2026-29201 (CVSS score: 4.3) - An insufficient input validation of the feature file name in the \"feature::LOADFEATUREFILE\" adminbin call that could result",
-      "source": "thehackernews.com"
+      "title": "ZDI-CAN-30743: Microsoft",
+      "link": "http://www.zerodayinitiative.com/advisories/upcoming/",
+      "date": "2026-05-11T05:00:00Z",
+      "description": "A CVSS score 7.8 AV:L/AC:H/PR:L/UI:N/S:C/C:H/I:H/A:H severity vulnerability discovered by 'Marcin Wiazowski' was reported to the affected vendor on: 2026-05-11, 0 days ago. The vendor is given until 2026-09-08 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
+      "source": "zerodayinitiative.com"
+    },
+    {
+      "title": "ZDI-CAN-31212: Microsoft",
+      "link": "http://www.zerodayinitiative.com/advisories/upcoming/",
+      "date": "2026-05-11T05:00:00Z",
+      "description": "A CVSS score 8.1 AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H severity vulnerability discovered by 'Richard Chen of TrendAI Research' was reported to the affected vendor on: 2026-05-11, 0 days ago. The vendor is given until 2026-09-08 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
+      "source": "zerodayinitiative.com"
+    },
+    {
+      "title": "ZDI-CAN-30745: Microsoft",
+      "link": "http://www.zerodayinitiative.com/advisories/upcoming/",
+      "date": "2026-05-11T05:00:00Z",
+      "description": "A CVSS score 7.8 AV:L/AC:H/PR:L/UI:N/S:C/C:H/I:H/A:H severity vulnerability discovered by 'Marcin Wiazowski' was reported to the affected vendor on: 2026-05-11, 0 days ago. The vendor is given until 2026-09-08 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
+      "source": "zerodayinitiative.com"
+    },
+    {
+      "title": "ZDI-CAN-30744: Microsoft",
+      "link": "http://www.zerodayinitiative.com/advisories/upcoming/",
+      "date": "2026-05-11T05:00:00Z",
+      "description": "A CVSS score 7.8 AV:L/AC:H/PR:L/UI:N/S:C/C:H/I:H/A:H severity vulnerability discovered by 'Marcin Wiazowski' was reported to the affected vendor on: 2026-05-11, 0 days ago. The vendor is given until 2026-09-08 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
+      "source": "zerodayinitiative.com"
     },
     {
       "title": "ShinyHunters Claims Second Attack Against Instructure",
@@ -171,46 +206,11 @@
       "source": "darkreading.com"
     },
     {
-      "title": "ZDI-CAN-30917: NVIDIA",
-      "link": "http://www.zerodayinitiative.com/advisories/upcoming/",
-      "date": "2026-05-08T05:00:00Z",
-      "description": "A CVSS score 7.8 AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H severity vulnerability discovered by 'YJK(@YJK0805) of ZUSO ART' was reported to the affected vendor on: 2026-05-08, 3 days ago. The vendor is given until 2026-09-05 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
-      "source": "zerodayinitiative.com"
-    },
-    {
-      "title": "ZDI-CAN-30873: LiteLLM",
-      "link": "http://www.zerodayinitiative.com/advisories/upcoming/",
-      "date": "2026-05-08T05:00:00Z",
-      "description": "A CVSS score 6.5 AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:N/A:N severity vulnerability discovered by 'Aaron Luo at VicOne Inc., LabR7' was reported to the affected vendor on: 2026-05-08, 3 days ago. The vendor is given until 2026-09-05 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
-      "source": "zerodayinitiative.com"
-    },
-    {
       "title": "After Replacing TeamPCP Malware, 'PCPJack' Steals Cloud Secrets",
       "link": "https://www.darkreading.com/cloud-security/teampcp-malware-pcpjack-steals-cloud-secrets",
       "date": "2026-05-07T20:43:30Z",
       "description": "PCPJack makes innovative use of parquet files for stealthy, pre-validated target discovery as it canvasses multiple cloud environments.",
       "source": "darkreading.com"
-    },
-    {
-      "title": "ZDI-CAN-29269: Cesanta",
-      "link": "http://www.zerodayinitiative.com/advisories/upcoming/",
-      "date": "2026-05-07T05:00:00Z",
-      "description": "A CVSS score 8.1 AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H severity vulnerability discovered by 'Charbel F.' was reported to the affected vendor on: 2026-05-07, 4 days ago. The vendor is given until 2026-09-04 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
-      "source": "zerodayinitiative.com"
-    },
-    {
-      "title": "ZDI-CAN-29243: DeepSpeed",
-      "link": "http://www.zerodayinitiative.com/advisories/upcoming/",
-      "date": "2026-05-07T05:00:00Z",
-      "description": "A CVSS score 7.8 AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H severity vulnerability discovered by 'Bongeun Koo (@kiddo_pwn)' was reported to the affected vendor on: 2026-05-07, 4 days ago. The vendor is given until 2026-09-04 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
-      "source": "zerodayinitiative.com"
-    },
-    {
-      "title": "ZDI-CAN-29849: Microsoft",
-      "link": "http://www.zerodayinitiative.com/advisories/upcoming/",
-      "date": "2026-05-07T05:00:00Z",
-      "description": "A CVSS score 5.3 AV:L/AC:L/PR:L/UI:N/S:U/C:L/I:L/A:L severity vulnerability discovered by 'Peter Gabaldon (https://x.com/PedroGabaldon)' was reported to the affected vendor on: 2026-05-07, 4 days ago. The vendor is given until 2026-09-04 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
-      "source": "zerodayinitiative.com"
     },
     {
       "title": "Fully Exposed: Public PoC Released for the Adobe PDF Vulnerabilities Exploited in the Wild",
