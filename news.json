@@ -1,7 +1,35 @@
 {
-  "last_updated": "2026-05-11T22:48:14Z",
+  "last_updated": "2026-05-12T05:38:30Z",
   "count": 40,
   "items": [
+    {
+      "title": "New BitUnlocker Downgrade Attack on Windows 11 Allows Access to Encrypted Disks in 5 Minutes",
+      "link": "https://cybersecuritynews.com/bitunlocker-downgrade-attack-on-windows-11/",
+      "date": "2026-05-12T04:12:49Z",
+      "description": "A new tool, BitUnlocker, reveals a practical downgrade attack against Microsoft’s BitLocker encryption, allowing attackers with physical access to decrypt protected volumes on patched Windows 11 machines in under 5 minutes by exploiting a crucial gap between patching and certificate revocation. The attack is rooted in CVE-2025-48804, one of four critical zero-day vulnerabilities discovered by…",
+      "source": "cybersecuritynews.com"
+    },
+    {
+      "title": "Hackers Abuse CVE-2026-41940 to Take Over cPanel and WHM Servers",
+      "link": "https://cybersecuritynews.com/hackers-abuse-cpanel-and-whm-servers/",
+      "date": "2026-05-12T03:37:17Z",
+      "description": "A fatal authentication bypass vulnerability is actively affecting cPanel and WebHost Manager (WHM) servers worldwide. Tracked as CVE-2026-41940 and bearing an apocalyptic maximum severity score of 9.8, this critical flaw has essentially handed the keys to the kingdom directly to cybercriminals. Without needing a single username or password, unauthenticated remote attackers are ruthlessly…",
+      "source": "cybersecuritynews.com"
+    },
+    {
+      "title": "Apache Tomcat RCE Details and Exploit Code Now Public",
+      "link": "https://securityonline.info/apache-tomcat-rce-cve-2026-poc-public-disclosure/",
+      "date": "2026-05-12T03:22:16Z",
+      "description": "The post Apache Tomcat RCE Details and Exploit Code Now Public appeared first on Daily CyberSecurity. Related posts: Bypassing the Bouncer: Apache Tomcat Patches SNI & Legacy Protocol Flaws Weaponizing Windows Errors: PoC Dropped for Critical Privilege Escalation Flaw in WER Service Total Takeover Threat: Critical IceWarp Flaws Trigger Emergency Server Patches",
+      "source": "securityonline.info"
+    },
+    {
+      "title": "84 TanStack npm Packages Hacked in Ongoing Supply-Chain Attack Targeting CI Credentials",
+      "link": "https://cybersecuritynews.com/tanstack-npm-packages-hacked/",
+      "date": "2026-05-12T02:44:11Z",
+      "description": "A significant supply-chain compromise affecting 84 npm package artifacts across the TanStack namespace. The malicious versions, published to the npm registry at approximately 19:20 and 19:26 UTC, contain a suspected credential-stealing payload targeting CI systems, including GitHub Actions. According to Socket, the compromise spans 42 TanStack packages — two malicious versions each including…",
+      "source": "cybersecuritynews.com"
+    },
     {
       "title": "GM agrees to $12.75M California settlement over sale of drivers’ data",
       "link": "https://www.bleepingcomputer.com/news/legal/gm-agrees-to-1275m-california-settlement-over-sale-of-drivers-data/",
@@ -73,13 +101,6 @@
       "source": "cybersecuritynews.com"
     },
     {
-      "title": "Hackers Use PlugX-Like DLL Sideloading Chain in Fake Claude Malware Campaign",
-      "link": "https://cybersecuritynews.com/hackers-use-plugx-like-dll-sideloading-chain/",
-      "date": "2026-05-11T15:55:58Z",
-      "description": "Cybercriminals are getting creative with how they lure victims into downloading malware, and a new campaign involving a fake version of Anthropic’s Claude AI assistant is raising serious concerns. Attackers set up a convincing lookalike website to distribute a dangerous installer that quietly plants a backdoor on infected systems. The campaign uses a chain of […] The post Hackers Use PlugX-Like…",
-      "source": "cybersecuritynews.com"
-    },
-    {
       "title": "Hackers Used AI to Develop First Known Zero-Day 2FA Bypass for Mass Exploitation",
       "link": "https://thehackernews.com/2026/05/hackers-used-ai-to-develop-first-known.html",
       "date": "2026-05-11T15:45:00Z",
@@ -92,13 +113,6 @@
       "date": "2026-05-11T15:26:26Z",
       "description": "Education technology giant Instructure has confirmed that a security vulnerability allowed hackers to modify Canvas login portals and leave an extortion message. [...]",
       "source": "bleepingcomputer.com"
-    },
-    {
-      "title": "Hackers Use Fake DeepSeek TUI GitHub Repositories to Deliver Malware",
-      "link": "https://cybersecuritynews.com/hackers-use-fake-deepseek-tui-github-repositories/",
-      "date": "2026-05-11T15:11:31Z",
-      "description": "Hackers are once again targeting developers and AI enthusiasts by impersonating popular open-source tools on GitHub. This time, the target is DeepSeek TUI, a legitimate terminal-based intelligent agent that allows users to interact with DeepSeek large language models directly from the command line. With the recent release of DeepSeek v4 and a widely shared post […] The post Hackers Use Fake…",
-      "source": "cybersecuritynews.com"
     },
     {
       "title": "'Dirty Frag' Exploit Poised to Blow Up on Enterprise Linux Distros",
@@ -120,13 +134,6 @@
       "date": "2026-05-11T13:53:56Z",
       "description": "Resetting a password doesn't always remove attackers from Active Directory. Specops Software explains how cached credentials and Kerberos tickets can keep attackers authenticated after a reset. [...]",
       "source": "bleepingcomputer.com"
-    },
-    {
-      "title": "ShinyHunters Breaches Instructure Canvas LMS Through Free-For-Teacher Account Program",
-      "link": "https://cybersecuritynews.com/shinyhunters-breaches-instructure-canvas-lms/",
-      "date": "2026-05-11T13:21:11Z",
-      "description": "The infamous hacking group ShinyHunters has struck again, this time targeting Instructure, the company behind Canvas Learning Management System (LMS). In early May 2026, Instructure confirmed unauthorized activity on its Canvas platform after detecting suspicious access on April 29, 2026. The breach exposed user names, email addresses, student ID numbers, and some private messages exchanged […]…",
-      "source": "cybersecuritynews.com"
     },
     {
       "title": "Google Detects First AI-Generated Zero-Day Exploit",
@@ -181,35 +188,35 @@
       "title": "ZDI-CAN-30747: Microsoft",
       "link": "http://www.zerodayinitiative.com/advisories/upcoming/",
       "date": "2026-05-11T05:00:00Z",
-      "description": "A CVSS score 7.8 AV:L/AC:H/PR:L/UI:N/S:C/C:H/I:H/A:H severity vulnerability discovered by 'Marcin Wiazowski' was reported to the affected vendor on: 2026-05-11, 0 days ago. The vendor is given until 2026-09-08 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
+      "description": "A CVSS score 7.8 AV:L/AC:H/PR:L/UI:N/S:C/C:H/I:H/A:H severity vulnerability discovered by 'Marcin Wiazowski' was reported to the affected vendor on: 2026-05-11, 1 days ago. The vendor is given until 2026-09-08 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
       "source": "zerodayinitiative.com"
     },
     {
       "title": "ZDI-CAN-30743: Microsoft",
       "link": "http://www.zerodayinitiative.com/advisories/upcoming/",
       "date": "2026-05-11T05:00:00Z",
-      "description": "A CVSS score 7.8 AV:L/AC:H/PR:L/UI:N/S:C/C:H/I:H/A:H severity vulnerability discovered by 'Marcin Wiazowski' was reported to the affected vendor on: 2026-05-11, 0 days ago. The vendor is given until 2026-09-08 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
+      "description": "A CVSS score 7.8 AV:L/AC:H/PR:L/UI:N/S:C/C:H/I:H/A:H severity vulnerability discovered by 'Marcin Wiazowski' was reported to the affected vendor on: 2026-05-11, 1 days ago. The vendor is given until 2026-09-08 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
       "source": "zerodayinitiative.com"
     },
     {
       "title": "ZDI-CAN-31212: Microsoft",
       "link": "http://www.zerodayinitiative.com/advisories/upcoming/",
       "date": "2026-05-11T05:00:00Z",
-      "description": "A CVSS score 8.1 AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H severity vulnerability discovered by 'Richard Chen of TrendAI Research' was reported to the affected vendor on: 2026-05-11, 0 days ago. The vendor is given until 2026-09-08 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
+      "description": "A CVSS score 8.1 AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H severity vulnerability discovered by 'Richard Chen of TrendAI Research' was reported to the affected vendor on: 2026-05-11, 1 days ago. The vendor is given until 2026-09-08 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
       "source": "zerodayinitiative.com"
     },
     {
       "title": "ZDI-CAN-30745: Microsoft",
       "link": "http://www.zerodayinitiative.com/advisories/upcoming/",
       "date": "2026-05-11T05:00:00Z",
-      "description": "A CVSS score 7.8 AV:L/AC:H/PR:L/UI:N/S:C/C:H/I:H/A:H severity vulnerability discovered by 'Marcin Wiazowski' was reported to the affected vendor on: 2026-05-11, 0 days ago. The vendor is given until 2026-09-08 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
+      "description": "A CVSS score 7.8 AV:L/AC:H/PR:L/UI:N/S:C/C:H/I:H/A:H severity vulnerability discovered by 'Marcin Wiazowski' was reported to the affected vendor on: 2026-05-11, 1 days ago. The vendor is given until 2026-09-08 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
       "source": "zerodayinitiative.com"
     },
     {
       "title": "ZDI-CAN-30744: Microsoft",
       "link": "http://www.zerodayinitiative.com/advisories/upcoming/",
       "date": "2026-05-11T05:00:00Z",
-      "description": "A CVSS score 7.8 AV:L/AC:H/PR:L/UI:N/S:C/C:H/I:H/A:H severity vulnerability discovered by 'Marcin Wiazowski' was reported to the affected vendor on: 2026-05-11, 0 days ago. The vendor is given until 2026-09-08 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
+      "description": "A CVSS score 7.8 AV:L/AC:H/PR:L/UI:N/S:C/C:H/I:H/A:H severity vulnerability discovered by 'Marcin Wiazowski' was reported to the affected vendor on: 2026-05-11, 1 days ago. The vendor is given until 2026-09-08 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
       "source": "zerodayinitiative.com"
     },
     {
@@ -238,13 +245,6 @@
       "link": "https://securityonline.info/windows-snipping-tool-poc-exploit-disclosure/",
       "date": "2026-04-20T01:47:11Z",
       "description": "The post Windows Snipping Tool Can Leak Your Identity, PoC Available appeared first on Daily CyberSecurity. Related posts: Linux Kernel Vulnerabilities Expose Systems to Privilege Escalation: Flaws Detailed and Exploit Code Released Root Access Unlocked: Public PoC Exposes GlobalProtect macOS Privilege Escalation Flaw PoC Code Available for Critical SQLite Vulnerability (CVE-2025-6965)",
-      "source": "securityonline.info"
-    },
-    {
-      "title": "Critical 9.1 CVSS Flaw in Horner Automation PLCs Invites Industrial Takeovers",
-      "link": "https://securityonline.info/horner-automation-plc-brute-force-vulnerability-cve-2026-6284/",
-      "date": "2026-04-17T13:05:50Z",
-      "description": "The post Critical 9.1 CVSS Flaw in Horner Automation PLCs Invites Industrial Takeovers appeared first on Daily CyberSecurity. Related posts: Industrial Systems at Risk: Critical Mitsubishi MELSEC Flaw (CVSS 9.1), No Patch Siemens Industrial Edge: Critical Authentication Flaw (CVE-2024-54092) Siemens Security Alert: Critical Vulnerabilities in SENTRON 7KT PAC1260 Data Manager",
       "source": "securityonline.info"
     },
     {
