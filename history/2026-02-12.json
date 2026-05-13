@@ -1,6 +1,6 @@
 {
   "date": "2026-02-12",
-  "count": 31,
+  "count": 24,
   "items": [
     {
       "id": "8967aa7a819a755261ec8d76b0ebbeb41a739a2e",
@@ -193,66 +193,6 @@
       "last_seen": "2026-02-13T05:52:45Z"
     },
     {
-      "id": "51f02040984954fe6e96d83d42720062f07955d0",
-      "title": "DShield Sensor Captures Self-Propagating SSH Worm Exploit Using Credential Stuffing and Multi-Stage Malware",
-      "link": "https://cybersecuritynews.com/dshield-sensor-captures-self-propagating-ssh-worm/",
-      "date": "2026-02-12T16:39:19Z",
-      "description": "A sophisticated self-spreading worm has emerged that can completely compromise Linux systems through SSH brute-force attacks in just four seconds. This new threat combines traditional credential stuffing techniques with modern cryptographic command verification, creating a fast-moving botnet that specifically targets devices with weak authentication mechanisms. The attack demonstrates how…",
-      "source": "cybersecuritynews.com",
-      "first_seen": "2026-02-12T16:45:08Z",
-      "last_seen": "2026-02-13T01:15:17Z"
-    },
-    {
-      "id": "c4066d766fe59ab412b3b363d638fb6d31f586cf",
-      "title": "Feiniu NAS Devices Infected in Large-Scale Netdragon Botnet Attack Exploiting Unpatched Vulnerabilities",
-      "link": "https://cybersecuritynews.com/feiniu-nas-devices-infected-in-large-scale-netdragon-botnet/",
-      "date": "2026-02-12T16:17:51Z",
-      "description": "A serious security incident has recently emerged involving Feiniu (fnOS) Network Attached Storage devices. These systems are being actively targeted and infected by the Netdragon botnet, a malware strain that first appeared in October 2024. The attackers are leveraging undisclosed security vulnerabilities within the fnOS platform to implant malicious code. This campaign represents a focused […]…",
-      "source": "cybersecuritynews.com",
-      "first_seen": "2026-02-12T16:45:08Z",
-      "last_seen": "2026-02-12T16:45:08Z"
-    },
-    {
-      "id": "ed25be552ad01df509a79e0fe4d8d6bcd7daf2df",
-      "title": "How to Eliminate the Technical Debt of Insecure AI-Assisted Software Development",
-      "link": "https://www.securityweek.com/how-to-eliminate-the-technical-debt-of-insecure-ai-assisted-software-development/",
-      "date": "2026-02-12T16:15:00Z",
-      "description": "Developers must view AI as a collaborator to be closely monitored, rather than an autonomous entity to be unleashed. Without such a mindset, crippling tech debt is inevitable. The post How to Eliminate the Technical Debt of Insecure AI-Assisted Software Development appeared first on SecurityWeek.",
-      "source": "securityweek.com",
-      "first_seen": "2026-02-12T16:45:08Z",
-      "last_seen": "2026-02-13T11:23:14Z"
-    },
-    {
-      "id": "d76939c9c16770d0527ee142dc6437daea69a3d6",
-      "title": "Rogue VM Linked to Muddled Libra in VMware vSphere Attack, Revealing Key TTPs",
-      "link": "https://cybersecuritynews.com/rogue-vm-linked-to-muddled-libra/",
-      "date": "2026-02-12T15:46:28Z",
-      "description": "In a September 2025 incident response case, investigators found a rogue virtual machine inside a VMware vSphere environment and tied it with high confidence to Muddled Libra, also tracked as Scattered Spider and UNC3944. The VM acted like a quiet staging host, giving the intruders a place to recon the network, pull down tools, and […] The post Rogue VM Linked to Muddled Libra in VMware vSphere…",
-      "source": "cybersecuritynews.com",
-      "first_seen": "2026-02-12T16:45:08Z",
-      "last_seen": "2026-02-12T16:45:08Z"
-    },
-    {
-      "id": "2a9e82f8c0eaa814153e9e15ed78a33e10645b21",
-      "title": "WordPress Backup Plugin Vulnerability Exposes 800,000 Sites to Remote Code Execution Attacks",
-      "link": "https://cybersecuritynews.com/wordpress-backup-plugin-vulnerability/",
-      "date": "2026-02-12T15:09:57Z",
-      "description": "A critical flaw in the WPvivid Backup & Migration WordPress plugin can let an unauthenticated attacker upload files and run code on the server, a path that often ends in full site takeover. The issue is tracked as CVE-2026-1357, scored 9.8 (Critical), and affects plugin versions up to and including 0.9.123, with a fix available […] The post WordPress Backup Plugin Vulnerability Exposes 800,000…",
-      "source": "cybersecuritynews.com",
-      "first_seen": "2026-02-12T15:41:20Z",
-      "last_seen": "2026-02-12T16:45:08Z"
-    },
-    {
-      "id": "fcf5c6c31389035a7692efc08ed41a99d05c0655",
-      "title": "AMOS infostealer targets macOS through a popular AI app",
-      "link": "https://www.bleepingcomputer.com/news/security/amos-infostealer-targets-macos-through-a-popular-ai-app/",
-      "date": "2026-02-12T14:25:38Z",
-      "description": "AMOS infostealer is targeting macOS users by abusing popular AI apps and extension marketplaces to harvest credentials. Flare examines how AMOS operates, spreads through AI-driven lures, and feeds the broader stealer-log cybercrime economy. [...]",
-      "source": "bleepingcomputer.com",
-      "first_seen": "2026-02-12T15:41:20Z",
-      "last_seen": "2026-02-12T21:23:58Z"
-    },
-    {
       "id": "b9715ca31ea365b86eaab0909453135f68bbc14a",
       "title": "ZDI-CAN-28821: Linux",
       "link": "http://www.zerodayinitiative.com/advisories/upcoming/",
@@ -301,16 +241,6 @@
       "source": "zerodayinitiative.com",
       "first_seen": "2026-02-12T21:23:58Z",
       "last_seen": "2026-02-17T16:43:59Z"
-    },
-    {
-      "id": "7b9d8c2400fadcd6e01d62ac71fe9363cd1d0ccc",
-      "title": "Automaker Secures the Supply Chain With Developer-Friendly Platform",
-      "link": "https://www.darkreading.com/application-security/automaker-secures-supply-chain-developer-friendly-platform",
-      "date": "2026-02-11T19:35:53Z",
-      "description": "How a platform engineering team embeds supply chain security into infrastructure without slowing developers.",
-      "source": "darkreading.com",
-      "first_seen": "2026-02-12T15:41:20Z",
-      "last_seen": "2026-02-12T20:23:22Z"
     }
   ]
 }
