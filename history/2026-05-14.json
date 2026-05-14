@@ -1,7 +1,77 @@
 {
   "date": "2026-05-14",
-  "count": 38,
+  "count": 45,
   "items": [
+    {
+      "id": "d67fe837e2c4c481fe7e5ed660acd6e86b600f52",
+      "title": "node-ipc npm Package with 822K Weekly Downloads Compromised in Supply Chain Attack",
+      "link": "https://cybersecuritynews.com/node-ipc-npm-package-compromised/",
+      "date": "2026-05-14T18:08:21Z",
+      "description": "A widely used JavaScript inter-process communication library has been weaponized again. Socket and Stepsecurity have confirmed that three newly published versions of node-ipc, a package with over 822,000 weekly downloads, contain obfuscated stealer and backdoor payloads, marking the second major supply chain compromise of this package since 2022. The affected versions are node-ipc@9.1.6,…",
+      "source": "cybersecuritynews.com",
+      "first_seen": "2026-05-14T18:28:01Z",
+      "last_seen": "2026-05-14T18:28:01Z"
+    },
+    {
+      "id": "906b4fc8f2112fe818e0e7a13c899c4fd9797edf",
+      "title": "Anthropic’s Mythos AI Reportedly Found macOS Vulnerabilities that Could Bypass Apple Security",
+      "link": "https://cybersecuritynews.com/anthropics-mythos-macos-vulnerabilities/",
+      "date": "2026-05-14T17:42:02Z",
+      "description": "Security researchers at Calif, a Palo Alto-based cybersecurity firm, have used techniques derived from an early version of Anthropic’s secretive Mythos AI model to uncover two previously undocumented vulnerabilities in Apple’s macOS. The bugs were chained together into a privilege escalation exploit capable of bypassing Apple’s state-of-the-art memory integrity enforcement, granting unauthorized…",
+      "source": "cybersecuritynews.com",
+      "first_seen": "2026-05-14T18:28:01Z",
+      "last_seen": "2026-05-14T18:28:01Z"
+    },
+    {
+      "id": "1defba96604fd53ea768c4f9c5eeb72478d7df30",
+      "title": "Hackers Compromise 170 npm Packages to Steal GitHub, npm, AWS, and Kubernetes Secrets",
+      "link": "https://cybersecuritynews.com/hackers-compromise-170-npm-packages/",
+      "date": "2026-05-14T17:21:48Z",
+      "description": "A sprawling supply chain attack has put software developers worldwide on high alert after hackers compromised more than 170 npm packages and two PyPI packages in a coordinated credential theft campaign. The infected packages are collectively downloaded over 200 million times per week, making the potential blast radius enormous. The threat group behind the campaign, […] The post Hackers…",
+      "source": "cybersecuritynews.com",
+      "first_seen": "2026-05-14T18:28:01Z",
+      "last_seen": "2026-05-14T18:28:01Z"
+    },
+    {
+      "id": "b395754382541dbac09e0287d7fc3cf800adc83a",
+      "title": "Critical Canon MailSuite Vulnerability Enables Remote Code Execution Attacks",
+      "link": "https://cybersecuritynews.com/canon-mailsuite-vulnerability/",
+      "date": "2026-05-14T17:03:29Z",
+      "description": "Enterprise email infrastructure remains one of the most critical and vulnerable targets for cybercriminals. A highly severe security flaw has just been discovered in Canon’s GUARDIANWALL MailSuite, exposing corporate networks to devastating Remote Code Execution (RCE) attacks. Threat actors can easily exploit this newly disclosed vulnerability to seize complete control over affected web…",
+      "source": "cybersecuritynews.com",
+      "first_seen": "2026-05-14T18:28:01Z",
+      "last_seen": "2026-05-14T18:28:01Z"
+    },
+    {
+      "id": "24635fa60a5059e9e648a1b2149836d6a0c4f805",
+      "title": "TeamPCP and BreachForums Hackers Running $1,000 Contest for Supply Chain Attacks",
+      "link": "https://cybersecuritynews.com/hackers-1000-contest-supply-chain-attacks/",
+      "date": "2026-05-14T17:01:07Z",
+      "description": "The cybercrime underworld is turning open-source supply chain attacks into a twisted competition. After months of infiltrating security tools and CI/CD pipelines, the notorious hacking group TeamPCP has partnered with BreachForums to launch a disturbing new contest. The objective is to compile as many open-source packages as possible. The prize, however, is a surprisingly small […] The post…",
+      "source": "cybersecuritynews.com",
+      "first_seen": "2026-05-14T18:28:01Z",
+      "last_seen": "2026-05-14T18:28:01Z"
+    },
+    {
+      "id": "4f37f7726323ac4a2546a25ec084d6aedc5efb75",
+      "title": "'FrostyNeighbor' APT Carefully Targets Govt Orgs in Poland, Ukraine",
+      "link": "https://www.darkreading.com/cyberattacks-data-breaches/frostyneighbor-apt-govt-orgs-poland-ukraine",
+      "date": "2026-05-14T16:59:25Z",
+      "description": "Attackers uniquely fingerprint victims before delivering spear-phishing payloads aimed at espionage, in the latest campaign from the Belarussian nation-state threat group.",
+      "source": "darkreading.com",
+      "first_seen": "2026-05-14T18:28:01Z",
+      "last_seen": "2026-05-14T18:28:01Z"
+    },
+    {
+      "id": "bbf47cae0b6e26bd69d3e8cc395672dc7fe1ad0d",
+      "title": "ThreatsDay Bulletin: PAN-OS RCE, Mythos cURL Bug, AI Tokenizer Attacks, and 10+ Stories",
+      "link": "https://thehackernews.com/2026/05/threatsday-bulletin-pan-os-rce-mythos.html",
+      "date": "2026-05-14T16:07:46Z",
+      "description": "Everything is still on fire. This week feels dumb in the worst way — bad links, weak checks, fake help desks, shady forum posts, and people turning supply chain attacks into some cursed little game for clout and cash. Half of it feels new. Half of it feels like crap we should have fixed years ago. The mess keeps getting louder: users get tricked, boxes get popped, tools meant for normal work",
+      "source": "thehackernews.com",
+      "first_seen": "2026-05-14T18:28:01Z",
+      "last_seen": "2026-05-14T18:28:01Z"
+    },
     {
       "id": "c58a88e4cc4a50926b658225c39f3902071b4d6c",
       "title": "18-year-old NGINX vulnerability allows DoS, potential RCE",
@@ -10,7 +80,7 @@
       "description": "An 18-year-old flaw in the NGINX open-source web server, discovered using an autonomous scanning system, can be exploited for denial of service and, under certain conditions, remote code execution. [...]",
       "source": "bleepingcomputer.com",
       "first_seen": "2026-05-14T16:04:12Z",
-      "last_seen": "2026-05-14T16:04:12Z"
+      "last_seen": "2026-05-14T18:28:01Z"
     },
     {
       "id": "b18fa2a9c9d25e9280c877d1cbd60396bfb368e5",
@@ -40,7 +110,7 @@
       "description": "Cargo theft now starts with phishing emails and stolen credentials, not hijackings, to reroute and steal freight from supply chains. NMFTA outlines how cyber-enabled cargo crime is changing transportation security. [...]",
       "source": "bleepingcomputer.com",
       "first_seen": "2026-05-14T16:04:12Z",
-      "last_seen": "2026-05-14T16:04:12Z"
+      "last_seen": "2026-05-14T18:28:01Z"
     },
     {
       "id": "b782bdd5bd95f55ba2d9c7e848a01e8b3ad0f843",
@@ -60,7 +130,7 @@
       "description": "The Belarus-aligned threat group known as Ghostwriter has been attributed to a fresh set of attacks targeting governmental organizations in Ukraine. Active since at least 2016, Ghostwriter has been linked to both cyber espionage and influence operations targeting neighboring countries, particularly Ukraine. It's also tracked under the monikers FrostyNeighbor, PUSHCHA, Storm-0257, TA445, UAC‑0057",
       "source": "thehackernews.com",
       "first_seen": "2026-05-14T16:04:12Z",
-      "last_seen": "2026-05-14T16:04:12Z"
+      "last_seen": "2026-05-14T18:28:01Z"
     },
     {
       "id": "cb66c5f96570cce23e93bce9325dec3bfa8793ad",
@@ -70,7 +140,7 @@
       "description": "For AI data centers, where the stakes are the highest and performance constraints are the tightest, security and performance are no longer a zero-sum game. The post Enhancing Data Center Security Without Sacrificing Performance appeared first on SecurityWeek.",
       "source": "securityweek.com",
       "first_seen": "2026-05-14T16:04:12Z",
-      "last_seen": "2026-05-14T16:04:12Z"
+      "last_seen": "2026-05-14T18:28:01Z"
     },
     {
       "id": "3182553c993e5c1e6ee0550e242406137609e4e5",
@@ -90,7 +160,7 @@
       "description": "The vulnerability, tracked as CVE-2026-46300, is similar to the recently disclosed exploits named Dirty Frag and Copy Fail. The post New Linux Kernel Vulnerability Fragnesia Allows Root Privilege Escalation appeared first on SecurityWeek.",
       "source": "securityweek.com",
       "first_seen": "2026-05-14T16:04:12Z",
-      "last_seen": "2026-05-14T16:04:12Z"
+      "last_seen": "2026-05-14T18:28:01Z"
     },
     {
       "id": "c29fdab90f8e29725ce843ce8d98385e7dd1e68d",
@@ -100,7 +170,7 @@
       "description": "Independent benchmarking finds Mythos highly effective for source code audits, reverse engineering, and native-code analysis, though its exploit validation and reasoning capabilities remain inconsistent. The post Mythos Proves Potent in Vulnerability Discovery, Less Convincing Elsewhere appeared first on SecurityWeek.",
       "source": "securityweek.com",
       "first_seen": "2026-05-14T13:28:09Z",
-      "last_seen": "2026-05-14T16:04:12Z"
+      "last_seen": "2026-05-14T18:28:01Z"
     },
     {
       "id": "784d88fcc263bfc2916fd19ff02a09510005054d",
@@ -110,7 +180,7 @@
       "description": "In a role reversal, investment dollars in security startups exceeded the value of mergers and acquisitions in 1Q26 by more than $1 billion, a rare occurrence.",
       "source": "darkreading.com",
       "first_seen": "2026-05-14T13:28:09Z",
-      "last_seen": "2026-05-14T16:04:12Z"
+      "last_seen": "2026-05-14T18:28:01Z"
     },
     {
       "id": "31890654fdd62fc1ab873fbffa1e7b1dae4454ee",
@@ -120,7 +190,7 @@
       "description": "The acquisition enables Akamai to expand its Zero Trust portfolio to add protection directly into the browser. The post Akamai to Acquire AI and Browser Security Firm LayerX for $205 Million appeared first on SecurityWeek.",
       "source": "securityweek.com",
       "first_seen": "2026-05-14T13:28:09Z",
-      "last_seen": "2026-05-14T16:04:12Z"
+      "last_seen": "2026-05-14T18:28:01Z"
     },
     {
       "id": "c7806576cae1ff2569c4937814165a71cfaed23f",
@@ -140,7 +210,7 @@
       "description": "Initial access broker KongTuke has moved to Microsoft Teams for social engineering attacks, taking as little as five minutes to gain persistent access to corporate networks. [...]",
       "source": "bleepingcomputer.com",
       "first_seen": "2026-05-14T13:28:09Z",
-      "last_seen": "2026-05-14T16:04:12Z"
+      "last_seen": "2026-05-14T18:28:01Z"
     },
     {
       "id": "7bd8945d2ef8f487e1dc8c2239901200d11855c4",
@@ -150,7 +220,7 @@
       "description": "Salt Typhoon has hit an energy entity in Azerbaijan. Twill Typhoon has targeted Asian entities with an updated RAT. The post Chinese APTs Expand Targets, Update Backdoors in Recent Campaigns appeared first on SecurityWeek.",
       "source": "securityweek.com",
       "first_seen": "2026-05-14T13:28:09Z",
-      "last_seen": "2026-05-14T16:04:12Z"
+      "last_seen": "2026-05-14T18:28:01Z"
     },
     {
       "id": "f8a4de1c7ab33f161c4dd53253e56c003a307c9f",
@@ -170,7 +240,7 @@
       "description": "A Nitrogen ransomware attack on Foxconn's North American facilities is one of 600 hits on manufacturers this year, as gangs increasingly target the sector for its low tolerance for downtime.",
       "source": "darkreading.com",
       "first_seen": "2026-05-14T13:28:09Z",
-      "last_seen": "2026-05-14T16:04:12Z"
+      "last_seen": "2026-05-14T18:28:01Z"
     },
     {
       "id": "f2851539cbd23b606ec3cda522b976eb734dd80c",
@@ -180,7 +250,7 @@
       "description": "Threat actors have been observed attempting to exploit a recently disclosed security vulnerability in PraisonAI, an open-source multi-agent orchestration framework, within four hours of public disclosure. The vulnerability in question is CVE-2026-44338 (CVSS score: 7.3), a case of missing authentication that exposes sensitive endpoints to anyone, potentially allowing an attacker to invoke the",
       "source": "thehackernews.com",
       "first_seen": "2026-05-14T13:28:09Z",
-      "last_seen": "2026-05-14T16:04:12Z"
+      "last_seen": "2026-05-14T18:28:01Z"
     },
     {
       "id": "885336bcfde57ab4f03aec7e28d91aeb011de111",
@@ -190,7 +260,7 @@
       "description": "AI hallucinations are introducing serious security risks into critical infrastructure decision-making by exploiting human trust through highly confident yet incorrect outputs. When an AI model lacks certainty, it doesn’t have a mechanism to recognize that. Instead, it generates the most probable response based on patterns in its training data, even if that response is inaccurate. These outputs",
       "source": "thehackernews.com",
       "first_seen": "2026-05-14T13:28:09Z",
-      "last_seen": "2026-05-14T16:04:12Z"
+      "last_seen": "2026-05-14T18:28:01Z"
     },
     {
       "id": "3b057238deac0b79d497a18e48d6464b643b7942",
@@ -230,7 +300,7 @@
       "description": "Dell confirmed that its SupportAssist software is causing blue-screen crashes on some Windows systems following a wave of user reports about random reboots affecting Dell devices since Friday. [...]",
       "source": "bleepingcomputer.com",
       "first_seen": "2026-05-14T11:43:17Z",
-      "last_seen": "2026-05-14T16:04:12Z"
+      "last_seen": "2026-05-14T18:28:01Z"
     },
     {
       "id": "2401b417059bfc433fd952f9f94f79859626cf64",
@@ -260,7 +330,7 @@
       "description": "An anonymous cybersecurity researcher who disclosed three Microsoft Defender vulnerabilities has returned with two more zero-days involving a BitLocker bypass and a privilege escalation impacting Windows Collaborative Translation Framework (CTFMON). The security defects have been codenamed YellowKey and GreenPlasma, respectively, by the researcher, who goes by the online aliases Chaotic Eclipse",
       "source": "thehackernews.com",
       "first_seen": "2026-05-14T11:43:17Z",
-      "last_seen": "2026-05-14T16:04:12Z"
+      "last_seen": "2026-05-14T18:28:01Z"
     },
     {
       "id": "1f6daf107e41b6f3fd0f2bf9c4fee429d9ce8a3b",
@@ -290,7 +360,7 @@
       "description": "The alleged main administrator of Dream Market Incognito Market, one of the largest dark web marketplaces before its shutdown, has been indicted in the United States on money laundering charges. [...]",
       "source": "bleepingcomputer.com",
       "first_seen": "2026-05-14T09:25:58Z",
-      "last_seen": "2026-05-14T16:04:12Z"
+      "last_seen": "2026-05-14T18:28:01Z"
     },
     {
       "id": "f1c0e7da89e40332ecd7579ec34e894aca6fc03d",
@@ -380,7 +450,7 @@
       "description": "Security governance needs to be more than an annual compliance exercise. New companies are emerging to address risk-management gaps in current audit tools.",
       "source": "darkreading.com",
       "first_seen": "2026-05-14T16:04:12Z",
-      "last_seen": "2026-05-14T16:04:12Z"
+      "last_seen": "2026-05-14T18:28:01Z"
     }
   ]
 }
