@@ -1,7 +1,84 @@
 {
-  "last_updated": "2026-05-14T06:14:49Z",
-  "count": 35,
+  "last_updated": "2026-05-14T09:25:58Z",
+  "count": 40,
   "items": [
+    {
+      "title": "OpenAI Hit with Class-Action Privacy Lawsuit for Sharing ChatGPT Data with Google and Meta",
+      "link": "https://cybersecuritynews.com/openai-chatgpt-privacy-lawsuit/",
+      "date": "2026-05-14T09:15:15Z",
+      "description": "OpenAI Global LLC is facing a new class‑action complaint in the Southern District of California that accuses the company of quietly wiring its ChatGPT web interface with Meta’s Facebook Pixel and Google Analytics, turning highly sensitive chatbot conversations into monetizable tracking data for online advertising ecosystems. Filed by California resident Amargo Couture on behalf of […] The post…",
+      "source": "cybersecuritynews.com"
+    },
+    {
+      "title": "Langflow CVE-2026-33017 Exploited to Steal AWS Keys and Deploy NATS Worker",
+      "link": "https://cybersecuritynews.com/langflow-cve-2026-33017-exploited/",
+      "date": "2026-05-14T09:12:08Z",
+      "description": "Attackers are now abusing a fresh Langflow vulnerability to quietly steal cloud keys and turn victim systems into workers for a new NATS based botnet. This campaign shows how a single exposed AI workflow tool can become the start of large scale credential theft and cloud misuse. According to researchers, the operation centers on CVE-2026-33017, […] The post Langflow CVE-2026-33017 Exploited to…",
+      "source": "cybersecuritynews.com"
+    },
+    {
+      "title": "US charges suspected Dream Market admin arrested in Germany",
+      "link": "https://www.bleepingcomputer.com/news/security/us-charges-suspected-dream-market-admin-arrested-in-germany/",
+      "date": "2026-05-14T08:55:46Z",
+      "description": "The alleged main administrator of Dream Market Incognito Market, one of the largest dark web marketplaces before its shutdown, has been indicted in the United States on money laundering charges. [...]",
+      "source": "bleepingcomputer.com"
+    },
+    {
+      "title": "Packagist Urges Immediate Composer Update After GitHub Actions Token Leak",
+      "link": "https://cybersecuritynews.com/packagist-urges-immediate-composer-update/",
+      "date": "2026-05-14T08:50:14Z",
+      "description": "Packagist is sounding the alarm for PHP developers everywhere. A flaw in Composer, the widely used PHP dependency manager, briefly caused GitHub authentication tokens to leak into publicly visible CI logs, raising urgent concerns about credential exposure across thousands of active software projects around the world. The problem started when GitHub quietly began rolling out […] The post…",
+      "source": "cybersecuritynews.com"
+    },
+    {
+      "title": "High-Severity Vulnerability Patched in VMware Fusion",
+      "link": "https://www.securityweek.com/high-severity-vulnerability-patched-in-vmware-fusion/",
+      "date": "2026-05-14T08:42:25Z",
+      "description": "The patch was announced as Broadcom is attending the Pwn2Own hacking competition in Berlin this week. The post High-Severity Vulnerability Patched in VMware Fusion appeared first on SecurityWeek.",
+      "source": "securityweek.com"
+    },
+    {
+      "title": "Seedworm APT Abuses Signed Fortemedia and SentinelOne Binaries for DLL Sideloading",
+      "link": "https://cybersecuritynews.com/seedworm-apt-abuses-signed-fortemedia/",
+      "date": "2026-05-14T08:14:20Z",
+      "description": "Iran-linked hackers have been quietly breaking into networks around the world, and their latest campaign is more calculated than anything we have seen from them before. The group known as Seedworm, also tracked as MuddyWater, spent the first quarter of 2026 targeting at least nine organizations across nine countries on four continents, leaving a trail […] The post Seedworm APT Abuses Signed…",
+      "source": "cybersecuritynews.com"
+    },
+    {
+      "title": "Windows DNS Client Vulnerability Enables Remote Code Execution Attacks",
+      "link": "https://cybersecuritynews.com/windows-dns-client-vulnerability/",
+      "date": "2026-05-14T07:53:38Z",
+      "description": "A newly disclosed vulnerability in the Microsoft Windows DNS Client could let attackers silently execute malicious code across enterprise networks, exposing a massive attack surface. Officially designated as CVE-2026-41096, this critical security flaw carries a severe CVSS score of 9.8 out of 10. By simply returning a maliciously crafted response to a routine network query, […] The post Windows…",
+      "source": "cybersecuritynews.com"
+    },
+    {
+      "title": "New Fragnesia Linux flaw lets attackers gain root privileges",
+      "link": "https://www.bleepingcomputer.com/news/security/new-fragnesia-linux-flaw-lets-attackers-gain-root-privileges/",
+      "date": "2026-05-14T07:34:19Z",
+      "description": "Linux distros are rolling out patches for a new high-severity kernel privilege escalation vulnerability (known as Fragnasia and tracked as CVE-2026-46300) that allows attackers to run malicious code as root. [...]",
+      "source": "bleepingcomputer.com"
+    },
+    {
+      "title": "Researcher Drops YellowKey, GreenPlasma Windows Zero-Days",
+      "link": "https://www.securityweek.com/researcher-drops-yellowkey-greenplasma-windows-zero-days/",
+      "date": "2026-05-14T07:27:42Z",
+      "description": "YellowKey is a BitLocker bypass that requires physical access. GreenPlasma enables elevation of privileges to System. The post Researcher Drops YellowKey, GreenPlasma Windows Zero-Days appeared first on SecurityWeek.",
+      "source": "securityweek.com"
+    },
+    {
+      "title": "New Fragnesia Linux Kernel LPE Grants Root Access via Page Cache Corruption",
+      "link": "https://thehackernews.com/2026/05/new-fragnesia-linux-kernel-lpe-grants.html",
+      "date": "2026-05-14T07:06:15Z",
+      "description": "Details have emerged about a new variant of the recent Dirty Frag Linux local privilege escalation (LPE) vulnerability that allows local attackers to gain root access, making it the third such bug to be identified in the kernel within a span of two weeks. Codenamed Fragnesia, the security vulnerability is tracked as CVE-2026-46300 (CVSS score: 7.8) and is rooted in the Linux kernel's XFRM",
+      "source": "thehackernews.com"
+    },
+    {
+      "title": "18-Year-Old NGINX Rewrite Module Flaw Enables Unauthenticated RCE",
+      "link": "https://thehackernews.com/2026/05/18-year-old-nginx-rewrite-module-flaw.html",
+      "date": "2026-05-14T06:00:09Z",
+      "description": "Cybersecurity researchers have disclosed multiple security vulnerabilities impacting NGINX Plus and NGINX Open, including a critical flaw that remained undetected for 18 years. The vulnerability, discovered by depthfirst, is a heap buffer overflow issue impacting ngx_http_rewrite_module (CVE-2026-42945, CVSS v4 score: 9.2) that could allow an attacker to achieve remote code execution or cause a",
+      "source": "thehackernews.com"
+    },
     {
       "title": "West Pharmaceutical says hackers stole data, encrypted systems",
       "link": "https://www.bleepingcomputer.com/news/security/west-pharmaceutical-says-hackers-stole-data-encrypted-systems/",
@@ -59,25 +136,11 @@
       "source": "securityweek.com"
     },
     {
-      "title": "Windows BitLocker zero-day gives access to protected drives, PoC released",
-      "link": "https://www.bleepingcomputer.com/news/security/windows-bitlocker-zero-day-gives-access-to-protected-drives-poc-released/",
-      "date": "2026-05-13T16:37:49Z",
-      "description": "A cybersecurity researcher has published proof-of-concept (PoC) exploits for two unpatched Microsoft Windows vulnerabilities named YellowKey and GreenPlasma, which are a BitLocker bypass and a privilege-escalation flaw. [...]",
-      "source": "bleepingcomputer.com"
-    },
-    {
       "title": "Microsoft, Palo Alto Networks Find Many Vulnerabilities by Using AI on Their Own Code",
       "link": "https://www.securityweek.com/microsoft-palo-alto-networks-find-many-vulnerabilities-by-using-ai-on-their-own-code/",
       "date": "2026-05-13T16:01:00Z",
       "description": "Microsoft’s MDASH discovered 16 of the Patch Tuesday vulnerabilities, and Palo Alto used Mythos to find dozens of flaws. The post Microsoft, Palo Alto Networks Find Many Vulnerabilities by Using AI on Their Own Code appeared first on SecurityWeek.",
       "source": "securityweek.com"
-    },
-    {
-      "title": "Webinar tomorrow: Why security alone won't stop modern attacks",
-      "link": "https://www.bleepingcomputer.com/news/security/webinar-tomorrow-why-security-alone-wont-stop-modern-attacks/",
-      "date": "2026-05-13T15:45:56Z",
-      "description": "Tomorrow's webinar examines why prevention alone is no longer enough against modern cyberattacks. The session explores how organizations combine security, backups, and recovery planning to improve cyber resilience after attacks. [...]",
-      "source": "bleepingcomputer.com"
     },
     {
       "title": "Sweet Security Launches Agentic AI Red Teaming to Counter ‘Mythos Moment’",
@@ -94,13 +157,6 @@
       "source": "thehackernews.com"
     },
     {
-      "title": "Webinar Today: ROI for Cyber-Physical Security Programs",
-      "link": "https://www.securityweek.com/webinar-today-roi-for-cyber-physical-security-programs/",
-      "date": "2026-05-13T13:30:00Z",
-      "description": "This webinar will help OT security teams and asset owners stop being cost centers and start being resilience drivers. The post Webinar Today: ROI for Cyber-Physical Security Programs appeared first on SecurityWeek.",
-      "source": "securityweek.com"
-    },
-    {
       "title": "Azerbaijani Energy Firm Hit by Repeated Microsoft Exchange Exploitation",
       "link": "https://thehackernews.com/2026/05/azerbaijani-energy-firm-hit-by-repeated.html",
       "date": "2026-05-13T13:00:00Z",
@@ -115,31 +171,10 @@
       "source": "darkreading.com"
     },
     {
-      "title": "Government to Scrutinize Instructure Over Canvas Disruption, Data Breach",
-      "link": "https://www.securityweek.com/government-to-scrutinize-instructure-on-canvas-disruption-data-breach/",
-      "date": "2026-05-13T12:13:14Z",
-      "description": "The Committee on Homeland Security has requested to be briefed on the incident and Instructure’s remediation steps. The post Government to Scrutinize Instructure Over Canvas Disruption, Data Breach appeared first on SecurityWeek.",
-      "source": "securityweek.com"
-    },
-    {
       "title": "[Webinar] How Modern Attack Paths Cross Code, Pipelines, and Cloud",
       "link": "https://thehackernews.com/2026/05/webinar-why-your-appsec-tools-miss.html",
       "date": "2026-05-13T11:52:43Z",
       "description": "TL;DR: Stop chasing thousands of \"toast\" alerts. Join experts from Wiz to learn how hackers connect tiny flaws to build a \"Lethal Chain\" to your data—and how to break it. Register for the Strategic Briefing Here. Most security tools work like a smoke alarm that goes off every time you burn a piece of toast. You get so many alerts that you eventually start to ignore them. The real danger? While",
-      "source": "thehackernews.com"
-    },
-    {
-      "title": "Most Remediation Programs Never Confirm the Fix Actually Worked",
-      "link": "https://thehackernews.com/2026/05/most-remediation-programs-never-confirm.html",
-      "date": "2026-05-13T11:30:00Z",
-      "description": "Security teams have never had better visibility into their environments and never been worse at confirming what they fix stays fixed. Mandiant's M-Trends 2026 report puts the mean time to exploit at an estimated negative seven days. The Verizon 2025 DBIR puts median time to remediate edge device vulnerabilities at 32 days. These numbers have understandably driven the industry toward a clear",
-      "source": "thehackernews.com"
-    },
-    {
-      "title": "Microsoft Patches 138 Vulnerabilities, Including DNS and Netlogon RCE Flaws",
-      "link": "https://thehackernews.com/2026/05/microsoft-patches-138-vulnerabilities.html",
-      "date": "2026-05-13T10:36:10Z",
-      "description": "Microsoft on Tuesday released patches for 138 security vulnerabilities spanning its product portfolio, although none of them have been listed as publicly known or under active attack. Of the 138 flaws, 30 are rated Critical, 104 are rated Important, three are rated Moderate, and one is rated Low in severity. As many as 61 vulnerabilities are classified as privilege escalation bugs, followed by",
       "source": "thehackernews.com"
     },
     {
