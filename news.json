@@ -1,7 +1,56 @@
 {
-  "last_updated": "2026-05-14T09:25:58Z",
+  "last_updated": "2026-05-14T11:43:17Z",
   "count": 40,
   "items": [
+    {
+      "title": "Palo Alto PAN-OS 0-Day Exploited to Execute Arbitrary Code With Root Privileges on Firewalls",
+      "link": "https://cybersecuritynews.com/pan-os-rce-flaw-exploited/",
+      "date": "2026-05-14T11:26:41Z",
+      "description": "A critical vulnerability in Palo Alto Networks PAN-OS is putting enterprise firewalls at risk, allowing unauthenticated attackers to execute arbitrary code with root privileges. Tracked as CVE-2026-0300, the flaw affects the User-ID Authentication Portal (Captive Portal) and has already seen limited real-world exploitation, particularly in environments where the service is exposed to the…",
+      "source": "cybersecuritynews.com"
+    },
+    {
+      "title": "G7 Countries Release AI SBOM Guidance",
+      "link": "https://www.securityweek.com/g7-countries-release-ai-sbom-guidance/",
+      "date": "2026-05-14T11:15:05Z",
+      "description": "The goal of the guidance, which outlines minimum elements, is to help organizations enhance transparency in AI systems and supply chains. The post G7 Countries Release AI SBOM Guidance appeared first on SecurityWeek.",
+      "source": "securityweek.com"
+    },
+    {
+      "title": "F5 Patches Over 50 Vulnerabilities",
+      "link": "https://www.securityweek.com/f5-patches-over-50-vulnerabilities/",
+      "date": "2026-05-14T10:47:58Z",
+      "description": "The company’s latest quarterly advisory describes high and medium-severity issues in BIG-IP, BIG-IQ, and NGINX. The post F5 Patches Over 50 Vulnerabilities appeared first on SecurityWeek.",
+      "source": "securityweek.com"
+    },
+    {
+      "title": "Dell confirms its SupportAssist software causes Windows BSOD crashes",
+      "link": "https://www.bleepingcomputer.com/news/software/dell-confirms-its-supportassist-software-causes-windows-bsod-crashes/",
+      "date": "2026-05-14T10:03:39Z",
+      "description": "Dell confirmed that its SupportAssist software is causing blue-screen crashes on some Windows systems following a wave of user reports about random reboots affecting Dell devices since Friday. [...]",
+      "source": "bleepingcomputer.com"
+    },
+    {
+      "title": "Hackers Targeted PraisonAI Vulnerability Hours After Disclosure",
+      "link": "https://www.securityweek.com/hackers-targeted-praisonai-vulnerability-hours-after-disclosure/",
+      "date": "2026-05-14T09:45:53Z",
+      "description": "The first exploitation attempts were observed less than four hours after the authentication bypass was publicly disclosed. The post Hackers Targeted PraisonAI Vulnerability Hours After Disclosure appeared first on SecurityWeek.",
+      "source": "securityweek.com"
+    },
+    {
+      "title": "Lyrie.ai Launches the Global Identity Standard for the AI Agent Age & Anthropic’s Cyber Verification Program",
+      "link": "https://cybersecuritynews.com/lyrie-ai-launches-the-global-identity-standard-for-the-ai-agent-age-anthropics-cyber-verification-program/",
+      "date": "2026-05-14T09:36:46Z",
+      "description": "DUBAI, UAE — May 11, 2026 — As the internet transitions from a playground of chatbots to a workforce of autonomous agents, the question isn’t just what AI can do—it’s who the AI is. Today, OTT Cybersecurity LLC officially launched the Agent Trust Protocol (ATP) and announced its acceptance into Anthropic’s Cyber Verification Program (CVP), effectively building the “security layer” for […] The…",
+      "source": "cybersecuritynews.com"
+    },
+    {
+      "title": "Windows Zero-Days Expose BitLocker Bypasses And CTFMON Privilege Escalation",
+      "link": "https://thehackernews.com/2026/05/windows-zero-days-expose-bitlocker.html",
+      "date": "2026-05-14T09:25:50Z",
+      "description": "An anonymous cybersecurity researcher who disclosed three Microsoft Defender vulnerabilities has returned with two more zero-days involving a BitLocker bypass and a privilege escalation impacting Windows Collaborative Translation Framework (CTFMON). The security defects have been codenamed YellowKey and GreenPlasma, respectively, by the researcher, who goes by the online aliases Chaotic Eclipse",
+      "source": "thehackernews.com"
+    },
     {
       "title": "OpenAI Hit with Class-Action Privacy Lawsuit for Sharing ChatGPT Data with Google and Meta",
       "link": "https://cybersecuritynews.com/openai-chatgpt-privacy-lawsuit/",
@@ -36,20 +85,6 @@
       "date": "2026-05-14T08:42:25Z",
       "description": "The patch was announced as Broadcom is attending the Pwn2Own hacking competition in Berlin this week. The post High-Severity Vulnerability Patched in VMware Fusion appeared first on SecurityWeek.",
       "source": "securityweek.com"
-    },
-    {
-      "title": "Seedworm APT Abuses Signed Fortemedia and SentinelOne Binaries for DLL Sideloading",
-      "link": "https://cybersecuritynews.com/seedworm-apt-abuses-signed-fortemedia/",
-      "date": "2026-05-14T08:14:20Z",
-      "description": "Iran-linked hackers have been quietly breaking into networks around the world, and their latest campaign is more calculated than anything we have seen from them before. The group known as Seedworm, also tracked as MuddyWater, spent the first quarter of 2026 targeting at least nine organizations across nine countries on four continents, leaving a trail […] The post Seedworm APT Abuses Signed…",
-      "source": "cybersecuritynews.com"
-    },
-    {
-      "title": "Windows DNS Client Vulnerability Enables Remote Code Execution Attacks",
-      "link": "https://cybersecuritynews.com/windows-dns-client-vulnerability/",
-      "date": "2026-05-14T07:53:38Z",
-      "description": "A newly disclosed vulnerability in the Microsoft Windows DNS Client could let attackers silently execute malicious code across enterprise networks, exposing a massive attack surface. Officially designated as CVE-2026-41096, this critical security flaw carries a severe CVSS score of 9.8 out of 10. By simply returning a maliciously crafted response to a routine network query, […] The post Windows…",
-      "source": "cybersecuritynews.com"
     },
     {
       "title": "New Fragnesia Linux flaw lets attackers gain root privileges",
@@ -115,39 +150,11 @@
       "source": "darkreading.com"
     },
     {
-      "title": "New critical Exim mailer flaw allows remote code execution",
-      "link": "https://www.bleepingcomputer.com/news/security/new-critical-exim-mailer-flaw-allows-remote-code-execution/",
-      "date": "2026-05-13T20:23:50Z",
-      "description": "A critical vulnerability affecting certain configurations of the Exim open-source mail transfer agent could be exploited by an unauthenticated remote attacker to execute arbitrary code. [...]",
-      "source": "bleepingcomputer.com"
-    },
-    {
       "title": "Dark Reading Celebrates 20 Years as a Leading Authority on Cybersecurity, Highlighting the People, Events, Ideas, and Technologies Shaping the Modern Risk Landscape",
       "link": "https://www.darkreading.com/cybersecurity-operations/dark-reading-celebrates-20-years-as-a-leading-authority-on-cybersecurity-highlighting-the-people-events-ideas-and-technologies-shaping-the-modern-risk-landscape",
       "date": "2026-05-13T18:52:50Z",
       "description": "Informa TechTarget's flagship cybersecurity media brand launches a special content series to mark two decades as a trusted source for cybersecurity professionals.",
       "source": "darkreading.com"
-    },
-    {
-      "title": "Foxconn Confirms North American Factories Hit by Cyberattack",
-      "link": "https://www.securityweek.com/foxconn-confirms-north-american-factories-hit-by-cyberattack/",
-      "date": "2026-05-13T17:13:36Z",
-      "description": "The Nitrogen ransomware group claims to have hacked the company’s systems, stealing 8TB of data, including confidential documents. The post Foxconn Confirms North American Factories Hit by Cyberattack appeared first on SecurityWeek.",
-      "source": "securityweek.com"
-    },
-    {
-      "title": "Microsoft, Palo Alto Networks Find Many Vulnerabilities by Using AI on Their Own Code",
-      "link": "https://www.securityweek.com/microsoft-palo-alto-networks-find-many-vulnerabilities-by-using-ai-on-their-own-code/",
-      "date": "2026-05-13T16:01:00Z",
-      "description": "Microsoft’s MDASH discovered 16 of the Patch Tuesday vulnerabilities, and Palo Alto used Mythos to find dozens of flaws. The post Microsoft, Palo Alto Networks Find Many Vulnerabilities by Using AI on Their Own Code appeared first on SecurityWeek.",
-      "source": "securityweek.com"
-    },
-    {
-      "title": "Sweet Security Launches Agentic AI Red Teaming to Counter ‘Mythos Moment’",
-      "link": "https://www.securityweek.com/sweet-security-launches-agentic-ai-red-teaming-to-counter-mythos-moment/",
-      "date": "2026-05-13T14:50:20Z",
-      "description": "New “Sweet Attack” platform uses runtime intelligence and continuous agentic red teaming to identify exploitable attack chains human teams may miss. The post Sweet Security Launches Agentic AI Red Teaming to Counter ‘Mythos Moment’ appeared first on SecurityWeek.",
-      "source": "securityweek.com"
     },
     {
       "title": "Microsoft's MDASH AI System Finds 16 Windows Flaws Fixed in Patch Tuesday",
@@ -169,13 +176,6 @@
       "date": "2026-05-13T13:00:00Z",
       "description": "The cyberthreat group targets an Azerbaijani oil and gas firm with repeated attacks, as the China-linked actors extend targeting beyond hospitality, telecom, and government sectors.",
       "source": "darkreading.com"
-    },
-    {
-      "title": "[Webinar] How Modern Attack Paths Cross Code, Pipelines, and Cloud",
-      "link": "https://thehackernews.com/2026/05/webinar-why-your-appsec-tools-miss.html",
-      "date": "2026-05-13T11:52:43Z",
-      "description": "TL;DR: Stop chasing thousands of \"toast\" alerts. Join experts from Wiz to learn how hackers connect tiny flaws to build a \"Lethal Chain\" to your data—and how to break it. Register for the Strategic Briefing Here. Most security tools work like a smoke alarm that goes off every time you burn a piece of toast. You get so many alerts that you eventually start to ignore them. The real danger? While",
-      "source": "thehackernews.com"
     },
     {
       "title": "Pre-Auth RCE Exposed: Apache HTTP Server Vulnerability and Exploit Code Hit the Public",
