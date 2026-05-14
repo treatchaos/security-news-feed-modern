@@ -1,7 +1,70 @@
 {
-  "last_updated": "2026-05-14T13:28:09Z",
+  "last_updated": "2026-05-14T16:04:12Z",
   "count": 40,
   "items": [
+    {
+      "title": "18-year-old NGINX vulnerability allows DoS, potential RCE",
+      "link": "https://www.bleepingcomputer.com/news/security/18-year-old-nginx-vulnerability-allows-dos-potential-rce/",
+      "date": "2026-05-14T15:43:41Z",
+      "description": "An 18-year-old flaw in the NGINX open-source web server, discovered using an autonomous scanning system, can be exploited for denial of service and, under certain conditions, remote code execution. [...]",
+      "source": "bleepingcomputer.com"
+    },
+    {
+      "title": "Amazon Quick Bug Exposed AI Chat Agents to Users Blocked by Custom Permissions",
+      "link": "https://cybersecuritynews.com/amazon-quick-bug-exposed-ai-chat-agents/",
+      "date": "2026-05-14T15:26:19Z",
+      "description": "Imagine locking your organization’s sensitive data behind a heavy vault door, only to realize the locking mechanism is entirely missing. Security researchers at Fog Security recently uncovered a severe authorization bypass in Amazon Quick’s AI Chat Agents. This vulnerability allowed blocked users to interact freely with enterprise AI tools, despite explicit administrative restrictions.…",
+      "source": "cybersecuritynews.com"
+    },
+    {
+      "title": "New Critical Exim Mailer Allows Remote Attacker to Execute Arbitrary Code",
+      "link": "https://cybersecuritynews.com/exim-mailer-arbitrary-code-execution/",
+      "date": "2026-05-14T15:23:54Z",
+      "description": "A critical vulnerability in the widely used Exim mail server allows unauthenticated attackers to execute arbitrary code and fully compromise exposed servers. Federico Kirschbaum, head of the Security Lab at XBOW, discovered and reported the issue, which has been dubbed Dead.Letter. The vulnerability carries a massive CVSS severity score of 9.8, making it one of […] The post New Critical Exim…",
+      "source": "cybersecuritynews.com"
+    },
+    {
+      "title": "Cyber-Enabled Cargo Crime: How Cybercrime Tradecraft is Used to Steal Freight",
+      "link": "https://www.bleepingcomputer.com/news/security/cyber-enabled-cargo-crime-how-cybercrime-tradecraft-is-used-to-steal-freight/",
+      "date": "2026-05-14T15:21:32Z",
+      "description": "Cargo theft now starts with phishing emails and stolen credentials, not hijackings, to reroute and steal freight from supply chains. NMFTA outlines how cyber-enabled cargo crime is changing transportation security. [...]",
+      "source": "bleepingcomputer.com"
+    },
+    {
+      "title": "Dell Support assist Updates Forces Windows Systems to BSOD Loop",
+      "link": "https://cybersecuritynews.com/dell-support-assist-update-bsod/",
+      "date": "2026-05-14T15:13:24Z",
+      "description": "A faulty update to Dell’s SupportAssist Remediation service is sending thousands of Dell and Alienware laptop users into endless Blue Screen of Death (BSOD) loops, with systems crashing every 30 minutes and displaying the dreaded CRITICAL_PROCESS_DIED stop error. Dell Engineering has confirmed awareness of the bug and is actively working on a fix. The root […] The post Dell Support assist…",
+      "source": "cybersecuritynews.com"
+    },
+    {
+      "title": "Ghostwriter Targets Ukrainian Government With Geofenced PDF Phishing, Cobalt Strike",
+      "link": "https://thehackernews.com/2026/05/ghostwriter-targets-ukrainian.html",
+      "date": "2026-05-14T14:00:37Z",
+      "description": "The Belarus-aligned threat group known as Ghostwriter has been attributed to a fresh set of attacks targeting governmental organizations in Ukraine. Active since at least 2016, Ghostwriter has been linked to both cyber espionage and influence operations targeting neighboring countries, particularly Ukraine. It's also tracked under the monikers FrostyNeighbor, PUSHCHA, Storm-0257, TA445, UAC‑0057",
+      "source": "thehackernews.com"
+    },
+    {
+      "title": "Enhancing Data Center Security Without Sacrificing Performance",
+      "link": "https://www.securityweek.com/enhancing-data-center-security-without-sacrificing-performance/",
+      "date": "2026-05-14T14:00:00Z",
+      "description": "For AI data centers, where the stakes are the highest and performance constraints are the tightest, security and performance are no longer a zero-sum game. The post Enhancing Data Center Security Without Sacrificing Performance appeared first on SecurityWeek.",
+      "source": "securityweek.com"
+    },
+    {
+      "title": "Microsoft Research Shows AI Can Generate Realistic Command Lines and Process Telemetry",
+      "link": "https://cybersecuritynews.com/microsoft-research-shows-ai-can-generate-realistic/",
+      "date": "2026-05-14T13:47:53Z",
+      "description": "Artificial intelligence is now capable of generating attack telemetry that looks and behaves like the real thing, and that is changing how security teams think about testing their defenses. In new work, Microsoft researchers show that large language models can create realistic command lines and process trees that closely mimic human-operated intrusions. Instead of waiting […] The post Microsoft…",
+      "source": "cybersecuritynews.com"
+    },
+    {
+      "title": "New Linux Kernel Vulnerability Fragnesia Allows Root Privilege Escalation",
+      "link": "https://www.securityweek.com/new-linux-kernel-vulnerability-fragnesia-allows-root-privilege-escalation/",
+      "date": "2026-05-14T13:44:46Z",
+      "description": "The vulnerability, tracked as CVE-2026-46300, is similar to the recently disclosed exploits named Dirty Frag and Copy Fail. The post New Linux Kernel Vulnerability Fragnesia Allows Root Privilege Escalation appeared first on SecurityWeek.",
+      "source": "securityweek.com"
+    },
     {
       "title": "Mythos Proves Potent in Vulnerability Discovery, Less Convincing Elsewhere",
       "link": "https://www.securityweek.com/mythos-proves-potent-in-vulnerability-discovery-less-convincing-elsewhere/",
@@ -13,7 +76,7 @@
       "title": "AI Drives Cybersecurity Investments, Widening 'Valley of Death'",
       "link": "https://www.darkreading.com/cybersecurity-operations/ai-cybersecurity-investments-valley-death",
       "date": "2026-05-14T13:00:00Z",
-      "description": "In a role reversal, investment dollars in AI security startups exceeded the value of AI acquisitions in 1Q26 by more than $1 billion, a rare occurrence.",
+      "description": "In a role reversal, investment dollars in security startups exceeded the value of mergers and acquisitions in 1Q26 by more than $1 billion, a rare occurrence.",
       "source": "darkreading.com"
     },
     {
@@ -45,13 +108,6 @@
       "source": "securityweek.com"
     },
     {
-      "title": "Hackers Abuse Legitimate HWMonitor Binary to Load Malicious DLL Payload",
-      "link": "https://cybersecuritynews.com/hackers-abuse-legitimate-hwmonitor-binary/",
-      "date": "2026-05-14T12:03:48Z",
-      "description": "Hackers are once again turning familiar tools against the very users who trust them. A new attack campaign has been discovered in which threat actors weaponized HWMonitor, a widely used hardware monitoring utility developed by CPUID, to silently deliver a remote access trojan known as STX RAT. By disguising malware inside what looks like a […] The post Hackers Abuse Legitimate HWMonitor Binary…",
-      "source": "cybersecuritynews.com"
-    },
-    {
       "title": "Foxconn Attack Highlights Manufacturing's Cyber Crisis",
       "link": "https://www.darkreading.com/cyberattacks-data-breaches/foxconn-attack-manufacturing-cyber-crisis",
       "date": "2026-05-14T12:00:00Z",
@@ -73,39 +129,11 @@
       "source": "thehackernews.com"
     },
     {
-      "title": "Palo Alto PAN-OS 0-Day Exploited to Execute Arbitrary Code With Root Privileges on Firewalls",
-      "link": "https://cybersecuritynews.com/pan-os-rce-flaw-exploited/",
-      "date": "2026-05-14T11:26:41Z",
-      "description": "A critical vulnerability in Palo Alto Networks PAN-OS is putting enterprise firewalls at risk, allowing unauthenticated attackers to execute arbitrary code with root privileges. Tracked as CVE-2026-0300, the flaw affects the User-ID Authentication Portal (Captive Portal) and has already seen limited real-world exploitation, particularly in environments where the service is exposed to the…",
-      "source": "cybersecuritynews.com"
-    },
-    {
-      "title": "G7 Countries Release AI SBOM Guidance",
-      "link": "https://www.securityweek.com/g7-countries-release-ai-sbom-guidance/",
-      "date": "2026-05-14T11:15:05Z",
-      "description": "The goal of the guidance, which outlines minimum elements, is to help organizations enhance transparency in AI systems and supply chains. The post G7 Countries Release AI SBOM Guidance appeared first on SecurityWeek.",
-      "source": "securityweek.com"
-    },
-    {
-      "title": "F5 Patches Over 50 Vulnerabilities",
-      "link": "https://www.securityweek.com/f5-patches-over-50-vulnerabilities/",
-      "date": "2026-05-14T10:47:58Z",
-      "description": "The company’s latest quarterly advisory describes high and medium-severity issues in BIG-IP, BIG-IQ, and NGINX. The post F5 Patches Over 50 Vulnerabilities appeared first on SecurityWeek.",
-      "source": "securityweek.com"
-    },
-    {
       "title": "Dell confirms its SupportAssist software causes Windows BSOD crashes",
       "link": "https://www.bleepingcomputer.com/news/software/dell-confirms-its-supportassist-software-causes-windows-bsod-crashes/",
       "date": "2026-05-14T10:03:39Z",
       "description": "Dell confirmed that its SupportAssist software is causing blue-screen crashes on some Windows systems following a wave of user reports about random reboots affecting Dell devices since Friday. [...]",
       "source": "bleepingcomputer.com"
-    },
-    {
-      "title": "Lyrie.ai Launches the Global Identity Standard for the AI Agent Age & Anthropic’s Cyber Verification Program",
-      "link": "https://cybersecuritynews.com/lyrie-ai-launches-the-global-identity-standard-for-the-ai-agent-age-anthropics-cyber-verification-program/",
-      "date": "2026-05-14T09:36:46Z",
-      "description": "DUBAI, UAE — May 11, 2026 — As the internet transitions from a playground of chatbots to a workforce of autonomous agents, the question isn’t just what AI can do—it’s who the AI is. Today, OTT Cybersecurity LLC officially launched the Agent Trust Protocol (ATP) and announced its acceptance into Anthropic’s Cyber Verification Program (CVP), effectively building the “security layer” for […] The…",
-      "source": "cybersecuritynews.com"
     },
     {
       "title": "Windows Zero-Days Expose BitLocker Bypasses And CTFMON Privilege Escalation",
@@ -115,24 +143,10 @@
       "source": "thehackernews.com"
     },
     {
-      "title": "OpenAI Hit with Class-Action Privacy Lawsuit for Sharing ChatGPT Data with Google and Meta",
-      "link": "https://cybersecuritynews.com/openai-chatgpt-privacy-lawsuit/",
-      "date": "2026-05-14T09:15:15Z",
-      "description": "OpenAI Global LLC is facing a new class‑action complaint in the Southern District of California that accuses the company of quietly wiring its ChatGPT web interface with Meta’s Facebook Pixel and Google Analytics, turning highly sensitive chatbot conversations into monetizable tracking data for online advertising ecosystems. Filed by California resident Amargo Couture on behalf of […] The post…",
-      "source": "cybersecuritynews.com"
-    },
-    {
       "title": "US charges suspected Dream Market admin arrested in Germany",
       "link": "https://www.bleepingcomputer.com/news/security/us-charges-suspected-dream-market-admin-arrested-in-germany/",
       "date": "2026-05-14T08:55:46Z",
       "description": "The alleged main administrator of Dream Market Incognito Market, one of the largest dark web marketplaces before its shutdown, has been indicted in the United States on money laundering charges. [...]",
-      "source": "bleepingcomputer.com"
-    },
-    {
-      "title": "New Fragnesia Linux flaw lets attackers gain root privileges",
-      "link": "https://www.bleepingcomputer.com/news/security/new-fragnesia-linux-flaw-lets-attackers-gain-root-privileges/",
-      "date": "2026-05-14T07:34:19Z",
-      "description": "Linux distros are rolling out patches for a new high-severity kernel privilege escalation vulnerability (known as Fragnasia and tracked as CVE-2026-46300) that allows attackers to run malicious code as root. [...]",
       "source": "bleepingcomputer.com"
     },
     {
@@ -143,21 +157,7 @@
       "source": "thehackernews.com"
     },
     {
-      "title": "18-Year-Old NGINX Rewrite Module Flaw Enables Unauthenticated RCE",
-      "link": "https://thehackernews.com/2026/05/18-year-old-nginx-rewrite-module-flaw.html",
-      "date": "2026-05-14T06:00:09Z",
-      "description": "Cybersecurity researchers have disclosed multiple security vulnerabilities impacting NGINX Plus and NGINX Open, including a critical flaw that remained undetected for 18 years. The vulnerability, discovered by depthfirst, is a heap buffer overflow issue impacting ngx_http_rewrite_module (CVE-2026-42945, CVSS v4 score: 9.2) that could allow an attacker to achieve remote code execution or cause a",
-      "source": "thehackernews.com"
-    },
-    {
-      "title": "West Pharmaceutical says hackers stole data, encrypted systems",
-      "link": "https://www.bleepingcomputer.com/news/security/west-pharmaceutical-says-hackers-stole-data-encrypted-systems/",
-      "date": "2026-05-13T22:23:31Z",
-      "description": "West Pharmaceutical Services disclosed that it was the target of a cyberattack that resulted in data exfiltration and system encryption. [...]",
-      "source": "bleepingcomputer.com"
-    },
-    {
-      "title": "Checkbox Assessments Aren't Fit to Measure to Risk",
+      "title": "Checkbox Assessments Aren't Fit to Measure Risk",
       "link": "https://www.darkreading.com/cyber-risk/checkbox-assessments-aren-t-fit-to-measure-to-risk",
       "date": "2026-05-13T21:17:07Z",
       "description": "Security governance needs to be more than an annual compliance exercise. New companies are emerging to address risk-management gaps in current audit tools.",
