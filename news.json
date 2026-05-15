@@ -1,7 +1,63 @@
 {
-  "last_updated": "2026-05-15T13:27:27Z",
+  "last_updated": "2026-05-15T15:55:41Z",
   "count": 40,
   "items": [
+    {
+      "title": "Gunra Ransomware Expands RaaS Operations After Shifting From Conti-Based Locker",
+      "link": "https://cybersecuritynews.com/gunra-ransomware-expands-raas-operations/",
+      "date": "2026-05-15T15:46:30Z",
+      "description": "Gunra ransomware has quickly grown from a new threat into a serious global problem, hitting dozens of organizations in less than a year. The group behind it is not just encrypting data, but also running a business-like operation that sells access, leaks stolen files, and recruits partners to spread its malware. For defenders, this is […] The post Gunra Ransomware Expands RaaS Operations After…",
+      "source": "cybersecuritynews.com"
+    },
+    {
+      "title": "OpenClaw Chain Vulnerabilities Expose 245,000 Public AI Agent Servers to Attack",
+      "link": "https://cybersecuritynews.com/openclaw-chain-vulnerabilities/",
+      "date": "2026-05-15T15:41:39Z",
+      "description": "A chain of four critical vulnerabilities discovered in OpenClaw, one of the fastest-growing open-source platforms for autonomous AI agents, has left an estimated 245,000 publicly accessible server instances exposed to remote exploitation, credential theft, and persistent backdoor installation. Originally launched as “Clawdbot” in late 2025, OpenClaw connects large language models directly to…",
+      "source": "cybersecuritynews.com"
+    },
+    {
+      "title": "Shai-Hulud Worm Steals npm, GitHub, AWS, and Kubernetes Secrets From Developers",
+      "link": "https://cybersecuritynews.com/shai-hulud-worm-steals-npm/",
+      "date": "2026-05-15T15:29:19Z",
+      "description": "A dangerous new piece of malware called Shai-Hulud has emerged as one of the most alarming supply chain threats of 2026. It is a self-propagating worm that quietly tunnels through developer environments, stealing credentials from npm, GitHub, AWS, and Kubernetes all at once. Hundreds of malicious packages have already been tied to this campaign, making […] The post Shai-Hulud Worm Steals npm,…",
+      "source": "cybersecuritynews.com"
+    },
+    {
+      "title": "Hackers Abuse OAuth Device Authorization Flow to Steal Microsoft 365 Tokens",
+      "link": "https://cybersecuritynews.com/hackers-abuse-oauth-device-authorization-flow/",
+      "date": "2026-05-15T14:53:32Z",
+      "description": "Hackers are exploiting a little-known feature of Microsoft’s authentication system to steal account credentials at scale. Device code phishing campaigns now target organizations worldwide by manipulating the OAuth device authorization flow, turning a security feature into a major vulnerability. This emerging threat has surged dramatically since late 2024, catching security teams unprepared for…",
+      "source": "cybersecuritynews.com"
+    },
+    {
+      "title": "In Other News: Big Tech vs Canada Encryption Bill, Cisco’s Free AI Security Spec, Audi App Flaws",
+      "link": "https://www.securityweek.com/in-other-news-big-tech-vs-canada-encryption-bill-ciscos-free-ai-security-spec-audi-app-flaws/",
+      "date": "2026-05-15T14:52:16Z",
+      "description": "Other noteworthy stories that might have slipped under the radar: Nvidia cloud gaming data breach, Android 17 security upgrades, FBI warning after ShinyHunters hacks Canvas. The post In Other News: Big Tech vs Canada Encryption Bill, Cisco’s Free AI Security Spec, Audi App Flaws appeared first on SecurityWeek.",
+      "source": "securityweek.com"
+    },
+    {
+      "title": "Microsoft backpedals: Edge to stop loading passwords into memory",
+      "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-edge-to-stop-loading-cleartext-passwords-in-memory-on-startup/",
+      "date": "2026-05-15T14:49:39Z",
+      "description": "Microsoft is updating the Edge web browser to ensure it no longer loads saved passwords into process memory in clear text at startup after previously stating it was \"by design.\" [...]",
+      "source": "bleepingcomputer.com"
+    },
+    {
+      "title": "Inside the REMUS Infostealer: Session Theft, MaaS, and Rapid Evolution",
+      "link": "https://www.bleepingcomputer.com/news/security/inside-the-remus-infostealer-session-theft-maas-and-rapid-evolution/",
+      "date": "2026-05-15T14:02:12Z",
+      "description": "Stolen browser sessions and authentication tokens are becoming more valuable than stolen passwords. Flare explains how the REMUS infostealer evolved around session theft and operational scalability. [...]",
+      "source": "bleepingcomputer.com"
+    },
+    {
+      "title": "Four OpenClaw Flaws Enable Data Theft, Privilege Escalation, and Persistence",
+      "link": "https://thehackernews.com/2026/05/four-openclaw-flaws-enable-data-theft.html",
+      "date": "2026-05-15T13:35:04Z",
+      "description": "Cybersecurity researchers have disclosed a set of four security flaws in OpenClaw that could be chained to achieve data theft, privilege escalation, and persistence. The vulnerabilities, collectively dubbed Claw Chain by Cyera, can permit an attacker to establish a foothold, expose sensitive data, and plant backdoors. A brief description of the flaws is below -",
+      "source": "thehackernews.com"
+    },
     {
       "title": "Microsoft Edge, Windows 11 and LiteLLM Hacked in Pwn2Own Berlin 2026",
       "link": "https://cybersecuritynews.com/pwn2own-berlin-2026/",
@@ -10,25 +66,11 @@
       "source": "cybersecuritynews.com"
     },
     {
-      "title": "Hackers Use OrBit Rootkit to Harvest SSH and Sudo Credentials From Linux Systems",
-      "link": "https://cybersecuritynews.com/hackers-use-orbit-rootkit-to-harvest-ssh/",
-      "date": "2026-05-15T13:14:48Z",
-      "description": "A dangerous rootkit called OrBit has been quietly targeting Linux systems for years, stealing login credentials and hiding deep inside infected machines without triggering most security tools. New research reveals that what was once believed to be a custom-built threat is actually a modified version of a publicly available rootkit, spreading across the globe through […] The post Hackers Use…",
-      "source": "cybersecuritynews.com"
-    },
-    {
       "title": "Microsoft to automatically roll back faulty Windows drivers",
       "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-to-automatically-roll-back-faulty-windows-drivers/",
       "date": "2026-05-15T12:29:48Z",
       "description": "Microsoft is introducing a new capability that will allow it to remotely roll back problematic Windows drivers delivered through Windows Update. [...]",
       "source": "bleepingcomputer.com"
-    },
-    {
-      "title": "Microsoft Warns of Attackers Using Trusted HPE Operations Agent for Malware-Free Intrusions",
-      "link": "https://cybersecuritynews.com/microsoft-warns-of-attackers-using-trusted-hpe-operations-agent/",
-      "date": "2026-05-15T12:15:36Z",
-      "description": "A recent intrusion uncovered by security researchers revealed a calculated attack campaign that used a legitimate enterprise management tool as a weapon. The threat actor gained access through a compromised third-party IT services provider, then quietly moved through the victim’s environment using tools that were already approved and running. No obvious malware was dropped, and […] The post…",
-      "source": "cybersecuritynews.com"
     },
     {
       "title": "Microsoft Warns of Exchange Server Zero-Day Exploited in the Wild",
@@ -43,20 +85,6 @@
       "date": "2026-05-15T12:00:00Z",
       "description": "Robert \"RSnake\" Hansen, Katie Moussouris, Rich Mogull, Richard Stiennon, and Bruce Schneier reflect on how their favorite columns penned for Dark Reading over the past 20 years have stood the test of time.",
       "source": "darkreading.com"
-    },
-    {
-      "title": "Tycoon 2FA Operators Adopt OAuth Device Code Phishing to Bypass MFA",
-      "link": "https://cybersecuritynews.com/tycoon-2fa-operators-adopt-oauth-device-code/",
-      "date": "2026-05-15T11:33:51Z",
-      "description": "Cybercriminals behind the Tycoon 2FA phishing kit have added a powerful new weapon to their playbook. By combining their well-known phishing infrastructure with OAuth Device Code abuse, they can now steal access to Microsoft 365 accounts without ever capturing a single password. The Tycoon 2FA phishing kit first gained attention as a Phishing-as-a-Service (PhaaS) platform. […] The post Tycoon…",
-      "source": "cybersecuritynews.com"
-    },
-    {
-      "title": "PraisonAI Vulnerability Exploited Within Hours of Public Disclosure",
-      "link": "https://cybersecuritynews.com/praisonai-vulnerability-exploited/",
-      "date": "2026-05-15T11:14:28Z",
-      "description": "As artificial intelligence frameworks become central to enterprise operations, a critical flaw in a popular AI platform has exposed organizations to serious security risks from threat actors. Within hours of public disclosure, a severe vulnerability in PraisonAI’s legacy API server, tracked as CVE-2026-44338, is already sending shockwaves through the developer community. By shipping with…",
-      "source": "cybersecuritynews.com"
     },
     {
       "title": "American Lending Center Data Breach Affects 123,000 Individuals",
@@ -101,13 +129,6 @@
       "source": "bleepingcomputer.com"
     },
     {
-      "title": "Chrome 148 Update Patches Critical Vulnerabilities",
-      "link": "https://www.securityweek.com/chrome-148-update-patches-critical-vulnerabilities/",
-      "date": "2026-05-15T07:25:15Z",
-      "description": "The refresh resolves critical-severity use-after-free and other types of bugs in various browser components. The post Chrome 148 Update Patches Critical Vulnerabilities appeared first on SecurityWeek.",
-      "source": "securityweek.com"
-    },
-    {
       "title": "On-Prem Microsoft Exchange Server CVE-2026-42897 Exploited via Crafted Email",
       "link": "https://thehackernews.com/2026/05/on-prem-microsoft-exchange-server-cve.html",
       "date": "2026-05-15T06:19:04Z",
@@ -136,13 +157,6 @@
       "source": "bleepingcomputer.com"
     },
     {
-      "title": "Hackers exploit auth bypass flaw in Burst Statistics WordPress plugin",
-      "link": "https://www.bleepingcomputer.com/news/security/hackers-exploit-auth-bypass-flaw-in-burst-statistics-wordpress-plugin/",
-      "date": "2026-05-14T21:07:17Z",
-      "description": "Hackers are leveraging a critical authentication bypass vulnerability in the WordPress plugin Burst Statistics to obtain admin-level access to websites. [...]",
-      "source": "bleepingcomputer.com"
-    },
-    {
       "title": "SecurityScorecard Snags Driftnet to Level Up Threat Intelligence",
       "link": "https://www.darkreading.com/cyber-risk/securityscorecard-snags-driftnet-to-level-up-threat-intelligence",
       "date": "2026-05-14T20:57:27Z",
@@ -157,24 +171,10 @@
       "source": "darkreading.com"
     },
     {
-      "title": "Cisco warns of new critical SD-WAN flaw exploited in zero-day attacks",
-      "link": "https://www.bleepingcomputer.com/news/security/cisco-warns-of-new-critical-sd-wan-flaw-exploited-in-zero-day-attacks/",
-      "date": "2026-05-14T20:09:56Z",
-      "description": "Cisco is warning that a critical Catalyst SD-WAN Controller authentication bypass flaw, tracked as CVE-2026-20182, was actively exploited in zero-day attacks that allowed attackers to gain administrative privileges on compromised devices. [...]",
-      "source": "bleepingcomputer.com"
-    },
-    {
-      "title": "Cisco Catalyst SD-WAN Controller Auth Bypass Actively Exploited to Gain Admin Access",
-      "link": "https://thehackernews.com/2026/05/cisco-catalyst-sd-wan-controller-auth.html",
-      "date": "2026-05-14T17:45:20Z",
-      "description": "Cisco has released updates to address a maximum-severity authentication bypass flaw in Catalyst SD-WAN Controller that it said has been exploited in limited attacks. The vulnerability, tracked as CVE-2026-20182, carries a CVSS score of 10.0. \"A vulnerability in the peering authentication in Cisco Catalyst SD-WAN Controller, formerly SD-WAN vSmart, and Cisco Catalyst SD-WAN Manager, formerly",
-      "source": "thehackernews.com"
-    },
-    {
-      "title": "'FrostyNeighbor' APT Carefully Targets Govt Orgs in Poland, Ukraine",
-      "link": "https://www.darkreading.com/cyberattacks-data-breaches/frostyneighbor-apt-govt-orgs-poland-ukraine",
-      "date": "2026-05-14T16:59:25Z",
-      "description": "Attackers uniquely fingerprint victims before delivering spear-phishing payloads aimed at espionage, in the latest campaign from the Belarussian nation-state threat group.",
+      "title": "Congress Puts Heat on Instructure After ShinyHunters Canvas Attacks",
+      "link": "https://www.darkreading.com/cyberattacks-data-breaches/congress-instructure-shinyhunters-attacks",
+      "date": "2026-05-14T20:19:20Z",
+      "description": "The House Committee on Homeland Security sent a letter about the Canvas cyberattack and outage, the same day that the edtech company said it reached an \"agreement\" with the ShinyHunters cybercriminals.",
       "source": "darkreading.com"
     },
     {
