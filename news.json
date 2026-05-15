@@ -1,41 +1,83 @@
 {
-  "last_updated": "2026-05-15T09:37:52Z",
+  "last_updated": "2026-05-15T11:47:02Z",
   "count": 40,
   "items": [
     {
-      "title": "Microsoft Details Kazuar Malware’s Modular Architecture and P2P Botnet Operations",
-      "link": "https://cybersecuritynews.com/microsoft-details-kazuar-malwares-modular-architecture/",
-      "date": "2026-05-15T08:53:28Z",
-      "description": "A nation-state malware known as Kazuar has resurfaced with a far more dangerous design than anyone expected. What once started as a relatively standard backdoor has now grown into a fully modular, peer-to-peer botnet specifically engineered for long-term, covert espionage against high-value government and diplomatic targets. The group behind it, known as Secret Blizzard, has […] The post…",
+      "title": "Tycoon 2FA Operators Adopt OAuth Device Code Phishing to Bypass MFA",
+      "link": "https://cybersecuritynews.com/tycoon-2fa-operators-adopt-oauth-device-code/",
+      "date": "2026-05-15T11:33:51Z",
+      "description": "Cybercriminals behind the Tycoon 2FA phishing kit have added a powerful new weapon to their playbook. By combining their well-known phishing infrastructure with OAuth Device Code abuse, they can now steal access to Microsoft 365 accounts without ever capturing a single password. The Tycoon 2FA phishing kit first gained attention as a Phishing-as-a-Service (PhaaS) platform. […] The post Tycoon…",
       "source": "cybersecuritynews.com"
     },
     {
-      "title": "VMware Fusion Vulnerability Let Attackers Escalate Privilege to Root",
-      "link": "https://cybersecuritynews.com/vmware-fusion-toctou-vulnerability/",
-      "date": "2026-05-15T08:24:48Z",
-      "description": "A high-severity privilege escalation vulnerability has been discovered in VMware Fusion, Broadcom’s popular macOS virtualization software, allowing local attackers to gain root-level access on affected systems. Tracked as CVE-2026-41702, the flaw was privately reported to Broadcom and patched on May 14, 2026, under security advisory VMSA-2026-0003. The vulnerability stems from a TOCTOU…",
+      "title": "PraisonAI Vulnerability Exploited Within Hours of Public Disclosure",
+      "link": "https://cybersecuritynews.com/praisonai-vulnerability-exploited/",
+      "date": "2026-05-15T11:14:28Z",
+      "description": "As artificial intelligence frameworks become central to enterprise operations, a critical flaw in a popular AI platform has exposed organizations to serious security risks from threat actors. Within hours of public disclosure, a severe vulnerability in PraisonAI’s legacy API server, tracked as CVE-2026-44338, is already sending shockwaves through the developer community. By shipping with…",
       "source": "cybersecuritynews.com"
     },
     {
-      "title": "Hackers Abuse Scheduled Tasks to Maintain Persistence in FrostyNeighbor Attacks",
-      "link": "https://cybersecuritynews.com/hackers-abuse-scheduled-tasks-to-maintain-persistence/",
-      "date": "2026-05-15T08:04:29Z",
-      "description": "A state-aligned hacking group known as FrostyNeighbor has resurfaced with a fresh wave of cyberattacks targeting government organizations in Ukraine, using a carefully designed infection chain that is harder than ever to detect. The group, active since at least 2016, has a long history of targeting countries neighboring Belarus, and its latest campaign shows just […] The post Hackers Abuse…",
+      "title": "Amazon Redshift JDBC Driver Vulnerabilities Enables Remote Code Execution Attacks",
+      "link": "https://cybersecuritynews.com/amazon-redshift-jdbc-driver-vulnerabilities/",
+      "date": "2026-05-15T11:12:58Z",
+      "description": "A critical vulnerability in the Amazon Redshift JDBC driver has put enterprise applications at severe risk of Remote Code Execution (RCE). Threat actors can exploit this newly disclosed flaw simply by manipulating database connection URLs. This hidden vulnerability allows attackers to hijack the application process from within, potentially exposing sensitive enterprise data to unauthorized…",
       "source": "cybersecuritynews.com"
     },
     {
-      "title": "79 Chrome Vulnerabilities Patched, Including 14 Critical One’s – Update Now!",
-      "link": "https://cybersecuritynews.com/79-chrome-vulnerabilities-patched/",
-      "date": "2026-05-15T07:37:07Z",
-      "description": "Google has rolled out a massive security update for its Chrome browser, sealing a staggering 79 vulnerabilities before threat actors can exploit them. With 14 of these flaws rated as critical, browsing the web on an outdated version leaves your entire system wide open to devastating cyberattacks. The newest stable release bumps Chrome to 148.0.7778.167/168 […] The post 79 Chrome Vulnerabilities…",
+      "title": "Multiple cPanel Vulnerabilities Allows Access to Sensitive System Resources",
+      "link": "https://cybersecuritynews.com/cpanel-vulnerabilities/",
+      "date": "2026-05-15T11:10:53Z",
+      "description": "In a severe blow to web hosting environments worldwide, administrators are racing against the clock to patch a massive wave of security vulnerabilities affecting cPanel and WebHost Manager (WHM). Threat actors are currently eyeing newly disclosed flaws that grant unauthenticated access to sensitive system resources, potentially allowing complete server compromise. Recent security updates from…",
       "source": "cybersecuritynews.com"
     },
     {
-      "title": "Critical Microsoft Exchange Server Vulnerability Actively Exploited in Attacks",
-      "link": "https://cybersecuritynews.com/microsoft-exchange-server-vulnerability-exploited/",
-      "date": "2026-05-15T07:32:53Z",
-      "description": "Microsoft issued an urgent security alert regarding a newly discovered vulnerability in Exchange Server that is currently being exploited in the wild. Tracked as CVE-2026-42897, this critical spoofing flaw carries a high CVSS 3.1 severity score of 8.1 and directly impacts on-premises email infrastructure. Threat actors are actively exploiting this network-based weakness to compromise…",
+      "title": "American Lending Center Data Breach Affects 123,000 Individuals",
+      "link": "https://www.securityweek.com/american-lending-center-data-breach-affects-123000-individuals/",
+      "date": "2026-05-15T11:06:55Z",
+      "description": "The non-bank lender discovered a ransomware attack nearly one year ago, but only recently completed its investigation. The post American Lending Center Data Breach Affects 123,000 Individuals appeared first on SecurityWeek.",
+      "source": "securityweek.com"
+    },
+    {
+      "title": "TeamPCP Hackers Abuse CI/CD Pipelines to Steal Developer and Cloud Credentials",
+      "link": "https://cybersecuritynews.com/teampcp-hackers-abuse-ci-cd-pipelines/",
+      "date": "2026-05-15T11:03:30Z",
+      "description": "TeamPCP is quietly turning trusted development tools into entry points for large scale credential theft. By slipping malicious code into popular CI/CD components, the group has shown how easily attacker controlled logic can blend into normal build and release activity. The result is a campaign that focuses less on breaking into laptops and more on […] The post TeamPCP Hackers Abuse CI/CD…",
       "source": "cybersecuritynews.com"
+    },
+    {
+      "title": "What 45 Days of Watching Your Own Tools Will Tell You About Your Real Attack Surface",
+      "link": "https://thehackernews.com/2026/05/what-45-days-of-watching-your-own-tools.html",
+      "date": "2026-05-15T11:00:00Z",
+      "description": "In Your Biggest Security Risk Isn't Malware — It's What You Already Trust, we made a simple argument: the most dangerous activity inside most organizations no longer looks like an attack. It looks like administration. PowerShell, WMIC, netsh, Certutil, MSBuild — the same trusted utilities your IT team uses every day are also the preferred toolkit of modern threat actors. Bitdefender's analysis",
+      "source": "thehackernews.com"
+    },
+    {
+      "title": "TanStack Supply Chain Attack Hits Two OpenAI Employee Devices, Forces macOS Updates",
+      "link": "https://thehackernews.com/2026/05/tanstack-supply-chain-attack-hits-two.html",
+      "date": "2026-05-15T10:54:44Z",
+      "description": "OpenAI has disclosed that two of its employee devices in its corporate environment were impacted via the Mini Shai-Hulud supply chain attack on TanStack, but noted that no user data, production systems, or intellectual property were compromised or modified in an unauthorized manner. \"Upon identification of the malicious activity, we worked quickly to investigate, contain, and take steps to",
+      "source": "thehackernews.com"
+    },
+    {
+      "title": "OpenAI Hit by TanStack Supply Chain Attack",
+      "link": "https://www.securityweek.com/openai-hit-by-tanstack-supply-chain-attack/",
+      "date": "2026-05-15T10:37:00Z",
+      "description": "Two employee devices were compromised in the attack, and credential material was stolen from OpenAI code repositories. The post OpenAI Hit by TanStack Supply Chain Attack appeared first on SecurityWeek.",
+      "source": "securityweek.com"
+    },
+    {
+      "title": "TeamPCP Ups the Game, Releases Shai-Hulud Worm’s Source Code",
+      "link": "https://www.securityweek.com/teampcp-ups-the-game-releases-shai-hulud-worms-source-code/",
+      "date": "2026-05-15T09:47:09Z",
+      "description": "The hacking group is encouraging miscreants to use the code in supply chain attacks, promising monetary rewards. The post TeamPCP Ups the Game, Releases Shai-Hulud Worm’s Source Code appeared first on SecurityWeek.",
+      "source": "securityweek.com"
+    },
+    {
+      "title": "Microsoft warns of Exchange zero-day flaw exploited in attacks",
+      "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-warns-of-exchange-zero-day-flaw-exploited-in-attacks/",
+      "date": "2026-05-15T09:40:42Z",
+      "description": "On Thursday, Microsoft shared mitigations for a high-severity Exchange Server vulnerability exploited in attacks that allow threat actors to execute arbitrary code via cross-site scripting (XSS) while targeting Outlook on the web users. [...]",
+      "source": "bleepingcomputer.com"
     },
     {
       "title": "Chrome 148 Update Patches Critical Vulnerabilities",
@@ -115,24 +157,10 @@
       "source": "bleepingcomputer.com"
     },
     {
-      "title": "Windows 11 and Microsoft Edge hacked at Pwn2Own Berlin 2026",
-      "link": "https://www.bleepingcomputer.com/news/security/windows-11-and-microsoft-edge-hacked-on-first-day-of-pwn2own-berlin-2026/",
-      "date": "2026-05-14T18:53:50Z",
-      "description": "On the first day of Pwn2Own Berlin 2026, security researchers collected $523,000 in cash awards after exploiting 24 unique zero-days. [...]",
-      "source": "bleepingcomputer.com"
-    },
-    {
       "title": "Cisco Catalyst SD-WAN Controller Auth Bypass Actively Exploited to Gain Admin Access",
       "link": "https://thehackernews.com/2026/05/cisco-catalyst-sd-wan-controller-auth.html",
       "date": "2026-05-14T17:45:20Z",
       "description": "Cisco has released updates to address a maximum-severity authentication bypass flaw in Catalyst SD-WAN Controller that it said has been exploited in limited attacks. The vulnerability, tracked as CVE-2026-20182, carries a CVSS score of 10.0. \"A vulnerability in the peering authentication in Cisco Catalyst SD-WAN Controller, formerly SD-WAN vSmart, and Cisco Catalyst SD-WAN Manager, formerly",
-      "source": "thehackernews.com"
-    },
-    {
-      "title": "Stealer Backdoor Found in 3 Node-IPC Versions Targeting Developer Secrets",
-      "link": "https://thehackernews.com/2026/05/stealer-backdoor-found-in-3-node-ipc.html",
-      "date": "2026-05-14T17:22:43Z",
-      "description": "Cybersecurity researchers are sounding the alarm about what has been described as \"malicious activity\" in newly published versions of node-ipc. According to Socket and StepSecurity, three different versions of the npm package have been confirmed as malicious - node-ipc@9.1.6 node-ipc@9.2.3 node-ipc@12.0.1 \"Early analysis indicates that node-ipc@9.1.6, node-ipc@9.2.3, and node-ipc@12.0.1",
       "source": "thehackernews.com"
     },
     {
@@ -141,34 +169,6 @@
       "date": "2026-05-14T16:59:25Z",
       "description": "Attackers uniquely fingerprint victims before delivering spear-phishing payloads aimed at espionage, in the latest campaign from the Belarussian nation-state threat group.",
       "source": "darkreading.com"
-    },
-    {
-      "title": "ThreatsDay Bulletin: PAN-OS RCE, Mythos cURL Bug, AI Tokenizer Attacks, and 10+ Stories",
-      "link": "https://thehackernews.com/2026/05/threatsday-bulletin-pan-os-rce-mythos.html",
-      "date": "2026-05-14T16:07:46Z",
-      "description": "Everything is still on fire. This week feels dumb in the worst way — bad links, weak checks, fake help desks, shady forum posts, and people turning supply chain attacks into some cursed little game for clout and cash. Half of it feels new. Half of it feels like crap we should have fixed years ago. The mess keeps getting louder: users get tricked, boxes get popped, tools meant for normal work",
-      "source": "thehackernews.com"
-    },
-    {
-      "title": "Enhancing Data Center Security Without Sacrificing Performance",
-      "link": "https://www.securityweek.com/enhancing-data-center-security-without-sacrificing-performance/",
-      "date": "2026-05-14T14:00:00Z",
-      "description": "For AI data centers, where the stakes are the highest and performance constraints are the tightest, security and performance are no longer a zero-sum game. The post Enhancing Data Center Security Without Sacrificing Performance appeared first on SecurityWeek.",
-      "source": "securityweek.com"
-    },
-    {
-      "title": "New Linux Kernel Vulnerability Fragnesia Allows Root Privilege Escalation",
-      "link": "https://www.securityweek.com/new-linux-kernel-vulnerability-fragnesia-allows-root-privilege-escalation/",
-      "date": "2026-05-14T13:44:46Z",
-      "description": "The vulnerability, tracked as CVE-2026-46300, is similar to the recently disclosed exploits named Dirty Frag and Copy Fail. The post New Linux Kernel Vulnerability Fragnesia Allows Root Privilege Escalation appeared first on SecurityWeek.",
-      "source": "securityweek.com"
-    },
-    {
-      "title": "Mythos Proves Potent in Vulnerability Discovery, Less Convincing Elsewhere",
-      "link": "https://www.securityweek.com/mythos-proves-potent-in-vulnerability-discovery-less-convincing-elsewhere/",
-      "date": "2026-05-14T13:00:00Z",
-      "description": "Independent benchmarking finds Mythos highly effective for source code audits, reverse engineering, and native-code analysis, though its exploit validation and reasoning capabilities remain inconsistent. The post Mythos Proves Potent in Vulnerability Discovery, Less Convincing Elsewhere appeared first on SecurityWeek.",
-      "source": "securityweek.com"
     },
     {
       "title": "AI Drives Cybersecurity Investments, Widening 'Valley of Death'",
