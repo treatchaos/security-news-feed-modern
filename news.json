@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-05-15T20:50:31Z",
+  "last_updated": "2026-05-16T05:22:40Z",
   "count": 40,
   "items": [
     {
@@ -8,6 +8,20 @@
       "date": "2026-05-18T13:00:00Z",
       "description": "AI agents capable of discovering and exploiting obscure vulnerabilities are emerging alongside developers producing vast amounts of potentially flawed AI-generated code, forcing defenders to adapt accordingly.",
       "source": "darkreading.com"
+    },
+    {
+      "title": "Google Project Zero Discloses Zero-Click Exploit Chain for Pixel 10 Devices",
+      "link": "https://cybersecuritynews.com/zero-click-exploit-chain-pixel-10-devices/",
+      "date": "2026-05-16T04:02:15Z",
+      "description": "A newly disclosed zero-click exploit chain targeting Google Pixel 10 devices has raised fresh concerns about Android’s low-level security. Google Project Zero researchers demonstrated how attackers could silently compromise a device and escalate privileges to root without any user interaction by chaining just two vulnerabilities. The attack builds on earlier research targeting Pixel 9 devices,…",
+      "source": "cybersecuritynews.com"
+    },
+    {
+      "title": "Android 16 VPN Bypass Lets Malicious Apps Reveal Users Real IP Address",
+      "link": "https://cybersecuritynews.com/android-16-vpn-bypass/",
+      "date": "2026-05-16T02:51:24Z",
+      "description": "A newly disclosed flaw in Android 16 is raising serious privacy concerns after researchers revealed that malicious apps can bypass VPN protections and expose a user’s real IP address even when strict security settings are enabled. The vulnerability, dubbed the “Tiny UDP Cannon,” allows any regular Android app with basic permissions to leak network traffic […] The post Android 16 VPN Bypass Lets…",
+      "source": "cybersecuritynews.com"
     },
     {
       "title": "Funnel Builder WordPress plugin bug exploited to steal credit cards",
@@ -66,13 +80,6 @@
       "source": "cybersecuritynews.com"
     },
     {
-      "title": "Hackers Abuse OAuth Device Authorization Flow to Steal Microsoft 365 Tokens",
-      "link": "https://cybersecuritynews.com/hackers-abuse-oauth-device-authorization-flow/",
-      "date": "2026-05-15T14:53:32Z",
-      "description": "Hackers are exploiting a little-known feature of Microsoft’s authentication system to steal account credentials at scale. Device code phishing campaigns now target organizations worldwide by manipulating the OAuth device authorization flow, turning a security feature into a major vulnerability. This emerging threat has surged dramatically since late 2024, catching security teams unprepared for…",
-      "source": "cybersecuritynews.com"
-    },
-    {
       "title": "In Other News: Big Tech vs Canada Encryption Bill, Cisco’s Free AI Security Spec, Audi App Flaws",
       "link": "https://www.securityweek.com/in-other-news-big-tech-vs-canada-encryption-bill-ciscos-free-ai-security-spec-audi-app-flaws/",
       "date": "2026-05-15T14:52:16Z",
@@ -92,13 +99,6 @@
       "date": "2026-05-15T13:35:04Z",
       "description": "Cybersecurity researchers have disclosed a set of four security flaws in OpenClaw that could be chained to achieve data theft, privilege escalation, and persistence. The vulnerabilities, collectively dubbed Claw Chain by Cyera, can permit an attacker to establish a foothold, expose sensitive data, and plant backdoors. A brief description of the flaws is below -",
       "source": "thehackernews.com"
-    },
-    {
-      "title": "Microsoft Edge, Windows 11 and LiteLLM Hacked in Pwn2Own Berlin 2026",
-      "link": "https://cybersecuritynews.com/pwn2own-berlin-2026/",
-      "date": "2026-05-15T13:20:55Z",
-      "description": "Pwn2Own Berlin 2026 opened with a surge of zero-day exploits targeting modern browsers, operating systems, and emerging AI platforms. On Day One alone, security researchers successfully hacked Microsoft Edge, Windows 11, and LiteLLM, earning a total of $523,000 for 24 unique vulnerabilities. The results highlight a growing reality that AI ecosystems and core enterprise technologies […] The post…",
-      "source": "cybersecuritynews.com"
     },
     {
       "title": "Microsoft Warns of Exchange Server Zero-Day Exploited in the Wild",
@@ -195,35 +195,35 @@
       "title": "ZDI-CAN-30747: Microsoft",
       "link": "http://www.zerodayinitiative.com/advisories/upcoming/",
       "date": "2026-05-11T05:00:00Z",
-      "description": "A CVSS score 7.8 AV:L/AC:H/PR:L/UI:N/S:C/C:H/I:H/A:H severity vulnerability discovered by 'Marcin Wiazowski' was reported to the affected vendor on: 2026-05-11, 4 days ago. The vendor is given until 2026-09-08 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
+      "description": "A CVSS score 7.8 AV:L/AC:H/PR:L/UI:N/S:C/C:H/I:H/A:H severity vulnerability discovered by 'Marcin Wiazowski' was reported to the affected vendor on: 2026-05-11, 5 days ago. The vendor is given until 2026-09-08 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
       "source": "zerodayinitiative.com"
     },
     {
       "title": "ZDI-CAN-30743: Microsoft",
       "link": "http://www.zerodayinitiative.com/advisories/upcoming/",
       "date": "2026-05-11T05:00:00Z",
-      "description": "A CVSS score 7.8 AV:L/AC:H/PR:L/UI:N/S:C/C:H/I:H/A:H severity vulnerability discovered by 'Marcin Wiazowski' was reported to the affected vendor on: 2026-05-11, 4 days ago. The vendor is given until 2026-09-08 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
+      "description": "A CVSS score 7.8 AV:L/AC:H/PR:L/UI:N/S:C/C:H/I:H/A:H severity vulnerability discovered by 'Marcin Wiazowski' was reported to the affected vendor on: 2026-05-11, 5 days ago. The vendor is given until 2026-09-08 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
       "source": "zerodayinitiative.com"
     },
     {
       "title": "ZDI-CAN-31212: Microsoft",
       "link": "http://www.zerodayinitiative.com/advisories/upcoming/",
       "date": "2026-05-11T05:00:00Z",
-      "description": "A CVSS score 8.1 AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H severity vulnerability discovered by 'Richard Chen of TrendAI Research' was reported to the affected vendor on: 2026-05-11, 4 days ago. The vendor is given until 2026-09-08 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
+      "description": "A CVSS score 8.1 AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H severity vulnerability discovered by 'Richard Chen of TrendAI Research' was reported to the affected vendor on: 2026-05-11, 5 days ago. The vendor is given until 2026-09-08 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
       "source": "zerodayinitiative.com"
     },
     {
       "title": "ZDI-CAN-30745: Microsoft",
       "link": "http://www.zerodayinitiative.com/advisories/upcoming/",
       "date": "2026-05-11T05:00:00Z",
-      "description": "A CVSS score 7.8 AV:L/AC:H/PR:L/UI:N/S:C/C:H/I:H/A:H severity vulnerability discovered by 'Marcin Wiazowski' was reported to the affected vendor on: 2026-05-11, 4 days ago. The vendor is given until 2026-09-08 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
+      "description": "A CVSS score 7.8 AV:L/AC:H/PR:L/UI:N/S:C/C:H/I:H/A:H severity vulnerability discovered by 'Marcin Wiazowski' was reported to the affected vendor on: 2026-05-11, 5 days ago. The vendor is given until 2026-09-08 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
       "source": "zerodayinitiative.com"
     },
     {
       "title": "ZDI-CAN-30744: Microsoft",
       "link": "http://www.zerodayinitiative.com/advisories/upcoming/",
       "date": "2026-05-11T05:00:00Z",
-      "description": "A CVSS score 7.8 AV:L/AC:H/PR:L/UI:N/S:C/C:H/I:H/A:H severity vulnerability discovered by 'Marcin Wiazowski' was reported to the affected vendor on: 2026-05-11, 4 days ago. The vendor is given until 2026-09-08 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
+      "description": "A CVSS score 7.8 AV:L/AC:H/PR:L/UI:N/S:C/C:H/I:H/A:H severity vulnerability discovered by 'Marcin Wiazowski' was reported to the affected vendor on: 2026-05-11, 5 days ago. The vendor is given until 2026-09-08 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
       "source": "zerodayinitiative.com"
     },
     {
