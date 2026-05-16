@@ -1,7 +1,27 @@
 {
   "date": "2026-05-16",
-  "count": 2,
+  "count": 4,
   "items": [
+    {
+      "id": "890935254d4f8b9d5f908910b61c1316ed692f75",
+      "title": "Malicious JPEG Images Could Trigger PHP Memory Safety Vulnerabilities",
+      "link": "https://cybersecuritynews.com/malicious-jpeg-images-php-memory-safety-vulnerabilities/",
+      "date": "2026-05-16T09:01:53Z",
+      "description": "Two critical memory-safety vulnerabilities in PHP’s image-processing functions could allow attackers to leak sensitive heap memory or to execute denial-of-service attacks via specially crafted JPEG files. The flaws, discovered in PHP’s ext/standard extension by Positive Technologies researcher Nikita Sveshnikov, affect the widely-used getimagesize and iptcembed functions that process JPEG…",
+      "source": "cybersecuritynews.com",
+      "first_seen": "2026-05-16T09:20:09Z",
+      "last_seen": "2026-05-16T09:20:09Z"
+    },
+    {
+      "id": "2751056d40b460fa073dd71111faf2aecac60440",
+      "title": "Critical Linux Kernel Flaw ‘ssh-keysign-pwn’ Exposes SSH Keys and Shadow Passwords",
+      "link": "https://cybersecuritynews.com/linux-kernel-vulnerability-ssh-keysign-pwn/",
+      "date": "2026-05-16T07:36:44Z",
+      "description": "A newly disclosed Linux kernel vulnerability is raising serious concerns across the security community, as it allows attackers to access highly sensitive data, including SSH private keys and password hashes, on affected systems. Tracked as CVE-2026-46333, the flaw has been nicknamed “ssh-keysign-pwn” and impacts a wide range of Linux distributions. Linux system hit with multiple vulnerabilities…",
+      "source": "cybersecuritynews.com",
+      "first_seen": "2026-05-16T09:20:09Z",
+      "last_seen": "2026-05-16T09:20:09Z"
+    },
     {
       "id": "03dba9e6df5bdded4ada709c6593f37cbde85c8c",
       "title": "Google Project Zero Discloses Zero-Click Exploit Chain for Pixel 10 Devices",
@@ -10,7 +30,7 @@
       "description": "A newly disclosed zero-click exploit chain targeting Google Pixel 10 devices has raised fresh concerns about Android’s low-level security. Google Project Zero researchers demonstrated how attackers could silently compromise a device and escalate privileges to root without any user interaction by chaining just two vulnerabilities. The attack builds on earlier research targeting Pixel 9 devices,…",
       "source": "cybersecuritynews.com",
       "first_seen": "2026-05-16T05:22:40Z",
-      "last_seen": "2026-05-16T05:22:40Z"
+      "last_seen": "2026-05-16T09:20:09Z"
     },
     {
       "id": "1fb6fc60f0fe36172ea95626df1e20836e027ea7",
@@ -20,7 +40,7 @@
       "description": "A newly disclosed flaw in Android 16 is raising serious privacy concerns after researchers revealed that malicious apps can bypass VPN protections and expose a user’s real IP address even when strict security settings are enabled. The vulnerability, dubbed the “Tiny UDP Cannon,” allows any regular Android app with basic permissions to leak network traffic […] The post Android 16 VPN Bypass Lets…",
       "source": "cybersecuritynews.com",
       "first_seen": "2026-05-16T05:22:40Z",
-      "last_seen": "2026-05-16T05:22:40Z"
+      "last_seen": "2026-05-16T09:20:09Z"
     }
   ]
 }
