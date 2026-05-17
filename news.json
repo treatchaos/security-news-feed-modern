@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-05-16T23:40:52Z",
+  "last_updated": "2026-05-17T05:49:44Z",
   "count": 40,
   "items": [
     {
@@ -8,6 +8,13 @@
       "date": "2026-05-18T13:00:00Z",
       "description": "AI agents capable of discovering and exploiting obscure vulnerabilities are emerging alongside developers producing vast amounts of potentially flawed AI-generated code, forcing defenders to adapt accordingly.",
       "source": "darkreading.com"
+    },
+    {
+      "title": "First Public macOS Kernel Exploit on Apple M5 Prepared Using Mythos Preview in Five Days",
+      "link": "https://cybersecuritynews.com/first-public-macos-kernel-exploit/",
+      "date": "2026-05-17T02:48:36Z",
+      "description": "Apple’s M5 silicon has reportedly been exploited for the first time in a public macOS kernel memory corruption attack, successfully bypassing the company’s notable hardware-level memory protection. Researchers from Calif, Bruce Dang, Dion Blazakis, and Josh Maine, developed a working kernel local privilege escalation (LPE) exploit targeting macOS 26.4.1 (25E253) on bare-metal M5 hardware. The…",
+      "source": "cybersecuritynews.com"
     },
     {
       "title": "Microsoft rejects critical Azure vulnerability report, no CVE issued",
@@ -63,13 +70,6 @@
       "link": "https://cybersecuritynews.com/linux-kernel-vulnerability-ssh-keysign-pwn/",
       "date": "2026-05-16T07:36:44Z",
       "description": "A newly disclosed Linux kernel vulnerability is raising serious concerns across the security community, as it allows attackers to access highly sensitive data, including SSH private keys and password hashes, on affected systems. Tracked as CVE-2026-46333, the flaw has been nicknamed “ssh-keysign-pwn” and impacts a wide range of Linux distributions. Linux system hit with multiple vulnerabilities…",
-      "source": "cybersecuritynews.com"
-    },
-    {
-      "title": "Google Project Zero Discloses Zero-Click Exploit Chain for Pixel 10 Devices",
-      "link": "https://cybersecuritynews.com/zero-click-exploit-chain-pixel-10-devices/",
-      "date": "2026-05-16T04:02:15Z",
-      "description": "A newly disclosed zero-click exploit chain targeting Google Pixel 10 devices has raised fresh concerns about Android’s low-level security. Google Project Zero researchers demonstrated how attackers could silently compromise a device and escalate privileges to root without any user interaction by chaining just two vulnerabilities. The attack builds on earlier research targeting Pixel 9 devices,…",
       "source": "cybersecuritynews.com"
     },
     {
@@ -195,35 +195,35 @@
       "title": "ZDI-CAN-30747: Microsoft",
       "link": "http://www.zerodayinitiative.com/advisories/upcoming/",
       "date": "2026-05-11T05:00:00Z",
-      "description": "A CVSS score 7.8 AV:L/AC:H/PR:L/UI:N/S:C/C:H/I:H/A:H severity vulnerability discovered by 'Marcin Wiazowski' was reported to the affected vendor on: 2026-05-11, 5 days ago. The vendor is given until 2026-09-08 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
+      "description": "A CVSS score 7.8 AV:L/AC:H/PR:L/UI:N/S:C/C:H/I:H/A:H severity vulnerability discovered by 'Marcin Wiazowski' was reported to the affected vendor on: 2026-05-11, 6 days ago. The vendor is given until 2026-09-08 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
       "source": "zerodayinitiative.com"
     },
     {
       "title": "ZDI-CAN-30743: Microsoft",
       "link": "http://www.zerodayinitiative.com/advisories/upcoming/",
       "date": "2026-05-11T05:00:00Z",
-      "description": "A CVSS score 7.8 AV:L/AC:H/PR:L/UI:N/S:C/C:H/I:H/A:H severity vulnerability discovered by 'Marcin Wiazowski' was reported to the affected vendor on: 2026-05-11, 5 days ago. The vendor is given until 2026-09-08 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
+      "description": "A CVSS score 7.8 AV:L/AC:H/PR:L/UI:N/S:C/C:H/I:H/A:H severity vulnerability discovered by 'Marcin Wiazowski' was reported to the affected vendor on: 2026-05-11, 6 days ago. The vendor is given until 2026-09-08 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
       "source": "zerodayinitiative.com"
     },
     {
       "title": "ZDI-CAN-31212: Microsoft",
       "link": "http://www.zerodayinitiative.com/advisories/upcoming/",
       "date": "2026-05-11T05:00:00Z",
-      "description": "A CVSS score 8.1 AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H severity vulnerability discovered by 'Richard Chen of TrendAI Research' was reported to the affected vendor on: 2026-05-11, 5 days ago. The vendor is given until 2026-09-08 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
+      "description": "A CVSS score 8.1 AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H severity vulnerability discovered by 'Richard Chen of TrendAI Research' was reported to the affected vendor on: 2026-05-11, 6 days ago. The vendor is given until 2026-09-08 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
       "source": "zerodayinitiative.com"
     },
     {
       "title": "ZDI-CAN-30745: Microsoft",
       "link": "http://www.zerodayinitiative.com/advisories/upcoming/",
       "date": "2026-05-11T05:00:00Z",
-      "description": "A CVSS score 7.8 AV:L/AC:H/PR:L/UI:N/S:C/C:H/I:H/A:H severity vulnerability discovered by 'Marcin Wiazowski' was reported to the affected vendor on: 2026-05-11, 5 days ago. The vendor is given until 2026-09-08 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
+      "description": "A CVSS score 7.8 AV:L/AC:H/PR:L/UI:N/S:C/C:H/I:H/A:H severity vulnerability discovered by 'Marcin Wiazowski' was reported to the affected vendor on: 2026-05-11, 6 days ago. The vendor is given until 2026-09-08 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
       "source": "zerodayinitiative.com"
     },
     {
       "title": "ZDI-CAN-30744: Microsoft",
       "link": "http://www.zerodayinitiative.com/advisories/upcoming/",
       "date": "2026-05-11T05:00:00Z",
-      "description": "A CVSS score 7.8 AV:L/AC:H/PR:L/UI:N/S:C/C:H/I:H/A:H severity vulnerability discovered by 'Marcin Wiazowski' was reported to the affected vendor on: 2026-05-11, 5 days ago. The vendor is given until 2026-09-08 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
+      "description": "A CVSS score 7.8 AV:L/AC:H/PR:L/UI:N/S:C/C:H/I:H/A:H severity vulnerability discovered by 'Marcin Wiazowski' was reported to the affected vendor on: 2026-05-11, 6 days ago. The vendor is given until 2026-09-08 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
       "source": "zerodayinitiative.com"
     },
     {
