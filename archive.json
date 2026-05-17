@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-05-17T05:49:44Z",
+  "last_updated": "2026-05-17T08:08:47Z",
   "retention_days": 90,
   "count": 3562,
   "items": [
@@ -21,7 +21,17 @@
       "description": "AI agents capable of discovering and exploiting obscure vulnerabilities are emerging alongside developers producing vast amounts of potentially flawed AI-generated code, forcing defenders to adapt accordingly.",
       "source": "darkreading.com",
       "first_seen": "2026-05-15T20:50:31Z",
-      "last_seen": "2026-05-17T05:49:44Z"
+      "last_seen": "2026-05-17T08:08:47Z"
+    },
+    {
+      "id": "00526d0bf1716c83886bc3f1a195003c9431475b",
+      "title": "Grafana GitHub Token Breach Led to Codebase Download and Extortion Attempt",
+      "link": "https://thehackernews.com/2026/05/grafana-github-token-breach-led-to.html",
+      "date": "2026-05-17T07:13:33Z",
+      "description": "Grafana has disclosed that an \"unauthorized party\" obtained a token that granted them the ability to access the company's GitHub environment and download its codebase. \"Our investigation has determined that no customer data or personal information was accessed during this incident, and we have found no evidence of impact to customer systems or operations,\" Grafana said in a series of",
+      "source": "thehackernews.com",
+      "first_seen": "2026-05-17T08:08:47Z",
+      "last_seen": "2026-05-17T08:08:47Z"
     },
     {
       "id": "0e1b5c6d689916b1dc31586f9691641ead4bb849",
@@ -31,7 +41,7 @@
       "description": "Apple’s M5 silicon has reportedly been exploited for the first time in a public macOS kernel memory corruption attack, successfully bypassing the company’s notable hardware-level memory protection. Researchers from Calif, Bruce Dang, Dion Blazakis, and Josh Maine, developed a working kernel local privilege escalation (LPE) exploit targeting macOS 26.4.1 (25E253) on bare-metal M5 hardware. The…",
       "source": "cybersecuritynews.com",
       "first_seen": "2026-05-17T05:49:44Z",
-      "last_seen": "2026-05-17T05:49:44Z"
+      "last_seen": "2026-05-17T08:08:47Z"
     },
     {
       "id": "2fa3a875a75b41dc4f62243bcd9d04b4d8af61ca",
@@ -41,7 +51,7 @@
       "description": "A security researcher claims Microsoft quietly fixed an Azure Backup for AKS vulnerability after rejecting his report, and without issuing a CVE. Microsoft disputes the claim, telling BleepingComputer the behavior was expected and that \"no product changes were made,\" despite the researcher documenting a silent fix. [...]",
       "source": "bleepingcomputer.com",
       "first_seen": "2026-05-16T21:38:59Z",
-      "last_seen": "2026-05-17T05:49:44Z"
+      "last_seen": "2026-05-17T08:08:47Z"
     },
     {
       "id": "c9571e6ca05a4cbe6e20c03cbb86b434a6bdc3c1",
@@ -51,7 +61,7 @@
       "description": "A critical security vulnerability impacting the Funnel Builder plugin for WordPress has come under active exploitation in the wild to inject malicious JavaScript code into WooCommerce checkout pages with the goal of stealing payment data. Details of the activity were published by Sansec this week. The vulnerability currently does not have an official CVE identifier. It",
       "source": "thehackernews.com",
       "first_seen": "2026-05-16T16:43:58Z",
-      "last_seen": "2026-05-17T05:49:44Z"
+      "last_seen": "2026-05-17T08:08:47Z"
     },
     {
       "id": "72165f07cd6dfee4cbb8dbc994f7015815eec835",
@@ -61,7 +71,7 @@
       "description": "The Russian hacker group Secret Blizzard has developed its long-running Kazuar backdoor into a modular peer-to-peer (P2P) botnet designed for long-term persistence, stealth, and data collection. [...]",
       "source": "bleepingcomputer.com",
       "first_seen": "2026-05-16T15:47:15Z",
-      "last_seen": "2026-05-17T05:49:44Z"
+      "last_seen": "2026-05-17T08:08:47Z"
     },
     {
       "id": "329e73e5b5d4f241dc410bb70f449bf6965f08a7",
@@ -71,7 +81,7 @@
       "description": "Pwn2Own Berlin 2026 is rapidly escalating into one of the most intense offensive security contests in recent years, with Day Two delivering a fresh wave of critical zero-day exploits targeting enterprise software, AI tools, and operating systems. Security researchers demonstrated real-world attack scenarios against high-value targets, including Microsoft Exchange, Windows 11, and AI coding…",
       "source": "cybersecuritynews.com",
       "first_seen": "2026-05-16T10:54:26Z",
-      "last_seen": "2026-05-17T05:49:44Z"
+      "last_seen": "2026-05-17T08:08:47Z"
     },
     {
       "id": "26e41cc259c03b9f93856ae613d9d1075ba2efeb",
@@ -81,7 +91,7 @@
       "description": "A widely used download manager trusted by millions has briefly turned into a malware delivery platform after attackers compromised the official JDownloader website, replacing legitimate installers with malicious versions targeting both Windows and Linux users. The incident, confirmed by developers and security researchers, occurred between May 6 and May 7, 2026. During this window, threat […]…",
       "source": "cybersecuritynews.com",
       "first_seen": "2026-05-16T10:54:26Z",
-      "last_seen": "2026-05-17T05:49:44Z"
+      "last_seen": "2026-05-17T08:08:47Z"
     },
     {
       "id": "e38bca30d1c133204f63e7188ac5068f71e760ee",
@@ -91,7 +101,7 @@
       "description": "Introduced in 2008, the critical-severity security defect was patched this week in NGINX Plus and NGINX open source. The post PoC Code Published for Critical NGINX Vulnerability appeared first on SecurityWeek.",
       "source": "securityweek.com",
       "first_seen": "2026-05-16T10:54:26Z",
-      "last_seen": "2026-05-17T05:49:44Z"
+      "last_seen": "2026-05-17T08:08:47Z"
     },
     {
       "id": "890935254d4f8b9d5f908910b61c1316ed692f75",
@@ -101,7 +111,7 @@
       "description": "Two critical memory-safety vulnerabilities in PHP’s image-processing functions could allow attackers to leak sensitive heap memory or to execute denial-of-service attacks via specially crafted JPEG files. The flaws, discovered in PHP’s ext/standard extension by Positive Technologies researcher Nikita Sveshnikov, affect the widely-used getimagesize and iptcembed functions that process JPEG…",
       "source": "cybersecuritynews.com",
       "first_seen": "2026-05-16T09:20:09Z",
-      "last_seen": "2026-05-17T05:49:44Z"
+      "last_seen": "2026-05-17T08:08:47Z"
     },
     {
       "id": "2751056d40b460fa073dd71111faf2aecac60440",
@@ -111,7 +121,7 @@
       "description": "A newly disclosed Linux kernel vulnerability is raising serious concerns across the security community, as it allows attackers to access highly sensitive data, including SSH private keys and password hashes, on affected systems. Tracked as CVE-2026-46333, the flaw has been nicknamed “ssh-keysign-pwn” and impacts a wide range of Linux distributions. Linux system hit with multiple vulnerabilities…",
       "source": "cybersecuritynews.com",
       "first_seen": "2026-05-16T09:20:09Z",
-      "last_seen": "2026-05-17T05:49:44Z"
+      "last_seen": "2026-05-17T08:08:47Z"
     },
     {
       "id": "03dba9e6df5bdded4ada709c6593f37cbde85c8c",
@@ -141,7 +151,7 @@
       "description": "A critical vulnerability in the Funnel Builder plugin for WordPress is being actively exploited to inject malicious JavaScript snippets into WooCommerce checkout pages. [...]",
       "source": "bleepingcomputer.com",
       "first_seen": "2026-05-15T20:50:31Z",
-      "last_seen": "2026-05-17T05:49:44Z"
+      "last_seen": "2026-05-17T08:08:47Z"
     },
     {
       "id": "6ca30bfec78a8126dd0d6a8b8f4d210eb5a7621a",
@@ -151,7 +161,7 @@
       "description": "​During the second day of Pwn2Own Berlin 2026, competitors collected $385,750 in cash awards after exploiting 15 unique zero-day vulnerabilities in multiple products, including Windows 11, Microsoft Exchange, and Red Hat Enterprise Linux for Workstations. [...]",
       "source": "bleepingcomputer.com",
       "first_seen": "2026-05-15T19:15:03Z",
-      "last_seen": "2026-05-17T05:49:44Z"
+      "last_seen": "2026-05-17T08:08:47Z"
     },
     {
       "id": "d5f47a271d40cce09982ee566509d60d3e9dd73a",
@@ -161,7 +171,7 @@
       "description": "Hackers have injected credential-stealing malware into newly published versions of node-ipc, a popular inter-process communication package, in a new supply chain attack targeting npm. [...]",
       "source": "bleepingcomputer.com",
       "first_seen": "2026-05-15T17:21:15Z",
-      "last_seen": "2026-05-17T05:49:44Z"
+      "last_seen": "2026-05-17T08:08:47Z"
     },
     {
       "id": "57f35df70b1ed50346084cb572461cd9cc42510e",
@@ -171,7 +181,7 @@
       "description": "The Russian state-sponsored hacking group known as Turla has transformed its custom backdoor Kazuar into a modular peer-to-peer (P2P) botnet that's engineered for stealth and persistent access to compromised hosts. Turla, per the U.S. Cybersecurity and Infrastructure Security Agency (CISA), is assessed to be affiliated with Center 16 of Russia's Federal Security Service (FSB)",
       "source": "thehackernews.com",
       "first_seen": "2026-05-15T17:21:15Z",
-      "last_seen": "2026-05-17T05:49:44Z"
+      "last_seen": "2026-05-17T08:08:47Z"
     },
     {
       "id": "f72ce6151d109eba9a44d6175fb1225839e51a7e",
@@ -231,7 +241,7 @@
       "description": "Other noteworthy stories that might have slipped under the radar: Nvidia cloud gaming data breach, Android 17 security upgrades, FBI warning after ShinyHunters hacks Canvas. The post In Other News: Big Tech vs Canada Encryption Bill, Cisco’s Free AI Security Spec, Audi App Flaws appeared first on SecurityWeek.",
       "source": "securityweek.com",
       "first_seen": "2026-05-15T15:55:41Z",
-      "last_seen": "2026-05-17T05:49:44Z"
+      "last_seen": "2026-05-17T08:08:47Z"
     },
     {
       "id": "30ad179d33490e8c943b70aaf49190fa52fae14a",
@@ -261,7 +271,7 @@
       "description": "Cybersecurity researchers have disclosed a set of four security flaws in OpenClaw that could be chained to achieve data theft, privilege escalation, and persistence. The vulnerabilities, collectively dubbed Claw Chain by Cyera, can permit an attacker to establish a foothold, expose sensitive data, and plant backdoors. A brief description of the flaws is below -",
       "source": "thehackernews.com",
       "first_seen": "2026-05-15T15:55:41Z",
-      "last_seen": "2026-05-17T05:49:44Z"
+      "last_seen": "2026-05-17T08:08:47Z"
     },
     {
       "id": "3dddbfa05b0bdc224315e10e180fd8f7ede05322",
@@ -311,7 +321,7 @@
       "description": "Microsoft has shared mitigations for CVE-2026-42897 until a permanent patch can be released for affected Exchange Server versions. The post Microsoft Warns of Exchange Server Zero-Day Exploited in the Wild appeared first on SecurityWeek.",
       "source": "securityweek.com",
       "first_seen": "2026-05-15T13:27:27Z",
-      "last_seen": "2026-05-17T05:49:44Z"
+      "last_seen": "2026-05-17T08:08:47Z"
     },
     {
       "id": "8bc2677d5b9da9422b9845bf92693eb6e6304417",
@@ -321,7 +331,7 @@
       "description": "Robert \"RSnake\" Hansen, Katie Moussouris, Rich Mogull, Richard Stiennon, and Bruce Schneier reflect on how their favorite columns penned for Dark Reading over the past 20 years have stood the test of time.",
       "source": "darkreading.com",
       "first_seen": "2026-05-15T13:27:27Z",
-      "last_seen": "2026-05-17T05:49:44Z"
+      "last_seen": "2026-05-17T08:08:47Z"
     },
     {
       "id": "3cfaf7d0168b2df851830c5041cfe6aa4d995d44",
@@ -371,7 +381,7 @@
       "description": "The non-bank lender discovered a ransomware attack nearly one year ago, but only recently completed its investigation. The post American Lending Center Data Breach Affects 123,000 Individuals appeared first on SecurityWeek.",
       "source": "securityweek.com",
       "first_seen": "2026-05-15T11:47:02Z",
-      "last_seen": "2026-05-17T05:49:44Z"
+      "last_seen": "2026-05-17T08:08:47Z"
     },
     {
       "id": "07cb66cb293ec8b5880ef9a62386e80226735d98",
@@ -391,7 +401,7 @@
       "description": "In Your Biggest Security Risk Isn't Malware — It's What You Already Trust, we made a simple argument: the most dangerous activity inside most organizations no longer looks like an attack. It looks like administration. PowerShell, WMIC, netsh, Certutil, MSBuild — the same trusted utilities your IT team uses every day are also the preferred toolkit of modern threat actors. Bitdefender's analysis",
       "source": "thehackernews.com",
       "first_seen": "2026-05-15T11:47:02Z",
-      "last_seen": "2026-05-17T05:49:44Z"
+      "last_seen": "2026-05-17T08:08:47Z"
     },
     {
       "id": "be57e8444639aae7649a35a4d59ec789eb5b73a5",
@@ -411,7 +421,7 @@
       "description": "Two employee devices were compromised in the attack, and credential material was stolen from OpenAI code repositories. The post OpenAI Hit by TanStack Supply Chain Attack appeared first on SecurityWeek.",
       "source": "securityweek.com",
       "first_seen": "2026-05-15T11:47:02Z",
-      "last_seen": "2026-05-17T05:49:44Z"
+      "last_seen": "2026-05-17T08:08:47Z"
     },
     {
       "id": "0a743708e44f1f291861ebe8c3c11fd0cc2e2398",
@@ -561,7 +571,7 @@
       "description": "A Taiwanese student experimenting with software-defined radio technology shut down three bullet trains for nearly an hour, leading to an anti-terrorism response.",
       "source": "darkreading.com",
       "first_seen": "2026-05-15T17:21:15Z",
-      "last_seen": "2026-05-17T05:49:44Z"
+      "last_seen": "2026-05-17T08:08:47Z"
     },
     {
       "id": "ea9f9df62f789fc942474130136d4f03f4096570",
@@ -591,7 +601,7 @@
       "description": "The new acquisition looks to boost visibility into third-party ecosystems that are becoming a bigger concern as vectors for supply-chain attacks.",
       "source": "darkreading.com",
       "first_seen": "2026-05-14T22:00:05Z",
-      "last_seen": "2026-05-17T05:49:44Z"
+      "last_seen": "2026-05-17T08:08:47Z"
     },
     {
       "id": "8fd391b96bbba5d0f9c0bcdd3171e49f9fb1527e",
@@ -601,7 +611,7 @@
       "description": "This is the second time this year a threat actor has leveraged a CVSS 10.0 vulnerability in Cisco's network control system.",
       "source": "darkreading.com",
       "first_seen": "2026-05-14T22:00:05Z",
-      "last_seen": "2026-05-17T05:49:44Z"
+      "last_seen": "2026-05-17T08:08:47Z"
     },
     {
       "id": "c691be472062a6374e5b4d108b324d47d316e90d",
@@ -1611,7 +1621,7 @@
       "description": "The post Pre-Auth RCE Exposed: Apache HTTP Server Vulnerability and Exploit Code Hit the Public appeared first on Daily CyberSecurity. Related posts: Rclone Critical Vulnerability Alert: Public PoC Released for Administrative Auth Bypass and RCE Millions at Risk: Apache HTTP Server Fixes Critical Remote Code Execution Flaw Apache Tomcat RCE Details and Exploit Code Now Public",
       "source": "securityonline.info",
       "first_seen": "2026-05-13T06:16:29Z",
-      "last_seen": "2026-05-17T05:49:44Z"
+      "last_seen": "2026-05-17T08:08:47Z"
     },
     {
       "id": "7cfd0124a76b9fd45ff9936274b23a5f5939edfe",
@@ -2261,7 +2271,7 @@
       "description": "The post Apache Tomcat RCE Details and Exploit Code Now Public appeared first on Daily CyberSecurity. Related posts: Bypassing the Bouncer: Apache Tomcat Patches SNI & Legacy Protocol Flaws Weaponizing Windows Errors: PoC Dropped for Critical Privilege Escalation Flaw in WER Service Total Takeover Threat: Critical IceWarp Flaws Trigger Emergency Server Patches",
       "source": "securityonline.info",
       "first_seen": "2026-05-12T05:38:30Z",
-      "last_seen": "2026-05-17T05:49:44Z"
+      "last_seen": "2026-05-17T08:08:47Z"
     },
     {
       "id": "36a9de5238f7628fdbaf3d07032d77096e668028",
@@ -2661,7 +2671,7 @@
       "description": "A CVSS score 7.8 AV:L/AC:H/PR:L/UI:N/S:C/C:H/I:H/A:H severity vulnerability discovered by 'Marcin Wiazowski' was reported to the affected vendor on: 2026-05-11, 0 days ago. The vendor is given until 2026-09-08 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
       "source": "zerodayinitiative.com",
       "first_seen": "2026-05-11T18:50:05Z",
-      "last_seen": "2026-05-17T05:49:44Z"
+      "last_seen": "2026-05-17T08:08:47Z"
     },
     {
       "id": "f61331446cced42b8dcd10857db0b2f8d6391fa8",
@@ -2671,7 +2681,7 @@
       "description": "A CVSS score 7.8 AV:L/AC:H/PR:L/UI:N/S:C/C:H/I:H/A:H severity vulnerability discovered by 'Marcin Wiazowski' was reported to the affected vendor on: 2026-05-11, 0 days ago. The vendor is given until 2026-09-08 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
       "source": "zerodayinitiative.com",
       "first_seen": "2026-05-11T18:50:05Z",
-      "last_seen": "2026-05-17T05:49:44Z"
+      "last_seen": "2026-05-17T08:08:47Z"
     },
     {
       "id": "da4a65b67dde7f8badf8ed2ae920aec9c87f54b6",
@@ -2681,7 +2691,7 @@
       "description": "A CVSS score 8.1 AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H severity vulnerability discovered by 'Richard Chen of TrendAI Research' was reported to the affected vendor on: 2026-05-11, 0 days ago. The vendor is given until 2026-09-08 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
       "source": "zerodayinitiative.com",
       "first_seen": "2026-05-11T18:50:05Z",
-      "last_seen": "2026-05-17T05:49:44Z"
+      "last_seen": "2026-05-17T08:08:47Z"
     },
     {
       "id": "f31b549ca9247e9d6b31629691ce8617563d58bf",
@@ -2691,7 +2701,7 @@
       "description": "A CVSS score 7.8 AV:L/AC:H/PR:L/UI:N/S:C/C:H/I:H/A:H severity vulnerability discovered by 'Marcin Wiazowski' was reported to the affected vendor on: 2026-05-11, 0 days ago. The vendor is given until 2026-09-08 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
       "source": "zerodayinitiative.com",
       "first_seen": "2026-05-11T18:50:05Z",
-      "last_seen": "2026-05-17T05:49:44Z"
+      "last_seen": "2026-05-17T08:08:47Z"
     },
     {
       "id": "c8bb2e9b6cab1d5e244917d19ac2279fd1dcfd58",
@@ -2701,7 +2711,7 @@
       "description": "A CVSS score 7.8 AV:L/AC:H/PR:L/UI:N/S:C/C:H/I:H/A:H severity vulnerability discovered by 'Marcin Wiazowski' was reported to the affected vendor on: 2026-05-11, 0 days ago. The vendor is given until 2026-09-08 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
       "source": "zerodayinitiative.com",
       "first_seen": "2026-05-11T18:50:05Z",
-      "last_seen": "2026-05-17T05:49:44Z"
+      "last_seen": "2026-05-17T08:08:47Z"
     },
     {
       "id": "103b7b62adc513bcbdf39d15bfb5c8e75438c8f5",
@@ -5291,7 +5301,7 @@
       "description": "The post Fully Exposed: Public PoC Released for the Adobe PDF Vulnerabilities Exploited in the Wild appeared first on Daily CyberSecurity. Related posts: CVE-2022-22947: Spring Cloud Gateway Remote Code Execution Vulnerability Alert Android system is also affected by Linux kernel Dirty Pipe flaw, Google is fixing it CVE-2022-28721: RCE Flaw Found In Over 60 HP Printers Models",
       "source": "securityonline.info",
       "first_seen": "2026-05-04T10:54:47Z",
-      "last_seen": "2026-05-17T05:49:44Z"
+      "last_seen": "2026-05-17T08:08:47Z"
     },
     {
       "id": "0373a01ccaaee305df82bf769bbf11ece7127403",
@@ -6961,7 +6971,7 @@
       "description": "The post Full Exploit Disclosed: Public PoC and Technical Details Released for Critical ProFTPD SQL Injection appeared first on Daily CyberSecurity. Related posts: Mitel Patches Critical SQL Injection and Privilege Escalation in MiCollab Microsoft May 2025 Patch Tuesday Fixes 83 Vulnerabilities, Including 5 Exploited in the Wild CVSS 10.0 Flaws in Siemens OZW Web Servers Enable Unauthenticated…",
       "source": "securityonline.info",
       "first_seen": "2026-04-29T05:20:46Z",
-      "last_seen": "2026-05-17T05:49:44Z"
+      "last_seen": "2026-05-17T08:08:47Z"
     },
     {
       "id": "8f9898ae9878f83412f55217c4ae00cd24ddf54e",
@@ -10411,7 +10421,7 @@
       "description": "The post Rclone Critical Vulnerability Alert: Public PoC Released for Administrative Auth Bypass and RCE appeared first on Daily CyberSecurity. Related posts: Race Condition in Windows Remote Desktop Gateway Enables RCE – PoC Demonstrates Exploitability PoC Reveals Apple Audio Zero-Day Enabling Remote Code Execution via Malicious Media Files D-Link Router Flaws Allow Code Execution, PoC…",
       "source": "securityonline.info",
       "first_seen": "2026-04-20T15:08:43Z",
-      "last_seen": "2026-05-17T05:49:44Z"
+      "last_seen": "2026-05-17T08:08:47Z"
     },
     {
       "id": "c656e93b3d47f9b5211698807c9d4e76d377b1f4",
@@ -35564,16 +35574,6 @@
       "last_seen": "2026-02-16T18:29:43Z"
     },
     {
-      "id": "1d41b655b6a85e69f970c71a93b1bd17db7974b2",
-      "title": "Canada Goose investigating as hackers leak 600K customer records",
-      "link": "https://www.bleepingcomputer.com/news/security/canada-goose-investigating-as-hackers-leak-600k-customer-records/",
-      "date": "2026-02-16T04:45:32Z",
-      "description": "ShinyHunters, a well-known data extortion group, claims to have stolen more than 600,000 Canada Goose customer records containing personal and payment-related data. Canada Goose told BleepingComputer the dataset appears to relate to past customer transactions and that it has not found evidence of a breach of its own systems. [...]",
-      "source": "bleepingcomputer.com",
-      "first_seen": "2026-02-16T05:59:50Z",
-      "last_seen": "2026-02-16T18:29:43Z"
-    },
-    {
       "id": "664df53292fd50e8b1e7bf61d1267fe95047525f",
       "title": "Student Loan Breach Exposes 2.5M Records",
       "link": "https://threatpost.com/student-loan-breach-exposes-2-5m-records/180492/",
@@ -35581,7 +35581,7 @@
       "description": "2.5 million people were affected, in a breach that could spell more trouble down the line.",
       "source": "threatpost.com",
       "first_seen": "2026-05-10T12:53:08Z",
-      "last_seen": "2026-05-17T05:49:44Z"
+      "last_seen": "2026-05-17T08:08:47Z"
     },
     {
       "id": "4140c7a34b0ba94ad2e6b0cae9f59b0cb9bfffea",
@@ -35591,7 +35591,7 @@
       "description": "Researchers uncover a watering hole attack likely carried out by APT TA423, which attempts to plant the ScanBox JavaScript-based reconnaissance tool.",
       "source": "threatpost.com",
       "first_seen": "2026-05-10T12:53:08Z",
-      "last_seen": "2026-05-17T05:49:44Z"
+      "last_seen": "2026-05-17T08:08:47Z"
     },
     {
       "id": "9359ee40a641a4b565080313045f1d7e7fe6552b",
@@ -35601,7 +35601,7 @@
       "description": "Over 130 companies tangled in sprawling phishing campaign that spoofed a multi-factor authentication system.",
       "source": "threatpost.com",
       "first_seen": "2026-05-10T12:53:08Z",
-      "last_seen": "2026-05-17T05:49:44Z"
+      "last_seen": "2026-05-17T08:08:47Z"
     },
     {
       "id": "b4ccef0737cd4050d65241bf754072030b6b5e6a",
@@ -35611,7 +35611,7 @@
       "description": "Lockbit is by far this summer’s most prolific ransomware group, trailed by two offshoots of the Conti group.",
       "source": "threatpost.com",
       "first_seen": "2026-05-10T12:53:08Z",
-      "last_seen": "2026-05-17T05:49:44Z"
+      "last_seen": "2026-05-17T08:08:47Z"
     },
     {
       "id": "12ee113fc8fce91f6d7fb28deab2b1ad20061ec7",
@@ -35621,7 +35621,7 @@
       "description": "Tens of thousands of cameras have failed to patch a critical, 11-month-old CVE, leaving thousands of organizations exposed.",
       "source": "threatpost.com",
       "first_seen": "2026-05-10T12:53:08Z",
-      "last_seen": "2026-05-17T05:49:44Z"
+      "last_seen": "2026-05-17T08:08:47Z"
     }
   ]
 }
