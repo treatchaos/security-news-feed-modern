@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-05-18T02:11:39Z",
+  "last_updated": "2026-05-18T06:43:28Z",
   "count": 40,
   "items": [
     {
@@ -8,6 +8,55 @@
       "date": "2026-05-18T13:00:00Z",
       "description": "AI agents capable of discovering and exploiting obscure vulnerabilities are emerging alongside developers producing vast amounts of potentially flawed AI-generated code, forcing defenders to adapt accordingly.",
       "source": "darkreading.com"
+    },
+    {
+      "title": "Microsoft Confirms Windows 11 Update Fails With Error 0x800f0922",
+      "link": "https://cybersecuritynews.com/microsoft-windows-11-update/",
+      "date": "2026-05-18T06:24:38Z",
+      "description": "Microsoft has officially acknowledged a critical installation failure affecting its May 2026 Patch Tuesday cumulative update for Windows 11, KB5089549, leaving users stranded with error code 0x800f0922 and, in some cases, additional errors 0x80240069 and 0x80240031. The known issue was formally added to the update’s change log on May 15, 2026, just three days after […] The post Microsoft…",
+      "source": "cybersecuritynews.com"
+    },
+    {
+      "title": "New Windows ‘MiniPlasma’ Zero-Day Let Attackers Gain SYSTEM Access – PoC Released",
+      "link": "https://cybersecuritynews.com/windows-miniplasma-zero-day/",
+      "date": "2026-05-18T06:00:49Z",
+      "description": "A critical Windows privilege escalation zero-day vulnerability dubbed “MiniPlasma” has emerged with a public proof-of-concept exploit that allows attackers to achieve SYSTEM-level privileges on fully patched Windows systems. Security researcher Nightmare-Eclipse released the weaponized exploit on GitHub on May 13, 2026, claiming that Microsoft either failed to patch or silently rolled back the…",
+      "source": "cybersecuritynews.com"
+    },
+    {
+      "title": "Hackers earn $1,298,250 for 47 zero-days at Pwn2Own Berlin 2026",
+      "link": "https://www.bleepingcomputer.com/news/security/hackers-earn-1-298-250-for-47-zero-days-at-pwn2own-berlin-2026/",
+      "date": "2026-05-18T05:33:20Z",
+      "description": "The Pwn2Own Berlin 2026 hacking contest has concluded, with security researchers collecting $1,298,250 in rewards after exploiting 47 zero-day flaws. [...]",
+      "source": "bleepingcomputer.com"
+    },
+    {
+      "title": "Critical WordPress Plugin Vulnerability Exposes Websites to Authentication Bypass Attacks",
+      "link": "https://cybersecuritynews.com/wordpress-plugin-vulnerability-exposes-websites/",
+      "date": "2026-05-18T04:06:01Z",
+      "description": "A critical vulnerability in a widely used WordPress plugin has exposed over 200,000 websites to full account takeover, raising urgent concerns across the security community. Discovered on May 8, 2026, by Wordfence’s AI-powered PRISM threat intelligence platform, the flaw affects the Burst Statistics plugin, a privacy-focused analytics tool. Tracked as CVE-2026-8181 with a CVSS score […] The post…",
+      "source": "cybersecuritynews.com"
+    },
+    {
+      "title": "Hackers Earn $1.3 Million at Pwn2Own Berlin 2026",
+      "link": "https://www.securityweek.com/hackers-earn-1-3-million-at-pwn2own-berlin-2026/",
+      "date": "2026-05-18T04:05:21Z",
+      "description": "Participants demonstrated exploits for Windows, Linux, VMware, Nvidia, and AI products. The post Hackers Earn $1.3 Million at Pwn2Own Berlin 2026 appeared first on SecurityWeek.",
+      "source": "securityweek.com"
+    },
+    {
+      "title": "Fast16 Malware Manipulated Nuclear Weapons Simulation Data to Sabotage Test Results",
+      "link": "https://cybersecuritynews.com/fast16-malware-manipulated-nuclear-weapons/",
+      "date": "2026-05-18T03:43:04Z",
+      "description": "Fast16 malware has been reclassified as a precision tool engineered not to disrupt nuclear warheads directly, but to quietly falsify the outcome of nuclear weapons test simulations and stall weapons development. Rather than causing kinetic damage, Fast16’s purpose was psychological and developmental: to convince weapons engineers that their virtual detonation tests were failing, even when […]…",
+      "source": "cybersecuritynews.com"
+    },
+    {
+      "title": "Claude Code RCE Flaw Lets Attackers Execute Commands via Malicious Deeplinks",
+      "link": "https://cybersecuritynews.com/claude-code-rce-flaw/",
+      "date": "2026-05-18T03:14:53Z",
+      "description": "A critical remote code execution (RCE) vulnerability has been discovered in Anthropic’s Claude Code CLI tool, allowing attackers to execute arbitrary commands on a victim’s machine by tricking them into clicking a specially crafted deeplink. The flaw, now patched in Claude Code version 2.1.118, was rooted in a naive command-line argument parser that could be […] The post Claude Code RCE Flaw…",
+      "source": "cybersecuritynews.com"
     },
     {
       "title": "Can Laws Stop Deepfakes? South Korea Aims to Find Out",
@@ -38,25 +87,11 @@
       "source": "thehackernews.com"
     },
     {
-      "title": "Grafana Labs Security Breach – Hackers Access GitHub and Download Codebase",
-      "link": "https://cybersecuritynews.com/grafana-labs-security-breach/",
-      "date": "2026-05-17T08:32:42Z",
-      "description": "A threat actor infiltrated Grafana Labs’ GitHub environment, stealing a privileged token to download the company’s private codebase, and then attempted to extort the open-source observability giant with an unanswered ransom demand. Grafana Labs disclosed on May 16, 2026, that an unauthorized party obtained a token granting access to its GitHub environment, enabling the threat […] The post…",
-      "source": "cybersecuritynews.com"
-    },
-    {
       "title": "Grafana GitHub Token Breach Led to Codebase Download and Extortion Attempt",
       "link": "https://thehackernews.com/2026/05/grafana-github-token-breach-led-to.html",
       "date": "2026-05-17T07:13:33Z",
       "description": "Grafana has disclosed that an \"unauthorized party\" obtained a token that granted them the ability to access the company's GitHub environment and download its codebase. \"Our investigation has determined that no customer data or personal information was accessed during this incident, and we have found no evidence of impact to customer systems or operations,\" Grafana said in a series of",
       "source": "thehackernews.com"
-    },
-    {
-      "title": "First Public macOS Kernel Exploit on Apple M5 Prepared Using Mythos Preview in Five Days",
-      "link": "https://cybersecuritynews.com/first-public-macos-kernel-exploit/",
-      "date": "2026-05-17T02:48:36Z",
-      "description": "Apple’s M5 silicon has reportedly been exploited for the first time in a public macOS kernel memory corruption attack, successfully bypassing the company’s notable hardware-level memory protection. Researchers from Calif, Bruce Dang, Dion Blazakis, and Josh Maine, developed a working kernel local privilege escalation (LPE) exploit targeting macOS 26.4.1 (25E253) on bare-metal M5 hardware. The…",
-      "source": "cybersecuritynews.com"
     },
     {
       "title": "Microsoft rejects critical Azure vulnerability report, no CVE issued",
@@ -80,39 +115,11 @@
       "source": "bleepingcomputer.com"
     },
     {
-      "title": "Microsoft Exchange, Windows 11, and Cursor Zero-Days Exploited on Pwn2Own Day 2",
-      "link": "https://cybersecuritynews.com/microsoft-exchange-windows-11-and-cursor-zero-days-exploited-pwn2own/",
-      "date": "2026-05-16T10:51:26Z",
-      "description": "Pwn2Own Berlin 2026 is rapidly escalating into one of the most intense offensive security contests in recent years, with Day Two delivering a fresh wave of critical zero-day exploits targeting enterprise software, AI tools, and operating systems. Security researchers demonstrated real-world attack scenarios against high-value targets, including Microsoft Exchange, Windows 11, and AI coding…",
-      "source": "cybersecuritynews.com"
-    },
-    {
-      "title": "JDownloader Website Compromised to Distribute Malicious Windows and Linux Installers",
-      "link": "https://cybersecuritynews.com/jdownloader-website-compromised/",
-      "date": "2026-05-16T10:23:08Z",
-      "description": "A widely used download manager trusted by millions has briefly turned into a malware delivery platform after attackers compromised the official JDownloader website, replacing legitimate installers with malicious versions targeting both Windows and Linux users. The incident, confirmed by developers and security researchers, occurred between May 6 and May 7, 2026. During this window, threat […]…",
-      "source": "cybersecuritynews.com"
-    },
-    {
       "title": "PoC Code Published for Critical NGINX Vulnerability",
       "link": "https://www.securityweek.com/poc-code-published-for-critical-nginx-vulnerability/",
       "date": "2026-05-16T10:02:00Z",
       "description": "Introduced in 2008, the critical-severity security defect was patched this week in NGINX Plus and NGINX open source. The post PoC Code Published for Critical NGINX Vulnerability appeared first on SecurityWeek.",
       "source": "securityweek.com"
-    },
-    {
-      "title": "Malicious JPEG Images Could Trigger PHP Memory Safety Vulnerabilities",
-      "link": "https://cybersecuritynews.com/malicious-jpeg-images-php-memory-safety-vulnerabilities/",
-      "date": "2026-05-16T09:01:53Z",
-      "description": "Two critical memory-safety vulnerabilities in PHP’s image-processing functions could allow attackers to leak sensitive heap memory or to execute denial-of-service attacks via specially crafted JPEG files. The flaws, discovered in PHP’s ext/standard extension by Positive Technologies researcher Nikita Sveshnikov, affect the widely-used getimagesize and iptcembed functions that process JPEG…",
-      "source": "cybersecuritynews.com"
-    },
-    {
-      "title": "Funnel Builder WordPress plugin bug exploited to steal credit cards",
-      "link": "https://www.bleepingcomputer.com/news/security/funnel-builder-wordpress-plugin-bug-exploited-to-steal-credit-cards/",
-      "date": "2026-05-15T19:30:33Z",
-      "description": "A critical vulnerability in the Funnel Builder plugin for WordPress is being actively exploited to inject malicious JavaScript snippets into WooCommerce checkout pages. [...]",
-      "source": "bleepingcomputer.com"
     },
     {
       "title": "Turla Turns Kazuar Backdoor Into Modular P2P Botnet for Persistent Access",
@@ -157,13 +164,6 @@
       "source": "securityweek.com"
     },
     {
-      "title": "OpenAI Hit by TanStack Supply Chain Attack",
-      "link": "https://www.securityweek.com/openai-hit-by-tanstack-supply-chain-attack/",
-      "date": "2026-05-15T10:37:00Z",
-      "description": "Two employee devices were compromised in the attack, and credential material was stolen from OpenAI code repositories. The post OpenAI Hit by TanStack Supply Chain Attack appeared first on SecurityWeek.",
-      "source": "securityweek.com"
-    },
-    {
       "title": "Taiwan Bullet Train Hack Highlights Cybersecurity Gaps in Rail Systems",
       "link": "https://www.darkreading.com/ics-ot-security/taiwan-incident-highlights-cybersecurity-gaps",
       "date": "2026-05-15T01:00:00Z",
@@ -195,35 +195,35 @@
       "title": "ZDI-CAN-30747: Microsoft",
       "link": "http://www.zerodayinitiative.com/advisories/upcoming/",
       "date": "2026-05-11T05:00:00Z",
-      "description": "A CVSS score 7.8 AV:L/AC:H/PR:L/UI:N/S:C/C:H/I:H/A:H severity vulnerability discovered by 'Marcin Wiazowski' was reported to the affected vendor on: 2026-05-11, 6 days ago. The vendor is given until 2026-09-08 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
+      "description": "A CVSS score 7.8 AV:L/AC:H/PR:L/UI:N/S:C/C:H/I:H/A:H severity vulnerability discovered by 'Marcin Wiazowski' was reported to the affected vendor on: 2026-05-11, 7 days ago. The vendor is given until 2026-09-08 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
       "source": "zerodayinitiative.com"
     },
     {
       "title": "ZDI-CAN-30743: Microsoft",
       "link": "http://www.zerodayinitiative.com/advisories/upcoming/",
       "date": "2026-05-11T05:00:00Z",
-      "description": "A CVSS score 7.8 AV:L/AC:H/PR:L/UI:N/S:C/C:H/I:H/A:H severity vulnerability discovered by 'Marcin Wiazowski' was reported to the affected vendor on: 2026-05-11, 6 days ago. The vendor is given until 2026-09-08 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
+      "description": "A CVSS score 7.8 AV:L/AC:H/PR:L/UI:N/S:C/C:H/I:H/A:H severity vulnerability discovered by 'Marcin Wiazowski' was reported to the affected vendor on: 2026-05-11, 7 days ago. The vendor is given until 2026-09-08 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
       "source": "zerodayinitiative.com"
     },
     {
       "title": "ZDI-CAN-31212: Microsoft",
       "link": "http://www.zerodayinitiative.com/advisories/upcoming/",
       "date": "2026-05-11T05:00:00Z",
-      "description": "A CVSS score 8.1 AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H severity vulnerability discovered by 'Richard Chen of TrendAI Research' was reported to the affected vendor on: 2026-05-11, 6 days ago. The vendor is given until 2026-09-08 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
+      "description": "A CVSS score 8.1 AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H severity vulnerability discovered by 'Richard Chen of TrendAI Research' was reported to the affected vendor on: 2026-05-11, 7 days ago. The vendor is given until 2026-09-08 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
       "source": "zerodayinitiative.com"
     },
     {
       "title": "ZDI-CAN-30745: Microsoft",
       "link": "http://www.zerodayinitiative.com/advisories/upcoming/",
       "date": "2026-05-11T05:00:00Z",
-      "description": "A CVSS score 7.8 AV:L/AC:H/PR:L/UI:N/S:C/C:H/I:H/A:H severity vulnerability discovered by 'Marcin Wiazowski' was reported to the affected vendor on: 2026-05-11, 6 days ago. The vendor is given until 2026-09-08 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
+      "description": "A CVSS score 7.8 AV:L/AC:H/PR:L/UI:N/S:C/C:H/I:H/A:H severity vulnerability discovered by 'Marcin Wiazowski' was reported to the affected vendor on: 2026-05-11, 7 days ago. The vendor is given until 2026-09-08 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
       "source": "zerodayinitiative.com"
     },
     {
       "title": "ZDI-CAN-30744: Microsoft",
       "link": "http://www.zerodayinitiative.com/advisories/upcoming/",
       "date": "2026-05-11T05:00:00Z",
-      "description": "A CVSS score 7.8 AV:L/AC:H/PR:L/UI:N/S:C/C:H/I:H/A:H severity vulnerability discovered by 'Marcin Wiazowski' was reported to the affected vendor on: 2026-05-11, 6 days ago. The vendor is given until 2026-09-08 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
+      "description": "A CVSS score 7.8 AV:L/AC:H/PR:L/UI:N/S:C/C:H/I:H/A:H severity vulnerability discovered by 'Marcin Wiazowski' was reported to the affected vendor on: 2026-05-11, 7 days ago. The vendor is given until 2026-09-08 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
       "source": "zerodayinitiative.com"
     },
     {

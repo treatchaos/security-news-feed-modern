@@ -1,7 +1,77 @@
 {
   "date": "2026-05-18",
-  "count": 1,
+  "count": 8,
   "items": [
+    {
+      "id": "fd7fcd2621b5ce8eb35dc982554c5055fa1d3d5a",
+      "title": "Microsoft Confirms Windows 11 Update Fails With Error 0x800f0922",
+      "link": "https://cybersecuritynews.com/microsoft-windows-11-update/",
+      "date": "2026-05-18T06:24:38Z",
+      "description": "Microsoft has officially acknowledged a critical installation failure affecting its May 2026 Patch Tuesday cumulative update for Windows 11, KB5089549, leaving users stranded with error code 0x800f0922 and, in some cases, additional errors 0x80240069 and 0x80240031. The known issue was formally added to the update’s change log on May 15, 2026, just three days after […] The post Microsoft…",
+      "source": "cybersecuritynews.com",
+      "first_seen": "2026-05-18T06:43:28Z",
+      "last_seen": "2026-05-18T06:43:28Z"
+    },
+    {
+      "id": "413c6113be1ebd12b06dc9f9c9a131aad74c1c1c",
+      "title": "New Windows ‘MiniPlasma’ Zero-Day Let Attackers Gain SYSTEM Access – PoC Released",
+      "link": "https://cybersecuritynews.com/windows-miniplasma-zero-day/",
+      "date": "2026-05-18T06:00:49Z",
+      "description": "A critical Windows privilege escalation zero-day vulnerability dubbed “MiniPlasma” has emerged with a public proof-of-concept exploit that allows attackers to achieve SYSTEM-level privileges on fully patched Windows systems. Security researcher Nightmare-Eclipse released the weaponized exploit on GitHub on May 13, 2026, claiming that Microsoft either failed to patch or silently rolled back the…",
+      "source": "cybersecuritynews.com",
+      "first_seen": "2026-05-18T06:43:28Z",
+      "last_seen": "2026-05-18T06:43:28Z"
+    },
+    {
+      "id": "63c9e17389916f6c2092af9d98af1bb7f6f8e6ce",
+      "title": "Hackers earn $1,298,250 for 47 zero-days at Pwn2Own Berlin 2026",
+      "link": "https://www.bleepingcomputer.com/news/security/hackers-earn-1-298-250-for-47-zero-days-at-pwn2own-berlin-2026/",
+      "date": "2026-05-18T05:33:20Z",
+      "description": "The Pwn2Own Berlin 2026 hacking contest has concluded, with security researchers collecting $1,298,250 in rewards after exploiting 47 zero-day flaws. [...]",
+      "source": "bleepingcomputer.com",
+      "first_seen": "2026-05-18T06:43:28Z",
+      "last_seen": "2026-05-18T06:43:28Z"
+    },
+    {
+      "id": "625e9fa7308d04e9785a0ffb805a0a6a6afd66eb",
+      "title": "Critical WordPress Plugin Vulnerability Exposes Websites to Authentication Bypass Attacks",
+      "link": "https://cybersecuritynews.com/wordpress-plugin-vulnerability-exposes-websites/",
+      "date": "2026-05-18T04:06:01Z",
+      "description": "A critical vulnerability in a widely used WordPress plugin has exposed over 200,000 websites to full account takeover, raising urgent concerns across the security community. Discovered on May 8, 2026, by Wordfence’s AI-powered PRISM threat intelligence platform, the flaw affects the Burst Statistics plugin, a privacy-focused analytics tool. Tracked as CVE-2026-8181 with a CVSS score […] The post…",
+      "source": "cybersecuritynews.com",
+      "first_seen": "2026-05-18T06:43:28Z",
+      "last_seen": "2026-05-18T06:43:28Z"
+    },
+    {
+      "id": "479e0b17245570a93f0f7317ea6a2a893df01855",
+      "title": "Hackers Earn $1.3 Million at Pwn2Own Berlin 2026",
+      "link": "https://www.securityweek.com/hackers-earn-1-3-million-at-pwn2own-berlin-2026/",
+      "date": "2026-05-18T04:05:21Z",
+      "description": "Participants demonstrated exploits for Windows, Linux, VMware, Nvidia, and AI products. The post Hackers Earn $1.3 Million at Pwn2Own Berlin 2026 appeared first on SecurityWeek.",
+      "source": "securityweek.com",
+      "first_seen": "2026-05-18T06:43:28Z",
+      "last_seen": "2026-05-18T06:43:28Z"
+    },
+    {
+      "id": "a88f5a3101a6a176d4b7538228950e998ba8727a",
+      "title": "Fast16 Malware Manipulated Nuclear Weapons Simulation Data to Sabotage Test Results",
+      "link": "https://cybersecuritynews.com/fast16-malware-manipulated-nuclear-weapons/",
+      "date": "2026-05-18T03:43:04Z",
+      "description": "Fast16 malware has been reclassified as a precision tool engineered not to disrupt nuclear warheads directly, but to quietly falsify the outcome of nuclear weapons test simulations and stall weapons development. Rather than causing kinetic damage, Fast16’s purpose was psychological and developmental: to convince weapons engineers that their virtual detonation tests were failing, even when […]…",
+      "source": "cybersecuritynews.com",
+      "first_seen": "2026-05-18T06:43:28Z",
+      "last_seen": "2026-05-18T06:43:28Z"
+    },
+    {
+      "id": "41696adacfaa7211f438b4d35dc0027111211c37",
+      "title": "Claude Code RCE Flaw Lets Attackers Execute Commands via Malicious Deeplinks",
+      "link": "https://cybersecuritynews.com/claude-code-rce-flaw/",
+      "date": "2026-05-18T03:14:53Z",
+      "description": "A critical remote code execution (RCE) vulnerability has been discovered in Anthropic’s Claude Code CLI tool, allowing attackers to execute arbitrary commands on a victim’s machine by tricking them into clicking a specially crafted deeplink. The flaw, now patched in Claude Code version 2.1.118, was rooted in a naive command-line argument parser that could be […] The post Claude Code RCE Flaw…",
+      "source": "cybersecuritynews.com",
+      "first_seen": "2026-05-18T06:43:28Z",
+      "last_seen": "2026-05-18T06:43:28Z"
+    },
     {
       "id": "4ac96f3fd286ce9534418e69dad4485245ffdf23",
       "title": "Can Laws Stop Deepfakes? South Korea Aims to Find Out",
@@ -10,7 +80,7 @@
       "description": "South Korea's local elections next month will be a test bed for how effective regulations might be to stymie the flow of deepfakes.",
       "source": "darkreading.com",
       "first_seen": "2026-05-18T02:11:39Z",
-      "last_seen": "2026-05-18T02:11:39Z"
+      "last_seen": "2026-05-18T06:43:28Z"
     }
   ]
 }
