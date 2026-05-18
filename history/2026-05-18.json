@@ -1,7 +1,87 @@
 {
   "date": "2026-05-18",
-  "count": 21,
+  "count": 29,
   "items": [
+    {
+      "id": "8e4babb6e281d937bd714d875dd6275b153fa0bb",
+      "title": "Grafana says stolen GitHub token let hackers steal codebase",
+      "link": "https://www.bleepingcomputer.com/news/security/grafana-says-stolen-github-token-let-hackers-steal-codebase/",
+      "date": "2026-05-18T13:46:26Z",
+      "description": "Grafana Labs disclosed that hackers have downloaded its source code after breaching its GitHub environment using a stolen access token. [...]",
+      "source": "bleepingcomputer.com",
+      "first_seen": "2026-05-18T14:25:14Z",
+      "last_seen": "2026-05-18T14:25:14Z"
+    },
+    {
+      "id": "6678f2e700a25ba633b112d6aa7df087ce77bcec",
+      "title": "How to Reduce Phishing Exposure Before It Turns into Business Disruption",
+      "link": "https://thehackernews.com/2026/05/how-to-reduce-phishing-exposure-before.html",
+      "date": "2026-05-18T13:00:00Z",
+      "description": "What happens when a phishing email looks clean enough to pass through security, but dangerous enough to expose the business after one click? That is the gap many SOCs still struggle with: the attacks that leave teams unsure what was exposed, who else was targeted, and how far the risk has spread. Early phishing detection closes that gap. It helps teams move from uncertainty to evidence faster,",
+      "source": "thehackernews.com",
+      "first_seen": "2026-05-18T14:25:14Z",
+      "last_seen": "2026-05-18T14:25:14Z"
+    },
+    {
+      "id": "07c47af79957c36d1a3acc6e95d754bc81aa4445",
+      "title": "Millions Impacted Across Several US Healthcare Data Breaches",
+      "link": "https://www.securityweek.com/millions-impacted-across-several-us-healthcare-data-breaches/",
+      "date": "2026-05-18T12:58:44Z",
+      "description": "Several healthcare data breaches impacting hundreds of thousands and even millions were added to the HHS tracker. The post Millions Impacted Across Several US Healthcare Data Breaches appeared first on SecurityWeek.",
+      "source": "securityweek.com",
+      "first_seen": "2026-05-18T14:25:14Z",
+      "last_seen": "2026-05-18T14:25:14Z"
+    },
+    {
+      "id": "53ad58b0e5729eb613ecb21bec2244782c2d6402",
+      "title": "‘Claw Chain’ OpenClaw Flaws Allow Sandbox Escape, Backdoor Delivery",
+      "link": "https://www.securityweek.com/claw-chain-openclaw-flaws-allow-sandbox-escape-backdoor-delivery/",
+      "date": "2026-05-18T12:14:43Z",
+      "description": "Four vulnerabilities in OpenClaw can be chained together to steal credentials, escape the sandbox, and plant persistent backdoors. The post ‘Claw Chain’ OpenClaw Flaws Allow Sandbox Escape, Backdoor Delivery appeared first on SecurityWeek.",
+      "source": "securityweek.com",
+      "first_seen": "2026-05-18T14:25:14Z",
+      "last_seen": "2026-05-18T14:25:14Z"
+    },
+    {
+      "id": "e55a5a9b5770e4c51f09ba067a2df62ef16a4bc7",
+      "title": "7-Eleven Data Breach Confirmed After ShinyHunters Ransom Demand",
+      "link": "https://www.securityweek.com/7-eleven-data-breach-confirmed-after-shinyhunters-ransom-demand/",
+      "date": "2026-05-18T11:25:54Z",
+      "description": "The hackers claimed to have stolen more than 600,000 Salesforce records, including personal information and corporate data. The post 7-Eleven Data Breach Confirmed After ShinyHunters Ransom Demand appeared first on SecurityWeek.",
+      "source": "securityweek.com",
+      "first_seen": "2026-05-18T14:25:14Z",
+      "last_seen": "2026-05-18T14:25:14Z"
+    },
+    {
+      "id": "c24871ea48bced99478cdcf7539517e94c398b9b",
+      "title": "Developer Workstations Are Now Part of the Software Supply Chain",
+      "link": "https://thehackernews.com/2026/05/developer-workstations-are-now-part-of.html",
+      "date": "2026-05-18T11:23:41Z",
+      "description": "Supply chain attackers are not only trying to slip malicious code into trusted software. They are trying to steal the access that makes trusted software possible. Recently, three separate campaigns hit npm, PyPI, and Docker Hub in a 48-hour window, and all three targeted secrets from developer environments and CI/CD pipelines, including API keys, cloud credentials, SSH keys, and tokens. This is",
+      "source": "thehackernews.com",
+      "first_seen": "2026-05-18T14:25:14Z",
+      "last_seen": "2026-05-18T14:25:14Z"
+    },
+    {
+      "id": "5342c4baa416a3f2dd4fffc242cc187d941f1b2b",
+      "title": "Microsoft testing adjustable taskbar, Start menu in Windows 11",
+      "link": "https://www.bleepingcomputer.com/news/microsoft/windows-11-finally-gets-a-resizable-taskbar-and-start-menu/",
+      "date": "2026-05-18T11:14:28Z",
+      "description": "Microsoft has finally brought back the resizable taskbar and Start menu to Windows 11 in the latest preview version rolling out to Insiders in the Experimental channel. [...]",
+      "source": "bleepingcomputer.com",
+      "first_seen": "2026-05-18T14:25:14Z",
+      "last_seen": "2026-05-18T14:25:14Z"
+    },
+    {
+      "id": "f0c4c171b96cf4365af171b01831224ec2c7c289",
+      "title": "Ivanti, Fortinet, SAP, VMware, n8n Patch RCE, SQL Injection, Privilege Escalation Flaws",
+      "link": "https://thehackernews.com/2026/05/ivanti-fortinet-sap-vmware-n8n-patch.html",
+      "date": "2026-05-18T10:54:05Z",
+      "description": "Ivanti, Fortinet, n8n, SAP, and VMware have released security fixes for various vulnerabilities that could be exploited by bad actors to bypass authentication and execute arbitrary code. Topping the list is a critical flaw impacting Ivanti Xtraction (CVE-2026-8043, CVSS score: 9.6) that could be exploited to achieve information disclosure or client-side attacks. \"External control of a file name",
+      "source": "thehackernews.com",
+      "first_seen": "2026-05-18T14:25:14Z",
+      "last_seen": "2026-05-18T14:25:14Z"
+    },
     {
       "id": "d981f802675d1f6c3ea9fd24068b37793f7b1711",
       "title": "Linus Torvalds Says AI Bug Reports Have Made Linux Security Mailing List Unmanageable",
@@ -20,7 +100,7 @@
       "description": "The researcher dropped the MiniPlasma exploit that uses the original proof-of-concept (PoC) code targeting the bug. The post Researcher Drops MiniPlasma Windows Exploit for Unpatched 2020 CVE appeared first on SecurityWeek.",
       "source": "securityweek.com",
       "first_seen": "2026-05-18T10:56:18Z",
-      "last_seen": "2026-05-18T10:56:18Z"
+      "last_seen": "2026-05-18T14:25:14Z"
     },
     {
       "id": "5aaa940e343454781d49747ea56a14f15f73547b",
@@ -40,7 +120,7 @@
       "description": "At least one threat actor has adopted the recently released malware source code in attacks against NPM developers. The post First Shai-Hulud Worm Clones Emerge appeared first on SecurityWeek.",
       "source": "securityweek.com",
       "first_seen": "2026-05-18T10:56:18Z",
-      "last_seen": "2026-05-18T10:56:18Z"
+      "last_seen": "2026-05-18T14:25:14Z"
     },
     {
       "id": "08d387ca717f3606008b80905eb0f927b27015aa",
@@ -50,7 +130,7 @@
       "description": "Chaotic Eclipse, the security researcher behind the recently disclosed Windows flaws, YellowKey and GreenPlasma, has released a proof-of-concept (PoC) for a Windows privilege escalation zero-day flaw that grants attackers SYSTEM privileges on fully patched Windows systems. Codenamed MiniPlasma, the vulnerability impacts \"cldflt.sys,\" which refers to the Windows Cloud Files Mini Filter Driver,",
       "source": "thehackernews.com",
       "first_seen": "2026-05-18T10:56:18Z",
-      "last_seen": "2026-05-18T10:56:18Z"
+      "last_seen": "2026-05-18T14:25:14Z"
     },
     {
       "id": "eda4e8db43d8bcaff216a25aff3014cc53240e24",
@@ -60,7 +140,7 @@
       "description": "Cybersecurity researchers have discovered four new npm packages containing information-stealing malware, one of which is a clone of the Shai-Hulud worm open-sourced by TeamPCP. The list of identified packages is below - chalk-tempalte (825 Downloads) @deadcode09284814/axios-util (284 Downloads) axois-utils (963 Downloads) color-style-utils (934 Downloads) \"One of the packages (chalk-tempalte)",
       "source": "thehackernews.com",
       "first_seen": "2026-05-18T10:56:18Z",
-      "last_seen": "2026-05-18T10:56:18Z"
+      "last_seen": "2026-05-18T14:25:14Z"
     },
     {
       "id": "8aaa638292a238e2b148ddb9e14dee9f0ac9e7ff",
@@ -80,7 +160,7 @@
       "description": "Microsoft has confirmed that the May 2026 Windows 11 security update (KB5089549) fails to install on some systems and triggers 0x800f0922 errors. [...]",
       "source": "bleepingcomputer.com",
       "first_seen": "2026-05-18T10:56:18Z",
-      "last_seen": "2026-05-18T10:56:18Z"
+      "last_seen": "2026-05-18T14:25:14Z"
     },
     {
       "id": "5a6b94f40379aa8bd9d3930ef557fe1b44c9101b",
@@ -120,7 +200,7 @@
       "description": "A recently patched local privilege escalation vulnerability in the Linux kernel's rxgk module now has a proof-of-concept exploit that allows attackers to gain root access on some Linux systems. [...]",
       "source": "bleepingcomputer.com",
       "first_seen": "2026-05-18T10:56:18Z",
-      "last_seen": "2026-05-18T10:56:18Z"
+      "last_seen": "2026-05-18T14:25:14Z"
     },
     {
       "id": "30b6ad1d0f282a552c51c4430d3414554dfc4338",
@@ -160,7 +240,7 @@
       "description": "The Pwn2Own Berlin 2026 hacking contest has concluded, with security researchers collecting $1,298,250 in rewards after exploiting 47 zero-day flaws. [...]",
       "source": "bleepingcomputer.com",
       "first_seen": "2026-05-18T06:43:28Z",
-      "last_seen": "2026-05-18T10:56:18Z"
+      "last_seen": "2026-05-18T14:25:14Z"
     },
     {
       "id": "625e9fa7308d04e9785a0ffb805a0a6a6afd66eb",
@@ -210,7 +290,7 @@
       "description": "South Korea's local elections next month will be a test bed for how effective regulations might be to stymie the flow of deepfakes.",
       "source": "darkreading.com",
       "first_seen": "2026-05-18T02:11:39Z",
-      "last_seen": "2026-05-18T10:56:18Z"
+      "last_seen": "2026-05-18T14:25:14Z"
     }
   ]
 }

@@ -1,7 +1,21 @@
 {
-  "last_updated": "2026-05-18T10:56:18Z",
-  "count": 40,
+  "last_updated": "2026-05-18T14:25:14Z",
+  "count": 35,
   "items": [
+    {
+      "title": "Grafana says stolen GitHub token let hackers steal codebase",
+      "link": "https://www.bleepingcomputer.com/news/security/grafana-says-stolen-github-token-let-hackers-steal-codebase/",
+      "date": "2026-05-18T13:46:26Z",
+      "description": "Grafana Labs disclosed that hackers have downloaded its source code after breaching its GitHub environment using a stolen access token. [...]",
+      "source": "bleepingcomputer.com"
+    },
+    {
+      "title": "How to Reduce Phishing Exposure Before It Turns into Business Disruption",
+      "link": "https://thehackernews.com/2026/05/how-to-reduce-phishing-exposure-before.html",
+      "date": "2026-05-18T13:00:00Z",
+      "description": "What happens when a phishing email looks clean enough to pass through security, but dangerous enough to expose the business after one click? That is the gap many SOCs still struggle with: the attacks that leave teams unsure what was exposed, who else was targeted, and how far the risk has spread. Early phishing detection closes that gap. It helps teams move from uncertainty to evidence faster,",
+      "source": "thehackernews.com"
+    },
     {
       "title": "The Boring Stuff is Dangerous Now",
       "link": "https://www.darkreading.com/cyber-risk/ai-code-and-agents-forces-defenders-adapt",
@@ -10,11 +24,46 @@
       "source": "darkreading.com"
     },
     {
-      "title": "Linus Torvalds Says AI Bug Reports Have Made Linux Security Mailing List Unmanageable",
-      "link": "https://cybersecuritynews.com/linus-torvalds-on-ai-bug-reports/",
-      "date": "2026-05-18T10:40:52Z",
-      "description": "Linus Torvalds has warned that a “continued flood” of AI‑generated bug reports is making the Linux security mailing list “almost entirely unmanageable.” The project is now tightening rules on how AI‑found issues should be reported and handled. In the Linux 7.1‑rc4 announcement, Torvalds noted that the security list is being overwhelmed by AI‑assisted reports, many of […] The post Linus Torvalds…",
-      "source": "cybersecuritynews.com"
+      "title": "Millions Impacted Across Several US Healthcare Data Breaches",
+      "link": "https://www.securityweek.com/millions-impacted-across-several-us-healthcare-data-breaches/",
+      "date": "2026-05-18T12:58:44Z",
+      "description": "Several healthcare data breaches impacting hundreds of thousands and even millions were added to the HHS tracker. The post Millions Impacted Across Several US Healthcare Data Breaches appeared first on SecurityWeek.",
+      "source": "securityweek.com"
+    },
+    {
+      "title": "‘Claw Chain’ OpenClaw Flaws Allow Sandbox Escape, Backdoor Delivery",
+      "link": "https://www.securityweek.com/claw-chain-openclaw-flaws-allow-sandbox-escape-backdoor-delivery/",
+      "date": "2026-05-18T12:14:43Z",
+      "description": "Four vulnerabilities in OpenClaw can be chained together to steal credentials, escape the sandbox, and plant persistent backdoors. The post ‘Claw Chain’ OpenClaw Flaws Allow Sandbox Escape, Backdoor Delivery appeared first on SecurityWeek.",
+      "source": "securityweek.com"
+    },
+    {
+      "title": "7-Eleven Data Breach Confirmed After ShinyHunters Ransom Demand",
+      "link": "https://www.securityweek.com/7-eleven-data-breach-confirmed-after-shinyhunters-ransom-demand/",
+      "date": "2026-05-18T11:25:54Z",
+      "description": "The hackers claimed to have stolen more than 600,000 Salesforce records, including personal information and corporate data. The post 7-Eleven Data Breach Confirmed After ShinyHunters Ransom Demand appeared first on SecurityWeek.",
+      "source": "securityweek.com"
+    },
+    {
+      "title": "Developer Workstations Are Now Part of the Software Supply Chain",
+      "link": "https://thehackernews.com/2026/05/developer-workstations-are-now-part-of.html",
+      "date": "2026-05-18T11:23:41Z",
+      "description": "Supply chain attackers are not only trying to slip malicious code into trusted software. They are trying to steal the access that makes trusted software possible. Recently, three separate campaigns hit npm, PyPI, and Docker Hub in a 48-hour window, and all three targeted secrets from developer environments and CI/CD pipelines, including API keys, cloud credentials, SSH keys, and tokens. This is",
+      "source": "thehackernews.com"
+    },
+    {
+      "title": "Microsoft testing adjustable taskbar, Start menu in Windows 11",
+      "link": "https://www.bleepingcomputer.com/news/microsoft/windows-11-finally-gets-a-resizable-taskbar-and-start-menu/",
+      "date": "2026-05-18T11:14:28Z",
+      "description": "Microsoft has finally brought back the resizable taskbar and Start menu to Windows 11 in the latest preview version rolling out to Insiders in the Experimental channel. [...]",
+      "source": "bleepingcomputer.com"
+    },
+    {
+      "title": "Ivanti, Fortinet, SAP, VMware, n8n Patch RCE, SQL Injection, Privilege Escalation Flaws",
+      "link": "https://thehackernews.com/2026/05/ivanti-fortinet-sap-vmware-n8n-patch.html",
+      "date": "2026-05-18T10:54:05Z",
+      "description": "Ivanti, Fortinet, n8n, SAP, and VMware have released security fixes for various vulnerabilities that could be exploited by bad actors to bypass authentication and execute arbitrary code. Topping the list is a critical flaw impacting Ivanti Xtraction (CVE-2026-8043, CVSS score: 9.6) that could be exploited to achieve information disclosure or client-side attacks. \"External control of a file name",
+      "source": "thehackernews.com"
     },
     {
       "title": "Researcher Drops MiniPlasma Windows Exploit for Unpatched 2020 CVE",
@@ -22,13 +71,6 @@
       "date": "2026-05-18T10:38:22Z",
       "description": "The researcher dropped the MiniPlasma exploit that uses the original proof-of-concept (PoC) code targeting the bug. The post Researcher Drops MiniPlasma Windows Exploit for Unpatched 2020 CVE appeared first on SecurityWeek.",
       "source": "securityweek.com"
-    },
-    {
-      "title": "Four Malicious npm Packages Steal SSH Keys, Cloud Credentials, and Crypto Wallets",
-      "link": "https://cybersecuritynews.com/malicious-npm-packages-steal-keys/",
-      "date": "2026-05-18T09:57:43Z",
-      "description": "Four malicious npm packages capable of stealing SSH keys, cloud credentials, cryptocurrency wallets, and environment variables, while one variant quietly transforms infected machines into a DDoS botnet. The campaign appears to be the work of a single threat actor deploying multiple infostealer variants simultaneously through a coordinated typosquatting operation targeting Axios users. The four…",
-      "source": "cybersecuritynews.com"
     },
     {
       "title": "First Shai-Hulud Worm Clones Emerge",
@@ -52,39 +94,11 @@
       "source": "thehackernews.com"
     },
     {
-      "title": "Grafana Confirms Breach After Hackers Claim They Stole Data",
-      "link": "https://www.securityweek.com/grafana-confirms-breach-after-hackers-claim-they-stole-data/",
-      "date": "2026-05-18T08:34:59Z",
-      "description": "Grafana appears to have been targeted by Coinbase Cartel, a cybercrime group linked to ShinyHunters, Scattered Spider, and Lapsus$. The post Grafana Confirms Breach After Hackers Claim They Stole Data appeared first on SecurityWeek.",
-      "source": "securityweek.com"
-    },
-    {
       "title": "Microsoft confirms Windows 11 security update install issues",
       "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-confirms-kb5089549-windows-11-security-update-install-issues/",
       "date": "2026-05-18T08:33:14Z",
       "description": "Microsoft has confirmed that the May 2026 Windows 11 security update (KB5089549) fails to install on some systems and triggers 0x800f0922 errors. [...]",
       "source": "bleepingcomputer.com"
-    },
-    {
-      "title": "CISA Warns of Microsoft Exchange Server Vulnerability Exploited in Attacks",
-      "link": "https://cybersecuritynews.com/cisa-microsoft-exchange-server-vulnerability/",
-      "date": "2026-05-18T08:32:59Z",
-      "description": "CISA has issued a fresh warning about a newly disclosed Microsoft Exchange Server vulnerability that is already being exploited in real-world attacks, raising concerns for organizations relying on on-premises email infrastructure. The flaw CVE-2026-42897 is a cross-site scripting (XSS) vulnerability affecting Microsoft Exchange Server, specifically within Outlook Web Access (OWA). According to…",
-      "source": "cybersecuritynews.com"
-    },
-    {
-      "title": "1 Million WordPress Sites Affected by Avada Builder File Read and SQL Injection Flaws",
-      "link": "https://cybersecuritynews.com/avada-builder-plugin-vulnerability/",
-      "date": "2026-05-18T08:30:10Z",
-      "description": "A widely used WordPress plugin powering over one million websites has been hit by two serious vulnerabilities that could allow attackers to steal sensitive data and access server files. Security researchers warn that the flaws in the Avada Builder plugin could be actively exploited if sites remain unpatched. The issues, discovered by researcher Rafie Muhammad through […] The post 1 Million…",
-      "source": "cybersecuritynews.com"
-    },
-    {
-      "title": "Exploitation of Critical NGINX Vulnerability Begins",
-      "link": "https://www.securityweek.com/exploitation-of-critical-nginx-vulnerability-begins/",
-      "date": "2026-05-18T07:27:42Z",
-      "description": "The flaw leads to denial-of-service on default configurations and to remote code execution if ASLR is disabled. The post Exploitation of Critical NGINX Vulnerability Begins appeared first on SecurityWeek.",
-      "source": "securityweek.com"
     },
     {
       "title": "Exploit available for new DirtyDecrypt Linux root escalation flaw",
@@ -94,20 +108,6 @@
       "source": "bleepingcomputer.com"
     },
     {
-      "title": "Pre-Stuxnet Fast16 Malware Tampered with Nuclear Weapons Simulations",
-      "link": "https://thehackernews.com/2026/05/pre-stuxnet-fast16-malware-tampered.html",
-      "date": "2026-05-18T06:46:37Z",
-      "description": "A new analysis of the Lua-based fast16 malware has confirmed that it was a cyber sabotage tool designed to tamper with nuclear weapons testing simulations. According to Broadcom-owned Symantec and Carbon Black teams, the pre-Stuxnet tool was engineered to corrupt uranium-compression simulations that are central to nuclear weapon design. \"Fast16's hook engine is selectively interested in",
-      "source": "thehackernews.com"
-    },
-    {
-      "title": "Microsoft Confirms Windows 11 Update Fails With Error 0x800f0922",
-      "link": "https://cybersecuritynews.com/microsoft-windows-11-update/",
-      "date": "2026-05-18T06:24:38Z",
-      "description": "Microsoft has officially acknowledged a critical installation failure affecting its May 2026 Patch Tuesday cumulative update for Windows 11, KB5089549, leaving users stranded with error code 0x800f0922 and, in some cases, additional errors 0x80240069 and 0x80240031. The known issue was formally added to the update’s change log on May 15, 2026, just three days after […] The post Microsoft…",
-      "source": "cybersecuritynews.com"
-    },
-    {
       "title": "Hackers earn $1,298,250 for 47 zero-days at Pwn2Own Berlin 2026",
       "link": "https://www.bleepingcomputer.com/news/security/hackers-earn-1-298-250-for-47-zero-days-at-pwn2own-berlin-2026/",
       "date": "2026-05-18T05:33:20Z",
@@ -115,46 +115,11 @@
       "source": "bleepingcomputer.com"
     },
     {
-      "title": "Hackers Earn $1.3 Million at Pwn2Own Berlin 2026",
-      "link": "https://www.securityweek.com/hackers-earn-1-3-million-at-pwn2own-berlin-2026/",
-      "date": "2026-05-18T04:05:21Z",
-      "description": "Participants demonstrated exploits for Windows, Linux, VMware, Nvidia, and AI products. The post Hackers Earn $1.3 Million at Pwn2Own Berlin 2026 appeared first on SecurityWeek.",
-      "source": "securityweek.com"
-    },
-    {
       "title": "Can Laws Stop Deepfakes? South Korea Aims to Find Out",
       "link": "https://www.darkreading.com/vulnerabilities-threats/can-laws-stop-deepfakes-south-korea",
       "date": "2026-05-18T01:00:00Z",
       "description": "South Korea's local elections next month will be a test bed for how effective regulations might be to stymie the flow of deepfakes.",
       "source": "darkreading.com"
-    },
-    {
-      "title": "New Windows 'MiniPlasma' zero-day exploit gives SYSTEM access, PoC released",
-      "link": "https://www.bleepingcomputer.com/news/microsoft/new-windows-miniplasma-zero-day-exploit-gives-system-access-poc-released/",
-      "date": "2026-05-17T22:30:08Z",
-      "description": "A cybersecurity researcher has released a proof-of-concept exploit for a Windows privilege escalation zero-day dubbed \"MiniPlasma\" that lets attackers gain SYSTEM privileges on fully patched Windows systems. [...]",
-      "source": "bleepingcomputer.com"
-    },
-    {
-      "title": "Tycoon2FA hijacks Microsoft 365 accounts via device-code phishing",
-      "link": "https://www.bleepingcomputer.com/news/security/tycoon2fa-hijacks-microsoft-365-accounts-via-device-code-phishing/",
-      "date": "2026-05-17T14:43:10Z",
-      "description": "The Tycoon2FA phishing kit now supports device-code phishing attacks and abuses Trustifi click-tracking URLs to hijack Microsoft 365 accounts. [...]",
-      "source": "bleepingcomputer.com"
-    },
-    {
-      "title": "NGINX CVE-2026-42945 Exploited in the Wild, Causing Worker Crashes and Possible RCE",
-      "link": "https://thehackernews.com/2026/05/nginx-cve-2026-42945-exploited-in-wild.html",
-      "date": "2026-05-17T11:57:53Z",
-      "description": "A newly disclosed security flaw impacting NGINX Plus and NGINX Open has come under active exploitation in the wild, days after its public disclosure, according to VulnCheck. The vulnerability, tracked as CVE-2026-42945 (CVSS score: 9.2), is a heap buffer overflow in ngx_http_rewrite_module affecting NGINX versions 0.6.27 through 1.30.0. According to AI-native security company depthfirst, the",
-      "source": "thehackernews.com"
-    },
-    {
-      "title": "Grafana GitHub Token Breach Led to Codebase Download and Extortion Attempt",
-      "link": "https://thehackernews.com/2026/05/grafana-github-token-breach-led-to.html",
-      "date": "2026-05-17T07:13:33Z",
-      "description": "Grafana has disclosed that an \"unauthorized party\" obtained a token that granted them the ability to access the company's GitHub environment and download its codebase. \"Our investigation has determined that no customer data or personal information was accessed during this incident, and we have found no evidence of impact to customer systems or operations,\" Grafana said in a series of",
-      "source": "thehackernews.com"
     },
     {
       "title": "Congress Puts Heat on Instructure After Canvas Outage",
