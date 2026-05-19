@@ -1,7 +1,35 @@
 {
-  "last_updated": "2026-05-18T23:55:27Z",
-  "count": 35,
+  "last_updated": "2026-05-19T06:39:09Z",
+  "count": 40,
   "items": [
+    {
+      "title": "Critical Vulnerability Exposes Industrial Robot Fleets to Hacking",
+      "link": "https://www.securityweek.com/critical-vulnerability-exposes-industrial-robot-fleets-to-hacking/",
+      "date": "2026-05-19T06:18:51Z",
+      "description": "The vulnerability, CVE-2026-8153, affects Universal Robots PolyScope 5 and it can be exploited for OS command injection. The post Critical Vulnerability Exposes Industrial Robot Fleets to Hacking appeared first on SecurityWeek.",
+      "source": "securityweek.com"
+    },
+    {
+      "title": "GitHub Actions Supply Chain Attack Redirects Tags to Steal CI/CD Credentials",
+      "link": "https://thehackernews.com/2026/05/github-actions-supply-chain-attack.html",
+      "date": "2026-05-19T05:28:06Z",
+      "description": "In yet another software supply chain attack, threat actors have compromised the popular GitHub Actions workflow, actions-cool/issues-helper, to run malicious code that harvests sensitive credentials and exfiltrates them to an attacker-controlled server. \"Every existing tag in the repository has been moved to point to an imposter commit that does not appear in the action's normal commit history,",
+      "source": "thehackernews.com"
+    },
+    {
+      "title": "Mini Shai-Hulud Pushes Malicious AntV npm Packages via Compromised Maintainer Account",
+      "link": "https://thehackernews.com/2026/05/mini-shai-hulud-pushes-malicious-antv.html",
+      "date": "2026-05-19T04:54:17Z",
+      "description": "Cybersecurity researchers have discovered a fresh software supply chain attack campaign that has compromised various npm packages associated with the @antv ecosystem as part of the ongoing Mini Shai-Hulud attack wave. \"The attack affects packages tied to the npm maintainer account atool, including echarts-for-react, a widely used React wrapper for Apache ECharts with roughly 1.1 million weekly",
+      "source": "thehackernews.com"
+    },
+    {
+      "title": "Mythos Preview Builds PoC Exploits in Automated Vulnerability Research",
+      "link": "https://cybersecuritynews.com/mythos-preview-builds-poc-exploits/",
+      "date": "2026-05-19T03:34:14Z",
+      "description": "Anthropic’s Mythos Preview security-focused AI model is crossing a critical threshold in automated vulnerability research, not just finding bugs, but chaining them together into working proof-of-concept exploits. That’s the finding from Cloudflare’s security team, which spent several weeks running the model against more than fifty internal repositories as part of Anthropic’s invite-only Project…",
+      "source": "cybersecuritynews.com"
+    },
     {
       "title": "INTERPOL ‘Operation Ramz’ seizes 53 malware, phishing servers",
       "link": "https://www.bleepingcomputer.com/news/security/interpol-operation-ramz-seizes-53-malware-phishing-servers/",
@@ -129,20 +157,6 @@
       "source": "securityweek.com"
     },
     {
-      "title": "Developer Workstations Are Now Part of the Software Supply Chain",
-      "link": "https://thehackernews.com/2026/05/developer-workstations-are-now-part-of.html",
-      "date": "2026-05-18T11:23:41Z",
-      "description": "Supply chain attackers are not only trying to slip malicious code into trusted software. They are trying to steal the access that makes trusted software possible. Recently, three separate campaigns hit npm, PyPI, and Docker Hub in a 48-hour window, and all three targeted secrets from developer environments and CI/CD pipelines, including API keys, cloud credentials, SSH keys, and tokens. This is",
-      "source": "thehackernews.com"
-    },
-    {
-      "title": "Ivanti, Fortinet, SAP, VMware, n8n Patch RCE, SQL Injection, Privilege Escalation Flaws",
-      "link": "https://thehackernews.com/2026/05/ivanti-fortinet-sap-vmware-n8n-patch.html",
-      "date": "2026-05-18T10:54:05Z",
-      "description": "Ivanti, Fortinet, n8n, SAP, and VMware have released security fixes for various vulnerabilities that could be exploited by bad actors to bypass authentication and execute arbitrary code. Topping the list is a critical flaw impacting Ivanti Xtraction (CVE-2026-8043, CVSS score: 9.6) that could be exploited to achieve information disclosure or client-side attacks. \"External control of a file name",
-      "source": "thehackernews.com"
-    },
-    {
       "title": "Linus Torvalds Says AI Bug Reports Have Made Linux Security Mailing List Unmanageable",
       "link": "https://cybersecuritynews.com/linus-torvalds-on-ai-bug-reports/",
       "date": "2026-05-18T10:40:52Z",
@@ -164,53 +178,74 @@
       "source": "cybersecuritynews.com"
     },
     {
-      "title": "First Shai-Hulud Worm Clones Emerge",
-      "link": "https://www.securityweek.com/first-shai-hulud-worm-clones-emerge/",
-      "date": "2026-05-18T09:45:15Z",
-      "description": "At least one threat actor has adopted the recently released malware source code in attacks against NPM developers. The post First Shai-Hulud Worm Clones Emerge appeared first on SecurityWeek.",
-      "source": "securityweek.com"
+      "title": "Pre-Auth RCE Exposed: Apache HTTP Server Vulnerability and Exploit Code Hit the Public",
+      "link": "https://securityonline.info/apache-http-server-mod-http2-rce-cve-2026-poc/",
+      "date": "2026-05-13T03:52:00Z",
+      "description": "The post Pre-Auth RCE Exposed: Apache HTTP Server Vulnerability and Exploit Code Hit the Public appeared first on Daily CyberSecurity. Related posts: Rclone Critical Vulnerability Alert: Public PoC Released for Administrative Auth Bypass and RCE Millions at Risk: Apache HTTP Server Fixes Critical Remote Code Execution Flaw Apache Tomcat RCE Details and Exploit Code Now Public",
+      "source": "securityonline.info"
     },
     {
-      "title": "CISA Warns of Microsoft Exchange Server Vulnerability Exploited in Attacks",
-      "link": "https://cybersecuritynews.com/cisa-microsoft-exchange-server-vulnerability/",
-      "date": "2026-05-18T08:32:59Z",
-      "description": "CISA has issued a fresh warning about a newly disclosed Microsoft Exchange Server vulnerability that is already being exploited in real-world attacks, raising concerns for organizations relying on on-premises email infrastructure. The flaw CVE-2026-42897 is a cross-site scripting (XSS) vulnerability affecting Microsoft Exchange Server, specifically within Outlook Web Access (OWA). According to…",
-      "source": "cybersecuritynews.com"
+      "title": "Apache Tomcat RCE Details and Exploit Code Now Public",
+      "link": "https://securityonline.info/apache-tomcat-rce-cve-2026-poc-public-disclosure/",
+      "date": "2026-05-12T03:22:16Z",
+      "description": "The post Apache Tomcat RCE Details and Exploit Code Now Public appeared first on Daily CyberSecurity. Related posts: Bypassing the Bouncer: Apache Tomcat Patches SNI & Legacy Protocol Flaws Weaponizing Windows Errors: PoC Dropped for Critical Privilege Escalation Flaw in WER Service Total Takeover Threat: Critical IceWarp Flaws Trigger Emergency Server Patches",
+      "source": "securityonline.info"
     },
     {
       "title": "ZDI-CAN-30747: Microsoft",
       "link": "http://www.zerodayinitiative.com/advisories/upcoming/",
       "date": "2026-05-11T05:00:00Z",
-      "description": "A CVSS score 7.8 AV:L/AC:H/PR:L/UI:N/S:C/C:H/I:H/A:H severity vulnerability discovered by 'Marcin Wiazowski' was reported to the affected vendor on: 2026-05-11, 7 days ago. The vendor is given until 2026-09-08 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
+      "description": "A CVSS score 7.8 AV:L/AC:H/PR:L/UI:N/S:C/C:H/I:H/A:H severity vulnerability discovered by 'Marcin Wiazowski' was reported to the affected vendor on: 2026-05-11, 8 days ago. The vendor is given until 2026-09-08 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
       "source": "zerodayinitiative.com"
     },
     {
       "title": "ZDI-CAN-30743: Microsoft",
       "link": "http://www.zerodayinitiative.com/advisories/upcoming/",
       "date": "2026-05-11T05:00:00Z",
-      "description": "A CVSS score 7.8 AV:L/AC:H/PR:L/UI:N/S:C/C:H/I:H/A:H severity vulnerability discovered by 'Marcin Wiazowski' was reported to the affected vendor on: 2026-05-11, 7 days ago. The vendor is given until 2026-09-08 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
+      "description": "A CVSS score 7.8 AV:L/AC:H/PR:L/UI:N/S:C/C:H/I:H/A:H severity vulnerability discovered by 'Marcin Wiazowski' was reported to the affected vendor on: 2026-05-11, 8 days ago. The vendor is given until 2026-09-08 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
       "source": "zerodayinitiative.com"
     },
     {
       "title": "ZDI-CAN-31212: Microsoft",
       "link": "http://www.zerodayinitiative.com/advisories/upcoming/",
       "date": "2026-05-11T05:00:00Z",
-      "description": "A CVSS score 8.1 AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H severity vulnerability discovered by 'Richard Chen of TrendAI Research' was reported to the affected vendor on: 2026-05-11, 7 days ago. The vendor is given until 2026-09-08 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
+      "description": "A CVSS score 8.1 AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H severity vulnerability discovered by 'Richard Chen of TrendAI Research' was reported to the affected vendor on: 2026-05-11, 8 days ago. The vendor is given until 2026-09-08 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
       "source": "zerodayinitiative.com"
     },
     {
       "title": "ZDI-CAN-30745: Microsoft",
       "link": "http://www.zerodayinitiative.com/advisories/upcoming/",
       "date": "2026-05-11T05:00:00Z",
-      "description": "A CVSS score 7.8 AV:L/AC:H/PR:L/UI:N/S:C/C:H/I:H/A:H severity vulnerability discovered by 'Marcin Wiazowski' was reported to the affected vendor on: 2026-05-11, 7 days ago. The vendor is given until 2026-09-08 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
+      "description": "A CVSS score 7.8 AV:L/AC:H/PR:L/UI:N/S:C/C:H/I:H/A:H severity vulnerability discovered by 'Marcin Wiazowski' was reported to the affected vendor on: 2026-05-11, 8 days ago. The vendor is given until 2026-09-08 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
       "source": "zerodayinitiative.com"
     },
     {
       "title": "ZDI-CAN-30744: Microsoft",
       "link": "http://www.zerodayinitiative.com/advisories/upcoming/",
       "date": "2026-05-11T05:00:00Z",
-      "description": "A CVSS score 7.8 AV:L/AC:H/PR:L/UI:N/S:C/C:H/I:H/A:H severity vulnerability discovered by 'Marcin Wiazowski' was reported to the affected vendor on: 2026-05-11, 7 days ago. The vendor is given until 2026-09-08 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
+      "description": "A CVSS score 7.8 AV:L/AC:H/PR:L/UI:N/S:C/C:H/I:H/A:H severity vulnerability discovered by 'Marcin Wiazowski' was reported to the affected vendor on: 2026-05-11, 8 days ago. The vendor is given until 2026-09-08 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
       "source": "zerodayinitiative.com"
+    },
+    {
+      "title": "Fully Exposed: Public PoC Released for the Adobe PDF Vulnerabilities Exploited in the Wild",
+      "link": "https://securityonline.info/adobe-acrobat-prototype-pollution-poc-exploited-in-the-wild-cve/",
+      "date": "2026-05-04T10:17:34Z",
+      "description": "The post Fully Exposed: Public PoC Released for the Adobe PDF Vulnerabilities Exploited in the Wild appeared first on Daily CyberSecurity. Related posts: CVE-2022-22947: Spring Cloud Gateway Remote Code Execution Vulnerability Alert Android system is also affected by Linux kernel Dirty Pipe flaw, Google is fixing it CVE-2022-28721: RCE Flaw Found In Over 60 HP Printers Models",
+      "source": "securityonline.info"
+    },
+    {
+      "title": "Full Exploit Disclosed: Public PoC and Technical Details Released for Critical ProFTPD SQL Injection",
+      "link": "https://securityonline.info/proftpd-mod-sql-injection-cve-2026-poc-disclosure/",
+      "date": "2026-04-29T04:03:29Z",
+      "description": "The post Full Exploit Disclosed: Public PoC and Technical Details Released for Critical ProFTPD SQL Injection appeared first on Daily CyberSecurity. Related posts: Mitel Patches Critical SQL Injection and Privilege Escalation in MiCollab Microsoft May 2025 Patch Tuesday Fixes 83 Vulnerabilities, Including 5 Exploited in the Wild CVSS 10.0 Flaws in Siemens OZW Web Servers Enable Unauthenticated…",
+      "source": "securityonline.info"
+    },
+    {
+      "title": "Rclone Critical Vulnerability Alert: Public PoC Released for Administrative Auth Bypass and RCE",
+      "link": "https://securityonline.info/rclone-rce-vulnerability-poc-disclosure-cve/",
+      "date": "2026-04-20T13:53:49Z",
+      "description": "The post Rclone Critical Vulnerability Alert: Public PoC Released for Administrative Auth Bypass and RCE appeared first on Daily CyberSecurity. Related posts: Race Condition in Windows Remote Desktop Gateway Enables RCE – PoC Demonstrates Exploitability PoC Reveals Apple Audio Zero-Day Enabling Remote Code Execution via Malicious Media Files D-Link Router Flaws Allow Code Execution, PoC…",
+      "source": "securityonline.info"
     },
     {
       "title": "Student Loan Breach Exposes 2.5M Records",
