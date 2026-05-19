@@ -1,7 +1,56 @@
 {
-  "last_updated": "2026-05-19T06:39:09Z",
+  "last_updated": "2026-05-19T10:30:59Z",
   "count": 40,
   "items": [
+    {
+      "title": "Critical SEPPmail Gateway Flaws Allow Remote Code Execution and Mail Traffic Theft",
+      "link": "https://cybersecuritynews.com/seppmail-gateway-flaws/",
+      "date": "2026-05-19T10:29:00Z",
+      "description": "Critical vulnerabilities in the SEPPmail Secure Email Gateway have exposed organizations to remote code execution (RCE) and potential interception of sensitive email traffic. Researchers uncovered several high-impact flaws affecting SEPPmail appliances, widely deployed across the DACH region. The most severe issues include: These vulnerabilities affect versions before the patched releases in the…",
+      "source": "cybersecuritynews.com"
+    },
+    {
+      "title": "PoC Released for DirtyDecrypt Linux Kernel Vulnerability",
+      "link": "https://www.securityweek.com/poc-released-for-dirtydecrypt-linux-kernel-vulnerability/",
+      "date": "2026-05-19T09:42:56Z",
+      "description": "Patched in April, the underlying vulnerability allows local attackers to elevate their privileges to root. The post PoC Released for DirtyDecrypt Linux Kernel Vulnerability appeared first on SecurityWeek.",
+      "source": "securityweek.com"
+    },
+    {
+      "title": "SEPPMail Secure E-Mail Gateway Vulnerabilities Enable RCE and Mail Traffic Access",
+      "link": "https://thehackernews.com/2026/05/seppmail-secure-e-mail-gateway.html",
+      "date": "2026-05-19T09:23:15Z",
+      "description": "Critical security vulnerabilities have been disclosed in SEPPMail Secure E-Mail Gateway, an enterprise-grade email security solution, that could be exploited to achieve remote code execution and enable an attacker to read arbitrary mails from the virtual appliance. \"These vulnerabilities could have been exploited to read all mail traffic or as an entry vector into the internal network,\"",
+      "source": "thehackernews.com"
+    },
+    {
+      "title": "Hackers Compromise @antv Packages in Mini Shai-Hulud npm Attack Wave",
+      "link": "https://cybersecuritynews.com/hackers-compromise-antv-packages/",
+      "date": "2026-05-19T09:07:43Z",
+      "description": "A sweeping supply chain attack has hit the npm ecosystem, compromising hundreds of widely used JavaScript packages tied to the @antv data visualization library. The attack, which unfolded in the early hours of May 19, 2026, injected malicious code into packages used by millions of developers worldwide. Among the affected packages is echarts-for-react, a popular […] The post Hackers Compromise…",
+      "source": "cybersecuritynews.com"
+    },
+    {
+      "title": "CISA Admin Exposes AWS GovCloud Credentials on Public GitHub Repository",
+      "link": "https://cybersecuritynews.com/cisa-admin-exposes-aws-govcloud-credentials/",
+      "date": "2026-05-19T08:39:49Z",
+      "description": "A major security lapse has exposed highly sensitive U.S. government cloud credentials after a contractor working with the Cybersecurity and Infrastructure Security Agency (CISA) accidentally published them in a public GitHub repository. The repository, named “Private-CISA,” remained publicly accessible until mid-May 2026 and contained a wide range of sensitive data, including AWS GovCloud…",
+      "source": "cybersecuritynews.com"
+    },
+    {
+      "title": "Compromised Nx Console 18.95.0 Targeted VS Code Developers with Credential Stealer",
+      "link": "https://thehackernews.com/2026/05/compromised-nx-console-18950-targeted.html",
+      "date": "2026-05-19T07:49:23Z",
+      "description": "Cybersecurity researchers have flagged a compromised version of the Nx Console extension that was published to the Microsoft Visual Studio Code (VS Code) Marketplace. The extension in question is rwl.angular-console (version 18.95.0), a popular user interface and plugin for code editors like VS Code, Cursor, and JetBrains. The VS Code extension has more than 2.2 million installations. The Open",
+      "source": "thehackernews.com"
+    },
+    {
+      "title": "Hackers Abuse Microsoft Entra ID Accounts to Exfiltrate Microsoft 365 and Azure Data",
+      "link": "https://cybersecuritynews.com/hackers-abuse-microsoft-entra-id-accounts/",
+      "date": "2026-05-19T06:59:09Z",
+      "description": "A threat actor known as Storm-2949 has launched a sophisticated, multi-layered cloud attack campaign targeting Microsoft Entra ID accounts to steal sensitive data from Microsoft 365 and Azure environments. The campaign was recently uncovered and has raised serious concerns about how modern attackers can abuse legitimate cloud features to carry out large-scale data theft across […] The post…",
+      "source": "cybersecuritynews.com"
+    },
     {
       "title": "Critical Vulnerability Exposes Industrial Robot Fleets to Hacking",
       "link": "https://www.securityweek.com/critical-vulnerability-exposes-industrial-robot-fleets-to-hacking/",
@@ -10,7 +59,7 @@
       "source": "securityweek.com"
     },
     {
-      "title": "GitHub Actions Supply Chain Attack Redirects Tags to Steal CI/CD Credentials",
+      "title": "Popular GitHub Action Tags Redirected to Imposter Commit to Steal CI/CD Credentials",
       "link": "https://thehackernews.com/2026/05/github-actions-supply-chain-attack.html",
       "date": "2026-05-19T05:28:06Z",
       "description": "In yet another software supply chain attack, threat actors have compromised the popular GitHub Actions workflow, actions-cool/issues-helper, to run malicious code that harvests sensitive credentials and exfiltrates them to an attacker-controlled server. \"Every existing tag in the repository has been moved to point to an imposter commit that does not appear in the action's normal commit history,",
@@ -87,13 +136,6 @@
       "source": "thehackernews.com"
     },
     {
-      "title": "Hackers Actively Exploiting Critical NGINX RCE Vulnerability in the Wild",
-      "link": "https://cybersecuritynews.com/hackers-exploiting-nginx-rce-vulnerability/",
-      "date": "2026-05-18T16:43:40Z",
-      "description": "Hackers are wasting no time exploiting a newly disclosed critical vulnerability in NGINX, with security researchers already observing real-world attacks just days after its public release. Security researcher Patrick Garrity from VulnCheck revealed that threat actors are actively targeting CVE-2026-42945, a heap buffer overflow flaw affecting both NGINX Open Source and NGINX Plus. The…",
-      "source": "cybersecuritynews.com"
-    },
-    {
       "title": "Fuel Tank Breaches Expand Scope of Iran's Cyber Offensive",
       "link": "https://www.darkreading.com/cyberattacks-data-breaches/fuel-tank-breaches-expand-scope-irans-cyber-offensive",
       "date": "2026-05-18T15:41:55Z",
@@ -101,32 +143,11 @@
       "source": "darkreading.com"
     },
     {
-      "title": "Critical n8n Vulnerabilities Expose Automation Nodes to Full RCE",
-      "link": "https://cybersecuritynews.com/n8n-rce-vulnerabilities/",
-      "date": "2026-05-18T14:38:51Z",
-      "description": "A fresh set of critical vulnerabilities in the popular workflow automation platform n8n is raising serious security concerns, as researchers warn that attackers could chain multiple flaws to achieve full remote code execution (RCE) on affected systems. The vulnerabilities, disclosed via GitHub Security Advisories and tracked as CVE-2026-44789, CVE-2026-44790, and CVE-2026-44791, impact multiple…",
-      "source": "cybersecuritynews.com"
-    },
-    {
-      "title": "⚡ Weekly Recap: Exchange 0-Day, npm Worm, Fake AI Repo, Cisco Exploit and More",
-      "link": "https://thehackernews.com/2026/05/weekly-recap-exchange-0-day-npm-worm.html",
-      "date": "2026-05-18T13:50:17Z",
-      "description": "Monday opens with a trust problem. A mail server flaw is under active use. A network control system was targeted. Trusted packages were poisoned. A fake model page pushed a stealer. Then came the familiar ransom claim: the data was returned and deleted. The pattern is clear. One weak dependency can leak keys. One leaked key can open cloud access. One cloud foothold can become a production",
-      "source": "thehackernews.com"
-    },
-    {
       "title": "Grafana says stolen GitHub token let hackers steal codebase",
       "link": "https://www.bleepingcomputer.com/news/security/grafana-says-stolen-github-token-let-hackers-steal-codebase/",
       "date": "2026-05-18T13:46:26Z",
       "description": "Grafana Labs disclosed that hackers have downloaded its source code after breaching its GitHub environment using a stolen access token. [...]",
       "source": "bleepingcomputer.com"
-    },
-    {
-      "title": "How to Reduce Phishing Exposure Before It Turns into Business Disruption",
-      "link": "https://thehackernews.com/2026/05/how-to-reduce-phishing-exposure-before.html",
-      "date": "2026-05-18T13:00:00Z",
-      "description": "What happens when a phishing email looks clean enough to pass through security, but dangerous enough to expose the business after one click? That is the gap many SOCs still struggle with: the attacks that leave teams unsure what was exposed, who else was targeted, and how far the risk has spread. Early phishing detection closes that gap. It helps teams move from uncertainty to evidence faster,",
-      "source": "thehackernews.com"
     },
     {
       "title": "The Boring Stuff Is Dangerous Now",
@@ -155,27 +176,6 @@
       "date": "2026-05-18T11:25:54Z",
       "description": "The hackers claimed to have stolen more than 600,000 Salesforce records, including personal information and corporate data. The post 7-Eleven Data Breach Confirmed After ShinyHunters Ransom Demand appeared first on SecurityWeek.",
       "source": "securityweek.com"
-    },
-    {
-      "title": "Linus Torvalds Says AI Bug Reports Have Made Linux Security Mailing List Unmanageable",
-      "link": "https://cybersecuritynews.com/linus-torvalds-on-ai-bug-reports/",
-      "date": "2026-05-18T10:40:52Z",
-      "description": "Linus Torvalds has warned that a “continued flood” of AI‑generated bug reports is making the Linux security mailing list “almost entirely unmanageable.” The project is now tightening rules on how AI‑found issues should be reported and handled. In the Linux 7.1‑rc4 announcement, Torvalds noted that the security list is being overwhelmed by AI‑assisted reports, many of […] The post Linus Torvalds…",
-      "source": "cybersecuritynews.com"
-    },
-    {
-      "title": "Researcher Drops MiniPlasma Windows Exploit for Unpatched 2020 CVE",
-      "link": "https://www.securityweek.com/researcher-drops-miniplasma-windows-exploit-for-unpatched-2020-cve/",
-      "date": "2026-05-18T10:38:22Z",
-      "description": "The researcher dropped the MiniPlasma exploit that uses the original proof-of-concept (PoC) code targeting the bug. The post Researcher Drops MiniPlasma Windows Exploit for Unpatched 2020 CVE appeared first on SecurityWeek.",
-      "source": "securityweek.com"
-    },
-    {
-      "title": "Four Malicious npm Packages Steal SSH Keys, Cloud Credentials, and Crypto Wallets",
-      "link": "https://cybersecuritynews.com/malicious-npm-packages-steal-keys/",
-      "date": "2026-05-18T09:57:43Z",
-      "description": "Four malicious npm packages capable of stealing SSH keys, cloud credentials, cryptocurrency wallets, and environment variables, while one variant quietly transforms infected machines into a DDoS botnet. The campaign appears to be the work of a single threat actor deploying multiple infostealer variants simultaneously through a coordinated typosquatting operation targeting Axios users. The four…",
-      "source": "cybersecuritynews.com"
     },
     {
       "title": "Pre-Auth RCE Exposed: Apache HTTP Server Vulnerability and Exploit Code Hit the Public",
