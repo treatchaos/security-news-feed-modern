@@ -1,7 +1,77 @@
 {
   "date": "2026-05-20",
-  "count": 2,
+  "count": 10,
   "items": [
+    {
+      "id": "3850f4098ceb1a7aa3e8d0319148ebfdc2fcf8f7",
+      "title": "Grafana GitHub Breach Exposes Source Code via TanStack npm Attack",
+      "link": "https://thehackernews.com/2026/05/grafana-github-breach-exposes-source.html",
+      "date": "2026-05-20T05:12:06Z",
+      "description": "Grafana Labs, on May 19, 2026, said an investigation into its recent breach found no evidence of customer production systems or operations being compromised. It said the scope of the incident is limited to the Grafana Labs GitHub environment, which includes public and private source code along with internal GitHub repositories. \"After the initial assessment, we found that in addition to source",
+      "source": "thehackernews.com",
+      "first_seen": "2026-05-20T06:39:02Z",
+      "last_seen": "2026-05-20T06:39:02Z"
+    },
+    {
+      "id": "cdea6a1b5ff389e33b83d059125288ae5716fe52",
+      "title": "GitHub investigates internal repositories breach claimed by TeamPCP",
+      "link": "https://www.bleepingcomputer.com/news/security/github-investigates-internal-repositories-breach-claimed-by-teampcp/",
+      "date": "2026-05-20T05:08:42Z",
+      "description": "GitHub is investigating a breach of its internal repositories after the TeamPCP hacker group claimed to have accessed approximately 4,000 repositories containing private code. [...]",
+      "source": "bleepingcomputer.com",
+      "first_seen": "2026-05-20T06:39:02Z",
+      "last_seen": "2026-05-20T06:39:02Z"
+    },
+    {
+      "id": "aac410eaa2db11b2d045a32846b8012b09fa04c5",
+      "title": "GitHub Hacked – Internal Source Code Repositories Compromised via Employee Device",
+      "link": "https://cybersecuritynews.com/github-data-breach/",
+      "date": "2026-05-20T04:47:29Z",
+      "description": "GitHub has confirmed unauthorized access to its internal repositories after detecting a compromised employee device infected through a malicious Visual Studio Code extension, the company disclosed in a series of official statements on May 20, 2026. The Microsoft-owned code hosting platform said it identified and contained the breach after a poisoned VS Code extension was […] The post GitHub…",
+      "source": "cybersecuritynews.com",
+      "first_seen": "2026-05-20T06:39:02Z",
+      "last_seen": "2026-05-20T06:39:02Z"
+    },
+    {
+      "id": "cd89f918beb142e5a8cbe4ce79950d029af5d3ed",
+      "title": "PoC Exploit Released for 20-Year Old PostgreSQL RCE Vulnerability",
+      "link": "https://cybersecuritynews.com/20-year-old-postgresql-vulnerability/",
+      "date": "2026-05-20T04:26:14Z",
+      "description": "A proof-of-concept (PoC) exploit has been publicly released for CVE-2026-2005, a critical remote code execution (RCE) vulnerability affecting PostgreSQL’s pgcrypto extension. The flaw, rooted in legacy code dating back nearly two decades, highlights the long-standing risks associated with memory handling issues in widely deployed database systems. The vulnerability exists in the PGP session key…",
+      "source": "cybersecuritynews.com",
+      "first_seen": "2026-05-20T06:39:02Z",
+      "last_seen": "2026-05-20T06:39:02Z"
+    },
+    {
+      "id": "c8df9e58adadb32fe5b53740a3d288737dc89e0e",
+      "title": "GitHub Investigating TeamPCP Claimed Breach of ~4,000 Internal Repositories",
+      "link": "https://thehackernews.com/2026/05/github-investigating-teampcp-claimed.html",
+      "date": "2026-05-20T04:01:15Z",
+      "description": "GitHub on Tuesday said it's investigating unauthorized access to its internal repositories after the notorious threat actor known as TeamPCP listed the platform's source code and internal organizations for sale on a cybercrime forum. \"While we currently have no evidence of impact to customer information stored outside of GitHub's internal repositories (such as our customers' enterprises,",
+      "source": "thehackernews.com",
+      "first_seen": "2026-05-20T06:39:02Z",
+      "last_seen": "2026-05-20T06:39:02Z"
+    },
+    {
+      "id": "35757d7bbfa6bdbf2abdd50ca24872c31b06ab72",
+      "title": "ShinyHunters Claims Credit for Cyber-Attack on Online Learning Management System",
+      "link": "https://cybersecuritynews.com/shinyhunters-claims-credit-online-lms/",
+      "date": "2026-05-20T03:51:20Z",
+      "description": "A recent cyberattack targeting an online Learning Management System (LMS) has been attributed to the notorious cybercriminal group ShinyHunters. The incident caused widespread service disruptions affecting educational institutions and students across the United States, although the platform has since been restored. The attack temporarily disrupted access to critical academic resources hosted on…",
+      "source": "cybersecuritynews.com",
+      "first_seen": "2026-05-20T06:39:02Z",
+      "last_seen": "2026-05-20T06:39:02Z"
+    },
+    {
+      "id": "73f47c717de6b035f9eb5f8a7f8faf5575d6f731",
+      "title": "GitHub Source Code Breach – TeamPCP Claims Access to Internal Source Code",
+      "link": "https://cybersecuritynews.com/github-source-code-breach/",
+      "date": "2026-05-20T02:39:50Z",
+      "description": "A notorious threat actor operating under the alias TeamPCP claims to have breached GitHub’s internal systems, allegedly exfiltrating proprietary organization data and source code. The attackers are offering the stolen dataset for sale on underground cybercrime forums, demanding offers exceeding $50,000. According to the threat actor’s post, the compromised data encompasses approximately 4,000…",
+      "source": "cybersecuritynews.com",
+      "first_seen": "2026-05-20T06:39:02Z",
+      "last_seen": "2026-05-20T06:39:02Z"
+    },
     {
       "id": "a812c8e9620c984b805b6c340df0adc465e11535",
       "title": "Details and PoC Exploit Code Released: Critical Cockpit RCE Flaw Grants Instant Root Shells",
@@ -10,7 +80,7 @@
       "description": "The post Details and PoC Exploit Code Released: Critical Cockpit RCE Flaw Grants Instant Root Shells appeared first on Daily CyberSecurity. Related posts: Vim Under Fire: High-Severity “Tabpanel” Bug Allows RCE via Simple File Open Exploit Code Live: Full Technical Details and PoC Disclosed for Critical CWP RCE Vulnerability Supply Chain Alert: Critical 9.4 CVSS RCE Hits Sonatype Nexus…",
       "source": "securityonline.info",
       "first_seen": "2026-05-20T02:09:44Z",
-      "last_seen": "2026-05-20T02:09:44Z"
+      "last_seen": "2026-05-20T06:39:02Z"
     },
     {
       "id": "bb1144ad19d375b6b36638912eadad31282b599a",
@@ -20,7 +90,17 @@
       "description": "Verizon’s 2026 DBIR finds vulnerability exploitation has overtaken credential abuse as the leading breach vector, as AI accelerates attacks, patching delays worsen, and ransomware and third-party compromises continue to surge. The post Verizon DBIR 2026: Vulnerability Exploitation Overtakes Credential Theft as Top Breach Vector appeared first on SecurityWeek.",
       "source": "securityweek.com",
       "first_seen": "2026-05-20T02:09:44Z",
-      "last_seen": "2026-05-20T02:09:44Z"
+      "last_seen": "2026-05-20T06:39:02Z"
+    },
+    {
+      "id": "10aab90c463d20b880bc08325ee299b38189c735",
+      "title": "What Will Make AI BOMs Real?",
+      "link": "https://www.darkreading.com/cybersecurity-analytics/what-make-ai-bom-real",
+      "date": "2026-05-19T22:17:55Z",
+      "description": "A brief overview of the forces at play that will get more organizations on board with creating and consuming AI bill of materials (BOMs).",
+      "source": "darkreading.com",
+      "first_seen": "2026-05-20T06:39:02Z",
+      "last_seen": "2026-05-20T06:39:02Z"
     }
   ]
 }

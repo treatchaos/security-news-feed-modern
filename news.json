@@ -1,7 +1,56 @@
 {
-  "last_updated": "2026-05-20T02:09:44Z",
-  "count": 35,
+  "last_updated": "2026-05-20T06:39:02Z",
+  "count": 40,
   "items": [
+    {
+      "title": "Grafana GitHub Breach Exposes Source Code via TanStack npm Attack",
+      "link": "https://thehackernews.com/2026/05/grafana-github-breach-exposes-source.html",
+      "date": "2026-05-20T05:12:06Z",
+      "description": "Grafana Labs, on May 19, 2026, said an investigation into its recent breach found no evidence of customer production systems or operations being compromised. It said the scope of the incident is limited to the Grafana Labs GitHub environment, which includes public and private source code along with internal GitHub repositories. \"After the initial assessment, we found that in addition to source",
+      "source": "thehackernews.com"
+    },
+    {
+      "title": "GitHub investigates internal repositories breach claimed by TeamPCP",
+      "link": "https://www.bleepingcomputer.com/news/security/github-investigates-internal-repositories-breach-claimed-by-teampcp/",
+      "date": "2026-05-20T05:08:42Z",
+      "description": "GitHub is investigating a breach of its internal repositories after the TeamPCP hacker group claimed to have accessed approximately 4,000 repositories containing private code. [...]",
+      "source": "bleepingcomputer.com"
+    },
+    {
+      "title": "GitHub Hacked – Internal Source Code Repositories Compromised via Employee Device",
+      "link": "https://cybersecuritynews.com/github-data-breach/",
+      "date": "2026-05-20T04:47:29Z",
+      "description": "GitHub has confirmed unauthorized access to its internal repositories after detecting a compromised employee device infected through a malicious Visual Studio Code extension, the company disclosed in a series of official statements on May 20, 2026. The Microsoft-owned code hosting platform said it identified and contained the breach after a poisoned VS Code extension was […] The post GitHub…",
+      "source": "cybersecuritynews.com"
+    },
+    {
+      "title": "PoC Exploit Released for 20-Year Old PostgreSQL RCE Vulnerability",
+      "link": "https://cybersecuritynews.com/20-year-old-postgresql-vulnerability/",
+      "date": "2026-05-20T04:26:14Z",
+      "description": "A proof-of-concept (PoC) exploit has been publicly released for CVE-2026-2005, a critical remote code execution (RCE) vulnerability affecting PostgreSQL’s pgcrypto extension. The flaw, rooted in legacy code dating back nearly two decades, highlights the long-standing risks associated with memory handling issues in widely deployed database systems. The vulnerability exists in the PGP session key…",
+      "source": "cybersecuritynews.com"
+    },
+    {
+      "title": "GitHub Investigating TeamPCP Claimed Breach of ~4,000 Internal Repositories",
+      "link": "https://thehackernews.com/2026/05/github-investigating-teampcp-claimed.html",
+      "date": "2026-05-20T04:01:15Z",
+      "description": "GitHub on Tuesday said it's investigating unauthorized access to its internal repositories after the notorious threat actor known as TeamPCP listed the platform's source code and internal organizations for sale on a cybercrime forum. \"While we currently have no evidence of impact to customer information stored outside of GitHub's internal repositories (such as our customers' enterprises,",
+      "source": "thehackernews.com"
+    },
+    {
+      "title": "ShinyHunters Claims Credit for Cyber-Attack on Online Learning Management System",
+      "link": "https://cybersecuritynews.com/shinyhunters-claims-credit-online-lms/",
+      "date": "2026-05-20T03:51:20Z",
+      "description": "A recent cyberattack targeting an online Learning Management System (LMS) has been attributed to the notorious cybercriminal group ShinyHunters. The incident caused widespread service disruptions affecting educational institutions and students across the United States, although the platform has since been restored. The attack temporarily disrupted access to critical academic resources hosted on…",
+      "source": "cybersecuritynews.com"
+    },
+    {
+      "title": "GitHub Source Code Breach – TeamPCP Claims Access to Internal Source Code",
+      "link": "https://cybersecuritynews.com/github-source-code-breach/",
+      "date": "2026-05-20T02:39:50Z",
+      "description": "A notorious threat actor operating under the alias TeamPCP claims to have breached GitHub’s internal systems, allegedly exfiltrating proprietary organization data and source code. The attackers are offering the stolen dataset for sale on underground cybercrime forums, demanding offers exceeding $50,000. According to the threat actor’s post, the compromised data encompasses approximately 4,000…",
+      "source": "cybersecuritynews.com"
+    },
     {
       "title": "Details and PoC Exploit Code Released: Critical Cockpit RCE Flaw Grants Instant Root Shells",
       "link": "https://securityonline.info/cockpit-linux-rce-vulnerability-cve-2026-4802-poc-disclosed/",
@@ -22,6 +71,20 @@
       "date": "2026-05-19T22:25:49Z",
       "description": "A max-severity vulnerability in the latest Python FastAPI version of the ChromaDB project allows unauthenticated attackers to run arbitrary code on exposed servers. [...]",
       "source": "bleepingcomputer.com"
+    },
+    {
+      "title": "What Will Make AI BOMs Real?",
+      "link": "https://www.darkreading.com/cybersecurity-analytics/what-make-ai-bom-real",
+      "date": "2026-05-19T22:17:55Z",
+      "description": "A brief overview of the forces at play that will get more organizations on board with creating and consuming AI bill of materials (BOMs).",
+      "source": "darkreading.com"
+    },
+    {
+      "title": "UAC-0184 Malware Chain Uses bitsadmin and HTA Files for Gated Payload Delivery",
+      "link": "https://cybersecuritynews.com/uac-0184-malware-chain-uses-bitsadmin/",
+      "date": "2026-05-19T22:07:50Z",
+      "description": "A newly documented attack chain linked to the threat group UAC-0184 has been observed using Windows’ built-in bitsadmin tool and HTA files to sneak malicious payloads onto targeted systems. The campaign is primarily aimed at Ukraine, with clear indicators pointing toward military-related targets, including individuals connected to the Ukrainian Defence Forces. The level of craft […] The post…",
+      "source": "cybersecuritynews.com"
     },
     {
       "title": "Verizon DBIR: Enterprises Face a Dangerous Vulnerability Glut",
@@ -73,13 +136,6 @@
       "source": "bleepingcomputer.com"
     },
     {
-      "title": "Microsoft Self-Service Password Reset abused in Azure data theft attacks",
-      "link": "https://www.bleepingcomputer.com/news/security/microsoft-self-service-password-reset-abused-in-azure-data-theft-attacks/",
-      "date": "2026-05-19T19:35:32Z",
-      "description": "A threat actor targeting Microsoft 365 and Azure production environments is stealing data in attacks that abuse legitimate applications and administration features. [...]",
-      "source": "bleepingcomputer.com"
-    },
-    {
       "title": "Trapdoor Android Ad Fraud Scheme Hit 659 Million Daily Bid Requests Using 455 Apps",
       "link": "https://thehackernews.com/2026/05/trapdoor-android-ad-fraud-scheme-hit.html",
       "date": "2026-05-19T16:38:12Z",
@@ -108,13 +164,6 @@
       "source": "thehackernews.com"
     },
     {
-      "title": "Looking Back, Looking Forward: Digesting a Dynamic Bouillabaisse of Cyber Evolution",
-      "link": "https://www.darkreading.com/cybersecurity-operations/looking-back-looking-forward-bouillabaisse-cyber-evolution",
-      "date": "2026-05-19T13:28:43Z",
-      "description": "Dark Reading editors reflect on two decades of dramatic change — from perimeter defense to assume-breach strategies — and warn that while AI, cloud, and COVID-19 have transformed the threat landscape, organizations are still failing at fundamental security hygiene that could stop sophisticated attacks in their tracks.",
-      "source": "darkreading.com"
-    },
-    {
       "title": "Legacy Windows Tool MSHTA Fuels Surge in Silent Malware Attacks",
       "link": "https://www.securityweek.com/legacy-windows-tool-mshta-fuels-surge-in-silent-malware-attacks/",
       "date": "2026-05-19T13:00:00Z",
@@ -136,20 +185,6 @@
       "source": "thehackernews.com"
     },
     {
-      "title": "Drupal to Release Urgent Core Security Updates on May 20, Sites Told to Prepare",
-      "link": "https://thehackernews.com/2026/05/drupal-to-release-urgent-core-security.html",
-      "date": "2026-05-19T10:44:45Z",
-      "description": "Drupal has issued an alert stating that it intends to release a \"core security release\" for all supported branches on May 20, 2026, from 5-9 p.m. UTC. \"The Drupal Security Team urges you to reserve time for core updates at that time because exploits might be developed within hours or days,\" the maintainers of the PHP-based content management system (CMS) said. \"Not all configurations are",
-      "source": "thehackernews.com"
-    },
-    {
-      "title": "SEPPMail Secure E-Mail Gateway Vulnerabilities Enable RCE and Mail Traffic Access",
-      "link": "https://thehackernews.com/2026/05/seppmail-secure-e-mail-gateway.html",
-      "date": "2026-05-19T09:23:15Z",
-      "description": "Critical security vulnerabilities have been disclosed in SEPPMail Secure E-Mail Gateway, an enterprise-grade email security solution, that could be exploited to achieve remote code execution and enable an attacker to read arbitrary mails from the virtual appliance. \"These vulnerabilities could have been exploited to read all mail traffic or as an entry vector into the internal network,\"",
-      "source": "thehackernews.com"
-    },
-    {
       "title": "Pre-Auth RCE Exposed: Apache HTTP Server Vulnerability and Exploit Code Hit the Public",
       "link": "https://securityonline.info/apache-http-server-mod-http2-rce-cve-2026-poc/",
       "date": "2026-05-13T03:52:00Z",
@@ -167,35 +202,35 @@
       "title": "ZDI-CAN-30747: Microsoft",
       "link": "http://www.zerodayinitiative.com/advisories/upcoming/",
       "date": "2026-05-11T05:00:00Z",
-      "description": "A CVSS score 7.8 AV:L/AC:H/PR:L/UI:N/S:C/C:H/I:H/A:H severity vulnerability discovered by 'Marcin Wiazowski' was reported to the affected vendor on: 2026-05-11, 8 days ago. The vendor is given until 2026-09-08 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
+      "description": "A CVSS score 7.8 AV:L/AC:H/PR:L/UI:N/S:C/C:H/I:H/A:H severity vulnerability discovered by 'Marcin Wiazowski' was reported to the affected vendor on: 2026-05-11, 9 days ago. The vendor is given until 2026-09-08 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
       "source": "zerodayinitiative.com"
     },
     {
       "title": "ZDI-CAN-30743: Microsoft",
       "link": "http://www.zerodayinitiative.com/advisories/upcoming/",
       "date": "2026-05-11T05:00:00Z",
-      "description": "A CVSS score 7.8 AV:L/AC:H/PR:L/UI:N/S:C/C:H/I:H/A:H severity vulnerability discovered by 'Marcin Wiazowski' was reported to the affected vendor on: 2026-05-11, 8 days ago. The vendor is given until 2026-09-08 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
+      "description": "A CVSS score 7.8 AV:L/AC:H/PR:L/UI:N/S:C/C:H/I:H/A:H severity vulnerability discovered by 'Marcin Wiazowski' was reported to the affected vendor on: 2026-05-11, 9 days ago. The vendor is given until 2026-09-08 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
       "source": "zerodayinitiative.com"
     },
     {
       "title": "ZDI-CAN-31212: Microsoft",
       "link": "http://www.zerodayinitiative.com/advisories/upcoming/",
       "date": "2026-05-11T05:00:00Z",
-      "description": "A CVSS score 8.1 AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H severity vulnerability discovered by 'Richard Chen of TrendAI Research' was reported to the affected vendor on: 2026-05-11, 8 days ago. The vendor is given until 2026-09-08 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
+      "description": "A CVSS score 8.1 AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H severity vulnerability discovered by 'Richard Chen of TrendAI Research' was reported to the affected vendor on: 2026-05-11, 9 days ago. The vendor is given until 2026-09-08 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
       "source": "zerodayinitiative.com"
     },
     {
       "title": "ZDI-CAN-30745: Microsoft",
       "link": "http://www.zerodayinitiative.com/advisories/upcoming/",
       "date": "2026-05-11T05:00:00Z",
-      "description": "A CVSS score 7.8 AV:L/AC:H/PR:L/UI:N/S:C/C:H/I:H/A:H severity vulnerability discovered by 'Marcin Wiazowski' was reported to the affected vendor on: 2026-05-11, 8 days ago. The vendor is given until 2026-09-08 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
+      "description": "A CVSS score 7.8 AV:L/AC:H/PR:L/UI:N/S:C/C:H/I:H/A:H severity vulnerability discovered by 'Marcin Wiazowski' was reported to the affected vendor on: 2026-05-11, 9 days ago. The vendor is given until 2026-09-08 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
       "source": "zerodayinitiative.com"
     },
     {
       "title": "ZDI-CAN-30744: Microsoft",
       "link": "http://www.zerodayinitiative.com/advisories/upcoming/",
       "date": "2026-05-11T05:00:00Z",
-      "description": "A CVSS score 7.8 AV:L/AC:H/PR:L/UI:N/S:C/C:H/I:H/A:H severity vulnerability discovered by 'Marcin Wiazowski' was reported to the affected vendor on: 2026-05-11, 8 days ago. The vendor is given until 2026-09-08 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
+      "description": "A CVSS score 7.8 AV:L/AC:H/PR:L/UI:N/S:C/C:H/I:H/A:H severity vulnerability discovered by 'Marcin Wiazowski' was reported to the affected vendor on: 2026-05-11, 9 days ago. The vendor is given until 2026-09-08 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
       "source": "zerodayinitiative.com"
     },
     {
