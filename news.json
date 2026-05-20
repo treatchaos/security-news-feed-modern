@@ -1,7 +1,105 @@
 {
-  "last_updated": "2026-05-20T13:29:25Z",
+  "last_updated": "2026-05-20T16:45:15Z",
   "count": 40,
   "items": [
+    {
+      "title": "Infosecurity Europe",
+      "link": "https://www.darkreading.com/events/infosecurity-europe",
+      "date": "2026-06-02T13:30:00Z",
+      "description": "",
+      "source": "darkreading.com"
+    },
+    {
+      "title": "How to Close the Most Expensive Gap in Your SOC",
+      "link": "https://cybersecuritynews.com/how-to-close-the-most-expensive-gap-in-your-soc/",
+      "date": "2026-05-20T16:44:35Z",
+      "description": "There is a quiet gap inside many SOCs. It sits between the moment Tier 1 says “this should be escalated” and the moment the response team can actually act on it. Too often, the alert moves forward, but the context does not. So, the response team has to rebuild the case, filter out false positives, confirm the behavior, and decide what […] The post How to Close the Most Expensive Gap in Your SOC…",
+      "source": "cybersecuritynews.com"
+    },
+    {
+      "title": "Patch Now: Critical Flaw in OT Robot OS Gives Attackers Control",
+      "link": "https://www.darkreading.com/ics-ot-security/patch-now-critical-flaw-ot-robot-os",
+      "date": "2026-05-20T16:12:08Z",
+      "description": "An unauthenticated attacker can exploit the command injection vulnerability to gain remote access to robotic systems, causing significant disruption to the environment.",
+      "source": "darkreading.com"
+    },
+    {
+      "title": "Grafana breach caused by missed token rotation after TanStack attack",
+      "link": "https://www.bleepingcomputer.com/news/security/grafana-breach-caused-by-missed-token-rotation-after-tanstack-attack/",
+      "date": "2026-05-20T15:46:37Z",
+      "description": "The Grafana data breach was caused by a single GitHub workflow token that slipped through the rotation process following the TanStack npm supply-chain attack last week. [...]",
+      "source": "bleepingcomputer.com"
+    },
+    {
+      "title": "Quantum Bridge Raises $8 Million for Quantum-Safe Key Distribution Solution",
+      "link": "https://www.securityweek.com/quantum-bridge-raises-8-million-for-quantum-safe-key-distribution-solution/",
+      "date": "2026-05-20T15:45:07Z",
+      "description": "The new Series A funding round brings the total raised by Quantum Bridge to $16 million. The post Quantum Bridge Raises $8 Million for Quantum-Safe Key Distribution Solution appeared first on SecurityWeek.",
+      "source": "securityweek.com"
+    },
+    {
+      "title": "Microsoft Rolls Out Mitigations for ‘YellowKey’ BitLocker Bypass",
+      "link": "https://www.securityweek.com/microsoft-rolls-out-mitigations-for-yellowkey-bitlocker-bypass/",
+      "date": "2026-05-20T15:39:00Z",
+      "description": "The exploitation is mitigated by preventing the FsTx Auto Recovery Utility from starting when the WinRE image launches. The post Microsoft Rolls Out Mitigations for ‘YellowKey’ BitLocker Bypass appeared first on SecurityWeek.",
+      "source": "securityweek.com"
+    },
+    {
+      "title": "AI-Powered App Attacks Are Faster, More Frequent and Harder to Stop",
+      "link": "https://www.securityweek.com/ai-powered-app-attacks-are-faster-more-frequent-and-harder-to-stop/",
+      "date": "2026-05-20T14:37:36Z",
+      "description": "Digital.ai’s latest threat report warns that agentic AI has erased the distinction between emerging and primary targets, enabling attackers to strike mobile apps within hours of release across every industry. The post AI-Powered App Attacks Are Faster, More Frequent and Harder to Stop appeared first on SecurityWeek.",
+      "source": "securityweek.com"
+    },
+    {
+      "title": "Microsoft Takes Down Malware-Signing Service Behind Ransomware Attacks",
+      "link": "https://thehackernews.com/2026/05/microsoft-takes-down-malware-signing.html",
+      "date": "2026-05-20T14:36:44Z",
+      "description": "Microsoft on Tuesday said it disrupted a malware-signing-as-a-service (MSaaS) operation that weaponized the company's Artifact Signing system to deliver malicious code and conduct ransomware and other attacks, compromising thousands of machines and networks across the world. The tech giant attributed the activity to a threat actor it calls Fox Tempest, which it said offered the MSaaS scheme",
+      "source": "thehackernews.com"
+    },
+    {
+      "title": "Grafana GitHub Breach Linked to TanStack npm Supply Chain Ransomware",
+      "link": "https://cybersecuritynews.com/grafana-github-breach-linked-tanstack-ransomware/",
+      "date": "2026-05-20T14:19:18Z",
+      "description": "Grafana Labs has disclosed a targeted ransomware-linked breach of its GitHub environment, traced to a broader TanStack npm supply chain compromise associated with the “Mini Shai-Hulud” campaign. The incident, detected on May 11, 2026, involved unauthorized access to internal repositories and culminated in a ransom demand issued on May 16 under threat of data disclosure. […] The post Grafana…",
+      "source": "cybersecuritynews.com"
+    },
+    {
+      "title": "Pardus Linux Local Privilege Escalation Flaw Allows Silent Root Access",
+      "link": "https://cybersecuritynews.com/pardus-linux-privilege-escalation-flaw/",
+      "date": "2026-05-20T14:14:00Z",
+      "description": "A critical vulnerability chain affecting Pardus Linux has been disclosed, allowing local users to gain full root privileges without authentication. The issue, assigned a CVSS v3.1 score of 9.3, impacts the pardus-update package, a core component responsible for system updates in the Debian-based distribution maintained by TÜBİTAK. Pardus is widely deployed across government institutions,…",
+      "source": "cybersecuritynews.com"
+    },
+    {
+      "title": "FreePBX Vulnerability Allow Attackers to Gain Access to User Portals",
+      "link": "https://cybersecuritynews.com/freepbx-vulnerability/",
+      "date": "2026-05-20T14:12:15Z",
+      "description": "A critical vulnerability in the open-source IP PBX platform FreePBX could allow unauthenticated attackers to access user portals. The issue, tracked as CVE-2026-46376, affects the User Control Panel (UCP) interface due to hard-coded credentials in the userman module. It impacts FreePBX versions before 16.0.45 and 17.0.7. Systems running outdated versions are at risk if administrators […] The…",
+      "source": "cybersecuritynews.com"
+    },
+    {
+      "title": "Critical ExifTool Vulnerability Allows Attackers to Compromise Macs via Single Malicious Image",
+      "link": "https://cybersecuritynews.com/exiftool-vulnerability-compromise-macs/",
+      "date": "2026-05-20T14:05:57Z",
+      "description": "ExifTool, a ubiquitous open-source utility for reading and writing file metadata, is at the center of a severe security flaw affecting macOS environments. Discovered by Kaspersky’s Global Research and Analysis Team (GReAT) in February 2026, CVE-2026-3102 allows threat actors to execute arbitrary shell commands by concealing malicious instructions within an image file’s metadata. By weaponizing…",
+      "source": "cybersecuritynews.com"
+    },
+    {
+      "title": "Identity Alone Isn't Enough: Why Device Security Has to Share the Load",
+      "link": "https://www.bleepingcomputer.com/news/security/identity-alone-isnt-enough-why-device-security-has-to-share-the-load/",
+      "date": "2026-05-20T14:02:12Z",
+      "description": "Identity checks alone can't stop attackers using stolen session tokens and compromised devices. Specops Software outlines why Zero Trust strategies increasingly depend on continuous device verification. [...]",
+      "source": "bleepingcomputer.com"
+    },
+    {
+      "title": "1Password Teams With OpenAI to Stop AI Coding Agents From Leaking Credentials",
+      "link": "https://www.securityweek.com/1password-teams-with-openai-to-stop-ai-coding-agents-from-leaking-credentials/",
+      "date": "2026-05-20T13:34:54Z",
+      "description": "1Password says AI coding agents should never hold persistent secrets, introducing a just-in-time credential model for OpenAI Codex designed to keep credentials out of prompts, code repositories, and model context. The post 1Password Teams With OpenAI to Stop AI Coding Agents From Leaking Credentials appeared first on SecurityWeek.",
+      "source": "securityweek.com"
+    },
     {
       "title": "Anthropic Silently Patches Claude Code Sandbox Bypass",
       "link": "https://www.securityweek.com/anthropic-silently-patches-claude-code-sandbox-bypass/",
@@ -24,13 +122,6 @@
       "source": "thehackernews.com"
     },
     {
-      "title": "Hackers Use Single-Letter Go Module Typosquat to Deploy DNS-Based Backdoor",
-      "link": "https://cybersecuritynews.com/hackers-use-single-letter-go-module-typosquat/",
-      "date": "2026-05-20T12:30:23Z",
-      "description": "A seemingly innocent typo in a Go module name has been quietly serving a live backdoor for nearly three years. Security researchers uncovered a malicious package called github.com/shopsprint/decimal that impersonates the popular github.com/shopspring/decimal library, differing by just a single letter in its name. The package went live in 2017 but was weaponized in August 2023, when attackers…",
-      "source": "cybersecuritynews.com"
-    },
-    {
       "title": "Agent AI is Coming. Are You Ready?",
       "link": "https://thehackernews.com/2026/05/agent-ai-is-coming-are-you-ready.html",
       "date": "2026-05-20T11:58:00Z",
@@ -43,34 +134,6 @@
       "date": "2026-05-20T11:38:43Z",
       "description": "GitHub on Tuesday said it's investigating unauthorized access to its internal repositories after the notorious threat actor known as TeamPCP listed the platform's source code and internal organizations for sale on a cybercrime forum. \"While we currently have no evidence of impact to customer information stored outside of GitHub's internal repositories (such as our customers' enterprises,",
       "source": "thehackernews.com"
-    },
-    {
-      "title": "Microsoft Python Client DurableTask Compromised by TeamPCP Hackers",
-      "link": "https://cybersecuritynews.com/microsoft-python-client-durabletask/",
-      "date": "2026-05-20T11:24:58Z",
-      "description": "Three consecutive releases of Microsoft’s official Python workflow SDK were poisoned with a multi-cloud credential-stealing worm, continuing the group’s relentless 2026 supply chain campaign. The TeamPCP threat group has struck again this time targeting durabletask, the official Microsoft Python client for the Durable Task workflow execution framework. Security researchers at Wiz disclosed that…",
-      "source": "cybersecuritynews.com"
-    },
-    {
-      "title": "Hackers Abuse MSHTA Legacy Windows Tool to Deliver LummaStealer and Amatera Malware",
-      "link": "https://cybersecuritynews.com/hackers-abuse-mshta-legacy-windows-tool/",
-      "date": "2026-05-20T11:20:28Z",
-      "description": "Hackers are exploiting a decades-old Windows tool to deliver dangerous malware onto unsuspecting systems, with consequences ranging from stolen passwords to full system compromise. The tool is MSHTA, short for Microsoft HTML Application Host, a built-in Windows utility that can run scripts from local files and remote internet locations. Attackers have been using it to […] The post Hackers Abuse…",
-      "source": "cybersecuritynews.com"
-    },
-    {
-      "title": "Over 320 NPM Packages Hit by Fresh Mini Shai-Hulud Supply Chain Attack",
-      "link": "https://www.securityweek.com/over-320-npm-packages-hit-by-fresh-mini-shai-hulud-supply-chain-attack/",
-      "date": "2026-05-20T11:06:49Z",
-      "description": "A compromised maintainer account was used to publish malicious package versions across the @antv namespace. The post Over 320 NPM Packages Hit by Fresh Mini Shai-Hulud Supply Chain Attack appeared first on SecurityWeek.",
-      "source": "securityweek.com"
-    },
-    {
-      "title": "Caught Off Guard: Securing AI After It Hits Production",
-      "link": "https://www.securityweek.com/caught-off-guard-securing-ai-after-it-hits-production/",
-      "date": "2026-05-20T11:00:00Z",
-      "description": "As enterprises rush AI projects into production, security teams are increasingly being forced into reactive mode. The post Caught Off Guard: Securing AI After It Hits Production appeared first on SecurityWeek.",
-      "source": "securityweek.com"
     },
     {
       "title": "Exploit released for new PinTheft Arch Linux root escalation flaw",
@@ -87,52 +150,10 @@
       "source": "thehackernews.com"
     },
     {
-      "title": "GraphWorm Malware Uses Microsoft OneDrive as Command-and-Control Infrastructure",
-      "link": "https://cybersecuritynews.com/graphworm-malware-uses-microsoft-onedrive/",
-      "date": "2026-05-20T10:29:50Z",
-      "description": "A well-known China-aligned threat group has quietly evolved its attack methods, and its latest toolset reveals just how far it is willing to go to stay hidden. A backdoor called GraphWorm has surfaced as part of this group’s growing arsenal, and what makes it stand out is the way it uses Microsoft OneDrive as its […] The post GraphWorm Malware Uses Microsoft OneDrive as Command-and-Control…",
-      "source": "cybersecuritynews.com"
-    },
-    {
-      "title": "Real-World ICS Security Tales From the Trenches",
-      "link": "https://www.securityweek.com/real-world-ics-security-tales-from-the-trenches/",
-      "date": "2026-05-20T10:15:00Z",
-      "description": "SecurityWeek spoke with several ICS security experts and companies about their most memorable experiences in the field. The post Real-World ICS Security Tales From the Trenches appeared first on SecurityWeek.",
-      "source": "securityweek.com"
-    },
-    {
-      "title": "Virtual Event Today: Threat Detection & Incident Response Summit",
-      "link": "https://www.securityweek.com/virtual-event-today-threat-detection-incident-response-summit/",
-      "date": "2026-05-20T10:00:00Z",
-      "description": "Don't miss this virtual event as we explore how to cut through alert fatigue, leverage AI and unified platforms to accelerate investigations, and apply actionable threat intelligence. The post Virtual Event Today: Threat Detection & Incident Response Summit appeared first on SecurityWeek.",
-      "source": "securityweek.com"
-    },
-    {
-      "title": "Microsoft Releases Mitigation for Windows BitLocker Security Bypass 0-Day Vulnerability",
-      "link": "https://cybersecuritynews.com/windows-bitlocker-yellowkey-mitigation/",
-      "date": "2026-05-20T09:25:34Z",
-      "description": "Microsoft has disclosed a critical zero-day vulnerability in Windows BitLocker, tracked as CVE-2026-45585, that allows threat actors with physical access to bypass full-disk encryption entirely, potentially exposing sensitive data within minutes. The flaw was publicly disclosed on May 19, 2026, and while no active exploitation has been confirmed, Microsoft rates it as “Exploitation More Likely,”…",
-      "source": "cybersecuritynews.com"
-    },
-    {
-      "title": "Microsoft Releases Mitigation for YellowKey BitLocker Bypass CVE-2026-45585 Exploit",
-      "link": "https://thehackernews.com/2026/05/microsoft-releases-mitigation-for.html",
-      "date": "2026-05-20T08:28:26Z",
-      "description": "Microsoft on Tuesday released a mitigation for a BitLocker bypass vulnerability named YellowKey following its public disclosure last week. The zero-day flaw, now tracked as CVE-2026-45585, carries a CVSS score of 6.8. It has been described as a BitLocker security feature bypass. \"Microsoft is aware of a security feature bypass vulnerability in Windows publicly referred to as 'YellowKey,'\" the",
-      "source": "thehackernews.com"
-    },
-    {
       "title": "GitHub confirms breach of 3,800 repos via malicious VSCode extension",
       "link": "https://www.bleepingcomputer.com/news/security/github-confirms-breach-of-3-800-repos-via-malicious-vscode-extension/",
       "date": "2026-05-20T08:14:08Z",
       "description": "GitHub has confirmed that roughly 3,800 internal repositories were breached after one of its employees installed a malicious VS Code extension. [...]",
-      "source": "bleepingcomputer.com"
-    },
-    {
-      "title": "Microsoft shares mitigation for YellowKey Windows zero-day",
-      "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-shares-mitigation-for-yellowkey-windows-zero-day/",
-      "date": "2026-05-20T07:31:15Z",
-      "description": "Microsoft has shared mitigations for YellowKey, a recently disclosed Windows BitLocker zero-day vulnerability that grants access to protected drives. [...]",
       "source": "bleepingcomputer.com"
     },
     {
@@ -141,13 +162,6 @@
       "date": "2026-05-20T07:00:00Z",
       "description": "While the numbers are modest, the crackdown on cybercrime involved 13 countries in the MENA region, the largest law enforcement collaboration to date.",
       "source": "darkreading.com"
-    },
-    {
-      "title": "GitHub investigates internal repositories breach claimed by TeamPCP",
-      "link": "https://www.bleepingcomputer.com/news/security/github-investigates-internal-repositories-breach-claimed-by-teampcp/",
-      "date": "2026-05-20T05:08:42Z",
-      "description": "GitHub is investigating a breach of its internal repositories after the TeamPCP hacker group claimed to have accessed approximately 4,000 repositories containing private code. [...]",
-      "source": "bleepingcomputer.com"
     },
     {
       "title": "What It'll Take to Make AI BOMs Usable in a Modern Security Program",
@@ -168,20 +182,6 @@
       "link": "https://www.darkreading.com/cybersecurity-analytics/what-make-ai-bom-real",
       "date": "2026-05-19T22:17:55Z",
       "description": "A brief overview of the forces at play that will get more organizations on board with creating and consuming AI bill of materials (BOMs).",
-      "source": "darkreading.com"
-    },
-    {
-      "title": "Verizon DBIR: Enterprises Face a Dangerous Vulnerability Glut",
-      "link": "https://www.darkreading.com/threat-intelligence/verizon-dbir-enterprises-vulnerability-glut",
-      "date": "2026-05-19T21:55:35Z",
-      "description": "Verizon's \"2026 Data Breach Investigations Report\" (\"DBIR\") finds that exploits are now involved in 31% of initial access for breaches, while patching lags too far behind the bad guys.",
-      "source": "darkreading.com"
-    },
-    {
-      "title": "Windows Zero-Day Barrage Continues After Patch Tuesday",
-      "link": "https://www.darkreading.com/cyberattacks-data-breaches/windows-zero-day-barrage-continues-after-patch-tuesday",
-      "date": "2026-05-19T21:06:54Z",
-      "description": "YellowKey, GreenPlasma, and MiniPlasma add to the growing list of vulnerabilities a security researcher disclosed over the past six weeks.",
       "source": "darkreading.com"
     },
     {
