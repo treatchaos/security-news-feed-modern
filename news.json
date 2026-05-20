@@ -1,7 +1,77 @@
 {
-  "last_updated": "2026-05-20T06:39:02Z",
+  "last_updated": "2026-05-20T10:17:40Z",
   "count": 40,
   "items": [
+    {
+      "title": "Real-World ICS Security Tales From the Trenches",
+      "link": "https://www.securityweek.com/real-world-ics-security-tales-from-the-trenches/",
+      "date": "2026-05-20T10:15:00Z",
+      "description": "SecurityWeek spoke with several ICS security experts and companies about their most memorable experiences in the field. The post Real-World ICS Security Tales From the Trenches appeared first on SecurityWeek.",
+      "source": "securityweek.com"
+    },
+    {
+      "title": "Virtual Event Today: Threat Detection & Incident Response Summit",
+      "link": "https://www.securityweek.com/virtual-event-today-threat-detection-incident-response-summit/",
+      "date": "2026-05-20T10:00:00Z",
+      "description": "Don't miss this virtual event as we explore how to cut through alert fatigue, leverage AI and unified platforms to accelerate investigations, and apply actionable threat intelligence. The post Virtual Event Today: Threat Detection & Incident Response Summit appeared first on SecurityWeek.",
+      "source": "securityweek.com"
+    },
+    {
+      "title": "GitHub Confirms Hack Impacting 3,800 Internal Repositories",
+      "link": "https://www.securityweek.com/github-confirms-hack-impacting-3800-internal-repositories/",
+      "date": "2026-05-20T09:28:53Z",
+      "description": "The TeamPCP hacking group accessed the repositories after a GitHub employee installed a poisoned VS Code extension. The post GitHub Confirms Hack Impacting 3,800 Internal Repositories appeared first on SecurityWeek.",
+      "source": "securityweek.com"
+    },
+    {
+      "title": "Microsoft Releases Mitigation for Windows BitLocker Security Bypass 0-Day Vulnerability",
+      "link": "https://cybersecuritynews.com/windows-bitlocker-yellowkey-mitigation/",
+      "date": "2026-05-20T09:25:34Z",
+      "description": "Microsoft has disclosed a critical zero-day vulnerability in Windows BitLocker, tracked as CVE-2026-45585, that allows threat actors with physical access to bypass full-disk encryption entirely, potentially exposing sensitive data within minutes. The flaw was publicly disclosed on May 19, 2026, and while no active exploitation has been confirmed, Microsoft rates it as “Exploitation More Likely,”…",
+      "source": "cybersecuritynews.com"
+    },
+    {
+      "title": "New NGINX Vulnerability Allow Remote Attackers to Trigger Malicious Code",
+      "link": "https://cybersecuritynews.com/nginx-buffer-overflow-vulnerability/",
+      "date": "2026-05-20T08:57:31Z",
+      "description": "A new vulnerability in NGINX JavaScript (njs), tracked as CVE‑2026‑8711, allows unauthenticated remote attackers to trigger a heap‑based buffer overflow that can lead to denial‑of‑service and, in some conditions, remote code execution in the NGINX worker process. The flaw is tied to how the js_fetch_proxy directive handles client‑controlled variables when combined with the ngx.fetch() operation…",
+      "source": "cybersecuritynews.com"
+    },
+    {
+      "title": "Microsoft Releases Mitigation for YellowKey BitLocker Bypass CVE-2026-45585 Exploit",
+      "link": "https://thehackernews.com/2026/05/microsoft-releases-mitigation-for.html",
+      "date": "2026-05-20T08:28:26Z",
+      "description": "Microsoft on Tuesday released a mitigation for a BitLocker bypass vulnerability named YellowKey following its public disclosure last week. The zero-day flaw, now tracked as CVE-2026-45585, carries a CVSS score of 6.8. It has been described as a BitLocker security feature bypass. \"Microsoft is aware of a security feature bypass vulnerability in Windows publicly referred to as 'YellowKey,'\" the",
+      "source": "thehackernews.com"
+    },
+    {
+      "title": "GitHub confirms breach of 3,800 repos via malicious VSCode extension",
+      "link": "https://www.bleepingcomputer.com/news/security/github-confirms-breach-of-3-800-repos-via-malicious-vscode-extension/",
+      "date": "2026-05-20T08:14:08Z",
+      "description": "GitHub has confirmed that roughly 3,800 internal repositories were breached after one of its employees installed a malicious VS Code extension. [...]",
+      "source": "bleepingcomputer.com"
+    },
+    {
+      "title": "Fox Tempest Malware-Signing Service Abused Microsoft Artifact Signing to Certify Malware",
+      "link": "https://cybersecuritynews.com/fox-tempest-abuse-microsoft-artifact-signing/",
+      "date": "2026-05-20T08:10:31Z",
+      "description": "A financially motivated threat actor known as Fox Tempest has been operating a sophisticated malware-signing-as-a-service (MSaaS) platform that abused Microsoft’s Artifact Signing infrastructure to generate trusted digital signatures for malicious code. This activity enabled cybercriminals to bypass security controls and distribute malware that appeared to be legitimately signed. In May 2026,…",
+      "source": "cybersecuritynews.com"
+    },
+    {
+      "title": "Microsoft shares mitigation for YellowKey Windows zero-day",
+      "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-shares-mitigation-for-yellowkey-windows-zero-day/",
+      "date": "2026-05-20T07:31:15Z",
+      "description": "Microsoft has shared mitigations for YellowKey, a recently disclosed Windows BitLocker zero-day vulnerability that grants access to protected drives. [...]",
+      "source": "bleepingcomputer.com"
+    },
+    {
+      "title": "Interpol's 'Operation Ramz' Pioneers Cross-Region Collabs in Middle East",
+      "link": "https://www.darkreading.com/cybersecurity-operations/interpol-operation-ramz-cross-region-middle-east",
+      "date": "2026-05-20T07:00:00Z",
+      "description": "While the numbers are modest, the crackdown on cybercrime involved 13 countries in the MENA region, the largest law enforcement collaboration to date.",
+      "source": "darkreading.com"
+    },
     {
       "title": "Grafana GitHub Breach Exposes Source Code via TanStack npm Attack",
       "link": "https://thehackernews.com/2026/05/grafana-github-breach-exposes-source.html",
@@ -31,25 +101,11 @@
       "source": "cybersecuritynews.com"
     },
     {
-      "title": "GitHub Investigating TeamPCP Claimed Breach of ~4,000 Internal Repositories",
+      "title": "GitHub Breached — Employee Device Hack Led to Exfiltration of 3,800+ Internal Repos",
       "link": "https://thehackernews.com/2026/05/github-investigating-teampcp-claimed.html",
       "date": "2026-05-20T04:01:15Z",
       "description": "GitHub on Tuesday said it's investigating unauthorized access to its internal repositories after the notorious threat actor known as TeamPCP listed the platform's source code and internal organizations for sale on a cybercrime forum. \"While we currently have no evidence of impact to customer information stored outside of GitHub's internal repositories (such as our customers' enterprises,",
       "source": "thehackernews.com"
-    },
-    {
-      "title": "ShinyHunters Claims Credit for Cyber-Attack on Online Learning Management System",
-      "link": "https://cybersecuritynews.com/shinyhunters-claims-credit-online-lms/",
-      "date": "2026-05-20T03:51:20Z",
-      "description": "A recent cyberattack targeting an online Learning Management System (LMS) has been attributed to the notorious cybercriminal group ShinyHunters. The incident caused widespread service disruptions affecting educational institutions and students across the United States, although the platform has since been restored. The attack temporarily disrupted access to critical academic resources hosted on…",
-      "source": "cybersecuritynews.com"
-    },
-    {
-      "title": "GitHub Source Code Breach – TeamPCP Claims Access to Internal Source Code",
-      "link": "https://cybersecuritynews.com/github-source-code-breach/",
-      "date": "2026-05-20T02:39:50Z",
-      "description": "A notorious threat actor operating under the alias TeamPCP claims to have breached GitHub’s internal systems, allegedly exfiltrating proprietary organization data and source code. The attackers are offering the stolen dataset for sale on underground cybercrime forums, demanding offers exceeding $50,000. According to the threat actor’s post, the compromised data encompasses approximately 4,000…",
-      "source": "cybersecuritynews.com"
     },
     {
       "title": "Details and PoC Exploit Code Released: Critical Cockpit RCE Flaw Grants Instant Root Shells",
@@ -80,13 +136,6 @@
       "source": "darkreading.com"
     },
     {
-      "title": "UAC-0184 Malware Chain Uses bitsadmin and HTA Files for Gated Payload Delivery",
-      "link": "https://cybersecuritynews.com/uac-0184-malware-chain-uses-bitsadmin/",
-      "date": "2026-05-19T22:07:50Z",
-      "description": "A newly documented attack chain linked to the threat group UAC-0184 has been observed using Windows’ built-in bitsadmin tool and HTA files to sneak malicious payloads onto targeted systems. The campaign is primarily aimed at Ukraine, with clear indicators pointing toward military-related targets, including individuals connected to the Ukrainian Defence Forces. The level of craft […] The post…",
-      "source": "cybersecuritynews.com"
-    },
-    {
       "title": "Verizon DBIR: Enterprises Face a Dangerous Vulnerability Glut",
       "link": "https://www.darkreading.com/threat-intelligence/verizon-dbir-enterprises-vulnerability-glut",
       "date": "2026-05-19T21:55:35Z",
@@ -108,32 +157,11 @@
       "source": "darkreading.com"
     },
     {
-      "title": "Discord rolls out end-to-end encryption on voice, video calls",
-      "link": "https://www.bleepingcomputer.com/news/security/discord-rolls-out-end-to-end-encryption-on-voice-video-calls/",
-      "date": "2026-05-19T20:37:45Z",
-      "description": "Discord announced that all voice and video calls through the communication platform are now protected by default with end-to-end encryption (E2EE). [...]",
-      "source": "bleepingcomputer.com"
-    },
-    {
       "title": "CISA Exposes Secrets, Credentials in 'Private' Repo",
       "link": "https://www.darkreading.com/cybersecurity-operations/cisa-exposes-secrets-credentials-private-repo",
       "date": "2026-05-19T19:49:53Z",
       "description": "The agency's GitHub repository, publicly available since November 2025, was ironically named \"Private-CISA.\"",
       "source": "darkreading.com"
-    },
-    {
-      "title": "Stealer Spoofs Google, Microsoft &amp; Apple, Then Backdoors macOS",
-      "link": "https://www.darkreading.com/threat-intelligence/stealer-spoofs-google-microsoft-apple-backdoors-macos",
-      "date": "2026-05-19T19:49:40Z",
-      "description": "The SHub Reaper stealer, which hides behind fake WeChat and Miro installers, marks a shift from ClickFix social engineering to Apple script-based execution.",
-      "source": "darkreading.com"
-    },
-    {
-      "title": "FBI: Americans lost over $388 million to scams using crypto ATMs in 2025",
-      "link": "https://www.bleepingcomputer.com/news/security/fbi-americans-lost-over-388-million-to-scams-using-crypto-atms-in-2025/",
-      "date": "2026-05-19T19:45:39Z",
-      "description": "The FBI says Americans have lost over $388 million last year to scams using cryptocurrency kiosks, also known as crypto ATMs or Bitcoin ATMs. [...]",
-      "source": "bleepingcomputer.com"
     },
     {
       "title": "Trapdoor Android Ad Fraud Scheme Hit 659 Million Daily Bid Requests Using 455 Apps",
@@ -150,38 +178,10 @@
       "source": "securityweek.com"
     },
     {
-      "title": "Microsoft Disrupts Malware-Signing Service Run by ‘Fox Tempest’",
-      "link": "https://www.securityweek.com/microsoft-disrupts-malware-signing-service-run-by-fox-tempest/",
-      "date": "2026-05-19T16:06:22Z",
-      "description": "Fox Tempest provides a service that cybercriminals use to distribute ransomware and other malware disguised as legitimate software. The post Microsoft Disrupts Malware-Signing Service Run by ‘Fox Tempest’ appeared first on SecurityWeek.",
-      "source": "securityweek.com"
-    },
-    {
       "title": "DirtyDecrypt PoC Released for Linux Kernel CVE-2026-31635 LPE Vulnerability",
       "link": "https://thehackernews.com/2026/05/dirtydecrypt-poc-released-for-linux.html",
       "date": "2026-05-19T14:56:26Z",
       "description": "Proof-of-concept (PoC) exploit code has now been released for a recently patched security flaw in the Linux kernel that could allow for local privilege escalation (LPE). Dubbed DirtyDecrypt (aka DirtyCBC), the vulnerability was discovered and reported by the Zellic and V12 security team on May 9, 2026, only to be informed by the maintainers that it was a duplicate of a vulnerability that had",
-      "source": "thehackernews.com"
-    },
-    {
-      "title": "Legacy Windows Tool MSHTA Fuels Surge in Silent Malware Attacks",
-      "link": "https://www.securityweek.com/legacy-windows-tool-mshta-fuels-surge-in-silent-malware-attacks/",
-      "date": "2026-05-19T13:00:00Z",
-      "description": "Attackers are increasingly abusing Microsoft’s decades-old MSHTA utility to stealthily deliver stealers, loaders, and persistent malware through phishing, fake software downloads, and LOLBIN-based attack chains. The post Legacy Windows Tool MSHTA Fuels Surge in Silent Malware Attacks appeared first on SecurityWeek.",
-      "source": "securityweek.com"
-    },
-    {
-      "title": "Unpatched ChromaDB Vulnerability Can Lead to Server Takeover",
-      "link": "https://www.securityweek.com/unpatched-chromadb-vulnerability-can-lead-to-server-takeover/",
-      "date": "2026-05-19T12:54:21Z",
-      "description": "The security defect can be exploited remotely, without authentication, to execute arbitrary code and leak sensitive information. The post Unpatched ChromaDB Vulnerability Can Lead to Server Takeover appeared first on SecurityWeek.",
-      "source": "securityweek.com"
-    },
-    {
-      "title": "The New Phishing Click: How OAuth Consent Bypasses MFA",
-      "link": "https://thehackernews.com/2026/05/the-new-phishing-click-how-oauth.html",
-      "date": "2026-05-19T11:30:00Z",
-      "description": "In February 2026, a phishing-as-a-service (PhaaS) platform called EvilTokens went live. Within five weeks, it had compromised more than 340 Microsoft 365 organizations across five countries. The targets of the platform received a message asking them to enter a short code at microsoft.com/devicelogin and complete their normal MFA challenge, then walked away believing they had verified a",
       "source": "thehackernews.com"
     },
     {

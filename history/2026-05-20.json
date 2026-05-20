@@ -1,7 +1,107 @@
 {
   "date": "2026-05-20",
-  "count": 10,
+  "count": 21,
   "items": [
+    {
+      "id": "378f21feb7eeb212b5366860c20a4a3dd9ae7b21",
+      "title": "Real-World ICS Security Tales From the Trenches",
+      "link": "https://www.securityweek.com/real-world-ics-security-tales-from-the-trenches/",
+      "date": "2026-05-20T10:15:00Z",
+      "description": "SecurityWeek spoke with several ICS security experts and companies about their most memorable experiences in the field. The post Real-World ICS Security Tales From the Trenches appeared first on SecurityWeek.",
+      "source": "securityweek.com",
+      "first_seen": "2026-05-20T10:17:40Z",
+      "last_seen": "2026-05-20T10:17:40Z"
+    },
+    {
+      "id": "ec172f09fc574a322c23b478c631476f24c40e54",
+      "title": "Virtual Event Today: Threat Detection & Incident Response Summit",
+      "link": "https://www.securityweek.com/virtual-event-today-threat-detection-incident-response-summit/",
+      "date": "2026-05-20T10:00:00Z",
+      "description": "Don't miss this virtual event as we explore how to cut through alert fatigue, leverage AI and unified platforms to accelerate investigations, and apply actionable threat intelligence. The post Virtual Event Today: Threat Detection & Incident Response Summit appeared first on SecurityWeek.",
+      "source": "securityweek.com",
+      "first_seen": "2026-05-20T10:17:40Z",
+      "last_seen": "2026-05-20T10:17:40Z"
+    },
+    {
+      "id": "04eba8c104b9f6d2ac5daec5f890527baf5df56b",
+      "title": "GitHub Confirms Hack Impacting 3,800 Internal Repositories",
+      "link": "https://www.securityweek.com/github-confirms-hack-impacting-3800-internal-repositories/",
+      "date": "2026-05-20T09:28:53Z",
+      "description": "The TeamPCP hacking group accessed the repositories after a GitHub employee installed a poisoned VS Code extension. The post GitHub Confirms Hack Impacting 3,800 Internal Repositories appeared first on SecurityWeek.",
+      "source": "securityweek.com",
+      "first_seen": "2026-05-20T10:17:40Z",
+      "last_seen": "2026-05-20T10:17:40Z"
+    },
+    {
+      "id": "374989637601e94b354982c6c6809f9b5910cb7b",
+      "title": "Microsoft Releases Mitigation for Windows BitLocker Security Bypass 0-Day Vulnerability",
+      "link": "https://cybersecuritynews.com/windows-bitlocker-yellowkey-mitigation/",
+      "date": "2026-05-20T09:25:34Z",
+      "description": "Microsoft has disclosed a critical zero-day vulnerability in Windows BitLocker, tracked as CVE-2026-45585, that allows threat actors with physical access to bypass full-disk encryption entirely, potentially exposing sensitive data within minutes. The flaw was publicly disclosed on May 19, 2026, and while no active exploitation has been confirmed, Microsoft rates it as “Exploitation More Likely,”…",
+      "source": "cybersecuritynews.com",
+      "first_seen": "2026-05-20T10:17:40Z",
+      "last_seen": "2026-05-20T10:17:40Z"
+    },
+    {
+      "id": "761d65518a6ad91659fe0e55649656b1f2089529",
+      "title": "New NGINX Vulnerability Allow Remote Attackers to Trigger Malicious Code",
+      "link": "https://cybersecuritynews.com/nginx-buffer-overflow-vulnerability/",
+      "date": "2026-05-20T08:57:31Z",
+      "description": "A new vulnerability in NGINX JavaScript (njs), tracked as CVE‑2026‑8711, allows unauthenticated remote attackers to trigger a heap‑based buffer overflow that can lead to denial‑of‑service and, in some conditions, remote code execution in the NGINX worker process. The flaw is tied to how the js_fetch_proxy directive handles client‑controlled variables when combined with the ngx.fetch() operation…",
+      "source": "cybersecuritynews.com",
+      "first_seen": "2026-05-20T10:17:40Z",
+      "last_seen": "2026-05-20T10:17:40Z"
+    },
+    {
+      "id": "04571b3b50733b6651fe0ba8ec6065d5db22742b",
+      "title": "Microsoft Releases Mitigation for YellowKey BitLocker Bypass CVE-2026-45585 Exploit",
+      "link": "https://thehackernews.com/2026/05/microsoft-releases-mitigation-for.html",
+      "date": "2026-05-20T08:28:26Z",
+      "description": "Microsoft on Tuesday released a mitigation for a BitLocker bypass vulnerability named YellowKey following its public disclosure last week. The zero-day flaw, now tracked as CVE-2026-45585, carries a CVSS score of 6.8. It has been described as a BitLocker security feature bypass. \"Microsoft is aware of a security feature bypass vulnerability in Windows publicly referred to as 'YellowKey,'\" the",
+      "source": "thehackernews.com",
+      "first_seen": "2026-05-20T10:17:40Z",
+      "last_seen": "2026-05-20T10:17:40Z"
+    },
+    {
+      "id": "4add83cb7b630d5d7a20b954fb294ec5630c7aa0",
+      "title": "GitHub confirms breach of 3,800 repos via malicious VSCode extension",
+      "link": "https://www.bleepingcomputer.com/news/security/github-confirms-breach-of-3-800-repos-via-malicious-vscode-extension/",
+      "date": "2026-05-20T08:14:08Z",
+      "description": "GitHub has confirmed that roughly 3,800 internal repositories were breached after one of its employees installed a malicious VS Code extension. [...]",
+      "source": "bleepingcomputer.com",
+      "first_seen": "2026-05-20T10:17:40Z",
+      "last_seen": "2026-05-20T10:17:40Z"
+    },
+    {
+      "id": "5a0afb16051364be48505095266371f68248fa15",
+      "title": "Fox Tempest Malware-Signing Service Abused Microsoft Artifact Signing to Certify Malware",
+      "link": "https://cybersecuritynews.com/fox-tempest-abuse-microsoft-artifact-signing/",
+      "date": "2026-05-20T08:10:31Z",
+      "description": "A financially motivated threat actor known as Fox Tempest has been operating a sophisticated malware-signing-as-a-service (MSaaS) platform that abused Microsoft’s Artifact Signing infrastructure to generate trusted digital signatures for malicious code. This activity enabled cybercriminals to bypass security controls and distribute malware that appeared to be legitimately signed. In May 2026,…",
+      "source": "cybersecuritynews.com",
+      "first_seen": "2026-05-20T10:17:40Z",
+      "last_seen": "2026-05-20T10:17:40Z"
+    },
+    {
+      "id": "78626f0eee301a303131b38382365c42a195a47f",
+      "title": "Microsoft shares mitigation for YellowKey Windows zero-day",
+      "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-shares-mitigation-for-yellowkey-windows-zero-day/",
+      "date": "2026-05-20T07:31:15Z",
+      "description": "Microsoft has shared mitigations for YellowKey, a recently disclosed Windows BitLocker zero-day vulnerability that grants access to protected drives. [...]",
+      "source": "bleepingcomputer.com",
+      "first_seen": "2026-05-20T10:17:40Z",
+      "last_seen": "2026-05-20T10:17:40Z"
+    },
+    {
+      "id": "371fbdc479dab42ba48cd8ca4c26e6ff97f5784f",
+      "title": "Interpol's 'Operation Ramz' Pioneers Cross-Region Collabs in Middle East",
+      "link": "https://www.darkreading.com/cybersecurity-operations/interpol-operation-ramz-cross-region-middle-east",
+      "date": "2026-05-20T07:00:00Z",
+      "description": "While the numbers are modest, the crackdown on cybercrime involved 13 countries in the MENA region, the largest law enforcement collaboration to date.",
+      "source": "darkreading.com",
+      "first_seen": "2026-05-20T10:17:40Z",
+      "last_seen": "2026-05-20T10:17:40Z"
+    },
     {
       "id": "3850f4098ceb1a7aa3e8d0319148ebfdc2fcf8f7",
       "title": "Grafana GitHub Breach Exposes Source Code via TanStack npm Attack",
@@ -10,7 +110,7 @@
       "description": "Grafana Labs, on May 19, 2026, said an investigation into its recent breach found no evidence of customer production systems or operations being compromised. It said the scope of the incident is limited to the Grafana Labs GitHub environment, which includes public and private source code along with internal GitHub repositories. \"After the initial assessment, we found that in addition to source",
       "source": "thehackernews.com",
       "first_seen": "2026-05-20T06:39:02Z",
-      "last_seen": "2026-05-20T06:39:02Z"
+      "last_seen": "2026-05-20T10:17:40Z"
     },
     {
       "id": "cdea6a1b5ff389e33b83d059125288ae5716fe52",
@@ -20,7 +120,7 @@
       "description": "GitHub is investigating a breach of its internal repositories after the TeamPCP hacker group claimed to have accessed approximately 4,000 repositories containing private code. [...]",
       "source": "bleepingcomputer.com",
       "first_seen": "2026-05-20T06:39:02Z",
-      "last_seen": "2026-05-20T06:39:02Z"
+      "last_seen": "2026-05-20T10:17:40Z"
     },
     {
       "id": "aac410eaa2db11b2d045a32846b8012b09fa04c5",
@@ -30,7 +130,7 @@
       "description": "GitHub has confirmed unauthorized access to its internal repositories after detecting a compromised employee device infected through a malicious Visual Studio Code extension, the company disclosed in a series of official statements on May 20, 2026. The Microsoft-owned code hosting platform said it identified and contained the breach after a poisoned VS Code extension was […] The post GitHub…",
       "source": "cybersecuritynews.com",
       "first_seen": "2026-05-20T06:39:02Z",
-      "last_seen": "2026-05-20T06:39:02Z"
+      "last_seen": "2026-05-20T10:17:40Z"
     },
     {
       "id": "cd89f918beb142e5a8cbe4ce79950d029af5d3ed",
@@ -40,7 +140,7 @@
       "description": "A proof-of-concept (PoC) exploit has been publicly released for CVE-2026-2005, a critical remote code execution (RCE) vulnerability affecting PostgreSQL’s pgcrypto extension. The flaw, rooted in legacy code dating back nearly two decades, highlights the long-standing risks associated with memory handling issues in widely deployed database systems. The vulnerability exists in the PGP session key…",
       "source": "cybersecuritynews.com",
       "first_seen": "2026-05-20T06:39:02Z",
-      "last_seen": "2026-05-20T06:39:02Z"
+      "last_seen": "2026-05-20T10:17:40Z"
     },
     {
       "id": "c8df9e58adadb32fe5b53740a3d288737dc89e0e",
@@ -51,6 +151,16 @@
       "source": "thehackernews.com",
       "first_seen": "2026-05-20T06:39:02Z",
       "last_seen": "2026-05-20T06:39:02Z"
+    },
+    {
+      "id": "5d858b8fb61ffdfcae2556ea325dc82465d6f6c7",
+      "title": "GitHub Breached — Employee Device Hack Led to Exfiltration of 3,800+ Internal Repos",
+      "link": "https://thehackernews.com/2026/05/github-investigating-teampcp-claimed.html",
+      "date": "2026-05-20T04:01:15Z",
+      "description": "GitHub on Tuesday said it's investigating unauthorized access to its internal repositories after the notorious threat actor known as TeamPCP listed the platform's source code and internal organizations for sale on a cybercrime forum. \"While we currently have no evidence of impact to customer information stored outside of GitHub's internal repositories (such as our customers' enterprises,",
+      "source": "thehackernews.com",
+      "first_seen": "2026-05-20T10:17:40Z",
+      "last_seen": "2026-05-20T10:17:40Z"
     },
     {
       "id": "35757d7bbfa6bdbf2abdd50ca24872c31b06ab72",
@@ -80,7 +190,7 @@
       "description": "The post Details and PoC Exploit Code Released: Critical Cockpit RCE Flaw Grants Instant Root Shells appeared first on Daily CyberSecurity. Related posts: Vim Under Fire: High-Severity “Tabpanel” Bug Allows RCE via Simple File Open Exploit Code Live: Full Technical Details and PoC Disclosed for Critical CWP RCE Vulnerability Supply Chain Alert: Critical 9.4 CVSS RCE Hits Sonatype Nexus…",
       "source": "securityonline.info",
       "first_seen": "2026-05-20T02:09:44Z",
-      "last_seen": "2026-05-20T06:39:02Z"
+      "last_seen": "2026-05-20T10:17:40Z"
     },
     {
       "id": "bb1144ad19d375b6b36638912eadad31282b599a",
@@ -90,7 +200,7 @@
       "description": "Verizon’s 2026 DBIR finds vulnerability exploitation has overtaken credential abuse as the leading breach vector, as AI accelerates attacks, patching delays worsen, and ransomware and third-party compromises continue to surge. The post Verizon DBIR 2026: Vulnerability Exploitation Overtakes Credential Theft as Top Breach Vector appeared first on SecurityWeek.",
       "source": "securityweek.com",
       "first_seen": "2026-05-20T02:09:44Z",
-      "last_seen": "2026-05-20T06:39:02Z"
+      "last_seen": "2026-05-20T10:17:40Z"
     },
     {
       "id": "10aab90c463d20b880bc08325ee299b38189c735",
@@ -100,7 +210,7 @@
       "description": "A brief overview of the forces at play that will get more organizations on board with creating and consuming AI bill of materials (BOMs).",
       "source": "darkreading.com",
       "first_seen": "2026-05-20T06:39:02Z",
-      "last_seen": "2026-05-20T06:39:02Z"
+      "last_seen": "2026-05-20T10:17:40Z"
     }
   ]
 }
