@@ -1,7 +1,57 @@
 {
   "date": "2026-05-21",
-  "count": 3,
+  "count": 8,
   "items": [
+    {
+      "id": "49fee3559badf73e429f31a5da8ebf6544d02556",
+      "title": "Two U.S. Executives Plead Guilty in India-Based Tech-Support Fraud Schemes",
+      "link": "https://cybersecuritynews.com/u-s-executives-plead-guilty-tech-support/",
+      "date": "2026-05-21T04:59:46Z",
+      "description": "Two former executives of a U.S.-based call routing and analytics company have pleaded guilty to federal charges for knowingly enabling India-based call centers to defraud thousands of American victims through elaborate tech-support scam operations spanning nearly six years. Former CEO Adam Young, 42, of Miami, FL, and former CSO Harrison Gevirtz, 33, of Las Vegas, […] The post Two U.S.…",
+      "source": "cybersecuritynews.com",
+      "first_seen": "2026-05-21T06:41:23Z",
+      "last_seen": "2026-05-21T06:41:23Z"
+    },
+    {
+      "id": "eca071177fbd7cfd7bb12c46ed8515b750bff6d1",
+      "title": "GitHub Internal Repositories Breached via Malicious Nx Console VS Code Extension",
+      "link": "https://thehackernews.com/2026/05/github-internal-repositories-breached.html",
+      "date": "2026-05-21T04:27:01Z",
+      "description": "GitHub on Wednesday officially confirmed that the breach of its internal repositories was the result of a compromise of an employee device involving a poisoned version of the Nx Console Microsoft Visual Studio Code (VS Code) extension. The development comes as the Nx team revealed that the extension, nrwl.angular-console, was breached after one of its developers' systems was hacked in the",
+      "source": "thehackernews.com",
+      "first_seen": "2026-05-21T06:41:23Z",
+      "last_seen": "2026-05-21T06:41:23Z"
+    },
+    {
+      "id": "738f9b7feb889a3cf23346a048943bdb53784d98",
+      "title": "New GhostTree Attack Causing EDR Products to Hang and Leave Files Unscanned",
+      "link": "https://cybersecuritynews.com/ghosttree-attack-edr-products/",
+      "date": "2026-05-21T04:16:29Z",
+      "description": "A novel evasion technique called GhostTree, which exploits NTFS junctions to create recursive directory loops. Uncovered by Varonis Threat Labs, this method traps Endpoint Detection and Response (EDR) scanners in infinite paths, causing them to hang and ignore malicious payloads. NTFS junctions function as advanced shortcuts that redirect applications from one directory to another seamlessly.…",
+      "source": "cybersecuritynews.com",
+      "first_seen": "2026-05-21T06:41:23Z",
+      "last_seen": "2026-05-21T06:41:23Z"
+    },
+    {
+      "id": "2d6e327d817dbc8b8ffc83b9cd2f57a189b97fb5",
+      "title": "Highly Critical Drupal Core Flaw Exposes PostgreSQL Sites to RCE Attacks",
+      "link": "https://thehackernews.com/2026/05/highly-critical-drupal-core-flaw.html",
+      "date": "2026-05-21T03:44:11Z",
+      "description": "Drupal has released security updates for a \"highly critical\" security vulnerability in Drupal Core that could be exploited by attackers to achieve remote code execution, privilege escalation, or information disclosure. The vulnerability, now tracked as CVE-2026-9082, carries a CVSS score of 6.5 out of 10.0, per CVE.org. Drupal said the vulnerability resides in a database abstraction API that is",
+      "source": "thehackernews.com",
+      "first_seen": "2026-05-21T06:41:23Z",
+      "last_seen": "2026-05-21T06:41:23Z"
+    },
+    {
+      "id": "d5abb3e307daf4397a975caa7fa8717105b80df6",
+      "title": "Claude Code’s Network Sandbox Vulnerability Exposes User Credentials and Source Code",
+      "link": "https://cybersecuritynews.com/claude-codes-network-sandbox-vulnerability/",
+      "date": "2026-05-21T02:45:20Z",
+      "description": "Anthropic’s Claude Code AI coding assistant harbored a critical network sandbox bypass for over five months, allowing attackers to exfiltrate credentials, source code, and environment variables from developer systems, and the company issued no public advisory for either incident. Security researcher Aonan Guan has publicly disclosed a second complete bypass of Claude Code’s network sandbox, […]…",
+      "source": "cybersecuritynews.com",
+      "first_seen": "2026-05-21T06:41:23Z",
+      "last_seen": "2026-05-21T06:41:23Z"
+    },
     {
       "id": "08eb7f4cb4eef9742bcf5c9ce338f9e129edf54b",
       "title": "Gremlin Stealer Stores C2 URLs and Exfiltration Paths in Encrypted Resource Sections",
@@ -10,7 +60,7 @@
       "description": "A newly analyzed variant of the Gremlin stealer malware has raised alarms by hiding its command-and-control (C2) addresses and data exfiltration paths inside encrypted resource sections of a compiled program. This approach makes the malware harder to detect through traditional scanning, allowing it to operate silently on infected systems before stealing sensitive data. Gremlin stealer […] The…",
       "source": "cybersecuritynews.com",
       "first_seen": "2026-05-21T02:08:46Z",
-      "last_seen": "2026-05-21T02:08:46Z"
+      "last_seen": "2026-05-21T06:41:23Z"
     },
     {
       "id": "b797cd047f858e4e9e4cd5c3badc9b0e9a777074",
@@ -20,7 +70,7 @@
       "description": "A wave of fake data leak claims is flooding dark web forums, and most of what is being sold turns out to be recycled material from old breaches. Threat actors operating in Chinese-language cybercrime ecosystems are packaging this stale data and marketing it as fresh corporate intelligence, tricking organizations into wasting time and money on […] The post Dark Web Brokers Repackage Old Breaches…",
       "source": "cybersecuritynews.com",
       "first_seen": "2026-05-21T02:08:46Z",
-      "last_seen": "2026-05-21T02:08:46Z"
+      "last_seen": "2026-05-21T06:41:23Z"
     },
     {
       "id": "43001825a199fc338474912de11012ff35fb9b0a",
@@ -30,7 +80,7 @@
       "description": "The post Public Exploit Exposes Root Privilege Escalation Flaw in VMware Fusion appeared first on Daily CyberSecurity. Related posts: Weaponizing Windows Errors: PoC Dropped for Critical Privilege Escalation Flaw in WER Service Code in the Wild: Full Technical Deep-Dive and Public GitHub PoC Released for Critical Linux TLS Root Exploit Pre-Auth RCE Exposed: Apache HTTP Server Vulnerability and…",
       "source": "securityonline.info",
       "first_seen": "2026-05-21T02:08:46Z",
-      "last_seen": "2026-05-21T02:08:46Z"
+      "last_seen": "2026-05-21T06:41:23Z"
     }
   ]
 }
