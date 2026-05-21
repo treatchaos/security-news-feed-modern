@@ -1,7 +1,42 @@
 {
-  "last_updated": "2026-05-21T16:33:57Z",
+  "last_updated": "2026-05-21T18:51:40Z",
   "count": 40,
   "items": [
+    {
+      "title": "Google accidentally exposed details of unfixed Chromium flaw",
+      "link": "https://www.bleepingcomputer.com/news/security/google-accidentally-exposed-details-of-unfixed-chromium-flaw/",
+      "date": "2026-05-21T18:13:50Z",
+      "description": "Google has accidentally leaked details about an unfixed issue in Chromium that keeps JavaScript running in the background even when the browser is closed, allowing remote code execution on the device. [...]",
+      "source": "bleepingcomputer.com"
+    },
+    {
+      "title": "Indian Student Data Weaponized for Phishing, Social Engineering, and Financial Fraud",
+      "link": "https://cybersecuritynews.com/indian-student-data-weaponized-for-phishing/",
+      "date": "2026-05-21T18:03:21Z",
+      "description": "India’s education sector is now at the center of a growing cybercrime storm. Millions of students across the country are being targeted by threat actors who have turned personal academic data into a weapon for phishing, social engineering, and direct financial theft. What makes this wave of attacks particularly dangerous is how organized and tailored […] The post Indian Student Data Weaponized…",
+      "source": "cybersecuritynews.com"
+    },
+    {
+      "title": "Critical Chrome Vulnerabilities Enable Remote Code Execution Attacks – Patch Now!",
+      "link": "https://cybersecuritynews.com/critical-chrome-rce-vulnerabilities/",
+      "date": "2026-05-21T17:16:45Z",
+      "description": "Google has released an urgent security update for Chrome, addressing 16 vulnerabilities including two rated Critical that could allow attackers to execute arbitrary code on affected systems. The Stable channel has been updated to 148.0.7778.178/179 for Windows and Mac, and 148.0.7778.178 for Linux, with the rollout expected to complete over the coming days. Critical Chrome […] The post Critical…",
+      "source": "cybersecuritynews.com"
+    },
+    {
+      "title": "Authorities Have Taken Down “First VPN” Used in Ransomware Attacks",
+      "link": "https://cybersecuritynews.com/first-vpn-taken-down/",
+      "date": "2026-05-21T16:56:34Z",
+      "description": "In a major international law enforcement success, authorities from seven countries dismantled First VPN, a criminal virtual private network linked to global cybercrime, during a coordinated operation on May 19 and 20, 2026. Dubbed Operation Saffron, the joint action was led by French and Dutch authorities and supported by Europol and Eurojust, resulting in the […] The post Authorities Have Taken…",
+      "source": "cybersecuritynews.com"
+    },
+    {
+      "title": "Mini Shai-Hulud Compromises @antv npm Packages to Steal CI/CD Credentials",
+      "link": "https://cybersecuritynews.com/mini-shai-hulud-compromises-antv-npm-packages-to-steal-ci-cd-credentials/",
+      "date": "2026-05-21T16:49:54Z",
+      "description": "A new and sophisticated supply chain attack has been uncovered, targeting one of the most trusted corners of the open-source software world. Dubbed “Mini Shai-Hulud,” this campaign went after the @antv npm package ecosystem, a collection of widely used data visualization libraries powering dashboards and applications for developers globally. The attack was quiet, precise, and […] The post Mini…",
+      "source": "cybersecuritynews.com"
+    },
     {
       "title": "AI Agents Are Shifting Identity Security Budget Dynamics",
       "link": "https://www.darkreading.com/identity-access-management-security/shifting-budget-dynamics-identity-security-ai-agents",
@@ -52,13 +87,6 @@
       "source": "bleepingcomputer.com"
     },
     {
-      "title": "Police seize “First VPN” service used in ransomware, data theft attacks",
-      "link": "https://www.bleepingcomputer.com/news/security/police-seize-first-vpn-service-used-in-ransomware-data-theft-attacks/",
-      "date": "2026-05-21T13:09:51Z",
-      "description": "A virtual private network service called 'First VPN,' used in ransomware and data theft attacks, has been taken offline in a joint international law enforcement operation. [...]",
-      "source": "bleepingcomputer.com"
-    },
-    {
       "title": "Content Delivery Exploit Opens Websites to Brand Hijacking",
       "link": "https://www.darkreading.com/cyber-risk/content-delivery-exploit-websites-brand-hijacking",
       "date": "2026-05-21T13:05:00Z",
@@ -70,13 +98,6 @@
       "link": "https://cybersecuritynews.com/flipper-one-cyberdeck/",
       "date": "2026-05-21T12:55:21Z",
       "description": "Flipper Devices has unveiled Flipper One, a modular Linux cyberdeck aimed at becoming a fully open, mainline-first ARM platform for hackers, researchers, and makers The company says the new device is not a successor to Flipper Zero, but a separate Layer 1 product built for IP networking, high-performance computing, and expandable hardware experimentation. At the […] The post Flipper Unveils New…",
-      "source": "cybersecuritynews.com"
-    },
-    {
-      "title": "P2PInfect Botnet Compromises Kubernetes Clusters Through Exposed Redis Instances",
-      "link": "https://cybersecuritynews.com/p2pinfect-botnet-compromises-kubernetes-clusters-through-exposed-redis-instances/",
-      "date": "2026-05-21T12:27:42Z",
-      "description": "A well-known botnet is now targeting cloud environments in a more calculated way than before. P2PInfect, a Rust-written peer-to-peer malware active since mid-2023, has been observed compromising Kubernetes clusters by breaking into Redis instances left exposed to the internet. The campaign marks a notable shift, moving from simple server infections to persistent footholds inside managed […] The…",
       "source": "cybersecuritynews.com"
     },
     {
@@ -134,27 +155,6 @@
       "date": "2026-05-21T10:30:00Z",
       "description": "Consider a cached access key on a single Windows machine. It got there the way most cached credentials do - a user logged in, and the key stored itself automatically. Standard AWS behavior. No one misconfigured anything or violated a policy. Yet that single key, which was easily accessible to a minor-league attacker, could have opened a path to some 98% of entities in the company's cloud",
       "source": "thehackernews.com"
-    },
-    {
-      "title": "GitHub Internal Repositories Breached Via Weaponized VS Code Extension",
-      "link": "https://cybersecuritynews.com/github-internal-repositories-breached/",
-      "date": "2026-05-21T10:27:02Z",
-      "description": "GitHub confirmed a significant security breach on May 18, 2026, after attackers leveraged a weaponized Visual Studio Code extension to compromise an employee’s device and exfiltrate data from the company’s internal source code repositories. The attack was detected and contained on Monday, May 18, when GitHub’s security team identified suspicious activity on an employee endpoint. […] The post…",
-      "source": "cybersecuritynews.com"
-    },
-    {
-      "title": "Nine-year-old Linux Kernel Vulnerability Let Attackers Exfiltrate SSH Private Keys",
-      "link": "https://cybersecuritynews.com/nine-year-old-linux-kernel-vulnerability/",
-      "date": "2026-05-21T09:57:16Z",
-      "description": "A newly disclosed Linux kernel vulnerability, tracked as CVE-2026-46333, exposes a serious local privilege escalation flaw that has remained undetected for nearly nine years. Security researchers at the Qualys Threat Research Unit (TRU) revealed that the issue allows attackers to exfiltrate sensitive data, including SSH private keys, and execute arbitrary commands as root on affected […] The…",
-      "source": "cybersecuritynews.com"
-    },
-    {
-      "title": "New Microsoft Defender 0‑Days Actively Exploited in the Wild",
-      "link": "https://cybersecuritynews.com/microsoft-defender-0-days-exploited/",
-      "date": "2026-05-21T09:50:51Z",
-      "description": "Two newly disclosed Microsoft Defender vulnerabilities are being actively exploited in the wild, enabling local attackers to elevate privileges to SYSTEM and potentially disrupt endpoint protection across Windows environments. The bugs, tracked as CVE‑2026‑41091 (Elevation of Privilege) and CVE‑2026‑45498 (Denial of Service), were published on May 19, 2026, and affect core Microsoft Defender…",
-      "source": "cybersecuritynews.com"
     },
     {
       "title": "9-Year-Old Linux Kernel Flaw Enables Root Command Execution on Major Distros",
