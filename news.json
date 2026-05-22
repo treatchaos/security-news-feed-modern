@@ -1,9 +1,58 @@
 {
-  "last_updated": "2026-05-22T10:15:22Z",
+  "last_updated": "2026-05-22T13:22:23Z",
   "count": 40,
   "items": [
     {
-      "title": "Splunk Patches Multiple Vulnerabilities that Enable DOS Attack and Exposes Sensitive Data",
+      "title": "Drupal: Critical SQL injection flaw now targeted in attacks",
+      "link": "https://www.bleepingcomputer.com/news/security/drupal-critical-sql-injection-flaw-now-targeted-in-attacks/",
+      "date": "2026-05-22T13:14:40Z",
+      "description": "Drupal is warning that hackers are attempting to exploit a \"highly critical\" SQL injection vulnerability announced earlier this week. [...]",
+      "source": "bleepingcomputer.com"
+    },
+    {
+      "title": "Why Chargebacks are Just One Piece of the Fraud Puzzle",
+      "link": "https://www.bleepingcomputer.com/news/security/why-chargebacks-are-just-one-piece-of-the-fraud-puzzle/",
+      "date": "2026-05-22T13:09:18Z",
+      "description": "Fraud losses don't stop at chargebacks. False declines, account takeovers, and abuse also damage revenue and trust. IPQS breaks down why fraud teams need broader visibility into risk and customer impact. [...]",
+      "source": "bleepingcomputer.com"
+    },
+    {
+      "title": "Hackers Hide Malware Payloads Inside Nested macOS-Like Folders to Evade Scanning",
+      "link": "https://cybersecuritynews.com/hackers-hide-malware-payloads-inside/",
+      "date": "2026-05-22T12:54:31Z",
+      "description": "Hackers are quietly hiding Windows malware inside nested folders that imitate macOS system paths, making dangerous payloads look like harmless archives to the untrained eye. By burying their tools several layers deep, they aim to slip past automated scanning and casual inspection during routine email use. The result is a stealthy infection chain that starts […] The post Hackers Hide Malware…",
+      "source": "cybersecuritynews.com"
+    },
+    {
+      "title": "Canadian Man Arrested for Operating Kimwolf Botnet",
+      "link": "https://www.securityweek.com/canadian-man-arrested-for-operating-kimwolf-botnet/",
+      "date": "2026-05-22T12:11:03Z",
+      "description": "Jacob Butler, 23, has been arrested in Canada and US authorities are seeking his extradition on computer hacking charges. The post Canadian Man Arrested for Operating Kimwolf Botnet appeared first on SecurityWeek.",
+      "source": "securityweek.com"
+    },
+    {
+      "title": "Ubiquiti patches three max severity UniFi OS vulnerabilities",
+      "link": "https://www.bleepingcomputer.com/news/security/ubiquiti-patches-three-max-severity-unifi-os-vulnerabilities/",
+      "date": "2026-05-22T12:00:42Z",
+      "description": "Ubiquiti has released security updates to patch three maximum severity vulnerabilities in UniFi OS that can be exploited by remote attackers without privileges. [...]",
+      "source": "bleepingcomputer.com"
+    },
+    {
+      "title": "Megalodon GitHub Attack Targets 5,561 Repos with Malicious CI/CD Workflows",
+      "link": "https://thehackernews.com/2026/05/megalodon-github-attack-targets-5561.html",
+      "date": "2026-05-22T11:55:24Z",
+      "description": "Cybersecurity researchers have disclosed details of a new automated campaign called Megalodon that has pushed 5,718 malicious commits to 5,561 GitHub repositories within a six-hour window. \"Using throwaway accounts and forged author identities (build-bot, auto-ci, ci-bot, pipeline-bot), the attacker injected GitHub Actions workflows containing base64-encoded bash payloads that exfiltrate CI",
+      "source": "thehackernews.com"
+    },
+    {
+      "title": "Making Vulnerable Drivers Exploitable Without Hardware - The BYOVD Perspective",
+      "link": "https://thehackernews.com/2026/05/making-vulnerable-drivers-exploitable.html",
+      "date": "2026-05-22T11:38:12Z",
+      "description": "1 Introduction This article provides a technical analysis of how many Windows kernel mode drivers can be interacted with from user mode without the hardware they were developed for. This work was motivated by driver-oriented vulnerability research and the need to evaluate the exploitability of individual findings, which frequently affect code whose reachability is hardware-gated. The",
+      "source": "thehackernews.com"
+    },
+    {
+      "title": "Splunk Patches Multiple Vulnerabilities that Enable DOS Attacks and Expose Sensitive Data",
       "link": "https://cybersecuritynews.com/splunk-patches-multiple-vulnerabilities/",
       "date": "2026-05-22T09:48:54Z",
       "description": "Splunk has released security updates addressing multiple vulnerabilities across Splunk Enterprise, Splunk Cloud Platform, and the Splunk AI Toolkit that could lead to denial-of-service (DoS) conditions and exposure of sensitive data. The issues, disclosed on May 20, 2026, include three tracked vulnerabilities: CVE-2026-20238, CVE-2026-20239, and CVE-2026-20240. Splunk AI Toolkit Access Flaw…",
@@ -45,13 +94,6 @@
       "source": "bleepingcomputer.com"
     },
     {
-      "title": "Google Publishes Exploit Code for Unfixed Chromium Bug Exposing Millions of Users",
-      "link": "https://cybersecuritynews.com/google-publishes-chromium-exploit-code/",
-      "date": "2026-05-22T08:54:15Z",
-      "description": "Google has publicly released proof-of-concept (PoC) exploit code for a critical, still-unpatched vulnerability in the Chromium codebase, potentially exposing millions of users across Chrome, Microsoft Edge, and other Chromium-based browsers to stealthy botnet-style abuse. The vulnerability, originally reported in late 2022 by independent security researcher Lyra Rebane, remains unfixed after…",
-      "source": "cybersecuritynews.com"
-    },
-    {
       "title": "Kimwolf DDoS Botnet Operator Arrested in Canada Over DDoS-for-Hire Attacks",
       "link": "https://thehackernews.com/2026/05/kimwolf-ddos-botnet-operator-arrested.html",
       "date": "2026-05-22T08:50:18Z",
@@ -73,7 +115,7 @@
       "source": "securityweek.com"
     },
     {
-      "title": "China's Webworm Uses Discord, Microsoft Graphs to Hack EU Govts.",
+      "title": "China's Webworm Uses Discord, Microsoft Graphs to Hack EU Governments",
       "link": "https://www.darkreading.com/endpoint-security/chinas-webworm-discord-microsoft-graphs",
       "date": "2026-05-22T07:01:00Z",
       "description": "The advanced persistent threat group also relied on SOCKS proxies like SoftEther VPN, tunneling tools that act as a middleman between victim and attacker.",
@@ -104,7 +146,7 @@
       "title": "Google API Keys Remain Active After Deletion",
       "link": "https://www.darkreading.com/identity-access-management-security/google-api-keys-active-after-deletion",
       "date": "2026-05-21T20:07:47Z",
-      "description": "A security researcher discovered the API keys can still be used for 23 minutes after deletion, even though the cloud provider claims deletion is immediate.",
+      "description": "A security researcher discovered the API keys can still be used for up to 23 minutes after deletion, even though the cloud provider claims deletion is immediate.",
       "source": "darkreading.com"
     },
     {
@@ -122,34 +164,6 @@
       "source": "darkreading.com"
     },
     {
-      "title": "Apple blocked over $11 billion in App Store fraud in 6 years",
-      "link": "https://www.bleepingcomputer.com/news/apple/apple-blocked-22-billion-in-fraudulent-app-store-transactions-in-2025/",
-      "date": "2026-05-21T15:11:08Z",
-      "description": "Apple revealed that it blocked over $11 billion in fraudulent App Store transactions over the last six years, more than $2.2 billion in potentially fraudulent App Store transactions in 2025 alone. [...]",
-      "source": "bleepingcomputer.com"
-    },
-    {
-      "title": "Showboat Linux Malware Hits Middle East Telecom with SOCKS5 Proxy Backdoor",
-      "link": "https://thehackernews.com/2026/05/showboat-linux-malware-hits-middle-east.html",
-      "date": "2026-05-21T14:17:09Z",
-      "description": "Cybersecurity researchers have disclosed details of a new Linux malware dubbed Showboat that has been put to use in a campaign targeting a telecommunications provider in the Middle East since at least mid-2022. \"Showboat is a modular post-exploitation framework designed for Linux systems, capable of spawning a remote shell, transferring files, and functioning as a SOCKS5 proxy,\" Lumen",
-      "source": "thehackernews.com"
-    },
-    {
-      "title": "Inside a Crypto Drainer: How to Spot it Before it Empties Your Wallet",
-      "link": "https://www.bleepingcomputer.com/news/security/inside-a-crypto-drainer-how-to-spot-it-before-it-empties-your-wallet/",
-      "date": "2026-05-21T14:00:10Z",
-      "description": "Modern crypto drainers don't hack wallets. They trick users into approving malicious transactions. Flare explores how the Lucifer DaaS platform scales wallet theft through phishing and automation. [...]",
-      "source": "bleepingcomputer.com"
-    },
-    {
-      "title": "Chinese hackers target telcos with new Linux, Windows malware",
-      "link": "https://www.bleepingcomputer.com/news/security/chinese-hackers-target-telcos-with-new-linux-windows-malware/",
-      "date": "2026-05-21T14:00:00Z",
-      "description": "A Chinese cyber-espionage campaign has been targeting telecommunications providers with newly discovered Linux and Windows malware dubbed Showboat and JFMBackdoor, respectively. [...]",
-      "source": "bleepingcomputer.com"
-    },
-    {
       "title": "Chinese APTs Share Linux Backdoor in Central Asia Telco Attacks",
       "link": "https://www.darkreading.com/threat-intelligence/chinese-apts-linux-backdoor-telco-attacks",
       "date": "2026-05-21T14:00:00Z",
@@ -161,20 +175,6 @@
       "link": "https://www.securityweek.com/cisco-patches-critical-vulnerability-in-secure-workload/",
       "date": "2026-05-21T12:04:13Z",
       "description": "Insufficient validation and authentication in the Secure Workload’s REST APIs provide remote attackers with Site Admin privileges. The post Cisco Patches Critical Vulnerability in Secure Workload appeared first on SecurityWeek.",
-      "source": "securityweek.com"
-    },
-    {
-      "title": "ThreatsDay Bulletin: Linux Rootkits, Router 0-Day, AI Intrusions, Scam Kits and 25 New Stories",
-      "link": "https://thehackernews.com/2026/05/threatsday-bulletin-linux-rootkits.html",
-      "date": "2026-05-21T11:52:14Z",
-      "description": "This week starts small. A token leaks. A bad package slips in. A login trick works. An old tool shows up again. At first, it feels like the usual mess. Then you see the pattern: attackers are not always breaking in. They are using the parts we already trust. That is what makes it worrying. The danger is in normal things now - updates, apps, cloud buttons, support chats, trusted accounts. AI",
-      "source": "thehackernews.com"
-    },
-    {
-      "title": "Ocean Emerges From Stealth With $28M for Agentic Email Security Platform",
-      "link": "https://www.securityweek.com/ocean-emerges-from-stealth-with-28m-for-agentic-email-security-platform/",
-      "date": "2026-05-21T11:45:51Z",
-      "description": "The company has developed a platform that uses specialized AI agents to inspect every incoming message. The post Ocean Emerges From Stealth With $28M for Agentic Email Security Platform appeared first on SecurityWeek.",
       "source": "securityweek.com"
     },
     {

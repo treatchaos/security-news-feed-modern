@@ -1,7 +1,77 @@
 {
   "date": "2026-05-22",
-  "count": 16,
+  "count": 25,
   "items": [
+    {
+      "id": "d56fcaaa8bcf24e53663da7817c9c2854d1dfe6f",
+      "title": "Drupal: Critical SQL injection flaw now targeted in attacks",
+      "link": "https://www.bleepingcomputer.com/news/security/drupal-critical-sql-injection-flaw-now-targeted-in-attacks/",
+      "date": "2026-05-22T13:14:40Z",
+      "description": "Drupal is warning that hackers are attempting to exploit a \"highly critical\" SQL injection vulnerability announced earlier this week. [...]",
+      "source": "bleepingcomputer.com",
+      "first_seen": "2026-05-22T13:22:23Z",
+      "last_seen": "2026-05-22T13:22:23Z"
+    },
+    {
+      "id": "c0babd46c5171d1509ff6273657e469575a220f5",
+      "title": "Why Chargebacks are Just One Piece of the Fraud Puzzle",
+      "link": "https://www.bleepingcomputer.com/news/security/why-chargebacks-are-just-one-piece-of-the-fraud-puzzle/",
+      "date": "2026-05-22T13:09:18Z",
+      "description": "Fraud losses don't stop at chargebacks. False declines, account takeovers, and abuse also damage revenue and trust. IPQS breaks down why fraud teams need broader visibility into risk and customer impact. [...]",
+      "source": "bleepingcomputer.com",
+      "first_seen": "2026-05-22T13:22:23Z",
+      "last_seen": "2026-05-22T13:22:23Z"
+    },
+    {
+      "id": "dc3acd3684b8138181a70a005c1eb13c89a628a5",
+      "title": "Hackers Hide Malware Payloads Inside Nested macOS-Like Folders to Evade Scanning",
+      "link": "https://cybersecuritynews.com/hackers-hide-malware-payloads-inside/",
+      "date": "2026-05-22T12:54:31Z",
+      "description": "Hackers are quietly hiding Windows malware inside nested folders that imitate macOS system paths, making dangerous payloads look like harmless archives to the untrained eye. By burying their tools several layers deep, they aim to slip past automated scanning and casual inspection during routine email use. The result is a stealthy infection chain that starts […] The post Hackers Hide Malware…",
+      "source": "cybersecuritynews.com",
+      "first_seen": "2026-05-22T13:22:23Z",
+      "last_seen": "2026-05-22T13:22:23Z"
+    },
+    {
+      "id": "ca6c1b9ddfd5663b3e10fa481f180edbaf179cc7",
+      "title": "Canadian Man Arrested for Operating Kimwolf Botnet",
+      "link": "https://www.securityweek.com/canadian-man-arrested-for-operating-kimwolf-botnet/",
+      "date": "2026-05-22T12:11:03Z",
+      "description": "Jacob Butler, 23, has been arrested in Canada and US authorities are seeking his extradition on computer hacking charges. The post Canadian Man Arrested for Operating Kimwolf Botnet appeared first on SecurityWeek.",
+      "source": "securityweek.com",
+      "first_seen": "2026-05-22T13:22:23Z",
+      "last_seen": "2026-05-22T13:22:23Z"
+    },
+    {
+      "id": "5f905a338c94bbfe5b0ede230c5c18028bc7e260",
+      "title": "Ubiquiti patches three max severity UniFi OS vulnerabilities",
+      "link": "https://www.bleepingcomputer.com/news/security/ubiquiti-patches-three-max-severity-unifi-os-vulnerabilities/",
+      "date": "2026-05-22T12:00:42Z",
+      "description": "Ubiquiti has released security updates to patch three maximum severity vulnerabilities in UniFi OS that can be exploited by remote attackers without privileges. [...]",
+      "source": "bleepingcomputer.com",
+      "first_seen": "2026-05-22T13:22:23Z",
+      "last_seen": "2026-05-22T13:22:23Z"
+    },
+    {
+      "id": "d455a7ed98e197175d84600efbd25a3fd8a42c7d",
+      "title": "Megalodon GitHub Attack Targets 5,561 Repos with Malicious CI/CD Workflows",
+      "link": "https://thehackernews.com/2026/05/megalodon-github-attack-targets-5561.html",
+      "date": "2026-05-22T11:55:24Z",
+      "description": "Cybersecurity researchers have disclosed details of a new automated campaign called Megalodon that has pushed 5,718 malicious commits to 5,561 GitHub repositories within a six-hour window. \"Using throwaway accounts and forged author identities (build-bot, auto-ci, ci-bot, pipeline-bot), the attacker injected GitHub Actions workflows containing base64-encoded bash payloads that exfiltrate CI",
+      "source": "thehackernews.com",
+      "first_seen": "2026-05-22T13:22:23Z",
+      "last_seen": "2026-05-22T13:22:23Z"
+    },
+    {
+      "id": "ad1d98dd307998ca1c7cb001e062c40abbc1c99d",
+      "title": "Making Vulnerable Drivers Exploitable Without Hardware - The BYOVD Perspective",
+      "link": "https://thehackernews.com/2026/05/making-vulnerable-drivers-exploitable.html",
+      "date": "2026-05-22T11:38:12Z",
+      "description": "1 Introduction This article provides a technical analysis of how many Windows kernel mode drivers can be interacted with from user mode without the hardware they were developed for. This work was motivated by driver-oriented vulnerability research and the need to evaluate the exploitability of individual findings, which frequently affect code whose reachability is hardware-gated. The",
+      "source": "thehackernews.com",
+      "first_seen": "2026-05-22T13:22:23Z",
+      "last_seen": "2026-05-22T13:22:23Z"
+    },
     {
       "id": "37f29920d3831fca9d6d8c94116979b3ce7f5123",
       "title": "Splunk Patches Multiple Vulnerabilities that Enable DOS Attack and Exposes Sensitive Data",
@@ -13,6 +83,16 @@
       "last_seen": "2026-05-22T10:15:22Z"
     },
     {
+      "id": "d6bf240de20d613c31b4532ff4ada7b27fa0e3fd",
+      "title": "Splunk Patches Multiple Vulnerabilities that Enable DOS Attacks and Expose Sensitive Data",
+      "link": "https://cybersecuritynews.com/splunk-patches-multiple-vulnerabilities/",
+      "date": "2026-05-22T09:48:54Z",
+      "description": "Splunk has released security updates addressing multiple vulnerabilities across Splunk Enterprise, Splunk Cloud Platform, and the Splunk AI Toolkit that could lead to denial-of-service (DoS) conditions and exposure of sensitive data. The issues, disclosed on May 20, 2026, include three tracked vulnerabilities: CVE-2026-20238, CVE-2026-20239, and CVE-2026-20240. Splunk AI Toolkit Access Flaw…",
+      "source": "cybersecuritynews.com",
+      "first_seen": "2026-05-22T13:22:23Z",
+      "last_seen": "2026-05-22T13:22:23Z"
+    },
+    {
       "id": "f2a3e553152901ca20dd8ee2177745cc486270c8",
       "title": "CISA Warns of Trend Micro Apex One Vulnerability Exploited in Attacks",
       "link": "https://cybersecuritynews.com/trend-micro-apex-one-vulnerability-exploited/",
@@ -20,7 +100,7 @@
       "description": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) has added a critical vulnerability in Trend Micro Apex One to its Known Exploited Vulnerabilities (KEV) catalog, warning organizations of active exploitation risks. The flaw, tracked as CVE-2026-34926, affects on-premise deployments of Trend Micro Apex One and could allow attackers to tamper with endpoint security systems.…",
       "source": "cybersecuritynews.com",
       "first_seen": "2026-05-22T10:15:22Z",
-      "last_seen": "2026-05-22T10:15:22Z"
+      "last_seen": "2026-05-22T13:22:23Z"
     },
     {
       "id": "fed9d10300c72192d1ac4818776e171fdceedc09",
@@ -30,7 +110,7 @@
       "description": "The FBI has issued a new cybersecurity warning about a rapidly emerging phishing-as-a-service (PhaaS) platform named Kali365, which is actively targeting Microsoft 365 users to steal access tokens and bypass multi-factor authentication (MFA). Kali365 is being distributed primarily through Telegram channels, where threat actors can subscribe to the service and launch phishing campaigns with…",
       "source": "cybersecuritynews.com",
       "first_seen": "2026-05-22T10:15:22Z",
-      "last_seen": "2026-05-22T10:15:22Z"
+      "last_seen": "2026-05-22T13:22:23Z"
     },
     {
       "id": "3b870226c9483f88de94904ccd7ee92d08de752d",
@@ -40,7 +120,7 @@
       "description": "The FBI says First VPN has been used by dozens of ransomware groups for network reconnaissance and intrusions. The post ‘First VPN’ Cybercrime Service Disrupted, Administrator Arrested appeared first on SecurityWeek.",
       "source": "securityweek.com",
       "first_seen": "2026-05-22T10:15:22Z",
-      "last_seen": "2026-05-22T10:15:22Z"
+      "last_seen": "2026-05-22T13:22:23Z"
     },
     {
       "id": "664fb02946d9afa0a32564cc736f80e00aefc9f1",
@@ -50,7 +130,7 @@
       "description": "Hackers have found a new and alarming way to weaponize one of the most trusted platforms in the AI world. A threat actor linked to North Korea has embedded second-stage malware inside Hugging Face, the widely used AI and machine learning hub, effectively turning it into a malware delivery channel and a live data exfiltration […] The post Hackers Use Hugging Face to Host Second-Stage Malware for…",
       "source": "cybersecuritynews.com",
       "first_seen": "2026-05-22T10:15:22Z",
-      "last_seen": "2026-05-22T10:15:22Z"
+      "last_seen": "2026-05-22T13:22:23Z"
     },
     {
       "id": "3b537b52b75afa3fe0979dc7226e29f1e7ef6947",
@@ -60,7 +140,7 @@
       "description": "U.S. and Canadian authorities arrested and charged a Canadian man with operating the KimWolf distributed denial-of-service (DDoS) botnet, which infected nearly two million devices worldwide. [...]",
       "source": "bleepingcomputer.com",
       "first_seen": "2026-05-22T10:15:22Z",
-      "last_seen": "2026-05-22T10:15:22Z"
+      "last_seen": "2026-05-22T13:22:23Z"
     },
     {
       "id": "d20afcb4acc24ea3fd52d8ba38d5526ac65163d6",
@@ -80,7 +160,7 @@
       "description": "The U.S. Department of Justice (DoJ) on Thursday announced the arrest of a Canadian man in connection with allegedly operating a distributed denial-of-service (DDoS) botnet known as Kimwolf. In tandem, Jacob Butler (aka Dort), 23, Ottawa, Canada, has been charged with offenses related to the development and operation of the botnet. Kimwolf is assessed to be a variant of AISURU. \"Kimwolf",
       "source": "thehackernews.com",
       "first_seen": "2026-05-22T10:15:22Z",
-      "last_seen": "2026-05-22T10:15:22Z"
+      "last_seen": "2026-05-22T13:22:23Z"
     },
     {
       "id": "6cd3375677c4c4e32d1d9d374c4215d685a23762",
@@ -90,7 +170,7 @@
       "description": "CVE-2026-34926 is a directory traversal flaw that can be exploited against the on-premise version of Apex One. The post TrendAI Patches Apex One Zero-Day Exploited in the Wild appeared first on SecurityWeek.",
       "source": "securityweek.com",
       "first_seen": "2026-05-22T10:15:22Z",
-      "last_seen": "2026-05-22T10:15:22Z"
+      "last_seen": "2026-05-22T13:22:23Z"
     },
     {
       "id": "c82ef294f31c9e8eea0682794433342c242ab83b",
@@ -100,7 +180,7 @@
       "description": "Hackers accessed Grafana’s GitHub repositories after a token compromised in the TanStack attack was not rotated. The post Grafana Says Codebase and Other Data Stolen via TanStack Supply Chain Attack appeared first on SecurityWeek.",
       "source": "securityweek.com",
       "first_seen": "2026-05-22T10:15:22Z",
-      "last_seen": "2026-05-22T10:15:22Z"
+      "last_seen": "2026-05-22T13:22:23Z"
     },
     {
       "id": "21ee5a4dfe71359c8079ff47c3235d7a7afe3f7e",
@@ -111,6 +191,16 @@
       "source": "darkreading.com",
       "first_seen": "2026-05-22T10:15:22Z",
       "last_seen": "2026-05-22T10:15:22Z"
+    },
+    {
+      "id": "3270ef001824ebb40f924e2528e1df068fcd5911",
+      "title": "China's Webworm Uses Discord, Microsoft Graphs to Hack EU Governments",
+      "link": "https://www.darkreading.com/endpoint-security/chinas-webworm-discord-microsoft-graphs",
+      "date": "2026-05-22T07:01:00Z",
+      "description": "The advanced persistent threat group also relied on SOCKS proxies like SoftEther VPN, tunneling tools that act as a middleman between victim and attacker.",
+      "source": "darkreading.com",
+      "first_seen": "2026-05-22T13:22:23Z",
+      "last_seen": "2026-05-22T13:22:23Z"
     },
     {
       "id": "cc209f24a923125672dbd1dc8322e5b8414410f1",
@@ -130,7 +220,7 @@
       "description": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Thursday added two security flaws impacting Langflow and Trend Micro Apex One to its Known Exploited Vulnerabilities (KEV) catalog, citing evidence of active exploitation. The vulnerabilities in question are listed below - CVE-2025-34291 (CVSS score: 9.4) - An origin validation error vulnerability in Langflow that could",
       "source": "thehackernews.com",
       "first_seen": "2026-05-22T10:15:22Z",
-      "last_seen": "2026-05-22T10:15:22Z"
+      "last_seen": "2026-05-22T13:22:23Z"
     },
     {
       "id": "0a08121d4a2c5664945902217294e2ad2a080df4",
@@ -140,7 +230,7 @@
       "description": "Cisco has rolled out updates for a maximum-severity security flaw impacting Secure Workload that could allow an unauthenticated, remote attacker to access sensitive data. Tracked as CVE-2026-20223 (CVSS score: 10.0), the vulnerability arises from insufficient validation and authentication when accessing REST API endpoints. \"An attacker could exploit this vulnerability if they are able to send",
       "source": "thehackernews.com",
       "first_seen": "2026-05-22T06:38:57Z",
-      "last_seen": "2026-05-22T10:15:22Z"
+      "last_seen": "2026-05-22T13:22:23Z"
     },
     {
       "id": "3e4c3ae4d92e2c90f7b3173e4a592211bbbce815",
