@@ -1,7 +1,7 @@
 {
-  "last_updated": "2026-05-25T02:15:40Z",
+  "last_updated": "2026-05-25T07:01:39Z",
   "retention_days": 90,
-  "count": 3542,
+  "count": 3545,
   "items": [
     {
       "id": "ba36c34374c93c7eb9daffc2270086d2fd70cda2",
@@ -24,6 +24,66 @@
       "last_seen": "2026-05-20T21:30:11Z"
     },
     {
+      "id": "1bb02dd517f5fc2f81490d1c7bc9748c3adddec4",
+      "title": "CISA Warns of Drupal Core SQL Injection Vulnerability Exploited in Attacks",
+      "link": "https://cybersecuritynews.com/drupal-core-sql-injection-vulnerability-exploited/",
+      "date": "2026-05-25T06:52:58Z",
+      "description": "CISA has issued an urgent alert regarding a critical SQL injection vulnerability in Drupal Core, tracked as CVE-2026-9082, which is now being actively exploited in real-world attacks. The flaw, classified under CWE-89, affects Drupal’s database abstraction API and could allow attackers to execute malicious SQL queries through specially crafted requests. According to the Cybersecurity and […] The…",
+      "source": "cybersecuritynews.com",
+      "first_seen": "2026-05-25T07:01:39Z",
+      "last_seen": "2026-05-25T07:01:39Z"
+    },
+    {
+      "id": "793f9b5059dce18d0cfcb487acc409f6b65862eb",
+      "title": "GitHub Adds Staged Publishing to npm to Block Automated Supply Chain Attacks",
+      "link": "https://cybersecuritynews.com/github-adds-staged-publishing-to-npm-to-block-automated-supply-chain-attacks/",
+      "date": "2026-05-25T06:51:58Z",
+      "description": "GitHub has introduced a major security upgrade to the npm ecosystem with the general availability of staged publishing and new install-time controls, aimed at reducing automated supply chain attacks targeting open-source packages. The newly released staged publishing feature changes how npm packages are published and distributed. Instead of immediately making a package available after…",
+      "source": "cybersecuritynews.com",
+      "first_seen": "2026-05-25T07:01:39Z",
+      "last_seen": "2026-05-25T07:01:39Z"
+    },
+    {
+      "id": "f886a04c3c221072ff6d09bf0f741ea5d68d09c2",
+      "title": "Hackers Use Browser-Locking CypherLoc Kit to Push Fake Microsoft Support Calls",
+      "link": "https://cybersecuritynews.com/hackers-use-browser-locking-cypherloc-kit/",
+      "date": "2026-05-25T06:38:40Z",
+      "description": "A newly identified scareware kit called CypherLoc is locking victims’ browsers and tricking them into calling fake Microsoft support lines. The kit has been linked to roughly 2.8 million attacks since the start of 2026, making it one of the more aggressive browser-based threats observed this year. Unlike traditional malware that requires a file to […] The post Hackers Use Browser-Locking…",
+      "source": "cybersecuritynews.com",
+      "first_seen": "2026-05-25T07:01:39Z",
+      "last_seen": "2026-05-25T07:01:39Z"
+    },
+    {
+      "id": "0c115e84991e586e423448a94fc4c78a72ec551e",
+      "title": "TrapDoor Supply Chain Attack Spreads Credential-Stealing Malware via npm, PyPI, and CratesIO",
+      "link": "https://thehackernews.com/2026/05/trapdoor-supply-chain-attack-spreads.html",
+      "date": "2026-05-25T05:59:13Z",
+      "description": "A new coordinated cross-ecosystem software supply chain attack campaign has targeted npm, PyPI, and Crates.io to distribute credential-stealing malware. The campaign, codenamed TrapDoor, spans more than 34 malicious packages across over 384 versions. The earliest activity was recorded on May 22, 2026, at 8:20 p.m. UTC, with new packages published to the ecosystems in waves from a cluster of",
+      "source": "thehackernews.com",
+      "first_seen": "2026-05-25T07:01:39Z",
+      "last_seen": "2026-05-25T07:01:39Z"
+    },
+    {
+      "id": "52a68b5d7fde0a281b1cbb319ab1ff884b922adf",
+      "title": "Pentest Agent Suite – Bug Bounty Framework for Claude Code and 6 AI Coding Tools",
+      "link": "https://cybersecuritynews.com/pentest-agent-suite/",
+      "date": "2026-05-25T02:37:15Z",
+      "description": "A fully autonomous bug-bounty framework called Pentest Agent Suite has been open-sourced, delivering 50 specialized security agents, 26 slash commands, 19 CLI tools, and a cross-IDE installer across seven major AI coding platforms — Claude Code, OpenAI Codex, Google Gemini, Cursor, Windsurf, VS Code Copilot, and OpenClaw. The project, published on GitHub by researcher H-mmer, […] The post…",
+      "source": "cybersecuritynews.com",
+      "first_seen": "2026-05-25T07:01:39Z",
+      "last_seen": "2026-05-25T07:01:39Z"
+    },
+    {
+      "id": "5ac6d04fb33020ae81b3597f1d3c325d6a0085fc",
+      "title": "Wireshark 4.6.6 Released With Fix for Dissector Crash via Malformed Packet Injection",
+      "link": "https://cybersecuritynews.com/wireshark-4-6-6-released/",
+      "date": "2026-05-25T02:18:16Z",
+      "description": "The Wireshark Foundation has released Wireshark 4.6.6, addressing a critical security vulnerability in the ROHC (Robust Header Compression) protocol dissector that could allow an attacker to crash the application by injecting a specially crafted, malformed packet. The update also resolves over a dozen stability and compatibility bugs affecting Windows users. The primary security fix targets […]…",
+      "source": "cybersecuritynews.com",
+      "first_seen": "2026-05-25T07:01:39Z",
+      "last_seen": "2026-05-25T07:01:39Z"
+    },
+    {
       "id": "a1e8437c6df8a9dcaa3a349cb7801810349ffb2e",
       "title": "Ghost CMS SQL injection flaw exploited in large-scale ClickFix campaign",
       "link": "https://www.bleepingcomputer.com/news/security/ghost-cms-sql-injection-flaw-exploited-in-large-scale-clickfix-campaign/",
@@ -31,7 +91,7 @@
       "description": "A large-scale campaign is exploiting a critical SQL injection vulnerability (CVE-2026-26980) in Ghost CMS to inject malicious JavaScript code that triggers ClickFix attack flows. [...]",
       "source": "bleepingcomputer.com",
       "first_seen": "2026-05-24T14:22:26Z",
-      "last_seen": "2026-05-25T02:15:40Z"
+      "last_seen": "2026-05-25T07:01:39Z"
     },
     {
       "id": "8efe9280b50ff80c75c3021e0f2284f7ac5db74d",
@@ -61,7 +121,7 @@
       "description": "A supply chain attack targeting the Laravel Lang localization packages has exposed developers to a sophisticated credential-stealing malware campaign after attackers abused GitHub version tags to distribute malicious code through Composer packages. [...]",
       "source": "bleepingcomputer.com",
       "first_seen": "2026-05-23T21:43:27Z",
-      "last_seen": "2026-05-25T02:15:40Z"
+      "last_seen": "2026-05-25T07:01:39Z"
     },
     {
       "id": "68ea83e527cb5708d3c85eca09c42cfe4c0ac9ef",
@@ -71,7 +131,7 @@
       "description": "GitHub has rolled out new controls for npm to improve the security of the software supply chain, giving maintainers the ability to explicitly approve a release prior to the packages becoming publicly available for installation. Called staged publishing, the feature is now generally available on npm. It mandates that a human maintainer pass a two-factor authentication (2FA) challenge to approve",
       "source": "thehackernews.com",
       "first_seen": "2026-05-23T17:53:20Z",
-      "last_seen": "2026-05-25T02:15:40Z"
+      "last_seen": "2026-05-25T07:01:39Z"
     },
     {
       "id": "b60cfa45bc168c9033fd6c43c2fcdc8fc5f186bf",
@@ -81,7 +141,7 @@
       "description": "A new \"coordinated\" supply chain attack campaign has impacted eight packages on Packagist including malicious code designed to run a Linux binary retrieved from a GitHub Releases URL. \"Although the affected packages were all Composer packages, the malicious code was not added to composer.json,\" Socket said. \"Instead, it was inserted into package.json, targeting projects that ship JavaScript",
       "source": "thehackernews.com",
       "first_seen": "2026-05-23T17:53:20Z",
-      "last_seen": "2026-05-25T02:15:40Z"
+      "last_seen": "2026-05-25T07:01:39Z"
     },
     {
       "id": "4e6dc30693b38f9a7cd8f28688bb7ff6667347c8",
@@ -91,7 +151,7 @@
       "description": "Italian authorities have dismantled a piracy ecosystem centered around the CINEMAGOAL app that provided access to various streaming platforms, including Netflix, Disney+, and Spotify. [...]",
       "source": "bleepingcomputer.com",
       "first_seen": "2026-05-23T15:54:18Z",
-      "last_seen": "2026-05-25T02:15:40Z"
+      "last_seen": "2026-05-25T07:01:39Z"
     },
     {
       "id": "47de6153ee3d4f999f4ad1eabd9b035f7c2e6448",
@@ -101,7 +161,7 @@
       "description": "Anthropic on Friday disclosed that Project Glasswing has helped uncover more than 10,000 high- or critical-severity vulnerabilities across some of the most \"systemically\" important software across the world since the cybersecurity initiative went live last month. Project Glasswing is an effort led by the artificial intelligence (AI) company, as part of which a small set of about 50 partners",
       "source": "thehackernews.com",
       "first_seen": "2026-05-23T12:58:04Z",
-      "last_seen": "2026-05-25T02:15:40Z"
+      "last_seen": "2026-05-25T07:01:39Z"
     },
     {
       "id": "910da395f7a8147d8053998c93091266a0b95eb4",
@@ -121,7 +181,7 @@
       "description": "The stealthy vulnerability impacts roughly 88 million domains and can be exploited to bypass DNS filtering and hide command-and-control traffic. The post ‘Underminr’ Vulnerability Lets Attackers Hide Malicious Connections Behind Trusted Domains appeared first on SecurityWeek.",
       "source": "securityweek.com",
       "first_seen": "2026-05-23T11:53:28Z",
-      "last_seen": "2026-05-25T02:15:40Z"
+      "last_seen": "2026-05-25T07:01:39Z"
     },
     {
       "id": "47b2954a67d2d8034fb53b5e70b73c1f30a3c171",
@@ -131,7 +191,7 @@
       "description": "Cybersecurity researchers have flagged a fresh software supply chain attack campaign that has targeted multiple PHP packages belonging to Laravel-Lang to deliver a comprehensive credential-stealing framework. The affected packages include - laravel-lang/lang laravel-lang/http-statuses laravel-lang/attributes laravel-lang/actions \"The timing and pattern of the newly published tags",
       "source": "thehackernews.com",
       "first_seen": "2026-05-23T10:20:52Z",
-      "last_seen": "2026-05-25T02:15:40Z"
+      "last_seen": "2026-05-25T07:01:39Z"
     },
     {
       "id": "aae42e7929030eac6a6c9483f55c5f28024b9249",
@@ -271,7 +331,7 @@
       "description": "Financial crime investigators in the Netherlands (FIOD) arrested two men and seized 800 servers linked to a web hosting company that enabled cyberattacks, interference operations, and disinformation campaigns. [...]",
       "source": "bleepingcomputer.com",
       "first_seen": "2026-05-22T18:27:28Z",
-      "last_seen": "2026-05-25T02:15:40Z"
+      "last_seen": "2026-05-25T07:01:39Z"
     },
     {
       "id": "163583aef5a629245e97633847254ad955c8ed45",
@@ -291,7 +351,7 @@
       "description": "Drupal is warning users that it has already seen attempts to exploit CVE-2026-9082 and security firms are seeing attacks against thousands of websites. The post Drupal Vulnerability in Hacker Crosshairs Shortly After Disclosure appeared first on SecurityWeek.",
       "source": "securityweek.com",
       "first_seen": "2026-05-22T18:27:28Z",
-      "last_seen": "2026-05-25T02:15:40Z"
+      "last_seen": "2026-05-25T07:01:39Z"
     },
     {
       "id": "8421aa1d500abcc394b862ed9b8fcada91f45fe6",
@@ -341,7 +401,7 @@
       "description": "When Akamai announced its LayerX acquisition, the company joined a growing list of vendors adding secure enterprise browsers to their product portfolios.",
       "source": "darkreading.com",
       "first_seen": "2026-05-22T18:27:28Z",
-      "last_seen": "2026-05-25T02:15:40Z"
+      "last_seen": "2026-05-25T07:01:39Z"
     },
     {
       "id": "2cdeee088b94b444cd2a3aa76cf6bb3161edf1e0",
@@ -351,7 +411,7 @@
       "description": "Two former executives of a call-tracking and analytics company pleaded guilty to concealing a years-long tech support fraud scheme that victimized individuals worldwide. [...]",
       "source": "bleepingcomputer.com",
       "first_seen": "2026-05-22T16:13:56Z",
-      "last_seen": "2026-05-25T02:15:40Z"
+      "last_seen": "2026-05-25T07:01:39Z"
     },
     {
       "id": "c74d8e1313d66d60317612233b53c71182c99cb4",
@@ -381,7 +441,7 @@
       "description": "Other noteworthy stories that might have slipped under the radar: CISA contractor exposes credentials, Mythos testing and new features, Huawei router flaw triggered telecom blackout. The post In Other News: Industrial Router Exploitation, CISA KEV Nomination Form, Gas Station Hacking appeared first on SecurityWeek.",
       "source": "securityweek.com",
       "first_seen": "2026-05-22T16:13:56Z",
-      "last_seen": "2026-05-25T02:15:40Z"
+      "last_seen": "2026-05-25T07:01:39Z"
     },
     {
       "id": "932041d8caad365dd9ed8011d2bd2c3703b95899",
@@ -411,7 +471,7 @@
       "description": "Ransomware and vendor breaches persist, but the 2026 Data Breach Investigations Report (DBIR) highlights how evolving social engineering tactics make the sector more vulnerable.",
       "source": "darkreading.com",
       "first_seen": "2026-05-22T16:13:56Z",
-      "last_seen": "2026-05-25T02:15:40Z"
+      "last_seen": "2026-05-25T07:01:39Z"
     },
     {
       "id": "d56fcaaa8bcf24e53663da7817c9c2854d1dfe6f",
@@ -451,7 +511,7 @@
       "description": "Jacob Butler, 23, has been arrested in Canada and US authorities are seeking his extradition on computer hacking charges. The post Canadian Man Arrested for Operating Kimwolf Botnet appeared first on SecurityWeek.",
       "source": "securityweek.com",
       "first_seen": "2026-05-22T13:22:23Z",
-      "last_seen": "2026-05-25T02:15:40Z"
+      "last_seen": "2026-05-25T07:01:39Z"
     },
     {
       "id": "5f905a338c94bbfe5b0ede230c5c18028bc7e260",
@@ -531,7 +591,7 @@
       "description": "The FBI says First VPN has been used by dozens of ransomware groups for network reconnaissance and intrusions. The post ‘First VPN’ Cybercrime Service Disrupted, Administrator Arrested appeared first on SecurityWeek.",
       "source": "securityweek.com",
       "first_seen": "2026-05-22T10:15:22Z",
-      "last_seen": "2026-05-25T02:15:40Z"
+      "last_seen": "2026-05-25T07:01:39Z"
     },
     {
       "id": "664fb02946d9afa0a32564cc736f80e00aefc9f1",
@@ -611,7 +671,7 @@
       "description": "The advanced persistent threat group also relied on SOCKS proxies like SoftEther VPN, tunneling tools that act as a middleman between victim and attacker.",
       "source": "darkreading.com",
       "first_seen": "2026-05-22T13:22:23Z",
-      "last_seen": "2026-05-25T02:15:40Z"
+      "last_seen": "2026-05-25T07:01:39Z"
     },
     {
       "id": "cc209f24a923125672dbd1dc8322e5b8414410f1",
@@ -651,7 +711,7 @@
       "description": "A CVSS score 7.8 AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H severity vulnerability discovered by 'Anonymous' was reported to the affected vendor on: 2026-05-22, 0 days ago. The vendor is given until 2026-09-19 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
       "source": "zerodayinitiative.com",
       "first_seen": "2026-05-22T16:13:56Z",
-      "last_seen": "2026-05-25T02:15:40Z"
+      "last_seen": "2026-05-25T07:01:39Z"
     },
     {
       "id": "3953909cb41d4f2c42c4d220015507a3a081c628",
@@ -661,7 +721,7 @@
       "description": "A CVSS score 5.5 AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H severity vulnerability discovered by 'zent' was reported to the affected vendor on: 2026-05-22, 0 days ago. The vendor is given until 2026-09-19 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
       "source": "zerodayinitiative.com",
       "first_seen": "2026-05-22T16:13:56Z",
-      "last_seen": "2026-05-25T02:15:40Z"
+      "last_seen": "2026-05-25T07:01:39Z"
     },
     {
       "id": "a758351b59522f9069392f67a4200afeebf2605f",
@@ -671,7 +731,7 @@
       "description": "A CVSS score 7.8 AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H severity vulnerability discovered by 'Anonymous' was reported to the affected vendor on: 2026-05-22, 0 days ago. The vendor is given until 2026-09-19 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
       "source": "zerodayinitiative.com",
       "first_seen": "2026-05-22T16:13:56Z",
-      "last_seen": "2026-05-25T02:15:40Z"
+      "last_seen": "2026-05-25T07:01:39Z"
     },
     {
       "id": "63795b61de53b7ca9c9b1f60737b59a82673333a",
@@ -681,7 +741,7 @@
       "description": "A CVSS score 5.5 AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H severity vulnerability discovered by 'zent' was reported to the affected vendor on: 2026-05-22, 0 days ago. The vendor is given until 2026-09-19 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
       "source": "zerodayinitiative.com",
       "first_seen": "2026-05-22T16:13:56Z",
-      "last_seen": "2026-05-25T02:15:40Z"
+      "last_seen": "2026-05-25T07:01:39Z"
     },
     {
       "id": "0e395a16e7ca2be1e73b089210f065be33dcacec",
@@ -691,7 +751,7 @@
       "description": "A CVSS score 8.1 AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H severity vulnerability discovered by 'Nicholas Zubrisky (@NZubrisky) of TrendAI Research' was reported to the affected vendor on: 2026-05-22, 0 days ago. The vendor is given until 2026-09-19 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
       "source": "zerodayinitiative.com",
       "first_seen": "2026-05-22T16:13:56Z",
-      "last_seen": "2026-05-25T02:15:40Z"
+      "last_seen": "2026-05-25T07:01:39Z"
     },
     {
       "id": "3e4c3ae4d92e2c90f7b3173e4a592211bbbce815",
@@ -731,7 +791,7 @@
       "description": "A security researcher discovered the API keys can still be used for up to 23 minutes after deletion, even though the cloud provider claims deletion is immediate.",
       "source": "darkreading.com",
       "first_seen": "2026-05-21T20:29:39Z",
-      "last_seen": "2026-05-25T02:15:40Z"
+      "last_seen": "2026-05-25T07:01:39Z"
     },
     {
       "id": "e89c0842ca7be6a566b5b4636d35e48507cf22ec",
@@ -821,7 +881,7 @@
       "description": "AI agent projects are proliferating throughout the enterprise, and those AI agent identities require management, security, and governance. New Omdia research shows the AI agent identity budget dynamics are very different than traditional IAM projects.",
       "source": "darkreading.com",
       "first_seen": "2026-05-21T16:33:57Z",
-      "last_seen": "2026-05-25T02:15:40Z"
+      "last_seen": "2026-05-25T07:01:39Z"
     },
     {
       "id": "4ef70b6d8ccf27c7d88888b6b3a00632c8e757a3",
@@ -1251,7 +1311,7 @@
       "description": "The post Public Exploit Exposes Root Privilege Escalation Flaw in VMware Fusion appeared first on Daily CyberSecurity. Related posts: Weaponizing Windows Errors: PoC Dropped for Critical Privilege Escalation Flaw in WER Service Code in the Wild: Full Technical Deep-Dive and Public GitHub PoC Released for Critical Linux TLS Root Exploit Pre-Auth RCE Exposed: Apache HTTP Server Vulnerability and…",
       "source": "securityonline.info",
       "first_seen": "2026-05-21T02:08:46Z",
-      "last_seen": "2026-05-25T02:15:40Z"
+      "last_seen": "2026-05-25T07:01:39Z"
     },
     {
       "id": "c20216d34415300a0478bc85994c994aa4c81eed",
@@ -1881,7 +1941,7 @@
       "description": "The post Details and PoC Exploit Code Released: Critical Cockpit RCE Flaw Grants Instant Root Shells appeared first on Daily CyberSecurity. Related posts: Vim Under Fire: High-Severity “Tabpanel” Bug Allows RCE via Simple File Open Exploit Code Live: Full Technical Details and PoC Disclosed for Critical CWP RCE Vulnerability Supply Chain Alert: Critical 9.4 CVSS RCE Hits Sonatype Nexus…",
       "source": "securityonline.info",
       "first_seen": "2026-05-20T02:09:44Z",
-      "last_seen": "2026-05-25T02:15:40Z"
+      "last_seen": "2026-05-25T07:01:39Z"
     },
     {
       "id": "bb1144ad19d375b6b36638912eadad31282b599a",
@@ -4561,7 +4621,7 @@
       "description": "The post Pre-Auth RCE Exposed: Apache HTTP Server Vulnerability and Exploit Code Hit the Public appeared first on Daily CyberSecurity. Related posts: Rclone Critical Vulnerability Alert: Public PoC Released for Administrative Auth Bypass and RCE Millions at Risk: Apache HTTP Server Fixes Critical Remote Code Execution Flaw Apache Tomcat RCE Details and Exploit Code Now Public",
       "source": "securityonline.info",
       "first_seen": "2026-05-13T06:16:29Z",
-      "last_seen": "2026-05-25T02:15:40Z"
+      "last_seen": "2026-05-25T07:01:39Z"
     },
     {
       "id": "7cfd0124a76b9fd45ff9936274b23a5f5939edfe",
@@ -5211,7 +5271,7 @@
       "description": "The post Apache Tomcat RCE Details and Exploit Code Now Public appeared first on Daily CyberSecurity. Related posts: Bypassing the Bouncer: Apache Tomcat Patches SNI & Legacy Protocol Flaws Weaponizing Windows Errors: PoC Dropped for Critical Privilege Escalation Flaw in WER Service Total Takeover Threat: Critical IceWarp Flaws Trigger Emergency Server Patches",
       "source": "securityonline.info",
       "first_seen": "2026-05-12T05:38:30Z",
-      "last_seen": "2026-05-25T02:15:40Z"
+      "last_seen": "2026-05-25T07:01:39Z"
     },
     {
       "id": "36a9de5238f7628fdbaf3d07032d77096e668028",
@@ -8241,7 +8301,7 @@
       "description": "The post Fully Exposed: Public PoC Released for the Adobe PDF Vulnerabilities Exploited in the Wild appeared first on Daily CyberSecurity. Related posts: CVE-2022-22947: Spring Cloud Gateway Remote Code Execution Vulnerability Alert Android system is also affected by Linux kernel Dirty Pipe flaw, Google is fixing it CVE-2022-28721: RCE Flaw Found In Over 60 HP Printers Models",
       "source": "securityonline.info",
       "first_seen": "2026-05-04T10:54:47Z",
-      "last_seen": "2026-05-25T02:15:40Z"
+      "last_seen": "2026-05-25T07:01:39Z"
     },
     {
       "id": "0373a01ccaaee305df82bf769bbf11ece7127403",
@@ -35334,36 +35394,6 @@
       "last_seen": "2026-02-25T16:58:13Z"
     },
     {
-      "id": "20adc8c34de3021bae3b1324a0adff0917a452df",
-      "title": "WhatsApp Introduces Optional Account Password Feature to Strengthen Login Security",
-      "link": "https://cybersecuritynews.com/whatsapp-password-feature/",
-      "date": "2026-02-24T04:35:22Z",
-      "description": "WhatsApp has released a new Android update through the Google Play Beta Program, bringing the version up to 2.26.7.8. The update reveals that WhatsApp is actively developing an optional account password feature designed to add another layer of security on top of the existing two-step verification (2FA) system. WhatsApp already offers two-step verification as an […] The post WhatsApp Introduces…",
-      "source": "cybersecuritynews.com",
-      "first_seen": "2026-02-24T06:46:46Z",
-      "last_seen": "2026-02-24T09:41:11Z"
-    },
-    {
-      "id": "934c36a3c2ad4545f53bddc342c033887efe53fe",
-      "title": "$10K+ Bounty Offered to Hacker Who Can Disconnect Ring Video Doorbells from Amazon Cloud",
-      "link": "https://cybersecuritynews.com/10k-bounty-amazon-ring/",
-      "date": "2026-02-24T04:21:10Z",
-      "description": "A newly launched bug bounty program is offering nearly $18,000 to anyone who can successfully disconnect Ring Video Doorbells from Amazon’s cloud servers while keeping the devices fully functional. This initiative aims to address ongoing privacy concerns about Ring’s data-handling practices and the lack of local storage options for users. The bounty targets Ring doorbells […] The post $10K+…",
-      "source": "cybersecuritynews.com",
-      "first_seen": "2026-02-24T06:46:46Z",
-      "last_seen": "2026-02-24T08:34:16Z"
-    },
-    {
-      "id": "4884ff8e14ed5d433788b80d5ae83bf408ca4059",
-      "title": "Google Chrome Emergency Security Update Patches Three High-Severity Vulnerabilities",
-      "link": "https://cybersecuritynews.com/google-chrome-emergency-security-update/",
-      "date": "2026-02-24T02:15:10Z",
-      "description": "Google has released a critical security update for its Chrome browser, pushing version 145.0.7632.116/117 to Windows and macOS users, while Linux users receive version 144.0.7559.116. The update, which is rolling out progressively over the coming days and weeks, addresses three high-severity vulnerabilities that could expose users to significant risk if left unpatched. The update carries […] The…",
-      "source": "cybersecuritynews.com",
-      "first_seen": "2026-02-24T04:08:23Z",
-      "last_seen": "2026-02-24T08:34:16Z"
-    },
-    {
       "id": "a3000b6c9743aa6d240e7e6050280d4cfa829ba4",
       "title": "More Than Dashboards: AI Decisions Must Be Provable",
       "link": "https://www.darkreading.com/cyber-risk/more-dashboards-ai-decisions-provable",
@@ -35381,7 +35411,7 @@
       "description": "2.5 million people were affected, in a breach that could spell more trouble down the line.",
       "source": "threatpost.com",
       "first_seen": "2026-05-10T12:53:08Z",
-      "last_seen": "2026-05-25T02:15:40Z"
+      "last_seen": "2026-05-25T07:01:39Z"
     },
     {
       "id": "4140c7a34b0ba94ad2e6b0cae9f59b0cb9bfffea",
@@ -35391,7 +35421,7 @@
       "description": "Researchers uncover a watering hole attack likely carried out by APT TA423, which attempts to plant the ScanBox JavaScript-based reconnaissance tool.",
       "source": "threatpost.com",
       "first_seen": "2026-05-10T12:53:08Z",
-      "last_seen": "2026-05-25T02:15:40Z"
+      "last_seen": "2026-05-25T07:01:39Z"
     },
     {
       "id": "9359ee40a641a4b565080313045f1d7e7fe6552b",
@@ -35401,7 +35431,7 @@
       "description": "Over 130 companies tangled in sprawling phishing campaign that spoofed a multi-factor authentication system.",
       "source": "threatpost.com",
       "first_seen": "2026-05-10T12:53:08Z",
-      "last_seen": "2026-05-25T02:15:40Z"
+      "last_seen": "2026-05-25T07:01:39Z"
     },
     {
       "id": "b4ccef0737cd4050d65241bf754072030b6b5e6a",
@@ -35411,7 +35441,7 @@
       "description": "Lockbit is by far this summer’s most prolific ransomware group, trailed by two offshoots of the Conti group.",
       "source": "threatpost.com",
       "first_seen": "2026-05-10T12:53:08Z",
-      "last_seen": "2026-05-25T02:15:40Z"
+      "last_seen": "2026-05-25T07:01:39Z"
     },
     {
       "id": "12ee113fc8fce91f6d7fb28deab2b1ad20061ec7",
@@ -35421,7 +35451,7 @@
       "description": "Tens of thousands of cameras have failed to patch a critical, 11-month-old CVE, leaving thousands of organizations exposed.",
       "source": "threatpost.com",
       "first_seen": "2026-05-10T12:53:08Z",
-      "last_seen": "2026-05-25T02:15:40Z"
+      "last_seen": "2026-05-25T07:01:39Z"
     }
   ]
 }
