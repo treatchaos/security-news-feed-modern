@@ -1,7 +1,28 @@
 {
-  "last_updated": "2026-05-25T14:32:06Z",
-  "count": 35,
+  "last_updated": "2026-05-25T16:58:08Z",
+  "count": 40,
   "items": [
+    {
+      "title": "KnowledgeDeliver LMS Zero-Day Exploited to Deploy BLUEBEAM Web Shell",
+      "link": "https://cybersecuritynews.com/knowledgedeliver-lms-zero-day-exploited/",
+      "date": "2026-05-25T15:30:48Z",
+      "description": "A newly disclosed zero-day vulnerability in the KnowledgeDeliver Learning Management System (LMS) has been actively exploited in the wild to deploy the BLUEBEAM in-memory web shell, according to Mandiant’s incident response findings. The flaw, now tracked as CVE-2026-5426, enables unauthenticated remote code execution (RCE) and affects deployments that relied on default ASP.NET configuration…",
+      "source": "cybersecuritynews.com"
+    },
+    {
+      "title": "Iranian APT Uses SEO Poisoning to Deliver Fake SQL Developer Malware Installer",
+      "link": "https://cybersecuritynews.com/iranian-apt-uses-seo-poisoning/",
+      "date": "2026-05-25T15:15:56Z",
+      "description": "A well-known Iranian threat group has found a new way to push malware onto people’s machines. Instead of sending phishing emails, the group built a fake website that impersonated a real database software download page and used search engine tricks to rank it near the top of results. Anyone who searched for the tool online […] The post Iranian APT Uses SEO Poisoning to Deliver Fake SQL Developer…",
+      "source": "cybersecuritynews.com"
+    },
+    {
+      "title": "⚡ Weekly Recap: Linux Flaws, Defender 0-Days, Router Botnets, and Supply Chain Chaos",
+      "link": "https://thehackernews.com/2026/05/weekly-recap-linux-flaws-defender-0.html",
+      "date": "2026-05-25T14:13:27Z",
+      "description": "Monday recap. Same mess, new week. A sketchy dev tool got people pwned, old bugs came back from the dead, and security products somehow needed protecting from themselves. A bunch of companies spent the week checking old boxes and forgotten servers they should've patched years ago. Good times. Phishing crews are getting smarter too - less obvious scam junk, more targeted stuff that actually",
+      "source": "thehackernews.com"
+    },
     {
       "title": "Ghost CMS Vulnerability Exploited to Hack Over 700 Websites",
       "link": "https://www.securityweek.com/ghost-cms-vulnerability-exploited-to-hack-over-700-websites/",
@@ -80,25 +101,11 @@
       "source": "cybersecuritynews.com"
     },
     {
-      "title": "MiniUpdate RAT Uses Azure-Hosted C2 Domains for Targeted Espionage Campaigns",
-      "link": "https://cybersecuritynews.com/miniupdate-rat-uses-azure-hosted-c2-domains/",
-      "date": "2026-05-25T09:43:15Z",
-      "description": "A new wave of targeted espionage attacks has put technology professionals across the United States, Israel, and the United Arab Emirates on high alert. The threat comes from an Iran-linked hacking group deploying two families of remote access trojans through cleverly disguised recruitment lures and fake software installers. The campaign began as early as mid-February […] The post MiniUpdate RAT…",
-      "source": "cybersecuritynews.com"
-    },
-    {
       "title": "Lazarus Deploys RemotePE Memory-Only RAT Against Financial and Crypto Firms",
       "link": "https://thehackernews.com/2026/05/lazarus-deploys-remotepe-memory-only.html",
       "date": "2026-05-25T09:32:54Z",
       "description": "Cybersecurity researchers have shed light on a cross-platform malware called RemotePE that has been put to use by the North Korea-linked Lazarus Group in attacks targeting financial and cryptocurrency organizations. RemotePE, per NCC Group subsidiary Fox-IT, is part of a multi-stage attack chain that involves two loaders tracked as DPAPILoader and RemotePELoader. \"DPAPILoader decrypts and",
       "source": "thehackernews.com"
-    },
-    {
-      "title": "WhatsApp Chat Histories Stored Unencrypted on macOS and iOS",
-      "link": "https://cybersecuritynews.com/whatsapp-chat-stored-unencrypted-macos-and-ios/",
-      "date": "2026-05-25T09:14:06Z",
-      "description": "New research has revealed that WhatsApp chat histories may be stored unencrypted on both macOS and iOS devices, raising fresh concerns about local data protection and cross-application access within the Apple ecosystem. The issue, highlighted by iOS security researchers at Mysk, centers on how WhatsApp stores its message database locally after messages are decrypted on […] The post WhatsApp Chat…",
-      "source": "cybersecuritynews.com"
     },
     {
       "title": "TrapDoor Supply Chain Attack Spreads Credential-Stealing Malware via npm, PyPI, and CratesIO",
@@ -122,13 +129,6 @@
       "source": "bleepingcomputer.com"
     },
     {
-      "title": "npm Adds 2FA-Gated Publishing and Package Install Controls Against Supply Chain Attacks",
-      "link": "https://thehackernews.com/2026/05/npm-adds-2fa-gated-publishing-and.html",
-      "date": "2026-05-23T16:35:10Z",
-      "description": "GitHub has rolled out new controls for npm to improve the security of the software supply chain, giving maintainers the ability to explicitly approve a release prior to the packages becoming publicly available for installation. Called staged publishing, the feature is now generally available on npm. It mandates that a human maintainer pass a two-factor authentication (2FA) challenge to approve",
-      "source": "thehackernews.com"
-    },
-    {
       "title": "Italy disrupts CINEMAGOAL piracy app that stole streaming auth codes",
       "link": "https://www.bleepingcomputer.com/news/legal/italy-disrupts-cinemagoal-piracy-app-that-stole-streaming-auth-codes/",
       "date": "2026-05-23T14:23:44Z",
@@ -141,6 +141,27 @@
       "date": "2026-05-22T17:24:52Z",
       "description": "Financial crime investigators in the Netherlands (FIOD) arrested two men and seized 800 servers linked to a web hosting company that enabled cyberattacks, interference operations, and disinformation campaigns. [...]",
       "source": "bleepingcomputer.com"
+    },
+    {
+      "title": "Akamai Joins Growing Chorus of Vendors Betting Big on Secure Enterprise Browsers",
+      "link": "https://www.darkreading.com/remote-workforce/akamai-growing-chorus-betting-on-secure-enterprise-browsers",
+      "date": "2026-05-22T15:43:50Z",
+      "description": "When Akamai announced its LayerX acquisition, the company joined a growing list of vendors adding secure enterprise browsers to their product portfolios.",
+      "source": "darkreading.com"
+    },
+    {
+      "title": "Verizon DBIR: Healthcare Fends Off Increased Social Engineering Attacks",
+      "link": "https://www.darkreading.com/cyber-risk/verizon-dbir-healthcare-fends-off-increased-social-engineering-attacks",
+      "date": "2026-05-22T13:17:25Z",
+      "description": "Ransomware and vendor breaches persist. The \"2026 Data Breach Investigations Report\" (DBIR) highlights how evolving social engineering tactics make the sector more vulnerable.",
+      "source": "darkreading.com"
+    },
+    {
+      "title": "China's Webworm Uses Discord, Microsoft Graphs to Hack EU Governments",
+      "link": "https://www.darkreading.com/endpoint-security/chinas-webworm-discord-microsoft-graphs",
+      "date": "2026-05-22T07:01:00Z",
+      "description": "The advanced persistent threat group also relied on SOCKS proxies like SoftEther VPN, tunneling tools that act as a middleman between victim and attacker.",
+      "source": "darkreading.com"
     },
     {
       "title": "ZDI-CAN-31127: llama.cpp",
@@ -176,6 +197,20 @@
       "date": "2026-05-22T05:00:00Z",
       "description": "A CVSS score 8.1 AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H severity vulnerability discovered by 'Nicholas Zubrisky (@NZubrisky) of TrendAI Research' was reported to the affected vendor on: 2026-05-22, 3 days ago. The vendor is given until 2026-09-19 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
       "source": "zerodayinitiative.com"
+    },
+    {
+      "title": "Google API Keys Remain Active After Deletion",
+      "link": "https://www.darkreading.com/identity-access-management-security/google-api-keys-active-after-deletion",
+      "date": "2026-05-21T20:07:47Z",
+      "description": "A security researcher discovered the API keys can still be used for up to 23 minutes after deletion, even though the cloud provider claims deletion is immediate.",
+      "source": "darkreading.com"
+    },
+    {
+      "title": "AI Agents Are Shifting Identity Security Budget Dynamics",
+      "link": "https://www.darkreading.com/identity-access-management-security/shifting-budget-dynamics-identity-security-ai-agents",
+      "date": "2026-05-21T15:43:37Z",
+      "description": "AI agent projects are proliferating throughout the enterprise, and those AI agent identities require management, security, and governance. New Omdia research shows the AI agent identity budget dynamics are very different than traditional IAM projects.",
+      "source": "darkreading.com"
     },
     {
       "title": "Public Exploit Exposes Root Privilege Escalation Flaw in VMware Fusion",
