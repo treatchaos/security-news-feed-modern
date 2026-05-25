@@ -1,7 +1,28 @@
 {
-  "last_updated": "2026-05-25T18:23:25Z",
+  "last_updated": "2026-05-25T20:18:35Z",
   "count": 40,
   "items": [
+    {
+      "title": "InvisibleFerret Malware Now Ships as .pyd and .so Files to Evade Script Detection",
+      "link": "https://cybersecuritynews.com/invisibleferret-malware-now-ships-as-pyd/",
+      "date": "2026-05-25T19:50:53Z",
+      "description": "A North Korea-linked hacker group has quietly upgraded one of its most dangerous tools, making it harder for security software to detect. InvisibleFerret, an information-stealing malware tied to the threat actor known as Void Dokkaebi (also tracked as Famous Chollima), has been repackaged into a format that slips past many traditional detection methods. Instead of […] The post InvisibleFerret…",
+      "source": "cybersecuritynews.com"
+    },
+    {
+      "title": "Cloud Atlas APT Group Modifies termsrv.dll to Enable Multiple RDP Sessions on Victim Hosts",
+      "link": "https://cybersecuritynews.com/cloud-atlas-apt-group-modifies-termsrv-dll/",
+      "date": "2026-05-25T19:48:22Z",
+      "description": "A well-known advanced persistent threat group called Cloud Atlas has been caught using a dangerous technique to hijack Windows systems without alerting anyone on the network. The group modifies a core Windows file called termsrv.dll to unlock multiple simultaneous Remote Desktop Protocol (RDP) sessions on a victim’s computer. This lets attackers work in the background […] The post Cloud Atlas…",
+      "source": "cybersecuritynews.com"
+    },
+    {
+      "title": "Cybercriminals Use Telegram Channels to Sell Verified Bank and Fintech Mule Accounts",
+      "link": "https://cybersecuritynews.com/cybercriminals-use-telegram-channels/",
+      "date": "2026-05-25T19:08:16Z",
+      "description": "Cybercriminals are openly selling verified bank accounts, fintech wallets, and cryptocurrency exchange accounts through Telegram channels, turning money laundering into a structured, on-demand criminal service. This underground market has grown far beyond informal recruitment and now operates like a professional industry, complete with tiered pricing, customer support, and account replacement…",
+      "source": "cybersecuritynews.com"
+    },
     {
       "title": "Hackers Hide Linux Payload Under SSH-Like Filename During Package Installation",
       "link": "https://cybersecuritynews.com/hackers-hide-linux-payload-under-ssh-like-filename/",
@@ -17,32 +38,11 @@
       "source": "cybersecuritynews.com"
     },
     {
-      "title": "Hackers Abuse Shared CDN Infrastructure to Bypass Domain Reputation Security Controls",
-      "link": "https://cybersecuritynews.com/hackers-abuse-shared-cdn-infrastructure/",
-      "date": "2026-05-25T17:16:15Z",
-      "description": "Hackers are actively abusing a flaw in shared Content Delivery Network (CDN) infrastructure to hide malicious traffic behind trusted, high-reputation domains, effectively slipping past the security tools that organizations rely on every day. The technique, now tracked under the name “Underminr,” is not a software bug but a deliberate abuse of how CDNs are designed […] The post Hackers Abuse…",
-      "source": "cybersecuritynews.com"
-    },
-    {
       "title": "Anthropic’s restricted Claude Mythos model may be coming to Claude Code",
       "link": "https://www.bleepingcomputer.com/news/artificial-intelligence/anthropics-restricted-claude-mythos-model-may-be-coming-to-claude-code/",
       "date": "2026-05-25T17:07:33Z",
       "description": "Anthropic appears to be preparing for the public rollout of the Mythos model, which was announced in April as a restricted model that poses major security risks to private and public software. [...]",
       "source": "bleepingcomputer.com"
-    },
-    {
-      "title": "KnowledgeDeliver LMS Zero-Day Exploited to Deploy BLUEBEAM Web Shell",
-      "link": "https://cybersecuritynews.com/knowledgedeliver-lms-zero-day-exploited/",
-      "date": "2026-05-25T15:30:48Z",
-      "description": "A newly disclosed zero-day vulnerability in the KnowledgeDeliver Learning Management System (LMS) has been actively exploited in the wild to deploy the BLUEBEAM in-memory web shell, according to Mandiant’s incident response findings. The flaw, now tracked as CVE-2026-5426, enables unauthenticated remote code execution (RCE) and affects deployments that relied on default ASP.NET configuration…",
-      "source": "cybersecuritynews.com"
-    },
-    {
-      "title": "Iranian APT Uses SEO Poisoning to Deliver Fake SQL Developer Malware Installer",
-      "link": "https://cybersecuritynews.com/iranian-apt-uses-seo-poisoning/",
-      "date": "2026-05-25T15:15:56Z",
-      "description": "A well-known Iranian threat group has found a new way to push malware onto people’s machines. Instead of sending phishing emails, the group built a fake website that impersonated a real database software download page and used search engine tricks to rank it near the top of results. Anyone who searched for the tool online […] The post Iranian APT Uses SEO Poisoning to Deliver Fake SQL Developer…",
-      "source": "cybersecuritynews.com"
     },
     {
       "title": "⚡ Weekly Recap: Linux Flaws, Defender 0-Days, Router Botnets, and Supply Chain Chaos",
@@ -122,6 +122,13 @@
       "source": "thehackernews.com"
     },
     {
+      "title": "ZDI-CAN-30890: Anysphere",
+      "link": "http://www.zerodayinitiative.com/advisories/upcoming/",
+      "date": "2026-05-25T05:00:00Z",
+      "description": "A CVSS score 7.8 AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H severity vulnerability discovered by 'Nurihan Kim (HanTul), Hyeon-gyu Lee (hy30nq)' was reported to the affected vendor on: 2026-05-25, 0 days ago. The vendor is given until 2026-09-22 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
+      "source": "zerodayinitiative.com"
+    },
+    {
       "title": "Ghost CMS SQL injection flaw exploited in large-scale ClickFix campaign",
       "link": "https://www.bleepingcomputer.com/news/security/ghost-cms-sql-injection-flaw-exploited-in-large-scale-clickfix-campaign/",
       "date": "2026-05-24T14:12:32Z",
@@ -189,13 +196,6 @@
       "link": "http://www.zerodayinitiative.com/advisories/upcoming/",
       "date": "2026-05-22T05:00:00Z",
       "description": "A CVSS score 5.5 AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H severity vulnerability discovered by 'zent' was reported to the affected vendor on: 2026-05-22, 3 days ago. The vendor is given until 2026-09-19 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
-      "source": "zerodayinitiative.com"
-    },
-    {
-      "title": "ZDI-CAN-30902: llama.cpp",
-      "link": "http://www.zerodayinitiative.com/advisories/upcoming/",
-      "date": "2026-05-22T05:00:00Z",
-      "description": "A CVSS score 8.1 AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H severity vulnerability discovered by 'Nicholas Zubrisky (@NZubrisky) of TrendAI Research' was reported to the affected vendor on: 2026-05-22, 3 days ago. The vendor is given until 2026-09-19 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
       "source": "zerodayinitiative.com"
     },
     {
