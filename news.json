@@ -1,13 +1,97 @@
 {
-  "last_updated": "2026-06-01T14:48:38Z",
-  "count": 35,
+  "last_updated": "2026-06-01T19:51:08Z",
+  "count": 40,
   "items": [
+    {
+      "title": "WP Maps Pro Vulnerability Exploited to Take Over WordPress Sites",
+      "link": "https://www.securityweek.com/wp-maps-pro-vulnerability-exploited-to-take-over-wordpress-sites/",
+      "date": "2026-06-01T18:19:23Z",
+      "description": "The security defect (CVE-2026-8732) allows unauthenticated attackers to create administrative accounts on the affected installations. The post WP Maps Pro Vulnerability Exploited to Take Over WordPress Sites appeared first on SecurityWeek.",
+      "source": "securityweek.com"
+    },
+    {
+      "title": "Dashlane password manager users locked out by brute force attacks",
+      "link": "https://www.bleepingcomputer.com/news/security/dashlane-password-manager-users-locked-out-by-brute-force-attacks/",
+      "date": "2026-06-01T18:17:13Z",
+      "description": "Multiple Dashlane users have been locked out of their accounts following brute-force attacks that attempted logins from distant locations and unknown devices. [...]",
+      "source": "bleepingcomputer.com"
+    },
+    {
+      "title": "Dutch Police Dismantle Massive 17-Million-Device Botnet",
+      "link": "https://www.securityweek.com/dutch-police-dismantle-massive-17-million-device-botnet/",
+      "date": "2026-06-01T17:55:26Z",
+      "description": "Dutch authorities seized command-and-control servers tied to a botnet of infected computers, smartphones, and tablets that was allegedly used to power a residential proxy network and facilitate cybercrime. The post Dutch Police Dismantle Massive 17-Million-Device Botnet appeared first on SecurityWeek.",
+      "source": "securityweek.com"
+    },
+    {
+      "title": "Miasma Supply Chain Attack Compromises Red Hat npm Packages with Credential-Stealing Worm",
+      "link": "https://thehackernews.com/2026/06/miasma-supply-chain-attack-compromises.html",
+      "date": "2026-06-01T17:40:28Z",
+      "description": "A new Mini Shai-Hulud supply chain attack campaign, codenamed Miasma, has compromised @redhat-cloud-services packages to steal credentials and secrets from developer machines and deliver a self-propagating worm. \"This is effectively a Mini Shai-Hulud campaign: it uses the same core tactics of install-time execution, credential harvesting, CI/CD targeting, encrypted exfiltration, and potential",
+      "source": "thehackernews.com"
+    },
+    {
+      "title": "IBM WebSphere Server Vulnerable to Remote Code Execution Attack Via Crafted Request",
+      "link": "https://cybersecuritynews.com/ibm-websphere-server-remote-code-execution/",
+      "date": "2026-06-01T17:09:10Z",
+      "description": "IBM has disclosed a critical security vulnerability in its WebSphere Application Server ecosystem that could allow attackers to execute arbitrary code through specially crafted HTTP requests. The flaw, tracked as CVE-2026-8633, affects environments that use the optional Web Server Plug-ins component, significantly elevating the risk for enterprise deployments that rely on WebSphere…",
+      "source": "cybersecuritynews.com"
+    },
+    {
+      "title": "WordPress malware campaign hides payloads in Steam profiles",
+      "link": "https://www.bleepingcomputer.com/news/security/wordpress-malware-campaign-hides-payloads-in-steam-profiles/",
+      "date": "2026-06-01T17:04:16Z",
+      "description": "Nearly 2,000 WordPress websites were infected with malware that relies on Steam Community profile comments to hide command-and-control (C2) data. [...]",
+      "source": "bleepingcomputer.com"
+    },
+    {
+      "title": "Critical Magento Cache Plugin Vulnerability Enables Remote Code Execution Attacks",
+      "link": "https://cybersecuritynews.com/magento-cache-plugin-vulnerability/",
+      "date": "2026-06-01T17:03:51Z",
+      "description": "A critical security vulnerability has been discovered in a widely used Magento caching plugin that allows attackers to remotely execute malicious code with no login, configuration changes, or admin access required. Security researchers at Sansec uncovered an unauthenticated PHP object injection flaw in Mirasvit Cache Warmer, a full-page cache extension used by thousands of Magento and […] The…",
+      "source": "cybersecuritynews.com"
+    },
+    {
+      "title": "Critical MCP Toolbox Vulnerability Impacts Enterprise Database onnectors",
+      "link": "https://cybersecuritynews.com/mcp-toolbox-vulnerability/",
+      "date": "2026-06-01T17:00:32Z",
+      "description": "A newly disclosed vulnerability, tracked as CVE-2026-9739, is raising security concerns across enterprise environments using MCP Toolbox, particularly those that rely on Server-Sent Events (SSE) for database connectivity. The flaw, currently awaiting NVD enrichment, allows attackers to exploit a DNS rebinding weakness that could lead to unauthorized access to backend systems. Security…",
+      "source": "cybersecuritynews.com"
+    },
+    {
+      "title": "Android Banking Trojan OverlayPhantom Abuses Accessibility Service to Control Devices",
+      "link": "https://cybersecuritynews.com/android-banking-trojan-overlayphantom/",
+      "date": "2026-06-01T16:09:13Z",
+      "description": "A dangerous new Android banking trojan called OverlayPhantom has been quietly targeting users across ten countries, placing banking credentials, financial data, and cryptocurrency accounts at serious risk. The malware has been active since May 2025 and spreads through malicious links disguised as downloads from trusted, well-known applications. What makes OverlayPhantom particularly alarming is…",
+      "source": "cybersecuritynews.com"
+    },
+    {
+      "title": "Microsoft Office for the Web and Teams Hit by File Access Outage",
+      "link": "https://cybersecuritynews.com/microsoft-office-teams-file-access/",
+      "date": "2026-06-01T16:07:30Z",
+      "description": "Microsoft experienced a service disruption affecting users’ ability to open files through Office for the Web and Microsoft Teams, with the company confirming resolution after investigating elevated error rates across its online productivity platform. The incident, tracked internally under MO1329446 in the Microsoft 365 Admin Center, began with widespread user reports of file-access failures…",
+      "source": "cybersecuritynews.com"
+    },
+    {
+      "title": "Critical Windows Netlogon Vulnerability in Attackers’ Crosshairs",
+      "link": "https://www.securityweek.com/critical-windows-netlogon-vulnerability-in-attackers-crosshairs/",
+      "date": "2026-06-01T15:02:17Z",
+      "description": "Organizations are advised to patch CVE-2026-41089 as soon as possible, given its severity, the potential ongoing exploitation. The post Critical Windows Netlogon Vulnerability in Attackers’ Crosshairs appeared first on SecurityWeek.",
+      "source": "securityweek.com"
+    },
     {
       "title": "Microsoft investigates Office Apps, Teams file access issues",
       "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-investigates-office-apps-teams-file-access-issues/",
       "date": "2026-06-01T14:36:46Z",
-      "description": "Microsoft says an ongoing incident is preventing users of its Teams collaboration platform and free Office for the web cloud-based productivity suite from opening files. [...]",
+      "description": "Microsoft says an ongoing incident is preventing users of its Teams collaboration platform and Office for the web cloud-based productivity suite from opening files. [...]",
       "source": "bleepingcomputer.com"
+    },
+    {
+      "title": "Patch Now: Another Palo Alto Auth Bypass Bug Under Active Exploit",
+      "link": "https://www.darkreading.com/threat-intelligence/patch-palo-alto-auth-bypass-bug-exploit",
+      "date": "2026-06-01T14:35:51Z",
+      "description": "Exploiting the PAN-OS GlobalProtect VPN vulnerability requires certain conditions, but adversaries have done so in two attack waves that started in mid-May.",
+      "source": "darkreading.com"
     },
     {
       "title": "Race Against Time: Why Faster Vulnerability Alerts Matter",
@@ -38,13 +122,6 @@
       "source": "bleepingcomputer.com"
     },
     {
-      "title": "Webinar tomorrow: From alert to resolution in network incident response",
-      "link": "https://www.bleepingcomputer.com/news/security/webinar-tomorrow-from-alert-to-resolution-in-network-incident-response/",
-      "date": "2026-06-01T12:01:09Z",
-      "description": "Network incidents are often detected quickly, but investigations and coordination can delay resolution. Join our webinar tomorrow to learn how automation and AI-assisted workflows can help IT teams accelerate incident response. [...]",
-      "source": "bleepingcomputer.com"
-    },
-    {
       "title": "China-Aligned Groups Ramp Up Attacks: Dragon Weave Hits Czech Republic & Taiwan",
       "link": "https://thehackernews.com/2026/06/china-aligned-groups-ramp-up-attacks.html",
       "date": "2026-06-01T11:54:24Z",
@@ -59,32 +136,11 @@
       "source": "securityweek.com"
     },
     {
-      "title": "Microsoft fixes outage affecting MFA setup, MySignIn service",
-      "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-outage-affecting-mfa-setup-mysignin-service/",
-      "date": "2026-06-01T11:40:16Z",
-      "description": "Microsoft is working to address an ongoing incident preventing customers from setting up multi-factor authentication (MFA) or accessing the My Sign-Ins platform. [...]",
-      "source": "bleepingcomputer.com"
-    },
-    {
       "title": "The Security Growth Platform: Why MSPs Are Moving Beyond vCISO Tools",
       "link": "https://thehackernews.com/2026/06/the-security-growth-platform-why-msps.html",
       "date": "2026-06-01T11:30:00Z",
       "description": "Three years ago, the practical question for an MSP building a cybersecurity practice was which \"vCISO platform\" to buy. The term was good shorthand for the work at the time: assessments, advisory, reporting, maybe a compliance module bolted on the side. The work has since outgrown the descriptor. A Security Growth Platform is the more precise name for what MSPs and MSSPs need from the software",
       "source": "thehackernews.com"
-    },
-    {
-      "title": "19-Year-Old Linux Kernel Vulnerability Exposes Systems to Root Access",
-      "link": "https://www.securityweek.com/19-year-old-linux-kernel-vulnerability-exposes-systems-to-root-access/",
-      "date": "2026-06-01T11:19:31Z",
-      "description": "Proof-of-concept (PoC) exploit code has been released for the CIFSwitch flaw, which allows low-privileged users to escalate to root on vulnerable Linux systems. The post 19-Year-Old Linux Kernel Vulnerability Exposes Systems to Root Access appeared first on SecurityWeek.",
-      "source": "securityweek.com"
-    },
-    {
-      "title": "Recent Palo Alto Networks Vulnerability Exploited for Weeks",
-      "link": "https://www.securityweek.com/recent-palo-alto-networks-vulnerability-exploited-for-weeks/",
-      "date": "2026-06-01T10:00:00Z",
-      "description": "Hackers began exploiting CVE-2026-0257, an authentication bypass in Palo Alto Networks PAN-OS, four days after public disclosure. The post Recent Palo Alto Networks Vulnerability Exploited for Weeks appeared first on SecurityWeek.",
-      "source": "securityweek.com"
     },
     {
       "title": "OpenAI Codex Authentication Tokens Stolen in codexui-android npm Supply Chain Attack",
@@ -94,25 +150,11 @@
       "source": "thehackernews.com"
     },
     {
-      "title": "Critical WP Maps Pro Flaw Actively Exploited to Create Admin Accounts",
-      "link": "https://thehackernews.com/2026/06/critical-wp-maps-pro-flaw-actively.html",
-      "date": "2026-06-01T08:45:29Z",
-      "description": "Threat actors are attempting to actively exploit a critical security flaw impacting WP Maps Pro, a WordPress plugin that has had over 15,000 sales on the Envato Market, to create malicious administrator accounts on susceptible sites. WP Maps Pro allows site owners to embed customizable Google Maps and OpenStreetMap with markers, listings, and advanced location features on WordPress sites. It is",
-      "source": "thehackernews.com"
-    },
-    {
       "title": "Critical FreeBSD Kernel Buffer Overflow Disclosed: Public Details & PoC Out",
       "link": "https://securityonline.info/freebsd-kernel-buffer-overflow-exploit/",
       "date": "2026-06-01T01:00:45Z",
       "description": "Security researchers recently published a detailed analysis of a significant vulnerability in modern operating systems. Specifically, this discovery The post Critical FreeBSD Kernel Buffer Overflow Disclosed: Public Details & PoC Out appeared first on Daily CyberSecurity. Related posts: CVE-2025-32432 (CVSS 10): Craft CMS Hit by Critical RCE Flaw Exploited in the Wild SAP Security Alert: May…",
       "source": "securityonline.info"
-    },
-    {
-      "title": "Russian Spies Are Aggressively Seeking Western Technology as Sanctions Bite, Officials Say",
-      "link": "https://www.securityweek.com/russian-spies-are-aggressively-seeking-western-technology-as-sanctions-bite-officials-say/",
-      "date": "2026-05-30T16:00:49Z",
-      "description": "Moscow’s agents are building fake companies, recruiting middlemen and deploying cyber spies and hackers who gather information that could be used to attack key infrastructure. The post Russian Spies Are Aggressively Seeking Western Technology as Sanctions Bite, Officials Say appeared first on SecurityWeek.",
-      "source": "securityweek.com"
     },
     {
       "title": "Name That Toon: Mark of (Cybersecurity) Progress",
@@ -140,13 +182,6 @@
       "link": "https://www.darkreading.com/vulnerabilities-threats/complex-cloud-integrations-small-errors-compromises",
       "date": "2026-05-29T13:00:01Z",
       "description": "Researchers discover an exploit chain combining over-permissioned roles, secrets discovery, and non-human identities that could have compromised a popular automation service.",
-      "source": "darkreading.com"
-    },
-    {
-      "title": "'The Com' Cyberattacks Support Violence &amp; Sexploitation",
-      "link": "https://www.darkreading.com/threat-intelligence/the-com-cyberattacks-violence-sexploitation",
-      "date": "2026-05-29T12:00:00Z",
-      "description": "Your organization's security failures have consequences for everyone else as well since this criminal gang uses its cyber winnings to support more violent and widespread crimes.",
       "source": "darkreading.com"
     },
     {
