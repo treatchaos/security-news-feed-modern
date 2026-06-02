@@ -1,7 +1,14 @@
 {
-  "last_updated": "2026-06-01T22:29:26Z",
-  "count": 40,
+  "last_updated": "2026-06-02T05:21:39Z",
+  "count": 35,
   "items": [
+    {
+      "title": "Dashlane Discloses Brute-Force Attack, Encrypted Vaults of Fewer Than 20 Users Downloaded",
+      "link": "https://thehackernews.com/2026/06/dashlane-discloses-brute-force-attack.html",
+      "date": "2026-06-02T03:55:25Z",
+      "description": "Password manager Dashlane has disclosed that \"fewer than\" 20 users on the personal subscription plan had their encrypted vaults downloaded following a brute-force attack launched by an unknown party. On May 31, 2026, the company said an \"external\" threat actor launched a brute-force attack against certain Dashlane user accounts with the aim of breaking two-factor authentication (2FA)",
+      "source": "thehackernews.com"
+    },
     {
       "title": "Hackers hijack thousands of sites for ClickFix and FakeUpdate attacks",
       "link": "https://www.bleepingcomputer.com/news/security/hackers-hijack-thousands-of-sites-for-clickfix-and-fakeupdate-attacks/",
@@ -66,46 +73,11 @@
       "source": "thehackernews.com"
     },
     {
-      "title": "IBM WebSphere Server Vulnerable to Remote Code Execution Attack Via Crafted Request",
-      "link": "https://cybersecuritynews.com/ibm-websphere-server-remote-code-execution/",
-      "date": "2026-06-01T17:09:10Z",
-      "description": "IBM has disclosed a critical security vulnerability in its WebSphere Application Server ecosystem that could allow attackers to execute arbitrary code through specially crafted HTTP requests. The flaw, tracked as CVE-2026-8633, affects environments that use the optional Web Server Plug-ins component, significantly elevating the risk for enterprise deployments that rely on WebSphere…",
-      "source": "cybersecuritynews.com"
-    },
-    {
       "title": "WordPress malware campaign hides payloads in Steam profiles",
       "link": "https://www.bleepingcomputer.com/news/security/wordpress-malware-campaign-hides-payloads-in-steam-profiles/",
       "date": "2026-06-01T17:04:16Z",
       "description": "Nearly 2,000 WordPress websites were infected with malware that relies on Steam Community profile comments to hide command-and-control (C2) data. [...]",
       "source": "bleepingcomputer.com"
-    },
-    {
-      "title": "Critical Magento Cache Plugin Vulnerability Enables Remote Code Execution Attacks",
-      "link": "https://cybersecuritynews.com/magento-cache-plugin-vulnerability/",
-      "date": "2026-06-01T17:03:51Z",
-      "description": "A critical security vulnerability has been discovered in a widely used Magento caching plugin that allows attackers to remotely execute malicious code with no login, configuration changes, or admin access required. Security researchers at Sansec uncovered an unauthenticated PHP object injection flaw in Mirasvit Cache Warmer, a full-page cache extension used by thousands of Magento and […] The…",
-      "source": "cybersecuritynews.com"
-    },
-    {
-      "title": "Critical MCP Toolbox Vulnerability Impacts Enterprise Database onnectors",
-      "link": "https://cybersecuritynews.com/mcp-toolbox-vulnerability/",
-      "date": "2026-06-01T17:00:32Z",
-      "description": "A newly disclosed vulnerability, tracked as CVE-2026-9739, is raising security concerns across enterprise environments using MCP Toolbox, particularly those that rely on Server-Sent Events (SSE) for database connectivity. The flaw, currently awaiting NVD enrichment, allows attackers to exploit a DNS rebinding weakness that could lead to unauthorized access to backend systems. Security…",
-      "source": "cybersecuritynews.com"
-    },
-    {
-      "title": "Android Banking Trojan OverlayPhantom Abuses Accessibility Service to Control Devices",
-      "link": "https://cybersecuritynews.com/android-banking-trojan-overlayphantom/",
-      "date": "2026-06-01T16:09:13Z",
-      "description": "A dangerous new Android banking trojan called OverlayPhantom has been quietly targeting users across ten countries, placing banking credentials, financial data, and cryptocurrency accounts at serious risk. The malware has been active since May 2025 and spreads through malicious links disguised as downloads from trusted, well-known applications. What makes OverlayPhantom particularly alarming is…",
-      "source": "cybersecuritynews.com"
-    },
-    {
-      "title": "Microsoft Office for the Web and Teams Hit by File Access Outage",
-      "link": "https://cybersecuritynews.com/microsoft-office-teams-file-access/",
-      "date": "2026-06-01T16:07:30Z",
-      "description": "Microsoft experienced a service disruption affecting users’ ability to open files through Office for the Web and Microsoft Teams, with the company confirming resolution after investigating elevated error rates across its online productivity platform. The incident, tracked internally under MO1329446 in the Microsoft 365 Admin Center, began with widespread user reports of file-access failures…",
-      "source": "cybersecuritynews.com"
     },
     {
       "title": "Critical Windows Netlogon Vulnerability in Attackers’ Crosshairs",
@@ -157,13 +129,6 @@
       "source": "thehackernews.com"
     },
     {
-      "title": "OpenAI Codex Authentication Tokens Stolen in codexui-android npm Supply Chain Attack",
-      "link": "https://thehackernews.com/2026/06/openai-codex-authentication-tokens.html",
-      "date": "2026-06-01T09:31:15Z",
-      "description": "Cybersecurity researchers have disclosed details of a new malicious supply chain campaign that's targeting developers using OpenAI Codex through a legitimate-looking remote web UI. The tool, named codexui-android, is advertised on GitHub and npm as a remote web UI for OpenAI Codex, attracting over 29,000 weekly downloads. The package is still available for download from the repository. What",
-      "source": "thehackernews.com"
-    },
-    {
       "title": "Critical FreeBSD Kernel Buffer Overflow Disclosed: Public Details & PoC Out",
       "link": "https://securityonline.info/freebsd-kernel-buffer-overflow-exploit/",
       "date": "2026-06-01T01:00:45Z",
@@ -188,35 +153,35 @@
       "title": "ZDI-CAN-30561: X.Org",
       "link": "http://www.zerodayinitiative.com/advisories/upcoming/",
       "date": "2026-05-29T05:00:00Z",
-      "description": "A CVSS score 7.8 AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H severity vulnerability discovered by 'Anonymous' was reported to the affected vendor on: 2026-05-29, 3 days ago. The vendor is given until 2026-09-26 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
+      "description": "A CVSS score 7.8 AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H severity vulnerability discovered by 'Anonymous' was reported to the affected vendor on: 2026-05-29, 4 days ago. The vendor is given until 2026-09-26 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
       "source": "zerodayinitiative.com"
     },
     {
       "title": "ZDI-CAN-30559: X.Org",
       "link": "http://www.zerodayinitiative.com/advisories/upcoming/",
       "date": "2026-05-29T05:00:00Z",
-      "description": "A CVSS score 7.8 AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H severity vulnerability discovered by 'Anonymous' was reported to the affected vendor on: 2026-05-29, 3 days ago. The vendor is given until 2026-09-26 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
+      "description": "A CVSS score 7.8 AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H severity vulnerability discovered by 'Anonymous' was reported to the affected vendor on: 2026-05-29, 4 days ago. The vendor is given until 2026-09-26 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
       "source": "zerodayinitiative.com"
     },
     {
       "title": "ZDI-CAN-30558: X.Org",
       "link": "http://www.zerodayinitiative.com/advisories/upcoming/",
       "date": "2026-05-29T05:00:00Z",
-      "description": "A CVSS score 7.8 AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H severity vulnerability discovered by 'Anonymous' was reported to the affected vendor on: 2026-05-29, 3 days ago. The vendor is given until 2026-09-26 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
+      "description": "A CVSS score 7.8 AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H severity vulnerability discovered by 'Anonymous' was reported to the affected vendor on: 2026-05-29, 4 days ago. The vendor is given until 2026-09-26 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
       "source": "zerodayinitiative.com"
     },
     {
       "title": "ZDI-CAN-30498: X.Org",
       "link": "http://www.zerodayinitiative.com/advisories/upcoming/",
       "date": "2026-05-29T05:00:00Z",
-      "description": "A CVSS score 7.8 AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H severity vulnerability discovered by 'Anonymous' was reported to the affected vendor on: 2026-05-29, 3 days ago. The vendor is given until 2026-09-26 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
+      "description": "A CVSS score 7.8 AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H severity vulnerability discovered by 'Anonymous' was reported to the affected vendor on: 2026-05-29, 4 days ago. The vendor is given until 2026-09-26 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
       "source": "zerodayinitiative.com"
     },
     {
       "title": "ZDI-CAN-30443: X.Org",
       "link": "http://www.zerodayinitiative.com/advisories/upcoming/",
       "date": "2026-05-29T05:00:00Z",
-      "description": "A CVSS score 7.8 AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H severity vulnerability discovered by 'Anonymous' was reported to the affected vendor on: 2026-05-29, 3 days ago. The vendor is given until 2026-09-26 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
+      "description": "A CVSS score 7.8 AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H severity vulnerability discovered by 'Anonymous' was reported to the affected vendor on: 2026-05-29, 4 days ago. The vendor is given until 2026-09-26 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
       "source": "zerodayinitiative.com"
     },
     {
