@@ -1,6 +1,6 @@
 {
   "date": "2026-03-04",
-  "count": 59,
+  "count": 50,
   "items": [
     {
       "id": "ab0044f72ee78defe5af2ef76260c05686d5a608",
@@ -443,66 +443,6 @@
       "last_seen": "2026-03-05T06:37:31Z"
     },
     {
-      "id": "192090bf924a62654428cff1354d6d1323266ce4",
-      "title": "Critical XSS Vulnerability in Angular i18n Enables Malicious Code Execution",
-      "link": "https://cybersecuritynews.com/xss-vulnerability-in-angular-i18n/",
-      "date": "2026-03-04T09:26:05Z",
-      "description": "A high-severity Cross-Site Scripting (XSS) vulnerability, designated as CVE-2026-27970, has been discovered in Angular’s internationalization (i18n) pipeline. The vulnerability allows attackers to execute malicious JavaScript if they can compromise an application’s translation files. Angular’s i18n process allows developers to extract application messages, translate them into different…",
-      "source": "cybersecuritynews.com",
-      "first_seen": "2026-03-04T09:29:55Z",
-      "last_seen": "2026-03-04T12:32:50Z"
-    },
-    {
-      "id": "b121c454788c3c9e7394fffa4533a66572f5cd6f",
-      "title": "Critical FreeScout Vulnerability Leads to Full Server Compromise",
-      "link": "https://www.securityweek.com/critical-freescout-vulnerability-leads-to-full-server-compromise/",
-      "date": "2026-03-04T09:16:39Z",
-      "description": "A patch bypass for an authenticated code execution bug, the flaw leads to zero-click remote code execution attacks. The post Critical FreeScout Vulnerability Leads to Full Server Compromise appeared first on SecurityWeek.",
-      "source": "securityweek.com",
-      "first_seen": "2026-03-04T09:29:55Z",
-      "last_seen": "2026-03-04T12:32:50Z"
-    },
-    {
-      "id": "8345533a5fb537181ae9fdd9bb55b80af6d4e654",
-      "title": "MS-Agent Vulnerability Let Attackers Hijack AI Agent to Gain Full System Control",
-      "link": "https://cybersecuritynews.com/ms-agent-vulnerability/",
-      "date": "2026-03-04T08:50:39Z",
-      "description": "A critical security vulnerability has been discovered in a lightweight framework designed to enable AI agents to perform autonomous tasks. According to a vulnerability note published by the CERT/CC, this flaw allows attackers to trick the AI into executing malicious commands, potentially giving them complete control over the system. This discovery highlights the growing security risks […] The…",
-      "source": "cybersecuritynews.com",
-      "first_seen": "2026-03-04T09:29:55Z",
-      "last_seen": "2026-03-04T12:32:50Z"
-    },
-    {
-      "id": "3f392a54c5b1ae0ad68d0faf802987269ab75c67",
-      "title": "HPE AutoPass Vulnerability Let Attackers Bypass Authentication Remotely",
-      "link": "https://cybersecuritynews.com/hpe-autopass-vulnerability/",
-      "date": "2026-03-04T08:42:36Z",
-      "description": "A security bulletin has been issued regarding a vulnerability in the AutoPass License Server (APLS) that could allow attackers to remotely bypass authentication controls. The issue is tracked as CVE-2026-23600 and is rated important with a CVSS base score of 7.3. According to HPE, the flaw could be exploited over the network without requiring privileges […] The post HPE AutoPass Vulnerability…",
-      "source": "cybersecuritynews.com",
-      "first_seen": "2026-03-04T09:29:55Z",
-      "last_seen": "2026-03-04T11:22:05Z"
-    },
-    {
-      "id": "48fed0de1db82c0422b4a6dec354664a74704a8d",
-      "title": "APT41-Linked Silver Dragon Targets Governments Using Cobalt Strike and Google Drive C2",
-      "link": "https://thehackernews.com/2026/03/apt41-linked-silver-dragon-targets.html",
-      "date": "2026-03-04T08:14:00Z",
-      "description": "Cybersecurity researchers have disclosed details of an advanced persistent threat (APT) group dubbed Silver Dragon that has been linked to cyber attacks targeting entities in Europe and Southeast Asia since at least mid-2024. \"Silver Dragon gains its initial access by exploiting public-facing internet servers and by delivering phishing emails that contain malicious attachments,\" Check Point said",
-      "source": "thehackernews.com",
-      "first_seen": "2026-03-04T09:29:55Z",
-      "last_seen": "2026-03-05T06:37:31Z"
-    },
-    {
-      "id": "c82d4f8b3e7c527de03bd6f1e3b5c1ddc7379b02",
-      "title": "VMware Aria Operations Vulnerability Exploited in the Wild",
-      "link": "https://www.securityweek.com/vmware-aria-operations-vulnerability-exploited-in-the-wild/",
-      "date": "2026-03-04T07:24:45Z",
-      "description": "The recently patched CVE-2026-22719 can be exploited by an unauthenticated attacker for remote code execution. The post VMware Aria Operations Vulnerability Exploited in the Wild appeared first on SecurityWeek.",
-      "source": "securityweek.com",
-      "first_seen": "2026-03-04T07:31:22Z",
-      "last_seen": "2026-03-04T11:22:05Z"
-    },
-    {
       "id": "1dc43c8509b8b28f6a967138bd7de96912b7d67e",
       "title": "ZDI-CAN-29104: Meta",
       "link": "http://www.zerodayinitiative.com/advisories/upcoming/",
@@ -551,36 +491,6 @@
       "source": "zerodayinitiative.com",
       "first_seen": "2026-03-04T17:30:50Z",
       "last_seen": "2026-03-05T17:53:41Z"
-    },
-    {
-      "id": "bb28526561c7d0dcaad844c6a389720886a91de0",
-      "title": "CISA Warns of VMware Aria Operations Vulnerability Exploited in Attacks",
-      "link": "https://cybersecuritynews.com/vmware-aria-operations-vulnerability-2/",
-      "date": "2026-03-04T05:32:25Z",
-      "description": "A critical vulnerability affecting VMware Aria Operations has been added to the Known Exploited Vulnerabilities (KEV) catalog. Broadcom recently issued a security advisory detailing a flaw that allows unauthenticated attackers to execute arbitrary commands. Organizations are urged to implement mitigations or discontinue use of the product if a fix is not possible. VMware Aria Operations […] The…",
-      "source": "cybersecuritynews.com",
-      "first_seen": "2026-03-04T06:34:08Z",
-      "last_seen": "2026-03-04T11:22:05Z"
-    },
-    {
-      "id": "284184b846c703e104ea7d46db351791983f2491",
-      "title": "Malicious Packages Disguised as Laravel Utilities Deploy PHP RAT and Enables Remote Access",
-      "link": "https://cybersecuritynews.com/malicious-packages-disguised-as-laravel-utilities/",
-      "date": "2026-03-04T05:29:45Z",
-      "description": "A supply chain attack targeting the PHP developer community has surfaced through Packagist, the official package repository for PHP and Laravel projects. Threat actor nhattuanbl published several packages that disguised a fully functional remote access trojan (RAT) inside what looked like standard Laravel utility libraries, giving attackers silent and persistent control over any system that…",
-      "source": "cybersecuritynews.com",
-      "first_seen": "2026-03-04T06:34:08Z",
-      "last_seen": "2026-03-04T09:29:55Z"
-    },
-    {
-      "id": "47a18787d3d3783d4a1645b488c7af39a738caad",
-      "title": "CISA Adds Actively Exploited VMware Aria Operations Flaw CVE-2026-22719 to KEV Catalog",
-      "link": "https://thehackernews.com/2026/03/cisa-adds-actively-exploited-vmware.html",
-      "date": "2026-03-04T04:35:00Z",
-      "description": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Tuesday added a recently disclosed security flaw impacting Broadcom VMware Aria Operations to its Known Exploited Vulnerabilities (KEV) catalog, citing active exploitation in the wild. The high-severity vulnerability, CVE-2026-22719 (CVSS score: 8.1), has been described as a case of command injection that could allow an",
-      "source": "thehackernews.com",
-      "first_seen": "2026-03-04T06:34:08Z",
-      "last_seen": "2026-03-04T17:30:50Z"
     },
     {
       "id": "02b0d4d499425e5d47734d14af1b6dbd1c1704b4",
