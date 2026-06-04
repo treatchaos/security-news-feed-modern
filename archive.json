@@ -1,7 +1,7 @@
 {
-  "last_updated": "2026-06-04T19:12:23Z",
+  "last_updated": "2026-06-04T21:22:43Z",
   "retention_days": 90,
-  "count": 3488,
+  "count": 3494,
   "items": [
     {
       "id": "ba36c34374c93c7eb9daffc2270086d2fd70cda2",
@@ -24,6 +24,76 @@
       "last_seen": "2026-05-29T12:39:53Z"
     },
     {
+      "id": "4f1b1fc45986a6235c4fcd13ddd0df5ca8eb701d",
+      "title": "Hackers Impersonate Ghidra, dnSpy, and SpiderFoot to Spread Malware via Fake Download Sites",
+      "link": "https://cybersecuritynews.com/hackers-impersonate-ghidra-dnspy-and-spiderfoot/",
+      "date": "2026-06-04T21:22:17Z",
+      "description": "Hackers are creating convincing fake websites that impersonate popular security tools to trick users into downloading malware. Instead of obvious phishing pages, these sites look almost identical to real project portals, complete with professional designs and links pointing to actual GitHub repositories. The moment a user clicks the download button, something very different happens behind […]…",
+      "source": "cybersecuritynews.com",
+      "first_seen": "2026-06-04T21:22:43Z",
+      "last_seen": "2026-06-04T21:22:43Z"
+    },
+    {
+      "id": "c2fd474534815340cbcf0f7a4f605aa4f5fd5e59",
+      "title": "binding.gyp Supply Chain Attack Compromises Dozens of npm Packages Across Maintainer Accounts",
+      "link": "https://cybersecuritynews.com/binding-gyp-supply-chain-attack-compromises-dozens-of-npm-packages/",
+      "date": "2026-06-04T21:09:32Z",
+      "description": "A self-replicating worm has been quietly spreading across the npm registry using a method most security teams do not watch for. Instead of hiding inside package.json scripts, the attacker weaponized a tiny configuration file called binding.gyp to trigger malicious code the moment a developer runs npm install. The campaign hit dozens of packages across multiple […] The post binding.gyp Supply…",
+      "source": "cybersecuritynews.com",
+      "first_seen": "2026-06-04T21:22:43Z",
+      "last_seen": "2026-06-04T21:22:43Z"
+    },
+    {
+      "id": "e693ec96cafd7db6319dcd161a314996966ad1ad",
+      "title": "4 Critical Threats Where Attackers Have the Advantage",
+      "link": "https://www.darkreading.com/vulnerabilities-threats/4-critical-threats-attackers-advantage",
+      "date": "2026-06-04T21:08:16Z",
+      "description": "Gartner analysts issued a call to action to bolster defenses against several emerging critical threats, such as deepfakes and prompt injections.",
+      "source": "darkreading.com",
+      "first_seen": "2026-06-04T21:22:43Z",
+      "last_seen": "2026-06-04T21:22:43Z"
+    },
+    {
+      "id": "ef8350e4d995062317cb17c3557b76092802398f",
+      "title": "Credit card theft campaign abuses Stripe to host stolen payment info",
+      "link": "https://www.bleepingcomputer.com/news/security/credit-card-theft-campaign-abuses-stripe-to-host-stolen-payment-info/",
+      "date": "2026-06-04T20:47:16Z",
+      "description": "A new Magecart campaign is using Stripe's API infrastructure to host the credit card-stealing payload and the data exfiltrated from checkout pages. [...]",
+      "source": "bleepingcomputer.com",
+      "first_seen": "2026-06-04T21:22:43Z",
+      "last_seen": "2026-06-04T21:22:43Z"
+    },
+    {
+      "id": "ec937cc76401e1c5003a4284a76574023fd56b9c",
+      "title": "Hackers Use Malicious Ads to Deliver FlutterShell Backdoor on macOS Systems",
+      "link": "https://cybersecuritynews.com/hackers-use-malicious-ads/",
+      "date": "2026-06-04T20:25:42Z",
+      "description": "A new and rapidly spreading malware campaign is putting macOS users at serious risk. Threat actors are using Google Ads to push fake desktop applications that secretly install a powerful backdoor on infected machines. The campaign, dubbed Operation FlutterBridge, marks a sharp escalation in tactics from financially motivated attackers who have been active since at […] The post Hackers Use…",
+      "source": "cybersecuritynews.com",
+      "first_seen": "2026-06-04T21:22:43Z",
+      "last_seen": "2026-06-04T21:22:43Z"
+    },
+    {
+      "id": "e7dca04a87d677c259da19a1a5e108bed3eee67b",
+      "title": "Hackers Use Fake Claude Code Install Page to Deliver Fileless .NET Infostealer",
+      "link": "https://cybersecuritynews.com/hackers-use-fake-claude-code-install-page/",
+      "date": "2026-06-04T20:13:31Z",
+      "description": "Hackers are exploiting the excitement around AI coding tools by targeting users who search for Claude Code installation guides. An active campaign uses fake installer pages to silently steal credentials from unsuspecting victims. The attackers use SEO poisoning to push a spoofed Anthropic install page to the top of search results. Once a user lands […] The post Hackers Use Fake Claude Code…",
+      "source": "cybersecuritynews.com",
+      "first_seen": "2026-06-04T21:22:43Z",
+      "last_seen": "2026-06-04T21:22:43Z"
+    },
+    {
+      "id": "8f2250bf9dc113aefd273a545fe266af6667e9bd",
+      "title": "IronWorm Supply Chain Attack Uses Malicious npm Packages to Steal Developer Secrets",
+      "link": "https://cybersecuritynews.com/ironworm-supply-chain-attack-uses-malicious-npm-packages/",
+      "date": "2026-06-04T19:35:36Z",
+      "description": "A newly discovered malware campaign called IronWorm has been silently targeting software developers through poisoned npm packages, stealing credentials, API keys, and even cryptocurrency wallet recovery phrases. The attack is built to spread itself through trusted developer workflows, making it one of the more sophisticated supply-chain threats seen in recent years. The malware travels inside…",
+      "source": "cybersecuritynews.com",
+      "first_seen": "2026-06-04T21:22:43Z",
+      "last_seen": "2026-06-04T21:22:43Z"
+    },
+    {
       "id": "89f5ac109d3980b7db5ed32947321a371203330e",
       "title": "DentaQuest data breach  exposed info of 2.6 million accounts",
       "link": "https://www.bleepingcomputer.com/news/security/dentaquest-data-breach-exposed-info-of-26-million-accounts/",
@@ -31,7 +101,7 @@
       "description": "A data breach at the dental benefits administrator DentaQuest has reportedly exposed the sensitive data of 2.6 million accounts. [...]",
       "source": "bleepingcomputer.com",
       "first_seen": "2026-06-04T19:12:23Z",
-      "last_seen": "2026-06-04T19:12:23Z"
+      "last_seen": "2026-06-04T21:22:43Z"
     },
     {
       "id": "4faddc63ade269e419e2a883f07e2e78ab36bb04",
@@ -41,7 +111,7 @@
       "description": "Cisco has patched a bug in Unified Communications Manager that lets an unauthenticated attacker on the network write files to the box and, from there, climb to root. It is tracked as CVE-2026-20230, and proof-of-concept exploit code is already public. Cisco's PSIRT says it has not seen the flaw used in attacks yet. The PoC shortens that runway. The flaw is a server-side request forgery.",
       "source": "thehackernews.com",
       "first_seen": "2026-06-04T19:12:23Z",
-      "last_seen": "2026-06-04T19:12:23Z"
+      "last_seen": "2026-06-04T21:22:43Z"
     },
     {
       "id": "8f9dcd905bf769e7b589c1facbc82340540d87a7",
@@ -51,7 +121,7 @@
       "description": "The United Nations' World Food Programme (WFP), the world's largest humanitarian organization, revealed over the weekend that its self-registration application (SRA) for Palestine was breached. [...]",
       "source": "bleepingcomputer.com",
       "first_seen": "2026-06-04T16:42:13Z",
-      "last_seen": "2026-06-04T19:12:23Z"
+      "last_seen": "2026-06-04T21:22:43Z"
     },
     {
       "id": "4c10fcfd1941ad688a99d1f05b808c5bc584970b",
@@ -71,7 +141,7 @@
       "description": "A new supply-chain attack has infected 36 packages on the Node Package Manager (npm) index with infostealer malware called IronWorm. [...]",
       "source": "bleepingcomputer.com",
       "first_seen": "2026-06-04T16:42:13Z",
-      "last_seen": "2026-06-04T19:12:23Z"
+      "last_seen": "2026-06-04T21:22:43Z"
     },
     {
       "id": "f58da264ea9f241524bdd2db63ee3953d4a1c9ef",
@@ -81,7 +151,7 @@
       "description": "A security researcher found a flaw in Anthropic's Claude Code GitHub Action that let an attacker take over vulnerable public repositories running it, with nothing more than a single opened GitHub issue. Because Anthropic's own action repo used the same workflow, a working attack could have pushed malicious code into the action itself and onto the projects downstream that pull it. RyotaK of GMO",
       "source": "thehackernews.com",
       "first_seen": "2026-06-04T16:42:13Z",
-      "last_seen": "2026-06-04T19:12:23Z"
+      "last_seen": "2026-06-04T21:22:43Z"
     },
     {
       "id": "afdb4ad5f09d2985e01bc499ac6308c243bc4226",
@@ -91,7 +161,7 @@
       "description": "Over the past several weeks, the cybersecurity community has been reminded how quickly frontier and agentic AI in defense networks can challenge our assumptions. When Anthropic's Claude Mythos model was made available to a limited set of organizations as a technical preview, it was reported that an unauthorized group claimed that it had gained access within hours. The incident, if true, was",
       "source": "thehackernews.com",
       "first_seen": "2026-06-04T19:12:23Z",
-      "last_seen": "2026-06-04T19:12:23Z"
+      "last_seen": "2026-06-04T21:22:43Z"
     },
     {
       "id": "fa79a6bd6425a87fd4e9cc18935dca8c2ea53bef",
@@ -111,7 +181,7 @@
       "description": "As AI agents, machine identities, and third-party applications multiply across enterprises, Offroad is betting autonomous security agents can restore control over an increasingly unmanageable identity landscape. The post Offroad Emerges From Stealth With $7 Million to Tackle Enterprise Identity Risk appeared first on SecurityWeek.",
       "source": "securityweek.com",
       "first_seen": "2026-06-04T16:42:13Z",
-      "last_seen": "2026-06-04T19:12:23Z"
+      "last_seen": "2026-06-04T21:22:43Z"
     },
     {
       "id": "2c5f3ce1f84945ed12c73d36aef7923a6e80753d",
@@ -121,7 +191,7 @@
       "description": "Join this live webinar as we examine the gap between how organizations think their third-party risk programs are performing and what’s actually happening in practice. The post Webinar Today: Third-Party Risk in Practice – Where Programs Break Down and How to Respond appeared first on SecurityWeek.",
       "source": "securityweek.com",
       "first_seen": "2026-06-04T16:42:13Z",
-      "last_seen": "2026-06-04T19:12:23Z"
+      "last_seen": "2026-06-04T21:22:43Z"
     },
     {
       "id": "947ac91d76725b5f050bcf8b5f9cf2af77d698c0",
@@ -131,7 +201,7 @@
       "description": "Willow (formerly Webrix) emerged from stealth mode with an access platform designed to secure enterprise AI agents. The post Willow Raises $7 Million for Securing Autonomous AI Agents appeared first on SecurityWeek.",
       "source": "securityweek.com",
       "first_seen": "2026-06-04T16:42:13Z",
-      "last_seen": "2026-06-04T19:12:23Z"
+      "last_seen": "2026-06-04T21:22:43Z"
     },
     {
       "id": "451609ede92372453447c023c240787cdf336eeb",
@@ -141,7 +211,7 @@
       "description": "Organizations are growing serious about what nation’s rules apply to their data. Experts point to geopolitical tensions as a main contributing factor.",
       "source": "darkreading.com",
       "first_seen": "2026-06-04T19:12:23Z",
-      "last_seen": "2026-06-04T19:12:23Z"
+      "last_seen": "2026-06-04T21:22:43Z"
     },
     {
       "id": "963b3bad9326826abe27712a40502596736628fe",
@@ -151,7 +221,7 @@
       "description": "Threat actors are actively teaching newcomers how to find, exploit, and profit from vulnerable systems. Flare explores what a popular underground hacking tutorial reveals about modern attacker workflows. [...]",
       "source": "bleepingcomputer.com",
       "first_seen": "2026-06-04T16:42:13Z",
-      "last_seen": "2026-06-04T19:12:23Z"
+      "last_seen": "2026-06-04T21:22:43Z"
     },
     {
       "id": "46d74052368a6c2aaee02a436fb39620e346e692",
@@ -161,7 +231,7 @@
       "description": "It got stupid again. The internet still feels held together with tape. Bad plugins, old bugs, fake tools, trusted apps doing shady things. Same mess, new wrapper. And now the weird stuff is normal. Forums go down and come back worse. Cheap hackers get better toys. AI starts breaking real systems. Great. Read the whole thing before it ruins your week anyway. Unauthenticated",
       "source": "thehackernews.com",
       "first_seen": "2026-06-04T16:42:13Z",
-      "last_seen": "2026-06-04T19:12:23Z"
+      "last_seen": "2026-06-04T21:22:43Z"
     },
     {
       "id": "b1cd729f906766a6872d60ebffce6c1833c59e13",
@@ -201,7 +271,7 @@
       "description": "Attackers could have triggered dangerous actions, including controlling smart home devices via Google Home and starting Zoom video calls. The post Gemini Voice Assistant Hijacked via Messaging Notifications appeared first on SecurityWeek.",
       "source": "securityweek.com",
       "first_seen": "2026-06-04T13:51:46Z",
-      "last_seen": "2026-06-04T19:12:23Z"
+      "last_seen": "2026-06-04T21:22:43Z"
     },
     {
       "id": "8436d682440ac595077daeb13f8e736758546f52",
@@ -241,7 +311,7 @@
       "description": "A new China-linked cybercrime group known as TA4922 has expanded its targeting focus to target European organizations in the U.K., Germany, Italy, and South Africa. These efforts have been complemented by a \"rapid operational tempo\" and a continually evolving malware arsenal comprising known families like ValleyRAT (aka Winos 4.0) and Atlas RAT (aka AtlasCross RAT), as well as previously",
       "source": "thehackernews.com",
       "first_seen": "2026-06-04T19:12:23Z",
-      "last_seen": "2026-06-04T19:12:23Z"
+      "last_seen": "2026-06-04T21:22:43Z"
     },
     {
       "id": "d6db8a8e2d291acc97fdb8d56cddf37de84a02af",
@@ -251,7 +321,7 @@
       "description": "A flaw in the Full Page Cache Warmer extension can be exploited without authentication via serialized PHP object payloads. The post Mirasvit Vulnerability Exploited to Execute Code on Magento Servers appeared first on SecurityWeek.",
       "source": "securityweek.com",
       "first_seen": "2026-06-04T13:51:46Z",
-      "last_seen": "2026-06-04T19:12:23Z"
+      "last_seen": "2026-06-04T21:22:43Z"
     },
     {
       "id": "e78fe36e2e87369bcebd60ea32ea530f2cb75687",
@@ -431,7 +501,7 @@
       "description": "A CVSS score 9.8 AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H severity vulnerability discovered by 'Ahmed Kamal of TrendAI ' was reported to the affected vendor on: 2026-06-04, 0 days ago. The vendor is given until 2026-10-02 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
       "source": "zerodayinitiative.com",
       "first_seen": "2026-06-04T19:12:23Z",
-      "last_seen": "2026-06-04T19:12:23Z"
+      "last_seen": "2026-06-04T21:22:43Z"
     },
     {
       "id": "c859ede2f226d2f8d97189b85bd2e4d07916f1c0",
@@ -441,7 +511,7 @@
       "description": "A CVSS score 7.2 AV:N/AC:L/PR:H/UI:N/S:U/C:H/I:H/A:H severity vulnerability discovered by 'Andy Niu of TrendAI Research' was reported to the affected vendor on: 2026-06-04, 0 days ago. The vendor is given until 2026-10-02 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
       "source": "zerodayinitiative.com",
       "first_seen": "2026-06-04T19:12:23Z",
-      "last_seen": "2026-06-04T19:12:23Z"
+      "last_seen": "2026-06-04T21:22:43Z"
     },
     {
       "id": "04391ddaec234c727dfc93393efcf49c3ed02441",
@@ -451,7 +521,7 @@
       "description": "Despite broadly connected digital infrastructure, standard fare TTPs are enough to cause trouble for Afghanistan's porous cybersecurity.",
       "source": "darkreading.com",
       "first_seen": "2026-06-04T07:13:53Z",
-      "last_seen": "2026-06-04T19:12:23Z"
+      "last_seen": "2026-06-04T21:22:43Z"
     },
     {
       "id": "0f89559b0d549840d4f9fed75fcaa02ba9f8f3ab",
@@ -471,7 +541,7 @@
       "description": "Overview of the Security Threat Mautic has released urgent security updates to address dangerous software flaws in its The post Critical RCE Flaws Fixed in Mautic Marketing Platform appeared first on Daily CyberSecurity. Related posts: Critical Vulnerabilities in Quick Agent Software Expose Ricoh MFPs to Remote Attacks Critical Ricoh Streamline NX Flaw (CVSS 9.8) Allows SYSTEM-Level Code…",
       "source": "securityonline.info",
       "first_seen": "2026-06-04T02:37:59Z",
-      "last_seen": "2026-06-04T19:12:23Z"
+      "last_seen": "2026-06-04T21:22:43Z"
     },
     {
       "id": "ce638a5c6443c68fc5efaf5ad8aec3024be21f72",
@@ -491,7 +561,7 @@
       "description": "Python scripts were used to test malware against endpoint detection and response agents from Sophos, CrowdStrike, and Windows Defender.",
       "source": "darkreading.com",
       "first_seen": "2026-06-03T23:25:18Z",
-      "last_seen": "2026-06-04T19:12:23Z"
+      "last_seen": "2026-06-04T21:22:43Z"
     },
     {
       "id": "c7812e094442c22385c860bbf14ebea336fe05b5",
@@ -531,7 +601,7 @@
       "description": "China-linked espionage groups have attacked at least a dozen nations in the region, gathering information on maritime shipping, oil production, and other geopolitical interests.",
       "source": "darkreading.com",
       "first_seen": "2026-06-03T21:40:36Z",
-      "last_seen": "2026-06-04T19:12:23Z"
+      "last_seen": "2026-06-04T21:22:43Z"
     },
     {
       "id": "b64c783d460a17f9be608d368e954c076dd139ca",
@@ -891,7 +961,7 @@
       "description": "A dangerous security flaw is actively disrupting enterprise web servers globally. Specifically, attackers are aggressively weaponizing a new The post Drupal SQL Injection Exploit: Critical Flaw Exploited in the Wild with Public PoC appeared first on Daily CyberSecurity. Related posts: CVSS 10.0 Flaws in Siemens OZW Web Servers Enable Unauthenticated RCE and Admin Access Mitel Patches Critical…",
       "source": "securityonline.info",
       "first_seen": "2026-06-03T08:04:32Z",
-      "last_seen": "2026-06-04T19:12:23Z"
+      "last_seen": "2026-06-04T21:22:43Z"
     },
     {
       "id": "b81c7c33e4a5641ab04ab6ab14ea4a27d5ee775a",
@@ -1401,7 +1471,7 @@
       "description": "A CVSS score 5.0 AV:L/AC:H/PR:L/UI:R/S:U/C:N/I:L/A:H severity vulnerability discovered by 'hamdi' was reported to the affected vendor on: 2026-06-02, 0 days ago. The vendor is given until 2026-09-30 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
       "source": "zerodayinitiative.com",
       "first_seen": "2026-06-02T21:40:34Z",
-      "last_seen": "2026-06-04T19:12:23Z"
+      "last_seen": "2026-06-04T21:22:43Z"
     },
     {
       "id": "c825dcfff37362c8dd247cdc709b2f126ef667d4",
@@ -1411,7 +1481,7 @@
       "description": "A CVSS score 5.0 AV:L/AC:H/PR:L/UI:R/S:U/C:N/I:L/A:H severity vulnerability discovered by 'hamdi' was reported to the affected vendor on: 2026-06-02, 0 days ago. The vendor is given until 2026-09-30 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
       "source": "zerodayinitiative.com",
       "first_seen": "2026-06-02T21:40:34Z",
-      "last_seen": "2026-06-04T19:12:23Z"
+      "last_seen": "2026-06-04T21:22:43Z"
     },
     {
       "id": "ebbfbe3e1291d7816f85857adf3f0dca2e379c62",
@@ -1421,7 +1491,7 @@
       "description": "A CVSS score 5.0 AV:L/AC:H/PR:L/UI:R/S:U/C:N/I:L/A:H severity vulnerability discovered by 'Hamdi' was reported to the affected vendor on: 2026-06-02, 0 days ago. The vendor is given until 2026-09-30 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
       "source": "zerodayinitiative.com",
       "first_seen": "2026-06-02T21:40:34Z",
-      "last_seen": "2026-06-04T19:12:23Z"
+      "last_seen": "2026-06-04T21:22:43Z"
     },
     {
       "id": "069edaff4dc93a601c2788f031ba0759ec8f2013",
@@ -1821,7 +1891,7 @@
       "description": "Security researchers recently published a detailed analysis of a significant vulnerability in modern operating systems. Specifically, this discovery The post Critical FreeBSD Kernel Buffer Overflow Disclosed: Public Details & PoC Out appeared first on Daily CyberSecurity. Related posts: CVE-2025-32432 (CVSS 10): Craft CMS Hit by Critical RCE Flaw Exploited in the Wild SAP Security Alert: May…",
       "source": "securityonline.info",
       "first_seen": "2026-06-01T02:42:25Z",
-      "last_seen": "2026-06-04T19:12:23Z"
+      "last_seen": "2026-06-04T21:22:43Z"
     },
     {
       "id": "91dbb2a9181816eb6bd2558f100d0618565b7046",
@@ -2971,7 +3041,7 @@
       "description": "Security researchers have uncovered a critical memory corruption flaw in a core Microsoft networking component. Specifically, this dangerous The post Windows DNS Client RCE: 9.8 CVSS & Public PoC Disclosed appeared first on Daily CyberSecurity. Related posts: Critical CVSS 9.8 RCE Flaw in vLLM Exposes AI Hosts to Remote Attacks Critical Trend Micro Apex Central Flaws: Pre-Auth RCE (CVSS 9.8)…",
       "source": "securityonline.info",
       "first_seen": "2026-05-28T06:10:47Z",
-      "last_seen": "2026-06-04T19:12:23Z"
+      "last_seen": "2026-06-04T21:22:43Z"
     },
     {
       "id": "07664aefad609e6bedf3138de999a08f4c56e750",
@@ -3971,7 +4041,7 @@
       "description": "Dell has issued an urgent security update to address a maximum severity flaw in its cloud storage software. The post Critical Dell Container Storage Modules Vulnerability Exposes Infrastructure appeared first on Daily CyberSecurity. Related posts: Urgent Security Patch Released for Dell Servers: CVE-2024-0172 Could Allow Hackers to Take Control Subdomain Takeovers: A Growing Supply Chain Threat…",
       "source": "securityonline.info",
       "first_seen": "2026-05-26T02:06:38Z",
-      "last_seen": "2026-06-04T19:12:23Z"
+      "last_seen": "2026-06-04T21:22:43Z"
     },
     {
       "id": "531ae0a693cc79f7531471755f289f0a3eaec339",
@@ -34814,16 +34884,6 @@
       "last_seen": "2026-03-09T11:27:48Z"
     },
     {
-      "id": "b78c32105faf48b0d89f1caab9c30bbfa79501ff",
-      "title": "Cognizant TriZetto breach exposes health data of 3.4 million patients",
-      "link": "https://www.bleepingcomputer.com/news/security/cognizant-trizetto-breach-exposes-health-data-of-34-million-patients/",
-      "date": "2026-03-06T19:50:21Z",
-      "description": "TriZetto Provider Solutions, a healthcare IT company that develops software and services used by health insurers and healthcare providers, has suffered a data breach that exposed the sensitive information of over 3.4 million people. [...]",
-      "source": "bleepingcomputer.com",
-      "first_seen": "2026-03-06T20:20:34Z",
-      "last_seen": "2026-03-09T13:58:28Z"
-    },
-    {
       "id": "b0663d61b451dc6eb0d139313ba5fb95a54e1125",
       "title": "Cylake Offers AI-Native Security Without Relying on Cloud Services",
       "link": "https://www.darkreading.com/endpoint-security/cylake-offers-ai-native-security-without-relying-on-cloud-services",
@@ -34841,7 +34901,7 @@
       "description": "2.5 million people were affected, in a breach that could spell more trouble down the line.",
       "source": "threatpost.com",
       "first_seen": "2026-05-10T12:53:08Z",
-      "last_seen": "2026-06-04T19:12:23Z"
+      "last_seen": "2026-06-04T21:22:43Z"
     },
     {
       "id": "4140c7a34b0ba94ad2e6b0cae9f59b0cb9bfffea",
@@ -34851,7 +34911,7 @@
       "description": "Researchers uncover a watering hole attack likely carried out by APT TA423, which attempts to plant the ScanBox JavaScript-based reconnaissance tool.",
       "source": "threatpost.com",
       "first_seen": "2026-05-10T12:53:08Z",
-      "last_seen": "2026-06-04T19:12:23Z"
+      "last_seen": "2026-06-04T21:22:43Z"
     },
     {
       "id": "9359ee40a641a4b565080313045f1d7e7fe6552b",
@@ -34861,7 +34921,7 @@
       "description": "Over 130 companies tangled in sprawling phishing campaign that spoofed a multi-factor authentication system.",
       "source": "threatpost.com",
       "first_seen": "2026-05-10T12:53:08Z",
-      "last_seen": "2026-06-04T19:12:23Z"
+      "last_seen": "2026-06-04T21:22:43Z"
     },
     {
       "id": "b4ccef0737cd4050d65241bf754072030b6b5e6a",
@@ -34871,7 +34931,7 @@
       "description": "Lockbit is by far this summer’s most prolific ransomware group, trailed by two offshoots of the Conti group.",
       "source": "threatpost.com",
       "first_seen": "2026-05-10T12:53:08Z",
-      "last_seen": "2026-06-04T19:12:23Z"
+      "last_seen": "2026-06-04T21:22:43Z"
     },
     {
       "id": "12ee113fc8fce91f6d7fb28deab2b1ad20061ec7",
@@ -34881,7 +34941,7 @@
       "description": "Tens of thousands of cameras have failed to patch a critical, 11-month-old CVE, leaving thousands of organizations exposed.",
       "source": "threatpost.com",
       "first_seen": "2026-05-10T12:53:08Z",
-      "last_seen": "2026-06-04T19:12:23Z"
+      "last_seen": "2026-06-04T21:22:43Z"
     }
   ]
 }
