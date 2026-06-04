@@ -1,7 +1,47 @@
 {
   "date": "2026-06-04",
-  "count": 53,
+  "count": 57,
   "items": [
+    {
+      "id": "79e19a2278c1063b00bb494cd3586a12a402625b",
+      "title": "Rust-Written IronWorm Hits NPM Supply Chain",
+      "link": "https://www.darkreading.com/cyberattacks-data-breaches/rust-written-ironworm-npm-supply-chain",
+      "date": "2026-06-04T21:47:06Z",
+      "description": "Like Shai-Hulud, the campaign targets developers to steal credentials and reuses them to propagate across the software supply channel.",
+      "source": "darkreading.com",
+      "first_seen": "2026-06-04T23:00:14Z",
+      "last_seen": "2026-06-04T23:00:14Z"
+    },
+    {
+      "id": "47ffc8dd1188fd4be3ec7731904d3b0cde501109",
+      "title": "Brave Software releases Origin for a paid, bloat-free browsing experience",
+      "link": "https://www.bleepingcomputer.com/news/software/brave-software-releases-origin-for-a-paid-bloat-free-browsing-experience/",
+      "date": "2026-06-04T21:37:10Z",
+      "description": "Brave has announced the public release of Brave Origin, a paid minimalist version of its browser that strips out cryptocurrency, AI, rewards, and other monetization-focused features. [...]",
+      "source": "bleepingcomputer.com",
+      "first_seen": "2026-06-04T23:00:14Z",
+      "last_seen": "2026-06-04T23:00:14Z"
+    },
+    {
+      "id": "cfccc71ff5ca0d5a23cd55d2120152b0d3c1b259",
+      "title": "Hola Browser for Windows compromised to deliver cryptominer",
+      "link": "https://www.bleepingcomputer.com/news/security/hola-browser-for-windows-compromised-to-deliver-cryptominer/",
+      "date": "2026-06-04T21:27:25Z",
+      "description": "The Windows version of the Hola Browser has been compromised in a supply chain attack that delivered an undeclared executable identified by researchers as a cryptocurrency miner. [...]",
+      "source": "bleepingcomputer.com",
+      "first_seen": "2026-06-04T23:00:14Z",
+      "last_seen": "2026-06-04T23:00:14Z"
+    },
+    {
+      "id": "e05726768425a66e6600f8579e19e6376e8d14a0",
+      "title": "China's TA4922 Expands Cybercrime Attacks Globally",
+      "link": "https://www.darkreading.com/threat-intelligence/china-ta4922-cybercrime-attacks-globally",
+      "date": "2026-06-04T21:23:59Z",
+      "description": "One of the world's most diverse, least-focused cybercrime groups is enlarging its footprint beyond East Asia.",
+      "source": "darkreading.com",
+      "first_seen": "2026-06-04T23:00:14Z",
+      "last_seen": "2026-06-04T23:00:14Z"
+    },
     {
       "id": "4f1b1fc45986a6235c4fcd13ddd0df5ca8eb701d",
       "title": "Hackers Impersonate Ghidra, dnSpy, and SpiderFoot to Spread Malware via Fake Download Sites",
@@ -30,7 +70,7 @@
       "description": "Gartner analysts issued a call to action to bolster defenses against several emerging critical threats, such as deepfakes and prompt injections.",
       "source": "darkreading.com",
       "first_seen": "2026-06-04T21:22:43Z",
-      "last_seen": "2026-06-04T21:22:43Z"
+      "last_seen": "2026-06-04T23:00:14Z"
     },
     {
       "id": "ef8350e4d995062317cb17c3557b76092802398f",
@@ -40,7 +80,7 @@
       "description": "A new Magecart campaign is using Stripe's API infrastructure to host the credit card-stealing payload and the data exfiltrated from checkout pages. [...]",
       "source": "bleepingcomputer.com",
       "first_seen": "2026-06-04T21:22:43Z",
-      "last_seen": "2026-06-04T21:22:43Z"
+      "last_seen": "2026-06-04T23:00:14Z"
     },
     {
       "id": "ec937cc76401e1c5003a4284a76574023fd56b9c",
@@ -80,7 +120,7 @@
       "description": "A data breach at the dental benefits administrator DentaQuest has reportedly exposed the sensitive data of 2.6 million accounts. [...]",
       "source": "bleepingcomputer.com",
       "first_seen": "2026-06-04T19:12:23Z",
-      "last_seen": "2026-06-04T21:22:43Z"
+      "last_seen": "2026-06-04T23:00:14Z"
     },
     {
       "id": "4faddc63ade269e419e2a883f07e2e78ab36bb04",
@@ -90,7 +130,7 @@
       "description": "Cisco has patched a bug in Unified Communications Manager that lets an unauthenticated attacker on the network write files to the box and, from there, climb to root. It is tracked as CVE-2026-20230, and proof-of-concept exploit code is already public. Cisco's PSIRT says it has not seen the flaw used in attacks yet. The PoC shortens that runway. The flaw is a server-side request forgery.",
       "source": "thehackernews.com",
       "first_seen": "2026-06-04T19:12:23Z",
-      "last_seen": "2026-06-04T21:22:43Z"
+      "last_seen": "2026-06-04T23:00:14Z"
     },
     {
       "id": "8f9dcd905bf769e7b589c1facbc82340540d87a7",
@@ -100,7 +140,7 @@
       "description": "The United Nations' World Food Programme (WFP), the world's largest humanitarian organization, revealed over the weekend that its self-registration application (SRA) for Palestine was breached. [...]",
       "source": "bleepingcomputer.com",
       "first_seen": "2026-06-04T16:42:13Z",
-      "last_seen": "2026-06-04T21:22:43Z"
+      "last_seen": "2026-06-04T23:00:14Z"
     },
     {
       "id": "4c10fcfd1941ad688a99d1f05b808c5bc584970b",
@@ -130,7 +170,7 @@
       "description": "A security researcher found a flaw in Anthropic's Claude Code GitHub Action that let an attacker take over vulnerable public repositories running it, with nothing more than a single opened GitHub issue. Because Anthropic's own action repo used the same workflow, a working attack could have pushed malicious code into the action itself and onto the projects downstream that pull it. RyotaK of GMO",
       "source": "thehackernews.com",
       "first_seen": "2026-06-04T16:42:13Z",
-      "last_seen": "2026-06-04T21:22:43Z"
+      "last_seen": "2026-06-04T23:00:14Z"
     },
     {
       "id": "afdb4ad5f09d2985e01bc499ac6308c243bc4226",
@@ -140,7 +180,7 @@
       "description": "Over the past several weeks, the cybersecurity community has been reminded how quickly frontier and agentic AI in defense networks can challenge our assumptions. When Anthropic's Claude Mythos model was made available to a limited set of organizations as a technical preview, it was reported that an unauthorized group claimed that it had gained access within hours. The incident, if true, was",
       "source": "thehackernews.com",
       "first_seen": "2026-06-04T19:12:23Z",
-      "last_seen": "2026-06-04T21:22:43Z"
+      "last_seen": "2026-06-04T23:00:14Z"
     },
     {
       "id": "fa79a6bd6425a87fd4e9cc18935dca8c2ea53bef",
@@ -160,7 +200,7 @@
       "description": "As AI agents, machine identities, and third-party applications multiply across enterprises, Offroad is betting autonomous security agents can restore control over an increasingly unmanageable identity landscape. The post Offroad Emerges From Stealth With $7 Million to Tackle Enterprise Identity Risk appeared first on SecurityWeek.",
       "source": "securityweek.com",
       "first_seen": "2026-06-04T16:42:13Z",
-      "last_seen": "2026-06-04T21:22:43Z"
+      "last_seen": "2026-06-04T23:00:14Z"
     },
     {
       "id": "2c5f3ce1f84945ed12c73d36aef7923a6e80753d",
@@ -170,7 +210,7 @@
       "description": "Join this live webinar as we examine the gap between how organizations think their third-party risk programs are performing and what’s actually happening in practice. The post Webinar Today: Third-Party Risk in Practice – Where Programs Break Down and How to Respond appeared first on SecurityWeek.",
       "source": "securityweek.com",
       "first_seen": "2026-06-04T16:42:13Z",
-      "last_seen": "2026-06-04T21:22:43Z"
+      "last_seen": "2026-06-04T23:00:14Z"
     },
     {
       "id": "947ac91d76725b5f050bcf8b5f9cf2af77d698c0",
@@ -180,7 +220,7 @@
       "description": "Willow (formerly Webrix) emerged from stealth mode with an access platform designed to secure enterprise AI agents. The post Willow Raises $7 Million for Securing Autonomous AI Agents appeared first on SecurityWeek.",
       "source": "securityweek.com",
       "first_seen": "2026-06-04T16:42:13Z",
-      "last_seen": "2026-06-04T21:22:43Z"
+      "last_seen": "2026-06-04T23:00:14Z"
     },
     {
       "id": "451609ede92372453447c023c240787cdf336eeb",
@@ -190,7 +230,7 @@
       "description": "Organizations are growing serious about what nation’s rules apply to their data. Experts point to geopolitical tensions as a main contributing factor.",
       "source": "darkreading.com",
       "first_seen": "2026-06-04T19:12:23Z",
-      "last_seen": "2026-06-04T21:22:43Z"
+      "last_seen": "2026-06-04T23:00:14Z"
     },
     {
       "id": "963b3bad9326826abe27712a40502596736628fe",
@@ -210,7 +250,7 @@
       "description": "It got stupid again. The internet still feels held together with tape. Bad plugins, old bugs, fake tools, trusted apps doing shady things. Same mess, new wrapper. And now the weird stuff is normal. Forums go down and come back worse. Cheap hackers get better toys. AI starts breaking real systems. Great. Read the whole thing before it ruins your week anyway. Unauthenticated",
       "source": "thehackernews.com",
       "first_seen": "2026-06-04T16:42:13Z",
-      "last_seen": "2026-06-04T21:22:43Z"
+      "last_seen": "2026-06-04T23:00:14Z"
     },
     {
       "id": "b1cd729f906766a6872d60ebffce6c1833c59e13",
@@ -250,7 +290,7 @@
       "description": "Attackers could have triggered dangerous actions, including controlling smart home devices via Google Home and starting Zoom video calls. The post Gemini Voice Assistant Hijacked via Messaging Notifications appeared first on SecurityWeek.",
       "source": "securityweek.com",
       "first_seen": "2026-06-04T13:51:46Z",
-      "last_seen": "2026-06-04T21:22:43Z"
+      "last_seen": "2026-06-04T23:00:14Z"
     },
     {
       "id": "8436d682440ac595077daeb13f8e736758546f52",
@@ -290,7 +330,7 @@
       "description": "A new China-linked cybercrime group known as TA4922 has expanded its targeting focus to target European organizations in the U.K., Germany, Italy, and South Africa. These efforts have been complemented by a \"rapid operational tempo\" and a continually evolving malware arsenal comprising known families like ValleyRAT (aka Winos 4.0) and Atlas RAT (aka AtlasCross RAT), as well as previously",
       "source": "thehackernews.com",
       "first_seen": "2026-06-04T19:12:23Z",
-      "last_seen": "2026-06-04T21:22:43Z"
+      "last_seen": "2026-06-04T23:00:14Z"
     },
     {
       "id": "d6db8a8e2d291acc97fdb8d56cddf37de84a02af",
@@ -300,7 +340,7 @@
       "description": "A flaw in the Full Page Cache Warmer extension can be exploited without authentication via serialized PHP object payloads. The post Mirasvit Vulnerability Exploited to Execute Code on Magento Servers appeared first on SecurityWeek.",
       "source": "securityweek.com",
       "first_seen": "2026-06-04T13:51:46Z",
-      "last_seen": "2026-06-04T21:22:43Z"
+      "last_seen": "2026-06-04T23:00:14Z"
     },
     {
       "id": "e78fe36e2e87369bcebd60ea32ea530f2cb75687",
@@ -480,7 +520,7 @@
       "description": "A CVSS score 9.8 AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H severity vulnerability discovered by 'Ahmed Kamal of TrendAI ' was reported to the affected vendor on: 2026-06-04, 0 days ago. The vendor is given until 2026-10-02 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
       "source": "zerodayinitiative.com",
       "first_seen": "2026-06-04T19:12:23Z",
-      "last_seen": "2026-06-04T21:22:43Z"
+      "last_seen": "2026-06-04T23:00:14Z"
     },
     {
       "id": "c859ede2f226d2f8d97189b85bd2e4d07916f1c0",
@@ -490,7 +530,7 @@
       "description": "A CVSS score 7.2 AV:N/AC:L/PR:H/UI:N/S:U/C:H/I:H/A:H severity vulnerability discovered by 'Andy Niu of TrendAI Research' was reported to the affected vendor on: 2026-06-04, 0 days ago. The vendor is given until 2026-10-02 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
       "source": "zerodayinitiative.com",
       "first_seen": "2026-06-04T19:12:23Z",
-      "last_seen": "2026-06-04T21:22:43Z"
+      "last_seen": "2026-06-04T23:00:14Z"
     },
     {
       "id": "04391ddaec234c727dfc93393efcf49c3ed02441",
@@ -500,7 +540,7 @@
       "description": "Despite broadly connected digital infrastructure, standard fare TTPs are enough to cause trouble for Afghanistan's porous cybersecurity.",
       "source": "darkreading.com",
       "first_seen": "2026-06-04T07:13:53Z",
-      "last_seen": "2026-06-04T21:22:43Z"
+      "last_seen": "2026-06-04T23:00:14Z"
     },
     {
       "id": "0f89559b0d549840d4f9fed75fcaa02ba9f8f3ab",
@@ -520,7 +560,7 @@
       "description": "Overview of the Security Threat Mautic has released urgent security updates to address dangerous software flaws in its The post Critical RCE Flaws Fixed in Mautic Marketing Platform appeared first on Daily CyberSecurity. Related posts: Critical Vulnerabilities in Quick Agent Software Expose Ricoh MFPs to Remote Attacks Critical Ricoh Streamline NX Flaw (CVSS 9.8) Allows SYSTEM-Level Code…",
       "source": "securityonline.info",
       "first_seen": "2026-06-04T02:37:59Z",
-      "last_seen": "2026-06-04T21:22:43Z"
+      "last_seen": "2026-06-04T23:00:14Z"
     },
     {
       "id": "ec70fe9fb1040b1f28126b7d8728f6cb30fb940e",
