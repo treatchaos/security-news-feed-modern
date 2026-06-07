@@ -1,7 +1,21 @@
 {
-  "last_updated": "2026-06-07T22:04:40Z",
-  "count": 35,
+  "last_updated": "2026-06-07T23:57:47Z",
+  "count": 40,
   "items": [
+    {
+      "title": "Hands on with Intelligent Terminal, an AI-powered Windows Terminal",
+      "link": "https://www.bleepingcomputer.com/news/microsoft/hands-on-with-intelligent-terminal-an-ai-powered-windows-terminal/",
+      "date": "2026-06-07T23:20:02Z",
+      "description": "Microsoft has created an open-source fork of Windows Terminal called \"Intelligent Terminal,\" and it allows you to use AI directly inside Terminal without interfering with the regular session. [...]",
+      "source": "bleepingcomputer.com"
+    },
+    {
+      "title": "New EDRChoker Tool Uses Policy-Based Quality of Service to Block EDR Processes",
+      "link": "https://cybersecuritynews.com/edrchoker-tool/",
+      "date": "2026-06-07T17:21:25Z",
+      "description": "A newly released open-source red team tool called EDRChoker introduces a novel technique for silencing cloud-connected Endpoint Detection and Response (EDR) agents not by killing their processes or injecting code, but by quietly choking their network bandwidth to near-zero using Windows’ native Policy-Based Quality of Service (QoS) engine. Developed by security researcher @TwoSevenOneT, the tool…",
+      "source": "cybersecuritynews.com"
+    },
     {
       "title": "C0XMO botnet spreads via DD-WRT router flaw, kills rival malware",
       "link": "https://www.bleepingcomputer.com/news/security/c0xmo-botnet-spreads-via-dd-wrt-router-flaw-kills-rival-malware/",
@@ -24,11 +38,39 @@
       "source": "securityweek.com"
     },
     {
+      "title": "Instagram Fixes Password Reset Flaw That Exposes User Emails and Phone Numbers",
+      "link": "https://cybersecuritynews.com/instagram-password-reset-user-phone/",
+      "date": "2026-06-07T07:21:12Z",
+      "description": "A critical logic bug in Instagram’s web-based password reset flow on June 6, 2026, exposed unredacted email addresses and phone numbers associated with user accounts, including those belonging to high-profile individuals such as Meta CEO Mark Zuckerberg and model Georgina Rodriguez. Instagram’s parent company Meta deployed an emergency hotfix within hours of the disclosure, but […] The post…",
+      "source": "cybersecuritynews.com"
+    },
+    {
+      "title": "CISA Warns of Linux Kernel Improper Authentication Vulnerability Exploited in Attacks",
+      "link": "https://cybersecuritynews.com/linux-kernel-improper-authentication-vulnerability/",
+      "date": "2026-06-07T02:08:27Z",
+      "description": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) has added a critical Linux kernel vulnerability, tracked as CVE-2022-0492, to its Known Exploited Vulnerabilities (KEV) catalog, warning that the flaw is being actively leveraged in real-world attacks. The issue, categorized as improper authentication, affects Linux systems using the cgroups v1 release_agent feature and may allow…",
+      "source": "cybersecuritynews.com"
+    },
+    {
+      "title": "New ChatGPT Lockdown Mode to Mitigate Prompt Injection and Data Exfiltration Attacks",
+      "link": "https://cybersecuritynews.com/chatgpt-lockdown-mode/",
+      "date": "2026-06-06T16:53:36Z",
+      "description": "OpenAI has released ChatGPT Lockdown Mode, a new security feature designed to limit outbound network access and reduce the risk of data exfiltration from prompt-injection attacks. The feature is now available to eligible personal accounts, self-serve ChatGPT Business users, and managed enterprise workspaces. Prompt injection, where malicious instructions are embedded in content processed by an…",
+      "source": "cybersecuritynews.com"
+    },
+    {
       "title": "Critical Everest Forms Pro flaw exploited to take over WordPress sites",
       "link": "https://www.bleepingcomputer.com/news/security/critical-everest-forms-pro-flaw-exploited-to-take-over-wordpress-sites/",
       "date": "2026-06-06T14:09:26Z",
       "description": "Hackers are actively exploiting a critical vulnerability (CVE-2026-3300) in the Everest Forms Pro plugin, which lets them take complete control of a WordPress website. [...]",
       "source": "bleepingcomputer.com"
+    },
+    {
+      "title": "Free Apps on Samsung and LG Smart TVs Secretly Turning Your Devices Into AI Proxies",
+      "link": "https://cybersecuritynews.com/free-apps-turning-smart-tvs-into-proxies/",
+      "date": "2026-06-06T13:45:06Z",
+      "description": "Free apps available on Samsung, LG, Roku, and other major smart TV platforms have been quietly enrolling millions of living room devices into a commercial residential proxy network used to scrape web data for AI training all through a consent dialog buried in a TV remote’s arrow-key navigation, according to new research from Include Security. […] The post Free Apps on Samsung and LG Smart TVs…",
+      "source": "cybersecuritynews.com"
     },
     {
       "title": "New ChatGPT Lockdown Mode Limits Tools That Could Enable Data Exfiltration",
@@ -77,13 +119,6 @@
       "link": "https://www.bleepingcomputer.com/news/security/suspicious-polyfill-login-prompts-pop-up-on-toshiba-muji-websites/",
       "date": "2026-06-05T21:54:42Z",
       "description": "Tech giant Toshiba and mega-retailer Muji warned visitors that suspicious sign-in screens popping up on their websites could collect credentials. [...]",
-      "source": "bleepingcomputer.com"
-    },
-    {
-      "title": "CISA: Hackers now exploit SolarWinds Serv-U flaw to crash servers",
-      "link": "https://www.bleepingcomputer.com/news/security/cisa-hackers-now-exploit-solarwinds-serv-u-flaw-to-crash-servers/",
-      "date": "2026-06-05T19:15:30Z",
-      "description": "CISA warned today that hackers are now actively exploiting a recently patched high-severity SolarWinds Serv-U flaw to crash servers. [...]",
       "source": "bleepingcomputer.com"
     },
     {
