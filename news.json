@@ -1,13 +1,48 @@
 {
-  "last_updated": "2026-06-08T19:14:15Z",
-  "count": 40,
+  "last_updated": "2026-06-08T21:42:53Z",
+  "count": 35,
   "items": [
     {
-      "title": "New China-Linked Threat Cluster OP-512 Targets IIS Servers With Cryptographically Unique Web Shell Framework",
-      "link": "https://cybersecuritynews.com/new-china-linked-threat-cluster-op-512-targets-iis-servers/",
-      "date": "2026-06-08T19:12:59Z",
-      "description": "A newly identified threat cluster with suspected ties to China has been caught targeting Internet Information Services (IIS) web servers using a purpose-built web shell framework. Tracked as OP-512, this group stands out for deploying tools designed to evade every detection method that works against similar China-linked actors. The discovery marks another escalation in a […] The post New…",
-      "source": "cybersecuritynews.com"
+      "title": "New Apple feature automatically changes your compromised passwords",
+      "link": "https://www.bleepingcomputer.com/news/apple/new-apple-feature-automatically-changes-your-compromised-passwords/",
+      "date": "2026-06-08T21:03:40Z",
+      "description": "At WWDC 26, Apple announced an Apple Intelligence-powered feature that can automatically fix weak and compromised passwords. This works in Safari, and it's rolling out with iOS 27. [...]",
+      "source": "bleepingcomputer.com"
+    },
+    {
+      "title": "Silent Ransom Group Hits US Law Firms in Escalating Extortion Attacks",
+      "link": "https://www.darkreading.com/cyberattacks-data-breaches/silent-ransom-us-law-firms-extortion-attacks",
+      "date": "2026-06-08T20:59:52Z",
+      "description": "The financially motivated group is combining vishing, IT impersonation, and in-person office intrusions to steal data and extort victims.",
+      "source": "darkreading.com"
+    },
+    {
+      "title": "New Shai-Hulud attack trojanizes 19 science-focused PyPI packages",
+      "link": "https://www.bleepingcomputer.com/news/security/new-shai-hulud-attack-trojanizes-19-science-focused-pypi-packages/",
+      "date": "2026-06-08T20:41:35Z",
+      "description": "Hackers compromised 19 packages on the PyPI, collectively downloaded hundreds of thousands of times, in a new Shai-Hulud supply-chain attack that delivered malware designed to steal developer secrets. [...]",
+      "source": "bleepingcomputer.com"
+    },
+    {
+      "title": "Check Point VPN Flaw Exploited Since Early May",
+      "link": "https://www.darkreading.com/vulnerabilities-threats/check-point-vpn-flaw-exploited-early-may",
+      "date": "2026-06-08T20:28:35Z",
+      "description": "A newly discovered, critical zero-day vulnerability is under attack; a Qilin ransomware affiliate has been blamed for at least one incident.",
+      "source": "darkreading.com"
+    },
+    {
+      "title": "One-Character Linux Kernel Flaw Enables Local Root Access, Exploits Now Public",
+      "link": "https://thehackernews.com/2026/06/one-character-linux-kernel-flaw-enables.html",
+      "date": "2026-06-08T20:17:39Z",
+      "description": "Security researchers have published a detailed, working exploit for a Linux kernel use-after-free that lets an unprivileged local user escalate to root and break out of a container. The flaw, CVE-2026-23111, sits in the kernel's nf_tables packet-filtering code and was patched upstream on February 5, 2026. Exodus Intelligence released its full technical walkthrough on June 8, and it is not even",
+      "source": "thehackernews.com"
+    },
+    {
+      "title": "Iran Signed a Ceasefire — Its Hackers Didn't",
+      "link": "https://www.darkreading.com/cyberattacks-data-breaches/iran-signed-ceasefire-hackers",
+      "date": "2026-06-08T19:07:48Z",
+      "description": "An extension of the Geneva Conventions could impose restrictions on cyberwarfare under ceasefire conditions and close a major loophole in international conflict.",
+      "source": "darkreading.com"
     },
     {
       "title": "WhatsApp says it disrupted new NSO spyware phishing attacks",
@@ -24,32 +59,11 @@
       "source": "securityweek.com"
     },
     {
-      "title": "Check Point VPN 0-day Vulnerability Exploited in the Wild to Deploy Ransomware",
-      "link": "https://cybersecuritynews.com/check-point-vpn-0-day-vulnerability/",
-      "date": "2026-06-08T17:18:01Z",
-      "description": "Check Point Research has uncovered active exploitation of CVE-2026-50751, a critical authentication bypass vulnerability (CVSS 9.3) in Check Point Remote Access VPN and Mobile Access deployments, with confirmed post-compromise activity linked to the Qilin ransomware gang. CVE-2026-50751 targets deployments configured to use the deprecated IKEv1 key exchange protocol. By exploiting a logic flaw…",
-      "source": "cybersecuritynews.com"
-    },
-    {
       "title": "Meta Blocks NSO Group's New WhatsApp Phishing Attack, Files Contempt Order",
       "link": "https://thehackernews.com/2026/06/meta-blocks-nso-groups-new-whatsapp.html",
       "date": "2026-06-08T17:08:44Z",
       "description": "Meta on Monday said it detected and blocked spear-phishing attempts linked to Israeli spyware vendor NSO Group. In addition, the tech giant said it's filing a federal court contempt order against the company for violating a permanent injunction that barred it from targeting WhatsApp and its users. \"They tried to trick people into clicking on malicious links to drive them to external websites",
       "source": "thehackernews.com"
-    },
-    {
-      "title": "New Linux Kernel Vulnerability Lets Attackers Escalate Privileges to Root",
-      "link": "https://cybersecuritynews.com/linux-kernel-nftables-vulnerability/",
-      "date": "2026-06-08T16:45:41Z",
-      "description": "A use-after-free vulnerability in the Linux kernel’s nftables subsystem has been disclosed, enabling unprivileged local attackers to escalate privileges to root on widely deployed distributions including Debian Bookworm, Debian Trixie, Ubuntu 22.04 LTS, and Ubuntu 24.04 LTS. Tracked as CVE-2026-23111, the flaw was discovered in early 2025 and patched upstream on February 5, 2026, via […] The…",
-      "source": "cybersecuritynews.com"
-    },
-    {
-      "title": "New Pink Hacking Group Attacking Enterprise Users to Steal Cloud Storage Passwords",
-      "link": "https://cybersecuritynews.com/new-pink-hacking-group-attacking-enterprise-users/",
-      "date": "2026-06-08T16:22:46Z",
-      "description": "A newly identified extortion group called Pink has emerged as a serious threat to enterprise organizations, using social engineering tactics to steal cloud storage credentials and sensitive data. The group, tracked under the cluster code CL-CRI-1147, launched its dedicated data leak site on May 31, 2026, and has already listed several initial victims. Security teams […] The post New Pink Hacking…",
-      "source": "cybersecuritynews.com"
     },
     {
       "title": "Gogs patches critical zero-day enabling remote code execution",
@@ -64,13 +78,6 @@
       "date": "2026-06-08T16:13:41Z",
       "description": "The latest attacks, which hit 37 PyPI wheels and 19 code packages, show a continued evolution of the persistent software supply chain threat.",
       "source": "darkreading.com"
-    },
-    {
-      "title": "Malspam Attack Uses Google DoubleClick Redirects to Deliver Fileless .NET Loader",
-      "link": "https://cybersecuritynews.com/malspam-attack-uses-google-doubleclick-redirects/",
-      "date": "2026-06-08T16:01:55Z",
-      "description": "Cybercriminals have found a new way to sneak malware past email security tools, and this time they are hiding behind a name that most systems trust without question. A recent malspam campaign has been caught using Google’s own DoubleClick ad-tracking infrastructure to route victims toward a fileless .NET loader, a type of malware that runs […] The post Malspam Attack Uses Google DoubleClick…",
-      "source": "cybersecuritynews.com"
     },
     {
       "title": "Critical UniFi OS bug lets hackers gain root without authentication",
@@ -94,13 +101,6 @@
       "source": "thehackernews.com"
     },
     {
-      "title": "Reducing security operations complexity with Wazuh Cloud",
-      "link": "https://www.bleepingcomputer.com/news/security/reducing-security-operations-complexity-with-wazuh-cloud/",
-      "date": "2026-06-08T14:01:11Z",
-      "description": "Security teams are increasingly overwhelmed by alert fatigue, infrastructure maintenance, and complex hybrid environments. This article explores how Wazuh Cloud helps simplify SIEM/XDR operations through managed infrastructure, automated scaling, and AI-driven security analysis. [...]",
-      "source": "bleepingcomputer.com"
-    },
-    {
       "title": "WhatsApp Catches Spyware Firm NSO Defying No-Hacking Court Order",
       "link": "https://www.securityweek.com/whatsapp-catches-spyware-firm-nso-defying-no-hacking-court-order/",
       "date": "2026-06-08T13:23:03Z",
@@ -122,13 +122,6 @@
       "source": "thehackernews.com"
     },
     {
-      "title": "Check Point links VPN zero-day attacks to Qilin ransomware gang",
-      "link": "https://www.bleepingcomputer.com/news/security/check-point-links-vpn-zero-day-attacks-to-qilin-ransomware-gang/",
-      "date": "2026-06-08T13:05:16Z",
-      "description": "Israeli cybersecurity company Check Point has released security updates to patch a critical flaw affecting Remote Access VPN and Mobile Access deployments, which was exploited in zero-day attacks. [...]",
-      "source": "bleepingcomputer.com"
-    },
-    {
       "title": "Cybersecurity M&A Roundup: 26 Deals Announced in May 2026",
       "link": "https://www.securityweek.com/cybersecurity-ma-roundup-26-deals-announced-in-may-2026/",
       "date": "2026-06-08T12:38:45Z",
@@ -141,13 +134,6 @@
       "date": "2026-06-08T12:16:09Z",
       "description": "The flaw allows attackers to execute arbitrary code remotely and has been exploited in the wild for two months. The post Everest Forms Vulnerability Exploited to Hack WordPress Sites appeared first on SecurityWeek.",
       "source": "securityweek.com"
-    },
-    {
-      "title": "The Hardest Fork",
-      "link": "https://thehackernews.com/2026/06/the-hardest-fork.html",
-      "date": "2026-06-08T11:53:00Z",
-      "description": "Mythos is real. I know a big chunk of the industry thinks it's a marketing stunt, and I get why. I get it. But I've seen the findings, and they're bad. These aren't \"whoops, this line right here is wrong, and that's RCE.\" They're novel combinations of a few dozen issues out of thousands of things every SAST scanner already finds, chained together into something much worse. It's real creativity,",
-      "source": "thehackernews.com"
     },
     {
       "title": "Redis DarkReplica Exploit: Full PoC Code and Technical Details Released",
@@ -164,20 +150,6 @@
       "source": "darkreading.com"
     },
     {
-      "title": "Adaptive, Agentic AI Worms Loom as Next Enterprise Threat",
-      "link": "https://www.darkreading.com/cyber-risk/adaptive-agentic-ai-worms-enterprise-cyber-threat",
-      "date": "2026-06-05T14:40:11Z",
-      "description": "AI worms, or \"viruses with wings and brains,\" adapt to new environments, seek out vulnerabilities, and will likely strike within a year, researchers say.",
-      "source": "darkreading.com"
-    },
-    {
-      "title": "Trump AI Order Seeks Voluntary Frontier Model Testing",
-      "link": "https://www.darkreading.com/cybersecurity-operations/trump-ai-order-seeks-voluntary-frontier-model-testing",
-      "date": "2026-06-05T13:00:00Z",
-      "description": "The White House's executive order establishes voluntary framework for early government access to frontier models while investing in federal security.",
-      "source": "darkreading.com"
-    },
-    {
       "title": "ZDI-CAN-30169: 7-Zip",
       "link": "http://www.zerodayinitiative.com/advisories/upcoming/",
       "date": "2026-06-05T05:00:00Z",
@@ -190,13 +162,6 @@
       "date": "2026-06-05T05:00:00Z",
       "description": "A CVSS score 6.7 AV:L/AC:L/PR:H/UI:N/S:U/C:H/I:H/A:H severity vulnerability discovered by 'David Bors (@davidxbors), Catalin Iovita (@ciovita)' was reported to the affected vendor on: 2026-06-05, 3 days ago. The vendor is given until 2026-10-03 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
       "source": "zerodayinitiative.com"
-    },
-    {
-      "title": "Rust-Written IronWorm Hits NPM Supply Chain",
-      "link": "https://www.darkreading.com/cyberattacks-data-breaches/rust-written-ironworm-npm-supply-chain",
-      "date": "2026-06-04T21:47:06Z",
-      "description": "Like Shai-Hulud, the campaign targets developers to steal credentials and reuses them to propagate across the software supply channel.",
-      "source": "darkreading.com"
     },
     {
       "title": "ZDI-CAN-31724: Devman",
