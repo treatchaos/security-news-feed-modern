@@ -1,7 +1,67 @@
 {
   "date": "2026-06-08",
-  "count": 34,
+  "count": 41,
   "items": [
+    {
+      "id": "70f048dcac04c961cbcd8d5dde9b98e74794344e",
+      "title": "New China-Linked Threat Cluster OP-512 Targets IIS Servers With Cryptographically Unique Web Shell Framework",
+      "link": "https://cybersecuritynews.com/new-china-linked-threat-cluster-op-512-targets-iis-servers/",
+      "date": "2026-06-08T19:12:59Z",
+      "description": "A newly identified threat cluster with suspected ties to China has been caught targeting Internet Information Services (IIS) web servers using a purpose-built web shell framework. Tracked as OP-512, this group stands out for deploying tools designed to evade every detection method that works against similar China-linked actors. The discovery marks another escalation in a […] The post New…",
+      "source": "cybersecuritynews.com",
+      "first_seen": "2026-06-08T19:14:15Z",
+      "last_seen": "2026-06-08T19:14:15Z"
+    },
+    {
+      "id": "5599983bf894f7d643df28cb8ddc46e3c074f573",
+      "title": "WhatsApp says it disrupted new NSO spyware phishing attacks",
+      "link": "https://www.bleepingcomputer.com/news/security/whatsapp-says-it-disrupted-new-nso-spyware-phishing-attacks/",
+      "date": "2026-06-08T18:40:53Z",
+      "description": "WhatsApp has detected and stopped spear-phishing campaigns allegedly conducted by the NSO Group after investigating user reports of social engineering attacks. [...]",
+      "source": "bleepingcomputer.com",
+      "first_seen": "2026-06-08T19:14:15Z",
+      "last_seen": "2026-06-08T19:14:15Z"
+    },
+    {
+      "id": "ed6db012b41ed0a954a46b23f63fa4d9787390d1",
+      "title": "A Security Raises $37 Million for Autonomous Offensive Security Platform",
+      "link": "https://www.securityweek.com/a-security-raises-37-million-for-autonomous-offensive-security-platform/",
+      "date": "2026-06-08T17:19:38Z",
+      "description": "The company founded by Yossi Torati, Omer Gull, and Yuval Itzchakov has emerged from stealth mode. The post A Security Raises $37 Million for Autonomous Offensive Security Platform appeared first on SecurityWeek.",
+      "source": "securityweek.com",
+      "first_seen": "2026-06-08T19:14:15Z",
+      "last_seen": "2026-06-08T19:14:15Z"
+    },
+    {
+      "id": "4fb757487e8bdf12425f76c2cdd25ff5ad1c653d",
+      "title": "Check Point VPN 0-day Vulnerability Exploited in the Wild to Deploy Ransomware",
+      "link": "https://cybersecuritynews.com/check-point-vpn-0-day-vulnerability/",
+      "date": "2026-06-08T17:18:01Z",
+      "description": "Check Point Research has uncovered active exploitation of CVE-2026-50751, a critical authentication bypass vulnerability (CVSS 9.3) in Check Point Remote Access VPN and Mobile Access deployments, with confirmed post-compromise activity linked to the Qilin ransomware gang. CVE-2026-50751 targets deployments configured to use the deprecated IKEv1 key exchange protocol. By exploiting a logic flaw…",
+      "source": "cybersecuritynews.com",
+      "first_seen": "2026-06-08T19:14:15Z",
+      "last_seen": "2026-06-08T19:14:15Z"
+    },
+    {
+      "id": "991086dbff550f93c452659a12ee5e4aa515d269",
+      "title": "Meta Blocks NSO Group's New WhatsApp Phishing Attack, Files Contempt Order",
+      "link": "https://thehackernews.com/2026/06/meta-blocks-nso-groups-new-whatsapp.html",
+      "date": "2026-06-08T17:08:44Z",
+      "description": "Meta on Monday said it detected and blocked spear-phishing attempts linked to Israeli spyware vendor NSO Group. In addition, the tech giant said it's filing a federal court contempt order against the company for violating a permanent injunction that barred it from targeting WhatsApp and its users. \"They tried to trick people into clicking on malicious links to drive them to external websites",
+      "source": "thehackernews.com",
+      "first_seen": "2026-06-08T19:14:15Z",
+      "last_seen": "2026-06-08T19:14:15Z"
+    },
+    {
+      "id": "e1ad8b688fedbe96e287f39b56b313d0ecbd9b52",
+      "title": "New Linux Kernel Vulnerability Lets Attackers Escalate Privileges to Root",
+      "link": "https://cybersecuritynews.com/linux-kernel-nftables-vulnerability/",
+      "date": "2026-06-08T16:45:41Z",
+      "description": "A use-after-free vulnerability in the Linux kernel’s nftables subsystem has been disclosed, enabling unprivileged local attackers to escalate privileges to root on widely deployed distributions including Debian Bookworm, Debian Trixie, Ubuntu 22.04 LTS, and Ubuntu 24.04 LTS. Tracked as CVE-2026-23111, the flaw was discovered in early 2025 and patched upstream on February 5, 2026, via […] The…",
+      "source": "cybersecuritynews.com",
+      "first_seen": "2026-06-08T19:14:15Z",
+      "last_seen": "2026-06-08T19:14:15Z"
+    },
     {
       "id": "76a8c6d745f356eff9ffe74608a20a968125aa11",
       "title": "New Pink Hacking Group Attacking Enterprise Users to Steal Cloud Storage Passwords",
@@ -10,7 +70,7 @@
       "description": "A newly identified extortion group called Pink has emerged as a serious threat to enterprise organizations, using social engineering tactics to steal cloud storage credentials and sensitive data. The group, tracked under the cluster code CL-CRI-1147, launched its dedicated data leak site on May 31, 2026, and has already listed several initial victims. Security teams […] The post New Pink Hacking…",
       "source": "cybersecuritynews.com",
       "first_seen": "2026-06-08T16:44:16Z",
-      "last_seen": "2026-06-08T16:44:16Z"
+      "last_seen": "2026-06-08T19:14:15Z"
     },
     {
       "id": "aff234c7c214dfb522368f3549336e25f74e24e9",
@@ -20,7 +80,17 @@
       "description": "Gogs has patched a critical security zero-day flaw that can allow attackers to compromise Internet-facing instances and access any repositories (including private ones). [...]",
       "source": "bleepingcomputer.com",
       "first_seen": "2026-06-08T16:44:16Z",
-      "last_seen": "2026-06-08T16:44:16Z"
+      "last_seen": "2026-06-08T19:14:15Z"
+    },
+    {
+      "id": "85f0fffacdeca39d7eb6584f4faa32b148519a54",
+      "title": "'Hades' Campaign Against PyPI Puts New Spin on Shai-Hulud",
+      "link": "https://www.darkreading.com/application-security/hades-campaign-pypi-shai-hulud",
+      "date": "2026-06-08T16:13:41Z",
+      "description": "The latest attacks, which hit 37 PyPI wheels and 19 code packages, show a continued evolution of the persistent software supply chain threat.",
+      "source": "darkreading.com",
+      "first_seen": "2026-06-08T19:14:15Z",
+      "last_seen": "2026-06-08T19:14:15Z"
     },
     {
       "id": "93c08c85755d3972501903cf1b0c4ae80db07b38",
@@ -30,7 +100,7 @@
       "description": "Cybercriminals have found a new way to sneak malware past email security tools, and this time they are hiding behind a name that most systems trust without question. A recent malspam campaign has been caught using Google’s own DoubleClick ad-tracking infrastructure to route victims toward a fileless .NET loader, a type of malware that runs […] The post Malspam Attack Uses Google DoubleClick…",
       "source": "cybersecuritynews.com",
       "first_seen": "2026-06-08T16:44:16Z",
-      "last_seen": "2026-06-08T16:44:16Z"
+      "last_seen": "2026-06-08T19:14:15Z"
     },
     {
       "id": "ff1b2cf242a907bbd3de8689c542be10b9ac5ea0",
@@ -40,7 +110,7 @@
       "description": "Attackers can chain three already fixed vulnerabilities in the Ubiquiti UniFi OS server to execute remote code with root privileges and without authentication. [...]",
       "source": "bleepingcomputer.com",
       "first_seen": "2026-06-08T16:44:16Z",
-      "last_seen": "2026-06-08T16:44:16Z"
+      "last_seen": "2026-06-08T19:14:15Z"
     },
     {
       "id": "c2f9b74ebd2ef00385a84b9401cc2522f06aee28",
@@ -50,7 +120,7 @@
       "description": "AI-driven development is not something organizations can or should block. But it must be governed. The post Everybody Is Vibe Coding But Nobody Told the Security Team appeared first on SecurityWeek.",
       "source": "securityweek.com",
       "first_seen": "2026-06-08T16:44:16Z",
-      "last_seen": "2026-06-08T16:44:16Z"
+      "last_seen": "2026-06-08T19:14:15Z"
     },
     {
       "id": "68d0b1dd9be3c856a87e3d1f364cfe8f333eff55",
@@ -90,7 +160,7 @@
       "description": "Check Point has warned of active exploitation of a critical vulnerability impacting Remote Access VPN and Mobile Access deployments that are configured to use the deprecated IKEv1 key exchange protocol. The vulnerability, tracked as CVE-2026-50751 (CVSS score: 9.3), is a case of a logic flow weakness in certificate validation that allows an unauthenticated remote attacker to bypass user",
       "source": "thehackernews.com",
       "first_seen": "2026-06-08T16:44:16Z",
-      "last_seen": "2026-06-08T16:44:16Z"
+      "last_seen": "2026-06-08T19:14:15Z"
     },
     {
       "id": "a5df3b433c49fec73ddad54a0eaa3714c962e21d",
@@ -100,7 +170,7 @@
       "description": "Security teams are increasingly overwhelmed by alert fatigue, infrastructure maintenance, and complex hybrid environments. This article explores how Wazuh Cloud helps simplify SIEM/XDR operations through managed infrastructure, automated scaling, and AI-driven security analysis. [...]",
       "source": "bleepingcomputer.com",
       "first_seen": "2026-06-08T16:44:16Z",
-      "last_seen": "2026-06-08T16:44:16Z"
+      "last_seen": "2026-06-08T19:14:15Z"
     },
     {
       "id": "c06987937546af970cc9b5ae7f4e3bf3f26dbb43",
@@ -110,7 +180,7 @@
       "description": "The Meta-owned communications app is filing a federal court contempt order against NSO. The post WhatsApp Catches Spyware Firm NSO Defying No-Hacking Court Order appeared first on SecurityWeek.",
       "source": "securityweek.com",
       "first_seen": "2026-06-08T16:44:16Z",
-      "last_seen": "2026-06-08T16:44:16Z"
+      "last_seen": "2026-06-08T19:14:15Z"
     },
     {
       "id": "4f5c81f44d98c2291cec4d9b2248a9dd6cfe817f",
@@ -120,7 +190,7 @@
       "description": "Phishing has always been a numbers game. AI has turned it into a volume machine. Attackers can now create convincing emails, fake login pages, and tailored lures in minutes. Every polished message adds another case for Tier 1 to review, another link to inspect, and another alert that cannot be dismissed at a glance. As the queue grows, a credential theft attempt or malware delivery can easily",
       "source": "thehackernews.com",
       "first_seen": "2026-06-08T16:44:16Z",
-      "last_seen": "2026-06-08T16:44:16Z"
+      "last_seen": "2026-06-08T19:14:15Z"
     },
     {
       "id": "6119f1757724d7a779e6c5ce8d99973b214cb174",
@@ -130,7 +200,7 @@
       "description": "Monday again. The weekend was meant to be quiet. It wasn't. Last week had poisoned packages, a broken AI helper, and a worm tearing through repos. The ugly part: basic tricks still worked. A chatbot got fooled. A bot token got leaked inside the malware. The same old mistakes showed up again. And while everyone chased the loud stuff, quieter attackers sat in inboxes for months, reading mail and",
       "source": "thehackernews.com",
       "first_seen": "2026-06-08T16:44:16Z",
-      "last_seen": "2026-06-08T16:44:16Z"
+      "last_seen": "2026-06-08T19:14:15Z"
     },
     {
       "id": "271e39f9cb0a6376a4315fe5a4339a6e42248556",
@@ -140,7 +210,7 @@
       "description": "Israeli cybersecurity company Check Point has released security updates to patch a critical flaw affecting Remote Access VPN and Mobile Access deployments, which was exploited in zero-day attacks. [...]",
       "source": "bleepingcomputer.com",
       "first_seen": "2026-06-08T16:44:16Z",
-      "last_seen": "2026-06-08T16:44:16Z"
+      "last_seen": "2026-06-08T19:14:15Z"
     },
     {
       "id": "8bc833e5ee6ad19376d644d7974f135c17a00614",
@@ -150,7 +220,7 @@
       "description": "Significant cybersecurity M&A deals announced by Akamai, Check Point, Cisco, Cyera, Dragos, WatchGuard and Zscaler. The post Cybersecurity M&A Roundup: 26 Deals Announced in May 2026 appeared first on SecurityWeek.",
       "source": "securityweek.com",
       "first_seen": "2026-06-08T12:56:53Z",
-      "last_seen": "2026-06-08T16:44:16Z"
+      "last_seen": "2026-06-08T19:14:15Z"
     },
     {
       "id": "0a5df603323f2e8a2cf8e467afa507752ce9c373",
@@ -160,7 +230,7 @@
       "description": "The flaw allows attackers to execute arbitrary code remotely and has been exploited in the wild for two months. The post Everest Forms Vulnerability Exploited to Hack WordPress Sites appeared first on SecurityWeek.",
       "source": "securityweek.com",
       "first_seen": "2026-06-08T12:56:53Z",
-      "last_seen": "2026-06-08T16:44:16Z"
+      "last_seen": "2026-06-08T19:14:15Z"
     },
     {
       "id": "f975e43efca7e87a547f33972cdf88751fbe43bf",
@@ -170,7 +240,7 @@
       "description": "Mythos is real. I know a big chunk of the industry thinks it's a marketing stunt, and I get why. I get it. But I've seen the findings, and they're bad. These aren't \"whoops, this line right here is wrong, and that's RCE.\" They're novel combinations of a few dozen issues out of thousands of things every SAST scanner already finds, chained together into something much worse. It's real creativity,",
       "source": "thehackernews.com",
       "first_seen": "2026-06-08T16:44:16Z",
-      "last_seen": "2026-06-08T16:44:16Z"
+      "last_seen": "2026-06-08T19:14:15Z"
     },
     {
       "id": "fc2a7b0679cd70a17db68dad6d587cdb863cf60f",
@@ -280,7 +350,7 @@
       "description": "Severe Infrastructure Exposure Discovered A researcher has released the technical mechanics of a critical post-authentication flaw impacting multiple The post Redis DarkReplica Exploit: Full PoC Code and Technical Details Released appeared first on Daily CyberSecurity. Related posts: Exploit Code Publicly Released: Critical Firefox WebRTC Flaw Allows RCE (CVSS 9.8) Race Condition in Windows…",
       "source": "securityonline.info",
       "first_seen": "2026-06-08T08:43:57Z",
-      "last_seen": "2026-06-08T16:44:16Z"
+      "last_seen": "2026-06-08T19:14:15Z"
     },
     {
       "id": "c7a2e021aac52ab4470b879770415d664f01640f",
