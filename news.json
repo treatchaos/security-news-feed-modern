@@ -1,20 +1,83 @@
 {
-  "last_updated": "2026-06-09T13:36:27Z",
-  "count": 35,
+  "last_updated": "2026-06-09T16:25:58Z",
+  "count": 40,
   "items": [
+    {
+      "title": "XBOW tests Anthropic's Mythos Preview for offensive security",
+      "link": "https://www.bleepingcomputer.com/news/security/xbow-tests-anthropics-mythos-preview-for-offensive-security/",
+      "date": "2026-06-09T16:16:38Z",
+      "description": "Anthropic's Mythos Preview was highly effective at finding vulnerability candidates, especially when analyzing source code. XBOW explores how the model performed across exploit discovery, reverse engineering, and live-site validation. [...]",
+      "source": "bleepingcomputer.com"
+    },
+    {
+      "title": "Microsoft Entra Agent ID Logs Reveal Suspicious Assistive Agent Activity",
+      "link": "https://cybersecuritynews.com/microsoft-entra-agent-id-logs/",
+      "date": "2026-06-09T16:03:16Z",
+      "description": "AI agents built into enterprise platforms are no longer just productivity tools. Security researchers have found that these agents, when configured to act on behalf of real users, can become a quiet but serious risk deep inside an organization’s identity layer. A new investigation reveals how Microsoft Entra Agent ID logs capture suspicious behavior tied […] The post Microsoft Entra Agent ID…",
+      "source": "cybersecuritynews.com"
+    },
+    {
+      "title": "North Korea-Aligned Hackers Abuse GitHub Repositories to Infect Developers",
+      "link": "https://cybersecuritynews.com/north-korea-aligned-hackers-abuse-github-repositories/",
+      "date": "2026-06-09T16:02:01Z",
+      "description": "North Korea-aligned hackers are once again targeting the developer community, this time by hiding malicious code inside seemingly legitimate GitHub repositories. The campaign, tracked under the name UNK_DeadDrop, uses fake job offers and code review requests to lure developers into cloning infected repositories and unknowingly executing malware on their own machines. The threat actor sent […]…",
+      "source": "cybersecuritynews.com"
+    },
+    {
+      "title": "GitHub disables Microsoft repos pushing password-stealing malware",
+      "link": "https://www.bleepingcomputer.com/news/security/github-disables-microsoft-repos-pushing-password-stealing-malware/",
+      "date": "2026-06-09T15:42:40Z",
+      "description": "Microsoft removed 73 repositories across its Azure, microsoft, Azure-Samples, and MicrosoftDocs organizations on GitHub, disrupting continuous integration pipelines. [...]",
+      "source": "bleepingcomputer.com"
+    },
+    {
+      "title": "Russian Attackers Weaponize WinRAR Flaw Against Ukrainian Orgs",
+      "link": "https://www.darkreading.com/vulnerabilities-threats/russian-groups-winrar-flaw-ukrainian-orgs",
+      "date": "2026-06-09T15:37:02Z",
+      "description": "Two separate campaigns target CVE-2025-8088, fixed last July, to conduct data theft and cyberespionage against military and government targets in Ukraine.",
+      "source": "darkreading.com"
+    },
+    {
+      "title": "How Threat Intelligence Feeds Help Automate SOCs to Reduce MTTR",
+      "link": "https://cybersecuritynews.com/how-threat-intelligence-feeds-help-automate-socs-to-reduce-mttr/",
+      "date": "2026-06-09T15:33:20Z",
+      "description": "Security operations center (SOC) automation has become one of the biggest trends in cybersecurity. Organizations are investing heavily in AI, orchestration, and automated response technologies in pursuit of faster detection and reduced operational costs. However, effective SOC automation requires a practical approach grounded in business priorities, realistic expectations, and measurable…",
+      "source": "cybersecuritynews.com"
+    },
+    {
+      "title": "Claude Mythos Turns N-Days Into N-Hours With Rapid Exploit Creation",
+      "link": "https://www.securityweek.com/claude-mythos-turns-n-days-into-n-hours-with-rapid-exploit-creation/",
+      "date": "2026-06-09T15:03:13Z",
+      "description": "Public LLM models with safeguards turned off can also build working exploits, increasing patch gap risks. The post Claude Mythos Turns N-Days Into N-Hours With Rapid Exploit Creation appeared first on SecurityWeek.",
+      "source": "securityweek.com"
+    },
+    {
+      "title": "Fortinet FortiSandbox Vulnerability Allows Attackers to Execute Unauthorized Commands",
+      "link": "https://cybersecuritynews.com/fortinet-fortisandbox-vulnerability-exploited/",
+      "date": "2026-06-09T14:51:50Z",
+      "description": "Fortinet has disclosed a critical security vulnerability in its FortiSandbox product line that could allow unauthenticated remote attackers to execute arbitrary OS commands through the web interface. The flaw, tracked as CVE-2026-25089 and assigned a CVSSv3 score of 9.1 (Critical), affects multiple versions of FortiSandbox, FortiSandbox Cloud, and FortiSandbox PaaS deployments. The vulnerability…",
+      "source": "cybersecuritynews.com"
+    },
+    {
+      "title": "SPF, DKIM, DMARC Passed. Malicious Link Passes Every Authentication Check, But CyberCheck360 Caught It",
+      "link": "https://cybersecuritynews.com/cybercheck360/",
+      "date": "2026-06-09T14:38:01Z",
+      "description": "A $12 domain, 72 hours of patience, and your finance team’s credentials — why authentication tells you who sent the email, never where the link goes, and how detection at the click closes the gap your gateway can’t see. A domain is registered on Monday. By Tuesday it serves a pixel-perfect Microsoft 365 login clone. […] The post SPF, DKIM, DMARC Passed. Malicious Link Passes Every Authentication…",
+      "source": "cybersecuritynews.com"
+    },
+    {
+      "title": "New Veeam vulnerability exposes backup servers to RCE attacks",
+      "link": "https://www.bleepingcomputer.com/news/security/new-veeam-vulnerability-exposes-backup-servers-to-rce-attacks/",
+      "date": "2026-06-09T14:27:56Z",
+      "description": "Veeam has released security updates to patch a critical Backup & Replication security flaw that can be exploited to gain remote code execution (RCE) on domain-joined backup servers. [...]",
+      "source": "bleepingcomputer.com"
+    },
     {
       "title": "New Platform Uses Cryptographic Invisibility to Protect AI-Built Applications",
       "link": "https://www.securityweek.com/new-platform-uses-cryptographic-invisibility-to-protect-ai-built-applications/",
       "date": "2026-06-09T13:00:00Z",
       "description": "Atsign’s AI Architect applies cryptographic protections to agentic software development, aiming to prevent attackers from exploiting vulnerabilities by making application identities effectively invisible. The post New Platform Uses Cryptographic Invisibility to Protect AI-Built Applications appeared first on SecurityWeek.",
       "source": "securityweek.com"
-    },
-    {
-      "title": "New Weedhack Malware-as-a-Service Targets Minecraft Players to Steal Credentials, and Hijack Accounts",
-      "link": "https://cybersecuritynews.com/new-weedhack-malware-as-a-service-targets-minecraft-players/",
-      "date": "2026-06-09T12:46:04Z",
-      "description": "A new and dangerous threat has emerged in the gaming world, one that turns a beloved pastime into a gateway for cybercrime. Weedhack, a Minecraft-focused Malware-as-a-Service (MaaS) operation, has been actively targeting players since at least January 2026, exploiting their interest in game modifications to steal credentials, drain cryptocurrency wallets, and hijack accounts. The campaign […]…",
-      "source": "cybersecuritynews.com"
     },
     {
       "title": "WinRAR Flaw Exploited by Russia-Aligned Groups to Deploy Stealers in Ukraine",
@@ -45,13 +108,6 @@
       "source": "thehackernews.com"
     },
     {
-      "title": "New NFCShare Android Malware Delivered via Weaponized Versions of Egitimate Banking Apps",
-      "link": "https://cybersecuritynews.com/new-nfcshare-android-malware-delivered-via-weaponized-versions/",
-      "date": "2026-06-09T11:56:42Z",
-      "description": "A newly evolved strain of Android malware known as NFCShare is being spread through fake versions of legitimate banking apps, putting mobile users across Europe at serious risk. The malware is designed to secretly steal payment card data using a phone’s NFC chip, and it has grown into a much broader and more coordinated campaign […] The post New NFCShare Android Malware Delivered via Weaponized…",
-      "source": "cybersecuritynews.com"
-    },
-    {
       "title": "Over 100 NPM, PyPI Packages Hit in New Shai-Hulud Supply Chain Attacks",
       "link": "https://www.securityweek.com/over-100-npm-pypi-packages-hit-in-new-shai-hulud-supply-chain-attacks/",
       "date": "2026-06-09T11:37:11Z",
@@ -80,13 +136,6 @@
       "source": "bleepingcomputer.com"
     },
     {
-      "title": "Microsoft Defender Now Monitors RPC Protocol Abuse by Hackers",
-      "link": "https://cybersecuritynews.com/defender-rpc-protocol-abuse/",
-      "date": "2026-06-09T10:09:00Z",
-      "description": "Microsoft has expanded Microsoft Defender’s capabilities to monitor, detect, and disrupt attacks that abuse Remote Procedure Call (RPC), a core Windows protocol long exploited by threat actors for lateral movement, credential theft, and privilege escalation. Remote Procedure Call (RPC) is a protocol that allows functions residing in a separate process — or even on a […] The post Microsoft…",
-      "source": "cybersecuritynews.com"
-    },
-    {
       "title": "New FROST Attack Lets Websites Track What Sites and Apps You Open via SSD Timing",
       "link": "https://thehackernews.com/2026/06/new-frost-attack-lets-websites-track.html",
       "date": "2026-06-09T09:50:41Z",
@@ -94,52 +143,10 @@
       "source": "thehackernews.com"
     },
     {
-      "title": "Check Point VPN Zero-Day Exploited in Qilin Ransomware Attacks",
-      "link": "https://www.securityweek.com/check-point-vpn-zero-day-exploited-in-qilin-ransomware-attacks/",
-      "date": "2026-06-09T09:47:10Z",
-      "description": "The authentication bypass vulnerability allows attackers to establish VPN connections without a valid password. The post Check Point VPN Zero-Day Exploited in Qilin Ransomware Attacks appeared first on SecurityWeek.",
-      "source": "securityweek.com"
-    },
-    {
-      "title": "Hackers Exploiting LiteLLM RCE Vulnerability in the Wild to Run Arbitrary Commands",
-      "link": "https://cybersecuritynews.com/litellm-rce-vulnerability-exploited/",
-      "date": "2026-06-09T09:25:04Z",
-      "description": "Threat actors are actively exploiting a critical chained vulnerability in LiteLLM, a popular open-source AI gateway proxy, allowing unauthenticated remote code execution (RCE) on vulnerable deployments. Researchers at Horizon3.ai confirmed that combining two CVEs creates a CVSS 10.0 Critical attack path requiring zero credentials. At the core of this threat is CVE-2026-42271, a command injection…",
-      "source": "cybersecuritynews.com"
-    },
-    {
-      "title": "SAP Security Patch Day – Critical Vulnerabilities in SAP NetWeaver Patched",
-      "link": "https://cybersecuritynews.com/sap-security-patch-day-june/",
-      "date": "2026-06-09T08:57:55Z",
-      "description": "SAP’s June 2026 Security Patch Day, observed on Tuesday, June 9, delivered 15 new security notes addressing a broad range of vulnerabilities across core SAP products, including four critical-severity flaws that demand immediate enterprise attention. SAP strongly urges all customers to visit the SAP Support Portal and apply the patches on priority to protect their […] The post SAP Security Patch…",
-      "source": "cybersecuritynews.com"
-    },
-    {
       "title": "CISA gives feds 3 days to patch Check Point VPN bug exploited as zero-day",
       "link": "https://www.bleepingcomputer.com/news/security/cisa-orders-feds-to-patch-check-point-flaw-exploited-by-ransomware-gangs/",
       "date": "2026-06-09T08:18:39Z",
       "description": "CISA has ordered U.S. government agencies to secure their Check Point Remote Access VPN and Mobile Access deployments against a critical vulnerability exploited in zero-day attacks by Qilin ransomware affiliates. [...]",
-      "source": "bleepingcomputer.com"
-    },
-    {
-      "title": "Google patches new Chrome zero-day flaw exploited in the wild",
-      "link": "https://www.bleepingcomputer.com/news/security/google-patches-fifth-chrome-zero-day-bug-exploited-in-attacks-this-year/",
-      "date": "2026-06-09T06:56:27Z",
-      "description": "Google has released emergency updates to patch another Chrome zero-day vulnerability that has been exploited in the wild, the fifth such flaw patched since the start of the year. [...]",
-      "source": "bleepingcomputer.com"
-    },
-    {
-      "title": "NFCShare Android malware spreads via fake banking app updates on GitHub",
-      "link": "https://www.bleepingcomputer.com/news/security/nfcshare-android-malware-spreads-via-fake-banking-app-updates-on-github/",
-      "date": "2026-06-08T22:11:58Z",
-      "description": "New variants of the NFCShare Android malware are being distributed as fake updates for legitimate banking apps hosted on GitHub. [...]",
-      "source": "bleepingcomputer.com"
-    },
-    {
-      "title": "SoFi confirms third-party data breach at Hong Kong subsidiary",
-      "link": "https://www.bleepingcomputer.com/news/security/sofi-confirms-third-party-data-breach-at-hong-kong-subsidiary/",
-      "date": "2026-06-08T21:55:46Z",
-      "description": "SoFi Hong Kong is warning that it suffered a data breach after hackers gained access to a database at a third-party vendor containing customer information. [...]",
       "source": "bleepingcomputer.com"
     },
     {
@@ -176,13 +183,6 @@
       "date": "2026-06-08T08:06:42Z",
       "description": "Severe Infrastructure Exposure Discovered A researcher has released the technical mechanics of a critical post-authentication flaw impacting multiple The post Redis DarkReplica Exploit: Full PoC Code and Technical Details Released appeared first on Daily CyberSecurity. Related posts: Exploit Code Publicly Released: Critical Firefox WebRTC Flaw Allows RCE (CVSS 9.8) Race Condition in Windows…",
       "source": "securityonline.info"
-    },
-    {
-      "title": "Exposed Fuel Tank Gauges Under Attack in the US",
-      "link": "https://www.darkreading.com/cyberattacks-data-breaches/exposed-fuel-tank-gauges-attack-us",
-      "date": "2026-06-05T19:04:36Z",
-      "description": "Threat actors are taking advantage of Internet-exposed tank gauges by breaching gas stations, opening the door to disruption.",
-      "source": "darkreading.com"
     },
     {
       "title": "ZDI-CAN-30169: 7-Zip",
@@ -246,6 +246,41 @@
       "date": "2026-05-28T03:17:51Z",
       "description": "Security researchers have uncovered a critical memory corruption flaw in a core Microsoft networking component. Specifically, this dangerous The post Windows DNS Client RCE: 9.8 CVSS & Public PoC Disclosed appeared first on Daily CyberSecurity. Related posts: Critical CVSS 9.8 RCE Flaw in vLLM Exposes AI Hosts to Remote Attacks Critical Trend Micro Apex Central Flaws: Pre-Auth RCE (CVSS 9.8)…",
       "source": "securityonline.info"
+    },
+    {
+      "title": "Student Loan Breach Exposes 2.5M Records",
+      "link": "https://threatpost.com/student-loan-breach-exposes-2-5m-records/180492/",
+      "date": "2022-08-31T12:57:48Z",
+      "description": "2.5 million people were affected, in a breach that could spell more trouble down the line.",
+      "source": "threatpost.com"
+    },
+    {
+      "title": "Watering Hole Attacks Push ScanBox Keylogger",
+      "link": "https://threatpost.com/watering-hole-attacks-push-scanbox-keylogger/180490/",
+      "date": "2022-08-30T16:00:43Z",
+      "description": "Researchers uncover a watering hole attack likely carried out by APT TA423, which attempts to plant the ScanBox JavaScript-based reconnaissance tool.",
+      "source": "threatpost.com"
+    },
+    {
+      "title": "Tentacles of ‘0ktapus’ Threat Group Victimize 130 Firms",
+      "link": "https://threatpost.com/0ktapus-victimize-130-firms/180487/",
+      "date": "2022-08-29T14:56:19Z",
+      "description": "Over 130 companies tangled in sprawling phishing campaign that spoofed a multi-factor authentication system.",
+      "source": "threatpost.com"
+    },
+    {
+      "title": "Ransomware Attacks are on the Rise",
+      "link": "https://threatpost.com/ransomware-attacks-are-on-the-rise/180481/",
+      "date": "2022-08-26T16:44:27Z",
+      "description": "Lockbit is by far this summer’s most prolific ransomware group, trailed by two offshoots of the Conti group.",
+      "source": "threatpost.com"
+    },
+    {
+      "title": "Cybercriminals Are Selling Access to Chinese Surveillance Cameras",
+      "link": "https://threatpost.com/cybercriminals-are-selling-access-to-chinese-surveillance-cameras/180478/",
+      "date": "2022-08-25T18:47:15Z",
+      "description": "Tens of thousands of cameras have failed to patch a critical, 11-month-old CVE, leaving thousands of organizations exposed.",
+      "source": "threatpost.com"
     }
   ]
 }

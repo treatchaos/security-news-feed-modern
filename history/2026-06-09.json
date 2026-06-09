@@ -1,7 +1,107 @@
 {
   "date": "2026-06-09",
-  "count": 24,
+  "count": 34,
   "items": [
+    {
+      "id": "3a4be9c807e8892aa8e2ffabdb9a43df5f9a1613",
+      "title": "XBOW tests Anthropic's Mythos Preview for offensive security",
+      "link": "https://www.bleepingcomputer.com/news/security/xbow-tests-anthropics-mythos-preview-for-offensive-security/",
+      "date": "2026-06-09T16:16:38Z",
+      "description": "Anthropic's Mythos Preview was highly effective at finding vulnerability candidates, especially when analyzing source code. XBOW explores how the model performed across exploit discovery, reverse engineering, and live-site validation. [...]",
+      "source": "bleepingcomputer.com",
+      "first_seen": "2026-06-09T16:25:58Z",
+      "last_seen": "2026-06-09T16:25:58Z"
+    },
+    {
+      "id": "825397e6aa19580fa6164aa6582fac32c1867d41",
+      "title": "Microsoft Entra Agent ID Logs Reveal Suspicious Assistive Agent Activity",
+      "link": "https://cybersecuritynews.com/microsoft-entra-agent-id-logs/",
+      "date": "2026-06-09T16:03:16Z",
+      "description": "AI agents built into enterprise platforms are no longer just productivity tools. Security researchers have found that these agents, when configured to act on behalf of real users, can become a quiet but serious risk deep inside an organization’s identity layer. A new investigation reveals how Microsoft Entra Agent ID logs capture suspicious behavior tied […] The post Microsoft Entra Agent ID…",
+      "source": "cybersecuritynews.com",
+      "first_seen": "2026-06-09T16:25:58Z",
+      "last_seen": "2026-06-09T16:25:58Z"
+    },
+    {
+      "id": "3052d2ffffd5c77a9e16b19ea0a1522d4d03c2a5",
+      "title": "North Korea-Aligned Hackers Abuse GitHub Repositories to Infect Developers",
+      "link": "https://cybersecuritynews.com/north-korea-aligned-hackers-abuse-github-repositories/",
+      "date": "2026-06-09T16:02:01Z",
+      "description": "North Korea-aligned hackers are once again targeting the developer community, this time by hiding malicious code inside seemingly legitimate GitHub repositories. The campaign, tracked under the name UNK_DeadDrop, uses fake job offers and code review requests to lure developers into cloning infected repositories and unknowingly executing malware on their own machines. The threat actor sent […]…",
+      "source": "cybersecuritynews.com",
+      "first_seen": "2026-06-09T16:25:58Z",
+      "last_seen": "2026-06-09T16:25:58Z"
+    },
+    {
+      "id": "f9b3bd31b1b8189983a4287203d8532e59eb9dc7",
+      "title": "GitHub disables Microsoft repos pushing password-stealing malware",
+      "link": "https://www.bleepingcomputer.com/news/security/github-disables-microsoft-repos-pushing-password-stealing-malware/",
+      "date": "2026-06-09T15:42:40Z",
+      "description": "Microsoft removed 73 repositories across its Azure, microsoft, Azure-Samples, and MicrosoftDocs organizations on GitHub, disrupting continuous integration pipelines. [...]",
+      "source": "bleepingcomputer.com",
+      "first_seen": "2026-06-09T16:25:58Z",
+      "last_seen": "2026-06-09T16:25:58Z"
+    },
+    {
+      "id": "0de77c740f4202e04211de3cc508326b432e5001",
+      "title": "Russian Attackers Weaponize WinRAR Flaw Against Ukrainian Orgs",
+      "link": "https://www.darkreading.com/vulnerabilities-threats/russian-groups-winrar-flaw-ukrainian-orgs",
+      "date": "2026-06-09T15:37:02Z",
+      "description": "Two separate campaigns target CVE-2025-8088, fixed last July, to conduct data theft and cyberespionage against military and government targets in Ukraine.",
+      "source": "darkreading.com",
+      "first_seen": "2026-06-09T16:25:58Z",
+      "last_seen": "2026-06-09T16:25:58Z"
+    },
+    {
+      "id": "ac30d324db3561f4125f4ecaa3ef3c84f3be431d",
+      "title": "How Threat Intelligence Feeds Help Automate SOCs to Reduce MTTR",
+      "link": "https://cybersecuritynews.com/how-threat-intelligence-feeds-help-automate-socs-to-reduce-mttr/",
+      "date": "2026-06-09T15:33:20Z",
+      "description": "Security operations center (SOC) automation has become one of the biggest trends in cybersecurity. Organizations are investing heavily in AI, orchestration, and automated response technologies in pursuit of faster detection and reduced operational costs. However, effective SOC automation requires a practical approach grounded in business priorities, realistic expectations, and measurable…",
+      "source": "cybersecuritynews.com",
+      "first_seen": "2026-06-09T16:25:58Z",
+      "last_seen": "2026-06-09T16:25:58Z"
+    },
+    {
+      "id": "80b0385cbec217e6a905e6e6791fbfad4e5ed1ac",
+      "title": "Claude Mythos Turns N-Days Into N-Hours With Rapid Exploit Creation",
+      "link": "https://www.securityweek.com/claude-mythos-turns-n-days-into-n-hours-with-rapid-exploit-creation/",
+      "date": "2026-06-09T15:03:13Z",
+      "description": "Public LLM models with safeguards turned off can also build working exploits, increasing patch gap risks. The post Claude Mythos Turns N-Days Into N-Hours With Rapid Exploit Creation appeared first on SecurityWeek.",
+      "source": "securityweek.com",
+      "first_seen": "2026-06-09T16:25:58Z",
+      "last_seen": "2026-06-09T16:25:58Z"
+    },
+    {
+      "id": "f6ab30412387b7d5ffedde157d03771d13e677f7",
+      "title": "Fortinet FortiSandbox Vulnerability Allows Attackers to Execute Unauthorized Commands",
+      "link": "https://cybersecuritynews.com/fortinet-fortisandbox-vulnerability-exploited/",
+      "date": "2026-06-09T14:51:50Z",
+      "description": "Fortinet has disclosed a critical security vulnerability in its FortiSandbox product line that could allow unauthenticated remote attackers to execute arbitrary OS commands through the web interface. The flaw, tracked as CVE-2026-25089 and assigned a CVSSv3 score of 9.1 (Critical), affects multiple versions of FortiSandbox, FortiSandbox Cloud, and FortiSandbox PaaS deployments. The vulnerability…",
+      "source": "cybersecuritynews.com",
+      "first_seen": "2026-06-09T16:25:58Z",
+      "last_seen": "2026-06-09T16:25:58Z"
+    },
+    {
+      "id": "3af0afa5daa3377dadd226ae1883c6b0b078bb27",
+      "title": "SPF, DKIM, DMARC Passed. Malicious Link Passes Every Authentication Check, But CyberCheck360 Caught It",
+      "link": "https://cybersecuritynews.com/cybercheck360/",
+      "date": "2026-06-09T14:38:01Z",
+      "description": "A $12 domain, 72 hours of patience, and your finance team’s credentials — why authentication tells you who sent the email, never where the link goes, and how detection at the click closes the gap your gateway can’t see. A domain is registered on Monday. By Tuesday it serves a pixel-perfect Microsoft 365 login clone. […] The post SPF, DKIM, DMARC Passed. Malicious Link Passes Every Authentication…",
+      "source": "cybersecuritynews.com",
+      "first_seen": "2026-06-09T16:25:58Z",
+      "last_seen": "2026-06-09T16:25:58Z"
+    },
+    {
+      "id": "a77ea689c1e97dfdf57536e8a1879ef346213e4f",
+      "title": "New Veeam vulnerability exposes backup servers to RCE attacks",
+      "link": "https://www.bleepingcomputer.com/news/security/new-veeam-vulnerability-exposes-backup-servers-to-rce-attacks/",
+      "date": "2026-06-09T14:27:56Z",
+      "description": "Veeam has released security updates to patch a critical Backup & Replication security flaw that can be exploited to gain remote code execution (RCE) on domain-joined backup servers. [...]",
+      "source": "bleepingcomputer.com",
+      "first_seen": "2026-06-09T16:25:58Z",
+      "last_seen": "2026-06-09T16:25:58Z"
+    },
     {
       "id": "afbf9fcb31f58be56524fc96579c68cef40db6fe",
       "title": "New Platform Uses Cryptographic Invisibility to Protect AI-Built Applications",
@@ -10,7 +110,7 @@
       "description": "Atsign’s AI Architect applies cryptographic protections to agentic software development, aiming to prevent attackers from exploiting vulnerabilities by making application identities effectively invisible. The post New Platform Uses Cryptographic Invisibility to Protect AI-Built Applications appeared first on SecurityWeek.",
       "source": "securityweek.com",
       "first_seen": "2026-06-09T13:36:27Z",
-      "last_seen": "2026-06-09T13:36:27Z"
+      "last_seen": "2026-06-09T16:25:58Z"
     },
     {
       "id": "0dc798b31b08705f4a02ca1792a8eab85997ad1e",
@@ -30,7 +130,7 @@
       "description": "Two Russia-aligned cyber attack campaigns have continued to exploit a security flaw in WinRAR to target Ukrainian organisations, almost a year after patches for the vulnerability were released. The activity has been attributed by Trend Micro to Earth Dahu (aka Gamaredon) and SHADOW-EARTH-066 (aka UAC-0226). It involves the exploitation of CVE-2025-8088, a path traversal flaw that allows an",
       "source": "thehackernews.com",
       "first_seen": "2026-06-09T13:36:27Z",
-      "last_seen": "2026-06-09T13:36:27Z"
+      "last_seen": "2026-06-09T16:25:58Z"
     },
     {
       "id": "41174e10201cd5057dcf6bf76e139cf376e005eb",
@@ -40,7 +140,7 @@
       "description": "The flaws could lead to the disclosure of sensitive information, memory corruption, and disruption of normal system usage. The post SAP Patches Critical NetWeaver, Commerce Vulnerabilities appeared first on SecurityWeek.",
       "source": "securityweek.com",
       "first_seen": "2026-06-09T13:36:27Z",
-      "last_seen": "2026-06-09T13:36:27Z"
+      "last_seen": "2026-06-09T16:25:58Z"
     },
     {
       "id": "3d60801de9fa858b1090783a9564933566a5692c",
@@ -50,7 +150,7 @@
       "description": "University of Toronto researchers have built and tested a proof-of-concept AI-driven computer worm that uses a locally hosted open-weight large language model to reason its way through a network, generate tailored attack strategies for each target it encounters, and replicate itself, all without human intervention and without touching a commercial AI service. The preprint, posted to arXiv on",
       "source": "thehackernews.com",
       "first_seen": "2026-06-09T13:36:27Z",
-      "last_seen": "2026-06-09T13:36:27Z"
+      "last_seen": "2026-06-09T16:25:58Z"
     },
     {
       "id": "b9c17f29cd2fed486eb39ff45c56bcec1d4fd57f",
@@ -60,7 +160,7 @@
       "description": "Google has released security updates to address 74 vulnerabilities, including one that has come under active exploitation in the wild. The high-severity vulnerability, tracked as CVE-2026-11645 (CVSS score: 8.8), has been described as an out-of-bounds memory access in V8, Chrome's JavaScript and WebAssembly engine. \"Out-of-bounds read and write in V8 in Google Chrome prior to 149.0.7827.103",
       "source": "thehackernews.com",
       "first_seen": "2026-06-09T13:36:27Z",
-      "last_seen": "2026-06-09T13:36:27Z"
+      "last_seen": "2026-06-09T16:25:58Z"
     },
     {
       "id": "77e9ef0c67a0462f320580e508c208ecee901c04",
@@ -80,7 +180,7 @@
       "description": "The most recent variants of the self-propagating attacks are named Miasma and Hades. The post Over 100 NPM, PyPI Packages Hit in New Shai-Hulud Supply Chain Attacks appeared first on SecurityWeek.",
       "source": "securityweek.com",
       "first_seen": "2026-06-09T13:36:27Z",
-      "last_seen": "2026-06-09T13:36:27Z"
+      "last_seen": "2026-06-09T16:25:58Z"
     },
     {
       "id": "c65f15cefe54ac4d636a89c62e7c15a471d7e9fd",
@@ -90,7 +190,7 @@
       "description": "Organizations have more visibility than ever. Growing tech stacks provide greater coverage, and network security teams are increasingly adopting AI and automation to help with routine tasks and reduce manual effort. But the same challenges persist. Outages still last hours, causing significant financial losses, operational disruption, and reputational impact. Threat response and mean time to",
       "source": "thehackernews.com",
       "first_seen": "2026-06-09T13:36:27Z",
-      "last_seen": "2026-06-09T13:36:27Z"
+      "last_seen": "2026-06-09T16:25:58Z"
     },
     {
       "id": "bd76b13bb9c217fe37972f2d824d4b2749da9ccf",
@@ -100,7 +200,7 @@
       "description": "Anthropic's Mythos is accelerating vulnerability discovery to machine speed, forcing the bug bounty industry and offensive security teams to adapt to a future where finding flaws is no longer the hard part. The post Will AI Kill the Bug Bounty Industry? appeared first on SecurityWeek.",
       "source": "securityweek.com",
       "first_seen": "2026-06-09T13:36:27Z",
-      "last_seen": "2026-06-09T13:36:27Z"
+      "last_seen": "2026-06-09T16:25:58Z"
     },
     {
       "id": "efc4bfdac5761f5fd932c4be68ab7439f2f627c3",
@@ -110,7 +210,7 @@
       "description": "DINUM, the digital affairs directorate of the French government, warned that hackers used a hijacked user account to breach Tchap, the French government's encrypted messaging platform. [...]",
       "source": "bleepingcomputer.com",
       "first_seen": "2026-06-09T13:36:27Z",
-      "last_seen": "2026-06-09T13:36:27Z"
+      "last_seen": "2026-06-09T16:25:58Z"
     },
     {
       "id": "5e4ea8dd018b0cafcff8e6c332ebea70a892ef1a",
@@ -130,7 +230,7 @@
       "description": "A malicious website can work out which sites you visit and which apps you open, using nothing but JavaScript and the timing of your SSD. The attack, called FROST, needs no native code, no extension, and no permission prompt. You open the page, leave the tab sitting there, and it watches the drive for contention in the background. Researchers at Graz University of Technology built it and",
       "source": "thehackernews.com",
       "first_seen": "2026-06-09T13:36:27Z",
-      "last_seen": "2026-06-09T13:36:27Z"
+      "last_seen": "2026-06-09T16:25:58Z"
     },
     {
       "id": "52c396ff8725af249b2ec98ca4022192f2f06405",
@@ -180,7 +280,7 @@
       "description": "CISA has ordered U.S. government agencies to secure their Check Point Remote Access VPN and Mobile Access deployments against a critical vulnerability exploited in zero-day attacks by Qilin ransomware affiliates. [...]",
       "source": "bleepingcomputer.com",
       "first_seen": "2026-06-09T10:27:04Z",
-      "last_seen": "2026-06-09T13:36:27Z"
+      "last_seen": "2026-06-09T16:25:58Z"
     },
     {
       "id": "a986419b2283c7618025d9d5914da59fd39a2a14",
