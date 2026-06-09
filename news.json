@@ -1,7 +1,56 @@
 {
-  "last_updated": "2026-06-09T06:39:04Z",
+  "last_updated": "2026-06-09T10:27:04Z",
   "count": 40,
   "items": [
+    {
+      "title": "Microsoft Defender Now Monitors RPC Protocol Abuse by Hackers",
+      "link": "https://cybersecuritynews.com/defender-rpc-protocol-abuse/",
+      "date": "2026-06-09T10:09:00Z",
+      "description": "Microsoft has expanded Microsoft Defender’s capabilities to monitor, detect, and disrupt attacks that abuse Remote Procedure Call (RPC), a core Windows protocol long exploited by threat actors for lateral movement, credential theft, and privilege escalation. Remote Procedure Call (RPC) is a protocol that allows functions residing in a separate process — or even on a […] The post Microsoft…",
+      "source": "cybersecuritynews.com"
+    },
+    {
+      "title": "Check Point VPN Zero-Day Exploited in Qilin Ransomware Attacks",
+      "link": "https://www.securityweek.com/check-point-vpn-zero-day-exploited-in-qilin-ransomware-attacks/",
+      "date": "2026-06-09T09:47:10Z",
+      "description": "The authentication bypass vulnerability allows attackers to establish VPN connections without a valid password. The post Check Point VPN Zero-Day Exploited in Qilin Ransomware Attacks appeared first on SecurityWeek.",
+      "source": "securityweek.com"
+    },
+    {
+      "title": "Hackers Exploiting LiteLLM RCE Vulnerability in the Wild to Run Arbitrary Commands",
+      "link": "https://cybersecuritynews.com/litellm-rce-vulnerability-exploited/",
+      "date": "2026-06-09T09:25:04Z",
+      "description": "Threat actors are actively exploiting a critical chained vulnerability in LiteLLM, a popular open-source AI gateway proxy, allowing unauthenticated remote code execution (RCE) on vulnerable deployments. Researchers at Horizon3.ai confirmed that combining two CVEs creates a CVSS 10.0 Critical attack path requiring zero credentials. At the core of this threat is CVE-2026-42271, a command injection…",
+      "source": "cybersecuritynews.com"
+    },
+    {
+      "title": "SAP Security Patch Day – Critical Vulnerabilities in SAP NetWeaver Patched",
+      "link": "https://cybersecuritynews.com/sap-security-patch-day-june/",
+      "date": "2026-06-09T08:57:55Z",
+      "description": "SAP’s June 2026 Security Patch Day, observed on Tuesday, June 9, delivered 15 new security notes addressing a broad range of vulnerabilities across core SAP products, including four critical-severity flaws that demand immediate enterprise attention. SAP strongly urges all customers to visit the SAP Support Portal and apply the patches on priority to protect their […] The post SAP Security Patch…",
+      "source": "cybersecuritynews.com"
+    },
+    {
+      "title": "Threat Actors Abuse ChatGPT, Claude, and DeepSeek Brands as Phishing Lures to Steal Credentials",
+      "link": "https://cybersecuritynews.com/threat-actors-abuse-chatgpt-claude-and-deepseek-brands-as-phishing-lures/",
+      "date": "2026-06-09T08:39:18Z",
+      "description": "Cybercriminals have found a clever new trick: turning the world’s most popular AI tools into traps. By disguising phishing attacks with the branding of platforms like ChatGPT, Claude, and DeepSeek, threat actors are luring users into handing over login credentials, credit card numbers, and authentication tokens. The surge in AI adoption has given attackers fertile […] The post Threat Actors…",
+      "source": "cybersecuritynews.com"
+    },
+    {
+      "title": "CISA gives feds 3 days to patch Check Point VPN bug exploited as zero-day",
+      "link": "https://www.bleepingcomputer.com/news/security/cisa-orders-feds-to-patch-check-point-flaw-exploited-by-ransomware-gangs/",
+      "date": "2026-06-09T08:18:39Z",
+      "description": "CISA has ordered U.S. government agencies to secure their Check Point Remote Access VPN and Mobile Access deployments against a critical vulnerability exploited in zero-day attacks by Qilin ransomware affiliates. [...]",
+      "source": "bleepingcomputer.com"
+    },
+    {
+      "title": "Google patches new Chrome zero-day flaw exploited in the wild",
+      "link": "https://www.bleepingcomputer.com/news/security/google-patches-fifth-chrome-zero-day-bug-exploited-in-attacks-this-year/",
+      "date": "2026-06-09T06:56:27Z",
+      "description": "Google has released emergency updates to patch another Chrome zero-day vulnerability that has been exploited in the wild, the fifth such flaw patched since the start of the year. [...]",
+      "source": "bleepingcomputer.com"
+    },
     {
       "title": "LiteLLM Flaw CVE-2026-42271 Exploited in the Wild, Chains to Unauthenticated RCE",
       "link": "https://thehackernews.com/2026/06/litellm-flaw-cve-2026-42271-exploited.html",
@@ -21,20 +70,6 @@
       "link": "https://cybersecuritynews.com/apache-http-server-2-4-68/",
       "date": "2026-06-09T03:16:18Z",
       "description": "The Apache Software Foundation released Apache HTTP Server version 2.4.68 on June 8, 2026, addressing 13 security vulnerabilities spanning multiple modules. The patched flaws include use-after-free conditions, cross-site scripting, heap-based buffer overflows, denial-of-service, privilege escalation, and out-of-bounds read issues affecting all versions from 2.4.0 through 2.4.67. Administrators…",
-      "source": "cybersecuritynews.com"
-    },
-    {
-      "title": "21 0-Day Vulnerabilities in FFmpeg Enables Remote Code Execution Attacks",
-      "link": "https://cybersecuritynews.com/21-0-day-vulnerabilities-in-ffmpeg/",
-      "date": "2026-06-09T02:59:53Z",
-      "description": "An autonomous security agent uncovered 21 zero-day vulnerabilities in FFmpeg, the world’s most widely deployed media processing library, including a critical RCE-capable heap buffer overflow reachable with a single 183-byte network packet. FFmpeg quietly powers media processing across browsers, streaming platforms, surveillance systems, and cloud infrastructure, making it one of the most…",
-      "source": "cybersecuritynews.com"
-    },
-    {
-      "title": "New Shai-Hulud Attack Compromises 23 PyPI Packages to Target MCP Developers",
-      "link": "https://cybersecuritynews.com/23-pypi-packages-compromised/",
-      "date": "2026-06-09T02:55:00Z",
-      "description": "A new wave of the Shai-Hulud supply chain campaign, adding 23 newly discovered malicious PyPI package-version artifacts to an already alarming operation that previously compromised 37 packages. The broader campaign identified by the Socket Threat Research team, tracked across the Mini Shai-Hulud, Miasma, and Hades threat clusters, now spans 471 total artifacts across npm and PyPI, comprising […]…",
       "source": "cybersecuritynews.com"
     },
     {
@@ -66,13 +101,6 @@
       "source": "darkreading.com"
     },
     {
-      "title": "New Shai-Hulud attack trojanizes 19 science-focused PyPI packages",
-      "link": "https://www.bleepingcomputer.com/news/security/new-shai-hulud-attack-trojanizes-19-science-focused-pypi-packages/",
-      "date": "2026-06-08T20:41:35Z",
-      "description": "Hackers compromised 19 packages on the PyPI, collectively downloaded hundreds of thousands of times, in a new Shai-Hulud supply-chain attack that delivered malware designed to steal developer secrets. [...]",
-      "source": "bleepingcomputer.com"
-    },
-    {
       "title": "Check Point VPN Flaw Exploited Since Early May",
       "link": "https://www.darkreading.com/vulnerabilities-threats/check-point-vpn-flaw-exploited-early-may",
       "date": "2026-06-08T20:28:35Z",
@@ -87,13 +115,6 @@
       "source": "thehackernews.com"
     },
     {
-      "title": "New China-Linked Threat Cluster OP-512 Targets IIS Servers With Cryptographically Unique Web Shell Framework",
-      "link": "https://cybersecuritynews.com/new-china-linked-threat-cluster-op-512-targets-iis-servers/",
-      "date": "2026-06-08T19:12:59Z",
-      "description": "A newly identified threat cluster with suspected ties to China has been caught targeting Internet Information Services (IIS) web servers using a purpose-built web shell framework. Tracked as OP-512, this group stands out for deploying tools designed to evade every detection method that works against similar China-linked actors. The discovery marks another escalation in a […] The post New…",
-      "source": "cybersecuritynews.com"
-    },
-    {
       "title": "Iran Signed a Ceasefire — Its Hackers Didn't",
       "link": "https://www.darkreading.com/cyberattacks-data-breaches/iran-signed-ceasefire-hackers",
       "date": "2026-06-08T19:07:48Z",
@@ -101,25 +122,11 @@
       "source": "darkreading.com"
     },
     {
-      "title": "WhatsApp says it disrupted new NSO spyware phishing attacks",
-      "link": "https://www.bleepingcomputer.com/news/security/whatsapp-says-it-disrupted-new-nso-spyware-phishing-attacks/",
-      "date": "2026-06-08T18:40:53Z",
-      "description": "WhatsApp has detected and stopped spear-phishing campaigns allegedly conducted by the NSO Group after investigating user reports of social engineering attacks. [...]",
-      "source": "bleepingcomputer.com"
-    },
-    {
       "title": "A Security Raises $37 Million for Autonomous Offensive Security Platform",
       "link": "https://www.securityweek.com/a-security-raises-37-million-for-autonomous-offensive-security-platform/",
       "date": "2026-06-08T17:19:38Z",
       "description": "The company founded by Yossi Torati, Omer Gull, and Yuval Itzchakov has emerged from stealth mode. The post A Security Raises $37 Million for Autonomous Offensive Security Platform appeared first on SecurityWeek.",
       "source": "securityweek.com"
-    },
-    {
-      "title": "Check Point VPN 0-day Vulnerability Exploited in the Wild to Deploy Ransomware",
-      "link": "https://cybersecuritynews.com/check-point-vpn-0-day-vulnerability/",
-      "date": "2026-06-08T17:18:01Z",
-      "description": "Check Point Research has uncovered active exploitation of CVE-2026-50751, a critical authentication bypass vulnerability (CVSS 9.3) in Check Point Remote Access VPN and Mobile Access deployments, with confirmed post-compromise activity linked to the Qilin ransomware gang. CVE-2026-50751 targets deployments configured to use the deprecated IKEv1 key exchange protocol. By exploiting a logic flaw…",
-      "source": "cybersecuritynews.com"
     },
     {
       "title": "Meta Blocks NSO Group's New WhatsApp Phishing Attack, Files Contempt Order",
@@ -162,13 +169,6 @@
       "date": "2026-06-08T13:19:13Z",
       "description": "Phishing has always been a numbers game. AI has turned it into a volume machine. Attackers can now create convincing emails, fake login pages, and tailored lures in minutes. Every polished message adds another case for Tier 1 to review, another link to inspect, and another alert that cannot be dismissed at a glance. As the queue grows, a credential theft attempt or malware delivery can easily",
       "source": "thehackernews.com"
-    },
-    {
-      "title": "Cybersecurity M&A Roundup: 26 Deals Announced in May 2026",
-      "link": "https://www.securityweek.com/cybersecurity-ma-roundup-26-deals-announced-in-may-2026/",
-      "date": "2026-06-08T12:38:45Z",
-      "description": "Significant cybersecurity M&A deals announced by Akamai, Check Point, Cisco, Cyera, Dragos, WatchGuard and Zscaler. The post Cybersecurity M&A Roundup: 26 Deals Announced in May 2026 appeared first on SecurityWeek.",
-      "source": "securityweek.com"
     },
     {
       "title": "Redis DarkReplica Exploit: Full PoC Code and Technical Details Released",

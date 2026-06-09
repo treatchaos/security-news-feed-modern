@@ -1,7 +1,77 @@
 {
   "date": "2026-06-09",
-  "count": 5,
+  "count": 12,
   "items": [
+    {
+      "id": "5e4ea8dd018b0cafcff8e6c332ebea70a892ef1a",
+      "title": "Microsoft Defender Now Monitors RPC Protocol Abuse by Hackers",
+      "link": "https://cybersecuritynews.com/defender-rpc-protocol-abuse/",
+      "date": "2026-06-09T10:09:00Z",
+      "description": "Microsoft has expanded Microsoft Defender’s capabilities to monitor, detect, and disrupt attacks that abuse Remote Procedure Call (RPC), a core Windows protocol long exploited by threat actors for lateral movement, credential theft, and privilege escalation. Remote Procedure Call (RPC) is a protocol that allows functions residing in a separate process — or even on a […] The post Microsoft…",
+      "source": "cybersecuritynews.com",
+      "first_seen": "2026-06-09T10:27:04Z",
+      "last_seen": "2026-06-09T10:27:04Z"
+    },
+    {
+      "id": "52c396ff8725af249b2ec98ca4022192f2f06405",
+      "title": "Check Point VPN Zero-Day Exploited in Qilin Ransomware Attacks",
+      "link": "https://www.securityweek.com/check-point-vpn-zero-day-exploited-in-qilin-ransomware-attacks/",
+      "date": "2026-06-09T09:47:10Z",
+      "description": "The authentication bypass vulnerability allows attackers to establish VPN connections without a valid password. The post Check Point VPN Zero-Day Exploited in Qilin Ransomware Attacks appeared first on SecurityWeek.",
+      "source": "securityweek.com",
+      "first_seen": "2026-06-09T10:27:04Z",
+      "last_seen": "2026-06-09T10:27:04Z"
+    },
+    {
+      "id": "cc9061dc326b8a5151893823a14bfbe25a61868b",
+      "title": "Hackers Exploiting LiteLLM RCE Vulnerability in the Wild to Run Arbitrary Commands",
+      "link": "https://cybersecuritynews.com/litellm-rce-vulnerability-exploited/",
+      "date": "2026-06-09T09:25:04Z",
+      "description": "Threat actors are actively exploiting a critical chained vulnerability in LiteLLM, a popular open-source AI gateway proxy, allowing unauthenticated remote code execution (RCE) on vulnerable deployments. Researchers at Horizon3.ai confirmed that combining two CVEs creates a CVSS 10.0 Critical attack path requiring zero credentials. At the core of this threat is CVE-2026-42271, a command injection…",
+      "source": "cybersecuritynews.com",
+      "first_seen": "2026-06-09T10:27:04Z",
+      "last_seen": "2026-06-09T10:27:04Z"
+    },
+    {
+      "id": "f7f11cb5b2222b1d96028c36ecb935a265cf9144",
+      "title": "SAP Security Patch Day – Critical Vulnerabilities in SAP NetWeaver Patched",
+      "link": "https://cybersecuritynews.com/sap-security-patch-day-june/",
+      "date": "2026-06-09T08:57:55Z",
+      "description": "SAP’s June 2026 Security Patch Day, observed on Tuesday, June 9, delivered 15 new security notes addressing a broad range of vulnerabilities across core SAP products, including four critical-severity flaws that demand immediate enterprise attention. SAP strongly urges all customers to visit the SAP Support Portal and apply the patches on priority to protect their […] The post SAP Security Patch…",
+      "source": "cybersecuritynews.com",
+      "first_seen": "2026-06-09T10:27:04Z",
+      "last_seen": "2026-06-09T10:27:04Z"
+    },
+    {
+      "id": "d1a9ee846ec865f8d3866be9610bff210bf3c8f6",
+      "title": "Threat Actors Abuse ChatGPT, Claude, and DeepSeek Brands as Phishing Lures to Steal Credentials",
+      "link": "https://cybersecuritynews.com/threat-actors-abuse-chatgpt-claude-and-deepseek-brands-as-phishing-lures/",
+      "date": "2026-06-09T08:39:18Z",
+      "description": "Cybercriminals have found a clever new trick: turning the world’s most popular AI tools into traps. By disguising phishing attacks with the branding of platforms like ChatGPT, Claude, and DeepSeek, threat actors are luring users into handing over login credentials, credit card numbers, and authentication tokens. The surge in AI adoption has given attackers fertile […] The post Threat Actors…",
+      "source": "cybersecuritynews.com",
+      "first_seen": "2026-06-09T10:27:04Z",
+      "last_seen": "2026-06-09T10:27:04Z"
+    },
+    {
+      "id": "dd945df79d80ed838239cbe33bd080b215d883de",
+      "title": "CISA gives feds 3 days to patch Check Point VPN bug exploited as zero-day",
+      "link": "https://www.bleepingcomputer.com/news/security/cisa-orders-feds-to-patch-check-point-flaw-exploited-by-ransomware-gangs/",
+      "date": "2026-06-09T08:18:39Z",
+      "description": "CISA has ordered U.S. government agencies to secure their Check Point Remote Access VPN and Mobile Access deployments against a critical vulnerability exploited in zero-day attacks by Qilin ransomware affiliates. [...]",
+      "source": "bleepingcomputer.com",
+      "first_seen": "2026-06-09T10:27:04Z",
+      "last_seen": "2026-06-09T10:27:04Z"
+    },
+    {
+      "id": "a986419b2283c7618025d9d5914da59fd39a2a14",
+      "title": "Google patches new Chrome zero-day flaw exploited in the wild",
+      "link": "https://www.bleepingcomputer.com/news/security/google-patches-fifth-chrome-zero-day-bug-exploited-in-attacks-this-year/",
+      "date": "2026-06-09T06:56:27Z",
+      "description": "Google has released emergency updates to patch another Chrome zero-day vulnerability that has been exploited in the wild, the fifth such flaw patched since the start of the year. [...]",
+      "source": "bleepingcomputer.com",
+      "first_seen": "2026-06-09T10:27:04Z",
+      "last_seen": "2026-06-09T10:27:04Z"
+    },
     {
       "id": "5aa5b8e7461a34ddfca135fadd3acfb2861766b1",
       "title": "LiteLLM Flaw CVE-2026-42271 Exploited in the Wild, Chains to Unauthenticated RCE",
@@ -10,7 +80,7 @@
       "description": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Monday added a high-severity flaw impacting BerriAI LiteLLM to its Known Exploited Vulnerabilities (KEV) catalog, citing evidence of active exploitation. The vulnerability, tracked as CVE-2026-42271 (CVSS score: 8.7), is a command injection vulnerability that could allow any authenticated user to run arbitrary commands on the",
       "source": "thehackernews.com",
       "first_seen": "2026-06-09T06:39:04Z",
-      "last_seen": "2026-06-09T06:39:04Z"
+      "last_seen": "2026-06-09T10:27:04Z"
     },
     {
       "id": "01031c6e0938974ec68f61021540ad07b823901a",
@@ -20,7 +90,7 @@
       "description": "The vulnerability is tracked as CVE-2026-11645 and it was reported in late April by an anonymous researcher. The post Google Patches 5th Chrome Zero-Day Exploited in 2026 appeared first on SecurityWeek.",
       "source": "securityweek.com",
       "first_seen": "2026-06-09T06:39:04Z",
-      "last_seen": "2026-06-09T06:39:04Z"
+      "last_seen": "2026-06-09T10:27:04Z"
     },
     {
       "id": "b68cf2e2b3ead7578d1a7dcad8986742212bae8f",
@@ -30,7 +100,7 @@
       "description": "The Apache Software Foundation released Apache HTTP Server version 2.4.68 on June 8, 2026, addressing 13 security vulnerabilities spanning multiple modules. The patched flaws include use-after-free conditions, cross-site scripting, heap-based buffer overflows, denial-of-service, privilege escalation, and out-of-bounds read issues affecting all versions from 2.4.0 through 2.4.67. Administrators…",
       "source": "cybersecuritynews.com",
       "first_seen": "2026-06-09T06:39:04Z",
-      "last_seen": "2026-06-09T06:39:04Z"
+      "last_seen": "2026-06-09T10:27:04Z"
     },
     {
       "id": "dec7bc33f77f83b7560ed9ce5e3fd838372fa555",
