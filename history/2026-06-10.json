@@ -1,7 +1,77 @@
 {
   "date": "2026-06-10",
-  "count": 5,
+  "count": 12,
   "items": [
+    {
+      "id": "4ace5654d80d0037fe9729365837fde71c606fc5",
+      "title": "No Patch Planned for Exploited Arista EOS Vulnerability",
+      "link": "https://www.securityweek.com/no-patch-planned-for-exploited-arista-eos-vulnerability/",
+      "date": "2026-06-10T06:38:32Z",
+      "description": "Organizations are advised to apply vendor-supplied mitigations or discontinue the vulnerable devices. The post No Patch Planned for Exploited Arista EOS Vulnerability appeared first on SecurityWeek.",
+      "source": "securityweek.com",
+      "first_seen": "2026-06-10T06:57:13Z",
+      "last_seen": "2026-06-10T06:57:13Z"
+    },
+    {
+      "id": "a587d2da83f380610be05776b96c87d17677bef7",
+      "title": "Ivanti: Max severity Sentry flaw allows code execution as root",
+      "link": "https://www.bleepingcomputer.com/news/security/new-max-severity-ivanti-sentry-flaw-allows-code-execution-as-root/",
+      "date": "2026-06-10T06:26:28Z",
+      "description": "Ivanti has patched two critical vulnerabilities in its Sentry secure mobile gateway solution, including a maximum-severity flaw that enables remote attackers to execute code with root privileges. [...]",
+      "source": "bleepingcomputer.com",
+      "first_seen": "2026-06-10T06:57:13Z",
+      "last_seen": "2026-06-10T06:57:13Z"
+    },
+    {
+      "id": "f09ca32b318c3a15a0780125e4458fc2806f7dca",
+      "title": "Windows BitLocker 0-Day Vulnerability Allows Attackers to Bypass Security Feature",
+      "link": "https://cybersecuritynews.com/windows-bitlocker-0-day-bypass-vulnerability/",
+      "date": "2026-06-10T06:13:23Z",
+      "description": "Microsoft disclosed a new Windows BitLocker Security Feature Bypass vulnerability, tracked as CVE-2026-50507, on June 9, 2026, as part of its June Patch Tuesday security release. The flaw, rooted in a protection mechanism failure, allows an unauthorized attacker with physical access to bypass BitLocker Device Encryption and access sensitive data on the system’s storage device The […] The post…",
+      "source": "cybersecuritynews.com",
+      "first_seen": "2026-06-10T06:57:13Z",
+      "last_seen": "2026-06-10T06:57:13Z"
+    },
+    {
+      "id": "b0a5d17e4ffdc7f4db2149add97bd440f4541d65",
+      "title": "Microsoft Defender RoguePlanet Zero-Day Grants SYSTEM Access on Updated Windows",
+      "link": "https://thehackernews.com/2026/06/microsoft-defender-rogueplanet-zero-day.html",
+      "date": "2026-06-10T05:22:01Z",
+      "description": "The anonymous security researcher going by the name Chaotic Eclipse (aka Nightmare-Eclipse) has released a proof-of-concept (PoC) exploit for yet another Microsoft Defender zero-day named RoguePlanet. \"The exploit is a race condition, so it's a hit or miss,\" the researcher, who published the exploit under a new GitHub account, \"MSNightmare\" said. \"I have managed to get a 100% success rate on",
+      "source": "thehackernews.com",
+      "first_seen": "2026-06-10T06:57:13Z",
+      "last_seen": "2026-06-10T06:57:13Z"
+    },
+    {
+      "id": "b84d209ebc3c33cf2cb2edb3641d8750e60486c9",
+      "title": "Six Proto6 Vulnerabilities in protobuf.js Expose Node.js Apps to RCE and DoS",
+      "link": "https://thehackernews.com/2026/06/six-proto6-vulnerabilities-in.html",
+      "date": "2026-06-10T05:08:35Z",
+      "description": "Cybersecurity researchers have flagged half a dozen vulnerabilities in protobuf.js, a JavaScript and TypeScript implementation of Protocol Buffers (Protobuf), that, if successfully exploited, could result in remote code execution (RCE) and denial-of-service (DoS) attacks. \"In affected environments, a single malicious protobuf schema, descriptor, or crafted payload could be enough to trigger",
+      "source": "thehackernews.com",
+      "first_seen": "2026-06-10T06:57:13Z",
+      "last_seen": "2026-06-10T06:57:13Z"
+    },
+    {
+      "id": "a5300ecaddd2a2a24fc40856cea1db5e88afac37",
+      "title": "Anthropic Released Claude Fable 5, the First Model in Mythos Class",
+      "link": "https://cybersecuritynews.com/anthropic-claude-fable-5/",
+      "date": "2026-06-10T04:55:36Z",
+      "description": "Anthropic has released Claude Fable 5, the first publicly available model in its new Mythos capability tier, a class powerful enough that the company says it ships with cybersecurity safeguards baked in from day one. Fable 5 sits above the Claude Opus line and posts state-of-the-art results across most capability benchmarks, with its largest leads […] The post Anthropic Released Claude Fable 5,…",
+      "source": "cybersecuritynews.com",
+      "first_seen": "2026-06-10T06:57:13Z",
+      "last_seen": "2026-06-10T06:57:13Z"
+    },
+    {
+      "id": "ff1bafc1b1adee7c88190df5bc2de77322fc97c3",
+      "title": "New Windows Defender 0-Day Exploit “RoguePlanet” Grants SYSTEM Access to Attackers",
+      "link": "https://cybersecuritynews.com/windows-defender-0-day-exploit-rogueplanet/",
+      "date": "2026-06-10T03:14:48Z",
+      "description": "A researcher known as Nightmare Eclipse (also tracked as Chaotic Eclipse or Dead Eclipse) has publicly released a new proof-of-concept (PoC) exploit named RoguePlanet, targeting a previously undisclosed race condition vulnerability in Microsoft Windows Defender. When successfully executed, the exploit spawns a command shell running under SYSTEM-level privileges, granting an attacker the highest…",
+      "source": "cybersecuritynews.com",
+      "first_seen": "2026-06-10T06:57:13Z",
+      "last_seen": "2026-06-10T06:57:13Z"
+    },
     {
       "id": "c0a247110289b56b19f05f8edd85d01a64dcaf46",
       "title": "Anthropic rolls out Claude Fable 5, but it's available for a limited time",
@@ -10,17 +80,17 @@
       "description": "Anthropic has begun rolling out a new model called \"Fable,\" which is based on the same underlying model as Mythos, its most powerful AI model class. [...]",
       "source": "bleepingcomputer.com",
       "first_seen": "2026-06-10T02:13:12Z",
-      "last_seen": "2026-06-10T02:13:12Z"
+      "last_seen": "2026-06-10T06:57:13Z"
     },
     {
       "id": "5498ae2fb953cfd1d84617d26c3469a14af1f92a",
       "title": "Microsoft Defender 'RoguePlanet' zero-day grants SYSTEM privileges",
       "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-defender-rogueplanet-zero-day-grants-system-privileges/",
       "date": "2026-06-09T23:11:18Z",
-      "description": "[...]",
+      "description": "A security researcher has released a new Microsoft Defender zero-day exploit named \"RoguePlanet\" just hours after Microsoft fixed two previously disclosed flaws during June 2026 Patch Tuesday. [...]",
       "source": "bleepingcomputer.com",
       "first_seen": "2026-06-10T02:13:12Z",
-      "last_seen": "2026-06-10T02:13:12Z"
+      "last_seen": "2026-06-10T06:57:13Z"
     },
     {
       "id": "84ec47fe1fb02628e5ce7b3c887217995a6f0fda",
@@ -30,7 +100,7 @@
       "description": "Voluminous patch updates could soon be the norm, as artificial intelligence accelerates the speed and scale of vulnerability discovery.",
       "source": "darkreading.com",
       "first_seen": "2026-06-10T02:13:12Z",
-      "last_seen": "2026-06-10T02:13:12Z"
+      "last_seen": "2026-06-10T06:57:13Z"
     },
     {
       "id": "c17e8e6642d4ab8b161818fd66b2e4ab74a6d296",
@@ -40,7 +110,7 @@
       "description": "\"Ghost-Sender\" uses Exchange Online or on-premises in hybrid mode with a third-party mail server or spam filter to achieve this level of spoofing.",
       "source": "darkreading.com",
       "first_seen": "2026-06-10T02:13:12Z",
-      "last_seen": "2026-06-10T02:13:12Z"
+      "last_seen": "2026-06-10T06:57:13Z"
     },
     {
       "id": "f9baba84297290981f7457c8302ab60ac256ac68",
@@ -50,7 +120,7 @@
       "description": "The attacks stemmed from a GitHub account that was also compromised in a previous Miasmi attack on Microsoft last month.",
       "source": "darkreading.com",
       "first_seen": "2026-06-10T02:13:12Z",
-      "last_seen": "2026-06-10T02:13:12Z"
+      "last_seen": "2026-06-10T06:57:13Z"
     }
   ]
 }
