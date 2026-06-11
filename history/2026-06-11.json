@@ -1,7 +1,97 @@
 {
   "date": "2026-06-11",
-  "count": 5,
+  "count": 14,
   "items": [
+    {
+      "id": "628c03d301a779eb40cf98f6eb81e0151e2c191b",
+      "title": "‘GreatXML’ Zero-Day Exploit Bypasses BitLocker",
+      "link": "https://www.securityweek.com/greatxml-zero-day-exploit-bypasses-bitlocker/",
+      "date": "2026-06-11T09:56:12Z",
+      "description": "The PoC exploits Microsoft Defender’s offline scan to spawn a SYSTEM shell when rebooting in Recovery Mode. The post ‘GreatXML’ Zero-Day Exploit Bypasses BitLocker appeared first on SecurityWeek.",
+      "source": "securityweek.com",
+      "first_seen": "2026-06-11T10:03:32Z",
+      "last_seen": "2026-06-11T10:03:32Z"
+    },
+    {
+      "id": "2745a5a06f889293e054e3735bcaa3f2dbc39ae2",
+      "title": "China-Linked JDY Botnet Uses 1,500+ SOHO and IoT Devices for Rapid Vulnerability Exploitation",
+      "link": "https://cybersecuritynews.com/china-linked-jdy-botnet-uses-1500-soho-and-iot-devices/",
+      "date": "2026-06-11T09:25:39Z",
+      "description": "A China-linked network of compromised routers and smart devices has grown into one of the most capable reconnaissance tools tied to a nation-state threat group. Researchers have identified a major resurgence of a botnet known as JDY, which now controls more than 1,500 small office and home office (SOHO) and Internet of Things (IoT) devices […] The post China-Linked JDY Botnet Uses 1,500+ SOHO…",
+      "source": "cybersecuritynews.com",
+      "first_seen": "2026-06-11T10:03:32Z",
+      "last_seen": "2026-06-11T10:03:32Z"
+    },
+    {
+      "id": "bbbf086dee0678b05da0d4f9ca0c3227605a3dd2",
+      "title": "Microsoft fixes BitLocker recovery bug on Windows Server 2025",
+      "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-bitlocker-recovery-bug-on-windows-server-2025/",
+      "date": "2026-06-11T08:44:22Z",
+      "description": "Microsoft has resolved a known issue causing some Windows Server 2025 devices to boot into BitLocker recovery after installing the April 2026 security update. [...]",
+      "source": "bleepingcomputer.com",
+      "first_seen": "2026-06-11T10:03:32Z",
+      "last_seen": "2026-06-11T10:03:32Z"
+    },
+    {
+      "id": "28ab6f3db0f85c1e0cb471a3ac95f883e77dc1ca",
+      "title": "University of Nottingham Confirms Breach After Hackers Leak Data",
+      "link": "https://www.securityweek.com/university-of-nottingham-confirms-breach-after-hackers-leak-data/",
+      "date": "2026-06-11T08:30:02Z",
+      "description": "The ShinyHunters hacker group has taken credit for the attack, leaking more than 450,000 email addresses and other information. The post University of Nottingham Confirms Breach After Hackers Leak Data appeared first on SecurityWeek.",
+      "source": "securityweek.com",
+      "first_seen": "2026-06-11T10:03:32Z",
+      "last_seen": "2026-06-11T10:03:32Z"
+    },
+    {
+      "id": "17652fff3e82c65570513dd1644bc444e6f94458",
+      "title": "Microsoft Exchange Server 0-Day Vulnerability Exploited in Attacks Using Weaponized Email",
+      "link": "https://cybersecuritynews.com/microsoft-exchange-server-0-day-exploited/",
+      "date": "2026-06-11T08:27:45Z",
+      "description": "Microsoft has confirmed active exploitation of a new zero‑day spoofing flaw in on‑premises Exchange Server, tracked as CVE‑2026‑42897. The flaw allows attackers to execute arbitrary JavaScript in Outlook Web Access (OWA) simply by sending a weaponized email that a victim opens in a browser. On May 14, 2026, Microsoft disclosed CVE‑2026‑42897 as a spoofing vulnerability […] The post Microsoft…",
+      "source": "cybersecuritynews.com",
+      "first_seen": "2026-06-11T10:03:32Z",
+      "last_seen": "2026-06-11T10:03:32Z"
+    },
+    {
+      "id": "52dabc044fb84fb44342896d11b6fab7ed404c19",
+      "title": "Nottingham University data breach affects over 450,000 students",
+      "link": "https://www.bleepingcomputer.com/news/security/nottingham-university-data-breach-affects-over-450-000-students/",
+      "date": "2026-06-11T07:27:53Z",
+      "description": "The University of Nottingham confirmed on Wednesday that a hacking group gained access to its student records system in a breach affecting both current students and alums. [...]",
+      "source": "bleepingcomputer.com",
+      "first_seen": "2026-06-11T10:03:32Z",
+      "last_seen": "2026-06-11T10:03:32Z"
+    },
+    {
+      "id": "d7c2f4a3aca71833a33811c67df2c2f628cfc7fe",
+      "title": "Microsoft Patches Exploited Exchange Server Vulnerability",
+      "link": "https://www.securityweek.com/microsoft-patches-exploited-exchange-server-vulnerability/",
+      "date": "2026-06-11T06:52:21Z",
+      "description": "The company warned about zero-day attacks exploiting the Exchange Server vulnerability CVE-2026-42897 on May 14. The post Microsoft Patches Exploited Exchange Server Vulnerability appeared first on SecurityWeek.",
+      "source": "securityweek.com",
+      "first_seen": "2026-06-11T10:03:32Z",
+      "last_seen": "2026-06-11T10:03:32Z"
+    },
+    {
+      "id": "d081cf39765ed2588774e76ccf23f82b2a168b63",
+      "title": "GitHub to Disable npm Install Scripts by Default to Stop Supply Chain Attacks",
+      "link": "https://thehackernews.com/2026/06/github-to-disable-npm-install-scripts.html",
+      "date": "2026-06-11T06:23:03Z",
+      "description": "GitHub has announced what it said are \"breaking changes\" coming to npm version 12, one of which turns off install scripts by default to combat software supply chain threats. The changes aim to combat attack techniques that abuse the \"npm install\" command to trigger the execution of malicious code using npm lifecycle hooks. \"Npm install\" is used to download and install all the necessary",
+      "source": "thehackernews.com",
+      "first_seen": "2026-06-11T10:03:32Z",
+      "last_seen": "2026-06-11T10:03:32Z"
+    },
+    {
+      "id": "d0adcc41c1e13c79ca21401610bea65e09abffc7",
+      "title": "Max severity Ivanti Sentry vulnerability now exploited in attacks",
+      "link": "https://www.bleepingcomputer.com/news/security/max-severity-ivanti-sentry-vulnerability-now-exploited-in-attacks/",
+      "date": "2026-06-11T06:20:22Z",
+      "description": "Attackers are now targeting a recently patched maximum-severity flaw in Ivanti Sentry, enabling them to execute code with root privileges on Internet-exposed secure mobile gateways. [...]",
+      "source": "bleepingcomputer.com",
+      "first_seen": "2026-06-11T10:03:32Z",
+      "last_seen": "2026-06-11T10:03:32Z"
+    },
     {
       "id": "e5e4f11bb813848357ab8a9ae046bb97f7b81ad9",
       "title": "Ivanti Endpoint Manager Mobile Vulnerability Enables Remote Code Execution Attacks",
@@ -10,7 +100,7 @@
       "description": "A high-severity vulnerability, CVE-2026-6973, in Ivanti Endpoint Manager Mobile (EPMM) could allow authenticated attackers to achieve remote code execution by injecting malicious Apache configuration directives. The flaw, assigned a CVSS score of 7.2, is classified as a configuration control vulnerability (CWE-15) and affects multiple versions of Ivanti EPMM. Specifically, impacted versions…",
       "source": "cybersecuritynews.com",
       "first_seen": "2026-06-11T05:20:17Z",
-      "last_seen": "2026-06-11T05:20:17Z"
+      "last_seen": "2026-06-11T10:03:32Z"
     },
     {
       "id": "c78c59caf8d96abe1eb6d9e938c099c38bd7cc7e",
@@ -20,7 +110,7 @@
       "description": "Anthropic launched Claude Fable 5 on June 9, 2026, as the first publicly available model in its new Mythos class, its most capable AI to date, excelling in software engineering, knowledge work, and vision benchmarks. Researcher “Pliny the Liberator” defeats Claude Fable 5’s safety classifiers using multi-agent decomposition, Unicode tricks, and narrative framing, leaking the […] The post…",
       "source": "cybersecuritynews.com",
       "first_seen": "2026-06-11T05:20:17Z",
-      "last_seen": "2026-06-11T05:20:17Z"
+      "last_seen": "2026-06-11T10:03:32Z"
     },
     {
       "id": "55847be2760eb5e7bc4c17cf39b6a6ab0d2a297c",
@@ -30,7 +120,7 @@
       "description": "North Korea's gross domestic product (GDP) has grown, in part because of the cybercrime gains of groups linked to the nation, which target business and financial firms.",
       "source": "darkreading.com",
       "first_seen": "2026-06-11T00:07:55Z",
-      "last_seen": "2026-06-11T05:20:17Z"
+      "last_seen": "2026-06-11T10:03:32Z"
     },
     {
       "id": "34be2ea317dd42bf92dfd2f350c0a3f226e0b83a",
@@ -40,7 +130,7 @@
       "description": "A CVSS score 7.8 AV:L/AC:H/PR:L/UI:N/S:C/C:H/I:H/A:H severity vulnerability discovered by 'Lucas Leong (@_wmliang_) of TrendAI Zero Day Initiative' was reported to the affected vendor on: 2026-06-10, 1 days ago. The vendor is given until 2026-10-08 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
       "source": "zerodayinitiative.com",
       "first_seen": "2026-06-11T05:20:17Z",
-      "last_seen": "2026-06-11T05:20:17Z"
+      "last_seen": "2026-06-11T10:03:32Z"
     },
     {
       "id": "daf502101b398cfe62726c93602cd85f12447174",
@@ -50,7 +140,7 @@
       "description": "A CVSS score 7.5 AV:L/AC:H/PR:H/UI:N/S:C/C:H/I:H/A:H severity vulnerability discovered by 'Anthony Laou Hine Tsuei (@anarcheuz) from Asymmetric Research' was reported to the affected vendor on: 2026-06-10, 1 days ago. The vendor is given until 2026-10-08 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
       "source": "zerodayinitiative.com",
       "first_seen": "2026-06-11T05:20:17Z",
-      "last_seen": "2026-06-11T05:20:17Z"
+      "last_seen": "2026-06-11T10:03:32Z"
     }
   ]
 }
