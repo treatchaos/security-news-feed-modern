@@ -1,7 +1,49 @@
 {
-  "last_updated": "2026-06-11T18:02:10Z",
+  "last_updated": "2026-06-11T21:10:56Z",
   "count": 40,
   "items": [
+    {
+      "title": "Phishing Attack Volume Down 20%, but Risk Still Rising",
+      "link": "https://www.darkreading.com/cybersecurity-analytics/phishing-volume-down-20-risk-rising",
+      "date": "2026-06-12T00:58:07Z",
+      "description": "Hackers are valuing quality over quantity, using AI to upgrade their phishing attacks rather than multiply them.",
+      "source": "darkreading.com"
+    },
+    {
+      "title": "ShinyHunters Exploits Oracle PeopleSoft Zero-Day (CVE-2026-35273) to Breach Universities",
+      "link": "https://thehackernews.com/2026/06/shinyhunters-exploits-oracle-peoplesoft.html",
+      "date": "2026-06-11T20:29:23Z",
+      "description": "The ShinyHunters extortion crew exploited an unpatched flaw in Oracle PeopleSoft to break into enterprise systems, steal data, and demand payment to keep it private. The campaign hit universities hardest. Google's Mandiant attributes it to the group it tracks as UNC6240, and dates the activity between May 27 and June 9. Oracle did not publish its advisory until June 10, so the bug was a",
+      "source": "thehackernews.com"
+    },
+    {
+      "title": "Oracle mitigates PeopleSoft zero-day exploited in data theft attacks",
+      "link": "https://www.bleepingcomputer.com/news/security/oracle-mitigates-peoplesoft-zero-day-exploited-in-data-theft-attacks/",
+      "date": "2026-06-11T19:39:53Z",
+      "description": "Oracle is warning about a critical PeopleSoft Suite zero-day vulnerability tracked as CVE-2026-35273 that allows unauthenticated remote code execution, with the flaw actively exploited in ShinyHunter data theft attacks. [...]",
+      "source": "bleepingcomputer.com"
+    },
+    {
+      "title": "Max-Severity Ivanti Flaw Exploited 24 Hours After Disclosure",
+      "link": "https://www.darkreading.com/vulnerabilities-threats/max-severity-ivanti-sentry-flaw-exploited-24-hours",
+      "date": "2026-06-11T18:43:57Z",
+      "description": "Initial methods suggest attackers had likely mapped out Ivanti's asset landscape upfront and acted quickly once the exploit became public.",
+      "source": "darkreading.com"
+    },
+    {
+      "title": "New Attacks Trick OpenClaw AI Agent Into Running Code and Leaking Secrets",
+      "link": "https://thehackernews.com/2026/06/new-attacks-trick-openclaw-ai-agent.html",
+      "date": "2026-06-11T17:46:32Z",
+      "description": "Two security teams have shown, in separate research published this week, that OpenClaw, the popular self-hosted AI agent, can be driven to run attacker-controlled code or hand over sensitive data through ordinary-looking inputs. Imperva buried instructions inside shared contacts, vCards, and location pins that the agent executed without the victim ever seeing them. Varonis built a test agent on",
+      "source": "thehackernews.com"
+    },
+    {
+      "title": "New GreatXML Exploit Bypasses Windows BitLocker via Recovery Partition XML Files",
+      "link": "https://thehackernews.com/2026/06/new-greatxml-exploit-bypasses-windows.html",
+      "date": "2026-06-11T17:43:52Z",
+      "description": "Security researcher Chaotic Eclipse (aka Nightmare-Eclipse and MSNightmare) has released a new Windows BitLocker bypass dubbed GreatXML, a day after they published an exploit for Microsoft Defender. \"This was an accidental discovery, it took a total of 4 hours to find this,\" the researcher said in a post on Blogger. \"If you ever attempted to use Windows Defender Offline Scan, you're",
+      "source": "thehackernews.com"
+    },
     {
       "title": "CISA Requires Federal Agencies to Patch Critical Vulnerabilities Within 3 Days",
       "link": "https://cybersecuritynews.com/cisa-patch-vulnerabilities-3-days/",
@@ -87,13 +129,6 @@
       "source": "thehackernews.com"
     },
     {
-      "title": "ThreatsDay Bulletin: Worm Code Leaked, AI Agent Phished, Claude Code Patch + 28 New Stories",
-      "link": "https://thehackernews.com/2026/06/threatsday-bulletin-worm-code-leaked-ai.html",
-      "date": "2026-06-11T13:20:41Z",
-      "description": "It's been one of those weeks. You expect the usual noise: recycled malware, sloppy attacks, another easy target getting hit. Instead, there's a supply chain attack kit in a public repo, a $5,000-a-month RAT that clones browsers, and research showing AI agents can be tricked into leaking real credentials. The bigger problem is how polished this all looks now. Mule networks run like SaaS.",
-      "source": "thehackernews.com"
-    },
-    {
       "title": "CISA Directs Federal Agencies to Prioritize Security Patches Based on Risk",
       "link": "https://www.securityweek.com/cisa-directs-federal-agencies-to-prioritize-security-patches-based-on-risk/",
       "date": "2026-06-11T13:01:14Z",
@@ -129,27 +164,6 @@
       "source": "securityweek.com"
     },
     {
-      "title": "AI Broke Vulnerability Management. That's Why CISOs Are Moving Budget to BAS.",
-      "link": "https://thehackernews.com/2026/06/ai-broke-vulnerability-management-thats.html",
-      "date": "2026-06-11T11:30:00Z",
-      "description": "For thirty years, vulnerability management ran on a buffer: the months between when a vulnerability was found and when someone could figure out how to weaponize it. The solution was straightforward enough; triage by severity, schedule the fix, validate, and move on. The buffer was what made that work. Today, that buffer is gone. AI didn't make your team slower. It changed the other side of the",
-      "source": "thehackernews.com"
-    },
-    {
-      "title": "OceanLotus Hits Vietnam Investors With SPECTRALVIPER in FireAnt Attack",
-      "link": "https://thehackernews.com/2026/06/oceanlotus-hits-vietnam-investors-with.html",
-      "date": "2026-06-11T09:45:58Z",
-      "description": "The Vietnam-aligned threat actor known as OceanLotus has been attributed to two distinct campaigns that targeted domestic entities and stock investors with a backdoor known as SPECTRALVIPER. The campaigns involve a prolonged cyber espionage operation aimed at a Vietnamese infrastructure and transport construction corporation between mid-2024 and February 2026, as well as a supply chain attack",
-      "source": "thehackernews.com"
-    },
-    {
-      "title": "Microsoft fixes BitLocker recovery bug on Windows Server 2025",
-      "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-bitlocker-recovery-bug-on-windows-server-2025/",
-      "date": "2026-06-11T08:44:22Z",
-      "description": "Microsoft has resolved a known issue causing some Windows Server 2025 devices to boot into BitLocker recovery after installing the April 2026 security update. [...]",
-      "source": "bleepingcomputer.com"
-    },
-    {
       "title": "Chinese, N. Korean Threat Groups Build on Asia-Pacific Success",
       "link": "https://www.darkreading.com/cyberattacks-data-breaches/chinese-korean-threat-groups-asia-pacific-success",
       "date": "2026-06-11T00:01:00Z",
@@ -161,20 +175,6 @@
       "link": "https://www.darkreading.com/cyber-risk/cisa-rewrites-federal-patching-requirements-ai-threat-era",
       "date": "2026-06-10T21:17:12Z",
       "description": "The new directive gives federal agencies three days to fix the most dangerous flaws, while less severe issues can be deferred.",
-      "source": "darkreading.com"
-    },
-    {
-      "title": "Bug Bounty Research Triggers ServiceNow Security Alert",
-      "link": "https://www.darkreading.com/vulnerabilities-threats/bug-bounty-research-triggers-servicenow-security-alert",
-      "date": "2026-06-10T20:07:53Z",
-      "description": "Security research inadvertently led organizations to believe they were being breached through their ServiceNow instances.",
-      "source": "darkreading.com"
-    },
-    {
-      "title": "AI Risk Worries Insurers &amp; Businesses Alike",
-      "link": "https://www.darkreading.com/cyber-risk/ai-risk-worries-insurers-businesses-alike",
-      "date": "2026-06-10T19:34:43Z",
-      "description": "As companies adopt AI, many insurance firms are explicitly excluding AI risks, while others are forging ahead to create the right framework. What risks can firms reasonably manage?",
       "source": "darkreading.com"
     },
     {
