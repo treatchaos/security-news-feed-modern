@@ -1,7 +1,14 @@
 {
-  "last_updated": "2026-06-12T19:51:26Z",
-  "count": 40,
+  "last_updated": "2026-06-12T21:23:26Z",
+  "count": 35,
   "items": [
+    {
+      "title": "ShinyHunters Uses Oracle Zero-Day to Rampage Higher Ed",
+      "link": "https://www.darkreading.com/vulnerabilities-threats/shinyhunters-oracle-zero-day-higher-ed",
+      "date": "2026-06-12T20:26:32Z",
+      "description": "A major bug in Oracle's ERP software disproportionately affected American universities, and hackers have capitalized by stealing gobs of data.",
+      "source": "darkreading.com"
+    },
     {
       "title": "Maine disables data breach notification portal after fake disclosures",
       "link": "https://www.bleepingcomputer.com/news/security/maine-disables-data-breach-notification-portal-after-fake-disclosures/",
@@ -10,9 +17,9 @@
       "source": "bleepingcomputer.com"
     },
     {
-      "title": "400+ Arch Linux AUR Packages Hijacked to Install Rust Credential Stealer",
-      "link": "https://thehackernews.com/2026/06/400-arch-linux-aur-packages-hijacked-to.html",
-      "date": "2026-06-12T19:24:50Z",
+      "title": "Over 400 Arch Linux AUR Packages Hijacked to Deploy Infostealer and eBPF Rootkit",
+      "link": "https://thehackernews.com/2026/06/over-400-arch-linux-aur-packages.html",
+      "date": "2026-06-12T19:33:25Z",
       "description": "Attackers took over more than 400 packages in the Arch User Repository (AUR) this week and rewrote their build scripts to install a credential stealer on any machine that built them. The malware is a Rust binary built to harvest developer secrets. When it lands with root, it can also load an eBPF rootkit to hide itself. The AUR is Arch Linux's community package collection, and it is separate",
       "source": "thehackernews.com"
     },
@@ -22,13 +29,6 @@
       "date": "2026-06-12T18:59:32Z",
       "description": "Google on Friday said it's pursuing legal action against a Chinese cybercrime network, accusing it of using its Gemini artificial intelligence (AI) agent to send phishing text messages targeting Americans. The network is said to be behind the development and management of a phishing-as-a-service (PhaaS) software kit called Outsider, per the tech giant. \"The operation weaponized Gemini to help",
       "source": "thehackernews.com"
-    },
-    {
-      "title": "Fancy Bear Hackers Abuse EdgeRouters and Cloud Services to Launch Stealthy Cyberattacks",
-      "link": "https://cybersecuritynews.com/fancy-bear-hackers-abuse-edgerouters-and-cloud-services/",
-      "date": "2026-06-12T18:30:29Z",
-      "description": "One of the most persistent hacking groups in the world has found a new way to stay hidden. The threat actor known as Fancy Bear, formally tracked as APT28 and attributed to Russia’s military intelligence unit GRU Unit 26165, has been quietly shifting how it runs cyberattack operations. Instead of relying on traditional infrastructure, the […] The post Fancy Bear Hackers Abuse EdgeRouters and…",
-      "source": "cybersecuritynews.com"
     },
     {
       "title": "phpBB forum fixes auth bypass bug lurking for a decade",
@@ -43,13 +43,6 @@
       "date": "2026-06-12T18:17:55Z",
       "description": "Instead of hiding on the laptops and servers defenders watch most closely, a China-nexus group spent close to a decade hidden inside the Linux login system itself. Sygnia, which tracks the group as Velvet Ant, says it backdoored the PAM and OpenSSH components that decide who is allowed to sign in, planting its access where ordinary cleanup could not reach it. The network it targeted had no",
       "source": "thehackernews.com"
-    },
-    {
-      "title": "Hackers Abuse Legitimate NinjaOne RMM Software to Bypass Traditional Malware Detection",
-      "link": "https://cybersecuritynews.com/hackers-abuse-legitimate-ninjaone-rmm-software/",
-      "date": "2026-06-12T18:10:32Z",
-      "description": "A newly documented phishing campaign is using a legitimate remote management tool to silently take over victims’ computers, without deploying a single line of traditional malware. Researchers have uncovered an active operation targeting Brazilian organizations, where attackers trick employees into installing a real enterprise software agent that then hands full remote control to the threat […]…",
-      "source": "cybersecuritynews.com"
     },
     {
       "title": "Ukrainian national pleads guilty to role in Conti ransomware operation",
@@ -71,27 +64,6 @@
       "date": "2026-06-12T16:17:26Z",
       "description": "Other noteworthy stories that might have slipped under the radar: ICS device exposure remains flat as attack surface widens, Microsoft issues incident response playbook for AI, IBM and AT&T accused of hack cover-ups. The post In Other News: Google Security Layoffs, AudiA6 Takedown, $400 Million Coupang Fine appeared first on SecurityWeek.",
       "source": "securityweek.com"
-    },
-    {
-      "title": "Malicious npm Campaign Steals SSH Keys, API Tokens, Cloud Credentials, and Wallet Secrets",
-      "link": "https://cybersecuritynews.com/malicious-npm-campaign-steals-ssh-keys-api-tokens/",
-      "date": "2026-06-12T16:01:06Z",
-      "description": "A fresh wave of supply chain attacks is putting blockchain developers, Web3 teams, and cloud engineers at serious risk. Researchers have uncovered a coordinated campaign involving multiple malicious packages on the npm registry, each designed to quietly steal sensitive secrets the moment a developer installs them. From SSH private keys to cloud credentials, wallet phrases […] The post Malicious…",
-      "source": "cybersecuritynews.com"
-    },
-    {
-      "title": "Hackers Use OnyxC2 Malware-as-a-Service to Steal Credentials From 210 Applications",
-      "link": "https://cybersecuritynews.com/hackers-use-onyxc2-malware-as-a-service/",
-      "date": "2026-06-12T14:42:27Z",
-      "description": "A new and dangerous credential-stealing tool called OnyxC2 has emerged in the cybercrime underground, showing just how easy it has become for even low-skilled attackers to run a professional hacking operation. Sold as a complete package for $250 a month, the malware gives buyers everything they need to quietly drain login data from victims worldwide. […] The post Hackers Use OnyxC2…",
-      "source": "cybersecuritynews.com"
-    },
-    {
-      "title": "Facebook and Instagram Down Globally, Users Reporting Multiple Issues",
-      "link": "https://cybersecuritynews.com/facebook-and-instagram-down-globally/",
-      "date": "2026-06-12T14:34:39Z",
-      "description": "Several Facebook and Instagram users reported issues accessing the social media platforms amid a global outage of Meta on Friday. Meta’s social media ecosystem experienced a significant global disruption on Friday, leaving millions of users unable to access Facebook and Instagram. The outage, which began affecting users across multiple time zones, triggered a surge of […] The post Facebook and…",
-      "source": "cybersecuritynews.com"
     },
     {
       "title": "Early Warning Signs of Supply-Chain Attacks Live in the Dark Web",
@@ -204,13 +176,6 @@
       "date": "2026-06-11T05:00:00Z",
       "description": "A CVSS score 9.0 AV:N/AC:H/PR:N/UI:N/S:C/C:H/I:H/A:H severity vulnerability discovered by 'Musaab Khan (@bxff)' was reported to the affected vendor on: 2026-06-11, 1 days ago. The vendor is given until 2026-10-09 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
       "source": "zerodayinitiative.com"
-    },
-    {
-      "title": "Chinese, N. Korean Threat Groups Build on Asia-Pacific Success",
-      "link": "https://www.darkreading.com/cyberattacks-data-breaches/chinese-korean-threat-groups-asia-pacific-success",
-      "date": "2026-06-11T00:01:00Z",
-      "description": "North Korea's gross domestic product (GDP) has grown, in part because of the nation's state-sponsored cybercrime groups, which target financial firms and other businesses.",
-      "source": "darkreading.com"
     },
     {
       "title": "Redis DarkReplica Exploit: Full PoC Code and Technical Details Released",
