@@ -1,7 +1,17 @@
 {
   "date": "2026-06-13",
-  "count": 4,
+  "count": 5,
   "items": [
+    {
+      "id": "0e95e7cc06acc98ef33414bff1f272b9c89da598",
+      "title": "Splunk Enterprise Pre-Auth RCE Chain Exposes Database With Zero Authentication",
+      "link": "https://cybersecuritynews.com/splunk-enterprise-pre-auth-rce-chain-exposes/",
+      "date": "2026-06-13T11:12:05Z",
+      "description": "A critical vulnerability chain in Splunk Enterprise has been disclosed, enabling unauthenticated attackers to achieve remote code execution (RCE) through a misconfigured PostgreSQL sidecar service. Tracked as CVE-2026-20253, the flaw has a CVSS score of 9.8 and affects Splunk Enterprise 10 and later. The issue originates from the PostgreSQL Sidecar Service, an internal component introduced […]…",
+      "source": "cybersecuritynews.com",
+      "first_seen": "2026-06-13T13:23:21Z",
+      "last_seen": "2026-06-13T13:23:21Z"
+    },
     {
       "id": "de313b5717b0f6153b7a699916f08e838e412936",
       "title": "US Gov asks Anthropic to ban 'foreign national' access to Fable, Mythos",
@@ -10,7 +20,7 @@
       "description": "The US government has ordered Anthropic to block all foreign nationals from accessing Fable 5 and Mythos 5, forcing the company to suspend both models worldwide. Anthropic is complying but disputes the basis, calling the cited jailbreak narrow and the capability widely available elsewhere. [...]",
       "source": "bleepingcomputer.com",
       "first_seen": "2026-06-13T11:46:19Z",
-      "last_seen": "2026-06-13T11:46:19Z"
+      "last_seen": "2026-06-13T13:23:21Z"
     },
     {
       "id": "0e35f51958800470c145a64cddcb9dc7d08213a1",
@@ -20,7 +30,7 @@
       "description": "Anthropic takes Fable 5 and Mythos 5 offline to comply with a directive from the Trump administration to prevent use by foreign nationals. The post Anthropic Says It Has Taken Its Latest AI Models Offline to Comply With New Export Controls appeared first on SecurityWeek.",
       "source": "securityweek.com",
       "first_seen": "2026-06-13T06:46:14Z",
-      "last_seen": "2026-06-13T11:46:19Z"
+      "last_seen": "2026-06-13T13:23:21Z"
     },
     {
       "id": "af99ef8995508a3c0360eb3e6c5191d69f19d1ea",
@@ -30,7 +40,7 @@
       "description": "Anthropic said on Friday it will \"abruptly disable\" its most advanced artificial intelligence (AI) models, Claude Fable 5 and Mythos 5, for all users after the U.S. government ordered it to suspend access to the models for foreign nationals, whether inside or outside the U.S., citing national security concerns. The AI company said it received an order at 5:21 p.m. ET, instructing it to suspend",
       "source": "thehackernews.com",
       "first_seen": "2026-06-13T06:46:14Z",
-      "last_seen": "2026-06-13T11:46:19Z"
+      "last_seen": "2026-06-13T13:23:21Z"
     },
     {
       "id": "d5271e593ce1abc68299d945c7bdcc4c8e743420",
@@ -40,7 +50,7 @@
       "description": "Anthropic has disabled its two most capable AI models, Fable 5 and Mythos 5, after the U.S. government issued an export control directive late on June 12 ordering the company to block access for any foreign national, whether inside or outside the United States, including Anthropic’s own foreign-national employees. Because the company says it cannot […] The post Anthropic Fable 5 and Mythos 5…",
       "source": "cybersecuritynews.com",
       "first_seen": "2026-06-13T09:49:56Z",
-      "last_seen": "2026-06-13T09:49:56Z"
+      "last_seen": "2026-06-13T13:23:21Z"
     }
   ]
 }
