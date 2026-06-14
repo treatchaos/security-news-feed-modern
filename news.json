@@ -1,13 +1,34 @@
 {
-  "last_updated": "2026-06-14T03:28:35Z",
-  "count": 35,
+  "last_updated": "2026-06-14T08:07:23Z",
+  "count": 40,
   "items": [
+    {
+      "title": "Maine Takes Data Breach Reporting Portal Offline After Fake VRChat and Discord Filings",
+      "link": "https://cybersecuritynews.com/maine-data-breach-portal-offline/",
+      "date": "2026-06-14T02:57:25Z",
+      "description": "The Office of the Maine Attorney General has temporarily taken its public-facing data breach reporting database offline after discovering that an unknown entity submitted fabricated breach notifications targeting two major online platforms, VRChat and Discord, in what officials are calling a deliberate abuse of the state’s breach disclosure system. On June 12, 2026, the Maine […] The post Maine…",
+      "source": "cybersecuritynews.com"
+    },
+    {
+      "title": "152 Chrome Extensions Hide Ad Tracking and Fake Google Search Traffic",
+      "link": "https://cybersecuritynews.com/chrome-extensions-hide-ad-tracking/",
+      "date": "2026-06-14T02:42:37Z",
+      "description": "152 Chrome “live wallpaper” extensions on the Chrome Web Store have been caught secretly logging user data and faking Google “organic search” traffic to inflate ad revenue, despite promising they do not collect any data. This adware‑adjacent campaign abuses new‑tab extensions to launder extension‑generated visits into what appears to be legitimate search traffic, polluting analytics […] The post…",
+      "source": "cybersecuritynews.com"
+    },
     {
       "title": "Ex-school district employee jailed for hacks on former employer",
       "link": "https://www.bleepingcomputer.com/news/security/ex-school-district-employee-jailed-for-hacks-on-former-employer/",
       "date": "2026-06-13T20:53:13Z",
       "description": "A former IT employee at an Iowa school district was sentenced to 21 months in prison after conducting a prolonged cyberattack against the former employer that disrupted classroom operations, deleted accounts, and caused tens of thousands of dollars in damages. [...]",
       "source": "bleepingcomputer.com"
+    },
+    {
+      "title": "New Agentjacking Attack Hijacks Your AI Coding Agent to Run Code From a Hacker’s Server",
+      "link": "https://cybersecuritynews.com/agentjacking-attack-hijacks-ai-coding-agent/",
+      "date": "2026-06-13T16:48:30Z",
+      "description": "New “Agentjacking” attack that hijacks AI coding agents and silently executes attacker-controlled code on developer machines using nothing more than a single injected Sentry error. The technique turns trusted AI assistants like Claude Code and Cursor into an execution layer for malicious commands, without phishing, malware delivery, or any breach of the victim’s infrastructure. In […] The post…",
+      "source": "cybersecuritynews.com"
     },
     {
       "title": "NPM 12 Will Change Script Execution Behavior to Prevent Supply Chain Attacks",
@@ -24,11 +45,25 @@
       "source": "bleepingcomputer.com"
     },
     {
+      "title": "BugHunter – Bug Bounty Toolkit Powered by Claude and Free AI Providers",
+      "link": "https://cybersecuritynews.com/bughunter-bug-bounty-toolkit/",
+      "date": "2026-06-13T13:33:28Z",
+      "description": "A new open-source bug bounty hunting toolkit called BugHunter, built on top of Anthropic’s Claude Code and now extended to support free AI providers like Ollama and Groq, is gaining traction in the security research community for automating the full vulnerability discovery and reporting pipeline. Developed by security researcher Shuvon Md Shariar Shanaz and hosted […] The post BugHunter – Bug…",
+      "source": "cybersecuritynews.com"
+    },
+    {
       "title": "Critical Splunk Enterprise Flaw Lets Attackers Run Code Without Authentication",
       "link": "https://thehackernews.com/2026/06/critical-splunk-enterprise-flaw-lets.html",
       "date": "2026-06-13T13:23:03Z",
       "description": "Splunk has released security updates to address a critical security flaw in Splunk Enterprise that could be exploited to conduct unauthenticated file operations and even remote code execution. The vulnerability, tracked as CVE-2026-20253, is rated 9.8 on the CVSS scoring system. \"In Splunk Enterprise versions below 10.2.4 and 10.0.7, an unauthenticated user could create or truncate arbitrary",
       "source": "thehackernews.com"
+    },
+    {
+      "title": "Splunk Enterprise Pre-Auth RCE Chain Exposes Database With Zero Authentication",
+      "link": "https://cybersecuritynews.com/splunk-enterprise-pre-auth-rce-chain-exposes/",
+      "date": "2026-06-13T11:12:05Z",
+      "description": "A critical vulnerability chain in Splunk Enterprise has been disclosed, enabling unauthenticated attackers to achieve remote code execution (RCE) through a misconfigured PostgreSQL sidecar service. Tracked as CVE-2026-20253, the flaw has a CVSS score of 9.8 and affects Splunk Enterprise 10 and later. The issue originates from the PostgreSQL Sidecar Service, an internal component introduced […]…",
+      "source": "cybersecuritynews.com"
     },
     {
       "title": "US Gov asks Anthropic to ban 'foreign national' access to Fable, Mythos",
@@ -146,35 +181,35 @@
       "title": "ZDI-CAN-30563: OpenPrinting",
       "link": "http://www.zerodayinitiative.com/advisories/upcoming/",
       "date": "2026-06-11T05:00:00Z",
-      "description": "A CVSS score 8.8 AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H severity vulnerability discovered by 'Sajeeb Lohani' was reported to the affected vendor on: 2026-06-11, 2 days ago. The vendor is given until 2026-10-09 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
+      "description": "A CVSS score 8.8 AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H severity vulnerability discovered by 'Sajeeb Lohani' was reported to the affected vendor on: 2026-06-11, 3 days ago. The vendor is given until 2026-10-09 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
       "source": "zerodayinitiative.com"
     },
     {
       "title": "ZDI-CAN-29948: Winmate",
       "link": "http://www.zerodayinitiative.com/advisories/upcoming/",
       "date": "2026-06-11T05:00:00Z",
-      "description": "A CVSS score 8.8 AV:L/AC:L/PR:L/UI:N/S:C/C:H/I:H/A:H severity vulnerability discovered by 'Adonis Ramos' was reported to the affected vendor on: 2026-06-11, 2 days ago. The vendor is given until 2026-10-09 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
+      "description": "A CVSS score 8.8 AV:L/AC:L/PR:L/UI:N/S:C/C:H/I:H/A:H severity vulnerability discovered by 'Adonis Ramos' was reported to the affected vendor on: 2026-06-11, 3 days ago. The vendor is given until 2026-10-09 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
       "source": "zerodayinitiative.com"
     },
     {
       "title": "ZDI-CAN-30739: libgme",
       "link": "http://www.zerodayinitiative.com/advisories/upcoming/",
       "date": "2026-06-11T05:00:00Z",
-      "description": "A CVSS score 4.4 AV:L/AC:L/PR:N/UI:R/S:U/C:L/I:N/A:L severity vulnerability discovered by 'chwrld' was reported to the affected vendor on: 2026-06-11, 2 days ago. The vendor is given until 2026-10-09 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
+      "description": "A CVSS score 4.4 AV:L/AC:L/PR:N/UI:R/S:U/C:L/I:N/A:L severity vulnerability discovered by 'chwrld' was reported to the affected vendor on: 2026-06-11, 3 days ago. The vendor is given until 2026-10-09 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
       "source": "zerodayinitiative.com"
     },
     {
       "title": "ZDI-CAN-30691: Linux",
       "link": "http://www.zerodayinitiative.com/advisories/upcoming/",
       "date": "2026-06-11T05:00:00Z",
-      "description": "A CVSS score 8.2 AV:L/AC:L/PR:H/UI:N/S:C/C:H/I:H/A:H severity vulnerability discovered by 'Giuseppe Caruso' was reported to the affected vendor on: 2026-06-11, 2 days ago. The vendor is given until 2026-10-09 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
+      "description": "A CVSS score 8.2 AV:L/AC:L/PR:H/UI:N/S:C/C:H/I:H/A:H severity vulnerability discovered by 'Giuseppe Caruso' was reported to the affected vendor on: 2026-06-11, 3 days ago. The vendor is given until 2026-10-09 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
       "source": "zerodayinitiative.com"
     },
     {
       "title": "ZDI-CAN-30527: Linux",
       "link": "http://www.zerodayinitiative.com/advisories/upcoming/",
       "date": "2026-06-11T05:00:00Z",
-      "description": "A CVSS score 9.0 AV:N/AC:H/PR:N/UI:N/S:C/C:H/I:H/A:H severity vulnerability discovered by 'Musaab Khan (@bxff)' was reported to the affected vendor on: 2026-06-11, 2 days ago. The vendor is given until 2026-10-09 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
+      "description": "A CVSS score 9.0 AV:N/AC:H/PR:N/UI:N/S:C/C:H/I:H/A:H severity vulnerability discovered by 'Musaab Khan (@bxff)' was reported to the affected vendor on: 2026-06-11, 3 days ago. The vendor is given until 2026-10-09 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
       "source": "zerodayinitiative.com"
     },
     {
