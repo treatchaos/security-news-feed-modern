@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-06-15T16:12:48Z",
+  "last_updated": "2026-06-15T20:20:28Z",
   "retention_days": 90,
   "count": 3515,
   "items": [
@@ -24,6 +24,106 @@
       "last_seen": "2026-05-29T12:39:53Z"
     },
     {
+      "id": "fd80fd4d2069af28b499c8c399cec73228450006",
+      "title": "SimpleHelp bug lets hackers create rogue remote support accounts",
+      "link": "https://www.bleepingcomputer.com/news/security/simplehelp-bug-lets-hackers-create-rogue-remote-support-accounts/",
+      "date": "2026-06-15T20:06:52Z",
+      "description": "A vulnerability in the SimpleHelp remote management software allows unauthenticated attackers to create privileged technician accounts on servers using the OpenID Connect (OIDC) authentication protocol. [...]",
+      "source": "bleepingcomputer.com",
+      "first_seen": "2026-06-15T20:20:28Z",
+      "last_seen": "2026-06-15T20:20:28Z"
+    },
+    {
+      "id": "0e9f210ebe38e920de28064dd4d93f5d2450a9c8",
+      "title": "North Korean Hackers Are Turning Developer Tools Into Malware Delivery Channels",
+      "link": "https://thehackernews.com/2026/06/north-korean-hackers-are-turning.html",
+      "date": "2026-06-15T19:32:52Z",
+      "description": "Cybersecurity researchers have flagged two malicious cyber campaigns that exhibit similarities with a persistent North Korean threat cluster known as Contagious Interview (aka Famous Chollima, HexagonalRodent, and Void Dokkaebi). According to a report published by Proofpoint, the threat actor has been found orchestrating phishing campaigns using developer role recruitment or code review themes",
+      "source": "thehackernews.com",
+      "first_seen": "2026-06-15T20:20:28Z",
+      "last_seen": "2026-06-15T20:20:28Z"
+    },
+    {
+      "id": "2501d2a4cafa47d6dcad3b1d2f2efe3e7a34425f",
+      "title": "OptinMonster WordPress plugin hacked in CDN supply-chain attack",
+      "link": "https://www.bleepingcomputer.com/news/security/optinmonster-wordpress-plugin-hacked-in-cdn-supply-chain-attack/",
+      "date": "2026-06-15T17:37:07Z",
+      "description": "WordPress plugins OptinMonster, TrustPulse, and PushEngage have been compromised in a supply-chain attack impacting Awesome Motive-s content distribution network (CDN). [...]",
+      "source": "bleepingcomputer.com",
+      "first_seen": "2026-06-15T20:20:28Z",
+      "last_seen": "2026-06-15T20:20:28Z"
+    },
+    {
+      "id": "fb86222de571947ff03fd3979cb48a5535b6bb39",
+      "title": "Cisco fixes SD-WAN vManage flaw exploited in zero-day attacks",
+      "link": "https://www.bleepingcomputer.com/news/security/cisco-fixes-sd-wan-vmanage-flaw-exploited-in-zero-day-attacks/",
+      "date": "2026-06-15T17:12:42Z",
+      "description": "Cisco has released security updates to address a vulnerability in the Catalyst SD-WAN Manager, tracked as CVE-2026-20262, that was exploited in attacks to escalate to root privileges. [...]",
+      "source": "bleepingcomputer.com",
+      "first_seen": "2026-06-15T20:20:28Z",
+      "last_seen": "2026-06-15T20:20:28Z"
+    },
+    {
+      "id": "64ba4e46d13af470ffbd83e150e38e4687983ed8",
+      "title": "China-Nexus Actor Spy on US Researchers Undetected for a Year",
+      "link": "https://www.darkreading.com/threat-intelligence/china-nexus-actor-us-researchers-undetected",
+      "date": "2026-06-15T17:00:45Z",
+      "description": "Google discovered and disrupted the sprawling campaign, which stole RedCAP credentials to target numerous institutions and exfiltrate sensitive data.",
+      "source": "darkreading.com",
+      "first_seen": "2026-06-15T20:20:28Z",
+      "last_seen": "2026-06-15T20:20:28Z"
+    },
+    {
+      "id": "5ba9a7e7e15c043c9f4bafb0a4d1bd213f999aa7",
+      "title": "Most CISOs Report Pressure to Bury Bad Security News",
+      "link": "https://www.darkreading.com/cyber-risk/most-cisos-report-pressure-to-bury-bad-security-news",
+      "date": "2026-06-15T16:45:59Z",
+      "description": "Executive leaders may not be saying it aloud, but business objectives and priorities don't always promote timely disclosures.",
+      "source": "darkreading.com",
+      "first_seen": "2026-06-15T20:20:28Z",
+      "last_seen": "2026-06-15T20:20:28Z"
+    },
+    {
+      "id": "fe2e34033601e4934fa41a4cba9527f79c36b618",
+      "title": "Microsoft Site Showing Warning Following Certificate Expiry",
+      "link": "https://cybersecuritynews.com/microsoft-certificate-expiry/",
+      "date": "2026-06-15T16:39:23Z",
+      "description": "Microsoft seems to have failed certificate management after a domain used by sysadmins globally to test connectivity to Microsoft 365 started generating untrusted connection warnings in browsers on Monday. The connectivity.office.com domain a widely relied-upon tool for IT professionals to verify their network’s connectivity to Microsoft 365 and confirm that firewalls aren’t silently blocking…",
+      "source": "cybersecuritynews.com",
+      "first_seen": "2026-06-15T20:20:28Z",
+      "last_seen": "2026-06-15T20:20:28Z"
+    },
+    {
+      "id": "29fcf4633f1fe2bb22772c04c063e86ee9e2dcb2",
+      "title": "LiteLLM Vulnerability Chain Lets Low-Privilege Users Take Over AI Gateway Servers",
+      "link": "https://thehackernews.com/2026/06/litellm-vulnerability-chain-lets-low.html",
+      "date": "2026-06-15T16:39:01Z",
+      "description": "A default low-privilege account on a LiteLLM proxy can climb to full admin and run code on the server by chaining three vulnerabilities, researchers at Obsidian Security disclosed LiteLLM is a widely deployed open-source AI gateway that brokers calls to more than 100 model providers behind one OpenAI-compatible interface. A server takeover exposes every provider key it holds, the secrets that",
+      "source": "thehackernews.com",
+      "first_seen": "2026-06-15T20:20:28Z",
+      "last_seen": "2026-06-15T20:20:28Z"
+    },
+    {
+      "id": "261801dd3bd1159bfc62c3993d7766bfc9e2b6b4",
+      "title": "Council of Europe investigates ShinyHunters data breach claims",
+      "link": "https://www.bleepingcomputer.com/news/security/council-of-europe-investigates-shinyhunters-data-breach-claims/",
+      "date": "2026-06-15T16:37:11Z",
+      "description": "The Council of Europe, the continent's oldest intergovernmental body, is probing claims of a data breach made by the ShinyHunters extortion group over the weekend. [...]",
+      "source": "bleepingcomputer.com",
+      "first_seen": "2026-06-15T20:20:28Z",
+      "last_seen": "2026-06-15T20:20:28Z"
+    },
+    {
+      "id": "f89f84e09ac023a9c84cff3fd8b7c161d473a6e5",
+      "title": "DPAPISnoop Tool Extracts CREDHIST Hashes for Offline Windows Credential Recovery",
+      "link": "https://cybersecuritynews.com/dpapisnoop-tool-extracts-credhist-hashes/",
+      "date": "2026-06-15T16:26:12Z",
+      "description": "The open-source DPAPISnoop tool has been enhanced to extract CREDHIST entries, enabling offline cracking of historical Windows credentials and deeper insight into password patterns. Lefteris Panos, Security Consultant at LRQA Red Team, said the update adds CREDHIST extraction capabilities to DPAPISnoop, enabling the recovery and analysis of historical Windows credentials alongside DPAPI Master…",
+      "source": "cybersecuritynews.com",
+      "first_seen": "2026-06-15T20:20:28Z",
+      "last_seen": "2026-06-15T20:20:28Z"
+    },
+    {
       "id": "d3ced837ac9464d137793784496c97fe3c5ab2e8",
       "title": "SHADOWBYT3$ Allegedly Claim Breach of Nintendo, Stealing Sensitive Data",
       "link": "https://cybersecuritynews.com/shadowbyt3-claim-breach-of-nintendo/",
@@ -31,7 +131,7 @@
       "description": "Threat intelligence sources have reported that the threat actor group SHADOWBYT3$ has allegedly breached Nintendo, claiming to have exfiltrated approximately 859 MB of sensitive internal data. The incident, first observed on June 13, 2026, remains unverified at the time of writing. However, early details suggest potential exposure of employee-related information. The alleged breach is linked […]…",
       "source": "cybersecuritynews.com",
       "first_seen": "2026-06-15T16:12:48Z",
-      "last_seen": "2026-06-15T16:12:48Z"
+      "last_seen": "2026-06-15T20:20:28Z"
     },
     {
       "id": "86b0fa47cd9c6c97e84eb97974d96a34eef27f56",
@@ -41,7 +141,7 @@
       "description": "The U.S. Federal Bureau of Investigation (FBI) warned that criminals are using couriers to collect money from victims of cryptocurrency investment scams, also known as pig butchering or romance baiting. [...]",
       "source": "bleepingcomputer.com",
       "first_seen": "2026-06-15T16:12:48Z",
-      "last_seen": "2026-06-15T16:12:48Z"
+      "last_seen": "2026-06-15T20:20:28Z"
     },
     {
       "id": "6c95e6291dab74e9a1714bc3a679123dcfd797a2",
@@ -51,7 +151,7 @@
       "description": "Mackay Sugar was targeted in a cyberattack carried out by a threat group known as The Gentlemen. The post Ransomware Attack Shuts Down Mills of Australia’s Second-Largest Sugar Producer appeared first on SecurityWeek.",
       "source": "securityweek.com",
       "first_seen": "2026-06-15T16:12:48Z",
-      "last_seen": "2026-06-15T16:12:48Z"
+      "last_seen": "2026-06-15T20:20:28Z"
     },
     {
       "id": "f41b52bed82092be11dd91a1b2707abbaa1b28a4",
@@ -61,7 +161,7 @@
       "description": "Anthropic has updated its privacy policy for Claude, adding explicit terminology that allows the company to perform age and identity verification on consumer users. The change signals a tighter security and compliance stance across Claude Free, Pro, and Max plans. It is scheduled to take effect on July 8, 2026. In the revised policy, Anthropic […] The post Anthropic Updated Privacy Policy to…",
       "source": "cybersecuritynews.com",
       "first_seen": "2026-06-15T16:12:48Z",
-      "last_seen": "2026-06-15T16:12:48Z"
+      "last_seen": "2026-06-15T20:20:28Z"
     },
     {
       "id": "b636aa962c9d9c916cd3ea3b0dd50c58025722df",
@@ -71,7 +171,7 @@
       "description": "A single click on a trusted Microsoft link could have let an attacker pull emails, calendar details, and indexed files out of Microsoft 365 Copilot Enterprise Search. Researchers at Varonis Threat Labs chained three bugs into a one-click exfiltration path they call SearchLeak. Because the link pointed to a real microsoft.com domain, traditional anti-phishing and URL filtering tools were",
       "source": "thehackernews.com",
       "first_seen": "2026-06-15T16:12:48Z",
-      "last_seen": "2026-06-15T16:12:48Z"
+      "last_seen": "2026-06-15T20:20:28Z"
     },
     {
       "id": "6f2f3eac0594dabe3b06097941b8fb60aef8f9a9",
@@ -81,7 +181,7 @@
       "description": "AI-native operating systems are shifting the responsibility to stay vigilant against social engineering cyberattacks from the user onto the system itself.",
       "source": "darkreading.com",
       "first_seen": "2026-06-15T16:12:48Z",
-      "last_seen": "2026-06-15T16:12:48Z"
+      "last_seen": "2026-06-15T20:20:28Z"
     },
     {
       "id": "90425d5b124cb7c318c1fcd1efd19c1777d5528f",
@@ -91,7 +191,7 @@
       "description": "A critical vulnerability chain in Microsoft 365 Copilot Enterprise that let attackers steal sensitive corporate data, MFA codes, email contents, calendar details, and confidential files with nothing more than a single click on a link pointing to a legitimate Microsoft domain. Dubbed SearchLeak, uncovered by Varonis Threat Labs and tracked as CVE-2026-42824, the flaw earned […] The post Critical…",
       "source": "cybersecuritynews.com",
       "first_seen": "2026-06-15T16:12:48Z",
-      "last_seen": "2026-06-15T16:12:48Z"
+      "last_seen": "2026-06-15T20:20:28Z"
     },
     {
       "id": "6e2de9b7704dd65c009376fb98e4d7bff832278b",
@@ -101,7 +201,7 @@
       "description": "Google’s Threat Intelligence Group has been tracking the cyberespionage group as UNC6508 since early 2025. The post Chinese Hackers Target Medical, Military, and AI Research in North America appeared first on SecurityWeek.",
       "source": "securityweek.com",
       "first_seen": "2026-06-15T16:12:48Z",
-      "last_seen": "2026-06-15T16:12:48Z"
+      "last_seen": "2026-06-15T20:20:28Z"
     },
     {
       "id": "d92792dbe0319d4b031384d8495bfe7894f67ec0",
@@ -131,7 +231,7 @@
       "description": "Stuff broke again. Not in a movie way. An old tool was left exposed. An abandoned package was abused. A deprecated feature was still running in prod. This week is the same lesson in a new form: phishing kits are easier to rent, AI names are useful bait, old login paths still fail, and forgotten software keeps becoming someone else's entry point. Scroll through the full Monday Cybersecurity",
       "source": "thehackernews.com",
       "first_seen": "2026-06-15T16:12:48Z",
-      "last_seen": "2026-06-15T16:12:48Z"
+      "last_seen": "2026-06-15T20:20:28Z"
     },
     {
       "id": "8e6c78bde9b22d9e4d011ec1d0fe33e860ffb18a",
@@ -161,7 +261,7 @@
       "description": "The startup has built a security-first identity platform to protect humans, machines, and AI agents. The post NewCore Emerges From Stealth Mode With $66 Million in Funding appeared first on SecurityWeek.",
       "source": "securityweek.com",
       "first_seen": "2026-06-15T16:12:48Z",
-      "last_seen": "2026-06-15T16:12:48Z"
+      "last_seen": "2026-06-15T20:20:28Z"
     },
     {
       "id": "f1274b5b06876d316f6a0941f5b02c46ecd98f83",
@@ -191,7 +291,7 @@
       "description": "Anthropic abruptly suspended all access to Fable 5 and Mythos 5 after receiving an export control directive that banned foreign nationals from using the technology.",
       "source": "darkreading.com",
       "first_seen": "2026-06-15T16:12:48Z",
-      "last_seen": "2026-06-15T16:12:48Z"
+      "last_seen": "2026-06-15T20:20:28Z"
     },
     {
       "id": "d7819b9c139e7f1962dc60c952c96c95d7ad0dca",
@@ -201,7 +301,7 @@
       "description": "Oleksii Oleksiyovych Lytvynenko admitted to working on the development of a loader for the Conti gang. The post Ukrainian Man Pleads Guilty in US to Conti Ransomware Charges appeared first on SecurityWeek.",
       "source": "securityweek.com",
       "first_seen": "2026-06-15T16:12:48Z",
-      "last_seen": "2026-06-15T16:12:48Z"
+      "last_seen": "2026-06-15T20:20:28Z"
     },
     {
       "id": "be7ed4ebe9cb588f29a31477aa8e136d28325126",
@@ -211,7 +311,7 @@
       "description": "Employee onboarding is a busy time for IT teams. New starters need devices, accounts, access permissions, and passwords, all delivered within a tight timeframe. That usually means sharing a temporary \"first-day\" password so employees can access systems for the first time. The issue is that these passwords don't always stay temporary. They may be sent over email or SMS, reused across accounts,",
       "source": "thehackernews.com",
       "first_seen": "2026-06-15T16:12:48Z",
-      "last_seen": "2026-06-15T16:12:48Z"
+      "last_seen": "2026-06-15T20:20:28Z"
     },
     {
       "id": "08709dbc18dd0c3ec0db3f9f4f113e1f4e769a39",
@@ -221,7 +321,7 @@
       "description": "The pharmaceutical giant says the attackers gained access to personal data stored on the compromised systems. The post Ozempic Maker Novo Nordisk Says Hackers Breached IT Systems appeared first on SecurityWeek.",
       "source": "securityweek.com",
       "first_seen": "2026-06-15T16:12:48Z",
-      "last_seen": "2026-06-15T16:12:48Z"
+      "last_seen": "2026-06-15T20:20:28Z"
     },
     {
       "id": "ec62138d4a42c1029df6a30e71ad6205f52c46fa",
@@ -351,7 +451,7 @@
       "description": "A CVSS score 4.7 AV:L/AC:H/PR:N/UI:R/S:U/C:H/I:N/A:N severity vulnerability discovered by 'kai63001' was reported to the affected vendor on: 2026-06-15, 0 days ago. The vendor is given until 2026-10-13 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
       "source": "zerodayinitiative.com",
       "first_seen": "2026-06-15T16:12:48Z",
-      "last_seen": "2026-06-15T16:12:48Z"
+      "last_seen": "2026-06-15T20:20:28Z"
     },
     {
       "id": "4c296dcb509c13f19d5bb5d496c10d1c6ddb6647",
@@ -361,7 +461,7 @@
       "description": "A CVSS score 7.8 AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H severity vulnerability discovered by 'Brandon Evans of TrendAI Zero Day Initiative' was reported to the affected vendor on: 2026-06-15, 0 days ago. The vendor is given until 2026-10-13 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
       "source": "zerodayinitiative.com",
       "first_seen": "2026-06-15T16:12:48Z",
-      "last_seen": "2026-06-15T16:12:48Z"
+      "last_seen": "2026-06-15T20:20:28Z"
     },
     {
       "id": "9b7e9fef11f431a6b7ae537e057cf15d5588e879",
@@ -371,7 +471,7 @@
       "description": "A CVSS score 8.8 AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H severity vulnerability discovered by 'Xander Mackenzie | @thetrueartist.co.uk' was reported to the affected vendor on: 2026-06-15, 0 days ago. The vendor is given until 2026-10-13 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
       "source": "zerodayinitiative.com",
       "first_seen": "2026-06-15T16:12:48Z",
-      "last_seen": "2026-06-15T16:12:48Z"
+      "last_seen": "2026-06-15T20:20:28Z"
     },
     {
       "id": "6186d51e7c6efe9853f4c5feebbf52128f25237a",
@@ -381,7 +481,7 @@
       "description": "A CVSS score 7.8 AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H severity vulnerability discovered by 'Anonymous' was reported to the affected vendor on: 2026-06-15, 0 days ago. The vendor is given until 2026-10-13 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
       "source": "zerodayinitiative.com",
       "first_seen": "2026-06-15T16:12:48Z",
-      "last_seen": "2026-06-15T16:12:48Z"
+      "last_seen": "2026-06-15T20:20:28Z"
     },
     {
       "id": "4391b5873cee7d39c16ba098f193be57c01cc16a",
@@ -391,7 +491,7 @@
       "description": "Researchers have disclosed a serious FreeBSD privilege escalation vulnerability that hands local users a root shell. Tracked as The post FreeBSD Privilege Escalation Flaw CVE-2026-49413 Hits the Linuxulator appeared first on Daily CyberSecurity. Related posts: Root Access Unlocked: Public PoC Exposes GlobalProtect macOS Privilege Escalation Flaw PoC Released for Notepad++ Flaw Enables Privilege…",
       "source": "securityonline.info",
       "first_seen": "2026-06-15T04:43:35Z",
-      "last_seen": "2026-06-15T16:12:48Z"
+      "last_seen": "2026-06-15T20:20:28Z"
     },
     {
       "id": "ed6287dbf7ab263e67478e0318af49afae6c229f",
@@ -551,7 +651,7 @@
       "description": "A major bug in Oracle's ERP software disproportionately affected American universities, and hackers have capitalized by stealing gobs of data.",
       "source": "darkreading.com",
       "first_seen": "2026-06-12T21:23:26Z",
-      "last_seen": "2026-06-15T16:12:48Z"
+      "last_seen": "2026-06-15T20:20:28Z"
     },
     {
       "id": "fa2566aa3e71518525478742243b28e22da49067",
@@ -1411,7 +1511,7 @@
       "description": "A CVSS score 8.8 AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H severity vulnerability discovered by 'Sajeeb Lohani' was reported to the affected vendor on: 2026-06-11, 0 days ago. The vendor is given until 2026-10-09 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
       "source": "zerodayinitiative.com",
       "first_seen": "2026-06-11T23:14:00Z",
-      "last_seen": "2026-06-15T16:12:48Z"
+      "last_seen": "2026-06-15T20:20:28Z"
     },
     {
       "id": "8612d2ef5f92ef33889ef7114c7000f63f6a9630",
@@ -3071,7 +3171,7 @@
       "description": "Severe Infrastructure Exposure Discovered A researcher has released the technical mechanics of a critical post-authentication flaw impacting multiple The post Redis DarkReplica Exploit: Full PoC Code and Technical Details Released appeared first on Daily CyberSecurity. Related posts: Exploit Code Publicly Released: Critical Firefox WebRTC Flaw Allows RCE (CVSS 9.8) Race Condition in Windows…",
       "source": "securityonline.info",
       "first_seen": "2026-06-08T08:43:57Z",
-      "last_seen": "2026-06-15T16:12:48Z"
+      "last_seen": "2026-06-15T20:20:28Z"
     },
     {
       "id": "c7a2e021aac52ab4470b879770415d664f01640f",
@@ -4361,7 +4461,7 @@
       "description": "Overview of the Security Threat Mautic has released urgent security updates to address dangerous software flaws in its The post Critical RCE Flaws Fixed in Mautic Marketing Platform appeared first on Daily CyberSecurity. Related posts: Critical Vulnerabilities in Quick Agent Software Expose Ricoh MFPs to Remote Attacks Critical Ricoh Streamline NX Flaw (CVSS 9.8) Allows SYSTEM-Level Code…",
       "source": "securityonline.info",
       "first_seen": "2026-06-04T02:37:59Z",
-      "last_seen": "2026-06-15T16:12:48Z"
+      "last_seen": "2026-06-15T20:20:28Z"
     },
     {
       "id": "ce638a5c6443c68fc5efaf5ad8aec3024be21f72",
@@ -4781,7 +4881,7 @@
       "description": "A dangerous security flaw is actively disrupting enterprise web servers globally. Specifically, attackers are aggressively weaponizing a new The post Drupal SQL Injection Exploit: Critical Flaw Exploited in the Wild with Public PoC appeared first on Daily CyberSecurity. Related posts: CVSS 10.0 Flaws in Siemens OZW Web Servers Enable Unauthenticated RCE and Admin Access Mitel Patches Critical…",
       "source": "securityonline.info",
       "first_seen": "2026-06-03T08:04:32Z",
-      "last_seen": "2026-06-15T16:12:48Z"
+      "last_seen": "2026-06-15T20:20:28Z"
     },
     {
       "id": "b81c7c33e4a5641ab04ab6ab14ea4a27d5ee775a",
@@ -5711,7 +5811,7 @@
       "description": "Security researchers recently published a detailed analysis of a significant vulnerability in modern operating systems. Specifically, this discovery The post Critical FreeBSD Kernel Buffer Overflow Disclosed: Public Details & PoC Out appeared first on Daily CyberSecurity. Related posts: CVE-2025-32432 (CVSS 10): Craft CMS Hit by Critical RCE Flaw Exploited in the Wild SAP Security Alert: May…",
       "source": "securityonline.info",
       "first_seen": "2026-06-01T02:42:25Z",
-      "last_seen": "2026-06-15T16:12:48Z"
+      "last_seen": "2026-06-15T20:20:28Z"
     },
     {
       "id": "91dbb2a9181816eb6bd2558f100d0618565b7046",
@@ -35004,106 +35104,6 @@
       "last_seen": "2026-03-18T14:15:02Z"
     },
     {
-      "id": "bae2d31856c9b17d81863bc08d4c1ceba6a0bc23",
-      "title": "Europe sanctions Chinese and Iranian firms for cyberattacks",
-      "link": "https://www.bleepingcomputer.com/news/security/europe-sanctions-chinese-and-iranian-firms-for-cyberattacks/",
-      "date": "2026-03-17T18:41:59Z",
-      "description": "The European Union Council has announced sanctions against three entities and two individuals for their involvement in cyberattacks targeting critical infrastructure in the region. [...]",
-      "source": "bleepingcomputer.com",
-      "first_seen": "2026-03-17T18:46:20Z",
-      "last_seen": "2026-03-18T12:44:09Z"
-    },
-    {
-      "id": "1d8761fa72ed048c706c5fd05ede7bf7cc37abec",
-      "title": "Iranian Cyber Ops Maintain US Network Footholds, Target Cameras for Regional Surveillance",
-      "link": "https://cybersecuritynews.com/iranian-cyber-ops-maintain-us-network-footholds/",
-      "date": "2026-03-17T18:17:33Z",
-      "description": "Iran’s cyber operations took a sharp turn in early 2026, with state-linked threat actors quietly embedding themselves inside US and Canadian networks while also targeting internet-connected surveillance cameras across the Middle East for battlefield intelligence. The Iranian APT group MuddyWater, tied to Iran’s Ministry of Intelligence and Security (MOIS), maintained unauthorized access to…",
-      "source": "cybersecuritynews.com",
-      "first_seen": "2026-03-17T18:46:20Z",
-      "last_seen": "2026-03-18T07:45:09Z"
-    },
-    {
-      "id": "041acaee92e5dccecb1f23f0251d337449e016b0",
-      "title": "Google Warns Ransomware Actors Are Shifting Tactics as Profits Fall and Data Theft Rises",
-      "link": "https://cybersecuritynews.com/google-warns-ransomware-actors-are-shifting/",
-      "date": "2026-03-17T18:08:07Z",
-      "description": "The ransomware threat landscape entered a new phase in 2025. Once a highly reliable criminal business model built on encrypting victim files and collecting ransom payments, it is now under significant financial pressure. Ransom payment rates have hit historic lows, average demands have dropped sharply, and organizations are recovering from attacks more effectively than in […] The post Google…",
-      "source": "cybersecuritynews.com",
-      "first_seen": "2026-03-17T18:46:20Z",
-      "last_seen": "2026-03-18T07:45:09Z"
-    },
-    {
-      "id": "59e35d6b885ffe0692cd17f2143543ba6318c787",
-      "title": "Glassworm Hits Popular React Native Packages With Credential-Stealing npm Malware",
-      "link": "https://cybersecuritynews.com/glassworm-hits-popular-react-native-packages/",
-      "date": "2026-03-17T17:49:12Z",
-      "description": "A coordinated supply chain attack struck the developer community on March 16, 2026, when a threat actor known as Glassworm backdoored two widely used React Native npm packages, turning them into silent credential and cryptocurrency stealers. The affected packages — react-native-country-select@0.3.91 and react-native-international-phone-number@0.11.8 — were published within minutes of each other…",
-      "source": "cybersecuritynews.com",
-      "first_seen": "2026-03-17T17:53:13Z",
-      "last_seen": "2026-03-18T06:52:59Z"
-    },
-    {
-      "id": "cf550e4db1d16691e5b217856f34996a8316e803",
-      "title": "Simple Custom Font Rendering Can Poison ChatGPT, Claude, Gemini, and Other AI Systems",
-      "link": "https://cybersecuritynews.com/custom-font-poison-ai-systems/",
-      "date": "2026-03-17T17:23:22Z",
-      "description": "A novel attack technique that exploits a fundamental blind spot in AI web assistants the gap between what a browser renders for a user and what an AI tool actually reads from the underlying HTML. Using nothing more than a custom font file and basic CSS, attackers can silently deliver malicious instructions to users while […] The post Simple Custom Font Rendering Can Poison ChatGPT, Claude,…",
-      "source": "cybersecuritynews.com",
-      "first_seen": "2026-03-17T17:53:13Z",
-      "last_seen": "2026-03-18T05:56:21Z"
-    },
-    {
-      "id": "7bf24af429ac87ab5f3e87427d040a4778e553dc",
-      "title": "How to Shop Online Safely While Finding Better Deals",
-      "link": "https://cybersecuritynews.com/shop-online-safely-better-deals/",
-      "date": "2026-03-17T17:04:25Z",
-      "description": "With the rapid growth of e-commerce and mobile payments, online shopping has become an essential part of everyday life for many people. Consumers now purchase everything from electronics and household products to digital services through online platforms. While this convenience has made shopping faster and more accessible, it has also introduced new cybersecurity challenges. Fake […] The post…",
-      "source": "cybersecuritynews.com",
-      "first_seen": "2026-03-17T17:53:13Z",
-      "last_seen": "2026-03-18T01:14:39Z"
-    },
-    {
-      "id": "e95223d2a38836cee672398b15cd78e2ccb131ea",
-      "title": "AI Flaws in Amazon Bedrock, LangSmith, and SGLang Enable Data Exfiltration and RCE",
-      "link": "https://thehackernews.com/2026/03/ai-flaws-in-amazon-bedrock-langsmith.html",
-      "date": "2026-03-17T16:39:00Z",
-      "description": "Cybersecurity researchers have disclosed details of a new method for exfiltrating sensitive data from artificial intelligence (AI) code execution environments using domain name system (DNS) queries. In a report published Monday, BeyondTrust revealed that Amazon Bedrock AgentCore Code Interpreter's sandbox mode permits outbound DNS queries that an attacker can exploit to enable interactive shells",
-      "source": "thehackernews.com",
-      "first_seen": "2026-03-17T17:53:13Z",
-      "last_seen": "2026-03-18T11:37:29Z"
-    },
-    {
-      "id": "076352f4c29a0447e2443f539120c2070d98fff1",
-      "title": "Tech Giants Invest $12.5 Million in Open Source Security",
-      "link": "https://www.securityweek.com/tech-giants-invest-12-5-million-in-open-source-security/",
-      "date": "2026-03-17T16:01:00Z",
-      "description": "Anthropic, AWS, Google, Microsoft, and OpenAI fund the Linux Foundation’s long-term security initiatives focused on open source software. The post Tech Giants Invest $12.5 Million in Open Source Security appeared first on SecurityWeek.",
-      "source": "securityweek.com",
-      "first_seen": "2026-03-17T16:54:43Z",
-      "last_seen": "2026-03-18T12:44:09Z"
-    },
-    {
-      "id": "79a79328aa94a754962b1c4d6047b69e6c448296",
-      "title": "AWS Bedrock AgentCore Sandbox Bypass Allows Covert C2 Channels and Data Exfiltration",
-      "link": "https://cybersecuritynews.com/aws-bedrock-agentcore-sandbox-bypass/",
-      "date": "2026-03-17T15:55:23Z",
-      "description": "A significant security flaw in AWS Bedrock AgentCore Code Interpreter’s “Sandbox” network mode, a feature advertised by AWS as providing complete network isolation that allows outbound DNS queries, enabling threat actors to establish covert command-and-control (C2) channels and exfiltrate sensitive data. AWS Bedrock AgentCore Code Interpreter is a managed service that allows AI agents and […]…",
-      "source": "cybersecuritynews.com",
-      "first_seen": "2026-03-17T16:54:43Z",
-      "last_seen": "2026-03-17T17:53:13Z"
-    },
-    {
-      "id": "948e06a314660977b3838bbae41fe2653d7335bd",
-      "title": "Warlock Ransomware Group Augments Post-Exploitation Activities",
-      "link": "https://www.darkreading.com/threat-intelligence/warlock-ransomware-post-exploitation-activities",
-      "date": "2026-03-17T15:36:52Z",
-      "description": "In a recent attack, the group showcased stealthier cross-network activity, thanks to its use of a new BYOVD technique and other tools.",
-      "source": "darkreading.com",
-      "first_seen": "2026-03-17T16:54:43Z",
-      "last_seen": "2026-03-18T12:44:09Z"
-    },
-    {
       "id": "664df53292fd50e8b1e7bf61d1267fe95047525f",
       "title": "Student Loan Breach Exposes 2.5M Records",
       "link": "https://threatpost.com/student-loan-breach-exposes-2-5m-records/180492/",
@@ -35111,7 +35111,7 @@
       "description": "2.5 million people were affected, in a breach that could spell more trouble down the line.",
       "source": "threatpost.com",
       "first_seen": "2026-05-10T12:53:08Z",
-      "last_seen": "2026-06-15T16:12:48Z"
+      "last_seen": "2026-06-15T20:20:28Z"
     },
     {
       "id": "4140c7a34b0ba94ad2e6b0cae9f59b0cb9bfffea",
@@ -35121,7 +35121,7 @@
       "description": "Researchers uncover a watering hole attack likely carried out by APT TA423, which attempts to plant the ScanBox JavaScript-based reconnaissance tool.",
       "source": "threatpost.com",
       "first_seen": "2026-05-10T12:53:08Z",
-      "last_seen": "2026-06-15T16:12:48Z"
+      "last_seen": "2026-06-15T20:20:28Z"
     },
     {
       "id": "9359ee40a641a4b565080313045f1d7e7fe6552b",
@@ -35131,7 +35131,7 @@
       "description": "Over 130 companies tangled in sprawling phishing campaign that spoofed a multi-factor authentication system.",
       "source": "threatpost.com",
       "first_seen": "2026-05-10T12:53:08Z",
-      "last_seen": "2026-06-15T16:12:48Z"
+      "last_seen": "2026-06-15T20:20:28Z"
     },
     {
       "id": "b4ccef0737cd4050d65241bf754072030b6b5e6a",
@@ -35141,7 +35141,7 @@
       "description": "Lockbit is by far this summer’s most prolific ransomware group, trailed by two offshoots of the Conti group.",
       "source": "threatpost.com",
       "first_seen": "2026-05-10T12:53:08Z",
-      "last_seen": "2026-06-15T16:12:48Z"
+      "last_seen": "2026-06-15T20:20:28Z"
     },
     {
       "id": "12ee113fc8fce91f6d7fb28deab2b1ad20061ec7",
@@ -35151,7 +35151,7 @@
       "description": "Tens of thousands of cameras have failed to patch a critical, 11-month-old CVE, leaving thousands of organizations exposed.",
       "source": "threatpost.com",
       "first_seen": "2026-05-10T12:53:08Z",
-      "last_seen": "2026-06-15T16:12:48Z"
+      "last_seen": "2026-06-15T20:20:28Z"
     }
   ]
 }
