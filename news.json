@@ -1,13 +1,34 @@
 {
-  "last_updated": "2026-06-17T14:23:04Z",
+  "last_updated": "2026-06-17T17:43:51Z",
   "count": 35,
   "items": [
+    {
+      "title": "Junior Hacker Used Tailscale and OpenSSH to Keep Access After His C2 Went Offline",
+      "link": "https://thehackernews.com/2026/06/junior-hacker-used-tailscale-and.html",
+      "date": "2026-06-17T16:00:56Z",
+      "description": "A French-speaking attacker broke into a small French automotive business, planted a keylogger, and stole banking and email credentials. Ordinary stuff, until one move near the end. Before his command-and-control server went dark, he installed OpenSSH and Tailscale on a victim's machine, building a way back in that did not run through the C2 at all. When the Havoc server went offline the next",
+      "source": "thehackernews.com"
+    },
+    {
+      "title": "FortiBleed leak exposes Fortinet VPN credentials for 73,000 devices.",
+      "link": "https://www.bleepingcomputer.com/news/security/fortibleed-leak-exposes-fortinet-vpn-credentials-for-73-000-devices/",
+      "date": "2026-06-17T15:12:57Z",
+      "description": "A newly discovered data leak dubbed \"FortiBleed\" has exposed what appears to be a collection of Fortinet and FortiGate VPN credentials for 73,932 firewall URLs at organizations worldwide. [...]",
+      "source": "bleepingcomputer.com"
+    },
     {
       "title": "Webinar Today: How Modern Breaches Bypass MFA and Evade Detection",
       "link": "https://www.securityweek.com/webinar-today-how-modern-breaches-bypass-mfa-and-evade-detection/",
       "date": "2026-06-17T14:07:16Z",
       "description": "Attendees will learn how attackers evade conventional detection methods, why legacy MFA alone is no longer sufficient, and how organizations can strengthen their defenses. The post Webinar Today: How Modern Breaches Bypass MFA and Evade Detection appeared first on SecurityWeek.",
       "source": "securityweek.com"
+    },
+    {
+      "title": "Sweeping Credential-Harvesting Heist Compromises 30K+ Fortinet Devices",
+      "link": "https://www.darkreading.com/cyberattacks-data-breaches/sweeping-credential-harvesting-heist-compromises-30k-fortinet-devices",
+      "date": "2026-06-17T14:06:34Z",
+      "description": "Attackers are actively targeting various sectors across nearly 200 countries and already have compiled a list of working credentials for tens of thousands of compromised devices.",
+      "source": "darkreading.com"
     },
     {
       "title": "Why Account Takeovers Are Rising and How to Stop Them",
@@ -17,6 +38,13 @@
       "source": "bleepingcomputer.com"
     },
     {
+      "title": "Malicious JetBrains Plugins Steal AI API Keys as Chrome Extensions Capture Chatbot Chats",
+      "link": "https://thehackernews.com/2026/06/malicious-jetbrains-plugins-steal-ai.html",
+      "date": "2026-06-17T13:51:58Z",
+      "description": "Cybersecurity researchers have flagged a \"coordinated malware campaign\" on the JetBrains Marketplace that has published no less than 15 malicious plugins capable of exfiltrating artificial intelligence (AI) provider keys. \"Every plugin poses as an AI coding assistant built on DeepSeek and other large language models, offering chat, commit messages, code review, bug finding, and unit tests,\"",
+      "source": "thehackernews.com"
+    },
+    {
       "title": "India's Telegram ban hit the UAE too. Here's how to get around it",
       "link": "https://www.bleepingcomputer.com/news/security/indias-telegram-ban-hit-the-uae-too-heres-how-to-get-around-it/",
       "date": "2026-06-17T13:12:45Z",
@@ -24,32 +52,11 @@
       "source": "bleepingcomputer.com"
     },
     {
-      "title": "FishMonger Hackers Expands SprySOCKS Backdoor From Linux to Windows With Advanced Stealth Features",
-      "link": "https://cybersecuritynews.com/fishmonger-hackers-expands-sprysocks-backdoor-from-linux/",
-      "date": "2026-06-17T13:01:41Z",
-      "description": "A well-known Chinese cyberespionage group has taken a major step forward in its hacking capabilities. The threat actor, tracked as FishMonger, has brought its SprySOCKS backdoor to Windows for the first time, after years of deploying it exclusively on Linux. This upgrade signals the group is broadening its reach and is now capable of targeting […] The post FishMonger Hackers Expands SprySOCKS…",
-      "source": "cybersecuritynews.com"
-    },
-    {
       "title": "1Password Acquires Apono in Reported $250M-$300M Deal",
       "link": "https://www.securityweek.com/1password-acquires-apono-in-reported-250m-300m-deal/",
       "date": "2026-06-17T12:36:46Z",
       "description": "Apono specializes in just-in-time access governance technology for humans, machines, and AI agents. The post 1Password Acquires Apono in Reported $250M-$300M Deal appeared first on SecurityWeek.",
       "source": "securityweek.com"
-    },
-    {
-      "title": "ErrTraffic MaaS Uses Fake reCAPTCHA and Cloudflare Turnstile Lures to Execute PowerShell Commands",
-      "link": "https://cybersecuritynews.com/errtraffic-maas-uses-fake-recaptcha-and-cloudflare-turnstile-lures/",
-      "date": "2026-06-17T12:28:05Z",
-      "description": "A new and rapidly growing cybercrime tool called ErrTraffic is making waves across the threat landscape, targeting internet users through cleverly disguised verification screens. The framework tricks victims into running malicious PowerShell commands on their own machines, all while believing they are simply completing a routine security check. It first appeared in late 2025 and […] The post…",
-      "source": "cybersecuritynews.com"
-    },
-    {
-      "title": "Multiple JetBrains IDE Plugins 70,000+ Installs Caught Stealing AI keys",
-      "link": "https://cybersecuritynews.com/jetbrains-ide-plugins-installs-caught-stealing-ai-keys/",
-      "date": "2026-06-17T12:10:51Z",
-      "description": "A large-scale malware campaign has been uncovered on the JetBrains Marketplace, where at least 15 malicious IDE plugins were found stealing sensitive API keys from developers. These plugins, downloaded over 70,000 times, were published under seven different vendor accounts and disguised as legitimate AI-powered coding assistants. According to Aikido’s research, the malicious plugins claimed to…",
-      "source": "cybersecuritynews.com"
     },
     {
       "title": "Tenet Security Emerges From Stealth With $6 Million Seed Funding",
@@ -71,20 +78,6 @@
       "date": "2026-06-17T11:54:21Z",
       "description": "Microsoft is investigating a new issue preventing third-party applications from launching Microsoft Office applications or opening documents on up-to-date Windows systems. [...]",
       "source": "bleepingcomputer.com"
-    },
-    {
-      "title": "CISA Warns of Oracle PeopleSoft 0-Day Vulnerability Exploited in Ransomware Attacks",
-      "link": "https://cybersecuritynews.com/oracle-peoplesoft-0-day-vulnerability-exploit/",
-      "date": "2026-06-17T11:53:47Z",
-      "description": "CISA has added a critical Oracle PeopleSoft vulnerability, tracked as CVE-2026-35273, to its Known Exploited Vulnerabilities (KEV) catalog, confirming active exploitation in the wild. The flaw affects Oracle PeopleSoft Enterprise PeopleTools and enables unauthenticated attackers to gain full control over affected systems. The vulnerability is classified under CWE-306 (Missing Authentication for…",
-      "source": "cybersecuritynews.com"
-    },
-    {
-      "title": "Fortra Access Manager Vulnerability Enables Remote Command Injection Attacks",
-      "link": "https://cybersecuritynews.com/fortra-access-manager-vulnerability/",
-      "date": "2026-06-17T11:48:16Z",
-      "description": "Fortra has disclosed a critical security vulnerability in its Core Privileged Access Manager (BoKS) that could allow remote attackers to execute arbitrary commands on affected systems. CVE-2026-9862 is a critical OS command injection (CWE-78) flaw in the boks_autoregisterd service, carrying a CVSS 9.8 severity rating. It exists within the autoregistration functionality of BoKS, a component […]…",
-      "source": "cybersecuritynews.com"
     },
     {
       "title": "Rockwell Automation Patches Vulnerabilities in ICS Controllers and Software",
@@ -115,18 +108,11 @@
       "source": "bleepingcomputer.com"
     },
     {
-      "title": "Malicious JetBrains Plugins Steal AI API Keys as Chrome Extensions Capture Chatbot Chats",
-      "link": "https://thehackernews.com/2026/06/malicious-jetbrains-plugins-steal-ai.html",
-      "date": "2026-06-17T09:38:46Z",
-      "description": "Cybersecurity researchers have flagged a \"coordinated malware campaign\" on the JetBrains Marketplace that has published no less than 15 malicious plugins capable of exfiltrating artificial intelligence (AI) provider keys. \"Every plugin poses as an AI coding assistant built on DeepSeek and other large language models, offering chat, commit messages, code review, bug finding, and unit tests,\"",
-      "source": "thehackernews.com"
-    },
-    {
-      "title": "Microsoft working on Defender patch for RoguePlanet zero-day",
-      "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-working-on-defender-patch-for-rogueplanet-zero-day/",
-      "date": "2026-06-17T08:32:29Z",
-      "description": "Microsoft confirmed that it's working on a security patch for a Defender zero-day vulnerability named \"RoguePlanet,\" disclosed one week ago. [...]",
-      "source": "bleepingcomputer.com"
+      "title": "UK Social Media Ban for Minors Has Privacy Experts Worried",
+      "link": "https://www.darkreading.com/cyber-risk/uk-social-media-ban-privacy-experts-worried",
+      "date": "2026-06-17T08:00:00Z",
+      "description": "The UK will ban adolescents under 16 years old from user-to-user social media platforms, despite age verification issues and privacy concerns.",
+      "source": "darkreading.com"
     },
     {
       "title": "144 Mastra npm Packages Compromised via Hijacked Contributor Account",
@@ -136,46 +122,60 @@
       "source": "thehackernews.com"
     },
     {
-      "title": "CISA Warns of Actively Exploited Joomla JCE Flaw Allowing PHP Code Execution",
-      "link": "https://thehackernews.com/2026/06/cisa-warns-of-actively-exploited-joomla.html",
-      "date": "2026-06-17T05:50:46Z",
-      "description": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Tuesday added a maximum-severity security flaw impacting Widget Factory Joomla Content Editor (JCE) to its Known Exploited Vulnerabilities (KEV) catalog, citing evidence of active exploitation. The vulnerability, tracked as CVE-2026-48907 (CVSS score: 10.0), is a case of improper access control that could facilitate arbitrary",
-      "source": "thehackernews.com"
-    },
-    {
-      "title": "ZDI-CAN-31160: Foxit",
+      "title": "ZDI-CAN-31053: LibreOffice",
       "link": "http://www.zerodayinitiative.com/advisories/upcoming/",
-      "date": "2026-06-16T05:00:00Z",
-      "description": "A CVSS score 3.3 AV:L/AC:L/PR:N/UI:R/S:U/C:L/I:N/A:N severity vulnerability discovered by 'Anonymous' was reported to the affected vendor on: 2026-06-16, 1 days ago. The vendor is given until 2026-10-14 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
+      "date": "2026-06-17T05:00:00Z",
+      "description": "A CVSS score 2.5 AV:L/AC:H/PR:N/UI:R/S:U/C:L/I:N/A:N severity vulnerability discovered by 'Anonymous' was reported to the affected vendor on: 2026-06-17, 0 days ago. The vendor is given until 2026-10-15 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
       "source": "zerodayinitiative.com"
     },
     {
-      "title": "ZDI-CAN-31171: Foxit",
+      "title": "ZDI-CAN-30941: Linux",
       "link": "http://www.zerodayinitiative.com/advisories/upcoming/",
-      "date": "2026-06-16T05:00:00Z",
-      "description": "A CVSS score 7.8 AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H severity vulnerability discovered by 'Anonymous' was reported to the affected vendor on: 2026-06-16, 1 days ago. The vendor is given until 2026-10-14 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
+      "date": "2026-06-17T05:00:00Z",
+      "description": "A CVSS score 7.3 AV:L/AC:L/PR:L/UI:N/S:C/C:H/I:N/A:L severity vulnerability discovered by 'Sajeeb Lohani' was reported to the affected vendor on: 2026-06-17, 0 days ago. The vendor is given until 2026-10-15 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
       "source": "zerodayinitiative.com"
     },
     {
-      "title": "ZDI-CAN-31842: Oracle",
+      "title": "ZDI-CAN-30231: open62541",
       "link": "http://www.zerodayinitiative.com/advisories/upcoming/",
-      "date": "2026-06-16T05:00:00Z",
-      "description": "A CVSS score 9.3 AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:L/A:N severity vulnerability discovered by 'Lucas Miller of TrendAI Research' was reported to the affected vendor on: 2026-06-16, 1 days ago. The vendor is given until 2026-10-14 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
+      "date": "2026-06-17T05:00:00Z",
+      "description": "A CVSS score 8.8 AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H severity vulnerability discovered by 'Andrew Letourneau' was reported to the affected vendor on: 2026-06-17, 0 days ago. The vendor is given until 2026-10-15 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
       "source": "zerodayinitiative.com"
     },
     {
-      "title": "ZDI-CAN-31175: Foxit",
+      "title": "ZDI-CAN-30575: Firebird",
       "link": "http://www.zerodayinitiative.com/advisories/upcoming/",
-      "date": "2026-06-16T05:00:00Z",
-      "description": "A CVSS score 3.3 AV:L/AC:L/PR:N/UI:R/S:U/C:L/I:N/A:N severity vulnerability discovered by 'Anonymous' was reported to the affected vendor on: 2026-06-16, 1 days ago. The vendor is given until 2026-10-14 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
+      "date": "2026-06-17T05:00:00Z",
+      "description": "A CVSS score 9.1 AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:N severity vulnerability discovered by 'Anonymous' was reported to the affected vendor on: 2026-06-17, 0 days ago. The vendor is given until 2026-10-15 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
       "source": "zerodayinitiative.com"
     },
     {
-      "title": "ZDI-CAN-31163: Foxit",
+      "title": "ZDI-CAN-30840: Linux",
       "link": "http://www.zerodayinitiative.com/advisories/upcoming/",
-      "date": "2026-06-16T05:00:00Z",
-      "description": "A CVSS score 7.8 AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H severity vulnerability discovered by 'Anonymous' was reported to the affected vendor on: 2026-06-16, 1 days ago. The vendor is given until 2026-10-14 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
+      "date": "2026-06-17T05:00:00Z",
+      "description": "A CVSS score 7.5 AV:L/AC:H/PR:H/UI:N/S:C/C:H/I:H/A:H severity vulnerability discovered by 'Pitticus' was reported to the affected vendor on: 2026-06-17, 0 days ago. The vendor is given until 2026-10-15 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
       "source": "zerodayinitiative.com"
+    },
+    {
+      "title": "Fileless Phantom Stealer Targets Browser Credentials",
+      "link": "https://www.darkreading.com/cyberattacks-data-breaches/fileless-phantom-stealer-targets-browser-credentials",
+      "date": "2026-06-16T22:26:34Z",
+      "description": "In addition to executing entirely in memory, the malware's infection chain incorporates other anti-analysis techniques designed to evade detection.",
+      "source": "darkreading.com"
+    },
+    {
+      "title": "Security Community Slams US Ban on Exporting Mythos, Fable",
+      "link": "https://www.darkreading.com/vulnerabilities-threats/security-community-slams-us-ban-on-exporting-mythos-fable",
+      "date": "2026-06-16T22:00:06Z",
+      "description": "An open letter signed by dozens of security experts asked the government to reverse export restrictions on Anthropic's Claude Fable 5 and Mythos 5 models.",
+      "source": "darkreading.com"
+    },
+    {
+      "title": "SprySOCKS Windows Variant Abuses Kernel Drivers to Evade Detection",
+      "link": "https://www.darkreading.com/threat-intelligence/sprysocks-windows-variant-kernel-drivers",
+      "date": "2026-06-16T20:11:48Z",
+      "description": "FishMonger, a China-nexus threat group, has deployed an undocumented version of the Linux backdoor against government targets in Honduras, Taiwan, Thailand, and Pakistan.",
+      "source": "darkreading.com"
     },
     {
       "title": "FreeBSD Privilege Escalation Flaw CVE-2026-49413 Hits the Linuxulator",
