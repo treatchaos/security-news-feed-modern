@@ -1,7 +1,137 @@
 {
   "date": "2026-06-18",
-  "count": 4,
+  "count": 17,
   "items": [
+    {
+      "id": "9a570eb07ae6704957c3c4623a791be388db8fef",
+      "title": "F5 issues out-of-band patches for critical NGINX vulnerabilities",
+      "link": "https://www.bleepingcomputer.com/news/security/f5-issues-out-of-band-patches-for-critical-nginx-vulnerabilities/",
+      "date": "2026-06-18T11:33:00Z",
+      "description": "Cybersecurity company F5 has released out-of-band security updates to address multiple NGINX web server vulnerabilities, including two critical-severity flaws that could allow attackers to execute code on vulnerable systems. [...]",
+      "source": "bleepingcomputer.com",
+      "first_seen": "2026-06-18T11:44:06Z",
+      "last_seen": "2026-06-18T11:44:06Z"
+    },
+    {
+      "id": "cdbfe28c1d741fdb8ce6a808803095ed63f96cb6",
+      "title": "Hackers Abuse PowerShell Commands to Deliver SmartRAT Through Brazilian Bank Phishing Page",
+      "link": "https://cybersecuritynews.com/hackers-abuse-powershell-commands/",
+      "date": "2026-06-18T11:22:18Z",
+      "description": "A new cyberattack campaign has emerged, using cleverly crafted phishing pages and PowerShell tricks to deliver a dangerous piece of malware called SmartRAT. The attack targets Brazilian banking customers and combines social engineering with AI-generated web pages to make the threat feel disturbingly real. Researchers say the campaign marks a troubling shift in how attackers […] The post Hackers…",
+      "source": "cybersecuritynews.com",
+      "first_seen": "2026-06-18T11:44:06Z",
+      "last_seen": "2026-06-18T11:44:06Z"
+    },
+    {
+      "id": "cef2c933528f361144968fb167de69d0e55d4b36",
+      "title": "Evilginx AiTM Attack Captures Microsoft Credentials, MFA Tokens, and Authenticated Sessions",
+      "link": "https://cybersecuritynews.com/evilginx-aitm-attack-captures-microsoft-credentials/",
+      "date": "2026-06-18T11:13:07Z",
+      "description": "A growing wave of targeted phishing attacks is putting Microsoft users at serious risk, and the tool behind it is more sophisticated than most people realize. Security researchers have documented how Evilginx, an adversary-in-the-middle framework, is being used to silently intercept Microsoft login sessions, stealing usernames, passwords, MFA tokens, and authenticated session cookies all at […]…",
+      "source": "cybersecuritynews.com",
+      "first_seen": "2026-06-18T11:44:06Z",
+      "last_seen": "2026-06-18T11:44:06Z"
+    },
+    {
+      "id": "694d6472423da19586cf2acbc7fff835cd1e03b3",
+      "title": "The Scripts on Your Checkout Page Are Now a PCI DSS Problem",
+      "link": "https://thehackernews.com/2026/06/the-scripts-on-your-checkout-page-are.html",
+      "date": "2026-06-18T11:00:00Z",
+      "description": "An independent PCI assessor tested Reflectiz against the new PCI DSS rules. Here is the verdict: See the full QSA assessment here → When a customer types their card number into your checkout, their browser is running far more than your code. Analytics tags, a tag manager, a support widget, a payment iframe: a modern checkout loads dozens of third-party scripts, and any one of them can be turned",
+      "source": "thehackernews.com",
+      "first_seen": "2026-06-18T11:44:06Z",
+      "last_seen": "2026-06-18T11:44:06Z"
+    },
+    {
+      "id": "20d87367f4e6f64d6fd55b43a195da3f6f4f9ade",
+      "title": "Atlassian, Splunk Patch Critical Vulnerabilities",
+      "link": "https://www.securityweek.com/atlassian-splunk-patch-critical-vulnerabilities/",
+      "date": "2026-06-18T10:59:50Z",
+      "description": "Splunk patched an OS command injection in AI Toolkit, while Atlassian fixed dozens of flaws in third-party dependencies. The post Atlassian, Splunk Patch Critical Vulnerabilities appeared first on SecurityWeek.",
+      "source": "securityweek.com",
+      "first_seen": "2026-06-18T11:44:06Z",
+      "last_seen": "2026-06-18T11:44:06Z"
+    },
+    {
+      "id": "a63b81ff4b7ac74097c41de694c07b7dda1c5a4e",
+      "title": "Rokarolla Banking Trojan Targets 200 Applications",
+      "link": "https://www.securityweek.com/rokarolla-banking-trojan-targets-200-applications/",
+      "date": "2026-06-18T10:42:21Z",
+      "description": "The Android malware allows its operators to take control of infected devices and harvest sensitive information. The post Rokarolla Banking Trojan Targets 200 Applications appeared first on SecurityWeek.",
+      "source": "securityweek.com",
+      "first_seen": "2026-06-18T11:44:06Z",
+      "last_seen": "2026-06-18T11:44:06Z"
+    },
+    {
+      "id": "7b9eea63dfe769e978dc9bcea53dccba3d3f4ed4",
+      "title": "Critical Command Execution Vulnerability Patched in Cisco ISE",
+      "link": "https://www.securityweek.com/critical-command-execution-vulnerability-patched-in-cisco-ise/",
+      "date": "2026-06-18T10:27:14Z",
+      "description": "Insufficient validation of user input allows an attacker to gain access to the underlying OS and elevate their privileges to root. The post Critical Command Execution Vulnerability Patched in Cisco ISE appeared first on SecurityWeek.",
+      "source": "securityweek.com",
+      "first_seen": "2026-06-18T11:44:06Z",
+      "last_seen": "2026-06-18T11:44:06Z"
+    },
+    {
+      "id": "9d1b65c43dfd331d6742f190b53c8f5e8eb1c3c0",
+      "title": "PoC Exploit Released for HTTP/2 Bomb Remote DoS Vulnerability in Apache HTTP Server",
+      "link": "https://cybersecuritynews.com/http-2-bomb-dos-apache/",
+      "date": "2026-06-18T10:19:50Z",
+      "description": "A proof-of-concept (PoC) exploit has been publicly released for a critical Denial of Service vulnerability in Apache HTTP Server, tracked as CVE-2026-49975, dubbed the “HTTP/2 Bomb.” The flaw allows remote attackers to exhaust server memory and disrupt services without authentication, posing a significant risk to organizations running unpatched Apache deployments. The vulnerability lies in the…",
+      "source": "cybersecuritynews.com",
+      "first_seen": "2026-06-18T11:44:06Z",
+      "last_seen": "2026-06-18T11:44:06Z"
+    },
+    {
+      "id": "afe7d87ee3b8ff17f2852e576ddf00883aaae8c9",
+      "title": "Microsoft fixes Windows Server 2016 security update failures",
+      "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-windows-server-2016-security-update-failures/",
+      "date": "2026-06-18T10:14:20Z",
+      "description": "Microsoft has fixed a known issue causing the June 2026 security updates to fail on Windows Server 2016 systems that weren't up to date. [...]",
+      "source": "bleepingcomputer.com",
+      "first_seen": "2026-06-18T11:44:06Z",
+      "last_seen": "2026-06-18T11:44:06Z"
+    },
+    {
+      "id": "4a01cb1b8f352ef5cee58e0c47eabd40db4b95a5",
+      "title": "Hackers Abuse PowerShell, VBScript, and BAT Files to Deliver Xctdoor Backdoor",
+      "link": "https://cybersecuritynews.com/hackers-abuse-powershell-deliver-xctdoor-backdoor/",
+      "date": "2026-06-18T09:46:22Z",
+      "description": "A new wave of cyberattacks is targeting corporate employees through files that look exactly like legitimate job documents. Hackers are distributing malicious LNK files disguised as resumes, and the moment a victim opens one, the infection quietly begins. The attack is sophisticated enough to fool cautious users, since the file shows a believable resume while […] The post Hackers Abuse…",
+      "source": "cybersecuritynews.com",
+      "first_seen": "2026-06-18T11:44:06Z",
+      "last_seen": "2026-06-18T11:44:06Z"
+    },
+    {
+      "id": "1660b1baf0ac88d0ad8d0243bd5bb7fb1327dcaf",
+      "title": "F5 Patches Critical, High-Severity NGINX Vulnerabilities",
+      "link": "https://www.securityweek.com/f5-patches-critical-high-severity-nginx-vulnerabilities/",
+      "date": "2026-06-18T09:39:24Z",
+      "description": "Critical flaws in NGINX could allow remote, unauthenticated attackers to cause a restart and potentially execute arbitrary code. The post F5 Patches Critical, High-Severity NGINX Vulnerabilities appeared first on SecurityWeek.",
+      "source": "securityweek.com",
+      "first_seen": "2026-06-18T11:44:06Z",
+      "last_seen": "2026-06-18T11:44:06Z"
+    },
+    {
+      "id": "53e976297eb6d8b1c75eb5e2feada1af566e544b",
+      "title": "Rust Clipboard Hijacker Uses Fake GitHub Stars and VirusTotal Upvotes to Steal Crypto",
+      "link": "https://cybersecuritynews.com/rust-clipboard-hijacker-uses-fake-github-stars/",
+      "date": "2026-06-18T09:33:19Z",
+      "description": "A newly discovered malware campaign is quietly draining cryptocurrency wallets by doing something most security tools never see coming. Instead of relying on brute-force attacks or dark web exploits, the threat actor behind this campaign built a fake reputation engine across multiple platforms to make dangerous software look completely safe and trustworthy. The malware at […] The post Rust…",
+      "source": "cybersecuritynews.com",
+      "first_seen": "2026-06-18T11:44:06Z",
+      "last_seen": "2026-06-18T11:44:06Z"
+    },
+    {
+      "id": "46b00891c0168299c20818c4339d77ec3c49bb3a",
+      "title": "SailPoint to Acquire Entro in Reported $200 Million Deal",
+      "link": "https://www.securityweek.com/sailpoint-to-acquire-entro-in-reported-200-million-deal/",
+      "date": "2026-06-18T08:36:42Z",
+      "description": "Israel-based Entro specializes in non-human identity and credential security solutions, and it will enable SailPoint to enhance its products. The post SailPoint to Acquire Entro in Reported $200 Million Deal appeared first on SecurityWeek.",
+      "source": "securityweek.com",
+      "first_seen": "2026-06-18T11:44:06Z",
+      "last_seen": "2026-06-18T11:44:06Z"
+    },
     {
       "id": "aaa8abf9c2240dd64163a719ae5b82cf769b3451",
       "title": "Kodak Admits Data Breach After ShinyHunters Hack Claims",
@@ -20,7 +150,7 @@
       "description": "\"Shield-6G\" will combine AI threat detection, digital twins, honeypots, and more, to help carriers protect 6G networks against the threats of tomorrow.",
       "source": "darkreading.com",
       "first_seen": "2026-06-18T07:25:40Z",
-      "last_seen": "2026-06-18T07:25:40Z"
+      "last_seen": "2026-06-18T11:44:06Z"
     },
     {
       "id": "447ee43c87be4941ef8bd43e32228fe2f89de85e",
@@ -40,7 +170,7 @@
       "description": "OpenAI appears to be testing a new subscription and experience for science use cases, but it's unclear if it'll be available to everyone regardless of their background. [...]",
       "source": "bleepingcomputer.com",
       "first_seen": "2026-06-18T02:36:53Z",
-      "last_seen": "2026-06-18T07:25:40Z"
+      "last_seen": "2026-06-18T11:44:06Z"
     }
   ]
 }

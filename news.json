@@ -1,12 +1,96 @@
 {
-  "last_updated": "2026-06-18T07:25:40Z",
+  "last_updated": "2026-06-18T11:44:06Z",
   "count": 40,
   "items": [
     {
-      "title": "Kodak Admits Data Breach After ShinyHunters Hack Claims",
-      "link": "https://www.securityweek.com/kodak-admits-data-breach-after-shinyhunters-hack-claims/",
-      "date": "2026-06-18T07:18:51Z",
-      "description": "Kodak told SecurityWeek it believes there is no threat to its systems or operations as a result of the cybersecurity incident. The post Kodak Admits Data Breach After ShinyHunters Hack Claims appeared first on SecurityWeek.",
+      "title": "F5 issues out-of-band patches for critical NGINX vulnerabilities",
+      "link": "https://www.bleepingcomputer.com/news/security/f5-issues-out-of-band-patches-for-critical-nginx-vulnerabilities/",
+      "date": "2026-06-18T11:33:00Z",
+      "description": "Cybersecurity company F5 has released out-of-band security updates to address multiple NGINX web server vulnerabilities, including two critical-severity flaws that could allow attackers to execute code on vulnerable systems. [...]",
+      "source": "bleepingcomputer.com"
+    },
+    {
+      "title": "Hackers Abuse PowerShell Commands to Deliver SmartRAT Through Brazilian Bank Phishing Page",
+      "link": "https://cybersecuritynews.com/hackers-abuse-powershell-commands/",
+      "date": "2026-06-18T11:22:18Z",
+      "description": "A new cyberattack campaign has emerged, using cleverly crafted phishing pages and PowerShell tricks to deliver a dangerous piece of malware called SmartRAT. The attack targets Brazilian banking customers and combines social engineering with AI-generated web pages to make the threat feel disturbingly real. Researchers say the campaign marks a troubling shift in how attackers […] The post Hackers…",
+      "source": "cybersecuritynews.com"
+    },
+    {
+      "title": "Evilginx AiTM Attack Captures Microsoft Credentials, MFA Tokens, and Authenticated Sessions",
+      "link": "https://cybersecuritynews.com/evilginx-aitm-attack-captures-microsoft-credentials/",
+      "date": "2026-06-18T11:13:07Z",
+      "description": "A growing wave of targeted phishing attacks is putting Microsoft users at serious risk, and the tool behind it is more sophisticated than most people realize. Security researchers have documented how Evilginx, an adversary-in-the-middle framework, is being used to silently intercept Microsoft login sessions, stealing usernames, passwords, MFA tokens, and authenticated session cookies all at […]…",
+      "source": "cybersecuritynews.com"
+    },
+    {
+      "title": "The Scripts on Your Checkout Page Are Now a PCI DSS Problem",
+      "link": "https://thehackernews.com/2026/06/the-scripts-on-your-checkout-page-are.html",
+      "date": "2026-06-18T11:00:00Z",
+      "description": "An independent PCI assessor tested Reflectiz against the new PCI DSS rules. Here is the verdict: See the full QSA assessment here → When a customer types their card number into your checkout, their browser is running far more than your code. Analytics tags, a tag manager, a support widget, a payment iframe: a modern checkout loads dozens of third-party scripts, and any one of them can be turned",
+      "source": "thehackernews.com"
+    },
+    {
+      "title": "Atlassian, Splunk Patch Critical Vulnerabilities",
+      "link": "https://www.securityweek.com/atlassian-splunk-patch-critical-vulnerabilities/",
+      "date": "2026-06-18T10:59:50Z",
+      "description": "Splunk patched an OS command injection in AI Toolkit, while Atlassian fixed dozens of flaws in third-party dependencies. The post Atlassian, Splunk Patch Critical Vulnerabilities appeared first on SecurityWeek.",
+      "source": "securityweek.com"
+    },
+    {
+      "title": "Rokarolla Banking Trojan Targets 200 Applications",
+      "link": "https://www.securityweek.com/rokarolla-banking-trojan-targets-200-applications/",
+      "date": "2026-06-18T10:42:21Z",
+      "description": "The Android malware allows its operators to take control of infected devices and harvest sensitive information. The post Rokarolla Banking Trojan Targets 200 Applications appeared first on SecurityWeek.",
+      "source": "securityweek.com"
+    },
+    {
+      "title": "Critical Command Execution Vulnerability Patched in Cisco ISE",
+      "link": "https://www.securityweek.com/critical-command-execution-vulnerability-patched-in-cisco-ise/",
+      "date": "2026-06-18T10:27:14Z",
+      "description": "Insufficient validation of user input allows an attacker to gain access to the underlying OS and elevate their privileges to root. The post Critical Command Execution Vulnerability Patched in Cisco ISE appeared first on SecurityWeek.",
+      "source": "securityweek.com"
+    },
+    {
+      "title": "PoC Exploit Released for HTTP/2 Bomb Remote DoS Vulnerability in Apache HTTP Server",
+      "link": "https://cybersecuritynews.com/http-2-bomb-dos-apache/",
+      "date": "2026-06-18T10:19:50Z",
+      "description": "A proof-of-concept (PoC) exploit has been publicly released for a critical Denial of Service vulnerability in Apache HTTP Server, tracked as CVE-2026-49975, dubbed the “HTTP/2 Bomb.” The flaw allows remote attackers to exhaust server memory and disrupt services without authentication, posing a significant risk to organizations running unpatched Apache deployments. The vulnerability lies in the…",
+      "source": "cybersecuritynews.com"
+    },
+    {
+      "title": "Microsoft fixes Windows Server 2016 security update failures",
+      "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-windows-server-2016-security-update-failures/",
+      "date": "2026-06-18T10:14:20Z",
+      "description": "Microsoft has fixed a known issue causing the June 2026 security updates to fail on Windows Server 2016 systems that weren't up to date. [...]",
+      "source": "bleepingcomputer.com"
+    },
+    {
+      "title": "Hackers Abuse PowerShell, VBScript, and BAT Files to Deliver Xctdoor Backdoor",
+      "link": "https://cybersecuritynews.com/hackers-abuse-powershell-deliver-xctdoor-backdoor/",
+      "date": "2026-06-18T09:46:22Z",
+      "description": "A new wave of cyberattacks is targeting corporate employees through files that look exactly like legitimate job documents. Hackers are distributing malicious LNK files disguised as resumes, and the moment a victim opens one, the infection quietly begins. The attack is sophisticated enough to fool cautious users, since the file shows a believable resume while […] The post Hackers Abuse…",
+      "source": "cybersecuritynews.com"
+    },
+    {
+      "title": "F5 Patches Critical, High-Severity NGINX Vulnerabilities",
+      "link": "https://www.securityweek.com/f5-patches-critical-high-severity-nginx-vulnerabilities/",
+      "date": "2026-06-18T09:39:24Z",
+      "description": "Critical flaws in NGINX could allow remote, unauthenticated attackers to cause a restart and potentially execute arbitrary code. The post F5 Patches Critical, High-Severity NGINX Vulnerabilities appeared first on SecurityWeek.",
+      "source": "securityweek.com"
+    },
+    {
+      "title": "Rust Clipboard Hijacker Uses Fake GitHub Stars and VirusTotal Upvotes to Steal Crypto",
+      "link": "https://cybersecuritynews.com/rust-clipboard-hijacker-uses-fake-github-stars/",
+      "date": "2026-06-18T09:33:19Z",
+      "description": "A newly discovered malware campaign is quietly draining cryptocurrency wallets by doing something most security tools never see coming. Instead of relying on brute-force attacks or dark web exploits, the threat actor behind this campaign built a fake reputation engine across multiple platforms to make dangerous software look completely safe and trustworthy. The malware at […] The post Rust…",
+      "source": "cybersecuritynews.com"
+    },
+    {
+      "title": "SailPoint to Acquire Entro in Reported $200 Million Deal",
+      "link": "https://www.securityweek.com/sailpoint-to-acquire-entro-in-reported-200-million-deal/",
+      "date": "2026-06-18T08:36:42Z",
+      "description": "Israel-based Entro specializes in non-human identity and credential security solutions, and it will enable SailPoint to enhance its products. The post SailPoint to Acquire Entro in Reported $200 Million Deal appeared first on SecurityWeek.",
       "source": "securityweek.com"
     },
     {
@@ -15,13 +99,6 @@
       "date": "2026-06-18T07:00:00Z",
       "description": "\"Shield-6G\" will combine AI threat detection, digital twins, honeypots, and more, to help carriers protect 6G networks against the threats of tomorrow.",
       "source": "darkreading.com"
-    },
-    {
-      "title": "Microsoft Confirms Defender RoguePlanet 0-Day Exploit and Working to Release Patch",
-      "link": "https://cybersecuritynews.com/defender-rogueplanet-0-day-exploit-patch/",
-      "date": "2026-06-18T03:38:22Z",
-      "description": "Microsoft has officially acknowledged a critical zero-day vulnerability in Microsoft Defender, publicly dubbed “RoguePlanet,” and confirmed it is actively developing a security patch to address the flaw. Tracked as CVE-2026-50656, the vulnerability was formally published on June 16, 2026, by the Microsoft Security Response Center (MSRC) and carries a CVSS score of 7.8 (Important) under […] The…",
-      "source": "cybersecuritynews.com"
     },
     {
       "title": "Leak confirms OpenAI is testing a ChatGPT for Science subscription",
@@ -59,34 +136,6 @@
       "source": "thehackernews.com"
     },
     {
-      "title": "Google Cloud Vertex AI Allows Attacker to Hijack Victim’s Model and Poison it",
-      "link": "https://cybersecuritynews.com/google-cloud-vertex-ai-hijack-model/",
-      "date": "2026-06-17T16:57:15Z",
-      "description": "A newly disclosed vulnerability in Google Cloud Vertex AI could have allowed attackers to hijack machine learning model uploads and execute malicious code in victim environments, according to research shared with Google under responsible disclosure. The issue affects the Vertex AI Python SDK (google-cloud-aiplatform) and stems from a combination of predictable cloud storage bucket naming […] The…",
-      "source": "cybersecuritynews.com"
-    },
-    {
-      "title": "GitBait Phishing Campaign Abuses GitHub Pages to Attack Financial Institutions",
-      "link": "https://cybersecuritynews.com/gitbait-phishing-campaign-abuses-github-pages/",
-      "date": "2026-06-17T16:52:52Z",
-      "description": "A sophisticated phishing campaign called “GitBait” has been caught targeting Mexico’s financial sector with a level of precision rarely seen in credential-theft operations. The campaign abuses GitHub Pages, a widely trusted free hosting service, to deliver fake banking portals that look nearly identical to the real thing. Victims who land on these pages are tricked […] The post GitBait Phishing…",
-      "source": "cybersecuritynews.com"
-    },
-    {
-      "title": "Hackers Abuse Cloud Logging Services to Evade Detection and Defender’s Visibility",
-      "link": "https://cybersecuritynews.com/hackers-abuse-cloud-logging-service/",
-      "date": "2026-06-17T16:46:21Z",
-      "description": "Threat actors are increasingly targeting cloud logging services to evade detection and maintain persistent visibility into compromised environments, according to recent research by Palo Alto Networks Unit 42. These services, designed as a critical security layer, are now being weaponized to create blind spots in cloud infrastructure. Cloud logging platforms such as AWS CloudTrail and […] The…",
-      "source": "cybersecuritynews.com"
-    },
-    {
-      "title": "SpyCloud Report Finds Phishing Attacks Surge as Employee Data Is Exposed at 86% of Fortune 100 Companies",
-      "link": "https://cybersecuritynews.com/spycloud-phishing-attacks-report/",
-      "date": "2026-06-17T16:44:02Z",
-      "description": "Austin, TX, USA, June 17th, 2026, CyberNewswire New SpyCloud research highlights the expansion of phishing attacks as AI and phishing-as-a-service fuel enterprise targeting. SpyCloud, the leader in identity threat protection, today released its 2026 Phishing Pulse Report, revealing that phishing attacks continue to increase in both volume and sophistication for enterprise organizations as…",
-      "source": "cybersecuritynews.com"
-    },
-    {
       "title": "Junior Hacker Used Tailscale and OpenSSH to Keep Access After His C2 Went Offline",
       "link": "https://thehackernews.com/2026/06/junior-hacker-used-tailscale-and.html",
       "date": "2026-06-17T16:00:56Z",
@@ -108,60 +157,11 @@
       "source": "thehackernews.com"
     },
     {
-      "title": "Webinar Today: How Modern Breaches Bypass MFA and Evade Detection",
-      "link": "https://www.securityweek.com/webinar-today-how-modern-breaches-bypass-mfa-and-evade-detection/",
-      "date": "2026-06-17T14:07:16Z",
-      "description": "Attendees will learn how attackers evade conventional detection methods, why legacy MFA alone is no longer sufficient, and how organizations can strengthen their defenses. The post Webinar Today: How Modern Breaches Bypass MFA and Evade Detection appeared first on SecurityWeek.",
-      "source": "securityweek.com"
-    },
-    {
       "title": "Sweeping Credential-Harvesting Heist Compromises 30K+ Fortinet Devices",
       "link": "https://www.darkreading.com/cyberattacks-data-breaches/sweeping-credential-harvesting-heist-compromises-30k-fortinet-devices",
       "date": "2026-06-17T14:06:34Z",
       "description": "Attackers are actively targeting various sectors across nearly 200 countries and already have compiled a list of working credentials for tens of thousands of compromised devices.",
       "source": "darkreading.com"
-    },
-    {
-      "title": "Why Account Takeovers Are Rising and How to Stop Them",
-      "link": "https://www.bleepingcomputer.com/news/security/why-account-takeovers-are-rising-and-how-to-stop-them/",
-      "date": "2026-06-17T14:00:10Z",
-      "description": "Account takeovers are rising as attackers bypass traditional defenses through phishing, session hijacking, and MFA fatigue. Specops Software explores how device trust and continuous verification help reduce account takeover risk. [...]",
-      "source": "bleepingcomputer.com"
-    },
-    {
-      "title": "Malicious JetBrains Plugins Steal AI API Keys as Chrome Extensions Capture Chatbot Chats",
-      "link": "https://thehackernews.com/2026/06/malicious-jetbrains-plugins-steal-ai.html",
-      "date": "2026-06-17T13:51:58Z",
-      "description": "Cybersecurity researchers have flagged a \"coordinated malware campaign\" on the JetBrains Marketplace that has published no less than 15 malicious plugins capable of exfiltrating artificial intelligence (AI) provider keys. \"Every plugin poses as an AI coding assistant built on DeepSeek and other large language models, offering chat, commit messages, code review, bug finding, and unit tests,\"",
-      "source": "thehackernews.com"
-    },
-    {
-      "title": "India's Telegram ban hit the UAE too. Here's how to get around it",
-      "link": "https://www.bleepingcomputer.com/news/security/indias-telegram-ban-hit-the-uae-too-heres-how-to-get-around-it/",
-      "date": "2026-06-17T13:12:45Z",
-      "description": "India has banned Telegram until June 22 after the app was used to circulate leaked exam papers. CEO Pavel Durov accuses telecom Reliance of BGP hijacking that disrupted the app as far away as the UAE. Here's what happened, and how to get around the block with an MTProto proxy. [...]",
-      "source": "bleepingcomputer.com"
-    },
-    {
-      "title": "1Password Acquires Apono in Reported $250M-$300M Deal",
-      "link": "https://www.securityweek.com/1password-acquires-apono-in-reported-250m-300m-deal/",
-      "date": "2026-06-17T12:36:46Z",
-      "description": "Apono specializes in just-in-time access governance technology for humans, machines, and AI agents. The post 1Password Acquires Apono in Reported $250M-$300M Deal appeared first on SecurityWeek.",
-      "source": "securityweek.com"
-    },
-    {
-      "title": "Tenet Security Emerges From Stealth With $6 Million Seed Funding",
-      "link": "https://www.securityweek.com/tenet-security-emerges-from-stealth-with-6-million-seed-funding/",
-      "date": "2026-06-17T12:00:00Z",
-      "description": "Tenet aims to detect and stop dangerous AI agentic behavior in real time. The post Tenet Security Emerges From Stealth With $6 Million Seed Funding appeared first on SecurityWeek.",
-      "source": "securityweek.com"
-    },
-    {
-      "title": "Rockwell Automation Patches Vulnerabilities in ICS Controllers and Software",
-      "link": "https://www.securityweek.com/rockwell-automation-patches-vulnerabilities-in-ics-controllers-and-software/",
-      "date": "2026-06-17T11:32:44Z",
-      "description": "The industrial automation giant has fixed security holes in Logix, CompactLogix, Flex, RSLinx, and FactoryTalk products. The post Rockwell Automation Patches Vulnerabilities in ICS Controllers and Software appeared first on SecurityWeek.",
-      "source": "securityweek.com"
     },
     {
       "title": "UK Social Media Ban for Minors Has Privacy Experts Worried",
