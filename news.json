@@ -1,7 +1,91 @@
 {
-  "last_updated": "2026-06-22T12:42:06Z",
+  "last_updated": "2026-06-22T17:24:45Z",
   "count": 35,
   "items": [
+    {
+      "title": "Microsoft Entra Conditional Access Policies Can Be Bypassed Via Nested App Authentication",
+      "link": "https://cybersecuritynews.com/microsoft-entra-access-policies-nested-app/",
+      "date": "2026-06-22T16:25:31Z",
+      "description": "Microsoft Entra Conditional Access Policies (CAPs), a core security control for Azure and Microsoft 365 tenants, were recently found vulnerable to a bypass technique involving Nested App Authentication (NAA), according to research disclosed by NetSPI. CAPs are widely deployed to enforce strong authentication requirements such as multi-factor authentication, device compliance, and location-based…",
+      "source": "cybersecuritynews.com"
+    },
+    {
+      "title": "AI-Powered iOS Apps Leaking LLM API Credentials Through Network Traffic",
+      "link": "https://cybersecuritynews.com/ai-ios-apps-leaking-llm-credentials/",
+      "date": "2026-06-22T16:21:33Z",
+      "description": "AI-powered iOS applications are increasingly leaking large language model (LLM) API credentials through network traffic, exposing developers to large-scale abuse of their LLM accounts and cloud resources. A recent empirical study of 444 free, LLM-enabled iOS apps from the US App Store found that 282 of them, or 64%, leaked exploitable LLM credentials when their […] The post AI-Powered iOS Apps…",
+      "source": "cybersecuritynews.com"
+    },
+    {
+      "title": "Apple Beats Studio Buds Vulnerability Allows Hackers to Eavesdrop on Users",
+      "link": "https://cybersecuritynews.com/apple-beats-studio-buds-vulnerability/",
+      "date": "2026-06-22T16:17:13Z",
+      "description": "Apple has addressed a high-severity vulnerability in the Beats Studio Buds that could allow nearby attackers to eavesdrop on users via the device’s microphone, even when the earbuds are not actively paired. Apple fixed the Bluetooth vulnerability in Beats Firmware Update 1B211, released on June 16, 2026, addressing a flaw that could be exploited by […] The post Apple Beats Studio Buds…",
+      "source": "cybersecuritynews.com"
+    },
+    {
+      "title": "Researchers Detail DifyTap Flaws in Dify That Could Expose AI Chats Across Tenants",
+      "link": "https://thehackernews.com/2026/06/researchers-detail-difytap-flaws-in.html",
+      "date": "2026-06-22T16:13:28Z",
+      "description": "Cybersecurity researchers have disclosed details of four vulnerabilities in Dify, an open-source agentic workflow platform with more than 146,000 GitHub stars, that could allow attackers to stealthily read artificial intelligence (AI) conversions from other customers' applications without requiring authentication. The vulnerabilities have been collectively codenamed DifyTap by Zafran Security.",
+      "source": "thehackernews.com"
+    },
+    {
+      "title": "Crypto Heist Fueled by Elaborate Fake Reputation-Boosting Campaign",
+      "link": "https://www.darkreading.com/cyberattacks-data-breaches/crypto-heist-fake-reputation-boosting-campaign",
+      "date": "2026-06-22T16:10:10Z",
+      "description": "Attackers are using multiple online channels — including GitHub, YouTube, and VirusTotal — to build an illusion of trust to spread a cross-platform clipboard hijacker.",
+      "source": "darkreading.com"
+    },
+    {
+      "title": "Klue Hack Leads to Data Breach Across Multiple Cybersecurity Companies",
+      "link": "https://cybersecuritynews.com/klue-hack-cybersecurity-companies/",
+      "date": "2026-06-22T16:07:22Z",
+      "description": "A sophisticated supply chain attack on market intelligence platform Klue has compromised Salesforce data across at least nine organizations, including several high-profile cybersecurity firms, with the newly emerged Icarus extortion group claiming responsibility and threatening to release stolen data. The attack began on June 11–12, 2026, when threat actors gained unauthorized access to Klue’s…",
+      "source": "cybersecuritynews.com"
+    },
+    {
+      "title": "Hackers Use RemotePC RMM and PowerShell Stagers to Deploy Prinz Eugen Ransomware",
+      "link": "https://cybersecuritynews.com/hackers-use-remotepc-rmm-and-powershell-stagers/",
+      "date": "2026-06-22T16:01:11Z",
+      "description": "A newly identified ransomware group is using remote management software and scripted attack tools to compromise organizations and deploy a sophisticated encryption threat called Prinz Eugen. The campaign has claimed victims across multiple countries, with targets ranging from major financial institutions to regional training firms. Prinz Eugen first surfaced on April 16, 2026, when a […] The…",
+      "source": "cybersecuritynews.com"
+    },
+    {
+      "title": "29-Year-Old Squid Proxy Bug 'Squidbleed' Can Leak Cleartext HTTP Requests",
+      "link": "https://thehackernews.com/2026/06/29-year-old-squid-proxy-bug-squidbleed.html",
+      "date": "2026-06-22T14:29:46Z",
+      "description": "A heap over-read in the Squid web proxy can leak another user's cleartext HTTP request, including any credentials or session tokens it carries, to anyone already allowed to send traffic through the same proxy. The bug traces to a 1997 FTP-parsing change and is still live in Squid's default configuration. Researchers at Calif.io disclosed it in June and named it Squidbleed (",
+      "source": "thehackernews.com"
+    },
+    {
+      "title": "A Glimpse into the “Search Your Target” Market for Stolen Credentials",
+      "link": "https://www.bleepingcomputer.com/news/security/a-glimpse-into-the-search-your-target-market-for-stolen-credentials/",
+      "date": "2026-06-22T14:05:15Z",
+      "description": "Attackers no longer need to sift through massive credential dumps. They can pay others to do it for them. Flare explores how an emerging underground market searches stolen credential databases for specific companies, domains, and accounts. [...]",
+      "source": "bleepingcomputer.com"
+    },
+    {
+      "title": "Decades-Old Squid Proxy Flaw ‘Squidbleed’ Can Expose User Data",
+      "link": "https://www.securityweek.com/decades-old-squid-proxy-flaw-squidbleed-can-expose-user-data/",
+      "date": "2026-06-22T13:22:31Z",
+      "description": "Squidbleed, discovered with the aid of Claude Mythos Preview, has been described as a Heartbleed-style vulnerability. The post Decades-Old Squid Proxy Flaw ‘Squidbleed’ Can Expose User Data appeared first on SecurityWeek.",
+      "source": "securityweek.com"
+    },
+    {
+      "title": "New OXLOADER Loader Uses Malicious Google Ads to Deliver CastleStealer",
+      "link": "https://thehackernews.com/2026/06/new-oxloader-loader-uses-malicious.html",
+      "date": "2026-06-22T13:20:12Z",
+      "description": "Cybersecurity researchers have disclosed details of a new campaign that delivers CastleStealer by means of a previously unreported malware loader dubbed OXLOADER. According to Elastic Security Labs, the campaign leverages malicious Google Ads as a starting point to distribute the malware. Evidence indicates that the threat actor is likely Russian-speaking and financially motivated, owing to the",
+      "source": "thehackernews.com"
+    },
+    {
+      "title": "Google Sets Sept. 30 Deadline for Android Developer Verification in Four Countries",
+      "link": "https://thehackernews.com/2026/06/google-sets-sept-30-deadline-for.html",
+      "date": "2026-06-22T12:45:08Z",
+      "description": "Google has set September 30, 2026, as the day it begins enforcing Android developer verification in the first four countries, and the major device-maker app stores are in from the start. On that date, certified Android phones in Brazil, Indonesia, Singapore, and Thailand will block normal installs of apps whose developers have not registered an identity with Google, whether the app",
+      "source": "thehackernews.com"
+    },
     {
       "title": "Stop Your Legacy Infrastructure from Hijacking Your AI Agents",
       "link": "https://thehackernews.com/2026/06/stop-your-legacy-infrastructure-from.html",
@@ -17,53 +101,11 @@
       "source": "securityweek.com"
     },
     {
-      "title": "Microsoft has urged IT Admins to Prepare for Windows 11, Version 26H2 Update",
-      "link": "https://cybersecuritynews.com/microsoft-urged-windows-11-26h2-update/",
-      "date": "2026-06-22T11:40:37Z",
-      "description": "Microsoft has urged IT administrators to begin preparing for the upcoming Windows 11 version 26H2 update, which is now available for testing through the Windows Insider Program. The release continues Microsoft’s shift toward a predictable, low-disruption servicing model designed to simplify enterprise deployment and maintenance. Unlike traditional feature upgrades, Windows 11 version 26H2 uses…",
-      "source": "cybersecuritynews.com"
-    },
-    {
-      "title": "New Malware Attack Via WhatsApp Attacking Windows System to Enable Remote Access For Attackers",
-      "link": "https://cybersecuritynews.com/new-malware-attack-via-whatsapp-attacking-windows-system/",
-      "date": "2026-06-22T11:36:12Z",
-      "description": "A new and active malware campaign is spreading through WhatsApp, targeting everyday Windows users across more than a dozen countries. The threat uses malicious script files disguised as routine financial documents, tricking people into running harmful code on their own machines. Once opened, the file quietly sets off a chain of events that ends with […] The post New Malware Attack Via WhatsApp…",
-      "source": "cybersecuritynews.com"
-    },
-    {
       "title": "North Korean Hackers Blamed for Mastra NPM Supply Chain Attack",
       "link": "https://www.securityweek.com/north-korean-hackers-blamed-for-mastra-npm-supply-chain-attack/",
       "date": "2026-06-22T11:10:06Z",
       "description": "A malicious dependency the attackers added to over 140 Mastra packages fetches a payload targeting cryptocurrency extensions. The post North Korean Hackers Blamed for Mastra NPM Supply Chain Attack appeared first on SecurityWeek.",
       "source": "securityweek.com"
-    },
-    {
-      "title": "⚡ Weekly Recap: Browser Bugs, EDR Killers, TV Botnet, OpenBSD Flaw, Android Trojan, and More",
-      "link": "https://thehackernews.com/2026/06/weekly-recap-browser-bugs-edr-killers.html",
-      "date": "2026-06-22T10:55:10Z",
-      "description": "It’s Monday again. This week’s threat list looks painfully familiar: abused integrations, fake tools, poisoned websites, ransomware crews trying to shut down security tools, and mobile malware asking for way too much control. The annoying part is how little of this feels new. Weak credentials, sketchy downloads, browser extensions with too much access, and WordPress sites are used to push more",
-      "source": "thehackernews.com"
-    },
-    {
-      "title": "GitHub Actions Checkout Update Blocks Workflows Triggered by Malicious pull_request_target",
-      "link": "https://cybersecuritynews.com/github-actions-checkout-update-workflow/",
-      "date": "2026-06-22T10:52:45Z",
-      "description": "GitHub has rolled out a significant security enhancement to GitHub Actions by updating actions/checkout to block unsafe workflows that abuse the pull_request_target event. The pull_request_target trigger is widely known as one of the most misused events because it runs with the base repository’s GITHUB_TOKEN, secrets, and default-branch cache access, even when the pull request comes from an…",
-      "source": "cybersecuritynews.com"
-    },
-    {
-      "title": "pgAdmin 4 Released With Fixes for Seven Security Vulnerabilities and New Features",
-      "link": "https://cybersecuritynews.com/pgadmin-4-released/",
-      "date": "2026-06-22T10:51:27Z",
-      "description": "pgAdmin 4 version 9.16 has been released, delivering a combination of new features, bug fixes, and critical security updates to strengthen the widely used PostgreSQL management platform. The update includes 64 bug fixes and addresses seven security vulnerabilities, tracked as CVE-2026-12044 through CVE-2026-12050. pgAdmin remains one of the most popular open-source graphical tools for managing…",
-      "source": "cybersecuritynews.com"
-    },
-    {
-      "title": "QNAP Patches Multiple Injection Vulnerabilities Leads to Arbitrary Command Execution",
-      "link": "https://cybersecuritynews.com/qnap-patches-multiple-injection-vulnerabilities/",
-      "date": "2026-06-22T10:50:04Z",
-      "description": "QNAP has released security updates to address multiple vulnerabilities affecting its widely used NAS operating systems, including QTS, QuTS hero, QuTS cloud, and QVP (QVR Pro appliances). The advisory highlights a series of critical flaws that could allow attackers to execute arbitrary commands, trigger denial-of-service (DoS) conditions, and bypass access controls. The vulnerabilities,…",
-      "source": "cybersecuritynews.com"
     },
     {
       "title": "What the Latest ShinyHunters Breaches Reveal About Modern Cyberattacks",
@@ -78,34 +120,6 @@
       "date": "2026-06-22T10:03:06Z",
       "description": "The vulnerability exploited by the Usbliter8 exploit cannot be patched and a PoC exploit has been released by researchers. The post New Exploit Bypasses Apple’s Boot Defenses, Affects Millions of iPhones appeared first on SecurityWeek.",
       "source": "securityweek.com"
-    },
-    {
-      "title": "Fortinet Responds to FortiBleed Campaign",
-      "link": "https://www.securityweek.com/fortinet-responds-to-fortibleed-campaign/",
-      "date": "2026-06-22T09:34:59Z",
-      "description": "A database of over 86,000 confirmed working credentials was created during the credential-harvesting campaign. The post Fortinet Responds to FortiBleed Campaign appeared first on SecurityWeek.",
-      "source": "securityweek.com"
-    },
-    {
-      "title": "Canada’s Spy Agency Used First-of-Its-Kind Warrant to Clean Botnet-Infected Devices",
-      "link": "https://thehackernews.com/2026/06/canadas-spy-agency-used-first-of-its.html",
-      "date": "2026-06-22T09:11:37Z",
-      "description": "Canada's spy service got a judge's permission to reach into infected servers, home routers, and IoT gear sitting on Canadian soil and neutralize two foreign-run botnets. The Federal Court released a public version of the ruling on June 15. It is the first time the Canadian Security Intelligence Service has used its threat reduction warrant powers this way. The warrant let CSIS alter,",
-      "source": "thehackernews.com"
-    },
-    {
-      "title": "AryStinger Malware Infects 4,300 Legacy Routers to Build Reconnaissance Proxy Network",
-      "link": "https://thehackernews.com/2026/06/arystinger-malware-infects-4300-legacy.html",
-      "date": "2026-06-22T06:57:44Z",
-      "description": "A new malware family is turning forgotten home routers into a distributed reconnaissance and proxy network, not the DDoS botnet these devices usually end up in. QiAnXin's XLab calls it AryStinger and counts at least 4,300 infected routers, a total it says is still rising. The distinction matters. AryStinger exists for the stage of an attack that comes before the break-in. Infected",
-      "source": "thehackernews.com"
-    },
-    {
-      "title": "INTERPOL Warns Phishing, Ransomware, and AI Scams Are Rising Across Asia-Pacific",
-      "link": "https://thehackernews.com/2026/06/interpol-warns-phishing-ransomware-and.html",
-      "date": "2026-06-22T06:06:53Z",
-      "description": "A new report from INTERPOL has revealed a \"dramatic increase\" in cybercrime in Asia and the South Pacific, fueled by rapid digitalization, internet penetration, new technologies, organized criminal networks, and a disparity in cybersecurity maturity. According to INTERPOL's 2025/2026 Asia and South Pacific Cyberthreat Assessment Report, phishing has emerged as the most widespread and",
-      "source": "thehackernews.com"
     },
     {
       "title": "AryStinger botnet infected thousands of D-Link routers worldwide",
@@ -133,13 +147,6 @@
       "link": "https://www.bleepingcomputer.com/news/security/klue-oauth-breach-victim-list-grows-as-icarus-hackers-claim-attack/",
       "date": "2026-06-19T22:31:04Z",
       "description": "Market intelligence platform Klue has publicly confirmed a recent security incident that allowed threat actors to steal OAuth tokens used to connect to customers' Salesforce environments, as the new \"Icarus\" extortion group publicly claims the attack. [...]",
-      "source": "bleepingcomputer.com"
-    },
-    {
-      "title": "Hackers exploit info disclosure bug in Gravity SMTP WordPress plugin",
-      "link": "https://www.bleepingcomputer.com/news/security/hackers-exploit-info-disclosure-bug-in-gravity-smtp-wordpress-plugin/",
-      "date": "2026-06-19T20:25:02Z",
-      "description": "Threat actors are exploiting an unauthenticated information disclosure vulnerability in the WordPress plugin Gravity SMTP, active on 100,000 sites. [...]",
       "source": "bleepingcomputer.com"
     },
     {
@@ -185,7 +192,7 @@
       "source": "zerodayinitiative.com"
     },
     {
-      "title": "Novo Nordisk Breach Exposes Software Development Pipeline Risk",
+      "title": "Novo Nordisk Breach Highlights Software Development Pipeline Risk",
       "link": "https://www.darkreading.com/cyber-risk/novo-nordisk-breach-exposes-dev-pipeline-risk",
       "date": "2026-06-18T20:05:47Z",
       "description": "A leaked GitHub token underscores what most organizations get wrong: Treating secrets management as a tooling problem rather than an identity problem.",
@@ -203,13 +210,6 @@
       "link": "https://www.darkreading.com/application-security/fifa-bug-world-cup-streams-remote-takeover",
       "date": "2026-06-18T18:20:07Z",
       "description": "A hacker could have \"Rickrolled\" the World Cup — or worse — thanks to FIFA's unenforced Entra access controls.",
-      "source": "darkreading.com"
-    },
-    {
-      "title": "Salesforce Data Thefts Continue via Klue App Compromise",
-      "link": "https://www.darkreading.com/cyberattacks-data-breaches/salesforce-data-thefts-klue-app-compromise",
-      "date": "2026-06-18T16:49:04Z",
-      "description": "Klue's Battlecards is now the third integrated application that has been compromised to steal customers' Salesforce data, and victims include Huntress, the cybersecurity vendor.",
       "source": "darkreading.com"
     },
     {
