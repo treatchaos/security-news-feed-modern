@@ -1,7 +1,42 @@
 {
-  "last_updated": "2026-06-22T20:32:05Z",
+  "last_updated": "2026-06-22T22:40:57Z",
   "count": 35,
   "items": [
+    {
+      "title": "JaredFromSubway MEV bot hacked in $15 million crypto theft",
+      "link": "https://www.bleepingcomputer.com/news/security/jaredfromsubway-mev-bot-hacked-in-15-million-crypto-theft/",
+      "date": "2026-06-22T21:52:18Z",
+      "description": "The JaredFromSubway Ethereum MEV (Maximal Extractable Value) bot suffered a $15 million loss after an attacker manipulated the opportunity-detection logic by creating fake cryptocurrency trading opportunities. [...]",
+      "source": "bleepingcomputer.com"
+    },
+    {
+      "title": "FFmpeg fixes PixelSmash flaw in widely used video decoder",
+      "link": "https://www.bleepingcomputer.com/news/security/ffmpeg-fixes-pixelsmash-flaw-in-widely-used-video-decoder/",
+      "date": "2026-06-22T21:05:01Z",
+      "description": "A newly disclosed FFmpeg flaw dubbed 'PixelSmash' could be exploited for remote code execution on Jellyfin servers under certain conditions, and can also trigger a denial-of-service condition in applications like Kodi, Emby, Nextcloud, PhotoPrism, and OBS Studio. [...]",
+      "source": "bleepingcomputer.com"
+    },
+    {
+      "title": "23 ClawHub Plugins Abuse Official Org Scopes to Impersonate Trusted AI Agent Tools",
+      "link": "https://cybersecuritynews.com/23-clawhub-plugins-abuse-official-org-scopes/",
+      "date": "2026-06-22T21:01:58Z",
+      "description": "A new supply chain threat has surfaced in the AI agent ecosystem that is both subtle and serious. Researchers uncovered 23 plugins on the ClawHub registry published under official organizational scopes without any authorization from ClawHub or its parent project, OpenClaw. These plugins used trusted namespace prefixes to look like genuine, first-party tools, while they […] The post 23 ClawHub…",
+      "source": "cybersecuritynews.com"
+    },
+    {
+      "title": "Windows RAT Uses Encrypted HTTP C2 and Registry Persistence After npm Infection",
+      "link": "https://cybersecuritynews.com/windows-rat-uses-encrypted-http-c2/",
+      "date": "2026-06-22T21:00:01Z",
+      "description": "A newly discovered malware campaign is targeting Windows systems through a deceptive package on the npm registry. Disguised as a legitimate CSS build tool, the malicious package quietly installs a full-featured Remote Access Trojan, or RAT, on developer machines. The attack is subtle, well-crafted, and far more dangerous than it first appears. The infection begins […] The post Windows RAT Uses…",
+      "source": "cybersecuritynews.com"
+    },
+    {
+      "title": "Malicious GST Debit Note Attachment Deploys Remcos RAT Through Multi-Stage Loader",
+      "link": "https://cybersecuritynews.com/malicious-gst-debit-note-attachment-deploys-remcos-rat/",
+      "date": "2026-06-22T20:57:09Z",
+      "description": "A sophisticated phishing campaign is actively targeting users in India by disguising malware as a routine GST debit note. The attack delivers a powerful remote access tool called Remcos RAT through a cleverly constructed multi-stage loader, giving attackers deep and persistent control over infected systems. What makes this threat especially alarming is how the entire […] The post Malicious GST…",
+      "source": "cybersecuritynews.com"
+    },
     {
       "title": "FortiBleed campaign used custom FortiGate sniffer to steal credentials",
       "link": "https://www.bleepingcomputer.com/news/security/fortibleed-campaign-used-custom-fortigate-sniffer-to-steal-credentials/",
@@ -45,20 +80,6 @@
       "source": "cybersecuritynews.com"
     },
     {
-      "title": "AI-Powered iOS Apps Leaking LLM API Credentials Through Network Traffic",
-      "link": "https://cybersecuritynews.com/ai-ios-apps-leaking-llm-credentials/",
-      "date": "2026-06-22T16:21:33Z",
-      "description": "AI-powered iOS applications are increasingly leaking large language model (LLM) API credentials through network traffic, exposing developers to large-scale abuse of their LLM accounts and cloud resources. A recent empirical study of 444 free, LLM-enabled iOS apps from the US App Store found that 282 of them, or 64%, leaked exploitable LLM credentials when their […] The post AI-Powered iOS Apps…",
-      "source": "cybersecuritynews.com"
-    },
-    {
-      "title": "Apple Beats Studio Buds Vulnerability Allows Hackers to Eavesdrop on Users",
-      "link": "https://cybersecuritynews.com/apple-beats-studio-buds-vulnerability/",
-      "date": "2026-06-22T16:17:13Z",
-      "description": "Apple has addressed a high-severity vulnerability in the Beats Studio Buds that could allow nearby attackers to eavesdrop on users via the device’s microphone, even when the earbuds are not actively paired. Apple fixed the Bluetooth vulnerability in Beats Firmware Update 1B211, released on June 16, 2026, addressing a flaw that could be exploited by […] The post Apple Beats Studio Buds…",
-      "source": "cybersecuritynews.com"
-    },
-    {
       "title": "Researchers Detail DifyTap Flaws in Dify That Could Expose AI Chats Across Tenants",
       "link": "https://thehackernews.com/2026/06/researchers-detail-difytap-flaws-in.html",
       "date": "2026-06-22T16:13:28Z",
@@ -73,25 +94,11 @@
       "source": "darkreading.com"
     },
     {
-      "title": "Klue Hack Leads to Data Breach Across Multiple Cybersecurity Companies",
-      "link": "https://cybersecuritynews.com/klue-hack-cybersecurity-companies/",
-      "date": "2026-06-22T16:07:22Z",
-      "description": "A sophisticated supply chain attack on market intelligence platform Klue has compromised Salesforce data across at least nine organizations, including several high-profile cybersecurity firms, with the newly emerged Icarus extortion group claiming responsibility and threatening to release stolen data. The attack began on June 11–12, 2026, when threat actors gained unauthorized access to Klue’s…",
-      "source": "cybersecuritynews.com"
-    },
-    {
       "title": "29-Year-Old Squid Proxy Bug 'Squidbleed' Can Leak Cleartext HTTP Requests",
       "link": "https://thehackernews.com/2026/06/29-year-old-squid-proxy-bug-squidbleed.html",
       "date": "2026-06-22T14:29:46Z",
       "description": "A heap over-read in the Squid web proxy can leak another user's cleartext HTTP request, including any credentials or session tokens it carries, to anyone already allowed to send traffic through the same proxy. The bug traces to a 1997 FTP-parsing change and is still live in Squid's default configuration. Researchers at Calif.io disclosed it in June and named it Squidbleed (",
       "source": "thehackernews.com"
-    },
-    {
-      "title": "A Glimpse into the “Search Your Target” Market for Stolen Credentials",
-      "link": "https://www.bleepingcomputer.com/news/security/a-glimpse-into-the-search-your-target-market-for-stolen-credentials/",
-      "date": "2026-06-22T14:05:15Z",
-      "description": "Attackers no longer need to sift through massive credential dumps. They can pay others to do it for them. Flare explores how an emerging underground market searches stolen credential databases for specific companies, domains, and accounts. [...]",
-      "source": "bleepingcomputer.com"
     },
     {
       "title": "Decades-Old Squid Proxy Flaw ‘Squidbleed’ Can Expose User Data",
@@ -141,13 +148,6 @@
       "date": "2026-06-22T10:03:06Z",
       "description": "The vulnerability exploited by the Usbliter8 exploit cannot be patched and a PoC exploit has been released by researchers. The post New Exploit Bypasses Apple’s Boot Defenses, Affects Millions of iPhones appeared first on SecurityWeek.",
       "source": "securityweek.com"
-    },
-    {
-      "title": "AryStinger botnet infected thousands of D-Link routers worldwide",
-      "link": "https://www.bleepingcomputer.com/news/security/arystinger-botnet-infected-thousands-of-d-link-routers-worldwide/",
-      "date": "2026-06-21T14:14:22Z",
-      "description": "A previously undocumented malware botnet named AryStinger has compromised more than 4,000 outdated routers to turn them into proxies for malicious traffic. [...]",
-      "source": "bleepingcomputer.com"
     },
     {
       "title": "Stressors, AI Forcing Changes to Cybersecurity Teams",
