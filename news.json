@@ -1,34 +1,76 @@
 {
-  "last_updated": "2026-06-23T13:34:55Z",
-  "count": 35,
+  "last_updated": "2026-06-23T16:19:29Z",
+  "count": 30,
   "items": [
     {
-      "title": "Hackers Use Velociraptor, Cloudflare Tunnels, Zoho Assist, and VS Code SSH for Persistence",
-      "link": "https://cybersecuritynews.com/hackers-use-velociraptor-cloudflare-tunnels-zoho-assist/",
-      "date": "2026-06-23T13:33:18Z",
-      "description": "A routine ransomware investigation turned into something far more alarming when security researchers uncovered two separate threat actors quietly sharing the same compromised environment. What started as a single intrusion quickly revealed a far more complex operation involving multiple remote access tools, tunneling software, and legitimate administrative utilities weaponized for long-term…",
+      "title": "Claude Down – A Major Outage Affects Most of the Models",
+      "link": "https://cybersecuritynews.com/claude-down-a-major-outage-affects-most-of-the-models/",
+      "date": "2026-06-23T16:11:27Z",
+      "description": "Anthropic experienced a service disruption on Tuesday that produced elevated error rates across multiple Claude models, according to the company’s official status page. By mid-afternoon UTC the company said a fix had been deployed and that it was monitoring systems for further problems. The incident, logged on status.claude.com as “Elevated error rate across multiple models,” […] The post Claude…",
       "source": "cybersecuritynews.com"
     },
     {
-      "title": "FlutterShell macOS Backdoor Abuses Flutter Framework and WKWebView for Stealthy Attacks",
-      "link": "https://cybersecuritynews.com/fluttershell-macos-backdoor-abuses-flutter-framework/",
-      "date": "2026-06-23T13:26:21Z",
-      "description": "A newly analyzed macOS backdoor called FlutterShell has been quietly targeting Mac users by disguising itself as legitimate productivity apps. It abuses Google’s Flutter app development framework to blend in with real software, making it far harder to detect using traditional security tools. The malware was active between December 2025 and March 2026, with researchers […] The post FlutterShell…",
+      "title": "Data Exposure Flaws Threaten Dify AI Platform Used by 1 Million Apps",
+      "link": "https://www.securityweek.com/data-exposure-flaws-threaten-dify-ai-platform-powering-over-1-million-apps/",
+      "date": "2026-06-23T15:36:24Z",
+      "description": "Attackers could abuse Dify's multi-tenant cloud service to read private chats, preview other tenants' documents, and reach internal APIs. The post Data Exposure Flaws Threaten Dify AI Platform Used by 1 Million Apps appeared first on SecurityWeek.",
+      "source": "securityweek.com"
+    },
+    {
+      "title": "Scattered Spider members plead guilty to hacking Transport for London",
+      "link": "https://www.bleepingcomputer.com/news/security/scattered-spider-members-plead-guilty-to-hacking-transport-for-london/",
+      "date": "2026-06-23T15:31:59Z",
+      "description": "Two members of the 'Scattered Spider' cybercrime group pleaded guilty to hacking the Transport for London (TfL) systems in 2024. [...]",
+      "source": "bleepingcomputer.com"
+    },
+    {
+      "title": "8-Year-Old Samsung KNOX Vulnerability Exposes Galaxy Devices to Kernel Attacks",
+      "link": "https://cybersecuritynews.com/8-year-old-samsung-knox-vulnerability/",
+      "date": "2026-06-23T14:42:49Z",
+      "description": "A critical use-after-free (UAF) vulnerability in Samsung’s proprietary KNOX security subsystem, which has been hidden for over eight years, has been discovered by security research firm LucidBit, potentially exposing hundreds of millions of Galaxy devices to kernel-level memory corruption and complete device takeover. The flaw, patched in Samsung’s January 2026 Android Security Update, resides…",
       "source": "cybersecuritynews.com"
     },
     {
-      "title": "FBI Warns Cybercriminals Use Traffic Distribution Systems to Redirect Users to Fraudulent Websites",
-      "link": "https://cybersecuritynews.com/fbi-warns-cybercriminals-use-traffic-distribution-systems/",
-      "date": "2026-06-23T13:21:27Z",
-      "description": "Cybercriminals have found a clever and largely invisible way to send unsuspecting internet users straight to fake or compromised websites, and the FBI wants the public to know about it. The method involves a technology called a Traffic Distribution System, or TDS, which is normally used by legitimate businesses to manage and route web traffic. […] The post FBI Warns Cybercriminals Use Traffic…",
+      "title": "GitHub Updates actions/checkout to Block Common Pwn Request Attack Patterns",
+      "link": "https://thehackernews.com/2026/06/github-updates-actionscheckout-to-block.html",
+      "date": "2026-06-23T14:22:03Z",
+      "description": "GitHub is moving to strengthen software supply chain security by updating \"actions/checkout\" to block pwn request attacks that exploit the risky use of the \"pull_request_target workflow\" trigger to run malicious code with the workflow's full privileges. Effective June 18, 2026, the latest version of \"actions/checkout,\" the official GitHub action for checking out a repository into the",
+      "source": "thehackernews.com"
+    },
+    {
+      "title": "LastPass Customer Data Exposed in Klue Supply Chain Attack",
+      "link": "https://cybersecuritynews.com/lastpass-customer-data-klue/",
+      "date": "2026-06-23T14:15:52Z",
+      "description": "LastPass has disclosed a supply chain security incident involving its third-party vendor, Klue, that resulted in unauthorized access to customer data within its Salesforce environment. The company confirmed that the breach did not affect its core infrastructure or password vaults. However, it highlights ongoing risks associated with SaaS integrations and OAuth token exposure. The incident […]…",
       "source": "cybersecuritynews.com"
     },
     {
-      "title": "Cordyceps Supply Chain Flaw Impacting Code Repositories at thousands of Organizations",
-      "link": "https://cybersecuritynews.com/cordyceps-supply-chain-flaw-impacting-code-repositories/",
-      "date": "2026-06-23T13:04:03Z",
-      "description": "A newly discovered supply chain flaw is putting thousands of organizations at serious risk. Named Cordyceps after the parasitic fungus known for taking over its hosts, this critical vulnerability quietly burrows into software development pipelines and gives attackers full control of code repositories at some of the biggest companies in the world. The flaw targets […] The post Cordyceps Supply…",
+      "title": "DifyTap Flaws Allow Attackers to Wiretap AI Data Across Tenants – 1M+ Apps Impacted",
+      "link": "https://cybersecuritynews.com/difytap-flaws-wiretap-ai-data-across-tenants/",
+      "date": "2026-06-23T14:12:43Z",
+      "description": "Multiple critical vulnerabilities in Dify could expose sensitive AI data across tenants and potentially impact more than one million applications. Dify, which powers AI workflows, chatbots, and retrieval-augmented generation (RAG) pipelines, is heavily adopted across enterprises including Volvo, Maersk, Panasonic, and Thermo Fisher. With more than 140,000 GitHub stars and over 10 million Docker…",
       "source": "cybersecuritynews.com"
+    },
+    {
+      "title": "Five-Eye Agencies Call for “Whole-of-Organization and Whole-of-Society Response” to Stop Cyber Threats",
+      "link": "https://cybersecuritynews.com/five-eye-agencies-call-stop-cyber-threats/",
+      "date": "2026-06-23T14:10:10Z",
+      "description": "The Five Eyes cyber security agencies have issued a joint warning urging governments, businesses, and critical infrastructure operators to adopt a “whole-of-organization and whole-of-society response” to address rapidly evolving cyber threats driven by artificial intelligence (AI). In a statement released on June 22, 2026, senior leaders from the United States, United Kingdom, Canada, Australia,…",
+      "source": "cybersecuritynews.com"
+    },
+    {
+      "title": "The Exploit Doesn't Exist. You Can Still Prove It Works Against You",
+      "link": "https://www.bleepingcomputer.com/news/security/the-exploit-doesnt-exist-you-can-still-prove-it-works-against-you/",
+      "date": "2026-06-23T14:01:11Z",
+      "description": "Attackers can now weaponize newly disclosed vulnerabilities far faster than most organizations can patch them. Picus Security explains how security teams can validate exploitability before a public exploit even exists. [...]",
+      "source": "bleepingcomputer.com"
+    },
+    {
+      "title": "LastPass confirms data breach in Klue supply chain attack",
+      "link": "https://www.bleepingcomputer.com/news/security/lastpass-confirms-data-breach-in-klue-supply-chain-attack/",
+      "date": "2026-06-23T13:58:25Z",
+      "description": "LastPass announced that hackers accessed customer data from its Salesforce environment after stealing the company's OAuth tokens in the Klue supply chain attack earlier this month. [...]",
+      "source": "bleepingcomputer.com"
     },
     {
       "title": "Eight-Year-Old Samsung KNOX Flaw Exposed Millions of Galaxy Devices to Kernel Attacks",
@@ -43,13 +85,6 @@
       "date": "2026-06-23T12:50:00Z",
       "description": "Carl Froggett combines CISO and CIO. He currently occupies both positions at Deep Instinct. Before then, he was CISO at Citi for almost 17 years. The post CISO Conversations: Carl Froggett – Combining CISO and CIO at Deep Instinct appeared first on SecurityWeek.",
       "source": "securityweek.com"
-    },
-    {
-      "title": "FortiBleed Attackers Turn Firewalls Into Credential Stealers as Heists Persist",
-      "link": "https://www.darkreading.com/cyberattacks-data-breaches/fortibleed-attackers-firewalls-credentials-stealers",
-      "date": "2026-06-23T12:34:54Z",
-      "description": "The threat actors engineered a Golang-based sniffer to target 430,000 FortiGate firewalls and identify 110 million credentials in the ongoing global campaign.",
-      "source": "darkreading.com"
     },
     {
       "title": "Webinar: Why email security teams are drowning in alerts",
@@ -80,20 +115,6 @@
       "source": "thehackernews.com"
     },
     {
-      "title": "OpenAI Refocuses Cybersecurity Efforts on Patching Over Discovery",
-      "link": "https://www.securityweek.com/openai-refocuses-cybersecurity-efforts-on-patching-over-discovery/",
-      "date": "2026-06-23T11:07:02Z",
-      "description": "OpenAI has expanded its Daybreak cybersecurity initiative with a new suite of tools and partnerships. The post OpenAI Refocuses Cybersecurity Efforts on Patching Over Discovery appeared first on SecurityWeek.",
-      "source": "securityweek.com"
-    },
-    {
-      "title": "Hackers Abuse Compromised M365 Accounts to Scale CodeStorm Phishing Operations",
-      "link": "https://cybersecuritynews.com/hackers-abuse-compromised-m365-accounts/",
-      "date": "2026-06-23T10:32:00Z",
-      "description": "Hackers are taking phishing to new levels by abusing legitimate Microsoft 365 accounts to supercharge an operation known as CodeStorm. Instead of building fake infrastructure from scratch, attackers are hijacking real M365 accounts and using them as trusted launching pads. This approach lets malicious emails slip past filters that would normally flag suspicious senders, dramatically […] The post…",
-      "source": "cybersecuritynews.com"
-    },
-    {
       "title": "Malicious npm Packages Pose as PostCSS Tools to Deliver Windows RAT",
       "link": "https://thehackernews.com/2026/06/malicious-npm-packages-pose-as-postcss.html",
       "date": "2026-06-23T08:54:32Z",
@@ -120,62 +141,6 @@
       "date": "2026-06-22T22:42:21Z",
       "description": "An ongoing malware campaign is targeting WhatsApp users in multiple countries with deceptive messages that push VBScript files, leading to remote system access. [...]",
       "source": "bleepingcomputer.com"
-    },
-    {
-      "title": "JaredFromSubway MEV bot hacked in $15 million crypto theft",
-      "link": "https://www.bleepingcomputer.com/news/security/jaredfromsubway-mev-bot-hacked-in-15-million-crypto-theft/",
-      "date": "2026-06-22T21:52:18Z",
-      "description": "The JaredFromSubway Ethereum MEV (Maximal Extractable Value) bot suffered a $15 million loss after an attacker manipulated the opportunity-detection logic by creating fake cryptocurrency trading opportunities. [...]",
-      "source": "bleepingcomputer.com"
-    },
-    {
-      "title": "DifyTap Bugs Let Attackers 'Wiretap' AI Chat Histories",
-      "link": "https://www.darkreading.com/application-security/difytap-bugs-wiretap-ai-chat-histories",
-      "date": "2026-06-22T21:14:11Z",
-      "description": "Four vulnerabilities allow attackers to exploit Dify, a platform for AI application building and management, to silently access and exfiltrate sensitive data.",
-      "source": "darkreading.com"
-    },
-    {
-      "title": "FFmpeg fixes PixelSmash flaw in widely used video decoder",
-      "link": "https://www.bleepingcomputer.com/news/security/ffmpeg-fixes-pixelsmash-flaw-in-widely-used-video-decoder/",
-      "date": "2026-06-22T21:05:01Z",
-      "description": "A newly disclosed FFmpeg flaw dubbed 'PixelSmash' could be exploited for remote code execution on Jellyfin servers under certain conditions, and can also trigger a denial-of-service condition in applications like Kodi, Emby, Nextcloud, PhotoPrism, and OBS Studio. [...]",
-      "source": "bleepingcomputer.com"
-    },
-    {
-      "title": "FortiBleed campaign used custom FortiGate sniffer to steal credentials",
-      "link": "https://www.bleepingcomputer.com/news/security/fortibleed-campaign-used-custom-fortigate-sniffer-to-steal-credentials/",
-      "date": "2026-06-22T20:01:02Z",
-      "description": "Security firm SOCRadar says the large-scale FortiBleed campaign targeting Fortinet FortiGate devices used custom sniffers to harvest authentication secrets from compromised firewalls and steal credentials. [...]",
-      "source": "bleepingcomputer.com"
-    },
-    {
-      "title": "ShapedPlugin WordPress Pro Plugins Backdoored in Supply Chain Attack",
-      "link": "https://thehackernews.com/2026/06/shapedplugin-wordpress-pro-plugins.html",
-      "date": "2026-06-22T18:00:48Z",
-      "description": "Multiple WordPress plugins from ShapedPlugin were compromised in a supply chain attack after unknown threat actors managed to tamper with the official release channels and push backdoor code. \"Attackers compromised the vendor's build and distribution pipeline, injecting backdoor code into Pro plugin releases distributed through official licensed update channels,\" Wordfence said in an analysis",
-      "source": "thehackernews.com"
-    },
-    {
-      "title": "Crypto Heist Fueled by Elaborate Fake Reputation-Boosting Campaign",
-      "link": "https://www.darkreading.com/cyberattacks-data-breaches/crypto-heist-fake-reputation-boosting-campaign",
-      "date": "2026-06-22T16:10:10Z",
-      "description": "Attackers are using multiple online channels — including GitHub, YouTube, and VirusTotal — to build an illusion of trust to spread a cross-platform clipboard hijacker.",
-      "source": "darkreading.com"
-    },
-    {
-      "title": "He Thought He Was Secure; His Phone Number Got Stolen Anyway",
-      "link": "https://www.darkreading.com/cyber-risk/how-a-sim-swap-attack-led-to-a-near-account-takeover",
-      "date": "2026-06-22T14:12:11Z",
-      "description": "Threat actors can easily steal one-time passwords sent by text when they conduct a SIM swap attack. This can lead to account takeovers, so users must layer up their security measures.",
-      "source": "darkreading.com"
-    },
-    {
-      "title": "Stressors, AI Forcing Changes to Cybersecurity Teams",
-      "link": "https://www.darkreading.com/cybersecurity-operations/stressors-ai-changes-cybersecurity-teams",
-      "date": "2026-06-19T13:00:00Z",
-      "description": "As threats proliferate and AI complicates cybersecurity, CISOs say the job is getting harder, but more companies still want cybersecurity expertise, if even on a part-time basis.",
-      "source": "darkreading.com"
     },
     {
       "title": "ZDI-CAN-31222: Linux",
