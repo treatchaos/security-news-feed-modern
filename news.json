@@ -1,13 +1,34 @@
 {
-  "last_updated": "2026-06-24T18:26:49Z",
-  "count": 30,
+  "last_updated": "2026-06-24T20:26:56Z",
+  "count": 35,
   "items": [
+    {
+      "title": "Malicious Edge Extension Uses Chrome Native Messaging to Execute Code on Victim Systems",
+      "link": "https://cybersecuritynews.com/malicious-edge-extension-uses-chrome-native-messaging/",
+      "date": "2026-06-24T19:36:34Z",
+      "description": "A new and deceptive malware campaign has been uncovered, one that turns an everyday browser extension into a dangerous tool for system compromise. Security researchers have identified a threat that uses a malicious Microsoft Edge extension to break out of the browser’s built-in security boundaries, giving attackers direct access to a victim’s computer. The campaign […] The post Malicious Edge…",
+      "source": "cybersecuritynews.com"
+    },
+    {
+      "title": "Do CISOs Need a Code of Ethics?",
+      "link": "https://www.darkreading.com/cybersecurity-operations/ciso-code-of-ethics",
+      "date": "2026-06-24T19:10:17Z",
+      "description": "Kickbacks, no-show jobs, \"dirty\" VCs, and shelf ware — industry expert Robert \"RSnake\" Hansen explains why he thinks its time for a CISO code of ethics to ensure cybersecurity bosses aren't engaged in self-dealing that could risk enterprise, and even national, security.",
+      "source": "darkreading.com"
+    },
     {
       "title": "When Information Becomes the Attack Surface – Understanding AI Agent Traps",
       "link": "https://www.securityweek.com/when-information-becomes-the-attack-surface-understanding-ai-agent-traps/",
       "date": "2026-06-24T17:37:57Z",
       "description": "From hidden content injections to cognitive state poisoning, attackers are turning trusted data sources into traps for autonomous AI. The post When Information Becomes the Attack Surface – Understanding AI Agent Traps appeared first on SecurityWeek.",
       "source": "securityweek.com"
+    },
+    {
+      "title": "EvilTokens Hides Its Attack Flow in the Browser, Exposing Static Analysis Gaps",
+      "link": "https://cybersecuritynews.com/eviltokens-hides-its-attack-flow-in-the-browser/",
+      "date": "2026-06-24T17:31:33Z",
+      "description": "EvilTokens is drawing attention in phishing investigations for abusing Microsoft Device Code authentication and hiding key parts of its attack flow from static URL analysis. In a recent analysis, the phishing page was found encrypted in the initial HTML response and appeared only after browser-side decryption rendered it in the DOM. The case shows why analysts need browser-level visibility to…",
+      "source": "cybersecuritynews.com"
     },
     {
       "title": "CISA Warns Critical Lantronix EDS5000 Flaw Is Being Actively Exploited",
@@ -17,6 +38,13 @@
       "source": "thehackernews.com"
     },
     {
+      "title": "Hackers Exploiting Cisco Catalyst SD-WAN Manager 0-Day Flaw to Gain Root-Level Access",
+      "link": "https://cybersecuritynews.com/cisco-catalyst-sd-wan-manager-0-day/",
+      "date": "2026-06-24T17:03:41Z",
+      "description": "A sophisticated threat actor is actively targeting SD-WAN infrastructure at a major service provider. The campaign culminated in the exploitation of a zero-day privilege escalation vulnerability, now tracked as CVE-2026-20245 (CVSS 7.8), in Cisco Catalyst SD-WAN Manager, enabling attackers to silently escalate from a compromised administrative account to full root-level access. CVE-2026-20245…",
+      "source": "cybersecuritynews.com"
+    },
+    {
       "title": "More Malicious OpenClaw Skills Threaten AI Supply Chain",
       "link": "https://www.darkreading.com/cyber-risk/malicious-openclaw-skills-clawhub-threaten-ai-supply-chain",
       "date": "2026-06-24T16:56:49Z",
@@ -24,11 +52,25 @@
       "source": "darkreading.com"
     },
     {
+      "title": "Authorities Disrupt Stealer Malware StealC and Amadey Infrastructure in Global Operation",
+      "link": "https://cybersecuritynews.com/stealc-infrastructure-disrupted/",
+      "date": "2026-06-24T16:04:19Z",
+      "description": "Europol and law enforcement partners across multiple countries have dealt a significant blow to the cybercriminal ecosystems powering StealC, Amadey, and SocGholish malware, three widely deployed tools in the modern “cybercrime-as-a-service” supply chain. Announced as part of Operation Endgame, the coordinated action dismantled key infrastructure enabling ransomware deployment, credential theft,…",
+      "source": "cybersecuritynews.com"
+    },
+    {
       "title": "Amadey and StealC Malware Network Disrupted, 27M Stolen Credentials Recovered",
       "link": "https://thehackernews.com/2026/06/amadey-and-stealc-malware-network.html",
       "date": "2026-06-24T15:59:50Z",
       "description": "A coordinated law enforcement operation, in partnership with private sector companies, including Bitdefender, Bitsight, ESET, and Microsoft, has resulted in the takedown of criminal infrastructure powering Amadey and StealC. \"The main common goal was to disrupt the 'assembly lines' cybercriminals use to launch ransomware, financial fraud, and attacks on critical infrastructure,\" Europol said in",
       "source": "thehackernews.com"
+    },
+    {
+      "title": "Fake Income Tax Assessment Notice Delivers RAT-Like Malware to Windows Users",
+      "link": "https://cybersecuritynews.com/fake-income-tax-assessment-notice-delivers-rat-like-malware/",
+      "date": "2026-06-24T15:59:49Z",
+      "description": "Cybercriminals are now using fake government tax notices to push dangerous malware onto Windows computers, and the tactic is proving alarmingly effective. A newly uncovered campaign targets users in India by impersonating the Income Tax Department, tricking victims into downloading what appears to be an official assessment order. The moment someone takes the bait, a […] The post Fake Income Tax…",
+      "source": "cybersecuritynews.com"
     },
     {
       "title": "Microsoft and Allies Smash Shared Infrastructure of Amadey and StealC Malware",
@@ -147,13 +189,6 @@
       "link": "https://www.darkreading.com/application-security/cordyceps-malicious-pull-requests-developer-workflows",
       "date": "2026-06-23T19:16:42Z",
       "description": "The CI/CD workflow weakness affects Microsoft's Azure Sentinel, Google's AI Agent Development Kit, Apache's Doris analytics database, Cloudflare's Workers SDK, and Python Software Foundation's Black.",
-      "source": "darkreading.com"
-    },
-    {
-      "title": "SocGholish Takedown Highlights Malicious TDS Threats",
-      "link": "https://www.darkreading.com/cyber-risk/socgholish-takedown-malicious-tds-threats",
-      "date": "2026-06-23T13:51:33Z",
-      "description": "SocGholish uses traffic distribution systems (TDSs) to provide initial access into victims' networks for cybercrime groups such as the notorious Evil Corp.",
       "source": "darkreading.com"
     },
     {
