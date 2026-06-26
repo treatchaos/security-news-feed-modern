@@ -1,7 +1,77 @@
 {
-  "last_updated": "2026-06-26T14:01:10Z",
+  "last_updated": "2026-06-26T16:55:01Z",
   "count": 35,
   "items": [
+    {
+      "title": "Amazon Q Vulnerability Let Attackers Execute Code and Access Sensitive Cloud Environments",
+      "link": "https://cybersecuritynews.com/amazon-q-vulnerability/",
+      "date": "2026-06-26T16:42:54Z",
+      "description": "A high-severity vulnerability in the Amazon Q Developer Extension for Visual Studio Code (VS Code), Amazon’s AI-powered coding assistant. Tracked as CVE-2026-12957 and CVE-2026-12958 and disclosed by Wiz Research, the flaws allowed attackers to achieve arbitrary code execution and cloud credential theft simply by having a developer open a malicious repository. The root cause was […] The post…",
+      "source": "cybersecuritynews.com"
+    },
+    {
+      "title": "Chinese-Speaking APT Deploys New TinyRCT Backdoor in Southeast Asia Campaign",
+      "link": "https://thehackernews.com/2026/06/chinese-speaking-apt-deploys-new.html",
+      "date": "2026-06-26T16:21:25Z",
+      "description": "A Chinese-speaking advanced persistent threat (APT) actor has been linked to a new custom backdoor called TinyRCT as part of cyber attacks aimed at government entities and critical infrastructure in Southeast Asia. The activity, particularly aimed at state-owned enterprises in the energy and government sectors, has been attributed to a threat actor called CL-STA-1062, which Palo Alto Networks",
+      "source": "thehackernews.com"
+    },
+    {
+      "title": "New Linux pedit COW Exploit Allows Attackers to Gain System Root Access",
+      "link": "https://cybersecuritynews.com/linux-pedit-cow-exploit/",
+      "date": "2026-06-26T16:10:02Z",
+      "description": "A newly disclosed Linux kernel vulnerability combining a Copy-on-Write (COW) page-cache corruption flaw with the net/sched subsystem’s act_pedit component is enabling unprivileged local attackers to escalate privileges to full root access on several major Linux distributions. The exploit, dubbed packet_edit_meme, has been verified in June 2026 against actively maintained enterprise and consumer…",
+      "source": "cybersecuritynews.com"
+    },
+    {
+      "title": "AI Won't Wipe-Out Entry-Level Cybersecurity Jobs",
+      "link": "https://www.darkreading.com/cybersecurity-operations/ai-wont-wipe-out-entry-level-cybersecurity-jobs",
+      "date": "2026-06-26T16:00:00Z",
+      "description": "Instead of eliminating jobs for early-career cyber pros, AI is creating new opportunities for candidates with strong human decision-making skills.",
+      "source": "darkreading.com"
+    },
+    {
+      "title": "Amazon Q Flaw Enabled Cloud Credential Theft via Malicious Repositories",
+      "link": "https://www.securityweek.com/amazon-q-flaw-enabled-cloud-credential-theft-via-malicious-repositories/",
+      "date": "2026-06-26T15:23:46Z",
+      "description": "AWS has patched the vulnerability and published its own advisory to inform customers about the potential impact. The post Amazon Q Flaw Enabled Cloud Credential Theft via Malicious Repositories appeared first on SecurityWeek.",
+      "source": "securityweek.com"
+    },
+    {
+      "title": "More Klue Breach Victims Identified as Hackers Get Hacked",
+      "link": "https://www.securityweek.com/more-klue-breach-victims-identified-as-hackers-get-hacked/",
+      "date": "2026-06-26T15:01:33Z",
+      "description": "Roughly two dozen companies have notified their customers of the Klue-Salesforce incident impact. The post More Klue Breach Victims Identified as Hackers Get Hacked appeared first on SecurityWeek.",
+      "source": "securityweek.com"
+    },
+    {
+      "title": "In Other News: Chinese Mythos-Like AI, Tata Electronics Breach, Snyk Layoffs",
+      "link": "https://www.securityweek.com/in-other-news-chinese-mythos-like-ai-tata-electronics-breach-snyk-layoffs/",
+      "date": "2026-06-26T14:30:00Z",
+      "description": "Other noteworthy stories that might have slipped under the radar: Russia used Cellebrite to hack activist’s phone, Five Eyes issue urgent AI threat warning, macOS Gaslight backdoor, Scattered Spider guilty pleas. The post In Other News: Chinese Mythos-Like AI, Tata Electronics Breach, Snyk Layoffs appeared first on SecurityWeek.",
+      "source": "securityweek.com"
+    },
+    {
+      "title": "Your First GRC Agent: A Red Teamer's Walkthrough",
+      "link": "https://www.bleepingcomputer.com/news/security/your-first-grc-agent-a-red-teamers-walkthrough/",
+      "date": "2026-06-26T14:01:11Z",
+      "description": "AI won't replace GRC analysts, but it can eliminate much of the repetitive work they do. Anecdotes walks through building an agent that continuously monitors controls, identifies evidence gaps, and opens remediation tasks. [...]",
+      "source": "bleepingcomputer.com"
+    },
+    {
+      "title": "New Linux pedit COW Exploit Enables Root Access by Poisoning Cached Binaries",
+      "link": "https://thehackernews.com/2026/06/new-linux-pedit-cow-exploit-enables.html",
+      "date": "2026-06-26T13:57:55Z",
+      "description": "A flaw in the Linux kernel's traffic-control subsystem can let a local unprivileged user gain root on affected systems. CVE-2026-46331, nicknamed \"pedit COW,\" is an out-of-bounds write in the packet-editing action (act_pedit) that corrupts shared page-cache memory. A public, working exploit appeared within a day of the CVE assignment on June 16. Red Hat rates the flaw as",
+      "source": "thehackernews.com"
+    },
+    {
+      "title": "Amazon Q Developer Flaw Could Let Malicious Repos Run Code via MCP Configs",
+      "link": "https://thehackernews.com/2026/06/amazon-q-developer-flaw-could-let.html",
+      "date": "2026-06-26T13:53:00Z",
+      "description": "A high-severity flaw in Amazon Q Developer let a malicious repository run commands and steal a developer's cloud credentials. The path was short: a developer opens the repo, trusts the workspace, and Amazon Q does the rest. Amazon has patched it. Tracked as CVE-2026-12957 (CVSS 8.5), the bug sat in how Amazon's AI coding assistant handled Model Context Protocol (MCP) servers. Wiz",
+      "source": "thehackernews.com"
+    },
     {
       "title": "New Bluekit Phishing-as-a-Service Bypasses MFA to Steal Microsoft Login Credentials",
       "link": "https://cybersecuritynews.com/bluekit-paas-bypasses-mfa/",
@@ -22,13 +92,6 @@
       "date": "2026-06-26T13:27:05Z",
       "description": "Water utilities across the United States and Europe are under growing pressure as hackers continue to find easy ways in. Nation-state actors and affiliated groups have been quietly exploiting internet-facing control systems and weak login credentials to access water and wastewater infrastructure — systems that millions of people depend on every day. The threat has […] The post Hackers Exploit…",
       "source": "cybersecuritynews.com"
-    },
-    {
-      "title": "New Linux pedit COW Exploit Enables Root Access by Poisoning Cached Binaries",
-      "link": "https://thehackernews.com/2026/06/new-linux-pedit-cow-exploit-enables.html",
-      "date": "2026-06-26T13:00:41Z",
-      "description": "A flaw in the Linux kernel's traffic-control subsystem can let a local unprivileged user gain root on affected systems. CVE-2026-46331, nicknamed \"pedit COW,\" is an out-of-bounds write in the packet-editing action (act_pedit) that corrupts shared page-cache memory. A public, working exploit appeared within a day of the CVE assignment on June 16. Red Hat rates the flaw as",
-      "source": "thehackernews.com"
     },
     {
       "title": "Thanks for Crushing the Submissions Inbox. We're Trying to Keep Up",
@@ -59,31 +122,10 @@
       "source": "thehackernews.com"
     },
     {
-      "title": "Hackers Leveraged Shopify Oder-Tracking App Shop to Push Fake Invoices",
-      "link": "https://cybersecuritynews.com/hackers-leveraged-shopify-oder-tracking-app-shop/",
-      "date": "2026-06-26T11:55:21Z",
-      "description": "Hackers are no longer waiting in your inbox. A newly identified scam technique places fake invoices directly inside shopping app order histories, making them feel more credible than a typical phishing email. Researchers have observed fraudulent receipts appearing inside the Shop app, the popular order-tracking application from Shopify, catching users off guard in a space […] The post Hackers…",
-      "source": "cybersecuritynews.com"
-    },
-    {
       "title": "New DirtyClone Linux Kernel Flaw Lets Local Users Gain Root via Cloned Packets",
       "link": "https://thehackernews.com/2026/06/new-dirtyclone-linux-kernel-flaw-lets.html",
       "date": "2026-06-26T11:51:35Z",
       "description": "DirtyClone is a new Linux kernel privilege escalation in the DirtyFrag family. JFrog Security Research published a working exploit walkthrough for the flaw on June 25, the first public demonstration for this variant. Tracked as CVE-2026-43503 (CVSS 8.8), it lets a local user corrupt file-backed memory through a cloned network packet and gain root. The patch landed in",
-      "source": "thehackernews.com"
-    },
-    {
-      "title": "Nikkei Warns of Japan’s Ground Self-Defense Force Used USB Drives Infected with a China-linked Malware",
-      "link": "https://cybersecuritynews.com/nikkei-warns-of-japans-ground-self-defense-force-used-usb-drives/",
-      "date": "2026-06-26T11:39:35Z",
-      "description": "A serious cybersecurity breach has come to light in Japan, where the country’s Ground Self-Defense Force (JGSDF) unknowingly used malware-infected USB drives on computers connected to classified military networks. The incident lasted for nearly a year before anyone noticed. What makes this case especially alarming is not just the breach itself, but the fact that […] The post Nikkei Warns of…",
-      "source": "cybersecuritynews.com"
-    },
-    {
-      "title": "Guardian Agents: The Next Layer of Identity Governance",
-      "link": "https://thehackernews.com/2026/06/guardian-agents-next-layer-of-identity.html",
-      "date": "2026-06-26T11:30:00Z",
-      "description": "AI agents are moving through enterprise environments, inheriting permissions, traversing systems, and executing decisions at machine speed with minimal oversight. The identity infrastructure built to govern human access wasn't designed for autonomous actors, and the gap between what enterprises are deploying and what their governance programs actually cover is widening fast. This guide breaks",
       "source": "thehackernews.com"
     },
     {
@@ -94,32 +136,39 @@
       "source": "securityweek.com"
     },
     {
-      "title": "Miasma Malware Targets npm Packages and GitHub Actions in Supply Chain Attack",
-      "link": "https://thehackernews.com/2026/06/miasma-malware-targets-npm-packages-and.html",
-      "date": "2026-06-26T11:05:45Z",
-      "description": "Cybersecurity researchers have flagged yet another evolution of the supply chain attack linked to the Mini Shai-Hulud, Miasma, and Hades malware family that has compromised a new set of npm packages, even as it has propagated to the Go ecosystem. \"The latest activity includes malicious npm releases affecting LeoPlatform and RStreams packages, GitHub Actions workflow abuse, and a related Go",
-      "source": "thehackernews.com"
+      "title": "ZDI-CAN-30087: Wibu-Systems",
+      "link": "http://www.zerodayinitiative.com/advisories/upcoming/",
+      "date": "2026-06-26T05:00:00Z",
+      "description": "A CVSS score 3.8 AV:L/AC:L/PR:L/UI:N/S:C/C:L/I:N/A:N severity vulnerability discovered by 'haro001' was reported to the affected vendor on: 2026-06-26, 0 days ago. The vendor is given until 2026-10-24 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
+      "source": "zerodayinitiative.com"
     },
     {
-      "title": "$3 Million Reportedly Stolen in Polymarket Hack",
-      "link": "https://www.securityweek.com/3-million-reportedly-stolen-in-polymarket-hack/",
-      "date": "2026-06-26T09:47:35Z",
-      "description": "The decentralized prediction market said hackers targeted some of its users through a compromise of a third-party vendor. The post $3 Million Reportedly Stolen in Polymarket Hack appeared first on SecurityWeek.",
-      "source": "securityweek.com"
+      "title": "ZDI-CAN-29934: Quest",
+      "link": "http://www.zerodayinitiative.com/advisories/upcoming/",
+      "date": "2026-06-26T05:00:00Z",
+      "description": "A CVSS score 8.2 AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:L severity vulnerability discovered by '06fe5fd2bc53027c4a3b7e395af0b850e7b8a044' was reported to the affected vendor on: 2026-06-26, 0 days ago. The vendor is given until 2026-10-24 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
+      "source": "zerodayinitiative.com"
     },
     {
-      "title": "Russian APT Deploys ‘StockStay’ Backdoor Against Ukrainian Targets",
-      "link": "https://www.securityweek.com/russian-apt-deploys-stockstay-backdoor-against-ukrainian-targets/",
-      "date": "2026-06-26T08:55:08Z",
-      "description": "Turla has been using the backdoor against government and military organizations in Ukraine for espionage. The post Russian APT Deploys ‘StockStay’ Backdoor Against Ukrainian Targets appeared first on SecurityWeek.",
-      "source": "securityweek.com"
+      "title": "ZDI-CAN-31152: LibreOffice",
+      "link": "http://www.zerodayinitiative.com/advisories/upcoming/",
+      "date": "2026-06-26T05:00:00Z",
+      "description": "A CVSS score 7.8 AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H severity vulnerability discovered by 'truff' was reported to the affected vendor on: 2026-06-26, 0 days ago. The vendor is given until 2026-10-24 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
+      "source": "zerodayinitiative.com"
     },
     {
-      "title": "First-Ever Exploitation of PTC Windchill Vulnerability Discovered in the Wild",
-      "link": "https://www.securityweek.com/first-ever-exploitation-of-ptc-windchill-vulnerability-discovered-in-the-wild/",
-      "date": "2026-06-26T08:15:21Z",
-      "description": "CISA has added the remote code execution flaw CVE-2026-12569 to its Known Exploited Vulnerabilities catalog. The post First-Ever Exploitation of PTC Windchill Vulnerability Discovered in the Wild appeared first on SecurityWeek.",
-      "source": "securityweek.com"
+      "title": "ZDI-CAN-30236: Samsung",
+      "link": "http://www.zerodayinitiative.com/advisories/upcoming/",
+      "date": "2026-06-26T05:00:00Z",
+      "description": "A CVSS score 7.8 AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H severity vulnerability discovered by 'Michael DePlante (@izobashi) of TrendAI Zero Day Initiative' was reported to the affected vendor on: 2026-06-26, 0 days ago. The vendor is given until 2026-10-24 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
+      "source": "zerodayinitiative.com"
+    },
+    {
+      "title": "ZDI-CAN-31973: Adobe",
+      "link": "http://www.zerodayinitiative.com/advisories/upcoming/",
+      "date": "2026-06-26T05:00:00Z",
+      "description": "A CVSS score 7.8 AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H severity vulnerability discovered by 'Brandon Evans of TrendAI Zero Day Initiative' was reported to the affected vendor on: 2026-06-26, 0 days ago. The vendor is given until 2026-10-24 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
+      "source": "zerodayinitiative.com"
     },
     {
       "title": "Anthropic is testing desktop-like Claude Cowork for mobile",
@@ -150,13 +199,6 @@
       "source": "darkreading.com"
     },
     {
-      "title": "Russian APT 'Gamaredon' Upgrades Its Arsenal, Requiring New Defenses",
-      "link": "https://www.darkreading.com/threat-intelligence/russia-apt-gamaredon-arsenal-defense",
-      "date": "2026-06-25T21:12:01Z",
-      "description": "The FSB state-sponsored operation has gotten a lot better at loading its malware and hiding its servers.",
-      "source": "darkreading.com"
-    },
-    {
       "title": "Order-tracking app Shop abused to push callback phishing attacks",
       "link": "https://www.bleepingcomputer.com/news/security/order-tracking-app-shop-abused-to-push-callback-phishing-attacks/",
       "date": "2026-06-25T19:45:48Z",
@@ -169,48 +211,6 @@
       "date": "2026-06-25T18:29:20Z",
       "description": "Microsoft has quietly extended its free Windows 10 Extended Security Updates (ESU) program for consumers by an additional year, allowing enrolled devices to continue receiving security updates until October 12, 2027. [...]",
       "source": "bleepingcomputer.com"
-    },
-    {
-      "title": "New macOS malware embeds fake errors to confuse AI analysis tools",
-      "link": "https://www.bleepingcomputer.com/news/security/new-macos-malware-embeds-fake-errors-to-confuse-ai-analysis-tools/",
-      "date": "2026-06-25T16:23:19Z",
-      "description": "A newly discovered macOS malware dubbed \"Gaslight\" is designed to confuse AI-assisted malware analysis tools by hiding prompt injection strings and fake debugging data within the executable. [...]",
-      "source": "bleepingcomputer.com"
-    },
-    {
-      "title": "ZDI-CAN-32035: Apache",
-      "link": "http://www.zerodayinitiative.com/advisories/upcoming/",
-      "date": "2026-06-25T05:00:00Z",
-      "description": "A CVSS score 5.8 AV:N/AC:H/PR:N/UI:R/S:C/C:L/I:L/A:L severity vulnerability discovered by 'Minh Giang (@itscysamu) and Nicholas Zubrisky (@NZubrisky) of TrendAI Zero Day Initiative' was reported to the affected vendor on: 2026-06-25, 1 days ago. The vendor is given until 2026-10-23 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a…",
-      "source": "zerodayinitiative.com"
-    },
-    {
-      "title": "ZDI-CAN-29751: Oracle",
-      "link": "http://www.zerodayinitiative.com/advisories/upcoming/",
-      "date": "2026-06-25T05:00:00Z",
-      "description": "A CVSS score 7.5 AV:L/AC:H/PR:H/UI:N/S:C/C:H/I:H/A:H severity vulnerability discovered by 'Team Amazone@229' was reported to the affected vendor on: 2026-06-25, 1 days ago. The vendor is given until 2026-10-23 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
-      "source": "zerodayinitiative.com"
-    },
-    {
-      "title": "ZDI-CAN-31419: Linux",
-      "link": "http://www.zerodayinitiative.com/advisories/upcoming/",
-      "date": "2026-06-25T05:00:00Z",
-      "description": "A CVSS score 7.5 AV:L/AC:H/PR:H/UI:N/S:C/C:H/I:H/A:H severity vulnerability discovered by '@TristanInSec' was reported to the affected vendor on: 2026-06-25, 1 days ago. The vendor is given until 2026-10-23 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
-      "source": "zerodayinitiative.com"
-    },
-    {
-      "title": "ZDI-CAN-31527: Linux",
-      "link": "http://www.zerodayinitiative.com/advisories/upcoming/",
-      "date": "2026-06-25T05:00:00Z",
-      "description": "A CVSS score 8.8 AV:L/AC:L/PR:L/UI:N/S:C/C:H/I:H/A:H severity vulnerability discovered by 'Sajeeb Lohani' was reported to the affected vendor on: 2026-06-25, 1 days ago. The vendor is given until 2026-10-23 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
-      "source": "zerodayinitiative.com"
-    },
-    {
-      "title": "ZDI-CAN-31417: Linux",
-      "link": "http://www.zerodayinitiative.com/advisories/upcoming/",
-      "date": "2026-06-25T05:00:00Z",
-      "description": "A CVSS score 7.5 AV:L/AC:H/PR:H/UI:N/S:C/C:H/I:H/A:H severity vulnerability discovered by 'GangMin Kim' was reported to the affected vendor on: 2026-06-25, 1 days ago. The vendor is given until 2026-10-23 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
-      "source": "zerodayinitiative.com"
     },
     {
       "title": "Student Loan Breach Exposes 2.5M Records",
