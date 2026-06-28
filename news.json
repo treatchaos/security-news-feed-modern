@@ -1,7 +1,14 @@
 {
-  "last_updated": "2026-06-28T13:13:56Z",
-  "count": 30,
+  "last_updated": "2026-06-28T15:10:46Z",
+  "count": 35,
   "items": [
+    {
+      "title": "Data breach exposes up to 14.2 million email logins at six ISPs",
+      "link": "https://www.bleepingcomputer.com/news/security/data-breach-exposes-up-to-142-million-email-logins-at-six-isps/",
+      "date": "2026-06-28T14:13:46Z",
+      "description": "Japanese telecommunications operator KDDI Corporation disclosed a data breach where threat actors gained access to one of its email systems used by five other internet service providers (ISPs) in the country. [...]",
+      "source": "bleepingcomputer.com"
+    },
     {
       "title": "Ukraine Says Russian Intelligence Used Fake Support Texts to Steal Messaging Credentials",
       "link": "https://thehackernews.com/2026/06/ukraine-says-russian-intelligence-used.html",
@@ -36,6 +43,20 @@
       "date": "2026-06-27T11:48:05Z",
       "description": "Rising threats from third-party actors are forcing institutions to play defense to protect student data from ransomware and other attacks.",
       "source": "darkreading.com"
+    },
+    {
+      "title": "Anthropic Confirms Claude Mythos 5 Redeployment for US Critical Infrastructure Organizations",
+      "link": "https://cybersecuritynews.com/anthropic-claude-mythos-5/",
+      "date": "2026-06-27T01:08:39Z",
+      "description": "Anthropic has confirmed that Claude Mythos 5, its most powerful AI cybersecurity model, will be redeployed to a select set of U.S. organizations responsible for operating and defending critical infrastructure, following a government-led review process that began on June 12, 2026. Claude Mythos first made headlines in April 2026 when Anthropic described it as a […] The post Anthropic Confirms…",
+      "source": "cybersecuritynews.com"
+    },
+    {
+      "title": "New Bucket Hijacking Attack Allows Hackers to Reroute Cloud Data Streams to External Storage",
+      "link": "https://cybersecuritynews.com/bucket-hijacking-attack/",
+      "date": "2026-06-27T00:46:38Z",
+      "description": "A critical cloud storage attack technique dubbed “bucket hijacking” a method that enables threat actors to silently redirect an organization’s active cloud data streams, including audit logs and telemetry, into attacker-controlled external storage buckets across major cloud platforms. The technique has been confirmed to affect Google Cloud, Amazon Web Services (AWS), and Microsoft Azure, with…",
+      "source": "cybersecuritynews.com"
     },
     {
       "title": "FBI: Russian hackers now target Signal backup recovery keys",
@@ -80,18 +101,25 @@
       "source": "bleepingcomputer.com"
     },
     {
-      "title": "Cybersecurity firms targeted by fraudulent OpenAI organization invites",
-      "link": "https://www.bleepingcomputer.com/news/security/cybersecurity-firms-targeted-by-fraudulent-openai-organization-invites/",
-      "date": "2026-06-26T17:49:07Z",
-      "description": "Threat actors are creating OpenAI tenants that impersonate legitimate companies and inviting employees to join them, in what appears to be a ploy to trick targets into submitting sensitive company information in chats and projects. [...]",
-      "source": "bleepingcomputer.com"
-    },
-    {
       "title": "Cisco Adds NHI to Security Stack With Astrix, WideField Acquisitions",
       "link": "https://www.darkreading.com/identity-access-management-security/cisco-adds-nhi-security-stack-with-astrix-widefield",
       "date": "2026-06-26T17:31:04Z",
       "description": "Cisco joins a growing list of security platform providers that are betting that securing the agentic workforce means turning identity into the primary control plane.",
       "source": "darkreading.com"
+    },
+    {
+      "title": "New DirtyClone Linux Vulnerability Allows Attackers to Gain Root Access Via Cloned Packets",
+      "link": "https://cybersecuritynews.com/dirtyclone-linux-vulnerability/",
+      "date": "2026-06-26T17:19:13Z",
+      "description": "A new Linux kernel local privilege escalation vulnerability, dubbed “DirtyClone” (CVE-2026-43503), that allows unprivileged local users to gain full root access by manipulating cloned network packets through the XFRM/IPsec subsystem, all without leaving a trace in kernel logs or audit records. DirtyClone is a high-severity variant in the DirtyFrag vulnerability family, a class of Linux […] The…",
+      "source": "cybersecuritynews.com"
+    },
+    {
+      "title": "Amazon Q Vulnerability Let Attackers Execute Code and Access Sensitive Cloud Environments",
+      "link": "https://cybersecuritynews.com/amazon-q-vulnerability/",
+      "date": "2026-06-26T16:42:54Z",
+      "description": "A high-severity vulnerability in the Amazon Q Developer Extension for Visual Studio Code (VS Code), Amazon’s AI-powered coding assistant. Tracked as CVE-2026-12957 and CVE-2026-12958 and disclosed by Wiz Research, the flaws allowed attackers to achieve arbitrary code execution and cloud credential theft simply by having a developer open a malicious repository. The root cause was […] The post…",
+      "source": "cybersecuritynews.com"
     },
     {
       "title": "New Initiative Tackles Security for End-of-Life Open Source Software",
@@ -106,6 +134,13 @@
       "date": "2026-06-26T16:21:25Z",
       "description": "A Chinese-speaking advanced persistent threat (APT) actor has been linked to a new custom backdoor called TinyRCT as part of cyber attacks aimed at government entities and critical infrastructure in Southeast Asia. The activity, particularly aimed at state-owned enterprises in the energy and government sectors, has been attributed to a threat actor called CL-STA-1062, which Palo Alto Networks",
       "source": "thehackernews.com"
+    },
+    {
+      "title": "New Linux pedit COW Exploit Allows Attackers to Gain System Root Access",
+      "link": "https://cybersecuritynews.com/linux-pedit-cow-exploit/",
+      "date": "2026-06-26T16:10:02Z",
+      "description": "A newly disclosed Linux kernel vulnerability combining a Copy-on-Write (COW) page-cache corruption flaw with the net/sched subsystem’s act_pedit component is enabling unprivileged local attackers to escalate privileges to full root access on several major Linux distributions. The exploit, dubbed packet_edit_meme, has been verified in June 2026 against actively maintained enterprise and consumer…",
+      "source": "cybersecuritynews.com"
     },
     {
       "title": "AI Won't Wipe-Out Entry-Level Cybersecurity Jobs",
