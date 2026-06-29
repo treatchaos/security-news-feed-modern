@@ -1,17 +1,167 @@
 {
-  "last_updated": "2026-06-29T12:56:50Z",
+  "last_updated": "2026-06-29T16:34:13Z",
   "retention_days": 90,
-  "count": 3446,
+  "count": 3450,
   "items": [
     {
-      "id": "ba36c34374c93c7eb9daffc2270086d2fd70cda2",
-      "title": "Black Hat USA",
-      "link": "https://www.darkreading.com/events/black-hat-usa",
-      "date": "2026-08-01T11:00:00Z",
-      "description": "",
-      "source": "darkreading.com",
-      "first_seen": "2026-03-31T15:58:29Z",
-      "last_seen": "2026-03-31T21:28:52Z"
+      "id": "a553e2181d9ba7aeae332a5d3e0a154123529455",
+      "title": "Public PoC Released for Deserialization RCE Vulnerability in Splunk Secure Gateway",
+      "link": "https://cybersecuritynews.com/splunk-secure-gateway-deserialization-rce-vulnerability/",
+      "date": "2026-06-29T16:18:17Z",
+      "description": "A public proof-of-concept (PoC) exploit has been released for CVE-2026-20251, a high-severity remote code execution (RCE) vulnerability affecting Splunk Secure Gateway (SSG). The flaw, carrying a CVSS score of 8.8, allows a low-privileged authenticated attacker to execute arbitrary code on the Splunk host server without requiring admin or power-level roles. CVE-2026-20251 resides in Splunk…",
+      "source": "cybersecuritynews.com",
+      "first_seen": "2026-06-29T16:34:13Z",
+      "last_seen": "2026-06-29T16:34:13Z"
+    },
+    {
+      "id": "b66f50ebe76c75a347143c45f4900bebcc686bc6",
+      "title": "WhatsApp is Finally Getting Usernames to Help Keep Phone Numbers Private",
+      "link": "https://thehackernews.com/2026/06/whatsapp-is-finally-getting-usernames.html",
+      "date": "2026-06-29T16:09:21Z",
+      "description": "WhatsApp on Monday officially announced the start of global reservations of usernames with an aim to protect the privacy of more than three billion users on the messaging platform. The optional feature is designed to help users connect with someone on the service through usernames, as opposed to directly sharing their phone numbers. Username reservations will start rolling out starting today,",
+      "source": "thehackernews.com",
+      "first_seen": "2026-06-29T16:34:13Z",
+      "last_seen": "2026-06-29T16:34:13Z"
+    },
+    {
+      "id": "7bbee172610ea252e4731c813127765ce7445380",
+      "title": "Hackers Exploiting Critical Oracle E-Business Suite Vulnerability Actively in Attacks",
+      "link": "https://cybersecuritynews.com/oracle-e-business-flaw-actively-exploited/",
+      "date": "2026-06-29T16:05:40Z",
+      "description": "Threat actors are actively exploiting CVE-2026-46817, a critical unauthenticated remote takeover vulnerability in Oracle E-Business Suite (EBS), with live attack activity captured across honeypot infrastructure over the weekend of June 27–28, 2026. CVE-2026-46817 is a critical-severity flaw residing in the Oracle Payments product within Oracle E-Business Suite, specifically in the File…",
+      "source": "cybersecuritynews.com",
+      "first_seen": "2026-06-29T16:34:13Z",
+      "last_seen": "2026-06-29T16:34:13Z"
+    },
+    {
+      "id": "a1a75288b873bb87149355cde2ec2be1cff2edbf",
+      "title": "WhatsApp Rolling Out Username Feature to Bolster Phone Number Privacy",
+      "link": "https://www.securityweek.com/whatsapp-rolling-out-username-feature-to-bolster-phone-number-privacy/",
+      "date": "2026-06-29T16:00:01Z",
+      "description": "An optional ‘username key’ adds another layer by requiring a secondary credential before someone can message users. The post WhatsApp Rolling Out Username Feature to Bolster Phone Number Privacy appeared first on SecurityWeek.",
+      "source": "securityweek.com",
+      "first_seen": "2026-06-29T16:34:13Z",
+      "last_seen": "2026-06-29T16:34:13Z"
+    },
+    {
+      "id": "e9eb7f706d5dcd8247ce699f17cbcbef1f31f08b",
+      "title": "Critical Dell Wyse Vulnerabilities Enable Remote Code Execution Attacks",
+      "link": "https://cybersecuritynews.com/dell-wyse-vulnerabilities/",
+      "date": "2026-06-29T15:37:24Z",
+      "description": "Dell Technologies has released a critical security advisory addressing multiple vulnerabilities in its Wyse Management Suite (WMS), warning that attackers could exploit these flaws to execute arbitrary code on affected systems. The vulnerabilities affect Dell Wyse Management Suite versions before 5.5 HF1, a widely used platform for centralized management of thin clients and endpoint devices. […]…",
+      "source": "cybersecuritynews.com",
+      "first_seen": "2026-06-29T16:34:13Z",
+      "last_seen": "2026-06-29T16:34:13Z"
+    },
+    {
+      "id": "44882e01e83a1b3886b46f90fe52e7d40bc4b098",
+      "title": "Microsoft 365 Apps RCE Vulnerability Exploited Using a Malicious Excel File",
+      "link": "https://cybersecuritynews.com/microsoft-365-apps-rce-vulnerability-exploit/",
+      "date": "2026-06-29T15:33:17Z",
+      "description": "Microsoft has disclosed a critical remote code execution vulnerability in its Office ecosystem that can be exploited through a malicious Excel file. The vulnerability, tracked as CVE-2025-60727, affects multiple versions of Microsoft Office and underscores the continued risk posed by document-based attack techniques commonly used in phishing campaigns. The issue is classified as an out-of-bounds…",
+      "source": "cybersecuritynews.com",
+      "first_seen": "2026-06-29T16:34:13Z",
+      "last_seen": "2026-06-29T16:34:13Z"
+    },
+    {
+      "id": "1296b2d3d2e435bc31d78c64724f1ecf79c3add8",
+      "title": "Critical Gemini CLI Vulnerability Lets Attackers Execute Arbitrary Code",
+      "link": "https://cybersecuritynews.com/critical-gemini-cli-vulnerability/",
+      "date": "2026-06-29T15:26:34Z",
+      "description": "A critical security vulnerability in Google’s Gemini CLI has been disclosed, allowing attackers to execute arbitrary code in certain CI/CD environments, particularly GitHub Actions workflows. The issue, tracked as CVE-2026-12537, impacts multiple versions of the Gemini CLI and its related GitHub Action. The vulnerability affects @google/gemini-cli versions before 0.39.1 and 0.40.0-preview.3, as…",
+      "source": "cybersecuritynews.com",
+      "first_seen": "2026-06-29T16:34:13Z",
+      "last_seen": "2026-06-29T16:34:13Z"
+    },
+    {
+      "id": "7e785e2c522b93da933bf9f291400b76cc7e5218",
+      "title": "U.S. offers $10 million for hackers targeting WhatsApp, Signal users",
+      "link": "https://www.bleepingcomputer.com/news/security/us-offers-10-million-for-hackers-targeting-whatsapp-signal-users/",
+      "date": "2026-06-29T15:09:43Z",
+      "description": "The U.S. Department of State is offering up to $10 million for information that helps identify or locate members of the UNC5792 and UNC4221 hacker groups, which are linked to Russia's intelligence and military services. [...]",
+      "source": "bleepingcomputer.com",
+      "first_seen": "2026-06-29T16:34:13Z",
+      "last_seen": "2026-06-29T16:34:13Z"
+    },
+    {
+      "id": "0d0ca4a9ff97a0ed35d1113597898206a09cafae",
+      "title": "Mustang Panda Uses Zoho WorkDrive as Command Channel in Indian Government Attacks",
+      "link": "https://thehackernews.com/2026/06/mustang-panda-uses-zoho-workdrive-as.html",
+      "date": "2026-06-29T15:03:40Z",
+      "description": "The China-aligned espionage group Mustang Panda is running two campaigns against the Indian government and hydropower targets, deploying new malware and turning a legitimate cloud service into its command channel. Acronis Threat Research Unit found active compromises inside Indian government networks, including machines used by senior administrative staff, and worked with",
+      "source": "thehackernews.com",
+      "first_seen": "2026-06-29T16:34:13Z",
+      "last_seen": "2026-06-29T16:34:13Z"
+    },
+    {
+      "id": "38d5baadd50c802219b977e0c8f8d78a299ca250",
+      "title": "⚡ Weekly Recap: Linux Kernel Flaws, AI Malware Tricks, Turla Backdoor, Infostealers and More",
+      "link": "https://thehackernews.com/2026/06/weekly-recap-linux-kernel-flaws-ai.html",
+      "date": "2026-06-29T14:41:07Z",
+      "description": "This week was a reminder that attackers do not always need big tricks. One small mistake, one old access path, one missed patch, and suddenly the door is open. The noise is not all noise, either. Forums are talking, researchers are finding easy cracks, and defenders have more cleanup waiting. Here’s the full Monday recap. ⚡ Threat of the Week New DirtyClone Linux Kernel Flaw Lets Local",
+      "source": "thehackernews.com",
+      "first_seen": "2026-06-29T16:34:13Z",
+      "last_seen": "2026-06-29T16:34:13Z"
+    },
+    {
+      "id": "13a34841aa74d9d21299f50f55c105f2f05a4c67",
+      "title": "Researchers Demo New Claude Code Attack Using Harmless-Looking Repositories to Hijack Developer Machines",
+      "link": "https://www.securityweek.com/new-attack-abuses-claude-code-and-harmless-looking-repositories-to-hijack-developer-machines/",
+      "date": "2026-06-29T14:28:40Z",
+      "description": "Indirect prompts hidden in a repository can lead to Claude Code spawning a reverse shell on the developer’s machine. The post Researchers Demo New Claude Code Attack Using Harmless-Looking Repositories to Hijack Developer Machines appeared first on SecurityWeek.",
+      "source": "securityweek.com",
+      "first_seen": "2026-06-29T16:34:13Z",
+      "last_seen": "2026-06-29T16:34:13Z"
+    },
+    {
+      "id": "50a3dd81b425c9980062a2bebb9a2c52dd186644",
+      "title": "Straiker Raises $64 Million for AI Security Platform",
+      "link": "https://www.securityweek.com/straiker-raises-64-million-for-ai-security-platform/",
+      "date": "2026-06-29T14:07:34Z",
+      "description": "The startup’s platform can identify AI agents and provide visibility into their access, behavior, and risks. The post Straiker Raises $64 Million for AI Security Platform appeared first on SecurityWeek.",
+      "source": "securityweek.com",
+      "first_seen": "2026-06-29T16:34:13Z",
+      "last_seen": "2026-06-29T16:34:13Z"
+    },
+    {
+      "id": "26eeb9324835171638d3790a321c45d8c4ca5c4d",
+      "title": "Agentic AI Has an Identity Problem and Attackers Know It",
+      "link": "https://www.bleepingcomputer.com/news/security/agentic-ai-has-an-identity-problem-and-attackers-know-it/",
+      "date": "2026-06-29T14:01:11Z",
+      "description": "AI agents can access data, trigger workflows, and take action across enterprise systems. Token Security explains why governing these privileged identities is becoming essential for enterprise security. [...]",
+      "source": "bleepingcomputer.com",
+      "first_seen": "2026-06-29T16:34:13Z",
+      "last_seen": "2026-06-29T16:34:13Z"
+    },
+    {
+      "id": "e80cb92aa08fad0a3a35f3bba69eec1079be776e",
+      "title": "Critical SimpleHelp flaw exploited to deploy new stealer malware",
+      "link": "https://www.bleepingcomputer.com/news/security/hackers-exploit-critical-simplehelp-flaw-deploy-new-djinn-infostealer-taskweaver-malware/",
+      "date": "2026-06-29T14:00:00Z",
+      "description": "Hackers are exploiting a recently disclosed critical vulnerability (CVE-2026-48558) in SimpleHelp to deploy Djinn Stealer, a previously undocumented cross-platform information stealer targeting Windows, macOS, and Linux. [...]",
+      "source": "bleepingcomputer.com",
+      "first_seen": "2026-06-29T16:34:13Z",
+      "last_seen": "2026-06-29T16:34:13Z"
+    },
+    {
+      "id": "f10415930821ca2f8a515fe0be40dfdd09e466c8",
+      "title": "Hackers now exploit critical Oracle E-Business flaw in attacks",
+      "link": "https://www.bleepingcomputer.com/news/security/new-oracle-e-business-suite-flaw-now-exploited-in-attacks/",
+      "date": "2026-06-29T13:46:17Z",
+      "description": "Attackers have begun exploiting a critical vulnerability (CVE-2026-46817) in the Oracle E-Business Suite (EBS) financial application, according to threat intelligence company Defused. [...]",
+      "source": "bleepingcomputer.com",
+      "first_seen": "2026-06-29T16:34:13Z",
+      "last_seen": "2026-06-29T16:34:13Z"
+    },
+    {
+      "id": "4a8021815a3f860e9e61134fb51cb03d835004c9",
+      "title": "Insurance Regulators Group NAIC Hit in Oracle PeopleSoft Hack",
+      "link": "https://www.securityweek.com/insurance-regulators-group-naic-hit-in-oracle-peoplesoft-hack/",
+      "date": "2026-06-29T13:42:28Z",
+      "description": "The ShinyHunters extortion group claims to have stolen 3.1 TB of data from the organization. The post Insurance Regulators Group NAIC Hit in Oracle PeopleSoft Hack appeared first on SecurityWeek.",
+      "source": "securityweek.com",
+      "first_seen": "2026-06-29T16:34:13Z",
+      "last_seen": "2026-06-29T16:34:13Z"
     },
     {
       "id": "213e5c77d87cc341da528caedc2591f24f6d1055",
@@ -41,7 +191,17 @@
       "description": "Business email compromise attacks increasingly rely on convincing impersonation rather than malware, making them harder for employees and traditional email defenses to detect. This webinar explores how behavioral AI can help identify sophisticated email threats and automate response workflows. [...]",
       "source": "bleepingcomputer.com",
       "first_seen": "2026-06-29T12:56:50Z",
-      "last_seen": "2026-06-29T12:56:50Z"
+      "last_seen": "2026-06-29T16:34:13Z"
+    },
+    {
+      "id": "86f55ad2b60e0d19c8af21801d3b0c461f48677e",
+      "title": "236,000 DCloud Uni-App Sites Used in Crypto Scams, Phishing, and Wallet Drainers",
+      "link": "https://thehackernews.com/2026/06/236000-dcloud-uni-app-sites-used-in.html",
+      "date": "2026-06-29T11:57:40Z",
+      "description": "New findings unearthed by Infoblox show that more than 236,000 websites are using investment scam templates built using a legitimate Chinese open-source, cross-platform application development framework called DCloud Uni-App. The templates power bogus cryptocurrency exchanges, multi-language pig-butchering operations, WhatsApp phishing networks, fake gambling platforms, brand-impersonation",
+      "source": "thehackernews.com",
+      "first_seen": "2026-06-29T16:34:13Z",
+      "last_seen": "2026-06-29T16:34:13Z"
     },
     {
       "id": "238d55223dc15f1f8d1c139509c5c6db24798fd2",
@@ -51,7 +211,7 @@
       "description": "Today’s encrypted data, such as credentials, may no longer remain confidential in the future because the public-key cryptography protecting it will soon be broken by quantum computers. Although no machine today can break elliptic curve cryptography or RSA, quantum hardware is advancing rapidly and will inevitably change how organizations protect their data. Ciphertext and credentials captured by",
       "source": "thehackernews.com",
       "first_seen": "2026-06-29T12:56:50Z",
-      "last_seen": "2026-06-29T12:56:50Z"
+      "last_seen": "2026-06-29T16:34:13Z"
     },
     {
       "id": "5342c3919b617f2b953c23cf52eab8d449a69d71",
@@ -81,7 +241,7 @@
       "description": "A variant of DirtyFrag, the flaw allows unprivileged local users to manipulate the Linux page cache and gain root privileges. The post ‘DirtyClone’ Linux Kernel Vulnerability Leads to Root Access appeared first on SecurityWeek.",
       "source": "securityweek.com",
       "first_seen": "2026-06-29T12:56:50Z",
-      "last_seen": "2026-06-29T12:56:50Z"
+      "last_seen": "2026-06-29T16:34:13Z"
     },
     {
       "id": "1151c9b28c8a4347afeff6e9e4b83fd904ab07cf",
@@ -261,7 +421,7 @@
       "description": "Rising threats from third-party actors are forcing institutions to play defense to protect student data from ransomware and other attacks.",
       "source": "darkreading.com",
       "first_seen": "2026-06-27T16:55:31Z",
-      "last_seen": "2026-06-29T12:56:50Z"
+      "last_seen": "2026-06-29T16:34:13Z"
     },
     {
       "id": "320e5c6de58e9445c088eba60a6e76b4a721865b",
@@ -321,7 +481,7 @@
       "description": "Companies are still experimenting with automated AI systems to find security weaknesses, but fewer are relying on the technology.",
       "source": "darkreading.com",
       "first_seen": "2026-06-26T20:25:58Z",
-      "last_seen": "2026-06-29T12:56:50Z"
+      "last_seen": "2026-06-29T16:34:13Z"
     },
     {
       "id": "7253b4963c1093b77101f6103c9634a17c2cc0d2",
@@ -361,7 +521,7 @@
       "description": "Cisco joins a growing list of security platform providers that are betting that securing the agentic workforce means turning identity into the primary control plane.",
       "source": "darkreading.com",
       "first_seen": "2026-06-26T18:22:00Z",
-      "last_seen": "2026-06-29T12:56:50Z"
+      "last_seen": "2026-06-29T16:34:13Z"
     },
     {
       "id": "6022e7c47446d6e97254dbd0df22dacdca3f854a",
@@ -391,7 +551,7 @@
       "description": "The Open Source Sustainability Initiative's goal is to help enterprises manage and secure aging open source projects while maintaining regulatory compliance.",
       "source": "darkreading.com",
       "first_seen": "2026-06-26T22:01:50Z",
-      "last_seen": "2026-06-29T12:56:50Z"
+      "last_seen": "2026-06-29T16:34:13Z"
     },
     {
       "id": "d913635843c497538de7284d13a0e5578eba051e",
@@ -421,7 +581,7 @@
       "description": "Instead of eliminating jobs for early-career cyber pros, AI is creating new opportunities for candidates with strong human decision-making skills.",
       "source": "darkreading.com",
       "first_seen": "2026-06-26T16:55:01Z",
-      "last_seen": "2026-06-29T12:56:50Z"
+      "last_seen": "2026-06-29T16:34:13Z"
     },
     {
       "id": "fa07cbc3d1647e69cdbe9496439466d454c7e35e",
@@ -761,7 +921,7 @@
       "description": "A CVSS score 3.8 AV:L/AC:L/PR:L/UI:N/S:C/C:L/I:N/A:N severity vulnerability discovered by 'haro001' was reported to the affected vendor on: 2026-06-26, 0 days ago. The vendor is given until 2026-10-24 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
       "source": "zerodayinitiative.com",
       "first_seen": "2026-06-26T16:55:01Z",
-      "last_seen": "2026-06-29T12:56:50Z"
+      "last_seen": "2026-06-29T16:34:13Z"
     },
     {
       "id": "2a55d61d6084e85756d75092fc5509918c17a5b0",
@@ -771,7 +931,7 @@
       "description": "A CVSS score 8.2 AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:L severity vulnerability discovered by '06fe5fd2bc53027c4a3b7e395af0b850e7b8a044' was reported to the affected vendor on: 2026-06-26, 0 days ago. The vendor is given until 2026-10-24 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
       "source": "zerodayinitiative.com",
       "first_seen": "2026-06-26T16:55:01Z",
-      "last_seen": "2026-06-29T12:56:50Z"
+      "last_seen": "2026-06-29T16:34:13Z"
     },
     {
       "id": "74e8c07c9a47c706ffc1a16d4e933ce2dd7c5fc2",
@@ -781,7 +941,7 @@
       "description": "A CVSS score 7.8 AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H severity vulnerability discovered by 'truff' was reported to the affected vendor on: 2026-06-26, 0 days ago. The vendor is given until 2026-10-24 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
       "source": "zerodayinitiative.com",
       "first_seen": "2026-06-26T16:55:01Z",
-      "last_seen": "2026-06-29T12:56:50Z"
+      "last_seen": "2026-06-29T16:34:13Z"
     },
     {
       "id": "50ad54c7035d204d9400f9aa5af39f47c3786e03",
@@ -791,7 +951,7 @@
       "description": "A CVSS score 7.8 AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H severity vulnerability discovered by 'Michael DePlante (@izobashi) of TrendAI Zero Day Initiative' was reported to the affected vendor on: 2026-06-26, 0 days ago. The vendor is given until 2026-10-24 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
       "source": "zerodayinitiative.com",
       "first_seen": "2026-06-26T16:55:01Z",
-      "last_seen": "2026-06-29T12:56:50Z"
+      "last_seen": "2026-06-29T16:34:13Z"
     },
     {
       "id": "6078e686a1876b057a153e27fdc79a0cfd2e1ac5",
@@ -801,7 +961,7 @@
       "description": "A CVSS score 7.8 AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H severity vulnerability discovered by 'Brandon Evans of TrendAI Zero Day Initiative' was reported to the affected vendor on: 2026-06-26, 0 days ago. The vendor is given until 2026-10-24 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
       "source": "zerodayinitiative.com",
       "first_seen": "2026-06-26T16:55:01Z",
-      "last_seen": "2026-06-29T12:56:50Z"
+      "last_seen": "2026-06-29T16:34:13Z"
     },
     {
       "id": "6a25ec598c3da02b4263893dfff6662f92c20ed2",
@@ -34234,96 +34394,6 @@
       "last_seen": "2026-04-01T12:53:43Z"
     },
     {
-      "id": "a10ed39e3c0be610dfddeb86948dd3c40669e998",
-      "title": "Rethinking Vulnerability Management Strategies for Mid-Market Security",
-      "link": "https://www.darkreading.com/cybersecurity-operations/rethinking-vulnerability-management-strategies-for-mid-market-security",
-      "date": "2026-03-31T15:35:55Z",
-      "description": "Intruder's Chris Wallis argues mid-market teams should prioritize CVE remediation speed over vulnerability counts, while expanding defenses beyond CVEs to include attack surface management.",
-      "source": "darkreading.com",
-      "first_seen": "2026-03-31T15:58:29Z",
-      "last_seen": "2026-04-01T11:43:00Z"
-    },
-    {
-      "id": "382c0cad40bfbb0d2c38c1acb493125944171ccb",
-      "title": "The Next Cybersecurity Crisis Isn’t Breaches—It’s Data You Can’t Trust",
-      "link": "https://www.securityweek.com/the-next-cybersecurity-crisis-isnt-breaches-its-data-you-cant-trust/",
-      "date": "2026-03-31T15:35:33Z",
-      "description": "Data integrity shouldn’t be seen only through the prism of a technical concern but also as a leadership issue. The post The Next Cybersecurity Crisis Isn’t Breaches—It’s Data You Can’t Trust appeared first on SecurityWeek.",
-      "source": "securityweek.com",
-      "first_seen": "2026-03-31T15:58:29Z",
-      "last_seen": "2026-04-01T12:53:43Z"
-    },
-    {
-      "id": "e9ae5321e792f29d5924b7733a6af9efa0594e07",
-      "title": "AI and Quantum Are Forcing a Rethink of Digital Trust",
-      "link": "https://www.darkreading.com/cybersecurity-operations/ai-and-quantum-are-forcing-a-rethink-of-digital-trust",
-      "date": "2026-03-31T15:29:11Z",
-      "description": "In a conversation with Dark Reading’s Terry Sweeney, DigiCert CEO Amit Sinha explains how AI-driven identities and quantum threats are reshaping the foundations of digital trust.",
-      "source": "darkreading.com",
-      "first_seen": "2026-03-31T15:58:29Z",
-      "last_seen": "2026-04-01T10:52:13Z"
-    },
-    {
-      "id": "45efa6fd1f062d3e620a8659cfb1ee69a8d39a9f",
-      "title": "Stolen Logins Are Fueling Everything From Ransomware to Nation-State Cyberattacks",
-      "link": "https://www.securityweek.com/stolen-logins-are-fueling-everything-from-ransomware-to-nation-state-cyberattacks/",
-      "date": "2026-03-31T15:04:58Z",
-      "description": "Report shows how industrialized credential theft underpins ransomware, SaaS breaches, and geopolitical attacks, shifting security focus from prevention to detecting misuse of legitimate access. The post Stolen Logins Are Fueling Everything From Ransomware to Nation-State Cyberattacks appeared first on SecurityWeek.",
-      "source": "securityweek.com",
-      "first_seen": "2026-03-31T15:58:29Z",
-      "last_seen": "2026-04-01T12:53:43Z"
-    },
-    {
-      "id": "54de31cf93193f67537e94e6fa14482f642d370b",
-      "title": "Venom Stealer Raises Stakes With Continuous Credential Harvesting",
-      "link": "https://www.securityweek.com/venom-stealer-raises-stakes-with-continuous-credential-harvesting/",
-      "date": "2026-03-31T14:51:59Z",
-      "description": "Licensed malware with built-in persistence and automation enables attackers to continuously siphon credentials, session data, and cryptocurrency assets. The post Venom Stealer Raises Stakes With Continuous Credential Harvesting appeared first on SecurityWeek.",
-      "source": "securityweek.com",
-      "first_seen": "2026-03-31T15:58:29Z",
-      "last_seen": "2026-04-01T08:08:39Z"
-    },
-    {
-      "id": "ea9a88594b9036f99a0b68a7fd46d3a1ccb59c7b",
-      "title": "How to Categorize AI Agents and Prioritize Risk",
-      "link": "https://www.bleepingcomputer.com/news/security/how-to-categorize-ai-agents-and-prioritize-risk/",
-      "date": "2026-03-31T14:00:10Z",
-      "description": "AI agent risk isn't equal, it scales with access to systems and level of autonomy. Token Security explains how CISOs should categorize agents and prioritize what to secure first. [...]",
-      "source": "bleepingcomputer.com",
-      "first_seen": "2026-03-31T14:22:12Z",
-      "last_seen": "2026-03-31T22:24:55Z"
-    },
-    {
-      "id": "d436e8e70baa0efc3dc5bf7da31ea40151b1843f",
-      "title": "Hackers compromise Axios npm package to drop cross-platform malware",
-      "link": "https://www.bleepingcomputer.com/news/security/hackers-compromise-axios-npm-package-to-drop-cross-platform-malware/",
-      "date": "2026-03-31T13:53:43Z",
-      "description": "Hackers hijacked the npm account of the Axios package, a JavaScript HTTP client with 100M+ weekly downloads, to deliver remote access trojans to Linux, Windows, and macOS systems. [...]",
-      "source": "bleepingcomputer.com",
-      "first_seen": "2026-03-31T14:22:12Z",
-      "last_seen": "2026-03-31T22:24:55Z"
-    },
-    {
-      "id": "b0d0ca1af43b168f742fd3e20fb1f08eb10ed7aa",
-      "title": "TeamPCP Moves From OSS to AWS Environments",
-      "link": "https://www.securityweek.com/teampcp-moves-from-oss-to-aws-environments/",
-      "date": "2026-03-31T13:53:43Z",
-      "description": "After validating stolen credentials using TruffleHog, the hacking group started AWS services enumeration and lateral movement activities. The post TeamPCP Moves From OSS to AWS Environments appeared first on SecurityWeek.",
-      "source": "securityweek.com",
-      "first_seen": "2026-03-31T14:22:12Z",
-      "last_seen": "2026-04-01T06:21:08Z"
-    },
-    {
-      "id": "322b8bd79c5e859ae4a15232b17e5943c40cea92",
-      "title": "CrewAI Vulnerabilities Expose Devices to Hacking",
-      "link": "https://www.securityweek.com/crewai-vulnerabilities-expose-devices-to-hacking/",
-      "date": "2026-03-31T13:37:30Z",
-      "description": "Attackers can exploit the bugs through prompt injection, chaining them together to escape the sandbox and execute arbitrary code. The post CrewAI Vulnerabilities Expose Devices to Hacking appeared first on SecurityWeek.",
-      "source": "securityweek.com",
-      "first_seen": "2026-03-31T14:22:12Z",
-      "last_seen": "2026-03-31T15:58:29Z"
-    },
-    {
       "id": "81a750f47027f65d4b1709fdaacd9f1c03d96204",
       "title": "Iran Deploys 'Pseudo-Ransomware,' Revives Pay2Key Operations",
       "link": "https://www.darkreading.com/threat-intelligence/iran-pseudo-ransomware-pay2key-operations",
@@ -34332,26 +34402,6 @@
       "source": "darkreading.com",
       "first_seen": "2026-03-31T16:54:24Z",
       "last_seen": "2026-03-31T20:33:07Z"
-    },
-    {
-      "id": "3b15860051125f56313bab35e0da2e4f891c5a47",
-      "title": "Vertex AI Vulnerability Exposes Google Cloud Data and Private Artifacts",
-      "link": "https://thehackernews.com/2026/03/vertex-ai-vulnerability-exposes-google.html",
-      "date": "2026-03-31T13:09:00Z",
-      "description": "Cybersecurity researchers have disclosed a security \"blind spot\" in Google Cloud's Vertex AI platform that could allow artificial intelligence (AI) agents to be weaponized by an attacker to gain unauthorized access to sensitive data and compromise an organization's cloud environment. According to Palo Alto Networks Unit 42, the issue relates to how the Vertex AI permission model can be misused",
-      "source": "thehackernews.com",
-      "first_seen": "2026-03-31T14:22:12Z",
-      "last_seen": "2026-04-01T10:52:13Z"
-    },
-    {
-      "id": "151b02bff02a2a8413809328d97af393241e5579",
-      "title": "Hackers Weaponize Legitimate Windows Tools to Disable Antivirus Before Ransomware Attacks",
-      "link": "https://cybersecuritynews.com/hackers-weaponize-legitimate-windows-tools/",
-      "date": "2026-03-31T13:02:27Z",
-      "description": "Ransomware attacks have gone far beyond simple malicious code. Today, attackers operate with the precision of a well-planned business, using trusted Windows tools to quietly tear down defenses before ransomware even enters the picture. This shift has made modern ransomware campaigns harder to detect and significantly more damaging. The tools at the center of this […] The post Hackers Weaponize…",
-      "source": "cybersecuritynews.com",
-      "first_seen": "2026-03-31T14:22:12Z",
-      "last_seen": "2026-04-01T06:21:08Z"
     },
     {
       "id": "70b026617f3257bf3e9a0f58fb94d17c0aa1478c",
@@ -34404,16 +34454,6 @@
       "last_seen": "2026-04-01T16:01:00Z"
     },
     {
-      "id": "a2c51ec580fcc42a52e55d78aa8f012216b14e5a",
-      "title": "AI-Driven Code Surge Is Forcing a Rethink of AppSec",
-      "link": "https://www.darkreading.com/application-security/ai-driven-code-surge-is-forcing-a-rethink-of-appsec",
-      "date": "2026-03-30T18:42:33Z",
-      "description": "In a conversation with Dark Reading’s Terry Sweeney, Black Duck CEO Jason Schmitt explains how AI is reshaping application security and why it must evolve to keep pace.",
-      "source": "darkreading.com",
-      "first_seen": "2026-03-31T15:58:29Z",
-      "last_seen": "2026-03-31T15:58:29Z"
-    },
-    {
       "id": "664df53292fd50e8b1e7bf61d1267fe95047525f",
       "title": "Student Loan Breach Exposes 2.5M Records",
       "link": "https://threatpost.com/student-loan-breach-exposes-2-5m-records/180492/",
@@ -34421,7 +34461,7 @@
       "description": "2.5 million people were affected, in a breach that could spell more trouble down the line.",
       "source": "threatpost.com",
       "first_seen": "2026-05-10T12:53:08Z",
-      "last_seen": "2026-06-29T12:56:50Z"
+      "last_seen": "2026-06-29T16:34:13Z"
     },
     {
       "id": "4140c7a34b0ba94ad2e6b0cae9f59b0cb9bfffea",
@@ -34431,7 +34471,7 @@
       "description": "Researchers uncover a watering hole attack likely carried out by APT TA423, which attempts to plant the ScanBox JavaScript-based reconnaissance tool.",
       "source": "threatpost.com",
       "first_seen": "2026-05-10T12:53:08Z",
-      "last_seen": "2026-06-29T12:56:50Z"
+      "last_seen": "2026-06-29T16:34:13Z"
     },
     {
       "id": "9359ee40a641a4b565080313045f1d7e7fe6552b",
@@ -34441,7 +34481,7 @@
       "description": "Over 130 companies tangled in sprawling phishing campaign that spoofed a multi-factor authentication system.",
       "source": "threatpost.com",
       "first_seen": "2026-05-10T12:53:08Z",
-      "last_seen": "2026-06-29T12:56:50Z"
+      "last_seen": "2026-06-29T16:34:13Z"
     },
     {
       "id": "b4ccef0737cd4050d65241bf754072030b6b5e6a",
@@ -34451,7 +34491,7 @@
       "description": "Lockbit is by far this summer’s most prolific ransomware group, trailed by two offshoots of the Conti group.",
       "source": "threatpost.com",
       "first_seen": "2026-05-10T12:53:08Z",
-      "last_seen": "2026-06-29T12:56:50Z"
+      "last_seen": "2026-06-29T16:34:13Z"
     },
     {
       "id": "12ee113fc8fce91f6d7fb28deab2b1ad20061ec7",
@@ -34461,7 +34501,7 @@
       "description": "Tens of thousands of cameras have failed to patch a critical, 11-month-old CVE, leaving thousands of organizations exposed.",
       "source": "threatpost.com",
       "first_seen": "2026-05-10T12:53:08Z",
-      "last_seen": "2026-06-29T12:56:50Z"
+      "last_seen": "2026-06-29T16:34:13Z"
     }
   ]
 }
