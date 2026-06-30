@@ -1,7 +1,27 @@
 {
   "date": "2026-06-30",
-  "count": 47,
+  "count": 49,
   "items": [
+    {
+      "id": "ae77ed43fa35f513d15847cd72bdbc99722ac690",
+      "title": "Microsoft Warns Poisoned MCP Tool Descriptions Can Make AI Agents Leak Data",
+      "link": "https://thehackernews.com/2026/06/microsoft-warns-poisoned-mcp-tool.html",
+      "date": "2026-06-30T17:46:07Z",
+      "description": "New Microsoft research shows how attackers can hijack AI agents that act on a user's behalf, using nothing more than a poisoned tool description to make the agent quietly hand over company data to an outsider. The trick is that the agent never breaks a rule. Every step looks routine, so in a default setup no alarm may fire. The work comes from Microsoft Incident Response and its",
+      "source": "thehackernews.com",
+      "first_seen": "2026-06-30T20:50:16Z",
+      "last_seen": "2026-06-30T20:50:16Z"
+    },
+    {
+      "id": "964ee800274b13a3bd38e38ded1747977f304850",
+      "title": "RustDuck Botnet Rebuilds in Rust to Hijack Routers and Servers for DDoS",
+      "link": "https://thehackernews.com/2026/06/rustduck-botnet-rebuilds-in-rust-to.html",
+      "date": "2026-06-30T17:45:25Z",
+      "description": "A new two-stage malware family called RustDuck is hijacking home routers, IP cameras, Android boxes, and poorly secured servers, then stitching them into a network built to knock websites and online services offline. Researchers at QiAnXin's XLab have tracked it since February 2026, and say the real story is not how big it is today, but how fast it is changing. The end goal is a",
+      "source": "thehackernews.com",
+      "first_seen": "2026-06-30T20:50:16Z",
+      "last_seen": "2026-06-30T20:50:16Z"
+    },
     {
       "id": "53c389c21a9f810911f2e3548145acab35478da0",
       "title": "Anthropic’s Claude Code Reportedly Uses Hidden Code to Detect Chinese Users",
@@ -70,7 +90,7 @@
       "description": "Threat actors are continuing to exploit a critical Langflow vulnerability as part of fresh attacks designed to deliver a Monero cryptocurrency miner. The activity has been found to weaponize CVE-2026-33017 (CVSS score: 9.3), an unauthenticated remote code execution (RCE) vulnerability in Langflow, indicating threat actors are scanning and targeting exposed artificial intelligence (AI)",
       "source": "thehackernews.com",
       "first_seen": "2026-06-30T18:27:59Z",
-      "last_seen": "2026-06-30T18:27:59Z"
+      "last_seen": "2026-06-30T20:50:16Z"
     },
     {
       "id": "e87a3c743131a937883eedda6110462d7c253d78",
@@ -80,7 +100,7 @@
       "description": "A malicious extension in the Chrome Web Store is masquerading as the Perplexity AI answer engine, intercepting search traffic and collecting browsing information. [...]",
       "source": "bleepingcomputer.com",
       "first_seen": "2026-06-30T16:14:56Z",
-      "last_seen": "2026-06-30T18:27:59Z"
+      "last_seen": "2026-06-30T20:50:16Z"
     },
     {
       "id": "5e5c5c4fdcc3093d5a163f415015f4c755506b3d",
@@ -90,7 +110,7 @@
       "description": "Cybersecurity researchers have flagged an active browser extension campaign that is designed to steal cryptocurrency by stealthily replacing wallet addresses when unsuspecting users initiate a transaction. The cryptocurrency clipper activity has been codenamed Silent Swap by McAfee Labs. \"The campaign is delivered through unsigned installers – observed in both .NET and Golang variants – that",
       "source": "thehackernews.com",
       "first_seen": "2026-06-30T16:14:56Z",
-      "last_seen": "2026-06-30T18:27:59Z"
+      "last_seen": "2026-06-30T20:50:16Z"
     },
     {
       "id": "c88bcf6b5eb46882606433ef30bfcba08d6cf15a",
@@ -110,7 +130,7 @@
       "description": "The safety check that is supposed to stop an AI coding agent from running a dangerous command can be walked straight past using a shell trick that has been public for decades. New research from Adversa AI, which is named the bypass GuardFall, found it works against ten of the eleven popular open-source coding and computer-use agents the firm tested. Only one, \"Continue,\" was built to",
       "source": "thehackernews.com",
       "first_seen": "2026-06-30T16:14:56Z",
-      "last_seen": "2026-06-30T18:27:59Z"
+      "last_seen": "2026-06-30T20:50:16Z"
     },
     {
       "id": "fe4262df6ef4b072f4286286f946f8edb9a5eb6f",
@@ -120,7 +140,7 @@
       "description": "Business Email Compromise is more than an email scam. It's a coordinated operation involving compromised accounts, financial research, and cash-out networks. Flare explores how underground forums reveal how BEC attacks are planned and executed. [...]",
       "source": "bleepingcomputer.com",
       "first_seen": "2026-06-30T16:14:56Z",
-      "last_seen": "2026-06-30T18:27:59Z"
+      "last_seen": "2026-06-30T20:50:16Z"
     },
     {
       "id": "3a59015e8e817bf14c7c26bfb155df322fff70cf",
@@ -140,7 +160,7 @@
       "description": "The Microsoft Defender vulnerability CVE-2026-33825 was exploited in the wild as a zero-day before patches were released. The post BlueHammer Vulnerability Exploited in Ransomware Attacks appeared first on SecurityWeek.",
       "source": "securityweek.com",
       "first_seen": "2026-06-30T16:14:56Z",
-      "last_seen": "2026-06-30T18:27:59Z"
+      "last_seen": "2026-06-30T20:50:16Z"
     },
     {
       "id": "fe590d944bbbca2cce8f4e02cfd13a78f4a30356",
@@ -170,7 +190,7 @@
       "description": "Decades-old Bash shell tricks can bypass safeguards in most open source AI coding agents, potentially turning malicious repositories into supply chain attack vectors. The post Decades-Old Bash Tricks Expose AI Coding Agents to Supply Chain Attacks appeared first on SecurityWeek.",
       "source": "securityweek.com",
       "first_seen": "2026-06-30T13:02:52Z",
-      "last_seen": "2026-06-30T18:27:59Z"
+      "last_seen": "2026-06-30T20:50:16Z"
     },
     {
       "id": "8c7ff6b9b9f7c08ea875a6656ac27b9571176a78",
@@ -200,7 +220,7 @@
       "description": "Hackers accessed the insurance giant’s policyholder portal multiple times between June 15 and June 25. The post Aflac Japan Data Breach Impacts 4.38 Million appeared first on SecurityWeek.",
       "source": "securityweek.com",
       "first_seen": "2026-06-30T13:02:52Z",
-      "last_seen": "2026-06-30T18:27:59Z"
+      "last_seen": "2026-06-30T20:50:16Z"
     },
     {
       "id": "abeda4fe9e316f6afab70d8f7f1c585ba650d51d",
@@ -230,7 +250,7 @@
       "description": "Chris Thompson's journey took him from hacking game controls as a teenager to founding IBM’s X-Force Red team. The post Hacker Conversations: Chris Thompson, Former Head of IBM X-Force Red, Co-Founder of RemoteThreat appeared first on SecurityWeek.",
       "source": "securityweek.com",
       "first_seen": "2026-06-30T13:02:52Z",
-      "last_seen": "2026-06-30T18:27:59Z"
+      "last_seen": "2026-06-30T20:50:16Z"
     },
     {
       "id": "d17bdbe2c89482b4f071aefb00f12e6a57c0d118",
@@ -240,7 +260,7 @@
       "description": "The ruling was made in the case of a bank robber whose identity was discovered through a geofence warrant. The post Supreme Court Rules Constitutional Privacy Protections Apply to Cellphone Users’ Location History appeared first on SecurityWeek.",
       "source": "securityweek.com",
       "first_seen": "2026-06-30T13:02:52Z",
-      "last_seen": "2026-06-30T18:27:59Z"
+      "last_seen": "2026-06-30T20:50:16Z"
     },
     {
       "id": "b2eb3637d54f0dbb27ab9374ec01123a2bde9204",
@@ -300,7 +320,7 @@
       "description": "American insurance giant Aflac has disclosed a new data breach after attackers breached its Japan subsidiary's systems and stole personal and bank account information. [...]",
       "source": "bleepingcomputer.com",
       "first_seen": "2026-06-30T13:02:52Z",
-      "last_seen": "2026-06-30T18:27:59Z"
+      "last_seen": "2026-06-30T20:50:16Z"
     },
     {
       "id": "6ba40b7923fe21c7d4d83caee314a6a256021a9f",
@@ -320,7 +340,7 @@
       "description": "Microsoft has introduced a new Teams admin policy that allows organizers to prevent third-party bots from joining meetings without approval. [...]",
       "source": "bleepingcomputer.com",
       "first_seen": "2026-06-30T16:14:56Z",
-      "last_seen": "2026-06-30T18:27:59Z"
+      "last_seen": "2026-06-30T20:50:16Z"
     },
     {
       "id": "db9f5a307b567a53d00eb26fc87718d9659c6d8c",
@@ -340,7 +360,7 @@
       "description": "Kali Linux 2026.2, the second release of the year, is now available for download, featuring 9 new tools and numerous Kali NetHunter improvements. [...]",
       "source": "bleepingcomputer.com",
       "first_seen": "2026-06-30T10:23:32Z",
-      "last_seen": "2026-06-30T18:27:59Z"
+      "last_seen": "2026-06-30T20:50:16Z"
     },
     {
       "id": "ffbba8613923fb15a0d4ae4ec4563351f00be920",
