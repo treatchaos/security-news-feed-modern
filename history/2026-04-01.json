@@ -1,6 +1,6 @@
 {
   "date": "2026-04-01",
-  "count": 54,
+  "count": 44,
   "items": [
     {
       "id": "703d298213d6c6b3c4f2a0d97bee686b2d75fb16",
@@ -373,16 +373,6 @@
       "last_seen": "2026-04-01T11:43:00Z"
     },
     {
-      "id": "d10050996469ca59f068de426a84027d85f200a7",
-      "title": "North Korean Hackers Compromise Widely Used Axios Package to Infect Windows, macOS, and Linux Systems",
-      "link": "https://cybersecuritynews.com/north-korean-hackers-compromise-widely-used-axios-package/",
-      "date": "2026-04-01T09:00:01Z",
-      "description": "A major software supply chain attack has struck the JavaScript ecosystem after threat actors slipped a malicious dependency into the widely used axios NPM package. The poisoned releases, axios 1.14.1 and 0.30.4, pulled in plain-crypto-js and quietly delivered the WAVESHAPER.V2 backdoor to Windows, macOS, and Linux systems during installation. The incident is serious because axios […] The post…",
-      "source": "cybersecuritynews.com",
-      "first_seen": "2026-04-01T09:58:22Z",
-      "last_seen": "2026-04-01T09:58:22Z"
-    },
-    {
       "id": "085b515503e54bf0744f0f92bbfcbcd1e727d583",
       "title": "North Korean Hackers Compromise Popular Axios Package to Infect Windows, macOS, and Linux",
       "link": "https://cybersecuritynews.com/north-korean-hackers-compromise-widely-used-axios-package/",
@@ -391,96 +381,6 @@
       "source": "cybersecuritynews.com",
       "first_seen": "2026-04-01T10:52:13Z",
       "last_seen": "2026-04-01T10:52:13Z"
-    },
-    {
-      "id": "2f436e94833bca1ea759c732c4138d5bdf47955b",
-      "title": "Hackers Backdoor Telnyx Python SDK on PyPI to Steal Credentials Across Windows, macOS, and Linux",
-      "link": "https://cybersecuritynews.com/hackers-backdoor-telnyx-python-sdk-on-pypi/",
-      "date": "2026-04-01T08:48:26Z",
-      "description": "A threat actor group known as TeamPCP has been caught backdooring the Telnyx Python SDK on PyPI — a popular cloud communications library with over 700,000 downloads in February alone. On March 27, 2026, two malicious versions of the package, 4.87.1 and 4.87.2, were quietly published to the Python Package Index without any matching commits […] The post Hackers Backdoor Telnyx Python SDK on PyPI…",
-      "source": "cybersecuritynews.com",
-      "first_seen": "2026-04-01T09:58:22Z",
-      "last_seen": "2026-04-01T10:52:13Z"
-    },
-    {
-      "id": "bc6d479051dfb3be0e72b8cd00a393e79824d1c2",
-      "title": "Axios NPM Package Breached in North Korean Supply Chain Attack",
-      "link": "https://www.securityweek.com/axios-npm-package-breached-in-north-korean-supply-chain-attack/",
-      "date": "2026-04-01T08:45:47Z",
-      "description": "A long-lived NPM access token was used to bypass the GitHub Actions OIDC-based CI/CD publishing workflow and push backdoored package versions. The post Axios NPM Package Breached in North Korean Supply Chain Attack appeared first on SecurityWeek.",
-      "source": "securityweek.com",
-      "first_seen": "2026-04-01T09:58:22Z",
-      "last_seen": "2026-04-01T14:27:43Z"
-    },
-    {
-      "id": "31f697a0c96b0395eae5e3f5fa6e4763d740b3d6",
-      "title": "New npm Supply Chain Attack Uses undicy-http to Deploy Screen-Streaming RAT and Browser Injector",
-      "link": "https://cybersecuritynews.com/new-npm-supply-chain-attack-uses-undicy-http/",
-      "date": "2026-04-01T07:55:34Z",
-      "description": "A malicious npm package named undicy-http has surfaced inside the Node.js developer ecosystem, quietly compromising machines of developers who mistakenly install it. The package impersonates undici, the official HTTP client library bundled with Node.js that handles millions of weekly downloads. Despite sharing a near-identical name, undicy-http contains zero HTTP client functionality. Instead,…",
-      "source": "cybersecuritynews.com",
-      "first_seen": "2026-04-01T08:08:39Z",
-      "last_seen": "2026-04-01T10:52:13Z"
-    },
-    {
-      "id": "5ec652f6dc172f5b9d04a5b9656d5ab9512865fc",
-      "title": "Google Attributes Axios npm Supply Chain Attack to North Korean Group UNC1069",
-      "link": "https://thehackernews.com/2026/04/google-attributes-axios-npm-supply.html",
-      "date": "2026-04-01T07:44:00Z",
-      "description": "Google has formally attributed the supply chain compromise of the popular Axios npm package to a financially motivated North Korean threat activity cluster tracked as UNC1069. \"We have attributed the attack to a suspected North Korean threat actor we track as UNC1069,\" John Hultquist, chief analyst at Google Threat Intelligence Group (GTIG), told The Hacker News in a statement. \"North Korean",
-      "source": "thehackernews.com",
-      "first_seen": "2026-04-01T09:58:22Z",
-      "last_seen": "2026-04-01T12:53:43Z"
-    },
-    {
-      "id": "36ee4c6cda12b288adbe381d97304ab45e66b064",
-      "title": "Google Addresses Vertex Security Issues After Researchers Weaponize AI Agents",
-      "link": "https://www.securityweek.com/google-addresses-vertex-security-issues-after-researchers-weaponize-ai-agent/",
-      "date": "2026-04-01T07:43:16Z",
-      "description": "Palo Alto Networks has disclosed the details of its analysis of Google Cloud Platform’s Vertex AI. The post Google Addresses Vertex Security Issues After Researchers Weaponize AI Agents appeared first on SecurityWeek.",
-      "source": "securityweek.com",
-      "first_seen": "2026-04-01T08:08:39Z",
-      "last_seen": "2026-04-01T14:27:43Z"
-    },
-    {
-      "id": "7c55d32916f72a81d3a2dad8a824e147ac5876d5",
-      "title": "PNG Vulnerabilities Allow Attackers to Trigger Process Crashes, Leak Sensitive Information",
-      "link": "https://cybersecuritynews.com/png-vulnerabilities/",
-      "date": "2026-04-01T07:21:04Z",
-      "description": "Two high-severity vulnerabilities have been discovered in libpng, the widely used reference library for reading and writing PNG images. These flaws allow attackers to trigger process crashes, leak sensitive information, and potentially execute arbitrary code by convincing a system to process a crafted PNG file. The vulnerabilities affect any software that parses malformed images, making […] The…",
-      "source": "cybersecuritynews.com",
-      "first_seen": "2026-04-01T08:08:39Z",
-      "last_seen": "2026-04-01T09:58:22Z"
-    },
-    {
-      "id": "57b9d164a1f37455bf2eab6c7313230cba6ef363",
-      "title": "XLoader Malware Upgrades Obfuscation Tactics and Hides C2 Traffic Behind Decoy Servers",
-      "link": "https://cybersecuritynews.com/xloader-malware-upgrades-obfuscation-tactics/",
-      "date": "2026-04-01T06:46:51Z",
-      "description": "A well-known information-stealing malware called XLoader has received significant upgrades in its latest versions, making it considerably harder to detect and analyze than before. Originally derived from a malware family known as FormBook, which first surfaced in 2016, XLoader was rebranded and relaunched in early 2020, and since then, its developers have consistently pushed new […] The post…",
-      "source": "cybersecuritynews.com",
-      "first_seen": "2026-04-01T08:08:39Z",
-      "last_seen": "2026-04-01T09:58:22Z"
-    },
-    {
-      "id": "cc5eb8a95205d61e3da61d7195649b6072af5e8f",
-      "title": "Google Drive ransomware detection now on by default for paying users",
-      "link": "https://www.bleepingcomputer.com/news/security/google-drive-ransomware-detection-now-on-by-default-for-paying-users/",
-      "date": "2026-04-01T06:35:34Z",
-      "description": "Google announced that the AI-powered Google Drive ransomware detection feature has reached general availability and is now enabled by default for all paying users. [...]",
-      "source": "bleepingcomputer.com",
-      "first_seen": "2026-04-01T08:08:39Z",
-      "last_seen": "2026-04-01T18:44:47Z"
-    },
-    {
-      "id": "43a42dc52f3288e2f4b2d38abde882d15fe0ac2f",
-      "title": "Claude Code Source Leaked via npm Packaging Error, Anthropic Confirms",
-      "link": "https://thehackernews.com/2026/04/claude-code-tleaked-via-npm-packaging.html",
-      "date": "2026-04-01T06:12:00Z",
-      "description": "Anthropic on Tuesday confirmed that internal code for its popular artificial intelligence (AI) coding assistant, Claude Code, had been inadvertently released due to a human error. \"No sensitive customer data or credentials were involved or exposed,\" an Anthropic spokesperson said in a statement shared with CNBC News. \"This was a release packaging issue caused by human error, not a security",
-      "source": "thehackernews.com",
-      "first_seen": "2026-04-01T08:08:39Z",
-      "last_seen": "2026-04-01T12:53:43Z"
     },
     {
       "id": "a779eb8c1acda1af38298cfede81e9d869c5fb4e",
