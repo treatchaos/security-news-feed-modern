@@ -1,7 +1,49 @@
 {
-  "last_updated": "2026-07-01T19:28:46Z",
-  "count": 30,
+  "last_updated": "2026-07-01T21:16:29Z",
+  "count": 35,
   "items": [
+    {
+      "title": "Kubota says hackers had month-long access to network systems",
+      "link": "https://www.bleepingcomputer.com/news/security/kubota-says-hackers-had-month-long-access-to-network-systems/",
+      "date": "2026-07-01T21:09:06Z",
+      "description": "Kubota North America Corporation disclosed that hackers had access to some of its network systems for more than a month earlier this year. [...]",
+      "source": "bleepingcomputer.com"
+    },
+    {
+      "title": "Crafty Phishing Campaigns Auto-Adapt to Victim's Device, OS",
+      "link": "https://www.darkreading.com/application-security/phishing-campaigns-auto-adapt-victims-device-os",
+      "date": "2026-07-01T20:31:21Z",
+      "description": "Attackers fingerprint victims through user-agent data to deliver OS-specific payloads, increasing compromise rates and campaign profitability.",
+      "source": "darkreading.com"
+    },
+    {
+      "title": "New ChocoPoC malware targets researchers via trojanized PoC exploits",
+      "link": "https://www.bleepingcomputer.com/news/security/new-chocopoc-malware-targets-researchers-via-trojanized-poc-exploits/",
+      "date": "2026-07-01T20:08:13Z",
+      "description": "Multiple weaponized proof-of-concept (PoC) exploits on GitHub were found delivering a Python-based remote access trojan (RAT) named ChocoPoC that can execute commands and steal sensitive data in a campaign believed to target cybersecurity researchers. [...]",
+      "source": "bleepingcomputer.com"
+    },
+    {
+      "title": "And the Winner in Dominant Malware Delivery? ClickFix",
+      "link": "https://www.darkreading.com/vulnerabilities-threats/winner-dominant-malware-delivery-clickfix",
+      "date": "2026-07-01T19:46:34Z",
+      "description": "Researchers say the highly effective social engineering technique is no longer the exception for malware attacks — it's now the rule.",
+      "source": "darkreading.com"
+    },
+    {
+      "title": "Unpatched Argo CD Repo-Server Flaw Could Let Attackers Take Over Kubernetes Clusters",
+      "link": "https://thehackernews.com/2026/07/unpatched-argo-cd-repo-server-flaw.html",
+      "date": "2026-07-01T19:40:06Z",
+      "description": "Argo CD, a widely used tool for deploying software to Kubernetes, has an unpatched flaw in its repo-server component that lets an unauthenticated attacker run code, provided they can reach the component's internal network port. Synacktiv, which found the bug, says it can lead to a full cluster takeover. There is no fix and no CVE. The firm says it reported the flaw to Argo CD's maintainers in",
+      "source": "thehackernews.com"
+    },
+    {
+      "title": "19-Year-Old Scattered Spider Suspect Extradited to Face U.S. Hacking Charges",
+      "link": "https://thehackernews.com/2026/07/19-year-old-scattered-spider-suspect.html",
+      "date": "2026-07-01T19:28:07Z",
+      "description": "A teenager accused of belonging to the hacking group Scattered Spider has been extradited from Finland to face U.S. charges of conspiracy, computer intrusion, and fraud, the U.S. Department of Justice announced on July 1. Peter Stokes, 19, a dual U.S. and Estonian citizen, appeared in a Chicago federal court on June 30, where a judge ordered him held in custody. Finnish police",
+      "source": "thehackernews.com"
+    },
     {
       "title": "Microsoft Adds New Teams Controls to Block Unauthorized AI Bots From Meetings",
       "link": "https://www.securityweek.com/microsoft-adds-new-teams-controls-to-block-unauthorized-ai-bots-from-meetings/",
@@ -45,17 +87,31 @@
       "source": "bleepingcomputer.com"
     },
     {
+      "title": "Indian Govt Halts Meta’s WhatsApp Usernames Rollout Over Fraud Concerns",
+      "link": "https://cybersecuritynews.com/indian-govt-whatsapp-usernames/",
+      "date": "2026-07-01T16:33:37Z",
+      "description": "The Indian government has issued a formal notice to WhatsApp LLC (Meta), directing the platform to justify why regulatory action should not be taken against its newly announced “usernames” feature and instructing the company not to roll it out in India until consultations are satisfactorily concluded. The letter, addressed to WhatsApp’s Chief Compliance Officer for […] The post Indian Govt Halts…",
+      "source": "cybersecuritynews.com"
+    },
+    {
+      "title": "Critical Cursor IDE RCE Vulnerabilities Enable Prompt Injection in Zero-Click",
+      "link": "https://cybersecuritynews.com/cursor-ide-rce-vulnerabilities/",
+      "date": "2026-07-01T15:59:45Z",
+      "description": "Two critical remote code execution (RCE) vulnerabilities in Cursor IDE, the AI-powered development environment used by more than half of Fortune 500 companies. Cato AI Labs has disclosed two flaws, dubbed ” DuneSlide, ” both of which carry a 9.8 CVSS severity score and were assigned CVE-2026-50548 and CVE-2026-50549, allowing attackers to break out of […] The post Critical Cursor IDE RCE…",
+      "source": "cybersecuritynews.com"
+    },
+    {
+      "title": "Turning Indicators into Intelligence in OpenCTI with Criminal IP",
+      "link": "https://cybersecuritynews.com/opencti-criminal-ip-threat-intelligence/",
+      "date": "2026-07-01T15:43:19Z",
+      "description": "Torrance, California, USA, July 1st, 2026, CyberNewswire Cyber threat intelligence becomes more valuable when indicators are enriched with context that supports investigation, correlation, and decision-making. Through the Criminal IP integration with OpenCTI, security teams can transform IP addresses, domains, and URLs from isolated indicators into structured intelligence within the OpenCTI…",
+      "source": "cybersecuritynews.com"
+    },
+    {
       "title": "Ousaban Banking Trojan Targets Iberian Bank Users with Fake PDF Lures",
       "link": "https://thehackernews.com/2026/07/ousaban-banking-trojan-targets-iberian.html",
       "date": "2026-07-01T15:26:55Z",
       "description": "A Brazilian banking trojan called Ousaban is going after Windows users who bank in Spain and Portugal. Fortinet's FortiGuard Labs identified the campaign in May 2026. It opens with a phishing PDF disguised as a corrupted file, checks that the visitor is really in Spain or Portugal, and hides its real payload inside an image. The goal is the usual one: steal banking logins and take",
-      "source": "thehackernews.com"
-    },
-    {
-      "title": "Adobe Patches 7 CVSS 10.0 Flaws in ColdFusion and Campaign Classic",
-      "link": "https://thehackernews.com/2026/07/adobe-patches-7-cvss-100-flaws-in.html",
-      "date": "2026-07-01T15:25:46Z",
-      "description": "Adobe has released patches for multiple maximum-severity security flaws impacting Adobe ColdFusion and Adobe Campaign Classic. The ColdFusion updates \"resolves critical and important vulnerabilities that could lead to arbitrary code execution, privilege escalation, arbitrary file system read, and security feature bypass,\" Adobe said in an alert released Tuesday. The vulnerabilities are listed",
       "source": "thehackernews.com"
     },
     {
@@ -66,18 +122,18 @@
       "source": "darkreading.com"
     },
     {
-      "title": "Critical Cursor Flaws Could Let Prompt Injection Escape Sandbox and Run Commands",
-      "link": "https://thehackernews.com/2026/07/critical-cursor-flaws-could-let-prompt.html",
-      "date": "2026-07-01T14:42:54Z",
-      "description": "Two flaws in Cursor, an AI code editor, could let a single, ordinary-looking prompt break out of the editor's safety sandbox and run any command on a developer's computer. There is no click to fall for and no approval box to ignore. Cato AI Labs found the pair and named them DuneSlide. They are tracked as CVE-2026-50548 and CVE-2026-50549, both rated 9.8 out of 10 (or 9.3",
-      "source": "thehackernews.com"
+      "title": "Massive Password Stealing Attack Targeting Microsoft 365 Users With 81 Million Login Attempts",
+      "link": "https://cybersecuritynews.com/microsofts-azure-password-spray-attack/",
+      "date": "2026-07-01T15:11:40Z",
+      "description": "A large-scale automated password spray campaign is actively abusing Microsoft’s Azure Command-Line Interface (CLI) and legacy OAuth flows to compromise Entra ID accounts, despite organizations having multi-factor authentication (MFA) in place. Huntress is tracking a sustained password-and-token spray campaign targeting Microsoft 365 and Azure CLI logins, with activity spiking between June 12 and…",
+      "source": "cybersecuritynews.com"
     },
     {
-      "title": "Turning Indicators into Intelligence in OpenCTI with Criminal IP",
-      "link": "https://www.bleepingcomputer.com/news/security/turning-indicators-into-intelligence-in-opencti-with-criminal-ip/",
-      "date": "2026-07-01T14:01:11Z",
-      "description": "Threat intelligence is only as useful as the context behind it. Criminal IP explains how its integration enriches threat indicators in OpenCTI with risk scoring, infrastructure intelligence, and phishing analysis. [...]",
-      "source": "bleepingcomputer.com"
+      "title": "The Business Cost of Alert Fatigue: How to Reduce Delays, Escalations for Your SOC as 70% Alerts are Uninvestigated",
+      "link": "https://cybersecuritynews.com/the-business-cost-of-alert-fatigue/",
+      "date": "2026-07-01T14:54:48Z",
+      "description": "Alert fatigue is no longer just an analyst problem. It has become a business problem. Every unnecessary investigation, delayed escalation, or manual validation consumes valuable SOC resources and extends the time real threats remain active. As organizations face growing alert volumes without proportional team growth, reducing investigation time has become just as important as improving…",
+      "source": "cybersecuritynews.com"
     },
     {
       "title": "Safe Events Start With Threat Intel and Digital Security",
@@ -85,13 +141,6 @@
       "date": "2026-07-01T13:00:00Z",
       "description": "Planning ahead to defend against cyber threats is the work that keeps events uneventful.",
       "source": "darkreading.com"
-    },
-    {
-      "title": "Over 900 Oracle E-Business instances exposed to ongoing attacks",
-      "link": "https://www.bleepingcomputer.com/news/security/over-900-oracle-e-business-instances-exposed-to-ongoing-attacks/",
-      "date": "2026-07-01T12:30:01Z",
-      "description": "Over 900 Oracle E-Business Suite (EBS) instances have been found exposed online amid ongoing attacks exploiting a critical security flaw. [...]",
-      "source": "bleepingcomputer.com"
     },
     {
       "title": "Adobe Patches Critical ColdFusion, Campaign Classic Vulnerabilities",
@@ -126,20 +175,6 @@
       "link": "https://www.darkreading.com/threat-intelligence/china-linked-group-targets-southeast-asia-critical-systems",
       "date": "2026-07-01T01:00:01Z",
       "description": "The group compromised at least 10 regional organizations, including two state-owned entities, and deployed a new backdoor.",
-      "source": "darkreading.com"
-    },
-    {
-      "title": "Fake Bug Report Hijacks AI Coding Agents at Scale",
-      "link": "https://www.darkreading.com/cyber-risk/fake-bug-report-hijacks-ai-coding-agents",
-      "date": "2026-06-30T21:37:50Z",
-      "description": "\"Agentjacking\" is the latest demonstration of how easily attackers can exploit an AI agent's inability to differentiate between content and instructions.",
-      "source": "darkreading.com"
-    },
-    {
-      "title": "Attackers Seize Exposed AI Endpoints to Power Offensive Ops",
-      "link": "https://www.darkreading.com/cloud-security/attackers-hijack-exposed-ai-endpoints-power-offensive-ops",
-      "date": "2026-06-30T21:01:58Z",
-      "description": "Threat actors don't need any special authentication to reach a target endpoint — they just need to know where it is.",
       "source": "darkreading.com"
     },
     {
