@@ -1,41 +1,48 @@
 {
-  "last_updated": "2026-07-02T06:29:16Z",
-  "count": 35,
+  "last_updated": "2026-07-02T09:51:03Z",
+  "count": 30,
   "items": [
+    {
+      "title": "AI Agent Exploits Langflow RCE to Automate Database Ransomware Attack",
+      "link": "https://thehackernews.com/2026/07/ai-agent-exploits-langflow-rce-to.html",
+      "date": "2026-07-02T09:13:13Z",
+      "description": "Security firm Sysdig says it has found what it believes is the first ransomware attack run from start to finish by an AI agent. Its Threat Research Team calls the operator JADEPUFFER and says a large language model handled the whole job: breaking in, stealing credentials, moving deeper into the network, then encrypting and wiping a company's production database. Ransomware has always",
+      "source": "thehackernews.com"
+    },
+    {
+      "title": "Alleged Scattered Spider hacker extradited to the United States",
+      "link": "https://www.bleepingcomputer.com/news/security/alleged-scattered-spider-hacker-extradited-to-the-united-states/",
+      "date": "2026-07-02T08:58:25Z",
+      "description": "A dual United States and Estonian citizen has been extradited to the U.S. to face charges alleging he was a member of the Scattered Spider hacking collective. [...]",
+      "source": "bleepingcomputer.com"
+    },
+    {
+      "title": "FortiBleed Credential Theft Linked to INC and Lynx Ransomware Operations",
+      "link": "https://thehackernews.com/2026/07/fortibleed-credential-theft-linked-to.html",
+      "date": "2026-07-02T08:00:49Z",
+      "description": "The recently discovered financially-motivated FortiBleed campaign has been attributed to INC and Lynx ransomware operations, indicating that the verified, stolen credentials were intended for follow-on intrusions. \"An operator tied to FortiBleed's infrastructure was found actively working negotiation panels for both groups, tying mass FortiGate credential theft directly to ransomware deployment",
+      "source": "thehackernews.com"
+    },
+    {
+      "title": "New ChocoPoC RAT Targets Vulnerability Researchers via Fake PoC Exploit Repos",
+      "link": "https://thehackernews.com/2026/07/new-chocopoc-rat-targets-vulnerability.html",
+      "date": "2026-07-02T07:24:23Z",
+      "description": "Attackers are hiding a data-stealing trojan inside fake exploit code aimed at the people who hunt bugs for a living. The malware, called ChocoPoC, travels in Python proof-of-concept (PoC) repositories on GitHub that claim to exploit hot new CVEs. Run one, and it quietly lifts your saved passwords, browser cookies, and files, then hands the attacker a shell on your machine. YesWeHack and",
+      "source": "thehackernews.com"
+    },
+    {
+      "title": "SharePoint RCE CVE-2026-45659 Added to CISA KEV After Active Exploitation",
+      "link": "https://thehackernews.com/2026/07/sharepoint-rce-cve-2026-45659-added-to.html",
+      "date": "2026-07-02T05:46:45Z",
+      "description": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Wednesday added a high-severity flaw impacting Microsoft SharePoint Server to its Known Exploited Vulnerabilities (KEV) catalog, citing evidence of active exploitation. The vulnerability, tracked as CVE-2026-45659 (CVSS score: 8.8), is a case of remote code execution arising from the deserialization of untrusted data. The issue",
+      "source": "thehackernews.com"
+    },
     {
       "title": "Medtronic notifies customers impacted by ShinyHunters data breach",
       "link": "https://www.bleepingcomputer.com/news/security/medtronic-notifies-customers-impacted-by-shinyhunters-data-breach/",
       "date": "2026-07-02T04:25:42Z",
       "description": "Healthcare device firm Medtronic is notifying affected customers about a data breach that exposed their personal data to an unauthorized third party. [...]",
       "source": "bleepingcomputer.com"
-    },
-    {
-      "title": "FortiBleed Password Stealing Attack Linked to INC and Lynx Ransomware Operations",
-      "link": "https://cybersecuritynews.com/fortibleed-password-stealing-attack/",
-      "date": "2026-07-02T04:06:33Z",
-      "description": "FortiBleed credential-harvesting campaign, which has compromised more than 430,000 FortiGate firewalls worldwide, is directly feeding two active ransomware-as-a-service operations, INC Ransom and Lynx. SOCRadar’s Threat Research Unit identified an operator with access to FortiBleed infrastructure actively logged into negotiation panels for both ransomware brands, marking the first confirmed…",
-      "source": "cybersecuritynews.com"
-    },
-    {
-      "title": "Alleged Scattered Spider Member Extradited to the US for His Role in Hacking 100+ Networks",
-      "link": "https://cybersecuritynews.com/alleged-scattered-spider-member-extradited/",
-      "date": "2026-07-02T03:26:36Z",
-      "description": "A dual U.S.-Estonian citizen accused of belonging to the notorious Scattered Spider hacking collective has been extradited from Finland to face federal charges in the Northern District of Illinois, the Department of Justice announced Tuesday. Peter Stokes, 19, was arrested by Finnish authorities in April under an Interpol Red Notice and extradited to the United […] The post Alleged Scattered…",
-      "source": "cybersecuritynews.com"
-    },
-    {
-      "title": "WhatsApp Username Reservations Go Live – What Are the Security Concerns for 2 Billion Users",
-      "link": "https://cybersecuritynews.com/whatsapp-username-reservations-go-live/",
-      "date": "2026-07-02T03:03:46Z",
-      "description": "WhatsApp has begun allowing users to reserve usernames ahead of a broader feature launch planned for later this year, prompting a wave of questions about security, impersonation risk, and account linkage that security researchers should be tracking closely. According to WhatsApp, usernames are optional, not mandatory, meaning existing phone-number-based identification remains the default…",
-      "source": "cybersecuritynews.com"
-    },
-    {
-      "title": "CISA Warns of SimpleHelp Authentication Bypass Vulnerability Exploited in Attacks",
-      "link": "https://cybersecuritynews.com/simplehelp-auth-vulnerability-exploited/",
-      "date": "2026-07-02T02:36:37Z",
-      "description": "CISA has issued a warning about a critical authentication bypass vulnerability in SimpleHelp that is actively being exploited in the wild, raising concerns among organizations relying on the remote support software. The vulnerability, tracked as CVE-2026-48558, affects SimpleHelp deployments configured with OpenID Connect (OIDC) authentication. According to the advisory, the flaw stems from…",
-      "source": "cybersecuritynews.com"
     },
     {
       "title": "FortiBleed credential-theft campaign linked to Lynx ransomware",
@@ -80,53 +87,11 @@
       "source": "thehackernews.com"
     },
     {
-      "title": "19-Year-Old Scattered Spider Suspect Extradited to Face U.S. Hacking Charges",
-      "link": "https://thehackernews.com/2026/07/19-year-old-scattered-spider-suspect.html",
-      "date": "2026-07-01T19:28:07Z",
-      "description": "A teenager accused of belonging to the hacking group Scattered Spider has been extradited from Finland to face U.S. charges of conspiracy, computer intrusion, and fraud, the U.S. Department of Justice announced on July 1. Peter Stokes, 19, a dual U.S. and Estonian citizen, appeared in a Chicago federal court on June 30, where a judge ordered him held in custody. Finnish police",
-      "source": "thehackernews.com"
-    },
-    {
       "title": "Microsoft Adds New Teams Controls to Block Unauthorized AI Bots From Meetings",
       "link": "https://www.securityweek.com/microsoft-adds-new-teams-controls-to-block-unauthorized-ai-bots-from-meetings/",
       "date": "2026-07-01T18:08:15Z",
       "description": "Microsoft's new Teams admin policy requires organizer approval for external AI bots, giving organizations greater visibility and control over automated participants in sensitive meetings. The post Microsoft Adds New Teams Controls to Block Unauthorized AI Bots From Meetings appeared first on SecurityWeek.",
       "source": "securityweek.com"
-    },
-    {
-      "title": "SEO-Poisoned Software Sites Abuse ScreenConnect to Deploy AsyncRAT",
-      "link": "https://thehackernews.com/2026/07/seo-poisoned-software-sites-abuse.html",
-      "date": "2026-07-01T17:53:06Z",
-      "description": "Unknown threat actors are leveraging the ScreenConnect remote access tool as a way to deploy and execute AsyncRAT. Kaspersky said the activity is part of a \"massive, multi-domain, multi-language\" campaign that distributes malicious installer archives hosted on spoofed websites. These installers masquerade as popular software like OBS Studio, DNS Jumper, DS4Windows, and Bandicam, among others.",
-      "source": "thehackernews.com"
-    },
-    {
-      "title": "DHS confirms hackers breached HSIN info-sharing platform",
-      "link": "https://www.bleepingcomputer.com/news/security/dhs-confirms-hackers-breached-hsin-info-sharing-platform/",
-      "date": "2026-07-01T17:32:22Z",
-      "description": "The Department of Homeland Security is investigating a cyberattack that compromised the Homeland Security Information Network (HSIN), a sensitive information-sharing platform used by federal, state, local, and private-sector partners. [...]",
-      "source": "bleepingcomputer.com"
-    },
-    {
-      "title": "VEIL#DROP Malware Chain Uses Blogger Platform to Deliver PureLogs Stealer",
-      "link": "https://thehackernews.com/2026/07/veildrop-malware-chain-uses-blogger.html",
-      "date": "2026-07-01T17:18:50Z",
-      "description": "Cybersecurity researchers have flagged a new multi-stage malware delivery attack chain that uses social engineering and Blogger pages to deliver an information stealer called PureLogs. The activity has been codenamed VEIL#DROP by Securonix. It's suspected that the initial payloads are distributed either via spear-phishing or a drive-by compromise, which occurs when an unsuspecting user lands on",
-      "source": "thehackernews.com"
-    },
-    {
-      "title": "Indian Govt Halts Meta’s WhatsApp Usernames Rollout Over Fraud Concerns",
-      "link": "https://cybersecuritynews.com/indian-govt-whatsapp-usernames/",
-      "date": "2026-07-01T16:33:37Z",
-      "description": "The Indian government has issued a formal notice to WhatsApp LLC (Meta), directing the platform to justify why regulatory action should not be taken against its newly announced “usernames” feature and instructing the company not to roll it out in India until consultations are satisfactorily concluded. The letter, addressed to WhatsApp’s Chief Compliance Officer for […] The post Indian Govt Halts…",
-      "source": "cybersecuritynews.com"
-    },
-    {
-      "title": "Ousaban Banking Trojan Targets Iberian Bank Users with Fake PDF Lures",
-      "link": "https://thehackernews.com/2026/07/ousaban-banking-trojan-targets-iberian.html",
-      "date": "2026-07-01T15:26:55Z",
-      "description": "A Brazilian banking trojan called Ousaban is going after Windows users who bank in Spain and Portugal. Fortinet's FortiGuard Labs identified the campaign in May 2026. It opens with a phishing PDF disguised as a corrupted file, checks that the visitor is really in Spain or Portugal, and hides its real payload inside an image. The goal is the usual one: steal banking logins and take",
-      "source": "thehackernews.com"
     },
     {
       "title": "'Phantom Squatting': An Emerging AI-Driven Supply Chain Threat",
