@@ -1,13 +1,76 @@
 {
-  "last_updated": "2026-07-02T19:07:58Z",
-  "count": 30,
+  "last_updated": "2026-07-02T20:52:52Z",
+  "count": 35,
   "items": [
+    {
+      "title": "Apple Reverses Age-Old Patch Policy to Keep Up With AI",
+      "link": "https://www.darkreading.com/cybersecurity-operations/apple-patch-policy-ai",
+      "date": "2026-07-02T19:31:58Z",
+      "description": "Expect more compressed patching cycles from Apple going forward, as attackers leverage artificial intelligence to reduce time to exploit.",
+      "source": "darkreading.com"
+    },
+    {
+      "title": "FortiBleed Actors Collaborating With Inc, Lynx Ransomware Gangs",
+      "link": "https://www.darkreading.com/threat-intelligence/fortibleed-actors-inc-lynx-ransomware-gangs",
+      "date": "2026-07-02T19:11:33Z",
+      "description": "After gaining a foothold in thousands of Fortinet firewalls, the attackers are starting to monetize that access, and are also piling on a Nextcloud zero-day bug.",
+      "source": "darkreading.com"
+    },
+    {
+      "title": "Google Disrupts NetNut Residential Proxy Network Spanning 2 Million Home Devices",
+      "link": "https://thehackernews.com/2026/07/google-disrupts-netnut-residential.html",
+      "date": "2026-07-02T18:54:06Z",
+      "description": "Google has significantly degraded NetNut, one of the biggest networks that turns home devices into rented relays for other people's traffic. Working with the FBI, Lumen, and others, Google's Threat Intelligence Group (GTIG) said this week it had reduced the network's pool of usable devices by millions. Google identifies NetNut, also tracked as Popa, as a network spread across home",
+      "source": "thehackernews.com"
+    },
+    {
+      "title": "Ransomware Groups Turn to Citrix Bleed 2, BYOVD, and Supply Chain Credentials",
+      "link": "https://thehackernews.com/2026/07/ransomware-groups-turn-to-citrix-bleed.html",
+      "date": "2026-07-02T18:30:33Z",
+      "description": "Threat actors associated with the Anubis ransomware operation have been observed exploiting the Citrix Bleed 2 (CVE-2025-5777) vulnerability to obtain initial access. \"Although tactics differ between affiliates, common patterns emerged in tradecraft through use of legitimate Remote Management and Monitoring (RMM) tooling, credential access, and hands-on-keyboard procedures used for lateral",
+      "source": "thehackernews.com"
+    },
+    {
+      "title": "AsyncRAT Campaign Uses DLL Sideloading and ScreenConnect for Stealthy Remote Access",
+      "link": "https://cybersecuritynews.com/asyncrat-campaign-uses-dll-sideloading/",
+      "date": "2026-07-02T18:10:41Z",
+      "description": "A stealthy campaign is turning trusted remote access software into a weapon against everyday users and businesses. Attackers have hidden the AsyncRAT trojan inside fake software installers, letting it slip past basic security checks. The campaign relies on DLL sideloading and a legitimate remote tool called ScreenConnect, making it hard for victims to notice anything […] The post AsyncRAT…",
+      "source": "cybersecuritynews.com"
+    },
     {
       "title": "Ransomware Thugs Masquerade as Interpol to Entice Small Biz",
       "link": "https://www.darkreading.com/cyberattacks-data-breaches/attackers-use-interpol-lure-target-small-businesses",
       "date": "2026-07-02T18:07:40Z",
       "description": "The ransomware campaign relies on basic social engineering and stretches across multiple regions, including the US, Europe, Middle East, and elsewhere.",
       "source": "darkreading.com"
+    },
+    {
+      "title": "Microsoft 365 Phishing Panel Uses OAuth Device Code Flow to Capture Tokens and Persist Access",
+      "link": "https://cybersecuritynews.com/microsoft-365-phishing-panel-uses-oauth-device-code-flow/",
+      "date": "2026-07-02T17:53:31Z",
+      "description": "A newly uncovered phishing panel called ARToken is giving cybercriminals an easy way to steal Microsoft 365 login sessions without ever touching a password. The tool works by abusing a legitimate Microsoft sign in feature meant for devices without a keyboard or browser, tricking victims into approving a login on the attacker’s behalf. Once that […] The post Microsoft 365 Phishing Panel Uses…",
+      "source": "cybersecuritynews.com"
+    },
+    {
+      "title": "AsyncRAT Campaign Abuses TryCloudflare Tunnels and Python Scripts for Malware Delivery",
+      "link": "https://cybersecuritynews.com/asyncrat-campaign-abuses-trycloudflare-tunnels/",
+      "date": "2026-07-02T17:48:17Z",
+      "description": "AsyncRAT is back in the headlines, and the attackers behind it have found a clever way to hide in plain sight. Instead of relying on suspicious servers, they use Dropbox links and TryCloudflare tunnels, both trusted services that most security tools rarely block. The result is a campaign that slips past everyday defenses while quietly […] The post AsyncRAT Campaign Abuses TryCloudflare Tunnels…",
+      "source": "cybersecuritynews.com"
+    },
+    {
+      "title": "Ousaban Malware Uses Phishing PDFs and VBS Downloader to Target Iberian Banking Users",
+      "link": "https://cybersecuritynews.com/ousaban-malware-uses-phishing-pdfs-and-vbs-downloader/",
+      "date": "2026-07-02T17:27:07Z",
+      "description": "A newly documented campaign is quietly hijacking online banking sessions across Spain and Portugal, and it starts with something as ordinary as a broken PDF file. The malware behind it, known as Ousaban, has resurfaced with a fresh set of tricks aimed squarely at Iberian bank customers running Windows machines. The infection begins when a […] The post Ousaban Malware Uses Phishing PDFs and VBS…",
+      "source": "cybersecuritynews.com"
+    },
+    {
+      "title": "Claude Cowork’s Sandbox Vulnerability Allows Attackers to Run Arbitrary Commands as Root",
+      "link": "https://cybersecuritynews.com/claude-coworks-sandbox-vulnerability/",
+      "date": "2026-07-02T17:25:59Z",
+      "description": "A vulnerability chain in Anthropic’s Claude Cowork allows an attacker with local code execution to escalate privileges and run arbitrary commands as root inside the product’s isolated Linux sandbox, bypassing every layer of defense Anthropic built into the environment. Claude Cowork is Anthropic’s product for knowledge workers, designed to let non-technical users leverage Claude Code […] The…",
+      "source": "cybersecuritynews.com"
     },
     {
       "title": "ThreatsDay: AI Compute Hijacking, Apple Email Flaw, BlueHammer Ransomware + 14 Stories",
@@ -108,20 +171,6 @@
       "source": "securityweek.com"
     },
     {
-      "title": "AI Agent Exploits Langflow RCE to Automate Database Ransomware Attack",
-      "link": "https://thehackernews.com/2026/07/ai-agent-exploits-langflow-rce-to.html",
-      "date": "2026-07-02T09:13:13Z",
-      "description": "Security firm Sysdig says it has found what it believes is the first ransomware attack run from start to finish by an AI agent. Its Threat Research Team calls the operator JADEPUFFER and says a large language model handled the whole job: breaking in, stealing credentials, moving deeper into the network, then encrypting and wiping a company's production database. Ransomware has always",
-      "source": "thehackernews.com"
-    },
-    {
-      "title": "FortiBleed Credential Theft Linked to INC and Lynx Ransomware Operations",
-      "link": "https://thehackernews.com/2026/07/fortibleed-credential-theft-linked-to.html",
-      "date": "2026-07-02T08:00:49Z",
-      "description": "The recently discovered financially-motivated FortiBleed campaign has been attributed to INC and Lynx ransomware operations, indicating that the verified, stolen credentials were intended for follow-on intrusions. \"An operator tied to FortiBleed's infrastructure was found actively working negotiation panels for both groups, tying mass FortiGate credential theft directly to ransomware deployment",
-      "source": "thehackernews.com"
-    },
-    {
       "title": "ZDI-CAN-28837: Hinemos",
       "link": "http://www.zerodayinitiative.com/advisories/upcoming/",
       "date": "2026-07-02T05:00:00Z",
@@ -133,20 +182,6 @@
       "link": "https://www.darkreading.com/application-security/phishing-campaigns-auto-adapt-victims-device-os",
       "date": "2026-07-01T20:31:21Z",
       "description": "Attackers fingerprint victims through user-agent data to deliver OS-specific payloads, increasing compromise rates and campaign profitability.",
-      "source": "darkreading.com"
-    },
-    {
-      "title": "And the Winner in Dominant Malware Delivery? ClickFix",
-      "link": "https://www.darkreading.com/vulnerabilities-threats/winner-dominant-malware-delivery-clickfix",
-      "date": "2026-07-01T19:46:34Z",
-      "description": "Researchers say the highly effective social engineering technique is no longer the exception for malware attacks — it's now the rule.",
-      "source": "darkreading.com"
-    },
-    {
-      "title": "When Too Much Security Data Became the Risk",
-      "link": "https://www.darkreading.com/cyber-risk/too-much-security-data-risk",
-      "date": "2026-07-01T15:44:41Z",
-      "description": "Rapid growth turned routine firewall logs into a security and budget liability. One CISO used artificial intelligence to filter what data truly belongs in the SIEM.",
       "source": "darkreading.com"
     },
     {
