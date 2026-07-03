@@ -1,7 +1,67 @@
 {
   "date": "2026-07-03",
-  "count": 5,
+  "count": 11,
   "items": [
+    {
+      "id": "4d82ae6ee00d2df3d7a15a7034e5fcdd01a64a04",
+      "title": "Multiple WatchGuard Firebox OS Vulnerabilities Enable Arbitrary Code Execution Attacks",
+      "link": "https://cybersecuritynews.com/watchguard-firebox-os-vulnerabilities/",
+      "date": "2026-07-03T08:32:13Z",
+      "description": "Multiple high‑severity vulnerabilities in WatchGuard Firebox devices running Fireware OS could let authenticated attackers execute arbitrary code and take full control of affected appliances. WatchGuard has disclosed three high‑impact vulnerabilities in Fireware OS affecting Firebox firewall appliances, all scored 8.6 under CVSS v4.0 and already patched in recent firmware releases. Tracked as…",
+      "source": "cybersecuritynews.com",
+      "first_seen": "2026-07-03T08:47:06Z",
+      "last_seen": "2026-07-03T08:47:06Z"
+    },
+    {
+      "id": "7b809dfcae8d467bfd01056c9b82af027e81e60a",
+      "title": "North Korea-Linked Hackers Hide JavaScript Loaders in Open Source Repositories",
+      "link": "https://cybersecuritynews.com/north-korea-linked-hackers-hide-javascript-loaders/",
+      "date": "2026-07-03T08:22:05Z",
+      "description": "A new wave of supply chain attacks is spreading across the open source world, and this time the target is developers themselves. Security researchers have uncovered a campaign called PolinRider that hides malicious JavaScript loaders inside trusted code repositories, waiting for unsuspecting developers to run them. The campaign has been linked to North Korean threat […] The post North…",
+      "source": "cybersecuritynews.com",
+      "first_seen": "2026-07-03T08:47:06Z",
+      "last_seen": "2026-07-03T08:47:06Z"
+    },
+    {
+      "id": "c1d1bd7e841391e73497b0820ae89071eb3e4376",
+      "title": "Google, FBI Disrupt NetNut Residential Proxy Network Powered by Millions of Devices",
+      "link": "https://www.securityweek.com/google-fbi-disrupt-netnut-residential-proxy-network-powered-by-millions-of-devices/",
+      "date": "2026-07-03T08:13:22Z",
+      "description": "NetNut rented access to millions of compromised devices, allowing cybercriminals and nation-state actors to mask their identities during attacks. The post Google, FBI Disrupt NetNut Residential Proxy Network Powered by Millions of Devices appeared first on SecurityWeek.",
+      "source": "securityweek.com",
+      "first_seen": "2026-07-03T08:47:06Z",
+      "last_seen": "2026-07-03T08:47:06Z"
+    },
+    {
+      "id": "1401630dadfdaf0c078e9604cb2d83fe6e310ac3",
+      "title": "Microsoft Exchange SSRF Vulnerability Details Released Along With Public PoC Exploit",
+      "link": "https://cybersecuritynews.com/exchange-ssrf-poc-exploit-released/",
+      "date": "2026-07-03T08:05:05Z",
+      "description": "Security researchers from HawkTrace have disclosed technical details of a high-severity server-side request forgery (SSRF) vulnerability in Microsoft Exchange, tracked as CVE-2026-45504. The flaw, which carries a CVSS score of 8.8, allows authenticated, low-privileged users to read arbitrary files from vulnerable Exchange servers, raising serious concerns for enterprises relying on on-premises…",
+      "source": "cybersecuritynews.com",
+      "first_seen": "2026-07-03T08:47:06Z",
+      "last_seen": "2026-07-03T08:47:06Z"
+    },
+    {
+      "id": "1e9fdbc6c3ed5302aa7ba0bb7067465ada0459f3",
+      "title": "PamStealer Uses Fake Maccy Sites and PAM Checks to Steal Mac Login Passwords",
+      "link": "https://thehackernews.com/2026/07/pamstealer-uses-fake-maccy-sites-and.html",
+      "date": "2026-07-03T08:03:37Z",
+      "description": "Cybersecurity researchers have flagged a new macOS information stealer called PamStealer that employs a series of clever tricks to infect systems and siphon sensitive data. The stealer, discovered by Jamf Threat Labs, is distributed as a compiled AppleScript (.scpt) file impersonating Maccy, a legitimate open-source clipboard manager. It has been codenamed PamStealer owing to its ability to",
+      "source": "thehackernews.com",
+      "first_seen": "2026-07-03T08:47:06Z",
+      "last_seen": "2026-07-03T08:47:06Z"
+    },
+    {
+      "id": "163e996fe847d8ce5744125e54b3d6bbb67bc881",
+      "title": "Critical Cursor AI Code Editor Flaws Could Lead to OS-Level Remote Code Execution",
+      "link": "https://www.securityweek.com/critical-cursor-ai-ide-flaws-could-lead-to-os-level-remote-code-execution/",
+      "date": "2026-07-03T07:57:53Z",
+      "description": "The DuneSlide vulnerabilities enable zero-click prompt injection attacks that escape Cursor's sandbox and execute arbitrary code on the underlying operating system. The post Critical Cursor AI Code Editor Flaws Could Lead to OS-Level Remote Code Execution appeared first on SecurityWeek.",
+      "source": "securityweek.com",
+      "first_seen": "2026-07-03T08:47:06Z",
+      "last_seen": "2026-07-03T08:47:06Z"
+    },
     {
       "id": "5600cb6380e9d0349d2726936ae6392f8231e20d",
       "title": "Hacker Used Claude AI to Score Free Tickets to Nearly Every US Music Show",
@@ -10,7 +70,7 @@
       "description": "A critical unauthenticated SQL injection vulnerability in Front Gate Tickets (FGT), a Live Nation/Ticketmaster subsidiary that powers ticketing for major US festivals including EDC, Bonnaroo, and Outside Lands, allowed full administrative takeover of the platform with help from Anthropic’s Claude AI model. The researcher Ian Carroll noticed that nearly every major US festival funneled ticketing…",
       "source": "cybersecuritynews.com",
       "first_seen": "2026-07-03T05:42:43Z",
-      "last_seen": "2026-07-03T05:42:43Z"
+      "last_seen": "2026-07-03T08:47:06Z"
     },
     {
       "id": "23e7722c49f23c75079bf6b2004dcc9f37748980",
@@ -20,7 +80,7 @@
       "description": "Anthropic has published detailed technical documentation on the cybersecurity safeguards protecting Claude Fable 5, following the model’s global redeployment. The disclosure covers both the AI’s safety classifier system and a draft framework for grading jailbreak severity, developed in partnership with Glasswing. Fable 5’s safety classifiers sort cybersecurity requests into four categories…",
       "source": "cybersecuritynews.com",
       "first_seen": "2026-07-03T05:42:43Z",
-      "last_seen": "2026-07-03T05:42:43Z"
+      "last_seen": "2026-07-03T08:47:06Z"
     },
     {
       "id": "3c834afdb4b6d2ee9ea00be874db6aad012f188c",
@@ -40,7 +100,7 @@
       "description": "Anthropic says Claude Fable 5 won't be accessible via Claude subscriptions after July 7, but it's not a permanent change, and the company expects the model to return outside the usage-based plan soon. [...]",
       "source": "bleepingcomputer.com",
       "first_seen": "2026-07-03T01:52:57Z",
-      "last_seen": "2026-07-03T05:42:43Z"
+      "last_seen": "2026-07-03T08:47:06Z"
     },
     {
       "id": "8c1469c9b4493c06a311ee35d96559aa612a9a93",
@@ -50,7 +110,7 @@
       "description": "Claude Fable, the company's most powerful model, is now available to all users, but early impressions are disappointing, as it appears to be nowhere near the original release. [...]",
       "source": "bleepingcomputer.com",
       "first_seen": "2026-07-03T01:52:57Z",
-      "last_seen": "2026-07-03T05:42:43Z"
+      "last_seen": "2026-07-03T08:47:06Z"
     }
   ]
 }
