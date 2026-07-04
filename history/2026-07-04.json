@@ -1,0 +1,36 @@
+{
+  "date": "2026-07-04",
+  "count": 3,
+  "items": [
+    {
+      "id": "0f4fe75d2f24f8e8aad116ad27d92dc519db71a0",
+      "title": "PamStealer Mimics Maccy Clipboard Manager Silently Harvests Data and Clipboard Contents",
+      "link": "https://cybersecuritynews.com/pamstealer-mimic-as-maccy-harvest/",
+      "date": "2026-07-04T04:05:41Z",
+      "description": "PamStealer is a newly identified macOS infostealer that disguises itself as the popular open-source clipboard manager “Maccy” while silently harvesting sensitive user data. Discovered by Jamf Threat Labs, the malware uses a stealthy two-stage infection chain designed to evade detection and blend into normal macOS activity. The attack begins with a malicious disk image file […] The post…",
+      "source": "cybersecuritynews.com",
+      "first_seen": "2026-07-04T05:49:05Z",
+      "last_seen": "2026-07-04T05:49:05Z"
+    },
+    {
+      "id": "9d7632a1d0e5d041738724b1e292b08fab5a08a2",
+      "title": "Multiple FatFs Vulnerabilities Expose Millions of Embedded Devices to Cyber Risks",
+      "link": "https://cybersecuritynews.com/fatfs-vulnerabilities/",
+      "date": "2026-07-04T03:32:58Z",
+      "description": "Security researchers at runZero have disclosed seven new CVEs affecting FatFs, the ubiquitous lightweight FAT/exFAT filesystem driver used across embedded and IoT ecosystems. The vulnerabilities range from CVSS Medium to High, with no Critical-rated findings, but their reach is significant: FatFs underpins platforms including Espressif ESP-IDF, STMicroelectronics STM32Cube, Zephyr RTOS,…",
+      "source": "cybersecuritynews.com",
+      "first_seen": "2026-07-04T05:49:05Z",
+      "last_seen": "2026-07-04T05:49:05Z"
+    },
+    {
+      "id": "c73974004c4ebe7ed7750a89c7c9a21674a09c61",
+      "title": "New “Bad Epoll” 0-Day Vulnerability Allows Root Access on Linux Servers and Android Devices",
+      "link": "https://cybersecuritynews.com/bad-epoll-0-day-vulnerability/",
+      "date": "2026-07-04T02:43:11Z",
+      "description": "A newly disclosed Linux kernel flaw dubbed “Bad Epoll” (CVE-2026-46242) allows an unprivileged local user to escalate to root on Linux servers, desktops, and Android devices by exploiting a race condition and a use-after-free (UAF) in the kernel’s epoll subsystem. Bad Epoll is a UAF vulnerability in ep_remove(), which clears file->f_ep under file->f_lock but continues […] The post New “Bad…",
+      "source": "cybersecuritynews.com",
+      "first_seen": "2026-07-04T05:49:05Z",
+      "last_seen": "2026-07-04T05:49:05Z"
+    }
+  ]
+}
