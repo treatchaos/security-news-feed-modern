@@ -1,7 +1,17 @@
 {
   "date": "2026-07-04",
-  "count": 3,
+  "count": 4,
   "items": [
+    {
+      "id": "d2e818cec8c6dedb05b1e4fe62e6971996d7c5db",
+      "title": "North Korean Hackers Publish 108 Malicious Packages and Extensions in PolinRider Campaign",
+      "link": "https://thehackernews.com/2026/07/north-korean-hackers-publish-108.html",
+      "date": "2026-07-04T11:17:24Z",
+      "description": "The North Korean threat actors linked to the Contagious Interview campaign have been observed publishing 108 unique packages and web browser extensions spanning npm, Packagist, Go, and Google Chrome as part of an ongoing activity referred to as PolinRider. \"The campaign remains active, and new malicious packages are likely to continue appearing as threat actors compromise maintainer accounts,",
+      "source": "thehackernews.com",
+      "first_seen": "2026-07-04T12:01:14Z",
+      "last_seen": "2026-07-04T12:01:14Z"
+    },
     {
       "id": "0f4fe75d2f24f8e8aad116ad27d92dc519db71a0",
       "title": "PamStealer Mimics Maccy Clipboard Manager Silently Harvests Data and Clipboard Contents",
@@ -10,7 +20,7 @@
       "description": "PamStealer is a newly identified macOS infostealer that disguises itself as the popular open-source clipboard manager “Maccy” while silently harvesting sensitive user data. Discovered by Jamf Threat Labs, the malware uses a stealthy two-stage infection chain designed to evade detection and blend into normal macOS activity. The attack begins with a malicious disk image file […] The post…",
       "source": "cybersecuritynews.com",
       "first_seen": "2026-07-04T05:49:05Z",
-      "last_seen": "2026-07-04T10:48:43Z"
+      "last_seen": "2026-07-04T12:01:14Z"
     },
     {
       "id": "9d7632a1d0e5d041738724b1e292b08fab5a08a2",
@@ -20,7 +30,7 @@
       "description": "Security researchers at runZero have disclosed seven new CVEs affecting FatFs, the ubiquitous lightweight FAT/exFAT filesystem driver used across embedded and IoT ecosystems. The vulnerabilities range from CVSS Medium to High, with no Critical-rated findings, but their reach is significant: FatFs underpins platforms including Espressif ESP-IDF, STMicroelectronics STM32Cube, Zephyr RTOS,…",
       "source": "cybersecuritynews.com",
       "first_seen": "2026-07-04T05:49:05Z",
-      "last_seen": "2026-07-04T10:48:43Z"
+      "last_seen": "2026-07-04T12:01:14Z"
     },
     {
       "id": "c73974004c4ebe7ed7750a89c7c9a21674a09c61",
@@ -30,7 +40,7 @@
       "description": "A newly disclosed Linux kernel flaw dubbed “Bad Epoll” (CVE-2026-46242) allows an unprivileged local user to escalate to root on Linux servers, desktops, and Android devices by exploiting a race condition and a use-after-free (UAF) in the kernel’s epoll subsystem. Bad Epoll is a UAF vulnerability in ep_remove(), which clears file->f_ep under file->f_lock but continues […] The post New “Bad…",
       "source": "cybersecuritynews.com",
       "first_seen": "2026-07-04T05:49:05Z",
-      "last_seen": "2026-07-04T10:48:43Z"
+      "last_seen": "2026-07-04T12:01:14Z"
     }
   ]
 }
