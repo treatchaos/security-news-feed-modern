@@ -1,8 +1,78 @@
 {
-  "last_updated": "2026-07-06T14:56:12Z",
+  "last_updated": "2026-07-06T17:35:03Z",
   "retention_days": 90,
-  "count": 3421,
+  "count": 3422,
   "items": [
+    {
+      "id": "3f2d58360ae2072e6209bb5ccbe2860cd14b75ef",
+      "title": "Microsoft Device Code Phishing Attack Steals Tokens Through Legitimate Login Page",
+      "link": "https://cybersecuritynews.com/microsoft-device-code-phishing-attack/",
+      "date": "2026-07-06T17:03:50Z",
+      "description": "A new phishing technique is tricking users into handing over their Microsoft account tokens without a fake website in sight. Attackers are exploiting a legitimate Microsoft authentication feature to steal access to email, files, and chat messages. The method works well because victims never leave the real Microsoft login page during the attack. The technique […] The post Microsoft Device Code…",
+      "source": "cybersecuritynews.com",
+      "first_seen": "2026-07-06T17:35:03Z",
+      "last_seen": "2026-07-06T17:35:03Z"
+    },
+    {
+      "id": "ddfe48f6a5b501cbde6a494c82f4568c8bf838bd",
+      "title": "Gemini Live Voice Session Flaw Enables Tool Injection Through Misconfigured Ephemeral Tokens",
+      "link": "https://cybersecuritynews.com/gemini-live-voice-session-flaw/",
+      "date": "2026-07-06T16:38:17Z",
+      "description": "A security flaw in how developers implement Google’s Gemini Live API allows attackers to hijack browser-based AI voice sessions, override system prompts, and trigger unauthorized code execution all through a token misconfiguration that traces back to Google’s own reference implementation. Security Researcher Alvin Ferdiansyah observed that Gemini Live API powers real-time voice assistants…",
+      "source": "cybersecuritynews.com",
+      "first_seen": "2026-07-06T17:35:03Z",
+      "last_seen": "2026-07-06T17:35:03Z"
+    },
+    {
+      "id": "9e3f4021831925dcab2871659a07ad1efc1ecaa7",
+      "title": "Threat Actors Probe Gitea Docker Flaw CVE-2026-20896 13 Days After Disclosure",
+      "link": "https://thehackernews.com/2026/07/threat-actors-probe-gitea-docker-flaw.html",
+      "date": "2026-07-06T16:28:59Z",
+      "description": "Threat actors have been observed attempting to exploit a recently patched critical security flaw in Gitea Docker images, according to Sysdig. The vulnerability in question is CVE-2026-20896 (CVSS score: 9.8), a vulnerability that stems from the DevOps platform trusting the \"X-WEBAUTH-USER\" header from any source IP address, effectively allowing an unauthenticated internet client to get elevated",
+      "source": "thehackernews.com",
+      "first_seen": "2026-07-06T17:35:03Z",
+      "last_seen": "2026-07-06T17:35:03Z"
+    },
+    {
+      "id": "8a124e7ec7bb431d5176307f431cca50a68eb5bf",
+      "title": "The Gentlemen Ransomware Uses 21 Remote Execution Techniques to Encrypt Entire Networks",
+      "link": "https://cybersecuritynews.com/the-gentlemen-ransomware-uses-21-remote-execution-techniques/",
+      "date": "2026-07-06T15:49:31Z",
+      "description": "A new ransomware strain called The Gentlemen has emerged as one of the more aggressive threats tracked this year, combining strong encryption with a self-spreading worm engine that can take down an entire corporate network from a single infected machine. Written in the Go programming language and disguised using a tool called Garble, the malware […] The post The Gentlemen Ransomware Uses 21…",
+      "source": "cybersecuritynews.com",
+      "first_seen": "2026-07-06T17:35:03Z",
+      "last_seen": "2026-07-06T17:35:03Z"
+    },
+    {
+      "id": "c8dfad3fd7945b3ff7f94032b4f9739fa5d43702",
+      "title": "The Shift Toward Business-Aligned Risk Management",
+      "link": "https://www.securityweek.com/the-shift-toward-business-aligned-risk-management/",
+      "date": "2026-07-06T15:20:42Z",
+      "description": "Moving from isolated, technical data to a continuous risk lifecycle can help organizations align security controls with actual business consequences. The post The Shift Toward Business-Aligned Risk Management appeared first on SecurityWeek.",
+      "source": "securityweek.com",
+      "first_seen": "2026-07-06T17:35:03Z",
+      "last_seen": "2026-07-06T17:35:03Z"
+    },
+    {
+      "id": "defe0e1f3913b16d526a08c5efdf59a42f9c0401",
+      "title": "Armored Likho APT Targeting Government, Electric Power Entities",
+      "link": "https://www.securityweek.com/armored-likho-apt-targeting-government-electric-power-entities/",
+      "date": "2026-07-06T15:10:39Z",
+      "description": "The threat actor uses modular RATs and information stealers in financially motivated and cyber espionage campaigns. The post Armored Likho APT Targeting Government, Electric Power Entities appeared first on SecurityWeek.",
+      "source": "securityweek.com",
+      "first_seen": "2026-07-06T17:35:03Z",
+      "last_seen": "2026-07-06T17:35:03Z"
+    },
+    {
+      "id": "1a2aa36d77542a84c7549a897305ecc8a82995af",
+      "title": "SilverFox Hackers Use Go RAT, AV Killer, and Kernel Rootkit in Live ValleyRAT Campaign",
+      "link": "https://cybersecuritynews.com/silverfox-hackers-use-go-rat-av-killer/",
+      "date": "2026-07-06T15:01:13Z",
+      "description": "A new strain of remote access malware is quietly moving through corporate networks, and it does not behave like anything defenders have seen from this threat group before. The malware, tracked as ValleyRAT, is deployed by a hacking group known as SilverFox, and it stands out for one reason: it refuses to stop at just […] The post SilverFox Hackers Use Go RAT, AV Killer, and Kernel Rootkit in…",
+      "source": "cybersecuritynews.com",
+      "first_seen": "2026-07-06T17:35:03Z",
+      "last_seen": "2026-07-06T17:35:03Z"
+    },
     {
       "id": "a736eda1ddb5cd6e07bb97cac603927a0f422ae8",
       "title": "OpenSSH 10.4 Released with Multiple Security Fixes and New Features",
@@ -11,7 +81,7 @@
       "description": "OpenSSH 10.4 launched on July 6, 2026, delivering a batch of security patches, protocol hardening, and early post-quantum cryptography support, available through mirrors listed on the official OpenSSH site. OpenSSH 10.4 Security Fixes The release addresses several vulnerabilities across core utilities. In sftp(1), a flaw allowed malicious servers to redirect downloaded files to unexpected…",
       "source": "cybersecuritynews.com",
       "first_seen": "2026-07-06T14:56:12Z",
-      "last_seen": "2026-07-06T14:56:12Z"
+      "last_seen": "2026-07-06T17:35:03Z"
     },
     {
       "id": "e5e3fb7fbe38c5c25887bf5a5e8d82f5468164a3",
@@ -41,7 +111,7 @@
       "description": "Every evolution in software development has reduced the friction between an idea and a deployable application. AI may remove the final barrier, but it also removes many of the moments where security decisions have traditionally taken place. [...]",
       "source": "bleepingcomputer.com",
       "first_seen": "2026-07-06T14:56:12Z",
-      "last_seen": "2026-07-06T14:56:12Z"
+      "last_seen": "2026-07-06T17:35:03Z"
     },
     {
       "id": "ed5e3b4729afaa1d381f3910eb4ab3413a874a90",
@@ -71,7 +141,7 @@
       "description": "Attackers are now exploiting a maximum-severity Adobe ColdFusion vulnerability tracked as CVE-2026-48282, according to vulnerability intelligence company KEVIntel. [...]",
       "source": "bleepingcomputer.com",
       "first_seen": "2026-07-06T14:56:12Z",
-      "last_seen": "2026-07-06T14:56:12Z"
+      "last_seen": "2026-07-06T17:35:03Z"
     },
     {
       "id": "8a6b3f83cdd34f168ba8cd8e3e40530b40562139",
@@ -81,7 +151,7 @@
       "description": "The PolinRider campaign has compromised more than 100 legitimate open source packages and repositories to deliver a backdoor and information stealer to developers. The post North Korean Hackers Target Open Source Developers in Supply Chain Attacks appeared first on SecurityWeek.",
       "source": "securityweek.com",
       "first_seen": "2026-07-06T14:56:12Z",
-      "last_seen": "2026-07-06T14:56:12Z"
+      "last_seen": "2026-07-06T17:35:03Z"
     },
     {
       "id": "f51c702da7bea47d17f5998ca371685e1f5d8bba",
@@ -91,7 +161,7 @@
       "description": "A streaming box should not need a threat model. Neither should a username field, a demo repo, a reset flow, or a browser permission prompt. That is the irritating part this week: the risky pieces were ordinary. Home devices became a routing cover. Clean code pulled dirt from a dependency. Identity shortcuts aged badly. AI systems trusted the wrong instructions. Same soft spot throughout: trust",
       "source": "thehackernews.com",
       "first_seen": "2026-07-06T14:56:12Z",
-      "last_seen": "2026-07-06T14:56:12Z"
+      "last_seen": "2026-07-06T17:35:03Z"
     },
     {
       "id": "63e5e50e1d379f1793003b83e390bdc87d1d9535",
@@ -101,7 +171,7 @@
       "description": "Organizations are urged to patch after proof-of-concept code makes the Linux root escalation flaw easier to exploit. The post Proof-of-Concept Exploit Released for Linux ‘Bad Epoll’ Root Access Vulnerability appeared first on SecurityWeek.",
       "source": "securityweek.com",
       "first_seen": "2026-07-06T14:56:12Z",
-      "last_seen": "2026-07-06T14:56:12Z"
+      "last_seen": "2026-07-06T17:35:03Z"
     },
     {
       "id": "4b4a502f42583cde956c20966a00f97f31abf7a8",
@@ -111,7 +181,7 @@
       "description": "Building a shortlist for an AI SOC evaluation can be tough. SIEM, SOAR, and pureplay AI SOC vendors are all saying the same thing. But behind the identical label sit very different products, from chat assistants bolted onto a legacy SIEM to agent platforms that run detection, triage, investigation, and response on their own data foundation. Whether a platform will materially change outcomes for",
       "source": "thehackernews.com",
       "first_seen": "2026-07-06T14:56:12Z",
-      "last_seen": "2026-07-06T14:56:12Z"
+      "last_seen": "2026-07-06T17:35:03Z"
     },
     {
       "id": "3a6866cfa417d86bceeabd1a9471368daa74681e",
@@ -131,7 +201,7 @@
       "description": "Researchers uncovered two campaigns embedding indirect prompt injections in malicious websites to exploit autonomous AI agents browsing the web. The post Prompt Injection Attacks Trick AI Agents Into Making Crypto Payments appeared first on SecurityWeek.",
       "source": "securityweek.com",
       "first_seen": "2026-07-06T11:38:43Z",
-      "last_seen": "2026-07-06T14:56:12Z"
+      "last_seen": "2026-07-06T17:35:03Z"
     },
     {
       "id": "0dc758d615a52c1d52e77dc09d1979b46a1a5f52",
@@ -141,7 +211,7 @@
       "description": "A suspected China-nexus threat activity cluster has been observed targeting Indian taxpayers, tax professionals, and corporate finance teams to deliver a remote access trojan designed to steal sensitive data from compromised hosts. The multi-stage campaign, codenamed Operation DragonReturn by Seqrite Labs, involves sending spear-phishing emails impersonating the Income Tax Department of India.",
       "source": "thehackernews.com",
       "first_seen": "2026-07-06T14:56:12Z",
-      "last_seen": "2026-07-06T14:56:12Z"
+      "last_seen": "2026-07-06T17:35:03Z"
     },
     {
       "id": "22acafde2aa094ada784e2db2b39dcdb53d31e4c",
@@ -191,7 +261,7 @@
       "description": "Researchers at Shandong University have shown a fast new way to pull data off computers that are cut off from every network. The technique, called TrojPix, tweaks on-screen pixels in ways the eye cannot see, so that the video cable carrying them radiates a faint radio signal a nearby receiver can decode. But TrojPix works only once malware is already on the target machine, so it",
       "source": "thehackernews.com",
       "first_seen": "2026-07-06T11:38:43Z",
-      "last_seen": "2026-07-06T14:56:12Z"
+      "last_seen": "2026-07-06T17:35:03Z"
     },
     {
       "id": "a62e286ed80c489d85d7590e76fa046c53b5c39e",
@@ -251,7 +321,7 @@
       "description": "Flipper Devices says development of the Flipper Zero firmware will continue, albeit with a smaller internal team and greater reliance on community contributions. [...]",
       "source": "bleepingcomputer.com",
       "first_seen": "2026-07-05T15:04:59Z",
-      "last_seen": "2026-07-06T14:56:12Z"
+      "last_seen": "2026-07-06T17:35:03Z"
     },
     {
       "id": "275e759853fd74432e15985281f54649d49ef685",
@@ -281,7 +351,7 @@
       "description": "Researchers identified what they believe is the first documented case of a ransomware operation, JadePuffer, conducted entirely by a large language model (LLM) agent. [...]",
       "source": "bleepingcomputer.com",
       "first_seen": "2026-07-04T14:22:59Z",
-      "last_seen": "2026-07-06T14:56:12Z"
+      "last_seen": "2026-07-06T17:35:03Z"
     },
     {
       "id": "d7f247f4ee7bcddfcf0f356923805eaaa148eaae",
@@ -371,7 +441,7 @@
       "description": "A joint operation involving Google has disrupted NetNut, a residential proxy network that gave access to millions of compromised Android devices, including smart TVs and streaming boxes. [...]",
       "source": "bleepingcomputer.com",
       "first_seen": "2026-07-03T19:00:12Z",
-      "last_seen": "2026-07-06T14:56:12Z"
+      "last_seen": "2026-07-06T17:35:03Z"
     },
     {
       "id": "ccc2547841fcab422b9cbe4f8ad25e8ecb654b74",
@@ -601,7 +671,7 @@
       "description": "A CVSS score 7.8 AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H severity vulnerability discovered by 'Anonymous' was reported to the affected vendor on: 2026-07-03, 0 days ago. The vendor is given until 2026-10-31 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
       "source": "zerodayinitiative.com",
       "first_seen": "2026-07-03T17:11:59Z",
-      "last_seen": "2026-07-06T14:56:12Z"
+      "last_seen": "2026-07-06T17:35:03Z"
     },
     {
       "id": "d56a8b8170c105fb3d2332a848c3d948255d00c2",
@@ -611,7 +681,7 @@
       "description": "A CVSS score 7.8 AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H severity vulnerability discovered by 'truff' was reported to the affected vendor on: 2026-07-03, 0 days ago. The vendor is given until 2026-10-31 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
       "source": "zerodayinitiative.com",
       "first_seen": "2026-07-03T17:11:59Z",
-      "last_seen": "2026-07-06T14:56:12Z"
+      "last_seen": "2026-07-06T17:35:03Z"
     },
     {
       "id": "74d229b4dfaa03e3d7c2d2fddb981a26d6eb9e57",
@@ -621,7 +691,7 @@
       "description": "A CVSS score 9.8 AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H severity vulnerability discovered by 'Nicholas Zubrisky (@NZubrisky) of TrendAI Zero Day Initiative' was reported to the affected vendor on: 2026-07-03, 0 days ago. The vendor is given until 2026-10-31 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
       "source": "zerodayinitiative.com",
       "first_seen": "2026-07-03T17:11:59Z",
-      "last_seen": "2026-07-06T14:56:12Z"
+      "last_seen": "2026-07-06T17:35:03Z"
     },
     {
       "id": "70b3a819d2361bc11893af73f8ef1aa33d5bcae1",
@@ -631,7 +701,7 @@
       "description": "A CVSS score 8.8 AV:L/AC:L/PR:L/UI:N/S:C/C:H/I:H/A:H severity vulnerability discovered by 'Anonymous' was reported to the affected vendor on: 2026-07-03, 0 days ago. The vendor is given until 2026-10-31 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
       "source": "zerodayinitiative.com",
       "first_seen": "2026-07-03T17:11:59Z",
-      "last_seen": "2026-07-06T14:56:12Z"
+      "last_seen": "2026-07-06T17:35:03Z"
     },
     {
       "id": "54b31c827956d65d8285ae84ec6486f8d4320e9a",
@@ -641,7 +711,7 @@
       "description": "A CVSS score 9.8 AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H severity vulnerability discovered by 'Maher Azzouzi' was reported to the affected vendor on: 2026-07-03, 0 days ago. The vendor is given until 2026-10-31 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
       "source": "zerodayinitiative.com",
       "first_seen": "2026-07-03T19:00:12Z",
-      "last_seen": "2026-07-06T14:56:12Z"
+      "last_seen": "2026-07-06T17:35:03Z"
     },
     {
       "id": "23e7722c49f23c75079bf6b2004dcc9f37748980",
@@ -34044,46 +34114,6 @@
       "last_seen": "2026-04-08T10:54:37Z"
     },
     {
-      "id": "2e110faf4857d54be37db2add2a7c014ef072dfb",
-      "title": "Authorities disrupt router DNS hijacks used to steal Microsoft 365 logins",
-      "link": "https://www.bleepingcomputer.com/news/security/authorities-disrupt-dns-hijacks-used-to-steal-microsoft-365-logins/",
-      "date": "2026-04-07T15:51:22Z",
-      "description": "An international operation from law enforcement authorities in partnership with private companies has disrupted FrostArmada, an APT28 campaign hijacking local traffic from MikroTik and TP-Link routers to steal Microsoft account credentials. [...]",
-      "source": "bleepingcomputer.com",
-      "first_seen": "2026-04-07T16:04:14Z",
-      "last_seen": "2026-04-07T21:34:21Z"
-    },
-    {
-      "id": "804f8ad1cb43c989f163074bbc8428763aa34b32",
-      "title": "Critical Flowise Vulnerability in Attacker Crosshairs",
-      "link": "https://www.securityweek.com/critical-flowise-vulnerability-in-attacker-crosshairs/",
-      "date": "2026-04-07T15:34:51Z",
-      "description": "The improper validation of user-supplied JavaScript code allows attackers to execute arbitrary code and access the file system. The post Critical Flowise Vulnerability in Attacker Crosshairs appeared first on SecurityWeek.",
-      "source": "securityweek.com",
-      "first_seen": "2026-04-07T16:04:14Z",
-      "last_seen": "2026-04-08T09:58:41Z"
-    },
-    {
-      "id": "86d3a3ddf9d0e24db3b740be58a9e043cadab771",
-      "title": "Docker CVE-2026-34040 Lets Attackers Bypass Authorization and Gain Host Access",
-      "link": "https://thehackernews.com/2026/04/docker-cve-2026-34040-lets-attackers.html",
-      "date": "2026-04-07T15:15:00Z",
-      "description": "A high-severity security vulnerability has been disclosed in Docker Engine that could permit an attacker to bypass authorization plugins (AuthZ) under specific circumstances. The vulnerability, tracked as CVE-2026-34040 (CVSS score: 8.8), stems from an incomplete fix for CVE-2024-41110, a maximum-severity vulnerability in the same component that came to light in July 2024. \"",
-      "source": "thehackernews.com",
-      "first_seen": "2026-04-07T16:04:14Z",
-      "last_seen": "2026-04-08T08:06:00Z"
-    },
-    {
-      "id": "43c939b80a0a1a3e73d264147885a3234787453f",
-      "title": "RSAC 2026: How AI Is Reshaping Cybersecurity Faster Than Ever",
-      "link": "https://www.darkreading.com/cybersecurity-operations/rsac-2026-how-ai-is-reshaping-cybersecurity-faster-than-ever",
-      "date": "2026-04-07T14:57:16Z",
-      "description": "Dark Reading's Kelly Jackson Higgins shares insights on the past, present, and future of cybersecurity after attending RSAC 2026 Conference.",
-      "source": "darkreading.com",
-      "first_seen": "2026-04-07T16:04:14Z",
-      "last_seen": "2026-04-08T14:28:57Z"
-    },
-    {
       "id": "37057710c96885aaffb1613d574d292f9bc8f51f",
       "title": "Fake Software Installers Used to Drop RATs and Monero Miners in Long-Running Malware Campaign",
       "link": "https://cybersecuritynews.com/fake-software-installers-used-to-drop-rats/",
@@ -34092,26 +34122,6 @@
       "source": "cybersecuritynews.com",
       "first_seen": "2026-04-07T17:48:29Z",
       "last_seen": "2026-04-07T19:50:21Z"
-    },
-    {
-      "id": "39e08205be36f698df7f87cf5380b8d301730dee",
-      "title": "Human vs AI: Debates Shape RSAC 2026 Cybersecurity Trends",
-      "link": "https://www.darkreading.com/cybersecurity-operations/human-vs-ai-debates-shape-rsac-2026-cybersecurity-trends",
-      "date": "2026-04-07T14:36:44Z",
-      "description": "As AI dominated RSAC 2026, CISOs and industry leaders debated its role in security, from agentic applications to the challenges of scaling human involvement in decision-making.",
-      "source": "darkreading.com",
-      "first_seen": "2026-04-07T16:04:14Z",
-      "last_seen": "2026-04-08T14:28:57Z"
-    },
-    {
-      "id": "8afdaf14c945e2b44a08d701323f52b3182f01ef",
-      "title": "Lies, Damned Lies, and Cybersecurity Metrics",
-      "link": "https://www.darkreading.com/cyber-risk/lies-damned-lies-cybersecurity-metrics",
-      "date": "2026-04-07T14:26:02Z",
-      "description": "A panel of five C-suite leaders discuss how cybersecurity success is measured and why it isn't improving results.",
-      "source": "darkreading.com",
-      "first_seen": "2026-04-07T16:04:14Z",
-      "last_seen": "2026-04-08T12:56:12Z"
     },
     {
       "id": "1bb4bb6235597846ddf014e07d054d8a92ad9de9",
@@ -34171,7 +34181,7 @@
       "description": "2.5 million people were affected, in a breach that could spell more trouble down the line.",
       "source": "threatpost.com",
       "first_seen": "2026-05-10T12:53:08Z",
-      "last_seen": "2026-07-06T14:56:12Z"
+      "last_seen": "2026-07-06T17:35:03Z"
     },
     {
       "id": "4140c7a34b0ba94ad2e6b0cae9f59b0cb9bfffea",
@@ -34181,7 +34191,7 @@
       "description": "Researchers uncover a watering hole attack likely carried out by APT TA423, which attempts to plant the ScanBox JavaScript-based reconnaissance tool.",
       "source": "threatpost.com",
       "first_seen": "2026-05-10T12:53:08Z",
-      "last_seen": "2026-07-06T14:56:12Z"
+      "last_seen": "2026-07-06T17:35:03Z"
     },
     {
       "id": "9359ee40a641a4b565080313045f1d7e7fe6552b",
@@ -34191,7 +34201,7 @@
       "description": "Over 130 companies tangled in sprawling phishing campaign that spoofed a multi-factor authentication system.",
       "source": "threatpost.com",
       "first_seen": "2026-05-10T12:53:08Z",
-      "last_seen": "2026-07-06T14:56:12Z"
+      "last_seen": "2026-07-06T17:35:03Z"
     },
     {
       "id": "b4ccef0737cd4050d65241bf754072030b6b5e6a",
@@ -34201,7 +34211,7 @@
       "description": "Lockbit is by far this summer’s most prolific ransomware group, trailed by two offshoots of the Conti group.",
       "source": "threatpost.com",
       "first_seen": "2026-05-10T12:53:08Z",
-      "last_seen": "2026-07-06T14:56:12Z"
+      "last_seen": "2026-07-06T17:35:03Z"
     },
     {
       "id": "12ee113fc8fce91f6d7fb28deab2b1ad20061ec7",
@@ -34211,7 +34221,7 @@
       "description": "Tens of thousands of cameras have failed to patch a critical, 11-month-old CVE, leaving thousands of organizations exposed.",
       "source": "threatpost.com",
       "first_seen": "2026-05-10T12:53:08Z",
-      "last_seen": "2026-07-06T14:56:12Z"
+      "last_seen": "2026-07-06T17:35:03Z"
     }
   ]
 }
