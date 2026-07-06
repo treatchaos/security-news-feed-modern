@@ -1,7 +1,42 @@
 {
-  "last_updated": "2026-07-06T17:35:03Z",
-  "count": 30,
+  "last_updated": "2026-07-06T19:39:29Z",
+  "count": 35,
   "items": [
+    {
+      "title": "Top 10 Best Next-Generation Firewall (NGFW) Solutions in 2026",
+      "link": "https://cybersecuritynews.com/best-next-generation-firewall/",
+      "date": "2026-07-06T19:37:13Z",
+      "description": "If you’re shortlisting the best next-generation firewall for 2026, Palo Alto Networks’ PA-Series is our top overall pick for its App-ID application control and machine-learning threat prevention, while Fortinet FortiGate delivers the strongest price-to-performance for most mid-market and distributed networks. A next-generation firewall (NGFW) inspects traffic at the application layer, decrypts…",
+      "source": "cybersecuritynews.com"
+    },
+    {
+      "title": "Blogspot-Hosted Payloads Delivered in ‘Veil#Drop’ Attacks",
+      "link": "https://www.securityweek.com/blogspot-hosted-payloads-delivered-in-veildrop-attacks/",
+      "date": "2026-07-06T19:14:08Z",
+      "description": "Securonix says the sophisticated framework abuses compromised websites, Blogspot, PowerShell, and fileless techniques to evade detection and deploy the PureLog information stealer. The post Blogspot-Hosted Payloads Delivered in ‘Veil#Drop’ Attacks appeared first on SecurityWeek.",
+      "source": "securityweek.com"
+    },
+    {
+      "title": "Iran-Linked Hackers Use New Cavern C2 Framework to Target Israeli Organizations",
+      "link": "https://thehackernews.com/2026/07/iran-linked-hackers-use-new-cavern-c2.html",
+      "date": "2026-07-06T18:34:26Z",
+      "description": "An Iranian hacking group affiliated with Iran's Ministry of Intelligence and Security (MOIS) has been wielding a previously undocumented modular command-and-control (C2) framework dubbed Cavern (aka Cav3rn) targeting Israeli organizations. The activity, which has primarily singled out IT providers and government sectors, has been attributed to a threat cluster tracked by Check Point Research",
+      "source": "thehackernews.com"
+    },
+    {
+      "title": "Vietnam arrests suspects behind HiAnime anime piracy service",
+      "link": "https://www.bleepingcomputer.com/news/security/vietnam-arrests-suspects-behind-hianime-anime-piracy-service/",
+      "date": "2026-07-06T18:25:06Z",
+      "description": "​Vietnamese authorities have arrested and are prosecuting seven suspects believed to have run HiAnime, the largest anime piracy streaming service before its shutdown in June. [...]",
+      "source": "bleepingcomputer.com"
+    },
+    {
+      "title": "16-Year-Old Linux KVM Flaw Lets Guest VMs Escape to Host on Intel and AMD x86 Systems",
+      "link": "https://thehackernews.com/2026/07/16-year-old-linux-kvm-flaw-lets-guest.html",
+      "date": "2026-07-06T17:37:01Z",
+      "description": "A use-after-free bug in Linux's KVM hypervisor can be triggered from a guest virtual machine to corrupt the shadow-page state of the host kernel that runs it. Dubbed 'Januscape' and tracked as CVE-2026-53359, the flaw sits in the shadow MMU code that KVM shares across both Intel and AMD. The public proof-of-concept panics the host; the researcher claims that a separate, unreleased exploit",
+      "source": "thehackernews.com"
+    },
     {
       "title": "Microsoft Device Code Phishing Attack Steals Tokens Through Legitimate Login Page",
       "link": "https://cybersecuritynews.com/microsoft-device-code-phishing-attack/",
@@ -15,6 +50,13 @@
       "date": "2026-07-06T16:38:17Z",
       "description": "A security flaw in how developers implement Google’s Gemini Live API allows attackers to hijack browser-based AI voice sessions, override system prompts, and trigger unauthorized code execution all through a token misconfiguration that traces back to Google’s own reference implementation. Security Researcher Alvin Ferdiansyah observed that Gemini Live API powers real-time voice assistants…",
       "source": "cybersecuritynews.com"
+    },
+    {
+      "title": "JadePuffer: The First Complete LLM-Driven Ransomware Attack",
+      "link": "https://www.darkreading.com/cyberattacks-data-breaches/jadepuffer-first-complete-llm-driven-ransomware-attack",
+      "date": "2026-07-06T16:36:50Z",
+      "description": "An \"agentic threat actor\" successfully exploited a Langflow flaw to steal data from a production database server and encrypt other systems.",
+      "source": "darkreading.com"
     },
     {
       "title": "Threat Actors Probe Gitea Docker Flaw CVE-2026-20896 13 Days After Disclosure",
@@ -49,13 +91,6 @@
       "link": "https://cybersecuritynews.com/silverfox-hackers-use-go-rat-av-killer/",
       "date": "2026-07-06T15:01:13Z",
       "description": "A new strain of remote access malware is quietly moving through corporate networks, and it does not behave like anything defenders have seen from this threat group before. The malware, tracked as ValleyRAT, is deployed by a hacking group known as SilverFox, and it stands out for one reason: it refuses to stop at just […] The post SilverFox Hackers Use Go RAT, AV Killer, and Kernel Rootkit in…",
-      "source": "cybersecuritynews.com"
-    },
-    {
-      "title": "OpenSSH 10.4 Released with Multiple Security Fixes and New Features",
-      "link": "https://cybersecuritynews.com/openssh-10-4-security-fixes/",
-      "date": "2026-07-06T14:49:15Z",
-      "description": "OpenSSH 10.4 launched on July 6, 2026, delivering a batch of security patches, protocol hardening, and early post-quantum cryptography support, available through mirrors listed on the official OpenSSH site. OpenSSH 10.4 Security Fixes The release addresses several vulnerabilities across core utilities. In sftp(1), a flaw allowed malicious servers to redirect downloaded files to unexpected…",
       "source": "cybersecuritynews.com"
     },
     {
@@ -101,27 +136,6 @@
       "source": "thehackernews.com"
     },
     {
-      "title": "Prompt Injection Attacks Trick AI Agents Into Making Crypto Payments",
-      "link": "https://www.securityweek.com/prompt-injection-attacks-trick-ai-agents-into-making-crypto-payments/",
-      "date": "2026-07-06T11:19:47Z",
-      "description": "Researchers uncovered two campaigns embedding indirect prompt injections in malicious websites to exploit autonomous AI agents browsing the web. The post Prompt Injection Attacks Trick AI Agents Into Making Crypto Payments appeared first on SecurityWeek.",
-      "source": "securityweek.com"
-    },
-    {
-      "title": "Suspected China-Nexus Hackers Use Fake Indian Tax Filing Utility to Deploy DcRAT",
-      "link": "https://thehackernews.com/2026/07/suspected-china-nexus-hackers-use-fake.html",
-      "date": "2026-07-06T10:58:16Z",
-      "description": "A suspected China-nexus threat activity cluster has been observed targeting Indian taxpayers, tax professionals, and corporate finance teams to deliver a remote access trojan designed to steal sensitive data from compromised hosts. The multi-stage campaign, codenamed Operation DragonReturn by Seqrite Labs, involves sending spear-phishing emails impersonating the Income Tax Department of India.",
-      "source": "thehackernews.com"
-    },
-    {
-      "title": "New TrojPix Attack Leaks Data From Air-Gapped Systems via Video Cable Emissions",
-      "link": "https://thehackernews.com/2026/07/new-trojpix-attack-leaks-data-from-air.html",
-      "date": "2026-07-06T08:50:54Z",
-      "description": "Researchers at Shandong University have shown a fast new way to pull data off computers that are cut off from every network. The technique, called TrojPix, tweaks on-screen pixels in ways the eye cannot see, so that the video cable carrying them radiates a faint radio signal a nearby receiver can decode. But TrojPix works only once malware is already on the target machine, so it",
-      "source": "thehackernews.com"
-    },
-    {
       "title": "Flipper Zero firmware development continues with community help",
       "link": "https://www.bleepingcomputer.com/news/security/flipper-zero-firmware-development-continues-with-community-help/",
       "date": "2026-07-05T14:14:52Z",
@@ -136,11 +150,11 @@
       "source": "bleepingcomputer.com"
     },
     {
-      "title": "NetNut proxy network disrupted, 2 million infected devices cut off",
-      "link": "https://www.bleepingcomputer.com/news/security/netnut-proxy-network-disrupted-2-million-infected-devices-cut-off/",
-      "date": "2026-07-03T17:50:04Z",
-      "description": "A joint operation involving Google has disrupted NetNut, a residential proxy network that gave access to millions of compromised Android devices, including smart TVs and streaming boxes. [...]",
-      "source": "bleepingcomputer.com"
+      "title": "Chinese LLMs Broaden the Gap Between Attackers &amp; Defenders",
+      "link": "https://www.darkreading.com/cyber-risk/chinese-llms-broaden-gap-between-attackers-and-defenders",
+      "date": "2026-07-03T13:01:00Z",
+      "description": "Two new models from Chinese firms compete with top US mainstream and frontier models. Should cyber-defenders be worried?",
+      "source": "darkreading.com"
     },
     {
       "title": "ZDI-CAN-31075: LibreOffice",
@@ -176,6 +190,27 @@
       "date": "2026-07-03T05:00:00Z",
       "description": "A CVSS score 9.8 AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H severity vulnerability discovered by 'Maher Azzouzi' was reported to the affected vendor on: 2026-07-03, 3 days ago. The vendor is given until 2026-10-31 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
       "source": "zerodayinitiative.com"
+    },
+    {
+      "title": "Aussies Face Reduced Cybercrime Risk, as Pressure Shifts to SMBs",
+      "link": "https://www.darkreading.com/cybersecurity-analytics/aussies-face-reduced-cybercrime-risk-pressure-shifts-smbs",
+      "date": "2026-07-02T23:01:00Z",
+      "description": "Improved institutional safeguards and stricter regulations have pushed the burdens of protection and risk reduction on to Australian businesses.",
+      "source": "darkreading.com"
+    },
+    {
+      "title": "Apple Reverses Age-Old Patch Policy to Keep Up With AI",
+      "link": "https://www.darkreading.com/cybersecurity-operations/apple-patch-policy-ai",
+      "date": "2026-07-02T19:31:58Z",
+      "description": "Expect more compressed patching cycles from Apple going forward, as attackers leverage artificial intelligence to reduce time to exploit.",
+      "source": "darkreading.com"
+    },
+    {
+      "title": "FortiBleed Actors Collaborating With Inc, Lynx Ransomware Gangs",
+      "link": "https://www.darkreading.com/threat-intelligence/fortibleed-actors-inc-lynx-ransomware-gangs",
+      "date": "2026-07-02T19:11:33Z",
+      "description": "After gaining a foothold in thousands of Fortinet firewalls, the attackers are starting to monetize that access, and are also piling on a Nextcloud zero-day bug.",
+      "source": "darkreading.com"
     },
     {
       "title": "Student Loan Breach Exposes 2.5M Records",
