@@ -1,8 +1,58 @@
 {
-  "last_updated": "2026-07-07T03:41:19Z",
+  "last_updated": "2026-07-07T07:27:54Z",
   "retention_days": 90,
-  "count": 3410,
+  "count": 3409,
   "items": [
+    {
+      "id": "5e05673232ddca193003be8e3ef132eeef5bbadd",
+      "title": "Tenda Authentication Backdoor Grants Attackers Full Administrative Access",
+      "link": "https://cybersecuritynews.com/tenda-authentication-backdoor-grants-access/",
+      "date": "2026-07-07T07:19:49Z",
+      "description": "A newly disclosed vulnerability in Tenda network devices exposes a critical authentication backdoor that allows attackers to gain full administrative access without valid credentials. The flaw affects multiple firmware versions across several Tenda router models, including the FH1201, W15E, AC10, AC5, and AC6 series. The issue, tracked as CVE-2026-11405, was published by the CERT Coordination…",
+      "source": "cybersecuritynews.com",
+      "first_seen": "2026-07-07T07:27:54Z",
+      "last_seen": "2026-07-07T07:27:54Z"
+    },
+    {
+      "id": "1d03005e8ad7a75c5b1a939d2144af3f9ce51a8a",
+      "title": "16-Year-Old Linux KVM Vulnerability Allows Malicious Guest to Corrupt Host Kernel Memory",
+      "link": "https://cybersecuritynews.com/16-year-old-linux-kvm-vulnerability/",
+      "date": "2026-07-07T07:09:36Z",
+      "description": "A newly disclosed Linux Kernel-based Virtual Machine (KVM) vulnerability, tracked as CVE-2026-53359 and dubbed “Januscape,” exposes a critical flaw that allows a malicious guest to corrupt host kernel memory, breaking the fundamental isolation guarantees of virtualization. The issue, which remained unnoticed for nearly 16 years, affects KVM’s x86 shadow memory management logic and impacts both…",
+      "source": "cybersecuritynews.com",
+      "first_seen": "2026-07-07T07:27:54Z",
+      "last_seen": "2026-07-07T07:27:54Z"
+    },
+    {
+      "id": "d60af71078554553a88f4fe9c90ecc9e4c96c4ae",
+      "title": "Critical BeyondTrust Flaws Let Attackers Bypass Access Controls and Gain Unauthorized Access",
+      "link": "https://cybersecuritynews.com/beyondtrust-vulnerabilities/",
+      "date": "2026-07-07T06:42:42Z",
+      "description": "BeyondTrust has disclosed multiple critical and high-severity vulnerabilities affecting its Remote Support (RS) and Privileged Remote Access (PRA) solutions, potentially allowing attackers to bypass access controls and gain unauthorized access to sensitive systems. The issues are tracked under Advisory ID BT26-03 and carry a maximum CVSS v4 score of 9.2, indicating a severe risk to […] The post…",
+      "source": "cybersecuritynews.com",
+      "first_seen": "2026-07-07T07:27:54Z",
+      "last_seen": "2026-07-07T07:27:54Z"
+    },
+    {
+      "id": "8b4ae517eedb29147a985d9e247198df2d02783d",
+      "title": "BeyondTrust Patches Critical Auth Bypass Flaws in Remote Support and PRA",
+      "link": "https://thehackernews.com/2026/07/beyondtrust-patches-critical-auth.html",
+      "date": "2026-07-07T05:16:51Z",
+      "description": "BeyondTrust has released updates to address two critical security flaws affecting Remote Support (RS) and Privileged Remote Access (PRA) products that, if successfully exploited, could allow unauthenticated attackers to take control of susceptible devices. The vulnerabilities are listed below - CVE-2026-40138 (CVSS score: 9.2) - A pre-authentication vulnerability exists in the",
+      "source": "thehackernews.com",
+      "first_seen": "2026-07-07T07:27:54Z",
+      "last_seen": "2026-07-07T07:27:54Z"
+    },
+    {
+      "id": "de81c1c3b5787df32cf65dd53a22f92e87c6b336",
+      "title": "Windows Device Identifier Feature Leads to Arrest of Scattered Spider Hacking Group Member",
+      "link": "https://cybersecuritynews.com/windows-device-identifier-tracking/",
+      "date": "2026-07-07T04:15:23Z",
+      "description": "A persistent Microsoft device identifier was used to unravel the anonymity of an alleged Scattered Spider operator, according to a federal superseding complaint filed in the Northern District of Illinois. Peter Stokes, 19, a dual U.S.–Estonian citizen who allegedly used the handles “Bouquet,” “Spencer,” and “Jordan,” was arrested in Finland on April 10, 2026, while […] The post Windows Device…",
+      "source": "cybersecuritynews.com",
+      "first_seen": "2026-07-07T07:27:54Z",
+      "last_seen": "2026-07-07T07:27:54Z"
+    },
     {
       "id": "7251c5a10bae0ed3a32b6bc286d89a6ad3d0fa31",
       "title": "Fast-mcp-telegram Vulnerability Allow Attackers to Access Sensitive Files",
@@ -11,7 +61,7 @@
       "description": "A critical security flaw has been discovered in the fast-mcp-telegram package that could allow remote attackers to access sensitive Telegram session data and perform unauthorized actions. The vulnerability, tracked as CVE-2026-52830 , affects all versions up to 0.19.0 and has been fixed in version 0.19.1. The issue stems from improper validation of HTTP Bearer tokens used for […] The post…",
       "source": "cybersecuritynews.com",
       "first_seen": "2026-07-07T03:41:19Z",
-      "last_seen": "2026-07-07T03:41:19Z"
+      "last_seen": "2026-07-07T07:27:54Z"
     },
     {
       "id": "fb2d346c22b1bc23d23e8bcf23a71c93b33e577e",
@@ -21,7 +71,7 @@
       "description": "A threat group researchers call \"Armored Likho\" has gained access to government agencies and electrical power entities in Russia, Brazil, and Kazakhstan.",
       "source": "darkreading.com",
       "first_seen": "2026-07-06T22:56:48Z",
-      "last_seen": "2026-07-07T03:41:19Z"
+      "last_seen": "2026-07-07T07:27:54Z"
     },
     {
       "id": "dfea83e3cb576184213337d6bbedcde3bbb2c727",
@@ -31,7 +81,7 @@
       "description": "Attackers wasted little time targeting the latest memory disclosure flaw in Citrix's NetScaler products, after researchers published a proof-of-concept exploit (PoC).",
       "source": "darkreading.com",
       "first_seen": "2026-07-06T22:56:48Z",
-      "last_seen": "2026-07-07T03:41:19Z"
+      "last_seen": "2026-07-07T07:27:54Z"
     },
     {
       "id": "14d92ddb26d30f5d0fd358a293e473bc55b02b35",
@@ -41,7 +91,7 @@
       "description": "A phishing campaign is impersonating more than 30 well-known brands, including Adobe, Netflix, Coca-Cola, and OpenAI, in fake job interviews to steal Google account credentials from marketing professionals. [...]",
       "source": "bleepingcomputer.com",
       "first_seen": "2026-07-06T21:19:58Z",
-      "last_seen": "2026-07-07T03:41:19Z"
+      "last_seen": "2026-07-07T07:27:54Z"
     },
     {
       "id": "f5e816b3c20f27e9cf0018010a9791f06983922a",
@@ -51,7 +101,7 @@
       "description": "Threat actors are abusing Microsoft Teams voice calls by impersonating corporate IT support staff to trick employees into installing the EtherRAT malware, giving attackers initial access to corporate networks. [...]",
       "source": "bleepingcomputer.com",
       "first_seen": "2026-07-06T21:19:58Z",
-      "last_seen": "2026-07-07T03:41:19Z"
+      "last_seen": "2026-07-07T07:27:54Z"
     },
     {
       "id": "b55ee46ac9e6eb2122f2eac9c63d4ad382a2fb0b",
@@ -71,7 +121,7 @@
       "description": "Securonix says the sophisticated framework abuses compromised websites, Blogspot, PowerShell, and fileless techniques to evade detection and deploy the PureLog information stealer. The post Blogspot-Hosted Payloads Delivered in ‘Veil#Drop’ Attacks appeared first on SecurityWeek.",
       "source": "securityweek.com",
       "first_seen": "2026-07-06T19:39:29Z",
-      "last_seen": "2026-07-07T03:41:19Z"
+      "last_seen": "2026-07-07T07:27:54Z"
     },
     {
       "id": "222f2ae0ea0471dd7f4742cea6139b9a90f270fc",
@@ -81,7 +131,7 @@
       "description": "An Iranian hacking group affiliated with Iran's Ministry of Intelligence and Security (MOIS) has been wielding a previously undocumented modular command-and-control (C2) framework dubbed Cavern (aka Cav3rn) targeting Israeli organizations. The activity, which has primarily singled out IT providers and government sectors, has been attributed to a threat cluster tracked by Check Point Research",
       "source": "thehackernews.com",
       "first_seen": "2026-07-06T19:39:29Z",
-      "last_seen": "2026-07-07T03:41:19Z"
+      "last_seen": "2026-07-07T07:27:54Z"
     },
     {
       "id": "a92b30c92d3042ab2c447a1a52b43f59acbe5864",
@@ -91,7 +141,7 @@
       "description": "​Vietnamese authorities have arrested and are prosecuting seven suspects believed to have run HiAnime, the largest anime piracy streaming service before its shutdown in June. [...]",
       "source": "bleepingcomputer.com",
       "first_seen": "2026-07-06T19:39:29Z",
-      "last_seen": "2026-07-07T03:41:19Z"
+      "last_seen": "2026-07-07T07:27:54Z"
     },
     {
       "id": "eeda86ce1dcca453f20827890f1b4a6326967c1d",
@@ -101,7 +151,7 @@
       "description": "A use-after-free bug in Linux's KVM hypervisor can be triggered from a guest virtual machine to corrupt the shadow-page state of the host kernel that runs it. Dubbed 'Januscape' and tracked as CVE-2026-53359, the flaw sits in the shadow MMU code that KVM shares across both Intel and AMD. The public proof-of-concept panics the host; the researcher claims that a separate, unreleased exploit",
       "source": "thehackernews.com",
       "first_seen": "2026-07-06T19:39:29Z",
-      "last_seen": "2026-07-07T03:41:19Z"
+      "last_seen": "2026-07-07T07:27:54Z"
     },
     {
       "id": "3f2d58360ae2072e6209bb5ccbe2860cd14b75ef",
@@ -131,7 +181,7 @@
       "description": "An \"agentic threat actor\" successfully exploited a Langflow flaw to steal data from a production database server and encrypt other systems.",
       "source": "darkreading.com",
       "first_seen": "2026-07-06T19:39:29Z",
-      "last_seen": "2026-07-07T03:41:19Z"
+      "last_seen": "2026-07-07T07:27:54Z"
     },
     {
       "id": "9e3f4021831925dcab2871659a07ad1efc1ecaa7",
@@ -141,7 +191,7 @@
       "description": "Threat actors have been observed attempting to exploit a recently patched critical security flaw in Gitea Docker images, according to Sysdig. The vulnerability in question is CVE-2026-20896 (CVSS score: 9.8), a vulnerability that stems from the DevOps platform trusting the \"X-WEBAUTH-USER\" header from any source IP address, effectively allowing an unauthenticated internet client to get elevated",
       "source": "thehackernews.com",
       "first_seen": "2026-07-06T17:35:03Z",
-      "last_seen": "2026-07-07T03:41:19Z"
+      "last_seen": "2026-07-07T07:27:54Z"
     },
     {
       "id": "8a124e7ec7bb431d5176307f431cca50a68eb5bf",
@@ -161,7 +211,7 @@
       "description": "Moving from isolated, technical data to a continuous risk lifecycle can help organizations align security controls with actual business consequences. The post The Shift Toward Business-Aligned Risk Management appeared first on SecurityWeek.",
       "source": "securityweek.com",
       "first_seen": "2026-07-06T17:35:03Z",
-      "last_seen": "2026-07-07T03:41:19Z"
+      "last_seen": "2026-07-07T07:27:54Z"
     },
     {
       "id": "defe0e1f3913b16d526a08c5efdf59a42f9c0401",
@@ -171,7 +221,7 @@
       "description": "The threat actor uses modular RATs and information stealers in financially motivated and cyber espionage campaigns. The post Armored Likho APT Targeting Government, Electric Power Entities appeared first on SecurityWeek.",
       "source": "securityweek.com",
       "first_seen": "2026-07-06T17:35:03Z",
-      "last_seen": "2026-07-07T03:41:19Z"
+      "last_seen": "2026-07-07T07:27:54Z"
     },
     {
       "id": "1a2aa36d77542a84c7549a897305ecc8a82995af",
@@ -221,7 +271,7 @@
       "description": "Every evolution in software development has reduced the friction between an idea and a deployable application. AI may remove the final barrier, but it also removes many of the moments where security decisions have traditionally taken place. [...]",
       "source": "bleepingcomputer.com",
       "first_seen": "2026-07-06T14:56:12Z",
-      "last_seen": "2026-07-07T03:41:19Z"
+      "last_seen": "2026-07-07T07:27:54Z"
     },
     {
       "id": "ed5e3b4729afaa1d381f3910eb4ab3413a874a90",
@@ -251,7 +301,7 @@
       "description": "Attackers are now exploiting a maximum-severity Adobe ColdFusion vulnerability tracked as CVE-2026-48282, according to vulnerability intelligence company KEVIntel. [...]",
       "source": "bleepingcomputer.com",
       "first_seen": "2026-07-06T14:56:12Z",
-      "last_seen": "2026-07-07T03:41:19Z"
+      "last_seen": "2026-07-07T07:27:54Z"
     },
     {
       "id": "8a6b3f83cdd34f168ba8cd8e3e40530b40562139",
@@ -261,7 +311,7 @@
       "description": "The PolinRider campaign has compromised more than 100 legitimate open source packages and repositories to deliver a backdoor and information stealer to developers. The post North Korean Hackers Target Open Source Developers in Supply Chain Attacks appeared first on SecurityWeek.",
       "source": "securityweek.com",
       "first_seen": "2026-07-06T14:56:12Z",
-      "last_seen": "2026-07-07T03:41:19Z"
+      "last_seen": "2026-07-07T07:27:54Z"
     },
     {
       "id": "f51c702da7bea47d17f5998ca371685e1f5d8bba",
@@ -271,7 +321,7 @@
       "description": "A streaming box should not need a threat model. Neither should a username field, a demo repo, a reset flow, or a browser permission prompt. That is the irritating part this week: the risky pieces were ordinary. Home devices became a routing cover. Clean code pulled dirt from a dependency. Identity shortcuts aged badly. AI systems trusted the wrong instructions. Same soft spot throughout: trust",
       "source": "thehackernews.com",
       "first_seen": "2026-07-06T14:56:12Z",
-      "last_seen": "2026-07-07T03:41:19Z"
+      "last_seen": "2026-07-07T07:27:54Z"
     },
     {
       "id": "63e5e50e1d379f1793003b83e390bdc87d1d9535",
@@ -281,7 +331,7 @@
       "description": "Organizations are urged to patch after proof-of-concept code makes the Linux root escalation flaw easier to exploit. The post Proof-of-Concept Exploit Released for Linux ‘Bad Epoll’ Root Access Vulnerability appeared first on SecurityWeek.",
       "source": "securityweek.com",
       "first_seen": "2026-07-06T14:56:12Z",
-      "last_seen": "2026-07-07T03:41:19Z"
+      "last_seen": "2026-07-07T07:27:54Z"
     },
     {
       "id": "4b4a502f42583cde956c20966a00f97f31abf7a8",
@@ -661,7 +711,7 @@
       "description": "Two new models from Chinese firms compete with top US mainstream and frontier models. Should cyber-defenders be worried?",
       "source": "darkreading.com",
       "first_seen": "2026-07-03T13:40:13Z",
-      "last_seen": "2026-07-07T03:41:19Z"
+      "last_seen": "2026-07-07T07:27:54Z"
     },
     {
       "id": "4d0a8bc8543c27919649f5306986f7403d2cf48a",
@@ -781,7 +831,7 @@
       "description": "A CVSS score 7.8 AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H severity vulnerability discovered by 'Anonymous' was reported to the affected vendor on: 2026-07-03, 0 days ago. The vendor is given until 2026-10-31 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
       "source": "zerodayinitiative.com",
       "first_seen": "2026-07-03T17:11:59Z",
-      "last_seen": "2026-07-07T03:41:19Z"
+      "last_seen": "2026-07-07T07:27:54Z"
     },
     {
       "id": "d56a8b8170c105fb3d2332a848c3d948255d00c2",
@@ -791,7 +841,7 @@
       "description": "A CVSS score 7.8 AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H severity vulnerability discovered by 'truff' was reported to the affected vendor on: 2026-07-03, 0 days ago. The vendor is given until 2026-10-31 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
       "source": "zerodayinitiative.com",
       "first_seen": "2026-07-03T17:11:59Z",
-      "last_seen": "2026-07-07T03:41:19Z"
+      "last_seen": "2026-07-07T07:27:54Z"
     },
     {
       "id": "74d229b4dfaa03e3d7c2d2fddb981a26d6eb9e57",
@@ -801,7 +851,7 @@
       "description": "A CVSS score 9.8 AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H severity vulnerability discovered by 'Nicholas Zubrisky (@NZubrisky) of TrendAI Zero Day Initiative' was reported to the affected vendor on: 2026-07-03, 0 days ago. The vendor is given until 2026-10-31 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
       "source": "zerodayinitiative.com",
       "first_seen": "2026-07-03T17:11:59Z",
-      "last_seen": "2026-07-07T03:41:19Z"
+      "last_seen": "2026-07-07T07:27:54Z"
     },
     {
       "id": "70b3a819d2361bc11893af73f8ef1aa33d5bcae1",
@@ -811,7 +861,7 @@
       "description": "A CVSS score 8.8 AV:L/AC:L/PR:L/UI:N/S:C/C:H/I:H/A:H severity vulnerability discovered by 'Anonymous' was reported to the affected vendor on: 2026-07-03, 0 days ago. The vendor is given until 2026-10-31 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
       "source": "zerodayinitiative.com",
       "first_seen": "2026-07-03T17:11:59Z",
-      "last_seen": "2026-07-07T03:41:19Z"
+      "last_seen": "2026-07-07T07:27:54Z"
     },
     {
       "id": "54b31c827956d65d8285ae84ec6486f8d4320e9a",
@@ -821,7 +871,7 @@
       "description": "A CVSS score 9.8 AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H severity vulnerability discovered by 'Maher Azzouzi' was reported to the affected vendor on: 2026-07-03, 0 days ago. The vendor is given until 2026-10-31 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
       "source": "zerodayinitiative.com",
       "first_seen": "2026-07-03T19:00:12Z",
-      "last_seen": "2026-07-07T03:41:19Z"
+      "last_seen": "2026-07-07T07:27:54Z"
     },
     {
       "id": "23e7722c49f23c75079bf6b2004dcc9f37748980",
@@ -871,7 +921,7 @@
       "description": "Improved institutional safeguards and stricter regulations have pushed the burdens of protection and risk reduction on to Australian businesses.",
       "source": "darkreading.com",
       "first_seen": "2026-07-02T23:01:47Z",
-      "last_seen": "2026-07-07T03:41:19Z"
+      "last_seen": "2026-07-07T07:27:54Z"
     },
     {
       "id": "7e64fed981f05855326077c388a878b0e17c2004",
@@ -33984,36 +34034,6 @@
       "last_seen": "2026-04-09T16:11:44Z"
     },
     {
-      "id": "7641d8863cb996a7ab13c31d7833225ebcf4c111",
-      "title": "Iran-Linked Hackers Disrupt U.S. Critical Infrastructure by Targeting Internet-Exposed PLCs",
-      "link": "https://thehackernews.com/2026/04/iran-linked-hackers-disrupt-us-critical.html",
-      "date": "2026-04-08T04:23:00Z",
-      "description": "Iran-affiliated cyber actors are targeting internet-facing operational technology (OT) devices across critical infrastructures in the U.S., including programmable logic controllers (PLCs), cybersecurity and intelligence agencies warned Tuesday. \"These attacks have led to diminished PLC functionality, manipulation of display data and, in some cases, operational disruption and financial",
-      "source": "thehackernews.com",
-      "first_seen": "2026-04-08T06:15:12Z",
-      "last_seen": "2026-04-08T16:07:46Z"
-    },
-    {
-      "id": "1c9fc3113f100f737be708b8d4146dd469a296f1",
-      "title": "Claude Uncovers 13-Year-Old RCE Flaw in Apache ActiveMQ in Just 10 Minutes",
-      "link": "https://cybersecuritynews.com/claude-apache-activemq/",
-      "date": "2026-04-08T04:15:34Z",
-      "description": "A critical remote code execution (RCE) vulnerability has been disclosed in Apache ActiveMQ Classic, a flaw that sat undetected for over a decade and was ultimately discovered not by a human researcher manually combing through code, but by Anthropic’s Claude AI model in under 10 minutes. Tracked as CVE-2026-34197, the flaw is an improper input […] The post Claude Uncovers 13-Year-Old RCE Flaw in…",
-      "source": "cybersecuritynews.com",
-      "first_seen": "2026-04-08T04:27:53Z",
-      "last_seen": "2026-04-08T04:27:53Z"
-    },
-    {
-      "id": "f727a33ff7408b34b4f607af5edcdc78d2a3d800",
-      "title": "Claude Uncovers 13-Year-Old 0-Day RCE Flaw in Apache ActiveMQ in Just 10 Minutes",
-      "link": "https://cybersecuritynews.com/claude-apache-activemq/",
-      "date": "2026-04-08T04:15:34Z",
-      "description": "A critical remote code execution (RCE) vulnerability has been disclosed in Apache ActiveMQ Classic, a flaw that sat undetected for over a decade and was ultimately discovered not by a human researcher manually combing through code, but by Anthropic’s Claude AI model in under 10 minutes. Tracked as CVE-2026-34197, the flaw is an improper input […] The post Claude Uncovers 13-Year-Old 0-Day RCE…",
-      "source": "cybersecuritynews.com",
-      "first_seen": "2026-04-08T06:15:12Z",
-      "last_seen": "2026-04-08T06:15:12Z"
-    },
-    {
       "id": "27340aa7f7fa599f43e60247e1eb874c5ba525db",
       "title": "Claude Finds 13-Year-Old 0-Day RCE Vulnerability in Apache ActiveMQ in 10 Minutes",
       "link": "https://cybersecuritynews.com/claude-apache-activemq/",
@@ -34024,36 +34044,6 @@
       "last_seen": "2026-04-08T09:58:41Z"
     },
     {
-      "id": "b9a70400f80e2656958a36f4cb7157fef61e7e8d",
-      "title": "CUPS Vulnerability Chain Enables Remote Attacker to Execute Malicious Code as Root User",
-      "link": "https://cybersecuritynews.com/cups-vulnerability-remote-attack/",
-      "date": "2026-04-08T03:51:35Z",
-      "description": "A critical vulnerability chain in the Common Unix Printing System (CUPS) that allows unauthenticated remote attackers to execute arbitrary malicious code with root system privileges. Security researcher Asim Viladi Oglu Manizada and his team discovered two zero-day flaws, officially tracked as CVE-2026-34980 and CVE-2026-34990, that affect CUPS versions 2.4.16 and older. The sophisticated attack…",
-      "source": "cybersecuritynews.com",
-      "first_seen": "2026-04-08T04:27:53Z",
-      "last_seen": "2026-04-08T09:58:41Z"
-    },
-    {
-      "id": "1f888a66f4a9b9cb60f145abd8a98ce12550a90f",
-      "title": "Iran-Linked Hackers Disrupt US Critical Infrastructure via PLC Attacks",
-      "link": "https://www.securityweek.com/iran-linked-hackers-disrupt-us-critical-infrastructure-via-plc-attacks/",
-      "date": "2026-04-08T02:57:56Z",
-      "description": "Federal agencies warn attackers are manipulating PLC and SCADA systems across multiple sectors, triggering operational disruptions and raising concerns over broader OT targeting. The post Iran-Linked Hackers Disrupt US Critical Infrastructure via PLC Attacks appeared first on SecurityWeek.",
-      "source": "securityweek.com",
-      "first_seen": "2026-04-08T04:27:53Z",
-      "last_seen": "2026-04-08T12:56:12Z"
-    },
-    {
-      "id": "fba7a3335712e85754c7d9f4b674929377b36102",
-      "title": "Fiber Optic Cables Turned Into Hidden Microphones to Secretly Spy on Your Conversations",
-      "link": "https://cybersecuritynews.com/fiber-optic-cables-microphones/",
-      "date": "2026-04-08T02:46:27Z",
-      "description": "Researchers at NDSS 2026 demonstrate a covert acoustic eavesdropping attack that transforms standard FTTH telecom fiber cables into passive, undetectable listening devices invisible to RF scanners and immune to ultrasonic jammers. Security researchers from The Hong Kong Polytechnic University, The Chinese University of Hong Kong, and the Technological and Higher Education Institute of Hong Kong…",
-      "source": "cybersecuritynews.com",
-      "first_seen": "2026-04-08T04:27:53Z",
-      "last_seen": "2026-04-08T06:15:12Z"
-    },
-    {
       "id": "664df53292fd50e8b1e7bf61d1267fe95047525f",
       "title": "Student Loan Breach Exposes 2.5M Records",
       "link": "https://threatpost.com/student-loan-breach-exposes-2-5m-records/180492/",
@@ -34061,7 +34051,7 @@
       "description": "2.5 million people were affected, in a breach that could spell more trouble down the line.",
       "source": "threatpost.com",
       "first_seen": "2026-05-10T12:53:08Z",
-      "last_seen": "2026-07-07T03:41:19Z"
+      "last_seen": "2026-07-07T07:27:54Z"
     },
     {
       "id": "4140c7a34b0ba94ad2e6b0cae9f59b0cb9bfffea",
@@ -34071,7 +34061,7 @@
       "description": "Researchers uncover a watering hole attack likely carried out by APT TA423, which attempts to plant the ScanBox JavaScript-based reconnaissance tool.",
       "source": "threatpost.com",
       "first_seen": "2026-05-10T12:53:08Z",
-      "last_seen": "2026-07-07T03:41:19Z"
+      "last_seen": "2026-07-07T07:27:54Z"
     },
     {
       "id": "9359ee40a641a4b565080313045f1d7e7fe6552b",
@@ -34081,7 +34071,7 @@
       "description": "Over 130 companies tangled in sprawling phishing campaign that spoofed a multi-factor authentication system.",
       "source": "threatpost.com",
       "first_seen": "2026-05-10T12:53:08Z",
-      "last_seen": "2026-07-07T03:41:19Z"
+      "last_seen": "2026-07-07T07:27:54Z"
     },
     {
       "id": "b4ccef0737cd4050d65241bf754072030b6b5e6a",
@@ -34091,7 +34081,7 @@
       "description": "Lockbit is by far this summer’s most prolific ransomware group, trailed by two offshoots of the Conti group.",
       "source": "threatpost.com",
       "first_seen": "2026-05-10T12:53:08Z",
-      "last_seen": "2026-07-07T03:41:19Z"
+      "last_seen": "2026-07-07T07:27:54Z"
     },
     {
       "id": "12ee113fc8fce91f6d7fb28deab2b1ad20061ec7",
@@ -34101,7 +34091,7 @@
       "description": "Tens of thousands of cameras have failed to patch a critical, 11-month-old CVE, leaving thousands of organizations exposed.",
       "source": "threatpost.com",
       "first_seen": "2026-05-10T12:53:08Z",
-      "last_seen": "2026-07-07T03:41:19Z"
+      "last_seen": "2026-07-07T07:27:54Z"
     }
   ]
 }

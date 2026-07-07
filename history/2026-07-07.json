@@ -1,7 +1,57 @@
 {
   "date": "2026-07-07",
-  "count": 1,
+  "count": 6,
   "items": [
+    {
+      "id": "5e05673232ddca193003be8e3ef132eeef5bbadd",
+      "title": "Tenda Authentication Backdoor Grants Attackers Full Administrative Access",
+      "link": "https://cybersecuritynews.com/tenda-authentication-backdoor-grants-access/",
+      "date": "2026-07-07T07:19:49Z",
+      "description": "A newly disclosed vulnerability in Tenda network devices exposes a critical authentication backdoor that allows attackers to gain full administrative access without valid credentials. The flaw affects multiple firmware versions across several Tenda router models, including the FH1201, W15E, AC10, AC5, and AC6 series. The issue, tracked as CVE-2026-11405, was published by the CERT Coordination…",
+      "source": "cybersecuritynews.com",
+      "first_seen": "2026-07-07T07:27:54Z",
+      "last_seen": "2026-07-07T07:27:54Z"
+    },
+    {
+      "id": "1d03005e8ad7a75c5b1a939d2144af3f9ce51a8a",
+      "title": "16-Year-Old Linux KVM Vulnerability Allows Malicious Guest to Corrupt Host Kernel Memory",
+      "link": "https://cybersecuritynews.com/16-year-old-linux-kvm-vulnerability/",
+      "date": "2026-07-07T07:09:36Z",
+      "description": "A newly disclosed Linux Kernel-based Virtual Machine (KVM) vulnerability, tracked as CVE-2026-53359 and dubbed “Januscape,” exposes a critical flaw that allows a malicious guest to corrupt host kernel memory, breaking the fundamental isolation guarantees of virtualization. The issue, which remained unnoticed for nearly 16 years, affects KVM’s x86 shadow memory management logic and impacts both…",
+      "source": "cybersecuritynews.com",
+      "first_seen": "2026-07-07T07:27:54Z",
+      "last_seen": "2026-07-07T07:27:54Z"
+    },
+    {
+      "id": "d60af71078554553a88f4fe9c90ecc9e4c96c4ae",
+      "title": "Critical BeyondTrust Flaws Let Attackers Bypass Access Controls and Gain Unauthorized Access",
+      "link": "https://cybersecuritynews.com/beyondtrust-vulnerabilities/",
+      "date": "2026-07-07T06:42:42Z",
+      "description": "BeyondTrust has disclosed multiple critical and high-severity vulnerabilities affecting its Remote Support (RS) and Privileged Remote Access (PRA) solutions, potentially allowing attackers to bypass access controls and gain unauthorized access to sensitive systems. The issues are tracked under Advisory ID BT26-03 and carry a maximum CVSS v4 score of 9.2, indicating a severe risk to […] The post…",
+      "source": "cybersecuritynews.com",
+      "first_seen": "2026-07-07T07:27:54Z",
+      "last_seen": "2026-07-07T07:27:54Z"
+    },
+    {
+      "id": "8b4ae517eedb29147a985d9e247198df2d02783d",
+      "title": "BeyondTrust Patches Critical Auth Bypass Flaws in Remote Support and PRA",
+      "link": "https://thehackernews.com/2026/07/beyondtrust-patches-critical-auth.html",
+      "date": "2026-07-07T05:16:51Z",
+      "description": "BeyondTrust has released updates to address two critical security flaws affecting Remote Support (RS) and Privileged Remote Access (PRA) products that, if successfully exploited, could allow unauthenticated attackers to take control of susceptible devices. The vulnerabilities are listed below - CVE-2026-40138 (CVSS score: 9.2) - A pre-authentication vulnerability exists in the",
+      "source": "thehackernews.com",
+      "first_seen": "2026-07-07T07:27:54Z",
+      "last_seen": "2026-07-07T07:27:54Z"
+    },
+    {
+      "id": "de81c1c3b5787df32cf65dd53a22f92e87c6b336",
+      "title": "Windows Device Identifier Feature Leads to Arrest of Scattered Spider Hacking Group Member",
+      "link": "https://cybersecuritynews.com/windows-device-identifier-tracking/",
+      "date": "2026-07-07T04:15:23Z",
+      "description": "A persistent Microsoft device identifier was used to unravel the anonymity of an alleged Scattered Spider operator, according to a federal superseding complaint filed in the Northern District of Illinois. Peter Stokes, 19, a dual U.S.–Estonian citizen who allegedly used the handles “Bouquet,” “Spencer,” and “Jordan,” was arrested in Finland on April 10, 2026, while […] The post Windows Device…",
+      "source": "cybersecuritynews.com",
+      "first_seen": "2026-07-07T07:27:54Z",
+      "last_seen": "2026-07-07T07:27:54Z"
+    },
     {
       "id": "7251c5a10bae0ed3a32b6bc286d89a6ad3d0fa31",
       "title": "Fast-mcp-telegram Vulnerability Allow Attackers to Access Sensitive Files",
@@ -10,7 +60,7 @@
       "description": "A critical security flaw has been discovered in the fast-mcp-telegram package that could allow remote attackers to access sensitive Telegram session data and perform unauthorized actions. The vulnerability, tracked as CVE-2026-52830 , affects all versions up to 0.19.0 and has been fixed in version 0.19.1. The issue stems from improper validation of HTTP Bearer tokens used for […] The post…",
       "source": "cybersecuritynews.com",
       "first_seen": "2026-07-07T03:41:19Z",
-      "last_seen": "2026-07-07T03:41:19Z"
+      "last_seen": "2026-07-07T07:27:54Z"
     }
   ]
 }
