@@ -1,27 +1,55 @@
 {
-  "last_updated": "2026-07-07T07:27:54Z",
-  "count": 35,
+  "last_updated": "2026-07-07T10:44:31Z",
+  "count": 30,
   "items": [
     {
-      "title": "Tenda Authentication Backdoor Grants Attackers Full Administrative Access",
-      "link": "https://cybersecuritynews.com/tenda-authentication-backdoor-grants-access/",
-      "date": "2026-07-07T07:19:49Z",
-      "description": "A newly disclosed vulnerability in Tenda network devices exposes a critical authentication backdoor that allows attackers to gain full administrative access without valid credentials. The flaw affects multiple firmware versions across several Tenda router models, including the FH1201, W15E, AC10, AC5, and AC6 series. The issue, tracked as CVE-2026-11405, was published by the CERT Coordination…",
-      "source": "cybersecuritynews.com"
+      "title": "Linux Kernel Vulnerability Allows VM Escape on Intel and AMD Systems",
+      "link": "https://www.securityweek.com/linux-kernel-vulnerability-allows-vm-escape-on-intel-and-amd-systems/",
+      "date": "2026-07-07T10:00:00Z",
+      "description": "The 16-year-old Januscape flaw affects Linux's KVM hypervisor, allowing attackers to escape virtual machines and potentially execute code on the underlying host. The post Linux Kernel Vulnerability Allows VM Escape on Intel and AMD Systems appeared first on SecurityWeek.",
+      "source": "securityweek.com"
     },
     {
-      "title": "16-Year-Old Linux KVM Vulnerability Allows Malicious Guest to Corrupt Host Kernel Memory",
-      "link": "https://cybersecuritynews.com/16-year-old-linux-kvm-vulnerability/",
-      "date": "2026-07-07T07:09:36Z",
-      "description": "A newly disclosed Linux Kernel-based Virtual Machine (KVM) vulnerability, tracked as CVE-2026-53359 and dubbed “Januscape,” exposes a critical flaw that allows a malicious guest to corrupt host kernel memory, breaking the fundamental isolation guarantees of virtualization. The issue, which remained unnoticed for nearly 16 years, affects KVM’s x86 shadow memory management logic and impacts both…",
-      "source": "cybersecuritynews.com"
+      "title": "Microsoft to enable Windows settings backup by default for orgs",
+      "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-to-enable-windows-backup-for-organizations-by-default/",
+      "date": "2026-07-07T09:41:19Z",
+      "description": "Microsoft says the Windows settings backup and restore tool will be enabled by default on Microsoft Entra-joined or Microsoft Entra hybrid-joined enterprise systems after upgrading to Windows 11 26H2. [...]",
+      "source": "bleepingcomputer.com"
     },
     {
-      "title": "Critical BeyondTrust Flaws Let Attackers Bypass Access Controls and Gain Unauthorized Access",
-      "link": "https://cybersecuritynews.com/beyondtrust-vulnerabilities/",
-      "date": "2026-07-07T06:42:42Z",
-      "description": "BeyondTrust has disclosed multiple critical and high-severity vulnerabilities affecting its Remote Support (RS) and Privileged Remote Access (PRA) solutions, potentially allowing attackers to bypass access controls and gain unauthorized access to sensitive systems. The issues are tracked under Advisory ID BT26-03 and carry a maximum CVSS v4 score of 9.2, indicating a severe risk to […] The post…",
-      "source": "cybersecuritynews.com"
+      "title": "Keyfactor Scores $1 Billion+ Investment for AI, Post-Quantum Security",
+      "link": "https://www.securityweek.com/keyfactor-scores-1-billion-investment-for-ai-post-quantum-security/",
+      "date": "2026-07-07T09:30:00Z",
+      "description": "The investment will accelerate Keyfactor's machine identity, PKI, and cryptographic security platform as enterprises prepare for AI-driven and post-quantum threats. The post Keyfactor Scores $1 Billion+ Investment for AI, Post-Quantum Security appeared first on SecurityWeek.",
+      "source": "securityweek.com"
+    },
+    {
+      "title": "Suspected China-Aligned Hackers Exploit Roundcube Flaws Against Universities",
+      "link": "https://thehackernews.com/2026/07/suspected-china-aligned-hackers-exploit.html",
+      "date": "2026-07-07T09:10:51Z",
+      "description": "A suspected China-aligned threat activity cluster has been observed exploiting Roundcube webmail software belonging to physics and engineering departments of U.S. and Canadian universities as part of a new campaign. The activity involves the exploitation of now-patched, critical security flaws in the open-source email solution, such as CVE-2024-42009 (CVSS score: 9.3), to siphon credentials,",
+      "source": "thehackernews.com"
+    },
+    {
+      "title": "BeyondTrust warns of critical flaws in remote access software",
+      "link": "https://www.bleepingcomputer.com/news/security/beyondtrust-warns-of-critical-flaws-in-remote-access-software/",
+      "date": "2026-07-07T08:12:10Z",
+      "description": "BeyondTrust warned customers to patch two critical security flaws in its Remote Support (RS) and Privileged Remote Access (PRA) software that could allow attackers to bypass authentication. [...]",
+      "source": "bleepingcomputer.com"
+    },
+    {
+      "title": "Microsoft testing new Cloud Rebuild Windows 11 recovery feature",
+      "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-testing-new-cloud-rebuild-windows-11-recovery-feature/",
+      "date": "2026-07-07T07:37:38Z",
+      "description": "Microsoft has begun testing the Cloud Rebuild recovery feature in the latest Windows 11 Insider Preview builds released for users in the Experimental channel. [...]",
+      "source": "bleepingcomputer.com"
+    },
+    {
+      "title": "CERT/CC Warns of Hidden Admin Backdoor in Tenda Router Firmware",
+      "link": "https://thehackernews.com/2026/07/certcc-warns-of-hidden-admin-backdoor.html",
+      "date": "2026-07-07T06:40:47Z",
+      "description": "Several versions of firmware released by Chinese network device manufacturer Tenda have been found to embed an undocumented authentication backdoor that enables administrative access to the devices' web management interfaces, the CERT Coordination Center (CERT/CC) warned Monday. \"An attacker can exploit this vulnerability, tracked as CVE-2026-11405, to bypass the password verification process",
+      "source": "thehackernews.com"
     },
     {
       "title": "BeyondTrust Patches Critical Auth Bypass Flaws in Remote Support and PRA",
@@ -29,20 +57,6 @@
       "date": "2026-07-07T05:16:51Z",
       "description": "BeyondTrust has released updates to address two critical security flaws affecting Remote Support (RS) and Privileged Remote Access (PRA) products that, if successfully exploited, could allow unauthenticated attackers to take control of susceptible devices. The vulnerabilities are listed below - CVE-2026-40138 (CVSS score: 9.2) - A pre-authentication vulnerability exists in the",
       "source": "thehackernews.com"
-    },
-    {
-      "title": "Windows Device Identifier Feature Leads to Arrest of Scattered Spider Hacking Group Member",
-      "link": "https://cybersecuritynews.com/windows-device-identifier-tracking/",
-      "date": "2026-07-07T04:15:23Z",
-      "description": "A persistent Microsoft device identifier was used to unravel the anonymity of an alleged Scattered Spider operator, according to a federal superseding complaint filed in the Northern District of Illinois. Peter Stokes, 19, a dual U.S.–Estonian citizen who allegedly used the handles “Bouquet,” “Spencer,” and “Jordan,” was arrested in Finland on April 10, 2026, while […] The post Windows Device…",
-      "source": "cybersecuritynews.com"
-    },
-    {
-      "title": "Fast-mcp-telegram Vulnerability Allow Attackers to Access Sensitive Files",
-      "link": "https://cybersecuritynews.com/fast-mcp-telegram-vulnerability/",
-      "date": "2026-07-07T02:40:00Z",
-      "description": "A critical security flaw has been discovered in the fast-mcp-telegram package that could allow remote attackers to access sensitive Telegram session data and perform unauthorized actions. The vulnerability, tracked as CVE-2026-52830 , affects all versions up to 0.19.0 and has been fixed in version 0.19.1. The issue stems from improper validation of HTTP Bearer tokens used for […] The post…",
-      "source": "cybersecuritynews.com"
     },
     {
       "title": "'BusySnake' Infostealer Slithers into Critical Infrastructure Networks",
@@ -87,13 +101,6 @@
       "source": "thehackernews.com"
     },
     {
-      "title": "Vietnam arrests suspects behind HiAnime anime piracy service",
-      "link": "https://www.bleepingcomputer.com/news/security/vietnam-arrests-suspects-behind-hianime-anime-piracy-service/",
-      "date": "2026-07-06T18:25:06Z",
-      "description": "​Vietnamese authorities have arrested and are prosecuting seven suspects believed to have run HiAnime, the largest anime piracy streaming service before its shutdown in June. [...]",
-      "source": "bleepingcomputer.com"
-    },
-    {
       "title": "16-Year-Old Linux KVM Flaw Lets Guest VMs Escape to Host on Intel and AMD x86 Systems",
       "link": "https://thehackernews.com/2026/07/16-year-old-linux-kvm-flaw-lets-guest.html",
       "date": "2026-07-06T17:37:01Z",
@@ -108,13 +115,6 @@
       "source": "darkreading.com"
     },
     {
-      "title": "Threat Actors Probe Gitea Docker Flaw CVE-2026-20896 13 Days After Disclosure",
-      "link": "https://thehackernews.com/2026/07/threat-actors-probe-gitea-docker-flaw.html",
-      "date": "2026-07-06T16:28:59Z",
-      "description": "Threat actors have been observed attempting to exploit a recently patched critical security flaw in Gitea Docker images, according to Sysdig. The vulnerability in question is CVE-2026-20896 (CVSS score: 9.8), a vulnerability that stems from the DevOps platform trusting the \"X-WEBAUTH-USER\" header from any source IP address, effectively allowing an unauthenticated internet client to get elevated",
-      "source": "thehackernews.com"
-    },
-    {
       "title": "The Shift Toward Business-Aligned Risk Management",
       "link": "https://www.securityweek.com/the-shift-toward-business-aligned-risk-management/",
       "date": "2026-07-06T15:20:42Z",
@@ -126,41 +126,6 @@
       "link": "https://www.securityweek.com/armored-likho-apt-targeting-government-electric-power-entities/",
       "date": "2026-07-06T15:10:39Z",
       "description": "The threat actor uses modular RATs and information stealers in financially motivated and cyber espionage campaigns. The post Armored Likho APT Targeting Government, Electric Power Entities appeared first on SecurityWeek.",
-      "source": "securityweek.com"
-    },
-    {
-      "title": "Software Is Now Written at the Speed of Thought. Security Isn't.",
-      "link": "https://www.bleepingcomputer.com/news/security/software-is-now-written-at-the-speed-of-thought-security-isnt/",
-      "date": "2026-07-06T14:00:10Z",
-      "description": "Every evolution in software development has reduced the friction between an idea and a deployable application. AI may remove the final barrier, but it also removes many of the moments where security decisions have traditionally taken place. [...]",
-      "source": "bleepingcomputer.com"
-    },
-    {
-      "title": "Max severity Adobe ColdFusion flaw now exploited in attacks",
-      "link": "https://www.bleepingcomputer.com/news/security/max-severity-adobe-coldfusion-flaw-now-exploited-in-attacks/",
-      "date": "2026-07-06T13:18:37Z",
-      "description": "Attackers are now exploiting a maximum-severity Adobe ColdFusion vulnerability tracked as CVE-2026-48282, according to vulnerability intelligence company KEVIntel. [...]",
-      "source": "bleepingcomputer.com"
-    },
-    {
-      "title": "North Korean Hackers Target Open Source Developers in Supply Chain Attacks",
-      "link": "https://www.securityweek.com/north-korean-hackers-target-open-source-developers-in-supply-chain-attacks/",
-      "date": "2026-07-06T13:11:16Z",
-      "description": "The PolinRider campaign has compromised more than 100 legitimate open source packages and repositories to deliver a backdoor and information stealer to developers. The post North Korean Hackers Target Open Source Developers in Supply Chain Attacks appeared first on SecurityWeek.",
-      "source": "securityweek.com"
-    },
-    {
-      "title": "⚡ Weekly Recap: Proxy Botnets, Browser Ransomware, AI Agent Tricks, Fake PoC Malware and More",
-      "link": "https://thehackernews.com/2026/07/monday-recap-proxy-botnets-browser.html",
-      "date": "2026-07-06T13:01:14Z",
-      "description": "A streaming box should not need a threat model. Neither should a username field, a demo repo, a reset flow, or a browser permission prompt. That is the irritating part this week: the risky pieces were ordinary. Home devices became a routing cover. Clean code pulled dirt from a dependency. Identity shortcuts aged badly. AI systems trusted the wrong instructions. Same soft spot throughout: trust",
-      "source": "thehackernews.com"
-    },
-    {
-      "title": "Proof-of-Concept Exploit Released for Linux ‘Bad Epoll’ Root Access Vulnerability",
-      "link": "https://www.securityweek.com/proof-of-concept-exploit-released-for-linux-bad-epoll-root-access-vulnerability/",
-      "date": "2026-07-06T12:48:01Z",
-      "description": "Organizations are urged to patch after proof-of-concept code makes the Linux root escalation flaw easier to exploit. The post Proof-of-Concept Exploit Released for Linux ‘Bad Epoll’ Root Access Vulnerability appeared first on SecurityWeek.",
       "source": "securityweek.com"
     },
     {

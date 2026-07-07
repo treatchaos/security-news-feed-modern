@@ -1,8 +1,68 @@
 {
-  "last_updated": "2026-07-07T07:27:54Z",
+  "last_updated": "2026-07-07T10:44:31Z",
   "retention_days": 90,
-  "count": 3409,
+  "count": 3408,
   "items": [
+    {
+      "id": "28e99059c0c1b878d3b3f860c9b18b3e2cc9f66b",
+      "title": "Linux Kernel Vulnerability Allows VM Escape on Intel and AMD Systems",
+      "link": "https://www.securityweek.com/linux-kernel-vulnerability-allows-vm-escape-on-intel-and-amd-systems/",
+      "date": "2026-07-07T10:00:00Z",
+      "description": "The 16-year-old Januscape flaw affects Linux's KVM hypervisor, allowing attackers to escape virtual machines and potentially execute code on the underlying host. The post Linux Kernel Vulnerability Allows VM Escape on Intel and AMD Systems appeared first on SecurityWeek.",
+      "source": "securityweek.com",
+      "first_seen": "2026-07-07T10:44:31Z",
+      "last_seen": "2026-07-07T10:44:31Z"
+    },
+    {
+      "id": "83e075d41a10271f73deb926379c97e98fdbbba0",
+      "title": "Microsoft to enable Windows settings backup by default for orgs",
+      "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-to-enable-windows-backup-for-organizations-by-default/",
+      "date": "2026-07-07T09:41:19Z",
+      "description": "Microsoft says the Windows settings backup and restore tool will be enabled by default on Microsoft Entra-joined or Microsoft Entra hybrid-joined enterprise systems after upgrading to Windows 11 26H2. [...]",
+      "source": "bleepingcomputer.com",
+      "first_seen": "2026-07-07T10:44:31Z",
+      "last_seen": "2026-07-07T10:44:31Z"
+    },
+    {
+      "id": "4ad37ee6755d84cd0ede6acac94ea1bf34736ad3",
+      "title": "Keyfactor Scores $1 Billion+ Investment for AI, Post-Quantum Security",
+      "link": "https://www.securityweek.com/keyfactor-scores-1-billion-investment-for-ai-post-quantum-security/",
+      "date": "2026-07-07T09:30:00Z",
+      "description": "The investment will accelerate Keyfactor's machine identity, PKI, and cryptographic security platform as enterprises prepare for AI-driven and post-quantum threats. The post Keyfactor Scores $1 Billion+ Investment for AI, Post-Quantum Security appeared first on SecurityWeek.",
+      "source": "securityweek.com",
+      "first_seen": "2026-07-07T10:44:31Z",
+      "last_seen": "2026-07-07T10:44:31Z"
+    },
+    {
+      "id": "23a808f8c82f919eb6a6cfcf3059d0debd0cef44",
+      "title": "Suspected China-Aligned Hackers Exploit Roundcube Flaws Against Universities",
+      "link": "https://thehackernews.com/2026/07/suspected-china-aligned-hackers-exploit.html",
+      "date": "2026-07-07T09:10:51Z",
+      "description": "A suspected China-aligned threat activity cluster has been observed exploiting Roundcube webmail software belonging to physics and engineering departments of U.S. and Canadian universities as part of a new campaign. The activity involves the exploitation of now-patched, critical security flaws in the open-source email solution, such as CVE-2024-42009 (CVSS score: 9.3), to siphon credentials,",
+      "source": "thehackernews.com",
+      "first_seen": "2026-07-07T10:44:31Z",
+      "last_seen": "2026-07-07T10:44:31Z"
+    },
+    {
+      "id": "a2fe8b450a4ee729a6d2ca407ac84b00537b9031",
+      "title": "BeyondTrust warns of critical flaws in remote access software",
+      "link": "https://www.bleepingcomputer.com/news/security/beyondtrust-warns-of-critical-flaws-in-remote-access-software/",
+      "date": "2026-07-07T08:12:10Z",
+      "description": "BeyondTrust warned customers to patch two critical security flaws in its Remote Support (RS) and Privileged Remote Access (PRA) software that could allow attackers to bypass authentication. [...]",
+      "source": "bleepingcomputer.com",
+      "first_seen": "2026-07-07T10:44:31Z",
+      "last_seen": "2026-07-07T10:44:31Z"
+    },
+    {
+      "id": "92b436c94895f601c4e3f4e6fc8fc0082a5047ef",
+      "title": "Microsoft testing new Cloud Rebuild Windows 11 recovery feature",
+      "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-testing-new-cloud-rebuild-windows-11-recovery-feature/",
+      "date": "2026-07-07T07:37:38Z",
+      "description": "Microsoft has begun testing the Cloud Rebuild recovery feature in the latest Windows 11 Insider Preview builds released for users in the Experimental channel. [...]",
+      "source": "bleepingcomputer.com",
+      "first_seen": "2026-07-07T10:44:31Z",
+      "last_seen": "2026-07-07T10:44:31Z"
+    },
     {
       "id": "5e05673232ddca193003be8e3ef132eeef5bbadd",
       "title": "Tenda Authentication Backdoor Grants Attackers Full Administrative Access",
@@ -34,6 +94,16 @@
       "last_seen": "2026-07-07T07:27:54Z"
     },
     {
+      "id": "b22f1632fb5630eb579e5fd632554f1079cb1a04",
+      "title": "CERT/CC Warns of Hidden Admin Backdoor in Tenda Router Firmware",
+      "link": "https://thehackernews.com/2026/07/certcc-warns-of-hidden-admin-backdoor.html",
+      "date": "2026-07-07T06:40:47Z",
+      "description": "Several versions of firmware released by Chinese network device manufacturer Tenda have been found to embed an undocumented authentication backdoor that enables administrative access to the devices' web management interfaces, the CERT Coordination Center (CERT/CC) warned Monday. \"An attacker can exploit this vulnerability, tracked as CVE-2026-11405, to bypass the password verification process",
+      "source": "thehackernews.com",
+      "first_seen": "2026-07-07T10:44:31Z",
+      "last_seen": "2026-07-07T10:44:31Z"
+    },
+    {
       "id": "8b4ae517eedb29147a985d9e247198df2d02783d",
       "title": "BeyondTrust Patches Critical Auth Bypass Flaws in Remote Support and PRA",
       "link": "https://thehackernews.com/2026/07/beyondtrust-patches-critical-auth.html",
@@ -41,7 +111,7 @@
       "description": "BeyondTrust has released updates to address two critical security flaws affecting Remote Support (RS) and Privileged Remote Access (PRA) products that, if successfully exploited, could allow unauthenticated attackers to take control of susceptible devices. The vulnerabilities are listed below - CVE-2026-40138 (CVSS score: 9.2) - A pre-authentication vulnerability exists in the",
       "source": "thehackernews.com",
       "first_seen": "2026-07-07T07:27:54Z",
-      "last_seen": "2026-07-07T07:27:54Z"
+      "last_seen": "2026-07-07T10:44:31Z"
     },
     {
       "id": "de81c1c3b5787df32cf65dd53a22f92e87c6b336",
@@ -71,7 +141,7 @@
       "description": "A threat group researchers call \"Armored Likho\" has gained access to government agencies and electrical power entities in Russia, Brazil, and Kazakhstan.",
       "source": "darkreading.com",
       "first_seen": "2026-07-06T22:56:48Z",
-      "last_seen": "2026-07-07T07:27:54Z"
+      "last_seen": "2026-07-07T10:44:31Z"
     },
     {
       "id": "dfea83e3cb576184213337d6bbedcde3bbb2c727",
@@ -81,7 +151,7 @@
       "description": "Attackers wasted little time targeting the latest memory disclosure flaw in Citrix's NetScaler products, after researchers published a proof-of-concept exploit (PoC).",
       "source": "darkreading.com",
       "first_seen": "2026-07-06T22:56:48Z",
-      "last_seen": "2026-07-07T07:27:54Z"
+      "last_seen": "2026-07-07T10:44:31Z"
     },
     {
       "id": "14d92ddb26d30f5d0fd358a293e473bc55b02b35",
@@ -91,7 +161,7 @@
       "description": "A phishing campaign is impersonating more than 30 well-known brands, including Adobe, Netflix, Coca-Cola, and OpenAI, in fake job interviews to steal Google account credentials from marketing professionals. [...]",
       "source": "bleepingcomputer.com",
       "first_seen": "2026-07-06T21:19:58Z",
-      "last_seen": "2026-07-07T07:27:54Z"
+      "last_seen": "2026-07-07T10:44:31Z"
     },
     {
       "id": "f5e816b3c20f27e9cf0018010a9791f06983922a",
@@ -101,7 +171,7 @@
       "description": "Threat actors are abusing Microsoft Teams voice calls by impersonating corporate IT support staff to trick employees into installing the EtherRAT malware, giving attackers initial access to corporate networks. [...]",
       "source": "bleepingcomputer.com",
       "first_seen": "2026-07-06T21:19:58Z",
-      "last_seen": "2026-07-07T07:27:54Z"
+      "last_seen": "2026-07-07T10:44:31Z"
     },
     {
       "id": "b55ee46ac9e6eb2122f2eac9c63d4ad382a2fb0b",
@@ -121,7 +191,7 @@
       "description": "Securonix says the sophisticated framework abuses compromised websites, Blogspot, PowerShell, and fileless techniques to evade detection and deploy the PureLog information stealer. The post Blogspot-Hosted Payloads Delivered in ‘Veil#Drop’ Attacks appeared first on SecurityWeek.",
       "source": "securityweek.com",
       "first_seen": "2026-07-06T19:39:29Z",
-      "last_seen": "2026-07-07T07:27:54Z"
+      "last_seen": "2026-07-07T10:44:31Z"
     },
     {
       "id": "222f2ae0ea0471dd7f4742cea6139b9a90f270fc",
@@ -131,7 +201,7 @@
       "description": "An Iranian hacking group affiliated with Iran's Ministry of Intelligence and Security (MOIS) has been wielding a previously undocumented modular command-and-control (C2) framework dubbed Cavern (aka Cav3rn) targeting Israeli organizations. The activity, which has primarily singled out IT providers and government sectors, has been attributed to a threat cluster tracked by Check Point Research",
       "source": "thehackernews.com",
       "first_seen": "2026-07-06T19:39:29Z",
-      "last_seen": "2026-07-07T07:27:54Z"
+      "last_seen": "2026-07-07T10:44:31Z"
     },
     {
       "id": "a92b30c92d3042ab2c447a1a52b43f59acbe5864",
@@ -151,7 +221,7 @@
       "description": "A use-after-free bug in Linux's KVM hypervisor can be triggered from a guest virtual machine to corrupt the shadow-page state of the host kernel that runs it. Dubbed 'Januscape' and tracked as CVE-2026-53359, the flaw sits in the shadow MMU code that KVM shares across both Intel and AMD. The public proof-of-concept panics the host; the researcher claims that a separate, unreleased exploit",
       "source": "thehackernews.com",
       "first_seen": "2026-07-06T19:39:29Z",
-      "last_seen": "2026-07-07T07:27:54Z"
+      "last_seen": "2026-07-07T10:44:31Z"
     },
     {
       "id": "3f2d58360ae2072e6209bb5ccbe2860cd14b75ef",
@@ -181,7 +251,7 @@
       "description": "An \"agentic threat actor\" successfully exploited a Langflow flaw to steal data from a production database server and encrypt other systems.",
       "source": "darkreading.com",
       "first_seen": "2026-07-06T19:39:29Z",
-      "last_seen": "2026-07-07T07:27:54Z"
+      "last_seen": "2026-07-07T10:44:31Z"
     },
     {
       "id": "9e3f4021831925dcab2871659a07ad1efc1ecaa7",
@@ -211,7 +281,7 @@
       "description": "Moving from isolated, technical data to a continuous risk lifecycle can help organizations align security controls with actual business consequences. The post The Shift Toward Business-Aligned Risk Management appeared first on SecurityWeek.",
       "source": "securityweek.com",
       "first_seen": "2026-07-06T17:35:03Z",
-      "last_seen": "2026-07-07T07:27:54Z"
+      "last_seen": "2026-07-07T10:44:31Z"
     },
     {
       "id": "defe0e1f3913b16d526a08c5efdf59a42f9c0401",
@@ -221,7 +291,7 @@
       "description": "The threat actor uses modular RATs and information stealers in financially motivated and cyber espionage campaigns. The post Armored Likho APT Targeting Government, Electric Power Entities appeared first on SecurityWeek.",
       "source": "securityweek.com",
       "first_seen": "2026-07-06T17:35:03Z",
-      "last_seen": "2026-07-07T07:27:54Z"
+      "last_seen": "2026-07-07T10:44:31Z"
     },
     {
       "id": "1a2aa36d77542a84c7549a897305ecc8a82995af",
@@ -711,7 +781,7 @@
       "description": "Two new models from Chinese firms compete with top US mainstream and frontier models. Should cyber-defenders be worried?",
       "source": "darkreading.com",
       "first_seen": "2026-07-03T13:40:13Z",
-      "last_seen": "2026-07-07T07:27:54Z"
+      "last_seen": "2026-07-07T10:44:31Z"
     },
     {
       "id": "4d0a8bc8543c27919649f5306986f7403d2cf48a",
@@ -831,7 +901,7 @@
       "description": "A CVSS score 7.8 AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H severity vulnerability discovered by 'Anonymous' was reported to the affected vendor on: 2026-07-03, 0 days ago. The vendor is given until 2026-10-31 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
       "source": "zerodayinitiative.com",
       "first_seen": "2026-07-03T17:11:59Z",
-      "last_seen": "2026-07-07T07:27:54Z"
+      "last_seen": "2026-07-07T10:44:31Z"
     },
     {
       "id": "d56a8b8170c105fb3d2332a848c3d948255d00c2",
@@ -841,7 +911,7 @@
       "description": "A CVSS score 7.8 AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H severity vulnerability discovered by 'truff' was reported to the affected vendor on: 2026-07-03, 0 days ago. The vendor is given until 2026-10-31 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
       "source": "zerodayinitiative.com",
       "first_seen": "2026-07-03T17:11:59Z",
-      "last_seen": "2026-07-07T07:27:54Z"
+      "last_seen": "2026-07-07T10:44:31Z"
     },
     {
       "id": "74d229b4dfaa03e3d7c2d2fddb981a26d6eb9e57",
@@ -851,7 +921,7 @@
       "description": "A CVSS score 9.8 AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H severity vulnerability discovered by 'Nicholas Zubrisky (@NZubrisky) of TrendAI Zero Day Initiative' was reported to the affected vendor on: 2026-07-03, 0 days ago. The vendor is given until 2026-10-31 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
       "source": "zerodayinitiative.com",
       "first_seen": "2026-07-03T17:11:59Z",
-      "last_seen": "2026-07-07T07:27:54Z"
+      "last_seen": "2026-07-07T10:44:31Z"
     },
     {
       "id": "70b3a819d2361bc11893af73f8ef1aa33d5bcae1",
@@ -861,7 +931,7 @@
       "description": "A CVSS score 8.8 AV:L/AC:L/PR:L/UI:N/S:C/C:H/I:H/A:H severity vulnerability discovered by 'Anonymous' was reported to the affected vendor on: 2026-07-03, 0 days ago. The vendor is given until 2026-10-31 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
       "source": "zerodayinitiative.com",
       "first_seen": "2026-07-03T17:11:59Z",
-      "last_seen": "2026-07-07T07:27:54Z"
+      "last_seen": "2026-07-07T10:44:31Z"
     },
     {
       "id": "54b31c827956d65d8285ae84ec6486f8d4320e9a",
@@ -871,7 +941,7 @@
       "description": "A CVSS score 9.8 AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H severity vulnerability discovered by 'Maher Azzouzi' was reported to the affected vendor on: 2026-07-03, 0 days ago. The vendor is given until 2026-10-31 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
       "source": "zerodayinitiative.com",
       "first_seen": "2026-07-03T19:00:12Z",
-      "last_seen": "2026-07-07T07:27:54Z"
+      "last_seen": "2026-07-07T10:44:31Z"
     },
     {
       "id": "23e7722c49f23c75079bf6b2004dcc9f37748980",
@@ -921,7 +991,7 @@
       "description": "Improved institutional safeguards and stricter regulations have pushed the burdens of protection and risk reduction on to Australian businesses.",
       "source": "darkreading.com",
       "first_seen": "2026-07-02T23:01:47Z",
-      "last_seen": "2026-07-07T07:27:54Z"
+      "last_seen": "2026-07-07T10:44:31Z"
     },
     {
       "id": "7e64fed981f05855326077c388a878b0e17c2004",
@@ -33914,76 +33984,6 @@
       "last_seen": "2026-04-08T14:28:57Z"
     },
     {
-      "id": "4da8f9d5d4601010186a5d84e9d377a99d87599b",
-      "title": "Anthropic's Claude Mythos Finds Thousands of Zero-Day Flaws Across Major Systems",
-      "link": "https://thehackernews.com/2026/04/anthropics-claude-mythos-finds.html",
-      "date": "2026-04-08T09:16:00Z",
-      "description": "Artificial Intelligence (AI) company Anthropic announced a new cybersecurity initiative called Project Glasswing that will use a preview version of its new frontier model, Claude Mythos, to find and address security vulnerabilities. The model will be used by a small set of organizations, including Amazon Web Services, Apple, Broadcom, Cisco, CrowdStrike,&",
-      "source": "thehackernews.com",
-      "first_seen": "2026-04-08T09:58:41Z",
-      "last_seen": "2026-04-09T10:02:54Z"
-    },
-    {
-      "id": "c06e9566d26304c64976dab4b5b8e7e46fccf693",
-      "title": "Terminal Hijack: systemd Flaw Allows Unprivileged Users to Attack Root Shells",
-      "link": "https://securityonline.info/systemd-journald-ansi-injection-vulnerability-root-exploit/",
-      "date": "2026-04-08T08:49:16Z",
-      "description": "The post Terminal Hijack: systemd Flaw Allows Unprivileged Users to Attack Root Shells appeared first on Daily CyberSecurity. Related posts: Critical Privilege Escalation Flaw in FreeIPA Threatens Linux Domain Security Privilege Escalation in guix-daemon: Critical Vulnerabilities Threaten Multi-User Systems 10-Year-Old GNU Inetutils Telnetd Flaw Lets Hackers Log In as Root via “-f root”",
-      "source": "securityonline.info",
-      "first_seen": "2026-04-08T09:58:41Z",
-      "last_seen": "2026-04-09T16:11:44Z"
-    },
-    {
-      "id": "68fe19fab574046e3d8508574ce07eceee30d0a7",
-      "title": "Indian Bank Warns Users of Fake LPG Payment and KYC Update Scams to Steal Banking Info",
-      "link": "https://cybersecuritynews.com/fake-lpg-payment-and-kyc-update/",
-      "date": "2026-04-08T08:02:42Z",
-      "description": "Indian Bank has issued an urgent cybersecurity advisory warning its customers about a rapidly spreading wave of fraudulent LPG payment and KYC update messages that are being used to steal banking credentials and drain accounts. Cybercriminals are exploiting growing public concern over LPG cylinder availability to circulate deceptive messages across SMS, WhatsApp, and other messaging […] The post…",
-      "source": "cybersecuritynews.com",
-      "first_seen": "2026-04-08T08:06:00Z",
-      "last_seen": "2026-04-08T11:45:02Z"
-    },
-    {
-      "id": "e09780fda305dc6e9bbb59383b67872dfe420f78",
-      "title": "N. Korean Hackers Spread 1,700 Malicious Packages Across npm, PyPI, Go, Rust",
-      "link": "https://thehackernews.com/2026/04/n-korean-hackers-spread-1700-malicious.html",
-      "date": "2026-04-08T07:47:00Z",
-      "description": "The North Korea-linked persistent campaign known as Contagious Interview has spread its tentacles by publishing malicious packages targeting the Go, Rust, and PHP ecosystems. \"The threat actor's packages were designed to impersonate legitimate developer tooling [...], while quietly functioning as malware loaders, extending Contagious Interview’s established playbook into a coordinated",
-      "source": "thehackernews.com",
-      "first_seen": "2026-04-08T09:58:41Z",
-      "last_seen": "2026-04-08T17:58:16Z"
-    },
-    {
-      "id": "3e3c29e9b57aff3f37cc442ea3785a032725acd4",
-      "title": "Multiple OpenSSL Vulnerabilities Exposes Sensitive Data in RSA KEM Handling",
-      "link": "https://cybersecuritynews.com/openssl-vulnerabilities-expose-data/",
-      "date": "2026-04-08T07:40:11Z",
-      "description": "OpenSSL has released a broad April 2026 security update that fixes seven vulnerabilities across supported branches, led by CVE-2026-31790, a moderate-severity flaw in RSA KEM RSASVE encapsulation that can expose uninitialized memory to a malicious peer. The advisory directs users of vulnerable 3.x releases to move to OpenSSL 3.0.20, 3.3.7, 3.4.5, 3.5.6, or 3.6.2, depending […] The post Multiple…",
-      "source": "cybersecuritynews.com",
-      "first_seen": "2026-04-08T08:06:00Z",
-      "last_seen": "2026-04-08T10:54:37Z"
-    },
-    {
-      "id": "8669a35e234bbd09bd3e6072561d7d20ae1ea4c4",
-      "title": "FBI Disrupts Russian Router Hijacking Operation Compromised Thousands of Users",
-      "link": "https://cybersecuritynews.com/fbi-disrupts-russian-router-hijacking/",
-      "date": "2026-04-08T07:13:41Z",
-      "description": "The U.S. Justice Department and the FBI have successfully dismantled a massive cyberespionage network in a court-authorized takedown dubbed “Operation Masquerade.” Announced on April 7, 2026, the technical operation neutralized thousands of compromised small office/home office (SOHO) routers that were hijacked by Russian military intelligence to spy on global targets. The disruption targeted a…",
-      "source": "cybersecuritynews.com",
-      "first_seen": "2026-04-08T08:06:00Z",
-      "last_seen": "2026-04-08T09:58:41Z"
-    },
-    {
-      "id": "6f8c34c997b203d74fa880e7969dfab78cac2834",
-      "title": "Microsoft rolls out fix for broken Windows Start Menu search",
-      "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-rolls-out-fix-for-broken-windows-start-menu-search/",
-      "date": "2026-04-08T07:00:55Z",
-      "description": "Microsoft has pushed a server-side fix for a known issue that broke the Windows Start Menu search feature on some Windows 11 23H2 devices. [...]",
-      "source": "bleepingcomputer.com",
-      "first_seen": "2026-04-08T08:06:00Z",
-      "last_seen": "2026-04-08T21:33:52Z"
-    },
-    {
       "id": "838175c8e4e06db918ddd87b0a27823561eed1a1",
       "title": "ZDI-CAN-29543: Oracle",
       "link": "http://www.zerodayinitiative.com/advisories/upcoming/",
@@ -34034,16 +34034,6 @@
       "last_seen": "2026-04-09T16:11:44Z"
     },
     {
-      "id": "27340aa7f7fa599f43e60247e1eb874c5ba525db",
-      "title": "Claude Finds 13-Year-Old 0-Day RCE Vulnerability in Apache ActiveMQ in 10 Minutes",
-      "link": "https://cybersecuritynews.com/claude-apache-activemq/",
-      "date": "2026-04-08T04:15:34Z",
-      "description": "A critical remote code execution (RCE) vulnerability has been disclosed in Apache ActiveMQ Classic, a flaw that sat undetected for over a decade and was ultimately discovered not by a human researcher manually combing through code, but by Anthropic’s Claude AI model in under 10 minutes. Tracked as CVE-2026-34197, the flaw is an improper input […] The post Claude Finds 13-Year-Old 0-Day RCE…",
-      "source": "cybersecuritynews.com",
-      "first_seen": "2026-04-08T08:06:00Z",
-      "last_seen": "2026-04-08T09:58:41Z"
-    },
-    {
       "id": "664df53292fd50e8b1e7bf61d1267fe95047525f",
       "title": "Student Loan Breach Exposes 2.5M Records",
       "link": "https://threatpost.com/student-loan-breach-exposes-2-5m-records/180492/",
@@ -34051,7 +34041,7 @@
       "description": "2.5 million people were affected, in a breach that could spell more trouble down the line.",
       "source": "threatpost.com",
       "first_seen": "2026-05-10T12:53:08Z",
-      "last_seen": "2026-07-07T07:27:54Z"
+      "last_seen": "2026-07-07T10:44:31Z"
     },
     {
       "id": "4140c7a34b0ba94ad2e6b0cae9f59b0cb9bfffea",
@@ -34061,7 +34051,7 @@
       "description": "Researchers uncover a watering hole attack likely carried out by APT TA423, which attempts to plant the ScanBox JavaScript-based reconnaissance tool.",
       "source": "threatpost.com",
       "first_seen": "2026-05-10T12:53:08Z",
-      "last_seen": "2026-07-07T07:27:54Z"
+      "last_seen": "2026-07-07T10:44:31Z"
     },
     {
       "id": "9359ee40a641a4b565080313045f1d7e7fe6552b",
@@ -34071,7 +34061,7 @@
       "description": "Over 130 companies tangled in sprawling phishing campaign that spoofed a multi-factor authentication system.",
       "source": "threatpost.com",
       "first_seen": "2026-05-10T12:53:08Z",
-      "last_seen": "2026-07-07T07:27:54Z"
+      "last_seen": "2026-07-07T10:44:31Z"
     },
     {
       "id": "b4ccef0737cd4050d65241bf754072030b6b5e6a",
@@ -34081,7 +34071,7 @@
       "description": "Lockbit is by far this summer’s most prolific ransomware group, trailed by two offshoots of the Conti group.",
       "source": "threatpost.com",
       "first_seen": "2026-05-10T12:53:08Z",
-      "last_seen": "2026-07-07T07:27:54Z"
+      "last_seen": "2026-07-07T10:44:31Z"
     },
     {
       "id": "12ee113fc8fce91f6d7fb28deab2b1ad20061ec7",
@@ -34091,7 +34081,7 @@
       "description": "Tens of thousands of cameras have failed to patch a critical, 11-month-old CVE, leaving thousands of organizations exposed.",
       "source": "threatpost.com",
       "first_seen": "2026-05-10T12:53:08Z",
-      "last_seen": "2026-07-07T07:27:54Z"
+      "last_seen": "2026-07-07T10:44:31Z"
     }
   ]
 }

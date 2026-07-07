@@ -1,7 +1,67 @@
 {
   "date": "2026-07-07",
-  "count": 6,
+  "count": 13,
   "items": [
+    {
+      "id": "28e99059c0c1b878d3b3f860c9b18b3e2cc9f66b",
+      "title": "Linux Kernel Vulnerability Allows VM Escape on Intel and AMD Systems",
+      "link": "https://www.securityweek.com/linux-kernel-vulnerability-allows-vm-escape-on-intel-and-amd-systems/",
+      "date": "2026-07-07T10:00:00Z",
+      "description": "The 16-year-old Januscape flaw affects Linux's KVM hypervisor, allowing attackers to escape virtual machines and potentially execute code on the underlying host. The post Linux Kernel Vulnerability Allows VM Escape on Intel and AMD Systems appeared first on SecurityWeek.",
+      "source": "securityweek.com",
+      "first_seen": "2026-07-07T10:44:31Z",
+      "last_seen": "2026-07-07T10:44:31Z"
+    },
+    {
+      "id": "83e075d41a10271f73deb926379c97e98fdbbba0",
+      "title": "Microsoft to enable Windows settings backup by default for orgs",
+      "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-to-enable-windows-backup-for-organizations-by-default/",
+      "date": "2026-07-07T09:41:19Z",
+      "description": "Microsoft says the Windows settings backup and restore tool will be enabled by default on Microsoft Entra-joined or Microsoft Entra hybrid-joined enterprise systems after upgrading to Windows 11 26H2. [...]",
+      "source": "bleepingcomputer.com",
+      "first_seen": "2026-07-07T10:44:31Z",
+      "last_seen": "2026-07-07T10:44:31Z"
+    },
+    {
+      "id": "4ad37ee6755d84cd0ede6acac94ea1bf34736ad3",
+      "title": "Keyfactor Scores $1 Billion+ Investment for AI, Post-Quantum Security",
+      "link": "https://www.securityweek.com/keyfactor-scores-1-billion-investment-for-ai-post-quantum-security/",
+      "date": "2026-07-07T09:30:00Z",
+      "description": "The investment will accelerate Keyfactor's machine identity, PKI, and cryptographic security platform as enterprises prepare for AI-driven and post-quantum threats. The post Keyfactor Scores $1 Billion+ Investment for AI, Post-Quantum Security appeared first on SecurityWeek.",
+      "source": "securityweek.com",
+      "first_seen": "2026-07-07T10:44:31Z",
+      "last_seen": "2026-07-07T10:44:31Z"
+    },
+    {
+      "id": "23a808f8c82f919eb6a6cfcf3059d0debd0cef44",
+      "title": "Suspected China-Aligned Hackers Exploit Roundcube Flaws Against Universities",
+      "link": "https://thehackernews.com/2026/07/suspected-china-aligned-hackers-exploit.html",
+      "date": "2026-07-07T09:10:51Z",
+      "description": "A suspected China-aligned threat activity cluster has been observed exploiting Roundcube webmail software belonging to physics and engineering departments of U.S. and Canadian universities as part of a new campaign. The activity involves the exploitation of now-patched, critical security flaws in the open-source email solution, such as CVE-2024-42009 (CVSS score: 9.3), to siphon credentials,",
+      "source": "thehackernews.com",
+      "first_seen": "2026-07-07T10:44:31Z",
+      "last_seen": "2026-07-07T10:44:31Z"
+    },
+    {
+      "id": "a2fe8b450a4ee729a6d2ca407ac84b00537b9031",
+      "title": "BeyondTrust warns of critical flaws in remote access software",
+      "link": "https://www.bleepingcomputer.com/news/security/beyondtrust-warns-of-critical-flaws-in-remote-access-software/",
+      "date": "2026-07-07T08:12:10Z",
+      "description": "BeyondTrust warned customers to patch two critical security flaws in its Remote Support (RS) and Privileged Remote Access (PRA) software that could allow attackers to bypass authentication. [...]",
+      "source": "bleepingcomputer.com",
+      "first_seen": "2026-07-07T10:44:31Z",
+      "last_seen": "2026-07-07T10:44:31Z"
+    },
+    {
+      "id": "92b436c94895f601c4e3f4e6fc8fc0082a5047ef",
+      "title": "Microsoft testing new Cloud Rebuild Windows 11 recovery feature",
+      "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-testing-new-cloud-rebuild-windows-11-recovery-feature/",
+      "date": "2026-07-07T07:37:38Z",
+      "description": "Microsoft has begun testing the Cloud Rebuild recovery feature in the latest Windows 11 Insider Preview builds released for users in the Experimental channel. [...]",
+      "source": "bleepingcomputer.com",
+      "first_seen": "2026-07-07T10:44:31Z",
+      "last_seen": "2026-07-07T10:44:31Z"
+    },
     {
       "id": "5e05673232ddca193003be8e3ef132eeef5bbadd",
       "title": "Tenda Authentication Backdoor Grants Attackers Full Administrative Access",
@@ -33,6 +93,16 @@
       "last_seen": "2026-07-07T07:27:54Z"
     },
     {
+      "id": "b22f1632fb5630eb579e5fd632554f1079cb1a04",
+      "title": "CERT/CC Warns of Hidden Admin Backdoor in Tenda Router Firmware",
+      "link": "https://thehackernews.com/2026/07/certcc-warns-of-hidden-admin-backdoor.html",
+      "date": "2026-07-07T06:40:47Z",
+      "description": "Several versions of firmware released by Chinese network device manufacturer Tenda have been found to embed an undocumented authentication backdoor that enables administrative access to the devices' web management interfaces, the CERT Coordination Center (CERT/CC) warned Monday. \"An attacker can exploit this vulnerability, tracked as CVE-2026-11405, to bypass the password verification process",
+      "source": "thehackernews.com",
+      "first_seen": "2026-07-07T10:44:31Z",
+      "last_seen": "2026-07-07T10:44:31Z"
+    },
+    {
       "id": "8b4ae517eedb29147a985d9e247198df2d02783d",
       "title": "BeyondTrust Patches Critical Auth Bypass Flaws in Remote Support and PRA",
       "link": "https://thehackernews.com/2026/07/beyondtrust-patches-critical-auth.html",
@@ -40,7 +110,7 @@
       "description": "BeyondTrust has released updates to address two critical security flaws affecting Remote Support (RS) and Privileged Remote Access (PRA) products that, if successfully exploited, could allow unauthenticated attackers to take control of susceptible devices. The vulnerabilities are listed below - CVE-2026-40138 (CVSS score: 9.2) - A pre-authentication vulnerability exists in the",
       "source": "thehackernews.com",
       "first_seen": "2026-07-07T07:27:54Z",
-      "last_seen": "2026-07-07T07:27:54Z"
+      "last_seen": "2026-07-07T10:44:31Z"
     },
     {
       "id": "de81c1c3b5787df32cf65dd53a22f92e87c6b336",
