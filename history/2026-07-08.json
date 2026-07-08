@@ -1,7 +1,97 @@
 {
   "date": "2026-07-08",
-  "count": 17,
+  "count": 26,
   "items": [
+    {
+      "id": "e57395627749783f8cfe6071c9bf7e76b49c5e14",
+      "title": "DuckDuckGo browser now blocks YouTube video ads",
+      "link": "https://www.bleepingcomputer.com/news/software/duckduckgo-browser-now-blocks-youtube-video-ads/",
+      "date": "2026-07-08T12:00:00Z",
+      "description": "DuckDuckGo announced that its browser can now block most video ads on YouTube, including those shown before the video starts playing and during playback. [...]",
+      "source": "bleepingcomputer.com",
+      "first_seen": "2026-07-08T12:12:49Z",
+      "last_seen": "2026-07-08T12:12:49Z"
+    },
+    {
+      "id": "bb9c2f406ab367e8931f8bf84ee991cc4fd94b13",
+      "title": "GitHub 'Verified' Commits Can Be Rewritten Into New Hashes Without Breaking Signatures",
+      "link": "https://thehackernews.com/2026/07/github-verified-commits-can-be.html",
+      "date": "2026-07-08T11:51:24Z",
+      "description": "New research shows that a signed Git commit's hash is not the one-of-a-kind name that much of the software world assumes it to be. Given any signed commit, someone without the signing key can mint a second commit with the same files, author, and date, and a valid signature, GitHub still stamps \"Verified.\" Everything a reviewer would check matches. The commit's hash does not. That matters",
+      "source": "thehackernews.com",
+      "first_seen": "2026-07-08T12:12:49Z",
+      "last_seen": "2026-07-08T12:12:49Z"
+    },
+    {
+      "id": "9680927478ece2c3da2c4e63d51f7be93cfc4774",
+      "title": "First-Ever 1- Click Android 17 Exploit Allows Attackers to Gain Full Control Over Your Android Phone",
+      "link": "https://cybersecuritynews.com/android-17-root-1-click/",
+      "date": "2026-07-08T11:45:42Z",
+      "description": "A full-chain exploit dubbed “IonStack” demonstrates how a single malicious URL click can hand attackers complete control over an Android device. The proof-of-concept by Nebula Security, described as the world’s first public Android 17 root demo, chains two zero-day vulnerabilities spanning Firefox and the Linux kernel to achieve remote code execution and privilege escalation without […] The post…",
+      "source": "cybersecuritynews.com",
+      "first_seen": "2026-07-08T12:12:49Z",
+      "last_seen": "2026-07-08T12:12:49Z"
+    },
+    {
+      "id": "82a42e3a471c2ec1b5eeb106e10a6c9247680d52",
+      "title": "The Verification Step Is the New ATO Battleground in 2026",
+      "link": "https://thehackernews.com/2026/07/the-verification-step-is-new-ato.html",
+      "date": "2026-07-08T11:30:00Z",
+      "description": "For years, account takeover (ATO) followed a predictable script. Attackers bought stolen credentials in bulk, ran them through automated tools, and waited for matches. Credential stuffing was cheap, scalable, and for defenders, relatively well understood. That era is ending. Not because attackers gave up, but because the front door finally got harder to kick in. Passkeys are now mainstream.",
+      "source": "thehackernews.com",
+      "first_seen": "2026-07-08T12:12:49Z",
+      "last_seen": "2026-07-08T12:12:49Z"
+    },
+    {
+      "id": "203ebf4d39a43a56222568c121b633b84dcf5a9e",
+      "title": "Telco giant KDDI says data breach affects over 12 million people",
+      "link": "https://www.bleepingcomputer.com/news/security/japanese-telecom-giant-kddi-says-data-breach-affects-12-million-people/",
+      "date": "2026-07-08T11:24:16Z",
+      "description": "Japanese telecommunications giant KDDI says that millions of people had their email addresses and passwords exposed after attackers breached an email platform used by five internet service providers (ISPs) in the country. [...]",
+      "source": "bleepingcomputer.com",
+      "first_seen": "2026-07-08T12:12:49Z",
+      "last_seen": "2026-07-08T12:12:49Z"
+    },
+    {
+      "id": "36dea822bdc7bc652e464a950dd18f570a3721ba",
+      "title": "GitHub Copilot Refuses Harmful Requests in Chat, Then Writes Them in Code",
+      "link": "https://thehackernews.com/2026/07/github-copilot-refuses-harmful-requests.html",
+      "date": "2026-07-08T11:21:07Z",
+      "description": "An AI coding assistant that refuses to answer a dangerous request in its chat box can answer it anyway if the same request is broken into small, ordinary-looking steps inside a code editor. That is the finding of a new study of GitHub Copilot by researchers Abhishek Kumar and Carsten Maple. The models they tested through Copilot, Claude from Anthropic, and Gemini from Google, refused",
+      "source": "thehackernews.com",
+      "first_seen": "2026-07-08T12:12:49Z",
+      "last_seen": "2026-07-08T12:12:49Z"
+    },
+    {
+      "id": "f8fa628723c6afef7d9421e19b138c474f74f289",
+      "title": "CISA Urges Immediate Patching of Exploited ColdFusion, Langflow, Joomla Flaws",
+      "link": "https://www.securityweek.com/cisa-urges-immediate-patching-of-exploited-coldfusion-langflow-joomla-flaws/",
+      "date": "2026-07-08T10:45:25Z",
+      "description": "Two newly disclosed critical vulnerabilities in Adobe ColdFusion and Langflow join two Joomla extension flaws in CISA's Known Exploited Vulnerabilities catalog, with federal agencies given until July 10 to patch. The post CISA Urges Immediate Patching of Exploited ColdFusion, Langflow, Joomla Flaws appeared first on SecurityWeek.",
+      "source": "securityweek.com",
+      "first_seen": "2026-07-08T12:12:49Z",
+      "last_seen": "2026-07-08T12:12:49Z"
+    },
+    {
+      "id": "074b08d25ffaba12e51f1031e7931c00c093a735",
+      "title": "Critical Vulnerability Exposes GitHub Agentic Workflows to Prompt Injection",
+      "link": "https://www.securityweek.com/critical-vulnerability-exposes-github-agentic-workflows-to-prompt-injection/",
+      "date": "2026-07-08T10:30:55Z",
+      "description": "Researchers show how attackers can use a crafted public GitHub Issue to trick AI-powered workflows into exposing data from private repositories without authentication. The post Critical Vulnerability Exposes GitHub Agentic Workflows to Prompt Injection appeared first on SecurityWeek.",
+      "source": "securityweek.com",
+      "first_seen": "2026-07-08T12:12:49Z",
+      "last_seen": "2026-07-08T12:12:49Z"
+    },
+    {
+      "id": "39a22ebe16b0eda256f34356be99f64bd68460ee",
+      "title": "CISA Warns of Adobe ColdFusion Path Traversal Vulnerability Exploited in Attacks",
+      "link": "https://cybersecuritynews.com/adobe-coldfusion-path-traversal-exploited/",
+      "date": "2026-07-08T10:23:36Z",
+      "description": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) has added a critical Adobe ColdFusion vulnerability, tracked as CVE-2026-48282, to its Known Exploited Vulnerabilities (KEV) catalog, warning that the flaw is being actively exploited in real-world attacks. The issue stems from a path traversal weakness that could allow attackers to execute arbitrary code on vulnerable systems. […]…",
+      "source": "cybersecuritynews.com",
+      "first_seen": "2026-07-08T12:12:49Z",
+      "last_seen": "2026-07-08T12:12:49Z"
+    },
     {
       "id": "50e57176eb25766ed734ceed97f81910cf6980df",
       "title": "CISA orders feds to prioritize patching Langflow auth bypass flaw",
@@ -10,7 +100,7 @@
       "description": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) gave federal agencies until Friday to patch an actively exploited vulnerability in the Langflow visual framework for building AI agents. [...]",
       "source": "bleepingcomputer.com",
       "first_seen": "2026-07-08T10:06:02Z",
-      "last_seen": "2026-07-08T10:06:02Z"
+      "last_seen": "2026-07-08T12:12:49Z"
     },
     {
       "id": "16dedc91b598cdf719ea6effa134fc644913efe5",
@@ -20,7 +110,7 @@
       "description": "A recent study has revealed that more than 70% of publicly accessible WordPress websites are running outdated versions of PHP, significantly increasing their exposure to cyberattacks. The findings highlight a growing security gap in the global web ecosystem, where millions of sites rely on aging backend technologies despite the availability of regular security updates. WordPress, […] The post…",
       "source": "cybersecuritynews.com",
       "first_seen": "2026-07-08T10:06:02Z",
-      "last_seen": "2026-07-08T10:06:02Z"
+      "last_seen": "2026-07-08T12:12:49Z"
     },
     {
       "id": "95857eb9ca37261c52565a2a2dc08aa59f044a1b",
@@ -30,7 +120,7 @@
       "description": "A Chinese threat actor tracked as UAT-7810 is actively refining its bespoke malware to expand its Operational Relay Box (ORB) network by breaking into internet-facing networking devices. According to findings from Cisco Talos, UAT-7810 is an advanced persistent threat (APT) actor that's responsible for maintaining and proliferating LapDogs, an ORB network that first came to light in June 2025.",
       "source": "thehackernews.com",
       "first_seen": "2026-07-08T10:06:02Z",
-      "last_seen": "2026-07-08T10:06:02Z"
+      "last_seen": "2026-07-08T12:12:49Z"
     },
     {
       "id": "3efb284ffcaa45d19a524ec2d6248ce40a287e32",
@@ -40,7 +130,7 @@
       "description": "A newly identified hacking campaign is targeting university mail servers by exploiting known but unpatched flaws in Roundcube webmail software. The attackers are using these gaps to quietly steal login credentials and plant a powerful backdoor called VShell deep inside compromised systems. The campaign, tracked under the name UNK_MassTraction, has been active since May 2026 […] The post Hackers…",
       "source": "cybersecuritynews.com",
       "first_seen": "2026-07-08T10:06:02Z",
-      "last_seen": "2026-07-08T10:06:02Z"
+      "last_seen": "2026-07-08T12:12:49Z"
     },
     {
       "id": "042e4c5f76e0456027f6134b8af0a96fff6e27c1",
@@ -50,7 +140,7 @@
       "description": "Ubiquiti has released security updates to patch seven critical vulnerabilities in UniFi OS, including a maximum-severity flaw that can be exploited in command injection attacks. [...]",
       "source": "bleepingcomputer.com",
       "first_seen": "2026-07-08T10:06:02Z",
-      "last_seen": "2026-07-08T10:06:02Z"
+      "last_seen": "2026-07-08T12:12:49Z"
     },
     {
       "id": "804a2d420efb6c91c8fc3768602e5277827f6401",
@@ -60,7 +150,7 @@
       "description": "The world's digital testing ground plans to help people use AI agents for government purposes.",
       "source": "darkreading.com",
       "first_seen": "2026-07-08T10:06:02Z",
-      "last_seen": "2026-07-08T10:06:02Z"
+      "last_seen": "2026-07-08T12:12:49Z"
     },
     {
       "id": "2f10b7bfef5712f9aa6f2423c88b868ace9f2fcb",
@@ -70,7 +160,7 @@
       "description": "UAT-7810, a China-nexus hacking group, is expanding a global network of hijacked internet devices by exploiting security flaws in Ruckus wireless routers and rolling out new custom malware. This activity feeds into what researchers call an Operational Relay Box network, a chain of compromised devices used to hide the true origin of cyberattacks. The tactic […] The post China-Nexus Hackers…",
       "source": "cybersecuritynews.com",
       "first_seen": "2026-07-08T10:06:02Z",
-      "last_seen": "2026-07-08T10:06:02Z"
+      "last_seen": "2026-07-08T12:12:49Z"
     },
     {
       "id": "a8923345e6a3f73226654330e3833133a94cec18",
@@ -90,7 +180,7 @@
       "description": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) has ordered government agencies to patch an actively exploited maximum-severity flaw in the Adobe ColdFusion commercial web app development platform by Friday. [...]",
       "source": "bleepingcomputer.com",
       "first_seen": "2026-07-08T07:25:06Z",
-      "last_seen": "2026-07-08T10:06:02Z"
+      "last_seen": "2026-07-08T12:12:49Z"
     },
     {
       "id": "212dbffff6c2eef079c538fecef411ecbbdab1b0",
@@ -110,7 +200,7 @@
       "description": "Researchers at Nebula Security have disclosed GhostLock (CVE-2026-43499), a 15-year-old Linux kernel flaw that lets any logged-in user take full root control of a machine that has not been patched. The vulnerable code has shipped by default in essentially every mainstream distribution since 2011. The flaw needs no special permission, no unusual settings, and no network",
       "source": "thehackernews.com",
       "first_seen": "2026-07-08T07:25:06Z",
-      "last_seen": "2026-07-08T10:06:02Z"
+      "last_seen": "2026-07-08T12:12:49Z"
     },
     {
       "id": "4c776d45d63cf05fb6538cd48e26d821b9815f58",
@@ -160,7 +250,7 @@
       "description": "A CVSS score 8.8 AV:L/AC:L/PR:L/UI:N/S:C/C:H/I:H/A:H severity vulnerability discovered by 'Gwangun Jung (@pr0ln) of Theori, with Xint Code' was reported to the affected vendor on: 2026-07-07, 0 days ago. The vendor is given until 2026-11-04 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
       "source": "zerodayinitiative.com",
       "first_seen": "2026-07-08T04:58:07Z",
-      "last_seen": "2026-07-08T10:06:02Z"
+      "last_seen": "2026-07-08T12:12:49Z"
     },
     {
       "id": "bda6a0b65ab0856de2a5a94e2ec38bcfba7da628",
@@ -170,7 +260,7 @@
       "description": "A CVSS score 7.8 AV:L/AC:H/PR:L/UI:N/S:C/C:H/I:H/A:H severity vulnerability discovered by 'YingMuo (@YingMuo) of DEVCORE Research Team' was reported to the affected vendor on: 2026-07-07, 0 days ago. The vendor is given until 2026-11-04 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
       "source": "zerodayinitiative.com",
       "first_seen": "2026-07-08T04:58:07Z",
-      "last_seen": "2026-07-08T10:06:02Z"
+      "last_seen": "2026-07-08T12:12:49Z"
     }
   ]
 }
