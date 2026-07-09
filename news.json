@@ -1,7 +1,49 @@
 {
-  "last_updated": "2026-07-09T15:51:21Z",
+  "last_updated": "2026-07-09T17:46:17Z",
   "count": 35,
   "items": [
+    {
+      "title": "Microsoft Adopts AI-Powered Scanning to Find Vulnerabilities Before Attackers",
+      "link": "https://cybersecuritynews.com/microsoft-adopts-ai-vulnerability-scanning/",
+      "date": "2026-07-09T17:26:22Z",
+      "description": "Microsoft has formally expanded its use of artificial intelligence in vulnerability discovery, deploying a proprietary multi-model agentic scanning system across the Windows codebase to identify and patch security flaws before adversaries can exploit them a move that is already reshaping the scale and cadence of its monthly Patch Tuesday releases. At the center of this […] The post Microsoft…",
+      "source": "cybersecuritynews.com"
+    },
+    {
+      "title": "New Helix vishing group emerges in SharePoint data theft attacks",
+      "link": "https://www.bleepingcomputer.com/news/security/new-helix-vishing-group-emerges-in-sharepoint-data-theft-attacks/",
+      "date": "2026-07-09T17:08:29Z",
+      "description": "A new data-extortion group called Helix is using identity-focused tactics such as voice phishing (vishing), device code phishing, and multi-factor authentication (MFA) abuse to steal data from SharePoint environments. [...]",
+      "source": "bleepingcomputer.com"
+    },
+    {
+      "title": "Microsoft expects more Windows security updates from AI-discovered flaws",
+      "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-expects-more-windows-security-updates-from-ai-discovered-flaws/",
+      "date": "2026-07-09T17:00:00Z",
+      "description": "Microsoft says Windows users should expect to see an increase in security updates as the company increasingly relies on artificial intelligence to discover vulnerabilities in its codebase. [...]",
+      "source": "bleepingcomputer.com"
+    },
+    {
+      "title": "npm 12 Disables Install Scripts by Default to Reduce Supply Chain Risk",
+      "link": "https://thehackernews.com/2026/07/npm-12-disables-install-scripts-by.html",
+      "date": "2026-07-09T16:49:02Z",
+      "description": "GitHub has officially announced the release of npm version 12 with install scripts disabled by default, along with deprecating granular access tokens (GATs) designed to bypass two-factor authentication (2FA). The Microsoft-owned subsidiary noted that the following npm install behaviors that used to run automatically before have been made opt-in - allowScripts defaults to off, meaning",
+      "source": "thehackernews.com"
+    },
+    {
+      "title": "A Hacker Used AI to Compromise an AWS Cloud Environment in Just 72 Hours",
+      "link": "https://cybersecuritynews.com/aws-cloud-compromise-in-72-hours/",
+      "date": "2026-07-09T16:39:00Z",
+      "description": "A large-scale AWS intrusion reveals how AI-assisted attackers can chain familiar cloud techniques to move from initial access to full environmental compromise in roughly 72 hours, not through novel exploits, but through unprecedented speed, scale, and orchestration. According to Sygnia’s investigation, the threat actor gained an initial access key to an AWS account by exploiting […] The post A…",
+      "source": "cybersecuritynews.com"
+    },
+    {
+      "title": "RoundCube 0-Click Vulnerability Enables Stored XSS Attack via MIME Type Attachment",
+      "link": "https://cybersecuritynews.com/roundcube-0-click-vulnerability/",
+      "date": "2026-07-09T16:17:06Z",
+      "description": "Roundcube has released version 1.7 to patch six security vulnerabilities, including two critical stored cross-site scripting (XSS) flaws that require zero user interaction to exploit. The update addresses issues discovered by researchers at Samsung R&D Institute Ukraine (SRUKR), among others, and comes with a strong recommendation for immediate deployment across production environments.…",
+      "source": "cybersecuritynews.com"
+    },
     {
       "title": "Hackers Abuse Microsoft Entra Passkey Enrollment to Hijack Enterprise Accounts",
       "link": "https://cybersecuritynews.com/hackers-abuse-microsoft-entra-passkey-enrollment/",
@@ -17,18 +59,11 @@
       "source": "cybersecuritynews.com"
     },
     {
-      "title": "Hackers Use Fake Paysafe, Skrill, and Neteller Packages to Harvest API Keys and Tokens",
-      "link": "https://cybersecuritynews.com/hackers-use-fake-paysafe-skrill-and-neteller-packages/",
-      "date": "2026-07-09T15:12:08Z",
-      "description": "Security researchers have uncovered a coordinated malware campaign hiding inside fake developer packages pretending to be official tools for Paysafe, Skrill, and Neteller, three widely used online payment platforms. The malicious code was built to quietly harvest API keys, tokens, and other sensitive credentials from developer machines. Stolen data was sent to attacker controlled servers, […]…",
-      "source": "cybersecuritynews.com"
-    },
-    {
-      "title": "Linux Kernel Vulnerability Enables Passwordless Root Through DRM Render Nodes",
-      "link": "https://cybersecuritynews.com/linux-kernel-bug-passwordless-root/",
-      "date": "2026-07-09T15:08:32Z",
-      "description": "A newly patched Linux kernel vulnerability, tracked as CVE-2026-46215, allowed any local user with access to a GPU render node to escalate privileges to root, without requiring any special permissions. The flaw affected mainline kernels from v6.18-rc1 through the fix, and was reported to security@kernel.org on 12 April 2026, with a patch landing in late […] The post Linux Kernel Vulnerability…",
-      "source": "cybersecuritynews.com"
+      "title": "ThreatsDay: Cloud Bucket Hijacking, Windows LPE Chain, Global Fraud Bust + 17 More Stories",
+      "link": "https://thehackernews.com/2026/07/threatsday-cloud-bucket-hijacking.html",
+      "date": "2026-07-09T15:09:28Z",
+      "description": "Most security mess starts as admin work. A link gets clicked. A tool gets trusted. A bucket name gets reused. A setting stays loose because nobody wants to touch it. This week is full of that kind of damage. Not loud. Not clever. Just small gaps doing big jobs. The worst part is how normal it all looks until the bill arrives. The full ThreatsDay list is below. Global",
+      "source": "thehackernews.com"
     },
     {
       "title": "QIZ Security Raises $17 Million for Cryptographic Governance Platform",
@@ -36,13 +71,6 @@
       "date": "2026-07-09T15:03:51Z",
       "description": "The Israeli company has developed a cryptographic posture and post-quantum cryptography management platform. The post QIZ Security Raises $17 Million for Cryptographic Governance Platform appeared first on SecurityWeek.",
       "source": "securityweek.com"
-    },
-    {
-      "title": "Windows Update Silently Installs LG Monitor App That Pushes McAfee Ads",
-      "link": "https://cybersecuritynews.com/windows-update-installs-lg-monitor-app-pushes-mcafee-ads/",
-      "date": "2026-07-09T14:46:43Z",
-      "description": "A recent user report has raised concerns about Windows Update silently installing third-party applications, after an LG monitor-related app allegedly appeared on systems and began displaying McAfee advertisements without user consent. The issue surfaced in a discussion on Reddit’s r/pcmasterrace forum, where a user reported that an “LG Monitor App Installer” was automatically installed following…",
-      "source": "cybersecuritynews.com"
     },
     {
       "title": "New Forg365 phishing platform uses AI to target Microsoft 365 accounts",
@@ -136,39 +164,11 @@
       "source": "darkreading.com"
     },
     {
-      "title": "Police arrests 5,800 suspects in global anti-fraud crackdown",
-      "link": "https://www.bleepingcomputer.com/news/security/police-arrests-5-800-suspects-in-global-anti-fraud-crackdown/",
-      "date": "2026-07-09T09:47:28Z",
-      "description": "Law enforcement agencies have arrested 5,811 suspects and seized $293 million in illicit assets in a global anti-fraud operation spanning 97 countries. [...]",
-      "source": "bleepingcomputer.com"
-    },
-    {
-      "title": "Microsoft Patches RoguePlanet Defender Flaw That Can Grant SYSTEM Privileges",
-      "link": "https://thehackernews.com/2026/07/microsoft-patches-rogueplanet-defender.html",
-      "date": "2026-07-09T08:48:48Z",
-      "description": "Microsoft has released security updates for a Defender vulnerability known as RoguePlanet, nearly a month after details of the flaw became public. The vulnerability, tracked as CVE-2026-50656 (CVSS score: 7.8), is a privilege escalation issue in the Microsoft Malware Protection Engine (\"mpengine.dll\"), which provides scanning, detection, and cleaning capabilities for its antivirus and",
-      "source": "thehackernews.com"
-    },
-    {
       "title": "European Organizations Have a Collaboration Security Confidence Gap",
       "link": "https://www.darkreading.com/cybersecurity-operations/european-organizations-collaboration-security-confidence-gap",
       "date": "2026-07-09T08:00:00Z",
       "description": "A new survey shows security leaders have an inflated sense of safety regarding their collaboration tools and platforms.",
       "source": "darkreading.com"
-    },
-    {
-      "title": "AssuranceAmerica data breach exposes records of 6.9 million drivers",
-      "link": "https://www.bleepingcomputer.com/news/security/assuranceamerica-data-breach-exposes-records-of-69-million-drivers/",
-      "date": "2026-07-09T07:47:16Z",
-      "description": "American insurance company AssuranceAmerica has disclosed a data breach impacting nearly 7 million drivers after attackers gained access to its systems earlier this year. [...]",
-      "source": "bleepingcomputer.com"
-    },
-    {
-      "title": "Meta's New AI Image Tool Lets Others Use Your Public Instagram Photos in AI Images",
-      "link": "https://thehackernews.com/2026/07/metas-new-ai-image-tool-lets-others-use.html",
-      "date": "2026-07-09T07:21:06Z",
-      "description": "Meta has announced that its new artificial intelligence (AI) model Muse Image lets people use public Instagram posts and reels to generate AI content, and it's enabled by default. \"You can also @-mention Instagram accounts in the Meta AI app to bring specific Instagram profiles right into your images,\" the social media giant said in a post. \"Whether you want to design a custom event invitation",
-      "source": "thehackernews.com"
     },
     {
       "title": "Mexico's New Cyber Plan Faces Its First Real Test",

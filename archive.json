@@ -1,8 +1,68 @@
 {
-  "last_updated": "2026-07-09T15:51:21Z",
+  "last_updated": "2026-07-09T17:46:17Z",
   "retention_days": 90,
-  "count": 3405,
+  "count": 3407,
   "items": [
+    {
+      "id": "a0eec5e04c042b35970da0796e260be6e9527f72",
+      "title": "Microsoft Adopts AI-Powered Scanning to Find Vulnerabilities Before Attackers",
+      "link": "https://cybersecuritynews.com/microsoft-adopts-ai-vulnerability-scanning/",
+      "date": "2026-07-09T17:26:22Z",
+      "description": "Microsoft has formally expanded its use of artificial intelligence in vulnerability discovery, deploying a proprietary multi-model agentic scanning system across the Windows codebase to identify and patch security flaws before adversaries can exploit them a move that is already reshaping the scale and cadence of its monthly Patch Tuesday releases. At the center of this […] The post Microsoft…",
+      "source": "cybersecuritynews.com",
+      "first_seen": "2026-07-09T17:46:17Z",
+      "last_seen": "2026-07-09T17:46:17Z"
+    },
+    {
+      "id": "67d2c645c1fe5c181fa88c00a0f31b4fdea3794b",
+      "title": "New Helix vishing group emerges in SharePoint data theft attacks",
+      "link": "https://www.bleepingcomputer.com/news/security/new-helix-vishing-group-emerges-in-sharepoint-data-theft-attacks/",
+      "date": "2026-07-09T17:08:29Z",
+      "description": "A new data-extortion group called Helix is using identity-focused tactics such as voice phishing (vishing), device code phishing, and multi-factor authentication (MFA) abuse to steal data from SharePoint environments. [...]",
+      "source": "bleepingcomputer.com",
+      "first_seen": "2026-07-09T17:46:17Z",
+      "last_seen": "2026-07-09T17:46:17Z"
+    },
+    {
+      "id": "868bfd9211f8f6d3552c55fff9167f1166c9d5f1",
+      "title": "Microsoft expects more Windows security updates from AI-discovered flaws",
+      "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-expects-more-windows-security-updates-from-ai-discovered-flaws/",
+      "date": "2026-07-09T17:00:00Z",
+      "description": "Microsoft says Windows users should expect to see an increase in security updates as the company increasingly relies on artificial intelligence to discover vulnerabilities in its codebase. [...]",
+      "source": "bleepingcomputer.com",
+      "first_seen": "2026-07-09T17:46:17Z",
+      "last_seen": "2026-07-09T17:46:17Z"
+    },
+    {
+      "id": "cb7028ee44325480a6cfbe03561459203787af3c",
+      "title": "npm 12 Disables Install Scripts by Default to Reduce Supply Chain Risk",
+      "link": "https://thehackernews.com/2026/07/npm-12-disables-install-scripts-by.html",
+      "date": "2026-07-09T16:49:02Z",
+      "description": "GitHub has officially announced the release of npm version 12 with install scripts disabled by default, along with deprecating granular access tokens (GATs) designed to bypass two-factor authentication (2FA). The Microsoft-owned subsidiary noted that the following npm install behaviors that used to run automatically before have been made opt-in - allowScripts defaults to off, meaning",
+      "source": "thehackernews.com",
+      "first_seen": "2026-07-09T17:46:17Z",
+      "last_seen": "2026-07-09T17:46:17Z"
+    },
+    {
+      "id": "6047ffbd9baaa1e971a0fe9af39f3b821b3b73a3",
+      "title": "A Hacker Used AI to Compromise an AWS Cloud Environment in Just 72 Hours",
+      "link": "https://cybersecuritynews.com/aws-cloud-compromise-in-72-hours/",
+      "date": "2026-07-09T16:39:00Z",
+      "description": "A large-scale AWS intrusion reveals how AI-assisted attackers can chain familiar cloud techniques to move from initial access to full environmental compromise in roughly 72 hours, not through novel exploits, but through unprecedented speed, scale, and orchestration. According to Sygnia’s investigation, the threat actor gained an initial access key to an AWS account by exploiting […] The post A…",
+      "source": "cybersecuritynews.com",
+      "first_seen": "2026-07-09T17:46:17Z",
+      "last_seen": "2026-07-09T17:46:17Z"
+    },
+    {
+      "id": "9cc3d731acf2d0aad4edeb911ac10c501224329f",
+      "title": "RoundCube 0-Click Vulnerability Enables Stored XSS Attack via MIME Type Attachment",
+      "link": "https://cybersecuritynews.com/roundcube-0-click-vulnerability/",
+      "date": "2026-07-09T16:17:06Z",
+      "description": "Roundcube has released version 1.7 to patch six security vulnerabilities, including two critical stored cross-site scripting (XSS) flaws that require zero user interaction to exploit. The update addresses issues discovered by researchers at Samsung R&D Institute Ukraine (SRUKR), among others, and comes with a strong recommendation for immediate deployment across production environments.…",
+      "source": "cybersecuritynews.com",
+      "first_seen": "2026-07-09T17:46:17Z",
+      "last_seen": "2026-07-09T17:46:17Z"
+    },
     {
       "id": "cd371e66163d370988d4709c033c8464c0d5011e",
       "title": "Hackers Abuse Microsoft Entra Passkey Enrollment to Hijack Enterprise Accounts",
@@ -11,7 +71,7 @@
       "description": "Cybercriminals have found a new way to hijack corporate Microsoft accounts by exploiting the very feature meant to protect them: passkeys. A threat group tracked as O UNC 066, also called Pink by Palo Alto Networks Unit 42, has run a phone based phishing campaign since April 2026 that tricks employees into registering an attacker […] The post Hackers Abuse Microsoft Entra Passkey Enrollment to…",
       "source": "cybersecuritynews.com",
       "first_seen": "2026-07-09T15:51:21Z",
-      "last_seen": "2026-07-09T15:51:21Z"
+      "last_seen": "2026-07-09T17:46:17Z"
     },
     {
       "id": "2b0562cc21645946bc5b3ca82cbbbf2de857c8bb",
@@ -21,7 +81,7 @@
       "description": "A critical security vulnerability has been identified in HP Linux Imaging and Printing (HPLIP) software that could allow remote attackers to execute arbitrary code on affected systems. The flaw, tracked as CVE-2026-14544, carries a high-severity CVSS v3 score of 9.8, highlighting the significant risk it poses to enterprise and Linux-based environments that rely on HP […] The post HP Linux…",
       "source": "cybersecuritynews.com",
       "first_seen": "2026-07-09T15:51:21Z",
-      "last_seen": "2026-07-09T15:51:21Z"
+      "last_seen": "2026-07-09T17:46:17Z"
     },
     {
       "id": "ea670fad3ce261313cfcc4b1925922601a4c1d9c",
@@ -32,6 +92,16 @@
       "source": "cybersecuritynews.com",
       "first_seen": "2026-07-09T15:51:21Z",
       "last_seen": "2026-07-09T15:51:21Z"
+    },
+    {
+      "id": "ccbc9b3bd49dc96f2e4e4947114d563def04ca47",
+      "title": "ThreatsDay: Cloud Bucket Hijacking, Windows LPE Chain, Global Fraud Bust + 17 More Stories",
+      "link": "https://thehackernews.com/2026/07/threatsday-cloud-bucket-hijacking.html",
+      "date": "2026-07-09T15:09:28Z",
+      "description": "Most security mess starts as admin work. A link gets clicked. A tool gets trusted. A bucket name gets reused. A setting stays loose because nobody wants to touch it. This week is full of that kind of damage. Not loud. Not clever. Just small gaps doing big jobs. The worst part is how normal it all looks until the bill arrives. The full ThreatsDay list is below. Global",
+      "source": "thehackernews.com",
+      "first_seen": "2026-07-09T17:46:17Z",
+      "last_seen": "2026-07-09T17:46:17Z"
     },
     {
       "id": "ee200b0bf8fcecd0c3fa91ea18af411667651fcf",
@@ -51,7 +121,7 @@
       "description": "The Israeli company has developed a cryptographic posture and post-quantum cryptography management platform. The post QIZ Security Raises $17 Million for Cryptographic Governance Platform appeared first on SecurityWeek.",
       "source": "securityweek.com",
       "first_seen": "2026-07-09T15:51:21Z",
-      "last_seen": "2026-07-09T15:51:21Z"
+      "last_seen": "2026-07-09T17:46:17Z"
     },
     {
       "id": "0d3133e3b956eb11434836856540621a3dd74eaa",
@@ -71,7 +141,7 @@
       "description": "A new phishing-as-a-service (PhaaS) operation called Forg365 focuses on stealing Microsoft 365 accounts by combining adversary-in-the-middle (AiTM) and device code methods with AI-assisted lure generation. [...]",
       "source": "bleepingcomputer.com",
       "first_seen": "2026-07-09T15:51:21Z",
-      "last_seen": "2026-07-09T15:51:21Z"
+      "last_seen": "2026-07-09T17:46:17Z"
     },
     {
       "id": "c8243eeea1845c123729d3fb74bfd8b517cfef2b",
@@ -81,7 +151,7 @@
       "description": "The fate of a Ukrainian tax software company shows how modern cyberwarfare can claim casualties far beyond the battlefield, and how businesses across the ocean still need to protect themselves.",
       "source": "darkreading.com",
       "first_seen": "2026-07-09T15:51:21Z",
-      "last_seen": "2026-07-09T15:51:21Z"
+      "last_seen": "2026-07-09T17:46:17Z"
     },
     {
       "id": "0b8a6167f08fcd861b5b606924898c2ad53670f8",
@@ -91,7 +161,7 @@
       "description": "Two announcements on July 7, 2026, demonstrate the government’s determination to improve the level of cybersecurity within the UK. The post UK Government Rolls Out Agentic AI Defense Plan Alongside Industry Pledge appeared first on SecurityWeek.",
       "source": "securityweek.com",
       "first_seen": "2026-07-09T15:51:21Z",
-      "last_seen": "2026-07-09T15:51:21Z"
+      "last_seen": "2026-07-09T17:46:17Z"
     },
     {
       "id": "bacfe0a2872bb4542746219575f7fc06b74c772a",
@@ -101,7 +171,7 @@
       "description": "Security operations don't slow down when IT teams take vacation, but staffing levels often do. Kaseya explains how AI-driven automation can help organizations maintain consistent security operations and reduce reliance on manual processes year-round. [...]",
       "source": "bleepingcomputer.com",
       "first_seen": "2026-07-09T15:51:21Z",
-      "last_seen": "2026-07-09T15:51:21Z"
+      "last_seen": "2026-07-09T17:46:17Z"
     },
     {
       "id": "94fb086589d0610954887c8c146a8c6cdf4f3447",
@@ -111,7 +181,7 @@
       "description": "Buffer overflow, DoS, command injection, SSRF, authentication bypass, and other types of vulnerabilities have been found in PAN-OS software. The post Palo Alto Networks Patches 13 Vulnerabilities appeared first on SecurityWeek.",
       "source": "securityweek.com",
       "first_seen": "2026-07-09T15:51:21Z",
-      "last_seen": "2026-07-09T15:51:21Z"
+      "last_seen": "2026-07-09T17:46:17Z"
     },
     {
       "id": "b2f0d28b8288c65c65596d09c85c8bce48ba7a40",
@@ -121,7 +191,7 @@
       "description": "A cryptomining incident highlights how AI gateways can provide access to AI models, cloud infrastructure, and identity and access management (IAM) data.",
       "source": "darkreading.com",
       "first_seen": "2026-07-09T15:51:21Z",
-      "last_seen": "2026-07-09T15:51:21Z"
+      "last_seen": "2026-07-09T17:46:17Z"
     },
     {
       "id": "75c9601d8ce260f39454a3095bc2c8cb1778b72f",
@@ -131,7 +201,7 @@
       "description": "AI has changed how fast attacks move. Work that once took an attacker days now takes minutes. Using models like Mythos, attackers write tailored bait, pick targets, test what lands, and jump to the next host before your team clears the first alert. That is the gap, and it is not your fault. The tools and runbooks most teams run on were built for attackers who work at human speed. AI-driven",
       "source": "thehackernews.com",
       "first_seen": "2026-07-09T15:51:21Z",
-      "last_seen": "2026-07-09T15:51:21Z"
+      "last_seen": "2026-07-09T17:46:17Z"
     },
     {
       "id": "a56aff90af6be6bd0bebd10f790d53d61f5cf06f",
@@ -141,7 +211,7 @@
       "description": "Hackers exploited a zero-day vulnerability in a third-party system to access a KDDI email system for ISPs. The post 12 Million Impacted by Data Breach at Japanese Telco KDDI appeared first on SecurityWeek.",
       "source": "securityweek.com",
       "first_seen": "2026-07-09T15:51:21Z",
-      "last_seen": "2026-07-09T15:51:21Z"
+      "last_seen": "2026-07-09T17:46:17Z"
     },
     {
       "id": "3d70e562a684125b5a250d6d43e83e5e6d8df5a9",
@@ -151,7 +221,7 @@
       "description": "Affecting every major distribution since 2011, the Linux kernel vulnerability allows attackers to gain root access. The post 15-Year-Old Linux Vulnerability ‘GhostLock’ Earns Researchers $92k From Google appeared first on SecurityWeek.",
       "source": "securityweek.com",
       "first_seen": "2026-07-09T15:51:21Z",
-      "last_seen": "2026-07-09T15:51:21Z"
+      "last_seen": "2026-07-09T17:46:17Z"
     },
     {
       "id": "6cab07dbd2bd97a291eb9ac63010912f906d5df8",
@@ -161,7 +231,7 @@
       "description": "Microsoft has announced plans to disable Outlook Web Access (OWA) Light, the lightweight version of the Outlook Web App email client, in a future Exchange Server update. [...]",
       "source": "bleepingcomputer.com",
       "first_seen": "2026-07-09T15:51:21Z",
-      "last_seen": "2026-07-09T15:51:21Z"
+      "last_seen": "2026-07-09T17:46:17Z"
     },
     {
       "id": "f01d4d60a530f33aec55ed8f8fc23903f82bed77",
@@ -171,7 +241,7 @@
       "description": "Everyone seems to have announced a clearinghouse over the past few weeks. We did too. Ours is called Athena, and the main thing that sets it apart is that it was already real and running when we announced it — built quietly months earlier, heads down, taking findings and shipping fixes, because customers kept asking us to. We only announced it now because everyone else started announcing theirs,",
       "source": "thehackernews.com",
       "first_seen": "2026-07-09T15:51:21Z",
-      "last_seen": "2026-07-09T15:51:21Z"
+      "last_seen": "2026-07-09T17:46:17Z"
     },
     {
       "id": "4480c0b8b7742046a8b1d685efad7a37db7027a5",
@@ -181,7 +251,7 @@
       "description": "Cybersecurity researchers have flagged a new ransomware family called GodDamn that employs the PoisonX kernel driver to neutralize security software as part of its defense evasion strategy. According to a new report published by the Threat Hunter Team from Symantec, the ransomware was first publicly spotted in the wild on May 21, 2026. It's assessed to be a rebrand of the Beast ransomware,",
       "source": "thehackernews.com",
       "first_seen": "2026-07-09T15:51:21Z",
-      "last_seen": "2026-07-09T15:51:21Z"
+      "last_seen": "2026-07-09T17:46:17Z"
     },
     {
       "id": "743ed497172aa64c5bd918632988920e518aedbf",
@@ -191,7 +261,7 @@
       "description": "Microsoft signed a malicious kernel driver, and now it's being used to kill security software in ransomware attacks.",
       "source": "darkreading.com",
       "first_seen": "2026-07-09T15:51:21Z",
-      "last_seen": "2026-07-09T15:51:21Z"
+      "last_seen": "2026-07-09T17:46:17Z"
     },
     {
       "id": "0ddd218b54d11c04c8ea4e8888a01ad4592ae80e",
@@ -231,7 +301,7 @@
       "description": "A new survey shows security leaders have an inflated sense of safety regarding their collaboration tools and platforms.",
       "source": "darkreading.com",
       "first_seen": "2026-07-09T09:24:15Z",
-      "last_seen": "2026-07-09T15:51:21Z"
+      "last_seen": "2026-07-09T17:46:17Z"
     },
     {
       "id": "cb182c3689d9daffa9ecad5dc1de1003fc10cd39",
@@ -391,7 +461,7 @@
       "description": "The Latin American nation's cybersecurity plan — still in the expansion phase — has to survive its own knockout round during the FIFA World Cup.",
       "source": "darkreading.com",
       "first_seen": "2026-07-08T23:02:16Z",
-      "last_seen": "2026-07-09T15:51:21Z"
+      "last_seen": "2026-07-09T17:46:17Z"
     },
     {
       "id": "5d14b2391be0320dda74bc00858d8e38115af905",
@@ -1341,7 +1411,7 @@
       "description": "A CVSS score 7.5 AV:L/AC:H/PR:H/UI:N/S:C/C:H/I:H/A:H severity vulnerability discovered by 'Xiaobye(@xiaobye_tw) of DEVCORE Research Team' was reported to the affected vendor on: 2026-07-07, 0 days ago. The vendor is given until 2026-11-04 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
       "source": "zerodayinitiative.com",
       "first_seen": "2026-07-07T20:44:51Z",
-      "last_seen": "2026-07-09T15:51:21Z"
+      "last_seen": "2026-07-09T17:46:17Z"
     },
     {
       "id": "3706472441f712bc02e4967e76bf14ee6a28ae0e",
@@ -1351,7 +1421,7 @@
       "description": "A CVSS score 8.8 AV:L/AC:L/PR:L/UI:N/S:C/C:H/I:H/A:H severity vulnerability discovered by 'Gwangun Jung (@pr0ln) of Theori, with Xint Code' was reported to the affected vendor on: 2026-07-07, 0 days ago. The vendor is given until 2026-11-04 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
       "source": "zerodayinitiative.com",
       "first_seen": "2026-07-08T04:58:07Z",
-      "last_seen": "2026-07-09T15:51:21Z"
+      "last_seen": "2026-07-09T17:46:17Z"
     },
     {
       "id": "bda6a0b65ab0856de2a5a94e2ec38bcfba7da628",
@@ -1361,7 +1431,7 @@
       "description": "A CVSS score 7.8 AV:L/AC:H/PR:L/UI:N/S:C/C:H/I:H/A:H severity vulnerability discovered by 'YingMuo (@YingMuo) of DEVCORE Research Team' was reported to the affected vendor on: 2026-07-07, 0 days ago. The vendor is given until 2026-11-04 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
       "source": "zerodayinitiative.com",
       "first_seen": "2026-07-08T04:58:07Z",
-      "last_seen": "2026-07-09T15:51:21Z"
+      "last_seen": "2026-07-09T17:46:17Z"
     },
     {
       "id": "de81c1c3b5787df32cf65dd53a22f92e87c6b336",
@@ -2161,7 +2231,7 @@
       "description": "A CVSS score 7.8 AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H severity vulnerability discovered by 'Anonymous' was reported to the affected vendor on: 2026-07-03, 0 days ago. The vendor is given until 2026-10-31 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
       "source": "zerodayinitiative.com",
       "first_seen": "2026-07-03T17:11:59Z",
-      "last_seen": "2026-07-09T15:51:21Z"
+      "last_seen": "2026-07-09T17:46:17Z"
     },
     {
       "id": "d56a8b8170c105fb3d2332a848c3d948255d00c2",
@@ -2171,7 +2241,7 @@
       "description": "A CVSS score 7.8 AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H severity vulnerability discovered by 'truff' was reported to the affected vendor on: 2026-07-03, 0 days ago. The vendor is given until 2026-10-31 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
       "source": "zerodayinitiative.com",
       "first_seen": "2026-07-03T17:11:59Z",
-      "last_seen": "2026-07-09T15:51:21Z"
+      "last_seen": "2026-07-09T17:46:17Z"
     },
     {
       "id": "74d229b4dfaa03e3d7c2d2fddb981a26d6eb9e57",
@@ -33954,56 +34024,6 @@
       "last_seen": "2026-04-11T06:48:48Z"
     },
     {
-      "id": "7b4ce38f768e3796b942b4d0dc201cd025f019b2",
-      "title": "France to Replace Windows with Linux on Government Desktops",
-      "link": "https://cybersecuritynews.com/france-replace-windows-linux/",
-      "date": "2026-04-10T17:29:05Z",
-      "description": "France has taken a decisive step toward digital sovereignty, announcing plans to migrate government workstations from Microsoft Windows to Linux. The move was formally declared during an interministerial seminar held on April 8, 2026, organized by the Interministerial Directorate for Digital Affairs (DINUM), the National Cybersecurity Agency of France (ANSSI), the Directorate General for…",
-      "source": "cybersecuritynews.com",
-      "first_seen": "2026-04-10T17:39:47Z",
-      "last_seen": "2026-04-11T04:11:20Z"
-    },
-    {
-      "id": "cf50b8efab6e4ce8d1238c5727df3f433d37806d",
-      "title": "Nearly 4,000 US industrial devices exposed to Iranian cyberattacks",
-      "link": "https://www.bleepingcomputer.com/news/security/nearly-4-000-us-industrial-devices-exposed-to-iranian-cyberattacks/",
-      "date": "2026-04-10T15:52:45Z",
-      "description": "The attack surface targeted by Iranian-linked hackers in cyberattacks against U.S. critical infrastructure networks includes thousands of Internet-exposed programmable logic controllers (PLCs) manufactured by Rockwell Automation. [...]",
-      "source": "bleepingcomputer.com",
-      "first_seen": "2026-04-10T16:39:33Z",
-      "last_seen": "2026-04-13T14:49:37Z"
-    },
-    {
-      "id": "53618aae36c1c4d57cf38e43f2334d000bb3a386",
-      "title": "FINRA Launches Financial Intelligence Fusion Center to Combat Cybersecurity and Fraud Threats",
-      "link": "https://www.darkreading.com/threat-intelligence/finra-launches-financial-intelligence-fusion-center",
-      "date": "2026-04-10T15:52:28Z",
-      "description": "",
-      "source": "darkreading.com",
-      "first_seen": "2026-04-10T16:39:33Z",
-      "last_seen": "2026-04-13T20:07:14Z"
-    },
-    {
-      "id": "14ebb535118fa9cc1c4fb0d40549b4fdbca0a44f",
-      "title": "Orange Business Reimagines Enterprise Voice Communications With Trust and AI",
-      "link": "https://www.darkreading.com/endpoint-security/orange-business-enterprise-voice-comms",
-      "date": "2026-04-10T15:05:14Z",
-      "description": "",
-      "source": "darkreading.com",
-      "first_seen": "2026-04-10T16:39:33Z",
-      "last_seen": "2026-04-13T19:00:15Z"
-    },
-    {
-      "id": "faca7f5c90848b54450e9f3c358fea158930cfde",
-      "title": "CPUID hacked to deliver malware via CPU-Z, HWMonitor downloads",
-      "link": "https://www.bleepingcomputer.com/news/security/supply-chain-attack-at-cpuid-pushes-malware-with-cpu-z-hwmonitor/",
-      "date": "2026-04-10T13:12:42Z",
-      "description": "Hackers gained access to an API for the CPUID project and changed the download links on the official website to serve malicious executables for the popular CPU-Z and HWMonitor tools. [...]",
-      "source": "bleepingcomputer.com",
-      "first_seen": "2026-04-10T16:39:33Z",
-      "last_seen": "2026-04-12T13:53:08Z"
-    },
-    {
       "id": "664df53292fd50e8b1e7bf61d1267fe95047525f",
       "title": "Student Loan Breach Exposes 2.5M Records",
       "link": "https://threatpost.com/student-loan-breach-exposes-2-5m-records/180492/",
@@ -34011,7 +34031,7 @@
       "description": "2.5 million people were affected, in a breach that could spell more trouble down the line.",
       "source": "threatpost.com",
       "first_seen": "2026-05-10T12:53:08Z",
-      "last_seen": "2026-07-09T15:51:21Z"
+      "last_seen": "2026-07-09T17:46:17Z"
     },
     {
       "id": "4140c7a34b0ba94ad2e6b0cae9f59b0cb9bfffea",
@@ -34021,7 +34041,7 @@
       "description": "Researchers uncover a watering hole attack likely carried out by APT TA423, which attempts to plant the ScanBox JavaScript-based reconnaissance tool.",
       "source": "threatpost.com",
       "first_seen": "2026-05-10T12:53:08Z",
-      "last_seen": "2026-07-09T15:51:21Z"
+      "last_seen": "2026-07-09T17:46:17Z"
     },
     {
       "id": "9359ee40a641a4b565080313045f1d7e7fe6552b",
@@ -34031,7 +34051,7 @@
       "description": "Over 130 companies tangled in sprawling phishing campaign that spoofed a multi-factor authentication system.",
       "source": "threatpost.com",
       "first_seen": "2026-05-10T12:53:08Z",
-      "last_seen": "2026-07-09T15:51:21Z"
+      "last_seen": "2026-07-09T17:46:17Z"
     },
     {
       "id": "b4ccef0737cd4050d65241bf754072030b6b5e6a",
@@ -34041,7 +34061,7 @@
       "description": "Lockbit is by far this summer’s most prolific ransomware group, trailed by two offshoots of the Conti group.",
       "source": "threatpost.com",
       "first_seen": "2026-05-10T12:53:08Z",
-      "last_seen": "2026-07-09T15:51:21Z"
+      "last_seen": "2026-07-09T17:46:17Z"
     },
     {
       "id": "12ee113fc8fce91f6d7fb28deab2b1ad20061ec7",
@@ -34051,7 +34071,7 @@
       "description": "Tens of thousands of cameras have failed to patch a critical, 11-month-old CVE, leaving thousands of organizations exposed.",
       "source": "threatpost.com",
       "first_seen": "2026-05-10T12:53:08Z",
-      "last_seen": "2026-07-09T15:51:21Z"
+      "last_seen": "2026-07-09T17:46:17Z"
     }
   ]
 }
