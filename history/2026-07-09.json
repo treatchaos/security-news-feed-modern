@@ -1,7 +1,57 @@
 {
   "date": "2026-07-09",
-  "count": 43,
+  "count": 49,
   "items": [
+    {
+      "id": "0fd91c97a832b3efd3259f3cad98eeb851824501",
+      "title": "GodDamn Ransomware Rebrands From Beast and Uses PoisonX Driver to Disable Defenses",
+      "link": "https://cybersecuritynews.com/goddamn-ransomware-rebrands-from-beast/",
+      "date": "2026-07-09T19:18:57Z",
+      "description": "GodDamn ransomware has emerged as a serious threat, marking the third rebrand of a family that has quietly evolved since 2022. What makes this variant stand out is not just its encryption ability but the malicious kernel driver it uses to blind security tools before an attack begins. This mix of stealth and persistence lets […] The post GodDamn Ransomware Rebrands From Beast and Uses PoisonX…",
+      "source": "cybersecuritynews.com",
+      "first_seen": "2026-07-09T19:20:26Z",
+      "last_seen": "2026-07-09T19:20:26Z"
+    },
+    {
+      "id": "bb9b15c2ded890a0d943c6a516811dfdfb30fd8c",
+      "title": "ACSC Warns of Large-Scale CMS Exploitation Campaign Deploys Webshells on Vulnerable Websites",
+      "link": "https://cybersecuritynews.com/acsc-warns-of-large-scale-cms-exploitation-campaign-deploys-webshells/",
+      "date": "2026-07-09T19:18:25Z",
+      "description": "A large hacking campaign is sweeping across websites worldwide, turning ordinary content management systems into launchpads for attackers. Small and medium sized businesses in Australia and beyond are finding their web servers quietly hijacked, often without obvious warning signs. The scale of this operation has pushed the alert status to critical. At the center of […] The post ACSC Warns of…",
+      "source": "cybersecuritynews.com",
+      "first_seen": "2026-07-09T19:20:26Z",
+      "last_seen": "2026-07-09T19:20:26Z"
+    },
+    {
+      "id": "2c705fe6fb682569b9db9e5d0485e31bf00423b6",
+      "title": "Dormant GitHub Accounts Help Attackers Blend In While Mapping Corporate Orgs",
+      "link": "https://thehackernews.com/2026/07/dormant-github-accounts-help-attackers.html",
+      "date": "2026-07-09T18:38:49Z",
+      "description": "Datadog Security Labs is warning of \"several overlapping campaigns\" that are systematically enumerating corporate GitHub organizations, repositories, and user accounts through the GitHub API. \"Operators rely on automated scraping tooling with custom or legitimate-sounding user agents, leveraging GitHub 'ghost' accounts that are often years old, or compromised OAuth tokens and personal",
+      "source": "thehackernews.com",
+      "first_seen": "2026-07-09T19:20:26Z",
+      "last_seen": "2026-07-09T19:20:26Z"
+    },
+    {
+      "id": "bcf7468c5583394db7e18beb3337137439c9438b",
+      "title": "RedHook Android RAT Abuses ADB Wireless Debugging to Gain Shell-Level Access",
+      "link": "https://cybersecuritynews.com/redhook-android-rat-abuses-adb-wireless-debugging/",
+      "date": "2026-07-09T18:17:01Z",
+      "description": "A resurfaced Android banking trojan called RedHook has returned with a dangerous new trick, hijacking a legitimate developer feature to quietly seize deep control of infected phones. Rather than relying on complex exploits, the malware weaponizes ADB Wireless Debugging, a tool built for app developers, to grant itself privileges normally reserved for system-level processes. This […] The post…",
+      "source": "cybersecuritynews.com",
+      "first_seen": "2026-07-09T19:20:26Z",
+      "last_seen": "2026-07-09T19:20:26Z"
+    },
+    {
+      "id": "56308677e5433b286cb81edafe6173f8d59334d4",
+      "title": "New GigaWiper Windows Backdoor Bundles Disk Wiping, Fake Ransomware, and Spyware",
+      "link": "https://thehackernews.com/2026/07/new-gigawiper-windows-backdoor-bundles.html",
+      "date": "2026-07-09T18:08:07Z",
+      "description": "Microsoft has taken apart a destructive Windows backdoor it calls GigaWiper. What stands out is how it is built: not one tool but three older destructive programs bolted into one, offered as commands the operator can choose from. Each is a different way to break a machine: wipe the whole disk, overwrite the Windows drive, or run fake \"ransomware\" that scrambles files with a key it never saves",
+      "source": "thehackernews.com",
+      "first_seen": "2026-07-09T19:20:26Z",
+      "last_seen": "2026-07-09T19:20:26Z"
+    },
     {
       "id": "a0eec5e04c042b35970da0796e260be6e9527f72",
       "title": "Microsoft Adopts AI-Powered Scanning to Find Vulnerabilities Before Attackers",
@@ -10,7 +60,7 @@
       "description": "Microsoft has formally expanded its use of artificial intelligence in vulnerability discovery, deploying a proprietary multi-model agentic scanning system across the Windows codebase to identify and patch security flaws before adversaries can exploit them a move that is already reshaping the scale and cadence of its monthly Patch Tuesday releases. At the center of this […] The post Microsoft…",
       "source": "cybersecuritynews.com",
       "first_seen": "2026-07-09T17:46:17Z",
-      "last_seen": "2026-07-09T17:46:17Z"
+      "last_seen": "2026-07-09T19:20:26Z"
     },
     {
       "id": "67d2c645c1fe5c181fa88c00a0f31b4fdea3794b",
@@ -20,7 +70,7 @@
       "description": "A new data-extortion group called Helix is using identity-focused tactics such as voice phishing (vishing), device code phishing, and multi-factor authentication (MFA) abuse to steal data from SharePoint environments. [...]",
       "source": "bleepingcomputer.com",
       "first_seen": "2026-07-09T17:46:17Z",
-      "last_seen": "2026-07-09T17:46:17Z"
+      "last_seen": "2026-07-09T19:20:26Z"
     },
     {
       "id": "868bfd9211f8f6d3552c55fff9167f1166c9d5f1",
@@ -30,7 +80,7 @@
       "description": "Microsoft says Windows users should expect to see an increase in security updates as the company increasingly relies on artificial intelligence to discover vulnerabilities in its codebase. [...]",
       "source": "bleepingcomputer.com",
       "first_seen": "2026-07-09T17:46:17Z",
-      "last_seen": "2026-07-09T17:46:17Z"
+      "last_seen": "2026-07-09T19:20:26Z"
     },
     {
       "id": "cb7028ee44325480a6cfbe03561459203787af3c",
@@ -40,7 +90,7 @@
       "description": "GitHub has officially announced the release of npm version 12 with install scripts disabled by default, along with deprecating granular access tokens (GATs) designed to bypass two-factor authentication (2FA). The Microsoft-owned subsidiary noted that the following npm install behaviors that used to run automatically before have been made opt-in - allowScripts defaults to off, meaning",
       "source": "thehackernews.com",
       "first_seen": "2026-07-09T17:46:17Z",
-      "last_seen": "2026-07-09T17:46:17Z"
+      "last_seen": "2026-07-09T19:20:26Z"
     },
     {
       "id": "6047ffbd9baaa1e971a0fe9af39f3b821b3b73a3",
@@ -50,7 +100,7 @@
       "description": "A large-scale AWS intrusion reveals how AI-assisted attackers can chain familiar cloud techniques to move from initial access to full environmental compromise in roughly 72 hours, not through novel exploits, but through unprecedented speed, scale, and orchestration. According to Sygnia’s investigation, the threat actor gained an initial access key to an AWS account by exploiting […] The post A…",
       "source": "cybersecuritynews.com",
       "first_seen": "2026-07-09T17:46:17Z",
-      "last_seen": "2026-07-09T17:46:17Z"
+      "last_seen": "2026-07-09T19:20:26Z"
     },
     {
       "id": "9cc3d731acf2d0aad4edeb911ac10c501224329f",
@@ -100,7 +150,7 @@
       "description": "Most security mess starts as admin work. A link gets clicked. A tool gets trusted. A bucket name gets reused. A setting stays loose because nobody wants to touch it. This week is full of that kind of damage. Not loud. Not clever. Just small gaps doing big jobs. The worst part is how normal it all looks until the bill arrives. The full ThreatsDay list is below. Global",
       "source": "thehackernews.com",
       "first_seen": "2026-07-09T17:46:17Z",
-      "last_seen": "2026-07-09T17:46:17Z"
+      "last_seen": "2026-07-09T19:20:26Z"
     },
     {
       "id": "ee200b0bf8fcecd0c3fa91ea18af411667651fcf",
@@ -120,7 +170,7 @@
       "description": "The Israeli company has developed a cryptographic posture and post-quantum cryptography management platform. The post QIZ Security Raises $17 Million for Cryptographic Governance Platform appeared first on SecurityWeek.",
       "source": "securityweek.com",
       "first_seen": "2026-07-09T15:51:21Z",
-      "last_seen": "2026-07-09T17:46:17Z"
+      "last_seen": "2026-07-09T19:20:26Z"
     },
     {
       "id": "0d3133e3b956eb11434836856540621a3dd74eaa",
@@ -140,7 +190,7 @@
       "description": "A new phishing-as-a-service (PhaaS) operation called Forg365 focuses on stealing Microsoft 365 accounts by combining adversary-in-the-middle (AiTM) and device code methods with AI-assisted lure generation. [...]",
       "source": "bleepingcomputer.com",
       "first_seen": "2026-07-09T15:51:21Z",
-      "last_seen": "2026-07-09T17:46:17Z"
+      "last_seen": "2026-07-09T19:20:26Z"
     },
     {
       "id": "c8243eeea1845c123729d3fb74bfd8b517cfef2b",
@@ -150,7 +200,7 @@
       "description": "The fate of a Ukrainian tax software company shows how modern cyberwarfare can claim casualties far beyond the battlefield, and how businesses across the ocean still need to protect themselves.",
       "source": "darkreading.com",
       "first_seen": "2026-07-09T15:51:21Z",
-      "last_seen": "2026-07-09T17:46:17Z"
+      "last_seen": "2026-07-09T19:20:26Z"
     },
     {
       "id": "0b8a6167f08fcd861b5b606924898c2ad53670f8",
@@ -160,7 +210,7 @@
       "description": "Two announcements on July 7, 2026, demonstrate the government’s determination to improve the level of cybersecurity within the UK. The post UK Government Rolls Out Agentic AI Defense Plan Alongside Industry Pledge appeared first on SecurityWeek.",
       "source": "securityweek.com",
       "first_seen": "2026-07-09T15:51:21Z",
-      "last_seen": "2026-07-09T17:46:17Z"
+      "last_seen": "2026-07-09T19:20:26Z"
     },
     {
       "id": "bacfe0a2872bb4542746219575f7fc06b74c772a",
@@ -170,7 +220,7 @@
       "description": "Security operations don't slow down when IT teams take vacation, but staffing levels often do. Kaseya explains how AI-driven automation can help organizations maintain consistent security operations and reduce reliance on manual processes year-round. [...]",
       "source": "bleepingcomputer.com",
       "first_seen": "2026-07-09T15:51:21Z",
-      "last_seen": "2026-07-09T17:46:17Z"
+      "last_seen": "2026-07-09T19:20:26Z"
     },
     {
       "id": "94fb086589d0610954887c8c146a8c6cdf4f3447",
@@ -180,7 +230,7 @@
       "description": "Buffer overflow, DoS, command injection, SSRF, authentication bypass, and other types of vulnerabilities have been found in PAN-OS software. The post Palo Alto Networks Patches 13 Vulnerabilities appeared first on SecurityWeek.",
       "source": "securityweek.com",
       "first_seen": "2026-07-09T15:51:21Z",
-      "last_seen": "2026-07-09T17:46:17Z"
+      "last_seen": "2026-07-09T19:20:26Z"
     },
     {
       "id": "b2f0d28b8288c65c65596d09c85c8bce48ba7a40",
@@ -190,7 +240,7 @@
       "description": "A cryptomining incident highlights how AI gateways can provide access to AI models, cloud infrastructure, and identity and access management (IAM) data.",
       "source": "darkreading.com",
       "first_seen": "2026-07-09T15:51:21Z",
-      "last_seen": "2026-07-09T17:46:17Z"
+      "last_seen": "2026-07-09T19:20:26Z"
     },
     {
       "id": "75c9601d8ce260f39454a3095bc2c8cb1778b72f",
@@ -200,7 +250,7 @@
       "description": "AI has changed how fast attacks move. Work that once took an attacker days now takes minutes. Using models like Mythos, attackers write tailored bait, pick targets, test what lands, and jump to the next host before your team clears the first alert. That is the gap, and it is not your fault. The tools and runbooks most teams run on were built for attackers who work at human speed. AI-driven",
       "source": "thehackernews.com",
       "first_seen": "2026-07-09T15:51:21Z",
-      "last_seen": "2026-07-09T17:46:17Z"
+      "last_seen": "2026-07-09T19:20:26Z"
     },
     {
       "id": "a56aff90af6be6bd0bebd10f790d53d61f5cf06f",
@@ -210,7 +260,7 @@
       "description": "Hackers exploited a zero-day vulnerability in a third-party system to access a KDDI email system for ISPs. The post 12 Million Impacted by Data Breach at Japanese Telco KDDI appeared first on SecurityWeek.",
       "source": "securityweek.com",
       "first_seen": "2026-07-09T15:51:21Z",
-      "last_seen": "2026-07-09T17:46:17Z"
+      "last_seen": "2026-07-09T19:20:26Z"
     },
     {
       "id": "3d70e562a684125b5a250d6d43e83e5e6d8df5a9",
@@ -220,7 +270,7 @@
       "description": "Affecting every major distribution since 2011, the Linux kernel vulnerability allows attackers to gain root access. The post 15-Year-Old Linux Vulnerability ‘GhostLock’ Earns Researchers $92k From Google appeared first on SecurityWeek.",
       "source": "securityweek.com",
       "first_seen": "2026-07-09T15:51:21Z",
-      "last_seen": "2026-07-09T17:46:17Z"
+      "last_seen": "2026-07-09T19:20:26Z"
     },
     {
       "id": "6cab07dbd2bd97a291eb9ac63010912f906d5df8",
@@ -230,7 +280,7 @@
       "description": "Microsoft has announced plans to disable Outlook Web Access (OWA) Light, the lightweight version of the Outlook Web App email client, in a future Exchange Server update. [...]",
       "source": "bleepingcomputer.com",
       "first_seen": "2026-07-09T15:51:21Z",
-      "last_seen": "2026-07-09T17:46:17Z"
+      "last_seen": "2026-07-09T19:20:26Z"
     },
     {
       "id": "f01d4d60a530f33aec55ed8f8fc23903f82bed77",
@@ -260,7 +310,7 @@
       "description": "Microsoft signed a malicious kernel driver, and now it's being used to kill security software in ransomware attacks.",
       "source": "darkreading.com",
       "first_seen": "2026-07-09T15:51:21Z",
-      "last_seen": "2026-07-09T17:46:17Z"
+      "last_seen": "2026-07-09T19:20:26Z"
     },
     {
       "id": "0ddd218b54d11c04c8ea4e8888a01ad4592ae80e",
@@ -300,7 +350,7 @@
       "description": "A new survey shows security leaders have an inflated sense of safety regarding their collaboration tools and platforms.",
       "source": "darkreading.com",
       "first_seen": "2026-07-09T09:24:15Z",
-      "last_seen": "2026-07-09T17:46:17Z"
+      "last_seen": "2026-07-09T19:20:26Z"
     },
     {
       "id": "cb182c3689d9daffa9ecad5dc1de1003fc10cd39",
@@ -381,6 +431,16 @@
       "source": "securityweek.com",
       "first_seen": "2026-07-09T05:59:40Z",
       "last_seen": "2026-07-09T09:24:15Z"
+    },
+    {
+      "id": "90f3387f784d4697d2e31a043fbaef5b22413c8f",
+      "title": "ZDI-CAN-31734: ABRT",
+      "link": "http://www.zerodayinitiative.com/advisories/upcoming/",
+      "date": "2026-07-09T05:00:00Z",
+      "description": "A CVSS score 7.8 AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H severity vulnerability discovered by 'Ryota Shiga (GMO Flatt Security Inc.)' was reported to the affected vendor on: 2026-07-09, 0 days ago. The vendor is given until 2026-11-06 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
+      "source": "zerodayinitiative.com",
+      "first_seen": "2026-07-09T19:20:26Z",
+      "last_seen": "2026-07-09T19:20:26Z"
     },
     {
       "id": "e3e76c1b547219ac8991dec449303e483be4db2f",
