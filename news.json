@@ -1,19 +1,75 @@
 {
-  "last_updated": "2026-07-08T23:02:16Z",
+  "last_updated": "2026-07-09T05:59:40Z",
   "count": 35,
   "items": [
+    {
+      "title": "Microsoft patches RoguePlanet Defender zero-day vulnerability",
+      "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-patches-rogueplanet-defender-zero-day-vulnerability/",
+      "date": "2026-07-09T05:42:49Z",
+      "description": "Microsoft has released a security patch to address a Defender zero-day vulnerability known as \"RoguePlanet,\" disclosed after the June 2026 Patch Tuesday. [...]",
+      "source": "bleepingcomputer.com"
+    },
+    {
+      "title": "Top AI Agents Built to Catch Malicious Code Can Be Tricked Into Running It",
+      "link": "https://thehackernews.com/2026/07/friendly-fire-ai-agents-built-to-catch.html",
+      "date": "2026-07-09T05:15:02Z",
+      "description": "Ask an AI coding agent to scan open-source code for security holes, and it might run the attacker's code on your own machine instead. That is the finding in a proof-of-concept published Wednesday by the AI Now Institute, an attack it calls \"Friendly Fire.\" It works against Anthropic's Claude Code and OpenAI's Codex when either is running in an autonomous mode that approves its own",
+      "source": "thehackernews.com"
+    },
+    {
+      "title": "New GhostApproval Vulnerability Affects Amazon Q, Claude Code, Cursor, and Other AI Agents",
+      "link": "https://cybersecuritynews.com/ghostapproval-vulnerability/",
+      "date": "2026-07-09T05:10:52Z",
+      "description": "A newly disclosed vulnerability pattern dubbed “GhostApproval” has exposed a critical security flaw in six of the most widely used AI coding assistants: Amazon Q Developer, Anthropic Claude Code, Augment, Cursor, Google Antigravity, and Windsurf, allowing malicious repositories to bypass Human-in-the-Loop safety controls and potentially achieve remote code execution on developer machines.…",
+      "source": "cybersecuritynews.com"
+    },
+    {
+      "title": "Unpatched Backdoor in Tenda Firmware Grants Admin Access to Devices",
+      "link": "https://www.securityweek.com/unpatched-backdoor-in-tenda-firmware-grants-admin-access-to-devices/",
+      "date": "2026-07-09T05:00:41Z",
+      "description": "Tracked as CVE-2026-11405, the vulnerability allows unauthenticated attackers to access a device's web management interface. The post Unpatched Backdoor in Tenda Firmware Grants Admin Access to Devices appeared first on SecurityWeek.",
+      "source": "securityweek.com"
+    },
+    {
+      "title": "GhostApproval Symlink Flaws Could Let Malicious Repos Run Code in AI Coding Agents",
+      "link": "https://thehackernews.com/2026/07/ghostapproval-symlink-flaws-could-let.html",
+      "date": "2026-07-09T04:27:18Z",
+      "description": "Researchers at Wiz found that a flaw in six popular AI coding assistants lets a booby-trapped code project quietly take control of a developer's computer. The assistant asks permission to edit one harmless-looking file, but the write lands on a sensitive one instead. The affected tools are Amazon Q Developer, Anthropic's Claude Code, Augment, Cursor, Google Antigravity, and Windsurf.",
+      "source": "thehackernews.com"
+    },
+    {
+      "title": "Palo Alto PAN-OS Vulnerability Allows Arbitrary Code Execution Through Malicious Network Traffic",
+      "link": "https://cybersecuritynews.com/palo-alto-networks-pan-os-vulnerability/",
+      "date": "2026-07-09T04:15:42Z",
+      "description": "Palo Alto Networks has disclosed a high-severity vulnerability in PAN-OS that could allow unauthenticated attackers to execute arbitrary code or trigger a denial-of-service (DoS) condition by sending specially crafted network traffic. Tracked as CVE-2026-0288, the flaw carries a CVSS-B score of 9.2 (HIGH, CVSS-BT: 7.2) and has been assigned the HIGHEST urgency rating by the […] The post Palo…",
+      "source": "cybersecuritynews.com"
+    },
+    {
+      "title": "Fake 7-Zip Installers Turn Devices Into Residential Proxy Nodes",
+      "link": "https://thehackernews.com/2026/07/fake-7-zip-installers-turn-devices-into.html",
+      "date": "2026-07-09T04:01:49Z",
+      "description": "Cybersecurity researchers have disclosed details of a new threat actor dubbed Lurking Lizard that has been operating an end-to-end malicious residential proxy business using an infrastructure comprising more than 230 lookalike domains. The activity dates back to at least August 2022, according to DNS threat intelligence firm Infoblox. Once such campaign, observed earlier this year, involved the",
+      "source": "thehackernews.com"
+    },
+    {
+      "title": "Accenture Confirms Data Breach – Hacker Claims Theft of Internal Source Code",
+      "link": "https://cybersecuritynews.com/accenture-confirms-data-breach/",
+      "date": "2026-07-09T03:43:01Z",
+      "description": "IT services and consulting giant Accenture has confirmed it suffered a security breach after a threat actor claimed to have stolen 35 GB of source code and other sensitive data from the company. A threat actor operating under the alias “888” posted a listing on the cybercrime forum PwnForums on July 6, 2026, offering the […] The post Accenture Confirms Data Breach – Hacker Claims Theft of…",
+      "source": "cybersecuritynews.com"
+    },
+    {
+      "title": "Claude, Cursor, and Codex Trigger Endpoint Security Rules Used to Catch Hackers",
+      "link": "https://cybersecuritynews.com/claude-code-cursor-and-codex-trigger/",
+      "date": "2026-07-09T02:34:07Z",
+      "description": "AI coding agents such as Claude Code, Cursor, and OpenAI Codex are increasingly appearing in enterprise environments, and new telemetry shows they are unintentionally triggering security detections tied to credential access and living-off-the-land binaries (LOLBins). Recent analysis from Sophos’ CIXA behavioral engine highlights how these tools blur the line between benign automation and…",
+      "source": "cybersecuritynews.com"
+    },
     {
       "title": "PromptSpy Android Malware Uses Google Gemini to Adapt During Runtime Execution",
       "link": "https://cybersecuritynews.com/promptspy-android-malware-uses/",
       "date": "2026-07-08T22:24:22Z",
       "description": "A newly identified strain of Android spyware called PromptSpy has become the first mobile malware known to call on generative AI while it is actually running on a victim’s device. Rather than relying purely on hardcoded commands, the malware reaches out to Google’s Gemini model in real time to figure out how to interact with […] The post PromptSpy Android Malware Uses Google Gemini to Adapt…",
-      "source": "cybersecuritynews.com"
-    },
-    {
-      "title": "APT-C-20 Hackers Hide Shellcode in PNG Images to Launch Fileless C# Backdoor",
-      "link": "https://cybersecuritynews.com/apt-c-20-hackers-hide-shellcode-in-png-images/",
-      "date": "2026-07-08T22:13:44Z",
-      "description": "A well known hacking group has found a clever way to sneak malicious code past security tools, using an ordinary picture file. The group, tracked as APT-C-20 and known as APT28 or Fancy Bear, hides shellcode inside PNG images to launch a fileless backdoor written in C#. This lets attackers avoid dropping malware files on […] The post APT-C-20 Hackers Hide Shellcode in PNG Images to Launch…",
       "source": "cybersecuritynews.com"
     },
     {
@@ -31,13 +87,6 @@
       "source": "bleepingcomputer.com"
     },
     {
-      "title": "ClickFix Campaign Uses Fake Google Verification Page to Infect Mexican Bank Customers",
-      "link": "https://cybersecuritynews.com/clickfix-campaign-uses-fake-google-verification-page/",
-      "date": "2026-07-08T21:23:03Z",
-      "description": "A fake Google verification page is being used to infect customers of Mexican banks with a malware toolkit built for fraud, not just espionage. The campaign relies on a familiar ClickFix trick, where a victim is pushed to copy and run a command that quietly starts the infection chain. From there, the attackers can watch […] The post ClickFix Campaign Uses Fake Google Verification Page to Infect…",
-      "source": "cybersecuritynews.com"
-    },
-    {
       "title": "Lone Attacker Uses AI to Breach AWS Cloud Environment in 72 Hours",
       "link": "https://www.darkreading.com/cloud-security/lone-attacker-ai-breach-aws-cloud-environment",
       "date": "2026-07-08T20:32:22Z",
@@ -52,25 +101,11 @@
       "source": "bleepingcomputer.com"
     },
     {
-      "title": "Lurking Lizard Uses Fake 7-Zip Installers to Turn Victim Devices Into Proxy Nodes",
-      "link": "https://cybersecuritynews.com/lurking-lizard-uses-fake-7-zip-installers/",
-      "date": "2026-07-08T19:22:37Z",
-      "description": "A newly uncovered cybercriminal operation has been quietly turning ordinary computers into paid proxy servers for years, hiding behind a fake version of the popular 7-Zip file compression tool. Victims searching for the free archiving software were instead led to a lookalike site that installed hidden proxy software instead of the real program. Once running, […] The post Lurking Lizard Uses Fake…",
-      "source": "cybersecuritynews.com"
-    },
-    {
       "title": "Hackers exploit Roundcube flaw to spy on academic researchers",
       "link": "https://www.bleepingcomputer.com/news/security/hackers-exploit-roundcube-flaw-to-spy-on-academic-researchers/",
       "date": "2026-07-08T18:56:02Z",
       "description": "A China-linked threat cluster has been exploiting vulnerable Roundcube servers at U.S. and Canadian universities to steal credentials and deploy backdoor malware. [...]",
       "source": "bleepingcomputer.com"
-    },
-    {
-      "title": "Fake Indian ITR Notice Delivers Dual RAT Malware Through Six-Stage Infection Chain",
-      "link": "https://cybersecuritynews.com/fake-indian-itr-notice-delivers-dual-rat-malware/",
-      "date": "2026-07-08T17:37:35Z",
-      "description": "A new malware campaign is using fake Indian tax notices to trick users into installing not one, but two separate remote access trojans on their computers. The attack disguises itself as an official Income Tax Department communication, playing on the fear of penalties to push victims toward a malicious download. Once triggered, the infection unfolds […] The post Fake Indian ITR Notice Delivers…",
-      "source": "cybersecuritynews.com"
     },
     {
       "title": "AI Coding Agents Found Triggering Endpoint Security Rules Built to Catch Attackers",
@@ -115,20 +150,6 @@
       "source": "thehackernews.com"
     },
     {
-      "title": "Ubiquiti Patches Critical UniFi Flaws Across Connect, Talk, Access, Protect, and OS",
-      "link": "https://thehackernews.com/2026/07/ubiquiti-patches-critical-unifi-flaws.html",
-      "date": "2026-07-08T14:38:05Z",
-      "description": "Ubiquiti has shipped updates to address multiple critical security flaws impacting UniFi Connect, UniFi Talk, UniFi Access, UniFi Protect, and UniFi OS that could result in privilege escalation and arbitrary command execution. The list of vulnerabilities is as follows - CVE-2026-50746 (CVSS score: 10.0) - An improper access control vulnerability in UniFi Connect Application that an attacker",
-      "source": "thehackernews.com"
-    },
-    {
-      "title": "3 Ways AI Powers Service Desk Attacks and How to Prevent Them",
-      "link": "https://www.bleepingcomputer.com/news/security/3-ways-ai-powers-service-desk-attacks-and-how-to-prevent-them/",
-      "date": "2026-07-08T14:01:11Z",
-      "description": "Specops Software explains how AI is making service desk impersonation attacks more convincing, personalized, and scalable, along with practical steps organizations can take to strengthen onboarding and identity verification. [...]",
-      "source": "bleepingcomputer.com"
-    },
-    {
       "title": "Webinar Today: Why Email Security Keeps Failing",
       "link": "https://www.securityweek.com/webinar-today-why-email-security-keeps-failing/",
       "date": "2026-07-08T13:16:28Z",
@@ -136,31 +157,10 @@
       "source": "securityweek.com"
     },
     {
-      "title": "New Ghost Phishing Wave Is Breaking Traditional Email Security",
-      "link": "https://thehackernews.com/2026/07/new-ghost-phishing-wave-is-breaking.html",
-      "date": "2026-07-08T13:00:00Z",
-      "description": "A recent EvilTokens campaign targeting businesses across the US and Europe is exposing a new email security blind spot. This “ghost phishing” technique keeps the malicious page hidden until it decrypts and comes to life inside the victim’s browser. For security leaders, the risk is clear: traditional URL checks may miss the attack while Microsoft 365 access, sensitive data, and response time",
-      "source": "thehackernews.com"
-    },
-    {
-      "title": "SCMBANKER Malware Uses ClickFix Lures to Target Mexican Banking Users",
-      "link": "https://thehackernews.com/2026/07/scmbanker-malware-uses-clickfix-lures.html",
-      "date": "2026-07-08T12:52:15Z",
-      "description": "A new banking fraudulent operation is targeting customers of Mexican banks, fintech, payment processors, and cryptocurrency exchanges using ClickFix lures. The activity cluster, tracked by Elastic Security Labs under the moniker REF6045, involves infecting victims through fake CAPTCHA verification pages that deceive them into running a malicious command that installs a PowerShell toolkit dubbed",
-      "source": "thehackernews.com"
-    },
-    {
       "title": "Google Dialogflow CX Bug Allowed Attackers to Hijack AI Conversations",
       "link": "https://www.securityweek.com/google-dialogflow-cx-bug-allowed-attackers-to-hijack-ai-conversations/",
       "date": "2026-07-08T12:15:00Z",
       "description": "The \"Rogue Agent\" vulnerability could have enabled attackers to silently manipulate AI conversations, exfiltrate data, and compromise every Dialogflow CX agent within the same Google Cloud project. The post Google Dialogflow CX Bug Allowed Attackers to Hijack AI Conversations appeared first on SecurityWeek.",
-      "source": "securityweek.com"
-    },
-    {
-      "title": "CISA Urges Immediate Patching of Exploited ColdFusion, Langflow, Joomla Flaws",
-      "link": "https://www.securityweek.com/cisa-urges-immediate-patching-of-exploited-coldfusion-langflow-joomla-flaws/",
-      "date": "2026-07-08T10:45:25Z",
-      "description": "Two newly disclosed critical vulnerabilities in Adobe ColdFusion and Langflow join two Joomla extension flaws in CISA's Known Exploited Vulnerabilities catalog, with federal agencies given until July 10 to patch. The post CISA Urges Immediate Patching of Exploited ColdFusion, Langflow, Joomla Flaws appeared first on SecurityWeek.",
       "source": "securityweek.com"
     },
     {
@@ -181,35 +181,35 @@
       "title": "ZDI-CAN-31121: Oracle",
       "link": "http://www.zerodayinitiative.com/advisories/upcoming/",
       "date": "2026-07-07T05:00:00Z",
-      "description": "A CVSS score 7.5 AV:L/AC:H/PR:H/UI:N/S:C/C:H/I:H/A:H severity vulnerability discovered by 'Xiaobye(@xiaobye_tw) of DEVCORE Research Team' was reported to the affected vendor on: 2026-07-07, 1 days ago. The vendor is given until 2026-11-04 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
+      "description": "A CVSS score 7.5 AV:L/AC:H/PR:H/UI:N/S:C/C:H/I:H/A:H severity vulnerability discovered by 'Xiaobye(@xiaobye_tw) of DEVCORE Research Team' was reported to the affected vendor on: 2026-07-07, 2 days ago. The vendor is given until 2026-11-04 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
       "source": "zerodayinitiative.com"
     },
     {
       "title": "ZDI-CAN-31451: VMware",
       "link": "http://www.zerodayinitiative.com/advisories/upcoming/",
       "date": "2026-07-07T05:00:00Z",
-      "description": "A CVSS score 8.8 AV:L/AC:L/PR:L/UI:N/S:C/C:H/I:H/A:H severity vulnerability discovered by 'Gwangun Jung (@pr0ln) of Theori, with Xint Code' was reported to the affected vendor on: 2026-07-07, 1 days ago. The vendor is given until 2026-11-04 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
+      "description": "A CVSS score 8.8 AV:L/AC:L/PR:L/UI:N/S:C/C:H/I:H/A:H severity vulnerability discovered by 'Gwangun Jung (@pr0ln) of Theori, with Xint Code' was reported to the affected vendor on: 2026-07-07, 2 days ago. The vendor is given until 2026-11-04 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
       "source": "zerodayinitiative.com"
     },
     {
       "title": "ZDI-CAN-31739: Linux",
       "link": "http://www.zerodayinitiative.com/advisories/upcoming/",
       "date": "2026-07-07T05:00:00Z",
-      "description": "A CVSS score 7.8 AV:L/AC:H/PR:L/UI:N/S:C/C:H/I:H/A:H severity vulnerability discovered by 'YingMuo (@YingMuo) of DEVCORE Research Team' was reported to the affected vendor on: 2026-07-07, 1 days ago. The vendor is given until 2026-11-04 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
+      "description": "A CVSS score 7.8 AV:L/AC:H/PR:L/UI:N/S:C/C:H/I:H/A:H severity vulnerability discovered by 'YingMuo (@YingMuo) of DEVCORE Research Team' was reported to the affected vendor on: 2026-07-07, 2 days ago. The vendor is given until 2026-11-04 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
       "source": "zerodayinitiative.com"
     },
     {
       "title": "ZDI-CAN-31075: LibreOffice",
       "link": "http://www.zerodayinitiative.com/advisories/upcoming/",
       "date": "2026-07-03T05:00:00Z",
-      "description": "A CVSS score 7.8 AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H severity vulnerability discovered by 'Anonymous' was reported to the affected vendor on: 2026-07-03, 5 days ago. The vendor is given until 2026-10-31 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
+      "description": "A CVSS score 7.8 AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H severity vulnerability discovered by 'Anonymous' was reported to the affected vendor on: 2026-07-03, 6 days ago. The vendor is given until 2026-10-31 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
       "source": "zerodayinitiative.com"
     },
     {
       "title": "ZDI-CAN-31151: LibreOffice",
       "link": "http://www.zerodayinitiative.com/advisories/upcoming/",
       "date": "2026-07-03T05:00:00Z",
-      "description": "A CVSS score 7.8 AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H severity vulnerability discovered by 'truff' was reported to the affected vendor on: 2026-07-03, 5 days ago. The vendor is given until 2026-10-31 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
+      "description": "A CVSS score 7.8 AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H severity vulnerability discovered by 'truff' was reported to the affected vendor on: 2026-07-03, 6 days ago. The vendor is given until 2026-10-31 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
       "source": "zerodayinitiative.com"
     },
     {

@@ -1,8 +1,98 @@
 {
-  "last_updated": "2026-07-09T01:52:28Z",
+  "last_updated": "2026-07-09T05:59:40Z",
   "retention_days": 90,
-  "count": 3406,
+  "count": 3414,
   "items": [
+    {
+      "id": "c5bf3760df80f849ac70b6e9021de72a7130c5cf",
+      "title": "Microsoft patches RoguePlanet Defender zero-day vulnerability",
+      "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-patches-rogueplanet-defender-zero-day-vulnerability/",
+      "date": "2026-07-09T05:42:49Z",
+      "description": "Microsoft has released a security patch to address a Defender zero-day vulnerability known as \"RoguePlanet,\" disclosed after the June 2026 Patch Tuesday. [...]",
+      "source": "bleepingcomputer.com",
+      "first_seen": "2026-07-09T05:59:40Z",
+      "last_seen": "2026-07-09T05:59:40Z"
+    },
+    {
+      "id": "5bd4a64ea0057bad8a6f0057b4abdc09832979d7",
+      "title": "Top AI Agents Built to Catch Malicious Code Can Be Tricked Into Running It",
+      "link": "https://thehackernews.com/2026/07/friendly-fire-ai-agents-built-to-catch.html",
+      "date": "2026-07-09T05:15:02Z",
+      "description": "Ask an AI coding agent to scan open-source code for security holes, and it might run the attacker's code on your own machine instead. That is the finding in a proof-of-concept published Wednesday by the AI Now Institute, an attack it calls \"Friendly Fire.\" It works against Anthropic's Claude Code and OpenAI's Codex when either is running in an autonomous mode that approves its own",
+      "source": "thehackernews.com",
+      "first_seen": "2026-07-09T05:59:40Z",
+      "last_seen": "2026-07-09T05:59:40Z"
+    },
+    {
+      "id": "4e021510f22f21c9cbebb7107112cb3bfd295fff",
+      "title": "New GhostApproval Vulnerability Affects Amazon Q, Claude Code, Cursor, and Other AI Agents",
+      "link": "https://cybersecuritynews.com/ghostapproval-vulnerability/",
+      "date": "2026-07-09T05:10:52Z",
+      "description": "A newly disclosed vulnerability pattern dubbed “GhostApproval” has exposed a critical security flaw in six of the most widely used AI coding assistants: Amazon Q Developer, Anthropic Claude Code, Augment, Cursor, Google Antigravity, and Windsurf, allowing malicious repositories to bypass Human-in-the-Loop safety controls and potentially achieve remote code execution on developer machines.…",
+      "source": "cybersecuritynews.com",
+      "first_seen": "2026-07-09T05:59:40Z",
+      "last_seen": "2026-07-09T05:59:40Z"
+    },
+    {
+      "id": "0fd85db9e10f4cc333290e45a402c50ae746f9d8",
+      "title": "Unpatched Backdoor in Tenda Firmware Grants Admin Access to Devices",
+      "link": "https://www.securityweek.com/unpatched-backdoor-in-tenda-firmware-grants-admin-access-to-devices/",
+      "date": "2026-07-09T05:00:41Z",
+      "description": "Tracked as CVE-2026-11405, the vulnerability allows unauthenticated attackers to access a device's web management interface. The post Unpatched Backdoor in Tenda Firmware Grants Admin Access to Devices appeared first on SecurityWeek.",
+      "source": "securityweek.com",
+      "first_seen": "2026-07-09T05:59:40Z",
+      "last_seen": "2026-07-09T05:59:40Z"
+    },
+    {
+      "id": "e3e76c1b547219ac8991dec449303e483be4db2f",
+      "title": "GhostApproval Symlink Flaws Could Let Malicious Repos Run Code in AI Coding Agents",
+      "link": "https://thehackernews.com/2026/07/ghostapproval-symlink-flaws-could-let.html",
+      "date": "2026-07-09T04:27:18Z",
+      "description": "Researchers at Wiz found that a flaw in six popular AI coding assistants lets a booby-trapped code project quietly take control of a developer's computer. The assistant asks permission to edit one harmless-looking file, but the write lands on a sensitive one instead. The affected tools are Amazon Q Developer, Anthropic's Claude Code, Augment, Cursor, Google Antigravity, and Windsurf.",
+      "source": "thehackernews.com",
+      "first_seen": "2026-07-09T05:59:40Z",
+      "last_seen": "2026-07-09T05:59:40Z"
+    },
+    {
+      "id": "d4a7fecdcb2d2228d64fab929d9523d367e4f7a8",
+      "title": "Palo Alto PAN-OS Vulnerability Allows Arbitrary Code Execution Through Malicious Network Traffic",
+      "link": "https://cybersecuritynews.com/palo-alto-networks-pan-os-vulnerability/",
+      "date": "2026-07-09T04:15:42Z",
+      "description": "Palo Alto Networks has disclosed a high-severity vulnerability in PAN-OS that could allow unauthenticated attackers to execute arbitrary code or trigger a denial-of-service (DoS) condition by sending specially crafted network traffic. Tracked as CVE-2026-0288, the flaw carries a CVSS-B score of 9.2 (HIGH, CVSS-BT: 7.2) and has been assigned the HIGHEST urgency rating by the […] The post Palo…",
+      "source": "cybersecuritynews.com",
+      "first_seen": "2026-07-09T05:59:40Z",
+      "last_seen": "2026-07-09T05:59:40Z"
+    },
+    {
+      "id": "b2575778dc88cb5e25fda82f7b7b58bbecfd8c54",
+      "title": "Fake 7-Zip Installers Turn Devices Into Residential Proxy Nodes",
+      "link": "https://thehackernews.com/2026/07/fake-7-zip-installers-turn-devices-into.html",
+      "date": "2026-07-09T04:01:49Z",
+      "description": "Cybersecurity researchers have disclosed details of a new threat actor dubbed Lurking Lizard that has been operating an end-to-end malicious residential proxy business using an infrastructure comprising more than 230 lookalike domains. The activity dates back to at least August 2022, according to DNS threat intelligence firm Infoblox. Once such campaign, observed earlier this year, involved the",
+      "source": "thehackernews.com",
+      "first_seen": "2026-07-09T05:59:40Z",
+      "last_seen": "2026-07-09T05:59:40Z"
+    },
+    {
+      "id": "20b00570264f81fa37e0a2c6ae943373582cbf26",
+      "title": "Accenture Confirms Data Breach – Hacker Claims Theft of Internal Source Code",
+      "link": "https://cybersecuritynews.com/accenture-confirms-data-breach/",
+      "date": "2026-07-09T03:43:01Z",
+      "description": "IT services and consulting giant Accenture has confirmed it suffered a security breach after a threat actor claimed to have stolen 35 GB of source code and other sensitive data from the company. A threat actor operating under the alias “888” posted a listing on the cybercrime forum PwnForums on July 6, 2026, offering the […] The post Accenture Confirms Data Breach – Hacker Claims Theft of…",
+      "source": "cybersecuritynews.com",
+      "first_seen": "2026-07-09T05:59:40Z",
+      "last_seen": "2026-07-09T05:59:40Z"
+    },
+    {
+      "id": "de20030d134a98c9fdcd13f38c102fbe1a242abe",
+      "title": "Claude, Cursor, and Codex Trigger Endpoint Security Rules Used to Catch Hackers",
+      "link": "https://cybersecuritynews.com/claude-code-cursor-and-codex-trigger/",
+      "date": "2026-07-09T02:34:07Z",
+      "description": "AI coding agents such as Claude Code, Cursor, and OpenAI Codex are increasingly appearing in enterprise environments, and new telemetry shows they are unintentionally triggering security detections tied to credential access and living-off-the-land binaries (LOLBins). Recent analysis from Sophos’ CIXA behavioral engine highlights how these tools blur the line between benign automation and…",
+      "source": "cybersecuritynews.com",
+      "first_seen": "2026-07-09T05:59:40Z",
+      "last_seen": "2026-07-09T05:59:40Z"
+    },
     {
       "id": "4ddf1b8031d4d5c32da143e3c989acb8765fd7bc",
       "title": "PromptSpy Android Malware Uses Google Gemini to Adapt During Runtime Execution",
@@ -11,7 +101,7 @@
       "description": "A newly identified strain of Android spyware called PromptSpy has become the first mobile malware known to call on generative AI while it is actually running on a victim’s device. Rather than relying purely on hardcoded commands, the malware reaches out to Google’s Gemini model in real time to figure out how to interact with […] The post PromptSpy Android Malware Uses Google Gemini to Adapt…",
       "source": "cybersecuritynews.com",
       "first_seen": "2026-07-08T23:02:16Z",
-      "last_seen": "2026-07-09T01:52:28Z"
+      "last_seen": "2026-07-09T05:59:40Z"
     },
     {
       "id": "9ee30f205075d36c683a14787594a75e6b6c166e",
@@ -31,7 +121,7 @@
       "description": "The Latin American nation's cybersecurity plan — still in the expansion phase — has to survive its own knockout round during the FIFA World Cup.",
       "source": "darkreading.com",
       "first_seen": "2026-07-08T23:02:16Z",
-      "last_seen": "2026-07-09T01:52:28Z"
+      "last_seen": "2026-07-09T05:59:40Z"
     },
     {
       "id": "5d14b2391be0320dda74bc00858d8e38115af905",
@@ -41,7 +131,7 @@
       "description": "Mount Royal University in Calgary says hackers stole and then deleted data from its file storage systems after breaching the university's network. [...]",
       "source": "bleepingcomputer.com",
       "first_seen": "2026-07-08T21:58:14Z",
-      "last_seen": "2026-07-09T01:52:28Z"
+      "last_seen": "2026-07-09T05:59:40Z"
     },
     {
       "id": "98674e612604e6e9b20d77be9f5e3e512cf28013",
@@ -61,7 +151,7 @@
       "description": "The attacker exploited AI workflows, chained cloud weaknesses, and stolen credentials to extort a large Amazon customer.",
       "source": "darkreading.com",
       "first_seen": "2026-07-08T20:55:30Z",
-      "last_seen": "2026-07-09T01:52:28Z"
+      "last_seen": "2026-07-09T05:59:40Z"
     },
     {
       "id": "78429750c19b081f28501e3802876dd46215bcc3",
@@ -71,7 +161,7 @@
       "description": "Malicious packages on the Node Package Manager (npm) and the Python Package Index (PyPI) delivered stealer malware to developers and users of Paysafe, Skrill, and Neteller payment applications. [...]",
       "source": "bleepingcomputer.com",
       "first_seen": "2026-07-08T20:55:30Z",
-      "last_seen": "2026-07-09T01:52:28Z"
+      "last_seen": "2026-07-09T05:59:40Z"
     },
     {
       "id": "cb67fed3ad664fd5953d3dcb0ad09d7ef17e29a9",
@@ -91,7 +181,7 @@
       "description": "A China-linked threat cluster has been exploiting vulnerable Roundcube servers at U.S. and Canadian universities to steal credentials and deploy backdoor malware. [...]",
       "source": "bleepingcomputer.com",
       "first_seen": "2026-07-08T19:05:09Z",
-      "last_seen": "2026-07-09T01:52:28Z"
+      "last_seen": "2026-07-09T05:59:40Z"
     },
     {
       "id": "e75eb82b5cbc894471c1b05feb5113fa8a33d82b",
@@ -111,7 +201,7 @@
       "description": "Sophos looked at a week of its own endpoint data and found that AI coding agents such as Claude Code, Cursor, and OpenAI Codex are setting off detection rules written to catch human intruders. The agents are not malicious. They just do a lot of things that, to a behavioral engine, look exactly like an attack. Decrypting browser credentials, listing what sits in Windows' credential store,",
       "source": "thehackernews.com",
       "first_seen": "2026-07-08T19:05:09Z",
-      "last_seen": "2026-07-09T01:52:28Z"
+      "last_seen": "2026-07-09T05:59:40Z"
     },
     {
       "id": "85308c4ab90e6a56e80f7635dd466e19d59a4219",
@@ -131,7 +221,7 @@
       "description": "A threat actor has been targeting organizations across multiple sectors with voice-based fake security requests that ask Microsoft 365 users to enroll a new Entra passkey. [...]",
       "source": "bleepingcomputer.com",
       "first_seen": "2026-07-08T17:17:59Z",
-      "last_seen": "2026-07-09T01:52:28Z"
+      "last_seen": "2026-07-09T05:59:40Z"
     },
     {
       "id": "42d062bed740ab53a616603116b53f84de26b7a4",
@@ -141,7 +231,7 @@
       "description": "A financially motivated operation uses lures of cracked or pirated software to deliver a malware two-for-one combo for data theft and cryptomining.",
       "source": "darkreading.com",
       "first_seen": "2026-07-08T17:17:59Z",
-      "last_seen": "2026-07-09T01:52:28Z"
+      "last_seen": "2026-07-09T05:59:40Z"
     },
     {
       "id": "62c5b45d14d33e3749c7946c18ed9b116875ace1",
@@ -151,7 +241,7 @@
       "description": "The professional services giant says it contained the incident, remediated its source, and experienced no operational or service delivery impact. The post Accenture Confirms Data Breach After Hacker Claims Source Code Theft appeared first on SecurityWeek.",
       "source": "securityweek.com",
       "first_seen": "2026-07-08T17:17:59Z",
-      "last_seen": "2026-07-09T01:52:28Z"
+      "last_seen": "2026-07-09T05:59:40Z"
     },
     {
       "id": "a4e52e810c4c183edd265e0d76b7e20b0e878af9",
@@ -171,7 +261,7 @@
       "description": "Cisco says the threat actor behind the LapDogs campaign has expanded its SOHO router malware toolkit with LongLeash, DogLeash, and JarLeash backdoors. The post China-Linked APT Expands Arsenal With New ‘Leash’ Backdoors appeared first on SecurityWeek.",
       "source": "securityweek.com",
       "first_seen": "2026-07-08T17:17:59Z",
-      "last_seen": "2026-07-09T01:52:28Z"
+      "last_seen": "2026-07-09T05:59:40Z"
     },
     {
       "id": "bb7e48e24605a7291d5358e7e6f1d9e4a342a4d0",
@@ -181,7 +271,7 @@
       "description": "AI coding assistants have a habit of making things up. Ask one to fetch a popular tool, and it will sometimes hand back a real-sounding name for a project that does not exist. New research, which its authors call HalluSquatting, turns that habit into an attack: work out the fake names an AI reliably invents, register them first, and wait for the assistant to fetch your trap on a user's",
       "source": "thehackernews.com",
       "first_seen": "2026-07-08T17:17:59Z",
-      "last_seen": "2026-07-09T01:52:28Z"
+      "last_seen": "2026-07-09T05:59:40Z"
     },
     {
       "id": "8993451b6ab52a23c494db7780f1078f39e5e9e2",
@@ -261,7 +351,7 @@
       "description": "Join the webinar as we break down why email-layer defenses alone can’t keep pace with the modern phishing ecosystem. The post Webinar Today: Why Email Security Keeps Failing appeared first on SecurityWeek.",
       "source": "securityweek.com",
       "first_seen": "2026-07-08T15:08:10Z",
-      "last_seen": "2026-07-09T01:52:28Z"
+      "last_seen": "2026-07-09T05:59:40Z"
     },
     {
       "id": "9abce80c45755473da31bba8a4285e201213848d",
@@ -291,7 +381,7 @@
       "description": "The \"Rogue Agent\" vulnerability could have enabled attackers to silently manipulate AI conversations, exfiltrate data, and compromise every Dialogflow CX agent within the same Google Cloud project. The post Google Dialogflow CX Bug Allowed Attackers to Hijack AI Conversations appeared first on SecurityWeek.",
       "source": "securityweek.com",
       "first_seen": "2026-07-08T15:08:10Z",
-      "last_seen": "2026-07-09T01:52:28Z"
+      "last_seen": "2026-07-09T05:59:40Z"
     },
     {
       "id": "e57395627749783f8cfe6071c9bf7e76b49c5e14",
@@ -441,7 +531,7 @@
       "description": "The world's digital testing ground plans to help people use AI agents for government purposes.",
       "source": "darkreading.com",
       "first_seen": "2026-07-08T10:06:02Z",
-      "last_seen": "2026-07-09T01:52:28Z"
+      "last_seen": "2026-07-09T05:59:40Z"
     },
     {
       "id": "2f10b7bfef5712f9aa6f2423c88b868ace9f2fcb",
@@ -551,7 +641,7 @@
       "description": "The phishing campaign uses several tactics, including nested redirects, to evade detection and steal credentials from unsuspecting targets.",
       "source": "darkreading.com",
       "first_seen": "2026-07-07T22:04:41Z",
-      "last_seen": "2026-07-09T01:52:28Z"
+      "last_seen": "2026-07-09T05:59:40Z"
     },
     {
       "id": "f58e7fa5e6efde485a813e312400e104208138e5",
@@ -981,7 +1071,7 @@
       "description": "A CVSS score 7.5 AV:L/AC:H/PR:H/UI:N/S:C/C:H/I:H/A:H severity vulnerability discovered by 'Xiaobye(@xiaobye_tw) of DEVCORE Research Team' was reported to the affected vendor on: 2026-07-07, 0 days ago. The vendor is given until 2026-11-04 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
       "source": "zerodayinitiative.com",
       "first_seen": "2026-07-07T20:44:51Z",
-      "last_seen": "2026-07-09T01:52:28Z"
+      "last_seen": "2026-07-09T05:59:40Z"
     },
     {
       "id": "3706472441f712bc02e4967e76bf14ee6a28ae0e",
@@ -991,7 +1081,7 @@
       "description": "A CVSS score 8.8 AV:L/AC:L/PR:L/UI:N/S:C/C:H/I:H/A:H severity vulnerability discovered by 'Gwangun Jung (@pr0ln) of Theori, with Xint Code' was reported to the affected vendor on: 2026-07-07, 0 days ago. The vendor is given until 2026-11-04 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
       "source": "zerodayinitiative.com",
       "first_seen": "2026-07-08T04:58:07Z",
-      "last_seen": "2026-07-09T01:52:28Z"
+      "last_seen": "2026-07-09T05:59:40Z"
     },
     {
       "id": "bda6a0b65ab0856de2a5a94e2ec38bcfba7da628",
@@ -1001,7 +1091,7 @@
       "description": "A CVSS score 7.8 AV:L/AC:H/PR:L/UI:N/S:C/C:H/I:H/A:H severity vulnerability discovered by 'YingMuo (@YingMuo) of DEVCORE Research Team' was reported to the affected vendor on: 2026-07-07, 0 days ago. The vendor is given until 2026-11-04 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
       "source": "zerodayinitiative.com",
       "first_seen": "2026-07-08T04:58:07Z",
-      "last_seen": "2026-07-09T01:52:28Z"
+      "last_seen": "2026-07-09T05:59:40Z"
     },
     {
       "id": "de81c1c3b5787df32cf65dd53a22f92e87c6b336",
@@ -1801,7 +1891,7 @@
       "description": "A CVSS score 7.8 AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H severity vulnerability discovered by 'Anonymous' was reported to the affected vendor on: 2026-07-03, 0 days ago. The vendor is given until 2026-10-31 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
       "source": "zerodayinitiative.com",
       "first_seen": "2026-07-03T17:11:59Z",
-      "last_seen": "2026-07-09T01:52:28Z"
+      "last_seen": "2026-07-09T05:59:40Z"
     },
     {
       "id": "d56a8b8170c105fb3d2332a848c3d948255d00c2",
@@ -1811,7 +1901,7 @@
       "description": "A CVSS score 7.8 AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H severity vulnerability discovered by 'truff' was reported to the affected vendor on: 2026-07-03, 0 days ago. The vendor is given until 2026-10-31 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
       "source": "zerodayinitiative.com",
       "first_seen": "2026-07-03T17:11:59Z",
-      "last_seen": "2026-07-09T01:52:28Z"
+      "last_seen": "2026-07-09T05:59:40Z"
     },
     {
       "id": "74d229b4dfaa03e3d7c2d2fddb981a26d6eb9e57",
@@ -33984,16 +34074,6 @@
       "last_seen": "2026-04-10T06:26:25Z"
     },
     {
-      "id": "879de8bae48138d7712ef0d65017c3e7b9cd6e6e",
-      "title": "WhatsApp Introduces Username Feature for Connecting Without Sharing Phone Numbers",
-      "link": "https://cybersecuritynews.com/whatsapp-username-feature/",
-      "date": "2026-04-10T02:57:40Z",
-      "description": "WhatsApp is preparing to roll out a long-anticipated username feature that will allow users to communicate without ever revealing their phone numbers, a significant privacy upgrade for one of the world’s most widely used messaging platforms. First spotted by WABetaInfo in the WhatsApp beta for iOS 26.1.10.70, the username system is compatible across Android, iOS, […] The post WhatsApp Introduces…",
-      "source": "cybersecuritynews.com",
-      "first_seen": "2026-04-10T04:37:58Z",
-      "last_seen": "2026-04-10T06:26:25Z"
-    },
-    {
       "id": "994b4290343e8701d4f658fe262978100d659f83",
       "title": "EngageLab SDK Flaw Exposed 50M Android Users, Including 30M Crypto Wallet Installs",
       "link": "https://thehackernews.com/2026/04/engagelab-sdk-flaw-exposed-50m-android.html",
@@ -34021,7 +34101,7 @@
       "description": "2.5 million people were affected, in a breach that could spell more trouble down the line.",
       "source": "threatpost.com",
       "first_seen": "2026-05-10T12:53:08Z",
-      "last_seen": "2026-07-09T01:52:28Z"
+      "last_seen": "2026-07-09T05:59:40Z"
     },
     {
       "id": "4140c7a34b0ba94ad2e6b0cae9f59b0cb9bfffea",
@@ -34031,7 +34111,7 @@
       "description": "Researchers uncover a watering hole attack likely carried out by APT TA423, which attempts to plant the ScanBox JavaScript-based reconnaissance tool.",
       "source": "threatpost.com",
       "first_seen": "2026-05-10T12:53:08Z",
-      "last_seen": "2026-07-09T01:52:28Z"
+      "last_seen": "2026-07-09T05:59:40Z"
     },
     {
       "id": "9359ee40a641a4b565080313045f1d7e7fe6552b",
@@ -34041,7 +34121,7 @@
       "description": "Over 130 companies tangled in sprawling phishing campaign that spoofed a multi-factor authentication system.",
       "source": "threatpost.com",
       "first_seen": "2026-05-10T12:53:08Z",
-      "last_seen": "2026-07-09T01:52:28Z"
+      "last_seen": "2026-07-09T05:59:40Z"
     },
     {
       "id": "b4ccef0737cd4050d65241bf754072030b6b5e6a",
@@ -34051,7 +34131,7 @@
       "description": "Lockbit is by far this summer’s most prolific ransomware group, trailed by two offshoots of the Conti group.",
       "source": "threatpost.com",
       "first_seen": "2026-05-10T12:53:08Z",
-      "last_seen": "2026-07-09T01:52:28Z"
+      "last_seen": "2026-07-09T05:59:40Z"
     },
     {
       "id": "12ee113fc8fce91f6d7fb28deab2b1ad20061ec7",
@@ -34061,7 +34141,7 @@
       "description": "Tens of thousands of cameras have failed to patch a critical, 11-month-old CVE, leaving thousands of organizations exposed.",
       "source": "threatpost.com",
       "first_seen": "2026-05-10T12:53:08Z",
-      "last_seen": "2026-07-09T01:52:28Z"
+      "last_seen": "2026-07-09T05:59:40Z"
     }
   ]
 }
