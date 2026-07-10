@@ -1,8 +1,98 @@
 {
-  "last_updated": "2026-07-10T11:52:59Z",
+  "last_updated": "2026-07-10T13:56:12Z",
   "retention_days": 90,
-  "count": 3435,
+  "count": 3444,
   "items": [
+    {
+      "id": "54d9dc142b3763825a0bda4794ea315693c49246",
+      "title": "New MODBEACON RAT Uses gRPC Streaming for Encrypted C2 Traffic",
+      "link": "https://thehackernews.com/2026/07/new-modbeacon-rat-uses-grpc-streaming.html",
+      "date": "2026-07-10T13:15:23Z",
+      "description": "The China-linked cybercrime group known as Silver Fox has been attributed to a new Rust-based remote access trojan (RAR) called MODBEACON. Chinese cybersecurity company QiAnXin said that while the threat cluster may appear like a low-sophistication, high-activity operation that propagates malware via counterfeit installers using SEO poisoning techniques, it belies their true organizational",
+      "source": "thehackernews.com",
+      "first_seen": "2026-07-10T13:56:12Z",
+      "last_seen": "2026-07-10T13:56:12Z"
+    },
+    {
+      "id": "af415870161b550f0f7bbf3f88f7c332fb025a80",
+      "title": "AI Coding: Do Security Risks Outweigh Productivity Gains?",
+      "link": "https://www.darkreading.com/application-security/ai-coding-security-risks-productivity-gains",
+      "date": "2026-07-10T13:00:00Z",
+      "description": "AI coding tools cost $19-$200/month/user, but security scanning, remediation, and false positives add hidden costs. Are the productivity gains worth it?",
+      "source": "darkreading.com",
+      "first_seen": "2026-07-10T13:56:12Z",
+      "last_seen": "2026-07-10T13:56:12Z"
+    },
+    {
+      "id": "970affbdd43a37973e626c2a49ecfb4f8ee17920",
+      "title": "Third US Security Expert Sentenced to Prison for Helping Ransomware Gang",
+      "link": "https://www.securityweek.com/third-us-security-expert-sentenced-to-prison-for-helping-ransomware-gang/",
+      "date": "2026-07-10T12:58:39Z",
+      "description": "Angelo Martino, a former ransomware negotiator, was sentenced to 70 months for helping the BlackCat/Alphv group. The post Third US Security Expert Sentenced to Prison for Helping Ransomware Gang appeared first on SecurityWeek.",
+      "source": "securityweek.com",
+      "first_seen": "2026-07-10T13:56:12Z",
+      "last_seen": "2026-07-10T13:56:12Z"
+    },
+    {
+      "id": "843afa3ec99bb29caa9dc683e8620b6af274c1f3",
+      "title": "Hackers Can Go From CitrixBleed 2 Exploitation to Ransomware in Under an Hour",
+      "link": "https://cybersecuritynews.com/hackers-can-go-from-citrixbleed-2-exploitation/",
+      "date": "2026-07-10T12:49:23Z",
+      "description": "A critical Citrix flaw is giving intruders a fast route from an internet-facing gateway to a ransomware event. The activity centers on CitrixBleed 2, tracked as CVE-2025-5777, which can expose memory from affected NetScaler ADC and Gateway appliances before a user signs in. That exposure lets attackers search for and reuse active session tokens. The […] The post Hackers Can Go From CitrixBleed 2…",
+      "source": "cybersecuritynews.com",
+      "first_seen": "2026-07-10T13:56:12Z",
+      "last_seen": "2026-07-10T13:56:12Z"
+    },
+    {
+      "id": "a43e7e08d943188922ce563477d8e8a68f14ab5a",
+      "title": "Malicious Windows Shortcuts Use PowerShell and Node.js to Enable Remote Code Execution",
+      "link": "https://cybersecuritynews.com/malicious-windows-shortcuts-use-powershell-and-node-js/",
+      "date": "2026-07-10T12:20:22Z",
+      "description": "A malicious Windows shortcut is being used to turn a routine download into a full remote-code-execution foothold. The campaign begins with convincing booking-themed spam and steers victims toward a ZIP archive that conceals a booby-trapped LNK file. One click can quietly start a chain that installs a backdoor and gives attackers a path to run […] The post Malicious Windows Shortcuts Use…",
+      "source": "cybersecuritynews.com",
+      "first_seen": "2026-07-10T13:56:12Z",
+      "last_seen": "2026-07-10T13:56:12Z"
+    },
+    {
+      "id": "475c7fab9c11da0d0fdd48e34d88aa32d7df9bb7",
+      "title": "GNU Guix Vulnerabilities Allow Remote Privilege Escalation via Malicious Binary Substitutes",
+      "link": "https://cybersecuritynews.com/gnu-guix-vulnerabilities/",
+      "date": "2026-07-10T12:13:58Z",
+      "description": "GNU Guix has disclosed four serious security vulnerabilities affecting its package substitution and channel-management features. Three flaws in the guix substitute utility can enable remote privilege escalation, corruption of stored data, and local disclosure of files readable by the build daemon user. At the same time, a fourth issue affects guix pull and guix time-machine. […] The post GNU…",
+      "source": "cybersecuritynews.com",
+      "first_seen": "2026-07-10T13:56:12Z",
+      "last_seen": "2026-07-10T13:56:12Z"
+    },
+    {
+      "id": "861f097eaf05ddf820fbb8473035c9fae2235ee8",
+      "title": "Linux Kernel FUSE Vulnerability Lets Attackers Gain Root Privileges",
+      "link": "https://cybersecuritynews.com/linux-kernel-fuse-vulnerability/",
+      "date": "2026-07-10T12:12:21Z",
+      "description": "A Linux kernel vulnerability in the FUSE subsystem can allow a local attacker to gain root privileges by overflowing the page cache with attacker-controlled directory entries. The flaw is tracked as CVE-2026-31694 and affects the code path used when the kernel caches FUSE readdir results. FUSE lets a userspace filesystem talk to the kernel through […] The post Linux Kernel FUSE Vulnerability…",
+      "source": "cybersecuritynews.com",
+      "first_seen": "2026-07-10T13:56:12Z",
+      "last_seen": "2026-07-10T13:56:12Z"
+    },
+    {
+      "id": "4fa04d41d0b8a729d7f310ad87786d0c1c895f2e",
+      "title": "Hackers are Turning AI Gateways as Attack Surfaces to Compromise Enterprise Networks",
+      "link": "https://cybersecuritynews.com/hackers-turning-ai-gateways-as-attack/",
+      "date": "2026-07-10T11:56:18Z",
+      "description": "AI gateways are increasingly being targeted as organizations connect generative AI applications to cloud services such as Amazon Bedrock. These gateways sit between users, business applications, and large language models, making them an attractive entry point into enterprise networks. Darktrace recently investigated a compromised Amazon Web Services EC2 instance named “LiteLLM-Proxy.” The…",
+      "source": "cybersecuritynews.com",
+      "first_seen": "2026-07-10T13:56:12Z",
+      "last_seen": "2026-07-10T13:56:12Z"
+    },
+    {
+      "id": "28c76a65a45e1a5a3f41b331c872ef2ddbbd7408",
+      "title": "China, India-Linked Hackers Both Targeted Same Pakistani Police Force",
+      "link": "https://www.securityweek.com/china-india-linked-hackers-both-targeted-same-pakistani-police-force/",
+      "date": "2026-07-10T11:55:11Z",
+      "description": "Both foes and allies have targeted the Balochistan Police force in Pakistan for at least two years, according to SentinelOne. The post China, India-Linked Hackers Both Targeted Same Pakistani Police Force appeared first on SecurityWeek.",
+      "source": "securityweek.com",
+      "first_seen": "2026-07-10T13:56:12Z",
+      "last_seen": "2026-07-10T13:56:12Z"
+    },
     {
       "id": "aa4a893323bb87df0be27eaec7ecefab3e8d2231",
       "title": "Unpatched XRING Flaw in XQUIC Lets Remote Clients Crash HTTP/3 Servers",
@@ -11,7 +101,7 @@
       "description": "A single wrong variable on one line in XQUIC, Alibaba's QUIC and HTTP/3 library, lets any remote client crash the server with a short burst of completely legal traffic. There is no patch. FoxIO researcher Sébastien Féry disclosed the flaw on July 8 and nicknamed it XRING. He says it needs no login and no malformed packets: about 260 bytes of ordinary QPACK traffic takes the server",
       "source": "thehackernews.com",
       "first_seen": "2026-07-10T11:52:59Z",
-      "last_seen": "2026-07-10T11:52:59Z"
+      "last_seen": "2026-07-10T13:56:12Z"
     },
     {
       "id": "659324851c7e5ad110bab2435e0676e1b6fd366c",
@@ -21,7 +111,7 @@
       "description": "The Zimbra security team urged customers to patch a critical vulnerability affecting the Classic Web Client used to access the Zimbra Collaboration suite. [...]",
       "source": "bleepingcomputer.com",
       "first_seen": "2026-07-10T11:52:59Z",
-      "last_seen": "2026-07-10T11:52:59Z"
+      "last_seen": "2026-07-10T13:56:12Z"
     },
     {
       "id": "120d6fccb742ee61bd3f7d449685cf8b0f7f8a38",
@@ -41,7 +131,7 @@
       "description": "Most enterprises assume their asset inventory is close enough to accurate. The evidence suggests otherwise. According to a survey of over 600 security leaders in the 2026 Axonius Actionability Report, only 45% of organizations consolidate their asset and exposure data into a single view, and every downstream security program inherits whatever the inventory gets wrong. Lumen Technologies, a",
       "source": "thehackernews.com",
       "first_seen": "2026-07-10T11:52:59Z",
-      "last_seen": "2026-07-10T11:52:59Z"
+      "last_seen": "2026-07-10T13:56:12Z"
     },
     {
       "id": "86483f93b66fc389ddb3f848aa6c89b86e488df5",
@@ -61,7 +151,7 @@
       "description": "A cybercrime crew left one of its own servers wide open on the internet for three weeks, and it exposed the operation's inner workings: the hacking tools, the activity logs, and target lists naming more than 1.4 million websites. Far fewer were actually broken into, but the exposed files showed researchers how a mass site-hacking operation runs from the inside. The operation, now tracked as",
       "source": "thehackernews.com",
       "first_seen": "2026-07-10T11:52:59Z",
-      "last_seen": "2026-07-10T11:52:59Z"
+      "last_seen": "2026-07-10T13:56:12Z"
     },
     {
       "id": "a815d47f9db3801cab1789389f1212a9bf2b649d",
@@ -71,7 +161,7 @@
       "description": "The attackers call victims to direct them to phishing websites mirroring Microsoft Entra ID login pages. The post Okta Warns of Vishing Attacks Targeting Microsoft 365 Customers appeared first on SecurityWeek.",
       "source": "securityweek.com",
       "first_seen": "2026-07-10T11:52:59Z",
-      "last_seen": "2026-07-10T11:52:59Z"
+      "last_seen": "2026-07-10T13:56:12Z"
     },
     {
       "id": "aab387bbc176d382837195cf060972b4dbab3639",
@@ -91,7 +181,7 @@
       "description": "Researchers ran 281 of the most popular free VPN apps on the Google Play Store through a new testing system and found that many fail at the basics people install a VPN for, i.e., keeping their traffic private and secure. The apps flagged with at least one problem have been installed more than 2.4 billion times. The problems are basic, not sophisticated. 29 apps let user traffic leak outside",
       "source": "thehackernews.com",
       "first_seen": "2026-07-10T11:52:59Z",
-      "last_seen": "2026-07-10T11:52:59Z"
+      "last_seen": "2026-07-10T13:56:12Z"
     },
     {
       "id": "dfa2f45f928ccfdb1399a7e45c2ebcfa22775fca",
@@ -131,7 +221,7 @@
       "description": "The backdoor’s destructive capabilities include a standalone wiper, ransomware encryption, and a multi-pass wiping command. The post GigaWiper Combines Multiple Malware for System-Level Sabotage appeared first on SecurityWeek.",
       "source": "securityweek.com",
       "first_seen": "2026-07-10T11:52:59Z",
-      "last_seen": "2026-07-10T11:52:59Z"
+      "last_seen": "2026-07-10T13:56:12Z"
     },
     {
       "id": "471f58bd3deb8fd9ea98090efb17da2acf3fd4e0",
@@ -161,7 +251,7 @@
       "description": "Researchers demonstrate adversarial hallucination squatting against popular AI assistants to achieve remote code execution. The post ‘HalluSquatting’ Turns AI Hallucinations Into Botnet Delivery Mechanism appeared first on SecurityWeek.",
       "source": "securityweek.com",
       "first_seen": "2026-07-10T09:00:19Z",
-      "last_seen": "2026-07-10T11:52:59Z"
+      "last_seen": "2026-07-10T13:56:12Z"
     },
     {
       "id": "a894fa1bba6e49dc365d3ce03fd83c019a22228f",
@@ -181,7 +271,7 @@
       "description": "A former employee of cybersecurity incident response company DigitalMint was sentenced to 70 months in prison for targeting U.S. companies in BlackCat (ALPHV) ransomware attacks. [...]",
       "source": "bleepingcomputer.com",
       "first_seen": "2026-07-10T09:00:19Z",
-      "last_seen": "2026-07-10T11:52:59Z"
+      "last_seen": "2026-07-10T13:56:12Z"
     },
     {
       "id": "42a97eb5caca971bbd1250fa2b4a843ecda99676",
@@ -251,7 +341,7 @@
       "description": "The OpenMandriva Linux project announced that it was the target of an attempted act of internal sabotage after a dispute among contributors. [...]",
       "source": "bleepingcomputer.com",
       "first_seen": "2026-07-09T23:01:38Z",
-      "last_seen": "2026-07-10T11:52:59Z"
+      "last_seen": "2026-07-10T13:56:12Z"
     },
     {
       "id": "556cf95b052e856cbfe41cb105b4841e3aae432d",
@@ -261,7 +351,7 @@
       "description": "Obscurity isn't a defense. If your company has any Internet-facing vulnerability, you're at risk from multiple threats.",
       "source": "darkreading.com",
       "first_seen": "2026-07-09T21:10:53Z",
-      "last_seen": "2026-07-10T11:52:59Z"
+      "last_seen": "2026-07-10T13:56:12Z"
     },
     {
       "id": "8fa37afed0c255a8ca274eabdc111c27c3b26f2c",
@@ -271,7 +361,7 @@
       "description": "The researcher known as \"Nightmare-Eclipse\" published a proof-of-concept (PoC) exploit for the Windows Defender vulnerability in early June after dropping several other Microsoft zero-days.",
       "source": "darkreading.com",
       "first_seen": "2026-07-09T21:10:53Z",
-      "last_seen": "2026-07-10T11:52:59Z"
+      "last_seen": "2026-07-10T13:56:12Z"
     },
     {
       "id": "4e8ae708a3c5c39f13dc5f015f90bb9774bf0f44",
@@ -281,7 +371,7 @@
       "description": "Hackers compromised the Injective Labs SDK project's GitHub repository and used it to publish a malicious package on the Node Package Manager (npm) that stole cryptocurrency wallet private keys and mnemonic seed phrases. [...]",
       "source": "bleepingcomputer.com",
       "first_seen": "2026-07-09T21:10:53Z",
-      "last_seen": "2026-07-10T11:52:59Z"
+      "last_seen": "2026-07-10T13:56:12Z"
     },
     {
       "id": "0fd91c97a832b3efd3259f3cad98eeb851824501",
@@ -311,7 +401,7 @@
       "description": "If you're handling them like a service account or API token, consider yourself behind. AI agents need a fundamentally different approach.",
       "source": "darkreading.com",
       "first_seen": "2026-07-09T23:01:38Z",
-      "last_seen": "2026-07-10T11:52:59Z"
+      "last_seen": "2026-07-10T13:56:12Z"
     },
     {
       "id": "2c705fe6fb682569b9db9e5d0485e31bf00423b6",
@@ -361,7 +451,7 @@
       "description": "A new data-extortion group called Helix is using identity-focused tactics such as voice phishing (vishing), device code phishing, and multi-factor authentication (MFA) abuse to steal data from SharePoint environments. [...]",
       "source": "bleepingcomputer.com",
       "first_seen": "2026-07-09T17:46:17Z",
-      "last_seen": "2026-07-10T11:52:59Z"
+      "last_seen": "2026-07-10T13:56:12Z"
     },
     {
       "id": "868bfd9211f8f6d3552c55fff9167f1166c9d5f1",
@@ -491,7 +581,7 @@
       "description": "The fate of a Ukrainian tax software company shows how modern cyberwarfare can claim casualties far beyond the battlefield, and how businesses across the ocean still need to protect themselves.",
       "source": "darkreading.com",
       "first_seen": "2026-07-09T15:51:21Z",
-      "last_seen": "2026-07-10T11:52:59Z"
+      "last_seen": "2026-07-10T13:56:12Z"
     },
     {
       "id": "0b8a6167f08fcd861b5b606924898c2ad53670f8",
@@ -731,7 +821,7 @@
       "description": "A CVSS score 7.8 AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H severity vulnerability discovered by 'Ryota Shiga (GMO Flatt Security Inc.)' was reported to the affected vendor on: 2026-07-09, 0 days ago. The vendor is given until 2026-11-06 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
       "source": "zerodayinitiative.com",
       "first_seen": "2026-07-09T19:20:26Z",
-      "last_seen": "2026-07-10T11:52:59Z"
+      "last_seen": "2026-07-10T13:56:12Z"
     },
     {
       "id": "d392049ba97c5e95c93e4bc3644d5e30d66e740c",
@@ -741,7 +831,7 @@
       "description": "A CVSS score 7.8 AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H severity vulnerability discovered by 'Anonymous' was reported to the affected vendor on: 2026-07-09, 0 days ago. The vendor is given until 2026-11-06 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
       "source": "zerodayinitiative.com",
       "first_seen": "2026-07-09T21:10:53Z",
-      "last_seen": "2026-07-10T11:52:59Z"
+      "last_seen": "2026-07-10T13:56:12Z"
     },
     {
       "id": "95bb80cf44bda872954f17bb8b64658cb6c9b589",
@@ -751,7 +841,7 @@
       "description": "A CVSS score 7.8 AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H severity vulnerability discovered by 'Anonymous' was reported to the affected vendor on: 2026-07-09, 0 days ago. The vendor is given until 2026-11-06 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
       "source": "zerodayinitiative.com",
       "first_seen": "2026-07-09T21:10:53Z",
-      "last_seen": "2026-07-10T11:52:59Z"
+      "last_seen": "2026-07-10T13:56:12Z"
     },
     {
       "id": "2e817dade89f098fc8a78cf86e79b30f8ef3550a",
@@ -761,7 +851,7 @@
       "description": "A CVSS score 7.8 AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H severity vulnerability discovered by 'Anonymous' was reported to the affected vendor on: 2026-07-09, 0 days ago. The vendor is given until 2026-11-06 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
       "source": "zerodayinitiative.com",
       "first_seen": "2026-07-09T21:10:53Z",
-      "last_seen": "2026-07-10T11:52:59Z"
+      "last_seen": "2026-07-10T13:56:12Z"
     },
     {
       "id": "c862dd916882322fc2d699f8fbb7599280008eeb",
@@ -771,7 +861,7 @@
       "description": "A CVSS score 7.8 AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H severity vulnerability discovered by 'Anonymous' was reported to the affected vendor on: 2026-07-09, 0 days ago. The vendor is given until 2026-11-06 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
       "source": "zerodayinitiative.com",
       "first_seen": "2026-07-09T21:10:53Z",
-      "last_seen": "2026-07-10T11:52:59Z"
+      "last_seen": "2026-07-10T13:56:12Z"
     },
     {
       "id": "e3e76c1b547219ac8991dec449303e483be4db2f",
@@ -34311,7 +34401,7 @@
       "description": "2.5 million people were affected, in a breach that could spell more trouble down the line.",
       "source": "threatpost.com",
       "first_seen": "2026-05-10T12:53:08Z",
-      "last_seen": "2026-07-10T11:52:59Z"
+      "last_seen": "2026-07-10T13:56:12Z"
     },
     {
       "id": "4140c7a34b0ba94ad2e6b0cae9f59b0cb9bfffea",
@@ -34321,7 +34411,7 @@
       "description": "Researchers uncover a watering hole attack likely carried out by APT TA423, which attempts to plant the ScanBox JavaScript-based reconnaissance tool.",
       "source": "threatpost.com",
       "first_seen": "2026-05-10T12:53:08Z",
-      "last_seen": "2026-07-10T11:52:59Z"
+      "last_seen": "2026-07-10T13:56:12Z"
     },
     {
       "id": "9359ee40a641a4b565080313045f1d7e7fe6552b",
@@ -34331,7 +34421,7 @@
       "description": "Over 130 companies tangled in sprawling phishing campaign that spoofed a multi-factor authentication system.",
       "source": "threatpost.com",
       "first_seen": "2026-05-10T12:53:08Z",
-      "last_seen": "2026-07-10T11:52:59Z"
+      "last_seen": "2026-07-10T13:56:12Z"
     },
     {
       "id": "b4ccef0737cd4050d65241bf754072030b6b5e6a",
@@ -34341,7 +34431,7 @@
       "description": "Lockbit is by far this summer’s most prolific ransomware group, trailed by two offshoots of the Conti group.",
       "source": "threatpost.com",
       "first_seen": "2026-05-10T12:53:08Z",
-      "last_seen": "2026-07-10T11:52:59Z"
+      "last_seen": "2026-07-10T13:56:12Z"
     },
     {
       "id": "12ee113fc8fce91f6d7fb28deab2b1ad20061ec7",
@@ -34351,7 +34441,7 @@
       "description": "Tens of thousands of cameras have failed to patch a critical, 11-month-old CVE, leaving thousands of organizations exposed.",
       "source": "threatpost.com",
       "first_seen": "2026-05-10T12:53:08Z",
-      "last_seen": "2026-07-10T11:52:59Z"
+      "last_seen": "2026-07-10T13:56:12Z"
     }
   ]
 }
