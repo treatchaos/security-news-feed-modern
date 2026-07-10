@@ -1,8 +1,138 @@
 {
-  "last_updated": "2026-07-10T09:00:19Z",
+  "last_updated": "2026-07-10T11:52:59Z",
   "retention_days": 90,
-  "count": 3423,
+  "count": 3435,
   "items": [
+    {
+      "id": "aa4a893323bb87df0be27eaec7ecefab3e8d2231",
+      "title": "Unpatched XRING Flaw in XQUIC Lets Remote Clients Crash HTTP/3 Servers",
+      "link": "https://thehackernews.com/2026/07/unpatched-xring-flaw-in-xquic-lets.html",
+      "date": "2026-07-10T11:47:43Z",
+      "description": "A single wrong variable on one line in XQUIC, Alibaba's QUIC and HTTP/3 library, lets any remote client crash the server with a short burst of completely legal traffic. There is no patch. FoxIO researcher Sébastien Féry disclosed the flaw on July 8 and nicknamed it XRING. He says it needs no login and no malformed packets: about 260 bytes of ordinary QPACK traffic takes the server",
+      "source": "thehackernews.com",
+      "first_seen": "2026-07-10T11:52:59Z",
+      "last_seen": "2026-07-10T11:52:59Z"
+    },
+    {
+      "id": "659324851c7e5ad110bab2435e0676e1b6fd366c",
+      "title": "Zimbra urges customers to patch critical web client XSS flaw",
+      "link": "https://www.bleepingcomputer.com/news/security/zimbra-urges-customers-to-patch-critical-web-client-xss-flaw/",
+      "date": "2026-07-10T11:47:38Z",
+      "description": "The Zimbra security team urged customers to patch a critical vulnerability affecting the Classic Web Client used to access the Zimbra Collaboration suite. [...]",
+      "source": "bleepingcomputer.com",
+      "first_seen": "2026-07-10T11:52:59Z",
+      "last_seen": "2026-07-10T11:52:59Z"
+    },
+    {
+      "id": "120d6fccb742ee61bd3f7d449685cf8b0f7f8a38",
+      "title": "New Windows Process Injection Technique Bypasses Four Leading EDR Solutions",
+      "link": "https://cybersecuritynews.com/new-windows-process-injection-technique/",
+      "date": "2026-07-10T11:44:10Z",
+      "description": "A newly published Windows proof of concept shows how an attacker can place harmful code inside a legitimate process while avoiding several warning signs that endpoint security tools commonly watch. The method, called Process Parameter Poisoning, uses information normally supplied when Windows starts a program rather than writing a payload directly into another process. The […] The post New…",
+      "source": "cybersecuritynews.com",
+      "first_seen": "2026-07-10T11:52:59Z",
+      "last_seen": "2026-07-10T11:52:59Z"
+    },
+    {
+      "id": "9039833ee1ee51051ab408b62db526beda4b3565",
+      "title": "From 17,000 to 1.1 Million Assets: How Lumen Technologies Rebuilt Exposure Management at Scale",
+      "link": "https://thehackernews.com/2026/07/from-17000-to-11-million-assets-how.html",
+      "date": "2026-07-10T11:39:40Z",
+      "description": "Most enterprises assume their asset inventory is close enough to accurate. The evidence suggests otherwise. According to a survey of over 600 security leaders in the 2026 Axonius Actionability Report, only 45% of organizations consolidate their asset and exposure data into a single view, and every downstream security program inherits whatever the inventory gets wrong. Lumen Technologies, a",
+      "source": "thehackernews.com",
+      "first_seen": "2026-07-10T11:52:59Z",
+      "last_seen": "2026-07-10T11:52:59Z"
+    },
+    {
+      "id": "86483f93b66fc389ddb3f848aa6c89b86e488df5",
+      "title": "FastNetMon Launches Netomics, a Self-Hosted Routing Intelligence Platform",
+      "link": "https://cybersecuritynews.com/fastnetmon-launches-netomics-routing-intelligence-platform/",
+      "date": "2026-07-10T11:32:26Z",
+      "description": "London, United Kingdom, July 10th, 2026, CyberNewswire New platform gives network operators complete visibility into Internet routing while keeping all routing intelligence inside their own infrastructure. FastNetMon is introducing Netomics, a self-hosted BGP routing intelligence platform that combines live routing data, registry information, RPKI validation, routing history and AI-assisted…",
+      "source": "cybersecuritynews.com",
+      "first_seen": "2026-07-10T11:52:59Z",
+      "last_seen": "2026-07-10T11:52:59Z"
+    },
+    {
+      "id": "a5e7867bd1e068b5476faac1499d28f9b61b4035",
+      "title": "Exposed Hacker Server Reveals WP-SHELLSTORM Backdooring Thousands of WordPress Sites",
+      "link": "https://thehackernews.com/2026/07/exposed-hacker-server-reveals-wp.html",
+      "date": "2026-07-10T11:30:02Z",
+      "description": "A cybercrime crew left one of its own servers wide open on the internet for three weeks, and it exposed the operation's inner workings: the hacking tools, the activity logs, and target lists naming more than 1.4 million websites. Far fewer were actually broken into, but the exposed files showed researchers how a mass site-hacking operation runs from the inside. The operation, now tracked as",
+      "source": "thehackernews.com",
+      "first_seen": "2026-07-10T11:52:59Z",
+      "last_seen": "2026-07-10T11:52:59Z"
+    },
+    {
+      "id": "a815d47f9db3801cab1789389f1212a9bf2b649d",
+      "title": "Okta Warns of Vishing Attacks Targeting Microsoft 365 Customers",
+      "link": "https://www.securityweek.com/okta-warns-of-vishing-attacks-targeting-microsoft-365-customers/",
+      "date": "2026-07-10T11:06:36Z",
+      "description": "The attackers call victims to direct them to phishing websites mirroring Microsoft Entra ID login pages. The post Okta Warns of Vishing Attacks Targeting Microsoft 365 Customers appeared first on SecurityWeek.",
+      "source": "securityweek.com",
+      "first_seen": "2026-07-10T11:52:59Z",
+      "last_seen": "2026-07-10T11:52:59Z"
+    },
+    {
+      "id": "aab387bbc176d382837195cf060972b4dbab3639",
+      "title": "Researcher ‘Chaotic Eclipse’ Claims RoguePlanet Defender Patch May Leak Data and Exhaust Disk Space",
+      "link": "https://cybersecuritynews.com/rogueplanet-defender-patch-claim/",
+      "date": "2026-07-10T11:03:40Z",
+      "description": "Microsoft’s patch for the RoguePlanet Windows Defender zero-day may have introduced new security and reliability concerns, according to researcher Chaotic Eclipse. The researcher claims that recent defense-in-depth changes in Microsoft Malware Protection Engine’s mpengine.dll can leak eight bytes of data in certain file-handling scenarios and can be abused to exhaust local disk space.…",
+      "source": "cybersecuritynews.com",
+      "first_seen": "2026-07-10T11:52:59Z",
+      "last_seen": "2026-07-10T11:52:59Z"
+    },
+    {
+      "id": "b82009c7ea2be78982de53ede4667c744a68a9ce",
+      "title": "Study of 281 Free Android VPN Apps Finds Traffic Leaks, Unencrypted Data, and Tracking",
+      "link": "https://thehackernews.com/2026/07/study-of-281-free-android-vpn-apps.html",
+      "date": "2026-07-10T10:56:23Z",
+      "description": "Researchers ran 281 of the most popular free VPN apps on the Google Play Store through a new testing system and found that many fail at the basics people install a VPN for, i.e., keeping their traffic private and secure. The apps flagged with at least one problem have been installed more than 2.4 billion times. The problems are basic, not sophisticated. 29 apps let user traffic leak outside",
+      "source": "thehackernews.com",
+      "first_seen": "2026-07-10T11:52:59Z",
+      "last_seen": "2026-07-10T11:52:59Z"
+    },
+    {
+      "id": "dfa2f45f928ccfdb1399a7e45c2ebcfa22775fca",
+      "title": "Odyssey Stealer Hits macOS Users in 100+ Countries, Targets 300 Crypto Wallet Extensions",
+      "link": "https://cybersecuritynews.com/odyssey-stealer-hits-macos-users/",
+      "date": "2026-07-10T10:45:26Z",
+      "description": "Odyssey Stealer is again targeting macOS users, with a recent surge affecting victims in more than 100 countries. The information-stealing malware is built to collect credentials, browsing data, cryptocurrency assets, and other sensitive files that can quickly expose both personal and business accounts. The campaign reaches victims through deceptive software and update prompts, including…",
+      "source": "cybersecuritynews.com",
+      "first_seen": "2026-07-10T11:52:59Z",
+      "last_seen": "2026-07-10T11:52:59Z"
+    },
+    {
+      "id": "0572b7e3e11b8eccb53b8d4e4294219c410273a9",
+      "title": "Xalgorix AI Penetration Testing Tool with 22-Phase Testing Methodology",
+      "link": "https://cybersecuritynews.com/xalgorix-ai-penetration-testing-tool/",
+      "date": "2026-07-10T10:36:24Z",
+      "description": "Xalgorix is an open-source, self-hosted AI penetration testing platform that uses an autonomous LLM agent paired with an independent exploit verifier to deliver proven, not just suspected, vulnerability findings. Most vulnerability scanners flag potential issues and leave security teams to sort real threats from false positives, but Xalgorix takes a different approach by having a […] The post…",
+      "source": "cybersecuritynews.com",
+      "first_seen": "2026-07-10T11:52:59Z",
+      "last_seen": "2026-07-10T11:52:59Z"
+    },
+    {
+      "id": "e761b3e2e5004c3d4fa32ae77e58f92be5432469",
+      "title": "Hackers Use Fake Microsoft Entra Passkey Enrollment to Gain Microsoft 365 Access",
+      "link": "https://thehackernews.com/2026/07/hackers-use-fake-microsoft-entra.html",
+      "date": "2026-07-10T10:30:20Z",
+      "description": "A threat actor has been targeting organizations spanning multiple sectors with voice-based fake security requests that prompt Microsoft 365 users to enroll a new Entra passkey with an aim to carry out data extortion attacks. The threat actor, tracked by Okta under the moniker O-UNC-066, has deployed a panel-controlled phishing kit that's capable of targeting the passkey enrollment process. The",
+      "source": "thehackernews.com",
+      "first_seen": "2026-07-10T11:52:59Z",
+      "last_seen": "2026-07-10T11:52:59Z"
+    },
+    {
+      "id": "6a50a468cd68826ce72725f7e5edaa4d1cbd6c75",
+      "title": "GigaWiper Combines Multiple Malware for System-Level Sabotage",
+      "link": "https://www.securityweek.com/gigawiper-combines-multiple-malware-for-system-level-sabotage/",
+      "date": "2026-07-10T09:12:08Z",
+      "description": "The backdoor’s destructive capabilities include a standalone wiper, ransomware encryption, and a multi-pass wiping command. The post GigaWiper Combines Multiple Malware for System-Level Sabotage appeared first on SecurityWeek.",
+      "source": "securityweek.com",
+      "first_seen": "2026-07-10T11:52:59Z",
+      "last_seen": "2026-07-10T11:52:59Z"
+    },
     {
       "id": "471f58bd3deb8fd9ea98090efb17da2acf3fd4e0",
       "title": "Ransomware Negotiator Sentenced for BlackCat Ransomware Operators to Attack Victims",
@@ -31,7 +161,7 @@
       "description": "Researchers demonstrate adversarial hallucination squatting against popular AI assistants to achieve remote code execution. The post ‘HalluSquatting’ Turns AI Hallucinations Into Botnet Delivery Mechanism appeared first on SecurityWeek.",
       "source": "securityweek.com",
       "first_seen": "2026-07-10T09:00:19Z",
-      "last_seen": "2026-07-10T09:00:19Z"
+      "last_seen": "2026-07-10T11:52:59Z"
     },
     {
       "id": "a894fa1bba6e49dc365d3ce03fd83c019a22228f",
@@ -51,7 +181,7 @@
       "description": "A former employee of cybersecurity incident response company DigitalMint was sentenced to 70 months in prison for targeting U.S. companies in BlackCat (ALPHV) ransomware attacks. [...]",
       "source": "bleepingcomputer.com",
       "first_seen": "2026-07-10T09:00:19Z",
-      "last_seen": "2026-07-10T09:00:19Z"
+      "last_seen": "2026-07-10T11:52:59Z"
     },
     {
       "id": "42a97eb5caca971bbd1250fa2b4a843ecda99676",
@@ -61,7 +191,7 @@
       "description": "A Go module is used to load PowerShell code that fetches a resolver from public dead drops to execute Windows malware. The post Network of 200 GitHub Repositories Used for Malware Infection appeared first on SecurityWeek.",
       "source": "securityweek.com",
       "first_seen": "2026-07-10T09:00:19Z",
-      "last_seen": "2026-07-10T09:00:19Z"
+      "last_seen": "2026-07-10T11:52:59Z"
     },
     {
       "id": "fba3693343ef9a39a427044097a0b179d1c47567",
@@ -121,7 +251,7 @@
       "description": "The OpenMandriva Linux project announced that it was the target of an attempted act of internal sabotage after a dispute among contributors. [...]",
       "source": "bleepingcomputer.com",
       "first_seen": "2026-07-09T23:01:38Z",
-      "last_seen": "2026-07-10T09:00:19Z"
+      "last_seen": "2026-07-10T11:52:59Z"
     },
     {
       "id": "556cf95b052e856cbfe41cb105b4841e3aae432d",
@@ -131,7 +261,7 @@
       "description": "Obscurity isn't a defense. If your company has any Internet-facing vulnerability, you're at risk from multiple threats.",
       "source": "darkreading.com",
       "first_seen": "2026-07-09T21:10:53Z",
-      "last_seen": "2026-07-10T09:00:19Z"
+      "last_seen": "2026-07-10T11:52:59Z"
     },
     {
       "id": "8fa37afed0c255a8ca274eabdc111c27c3b26f2c",
@@ -141,7 +271,7 @@
       "description": "The researcher known as \"Nightmare-Eclipse\" published a proof-of-concept (PoC) exploit for the Windows Defender vulnerability in early June after dropping several other Microsoft zero-days.",
       "source": "darkreading.com",
       "first_seen": "2026-07-09T21:10:53Z",
-      "last_seen": "2026-07-10T09:00:19Z"
+      "last_seen": "2026-07-10T11:52:59Z"
     },
     {
       "id": "4e8ae708a3c5c39f13dc5f015f90bb9774bf0f44",
@@ -151,7 +281,7 @@
       "description": "Hackers compromised the Injective Labs SDK project's GitHub repository and used it to publish a malicious package on the Node Package Manager (npm) that stole cryptocurrency wallet private keys and mnemonic seed phrases. [...]",
       "source": "bleepingcomputer.com",
       "first_seen": "2026-07-09T21:10:53Z",
-      "last_seen": "2026-07-10T09:00:19Z"
+      "last_seen": "2026-07-10T11:52:59Z"
     },
     {
       "id": "0fd91c97a832b3efd3259f3cad98eeb851824501",
@@ -181,7 +311,7 @@
       "description": "If you're handling them like a service account or API token, consider yourself behind. AI agents need a fundamentally different approach.",
       "source": "darkreading.com",
       "first_seen": "2026-07-09T23:01:38Z",
-      "last_seen": "2026-07-10T09:00:19Z"
+      "last_seen": "2026-07-10T11:52:59Z"
     },
     {
       "id": "2c705fe6fb682569b9db9e5d0485e31bf00423b6",
@@ -231,7 +361,7 @@
       "description": "A new data-extortion group called Helix is using identity-focused tactics such as voice phishing (vishing), device code phishing, and multi-factor authentication (MFA) abuse to steal data from SharePoint environments. [...]",
       "source": "bleepingcomputer.com",
       "first_seen": "2026-07-09T17:46:17Z",
-      "last_seen": "2026-07-10T09:00:19Z"
+      "last_seen": "2026-07-10T11:52:59Z"
     },
     {
       "id": "868bfd9211f8f6d3552c55fff9167f1166c9d5f1",
@@ -331,7 +461,7 @@
       "description": "The Israeli company has developed a cryptographic posture and post-quantum cryptography management platform. The post QIZ Security Raises $17 Million for Cryptographic Governance Platform appeared first on SecurityWeek.",
       "source": "securityweek.com",
       "first_seen": "2026-07-09T15:51:21Z",
-      "last_seen": "2026-07-10T09:00:19Z"
+      "last_seen": "2026-07-10T11:52:59Z"
     },
     {
       "id": "0d3133e3b956eb11434836856540621a3dd74eaa",
@@ -361,7 +491,7 @@
       "description": "The fate of a Ukrainian tax software company shows how modern cyberwarfare can claim casualties far beyond the battlefield, and how businesses across the ocean still need to protect themselves.",
       "source": "darkreading.com",
       "first_seen": "2026-07-09T15:51:21Z",
-      "last_seen": "2026-07-10T09:00:19Z"
+      "last_seen": "2026-07-10T11:52:59Z"
     },
     {
       "id": "0b8a6167f08fcd861b5b606924898c2ad53670f8",
@@ -401,7 +531,7 @@
       "description": "A cryptomining incident highlights how AI gateways can provide access to AI models, cloud infrastructure, and identity and access management (IAM) data.",
       "source": "darkreading.com",
       "first_seen": "2026-07-09T15:51:21Z",
-      "last_seen": "2026-07-10T09:00:19Z"
+      "last_seen": "2026-07-10T11:52:59Z"
     },
     {
       "id": "75c9601d8ce260f39454a3095bc2c8cb1778b72f",
@@ -601,7 +731,7 @@
       "description": "A CVSS score 7.8 AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H severity vulnerability discovered by 'Ryota Shiga (GMO Flatt Security Inc.)' was reported to the affected vendor on: 2026-07-09, 0 days ago. The vendor is given until 2026-11-06 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
       "source": "zerodayinitiative.com",
       "first_seen": "2026-07-09T19:20:26Z",
-      "last_seen": "2026-07-10T09:00:19Z"
+      "last_seen": "2026-07-10T11:52:59Z"
     },
     {
       "id": "d392049ba97c5e95c93e4bc3644d5e30d66e740c",
@@ -611,7 +741,7 @@
       "description": "A CVSS score 7.8 AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H severity vulnerability discovered by 'Anonymous' was reported to the affected vendor on: 2026-07-09, 0 days ago. The vendor is given until 2026-11-06 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
       "source": "zerodayinitiative.com",
       "first_seen": "2026-07-09T21:10:53Z",
-      "last_seen": "2026-07-10T09:00:19Z"
+      "last_seen": "2026-07-10T11:52:59Z"
     },
     {
       "id": "95bb80cf44bda872954f17bb8b64658cb6c9b589",
@@ -621,7 +751,7 @@
       "description": "A CVSS score 7.8 AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H severity vulnerability discovered by 'Anonymous' was reported to the affected vendor on: 2026-07-09, 0 days ago. The vendor is given until 2026-11-06 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
       "source": "zerodayinitiative.com",
       "first_seen": "2026-07-09T21:10:53Z",
-      "last_seen": "2026-07-10T09:00:19Z"
+      "last_seen": "2026-07-10T11:52:59Z"
     },
     {
       "id": "2e817dade89f098fc8a78cf86e79b30f8ef3550a",
@@ -631,7 +761,7 @@
       "description": "A CVSS score 7.8 AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H severity vulnerability discovered by 'Anonymous' was reported to the affected vendor on: 2026-07-09, 0 days ago. The vendor is given until 2026-11-06 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
       "source": "zerodayinitiative.com",
       "first_seen": "2026-07-09T21:10:53Z",
-      "last_seen": "2026-07-10T09:00:19Z"
+      "last_seen": "2026-07-10T11:52:59Z"
     },
     {
       "id": "c862dd916882322fc2d699f8fbb7599280008eeb",
@@ -641,7 +771,7 @@
       "description": "A CVSS score 7.8 AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H severity vulnerability discovered by 'Anonymous' was reported to the affected vendor on: 2026-07-09, 0 days ago. The vendor is given until 2026-11-06 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
       "source": "zerodayinitiative.com",
       "first_seen": "2026-07-09T21:10:53Z",
-      "last_seen": "2026-07-10T09:00:19Z"
+      "last_seen": "2026-07-10T11:52:59Z"
     },
     {
       "id": "e3e76c1b547219ac8991dec449303e483be4db2f",
@@ -34164,16 +34294,6 @@
       "last_seen": "2026-04-13T07:08:08Z"
     },
     {
-      "id": "3dc5ceb3b4acd2e6d5dad9a59134a47dcd145f51",
-      "title": "Google Launches Gmail End-to-End Encryption for Android and iOS",
-      "link": "https://cybersecuritynews.com/gmail-end-to-end-encryption-for-android-and-ios/",
-      "date": "2026-04-11T08:56:34Z",
-      "description": "Google has officially rolled out End-to-End Encryption (E2EE) for the Gmail application on Android and iOS devices. This major update targets users utilizing Gmail client-side encryption. It allows organisations to handle sensitive data confidentially directly from their smartphones or tablets. The feature ensures compliance with strict data sovereignty rules while keeping the workflow entirely…",
-      "source": "cybersecuritynews.com",
-      "first_seen": "2026-04-11T10:23:45Z",
-      "last_seen": "2026-04-12T07:57:17Z"
-    },
-    {
       "id": "533ec5b1cc76cb388d7d304f2c89646182fea166",
       "title": "Google Launches Gmail End-to-End Encryption for Android and iOS Users",
       "link": "https://cybersecuritynews.com/gmail-end-to-end-encryption-for-android-and-ios/",
@@ -34191,7 +34311,7 @@
       "description": "2.5 million people were affected, in a breach that could spell more trouble down the line.",
       "source": "threatpost.com",
       "first_seen": "2026-05-10T12:53:08Z",
-      "last_seen": "2026-07-10T09:00:19Z"
+      "last_seen": "2026-07-10T11:52:59Z"
     },
     {
       "id": "4140c7a34b0ba94ad2e6b0cae9f59b0cb9bfffea",
@@ -34201,7 +34321,7 @@
       "description": "Researchers uncover a watering hole attack likely carried out by APT TA423, which attempts to plant the ScanBox JavaScript-based reconnaissance tool.",
       "source": "threatpost.com",
       "first_seen": "2026-05-10T12:53:08Z",
-      "last_seen": "2026-07-10T09:00:19Z"
+      "last_seen": "2026-07-10T11:52:59Z"
     },
     {
       "id": "9359ee40a641a4b565080313045f1d7e7fe6552b",
@@ -34211,7 +34331,7 @@
       "description": "Over 130 companies tangled in sprawling phishing campaign that spoofed a multi-factor authentication system.",
       "source": "threatpost.com",
       "first_seen": "2026-05-10T12:53:08Z",
-      "last_seen": "2026-07-10T09:00:19Z"
+      "last_seen": "2026-07-10T11:52:59Z"
     },
     {
       "id": "b4ccef0737cd4050d65241bf754072030b6b5e6a",
@@ -34221,7 +34341,7 @@
       "description": "Lockbit is by far this summer’s most prolific ransomware group, trailed by two offshoots of the Conti group.",
       "source": "threatpost.com",
       "first_seen": "2026-05-10T12:53:08Z",
-      "last_seen": "2026-07-10T09:00:19Z"
+      "last_seen": "2026-07-10T11:52:59Z"
     },
     {
       "id": "12ee113fc8fce91f6d7fb28deab2b1ad20061ec7",
@@ -34231,7 +34351,7 @@
       "description": "Tens of thousands of cameras have failed to patch a critical, 11-month-old CVE, leaving thousands of organizations exposed.",
       "source": "threatpost.com",
       "first_seen": "2026-05-10T12:53:08Z",
-      "last_seen": "2026-07-10T09:00:19Z"
+      "last_seen": "2026-07-10T11:52:59Z"
     }
   ]
 }

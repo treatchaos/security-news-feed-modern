@@ -1,20 +1,97 @@
 {
-  "last_updated": "2026-07-10T09:00:19Z",
+  "last_updated": "2026-07-10T11:52:59Z",
   "count": 35,
   "items": [
     {
-      "title": "Ransomware Negotiator Sentenced for BlackCat Ransomware Operators to Attack Victims",
-      "link": "https://cybersecuritynews.com/ransomware-negotiator-sentenced/",
-      "date": "2026-07-10T08:59:04Z",
-      "description": "A former Florida ransomware negotiator has been sentenced to 70 months in federal prison after conspiring with BlackCat/ALPHV ransomware operators and helping attack multiple U.S. victims. Angelo Martino, of Land O’Lakes, Florida, worked for a U.S.-based cyber incident response company. His role was to help organizations recover from ransomware incidents and negotiate with threat actors. […] The…",
+      "title": "Unpatched XRING Flaw in XQUIC Lets Remote Clients Crash HTTP/3 Servers",
+      "link": "https://thehackernews.com/2026/07/unpatched-xring-flaw-in-xquic-lets.html",
+      "date": "2026-07-10T11:47:43Z",
+      "description": "A single wrong variable on one line in XQUIC, Alibaba's QUIC and HTTP/3 library, lets any remote client crash the server with a short burst of completely legal traffic. There is no patch. FoxIO researcher Sébastien Féry disclosed the flaw on July 8 and nicknamed it XRING. He says it needs no login and no malformed packets: about 260 bytes of ordinary QPACK traffic takes the server",
+      "source": "thehackernews.com"
+    },
+    {
+      "title": "Zimbra urges customers to patch critical web client XSS flaw",
+      "link": "https://www.bleepingcomputer.com/news/security/zimbra-urges-customers-to-patch-critical-web-client-xss-flaw/",
+      "date": "2026-07-10T11:47:38Z",
+      "description": "The Zimbra security team urged customers to patch a critical vulnerability affecting the Classic Web Client used to access the Zimbra Collaboration suite. [...]",
+      "source": "bleepingcomputer.com"
+    },
+    {
+      "title": "New Windows Process Injection Technique Bypasses Four Leading EDR Solutions",
+      "link": "https://cybersecuritynews.com/new-windows-process-injection-technique/",
+      "date": "2026-07-10T11:44:10Z",
+      "description": "A newly published Windows proof of concept shows how an attacker can place harmful code inside a legitimate process while avoiding several warning signs that endpoint security tools commonly watch. The method, called Process Parameter Poisoning, uses information normally supplied when Windows starts a program rather than writing a payload directly into another process. The […] The post New…",
       "source": "cybersecuritynews.com"
     },
     {
-      "title": "GigaWiper Malware Attacking Windows Systems With Data Wipers and Fake Ransomware Notices",
-      "link": "https://cybersecuritynews.com/gigawiper-malware-attacking-windows-systems/",
-      "date": "2026-07-10T08:55:26Z",
-      "description": "GigaWiper is a newly identified Windows threat built to do more than steal information or lock a screen. Once activated, it can erase disks, scramble files beyond recovery, and leave organizations facing sudden outages. Its arrival shows how destructive malware can combine several familiar attack methods in one tool package. Microsoft first observed compromised environments […] The post…",
+      "title": "From 17,000 to 1.1 Million Assets: How Lumen Technologies Rebuilt Exposure Management at Scale",
+      "link": "https://thehackernews.com/2026/07/from-17000-to-11-million-assets-how.html",
+      "date": "2026-07-10T11:39:40Z",
+      "description": "Most enterprises assume their asset inventory is close enough to accurate. The evidence suggests otherwise. According to a survey of over 600 security leaders in the 2026 Axonius Actionability Report, only 45% of organizations consolidate their asset and exposure data into a single view, and every downstream security program inherits whatever the inventory gets wrong. Lumen Technologies, a",
+      "source": "thehackernews.com"
+    },
+    {
+      "title": "FastNetMon Launches Netomics, a Self-Hosted Routing Intelligence Platform",
+      "link": "https://cybersecuritynews.com/fastnetmon-launches-netomics-routing-intelligence-platform/",
+      "date": "2026-07-10T11:32:26Z",
+      "description": "London, United Kingdom, July 10th, 2026, CyberNewswire New platform gives network operators complete visibility into Internet routing while keeping all routing intelligence inside their own infrastructure. FastNetMon is introducing Netomics, a self-hosted BGP routing intelligence platform that combines live routing data, registry information, RPKI validation, routing history and AI-assisted…",
       "source": "cybersecuritynews.com"
+    },
+    {
+      "title": "Exposed Hacker Server Reveals WP-SHELLSTORM Backdooring Thousands of WordPress Sites",
+      "link": "https://thehackernews.com/2026/07/exposed-hacker-server-reveals-wp.html",
+      "date": "2026-07-10T11:30:02Z",
+      "description": "A cybercrime crew left one of its own servers wide open on the internet for three weeks, and it exposed the operation's inner workings: the hacking tools, the activity logs, and target lists naming more than 1.4 million websites. Far fewer were actually broken into, but the exposed files showed researchers how a mass site-hacking operation runs from the inside. The operation, now tracked as",
+      "source": "thehackernews.com"
+    },
+    {
+      "title": "Okta Warns of Vishing Attacks Targeting Microsoft 365 Customers",
+      "link": "https://www.securityweek.com/okta-warns-of-vishing-attacks-targeting-microsoft-365-customers/",
+      "date": "2026-07-10T11:06:36Z",
+      "description": "The attackers call victims to direct them to phishing websites mirroring Microsoft Entra ID login pages. The post Okta Warns of Vishing Attacks Targeting Microsoft 365 Customers appeared first on SecurityWeek.",
+      "source": "securityweek.com"
+    },
+    {
+      "title": "Researcher ‘Chaotic Eclipse’ Claims RoguePlanet Defender Patch May Leak Data and Exhaust Disk Space",
+      "link": "https://cybersecuritynews.com/rogueplanet-defender-patch-claim/",
+      "date": "2026-07-10T11:03:40Z",
+      "description": "Microsoft’s patch for the RoguePlanet Windows Defender zero-day may have introduced new security and reliability concerns, according to researcher Chaotic Eclipse. The researcher claims that recent defense-in-depth changes in Microsoft Malware Protection Engine’s mpengine.dll can leak eight bytes of data in certain file-handling scenarios and can be abused to exhaust local disk space.…",
+      "source": "cybersecuritynews.com"
+    },
+    {
+      "title": "Study of 281 Free Android VPN Apps Finds Traffic Leaks, Unencrypted Data, and Tracking",
+      "link": "https://thehackernews.com/2026/07/study-of-281-free-android-vpn-apps.html",
+      "date": "2026-07-10T10:56:23Z",
+      "description": "Researchers ran 281 of the most popular free VPN apps on the Google Play Store through a new testing system and found that many fail at the basics people install a VPN for, i.e., keeping their traffic private and secure. The apps flagged with at least one problem have been installed more than 2.4 billion times. The problems are basic, not sophisticated. 29 apps let user traffic leak outside",
+      "source": "thehackernews.com"
+    },
+    {
+      "title": "Odyssey Stealer Hits macOS Users in 100+ Countries, Targets 300 Crypto Wallet Extensions",
+      "link": "https://cybersecuritynews.com/odyssey-stealer-hits-macos-users/",
+      "date": "2026-07-10T10:45:26Z",
+      "description": "Odyssey Stealer is again targeting macOS users, with a recent surge affecting victims in more than 100 countries. The information-stealing malware is built to collect credentials, browsing data, cryptocurrency assets, and other sensitive files that can quickly expose both personal and business accounts. The campaign reaches victims through deceptive software and update prompts, including…",
+      "source": "cybersecuritynews.com"
+    },
+    {
+      "title": "Xalgorix AI Penetration Testing Tool with 22-Phase Testing Methodology",
+      "link": "https://cybersecuritynews.com/xalgorix-ai-penetration-testing-tool/",
+      "date": "2026-07-10T10:36:24Z",
+      "description": "Xalgorix is an open-source, self-hosted AI penetration testing platform that uses an autonomous LLM agent paired with an independent exploit verifier to deliver proven, not just suspected, vulnerability findings. Most vulnerability scanners flag potential issues and leave security teams to sort real threats from false positives, but Xalgorix takes a different approach by having a […] The post…",
+      "source": "cybersecuritynews.com"
+    },
+    {
+      "title": "Hackers Use Fake Microsoft Entra Passkey Enrollment to Gain Microsoft 365 Access",
+      "link": "https://thehackernews.com/2026/07/hackers-use-fake-microsoft-entra.html",
+      "date": "2026-07-10T10:30:20Z",
+      "description": "A threat actor has been targeting organizations spanning multiple sectors with voice-based fake security requests that prompt Microsoft 365 users to enroll a new Entra passkey with an aim to carry out data extortion attacks. The threat actor, tracked by Okta under the moniker O-UNC-066, has deployed a panel-controlled phishing kit that's capable of targeting the passkey enrollment process. The",
+      "source": "thehackernews.com"
+    },
+    {
+      "title": "GigaWiper Combines Multiple Malware for System-Level Sabotage",
+      "link": "https://www.securityweek.com/gigawiper-combines-multiple-malware-for-system-level-sabotage/",
+      "date": "2026-07-10T09:12:08Z",
+      "description": "The backdoor’s destructive capabilities include a standalone wiper, ransomware encryption, and a multi-pass wiping command. The post GigaWiper Combines Multiple Malware for System-Level Sabotage appeared first on SecurityWeek.",
+      "source": "securityweek.com"
     },
     {
       "title": "‘HalluSquatting’ Turns AI Hallucinations Into Botnet Delivery Mechanism",
@@ -22,13 +99,6 @@
       "date": "2026-07-10T08:32:33Z",
       "description": "Researchers demonstrate adversarial hallucination squatting against popular AI assistants to achieve remote code execution. The post ‘HalluSquatting’ Turns AI Hallucinations Into Botnet Delivery Mechanism appeared first on SecurityWeek.",
       "source": "securityweek.com"
-    },
-    {
-      "title": "Django SQL Injection Vulnerability Actively Exploited in the Wild",
-      "link": "https://cybersecuritynews.com/django-sql-injection-vulnerability-exploited/",
-      "date": "2026-07-10T08:27:37Z",
-      "description": "A high-severity SQL injection vulnerability in the Django web framework is now being actively exploited in real-world attacks, raising concerns for organizations running geospatial applications on PostGIS-backed deployments. The flaw, tracked as CVE-2026-1207, affects Django’s GIS module and has been confirmed by multiple threat intelligence sources to be actively exploited. The Django security…",
-      "source": "cybersecuritynews.com"
     },
     {
       "title": "Former ransomware negotiator gets 4 years for BlackCat attacks",
@@ -43,20 +113,6 @@
       "date": "2026-07-10T08:00:14Z",
       "description": "A Go module is used to load PowerShell code that fetches a resolver from public dead drops to execute Windows malware. The post Network of 200 GitHub Repositories Used for Malware Infection appeared first on SecurityWeek.",
       "source": "securityweek.com"
-    },
-    {
-      "title": "Braintree NuGet Typosquat Uses XOR-Obfuscated C2 to Hide Environment Secret Theft",
-      "link": "https://cybersecuritynews.com/braintree-nuget-typosquat-uses-xor-obfuscated-c2/",
-      "date": "2026-07-10T07:43:45Z",
-      "description": "A malicious NuGet package impersonating the Braintree .NET payment library has put production payment systems at risk. The package can collect live card details during transactions, then send the data away without alerting the application or its users. It also seeks credentials that could give criminals broader access to merchant systems. Typosquatting works because a […] The post Braintree…",
-      "source": "cybersecuritynews.com"
-    },
-    {
-      "title": "Six U-Boot FIT Signature Verification Flaws Enable Code Execution and DoS Attacks",
-      "link": "https://cybersecuritynews.com/u-boot-fit-signature-verification/",
-      "date": "2026-07-10T05:50:54Z",
-      "description": "A new security analysis by Binarly Research has uncovered six critical vulnerabilities in the widely used U-Boot bootloader, exposing embedded systems and server management platforms to denial-of-service (DoS) attacks and potential arbitrary code execution. U-Boot is a foundational component in the boot chain of countless devices, including routers, IoT systems, and Baseboard Management…",
-      "source": "cybersecuritynews.com"
     },
     {
       "title": "OpenMandriva Linux says contributor tried to sabotage the project",
@@ -94,46 +150,11 @@
       "source": "darkreading.com"
     },
     {
-      "title": "Dormant GitHub Accounts Help Attackers Blend In While Mapping Corporate Orgs",
-      "link": "https://thehackernews.com/2026/07/dormant-github-accounts-help-attackers.html",
-      "date": "2026-07-09T18:38:49Z",
-      "description": "Datadog Security Labs is warning of \"several overlapping campaigns\" that are systematically enumerating corporate GitHub organizations, repositories, and user accounts through the GitHub API. \"Operators rely on automated scraping tooling with custom or legitimate-sounding user agents, leveraging GitHub 'ghost' accounts that are often years old, or compromised OAuth tokens and personal",
-      "source": "thehackernews.com"
-    },
-    {
-      "title": "New GigaWiper Windows Backdoor Bundles Disk Wiping, Fake Ransomware, and Spyware",
-      "link": "https://thehackernews.com/2026/07/new-gigawiper-windows-backdoor-bundles.html",
-      "date": "2026-07-09T18:08:07Z",
-      "description": "Microsoft has taken apart a destructive Windows backdoor it calls GigaWiper. What stands out is how it is built: not one tool but three older destructive programs bolted into one, offered as commands the operator can choose from. Each is a different way to break a machine: wipe the whole disk, overwrite the Windows drive, or run fake \"ransomware\" that scrambles files with a key it never saves",
-      "source": "thehackernews.com"
-    },
-    {
       "title": "New Helix vishing group emerges in SharePoint data theft attacks",
       "link": "https://www.bleepingcomputer.com/news/security/new-helix-vishing-group-emerges-in-sharepoint-data-theft-attacks/",
       "date": "2026-07-09T17:08:29Z",
       "description": "A new data-extortion group called Helix is using identity-focused tactics such as voice phishing (vishing), device code phishing, and multi-factor authentication (MFA) abuse to steal data from SharePoint environments. [...]",
       "source": "bleepingcomputer.com"
-    },
-    {
-      "title": "Microsoft expects more Windows security updates from AI-discovered flaws",
-      "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-expects-more-windows-security-updates-from-ai-discovered-flaws/",
-      "date": "2026-07-09T17:00:00Z",
-      "description": "Microsoft says Windows users should expect to see an increase in security updates as the company increasingly relies on artificial intelligence to discover vulnerabilities in its codebase. [...]",
-      "source": "bleepingcomputer.com"
-    },
-    {
-      "title": "npm 12 Disables Install Scripts by Default to Reduce Supply Chain Risk",
-      "link": "https://thehackernews.com/2026/07/npm-12-disables-install-scripts-by.html",
-      "date": "2026-07-09T16:49:02Z",
-      "description": "GitHub has officially announced the release of npm version 12 with install scripts disabled by default, along with deprecating granular access tokens (GATs) designed to bypass two-factor authentication (2FA). The Microsoft-owned subsidiary noted that the following npm install behaviors that used to run automatically before have been made opt-in - allowScripts defaults to off, meaning",
-      "source": "thehackernews.com"
-    },
-    {
-      "title": "ThreatsDay: Cloud Bucket Hijacking, Windows LPE Chain, Global Fraud Bust + 17 More Stories",
-      "link": "https://thehackernews.com/2026/07/threatsday-cloud-bucket-hijacking.html",
-      "date": "2026-07-09T15:09:28Z",
-      "description": "Most security mess starts as admin work. A link gets clicked. A tool gets trusted. A bucket name gets reused. A setting stays loose because nobody wants to touch it. This week is full of that kind of damage. Not loud. Not clever. Just small gaps doing big jobs. The worst part is how normal it all looks until the bill arrives. The full ThreatsDay list is below. Global",
-      "source": "thehackernews.com"
     },
     {
       "title": "QIZ Security Raises $17 Million for Cryptographic Governance Platform",
@@ -150,32 +171,11 @@
       "source": "darkreading.com"
     },
     {
-      "title": "UK Government Rolls Out Agentic AI Defense Plan Alongside Industry Pledge",
-      "link": "https://www.securityweek.com/uk-government-rolls-out-agentic-ai-defense-plan-alongside-industry-pledge/",
-      "date": "2026-07-09T14:19:53Z",
-      "description": "Two announcements on July 7, 2026, demonstrate the government’s determination to improve the level of cybersecurity within the UK. The post UK Government Rolls Out Agentic AI Defense Plan Alongside Industry Pledge appeared first on SecurityWeek.",
-      "source": "securityweek.com"
-    },
-    {
-      "title": "Palo Alto Networks Patches 13 Vulnerabilities",
-      "link": "https://www.securityweek.com/palo-alto-networks-patches-13-vulnerabilities/",
-      "date": "2026-07-09T13:49:42Z",
-      "description": "Buffer overflow, DoS, command injection, SSRF, authentication bypass, and other types of vulnerabilities have been found in PAN-OS software. The post Palo Alto Networks Patches 13 Vulnerabilities appeared first on SecurityWeek.",
-      "source": "securityweek.com"
-    },
-    {
       "title": "AI Gateways Offer Attackers the Keys to the Kingdom",
       "link": "https://www.darkreading.com/cyber-risk/ai-gateways-keys-kingdom",
       "date": "2026-07-09T13:01:00Z",
       "description": "A cryptomining incident highlights how AI gateways can provide access to AI models, cloud infrastructure, and identity and access management (IAM) data.",
       "source": "darkreading.com"
-    },
-    {
-      "title": "AI Attacks Move in Minutes. Join This Webinar on Building a Defense That Keeps Up",
-      "link": "https://thehackernews.com/2026/07/ai-attacks-move-in-minutes-join-this.html",
-      "date": "2026-07-09T12:26:58Z",
-      "description": "AI has changed how fast attacks move. Work that once took an attacker days now takes minutes. Using models like Mythos, attackers write tailored bait, pick targets, test what lands, and jump to the next host before your team clears the first alert. That is the gap, and it is not your fault. The tools and runbooks most teams run on were built for attackers who work at human speed. AI-driven",
-      "source": "thehackernews.com"
     },
     {
       "title": "ZDI-CAN-31734: ABRT",
