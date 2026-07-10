@@ -1,8 +1,78 @@
 {
-  "last_updated": "2026-07-10T05:53:33Z",
+  "last_updated": "2026-07-10T09:00:19Z",
   "retention_days": 90,
-  "count": 3418,
+  "count": 3423,
   "items": [
+    {
+      "id": "471f58bd3deb8fd9ea98090efb17da2acf3fd4e0",
+      "title": "Ransomware Negotiator Sentenced for BlackCat Ransomware Operators to Attack Victims",
+      "link": "https://cybersecuritynews.com/ransomware-negotiator-sentenced/",
+      "date": "2026-07-10T08:59:04Z",
+      "description": "A former Florida ransomware negotiator has been sentenced to 70 months in federal prison after conspiring with BlackCat/ALPHV ransomware operators and helping attack multiple U.S. victims. Angelo Martino, of Land O’Lakes, Florida, worked for a U.S.-based cyber incident response company. His role was to help organizations recover from ransomware incidents and negotiate with threat actors. […] The…",
+      "source": "cybersecuritynews.com",
+      "first_seen": "2026-07-10T09:00:19Z",
+      "last_seen": "2026-07-10T09:00:19Z"
+    },
+    {
+      "id": "3492645d44336878acefaa7f1b0bd20fd1618fa4",
+      "title": "GigaWiper Malware Attacking Windows Systems With Data Wipers and Fake Ransomware Notices",
+      "link": "https://cybersecuritynews.com/gigawiper-malware-attacking-windows-systems/",
+      "date": "2026-07-10T08:55:26Z",
+      "description": "GigaWiper is a newly identified Windows threat built to do more than steal information or lock a screen. Once activated, it can erase disks, scramble files beyond recovery, and leave organizations facing sudden outages. Its arrival shows how destructive malware can combine several familiar attack methods in one tool package. Microsoft first observed compromised environments […] The post…",
+      "source": "cybersecuritynews.com",
+      "first_seen": "2026-07-10T09:00:19Z",
+      "last_seen": "2026-07-10T09:00:19Z"
+    },
+    {
+      "id": "d1756ef0c6202e62d8361e552a58e6c5280db5de",
+      "title": "‘HalluSquatting’ Turns AI Hallucinations Into Botnet Delivery Mechanism",
+      "link": "https://www.securityweek.com/hallusquatting-turns-ai-hallucinations-into-botnet-delivery-mechanism/",
+      "date": "2026-07-10T08:32:33Z",
+      "description": "Researchers demonstrate adversarial hallucination squatting against popular AI assistants to achieve remote code execution. The post ‘HalluSquatting’ Turns AI Hallucinations Into Botnet Delivery Mechanism appeared first on SecurityWeek.",
+      "source": "securityweek.com",
+      "first_seen": "2026-07-10T09:00:19Z",
+      "last_seen": "2026-07-10T09:00:19Z"
+    },
+    {
+      "id": "a894fa1bba6e49dc365d3ce03fd83c019a22228f",
+      "title": "Django SQL Injection Vulnerability Actively Exploited in the Wild",
+      "link": "https://cybersecuritynews.com/django-sql-injection-vulnerability-exploited/",
+      "date": "2026-07-10T08:27:37Z",
+      "description": "A high-severity SQL injection vulnerability in the Django web framework is now being actively exploited in real-world attacks, raising concerns for organizations running geospatial applications on PostGIS-backed deployments. The flaw, tracked as CVE-2026-1207, affects Django’s GIS module and has been confirmed by multiple threat intelligence sources to be actively exploited. The Django security…",
+      "source": "cybersecuritynews.com",
+      "first_seen": "2026-07-10T09:00:19Z",
+      "last_seen": "2026-07-10T09:00:19Z"
+    },
+    {
+      "id": "bcca7946725125e0eb432210da20d93387560cab",
+      "title": "Former ransomware negotiator gets 4 years for BlackCat attacks",
+      "link": "https://www.bleepingcomputer.com/news/security/us-ransomware-negotiator-gets-4-years-in-prison-for-blackcat-attacks/",
+      "date": "2026-07-10T08:17:52Z",
+      "description": "A former employee of cybersecurity incident response company DigitalMint was sentenced to 70 months in prison for targeting U.S. companies in BlackCat (ALPHV) ransomware attacks. [...]",
+      "source": "bleepingcomputer.com",
+      "first_seen": "2026-07-10T09:00:19Z",
+      "last_seen": "2026-07-10T09:00:19Z"
+    },
+    {
+      "id": "42a97eb5caca971bbd1250fa2b4a843ecda99676",
+      "title": "Network of 200 GitHub Repositories Used for Malware Infection",
+      "link": "https://www.securityweek.com/network-of-200-github-repositories-used-for-malware-infection/",
+      "date": "2026-07-10T08:00:14Z",
+      "description": "A Go module is used to load PowerShell code that fetches a resolver from public dead drops to execute Windows malware. The post Network of 200 GitHub Repositories Used for Malware Infection appeared first on SecurityWeek.",
+      "source": "securityweek.com",
+      "first_seen": "2026-07-10T09:00:19Z",
+      "last_seen": "2026-07-10T09:00:19Z"
+    },
+    {
+      "id": "fba3693343ef9a39a427044097a0b179d1c47567",
+      "title": "Braintree NuGet Typosquat Uses XOR-Obfuscated C2 to Hide Environment Secret Theft",
+      "link": "https://cybersecuritynews.com/braintree-nuget-typosquat-uses-xor-obfuscated-c2/",
+      "date": "2026-07-10T07:43:45Z",
+      "description": "A malicious NuGet package impersonating the Braintree .NET payment library has put production payment systems at risk. The package can collect live card details during transactions, then send the data away without alerting the application or its users. It also seeks credentials that could give criminals broader access to merchant systems. Typosquatting works because a […] The post Braintree…",
+      "source": "cybersecuritynews.com",
+      "first_seen": "2026-07-10T09:00:19Z",
+      "last_seen": "2026-07-10T09:00:19Z"
+    },
     {
       "id": "b62e880cbf787cf09ed66e258bb015b9108a1be8",
       "title": "Six U-Boot FIT Signature Verification Vulnerabilities Enable Code Execution and DoS Attacks",
@@ -12,6 +82,16 @@
       "source": "cybersecuritynews.com",
       "first_seen": "2026-07-10T05:53:33Z",
       "last_seen": "2026-07-10T05:53:33Z"
+    },
+    {
+      "id": "2f3b828f8bb63fec2831e144929e11b692d37cb7",
+      "title": "Six U-Boot FIT Signature Verification Flaws Enable Code Execution and DoS Attacks",
+      "link": "https://cybersecuritynews.com/u-boot-fit-signature-verification/",
+      "date": "2026-07-10T05:50:54Z",
+      "description": "A new security analysis by Binarly Research has uncovered six critical vulnerabilities in the widely used U-Boot bootloader, exposing embedded systems and server management platforms to denial-of-service (DoS) attacks and potential arbitrary code execution. U-Boot is a foundational component in the boot chain of countless devices, including routers, IoT systems, and Baseboard Management…",
+      "source": "cybersecuritynews.com",
+      "first_seen": "2026-07-10T09:00:19Z",
+      "last_seen": "2026-07-10T09:00:19Z"
     },
     {
       "id": "38cd8c06d68825fc844dc46f76c87aae6a7c7082",
@@ -41,7 +121,7 @@
       "description": "The OpenMandriva Linux project announced that it was the target of an attempted act of internal sabotage after a dispute among contributors. [...]",
       "source": "bleepingcomputer.com",
       "first_seen": "2026-07-09T23:01:38Z",
-      "last_seen": "2026-07-10T05:53:33Z"
+      "last_seen": "2026-07-10T09:00:19Z"
     },
     {
       "id": "556cf95b052e856cbfe41cb105b4841e3aae432d",
@@ -51,7 +131,7 @@
       "description": "Obscurity isn't a defense. If your company has any Internet-facing vulnerability, you're at risk from multiple threats.",
       "source": "darkreading.com",
       "first_seen": "2026-07-09T21:10:53Z",
-      "last_seen": "2026-07-10T05:53:33Z"
+      "last_seen": "2026-07-10T09:00:19Z"
     },
     {
       "id": "8fa37afed0c255a8ca274eabdc111c27c3b26f2c",
@@ -61,7 +141,7 @@
       "description": "The researcher known as \"Nightmare-Eclipse\" published a proof-of-concept (PoC) exploit for the Windows Defender vulnerability in early June after dropping several other Microsoft zero-days.",
       "source": "darkreading.com",
       "first_seen": "2026-07-09T21:10:53Z",
-      "last_seen": "2026-07-10T05:53:33Z"
+      "last_seen": "2026-07-10T09:00:19Z"
     },
     {
       "id": "4e8ae708a3c5c39f13dc5f015f90bb9774bf0f44",
@@ -71,7 +151,7 @@
       "description": "Hackers compromised the Injective Labs SDK project's GitHub repository and used it to publish a malicious package on the Node Package Manager (npm) that stole cryptocurrency wallet private keys and mnemonic seed phrases. [...]",
       "source": "bleepingcomputer.com",
       "first_seen": "2026-07-09T21:10:53Z",
-      "last_seen": "2026-07-10T05:53:33Z"
+      "last_seen": "2026-07-10T09:00:19Z"
     },
     {
       "id": "0fd91c97a832b3efd3259f3cad98eeb851824501",
@@ -101,7 +181,7 @@
       "description": "If you're handling them like a service account or API token, consider yourself behind. AI agents need a fundamentally different approach.",
       "source": "darkreading.com",
       "first_seen": "2026-07-09T23:01:38Z",
-      "last_seen": "2026-07-10T05:53:33Z"
+      "last_seen": "2026-07-10T09:00:19Z"
     },
     {
       "id": "2c705fe6fb682569b9db9e5d0485e31bf00423b6",
@@ -111,7 +191,7 @@
       "description": "Datadog Security Labs is warning of \"several overlapping campaigns\" that are systematically enumerating corporate GitHub organizations, repositories, and user accounts through the GitHub API. \"Operators rely on automated scraping tooling with custom or legitimate-sounding user agents, leveraging GitHub 'ghost' accounts that are often years old, or compromised OAuth tokens and personal",
       "source": "thehackernews.com",
       "first_seen": "2026-07-09T19:20:26Z",
-      "last_seen": "2026-07-10T05:53:33Z"
+      "last_seen": "2026-07-10T09:00:19Z"
     },
     {
       "id": "bcf7468c5583394db7e18beb3337137439c9438b",
@@ -131,7 +211,7 @@
       "description": "Microsoft has taken apart a destructive Windows backdoor it calls GigaWiper. What stands out is how it is built: not one tool but three older destructive programs bolted into one, offered as commands the operator can choose from. Each is a different way to break a machine: wipe the whole disk, overwrite the Windows drive, or run fake \"ransomware\" that scrambles files with a key it never saves",
       "source": "thehackernews.com",
       "first_seen": "2026-07-09T19:20:26Z",
-      "last_seen": "2026-07-10T05:53:33Z"
+      "last_seen": "2026-07-10T09:00:19Z"
     },
     {
       "id": "a0eec5e04c042b35970da0796e260be6e9527f72",
@@ -151,7 +231,7 @@
       "description": "A new data-extortion group called Helix is using identity-focused tactics such as voice phishing (vishing), device code phishing, and multi-factor authentication (MFA) abuse to steal data from SharePoint environments. [...]",
       "source": "bleepingcomputer.com",
       "first_seen": "2026-07-09T17:46:17Z",
-      "last_seen": "2026-07-10T05:53:33Z"
+      "last_seen": "2026-07-10T09:00:19Z"
     },
     {
       "id": "868bfd9211f8f6d3552c55fff9167f1166c9d5f1",
@@ -161,7 +241,7 @@
       "description": "Microsoft says Windows users should expect to see an increase in security updates as the company increasingly relies on artificial intelligence to discover vulnerabilities in its codebase. [...]",
       "source": "bleepingcomputer.com",
       "first_seen": "2026-07-09T17:46:17Z",
-      "last_seen": "2026-07-10T05:53:33Z"
+      "last_seen": "2026-07-10T09:00:19Z"
     },
     {
       "id": "cb7028ee44325480a6cfbe03561459203787af3c",
@@ -171,7 +251,7 @@
       "description": "GitHub has officially announced the release of npm version 12 with install scripts disabled by default, along with deprecating granular access tokens (GATs) designed to bypass two-factor authentication (2FA). The Microsoft-owned subsidiary noted that the following npm install behaviors that used to run automatically before have been made opt-in - allowScripts defaults to off, meaning",
       "source": "thehackernews.com",
       "first_seen": "2026-07-09T17:46:17Z",
-      "last_seen": "2026-07-10T05:53:33Z"
+      "last_seen": "2026-07-10T09:00:19Z"
     },
     {
       "id": "6047ffbd9baaa1e971a0fe9af39f3b821b3b73a3",
@@ -231,7 +311,7 @@
       "description": "Most security mess starts as admin work. A link gets clicked. A tool gets trusted. A bucket name gets reused. A setting stays loose because nobody wants to touch it. This week is full of that kind of damage. Not loud. Not clever. Just small gaps doing big jobs. The worst part is how normal it all looks until the bill arrives. The full ThreatsDay list is below. Global",
       "source": "thehackernews.com",
       "first_seen": "2026-07-09T17:46:17Z",
-      "last_seen": "2026-07-10T05:53:33Z"
+      "last_seen": "2026-07-10T09:00:19Z"
     },
     {
       "id": "ee200b0bf8fcecd0c3fa91ea18af411667651fcf",
@@ -251,7 +331,7 @@
       "description": "The Israeli company has developed a cryptographic posture and post-quantum cryptography management platform. The post QIZ Security Raises $17 Million for Cryptographic Governance Platform appeared first on SecurityWeek.",
       "source": "securityweek.com",
       "first_seen": "2026-07-09T15:51:21Z",
-      "last_seen": "2026-07-10T05:53:33Z"
+      "last_seen": "2026-07-10T09:00:19Z"
     },
     {
       "id": "0d3133e3b956eb11434836856540621a3dd74eaa",
@@ -281,7 +361,7 @@
       "description": "The fate of a Ukrainian tax software company shows how modern cyberwarfare can claim casualties far beyond the battlefield, and how businesses across the ocean still need to protect themselves.",
       "source": "darkreading.com",
       "first_seen": "2026-07-09T15:51:21Z",
-      "last_seen": "2026-07-10T05:53:33Z"
+      "last_seen": "2026-07-10T09:00:19Z"
     },
     {
       "id": "0b8a6167f08fcd861b5b606924898c2ad53670f8",
@@ -291,7 +371,7 @@
       "description": "Two announcements on July 7, 2026, demonstrate the government’s determination to improve the level of cybersecurity within the UK. The post UK Government Rolls Out Agentic AI Defense Plan Alongside Industry Pledge appeared first on SecurityWeek.",
       "source": "securityweek.com",
       "first_seen": "2026-07-09T15:51:21Z",
-      "last_seen": "2026-07-10T05:53:33Z"
+      "last_seen": "2026-07-10T09:00:19Z"
     },
     {
       "id": "bacfe0a2872bb4542746219575f7fc06b74c772a",
@@ -311,7 +391,7 @@
       "description": "Buffer overflow, DoS, command injection, SSRF, authentication bypass, and other types of vulnerabilities have been found in PAN-OS software. The post Palo Alto Networks Patches 13 Vulnerabilities appeared first on SecurityWeek.",
       "source": "securityweek.com",
       "first_seen": "2026-07-09T15:51:21Z",
-      "last_seen": "2026-07-10T05:53:33Z"
+      "last_seen": "2026-07-10T09:00:19Z"
     },
     {
       "id": "b2f0d28b8288c65c65596d09c85c8bce48ba7a40",
@@ -321,7 +401,7 @@
       "description": "A cryptomining incident highlights how AI gateways can provide access to AI models, cloud infrastructure, and identity and access management (IAM) data.",
       "source": "darkreading.com",
       "first_seen": "2026-07-09T15:51:21Z",
-      "last_seen": "2026-07-10T05:53:33Z"
+      "last_seen": "2026-07-10T09:00:19Z"
     },
     {
       "id": "75c9601d8ce260f39454a3095bc2c8cb1778b72f",
@@ -331,7 +411,7 @@
       "description": "AI has changed how fast attacks move. Work that once took an attacker days now takes minutes. Using models like Mythos, attackers write tailored bait, pick targets, test what lands, and jump to the next host before your team clears the first alert. That is the gap, and it is not your fault. The tools and runbooks most teams run on were built for attackers who work at human speed. AI-driven",
       "source": "thehackernews.com",
       "first_seen": "2026-07-09T15:51:21Z",
-      "last_seen": "2026-07-10T05:53:33Z"
+      "last_seen": "2026-07-10T09:00:19Z"
     },
     {
       "id": "a56aff90af6be6bd0bebd10f790d53d61f5cf06f",
@@ -521,7 +601,7 @@
       "description": "A CVSS score 7.8 AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H severity vulnerability discovered by 'Ryota Shiga (GMO Flatt Security Inc.)' was reported to the affected vendor on: 2026-07-09, 0 days ago. The vendor is given until 2026-11-06 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
       "source": "zerodayinitiative.com",
       "first_seen": "2026-07-09T19:20:26Z",
-      "last_seen": "2026-07-10T05:53:33Z"
+      "last_seen": "2026-07-10T09:00:19Z"
     },
     {
       "id": "d392049ba97c5e95c93e4bc3644d5e30d66e740c",
@@ -531,7 +611,7 @@
       "description": "A CVSS score 7.8 AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H severity vulnerability discovered by 'Anonymous' was reported to the affected vendor on: 2026-07-09, 0 days ago. The vendor is given until 2026-11-06 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
       "source": "zerodayinitiative.com",
       "first_seen": "2026-07-09T21:10:53Z",
-      "last_seen": "2026-07-10T05:53:33Z"
+      "last_seen": "2026-07-10T09:00:19Z"
     },
     {
       "id": "95bb80cf44bda872954f17bb8b64658cb6c9b589",
@@ -541,7 +621,7 @@
       "description": "A CVSS score 7.8 AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H severity vulnerability discovered by 'Anonymous' was reported to the affected vendor on: 2026-07-09, 0 days ago. The vendor is given until 2026-11-06 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
       "source": "zerodayinitiative.com",
       "first_seen": "2026-07-09T21:10:53Z",
-      "last_seen": "2026-07-10T05:53:33Z"
+      "last_seen": "2026-07-10T09:00:19Z"
     },
     {
       "id": "2e817dade89f098fc8a78cf86e79b30f8ef3550a",
@@ -551,7 +631,7 @@
       "description": "A CVSS score 7.8 AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H severity vulnerability discovered by 'Anonymous' was reported to the affected vendor on: 2026-07-09, 0 days ago. The vendor is given until 2026-11-06 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
       "source": "zerodayinitiative.com",
       "first_seen": "2026-07-09T21:10:53Z",
-      "last_seen": "2026-07-10T05:53:33Z"
+      "last_seen": "2026-07-10T09:00:19Z"
     },
     {
       "id": "c862dd916882322fc2d699f8fbb7599280008eeb",
@@ -561,7 +641,7 @@
       "description": "A CVSS score 7.8 AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H severity vulnerability discovered by 'Anonymous' was reported to the affected vendor on: 2026-07-09, 0 days ago. The vendor is given until 2026-11-06 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
       "source": "zerodayinitiative.com",
       "first_seen": "2026-07-09T21:10:53Z",
-      "last_seen": "2026-07-10T05:53:33Z"
+      "last_seen": "2026-07-10T09:00:19Z"
     },
     {
       "id": "e3e76c1b547219ac8991dec449303e483be4db2f",
@@ -34104,36 +34184,6 @@
       "last_seen": "2026-04-13T07:08:08Z"
     },
     {
-      "id": "bc2ba3153c3f2fe15cf6a19ac16c463c1fb9beea",
-      "title": "Google Unveils Device-Bound Chrome Sessions in Anti-Cookie-Theft Move",
-      "link": "https://cybersecuritynews.com/device-bound-chrome-sessions-in-anti-cookie-theft-move/",
-      "date": "2026-04-11T06:52:58Z",
-      "description": "Google officially announced the public rollout of Device Bound Session Credentials (DBSC) for Windows users on Chrome 146. According to the Google Account Security and Chrome teams, this major security update aims to eliminate session hijacking, a primary method for attackers to compromise user accounts. The feature will also expand to macOS in an upcoming […] The post Google Unveils…",
-      "source": "cybersecuritynews.com",
-      "first_seen": "2026-04-11T07:43:02Z",
-      "last_seen": "2026-04-13T07:08:08Z"
-    },
-    {
-      "id": "567e9c5777e2a129f91f78f253c5ea565ebdde9e",
-      "title": "Citizen Lab: Law Enforcement Used Webloc to Track 500 Million Devices via Ad Data",
-      "link": "https://thehackernews.com/2026/04/citizen-lab-law-enforcement-used-webloc.html",
-      "date": "2026-04-11T06:02:00Z",
-      "description": "Hungarian domestic intelligence, the national police in El Salvador, and several U.S. law enforcement and police departments have been attributed to the use of an advertising-based global geolocation surveillance system called Webloc. The tool was developed by Israeli company Cobwebs Technologies and is now sold by its successor Penlink after the two firms merged in July 2023",
-      "source": "thehackernews.com",
-      "first_seen": "2026-04-11T07:43:02Z",
-      "last_seen": "2026-04-13T11:08:15Z"
-    },
-    {
-      "id": "3676cfcf2363ded5483c53ef0c85b0df29e838b6",
-      "title": "Ransomware Gangs Expand Use of EDR Killers Beyond Vulnerable Drivers, ESET Warns",
-      "link": "https://cybersecuritynews.com/ransomware-gangs-expand-use-of-edr-killers/",
-      "date": "2026-04-11T05:13:11Z",
-      "description": "In recent years, Endpoint Detection and Response (EDR) killers have become a standard, highly effective weapon in modern ransomware intrusions. Before launching their file-encrypting malware, cybercriminals routinely deploy specialized tools to bypass security software. According to a comprehensive new report by ESET Research, the threat landscape has grown far beyond the well-known Bring Your…",
-      "source": "cybersecuritynews.com",
-      "first_seen": "2026-04-11T05:53:36Z",
-      "last_seen": "2026-04-13T04:50:01Z"
-    },
-    {
       "id": "664df53292fd50e8b1e7bf61d1267fe95047525f",
       "title": "Student Loan Breach Exposes 2.5M Records",
       "link": "https://threatpost.com/student-loan-breach-exposes-2-5m-records/180492/",
@@ -34141,7 +34191,7 @@
       "description": "2.5 million people were affected, in a breach that could spell more trouble down the line.",
       "source": "threatpost.com",
       "first_seen": "2026-05-10T12:53:08Z",
-      "last_seen": "2026-07-10T05:53:33Z"
+      "last_seen": "2026-07-10T09:00:19Z"
     },
     {
       "id": "4140c7a34b0ba94ad2e6b0cae9f59b0cb9bfffea",
@@ -34151,7 +34201,7 @@
       "description": "Researchers uncover a watering hole attack likely carried out by APT TA423, which attempts to plant the ScanBox JavaScript-based reconnaissance tool.",
       "source": "threatpost.com",
       "first_seen": "2026-05-10T12:53:08Z",
-      "last_seen": "2026-07-10T05:53:33Z"
+      "last_seen": "2026-07-10T09:00:19Z"
     },
     {
       "id": "9359ee40a641a4b565080313045f1d7e7fe6552b",
@@ -34161,7 +34211,7 @@
       "description": "Over 130 companies tangled in sprawling phishing campaign that spoofed a multi-factor authentication system.",
       "source": "threatpost.com",
       "first_seen": "2026-05-10T12:53:08Z",
-      "last_seen": "2026-07-10T05:53:33Z"
+      "last_seen": "2026-07-10T09:00:19Z"
     },
     {
       "id": "b4ccef0737cd4050d65241bf754072030b6b5e6a",
@@ -34171,7 +34221,7 @@
       "description": "Lockbit is by far this summer’s most prolific ransomware group, trailed by two offshoots of the Conti group.",
       "source": "threatpost.com",
       "first_seen": "2026-05-10T12:53:08Z",
-      "last_seen": "2026-07-10T05:53:33Z"
+      "last_seen": "2026-07-10T09:00:19Z"
     },
     {
       "id": "12ee113fc8fce91f6d7fb28deab2b1ad20061ec7",
@@ -34181,7 +34231,7 @@
       "description": "Tens of thousands of cameras have failed to patch a critical, 11-month-old CVE, leaving thousands of organizations exposed.",
       "source": "threatpost.com",
       "first_seen": "2026-05-10T12:53:08Z",
-      "last_seen": "2026-07-10T05:53:33Z"
+      "last_seen": "2026-07-10T09:00:19Z"
     }
   ]
 }

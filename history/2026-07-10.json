@@ -1,7 +1,77 @@
 {
   "date": "2026-07-10",
-  "count": 3,
+  "count": 11,
   "items": [
+    {
+      "id": "471f58bd3deb8fd9ea98090efb17da2acf3fd4e0",
+      "title": "Ransomware Negotiator Sentenced for BlackCat Ransomware Operators to Attack Victims",
+      "link": "https://cybersecuritynews.com/ransomware-negotiator-sentenced/",
+      "date": "2026-07-10T08:59:04Z",
+      "description": "A former Florida ransomware negotiator has been sentenced to 70 months in federal prison after conspiring with BlackCat/ALPHV ransomware operators and helping attack multiple U.S. victims. Angelo Martino, of Land O’Lakes, Florida, worked for a U.S.-based cyber incident response company. His role was to help organizations recover from ransomware incidents and negotiate with threat actors. […] The…",
+      "source": "cybersecuritynews.com",
+      "first_seen": "2026-07-10T09:00:19Z",
+      "last_seen": "2026-07-10T09:00:19Z"
+    },
+    {
+      "id": "3492645d44336878acefaa7f1b0bd20fd1618fa4",
+      "title": "GigaWiper Malware Attacking Windows Systems With Data Wipers and Fake Ransomware Notices",
+      "link": "https://cybersecuritynews.com/gigawiper-malware-attacking-windows-systems/",
+      "date": "2026-07-10T08:55:26Z",
+      "description": "GigaWiper is a newly identified Windows threat built to do more than steal information or lock a screen. Once activated, it can erase disks, scramble files beyond recovery, and leave organizations facing sudden outages. Its arrival shows how destructive malware can combine several familiar attack methods in one tool package. Microsoft first observed compromised environments […] The post…",
+      "source": "cybersecuritynews.com",
+      "first_seen": "2026-07-10T09:00:19Z",
+      "last_seen": "2026-07-10T09:00:19Z"
+    },
+    {
+      "id": "d1756ef0c6202e62d8361e552a58e6c5280db5de",
+      "title": "‘HalluSquatting’ Turns AI Hallucinations Into Botnet Delivery Mechanism",
+      "link": "https://www.securityweek.com/hallusquatting-turns-ai-hallucinations-into-botnet-delivery-mechanism/",
+      "date": "2026-07-10T08:32:33Z",
+      "description": "Researchers demonstrate adversarial hallucination squatting against popular AI assistants to achieve remote code execution. The post ‘HalluSquatting’ Turns AI Hallucinations Into Botnet Delivery Mechanism appeared first on SecurityWeek.",
+      "source": "securityweek.com",
+      "first_seen": "2026-07-10T09:00:19Z",
+      "last_seen": "2026-07-10T09:00:19Z"
+    },
+    {
+      "id": "a894fa1bba6e49dc365d3ce03fd83c019a22228f",
+      "title": "Django SQL Injection Vulnerability Actively Exploited in the Wild",
+      "link": "https://cybersecuritynews.com/django-sql-injection-vulnerability-exploited/",
+      "date": "2026-07-10T08:27:37Z",
+      "description": "A high-severity SQL injection vulnerability in the Django web framework is now being actively exploited in real-world attacks, raising concerns for organizations running geospatial applications on PostGIS-backed deployments. The flaw, tracked as CVE-2026-1207, affects Django’s GIS module and has been confirmed by multiple threat intelligence sources to be actively exploited. The Django security…",
+      "source": "cybersecuritynews.com",
+      "first_seen": "2026-07-10T09:00:19Z",
+      "last_seen": "2026-07-10T09:00:19Z"
+    },
+    {
+      "id": "bcca7946725125e0eb432210da20d93387560cab",
+      "title": "Former ransomware negotiator gets 4 years for BlackCat attacks",
+      "link": "https://www.bleepingcomputer.com/news/security/us-ransomware-negotiator-gets-4-years-in-prison-for-blackcat-attacks/",
+      "date": "2026-07-10T08:17:52Z",
+      "description": "A former employee of cybersecurity incident response company DigitalMint was sentenced to 70 months in prison for targeting U.S. companies in BlackCat (ALPHV) ransomware attacks. [...]",
+      "source": "bleepingcomputer.com",
+      "first_seen": "2026-07-10T09:00:19Z",
+      "last_seen": "2026-07-10T09:00:19Z"
+    },
+    {
+      "id": "42a97eb5caca971bbd1250fa2b4a843ecda99676",
+      "title": "Network of 200 GitHub Repositories Used for Malware Infection",
+      "link": "https://www.securityweek.com/network-of-200-github-repositories-used-for-malware-infection/",
+      "date": "2026-07-10T08:00:14Z",
+      "description": "A Go module is used to load PowerShell code that fetches a resolver from public dead drops to execute Windows malware. The post Network of 200 GitHub Repositories Used for Malware Infection appeared first on SecurityWeek.",
+      "source": "securityweek.com",
+      "first_seen": "2026-07-10T09:00:19Z",
+      "last_seen": "2026-07-10T09:00:19Z"
+    },
+    {
+      "id": "fba3693343ef9a39a427044097a0b179d1c47567",
+      "title": "Braintree NuGet Typosquat Uses XOR-Obfuscated C2 to Hide Environment Secret Theft",
+      "link": "https://cybersecuritynews.com/braintree-nuget-typosquat-uses-xor-obfuscated-c2/",
+      "date": "2026-07-10T07:43:45Z",
+      "description": "A malicious NuGet package impersonating the Braintree .NET payment library has put production payment systems at risk. The package can collect live card details during transactions, then send the data away without alerting the application or its users. It also seeks credentials that could give criminals broader access to merchant systems. Typosquatting works because a […] The post Braintree…",
+      "source": "cybersecuritynews.com",
+      "first_seen": "2026-07-10T09:00:19Z",
+      "last_seen": "2026-07-10T09:00:19Z"
+    },
     {
       "id": "b62e880cbf787cf09ed66e258bb015b9108a1be8",
       "title": "Six U-Boot FIT Signature Verification Vulnerabilities Enable Code Execution and DoS Attacks",
@@ -11,6 +81,16 @@
       "source": "cybersecuritynews.com",
       "first_seen": "2026-07-10T05:53:33Z",
       "last_seen": "2026-07-10T05:53:33Z"
+    },
+    {
+      "id": "2f3b828f8bb63fec2831e144929e11b692d37cb7",
+      "title": "Six U-Boot FIT Signature Verification Flaws Enable Code Execution and DoS Attacks",
+      "link": "https://cybersecuritynews.com/u-boot-fit-signature-verification/",
+      "date": "2026-07-10T05:50:54Z",
+      "description": "A new security analysis by Binarly Research has uncovered six critical vulnerabilities in the widely used U-Boot bootloader, exposing embedded systems and server management platforms to denial-of-service (DoS) attacks and potential arbitrary code execution. U-Boot is a foundational component in the boot chain of countless devices, including routers, IoT systems, and Baseboard Management…",
+      "source": "cybersecuritynews.com",
+      "first_seen": "2026-07-10T09:00:19Z",
+      "last_seen": "2026-07-10T09:00:19Z"
     },
     {
       "id": "38cd8c06d68825fc844dc46f76c87aae6a7c7082",
