@@ -1,7 +1,21 @@
 {
-  "last_updated": "2026-07-11T07:05:12Z",
+  "last_updated": "2026-07-11T09:16:01Z",
   "count": 35,
   "items": [
+    {
+      "title": "'Ghostcommit' hides prompt injection in images to fool AI agents, steal secrets",
+      "link": "https://www.bleepingcomputer.com/news/security/ghostcommit-hides-prompt-injection-in-images-to-fool-ai-agents-steal-secrets/",
+      "date": "2026-07-11T09:03:57Z",
+      "description": "A PNG hiding a prompt injection could steal your repo's secrets, researchers demonstrate. The technique, dubbed 'Ghostcommit,' slipped past AI code reviewers CodeRabbit and Bugbot, which never open image files at all, then convinced a coding agent to read a repo's .env and write every secret into the code as a list of numbers. [...]",
+      "source": "bleepingcomputer.com"
+    },
+    {
+      "title": "Critical Zimbra Flaw Could Let Crafted Emails Run Malicious Code in User Sessions",
+      "link": "https://thehackernews.com/2026/07/critical-zimbra-flaw-could-let-crafted_0483473395.html",
+      "date": "2026-07-11T06:45:55Z",
+      "description": "Zimbra is urging customers to apply updates to address a critical security vulnerability impacting the Classic Web Client that could result in arbitrary code execution. The vulnerability has been described as a case of stored cross-site scripting (XSS) that could allow specially crafted emails to execute malicious scripts in a user's session. It has yet to be assigned a CVE identifier. \"The",
+      "source": "thehackernews.com"
+    },
     {
       "title": "Forg365 Phishing Platform Using AI to Attack Microsoft 365 Accounts",
       "link": "https://cybersecuritynews.com/forg365-phishing-attack-microsoft-365-accounts/",
@@ -101,13 +115,6 @@
       "source": "thehackernews.com"
     },
     {
-      "title": "Hackers exploit critical auth bypass in Gitea Docker image",
-      "link": "https://www.bleepingcomputer.com/news/security/hackers-exploit-critical-auth-bypass-in-gitea-docker-image/",
-      "date": "2026-07-10T15:48:38Z",
-      "description": "Hackers are actively exploiting a critical vulnerability in the official Docker image for the Gitea self-hosted Git service that allows attackers to impersonate any user, including administrators. [...]",
-      "source": "bleepingcomputer.com"
-    },
-    {
       "title": "In Other News: DHS Database Hacked, Adobe Boosts Patch Cadence, Canada Disrupts Ransomware Ops",
       "link": "https://www.securityweek.com/in-other-news-dhs-database-hacked-adobe-boosts-patch-cadence-canada-disrupts-ransomware-ops/",
       "date": "2026-07-10T15:01:19Z",
@@ -119,13 +126,6 @@
       "link": "https://thehackernews.com/2026/07/laser-attack-resets-tangem-wallet.html",
       "date": "2026-07-10T14:51:49Z",
       "description": "Researchers at Ledger's Donjon security team have shown that a precisely timed laser pulse, aimed at the chip inside a Tangem crypto wallet card, can reset the card's password to anything the attacker picks. No old password. No backup card. Once it is reset, whoever did it controls the wallet and can move the coins out. This is not an emergency for most owners. The attack needs",
-      "source": "thehackernews.com"
-    },
-    {
-      "title": "Researcher Details WhatsApp-to-Host Attack Chain Using Three OpenClaw Flaws",
-      "link": "https://thehackernews.com/2026/07/researcher-details-whatsapp-to-host.html",
-      "date": "2026-07-10T14:19:50Z",
-      "description": "Details have emerged about three now-patched security flaws in the OpenClaw personal artificial intelligence (AI) assistant that, if successfully exploited, could enable credential theft, privilege escalation, and arbitrary code execution on the host. A brief description of the high-severity vulnerabilities is as follows - GHSA-hjr6-g723-hmfm (CVSS score: 8.8) - An operating system",
       "source": "thehackernews.com"
     },
     {
