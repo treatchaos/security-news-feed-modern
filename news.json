@@ -1,7 +1,35 @@
 {
-  "last_updated": "2026-07-10T23:46:55Z",
+  "last_updated": "2026-07-11T04:53:06Z",
   "count": 35,
   "items": [
+    {
+      "title": "Forg365 Phishing Platform Using AI to Attack Microsoft 365 Accounts",
+      "link": "https://cybersecuritynews.com/forg365-phishing-attack-microsoft-365-accounts/",
+      "date": "2026-07-11T04:48:50Z",
+      "description": "Forg365 is a phishing-as-a-service platform that targets Microsoft accounts, combining AI-powered phishing, session theft, and post-compromise mailbox access in a single operator panel The platform is reportedly distributed through Telegram, where criminals can access a 30-day trial, pay about per month, or choose an annual plan. This subscription model shows how phishing operations are becoming…",
+      "source": "cybersecuritynews.com"
+    },
+    {
+      "title": "CISA Details “Lessons from a Cyber Incident” After AWS GovCloud Credentials Leak",
+      "link": "https://cybersecuritynews.com/cisa-details-aws-credentials-leak/",
+      "date": "2026-07-11T03:58:27Z",
+      "description": "CISA has published a candid after-action account revealing that a contractor accidentally exposed the agency’s own AWS GovCloud credentials and Infrastructure-as-Code repositories in a personal, public GitHub account, triggering an internal incident response and a rare public “lessons learned” disclosure from the federal cybersecurity agency itself. On Friday, May 15, CISA’s incident response…",
+      "source": "cybersecuritynews.com"
+    },
+    {
+      "title": "Dell BIOS Flaw Lets Attackers Recover Admin Passwords From SPI Flash in Milliseconds",
+      "link": "https://cybersecuritynews.com/dell-bios-flaw-admin-passwords/",
+      "date": "2026-07-11T03:17:12Z",
+      "description": "A critical flaw in how Dell stores BIOS administrator and user passwords allows full password recovery from a flash dump in milliseconds, with no brute force required. The vulnerability, tracked as CVE-2026-40639 (DSA-2026-197), stems from a broken XOR encryption scheme rather than a proper cryptographic hash. Dell stores BIOS passwords in the DVAR (Dell Variable) […] The post Dell BIOS Flaw…",
+      "source": "cybersecuritynews.com"
+    },
+    {
+      "title": "281 Popular VPN Apps from the Google Play Store Leak Sensitive Data, Transfer Data Unencrypted",
+      "link": "https://cybersecuritynews.com/vpn-apps-from-the-google-play-leaks/",
+      "date": "2026-07-11T02:59:32Z",
+      "description": "A new security study has found serious privacy and security issues in 281 popular Android VPN applications available on the Google Play Store. Researchers discovered that dozens of these apps transfer data without encryption, leak user traffic outside the VPN tunnel, and send device identifiers to advertising and tracking services. The research team from multiple […] The post 281 Popular VPN…",
+      "source": "cybersecuritynews.com"
+    },
     {
       "title": "New U-Boot flaws could enable stealthy firmware attacks",
       "link": "https://www.bleepingcomputer.com/news/security/new-u-boot-flaws-could-enable-stealthy-firmware-attacks/",
@@ -29,13 +57,6 @@
       "date": "2026-07-10T17:46:10Z",
       "description": "A 34-year-old Armenian man has pleaded guilty to hacking U.S. companies and deploying the infamous Ryuk ransomware to encrypt their systems. [...]",
       "source": "bleepingcomputer.com"
-    },
-    {
-      "title": "One WhatsApp Message Turns OpenClaw Into a Remote Access Tool for Hackers",
-      "link": "https://cybersecuritynews.com/whatsapp-message-openclaw-remote-access-tool/",
-      "date": "2026-07-10T17:28:12Z",
-      "description": "Three high-severity vulnerabilities in OpenClaw, the open-source AI coding assistant with 381,000 GitHub stars, that allow attackers to achieve remote code execution through a single WhatsApp message. The flaws, confirmed exploitable on OpenClaw 2026.6.1, expose a structural weakness in how AI agents handle untrusted input from messaging channels. OpenClaw is a self-hosted AI assistant that […]…",
-      "source": "cybersecuritynews.com"
     },
     {
       "title": "Cybercriminals Flock to Healthcare Businesses as Attacks Surge",
@@ -87,13 +108,6 @@
       "source": "bleepingcomputer.com"
     },
     {
-      "title": "Top 10 Best Unified Threat Management (UTM) Solutions in 2026",
-      "link": "https://cybersecuritynews.com/best-unified-threat-management-solutions/",
-      "date": "2026-07-10T15:30:10Z",
-      "description": "If you need one appliance that handles firewalling, intrusion prevention, VPN, antivirus, and web filtering without a security team to run it, Fortinet FortiGate is our top UTM pick for 2026, with Sophos Firewall the strongest choice when you also run Sophos endpoints. Unified threat management (UTM) consolidates multiple network security functions into a single […] The post Top 10 Best Unified…",
-      "source": "cybersecuritynews.com"
-    },
-    {
       "title": "In Other News: DHS Database Hacked, Adobe Boosts Patch Cadence, Canada Disrupts Ransomware Ops",
       "link": "https://www.securityweek.com/in-other-news-dhs-database-hacked-adobe-boosts-patch-cadence-canada-disrupts-ransomware-ops/",
       "date": "2026-07-10T15:01:19Z",
@@ -141,20 +155,6 @@
       "date": "2026-07-10T12:58:39Z",
       "description": "Angelo Martino, a former ransomware negotiator, was sentenced to 70 months for helping the BlackCat/Alphv group. The post Third US Security Expert Sentenced to Prison for Helping Ransomware Gang appeared first on SecurityWeek.",
       "source": "securityweek.com"
-    },
-    {
-      "title": "Hackers Can Go From CitrixBleed 2 Exploitation to Ransomware in Under an Hour",
-      "link": "https://cybersecuritynews.com/hackers-can-go-from-citrixbleed-2-exploitation/",
-      "date": "2026-07-10T12:49:23Z",
-      "description": "A critical Citrix flaw is giving intruders a fast route from an internet-facing gateway to a ransomware event. The activity centers on CitrixBleed 2, tracked as CVE-2025-5777, which can expose memory from affected NetScaler ADC and Gateway appliances before a user signs in. That exposure lets attackers search for and reuse active session tokens. The […] The post Hackers Can Go From CitrixBleed 2…",
-      "source": "cybersecuritynews.com"
-    },
-    {
-      "title": "Malicious Windows Shortcuts Use PowerShell and Node.js to Enable Remote Code Execution",
-      "link": "https://cybersecuritynews.com/malicious-windows-shortcuts-use-powershell-and-node-js/",
-      "date": "2026-07-10T12:20:22Z",
-      "description": "A malicious Windows shortcut is being used to turn a routine download into a full remote-code-execution foothold. The campaign begins with convincing booking-themed spam and steers victims toward a ZIP archive that conceals a booby-trapped LNK file. One click can quietly start a chain that installs a backdoor and gives attackers a path to run […] The post Malicious Windows Shortcuts Use…",
-      "source": "cybersecuritynews.com"
     },
     {
       "title": "China, India-Linked Hackers Both Targeted Same Pakistani Police Force",
