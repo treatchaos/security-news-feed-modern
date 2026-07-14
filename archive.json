@@ -1,8 +1,78 @@
 {
-  "last_updated": "2026-07-14T15:15:28Z",
+  "last_updated": "2026-07-14T17:01:43Z",
   "retention_days": 90,
-  "count": 3433,
+  "count": 3429,
   "items": [
+    {
+      "id": "c881676e44487af73ae97eeb21d1e207e1f52db1",
+      "title": "Claude for Chrome Vulnerability Lets Attackers Read Gmail, Docs, and Calendar Data",
+      "link": "https://cybersecuritynews.com/claude-for-chrome-vulnerability/",
+      "date": "2026-07-14T16:12:35Z",
+      "description": "Anthropic’s Claude for Chrome browser extension has two unpatched flaws that allow attackers to read a victim’s Gmail, Google Docs, and Calendar data using just six lines of JavaScript, even after eight subsequent releases. Manifold researchers first reported the issues in May 2026, yet both remain reproducible in the latest v1.0.80, released July 7, 2026. […] The post Claude for Chrome…",
+      "source": "cybersecuritynews.com",
+      "first_seen": "2026-07-14T17:01:43Z",
+      "last_seen": "2026-07-14T17:01:43Z"
+    },
+    {
+      "id": "b000ca97d8ad0d58465025d58b061c647467fd0c",
+      "title": "Progress confirms ShareFile zero-day flaw behind Storage Zone shutdown",
+      "link": "https://www.bleepingcomputer.com/news/security/progress-confirms-sharefile-zero-day-flaw-behind-storage-zone-shutdown/",
+      "date": "2026-07-14T16:08:47Z",
+      "description": "Progress Software has confirmed that a high-severity zero-day vulnerability is behind the emergency shutdown of ShareFile Storage Zone Controllers last week and has released security updates to patch the flaw. [...]",
+      "source": "bleepingcomputer.com",
+      "first_seen": "2026-07-14T17:01:43Z",
+      "last_seen": "2026-07-14T17:01:43Z"
+    },
+    {
+      "id": "ae0ff83aa62e620af49422aa7770507147002fc4",
+      "title": "Frontier AI: The Genie's Out of the Bottle, But Where's the Rulebook?",
+      "link": "https://www.darkreading.com/cybersecurity-operations/frontier-ai-genie-out-of-bottle-where-rulebook",
+      "date": "2026-07-14T16:02:39Z",
+      "description": "Cutting-edge artificial intelligence models are deploying with more independence and less human oversight. Several state governments are trying to legislate transparency in their use.",
+      "source": "darkreading.com",
+      "first_seen": "2026-07-14T17:01:43Z",
+      "last_seen": "2026-07-14T17:01:43Z"
+    },
+    {
+      "id": "c5c693a8e36bbf00806b430add808da840730071",
+      "title": "ClickFix's Mushrooming Ecosystem Demands New Defense Tactics",
+      "link": "https://www.darkreading.com/cyberattacks-data-breaches/clickfixs-ecosystem-demands-new-defense",
+      "date": "2026-07-14T15:53:54Z",
+      "description": "The attack vector is available for rent at scale, and evades AV and EDR, leaving YARA analysis as the best detection option.",
+      "source": "darkreading.com",
+      "first_seen": "2026-07-14T17:01:43Z",
+      "last_seen": "2026-07-14T17:01:43Z"
+    },
+    {
+      "id": "3dc868f077625a3c529b94195b58ab1ee23c16ab",
+      "title": "FortiSandbox Vulnerability Allows Attackers to Access VNC Servers of VMs",
+      "link": "https://cybersecuritynews.com/fortisandbox-vulnerability-vnc-server/",
+      "date": "2026-07-14T15:37:13Z",
+      "description": "Fortinet has disclosed a high-severity vulnerability in FortiSandbox that could allow unauthenticated attackers to access the VNC servers of virtual machines used for malware scanning. Tracked as CVE-2026-59835, the flaw is classified as an Exposure of Resource to Wrong Sphere issue (CWE-668) and carries a CVSSv3 score of 7.7, indicating high severity. The bug allows […] The post FortiSandbox…",
+      "source": "cybersecuritynews.com",
+      "first_seen": "2026-07-14T17:01:43Z",
+      "last_seen": "2026-07-14T17:01:43Z"
+    },
+    {
+      "id": "f8e8519b0db7a1f80ec6198861de3218b8a11e6d",
+      "title": "LastPass, Bitwarden users targeted with fake security alerts",
+      "link": "https://www.bleepingcomputer.com/news/security/lastpass-bitwarden-users-targeted-with-fake-security-alerts/",
+      "date": "2026-07-14T15:31:52Z",
+      "description": "LastPass is warning users about an ongoing phishing campaign that is using fake security notices to direct them to fraudulent websites. [...]",
+      "source": "bleepingcomputer.com",
+      "first_seen": "2026-07-14T17:01:43Z",
+      "last_seen": "2026-07-14T17:01:43Z"
+    },
+    {
+      "id": "e8839c1730d9af51d71246dcf5eff65c7229961d",
+      "title": "AsyncAPI npm Packages With 2M Weekly Downloads Compromised via GitHub Actions",
+      "link": "https://cybersecuritynews.com/asyncapi-npm-packages-with-2m-weekly-downloads/",
+      "date": "2026-07-14T15:30:07Z",
+      "description": "A supply chain compromise has placed AsyncAPI npm packages at the center of a developer security incident. Five trojanized releases, with roughly 2.9 million combined weekly downloads, were published after an attacker gained access to an npm publishing token. The incident creates risk for development workstations, build servers, and environments that loaded the affected modules. […] The post…",
+      "source": "cybersecuritynews.com",
+      "first_seen": "2026-07-14T17:01:43Z",
+      "last_seen": "2026-07-14T17:01:43Z"
+    },
     {
       "id": "0395298b415dff423e761f997e22e166526358a4",
       "title": "Miasma Turns Trusted npm Packages Into Persistent Backdoors for Developer Machines",
@@ -11,7 +81,7 @@
       "description": "Miasma has returned through software packages that many developers would normally trust. Four AsyncAPI packages on npm were altered to deliver a Miasma v3 payload, creating a route for long-term remote access. The campaign does not depend on malware running when a package is installed. Instead, hidden code activates when an application, generator, or build […] The post Miasma Turns Trusted npm…",
       "source": "cybersecuritynews.com",
       "first_seen": "2026-07-14T15:15:28Z",
-      "last_seen": "2026-07-14T15:15:28Z"
+      "last_seen": "2026-07-14T17:01:43Z"
     },
     {
       "id": "6f26f88d8a54e98b33cb3a5c76a69309518e9476",
@@ -21,7 +91,7 @@
       "description": "Security Operations Centers (SOCs) face overwhelming challenges not due to a lack of alerts but because each alert requires a new investigation. Analysts must validate indicators, identify malicious behavior, assess the scope of threats, and determine whether to contain or escalate cases, all while navigating disconnected tools. This fragmented approach wastes time, contributes to alert […] The…",
       "source": "cybersecuritynews.com",
       "first_seen": "2026-07-14T15:15:28Z",
-      "last_seen": "2026-07-14T15:15:28Z"
+      "last_seen": "2026-07-14T17:01:43Z"
     },
     {
       "id": "4362eb1d3af2fae1e3f572d1c615aa85b546ef1e",
@@ -61,7 +131,7 @@
       "description": "Many vulnerabilities cannot be safely validated with live exploits, either because no exploit exists or the affected systems are too critical to test. Picus explains how TTP chaining helps organizations determine exploitability by validating the attack techniques an exploit depends on, without launching the exploit itself. [...]",
       "source": "bleepingcomputer.com",
       "first_seen": "2026-07-14T15:15:28Z",
-      "last_seen": "2026-07-14T15:15:28Z"
+      "last_seen": "2026-07-14T17:01:43Z"
     },
     {
       "id": "8c85eeaa7f1ed5dfd8e05de8847ebb386d0e5cef",
@@ -71,7 +141,7 @@
       "description": "The flaws can be exploited for authentication bypass, remote code execution, privilege escalation, and directory traversal. The post 7 Severe Vulnerabilities Patched in VMware Avi Load Balancer appeared first on SecurityWeek.",
       "source": "securityweek.com",
       "first_seen": "2026-07-14T15:15:28Z",
-      "last_seen": "2026-07-14T15:15:28Z"
+      "last_seen": "2026-07-14T17:01:43Z"
     },
     {
       "id": "53ef47508e3ac6ae4cfcab3e02e5be0c8091c8fb",
@@ -81,7 +151,7 @@
       "description": "Cybersecurity researchers have disclosed details of two access control-related flaws impacting the RabbitMQ message broker service that could allow attackers to leak OAuth client secrets, expose enterprise messaging infrastructure to takeover risks, and bypass tenant boundaries. Miggo's security team, which discovered and reported the flaws, said one \"leaks the broker's confidential OAuth",
       "source": "thehackernews.com",
       "first_seen": "2026-07-14T15:15:28Z",
-      "last_seen": "2026-07-14T15:15:28Z"
+      "last_seen": "2026-07-14T17:01:43Z"
     },
     {
       "id": "55bab88c9182b0ae13dfd0b601412087a9099487",
@@ -91,7 +161,7 @@
       "description": "A ClaudeBleed-linked vulnerability reportedly persists across eight patches, exposing potentially sensitive data to other extensions. The post Unpatched Claude for Chrome Flaw Lets Extensions Read Gmail, Calendar appeared first on SecurityWeek.",
       "source": "securityweek.com",
       "first_seen": "2026-07-14T13:05:00Z",
-      "last_seen": "2026-07-14T15:15:28Z"
+      "last_seen": "2026-07-14T17:01:43Z"
     },
     {
       "id": "071133a184d9c29770e62cf3f7745e5500d23208",
@@ -101,7 +171,7 @@
       "description": "Researchers reported the vulnerability to Cursor in December, but it still remains in the popular AI coding platform and can be exploited in poisoned repository attacks.",
       "source": "darkreading.com",
       "first_seen": "2026-07-14T13:05:00Z",
-      "last_seen": "2026-07-14T15:15:28Z"
+      "last_seen": "2026-07-14T17:01:43Z"
     },
     {
       "id": "9deb98a9f6dcd2471b8115a7dbec48895f5c7ef7",
@@ -111,7 +181,7 @@
       "description": "Microsoft has announced that passkeys will become the default authentication method for the Entra ID enterprise identity service starting September 2026. [...]",
       "source": "bleepingcomputer.com",
       "first_seen": "2026-07-14T13:05:00Z",
-      "last_seen": "2026-07-14T15:15:28Z"
+      "last_seen": "2026-07-14T17:01:43Z"
     },
     {
       "id": "3eb353046c057f82cc1e7ea142e792818d04c88d",
@@ -121,7 +191,7 @@
       "description": "Two new phishing kits, Jalisco and OmegaLord, have been discovered in attacks targeting Microsoft 365 accounts, using techniques that defeat multi-factor authentication (MFA). [...]",
       "source": "bleepingcomputer.com",
       "first_seen": "2026-07-14T13:05:00Z",
-      "last_seen": "2026-07-14T15:15:28Z"
+      "last_seen": "2026-07-14T17:01:43Z"
     },
     {
       "id": "37d4455777cd5369e9d3c5ed69a27742d883cb77",
@@ -131,7 +201,7 @@
       "description": "Cybersecurity researchers have discovered 11 old, Microsoft-signed, Unified Extensible Firmware Interface (UEFI) applications that could be abused to bypass Secure Boot on most systems using the modern firmware standard. \"An attacker exploiting one of these vulnerable applications can execute untrusted code during system boot, enabling deployment of malicious UEFI bootkits or other malware,\"",
       "source": "thehackernews.com",
       "first_seen": "2026-07-14T15:15:28Z",
-      "last_seen": "2026-07-14T15:15:28Z"
+      "last_seen": "2026-07-14T17:01:43Z"
     },
     {
       "id": "e4e526d1d697021b713ac8fbb8abc96458b0509d",
@@ -141,7 +211,7 @@
       "description": "Researchers at KU Leuven tested 85 of the most popular crypto wallets that run as browser extensions and found that the wallets themselves leak enough to link and track the people using them. The way these wallets talk to websites and blockchain servers can tie a person's separate addresses together and let outsiders follow them from site to site. And on a site that already holds a name or",
       "source": "thehackernews.com",
       "first_seen": "2026-07-14T15:15:28Z",
-      "last_seen": "2026-07-14T15:15:28Z"
+      "last_seen": "2026-07-14T17:01:43Z"
     },
     {
       "id": "4241f2184b73abdfdad62222a3cbb8e3a24ffcc7",
@@ -171,7 +241,7 @@
       "description": "AI security agents are starting to influence real security decisions. They summarize findings, prioritize remediation, recommend next steps, and help teams move faster. But most still rely on fragmented risk signals: scanner output, severity scores, threat intelligence, configuration findings, and exposure data. That fragmentation matters because attackers do not move through environments one",
       "source": "thehackernews.com",
       "first_seen": "2026-07-14T15:15:28Z",
-      "last_seen": "2026-07-14T15:15:28Z"
+      "last_seen": "2026-07-14T17:01:43Z"
     },
     {
       "id": "27d2a81bff64217f3c42a2d9ba9c15556638c515",
@@ -181,7 +251,7 @@
       "description": "At least two distinct threat actors are weaponizing a novel evasion technique called OAuth client ID spoofing in cloud campaigns, while slipping past telemetry. The activity allows users to enumerate user accounts and validate stolen credentials in Microsoft Entra ID environments, without ever generating a successful sign-in event that would otherwise alert defenders. And bad actors have begun",
       "source": "thehackernews.com",
       "first_seen": "2026-07-14T15:15:28Z",
-      "last_seen": "2026-07-14T15:15:28Z"
+      "last_seen": "2026-07-14T17:01:43Z"
     },
     {
       "id": "9b9674c0106b251fafd8ac45d9acf94931f9e917",
@@ -191,7 +261,7 @@
       "description": "The flaws could allow attackers to access and modify data, and cause system unavailability and request-response desynchronization. The post SAP Patches Critical Vulnerabilities in NetWeaver, Approuter, Commerce Cloud appeared first on SecurityWeek.",
       "source": "securityweek.com",
       "first_seen": "2026-07-14T13:05:00Z",
-      "last_seen": "2026-07-14T15:15:28Z"
+      "last_seen": "2026-07-14T17:01:43Z"
     },
     {
       "id": "199b1e7d525435265f1af010660aa3576a48012d",
@@ -211,7 +281,7 @@
       "description": "Multiple state-sponsored APTs are compromising poorly secured devices across critical infrastructure sector networks. The post US, Allies Warn of Russian Cyberattacks Targeting Critical Infrastructure Routers appeared first on SecurityWeek.",
       "source": "securityweek.com",
       "first_seen": "2026-07-14T11:16:54Z",
-      "last_seen": "2026-07-14T15:15:28Z"
+      "last_seen": "2026-07-14T17:01:43Z"
     },
     {
       "id": "55c0e9fa86dcbe2b9c088acbb3d2c7ac2c0d46c5",
@@ -261,7 +331,7 @@
       "description": "UK-based cybersecurity firm Valarian has raised a total of $70 million for its ACRA technology. The post Valarian Raises $50 Million for Sovereign Infrastructure Control Layer appeared first on SecurityWeek.",
       "source": "securityweek.com",
       "first_seen": "2026-07-14T09:45:28Z",
-      "last_seen": "2026-07-14T15:15:28Z"
+      "last_seen": "2026-07-14T17:01:43Z"
     },
     {
       "id": "cf74fc001d6ecd9eb5586b0957b9e7e8fff1d792",
@@ -411,7 +481,7 @@
       "description": "In a first, the UK and the EU jointly imposed sanctions on Russian individuals and entities for cyberattacks and disinformation campaigns in the region.",
       "source": "darkreading.com",
       "first_seen": "2026-07-13T21:43:43Z",
-      "last_seen": "2026-07-14T15:15:28Z"
+      "last_seen": "2026-07-14T17:01:43Z"
     },
     {
       "id": "d7ef24692682eaebc0199a72e6a8588931244200",
@@ -451,7 +521,7 @@
       "description": "In some companies, engineers are building defense and attack tools to test the potential of artificial intelligence for cybersecurity — and its threat.",
       "source": "darkreading.com",
       "first_seen": "2026-07-13T19:10:21Z",
-      "last_seen": "2026-07-14T15:15:28Z"
+      "last_seen": "2026-07-14T17:01:43Z"
     },
     {
       "id": "bf844eef26b945b823dfd6821001581f424d9f51",
@@ -1631,7 +1701,7 @@
       "description": "A CVSS score 7.8 AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H severity vulnerability discovered by 'Bobby Gould (@bobbygould5) of TrendAI Zero Day Initiative' was reported to the affected vendor on: 2026-07-10, 0 days ago. The vendor is given until 2026-11-07 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
       "source": "zerodayinitiative.com",
       "first_seen": "2026-07-10T16:14:29Z",
-      "last_seen": "2026-07-14T15:15:28Z"
+      "last_seen": "2026-07-14T17:01:43Z"
     },
     {
       "id": "9fbeabd87ea60cfe776d6fe146decfd4b297f907",
@@ -1641,7 +1711,7 @@
       "description": "A CVSS score 6.1 AV:L/AC:H/PR:H/UI:N/S:C/C:H/I:N/A:L severity vulnerability discovered by 'Xiaobye(@xiaobye_tw) of DEVCORE Research Team' was reported to the affected vendor on: 2026-07-10, 0 days ago. The vendor is given until 2026-11-07 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
       "source": "zerodayinitiative.com",
       "first_seen": "2026-07-10T20:12:59Z",
-      "last_seen": "2026-07-14T15:15:28Z"
+      "last_seen": "2026-07-14T17:01:43Z"
     },
     {
       "id": "a9d0d831b2f5b406c0a3b986c074e7ad610b9ca6",
@@ -1651,7 +1721,7 @@
       "description": "A CVSS score 7.5 AV:L/AC:H/PR:H/UI:N/S:C/C:H/I:H/A:H severity vulnerability discovered by 'Phan Vinh Khang of Viettel Cyber Security' was reported to the affected vendor on: 2026-07-10, 0 days ago. The vendor is given until 2026-11-07 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
       "source": "zerodayinitiative.com",
       "first_seen": "2026-07-10T20:12:59Z",
-      "last_seen": "2026-07-14T15:15:28Z"
+      "last_seen": "2026-07-14T17:01:43Z"
     },
     {
       "id": "080acfaaa9fd4d41fd7a668d42469773b33da8e6",
@@ -1661,7 +1731,7 @@
       "description": "A CVSS score 9.3 AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:L/A:N severity vulnerability discovered by 'Habibullo Izzatilloyev' was reported to the affected vendor on: 2026-07-10, 0 days ago. The vendor is given until 2026-11-07 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
       "source": "zerodayinitiative.com",
       "first_seen": "2026-07-10T21:50:47Z",
-      "last_seen": "2026-07-14T15:15:28Z"
+      "last_seen": "2026-07-14T17:01:43Z"
     },
     {
       "id": "35e2af2d2902b0361a925935993365da41dc4897",
@@ -1671,7 +1741,7 @@
       "description": "A CVSS score 5.9 AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:N/A:N severity vulnerability discovered by 'Minh Giang (@itscysamu) of TrendAI Zero Day Initiative and Taha Siddiqi (@_atomiz_) of TrendAI Research' was reported to the affected vendor on: 2026-07-10, 0 days ago. The vendor is given until 2026-11-07 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the…",
       "source": "zerodayinitiative.com",
       "first_seen": "2026-07-10T21:50:47Z",
-      "last_seen": "2026-07-14T15:15:28Z"
+      "last_seen": "2026-07-14T17:01:43Z"
     },
     {
       "id": "4099760f4c17d2603cfea432b56e7b3e7534206b",
@@ -34164,66 +34234,6 @@
       "last_seen": "2026-04-16T11:51:40Z"
     },
     {
-      "id": "36c449113d7340a33716847dec060ddf17ed3600",
-      "title": "Sweden Blames Pro-Russian Group for Cyberattack Last Year on Its Energy Infrastructure",
-      "link": "https://www.securityweek.com/sweden-blames-pro-russian-group-for-cyberattack-last-year-on-its-energy-infrastructure/",
-      "date": "2026-04-15T16:46:48Z",
-      "description": "In what was Sweden’s first public mention of the attack, the country’s minister for civil defense said it targeted a heating plant in western Sweden. The post Sweden Blames Pro-Russian Group for Cyberattack Last Year on Its Energy Infrastructure appeared first on SecurityWeek.",
-      "source": "securityweek.com",
-      "first_seen": "2026-04-15T17:01:24Z",
-      "last_seen": "2026-04-16T10:06:33Z"
-    },
-    {
-      "id": "b247cf37671cf74a0c81798f7bb9cac66f75efa8",
-      "title": "Microsoft pays $2.3M for cloud and AI flaws at Zero Day Quest",
-      "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-pays-23-million-for-cloud-and-ai-flaws-at-zero-day-quest/",
-      "date": "2026-04-15T16:20:21Z",
-      "description": "Microsoft has awarded $2.3 million to security researchers after receiving nearly 700 submissions during this year's Zero Day Quest hacking contest. [...]",
-      "source": "bleepingcomputer.com",
-      "first_seen": "2026-04-15T17:01:24Z",
-      "last_seen": "2026-04-16T06:27:46Z"
-    },
-    {
-      "id": "aa6df796c1e0ff6e63251684d3d4bb31aae11370",
-      "title": "Prepping for 'Q-Day': Why Quantum Risk Management Should Start Now",
-      "link": "https://www.darkreading.com/cyber-risk/preparing-q-day-quantum-risk-management",
-      "date": "2026-04-15T15:12:01Z",
-      "description": "Quantum computers are coming and may impact systems in unexpected ways, and it will \"take years to be fully quantum-safe, if ever,\" cryptography expert warns.",
-      "source": "darkreading.com",
-      "first_seen": "2026-04-15T15:58:39Z",
-      "last_seen": "2026-04-16T15:17:06Z"
-    },
-    {
-      "id": "0e22fc6eeb6fa9a1e09490022ea9424d71b6d9b4",
-      "title": "CISA flags Windows Task Host vulnerability as exploited in attacks",
-      "link": "https://www.bleepingcomputer.com/news/security/cisa-flags-windows-task-host-vulnerability-as-exploited-in-attacks/",
-      "date": "2026-04-15T14:51:05Z",
-      "description": "CISA warned U.S. government agencies to secure their systems against a Windows Task Host privilege escalation vulnerability that could allow attackers to gain SYSTEM privileges. [...]",
-      "source": "bleepingcomputer.com",
-      "first_seen": "2026-04-15T15:58:39Z",
-      "last_seen": "2026-04-15T22:32:22Z"
-    },
-    {
-      "id": "819e025ce05c569ed92c29a8ef38b58aea5dcde8",
-      "title": "Exploited Vulnerability Exposes Nginx Servers to Hacking",
-      "link": "https://www.securityweek.com/exploited-vulnerability-exposes-nginx-servers-to-hacking/",
-      "date": "2026-04-15T14:45:58Z",
-      "description": "Hackers are exploiting CVE-2026-33032, a critical remote takeover vulnerability in the Nginx UI management tool. The post Exploited Vulnerability Exposes Nginx Servers to Hacking appeared first on SecurityWeek.",
-      "source": "securityweek.com",
-      "first_seen": "2026-04-15T15:58:39Z",
-      "last_seen": "2026-04-16T10:06:33Z"
-    },
-    {
-      "id": "a9eb265d9c1fc74fe4206242279e3a6667b8f7ed",
-      "title": "Audit: Big Tech Often Ignores CA Privacy Law Opt-Out Requests",
-      "link": "https://www.darkreading.com/cyber-risk/audit-big-tech-ignores-data-collection-requests",
-      "date": "2026-04-15T14:38:53Z",
-      "description": "Google, Meta, and Microsoft about half the time don't comply with requests to opt out of online tracking per a California law mandate, privacy watchdog finds.",
-      "source": "darkreading.com",
-      "first_seen": "2026-04-15T15:58:39Z",
-      "last_seen": "2026-04-16T15:17:06Z"
-    },
-    {
       "id": "514530d4acad7d25e1fbbef8c09fe44470d7750a",
       "title": "Windows Active Directory Vulnerability Allows Attackers to Execute Malicious Code",
       "link": "https://cybersecuritynews.com/windows-active-directory-vulnerability/",
@@ -34234,56 +34244,6 @@
       "last_seen": "2026-04-16T06:27:46Z"
     },
     {
-      "id": "5c1a125fdbf222a731e847599873ada1e3b6ae97",
-      "title": "ZDI-CAN-30438: Progress Software",
-      "link": "http://www.zerodayinitiative.com/advisories/upcoming/",
-      "date": "2026-04-15T05:00:00Z",
-      "description": "A CVSS score 8.8 AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H severity vulnerability discovered by 'Syed Ibrahim Ahmed of TrendAI Research' was reported to the affected vendor on: 2026-04-15, 0 days ago. The vendor is given until 2026-08-13 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
-      "source": "zerodayinitiative.com",
-      "first_seen": "2026-04-15T15:58:39Z",
-      "last_seen": "2026-04-16T17:02:35Z"
-    },
-    {
-      "id": "c32d4be07a26d1d73eea9d99a802923724479a8e",
-      "title": "ZDI-CAN-30439: Progress Software",
-      "link": "http://www.zerodayinitiative.com/advisories/upcoming/",
-      "date": "2026-04-15T05:00:00Z",
-      "description": "A CVSS score 7.2 AV:N/AC:L/PR:H/UI:N/S:U/C:H/I:H/A:H severity vulnerability discovered by 'Jacky Yang of TrendAI Research and Syed Ibrahim Ahmed of TrendAI Research' was reported to the affected vendor on: 2026-04-15, 0 days ago. The vendor is given until 2026-08-13 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
-      "source": "zerodayinitiative.com",
-      "first_seen": "2026-04-15T15:58:39Z",
-      "last_seen": "2026-04-16T17:02:35Z"
-    },
-    {
-      "id": "4d6cebd5dadb6564691d22876bdde05e5582e45a",
-      "title": "ZDI-CAN-30437: Progress Software",
-      "link": "http://www.zerodayinitiative.com/advisories/upcoming/",
-      "date": "2026-04-15T05:00:00Z",
-      "description": "A CVSS score 9.8 AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H severity vulnerability discovered by 'Syed Ibrahim Ahmed of TrendAI Research' was reported to the affected vendor on: 2026-04-15, 0 days ago. The vendor is given until 2026-08-13 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
-      "source": "zerodayinitiative.com",
-      "first_seen": "2026-04-15T15:58:39Z",
-      "last_seen": "2026-04-16T17:02:35Z"
-    },
-    {
-      "id": "d072b0e28bd5d55b302049472696039e5c39f47c",
-      "title": "ZDI-CAN-29916: libarchive",
-      "link": "http://www.zerodayinitiative.com/advisories/upcoming/",
-      "date": "2026-04-15T05:00:00Z",
-      "description": "A CVSS score 7.8 AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H severity vulnerability discovered by 's3zer0' was reported to the affected vendor on: 2026-04-15, 0 days ago. The vendor is given until 2026-08-13 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
-      "source": "zerodayinitiative.com",
-      "first_seen": "2026-04-15T17:01:24Z",
-      "last_seen": "2026-04-16T17:02:35Z"
-    },
-    {
-      "id": "eeac06282198f740bf55cfa27b1b9f3485c75261",
-      "title": "ZDI-CAN-30321: NVIDIA",
-      "link": "http://www.zerodayinitiative.com/advisories/upcoming/",
-      "date": "2026-04-15T05:00:00Z",
-      "description": "A CVSS score 7.8 AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H severity vulnerability discovered by 'Seiji Sakurai (@HeapSmasher)' was reported to the affected vendor on: 2026-04-15, 0 days ago. The vendor is given until 2026-08-13 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
-      "source": "zerodayinitiative.com",
-      "first_seen": "2026-04-15T17:01:24Z",
-      "last_seen": "2026-04-16T17:02:35Z"
-    },
-    {
       "id": "664df53292fd50e8b1e7bf61d1267fe95047525f",
       "title": "Student Loan Breach Exposes 2.5M Records",
       "link": "https://threatpost.com/student-loan-breach-exposes-2-5m-records/180492/",
@@ -34291,7 +34251,7 @@
       "description": "2.5 million people were affected, in a breach that could spell more trouble down the line.",
       "source": "threatpost.com",
       "first_seen": "2026-05-10T12:53:08Z",
-      "last_seen": "2026-07-14T15:15:28Z"
+      "last_seen": "2026-07-14T17:01:43Z"
     },
     {
       "id": "4140c7a34b0ba94ad2e6b0cae9f59b0cb9bfffea",
@@ -34301,7 +34261,7 @@
       "description": "Researchers uncover a watering hole attack likely carried out by APT TA423, which attempts to plant the ScanBox JavaScript-based reconnaissance tool.",
       "source": "threatpost.com",
       "first_seen": "2026-05-10T12:53:08Z",
-      "last_seen": "2026-07-14T15:15:28Z"
+      "last_seen": "2026-07-14T17:01:43Z"
     },
     {
       "id": "9359ee40a641a4b565080313045f1d7e7fe6552b",
@@ -34311,7 +34271,7 @@
       "description": "Over 130 companies tangled in sprawling phishing campaign that spoofed a multi-factor authentication system.",
       "source": "threatpost.com",
       "first_seen": "2026-05-10T12:53:08Z",
-      "last_seen": "2026-07-14T15:15:28Z"
+      "last_seen": "2026-07-14T17:01:43Z"
     },
     {
       "id": "b4ccef0737cd4050d65241bf754072030b6b5e6a",
@@ -34321,7 +34281,7 @@
       "description": "Lockbit is by far this summer’s most prolific ransomware group, trailed by two offshoots of the Conti group.",
       "source": "threatpost.com",
       "first_seen": "2026-05-10T12:53:08Z",
-      "last_seen": "2026-07-14T15:15:28Z"
+      "last_seen": "2026-07-14T17:01:43Z"
     },
     {
       "id": "12ee113fc8fce91f6d7fb28deab2b1ad20061ec7",
@@ -34331,7 +34291,7 @@
       "description": "Tens of thousands of cameras have failed to patch a critical, 11-month-old CVE, leaving thousands of organizations exposed.",
       "source": "threatpost.com",
       "first_seen": "2026-05-10T12:53:08Z",
-      "last_seen": "2026-07-14T15:15:28Z"
+      "last_seen": "2026-07-14T17:01:43Z"
     }
   ]
 }

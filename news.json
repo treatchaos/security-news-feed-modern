@@ -1,7 +1,56 @@
 {
-  "last_updated": "2026-07-14T15:15:28Z",
+  "last_updated": "2026-07-14T17:01:43Z",
   "count": 35,
   "items": [
+    {
+      "title": "Claude for Chrome Vulnerability Lets Attackers Read Gmail, Docs, and Calendar Data",
+      "link": "https://cybersecuritynews.com/claude-for-chrome-vulnerability/",
+      "date": "2026-07-14T16:12:35Z",
+      "description": "Anthropic’s Claude for Chrome browser extension has two unpatched flaws that allow attackers to read a victim’s Gmail, Google Docs, and Calendar data using just six lines of JavaScript, even after eight subsequent releases. Manifold researchers first reported the issues in May 2026, yet both remain reproducible in the latest v1.0.80, released July 7, 2026. […] The post Claude for Chrome…",
+      "source": "cybersecuritynews.com"
+    },
+    {
+      "title": "Progress confirms ShareFile zero-day flaw behind Storage Zone shutdown",
+      "link": "https://www.bleepingcomputer.com/news/security/progress-confirms-sharefile-zero-day-flaw-behind-storage-zone-shutdown/",
+      "date": "2026-07-14T16:08:47Z",
+      "description": "Progress Software has confirmed that a high-severity zero-day vulnerability is behind the emergency shutdown of ShareFile Storage Zone Controllers last week and has released security updates to patch the flaw. [...]",
+      "source": "bleepingcomputer.com"
+    },
+    {
+      "title": "Frontier AI: The Genie's Out of the Bottle, But Where's the Rulebook?",
+      "link": "https://www.darkreading.com/cybersecurity-operations/frontier-ai-genie-out-of-bottle-where-rulebook",
+      "date": "2026-07-14T16:02:39Z",
+      "description": "Cutting-edge artificial intelligence models are deploying with more independence and less human oversight. Several state governments are trying to legislate transparency in their use.",
+      "source": "darkreading.com"
+    },
+    {
+      "title": "ClickFix's Mushrooming Ecosystem Demands New Defense Tactics",
+      "link": "https://www.darkreading.com/cyberattacks-data-breaches/clickfixs-ecosystem-demands-new-defense",
+      "date": "2026-07-14T15:53:54Z",
+      "description": "The attack vector is available for rent at scale, and evades AV and EDR, leaving YARA analysis as the best detection option.",
+      "source": "darkreading.com"
+    },
+    {
+      "title": "FortiSandbox Vulnerability Allows Attackers to Access VNC Servers of VMs",
+      "link": "https://cybersecuritynews.com/fortisandbox-vulnerability-vnc-server/",
+      "date": "2026-07-14T15:37:13Z",
+      "description": "Fortinet has disclosed a high-severity vulnerability in FortiSandbox that could allow unauthenticated attackers to access the VNC servers of virtual machines used for malware scanning. Tracked as CVE-2026-59835, the flaw is classified as an Exposure of Resource to Wrong Sphere issue (CWE-668) and carries a CVSSv3 score of 7.7, indicating high severity. The bug allows […] The post FortiSandbox…",
+      "source": "cybersecuritynews.com"
+    },
+    {
+      "title": "LastPass, Bitwarden users targeted with fake security alerts",
+      "link": "https://www.bleepingcomputer.com/news/security/lastpass-bitwarden-users-targeted-with-fake-security-alerts/",
+      "date": "2026-07-14T15:31:52Z",
+      "description": "LastPass is warning users about an ongoing phishing campaign that is using fake security notices to direct them to fraudulent websites. [...]",
+      "source": "bleepingcomputer.com"
+    },
+    {
+      "title": "AsyncAPI npm Packages With 2M Weekly Downloads Compromised via GitHub Actions",
+      "link": "https://cybersecuritynews.com/asyncapi-npm-packages-with-2m-weekly-downloads/",
+      "date": "2026-07-14T15:30:07Z",
+      "description": "A supply chain compromise has placed AsyncAPI npm packages at the center of a developer security incident. Five trojanized releases, with roughly 2.9 million combined weekly downloads, were published after an attacker gained access to an npm publishing token. The incident creates risk for development workstations, build servers, and environments that loaded the affected modules. […] The post…",
+      "source": "cybersecuritynews.com"
+    },
     {
       "title": "Miasma Turns Trusted npm Packages Into Persistent Backdoors for Developer Machines",
       "link": "https://cybersecuritynews.com/miasma-turns-trusted-npm-packages-into-persistent-backdoors/",
@@ -14,27 +63,6 @@
       "link": "https://cybersecuritynews.com/maximizing-soc-efficiency/",
       "date": "2026-07-14T15:05:30Z",
       "description": "Security Operations Centers (SOCs) face overwhelming challenges not due to a lack of alerts but because each alert requires a new investigation. Analysts must validate indicators, identify malicious behavior, assess the scope of threats, and determine whether to contain or escalate cases, all while navigating disconnected tools. This fragmented approach wastes time, contributes to alert […] The…",
-      "source": "cybersecuritynews.com"
-    },
-    {
-      "title": "Turkish Banks Targeted by 8,400 Phishing Domains and 6,600 Social Media Scam Ads",
-      "link": "https://cybersecuritynews.com/turkish-banks-targeted-by-8400-phishing-domains/",
-      "date": "2026-07-14T14:48:39Z",
-      "description": "Turkey’s banking customers are facing a large fraud campaign built around fake websites and social media advertisements. Criminals are abusing trusted financial brands to draw people into credential theft, fake loan offers, and other scams designed to steal money quickly. The operation is notable for its scale and speed, as more than 8,400 phishing domains […] The post Turkish Banks Targeted by…",
-      "source": "cybersecuritynews.com"
-    },
-    {
-      "title": "xAI Grok Build CLI Uploaded Entire Git Repositories and Unredacted .env Secrets to Cloud Storage",
-      "link": "https://cybersecuritynews.com/xai-grok-build-cloud-storage/",
-      "date": "2026-07-14T14:28:59Z",
-      "description": "A wire-level analysis of xAI’s Grok Build CLI revealed that version 0.2.93 transmitted unredacted file contents, including secrets from .env files, and uploaded full Git repositories along with their commit history to cloud storage These findings are based on traffic captured through a proxy from controlled test repositories using fake canary credentials. Security researcher Cereblab […] The…",
-      "source": "cybersecuritynews.com"
-    },
-    {
-      "title": "One Malicious OAuth Approval Can Give Hackers Persistent Access to Salesforce Data",
-      "link": "https://cybersecuritynews.com/one-malicious-oauth-approval/",
-      "date": "2026-07-14T14:28:24Z",
-      "description": "One mistaken approval inside Salesforce can hand attackers a quiet, durable route into a company’s most sensitive customer records. Recent campaigns tied to tradecraft associated with ShinyHunters show how a trusted application connection, rather than a software flaw, can be turned into a channel for large-scale data theft and continued access. Microsoft observed the activity […] The post One…",
       "source": "cybersecuritynews.com"
     },
     {
@@ -101,13 +129,6 @@
       "source": "thehackernews.com"
     },
     {
-      "title": "SAP warns of critical flaws in NetWeaver and Commerce Cloud",
-      "link": "https://www.bleepingcomputer.com/news/security/sap-warns-of-critical-flaws-in-netweaver-and-commerce-cloud/",
-      "date": "2026-07-14T11:42:21Z",
-      "description": "SAP has addressed 16 vulnerabilities across multiple products as part of its July 2026 security updates, including three critical flaws in NetWeaver, Commerce Cloud, and AppRouter. [...]",
-      "source": "bleepingcomputer.com"
-    },
-    {
       "title": "How Pentera Turns AI Security Workflows into Validation Engines",
       "link": "https://thehackernews.com/2026/07/how-pentera-turns-ai-security-workflows.html",
       "date": "2026-07-14T11:30:00Z",
@@ -136,13 +157,6 @@
       "source": "securityweek.com"
     },
     {
-      "title": "Microsoft starts testing cleaner Windows Search without ads",
-      "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-starts-testing-cleaner-windows-search-without-ads/",
-      "date": "2026-07-14T10:47:23Z",
-      "description": "Microsoft is now testing a cleaner and faster version of Windows Search that should prioritize relevant results over ads and promotional content. [...]",
-      "source": "bleepingcomputer.com"
-    },
-    {
       "title": "Valarian Raises $50 Million for Sovereign Infrastructure Control Layer",
       "link": "https://www.securityweek.com/valarian-raises-50-million-for-sovereign-infrastructure-control-layer/",
       "date": "2026-07-14T09:32:15Z",
@@ -161,20 +175,6 @@
       "link": "https://www.darkreading.com/cybersecurity-operations/yellow-teams-defining-future-ai-security",
       "date": "2026-07-13T18:18:30Z",
       "description": "In some companies, engineers are building defense and attack tools to test the potential of artificial intelligence for cybersecurity — and its threat.",
-      "source": "darkreading.com"
-    },
-    {
-      "title": "GigaWiper Lets Threat Actors Choose Their Own Destructive Attack",
-      "link": "https://www.darkreading.com/cyberattacks-data-breaches/gigawiper-threat-actors-choose-their-own-destructive-attack",
-      "date": "2026-07-13T16:50:54Z",
-      "description": "A modular implant borrows from various malware families to combine both backdoor and wiper activities to maximize impact and minimize operational output.",
-      "source": "darkreading.com"
-    },
-    {
-      "title": "Turning the Tables on Email Scammers With 'ScamBuster'",
-      "link": "https://www.darkreading.com/cyberattacks-data-breaches/turning-tables-email-scammers-scambuster",
-      "date": "2026-07-13T13:00:00Z",
-      "description": "An open source, AI-driven system adopts victim personas to engage with phishing attackers, allowing organizations and law enforcement to gather relevant data on cybercriminal operations.",
       "source": "darkreading.com"
     },
     {
