@@ -1,7 +1,63 @@
 {
-  "last_updated": "2026-07-14T13:05:00Z",
+  "last_updated": "2026-07-14T15:15:28Z",
   "count": 35,
   "items": [
+    {
+      "title": "Miasma Turns Trusted npm Packages Into Persistent Backdoors for Developer Machines",
+      "link": "https://cybersecuritynews.com/miasma-turns-trusted-npm-packages-into-persistent-backdoors/",
+      "date": "2026-07-14T15:11:46Z",
+      "description": "Miasma has returned through software packages that many developers would normally trust. Four AsyncAPI packages on npm were altered to deliver a Miasma v3 payload, creating a route for long-term remote access. The campaign does not depend on malware running when a package is installed. Instead, hidden code activates when an application, generator, or build […] The post Miasma Turns Trusted npm…",
+      "source": "cybersecuritynews.com"
+    },
+    {
+      "title": "Maximizing SOC Efficiency: How to Eliminate Alert Overload and Cut MTTR by 21 Minutes Per Case",
+      "link": "https://cybersecuritynews.com/maximizing-soc-efficiency/",
+      "date": "2026-07-14T15:05:30Z",
+      "description": "Security Operations Centers (SOCs) face overwhelming challenges not due to a lack of alerts but because each alert requires a new investigation. Analysts must validate indicators, identify malicious behavior, assess the scope of threats, and determine whether to contain or escalate cases, all while navigating disconnected tools. This fragmented approach wastes time, contributes to alert […] The…",
+      "source": "cybersecuritynews.com"
+    },
+    {
+      "title": "Turkish Banks Targeted by 8,400 Phishing Domains and 6,600 Social Media Scam Ads",
+      "link": "https://cybersecuritynews.com/turkish-banks-targeted-by-8400-phishing-domains/",
+      "date": "2026-07-14T14:48:39Z",
+      "description": "Turkey’s banking customers are facing a large fraud campaign built around fake websites and social media advertisements. Criminals are abusing trusted financial brands to draw people into credential theft, fake loan offers, and other scams designed to steal money quickly. The operation is notable for its scale and speed, as more than 8,400 phishing domains […] The post Turkish Banks Targeted by…",
+      "source": "cybersecuritynews.com"
+    },
+    {
+      "title": "xAI Grok Build CLI Uploaded Entire Git Repositories and Unredacted .env Secrets to Cloud Storage",
+      "link": "https://cybersecuritynews.com/xai-grok-build-cloud-storage/",
+      "date": "2026-07-14T14:28:59Z",
+      "description": "A wire-level analysis of xAI’s Grok Build CLI revealed that version 0.2.93 transmitted unredacted file contents, including secrets from .env files, and uploaded full Git repositories along with their commit history to cloud storage These findings are based on traffic captured through a proxy from controlled test repositories using fake canary credentials. Security researcher Cereblab […] The…",
+      "source": "cybersecuritynews.com"
+    },
+    {
+      "title": "One Malicious OAuth Approval Can Give Hackers Persistent Access to Salesforce Data",
+      "link": "https://cybersecuritynews.com/one-malicious-oauth-approval/",
+      "date": "2026-07-14T14:28:24Z",
+      "description": "One mistaken approval inside Salesforce can hand attackers a quiet, durable route into a company’s most sensitive customer records. Recent campaigns tied to tradecraft associated with ShinyHunters show how a trusted application connection, rather than a software flaw, can be turned into a channel for large-scale data theft and continued access. Microsoft observed the activity […] The post One…",
+      "source": "cybersecuritynews.com"
+    },
+    {
+      "title": "You Don't Have to Run an Exploit to Know If You're Vulnerable",
+      "link": "https://www.bleepingcomputer.com/news/security/you-dont-have-to-run-an-exploit-to-know-if-youre-vulnerable/",
+      "date": "2026-07-14T14:00:10Z",
+      "description": "Many vulnerabilities cannot be safely validated with live exploits, either because no exploit exists or the affected systems are too critical to test. Picus explains how TTP chaining helps organizations determine exploitability by validating the attack techniques an exploit depends on, without launching the exploit itself. [...]",
+      "source": "bleepingcomputer.com"
+    },
+    {
+      "title": "7 Severe Vulnerabilities Patched in VMware Avi Load Balancer",
+      "link": "https://www.securityweek.com/7-severe-vulnerabilities-patched-in-vmware-avi-load-balancer/",
+      "date": "2026-07-14T13:55:41Z",
+      "description": "The flaws can be exploited for authentication bypass, remote code execution, privilege escalation, and directory traversal. The post 7 Severe Vulnerabilities Patched in VMware Avi Load Balancer appeared first on SecurityWeek.",
+      "source": "securityweek.com"
+    },
+    {
+      "title": "RabbitMQ Flaws Could Leak OAuth Secrets and Expose Cross-Tenant Queue Metadata",
+      "link": "https://thehackernews.com/2026/07/rabbitmq-flaws-could-leak-oauth-secrets.html",
+      "date": "2026-07-14T13:48:07Z",
+      "description": "Cybersecurity researchers have disclosed details of two access control-related flaws impacting the RabbitMQ message broker service that could allow attackers to leak OAuth client secrets, expose enterprise messaging infrastructure to takeover risks, and bypass tenant boundaries. Miggo's security team, which discovered and reported the flaws, said one \"leaks the broker's confidential OAuth",
+      "source": "thehackernews.com"
+    },
     {
       "title": "Unpatched Claude for Chrome Flaw Lets Extensions Read Gmail, Calendar",
       "link": "https://www.securityweek.com/unpatched-claude-for-chrome-flaw-lets-extensions-read-gmail-calendar/",
@@ -31,6 +87,20 @@
       "source": "bleepingcomputer.com"
     },
     {
+      "title": "11 Old Microsoft-Signed Linux UEFI Shims Could Let Attackers Bypass Secure Boot",
+      "link": "https://thehackernews.com/2026/07/11-old-microsoft-signed-linux-uefi.html",
+      "date": "2026-07-14T12:46:18Z",
+      "description": "Cybersecurity researchers have discovered 11 old, Microsoft-signed, Unified Extensible Firmware Interface (UEFI) applications that could be abused to bypass Secure Boot on most systems using the modern firmware standard. \"An attacker exploiting one of these vulnerable applications can execute untrusted code during system boot, enabling deployment of malicious UEFI bootkits or other malware,\"",
+      "source": "thehackernews.com"
+    },
+    {
+      "title": "Study of 85 Crypto Wallet Extensions Finds Address Leaks and Cross-Site Tracking Risks",
+      "link": "https://thehackernews.com/2026/07/study-of-85-crypto-wallet-extensions.html",
+      "date": "2026-07-14T11:55:00Z",
+      "description": "Researchers at KU Leuven tested 85 of the most popular crypto wallets that run as browser extensions and found that the wallets themselves leak enough to link and track the people using them. The way these wallets talk to websites and blockchain servers can tie a person's separate addresses together and let outsiders follow them from site to site. And on a site that already holds a name or",
+      "source": "thehackernews.com"
+    },
+    {
       "title": "SAP warns of critical flaws in NetWeaver and Commerce Cloud",
       "link": "https://www.bleepingcomputer.com/news/security/sap-warns-of-critical-flaws-in-netweaver-and-commerce-cloud/",
       "date": "2026-07-14T11:42:21Z",
@@ -38,11 +108,18 @@
       "source": "bleepingcomputer.com"
     },
     {
-      "title": "CISA Warns of Decades-Old Cisco IOS Vulnerability Actively Exploited in Attacks",
-      "link": "https://cybersecuritynews.com/decades-old-cisco-ios-vulnerability-exploited/",
-      "date": "2026-07-14T11:32:07Z",
-      "description": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) has issued a warning that attackers are actively exploiting CVE-2008-4128, a cross-site request forgery (CSRF) vulnerability affecting Cisco IOS versions 12.4(12) and 12.4(4). This vulnerability was added to CISA’s Known Exploited Vulnerabilities Catalog on July 13, 2026, underscoring that even legacy networking flaws can pose…",
-      "source": "cybersecuritynews.com"
+      "title": "How Pentera Turns AI Security Workflows into Validation Engines",
+      "link": "https://thehackernews.com/2026/07/how-pentera-turns-ai-security-workflows.html",
+      "date": "2026-07-14T11:30:00Z",
+      "description": "AI security agents are starting to influence real security decisions. They summarize findings, prioritize remediation, recommend next steps, and help teams move faster. But most still rely on fragmented risk signals: scanner output, severity scores, threat intelligence, configuration findings, and exposure data. That fragmentation matters because attackers do not move through environments one",
+      "source": "thehackernews.com"
+    },
+    {
+      "title": "OAuth Client ID Spoofing Lets Attackers Validate Stolen Microsoft Entra Credentials",
+      "link": "https://thehackernews.com/2026/07/oauth-client-id-spoofing-lets-attackers.html",
+      "date": "2026-07-14T11:21:35Z",
+      "description": "At least two distinct threat actors are weaponizing a novel evasion technique called OAuth client ID spoofing in cloud campaigns, while slipping past telemetry. The activity allows users to enumerate user accounts and validate stolen credentials in Microsoft Entra ID environments, without ever generating a successful sign-in event that would otherwise alert defenders. And bad actors have begun",
+      "source": "thehackernews.com"
     },
     {
       "title": "SAP Patches Critical Vulnerabilities in NetWeaver, Approuter, Commerce Cloud",
@@ -52,25 +129,11 @@
       "source": "securityweek.com"
     },
     {
-      "title": "UK and Allies Warn of Russian Hackers Actively Hacking Organizations’ Routers Worldwide",
-      "link": "https://cybersecuritynews.com/uk-allies-warns-attacks-from-russian-hackers/",
-      "date": "2026-07-14T11:14:25Z",
-      "description": "The UK, joined by international cybersecurity partners, has issued an urgent warning about Russian state-backed hackers targeting poorly secured routers and network devices worldwide. The alert focuses on Center 16, a cyber unit linked to Russia’s Federal Security Service, or FSB, which has been actively scanning the internet for vulnerable infrastructure. The National Cyber Security […] The…",
-      "source": "cybersecuritynews.com"
-    },
-    {
       "title": "US, Allies Warn of Russian Cyberattacks Targeting Critical Infrastructure Routers",
       "link": "https://www.securityweek.com/us-allies-warn-of-russian-cyberattacks-targeting-critical-infrastructure-routers/",
       "date": "2026-07-14T10:51:01Z",
       "description": "Multiple state-sponsored APTs are compromising poorly secured devices across critical infrastructure sector networks. The post US, Allies Warn of Russian Cyberattacks Targeting Critical Infrastructure Routers appeared first on SecurityWeek.",
       "source": "securityweek.com"
-    },
-    {
-      "title": "SAP Security Update July 2026 – Patch for Critical SAP NetWeaver Flaw that Enables Memory Corruption",
-      "link": "https://cybersecuritynews.com/sap-security-update-july-2026/",
-      "date": "2026-07-14T10:48:35Z",
-      "description": "SAP has released its July 2026 Security Patch Day updates, addressing a critical memory corruption vulnerability in the SAP NetWeaver Application Server ABAP. The most severe issue, tracked as CVE-2026-44747, has a CVSS score of 9.9 and affects multiple SAP kernel versions used in enterprise environments. On July 14, SAP published 16 new security notes […] The post SAP Security Update July 2026…",
-      "source": "cybersecuritynews.com"
     },
     {
       "title": "Microsoft starts testing cleaner Windows Search without ads",
@@ -80,67 +143,11 @@
       "source": "bleepingcomputer.com"
     },
     {
-      "title": "Greenhat Announces Successful Delegation at Web Summit Vancouver 2026",
-      "link": "https://cybersecuritynews.com/greenhat-announces-successful-delegation-at-web-summit-vancouver-2026/",
-      "date": "2026-07-14T09:44:55Z",
-      "description": "Vancouver, Canada, July 14th, 2026, CyberNewswire Canadian Cybersecurity Leaders Celebrate Successful Web Summit Vancouver 2026 and Growing Canada–Korea Collaboration The Canadian Cyber Zone brought together cybersecurity, quantum security, application security, compliance, and international innovation leaders during one of Canada’s largest technology events The Canadian Cyber Zone announced the…",
-      "source": "cybersecuritynews.com"
-    },
-    {
-      "title": "US sanctions VPN, malware providers for enabling ransomware attacks",
-      "link": "https://www.bleepingcomputer.com/news/security/us-sanctions-vpn-malware-providers-linked-to-ransomware-gangs/",
-      "date": "2026-07-14T09:40:13Z",
-      "description": "The U.S. Treasury Department's Office of Foreign Assets Control (OFAC) sanctioned two individuals and one entity for enabling ransomware attacks against U.S. organizations. [...]",
-      "source": "bleepingcomputer.com"
-    },
-    {
       "title": "Valarian Raises $50 Million for Sovereign Infrastructure Control Layer",
       "link": "https://www.securityweek.com/valarian-raises-50-million-for-sovereign-infrastructure-control-layer/",
       "date": "2026-07-14T09:32:15Z",
       "description": "UK-based cybersecurity firm Valarian has raised a total of $70 million for its ACRA technology. The post Valarian Raises $50 Million for Sovereign Infrastructure Control Layer appeared first on SecurityWeek.",
       "source": "securityweek.com"
-    },
-    {
-      "title": "Multiple Jscrambler Packages Impacted by Supply Chain Attack",
-      "link": "https://www.securityweek.com/multiple-jscrambler-packages-impacted-by-supply-chain-attack/",
-      "date": "2026-07-14T09:04:39Z",
-      "description": "A threat actor poisoned several Jscrambler NPM package versions to drop a cross-platform credential stealer. The post Multiple Jscrambler Packages Impacted by Supply Chain Attack appeared first on SecurityWeek.",
-      "source": "securityweek.com"
-    },
-    {
-      "title": "Grok Build Uploaded Entire Git Repositories to xAI Storage, Not Just Files It Read",
-      "link": "https://thehackernews.com/2026/07/grok-build-uploads-entire-git.html",
-      "date": "2026-07-14T09:02:48Z",
-      "description": "xAI's Grok Build coding CLI was uploading entire Git repositories, full commit history and all, to a Google Cloud Storage bucket run by xAI, not just the files a coding task needed. A researcher publishing as cereblab, testing version 0.2.93, captured one of those uploads, cloned the git bundle out of the intercepted request, and pulled back a file the agent had been told in plain terms not",
-      "source": "thehackernews.com"
-    },
-    {
-      "title": "150+ npm Packages Promise Wi-Fi Bypass for Students Using Their Systems for DDoS Attacks",
-      "link": "https://cybersecuritynews.com/150-npm-packages-promises-wi-fi-bypass-students/",
-      "date": "2026-07-14T08:38:07Z",
-      "description": "Nearly 150 npm packages posing as school Wi-Fi bypass tools were used to turn visiting browsers into potential DDoS engines. The campaign presented itself as harmless tutoring-branded web proxies, giving students a way to reach blocked websites and games while quietly loading harmful code in the background. Unlike a typical malicious npm package, this operation […] The post 150+ npm Packages…",
-      "source": "cybersecuritynews.com"
-    },
-    {
-      "title": "U.S. Sanctions First VPN Service and Malware Cryptor Seller Over Ransomware Support",
-      "link": "https://thehackernews.com/2026/07/us-sanctions-first-vpn-service-and.html",
-      "date": "2026-07-14T08:02:33Z",
-      "description": "The U.S. Treasury Department's Office of Foreign Assets Control (OFAC) has designated two individuals and a VPN service provider for enabling ransomware actors' and other cybercriminals' malicious activities, including ransomware attacks against Americans. The VPN, named First VPN Service (1VPNS), has been accused of offering its tools to ransomware groups, along with its 45-year-old Ukrainian",
-      "source": "thehackernews.com"
-    },
-    {
-      "title": "148 npm Packages Disguised as Student Proxies Turned Browsers Into a DDoS Botnet",
-      "link": "https://thehackernews.com/2026/07/148-npm-packages-disguised-as-student.html",
-      "date": "2026-07-14T07:08:36Z",
-      "description": "A campaign of 148 npm packages disguised as student web proxies turned visitors' browsers into a distributed denial-of-service botnet for roughly two weeks in May, according to new research from JFrog. The packages did not go after the developers who might install them. The operators used the registry as free hosting for a booby-trapped proxy site and let the students who came to dodge",
-      "source": "thehackernews.com"
-    },
-    {
-      "title": "Microsoft Maps Three Salesforce Attack Paths Tied to a Year of ShinyHunters Activity",
-      "link": "https://thehackernews.com/2026/07/microsoft-maps-year-long-shinyhunters.html",
-      "date": "2026-07-14T06:19:24Z",
-      "description": "Attackers whose methods line up with the data-extortion group ShinyHunters have spent the past year walking into corporate Salesforce environments without exploiting a single flaw in the platform. The way in has been the trust the organization had already extended, usually through the OAuth connections that tie Salesforce to the apps and third-party vendors around it. In",
-      "source": "thehackernews.com"
     },
     {
       "title": "Weak Security Continues to Fuel Russian Cyberattacks",
@@ -155,13 +162,6 @@
       "date": "2026-07-13T18:18:30Z",
       "description": "In some companies, engineers are building defense and attack tools to test the potential of artificial intelligence for cybersecurity — and its threat.",
       "source": "darkreading.com"
-    },
-    {
-      "title": "CrashStealer macOS Malware Uses Notarized Dropper to Pass Gatekeeper Checks",
-      "link": "https://thehackernews.com/2026/07/crashstealer-macos-malware-uses.html",
-      "date": "2026-07-13T17:36:12Z",
-      "description": "Cybersecurity researchers have flagged a new macOS information stealer called CrashStealer that's capable of harvesting sensitive data from compromised systems. Unlike other information stealers that are built on AppleScript droppers or Objective-C-based wrappers, CrashStealer is implemented in native C++, according to Jamf Threat Labs. \"It validates the victim's login password locally before",
-      "source": "thehackernews.com"
     },
     {
       "title": "GigaWiper Lets Threat Actors Choose Their Own Destructive Attack",

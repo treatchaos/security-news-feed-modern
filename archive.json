@@ -1,8 +1,88 @@
 {
-  "last_updated": "2026-07-14T13:05:00Z",
+  "last_updated": "2026-07-14T15:15:28Z",
   "retention_days": 90,
   "count": 3433,
   "items": [
+    {
+      "id": "0395298b415dff423e761f997e22e166526358a4",
+      "title": "Miasma Turns Trusted npm Packages Into Persistent Backdoors for Developer Machines",
+      "link": "https://cybersecuritynews.com/miasma-turns-trusted-npm-packages-into-persistent-backdoors/",
+      "date": "2026-07-14T15:11:46Z",
+      "description": "Miasma has returned through software packages that many developers would normally trust. Four AsyncAPI packages on npm were altered to deliver a Miasma v3 payload, creating a route for long-term remote access. The campaign does not depend on malware running when a package is installed. Instead, hidden code activates when an application, generator, or build […] The post Miasma Turns Trusted npm…",
+      "source": "cybersecuritynews.com",
+      "first_seen": "2026-07-14T15:15:28Z",
+      "last_seen": "2026-07-14T15:15:28Z"
+    },
+    {
+      "id": "6f26f88d8a54e98b33cb3a5c76a69309518e9476",
+      "title": "Maximizing SOC Efficiency: How to Eliminate Alert Overload and Cut MTTR by 21 Minutes Per Case",
+      "link": "https://cybersecuritynews.com/maximizing-soc-efficiency/",
+      "date": "2026-07-14T15:05:30Z",
+      "description": "Security Operations Centers (SOCs) face overwhelming challenges not due to a lack of alerts but because each alert requires a new investigation. Analysts must validate indicators, identify malicious behavior, assess the scope of threats, and determine whether to contain or escalate cases, all while navigating disconnected tools. This fragmented approach wastes time, contributes to alert […] The…",
+      "source": "cybersecuritynews.com",
+      "first_seen": "2026-07-14T15:15:28Z",
+      "last_seen": "2026-07-14T15:15:28Z"
+    },
+    {
+      "id": "4362eb1d3af2fae1e3f572d1c615aa85b546ef1e",
+      "title": "Turkish Banks Targeted by 8,400 Phishing Domains and 6,600 Social Media Scam Ads",
+      "link": "https://cybersecuritynews.com/turkish-banks-targeted-by-8400-phishing-domains/",
+      "date": "2026-07-14T14:48:39Z",
+      "description": "Turkey’s banking customers are facing a large fraud campaign built around fake websites and social media advertisements. Criminals are abusing trusted financial brands to draw people into credential theft, fake loan offers, and other scams designed to steal money quickly. The operation is notable for its scale and speed, as more than 8,400 phishing domains […] The post Turkish Banks Targeted by…",
+      "source": "cybersecuritynews.com",
+      "first_seen": "2026-07-14T15:15:28Z",
+      "last_seen": "2026-07-14T15:15:28Z"
+    },
+    {
+      "id": "9a04b2159f5e97dd4e167d6aa5422de7debfa58d",
+      "title": "xAI Grok Build CLI Uploaded Entire Git Repositories and Unredacted .env Secrets to Cloud Storage",
+      "link": "https://cybersecuritynews.com/xai-grok-build-cloud-storage/",
+      "date": "2026-07-14T14:28:59Z",
+      "description": "A wire-level analysis of xAI’s Grok Build CLI revealed that version 0.2.93 transmitted unredacted file contents, including secrets from .env files, and uploaded full Git repositories along with their commit history to cloud storage These findings are based on traffic captured through a proxy from controlled test repositories using fake canary credentials. Security researcher Cereblab […] The…",
+      "source": "cybersecuritynews.com",
+      "first_seen": "2026-07-14T15:15:28Z",
+      "last_seen": "2026-07-14T15:15:28Z"
+    },
+    {
+      "id": "b1ebf4727a24bad5162657f526452dbcd5e8ef6d",
+      "title": "One Malicious OAuth Approval Can Give Hackers Persistent Access to Salesforce Data",
+      "link": "https://cybersecuritynews.com/one-malicious-oauth-approval/",
+      "date": "2026-07-14T14:28:24Z",
+      "description": "One mistaken approval inside Salesforce can hand attackers a quiet, durable route into a company’s most sensitive customer records. Recent campaigns tied to tradecraft associated with ShinyHunters show how a trusted application connection, rather than a software flaw, can be turned into a channel for large-scale data theft and continued access. Microsoft observed the activity […] The post One…",
+      "source": "cybersecuritynews.com",
+      "first_seen": "2026-07-14T15:15:28Z",
+      "last_seen": "2026-07-14T15:15:28Z"
+    },
+    {
+      "id": "510aa00c6cf7650b530bdc6234c97c629f09a4d7",
+      "title": "You Don't Have to Run an Exploit to Know If You're Vulnerable",
+      "link": "https://www.bleepingcomputer.com/news/security/you-dont-have-to-run-an-exploit-to-know-if-youre-vulnerable/",
+      "date": "2026-07-14T14:00:10Z",
+      "description": "Many vulnerabilities cannot be safely validated with live exploits, either because no exploit exists or the affected systems are too critical to test. Picus explains how TTP chaining helps organizations determine exploitability by validating the attack techniques an exploit depends on, without launching the exploit itself. [...]",
+      "source": "bleepingcomputer.com",
+      "first_seen": "2026-07-14T15:15:28Z",
+      "last_seen": "2026-07-14T15:15:28Z"
+    },
+    {
+      "id": "8c85eeaa7f1ed5dfd8e05de8847ebb386d0e5cef",
+      "title": "7 Severe Vulnerabilities Patched in VMware Avi Load Balancer",
+      "link": "https://www.securityweek.com/7-severe-vulnerabilities-patched-in-vmware-avi-load-balancer/",
+      "date": "2026-07-14T13:55:41Z",
+      "description": "The flaws can be exploited for authentication bypass, remote code execution, privilege escalation, and directory traversal. The post 7 Severe Vulnerabilities Patched in VMware Avi Load Balancer appeared first on SecurityWeek.",
+      "source": "securityweek.com",
+      "first_seen": "2026-07-14T15:15:28Z",
+      "last_seen": "2026-07-14T15:15:28Z"
+    },
+    {
+      "id": "53ef47508e3ac6ae4cfcab3e02e5be0c8091c8fb",
+      "title": "RabbitMQ Flaws Could Leak OAuth Secrets and Expose Cross-Tenant Queue Metadata",
+      "link": "https://thehackernews.com/2026/07/rabbitmq-flaws-could-leak-oauth-secrets.html",
+      "date": "2026-07-14T13:48:07Z",
+      "description": "Cybersecurity researchers have disclosed details of two access control-related flaws impacting the RabbitMQ message broker service that could allow attackers to leak OAuth client secrets, expose enterprise messaging infrastructure to takeover risks, and bypass tenant boundaries. Miggo's security team, which discovered and reported the flaws, said one \"leaks the broker's confidential OAuth",
+      "source": "thehackernews.com",
+      "first_seen": "2026-07-14T15:15:28Z",
+      "last_seen": "2026-07-14T15:15:28Z"
+    },
     {
       "id": "55bab88c9182b0ae13dfd0b601412087a9099487",
       "title": "Unpatched Claude for Chrome Flaw Lets Extensions Read Gmail, Calendar",
@@ -11,7 +91,7 @@
       "description": "A ClaudeBleed-linked vulnerability reportedly persists across eight patches, exposing potentially sensitive data to other extensions. The post Unpatched Claude for Chrome Flaw Lets Extensions Read Gmail, Calendar appeared first on SecurityWeek.",
       "source": "securityweek.com",
       "first_seen": "2026-07-14T13:05:00Z",
-      "last_seen": "2026-07-14T13:05:00Z"
+      "last_seen": "2026-07-14T15:15:28Z"
     },
     {
       "id": "071133a184d9c29770e62cf3f7745e5500d23208",
@@ -21,7 +101,7 @@
       "description": "Researchers reported the vulnerability to Cursor in December, but it still remains in the popular AI coding platform and can be exploited in poisoned repository attacks.",
       "source": "darkreading.com",
       "first_seen": "2026-07-14T13:05:00Z",
-      "last_seen": "2026-07-14T13:05:00Z"
+      "last_seen": "2026-07-14T15:15:28Z"
     },
     {
       "id": "9deb98a9f6dcd2471b8115a7dbec48895f5c7ef7",
@@ -31,7 +111,7 @@
       "description": "Microsoft has announced that passkeys will become the default authentication method for the Entra ID enterprise identity service starting September 2026. [...]",
       "source": "bleepingcomputer.com",
       "first_seen": "2026-07-14T13:05:00Z",
-      "last_seen": "2026-07-14T13:05:00Z"
+      "last_seen": "2026-07-14T15:15:28Z"
     },
     {
       "id": "3eb353046c057f82cc1e7ea142e792818d04c88d",
@@ -41,7 +121,27 @@
       "description": "Two new phishing kits, Jalisco and OmegaLord, have been discovered in attacks targeting Microsoft 365 accounts, using techniques that defeat multi-factor authentication (MFA). [...]",
       "source": "bleepingcomputer.com",
       "first_seen": "2026-07-14T13:05:00Z",
-      "last_seen": "2026-07-14T13:05:00Z"
+      "last_seen": "2026-07-14T15:15:28Z"
+    },
+    {
+      "id": "37d4455777cd5369e9d3c5ed69a27742d883cb77",
+      "title": "11 Old Microsoft-Signed Linux UEFI Shims Could Let Attackers Bypass Secure Boot",
+      "link": "https://thehackernews.com/2026/07/11-old-microsoft-signed-linux-uefi.html",
+      "date": "2026-07-14T12:46:18Z",
+      "description": "Cybersecurity researchers have discovered 11 old, Microsoft-signed, Unified Extensible Firmware Interface (UEFI) applications that could be abused to bypass Secure Boot on most systems using the modern firmware standard. \"An attacker exploiting one of these vulnerable applications can execute untrusted code during system boot, enabling deployment of malicious UEFI bootkits or other malware,\"",
+      "source": "thehackernews.com",
+      "first_seen": "2026-07-14T15:15:28Z",
+      "last_seen": "2026-07-14T15:15:28Z"
+    },
+    {
+      "id": "e4e526d1d697021b713ac8fbb8abc96458b0509d",
+      "title": "Study of 85 Crypto Wallet Extensions Finds Address Leaks and Cross-Site Tracking Risks",
+      "link": "https://thehackernews.com/2026/07/study-of-85-crypto-wallet-extensions.html",
+      "date": "2026-07-14T11:55:00Z",
+      "description": "Researchers at KU Leuven tested 85 of the most popular crypto wallets that run as browser extensions and found that the wallets themselves leak enough to link and track the people using them. The way these wallets talk to websites and blockchain servers can tie a person's separate addresses together and let outsiders follow them from site to site. And on a site that already holds a name or",
+      "source": "thehackernews.com",
+      "first_seen": "2026-07-14T15:15:28Z",
+      "last_seen": "2026-07-14T15:15:28Z"
     },
     {
       "id": "4241f2184b73abdfdad62222a3cbb8e3a24ffcc7",
@@ -51,7 +151,7 @@
       "description": "SAP has addressed 16 vulnerabilities across multiple products as part of its July 2026 security updates, including three critical flaws in NetWeaver, Commerce Cloud, and AppRouter. [...]",
       "source": "bleepingcomputer.com",
       "first_seen": "2026-07-14T13:05:00Z",
-      "last_seen": "2026-07-14T13:05:00Z"
+      "last_seen": "2026-07-14T15:15:28Z"
     },
     {
       "id": "16d07fc97e70d1370bfdf935a8b4928ca4f0b871",
@@ -64,6 +164,26 @@
       "last_seen": "2026-07-14T13:05:00Z"
     },
     {
+      "id": "e4e2e6c43617ab8e5b8a6c18eb7dd853228224cb",
+      "title": "How Pentera Turns AI Security Workflows into Validation Engines",
+      "link": "https://thehackernews.com/2026/07/how-pentera-turns-ai-security-workflows.html",
+      "date": "2026-07-14T11:30:00Z",
+      "description": "AI security agents are starting to influence real security decisions. They summarize findings, prioritize remediation, recommend next steps, and help teams move faster. But most still rely on fragmented risk signals: scanner output, severity scores, threat intelligence, configuration findings, and exposure data. That fragmentation matters because attackers do not move through environments one",
+      "source": "thehackernews.com",
+      "first_seen": "2026-07-14T15:15:28Z",
+      "last_seen": "2026-07-14T15:15:28Z"
+    },
+    {
+      "id": "27d2a81bff64217f3c42a2d9ba9c15556638c515",
+      "title": "OAuth Client ID Spoofing Lets Attackers Validate Stolen Microsoft Entra Credentials",
+      "link": "https://thehackernews.com/2026/07/oauth-client-id-spoofing-lets-attackers.html",
+      "date": "2026-07-14T11:21:35Z",
+      "description": "At least two distinct threat actors are weaponizing a novel evasion technique called OAuth client ID spoofing in cloud campaigns, while slipping past telemetry. The activity allows users to enumerate user accounts and validate stolen credentials in Microsoft Entra ID environments, without ever generating a successful sign-in event that would otherwise alert defenders. And bad actors have begun",
+      "source": "thehackernews.com",
+      "first_seen": "2026-07-14T15:15:28Z",
+      "last_seen": "2026-07-14T15:15:28Z"
+    },
+    {
       "id": "9b9674c0106b251fafd8ac45d9acf94931f9e917",
       "title": "SAP Patches Critical Vulnerabilities in NetWeaver, Approuter, Commerce Cloud",
       "link": "https://www.securityweek.com/sap-patches-critical-vulnerabilities-in-netweaver-approuter-commerce-cloud/",
@@ -71,7 +191,7 @@
       "description": "The flaws could allow attackers to access and modify data, and cause system unavailability and request-response desynchronization. The post SAP Patches Critical Vulnerabilities in NetWeaver, Approuter, Commerce Cloud appeared first on SecurityWeek.",
       "source": "securityweek.com",
       "first_seen": "2026-07-14T13:05:00Z",
-      "last_seen": "2026-07-14T13:05:00Z"
+      "last_seen": "2026-07-14T15:15:28Z"
     },
     {
       "id": "199b1e7d525435265f1af010660aa3576a48012d",
@@ -91,7 +211,7 @@
       "description": "Multiple state-sponsored APTs are compromising poorly secured devices across critical infrastructure sector networks. The post US, Allies Warn of Russian Cyberattacks Targeting Critical Infrastructure Routers appeared first on SecurityWeek.",
       "source": "securityweek.com",
       "first_seen": "2026-07-14T11:16:54Z",
-      "last_seen": "2026-07-14T13:05:00Z"
+      "last_seen": "2026-07-14T15:15:28Z"
     },
     {
       "id": "55c0e9fa86dcbe2b9c088acbb3d2c7ac2c0d46c5",
@@ -111,7 +231,7 @@
       "description": "Microsoft is now testing a cleaner and faster version of Windows Search that should prioritize relevant results over ads and promotional content. [...]",
       "source": "bleepingcomputer.com",
       "first_seen": "2026-07-14T11:16:54Z",
-      "last_seen": "2026-07-14T13:05:00Z"
+      "last_seen": "2026-07-14T15:15:28Z"
     },
     {
       "id": "bf68283ed60dca7378cd69f92239cf339eb46387",
@@ -141,7 +261,7 @@
       "description": "UK-based cybersecurity firm Valarian has raised a total of $70 million for its ACRA technology. The post Valarian Raises $50 Million for Sovereign Infrastructure Control Layer appeared first on SecurityWeek.",
       "source": "securityweek.com",
       "first_seen": "2026-07-14T09:45:28Z",
-      "last_seen": "2026-07-14T13:05:00Z"
+      "last_seen": "2026-07-14T15:15:28Z"
     },
     {
       "id": "cf74fc001d6ecd9eb5586b0957b9e7e8fff1d792",
@@ -291,7 +411,7 @@
       "description": "In a first, the UK and the EU jointly imposed sanctions on Russian individuals and entities for cyberattacks and disinformation campaigns in the region.",
       "source": "darkreading.com",
       "first_seen": "2026-07-13T21:43:43Z",
-      "last_seen": "2026-07-14T13:05:00Z"
+      "last_seen": "2026-07-14T15:15:28Z"
     },
     {
       "id": "d7ef24692682eaebc0199a72e6a8588931244200",
@@ -331,7 +451,7 @@
       "description": "In some companies, engineers are building defense and attack tools to test the potential of artificial intelligence for cybersecurity — and its threat.",
       "source": "darkreading.com",
       "first_seen": "2026-07-13T19:10:21Z",
-      "last_seen": "2026-07-14T13:05:00Z"
+      "last_seen": "2026-07-14T15:15:28Z"
     },
     {
       "id": "bf844eef26b945b823dfd6821001581f424d9f51",
@@ -361,7 +481,7 @@
       "description": "A modular implant borrows from various malware families to combine both backdoor and wiper activities to maximize impact and minimize operational output.",
       "source": "darkreading.com",
       "first_seen": "2026-07-13T17:05:07Z",
-      "last_seen": "2026-07-14T13:05:00Z"
+      "last_seen": "2026-07-14T15:15:28Z"
     },
     {
       "id": "6963da03a9d1d2f49066b7fe1a56ee0a8cd50fcc",
@@ -981,7 +1101,7 @@
       "description": "An open source, AI-driven system adopts victim personas to engage with phishing attackers, allowing organizations and law enforcement to gather relevant data on cybercriminal operations.",
       "source": "darkreading.com",
       "first_seen": "2026-07-10T20:12:59Z",
-      "last_seen": "2026-07-14T13:05:00Z"
+      "last_seen": "2026-07-14T15:15:28Z"
     },
     {
       "id": "e5e61083322d0ddfa51d83376b107d8a1c254927",
@@ -1511,7 +1631,7 @@
       "description": "A CVSS score 7.8 AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H severity vulnerability discovered by 'Bobby Gould (@bobbygould5) of TrendAI Zero Day Initiative' was reported to the affected vendor on: 2026-07-10, 0 days ago. The vendor is given until 2026-11-07 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
       "source": "zerodayinitiative.com",
       "first_seen": "2026-07-10T16:14:29Z",
-      "last_seen": "2026-07-14T13:05:00Z"
+      "last_seen": "2026-07-14T15:15:28Z"
     },
     {
       "id": "9fbeabd87ea60cfe776d6fe146decfd4b297f907",
@@ -1521,7 +1641,7 @@
       "description": "A CVSS score 6.1 AV:L/AC:H/PR:H/UI:N/S:C/C:H/I:N/A:L severity vulnerability discovered by 'Xiaobye(@xiaobye_tw) of DEVCORE Research Team' was reported to the affected vendor on: 2026-07-10, 0 days ago. The vendor is given until 2026-11-07 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
       "source": "zerodayinitiative.com",
       "first_seen": "2026-07-10T20:12:59Z",
-      "last_seen": "2026-07-14T13:05:00Z"
+      "last_seen": "2026-07-14T15:15:28Z"
     },
     {
       "id": "a9d0d831b2f5b406c0a3b986c074e7ad610b9ca6",
@@ -1531,7 +1651,7 @@
       "description": "A CVSS score 7.5 AV:L/AC:H/PR:H/UI:N/S:C/C:H/I:H/A:H severity vulnerability discovered by 'Phan Vinh Khang of Viettel Cyber Security' was reported to the affected vendor on: 2026-07-10, 0 days ago. The vendor is given until 2026-11-07 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
       "source": "zerodayinitiative.com",
       "first_seen": "2026-07-10T20:12:59Z",
-      "last_seen": "2026-07-14T13:05:00Z"
+      "last_seen": "2026-07-14T15:15:28Z"
     },
     {
       "id": "080acfaaa9fd4d41fd7a668d42469773b33da8e6",
@@ -1541,7 +1661,7 @@
       "description": "A CVSS score 9.3 AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:L/A:N severity vulnerability discovered by 'Habibullo Izzatilloyev' was reported to the affected vendor on: 2026-07-10, 0 days ago. The vendor is given until 2026-11-07 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
       "source": "zerodayinitiative.com",
       "first_seen": "2026-07-10T21:50:47Z",
-      "last_seen": "2026-07-14T13:05:00Z"
+      "last_seen": "2026-07-14T15:15:28Z"
     },
     {
       "id": "35e2af2d2902b0361a925935993365da41dc4897",
@@ -1551,7 +1671,7 @@
       "description": "A CVSS score 5.9 AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:N/A:N severity vulnerability discovered by 'Minh Giang (@itscysamu) of TrendAI Zero Day Initiative and Taha Siddiqi (@_atomiz_) of TrendAI Research' was reported to the affected vendor on: 2026-07-10, 0 days ago. The vendor is given until 2026-11-07 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the…",
       "source": "zerodayinitiative.com",
       "first_seen": "2026-07-10T21:50:47Z",
-      "last_seen": "2026-07-14T13:05:00Z"
+      "last_seen": "2026-07-14T15:15:28Z"
     },
     {
       "id": "4099760f4c17d2603cfea432b56e7b3e7534206b",
@@ -34104,36 +34224,6 @@
       "last_seen": "2026-04-16T15:17:06Z"
     },
     {
-      "id": "25b568221da516a78a37b3692d12bffcc083268b",
-      "title": "Google, Microsoft, Meta Tracking You Even if You Opt Out – New Research",
-      "link": "https://cybersecuritynews.com/google-microsoft-meta-tracking-even-you-opt-out/",
-      "date": "2026-04-15T14:16:38Z",
-      "description": "In a massive blow to consumer privacy, a new forensic audit reveals that tech giants Google, Microsoft, and Meta are systematically ignoring legally defined privacy opt-out signals. According to the March 2026 California Privacy Audit conducted by webXray, 194 online advertising services are setting tracking cookies even after users explicitly invoke the Global Privacy Control […] The post…",
-      "source": "cybersecuritynews.com",
-      "first_seen": "2026-04-15T14:29:13Z",
-      "last_seen": "2026-04-16T06:27:46Z"
-    },
-    {
-      "id": "e948081683ad11763fd3d7d53b43d89453d25a2e",
-      "title": "Microsoft Releases Cumulative Update KB5083769 for Windows 11, Version 25H2 and 24H2",
-      "link": "https://cybersecuritynews.com/microsoft-cumulative-update-windows-11/",
-      "date": "2026-04-15T14:14:05Z",
-      "description": "Microsoft has officially released the April 2026 Patch Tuesday cumulative update, KB5083769, for Windows 11 versions 25H2 and 24H2. Released on April 14, 2026, this mandatory security update addresses system vulnerabilities. It brings significant structural enhancements, advancing the operating system to OS Builds 26200.8246 and 26100.8246, respectively. This update combines the latest security…",
-      "source": "cybersecuritynews.com",
-      "first_seen": "2026-04-15T14:29:13Z",
-      "last_seen": "2026-04-16T06:27:46Z"
-    },
-    {
-      "id": "f3df12849be40d36899f0656923287187b3ce10b",
-      "title": "Windows Active Directory Vulnerability Allow Attackers to Execute Malicious Code",
-      "link": "https://cybersecuritynews.com/windows-active-directory-vulnerability/",
-      "date": "2026-04-15T14:11:19Z",
-      "description": "Microsoft has released urgent security updates to address a critical vulnerability in Windows Active Directory that allows attackers to execute malicious code. Disclosed on April 14, 2026, the vulnerability poses a significant risk to enterprise networks by potentially granting threat actors deep access to core identity and access management servers. Microsoft urges administrators to apply […]…",
-      "source": "cybersecuritynews.com",
-      "first_seen": "2026-04-15T14:29:13Z",
-      "last_seen": "2026-04-16T01:28:12Z"
-    },
-    {
       "id": "514530d4acad7d25e1fbbef8c09fe44470d7750a",
       "title": "Windows Active Directory Vulnerability Allows Attackers to Execute Malicious Code",
       "link": "https://cybersecuritynews.com/windows-active-directory-vulnerability/",
@@ -34142,96 +34232,6 @@
       "source": "cybersecuritynews.com",
       "first_seen": "2026-04-16T04:43:41Z",
       "last_seen": "2026-04-16T06:27:46Z"
-    },
-    {
-      "id": "554890a607304e0666dbe9fb115305f7ad7b51de",
-      "title": "New PHP Composer Vulnerability Let Attackers Execute Arbitrary Commands",
-      "link": "https://cybersecuritynews.com/php-composer-vulnerability/",
-      "date": "2026-04-15T14:08:50Z",
-      "description": "PHP Composer released urgent security updates to address two critical command injection vulnerabilities. PHP Composer is an essential dependency management tool used globally by developers, making any code execution flaws highly concerning. These specific bugs reside in the Perforce Version Control System (VCS) driver and allow attackers to execute arbitrary commands on a victim’s machine. Users…",
-      "source": "cybersecuritynews.com",
-      "first_seen": "2026-04-15T14:29:13Z",
-      "last_seen": "2026-04-16T04:43:41Z"
-    },
-    {
-      "id": "5ce0fc85ed237791e558f1e5072284ec10d9f44b",
-      "title": "Adobe Acrobat Reader Vulnerabilities Let Attackers Execute Arbitrary Code",
-      "link": "https://cybersecuritynews.com/adobe-acrobat-reader-vulnerabilities-patch/",
-      "date": "2026-04-15T14:05:46Z",
-      "description": "Adobe has released a critical security bulletin on April 14, 2026, to address multiple vulnerabilities in Adobe Acrobat and Reader for Windows and macOS. According to the official advisory, successful exploitation of these flaws could allow attackers to execute arbitrary code or read arbitrary files on a targeted system. While these threats carry high severity […] The post Adobe Acrobat Reader…",
-      "source": "cybersecuritynews.com",
-      "first_seen": "2026-04-15T14:29:13Z",
-      "last_seen": "2026-04-16T01:28:12Z"
-    },
-    {
-      "id": "1479b9995e10f2949b12f3908d897ba3cbdec234",
-      "title": "Rolling Networks: Securing the Transportation Sector",
-      "link": "https://www.bleepingcomputer.com/news/security/rolling-networks-securing-the-transportation-sector/",
-      "date": "2026-04-15T14:00:10Z",
-      "description": "Modern trucks are rolling networks packed with sensors, connectivity, and attack surfaces, creating new cyber risks. NMFTA's Cybersecurity Conference brings industry leaders together to tackle emerging threats in transportation. [...]",
-      "source": "bleepingcomputer.com",
-      "first_seen": "2026-04-15T14:29:13Z",
-      "last_seen": "2026-04-15T21:41:41Z"
-    },
-    {
-      "id": "59a375504bda7498c2d23dee3c8b4f8b88625912",
-      "title": "Capsule Security Emerges From Stealth With $7 Million in Funding",
-      "link": "https://www.securityweek.com/capsule-security-emerges-from-stealth-with-7-million-in-funding/",
-      "date": "2026-04-15T13:56:50Z",
-      "description": "The Israeli startup aims to secure AI agents at runtime, continuously monitoring their behavior to prevent unsafe actions. The post Capsule Security Emerges From Stealth With $7 Million in Funding appeared first on SecurityWeek.",
-      "source": "securityweek.com",
-      "first_seen": "2026-04-15T14:29:13Z",
-      "last_seen": "2026-04-16T08:22:06Z"
-    },
-    {
-      "id": "5c11f4a54c54070c9e223c39d3e8a4c92c76978a",
-      "title": "‘By Design’ Flaw in MCP Could Enable Widespread AI Supply Chain Attacks",
-      "link": "https://www.securityweek.com/by-design-flaw-in-mcp-could-enable-widespread-ai-supply-chain-attacks/",
-      "date": "2026-04-15T13:34:48Z",
-      "description": "Researchers warn that a flaw in Anthropic’s Model Context Protocol allows unsanitized commands to execute silently, enabling full system compromise across widely used AI environments. The post ‘By Design’ Flaw in MCP Could Enable Widespread AI Supply Chain Attacks appeared first on SecurityWeek.",
-      "source": "securityweek.com",
-      "first_seen": "2026-04-15T14:29:13Z",
-      "last_seen": "2026-04-16T08:22:06Z"
-    },
-    {
-      "id": "9b35c2941d050a0dc3f3ff9dd7b4ba52909fe6db",
-      "title": "100 Chrome Extensions Steal User Data, Create Backdoor",
-      "link": "https://www.securityweek.com/100-chrome-extensions-steal-user-data-open-backdoor/",
-      "date": "2026-04-15T13:24:13Z",
-      "description": "Published through five accounts, the extensions appear part of a coordinated campaign based on shared C&C infrastructure. The post 100 Chrome Extensions Steal User Data, Create Backdoor appeared first on SecurityWeek.",
-      "source": "securityweek.com",
-      "first_seen": "2026-04-15T14:29:13Z",
-      "last_seen": "2026-04-16T08:22:06Z"
-    },
-    {
-      "id": "a095a6ea65bf3bf55eb2cc73cfeba311271c357c",
-      "title": "CISO Conversations: Ross McKerchar, CISO at Sophos",
-      "link": "https://www.securityweek.com/ciso-conversations-ross-mckerchar-ciso-at-sophos/",
-      "date": "2026-04-15T13:00:00Z",
-      "description": "Sophos’ Ross McKerchar discusses leadership at scale, retaining talent, defending against AI-enabled threats, and the industry’s growing trust problem. The post CISO Conversations: Ross McKerchar, CISO at Sophos appeared first on SecurityWeek.",
-      "source": "securityweek.com",
-      "first_seen": "2026-04-15T14:29:13Z",
-      "last_seen": "2026-04-15T15:58:39Z"
-    },
-    {
-      "id": "0f72f0292b8af00f34abb90db3582fb87b3306a6",
-      "title": "Actively Exploited nginx-ui Flaw (CVE-2026-33032) Enables Full Nginx Server Takeover",
-      "link": "https://thehackernews.com/2026/04/critical-nginx-ui-vulnerability-cve.html",
-      "date": "2026-04-15T12:56:00Z",
-      "description": "A recently disclosed critical security flaw impacting nginx-ui, an open-source, web-based Nginx management tool, has come under active exploitation in the wild. The vulnerability in question is CVE-2026-33032 (CVSS score: 9.8), an authentication bypass vulnerability that enables threat actors to seize control of the Nginx service. It has been codenamed MCPwn by Pluto Security. \"",
-      "source": "thehackernews.com",
-      "first_seen": "2026-04-15T14:29:13Z",
-      "last_seen": "2026-04-16T10:06:33Z"
-    },
-    {
-      "id": "4cbf382c55fe405b33bcbb715b1174737706de71",
-      "title": "April Patch Tuesday Fixes Critical Flaws Across SAP, Adobe, Microsoft, Fortinet, and More",
-      "link": "https://thehackernews.com/2026/04/april-patch-tuesday-fixes-critical.html",
-      "date": "2026-04-15T12:37:00Z",
-      "description": "A number of critical vulnerabilities impacting products from Adobe, Fortinet, Microsoft, and SAP have taken center stage in April's Patch Tuesday releases. Topping the list is an SQL injection vulnerability impacting SAP Business Planning and Consolidation and SAP Business Warehouse (CVE-2026-27681, CVSS score: 9.9) that could result in the execution of arbitrary database",
-      "source": "thehackernews.com",
-      "first_seen": "2026-04-15T14:29:13Z",
-      "last_seen": "2026-04-16T10:06:33Z"
     },
     {
       "id": "5c1a125fdbf222a731e847599873ada1e3b6ae97",
@@ -34291,7 +34291,7 @@
       "description": "2.5 million people were affected, in a breach that could spell more trouble down the line.",
       "source": "threatpost.com",
       "first_seen": "2026-05-10T12:53:08Z",
-      "last_seen": "2026-07-14T13:05:00Z"
+      "last_seen": "2026-07-14T15:15:28Z"
     },
     {
       "id": "4140c7a34b0ba94ad2e6b0cae9f59b0cb9bfffea",
@@ -34301,7 +34301,7 @@
       "description": "Researchers uncover a watering hole attack likely carried out by APT TA423, which attempts to plant the ScanBox JavaScript-based reconnaissance tool.",
       "source": "threatpost.com",
       "first_seen": "2026-05-10T12:53:08Z",
-      "last_seen": "2026-07-14T13:05:00Z"
+      "last_seen": "2026-07-14T15:15:28Z"
     },
     {
       "id": "9359ee40a641a4b565080313045f1d7e7fe6552b",
@@ -34311,7 +34311,7 @@
       "description": "Over 130 companies tangled in sprawling phishing campaign that spoofed a multi-factor authentication system.",
       "source": "threatpost.com",
       "first_seen": "2026-05-10T12:53:08Z",
-      "last_seen": "2026-07-14T13:05:00Z"
+      "last_seen": "2026-07-14T15:15:28Z"
     },
     {
       "id": "b4ccef0737cd4050d65241bf754072030b6b5e6a",
@@ -34321,7 +34321,7 @@
       "description": "Lockbit is by far this summer’s most prolific ransomware group, trailed by two offshoots of the Conti group.",
       "source": "threatpost.com",
       "first_seen": "2026-05-10T12:53:08Z",
-      "last_seen": "2026-07-14T13:05:00Z"
+      "last_seen": "2026-07-14T15:15:28Z"
     },
     {
       "id": "12ee113fc8fce91f6d7fb28deab2b1ad20061ec7",
@@ -34331,7 +34331,7 @@
       "description": "Tens of thousands of cameras have failed to patch a critical, 11-month-old CVE, leaving thousands of organizations exposed.",
       "source": "threatpost.com",
       "first_seen": "2026-05-10T12:53:08Z",
-      "last_seen": "2026-07-14T13:05:00Z"
+      "last_seen": "2026-07-14T15:15:28Z"
     }
   ]
 }
