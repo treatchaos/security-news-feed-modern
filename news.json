@@ -1,7 +1,35 @@
 {
-  "last_updated": "2026-07-14T20:14:10Z",
+  "last_updated": "2026-07-14T21:46:02Z",
   "count": 35,
   "items": [
+    {
+      "title": "SonicWall warns of SMA1000 flaws exploited in zero-day attacks, patch now",
+      "link": "https://www.bleepingcomputer.com/news/security/sonicwall-warns-of-sma1000-flaws-exploited-in-zero-day-attacks-patch-now/",
+      "date": "2026-07-14T21:23:24Z",
+      "description": "SonicWall warns that threat actors have been exploiting two SMA1000 vulnerabilities, tracked as CVE-2026-15409 and CVE-2026-15410, in zero-day attacks and urges customers to install the newly released security updates. [...]",
+      "source": "bleepingcomputer.com"
+    },
+    {
+      "title": "Microsoft Patches Record 622 Flaws, Including Two Zero-Days Under Active Attack",
+      "link": "https://thehackernews.com/2026/07/microsoft-patches-record-622-flaws.html",
+      "date": "2026-07-14T20:25:47Z",
+      "description": "Microsoft shipped its largest Patch Tuesday on record today, and two of the fixes close holes that attackers are already exploiting. The release covers 622 of Microsoft's own CVEs by its Security Update Guide count, more than triple June's previous high of around 200. Those two live bugs are the ones to grab first. Microsoft credits incident responders for both. Both are",
+      "source": "thehackernews.com"
+    },
+    {
+      "title": "Spanish Police take down €140 million cyber fraud ring, arrest four",
+      "link": "https://www.bleepingcomputer.com/news/security/spanish-police-take-down-140-million-cyber-fraud-ring-arrest-four/",
+      "date": "2026-07-14T20:23:09Z",
+      "description": "The Spanish Police dismantled a cybercrime and money-laundering organization that made €140 million ($160 million) from investment fraud and business email compromise (BEC) attacks. [...]",
+      "source": "bleepingcomputer.com"
+    },
+    {
+      "title": "6 GHz Wi-Fi Flaws Could Disrupt Critical Systems",
+      "link": "https://www.darkreading.com/perimeter/6-ghz-wi-fi-flaws-disrupt-critical-systems",
+      "date": "2026-07-14T19:58:31Z",
+      "description": "Automated Frequency Coordination systems by default trust client-side data, which could lead to location spoofing and other attacks that disrupt traffic.",
+      "source": "darkreading.com"
+    },
     {
       "title": "Tego AI Finds Claude Tag Slack Integration Can Trigger Unauthorized Enterprise Actions",
       "link": "https://cybersecuritynews.com/tego-ai-finds-claude-tag-slack-integration-can-trigger-unauthorized-enterprise-actions/",
@@ -66,13 +94,6 @@
       "source": "darkreading.com"
     },
     {
-      "title": "Windows 11 KB5101650 & KB5099414 cumulative updates released",
-      "link": "https://www.bleepingcomputer.com/news/microsoft/windows-11-kb5101650-and-kb5099414-cumulative-updates-released/",
-      "date": "2026-07-14T17:41:16Z",
-      "description": "Microsoft has released Windows 11 KB5101650 and KB5099414 cumulative updates for versions 25H2/24H2 and 23H2 to fix security vulnerabilities, bugs, and add new features. [...]",
-      "source": "bleepingcomputer.com"
-    },
-    {
       "title": "Researchers Say Claude for Chrome Flaw Lets Rogue Extensions Trigger Gmail Reads",
       "link": "https://thehackernews.com/2026/07/claude-for-chrome-flaw-lets-other.html",
       "date": "2026-07-14T17:27:23Z",
@@ -113,13 +134,6 @@
       "date": "2026-07-14T16:12:35Z",
       "description": "Anthropic’s Claude for Chrome browser extension has two unpatched flaws that allow attackers to read a victim’s Gmail, Google Docs, and Calendar data using just six lines of JavaScript, even after eight subsequent releases. Manifold researchers first reported the issues in May 2026, yet both remain reproducible in the latest v1.0.80, released July 7, 2026. […] The post Claude for Chrome…",
       "source": "cybersecuritynews.com"
-    },
-    {
-      "title": "Progress confirms ShareFile zero-day flaw behind Storage Zone shutdown",
-      "link": "https://www.bleepingcomputer.com/news/security/progress-confirms-sharefile-zero-day-flaw-behind-storage-zone-shutdown/",
-      "date": "2026-07-14T16:08:47Z",
-      "description": "Progress Software has confirmed that a high-severity zero-day vulnerability is behind the emergency shutdown of ShareFile Storage Zone Controllers last week and has released security updates to patch the flaw. [...]",
-      "source": "bleepingcomputer.com"
     },
     {
       "title": "Frontier AI: The Genie's Out of the Bottle, but Where's the Rulebook?",
@@ -164,52 +178,38 @@
       "source": "darkreading.com"
     },
     {
-      "title": "11 Old Microsoft-Signed Linux UEFI Shims Could Let Attackers Bypass Secure Boot",
-      "link": "https://thehackernews.com/2026/07/11-old-microsoft-signed-linux-uefi.html",
-      "date": "2026-07-14T12:46:18Z",
-      "description": "Cybersecurity researchers have discovered 11 old, Microsoft-signed, Unified Extensible Firmware Interface (UEFI) applications that could be abused to bypass Secure Boot on most systems using the modern firmware standard. \"An attacker exploiting one of these vulnerable applications can execute untrusted code during system boot, enabling deployment of malicious UEFI bootkits or other malware,\"",
-      "source": "thehackernews.com"
-    },
-    {
-      "title": "Weak Security Continues to Fuel Russian Cyberattacks",
-      "link": "https://www.darkreading.com/endpoint-security/weak-security-fuel-russian-cyberattacks",
-      "date": "2026-07-13T21:24:59Z",
-      "description": "In a first, the UK and the EU jointly imposed sanctions on Russian individuals and entities for cyberattacks and disinformation campaigns in the region.",
-      "source": "darkreading.com"
-    },
-    {
-      "title": "ZDI-CAN-31118: Quest",
+      "title": "ZDI-CAN-32121: Open Robotics",
       "link": "http://www.zerodayinitiative.com/advisories/upcoming/",
-      "date": "2026-07-10T05:00:00Z",
-      "description": "A CVSS score 7.8 AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H severity vulnerability discovered by 'Bobby Gould (@bobbygould5) of TrendAI Zero Day Initiative' was reported to the affected vendor on: 2026-07-10, 4 days ago. The vendor is given until 2026-11-07 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
+      "date": "2026-07-14T05:00:00Z",
+      "description": "A CVSS score 5.5 AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:N/A:N severity vulnerability discovered by 'Aaron Luo of VicOne LAB R7' was reported to the affected vendor on: 2026-07-14, 0 days ago. The vendor is given until 2026-11-11 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
       "source": "zerodayinitiative.com"
     },
     {
-      "title": "ZDI-CAN-29835: Oracle",
+      "title": "ZDI-CAN-30931: Linux",
       "link": "http://www.zerodayinitiative.com/advisories/upcoming/",
-      "date": "2026-07-10T05:00:00Z",
-      "description": "A CVSS score 6.1 AV:L/AC:H/PR:H/UI:N/S:C/C:H/I:N/A:L severity vulnerability discovered by 'Xiaobye(@xiaobye_tw) of DEVCORE Research Team' was reported to the affected vendor on: 2026-07-10, 4 days ago. The vendor is given until 2026-11-07 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
+      "date": "2026-07-14T05:00:00Z",
+      "description": "A CVSS score 7.8 AV:L/AC:H/PR:L/UI:N/S:C/C:H/I:H/A:H severity vulnerability discovered by 'GangMin Kim' was reported to the affected vendor on: 2026-07-14, 0 days ago. The vendor is given until 2026-11-11 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
       "source": "zerodayinitiative.com"
     },
     {
-      "title": "ZDI-CAN-30184: Oracle",
+      "title": "ZDI-CAN-32122: Open Robotics",
       "link": "http://www.zerodayinitiative.com/advisories/upcoming/",
-      "date": "2026-07-10T05:00:00Z",
-      "description": "A CVSS score 7.5 AV:L/AC:H/PR:H/UI:N/S:C/C:H/I:H/A:H severity vulnerability discovered by 'Phan Vinh Khang of Viettel Cyber Security' was reported to the affected vendor on: 2026-07-10, 4 days ago. The vendor is given until 2026-11-07 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
+      "date": "2026-07-14T05:00:00Z",
+      "description": "A CVSS score 6.5 AV:A/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H severity vulnerability discovered by 'Aaron Luo of VicOne LAB R7' was reported to the affected vendor on: 2026-07-14, 0 days ago. The vendor is given until 2026-11-11 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
       "source": "zerodayinitiative.com"
     },
     {
-      "title": "ZDI-CAN-32106: NVIDIA",
+      "title": "ZDI-CAN-31524: Linux",
       "link": "http://www.zerodayinitiative.com/advisories/upcoming/",
-      "date": "2026-07-10T05:00:00Z",
-      "description": "A CVSS score 9.3 AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:L/A:N severity vulnerability discovered by 'Habibullo Izzatilloyev' was reported to the affected vendor on: 2026-07-10, 4 days ago. The vendor is given until 2026-11-07 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
+      "date": "2026-07-14T05:00:00Z",
+      "description": "A CVSS score 7.8 AV:L/AC:H/PR:L/UI:N/S:C/C:H/I:H/A:H severity vulnerability discovered by 'elden, Bryan Mbeumo' was reported to the affected vendor on: 2026-07-14, 0 days ago. The vendor is given until 2026-11-11 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
       "source": "zerodayinitiative.com"
     },
     {
-      "title": "ZDI-CAN-32609: deepset",
+      "title": "ZDI-CAN-32123: Open Robotics",
       "link": "http://www.zerodayinitiative.com/advisories/upcoming/",
-      "date": "2026-07-10T05:00:00Z",
-      "description": "A CVSS score 5.9 AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:N/A:N severity vulnerability discovered by 'Minh Giang (@itscysamu) of TrendAI Zero Day Initiative and Taha Siddiqi (@_atomiz_) of TrendAI Research' was reported to the affected vendor on: 2026-07-10, 4 days ago. The vendor is given until 2026-11-07 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the…",
+      "date": "2026-07-14T05:00:00Z",
+      "description": "A CVSS score 6.5 AV:A/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H severity vulnerability discovered by 'Aaron Luo of VicOne LAB R7' was reported to the affected vendor on: 2026-07-14, 0 days ago. The vendor is given until 2026-11-11 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
       "source": "zerodayinitiative.com"
     },
     {
