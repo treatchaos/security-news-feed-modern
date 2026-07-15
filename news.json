@@ -1,7 +1,21 @@
 {
-  "last_updated": "2026-07-14T23:41:19Z",
-  "count": 30,
+  "last_updated": "2026-07-15T04:39:37Z",
+  "count": 35,
   "items": [
+    {
+      "title": "Multiple Notepad++ Vulnerabilities Enable PowerShell Command Injection Attacks",
+      "link": "https://cybersecuritynews.com/notepad-vulnerabilities-command-injection/",
+      "date": "2026-07-15T04:18:14Z",
+      "description": "Notepad++ v8.9.7 has been released with critical security fixes addressing multiple vulnerabilities, including a high-risk PowerShell command injection flaw that could enable arbitrary code execution during installation. The update resolves five distinct issues spanning path traversal, buffer overflow, and authentication bypass weaknesses, reinforcing the security posture of one of the most…",
+      "source": "cybersecuritynews.com"
+    },
+    {
+      "title": "Windows BitLocker 0‑Day Vulnerability Allows Hackers to Bypass Security Feature",
+      "link": "https://cybersecuritynews.com/windows-bitlocker-0-day-vulnerability-2/",
+      "date": "2026-07-15T03:10:30Z",
+      "description": "A newly disclosed Windows BitLocker 0‑day vulnerability, tracked as CVE-2026-50661, exposes encrypted devices to physical attacks that can completely undermine Microsoft’s disk encryption guarantees. The flaw, classified as a security feature bypass, stems from a protection mechanism failure in BitLocker’s device encryption workflow, allowing an unauthorized attacker with hands-on access to a…",
+      "source": "cybersecuritynews.com"
+    },
     {
       "title": "Records Are Made to Be Broken: Patch Tuesday Raises Triage Stakes",
       "link": "https://www.darkreading.com/vulnerabilities-threats/records-broken-patch-tuesday-raises-triage-stakes",
@@ -36,6 +50,13 @@
       "date": "2026-07-14T19:58:31Z",
       "description": "Automated Frequency Coordination systems by default trust client-side data, which could lead to location spoofing and other attacks that disrupt traffic.",
       "source": "darkreading.com"
+    },
+    {
+      "title": "Tego AI Finds Claude Tag Slack Integration Can Trigger Unauthorized Enterprise Actions",
+      "link": "https://cybersecuritynews.com/tego-ai-finds-claude-tag-slack-integration-can-trigger-unauthorized-enterprise-actions/",
+      "date": "2026-07-14T19:33:41Z",
+      "description": "Tel Aviv, Israel, July 14th, 2026, CyberNewswire Cybersecurity start-up Tego AI reveals that the new Anthropic’s native slack integration, Claude Tag, can be triggered by non-intentional Slack content and drive unauthorized actions across enterprise systems. Tego AI, a cybersecurity company, published new research identifying a potentially critical security weakness in Claude Tag, Anthropic’s…",
+      "source": "cybersecuritynews.com"
     },
     {
       "title": "Nearly 300 GitHub repos pose as legit software to push malware",
@@ -80,6 +101,13 @@
       "source": "bleepingcomputer.com"
     },
     {
+      "title": "Massive Microsoft Patch Tuesday Update: 570 Vulnerabilities Fixed, Including 3 Zero-Days",
+      "link": "https://cybersecuritynews.com/microsoft-patch-tuesday-update-july-2026/",
+      "date": "2026-07-14T17:47:22Z",
+      "description": "Microsoft’s July 2026 Patch Tuesday delivers fixes for approximately 570 vulnerabilities across its product ecosystem, following June’s record-breaking release of 206 flaws that also included three publicly disclosed zero-days. This massive patch follows the recent Microsoft update on artificial intelligence in vulnerability discovery, deploying a proprietary multi-model agentic scanning system…",
+      "source": "cybersecuritynews.com"
+    },
+    {
       "title": "Manage Vendor Risk in a Few Practical Steps",
       "link": "https://www.darkreading.com/cyber-risk/manage-vendor-risk-in-a-few-practical-steps",
       "date": "2026-07-14T17:44:55Z",
@@ -92,6 +120,13 @@
       "date": "2026-07-14T17:27:23Z",
       "description": "Any other browser extension that can run a script on claude.ai can still trigger Claude for Chrome tasks aimed at your Gmail, your latest Google Doc and its comments, and your Calendar. Both this and ClaudeBleed need a rogue extension that can already run a script on claude.ai; the difference is scope. Anthropic restricted the arbitrary-prompt path in May as part of its response to the",
       "source": "thehackernews.com"
+    },
+    {
+      "title": "Fortinet Patches Seven Vulnerabilities Across FortiOS, FortiProxy, FortiPAM, and FortiSandbox",
+      "link": "https://cybersecuritynews.com/fortinet-patches-seven-vulnerabilities/",
+      "date": "2026-07-14T17:21:44Z",
+      "description": "Fortinet disclosed seven new security advisories on July 14, 2026, affecting FortiOS, FortiProxy, FortiPAM, and FortiSandbox. The flaws range from low-severity header injection bugs to medium-severity buffer overflows and a notably concerning unauthenticated VNC exposure in FortiSandbox. While none carry a critical rating, several affect widely deployed enterprise firewall and proxy versions,…",
+      "source": "cybersecuritynews.com"
     },
     {
       "title": "Adobe Patches Critical ColdFusion Vulnerabilities",
