@@ -1,7 +1,42 @@
 {
-  "last_updated": "2026-07-15T04:39:37Z",
+  "last_updated": "2026-07-15T07:05:54Z",
   "count": 35,
   "items": [
+    {
+      "title": "Gamers Download Fake Cheats and Hand Attackers a Live Remote Control of Their Windows PCs",
+      "link": "https://cybersecuritynews.com/game-fake-cheats-remote-access/",
+      "date": "2026-07-15T06:37:41Z",
+      "description": "New research uncovered 11 malicious NuGet packages disguised as game cheats, bots, and management panels for popular online titles. The campaign targets gaming communities playing titles such as Albion Online, GTA5RP, GrandRP, Majestic RP, and Throne and Liberty. Once installed, these packages quietly deploy a remote-access payload that captures live screenshots of victims’ machines, exposing…",
+      "source": "cybersecuritynews.com"
+    },
+    {
+      "title": "New LegacyHive Windows 0-day Vulnerability Allows Users  to Load Another User’s Registry",
+      "link": "https://cybersecuritynews.com/legacyhive-windows-0-day-vulnerability/",
+      "date": "2026-07-15T06:00:34Z",
+      "description": "A proof-of-concept exploit dubbed LegacyHive has been released, enabling a Windows elevation-of-privilege vulnerability in the Windows User Profile Service that allows a standard user to load another user’s registry hive under their own registry classes root. Registry hives are files that store configuration data for Windows, services, applications, and user profiles. Improperly loading or…",
+      "source": "cybersecuritynews.com"
+    },
+    {
+      "title": "Two SonicWall SMA 1000 Zero-Days Exploited, One Could Enable Admin Commands",
+      "link": "https://thehackernews.com/2026/07/two-sonicwall-sma-1000-zero-days.html",
+      "date": "2026-07-15T05:30:21Z",
+      "description": "SonicWall has warned of active exploitation of two zero-day vulnerabilities impacting Secure Mobile Access (SMA) 1000 series appliances, one of which could be exploited to achieve arbitrary command execution. The vulnerabilities are listed below - CVE-2026-15409 (CVSS score: 10.0) - A Server-side request forgery (SSRF) vulnerability that a remote unauthenticated attacker could exploit to",
+      "source": "thehackernews.com"
+    },
+    {
+      "title": "SonicWall Issues Urgent SMA Patch Warning for Two Zero-Day Exploits",
+      "link": "https://www.securityweek.com/sonicwall-issues-urgent-sma-patch-warning-for-two-zero-day-exploits/",
+      "date": "2026-07-15T05:19:42Z",
+      "description": "SonicWall SMA1000 zero-day vulnerabilities CVE-2026-15409 and CVE-2026-15410 can be exploited for remote code execution. The post SonicWall Issues Urgent SMA Patch Warning for Two Zero-Day Exploits appeared first on SecurityWeek.",
+      "source": "securityweek.com"
+    },
+    {
+      "title": "Microsoft Active Directory Services 0-Day Vulnerability Actively Exploited in the Wild",
+      "link": "https://cybersecuritynews.com/active-directory-services-0-day-exploited/",
+      "date": "2026-07-15T05:12:18Z",
+      "description": "Microsoft has released security updates for CVE-2026-56155, an actively exploited elevation-of-privilege vulnerability in Active Directory Federation Services (AD FS). This flaw allows an authenticated local attacker with low privileges to gain administrator-level access on affected systems. CVE-2026-56155 stems from insufficient granularity in access control within AD FS, a Microsoft service…",
+      "source": "cybersecuritynews.com"
+    },
     {
       "title": "Multiple Notepad++ Vulnerabilities Enable PowerShell Command Injection Attacks",
       "link": "https://cybersecuritynews.com/notepad-vulnerabilities-command-injection/",
@@ -52,13 +87,6 @@
       "source": "darkreading.com"
     },
     {
-      "title": "Tego AI Finds Claude Tag Slack Integration Can Trigger Unauthorized Enterprise Actions",
-      "link": "https://cybersecuritynews.com/tego-ai-finds-claude-tag-slack-integration-can-trigger-unauthorized-enterprise-actions/",
-      "date": "2026-07-14T19:33:41Z",
-      "description": "Tel Aviv, Israel, July 14th, 2026, CyberNewswire Cybersecurity start-up Tego AI reveals that the new Anthropic’s native slack integration, Claude Tag, can be triggered by non-intentional Slack content and drive unauthorized actions across enterprise systems. Tego AI, a cybersecurity company, published new research identifying a potentially critical security weakness in Claude Tag, Anthropic’s…",
-      "source": "cybersecuritynews.com"
-    },
-    {
       "title": "Nearly 300 GitHub repos pose as legit software to push malware",
       "link": "https://www.bleepingcomputer.com/news/security/nearly-300-github-repos-pose-as-legit-software-to-push-malware/",
       "date": "2026-07-14T19:15:17Z",
@@ -101,13 +129,6 @@
       "source": "bleepingcomputer.com"
     },
     {
-      "title": "Massive Microsoft Patch Tuesday Update: 570 Vulnerabilities Fixed, Including 3 Zero-Days",
-      "link": "https://cybersecuritynews.com/microsoft-patch-tuesday-update-july-2026/",
-      "date": "2026-07-14T17:47:22Z",
-      "description": "Microsoft’s July 2026 Patch Tuesday delivers fixes for approximately 570 vulnerabilities across its product ecosystem, following June’s record-breaking release of 206 flaws that also included three publicly disclosed zero-days. This massive patch follows the recent Microsoft update on artificial intelligence in vulnerability discovery, deploying a proprietary multi-model agentic scanning system…",
-      "source": "cybersecuritynews.com"
-    },
-    {
       "title": "Manage Vendor Risk in a Few Practical Steps",
       "link": "https://www.darkreading.com/cyber-risk/manage-vendor-risk-in-a-few-practical-steps",
       "date": "2026-07-14T17:44:55Z",
@@ -120,13 +141,6 @@
       "date": "2026-07-14T17:27:23Z",
       "description": "Any other browser extension that can run a script on claude.ai can still trigger Claude for Chrome tasks aimed at your Gmail, your latest Google Doc and its comments, and your Calendar. Both this and ClaudeBleed need a rogue extension that can already run a script on claude.ai; the difference is scope. Anthropic restricted the arbitrary-prompt path in May as part of its response to the",
       "source": "thehackernews.com"
-    },
-    {
-      "title": "Fortinet Patches Seven Vulnerabilities Across FortiOS, FortiProxy, FortiPAM, and FortiSandbox",
-      "link": "https://cybersecuritynews.com/fortinet-patches-seven-vulnerabilities/",
-      "date": "2026-07-14T17:21:44Z",
-      "description": "Fortinet disclosed seven new security advisories on July 14, 2026, affecting FortiOS, FortiProxy, FortiPAM, and FortiSandbox. The flaws range from low-severity header injection bugs to medium-severity buffer overflows and a notably concerning unauthenticated VNC exposure in FortiSandbox. While none carry a critical rating, several affect widely deployed enterprise firewall and proxy versions,…",
-      "source": "cybersecuritynews.com"
     },
     {
       "title": "Adobe Patches Critical ColdFusion Vulnerabilities",
@@ -164,52 +178,38 @@
       "source": "securityweek.com"
     },
     {
-      "title": "RabbitMQ Flaws Could Leak OAuth Secrets and Expose Cross-Tenant Queue Metadata",
-      "link": "https://thehackernews.com/2026/07/rabbitmq-flaws-could-leak-oauth-secrets.html",
-      "date": "2026-07-14T13:48:07Z",
-      "description": "Cybersecurity researchers have disclosed details of two access control-related flaws impacting the RabbitMQ message broker service that could allow attackers to leak OAuth client secrets, expose enterprise messaging infrastructure to takeover risks, and bypass tenant boundaries. Miggo's security team, which discovered and reported the flaws, said one \"leaks the broker's confidential OAuth",
-      "source": "thehackernews.com"
-    },
-    {
-      "title": "Unpatched Claude for Chrome Flaw Lets Extensions Read Gmail, Calendar",
-      "link": "https://www.securityweek.com/unpatched-claude-for-chrome-flaw-lets-extensions-read-gmail-calendar/",
-      "date": "2026-07-14T13:00:00Z",
-      "description": "A ClaudeBleed-linked vulnerability reportedly persists across eight patches, exposing potentially sensitive data to other extensions. The post Unpatched Claude for Chrome Flaw Lets Extensions Read Gmail, Calendar appeared first on SecurityWeek.",
-      "source": "securityweek.com"
-    },
-    {
       "title": "ZDI-CAN-32121: Open Robotics",
       "link": "http://www.zerodayinitiative.com/advisories/upcoming/",
       "date": "2026-07-14T05:00:00Z",
-      "description": "A CVSS score 5.5 AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:N/A:N severity vulnerability discovered by 'Aaron Luo of VicOne LAB R7' was reported to the affected vendor on: 2026-07-14, 0 days ago. The vendor is given until 2026-11-11 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
+      "description": "A CVSS score 5.5 AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:N/A:N severity vulnerability discovered by 'Aaron Luo of VicOne LAB R7' was reported to the affected vendor on: 2026-07-14, 1 days ago. The vendor is given until 2026-11-11 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
       "source": "zerodayinitiative.com"
     },
     {
       "title": "ZDI-CAN-30931: Linux",
       "link": "http://www.zerodayinitiative.com/advisories/upcoming/",
       "date": "2026-07-14T05:00:00Z",
-      "description": "A CVSS score 7.8 AV:L/AC:H/PR:L/UI:N/S:C/C:H/I:H/A:H severity vulnerability discovered by 'GangMin Kim' was reported to the affected vendor on: 2026-07-14, 0 days ago. The vendor is given until 2026-11-11 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
+      "description": "A CVSS score 7.8 AV:L/AC:H/PR:L/UI:N/S:C/C:H/I:H/A:H severity vulnerability discovered by 'GangMin Kim' was reported to the affected vendor on: 2026-07-14, 1 days ago. The vendor is given until 2026-11-11 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
       "source": "zerodayinitiative.com"
     },
     {
       "title": "ZDI-CAN-32122: Open Robotics",
       "link": "http://www.zerodayinitiative.com/advisories/upcoming/",
       "date": "2026-07-14T05:00:00Z",
-      "description": "A CVSS score 6.5 AV:A/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H severity vulnerability discovered by 'Aaron Luo of VicOne LAB R7' was reported to the affected vendor on: 2026-07-14, 0 days ago. The vendor is given until 2026-11-11 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
+      "description": "A CVSS score 6.5 AV:A/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H severity vulnerability discovered by 'Aaron Luo of VicOne LAB R7' was reported to the affected vendor on: 2026-07-14, 1 days ago. The vendor is given until 2026-11-11 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
       "source": "zerodayinitiative.com"
     },
     {
       "title": "ZDI-CAN-31524: Linux",
       "link": "http://www.zerodayinitiative.com/advisories/upcoming/",
       "date": "2026-07-14T05:00:00Z",
-      "description": "A CVSS score 7.8 AV:L/AC:H/PR:L/UI:N/S:C/C:H/I:H/A:H severity vulnerability discovered by 'elden, Bryan Mbeumo' was reported to the affected vendor on: 2026-07-14, 0 days ago. The vendor is given until 2026-11-11 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
+      "description": "A CVSS score 7.8 AV:L/AC:H/PR:L/UI:N/S:C/C:H/I:H/A:H severity vulnerability discovered by 'elden, Bryan Mbeumo' was reported to the affected vendor on: 2026-07-14, 1 days ago. The vendor is given until 2026-11-11 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
       "source": "zerodayinitiative.com"
     },
     {
       "title": "ZDI-CAN-32123: Open Robotics",
       "link": "http://www.zerodayinitiative.com/advisories/upcoming/",
       "date": "2026-07-14T05:00:00Z",
-      "description": "A CVSS score 6.5 AV:A/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H severity vulnerability discovered by 'Aaron Luo of VicOne LAB R7' was reported to the affected vendor on: 2026-07-14, 0 days ago. The vendor is given until 2026-11-11 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
+      "description": "A CVSS score 6.5 AV:A/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H severity vulnerability discovered by 'Aaron Luo of VicOne LAB R7' was reported to the affected vendor on: 2026-07-14, 1 days ago. The vendor is given until 2026-11-11 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
       "source": "zerodayinitiative.com"
     },
     {

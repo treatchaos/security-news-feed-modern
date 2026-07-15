@@ -1,7 +1,57 @@
 {
   "date": "2026-07-15",
-  "count": 2,
+  "count": 7,
   "items": [
+    {
+      "id": "95d8e60ac1b82e8442fd667c0d1337c15e45fe4c",
+      "title": "Gamers Download Fake Cheats and Hand Attackers a Live Remote Control of Their Windows PCs",
+      "link": "https://cybersecuritynews.com/game-fake-cheats-remote-access/",
+      "date": "2026-07-15T06:37:41Z",
+      "description": "New research uncovered 11 malicious NuGet packages disguised as game cheats, bots, and management panels for popular online titles. The campaign targets gaming communities playing titles such as Albion Online, GTA5RP, GrandRP, Majestic RP, and Throne and Liberty. Once installed, these packages quietly deploy a remote-access payload that captures live screenshots of victims’ machines, exposing…",
+      "source": "cybersecuritynews.com",
+      "first_seen": "2026-07-15T07:05:54Z",
+      "last_seen": "2026-07-15T07:05:54Z"
+    },
+    {
+      "id": "f235976c406a154caa3e6cc72e5d05e9575262f4",
+      "title": "New LegacyHive Windows 0-day Vulnerability Allows Users  to Load Another User’s Registry",
+      "link": "https://cybersecuritynews.com/legacyhive-windows-0-day-vulnerability/",
+      "date": "2026-07-15T06:00:34Z",
+      "description": "A proof-of-concept exploit dubbed LegacyHive has been released, enabling a Windows elevation-of-privilege vulnerability in the Windows User Profile Service that allows a standard user to load another user’s registry hive under their own registry classes root. Registry hives are files that store configuration data for Windows, services, applications, and user profiles. Improperly loading or…",
+      "source": "cybersecuritynews.com",
+      "first_seen": "2026-07-15T07:05:54Z",
+      "last_seen": "2026-07-15T07:05:54Z"
+    },
+    {
+      "id": "efe61c8a616fef4b4b86413117a797a071f8d594",
+      "title": "Two SonicWall SMA 1000 Zero-Days Exploited, One Could Enable Admin Commands",
+      "link": "https://thehackernews.com/2026/07/two-sonicwall-sma-1000-zero-days.html",
+      "date": "2026-07-15T05:30:21Z",
+      "description": "SonicWall has warned of active exploitation of two zero-day vulnerabilities impacting Secure Mobile Access (SMA) 1000 series appliances, one of which could be exploited to achieve arbitrary command execution. The vulnerabilities are listed below - CVE-2026-15409 (CVSS score: 10.0) - A Server-side request forgery (SSRF) vulnerability that a remote unauthenticated attacker could exploit to",
+      "source": "thehackernews.com",
+      "first_seen": "2026-07-15T07:05:54Z",
+      "last_seen": "2026-07-15T07:05:54Z"
+    },
+    {
+      "id": "af7c4a31055d3a8b0c159cccde2ee16db9c626e6",
+      "title": "SonicWall Issues Urgent SMA Patch Warning for Two Zero-Day Exploits",
+      "link": "https://www.securityweek.com/sonicwall-issues-urgent-sma-patch-warning-for-two-zero-day-exploits/",
+      "date": "2026-07-15T05:19:42Z",
+      "description": "SonicWall SMA1000 zero-day vulnerabilities CVE-2026-15409 and CVE-2026-15410 can be exploited for remote code execution. The post SonicWall Issues Urgent SMA Patch Warning for Two Zero-Day Exploits appeared first on SecurityWeek.",
+      "source": "securityweek.com",
+      "first_seen": "2026-07-15T07:05:54Z",
+      "last_seen": "2026-07-15T07:05:54Z"
+    },
+    {
+      "id": "1b25c5a40b31d041bd2646d421b135271da15312",
+      "title": "Microsoft Active Directory Services 0-Day Vulnerability Actively Exploited in the Wild",
+      "link": "https://cybersecuritynews.com/active-directory-services-0-day-exploited/",
+      "date": "2026-07-15T05:12:18Z",
+      "description": "Microsoft has released security updates for CVE-2026-56155, an actively exploited elevation-of-privilege vulnerability in Active Directory Federation Services (AD FS). This flaw allows an authenticated local attacker with low privileges to gain administrator-level access on affected systems. CVE-2026-56155 stems from insufficient granularity in access control within AD FS, a Microsoft service…",
+      "source": "cybersecuritynews.com",
+      "first_seen": "2026-07-15T07:05:54Z",
+      "last_seen": "2026-07-15T07:05:54Z"
+    },
     {
       "id": "5c63b13739e3bdf46892268a86c5c0ca1cf100ad",
       "title": "Multiple Notepad++ Vulnerabilities Enable PowerShell Command Injection Attacks",
@@ -10,7 +60,7 @@
       "description": "Notepad++ v8.9.7 has been released with critical security fixes addressing multiple vulnerabilities, including a high-risk PowerShell command injection flaw that could enable arbitrary code execution during installation. The update resolves five distinct issues spanning path traversal, buffer overflow, and authentication bypass weaknesses, reinforcing the security posture of one of the most…",
       "source": "cybersecuritynews.com",
       "first_seen": "2026-07-15T04:39:37Z",
-      "last_seen": "2026-07-15T04:39:37Z"
+      "last_seen": "2026-07-15T07:05:54Z"
     },
     {
       "id": "d417d32d5604004130f4581bce698c5af0001b72",
@@ -20,7 +70,7 @@
       "description": "A newly disclosed Windows BitLocker 0‑day vulnerability, tracked as CVE-2026-50661, exposes encrypted devices to physical attacks that can completely undermine Microsoft’s disk encryption guarantees. The flaw, classified as a security feature bypass, stems from a protection mechanism failure in BitLocker’s device encryption workflow, allowing an unauthorized attacker with hands-on access to a…",
       "source": "cybersecuritynews.com",
       "first_seen": "2026-07-15T04:39:37Z",
-      "last_seen": "2026-07-15T04:39:37Z"
+      "last_seen": "2026-07-15T07:05:54Z"
     }
   ]
 }
