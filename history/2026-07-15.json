@@ -1,7 +1,87 @@
 {
   "date": "2026-07-15",
-  "count": 29,
+  "count": 38,
   "items": [
+    {
+      "id": "b99f1ef1cce4dba8de9c2b08e4c218b787b76883",
+      "title": "Critical Cursor 0-Day Flaw Allows Malicious Git Repos to Trigger Automatic Windows Code Execution",
+      "link": "https://cybersecuritynews.com/critical-cursor-0-day-flaw/",
+      "date": "2026-07-15T14:37:44Z",
+      "description": "A critical unpatched vulnerability in Cursor, the popular AI-powered code editor used by over 7 million developers, allows attackers to achieve arbitrary code execution on Windows systems. Simply opening a malicious repository is sufficient to trigger this execution path, requiring no user clicks, prompt confirmations, or authorization approvals. The flaw was discovered by security firm […] The…",
+      "source": "cybersecuritynews.com",
+      "first_seen": "2026-07-15T15:17:15Z",
+      "last_seen": "2026-07-15T15:17:15Z"
+    },
+    {
+      "id": "70d5ef962f25c3ee15a6d9f6e450529b1184d4a6",
+      "title": "Unpatched Cursor Vulnerability Exposes Users to Code Execution",
+      "link": "https://www.securityweek.com/unpatched-cursor-vulnerability-exposes-users-to-code-execution/",
+      "date": "2026-07-15T14:37:13Z",
+      "description": "An attacker can create a malicious repository containing a git.exe in the project root, and Cursor executes it automatically. The post Unpatched Cursor Vulnerability Exposes Users to Code Execution appeared first on SecurityWeek.",
+      "source": "securityweek.com",
+      "first_seen": "2026-07-15T15:17:15Z",
+      "last_seen": "2026-07-15T15:17:15Z"
+    },
+    {
+      "id": "6f60c3699aff996b54c6153b059ee51a1ebc28cb",
+      "title": "Insignary Launches Clarity On-Demand: SBOMs, No Annual Commitment Required",
+      "link": "https://cybersecuritynews.com/insignary-launches-clarity-on-demand-sboms-no-annual-commitment-required/",
+      "date": "2026-07-15T14:25:42Z",
+      "description": "Toronto, Canada, July 15th, 2026, CyberNewswire Enterprise-grade binary software verification for one project, one team, or one compliance deadline — without an annual commitment. According to Insignary Inc., a leader in software supply chain security and binary software composition analysis (SCA), most organizations cannot independently verify what is actually inside the software they deploy…",
+      "source": "cybersecuritynews.com",
+      "first_seen": "2026-07-15T15:17:15Z",
+      "last_seen": "2026-07-15T15:17:15Z"
+    },
+    {
+      "id": "415418ecac31b2743210ebbb56b8744a35a3717a",
+      "title": "Hacker Used Gemini CLI to Build a Live C&C Botnet in 6 Minutes",
+      "link": "https://cybersecuritynews.com/botnet-gemini-cli-in-six-miutes/",
+      "date": "2026-07-15T14:19:31Z",
+      "description": "A Russian-speaking threat actor known as “bandcampro” has weaponized Google’s Gemini CLI AI agent to migrate, deploy, and operate a live command-and-control (C&C) botnet. Remarkably, the attacker completed the entire infrastructure migration in just six minutes, contributing only 11% of the total work himself while the AI performed the rest. TrendAI™ Research published these findings […] The…",
+      "source": "cybersecuritynews.com",
+      "first_seen": "2026-07-15T15:17:15Z",
+      "last_seen": "2026-07-15T15:17:15Z"
+    },
+    {
+      "id": "071ff089f23d4913baa39dd202e6064f8b5626d2",
+      "title": "CISA Urges Immediate Patching of Exploited SharePoint Vulnerabilities",
+      "link": "https://www.securityweek.com/cisa-urges-immediate-patching-of-exploited-sharepoint-vulnerabilities/",
+      "date": "2026-07-15T14:07:44Z",
+      "description": "Three vulnerabilities are actively exploited in attacks, including two that have been targeted as zero-days. The post CISA Urges Immediate Patching of Exploited SharePoint Vulnerabilities appeared first on SecurityWeek.",
+      "source": "securityweek.com",
+      "first_seen": "2026-07-15T15:17:15Z",
+      "last_seen": "2026-07-15T15:17:15Z"
+    },
+    {
+      "id": "90facf1e068a9b23b4d8d67b700740601f312e35",
+      "title": "We built a vulnerability vending machine: AI tokens in, zero-days out",
+      "link": "https://www.bleepingcomputer.com/news/security/we-built-a-vulnerability-vending-machine-ai-tokens-in-zero-days-out/",
+      "date": "2026-07-15T14:01:11Z",
+      "description": "Intruder built an AI-powered \"vulnerability vending machine\" that combines code slicing with LLMs to automatically discover complex software vulnerabilities. The company explains how the system found and exploited a previously unknown WordPress plugin zero-day, with additional discoveries already under responsible disclosure. [...]",
+      "source": "bleepingcomputer.com",
+      "first_seen": "2026-07-15T15:17:15Z",
+      "last_seen": "2026-07-15T15:17:15Z"
+    },
+    {
+      "id": "091154056f9eafd8e6ac0daaac022b6dd40b2cd9",
+      "title": "US Charges Two “Bulletproof Hosting” Companies for Helping Hackers Steal Tens of Millions of Dollars",
+      "link": "https://cybersecuritynews.com/bulletproof-hosting-helped-hackers/",
+      "date": "2026-07-15T13:54:46Z",
+      "description": "The Department of Justice has unsealed an indictment in the Northern District of Ohio charging three Russian nationals and two Russia-based “bulletproof hosting” companies. The entities are accused of enabling widespread cybercrimes that have collectively caused tens of millions of dollars in losses to victims across the United States. The indictment, originally returned in December […] The post…",
+      "source": "cybersecuritynews.com",
+      "first_seen": "2026-07-15T15:17:15Z",
+      "last_seen": "2026-07-15T15:17:15Z"
+    },
+    {
+      "id": "a7b47bda31b03eafbf919e3742e6e9d696acbcd6",
+      "title": "Firefox, Chrome, Adobe, and VMware Updates Fix Multiple Critical Security Flaws",
+      "link": "https://thehackernews.com/2026/07/firefox-chrome-adobe-and-vmware-updates.html",
+      "date": "2026-07-15T13:18:53Z",
+      "description": "Mozilla has released updates to address two critical flaws in Firefox for which it warned that exploit code has been published. The vulnerabilities are listed below - CVE-2026-15718, an invalid pointer in the JavaScript: WebAssembly component CVE-2026-15719, a site isolation in the DOM: Navigation component \"We are aware that exploit code for this is public, however we are not aware of",
+      "source": "thehackernews.com",
+      "first_seen": "2026-07-15T15:17:15Z",
+      "last_seen": "2026-07-15T15:17:15Z"
+    },
     {
       "id": "5930d632026e506572de67374f7d6702c644482a",
       "title": "Windows Bind Link Attacks Can Hide Malware From EDR Tools",
@@ -10,7 +90,7 @@
       "description": "Bitdefender researchers show how Windows bind links can create conflicting filesystem views to hide malware from endpoint security products. The post Windows Bind Link Attacks Can Hide Malware From EDR Tools appeared first on SecurityWeek.",
       "source": "securityweek.com",
       "first_seen": "2026-07-15T13:08:48Z",
-      "last_seen": "2026-07-15T13:08:48Z"
+      "last_seen": "2026-07-15T15:17:15Z"
     },
     {
       "id": "7da897edc1feb1e11932d0ae24b330aa3f74bb46",
@@ -20,7 +100,7 @@
       "description": "Simple age-old bugs give bad actors access to developers' secrets and source code-rich environments.",
       "source": "darkreading.com",
       "first_seen": "2026-07-15T13:08:48Z",
-      "last_seen": "2026-07-15T13:08:48Z"
+      "last_seen": "2026-07-15T15:17:15Z"
     },
     {
       "id": "9bbeb047f02986fa6db84de30522d79ff4af1e20",
@@ -30,7 +110,17 @@
       "description": "Attendees will be able to interact with leading solution providers and other end users facing similar challenges in securing a variety of cloud deployments. The post Virtual Event Today: Cloud & Data Security Summit appeared first on SecurityWeek.",
       "source": "securityweek.com",
       "first_seen": "2026-07-15T13:08:48Z",
-      "last_seen": "2026-07-15T13:08:48Z"
+      "last_seen": "2026-07-15T15:17:15Z"
+    },
+    {
+      "id": "9c1d7e47f477572794657794e28fa6ac4f485f5d",
+      "title": "Multiple Dell PowerProtect Vulnerabilities Allow Hackers to Gain Full System Access Remotely",
+      "link": "https://cybersecuritynews.com/multiple-dell-powerprotect-vulnerabilites/",
+      "date": "2026-07-15T12:37:54Z",
+      "description": "Dell has released security updates to address multiple critical vulnerabilities in its PowerProtect Data Domain products that could allow an unauthenticated remote attacker to gain complete control of affected systems. The vulnerabilities impact several PowerProtect Data Domain platforms, including Data Domain appliances, Data Domain Virtual Edition, Dell APEX Protection Storage, and the Data…",
+      "source": "cybersecuritynews.com",
+      "first_seen": "2026-07-15T15:17:15Z",
+      "last_seen": "2026-07-15T15:17:15Z"
     },
     {
       "id": "bf23b4be138a16931fcad901cc74ca9a9940a4cc",
@@ -40,7 +130,7 @@
       "description": "The suspects and their companies were previously sanctioned by the United States and its allies. The post US Charges Russian Individuals and Firms for Running Cybercrime Services appeared first on SecurityWeek.",
       "source": "securityweek.com",
       "first_seen": "2026-07-15T13:08:48Z",
-      "last_seen": "2026-07-15T13:08:48Z"
+      "last_seen": "2026-07-15T15:17:15Z"
     },
     {
       "id": "2ed103bd37b8e8ea535c0d99438d44e1792c963c",
@@ -50,7 +140,7 @@
       "description": "For years, routing traffic through cloud proxies was good enough. Then work moved to the browser, AI entered the workflow, and the inspection model stopped keeping up. Enterprise workflows now live across SaaS applications, browsers, and an expanding ecosystem of generative AI tools, unsanctioned browser extensions, and autonomous agents. Employees routinely paste intellectual property into",
       "source": "thehackernews.com",
       "first_seen": "2026-07-15T13:08:48Z",
-      "last_seen": "2026-07-15T13:08:48Z"
+      "last_seen": "2026-07-15T15:17:15Z"
     },
     {
       "id": "3ab4666a653b65e84e4c8caa358122193b27a51a",
@@ -60,7 +150,7 @@
       "description": "Security researcher Chaotic Eclipse (aka Nightmare-Eclipse) has released a new proof-of-concept (PoC) exploit called LegacyHive. It has been described as a Windows User Profile Service arbitrary hive load elevation of privileges vulnerability. The Windows User Profile Service, also referred to as ProfSvc, is a core system component that manages user accounts and environments. \"The PoC requires",
       "source": "thehackernews.com",
       "first_seen": "2026-07-15T13:08:48Z",
-      "last_seen": "2026-07-15T13:08:48Z"
+      "last_seen": "2026-07-15T15:17:15Z"
     },
     {
       "id": "2ed503180a7cff8a1ea66e10072a8b4225968bdf",
@@ -70,7 +160,7 @@
       "description": "A single approved marketing tag can quietly load fourth-party code your security team has never seen, granting full access to your forms, customer data, and checkout pages. This on-demand webinar reveals how this Approval Gap forms, and gives your team the blueprint to close it before an auditor, regulator, or attacker finds it first. The Reality of the Approval Gap It's a pattern every",
       "source": "thehackernews.com",
       "first_seen": "2026-07-15T13:08:48Z",
-      "last_seen": "2026-07-15T13:08:48Z"
+      "last_seen": "2026-07-15T15:17:15Z"
     },
     {
       "id": "7c3661605fa5f076244a29b51ac7e3e0682b1181",
@@ -90,7 +180,7 @@
       "description": "Open a repository in Cursor on Windows and, if a file named git.exe is sitting in the project root, Cursor runs it. No click, no approval dialog, no warning that anything in the folder is about to execute. Whatever that binary does, it does as you, with your source, your SSH keys and your cloud tokens. Cursor keeps re-running it for as long as the project stays open. No prompt",
       "source": "thehackernews.com",
       "first_seen": "2026-07-15T11:20:20Z",
-      "last_seen": "2026-07-15T13:08:48Z"
+      "last_seen": "2026-07-15T15:17:15Z"
     },
     {
       "id": "d207e537e4ac34b6cc532146232685f805389058",
@@ -120,7 +210,7 @@
       "description": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) warned Tuesday that attackers are actively exploiting three vulnerabilities to hack Internet-exposed on-premises SharePoint Server instances. [...]",
       "source": "bleepingcomputer.com",
       "first_seen": "2026-07-15T09:49:11Z",
-      "last_seen": "2026-07-15T13:08:48Z"
+      "last_seen": "2026-07-15T15:17:15Z"
     },
     {
       "id": "e2c9d1d8202334f70ebde680b47910c6973bad08",
@@ -150,7 +240,7 @@
       "description": "Microsoft is blocking this month's Windows 11 security updates on some Dell devices because they are causing shutdowns and performance issues. [...]",
       "source": "bleepingcomputer.com",
       "first_seen": "2026-07-15T09:49:11Z",
-      "last_seen": "2026-07-15T13:08:48Z"
+      "last_seen": "2026-07-15T15:17:15Z"
     },
     {
       "id": "0e263df54c34c757f26b78b31c499f2ad295d6da",
@@ -180,7 +270,7 @@
       "description": "The West African country advanced rules to force organizations to disclose cyberattacks, joining other nations in a shift to mandated transparency.",
       "source": "darkreading.com",
       "first_seen": "2026-07-15T09:49:11Z",
-      "last_seen": "2026-07-15T13:08:48Z"
+      "last_seen": "2026-07-15T15:17:15Z"
     },
     {
       "id": "fa28fd4625c0418b20a1ab04914a11f7d32c9c26",
@@ -190,7 +280,7 @@
       "description": "U.S. federal prosecutors have unsealed charges against three Russian nationals, accusing them of providing bulletproof hosting (BPH) services to ransomware gangs that caused over $62 million in damages to victims worldwide. [...]",
       "source": "bleepingcomputer.com",
       "first_seen": "2026-07-15T09:49:11Z",
-      "last_seen": "2026-07-15T13:08:48Z"
+      "last_seen": "2026-07-15T15:17:15Z"
     },
     {
       "id": "83ac9f20747b8ade1a32d3208aca7b1689ba2f6e",
@@ -290,7 +380,7 @@
       "description": "CardinalOps will give Cribl customers the ability to map detection rules and security controls to the MITRE ATT&CK framework. SecOps teams can identify coverage gaps and operationalize threat intelligence.",
       "source": "darkreading.com",
       "first_seen": "2026-07-15T13:08:48Z",
-      "last_seen": "2026-07-15T13:08:48Z"
+      "last_seen": "2026-07-15T15:17:15Z"
     }
   ]
 }

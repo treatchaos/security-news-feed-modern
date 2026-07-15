@@ -1,7 +1,63 @@
 {
-  "last_updated": "2026-07-15T13:08:48Z",
-  "count": 30,
+  "last_updated": "2026-07-15T15:17:15Z",
+  "count": 35,
   "items": [
+    {
+      "title": "Critical Cursor 0-Day Flaw Allows Malicious Git Repos to Trigger Automatic Windows Code Execution",
+      "link": "https://cybersecuritynews.com/critical-cursor-0-day-flaw/",
+      "date": "2026-07-15T14:37:44Z",
+      "description": "A critical unpatched vulnerability in Cursor, the popular AI-powered code editor used by over 7 million developers, allows attackers to achieve arbitrary code execution on Windows systems. Simply opening a malicious repository is sufficient to trigger this execution path, requiring no user clicks, prompt confirmations, or authorization approvals. The flaw was discovered by security firm […] The…",
+      "source": "cybersecuritynews.com"
+    },
+    {
+      "title": "Unpatched Cursor Vulnerability Exposes Users to Code Execution",
+      "link": "https://www.securityweek.com/unpatched-cursor-vulnerability-exposes-users-to-code-execution/",
+      "date": "2026-07-15T14:37:13Z",
+      "description": "An attacker can create a malicious repository containing a git.exe in the project root, and Cursor executes it automatically. The post Unpatched Cursor Vulnerability Exposes Users to Code Execution appeared first on SecurityWeek.",
+      "source": "securityweek.com"
+    },
+    {
+      "title": "Insignary Launches Clarity On-Demand: SBOMs, No Annual Commitment Required",
+      "link": "https://cybersecuritynews.com/insignary-launches-clarity-on-demand-sboms-no-annual-commitment-required/",
+      "date": "2026-07-15T14:25:42Z",
+      "description": "Toronto, Canada, July 15th, 2026, CyberNewswire Enterprise-grade binary software verification for one project, one team, or one compliance deadline — without an annual commitment. According to Insignary Inc., a leader in software supply chain security and binary software composition analysis (SCA), most organizations cannot independently verify what is actually inside the software they deploy…",
+      "source": "cybersecuritynews.com"
+    },
+    {
+      "title": "Hacker Used Gemini CLI to Build a Live C&C Botnet in 6 Minutes",
+      "link": "https://cybersecuritynews.com/botnet-gemini-cli-in-six-miutes/",
+      "date": "2026-07-15T14:19:31Z",
+      "description": "A Russian-speaking threat actor known as “bandcampro” has weaponized Google’s Gemini CLI AI agent to migrate, deploy, and operate a live command-and-control (C&C) botnet. Remarkably, the attacker completed the entire infrastructure migration in just six minutes, contributing only 11% of the total work himself while the AI performed the rest. TrendAI™ Research published these findings […] The…",
+      "source": "cybersecuritynews.com"
+    },
+    {
+      "title": "CISA Urges Immediate Patching of Exploited SharePoint Vulnerabilities",
+      "link": "https://www.securityweek.com/cisa-urges-immediate-patching-of-exploited-sharepoint-vulnerabilities/",
+      "date": "2026-07-15T14:07:44Z",
+      "description": "Three vulnerabilities are actively exploited in attacks, including two that have been targeted as zero-days. The post CISA Urges Immediate Patching of Exploited SharePoint Vulnerabilities appeared first on SecurityWeek.",
+      "source": "securityweek.com"
+    },
+    {
+      "title": "We built a vulnerability vending machine: AI tokens in, zero-days out",
+      "link": "https://www.bleepingcomputer.com/news/security/we-built-a-vulnerability-vending-machine-ai-tokens-in-zero-days-out/",
+      "date": "2026-07-15T14:01:11Z",
+      "description": "Intruder built an AI-powered \"vulnerability vending machine\" that combines code slicing with LLMs to automatically discover complex software vulnerabilities. The company explains how the system found and exploited a previously unknown WordPress plugin zero-day, with additional discoveries already under responsible disclosure. [...]",
+      "source": "bleepingcomputer.com"
+    },
+    {
+      "title": "US Charges Two “Bulletproof Hosting” Companies for Helping Hackers Steal Tens of Millions of Dollars",
+      "link": "https://cybersecuritynews.com/bulletproof-hosting-helped-hackers/",
+      "date": "2026-07-15T13:54:46Z",
+      "description": "The Department of Justice has unsealed an indictment in the Northern District of Ohio charging three Russian nationals and two Russia-based “bulletproof hosting” companies. The entities are accused of enabling widespread cybercrimes that have collectively caused tens of millions of dollars in losses to victims across the United States. The indictment, originally returned in December […] The post…",
+      "source": "cybersecuritynews.com"
+    },
+    {
+      "title": "Firefox, Chrome, Adobe, and VMware Updates Fix Multiple Critical Security Flaws",
+      "link": "https://thehackernews.com/2026/07/firefox-chrome-adobe-and-vmware-updates.html",
+      "date": "2026-07-15T13:18:53Z",
+      "description": "Mozilla has released updates to address two critical flaws in Firefox for which it warned that exploit code has been published. The vulnerabilities are listed below - CVE-2026-15718, an invalid pointer in the JavaScript: WebAssembly component CVE-2026-15719, a site isolation in the DOM: Navigation component \"We are aware that exploit code for this is public, however we are not aware of",
+      "source": "thehackernews.com"
+    },
     {
       "title": "Windows Bind Link Attacks Can Hide Malware From EDR Tools",
       "link": "https://www.securityweek.com/windows-bind-link-attacks-can-hide-malware-from-edr-tools/",
@@ -22,6 +78,13 @@
       "date": "2026-07-15T12:52:10Z",
       "description": "Attendees will be able to interact with leading solution providers and other end users facing similar challenges in securing a variety of cloud deployments. The post Virtual Event Today: Cloud & Data Security Summit appeared first on SecurityWeek.",
       "source": "securityweek.com"
+    },
+    {
+      "title": "Multiple Dell PowerProtect Vulnerabilities Allow Hackers to Gain Full System Access Remotely",
+      "link": "https://cybersecuritynews.com/multiple-dell-powerprotect-vulnerabilites/",
+      "date": "2026-07-15T12:37:54Z",
+      "description": "Dell has released security updates to address multiple critical vulnerabilities in its PowerProtect Data Domain products that could allow an unauthenticated remote attacker to gain complete control of affected systems. The vulnerabilities impact several PowerProtect Data Domain platforms, including Data Domain appliances, Data Domain Virtual Edition, Dell APEX Protection Storage, and the Data…",
+      "source": "cybersecuritynews.com"
     },
     {
       "title": "US Charges Russian Individuals and Firms for Running Cybercrime Services",
@@ -52,13 +115,6 @@
       "source": "thehackernews.com"
     },
     {
-      "title": "Vulnerabilities Patched by Fortinet, Ivanti, ServiceNow",
-      "link": "https://www.securityweek.com/vulnerabilities-patched-by-fortinet-ivanti-servicenow/",
-      "date": "2026-07-15T11:02:57Z",
-      "description": "A critical security defect in the ServiceNow AI platform could allow remote attackers to execute arbitrary code. The post Vulnerabilities Patched by Fortinet, Ivanti, ServiceNow appeared first on SecurityWeek.",
-      "source": "securityweek.com"
-    },
-    {
       "title": "Cursor Flaw Lets Malicious Cloned Repositories Trigger Windows Code Execution",
       "link": "https://thehackernews.com/2026/07/cursor-flaw-lets-malicious-cloned.html",
       "date": "2026-07-15T10:55:22Z",
@@ -66,25 +122,11 @@
       "source": "thehackernews.com"
     },
     {
-      "title": "White House Launches AI-Driven ‘Gold Eagle’ Vulnerability Coordination Initiative",
-      "link": "https://www.securityweek.com/white-house-launches-ai-driven-gold-eagle-vulnerability-coordination-initiative/",
-      "date": "2026-07-15T10:18:25Z",
-      "description": "The new program stems from an AI-focused Executive Order signed by President Trump on June 2. The post White House Launches AI-Driven ‘Gold Eagle’ Vulnerability Coordination Initiative appeared first on SecurityWeek.",
-      "source": "securityweek.com"
-    },
-    {
       "title": "CISA warns admins to patch actively exploited SharePoint flaws",
       "link": "https://www.bleepingcomputer.com/news/security/cisa-warns-admins-to-patch-actively-exploited-sharepoint-flaws/",
       "date": "2026-07-15T09:44:52Z",
       "description": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) warned Tuesday that attackers are actively exploiting three vulnerabilities to hack Internet-exposed on-premises SharePoint Server instances. [...]",
       "source": "bleepingcomputer.com"
-    },
-    {
-      "title": "Compromised AsyncAPI npm Packages Deliver Multi-Stage Botnet Malware",
-      "link": "https://thehackernews.com/2026/07/compromised-asyncapi-npm-packages.html",
-      "date": "2026-07-15T09:16:13Z",
-      "description": "Four compromised npm packages in the @asyncapi namespace have been observed distributing a multi-stage botnet loader, according to findings from OX Security, SafeDep, Socket, and StepSecurity. The affected packages are listed below - @asyncapi/generator-helpers@1.1.1 @asyncapi/generator-components@0.7.1 @asyncapi/generator@3.3.1 @asyncapi/specs(v6.11.2, v6.11.2-alpha.1) \"The",
-      "source": "thehackernews.com"
     },
     {
       "title": "Microsoft: Some Dell PCs shut down after recent Windows updates",
@@ -126,13 +168,6 @@
       "link": "https://www.bleepingcomputer.com/news/security/sonicwall-warns-of-sma1000-flaws-exploited-in-zero-day-attacks-patch-now/",
       "date": "2026-07-14T21:23:24Z",
       "description": "SonicWall warns that threat actors have been exploiting two SMA1000 vulnerabilities, tracked as CVE-2026-15409 and CVE-2026-15410, in zero-day attacks and urges customers to install the newly released security updates. [...]",
-      "source": "bleepingcomputer.com"
-    },
-    {
-      "title": "Spanish Police take down €140 million cyber fraud ring, arrest four",
-      "link": "https://www.bleepingcomputer.com/news/security/spanish-police-take-down-140-million-cyber-fraud-ring-arrest-four/",
-      "date": "2026-07-14T20:23:09Z",
-      "description": "The Spanish Police dismantled a cybercrime and money-laundering organization that made €140 million ($160 million) from investment fraud and business email compromise (BEC) attacks. [...]",
       "source": "bleepingcomputer.com"
     },
     {
