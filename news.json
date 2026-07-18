@@ -1,7 +1,14 @@
 {
-  "last_updated": "2026-07-18T15:43:46Z",
-  "count": 35,
+  "last_updated": "2026-07-18T17:46:15Z",
+  "count": 30,
   "items": [
+    {
+      "title": "WordPress Core \"wp2shell\" RCE flaws get public exploits, patch now",
+      "link": "https://www.bleepingcomputer.com/news/security/wordpress-core-wp2shell-rce-flaws-get-public-exploits-patch-now/",
+      "date": "2026-07-18T17:22:47Z",
+      "description": "Public exploits have been released for the critical \"wp2shell\" remote code execution vulnerabilities affecting WordPress Core, making it imperative that administrators patch their sites immediately. [...]",
+      "source": "bleepingcomputer.com"
+    },
     {
       "title": "Microsoft warns of surge in ACR Stealer attacks on customers",
       "link": "https://www.bleepingcomputer.com/news/security/microsoft-warns-of-surge-in-acr-stealer-attacks-on-customers/",
@@ -15,27 +22,6 @@
       "date": "2026-07-18T13:15:24Z",
       "description": "As age verification laws expand worldwide, organizations face growing pressure to protect users' privacy while meeting regulatory requirements. Incode explains how on-device age estimation verifies age without transmitting or storing facial images, reducing biometric privacy risks while supporting compliance. [...]",
       "source": "bleepingcomputer.com"
-    },
-    {
-      "title": "New Spirals Ransomware Uses IIS Web Shell and PsExec to Encrypt IT Firm in Under 24 Hours",
-      "link": "https://cybersecuritynews.com/new-spirals-ransomware/",
-      "date": "2026-07-18T11:41:32Z",
-      "description": "A previously unseen ransomware family dubbed “Spirals” struck an IT services company in South Asia in June 2026. Symantec’s Threat Hunter Team reports that the attackers moved from the initial breach to full network encryption in under 24 hours. The Rust-based payload appears to be either entirely new or purpose-built for this single targeted attack, […] The post New Spirals Ransomware Uses IIS…",
-      "source": "cybersecuritynews.com"
-    },
-    {
-      "title": "Citrix Secure Access and Endpoint Client for Windows Vulnerability Enables Privilege Escalation",
-      "link": "https://cybersecuritynews.com/citrix-secure-access-and-endpoint-vulnerability/",
-      "date": "2026-07-18T08:41:45Z",
-      "description": "Cloud Software Group has disclosed two security vulnerabilities affecting Citrix Secure Access Client for Windows and Citrix Endpoint Analysis Client for Windows, with one flaw allowing low-privileged attackers to gain full SYSTEM access on affected machines. The more severe issue, tracked as CVE-2026-53565, carries a CVSS v4.0 base score of 8.5 and stems from improper […] The post Citrix Secure…",
-      "source": "cybersecuritynews.com"
-    },
-    {
-      "title": "New wp2shell RCE Vulnerability Hits Millions of WordPress Sites, Emergency Patch Released",
-      "link": "https://cybersecuritynews.com/wp2shell-rce-vulnerability/",
-      "date": "2026-07-18T03:05:23Z",
-      "description": "A critical pre-authentication remote code execution (RCE) vulnerability dubbed “wp2shell” has been discovered in WordPress Core, putting an estimated 500 million+ websites at risk of full takeover by unauthenticated attackers. Security researcher Adam Kues of Searchlight Cyber’s Assetnote research team uncovered the flaw, which stems from a REST API batch-route confusion issue that leads to […]…",
-      "source": "cybersecuritynews.com"
     },
     {
       "title": "New wp2shell WordPress Core Flaw Lets Unauthenticated Attackers Run Code",
@@ -73,25 +59,11 @@
       "source": "thehackernews.com"
     },
     {
-      "title": "OpenSSL “HollowByte” Vulnerability Lets Hackers Crash Servers With Just 11 Bytes",
-      "link": "https://cybersecuritynews.com/openssl-hollowbyte-vulnerability/",
-      "date": "2026-07-17T18:21:11Z",
-      "description": "A newly disclosed vulnerability in OpenSSL, dubbed “HollowByte,” allows a remote, unauthenticated attacker to trigger a denial-of-service (DoS) condition using a malicious payload as small as 11 bytes. Discovered by the Okta Red Team, the flaw exploits how OpenSSL pre-allocates memory during the TLS handshake, forcing servers to reserve massive memory chunks before any authentication […] The…",
-      "source": "cybersecuritynews.com"
-    },
-    {
       "title": "HollowByte DDoS flaw bloats OpenSSL server memory with 11-byte payload",
       "link": "https://www.bleepingcomputer.com/news/security/hollowbyte-ddos-flaw-bloats-openssl-server-memory-with-11-byte-payload/",
       "date": "2026-07-17T17:56:21Z",
       "description": "A vulnerability dubbed HollowByte allows unauthenticated attackers to trigger a denial-of-service (DoS) condition on OpenSSL servers with a malicious payload of just 11 bytes. [...]",
       "source": "bleepingcomputer.com"
-    },
-    {
-      "title": "Ransomware Attack on Coca-Cola-Owned Fairlife Halts Production Across the United States",
-      "link": "https://cybersecuritynews.com/coca-cola-owned-fairlife-cyberattack/",
-      "date": "2026-07-17T17:53:52Z",
-      "description": "Coca-Cola has reported a ransomware attack affecting its dairy subsidiary, Fairlife, resulting in a temporary shutdown of production operations across the United States. This incident was disclosed in a Form 8-K filing submitted to the U.S. Securities and Exchange Commission on July 16, 2026. The filing confirmed that unauthorized access was gained to parts of […] The post Ransomware Attack on…",
-      "source": "cybersecuritynews.com"
     },
     {
       "title": "New NadMesh Botnet Hunts Exposed AI Services for Cloud Keys and Kubernetes Tokens",
@@ -113,13 +85,6 @@
       "date": "2026-07-17T16:39:16Z",
       "description": "Cybersecurity researchers have attributed the April 2026 DigiCert security incident to a threat activity cluster dubbed CylindricalCanine. Expel, which shared technical details of the event, described the threat actor as a sub-group of GoldenEyeDog (aka APT-Q-27, Dragon Breath, and Miuuti Group), a Chinese cybercrime group known for its targeting of the gambling and gaming sectors using",
       "source": "thehackernews.com"
-    },
-    {
-      "title": "Ernst & Young discloses data breach after support system hack",
-      "link": "https://www.bleepingcomputer.com/news/security/ernst-and-young-discloses-data-breach-after-support-system-hack/",
-      "date": "2026-07-17T14:55:28Z",
-      "description": "Ernst & Young is notifying customers of a data breach caused by the compromise of a third-party support ticket system used by its IT personnel. [...]",
-      "source": "bleepingcomputer.com"
     },
     {
       "title": "In Other News: Iran Tracks US Military Phones, CrashStealer macOS Malware, CVD Blueprint",
