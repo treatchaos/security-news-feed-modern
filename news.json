@@ -1,7 +1,14 @@
 {
-  "last_updated": "2026-07-19T14:19:37Z",
-  "count": 35,
+  "last_updated": "2026-07-19T15:45:00Z",
+  "count": 30,
   "items": [
+    {
+      "title": "Hackers abuse ViPNet software to target Russian govt agencies",
+      "link": "https://www.bleepingcomputer.com/news/security/hackers-abuse-vipnet-software-to-target-russian-govt-agencies/",
+      "date": "2026-07-19T14:23:46Z",
+      "description": "An advanced threat actor is abusing the update mechanism for the ViPNet private networking product suite to target Russian organizations, including government agencies. [...]",
+      "source": "bleepingcomputer.com"
+    },
     {
       "title": "UAC-0145 Uses ClickFix CAPTCHAs to Infect Ukrainian Devices wih Malware",
       "link": "https://thehackernews.com/2026/07/uac-0145-uses-clickfix-captchas-to.html",
@@ -17,25 +24,11 @@
       "source": "thehackernews.com"
     },
     {
-      "title": "NadMesh Uses Shodan to Find and Hijack Exposed AI and MCP Infrastructure",
-      "link": "https://cybersecuritynews.com/nadmesh-uses-shodan/",
-      "date": "2026-07-19T03:30:16Z",
-      "description": "A sharp structural shift has been identified in the botnet landscape. Security researchers at XLab have uncovered NadMesh, a Go-based botnet that has been spreading rapidly since early July 2026. This malware marks a distinct evolution from opportunistic worm behavior toward an industrial-grade, ROI-driven attack platform aimed squarely at Artificial Intelligence (AI) and Model Context […] The…",
-      "source": "cybersecuritynews.com"
-    },
-    {
       "title": "Update now: 7-Zip fixes RCE flaw exploitable with malicious archives",
       "link": "https://www.bleepingcomputer.com/news/security/update-now-7-zip-fixes-rce-flaw-exploitable-with-malicious-archives/",
       "date": "2026-07-18T19:32:02Z",
       "description": "7-Zip version 26.02 was released to fix a remote code execution vulnerability that could allow attackers to execute malicious code by convincing users to open specially crafted compressed files. [...]",
       "source": "bleepingcomputer.com"
-    },
-    {
-      "title": "Hugging Face Confirms AI-Driven Breach: Attackers used Autonomous Agents, defenders countered with AI",
-      "link": "https://cybersecuritynews.com/hugging-face-confirms-ai-driven-breach/",
-      "date": "2026-07-18T17:30:35Z",
-      "description": "Hugging Face disclosed this week that it detected and contained a production infrastructure intrusion, driven end-to-end by an autonomous AI agent system, and defended against it using its own AI-based forensic analysis. The attackers exploited two code-execution flaws in Hugging Face’s dataset processing pipeline: a remote-code dataset loader and a template-injection vulnerability in dataset…",
-      "source": "cybersecuritynews.com"
     },
     {
       "title": "WordPress Core \"wp2shell\" RCE flaws get public exploits, patch now",
@@ -59,39 +52,11 @@
       "source": "bleepingcomputer.com"
     },
     {
-      "title": "New Spirals Ransomware Uses IIS Web Shell and PsExec to Encrypt IT Firm in Under 24 Hours",
-      "link": "https://cybersecuritynews.com/new-spirals-ransomware/",
-      "date": "2026-07-18T11:41:32Z",
-      "description": "A previously unseen ransomware family dubbed “Spirals” struck an IT services company in South Asia in June 2026. Symantec’s Threat Hunter Team reports that the attackers moved from the initial breach to full network encryption in under 24 hours. The Rust-based payload appears to be either entirely new or purpose-built for this single targeted attack, […] The post New Spirals Ransomware Uses IIS…",
-      "source": "cybersecuritynews.com"
-    },
-    {
-      "title": "Citrix Secure Access and Endpoint Client for Windows Vulnerability Enables Privilege Escalation",
-      "link": "https://cybersecuritynews.com/citrix-secure-access-and-endpoint-vulnerability/",
-      "date": "2026-07-18T08:41:45Z",
-      "description": "Cloud Software Group has disclosed two security vulnerabilities affecting Citrix Secure Access Client for Windows and Citrix Endpoint Analysis Client for Windows, with one flaw allowing low-privileged attackers to gain full SYSTEM access on affected machines. The more severe issue, tracked as CVE-2026-53565, carries a CVSS v4.0 base score of 8.5 and stems from improper […] The post Citrix Secure…",
-      "source": "cybersecuritynews.com"
-    },
-    {
-      "title": "New wp2shell RCE Vulnerability Hits Millions of WordPress Sites, Emergency Patch Released",
-      "link": "https://cybersecuritynews.com/wp2shell-rce-vulnerability/",
-      "date": "2026-07-18T03:05:23Z",
-      "description": "A critical pre-authentication remote code execution (RCE) vulnerability dubbed “wp2shell” has been discovered in WordPress Core, putting an estimated 500 million+ websites at risk of full takeover by unauthenticated attackers. Security researcher Adam Kues of Searchlight Cyber’s Assetnote research team uncovered the flaw, which stems from a REST API batch-route confusion issue that leads to […]…",
-      "source": "cybersecuritynews.com"
-    },
-    {
       "title": "New wp2shell WordPress Core Flaw Lets Unauthenticated Attackers Run Code",
       "link": "https://thehackernews.com/2026/07/new-wp2shell-wordpress-core-flaw-lets.html",
       "date": "2026-07-17T21:20:10Z",
       "description": "Updated July 18, 2026: the two flaws now carry CVE IDs, the full mechanism has been published, a persistent-object-cache condition has surfaced, and a working proof-of-concept is public. The story below reflects all of it. An anonymous HTTP request can run code on a WordPress site. The bug is in core, so a bare install with zero plugins is exploitable. Every 6.9 and 7.0 site was in range until",
       "source": "thehackernews.com"
-    },
-    {
-      "title": "Abbott probes two cyber incidents amid extortion claims",
-      "link": "https://www.bleepingcomputer.com/news/security/abbott-laboratories-probes-two-cyber-incidents-amid-extortion-claims/",
-      "date": "2026-07-17T20:45:52Z",
-      "description": "Abbott Laboratories is investigating two separate cybersecurity incidents after confirming unauthorized access to internal legacy Exact Sciences systems in its Cancer Diagnostics business, while also investigating a separate claim that attackers breached its LabCentral portal and stole company data. [...]",
-      "source": "bleepingcomputer.com"
     },
     {
       "title": "OpenSSL HollowByte Flaw Could Freeze Server Memory with 11-Byte TLS Requests",
