@@ -1,13 +1,27 @@
 {
-  "last_updated": "2026-07-19T09:43:31Z",
-  "count": 30,
+  "last_updated": "2026-07-19T11:03:20Z",
+  "count": 35,
   "items": [
+    {
+      "title": "NadMesh Uses Shodan to Find and Hijack Exposed AI and MCP Infrastructure",
+      "link": "https://cybersecuritynews.com/nadmesh-uses-shodan/",
+      "date": "2026-07-19T03:30:16Z",
+      "description": "A sharp structural shift has been identified in the botnet landscape. Security researchers at XLab have uncovered NadMesh, a Go-based botnet that has been spreading rapidly since early July 2026. This malware marks a distinct evolution from opportunistic worm behavior toward an industrial-grade, ROI-driven attack platform aimed squarely at Artificial Intelligence (AI) and Model Context […] The…",
+      "source": "cybersecuritynews.com"
+    },
     {
       "title": "Update now: 7-Zip fixes RCE flaw exploitable with malicious archives",
       "link": "https://www.bleepingcomputer.com/news/security/update-now-7-zip-fixes-rce-flaw-exploitable-with-malicious-archives/",
       "date": "2026-07-18T19:32:02Z",
       "description": "7-Zip version 26.02 was released to fix a remote code execution vulnerability that could allow attackers to execute malicious code by convincing users to open specially crafted compressed files. [...]",
       "source": "bleepingcomputer.com"
+    },
+    {
+      "title": "Hugging Face Confirms AI-Driven Breach: Attackers used Autonomous Agents, defenders countered with AI",
+      "link": "https://cybersecuritynews.com/hugging-face-confirms-ai-driven-breach/",
+      "date": "2026-07-18T17:30:35Z",
+      "description": "Hugging Face disclosed this week that it detected and contained a production infrastructure intrusion, driven end-to-end by an autonomous AI agent system, and defended against it using its own AI-based forensic analysis. The attackers exploited two code-execution flaws in Hugging Face’s dataset processing pipeline: a remote-code dataset loader and a template-injection vulnerability in dataset…",
+      "source": "cybersecuritynews.com"
     },
     {
       "title": "WordPress Core \"wp2shell\" RCE flaws get public exploits, patch now",
@@ -29,6 +43,27 @@
       "date": "2026-07-18T13:15:24Z",
       "description": "As age verification laws expand worldwide, organizations face growing pressure to protect users' privacy while meeting regulatory requirements. Incode explains how on-device age estimation verifies age without transmitting or storing facial images, reducing biometric privacy risks while supporting compliance. [...]",
       "source": "bleepingcomputer.com"
+    },
+    {
+      "title": "New Spirals Ransomware Uses IIS Web Shell and PsExec to Encrypt IT Firm in Under 24 Hours",
+      "link": "https://cybersecuritynews.com/new-spirals-ransomware/",
+      "date": "2026-07-18T11:41:32Z",
+      "description": "A previously unseen ransomware family dubbed “Spirals” struck an IT services company in South Asia in June 2026. Symantec’s Threat Hunter Team reports that the attackers moved from the initial breach to full network encryption in under 24 hours. The Rust-based payload appears to be either entirely new or purpose-built for this single targeted attack, […] The post New Spirals Ransomware Uses IIS…",
+      "source": "cybersecuritynews.com"
+    },
+    {
+      "title": "Citrix Secure Access and Endpoint Client for Windows Vulnerability Enables Privilege Escalation",
+      "link": "https://cybersecuritynews.com/citrix-secure-access-and-endpoint-vulnerability/",
+      "date": "2026-07-18T08:41:45Z",
+      "description": "Cloud Software Group has disclosed two security vulnerabilities affecting Citrix Secure Access Client for Windows and Citrix Endpoint Analysis Client for Windows, with one flaw allowing low-privileged attackers to gain full SYSTEM access on affected machines. The more severe issue, tracked as CVE-2026-53565, carries a CVSS v4.0 base score of 8.5 and stems from improper […] The post Citrix Secure…",
+      "source": "cybersecuritynews.com"
+    },
+    {
+      "title": "New wp2shell RCE Vulnerability Hits Millions of WordPress Sites, Emergency Patch Released",
+      "link": "https://cybersecuritynews.com/wp2shell-rce-vulnerability/",
+      "date": "2026-07-18T03:05:23Z",
+      "description": "A critical pre-authentication remote code execution (RCE) vulnerability dubbed “wp2shell” has been discovered in WordPress Core, putting an estimated 500 million+ websites at risk of full takeover by unauthenticated attackers. Security researcher Adam Kues of Searchlight Cyber’s Assetnote research team uncovered the flaw, which stems from a REST API batch-route confusion issue that leads to […]…",
+      "source": "cybersecuritynews.com"
     },
     {
       "title": "New wp2shell WordPress Core Flaw Lets Unauthenticated Attackers Run Code",
