@@ -1,7 +1,63 @@
 {
-  "last_updated": "2026-07-20T15:44:13Z",
-  "count": 30,
+  "last_updated": "2026-07-20T19:23:41Z",
+  "count": 35,
   "items": [
+    {
+      "title": "CISOs Feel the Heat Over AI Risk",
+      "link": "https://www.darkreading.com/cybersecurity-operations/cisos-feel-heat-ai-risk",
+      "date": "2026-07-20T19:07:01Z",
+      "description": "Job pressures have increased as companies run headlong into AI adoption, causing 26% of top security executives to consider leaving their position.",
+      "source": "darkreading.com"
+    },
+    {
+      "title": "Attackers Combo Up Evasion Tactics for BEC Phishing",
+      "link": "https://www.darkreading.com/endpoint-security/attackers-combo-evasion-tactics-bec-phishing",
+      "date": "2026-07-20T18:30:22Z",
+      "description": "\"The TFF Trap\" uses fileless techniques and loaders with low detection rates to deploy various RATs and stealers, including Agent Tesla, Remcos, XWorm, and Best Private Logger.",
+      "source": "darkreading.com"
+    },
+    {
+      "title": "New HollowGraph malware uses Microsoft Graph for stealthy C2 comms",
+      "link": "https://www.bleepingcomputer.com/news/security/new-hollowgraph-malware-uses-microsoft-graph-for-stealthy-c2-comms/",
+      "date": "2026-07-20T17:43:01Z",
+      "description": "A malicious component dubbed HollowGraph uses the calendar feature in compromised Microsoft 365 mailboxes as a command-and-control channel to receive attacker commands and exfiltrate stolen data. [...]",
+      "source": "bleepingcomputer.com"
+    },
+    {
+      "title": "Hackers Are Turning Microsoft 365 Calendar Invites Into Secret Malware Command Channels",
+      "link": "https://cybersecuritynews.com/microsoft-365-calendar-invites-into-malware/",
+      "date": "2026-07-20T17:30:02Z",
+      "description": "A stealthy new malware strain called HOLLOWGRAPH that hijacks Microsoft 365 calendars to secretly communicate with hackers, disguising malicious commands as ordinary calendar invites. HOLLOWGRAPH is a .NET-compiled malware component that abuses the Microsoft Graph API through a compromised Microsoft 365 account, turning the mailbox’s calendar into a covert two-way “dead drop” for hackers. The…",
+      "source": "cybersecuritynews.com"
+    },
+    {
+      "title": "Exposed Server Reveals AI-Assisted Phishing Toolkit Behind WebDAV Malware Campaign",
+      "link": "https://thehackernews.com/2026/07/exposed-server-reveals-ai-assisted.html",
+      "date": "2026-07-20T17:29:50Z",
+      "description": "A malware operator left its delivery server wide open, and Rapid7 pulled down the whole toolkit: 1,048 files spanning lure templates, filename-spoofing tests, execution experiments, droppers, builder notes, and two campaign chains. One was already live against Windows users in Mexico, delivering an infostealer through a fake government ID-lookup site over WebDAV. What makes it more than a",
+      "source": "thehackernews.com"
+    },
+    {
+      "title": "Windows Bind Link Abuse Lets Attackers Blind EDR and Bypass AMSI, AppLocker, and Sysmon",
+      "link": "https://cybersecuritynews.com/windows-bind-link-abuse-lets/",
+      "date": "2026-07-20T15:29:16Z",
+      "description": "Windows defenders are facing a new way for attackers to hide activity after gaining administrator access. The technique abuses Windows bind links, a legitimate feature that redirects one file path to another without changing the original file on disk. Rather than dropping a visible replacement file or modifying security software, an attacker can make a […] The post Windows Bind Link Abuse Lets…",
+      "source": "cybersecuritynews.com"
+    },
+    {
+      "title": "Critical wp2shell RCE Vulnerability – Complete Coverage Including PoC and Active Exploitation Details",
+      "link": "https://cybersecuritynews.com/critical-wp2shell-rce-vulnerability/",
+      "date": "2026-07-20T15:23:10Z",
+      "description": "Overview A critical pre-authentication remote code execution (RCE) vulnerability chain nicknamed “wp2shell” has been disclosed in WordPress Core, putting an estimated 500 million-plus websites at risk of full takeover by completely unauthenticated attackers. The chain combines two separately tracked flaws CVE-2026-63030, a REST API batch-route confusion issue, and CVE-2026-60137, a SQL injection…",
+      "source": "cybersecuritynews.com"
+    },
+    {
+      "title": "Paidwork Data Breach Exposes 23 Million Users’ Banking and Personal Data",
+      "link": "https://cybersecuritynews.com/paidwork-data-breach/",
+      "date": "2026-07-20T15:12:30Z",
+      "description": "A massive data breach has hit Paidwork, a popular gig economy platform, exposing sensitive banking and personal information belonging to more than 23 million users worldwide. The incident, first surfacing in March 2026 when hackers listed the stolen data for sale, escalated significantly in July when nearly 11GB of the compromised dataset was leaked publicly […] The post Paidwork Data Breach…",
+      "source": "cybersecuritynews.com"
+    },
     {
       "title": "Neo Emerges From Stealth With $100M to Control and Secure Enterprise AI Software",
       "link": "https://www.securityweek.com/neo-emerges-from-stealth-with-100m-to-control-and-secure-enterprise-ai-software/",
@@ -15,6 +71,13 @@
       "date": "2026-07-20T14:33:43Z",
       "description": "A newly discovered espionage implant has been using a hijacked Microsoft 365 calendar as its command channel, planting operator instructions and smuggling out stolen files as attachments on calendar events dated to the year 2050. Group-IB, which named the malware HollowGraph, says the approach moves tasking and stolen data through legitimate Microsoft Graph API traffic, so the activity looks",
       "source": "thehackernews.com"
+    },
+    {
+      "title": "ClickFix Campaign Delivers Modular TELEPUZ Malware With 36 Remote Commands",
+      "link": "https://cybersecuritynews.com/clickfix-campaign-delivers-telepuz/",
+      "date": "2026-07-20T14:20:34Z",
+      "description": "A new malware operation is using ClickFix pages to trick Windows users into running malicious commands themselves. The campaign delivers TELEPUZ, a lightweight but capable remote-access malware that can receive dozens of instructions from its operators. The attack begins with a fake verification-style page that asks a visitor to copy and execute a command. That […] The post ClickFix Campaign…",
+      "source": "cybersecuritynews.com"
     },
     {
       "title": "SonicWall Zero-Days Exploited to Deliver Custom Malware for Weeks Before Patch",
@@ -101,20 +164,6 @@
       "source": "bleepingcomputer.com"
     },
     {
-      "title": "Critical ServiceNow code execution flaw now exploited in attacks",
-      "link": "https://www.bleepingcomputer.com/news/security/critical-servicenow-code-execution-flaw-now-exploited-in-attacks/",
-      "date": "2026-07-20T09:29:20Z",
-      "description": "Attackers have begun exploiting a critical vulnerability (CVE-2026-6875) in the ServiceNow AI Platform, according to threat intelligence company Defused. [...]",
-      "source": "bleepingcomputer.com"
-    },
-    {
-      "title": "New 7-Zip Vulnerability Could Let Crafted XZ Archives Run Code During Extraction",
-      "link": "https://thehackernews.com/2026/07/new-7-zip-vulnerability-could-let.html",
-      "date": "2026-07-20T09:10:56Z",
-      "description": "Opening a crafted XZ archive in 7-Zip could let an attacker run code on the machine. The flaw, CVE-2026-14266, is a heap-based buffer overflow in how the archiver processes XZ chunked data, and Trend Micro's Zero Day Initiative (ZDI) detailed it on July 15. A fix shipped on June 25 in 7-Zip 26.02. The overflow lets an attacker \"execute code in the context of the current process,\" per the",
-      "source": "thehackernews.com"
-    },
-    {
       "title": "Inc Ransomware Exploits SonicWall SMA Zero-Days",
       "link": "https://www.darkreading.com/vulnerabilities-threats/inc-ransomware-exploits-sonicwall-sma-zero-days",
       "date": "2026-07-17T20:01:13Z",
@@ -126,20 +175,6 @@
       "link": "https://www.darkreading.com/application-security/real-ai-threat-blind-trust",
       "date": "2026-07-17T16:43:13Z",
       "description": "AI models left to both interpret and execute commands eliminate critical cybersecurity oversight.",
-      "source": "darkreading.com"
-    },
-    {
-      "title": "Gold Eagle Clearinghouse Targets Security Gap, but How Is Unclear",
-      "link": "https://www.darkreading.com/vulnerabilities-threats/gold-eagle-clearinghouse-targets-security-gap",
-      "date": "2026-07-17T13:00:00Z",
-      "description": "The White House launched Gold Eagle to coordinate vulnerability response in a new AI world, but multiple questions linger over how it's being implemented.",
-      "source": "darkreading.com"
-    },
-    {
-      "title": "Google Bets 'Agentic Defense' Strategy Can Outpace Attackers",
-      "link": "https://www.darkreading.com/cloud-security/google-bets-agentic-defense-strategy-outpace-attackers",
-      "date": "2026-07-17T11:50:25Z",
-      "description": "Google Cloud incorporates key Wiz capabilities into an agentic defense platform to automate threat detection and remediation against AI attacks.",
       "source": "darkreading.com"
     },
     {

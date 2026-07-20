@@ -1,8 +1,88 @@
 {
-  "last_updated": "2026-07-20T17:19:15Z",
+  "last_updated": "2026-07-20T19:23:41Z",
   "retention_days": 90,
-  "count": 3449,
+  "count": 3454,
   "items": [
+    {
+      "id": "d6c05eeb27a08bea1e7b2aeef73d381278d6bf12",
+      "title": "CISOs Feel the Heat Over AI Risk",
+      "link": "https://www.darkreading.com/cybersecurity-operations/cisos-feel-heat-ai-risk",
+      "date": "2026-07-20T19:07:01Z",
+      "description": "Job pressures have increased as companies run headlong into AI adoption, causing 26% of top security executives to consider leaving their position.",
+      "source": "darkreading.com",
+      "first_seen": "2026-07-20T19:23:41Z",
+      "last_seen": "2026-07-20T19:23:41Z"
+    },
+    {
+      "id": "3b4f0ac22a33f6f524e90ff3dd7fda3d20430693",
+      "title": "Attackers Combo Up Evasion Tactics for BEC Phishing",
+      "link": "https://www.darkreading.com/endpoint-security/attackers-combo-evasion-tactics-bec-phishing",
+      "date": "2026-07-20T18:30:22Z",
+      "description": "\"The TFF Trap\" uses fileless techniques and loaders with low detection rates to deploy various RATs and stealers, including Agent Tesla, Remcos, XWorm, and Best Private Logger.",
+      "source": "darkreading.com",
+      "first_seen": "2026-07-20T19:23:41Z",
+      "last_seen": "2026-07-20T19:23:41Z"
+    },
+    {
+      "id": "3a68078125f66734af6f5f14ff513a6129178aae",
+      "title": "New HollowGraph malware uses Microsoft Graph for stealthy C2 comms",
+      "link": "https://www.bleepingcomputer.com/news/security/new-hollowgraph-malware-uses-microsoft-graph-for-stealthy-c2-comms/",
+      "date": "2026-07-20T17:43:01Z",
+      "description": "A malicious component dubbed HollowGraph uses the calendar feature in compromised Microsoft 365 mailboxes as a command-and-control channel to receive attacker commands and exfiltrate stolen data. [...]",
+      "source": "bleepingcomputer.com",
+      "first_seen": "2026-07-20T19:23:41Z",
+      "last_seen": "2026-07-20T19:23:41Z"
+    },
+    {
+      "id": "211c4f2e391bc04f25b723662b6d362a9f59bee1",
+      "title": "Hackers Are Turning Microsoft 365 Calendar Invites Into Secret Malware Command Channels",
+      "link": "https://cybersecuritynews.com/microsoft-365-calendar-invites-into-malware/",
+      "date": "2026-07-20T17:30:02Z",
+      "description": "A stealthy new malware strain called HOLLOWGRAPH that hijacks Microsoft 365 calendars to secretly communicate with hackers, disguising malicious commands as ordinary calendar invites. HOLLOWGRAPH is a .NET-compiled malware component that abuses the Microsoft Graph API through a compromised Microsoft 365 account, turning the mailbox’s calendar into a covert two-way “dead drop” for hackers. The…",
+      "source": "cybersecuritynews.com",
+      "first_seen": "2026-07-20T19:23:41Z",
+      "last_seen": "2026-07-20T19:23:41Z"
+    },
+    {
+      "id": "914b4285348b6d46e4572dcb42129082e186bb26",
+      "title": "Exposed Server Reveals AI-Assisted Phishing Toolkit Behind WebDAV Malware Campaign",
+      "link": "https://thehackernews.com/2026/07/exposed-server-reveals-ai-assisted.html",
+      "date": "2026-07-20T17:29:50Z",
+      "description": "A malware operator left its delivery server wide open, and Rapid7 pulled down the whole toolkit: 1,048 files spanning lure templates, filename-spoofing tests, execution experiments, droppers, builder notes, and two campaign chains. One was already live against Windows users in Mexico, delivering an infostealer through a fake government ID-lookup site over WebDAV. What makes it more than a",
+      "source": "thehackernews.com",
+      "first_seen": "2026-07-20T19:23:41Z",
+      "last_seen": "2026-07-20T19:23:41Z"
+    },
+    {
+      "id": "ca109e42d2b3ba44da7f55cebdc76a055de80a45",
+      "title": "Windows Bind Link Abuse Lets Attackers Blind EDR and Bypass AMSI, AppLocker, and Sysmon",
+      "link": "https://cybersecuritynews.com/windows-bind-link-abuse-lets/",
+      "date": "2026-07-20T15:29:16Z",
+      "description": "Windows defenders are facing a new way for attackers to hide activity after gaining administrator access. The technique abuses Windows bind links, a legitimate feature that redirects one file path to another without changing the original file on disk. Rather than dropping a visible replacement file or modifying security software, an attacker can make a […] The post Windows Bind Link Abuse Lets…",
+      "source": "cybersecuritynews.com",
+      "first_seen": "2026-07-20T19:23:41Z",
+      "last_seen": "2026-07-20T19:23:41Z"
+    },
+    {
+      "id": "fb407e3a8a7d9a74f2316008d550c5324ac0b86b",
+      "title": "Critical wp2shell RCE Vulnerability – Complete Coverage Including PoC and Active Exploitation Details",
+      "link": "https://cybersecuritynews.com/critical-wp2shell-rce-vulnerability/",
+      "date": "2026-07-20T15:23:10Z",
+      "description": "Overview A critical pre-authentication remote code execution (RCE) vulnerability chain nicknamed “wp2shell” has been disclosed in WordPress Core, putting an estimated 500 million-plus websites at risk of full takeover by completely unauthenticated attackers. The chain combines two separately tracked flaws CVE-2026-63030, a REST API batch-route confusion issue, and CVE-2026-60137, a SQL injection…",
+      "source": "cybersecuritynews.com",
+      "first_seen": "2026-07-20T19:23:41Z",
+      "last_seen": "2026-07-20T19:23:41Z"
+    },
+    {
+      "id": "15793a7b13d7bb7911a6a632e5a746607324eae3",
+      "title": "Paidwork Data Breach Exposes 23 Million Users’ Banking and Personal Data",
+      "link": "https://cybersecuritynews.com/paidwork-data-breach/",
+      "date": "2026-07-20T15:12:30Z",
+      "description": "A massive data breach has hit Paidwork, a popular gig economy platform, exposing sensitive banking and personal information belonging to more than 23 million users worldwide. The incident, first surfacing in March 2026 when hackers listed the stolen data for sale, escalated significantly in July when nearly 11GB of the compromised dataset was leaked publicly […] The post Paidwork Data Breach…",
+      "source": "cybersecuritynews.com",
+      "first_seen": "2026-07-20T19:23:41Z",
+      "last_seen": "2026-07-20T19:23:41Z"
+    },
     {
       "id": "72ef8bc26c4b63c3d8005a6a9dbe260ee69d3e67",
       "title": "Neo Emerges From Stealth With $100M to Control and Secure Enterprise AI Software",
@@ -11,7 +91,7 @@
       "description": "Neo raised money across seed and Series A funding rounds from Andreessen Horowitz, Bessemer Venture Partners, and others. The post Neo Emerges From Stealth With $100M to Control and Secure Enterprise AI Software appeared first on SecurityWeek.",
       "source": "securityweek.com",
       "first_seen": "2026-07-20T15:44:13Z",
-      "last_seen": "2026-07-20T17:19:15Z"
+      "last_seen": "2026-07-20T19:23:41Z"
     },
     {
       "id": "1fd38de46326cc828f4ba855a3fb8f487e159843",
@@ -21,7 +101,17 @@
       "description": "A newly discovered espionage implant has been using a hijacked Microsoft 365 calendar as its command channel, planting operator instructions and smuggling out stolen files as attachments on calendar events dated to the year 2050. Group-IB, which named the malware HollowGraph, says the approach moves tasking and stolen data through legitimate Microsoft Graph API traffic, so the activity looks",
       "source": "thehackernews.com",
       "first_seen": "2026-07-20T15:44:13Z",
-      "last_seen": "2026-07-20T17:19:15Z"
+      "last_seen": "2026-07-20T19:23:41Z"
+    },
+    {
+      "id": "ba3bcc91331555a8822dca25a7955669a22fb1e3",
+      "title": "ClickFix Campaign Delivers Modular TELEPUZ Malware With 36 Remote Commands",
+      "link": "https://cybersecuritynews.com/clickfix-campaign-delivers-telepuz/",
+      "date": "2026-07-20T14:20:34Z",
+      "description": "A new malware operation is using ClickFix pages to trick Windows users into running malicious commands themselves. The campaign delivers TELEPUZ, a lightweight but capable remote-access malware that can receive dozens of instructions from its operators. The attack begins with a fake verification-style page that asks a visitor to copy and execute a command. That […] The post ClickFix Campaign…",
+      "source": "cybersecuritynews.com",
+      "first_seen": "2026-07-20T19:23:41Z",
+      "last_seen": "2026-07-20T19:23:41Z"
     },
     {
       "id": "d3f27caab9c2f896ad542072366584e61d73e1b1",
@@ -31,7 +121,7 @@
       "description": "The zero-days CVE-2026-15409 and CVE-2026-15410 were exploited by a threat actor tracked by Volexity as UTA0533. The post SonicWall Zero-Days Exploited to Deliver Custom Malware for Weeks Before Patch appeared first on SecurityWeek.",
       "source": "securityweek.com",
       "first_seen": "2026-07-20T15:44:13Z",
-      "last_seen": "2026-07-20T17:19:15Z"
+      "last_seen": "2026-07-20T19:23:41Z"
     },
     {
       "id": "71cb7ba4793bcb601b672fb6896f84636e99ed60",
@@ -41,7 +131,7 @@
       "description": "Choosing an AI SOC platform requires understanding how it will perform in your own environment, not just during an evaluation. Prophet Security shares a practical framework for assessing AI SOC solutions, including how to validate accuracy, operating models, long-term reliability, and production readiness. [...]",
       "source": "bleepingcomputer.com",
       "first_seen": "2026-07-20T15:44:13Z",
-      "last_seen": "2026-07-20T17:19:15Z"
+      "last_seen": "2026-07-20T19:23:41Z"
     },
     {
       "id": "c77899dde595c29c98bf2ba65d9d07853d2bdb72",
@@ -51,7 +141,7 @@
       "description": "From the World Cup to the United States' 250th celebration, this year's event calendar has been packed with high-profile gatherings that drew global audiences, intense scrutiny, and enormous security demands.",
       "source": "darkreading.com",
       "first_seen": "2026-07-20T15:44:13Z",
-      "last_seen": "2026-07-20T17:19:15Z"
+      "last_seen": "2026-07-20T19:23:41Z"
     },
     {
       "id": "26b171ae9d3191440af6b56ae9872de694378b84",
@@ -71,7 +161,7 @@
       "description": "A single request should not be able to do this much. But this week, small inputs led to code execution, memory loss, stolen keys, and disabled security tools. The paths were often simple: exposed systems, weak checks, old drivers, fake prompts, and public code used for malware delivery. Some bugs were new. Others were already being used before defenders had time to patch. Here is the full",
       "source": "thehackernews.com",
       "first_seen": "2026-07-20T15:44:13Z",
-      "last_seen": "2026-07-20T17:19:15Z"
+      "last_seen": "2026-07-20T19:23:41Z"
     },
     {
       "id": "8082ab56b6f4f8cb7af5d0324c1fb93df561dff0",
@@ -111,7 +201,7 @@
       "description": "Attackers could send waves of malicious payloads to trigger buffer pre-allocations that are not freed, exhausting server memory. The post OpenSSL Silently Fixes ‘HollowByte’ DoS Vulnerability appeared first on SecurityWeek.",
       "source": "securityweek.com",
       "first_seen": "2026-07-20T13:46:24Z",
-      "last_seen": "2026-07-20T17:19:15Z"
+      "last_seen": "2026-07-20T19:23:41Z"
     },
     {
       "id": "404ce9f9b904c35bb487e2bd99e93605b6c9b2d1",
@@ -121,7 +211,7 @@
       "description": "At least one Russian intelligence service is systematically hijacking internet-connected security cameras across Europe and Ukraine, using the feeds to watch military transport routes, weapons shipments bound for Kyiv, and the locations of Ukrainian troops. That is the finding of a cybersecurity advisory published July 10 by the AIVD and MIVD, the Netherlands' civilian and military intelligence",
       "source": "thehackernews.com",
       "first_seen": "2026-07-20T13:46:24Z",
-      "last_seen": "2026-07-20T17:19:15Z"
+      "last_seen": "2026-07-20T19:23:41Z"
     },
     {
       "id": "ed191f8c982ae3aaf1f2f11253655db947ba6509",
@@ -131,7 +221,7 @@
       "description": "The Hugging Face artificial intelligence repository disclosed that attackers gained access to internal datasets and credentials after breaching its production infrastructure using an autonomous AI agent system. [...]",
       "source": "bleepingcomputer.com",
       "first_seen": "2026-07-20T13:46:24Z",
-      "last_seen": "2026-07-20T17:19:15Z"
+      "last_seen": "2026-07-20T19:23:41Z"
     },
     {
       "id": "e2cf011cb6b971c24848dbbf9924d20448c9d375",
@@ -141,7 +231,7 @@
       "description": "Longtime cybersecurity executive Richard Bird built the resource for security experts, journalists, policymakers, and everyday citizens. The post New Index Tracks Material Breaches — And Refuses to Add Up the Losses appeared first on SecurityWeek.",
       "source": "securityweek.com",
       "first_seen": "2026-07-20T13:46:24Z",
-      "last_seen": "2026-07-20T17:19:15Z"
+      "last_seen": "2026-07-20T19:23:41Z"
     },
     {
       "id": "329cb4e3efd3e0ae1831029409550522aef34138",
@@ -151,7 +241,7 @@
       "description": "The industry spent the initial months after Anthropic's April 7 Mythos reveal focused on volume. How many new CVEs would Mythos add to an already overloaded pipeline? How quickly would the flood of AI-driven discovery overwhelm triage capabilities? How long would it take adversaries to weaponize Mythos findings at scale? Those questions were and remain valid. Yet they all stop short of",
       "source": "thehackernews.com",
       "first_seen": "2026-07-20T13:46:24Z",
-      "last_seen": "2026-07-20T17:19:15Z"
+      "last_seen": "2026-07-20T19:23:41Z"
     },
     {
       "id": "6eddc6b6776f4209ed50e5cc8674f9c5c7d09be7",
@@ -161,7 +251,7 @@
       "description": "Hackers stole names, addresses, Social Security numbers, credit/debit card numbers, and other information from a third-party management platform. The post Ernst & Young Data Breach Affects Personal, Financial Information appeared first on SecurityWeek.",
       "source": "securityweek.com",
       "first_seen": "2026-07-20T11:34:56Z",
-      "last_seen": "2026-07-20T17:19:15Z"
+      "last_seen": "2026-07-20T19:23:41Z"
     },
     {
       "id": "b16f83b09a444341d9e966504233b0d3c66d9a81",
@@ -181,7 +271,7 @@
       "description": "Microsoft is working to fix a known issue affecting Windows Server Update Services (WSUS) servers, which has caused synchronization problems for more than a week. [...]",
       "source": "bleepingcomputer.com",
       "first_seen": "2026-07-20T11:34:56Z",
-      "last_seen": "2026-07-20T17:19:15Z"
+      "last_seen": "2026-07-20T19:23:41Z"
     },
     {
       "id": "8457b748e231ff0963abbaf306c35f53ebf088bf",
@@ -211,7 +301,7 @@
       "description": "Microsoft has released emergency updates to fix a known issue causing some Dell PCs to shut down after installing the July 2026 Windows 11 security updates. [...]",
       "source": "bleepingcomputer.com",
       "first_seen": "2026-07-20T11:34:56Z",
-      "last_seen": "2026-07-20T17:19:15Z"
+      "last_seen": "2026-07-20T19:23:41Z"
     },
     {
       "id": "3747b88968f6b443ce60f413c5b3f230a7182d7b",
@@ -521,7 +611,7 @@
       "description": "When chained together, the two vulnerabilities allow threat actors to gain root-level capabilities on SonicWall's mobile access appliances.",
       "source": "darkreading.com",
       "first_seen": "2026-07-17T20:46:16Z",
-      "last_seen": "2026-07-20T17:19:15Z"
+      "last_seen": "2026-07-20T19:23:41Z"
     },
     {
       "id": "9f9f68007afe73fcd541e44c11672085c6496a18",
@@ -601,7 +691,7 @@
       "description": "AI models left to both interpret and execute commands eliminate critical cybersecurity oversight.",
       "source": "darkreading.com",
       "first_seen": "2026-07-17T18:02:34Z",
-      "last_seen": "2026-07-20T17:19:15Z"
+      "last_seen": "2026-07-20T19:23:41Z"
     },
     {
       "id": "a3d042cb7e6051c5ad477f864b7754a463f1c1aa",
@@ -931,7 +1021,7 @@
       "description": "A CVSS score 6.5 AV:N/AC:L/PR:H/UI:N/S:U/C:H/I:H/A:N severity vulnerability discovered by 'Connor Kastner (ret2c)' was reported to the affected vendor on: 2026-07-17, 0 days ago. The vendor is given until 2026-11-14 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
       "source": "zerodayinitiative.com",
       "first_seen": "2026-07-17T16:58:22Z",
-      "last_seen": "2026-07-20T17:19:15Z"
+      "last_seen": "2026-07-20T19:23:41Z"
     },
     {
       "id": "a8d0a63d146c09966543a36aec8050f74adc0718",
@@ -941,7 +1031,7 @@
       "description": "A CVSS score 4.9 AV:N/AC:L/PR:H/UI:N/S:U/C:H/I:N/A:N severity vulnerability discovered by 'NURIHAN KIM (HanTul)' was reported to the affected vendor on: 2026-07-17, 0 days ago. The vendor is given until 2026-11-14 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
       "source": "zerodayinitiative.com",
       "first_seen": "2026-07-17T16:58:22Z",
-      "last_seen": "2026-07-20T17:19:15Z"
+      "last_seen": "2026-07-20T19:23:41Z"
     },
     {
       "id": "baa9d3d0f737ea278dd9f3bcaa4b14a757c34136",
@@ -951,7 +1041,7 @@
       "description": "A CVSS score 7.8 AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H severity vulnerability discovered by 'Liang Zhu' was reported to the affected vendor on: 2026-07-17, 0 days ago. The vendor is given until 2026-11-14 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
       "source": "zerodayinitiative.com",
       "first_seen": "2026-07-17T16:58:22Z",
-      "last_seen": "2026-07-20T17:19:15Z"
+      "last_seen": "2026-07-20T19:23:41Z"
     },
     {
       "id": "be117a94cc675d52e0df659bd0f0134fd63a40c4",
@@ -961,7 +1051,7 @@
       "description": "A CVSS score 8.8 AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H severity vulnerability discovered by 'Minh Giang (@itscysamu) of TrendAI Zero Day Initiative' was reported to the affected vendor on: 2026-07-17, 0 days ago. The vendor is given until 2026-11-14 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
       "source": "zerodayinitiative.com",
       "first_seen": "2026-07-17T16:58:22Z",
-      "last_seen": "2026-07-20T17:19:15Z"
+      "last_seen": "2026-07-20T19:23:41Z"
     },
     {
       "id": "4cf69cada5c32b85c14714191001eabd0897715c",
@@ -971,7 +1061,7 @@
       "description": "A CVSS score 7.8 AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H severity vulnerability discovered by 'YJK(@YJK0805) of ZUSO ART' was reported to the affected vendor on: 2026-07-17, 0 days ago. The vendor is given until 2026-11-14 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
       "source": "zerodayinitiative.com",
       "first_seen": "2026-07-17T16:58:22Z",
-      "last_seen": "2026-07-20T17:19:15Z"
+      "last_seen": "2026-07-20T19:23:41Z"
     },
     {
       "id": "241702b432f10c35ad9a228759f21aecd6775b37",
@@ -34364,16 +34454,6 @@
       "last_seen": "2026-04-23T11:53:13Z"
     },
     {
-      "id": "1cd20498b374627b6d906500168eaf27f34c7ddb",
-      "title": "New Lotus data wiper used against Venezuelan energy, utility firms",
-      "link": "https://www.bleepingcomputer.com/news/security/new-lotus-data-wiper-used-against-venezuelan-energy-utility-firms/",
-      "date": "2026-04-21T18:38:40Z",
-      "description": "A previously undocumented data-wiping malware dubbed Lotus was used last year in targeted attacks against energy and utilities organizations in Venezuela. [...]",
-      "source": "bleepingcomputer.com",
-      "first_seen": "2026-04-21T18:56:38Z",
-      "last_seen": "2026-04-22T10:10:27Z"
-    },
-    {
       "id": "4af085451c0381bba27f832b435f072be8b0a205",
       "title": "SystemBC C2 Server Reveals 1,570+ Victims in The Gentlemen Ransomware Operation",
       "link": "https://thehackernews.com/2026/04/systembc-c2-server-reveals-1570-victims.html",
@@ -34404,26 +34484,6 @@
       "last_seen": "2026-04-22T06:29:17Z"
     },
     {
-      "id": "038978d9b0843ef7bdce4a253c7eef071169ced5",
-      "title": "22 BRIDGE:BREAK Flaws Expose Thousands of Lantronix and Silex Serial-to-IP Converters",
-      "link": "https://thehackernews.com/2026/04/22-bridgebreak-flaws-expose-20000.html",
-      "date": "2026-04-21T15:46:00Z",
-      "description": "Cybersecurity researchers have identified 22 new vulnerabilities in popular models of serial-to-IP converters from Lantronix and Silex that could be exploited to hijack susceptible devices and tamper with data exchanged by them. The vulnerabilities have been collectively codenamed BRIDGE:BREAK by Forescout Research Vedere Labs, which identified nearly 20,000 Serial-to-Ethernet converters exposed",
-      "source": "thehackernews.com",
-      "first_seen": "2026-04-21T17:51:36Z",
-      "last_seen": "2026-04-22T10:10:27Z"
-    },
-    {
-      "id": "aff7992690238b369aded189f8c6e466d0db580d",
-      "title": "Surge in Bomgar RMM Exploitation Demonstrates Supply Chain Risk",
-      "link": "https://www.darkreading.com/cyberattacks-data-breaches/surge-bomgar-rmm-exploitation-demonstrates-supply-chain-risk",
-      "date": "2026-04-21T15:29:17Z",
-      "description": "The critical remote code execution flaw (CVE-2026-1731) in the remote monitoring and management tool can be exploited to spread ransomware and compromise supply chains.",
-      "source": "darkreading.com",
-      "first_seen": "2026-04-21T17:51:36Z",
-      "last_seen": "2026-04-23T08:28:17Z"
-    },
-    {
       "id": "e85bb7af94543aaedb51fd9d239dea3683348cca",
       "title": "Google Fixes Critical RCE Flaw in AI-Based 'Antigravity' Tool",
       "link": "https://www.darkreading.com/vulnerabilities-threats/google-fixes-critical-rce-flaw-ai-based-antigravity-tool",
@@ -34434,16 +34494,6 @@
       "last_seen": "2026-04-22T20:02:02Z"
     },
     {
-      "id": "dd98860265b74ce5c4756f047898d41109ab8d21",
-      "title": "ZDI-CAN-30141: oFono",
-      "link": "http://www.zerodayinitiative.com/advisories/upcoming/",
-      "date": "2026-04-21T05:00:00Z",
-      "description": "A CVSS score 6.5 AV:A/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H severity vulnerability discovered by 'Anonymous' was reported to the affected vendor on: 2026-04-21, 0 days ago. The vendor is given until 2026-08-19 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
-      "source": "zerodayinitiative.com",
-      "first_seen": "2026-04-21T17:51:36Z",
-      "last_seen": "2026-04-22T14:46:30Z"
-    },
-    {
       "id": "664df53292fd50e8b1e7bf61d1267fe95047525f",
       "title": "Student Loan Breach Exposes 2.5M Records",
       "link": "https://threatpost.com/student-loan-breach-exposes-2-5m-records/180492/",
@@ -34451,7 +34501,7 @@
       "description": "2.5 million people were affected, in a breach that could spell more trouble down the line.",
       "source": "threatpost.com",
       "first_seen": "2026-05-10T12:53:08Z",
-      "last_seen": "2026-07-20T17:19:15Z"
+      "last_seen": "2026-07-20T19:23:41Z"
     },
     {
       "id": "4140c7a34b0ba94ad2e6b0cae9f59b0cb9bfffea",
@@ -34461,7 +34511,7 @@
       "description": "Researchers uncover a watering hole attack likely carried out by APT TA423, which attempts to plant the ScanBox JavaScript-based reconnaissance tool.",
       "source": "threatpost.com",
       "first_seen": "2026-05-10T12:53:08Z",
-      "last_seen": "2026-07-20T17:19:15Z"
+      "last_seen": "2026-07-20T19:23:41Z"
     },
     {
       "id": "9359ee40a641a4b565080313045f1d7e7fe6552b",
@@ -34471,7 +34521,7 @@
       "description": "Over 130 companies tangled in sprawling phishing campaign that spoofed a multi-factor authentication system.",
       "source": "threatpost.com",
       "first_seen": "2026-05-10T12:53:08Z",
-      "last_seen": "2026-07-20T17:19:15Z"
+      "last_seen": "2026-07-20T19:23:41Z"
     },
     {
       "id": "b4ccef0737cd4050d65241bf754072030b6b5e6a",
@@ -34481,7 +34531,7 @@
       "description": "Lockbit is by far this summer’s most prolific ransomware group, trailed by two offshoots of the Conti group.",
       "source": "threatpost.com",
       "first_seen": "2026-05-10T12:53:08Z",
-      "last_seen": "2026-07-20T17:19:15Z"
+      "last_seen": "2026-07-20T19:23:41Z"
     },
     {
       "id": "12ee113fc8fce91f6d7fb28deab2b1ad20061ec7",
@@ -34491,7 +34541,7 @@
       "description": "Tens of thousands of cameras have failed to patch a critical, 11-month-old CVE, leaving thousands of organizations exposed.",
       "source": "threatpost.com",
       "first_seen": "2026-05-10T12:53:08Z",
-      "last_seen": "2026-07-20T17:19:15Z"
+      "last_seen": "2026-07-20T19:23:41Z"
     }
   ]
 }
