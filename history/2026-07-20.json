@@ -1,7 +1,57 @@
 {
   "date": "2026-07-20",
-  "count": 2,
+  "count": 8,
   "items": [
+    {
+      "id": "bc51985595d18e98eed8f4db212ec5aacd3c4e96",
+      "title": "GoldenEyeDog Hackers Group Behind DigiCert Breach that Hijacks Code-Signing Certificates",
+      "link": "https://cybersecuritynews.com/goldeneyedog-behind-digicert-breach/",
+      "date": "2026-07-20T08:21:28Z",
+      "description": "GoldenEyeDog, a Chinese cybercrime group linked to the Golden Gh0st malware family, is back in focus after an intrusion at DigiCert exposed the risks around code-signing certificates. The attackers used the access to intercept customer certificate activation codes and sign their own malicious files. The operation relied on a simple but effective route into a […] The post GoldenEyeDog Hackers…",
+      "source": "cybersecuritynews.com",
+      "first_seen": "2026-07-20T08:37:53Z",
+      "last_seen": "2026-07-20T08:37:53Z"
+    },
+    {
+      "id": "c7033a4f91a0b0dd23a3c1960b096d38975bbaa9",
+      "title": "Chrome 150 Update Patches Severe Memory Safety Bugs",
+      "link": "https://www.securityweek.com/chrome-150-update-patches-severe-memory-safety-bugs/",
+      "date": "2026-07-20T08:12:19Z",
+      "description": "The fresh security update resolves six critical and high-severity use-after-free vulnerabilities. The post Chrome 150 Update Patches Severe Memory Safety Bugs appeared first on SecurityWeek.",
+      "source": "securityweek.com",
+      "first_seen": "2026-07-20T08:37:53Z",
+      "last_seen": "2026-07-20T08:37:53Z"
+    },
+    {
+      "id": "7159ad44cfaa3b48bcfd51d20eb6a7b0f4422fc3",
+      "title": "U.S. Prosecutors Charge Russian Trio in Cybercrimes Causing More Than $62 Million in Losses",
+      "link": "https://cybersecuritynews.com/russian-trio-in-cybercrimes/",
+      "date": "2026-07-20T07:08:47Z",
+      "description": "Federal prosecutors have charged three Russian nationals over infrastructure that allegedly enabled ransomware, malware, phishing, and other cyberattacks against organizations in the United States and abroad. The seven-year investigation links the activity to more than $62 million in victim losses across essential sectors. The alleged operation did not depend on one named malware family.…",
+      "source": "cybersecuritynews.com",
+      "first_seen": "2026-07-20T08:37:53Z",
+      "last_seen": "2026-07-20T08:37:53Z"
+    },
+    {
+      "id": "c1478f59b8423a8372394ca8a4cf19e28045c010",
+      "title": "North Korean Hackers Hide OTTERCOOKIE Malware in SVG Images to Backdoor Developers",
+      "link": "https://cybersecuritynews.com/north-korean-hackers-ottercookie-malware/",
+      "date": "2026-07-20T06:31:20Z",
+      "description": "North Korean-linked hackers are hiding OTTERCOOKIE-aligned malware inside ordinary SVG flag images, turning a familiar part of a web project into a concealed delivery channel. The operation targets software developers who believe they are completing a coding test for a job opportunity. The victims receive a working e-commerce project through social-engineering messages, then are asked […] The…",
+      "source": "cybersecuritynews.com",
+      "first_seen": "2026-07-20T08:37:53Z",
+      "last_seen": "2026-07-20T08:37:53Z"
+    },
+    {
+      "id": "2de7ac9412c48971cd3c7a1227966e023a0ee64e",
+      "title": "World's Largest AI Model Repository Hugging Face Breached by Autonomous AI Agent",
+      "link": "https://thehackernews.com/2026/07/worlds-largest-ai-model-repository.html",
+      "date": "2026-07-20T05:27:26Z",
+      "description": "In an ironic twist, open-source artificial intelligence (AI) platform Hugging Face revealed that it was the victim of a hack perpetrated by an autonomous AI agent system. The company said it detected and responded to the incident targeting its production infrastructure earlier last week. \"We identified unauthorized access to a limited set of internal datasets and to several credentials used by",
+      "source": "thehackernews.com",
+      "first_seen": "2026-07-20T08:37:53Z",
+      "last_seen": "2026-07-20T08:37:53Z"
+    },
     {
       "id": "827841534cf3407d6a0aeb4841ee0542eb3df9be",
       "title": "WP2Shell WordPress Vulnerabilities Exploited in the Wild",
@@ -10,7 +60,17 @@
       "description": "Exploitation of the new WordPress vulnerabilities tracked as CVE-2026-60137 and CVE-2026-63030 started soon after disclosure. The post WP2Shell WordPress Vulnerabilities Exploited in the Wild appeared first on SecurityWeek.",
       "source": "securityweek.com",
       "first_seen": "2026-07-20T05:29:43Z",
-      "last_seen": "2026-07-20T05:29:43Z"
+      "last_seen": "2026-07-20T08:37:53Z"
+    },
+    {
+      "id": "f84fa8bd3c4f6a49a4c5b36a2f8aa3d1f805ecf8",
+      "title": "SleeperGem Uses Three Malicious RubyGems Packages to Target Developer Machines",
+      "link": "https://thehackernews.com/2026/07/sleepergem-uses-three-malicious.html",
+      "date": "2026-07-20T05:15:39Z",
+      "description": "Cybersecurity researchers have flagged a new software supply chain attack codenamed SleeperGem targeting the Ruby ecosystem after three malicious gems were published to RubyGems with the end goal of serving additional payloads. The rogue gems are listed below - git_credential_manager (versions 2.8.0, 2.8.1, 2.8.2, 2.8.3) - Published on July 18, 2026 Dendreo (versions 1.1.3, 1.1.4) -",
+      "source": "thehackernews.com",
+      "first_seen": "2026-07-20T08:37:53Z",
+      "last_seen": "2026-07-20T08:37:53Z"
     },
     {
       "id": "557720ddff7c895b3020291fc276998fcfca0a58",
@@ -20,7 +80,7 @@
       "description": "A newly disclosed flaw tracked as CVE-2026-42533 affects nginx’s script engine and has been silently exploitable since March 2011, when the map directive gained regex support. Security researcher Stan Shaw reported the bug to F5 SIRT, which coordinated a fix released in nginx 1.30.4 (stable) and 1.31.3 (mainline), along with corresponding patches for NGINX Plus […] The post 15-Year-Old NGINX…",
       "source": "cybersecuritynews.com",
       "first_seen": "2026-07-20T05:29:43Z",
-      "last_seen": "2026-07-20T05:29:43Z"
+      "last_seen": "2026-07-20T08:37:53Z"
     }
   ]
 }
