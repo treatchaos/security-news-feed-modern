@@ -1,8 +1,28 @@
 {
-  "last_updated": "2026-07-20T01:55:45Z",
+  "last_updated": "2026-07-20T05:29:43Z",
   "retention_days": 90,
-  "count": 3458,
+  "count": 3455,
   "items": [
+    {
+      "id": "827841534cf3407d6a0aeb4841ee0542eb3df9be",
+      "title": "WP2Shell WordPress Vulnerabilities Exploited in the Wild",
+      "link": "https://www.securityweek.com/wp2shell-wordpress-vulnerabilities-exploited-in-the-wild/",
+      "date": "2026-07-20T05:21:29Z",
+      "description": "Exploitation of the new WordPress vulnerabilities tracked as CVE-2026-60137 and CVE-2026-63030 started soon after disclosure. The post WP2Shell WordPress Vulnerabilities Exploited in the Wild appeared first on SecurityWeek.",
+      "source": "securityweek.com",
+      "first_seen": "2026-07-20T05:29:43Z",
+      "last_seen": "2026-07-20T05:29:43Z"
+    },
+    {
+      "id": "557720ddff7c895b3020291fc276998fcfca0a58",
+      "title": "15-Year-Old NGINX Vulnerability Lets Attackers Crash Workers and Achieve Remote Code Execution",
+      "link": "https://cybersecuritynews.com/15-year-old-nginx-vulnerability/",
+      "date": "2026-07-20T03:14:39Z",
+      "description": "A newly disclosed flaw tracked as CVE-2026-42533 affects nginx’s script engine and has been silently exploitable since March 2011, when the map directive gained regex support. Security researcher Stan Shaw reported the bug to F5 SIRT, which coordinated a fix released in nginx 1.30.4 (stable) and 1.31.3 (mainline), along with corresponding patches for NGINX Plus […] The post 15-Year-Old NGINX…",
+      "source": "cybersecuritynews.com",
+      "first_seen": "2026-07-20T05:29:43Z",
+      "last_seen": "2026-07-20T05:29:43Z"
+    },
     {
       "id": "b113399d0728f9220c619f93260647532f48e135",
       "title": "Critical NGINX Vulnerability Can Crash Workers and May Allow Remote Code Execution",
@@ -11,7 +31,7 @@
       "description": "F5 has shipped fixes for a critical nginx flaw that lets a remote, unauthenticated attacker trigger a heap buffer overflow in the worker process with crafted HTTP requests. CVE-2026-42533 was patched on July 15 in nginx 1.30.4 (stable) and 1.31.3 (mainline), and in NGINX Plus 37.0.3.1; anyone on an earlier build should upgrade. Triggering it can crash or restart the worker, causing a denial of",
       "source": "thehackernews.com",
       "first_seen": "2026-07-19T21:42:06Z",
-      "last_seen": "2026-07-20T01:55:45Z"
+      "last_seen": "2026-07-20T05:29:43Z"
     },
     {
       "id": "01705d07161733d3a52e3e73c77acf4bdb102b35",
@@ -21,7 +41,7 @@
       "description": "This week’s cybersecurity situation shows a clear reality: every part of technology, from identity systems to common productivity tools, can be hacked or compromised. Microsoft’s July Patch Tuesday alone addressed roughly 570 vulnerabilities, including two zero-days already being exploited in the wild against SharePoint Server and Active Directory Federation Services, signaling that attackers…",
       "source": "cybersecuritynews.com",
       "first_seen": "2026-07-19T17:47:31Z",
-      "last_seen": "2026-07-20T01:55:45Z"
+      "last_seen": "2026-07-20T05:29:43Z"
     },
     {
       "id": "90523b3208619320337b2ab7ee2401775adbcae7",
@@ -31,7 +51,7 @@
       "description": "An advanced threat actor is abusing the update mechanism for the ViPNet private networking product suite to target Russian organizations, including government agencies. [...]",
       "source": "bleepingcomputer.com",
       "first_seen": "2026-07-19T15:45:00Z",
-      "last_seen": "2026-07-20T01:55:45Z"
+      "last_seen": "2026-07-20T05:29:43Z"
     },
     {
       "id": "7821698803230b9d89cef52465eae7f5d21ec79c",
@@ -41,7 +61,7 @@
       "description": "Russian state-sponsored threat actors have been observed leveraging the infamous ClickFix strategy to trick Ukrainian targets into infecting their own machines with data-stealing malware. According to the Computer Emergency Response Team of Ukraine (CERT-UA), the activity has been attributed to UAC-0145, a sub-cluster within Sandworm, an advanced hacking unit affiliated with GRU, Russia's",
       "source": "thehackernews.com",
       "first_seen": "2026-07-19T14:19:37Z",
-      "last_seen": "2026-07-20T01:55:45Z"
+      "last_seen": "2026-07-20T05:29:43Z"
     },
     {
       "id": "087a33b44051235a6a59d246002a365e4f4c64a1",
@@ -51,7 +71,7 @@
       "description": "A previously undocumented threat actor has been attributed to the exploitation of recently disclosed SonicWall Secure Mobile Access (SMA) 1000 series VPN appliances as zero-days prior their public disclosure since June 22, 2026. Cybersecurity company Volexity is tracking the activity under the moniker UTA0533. The discovery was made following an incident response investigation earlier this",
       "source": "thehackernews.com",
       "first_seen": "2026-07-19T14:19:37Z",
-      "last_seen": "2026-07-20T01:55:45Z"
+      "last_seen": "2026-07-20T05:29:43Z"
     },
     {
       "id": "1daa320f9d6dc10bd7a425a2ef5c2073d6c9b636",
@@ -61,7 +81,7 @@
       "description": "A sharp structural shift has been identified in the botnet landscape. Security researchers at XLab have uncovered NadMesh, a Go-based botnet that has been spreading rapidly since early July 2026. This malware marks a distinct evolution from opportunistic worm behavior toward an industrial-grade, ROI-driven attack platform aimed squarely at Artificial Intelligence (AI) and Model Context […] The…",
       "source": "cybersecuritynews.com",
       "first_seen": "2026-07-19T05:00:21Z",
-      "last_seen": "2026-07-20T01:55:45Z"
+      "last_seen": "2026-07-20T05:29:43Z"
     },
     {
       "id": "78924112deb1d72b236b4067422d5627cc1ca43d",
@@ -71,7 +91,7 @@
       "description": "7-Zip version 26.02 was released on June 25 to fix a remote code execution vulnerability that could allow attackers to execute malicious code by convincing users to open specially crafted compressed files. [...]",
       "source": "bleepingcomputer.com",
       "first_seen": "2026-07-18T19:58:21Z",
-      "last_seen": "2026-07-20T01:55:45Z"
+      "last_seen": "2026-07-20T05:29:43Z"
     },
     {
       "id": "89040a01fdb22bfb1fffdd8b6394e3f38829cf92",
@@ -81,7 +101,7 @@
       "description": "Hugging Face disclosed this week that it detected and contained a production infrastructure intrusion, driven end-to-end by an autonomous AI agent system, and defended against it using its own AI-based forensic analysis. The attackers exploited two code-execution flaws in Hugging Face’s dataset processing pipeline: a remote-code dataset loader and a template-injection vulnerability in dataset…",
       "source": "cybersecuritynews.com",
       "first_seen": "2026-07-18T18:44:29Z",
-      "last_seen": "2026-07-20T01:55:45Z"
+      "last_seen": "2026-07-20T05:29:43Z"
     },
     {
       "id": "7d2f53feaba7cea8fbb56f1baa34f6ce062c8020",
@@ -91,7 +111,7 @@
       "description": "Public exploits have been released for the critical \"wp2shell\" remote code execution vulnerabilities affecting WordPress Core, making it imperative that administrators patch their sites immediately. [...]",
       "source": "bleepingcomputer.com",
       "first_seen": "2026-07-18T17:46:15Z",
-      "last_seen": "2026-07-20T01:55:45Z"
+      "last_seen": "2026-07-20T05:29:43Z"
     },
     {
       "id": "26e62646f1553f5b33a88ffd006bed06ce1ead8d",
@@ -101,7 +121,7 @@
       "description": "Microsoft has observed a surge in attacks using the ACR Stealer malware to steal browser-stored passwords, authentication tokens, and sensitive documents from its enterprise customers. [...]",
       "source": "bleepingcomputer.com",
       "first_seen": "2026-07-18T15:43:46Z",
-      "last_seen": "2026-07-20T01:55:45Z"
+      "last_seen": "2026-07-20T05:29:43Z"
     },
     {
       "id": "c4825ed83edaafa84563254e72c40004dbbb7552",
@@ -111,7 +131,7 @@
       "description": "As age verification laws expand worldwide, organizations face growing pressure to protect users' privacy while meeting regulatory requirements. Incode explains how on-device age estimation verifies age without transmitting or storing facial images, reducing biometric privacy risks while supporting compliance. [...]",
       "source": "bleepingcomputer.com",
       "first_seen": "2026-07-18T14:15:04Z",
-      "last_seen": "2026-07-20T01:55:45Z"
+      "last_seen": "2026-07-20T05:29:43Z"
     },
     {
       "id": "4348d6b73cc78efeee6b4ec60a9a3bb56eec2a4e",
@@ -121,7 +141,7 @@
       "description": "A previously unseen ransomware family dubbed “Spirals” struck an IT services company in South Asia in June 2026. Symantec’s Threat Hunter Team reports that the attackers moved from the initial breach to full network encryption in under 24 hours. The Rust-based payload appears to be either entirely new or purpose-built for this single targeted attack, […] The post New Spirals Ransomware Uses IIS…",
       "source": "cybersecuritynews.com",
       "first_seen": "2026-07-18T11:43:38Z",
-      "last_seen": "2026-07-20T01:55:45Z"
+      "last_seen": "2026-07-20T05:29:43Z"
     },
     {
       "id": "af2b91ee554e9818b67bb75092e044b52816f101",
@@ -151,7 +171,7 @@
       "description": "An anonymous HTTP request can run code on a WordPress site. The bug is in core, so a bare install with zero plugins is exploitable. Every 6.9 and 7.0 site was in range until Friday, when WordPress shipped 6.9.5 and 7.0.2 and enabled what it calls forced updates through its auto-update system. Adam Kues at Assetnote, Searchlight Cyber's attack surface management arm, found the flaw and reported",
       "source": "thehackernews.com",
       "first_seen": "2026-07-17T22:38:10Z",
-      "last_seen": "2026-07-20T01:55:45Z"
+      "last_seen": "2026-07-20T05:29:43Z"
     },
     {
       "id": "0172360dad33fa50bbce546cfe608516085aed77",
@@ -181,7 +201,7 @@
       "description": "Eleven bytes will make an unpatched OpenSSL server set aside up to 131 KB of memory for a message that never arrives. On the glibc systems Okta tested, that memory is gone until the process restarts. OpenSSL shipped the HollowByte fix in June with no CVE, no advisory, and no changelog entry pointing at it. Okta's Red Team, which reported the denial-of-service bug and named it, published the",
       "source": "thehackernews.com",
       "first_seen": "2026-07-17T20:46:16Z",
-      "last_seen": "2026-07-20T01:55:45Z"
+      "last_seen": "2026-07-20T05:29:43Z"
     },
     {
       "id": "57b23e3b61372062b6ba781fa72def39880fb4b9",
@@ -191,7 +211,7 @@
       "description": "When chained together, the two vulnerabilities allow threat actors to gain root-level capabilities on SonicWall's mobile access appliances.",
       "source": "darkreading.com",
       "first_seen": "2026-07-17T20:46:16Z",
-      "last_seen": "2026-07-20T01:55:45Z"
+      "last_seen": "2026-07-20T05:29:43Z"
     },
     {
       "id": "9f9f68007afe73fcd541e44c11672085c6496a18",
@@ -271,7 +291,7 @@
       "description": "AI models left to both interpret and execute commands eliminate critical cybersecurity oversight.",
       "source": "darkreading.com",
       "first_seen": "2026-07-17T18:02:34Z",
-      "last_seen": "2026-07-20T01:55:45Z"
+      "last_seen": "2026-07-20T05:29:43Z"
     },
     {
       "id": "a3d042cb7e6051c5ad477f864b7754a463f1c1aa",
@@ -301,7 +321,7 @@
       "description": "Noteworthy stories that might have slipped under the radar: OpenClaw AI agents exploited via WhatsApp, ransomware hits naval defense firm TKMS, Lidl discloses data breach. The post In Other News: Iran Tracks US Military Phones, CrashStealer macOS Malware, CVD Blueprint appeared first on SecurityWeek.",
       "source": "securityweek.com",
       "first_seen": "2026-07-17T15:04:20Z",
-      "last_seen": "2026-07-20T01:55:45Z"
+      "last_seen": "2026-07-20T05:29:43Z"
     },
     {
       "id": "47b2fdda0b17501828a68ddaec2197d401a2e061",
@@ -351,7 +371,7 @@
       "description": "The White House launched Gold Eagle to coordinate vulnerability response in a new AI world, but multiple questions linger over how it's being implemented.",
       "source": "darkreading.com",
       "first_seen": "2026-07-17T18:02:34Z",
-      "last_seen": "2026-07-20T01:55:45Z"
+      "last_seen": "2026-07-20T05:29:43Z"
     },
     {
       "id": "e50dadfdd69f3530a72ad6fce819365527f1c125",
@@ -361,7 +381,7 @@
       "description": "(Video) Artificial intelligence is transforming cybersecurity, but are governance, compliance, and security practices evolving fast enough to keep up? The post Podcast: Broken Governance, Agentic AI, and the MindStone Agent Exclusive appeared first on SecurityWeek.",
       "source": "securityweek.com",
       "first_seen": "2026-07-17T13:01:40Z",
-      "last_seen": "2026-07-20T01:55:45Z"
+      "last_seen": "2026-07-20T05:29:43Z"
     },
     {
       "id": "96530bb4c3b1e2649590f98454bd48595ca0c232",
@@ -371,7 +391,7 @@
       "description": "Google Cloud incorporates key Wiz capabilities into an agentic defense platform to automate threat detection and remediation against AI attacks.",
       "source": "darkreading.com",
       "first_seen": "2026-07-17T13:01:40Z",
-      "last_seen": "2026-07-20T01:55:45Z"
+      "last_seen": "2026-07-20T05:29:43Z"
     },
     {
       "id": "7748f128c2d38e30c7a7fd51781449591700766c",
@@ -391,7 +411,7 @@
       "description": "The startup helps organizations detect, hunt, and protect their assets across environments at machine speed. The post Beacon Security Raises $13 Million for Security Data Platform appeared first on SecurityWeek.",
       "source": "securityweek.com",
       "first_seen": "2026-07-17T13:01:40Z",
-      "last_seen": "2026-07-20T01:55:45Z"
+      "last_seen": "2026-07-20T05:29:43Z"
     },
     {
       "id": "e0ecd3fb1b50b945f6a0dba45145f3bb8e2d5311",
@@ -411,7 +431,7 @@
       "description": "Industry professionals broadly agree that the suspension pauses third-party CMMC audits but not the underlying legal obligation to protect CUI. The post Industry Reactions to Pentagon Suspending CMMC Phase 2: Feedback Friday appeared first on SecurityWeek.",
       "source": "securityweek.com",
       "first_seen": "2026-07-17T11:13:53Z",
-      "last_seen": "2026-07-20T01:55:45Z"
+      "last_seen": "2026-07-20T05:29:43Z"
     },
     {
       "id": "b9753d740da32f9580d66cae9f46654ed5c30bf5",
@@ -601,7 +621,7 @@
       "description": "A CVSS score 6.5 AV:N/AC:L/PR:H/UI:N/S:U/C:H/I:H/A:N severity vulnerability discovered by 'Connor Kastner (ret2c)' was reported to the affected vendor on: 2026-07-17, 0 days ago. The vendor is given until 2026-11-14 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
       "source": "zerodayinitiative.com",
       "first_seen": "2026-07-17T16:58:22Z",
-      "last_seen": "2026-07-20T01:55:45Z"
+      "last_seen": "2026-07-20T05:29:43Z"
     },
     {
       "id": "a8d0a63d146c09966543a36aec8050f74adc0718",
@@ -611,7 +631,7 @@
       "description": "A CVSS score 4.9 AV:N/AC:L/PR:H/UI:N/S:U/C:H/I:N/A:N severity vulnerability discovered by 'NURIHAN KIM (HanTul)' was reported to the affected vendor on: 2026-07-17, 0 days ago. The vendor is given until 2026-11-14 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
       "source": "zerodayinitiative.com",
       "first_seen": "2026-07-17T16:58:22Z",
-      "last_seen": "2026-07-20T01:55:45Z"
+      "last_seen": "2026-07-20T05:29:43Z"
     },
     {
       "id": "baa9d3d0f737ea278dd9f3bcaa4b14a757c34136",
@@ -621,7 +641,7 @@
       "description": "A CVSS score 7.8 AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H severity vulnerability discovered by 'Liang Zhu' was reported to the affected vendor on: 2026-07-17, 0 days ago. The vendor is given until 2026-11-14 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
       "source": "zerodayinitiative.com",
       "first_seen": "2026-07-17T16:58:22Z",
-      "last_seen": "2026-07-20T01:55:45Z"
+      "last_seen": "2026-07-20T05:29:43Z"
     },
     {
       "id": "be117a94cc675d52e0df659bd0f0134fd63a40c4",
@@ -631,7 +651,7 @@
       "description": "A CVSS score 8.8 AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H severity vulnerability discovered by 'Minh Giang (@itscysamu) of TrendAI Zero Day Initiative' was reported to the affected vendor on: 2026-07-17, 0 days ago. The vendor is given until 2026-11-14 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
       "source": "zerodayinitiative.com",
       "first_seen": "2026-07-17T16:58:22Z",
-      "last_seen": "2026-07-20T01:55:45Z"
+      "last_seen": "2026-07-20T05:29:43Z"
     },
     {
       "id": "4cf69cada5c32b85c14714191001eabd0897715c",
@@ -641,7 +661,7 @@
       "description": "A CVSS score 7.8 AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H severity vulnerability discovered by 'YJK(@YJK0805) of ZUSO ART' was reported to the affected vendor on: 2026-07-17, 0 days ago. The vendor is given until 2026-11-14 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
       "source": "zerodayinitiative.com",
       "first_seen": "2026-07-17T16:58:22Z",
-      "last_seen": "2026-07-20T01:55:45Z"
+      "last_seen": "2026-07-20T05:29:43Z"
     },
     {
       "id": "241702b432f10c35ad9a228759f21aecd6775b37",
@@ -701,7 +721,7 @@
       "description": "Agentic artificial intelligence is creating enough risks for organizations to demand a security reframe.",
       "source": "darkreading.com",
       "first_seen": "2026-07-17T13:01:40Z",
-      "last_seen": "2026-07-20T01:55:45Z"
+      "last_seen": "2026-07-20T05:29:43Z"
     },
     {
       "id": "ea450926579189fefde49e13ce681eaf5f209602",
@@ -34474,56 +34494,6 @@
       "last_seen": "2026-04-22T14:46:30Z"
     },
     {
-      "id": "9f41ff5a220117af371b14957fa5ab2fed5d75bb",
-      "title": "PoC Exploit Released for Windows Snipping Tool NTLM Hash Leak Vulnerability",
-      "link": "https://cybersecuritynews.com/windows-snipping-tool-ntlm-hash/",
-      "date": "2026-04-21T04:15:29Z",
-      "description": "A proof-of-concept (PoC) exploit has been publicly released for a newly disclosed vulnerability in Microsoft’s Snipping Tool that allows attackers to silently steal users’ Net-NTLM credential hashes by luring them to a malicious webpage. Tracked as CVE-2026-33829, the flaw resides in how Windows Snipping Tool handles deep link URI registrations using the ms-screensketch protocol schema. […] The…",
-      "source": "cybersecuritynews.com",
-      "first_seen": "2026-04-21T04:40:20Z",
-      "last_seen": "2026-04-21T10:10:14Z"
-    },
-    {
-      "id": "c74be6d3cf1a40006e0fe7a24b19a6f1fc8043ce",
-      "title": "iTerm2 Flaw Abuses SSH Integration Escape Sequences to Turn Text Into Code Execution",
-      "link": "https://cybersecuritynews.com/iterm2-flaw-abuses-ssh-integration/",
-      "date": "2026-04-21T03:23:22Z",
-      "description": "Cybersecurity researchers, working in partnership with OpenAI, have uncovered a fascinating and severe vulnerability in iTerm2, a widely used macOS terminal emulator. According to Califio, the flaw abuses the application’s SSH integration feature, allowing attackers to turn seemingly harmless text output into local remote code execution (RCE). Simply viewing a maliciously crafted text file can…",
-      "source": "cybersecuritynews.com",
-      "first_seen": "2026-04-21T04:40:20Z",
-      "last_seen": "2026-04-21T10:10:14Z"
-    },
-    {
-      "id": "71b3ab5c19470c44be702fdb01d11d6b38cba67f",
-      "title": "British National Admits Hacking Companies and Stealing Millions in Virtual Currency",
-      "link": "https://cybersecuritynews.com/british-national-stealing-millions-in-virtual-currency/",
-      "date": "2026-04-21T03:19:57Z",
-      "description": "A British man has pleaded guilty in the United States to his role in a large cybercrime scheme that used SMS phishing, company network intrusions, and SIM swapping to steal at least $1 million in virtual currency from victims across the country. Tyler Robert Buchanan, of Dundee, Scotland, was admitted to conspiracy to commit wire fraud […] The post British National Admits Hacking Companies and…",
-      "source": "cybersecuritynews.com",
-      "first_seen": "2026-04-21T04:40:20Z",
-      "last_seen": "2026-04-21T10:10:14Z"
-    },
-    {
-      "id": "bf9d76f11c804eea3e7d659bcfb43be40659c532",
-      "title": "Critical Gardyn Smart Gardens Vulnerabilities Let Attackers Control Devices Remotely",
-      "link": "https://cybersecuritynews.com/gardyn-smart-gardens-vulnerabilities/",
-      "date": "2026-04-21T03:14:27Z",
-      "description": "The Cybersecurity and Infrastructure Security Agency (CISA) has issued a critical warning about severe vulnerabilities in Gardyn Home Kit smart garden systems. Carrying a maximum severity score of 9.3 out of 10, these flaws could allow unauthenticated attackers to hijack smart agricultural devices from remote locations completely. First detailed in February 2026 and recently updated […] The post…",
-      "source": "cybersecuritynews.com",
-      "first_seen": "2026-04-21T04:40:20Z",
-      "last_seen": "2026-04-21T08:26:24Z"
-    },
-    {
-      "id": "629d14ab0593b1d45a75f85ca2bd2676d3ce5d75",
-      "title": "Critical Anthropic’s MCP Vulnerability Enables Remote Code Execution Attacks",
-      "link": "https://cybersecuritynews.com/anthropics-mcp-vulnerability/",
-      "date": "2026-04-21T02:37:35Z",
-      "description": "A critical flaw in Anthropic’s Model Context Protocol (MCP) exposes over 150 million downloads to potential compromise. The vulnerability could enable full system takeover across up to 200,000 servers. The OX Security Research team identified the flaw as a fundamental design decision embedded in Anthropic’s official MCP SDKs across every supported programming language, including Python,…",
-      "source": "cybersecuritynews.com",
-      "first_seen": "2026-04-21T04:40:20Z",
-      "last_seen": "2026-04-21T06:28:51Z"
-    },
-    {
       "id": "2bec85b1a9ba0368bff4e1450fec0bee92e40f99",
       "title": "Serial-to-IP Devices Hide Thousands of Old &amp; New Bugs",
       "link": "https://www.darkreading.com/ics-ot-security/serial-ip-devices-thousands-of-bugs",
@@ -34541,7 +34511,7 @@
       "description": "2.5 million people were affected, in a breach that could spell more trouble down the line.",
       "source": "threatpost.com",
       "first_seen": "2026-05-10T12:53:08Z",
-      "last_seen": "2026-07-20T01:55:45Z"
+      "last_seen": "2026-07-20T05:29:43Z"
     },
     {
       "id": "4140c7a34b0ba94ad2e6b0cae9f59b0cb9bfffea",
@@ -34551,7 +34521,7 @@
       "description": "Researchers uncover a watering hole attack likely carried out by APT TA423, which attempts to plant the ScanBox JavaScript-based reconnaissance tool.",
       "source": "threatpost.com",
       "first_seen": "2026-05-10T12:53:08Z",
-      "last_seen": "2026-07-20T01:55:45Z"
+      "last_seen": "2026-07-20T05:29:43Z"
     },
     {
       "id": "9359ee40a641a4b565080313045f1d7e7fe6552b",
@@ -34561,7 +34531,7 @@
       "description": "Over 130 companies tangled in sprawling phishing campaign that spoofed a multi-factor authentication system.",
       "source": "threatpost.com",
       "first_seen": "2026-05-10T12:53:08Z",
-      "last_seen": "2026-07-20T01:55:45Z"
+      "last_seen": "2026-07-20T05:29:43Z"
     },
     {
       "id": "b4ccef0737cd4050d65241bf754072030b6b5e6a",
@@ -34571,7 +34541,7 @@
       "description": "Lockbit is by far this summer’s most prolific ransomware group, trailed by two offshoots of the Conti group.",
       "source": "threatpost.com",
       "first_seen": "2026-05-10T12:53:08Z",
-      "last_seen": "2026-07-20T01:55:45Z"
+      "last_seen": "2026-07-20T05:29:43Z"
     },
     {
       "id": "12ee113fc8fce91f6d7fb28deab2b1ad20061ec7",
@@ -34581,7 +34551,7 @@
       "description": "Tens of thousands of cameras have failed to patch a critical, 11-month-old CVE, leaving thousands of organizations exposed.",
       "source": "threatpost.com",
       "first_seen": "2026-05-10T12:53:08Z",
-      "last_seen": "2026-07-20T01:55:45Z"
+      "last_seen": "2026-07-20T05:29:43Z"
     }
   ]
 }
