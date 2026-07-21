@@ -1,7 +1,14 @@
 {
-  "last_updated": "2026-07-21T14:54:37Z",
-  "count": 35,
+  "last_updated": "2026-07-21T16:14:47Z",
+  "count": 30,
   "items": [
+    {
+      "title": "Critical SharePoint RCE CVE-2026-50522 Under Active Exploitation After Public PoC",
+      "link": "https://thehackernews.com/2026/07/critical-sharepoint-rce-cve-2026-50522.html",
+      "date": "2026-07-21T14:57:51Z",
+      "description": "A third SharePoint Server flaw patched by Microsoft as part of its Patch Tuesday update for July 2026 has come under active exploitation, per watchTowr. The vulnerability in question is CVE-2026-50522 (CVSS score: 9.8), a critical deserialization of untrusted data in Microsoft Office SharePoint that could allow an unauthorized attacker to execute code over a network. Microsoft credited DEVCORE",
+      "source": "thehackernews.com"
+    },
     {
       "title": "Qilin Ransomware Attackers Exploit PAN-OS Authentication Bypass for Initial Access",
       "link": "https://thehackernews.com/2026/07/qilin-ransomware-attackers-exploit-pan.html",
@@ -15,27 +22,6 @@
       "date": "2026-07-21T14:00:10Z",
       "description": "Critical infrastructure attacks often begin with stolen credentials, compromised devices, or trusted accounts. Specops Software explains why Zero Trust should verify both user identities and device trust before granting access to critical systems. [...]",
       "source": "bleepingcomputer.com"
-    },
-    {
-      "title": "APT42 Uses AI-Assisted Phishing and TAMECAT Malware to Target Government and Defense Officials",
-      "link": "https://cybersecuritynews.com/apt42-uses-ai-assisted-phishing-and-tamecat-malware/",
-      "date": "2026-07-21T13:49:23Z",
-      "description": "APT42, an Iran-linked cyber espionage group, has expanded its phishing operations with AI-assisted research, convincing personas, and a more resilient version of its TAMECAT malware. The campaign has targeted senior government and defense officials, policy experts, and, in some cases, family members connected to high-value individuals. Rather than relying on large volumes of suspicious emails,…",
-      "source": "cybersecuritynews.com"
-    },
-    {
-      "title": "Critical SharePoint Remote Code Execution Vulnerability Actively Exploited in the Wild",
-      "link": "https://cybersecuritynews.com/sharepoint-rce-exploited-in-the-wild/",
-      "date": "2026-07-21T13:45:33Z",
-      "description": "A newly disclosed vulnerability, tracked as CVE-2026-50522, is rattling enterprise IT teams as it allows unauthenticated attackers to remotely execute code on on-premises Microsoft SharePoint servers. The flaw carries a critical CVSS score of 9.8 and stems from deserialization of untrusted data, a bug class that has repeatedly plagued SharePoint in 2026. CVE-2026-50522 affects on-premises […]…",
-      "source": "cybersecuritynews.com"
-    },
-    {
-      "title": "Top 10 Malware Used by Hackers Last Week to Launch Cyberattacks",
-      "link": "https://cybersecuritynews.com/malware-used-by-hackers-last-week/",
-      "date": "2026-07-21T13:22:54Z",
-      "description": "Cybercriminals continued to lean on a familiar arsenal of malware last week, with information stealers and remote access trojans (RATs) dominating the threat landscape as the primary tools for initial access, credential theft, and long-term system control. Topping the list is Vidar, an infostealer that logged 282 detections, narrowly edging out AsyncRAT, a widely abused […] The post Top 10…",
-      "source": "cybersecuritynews.com"
     },
     {
       "title": "Zimbra Patches Critical SNMP Command Injection and Four XSS Vulnerabilities",
@@ -52,25 +38,11 @@
       "source": "darkreading.com"
     },
     {
-      "title": "Microsoft to Discontinue Podcasts Option on Copilot and to Delete Contents",
-      "link": "https://cybersecuritynews.com/microsoft-discontinue-podcasts-copilot/",
-      "date": "2026-07-21T12:56:36Z",
-      "description": "Microsoft will retire the Podcasts feature in its consumer Copilot app on August 18, 2026, permanently removing access to both the creation tool and all previously generated podcast content. This change affects both free and paid Copilot users, including those with Microsoft 365 subscriptions. Microsoft has announced that it will discontinue the Podcasts option in […] The post Microsoft to…",
-      "source": "cybersecuritynews.com"
-    },
-    {
       "title": "Empirical Security Raises $25 Million in Series A Funding",
       "link": "https://www.securityweek.com/empirical-security-raises-25-million-in-series-a-funding/",
       "date": "2026-07-21T12:47:18Z",
       "description": "The startup will use the investment to accelerate the development of its threat prediction and discovery products. The post Empirical Security Raises $25 Million in Series A Funding appeared first on SecurityWeek.",
       "source": "securityweek.com"
-    },
-    {
-      "title": "Craneware Data Breach – Hackers Stole Significant Amount of Data",
-      "link": "https://cybersecuritynews.com/craneware-data-breach/",
-      "date": "2026-07-21T12:42:44Z",
-      "description": "Healthcare financial software provider Craneware has confirmed a cybersecurity incident involving unauthorized access to a portion of its data environment. The company reported that threat actors viewed and exfiltrated a substantial number of file names, along with some employee data, and a selection of customer and partner records. On July 20, 2026, the London Stock […] The post Craneware Data…",
-      "source": "cybersecuritynews.com"
     },
     {
       "title": "SecurityWeek Launches Critical Impact Awards to Recognize Excellence in Industrial Cybersecurity",
@@ -106,13 +78,6 @@
       "date": "2026-07-21T11:30:00Z",
       "description": "Gaetje’s story shows that you don’t need to be a ‘deep bit-crawler’ to become a Chief Information Security Officer. The post CISO Conversations: Andreas Gaetje – From Economics to CISO at Körber AG appeared first on SecurityWeek.",
       "source": "securityweek.com"
-    },
-    {
-      "title": "New Bit2Watt Attack Could Let Cloud Tenants Disrupt Power Grids Without an Exploit",
-      "link": "https://thehackernews.com/2026/07/new-bit2watt-attack-could-let-cloud.html",
-      "date": "2026-07-21T11:24:50Z",
-      "description": "A cloud tenant using nothing but ordinary GPU access can push a data center's power draw up and down fast enough to threaten the grid it runs on, with no exploit and no break-in. That is the claim behind Bit2Watt, described by three Zhejiang University researchers in a paper accepted to CHES 2026, the IACR's hardware-security conference, and the evidence splits in two: they measured the power",
-      "source": "thehackernews.com"
     },
     {
       "title": "Estée Lauder Discloses Impact From Oracle EBS Zero-Day Hack",
