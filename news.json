@@ -1,13 +1,76 @@
 {
-  "last_updated": "2026-07-21T10:55:43Z",
-  "count": 30,
+  "last_updated": "2026-07-21T12:18:26Z",
+  "count": 35,
   "items": [
+    {
+      "title": "New HollowGraph Malware Abuses Microsoft 365 Calendar for C&C Communication",
+      "link": "https://www.securityweek.com/new-hollowgraph-malware-abuses-microsoft-365-calendar-for-cc-communication/",
+      "date": "2026-07-21T11:55:28Z",
+      "description": "Part of a larger toolkit, HollowGraph uses a compromised 365 account’s calendar as a two-way dead-drop. The post New HollowGraph Malware Abuses Microsoft 365 Calendar for C&C Communication appeared first on SecurityWeek.",
+      "source": "securityweek.com"
+    },
+    {
+      "title": "Hackers Hide Malware Commands in Outlook Events Dated 2050 and Use as C2 Channel",
+      "link": "https://cybersecuritynews.com/hackers-outlook-c2-channel/",
+      "date": "2026-07-21T11:41:36Z",
+      "description": "A newly identified malware component linked to the Project CAV3RN framework is abusing Microsoft Outlook calendar events scheduled for 2050 to conceal command-and-control (C2) traffic. The tool also uses DNS AAAA responses as a fallback channel to restore Microsoft Graph credentials when cloud authentication fails. Kaspersky researchers have associated the activity with highly targeted…",
+      "source": "cybersecuritynews.com"
+    },
+    {
+      "title": "Agentic JADEPUFFER Exploits Langflow Flaw to Deploy ENCFORGE AI Ransomware",
+      "link": "https://cybersecuritynews.com/agentic-jadepuffer-langflow-flaw/",
+      "date": "2026-07-21T11:32:38Z",
+      "description": "A ransomware campaign is now targeting the assets behind artificial intelligence systems. The threat actor known as JADEPUFFER has evolved from damaging databases to deploying ENCFORGE, a ransomware strain designed to encrypt AI models, training data, and vector databases. The operation begins by exploiting CVE-2025-3248, a critical missing-authentication flaw in Langflow’s code-validation…",
+      "source": "cybersecuritynews.com"
+    },
+    {
+      "title": "CISO Conversations: Andreas Gaetje – From Economics to CISO at Körber AG",
+      "link": "https://www.securityweek.com/ciso-conversations-andreas-gaetje-from-economics-to-ciso-at-korber-ag/",
+      "date": "2026-07-21T11:30:00Z",
+      "description": "Gaetje’s story shows that you don’t need to be a ‘deep bit-crawler’ to become a Chief Information Security Officer. The post CISO Conversations: Andreas Gaetje – From Economics to CISO at Körber AG appeared first on SecurityWeek.",
+      "source": "securityweek.com"
+    },
+    {
+      "title": "Estée Lauder Discloses Impact From Oracle EBS Zero-Day Hack",
+      "link": "https://www.securityweek.com/estee-lauder-discloses-impact-from-oracle-ebs-zero-day-hack/",
+      "date": "2026-07-21T11:12:33Z",
+      "description": "Hackers exfiltrated personal, financial, and health information from the company’s Oracle EBS instance in August 2025. The post Estée Lauder Discloses Impact From Oracle EBS Zero-Day Hack appeared first on SecurityWeek.",
+      "source": "securityweek.com"
+    },
+    {
+      "title": "US seizes over 1,000 websites in FIFA World Cup piracy crackdown",
+      "link": "https://www.bleepingcomputer.com/news/security/us-seizes-over-1-000-fifa-world-cup-illegal-streaming-domains/",
+      "date": "2026-07-21T11:07:07Z",
+      "description": "The U.S. Justice Department has seized more than 1,000 websites and blocked 1,970 domains used to stream FIFA World Cup 2026 matches without authorization. [...]",
+      "source": "bleepingcomputer.com"
+    },
+    {
+      "title": "Healthcare Giant Abbott Investigating Cyber Incident Following ShinyHunters Claims",
+      "link": "https://cybersecuritynews.com/abbott-investigating-cyber-incident/",
+      "date": "2026-07-21T10:48:24Z",
+      "description": "Abbott has confirmed that it is investigating a cyber incident involving unauthorized access to a limited number of internal systems used by its Cancer Diagnostics business. This follows claims associated with the ShinyHunters cybercrime group. The healthcare giant stated that the incident is contained and has not disrupted patient services, laboratory activity, manufacturing, or product […] The…",
+      "source": "cybersecuritynews.com"
+    },
+    {
+      "title": "SonicWall 0-day Vulnerabilities Exploited in the Wild to Deploy Custom Malware",
+      "link": "https://cybersecuritynews.com/sonicwall-0-day-vulnerabilities-exploited/",
+      "date": "2026-07-21T10:20:53Z",
+      "description": "Attackers actively exploited two zero-day vulnerabilities in SonicWall Secure Mobile Access (SMA) VPN appliances to gain root access and deploy custom malware. In early July 2026, the cybersecurity firm Volexity was involved in investigating an intrusion related to the SonicWall Secure Mobile Access VPN appliances. The investigation discovered that a threat actor, identified as UTA0533, […] The…",
+      "source": "cybersecuritynews.com"
+    },
     {
       "title": "Meta Paid $78,000 Bounty for Vulnerability Exposing Customer Support Data",
       "link": "https://www.securityweek.com/meta-pays-78000-bounty-for-vulnerability-exposing-customer-support-data/",
       "date": "2026-07-21T10:19:21Z",
       "description": "A security researcher discovered a broken access control vulnerability in Meta’s support infrastructure. The post Meta Paid $78,000 Bounty for Vulnerability Exposing Customer Support Data appeared first on SecurityWeek.",
       "source": "securityweek.com"
+    },
+    {
+      "title": "Microsoft Defender XDR Blind Spot Can Hide Public Connections Behind FourToSixMapping",
+      "link": "https://cybersecuritynews.com/microsoft-defender-xdr-blind-spot/",
+      "date": "2026-07-21T10:18:17Z",
+      "description": "Security teams relying on Microsoft Defender XDR’s DeviceNetworkEvents table for hunting and detection may be missing critical external network connections due to a lesser-known IP address classification quirk. The issue centers on FourToSixMapping, a RemoteIPType value that can cause public IP traffic to slip past detection logic that filters strictly on RemoteIPType == \"Public\". According […]…",
+      "source": "cybersecuritynews.com"
     },
     {
       "title": "Critical Palo Alto VPN bug now exploited by Qilin ransomware gang",
@@ -38,20 +101,6 @@
       "source": "thehackernews.com"
     },
     {
-      "title": "Exploitation of ServiceNow Vulnerability Seen Days After Disclosure",
-      "link": "https://www.securityweek.com/exploitation-of-servicenow-vulnerability-seen-days-after-disclosure/",
-      "date": "2026-07-21T08:41:53Z",
-      "description": "The ServiceNow AI platform vulnerability tracked as CVE-2026-6875 can be exploited for remote code execution. The post Exploitation of ServiceNow Vulnerability Seen Days After Disclosure appeared first on SecurityWeek.",
-      "source": "securityweek.com"
-    },
-    {
-      "title": "Zimbra Update Patches Critical Vulnerabilities",
-      "link": "https://www.securityweek.com/zimbra-update-patches-critical-vulnerabilities/",
-      "date": "2026-07-21T08:20:08Z",
-      "description": "The latest Zimbra refresh resolves command injection, XSS, restriction bypass, and SSRF security defects. The post Zimbra Update Patches Critical Vulnerabilities appeared first on SecurityWeek.",
-      "source": "securityweek.com"
-    },
-    {
       "title": "Windows LegacyHive zero-day flaw gets free, unofficial patches",
       "link": "https://www.bleepingcomputer.com/news/security/windows-legacyhive-zero-day-flaw-gets-free-unofficial-patches/",
       "date": "2026-07-21T08:06:26Z",
@@ -80,13 +129,6 @@
       "source": "bleepingcomputer.com"
     },
     {
-      "title": "SonicWall SMA1000 flaws exploited as zero-days to push custom malware",
-      "link": "https://www.bleepingcomputer.com/news/security/sonicwall-sma1000-flaws-exploited-as-zero-days-to-push-custom-malware/",
-      "date": "2026-07-20T22:23:23Z",
-      "description": "Two recently disclosed SonicWall SMA1000 vulnerabilities were exploited in zero-day attacks for weeks, allowing threat actors to install custom malware on vulnerable VPN appliances. [...]",
-      "source": "bleepingcomputer.com"
-    },
-    {
       "title": "'WP2Shell' Opens Millions of WordPress Sites to Remote Takeover",
       "link": "https://www.darkreading.com/cyberattacks-data-breaches/wp2shell-millions-wordpress-sites-remote-takeover",
       "date": "2026-07-20T21:38:18Z",
@@ -97,7 +139,7 @@
       "title": "Remediating Vulnerabilities With LLMs: Inside Ivanti's Automation Push",
       "link": "https://www.darkreading.com/cybersecurity-operations/remediating-vulnerabilities-llms-ivanti-automation",
       "date": "2026-07-20T20:26:56Z",
-      "description": "Ivanti CSO Daniel Spicer says frontier models have shown surprising effectiveness in early stages; but cost and human-in-the-loop viability remain open questions.",
+      "description": "Ivanti CSO Daniel Spicer says frontier models have shown surprising effectiveness in early stages, but cost and human-in-the-loop viability remain open questions.",
       "source": "darkreading.com"
     },
     {
@@ -134,13 +176,6 @@
       "date": "2026-07-20T17:29:50Z",
       "description": "A malware operator left its delivery server wide open, and Rapid7 pulled down the whole toolkit: 1,048 files spanning lure templates, filename-spoofing tests, execution experiments, droppers, builder notes, and two campaign chains. One was already live against Windows users in Mexico, delivering an infostealer through a fake government ID-lookup site over WebDAV. What makes it more than a",
       "source": "thehackernews.com"
-    },
-    {
-      "title": "Neo Emerges From Stealth With $100M to Control and Secure Enterprise AI Software",
-      "link": "https://www.securityweek.com/neo-emerges-from-stealth-with-100m-to-control-and-secure-enterprise-ai-software/",
-      "date": "2026-07-20T14:54:03Z",
-      "description": "Neo raised money across seed and Series A funding rounds from Andreessen Horowitz, Bessemer Venture Partners, and others. The post Neo Emerges From Stealth With $100M to Control and Secure Enterprise AI Software appeared first on SecurityWeek.",
-      "source": "securityweek.com"
     },
     {
       "title": "ZDI-CAN-32336: LiteLLM",
