@@ -1,8 +1,68 @@
 {
-  "last_updated": "2026-07-22T16:13:17Z",
+  "last_updated": "2026-07-22T18:00:51Z",
   "retention_days": 90,
-  "count": 3476,
+  "count": 3486,
   "items": [
+    {
+      "id": "4ec8b8086267215ef6a3cfe2c02aaafe98b5edd0",
+      "title": "ASUS Patches Critical Router Vulnerability Enabling Remote Command Execution",
+      "link": "https://cybersecuritynews.com/asus-patches-router-vulnerability/",
+      "date": "2026-07-22T17:30:05Z",
+      "description": "ASUS has released critical security updates to address a high-severity router vulnerability that could allow remote attackers to execute arbitrary commands on affected devices. The flaw, tracked as CVE-2026-13385, impacts multiple ASUS router firmware branches, including the widely deployed 3.0.0.4_386, 3.0.0.4_388, and 3.0.0.6_102 series. According to the ASUS Product Security Advisory, the…",
+      "source": "cybersecuritynews.com",
+      "first_seen": "2026-07-22T18:00:51Z",
+      "last_seen": "2026-07-22T18:00:51Z"
+    },
+    {
+      "id": "bbce17776d6460c0fbcc1a6ce1cf8be16286de94",
+      "title": "A Hidden Line of Website Text Can Turn AWS Kiro Into a Remote Code Execution Tool",
+      "link": "https://cybersecuritynews.com/aws-kiro-remote-code-execution/",
+      "date": "2026-07-22T17:28:27Z",
+      "description": "A recently disclosed vulnerability in AWS Kiro, an AI-powered Integrated Development Environment (IDE), reveals how a hidden line of text on a webpage can be exploited for remote code execution on a developer’s machine, bypassing the platform’s security model. Kiro operates on a “human-in-the-loop” principle, requiring user approval for potentially dangerous actions like executing shell […] The…",
+      "source": "cybersecuritynews.com",
+      "first_seen": "2026-07-22T18:00:51Z",
+      "last_seen": "2026-07-22T18:00:51Z"
+    },
+    {
+      "id": "54aa7c3bcfa612b929a9c81fd63be6c13136f4ab",
+      "title": "Public PoC Released for Windows NT OS Kernel Privilege Escalation Vulnerability",
+      "link": "https://cybersecuritynews.com/poc-windows-nt-os-kernel/",
+      "date": "2026-07-22T17:16:37Z",
+      "description": "Public proof-of-concept (PoC) exploit code was released for CVE-2026-42980, a local privilege escalation vulnerability in the Windows NT OS Kernel. This vulnerability occurs due to an integer underflow in kernel-mode code. CVE-2026-42980 is an elevation-of-privilege flaw in the Windows NT OS Kernel caused by an integer underflow (wraparound) condition in a kernel code path. This […] The post…",
+      "source": "cybersecuritynews.com",
+      "first_seen": "2026-07-22T18:00:51Z",
+      "last_seen": "2026-07-22T18:00:51Z"
+    },
+    {
+      "id": "72e01d147f1445225d8deac936179a1ad889a919",
+      "title": "Hackers Let Victims Complete MFA Then Steal the Entire Microsoft 365 Session",
+      "link": "https://cybersecuritynews.com/hackers-let-victims-complete-mfa/",
+      "date": "2026-07-22T17:16:11Z",
+      "description": "Multi-factor authentication is meant to stop stolen-password attacks. A newly documented phishing technique instead persuades users to approve a real Microsoft sign-in, allowing attackers to take over the resulting Microsoft 365 session without directly stealing credentials. The campaign abuses the OAuth device-code flow, a feature intended for devices such as smart TVs and meeting-room systems…",
+      "source": "cybersecuritynews.com",
+      "first_seen": "2026-07-22T18:00:51Z",
+      "last_seen": "2026-07-22T18:00:51Z"
+    },
+    {
+      "id": "e7e8bdc9b7cd2eecb23bf06a2f51b46c6d2380bd",
+      "title": "Kali365 Phishing Kit Abuses Microsoft Device Codes to Hijack Microsoft 365 Accounts",
+      "link": "https://cybersecuritynews.com/kali365-phishing-kit-microsoft-device-codes/",
+      "date": "2026-07-22T17:11:41Z",
+      "description": "A phishing kit known as Kali365 is targeting U.S. organizations through device code phishing attacks that abuse Microsoft’s legitimate authentication process to hijack Microsoft 365 accounts. Unlike conventional phishing campaigns that direct targets to counterfeit login portals, Kali365 sends victims to a real Microsoft Device Login page. Victims are persuaded to enter an attacker-provided…",
+      "source": "cybersecuritynews.com",
+      "first_seen": "2026-07-22T18:00:51Z",
+      "last_seen": "2026-07-22T18:00:51Z"
+    },
+    {
+      "id": "2b41e5fbeed1059f707fca8a5b82af354b5367ae",
+      "title": "Swiss rail giant Stadler rejects $12.3M ransom demand after cyberattack",
+      "link": "https://www.bleepingcomputer.com/news/security/swiss-rail-giant-stadler-rejects-123m-ransom-demand-after-cyberattack/",
+      "date": "2026-07-22T16:59:17Z",
+      "description": "Swiss rail vehicle manufacturer Stadler Rail says the Everest ransomware gang demanded about $12.3 million after breaching a data exchange platform shared with one of its suppliers. [...]",
+      "source": "bleepingcomputer.com",
+      "first_seen": "2026-07-22T18:00:51Z",
+      "last_seen": "2026-07-22T18:00:51Z"
+    },
     {
       "id": "401791d28413e4dc9676e17ae80bcdeedec8be65",
       "title": "When AI Attacks: OpenAI Models Autonomously Hack Hugging Face",
@@ -11,7 +71,7 @@
       "description": "Advanced LLMs escaped their sandboxes while attempting to achieve a non-malicious benchmark test objective.",
       "source": "darkreading.com",
       "first_seen": "2026-07-22T16:13:17Z",
-      "last_seen": "2026-07-22T16:13:17Z"
+      "last_seen": "2026-07-22T18:00:51Z"
     },
     {
       "id": "fc8ed64ef164431b03b620b6374439eb5e0e34fc",
@@ -21,7 +81,7 @@
       "description": "Enterprise AI can accelerate ransomware attacks when AI assistants and agents inherit excessive permissions or compromised identities. Acronis explains how identity controls, governance, and least-privilege access help reduce AI-enabled ransomware risk while supporting secure AI adoption. [...]",
       "source": "bleepingcomputer.com",
       "first_seen": "2026-07-22T16:13:17Z",
-      "last_seen": "2026-07-22T16:13:17Z"
+      "last_seen": "2026-07-22T18:00:51Z"
     },
     {
       "id": "57de1d00b3dede9047e4d2ab0ad3c9864a40eca1",
@@ -31,7 +91,7 @@
       "description": "Hackers leaked names, email addresses, phone numbers, passwords, and financial information stolen from the two platforms. The post Suno, Paidwork Data Breaches Affect Tens of Millions of Accounts appeared first on SecurityWeek.",
       "source": "securityweek.com",
       "first_seen": "2026-07-22T16:13:17Z",
-      "last_seen": "2026-07-22T16:13:17Z"
+      "last_seen": "2026-07-22T18:00:51Z"
     },
     {
       "id": "8715c18aa92bd99ca046b92a14ea6b46f5aac7d0",
@@ -41,7 +101,7 @@
       "description": "Acquisition follows January's Chronosphere deal, deepening Palo Alto Networks' push beyond core security into observability. The post Palo Alto Networks to Acquire Observability Platform Provider Embrace appeared first on SecurityWeek.",
       "source": "securityweek.com",
       "first_seen": "2026-07-22T16:13:17Z",
-      "last_seen": "2026-07-22T16:13:17Z"
+      "last_seen": "2026-07-22T18:00:51Z"
     },
     {
       "id": "04d0eed2202e8f6f2dbc336ff9096fbfc69ad3d5",
@@ -71,7 +131,7 @@
       "description": "An attacker only needed to convince the targeted user to visit a malicious website to exfiltrate WhatsApp messages and contacts. The post Flaw in Adobe Extension With 300M Installs Enabled WhatsApp Data Theft appeared first on SecurityWeek.",
       "source": "securityweek.com",
       "first_seen": "2026-07-22T14:54:50Z",
-      "last_seen": "2026-07-22T16:13:17Z"
+      "last_seen": "2026-07-22T18:00:51Z"
     },
     {
       "id": "eb068c0cd467a7e4d221f478a1ba2b307f5a9a3b",
@@ -91,7 +151,7 @@
       "description": "Eclypsium has launched InfraTrust, a new infrastructure cybersecurity knowledge base and monthly InfraTrust Pulse report designed to help organizations prioritize vulnerabilities affecting infrastructure, firmware, networking, and edge devices. [...]",
       "source": "bleepingcomputer.com",
       "first_seen": "2026-07-22T14:54:50Z",
-      "last_seen": "2026-07-22T16:13:17Z"
+      "last_seen": "2026-07-22T18:00:51Z"
     },
     {
       "id": "de29e963702f5040c04a90503701ebc54e7230e3",
@@ -101,7 +161,7 @@
       "description": "Identity confidence changes throughout every interaction and should be reassessed continuously as new risk signals emerge. The post When Identity Verification Fails: Lessons from a Real-World SIM Swap and Near Account Takeover appeared first on SecurityWeek.",
       "source": "securityweek.com",
       "first_seen": "2026-07-22T14:54:50Z",
-      "last_seen": "2026-07-22T16:13:17Z"
+      "last_seen": "2026-07-22T18:00:51Z"
     },
     {
       "id": "32f1018e4c48ed6a83db0b399cdf652e24a95462",
@@ -111,7 +171,7 @@
       "description": "The Adobe Acrobat extension for Chrome could be used to access conversations and data rendered in WhatsApp Web without any form of authentication. [...]",
       "source": "bleepingcomputer.com",
       "first_seen": "2026-07-22T14:54:50Z",
-      "last_seen": "2026-07-22T16:13:17Z"
+      "last_seen": "2026-07-22T18:00:51Z"
     },
     {
       "id": "46421f3e0cc84f67ead135a981017c826ac2f112",
@@ -131,7 +191,7 @@
       "description": "The startup will use the fresh investment to accelerate its go-to-market strategy and to expand its platform. The post StrongestLayer Raises $4.1 Million in Seed Funding Extension appeared first on SecurityWeek.",
       "source": "securityweek.com",
       "first_seen": "2026-07-22T14:54:50Z",
-      "last_seen": "2026-07-22T16:13:17Z"
+      "last_seen": "2026-07-22T18:00:51Z"
     },
     {
       "id": "426fe4790188f3872636c4ae2136ce447b1fd6b9",
@@ -151,7 +211,7 @@
       "description": "A high-severity security flaw impacting open-source developer platform Windmill has come under active exploitation in the wild, per VulnCheck. The vulnerability in question is CVE-2026-29059 (CVSS score: 7.5), a case of unauthenticated path traversal impacting Windmill's \"get_log_file\" endpoint (\"/api/w/{workspace}/jobs_u/get_log_file/{filename}\"). \"The filename parameter is concatenated into",
       "source": "thehackernews.com",
       "first_seen": "2026-07-22T14:54:50Z",
-      "last_seen": "2026-07-22T16:13:17Z"
+      "last_seen": "2026-07-22T18:00:51Z"
     },
     {
       "id": "6441d2ae82a026fd66619551c8fa1754616679fe",
@@ -171,7 +231,7 @@
       "description": "Security leaders who build fast, visible paths to AI adoption are becoming the most valued partners in their organizations. AI governance done right gives security teams the visibility they need, employees the tools they want, and CISOs the strategic influence they have earned. According to McKinsey's State of AI report, 76 percent of employees now use AI in some capacity at work, up from 55",
       "source": "thehackernews.com",
       "first_seen": "2026-07-22T14:54:50Z",
-      "last_seen": "2026-07-22T16:13:17Z"
+      "last_seen": "2026-07-22T18:00:51Z"
     },
     {
       "id": "1010ca03a982d3d9fe87917ca59351a24793b698",
@@ -181,7 +241,7 @@
       "description": "The Cybersecurity and Infrastructure Security Agency (CISA) on Tuesday ordered U.S. government agencies to prioritize patching an actively exploited vulnerability in the Langflow visual framework for building AI agents. [...]",
       "source": "bleepingcomputer.com",
       "first_seen": "2026-07-22T12:20:57Z",
-      "last_seen": "2026-07-22T16:13:17Z"
+      "last_seen": "2026-07-22T18:00:51Z"
     },
     {
       "id": "1e329e6b87abc4d8163f6837fdb0152c51c13303",
@@ -201,7 +261,7 @@
       "description": "European and US banks inadvertently transmitted customer data to ad platforms via tracking pixels, raising serious compliance, security, and privacy concerns.",
       "source": "darkreading.com",
       "first_seen": "2026-07-22T12:20:57Z",
-      "last_seen": "2026-07-22T16:13:17Z"
+      "last_seen": "2026-07-22T18:00:51Z"
     },
     {
       "id": "ffba0da1eaa346cc6f4de2a412eed26bc5a85bf0",
@@ -221,7 +281,7 @@
       "description": "The cycle is over. For years, cybersecurity followed a familiar pattern: defenses improved, attackers adapted, and the back-and-forth continued. Today, AI-equipped attackers are simply outpacing defenses. Most intrusions now bypass endpoint and malware-based detection entirely. The CrowdStrike Global Threat Report estimates around 79% of attacks are malware-free, as threat actors rely on",
       "source": "thehackernews.com",
       "first_seen": "2026-07-22T12:20:57Z",
-      "last_seen": "2026-07-22T16:13:17Z"
+      "last_seen": "2026-07-22T18:00:51Z"
     },
     {
       "id": "fa5a0019e7a3d9b8d04b578d7d457ec81d4e1247",
@@ -381,7 +441,7 @@
       "description": "German and US law enforcement have taken down the core infrastructure of Kratos, described by German investigators as one of the world's most widely used criminal phishing kits, and Indonesian authorities arrested the man they say developed and ran it. In a joint announcement on Monday, the Frankfurt public prosecutor's cybercrime unit (ZIT) and Germany's Federal Criminal Police Office (BKA)",
       "source": "thehackernews.com",
       "first_seen": "2026-07-22T10:13:19Z",
-      "last_seen": "2026-07-22T16:13:17Z"
+      "last_seen": "2026-07-22T18:00:51Z"
     },
     {
       "id": "e23d197b5b60816029d3f83b64884fb4913368ff",
@@ -424,6 +484,56 @@
       "last_seen": "2026-07-22T07:31:26Z"
     },
     {
+      "id": "3b4fe40b5007cecc62db0ade808993c84d280400",
+      "title": "ZDI-CAN-32133: Microsoft",
+      "link": "http://www.zerodayinitiative.com/advisories/upcoming/",
+      "date": "2026-07-22T05:00:00Z",
+      "description": "A CVSS score 7.8 AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H severity vulnerability discovered by 'Juan Pablo Lopez Yacubian' was reported to the affected vendor on: 2026-07-22, 0 days ago. The vendor is given until 2026-11-19 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
+      "source": "zerodayinitiative.com",
+      "first_seen": "2026-07-22T18:00:51Z",
+      "last_seen": "2026-07-22T18:00:51Z"
+    },
+    {
+      "id": "3737d6b1317b6b17e874388248ad9f22c419bbc3",
+      "title": "ZDI-CAN-30360: Docker",
+      "link": "http://www.zerodayinitiative.com/advisories/upcoming/",
+      "date": "2026-07-22T05:00:00Z",
+      "description": "A CVSS score 7.5 AV:L/AC:H/PR:L/UI:R/S:C/C:H/I:H/A:H severity vulnerability discovered by 'Osori' was reported to the affected vendor on: 2026-07-22, 0 days ago. The vendor is given until 2026-11-19 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
+      "source": "zerodayinitiative.com",
+      "first_seen": "2026-07-22T18:00:51Z",
+      "last_seen": "2026-07-22T18:00:51Z"
+    },
+    {
+      "id": "0baae2e5d3f32c8957c688e936e8fb14f3efee35",
+      "title": "ZDI-CAN-32737: Senstar",
+      "link": "http://www.zerodayinitiative.com/advisories/upcoming/",
+      "date": "2026-07-22T05:00:00Z",
+      "description": "A CVSS score 7.1 AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:L/A:H severity vulnerability discovered by 'Minh Giang (@itscysamu) of TrendAI Zero Day Initiative' was reported to the affected vendor on: 2026-07-22, 0 days ago. The vendor is given until 2026-11-19 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
+      "source": "zerodayinitiative.com",
+      "first_seen": "2026-07-22T18:00:51Z",
+      "last_seen": "2026-07-22T18:00:51Z"
+    },
+    {
+      "id": "234e7d6fe7dd2ee070418ad2c420a50620812bdc",
+      "title": "ZDI-CAN-31821: Autodesk",
+      "link": "http://www.zerodayinitiative.com/advisories/upcoming/",
+      "date": "2026-07-22T05:00:00Z",
+      "description": "A CVSS score 7.8 AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H severity vulnerability discovered by 'Liang Zhu' was reported to the affected vendor on: 2026-07-22, 0 days ago. The vendor is given until 2026-11-19 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
+      "source": "zerodayinitiative.com",
+      "first_seen": "2026-07-22T18:00:51Z",
+      "last_seen": "2026-07-22T18:00:51Z"
+    },
+    {
+      "id": "63d77c8b0c75246d084c861a657360d943bac1f6",
+      "title": "ZDI-CAN-31613: Adobe",
+      "link": "http://www.zerodayinitiative.com/advisories/upcoming/",
+      "date": "2026-07-22T05:00:00Z",
+      "description": "A CVSS score 7.8 AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H severity vulnerability discovered by 'Mark Vincent Yason (markyason.github.io)' was reported to the affected vendor on: 2026-07-22, 0 days ago. The vendor is given until 2026-11-19 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
+      "source": "zerodayinitiative.com",
+      "first_seen": "2026-07-22T18:00:51Z",
+      "last_seen": "2026-07-22T18:00:51Z"
+    },
+    {
       "id": "84c491e0fa3054d3dca3873dd1c842e101ea773a",
       "title": "Microsoft Azure DevOps MCP Flaw Lets Hidden PR Comments Hijack AI Review Agents",
       "link": "https://thehackernews.com/2026/07/microsoft-azure-devops-mcp-flaw-lets.html",
@@ -441,7 +551,7 @@
       "description": "OpenAI on Tuesday said a combination of its artificial intelligence (AI) models, including GPT-5.6 Sol and an \"even more capable pre-release model,\" was behind the security incident that targeted Hugging Face's production infrastructure last week. The AI company said the models were operating with \"reduced cyber refusals for evaluation purposes\" that might otherwise limit their ability to",
       "source": "thehackernews.com",
       "first_seen": "2026-07-22T07:31:26Z",
-      "last_seen": "2026-07-22T16:13:17Z"
+      "last_seen": "2026-07-22T18:00:51Z"
     },
     {
       "id": "d8cc41e79c4c22e390df78634903d22381b399fb",
@@ -494,6 +604,16 @@
       "last_seen": "2026-07-22T16:13:17Z"
     },
     {
+      "id": "7d184e1d9c7cffeb6e04f9428544a422523b9c66",
+      "title": "Ransomware Is Accelerating, but It's Not Because of AI",
+      "link": "https://www.darkreading.com/cyberattacks-data-breaches/ransomware-is-accelerating-not-ai",
+      "date": "2026-07-21T21:48:05Z",
+      "description": "Researchers pointed to fragmentation of the ransomware ecosystem, the emergence of new attackers, and expansion of attacks on less defended organizations.",
+      "source": "darkreading.com",
+      "first_seen": "2026-07-22T18:00:51Z",
+      "last_seen": "2026-07-22T18:00:51Z"
+    },
+    {
       "id": "f82e7a0d974ae8b360ba05f9032139b031477ca5",
       "title": "Using LLMs to Find and Prioritize Vulnerabilities Is No Easy Task",
       "link": "https://www.darkreading.com/application-security/finding-and-prioritizing-vulnerabilities-no-easy-task",
@@ -501,7 +621,7 @@
       "description": "The latest large language models have high false-positive rates and fail to take into account the context of scans, leading to more work for AppSec professionals.",
       "source": "darkreading.com",
       "first_seen": "2026-07-21T21:53:56Z",
-      "last_seen": "2026-07-22T16:13:17Z"
+      "last_seen": "2026-07-22T18:00:51Z"
     },
     {
       "id": "645111b3d73f2e8d0d2685346a2da3a011ec2e11",
@@ -561,7 +681,7 @@
       "description": "A Russian-speaking actor, \"Trim,\" dismantled publicly available frontier models and integrated them with offensive security tools.",
       "source": "darkreading.com",
       "first_seen": "2026-07-21T20:12:30Z",
-      "last_seen": "2026-07-22T16:13:17Z"
+      "last_seen": "2026-07-22T18:00:51Z"
     },
     {
       "id": "3be13761887dfbde66f06176be6213c6ced4beaf",
@@ -34644,26 +34764,6 @@
       "last_seen": "2026-04-24T14:43:37Z"
     },
     {
-      "id": "0806738cdd37623567eb4137007e420c6d110122",
-      "title": "Bitwarden CLI Compromised in Supply Chain Attack via GitHub Actions",
-      "link": "https://cybersecuritynews.com/bitwarden-cli-compromised/",
-      "date": "2026-04-23T16:24:31Z",
-      "description": "Socket has confirmed that Bitwarden CLI version 2026.4.0 was compromised as part of the ongoing Checkmarx supply chain campaign, exposing millions of users and thousands of enterprises to credential theft and CI/CD pipeline infiltration. The attack targeted @bitwarden/cli 2026.4.0 on npm, injecting a malicious file named bw1.js into the package contents. Bitwarden CLI is used […] The post…",
-      "source": "cybersecuritynews.com",
-      "first_seen": "2026-04-23T17:08:42Z",
-      "last_seen": "2026-04-24T01:28:41Z"
-    },
-    {
-      "id": "485c8337576bfd40985207f3be8f2394902a9959",
-      "title": "New Checkmarx supply-chain breach affects KICS analysis tool",
-      "link": "https://www.bleepingcomputer.com/news/security/new-checkmarx-supply-chain-breach-affects-kics-analysis-tool/",
-      "date": "2026-04-23T16:05:12Z",
-      "description": "Hackers have compromised Docker images, VSCode and Open VSX extensions for the Checkmarx KICS analysis tool to harvest sensitive data from developer environments. [...]",
-      "source": "bleepingcomputer.com",
-      "first_seen": "2026-04-23T17:08:42Z",
-      "last_seen": "2026-04-24T12:58:00Z"
-    },
-    {
       "id": "1802dd671622d28dc9e3246270d28d4706865301",
       "title": "ZDI-CAN-29143: Apple",
       "link": "http://www.zerodayinitiative.com/advisories/upcoming/",
@@ -34721,7 +34821,7 @@
       "description": "2.5 million people were affected, in a breach that could spell more trouble down the line.",
       "source": "threatpost.com",
       "first_seen": "2026-05-10T12:53:08Z",
-      "last_seen": "2026-07-22T16:13:17Z"
+      "last_seen": "2026-07-22T18:00:51Z"
     },
     {
       "id": "4140c7a34b0ba94ad2e6b0cae9f59b0cb9bfffea",
@@ -34731,7 +34831,7 @@
       "description": "Researchers uncover a watering hole attack likely carried out by APT TA423, which attempts to plant the ScanBox JavaScript-based reconnaissance tool.",
       "source": "threatpost.com",
       "first_seen": "2026-05-10T12:53:08Z",
-      "last_seen": "2026-07-22T16:13:17Z"
+      "last_seen": "2026-07-22T18:00:51Z"
     },
     {
       "id": "9359ee40a641a4b565080313045f1d7e7fe6552b",
@@ -34741,7 +34841,7 @@
       "description": "Over 130 companies tangled in sprawling phishing campaign that spoofed a multi-factor authentication system.",
       "source": "threatpost.com",
       "first_seen": "2026-05-10T12:53:08Z",
-      "last_seen": "2026-07-22T16:13:17Z"
+      "last_seen": "2026-07-22T18:00:51Z"
     },
     {
       "id": "b4ccef0737cd4050d65241bf754072030b6b5e6a",
@@ -34751,7 +34851,7 @@
       "description": "Lockbit is by far this summer’s most prolific ransomware group, trailed by two offshoots of the Conti group.",
       "source": "threatpost.com",
       "first_seen": "2026-05-10T12:53:08Z",
-      "last_seen": "2026-07-22T16:13:17Z"
+      "last_seen": "2026-07-22T18:00:51Z"
     },
     {
       "id": "12ee113fc8fce91f6d7fb28deab2b1ad20061ec7",
@@ -34761,7 +34861,7 @@
       "description": "Tens of thousands of cameras have failed to patch a critical, 11-month-old CVE, leaving thousands of organizations exposed.",
       "source": "threatpost.com",
       "first_seen": "2026-05-10T12:53:08Z",
-      "last_seen": "2026-07-22T16:13:17Z"
+      "last_seen": "2026-07-22T18:00:51Z"
     }
   ]
 }
