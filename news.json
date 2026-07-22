@@ -1,7 +1,28 @@
 {
-  "last_updated": "2026-07-22T18:00:51Z",
+  "last_updated": "2026-07-22T20:05:42Z",
   "count": 35,
   "items": [
+    {
+      "title": "RefluXFS Linux Kernel Vulnerability Lets Attackers Gain Root Access",
+      "link": "https://cybersecuritynews.com/refluxfs-linux-kernel-vulnerability/",
+      "date": "2026-07-22T18:20:40Z",
+      "description": "A new Linux vulnerability dubbed “RefluXFS” is a race condition in the Linux kernel’s XFS filesystem copy-on-write path that lets an ordinary local user silently overwrite protected system files and seize host root privileges, even on systems running SELinux in Enforcing mode. The vulnerability tracked as CVE-2026-64600 uncovered by Qualys Threat Research Unit (TRU) exploits […] The post…",
+      "source": "cybersecuritynews.com"
+    },
+    {
+      "title": "Ubuntu snap-confine Flaw Could Give Local Users Root on Default Desktop Installs",
+      "link": "https://thehackernews.com/2026/07/ubuntu-snap-confine-flaw-could-give.html",
+      "date": "2026-07-22T18:07:16Z",
+      "description": "Cybersecurity researchers have disclosed details of a new local privilege escalation (LPE) vulnerability in snap-confine that an unprivileged user can trigger to obtain root access and gain complete control of a target environment. The high-severity flaw, tracked as CVE-2026-8933 (CVSS score: 7.8), impacts default installations of Ubuntu Desktop 24.04, 25.10, and 26.04. The disclosure comes as",
+      "source": "thehackernews.com"
+    },
+    {
+      "title": "Adobe Acrobat Extension Flaw Lets Attackers Steal WhatsApp Chats From 329 Million Users",
+      "link": "https://cybersecuritynews.com/acrobat-extension-flaw-whatsapp-chats/",
+      "date": "2026-07-22T18:05:36Z",
+      "description": "A newly disclosed flaw in the Adobe Acrobat Chrome extension allowed attackers to silently harvest WhatsApp Web chats, contacts, and profile data from any user who simply visited a malicious webpage no clicks, downloads, or credential theft required. Security researchers at Guardio Labs uncovered the flaw, dubbed “HermeticReader,” and officially tracked as CVE-2026-48294 with a […] The post…",
+      "source": "cybersecuritynews.com"
+    },
     {
       "title": "ASUS Patches Critical Router Vulnerability Enabling Remote Command Execution",
       "link": "https://cybersecuritynews.com/asus-patches-router-vulnerability/",
@@ -21,20 +42,6 @@
       "link": "https://cybersecuritynews.com/poc-windows-nt-os-kernel/",
       "date": "2026-07-22T17:16:37Z",
       "description": "Public proof-of-concept (PoC) exploit code was released for CVE-2026-42980, a local privilege escalation vulnerability in the Windows NT OS Kernel. This vulnerability occurs due to an integer underflow in kernel-mode code. CVE-2026-42980 is an elevation-of-privilege flaw in the Windows NT OS Kernel caused by an integer underflow (wraparound) condition in a kernel code path. This […] The post…",
-      "source": "cybersecuritynews.com"
-    },
-    {
-      "title": "Hackers Let Victims Complete MFA Then Steal the Entire Microsoft 365 Session",
-      "link": "https://cybersecuritynews.com/hackers-let-victims-complete-mfa/",
-      "date": "2026-07-22T17:16:11Z",
-      "description": "Multi-factor authentication is meant to stop stolen-password attacks. A newly documented phishing technique instead persuades users to approve a real Microsoft sign-in, allowing attackers to take over the resulting Microsoft 365 session without directly stealing credentials. The campaign abuses the OAuth device-code flow, a feature intended for devices such as smart TVs and meeting-room systems…",
-      "source": "cybersecuritynews.com"
-    },
-    {
-      "title": "Kali365 Phishing Kit Abuses Microsoft Device Codes to Hijack Microsoft 365 Accounts",
-      "link": "https://cybersecuritynews.com/kali365-phishing-kit-microsoft-device-codes/",
-      "date": "2026-07-22T17:11:41Z",
-      "description": "A phishing kit known as Kali365 is targeting U.S. organizations through device code phishing attacks that abuse Microsoft’s legitimate authentication process to hijack Microsoft 365 accounts. Unlike conventional phishing campaigns that direct targets to counterfeit login portals, Kali365 sends victims to a real Microsoft Device Login page. Victims are persuaded to enter an attacker-provided…",
       "source": "cybersecuritynews.com"
     },
     {
@@ -64,6 +71,13 @@
       "date": "2026-07-22T15:02:11Z",
       "description": "Hackers leaked names, email addresses, phone numbers, passwords, and financial information stolen from the two platforms. The post Suno, Paidwork Data Breaches Affect Tens of Millions of Accounts appeared first on SecurityWeek.",
       "source": "securityweek.com"
+    },
+    {
+      "title": "Adobe Acrobat Extension Flaw Let Malicious Sites Read WhatsApp Web Data",
+      "link": "https://thehackernews.com/2026/07/adobe-acrobat-extension-flaw-let.html",
+      "date": "2026-07-22T15:01:21Z",
+      "description": "Cybersecurity researchers have disclosed details of a now-patched vulnerability chain in the Adobe Acrobat Chrome extension that has over 314 million users, which, if exploited, could facilitate a silent hijack of a user's WhatsApp data. The shortcoming has been codenamed HermeticReader by Guardio Labs. It's officially tracked as CVE-2026-48294 (CVSS score: 7.4), with the vulnerability",
+      "source": "thehackernews.com"
     },
     {
       "title": "Palo Alto Networks to Acquire Observability Platform Provider Embrace",
@@ -141,20 +155,6 @@
       "date": "2026-07-22T11:30:00Z",
       "description": "European and US banks inadvertently transmitted customer data to ad platforms via tracking pixels, raising serious compliance, security, and privacy concerns.",
       "source": "darkreading.com"
-    },
-    {
-      "title": "Why Modern SOCs Need Multi-Layered Detections",
-      "link": "https://thehackernews.com/2026/07/why-modern-socs-need-multi-layered.html",
-      "date": "2026-07-22T11:25:35Z",
-      "description": "The cycle is over. For years, cybersecurity followed a familiar pattern: defenses improved, attackers adapted, and the back-and-forth continued. Today, AI-equipped attackers are simply outpacing defenses. Most intrusions now bypass endpoint and malware-based detection entirely. The CrowdStrike Global Threat Report estimates around 79% of attacks are malware-free, as threat actors rely on",
-      "source": "thehackernews.com"
-    },
-    {
-      "title": "Police Dismantle Kratos Phishing Kit Built to Steal Microsoft 365 Sessions and Bypass MFA",
-      "link": "https://thehackernews.com/2026/07/police-dismantle-kratos-phishing-kit.html",
-      "date": "2026-07-22T06:38:45Z",
-      "description": "German and US law enforcement have taken down the core infrastructure of Kratos, described by German investigators as one of the world's most widely used criminal phishing kits, and Indonesian authorities arrested the man they say developed and ran it. In a joint announcement on Monday, the Frankfurt public prosecutor's cybercrime unit (ZIT) and Germany's Federal Criminal Police Office (BKA)",
-      "source": "thehackernews.com"
     },
     {
       "title": "ZDI-CAN-32133: Microsoft",
