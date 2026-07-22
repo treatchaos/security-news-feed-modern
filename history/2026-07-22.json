@@ -1,7 +1,117 @@
 {
   "date": "2026-07-22",
-  "count": 30,
+  "count": 42,
   "items": [
+    {
+      "id": "04d0eed2202e8f6f2dbc336ff9096fbfc69ad3d5",
+      "title": "SolarWinds Patches 15 Critical Serv-U Flaws That Could Hand Attackers Root Access",
+      "link": "https://cybersecuritynews.com/solarwinds-patches-serv-u-flaws/",
+      "date": "2026-07-22T14:37:00Z",
+      "description": "SolarWinds has released important security updates for its Serv-U file transfer software, addressing 15 vulnerabilities that could allow attackers to gain elevated privileges and, in some cases, execute code with root user access. These fixes were delivered in Serv-U version 2026.3, published on July 21, 2026, as part of the company’s ongoing effort to resolve […] The post SolarWinds Patches 15…",
+      "source": "cybersecuritynews.com",
+      "first_seen": "2026-07-22T14:54:50Z",
+      "last_seen": "2026-07-22T14:54:50Z"
+    },
+    {
+      "id": "00120e58b809e54814199b5b69a39488a7fc598c",
+      "title": "Critical Meta Vulnerability Exposed Customer Support Emails, Chats, and Uploaded Files",
+      "link": "https://cybersecuritynews.com/meta-vulnerability-exposed/",
+      "date": "2026-07-22T14:34:12Z",
+      "description": "A broken access control flaw in Meta’s shared customer support systems exposed sensitive user data, including emails, chat conversations, and uploaded files. Discovered during security testing of Meta Horizon Managed Solutions, the vulnerability revealed a broader authorization weakness across multiple support services within Meta’s ecosystem. What initially seemed to be a limited…",
+      "source": "cybersecuritynews.com",
+      "first_seen": "2026-07-22T14:54:50Z",
+      "last_seen": "2026-07-22T14:54:50Z"
+    },
+    {
+      "id": "c3d6991c11dbdf3bc1c0fe78331cf5058c348dff",
+      "title": "Flaw in Adobe Extension With 300M Installs Enabled WhatsApp Data Theft",
+      "link": "https://www.securityweek.com/flaw-in-adobe-extension-with-300m-installs-enabled-whatsapp-data-theft/",
+      "date": "2026-07-22T14:22:31Z",
+      "description": "An attacker only needed to convince the targeted user to visit a malicious website to exfiltrate WhatsApp messages and contacts. The post Flaw in Adobe Extension With 300M Installs Enabled WhatsApp Data Theft appeared first on SecurityWeek.",
+      "source": "securityweek.com",
+      "first_seen": "2026-07-22T14:54:50Z",
+      "last_seen": "2026-07-22T14:54:50Z"
+    },
+    {
+      "id": "eb068c0cd467a7e4d221f478a1ba2b307f5a9a3b",
+      "title": "Russian Intelligence Hijacks IP Cameras to Monitor Weapons Deliveries to Ukraine",
+      "link": "https://cybersecuritynews.com/russian-intelligence-hijacks-ip-cameras/",
+      "date": "2026-07-22T14:16:32Z",
+      "description": "Russian intelligence services have been accused of turning everyday internet-connected cameras into surveillance tools for tracking weapons deliveries to Ukraine. The campaign shows how a device installed for basic security can become a source of military intelligence when it is left exposed online. The operation targets cameras in the Netherlands, other EU and NATO countries, […] The post…",
+      "source": "cybersecuritynews.com",
+      "first_seen": "2026-07-22T14:54:50Z",
+      "last_seen": "2026-07-22T14:54:50Z"
+    },
+    {
+      "id": "48dc5e54a470c9883af67596ed6e0c8c2d48e8e3",
+      "title": "New InfraTrust report reveals infrastructure flaws admins should patch first",
+      "link": "https://www.bleepingcomputer.com/news/security/new-infratrust-report-reveals-infrastructure-flaws-admins-should-patch-first/",
+      "date": "2026-07-22T14:15:00Z",
+      "description": "Eclypsium has launched InfraTrust, a new infrastructure cybersecurity knowledge base and monthly InfraTrust Pulse report designed to help organizations prioritize vulnerabilities affecting infrastructure, firmware, networking, and edge devices. [...]",
+      "source": "bleepingcomputer.com",
+      "first_seen": "2026-07-22T14:54:50Z",
+      "last_seen": "2026-07-22T14:54:50Z"
+    },
+    {
+      "id": "de29e963702f5040c04a90503701ebc54e7230e3",
+      "title": "When Identity Verification Fails: Lessons from a Real-World SIM Swap and Near Account Takeover",
+      "link": "https://www.securityweek.com/when-identity-verification-fails-lessons-from-a-real-world-sim-swap-and-near-account-takeover/",
+      "date": "2026-07-22T14:00:00Z",
+      "description": "Identity confidence changes throughout every interaction and should be reassessed continuously as new risk signals emerge. The post When Identity Verification Fails: Lessons from a Real-World SIM Swap and Near Account Takeover appeared first on SecurityWeek.",
+      "source": "securityweek.com",
+      "first_seen": "2026-07-22T14:54:50Z",
+      "last_seen": "2026-07-22T14:54:50Z"
+    },
+    {
+      "id": "32f1018e4c48ed6a83db0b399cdf652e24a95462",
+      "title": "Adobe Chrome extension flaw let sites access private WhatsApp chats",
+      "link": "https://www.bleepingcomputer.com/news/security/adobe-chrome-extension-flaw-let-sites-access-private-whatsapp-chats/",
+      "date": "2026-07-22T13:22:20Z",
+      "description": "The Adobe Acrobat extension for Chrome could be used to access conversations and data rendered in WhatsApp Web without any form of authentication. [...]",
+      "source": "bleepingcomputer.com",
+      "first_seen": "2026-07-22T14:54:50Z",
+      "last_seen": "2026-07-22T14:54:50Z"
+    },
+    {
+      "id": "46421f3e0cc84f67ead135a981017c826ac2f112",
+      "title": "A Single Extra “t” in a NuGet Package Allow Attackers to Manipulate Results",
+      "link": "https://cybersecuritynews.com/a-single-extra-t-in-a-nuget-package/",
+      "date": "2026-07-22T13:00:54Z",
+      "description": "A malicious NuGet package used a single extra letter to hide in plain sight, turning a familiar software dependency into a betting-fraud tool. The package, Newtonsoftt.Json.Net, copied the appearance of the widely used Newtonsoft.Json library while carrying code designed to alter game outcomes. The campaign relied on typosquatting, a tactic that exploits small spelling mistakes made […] The post…",
+      "source": "cybersecuritynews.com",
+      "first_seen": "2026-07-22T14:54:50Z",
+      "last_seen": "2026-07-22T14:54:50Z"
+    },
+    {
+      "id": "ddc04d1ac60b8711d2368c8eb4f49cd7b83ce0f2",
+      "title": "StrongestLayer Raises $4.1 Million in Seed Funding Extension",
+      "link": "https://www.securityweek.com/strongestlayer-raises-4-1-million-in-seed-funding-extension/",
+      "date": "2026-07-22T13:00:00Z",
+      "description": "The startup will use the fresh investment to accelerate its go-to-market strategy and to expand its platform. The post StrongestLayer Raises $4.1 Million in Seed Funding Extension appeared first on SecurityWeek.",
+      "source": "securityweek.com",
+      "first_seen": "2026-07-22T14:54:50Z",
+      "last_seen": "2026-07-22T14:54:50Z"
+    },
+    {
+      "id": "426fe4790188f3872636c4ae2136ce447b1fd6b9",
+      "title": "Vibe-Coded Apps Riddled With Exploitable Security Flaws",
+      "link": "https://www.securityweek.com/vibe-coded-apps-riddled-with-exploitable-security-flaws/",
+      "date": "2026-07-22T13:00:00Z",
+      "description": "Analysis found 434 exploitable flaws in AI-generated apps, with denial-of-service, authorization and secrets exposure risks among the most common issues. The post Vibe-Coded Apps Riddled With Exploitable Security Flaws appeared first on SecurityWeek.",
+      "source": "securityweek.com",
+      "first_seen": "2026-07-22T14:54:50Z",
+      "last_seen": "2026-07-22T14:54:50Z"
+    },
+    {
+      "id": "c4020d76d066d8850445cbcc761659c674d003f9",
+      "title": "Hackers Exploit Windmill Flaw to Read Arbitrary Server Files Without Authentication",
+      "link": "https://thehackernews.com/2026/07/hackers-exploit-windmill-flaw-to-read.html",
+      "date": "2026-07-22T12:36:36Z",
+      "description": "A high-severity security flaw impacting open-source developer platform Windmill has come under active exploitation in the wild, per VulnCheck. The vulnerability in question is CVE-2026-29059 (CVSS score: 7.5), a case of unauthenticated path traversal impacting Windmill's \"get_log_file\" endpoint (\"/api/w/{workspace}/jobs_u/get_log_file/{filename}\"). \"The filename parameter is concatenated into",
+      "source": "thehackernews.com",
+      "first_seen": "2026-07-22T14:54:50Z",
+      "last_seen": "2026-07-22T14:54:50Z"
+    },
     {
       "id": "6441d2ae82a026fd66619551c8fa1754616679fe",
       "title": "New NULLZEREPTOOL Uses Telegram to Launch 20 DDoS Methods With Rotating Proxies",
@@ -10,7 +120,17 @@
       "description": "NULLZEREPTOOL is a newly uncovered attack framework that turns a Telegram bot into a remote control panel for powerful distributed denial of service campaigns backed by rotating proxy infrastructure. The framework came to light when a single Pastebin post was flagged during continuous paste‑site monitoring, exposing the full Python source for a Telegram‑managed DDoS and […] The post New…",
       "source": "cybersecuritynews.com",
       "first_seen": "2026-07-22T12:20:57Z",
-      "last_seen": "2026-07-22T12:20:57Z"
+      "last_seen": "2026-07-22T14:54:50Z"
+    },
+    {
+      "id": "7a19b5a62de3a8dcea14c59d603733dbc78784b1",
+      "title": "The Fastest Path to AI Adoption Runs Through Security",
+      "link": "https://thehackernews.com/2026/07/the-fastest-path-to-ai-adoption-runs.html",
+      "date": "2026-07-22T11:58:00Z",
+      "description": "Security leaders who build fast, visible paths to AI adoption are becoming the most valued partners in their organizations. AI governance done right gives security teams the visibility they need, employees the tools they want, and CISOs the strategic influence they have earned. According to McKinsey's State of AI report, 76 percent of employees now use AI in some capacity at work, up from 55",
+      "source": "thehackernews.com",
+      "first_seen": "2026-07-22T14:54:50Z",
+      "last_seen": "2026-07-22T14:54:50Z"
     },
     {
       "id": "1010ca03a982d3d9fe87917ca59351a24793b698",
@@ -20,7 +140,7 @@
       "description": "The Cybersecurity and Infrastructure Security Agency (CISA) on Tuesday ordered U.S. government agencies to prioritize patching an actively exploited vulnerability in the Langflow visual framework for building AI agents. [...]",
       "source": "bleepingcomputer.com",
       "first_seen": "2026-07-22T12:20:57Z",
-      "last_seen": "2026-07-22T12:20:57Z"
+      "last_seen": "2026-07-22T14:54:50Z"
     },
     {
       "id": "1e329e6b87abc4d8163f6837fdb0152c51c13303",
@@ -37,10 +157,10 @@
       "title": "EU Financial Institutions Leak Data Through Cookie Trackers",
       "link": "https://www.darkreading.com/data-privacy/eu-financial-institutions-cookie-trackers",
       "date": "2026-07-22T11:30:00Z",
-      "description": "European banks inadvertently transmitted customer data to ad platforms via tracking pixels, raising serious compliance, security, and privacy concerns.",
+      "description": "European and US banks inadvertently transmitted customer data to ad platforms via tracking pixels, raising serious compliance, security, and privacy concerns.",
       "source": "darkreading.com",
       "first_seen": "2026-07-22T12:20:57Z",
-      "last_seen": "2026-07-22T12:20:57Z"
+      "last_seen": "2026-07-22T14:54:50Z"
     },
     {
       "id": "ffba0da1eaa346cc6f4de2a412eed26bc5a85bf0",
@@ -50,7 +170,7 @@
       "description": "CVE-2026-50522 is being exploited by threat actors to steal machine keys and retain long-term access. The post Fourth SharePoint Vulnerability Exploited in Past Month’s Wave of Attacks appeared first on SecurityWeek.",
       "source": "securityweek.com",
       "first_seen": "2026-07-22T12:20:57Z",
-      "last_seen": "2026-07-22T12:20:57Z"
+      "last_seen": "2026-07-22T14:54:50Z"
     },
     {
       "id": "fab9501bbbd8cc618363f94ddc609fc89857d875",
@@ -60,7 +180,7 @@
       "description": "The cycle is over. For years, cybersecurity followed a familiar pattern: defenses improved, attackers adapted, and the back-and-forth continued. Today, AI-equipped attackers are simply outpacing defenses. Most intrusions now bypass endpoint and malware-based detection entirely. The CrowdStrike Global Threat Report estimates around 79% of attacks are malware-free, as threat actors rely on",
       "source": "thehackernews.com",
       "first_seen": "2026-07-22T12:20:57Z",
-      "last_seen": "2026-07-22T12:20:57Z"
+      "last_seen": "2026-07-22T14:54:50Z"
     },
     {
       "id": "fa5a0019e7a3d9b8d04b578d7d457ec81d4e1247",
@@ -80,7 +200,7 @@
       "description": "Cloud storage costs tend to creep up over time, since most services charge monthly or annually for as long as you use them. FileJump's Lifetime Plan skips that model entirely, offering 2TB of cloud storage for a single payment of $59 (MSRP $467). [...]",
       "source": "bleepingcomputer.com",
       "first_seen": "2026-07-22T12:20:57Z",
-      "last_seen": "2026-07-22T12:20:57Z"
+      "last_seen": "2026-07-22T14:54:50Z"
     },
     {
       "id": "7302dea4a664385403bbcaa621728b4c8c6eff2f",
@@ -90,7 +210,7 @@
       "description": "Microsoft has reminded customers that it will stop shipping security updates for Exchange 2016 and 2019 through the Extended Security Update (ESU) program in October. [...]",
       "source": "bleepingcomputer.com",
       "first_seen": "2026-07-22T12:20:57Z",
-      "last_seen": "2026-07-22T12:20:57Z"
+      "last_seen": "2026-07-22T14:54:50Z"
     },
     {
       "id": "b592e567de500b4b39cff664b1d180307c2c5cd0",
@@ -220,7 +340,7 @@
       "description": "German and US law enforcement have taken down the core infrastructure of Kratos, described by German investigators as one of the world's most widely used criminal phishing kits, and Indonesian authorities arrested the man they say developed and ran it. In a joint announcement on Monday, the Frankfurt public prosecutor's cybercrime unit (ZIT) and Germany's Federal Criminal Police Office (BKA)",
       "source": "thehackernews.com",
       "first_seen": "2026-07-22T10:13:19Z",
-      "last_seen": "2026-07-22T12:20:57Z"
+      "last_seen": "2026-07-22T14:54:50Z"
     },
     {
       "id": "e23d197b5b60816029d3f83b64884fb4913368ff",
@@ -280,7 +400,7 @@
       "description": "OpenAI on Tuesday said a combination of its artificial intelligence (AI) models, including GPT-5.6 Sol and an \"even more capable pre-release model,\" was behind the security incident that targeted Hugging Face's production infrastructure last week. The AI company said the models were operating with \"reduced cyber refusals for evaluation purposes\" that might otherwise limit their ability to",
       "source": "thehackernews.com",
       "first_seen": "2026-07-22T07:31:26Z",
-      "last_seen": "2026-07-22T12:20:57Z"
+      "last_seen": "2026-07-22T14:54:50Z"
     },
     {
       "id": "d8cc41e79c4c22e390df78634903d22381b399fb",
