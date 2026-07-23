@@ -1,13 +1,62 @@
 {
-  "last_updated": "2026-07-23T15:00:41Z",
-  "count": 30,
+  "last_updated": "2026-07-23T16:37:33Z",
+  "count": 35,
   "items": [
+    {
+      "title": "Hackers abuse Notepad++ plugins to stealthily install malware",
+      "link": "https://www.bleepingcomputer.com/news/security/hackers-abuse-notepad-plus-plus-plugins-to-stealthily-install-malware/",
+      "date": "2026-07-23T16:32:35Z",
+      "description": "Ukraine's CERT has uncovered attacks distributing an archive containing the legitimate Notepad++ application and a malicious utility called LunchPoke disguised as a plugin to establish persistence. [...]",
+      "source": "bleepingcomputer.com"
+    },
+    {
+      "title": "Chaos Ransomware Turns Your Chrome and Edge Web Browser Into an Invisible Malware Command Channel",
+      "link": "https://cybersecuritynews.com/chaos-ransomware-turns-chrome-malware/",
+      "date": "2026-07-23T16:23:32Z",
+      "description": "Chaos ransomware has introduced a new way to hide attacker activity inside everyday web browsing. The group’s msaRAT remote-access tool turns Chrome or Microsoft Edge into a covert channel for receiving commands and moving data. This approach mirrors the stealth concerns raised by fake Chrome update malware campaigns, but uses the browser after compromise rather than as […] The post Chaos…",
+      "source": "cybersecuritynews.com"
+    },
+    {
+      "title": "Microsoft 365 outage affects Teams, SharePoint and other services",
+      "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-365-outage-affects-teams-sharepoint-and-other-services/",
+      "date": "2026-07-23T15:34:43Z",
+      "description": "Microsoft Teams and several Microsoft 365 services are experiencing an ongoing outage, with users reporting problems accessing Teams, SharePoint, Excel and the Microsoft 365 Admin Center. [...]",
+      "source": "bleepingcomputer.com"
+    },
+    {
+      "title": "Hackers’ OPSEC Mistake Exposed a Global Espionage Campaign and Its New TriBack Malware",
+      "link": "https://cybersecuritynews.com/opsec-mistake-exposed-triback-malware/",
+      "date": "2026-07-23T15:28:29Z",
+      "description": "A simple mistake by cyber spies has pulled back the curtain on a wide ranging espionage effort. It reached hospitals, government offices, and schools across several continents in early 2026. In mid April, operators left a staging server open with tools, command history, and phishing packages ready. That slip exposed an active campaign now tracked […] The post Hackers’ OPSEC Mistake Exposed a…",
+      "source": "cybersecuritynews.com"
+    },
+    {
+      "title": "OpenAI Fixes ChatGPT Agent Flaw That Could Let Attackers Forge an AI Insider",
+      "link": "https://www.securityweek.com/openai-fixes-chatgpt-agent-flaw-that-could-let-attackers-forge-an-ai-insider/",
+      "date": "2026-07-23T15:09:59Z",
+      "description": "AgentForger allows an attacker to create, insert and remotely control an invisible autonomous AI agent inside a victim organization. The post OpenAI Fixes ChatGPT Agent Flaw That Could Let Attackers Forge an AI Insider appeared first on SecurityWeek.",
+      "source": "securityweek.com"
+    },
+    {
+      "title": "Is Patching Dead? Vulnerability Management in the Post-Mythos Era",
+      "link": "https://www.securityweek.com/is-patching-dead-vulnerability-management-in-the-post-mythos-era/",
+      "date": "2026-07-23T15:00:00Z",
+      "description": "You cannot out-patch a machine that writes a working exploit from a vulnerability description in twenty hours. Stop trying to optimize a game you cannot win. The post Is Patching Dead? Vulnerability Management in the Post-Mythos Era appeared first on SecurityWeek.",
+      "source": "securityweek.com"
+    },
     {
       "title": "Chick-fil-A Accounts Get Fried in Credential Stuffing Attack",
       "link": "https://www.securityweek.com/chick-fil-a-accounts-get-fried-in-credential-stuffing-attack/",
       "date": "2026-07-23T14:55:19Z",
       "description": "Threat actors used credentials obtained from other companies to hack into Chick-fil-A One accounts. The post Chick-fil-A Accounts Get Fried in Credential Stuffing Attack appeared first on SecurityWeek.",
       "source": "securityweek.com"
+    },
+    {
+      "title": "Next.js Patches Nine Security Flaws Enabling SSRF, Authentication Bypass, and DoS Attacks",
+      "link": "https://cybersecuritynews.com/next-js-patches-nine-security-flaws/",
+      "date": "2026-07-23T14:30:53Z",
+      "description": "Vercel has disclosed and patched nine security vulnerabilities in Next.js, the widely used React framework, addressing flaws that could enable server-side request forgery (SSRF), middleware authentication bypass, denial-of-service (DoS) attacks, and sensitive data exposure. All nine advisories were published two days ago by security researcher KarimPwnz and are now fixed in Next.js versions…",
+      "source": "cybersecuritynews.com"
     },
     {
       "title": "FedRAMP Rev5 Is Ending: What the 20x Transition Really Requires",
@@ -17,11 +66,25 @@
       "source": "bleepingcomputer.com"
     },
     {
+      "title": "Exim Directory Traversal Vulnerability Enables Privilege Escalation Attacks",
+      "link": "https://cybersecuritynews.com/exim-directory-traversal-vulnerability/",
+      "date": "2026-07-23T13:56:32Z",
+      "description": "A newly disclosed high-severity vulnerability in the Exim mail transfer agent allows local attackers to exploit a directory traversal flaw to escalate privileges on affected systems. Tracked as EXIM-Security-2026-06-22.1 and assigned GCVE-25-2026-07-45-1, the issue impacts Exim versions from 4.88 through 4.99.4 and was publicly announced on July 22, 2026. Exim, widely deployed across Unix-like…",
+      "source": "cybersecuritynews.com"
+    },
+    {
       "title": "Abstract Raises $25 Million to Expand Composable Security Operations Platform",
       "link": "https://www.securityweek.com/abstract-raises-25-million-to-expand-composable-security-operations-platform/",
       "date": "2026-07-23T13:54:56Z",
       "description": "The latest investment round brings the total raised by Abstract to nearly $50 million. The post Abstract Raises $25 Million to Expand Composable Security Operations Platform appeared first on SecurityWeek.",
       "source": "securityweek.com"
+    },
+    {
+      "title": "Hackers Abuse GitHub Actions to Exploit cPanel and WHM Servers and Steal Cloud Credentials",
+      "link": "https://cybersecuritynews.com/hackers-abuse-github-actions-to-exploit-cpanel/",
+      "date": "2026-07-23T13:47:42Z",
+      "description": "A large-scale cyber campaign is abusing GitHub Actions to turn trusted open source projects into weapons against web hosting servers. Attackers plant malicious workflow files inside compromised repositories and use free GitHub compute power to scan the public internet for weak targets. The operation focuses on cPanel and WHM servers, which manage websites, email accounts, […] The post Hackers…",
+      "source": "cybersecuritynews.com"
     },
     {
       "title": "Claude Cowork Flaw Could Let AI Agent Escape Its VM and Access Mac Files",
@@ -85,34 +148,6 @@
       "date": "2026-07-23T11:17:51Z",
       "description": "Core issues that slowed down adoption of secure data vaults are being resolved by technology, but artificial intelligence poses new ones. Experts have some answers.",
       "source": "darkreading.com"
-    },
-    {
-      "title": "Upbound Group Says Data Breach Led to $13 Million in Fraudulent Contract Losses",
-      "link": "https://www.securityweek.com/upbound-group-says-data-breach-led-to-13-million-in-fraudulent-contract-losses/",
-      "date": "2026-07-23T10:49:10Z",
-      "description": "Hackers recently obtained non-sensitive customer information and other documents from the company. The post Upbound Group Says Data Breach Led to $13 Million in Fraudulent Contract Losses appeared first on SecurityWeek.",
-      "source": "securityweek.com"
-    },
-    {
-      "title": "New msaRAT malware uses Chrome, Edge browsers to route C2 traffic",
-      "link": "https://www.bleepingcomputer.com/news/security/new-msarat-malware-uses-chrome-edge-browsers-to-route-c2-traffic/",
-      "date": "2026-07-23T10:00:00Z",
-      "description": "The Chaos ransomware gang is using a new backdoor dubbed msaRAT that hides command-and-control (C2) communication by routing it through the Chrome or Edge browsers. [...]",
-      "source": "bleepingcomputer.com"
-    },
-    {
-      "title": "Assaf Keren Appointed New CISO of Meta",
-      "link": "https://www.securityweek.com/assaf-keren-appointed-new-ciso-of-meta/",
-      "date": "2026-07-23T09:53:51Z",
-      "description": "He replaces Guy Rosen, who announced his retirement from the company after 13 years. The post Assaf Keren Appointed New CISO of Meta appeared first on SecurityWeek.",
-      "source": "securityweek.com"
-    },
-    {
-      "title": "Microsoft working to fix Exchange Online mailbox quarantine issue",
-      "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-working-to-fix-exchange-online-mailbox-quarantine-issue/",
-      "date": "2026-07-23T09:20:10Z",
-      "description": "Microsoft is working to resolve an ongoing Exchange Online issue that has been mistakenly quarantining customers' mailboxes since Sunday. [...]",
-      "source": "bleepingcomputer.com"
     },
     {
       "title": "Brazilian Banking Trojan Actively Spreading in Portugal",
