@@ -1,13 +1,62 @@
 {
-  "last_updated": "2026-07-24T14:43:29Z",
+  "last_updated": "2026-07-24T18:10:20Z",
   "count": 35,
   "items": [
+    {
+      "title": "Hackers hijack hotel Wi-Fi DNS to steal Microsoft 365 accounts",
+      "link": "https://www.bleepingcomputer.com/news/security/hackers-hijack-hotel-wi-fi-dns-to-steal-microsoft-365-accounts/",
+      "date": "2026-07-24T17:50:37Z",
+      "description": "Hackers are changing the DNS settings on Wi-Fi devices at hotels and conference centers to redirect users to fake Microsoft 365 login pages. [...]",
+      "source": "bleepingcomputer.com"
+    },
+    {
+      "title": "Tego AI Discloses Second Claude Flaw in a Week: Hidden Link Silently Sends Files to Attackers",
+      "link": "https://cybersecuritynews.com/tego-ai-discloses-second-claude-flaw-in-a-week-hidden-link-silently-sends-files-to-attackers/",
+      "date": "2026-07-24T17:19:04Z",
+      "description": "Tel Aviv, Israel, July 24th, 2026, CyberNewswire One week after disclosing that Anthropic’s Claude Tag Slack integration could be driven by plain “@Claude” text, Tego AI today published a second piece of research on the Claude ecosystem. This one focuses on Claude Code, Anthropic’s agentic command-line coding tool. Cloning an ordinary repository and starting Claude […] The post Tego AI Discloses…",
+      "source": "cybersecuritynews.com"
+    },
+    {
+      "title": "Certighost Active Directory CS Exploit Allows Low-Privileged Users to Compromise Domain",
+      "link": "https://cybersecuritynews.com/certighost-active-directory-cs-flaw/",
+      "date": "2026-07-24T16:35:58Z",
+      "description": "A newly disclosed Active Directory Certificate Services (AD CS) vulnerability, dubbed Certighost, allowed a low-privilege domain user to impersonate a Domain Controller and take over an entire Active Directory domain. Tracked as CVE-2026-54121, the flaw was patched in Microsoft’s July 2026 security updates following responsible disclosure earlier this year. AD CS is Microsoft’s public key […]…",
+      "source": "cybersecuritynews.com"
+    },
+    {
+      "title": "Bing Images Vulnerability Lets Attackers Execute Remote Code on Microsoft Servers",
+      "link": "https://cybersecuritynews.com/bing-images-vulnerability/",
+      "date": "2026-07-24T15:56:46Z",
+      "description": "Three critical remote code execution (RCE) vulnerabilities in Microsoft’s infrastructure, with two flaws in Bing Images allowing attackers to hijack backend image-processing servers using nothing more than a crafted SVG file. The findings, disclosed responsibly by XBOW and now patched, expose how an “ordinary” image-handling feature became a gateway to full SYSTEM-level access on production […]…",
+      "source": "cybersecuritynews.com"
+    },
+    {
+      "title": "Microsoft blames massive Microsoft 365 outage on maintenance bug",
+      "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-blames-massive-microsoft-365-outage-on-maintenance-bug/",
+      "date": "2026-07-24T15:41:44Z",
+      "description": "Microsoft says a bug in its automated network maintenance request system caused Thursday's massive outage by mistakenly removing IP routes from more devices than intended, disrupting Azure and Microsoft 365 services. [...]",
+      "source": "bleepingcomputer.com"
+    },
+    {
+      "title": "BlueNoroff Zoom Phishing Kit Profiles Crypto Wallets Before Malware Delivery",
+      "link": "https://thehackernews.com/2026/07/bluenoroff-zoom-phishing-kit-profiles.html",
+      "date": "2026-07-24T15:12:35Z",
+      "description": "The North Korean threat actors behind the ClickFix-style campaigns that employ typosquatted Zoom and Microsoft Teams domains have been found to operate an active phishing kit to impersonate the videoconferencing platforms in social engineering campaigns designed to deliver malware. \"BlueNoroff has operationalised trust abuse by combining compromised industry contacts, social engineering, wallet",
+      "source": "thehackernews.com"
+    },
     {
       "title": "In Other News: Dolphin X AI-Powered Malware, Car Anti-Theft Device Hack, 400 Linux Kernel Flaws",
       "link": "https://www.securityweek.com/in-other-news-dolphin-x-ai-powered-malware-car-anti-theft-device-hack-400-linux-kernel-flaws/",
       "date": "2026-07-24T14:20:00Z",
       "description": "Noteworthy stories that might have slipped under the radar: Siemens ROX II industrial switch vulnerabilities, Russian Zimbra webmail espionage campaign, Stadler Rail ransomware extortion attempt. The post In Other News: Dolphin X AI-Powered Malware, Car Anti-Theft Device Hack, 400 Linux Kernel Flaws appeared first on SecurityWeek.",
       "source": "securityweek.com"
+    },
+    {
+      "title": "Certighost Exploit Lets Low-Privileged Active Directory Users Impersonate a Domain Controller",
+      "link": "https://thehackernews.com/2026/07/certighost-exploit-lets-low-privileged.html",
+      "date": "2026-07-24T14:15:21Z",
+      "description": "Researchers H0j3n and Aniq Fakhrul published a working exploit on July 24 that lets a low-privileged Active Directory user obtain a certificate for a Domain Controller and authenticate as that machine. They codenamed the flaw Certighost. Because Domain Controller accounts carry directory replication rights, the resulting Kerberos credential can retrieve the krbtgt secret through DCSync.",
+      "source": "thehackernews.com"
     },
     {
       "title": "Chick-fil-A data breach affects more than 13,000 customers",
@@ -45,6 +94,13 @@
       "source": "bleepingcomputer.com"
     },
     {
+      "title": "Default Azure Automation Setting Enables Cross-Tenant Identity Takeover",
+      "link": "https://www.darkreading.com/cloud-security/default-azure-automation-setting-cross-tenant-identity-takeover",
+      "date": "2026-07-24T12:48:16Z",
+      "description": "Microsoft addresses a public-by-default configuration and chain of code flaws in Azure Automation that could have let attackers seize another tenant's identity and access others' data, credentials, and cloud workloads.",
+      "source": "darkreading.com"
+    },
+    {
       "title": "AegisAI Raises $36 Million for AI-Powered Email Security",
       "link": "https://www.securityweek.com/aegisai-raises-36-million-for-ai-powered-email-security/",
       "date": "2026-07-24T12:01:18Z",
@@ -56,20 +112,6 @@
       "link": "https://cybersecuritynews.com/apache-syncope-release-patches/",
       "date": "2026-07-24T11:58:13Z",
       "description": "Apache has issued critical security updates for its Syncope identity and access management (IAM) platform to address multiple vulnerabilities, including remote code execution (RCE), SQL injection, privilege escalation, server-side request forgery (SSRF), and information disclosure. These flaws affect various versions of Syncope, and administrators are strongly urged to upgrade promptly to the…",
-      "source": "cybersecuritynews.com"
-    },
-    {
-      "title": "JetBrains Fixes Critical IntelliJ IDEA Code Execution Flaw and Four TeamCity Vulnerabilities",
-      "link": "https://cybersecuritynews.com/jetbrains-fixes-critical-vulnerabilities/",
-      "date": "2026-07-24T11:58:10Z",
-      "description": "JetBrains has released security updates to address a critical code execution vulnerability in IntelliJ IDEA, alongside four high-severity vulnerabilities in TeamCity. Development teams and CI administrators are urged to apply these patches immediately to prevent potential remote attacks. JetBrains published a security advisory that details multiple issues across its IDE and server products,…",
-      "source": "cybersecuritynews.com"
-    },
-    {
-      "title": "FakeAgent Campaign Uses Malicious Bing Ads and Claude.ai Artifacts to Infect Corporate Users",
-      "link": "https://cybersecuritynews.com/fakeagent-campaign-malicious-bing-ads/",
-      "date": "2026-07-24T11:54:18Z",
-      "description": "A dangerous new malware campaign is tricking corporate workers who simply want a desktop version of a popular AI assistant. Between July 21 and July 22, 2026, at least 29 organizations saw unusual software installs and hidden persistence on their systems after staff searched for the Claude desktop app. The attack begins with paid ads […] The post FakeAgent Campaign Uses Malicious Bing Ads and…",
       "source": "cybersecuritynews.com"
     },
     {
@@ -94,46 +136,11 @@
       "source": "thehackernews.com"
     },
     {
-      "title": "ChonkyChicken Malware Steals Chrome Credentials, Moves Laterally and Spies on Victims",
-      "link": "https://cybersecuritynews.com/chonkychicken-steals-chrome-credentials/",
-      "date": "2026-07-24T11:26:58Z",
-      "description": "ChonkyChicken is a newly identified remote access trojan designed to turn one infected Windows device into a platform for credential theft, network movement, and surveillance. The malware is part of the TAG-195, also called Golden Chickens or Venom Spider, malware-as-a-service ecosystem, which supplies tooling to financially motivated criminal operators. Recent campaigns begin with ClickFix…",
-      "source": "cybersecuritynews.com"
-    },
-    {
       "title": "Industry Reactions to OpenAI Models Hacking Hugging Face: Feedback Friday",
       "link": "https://www.securityweek.com/industry-reactions-to-openai-models-hacking-hugging-face-feedback-friday/",
       "date": "2026-07-24T11:19:46Z",
       "description": "Industry professionals debate whether it represents a lab containment failure or an unprecedented agentic capability milestone. The post Industry Reactions to OpenAI Models Hacking Hugging Face: Feedback Friday appeared first on SecurityWeek.",
       "source": "securityweek.com"
-    },
-    {
-      "title": "Man gets six years for hacking 750 women's Snapchat accounts",
-      "link": "https://www.bleepingcomputer.com/news/security/man-gets-six-years-for-hacking-750-womens-snapchat-accounts/",
-      "date": "2026-07-24T11:17:19Z",
-      "description": "An Illinois man was sentenced on Tuesday to 76 months in prison and three years of supervised release for hacking the Snapchat accounts of over 750 women to steal nude photos. [...]",
-      "source": "bleepingcomputer.com"
-    },
-    {
-      "title": "Hacker Runs Hermes AI Agent Unattended for Post-Exploitation at Thai Finance Ministry",
-      "link": "https://thehackernews.com/2026/07/hacker-runs-hermes-ai-agent-unattended.html",
-      "date": "2026-07-24T10:15:29Z",
-      "description": "Someone installed a popular AI assistant on a rented server, switched off the setting that makes it ask permission before running risky commands, and pointed it at Thailand's Ministry of Finance, which runs the country's treasury and tax collection. The agent then worked through the ministry's network on its own, checking hosts for ways to gain root access, hunting through file systems, and",
-      "source": "thehackernews.com"
-    },
-    {
-      "title": "Golden Chickens Resurfaces With Four New Malware Families and Modular Implants",
-      "link": "https://thehackernews.com/2026/07/golden-chickens-resurfaces-with-four.html",
-      "date": "2026-07-24T10:09:24Z",
-      "description": "The threat actors behind the Golden Chickens malware-as-a-service (MaaS) ecosystem have resurfaced with four new malware families, indicating that the operators are showing no signs of stopping despite extensive public disclosures into their inner workings. The malware families in question are: TinyEgg, ChonkyChicken, a modularized variant of ChonkyChicken, and a modified web browser credential",
-      "source": "thehackernews.com"
-    },
-    {
-      "title": "Clop ransomware targets Windchill, FlexPLM in data theft attacks",
-      "link": "https://www.bleepingcomputer.com/news/security/clop-ransomware-targets-windchill-flexplm-in-data-theft-attacks/",
-      "date": "2026-07-24T07:36:39Z",
-      "description": "The Clop ransomware gang (also tracked as Cl0p) is targeting Internet-exposed PTC Windchill and FlexPLM instances in a new data theft extortion campaign. [...]",
-      "source": "bleepingcomputer.com"
     },
     {
       "title": "Europe's Multilingual Reality Exposes AI Security Gaps",
@@ -168,13 +175,6 @@
       "link": "https://www.darkreading.com/endpoint-security/agentic-ai-challenges-progress-in-confidential-computing",
       "date": "2026-07-23T11:17:51Z",
       "description": "Core issues that slowed down adoption of secure data vaults are being resolved by technology, but artificial intelligence poses new ones. Experts have some answers.",
-      "source": "darkreading.com"
-    },
-    {
-      "title": "Brazilian Banking Trojan Actively Spreading in Portugal",
-      "link": "https://www.darkreading.com/cyberattacks-data-breaches/brazilian-banking-trojan-spreading-portugal",
-      "date": "2026-07-23T07:00:00Z",
-      "description": "Portuguese businesses operate in the same native language as Brazilian hackers, making those businesses easy targets.",
       "source": "darkreading.com"
     },
     {
