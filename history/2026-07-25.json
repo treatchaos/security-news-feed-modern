@@ -1,7 +1,27 @@
 {
   "date": "2026-07-25",
-  "count": 6,
+  "count": 8,
   "items": [
+    {
+      "id": "1a5eab7c279c889e1bd5ef7f08a2dd9d37611942",
+      "title": "Researcher Publishes GitLab RCE PoC Letting Authenticated Users Run Commands as Git",
+      "link": "https://thehackernews.com/2026/07/researcher-publishes-gitlab-rce-poc.html",
+      "date": "2026-07-25T08:34:15Z",
+      "description": "Security researcher Yuhang Wu at depthfirst has published a working proof-of-concept (PoC) exploit that executes commands as git on an unpatched self-managed GitLab 18.11.3 server. An ordinary authenticated user triggers it by committing two crafted Jupyter notebooks and requesting their diff. The chain needs no administrator rights, continuous integration (CI) runner access, victim interaction",
+      "source": "thehackernews.com",
+      "first_seen": "2026-07-25T09:26:29Z",
+      "last_seen": "2026-07-25T09:26:29Z"
+    },
+    {
+      "id": "e894b733250de0d88cea1fbf6abd2d886093d12a",
+      "title": "Rockwell Patches Code Execution Flaws in Arena Simulation Software",
+      "link": "https://www.securityweek.com/rockwell-patches-code-execution-flaws-in-arena-simulation-software/",
+      "date": "2026-07-25T08:30:00Z",
+      "description": "A researcher has explained how an attacker could exploit these vulnerabilities to target industrial organizations. The post Rockwell Patches Code Execution Flaws in Arena Simulation Software appeared first on SecurityWeek.",
+      "source": "securityweek.com",
+      "first_seen": "2026-07-25T09:26:29Z",
+      "last_seen": "2026-07-25T09:26:29Z"
+    },
     {
       "id": "7b9be719475bc847a8ef9733c55aeefece82140b",
       "title": "Foxit Updater Vulnerability Gives Standard Users SYSTEM-Level Control of Windows Devices",
@@ -10,7 +30,7 @@
       "description": "Foxit PDF Reader has been found vulnerable to a local privilege escalation flaw that allows standard Windows users to gain full SYSTEM-level control under specific conditions. The issue, tracked as CVE-2026-57239, was disclosed following research into Foxit’s updater and service architecture and represents a high-impact post-exploitation pathway, although it requires prior code execution on the…",
       "source": "cybersecuritynews.com",
       "first_seen": "2026-07-25T04:55:13Z",
-      "last_seen": "2026-07-25T07:09:18Z"
+      "last_seen": "2026-07-25T09:26:29Z"
     },
     {
       "id": "b59344a50ac40357fad08f354ce6c46817d0519a",
@@ -20,7 +40,7 @@
       "description": "A CVSS score 7.3 AV:L/AC:L/PR:L/UI:N/S:C/C:H/I:L/A:N severity vulnerability discovered by 'HAI SON MAI (HSon)' was reported to the affected vendor on: 2026-07-24, 0 days ago. The vendor is given until 2026-11-21 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
       "source": "zerodayinitiative.com",
       "first_seen": "2026-07-25T04:55:13Z",
-      "last_seen": "2026-07-25T07:09:18Z"
+      "last_seen": "2026-07-25T09:26:29Z"
     },
     {
       "id": "402fdd92b8d61a146a3ee5337e656ebd75d7c3ec",
@@ -30,7 +50,7 @@
       "description": "A CVSS score 8.1 AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H severity vulnerability discovered by 'Mat Powell of TrendAI Zero Day Initiative' was reported to the affected vendor on: 2026-07-24, 0 days ago. The vendor is given until 2026-11-21 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
       "source": "zerodayinitiative.com",
       "first_seen": "2026-07-25T04:55:13Z",
-      "last_seen": "2026-07-25T07:09:18Z"
+      "last_seen": "2026-07-25T09:26:29Z"
     },
     {
       "id": "5510bfddd63b81ed68b9ecd8216696d2f5e88a75",
@@ -40,7 +60,7 @@
       "description": "A CVSS score 7.5 AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N severity vulnerability discovered by 'Taha Siddiqi (@_atomiz_) of TrendAI Research' was reported to the affected vendor on: 2026-07-24, 0 days ago. The vendor is given until 2026-11-21 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
       "source": "zerodayinitiative.com",
       "first_seen": "2026-07-25T04:55:13Z",
-      "last_seen": "2026-07-25T07:09:18Z"
+      "last_seen": "2026-07-25T09:26:29Z"
     },
     {
       "id": "23cae4b57312e696e72f8eb5f4fb6cff1637ef8e",
@@ -50,7 +70,7 @@
       "description": "A CVSS score 8.8 AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H severity vulnerability discovered by 'Sajeeb Lohani' was reported to the affected vendor on: 2026-07-24, 0 days ago. The vendor is given until 2026-11-21 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
       "source": "zerodayinitiative.com",
       "first_seen": "2026-07-25T04:55:13Z",
-      "last_seen": "2026-07-25T07:09:18Z"
+      "last_seen": "2026-07-25T09:26:29Z"
     },
     {
       "id": "4277b8db5c791d7cf514c70a10d39f0b067840fa",
@@ -60,7 +80,7 @@
       "description": "A CVSS score 9.8 AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H severity vulnerability discovered by 'Sajeeb Lohani' was reported to the affected vendor on: 2026-07-24, 0 days ago. The vendor is given until 2026-11-21 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
       "source": "zerodayinitiative.com",
       "first_seen": "2026-07-25T04:55:13Z",
-      "last_seen": "2026-07-25T07:09:18Z"
+      "last_seen": "2026-07-25T09:26:29Z"
     }
   ]
 }

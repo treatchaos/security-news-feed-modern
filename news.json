@@ -1,7 +1,21 @@
 {
-  "last_updated": "2026-07-25T07:09:18Z",
+  "last_updated": "2026-07-25T09:26:29Z",
   "count": 35,
   "items": [
+    {
+      "title": "Researcher Publishes GitLab RCE PoC Letting Authenticated Users Run Commands as Git",
+      "link": "https://thehackernews.com/2026/07/researcher-publishes-gitlab-rce-poc.html",
+      "date": "2026-07-25T08:34:15Z",
+      "description": "Security researcher Yuhang Wu at depthfirst has published a working proof-of-concept (PoC) exploit that executes commands as git on an unpatched self-managed GitLab 18.11.3 server. An ordinary authenticated user triggers it by committing two crafted Jupyter notebooks and requesting their diff. The chain needs no administrator rights, continuous integration (CI) runner access, victim interaction",
+      "source": "thehackernews.com"
+    },
+    {
+      "title": "Rockwell Patches Code Execution Flaws in Arena Simulation Software",
+      "link": "https://www.securityweek.com/rockwell-patches-code-execution-flaws-in-arena-simulation-software/",
+      "date": "2026-07-25T08:30:00Z",
+      "description": "A researcher has explained how an attacker could exploit these vulnerabilities to target industrial organizations. The post Rockwell Patches Code Execution Flaws in Arena Simulation Software appeared first on SecurityWeek.",
+      "source": "securityweek.com"
+    },
     {
       "title": "Foxit Updater Vulnerability Gives Standard Users SYSTEM-Level Control of Windows Devices",
       "link": "https://cybersecuritynews.com/foxit-updater-vulnerability/",
@@ -143,13 +157,6 @@
       "source": "thehackernews.com"
     },
     {
-      "title": "Seeing AI Agents Is Not Enough. Security Teams Must Enforce What They Can Do",
-      "link": "https://thehackernews.com/2026/07/seeing-ai-agents-is-not-enough-security.html",
-      "date": "2026-07-24T11:30:00Z",
-      "description": "AI agent security is moving through a familiar maturity curve: adoption, then visibility, and finally, control. But what we've collectively discovered is that enforcing least privilege for AI agents is harder than we ever imagined. This is why there are so many approaches, from prompt filtering to identity-layer access controls. Where we've collectively landed is that understanding the intent of",
-      "source": "thehackernews.com"
-    },
-    {
       "title": "Industry Reactions to OpenAI Models Hacking Hugging Face: Feedback Friday",
       "link": "https://www.securityweek.com/industry-reactions-to-openai-models-hacking-hugging-face-feedback-friday/",
       "date": "2026-07-24T11:19:46Z",
@@ -204,13 +211,6 @@
       "date": "2026-07-24T05:00:00Z",
       "description": "A CVSS score 9.8 AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H severity vulnerability discovered by 'Sajeeb Lohani' was reported to the affected vendor on: 2026-07-24, 1 days ago. The vendor is given until 2026-11-21 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
       "source": "zerodayinitiative.com"
-    },
-    {
-      "title": "OpenAI Fixes ChatGPT Agent Flaw That Could Let Attackers Forge an AI Insider",
-      "link": "https://www.securityweek.com/openai-fixes-chatgpt-agent-flaw-that-could-let-attackers-forge-an-ai-insider/",
-      "date": "2026-07-23T15:09:59Z",
-      "description": "AgentForger allows an attacker to create, insert and remotely control an invisible autonomous AI agent inside a victim organization. The post OpenAI Fixes ChatGPT Agent Flaw That Could Let Attackers Forge an AI Insider appeared first on SecurityWeek.",
-      "source": "securityweek.com"
     },
     {
       "title": "Student Loan Breach Exposes 2.5M Records",
