@@ -1,7 +1,14 @@
 {
-  "last_updated": "2026-07-25T01:43:26Z",
-  "count": 30,
+  "last_updated": "2026-07-25T04:55:13Z",
+  "count": 35,
   "items": [
+    {
+      "title": "Foxit Updater Vulnerability Gives Standard Users SYSTEM-Level Control of Windows Devices",
+      "link": "https://cybersecuritynews.com/foxit-updater-vulnerability/",
+      "date": "2026-07-25T03:36:03Z",
+      "description": "Foxit PDF Reader has been found vulnerable to a local privilege escalation flaw that allows standard Windows users to gain full SYSTEM-level control under specific conditions. The issue, tracked as CVE-2026-57239, was disclosed following research into Foxit’s updater and service architecture and represents a high-impact post-exploitation pathway, although it requires prior code execution on the…",
+      "source": "cybersecuritynews.com"
+    },
     {
       "title": "CISOs vs. Boards: Myth or Misunderstanding?",
       "link": "https://www.darkreading.com/cybersecurity-operations/cisos-vs-boards-myth-or-misunderstanding-",
@@ -38,6 +45,27 @@
       "source": "bleepingcomputer.com"
     },
     {
+      "title": "Tego AI Discloses Second Claude Flaw in a Week: Hidden Link Silently Sends Files to Attackers",
+      "link": "https://cybersecuritynews.com/tego-ai-discloses-second-claude-flaw-in-a-week-hidden-link-silently-sends-files-to-attackers/",
+      "date": "2026-07-24T17:19:04Z",
+      "description": "Tel Aviv, Israel, July 24th, 2026, CyberNewswire One week after disclosing that Anthropic’s Claude Tag Slack integration could be driven by plain “@Claude” text, Tego AI today published a second piece of research on the Claude ecosystem. This one focuses on Claude Code, Anthropic’s agentic command-line coding tool. Cloning an ordinary repository and starting Claude […] The post Tego AI Discloses…",
+      "source": "cybersecuritynews.com"
+    },
+    {
+      "title": "Certighost Active Directory CS Exploit Allows Low-Privileged Users to Compromise Domain",
+      "link": "https://cybersecuritynews.com/certighost-active-directory-cs-flaw/",
+      "date": "2026-07-24T16:35:58Z",
+      "description": "A newly disclosed Active Directory Certificate Services (AD CS) vulnerability, dubbed Certighost, allowed a low-privilege domain user to impersonate a Domain Controller and take over an entire Active Directory domain. Tracked as CVE-2026-54121, the flaw was patched in Microsoft’s July 2026 security updates following responsible disclosure earlier this year. AD CS is Microsoft’s public key […]…",
+      "source": "cybersecuritynews.com"
+    },
+    {
+      "title": "Bing Images Vulnerability Lets Attackers Execute Remote Code on Microsoft Servers",
+      "link": "https://cybersecuritynews.com/bing-images-vulnerability/",
+      "date": "2026-07-24T15:56:46Z",
+      "description": "Three critical remote code execution (RCE) vulnerabilities in Microsoft’s infrastructure, with two flaws in Bing Images allowing attackers to hijack backend image-processing servers using nothing more than a crafted SVG file. The findings, disclosed responsibly by XBOW and now patched, expose how an “ordinary” image-handling feature became a gateway to full SYSTEM-level access on production […]…",
+      "source": "cybersecuritynews.com"
+    },
+    {
       "title": "Microsoft blames massive Microsoft 365 outage on maintenance bug",
       "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-blames-massive-microsoft-365-outage-on-maintenance-bug/",
       "date": "2026-07-24T15:41:44Z",
@@ -71,6 +99,13 @@
       "date": "2026-07-24T14:04:29Z",
       "description": "Chick-fil-A has confirmed that over 13,000 customers had their accounts breached in a wave of credential stuffing attacks targeting its website and mobile app between June 17 and June 19. [...]",
       "source": "bleepingcomputer.com"
+    },
+    {
+      "title": "Cl0p Hackers Exploit Windchill Servers to Steal Companies’ Secret Product Designs",
+      "link": "https://cybersecuritynews.com/cl0p-hackers-exploit-windchill/",
+      "date": "2026-07-24T13:05:36Z",
+      "description": "Cl0p ransomware affiliates are exploiting exposed PTC Windchill and FlexPLM servers to steal engineering and product-design data. The campaign combines software flaws to gain access without credentials, install hidden server-side access, and remove sensitive files before demanding payment. The activity places manufacturers, automotive firms, aerospace organizations, and retail apparel companies…",
+      "source": "cybersecuritynews.com"
     },
     {
       "title": "Vatican's Official Prayer App Leaks 700K+ Global Users' PII",
@@ -136,46 +171,46 @@
       "source": "securityweek.com"
     },
     {
+      "title": "ZDI-CAN-31994: NVIDIA",
+      "link": "http://www.zerodayinitiative.com/advisories/upcoming/",
+      "date": "2026-07-24T05:00:00Z",
+      "description": "A CVSS score 7.3 AV:L/AC:L/PR:L/UI:N/S:C/C:H/I:L/A:N severity vulnerability discovered by 'HAI SON MAI (HSon)' was reported to the affected vendor on: 2026-07-24, 0 days ago. The vendor is given until 2026-11-21 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
+      "source": "zerodayinitiative.com"
+    },
+    {
+      "title": "ZDI-CAN-32114: NVIDIA",
+      "link": "http://www.zerodayinitiative.com/advisories/upcoming/",
+      "date": "2026-07-24T05:00:00Z",
+      "description": "A CVSS score 8.1 AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H severity vulnerability discovered by 'Mat Powell of TrendAI Zero Day Initiative' was reported to the affected vendor on: 2026-07-24, 0 days ago. The vendor is given until 2026-11-21 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
+      "source": "zerodayinitiative.com"
+    },
+    {
+      "title": "ZDI-CAN-32814: LangChain",
+      "link": "http://www.zerodayinitiative.com/advisories/upcoming/",
+      "date": "2026-07-24T05:00:00Z",
+      "description": "A CVSS score 7.5 AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N severity vulnerability discovered by 'Taha Siddiqi (@_atomiz_) of TrendAI Research' was reported to the affected vendor on: 2026-07-24, 0 days ago. The vendor is given until 2026-11-21 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
+      "source": "zerodayinitiative.com"
+    },
+    {
+      "title": "ZDI-CAN-30634: NoMachine",
+      "link": "http://www.zerodayinitiative.com/advisories/upcoming/",
+      "date": "2026-07-24T05:00:00Z",
+      "description": "A CVSS score 8.8 AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H severity vulnerability discovered by 'Sajeeb Lohani' was reported to the affected vendor on: 2026-07-24, 0 days ago. The vendor is given until 2026-11-21 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
+      "source": "zerodayinitiative.com"
+    },
+    {
+      "title": "ZDI-CAN-30685: NoMachine",
+      "link": "http://www.zerodayinitiative.com/advisories/upcoming/",
+      "date": "2026-07-24T05:00:00Z",
+      "description": "A CVSS score 9.8 AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H severity vulnerability discovered by 'Sajeeb Lohani' was reported to the affected vendor on: 2026-07-24, 0 days ago. The vendor is given until 2026-11-21 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
+      "source": "zerodayinitiative.com"
+    },
+    {
       "title": "OpenAI Fixes ChatGPT Agent Flaw That Could Let Attackers Forge an AI Insider",
       "link": "https://www.securityweek.com/openai-fixes-chatgpt-agent-flaw-that-could-let-attackers-forge-an-ai-insider/",
       "date": "2026-07-23T15:09:59Z",
       "description": "AgentForger allows an attacker to create, insert and remotely control an invisible autonomous AI agent inside a victim organization. The post OpenAI Fixes ChatGPT Agent Flaw That Could Let Attackers Forge an AI Insider appeared first on SecurityWeek.",
       "source": "securityweek.com"
-    },
-    {
-      "title": "ZDI-CAN-30553: Trend Micro",
-      "link": "http://www.zerodayinitiative.com/advisories/upcoming/",
-      "date": "2026-07-23T05:00:00Z",
-      "description": "A CVSS score 7.8 AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H severity vulnerability discovered by 'Lays (@_L4ys) of TRAPA Security' was reported to the affected vendor on: 2026-07-23, 1 days ago. The vendor is given until 2026-11-20 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
-      "source": "zerodayinitiative.com"
-    },
-    {
-      "title": "ZDI-CAN-30781: Trend Micro",
-      "link": "http://www.zerodayinitiative.com/advisories/upcoming/",
-      "date": "2026-07-23T05:00:00Z",
-      "description": "A CVSS score 7.8 AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H severity vulnerability discovered by 'Lays (@_L4ys) of TRAPA Security' was reported to the affected vendor on: 2026-07-23, 1 days ago. The vendor is given until 2026-11-20 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
-      "source": "zerodayinitiative.com"
-    },
-    {
-      "title": "ZDI-CAN-30775: Trend Micro",
-      "link": "http://www.zerodayinitiative.com/advisories/upcoming/",
-      "date": "2026-07-23T05:00:00Z",
-      "description": "A CVSS score 7.8 AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H severity vulnerability discovered by 'Lays (@_L4ys) of TRAPA Security' was reported to the affected vendor on: 2026-07-23, 1 days ago. The vendor is given until 2026-11-20 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
-      "source": "zerodayinitiative.com"
-    },
-    {
-      "title": "ZDI-CAN-30554: Trend Micro",
-      "link": "http://www.zerodayinitiative.com/advisories/upcoming/",
-      "date": "2026-07-23T05:00:00Z",
-      "description": "A CVSS score 7.8 AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H severity vulnerability discovered by 'Lays (@_L4ys) of TRAPA Security' was reported to the affected vendor on: 2026-07-23, 1 days ago. The vendor is given until 2026-11-20 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
-      "source": "zerodayinitiative.com"
-    },
-    {
-      "title": "ZDI-CAN-30776: Trend Micro",
-      "link": "http://www.zerodayinitiative.com/advisories/upcoming/",
-      "date": "2026-07-23T05:00:00Z",
-      "description": "A CVSS score 7.8 AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H severity vulnerability discovered by 'Lays (@_L4ys) of TRAPA Security' was reported to the affected vendor on: 2026-07-23, 1 days ago. The vendor is given until 2026-11-20 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
-      "source": "zerodayinitiative.com"
     },
     {
       "title": "Student Loan Breach Exposes 2.5M Records",
