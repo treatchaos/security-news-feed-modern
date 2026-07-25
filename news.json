@@ -1,7 +1,21 @@
 {
-  "last_updated": "2026-07-25T12:59:06Z",
-  "count": 35,
+  "last_updated": "2026-07-25T14:36:50Z",
+  "count": 30,
   "items": [
+    {
+      "title": "ShinyHunters data leaks fuel $2,000 sextortion email scam",
+      "link": "https://www.bleepingcomputer.com/news/security/shinyhunters-data-leaks-fuel-2-000-sextortion-email-scam/",
+      "date": "2026-07-25T14:16:26Z",
+      "description": "Threat actors are using email addresses exposed in data breaches leaked by the ShinyHunters extortion group to send sextortion emails demanding $2,000 in Bitcoin. [...]",
+      "source": "bleepingcomputer.com"
+    },
+    {
+      "title": "Fastjson 1.x RCE Vulnerability Targeted in Attacks With No Patched Available",
+      "link": "https://thehackernews.com/2026/07/fastjson-1x-rce-vulnerability-targeted.html",
+      "date": "2026-07-25T12:52:43Z",
+      "description": "Security firms ThreatBook and Imperva say attackers are targeting a critical flaw in Fastjson, Alibaba's JSON library for Java. In affected Spring Boot applications, a malicious JSON request can execute code without authentication, with the privileges of the Java process. Tracked as CVE-2026-16723, the vulnerability carries an Alibaba-assigned CVSS score of 9.0. The confirmed chain requires",
+      "source": "thehackernews.com"
+    },
     {
       "title": "Researcher Publishes GitLab RCE PoC Letting Authenticated Users Run Commands as Git",
       "link": "https://thehackernews.com/2026/07/researcher-publishes-gitlab-rce-poc.html",
@@ -45,13 +59,6 @@
       "source": "securityweek.com"
     },
     {
-      "title": "Foxit Updater Vulnerability Gives Standard Users SYSTEM-Level Control of Windows Devices",
-      "link": "https://cybersecuritynews.com/foxit-updater-vulnerability/",
-      "date": "2026-07-25T03:36:03Z",
-      "description": "Foxit PDF Reader has been found vulnerable to a local privilege escalation flaw that allows standard Windows users to gain full SYSTEM-level control under specific conditions. The issue, tracked as CVE-2026-57239, was disclosed following research into Foxit’s updater and service architecture and represents a high-impact post-exploitation pathway, although it requires prior code execution on the…",
-      "source": "cybersecuritynews.com"
-    },
-    {
       "title": "CISOs vs. Boards: Myth or Misunderstanding?",
       "link": "https://www.darkreading.com/cybersecurity-operations/cisos-vs-boards-myth-or-misunderstanding-",
       "date": "2026-07-24T21:31:53Z",
@@ -87,53 +94,11 @@
       "source": "bleepingcomputer.com"
     },
     {
-      "title": "Tego AI Discloses Second Claude Flaw in a Week: Hidden Link Silently Sends Files to Attackers",
-      "link": "https://cybersecuritynews.com/tego-ai-discloses-second-claude-flaw-in-a-week-hidden-link-silently-sends-files-to-attackers/",
-      "date": "2026-07-24T17:19:04Z",
-      "description": "Tel Aviv, Israel, July 24th, 2026, CyberNewswire One week after disclosing that Anthropic’s Claude Tag Slack integration could be driven by plain “@Claude” text, Tego AI today published a second piece of research on the Claude ecosystem. This one focuses on Claude Code, Anthropic’s agentic command-line coding tool. Cloning an ordinary repository and starting Claude […] The post Tego AI Discloses…",
-      "source": "cybersecuritynews.com"
-    },
-    {
-      "title": "Certighost Active Directory CS Exploit Allows Low-Privileged Users to Compromise Domain",
-      "link": "https://cybersecuritynews.com/certighost-active-directory-cs-flaw/",
-      "date": "2026-07-24T16:35:58Z",
-      "description": "A newly disclosed Active Directory Certificate Services (AD CS) vulnerability, dubbed Certighost, allowed a low-privilege domain user to impersonate a Domain Controller and take over an entire Active Directory domain. Tracked as CVE-2026-54121, the flaw was patched in Microsoft’s July 2026 security updates following responsible disclosure earlier this year. AD CS is Microsoft’s public key […]…",
-      "source": "cybersecuritynews.com"
-    },
-    {
-      "title": "Bing Images Vulnerability Lets Attackers Execute Remote Code on Microsoft Servers",
-      "link": "https://cybersecuritynews.com/bing-images-vulnerability/",
-      "date": "2026-07-24T15:56:46Z",
-      "description": "Three critical remote code execution (RCE) vulnerabilities in Microsoft’s infrastructure, with two flaws in Bing Images allowing attackers to hijack backend image-processing servers using nothing more than a crafted SVG file. The findings, disclosed responsibly by XBOW and now patched, expose how an “ordinary” image-handling feature became a gateway to full SYSTEM-level access on production […]…",
-      "source": "cybersecuritynews.com"
-    },
-    {
-      "title": "Microsoft blames massive Microsoft 365 outage on maintenance bug",
-      "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-blames-massive-microsoft-365-outage-on-maintenance-bug/",
-      "date": "2026-07-24T15:41:44Z",
-      "description": "Microsoft says a bug in its automated network maintenance request system caused Thursday's massive outage by mistakenly removing IP routes from more devices than intended, disrupting Azure and Microsoft 365 services. [...]",
-      "source": "bleepingcomputer.com"
-    },
-    {
-      "title": "BlueNoroff Zoom Phishing Kit Profiles Crypto Wallets Before Malware Delivery",
-      "link": "https://thehackernews.com/2026/07/bluenoroff-zoom-phishing-kit-profiles.html",
-      "date": "2026-07-24T15:12:35Z",
-      "description": "The North Korean threat actors behind the ClickFix-style campaigns that employ typosquatted Zoom and Microsoft Teams domains have been found to operate an active phishing kit to impersonate the videoconferencing platforms in social engineering campaigns designed to deliver malware. \"BlueNoroff has operationalised trust abuse by combining compromised industry contacts, social engineering, wallet",
-      "source": "thehackernews.com"
-    },
-    {
       "title": "In Other News: Dolphin X AI-Powered Malware, Car Anti-Theft Device Hack, 400 Linux Kernel Flaws",
       "link": "https://www.securityweek.com/in-other-news-dolphin-x-ai-powered-malware-car-anti-theft-device-hack-400-linux-kernel-flaws/",
       "date": "2026-07-24T14:20:00Z",
       "description": "Noteworthy stories that might have slipped under the radar: Siemens ROX II industrial switch vulnerabilities, Russian Zimbra webmail espionage campaign, Stadler Rail ransomware extortion attempt. The post In Other News: Dolphin X AI-Powered Malware, Car Anti-Theft Device Hack, 400 Linux Kernel Flaws appeared first on SecurityWeek.",
       "source": "securityweek.com"
-    },
-    {
-      "title": "Cl0p Hackers Exploit Windchill Servers to Steal Companies’ Secret Product Designs",
-      "link": "https://cybersecuritynews.com/cl0p-hackers-exploit-windchill/",
-      "date": "2026-07-24T13:05:36Z",
-      "description": "Cl0p ransomware affiliates are exploiting exposed PTC Windchill and FlexPLM servers to steal engineering and product-design data. The campaign combines software flaws to gain access without credentials, install hidden server-side access, and remove sensitive files before demanding payment. The activity places manufacturers, automotive firms, aerospace organizations, and retail apparel companies…",
-      "source": "cybersecuritynews.com"
     },
     {
       "title": "Vatican's Official Prayer App Leaks 700K+ Global Users' PII",
