@@ -1,13 +1,34 @@
 {
-  "last_updated": "2026-07-27T21:01:04Z",
-  "count": 35,
+  "last_updated": "2026-07-27T22:50:40Z",
+  "count": 30,
   "items": [
+    {
+      "title": "Arista patches VeloCloud Orchestrator zero-day exploited in attacks",
+      "link": "https://www.bleepingcomputer.com/news/security/arista-patches-velocloud-orchestrator-zero-day-exploited-in-attacks/",
+      "date": "2026-07-27T22:49:44Z",
+      "description": "Arista has patched a maximum-severity command injection vulnerability in on-premises VeloCloud Orchestrator deployments that is being actively exploited in attacks. [...]",
+      "source": "bleepingcomputer.com"
+    },
+    {
+      "title": "New Dysphoria DDoS botnet spreads to 200k devices worldwide",
+      "link": "https://www.bleepingcomputer.com/news/security/new-dysphoria-ddos-botnet-spreads-to-200k-devices-worldwide/",
+      "date": "2026-07-27T21:08:15Z",
+      "description": "A botnet called Dysphoria has compromised around 200,000 devices across the world and is using them for distributed denial of service (DDoS) attacks and traffic relay operations. [...]",
+      "source": "bleepingcomputer.com"
+    },
     {
       "title": "New Certighost PoC exploit lets attackers hijack Windows domains",
       "link": "https://www.bleepingcomputer.com/news/security/new-certighost-poc-exploit-lets-attackers-hijack-windows-domains/",
       "date": "2026-07-27T21:00:25Z",
       "description": "A proof-of-concept exploit for \"Certighost,\" a Windows Active Directory Certificate Services vulnerability, has been released that can allow authenticated attackers to potentially compromise a Windows domain. [...]",
       "source": "bleepingcomputer.com"
+    },
+    {
+      "title": "'Confused Deputy' Flaws Persist in Google Cloud, Microsoft Azure",
+      "link": "https://www.darkreading.com/cloud-security/confused-deputy-flaws-google-cloud-microsoft-azure",
+      "date": "2026-07-27T20:57:26Z",
+      "description": "This category of vulnerabilities allows an attacker to easily acquire administrative level permissions and bypass cloud providers' access controls.",
+      "source": "darkreading.com"
     },
     {
       "title": "FBI: Breaking Affiliate Trust Sped Along LockBit's Takedown",
@@ -45,53 +66,11 @@
       "source": "thehackernews.com"
     },
     {
-      "title": "Microsoft Defender for Endpoint Update Leaves Few Linux Servers Unprotected After Reboot",
-      "link": "https://cybersecuritynews.com/defender-for-endpoint-update-linux/",
-      "date": "2026-07-27T17:10:39Z",
-      "description": "A recent Microsoft Defender for Endpoint update briefly disabled antivirus protection on Linux servers following an upgrade and reboot, exposing affected machines to threats before Microsoft rolled out a fix. The issue struck Linux platform builds 101.26042.0000 through 101.26042.0009, where the Defender service could become disabled on devices that were upgraded and then rebooted, effectively…",
-      "source": "cybersecuritynews.com"
-    },
-    {
-      "title": "Critical vBulletin Flaw Lets Unauthenticated Attackers Execute PHP Code Remotely",
-      "link": "https://cybersecuritynews.com/vbulletin-flaw-execute-php-code/",
-      "date": "2026-07-27T15:49:36Z",
-      "description": "vBulletin has patched CVE-2026-61511, a critical remote code execution flaw that could let unauthenticated attackers execute arbitrary PHP code and compromise vulnerable forum servers. This issue affects vBulletin versions 6.2.1 and earlier as well as versions 6.1.6 and earlier. The flaw exists in the file /includes/vb5/template/runtime.php, specifically within the…",
-      "source": "cybersecuritynews.com"
-    },
-    {
       "title": "Coca-Cola confirms data theft in Fairlife ransomware attack",
       "link": "https://www.bleepingcomputer.com/news/security/coca-cola-confirms-data-theft-in-fairlife-ransomware-attack/",
       "date": "2026-07-27T15:39:51Z",
       "description": "The Coca-Cola Company has confirmed that hackers stole data from its dairy subsidiary, Fairlife, during a ransomware attack earlier this month. [...]",
       "source": "bleepingcomputer.com"
-    },
-    {
-      "title": "EY Data Breach Claimed by ShinyHunters Hacker Group",
-      "link": "https://cybersecuritynews.com/ey-data-breach-claim-shinyhunters/",
-      "date": "2026-07-27T15:35:21Z",
-      "description": "The notorious ShinyHunters extortion gang has publicly claimed responsibility for the Ernst & Young (EY) data breach, alleging it stole employee credentials and sensitive files through a supply-chain compromise of a third-party IT support platform. The claim, posted on the group’s dark web leak site with a “final warning” deadline of July 31, 2026, threatens […] The post EY Data Breach Claimed…",
-      "source": "cybersecuritynews.com"
-    },
-    {
-      "title": "GitHub Adds 3-Day Dependabot Cooldown to Block Malicious Package Updates",
-      "link": "https://cybersecuritynews.com/github-adds-3-day-dependabot-cooldown/",
-      "date": "2026-07-27T15:25:08Z",
-      "description": "GitHub has introduced a default three-day cooldown period for Dependabot version updates to reduce the risk of projects automatically adopting new malicious packages. This change targets a prevalent pattern in software supply chain attacks where attackers compromise a trusted package maintainer’s account, publish a malicious update, and rely on automated dependency tools to distribute it […] The…",
-      "source": "cybersecuritynews.com"
-    },
-    {
-      "title": "Ernst & Young data breach claimed by ShinyHunters extortion gang",
-      "link": "https://www.bleepingcomputer.com/news/security/ernst-and-young-data-breach-claimed-by-shinyhunters-extortion-gang/",
-      "date": "2026-07-27T15:12:27Z",
-      "description": "The ShinyHunters extortion gang has claimed responsibility for a recently disclosed Ernst & Young data breach, saying it obtained credentials for some of the company's systems via a supply-chain attack. [...]",
-      "source": "bleepingcomputer.com"
-    },
-    {
-      "title": "A Fake Teams Update Can Give Hackers Two Separate Ways to Control Your PC",
-      "link": "https://cybersecuritynews.com/fake-teams-update-gain-pc-control/",
-      "date": "2026-07-27T15:05:05Z",
-      "description": "A new phishing operation, tracked as Operation BlueDash, is tricking users into installing a fake Microsoft Teams update that silently hands attackers not one but two independent ways to remotely control infected computers. The infection starts with an email claiming a document was “too large” to send directly and was instead shared securely through Microsoft […] The post A Fake Teams Update Can…",
-      "source": "cybersecuritynews.com"
     },
     {
       "title": "Public Exploit Released for Patched vBulletin Pre-Auth Code Execution Flaw",
@@ -113,13 +92,6 @@
       "date": "2026-07-27T14:10:54Z",
       "description": "Monday starts with the usual promise that everything is under control. Then the logs wake up. This week, trusted tools crossed lines, old flaws found new work, exposed systems stayed exposed, and attackers kept hiding inside normal-looking services. Nothing looked strange at first. That helped. That is the mood. Here is the full recap. ⚡ Threat of the Week OpenAI Says Its AI Agent Went Rogue",
       "source": "thehackernews.com"
-    },
-    {
-      "title": "Shadow AI agents are multiplying. Here's how to find and secure them.",
-      "link": "https://www.bleepingcomputer.com/news/security/shadow-ai-agents-are-multiplying-heres-how-to-find-and-secure-them/",
-      "date": "2026-07-27T14:01:11Z",
-      "description": "Shadow AI agents are rapidly spreading across enterprise platforms, often without IT or security visibility. Nudge Security explains how organizations can discover, assess, and govern AI agents before unmanaged permissions and autonomous actions create security risks. [...]",
-      "source": "bleepingcomputer.com"
     },
     {
       "title": "PTC Windchill Vulnerability Exploited in Ransomware Campaign",
@@ -168,13 +140,6 @@
       "link": "https://www.darkreading.com/cybersecurity-operations/incorrigible-ai-models-resist-rehabilitation",
       "date": "2026-07-24T19:45:02Z",
       "description": "The hacking of Hugging Face by a rogue OpenAI agent is significant, but unsurprising — and preventing the next AI model escape will be difficult, at best.",
-      "source": "darkreading.com"
-    },
-    {
-      "title": "Vatican's Official Prayer App Leaks 700K+ Global Users' PII",
-      "link": "https://www.darkreading.com/vulnerabilities-threats/vatican-official-prayer-app-leaks-700k-pii",
-      "date": "2026-07-24T13:00:00Z",
-      "description": "A porous API endpoint exposes, names, email addresses, country, and site status, all of which can be easily gleaned by anyone with a browser.",
       "source": "darkreading.com"
     },
     {
