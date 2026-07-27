@@ -1,48 +1,27 @@
 {
-  "last_updated": "2026-07-27T05:39:03Z",
-  "count": 35,
+  "last_updated": "2026-07-27T09:27:35Z",
+  "count": 30,
   "items": [
+    {
+      "title": "TELESHIM Abuses Telegram for C2 in Attacks Against Middle East Governments",
+      "link": "https://thehackernews.com/2026/07/teleshim-abuses-telegram-for-c2-in.html",
+      "date": "2026-07-27T08:48:47Z",
+      "description": "Cybersecurity researchers have flagged fresh malicious cyber activity by a threat actor with ties to East Asia targeting government entities in the Middle East. The intrusions have resulted in the deployment of previously unreported malware families dubbed TELESHIM, MIXEDKEY, and BINDCLOAK, according to Zscaler ThreatLabz. The cybersecurity firm said it detected the campaign earlier this month.",
+      "source": "thehackernews.com"
+    },
+    {
+      "title": "GitHub Adds 3-Day Dependabot Cooldown to Limit Poisoned Package Adoption",
+      "link": "https://thehackernews.com/2026/07/github-adds-3-day-dependabot-cooldown.html",
+      "date": "2026-07-27T08:01:23Z",
+      "description": "GitHub has announced a new cooldown mechanism in Dependabot, allowing the tool to wait at least three days after a release is published before opening a pull request. \"The cooldown configuration option in the dependabot.yml still controls the behavior, though, so you can choose a different cooldown parameter that fits your project,\" the Microsoft-owned subsidiary said. According to GitHub, the",
+      "source": "thehackernews.com"
+    },
     {
       "title": "MCBS Data Breach Affects 1.2 Million Individuals",
       "link": "https://www.securityweek.com/mcbs-data-breach-affects-1-2-million-individuals/",
       "date": "2026-07-27T04:51:32Z",
       "description": "The PEAR ransomware group claimed to have stolen 3 TB of information from the medical business management company. The post MCBS Data Breach Affects 1.2 Million Individuals appeared first on SecurityWeek.",
       "source": "securityweek.com"
-    },
-    {
-      "title": "Eight NodeBB Vulnerabilities Let Hackers Read Your Private Chats and Take Over the Forum",
-      "link": "https://cybersecuritynews.com/eight-nodebb-vulnerabilities/",
-      "date": "2026-07-27T04:15:12Z",
-      "description": "Eight high-severity vulnerabilities have been discovered in NodeBB, a popular Node.js-based forum platform, exposing millions of users to risks including private message leaks, stored cross-site scripting (XSS), and full forum compromise. The issues affect all NodeBB versions prior to 4.14.0 and were uncovered during an AI-assisted whitebox penetration test conducted by Aikido. The findings…",
-      "source": "cybersecuritynews.com"
-    },
-    {
-      "title": "ChatGPT AgentForger Flaw Could Deploy Rogue Workspace Agents via a Phishing Link",
-      "link": "https://cybersecuritynews.com/chatgpt-agentforger-vulnerability/",
-      "date": "2026-07-27T03:58:25Z",
-      "description": "A critical vulnerability in OpenAI’s ChatGPT Workspace Agents, dubbed AgentForger, that allowed a single phishing link to silently build, configure, and publish an attacker-controlled autonomous agent inside a victim’s organization. Unlike traditional Cross-Site Request Forgery (CSRF), which forges a single unauthorized request, AgentForger forges the creation of an entire autonomous AI agent…",
-      "source": "cybersecuritynews.com"
-    },
-    {
-      "title": "Claude AI Shared Chats Reportedly Exposed in Google Search Results",
-      "link": "https://cybersecuritynews.com/claude-ai-shared-chats/",
-      "date": "2026-07-26T17:05:24Z",
-      "description": "Anthropic’s Claude share links appeared in public search results, raising fresh privacy concerns for users who shared sensitive conversations. A Reddit post this weekend revealed that hundreds of Claude AI shared chats were publicly discoverable through Google. Users searching queries such as site:claude.ai/share could access conversations containing legal advice, engineering work, and personal…",
-      "source": "cybersecuritynews.com"
-    },
-    {
-      "title": "Weekly Cyber Security Newsletter Bulletin – Certighost Exploit, Checkpoint 0-day, HTTP/2 Flaw, Notepad++ Plugin Abuse +20 Stories",
-      "link": "https://cybersecuritynews.com/weekly-cyber-security-newsletter-july/",
-      "date": "2026-07-26T16:40:49Z",
-      "description": "Threat actors continued to combine classic exploitation techniques with AI-accelerated tooling this week, from a 15-year-old NGINX bug and an actively exploited Check Point authentication flaw to autonomous AI agents chaining zero-days against Hugging Face. Below is a roundup of 18 major stories covering ransomware, AI security, kernel vulnerabilities, cloud/SaaS abuse, and critical…",
-      "source": "cybersecuritynews.com"
-    },
-    {
-      "title": "How Pro-Iran Hacktivist Networks Mobilize During Kinetic Conflict",
-      "link": "https://cybersecuritynews.com/how-pro-iran-hacktivist-networks-mobilize-during-kinetic-conflict/",
-      "date": "2026-07-26T14:37:40Z",
-      "description": "The current conflict between the United States and Iran has become a case study in how asymmetric warfare and coalition building are reshaping the cyber and geopolitical dimensions of modern conflict. Following the United States and Israel’s joint military strikes on Iran in February 2026, Iranian state and state-aligned actors rapidly increased cyber attacks against […] The post How Pro-Iran…",
-      "source": "cybersecuritynews.com"
     },
     {
       "title": "GitHub, PyPI add time-based defenses against supply chain attacks",
@@ -91,20 +70,6 @@
       "link": "https://thehackernews.com/2026/07/researcher-publishes-gitlab-rce-poc.html",
       "date": "2026-07-25T10:14:26Z",
       "description": "Security researchers at depthfirst published working exploit code on July 24 for a GitLab flaw that GitLab patched six weeks earlier, on June 10. It runs commands as git on any self-managed 18.11.3 server that has not taken the update. Any authenticated user who can push to a project can run it. The attacker commits a crafted Jupyter notebook and opens its commit diff, which leaks a heap",
-      "source": "thehackernews.com"
-    },
-    {
-      "title": "CTM360 Research Reveals How Insurance Phishing Has Evolved Into Real-Time Account Hijacking",
-      "link": "https://thehackernews.com/2026/07/ctm360-research-reveals-how-insurance.html",
-      "date": "2026-07-25T10:14:21Z",
-      "description": "For years, phishing campaigns targeting financial institutions followed the same playbook. Victims were tricked into entering usernames and passwords, attackers collected the credentials, and accounts were compromised later when an opportunity arose. That model is changing. Recent investigations into insurance-focused phishing operations reveal a more immediate approach. Instead of harvesting",
-      "source": "thehackernews.com"
-    },
-    {
-      "title": "Cl0p Affiliates Target Internet-Exposed PTC Windchill and FlexPLM with Unauthenticated RCE",
-      "link": "https://thehackernews.com/2026/07/cl0p-affiliates-target-internet-exposed.html",
-      "date": "2026-07-25T10:14:03Z",
-      "description": "Threat actors linked to the Cl0p (aka Chubby Scorpius, FIN11, Graceful Spider, and Lace Tempest) ransomware campaign are exploiting flaws in internet-exposed PTC Windmill and FlexPLM deployments as part of a new data extortion campaign. \"Attackers chain a pre-authentication information disclosure in the FlexPLM WSDL endpoint with a server-side flaw in the Windchill login servlet, enabling",
       "source": "thehackernews.com"
     },
     {
