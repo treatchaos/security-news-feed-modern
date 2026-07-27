@@ -1,7 +1,28 @@
 {
-  "last_updated": "2026-07-27T15:35:50Z",
+  "last_updated": "2026-07-27T17:28:44Z",
   "count": 35,
   "items": [
+    {
+      "title": "Microsoft Defender for Endpoint Update Leaves Few Linux Servers Unprotected After Reboot",
+      "link": "https://cybersecuritynews.com/defender-for-endpoint-update-linux/",
+      "date": "2026-07-27T17:10:39Z",
+      "description": "A recent Microsoft Defender for Endpoint update briefly disabled antivirus protection on Linux servers following an upgrade and reboot, exposing affected machines to threats before Microsoft rolled out a fix. The issue struck Linux platform builds 101.26042.0000 through 101.26042.0009, where the Defender service could become disabled on devices that were upgraded and then rebooted, effectively…",
+      "source": "cybersecuritynews.com"
+    },
+    {
+      "title": "Critical vBulletin Flaw Lets Unauthenticated Attackers Execute PHP Code Remotely",
+      "link": "https://cybersecuritynews.com/vbulletin-flaw-execute-php-code/",
+      "date": "2026-07-27T15:49:36Z",
+      "description": "vBulletin has patched CVE-2026-61511, a critical remote code execution flaw that could let unauthenticated attackers execute arbitrary PHP code and compromise vulnerable forum servers. This issue affects vBulletin versions 6.2.1 and earlier as well as versions 6.1.6 and earlier. The flaw exists in the file /includes/vb5/template/runtime.php, specifically within the…",
+      "source": "cybersecuritynews.com"
+    },
+    {
+      "title": "Coca-Cola confirms data theft in Fairlife ransomware attack",
+      "link": "https://www.bleepingcomputer.com/news/security/coca-cola-confirms-data-theft-in-fairlife-ransomware-attack/",
+      "date": "2026-07-27T15:39:51Z",
+      "description": "The Coca-Cola Company has confirmed that hackers stole data from its dairy subsidiary, Fairlife, during a ransomware attack earlier this month. [...]",
+      "source": "bleepingcomputer.com"
+    },
     {
       "title": "EY Data Breach Claimed by ShinyHunters Hacker Group",
       "link": "https://cybersecuritynews.com/ey-data-breach-claim-shinyhunters/",
@@ -31,18 +52,11 @@
       "source": "cybersecuritynews.com"
     },
     {
-      "title": "Security Risk Advisors Named a Finalist in CRN’s 2026 Best of the Channel Awards",
-      "link": "https://cybersecuritynews.com/security-risk-advisors-named-a-finalist-in-crns-2026-best-of-the-channel-awards/",
-      "date": "2026-07-27T14:56:04Z",
-      "description": "Philadelphia, Pennsylvania, July 27th, 2026, CyberNewswire Security Risk Advisors is proud to share that CRN, a brand of The Channel Company, has recognized Joe Cicero as a finalist in the second annual CRN Best of the Channel Awards in the Best Channel Visionary of the Year category. As a finalist, Joe is being spotlighted for […] The post Security Risk Advisors Named a Finalist in CRN’s 2026…",
-      "source": "cybersecuritynews.com"
-    },
-    {
-      "title": "NVIDIA Launches Open Secure AI Alliance to Build Open-Source Defenses for AI Agents",
-      "link": "https://cybersecuritynews.com/open-secure-ai-alliance/",
-      "date": "2026-07-27T14:26:59Z",
-      "description": "A coalition of over 30 technology industry leaders, including NVIDIA, Microsoft, CrowdStrike, Cisco, IBM, Palo Alto Networks, and Red Hat, has launched the Open Secure AI Alliance. The initiative aims to equip cyber defenders with transparent, community-driven AI security tools to counter increasingly sophisticated digital threats. Building on the Linux Foundation’s Akrites project and the […]…",
-      "source": "cybersecuritynews.com"
+      "title": "Public Exploit Released for Patched vBulletin Pre-Auth Code Execution Flaw",
+      "link": "https://thehackernews.com/2026/07/public-exploit-released-for-patched.html",
+      "date": "2026-07-27T14:40:00Z",
+      "description": "Public exploit details released on July 27 show how an unauthenticated request can reach PHP's eval() function inside vBulletin and execute code on an unpatched forum server. The attack requires no account, administrative access, or interaction from another user. SSD Secure Disclosure lists vBulletin 6.2.1 and earlier, and 6.1.6 and earlier, as affected, but does not give a lower version",
+      "source": "thehackernews.com"
     },
     {
       "title": "New GitHub, PyPI Policies Boost Supply Chain Security",
@@ -115,13 +129,6 @@
       "source": "thehackernews.com"
     },
     {
-      "title": "TELESHIM Abuses Telegram for C2 in Attacks Against Middle East Governments",
-      "link": "https://thehackernews.com/2026/07/teleshim-abuses-telegram-for-c2-in.html",
-      "date": "2026-07-27T08:48:47Z",
-      "description": "Cybersecurity researchers have flagged fresh malicious cyber activity by a threat actor with ties to East Asia targeting government entities in the Middle East. The intrusions have resulted in the deployment of previously unreported malware families dubbed TELESHIM, MIXEDKEY, and BINDCLOAK, according to Zscaler ThreatLabz. The cybersecurity firm said it detected the campaign earlier this month.",
-      "source": "thehackernews.com"
-    },
-    {
       "title": "GitHub, PyPI add time-based defenses against supply chain attacks",
       "link": "https://www.bleepingcomputer.com/news/security/github-pypi-add-time-absed-defenses-against-supply-chain-attacks/",
       "date": "2026-07-26T14:13:39Z",
@@ -133,13 +140,6 @@
       "link": "https://www.bleepingcomputer.com/news/security/steam-forum-clickfix-attacks-infect-gamers-with-xmrig-cryptominers/",
       "date": "2026-07-25T22:37:47Z",
       "description": "Steam discussion forums are being abused in ClickFix attacks that pretend to be fixes for game and computer problems but actually infect devices with cryptominers. [...]",
-      "source": "bleepingcomputer.com"
-    },
-    {
-      "title": "Malicious sites use JavaScript to build malware in browser memory",
-      "link": "https://www.bleepingcomputer.com/news/security/malicious-sites-use-javascript-to-build-malware-in-browser-memory/",
-      "date": "2026-07-25T15:21:09Z",
-      "description": "A massive malvertising campaign is using fake Solana, Luno, and TradingView webpages with malicious JavaScript that instructs browsers to assemble malware directly in memory. [...]",
       "source": "bleepingcomputer.com"
     },
     {
