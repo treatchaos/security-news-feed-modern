@@ -1,7 +1,35 @@
 {
-  "last_updated": "2026-07-28T19:05:34Z",
+  "last_updated": "2026-07-28T20:57:42Z",
   "count": 35,
   "items": [
+    {
+      "title": "OpenAI models used Artifactory zero-days to escape to the internet",
+      "link": "https://www.bleepingcomputer.com/news/security/openai-models-used-artifactory-zero-days-to-escape-to-the-internet/",
+      "date": "2026-07-28T20:37:06Z",
+      "description": "JFrog has confirmed that OpenAI models exploited zero-day vulnerabilities in self-hosted Artifactory servers to help escape an isolated testing environment and gain access to the internet before attacking Hugging Face. [...]",
+      "source": "bleepingcomputer.com"
+    },
+    {
+      "title": "When AI Agents Escape Sandboxes, Old Security Rules Apply",
+      "link": "https://www.darkreading.com/application-security/ai-agents-escape-sandboxes-old-security-rules-apply",
+      "date": "2026-07-28T20:27:36Z",
+      "description": "OpenAI's recent AI agent sandbox escape proves traditional security principles matter more than ever: limit access, isolate execution, log everything.",
+      "source": "darkreading.com"
+    },
+    {
+      "title": "Stronger AI Safety Requires Peeking Inside the 'Black Box'",
+      "link": "https://www.darkreading.com/cybersecurity-analytics/stronger-ai-safety-requires-peeking-inside-black-box",
+      "date": "2026-07-28T20:05:32Z",
+      "description": "Researchers propose focusing on identification of certain cognitive elements in LLMs that indicate when AI systems may take an unwanted action.",
+      "source": "darkreading.com"
+    },
+    {
+      "title": "Claude AI Just Cracked a Post-Quantum Test Scheme and Found a Faster 7-Round AES Attack",
+      "link": "https://thehackernews.com/2026/07/claude-ai-just-cracked-post-quantum.html",
+      "date": "2026-07-28T18:59:07Z",
+      "description": "Anthropic says Claude Mythos Preview helped derive an end-to-end key-recovery attack against HAWK-256 and a 200- to 800-fold speedup for an attack on seven-round AES-128. The HAWK attack exploits a previously unused symmetry in the lattice behind the signature scheme. Anthropic's released implementation gives an expected end-to-end runtime of about three hours and 42 minutes on a 96-core server",
+      "source": "thehackernews.com"
+    },
     {
       "title": "CISA shares advice on isolating vital systems during cyberattacks",
       "link": "https://www.bleepingcomputer.com/news/security/cisa-shares-advice-on-isolating-vital-systems-during-cyberattacks/",
@@ -129,13 +157,6 @@
       "source": "bleepingcomputer.com"
     },
     {
-      "title": "Nimbus Manticore Deploys NightLedger and Turns Victim Systems Into Covert Relays",
-      "link": "https://thehackernews.com/2026/07/nimbus-manticore-deploys-nightledger.html",
-      "date": "2026-07-28T11:55:20Z",
-      "description": "The Iranian state-backed hacking group tracked as Nimbus Manticore (aka GalaxyGato, Mirage Kitten, Smoke Sandstorm, Subtle Snail, and UNC1549) has been attributed to a fresh set of attacks targeting entities across the Middle East, Africa, and South Asia. The intrusions involve the use of a previously undocumented Windows backdoor called NightLedger and two custom WebSocket tunnelers,",
-      "source": "thehackernews.com"
-    },
-    {
       "title": "Microsoft Unveils MAI-Cyber-1-Flash, Its First Cybersecurity AI Model",
       "link": "https://www.securityweek.com/microsoft-unveils-mai-cyber-1-flash-its-first-cybersecurity-ai-model/",
       "date": "2026-07-28T11:11:48Z",
@@ -150,31 +171,31 @@
       "source": "securityweek.com"
     },
     {
-      "title": "Data breach at medical billing firm MCBS affects 1.26 million people",
-      "link": "https://www.bleepingcomputer.com/news/security/data-breach-at-medical-billing-firm-mcbs-affects-126-million-people/",
-      "date": "2026-07-28T09:10:03Z",
-      "description": "Healthcare billing company Medical Computer Business Services (MCBS) has disclosed that a 2025 network breach exposed the sensitive information of more than 1.2 million people. [...]",
-      "source": "bleepingcomputer.com"
+      "title": "ZDI-CAN-33008: Thanos",
+      "link": "http://www.zerodayinitiative.com/advisories/upcoming/",
+      "date": "2026-07-28T05:00:00Z",
+      "description": "A CVSS score 6.1 AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N severity vulnerability discovered by 'Tunyi Huang of TrendAI and Lucas Leong (@_wmliang_) of TrendAI Zero Day Initiative' was reported to the affected vendor on: 2026-07-28, 0 days ago. The vendor is given until 2026-11-25 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public…",
+      "source": "zerodayinitiative.com"
+    },
+    {
+      "title": "ZDI-CAN-32160: Netdata",
+      "link": "http://www.zerodayinitiative.com/advisories/upcoming/",
+      "date": "2026-07-28T05:00:00Z",
+      "description": "A CVSS score 7.8 AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H severity vulnerability discovered by 'Kağan Çapar' was reported to the affected vendor on: 2026-07-28, 0 days ago. The vendor is given until 2026-11-25 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
+      "source": "zerodayinitiative.com"
+    },
+    {
+      "title": "ZDI-CAN-31531: Trend Micro",
+      "link": "http://www.zerodayinitiative.com/advisories/upcoming/",
+      "date": "2026-07-28T05:00:00Z",
+      "description": "A CVSS score 7.8 AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H severity vulnerability discovered by 'Lays (@_L4ys) of TRAPA Security' was reported to the affected vendor on: 2026-07-28, 0 days ago. The vendor is given until 2026-11-25 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
+      "source": "zerodayinitiative.com"
     },
     {
       "title": "AI Agent Drives Espionage Attack on Thai Ministry of Finance",
       "link": "https://www.darkreading.com/cyberattacks-data-breaches/ai-agent-espionage-attack-thai-ministry-finance",
       "date": "2026-07-28T01:00:00Z",
       "description": "Attackers used Hermes, an autonomous open source tool, in unrestricted \"YOLO mode\" to conduct espionage against Thailand's Ministry of Finance.",
-      "source": "darkreading.com"
-    },
-    {
-      "title": "Agentic Browsers Rewind Web Security by 20 years",
-      "link": "https://www.darkreading.com/endpoint-security/agentic-browsers-rewind-web-security-20-years",
-      "date": "2026-07-27T21:39:09Z",
-      "description": "PleaseFix class of flaws makes it easy to socially engineer agentic browsers and highlights weaknesses in how they handle cross-origin requests.",
-      "source": "darkreading.com"
-    },
-    {
-      "title": "'Confused Deputy' Flaws Persist in Google Cloud, Microsoft Azure",
-      "link": "https://www.darkreading.com/cloud-security/confused-deputy-flaws-google-cloud-microsoft-azure",
-      "date": "2026-07-27T20:57:26Z",
-      "description": "This category of vulnerabilities allows an attacker to easily acquire administrative level permissions and bypass cloud providers' access controls.",
       "source": "darkreading.com"
     },
     {
@@ -189,27 +210,6 @@
       "link": "http://www.zerodayinitiative.com/advisories/upcoming/",
       "date": "2026-07-24T05:00:00Z",
       "description": "A CVSS score 8.1 AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H severity vulnerability discovered by 'Mat Powell of TrendAI Zero Day Initiative' was reported to the affected vendor on: 2026-07-24, 4 days ago. The vendor is given until 2026-11-21 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
-      "source": "zerodayinitiative.com"
-    },
-    {
-      "title": "ZDI-CAN-32814: LangChain",
-      "link": "http://www.zerodayinitiative.com/advisories/upcoming/",
-      "date": "2026-07-24T05:00:00Z",
-      "description": "A CVSS score 7.5 AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N severity vulnerability discovered by 'Taha Siddiqi (@_atomiz_) of TrendAI Research' was reported to the affected vendor on: 2026-07-24, 4 days ago. The vendor is given until 2026-11-21 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
-      "source": "zerodayinitiative.com"
-    },
-    {
-      "title": "ZDI-CAN-30634: NoMachine",
-      "link": "http://www.zerodayinitiative.com/advisories/upcoming/",
-      "date": "2026-07-24T05:00:00Z",
-      "description": "A CVSS score 8.8 AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H severity vulnerability discovered by 'Sajeeb Lohani' was reported to the affected vendor on: 2026-07-24, 4 days ago. The vendor is given until 2026-11-21 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
-      "source": "zerodayinitiative.com"
-    },
-    {
-      "title": "ZDI-CAN-30685: NoMachine",
-      "link": "http://www.zerodayinitiative.com/advisories/upcoming/",
-      "date": "2026-07-24T05:00:00Z",
-      "description": "A CVSS score 9.8 AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H severity vulnerability discovered by 'Sajeeb Lohani' was reported to the affected vendor on: 2026-07-24, 4 days ago. The vendor is given until 2026-11-21 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
       "source": "zerodayinitiative.com"
     },
     {
