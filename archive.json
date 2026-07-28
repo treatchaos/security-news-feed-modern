@@ -1,8 +1,28 @@
 {
-  "last_updated": "2026-07-28T20:57:42Z",
+  "last_updated": "2026-07-28T21:58:50Z",
   "retention_days": 90,
-  "count": 3507,
+  "count": 3509,
   "items": [
+    {
+      "id": "3abf9afe236f00e834083a6ea91a76dd8150b4cd",
+      "title": "CubePilot drone software dev hit by DNS hijacking to intercept traffic",
+      "link": "https://www.bleepingcomputer.com/news/security/cubepilot-drone-software-dev-hit-by-dns-hijacking-to-intercept-traffic/",
+      "date": "2026-07-28T21:17:39Z",
+      "description": "CubePilot, an Australian firm that designs flight controllers for drones (UAVs), announced a severe operational disruption caused by a DNS hijacking attack. [...]",
+      "source": "bleepingcomputer.com",
+      "first_seen": "2026-07-28T21:58:50Z",
+      "last_seen": "2026-07-28T21:58:50Z"
+    },
+    {
+      "id": "c1a2563821d1abb5f89d5bd00601b0fd3ce94dc7",
+      "title": "Flaw From 2002 Exposes Data Centers to Server Takeover",
+      "link": "https://www.darkreading.com/cyber-risk/flaw-exposes-data-centers-server-takeover",
+      "date": "2026-07-28T21:07:55Z",
+      "description": "Lots of Internet-exposed server management controllers are subject to offline password-cracking attacks — and adversaries have taken note.",
+      "source": "darkreading.com",
+      "first_seen": "2026-07-28T21:58:50Z",
+      "last_seen": "2026-07-28T21:58:50Z"
+    },
     {
       "id": "68849483732525b3b1e6f0d75e71b2babcfb5efa",
       "title": "OpenAI models used Artifactory zero-days to escape to the internet",
@@ -11,7 +31,7 @@
       "description": "JFrog has confirmed that OpenAI models exploited zero-day vulnerabilities in self-hosted Artifactory servers to help escape an isolated testing environment and gain access to the internet before attacking Hugging Face. [...]",
       "source": "bleepingcomputer.com",
       "first_seen": "2026-07-28T20:57:42Z",
-      "last_seen": "2026-07-28T20:57:42Z"
+      "last_seen": "2026-07-28T21:58:50Z"
     },
     {
       "id": "d0151401cf817e45fd887096a915ba3860043c65",
@@ -21,7 +41,7 @@
       "description": "OpenAI's recent AI agent sandbox escape proves traditional security principles matter more than ever: limit access, isolate execution, log everything.",
       "source": "darkreading.com",
       "first_seen": "2026-07-28T20:57:42Z",
-      "last_seen": "2026-07-28T20:57:42Z"
+      "last_seen": "2026-07-28T21:58:50Z"
     },
     {
       "id": "9f62dc297ea1ffa3bfc93f3cb3311250b04af2f4",
@@ -31,7 +51,7 @@
       "description": "Researchers propose focusing on identification of certain cognitive elements in LLMs that indicate when AI systems may take an unwanted action.",
       "source": "darkreading.com",
       "first_seen": "2026-07-28T20:57:42Z",
-      "last_seen": "2026-07-28T20:57:42Z"
+      "last_seen": "2026-07-28T21:58:50Z"
     },
     {
       "id": "66ee727047e464a70e72da4e9e568944d407a1bd",
@@ -41,7 +61,7 @@
       "description": "Anthropic says Claude Mythos Preview helped derive an end-to-end key-recovery attack against HAWK-256 and a 200- to 800-fold speedup for an attack on seven-round AES-128. The HAWK attack exploits a previously unused symmetry in the lattice behind the signature scheme. Anthropic's released implementation gives an expected end-to-end runtime of about three hours and 42 minutes on a 96-core server",
       "source": "thehackernews.com",
       "first_seen": "2026-07-28T20:57:42Z",
-      "last_seen": "2026-07-28T20:57:42Z"
+      "last_seen": "2026-07-28T21:58:50Z"
     },
     {
       "id": "e350171c4a32832af483a1cde2a12a0ab50c4bda",
@@ -51,7 +71,7 @@
       "description": "The U.S. and Australian governments have released new guidance urging critical infrastructure organizations to prepare to isolate vital operational technology systems in the event of a cyberattack or other major disruptions. [...]",
       "source": "bleepingcomputer.com",
       "first_seen": "2026-07-28T19:05:34Z",
-      "last_seen": "2026-07-28T20:57:42Z"
+      "last_seen": "2026-07-28T21:58:50Z"
     },
     {
       "id": "09d044dab9c14850be124ba930e1622bba10391c",
@@ -61,7 +81,7 @@
       "description": "Anthropic researchers using Claude Mythos Preview have uncovered mathematical flaws in major cryptographic algorithms that human experts failed to spot for years. The AI found improved attacks against HAWK, a post-quantum digital signature scheme, and a reduced-round version of AES, the world’s most widely used symmetric cipher. Neither result threatens production systems today, but both […] The…",
       "source": "cybersecuritynews.com",
       "first_seen": "2026-07-28T19:05:34Z",
-      "last_seen": "2026-07-28T20:57:42Z"
+      "last_seen": "2026-07-28T21:58:50Z"
     },
     {
       "id": "55ab649ea46a482023f17fe114cc8deaaa7c520a",
@@ -71,7 +91,7 @@
       "description": "A critical vulnerability in the vBulletin forum software allows unauthenticated attackers to execute arbitrary PHP code through template rendering. [...]",
       "source": "bleepingcomputer.com",
       "first_seen": "2026-07-28T19:05:34Z",
-      "last_seen": "2026-07-28T20:57:42Z"
+      "last_seen": "2026-07-28T21:58:50Z"
     },
     {
       "id": "3449a2b38eb497b8c9596fa6b3814934622c3d75",
@@ -81,7 +101,7 @@
       "description": "JetBrains has urgently released security updates for a critical vulnerability in TeamCity On-Premises that could allow remote attackers to bypass authentication and execute arbitrary operating system commands. This vulnerability, tracked as CVE-2026-63077, affects all versions of TeamCity On-Premises. The company has addressed the issue in TeamCity versions 2025.11.7 and 2026.1.3. Administrators…",
       "source": "cybersecuritynews.com",
       "first_seen": "2026-07-28T19:05:34Z",
-      "last_seen": "2026-07-28T20:57:42Z"
+      "last_seen": "2026-07-28T21:58:50Z"
     },
     {
       "id": "d0a8cdcf909ea9aaf1317d614f0005fc11c741b0",
@@ -91,7 +111,7 @@
       "description": "Global phishing-as-a-service (PhaaS) activity surged to 7,295 tracked uploads during the week of July 20-26, 2026, driven overwhelmingly by OAuth device-code flow abuse and adversary-in-the-middle (AiTM) kits targeting Microsoft 365 identities. Cybercriminal group Storm-1747, the operator behind Tycoon2FA, logged 50 attributed uploads, down 6 from the prior week following ongoing law-enforcement…",
       "source": "cybersecuritynews.com",
       "first_seen": "2026-07-28T19:05:34Z",
-      "last_seen": "2026-07-28T20:57:42Z"
+      "last_seen": "2026-07-28T21:58:50Z"
     },
     {
       "id": "2faaa30e0df966fbd1f88c7c7be372a1b8166dfc",
@@ -101,7 +121,7 @@
       "description": "A Chrome extension with roughly 100,000 installs is quietly harvesting every prompt and AI response typed across nine major artificial intelligence platforms. Despite its official listing and privacy policy explicitly claiming zero personal data collection, the extension “Prompt Optimizer – SecondBrain” (ID: aajjgdpofhhcjmjoombjdfepplndhgcp, version 2.3.1) is actively capturing user interactions…",
       "source": "cybersecuritynews.com",
       "first_seen": "2026-07-28T19:05:34Z",
-      "last_seen": "2026-07-28T20:57:42Z"
+      "last_seen": "2026-07-28T21:58:50Z"
     },
     {
       "id": "8f9a773aa7bec3c825ae3525b1746a8c54c7d6af",
@@ -111,7 +131,7 @@
       "description": "A high-severity heap buffer overflow in NGINX Plus and NGINX Open Source can let unauthenticated attackers crash worker processes and, under certain conditions, run arbitrary code. Tracked as CVE-2026-42533, the flaw affects configurations that use regex-based map directives or non-cacheable variables in string expressions, and it is especially dangerous when the Stream module’s ssl_preread…",
       "source": "cybersecuritynews.com",
       "first_seen": "2026-07-28T17:17:33Z",
-      "last_seen": "2026-07-28T20:57:42Z"
+      "last_seen": "2026-07-28T21:58:50Z"
     },
     {
       "id": "316949b8f335b0573030c3225d2c81c381b75f20",
@@ -121,7 +141,7 @@
       "description": "Microsoft patched a high-severity vulnerability earlier this month that allows a threat actor to escalate privileges and compromise an AD environment.",
       "source": "darkreading.com",
       "first_seen": "2026-07-28T17:17:33Z",
-      "last_seen": "2026-07-28T20:57:42Z"
+      "last_seen": "2026-07-28T21:58:50Z"
     },
     {
       "id": "c2f78bb844d62630a933fc27d28d4afd3e096793",
@@ -151,7 +171,7 @@
       "description": "A new Mirai-derived botnet called Tengu can use a compromised Linux device's hardware watchdog to trigger a reboot when defenders kill its main process. If that happens, Tengu's other persistence mechanisms get another chance to relaunch it. Nozomi Networks Labs observed the dropper reaching its honeypots through Telnet credential brute force. Tengu supports 25 distributed denial-of-service (",
       "source": "thehackernews.com",
       "first_seen": "2026-07-28T17:17:33Z",
-      "last_seen": "2026-07-28T20:57:42Z"
+      "last_seen": "2026-07-28T21:58:50Z"
     },
     {
       "id": "a5bba91815196d6f33d0902e37a8d88b75143d05",
@@ -161,7 +181,7 @@
       "description": "Oasis Security recently raised $120 million in Series B funding for its agentic access management platform. The post Cyera Acquiring Oasis Security in $1 Billion Deal appeared first on SecurityWeek.",
       "source": "securityweek.com",
       "first_seen": "2026-07-28T15:11:03Z",
-      "last_seen": "2026-07-28T20:57:42Z"
+      "last_seen": "2026-07-28T21:58:50Z"
     },
     {
       "id": "fecf628d5ea771d2a8210e46539f1d363ca38033",
@@ -171,7 +191,7 @@
       "description": "Cybersecurity researchers have sounded an alert after finding more than 36,000 Baseboard Management Controller (BMC) management interfaces exposing Intelligent Platform Management Interface (IPMI) protocol to the public internet. Of the 36,872 internet-exposed server-management interfaces running IPMI, 24,650 have been found to disclose password-derived authentication hashes before login due to",
       "source": "thehackernews.com",
       "first_seen": "2026-07-28T17:17:33Z",
-      "last_seen": "2026-07-28T20:57:42Z"
+      "last_seen": "2026-07-28T21:58:50Z"
     },
     {
       "id": "f21d2c49393069fe5db8b635e7b7bd27ea5d8422",
@@ -181,7 +201,7 @@
       "description": "Apple announced that dozens of vulnerabilities have been patched in each of its operating systems. The post Apple Patches 87 Vulnerabilities in iOS, 155 in macOS Tahoe appeared first on SecurityWeek.",
       "source": "securityweek.com",
       "first_seen": "2026-07-28T15:11:03Z",
-      "last_seen": "2026-07-28T20:57:42Z"
+      "last_seen": "2026-07-28T21:58:50Z"
     },
     {
       "id": "d2060703189942fdff3eee7a2938cf5354accd95",
@@ -191,7 +211,7 @@
       "description": "A compromised SSO login can provide attackers with access to multiple enterprise applications and services. Specops Software explains how stronger passwords, phishing-resistant MFA, and identity hardening help secure modern SSO environments and the applications they protect. [...]",
       "source": "bleepingcomputer.com",
       "first_seen": "2026-07-28T15:11:03Z",
-      "last_seen": "2026-07-28T20:57:42Z"
+      "last_seen": "2026-07-28T21:58:50Z"
     },
     {
       "id": "ebb3af217205b7ddf30810e1af5d9a254935e55d",
@@ -201,7 +221,7 @@
       "description": "JFrog has confirmed that OpenAI models exploited a zero-day in self-hosted Artifactory while trying to reach the open internet from a sealed evaluation environment. Artifactory is JFrog's software repository manager. OpenAI says the models then escalated privileges and moved laterally until they reached an internet-connected node. JFrog says it has since developed and released fixes for cloud",
       "source": "thehackernews.com",
       "first_seen": "2026-07-28T15:11:03Z",
-      "last_seen": "2026-07-28T20:57:42Z"
+      "last_seen": "2026-07-28T21:58:50Z"
     },
     {
       "id": "5f500649a2bb19e52bbcf4165054df89c506418e",
@@ -231,7 +251,7 @@
       "description": "The company will use the fresh investment to grow its customer success and AI R&D teams. The post OT Security Startup Frenos Raises $1.52 Million appeared first on SecurityWeek.",
       "source": "securityweek.com",
       "first_seen": "2026-07-28T15:11:03Z",
-      "last_seen": "2026-07-28T20:57:42Z"
+      "last_seen": "2026-07-28T21:58:50Z"
     },
     {
       "id": "2d2adfb2b7531390a1cf92116bd68b3c6d37b7f6",
@@ -261,7 +281,7 @@
       "description": "OpenWrt has shipped version 24.10.8 to close a critical DHCPv6 stack overflow and a wider set of remotely triggerable flaws in network services enabled by default. The critical issue, tracked as CVE-2026-53921 and rated 9.8 on CVSS 3.1 in OpenWrt's GitHub advisory, lets an unauthenticated attacker able to reach the DHCPv6 server overwrite a stack buffer in odhcpd through a crafted DHCPv6",
       "source": "thehackernews.com",
       "first_seen": "2026-07-28T15:11:03Z",
-      "last_seen": "2026-07-28T20:57:42Z"
+      "last_seen": "2026-07-28T21:58:50Z"
     },
     {
       "id": "ee9e77b803c80b51856ef0ffeccafbb2b58131e8",
@@ -281,7 +301,7 @@
       "description": "The cybersecurity pioneer discusses the evolution of the CISO role, AI's impact on careers, and why operational resilience is the profession's next frontier.",
       "source": "darkreading.com",
       "first_seen": "2026-07-28T15:11:03Z",
-      "last_seen": "2026-07-28T20:57:42Z"
+      "last_seen": "2026-07-28T21:58:50Z"
     },
     {
       "id": "d84cf1aa09a8e2445d9f26b090813d3b60dc6eff",
@@ -321,7 +341,7 @@
       "description": "The company claims MAI-Cyber-1-Flash tops Anthropic’s Mythos and OpenAI’s GPT-5.6 Sol in CyberGym testing. The post Microsoft Unveils MAI-Cyber-1-Flash, Its First Cybersecurity AI Model appeared first on SecurityWeek.",
       "source": "securityweek.com",
       "first_seen": "2026-07-28T12:29:45Z",
-      "last_seen": "2026-07-28T20:57:42Z"
+      "last_seen": "2026-07-28T21:58:50Z"
     },
     {
       "id": "e28f989047b77a68d0bb202259c21b21e4645a9c",
@@ -331,7 +351,7 @@
       "description": "Tal Kollander’s history divides neatly into two halves: first as an active hacker and then as the block that stops hacks. The post Hacker Conversations: Tal Kollander’s Journey From Black Hat to Hack Blocker appeared first on SecurityWeek.",
       "source": "securityweek.com",
       "first_seen": "2026-07-28T12:29:45Z",
-      "last_seen": "2026-07-28T20:57:42Z"
+      "last_seen": "2026-07-28T21:58:50Z"
     },
     {
       "id": "9ca0c94d2b7d4921830072956174fb4bade8aac5",
@@ -571,7 +591,7 @@
       "description": "A CVSS score 6.1 AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N severity vulnerability discovered by 'Tunyi Huang of TrendAI and Lucas Leong (@_wmliang_) of TrendAI Zero Day Initiative' was reported to the affected vendor on: 2026-07-28, 0 days ago. The vendor is given until 2026-11-25 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public…",
       "source": "zerodayinitiative.com",
       "first_seen": "2026-07-28T20:57:42Z",
-      "last_seen": "2026-07-28T20:57:42Z"
+      "last_seen": "2026-07-28T21:58:50Z"
     },
     {
       "id": "60ed2f32924f8e575c1dc3f778760a9be785c26f",
@@ -581,7 +601,7 @@
       "description": "A CVSS score 7.8 AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H severity vulnerability discovered by 'Kağan Çapar' was reported to the affected vendor on: 2026-07-28, 0 days ago. The vendor is given until 2026-11-25 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
       "source": "zerodayinitiative.com",
       "first_seen": "2026-07-28T20:57:42Z",
-      "last_seen": "2026-07-28T20:57:42Z"
+      "last_seen": "2026-07-28T21:58:50Z"
     },
     {
       "id": "d046cb0c2220c3f549718d775ed8dffbcb4d3dbf",
@@ -591,7 +611,7 @@
       "description": "A CVSS score 7.8 AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H severity vulnerability discovered by 'Lays (@_L4ys) of TRAPA Security' was reported to the affected vendor on: 2026-07-28, 0 days ago. The vendor is given until 2026-11-25 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
       "source": "zerodayinitiative.com",
       "first_seen": "2026-07-28T20:57:42Z",
-      "last_seen": "2026-07-28T20:57:42Z"
+      "last_seen": "2026-07-28T21:58:50Z"
     },
     {
       "id": "304bd4a378d1133ee651030e776a2bf500d126e8",
@@ -1671,7 +1691,7 @@
       "description": "A CVSS score 7.3 AV:L/AC:L/PR:L/UI:N/S:C/C:H/I:L/A:N severity vulnerability discovered by 'HAI SON MAI (HSon)' was reported to the affected vendor on: 2026-07-24, 0 days ago. The vendor is given until 2026-11-21 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
       "source": "zerodayinitiative.com",
       "first_seen": "2026-07-25T04:55:13Z",
-      "last_seen": "2026-07-28T20:57:42Z"
+      "last_seen": "2026-07-28T21:58:50Z"
     },
     {
       "id": "402fdd92b8d61a146a3ee5337e656ebd75d7c3ec",
@@ -1681,7 +1701,7 @@
       "description": "A CVSS score 8.1 AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H severity vulnerability discovered by 'Mat Powell of TrendAI Zero Day Initiative' was reported to the affected vendor on: 2026-07-24, 0 days ago. The vendor is given until 2026-11-21 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
       "source": "zerodayinitiative.com",
       "first_seen": "2026-07-25T04:55:13Z",
-      "last_seen": "2026-07-28T20:57:42Z"
+      "last_seen": "2026-07-28T21:58:50Z"
     },
     {
       "id": "5510bfddd63b81ed68b9ecd8216696d2f5e88a75",
@@ -35031,7 +35051,7 @@
       "description": "2.5 million people were affected, in a breach that could spell more trouble down the line.",
       "source": "threatpost.com",
       "first_seen": "2026-05-10T12:53:08Z",
-      "last_seen": "2026-07-28T20:57:42Z"
+      "last_seen": "2026-07-28T21:58:50Z"
     },
     {
       "id": "4140c7a34b0ba94ad2e6b0cae9f59b0cb9bfffea",
@@ -35041,7 +35061,7 @@
       "description": "Researchers uncover a watering hole attack likely carried out by APT TA423, which attempts to plant the ScanBox JavaScript-based reconnaissance tool.",
       "source": "threatpost.com",
       "first_seen": "2026-05-10T12:53:08Z",
-      "last_seen": "2026-07-28T20:57:42Z"
+      "last_seen": "2026-07-28T21:58:50Z"
     },
     {
       "id": "9359ee40a641a4b565080313045f1d7e7fe6552b",
@@ -35051,7 +35071,7 @@
       "description": "Over 130 companies tangled in sprawling phishing campaign that spoofed a multi-factor authentication system.",
       "source": "threatpost.com",
       "first_seen": "2026-05-10T12:53:08Z",
-      "last_seen": "2026-07-28T20:57:42Z"
+      "last_seen": "2026-07-28T21:58:50Z"
     },
     {
       "id": "b4ccef0737cd4050d65241bf754072030b6b5e6a",
@@ -35061,7 +35081,7 @@
       "description": "Lockbit is by far this summer’s most prolific ransomware group, trailed by two offshoots of the Conti group.",
       "source": "threatpost.com",
       "first_seen": "2026-05-10T12:53:08Z",
-      "last_seen": "2026-07-28T20:57:42Z"
+      "last_seen": "2026-07-28T21:58:50Z"
     },
     {
       "id": "12ee113fc8fce91f6d7fb28deab2b1ad20061ec7",
@@ -35071,7 +35091,7 @@
       "description": "Tens of thousands of cameras have failed to patch a critical, 11-month-old CVE, leaving thousands of organizations exposed.",
       "source": "threatpost.com",
       "first_seen": "2026-05-10T12:53:08Z",
-      "last_seen": "2026-07-28T20:57:42Z"
+      "last_seen": "2026-07-28T21:58:50Z"
     }
   ]
 }
