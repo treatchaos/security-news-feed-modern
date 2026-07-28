@@ -1,7 +1,49 @@
 {
-  "last_updated": "2026-07-28T17:17:33Z",
+  "last_updated": "2026-07-28T19:05:34Z",
   "count": 35,
   "items": [
+    {
+      "title": "CISA shares advice on isolating vital systems during cyberattacks",
+      "link": "https://www.bleepingcomputer.com/news/security/cisa-shares-advice-on-isolating-vital-systems-during-cyberattacks/",
+      "date": "2026-07-28T18:41:04Z",
+      "description": "The U.S. and Australian governments have released new guidance urging critical infrastructure organizations to prepare to isolate vital operational technology systems in the event of a cyberattack or other major disruptions. [...]",
+      "source": "bleepingcomputer.com"
+    },
+    {
+      "title": "Claude Mythos Preview Discovers Cryptographic Weaknesses That Human Experts Missed for Years",
+      "link": "https://cybersecuritynews.com/claude-mythos-cryptographic-weaknesses/",
+      "date": "2026-07-28T18:24:07Z",
+      "description": "Anthropic researchers using Claude Mythos Preview have uncovered mathematical flaws in major cryptographic algorithms that human experts failed to spot for years. The AI found improved attacks against HAWK, a post-quantum digital signature scheme, and a reduced-round version of AES, the world’s most widely used symmetric cipher. Neither result threatens production systems today, but both […] The…",
+      "source": "cybersecuritynews.com"
+    },
+    {
+      "title": "vBulletin fixes critical pre-auth RCE flaw with public exploit",
+      "link": "https://www.bleepingcomputer.com/news/security/vbulletin-fixes-critical-pre-auth-rce-flaw-with-public-exploit/",
+      "date": "2026-07-28T18:08:50Z",
+      "description": "A critical vulnerability in the vBulletin forum software allows unauthenticated attackers to execute arbitrary PHP code through template rendering. [...]",
+      "source": "bleepingcomputer.com"
+    },
+    {
+      "title": "JetBrains Urging Customers to Patch Critical TeamCity Flaw that Enables OS Command Execution",
+      "link": "https://cybersecuritynews.com/jetbrains-patch-teamcity-flaw/",
+      "date": "2026-07-28T17:46:13Z",
+      "description": "JetBrains has urgently released security updates for a critical vulnerability in TeamCity On-Premises that could allow remote attackers to bypass authentication and execute arbitrary operating system commands. This vulnerability, tracked as CVE-2026-63077, affects all versions of TeamCity On-Premises. The company has addressed the issue in TeamCity versions 2025.11.7 and 2026.1.3. Administrators…",
+      "source": "cybersecuritynews.com"
+    },
+    {
+      "title": "Top 10 Phishing Kits Used by Hackers to Launch Cyberattacks (July 20-26, 2026)",
+      "link": "https://cybersecuritynews.com/top-10-phishing-kits-used-by-hackers/",
+      "date": "2026-07-28T17:40:32Z",
+      "description": "Global phishing-as-a-service (PhaaS) activity surged to 7,295 tracked uploads during the week of July 20-26, 2026, driven overwhelmingly by OAuth device-code flow abuse and adversary-in-the-middle (AiTM) kits targeting Microsoft 365 identities. Cybercriminal group Storm-1747, the operator behind Tycoon2FA, logged 50 attributed uploads, down 6 from the prior week following ongoing law-enforcement…",
+      "source": "cybersecuritynews.com"
+    },
+    {
+      "title": "Chrome Extension Monitors AI Conversations Across ChatGPT, Claude, Gemini, and Other Platforms",
+      "link": "https://cybersecuritynews.com/chrome-extension-monitors-ai-conversations/",
+      "date": "2026-07-28T17:24:03Z",
+      "description": "A Chrome extension with roughly 100,000 installs is quietly harvesting every prompt and AI response typed across nine major artificial intelligence platforms. Despite its official listing and privacy policy explicitly claiming zero personal data collection, the extension “Prompt Optimizer – SecondBrain” (ID: aajjgdpofhhcjmjoombjdfepplndhgcp, version 2.3.1) is actively capturing user interactions…",
+      "source": "cybersecuritynews.com"
+    },
     {
       "title": "Nginx Buffer Overflow Vulnerability Allows Attackers to Execute Arbitrary Code – PoC Released",
       "link": "https://cybersecuritynews.com/nginx-buffer-overflow-vulnerability-2/",
@@ -15,20 +57,6 @@
       "date": "2026-07-28T16:38:48Z",
       "description": "Microsoft patched a high-severity vulnerability earlier this month that allows a threat actor to escalate privileges and compromise an AD environment.",
       "source": "darkreading.com"
-    },
-    {
-      "title": "Aembit Joins Snowflake to Tackle AI’s Next Security Frontier: Trusted Agent Interoperability",
-      "link": "https://cybersecuritynews.com/aembit-joins-snowflake-to-tackle-ais-next-security-frontier-trusted-agent-interoperability/",
-      "date": "2026-07-28T15:40:39Z",
-      "description": "Silver Spring, MD, USA, July 28th, 2026, CyberNewswire To reduce identity risk when third-party AI agents access business systems, Aembit is launching a new integration with Snowflake to help enterprises securely govern third-party agents across platforms. Aembit, the identity and access management company for agentic AI, today announced a new integration with Snowflake, the AI […] The post…",
-      "source": "cybersecuritynews.com"
-    },
-    {
-      "title": "Apple iOS 26.6 Fixes Flaws Enabling Kernel Code Execution, Root Access and Sandbox Escape",
-      "link": "https://cybersecuritynews.com/apple-ios-26-6-fixes-flaws/",
-      "date": "2026-07-28T15:15:50Z",
-      "description": "Apple has released iOS 26.6 and iPadOS 26.6 to address a significant number of security vulnerabilities, including flaws that could allow malicious applications to execute code with kernel privileges, gain root access, or escape Apple’s app sandbox. These updates were released on July 27, 2026, and are available for the iPhone 11 and later, along […] The post Apple iOS 26.6 Fixes Flaws Enabling…",
-      "source": "cybersecuritynews.com"
     },
     {
       "title": "Tengu Botnet Reboots Compromised Linux Devices When Defenders Kill Its Process",
@@ -71,20 +99,6 @@
       "date": "2026-07-28T13:33:47Z",
       "description": "JFrog has confirmed that OpenAI models exploited a zero-day in self-hosted Artifactory while trying to reach the open internet from a sealed evaluation environment. Artifactory is JFrog's software repository manager. OpenAI says the models then escalated privileges and moved laterally until they reached an internet-connected node. JFrog says it has since developed and released fixes for cloud",
       "source": "thehackernews.com"
-    },
-    {
-      "title": "Fake Claude Code Install Guide Uses Google Ads to Deliver MacSync Infostealer",
-      "link": "https://cybersecuritynews.com/fake-claude-code-install-guide/",
-      "date": "2026-07-28T13:23:35Z",
-      "description": "Fake Google Ads are being used to push a convincing Claude Code installation guide that delivers the MacSync infostealer to macOS users. The campaign turns an ordinary developer search into a path for credential theft and wider account compromise. The attack starts when a user searches for Claude Code installation help and clicks a sponsored […] The post Fake Claude Code Install Guide Uses…",
-      "source": "cybersecuritynews.com"
-    },
-    {
-      "title": "Hackers Exploiting FastJson RCE 0-Day in the Wild to Attack US-based Organizations",
-      "link": "https://cybersecuritynews.com/hackers-exploiting-fastjson-rce-0-day/",
-      "date": "2026-07-28T13:10:52Z",
-      "description": "A critical vulnerability in FastJson, identified as CVE-2026-16723, is being exploited against organizations in the United States, putting Java applications that process untrusted JSON at immediate risk. This flaw has a CVSS severity score of 9.0 and affects FastJson versions ranging from 1.2.68 to 1.2.83, which is the final release line of FastJson 1.x.0 FastJson […] The post Hackers Exploiting…",
-      "source": "cybersecuritynews.com"
     },
     {
       "title": "OT Security Startup Frenos Raises $1.52 Million",
@@ -148,20 +162,6 @@
       "date": "2026-07-28T01:00:00Z",
       "description": "Attackers used Hermes, an autonomous open source tool, in unrestricted \"YOLO mode\" to conduct espionage against Thailand's Ministry of Finance.",
       "source": "darkreading.com"
-    },
-    {
-      "title": "Hackers target US firms in FastJson RCE zero-day attacks",
-      "link": "https://www.bleepingcomputer.com/news/security/hackers-target-us-firms-in-fastjson-rce-zero-day-attacks/",
-      "date": "2026-07-27T23:49:44Z",
-      "description": "Hackers are actively exploiting a vulnerability in the FastJson open-source Java library, allowing remote code execution without user interaction or elevated privileges. [...]",
-      "source": "bleepingcomputer.com"
-    },
-    {
-      "title": "Arista patches VeloCloud Orchestrator zero-day exploited in attacks",
-      "link": "https://www.bleepingcomputer.com/news/security/arista-patches-velocloud-orchestrator-zero-day-exploited-in-attacks/",
-      "date": "2026-07-27T22:49:44Z",
-      "description": "Arista has patched a maximum-severity command injection vulnerability in on-premises VeloCloud Orchestrator deployments that is being actively exploited in attacks. [...]",
-      "source": "bleepingcomputer.com"
     },
     {
       "title": "Agentic Browsers Rewind Web Security by 20 years",
