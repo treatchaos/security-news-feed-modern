@@ -1,7 +1,14 @@
 {
-  "last_updated": "2026-07-27T23:54:00Z",
-  "count": 30,
+  "last_updated": "2026-07-28T01:27:38Z",
+  "count": 35,
   "items": [
+    {
+      "title": "AI Agent Drives Espionage Attack on Thai Ministry of Finance",
+      "link": "https://www.darkreading.com/cyberattacks-data-breaches/ai-agent-espionage-attack-thai-ministry-finance",
+      "date": "2026-07-28T01:00:00Z",
+      "description": "Attackers used Hermes, an autonomous open source tool, in unrestricted \"YOLO mode\" to conduct espionage against Thailand's Ministry of Finance.",
+      "source": "darkreading.com"
+    },
     {
       "title": "Hackers target US firms in FastJson RCE zero-day attacks",
       "link": "https://www.bleepingcomputer.com/news/security/hackers-target-us-firms-in-fastjson-rce-zero-day-attacks/",
@@ -73,6 +80,41 @@
       "source": "thehackernews.com"
     },
     {
+      "title": "Microsoft Defender for Endpoint Update Leaves Few Linux Servers Unprotected After Reboot",
+      "link": "https://cybersecuritynews.com/defender-for-endpoint-update-linux/",
+      "date": "2026-07-27T17:10:39Z",
+      "description": "A recent Microsoft Defender for Endpoint update briefly disabled antivirus protection on Linux servers following an upgrade and reboot, exposing affected machines to threats before Microsoft rolled out a fix. The issue struck Linux platform builds 101.26042.0000 through 101.26042.0009, where the Defender service could become disabled on devices that were upgraded and then rebooted, effectively…",
+      "source": "cybersecuritynews.com"
+    },
+    {
+      "title": "Critical vBulletin Flaw Lets Unauthenticated Attackers Execute PHP Code Remotely",
+      "link": "https://cybersecuritynews.com/vbulletin-flaw-execute-php-code/",
+      "date": "2026-07-27T15:49:36Z",
+      "description": "vBulletin has patched CVE-2026-61511, a critical remote code execution flaw that could let unauthenticated attackers execute arbitrary PHP code and compromise vulnerable forum servers. This issue affects vBulletin versions 6.2.1 and earlier as well as versions 6.1.6 and earlier. The flaw exists in the file /includes/vb5/template/runtime.php, specifically within the…",
+      "source": "cybersecuritynews.com"
+    },
+    {
+      "title": "EY Data Breach Claimed by ShinyHunters Hacker Group",
+      "link": "https://cybersecuritynews.com/ey-data-breach-claim-shinyhunters/",
+      "date": "2026-07-27T15:35:21Z",
+      "description": "The notorious ShinyHunters extortion gang has publicly claimed responsibility for the Ernst & Young (EY) data breach, alleging it stole employee credentials and sensitive files through a supply-chain compromise of a third-party IT support platform. The claim, posted on the group’s dark web leak site with a “final warning” deadline of July 31, 2026, threatens […] The post EY Data Breach Claimed…",
+      "source": "cybersecuritynews.com"
+    },
+    {
+      "title": "GitHub Adds 3-Day Dependabot Cooldown to Block Malicious Package Updates",
+      "link": "https://cybersecuritynews.com/github-adds-3-day-dependabot-cooldown/",
+      "date": "2026-07-27T15:25:08Z",
+      "description": "GitHub has introduced a default three-day cooldown period for Dependabot version updates to reduce the risk of projects automatically adopting new malicious packages. This change targets a prevalent pattern in software supply chain attacks where attackers compromise a trusted package maintainer’s account, publish a malicious update, and rely on automated dependency tools to distribute it […] The…",
+      "source": "cybersecuritynews.com"
+    },
+    {
+      "title": "A Fake Teams Update Can Give Hackers Two Separate Ways to Control Your PC",
+      "link": "https://cybersecuritynews.com/fake-teams-update-gain-pc-control/",
+      "date": "2026-07-27T15:05:05Z",
+      "description": "A new phishing operation, tracked as Operation BlueDash, is tricking users into installing a fake Microsoft Teams update that silently hands attackers not one but two independent ways to remotely control infected computers. The infection starts with an email claiming a document was “too large” to send directly and was instead shared securely through Microsoft […] The post A Fake Teams Update Can…",
+      "source": "cybersecuritynews.com"
+    },
+    {
       "title": "Public Exploit Released for Patched vBulletin Pre-Auth Code Execution Flaw",
       "link": "https://thehackernews.com/2026/07/public-exploit-released-for-patched.html",
       "date": "2026-07-27T14:40:00Z",
@@ -133,13 +175,6 @@
       "link": "https://www.darkreading.com/cybersecurity-operations/cisos-vs-boards-myth-or-misunderstanding-",
       "date": "2026-07-24T21:31:53Z",
       "description": "Escalating threats are forcing boards to prioritize security, but communication gaps persist. Boards and security teams each say they need more support to bridge the divide.",
-      "source": "darkreading.com"
-    },
-    {
-      "title": "Escape Artists: 'Incorrigible' AI Models Resist Rehabilitation",
-      "link": "https://www.darkreading.com/cybersecurity-operations/incorrigible-ai-models-resist-rehabilitation",
-      "date": "2026-07-24T19:45:02Z",
-      "description": "The hacking of Hugging Face by a rogue OpenAI agent is significant, but unsurprising — and preventing the next AI model escape will be difficult, at best.",
       "source": "darkreading.com"
     },
     {
