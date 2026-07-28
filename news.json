@@ -1,7 +1,49 @@
 {
-  "last_updated": "2026-07-28T10:22:59Z",
+  "last_updated": "2026-07-28T12:29:45Z",
   "count": 35,
   "items": [
+    {
+      "title": "Over 24,000 exposed server BMCs leak password hash via decades-old flaw",
+      "link": "https://www.bleepingcomputer.com/news/security/over-24-000-exposed-server-bmcs-leak-password-hash-via-decades-old-flaw/",
+      "date": "2026-07-28T12:10:23Z",
+      "description": "More than 24,000 internet-exposed servers are leaking authentication password hashes due to a 20-year-old vulnerability in their Baseboard Management Controller (BMC) interface. [...]",
+      "source": "bleepingcomputer.com"
+    },
+    {
+      "title": "Hackers Are Using Fake Crypto Wallet Screens to Steal Recovery Phrases and Browser Sessions",
+      "link": "https://cybersecuritynews.com/hackers-are-using-fake-crypto-wallet-screens/",
+      "date": "2026-07-28T11:45:29Z",
+      "description": "Criminals are using convincing cryptocurrency wallet screens and browser extensions to steal recovery phrases, login data, and active browser sessions. The activity is linked to a wider CastleLoader campaign that gives attackers several ways to gain access to infected Windows devices. The operation starts with fake software installers and ClickFix-style prompts that pressure victims into […] The…",
+      "source": "cybersecuritynews.com"
+    },
+    {
+      "title": "Microsoft Unveils MAI-Cyber-1-Flash, Its First Cybersecurity AI Model",
+      "link": "https://www.securityweek.com/microsoft-unveils-mai-cyber-1-flash-its-first-cybersecurity-ai-model/",
+      "date": "2026-07-28T11:11:48Z",
+      "description": "The company claims MAI-Cyber-1-Flash tops Anthropic’s Mythos and OpenAI’s GPT-5.6 Sol in CyberGym testing. The post Microsoft Unveils MAI-Cyber-1-Flash, Its First Cybersecurity AI Model appeared first on SecurityWeek.",
+      "source": "securityweek.com"
+    },
+    {
+      "title": "Hacker Conversations: Tal Kollander’s Journey From Black Hat to Hack Blocker",
+      "link": "https://www.securityweek.com/hacker-conversations-tal-kollanders-journey-from-black-hat-to-hack-blocker/",
+      "date": "2026-07-28T11:00:00Z",
+      "description": "Tal Kollander’s history divides neatly into two halves: first as an active hacker and then as the block that stops hacks. The post Hacker Conversations: Tal Kollander’s Journey From Black Hat to Hack Blocker appeared first on SecurityWeek.",
+      "source": "securityweek.com"
+    },
+    {
+      "title": "Act Security Emerges from Stealth to Fight the Patch Problem",
+      "link": "https://www.securityweek.com/act-security-emerges-from-stealth-to-fight-the-patch-problem/",
+      "date": "2026-07-28T11:00:00Z",
+      "description": "Act Security tackles the spiraling patch problem caused by AI’s ability to find new vulnerabilities in existing cloud environments. The post Act Security Emerges from Stealth to Fight the Patch Problem appeared first on SecurityWeek.",
+      "source": "securityweek.com"
+    },
+    {
+      "title": "AI-Assisted Research Uncovers Linux Kernel Zero-Day Enabling Root Privilege Escalation",
+      "link": "https://cybersecuritynews.com/ai-assisted-linux-kernel-zero-day/",
+      "date": "2026-07-28T10:41:14Z",
+      "description": "A serious Linux kernel zero-day vulnerability capable of local privilege escalation (LPE) has been uncovered by security researchers, underscoring both the growing role of artificial intelligence in vulnerability research and the persistent security risks within complex kernel subsystems. Tracked as CVE-2026-53264, the flaw impacts the Linux kernel’s net/sched packet scheduling subsystem. It…",
+      "source": "cybersecuritynews.com"
+    },
     {
       "title": "Hush Security Raises $30 Million for AI Agent Governance",
       "link": "https://www.securityweek.com/hush-security-raises-30-million-for-ai-agent-governance/",
@@ -38,24 +80,10 @@
       "source": "securityweek.com"
     },
     {
-      "title": "libssh2 Vulnerabilities Allows a Malicious SSH Server to Corrupt Client Memory",
+      "title": "libssh2 Vulnerabilities Allow a Malicious SSH Server to Corrupt Client Memory",
       "link": "https://cybersecuritynews.com/libssh2-vulnerabilities/",
       "date": "2026-07-28T08:41:12Z",
       "description": "A set of high-severity vulnerabilities in libssh2 could expose SSH and SFTP client applications to memory corruption, crashes, and potential code execution when connecting to a malicious server. libssh2 is a widely used C library that provides support for the SSH2 protocol in various applications, including remote administration tools, file transfers, automated deployment tools, backup […] The…",
-      "source": "cybersecuritynews.com"
-    },
-    {
-      "title": "LegacyHive Exploitation Chain Bypasses Windows Security Even With July 2026 Patches Installed",
-      "link": "https://cybersecuritynews.com/legacyhive-exploitation-chain/",
-      "date": "2026-07-28T08:31:48Z",
-      "description": "A newly disclosed exploit dubbed LegacyHive is raising alarms across the cybersecurity community after researchers confirmed it executes successfully on fully patched Windows systems running the July 2026 Patch Tuesday updates. Unlike conventional exploits that rely on memory corruption or unpatched software bugs, LegacyHive takes a structural approach. It abuses how Windows initializes user…",
-      "source": "cybersecuritynews.com"
-    },
-    {
-      "title": "Scammers Pose as ShinyHunters to Blackmail Data-Breach Victims With Fake Webcam Videos",
-      "link": "https://cybersecuritynews.com/scammers-pose-as-shinyhunters/",
-      "date": "2026-07-28T08:30:29Z",
-      "description": "Victims of recent data breaches are receiving alarming emails that claim hackers recorded them through their webcams. The messages borrow the ShinyHunters name and cite a recipient’s real email address, turning a familiar sextortion script into a more personal and intimidating fraud. The goal is simple: pressure recipients into sending Bitcoin before they have time […] The post Scammers Pose as…",
       "source": "cybersecuritynews.com"
     },
     {
@@ -73,32 +101,11 @@
       "source": "thehackernews.com"
     },
     {
-      "title": "Unpatched Fastjson Vulnerability Exploited in Attacks",
-      "link": "https://www.securityweek.com/unpatched-fastjson-vulnerability-exploited-in-attacks/",
-      "date": "2026-07-28T07:27:55Z",
-      "description": "The critical remote code execution bug can be exploited without authentication, under the library’s stock default configurations. The post Unpatched Fastjson Vulnerability Exploited in Attacks appeared first on SecurityWeek.",
-      "source": "securityweek.com"
-    },
-    {
-      "title": "Critical Arista VeloCloud Orchestrator Vulnerability Exploited as Zero-Day",
-      "link": "https://www.securityweek.com/critical-arista-velocloud-orchestrator-vulnerability-exploited-as-zero-day/",
-      "date": "2026-07-28T06:40:36Z",
-      "description": "Impacting on-premises deployments, the OS command injection allows attackers to access privileged internal functionality. The post Critical Arista VeloCloud Orchestrator Vulnerability Exploited as Zero-Day appeared first on SecurityWeek.",
-      "source": "securityweek.com"
-    },
-    {
       "title": "Microsoft Says New Cybersecurity AI Model Helps MDASH Score 95.95% at Half the Cost",
       "link": "https://thehackernews.com/2026/07/microsoft-says-new-cybersecurity-ai.html",
       "date": "2026-07-28T06:07:22Z",
       "description": "Microsoft has launched its first cybersecurity-specific model inside MDASH, its multi-model vulnerability identification and remediation harness. The company says MDASH, using MAI-Cyber-1-Flash and GPT-5.4, scored 95.95% on CyberGym. It also claims the configuration costs 50% less than its current best MDASH combination of GPT-5.4, GPT-5.4 mini, and GPT-5.3 Codex. Access is limited to approved",
       "source": "thehackernews.com"
-    },
-    {
-      "title": "Origin Energy Data Breach Affects 900,000 Australians",
-      "link": "https://www.securityweek.com/origin-energy-data-breach-affects-900000-australians/",
-      "date": "2026-07-28T05:01:05Z",
-      "description": "The hacker claimed to have stolen the information of 2 million Origin Energy customers after breaching its systems. The post Origin Energy Data Breach Affects 900,000 Australians appeared first on SecurityWeek.",
-      "source": "securityweek.com"
     },
     {
       "title": "Attackers Exploit Arista VeloCloud Orchestrator Command Injection Flaw",
@@ -129,17 +136,17 @@
       "source": "bleepingcomputer.com"
     },
     {
+      "title": "Agentic Browsers Rewind Web Security by 20 years",
+      "link": "https://www.darkreading.com/endpoint-security/agentic-browsers-rewind-web-security-20-years",
+      "date": "2026-07-27T21:39:09Z",
+      "description": "PleaseFix class of flaws makes it easy to socially engineer agentic browsers and highlights weaknesses in how they handle cross-origin requests.",
+      "source": "darkreading.com"
+    },
+    {
       "title": "New Dysphoria DDoS botnet spreads to 200k devices worldwide",
       "link": "https://www.bleepingcomputer.com/news/security/new-dysphoria-ddos-botnet-spreads-to-200k-devices-worldwide/",
       "date": "2026-07-27T21:08:15Z",
       "description": "A botnet called Dysphoria has compromised around 200,000 devices across the world and is using them for distributed denial of service (DDoS) attacks and traffic relay operations. [...]",
-      "source": "bleepingcomputer.com"
-    },
-    {
-      "title": "New Certighost PoC exploit lets attackers hijack Windows domains",
-      "link": "https://www.bleepingcomputer.com/news/security/new-certighost-poc-exploit-lets-attackers-hijack-windows-domains/",
-      "date": "2026-07-27T21:00:25Z",
-      "description": "A proof-of-concept exploit for \"Certighost,\" a Windows Active Directory Certificate Services vulnerability, has been released that can allow authenticated attackers to potentially compromise a Windows domain. [...]",
       "source": "bleepingcomputer.com"
     },
     {
@@ -157,25 +164,18 @@
       "source": "darkreading.com"
     },
     {
+      "title": "Why Resetting Passwords No Longer Stops Attackers",
+      "link": "https://www.darkreading.com/endpoint-security/why-resetting-passwords-no-longer-stop-attacks",
+      "date": "2026-07-27T18:39:50Z",
+      "description": "As attackers shift from password theft to session and token theft to bypass multifactor authentication controls, organizations must move beyond login security and protect authenticated sessions.",
+      "source": "darkreading.com"
+    },
+    {
       "title": "NVIDIA Forms 37-Member Open Secure AI Alliance and Open-Sources NOOA Framework",
       "link": "https://thehackernews.com/2026/07/nvidia-forms-37-member-open-secure-ai.html",
       "date": "2026-07-27T18:10:05Z",
       "description": "NVIDIA and 36 other organizations have formed the Open Secure AI Alliance to develop and share open technologies, techniques, and tools for securing software and artificial intelligence (AI) agents. The 37-member group spans cloud, security, enterprise software, and AI companies, including Microsoft, Cisco, Cloudflare, CrowdStrike, Hugging Face, IBM, Palo Alto Networks, Red Hat, and the Linux",
       "source": "thehackernews.com"
-    },
-    {
-      "title": "Adversaries Don't Need a Zero-Day — They Read Your Rulebook",
-      "link": "https://www.darkreading.com/threat-intelligence/adversaries-do-not-need-zero-day-they-read-your-rulebook",
-      "date": "2026-07-27T17:31:18Z",
-      "description": "Confidence in autonomous security tools is declining, and here's why.",
-      "source": "darkreading.com"
-    },
-    {
-      "title": "CISOs vs. Boards: Myth or Misunderstanding?",
-      "link": "https://www.darkreading.com/cybersecurity-operations/cisos-vs-boards-myth-or-misunderstanding-",
-      "date": "2026-07-24T21:31:53Z",
-      "description": "Escalating threats are forcing boards to prioritize security, but communication gaps persist. Boards and security teams each say they need more support to bridge the divide.",
-      "source": "darkreading.com"
     },
     {
       "title": "ZDI-CAN-31994: NVIDIA",
