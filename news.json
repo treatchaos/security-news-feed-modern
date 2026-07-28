@@ -1,13 +1,55 @@
 {
-  "last_updated": "2026-07-28T15:11:03Z",
+  "last_updated": "2026-07-28T17:17:33Z",
   "count": 35,
   "items": [
+    {
+      "title": "Nginx Buffer Overflow Vulnerability Allows Attackers to Execute Arbitrary Code – PoC Released",
+      "link": "https://cybersecuritynews.com/nginx-buffer-overflow-vulnerability-2/",
+      "date": "2026-07-28T16:46:41Z",
+      "description": "A high-severity heap buffer overflow in NGINX Plus and NGINX Open Source can let unauthenticated attackers crash worker processes and, under certain conditions, run arbitrary code. Tracked as CVE-2026-42533, the flaw affects configurations that use regex-based map directives or non-cacheable variables in string expressions, and it is especially dangerous when the Stream module’s ssl_preread…",
+      "source": "cybersecuritynews.com"
+    },
+    {
+      "title": "'Certighost' Flaw Haunts Microsoft Active Directory Certificates",
+      "link": "https://www.darkreading.com/vulnerabilities-threats/certighost-flaw-microsoft-active-directory-certificates",
+      "date": "2026-07-28T16:38:48Z",
+      "description": "Microsoft patched a high-severity vulnerability earlier this month that allows a threat actor to escalate privileges and compromise an AD environment.",
+      "source": "darkreading.com"
+    },
+    {
+      "title": "Aembit Joins Snowflake to Tackle AI’s Next Security Frontier: Trusted Agent Interoperability",
+      "link": "https://cybersecuritynews.com/aembit-joins-snowflake-to-tackle-ais-next-security-frontier-trusted-agent-interoperability/",
+      "date": "2026-07-28T15:40:39Z",
+      "description": "Silver Spring, MD, USA, July 28th, 2026, CyberNewswire To reduce identity risk when third-party AI agents access business systems, Aembit is launching a new integration with Snowflake to help enterprises securely govern third-party agents across platforms. Aembit, the identity and access management company for agentic AI, today announced a new integration with Snowflake, the AI […] The post…",
+      "source": "cybersecuritynews.com"
+    },
+    {
+      "title": "Apple iOS 26.6 Fixes Flaws Enabling Kernel Code Execution, Root Access and Sandbox Escape",
+      "link": "https://cybersecuritynews.com/apple-ios-26-6-fixes-flaws/",
+      "date": "2026-07-28T15:15:50Z",
+      "description": "Apple has released iOS 26.6 and iPadOS 26.6 to address a significant number of security vulnerabilities, including flaws that could allow malicious applications to execute code with kernel privileges, gain root access, or escape Apple’s app sandbox. These updates were released on July 27, 2026, and are available for the iPhone 11 and later, along […] The post Apple iOS 26.6 Fixes Flaws Enabling…",
+      "source": "cybersecuritynews.com"
+    },
+    {
+      "title": "Tengu Botnet Reboots Compromised Linux Devices When Defenders Kill Its Process",
+      "link": "https://thehackernews.com/2026/07/tengu-botnet-reboots-compromised-linux.html",
+      "date": "2026-07-28T15:01:33Z",
+      "description": "A new Mirai-derived botnet called Tengu can use a compromised Linux device's hardware watchdog to trigger a reboot when defenders kill its main process. If that happens, Tengu's other persistence mechanisms get another chance to relaunch it. Nozomi Networks Labs observed the dropper reaching its honeypots through Telnet credential brute force. Tengu supports 25 distributed denial-of-service (",
+      "source": "thehackernews.com"
+    },
     {
       "title": "Cyera Acquiring Oasis Security in $1 Billion Deal",
       "link": "https://www.securityweek.com/cyera-acquiring-oasis-security-in-1-billion-deal/",
       "date": "2026-07-28T14:55:30Z",
       "description": "Oasis Security recently raised $120 million in Series B funding for its agentic access management platform. The post Cyera Acquiring Oasis Security in $1 Billion Deal appeared first on SecurityWeek.",
       "source": "securityweek.com"
+    },
+    {
+      "title": "24,650 Internet-Exposed BMCs Disclose IPMI Password Hashes Before Login",
+      "link": "https://thehackernews.com/2026/07/24650-internet-exposed-bmcs-disclose.html",
+      "date": "2026-07-28T14:41:36Z",
+      "description": "Cybersecurity researchers have sounded an alert after finding more than 36,000 Baseboard Management Controller (BMC) management interfaces exposing Intelligent Platform Management Interface (IPMI) protocol to the public internet. Of the 36,872 internet-exposed server-management interfaces running IPMI, 24,650 have been found to disclose password-derived authentication hashes before login due to",
+      "source": "thehackernews.com"
     },
     {
       "title": "Apple Patches 87 Vulnerabilities in iOS, 155 in macOS Tahoe",
@@ -52,32 +94,11 @@
       "source": "securityweek.com"
     },
     {
-      "title": "Origin Confirms Data Breach – Hackers Accessed 900,000 Customers’ Data",
-      "link": "https://cybersecuritynews.com/origin-confirms-data-breach/",
-      "date": "2026-07-28T13:01:41Z",
-      "description": "Origin Energy, an Australian energy provider, has confirmed that unauthorized access to customer information has affected approximately 900,000 current and former customers. The company has completed its initial review of the data security incident, and a broader forensic investigation is still ongoing. Frank Calabria, the CEO of Origin, apologized to customers and emphasized that the […] The…",
-      "source": "cybersecuritynews.com"
-    },
-    {
-      "title": "An SOC Story of Why Fast Answers Beat Perfect Answers in Cyber Incident Response",
-      "link": "https://cybersecuritynews.com/an-soc-story-why-fast-answers-beat-perfect-answers-in-cyber-incident-response/",
-      "date": "2026-07-28T13:01:23Z",
-      "description": "A Formula 1 pit crew doesn’t wait until every sensor, camera, and engineer agrees that a tire needs changing. They have a few seconds to make a decision using the best evidence available. Wait for perfect certainty, and the race is already lost. Security operations work much the same way. When an alert lands in […] The post An SOC Story of Why Fast Answers Beat Perfect Answers in Cyber Incident…",
-      "source": "cybersecuritynews.com"
-    },
-    {
       "title": "Critical OpenWrt DHCPv6 Flaw Could Let Unauthenticated Attackers Run Code as Root",
       "link": "https://thehackernews.com/2026/07/critical-openwrt-dhcpv6-flaw-could-let.html",
       "date": "2026-07-28T12:56:14Z",
       "description": "OpenWrt has shipped version 24.10.8 to close a critical DHCPv6 stack overflow and a wider set of remotely triggerable flaws in network services enabled by default. The critical issue, tracked as CVE-2026-53921 and rated 9.8 on CVSS 3.1 in OpenWrt's GitHub advisory, lets an unauthenticated attacker able to reach the DHCPv6 server overwrite a stack buffer in odhcpd through a crafted DHCPv6",
       "source": "thehackernews.com"
-    },
-    {
-      "title": "Dismantled Kratos Phishing Kits Acting as Blueprint for Others to Attack Microsoft 365 Users",
-      "link": "https://cybersecuritynews.com/dismantled-kratos-phishing-kits/",
-      "date": "2026-07-28T12:42:21Z",
-      "description": "Kratos is a phishing service built to steal Microsoft 365 credentials at scale. It evolved from the Sneaky2FA kit and gave affiliates ready-made login pages, hosting options, and evasion features that made fraudulent sign-ins harder to detect. The operation relied on phishing emails that led targets through trusted-looking services before showing a fake login page. […] The post Dismantled Kratos…",
-      "source": "cybersecuritynews.com"
     },
     {
       "title": "Former Citigroup CISO Blauner on What Makes A Great Security Leader",
@@ -122,20 +143,6 @@
       "source": "bleepingcomputer.com"
     },
     {
-      "title": "Critical TeamCity Flaw Could Let Attackers Run OS Commands Without Logging In",
-      "link": "https://thehackernews.com/2026/07/critical-teamcity-flaw-could-let.html",
-      "date": "2026-07-28T08:11:22Z",
-      "description": "JetBrains is urging customers of on-premise versions of TeamCity to update to the latest version following the discovery of a critical security issue that could result in arbitrary code execution. The vulnerability, assigned CVE-2026-63077 (CVSS score: 9.8), affects all TeamCity On-Premises versions. It has been addressed in versions 2025.11.7 and 2026.1.3. TeamCity Cloud instances have already",
-      "source": "thehackernews.com"
-    },
-    {
-      "title": "Researcher Says AI Helped Develop Linux Traffic-Control Race Into Root Exploit",
-      "link": "https://thehackernews.com/2026/07/researcher-says-ai-helped-develop-linux.html",
-      "date": "2026-07-28T08:04:44Z",
-      "description": "STAR Labs has published a Linux kernel exploit that turns an ordinary local user into root on the CentOS Stream 9 build it targeted. The flaw, tracked as CVE-2026-53264 (CVSS score: 7.8), is a use-after-free race in the kernel's network traffic-control subsystem.Researcher Lee Jia Jie said artificial intelligence (AI) helped him find the bug and speed up exploit development. This is local",
-      "source": "thehackernews.com"
-    },
-    {
       "title": "AI Agent Drives Espionage Attack on Thai Ministry of Finance",
       "link": "https://www.darkreading.com/cyberattacks-data-breaches/ai-agent-espionage-attack-thai-ministry-finance",
       "date": "2026-07-28T01:00:00Z",
@@ -168,13 +175,6 @@
       "link": "https://www.darkreading.com/cloud-security/confused-deputy-flaws-google-cloud-microsoft-azure",
       "date": "2026-07-27T20:57:26Z",
       "description": "This category of vulnerabilities allows an attacker to easily acquire administrative level permissions and bypass cloud providers' access controls.",
-      "source": "darkreading.com"
-    },
-    {
-      "title": "FBI: Breaking Affiliate Trust Sped Along LockBit's Takedown",
-      "link": "https://www.darkreading.com/cybersecurity-operations/fbi-breaking-affiliate-trust-lockbit-takedown",
-      "date": "2026-07-27T20:33:29Z",
-      "description": "An FBI agent explains how the mulitnational law-enforcement Operation Cronos was successful in disrupting the largest ransomware group of its time.",
       "source": "darkreading.com"
     },
     {
