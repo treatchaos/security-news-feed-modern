@@ -1,7 +1,77 @@
 {
   "date": "2026-07-29",
-  "count": 35,
+  "count": 43,
   "items": [
+    {
+      "id": "6c29b2279489b5794371ea83c2aeb55ca88eb38a",
+      "title": "AI-Generated Phishing No Longer Needs Malware: It Can Steal Your Session Inside the Browser",
+      "link": "https://cybersecuritynews.com/ai-generated-phishing-without-malware/",
+      "date": "2026-07-29T16:53:06Z",
+      "description": "AI-generated phishing campaigns are rapidly evolving beyond traditional malware delivery, shifting the battleground directly into the web browser where attackers can hijack active sessions, bypass multi-factor authentication (MFA), and evade conventional endpoint security controls. This emerging threat model is forcing security operations centers (SOCs) to rethink how phishing attacks are…",
+      "source": "cybersecuritynews.com",
+      "first_seen": "2026-07-29T17:03:13Z",
+      "last_seen": "2026-07-29T17:03:13Z"
+    },
+    {
+      "id": "58c2406f54e5be88391a0aa0f1bd6d8b3b9438bf",
+      "title": "OpenAI agent used exposed credentials at 4 services in Hugging Face breach",
+      "link": "https://www.bleepingcomputer.com/news/security/openai-agent-used-exposed-credentials-at-4-services-in-hugging-face-breach/",
+      "date": "2026-07-29T16:04:59Z",
+      "description": "In a new update, OpenAI says its AI models also used publicly exposed credentials to compromise accounts on four third-party services during the recent attack on Hugging Face, expanding the scope of the four-day security incident to other organizations. [...]",
+      "source": "bleepingcomputer.com",
+      "first_seen": "2026-07-29T17:03:13Z",
+      "last_seen": "2026-07-29T17:03:13Z"
+    },
+    {
+      "id": "122d8d612480e718768b8a26a847ae6c5a0b1a43",
+      "title": "NVIDIA BlueField Vulnerability Enables Code Execution Attacks",
+      "link": "https://cybersecuritynews.com/nvidia-bluefield-vulnerability/",
+      "date": "2026-07-29T15:44:25Z",
+      "description": "NVIDIA has disclosed a serious vulnerability affecting its BlueField DPUs and ConnectX networking platforms that could allow attackers to execute code on affected systems if successfully exploited. This vulnerability, tracked as CVE-2026-65094, impacts the VIRTIO-Net component and has a CVSS v3.1 score of 9.0, indicating a high-risk issue for enterprise and cloud deployments. According to […]…",
+      "source": "cybersecuritynews.com",
+      "first_seen": "2026-07-29T17:03:13Z",
+      "last_seen": "2026-07-29T17:03:13Z"
+    },
+    {
+      "id": "d62eb97582f5b0837f6cd07fa4560f8e64f23a01",
+      "title": "Ruflo MCP Flaw Lets Unauthenticated Attackers Run Commands and Poison AI Memory",
+      "link": "https://thehackernews.com/2026/07/ruflo-mcp-flaw-lets-unauthenticated.html",
+      "date": "2026-07-29T15:39:30Z",
+      "description": "Cybersecurity researchers have flagged a maximum-severity security flaw in Ruflo, an open-source agent meta-harness for Anthropic Claude Code and OpenAI Codex, that could result in unauthenticated remote code execution. The vulnerability, tracked as CVE-2026-59726 (CVSS score: 10.0), impacts all versions of the project before version 3.16.3. It has been codenamed RufRoot by Noma Security's",
+      "source": "thehackernews.com",
+      "first_seen": "2026-07-29T17:03:13Z",
+      "last_seen": "2026-07-29T17:03:13Z"
+    },
+    {
+      "id": "32d4314c36ec57da834edbc148f299067d25979c",
+      "title": "macOS ClickFix Attack Deploys Atomic Stealer to Steal Passwords and Crypto Wallets",
+      "link": "https://cybersecuritynews.com/macos-clickfix-attack-atomic-stealer/",
+      "date": "2026-07-29T15:37:38Z",
+      "description": "Mac users are being targeted by a ClickFix campaign that turns a fake verification prompt into a path for malware installation. Victims are persuaded to copy a command from a web page, open Terminal, paste it, and run it, believing they are completing a routine CAPTCHA check. The attack does not rely on a software […] The post macOS ClickFix Attack Deploys Atomic Stealer to Steal Passwords and…",
+      "source": "cybersecuritynews.com",
+      "first_seen": "2026-07-29T17:03:13Z",
+      "last_seen": "2026-07-29T17:03:13Z"
+    },
+    {
+      "id": "a2f02aea7e51e7d4227836bd8a9642bc914dc4f6",
+      "title": "Three Critical VMware Flaws Allow Auth Bypass, Code Execution, and VM Escape",
+      "link": "https://thehackernews.com/2026/07/three-critical-vmware-flaws-allow-auth.html",
+      "date": "2026-07-29T15:31:15Z",
+      "description": "Broadcom has released security updates to address multiple security flaws impacting VMware ESX, vCenter, Workstation, and Fusion, three of which have been designated as critical in severity. The first of the three critical-rated flaws is CVE-2026-59309 (CVSS score: 9.8), which has been described as an authentication bypass in VMware vCenter. \"A malicious actor with network access to vCenter",
+      "source": "thehackernews.com",
+      "first_seen": "2026-07-29T17:03:13Z",
+      "last_seen": "2026-07-29T17:03:13Z"
+    },
+    {
+      "id": "b128f0c2f896c5e04e526072320ad5a13624f255",
+      "title": "Critical Ruflo MCP Bridge Flaw Lets Attackers Execute Commands and Hijack AI Agents",
+      "link": "https://cybersecuritynews.com/critical-ruflo-mcp-bridge-vulnerability/",
+      "date": "2026-07-29T15:22:39Z",
+      "description": "A critical security flaw in the open-source AI orchestration platform Ruflo has been disclosed, allowing unauthenticated attackers to execute arbitrary commands and fully compromise AI agent environments. Assigned a maximum CVSS base score of 10.0, the vulnerability (tracked as CVE-2026-59726) was discovered by Noma Labs and affects Ruflo’s Model Context Protocol (MCP) Bridge, a core […] The…",
+      "source": "cybersecuritynews.com",
+      "first_seen": "2026-07-29T17:03:13Z",
+      "last_seen": "2026-07-29T17:03:13Z"
+    },
     {
       "id": "732ec0f6e040101abf17bbbf3b19803392da2fe4",
       "title": "Russian Intelligence Hackers Phish Signal Backup Keys to Hijack Accounts and Messages",
@@ -10,7 +80,7 @@
       "description": "Russian intelligence-linked hackers are trying to seize Signal accounts by posing as support staff and asking targets for backup recovery keys. The campaign targets people with access to sensitive conversations, including officials, military personnel, political figures, journalists, and Ukrainian leaders. It relies on deception, not a break in Signal’s end-to-end encryption, but the possible…",
       "source": "cybersecuritynews.com",
       "first_seen": "2026-07-29T15:03:47Z",
-      "last_seen": "2026-07-29T15:03:47Z"
+      "last_seen": "2026-07-29T17:03:13Z"
     },
     {
       "id": "7ec03d2b2dd617374a33e3dfc7b757c7c3f37374",
@@ -20,7 +90,7 @@
       "description": "The Minnesota IT Services (MNIT) agency activated its cybersecurity incident response capabilities across the entire state after hackers targeted more than 30 community water systems in \"a coordinated cyberattack.\" [...]",
       "source": "bleepingcomputer.com",
       "first_seen": "2026-07-29T15:03:47Z",
-      "last_seen": "2026-07-29T15:03:47Z"
+      "last_seen": "2026-07-29T17:03:13Z"
     },
     {
       "id": "547e6f01d6968f9867c988d0c0b479befb67da9f",
@@ -31,6 +101,16 @@
       "source": "cybersecuritynews.com",
       "first_seen": "2026-07-29T15:03:47Z",
       "last_seen": "2026-07-29T15:03:47Z"
+    },
+    {
+      "id": "45d553e8d13b4ccc086c98d13779442bec94a8fe",
+      "title": "Patch-Resistant 'RufRoot' Flaw Can Unleash Malicious AI Agent Swarms",
+      "link": "https://www.darkreading.com/cyber-risk/patch-resistant-rufroot-flaw-malicious-ai-agent-swarms",
+      "date": "2026-07-29T14:40:33Z",
+      "description": "The vulnerability in the AI hosting platform Ruflo allows an unauthenticated attacker to take over the system and corrupt memory, so bad behavior can persist after patching.",
+      "source": "darkreading.com",
+      "first_seen": "2026-07-29T17:03:13Z",
+      "last_seen": "2026-07-29T17:03:13Z"
     },
     {
       "id": "ec4bdd2f86206de9d770ff2385634dba60766bb8",
@@ -50,7 +130,7 @@
       "description": "AI agents are designed to improvise as they complete tasks, making broad permissions a growing security risk. Token Security explains why identity, intent-based access controls, and least privilege are becoming the foundation for securing agentic AI. [...]",
       "source": "bleepingcomputer.com",
       "first_seen": "2026-07-29T15:03:47Z",
-      "last_seen": "2026-07-29T15:03:47Z"
+      "last_seen": "2026-07-29T17:03:13Z"
     },
     {
       "id": "62bd4dd4ab4b945b042de139ada0c82aaf2bdccd",
@@ -60,7 +140,7 @@
       "description": "​​Microsoft has released the KB5101684 preview cumulative update for Windows 11 24H2 and 25H2, which 42 bug fixes and additional feature improvements for the operating system. [...]",
       "source": "bleepingcomputer.com",
       "first_seen": "2026-07-29T15:03:47Z",
-      "last_seen": "2026-07-29T15:03:47Z"
+      "last_seen": "2026-07-29T17:03:13Z"
     },
     {
       "id": "150e0d43d1d8882f43ccbacae294327f64cdb546",
@@ -70,7 +150,7 @@
       "description": "A coordinated cyberattack targeted operational technology at more than 30 Minnesota community water systems on July 26 and 27, triggering a statewide cybersecurity response. Braham, Plymouth, South St. Paul and Maple Plain have publicly described a plant outage, communications failures or affected automated controls. Braham's water plant went offline, and the city asked residents to minimize",
       "source": "thehackernews.com",
       "first_seen": "2026-07-29T15:03:47Z",
-      "last_seen": "2026-07-29T15:03:47Z"
+      "last_seen": "2026-07-29T17:03:13Z"
     },
     {
       "id": "2785abf93d5c2acdc25b19218a6ab97b65976523",
@@ -80,7 +160,7 @@
       "description": "Cybersecurity researchers have disclosed details of a large-scale fraud campaign that involves creating lookalike websites of major Russian companies with an aim to siphon funds from international firms for more than nine years. According to Russian cybersecurity vendor F6, the threat actors have set up clone websites of Russian companies across fertilizer manufacturers, petrochemical companies",
       "source": "thehackernews.com",
       "first_seen": "2026-07-29T15:03:47Z",
-      "last_seen": "2026-07-29T15:03:47Z"
+      "last_seen": "2026-07-29T17:03:13Z"
     },
     {
       "id": "e2b8a77a2e7d27998f509a867012abd3ad2e1912",
@@ -100,7 +180,7 @@
       "description": "The agency said imports of advanced robots pose cybersecurity and other national security risks. The post US Bans Foreign-Made Humanoid Robots, Targeting China Over National Security appeared first on SecurityWeek.",
       "source": "securityweek.com",
       "first_seen": "2026-07-29T15:03:47Z",
-      "last_seen": "2026-07-29T15:03:47Z"
+      "last_seen": "2026-07-29T17:03:13Z"
     },
     {
       "id": "63e68447f16620a149c84d8e1571230146c56161",
@@ -120,7 +200,7 @@
       "description": "The startup will use the investment to expand its customer support, sales, and R&D teams. The post Mate Security Raises $35 Million for Agentic SOC appeared first on SecurityWeek.",
       "source": "securityweek.com",
       "first_seen": "2026-07-29T12:54:48Z",
-      "last_seen": "2026-07-29T15:03:47Z"
+      "last_seen": "2026-07-29T17:03:13Z"
     },
     {
       "id": "0471ca2b80e1ca0dedf77e17404c3542dd9d3cc2",
@@ -130,7 +210,7 @@
       "description": "The company was previously valued at $1.6 billion, and the latest raise has significantly increased that valuation. The post ThreatLocker Raises $190 Million in Series F Funding appeared first on SecurityWeek.",
       "source": "securityweek.com",
       "first_seen": "2026-07-29T12:54:48Z",
-      "last_seen": "2026-07-29T15:03:47Z"
+      "last_seen": "2026-07-29T17:03:13Z"
     },
     {
       "id": "c29d4cb76986b84675b896c642e18303939e5ed6",
@@ -140,7 +220,7 @@
       "description": "AI is compressing exploit timelines. The real question isn't whether your vulnerability management playbook needs to change, it's which part of it you've been getting wrong all along. The conversation happening in security circles right now goes something like this: Mythos is here. Exploit timelines are collapsing. Does the vulnerability management playbook need to change? The honest answer is",
       "source": "thehackernews.com",
       "first_seen": "2026-07-29T12:54:48Z",
-      "last_seen": "2026-07-29T15:03:47Z"
+      "last_seen": "2026-07-29T17:03:13Z"
     },
     {
       "id": "38f761d8f96d9a23bc5426ac9a0110c72c456fd2",
@@ -160,7 +240,7 @@
       "description": "A total of five vulnerabilities have been patched in VMware ESXi, vCenter, Workstation, and Fusion. The post Critical VM Escape Vulnerability Patched in VMware ESXi appeared first on SecurityWeek.",
       "source": "securityweek.com",
       "first_seen": "2026-07-29T12:54:48Z",
-      "last_seen": "2026-07-29T15:03:47Z"
+      "last_seen": "2026-07-29T17:03:13Z"
     },
     {
       "id": "d105de9bae105e360c318290af4a66d0e25bf556",
@@ -180,7 +260,7 @@
       "description": "Buying a new computer in 2026 is a unique experience. Rather than deal with incredibly high tech prices, more shoppers are opting for high-quality refurbished tech. This ASUS Chromebook CM30 refurb is in near-mint condition with a grade \"A\" rating, but it still only costs $144.97 (reg. $369.99) on sale. [...]",
       "source": "bleepingcomputer.com",
       "first_seen": "2026-07-29T12:54:48Z",
-      "last_seen": "2026-07-29T15:03:47Z"
+      "last_seen": "2026-07-29T17:03:13Z"
     },
     {
       "id": "4097a5ec3807a795b44913705b3a62c92e1ffc60",
@@ -200,7 +280,7 @@
       "description": "The guidance details steps organizations can take to isolate vital OT and supporting systems, and operate in isolation for an extended period. The post US, Australia Release OT Isolation Guidance for Critical Infrastructure appeared first on SecurityWeek.",
       "source": "securityweek.com",
       "first_seen": "2026-07-29T12:54:48Z",
-      "last_seen": "2026-07-29T15:03:47Z"
+      "last_seen": "2026-07-29T17:03:13Z"
     },
     {
       "id": "b28e543e582d6a06d731a3d99023a3c2ef90bb5b",

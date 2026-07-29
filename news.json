@@ -1,7 +1,56 @@
 {
-  "last_updated": "2026-07-29T15:03:47Z",
+  "last_updated": "2026-07-29T17:03:13Z",
   "count": 35,
   "items": [
+    {
+      "title": "AI-Generated Phishing No Longer Needs Malware: It Can Steal Your Session Inside the Browser",
+      "link": "https://cybersecuritynews.com/ai-generated-phishing-without-malware/",
+      "date": "2026-07-29T16:53:06Z",
+      "description": "AI-generated phishing campaigns are rapidly evolving beyond traditional malware delivery, shifting the battleground directly into the web browser where attackers can hijack active sessions, bypass multi-factor authentication (MFA), and evade conventional endpoint security controls. This emerging threat model is forcing security operations centers (SOCs) to rethink how phishing attacks are…",
+      "source": "cybersecuritynews.com"
+    },
+    {
+      "title": "OpenAI agent used exposed credentials at 4 services in Hugging Face breach",
+      "link": "https://www.bleepingcomputer.com/news/security/openai-agent-used-exposed-credentials-at-4-services-in-hugging-face-breach/",
+      "date": "2026-07-29T16:04:59Z",
+      "description": "In a new update, OpenAI says its AI models also used publicly exposed credentials to compromise accounts on four third-party services during the recent attack on Hugging Face, expanding the scope of the four-day security incident to other organizations. [...]",
+      "source": "bleepingcomputer.com"
+    },
+    {
+      "title": "NVIDIA BlueField Vulnerability Enables Code Execution Attacks",
+      "link": "https://cybersecuritynews.com/nvidia-bluefield-vulnerability/",
+      "date": "2026-07-29T15:44:25Z",
+      "description": "NVIDIA has disclosed a serious vulnerability affecting its BlueField DPUs and ConnectX networking platforms that could allow attackers to execute code on affected systems if successfully exploited. This vulnerability, tracked as CVE-2026-65094, impacts the VIRTIO-Net component and has a CVSS v3.1 score of 9.0, indicating a high-risk issue for enterprise and cloud deployments. According to […]…",
+      "source": "cybersecuritynews.com"
+    },
+    {
+      "title": "Ruflo MCP Flaw Lets Unauthenticated Attackers Run Commands and Poison AI Memory",
+      "link": "https://thehackernews.com/2026/07/ruflo-mcp-flaw-lets-unauthenticated.html",
+      "date": "2026-07-29T15:39:30Z",
+      "description": "Cybersecurity researchers have flagged a maximum-severity security flaw in Ruflo, an open-source agent meta-harness for Anthropic Claude Code and OpenAI Codex, that could result in unauthenticated remote code execution. The vulnerability, tracked as CVE-2026-59726 (CVSS score: 10.0), impacts all versions of the project before version 3.16.3. It has been codenamed RufRoot by Noma Security's",
+      "source": "thehackernews.com"
+    },
+    {
+      "title": "macOS ClickFix Attack Deploys Atomic Stealer to Steal Passwords and Crypto Wallets",
+      "link": "https://cybersecuritynews.com/macos-clickfix-attack-atomic-stealer/",
+      "date": "2026-07-29T15:37:38Z",
+      "description": "Mac users are being targeted by a ClickFix campaign that turns a fake verification prompt into a path for malware installation. Victims are persuaded to copy a command from a web page, open Terminal, paste it, and run it, believing they are completing a routine CAPTCHA check. The attack does not rely on a software […] The post macOS ClickFix Attack Deploys Atomic Stealer to Steal Passwords and…",
+      "source": "cybersecuritynews.com"
+    },
+    {
+      "title": "Three Critical VMware Flaws Allow Auth Bypass, Code Execution, and VM Escape",
+      "link": "https://thehackernews.com/2026/07/three-critical-vmware-flaws-allow-auth.html",
+      "date": "2026-07-29T15:31:15Z",
+      "description": "Broadcom has released security updates to address multiple security flaws impacting VMware ESX, vCenter, Workstation, and Fusion, three of which have been designated as critical in severity. The first of the three critical-rated flaws is CVE-2026-59309 (CVSS score: 9.8), which has been described as an authentication bypass in VMware vCenter. \"A malicious actor with network access to vCenter",
+      "source": "thehackernews.com"
+    },
+    {
+      "title": "Critical Ruflo MCP Bridge Flaw Lets Attackers Execute Commands and Hijack AI Agents",
+      "link": "https://cybersecuritynews.com/critical-ruflo-mcp-bridge-vulnerability/",
+      "date": "2026-07-29T15:22:39Z",
+      "description": "A critical security flaw in the open-source AI orchestration platform Ruflo has been disclosed, allowing unauthenticated attackers to execute arbitrary commands and fully compromise AI agent environments. Assigned a maximum CVSS base score of 10.0, the vulnerability (tracked as CVE-2026-59726) was discovered by Noma Labs and affects Ruflo’s Model Context Protocol (MCP) Bridge, a core […] The…",
+      "source": "cybersecuritynews.com"
+    },
     {
       "title": "Russian Intelligence Hackers Phish Signal Backup Keys to Hijack Accounts and Messages",
       "link": "https://cybersecuritynews.com/hackers-phish-signal-backup-keys/",
@@ -17,18 +66,11 @@
       "source": "bleepingcomputer.com"
     },
     {
-      "title": "Hijacked Joyfill npm Packages Deploy Worm-Like RAT and Steal Developer Credentials",
-      "link": "https://cybersecuritynews.com/hijacked-joyfill-npm-packages-worm-like-rat/",
-      "date": "2026-07-29T14:40:36Z",
-      "description": "A fresh supply chain scare hit software teams after attackers slipped malware into trusted open source libraries. On July 28, 2026, malicious beta builds of two Joyfill packages appeared on the npm registry. The libraries, @joyfill/components and @joyfill/layouts, are used for forms and layout work in many web apps. Anyone who imported those beta builds […] The post Hijacked Joyfill npm Packages…",
-      "source": "cybersecuritynews.com"
-    },
-    {
-      "title": "Sweet Security Brings Autonomous Protection to the AI Enterprise with New Blocking Capabilities",
-      "link": "https://cybersecuritynews.com/sweet-security-agentic-ai-blocking/",
-      "date": "2026-07-29T14:16:34Z",
-      "description": "Las Vegas, USA, July 29th, 2026, CyberNewswire Catches rogue AI agents – and stops them in live production before they cause damage Sweet Security, the proactive runtime enforcement company for cloud and AI, today announced its further expansion into AI security with Agentic AI Blocking. Sweet now blocks rogue agent behavior in real time – […] The post Sweet Security Brings Autonomous Protection…",
-      "source": "cybersecuritynews.com"
+      "title": "Patch-Resistant 'RufRoot' Flaw Can Unleash Malicious AI Agent Swarms",
+      "link": "https://www.darkreading.com/cyber-risk/patch-resistant-rufroot-flaw-malicious-ai-agent-swarms",
+      "date": "2026-07-29T14:40:33Z",
+      "description": "The vulnerability in the AI hosting platform Ruflo allows an unauthenticated attacker to take over the system and corrupt memory, so bad behavior can persist after patching.",
+      "source": "darkreading.com"
     },
     {
       "title": "Your AI Agents Are Guessing at Scale: Permissions Decide the Damage",
@@ -59,25 +101,11 @@
       "source": "thehackernews.com"
     },
     {
-      "title": "Hackers Can Hijack Tor Browser Users Through a Single Malicious Web Page",
-      "link": "https://cybersecuritynews.com/hackers-can-compromise-your-tor-browser/",
-      "date": "2026-07-29T13:40:13Z",
-      "description": "A single malicious webpage is enough to compromise Tor Browser users running an unpatched build, following newly disclosed research into CVE-2026-10702. The flaw, a high-severity Firefox JavaScript engine bug, was successfully exploited against Tor Browser by researchers at Nebula Security. Mozilla resolved the vulnerability in Firefox 151.0.3 on June 2, 2026, and the Tor Project […] The post…",
-      "source": "cybersecuritynews.com"
-    },
-    {
       "title": "US Bans Foreign-Made Humanoid Robots, Targeting China Over National Security",
       "link": "https://www.securityweek.com/us-bans-foreign-made-humanoid-robots-targeting-china-over-national-security/",
       "date": "2026-07-29T13:31:00Z",
       "description": "The agency said imports of advanced robots pose cybersecurity and other national security risks. The post US Bans Foreign-Made Humanoid Robots, Targeting China Over National Security appeared first on SecurityWeek.",
       "source": "securityweek.com"
-    },
-    {
-      "title": "Revolut Alleged Data Breach – Hackers Claiming to Access Over 75 Million Users’ Records",
-      "link": "https://cybersecuritynews.com/revolut-alleged-data-breach/",
-      "date": "2026-07-29T13:18:43Z",
-      "description": "Revolut is currently under scrutiny after hackers claimed to be selling a database containing records of more than 75 million users. However, the company asserts that it has found no evidence of a new breach at this time. A threat actor has advertised what they describe as a Revolut customer database on a cybercrime forum, […] The post Revolut Alleged Data Breach – Hackers Claiming to Access…",
-      "source": "cybersecuritynews.com"
     },
     {
       "title": "Mate Security Raises $35 Million for Agentic SOC",
@@ -101,25 +129,11 @@
       "source": "thehackernews.com"
     },
     {
-      "title": "Researchers Show a Single Malicious Webpage Visit Can Compromise Tor Browser",
-      "link": "https://thehackernews.com/2026/07/researchers-show-single-malicious.html",
-      "date": "2026-07-29T11:57:00Z",
-      "description": "Nebula Security says a patched Firefox JIT flaw could be triggered by simply visiting a malicious webpage and was also used to compromise Tor Browser. Tracked as CVE-2026-10702, the bug provides arbitrary code execution inside the browser's renderer process. Mozilla rated it High and fixed it in the Firefox 151.0.3 update. \"No settings or additional user interaction are required,\" Eten Zou,",
-      "source": "thehackernews.com"
-    },
-    {
       "title": "Critical VM Escape Vulnerability Patched in VMware ESXi",
       "link": "https://www.securityweek.com/critical-vm-escape-vulnerability-patched-in-vmware-esxi/",
       "date": "2026-07-29T11:42:38Z",
       "description": "A total of five vulnerabilities have been patched in VMware ESXi, vCenter, Workstation, and Fusion. The post Critical VM Escape Vulnerability Patched in VMware ESXi appeared first on SecurityWeek.",
       "source": "securityweek.com"
-    },
-    {
-      "title": "73% of Organizations Say They Are Not Fully Ready for a Major Cyberattack",
-      "link": "https://thehackernews.com/2026/07/73-of-organizations-say-they-are-not.html",
-      "date": "2026-07-29T11:13:10Z",
-      "description": "Most organizations have incident response plans, security tools, and technical teams in place. Yet new research suggests that many still lack the coordination, visibility, and executive alignment needed to withstand a serious cyberattack. According to The State of Incident Response Readiness 2026, based on a survey of 600 senior IT security decision makers conducted by Vanson Bourne in January",
-      "source": "thehackernews.com"
     },
     {
       "title": "These near-mint ASUS Chromebook refurbs are only $145",
@@ -143,13 +157,6 @@
       "source": "darkreading.com"
     },
     {
-      "title": "CubePilot drone software dev hit by DNS hijacking to intercept traffic",
-      "link": "https://www.bleepingcomputer.com/news/security/cubepilot-drone-software-dev-hit-by-dns-hijacking-to-intercept-traffic/",
-      "date": "2026-07-28T21:17:39Z",
-      "description": "CubePilot, an Australian firm that designs flight controllers for drones (UAVs), announced a severe operational disruption caused by a DNS hijacking attack. [...]",
-      "source": "bleepingcomputer.com"
-    },
-    {
       "title": "Thousands of Data Center Controllers Open to Takeover",
       "link": "https://www.darkreading.com/cyber-risk/flaw-exposes-data-centers-server-takeover",
       "date": "2026-07-28T21:07:55Z",
@@ -168,13 +175,6 @@
       "link": "https://www.darkreading.com/cybersecurity-analytics/stronger-ai-safety-requires-peeking-inside-black-box",
       "date": "2026-07-28T20:05:32Z",
       "description": "Researchers propose focusing on identification of certain cognitive elements in LLMs that indicate when AI systems may take an unwanted action.",
-      "source": "darkreading.com"
-    },
-    {
-      "title": "'Certighost' Flaw Haunts Microsoft Active Directory Certificates",
-      "link": "https://www.darkreading.com/vulnerabilities-threats/certighost-flaw-microsoft-active-directory-certificates",
-      "date": "2026-07-28T16:38:48Z",
-      "description": "Microsoft patched a high-severity vulnerability earlier this month that allows a threat actor to escalate privileges and compromise an AD environment.",
       "source": "darkreading.com"
     },
     {

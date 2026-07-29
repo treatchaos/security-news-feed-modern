@@ -1,8 +1,78 @@
 {
-  "last_updated": "2026-07-29T15:03:47Z",
+  "last_updated": "2026-07-29T17:03:13Z",
   "retention_days": 90,
-  "count": 3509,
+  "count": 3511,
   "items": [
+    {
+      "id": "6c29b2279489b5794371ea83c2aeb55ca88eb38a",
+      "title": "AI-Generated Phishing No Longer Needs Malware: It Can Steal Your Session Inside the Browser",
+      "link": "https://cybersecuritynews.com/ai-generated-phishing-without-malware/",
+      "date": "2026-07-29T16:53:06Z",
+      "description": "AI-generated phishing campaigns are rapidly evolving beyond traditional malware delivery, shifting the battleground directly into the web browser where attackers can hijack active sessions, bypass multi-factor authentication (MFA), and evade conventional endpoint security controls. This emerging threat model is forcing security operations centers (SOCs) to rethink how phishing attacks are…",
+      "source": "cybersecuritynews.com",
+      "first_seen": "2026-07-29T17:03:13Z",
+      "last_seen": "2026-07-29T17:03:13Z"
+    },
+    {
+      "id": "58c2406f54e5be88391a0aa0f1bd6d8b3b9438bf",
+      "title": "OpenAI agent used exposed credentials at 4 services in Hugging Face breach",
+      "link": "https://www.bleepingcomputer.com/news/security/openai-agent-used-exposed-credentials-at-4-services-in-hugging-face-breach/",
+      "date": "2026-07-29T16:04:59Z",
+      "description": "In a new update, OpenAI says its AI models also used publicly exposed credentials to compromise accounts on four third-party services during the recent attack on Hugging Face, expanding the scope of the four-day security incident to other organizations. [...]",
+      "source": "bleepingcomputer.com",
+      "first_seen": "2026-07-29T17:03:13Z",
+      "last_seen": "2026-07-29T17:03:13Z"
+    },
+    {
+      "id": "122d8d612480e718768b8a26a847ae6c5a0b1a43",
+      "title": "NVIDIA BlueField Vulnerability Enables Code Execution Attacks",
+      "link": "https://cybersecuritynews.com/nvidia-bluefield-vulnerability/",
+      "date": "2026-07-29T15:44:25Z",
+      "description": "NVIDIA has disclosed a serious vulnerability affecting its BlueField DPUs and ConnectX networking platforms that could allow attackers to execute code on affected systems if successfully exploited. This vulnerability, tracked as CVE-2026-65094, impacts the VIRTIO-Net component and has a CVSS v3.1 score of 9.0, indicating a high-risk issue for enterprise and cloud deployments. According to […]…",
+      "source": "cybersecuritynews.com",
+      "first_seen": "2026-07-29T17:03:13Z",
+      "last_seen": "2026-07-29T17:03:13Z"
+    },
+    {
+      "id": "d62eb97582f5b0837f6cd07fa4560f8e64f23a01",
+      "title": "Ruflo MCP Flaw Lets Unauthenticated Attackers Run Commands and Poison AI Memory",
+      "link": "https://thehackernews.com/2026/07/ruflo-mcp-flaw-lets-unauthenticated.html",
+      "date": "2026-07-29T15:39:30Z",
+      "description": "Cybersecurity researchers have flagged a maximum-severity security flaw in Ruflo, an open-source agent meta-harness for Anthropic Claude Code and OpenAI Codex, that could result in unauthenticated remote code execution. The vulnerability, tracked as CVE-2026-59726 (CVSS score: 10.0), impacts all versions of the project before version 3.16.3. It has been codenamed RufRoot by Noma Security's",
+      "source": "thehackernews.com",
+      "first_seen": "2026-07-29T17:03:13Z",
+      "last_seen": "2026-07-29T17:03:13Z"
+    },
+    {
+      "id": "32d4314c36ec57da834edbc148f299067d25979c",
+      "title": "macOS ClickFix Attack Deploys Atomic Stealer to Steal Passwords and Crypto Wallets",
+      "link": "https://cybersecuritynews.com/macos-clickfix-attack-atomic-stealer/",
+      "date": "2026-07-29T15:37:38Z",
+      "description": "Mac users are being targeted by a ClickFix campaign that turns a fake verification prompt into a path for malware installation. Victims are persuaded to copy a command from a web page, open Terminal, paste it, and run it, believing they are completing a routine CAPTCHA check. The attack does not rely on a software […] The post macOS ClickFix Attack Deploys Atomic Stealer to Steal Passwords and…",
+      "source": "cybersecuritynews.com",
+      "first_seen": "2026-07-29T17:03:13Z",
+      "last_seen": "2026-07-29T17:03:13Z"
+    },
+    {
+      "id": "a2f02aea7e51e7d4227836bd8a9642bc914dc4f6",
+      "title": "Three Critical VMware Flaws Allow Auth Bypass, Code Execution, and VM Escape",
+      "link": "https://thehackernews.com/2026/07/three-critical-vmware-flaws-allow-auth.html",
+      "date": "2026-07-29T15:31:15Z",
+      "description": "Broadcom has released security updates to address multiple security flaws impacting VMware ESX, vCenter, Workstation, and Fusion, three of which have been designated as critical in severity. The first of the three critical-rated flaws is CVE-2026-59309 (CVSS score: 9.8), which has been described as an authentication bypass in VMware vCenter. \"A malicious actor with network access to vCenter",
+      "source": "thehackernews.com",
+      "first_seen": "2026-07-29T17:03:13Z",
+      "last_seen": "2026-07-29T17:03:13Z"
+    },
+    {
+      "id": "b128f0c2f896c5e04e526072320ad5a13624f255",
+      "title": "Critical Ruflo MCP Bridge Flaw Lets Attackers Execute Commands and Hijack AI Agents",
+      "link": "https://cybersecuritynews.com/critical-ruflo-mcp-bridge-vulnerability/",
+      "date": "2026-07-29T15:22:39Z",
+      "description": "A critical security flaw in the open-source AI orchestration platform Ruflo has been disclosed, allowing unauthenticated attackers to execute arbitrary commands and fully compromise AI agent environments. Assigned a maximum CVSS base score of 10.0, the vulnerability (tracked as CVE-2026-59726) was discovered by Noma Labs and affects Ruflo’s Model Context Protocol (MCP) Bridge, a core […] The…",
+      "source": "cybersecuritynews.com",
+      "first_seen": "2026-07-29T17:03:13Z",
+      "last_seen": "2026-07-29T17:03:13Z"
+    },
     {
       "id": "732ec0f6e040101abf17bbbf3b19803392da2fe4",
       "title": "Russian Intelligence Hackers Phish Signal Backup Keys to Hijack Accounts and Messages",
@@ -11,7 +81,7 @@
       "description": "Russian intelligence-linked hackers are trying to seize Signal accounts by posing as support staff and asking targets for backup recovery keys. The campaign targets people with access to sensitive conversations, including officials, military personnel, political figures, journalists, and Ukrainian leaders. It relies on deception, not a break in Signal’s end-to-end encryption, but the possible…",
       "source": "cybersecuritynews.com",
       "first_seen": "2026-07-29T15:03:47Z",
-      "last_seen": "2026-07-29T15:03:47Z"
+      "last_seen": "2026-07-29T17:03:13Z"
     },
     {
       "id": "7ec03d2b2dd617374a33e3dfc7b757c7c3f37374",
@@ -21,7 +91,7 @@
       "description": "The Minnesota IT Services (MNIT) agency activated its cybersecurity incident response capabilities across the entire state after hackers targeted more than 30 community water systems in \"a coordinated cyberattack.\" [...]",
       "source": "bleepingcomputer.com",
       "first_seen": "2026-07-29T15:03:47Z",
-      "last_seen": "2026-07-29T15:03:47Z"
+      "last_seen": "2026-07-29T17:03:13Z"
     },
     {
       "id": "547e6f01d6968f9867c988d0c0b479befb67da9f",
@@ -32,6 +102,16 @@
       "source": "cybersecuritynews.com",
       "first_seen": "2026-07-29T15:03:47Z",
       "last_seen": "2026-07-29T15:03:47Z"
+    },
+    {
+      "id": "45d553e8d13b4ccc086c98d13779442bec94a8fe",
+      "title": "Patch-Resistant 'RufRoot' Flaw Can Unleash Malicious AI Agent Swarms",
+      "link": "https://www.darkreading.com/cyber-risk/patch-resistant-rufroot-flaw-malicious-ai-agent-swarms",
+      "date": "2026-07-29T14:40:33Z",
+      "description": "The vulnerability in the AI hosting platform Ruflo allows an unauthenticated attacker to take over the system and corrupt memory, so bad behavior can persist after patching.",
+      "source": "darkreading.com",
+      "first_seen": "2026-07-29T17:03:13Z",
+      "last_seen": "2026-07-29T17:03:13Z"
     },
     {
       "id": "ec4bdd2f86206de9d770ff2385634dba60766bb8",
@@ -51,7 +131,7 @@
       "description": "AI agents are designed to improvise as they complete tasks, making broad permissions a growing security risk. Token Security explains why identity, intent-based access controls, and least privilege are becoming the foundation for securing agentic AI. [...]",
       "source": "bleepingcomputer.com",
       "first_seen": "2026-07-29T15:03:47Z",
-      "last_seen": "2026-07-29T15:03:47Z"
+      "last_seen": "2026-07-29T17:03:13Z"
     },
     {
       "id": "62bd4dd4ab4b945b042de139ada0c82aaf2bdccd",
@@ -61,7 +141,7 @@
       "description": "​​Microsoft has released the KB5101684 preview cumulative update for Windows 11 24H2 and 25H2, which 42 bug fixes and additional feature improvements for the operating system. [...]",
       "source": "bleepingcomputer.com",
       "first_seen": "2026-07-29T15:03:47Z",
-      "last_seen": "2026-07-29T15:03:47Z"
+      "last_seen": "2026-07-29T17:03:13Z"
     },
     {
       "id": "150e0d43d1d8882f43ccbacae294327f64cdb546",
@@ -71,7 +151,7 @@
       "description": "A coordinated cyberattack targeted operational technology at more than 30 Minnesota community water systems on July 26 and 27, triggering a statewide cybersecurity response. Braham, Plymouth, South St. Paul and Maple Plain have publicly described a plant outage, communications failures or affected automated controls. Braham's water plant went offline, and the city asked residents to minimize",
       "source": "thehackernews.com",
       "first_seen": "2026-07-29T15:03:47Z",
-      "last_seen": "2026-07-29T15:03:47Z"
+      "last_seen": "2026-07-29T17:03:13Z"
     },
     {
       "id": "2785abf93d5c2acdc25b19218a6ab97b65976523",
@@ -81,7 +161,7 @@
       "description": "Cybersecurity researchers have disclosed details of a large-scale fraud campaign that involves creating lookalike websites of major Russian companies with an aim to siphon funds from international firms for more than nine years. According to Russian cybersecurity vendor F6, the threat actors have set up clone websites of Russian companies across fertilizer manufacturers, petrochemical companies",
       "source": "thehackernews.com",
       "first_seen": "2026-07-29T15:03:47Z",
-      "last_seen": "2026-07-29T15:03:47Z"
+      "last_seen": "2026-07-29T17:03:13Z"
     },
     {
       "id": "e2b8a77a2e7d27998f509a867012abd3ad2e1912",
@@ -101,7 +181,7 @@
       "description": "The agency said imports of advanced robots pose cybersecurity and other national security risks. The post US Bans Foreign-Made Humanoid Robots, Targeting China Over National Security appeared first on SecurityWeek.",
       "source": "securityweek.com",
       "first_seen": "2026-07-29T15:03:47Z",
-      "last_seen": "2026-07-29T15:03:47Z"
+      "last_seen": "2026-07-29T17:03:13Z"
     },
     {
       "id": "63e68447f16620a149c84d8e1571230146c56161",
@@ -121,7 +201,7 @@
       "description": "The startup will use the investment to expand its customer support, sales, and R&D teams. The post Mate Security Raises $35 Million for Agentic SOC appeared first on SecurityWeek.",
       "source": "securityweek.com",
       "first_seen": "2026-07-29T12:54:48Z",
-      "last_seen": "2026-07-29T15:03:47Z"
+      "last_seen": "2026-07-29T17:03:13Z"
     },
     {
       "id": "0471ca2b80e1ca0dedf77e17404c3542dd9d3cc2",
@@ -131,7 +211,7 @@
       "description": "The company was previously valued at $1.6 billion, and the latest raise has significantly increased that valuation. The post ThreatLocker Raises $190 Million in Series F Funding appeared first on SecurityWeek.",
       "source": "securityweek.com",
       "first_seen": "2026-07-29T12:54:48Z",
-      "last_seen": "2026-07-29T15:03:47Z"
+      "last_seen": "2026-07-29T17:03:13Z"
     },
     {
       "id": "c29d4cb76986b84675b896c642e18303939e5ed6",
@@ -141,7 +221,7 @@
       "description": "AI is compressing exploit timelines. The real question isn't whether your vulnerability management playbook needs to change, it's which part of it you've been getting wrong all along. The conversation happening in security circles right now goes something like this: Mythos is here. Exploit timelines are collapsing. Does the vulnerability management playbook need to change? The honest answer is",
       "source": "thehackernews.com",
       "first_seen": "2026-07-29T12:54:48Z",
-      "last_seen": "2026-07-29T15:03:47Z"
+      "last_seen": "2026-07-29T17:03:13Z"
     },
     {
       "id": "38f761d8f96d9a23bc5426ac9a0110c72c456fd2",
@@ -161,7 +241,7 @@
       "description": "A total of five vulnerabilities have been patched in VMware ESXi, vCenter, Workstation, and Fusion. The post Critical VM Escape Vulnerability Patched in VMware ESXi appeared first on SecurityWeek.",
       "source": "securityweek.com",
       "first_seen": "2026-07-29T12:54:48Z",
-      "last_seen": "2026-07-29T15:03:47Z"
+      "last_seen": "2026-07-29T17:03:13Z"
     },
     {
       "id": "d105de9bae105e360c318290af4a66d0e25bf556",
@@ -181,7 +261,7 @@
       "description": "Buying a new computer in 2026 is a unique experience. Rather than deal with incredibly high tech prices, more shoppers are opting for high-quality refurbished tech. This ASUS Chromebook CM30 refurb is in near-mint condition with a grade \"A\" rating, but it still only costs $144.97 (reg. $369.99) on sale. [...]",
       "source": "bleepingcomputer.com",
       "first_seen": "2026-07-29T12:54:48Z",
-      "last_seen": "2026-07-29T15:03:47Z"
+      "last_seen": "2026-07-29T17:03:13Z"
     },
     {
       "id": "4097a5ec3807a795b44913705b3a62c92e1ffc60",
@@ -201,7 +281,7 @@
       "description": "The guidance details steps organizations can take to isolate vital OT and supporting systems, and operate in isolation for an extended period. The post US, Australia Release OT Isolation Guidance for Critical Infrastructure appeared first on SecurityWeek.",
       "source": "securityweek.com",
       "first_seen": "2026-07-29T12:54:48Z",
-      "last_seen": "2026-07-29T15:03:47Z"
+      "last_seen": "2026-07-29T17:03:13Z"
     },
     {
       "id": "b28e543e582d6a06d731a3d99023a3c2ef90bb5b",
@@ -361,7 +441,7 @@
       "description": "Dormant nonhuman identities can create security blind spots, says security researcher Aleksandr Krasnov, who plans to release an open source tool next week at Black Hat USA 2026 that sniffs out trust paths.",
       "source": "darkreading.com",
       "first_seen": "2026-07-28T22:56:07Z",
-      "last_seen": "2026-07-29T15:03:47Z"
+      "last_seen": "2026-07-29T17:03:13Z"
     },
     {
       "id": "3abf9afe236f00e834083a6ea91a76dd8150b4cd",
@@ -391,7 +471,7 @@
       "description": "A host of Internet-exposed remote hardware management processors are subject to offline password-cracking attacks — and adversaries have taken note.",
       "source": "darkreading.com",
       "first_seen": "2026-07-28T22:56:07Z",
-      "last_seen": "2026-07-29T15:03:47Z"
+      "last_seen": "2026-07-29T17:03:13Z"
     },
     {
       "id": "68849483732525b3b1e6f0d75e71b2babcfb5efa",
@@ -411,7 +491,7 @@
       "description": "OpenAI's recent AI agent sandbox escape proves traditional security principles matter more than ever: limit access, isolate execution, log everything.",
       "source": "darkreading.com",
       "first_seen": "2026-07-28T20:57:42Z",
-      "last_seen": "2026-07-29T15:03:47Z"
+      "last_seen": "2026-07-29T17:03:13Z"
     },
     {
       "id": "9f62dc297ea1ffa3bfc93f3cb3311250b04af2f4",
@@ -421,7 +501,7 @@
       "description": "Researchers propose focusing on identification of certain cognitive elements in LLMs that indicate when AI systems may take an unwanted action.",
       "source": "darkreading.com",
       "first_seen": "2026-07-28T20:57:42Z",
-      "last_seen": "2026-07-29T15:03:47Z"
+      "last_seen": "2026-07-29T17:03:13Z"
     },
     {
       "id": "66ee727047e464a70e72da4e9e568944d407a1bd",
@@ -961,7 +1041,7 @@
       "description": "A CVSS score 6.1 AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N severity vulnerability discovered by 'Tunyi Huang of TrendAI and Lucas Leong (@_wmliang_) of TrendAI Zero Day Initiative' was reported to the affected vendor on: 2026-07-28, 0 days ago. The vendor is given until 2026-11-25 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public…",
       "source": "zerodayinitiative.com",
       "first_seen": "2026-07-28T20:57:42Z",
-      "last_seen": "2026-07-29T15:03:47Z"
+      "last_seen": "2026-07-29T17:03:13Z"
     },
     {
       "id": "60ed2f32924f8e575c1dc3f778760a9be785c26f",
@@ -971,7 +1051,7 @@
       "description": "A CVSS score 7.8 AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H severity vulnerability discovered by 'Kağan Çapar' was reported to the affected vendor on: 2026-07-28, 0 days ago. The vendor is given until 2026-11-25 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
       "source": "zerodayinitiative.com",
       "first_seen": "2026-07-28T20:57:42Z",
-      "last_seen": "2026-07-29T15:03:47Z"
+      "last_seen": "2026-07-29T17:03:13Z"
     },
     {
       "id": "d046cb0c2220c3f549718d775ed8dffbcb4d3dbf",
@@ -981,7 +1061,7 @@
       "description": "A CVSS score 7.8 AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H severity vulnerability discovered by 'Lays (@_L4ys) of TRAPA Security' was reported to the affected vendor on: 2026-07-28, 0 days ago. The vendor is given until 2026-11-25 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
       "source": "zerodayinitiative.com",
       "first_seen": "2026-07-28T20:57:42Z",
-      "last_seen": "2026-07-29T15:03:47Z"
+      "last_seen": "2026-07-29T17:03:13Z"
     },
     {
       "id": "304bd4a378d1133ee651030e776a2bf500d126e8",
@@ -2061,7 +2141,7 @@
       "description": "A CVSS score 7.3 AV:L/AC:L/PR:L/UI:N/S:C/C:H/I:L/A:N severity vulnerability discovered by 'HAI SON MAI (HSon)' was reported to the affected vendor on: 2026-07-24, 0 days ago. The vendor is given until 2026-11-21 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
       "source": "zerodayinitiative.com",
       "first_seen": "2026-07-25T04:55:13Z",
-      "last_seen": "2026-07-29T15:03:47Z"
+      "last_seen": "2026-07-29T17:03:13Z"
     },
     {
       "id": "402fdd92b8d61a146a3ee5337e656ebd75d7c3ec",
@@ -2071,7 +2151,7 @@
       "description": "A CVSS score 8.1 AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H severity vulnerability discovered by 'Mat Powell of TrendAI Zero Day Initiative' was reported to the affected vendor on: 2026-07-24, 0 days ago. The vendor is given until 2026-11-21 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
       "source": "zerodayinitiative.com",
       "first_seen": "2026-07-25T04:55:13Z",
-      "last_seen": "2026-07-29T15:03:47Z"
+      "last_seen": "2026-07-29T17:03:13Z"
     },
     {
       "id": "5510bfddd63b81ed68b9ecd8216696d2f5e88a75",
@@ -34934,66 +35014,6 @@
       "last_seen": "2026-05-01T14:13:00Z"
     },
     {
-      "id": "a40d49499600c427c95993278d2602f858bfe72a",
-      "title": "Qilin Ransomware Enumerates RDP Authentication History on a Compromised Server",
-      "link": "https://cybersecuritynews.com/qilin-ransomware-enumerates-rdp-authentication/",
-      "date": "2026-04-30T16:05:25Z",
-      "description": "Qilin ransomware is one of the most active and damaging threats in the cyber landscape today. The group has steadily evolved its tactics since it first appeared in 2022, and its latest technique of enumerating Remote Desktop Protocol (RDP) authentication history on compromised servers gives it a fast, quiet way to map out a network […] The post Qilin Ransomware Enumerates RDP Authentication…",
-      "source": "cybersecuritynews.com",
-      "first_seen": "2026-04-30T16:16:25Z",
-      "last_seen": "2026-05-01T08:00:35Z"
-    },
-    {
-      "id": "897bb35f08c2d4a95fdb06e08ab943d0d439ba81",
-      "title": "Targeted Large-Scale Campaign Attacking U.S. Organizations with Fake Event Invitations",
-      "link": "https://cybersecuritynews.com/campaign-attacking-u-s-organizations-with-fake-event-invitations/",
-      "date": "2026-04-30T15:54:43Z",
-      "description": "A large-scale phishing campaign is actively targeting organizations across the United States, using fake event invitations to deceive employees into handing over their corporate login credentials. The operation is wide in reach and strikes some of the most sensitive sectors in the country, including banking, government, technology, and healthcare, pointing to a deliberate effort to […] The post…",
-      "source": "cybersecuritynews.com",
-      "first_seen": "2026-04-30T16:16:25Z",
-      "last_seen": "2026-05-01T05:38:15Z"
-    },
-    {
-      "id": "c33e6c1f60e85da45ba45f15345905b831f8985c",
-      "title": "New PhaaS Platform Phoenix Drives Brand-Impersonation Smishing Across Finance, Telecom, and Logistics",
-      "link": "https://cybersecuritynews.com/new-phaas-platform-phoenix/",
-      "date": "2026-04-30T15:40:08Z",
-      "description": "A dangerous new phishing platform called Phoenix is quietly spreading across the globe, targeting people through fake SMS messages designed to look like they come from trusted banks, telecom providers, and delivery companies. This platform works on a subscription basis, making it easy for cybercriminals with limited technical skills to launch large-scale smishing campaigns in […] The post New…",
-      "source": "cybersecuritynews.com",
-      "first_seen": "2026-04-30T16:16:25Z",
-      "last_seen": "2026-04-30T23:41:31Z"
-    },
-    {
-      "id": "e41c9190182ebfdd182c7f662431b323427e413f",
-      "title": "FBI and CISA Released Zero Trust Principles Implementation Guide for OT Environments",
-      "link": "https://cybersecuritynews.com/fbi-cisa-released-zero-trust-principles/",
-      "date": "2026-04-30T15:30:37Z",
-      "description": "The FBI and CISA, the Department of Energy (DOE), and defense partners published a joint intelligence document. Titled “Adapting Zero Trust Principles to Operational Technology,” this guide provides critical infrastructure operators with a strategic roadmap to secure industrial systems against modern cyber threats. Historically, operational technology (OT) networks relied heavily on strong…",
-      "source": "cybersecuritynews.com",
-      "first_seen": "2026-04-30T16:16:25Z",
-      "last_seen": "2026-04-30T23:41:31Z"
-    },
-    {
-      "id": "37a34c9b81388078ca94810e9faddec77470ae72",
-      "title": "April KB5083769 Windows 11 update causes backup software failures",
-      "link": "https://www.bleepingcomputer.com/news/microsoft/april-kb5083769-windows-11-update-causes-backup-software-failures/",
-      "date": "2026-04-30T15:23:03Z",
-      "description": "The April 2026 KB5083769 security update breaks third-party backup applications from multiple vendors on systems running Windows 11 24H2 and 25H2. [...]",
-      "source": "bleepingcomputer.com",
-      "first_seen": "2026-04-30T16:16:25Z",
-      "last_seen": "2026-05-01T09:49:00Z"
-    },
-    {
-      "id": "5e928572e3d3cfa193da662953ff84ddca51e127",
-      "title": "Popular Python Package lightning Hacked in Supply Chain Attack",
-      "link": "https://cybersecuritynews.com/python-package-lightning-hacked/",
-      "date": "2026-04-30T15:16:35Z",
-      "description": "The widely used PyTorch Lightning framework, which automatically executes credential-stealing malware on import, has also compromised GitHub maintainer accounts. The popular PyPI package lightning — the deep learning framework used to train, deploy, and ship AI products has been compromised in an active supply chain attack. Socket’s Research Team flagged versions 2.6.2 and 2.6.3 as […] The post…",
-      "source": "cybersecuritynews.com",
-      "first_seen": "2026-04-30T16:16:25Z",
-      "last_seen": "2026-04-30T16:16:25Z"
-    },
-    {
       "id": "2a0bdf4f0aad41f68caf42cdfaeeceafd6524008",
       "title": "ZDI-CAN-30796: Docker",
       "link": "http://www.zerodayinitiative.com/advisories/upcoming/",
@@ -35051,7 +35071,7 @@
       "description": "2.5 million people were affected, in a breach that could spell more trouble down the line.",
       "source": "threatpost.com",
       "first_seen": "2026-05-10T12:53:08Z",
-      "last_seen": "2026-07-29T15:03:47Z"
+      "last_seen": "2026-07-29T17:03:13Z"
     },
     {
       "id": "4140c7a34b0ba94ad2e6b0cae9f59b0cb9bfffea",
@@ -35061,7 +35081,7 @@
       "description": "Researchers uncover a watering hole attack likely carried out by APT TA423, which attempts to plant the ScanBox JavaScript-based reconnaissance tool.",
       "source": "threatpost.com",
       "first_seen": "2026-05-10T12:53:08Z",
-      "last_seen": "2026-07-29T15:03:47Z"
+      "last_seen": "2026-07-29T17:03:13Z"
     },
     {
       "id": "9359ee40a641a4b565080313045f1d7e7fe6552b",
@@ -35071,7 +35091,7 @@
       "description": "Over 130 companies tangled in sprawling phishing campaign that spoofed a multi-factor authentication system.",
       "source": "threatpost.com",
       "first_seen": "2026-05-10T12:53:08Z",
-      "last_seen": "2026-07-29T15:03:47Z"
+      "last_seen": "2026-07-29T17:03:13Z"
     },
     {
       "id": "b4ccef0737cd4050d65241bf754072030b6b5e6a",
@@ -35081,7 +35101,7 @@
       "description": "Lockbit is by far this summer’s most prolific ransomware group, trailed by two offshoots of the Conti group.",
       "source": "threatpost.com",
       "first_seen": "2026-05-10T12:53:08Z",
-      "last_seen": "2026-07-29T15:03:47Z"
+      "last_seen": "2026-07-29T17:03:13Z"
     },
     {
       "id": "12ee113fc8fce91f6d7fb28deab2b1ad20061ec7",
@@ -35091,7 +35111,7 @@
       "description": "Tens of thousands of cameras have failed to patch a critical, 11-month-old CVE, leaving thousands of organizations exposed.",
       "source": "threatpost.com",
       "first_seen": "2026-05-10T12:53:08Z",
-      "last_seen": "2026-07-29T15:03:47Z"
+      "last_seen": "2026-07-29T17:03:13Z"
     }
   ]
 }
