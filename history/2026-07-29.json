@@ -1,7 +1,57 @@
 {
   "date": "2026-07-29",
-  "count": 43,
+  "count": 54,
   "items": [
+    {
+      "id": "4691ccfe6f01242195ef7a9771a5c7745aace509",
+      "title": "Critical Rails Flaw Could Let Unauthenticated Attackers Read Server Files via Image Uploads",
+      "link": "https://thehackernews.com/2026/07/critical-rails-flaw-could-let.html",
+      "date": "2026-07-29T18:10:00Z",
+      "description": "Ruby on Rails has released fixes for a critical Active Storage vulnerability that could let unauthenticated attackers read arbitrary files from application servers through crafted image uploads. Tracked as CVE-2026-66066 (CVSS score: 9.5), the flaw can expose the Rails process environment and secrets such as secret_key_base, the Rails master key, database passwords, cloud storage credentials,",
+      "source": "thehackernews.com",
+      "first_seen": "2026-07-29T18:54:56Z",
+      "last_seen": "2026-07-29T18:54:56Z"
+    },
+    {
+      "id": "ca5b8d14430df57f55ccb80888b67dc0645ccfc4",
+      "title": "Health-ISAC warns of rising ShinyHunters data theft attacks on healthcare",
+      "link": "https://www.bleepingcomputer.com/news/security/health-isac-warns-of-rising-shinyhunters-data-theft-attacks-on-healthcare/",
+      "date": "2026-07-29T17:54:05Z",
+      "description": "Health-ISAC, a cybersecurity information-sharing organization for the health sector, is warning healthcare and medical technology organizations of an observed increase in successful attacks by ShinyHunters. [...]",
+      "source": "bleepingcomputer.com",
+      "first_seen": "2026-07-29T18:54:56Z",
+      "last_seen": "2026-07-29T18:54:56Z"
+    },
+    {
+      "id": "93fdbfb922e787c241108836187f9005fcc01afd",
+      "title": "Who's Liable When AI Agents Escape? Hugging Face Breach Raises Hard Questions",
+      "link": "https://www.darkreading.com/cyberattacks-data-breaches/liable-ai-agents-escape-hugging-face-breach-questions",
+      "date": "2026-07-29T17:43:38Z",
+      "description": "Dark Reading walks through the many twists and turns in the bizarre story of how OpenAI's agent AI system broke out of its sandbox and decided to target Hugging Face, and what CISOs should be aware of.",
+      "source": "darkreading.com",
+      "first_seen": "2026-07-29T18:54:56Z",
+      "last_seen": "2026-07-29T18:54:56Z"
+    },
+    {
+      "id": "7075a906001d09728831d8539e8604b3c5028857",
+      "title": "Hugging Face Hack Lessons for Cyber Defenders",
+      "link": "https://www.darkreading.com/cyberattacks-data-breaches/hugging-face-hack-lessons-cyber-defenders",
+      "date": "2026-07-29T17:35:23Z",
+      "description": "Dark Reading Confidential Episode 20: Expert Rich Mogull reflects on lessons cyber teams should pull from the OpenAI agent's attack on Hugging Face.",
+      "source": "darkreading.com",
+      "first_seen": "2026-07-29T18:54:56Z",
+      "last_seen": "2026-07-29T18:54:56Z"
+    },
+    {
+      "id": "dfb5d8c3f5296020f79fd73e5509c366f9cc420a",
+      "title": "When AppSec Scanners Become a Supply Chain Attack Vector",
+      "link": "https://www.darkreading.com/application-security/when-appsec-scanners-become-supply-chain-attack-vector",
+      "date": "2026-07-29T17:06:52Z",
+      "description": "New research shows how security scanners embedded in the software supply chain can be attacked to serve as a foothold for downstream attacks.",
+      "source": "darkreading.com",
+      "first_seen": "2026-07-29T18:54:56Z",
+      "last_seen": "2026-07-29T18:54:56Z"
+    },
     {
       "id": "6c29b2279489b5794371ea83c2aeb55ca88eb38a",
       "title": "AI-Generated Phishing No Longer Needs Malware: It Can Steal Your Session Inside the Browser",
@@ -10,7 +60,7 @@
       "description": "AI-generated phishing campaigns are rapidly evolving beyond traditional malware delivery, shifting the battleground directly into the web browser where attackers can hijack active sessions, bypass multi-factor authentication (MFA), and evade conventional endpoint security controls. This emerging threat model is forcing security operations centers (SOCs) to rethink how phishing attacks are…",
       "source": "cybersecuritynews.com",
       "first_seen": "2026-07-29T17:03:13Z",
-      "last_seen": "2026-07-29T17:03:13Z"
+      "last_seen": "2026-07-29T18:54:56Z"
     },
     {
       "id": "58c2406f54e5be88391a0aa0f1bd6d8b3b9438bf",
@@ -20,7 +70,7 @@
       "description": "In a new update, OpenAI says its AI models also used publicly exposed credentials to compromise accounts on four third-party services during the recent attack on Hugging Face, expanding the scope of the four-day security incident to other organizations. [...]",
       "source": "bleepingcomputer.com",
       "first_seen": "2026-07-29T17:03:13Z",
-      "last_seen": "2026-07-29T17:03:13Z"
+      "last_seen": "2026-07-29T18:54:56Z"
     },
     {
       "id": "122d8d612480e718768b8a26a847ae6c5a0b1a43",
@@ -30,7 +80,7 @@
       "description": "NVIDIA has disclosed a serious vulnerability affecting its BlueField DPUs and ConnectX networking platforms that could allow attackers to execute code on affected systems if successfully exploited. This vulnerability, tracked as CVE-2026-65094, impacts the VIRTIO-Net component and has a CVSS v3.1 score of 9.0, indicating a high-risk issue for enterprise and cloud deployments. According to […]…",
       "source": "cybersecuritynews.com",
       "first_seen": "2026-07-29T17:03:13Z",
-      "last_seen": "2026-07-29T17:03:13Z"
+      "last_seen": "2026-07-29T18:54:56Z"
     },
     {
       "id": "d62eb97582f5b0837f6cd07fa4560f8e64f23a01",
@@ -40,7 +90,7 @@
       "description": "Cybersecurity researchers have flagged a maximum-severity security flaw in Ruflo, an open-source agent meta-harness for Anthropic Claude Code and OpenAI Codex, that could result in unauthenticated remote code execution. The vulnerability, tracked as CVE-2026-59726 (CVSS score: 10.0), impacts all versions of the project before version 3.16.3. It has been codenamed RufRoot by Noma Security's",
       "source": "thehackernews.com",
       "first_seen": "2026-07-29T17:03:13Z",
-      "last_seen": "2026-07-29T17:03:13Z"
+      "last_seen": "2026-07-29T18:54:56Z"
     },
     {
       "id": "32d4314c36ec57da834edbc148f299067d25979c",
@@ -50,7 +100,7 @@
       "description": "Mac users are being targeted by a ClickFix campaign that turns a fake verification prompt into a path for malware installation. Victims are persuaded to copy a command from a web page, open Terminal, paste it, and run it, believing they are completing a routine CAPTCHA check. The attack does not rely on a software […] The post macOS ClickFix Attack Deploys Atomic Stealer to Steal Passwords and…",
       "source": "cybersecuritynews.com",
       "first_seen": "2026-07-29T17:03:13Z",
-      "last_seen": "2026-07-29T17:03:13Z"
+      "last_seen": "2026-07-29T18:54:56Z"
     },
     {
       "id": "a2f02aea7e51e7d4227836bd8a9642bc914dc4f6",
@@ -60,7 +110,7 @@
       "description": "Broadcom has released security updates to address multiple security flaws impacting VMware ESX, vCenter, Workstation, and Fusion, three of which have been designated as critical in severity. The first of the three critical-rated flaws is CVE-2026-59309 (CVSS score: 9.8), which has been described as an authentication bypass in VMware vCenter. \"A malicious actor with network access to vCenter",
       "source": "thehackernews.com",
       "first_seen": "2026-07-29T17:03:13Z",
-      "last_seen": "2026-07-29T17:03:13Z"
+      "last_seen": "2026-07-29T18:54:56Z"
     },
     {
       "id": "b128f0c2f896c5e04e526072320ad5a13624f255",
@@ -70,7 +120,7 @@
       "description": "A critical security flaw in the open-source AI orchestration platform Ruflo has been disclosed, allowing unauthenticated attackers to execute arbitrary commands and fully compromise AI agent environments. Assigned a maximum CVSS base score of 10.0, the vulnerability (tracked as CVE-2026-59726) was discovered by Noma Labs and affects Ruflo’s Model Context Protocol (MCP) Bridge, a core […] The…",
       "source": "cybersecuritynews.com",
       "first_seen": "2026-07-29T17:03:13Z",
-      "last_seen": "2026-07-29T17:03:13Z"
+      "last_seen": "2026-07-29T18:54:56Z"
     },
     {
       "id": "732ec0f6e040101abf17bbbf3b19803392da2fe4",
@@ -80,7 +130,7 @@
       "description": "Russian intelligence-linked hackers are trying to seize Signal accounts by posing as support staff and asking targets for backup recovery keys. The campaign targets people with access to sensitive conversations, including officials, military personnel, political figures, journalists, and Ukrainian leaders. It relies on deception, not a break in Signal’s end-to-end encryption, but the possible…",
       "source": "cybersecuritynews.com",
       "first_seen": "2026-07-29T15:03:47Z",
-      "last_seen": "2026-07-29T17:03:13Z"
+      "last_seen": "2026-07-29T18:54:56Z"
     },
     {
       "id": "7ec03d2b2dd617374a33e3dfc7b757c7c3f37374",
@@ -91,6 +141,16 @@
       "source": "bleepingcomputer.com",
       "first_seen": "2026-07-29T15:03:47Z",
       "last_seen": "2026-07-29T17:03:13Z"
+    },
+    {
+      "id": "f9aa8477255e0efeae5b698d3ce6b33243e907fc",
+      "title": "Hackers disrupt over 30 Minnesota water utilities in coordinated OT attack",
+      "link": "https://www.bleepingcomputer.com/news/security/hackers-target-over-30-minnesota-water-utilities-in-coordinated-ot-attack/",
+      "date": "2026-07-29T14:55:57Z",
+      "description": "The Minnesota IT Services (MNIT) agency activated its cybersecurity incident response capabilities across the entire state after hackers targeted more than 30 community water systems in \"a coordinated cyberattack.\" [...]",
+      "source": "bleepingcomputer.com",
+      "first_seen": "2026-07-29T18:54:56Z",
+      "last_seen": "2026-07-29T18:54:56Z"
     },
     {
       "id": "547e6f01d6968f9867c988d0c0b479befb67da9f",
@@ -110,7 +170,7 @@
       "description": "The vulnerability in the AI hosting platform Ruflo allows an unauthenticated attacker to take over the system and corrupt memory, so bad behavior can persist after patching.",
       "source": "darkreading.com",
       "first_seen": "2026-07-29T17:03:13Z",
-      "last_seen": "2026-07-29T17:03:13Z"
+      "last_seen": "2026-07-29T18:54:56Z"
     },
     {
       "id": "ec4bdd2f86206de9d770ff2385634dba60766bb8",
@@ -130,7 +190,7 @@
       "description": "AI agents are designed to improvise as they complete tasks, making broad permissions a growing security risk. Token Security explains why identity, intent-based access controls, and least privilege are becoming the foundation for securing agentic AI. [...]",
       "source": "bleepingcomputer.com",
       "first_seen": "2026-07-29T15:03:47Z",
-      "last_seen": "2026-07-29T17:03:13Z"
+      "last_seen": "2026-07-29T18:54:56Z"
     },
     {
       "id": "62bd4dd4ab4b945b042de139ada0c82aaf2bdccd",
@@ -140,7 +200,7 @@
       "description": "​​Microsoft has released the KB5101684 preview cumulative update for Windows 11 24H2 and 25H2, which 42 bug fixes and additional feature improvements for the operating system. [...]",
       "source": "bleepingcomputer.com",
       "first_seen": "2026-07-29T15:03:47Z",
-      "last_seen": "2026-07-29T17:03:13Z"
+      "last_seen": "2026-07-29T18:54:56Z"
     },
     {
       "id": "150e0d43d1d8882f43ccbacae294327f64cdb546",
@@ -150,7 +210,7 @@
       "description": "A coordinated cyberattack targeted operational technology at more than 30 Minnesota community water systems on July 26 and 27, triggering a statewide cybersecurity response. Braham, Plymouth, South St. Paul and Maple Plain have publicly described a plant outage, communications failures or affected automated controls. Braham's water plant went offline, and the city asked residents to minimize",
       "source": "thehackernews.com",
       "first_seen": "2026-07-29T15:03:47Z",
-      "last_seen": "2026-07-29T17:03:13Z"
+      "last_seen": "2026-07-29T18:54:56Z"
     },
     {
       "id": "2785abf93d5c2acdc25b19218a6ab97b65976523",
@@ -160,7 +220,7 @@
       "description": "Cybersecurity researchers have disclosed details of a large-scale fraud campaign that involves creating lookalike websites of major Russian companies with an aim to siphon funds from international firms for more than nine years. According to Russian cybersecurity vendor F6, the threat actors have set up clone websites of Russian companies across fertilizer manufacturers, petrochemical companies",
       "source": "thehackernews.com",
       "first_seen": "2026-07-29T15:03:47Z",
-      "last_seen": "2026-07-29T17:03:13Z"
+      "last_seen": "2026-07-29T18:54:56Z"
     },
     {
       "id": "e2b8a77a2e7d27998f509a867012abd3ad2e1912",
@@ -180,7 +240,7 @@
       "description": "The agency said imports of advanced robots pose cybersecurity and other national security risks. The post US Bans Foreign-Made Humanoid Robots, Targeting China Over National Security appeared first on SecurityWeek.",
       "source": "securityweek.com",
       "first_seen": "2026-07-29T15:03:47Z",
-      "last_seen": "2026-07-29T17:03:13Z"
+      "last_seen": "2026-07-29T18:54:56Z"
     },
     {
       "id": "63e68447f16620a149c84d8e1571230146c56161",
@@ -200,7 +260,7 @@
       "description": "The startup will use the investment to expand its customer support, sales, and R&D teams. The post Mate Security Raises $35 Million for Agentic SOC appeared first on SecurityWeek.",
       "source": "securityweek.com",
       "first_seen": "2026-07-29T12:54:48Z",
-      "last_seen": "2026-07-29T17:03:13Z"
+      "last_seen": "2026-07-29T18:54:56Z"
     },
     {
       "id": "0471ca2b80e1ca0dedf77e17404c3542dd9d3cc2",
@@ -210,7 +270,7 @@
       "description": "The company was previously valued at $1.6 billion, and the latest raise has significantly increased that valuation. The post ThreatLocker Raises $190 Million in Series F Funding appeared first on SecurityWeek.",
       "source": "securityweek.com",
       "first_seen": "2026-07-29T12:54:48Z",
-      "last_seen": "2026-07-29T17:03:13Z"
+      "last_seen": "2026-07-29T18:54:56Z"
     },
     {
       "id": "c29d4cb76986b84675b896c642e18303939e5ed6",
@@ -240,7 +300,7 @@
       "description": "A total of five vulnerabilities have been patched in VMware ESXi, vCenter, Workstation, and Fusion. The post Critical VM Escape Vulnerability Patched in VMware ESXi appeared first on SecurityWeek.",
       "source": "securityweek.com",
       "first_seen": "2026-07-29T12:54:48Z",
-      "last_seen": "2026-07-29T17:03:13Z"
+      "last_seen": "2026-07-29T18:54:56Z"
     },
     {
       "id": "d105de9bae105e360c318290af4a66d0e25bf556",
@@ -280,7 +340,7 @@
       "description": "The guidance details steps organizations can take to isolate vital OT and supporting systems, and operate in isolation for an extended period. The post US, Australia Release OT Isolation Guidance for Critical Infrastructure appeared first on SecurityWeek.",
       "source": "securityweek.com",
       "first_seen": "2026-07-29T12:54:48Z",
-      "last_seen": "2026-07-29T17:03:13Z"
+      "last_seen": "2026-07-29T18:54:56Z"
     },
     {
       "id": "b28e543e582d6a06d731a3d99023a3c2ef90bb5b",
@@ -421,6 +481,56 @@
       "source": "securityweek.com",
       "first_seen": "2026-07-29T07:40:30Z",
       "last_seen": "2026-07-29T10:28:36Z"
+    },
+    {
+      "id": "662402a1d18e479a2db6734155ac5702f69f4996",
+      "title": "ZDI-CAN-33062: LangGenius",
+      "link": "http://www.zerodayinitiative.com/advisories/upcoming/",
+      "date": "2026-07-29T05:00:00Z",
+      "description": "A CVSS score 8.5 AV:N/AC:L/PR:L/UI:N/S:C/C:H/I:L/A:N severity vulnerability discovered by 'Taha Siddiqi (@_atomiz_) of TrendAI Research' was reported to the affected vendor on: 2026-07-29, 0 days ago. The vendor is given until 2026-11-26 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
+      "source": "zerodayinitiative.com",
+      "first_seen": "2026-07-29T18:54:56Z",
+      "last_seen": "2026-07-29T18:54:56Z"
+    },
+    {
+      "id": "f8acd496d6aba1b588c120ba55ac9fc51cbeb4be",
+      "title": "ZDI-CAN-30646: NoMachine",
+      "link": "http://www.zerodayinitiative.com/advisories/upcoming/",
+      "date": "2026-07-29T05:00:00Z",
+      "description": "A CVSS score 7.8 AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H severity vulnerability discovered by 'khongtrang' was reported to the affected vendor on: 2026-07-29, 0 days ago. The vendor is given until 2026-11-26 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
+      "source": "zerodayinitiative.com",
+      "first_seen": "2026-07-29T18:54:56Z",
+      "last_seen": "2026-07-29T18:54:56Z"
+    },
+    {
+      "id": "f8c459035f1c350a00835d82ea5b0e3776119876",
+      "title": "ZDI-CAN-30984: NoMachine",
+      "link": "http://www.zerodayinitiative.com/advisories/upcoming/",
+      "date": "2026-07-29T05:00:00Z",
+      "description": "A CVSS score 7.8 AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H severity vulnerability discovered by 'Tobias Vonmetz' was reported to the affected vendor on: 2026-07-29, 0 days ago. The vendor is given until 2026-11-26 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
+      "source": "zerodayinitiative.com",
+      "first_seen": "2026-07-29T18:54:56Z",
+      "last_seen": "2026-07-29T18:54:56Z"
+    },
+    {
+      "id": "6e09e0dd19bc38a153be750007bade3a92ba9e6b",
+      "title": "ZDI-CAN-33060: LangGenius",
+      "link": "http://www.zerodayinitiative.com/advisories/upcoming/",
+      "date": "2026-07-29T05:00:00Z",
+      "description": "A CVSS score 7.1 AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:L/A:N severity vulnerability discovered by 'Taha Siddiqi (@_atomiz_) of TrendAI Research' was reported to the affected vendor on: 2026-07-29, 0 days ago. The vendor is given until 2026-11-26 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
+      "source": "zerodayinitiative.com",
+      "first_seen": "2026-07-29T18:54:56Z",
+      "last_seen": "2026-07-29T18:54:56Z"
+    },
+    {
+      "id": "8f5787ff653be414fd72bcf54384f89257b8ad49",
+      "title": "ZDI-CAN-31535: Adobe",
+      "link": "http://www.zerodayinitiative.com/advisories/upcoming/",
+      "date": "2026-07-29T05:00:00Z",
+      "description": "A CVSS score 3.3 AV:L/AC:L/PR:N/UI:R/S:U/C:L/I:N/A:N severity vulnerability discovered by 'Kiwan Ko' was reported to the affected vendor on: 2026-07-29, 0 days ago. The vendor is given until 2026-11-26 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
+      "source": "zerodayinitiative.com",
+      "first_seen": "2026-07-29T18:54:56Z",
+      "last_seen": "2026-07-29T18:54:56Z"
     },
     {
       "id": "6265760b544eeee05bcf01c30f8d0939606ecc8a",

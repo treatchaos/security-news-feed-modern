@@ -1,7 +1,42 @@
 {
-  "last_updated": "2026-07-29T17:03:13Z",
+  "last_updated": "2026-07-29T18:54:56Z",
   "count": 35,
   "items": [
+    {
+      "title": "Critical Rails Flaw Could Let Unauthenticated Attackers Read Server Files via Image Uploads",
+      "link": "https://thehackernews.com/2026/07/critical-rails-flaw-could-let.html",
+      "date": "2026-07-29T18:10:00Z",
+      "description": "Ruby on Rails has released fixes for a critical Active Storage vulnerability that could let unauthenticated attackers read arbitrary files from application servers through crafted image uploads. Tracked as CVE-2026-66066 (CVSS score: 9.5), the flaw can expose the Rails process environment and secrets such as secret_key_base, the Rails master key, database passwords, cloud storage credentials,",
+      "source": "thehackernews.com"
+    },
+    {
+      "title": "Health-ISAC warns of rising ShinyHunters data theft attacks on healthcare",
+      "link": "https://www.bleepingcomputer.com/news/security/health-isac-warns-of-rising-shinyhunters-data-theft-attacks-on-healthcare/",
+      "date": "2026-07-29T17:54:05Z",
+      "description": "Health-ISAC, a cybersecurity information-sharing organization for the health sector, is warning healthcare and medical technology organizations of an observed increase in successful attacks by ShinyHunters. [...]",
+      "source": "bleepingcomputer.com"
+    },
+    {
+      "title": "Who's Liable When AI Agents Escape? Hugging Face Breach Raises Hard Questions",
+      "link": "https://www.darkreading.com/cyberattacks-data-breaches/liable-ai-agents-escape-hugging-face-breach-questions",
+      "date": "2026-07-29T17:43:38Z",
+      "description": "Dark Reading walks through the many twists and turns in the bizarre story of how OpenAI's agent AI system broke out of its sandbox and decided to target Hugging Face, and what CISOs should be aware of.",
+      "source": "darkreading.com"
+    },
+    {
+      "title": "Hugging Face Hack Lessons for Cyber Defenders",
+      "link": "https://www.darkreading.com/cyberattacks-data-breaches/hugging-face-hack-lessons-cyber-defenders",
+      "date": "2026-07-29T17:35:23Z",
+      "description": "Dark Reading Confidential Episode 20: Expert Rich Mogull reflects on lessons cyber teams should pull from the OpenAI agent's attack on Hugging Face.",
+      "source": "darkreading.com"
+    },
+    {
+      "title": "When AppSec Scanners Become a Supply Chain Attack Vector",
+      "link": "https://www.darkreading.com/application-security/when-appsec-scanners-become-supply-chain-attack-vector",
+      "date": "2026-07-29T17:06:52Z",
+      "description": "New research shows how security scanners embedded in the software supply chain can be attacked to serve as a foothold for downstream attacks.",
+      "source": "darkreading.com"
+    },
     {
       "title": "AI-Generated Phishing No Longer Needs Malware: It Can Steal Your Session Inside the Browser",
       "link": "https://cybersecuritynews.com/ai-generated-phishing-without-malware/",
@@ -59,7 +94,7 @@
       "source": "cybersecuritynews.com"
     },
     {
-      "title": "Hackers target over 30 Minnesota water utilities in coordinated OT attack",
+      "title": "Hackers disrupt over 30 Minnesota water utilities in coordinated OT attack",
       "link": "https://www.bleepingcomputer.com/news/security/hackers-target-over-30-minnesota-water-utilities-in-coordinated-ot-attack/",
       "date": "2026-07-29T14:55:57Z",
       "description": "The Minnesota IT Services (MNIT) agency activated its cybersecurity incident response capabilities across the entire state after hackers targeted more than 30 community water systems in \"a coordinated cyberattack.\" [...]",
@@ -122,25 +157,11 @@
       "source": "securityweek.com"
     },
     {
-      "title": "Mythos Asks the Right Question. It Doesn't Answer It.",
-      "link": "https://thehackernews.com/2026/07/mythos-asks-right-question-it-doesnt.html",
-      "date": "2026-07-29T12:15:00Z",
-      "description": "AI is compressing exploit timelines. The real question isn't whether your vulnerability management playbook needs to change, it's which part of it you've been getting wrong all along. The conversation happening in security circles right now goes something like this: Mythos is here. Exploit timelines are collapsing. Does the vulnerability management playbook need to change? The honest answer is",
-      "source": "thehackernews.com"
-    },
-    {
       "title": "Critical VM Escape Vulnerability Patched in VMware ESXi",
       "link": "https://www.securityweek.com/critical-vm-escape-vulnerability-patched-in-vmware-esxi/",
       "date": "2026-07-29T11:42:38Z",
       "description": "A total of five vulnerabilities have been patched in VMware ESXi, vCenter, Workstation, and Fusion. The post Critical VM Escape Vulnerability Patched in VMware ESXi appeared first on SecurityWeek.",
       "source": "securityweek.com"
-    },
-    {
-      "title": "These near-mint ASUS Chromebook refurbs are only $145",
-      "link": "https://www.bleepingcomputer.com/news/security/these-near-mint-asus-chromebook-refurbs-are-only-145/",
-      "date": "2026-07-29T11:12:19Z",
-      "description": "Buying a new computer in 2026 is a unique experience. Rather than deal with incredibly high tech prices, more shoppers are opting for high-quality refurbished tech. This ASUS Chromebook CM30 refurb is in near-mint condition with a grade \"A\" rating, but it still only costs $144.97 (reg. $369.99) on sale. [...]",
-      "source": "bleepingcomputer.com"
     },
     {
       "title": "US, Australia Release OT Isolation Guidance for Critical Infrastructure",
@@ -150,67 +171,46 @@
       "source": "securityweek.com"
     },
     {
+      "title": "ZDI-CAN-33062: LangGenius",
+      "link": "http://www.zerodayinitiative.com/advisories/upcoming/",
+      "date": "2026-07-29T05:00:00Z",
+      "description": "A CVSS score 8.5 AV:N/AC:L/PR:L/UI:N/S:C/C:H/I:L/A:N severity vulnerability discovered by 'Taha Siddiqi (@_atomiz_) of TrendAI Research' was reported to the affected vendor on: 2026-07-29, 0 days ago. The vendor is given until 2026-11-26 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
+      "source": "zerodayinitiative.com"
+    },
+    {
+      "title": "ZDI-CAN-30646: NoMachine",
+      "link": "http://www.zerodayinitiative.com/advisories/upcoming/",
+      "date": "2026-07-29T05:00:00Z",
+      "description": "A CVSS score 7.8 AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H severity vulnerability discovered by 'khongtrang' was reported to the affected vendor on: 2026-07-29, 0 days ago. The vendor is given until 2026-11-26 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
+      "source": "zerodayinitiative.com"
+    },
+    {
+      "title": "ZDI-CAN-30984: NoMachine",
+      "link": "http://www.zerodayinitiative.com/advisories/upcoming/",
+      "date": "2026-07-29T05:00:00Z",
+      "description": "A CVSS score 7.8 AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H severity vulnerability discovered by 'Tobias Vonmetz' was reported to the affected vendor on: 2026-07-29, 0 days ago. The vendor is given until 2026-11-26 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
+      "source": "zerodayinitiative.com"
+    },
+    {
+      "title": "ZDI-CAN-33060: LangGenius",
+      "link": "http://www.zerodayinitiative.com/advisories/upcoming/",
+      "date": "2026-07-29T05:00:00Z",
+      "description": "A CVSS score 7.1 AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:L/A:N severity vulnerability discovered by 'Taha Siddiqi (@_atomiz_) of TrendAI Research' was reported to the affected vendor on: 2026-07-29, 0 days ago. The vendor is given until 2026-11-26 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
+      "source": "zerodayinitiative.com"
+    },
+    {
+      "title": "ZDI-CAN-31535: Adobe",
+      "link": "http://www.zerodayinitiative.com/advisories/upcoming/",
+      "date": "2026-07-29T05:00:00Z",
+      "description": "A CVSS score 3.3 AV:L/AC:L/PR:N/UI:R/S:U/C:L/I:N/A:N severity vulnerability discovered by 'Kiwan Ko' was reported to the affected vendor on: 2026-07-29, 0 days ago. The vendor is given until 2026-11-26 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
+      "source": "zerodayinitiative.com"
+    },
+    {
       "title": "Ghost Credentials Expose Cloud Systems to Hidden Identity Risks",
       "link": "https://www.darkreading.com/cloud-security/non-human-identity-sprawl-creates-a-new-cloud-attack-path",
       "date": "2026-07-28T21:33:23Z",
       "description": "Dormant nonhuman identities can create security blind spots, says security researcher Aleksandr Krasnov, who plans to release an open source tool next week at Black Hat USA 2026 that sniffs out trust paths.",
       "source": "darkreading.com"
-    },
-    {
-      "title": "Thousands of Data Center Controllers Open to Takeover",
-      "link": "https://www.darkreading.com/cyber-risk/flaw-exposes-data-centers-server-takeover",
-      "date": "2026-07-28T21:07:55Z",
-      "description": "A host of Internet-exposed remote hardware management processors are subject to offline password-cracking attacks — and adversaries have taken note.",
-      "source": "darkreading.com"
-    },
-    {
-      "title": "When AI Agents Escape Sandboxes, Old Security Rules Apply",
-      "link": "https://www.darkreading.com/application-security/ai-agents-escape-sandboxes-old-security-rules-apply",
-      "date": "2026-07-28T20:27:36Z",
-      "description": "OpenAI's recent AI agent sandbox escape proves traditional security principles matter more than ever: limit access, isolate execution, log everything.",
-      "source": "darkreading.com"
-    },
-    {
-      "title": "Stronger AI Safety Requires Peeking Inside the 'Black Box'",
-      "link": "https://www.darkreading.com/cybersecurity-analytics/stronger-ai-safety-requires-peeking-inside-black-box",
-      "date": "2026-07-28T20:05:32Z",
-      "description": "Researchers propose focusing on identification of certain cognitive elements in LLMs that indicate when AI systems may take an unwanted action.",
-      "source": "darkreading.com"
-    },
-    {
-      "title": "ZDI-CAN-33008: Thanos",
-      "link": "http://www.zerodayinitiative.com/advisories/upcoming/",
-      "date": "2026-07-28T05:00:00Z",
-      "description": "A CVSS score 6.1 AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N severity vulnerability discovered by 'Tunyi Huang of TrendAI and Lucas Leong (@_wmliang_) of TrendAI Zero Day Initiative' was reported to the affected vendor on: 2026-07-28, 1 days ago. The vendor is given until 2026-11-25 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public…",
-      "source": "zerodayinitiative.com"
-    },
-    {
-      "title": "ZDI-CAN-32160: Netdata",
-      "link": "http://www.zerodayinitiative.com/advisories/upcoming/",
-      "date": "2026-07-28T05:00:00Z",
-      "description": "A CVSS score 7.8 AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H severity vulnerability discovered by 'Kağan Çapar' was reported to the affected vendor on: 2026-07-28, 1 days ago. The vendor is given until 2026-11-25 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
-      "source": "zerodayinitiative.com"
-    },
-    {
-      "title": "ZDI-CAN-31531: Trend Micro",
-      "link": "http://www.zerodayinitiative.com/advisories/upcoming/",
-      "date": "2026-07-28T05:00:00Z",
-      "description": "A CVSS score 7.8 AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H severity vulnerability discovered by 'Lays (@_L4ys) of TRAPA Security' was reported to the affected vendor on: 2026-07-28, 1 days ago. The vendor is given until 2026-11-25 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
-      "source": "zerodayinitiative.com"
-    },
-    {
-      "title": "ZDI-CAN-31994: NVIDIA",
-      "link": "http://www.zerodayinitiative.com/advisories/upcoming/",
-      "date": "2026-07-24T05:00:00Z",
-      "description": "A CVSS score 7.3 AV:L/AC:L/PR:L/UI:N/S:C/C:H/I:L/A:N severity vulnerability discovered by 'HAI SON MAI (HSon)' was reported to the affected vendor on: 2026-07-24, 5 days ago. The vendor is given until 2026-11-21 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
-      "source": "zerodayinitiative.com"
-    },
-    {
-      "title": "ZDI-CAN-32114: NVIDIA",
-      "link": "http://www.zerodayinitiative.com/advisories/upcoming/",
-      "date": "2026-07-24T05:00:00Z",
-      "description": "A CVSS score 8.1 AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H severity vulnerability discovered by 'Mat Powell of TrendAI Zero Day Initiative' was reported to the affected vendor on: 2026-07-24, 5 days ago. The vendor is given until 2026-11-21 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
-      "source": "zerodayinitiative.com"
     },
     {
       "title": "Student Loan Breach Exposes 2.5M Records",
