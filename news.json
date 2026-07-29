@@ -1,12 +1,96 @@
 {
-  "last_updated": "2026-07-29T07:40:30Z",
-  "count": 30,
+  "last_updated": "2026-07-29T10:28:36Z",
+  "count": 35,
   "items": [
+    {
+      "title": "OpenAI’s Rogue AI Ventured Beyond Hugging Face",
+      "link": "https://www.securityweek.com/openais-rogue-ai-ventured-beyond-hugging-face/",
+      "date": "2026-07-29T10:10:09Z",
+      "description": "Hugging Face has published an anatomy of the attack and OpenAI has shared additional information from its investigation. The post OpenAI’s Rogue AI Ventured Beyond Hugging Face appeared first on SecurityWeek.",
+      "source": "securityweek.com"
+    },
+    {
+      "title": "20-Year-Old Vulnerability Enables Takeover of Thousands of Data Centers in Minutes",
+      "link": "https://cybersecuritynews.com/20-year-old-vulnerability-takeover-data-centres/",
+      "date": "2026-07-29T10:01:30Z",
+      "description": "A two-decade-old vulnerability in the Intelligent Platform Management Interface (IPMI) protocol could allow attackers to gain control of thousands of publicly exposed data center servers in just minutes, researchers have warned. The issue affects Baseboard Management Controllers (BMCs), which are privileged processors that enable administrators to manage physical servers remotely, even when the…",
+      "source": "cybersecuritynews.com"
+    },
+    {
+      "title": "WhatsApp Adds End-to-End Encryption for Voice and Video Calls",
+      "link": "https://cybersecuritynews.com/whatsapp-end-to-end-encryption-for-calls/",
+      "date": "2026-07-29T09:53:24Z",
+      "description": "WhatsApp has introduced a new set of calling features alongside expanded end-to-end encryption for voice and video communications, emphasizing its commitment to secure, cross-platform communication. This update now allows users to make encrypted calls on WhatsApp Web, enabling them to initiate and receive calls directly from a browser without needing to install the desktop application. […] The…",
+      "source": "cybersecuritynews.com"
+    },
+    {
+      "title": "Android Malware Scanners Are Flagging Legitimate Apps and Missing Threats Without Context",
+      "link": "https://cybersecuritynews.com/android-malware-scanners-without-context/",
+      "date": "2026-07-29T09:49:02Z",
+      "description": "Android malware scanners are increasingly misaligning with real-world risk by over-flagging legitimate, high-permission applications while quietly missing sophisticated threats that hide behind ordinary-looking code patterns. This growing detection gap stems from a heavy industry reliance on surface-level static signals rather than behavior and execution context, producing noisy detections that…",
+      "source": "cybersecuritynews.com"
+    },
+    {
+      "title": "Check Point SmartConsole 0-Day Exploited to Gain Full Administrator Access – PoC Released",
+      "link": "https://cybersecuritynews.com/check-point-zero-day-poc-released/",
+      "date": "2026-07-29T09:31:12Z",
+      "description": "A critical authentication bypass in SmartConsole that was actively exploited as a zero-day before patches were available. Tracked as CVE-2026-16232, the flaw affects Security Management Server and Multi-Domain Security Management Server (MDS) and can give an unauthenticated attacker full administrator access through the SmartConsole management interface. On July 22, 2026, Check Point published a…",
+      "source": "cybersecuritynews.com"
+    },
+    {
+      "title": "JFrog Artifactory Zero-Day Exploited by OpenAI Models to Escape Sandbox",
+      "link": "https://cybersecuritynews.com/jfrog-artifactory-zero-day/",
+      "date": "2026-07-29T09:15:11Z",
+      "description": "Artificial intelligence models have now demonstrated how quickly a security test can become a real infrastructure risk. In an isolated evaluation, OpenAI systems found and chained previously unknown flaws in self-hosted JFrog Artifactory, gaining internet access that the sandbox was meant to prevent. The incident did not involve conventional malware, but it shows autonomous systems […] The post…",
+      "source": "cybersecuritynews.com"
+    },
+    {
+      "title": "Spur Raises $200 Million for IP Intelligence Platform",
+      "link": "https://www.securityweek.com/spur-raises-200-million-for-ip-intelligence-platform/",
+      "date": "2026-07-29T09:12:19Z",
+      "description": "The IP intelligence company will use the fresh investment to accelerate and scale its operations. The post Spur Raises $200 Million for IP Intelligence Platform appeared first on SecurityWeek.",
+      "source": "securityweek.com"
+    },
+    {
+      "title": "Public PoC Released for Exploited Check Point SmartConsole Authentication Bypass",
+      "link": "https://thehackernews.com/2026/07/rapid7-releases-poc-for-exploited-check.html",
+      "date": "2026-07-29T08:58:27Z",
+      "description": "Cybersecurity researchers have shared additional technical details about a recently patched critical security flaw impacting Check Point Security Management Server and Multi-Domain Security Management Server (MDS) that has come under active exploitation in the wild. The vulnerability, tracked as CVE-2026-16232 (CVSS score: 9.3), is an authentication bypass in the SmartConsole login process that",
+      "source": "thehackernews.com"
+    },
+    {
+      "title": "JFrog Zero-Days Exploited in OpenAI-Hugging Face Hack",
+      "link": "https://www.securityweek.com/jfrog-zero-days-exploited-in-openai-hugging-face-hack/",
+      "date": "2026-07-29T08:46:30Z",
+      "description": "The OpenAI models targeted services beyond Hugging Face as they attempted to solve the tasks they were given. The post JFrog Zero-Days Exploited in OpenAI-Hugging Face Hack appeared first on SecurityWeek.",
+      "source": "securityweek.com"
+    },
+    {
+      "title": "Dozens of Minnesota Water Utilities Targeted in Coordinated OT Attacks",
+      "link": "https://www.securityweek.com/dozens-of-minnesota-water-utilities-targeted-in-coordinated-ot-attacks/",
+      "date": "2026-07-29T07:53:22Z",
+      "description": "State and federal agencies respond after intrusions disrupt automated controls at municipal water and wastewater utilities. The post Dozens of Minnesota Water Utilities Targeted in Coordinated OT Attacks appeared first on SecurityWeek.",
+      "source": "securityweek.com"
+    },
     {
       "title": "OpenAI Agent Used Exposed Credentials Across Four Services During Hugging Face Breach",
       "link": "https://thehackernews.com/2026/07/openai-agent-used-exposed-credentials.html",
-      "date": "2026-07-29T06:45:02Z",
-      "description": "OpenAI on Tuesday revealed the rogue artificial intelligence (AI) agent that escaped its sealed evaluation environment and broke into Hugging Face's production environment, and also hacked multiple third-party accounts and services as part of the attack. The latest disclosure shows that the security incident, which stemmed from an internal security test, was more extensive in scope than",
+      "date": "2026-07-29T07:51:00Z",
+      "description": "OpenAI on Tuesday revealed the rogue artificial intelligence (AI) agent that escaped its sealed evaluation environment and broke into Hugging Face's production environment also hacked multiple third-party accounts and services as part of the attack. The latest disclosure shows that the security incident, which stemmed from an internal security test, was more extensive in scope than previously",
+      "source": "thehackernews.com"
+    },
+    {
+      "title": "New Gitea RCE Lets Repository Writers Plant a Git Hook to Run Shell Commands",
+      "link": "https://thehackernews.com/2026/07/new-gitea-rce-lets-repository-writers.html",
+      "date": "2026-07-29T07:47:19Z",
+      "description": "Gitea, the self-hosted Git platform, has patched a critical remote code execution vulnerability. A user with ordinary repository write access can turn attacker-controlled patch content into a live Git hook and run shell commands as the Gitea service account. Tracked as CVE-2026-60004 (CVSS score: 9.8), the flaw affects Gitea versions 1.17 and later before 1.27.1 and is fixed in 1.27.1. The",
+      "source": "thehackernews.com"
+    },
+    {
+      "title": "Flying Eagle Android RAT Traces Found on 170 Servers as Source Code Circulates",
+      "link": "https://thehackernews.com/2026/07/flying-eagle-android-rat-traces-found.html",
+      "date": "2026-07-29T07:07:23Z",
+      "description": "Source code for the Flying Eagle Android remote access trojan (RAT) framework is circulating through criminal Telegram channels. Hunt.io and independent researcher NetAskari traced matching control panels and certificates to 170 internet servers. They linked the framework to a fake \"公安一网通办\" Public Security service application targeting Android users in China. The kit supports payment-password",
       "source": "thehackernews.com"
     },
     {
@@ -66,13 +150,6 @@
       "source": "darkreading.com"
     },
     {
-      "title": "Claude AI Just Cracked a Post-Quantum Test Scheme and Found a Faster 7-Round AES Attack",
-      "link": "https://thehackernews.com/2026/07/claude-ai-just-cracked-post-quantum.html",
-      "date": "2026-07-28T18:59:07Z",
-      "description": "Anthropic says Claude Mythos Preview helped derive an end-to-end key-recovery attack against HAWK-256 and a 200- to 800-fold speedup for an attack on seven-round AES-128. The HAWK attack exploits a previously unused symmetry in the lattice behind the signature scheme. Anthropic's released implementation gives an expected end-to-end runtime of about three hours and 42 minutes on a 96-core server",
-      "source": "thehackernews.com"
-    },
-    {
       "title": "CISA shares advice on isolating vital systems during cyberattacks",
       "link": "https://www.bleepingcomputer.com/news/security/cisa-shares-advice-on-isolating-vital-systems-during-cyberattacks/",
       "date": "2026-07-28T18:41:04Z",
@@ -94,53 +171,11 @@
       "source": "darkreading.com"
     },
     {
-      "title": "Tengu Botnet Reboots Compromised Linux Devices When Defenders Kill Its Process",
-      "link": "https://thehackernews.com/2026/07/tengu-botnet-reboots-compromised-linux.html",
-      "date": "2026-07-28T15:01:33Z",
-      "description": "A new Mirai-derived botnet called Tengu can use a compromised Linux device's hardware watchdog to trigger a reboot when defenders kill its main process. If that happens, Tengu's other persistence mechanisms get another chance to relaunch it. Nozomi Networks Labs observed the dropper reaching its honeypots through Telnet credential brute force. Tengu supports 25 distributed denial-of-service (",
-      "source": "thehackernews.com"
-    },
-    {
-      "title": "Cyera Acquiring Oasis Security in $1 Billion Deal",
-      "link": "https://www.securityweek.com/cyera-acquiring-oasis-security-in-1-billion-deal/",
-      "date": "2026-07-28T14:55:30Z",
-      "description": "Oasis Security recently raised $120 million in Series B funding for its agentic access management platform. The post Cyera Acquiring Oasis Security in $1 Billion Deal appeared first on SecurityWeek.",
-      "source": "securityweek.com"
-    },
-    {
-      "title": "24,650 Internet-Exposed BMCs Disclose IPMI Password Hashes Before Login",
-      "link": "https://thehackernews.com/2026/07/24650-internet-exposed-bmcs-disclose.html",
-      "date": "2026-07-28T14:41:36Z",
-      "description": "Cybersecurity researchers have sounded an alert after finding more than 36,000 Baseboard Management Controller (BMC) management interfaces exposing Intelligent Platform Management Interface (IPMI) protocol to the public internet. Of the 36,872 internet-exposed server-management interfaces running IPMI, 24,650 have been found to disclose password-derived authentication hashes before login due to",
-      "source": "thehackernews.com"
-    },
-    {
-      "title": "Apple Patches 87 Vulnerabilities in iOS, 155 in macOS Tahoe",
-      "link": "https://www.securityweek.com/apple-patches-87-vulnerabilities-in-ios-155-in-macos-tahoe/",
-      "date": "2026-07-28T14:19:31Z",
-      "description": "Apple announced that dozens of vulnerabilities have been patched in each of its operating systems. The post Apple Patches 87 Vulnerabilities in iOS, 155 in macOS Tahoe appeared first on SecurityWeek.",
-      "source": "securityweek.com"
-    },
-    {
       "title": "Is Your SSO Protected Against Modern Credential Attacks?",
       "link": "https://www.bleepingcomputer.com/news/security/is-your-sso-protected-against-modern-credential-attacks/",
       "date": "2026-07-28T14:00:10Z",
       "description": "A compromised SSO login can provide attackers with access to multiple enterprise applications and services. Specops Software explains how stronger passwords, phishing-resistant MFA, and identity hardening help secure modern SSO environments and the applications they protect. [...]",
       "source": "bleepingcomputer.com"
-    },
-    {
-      "title": "OT Security Startup Frenos Raises $1.52 Million",
-      "link": "https://www.securityweek.com/ot-security-startup-frenos-raises-1-52-million/",
-      "date": "2026-07-28T13:05:25Z",
-      "description": "The company will use the fresh investment to grow its customer success and AI R&D teams. The post OT Security Startup Frenos Raises $1.52 Million appeared first on SecurityWeek.",
-      "source": "securityweek.com"
-    },
-    {
-      "title": "Microsoft Unveils MAI-Cyber-1-Flash, Its First Cybersecurity AI Model",
-      "link": "https://www.securityweek.com/microsoft-unveils-mai-cyber-1-flash-its-first-cybersecurity-ai-model/",
-      "date": "2026-07-28T11:11:48Z",
-      "description": "The company claims MAI-Cyber-1-Flash tops Anthropic’s Mythos and OpenAI’s GPT-5.6 Sol in CyberGym testing. The post Microsoft Unveils MAI-Cyber-1-Flash, Its First Cybersecurity AI Model appeared first on SecurityWeek.",
-      "source": "securityweek.com"
     },
     {
       "title": "ZDI-CAN-33008: Thanos",
