@@ -1,12 +1,12 @@
 {
-  "last_updated": "2026-07-28T22:56:07Z",
-  "count": 35,
+  "last_updated": "2026-07-29T01:28:11Z",
+  "count": 30,
   "items": [
     {
       "title": "Ghost Credentials Expose Cloud Systems to Hidden Identity Risks",
       "link": "https://www.darkreading.com/cloud-security/non-human-identity-sprawl-creates-a-new-cloud-attack-path",
       "date": "2026-07-28T21:33:23Z",
-      "description": "Security researcher Aleksandr Krasnov reveals dormant non-human identities can create security blind spots and releases NHI Hound, an open source tool to sniff out trust paths.",
+      "description": "Dormant nonhuman identities can create security blind spots, says security researcher Aleksandr Krasnov, who has released an open source tool to sniff out trust paths.",
       "source": "darkreading.com"
     },
     {
@@ -59,46 +59,11 @@
       "source": "bleepingcomputer.com"
     },
     {
-      "title": "Claude Mythos Preview Discovers Cryptographic Weaknesses That Human Experts Missed for Years",
-      "link": "https://cybersecuritynews.com/claude-mythos-cryptographic-weaknesses/",
-      "date": "2026-07-28T18:24:07Z",
-      "description": "Anthropic researchers using Claude Mythos Preview have uncovered mathematical flaws in major cryptographic algorithms that human experts failed to spot for years. The AI found improved attacks against HAWK, a post-quantum digital signature scheme, and a reduced-round version of AES, the world’s most widely used symmetric cipher. Neither result threatens production systems today, but both […] The…",
-      "source": "cybersecuritynews.com"
-    },
-    {
       "title": "vBulletin fixes critical pre-auth RCE flaw with public exploit",
       "link": "https://www.bleepingcomputer.com/news/security/vbulletin-fixes-critical-pre-auth-rce-flaw-with-public-exploit/",
       "date": "2026-07-28T18:08:50Z",
       "description": "A critical vulnerability in the vBulletin forum software allows unauthenticated attackers to execute arbitrary PHP code through template rendering. [...]",
       "source": "bleepingcomputer.com"
-    },
-    {
-      "title": "JetBrains Urging Customers to Patch Critical TeamCity Flaw that Enables OS Command Execution",
-      "link": "https://cybersecuritynews.com/jetbrains-patch-teamcity-flaw/",
-      "date": "2026-07-28T17:46:13Z",
-      "description": "JetBrains has urgently released security updates for a critical vulnerability in TeamCity On-Premises that could allow remote attackers to bypass authentication and execute arbitrary operating system commands. This vulnerability, tracked as CVE-2026-63077, affects all versions of TeamCity On-Premises. The company has addressed the issue in TeamCity versions 2025.11.7 and 2026.1.3. Administrators…",
-      "source": "cybersecuritynews.com"
-    },
-    {
-      "title": "Top 10 Phishing Kits Used by Hackers to Launch Cyberattacks (July 20-26, 2026)",
-      "link": "https://cybersecuritynews.com/top-10-phishing-kits-used-by-hackers/",
-      "date": "2026-07-28T17:40:32Z",
-      "description": "Global phishing-as-a-service (PhaaS) activity surged to 7,295 tracked uploads during the week of July 20-26, 2026, driven overwhelmingly by OAuth device-code flow abuse and adversary-in-the-middle (AiTM) kits targeting Microsoft 365 identities. Cybercriminal group Storm-1747, the operator behind Tycoon2FA, logged 50 attributed uploads, down 6 from the prior week following ongoing law-enforcement…",
-      "source": "cybersecuritynews.com"
-    },
-    {
-      "title": "Chrome Extension Monitors AI Conversations Across ChatGPT, Claude, Gemini, and Other Platforms",
-      "link": "https://cybersecuritynews.com/chrome-extension-monitors-ai-conversations/",
-      "date": "2026-07-28T17:24:03Z",
-      "description": "A Chrome extension with roughly 100,000 installs is quietly harvesting every prompt and AI response typed across nine major artificial intelligence platforms. Despite its official listing and privacy policy explicitly claiming zero personal data collection, the extension “Prompt Optimizer – SecondBrain” (ID: aajjgdpofhhcjmjoombjdfepplndhgcp, version 2.3.1) is actively capturing user interactions…",
-      "source": "cybersecuritynews.com"
-    },
-    {
-      "title": "Nginx Buffer Overflow Vulnerability Allows Attackers to Execute Arbitrary Code – PoC Released",
-      "link": "https://cybersecuritynews.com/nginx-buffer-overflow-vulnerability-2/",
-      "date": "2026-07-28T16:46:41Z",
-      "description": "A high-severity heap buffer overflow in NGINX Plus and NGINX Open Source can let unauthenticated attackers crash worker processes and, under certain conditions, run arbitrary code. Tracked as CVE-2026-42533, the flaw affects configurations that use regex-based map directives or non-cacheable variables in string expressions, and it is especially dangerous when the Stream module’s ssl_preread…",
-      "source": "cybersecuritynews.com"
     },
     {
       "title": "'Certighost' Flaw Haunts Microsoft Active Directory Certificates",
