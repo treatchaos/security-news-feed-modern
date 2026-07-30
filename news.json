@@ -1,13 +1,48 @@
 {
-  "last_updated": "2026-07-30T10:11:01Z",
-  "count": 30,
+  "last_updated": "2026-07-30T12:22:15Z",
+  "count": 35,
   "items": [
+    {
+      "title": "‘DangleGeddon’: AI Could Weaponize Forgotten DNS Records at Global Scale",
+      "link": "https://www.securityweek.com/danglegeddon-ai-could-weaponize-forgotten-dns-records-at-global-scale/",
+      "date": "2026-07-30T12:15:24Z",
+      "description": "Researchers warn that AI could turn dangling DNS takeovers into a nation-state weapon capable of disrupting governments, banks and global supply chains. The post ‘DangleGeddon’: AI Could Weaponize Forgotten DNS Records at Global Scale appeared first on SecurityWeek.",
+      "source": "securityweek.com"
+    },
+    {
+      "title": "Semiconductor Firm Analog Devices Discloses Data Breach",
+      "link": "https://www.securityweek.com/semiconductor-firm-analog-devices-discloses-data-breach/",
+      "date": "2026-07-30T11:16:23Z",
+      "description": "Hackers were detected on Analog Devices systems in June, and an investigation found that they stole files. The post Semiconductor Firm Analog Devices Discloses Data Breach appeared first on SecurityWeek.",
+      "source": "securityweek.com"
+    },
+    {
+      "title": "Hackers Exploit AnySign4PC via Hacked Korean Sites to Install Backdoors Without Prompts",
+      "link": "https://thehackernews.com/2026/07/hackers-exploit-anysign4pc-via-hacked.html",
+      "date": "2026-07-30T10:33:15Z",
+      "description": "South Korean authorities and four security firms have disclosed a state-sponsored campaign that compromised trusted domestic websites. The attackers used those sites to exploit locally installed financial-security software and infect targeted visitors with SIGNBT or COPPERHEDGE backdoors. A compromised page could infect a system running a vulnerable AnySign4PC version without a prompt or",
+      "source": "thehackernews.com"
+    },
+    {
+      "title": "SilverFox Targets Japanese Manufacturer with 3-Driver BYOVD Chain and ValleyRAT",
+      "link": "https://thehackernews.com/2026/07/silverfox-targets-japanese-manufacturer.html",
+      "date": "2026-07-30T10:32:59Z",
+      "description": "The Chinese cybercrime group known as Silver Fox has been observed using new drivers as part of bring your own vulnerable driver (BYOVD) attacks targeting a Japanese organization in the industrial manufacturing sector to ultimately deliver ValleyRAT (aka Winos 4.0) for persistent remote access. \"In this campaign, the group combines new vulnerable-driver abuse, newly observed abuse of legitimate",
+      "source": "thehackernews.com"
+    },
     {
       "title": "Critical Ruflo Flaw Lets Attackers Spawn Rogue AI Swarms",
       "link": "https://www.securityweek.com/critical-ruflo-flaw-lets-attackers-spawn-rogue-ai-swarms/",
       "date": "2026-07-30T09:56:10Z",
       "description": "Unauthenticated attackers could send HTTP requests to an exposed endpoint to execute commands inside the MCP bridge container. The post Critical Ruflo Flaw Lets Attackers Spawn Rogue AI Swarms appeared first on SecurityWeek.",
       "source": "securityweek.com"
+    },
+    {
+      "title": "Fake Flash Player Installer Uses Microsoft-Themed Certificate to Deploy AtlasRAT",
+      "link": "https://cybersecuritynews.com/fake-flash-player-installer/",
+      "date": "2026-07-30T09:46:34Z",
+      "description": "AtlasRAT is being delivered through a fake Flash Player installer that looks harmless but can give attackers remote control of a Windows computer. The campaign abuses a familiar software name to lower a victim’s guard, then loads much of its malicious code directly into memory, where it is harder for traditional file-based checks to catch. […] The post Fake Flash Player Installer Uses…",
+      "source": "cybersecuritynews.com"
     },
     {
       "title": "1 in 5 Data Center Assets Are Within Easy Reach of Attackers",
@@ -17,6 +52,27 @@
       "source": "securityweek.com"
     },
     {
+      "title": "Linux Cryptomining Campaign Weaponizes PAM to Hide XMRig Botnet Activity",
+      "link": "https://cybersecuritynews.com/linux-cryptomining-campaign/",
+      "date": "2026-07-30T08:57:50Z",
+      "description": "A new Linux cryptomining campaign has surfaced using a rare trick to stay hidden inside compromised networks. Instead of behaving like typical malware, the operators turned a trusted Linux security feature into a tool for covering their tracks. This let them mine Monero cryptocurrency while dodging alerts that usually expose intruders. The attack began in […] The post Linux Cryptomining Campaign…",
+      "source": "cybersecuritynews.com"
+    },
+    {
+      "title": "GitLab Fixes 13 Security Flaws That Can Leak Data, Alter Pipelines, and Crash Servers",
+      "link": "https://cybersecuritynews.com/gitlab-fixes-13-security-flaws/",
+      "date": "2026-07-30T08:53:20Z",
+      "description": "GitLab has released critical security updates to address 13 vulnerabilities that could potentially expose sensitive data, manipulate CI/CD pipelines, and disrupt server availability across Community Edition (CE) and Enterprise Edition (EE) deployments. The latest patch versions, 19.2.1, 19.1.3, and 19.0.5, were released on July 29, 2026. These updates include fixes for high-, medium-, and…",
+      "source": "cybersecuritynews.com"
+    },
+    {
+      "title": "A Two-Minute Microsoft Teams Call Could End With Your Network Encrypted With Ransomware",
+      "link": "https://cybersecuritynews.com/a-two-minute-microsoft-teams-call/",
+      "date": "2026-07-30T08:44:29Z",
+      "description": "A short Microsoft Teams call can now become the first step in a ransomware attack. Attackers posing as IT support staff are persuading employees to grant remote access, then using that foothold to spread through networks and deploy Chaos ransomware. The campaign, tracked as STAC4749, targeted dozens of North American organizations between February and June […] The post A Two-Minute Microsoft…",
+      "source": "cybersecuritynews.com"
+    },
+    {
       "title": "US and Allies Update SBOM Guidance",
       "link": "https://www.securityweek.com/us-and-allies-update-sbom-guidance/",
       "date": "2026-07-30T08:21:19Z",
@@ -24,11 +80,11 @@
       "source": "securityweek.com"
     },
     {
-      "title": "Chrome 151 Patches 370 Vulnerabilities",
-      "link": "https://www.securityweek.com/chrome-151-patches-370-vulnerabilities/",
-      "date": "2026-07-30T07:51:24Z",
-      "description": "The major browser update resolves roughly 80 critical- and high-severity security defects. The post Chrome 151 Patches 370 Vulnerabilities appeared first on SecurityWeek.",
-      "source": "securityweek.com"
+      "title": "Claude Worldwide Outage Disrupts Users With “Request Failed With 529 Overloaded” Message",
+      "link": "https://cybersecuritynews.com/claude-worldwide-outage-disrupts-users/",
+      "date": "2026-07-30T08:17:24Z",
+      "description": "Anthropic’s Claude AI platform suffered a worldwide outage on July 29, 2026, causing failed prompts, slow responses, interrupted conversations, and “Request Failed With 529 Overloaded” errors across multiple models. The outage affected both Claude’s web interface and services that rely on Claude models via its API. The 529 error generally indicates that a service is […] The post Claude Worldwide…",
+      "source": "cybersecuritynews.com"
     },
     {
       "title": "Russian Hackers Exploit Microsoft OWA Flaw to Keep Mailbox Access After Credential Rotation",
@@ -45,24 +101,10 @@
       "source": "thehackernews.com"
     },
     {
-      "title": "Cisco Secure FMC Zero-Day Exploited in the Wild",
-      "link": "https://www.securityweek.com/cisco-secure-fmc-zero-day-exploited-in-the-wild/",
-      "date": "2026-07-30T06:31:31Z",
-      "description": "The vulnerability tracked as CVE-2026-20316 can be exploited by a remote, unauthenticated attacker to log into affected devices. The post Cisco Secure FMC Zero-Day Exploited in the Wild appeared first on SecurityWeek.",
-      "source": "securityweek.com"
-    },
-    {
       "title": "Amazon Links Debug and Chalk npm Hijack to North Korea’s Sapphire Sleet",
       "link": "https://thehackernews.com/2026/07/amazon-links-debug-and-chalk-npm-hijack.html",
       "date": "2026-07-30T06:05:17Z",
       "description": "Amazon has tied the September 2025 hijack of the npm packages debug and chalk to North Korea. For ten months, the incident sat in the public record as crypto theft: a maintainer phished through a lookalike npm domain and a wallet-draining script pushed into at least 18 packages carrying more than 2 billion weekly downloads between them. The original Aikido and Wiz reports did not attribute the",
-      "source": "thehackernews.com"
-    },
-    {
-      "title": "Cisco FMC Zero-Day Actively Exploited, Static Credentials Could Expose Sensitive Data",
-      "link": "https://thehackernews.com/2026/07/cisco-fmc-zero-day-actively-exploited.html",
-      "date": "2026-07-30T05:08:39Z",
-      "description": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Wednesday added a newly disclosed security flaw impacting Cisco Secure Firewall Management Center (FMC) Software to its Known Exploited Vulnerabilities (KEV) catalog, following reports of zero-day exploitation. The vulnerability, assigned CVE-2026-20316 (CVSS score: 5.3), could permit an unauthenticated, remote attacker to log",
       "source": "thehackernews.com"
     },
     {
@@ -113,13 +155,6 @@
       "date": "2026-07-29T19:46:20Z",
       "description": "The agentic AI playing field was heavily tilted toward offense, so researchers began using red team agents to help teach their blue counterparts.",
       "source": "darkreading.com"
-    },
-    {
-      "title": "Critical Rails Flaw Could Let Unauthenticated Attackers Read Server Files via Image Uploads",
-      "link": "https://thehackernews.com/2026/07/critical-rails-flaw-could-let.html",
-      "date": "2026-07-29T18:10:00Z",
-      "description": "Ruby on Rails has released fixes for a critical Active Storage vulnerability that could let unauthenticated attackers read arbitrary files from application servers through crafted image uploads. Tracked as CVE-2026-66066 (CVSS score: 9.5), the flaw can expose the Rails process environment and secrets such as secret_key_base, the Rails master key, database passwords, cloud storage credentials,",
-      "source": "thehackernews.com"
     },
     {
       "title": "Health-ISAC warns of rising ShinyHunters data theft attacks on healthcare",
