@@ -1,19 +1,61 @@
 {
-  "last_updated": "2026-07-30T04:46:44Z",
+  "last_updated": "2026-07-30T07:26:43Z",
   "count": 35,
   "items": [
+    {
+      "title": "Fake N26 Support Calls Deploy Copybara Android RAT to Control Banking Apps",
+      "link": "https://cybersecuritynews.com/fake-n26-support-calls-copybara-rat/",
+      "date": "2026-07-30T07:08:57Z",
+      "description": "A new fraud campaign is targeting Android banking users through convincing phone calls that impersonate N26 support staff. The attack begins as voice phishing, but it can end with criminals remotely controlling banking apps on a victim’s phone. Victims are told that their account needs urgent verification or a device certification update. Attackers then guide […] The post Fake N26 Support Calls…",
+      "source": "cybersecuritynews.com"
+    },
+    {
+      "title": "Cisco Secure FMC Zero-Day Exploited in the Wild",
+      "link": "https://www.securityweek.com/cisco-secure-fmc-zero-day-exploited-in-the-wild/",
+      "date": "2026-07-30T06:31:31Z",
+      "description": "The vulnerability tracked as CVE-2026-20316 can be exploited by a remote, unauthenticated attacker to log into affected devices. The post Cisco Secure FMC Zero-Day Exploited in the Wild appeared first on SecurityWeek.",
+      "source": "securityweek.com"
+    },
+    {
+      "title": "North Korean Hackers Turn Trusted npm Packages Into a Gateway for Supply-Chain Attacks",
+      "link": "https://cybersecuritynews.com/north-korean-hackers-turn-trusted-npm-packages/",
+      "date": "2026-07-30T06:11:43Z",
+      "description": "North Korean-linked hackers are turning trusted npm packages into an entry point for widespread software supply-chain attacks. By compromising the accounts of legitimate package maintainers, the attackers can slip malicious updates into tools that developers and businesses already trust. The campaigns affected the typo-crypto, debug, chalk, and axios packages at different points between March…",
+      "source": "cybersecuritynews.com"
+    },
+    {
+      "title": "Amazon Links Debug and Chalk npm Hijack to North Korea’s Sapphire Sleet",
+      "link": "https://thehackernews.com/2026/07/amazon-links-debug-and-chalk-npm-hijack.html",
+      "date": "2026-07-30T06:05:17Z",
+      "description": "Amazon has tied the September 2025 hijack of the npm packages debug and chalk to North Korea. For ten months, the incident sat in the public record as crypto theft: a maintainer phished through a lookalike npm domain and a wallet-draining script pushed into at least 18 packages carrying more than 2 billion weekly downloads between them. The original Aikido and Wiz reports did not attribute the",
+      "source": "thehackernews.com"
+    },
+    {
+      "title": "TA488 May Have Exploited Outlook Web Access 0-Day Flaw Before Microsoft’s Emergency Patch",
+      "link": "https://cybersecuritynews.com/ta488-exploited-outlook-web-access-0-day-flaw/",
+      "date": "2026-07-30T05:49:26Z",
+      "description": "TA488 has been linked to a new campaign that turns a routine Outlook Web Access email into a gateway for mailbox compromise. The operation abused a now-patched cross-site scripting flaw, tracked as CVE-2026-42897, and could run malicious code when a recipient opened a message in the webmail interface. The campaign targeted government bodies and organizations […] The post TA488 May Have Exploited…",
+      "source": "cybersecuritynews.com"
+    },
+    {
+      "title": "Cisco Firewall Management Center 0-Day Actively Exploited to Access Sensitive Data",
+      "link": "https://cybersecuritynews.com/cisco-firewall-management-center-0-day/",
+      "date": "2026-07-30T05:17:58Z",
+      "description": "Cisco has released security updates for an actively exploited zero-day vulnerability in Cisco Secure Firewall Management Center (FMC) Software. This vulnerability, tracked as CVE-2026-20316, arises from static credentials embedded in the FMC web interface. Although the flaw carries a CVSS score of 5.3, Cisco assigned it a High Security Impact Rating because attackers may combine […] The post…",
+      "source": "cybersecuritynews.com"
+    },
+    {
+      "title": "Cisco FMC Zero-Day Actively Exploited, Static Credentials Could Expose Sensitive Data",
+      "link": "https://thehackernews.com/2026/07/cisco-fmc-zero-day-actively-exploited.html",
+      "date": "2026-07-30T05:08:39Z",
+      "description": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Wednesday added a newly disclosed security flaw impacting Cisco Secure Firewall Management Center (FMC) Software to its Known Exploited Vulnerabilities (KEV) catalog, following reports of zero-day exploitation. The vulnerability, assigned CVE-2026-20316 (CVSS score: 5.3), could permit an unauthenticated, remote attacker to log",
+      "source": "thehackernews.com"
+    },
     {
       "title": "Microsoft Word Copilot Vulnerability Turns Hidden Prompts Into Self‑Propagating AI Worms",
       "link": "https://cybersecuritynews.com/microsoft-word-copilot-vulnerability/",
       "date": "2026-07-30T04:16:46Z",
       "description": "A new vulnerability in Microsoft Copilot for Word shows how hidden prompts inside documents can transform routine editing into a self‑propagating “AI worm” that tampers with business content and then quietly spreads itself to new files. The vulnerability uncovered by EN Klype Salt stems from Copilot’s handling of attached or contextual documents: text that looks […] The post Microsoft Word…",
-      "source": "cybersecuritynews.com"
-    },
-    {
-      "title": "Critical Rails Flaw Lets Attackers Read Arbitrary Files and Execute Malicious Code Remotely",
-      "link": "https://cybersecuritynews.com/critical-rails-vulnerability/",
-      "date": "2026-07-30T03:40:30Z",
-      "description": "A severe security vulnerability in Ruby on Rails Active Storage tracked as CVE-2026-66066 can let unauthenticated attackers read sensitive files from a server and potentially escalate to remote code execution. The issue affects applications that use libvips for image variant processing and accept image uploads from untrusted users, putting secrets such as secret_key_base, cloud credentials, […]…",
       "source": "cybersecuritynews.com"
     },
     {
@@ -87,25 +129,11 @@
       "source": "darkreading.com"
     },
     {
-      "title": "AI-Generated Phishing No Longer Needs Malware: It Can Steal Your Session Inside the Browser",
-      "link": "https://cybersecuritynews.com/ai-generated-phishing-without-malware/",
-      "date": "2026-07-29T16:53:06Z",
-      "description": "AI-generated phishing campaigns are rapidly evolving beyond traditional malware delivery, shifting the battleground directly into the web browser where attackers can hijack active sessions, bypass multi-factor authentication (MFA), and evade conventional endpoint security controls. This emerging threat model is forcing security operations centers (SOCs) to rethink how phishing attacks are…",
-      "source": "cybersecuritynews.com"
-    },
-    {
       "title": "OpenAI agent used exposed credentials at 4 services in Hugging Face breach",
       "link": "https://www.bleepingcomputer.com/news/security/openai-agent-used-exposed-credentials-at-4-services-in-hugging-face-breach/",
       "date": "2026-07-29T16:04:59Z",
       "description": "In a new update, OpenAI says its AI models also used publicly exposed credentials to compromise accounts on four third-party services during the recent attack on Hugging Face, expanding the scope of the four-day security incident to other organizations. [...]",
       "source": "bleepingcomputer.com"
-    },
-    {
-      "title": "NVIDIA BlueField Vulnerability Enables Code Execution Attacks",
-      "link": "https://cybersecuritynews.com/nvidia-bluefield-vulnerability/",
-      "date": "2026-07-29T15:44:25Z",
-      "description": "NVIDIA has disclosed a serious vulnerability affecting its BlueField DPUs and ConnectX networking platforms that could allow attackers to execute code on affected systems if successfully exploited. This vulnerability, tracked as CVE-2026-65094, impacts the VIRTIO-Net component and has a CVSS v3.1 score of 9.0, indicating a high-risk issue for enterprise and cloud deployments. According to […]…",
-      "source": "cybersecuritynews.com"
     },
     {
       "title": "Ruflo MCP Flaw Lets Unauthenticated Attackers Run Commands and Poison AI Memory",
@@ -115,31 +143,10 @@
       "source": "thehackernews.com"
     },
     {
-      "title": "macOS ClickFix Attack Deploys Atomic Stealer to Steal Passwords and Crypto Wallets",
-      "link": "https://cybersecuritynews.com/macos-clickfix-attack-atomic-stealer/",
-      "date": "2026-07-29T15:37:38Z",
-      "description": "Mac users are being targeted by a ClickFix campaign that turns a fake verification prompt into a path for malware installation. Victims are persuaded to copy a command from a web page, open Terminal, paste it, and run it, believing they are completing a routine CAPTCHA check. The attack does not rely on a software […] The post macOS ClickFix Attack Deploys Atomic Stealer to Steal Passwords and…",
-      "source": "cybersecuritynews.com"
-    },
-    {
       "title": "Three Critical VMware Flaws Allow Auth Bypass, Code Execution, and VM Escape",
       "link": "https://thehackernews.com/2026/07/three-critical-vmware-flaws-allow-auth.html",
       "date": "2026-07-29T15:31:15Z",
       "description": "Broadcom has released security updates to address multiple security flaws impacting VMware ESX, vCenter, Workstation, and Fusion, three of which have been designated as critical in severity. The first of the three critical-rated flaws is CVE-2026-59309 (CVSS score: 9.8), which has been described as an authentication bypass in VMware vCenter. \"A malicious actor with network access to vCenter",
-      "source": "thehackernews.com"
-    },
-    {
-      "title": "Coordinated Cyberattack Targets 30+ Minnesota Water Systems as One Plant Goes Offline",
-      "link": "https://thehackernews.com/2026/07/coordinated-cyberattack-targets-30.html",
-      "date": "2026-07-29T13:48:36Z",
-      "description": "A coordinated cyberattack targeted operational technology at more than 30 Minnesota community water systems on July 26 and 27, triggering a statewide cybersecurity response. Braham, Plymouth, South St. Paul and Maple Plain have publicly described a plant outage, communications failures or affected automated controls. Braham's water plant went offline, and the city asked residents to minimize",
-      "source": "thehackernews.com"
-    },
-    {
-      "title": "Nine-Year Fraud Campaign Clones Russian Company Sites to Steal Advance Payments",
-      "link": "https://thehackernews.com/2026/07/nine-year-fraud-campaign.html",
-      "date": "2026-07-29T13:42:57Z",
-      "description": "Cybersecurity researchers have disclosed details of a large-scale fraud campaign that involves creating lookalike websites of major Russian companies with an aim to siphon funds from international firms for more than nine years. According to Russian cybersecurity vendor F6, the threat actors have set up clone websites of Russian companies across fertilizer manufacturers, petrochemical companies",
       "source": "thehackernews.com"
     },
     {
@@ -171,45 +178,38 @@
       "source": "securityweek.com"
     },
     {
-      "title": "US, Australia Release OT Isolation Guidance for Critical Infrastructure",
-      "link": "https://www.securityweek.com/us-australia-release-ot-isolation-guidance-for-critical-infrastructure/",
-      "date": "2026-07-29T10:58:44Z",
-      "description": "The guidance details steps organizations can take to isolate vital OT and supporting systems, and operate in isolation for an extended period. The post US, Australia Release OT Isolation Guidance for Critical Infrastructure appeared first on SecurityWeek.",
-      "source": "securityweek.com"
-    },
-    {
       "title": "ZDI-CAN-33062: LangGenius",
       "link": "http://www.zerodayinitiative.com/advisories/upcoming/",
       "date": "2026-07-29T05:00:00Z",
-      "description": "A CVSS score 8.5 AV:N/AC:L/PR:L/UI:N/S:C/C:H/I:L/A:N severity vulnerability discovered by 'Taha Siddiqi (@_atomiz_) of TrendAI Research' was reported to the affected vendor on: 2026-07-29, 0 days ago. The vendor is given until 2026-11-26 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
+      "description": "A CVSS score 8.5 AV:N/AC:L/PR:L/UI:N/S:C/C:H/I:L/A:N severity vulnerability discovered by 'Taha Siddiqi (@_atomiz_) of TrendAI Research' was reported to the affected vendor on: 2026-07-29, 1 days ago. The vendor is given until 2026-11-26 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
       "source": "zerodayinitiative.com"
     },
     {
       "title": "ZDI-CAN-30646: NoMachine",
       "link": "http://www.zerodayinitiative.com/advisories/upcoming/",
       "date": "2026-07-29T05:00:00Z",
-      "description": "A CVSS score 7.8 AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H severity vulnerability discovered by 'khongtrang' was reported to the affected vendor on: 2026-07-29, 0 days ago. The vendor is given until 2026-11-26 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
+      "description": "A CVSS score 7.8 AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H severity vulnerability discovered by 'khongtrang' was reported to the affected vendor on: 2026-07-29, 1 days ago. The vendor is given until 2026-11-26 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
       "source": "zerodayinitiative.com"
     },
     {
       "title": "ZDI-CAN-30984: NoMachine",
       "link": "http://www.zerodayinitiative.com/advisories/upcoming/",
       "date": "2026-07-29T05:00:00Z",
-      "description": "A CVSS score 7.8 AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H severity vulnerability discovered by 'Tobias Vonmetz' was reported to the affected vendor on: 2026-07-29, 0 days ago. The vendor is given until 2026-11-26 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
+      "description": "A CVSS score 7.8 AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H severity vulnerability discovered by 'Tobias Vonmetz' was reported to the affected vendor on: 2026-07-29, 1 days ago. The vendor is given until 2026-11-26 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
       "source": "zerodayinitiative.com"
     },
     {
       "title": "ZDI-CAN-33060: LangGenius",
       "link": "http://www.zerodayinitiative.com/advisories/upcoming/",
       "date": "2026-07-29T05:00:00Z",
-      "description": "A CVSS score 7.1 AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:L/A:N severity vulnerability discovered by 'Taha Siddiqi (@_atomiz_) of TrendAI Research' was reported to the affected vendor on: 2026-07-29, 0 days ago. The vendor is given until 2026-11-26 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
+      "description": "A CVSS score 7.1 AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:L/A:N severity vulnerability discovered by 'Taha Siddiqi (@_atomiz_) of TrendAI Research' was reported to the affected vendor on: 2026-07-29, 1 days ago. The vendor is given until 2026-11-26 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
       "source": "zerodayinitiative.com"
     },
     {
       "title": "ZDI-CAN-31535: Adobe",
       "link": "http://www.zerodayinitiative.com/advisories/upcoming/",
       "date": "2026-07-29T05:00:00Z",
-      "description": "A CVSS score 3.3 AV:L/AC:L/PR:N/UI:R/S:U/C:L/I:N/A:N severity vulnerability discovered by 'Kiwan Ko' was reported to the affected vendor on: 2026-07-29, 0 days ago. The vendor is given until 2026-11-26 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
+      "description": "A CVSS score 3.3 AV:L/AC:L/PR:N/UI:R/S:U/C:L/I:N/A:N severity vulnerability discovered by 'Kiwan Ko' was reported to the affected vendor on: 2026-07-29, 1 days ago. The vendor is given until 2026-11-26 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
       "source": "zerodayinitiative.com"
     },
     {
