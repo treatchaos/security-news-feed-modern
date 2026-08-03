@@ -1,9 +1,23 @@
 {
-  "last_updated": "2026-08-03T20:53:50Z",
-  "count": 35,
+  "last_updated": "2026-08-03T21:57:44Z",
+  "count": 30,
   "items": [
     {
-      "title": "Anthropic: AI Issues Result of Security Gaps, Not Model Issues",
+      "title": "Attackers Exploit N-able Patch Bypass Flaw on RMM Servers",
+      "link": "https://www.darkreading.com/vulnerabilities-threats/attackers-exploit-n-able-patch-bypass-flaw",
+      "date": "2026-08-03T21:21:11Z",
+      "description": "Over the weekend, the vendor discovered another vector of authentication bypass CVE-2026-18577 that gives attackers administrator access.",
+      "source": "darkreading.com"
+    },
+    {
+      "title": "New Tool Traces AI Videos Back to Their Source",
+      "link": "https://www.darkreading.com/cyber-risk/new-tool-advances-ai-generated-video-detection",
+      "date": "2026-08-03T20:42:28Z",
+      "description": "Researchers dug into the root of the problem with the goal of promoting industry collaboration on improved protective measures.",
+      "source": "darkreading.com"
+    },
+    {
+      "title": "Anthropic: AI Attacks Result of Security Gaps, Not Model Issues",
       "link": "https://www.darkreading.com/cyber-risk/anthropic-ai-issues-result-security-gaps",
       "date": "2026-08-03T20:31:12Z",
       "description": "Last month's incidents in which Claude breached real-world systems derived from over-permissioning, especially with Internet access.",
@@ -31,32 +45,11 @@
       "source": "thehackernews.com"
     },
     {
-      "title": "Malware Can Steal Your Google Synced Passkey Without Asking for Your Password or Fingerprint",
-      "link": "https://cybersecuritynews.com/google-synced-passkey-malware-attack/",
-      "date": "2026-08-03T17:45:58Z",
-      "description": "New research reveals that malware already sitting on a compromised Windows PC can hijack Google’s synced passkeys and take over accounts without ever prompting the victim for a password, PIN, or fingerprint. The findings, detailed in the third part of a series examining passkey security, expose flaws in how Google’s Cloud Authenticator handles device trust, […] The post Malware Can Steal Your…",
-      "source": "cybersecuritynews.com"
-    },
-    {
       "title": "N-able warns of N-central auth bypass flaw exploited in attacks",
       "link": "https://www.bleepingcomputer.com/news/security/n-able-warns-of-n-central-auth-bypass-flaw-exploited-in-attacks/",
       "date": "2026-08-03T17:00:56Z",
       "description": "N-able is warning customers that hackers are exploiting an authentication bypass vulnerability (CVE-2026-18577) affecting both hosted and on-premises N-central servers. [...]",
       "source": "bleepingcomputer.com"
-    },
-    {
-      "title": "DNA Test Software Vulnerability Allows Attackers to Alter Analysis Data",
-      "link": "https://cybersecuritynews.com/dna-test-software-vulnerability/",
-      "date": "2026-08-03T16:49:55Z",
-      "description": "Thermo Fisher Scientific has disclosed a high-severity security flaw affecting several of its Applied Biosystems Human Identification (HID) software products, warning that attackers could make nearly undetectable modifications to forensic DNA analysis files before they are processed. The vulnerability, tracked as CVE-2026-17583, carries a CVSS v4.0 score of 8.2 and was published on July 31, […]…",
-      "source": "cybersecuritynews.com"
-    },
-    {
-      "title": "Public PoC Released for Critical Rails Active Storage RCE Vulnerability",
-      "link": "https://cybersecuritynews.com/rails-active-storage-rce-vulnerability-poc/",
-      "date": "2026-08-03T16:35:59Z",
-      "description": "A critical vulnerability in Ruby on Rails has raised new concerns about cloud data breaches, particularly for companies that host customer platforms in Amazon Web Services (AWS). Known as CVE-2026-66066 or KindaRails2Shell, this flaw affects Active Storage deployments that utilize the libvips image-processing library and accept uploads from untrusted users. While there is no specific […] The…",
-      "source": "cybersecuritynews.com"
     },
     {
       "title": "Google Password Manager Attacks Could Let Malware Hijack Passkey-Protected Accounts",
@@ -83,7 +76,7 @@
       "title": "Chinese Actor Weaponizes Deepseek AI Agent to Attack Security Firm",
       "link": "https://www.darkreading.com/cyberattacks-data-breaches/chinese-actor-deepseek-ai-agent-attack-security-firm",
       "date": "2026-08-03T15:42:18Z",
-      "description": "Researchers from Jesta intercepted and investigated the model, which was attempting to compromise more than 1,200 hosts for proxyjacking and to launch further attacks",
+      "description": "Researchers intercepted and investigated the model, which was attempting to compromise more than 1,200 hosts for proxyjacking to launch further attacks.",
       "source": "darkreading.com"
     },
     {
@@ -108,25 +101,11 @@
       "source": "bleepingcomputer.com"
     },
     {
-      "title": "Hugging Face Diffusers Vulnerabilities Enable Remote Code Execution Through Malicious AI Models",
-      "link": "https://cybersecuritynews.com/hugging-face-diffusers-vulnerabilities/",
-      "date": "2026-08-03T15:01:22Z",
-      "description": "A set of high-severity vulnerabilities in Hugging Face’s diffusers library that allow a malicious model repository to silently execute arbitrary code on any machine that loads it. The flaws bypass trust_remote_code, the very safeguard designed to stop unreviewed code from running during the custom pipeline loading process, raising serious concerns for an AI ecosystem that […] The post Hugging…",
-      "source": "cybersecuritynews.com"
-    },
-    {
       "title": "Inside the Underground Business of the Android BTMOB RAT malware",
       "link": "https://www.bleepingcomputer.com/news/security/inside-the-underground-business-of-btmob-rat/",
       "date": "2026-08-03T14:45:55Z",
       "description": "Flare researchers analyzed thousands of underground posts to examine how the BTMOB Android malware operation evolved into a fragmented ecosystem of resellers, source-code vendors, custom versions, and competing sales channels. [...]",
       "source": "bleepingcomputer.com"
-    },
-    {
-      "title": "TP-Link TL-WR940N Vulnerability Enables Remote Code Execution Attacks",
-      "link": "https://cybersecuritynews.com/tp-link-rce-vulnerability/",
-      "date": "2026-08-03T14:44:28Z",
-      "description": "TP-Link has issued a security advisory regarding a high-severity vulnerability affecting its TL-WR940N V6 wireless router. This vulnerability, tracked as CVE-2026-12935, could allow unauthenticated attackers to trigger a denial-of-service condition or achieve remote code execution on vulnerable devices under certain circumstances. The issue lies within the router’s RTSP connection tracking…",
-      "source": "cybersecuritynews.com"
     },
     {
       "title": "⚡ Weekly Recap: Rogue AI Models, $88M Bitcoin Theft, Water-System Attacks and Dangling DNS Hijacks",
@@ -197,20 +176,6 @@
       "date": "2026-08-01T05:00:00Z",
       "description": "A CVSS score 7.8 AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H severity vulnerability discovered by 'Liang Zhu' was reported to the affected vendor on: 2026-08-01, 2 days ago. The vendor is given until 2026-11-29 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
       "source": "zerodayinitiative.com"
-    },
-    {
-      "title": "CISA Issues Fresh SBOM Guidance. Did They Get It Right?",
-      "link": "https://www.darkreading.com/cybersecurity-operations/cisa-issues-fresh-sbom-guidance",
-      "date": "2026-07-31T18:13:11Z",
-      "description": "A couple dozen changes to SBOM fields will make them more comprehensive, but some argue that the framework lacks real risk-management improvements.",
-      "source": "darkreading.com"
-    },
-    {
-      "title": "The Morning After We Pull a Root of Trust, Nobody Owns It",
-      "link": "https://www.darkreading.com/cyber-risk/morning-after-we-pull-root-of-trust-nobody-owns-it",
-      "date": "2026-07-31T14:00:00Z",
-      "description": "The most valuable move any security team can make is building a certificate and key inventory.",
-      "source": "darkreading.com"
     },
     {
       "title": "Student Loan Breach Exposes 2.5M Records",
