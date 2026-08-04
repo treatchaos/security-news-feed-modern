@@ -1,13 +1,41 @@
 {
-  "last_updated": "2026-08-04T08:17:21Z",
-  "count": 35,
+  "last_updated": "2026-08-04T11:14:32Z",
+  "count": 30,
   "items": [
     {
-      "title": "North Korean Hackers Are Hiding Malware Servers Inside Empty Crypto Transfers",
-      "link": "https://cybersecuritynews.com/north-korean-hackers-hiding-malware/",
-      "date": "2026-08-04T07:01:10Z",
-      "description": "North Korean-linked attackers are using a new way to hide the servers that control malware. The method places a command server address inside an empty Ethereum transaction, making the activity look like a normal crypto transfer rather than a malware signal. The technique was found in two malicious npm packages, bianira-ui version 1.27.0 and fluid-type-ui version 2.0.8. Both packages […] The post…",
-      "source": "cybersecuritynews.com"
+      "title": "Gemini Agent-to-Agent Attack Method Exposed Secrets, Enabled Pull Request Tampering",
+      "link": "https://www.securityweek.com/gemini-agent-to-agent-attack-exposed-secrets-enabled-pull-request-tampering/",
+      "date": "2026-08-04T10:54:30Z",
+      "description": "A crafted prompt to a low-privilege Google ADK agent could be used to pass a malicious hand-off comment to a privileged agent. The post Gemini Agent-to-Agent Attack Method Exposed Secrets, Enabled Pull Request Tampering appeared first on SecurityWeek.",
+      "source": "securityweek.com"
+    },
+    {
+      "title": "New cPanel Critical Flaw Could Let Hosting Customers Run SQL as Database Root",
+      "link": "https://thehackernews.com/2026/08/new-cpanel-critical-flaw-could-let.html",
+      "date": "2026-08-04T10:36:27Z",
+      "description": "cPanel has patched a flaw that let an authenticated hosting customer execute SQL in the database's root context, crossing the privilege boundary between a cPanel account and the server's administrative database identity. It shipped in a targeted security release that closes two other routes past account boundaries. The database bug is tracked as CVE-2026-58048 (CVSS 4.0 score: 9.4) and affects",
+      "source": "thehackernews.com"
+    },
+    {
+      "title": "Decades-Old BMC Vulnerability Exposes Thousands of Data Centers to Attacks",
+      "link": "https://www.securityweek.com/decades-old-bmc-vulnerability-exposes-thousands-of-data-centers-to-attacks/",
+      "date": "2026-08-04T09:56:06Z",
+      "description": "Over 24,000 internet-accessible server-management interfaces disclose authentication hashes before login. The post Decades-Old BMC Vulnerability Exposes Thousands of Data Centers to Attacks appeared first on SecurityWeek.",
+      "source": "securityweek.com"
+    },
+    {
+      "title": "DOUBLECUP Uses ClickFix and Cached PNGs to Deliver CountLoader and DeviceManager RAT",
+      "link": "https://thehackernews.com/2026/08/doublecup-uses-clickfix-and-cached-pngs.html",
+      "date": "2026-08-04T09:03:23Z",
+      "description": "A new Russian loader-as-a-service (LaaS) codenamed DOUBLECUP has been using ClickFix lures as a way to stage malware-laced PNG images in victims' browser cache and ultimately deliver CountLoader and a previously undocumented remote access trojan called DeviceManager. \"The first stage drops a steganographic PNG image into the browser's cache, retrieves its hidden content, and executes the second",
+      "source": "thehackernews.com"
+    },
+    {
+      "title": "150,000 Impacted by Madera Community Hospital Data Breach",
+      "link": "https://www.securityweek.com/150000-impacted-by-madera-community-hospital-data-breach/",
+      "date": "2026-08-04T08:33:45Z",
+      "description": "An extortion group stole personal, financial, and medical information from the hospital’s network. The post 150,000 Impacted by Madera Community Hospital Data Breach appeared first on SecurityWeek.",
+      "source": "securityweek.com"
     },
     {
       "title": "CISA Adds Exploited N-able N-central Flaw to KEV After Customer Compromises",
@@ -29,20 +57,6 @@
       "date": "2026-08-04T05:18:34Z",
       "description": "The biggest single reward paid out by Microsoft between July 1, 2025, and June 30, 2026, was $200,000. The post Microsoft Bug Bounty Program: $20 Million Paid to 500 Researchers appeared first on SecurityWeek.",
       "source": "securityweek.com"
-    },
-    {
-      "title": "Check Point Authentication Bypass Flaw Enables Full Compromise of Security Management System",
-      "link": "https://cybersecuritynews.com/check-point-authentication-bypass-flaw/",
-      "date": "2026-08-04T05:15:04Z",
-      "description": "Check Point has released security updates for a high-severity authentication-bypass vulnerability (CVE-2026-18574) that could allow attackers to compromise vulnerable Security Management environments fully. This issue affects both Security Management Server and Multi-Domain Security Management Server deployments across several Check Point releases. According to Check Point, an unauthenticated…",
-      "source": "cybersecuritynews.com"
-    },
-    {
-      "title": "Telegram App Reportedly Vanished from Apple’s App Store Worldwide",
-      "link": "https://cybersecuritynews.com/telegram-apples-app-store/",
-      "date": "2026-08-04T03:37:22Z",
-      "description": "Telegram Messenger briefly disappeared from Apple’s App Store across multiple countries late Monday, sparking a wave of confusion and speculation on social media before the app was restored a short while later. Screenshots flooded platforms like X, showing users encountering error messages such as “This app is currently not available” when searching for Telegram, while […] The post Telegram App…",
-      "source": "cybersecuritynews.com"
     },
     {
       "title": "New York Awards $9 Million to Strengthen Cybersecurity at 153 Water Systems",
@@ -108,25 +122,11 @@
       "source": "thehackernews.com"
     },
     {
-      "title": "Malware Can Steal Your Google Synced Passkey Without Asking for Your Password or Fingerprint",
-      "link": "https://cybersecuritynews.com/google-synced-passkey-malware-attack/",
-      "date": "2026-08-03T17:45:58Z",
-      "description": "New research reveals that malware already sitting on a compromised Windows PC can hijack Google’s synced passkeys and take over accounts without ever prompting the victim for a password, PIN, or fingerprint. The findings, detailed in the third part of a series examining passkey security, expose flaws in how Google’s Cloud Authenticator handles device trust, […] The post Malware Can Steal Your…",
-      "source": "cybersecuritynews.com"
-    },
-    {
       "title": "N-able warns of N-central auth bypass flaw exploited in attacks",
       "link": "https://www.bleepingcomputer.com/news/security/n-able-warns-of-n-central-auth-bypass-flaw-exploited-in-attacks/",
       "date": "2026-08-03T17:00:56Z",
       "description": "N-able is warning customers that hackers are exploiting an authentication bypass vulnerability (CVE-2026-18577) affecting both hosted and on-premises N-central servers. [...]",
       "source": "bleepingcomputer.com"
-    },
-    {
-      "title": "DNA Test Software Vulnerability Allows Attackers to Alter Analysis Data",
-      "link": "https://cybersecuritynews.com/dna-test-software-vulnerability/",
-      "date": "2026-08-03T16:49:55Z",
-      "description": "Thermo Fisher Scientific has disclosed a high-severity security flaw affecting several of its Applied Biosystems Human Identification (HID) software products, warning that attackers could make nearly undetectable modifications to forensic DNA analysis files before they are processed. The vulnerability, tracked as CVE-2026-17583, carries a CVSS v4.0 score of 8.2 and was published on July 31, […]…",
-      "source": "cybersecuritynews.com"
     },
     {
       "title": "Google Password Manager Attacks Could Let Malware Hijack Passkey-Protected Accounts",
@@ -136,46 +136,11 @@
       "source": "thehackernews.com"
     },
     {
-      "title": "INC Ransomware Emerges as Dominant Actor Exploiting SonicWall SMA 1000 Flaws",
-      "link": "https://thehackernews.com/2026/08/inc-ransomware-emerges-as-dominant.html",
-      "date": "2026-08-03T16:15:13Z",
-      "description": "The INC Ransomware operation has emerged as the \"dominant threat actor\" exploiting the recently disclosed security flaws in SonicWall Secure Mobile Access (SMA) 1000 series VPN appliances. In a report published over the weekend, Resecurity said it observed the INC Ransomware accelerating its activity since the beginning of August 2026, listing multiple victims on its data leak site. Per",
-      "source": "thehackernews.com"
-    },
-    {
-      "title": "Black Hat USA 2026 – Summary of Vendor Announcements (Part 1)",
-      "link": "https://www.securityweek.com/black-hat-usa-2026-summary-of-vendor-announcements-part-1/",
-      "date": "2026-08-03T15:50:00Z",
-      "description": "Many companies are showcasing their products and services this week at the 2026 edition of the Black Hat conference in Las Vegas. The post Black Hat USA 2026 – Summary of Vendor Announcements (Part 1) appeared first on SecurityWeek.",
-      "source": "securityweek.com"
-    },
-    {
       "title": "Chinese Actor Weaponizes Deepseek AI Agent to Attack Security Firm",
       "link": "https://www.darkreading.com/cyberattacks-data-breaches/chinese-actor-deepseek-ai-agent-attack-security-firm",
       "date": "2026-08-03T15:42:18Z",
       "description": "Researchers intercepted and investigated the model, which was attempting to compromise more than 1,200 hosts for proxyjacking to launch further attacks.",
       "source": "darkreading.com"
-    },
-    {
-      "title": "Visa to Acquire Fraud Intelligence Firm BioCatch for $2.4 Billion",
-      "link": "https://www.securityweek.com/visa-to-acquire-fraud-intelligence-firm-biocatch-for-2-4-billion/",
-      "date": "2026-08-03T15:32:05Z",
-      "description": "The payments giant says BioCatch’s behavioral and device intelligence will help financial institutions combat account takeovers, scams and other forms of digital fraud. The post Visa to Acquire Fraud Intelligence Firm BioCatch for $2.4 Billion appeared first on SecurityWeek.",
-      "source": "securityweek.com"
-    },
-    {
-      "title": "Cyberattack Hits Liechtenstein’s Register of People Behind Companies and Foundations",
-      "link": "https://www.securityweek.com/cyberattack-hits-liechtensteins-register-of-people-behind-companies-and-foundations/",
-      "date": "2026-08-03T15:15:00Z",
-      "description": "The list of people behind companies, foundations and trusteeships is part of efforts to combat money laundering and terror financing. The post Cyberattack Hits Liechtenstein’s Register of People Behind Companies and Foundations appeared first on SecurityWeek.",
-      "source": "securityweek.com"
-    },
-    {
-      "title": "⚡ Weekly Recap: Rogue AI Models, $88M Bitcoin Theft, Water-System Attacks and Dangling DNS Hijacks",
-      "link": "https://thehackernews.com/2026/08/weekly-recap-rogue-ai-models-88m.html",
-      "date": "2026-08-03T14:03:11Z",
-      "description": "This week kept coming back to permission. A model crossed a boundary. A wallet trusted bad randomness. Webmail kept an intruder around. Public systems, package feeds, hotel networks, and login flows all gave away more than intended. Some of it was clever. Most of it was just access left lying around: old bugs, exposed gear, poisoned dependencies, weak defaults, and tooling that moved from",
-      "source": "thehackernews.com"
     },
     {
       "title": "ZDI-CAN-33064: LangGenius",

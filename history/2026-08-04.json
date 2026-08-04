@@ -1,7 +1,57 @@
 {
   "date": "2026-08-04",
-  "count": 8,
+  "count": 13,
   "items": [
+    {
+      "id": "37b6d3c196146a577f780eeed52bfe8852e82ad1",
+      "title": "Gemini Agent-to-Agent Attack Method Exposed Secrets, Enabled Pull Request Tampering",
+      "link": "https://www.securityweek.com/gemini-agent-to-agent-attack-exposed-secrets-enabled-pull-request-tampering/",
+      "date": "2026-08-04T10:54:30Z",
+      "description": "A crafted prompt to a low-privilege Google ADK agent could be used to pass a malicious hand-off comment to a privileged agent. The post Gemini Agent-to-Agent Attack Method Exposed Secrets, Enabled Pull Request Tampering appeared first on SecurityWeek.",
+      "source": "securityweek.com",
+      "first_seen": "2026-08-04T11:14:32Z",
+      "last_seen": "2026-08-04T11:14:32Z"
+    },
+    {
+      "id": "d612fb70395c4dffbfa878d856f5c73ee3699aed",
+      "title": "New cPanel Critical Flaw Could Let Hosting Customers Run SQL as Database Root",
+      "link": "https://thehackernews.com/2026/08/new-cpanel-critical-flaw-could-let.html",
+      "date": "2026-08-04T10:36:27Z",
+      "description": "cPanel has patched a flaw that let an authenticated hosting customer execute SQL in the database's root context, crossing the privilege boundary between a cPanel account and the server's administrative database identity. It shipped in a targeted security release that closes two other routes past account boundaries. The database bug is tracked as CVE-2026-58048 (CVSS 4.0 score: 9.4) and affects",
+      "source": "thehackernews.com",
+      "first_seen": "2026-08-04T11:14:32Z",
+      "last_seen": "2026-08-04T11:14:32Z"
+    },
+    {
+      "id": "7df63961b0c1bb9ffa89da1a3f7f6b175f5f3f05",
+      "title": "Decades-Old BMC Vulnerability Exposes Thousands of Data Centers to Attacks",
+      "link": "https://www.securityweek.com/decades-old-bmc-vulnerability-exposes-thousands-of-data-centers-to-attacks/",
+      "date": "2026-08-04T09:56:06Z",
+      "description": "Over 24,000 internet-accessible server-management interfaces disclose authentication hashes before login. The post Decades-Old BMC Vulnerability Exposes Thousands of Data Centers to Attacks appeared first on SecurityWeek.",
+      "source": "securityweek.com",
+      "first_seen": "2026-08-04T11:14:32Z",
+      "last_seen": "2026-08-04T11:14:32Z"
+    },
+    {
+      "id": "a53dad0cea109b29ad0d75e1f8ca4a24287e8664",
+      "title": "DOUBLECUP Uses ClickFix and Cached PNGs to Deliver CountLoader and DeviceManager RAT",
+      "link": "https://thehackernews.com/2026/08/doublecup-uses-clickfix-and-cached-pngs.html",
+      "date": "2026-08-04T09:03:23Z",
+      "description": "A new Russian loader-as-a-service (LaaS) codenamed DOUBLECUP has been using ClickFix lures as a way to stage malware-laced PNG images in victims' browser cache and ultimately deliver CountLoader and a previously undocumented remote access trojan called DeviceManager. \"The first stage drops a steganographic PNG image into the browser's cache, retrieves its hidden content, and executes the second",
+      "source": "thehackernews.com",
+      "first_seen": "2026-08-04T11:14:32Z",
+      "last_seen": "2026-08-04T11:14:32Z"
+    },
+    {
+      "id": "6f0126617b03004916467ae98f1d139de72eb114",
+      "title": "150,000 Impacted by Madera Community Hospital Data Breach",
+      "link": "https://www.securityweek.com/150000-impacted-by-madera-community-hospital-data-breach/",
+      "date": "2026-08-04T08:33:45Z",
+      "description": "An extortion group stole personal, financial, and medical information from the hospital’s network. The post 150,000 Impacted by Madera Community Hospital Data Breach appeared first on SecurityWeek.",
+      "source": "securityweek.com",
+      "first_seen": "2026-08-04T11:14:32Z",
+      "last_seen": "2026-08-04T11:14:32Z"
+    },
     {
       "id": "a5c62e82c7a65ecff2e4816a7b7f50b9de11cf6e",
       "title": "North Korean Hackers Are Hiding Malware Servers Inside Empty Crypto Transfers",
@@ -20,7 +70,7 @@
       "description": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Monday added a high-severity security flaw impacting N-able N-central to its Known Exploited Vulnerabilities (KEV) catalog following reports of active exploitation in the wild. The vulnerability, tracked as CVE-2026-18577 (CVSS score: 8.2), is a case of incomplete patching for CVE-2026-18556 (CVSS score: 8.2) that allows",
       "source": "thehackernews.com",
       "first_seen": "2026-08-04T08:17:21Z",
-      "last_seen": "2026-08-04T08:17:21Z"
+      "last_seen": "2026-08-04T11:14:32Z"
     },
     {
       "id": "e0540e3056c39352d832e2f0ff2cfad48b98bd26",
@@ -30,7 +80,7 @@
       "description": "Newer social engineering techniques help attackers ignore entrenched security controls and limit the evidence they leave behind.",
       "source": "darkreading.com",
       "first_seen": "2026-08-04T08:17:21Z",
-      "last_seen": "2026-08-04T08:17:21Z"
+      "last_seen": "2026-08-04T11:14:32Z"
     },
     {
       "id": "bacc397ce537c246d663888efc37778dc35feeba",
@@ -40,7 +90,7 @@
       "description": "The biggest single reward paid out by Microsoft between July 1, 2025, and June 30, 2026, was $200,000. The post Microsoft Bug Bounty Program: $20 Million Paid to 500 Researchers appeared first on SecurityWeek.",
       "source": "securityweek.com",
       "first_seen": "2026-08-04T05:38:00Z",
-      "last_seen": "2026-08-04T08:17:21Z"
+      "last_seen": "2026-08-04T11:14:32Z"
     },
     {
       "id": "ffca4be07b667460743b9852ee241a796c2cb6ee",
@@ -70,7 +120,7 @@
       "description": "The grants will help local governments assess and improve cyber defenses amid a multistate campaign targeting water and wastewater infrastructure. The post New York Awards $9 Million to Strengthen Cybersecurity at 153 Water Systems appeared first on SecurityWeek.",
       "source": "securityweek.com",
       "first_seen": "2026-08-04T02:26:18Z",
-      "last_seen": "2026-08-04T08:17:21Z"
+      "last_seen": "2026-08-04T11:14:32Z"
     },
     {
       "id": "ad1985acb5b22551528f2d9fd3b8d13052f4b6e5",
@@ -80,7 +130,7 @@
       "description": "Microsoft has linked a global campaign targeting hospitality Wi-Fi networks to the Russian threat actor Midnight Blizzard, also known as APT29. [...]",
       "source": "bleepingcomputer.com",
       "first_seen": "2026-08-04T02:26:18Z",
-      "last_seen": "2026-08-04T08:17:21Z"
+      "last_seen": "2026-08-04T11:14:32Z"
     }
   ]
 }
