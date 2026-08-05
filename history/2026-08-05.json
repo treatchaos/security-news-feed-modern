@@ -1,7 +1,97 @@
 {
   "date": "2026-08-05",
-  "count": 8,
+  "count": 20,
   "items": [
+    {
+      "id": "88b65dccd81f7b468e23bc29a5d09d317c2d3aa4",
+      "title": "New OVSwrap Linux Vulnerability Lets Attackers Gain Root Access",
+      "link": "https://cybersecuritynews.com/ovswrap-linux-vulnerability/",
+      "date": "2026-08-05T12:33:35Z",
+      "description": "A newly disclosed Linux kernel vulnerability, tracked as CVE-2026-64531 and dubbed OVSwrap, allows unprivileged local users to escalate privileges to root on a wide range of popular Linux distributions. The flaw lives inside the Open vSwitch (OVS) kernel datapath, a networking component widely used in cloud, container, and virtualization platforms, and was uncovered using an […] The post New…",
+      "source": "cybersecuritynews.com",
+      "first_seen": "2026-08-05T12:46:35Z",
+      "last_seen": "2026-08-05T12:46:35Z"
+    },
+    {
+      "id": "c08155a127a1ccc20faa3c82f518ff397b9f7ab5",
+      "title": "SMOKE#SCREEN Campaign Abuses ScreenConnect RMM and Cloudflare Tunnels to Hijack Windows and macOS Systems",
+      "link": "https://cybersecuritynews.com/smokescreen-campaign/",
+      "date": "2026-08-05T12:33:03Z",
+      "description": "SMOKE#SCREEN is a campaign that turns ordinary software updates and business files into a doorway for remote control. Victims who run the files can unknowingly install a legitimate remote-management agent, giving an outside operator access to their computer. The operation targets both Windows and macOS, widening the risk beyond one type of workplace device. Its […] The post SMOKE#SCREEN Campaign…",
+      "source": "cybersecuritynews.com",
+      "first_seen": "2026-08-05T12:46:35Z",
+      "last_seen": "2026-08-05T12:46:35Z"
+    },
+    {
+      "id": "d8000d9d61ae04981d074079382779bc8a8f72e6",
+      "title": "New OVSwrap Linux Kernel Flaw Lets Local Users Gain Root via Open vSwitch",
+      "link": "https://thehackernews.com/2026/08/new-ovswrap-linux-kernel-flaw-lets.html",
+      "date": "2026-08-05T11:43:27Z",
+      "description": "A memory corruption flaw in the Linux kernel's Open vSwitch datapath gives ordinary local users a path to root on a broad set of default-configured distributions, and a public exploit ships with pre-built records for roughly 800 kernel builds. The vulnerability, tracked as CVE-2026-64531 (CVSS score: 7.8) and codenamed OVSwrap by its discoverer, was disclosed by security researcher Asim",
+      "source": "thehackernews.com",
+      "first_seen": "2026-08-05T12:46:35Z",
+      "last_seen": "2026-08-05T12:46:35Z"
+    },
+    {
+      "id": "7940942a44ae91562930fb9d3245c40e4d8ada05",
+      "title": "Kali365 Weaponizes Microsoft Authentication Against US Companies: New Enterprise Risk",
+      "link": "https://thehackernews.com/2026/08/kali365-weaponizes-microsoft.html",
+      "date": "2026-08-05T11:43:19Z",
+      "description": "Kali365 is turning a legitimate Microsoft login into a gateway to corporate data. The phishing kit targets US organizations with attacker-controlled device codes that victims approve on Microsoft's real authentication page. Once access and refresh tokens are issued, attackers may retain access to email, documents, and cloud resources, creating a direct path to data exposure, financial fraud,",
+      "source": "thehackernews.com",
+      "first_seen": "2026-08-05T12:46:35Z",
+      "last_seen": "2026-08-05T12:46:35Z"
+    },
+    {
+      "id": "1b822e43c09f2b5c4cc39ff7398cd631c1f54a46",
+      "title": "311,000 Impacted by Brown Health Medical Group-MA Data Breach",
+      "link": "https://www.securityweek.com/311000-impacted-by-brown-health-medical-group-ma-data-breach/",
+      "date": "2026-08-05T11:35:23Z",
+      "description": "Hackers stole personal information, medical records, and financial information from the organization’s server. The post 311,000 Impacted by Brown Health Medical Group-MA Data Breach appeared first on SecurityWeek.",
+      "source": "securityweek.com",
+      "first_seen": "2026-08-05T12:46:35Z",
+      "last_seen": "2026-08-05T12:46:35Z"
+    },
+    {
+      "id": "7b47d9521041a8b5139db2c405d904c13a3f7819",
+      "title": "Cybersecurity Alliance Drafts SAFE Guidelines for Sharing AI Incident Data",
+      "link": "https://www.securityweek.com/cybersecurity-alliance-drafts-safe-guidelines-for-sharing-ai-incident-data/",
+      "date": "2026-08-05T11:11:29Z",
+      "description": "The guidelines are the work of the recently launched Open Secure AI Alliance, which now includes 120 organizations. The post Cybersecurity Alliance Drafts SAFE Guidelines for Sharing AI Incident Data appeared first on SecurityWeek.",
+      "source": "securityweek.com",
+      "first_seen": "2026-08-05T12:46:35Z",
+      "last_seen": "2026-08-05T12:46:35Z"
+    },
+    {
+      "id": "3569b34b7233b74e93935bf9ec8cb677e03d6861",
+      "title": "Critical Gitea Flaw Let Unauthenticated Attackers Read Server Files via Org-Mode Markup",
+      "link": "https://thehackernews.com/2026/08/critical-gitea-flaw-let-unauthenticated.html",
+      "date": "2026-08-05T11:04:23Z",
+      "description": "An unauthenticated attacker can read any file the service account can access on Gitea, the self-hosted Git platform, in versions 1.22.1 through 1.27.0. No login, no repository write access. A public repository and crafted Org-mode markup are enough. The flaw is fixed in Gitea 1.27.1. The file-read flaw is tracked as CVE-2026-59774, rated Critical with a CVSS score of 9.8, and received its",
+      "source": "thehackernews.com",
+      "first_seen": "2026-08-05T12:46:35Z",
+      "last_seen": "2026-08-05T12:46:35Z"
+    },
+    {
+      "id": "e436f6d44ee2ff8cd28d497b32ad5a6c7b6a6e2a",
+      "title": "Leaked n8n API Tokens Exposed Live Instances to Credential Theft",
+      "link": "https://thehackernews.com/2026/08/leaked-n8n-api-tokens-exposed-live.html",
+      "date": "2026-08-05T10:35:29Z",
+      "description": "GitGuardian researchers found 321 n8n instances accepting API tokens exposed in public GitHub commits and demonstrated four ways attackers could use them to access sensitive data and downstream credentials without exploiting a software vulnerability. We scanned public GitHub commits for exposed n8n API tokens and identified 4,576 unique credentials associated with 1,255 hostnames. Of the 896",
+      "source": "thehackernews.com",
+      "first_seen": "2026-08-05T12:46:35Z",
+      "last_seen": "2026-08-05T12:46:35Z"
+    },
+    {
+      "id": "12a5376a028f304db93c2180527589bbff63fae3",
+      "title": "AI Agents Targeted Real People and Projects During Cybersecurity Tests",
+      "link": "https://www.securityweek.com/ai-security-institute-reports-anthropic-and-openai-models-going-rogue-against-organizations/",
+      "date": "2026-08-05T10:33:41Z",
+      "description": "AI Security Institute reports Anthropic and OpenAI models going rogue against real people, organizations, and open source projects. The post AI Agents Targeted Real People and Projects During Cybersecurity Tests appeared first on SecurityWeek.",
+      "source": "securityweek.com",
+      "first_seen": "2026-08-05T12:46:35Z",
+      "last_seen": "2026-08-05T12:46:35Z"
+    },
     {
       "id": "1af5ed51b6bbbcdb8bbad1d2ac83f3f8d86fb5e6",
       "title": "CISA Warns of Exploited Langflow, N-central, and Tomcat Vulnerabilities",
@@ -10,7 +100,17 @@
       "description": "The flaws can be exploited for remote code execution, authentication bypass, and EncryptInterceptor bypass. The post CISA Warns of Exploited Langflow, N-central, and Tomcat Vulnerabilities appeared first on SecurityWeek.",
       "source": "securityweek.com",
       "first_seen": "2026-08-05T10:23:39Z",
-      "last_seen": "2026-08-05T10:23:39Z"
+      "last_seen": "2026-08-05T12:46:35Z"
+    },
+    {
+      "id": "68ad21fd6662e49c4cbe86a897364390114d95d3",
+      "title": "Remote Scheduled Tasks Spread EtherRAT Across Compromised Windows Domain",
+      "link": "https://cybersecuritynews.com/remote-scheduled-tasks-etherrat/",
+      "date": "2026-08-05T09:33:26Z",
+      "description": "EtherRAT has surfaced in a Windows domain intrusion tied to an affiliate of the Gentlemen ransomware operation. The campaign shows how a single foothold can become a network-wide problem when attackers gain privileged access. The operators used remote scheduled tasks to push malicious installer packages to other systems. Those installers deployed EtherRAT, a remote access […] The post Remote…",
+      "source": "cybersecuritynews.com",
+      "first_seen": "2026-08-05T12:46:35Z",
+      "last_seen": "2026-08-05T12:46:35Z"
     },
     {
       "id": "368b3ebea5caa8b24b738cb7e8b0699e6b7aad71",
@@ -20,7 +120,7 @@
       "description": "A cluster of 77 extensions on the Open VSX marketplace has been found to impersonate legitimate developer tools while transmitting information about the systems and development environments on which they were installed. The \"evil twin\" extensions were uploaded to the repository between July 26 and August 1, 2026, according to Manifold Security. The packages have been removed from Open VSX as of",
       "source": "thehackernews.com",
       "first_seen": "2026-08-05T10:23:39Z",
-      "last_seen": "2026-08-05T10:23:39Z"
+      "last_seen": "2026-08-05T12:46:35Z"
     },
     {
       "id": "15abe9c39c4ad096f81aa3ded6fd41560c3afadd",
@@ -30,7 +130,17 @@
       "description": "The malware was designed to steal and exfiltrate secrets, and to propagate itself via stolen NPM and GitHub credentials. The post Over 400 NPM Packages Infected in ChainDrop Supply Chain Attack appeared first on SecurityWeek.",
       "source": "securityweek.com",
       "first_seen": "2026-08-05T10:23:39Z",
-      "last_seen": "2026-08-05T10:23:39Z"
+      "last_seen": "2026-08-05T12:46:35Z"
+    },
+    {
+      "id": "9ca39e064f5aa323b7af49797d5e4dbd1e6bd327",
+      "title": "7-Zip Mark-of-the-Web Bypass Lets Malicious Files Evade Windows SmartScreen",
+      "link": "https://cybersecuritynews.com/7-zip-mark-of-the-web-bypass/",
+      "date": "2026-08-05T08:30:23Z",
+      "description": "Windows can protect users before a suspicious download runs. But a newly documented 7-Zip behavior can remove an important warning layer and allow a malicious program to start without a Windows SmartScreen prompt. ZIP archives are common in phishing campaigns. The gap grows when an archive looks like an invoice, update, or shared document. An […] The post 7-Zip Mark-of-the-Web Bypass Lets…",
+      "source": "cybersecuritynews.com",
+      "first_seen": "2026-08-05T12:46:35Z",
+      "last_seen": "2026-08-05T12:46:35Z"
     },
     {
       "id": "177c0c9d787e145222d8b93e6cea23526fa937bb",
@@ -40,7 +150,7 @@
       "description": "Unitel, Angola's dominant mobile operator, continues to recover from a cyberattack that caused outages the day of the government-owned telco's public offering.",
       "source": "darkreading.com",
       "first_seen": "2026-08-05T10:23:39Z",
-      "last_seen": "2026-08-05T10:23:39Z"
+      "last_seen": "2026-08-05T12:46:35Z"
     },
     {
       "id": "5c06d357645fa38e8a5c9ebbd7fe194809a14934",
@@ -61,6 +171,16 @@
       "source": "thehackernews.com",
       "first_seen": "2026-08-05T10:23:39Z",
       "last_seen": "2026-08-05T10:23:39Z"
+    },
+    {
+      "id": "71eb2cf0d65e395a1ea883e9186afc0f017e5c2f",
+      "title": "Microsoft Defender Stops QNET Ransomware Attack in 128 Seconds With Automatic Device Isolation",
+      "link": "https://cybersecuritynews.com/microsoft-defender-stops-qnet-ransomware-attack/",
+      "date": "2026-08-05T07:34:01Z",
+      "description": "Ransomware can turn one careless click into a business-wide emergency. An incident at QNET shows how quickly that risk can grow when attackers use trusted Windows tools to launch a second stage of an intrusion. The attack began after a user opened a malicious file, likely delivered through email or a browser download. It launched […] The post Microsoft Defender Stops QNET Ransomware Attack in…",
+      "source": "cybersecuritynews.com",
+      "first_seen": "2026-08-05T12:46:35Z",
+      "last_seen": "2026-08-05T12:46:35Z"
     },
     {
       "id": "7bd273f07aaf8946136a1e29efefe5b6b299f0f7",

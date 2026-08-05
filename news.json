@@ -1,13 +1,83 @@
 {
-  "last_updated": "2026-08-05T10:23:39Z",
-  "count": 30,
+  "last_updated": "2026-08-05T12:46:35Z",
+  "count": 35,
   "items": [
+    {
+      "title": "New OVSwrap Linux Vulnerability Lets Attackers Gain Root Access",
+      "link": "https://cybersecuritynews.com/ovswrap-linux-vulnerability/",
+      "date": "2026-08-05T12:33:35Z",
+      "description": "A newly disclosed Linux kernel vulnerability, tracked as CVE-2026-64531 and dubbed OVSwrap, allows unprivileged local users to escalate privileges to root on a wide range of popular Linux distributions. The flaw lives inside the Open vSwitch (OVS) kernel datapath, a networking component widely used in cloud, container, and virtualization platforms, and was uncovered using an […] The post New…",
+      "source": "cybersecuritynews.com"
+    },
+    {
+      "title": "SMOKE#SCREEN Campaign Abuses ScreenConnect RMM and Cloudflare Tunnels to Hijack Windows and macOS Systems",
+      "link": "https://cybersecuritynews.com/smokescreen-campaign/",
+      "date": "2026-08-05T12:33:03Z",
+      "description": "SMOKE#SCREEN is a campaign that turns ordinary software updates and business files into a doorway for remote control. Victims who run the files can unknowingly install a legitimate remote-management agent, giving an outside operator access to their computer. The operation targets both Windows and macOS, widening the risk beyond one type of workplace device. Its […] The post SMOKE#SCREEN Campaign…",
+      "source": "cybersecuritynews.com"
+    },
+    {
+      "title": "New OVSwrap Linux Kernel Flaw Lets Local Users Gain Root via Open vSwitch",
+      "link": "https://thehackernews.com/2026/08/new-ovswrap-linux-kernel-flaw-lets.html",
+      "date": "2026-08-05T11:43:27Z",
+      "description": "A memory corruption flaw in the Linux kernel's Open vSwitch datapath gives ordinary local users a path to root on a broad set of default-configured distributions, and a public exploit ships with pre-built records for roughly 800 kernel builds. The vulnerability, tracked as CVE-2026-64531 (CVSS score: 7.8) and codenamed OVSwrap by its discoverer, was disclosed by security researcher Asim",
+      "source": "thehackernews.com"
+    },
+    {
+      "title": "Kali365 Weaponizes Microsoft Authentication Against US Companies: New Enterprise Risk",
+      "link": "https://thehackernews.com/2026/08/kali365-weaponizes-microsoft.html",
+      "date": "2026-08-05T11:43:19Z",
+      "description": "Kali365 is turning a legitimate Microsoft login into a gateway to corporate data. The phishing kit targets US organizations with attacker-controlled device codes that victims approve on Microsoft's real authentication page. Once access and refresh tokens are issued, attackers may retain access to email, documents, and cloud resources, creating a direct path to data exposure, financial fraud,",
+      "source": "thehackernews.com"
+    },
+    {
+      "title": "311,000 Impacted by Brown Health Medical Group-MA Data Breach",
+      "link": "https://www.securityweek.com/311000-impacted-by-brown-health-medical-group-ma-data-breach/",
+      "date": "2026-08-05T11:35:23Z",
+      "description": "Hackers stole personal information, medical records, and financial information from the organization’s server. The post 311,000 Impacted by Brown Health Medical Group-MA Data Breach appeared first on SecurityWeek.",
+      "source": "securityweek.com"
+    },
+    {
+      "title": "Cybersecurity Alliance Drafts SAFE Guidelines for Sharing AI Incident Data",
+      "link": "https://www.securityweek.com/cybersecurity-alliance-drafts-safe-guidelines-for-sharing-ai-incident-data/",
+      "date": "2026-08-05T11:11:29Z",
+      "description": "The guidelines are the work of the recently launched Open Secure AI Alliance, which now includes 120 organizations. The post Cybersecurity Alliance Drafts SAFE Guidelines for Sharing AI Incident Data appeared first on SecurityWeek.",
+      "source": "securityweek.com"
+    },
+    {
+      "title": "Critical Gitea Flaw Let Unauthenticated Attackers Read Server Files via Org-Mode Markup",
+      "link": "https://thehackernews.com/2026/08/critical-gitea-flaw-let-unauthenticated.html",
+      "date": "2026-08-05T11:04:23Z",
+      "description": "An unauthenticated attacker can read any file the service account can access on Gitea, the self-hosted Git platform, in versions 1.22.1 through 1.27.0. No login, no repository write access. A public repository and crafted Org-mode markup are enough. The flaw is fixed in Gitea 1.27.1. The file-read flaw is tracked as CVE-2026-59774, rated Critical with a CVSS score of 9.8, and received its",
+      "source": "thehackernews.com"
+    },
+    {
+      "title": "Leaked n8n API Tokens Exposed Live Instances to Credential Theft",
+      "link": "https://thehackernews.com/2026/08/leaked-n8n-api-tokens-exposed-live.html",
+      "date": "2026-08-05T10:35:29Z",
+      "description": "GitGuardian researchers found 321 n8n instances accepting API tokens exposed in public GitHub commits and demonstrated four ways attackers could use them to access sensitive data and downstream credentials without exploiting a software vulnerability. We scanned public GitHub commits for exposed n8n API tokens and identified 4,576 unique credentials associated with 1,255 hostnames. Of the 896",
+      "source": "thehackernews.com"
+    },
+    {
+      "title": "AI Agents Targeted Real People and Projects During Cybersecurity Tests",
+      "link": "https://www.securityweek.com/ai-security-institute-reports-anthropic-and-openai-models-going-rogue-against-organizations/",
+      "date": "2026-08-05T10:33:41Z",
+      "description": "AI Security Institute reports Anthropic and OpenAI models going rogue against real people, organizations, and open source projects. The post AI Agents Targeted Real People and Projects During Cybersecurity Tests appeared first on SecurityWeek.",
+      "source": "securityweek.com"
+    },
     {
       "title": "CISA Warns of Exploited Langflow, N-central, and Tomcat Vulnerabilities",
       "link": "https://www.securityweek.com/cisa-warns-of-exploited-langflow-n-central-and-tomcat-vulnerabilities/",
       "date": "2026-08-05T09:44:50Z",
       "description": "The flaws can be exploited for remote code execution, authentication bypass, and EncryptInterceptor bypass. The post CISA Warns of Exploited Langflow, N-central, and Tomcat Vulnerabilities appeared first on SecurityWeek.",
       "source": "securityweek.com"
+    },
+    {
+      "title": "Remote Scheduled Tasks Spread EtherRAT Across Compromised Windows Domain",
+      "link": "https://cybersecuritynews.com/remote-scheduled-tasks-etherrat/",
+      "date": "2026-08-05T09:33:26Z",
+      "description": "EtherRAT has surfaced in a Windows domain intrusion tied to an affiliate of the Gentlemen ransomware operation. The campaign shows how a single foothold can become a network-wide problem when attackers gain privileged access. The operators used remote scheduled tasks to push malicious installer packages to other systems. Those installers deployed EtherRAT, a remote access […] The post Remote…",
+      "source": "cybersecuritynews.com"
     },
     {
       "title": "Open VSX Removes 77 Malicious Evil Twin Extensions Exfiltrating Developer Data",
@@ -24,6 +94,13 @@
       "source": "securityweek.com"
     },
     {
+      "title": "7-Zip Mark-of-the-Web Bypass Lets Malicious Files Evade Windows SmartScreen",
+      "link": "https://cybersecuritynews.com/7-zip-mark-of-the-web-bypass/",
+      "date": "2026-08-05T08:30:23Z",
+      "description": "Windows can protect users before a suspicious download runs. But a newly documented 7-Zip behavior can remove an important warning layer and allow a malicious program to start without a Windows SmartScreen prompt. ZIP archives are common in phishing campaigns. The gap grows when an archive looks like an invoice, update, or shared document. An […] The post 7-Zip Mark-of-the-Web Bypass Lets…",
+      "source": "cybersecuritynews.com"
+    },
+    {
       "title": "Angola's Largest Telco Breached Hours Before IPO",
       "link": "https://www.darkreading.com/cyberattacks-data-breaches/angolas-largest-telco-breached-hours-before-ipo",
       "date": "2026-08-05T08:00:00Z",
@@ -31,32 +108,11 @@
       "source": "darkreading.com"
     },
     {
-      "title": "Claude Mythos 5 Tried to Backdoor a Real Open-Source Project in Testing, Then Vouched for Itself",
-      "link": "https://thehackernews.com/2026/08/claude-mythos-5-tried-to-backdoor-real.html",
-      "date": "2026-08-05T07:53:50Z",
-      "description": "An agent running Anthropic's Claude Mythos 5 spent 34 hours trying to get a malware dropper merged into a real open-source project during a cyber evaluation by the UK's AI Security Institute. When a bystander publicly warned that the code was malicious, the agent denied it, force-pushed a rewritten branch history to erase the evidence, and posted from a second account it controlled to vouch for",
-      "source": "thehackernews.com"
-    },
-    {
-      "title": "CISA Flags Langflow RCE, Tomcat, and N-central Flaws as Actively Exploited",
-      "link": "https://thehackernews.com/2026/08/cisa-flags-langflow-rce-tomcat-and-n.html",
-      "date": "2026-08-05T07:40:39Z",
-      "description": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA), on August 5, 2026, added three flaws to its Known Exploited Vulnerabilities (KEV) catalog, citing evidence of active exploitation in the wild. The list of vulnerabilities is as follows - CVE-2026-9198 (CVSS score: 9.8) - A code injection vulnerability in Langflow that allows unauthenticated attackers to achieve full remote",
-      "source": "thehackernews.com"
-    },
-    {
-      "title": "Water Sector Cyberattacks Reportedly Hit at Least 12 States",
-      "link": "https://www.securityweek.com/water-sector-cyberattacks-reportedly-hit-at-least-12-states/",
-      "date": "2026-08-05T07:24:52Z",
-      "description": "Georgia has been confirmed as one of the attacked states after Clayton County reported a pump station disruption. The post Water Sector Cyberattacks Reportedly Hit at Least 12 States appeared first on SecurityWeek.",
-      "source": "securityweek.com"
-    },
-    {
-      "title": "QuickFox Supply Chain Attack Delivers FDMTP Backdoor via Trojanized Windows Installer",
-      "link": "https://thehackernews.com/2026/08/quickfox-supply-chain-attack-delivers.html",
-      "date": "2026-08-05T05:47:19Z",
-      "description": "Cybersecurity researchers have disclosed what has been described as a \"long-standing supply chain attack\" on QuickFox, a virtual private network (VPN) and network acceleration tool designed for overseas Chinese users. According to Fortinet FortiGuard Labs, the supply chain attack has been ongoing since at least August 2025 and involves a trojanized version of the application to deliver FDMTP, a",
-      "source": "thehackernews.com"
+      "title": "Microsoft Defender Stops QNET Ransomware Attack in 128 Seconds With Automatic Device Isolation",
+      "link": "https://cybersecuritynews.com/microsoft-defender-stops-qnet-ransomware-attack/",
+      "date": "2026-08-05T07:34:01Z",
+      "description": "Ransomware can turn one careless click into a business-wide emergency. An incident at QNET shows how quickly that risk can grow when attackers use trusted Windows tools to launch a second stage of an intrusion. The attack began after a user opened a malicious file, likely delivered through email or a browser download. It launched […] The post Microsoft Defender Stops QNET Ransomware Attack in…",
+      "source": "cybersecuritynews.com"
     },
     {
       "title": "OpenAI, Anthropic AI agents targeted real people and systems in cyber tests",
@@ -99,27 +155,6 @@
       "date": "2026-08-04T18:37:35Z",
       "description": "The attacks use diverse social engineering lures and rotating payloads to deliver ScreenConnect for persistent remote access to compromised networks.",
       "source": "darkreading.com"
-    },
-    {
-      "title": "Greatness PhaaS Adds Device Code Phishing to Bypass MFA and Steal Tokens",
-      "link": "https://thehackernews.com/2026/08/greatness-phaas-adds-device-code.html",
-      "date": "2026-08-04T17:27:39Z",
-      "description": "The commercial phishing-as-a-service (PhaaS) toolkit known as Greatness has become the latest crimeware solution to add support for device code phishing, a rapidly growing cyber threat that abuses the legitimate OAuth 2.0 Device Authorization Grant to bypass Multi-Factor Authentication (MFA) and seize control of user accounts. \"Greatness supports AiTM [adversary-in-the-middle] credential and",
-      "source": "thehackernews.com"
-    },
-    {
-      "title": "Black Hat USA 2026 – Summary of Vendor Announcements (Part 2)",
-      "link": "https://www.securityweek.com/black-hat-usa-2026-summary-of-vendor-announcements-part-2/",
-      "date": "2026-08-04T16:49:39Z",
-      "description": "Many companies are showcasing their products and services this week at the 2026 edition of the Black Hat conference in Las Vegas. The post Black Hat USA 2026 – Summary of Vendor Announcements (Part 2) appeared first on SecurityWeek.",
-      "source": "securityweek.com"
-    },
-    {
-      "title": "Rethinking AI Security: Why CASB and DLP Need an Interaction-Aware Layer",
-      "link": "https://www.securityweek.com/rethinking-ai-security-why-casb-and-dlp-need-an-interaction-aware-layer/",
-      "date": "2026-08-04T16:15:00Z",
-      "description": "Build your strategy around answering these questions to ensure employees use AI productively while keeping sensitive data, IP, and agent behavior within the boundaries set for safe AI use. The post Rethinking AI Security: Why CASB and DLP Need an Interaction-Aware Layer appeared first on SecurityWeek.",
-      "source": "securityweek.com"
     },
     {
       "title": "AI Notetaker Lets Hackers Spy on Government, Corporate Video Calls",
