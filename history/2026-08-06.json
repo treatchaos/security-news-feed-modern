@@ -1,7 +1,57 @@
 {
   "date": "2026-08-06",
-  "count": 15,
+  "count": 20,
   "items": [
+    {
+      "id": "8a3f22cb99d4429544348f7de6fc825aaa5f4989",
+      "title": "Podcast: Compliance Won’t Save You: The Future of Cyber Risk with Edna Conway",
+      "link": "https://www.securityweek.com/podcast-compliance-wont-save-you-the-future-of-cyber-risk-with-edna-conway/",
+      "date": "2026-08-06T12:00:00Z",
+      "description": "(Video) In this podcast, we share insights from Edna Conway, a recognized leader in cybersecurity and supply chain resilience with over 40 years of experience in the field. The post Podcast: Compliance Won’t Save You: The Future of Cyber Risk with Edna Conway appeared first on SecurityWeek.",
+      "source": "securityweek.com",
+      "first_seen": "2026-08-06T12:49:39Z",
+      "last_seen": "2026-08-06T12:49:39Z"
+    },
+    {
+      "id": "dacf33fdce9e78bd79d420ec895ac0142a46a8b1",
+      "title": "CryptoJS Weak RNG Behind $5.7 Million in Drains Affects Five Crypto Wallet Apps",
+      "link": "https://thehackernews.com/2026/08/cryptojs-weak-rng-behind-57-million-in.html",
+      "date": "2026-08-06T11:49:48Z",
+      "description": "Coinspect has identified CryptoJS.lib.WordArray.random() as the weak random number generator behind the Ill Bloom wallet drains. Introduced in the JavaScript cryptography library 12 years ago, the function supplied weak entropy that affected wallet apps used to generate recovery phrases. Coinspect's on-chain analysis puts the measured theft across two sweeps since late May at a lower bound of",
+      "source": "thehackernews.com",
+      "first_seen": "2026-08-06T12:49:39Z",
+      "last_seen": "2026-08-06T12:49:39Z"
+    },
+    {
+      "id": "202268fb81859ea02a8ceff91eb03991e97e5542",
+      "title": "Apple iCloud Private Relay Can Expose Real IPs Through WebKit Proxy Bypasses",
+      "link": "https://thehackernews.com/2026/08/webkit-proxy-bypasses-can-expose-real.html",
+      "date": "2026-08-06T11:33:08Z",
+      "description": "Cybersecurity researchers have disclosed a security issue with Apple's iCloud Private Relay tool that can expose a user's real IP address. Introduced with iOS 15, iCloud Private Relay employs a dual-hop architecture to ensure users' privacy by routing their Safari web traffic through two relays so that no single third-party, including Apple, can determine where the request is originating from",
+      "source": "thehackernews.com",
+      "first_seen": "2026-08-06T12:49:39Z",
+      "last_seen": "2026-08-06T12:49:39Z"
+    },
+    {
+      "id": "2a3daeae49da9f25ffc91a2265e852c070532c1b",
+      "title": "AI Recommendation Poisoning: How \"Ask AI\" Buttons Silently Alter LLM Memory",
+      "link": "https://thehackernews.com/2026/08/ai-recommendation-poisoning-how-ask-ai.html",
+      "date": "2026-08-06T11:30:00Z",
+      "description": "A new class of prompt injection is spreading across commercial websites. It requires no malware, no stolen credentials, and no zero-day exploit. It abuses a standard feature built into almost every major AI assistant: pre-filled deep links. We observed production websites embedding hidden prompt injection payloads inside \"Ask AI\" buttons on marketing and competitor comparison pages. When a user",
+      "source": "thehackernews.com",
+      "first_seen": "2026-08-06T12:49:39Z",
+      "last_seen": "2026-08-06T12:49:39Z"
+    },
+    {
+      "id": "5e522167b6181dcfc2ec7b03bd68bec96ec867ad",
+      "title": "Critical Paperclip Flaw Allowed Admin Access, Code Execution",
+      "link": "https://www.securityweek.com/critical-paperclip-flaw-allowed-admin-access-code-execution/",
+      "date": "2026-08-06T11:09:11Z",
+      "description": "An attacker could self-register, sign in for board-level API access, and import a new company for code execution. The post Critical Paperclip Flaw Allowed Admin Access, Code Execution appeared first on SecurityWeek.",
+      "source": "securityweek.com",
+      "first_seen": "2026-08-06T12:49:39Z",
+      "last_seen": "2026-08-06T12:49:39Z"
+    },
     {
       "id": "7f60d33b8847fa5fd5de0a631f0c773b3580272b",
       "title": "Meta AI Hacked External Systems During Cybersecurity Testing",
@@ -10,7 +60,7 @@
       "description": "The incident involved a testing environment set up by Irregular, similar to what Anthropic reported last week. The post Meta AI Hacked External Systems During Cybersecurity Testing appeared first on SecurityWeek.",
       "source": "securityweek.com",
       "first_seen": "2026-08-06T10:26:28Z",
-      "last_seen": "2026-08-06T10:26:28Z"
+      "last_seen": "2026-08-06T12:49:39Z"
     },
     {
       "id": "439bfe10bb1bf039ecd6cfb4950092244286bd3c",
@@ -20,7 +70,7 @@
       "description": "Maksim Silnikau was the creator and administrator of the ransomware group and involved in Angler EK’s distribution. The post Belarusian Ransom Cartel Mastermind Gets 16 Years in Prison appeared first on SecurityWeek.",
       "source": "securityweek.com",
       "first_seen": "2026-08-06T10:26:28Z",
-      "last_seen": "2026-08-06T10:26:28Z"
+      "last_seen": "2026-08-06T12:49:39Z"
     },
     {
       "id": "dfa6bf89ceae32d16564fa7164791a1c428f72a2",
@@ -30,7 +80,7 @@
       "description": "Attackers broke into an organization's Oracle database through a SQL injection flaw in a public-facing web application, then installed a post-exploitation toolkit without writing an executable to disk. They fed Java source code to the database, let Oracle compile it into stored schema objects, and ran commands from inside the database engine. Huntress, which tracks the toolkit as khunt,",
       "source": "thehackernews.com",
       "first_seen": "2026-08-06T10:26:28Z",
-      "last_seen": "2026-08-06T10:26:28Z"
+      "last_seen": "2026-08-06T12:49:39Z"
     },
     {
       "id": "c4805ccf0d4021c132d6caf4f83e993656e84828",
@@ -40,7 +90,7 @@
       "description": "Security flaws in agent infrastructure from Amazon Web Services (AWS), Google, and Vercel let untrusted or forged instructions reach an agent's tools with no check that a model turn had authorized them. In several of the attack paths, the model never ran at all, so system prompts, content filters, and model-level guardrails never got a chance to intervene. The affected products include Amazon",
       "source": "thehackernews.com",
       "first_seen": "2026-08-06T10:26:28Z",
-      "last_seen": "2026-08-06T10:26:28Z"
+      "last_seen": "2026-08-06T12:49:39Z"
     },
     {
       "id": "3daecbabcb28c0b31efc061c3ac8e7b51c7b8fb7",
@@ -60,7 +110,7 @@
       "description": "Patches were rolled out for two dozen vulnerabilities, including one with public proof-of-concept (PoC) code. The post Cisco Patches Critical SD-WAN, IOS XE, FMC Vulnerabilities appeared first on SecurityWeek.",
       "source": "securityweek.com",
       "first_seen": "2026-08-06T07:32:14Z",
-      "last_seen": "2026-08-06T10:26:28Z"
+      "last_seen": "2026-08-06T12:49:39Z"
     },
     {
       "id": "be9c248c000d5ca11fe09429ef44cfe84820aa65",

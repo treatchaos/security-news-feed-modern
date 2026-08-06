@@ -1,8 +1,58 @@
 {
-  "last_updated": "2026-08-06T10:26:28Z",
+  "last_updated": "2026-08-06T12:49:39Z",
   "retention_days": 90,
-  "count": 3520,
+  "count": 3516,
   "items": [
+    {
+      "id": "8a3f22cb99d4429544348f7de6fc825aaa5f4989",
+      "title": "Podcast: Compliance Won’t Save You: The Future of Cyber Risk with Edna Conway",
+      "link": "https://www.securityweek.com/podcast-compliance-wont-save-you-the-future-of-cyber-risk-with-edna-conway/",
+      "date": "2026-08-06T12:00:00Z",
+      "description": "(Video) In this podcast, we share insights from Edna Conway, a recognized leader in cybersecurity and supply chain resilience with over 40 years of experience in the field. The post Podcast: Compliance Won’t Save You: The Future of Cyber Risk with Edna Conway appeared first on SecurityWeek.",
+      "source": "securityweek.com",
+      "first_seen": "2026-08-06T12:49:39Z",
+      "last_seen": "2026-08-06T12:49:39Z"
+    },
+    {
+      "id": "dacf33fdce9e78bd79d420ec895ac0142a46a8b1",
+      "title": "CryptoJS Weak RNG Behind $5.7 Million in Drains Affects Five Crypto Wallet Apps",
+      "link": "https://thehackernews.com/2026/08/cryptojs-weak-rng-behind-57-million-in.html",
+      "date": "2026-08-06T11:49:48Z",
+      "description": "Coinspect has identified CryptoJS.lib.WordArray.random() as the weak random number generator behind the Ill Bloom wallet drains. Introduced in the JavaScript cryptography library 12 years ago, the function supplied weak entropy that affected wallet apps used to generate recovery phrases. Coinspect's on-chain analysis puts the measured theft across two sweeps since late May at a lower bound of",
+      "source": "thehackernews.com",
+      "first_seen": "2026-08-06T12:49:39Z",
+      "last_seen": "2026-08-06T12:49:39Z"
+    },
+    {
+      "id": "202268fb81859ea02a8ceff91eb03991e97e5542",
+      "title": "Apple iCloud Private Relay Can Expose Real IPs Through WebKit Proxy Bypasses",
+      "link": "https://thehackernews.com/2026/08/webkit-proxy-bypasses-can-expose-real.html",
+      "date": "2026-08-06T11:33:08Z",
+      "description": "Cybersecurity researchers have disclosed a security issue with Apple's iCloud Private Relay tool that can expose a user's real IP address. Introduced with iOS 15, iCloud Private Relay employs a dual-hop architecture to ensure users' privacy by routing their Safari web traffic through two relays so that no single third-party, including Apple, can determine where the request is originating from",
+      "source": "thehackernews.com",
+      "first_seen": "2026-08-06T12:49:39Z",
+      "last_seen": "2026-08-06T12:49:39Z"
+    },
+    {
+      "id": "2a3daeae49da9f25ffc91a2265e852c070532c1b",
+      "title": "AI Recommendation Poisoning: How \"Ask AI\" Buttons Silently Alter LLM Memory",
+      "link": "https://thehackernews.com/2026/08/ai-recommendation-poisoning-how-ask-ai.html",
+      "date": "2026-08-06T11:30:00Z",
+      "description": "A new class of prompt injection is spreading across commercial websites. It requires no malware, no stolen credentials, and no zero-day exploit. It abuses a standard feature built into almost every major AI assistant: pre-filled deep links. We observed production websites embedding hidden prompt injection payloads inside \"Ask AI\" buttons on marketing and competitor comparison pages. When a user",
+      "source": "thehackernews.com",
+      "first_seen": "2026-08-06T12:49:39Z",
+      "last_seen": "2026-08-06T12:49:39Z"
+    },
+    {
+      "id": "5e522167b6181dcfc2ec7b03bd68bec96ec867ad",
+      "title": "Critical Paperclip Flaw Allowed Admin Access, Code Execution",
+      "link": "https://www.securityweek.com/critical-paperclip-flaw-allowed-admin-access-code-execution/",
+      "date": "2026-08-06T11:09:11Z",
+      "description": "An attacker could self-register, sign in for board-level API access, and import a new company for code execution. The post Critical Paperclip Flaw Allowed Admin Access, Code Execution appeared first on SecurityWeek.",
+      "source": "securityweek.com",
+      "first_seen": "2026-08-06T12:49:39Z",
+      "last_seen": "2026-08-06T12:49:39Z"
+    },
     {
       "id": "7f60d33b8847fa5fd5de0a631f0c773b3580272b",
       "title": "Meta AI Hacked External Systems During Cybersecurity Testing",
@@ -11,7 +61,7 @@
       "description": "The incident involved a testing environment set up by Irregular, similar to what Anthropic reported last week. The post Meta AI Hacked External Systems During Cybersecurity Testing appeared first on SecurityWeek.",
       "source": "securityweek.com",
       "first_seen": "2026-08-06T10:26:28Z",
-      "last_seen": "2026-08-06T10:26:28Z"
+      "last_seen": "2026-08-06T12:49:39Z"
     },
     {
       "id": "439bfe10bb1bf039ecd6cfb4950092244286bd3c",
@@ -21,7 +71,7 @@
       "description": "Maksim Silnikau was the creator and administrator of the ransomware group and involved in Angler EK’s distribution. The post Belarusian Ransom Cartel Mastermind Gets 16 Years in Prison appeared first on SecurityWeek.",
       "source": "securityweek.com",
       "first_seen": "2026-08-06T10:26:28Z",
-      "last_seen": "2026-08-06T10:26:28Z"
+      "last_seen": "2026-08-06T12:49:39Z"
     },
     {
       "id": "dfa6bf89ceae32d16564fa7164791a1c428f72a2",
@@ -31,7 +81,7 @@
       "description": "Attackers broke into an organization's Oracle database through a SQL injection flaw in a public-facing web application, then installed a post-exploitation toolkit without writing an executable to disk. They fed Java source code to the database, let Oracle compile it into stored schema objects, and ran commands from inside the database engine. Huntress, which tracks the toolkit as khunt,",
       "source": "thehackernews.com",
       "first_seen": "2026-08-06T10:26:28Z",
-      "last_seen": "2026-08-06T10:26:28Z"
+      "last_seen": "2026-08-06T12:49:39Z"
     },
     {
       "id": "c4805ccf0d4021c132d6caf4f83e993656e84828",
@@ -41,7 +91,7 @@
       "description": "Security flaws in agent infrastructure from Amazon Web Services (AWS), Google, and Vercel let untrusted or forged instructions reach an agent's tools with no check that a model turn had authorized them. In several of the attack paths, the model never ran at all, so system prompts, content filters, and model-level guardrails never got a chance to intervene. The affected products include Amazon",
       "source": "thehackernews.com",
       "first_seen": "2026-08-06T10:26:28Z",
-      "last_seen": "2026-08-06T10:26:28Z"
+      "last_seen": "2026-08-06T12:49:39Z"
     },
     {
       "id": "3daecbabcb28c0b31efc061c3ac8e7b51c7b8fb7",
@@ -61,7 +111,7 @@
       "description": "Patches were rolled out for two dozen vulnerabilities, including one with public proof-of-concept (PoC) code. The post Cisco Patches Critical SD-WAN, IOS XE, FMC Vulnerabilities appeared first on SecurityWeek.",
       "source": "securityweek.com",
       "first_seen": "2026-08-06T07:32:14Z",
-      "last_seen": "2026-08-06T10:26:28Z"
+      "last_seen": "2026-08-06T12:49:39Z"
     },
     {
       "id": "be9c248c000d5ca11fe09429ef44cfe84820aa65",
@@ -161,7 +211,7 @@
       "description": "Attackers can take control of agents through malicious instructions hidden in content supplied to AI browsers, and there's no simple fix for the threat.",
       "source": "darkreading.com",
       "first_seen": "2026-08-05T23:47:11Z",
-      "last_seen": "2026-08-06T10:26:28Z"
+      "last_seen": "2026-08-06T12:49:39Z"
     },
     {
       "id": "da3c694a75d875c1ee8d3997fc83a2a79d510fa0",
@@ -171,7 +221,7 @@
       "description": "Maksim Silnikau, the creator and administrator of the Ransom Cartel ransomware operation, was sentenced to 16 years in prison for his role in ransomware attacks against at least 18 companies worldwide. [...]",
       "source": "bleepingcomputer.com",
       "first_seen": "2026-08-05T23:47:11Z",
-      "last_seen": "2026-08-06T10:26:28Z"
+      "last_seen": "2026-08-06T12:49:39Z"
     },
     {
       "id": "30350fe6fa93435f4adc9e3efe0877ca7d8a5766",
@@ -181,7 +231,7 @@
       "description": "AI browsers from top vendors remain vulnerable to prompt injection attacks despite multiple security guardrails, according to new research.",
       "source": "darkreading.com",
       "first_seen": "2026-08-05T23:47:11Z",
-      "last_seen": "2026-08-06T10:26:28Z"
+      "last_seen": "2026-08-06T12:49:39Z"
     },
     {
       "id": "0d6d72cd430057bb1dc5dad5d383df503172d334",
@@ -191,7 +241,7 @@
       "description": "A Canadian man pleaded guilty today to his role in accessing company accounts at cloud storage provider Snowflake and stealing data from at least 165 organizations in a scheme to extort millions of dollars from victims. [...]",
       "source": "bleepingcomputer.com",
       "first_seen": "2026-08-05T22:05:18Z",
-      "last_seen": "2026-08-06T10:26:28Z"
+      "last_seen": "2026-08-06T12:49:39Z"
     },
     {
       "id": "b63b97126625c4d37cec5472ac4f366f8ed06cc9",
@@ -201,7 +251,7 @@
       "description": "Hackers exploited a SQL injection vulnerability to install a post-exploitation toolkit directly inside an Oracle database that was used to breach a corporate network. [...]",
       "source": "bleepingcomputer.com",
       "first_seen": "2026-08-05T20:56:11Z",
-      "last_seen": "2026-08-06T10:26:28Z"
+      "last_seen": "2026-08-06T12:49:39Z"
     },
     {
       "id": "26088cb48d586a4b3886242e46de844a863fa5e7",
@@ -211,7 +261,7 @@
       "description": "CSS was once just about design. Now researchers warn it's powerful enough to exfiltrate data from webmail — and some vendors aren't prepared.",
       "source": "darkreading.com",
       "first_seen": "2026-08-05T20:56:11Z",
-      "last_seen": "2026-08-06T10:26:28Z"
+      "last_seen": "2026-08-06T12:49:39Z"
     },
     {
       "id": "227f57345c22da9ebecedf991b4d83740ce0a26b",
@@ -231,7 +281,7 @@
       "description": "Researchers are calling attention to the risks inherent in automated network device provisioning, using a world-leading device manufacturer as a case study.",
       "source": "darkreading.com",
       "first_seen": "2026-08-05T20:56:11Z",
-      "last_seen": "2026-08-06T10:26:28Z"
+      "last_seen": "2026-08-06T12:49:39Z"
     },
     {
       "id": "97daf5ee347210c907674a41429ce8ae7a5cb4d4",
@@ -271,7 +321,7 @@
       "description": "Organized crime is convincingly scamming at scale, making billions thanks to AI-enabled voice cloning, deepfake real-time video overlays, LLM-driven persona management, and automated translation.",
       "source": "darkreading.com",
       "first_seen": "2026-08-05T22:05:18Z",
-      "last_seen": "2026-08-06T10:26:28Z"
+      "last_seen": "2026-08-06T12:49:39Z"
     },
     {
       "id": "105f574cc8e4ff5ca4ffb770cf93c67f8724759d",
@@ -281,7 +331,7 @@
       "description": "A phishing campaign is exploiting fears surrounding the recently disclosed COLDCARD wallet vulnerability and suspected $88.6 million Bitcoin theft to trick users into installing ScreenConnect remote access software. [...]",
       "source": "bleepingcomputer.com",
       "first_seen": "2026-08-05T19:12:46Z",
-      "last_seen": "2026-08-06T10:26:28Z"
+      "last_seen": "2026-08-06T12:49:39Z"
     },
     {
       "id": "7aec19d77c5a0d8d594172fd39283e04b4669076",
@@ -331,7 +381,7 @@
       "description": "The U.S. Cybersecurity and Infrastructure Security Agency is giving federal agencies three days to mitigate vulnerabilities in IBM Langflow, N-central, and Apache Tomcat, all actively exploited. [...]",
       "source": "bleepingcomputer.com",
       "first_seen": "2026-08-05T17:18:53Z",
-      "last_seen": "2026-08-06T10:26:28Z"
+      "last_seen": "2026-08-06T12:49:39Z"
     },
     {
       "id": "24b47fc25038a8ef31b86c545a61a2f582393fbf",
@@ -701,7 +751,7 @@
       "description": "A CVSS score 5.5 AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:N/A:N severity vulnerability discovered by 'Hlib Yavorskyi' was reported to the affected vendor on: 2026-08-05, 0 days ago. The vendor is given until 2026-12-03 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
       "source": "zerodayinitiative.com",
       "first_seen": "2026-08-05T17:18:53Z",
-      "last_seen": "2026-08-06T10:26:28Z"
+      "last_seen": "2026-08-06T12:49:39Z"
     },
     {
       "id": "f78ac5ea14fab10ff45119083897226992305336",
@@ -711,7 +761,7 @@
       "description": "A CVSS score 8.8 AV:L/AC:L/PR:L/UI:N/S:C/C:H/I:H/A:H severity vulnerability discovered by 'Brandon Evans of TrendAI Zero Day Initiative' was reported to the affected vendor on: 2026-08-05, 0 days ago. The vendor is given until 2026-12-03 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
       "source": "zerodayinitiative.com",
       "first_seen": "2026-08-05T19:12:46Z",
-      "last_seen": "2026-08-06T10:26:28Z"
+      "last_seen": "2026-08-06T12:49:39Z"
     },
     {
       "id": "93f03d0e15a9e65f93693adc83ac005268031852",
@@ -721,7 +771,7 @@
       "description": "A CVSS score 6.5 AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:N severity vulnerability discovered by 'Brandon Niemczyk and Peter Girnus (@gothburz) of Trend Zero Day Initiative' was reported to the affected vendor on: 2026-08-05, 0 days ago. The vendor is given until 2026-12-03 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
       "source": "zerodayinitiative.com",
       "first_seen": "2026-08-05T19:12:46Z",
-      "last_seen": "2026-08-06T10:26:28Z"
+      "last_seen": "2026-08-06T12:49:39Z"
     },
     {
       "id": "2a35411b5e673f16865d382e1cd5a17472d7ed59",
@@ -731,7 +781,7 @@
       "description": "A CVSS score 8.8 AV:A/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H severity vulnerability discovered by 'Steven C Yu (Chiao-Lin Yu) of TrendAI Research' was reported to the affected vendor on: 2026-08-05, 0 days ago. The vendor is given until 2026-12-03 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
       "source": "zerodayinitiative.com",
       "first_seen": "2026-08-05T22:05:18Z",
-      "last_seen": "2026-08-06T10:26:28Z"
+      "last_seen": "2026-08-06T12:49:39Z"
     },
     {
       "id": "69f0362a1187631501db71a983b59deaa0c06352",
@@ -741,7 +791,7 @@
       "description": "A CVSS score 8.8 AV:A/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H severity vulnerability discovered by 'Steven C Yu (Chiao-Lin Yu) of TrendAI Research' was reported to the affected vendor on: 2026-08-05, 0 days ago. The vendor is given until 2026-12-03 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
       "source": "zerodayinitiative.com",
       "first_seen": "2026-08-05T22:05:18Z",
-      "last_seen": "2026-08-06T10:26:28Z"
+      "last_seen": "2026-08-06T12:49:39Z"
     },
     {
       "id": "9732db72cd9750eaa96c9a4257174440d6e6edc7",
@@ -35024,96 +35074,6 @@
       "last_seen": "2026-05-09T18:43:05Z"
     },
     {
-      "id": "90215d3f632763bb32a3f427915babd80786bf5a",
-      "title": "Polish Security Agency Reports ICS Breaches at Five Water Treatment Plants",
-      "link": "https://www.securityweek.com/polish-security-agency-reports-ics-breaches-at-five-water-treatment-plants/",
-      "date": "2026-05-08T11:46:06Z",
-      "description": "The hackers gained the ability to modify equipment operational parameters, creating a direct risk to the public water supply. The post Polish Security Agency Reports ICS Breaches at Five Water Treatment Plants appeared first on SecurityWeek.",
-      "source": "securityweek.com",
-      "first_seen": "2026-05-08T12:04:44Z",
-      "last_seen": "2026-05-11T06:27:15Z"
-    },
-    {
-      "id": "65e5ade7b8e110074a4285fbe336fdf72e697a74",
-      "title": "Trellix Breach – RansomHouse Claims Access to Parts of Source Code",
-      "link": "https://cybersecuritynews.com/trellix-breach/",
-      "date": "2026-05-08T11:18:23Z",
-      "description": "Trellix, the global cybersecurity firm formed from the merger of McAfee Enterprise and FireEye, has confirmed unauthorized access to a portion of its source code repository, with the RansomHouse ransomware group formally claiming responsibility for the attack. Trellix reported a data breach involving unauthorized access to a portion of its source code repository, which was […] The post Trellix…",
-      "source": "cybersecuritynews.com",
-      "first_seen": "2026-05-08T12:04:44Z",
-      "last_seen": "2026-05-08T12:04:44Z"
-    },
-    {
-      "id": "9993f80bc12fa6c0db39537d51938fb8cf410bf9",
-      "title": "AI Firm Braintrust Prompts API Key Rotation After Data Breach",
-      "link": "https://www.securityweek.com/ai-firm-braintrust-prompts-api-key-rotation-after-data-breach/",
-      "date": "2026-05-08T11:14:01Z",
-      "description": "Hackers accessed one of the company’s AWS accounts and compromised AI provider secrets stored in Braintrust. The post AI Firm Braintrust Prompts API Key Rotation After Data Breach appeared first on SecurityWeek.",
-      "source": "securityweek.com",
-      "first_seen": "2026-05-08T12:04:44Z",
-      "last_seen": "2026-05-11T06:27:15Z"
-    },
-    {
-      "id": "0623357330d6748e5030447fd9a06cf5946b69ec",
-      "title": "Quasar Linux RAT Steals Developer Credentials for Software Supply Chain Compromise",
-      "link": "https://thehackernews.com/2026/05/quasar-linux-rat-steals-developer.html",
-      "date": "2026-05-08T11:00:00Z",
-      "description": "A previously undocumented Linux implant codenamed Quasar Linux RAT (QLNX) is targeting developers' systems to establish a silent foothold as well as facilitate a broad range of post-compromise functionality, such as credential harvesting, keylogging, file manipulation, clipboard monitoring, and network tunneling. \"QLNX targets developers and DevOps credentials across the software supply chain,\"",
-      "source": "thehackernews.com",
-      "first_seen": "2026-05-08T12:04:44Z",
-      "last_seen": "2026-05-10T11:41:25Z"
-    },
-    {
-      "id": "42bad609cbbe90a9febd1894f1a43cf35bde0ca1",
-      "title": "Cyberattack Hits Canvas System Used by Thousands of Schools as Finals Loom",
-      "link": "https://www.securityweek.com/cyberattack-hits-canvas-system-used-by-thousands-of-schools-as-finals-loom/",
-      "date": "2026-05-08T10:43:57Z",
-      "description": "A system that thousands of schools and universities use went offline due to a cyberattack, creating chaos as students tried to study for finals. The post Cyberattack Hits Canvas System Used by Thousands of Schools as Finals Loom appeared first on SecurityWeek.",
-      "source": "securityweek.com",
-      "first_seen": "2026-05-08T12:04:44Z",
-      "last_seen": "2026-05-11T06:27:15Z"
-    },
-    {
-      "id": "0314a3f87b034a2285dc9b69e26e1e5a9162cafd",
-      "title": "Zara data breach exposed personal information of 197,000 people",
-      "link": "https://www.bleepingcomputer.com/news/security/zara-data-breach-exposed-personal-information-of-197-000-people/",
-      "date": "2026-05-08T10:42:22Z",
-      "description": "Hackers who gained access to the databases of Spanish fast-fashion retailer Zara stole data belonging to more than 197,000 customers, according to data breach notification service Have I Been Pwned. [...]",
-      "source": "bleepingcomputer.com",
-      "first_seen": "2026-05-08T12:04:44Z",
-      "last_seen": "2026-05-09T14:13:09Z"
-    },
-    {
-      "id": "899cd0877e2415afe69ea7ac0bb71b73656511ca",
-      "title": "New PCPJack Worm Targets Docker, Kubernetes, Redis, and MongoDB for Credential Theft",
-      "link": "https://cybersecuritynews.com/new-pcpjack-worm-targets-docker/",
-      "date": "2026-05-08T10:31:03Z",
-      "description": "A sophisticated new malware framework called PCPJack has been found actively targeting cloud environments across the internet, hunting for exposed services and stripping away credentials at scale. The worm zeroes in on Docker, Kubernetes, Redis, and MongoDB deployments, turning misconfigured or vulnerable systems into footholds for credential theft and financial fraud. What sets it apart […] The…",
-      "source": "cybersecuritynews.com",
-      "first_seen": "2026-05-08T12:04:44Z",
-      "last_seen": "2026-05-08T12:04:44Z"
-    },
-    {
-      "id": "eda8b09b79ffe0b9e4554e8bd139f2e77b95d638",
-      "title": "One Missed Threat Per Week: What 25M Alerts Reveal About Low-Severity Risk",
-      "link": "https://thehackernews.com/2026/05/one-missed-threat-per-week-what-25m.html",
-      "date": "2026-05-08T10:30:00Z",
-      "description": "The dark secret of enterprise security operations is that defenders have quietly institutionalized the practice of not looking. This is not just anecdotal, but rather backed by a recent report investigating more than 25 million security alerts, including informational and low-severity, across live enterprise environments. The dataset behind these findings includes 10 million monitored",
-      "source": "thehackernews.com",
-      "first_seen": "2026-05-08T12:04:44Z",
-      "last_seen": "2026-05-09T07:08:24Z"
-    },
-    {
-      "id": "e651ecd8fdb6a9f83af9a65e7de0eb95fc9640d1",
-      "title": "New Linux PamDOORa Backdoor Uses PAM Modules to Steal SSH Credentials",
-      "link": "https://thehackernews.com/2026/05/new-linux-pamdoora-backdoor-uses-pam.html",
-      "date": "2026-05-08T08:41:00Z",
-      "description": "Cybersecurity researchers have disclosed details of a new Linux backdoor named PamDOORa that's being advertised on the Rehub Russian cybercrime forum for $1,600 by a threat actor called \"darkworm.\" The backdoor is designed as a Pluggable Authentication Module (PAM)-based post-exploitation toolkit that enables persistent SSH access by means of a magic password and specific TCP port combination.",
-      "source": "thehackernews.com",
-      "first_seen": "2026-05-08T12:04:44Z",
-      "last_seen": "2026-05-08T18:03:38Z"
-    },
-    {
       "id": "976dad8a66b2e203f8ee84ea0ca087cd9395a7ef",
       "title": "ZDI-CAN-30917: NVIDIA",
       "link": "http://www.zerodayinitiative.com/advisories/upcoming/",
@@ -35161,7 +35121,7 @@
       "description": "2.5 million people were affected, in a breach that could spell more trouble down the line.",
       "source": "threatpost.com",
       "first_seen": "2026-05-10T12:53:08Z",
-      "last_seen": "2026-08-06T10:26:28Z"
+      "last_seen": "2026-08-06T12:49:39Z"
     },
     {
       "id": "4140c7a34b0ba94ad2e6b0cae9f59b0cb9bfffea",
@@ -35171,7 +35131,7 @@
       "description": "Researchers uncover a watering hole attack likely carried out by APT TA423, which attempts to plant the ScanBox JavaScript-based reconnaissance tool.",
       "source": "threatpost.com",
       "first_seen": "2026-05-10T12:53:08Z",
-      "last_seen": "2026-08-06T10:26:28Z"
+      "last_seen": "2026-08-06T12:49:39Z"
     },
     {
       "id": "9359ee40a641a4b565080313045f1d7e7fe6552b",
@@ -35181,7 +35141,7 @@
       "description": "Over 130 companies tangled in sprawling phishing campaign that spoofed a multi-factor authentication system.",
       "source": "threatpost.com",
       "first_seen": "2026-05-10T12:53:08Z",
-      "last_seen": "2026-08-06T10:26:28Z"
+      "last_seen": "2026-08-06T12:49:39Z"
     },
     {
       "id": "b4ccef0737cd4050d65241bf754072030b6b5e6a",
@@ -35191,7 +35151,7 @@
       "description": "Lockbit is by far this summer’s most prolific ransomware group, trailed by two offshoots of the Conti group.",
       "source": "threatpost.com",
       "first_seen": "2026-05-10T12:53:08Z",
-      "last_seen": "2026-08-06T10:26:28Z"
+      "last_seen": "2026-08-06T12:49:39Z"
     },
     {
       "id": "12ee113fc8fce91f6d7fb28deab2b1ad20061ec7",
@@ -35201,7 +35161,7 @@
       "description": "Tens of thousands of cameras have failed to patch a critical, 11-month-old CVE, leaving thousands of organizations exposed.",
       "source": "threatpost.com",
       "first_seen": "2026-05-10T12:53:08Z",
-      "last_seen": "2026-08-06T10:26:28Z"
+      "last_seen": "2026-08-06T12:49:39Z"
     }
   ]
 }
