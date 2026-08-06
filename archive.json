@@ -1,8 +1,58 @@
 {
-  "last_updated": "2026-08-06T07:32:14Z",
+  "last_updated": "2026-08-06T10:26:28Z",
   "retention_days": 90,
-  "count": 3523,
+  "count": 3520,
   "items": [
+    {
+      "id": "7f60d33b8847fa5fd5de0a631f0c773b3580272b",
+      "title": "Meta AI Hacked External Systems During Cybersecurity Testing",
+      "link": "https://www.securityweek.com/meta-ai-hacked-external-systems-during-cybersecurity-testing/",
+      "date": "2026-08-06T09:56:26Z",
+      "description": "The incident involved a testing environment set up by Irregular, similar to what Anthropic reported last week. The post Meta AI Hacked External Systems During Cybersecurity Testing appeared first on SecurityWeek.",
+      "source": "securityweek.com",
+      "first_seen": "2026-08-06T10:26:28Z",
+      "last_seen": "2026-08-06T10:26:28Z"
+    },
+    {
+      "id": "439bfe10bb1bf039ecd6cfb4950092244286bd3c",
+      "title": "Belarusian Ransom Cartel Mastermind Gets 16 Years in Prison",
+      "link": "https://www.securityweek.com/belarusian-ransom-cartel-mastermind-gets-16-years-in-prison/",
+      "date": "2026-08-06T09:30:30Z",
+      "description": "Maksim Silnikau was the creator and administrator of the ransomware group and involved in Angler EK’s distribution. The post Belarusian Ransom Cartel Mastermind Gets 16 Years in Prison appeared first on SecurityWeek.",
+      "source": "securityweek.com",
+      "first_seen": "2026-08-06T10:26:28Z",
+      "last_seen": "2026-08-06T10:26:28Z"
+    },
+    {
+      "id": "dfa6bf89ceae32d16564fa7164791a1c428f72a2",
+      "title": "Attackers Compile khunt Inside Oracle to Turn SQL Injection Into Windows SYSTEM Access",
+      "link": "https://thehackernews.com/2026/08/attackers-compile-khunt-inside-oracle.html",
+      "date": "2026-08-06T09:19:23Z",
+      "description": "Attackers broke into an organization's Oracle database through a SQL injection flaw in a public-facing web application, then installed a post-exploitation toolkit without writing an executable to disk. They fed Java source code to the database, let Oracle compile it into stored schema objects, and ran commands from inside the database engine. Huntress, which tracks the toolkit as khunt,",
+      "source": "thehackernews.com",
+      "first_seen": "2026-08-06T10:26:28Z",
+      "last_seen": "2026-08-06T10:26:28Z"
+    },
+    {
+      "id": "c4805ccf0d4021c132d6caf4f83e993656e84828",
+      "title": "AWS, Google, and Vercel Agent Flaws Let Attackers Trigger Tools Without Running the Model",
+      "link": "https://thehackernews.com/2026/08/aws-google-and-vercel-patch-agent-flaws.html",
+      "date": "2026-08-06T08:57:30Z",
+      "description": "Security flaws in agent infrastructure from Amazon Web Services (AWS), Google, and Vercel let untrusted or forged instructions reach an agent's tools with no check that a model turn had authorized them. In several of the attack paths, the model never ran at all, so system prompts, content filters, and model-level guardrails never got a chance to intervene. The affected products include Amazon",
+      "source": "thehackernews.com",
+      "first_seen": "2026-08-06T10:26:28Z",
+      "last_seen": "2026-08-06T10:26:28Z"
+    },
+    {
+      "id": "3daecbabcb28c0b31efc061c3ac8e7b51c7b8fb7",
+      "title": "Chinese-Made Zbtlink Routers Ship With Backdoor That Opens Unauthenticated Root Shells",
+      "link": "https://thehackernews.com/2026/08/chinese-made-zbtlink-routers-ship-with.html",
+      "date": "2026-08-06T08:05:22Z",
+      "description": "Cybersecurity researchers have disclosed details of a \"factory-shipped backdoor\" implanted in at least 20 Chinese router models from Zbtlink. According to a new report from VulnCheck, the implant appears in all 21 firmware images currently available from Zbtlink that span more than 2 years. The backdoors are designed such that they start automatically and attempt to beacon to Chinese",
+      "source": "thehackernews.com",
+      "first_seen": "2026-08-06T10:26:28Z",
+      "last_seen": "2026-08-06T10:26:28Z"
+    },
     {
       "id": "11f035c3f8312c35b23062310eebae00ac61833b",
       "title": "Cisco Patches Critical SD-WAN, IOS XE, FMC Vulnerabilities",
@@ -11,7 +61,27 @@
       "description": "Patches were rolled out for two dozen vulnerabilities, including one with public proof-of-concept (PoC) code. The post Cisco Patches Critical SD-WAN, IOS XE, FMC Vulnerabilities appeared first on SecurityWeek.",
       "source": "securityweek.com",
       "first_seen": "2026-08-06T07:32:14Z",
-      "last_seen": "2026-08-06T07:32:14Z"
+      "last_seen": "2026-08-06T10:26:28Z"
+    },
+    {
+      "id": "be9c248c000d5ca11fe09429ef44cfe84820aa65",
+      "title": "Ransom Cartel Creator Gets 16 Years in Prison for Operating Ransomware-as-a-Service",
+      "link": "https://thehackernews.com/2026/08/ransom-cartel-creator-gets-16-years-in.html",
+      "date": "2026-08-06T07:19:54Z",
+      "description": "A federal judge in Alexandria, Virginia, sentenced Maksim Silnikau to 16 years in prison on August 5 for creating and running Ransom Cartel, the ransomware-as-a-service operation he stood up in 2021. Between 2021 and 2023, Ransom Cartel conspirators attacked at least 18 companies, including firms in California, New York and Nebraska, and others abroad, according to the Justice Department.",
+      "source": "thehackernews.com",
+      "first_seen": "2026-08-06T10:26:28Z",
+      "last_seen": "2026-08-06T10:26:28Z"
+    },
+    {
+      "id": "1a0e194d34aecab5e4898a5145f0b6ca37d0886d",
+      "title": "CISA Flags TeamCity CVE-2026-63077 RCE Flaw Under Active Exploitation in the Wild",
+      "link": "https://thehackernews.com/2026/08/cisa-flags-teamcity-cve-2026-63077-rce.html",
+      "date": "2026-08-06T06:51:43Z",
+      "description": "A newly patched security flaw impacting on-premise versions of JetBrains TeamCity has come under active exploitation in the wild, according to the U.S. Cybersecurity and Infrastructure Security Agency (CISA). The vulnerability in question is CVE-2026-63077 (CVSS score: 9.8), a case of deserialization of untrusted data that could allow an unauthenticated attacker with access to a TeamCity server",
+      "source": "thehackernews.com",
+      "first_seen": "2026-08-06T10:26:28Z",
+      "last_seen": "2026-08-06T10:26:28Z"
     },
     {
       "id": "9957d1c3883a2c9edb61cf7d5827b11ae905a478",
@@ -31,7 +101,7 @@
       "description": "Tracked as CVE-2026-63077, the critical bug can be exploited without authentication for remote code execution. The post Hackers Start Exploiting Recent JetBrains TeamCity Vulnerability appeared first on SecurityWeek.",
       "source": "securityweek.com",
       "first_seen": "2026-08-06T07:32:14Z",
-      "last_seen": "2026-08-06T07:32:14Z"
+      "last_seen": "2026-08-06T10:26:28Z"
     },
     {
       "id": "1099f67c186ce339a5bade74f4882e857f09cd81",
@@ -91,7 +161,7 @@
       "description": "Attackers can take control of agents through malicious instructions hidden in content supplied to AI browsers, and there's no simple fix for the threat.",
       "source": "darkreading.com",
       "first_seen": "2026-08-05T23:47:11Z",
-      "last_seen": "2026-08-06T07:32:14Z"
+      "last_seen": "2026-08-06T10:26:28Z"
     },
     {
       "id": "da3c694a75d875c1ee8d3997fc83a2a79d510fa0",
@@ -101,7 +171,7 @@
       "description": "Maksim Silnikau, the creator and administrator of the Ransom Cartel ransomware operation, was sentenced to 16 years in prison for his role in ransomware attacks against at least 18 companies worldwide. [...]",
       "source": "bleepingcomputer.com",
       "first_seen": "2026-08-05T23:47:11Z",
-      "last_seen": "2026-08-06T07:32:14Z"
+      "last_seen": "2026-08-06T10:26:28Z"
     },
     {
       "id": "30350fe6fa93435f4adc9e3efe0877ca7d8a5766",
@@ -111,7 +181,7 @@
       "description": "AI browsers from top vendors remain vulnerable to prompt injection attacks despite multiple security guardrails, according to new research.",
       "source": "darkreading.com",
       "first_seen": "2026-08-05T23:47:11Z",
-      "last_seen": "2026-08-06T07:32:14Z"
+      "last_seen": "2026-08-06T10:26:28Z"
     },
     {
       "id": "0d6d72cd430057bb1dc5dad5d383df503172d334",
@@ -121,7 +191,7 @@
       "description": "A Canadian man pleaded guilty today to his role in accessing company accounts at cloud storage provider Snowflake and stealing data from at least 165 organizations in a scheme to extort millions of dollars from victims. [...]",
       "source": "bleepingcomputer.com",
       "first_seen": "2026-08-05T22:05:18Z",
-      "last_seen": "2026-08-06T07:32:14Z"
+      "last_seen": "2026-08-06T10:26:28Z"
     },
     {
       "id": "b63b97126625c4d37cec5472ac4f366f8ed06cc9",
@@ -131,7 +201,7 @@
       "description": "Hackers exploited a SQL injection vulnerability to install a post-exploitation toolkit directly inside an Oracle database that was used to breach a corporate network. [...]",
       "source": "bleepingcomputer.com",
       "first_seen": "2026-08-05T20:56:11Z",
-      "last_seen": "2026-08-06T07:32:14Z"
+      "last_seen": "2026-08-06T10:26:28Z"
     },
     {
       "id": "26088cb48d586a4b3886242e46de844a863fa5e7",
@@ -141,7 +211,7 @@
       "description": "CSS was once just about design. Now researchers warn it's powerful enough to exfiltrate data from webmail — and some vendors aren't prepared.",
       "source": "darkreading.com",
       "first_seen": "2026-08-05T20:56:11Z",
-      "last_seen": "2026-08-06T07:32:14Z"
+      "last_seen": "2026-08-06T10:26:28Z"
     },
     {
       "id": "227f57345c22da9ebecedf991b4d83740ce0a26b",
@@ -151,7 +221,7 @@
       "description": "The chain involved the exploitation of several vulnerabilities in the Samsung Members and Samsung Account applications. The post How a $50,000 Exploit Chain Turned Bixby Against Samsung Phones appeared first on SecurityWeek.",
       "source": "securityweek.com",
       "first_seen": "2026-08-05T20:56:11Z",
-      "last_seen": "2026-08-06T07:32:14Z"
+      "last_seen": "2026-08-06T10:26:28Z"
     },
     {
       "id": "0b8f789787697faf67abfc49dbbdcf4a99bf0f75",
@@ -161,7 +231,7 @@
       "description": "Researchers are calling attention to the risks inherent in automated network device provisioning, using a world-leading device manufacturer as a case study.",
       "source": "darkreading.com",
       "first_seen": "2026-08-05T20:56:11Z",
-      "last_seen": "2026-08-06T07:32:14Z"
+      "last_seen": "2026-08-06T10:26:28Z"
     },
     {
       "id": "97daf5ee347210c907674a41429ce8ae7a5cb4d4",
@@ -201,7 +271,7 @@
       "description": "Organized crime is convincingly scamming at scale, making billions thanks to AI-enabled voice cloning, deepfake real-time video overlays, LLM-driven persona management, and automated translation.",
       "source": "darkreading.com",
       "first_seen": "2026-08-05T22:05:18Z",
-      "last_seen": "2026-08-06T07:32:14Z"
+      "last_seen": "2026-08-06T10:26:28Z"
     },
     {
       "id": "105f574cc8e4ff5ca4ffb770cf93c67f8724759d",
@@ -211,7 +281,7 @@
       "description": "A phishing campaign is exploiting fears surrounding the recently disclosed COLDCARD wallet vulnerability and suspected $88.6 million Bitcoin theft to trick users into installing ScreenConnect remote access software. [...]",
       "source": "bleepingcomputer.com",
       "first_seen": "2026-08-05T19:12:46Z",
-      "last_seen": "2026-08-06T07:32:14Z"
+      "last_seen": "2026-08-06T10:26:28Z"
     },
     {
       "id": "7aec19d77c5a0d8d594172fd39283e04b4669076",
@@ -261,7 +331,7 @@
       "description": "The U.S. Cybersecurity and Infrastructure Security Agency is giving federal agencies three days to mitigate vulnerabilities in IBM Langflow, N-central, and Apache Tomcat, all actively exploited. [...]",
       "source": "bleepingcomputer.com",
       "first_seen": "2026-08-05T17:18:53Z",
-      "last_seen": "2026-08-06T07:32:14Z"
+      "last_seen": "2026-08-06T10:26:28Z"
     },
     {
       "id": "24b47fc25038a8ef31b86c545a61a2f582393fbf",
@@ -631,7 +701,7 @@
       "description": "A CVSS score 5.5 AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:N/A:N severity vulnerability discovered by 'Hlib Yavorskyi' was reported to the affected vendor on: 2026-08-05, 0 days ago. The vendor is given until 2026-12-03 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
       "source": "zerodayinitiative.com",
       "first_seen": "2026-08-05T17:18:53Z",
-      "last_seen": "2026-08-06T07:32:14Z"
+      "last_seen": "2026-08-06T10:26:28Z"
     },
     {
       "id": "f78ac5ea14fab10ff45119083897226992305336",
@@ -641,7 +711,7 @@
       "description": "A CVSS score 8.8 AV:L/AC:L/PR:L/UI:N/S:C/C:H/I:H/A:H severity vulnerability discovered by 'Brandon Evans of TrendAI Zero Day Initiative' was reported to the affected vendor on: 2026-08-05, 0 days ago. The vendor is given until 2026-12-03 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
       "source": "zerodayinitiative.com",
       "first_seen": "2026-08-05T19:12:46Z",
-      "last_seen": "2026-08-06T07:32:14Z"
+      "last_seen": "2026-08-06T10:26:28Z"
     },
     {
       "id": "93f03d0e15a9e65f93693adc83ac005268031852",
@@ -651,7 +721,7 @@
       "description": "A CVSS score 6.5 AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:N severity vulnerability discovered by 'Brandon Niemczyk and Peter Girnus (@gothburz) of Trend Zero Day Initiative' was reported to the affected vendor on: 2026-08-05, 0 days ago. The vendor is given until 2026-12-03 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
       "source": "zerodayinitiative.com",
       "first_seen": "2026-08-05T19:12:46Z",
-      "last_seen": "2026-08-06T07:32:14Z"
+      "last_seen": "2026-08-06T10:26:28Z"
     },
     {
       "id": "2a35411b5e673f16865d382e1cd5a17472d7ed59",
@@ -661,7 +731,7 @@
       "description": "A CVSS score 8.8 AV:A/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H severity vulnerability discovered by 'Steven C Yu (Chiao-Lin Yu) of TrendAI Research' was reported to the affected vendor on: 2026-08-05, 0 days ago. The vendor is given until 2026-12-03 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
       "source": "zerodayinitiative.com",
       "first_seen": "2026-08-05T22:05:18Z",
-      "last_seen": "2026-08-06T07:32:14Z"
+      "last_seen": "2026-08-06T10:26:28Z"
     },
     {
       "id": "69f0362a1187631501db71a983b59deaa0c06352",
@@ -671,7 +741,7 @@
       "description": "A CVSS score 8.8 AV:A/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H severity vulnerability discovered by 'Steven C Yu (Chiao-Lin Yu) of TrendAI Research' was reported to the affected vendor on: 2026-08-05, 0 days ago. The vendor is given until 2026-12-03 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
       "source": "zerodayinitiative.com",
       "first_seen": "2026-08-05T22:05:18Z",
-      "last_seen": "2026-08-06T07:32:14Z"
+      "last_seen": "2026-08-06T10:26:28Z"
     },
     {
       "id": "9732db72cd9750eaa96c9a4257174440d6e6edc7",
@@ -35034,26 +35104,6 @@
       "last_seen": "2026-05-09T07:08:24Z"
     },
     {
-      "id": "d7eaa48292acad388812e65989e62b19a61832b2",
-      "title": "New NWHStealer Delivery Chain Uses Bun Loader, Anti-VM Checks, and Encrypted C2",
-      "link": "https://cybersecuritynews.com/new-nwhstealer-delivery-chain-uses-bun-loader/",
-      "date": "2026-05-08T09:44:13Z",
-      "description": "A new and evolving threat has caught the attention of cybersecurity researchers worldwide. A Windows-based information stealer known as NWHStealer has resurfaced with a more sophisticated delivery chain, now using the Bun JavaScript runtime as part of its infection process. This shift makes it clear that the attackers behind this campaign are actively experimenting with […] The post New…",
-      "source": "cybersecuritynews.com",
-      "first_seen": "2026-05-08T10:16:06Z",
-      "last_seen": "2026-05-08T12:04:44Z"
-    },
-    {
-      "id": "0680f7254160e7f6a2a385393c2c997e2c4fb2da",
-      "title": "Former govt contractor convicted for wiping dozens of federal databases",
-      "link": "https://www.bleepingcomputer.com/news/security/former-govt-contractor-convicted-for-wiping-dozens-of-federal-databases/",
-      "date": "2026-05-08T08:45:04Z",
-      "description": "A 34-year-old Virginia man was found guilty of conspiring to destroy dozens of government databases after getting fired from his job as a federal contractor. [...]",
-      "source": "bleepingcomputer.com",
-      "first_seen": "2026-05-08T10:16:06Z",
-      "last_seen": "2026-05-08T16:08:30Z"
-    },
-    {
       "id": "e651ecd8fdb6a9f83af9a65e7de0eb95fc9640d1",
       "title": "New Linux PamDOORa Backdoor Uses PAM Modules to Steal SSH Credentials",
       "link": "https://thehackernews.com/2026/05/new-linux-pamdoora-backdoor-uses-pam.html",
@@ -35062,86 +35112,6 @@
       "source": "thehackernews.com",
       "first_seen": "2026-05-08T12:04:44Z",
       "last_seen": "2026-05-08T18:03:38Z"
-    },
-    {
-      "id": "977311b1e5cc39329d255f3ca5918c5a9791d607",
-      "title": "‘PCPJack’ Worm Removes TeamPCP Infections, Steals Credentials",
-      "link": "https://www.securityweek.com/pcpjack-worm-removes-teampcp-infections-steals-credentials/",
-      "date": "2026-05-08T08:32:34Z",
-      "description": "The malware framework targets web applications and cloud environments, including AWS, Docker, Kubernetes, and more. The post ‘PCPJack’ Worm Removes TeamPCP Infections, Steals Credentials appeared first on SecurityWeek.",
-      "source": "securityweek.com",
-      "first_seen": "2026-05-08T10:16:06Z",
-      "last_seen": "2026-05-11T02:02:28Z"
-    },
-    {
-      "id": "9151e5a3879b272c3b8206f6a942f3cdce693dfe",
-      "title": "Mozilla Patches 423 Firefox 0-Day Vulnerabilities with Claude Mythos and Other AI Models",
-      "link": "https://cybersecuritynews.com/firefox-423-0-day-vulnerabilities/",
-      "date": "2026-05-08T08:08:02Z",
-      "description": "Mozilla has fixed a total of 423 Firefox security bugs in April 2026 alone, a figure nearly 20 times higher than its monthly average of about 21 bugs throughout 2025, driven by a groundbreaking agentic AI pipeline built around Anthropic’s Claude Mythos Preview and other large language models. The surge was triggered by Mozilla’s early […] The post Mozilla Patches 423 Firefox 0-Day…",
-      "source": "cybersecuritynews.com",
-      "first_seen": "2026-05-08T08:17:41Z",
-      "last_seen": "2026-05-08T08:17:41Z"
-    },
-    {
-      "id": "c402ec75d1835053198ccf6061bcffc76d2717da",
-      "title": "Mozilla Patches 423 Firefox Vulnerabilities with Claude Mythos and Other AI Models",
-      "link": "https://cybersecuritynews.com/firefox-423-0-day-vulnerabilities/",
-      "date": "2026-05-08T08:08:02Z",
-      "description": "Mozilla has fixed a total of 423 Firefox security bugs in April 2026 alone, a figure nearly 20 times higher than its monthly average of about 21 bugs throughout 2025, driven by a groundbreaking agentic AI pipeline built around Anthropic’s Claude Mythos Preview and other large language models. The surge was triggered by Mozilla’s early […] The post Mozilla Patches 423 Firefox Vulnerabilities with…",
-      "source": "cybersecuritynews.com",
-      "first_seen": "2026-05-08T10:16:06Z",
-      "last_seen": "2026-05-08T12:04:44Z"
-    },
-    {
-      "id": "a538702b362af8b79055b590a00cc5bfd051020b",
-      "title": "Ransomware Group Takes Credit for Trellix Hack",
-      "link": "https://www.securityweek.com/ransomware-group-takes-credit-for-trellix-hack/",
-      "date": "2026-05-08T07:58:04Z",
-      "description": "RansomHouse has published several screenshots to demonstrate access to internal Trellix services. The post Ransomware Group Takes Credit for Trellix Hack appeared first on SecurityWeek.",
-      "source": "securityweek.com",
-      "first_seen": "2026-05-08T08:17:41Z",
-      "last_seen": "2026-05-08T12:04:44Z"
-    },
-    {
-      "id": "7322d5dd6557b4c94b1b6429918acebe3c583db4",
-      "title": "New Linux 'Dirty Frag' zero-day gives root on all major distros",
-      "link": "https://www.bleepingcomputer.com/news/security/new-linux-dirty-frag-zero-day-with-poc-exploit-gives-root-privileges/",
-      "date": "2026-05-08T07:45:24Z",
-      "description": "A new Linux zero-day vulnerability, named Dirty Frag, allows local attackers to gain root privileges on most major Linux distributions with a single command. [...]",
-      "source": "bleepingcomputer.com",
-      "first_seen": "2026-05-08T08:17:41Z",
-      "last_seen": "2026-05-08T12:04:44Z"
-    },
-    {
-      "id": "80a0742ac2f5533be0415ae1239db4f8d348e2d7",
-      "title": "Critical Spring Vulnerabilities Expose Arbitrary Files and GCP Secrets",
-      "link": "https://cybersecuritynews.com/spring-vulnerabilities-expose-arbitrary-file/",
-      "date": "2026-05-08T07:35:32Z",
-      "description": "Spring Cloud Config provides crucial server-side and client-side support for externalized configuration in distributed systems. Recently, the Spring development team disclosed four security vulnerabilities impacting the Spring Cloud Config Server. These flaws range from medium to critical severity, exposing environments to unauthorized arbitrary file access, cloud secrets leakage, and logging…",
-      "source": "cybersecuritynews.com",
-      "first_seen": "2026-05-08T08:17:41Z",
-      "last_seen": "2026-05-08T12:04:44Z"
-    },
-    {
-      "id": "cd4d78bf37e8166ce702f0e63df7cb3d5b9f0b3b",
-      "title": "Vulnerability in Claude Extension for Chrome Exposes AI Agent to Takeover",
-      "link": "https://www.securityweek.com/vulnerability-in-claude-extension-for-chrome-exposes-ai-agent-to-takeover/",
-      "date": "2026-05-08T06:53:36Z",
-      "description": "Lax extension permissions and improper trust implementation allow attackers to inject prompts in the Claude Chrome extension. The post Vulnerability in Claude Extension for Chrome Exposes AI Agent to Takeover appeared first on SecurityWeek.",
-      "source": "securityweek.com",
-      "first_seen": "2026-05-08T08:17:41Z",
-      "last_seen": "2026-05-08T10:16:06Z"
-    },
-    {
-      "id": "6bb49594687e43c1624bfbb1ad457d3a45c569e1",
-      "title": "Linux Kernel Dirty Frag LPE Exploit Enables Root Access Across Major Distributions",
-      "link": "https://thehackernews.com/2026/05/linux-kernel-dirty-frag-lpe-exploit.html",
-      "date": "2026-05-08T05:12:00Z",
-      "description": "Details have emerged about a new, unpatched local privilege escalation (LPE) vulnerability impacting the Linux kernel. Dubbed Dirty Frag, it has been described as a successor to Copy Fail (CVE-2026-31431, CVSS score: 7.8), a recently disclosed LPE flaw impacting the Linux kernel that has since come under active exploitation in the wild. The vulnerability was reported to Linux kernel maintainers",
-      "source": "thehackernews.com",
-      "first_seen": "2026-05-08T08:17:41Z",
-      "last_seen": "2026-05-08T16:08:30Z"
     },
     {
       "id": "976dad8a66b2e203f8ee84ea0ca087cd9395a7ef",
@@ -35191,7 +35161,7 @@
       "description": "2.5 million people were affected, in a breach that could spell more trouble down the line.",
       "source": "threatpost.com",
       "first_seen": "2026-05-10T12:53:08Z",
-      "last_seen": "2026-08-06T07:32:14Z"
+      "last_seen": "2026-08-06T10:26:28Z"
     },
     {
       "id": "4140c7a34b0ba94ad2e6b0cae9f59b0cb9bfffea",
@@ -35201,7 +35171,7 @@
       "description": "Researchers uncover a watering hole attack likely carried out by APT TA423, which attempts to plant the ScanBox JavaScript-based reconnaissance tool.",
       "source": "threatpost.com",
       "first_seen": "2026-05-10T12:53:08Z",
-      "last_seen": "2026-08-06T07:32:14Z"
+      "last_seen": "2026-08-06T10:26:28Z"
     },
     {
       "id": "9359ee40a641a4b565080313045f1d7e7fe6552b",
@@ -35211,7 +35181,7 @@
       "description": "Over 130 companies tangled in sprawling phishing campaign that spoofed a multi-factor authentication system.",
       "source": "threatpost.com",
       "first_seen": "2026-05-10T12:53:08Z",
-      "last_seen": "2026-08-06T07:32:14Z"
+      "last_seen": "2026-08-06T10:26:28Z"
     },
     {
       "id": "b4ccef0737cd4050d65241bf754072030b6b5e6a",
@@ -35221,7 +35191,7 @@
       "description": "Lockbit is by far this summer’s most prolific ransomware group, trailed by two offshoots of the Conti group.",
       "source": "threatpost.com",
       "first_seen": "2026-05-10T12:53:08Z",
-      "last_seen": "2026-08-06T07:32:14Z"
+      "last_seen": "2026-08-06T10:26:28Z"
     },
     {
       "id": "12ee113fc8fce91f6d7fb28deab2b1ad20061ec7",
@@ -35231,7 +35201,7 @@
       "description": "Tens of thousands of cameras have failed to patch a critical, 11-month-old CVE, leaving thousands of organizations exposed.",
       "source": "threatpost.com",
       "first_seen": "2026-05-10T12:53:08Z",
-      "last_seen": "2026-08-06T07:32:14Z"
+      "last_seen": "2026-08-06T10:26:28Z"
     }
   ]
 }

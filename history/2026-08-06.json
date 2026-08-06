@@ -1,7 +1,57 @@
 {
   "date": "2026-08-06",
-  "count": 8,
+  "count": 15,
   "items": [
+    {
+      "id": "7f60d33b8847fa5fd5de0a631f0c773b3580272b",
+      "title": "Meta AI Hacked External Systems During Cybersecurity Testing",
+      "link": "https://www.securityweek.com/meta-ai-hacked-external-systems-during-cybersecurity-testing/",
+      "date": "2026-08-06T09:56:26Z",
+      "description": "The incident involved a testing environment set up by Irregular, similar to what Anthropic reported last week. The post Meta AI Hacked External Systems During Cybersecurity Testing appeared first on SecurityWeek.",
+      "source": "securityweek.com",
+      "first_seen": "2026-08-06T10:26:28Z",
+      "last_seen": "2026-08-06T10:26:28Z"
+    },
+    {
+      "id": "439bfe10bb1bf039ecd6cfb4950092244286bd3c",
+      "title": "Belarusian Ransom Cartel Mastermind Gets 16 Years in Prison",
+      "link": "https://www.securityweek.com/belarusian-ransom-cartel-mastermind-gets-16-years-in-prison/",
+      "date": "2026-08-06T09:30:30Z",
+      "description": "Maksim Silnikau was the creator and administrator of the ransomware group and involved in Angler EK’s distribution. The post Belarusian Ransom Cartel Mastermind Gets 16 Years in Prison appeared first on SecurityWeek.",
+      "source": "securityweek.com",
+      "first_seen": "2026-08-06T10:26:28Z",
+      "last_seen": "2026-08-06T10:26:28Z"
+    },
+    {
+      "id": "dfa6bf89ceae32d16564fa7164791a1c428f72a2",
+      "title": "Attackers Compile khunt Inside Oracle to Turn SQL Injection Into Windows SYSTEM Access",
+      "link": "https://thehackernews.com/2026/08/attackers-compile-khunt-inside-oracle.html",
+      "date": "2026-08-06T09:19:23Z",
+      "description": "Attackers broke into an organization's Oracle database through a SQL injection flaw in a public-facing web application, then installed a post-exploitation toolkit without writing an executable to disk. They fed Java source code to the database, let Oracle compile it into stored schema objects, and ran commands from inside the database engine. Huntress, which tracks the toolkit as khunt,",
+      "source": "thehackernews.com",
+      "first_seen": "2026-08-06T10:26:28Z",
+      "last_seen": "2026-08-06T10:26:28Z"
+    },
+    {
+      "id": "c4805ccf0d4021c132d6caf4f83e993656e84828",
+      "title": "AWS, Google, and Vercel Agent Flaws Let Attackers Trigger Tools Without Running the Model",
+      "link": "https://thehackernews.com/2026/08/aws-google-and-vercel-patch-agent-flaws.html",
+      "date": "2026-08-06T08:57:30Z",
+      "description": "Security flaws in agent infrastructure from Amazon Web Services (AWS), Google, and Vercel let untrusted or forged instructions reach an agent's tools with no check that a model turn had authorized them. In several of the attack paths, the model never ran at all, so system prompts, content filters, and model-level guardrails never got a chance to intervene. The affected products include Amazon",
+      "source": "thehackernews.com",
+      "first_seen": "2026-08-06T10:26:28Z",
+      "last_seen": "2026-08-06T10:26:28Z"
+    },
+    {
+      "id": "3daecbabcb28c0b31efc061c3ac8e7b51c7b8fb7",
+      "title": "Chinese-Made Zbtlink Routers Ship With Backdoor That Opens Unauthenticated Root Shells",
+      "link": "https://thehackernews.com/2026/08/chinese-made-zbtlink-routers-ship-with.html",
+      "date": "2026-08-06T08:05:22Z",
+      "description": "Cybersecurity researchers have disclosed details of a \"factory-shipped backdoor\" implanted in at least 20 Chinese router models from Zbtlink. According to a new report from VulnCheck, the implant appears in all 21 firmware images currently available from Zbtlink that span more than 2 years. The backdoors are designed such that they start automatically and attempt to beacon to Chinese",
+      "source": "thehackernews.com",
+      "first_seen": "2026-08-06T10:26:28Z",
+      "last_seen": "2026-08-06T10:26:28Z"
+    },
     {
       "id": "11f035c3f8312c35b23062310eebae00ac61833b",
       "title": "Cisco Patches Critical SD-WAN, IOS XE, FMC Vulnerabilities",
@@ -10,7 +60,27 @@
       "description": "Patches were rolled out for two dozen vulnerabilities, including one with public proof-of-concept (PoC) code. The post Cisco Patches Critical SD-WAN, IOS XE, FMC Vulnerabilities appeared first on SecurityWeek.",
       "source": "securityweek.com",
       "first_seen": "2026-08-06T07:32:14Z",
-      "last_seen": "2026-08-06T07:32:14Z"
+      "last_seen": "2026-08-06T10:26:28Z"
+    },
+    {
+      "id": "be9c248c000d5ca11fe09429ef44cfe84820aa65",
+      "title": "Ransom Cartel Creator Gets 16 Years in Prison for Operating Ransomware-as-a-Service",
+      "link": "https://thehackernews.com/2026/08/ransom-cartel-creator-gets-16-years-in.html",
+      "date": "2026-08-06T07:19:54Z",
+      "description": "A federal judge in Alexandria, Virginia, sentenced Maksim Silnikau to 16 years in prison on August 5 for creating and running Ransom Cartel, the ransomware-as-a-service operation he stood up in 2021. Between 2021 and 2023, Ransom Cartel conspirators attacked at least 18 companies, including firms in California, New York and Nebraska, and others abroad, according to the Justice Department.",
+      "source": "thehackernews.com",
+      "first_seen": "2026-08-06T10:26:28Z",
+      "last_seen": "2026-08-06T10:26:28Z"
+    },
+    {
+      "id": "1a0e194d34aecab5e4898a5145f0b6ca37d0886d",
+      "title": "CISA Flags TeamCity CVE-2026-63077 RCE Flaw Under Active Exploitation in the Wild",
+      "link": "https://thehackernews.com/2026/08/cisa-flags-teamcity-cve-2026-63077-rce.html",
+      "date": "2026-08-06T06:51:43Z",
+      "description": "A newly patched security flaw impacting on-premise versions of JetBrains TeamCity has come under active exploitation in the wild, according to the U.S. Cybersecurity and Infrastructure Security Agency (CISA). The vulnerability in question is CVE-2026-63077 (CVSS score: 9.8), a case of deserialization of untrusted data that could allow an unauthenticated attacker with access to a TeamCity server",
+      "source": "thehackernews.com",
+      "first_seen": "2026-08-06T10:26:28Z",
+      "last_seen": "2026-08-06T10:26:28Z"
     },
     {
       "id": "9957d1c3883a2c9edb61cf7d5827b11ae905a478",
@@ -30,7 +100,7 @@
       "description": "Tracked as CVE-2026-63077, the critical bug can be exploited without authentication for remote code execution. The post Hackers Start Exploiting Recent JetBrains TeamCity Vulnerability appeared first on SecurityWeek.",
       "source": "securityweek.com",
       "first_seen": "2026-08-06T07:32:14Z",
-      "last_seen": "2026-08-06T07:32:14Z"
+      "last_seen": "2026-08-06T10:26:28Z"
     },
     {
       "id": "1099f67c186ce339a5bade74f4882e857f09cd81",

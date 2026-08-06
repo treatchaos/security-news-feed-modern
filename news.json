@@ -1,7 +1,42 @@
 {
-  "last_updated": "2026-08-06T07:32:14Z",
-  "count": 35,
+  "last_updated": "2026-08-06T10:26:28Z",
+  "count": 30,
   "items": [
+    {
+      "title": "Meta AI Hacked External Systems During Cybersecurity Testing",
+      "link": "https://www.securityweek.com/meta-ai-hacked-external-systems-during-cybersecurity-testing/",
+      "date": "2026-08-06T09:56:26Z",
+      "description": "The incident involved a testing environment set up by Irregular, similar to what Anthropic reported last week. The post Meta AI Hacked External Systems During Cybersecurity Testing appeared first on SecurityWeek.",
+      "source": "securityweek.com"
+    },
+    {
+      "title": "Belarusian Ransom Cartel Mastermind Gets 16 Years in Prison",
+      "link": "https://www.securityweek.com/belarusian-ransom-cartel-mastermind-gets-16-years-in-prison/",
+      "date": "2026-08-06T09:30:30Z",
+      "description": "Maksim Silnikau was the creator and administrator of the ransomware group and involved in Angler EK’s distribution. The post Belarusian Ransom Cartel Mastermind Gets 16 Years in Prison appeared first on SecurityWeek.",
+      "source": "securityweek.com"
+    },
+    {
+      "title": "Attackers Compile khunt Inside Oracle to Turn SQL Injection Into Windows SYSTEM Access",
+      "link": "https://thehackernews.com/2026/08/attackers-compile-khunt-inside-oracle.html",
+      "date": "2026-08-06T09:19:23Z",
+      "description": "Attackers broke into an organization's Oracle database through a SQL injection flaw in a public-facing web application, then installed a post-exploitation toolkit without writing an executable to disk. They fed Java source code to the database, let Oracle compile it into stored schema objects, and ran commands from inside the database engine. Huntress, which tracks the toolkit as khunt,",
+      "source": "thehackernews.com"
+    },
+    {
+      "title": "AWS, Google, and Vercel Agent Flaws Let Attackers Trigger Tools Without Running the Model",
+      "link": "https://thehackernews.com/2026/08/aws-google-and-vercel-patch-agent-flaws.html",
+      "date": "2026-08-06T08:57:30Z",
+      "description": "Security flaws in agent infrastructure from Amazon Web Services (AWS), Google, and Vercel let untrusted or forged instructions reach an agent's tools with no check that a model turn had authorized them. In several of the attack paths, the model never ran at all, so system prompts, content filters, and model-level guardrails never got a chance to intervene. The affected products include Amazon",
+      "source": "thehackernews.com"
+    },
+    {
+      "title": "Chinese-Made Zbtlink Routers Ship With Backdoor That Opens Unauthenticated Root Shells",
+      "link": "https://thehackernews.com/2026/08/chinese-made-zbtlink-routers-ship-with.html",
+      "date": "2026-08-06T08:05:22Z",
+      "description": "Cybersecurity researchers have disclosed details of a \"factory-shipped backdoor\" implanted in at least 20 Chinese router models from Zbtlink. According to a new report from VulnCheck, the implant appears in all 21 firmware images currently available from Zbtlink that span more than 2 years. The backdoors are designed such that they start automatically and attempt to beacon to Chinese",
+      "source": "thehackernews.com"
+    },
     {
       "title": "Cisco Patches Critical SD-WAN, IOS XE, FMC Vulnerabilities",
       "link": "https://www.securityweek.com/cisco-patches-critical-sd-wan-ios-xe-fmc-vulnerabilities/",
@@ -10,11 +45,18 @@
       "source": "securityweek.com"
     },
     {
-      "title": "CISA Warns of TeamCity RCE Vulnerability Actively Exploited in Attacks",
-      "link": "https://cybersecuritynews.com/teamcity-rce-vulnerability-actively-exploited/",
-      "date": "2026-08-06T06:37:45Z",
-      "description": "The U.S. Cybersecurity and Infrastructure Security Agency has warned that a critical JetBrains TeamCity flaw is being actively exploited. The vulnerability, tracked as CVE-2026-63077, can let an unauthenticated attacker run code remotely on vulnerable TeamCity On-Premises servers. CISA added the issue to its Known Exploited Vulnerabilities catalog on August 5 and set an August 8 […] The post…",
-      "source": "cybersecuritynews.com"
+      "title": "Ransom Cartel Creator Gets 16 Years in Prison for Operating Ransomware-as-a-Service",
+      "link": "https://thehackernews.com/2026/08/ransom-cartel-creator-gets-16-years-in.html",
+      "date": "2026-08-06T07:19:54Z",
+      "description": "A federal judge in Alexandria, Virginia, sentenced Maksim Silnikau to 16 years in prison on August 5 for creating and running Ransom Cartel, the ransomware-as-a-service operation he stood up in 2021. Between 2021 and 2023, Ransom Cartel conspirators attacked at least 18 companies, including firms in California, New York and Nebraska, and others abroad, according to the Justice Department.",
+      "source": "thehackernews.com"
+    },
+    {
+      "title": "CISA Flags TeamCity CVE-2026-63077 RCE Flaw Under Active Exploitation in the Wild",
+      "link": "https://thehackernews.com/2026/08/cisa-flags-teamcity-cve-2026-63077-rce.html",
+      "date": "2026-08-06T06:51:43Z",
+      "description": "A newly patched security flaw impacting on-premise versions of JetBrains TeamCity has come under active exploitation in the wild, according to the U.S. Cybersecurity and Infrastructure Security Agency (CISA). The vulnerability in question is CVE-2026-63077 (CVSS score: 9.8), a case of deserialization of untrusted data that could allow an unauthenticated attacker with access to a TeamCity server",
+      "source": "thehackernews.com"
     },
     {
       "title": "Hackers Start Exploiting Recent JetBrains TeamCity Vulnerability",
@@ -22,41 +64,6 @@
       "date": "2026-08-06T06:37:44Z",
       "description": "Tracked as CVE-2026-63077, the critical bug can be exploited without authentication for remote code execution. The post Hackers Start Exploiting Recent JetBrains TeamCity Vulnerability appeared first on SecurityWeek.",
       "source": "securityweek.com"
-    },
-    {
-      "title": "Snowflake Hacker Pleads Guilty Over Breaches Affecting at Least 100 Million People",
-      "link": "https://thehackernews.com/2026/08/snowflake-hacker-pleads-guilty-over.html",
-      "date": "2026-08-06T06:04:30Z",
-      "description": "Connor Riley Moucka pleaded guilty in Seattle federal court on Wednesday to computer fraud, wire fraud, aggravated identity theft and a related conspiracy over the 2024 breaches of Snowflake customer accounts. The intrusions reached at least 165 organizations and exposed records belonging to at least 100 million people. Moucka, 26, of Kitchener, Ontario, personally took at least $495,000 from",
-      "source": "thehackernews.com"
-    },
-    {
-      "title": "250+ macOS ClickFix Domains Use Browser Fingerprinting to Hide Atomic Stealer Attacks",
-      "link": "https://cybersecuritynews.com/158536-2250-macos-clickfix-domains/",
-      "date": "2026-08-06T05:40:49Z",
-      "description": "Atomic Stealer is being pushed at Mac users through websites that look harmless. A large ClickFix operation uses more than 250 look-alike domains to steer selected visitors toward a fake download page and a malicious Terminal command. ClickFix is built on persuasion, not a software flaw. The pages pose as download checks, updates, or CAPTCHA-style […] The post 250+ macOS ClickFix Domains Use…",
-      "source": "cybersecuritynews.com"
-    },
-    {
-      "title": "New npm Supply Chain Attack Began with the Keyv Library Compromised Hundreds of Popular Packages",
-      "link": "https://cybersecuritynews.com/new-npm-supply-chain-attack/",
-      "date": "2026-08-06T05:22:57Z",
-      "description": "A new npm supply chain attack has turned trusted software packages into a route for credential theft. The campaign began after attackers compromised the maintainer account behind the widely used Keyv library, then used that access to push malicious releases across a growing number of projects. The incident matters because npm packages are routinely installed […] The post New npm Supply Chain…",
-      "source": "cybersecuritynews.com"
-    },
-    {
-      "title": "Apple iCloud Private Relay WebKit Flaws Leak Users’ Real IP Addresses",
-      "link": "https://cybersecuritynews.com/apple-icloud-private-relay/",
-      "date": "2026-08-06T04:49:10Z",
-      "description": "Apple users who rely on iCloud Private Relay to conceal their online location may not be getting the protection they expect. Newly disclosed flaws in WebKit, the browser engine used across iOS, can allow a website to see a visitor’s real IP address. The exposure weakens a privacy safeguard. The issue can be triggered when […] The post Apple iCloud Private Relay WebKit Flaws Leak Users’ Real IP…",
-      "source": "cybersecuritynews.com"
-    },
-    {
-      "title": "Cisco Patched Multiple Critical Vulnerabilities in Catalyst SD-WAN – Update Now",
-      "link": "https://cybersecuritynews.com/cisco-catalyst-sd-wan-vulnerabilities-2/",
-      "date": "2026-08-06T03:46:44Z",
-      "description": "Cisco has rolled out software hardening updates for its Catalyst SD-WAN Software after an internal security review uncovered multiple critical vulnerabilities affecting the platform. The flaws were identified proactively by Cisco’s own engineering team rather than through external reports, and the company has confirmed there is no evidence of active exploitation in the wild. Even […] The post…",
-      "source": "cybersecuritynews.com"
     },
     {
       "title": "AI Sends Global Crime Syndicates Into Fraud Nirvana",
@@ -122,20 +129,6 @@
       "source": "darkreading.com"
     },
     {
-      "title": "Over 250 ClickFix Domains Use Browser Fingerprinting to Hide macOS Malware Lures",
-      "link": "https://thehackernews.com/2026/08/over-250-clickfix-domains-use-browser.html",
-      "date": "2026-08-05T18:44:31Z",
-      "description": "A macOS ClickFix operation spanning more than 250 front-end domains now fingerprints visitors before deciding whether to show them a malware lure, a change Microsoft Threat Intelligence tracked on infrastructure it had been watching for weeks. The server-side gate hides the malicious page from crawlers and sandboxes while presenting selected Mac users with a fake software download. Microsoft",
-      "source": "thehackernews.com"
-    },
-    {
-      "title": "OpenAI Disrupts Poipet Scam Network Using ChatGPT Across Multiple Fraud Schemes",
-      "link": "https://thehackernews.com/2026/08/openai-disrupts-poipet-scam-network.html",
-      "date": "2026-08-05T18:33:47Z",
-      "description": "OpenAI said it disrupted a Cambodia-based scam operation that used its generative artificial intelligence (AI) chatbot ChatGPT to facilitate a wide range of investment, romance, gambling, and law enforcement impersonation schemes. To that end, it banned a coordinated network of ChatGPT accounts likely originating from Southeast Asia and operating from the city of Poipet, a region with extensive",
-      "source": "thehackernews.com"
-    },
-    {
       "title": "COLDCARD security audit phishing attack installs remote access tool",
       "link": "https://www.bleepingcomputer.com/news/security/coldcard-security-audit-phishing-attack-installs-remote-access-tool/",
       "date": "2026-08-05T17:49:41Z",
@@ -148,34 +141,6 @@
       "date": "2026-08-05T15:51:33Z",
       "description": "The U.S. Cybersecurity and Infrastructure Security Agency is giving federal agencies three days to mitigate vulnerabilities in IBM Langflow, N-central, and Apache Tomcat, all actively exploited. [...]",
       "source": "bleepingcomputer.com"
-    },
-    {
-      "title": "Poison Claude Sells Discounted Claude Access While Its Operator Sees Every Customer Prompt",
-      "link": "https://thehackernews.com/2026/08/poison-claude-sells-discounted-claude.html",
-      "date": "2026-08-05T15:36:03Z",
-      "description": "Cybersecurity researchers have discovered more than half-a-dozen services advertisements for illegal access to artificial intelligence (AI) models on underground cybercrime forums and messaging platforms. One such service, Poison Claude, claims to offer access to Anthropic's large language models (LLMs), including Opus 4.8, Opus 4.7, Opus 4.6, and Sonnet 4.6. \"Advertisements for Poison Claude",
-      "source": "thehackernews.com"
-    },
-    {
-      "title": "Paperclip AI Flaws Let Attackers Run Host Commands via Malicious Agent Imports",
-      "link": "https://thehackernews.com/2026/08/paperclip-ai-flaws-let-attackers-run.html",
-      "date": "2026-08-05T15:14:05Z",
-      "description": "Two security flaws in Paperclip could let attackers execute commands on a network server or a developer's computer. Paperclip is an open-source control plane for teams of artificial intelligence (AI) agents, and both paths rely on importing a malicious agent and starting it. A third flaw could expose sensitive data and control-plane details through application programming interface (API) routes",
-      "source": "thehackernews.com"
-    },
-    {
-      "title": "Black Hat USA 2026 – Summary of Vendor Announcements (Part 3)",
-      "link": "https://www.securityweek.com/black-hat-usa-2026-summary-of-vendor-announcements-part-3/",
-      "date": "2026-08-05T14:36:29Z",
-      "description": "Many companies are showcasing their products and services this week at the 2026 edition of the Black Hat conference in Las Vegas. The post Black Hat USA 2026 – Summary of Vendor Announcements (Part 3) appeared first on SecurityWeek.",
-      "source": "securityweek.com"
-    },
-    {
-      "title": "The Fourth Battlefield: The Growing Role of Cyber Operations in Global Conflict",
-      "link": "https://www.securityweek.com/the-fourth-battlefield-the-growing-role-of-cyber-operations-in-global-conflict/",
-      "date": "2026-08-05T13:00:08Z",
-      "description": "CrowdStrike co-founder Dmitri Alperovitch discusses how cyber operations support kinetic warfare, signal coming conflicts, and reshape the global battlefield. The post The Fourth Battlefield: The Growing Role of Cyber Operations in Global Conflict appeared first on SecurityWeek.",
-      "source": "securityweek.com"
     },
     {
       "title": "ZDI-CAN-32287: Sparx Systems",
