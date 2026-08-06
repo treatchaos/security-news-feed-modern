@@ -1,7 +1,70 @@
 {
-  "last_updated": "2026-08-06T12:49:39Z",
-  "count": 30,
+  "last_updated": "2026-08-06T15:05:41Z",
+  "count": 35,
   "items": [
+    {
+      "title": "Snowflake Hacker Pleads Guilty in US Court",
+      "link": "https://www.securityweek.com/snowflake-hacker-pleads-guilty-in-us-court/",
+      "date": "2026-08-06T14:56:31Z",
+      "description": "Connor Riley Moucka was extradited to the United States in July 2025 after he was arrested in Canada. The post Snowflake Hacker Pleads Guilty in US Court appeared first on SecurityWeek.",
+      "source": "securityweek.com"
+    },
+    {
+      "title": "One Fake Movie Download Can Expose Passwords, Payments and Crypto Assets",
+      "link": "https://cybersecuritynews.com/fake-movie-download-steal-passwords/",
+      "date": "2026-08-06T14:19:36Z",
+      "description": "Cybercriminals are weaponizing pirated downloads of the blockbuster theatrical release “The Odyssey (2026)” to deliver Lumma Stealer. This prolific information-stealing malware quietly strips compromised systems of saved browser passwords, payment card details, and cryptocurrency wallets in a single execution. Within days of “The Odyssey” becoming one of the year’s most anticipated theatrical…",
+      "source": "cybersecuritynews.com"
+    },
+    {
+      "title": "How AI Exposed a Browser Security Gap that Enterprises Cannot Ignore",
+      "link": "https://www.bleepingcomputer.com/news/security/how-ai-exposed-a-browser-security-gap-that-enterprises-cannot-ignore/",
+      "date": "2026-08-06T14:02:12Z",
+      "description": "AI did not create a new browser security problem. It exposed one that enterprises have long been able to ignore. Skyhigh Security explains why browsers have become a critical control point for governing data movement, AI interactions, and modern work. [...]",
+      "source": "bleepingcomputer.com"
+    },
+    {
+      "title": "Hackers Hid a Remote-Control Toolkit Inside Oracle to Take Over a Windows Server",
+      "link": "https://cybersecuritynews.com/hackers-hid-a-remote-control-toolkit/",
+      "date": "2026-08-06T13:16:33Z",
+      "description": "A routine web application weakness has been tied to a serious Windows Server compromise after attackers used SQL injection to plant a remote-control toolkit inside an Oracle database. The incident shows how a poorly protected form can become a path from a public website to the operating system behind it. The attackers targeted a public-facing […] The post Hackers Hid a Remote-Control Toolkit…",
+      "source": "cybersecuritynews.com"
+    },
+    {
+      "title": "Zero-Click AI Browser Hacking: Claude and ChatGPT Atlas Hijacked via Emails, X Posts",
+      "link": "https://www.securityweek.com/zero-click-ai-browser-hacking-claude-and-chatgpt-atlas-hijacked-via-emails-x-posts/",
+      "date": "2026-08-06T12:54:09Z",
+      "description": "Zenity researchers reported the findings to Anthropic and OpenAI in late 2025 and early 2026, but they remain unpatched. The post Zero-Click AI Browser Hacking: Claude and ChatGPT Atlas Hijacked via Emails, X Posts appeared first on SecurityWeek.",
+      "source": "securityweek.com"
+    },
+    {
+      "title": "Public PoC Released for Linux Kernel Bridge Use-After-Free Vulnerability",
+      "link": "https://cybersecuritynews.com/linux-kernel-bridge-use-after-free-vulnerability/",
+      "date": "2026-08-06T12:29:17Z",
+      "description": "A public proof-of-concept has been released for a use-after-free flaw affecting the Linux kernel’s bridge subsystem, specifically its Spanning Tree Protocol implementation in net/bridge. The issue can leave STP timers active after the bridge network device that owns them has been deleted, creating a dangerous memory-safety condition in the kmalloc-cg-8k slab cache. The use-after-free…",
+      "source": "cybersecuritynews.com"
+    },
+    {
+      "title": "Critical Jenkins Vulnerability Allows Attackers to Execute Malicious Code on Controller",
+      "link": "https://cybersecuritynews.com/jenkins-code-execution-vulnerability/",
+      "date": "2026-08-06T12:24:23Z",
+      "description": "Jenkins has disclosed a critical security vulnerability that could allow attackers to execute malicious code on a Jenkins controller by bypassing a security filter used in agent-to-controller communications. Tracked as CVE-2026-70426, the flaw affects Jenkins installations using vulnerable versions of the Remoting library. The issue has received a Critical CVSS severity rating. It impacts…",
+      "source": "cybersecuritynews.com"
+    },
+    {
+      "title": "Remus Hides Its Command Server on Ethereum While Emptying Browser Vaults",
+      "link": "https://cybersecuritynews.com/remus-hides-its-command-server/",
+      "date": "2026-08-06T12:22:19Z",
+      "description": "Remus is a newly active information‑stealing malware that quietly slips into Windows systems, locks onto popular web browsers, and drains their saved passwords, cookies, and crypto wallet data. The latest campaign leans on fake cracked software sites that look like ordinary download portals but are built to trick users searching for “free” productivity tools and […] The post Remus Hides Its…",
+      "source": "cybersecuritynews.com"
+    },
+    {
+      "title": "Over 4,400 Rockwell PLCs Exposed Online, 22 Found in Water Attack Cities",
+      "link": "https://thehackernews.com/2026/08/over-4400-rockwell-plcs-exposed-online.html",
+      "date": "2026-08-06T12:16:58Z",
+      "description": "Forescout found 22 internet-facing Rockwell Automation programmable logic controllers (PLCs) in cities hit by recent cyberattacks on US water utilities. Nineteen used the same mobile carrier network. Its August 3 scan counted 4,407 exposed Rockwell controllers worldwide, including 2,844 in the United States, but Forescout could not confirm any were compromised. That figure counts exposed",
+      "source": "thehackernews.com"
+    },
     {
       "title": "Podcast: Compliance Won’t Save You: The Future of Cyber Risk with Edna Conway",
       "link": "https://www.securityweek.com/podcast-compliance-wont-save-you-the-future-of-cyber-risk-with-edna-conway/",
@@ -45,13 +108,6 @@
       "source": "securityweek.com"
     },
     {
-      "title": "Belarusian Ransom Cartel Mastermind Gets 16 Years in Prison",
-      "link": "https://www.securityweek.com/belarusian-ransom-cartel-mastermind-gets-16-years-in-prison/",
-      "date": "2026-08-06T09:30:30Z",
-      "description": "Maksim Silnikau was the creator and administrator of the ransomware group and involved in Angler EK’s distribution. The post Belarusian Ransom Cartel Mastermind Gets 16 Years in Prison appeared first on SecurityWeek.",
-      "source": "securityweek.com"
-    },
-    {
       "title": "Attackers Compile khunt Inside Oracle to Turn SQL Injection Into Windows SYSTEM Access",
       "link": "https://thehackernews.com/2026/08/attackers-compile-khunt-inside-oracle.html",
       "date": "2026-08-06T09:19:23Z",
@@ -59,18 +115,25 @@
       "source": "thehackernews.com"
     },
     {
-      "title": "AWS, Google, and Vercel Agent Flaws Let Attackers Trigger Tools Without Running the Model",
-      "link": "https://thehackernews.com/2026/08/aws-google-and-vercel-patch-agent-flaws.html",
-      "date": "2026-08-06T08:57:30Z",
-      "description": "Security flaws in agent infrastructure from Amazon Web Services (AWS), Google, and Vercel let untrusted or forged instructions reach an agent's tools with no check that a model turn had authorized them. In several of the attack paths, the model never ran at all, so system prompts, content filters, and model-level guardrails never got a chance to intervene. The affected products include Amazon",
-      "source": "thehackernews.com"
+      "title": "ZDI-CAN-32176: Autodesk",
+      "link": "http://www.zerodayinitiative.com/advisories/upcoming/",
+      "date": "2026-08-06T05:00:00Z",
+      "description": "A CVSS score 3.3 AV:L/AC:L/PR:N/UI:R/S:U/C:L/I:N/A:N severity vulnerability discovered by 'Liang Zhu' was reported to the affected vendor on: 2026-08-06, 0 days ago. The vendor is given until 2026-12-04 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
+      "source": "zerodayinitiative.com"
     },
     {
-      "title": "Cisco Patches Critical SD-WAN, IOS XE, FMC Vulnerabilities",
-      "link": "https://www.securityweek.com/cisco-patches-critical-sd-wan-ios-xe-fmc-vulnerabilities/",
-      "date": "2026-08-06T07:20:20Z",
-      "description": "Patches were rolled out for two dozen vulnerabilities, including one with public proof-of-concept (PoC) code. The post Cisco Patches Critical SD-WAN, IOS XE, FMC Vulnerabilities appeared first on SecurityWeek.",
-      "source": "securityweek.com"
+      "title": "ZDI-CAN-31880: Autodesk",
+      "link": "http://www.zerodayinitiative.com/advisories/upcoming/",
+      "date": "2026-08-06T05:00:00Z",
+      "description": "A CVSS score 3.3 AV:L/AC:L/PR:N/UI:R/S:U/C:L/I:N/A:N severity vulnerability discovered by 'Liang Zhu' was reported to the affected vendor on: 2026-08-06, 0 days ago. The vendor is given until 2026-12-04 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
+      "source": "zerodayinitiative.com"
+    },
+    {
+      "title": "ZDI-CAN-32603: PyTorch Foundation",
+      "link": "http://www.zerodayinitiative.com/advisories/upcoming/",
+      "date": "2026-08-06T05:00:00Z",
+      "description": "A CVSS score 7.8 AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H severity vulnerability discovered by 'YJK(@YJK0805) of ZUSO ART' was reported to the affected vendor on: 2026-08-06, 0 days ago. The vendor is given until 2026-12-04 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
+      "source": "zerodayinitiative.com"
     },
     {
       "title": "AI Sends Global Crime Syndicates Into Fraud Nirvana",
@@ -136,13 +199,6 @@
       "source": "bleepingcomputer.com"
     },
     {
-      "title": "CISA warns of hackers exploiting Langflow, N-central, Apache Tomcat flaws",
-      "link": "https://www.bleepingcomputer.com/news/security/cisa-warns-of-hackers-exploiting-langflow-n-central-apache-tomcat-flaws/",
-      "date": "2026-08-05T15:51:33Z",
-      "description": "The U.S. Cybersecurity and Infrastructure Security Agency is giving federal agencies three days to mitigate vulnerabilities in IBM Langflow, N-central, and Apache Tomcat, all actively exploited. [...]",
-      "source": "bleepingcomputer.com"
-    },
-    {
       "title": "ZDI-CAN-32287: Sparx Systems",
       "link": "http://www.zerodayinitiative.com/advisories/upcoming/",
       "date": "2026-08-05T05:00:00Z",
@@ -154,27 +210,6 @@
       "link": "http://www.zerodayinitiative.com/advisories/upcoming/",
       "date": "2026-08-05T05:00:00Z",
       "description": "A CVSS score 8.8 AV:L/AC:L/PR:L/UI:N/S:C/C:H/I:H/A:H severity vulnerability discovered by 'Brandon Evans of TrendAI Zero Day Initiative' was reported to the affected vendor on: 2026-08-05, 1 days ago. The vendor is given until 2026-12-03 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
-      "source": "zerodayinitiative.com"
-    },
-    {
-      "title": "ZDI-CAN-28117: Mem0",
-      "link": "http://www.zerodayinitiative.com/advisories/upcoming/",
-      "date": "2026-08-05T05:00:00Z",
-      "description": "A CVSS score 6.5 AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:N severity vulnerability discovered by 'Brandon Niemczyk and Peter Girnus (@gothburz) of Trend Zero Day Initiative' was reported to the affected vendor on: 2026-08-05, 1 days ago. The vendor is given until 2026-12-03 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
-      "source": "zerodayinitiative.com"
-    },
-    {
-      "title": "ZDI-CAN-32152: Sysolution",
-      "link": "http://www.zerodayinitiative.com/advisories/upcoming/",
-      "date": "2026-08-05T05:00:00Z",
-      "description": "A CVSS score 8.8 AV:A/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H severity vulnerability discovered by 'Steven C Yu (Chiao-Lin Yu) of TrendAI Research' was reported to the affected vendor on: 2026-08-05, 1 days ago. The vendor is given until 2026-12-03 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
-      "source": "zerodayinitiative.com"
-    },
-    {
-      "title": "ZDI-CAN-32150: Sysolution",
-      "link": "http://www.zerodayinitiative.com/advisories/upcoming/",
-      "date": "2026-08-05T05:00:00Z",
-      "description": "A CVSS score 8.8 AV:A/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H severity vulnerability discovered by 'Steven C Yu (Chiao-Lin Yu) of TrendAI Research' was reported to the affected vendor on: 2026-08-05, 1 days ago. The vendor is given until 2026-12-03 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
       "source": "zerodayinitiative.com"
     },
     {
