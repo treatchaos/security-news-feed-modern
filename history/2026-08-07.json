@@ -1,7 +1,77 @@
 {
   "date": "2026-08-07",
-  "count": 4,
+  "count": 12,
   "items": [
+    {
+      "id": "fd2a416907c2f6f0d356a6dd07b9821eb871168e",
+      "title": "Multiple Flaws in Enterprise Java Platforms Allow Attackers to Execute Remote Code",
+      "link": "https://cybersecuritynews.com/multiple-vulnerabilities-in-enterprise-java-platforms/",
+      "date": "2026-08-07T07:45:57Z",
+      "description": "Enterprise Java platforms remain attractive targets because middleware often exposes paths developers assumed were internal. New research presented for Black Hat 2026 describes 12 flaws across products, including a sandbox escape and four pre-authentication issues. The serious findings are two remote code execution chains affecting Bonita BPM and Apache OFBiz. Both chains begin before login […]…",
+      "source": "cybersecuritynews.com",
+      "first_seen": "2026-08-07T08:05:25Z",
+      "last_seen": "2026-08-07T08:05:25Z"
+    },
+    {
+      "id": "c910f87f854019f37529ce73ee6937a8651a8089",
+      "title": "Shai-Hulud CHAINDROP Worm Backdoors 400+ npm Packages With 1.3 Billion Monthly Downloads",
+      "link": "https://cybersecuritynews.com/shai-hulud-chaindrop-worm-backdoors/",
+      "date": "2026-08-07T07:26:08Z",
+      "description": "Shai-Hulud is back in the npm ecosystem, and this time its reach is unusually broad. A new self-propagating malware strain called CHAINDROP has backdoored more than 400 packages after attackers compromised the maintainer of the widely used keyv library. The campaign turns trusted software updates into a route for stealing developer credentials and spreading further. […] The post Shai-Hulud…",
+      "source": "cybersecuritynews.com",
+      "first_seen": "2026-08-07T08:05:25Z",
+      "last_seen": "2026-08-07T08:05:25Z"
+    },
+    {
+      "id": "743c19038aaff6fc391676a5274313fc24550865",
+      "title": "Kimi K3 AI Model Escapes Sandbox During Security Test to Fetch Answers",
+      "link": "https://cybersecuritynews.com/kimi-k3-ai-model-escapes-sandbox/",
+      "date": "2026-08-07T07:24:57Z",
+      "description": "Moonshot AI’s open-weight model Kimi K3 broke out of its isolated testing sandbox during a cybersecurity evaluation and reached the open internet, according to a new report from Wired. The incident, uncovered by US startup Frontier Security, is raising fresh concerns about the safety guardrails built into powerful open-weight AI models that are already freely […] The post Kimi K3 AI Model…",
+      "source": "cybersecuritynews.com",
+      "first_seen": "2026-08-07T08:05:25Z",
+      "last_seen": "2026-08-07T08:05:25Z"
+    },
+    {
+      "id": "6bd3afe055323028025c4a59c8f538dd680271f5",
+      "title": "3.8 Million Impacted by Unlimited Technology Systems Data Breach",
+      "link": "https://www.securityweek.com/3-8-million-impacted-by-unlimited-technology-systems-data-breach/",
+      "date": "2026-08-07T07:22:05Z",
+      "description": "Hackers stole personal, medical, and health insurance information from a company’s data center. The post 3.8 Million Impacted by Unlimited Technology Systems Data Breach appeared first on SecurityWeek.",
+      "source": "securityweek.com",
+      "first_seen": "2026-08-07T08:05:25Z",
+      "last_seen": "2026-08-07T08:05:25Z"
+    },
+    {
+      "id": "e394c0503143459b9d01a5ace7a87df19b103f3b",
+      "title": "Critical Vulnerabilities Patched With Chrome 151 Update",
+      "link": "https://www.securityweek.com/critical-vulnerabilities-patched-with-chrome-151-update/",
+      "date": "2026-08-07T06:56:56Z",
+      "description": "The browser refresh eliminates over two dozen memory safety bugs, including critical use-after-free flaws. The post Critical Vulnerabilities Patched With Chrome 151 Update appeared first on SecurityWeek.",
+      "source": "securityweek.com",
+      "first_seen": "2026-08-07T08:05:25Z",
+      "last_seen": "2026-08-07T08:05:25Z"
+    },
+    {
+      "id": "c4d9e2c2f94672cfd32d0a9fc08f8a8a6bce4de5",
+      "title": "TeamPCP Linked To Redis Attacks Dating Back To 2020 And Later Supply Chain Campaign",
+      "link": "https://thehackernews.com/2026/08/teampcp-linked-to-redis-attacks-dating.html",
+      "date": "2026-08-07T06:50:05Z",
+      "description": "A new analysis has uncovered that the threat actor tracked as TeamPCP has been active on the cybercrime scene as far back as 2020, indicating the group has been compromising internet-facing infrastructure for years before training their sights on the software supply chain. \"The connection is supported by overlapping domains, malware deployment paths, staging techniques, backend infrastructure,",
+      "source": "thehackernews.com",
+      "first_seen": "2026-08-07T08:05:25Z",
+      "last_seen": "2026-08-07T08:05:25Z"
+    },
+    {
+      "id": "6c93ab6c262ac1ccc203133d909c31d53419a960",
+      "title": "Zbtlink Chinese Router Sold Worldwide Contains a Hidden Backdoor Affecting 20+ Models",
+      "link": "https://cybersecuritynews.com/zbtlink-chinese-router/",
+      "date": "2026-08-07T06:38:52Z",
+      "description": "Zbtlink routers sold in global markets have been found carrying a hidden remote-control implant that starts with the device. The discovery affects equipment used in homes, offices, temporary sites and vehicles, turning a trusted network gateway into a potential entry point. The affected devices may be present anywhere small, low-cost network hardware is deployed today. […] The post Zbtlink…",
+      "source": "cybersecuritynews.com",
+      "first_seen": "2026-08-07T08:05:25Z",
+      "last_seen": "2026-08-07T08:05:25Z"
+    },
     {
       "id": "97c4118ef756cf8680a520ac1742503e334eda12",
       "title": "Top 10 Best Protective DNS (PDNS) Services in 2026",
@@ -10,7 +80,7 @@
       "description": "Protective DNS went from best practice to expectation: NSA and CISA jointly recommend it, national programs run it at population scale, and it remains the highest-leverage, lowest-friction control most organizations can deploy this quarter within modern zero trust security frameworks. Cisco Umbrella is our top PDNS pick for 2026 on proven intelligence and scale, with […] The post Top 10 Best…",
       "source": "cybersecuritynews.com",
       "first_seen": "2026-08-07T04:46:39Z",
-      "last_seen": "2026-08-07T06:03:58Z"
+      "last_seen": "2026-08-07T08:05:25Z"
     },
     {
       "id": "059259285e8e75bd1e171350bb578fc3e2b93138",
@@ -41,6 +111,16 @@
       "source": "cybersecuritynews.com",
       "first_seen": "2026-08-07T04:46:39Z",
       "last_seen": "2026-08-07T06:03:58Z"
+    },
+    {
+      "id": "ee1d017d7bb924a878640016555363cfa70db064",
+      "title": "Cisco Patches 12 SD-WAN and IOS XE Flaws, Including Three 9.9 CVSS Score Bugs",
+      "link": "https://thehackernews.com/2026/08/cisco-patches-12-sd-wan-and-ios-xe.html",
+      "date": "2026-08-06T17:13:15Z",
+      "description": "Cisco has rolled out updates to address multiple critical security vulnerabilities impacting Catalyst SD-WAN and IOS XE Software as part of a comprehensive internal security review. The security issues affect Cisco Catalyst SD-WAN Software, regardless of device configuration, and Cisco IOS XE Software when it is running in autonomous or controller mode. \"These vulnerabilities were found",
+      "source": "thehackernews.com",
+      "first_seen": "2026-08-07T08:05:25Z",
+      "last_seen": "2026-08-07T08:05:25Z"
     }
   ]
 }
