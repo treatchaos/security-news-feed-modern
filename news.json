@@ -1,7 +1,49 @@
 {
-  "last_updated": "2026-08-07T12:38:13Z",
+  "last_updated": "2026-08-07T14:04:24Z",
   "count": 35,
   "items": [
+    {
+      "title": "North Carolina Ports confirms cyberattack disrupting operations",
+      "link": "https://www.bleepingcomputer.com/news/security/north-carolina-ports-confirms-cyberattack-disrupting-operations/",
+      "date": "2026-08-07T13:34:40Z",
+      "description": "The North Carolina Ports Authority has confirmed that a cyberattack disrupted IT systems and slowed operations at Port of Wilmington, Port of Morehead City, and Charlotte Inland Port. [...]",
+      "source": "bleepingcomputer.com"
+    },
+    {
+      "title": "CVE-2026-64561 Zapscape Lets KVM Guests Escape to Linux Host With Root Privileges",
+      "link": "https://cybersecuritynews.com/zapscape-kvm-escape-root-privileges/",
+      "date": "2026-08-07T13:32:14Z",
+      "description": "A Linux kernel vulnerability, tracked as CVE-2026-64561 and named Zapscape, could allow attackers to escape a KVM virtual machine and take control of its underlying Linux host with root privileges. The issue affects KVM/x86, a virtualization technology that separates guest systems from the physical server. The flaw is especially serious for cloud providers and enterprises […] The post…",
+      "source": "cybersecuritynews.com"
+    },
+    {
+      "title": "Google Chrome 151 Fixes 41 Security Flaws, Including 6 Critical Memory Bugs",
+      "link": "https://cybersecuritynews.com/chrome-151-vulnerabilities-patched/",
+      "date": "2026-08-07T13:14:11Z",
+      "description": "Google has released Chrome 151 to the Stable channel, fixing 41 security vulnerabilities, including six critical memory-safety flaws that could enable browser crashes, memory corruption, or malicious code execution. Chrome 151.0.7922.108/.109 is rolling out for Windows and macOS systems, while Linux users are receiving version 151.0.7922.108. Google said the release will be delivered to users…",
+      "source": "cybersecuritynews.com"
+    },
+    {
+      "title": "Hackers Breach Swiss Government SharePoint Servers, Compromise 200 Accounts",
+      "link": "https://cybersecuritynews.com/hackers-breach-swiss-sharepoint-servers/",
+      "date": "2026-08-07T12:57:31Z",
+      "description": "Swiss federal authorities have confirmed a cyberattack targeting SharePoint servers operated by the Federal Office for Information Technology and Telecommunication (BIT). The incident resulted in the compromise of login credentials linked to approximately 200 user and technical accounts. BIT detected unusual activity on its SharePoint environment on Tuesday, July 28. Security specialists quickly…",
+      "source": "cybersecuritynews.com"
+    },
+    {
+      "title": "New WordPress Pre-Auth XSS Could Lead to PHP Code Execution - Patch ASAP",
+      "link": "https://thehackernews.com/2026/08/new-wordpress-pre-auth-xss-could-lead.html",
+      "date": "2026-08-07T12:56:23Z",
+      "description": "WordPress has fixed a pre-authentication reflected cross-site scripting (XSS) flaw in its login screen that affects every version of the content management system. Under additional conditions, the bug can be chained into PHP code execution on the server. Tracked as CVE-2026-64638 (CVSS score: 8.9), the High-severity vulnerability requires no attacker privileges. According to pwn.ai,",
+      "source": "thehackernews.com"
+    },
+    {
+      "title": "Claude in Chrome Prompt Injection Steals Gmail Codes to Hijack Slack, X, and Claude.ai Accounts",
+      "link": "https://cybersecuritynews.com/claude-chrome-prompt-injection/",
+      "date": "2026-08-07T12:53:44Z",
+      "description": "An indirect prompt injection vulnerability in Claude on Chrome can be exploited to steal email verification codes and hijack accounts on platforms like Slack, X, and Claude.ai. The attack begins with a malicious email that lands in the victim’s Gmail inbox. When the user requests Claude in Chrome to summarize recent emails, the assistant may inadvertently read […] The post Claude in Chrome…",
+      "source": "cybersecuritynews.com"
+    },
     {
       "title": "Growing Up The Hard Way",
       "link": "https://thehackernews.com/2026/08/growing-up-hard-way.html",
@@ -22,13 +64,6 @@
       "date": "2026-08-07T11:10:33Z",
       "description": "A use-after-free bug in Linux's SCTP networking code can be turned into full root on a host, and Tencent researchers say they used it to escape a container and reach the machine underneath. The flaw has existed since 2008. The fix already shipped: stable kernels 7.1.6, 6.18.42, 6.12.101 and 6.6.148, released August 3, close it. Anyone running an older kernel with SCTP reachable should update.",
       "source": "thehackernews.com"
-    },
-    {
-      "title": "ChainDrop Worm Infects 400+ npm Packages to Steal GitHub and Cloud Credentials",
-      "link": "https://cybersecuritynews.com/chaindrop-worm-infects-npm-packages/",
-      "date": "2026-08-07T11:07:15Z",
-      "description": "ChainDrop has turned routine software installs into a route for credential theft. The self-propagating worm infected more than 400 npm packages, putting developer laptops, build systems and cloud environments at risk. Since compromised packages still work as expected, teams may not realize an update has opened a path into their environment. The campaign spreads through […] The post ChainDrop…",
-      "source": "cybersecuritynews.com"
     },
     {
       "title": "Vishing Extortion Group UNC6671 Rebrands After Making Millions",
@@ -52,13 +87,6 @@
       "source": "thehackernews.com"
     },
     {
-      "title": "AI-Assisted HTTP Terminator Finds Novel HTTP Desync Techniques and Apache Zero-Day",
-      "link": "https://thehackernews.com/2026/08/ai-assisted-http-terminator-finds-novel.html",
-      "date": "2026-08-07T10:09:54Z",
-      "description": "PortSwigger says HTTP Terminator, an artificial intelligence (AI)-assisted research system built by James Kettle, generated and proved new HTTP desynchronization techniques after exploring 30,000 candidate desync vectors. PortSwigger said a separate human-guided discovery cascade also exposed a zero-day in Apache Traffic Server. Kettle said HTTP Terminator tested 30,000 websites where",
-      "source": "thehackernews.com"
-    },
-    {
       "title": "Truck Brake Controller’s Safety Recall Doubled as Hidden Security Fix",
       "link": "https://www.securityweek.com/truck-brake-controllers-safety-recall-doubled-as-hidden-security-fix/",
       "date": "2026-08-07T10:00:00Z",
@@ -73,32 +101,11 @@
       "source": "securityweek.com"
     },
     {
-      "title": "UNC6671 Automates Microsoft 365 Data Theft After Hijacking Employee Sessions",
-      "link": "https://cybersecuritynews.com/unc6671-automates-microsoft-365/",
-      "date": "2026-08-07T09:19:50Z",
-      "description": "UNC6671 is carrying out data theft campaigns that begin with a phone call. The group poses as an IT helpdesk, claiming an urgent security migration is necessary. A convincing call and a fake sign-in page can turn an ordinary session into an entry point. The calls create urgency before employees can verify the request independently. […] The post UNC6671 Automates Microsoft 365 Data Theft After…",
-      "source": "cybersecuritynews.com"
-    },
-    {
       "title": "Microsoft, Apple Release Fresh Security Updates",
       "link": "https://www.securityweek.com/microsoft-apple-release-fresh-security-updates/",
       "date": "2026-08-07T09:09:54Z",
       "description": "Microsoft fixed critical vulnerabilities across Azure, Entra, and SharePoint, while Apple patched a high-severity authentication bypass. The post Microsoft, Apple Release Fresh Security Updates appeared first on SecurityWeek.",
       "source": "securityweek.com"
-    },
-    {
-      "title": "Papyrus Mobile Ad Fraud Uses Hidden WebViews to Fake Clicks, Scrolls and Attention",
-      "link": "https://cybersecuritynews.com/papyrus-mobile-ad-fraud/",
-      "date": "2026-08-07T08:46:26Z",
-      "description": "Papyrus is a mobile ad fraud operation hiding behind apps built for reading serialized fiction. While people turn pages and follow stories, the apps can quietly open websites in the background and create traffic. The scheme takes advantage of long reading sessions, giving operators time to run concealed browser activity. That model echoes other hidden browser […] The post Papyrus Mobile Ad Fraud…",
-      "source": "cybersecuritynews.com"
-    },
-    {
-      "title": "Multiple Flaws in Enterprise Java Platforms Allow Attackers to Execute Remote Code",
-      "link": "https://cybersecuritynews.com/multiple-vulnerabilities-in-enterprise-java-platforms/",
-      "date": "2026-08-07T07:45:57Z",
-      "description": "Enterprise Java platforms remain attractive targets because middleware often exposes paths developers assumed were internal. New research presented for Black Hat 2026 describes 12 flaws across products, including a sandbox escape and four pre-authentication issues. The serious findings are two remote code execution chains affecting Bonita BPM and Apache OFBiz. Both chains begin before login […]…",
-      "source": "cybersecuritynews.com"
     },
     {
       "title": "3.8 Million Impacted by Unlimited Technology Systems Data Breach",
@@ -154,13 +161,6 @@
       "link": "https://www.bleepingcomputer.com/news/security/swiss-government-sharepoint-breach-compromised-200-accounts/",
       "date": "2026-08-06T18:14:19Z",
       "description": "Switzerland's federal IT office says hackers exploited vulnerabilities to breach its Microsoft SharePoint servers and compromised approximately 200 accounts. [...]",
-      "source": "bleepingcomputer.com"
-    },
-    {
-      "title": "New TONTOU CPU attack bypasses Spectre v2 fixes, leaks Linux password hashes",
-      "link": "https://www.bleepingcomputer.com/news/security/new-tontou-cpu-attack-bypasses-spectre-v2-fixes-leaks-linux-password-hashes/",
-      "date": "2026-08-06T18:03:45Z",
-      "description": "Researchers found a way to bypass recent mitigations for Spectre v2 speculative execution side-channel attacks and developed an exploit to leak secrets from Linux machines. [...]",
       "source": "bleepingcomputer.com"
     },
     {
