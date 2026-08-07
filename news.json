@@ -1,7 +1,28 @@
 {
-  "last_updated": "2026-08-07T11:37:18Z",
+  "last_updated": "2026-08-07T12:38:13Z",
   "count": 35,
   "items": [
+    {
+      "title": "Growing Up The Hard Way",
+      "link": "https://thehackernews.com/2026/08/growing-up-hard-way.html",
+      "date": "2026-08-07T11:55:26Z",
+      "description": "Open Source had a great childhood. For two decades it got to be a kid. It ran around barefoot, gave everything away, trusted strangers, and never once thought about who was watching. It ran the kind of lemonade stand that took IOUs from anyone who wandered up — take what you need, pay me back whenever, no need to leave a name. It was idyllic. It was also, in retrospect, a little feral. Then,",
+      "source": "thehackernews.com"
+    },
+    {
+      "title": "Fake PDFs and Chat Apps Let Patchwork Spy on PCs and Android Phones",
+      "link": "https://cybersecuritynews.com/fake-pdfs-chat-apps-let-patchwork-spy/",
+      "date": "2026-08-07T11:42:21Z",
+      "description": "Patchwork, also known as Dropping Elephant, is using fake documents and chat applications to spy on computer and phone users. The long-running espionage group has built separate attack paths for Windows systems and Android devices, allowing it to collect sensitive information from both environments. On Windows, the operation starts with a shortcut file disguised as […] The post Fake PDFs and…",
+      "source": "cybersecuritynews.com"
+    },
+    {
+      "title": "18-Year-Old Linux SCTP Flaw Could Let Local Users Gain Root and Escape Containers",
+      "link": "https://thehackernews.com/2026/08/18-year-old-linux-sctp-flaw-could-let.html",
+      "date": "2026-08-07T11:10:33Z",
+      "description": "A use-after-free bug in Linux's SCTP networking code can be turned into full root on a host, and Tencent researchers say they used it to escape a container and reach the machine underneath. The flaw has existed since 2008. The fix already shipped: stable kernels 7.1.6, 6.18.42, 6.12.101 and 6.6.148, released August 3, close it. Anyone running an older kernel with SCTP reachable should update.",
+      "source": "thehackernews.com"
+    },
     {
       "title": "ChainDrop Worm Infects 400+ npm Packages to Steal GitHub and Cloud Credentials",
       "link": "https://cybersecuritynews.com/chaindrop-worm-infects-npm-packages/",
@@ -17,6 +38,13 @@
       "source": "securityweek.com"
     },
     {
+      "title": "New NatJack Attacks Hijack TCP Sessions and Spoof DNS by Manipulating NAT Tables",
+      "link": "https://thehackernews.com/2026/08/new-natjack-attacks-hijack-tcp-sessions.html",
+      "date": "2026-08-07T10:58:38Z",
+      "description": "Security researcher Malcolm Stagg has disclosed a new attack class called NatJack that manipulates network address translation (NAT) connection state to hijack active TCP sessions, spoof DNS responses, expose mapped ports, and exhaust NAT tables. Presented at Black Hat USA 2026, the research found affected behavior across independently developed implementations, including Windows and",
+      "source": "thehackernews.com"
+    },
+    {
       "title": "Microsoft 365 AitM Phishing Hijacks Accounts to Collect Payroll and Finance Emails",
       "link": "https://thehackernews.com/2026/08/microsoft-365-aitm-phishing-hijacks.html",
       "date": "2026-08-07T10:38:27Z",
@@ -27,7 +55,7 @@
       "title": "AI-Assisted HTTP Terminator Finds Novel HTTP Desync Techniques and Apache Zero-Day",
       "link": "https://thehackernews.com/2026/08/ai-assisted-http-terminator-finds-novel.html",
       "date": "2026-08-07T10:09:54Z",
-      "description": "PortSwigger says HTTP Terminator, an artificial intelligence (AI)-assisted research system built by James Kettle, generated and proved new HTTP desynchronization techniques after exploring 30,000 candidate attack vectors. PortSwigger said a separate human-guided discovery cascade also exposed a zero-day in Apache Traffic Server. Kettle said HTTP Terminator tested 30,000 websites where scanning",
+      "description": "PortSwigger says HTTP Terminator, an artificial intelligence (AI)-assisted research system built by James Kettle, generated and proved new HTTP desynchronization techniques after exploring 30,000 candidate desync vectors. PortSwigger said a separate human-guided discovery cascade also exposed a zero-day in Apache Traffic Server. Kettle said HTTP Terminator tested 30,000 websites where",
       "source": "thehackernews.com"
     },
     {
@@ -36,13 +64,6 @@
       "date": "2026-08-07T10:00:00Z",
       "description": "NMFTA research shows a Bendix EC80 brake controller safety recall also patched remote code execution and DoS vulnerabilities. The post Truck Brake Controller’s Safety Recall Doubled as Hidden Security Fix appeared first on SecurityWeek.",
       "source": "securityweek.com"
-    },
-    {
-      "title": "New NatJack Attacks Hijack TCP Sessions and Spoof DNS by Manipulating NAT Tables",
-      "link": "https://thehackernews.com/2026/08/new-natjack-attacks-hijack-tcp-sessions.html",
-      "date": "2026-08-07T09:32:57Z",
-      "description": "Security researcher Malcolm Stagg has disclosed a new attack class called NatJack that manipulates network address translation (NAT) connection state to hijack active TCP sessions, spoof DNS responses, expose mapped ports, and exhaust NAT tables. Presented at Black Hat USA 2026, the research found affected behavior across independently developed implementations, including Windows and",
-      "source": "thehackernews.com"
     },
     {
       "title": "Black Hat USA 2026 – Summary of Vendor Announcements (Part 4)",
@@ -66,13 +87,6 @@
       "source": "securityweek.com"
     },
     {
-      "title": "Malware Can Abuse Windows Hello for Business Keys for Persistent Entra ID Access",
-      "link": "https://thehackernews.com/2026/08/malware-can-abuse-windows-hello-for.html",
-      "date": "2026-08-07T08:52:11Z",
-      "description": "Entra ID researcher Dirk-jan Mollema demonstrated that malware already running in a signed-in Windows session can silently use the victim's Windows Hello for Business key to authenticate to Microsoft Entra ID. The attacker can then establish longer-term cloud access, register a device it controls, obtain a Primary Refresh Token (PRT), and add further authentication methods where tenant policies",
-      "source": "thehackernews.com"
-    },
-    {
       "title": "Papyrus Mobile Ad Fraud Uses Hidden WebViews to Fake Clicks, Scrolls and Attention",
       "link": "https://cybersecuritynews.com/papyrus-mobile-ad-fraud/",
       "date": "2026-08-07T08:46:26Z",
@@ -80,24 +94,10 @@
       "source": "cybersecuritynews.com"
     },
     {
-      "title": "Claude Code and Gemini CLI Flaws Let a GitHub Issue Reach CI Workflow Secrets",
-      "link": "https://thehackernews.com/2026/08/claude-code-and-gemini-cli-flaws-let.html",
-      "date": "2026-08-07T08:18:35Z",
-      "description": "A GitHub issue opened by an account with no repository privileges was enough to execute code on the CI runners behind Anthropic's and Google's own coding-agent repositories. On OpenAI's, it was enough to hijack the next agent run. Novee Security ran the attack against each vendor's agent in the configuration that the vendor ships by default, and presented the work at Black Hat USA on August 5.",
-      "source": "thehackernews.com"
-    },
-    {
       "title": "Multiple Flaws in Enterprise Java Platforms Allow Attackers to Execute Remote Code",
       "link": "https://cybersecuritynews.com/multiple-vulnerabilities-in-enterprise-java-platforms/",
       "date": "2026-08-07T07:45:57Z",
       "description": "Enterprise Java platforms remain attractive targets because middleware often exposes paths developers assumed were internal. New research presented for Black Hat 2026 describes 12 flaws across products, including a sandbox escape and four pre-authentication issues. The serious findings are two remote code execution chains affecting Bonita BPM and Apache OFBiz. Both chains begin before login […]…",
-      "source": "cybersecuritynews.com"
-    },
-    {
-      "title": "Shai-Hulud CHAINDROP Worm Backdoors 400+ npm Packages With 1.3 Billion Monthly Downloads",
-      "link": "https://cybersecuritynews.com/shai-hulud-chaindrop-worm-backdoors/",
-      "date": "2026-08-07T07:26:08Z",
-      "description": "Shai-Hulud is back in the npm ecosystem, and this time its reach is unusually broad. A new self-propagating malware strain called CHAINDROP has backdoored more than 400 packages after attackers compromised the maintainer of the widely used keyv library. The campaign turns trusted software updates into a route for stealing developer credentials and spreading further. […] The post Shai-Hulud…",
       "source": "cybersecuritynews.com"
     },
     {
