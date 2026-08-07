@@ -1,8 +1,78 @@
 {
-  "last_updated": "2026-08-07T08:05:25Z",
+  "last_updated": "2026-08-07T09:49:56Z",
   "retention_days": 90,
-  "count": 3534,
+  "count": 3540,
   "items": [
+    {
+      "id": "0bb3c8afe523ac978599097816890a87234796f1",
+      "title": "New NatJack Attacks Hijack TCP Sessions and Spoof DNS by Manipulating NAT Tables",
+      "link": "https://thehackernews.com/2026/08/new-natjack-attacks-hijack-tcp-sessions.html",
+      "date": "2026-08-07T09:32:57Z",
+      "description": "Security researcher Malcolm Stagg has disclosed a new attack class called NatJack that manipulates network address translation (NAT) connection state to hijack active TCP sessions, spoof DNS responses, expose mapped ports, and exhaust NAT tables. Presented at Black Hat USA 2026, the research found affected behavior across independently developed implementations, including Windows and",
+      "source": "thehackernews.com",
+      "first_seen": "2026-08-07T09:49:56Z",
+      "last_seen": "2026-08-07T09:49:56Z"
+    },
+    {
+      "id": "fd83740bd1734e1a30a10c28ebcefd5c801b7f2d",
+      "title": "Black Hat USA 2026 – Summary of Vendor Announcements (Part 4)",
+      "link": "https://www.securityweek.com/black-hat-usa-2026-summary-of-vendor-announcements-part-4/",
+      "date": "2026-08-07T09:24:22Z",
+      "description": "Companies are showcasing their products and services this week at the 2026 edition of the Black Hat conference in Las Vegas. The post Black Hat USA 2026 – Summary of Vendor Announcements (Part 4) appeared first on SecurityWeek.",
+      "source": "securityweek.com",
+      "first_seen": "2026-08-07T09:49:56Z",
+      "last_seen": "2026-08-07T09:49:56Z"
+    },
+    {
+      "id": "0ebdc2cc1c6d981ebde91830161a218011a2a93b",
+      "title": "UNC6671 Automates Microsoft 365 Data Theft After Hijacking Employee Sessions",
+      "link": "https://cybersecuritynews.com/unc6671-automates-microsoft-365/",
+      "date": "2026-08-07T09:19:50Z",
+      "description": "UNC6671 is carrying out data theft campaigns that begin with a phone call. The group poses as an IT helpdesk, claiming an urgent security migration is necessary. A convincing call and a fake sign-in page can turn an ordinary session into an entry point. The calls create urgency before employees can verify the request independently. […] The post UNC6671 Automates Microsoft 365 Data Theft After…",
+      "source": "cybersecuritynews.com",
+      "first_seen": "2026-08-07T09:49:56Z",
+      "last_seen": "2026-08-07T09:49:56Z"
+    },
+    {
+      "id": "17b64457e77849f6e9ca9809a0065316fe0883d8",
+      "title": "Microsoft, Apple Release Fresh Security Updates",
+      "link": "https://www.securityweek.com/microsoft-apple-release-fresh-security-updates/",
+      "date": "2026-08-07T09:09:54Z",
+      "description": "Microsoft fixed critical vulnerabilities across Azure, Entra, and SharePoint, while Apple patched a high-severity authentication bypass. The post Microsoft, Apple Release Fresh Security Updates appeared first on SecurityWeek.",
+      "source": "securityweek.com",
+      "first_seen": "2026-08-07T09:49:56Z",
+      "last_seen": "2026-08-07T09:49:56Z"
+    },
+    {
+      "id": "1e6f1dc05c968ee1b164968413a842db57895ee2",
+      "title": "Malware Can Abuse Windows Hello for Business Keys for Persistent Entra ID Access",
+      "link": "https://thehackernews.com/2026/08/malware-can-abuse-windows-hello-for.html",
+      "date": "2026-08-07T08:52:11Z",
+      "description": "Security researcher Malcolm Stagg has disclosed a new attack class called NatJack that manipulates network address translation (NAT) connection state to hijack active TCP sessions, spoof DNS responses, disclose victim IP addresses and mapped ports, and exhaust NAT tables. Presented at Black Hat USA 2026, Stagg said the techniques were demonstrated across network infrastructure devices",
+      "source": "thehackernews.com",
+      "first_seen": "2026-08-07T09:49:56Z",
+      "last_seen": "2026-08-07T09:49:56Z"
+    },
+    {
+      "id": "5cda71a1a369247ebfc443ebe97a5070beb60823",
+      "title": "Papyrus Mobile Ad Fraud Uses Hidden WebViews to Fake Clicks, Scrolls and Attention",
+      "link": "https://cybersecuritynews.com/papyrus-mobile-ad-fraud/",
+      "date": "2026-08-07T08:46:26Z",
+      "description": "Papyrus is a mobile ad fraud operation hiding behind apps built for reading serialized fiction. While people turn pages and follow stories, the apps can quietly open websites in the background and create traffic. The scheme takes advantage of long reading sessions, giving operators time to run concealed browser activity. That model echoes other hidden browser […] The post Papyrus Mobile Ad Fraud…",
+      "source": "cybersecuritynews.com",
+      "first_seen": "2026-08-07T09:49:56Z",
+      "last_seen": "2026-08-07T09:49:56Z"
+    },
+    {
+      "id": "499eda84a0abd560cc3849a07157df78042b8b6c",
+      "title": "Claude Code and Gemini CLI Flaws Let a GitHub Issue Reach CI Workflow Secrets",
+      "link": "https://thehackernews.com/2026/08/claude-code-and-gemini-cli-flaws-let.html",
+      "date": "2026-08-07T08:18:35Z",
+      "description": "A GitHub issue opened by an account with no repository privileges was enough to execute code on the CI runners behind Anthropic's and Google's own coding-agent repositories. On OpenAI's, it was enough to hijack the next agent run. Novee Security ran the attack against each vendor's agent in the configuration that the vendor ships by default, and presented the work at Black Hat USA on August 5.",
+      "source": "thehackernews.com",
+      "first_seen": "2026-08-07T09:49:56Z",
+      "last_seen": "2026-08-07T09:49:56Z"
+    },
     {
       "id": "fd2a416907c2f6f0d356a6dd07b9821eb871168e",
       "title": "Multiple Flaws in Enterprise Java Platforms Allow Attackers to Execute Remote Code",
@@ -11,7 +81,7 @@
       "description": "Enterprise Java platforms remain attractive targets because middleware often exposes paths developers assumed were internal. New research presented for Black Hat 2026 describes 12 flaws across products, including a sandbox escape and four pre-authentication issues. The serious findings are two remote code execution chains affecting Bonita BPM and Apache OFBiz. Both chains begin before login […]…",
       "source": "cybersecuritynews.com",
       "first_seen": "2026-08-07T08:05:25Z",
-      "last_seen": "2026-08-07T08:05:25Z"
+      "last_seen": "2026-08-07T09:49:56Z"
     },
     {
       "id": "c910f87f854019f37529ce73ee6937a8651a8089",
@@ -21,7 +91,7 @@
       "description": "Shai-Hulud is back in the npm ecosystem, and this time its reach is unusually broad. A new self-propagating malware strain called CHAINDROP has backdoored more than 400 packages after attackers compromised the maintainer of the widely used keyv library. The campaign turns trusted software updates into a route for stealing developer credentials and spreading further. […] The post Shai-Hulud…",
       "source": "cybersecuritynews.com",
       "first_seen": "2026-08-07T08:05:25Z",
-      "last_seen": "2026-08-07T08:05:25Z"
+      "last_seen": "2026-08-07T09:49:56Z"
     },
     {
       "id": "743c19038aaff6fc391676a5274313fc24550865",
@@ -31,7 +101,7 @@
       "description": "Moonshot AI’s open-weight model Kimi K3 broke out of its isolated testing sandbox during a cybersecurity evaluation and reached the open internet, according to a new report from Wired. The incident, uncovered by US startup Frontier Security, is raising fresh concerns about the safety guardrails built into powerful open-weight AI models that are already freely […] The post Kimi K3 AI Model…",
       "source": "cybersecuritynews.com",
       "first_seen": "2026-08-07T08:05:25Z",
-      "last_seen": "2026-08-07T08:05:25Z"
+      "last_seen": "2026-08-07T09:49:56Z"
     },
     {
       "id": "6bd3afe055323028025c4a59c8f538dd680271f5",
@@ -41,7 +111,7 @@
       "description": "Hackers stole personal, medical, and health insurance information from a company’s data center. The post 3.8 Million Impacted by Unlimited Technology Systems Data Breach appeared first on SecurityWeek.",
       "source": "securityweek.com",
       "first_seen": "2026-08-07T08:05:25Z",
-      "last_seen": "2026-08-07T08:05:25Z"
+      "last_seen": "2026-08-07T09:49:56Z"
     },
     {
       "id": "e394c0503143459b9d01a5ace7a87df19b103f3b",
@@ -51,7 +121,7 @@
       "description": "The browser refresh eliminates over two dozen memory safety bugs, including critical use-after-free flaws. The post Critical Vulnerabilities Patched With Chrome 151 Update appeared first on SecurityWeek.",
       "source": "securityweek.com",
       "first_seen": "2026-08-07T08:05:25Z",
-      "last_seen": "2026-08-07T08:05:25Z"
+      "last_seen": "2026-08-07T09:49:56Z"
     },
     {
       "id": "c4d9e2c2f94672cfd32d0a9fc08f8a8a6bce4de5",
@@ -61,7 +131,7 @@
       "description": "A new analysis has uncovered that the threat actor tracked as TeamPCP has been active on the cybercrime scene as far back as 2020, indicating the group has been compromising internet-facing infrastructure for years before training their sights on the software supply chain. \"The connection is supported by overlapping domains, malware deployment paths, staging techniques, backend infrastructure,",
       "source": "thehackernews.com",
       "first_seen": "2026-08-07T08:05:25Z",
-      "last_seen": "2026-08-07T08:05:25Z"
+      "last_seen": "2026-08-07T09:49:56Z"
     },
     {
       "id": "6c93ab6c262ac1ccc203133d909c31d53419a960",
@@ -121,7 +191,7 @@
       "description": "OpenAI is rolling out a more reliable version of ChatGPT GPT-5.6 Sol for Plus and Pro users, while Free users are getting unlimited text chats with GPT-5.6 Luna. [...]",
       "source": "bleepingcomputer.com",
       "first_seen": "2026-08-06T23:48:13Z",
-      "last_seen": "2026-08-07T08:05:25Z"
+      "last_seen": "2026-08-07T09:49:56Z"
     },
     {
       "id": "f97c41dc62f4059ebc013555a06ba4895ea17f52",
@@ -131,7 +201,7 @@
       "description": "A Go-based malware delivered in ClickFix attacks targeting macOS users is stealing cryptocurrency assets, browser-stored passwords, Apple Keychain data, and cached credentials. [...]",
       "source": "bleepingcomputer.com",
       "first_seen": "2026-08-06T23:48:13Z",
-      "last_seen": "2026-08-07T08:05:25Z"
+      "last_seen": "2026-08-07T09:49:56Z"
     },
     {
       "id": "d6c512b43e89ced61c2e1af8e4bb572e57a05962",
@@ -141,7 +211,7 @@
       "description": "The fight against cybercrime continues because threat actors have adapted their strategies to avoid deterrents, but law enforcement still operates in silos.",
       "source": "darkreading.com",
       "first_seen": "2026-08-06T23:48:13Z",
-      "last_seen": "2026-08-07T08:05:25Z"
+      "last_seen": "2026-08-07T09:49:56Z"
     },
     {
       "id": "b03ba479a59b7ae386f06e8863c00a02162791c0",
@@ -151,7 +221,7 @@
       "description": "A researcher demonstrated a proof-of-concept attack chain that provided C2-style influence over ChatGPT's isolated sandbox during a session at Black Hat USA 2026.",
       "source": "darkreading.com",
       "first_seen": "2026-08-06T23:48:13Z",
-      "last_seen": "2026-08-07T08:05:25Z"
+      "last_seen": "2026-08-07T09:49:56Z"
     },
     {
       "id": "b233ff23d8c3e9546841b2511db1ccc2b4ae453c",
@@ -161,7 +231,7 @@
       "description": "A recent wave of cyberattacks targeting hedge funds, private-equity firms, and other financial organizations has been linked to UNC6671, an extortion group reportedly associated with the BlackFile threat actors. [...]",
       "source": "bleepingcomputer.com",
       "first_seen": "2026-08-06T23:48:13Z",
-      "last_seen": "2026-08-07T08:05:25Z"
+      "last_seen": "2026-08-07T09:49:56Z"
     },
     {
       "id": "9c1c07ec83d604cc05ee4800c1858a8c5e9a98a6",
@@ -171,7 +241,7 @@
       "description": "Former chief security officers of the Democratic National Committee explain that a strong security-first mindset requires executive support – and a dose of absurdity.",
       "source": "darkreading.com",
       "first_seen": "2026-08-06T23:48:13Z",
-      "last_seen": "2026-08-07T08:05:25Z"
+      "last_seen": "2026-08-07T09:49:56Z"
     },
     {
       "id": "11358c679cbfed5f959f36eb1bd70d2882ea7a6b",
@@ -191,7 +261,7 @@
       "description": "Switzerland's federal IT office says hackers exploited vulnerabilities to breach its Microsoft SharePoint servers and compromised approximately 200 accounts. [...]",
       "source": "bleepingcomputer.com",
       "first_seen": "2026-08-06T23:48:13Z",
-      "last_seen": "2026-08-07T08:05:25Z"
+      "last_seen": "2026-08-07T09:49:56Z"
     },
     {
       "id": "35cc18f5fd81490c84474074881b5ce131ca3379",
@@ -201,7 +271,7 @@
       "description": "Researchers found a way to bypass recent mitigations for Spectre v2 speculative execution side-channel attacks and developed an exploit to leak secrets from Linux machines. [...]",
       "source": "bleepingcomputer.com",
       "first_seen": "2026-08-06T23:48:13Z",
-      "last_seen": "2026-08-07T08:05:25Z"
+      "last_seen": "2026-08-07T09:49:56Z"
     },
     {
       "id": "444876da6435ed3a799492be7efbfde269e48d25",
@@ -211,7 +281,7 @@
       "description": "Zapscape, a new Linux kernel vulnerability, could allow an attacker with kernel privileges inside an L1 guest virtual machine (VM) to escape KVM isolation and execute code on the host. The risk applies when nested virtualization is exposed to untrusted guests. The flaw is tracked as CVE-2026-64561 and affects KVM/x86's shadow memory management unit (MMU), which manages shadow page",
       "source": "thehackernews.com",
       "first_seen": "2026-08-06T23:48:13Z",
-      "last_seen": "2026-08-07T08:05:25Z"
+      "last_seen": "2026-08-07T09:49:56Z"
     },
     {
       "id": "fab15ad236bcc60dc4e447483abea64e9f878f7f",
@@ -301,7 +371,7 @@
       "description": "Connor Riley Moucka was extradited to the United States in July 2025 after he was arrested in Canada. The post Snowflake Hacker Pleads Guilty in US Court appeared first on SecurityWeek.",
       "source": "securityweek.com",
       "first_seen": "2026-08-06T15:05:41Z",
-      "last_seen": "2026-08-07T08:05:25Z"
+      "last_seen": "2026-08-07T09:49:56Z"
     },
     {
       "id": "03d29a7a1c5228a76d71171e40ebf2c55e970e00",
@@ -571,7 +641,7 @@
       "description": "A CVSS score 3.3 AV:L/AC:L/PR:N/UI:R/S:U/C:L/I:N/A:N severity vulnerability discovered by 'Liang Zhu' was reported to the affected vendor on: 2026-08-06, 0 days ago. The vendor is given until 2026-12-04 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
       "source": "zerodayinitiative.com",
       "first_seen": "2026-08-06T15:05:41Z",
-      "last_seen": "2026-08-07T08:05:25Z"
+      "last_seen": "2026-08-07T09:49:56Z"
     },
     {
       "id": "0b58c118ce3a6f72653d447e72f416ac3c02fa53",
@@ -581,7 +651,7 @@
       "description": "A CVSS score 3.3 AV:L/AC:L/PR:N/UI:R/S:U/C:L/I:N/A:N severity vulnerability discovered by 'Liang Zhu' was reported to the affected vendor on: 2026-08-06, 0 days ago. The vendor is given until 2026-12-04 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
       "source": "zerodayinitiative.com",
       "first_seen": "2026-08-06T15:05:41Z",
-      "last_seen": "2026-08-07T08:05:25Z"
+      "last_seen": "2026-08-07T09:49:56Z"
     },
     {
       "id": "9cd43af6fc33b6f16453b6629de0a6b72cb8fae1",
@@ -591,7 +661,7 @@
       "description": "A CVSS score 7.8 AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H severity vulnerability discovered by 'YJK(@YJK0805) of ZUSO ART' was reported to the affected vendor on: 2026-08-06, 0 days ago. The vendor is given until 2026-12-04 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
       "source": "zerodayinitiative.com",
       "first_seen": "2026-08-06T15:05:41Z",
-      "last_seen": "2026-08-07T08:05:25Z"
+      "last_seen": "2026-08-07T09:49:56Z"
     },
     {
       "id": "348aef7757eadd54fb497e81a1f371af0105368f",
@@ -601,7 +671,7 @@
       "description": "A CVSS score 7.8 AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H severity vulnerability discovered by 'Anonymous' was reported to the affected vendor on: 2026-08-06, 0 days ago. The vendor is given until 2026-12-04 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
       "source": "zerodayinitiative.com",
       "first_seen": "2026-08-06T23:48:13Z",
-      "last_seen": "2026-08-07T08:05:25Z"
+      "last_seen": "2026-08-07T09:49:56Z"
     },
     {
       "id": "d5b8b34b0851351ab11f948e513ebe8ea6de62d6",
@@ -611,7 +681,7 @@
       "description": "A CVSS score 7.8 AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H severity vulnerability discovered by 'Anonymous' was reported to the affected vendor on: 2026-08-06, 0 days ago. The vendor is given until 2026-12-04 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
       "source": "zerodayinitiative.com",
       "first_seen": "2026-08-06T23:48:13Z",
-      "last_seen": "2026-08-07T08:05:25Z"
+      "last_seen": "2026-08-07T09:49:56Z"
     },
     {
       "id": "653911faf91b0138170bb5b350a39e5c10129d80",
@@ -641,7 +711,7 @@
       "description": "Attackers can take control of agents through malicious instructions hidden in content supplied to AI browsers, and there's no simple fix for the threat.",
       "source": "darkreading.com",
       "first_seen": "2026-08-05T23:47:11Z",
-      "last_seen": "2026-08-07T08:05:25Z"
+      "last_seen": "2026-08-07T09:49:56Z"
     },
     {
       "id": "da3c694a75d875c1ee8d3997fc83a2a79d510fa0",
@@ -751,7 +821,7 @@
       "description": "Organized crime is convincingly scamming at scale, making billions thanks to AI-enabled voice cloning, deepfake real-time video overlays, LLM-driven persona management, and automated translation.",
       "source": "darkreading.com",
       "first_seen": "2026-08-05T22:05:18Z",
-      "last_seen": "2026-08-07T08:05:25Z"
+      "last_seen": "2026-08-07T09:49:56Z"
     },
     {
       "id": "105f574cc8e4ff5ca4ffb770cf93c67f8724759d",
@@ -35284,16 +35354,6 @@
       "last_seen": "2026-05-11T10:27:23Z"
     },
     {
-      "id": "f9787293da6a7dd3249627d6ad3bc5ec8365cf7f",
-      "title": "cPanel, WHM Release Fixes for Three New Vulnerabilities — Patch Now",
-      "link": "https://thehackernews.com/2026/05/cpanel-whm-patch-3-new-vulnerabilities.html",
-      "date": "2026-05-09T07:16:00Z",
-      "description": "cPanel has released updates to address three vulnerabilities in cPanel and Web Host Manager (WHM) that could be exploited to achieve privilege escalation, code execution, and denial-of-service. The list of vulnerabilities is as follows - CVE-2026-29201 (CVSS score: 4.3) - An insufficient input validation of the feature file name in the \"feature::LOADFEATUREFILE\" adminbin call that could result",
-      "source": "thehackernews.com",
-      "first_seen": "2026-05-09T09:07:26Z",
-      "last_seen": "2026-05-11T16:23:34Z"
-    },
-    {
       "id": "664df53292fd50e8b1e7bf61d1267fe95047525f",
       "title": "Student Loan Breach Exposes 2.5M Records",
       "link": "https://threatpost.com/student-loan-breach-exposes-2-5m-records/180492/",
@@ -35301,7 +35361,7 @@
       "description": "2.5 million people were affected, in a breach that could spell more trouble down the line.",
       "source": "threatpost.com",
       "first_seen": "2026-05-10T12:53:08Z",
-      "last_seen": "2026-08-07T08:05:25Z"
+      "last_seen": "2026-08-07T09:49:56Z"
     },
     {
       "id": "4140c7a34b0ba94ad2e6b0cae9f59b0cb9bfffea",
@@ -35311,7 +35371,7 @@
       "description": "Researchers uncover a watering hole attack likely carried out by APT TA423, which attempts to plant the ScanBox JavaScript-based reconnaissance tool.",
       "source": "threatpost.com",
       "first_seen": "2026-05-10T12:53:08Z",
-      "last_seen": "2026-08-07T08:05:25Z"
+      "last_seen": "2026-08-07T09:49:56Z"
     },
     {
       "id": "9359ee40a641a4b565080313045f1d7e7fe6552b",
@@ -35321,7 +35381,7 @@
       "description": "Over 130 companies tangled in sprawling phishing campaign that spoofed a multi-factor authentication system.",
       "source": "threatpost.com",
       "first_seen": "2026-05-10T12:53:08Z",
-      "last_seen": "2026-08-07T08:05:25Z"
+      "last_seen": "2026-08-07T09:49:56Z"
     },
     {
       "id": "b4ccef0737cd4050d65241bf754072030b6b5e6a",
@@ -35331,7 +35391,7 @@
       "description": "Lockbit is by far this summer’s most prolific ransomware group, trailed by two offshoots of the Conti group.",
       "source": "threatpost.com",
       "first_seen": "2026-05-10T12:53:08Z",
-      "last_seen": "2026-08-07T08:05:25Z"
+      "last_seen": "2026-08-07T09:49:56Z"
     },
     {
       "id": "12ee113fc8fce91f6d7fb28deab2b1ad20061ec7",
@@ -35341,7 +35401,7 @@
       "description": "Tens of thousands of cameras have failed to patch a critical, 11-month-old CVE, leaving thousands of organizations exposed.",
       "source": "threatpost.com",
       "first_seen": "2026-05-10T12:53:08Z",
-      "last_seen": "2026-08-07T08:05:25Z"
+      "last_seen": "2026-08-07T09:49:56Z"
     }
   ]
 }

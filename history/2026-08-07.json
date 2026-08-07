@@ -1,7 +1,77 @@
 {
   "date": "2026-08-07",
-  "count": 12,
+  "count": 19,
   "items": [
+    {
+      "id": "0bb3c8afe523ac978599097816890a87234796f1",
+      "title": "New NatJack Attacks Hijack TCP Sessions and Spoof DNS by Manipulating NAT Tables",
+      "link": "https://thehackernews.com/2026/08/new-natjack-attacks-hijack-tcp-sessions.html",
+      "date": "2026-08-07T09:32:57Z",
+      "description": "Security researcher Malcolm Stagg has disclosed a new attack class called NatJack that manipulates network address translation (NAT) connection state to hijack active TCP sessions, spoof DNS responses, expose mapped ports, and exhaust NAT tables. Presented at Black Hat USA 2026, the research found affected behavior across independently developed implementations, including Windows and",
+      "source": "thehackernews.com",
+      "first_seen": "2026-08-07T09:49:56Z",
+      "last_seen": "2026-08-07T09:49:56Z"
+    },
+    {
+      "id": "fd83740bd1734e1a30a10c28ebcefd5c801b7f2d",
+      "title": "Black Hat USA 2026 – Summary of Vendor Announcements (Part 4)",
+      "link": "https://www.securityweek.com/black-hat-usa-2026-summary-of-vendor-announcements-part-4/",
+      "date": "2026-08-07T09:24:22Z",
+      "description": "Companies are showcasing their products and services this week at the 2026 edition of the Black Hat conference in Las Vegas. The post Black Hat USA 2026 – Summary of Vendor Announcements (Part 4) appeared first on SecurityWeek.",
+      "source": "securityweek.com",
+      "first_seen": "2026-08-07T09:49:56Z",
+      "last_seen": "2026-08-07T09:49:56Z"
+    },
+    {
+      "id": "0ebdc2cc1c6d981ebde91830161a218011a2a93b",
+      "title": "UNC6671 Automates Microsoft 365 Data Theft After Hijacking Employee Sessions",
+      "link": "https://cybersecuritynews.com/unc6671-automates-microsoft-365/",
+      "date": "2026-08-07T09:19:50Z",
+      "description": "UNC6671 is carrying out data theft campaigns that begin with a phone call. The group poses as an IT helpdesk, claiming an urgent security migration is necessary. A convincing call and a fake sign-in page can turn an ordinary session into an entry point. The calls create urgency before employees can verify the request independently. […] The post UNC6671 Automates Microsoft 365 Data Theft After…",
+      "source": "cybersecuritynews.com",
+      "first_seen": "2026-08-07T09:49:56Z",
+      "last_seen": "2026-08-07T09:49:56Z"
+    },
+    {
+      "id": "17b64457e77849f6e9ca9809a0065316fe0883d8",
+      "title": "Microsoft, Apple Release Fresh Security Updates",
+      "link": "https://www.securityweek.com/microsoft-apple-release-fresh-security-updates/",
+      "date": "2026-08-07T09:09:54Z",
+      "description": "Microsoft fixed critical vulnerabilities across Azure, Entra, and SharePoint, while Apple patched a high-severity authentication bypass. The post Microsoft, Apple Release Fresh Security Updates appeared first on SecurityWeek.",
+      "source": "securityweek.com",
+      "first_seen": "2026-08-07T09:49:56Z",
+      "last_seen": "2026-08-07T09:49:56Z"
+    },
+    {
+      "id": "1e6f1dc05c968ee1b164968413a842db57895ee2",
+      "title": "Malware Can Abuse Windows Hello for Business Keys for Persistent Entra ID Access",
+      "link": "https://thehackernews.com/2026/08/malware-can-abuse-windows-hello-for.html",
+      "date": "2026-08-07T08:52:11Z",
+      "description": "Security researcher Malcolm Stagg has disclosed a new attack class called NatJack that manipulates network address translation (NAT) connection state to hijack active TCP sessions, spoof DNS responses, disclose victim IP addresses and mapped ports, and exhaust NAT tables. Presented at Black Hat USA 2026, Stagg said the techniques were demonstrated across network infrastructure devices",
+      "source": "thehackernews.com",
+      "first_seen": "2026-08-07T09:49:56Z",
+      "last_seen": "2026-08-07T09:49:56Z"
+    },
+    {
+      "id": "5cda71a1a369247ebfc443ebe97a5070beb60823",
+      "title": "Papyrus Mobile Ad Fraud Uses Hidden WebViews to Fake Clicks, Scrolls and Attention",
+      "link": "https://cybersecuritynews.com/papyrus-mobile-ad-fraud/",
+      "date": "2026-08-07T08:46:26Z",
+      "description": "Papyrus is a mobile ad fraud operation hiding behind apps built for reading serialized fiction. While people turn pages and follow stories, the apps can quietly open websites in the background and create traffic. The scheme takes advantage of long reading sessions, giving operators time to run concealed browser activity. That model echoes other hidden browser […] The post Papyrus Mobile Ad Fraud…",
+      "source": "cybersecuritynews.com",
+      "first_seen": "2026-08-07T09:49:56Z",
+      "last_seen": "2026-08-07T09:49:56Z"
+    },
+    {
+      "id": "499eda84a0abd560cc3849a07157df78042b8b6c",
+      "title": "Claude Code and Gemini CLI Flaws Let a GitHub Issue Reach CI Workflow Secrets",
+      "link": "https://thehackernews.com/2026/08/claude-code-and-gemini-cli-flaws-let.html",
+      "date": "2026-08-07T08:18:35Z",
+      "description": "A GitHub issue opened by an account with no repository privileges was enough to execute code on the CI runners behind Anthropic's and Google's own coding-agent repositories. On OpenAI's, it was enough to hijack the next agent run. Novee Security ran the attack against each vendor's agent in the configuration that the vendor ships by default, and presented the work at Black Hat USA on August 5.",
+      "source": "thehackernews.com",
+      "first_seen": "2026-08-07T09:49:56Z",
+      "last_seen": "2026-08-07T09:49:56Z"
+    },
     {
       "id": "fd2a416907c2f6f0d356a6dd07b9821eb871168e",
       "title": "Multiple Flaws in Enterprise Java Platforms Allow Attackers to Execute Remote Code",
@@ -10,7 +80,7 @@
       "description": "Enterprise Java platforms remain attractive targets because middleware often exposes paths developers assumed were internal. New research presented for Black Hat 2026 describes 12 flaws across products, including a sandbox escape and four pre-authentication issues. The serious findings are two remote code execution chains affecting Bonita BPM and Apache OFBiz. Both chains begin before login […]…",
       "source": "cybersecuritynews.com",
       "first_seen": "2026-08-07T08:05:25Z",
-      "last_seen": "2026-08-07T08:05:25Z"
+      "last_seen": "2026-08-07T09:49:56Z"
     },
     {
       "id": "c910f87f854019f37529ce73ee6937a8651a8089",
@@ -20,7 +90,7 @@
       "description": "Shai-Hulud is back in the npm ecosystem, and this time its reach is unusually broad. A new self-propagating malware strain called CHAINDROP has backdoored more than 400 packages after attackers compromised the maintainer of the widely used keyv library. The campaign turns trusted software updates into a route for stealing developer credentials and spreading further. […] The post Shai-Hulud…",
       "source": "cybersecuritynews.com",
       "first_seen": "2026-08-07T08:05:25Z",
-      "last_seen": "2026-08-07T08:05:25Z"
+      "last_seen": "2026-08-07T09:49:56Z"
     },
     {
       "id": "743c19038aaff6fc391676a5274313fc24550865",
@@ -30,7 +100,7 @@
       "description": "Moonshot AI’s open-weight model Kimi K3 broke out of its isolated testing sandbox during a cybersecurity evaluation and reached the open internet, according to a new report from Wired. The incident, uncovered by US startup Frontier Security, is raising fresh concerns about the safety guardrails built into powerful open-weight AI models that are already freely […] The post Kimi K3 AI Model…",
       "source": "cybersecuritynews.com",
       "first_seen": "2026-08-07T08:05:25Z",
-      "last_seen": "2026-08-07T08:05:25Z"
+      "last_seen": "2026-08-07T09:49:56Z"
     },
     {
       "id": "6bd3afe055323028025c4a59c8f538dd680271f5",
@@ -40,7 +110,7 @@
       "description": "Hackers stole personal, medical, and health insurance information from a company’s data center. The post 3.8 Million Impacted by Unlimited Technology Systems Data Breach appeared first on SecurityWeek.",
       "source": "securityweek.com",
       "first_seen": "2026-08-07T08:05:25Z",
-      "last_seen": "2026-08-07T08:05:25Z"
+      "last_seen": "2026-08-07T09:49:56Z"
     },
     {
       "id": "e394c0503143459b9d01a5ace7a87df19b103f3b",
@@ -50,7 +120,7 @@
       "description": "The browser refresh eliminates over two dozen memory safety bugs, including critical use-after-free flaws. The post Critical Vulnerabilities Patched With Chrome 151 Update appeared first on SecurityWeek.",
       "source": "securityweek.com",
       "first_seen": "2026-08-07T08:05:25Z",
-      "last_seen": "2026-08-07T08:05:25Z"
+      "last_seen": "2026-08-07T09:49:56Z"
     },
     {
       "id": "c4d9e2c2f94672cfd32d0a9fc08f8a8a6bce4de5",
@@ -60,7 +130,7 @@
       "description": "A new analysis has uncovered that the threat actor tracked as TeamPCP has been active on the cybercrime scene as far back as 2020, indicating the group has been compromising internet-facing infrastructure for years before training their sights on the software supply chain. \"The connection is supported by overlapping domains, malware deployment paths, staging techniques, backend infrastructure,",
       "source": "thehackernews.com",
       "first_seen": "2026-08-07T08:05:25Z",
-      "last_seen": "2026-08-07T08:05:25Z"
+      "last_seen": "2026-08-07T09:49:56Z"
     },
     {
       "id": "6c93ab6c262ac1ccc203133d909c31d53419a960",
