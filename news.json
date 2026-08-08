@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-08-08T04:03:38Z",
-  "count": 35,
+  "last_updated": "2026-08-08T05:34:36Z",
+  "count": 30,
   "items": [
     {
       "title": "Metabase SQLi zero-day exploited in customer data-theft attacks",
@@ -38,32 +38,11 @@
       "source": "thehackernews.com"
     },
     {
-      "title": "WordPress XSS2Shell Flaw Chains Pre-Auth Login XSS to PHP Remote Code Execution",
-      "link": "https://cybersecuritynews.com/wordpress-xss2shell-vulnerability/",
-      "date": "2026-08-07T17:28:23Z",
-      "description": "A critical vulnerability chain in WordPress Core, tracked as CVE-2026-64638 and nicknamed XSS2Shell, that turns a single failed login attempt into full remote code execution on the underlying server. Because the flaw sits in code that has shipped with WordPress since version 4.7, it touched effectively every actively maintained installation of the world’s most popular […] The post WordPress…",
-      "source": "cybersecuritynews.com"
-    },
-    {
-      "title": "18-Year-Old Linux Kernel SCTP Vulnerability Lets Attackers Gain Full Root on Host",
-      "link": "https://cybersecuritynews.com/18-year-old-linux-kernel-sctp-vulnerability/",
-      "date": "2026-08-07T16:56:44Z",
-      "description": "A newly disclosed Linux kernel vulnerability, dubbed SCTPhantom and tracked as CVE-2026-64564, allows attackers to escalate from unprivileged local access to full root and even escape containers to compromise the underlying host. The flaw is a use-after-free bug in the kernel’s SCTP Dynamic Address Reconfiguration feature, and remarkably, its root cause traces back to code […] The post…",
-      "source": "cybersecuritynews.com"
-    },
-    {
       "title": "AI-Generated Patches Fail Half the Time",
       "link": "https://www.darkreading.com/application-security/ai-generated-patches-fail-half-time",
       "date": "2026-08-07T16:47:43Z",
       "description": "A study of more than 6,000 patches found that even working patches can introduce new bugs, break something else, or are open to bypass.",
       "source": "darkreading.com"
-    },
-    {
-      "title": "Malware Abuses Windows Hello for Business Key to Authenticate Microsoft Entra ID",
-      "link": "https://cybersecuritynews.com/malware-abuses-windows-hello-key/",
-      "date": "2026-08-07T16:11:26Z",
-      "description": "A newly demonstrated technique shows how malware in a compromised Windows user session can abuse Windows Hello for Business (WHFB) cryptographic keys to authenticate to Microsoft Entra ID, enabling attackers to gain cloud access without the victim’s password, PIN, or biometric data. Windows Hello for Business is designed as a passwordless authentication system. It normally […] The post Malware…",
-      "source": "cybersecuritynews.com"
     },
     {
       "title": "Levi Strauss & Co. says hackers stole corporate data in cyberattack",
@@ -92,20 +71,6 @@
       "date": "2026-08-07T13:34:40Z",
       "description": "The North Carolina Ports Authority has confirmed that a cyberattack disrupted IT systems and slowed operations at Port of Wilmington, Port of Morehead City, and Charlotte Inland Port. [...]",
       "source": "bleepingcomputer.com"
-    },
-    {
-      "title": "CVE-2026-64561 Zapscape Lets KVM Guests Escape to Linux Host With Root Privileges",
-      "link": "https://cybersecuritynews.com/zapscape-kvm-escape-root-privileges/",
-      "date": "2026-08-07T13:32:14Z",
-      "description": "A Linux kernel vulnerability, tracked as CVE-2026-64561 and named Zapscape, could allow attackers to escape a KVM virtual machine and take control of its underlying Linux host with root privileges. The issue affects KVM/x86, a virtualization technology that separates guest systems from the physical server. The flaw is especially serious for cloud providers and enterprises […] The post…",
-      "source": "cybersecuritynews.com"
-    },
-    {
-      "title": "Google Chrome 151 Fixes 41 Security Flaws, Including 6 Critical Memory Bugs",
-      "link": "https://cybersecuritynews.com/chrome-151-vulnerabilities-patched/",
-      "date": "2026-08-07T13:14:11Z",
-      "description": "Google has released Chrome 151 to the Stable channel, fixing 41 security vulnerabilities, including six critical memory-safety flaws that could enable browser crashes, memory corruption, or malicious code execution. Chrome 151.0.7922.108/.109 is rolling out for Windows and macOS systems, while Linux users are receiving version 151.0.7922.108. Google said the release will be delivered to users…",
-      "source": "cybersecuritynews.com"
     },
     {
       "title": "New WordPress Pre-Auth XSS Could Lead to PHP Code Execution - Patch ASAP",
@@ -150,6 +115,41 @@
       "source": "securityweek.com"
     },
     {
+      "title": "ZDI-CAN-31619: NoMachine",
+      "link": "http://www.zerodayinitiative.com/advisories/upcoming/",
+      "date": "2026-08-07T05:00:00Z",
+      "description": "A CVSS score 7.2 AV:N/AC:L/PR:N/UI:N/S:C/C:L/I:L/A:N severity vulnerability discovered by 'Niels Pfau (Mantodea Security GmbH)' was reported to the affected vendor on: 2026-08-07, 1 days ago. The vendor is given until 2026-12-05 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
+      "source": "zerodayinitiative.com"
+    },
+    {
+      "title": "ZDI-CAN-32569: deepset",
+      "link": "http://www.zerodayinitiative.com/advisories/upcoming/",
+      "date": "2026-08-07T05:00:00Z",
+      "description": "A CVSS score 9.8 AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H severity vulnerability discovered by 'Ben Koo (@kiddo_pwn)' was reported to the affected vendor on: 2026-08-07, 1 days ago. The vendor is given until 2026-12-05 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
+      "source": "zerodayinitiative.com"
+    },
+    {
+      "title": "ZDI-CAN-31213: NoMachine",
+      "link": "http://www.zerodayinitiative.com/advisories/upcoming/",
+      "date": "2026-08-07T05:00:00Z",
+      "description": "A CVSS score 7.8 AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H severity vulnerability discovered by 'Anonymous' was reported to the affected vendor on: 2026-08-07, 1 days ago. The vendor is given until 2026-12-05 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
+      "source": "zerodayinitiative.com"
+    },
+    {
+      "title": "ZDI-CAN-33065: LangGenius",
+      "link": "http://www.zerodayinitiative.com/advisories/upcoming/",
+      "date": "2026-08-07T05:00:00Z",
+      "description": "A CVSS score 8.1 AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:N severity vulnerability discovered by 'Taha Siddiqi (@_atomiz_) of TrendAI Research' was reported to the affected vendor on: 2026-08-07, 1 days ago. The vendor is given until 2026-12-05 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
+      "source": "zerodayinitiative.com"
+    },
+    {
+      "title": "ZDI-CAN-30127: Webmin",
+      "link": "http://www.zerodayinitiative.com/advisories/upcoming/",
+      "date": "2026-08-07T05:00:00Z",
+      "description": "A CVSS score 4.7 AV:N/AC:H/PR:N/UI:R/S:C/C:L/I:L/A:N severity vulnerability discovered by 'Bongeun Koo (@kiddo_pwn)' was reported to the affected vendor on: 2026-08-07, 1 days ago. The vendor is given until 2026-12-05 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
+      "source": "zerodayinitiative.com"
+    },
+    {
       "title": "The Coordination Gap: How Attackers Are Outpacing Law Enforcement",
       "link": "https://www.darkreading.com/cyberattacks-data-breaches/coordination-gap-attackers-outpacing-law-enforcement",
       "date": "2026-08-06T21:42:50Z",
@@ -176,41 +176,6 @@
       "date": "2026-08-06T19:00:11Z",
       "description": "Two former chief security officers of the Democratic National Committee explain that a strong security-first mindset requires executive support — and a dose of absurdity.",
       "source": "darkreading.com"
-    },
-    {
-      "title": "ZDI-CAN-32176: Autodesk",
-      "link": "http://www.zerodayinitiative.com/advisories/upcoming/",
-      "date": "2026-08-06T05:00:00Z",
-      "description": "A CVSS score 3.3 AV:L/AC:L/PR:N/UI:R/S:U/C:L/I:N/A:N severity vulnerability discovered by 'Liang Zhu' was reported to the affected vendor on: 2026-08-06, 1 days ago. The vendor is given until 2026-12-04 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
-      "source": "zerodayinitiative.com"
-    },
-    {
-      "title": "ZDI-CAN-31880: Autodesk",
-      "link": "http://www.zerodayinitiative.com/advisories/upcoming/",
-      "date": "2026-08-06T05:00:00Z",
-      "description": "A CVSS score 3.3 AV:L/AC:L/PR:N/UI:R/S:U/C:L/I:N/A:N severity vulnerability discovered by 'Liang Zhu' was reported to the affected vendor on: 2026-08-06, 1 days ago. The vendor is given until 2026-12-04 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
-      "source": "zerodayinitiative.com"
-    },
-    {
-      "title": "ZDI-CAN-32603: PyTorch Foundation",
-      "link": "http://www.zerodayinitiative.com/advisories/upcoming/",
-      "date": "2026-08-06T05:00:00Z",
-      "description": "A CVSS score 7.8 AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H severity vulnerability discovered by 'YJK(@YJK0805) of ZUSO ART' was reported to the affected vendor on: 2026-08-06, 1 days ago. The vendor is given until 2026-12-04 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
-      "source": "zerodayinitiative.com"
-    },
-    {
-      "title": "ZDI-CAN-33212: KiCad",
-      "link": "http://www.zerodayinitiative.com/advisories/upcoming/",
-      "date": "2026-08-06T05:00:00Z",
-      "description": "A CVSS score 7.8 AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H severity vulnerability discovered by 'Anonymous' was reported to the affected vendor on: 2026-08-06, 1 days ago. The vendor is given until 2026-12-04 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
-      "source": "zerodayinitiative.com"
-    },
-    {
-      "title": "ZDI-CAN-33213: KiCad",
-      "link": "http://www.zerodayinitiative.com/advisories/upcoming/",
-      "date": "2026-08-06T05:00:00Z",
-      "description": "A CVSS score 7.8 AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H severity vulnerability discovered by 'Anonymous' was reported to the affected vendor on: 2026-08-06, 1 days ago. The vendor is given until 2026-12-04 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
-      "source": "zerodayinitiative.com"
     },
     {
       "title": "Student Loan Breach Exposes 2.5M Records",
