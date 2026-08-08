@@ -1,7 +1,42 @@
 {
-  "last_updated": "2026-08-08T07:39:47Z",
-  "count": 30,
+  "last_updated": "2026-08-08T08:26:57Z",
+  "count": 35,
   "items": [
+    {
+      "title": "Bugtraq Is Back: The Original Full Disclosure Mailing List Is Live Again",
+      "link": "https://cybersecuritynews.com/bugtraq-is-back-the-original-full-disclosure-mailing-list-is-live-again/",
+      "date": "2026-08-08T08:24:35Z",
+      "description": "Sophia Antipolis, France, August 7th, 2026, CyberNewswire At DEF CON 34 in Las Vegas, security researcher Jonathan Brossard, known in the community as endrazine, announced the rebirth of the original Bugtraq mailing list. Established in 1993, Bugtraq is the original mailing list where cybersecurity vulnerabilities, mitigations, and cutting-edge techniques have been discussed at scale. With […]…",
+      "source": "cybersecuritynews.com"
+    },
+    {
+      "title": "Metabase Zero-Day Exploited in Wild Allows Admin Access Without Authentication",
+      "link": "https://thehackernews.com/2026/08/metabase-zero-day-exploited-in-wild.html",
+      "date": "2026-08-08T06:58:31Z",
+      "description": "Metabase has warned that a maximum-severity security flaw impacting its business intelligence and data visualization software package has been exploited in the wild as a zero-day. The vulnerability (CVSS score: 10.0), which does not carry a CVE identifier, allows an unauthenticated remote attacker to inject arbitrary SQL into the Metabase application database, enabling them to gain",
+      "source": "thehackernews.com"
+    },
+    {
+      "title": "N-able Issues N-central Hotfix 2 as Attackers Reach Managed Systems and Persist",
+      "link": "https://thehackernews.com/2026/08/n-central-attackers-reach-managed.html",
+      "date": "2026-08-08T06:57:43Z",
+      "description": "N-able has released a fresh round of hotfixes for N‑central as part of its investigation into ongoing exploitation of a recently disclosed security flaw in the Remote Monitoring and Management (RMM) product. \"We are proactively expanding protections in response to ongoing monitoring of threat actors as they evolve their attack techniques,\" the company said. \"This is not a duplicate of our",
+      "source": "thehackernews.com"
+    },
+    {
+      "title": "Progress Kemp LoadMaster Flaw Hits CISA KEV After 792 Reported Exploit Attempts",
+      "link": "https://thehackernews.com/2026/08/progress-kemp-loadmaster-flaw-hits-cisa.html",
+      "date": "2026-08-08T06:52:16Z",
+      "description": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Friday added a critical-severity security flaw impacting Progress Kemp LoadMaster to its Known Exploited Vulnerabilities (KEV) catalog, following reports of active exploitation in the wild. The vulnerability, tracked as CVE-2026-8037 (CVSS score: 9.6), is a command injection flaw that could be weaponized to achieve arbitrary",
+      "source": "thehackernews.com"
+    },
+    {
+      "title": "OpenAI Slows Down New Astra Model Development to Measure Cybersecurity Capabilities",
+      "link": "https://cybersecuritynews.com/openai-slows-down-new-astra-model/",
+      "date": "2026-08-08T04:26:21Z",
+      "description": "OpenAI has announced that it is deliberately slowing the development of Astra, its upcoming frontier AI model, after internal evaluations revealed advancements in agentic coding and cybersecurity that could push the system into “Critical” risk territory. The company said it made the decision after reviewing results from recent internal testing alongside external expert assessments, concluding…",
+      "source": "cybersecuritynews.com"
+    },
     {
       "title": "Metabase SQLi zero-day exploited in customer data-theft attacks",
       "link": "https://www.bleepingcomputer.com/news/security/framework-tally-disclose-metabase-data-theft-attacks/",
@@ -31,11 +66,18 @@
       "source": "thehackernews.com"
     },
     {
-      "title": "UNC6671 Vishing Attacks Target Personal Phones to Steal SaaS Data",
-      "link": "https://thehackernews.com/2026/08/unc6671-vishing-attacks-target-personal.html",
-      "date": "2026-08-07T18:16:13Z",
-      "description": "A recent wave of cyber attacks targeting financial services, private equity, and professional services has been attributed to a data extortion group known as UNC6671. \"UNC6671 continues to rely on voice phishing (vishing) to target enterprise employees, posing as IT help desk staff facilitating mandatory, urgent security migrations. Significantly, the threat actor often contacts employees via",
-      "source": "thehackernews.com"
+      "title": "WordPress XSS2Shell Flaw Chains Pre-Auth Login XSS to PHP Remote Code Execution",
+      "link": "https://cybersecuritynews.com/wordpress-xss2shell-vulnerability/",
+      "date": "2026-08-07T17:28:23Z",
+      "description": "A critical vulnerability chain in WordPress Core, tracked as CVE-2026-64638 and nicknamed XSS2Shell, that turns a single failed login attempt into full remote code execution on the underlying server. Because the flaw sits in code that has shipped with WordPress since version 4.7, it touched effectively every actively maintained installation of the world’s most popular […] The post WordPress…",
+      "source": "cybersecuritynews.com"
+    },
+    {
+      "title": "18-Year-Old Linux Kernel SCTP Vulnerability Lets Attackers Gain Full Root on Host",
+      "link": "https://cybersecuritynews.com/18-year-old-linux-kernel-sctp-vulnerability/",
+      "date": "2026-08-07T16:56:44Z",
+      "description": "A newly disclosed Linux kernel vulnerability, dubbed SCTPhantom and tracked as CVE-2026-64564, allows attackers to escalate from unprivileged local access to full root and even escape containers to compromise the underlying host. The flaw is a use-after-free bug in the kernel’s SCTP Dynamic Address Reconfiguration feature, and remarkably, its root cause traces back to code […] The post…",
+      "source": "cybersecuritynews.com"
     },
     {
       "title": "AI-Generated Patches Fail Half the Time",
@@ -43,6 +85,13 @@
       "date": "2026-08-07T16:47:43Z",
       "description": "A study of more than 6,000 patches found that even working patches can introduce new bugs, break something else, or are open to bypass.",
       "source": "darkreading.com"
+    },
+    {
+      "title": "Malware Abuses Windows Hello for Business Key to Authenticate Microsoft Entra ID",
+      "link": "https://cybersecuritynews.com/malware-abuses-windows-hello-key/",
+      "date": "2026-08-07T16:11:26Z",
+      "description": "A newly demonstrated technique shows how malware in a compromised Windows user session can abuse Windows Hello for Business (WHFB) cryptographic keys to authenticate to Microsoft Entra ID, enabling attackers to gain cloud access without the victim’s password, PIN, or biometric data. Windows Hello for Business is designed as a passwordless authentication system. It normally […] The post Malware…",
+      "source": "cybersecuritynews.com"
     },
     {
       "title": "Levi Strauss & Co. says hackers stole corporate data in cyberattack",
@@ -71,20 +120,6 @@
       "date": "2026-08-07T13:34:40Z",
       "description": "The North Carolina Ports Authority has confirmed that a cyberattack disrupted IT systems and slowed operations at Port of Wilmington, Port of Morehead City, and Charlotte Inland Port. [...]",
       "source": "bleepingcomputer.com"
-    },
-    {
-      "title": "New WordPress Pre-Auth XSS Could Lead to PHP Code Execution - Patch ASAP",
-      "link": "https://thehackernews.com/2026/08/new-wordpress-pre-auth-xss-could-lead.html",
-      "date": "2026-08-07T12:56:23Z",
-      "description": "WordPress has fixed a pre-authentication reflected cross-site scripting (XSS) flaw in its login screen that affects every version of the content management system. pwn.ai demonstrated how the flaw can be chained into PHP code execution on the server when a logged-in administrator interacts with an attacker-controlled page. Tracked as CVE-2026-64638 (CVSS score: 8.9), the",
-      "source": "thehackernews.com"
-    },
-    {
-      "title": "Growing Up The Hard Way",
-      "link": "https://thehackernews.com/2026/08/growing-up-hard-way.html",
-      "date": "2026-08-07T11:55:26Z",
-      "description": "Open Source had a great childhood. For two decades it got to be a kid. It ran around barefoot, gave everything away, trusted strangers, and never once thought about who was watching. It ran the kind of lemonade stand that took IOUs from anyone who wandered up — take what you need, pay me back whenever, no need to leave a name. It was idyllic. It was also, in retrospect, a little feral. Then,",
-      "source": "thehackernews.com"
     },
     {
       "title": "Vishing Extortion Group UNC6671 Rebrands After Making Millions",
