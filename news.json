@@ -1,13 +1,20 @@
 {
-  "last_updated": "2026-08-08T08:26:57Z",
-  "count": 35,
+  "last_updated": "2026-08-08T09:27:08Z",
+  "count": 30,
   "items": [
     {
-      "title": "Bugtraq Is Back: The Original Full Disclosure Mailing List Is Live Again",
-      "link": "https://cybersecuritynews.com/bugtraq-is-back-the-original-full-disclosure-mailing-list-is-live-again/",
-      "date": "2026-08-08T08:24:35Z",
-      "description": "Sophia Antipolis, France, August 7th, 2026, CyberNewswire At DEF CON 34 in Las Vegas, security researcher Jonathan Brossard, known in the community as endrazine, announced the rebirth of the original Bugtraq mailing list. Established in 1993, Bugtraq is the original mailing list where cybersecurity vulnerabilities, mitigations, and cutting-edge techniques have been discussed at scale. With […]…",
-      "source": "cybersecuritynews.com"
+      "title": "Atlassian Rovo Can Be Tricked Into Sending Jira and Confluence Data to Attackers",
+      "link": "https://thehackernews.com/2026/08/atlassian-rovo-can-be-tricked-into.html",
+      "date": "2026-08-08T08:54:50Z",
+      "description": "Attacker-controlled instructions can make Atlassian's Rovo assistant collect Jira or Confluence data that a signed-in user can access, then send it to an outside server. Two security firms found that behavior independently, by different routes. Only one of those routes is confirmed closed. PromptArmor, an AI security firm, hid the instructions in content Rovo reads. It said an uploaded file was",
+      "source": "thehackernews.com"
+    },
+    {
+      "title": "New CSS Attacks Can Break Webmail Defenses to Steal Passwords and Tokens",
+      "link": "https://thehackernews.com/2026/08/new-css-attacks-can-break-webmail.html",
+      "date": "2026-08-08T08:03:57Z",
+      "description": "New research shows content inside an email can escape its message boundary and interfere with the webmail interface. Across attack chains spanning Outlook, Gmail, Fastmail, Proton Mail, Yahoo Mail, and AOL Mail, the techniques can capture passwords, take over third-party accounts, leak tokens, hijack trusted UI actions, and manipulate AI tools that read email. PortSwigger researcher Gareth",
+      "source": "thehackernews.com"
     },
     {
       "title": "Metabase Zero-Day Exploited in Wild Allows Admin Access Without Authentication",
@@ -31,13 +38,6 @@
       "source": "thehackernews.com"
     },
     {
-      "title": "OpenAI Slows Down New Astra Model Development to Measure Cybersecurity Capabilities",
-      "link": "https://cybersecuritynews.com/openai-slows-down-new-astra-model/",
-      "date": "2026-08-08T04:26:21Z",
-      "description": "OpenAI has announced that it is deliberately slowing the development of Astra, its upcoming frontier AI model, after internal evaluations revealed advancements in agentic coding and cybersecurity that could push the system into “Critical” risk territory. The company said it made the decision after reviewing results from recent internal testing alongside external expert assessments, concluding…",
-      "source": "cybersecuritynews.com"
-    },
-    {
       "title": "Metabase SQLi zero-day exploited in customer data-theft attacks",
       "link": "https://www.bleepingcomputer.com/news/security/framework-tally-disclose-metabase-data-theft-attacks/",
       "date": "2026-08-07T20:14:46Z",
@@ -52,46 +52,11 @@
       "source": "bleepingcomputer.com"
     },
     {
-      "title": "Nearly 800 Malicious npm Packages Deliver Cross-Platform RAT and Infostealer",
-      "link": "https://thehackernews.com/2026/08/nearly-800-malicious-npm-packages.html",
-      "date": "2026-08-07T18:48:17Z",
-      "description": "A cluster of nearly 800 malicious packages has been published to the npm registry as part of a new campaign designed to deliver cross-platform malware targeting Windows, Mac, and Linux systems. \"These packages appear to use AI slop squatted, or randomly generated typo-squatting package names, but all of them deliver a powerful RAT and infostealer payload,\" OpenSourceMalware researcher Paul",
-      "source": "thehackernews.com"
-    },
-    {
-      "title": "ClickFix Attacks Deliver macOS Stealer That Can Drain Crypto Wallets",
-      "link": "https://thehackernews.com/2026/08/clickfix-attacks-deliver-macos-stealer.html",
-      "date": "2026-08-07T18:29:08Z",
-      "description": "ClickFix-style attacks are being used to deliver a Go-based malware capable of stealing cryptocurrency assets, as well as browser-stored passwords, Apple iCloud Keychain data, and cached credentials. The macOS-focused infection chain is designed to deliver a shell script that profiles the host and then fetches a macOS malware payload that's compatible with the computer's CPU architecture. \"",
-      "source": "thehackernews.com"
-    },
-    {
-      "title": "WordPress XSS2Shell Flaw Chains Pre-Auth Login XSS to PHP Remote Code Execution",
-      "link": "https://cybersecuritynews.com/wordpress-xss2shell-vulnerability/",
-      "date": "2026-08-07T17:28:23Z",
-      "description": "A critical vulnerability chain in WordPress Core, tracked as CVE-2026-64638 and nicknamed XSS2Shell, that turns a single failed login attempt into full remote code execution on the underlying server. Because the flaw sits in code that has shipped with WordPress since version 4.7, it touched effectively every actively maintained installation of the world’s most popular […] The post WordPress…",
-      "source": "cybersecuritynews.com"
-    },
-    {
-      "title": "18-Year-Old Linux Kernel SCTP Vulnerability Lets Attackers Gain Full Root on Host",
-      "link": "https://cybersecuritynews.com/18-year-old-linux-kernel-sctp-vulnerability/",
-      "date": "2026-08-07T16:56:44Z",
-      "description": "A newly disclosed Linux kernel vulnerability, dubbed SCTPhantom and tracked as CVE-2026-64564, allows attackers to escalate from unprivileged local access to full root and even escape containers to compromise the underlying host. The flaw is a use-after-free bug in the kernel’s SCTP Dynamic Address Reconfiguration feature, and remarkably, its root cause traces back to code […] The post…",
-      "source": "cybersecuritynews.com"
-    },
-    {
       "title": "AI-Generated Patches Fail Half the Time",
       "link": "https://www.darkreading.com/application-security/ai-generated-patches-fail-half-time",
       "date": "2026-08-07T16:47:43Z",
       "description": "A study of more than 6,000 patches found that even working patches can introduce new bugs, break something else, or are open to bypass.",
       "source": "darkreading.com"
-    },
-    {
-      "title": "Malware Abuses Windows Hello for Business Key to Authenticate Microsoft Entra ID",
-      "link": "https://cybersecuritynews.com/malware-abuses-windows-hello-key/",
-      "date": "2026-08-07T16:11:26Z",
-      "description": "A newly demonstrated technique shows how malware in a compromised Windows user session can abuse Windows Hello for Business (WHFB) cryptographic keys to authenticate to Microsoft Entra ID, enabling attackers to gain cloud access without the victim’s password, PIN, or biometric data. Windows Hello for Business is designed as a passwordless authentication system. It normally […] The post Malware…",
-      "source": "cybersecuritynews.com"
     },
     {
       "title": "Levi Strauss & Co. says hackers stole corporate data in cyberattack",
