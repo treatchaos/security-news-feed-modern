@@ -1,8 +1,38 @@
 {
-  "last_updated": "2026-08-09T18:23:26Z",
+  "last_updated": "2026-08-09T19:24:03Z",
   "retention_days": 90,
-  "count": 3545,
+  "count": 3540,
   "items": [
+    {
+      "id": "ea8ff41ce4d632686478587aa9e025874256b092",
+      "title": "Weekly Cyber Security Newsletter — OWASP Top 10 for LLM, Cisco IOS XE Flaw, and 1-Click Cursor RCE +20 Stories",
+      "link": "https://cybersecuritynews.com/weekly-cyber-security-newsletter-aug/",
+      "date": "2026-08-09T17:21:41Z",
+      "description": "This week’s roundup covers active exploitation of Apache Tomcat and SonicWall SMA, a nearly two-decade-old Linux kernel flaw, critical bugs in N-able N-Central, Veeam ONE, Jenkins, and Cisco IOS XE, plus a wave of AI-security incidents touching Claude, Kimi K3, and code editors like Cursor and VS Code. CISA Warns of Apache Tomcat Encryption Flaw […] The post Weekly Cyber Security Newsletter —…",
+      "source": "cybersecuritynews.com",
+      "first_seen": "2026-08-09T19:24:03Z",
+      "last_seen": "2026-08-09T19:24:03Z"
+    },
+    {
+      "id": "8bc5644026f50371f1bd6ef14c38914b73dae02b",
+      "title": "Metabase 0-Day Vulnerability Exploited in the Wild to Gain Admin Access",
+      "link": "https://cybersecuritynews.com/metabase-0-day-vulnerability/",
+      "date": "2026-08-09T16:35:29Z",
+      "description": "Metabase, the widely used open-source business intelligence and data visualization platform, has confirmed that a critical zero-day vulnerability tracked as GHSA-vwf4-m7j8-wcjf was actively exploited in the wild, allowing unauthenticated attackers to seize full administrator access to affected instances. The flaw carries a maximum CVSS score of 10.0 and impacts every release from version 1.58…",
+      "source": "cybersecuritynews.com",
+      "first_seen": "2026-08-09T19:24:03Z",
+      "last_seen": "2026-08-09T19:24:03Z"
+    },
+    {
+      "id": "f72abd7bbef4a10f60efee31c060b34f64168067",
+      "title": "Microsoft to Launch New Security Detection Report in Teams",
+      "link": "https://cybersecuritynews.com/teams-security-detection-report/",
+      "date": "2026-08-09T16:18:55Z",
+      "description": "Microsoft is preparing to roll out a new Security Detection Report inside the Teams admin center, giving administrators a long-awaited, unified way to monitor messaging-based threats across their organization. The feature, tracked under Microsoft 365 Roadmap ID 560702, brings together previously scattered threat signals into a single dashboard, making it significantly easier for security teams…",
+      "source": "cybersecuritynews.com",
+      "first_seen": "2026-08-09T19:24:03Z",
+      "last_seen": "2026-08-09T19:24:03Z"
+    },
     {
       "id": "d98af204773366977b9d55c8e6c873d631fed4f1",
       "title": "CSS Bomb Attacks Turn Malicious Emails Into Password-Stealing Keyloggers",
@@ -11,7 +41,7 @@
       "description": "A new class of email-based attacks that exploit ordinary CSS styling code to hijack webmail interfaces, spy on user activity, and even steal passwords in real time, all without relying on JavaScript or traditional malware. Dubbed “CSS bomb” attacks, the technique weaponizes trusted formatting features found in nearly every major webmail platform, turning a routine […] The post CSS Bomb Attacks…",
       "source": "cybersecuritynews.com",
       "first_seen": "2026-08-09T13:40:21Z",
-      "last_seen": "2026-08-09T14:23:38Z"
+      "last_seen": "2026-08-09T19:24:03Z"
     },
     {
       "id": "9fe640aba9bcb174e3a12c834da232d02d3cb2ed",
@@ -41,7 +71,7 @@
       "description": "The Head Mare hacktivist group has been exploiting vulnerabilities in unpatched TrueConf video conferencing servers to replace client installers with malicious versions that deliver backdoors. [...]",
       "source": "bleepingcomputer.com",
       "first_seen": "2026-08-08T15:19:12Z",
-      "last_seen": "2026-08-09T18:23:26Z"
+      "last_seen": "2026-08-09T19:24:03Z"
     },
     {
       "id": "8fdeb214d049475aea0217b1f03a8b91fbd5a790",
@@ -51,7 +81,7 @@
       "description": "The RovoBlast attack method identified by Varonis researchers could have been exploited to steal Confluence, Jira and SharePoint data. The post Critical One-Click Vulnerability in Atlassian’s Rovo AI Exposed Enterprise Data appeared first on SecurityWeek.",
       "source": "securityweek.com",
       "first_seen": "2026-08-08T12:24:21Z",
-      "last_seen": "2026-08-09T18:23:26Z"
+      "last_seen": "2026-08-09T19:24:03Z"
     },
     {
       "id": "33cfb4e06b2557961f8f202f91a0835d84ff864d",
@@ -61,7 +91,7 @@
       "description": "Attacker-controlled instructions can make Atlassian's Rovo assistant collect Jira or Confluence data that a signed-in user can access, then send it to an outside server. Two security firms found that behavior independently, by different routes. Only one of those routes is confirmed closed. PromptArmor, an AI security firm, hid the instructions in content Rovo reads. It said an uploaded file was",
       "source": "thehackernews.com",
       "first_seen": "2026-08-08T09:27:08Z",
-      "last_seen": "2026-08-09T18:23:26Z"
+      "last_seen": "2026-08-09T19:24:03Z"
     },
     {
       "id": "0d9e80f20d2368a5a62ff4d315b7ab91d3b2f855",
@@ -81,7 +111,7 @@
       "description": "New research shows content inside an email can escape its message boundary and interfere with the webmail interface. Across attack chains spanning Outlook, Gmail, Fastmail, Proton Mail, Yahoo Mail, and AOL Mail, the techniques can capture passwords, take over third-party accounts, leak tokens, hijack trusted UI actions, and manipulate AI tools that read email. PortSwigger researcher Gareth",
       "source": "thehackernews.com",
       "first_seen": "2026-08-08T09:27:08Z",
-      "last_seen": "2026-08-09T18:23:26Z"
+      "last_seen": "2026-08-09T19:24:03Z"
     },
     {
       "id": "9a320ea4d05f8bc6041377dc6c386938af2e9498",
@@ -91,7 +121,7 @@
       "description": "Metabase has warned that a maximum-severity security flaw impacting its business intelligence and data visualization software package has been exploited in the wild as a zero-day. The vulnerability (CVSS score: 10.0), which does not carry a CVE identifier, allows an unauthenticated remote attacker to inject arbitrary SQL into the Metabase application database, enabling them to gain",
       "source": "thehackernews.com",
       "first_seen": "2026-08-08T08:26:57Z",
-      "last_seen": "2026-08-09T18:23:26Z"
+      "last_seen": "2026-08-09T19:24:03Z"
     },
     {
       "id": "bb76e1d5800d99075f0757aea10c252d3497b270",
@@ -101,7 +131,7 @@
       "description": "N-able has released a fresh round of hotfixes for N‑central as part of its investigation into ongoing exploitation of a recently disclosed security flaw in the Remote Monitoring and Management (RMM) product. \"We are proactively expanding protections in response to ongoing monitoring of threat actors as they evolve their attack techniques,\" the company said. \"This is not a duplicate of our",
       "source": "thehackernews.com",
       "first_seen": "2026-08-08T08:26:57Z",
-      "last_seen": "2026-08-09T18:23:26Z"
+      "last_seen": "2026-08-09T19:24:03Z"
     },
     {
       "id": "c97f90a69be0fd877f14965e6db095f903e8a464",
@@ -111,7 +141,7 @@
       "description": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Friday added a critical-severity security flaw impacting Progress Kemp LoadMaster to its Known Exploited Vulnerabilities (KEV) catalog, following reports of active exploitation in the wild. The vulnerability, tracked as CVE-2026-8037 (CVSS score: 9.6), is a command injection flaw that could be weaponized to achieve arbitrary",
       "source": "thehackernews.com",
       "first_seen": "2026-08-08T08:26:57Z",
-      "last_seen": "2026-08-09T18:23:26Z"
+      "last_seen": "2026-08-09T19:24:03Z"
     },
     {
       "id": "7fc2ed0737212ac1a038e13e580ac6cf7d3ccc93",
@@ -131,7 +161,7 @@
       "description": "A critical Metabase SQL injection vulnerability was exploited in zero-day attacks to breach customer instances in data theft attacks, known to impact Framework and Tally. [...]",
       "source": "bleepingcomputer.com",
       "first_seen": "2026-08-07T20:28:41Z",
-      "last_seen": "2026-08-09T18:23:26Z"
+      "last_seen": "2026-08-09T19:24:03Z"
     },
     {
       "id": "1e1f22ae9e855ef80933c4e45bbaab43167020e3",
@@ -141,7 +171,7 @@
       "description": "Healthcare software company Unlimited Technology Systems reported that more than 3.8 million people were impacted by a data breach incident that occurred in October 2025. [...]",
       "source": "bleepingcomputer.com",
       "first_seen": "2026-08-07T19:43:09Z",
-      "last_seen": "2026-08-09T18:23:26Z"
+      "last_seen": "2026-08-09T19:24:03Z"
     },
     {
       "id": "a7e2eed85d124c2287412f6667e5a8d50e536e14",
@@ -201,7 +231,7 @@
       "description": "A study of more than 6,000 patches found that even working patches can introduce new bugs, break something else, or are open to bypass.",
       "source": "darkreading.com",
       "first_seen": "2026-08-07T17:39:15Z",
-      "last_seen": "2026-08-09T18:23:26Z"
+      "last_seen": "2026-08-09T19:24:03Z"
     },
     {
       "id": "27a9b54b5b8b8ca91f48708510968a53f220e575",
@@ -221,7 +251,7 @@
       "description": "Levi Strauss & Co. (Levi's) says that hackers used social engineering on three of its employees to gain access to and steal corporate data stored on their machines. [...]",
       "source": "bleepingcomputer.com",
       "first_seen": "2026-08-07T16:40:30Z",
-      "last_seen": "2026-08-09T18:23:26Z"
+      "last_seen": "2026-08-09T19:24:03Z"
     },
     {
       "id": "3c8844b86a0175621fbabb8df89e0ccc76def3bb",
@@ -231,7 +261,7 @@
       "description": "Noteworthy stories that might have slipped under the radar: ban on Chinese data center tech, QuickFox VPN supply chain attack, IEH Corporation mailbox breached via phishing. The post In Other News: AI Slop Limits Apple Bounties, North Carolina Port Attacks, Hackers Target Wall Street appeared first on SecurityWeek.",
       "source": "securityweek.com",
       "first_seen": "2026-08-07T15:43:00Z",
-      "last_seen": "2026-08-09T18:23:26Z"
+      "last_seen": "2026-08-09T19:24:03Z"
     },
     {
       "id": "b0c046cdb19cef167f127b08f4990107dd412fe6",
@@ -241,7 +271,7 @@
       "description": "Gen's H1 2026 Threat Report examines two separate attack chains. One used compromised business inboxes and browser manipulation in a banking-malware campaign, while the other used clipboard hijacking to redirect cryptocurrency payments. [...]",
       "source": "bleepingcomputer.com",
       "first_seen": "2026-08-07T15:43:00Z",
-      "last_seen": "2026-08-09T18:23:26Z"
+      "last_seen": "2026-08-09T19:24:03Z"
     },
     {
       "id": "6ccccb4d20c9073fe49a69c0f584679ea0f0cac0",
@@ -351,7 +381,7 @@
       "description": "Initially calling itself BlackFile, the group has expanded operations to the Redact, Pink, Helix, and Falcon brands. The post Vishing Extortion Group UNC6671 Rebrands After Making Millions appeared first on SecurityWeek.",
       "source": "securityweek.com",
       "first_seen": "2026-08-07T11:37:18Z",
-      "last_seen": "2026-08-09T18:23:26Z"
+      "last_seen": "2026-08-09T19:24:03Z"
     },
     {
       "id": "016ef8be8f536f114c35a2891ee3dd245803f5a0",
@@ -381,7 +411,7 @@
       "description": "NMFTA research shows a Bendix EC80 brake controller safety recall also patched remote code execution and DoS vulnerabilities. The post Truck Brake Controller’s Safety Recall Doubled as Hidden Security Fix appeared first on SecurityWeek.",
       "source": "securityweek.com",
       "first_seen": "2026-08-07T10:41:29Z",
-      "last_seen": "2026-08-09T18:23:26Z"
+      "last_seen": "2026-08-09T19:24:03Z"
     },
     {
       "id": "0bb3c8afe523ac978599097816890a87234796f1",
@@ -401,7 +431,7 @@
       "description": "Companies are showcasing their products and services this week at the 2026 edition of the Black Hat conference in Las Vegas. The post Black Hat USA 2026 – Summary of Vendor Announcements (Part 4) appeared first on SecurityWeek.",
       "source": "securityweek.com",
       "first_seen": "2026-08-07T09:49:56Z",
-      "last_seen": "2026-08-09T18:23:26Z"
+      "last_seen": "2026-08-09T19:24:03Z"
     },
     {
       "id": "0ebdc2cc1c6d981ebde91830161a218011a2a93b",
@@ -531,7 +561,7 @@
       "description": "A CVSS score 7.2 AV:N/AC:L/PR:N/UI:N/S:C/C:L/I:L/A:N severity vulnerability discovered by 'Niels Pfau (Mantodea Security GmbH)' was reported to the affected vendor on: 2026-08-07, 1 days ago. The vendor is given until 2026-12-05 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
       "source": "zerodayinitiative.com",
       "first_seen": "2026-08-08T05:34:36Z",
-      "last_seen": "2026-08-09T18:23:26Z"
+      "last_seen": "2026-08-09T19:24:03Z"
     },
     {
       "id": "add38d4a43b7cb9b046f508b8302c443033873ea",
@@ -541,7 +571,7 @@
       "description": "A CVSS score 9.8 AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H severity vulnerability discovered by 'Ben Koo (@kiddo_pwn)' was reported to the affected vendor on: 2026-08-07, 1 days ago. The vendor is given until 2026-12-05 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
       "source": "zerodayinitiative.com",
       "first_seen": "2026-08-08T05:34:36Z",
-      "last_seen": "2026-08-09T18:23:26Z"
+      "last_seen": "2026-08-09T19:24:03Z"
     },
     {
       "id": "ad2fc7747dbf6c289e47f5842263a1ac9bf8768d",
@@ -551,7 +581,7 @@
       "description": "A CVSS score 7.8 AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H severity vulnerability discovered by 'Anonymous' was reported to the affected vendor on: 2026-08-07, 1 days ago. The vendor is given until 2026-12-05 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
       "source": "zerodayinitiative.com",
       "first_seen": "2026-08-08T05:34:36Z",
-      "last_seen": "2026-08-09T18:23:26Z"
+      "last_seen": "2026-08-09T19:24:03Z"
     },
     {
       "id": "5a8ecaba98c8a9b325557a91ea5f7a960e9b9e07",
@@ -561,7 +591,7 @@
       "description": "A CVSS score 8.1 AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:N severity vulnerability discovered by 'Taha Siddiqi (@_atomiz_) of TrendAI Research' was reported to the affected vendor on: 2026-08-07, 1 days ago. The vendor is given until 2026-12-05 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
       "source": "zerodayinitiative.com",
       "first_seen": "2026-08-08T05:34:36Z",
-      "last_seen": "2026-08-09T18:23:26Z"
+      "last_seen": "2026-08-09T19:24:03Z"
     },
     {
       "id": "042624aa68000d92b0f8865b6ea2144063b17994",
@@ -571,7 +601,7 @@
       "description": "A CVSS score 4.7 AV:N/AC:H/PR:N/UI:R/S:C/C:L/I:L/A:N severity vulnerability discovered by 'Bongeun Koo (@kiddo_pwn)' was reported to the affected vendor on: 2026-08-07, 1 days ago. The vendor is given until 2026-12-05 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
       "source": "zerodayinitiative.com",
       "first_seen": "2026-08-08T05:34:36Z",
-      "last_seen": "2026-08-09T18:23:26Z"
+      "last_seen": "2026-08-09T19:24:03Z"
     },
     {
       "id": "97c4118ef756cf8680a520ac1742503e334eda12",
@@ -641,7 +671,7 @@
       "description": "The fight against cybercrime continues because threat actors have adapted their strategies to avoid deterrents, but law enforcement still operates in silos.",
       "source": "darkreading.com",
       "first_seen": "2026-08-06T23:48:13Z",
-      "last_seen": "2026-08-09T18:23:26Z"
+      "last_seen": "2026-08-09T19:24:03Z"
     },
     {
       "id": "733df8611175919643f61d2319b5badf85c8525b",
@@ -651,7 +681,7 @@
       "description": "In the span of three weeks, OpenAI, Anthropic, and Meta have all disclosed AI agent sandbox escape events affecting real organizations.",
       "source": "darkreading.com",
       "first_seen": "2026-08-07T15:43:00Z",
-      "last_seen": "2026-08-09T18:23:26Z"
+      "last_seen": "2026-08-09T19:24:03Z"
     },
     {
       "id": "b03ba479a59b7ae386f06e8863c00a02162791c0",
@@ -661,7 +691,7 @@
       "description": "A researcher demonstrated a proof-of-concept attack chain that provided C2-style influence over ChatGPT's isolated sandbox during a session at Black Hat USA 2026.",
       "source": "darkreading.com",
       "first_seen": "2026-08-06T23:48:13Z",
-      "last_seen": "2026-08-09T18:23:26Z"
+      "last_seen": "2026-08-09T19:24:03Z"
     },
     {
       "id": "b233ff23d8c3e9546841b2511db1ccc2b4ae453c",
@@ -681,7 +711,7 @@
       "description": "Two former chief security officers of the Democratic National Committee explain that a strong security-first mindset requires executive support — and a dose of absurdity.",
       "source": "darkreading.com",
       "first_seen": "2026-08-06T23:48:13Z",
-      "last_seen": "2026-08-09T18:23:26Z"
+      "last_seen": "2026-08-09T19:24:03Z"
     },
     {
       "id": "11358c679cbfed5f959f36eb1bd70d2882ea7a6b",
@@ -3151,7 +3181,7 @@
       "description": "By John Grancarich, EVP, Head of Defense & Intelligence, Fortra The recent pause affecting the implementation of Cybersecurity Maturity Model Certification (CMMC) Phase II has understandably generated questions across the Defense Industrial Base (DIB). For many organizations, the immediate reaction has been to ask whether compliance timelines will shift, whether assessment preparation can be…",
       "source": "cybersecuritynews.com",
       "first_seen": "2026-07-31T11:18:30Z",
-      "last_seen": "2026-08-09T14:23:38Z"
+      "last_seen": "2026-08-09T19:24:03Z"
     },
     {
       "id": "c8ec1a287dd44fb480d9a3262b632bf576538677",
@@ -35324,86 +35354,6 @@
       "last_seen": "2026-05-12T08:23:50Z"
     },
     {
-      "id": "24359bd2ba0fae9e45740f5db3fbf69111ccf057",
-      "title": "cPanel CVE-2026-41940 Under Active Exploitation to Deploy Filemanager Backdoor",
-      "link": "https://thehackernews.com/2026/05/cpanel-cve-2026-41940-under-active.html",
-      "date": "2026-05-11T17:54:00Z",
-      "description": "A threat actor named Mr_Rot13 has been attributed to the exploitation of a recently disclosed critical cPanel flaw to deploy a backdoor codenamed Filemanager on compromised environments. The attack exploits CVE-2026-41940, a vulnerability impacting cPanel and WebHost Manager (WHM) that could result in an authentication bypass and allow remote attackers to gain elevated control of the control",
-      "source": "thehackernews.com",
-      "first_seen": "2026-05-11T18:50:05Z",
-      "last_seen": "2026-05-12T08:23:50Z"
-    },
-    {
-      "id": "d50b4350f3221135264e2922c168fdb9ef79eb1d",
-      "title": "Frame Security Emerges From Stealth With $50M for Awareness and Training Platform",
-      "link": "https://www.securityweek.com/frame-security-emerges-from-stealth-with-50m-for-awareness-and-training-platform/",
-      "date": "2026-05-11T17:17:37Z",
-      "description": "Team8, Index Ventures, Picture Capital, Elad Gil, Cerca Partners, and Tesonet invested in Frame Security. The post Frame Security Emerges From Stealth With $50M for Awareness and Training Platform appeared first on SecurityWeek.",
-      "source": "securityweek.com",
-      "first_seen": "2026-05-11T18:50:05Z",
-      "last_seen": "2026-05-12T11:11:13Z"
-    },
-    {
-      "id": "5f3c119b8d1c78d903fa53e7ce9b2cea3f8468ab",
-      "title": "Hackers Used AI to Develop First Known Zero-Day 2FA Bypass for Mass Exploitation",
-      "link": "https://thehackernews.com/2026/05/hackers-used-ai-to-develop-first-known.html",
-      "date": "2026-05-11T15:45:00Z",
-      "description": "Google on Monday disclosed that it identified an unknown threat actor using a zero-day exploit that it said was likely developed with an artificial intelligence (AI) system, marking the first time the technology has been put to use in the wild in a malicious context for vulnerability discovery and exploit generation. The activity is said to be the work of cybercrime threat actors who appear to",
-      "source": "thehackernews.com",
-      "first_seen": "2026-05-11T18:50:05Z",
-      "last_seen": "2026-05-12T05:38:30Z"
-    },
-    {
-      "id": "5725d64839f153bce0fae55779f493a4abbc366c",
-      "title": "ZDI-CAN-30747: Microsoft",
-      "link": "http://www.zerodayinitiative.com/advisories/upcoming/",
-      "date": "2026-05-11T05:00:00Z",
-      "description": "A CVSS score 7.8 AV:L/AC:H/PR:L/UI:N/S:C/C:H/I:H/A:H severity vulnerability discovered by 'Marcin Wiazowski' was reported to the affected vendor on: 2026-05-11, 0 days ago. The vendor is given until 2026-09-08 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
-      "source": "zerodayinitiative.com",
-      "first_seen": "2026-05-11T18:50:05Z",
-      "last_seen": "2026-05-20T21:30:11Z"
-    },
-    {
-      "id": "f61331446cced42b8dcd10857db0b2f8d6391fa8",
-      "title": "ZDI-CAN-30743: Microsoft",
-      "link": "http://www.zerodayinitiative.com/advisories/upcoming/",
-      "date": "2026-05-11T05:00:00Z",
-      "description": "A CVSS score 7.8 AV:L/AC:H/PR:L/UI:N/S:C/C:H/I:H/A:H severity vulnerability discovered by 'Marcin Wiazowski' was reported to the affected vendor on: 2026-05-11, 0 days ago. The vendor is given until 2026-09-08 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
-      "source": "zerodayinitiative.com",
-      "first_seen": "2026-05-11T18:50:05Z",
-      "last_seen": "2026-05-20T21:30:11Z"
-    },
-    {
-      "id": "da4a65b67dde7f8badf8ed2ae920aec9c87f54b6",
-      "title": "ZDI-CAN-31212: Microsoft",
-      "link": "http://www.zerodayinitiative.com/advisories/upcoming/",
-      "date": "2026-05-11T05:00:00Z",
-      "description": "A CVSS score 8.1 AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H severity vulnerability discovered by 'Richard Chen of TrendAI Research' was reported to the affected vendor on: 2026-05-11, 0 days ago. The vendor is given until 2026-09-08 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
-      "source": "zerodayinitiative.com",
-      "first_seen": "2026-05-11T18:50:05Z",
-      "last_seen": "2026-05-20T21:30:11Z"
-    },
-    {
-      "id": "f31b549ca9247e9d6b31629691ce8617563d58bf",
-      "title": "ZDI-CAN-30745: Microsoft",
-      "link": "http://www.zerodayinitiative.com/advisories/upcoming/",
-      "date": "2026-05-11T05:00:00Z",
-      "description": "A CVSS score 7.8 AV:L/AC:H/PR:L/UI:N/S:C/C:H/I:H/A:H severity vulnerability discovered by 'Marcin Wiazowski' was reported to the affected vendor on: 2026-05-11, 0 days ago. The vendor is given until 2026-09-08 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
-      "source": "zerodayinitiative.com",
-      "first_seen": "2026-05-11T18:50:05Z",
-      "last_seen": "2026-05-20T19:12:50Z"
-    },
-    {
-      "id": "c8bb2e9b6cab1d5e244917d19ac2279fd1dcfd58",
-      "title": "ZDI-CAN-30744: Microsoft",
-      "link": "http://www.zerodayinitiative.com/advisories/upcoming/",
-      "date": "2026-05-11T05:00:00Z",
-      "description": "A CVSS score 7.8 AV:L/AC:H/PR:L/UI:N/S:C/C:H/I:H/A:H severity vulnerability discovered by 'Marcin Wiazowski' was reported to the affected vendor on: 2026-05-11, 0 days ago. The vendor is given until 2026-09-08 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
-      "source": "zerodayinitiative.com",
-      "first_seen": "2026-05-11T18:50:05Z",
-      "last_seen": "2026-05-20T19:12:50Z"
-    },
-    {
       "id": "664df53292fd50e8b1e7bf61d1267fe95047525f",
       "title": "Student Loan Breach Exposes 2.5M Records",
       "link": "https://threatpost.com/student-loan-breach-exposes-2-5m-records/180492/",
@@ -35411,7 +35361,7 @@
       "description": "2.5 million people were affected, in a breach that could spell more trouble down the line.",
       "source": "threatpost.com",
       "first_seen": "2026-08-08T14:21:59Z",
-      "last_seen": "2026-08-09T18:23:26Z"
+      "last_seen": "2026-08-09T19:24:03Z"
     },
     {
       "id": "4140c7a34b0ba94ad2e6b0cae9f59b0cb9bfffea",
@@ -35421,7 +35371,7 @@
       "description": "Researchers uncover a watering hole attack likely carried out by APT TA423, which attempts to plant the ScanBox JavaScript-based reconnaissance tool.",
       "source": "threatpost.com",
       "first_seen": "2026-08-08T14:21:59Z",
-      "last_seen": "2026-08-09T18:23:26Z"
+      "last_seen": "2026-08-09T19:24:03Z"
     },
     {
       "id": "9359ee40a641a4b565080313045f1d7e7fe6552b",
@@ -35431,7 +35381,7 @@
       "description": "Over 130 companies tangled in sprawling phishing campaign that spoofed a multi-factor authentication system.",
       "source": "threatpost.com",
       "first_seen": "2026-08-08T14:21:59Z",
-      "last_seen": "2026-08-09T18:23:26Z"
+      "last_seen": "2026-08-09T19:24:03Z"
     },
     {
       "id": "b4ccef0737cd4050d65241bf754072030b6b5e6a",
@@ -35441,7 +35391,7 @@
       "description": "Lockbit is by far this summer’s most prolific ransomware group, trailed by two offshoots of the Conti group.",
       "source": "threatpost.com",
       "first_seen": "2026-08-08T14:21:59Z",
-      "last_seen": "2026-08-09T18:23:26Z"
+      "last_seen": "2026-08-09T19:24:03Z"
     },
     {
       "id": "12ee113fc8fce91f6d7fb28deab2b1ad20061ec7",
@@ -35451,7 +35401,7 @@
       "description": "Tens of thousands of cameras have failed to patch a critical, 11-month-old CVE, leaving thousands of organizations exposed.",
       "source": "threatpost.com",
       "first_seen": "2026-08-08T14:21:59Z",
-      "last_seen": "2026-08-09T18:23:26Z"
+      "last_seen": "2026-08-09T19:24:03Z"
     }
   ]
 }
