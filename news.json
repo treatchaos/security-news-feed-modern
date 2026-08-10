@@ -1,7 +1,14 @@
 {
-  "last_updated": "2026-08-10T22:25:44Z",
-  "count": 35,
+  "last_updated": "2026-08-10T23:24:30Z",
+  "count": 30,
   "items": [
+    {
+      "title": "Hackers breached a small Polish energy plant via private APN last year",
+      "link": "https://www.bleepingcomputer.com/news/security/hackers-breached-a-small-polish-energy-plant-via-private-apn-last-year/",
+      "date": "2026-08-10T23:07:21Z",
+      "description": "Hackers breached a heat-and-power plant facility in Poland, which supplies heat to about 50,000 residents, using a private APN (Access Point Name) to access an OT (Operational Technology) network. [...]",
+      "source": "bleepingcomputer.com"
+    },
     {
       "title": "'GhostJacking' Exposes Identity Governance Gaps in AI Agents",
       "link": "https://www.darkreading.com/cyber-risk/ghostjacking-identity-governance-gaps-ai-agents",
@@ -59,13 +66,6 @@
       "source": "thehackernews.com"
     },
     {
-      "title": "Gunra Ransomware Exploits Fortinet VPN Flaws to Bypass MFA and Steal Enterprise Data",
-      "link": "https://cybersecuritynews.com/gunra-ransomware-exploits-fortinet-vpn-flaws/",
-      "date": "2026-08-10T17:24:00Z",
-      "description": "A joint cybersecurity advisory from the FBI, CISA, the Department of Defense Cyber Crime Center, the NSA, the U.S. Secret Service, and South Korea’s National Police Agency has exposed a dangerous new wave of attacks by the Gunra ransomware group, which is actively exploiting known Fortinet VPN vulnerabilities to bypass multi-factor authentication and exfiltrate sensitive […] The post Gunra…",
-      "source": "cybersecuritynews.com"
-    },
-    {
       "title": "Coruna, DarkSword iOS Exploits Proliferate Globally",
       "link": "https://www.darkreading.com/vulnerabilities-threats/coruna-darksword-ios-exploits-proliferate-globally",
       "date": "2026-08-10T17:09:20Z",
@@ -78,34 +78,6 @@
       "date": "2026-08-10T16:38:37Z",
       "description": "Microsoft has disclosed that Storm-1175, a financially motivated threat actor linked to China, has deployed a previously undocumented ransomware strain called StormEncryptor. The use of StormEncryptor marks a shift from the adversary's previous use of Medusa ransomware, the Microsoft Threat Intelligence Team said. \"StormEncryptor is written in C++ and appends the file name extension .encrypted",
       "source": "thehackernews.com"
-    },
-    {
-      "title": "HP ThinPro TPM Disk Encryption Flaw Lets Attackers Extract LUKS Keys",
-      "link": "https://cybersecuritynews.com/hp-thinpro-tpm-disk-encryption-flaw/",
-      "date": "2026-08-10T16:26:46Z",
-      "description": "A security researcher has disclosed a boot-chain weakness in HP ThinPro 8 and 9 that could allow attackers with physical access to a thin client to extract its LUKS disk-encryption key. The issue affects HP thin clients in which LUKS2 protects the operating system’s encrypted root partition, and the decryption key is sealed inside the […] The post HP ThinPro TPM Disk Encryption Flaw Lets…",
-      "source": "cybersecuritynews.com"
-    },
-    {
-      "title": "Pass-the-Passkey Attacks Expose Windows 11 and Microsoft Entra ID, Bypassing MFA",
-      "link": "https://cybersecuritynews.com/pass-the-passkey-attacks/",
-      "date": "2026-08-10T16:24:29Z",
-      "description": "A new “Pass-the-Passkey” family of attack techniques demonstrates how systemic implementation flaws surrounding WebAuthn can undermine passkey security even when cryptographic private keys remain securely stored inside hardware tokens or trusted enclaves. SpecterOps research highlights three core vulnerabilities across the WebAuthn ecosystem and over 20 distinct attack techniques impacting…",
-      "source": "cybersecuritynews.com"
-    },
-    {
-      "title": "Claude Code Shifts Agent Security From Repeated Human Approval to Auto Mode",
-      "link": "https://cybersecuritynews.com/claude-code-shifts-agent-security/",
-      "date": "2026-08-10T16:17:57Z",
-      "description": "Anthropic is changing how Claude Code handles risky commands, moving away from constant human approval prompts and toward an automated safety classifier called auto mode. Starting August 14, 2026, auto mode will become the default setting for new sessions on Claude Code’s Pro, Max, and Team plans, marking a major shift in how AI coding […] The post Claude Code Shifts Agent Security From Repeated…",
-      "source": "cybersecuritynews.com"
-    },
-    {
-      "title": "CISA Warns of Progress LoadMaster Command Injection Vulnerability Exploited in Attacks",
-      "link": "https://cybersecuritynews.com/progress-loadmaster-command-injection-vulnerability-exploited/",
-      "date": "2026-08-10T15:12:07Z",
-      "description": "CISA has added a critical Progress LoadMaster vulnerability to its Known Exploited Vulnerabilities catalog after attackers were observed targeting exposed devices. Tracked as CVE-2026-8037, the flaw affects Progress LoadMaster and Progress ADC products. It is a command injection issue that could let an unauthenticated attacker run arbitrary commands on a vulnerable LoadMaster appliance. The…",
-      "source": "cybersecuritynews.com"
     },
     {
       "title": "⚡ Weekly Recap: AI Goes Rogue, Metabase 0-Day, MCP Supply-Chain Attacks, and Router Backdoors",
@@ -141,13 +113,6 @@
       "date": "2026-08-10T14:07:48Z",
       "description": "Remote, unauthenticated attackers could exploit the bugs to cause a denial-of-service (DoS) condition. The post Cisco Warns of High-Severity ClamAV Vulnerabilities With Public PoC appeared first on SecurityWeek.",
       "source": "securityweek.com"
-    },
-    {
-      "title": "When Credentials Are No Longer Enough: Device Trust in the AI Era",
-      "link": "https://www.bleepingcomputer.com/news/security/when-credentials-are-no-longer-enough-device-trust-in-the-ai-era/",
-      "date": "2026-08-10T14:01:11Z",
-      "description": "AI is making phishing, credential theft, and social engineering faster and more efficient, while traditional trust signals such as passwords, MFA, IP reputation, and geolocation become easier to bypass. Specops explains why organizations are increasingly adding device trust to their Zero Trust strategies. [...]",
-      "source": "bleepingcomputer.com"
     },
     {
       "title": "Kimsuky Builds Offline AI Stack to Boost Phishing and Automate Malware Development",
