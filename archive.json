@@ -1,8 +1,78 @@
 {
-  "last_updated": "2026-08-10T14:12:05Z",
+  "last_updated": "2026-08-10T15:48:52Z",
   "retention_days": 90,
-  "count": 3525,
+  "count": 3534,
   "items": [
+    {
+      "id": "d09245b2846a05876c495520aa2ef9c507b116df",
+      "title": "CISA Warns of Progress LoadMaster Command Injection Vulnerability Exploited in Attacks",
+      "link": "https://cybersecuritynews.com/progress-loadmaster-command-injection-vulnerability-exploited/",
+      "date": "2026-08-10T15:12:07Z",
+      "description": "CISA has added a critical Progress LoadMaster vulnerability to its Known Exploited Vulnerabilities catalog after attackers were observed targeting exposed devices. Tracked as CVE-2026-8037, the flaw affects Progress LoadMaster and Progress ADC products. It is a command injection issue that could let an unauthenticated attacker run arbitrary commands on a vulnerable LoadMaster appliance. The…",
+      "source": "cybersecuritynews.com",
+      "first_seen": "2026-08-10T15:48:52Z",
+      "last_seen": "2026-08-10T15:48:52Z"
+    },
+    {
+      "id": "87dae0013c53d73d5223021f356e9b119270139f",
+      "title": "Windows WalletService Vulnerability Allows Attackers to Escalate Privileges – PoC Released",
+      "link": "https://cybersecuritynews.com/windows-walletservice-vulnerability-poc-released/",
+      "date": "2026-08-10T15:01:15Z",
+      "description": "Microsoft has patched a Windows WalletService vulnerability that could let local attackers gain SYSTEM privileges, with a public proof of concept urging organizations to deploy the July 2026 security updates. Tracked as CVE-2026-49176, the issue is an elevation-of-privilege flaw caused by improper privilege management in WalletService. The official CVE description says an authorized attacker can…",
+      "source": "cybersecuritynews.com",
+      "first_seen": "2026-08-10T15:48:52Z",
+      "last_seen": "2026-08-10T15:48:52Z"
+    },
+    {
+      "id": "bbd66c615aeff6b52d019b3dcc98af8e05c628c3",
+      "title": "GitHub Expands Supply Chain Malware Detection From npm to 8 Package Registries",
+      "link": "https://cybersecuritynews.com/github-expands-supply-chain-malware-detection/",
+      "date": "2026-08-10T14:57:47Z",
+      "description": "GitHub has expanded its malware detection capabilities beyond npm, providing developers with broader protection against malicious open-source packages. Dependabot alerts can now identify harmful dependencies across 8 major package ecosystems: npm, PyPI, Maven, RubyGems, NuGet, Go, crates.io, and PHP Composer. A malicious package can steal passwords, API keys, cloud credentials, cryptocurrency…",
+      "source": "cybersecuritynews.com",
+      "first_seen": "2026-08-10T15:48:52Z",
+      "last_seen": "2026-08-10T15:48:52Z"
+    },
+    {
+      "id": "ecc2c79e17927e59011777bc829101659762d57e",
+      "title": "Red Hat ACM Privilege Escalation Vulnerability Lets Attackers Gain Full Cluster-Admin Access",
+      "link": "https://cybersecuritynews.com/red-hat-acm-privilege-escalation-vulnerability/",
+      "date": "2026-08-10T14:46:22Z",
+      "description": "Red Hat has disclosed a critical privilege escalation flaw, tracked as CVE-2026-10090, affecting the Application Subscription controller in Red Hat Advanced Cluster Management for Kubernetes (ACM). Rated Important with a CVSS score of 9.9, the vulnerability allows a user with only namespace-scoped “edit” permissions on an ACM hub to escalate all the way to full […] The post Red Hat ACM Privilege…",
+      "source": "cybersecuritynews.com",
+      "first_seen": "2026-08-10T15:48:52Z",
+      "last_seen": "2026-08-10T15:48:52Z"
+    },
+    {
+      "id": "d2cab9b5c8666e23e110459fbd4f137b8c68fe64",
+      "title": "CISA: SonicWall SMA1000 flaws now exploited by ransomware gangs",
+      "link": "https://www.bleepingcomputer.com/news/security/cisa-sonicwall-sma1000-flaws-now-exploited-by-ransomware-gangs/",
+      "date": "2026-08-10T14:34:32Z",
+      "description": "CISA has confirmed that ransomware gangs have begun exploiting two recently patched SonicWall SMA1000 vulnerabilities, including a maximum-severity server-side request forgery (SSRF) flaw. [...]",
+      "source": "bleepingcomputer.com",
+      "first_seen": "2026-08-10T15:48:52Z",
+      "last_seen": "2026-08-10T15:48:52Z"
+    },
+    {
+      "id": "5fc40815c945f98e4a631aff2c064e515f7bda63",
+      "title": "OpenAI’s Upcoming Astra Model Raises Autonomous Cyberattack Concerns",
+      "link": "https://www.securityweek.com/openais-upcoming-astra-model-raises-autonomous-cyberattack-concerns/",
+      "date": "2026-08-10T14:33:36Z",
+      "description": "The current GPT-5.6-Sol has been assigned a ‘high’ cybersecurity threshold, but Astra could reach the maximum ‘critical’ threshold. The post OpenAI’s Upcoming Astra Model Raises Autonomous Cyberattack Concerns appeared first on SecurityWeek.",
+      "source": "securityweek.com",
+      "first_seen": "2026-08-10T15:48:52Z",
+      "last_seen": "2026-08-10T15:48:52Z"
+    },
+    {
+      "id": "61f6b0f5f5d202b08bde6660f582a2d99dca8a99",
+      "title": "Stealthium Targets Security Blind Spots in AI Accelerators and Neo-Clouds",
+      "link": "https://www.securityweek.com/stealthium-targets-security-blind-spots-in-ai-accelerators-and-neo-clouds/",
+      "date": "2026-08-10T14:19:36Z",
+      "description": "The startup analyzes subtle telemetry signals to detect attacks that traditional security tools cannot see inside accelerator-powered AI infrastructure. The post Stealthium Targets Security Blind Spots in AI Accelerators and Neo-Clouds appeared first on SecurityWeek.",
+      "source": "securityweek.com",
+      "first_seen": "2026-08-10T15:48:52Z",
+      "last_seen": "2026-08-10T15:48:52Z"
+    },
     {
       "id": "4f50dc8ea56a3c8e892dafbe08c3f73ba7e77b48",
       "title": "Cisco Warns of High-Severity ClamAV Vulnerabilities With Public PoC",
@@ -11,7 +81,7 @@
       "description": "Remote, unauthenticated attackers could exploit the bugs to cause a denial-of-service (DoS) condition. The post Cisco Warns of High-Severity ClamAV Vulnerabilities With Public PoC appeared first on SecurityWeek.",
       "source": "securityweek.com",
       "first_seen": "2026-08-10T14:12:05Z",
-      "last_seen": "2026-08-10T14:12:05Z"
+      "last_seen": "2026-08-10T15:48:52Z"
     },
     {
       "id": "d5e1a3d90ddf427be2def99980502ce912f883df",
@@ -21,7 +91,27 @@
       "description": "AI is making phishing, credential theft, and social engineering faster and more efficient, while traditional trust signals such as passwords, MFA, IP reputation, and geolocation become easier to bypass. Specops explains why organizations are increasingly adding device trust to their Zero Trust strategies. [...]",
       "source": "bleepingcomputer.com",
       "first_seen": "2026-08-10T14:12:05Z",
-      "last_seen": "2026-08-10T14:12:05Z"
+      "last_seen": "2026-08-10T15:48:52Z"
+    },
+    {
+      "id": "bdb10058f5f631488b1c8ef7ec31336a54a53f8e",
+      "title": "Fake GoogleTranslate Chrome Extension Lets Attackers Remotely Control Your Browsers",
+      "link": "https://cybersecuritynews.com/fake-googletranslate-chrome-extension/",
+      "date": "2026-08-10T13:35:24Z",
+      "description": "A malicious Chrome extension masquerading as GoogleTranslate that can steal sensitive browser data, live-stream web sessions, and allow threat actors to remotely interact with Chrome windows while keeping their activity out of the victim’s view. The operation begins with a suspected Rust-based malware loader. VMRay researchers found that the binary drops a malicious Chrome extension […] The post…",
+      "source": "cybersecuritynews.com",
+      "first_seen": "2026-08-10T15:48:52Z",
+      "last_seen": "2026-08-10T15:48:52Z"
+    },
+    {
+      "id": "2d8e9f812d44408a07706383acace49f17894d4a",
+      "title": "Kimsuky Builds Offline AI Stack to Boost Phishing and Automate Malware Development",
+      "link": "https://thehackernews.com/2026/08/kimsuky-builds-offline-ai-stack-that.html",
+      "date": "2026-08-10T13:19:58Z",
+      "description": "North Korea's state hackers are no longer content to type prompts into public chatbots. One of the country's main espionage groups has begun running artificial intelligence (AI) offline on its own servers, connecting document-search tools to files in its possession, and collecting the software parts needed to build AI into its malware. South Korean security firm Genians says it uncovered the",
+      "source": "thehackernews.com",
+      "first_seen": "2026-08-10T15:48:52Z",
+      "last_seen": "2026-08-10T15:48:52Z"
     },
     {
       "id": "4f0a26a749c21ae964d6d8b2cf466c4e7f6a3ece",
@@ -31,7 +121,7 @@
       "description": "An AI agent executes instructions that an attacker has planted in the log or alert that records a blocked request word for word. The post ‘Ghostjacking’ Attack Uses Poisoned Logs to Turn AI Agents Bad appeared first on SecurityWeek.",
       "source": "securityweek.com",
       "first_seen": "2026-08-10T14:12:05Z",
-      "last_seen": "2026-08-10T14:12:05Z"
+      "last_seen": "2026-08-10T15:48:52Z"
     },
     {
       "id": "d426983fe1e3e5606c35caf3da3d408dae2aabf8",
@@ -41,7 +131,7 @@
       "description": "A member of \"The Com,\" a loose-knit online cybercrime collective that targets children and teenagers, has been sentenced to two years in prison for blackmail and sextortion offenses against nearly 120 victims worldwide. [...]",
       "source": "bleepingcomputer.com",
       "first_seen": "2026-08-10T14:12:05Z",
-      "last_seen": "2026-08-10T14:12:05Z"
+      "last_seen": "2026-08-10T15:48:52Z"
     },
     {
       "id": "4689e43b750cf8117ea4d3080fe32c9a4869b55d",
@@ -51,7 +141,7 @@
       "description": "Three separate research efforts last week demonstrated ways to defeat passkey protections without breaking the cryptography they rest on. Passkeys are designed to replace reusable passwords and resist phishing. The attacks instead reused signed authentication material that Windows had exposed, abused a cloud-synced passkey system from malware already on the victim's machine, and used a",
       "source": "thehackernews.com",
       "first_seen": "2026-08-10T14:12:05Z",
-      "last_seen": "2026-08-10T14:12:05Z"
+      "last_seen": "2026-08-10T15:48:52Z"
     },
     {
       "id": "e886dfd674fbb84dd5f0751b71c6645b674c3c9d",
@@ -61,7 +151,7 @@
       "description": "LexisNexis took its Diligence, Metabase API, and Newsdesk services offline as part of its response to unusual activity on servers hosted and managed by an unnamed third-party vendor. [...]",
       "source": "bleepingcomputer.com",
       "first_seen": "2026-08-10T12:42:10Z",
-      "last_seen": "2026-08-10T14:12:05Z"
+      "last_seen": "2026-08-10T15:48:52Z"
     },
     {
       "id": "260255fee91cba3aa5d9f6bdf59f00cedb39bbce",
@@ -71,7 +161,7 @@
       "description": "AI is helping development teams produce far more code, far faster. But security teams still have to review vulnerabilities, manage dependencies, prioritize fixes, and control risk at human speed. When software output jumps 10 to 50 times, the problem is no longer just finding vulnerabilities. It is keeping security from becoming the bottleneck, or worse, losing control of what gets shipped.",
       "source": "thehackernews.com",
       "first_seen": "2026-08-10T14:12:05Z",
-      "last_seen": "2026-08-10T14:12:05Z"
+      "last_seen": "2026-08-10T15:48:52Z"
     },
     {
       "id": "bc23ee8ea906ebe12db99c02515e2ec075ccb4b4",
@@ -81,7 +171,7 @@
       "description": "Video game publisher and digital distribution giant Valve is notifying Steam hardware customers in Europe that hackers stole their data after hacking its shipping partner, CEVA Logistics. [...]",
       "source": "bleepingcomputer.com",
       "first_seen": "2026-08-10T12:42:10Z",
-      "last_seen": "2026-08-10T14:12:05Z"
+      "last_seen": "2026-08-10T15:48:52Z"
     },
     {
       "id": "97ee15a906f2495386a016ff25285a29f91eae7f",
@@ -91,7 +181,7 @@
       "description": "Hackers linked to Iran targeted industrial control systems (ICS) at water facilities in at least a dozen US states. The post New Jersey, Alabama Join States Targeted in Water Cyberattacks appeared first on SecurityWeek.",
       "source": "securityweek.com",
       "first_seen": "2026-08-10T12:42:10Z",
-      "last_seen": "2026-08-10T14:12:05Z"
+      "last_seen": "2026-08-10T15:48:52Z"
     },
     {
       "id": "6fa62beb1dd87501170630ddc11d108df3a76148",
@@ -101,7 +191,7 @@
       "description": "The threat actor known as Head Mare has been observed weaponizing security flaws in unpatched TrueConf servers once again in attacks targeting Russian companies spanning instrumentation, electronics, transport, energy, IT, and software development sectors. Russian cybersecurity vendor Kaspersky said it detected the attacks in July 2026. The activity involves exploiting a vulnerability chain",
       "source": "thehackernews.com",
       "first_seen": "2026-08-10T14:12:05Z",
-      "last_seen": "2026-08-10T14:12:05Z"
+      "last_seen": "2026-08-10T15:48:52Z"
     },
     {
       "id": "133cfc3f231c079025c9c29e15ebee17045faf48",
@@ -211,7 +301,7 @@
       "description": "Cybersecurity researchers have flagged a malicious Microsoft Visual Studio Code (VS Code) extension named Solidity Pro (\"solidity-pro\") that has been observed delivering a browser wallet and credential stealer. The names of the extensions are below - helper-beeps.solidity-pro web3devtoolsx.solidity-pro Although neither of the extensions is now available on Open VSX, the GitHub repository",
       "source": "thehackernews.com",
       "first_seen": "2026-08-10T09:05:50Z",
-      "last_seen": "2026-08-10T14:12:05Z"
+      "last_seen": "2026-08-10T15:48:52Z"
     },
     {
       "id": "46d3cdb22d6fcbdabab3e53971e35aeb301535b1",
@@ -471,7 +561,7 @@
       "description": "A study of more than 6,000 patches found that even working patches can introduce new bugs, break something else, or are open to bypass.",
       "source": "darkreading.com",
       "first_seen": "2026-08-07T17:39:15Z",
-      "last_seen": "2026-08-10T14:12:05Z"
+      "last_seen": "2026-08-10T15:48:52Z"
     },
     {
       "id": "27a9b54b5b8b8ca91f48708510968a53f220e575",
@@ -801,7 +891,7 @@
       "description": "A CVSS score 7.2 AV:N/AC:L/PR:N/UI:N/S:C/C:L/I:L/A:N severity vulnerability discovered by 'Niels Pfau (Mantodea Security GmbH)' was reported to the affected vendor on: 2026-08-07, 1 days ago. The vendor is given until 2026-12-05 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
       "source": "zerodayinitiative.com",
       "first_seen": "2026-08-08T05:34:36Z",
-      "last_seen": "2026-08-10T14:12:05Z"
+      "last_seen": "2026-08-10T15:48:52Z"
     },
     {
       "id": "add38d4a43b7cb9b046f508b8302c443033873ea",
@@ -811,7 +901,7 @@
       "description": "A CVSS score 9.8 AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H severity vulnerability discovered by 'Ben Koo (@kiddo_pwn)' was reported to the affected vendor on: 2026-08-07, 1 days ago. The vendor is given until 2026-12-05 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
       "source": "zerodayinitiative.com",
       "first_seen": "2026-08-08T05:34:36Z",
-      "last_seen": "2026-08-10T14:12:05Z"
+      "last_seen": "2026-08-10T15:48:52Z"
     },
     {
       "id": "ad2fc7747dbf6c289e47f5842263a1ac9bf8768d",
@@ -821,7 +911,7 @@
       "description": "A CVSS score 7.8 AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H severity vulnerability discovered by 'Anonymous' was reported to the affected vendor on: 2026-08-07, 1 days ago. The vendor is given until 2026-12-05 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
       "source": "zerodayinitiative.com",
       "first_seen": "2026-08-08T05:34:36Z",
-      "last_seen": "2026-08-10T14:12:05Z"
+      "last_seen": "2026-08-10T15:48:52Z"
     },
     {
       "id": "5a8ecaba98c8a9b325557a91ea5f7a960e9b9e07",
@@ -831,7 +921,7 @@
       "description": "A CVSS score 8.1 AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:N severity vulnerability discovered by 'Taha Siddiqi (@_atomiz_) of TrendAI Research' was reported to the affected vendor on: 2026-08-07, 1 days ago. The vendor is given until 2026-12-05 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
       "source": "zerodayinitiative.com",
       "first_seen": "2026-08-08T05:34:36Z",
-      "last_seen": "2026-08-10T14:12:05Z"
+      "last_seen": "2026-08-10T15:48:52Z"
     },
     {
       "id": "042624aa68000d92b0f8865b6ea2144063b17994",
@@ -841,7 +931,7 @@
       "description": "A CVSS score 4.7 AV:N/AC:H/PR:N/UI:R/S:C/C:L/I:L/A:N severity vulnerability discovered by 'Bongeun Koo (@kiddo_pwn)' was reported to the affected vendor on: 2026-08-07, 1 days ago. The vendor is given until 2026-12-05 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
       "source": "zerodayinitiative.com",
       "first_seen": "2026-08-08T05:34:36Z",
-      "last_seen": "2026-08-10T14:12:05Z"
+      "last_seen": "2026-08-10T15:48:52Z"
     },
     {
       "id": "97c4118ef756cf8680a520ac1742503e334eda12",
@@ -911,7 +1001,7 @@
       "description": "The fight against cybercrime continues because threat actors have adapted their strategies to avoid deterrents, but law enforcement still operates in silos.",
       "source": "darkreading.com",
       "first_seen": "2026-08-06T23:48:13Z",
-      "last_seen": "2026-08-10T14:12:05Z"
+      "last_seen": "2026-08-10T15:48:52Z"
     },
     {
       "id": "733df8611175919643f61d2319b5badf85c8525b",
@@ -921,7 +1011,7 @@
       "description": "In the span of three weeks, OpenAI, Anthropic, and Meta have all disclosed AI agent sandbox escape events affecting real organizations.",
       "source": "darkreading.com",
       "first_seen": "2026-08-07T15:43:00Z",
-      "last_seen": "2026-08-10T14:12:05Z"
+      "last_seen": "2026-08-10T15:48:52Z"
     },
     {
       "id": "b03ba479a59b7ae386f06e8863c00a02162791c0",
@@ -931,7 +1021,7 @@
       "description": "A researcher demonstrated a proof-of-concept attack chain that provided C2-style influence over ChatGPT's isolated sandbox during a session at Black Hat USA 2026.",
       "source": "darkreading.com",
       "first_seen": "2026-08-06T23:48:13Z",
-      "last_seen": "2026-08-10T14:12:05Z"
+      "last_seen": "2026-08-10T15:48:52Z"
     },
     {
       "id": "b233ff23d8c3e9546841b2511db1ccc2b4ae453c",
@@ -951,7 +1041,7 @@
       "description": "Two former chief security officers of the Democratic National Committee explain that a strong security-first mindset requires executive support — and a dose of absurdity.",
       "source": "darkreading.com",
       "first_seen": "2026-08-06T23:48:13Z",
-      "last_seen": "2026-08-10T14:12:05Z"
+      "last_seen": "2026-08-10T15:48:52Z"
     },
     {
       "id": "11358c679cbfed5f959f36eb1bd70d2882ea7a6b",
@@ -35211,7 +35301,7 @@
       "description": "2.5 million people were affected, in a breach that could spell more trouble down the line.",
       "source": "threatpost.com",
       "first_seen": "2026-08-08T14:21:59Z",
-      "last_seen": "2026-08-10T14:12:05Z"
+      "last_seen": "2026-08-10T15:48:52Z"
     },
     {
       "id": "4140c7a34b0ba94ad2e6b0cae9f59b0cb9bfffea",
@@ -35221,7 +35311,7 @@
       "description": "Researchers uncover a watering hole attack likely carried out by APT TA423, which attempts to plant the ScanBox JavaScript-based reconnaissance tool.",
       "source": "threatpost.com",
       "first_seen": "2026-08-08T14:21:59Z",
-      "last_seen": "2026-08-10T14:12:05Z"
+      "last_seen": "2026-08-10T15:48:52Z"
     },
     {
       "id": "9359ee40a641a4b565080313045f1d7e7fe6552b",
@@ -35231,7 +35321,7 @@
       "description": "Over 130 companies tangled in sprawling phishing campaign that spoofed a multi-factor authentication system.",
       "source": "threatpost.com",
       "first_seen": "2026-08-08T14:21:59Z",
-      "last_seen": "2026-08-10T14:12:05Z"
+      "last_seen": "2026-08-10T15:48:52Z"
     },
     {
       "id": "b4ccef0737cd4050d65241bf754072030b6b5e6a",
@@ -35241,7 +35331,7 @@
       "description": "Lockbit is by far this summer’s most prolific ransomware group, trailed by two offshoots of the Conti group.",
       "source": "threatpost.com",
       "first_seen": "2026-08-08T14:21:59Z",
-      "last_seen": "2026-08-10T14:12:05Z"
+      "last_seen": "2026-08-10T15:48:52Z"
     },
     {
       "id": "12ee113fc8fce91f6d7fb28deab2b1ad20061ec7",
@@ -35251,7 +35341,7 @@
       "description": "Tens of thousands of cameras have failed to patch a critical, 11-month-old CVE, leaving thousands of organizations exposed.",
       "source": "threatpost.com",
       "first_seen": "2026-08-08T14:21:59Z",
-      "last_seen": "2026-08-10T14:12:05Z"
+      "last_seen": "2026-08-10T15:48:52Z"
     }
   ]
 }
