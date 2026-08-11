@@ -1,7 +1,27 @@
 {
   "date": "2026-08-11",
-  "count": 66,
+  "count": 70,
   "items": [
+    {
+      "id": "e8e631e9bf7049cb6b49fd9cc9b84b500e82ffaa",
+      "title": "Sandworm hackers target IT pros with trojanized WireGuard VPN client",
+      "link": "https://www.bleepingcomputer.com/news/security/sandworm-hackers-target-it-pros-with-trojanized-wireguard-vpn-client/",
+      "date": "2026-08-11T21:07:24Z",
+      "description": "Hackers associated with the Russian threat group Sandworm have been targeting system administrators and IT professionals through fake job offers since at least May. [...]",
+      "source": "bleepingcomputer.com",
+      "first_seen": "2026-08-11T21:34:32Z",
+      "last_seen": "2026-08-11T21:34:32Z"
+    },
+    {
+      "id": "7f18333ab6b1d079fc8ff6fcbb505828cfcf335e",
+      "title": "Microsoft Patches 398 Flaws Including a Windows Driver Zero-Day Under Active Attack",
+      "link": "https://thehackernews.com/2026/08/microsoft-patches-398-flaws-including.html",
+      "date": "2026-08-11T20:10:55Z",
+      "description": "Microsoft released its monthly security updates on Tuesday, and one of the flaws it closed is already being used in attacks. The bug sits in a core Windows kernel driver that handles network socket operations. An attacker with code already running on a machine can use it to escalate to SYSTEM. That patch goes out first. The flaw is tracked as CVE-2026-68820 (CVSS score: 7.0) and is the only",
+      "source": "thehackernews.com",
+      "first_seen": "2026-08-11T21:34:32Z",
+      "last_seen": "2026-08-11T21:34:32Z"
+    },
     {
       "id": "9202676389f3f95d004bf5a0517bc482a79726dc",
       "title": "Cisco warns of ASA and FTD VPN flaw exploited to crash devices",
@@ -10,7 +30,27 @@
       "description": "Cisco is warning that a high-severity denial-of-service vulnerability in Secure Firewall ASA and Threat Defense (FTD) software is being actively exploited in attacks to remotely crash affected devices. [...]",
       "source": "bleepingcomputer.com",
       "first_seen": "2026-08-11T19:53:44Z",
-      "last_seen": "2026-08-11T20:33:03Z"
+      "last_seen": "2026-08-11T21:34:32Z"
+    },
+    {
+      "id": "6832d608ddbba330a30600199f0f0f45ed38cbf9",
+      "title": "Kimwolf v7 Android Botnet Makes HTTP/2 DDoS Traffic Look Like Legitimate Browsing",
+      "link": "https://thehackernews.com/2026/08/kimwolf-v7-android-botnet-makes-http2.html",
+      "date": "2026-08-11T19:36:37Z",
+      "description": "Cybersecurity researchers have discovered a new version of the Kimwolf/AISURU Android and Internet of Things (IoT) botnet that comes with significant improvements to improve its operational resilience and conduct distributed denial-of-service (DDoS) attacks. The new version, tracked as Kimwolf v7, was discovered by Palo Alto Networks Unit 42 in February 2026. \"Kimwolf v7 adds an HTTP/2-based",
+      "source": "thehackernews.com",
+      "first_seen": "2026-08-11T21:34:32Z",
+      "last_seen": "2026-08-11T21:34:32Z"
+    },
+    {
+      "id": "70650ded14adebd02b2f5dbf5070bcf346ec11e1",
+      "title": "Zoom Annotation Flaws Could Let a Meeting Participant Hijack Another Attendee's Client",
+      "link": "https://thehackernews.com/2026/08/zoom-annotation-flaws-could-let-meeting.html",
+      "date": "2026-08-11T19:08:47Z",
+      "description": "Anyone sharing their screen on a Zoom call could have taken over the computers of everyone watching, and anyone watching could have taken over the presenter's. The flaw sat in the annotation tool, the feature that lets participants draw and type on a shared screen, and it asked nothing of the victim beyond being in the meeting. No click, no download, no prompt, and nothing on screen to show it",
+      "source": "thehackernews.com",
+      "first_seen": "2026-08-11T21:34:32Z",
+      "last_seen": "2026-08-11T21:34:32Z"
     },
     {
       "id": "96ac77d678be270f1420776f563221d3e001e734",
@@ -20,7 +60,7 @@
       "description": "A use-after-free in the afd.sys Windows kernel-mode driver has been exploited to gain SYSTEM privileges. The post August 2026 Patch Tuesday: Microsoft Fixes 421 CVEs, One Exploited Zero-Day appeared first on SecurityWeek.",
       "source": "securityweek.com",
       "first_seen": "2026-08-11T19:53:44Z",
-      "last_seen": "2026-08-11T20:33:03Z"
+      "last_seen": "2026-08-11T21:34:32Z"
     },
     {
       "id": "fa079f0be4187f8a9dc7f736465d9c950efece89",
@@ -30,7 +70,7 @@
       "description": "The Computer Emergency Response Team of Ukraine (CERT-UA) has disclosed details of a new social engineering campaign orchestrated by Russian nation-state threat actors targeting IT workers in the country by masquerading as recruiters to trick them into installing malware. CERT-UA pinned the activity on a threat cluster it tracks as UAC-0145, which is a subgroup within Sandworm (aka APT44,",
       "source": "thehackernews.com",
       "first_seen": "2026-08-11T19:53:44Z",
-      "last_seen": "2026-08-11T20:33:03Z"
+      "last_seen": "2026-08-11T21:34:32Z"
     },
     {
       "id": "693da552d5de6a0c44f6d01e018eb6567f80bd50",
@@ -40,7 +80,7 @@
       "description": "Delta Air Lines is investigating an unauthorized Wi-Fi network that appeared aboard a flight from Las Vegas to Atlanta carrying passengers who had attended the DEF CON hacker convention. [...]",
       "source": "bleepingcomputer.com",
       "first_seen": "2026-08-11T18:45:02Z",
-      "last_seen": "2026-08-11T20:33:03Z"
+      "last_seen": "2026-08-11T21:34:32Z"
     },
     {
       "id": "7ba3d4141b9deb8bc0c638ac7e3668c74eb9af9b",
@@ -60,7 +100,7 @@
       "description": "Microsoft has released Windows 10 KB5120249 Extended Security Updates for versions 22H2 and 21H2 to fix security vulnerabilities and bugs. [...]",
       "source": "bleepingcomputer.com",
       "first_seen": "2026-08-11T19:53:44Z",
-      "last_seen": "2026-08-11T20:33:03Z"
+      "last_seen": "2026-08-11T21:34:32Z"
     },
     {
       "id": "9adc048f2ece4e95fccca941c35758a4269f66bb",
@@ -70,7 +110,7 @@
       "description": "Today is Microsoft's August 2026 Patch Tuesday, and with it comes security updates for a massive 400 flaws, including one actively exploited and two publicly disclosed zero-day vulnerabilities. [...]",
       "source": "bleepingcomputer.com",
       "first_seen": "2026-08-11T18:45:02Z",
-      "last_seen": "2026-08-11T20:33:03Z"
+      "last_seen": "2026-08-11T21:34:32Z"
     },
     {
       "id": "bf24ce383f8f1f9a3f19ceb4a8b1656af2e8572e",
@@ -80,7 +120,7 @@
       "description": "Microsoft has released its August 2026 Patch Tuesday security updates, addressing a massive 394 vulnerabilities across Windows, Microsoft Office, SharePoint Server, Azure services, .NET, PowerShell, Visual Studio Code, and other enterprise products. The security release, published on August 11, 2026, also includes fixes for three zero-day vulnerabilities, making prompt patching a critical…",
       "source": "cybersecuritynews.com",
       "first_seen": "2026-08-11T19:53:44Z",
-      "last_seen": "2026-08-11T20:33:03Z"
+      "last_seen": "2026-08-11T21:34:32Z"
     },
     {
       "id": "0ff582cb942c78850aad64e6cf8e46427d5d8e32",
@@ -100,7 +140,7 @@
       "description": "A Delta Air Lines flight carrying passengers home from the world’s largest hacking conference became the center of a rapidly unfolding cybersecurity scare on Monday, after crew members reported that someone onboard had jammed the aircraft’s official Wi-Fi and stood up a convincing fake network designed to phish fellow travelers. The incident, which unfolded on […] The post DEF CON Attendees…",
       "source": "cybersecuritynews.com",
       "first_seen": "2026-08-11T17:48:15Z",
-      "last_seen": "2026-08-11T20:33:03Z"
+      "last_seen": "2026-08-11T21:34:32Z"
     },
     {
       "id": "5567f5182366423c249ca64cdb514ca86c749c4e",
@@ -120,7 +160,7 @@
       "description": "Zoom has rolled out patches for four newly disclosed security flaws that could let a malicious meeting participant remotely execute code on another attendee’s computer, with no clicks, downloads, or warning signs required. The most severe of the bugs, tracked as CVE-2026-53413, has been dubbed “Zoomsday” by A Security, the research team credited with discovering […] The post Zoom Zero-Click…",
       "source": "cybersecuritynews.com",
       "first_seen": "2026-08-11T19:53:44Z",
-      "last_seen": "2026-08-11T20:33:03Z"
+      "last_seen": "2026-08-11T21:34:32Z"
     },
     {
       "id": "a13716bf798c6539ad4785e0ace840916d2d4177",
@@ -130,7 +170,7 @@
       "description": "The security defects could be exploited for arbitrary code execution and denial-of-service. The post Adobe Urges Immediate Patching of Critical ColdFusion, Campaign Classic Flaws appeared first on SecurityWeek.",
       "source": "securityweek.com",
       "first_seen": "2026-08-11T17:48:15Z",
-      "last_seen": "2026-08-11T20:33:03Z"
+      "last_seen": "2026-08-11T21:34:32Z"
     },
     {
       "id": "c347e74000be69d9d783bfab2ea12040c8f44641",
@@ -140,7 +180,7 @@
       "description": "Security researchers found a way to enter Microsoft SharePoint servers as any user, including an administrator, with no valid account. A significant part of the work that found it was done through an AI agent. The flaw, tracked as CVE-2026-55040 (CVSS 9.1), affects SharePoint Server Subscription Edition, SharePoint Server 2019, and SharePoint Server 2016. Microsoft's",
       "source": "thehackernews.com",
       "first_seen": "2026-08-11T17:48:15Z",
-      "last_seen": "2026-08-11T20:33:03Z"
+      "last_seen": "2026-08-11T21:34:32Z"
     },
     {
       "id": "53563a9bd5b7479e8004b3af168d2dea0677668c",
@@ -150,7 +190,7 @@
       "description": "A newly disclosed Docker vulnerability, tracked as CVE-2026-17106 and nicknamed “CopyEscape,” allows malicious containers to overwrite files on the host machine and, in certain configurations, achieve full root code execution. The flaw was discovered by the Imperva Red Team and affects the widely used docker cp command, along with the related sbx cp command used […] The post CopyEscape Docker…",
       "source": "cybersecuritynews.com",
       "first_seen": "2026-08-11T17:48:15Z",
-      "last_seen": "2026-08-11T20:33:03Z"
+      "last_seen": "2026-08-11T21:34:32Z"
     },
     {
       "id": "74713fd71b4d1f9d5d9781a5b6aa04e5f8ed0bf3",
@@ -170,7 +210,7 @@
       "description": "Intel has priced an upsized $20 billion public stock offering, a move that goes beyond a routine capital raise and lands squarely in the middle of an ongoing global debate over semiconductor supply chain security. The chipmaker sold 210,526,315 shares at $95 apiece, upsizing the deal from an originally planned $15 billion after investor demand […] The post Intel’s $20 Billion Stock Sale Fuels a…",
       "source": "cybersecuritynews.com",
       "first_seen": "2026-08-11T17:48:15Z",
-      "last_seen": "2026-08-11T20:33:03Z"
+      "last_seen": "2026-08-11T21:34:32Z"
     },
     {
       "id": "2b2ee11ada2287164f50935e8b91bbff585bd59c",
@@ -200,7 +240,7 @@
       "description": "Impacting Zoom annotation, the bug could be exploited by a meeting participant to execute code on another participant’s machine. The post Zoom Patches Zero-Click Code Execution Vulnerability appeared first on SecurityWeek.",
       "source": "securityweek.com",
       "first_seen": "2026-08-11T16:45:08Z",
-      "last_seen": "2026-08-11T20:33:03Z"
+      "last_seen": "2026-08-11T21:34:32Z"
     },
     {
       "id": "5fa5b8ed5d32e16bef5bfb152903fa2c7cd06448",
@@ -240,7 +280,7 @@
       "description": "Organizations are rushing to implement AI without fully grasping where its legal protections begin and end. The post The AI Governance Gap Is a Leadership Problem: Waiting Won’t Close It appeared first on SecurityWeek.",
       "source": "securityweek.com",
       "first_seen": "2026-08-11T15:48:31Z",
-      "last_seen": "2026-08-11T20:33:03Z"
+      "last_seen": "2026-08-11T21:34:32Z"
     },
     {
       "id": "bdf097e41481bc71fb441cd9c81733eb481e6317",
@@ -260,7 +300,7 @@
       "description": "SAP released 28 new and two updated security notes, including four notes dealing with critical-severity bugs. The post SAP Patches Critical Code Injection, Memory Corruption Vulnerabilities appeared first on SecurityWeek.",
       "source": "securityweek.com",
       "first_seen": "2026-08-11T15:48:31Z",
-      "last_seen": "2026-08-11T20:33:03Z"
+      "last_seen": "2026-08-11T21:34:32Z"
     },
     {
       "id": "705ad5d6a95ea0b5cc70a564b0d24b025ed2d3fc",
@@ -650,7 +690,7 @@
       "description": "A CVSS score 7.2 AV:N/AC:L/PR:H/UI:N/S:U/C:H/I:H/A:H severity vulnerability discovered by 'Yazhi Wang of TrendAI Research' was reported to the affected vendor on: 2026-08-11, 0 days ago. The vendor is given until 2026-12-09 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
       "source": "zerodayinitiative.com",
       "first_seen": "2026-08-11T17:48:15Z",
-      "last_seen": "2026-08-11T20:33:03Z"
+      "last_seen": "2026-08-11T21:34:32Z"
     },
     {
       "id": "bf6ade14803cf37b11248d79e5d516321239bcc5",
@@ -660,7 +700,7 @@
       "description": "A CVSS score 7.8 AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H severity vulnerability discovered by 'PlatinumLab: @cbwang505/@kaijieguigui/@carmen_cqq' was reported to the affected vendor on: 2026-08-11, 0 days ago. The vendor is given until 2026-12-09 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
       "source": "zerodayinitiative.com",
       "first_seen": "2026-08-11T17:48:15Z",
-      "last_seen": "2026-08-11T20:33:03Z"
+      "last_seen": "2026-08-11T21:34:32Z"
     }
   ]
 }
