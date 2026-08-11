@@ -1,7 +1,37 @@
 {
   "date": "2026-08-11",
-  "count": 2,
+  "count": 8,
   "items": [
+    {
+      "id": "5e827ba7e67acdb7fe426ee09b5bbee97379f759",
+      "title": "Hackers Actively Scanning to Exploit VMware VCenter Vulnerabilities",
+      "link": "https://cybersecuritynews.com/hackers-scan-vmware-vcenter-vulnerabilities/",
+      "date": "2026-08-11T07:59:20Z",
+      "description": "Attackers are scanning VMware vCenter after critical vulnerabilities were disclosed, with DefusedCyber’s honeypots recording increased vCenter fingerprinting activity. The activity includes requests to the /sdk/ endpoint using RetrieveServiceContent and exploration of the /websso single sign-on path. The requests do not prove compromise but show that attackers are identifying exposed systems…",
+      "source": "cybersecuritynews.com",
+      "first_seen": "2026-08-11T08:02:14Z",
+      "last_seen": "2026-08-11T08:02:14Z"
+    },
+    {
+      "id": "e8ad411e4b3ef6c6e9752b97cb968e64a4dc7535",
+      "title": "Abyssos RAT Includes RDPWrap-Related Module for Expanded Remote Access",
+      "link": "https://cybersecuritynews.com/abyssos-rat-rdpwrap/",
+      "date": "2026-08-11T07:27:12Z",
+      "description": "A new remote access trojan called Abyssos lets attackers control infected Windows systems. The malware can steal credentials, collect files, and open remote viewing sessions, while its modular design allows operators to add functions after an infection. Abyssos appeared in late June 2026 and remains in development. Its operators can issue commands through an encrypted […] The post Abyssos RAT…",
+      "source": "cybersecuritynews.com",
+      "first_seen": "2026-08-11T08:02:14Z",
+      "last_seen": "2026-08-11T08:02:14Z"
+    },
+    {
+      "id": "a4e7e89fb60575c43c83e0678be9049b097d94ab",
+      "title": "Hackers Breach Polish Power Plant Controls via Private Cellular Network and Shut Turbine",
+      "link": "https://thehackernews.com/2026/08/hackers-breach-polish-power-plant.html",
+      "date": "2026-08-11T06:55:45Z",
+      "description": "Attackers shut down a steam turbine and the process-water treatment system at a Polish combined heat and power plant by coming in over the private cellular network the local grid operator uses to reach remote equipment. The plant supplies heat to roughly 50,000 residents. Recovery began at about 7:30 a.m. while the intruders were still active inside the network, and customers lost neither heat",
+      "source": "thehackernews.com",
+      "first_seen": "2026-08-11T08:02:14Z",
+      "last_seen": "2026-08-11T08:02:14Z"
+    },
     {
       "id": "f43e3d643e273e9c5bcf5ca98ea7ed2192b4d087",
       "title": "Mozilla Issues New Firefox GPG Key Following Exposure",
@@ -10,7 +40,37 @@
       "description": "The previous GPG signing subkey was inadvertently added to a GitHub repository and Mozilla decided to revoke it. The post Mozilla Issues New Firefox GPG Key Following Exposure appeared first on SecurityWeek.",
       "source": "securityweek.com",
       "first_seen": "2026-08-11T06:45:16Z",
-      "last_seen": "2026-08-11T06:45:16Z"
+      "last_seen": "2026-08-11T08:02:14Z"
+    },
+    {
+      "id": "37fcf3f6364030c1315ed95dbbe60af460b468e5",
+      "title": "Multiple ClamAV Vulnerabilities Allow Remote Attacker to Trigger DoS Condition",
+      "link": "https://cybersecuritynews.com/multiple-clamav-vulnerabilities-dos/",
+      "date": "2026-08-11T06:02:48Z",
+      "description": "Cisco has disclosed multiple high-severity vulnerabilities in ClamAV that could allow unauthenticated remote attackers to disrupt antivirus scanning operations and cause denial-of-service conditions. The flaws affect the ClamAV parsers used by Cisco Secure Endpoint Connector on Windows, Linux, and macOS. The advisory, tracked as cisco-sa-clamav-WuuvVd26, was first published on August 7, 2026,…",
+      "source": "cybersecuritynews.com",
+      "first_seen": "2026-08-11T08:02:14Z",
+      "last_seen": "2026-08-11T08:02:14Z"
+    },
+    {
+      "id": "1909132e1ce2a252a854deb7e6e6586006423d7e",
+      "title": "Anthropic to Add Invisible Watermarks to All Claude AI Outputs",
+      "link": "https://cybersecuritynews.com/anthropic-adds-invisible-watermarks/",
+      "date": "2026-08-11T05:59:33Z",
+      "description": "Anthropic has announced plans to add invisible watermarks and signed metadata to content created by Claude AI. The move follows the company’s decision to sign the European Union AI Act’s Article 50(2) Code of Practice on Transparency of AI-Generated Content. The system is designed to help people identify content that may have been generated or […] The post Anthropic to Add Invisible Watermarks…",
+      "source": "cybersecuritynews.com",
+      "first_seen": "2026-08-11T08:02:14Z",
+      "last_seen": "2026-08-11T08:02:14Z"
+    },
+    {
+      "id": "a69b38f083a98b459061db63cf2b8a966be800bb",
+      "title": "New Phishing Attack Leverage SSL/TLS Certificates to Target High-value Brands Customers Via Whatsapp",
+      "link": "https://cybersecuritynews.com/new-phishing-attack/",
+      "date": "2026-08-11T05:52:31Z",
+      "description": "A phishing operation is using web certificates and chosen web addresses to target customers of high-value brands through WhatsApp. The activity is designed to make fraudulent pages look normal at a glance, turning a familiar security signal into part of the deception. The campaign relies on fake sites with lookalike names. A message can steer […] The post New Phishing Attack Leverage SSL/TLS…",
+      "source": "cybersecuritynews.com",
+      "first_seen": "2026-08-11T08:02:14Z",
+      "last_seen": "2026-08-11T08:02:14Z"
     },
     {
       "id": "b7fb96427387ed8e0a8dd86b8c40d2834a64404f",
@@ -20,7 +80,7 @@
       "description": "Cybersecurity researchers have warned of a supply chain compromise impacting WordPress plugin vendor BdThemes, prompting the content management systems (CMS) platform's plugins team to temporarily disable their downloads. \"Unlike traditional software supply chain attacks, zero source code files were modified within the official WordPress.org repository,\" Wordfence researcher Paolo Tresso said.",
       "source": "thehackernews.com",
       "first_seen": "2026-08-11T06:45:16Z",
-      "last_seen": "2026-08-11T06:45:16Z"
+      "last_seen": "2026-08-11T08:02:14Z"
     }
   ]
 }

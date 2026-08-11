@@ -1,13 +1,55 @@
 {
-  "last_updated": "2026-08-11T06:45:16Z",
-  "count": 30,
+  "last_updated": "2026-08-11T08:02:14Z",
+  "count": 35,
   "items": [
+    {
+      "title": "Hackers Actively Scanning to Exploit VMware VCenter Vulnerabilities",
+      "link": "https://cybersecuritynews.com/hackers-scan-vmware-vcenter-vulnerabilities/",
+      "date": "2026-08-11T07:59:20Z",
+      "description": "Attackers are scanning VMware vCenter after critical vulnerabilities were disclosed, with DefusedCyber’s honeypots recording increased vCenter fingerprinting activity. The activity includes requests to the /sdk/ endpoint using RetrieveServiceContent and exploration of the /websso single sign-on path. The requests do not prove compromise but show that attackers are identifying exposed systems…",
+      "source": "cybersecuritynews.com"
+    },
+    {
+      "title": "Abyssos RAT Includes RDPWrap-Related Module for Expanded Remote Access",
+      "link": "https://cybersecuritynews.com/abyssos-rat-rdpwrap/",
+      "date": "2026-08-11T07:27:12Z",
+      "description": "A new remote access trojan called Abyssos lets attackers control infected Windows systems. The malware can steal credentials, collect files, and open remote viewing sessions, while its modular design allows operators to add functions after an infection. Abyssos appeared in late June 2026 and remains in development. Its operators can issue commands through an encrypted […] The post Abyssos RAT…",
+      "source": "cybersecuritynews.com"
+    },
+    {
+      "title": "Hackers Breach Polish Power Plant Controls via Private Cellular Network and Shut Turbine",
+      "link": "https://thehackernews.com/2026/08/hackers-breach-polish-power-plant.html",
+      "date": "2026-08-11T06:55:45Z",
+      "description": "Attackers shut down a steam turbine and the process-water treatment system at a Polish combined heat and power plant by coming in over the private cellular network the local grid operator uses to reach remote equipment. The plant supplies heat to roughly 50,000 residents. Recovery began at about 7:30 a.m. while the intruders were still active inside the network, and customers lost neither heat",
+      "source": "thehackernews.com"
+    },
     {
       "title": "Mozilla Issues New Firefox GPG Key Following Exposure",
       "link": "https://www.securityweek.com/mozilla-issues-new-firefox-gpg-key-following-exposure/",
       "date": "2026-08-11T06:16:01Z",
       "description": "The previous GPG signing subkey was inadvertently added to a GitHub repository and Mozilla decided to revoke it. The post Mozilla Issues New Firefox GPG Key Following Exposure appeared first on SecurityWeek.",
       "source": "securityweek.com"
+    },
+    {
+      "title": "Multiple ClamAV Vulnerabilities Allow Remote Attacker to Trigger DoS Condition",
+      "link": "https://cybersecuritynews.com/multiple-clamav-vulnerabilities-dos/",
+      "date": "2026-08-11T06:02:48Z",
+      "description": "Cisco has disclosed multiple high-severity vulnerabilities in ClamAV that could allow unauthenticated remote attackers to disrupt antivirus scanning operations and cause denial-of-service conditions. The flaws affect the ClamAV parsers used by Cisco Secure Endpoint Connector on Windows, Linux, and macOS. The advisory, tracked as cisco-sa-clamav-WuuvVd26, was first published on August 7, 2026,…",
+      "source": "cybersecuritynews.com"
+    },
+    {
+      "title": "Anthropic to Add Invisible Watermarks to All Claude AI Outputs",
+      "link": "https://cybersecuritynews.com/anthropic-adds-invisible-watermarks/",
+      "date": "2026-08-11T05:59:33Z",
+      "description": "Anthropic has announced plans to add invisible watermarks and signed metadata to content created by Claude AI. The move follows the company’s decision to sign the European Union AI Act’s Article 50(2) Code of Practice on Transparency of AI-Generated Content. The system is designed to help people identify content that may have been generated or […] The post Anthropic to Add Invisible Watermarks…",
+      "source": "cybersecuritynews.com"
+    },
+    {
+      "title": "New Phishing Attack Leverage SSL/TLS Certificates to Target High-value Brands Customers Via Whatsapp",
+      "link": "https://cybersecuritynews.com/new-phishing-attack/",
+      "date": "2026-08-11T05:52:31Z",
+      "description": "A phishing operation is using web certificates and chosen web addresses to target customers of high-value brands through WhatsApp. The activity is designed to make fraudulent pages look normal at a glance, turning a familiar security signal into part of the deception. The campaign relies on fake sites with lookalike names. A message can steer […] The post New Phishing Attack Leverage SSL/TLS…",
+      "source": "cybersecuritynews.com"
     },
     {
       "title": "BdThemes Supply Chain Attack Poisons JSON to Create Rogue WordPress Admins",
@@ -127,13 +169,6 @@
       "date": "2026-08-10T14:07:48Z",
       "description": "Remote, unauthenticated attackers could exploit the bugs to cause a denial-of-service (DoS) condition. The post Cisco Warns of High-Severity ClamAV Vulnerabilities With Public PoC appeared first on SecurityWeek.",
       "source": "securityweek.com"
-    },
-    {
-      "title": "Kimsuky Builds Offline AI Stack to Boost Phishing and Automate Malware Development",
-      "link": "https://thehackernews.com/2026/08/kimsuky-builds-offline-ai-stack-that.html",
-      "date": "2026-08-10T13:19:58Z",
-      "description": "North Korea's state hackers are no longer content to type prompts into public chatbots. One of the country's main espionage groups has begun running artificial intelligence (AI) offline on its own servers, connecting document-search tools to files in its possession, and collecting the software parts needed to build AI into its malware. South Korean security firm Genians says it uncovered the",
-      "source": "thehackernews.com"
     },
     {
       "title": "‘Ghostjacking’ Attack Uses Poisoned Logs to Turn AI Agents Bad",
