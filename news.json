@@ -1,7 +1,63 @@
 {
-  "last_updated": "2026-08-11T12:39:21Z",
+  "last_updated": "2026-08-11T14:11:30Z",
   "count": 35,
   "items": [
+    {
+      "title": "Mozilla Revokes Firefox and Thunderbird Signing Key After Unencrypted Subkey Was Committed to GitHub",
+      "link": "https://cybersecuritynews.com/mozilla-revokes-firefox-signing-key/",
+      "date": "2026-08-11T14:04:13Z",
+      "description": "Mozilla has rotated a GPG signing subkey used for selected Firefox and Thunderbird release artifacts after an unencrypted copy of the previous subkey was accidentally committed to a private GitHub repository. The exposed key was used to sign Linux tarballs, RPM packages, and checksum files. Mozilla said the incident did not affect most users, and […] The post Mozilla Revokes Firefox and…",
+      "source": "cybersecuritynews.com"
+    },
+    {
+      "title": "US Water Systems Get Cyber Boost From New Senate Bill and ‘Water Watch Center’",
+      "link": "https://www.securityweek.com/us-water-systems-get-cyber-boost-from-new-senate-bill-and-water-watch-center/",
+      "date": "2026-08-11T14:03:32Z",
+      "description": "The Water Watch Center launched at DEF CON aims to help under-resourced utilities protect their systems against hackers. The post US Water Systems Get Cyber Boost From New Senate Bill and ‘Water Watch Center’ appeared first on SecurityWeek.",
+      "source": "securityweek.com"
+    },
+    {
+      "title": "Plug and Pwn Attack Abuses Windows PnP Drivers to Gain SYSTEM With Zero Clicks",
+      "link": "https://cybersecuritynews.com/plug-and-pwn-attack-abuses-windows-pnp-drivers/",
+      "date": "2026-08-11T13:59:30Z",
+      "description": "Plug and Pwn attack details that the Windows Plug and Play driver installation can lead to execution as NT AUTHORITY\\SYSTEM. The technique, published by researchers Alejandro Hernando and Borja Martínez, does not rely on a Windows kernel zero-day. Instead, it abuses the process Windows uses to detect hardware, find a matching vendor package, download it, and […] The post Plug and Pwn Attack…",
+      "source": "cybersecuritynews.com"
+    },
+    {
+      "title": "Alert Fatigue Is Hitting US SOCs Hard: How to Cut Through the Noise",
+      "link": "https://cybersecuritynews.com/alert-fatigue-is-hitting-us-socs-hard-how-to-cut-through-the-noise/",
+      "date": "2026-08-11T13:46:34Z",
+      "description": "US SOC teams are dealing with a growing volume of alerts, while analyst time and security budgets remain limited. Too much of that time is spent checking signals that turn out to be low-risk, which slows investigations and makes it easier for serious threats to get lost in the queue. Reducing that pressure starts with better threat intelligence: […] The post Alert Fatigue Is Hitting US SOCs…",
+      "source": "cybersecuritynews.com"
+    },
+    {
+      "title": "Mozilla updates GPG signing key for Firefox releases after exposure",
+      "link": "https://www.bleepingcomputer.com/news/security/mozilla-updates-gpg-key-for-signing-firefox-thunderbird-releases-after-exposure/",
+      "date": "2026-08-11T13:20:28Z",
+      "description": "Mozilla announced today that it updated the GPG key used to sign Firefox and Thunderbird releases after it was accidentally exposed on GitHub. [...]",
+      "source": "bleepingcomputer.com"
+    },
+    {
+      "title": "Vague Task, Total Access: When AI Delegation Becomes a Security Risk",
+      "link": "https://www.bleepingcomputer.com/news/security/vague-task-total-access-when-ai-delegation-becomes-a-security-risk/",
+      "date": "2026-08-11T13:15:24Z",
+      "description": "AI agents can improvise beyond the intended scope of a task when they are given broad access to enterprise systems and data. Token Security explains why organizations need to define agent intent and continuously enforce permissions around what each agent was actually created to do. [...]",
+      "source": "bleepingcomputer.com"
+    },
+    {
+      "title": "OpenAI Launches GPT-5.6-Cyber with Reduced Safeguards for Exploit Development",
+      "link": "https://thehackernews.com/2026/08/openai-launches-gpt-56-cyber-with.html",
+      "date": "2026-08-11T13:11:23Z",
+      "description": "OpenAI on Monday unveiled a new cybersecurity-focused model called GPT‑5.6‑Cyber that it said is focused on vulnerability research, penetration testing, and incident response. \"Built on GPT‑5.6 Sol, it is trained to improve capabilities on several specialized cybersecurity tasks (e.g., finding zero-day vulnerabilities and developing exploit chains) and to reduce refusals for certain higher-risk",
+      "source": "thehackernews.com"
+    },
+    {
+      "title": "DDoS attacks over 1 Tbps surged fivefold in the second quarter",
+      "link": "https://www.bleepingcomputer.com/news/security/ddos-attacks-over-1-tbps-surged-fivefold-in-the-second-quarter/",
+      "date": "2026-08-11T13:00:00Z",
+      "description": "Cloudflare says it mitigated more than 800 network-layer distributed denial-of-service (DDoS) attacks exceeding 1 Tbps in the second quarter of the year. [...]",
+      "source": "bleepingcomputer.com"
+    },
     {
       "title": "Hackers Hide Malware Infrastructure on Polygon Blockchain and Trick Users Into Running It With ClickFix",
       "link": "https://cybersecuritynews.com/hackers-hide-malware-polygon-blockchain/",
@@ -73,34 +129,6 @@
       "source": "thehackernews.com"
     },
     {
-      "title": "New ‘Ghostjacking’ Attack Lets Hackers Hijack AI Agents to Run Their Code on Developer Machines",
-      "link": "https://cybersecuritynews.com/ghostjacking-attack/",
-      "date": "2026-08-11T10:33:29Z",
-      "description": "A new AI-agent attack technique called “Ghostjacking,” can trick coding agents into running attacker-controlled commands, changing cloud settings, stealing credentials, and creating persistent backdoors. The research was presented by Tenet Security at DEF CON 34 in Las Vegas on August 9, 2026. Tenet said the attack affects a growing class of AI-enabled workflows in which […] The post New…",
-      "source": "cybersecuritynews.com"
-    },
-    {
-      "title": "Horizon3 Accelerates Partner-Led Growth with $20 Million Ecosystem Investment",
-      "link": "https://cybersecuritynews.com/horizon3-partner-investment/",
-      "date": "2026-08-11T10:28:44Z",
-      "description": "Proactive AI-native security vendor Horizon3 has announced a major $20 million investment into its global partner ecosystem. The funding reinforces the company’s channel-first commercial strategy, which aims to help managed service providers (MSPs), system integrators, value-added resellers, and technology alliance partners scale proactive cybersecurity services. The strategic capital allocation…",
-      "source": "cybersecuritynews.com"
-    },
-    {
-      "title": "Malicious MCP Servers Can Split Instructions to Make AI Coding Agents Exfiltrate Secrets",
-      "link": "https://thehackernews.com/2026/08/malicious-mcp-servers-can-split.html",
-      "date": "2026-08-11T10:24:00Z",
-      "description": "A malicious tool server connected to an AI coding assistant can quietly walk off with SSH keys, environment secrets, source code, and customer data without ever sending one obviously harmful instruction. The trick can work even after a blunt version of the same theft is refused: split the request into fragments that each look routine, place them in channels the assistant already uses, and let",
-      "source": "thehackernews.com"
-    },
-    {
-      "title": "Chinese-speaking Hacking Group Attacking Users With Fake DeepSeek Page to Deliver Malware",
-      "link": "https://cybersecuritynews.com/hacking-group-attacking-fake-deepseek/",
-      "date": "2026-08-11T10:07:44Z",
-      "description": "Chinese-speaking cybercriminals are using fake software pages that imitate popular artificial intelligence tools to infect Windows users with remote access malware. The campaign turns interest in DeepSeek into a trap, offering what looks like a normal download but delivering an installer built to hide its real purpose. The operation also impersonates Quark Cloud and Pony […] The post…",
-      "source": "cybersecuritynews.com"
-    },
-    {
       "title": "Hacker Conversations: Marcus Hutchins and the Journey From the Gray Zone to Redemption",
       "link": "https://www.securityweek.com/hacker-conversations-marcus-hutchins/",
       "date": "2026-08-11T10:00:00Z",
@@ -108,32 +136,11 @@
       "source": "securityweek.com"
     },
     {
-      "title": "US and South Korea warn of Gunra ransomware targeting govt agencies",
-      "link": "https://www.bleepingcomputer.com/news/security/us-warns-of-gunra-ransomware-attacks-against-government-critical-infrastructure/",
-      "date": "2026-08-11T09:47:06Z",
-      "description": "U.S. federal agencies and South Korea's National Policy Agency warned government and critical infrastructure organizations worldwide to secure their systems against Gunra ransomware attacks. [...]",
-      "source": "bleepingcomputer.com"
-    },
-    {
       "title": "OpenAI Unveils New Cybersecurity Model GPT-5.6-Cyber",
       "link": "https://www.securityweek.com/openai-unveils-new-cybersecurity-model-gpt-5-6-cyber/",
       "date": "2026-08-11T09:45:05Z",
       "description": "OpenAI has also announced the expansion of its Daybreak platform to give more organizations access to its AI. The post OpenAI Unveils New Cybersecurity Model GPT-5.6-Cyber appeared first on SecurityWeek.",
       "source": "securityweek.com"
-    },
-    {
-      "title": "Mozilla Issues New Firefox GPG Key Following Exposure",
-      "link": "https://www.securityweek.com/mozilla-issues-new-firefox-gpg-key-following-exposure/",
-      "date": "2026-08-11T06:16:01Z",
-      "description": "The previous GPG signing subkey was inadvertently added to a GitHub repository and Mozilla decided to revoke it. The post Mozilla Issues New Firefox GPG Key Following Exposure appeared first on SecurityWeek.",
-      "source": "securityweek.com"
-    },
-    {
-      "title": "Hackers breached a small Polish energy plant via private APN last year",
-      "link": "https://www.bleepingcomputer.com/news/security/hackers-breached-a-small-polish-energy-plant-via-private-apn-last-year/",
-      "date": "2026-08-10T23:07:21Z",
-      "description": "Hackers breached a heat-and-power plant facility in Poland, which supplies heat to about 50,000 residents, using a private APN (Access Point Name) to access an OT (Operational Technology) network. [...]",
-      "source": "bleepingcomputer.com"
     },
     {
       "title": "'GhostJacking' Exposes Identity Governance Gaps in AI Agents",
@@ -148,13 +155,6 @@
       "date": "2026-08-10T21:34:38Z",
       "description": "Attacks targeting water systems just keep flowing across a dozen states, against ill-secured, Internet-exposed PLCs.",
       "source": "darkreading.com"
-    },
-    {
-      "title": "BdThemes plugins supply-chain hack creates rogue WordPress admins",
-      "link": "https://www.bleepingcomputer.com/news/security/bdthemes-plugins-supply-chain-hack-creates-rogue-wordpress-admins/",
-      "date": "2026-08-10T21:12:10Z",
-      "description": "A threat actor compromised the upstream infrastructure of BdThemes, a developer of premium WordPress web-design tools, and modified a remote JSON feed delivered to administrators' browsers to create rogue admin accounts. [...]",
-      "source": "bleepingcomputer.com"
     },
     {
       "title": "Metabase SQL Zero-Day Attacks Could Have Wide Blast Radius",

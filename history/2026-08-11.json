@@ -1,7 +1,87 @@
 {
   "date": "2026-08-11",
-  "count": 29,
+  "count": 37,
   "items": [
+    {
+      "id": "705ad5d6a95ea0b5cc70a564b0d24b025ed2d3fc",
+      "title": "Mozilla Revokes Firefox and Thunderbird Signing Key After Unencrypted Subkey Was Committed to GitHub",
+      "link": "https://cybersecuritynews.com/mozilla-revokes-firefox-signing-key/",
+      "date": "2026-08-11T14:04:13Z",
+      "description": "Mozilla has rotated a GPG signing subkey used for selected Firefox and Thunderbird release artifacts after an unencrypted copy of the previous subkey was accidentally committed to a private GitHub repository. The exposed key was used to sign Linux tarballs, RPM packages, and checksum files. Mozilla said the incident did not affect most users, and […] The post Mozilla Revokes Firefox and…",
+      "source": "cybersecuritynews.com",
+      "first_seen": "2026-08-11T14:11:30Z",
+      "last_seen": "2026-08-11T14:11:30Z"
+    },
+    {
+      "id": "024df64e0849eeeadd236b9becf0c62128736dd9",
+      "title": "US Water Systems Get Cyber Boost From New Senate Bill and ‘Water Watch Center’",
+      "link": "https://www.securityweek.com/us-water-systems-get-cyber-boost-from-new-senate-bill-and-water-watch-center/",
+      "date": "2026-08-11T14:03:32Z",
+      "description": "The Water Watch Center launched at DEF CON aims to help under-resourced utilities protect their systems against hackers. The post US Water Systems Get Cyber Boost From New Senate Bill and ‘Water Watch Center’ appeared first on SecurityWeek.",
+      "source": "securityweek.com",
+      "first_seen": "2026-08-11T14:11:30Z",
+      "last_seen": "2026-08-11T14:11:30Z"
+    },
+    {
+      "id": "124559d1037485fde637eef66a564035dceb7a7b",
+      "title": "Plug and Pwn Attack Abuses Windows PnP Drivers to Gain SYSTEM With Zero Clicks",
+      "link": "https://cybersecuritynews.com/plug-and-pwn-attack-abuses-windows-pnp-drivers/",
+      "date": "2026-08-11T13:59:30Z",
+      "description": "Plug and Pwn attack details that the Windows Plug and Play driver installation can lead to execution as NT AUTHORITY\\SYSTEM. The technique, published by researchers Alejandro Hernando and Borja Martínez, does not rely on a Windows kernel zero-day. Instead, it abuses the process Windows uses to detect hardware, find a matching vendor package, download it, and […] The post Plug and Pwn Attack…",
+      "source": "cybersecuritynews.com",
+      "first_seen": "2026-08-11T14:11:30Z",
+      "last_seen": "2026-08-11T14:11:30Z"
+    },
+    {
+      "id": "4aae1460b14efeaa448bccb9aec85acc824fcffd",
+      "title": "Alert Fatigue Is Hitting US SOCs Hard: How to Cut Through the Noise",
+      "link": "https://cybersecuritynews.com/alert-fatigue-is-hitting-us-socs-hard-how-to-cut-through-the-noise/",
+      "date": "2026-08-11T13:46:34Z",
+      "description": "US SOC teams are dealing with a growing volume of alerts, while analyst time and security budgets remain limited. Too much of that time is spent checking signals that turn out to be low-risk, which slows investigations and makes it easier for serious threats to get lost in the queue. Reducing that pressure starts with better threat intelligence: […] The post Alert Fatigue Is Hitting US SOCs…",
+      "source": "cybersecuritynews.com",
+      "first_seen": "2026-08-11T14:11:30Z",
+      "last_seen": "2026-08-11T14:11:30Z"
+    },
+    {
+      "id": "21a1fe866919f11c6ad55edcfeb643120ca0f432",
+      "title": "Mozilla updates GPG signing key for Firefox releases after exposure",
+      "link": "https://www.bleepingcomputer.com/news/security/mozilla-updates-gpg-key-for-signing-firefox-thunderbird-releases-after-exposure/",
+      "date": "2026-08-11T13:20:28Z",
+      "description": "Mozilla announced today that it updated the GPG key used to sign Firefox and Thunderbird releases after it was accidentally exposed on GitHub. [...]",
+      "source": "bleepingcomputer.com",
+      "first_seen": "2026-08-11T14:11:30Z",
+      "last_seen": "2026-08-11T14:11:30Z"
+    },
+    {
+      "id": "b6643e70036b095393bcaac827e5f66c7aaf357b",
+      "title": "Vague Task, Total Access: When AI Delegation Becomes a Security Risk",
+      "link": "https://www.bleepingcomputer.com/news/security/vague-task-total-access-when-ai-delegation-becomes-a-security-risk/",
+      "date": "2026-08-11T13:15:24Z",
+      "description": "AI agents can improvise beyond the intended scope of a task when they are given broad access to enterprise systems and data. Token Security explains why organizations need to define agent intent and continuously enforce permissions around what each agent was actually created to do. [...]",
+      "source": "bleepingcomputer.com",
+      "first_seen": "2026-08-11T14:11:30Z",
+      "last_seen": "2026-08-11T14:11:30Z"
+    },
+    {
+      "id": "b279fbde72d952d638a208727f9aee22bd637443",
+      "title": "OpenAI Launches GPT-5.6-Cyber with Reduced Safeguards for Exploit Development",
+      "link": "https://thehackernews.com/2026/08/openai-launches-gpt-56-cyber-with.html",
+      "date": "2026-08-11T13:11:23Z",
+      "description": "OpenAI on Monday unveiled a new cybersecurity-focused model called GPT‑5.6‑Cyber that it said is focused on vulnerability research, penetration testing, and incident response. \"Built on GPT‑5.6 Sol, it is trained to improve capabilities on several specialized cybersecurity tasks (e.g., finding zero-day vulnerabilities and developing exploit chains) and to reduce refusals for certain higher-risk",
+      "source": "thehackernews.com",
+      "first_seen": "2026-08-11T14:11:30Z",
+      "last_seen": "2026-08-11T14:11:30Z"
+    },
+    {
+      "id": "3a61659fa7680518109a89afb4855eb62b54cdd4",
+      "title": "DDoS attacks over 1 Tbps surged fivefold in the second quarter",
+      "link": "https://www.bleepingcomputer.com/news/security/ddos-attacks-over-1-tbps-surged-fivefold-in-the-second-quarter/",
+      "date": "2026-08-11T13:00:00Z",
+      "description": "Cloudflare says it mitigated more than 800 network-layer distributed denial-of-service (DDoS) attacks exceeding 1 Tbps in the second quarter of the year. [...]",
+      "source": "bleepingcomputer.com",
+      "first_seen": "2026-08-11T14:11:30Z",
+      "last_seen": "2026-08-11T14:11:30Z"
+    },
     {
       "id": "1822276cd37b39a69da3121a3c78d69e081b1eec",
       "title": "Hackers Hide Malware Infrastructure on Polygon Blockchain and Trick Users Into Running It With ClickFix",
@@ -10,7 +90,7 @@
       "description": "Hackers are using the Polygon blockchain to keep parts of a malware operation out of plain sight. The campaign, tracked as ErrTraffic, turns hacked WordPress sites into launch points for fake verification prompts that persuade visitors to run harmful Windows commands. The trick is known as ClickFix. Instead of exploiting a software flaw, the page […] The post Hackers Hide Malware Infrastructure…",
       "source": "cybersecuritynews.com",
       "first_seen": "2026-08-11T12:39:21Z",
-      "last_seen": "2026-08-11T12:39:21Z"
+      "last_seen": "2026-08-11T14:11:30Z"
     },
     {
       "id": "d8552e0396dc8a833f83940507713d92fabfd31d",
@@ -20,7 +100,7 @@
       "description": "CISA confirmed today that ransomware gangs have begun abusing a high-severity Microsoft SharePoint remote code execution vulnerability, which has been flagged as actively exploited since early July. [...]",
       "source": "bleepingcomputer.com",
       "first_seen": "2026-08-11T12:39:21Z",
-      "last_seen": "2026-08-11T12:39:21Z"
+      "last_seen": "2026-08-11T14:11:30Z"
     },
     {
       "id": "606395b63f3696b2722252a692a7734e325b2739",
@@ -30,7 +110,7 @@
       "description": "A malicious SIM card can order the device it sits in to run commands of the attacker's choosing. On the cellular modules built into electric-vehicle chargers, industrial routers, and car telematics units, that is enough to take the whole device over. Researchers at the University of Birmingham and the security firm Fuzzware tested 26 phones and cellular modules for the capability, found it",
       "source": "thehackernews.com",
       "first_seen": "2026-08-11T12:39:21Z",
-      "last_seen": "2026-08-11T12:39:21Z"
+      "last_seen": "2026-08-11T14:11:30Z"
     },
     {
       "id": "452cc666c108acea845247b7ee4a66ea9e19ccc0",
@@ -40,7 +120,7 @@
       "description": "Mozilla has scrapped the cryptographic key behind Firefox and Thunderbird downloads for Linux after an unencrypted copy of it was committed by mistake to one of the company's own private code repositories. That key is how a user, or a Linux distribution packaging the browser, confirms a downloaded Firefox tarball came from Mozilla and was not tampered with. That decision carries a cost for",
       "source": "thehackernews.com",
       "first_seen": "2026-08-11T12:39:21Z",
-      "last_seen": "2026-08-11T12:39:21Z"
+      "last_seen": "2026-08-11T14:11:30Z"
     },
     {
       "id": "6e34fdb9e4af977b7116ec45db258bd99cca978a",
@@ -50,7 +130,7 @@
       "description": "Corma emerged from stealth with seed funding from Sequoia Capital, Khosla Ventures, and Coatue. The post Corma Raises $60 Million for Defensive Cybersecurity AI Model appeared first on SecurityWeek.",
       "source": "securityweek.com",
       "first_seen": "2026-08-11T12:39:21Z",
-      "last_seen": "2026-08-11T12:39:21Z"
+      "last_seen": "2026-08-11T14:11:30Z"
     },
     {
       "id": "1d79d3f03b3d8e8218ad99a142c4d771bdf308f9",
@@ -60,7 +140,7 @@
       "description": "Security researchers invented a cryptocurrency startup, advertised developer jobs, and hired three people they believe were North Korean operatives. Every virtual machine the company issued was recording. The onboarding paperwork is the part hiring teams can use. The first hire claimed to live in Pasadena, Texas, then sent a California driver's license and a New York bank account. The",
       "source": "thehackernews.com",
       "first_seen": "2026-08-11T12:39:21Z",
-      "last_seen": "2026-08-11T12:39:21Z"
+      "last_seen": "2026-08-11T14:11:30Z"
     },
     {
       "id": "d000a11bafbdfb5cd961402c5a3a5ae79b351d1c",
@@ -70,7 +150,7 @@
       "description": "Poland’s energy sector attack has revealed how one compromised remote-access device can become the first step in a wider industrial intrusion. The campaign moved from a wind-farm network into a heat and power plant, turning trusted connectivity into disruption. The incident occurred on 29 December 2025, alongside coordinated destructive attacks against more than 30 renewable […] The post…",
       "source": "cybersecuritynews.com",
       "first_seen": "2026-08-11T12:39:21Z",
-      "last_seen": "2026-08-11T12:39:21Z"
+      "last_seen": "2026-08-11T14:11:30Z"
     },
     {
       "id": "93ae12ccdbc129f562893e5c1d8656bfa770370b",
@@ -80,7 +160,7 @@
       "description": "The extension amassed over 300,000 installs and a 4.6 rating before Google removed it for stealing data. The post Extension Banned for Stealing AI Chats Returns to Chrome Store, Resumes Malicious Activities appeared first on SecurityWeek.",
       "source": "securityweek.com",
       "first_seen": "2026-08-11T11:36:29Z",
-      "last_seen": "2026-08-11T12:39:21Z"
+      "last_seen": "2026-08-11T14:11:30Z"
     },
     {
       "id": "584209856215f2a5a07531ed5ae4338cd50018dc",
@@ -90,7 +170,7 @@
       "description": "Cisco warned of two high-severity vulnerabilities affecting the Secure Endpoint Connector that allow threat actors to crash the ClamAV scanning process in denial-of-service (DoS) attacks. [...]",
       "source": "bleepingcomputer.com",
       "first_seen": "2026-08-11T11:36:29Z",
-      "last_seen": "2026-08-11T12:39:21Z"
+      "last_seen": "2026-08-11T14:11:30Z"
     },
     {
       "id": "3e27c9f5ce271b9db9617d4e0075e962f36eebb8",
@@ -100,7 +180,7 @@
       "description": "Windows Plug and Play can be abused to fetch signed vendor software for an emulated USB device and execute privileged installation components that researchers chained to SYSTEM access on a fully updated Windows 11 machine. The same PnP path can be triggered over Remote Desktop without physical hardware when supported Plug and Play or low-level USB redirection is enabled; Microsoft says that",
       "source": "thehackernews.com",
       "first_seen": "2026-08-11T11:36:29Z",
-      "last_seen": "2026-08-11T12:39:21Z"
+      "last_seen": "2026-08-11T14:11:30Z"
     },
     {
       "id": "29989a878b3609d9cb481c67c927f9a05b0765e9",
@@ -150,7 +230,7 @@
       "description": "Marcus Hutchins doesn’t personally consider himself a hacker – but he accepts the epithet because it’s a widely used term for what he once did. The post Hacker Conversations: Marcus Hutchins and the Journey From the Gray Zone to Redemption appeared first on SecurityWeek.",
       "source": "securityweek.com",
       "first_seen": "2026-08-11T10:40:55Z",
-      "last_seen": "2026-08-11T12:39:21Z"
+      "last_seen": "2026-08-11T14:11:30Z"
     },
     {
       "id": "7d58f0e36d0cd4e3e2ab5647ee5f37ea8dab33a4",
@@ -170,7 +250,7 @@
       "description": "OpenAI has also announced the expansion of its Daybreak platform to give more organizations access to its AI. The post OpenAI Unveils New Cybersecurity Model GPT-5.6-Cyber appeared first on SecurityWeek.",
       "source": "securityweek.com",
       "first_seen": "2026-08-11T09:49:30Z",
-      "last_seen": "2026-08-11T12:39:21Z"
+      "last_seen": "2026-08-11T14:11:30Z"
     },
     {
       "id": "f96e6ec4e5990d3cd394b946c36fb5ad1d4d64f2",
