@@ -1,7 +1,17 @@
 {
   "date": "2026-08-12",
-  "count": 2,
+  "count": 5,
   "items": [
+    {
+      "id": "3a055822f5de69fcdf33863dbbd148cc823518aa",
+      "title": "Microsoft SharePoint Server Vulnerability Allows Attackers to Inject and Execute Malicious Code Remotely",
+      "link": "https://cybersecuritynews.com/microsoft-sharepoint-server-vulnerability/",
+      "date": "2026-08-12T05:16:52Z",
+      "description": "A newly disclosed flaw in Microsoft SharePoint Server has raised fresh concerns across enterprise IT environments, as security researchers reveal how attackers could remotely inject and execute malicious code without needing any authentication. The vulnerability, tracked as CVE-2026-63520, was uncovered through a dedicated zero-day research initiative by Rapid7 Labs and has now been jointly…",
+      "source": "cybersecuritynews.com",
+      "first_seen": "2026-08-12T07:06:25Z",
+      "last_seen": "2026-08-12T07:06:25Z"
+    },
     {
       "id": "c17d4542d3942256990a2b137078e8e3da7d0647",
       "title": "Cisco Patches Firewall Zero-Day Exploited for DoS Attacks",
@@ -10,7 +20,27 @@
       "description": "CVE-2026-20349 can be exploited remotely without authentication against Secure Firewall ASA and FTD devices. The post Cisco Patches Firewall Zero-Day Exploited for DoS Attacks appeared first on SecurityWeek.",
       "source": "securityweek.com",
       "first_seen": "2026-08-12T05:22:49Z",
-      "last_seen": "2026-08-12T05:22:49Z"
+      "last_seen": "2026-08-12T07:06:25Z"
+    },
+    {
+      "id": "0f508687ce0e278719d815a0e09f123f37a7b7bb",
+      "title": "Microsoft Outlook Vulnerability Allows Attackers to Execute Malicious Code Remotely",
+      "link": "https://cybersecuritynews.com/microsoft-outlook-rce-vulnerability-2/",
+      "date": "2026-08-12T03:40:32Z",
+      "description": "Microsoft has disclosed a new remote code execution flaw in Outlook, tracked as CVE-2026-70329, as part of its August 2026 Patch Tuesday rollout. The vulnerability stems from an integer overflow or wraparound weakness in Microsoft Office Outlook, and it carries a CVSS v3.1 base score of 8.8, placing it in the High severity band. Microsoft’s […] The post Microsoft Outlook Vulnerability Allows…",
+      "source": "cybersecuritynews.com",
+      "first_seen": "2026-08-12T07:06:25Z",
+      "last_seen": "2026-08-12T07:06:25Z"
+    },
+    {
+      "id": "d72bf9b89f5519816fd8c6f1c7d3f124740054d6",
+      "title": "Windows AFD.sys 0-Day Actively Exploited by Lazarus Hackers to Deploy FudModule Rootkit",
+      "link": "https://cybersecuritynews.com/windows-afd-sys-zero-day-exploited/",
+      "date": "2026-08-12T03:23:37Z",
+      "description": "North Korea’s Lazarus group has been caught exploiting a Windows kernel 0-day vulnerability to deploy an upgraded version of its notorious FudModule rootkit, according to new research from Check Point Research. The flaw, now tracked as CVE-2026-68820, lives inside AFD.sys, the Ancillary Function Driver that manages network sockets deep within the Windows kernel. Microsoft patched […] The post…",
+      "source": "cybersecuritynews.com",
+      "first_seen": "2026-08-12T07:06:25Z",
+      "last_seen": "2026-08-12T07:06:25Z"
     },
     {
       "id": "1f265d7f3fdd681f525943778c9914627c17a783",
@@ -20,7 +50,7 @@
       "description": "Google says Chrome's anti-abuse systems reduced unwanted notifications on Android by more than 7 billion per day during the first quarter of 2026. [...]",
       "source": "bleepingcomputer.com",
       "first_seen": "2026-08-12T03:23:25Z",
-      "last_seen": "2026-08-12T05:22:49Z"
+      "last_seen": "2026-08-12T07:06:25Z"
     }
   ]
 }
