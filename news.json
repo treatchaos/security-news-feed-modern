@@ -1,13 +1,62 @@
 {
-  "last_updated": "2026-08-12T07:06:25Z",
-  "count": 35,
+  "last_updated": "2026-08-12T09:00:16Z",
+  "count": 30,
   "items": [
     {
-      "title": "Microsoft SharePoint Server Vulnerability Allows Attackers to Inject and Execute Malicious Code Remotely",
-      "link": "https://cybersecuritynews.com/microsoft-sharepoint-server-vulnerability/",
-      "date": "2026-08-12T05:16:52Z",
-      "description": "A newly disclosed flaw in Microsoft SharePoint Server has raised fresh concerns across enterprise IT environments, as security researchers reveal how attackers could remotely inject and execute malicious code without needing any authentication. The vulnerability, tracked as CVE-2026-63520, was uncovered through a dedicated zero-day research initiative by Rapid7 Labs and has now been jointly…",
-      "source": "cybersecuritynews.com"
+      "title": "Fresh Windows Zero-Day Exploited in North Korean Cyberattacks",
+      "link": "https://www.securityweek.com/fresh-windows-zero-day-exploited-in-north-korean-cyberattacks/",
+      "date": "2026-08-12T08:45:53Z",
+      "description": "The bug allowed attackers to gain full control of the victims’ systems and deploy the ForestTiger backdoor. The post Fresh Windows Zero-Day Exploited in North Korean Cyberattacks appeared first on SecurityWeek.",
+      "source": "securityweek.com"
+    },
+    {
+      "title": "Ivanti EPM Update Patches Remotely Exploitable Flaws",
+      "link": "https://www.securityweek.com/ivanti-epm-update-patches-remotely-exploitable-flaws/",
+      "date": "2026-08-12T08:14:46Z",
+      "description": "The vulnerabilities could be exploited to leak credentials for external SQL connections or crash an agent service. The post Ivanti EPM Update Patches Remotely Exploitable Flaws appeared first on SecurityWeek.",
+      "source": "securityweek.com"
+    },
+    {
+      "title": "Malicious LiteLLM Releases Tied to Trivy Hack May Have Exposed 2,100+ Organizations",
+      "link": "https://thehackernews.com/2026/08/malicious-litellm-releases-tied-to.html",
+      "date": "2026-08-12T08:04:52Z",
+      "description": "Two malicious LiteLLM releases sat on PyPI for about 40 minutes in March carrying credential-stealing code capable of harvesting cloud keys, SSH keys, Kubernetes tokens, database passwords, and other secrets from systems that installed them. Threat intelligence firm CloudSEK now says a dataset it obtained, built from roughly 434,000 files the attackers captured, maps potential exposure to more",
+      "source": "thehackernews.com"
+    },
+    {
+      "title": "ICS Patch Tuesday: Vulnerabilities Fixed by Siemens, Schneider, Phoenix Contact",
+      "link": "https://www.securityweek.com/ics-patch-tuesday-vulnerabilities-fixed-by-siemens-schneider-phoenix-contact-2/",
+      "date": "2026-08-12T07:51:55Z",
+      "description": "CISA has also published several advisories describing vulnerabilities in ICS and other OT products. The post ICS Patch Tuesday: Vulnerabilities Fixed by Siemens, Schneider, Phoenix Contact appeared first on SecurityWeek.",
+      "source": "securityweek.com"
+    },
+    {
+      "title": "SAP Commerce Cloud Flaw Could Let Unauthenticated Attackers Execute Arbitrary Code",
+      "link": "https://thehackernews.com/2026/08/sap-commerce-cloud-flaw-could-let.html",
+      "date": "2026-08-12T07:31:40Z",
+      "description": "SAP has released patches to address a maximum-severity security flaw impacting Commerce Cloud (Data Hub Adapter) that could result in arbitrary code execution. The vulnerability, assigned the CVE identifier CVE-2026-58231, is rated 10.0 on the CVSS scoring system. It has been described as a case of insufficient authorization checks and input validation. \"SAP Commerce Cloud allows an",
+      "source": "thehackernews.com"
+    },
+    {
+      "title": "SonicWall Patches Critical Vulnerabilities in Discontinued GMS Platform",
+      "link": "https://www.securityweek.com/sonicwall-patches-critical-vulnerabilities-in-discontinued-gms-platform/",
+      "date": "2026-08-12T07:31:11Z",
+      "description": "The security defects could allow unauthenticated attackers to execute arbitrary code remotely and read sensitive data. The post SonicWall Patches Critical Vulnerabilities in Discontinued GMS Platform appeared first on SecurityWeek.",
+      "source": "securityweek.com"
+    },
+    {
+      "title": "ShieldBreak Zero-Day PoC Claims Microsoft Defender Patch Bypass With SYSTEM Access",
+      "link": "https://thehackernews.com/2026/08/shieldbreak-zero-day-poc-claims.html",
+      "date": "2026-08-12T06:41:38Z",
+      "description": "The security researcher going by the name Chaotic Eclipse (aka INFINITE NIGHTMARE, MSNightmare, and Nightmare-Eclipse) has released a proof-of-concept (PoC) for a new Microsoft zero-day called ShieldBreak. The vulnerability, rooted in Microsoft Defender for Windows, demonstrates a patch bypass for CVE-2026-50656 (CVSS score: 7.8), otherwise known as RoguePlanet. RoguePlanet has been described",
+      "source": "thehackernews.com"
+    },
+    {
+      "title": "Cisco ASA and FTD Flaw Exploited in the Wild Can Trigger Remote DoS",
+      "link": "https://thehackernews.com/2026/08/cisco-asa-and-ftd-flaw-exploited-in.html",
+      "date": "2026-08-12T06:15:58Z",
+      "description": "Cisco has warned that a new vulnerability impacting Secure Firewall Adaptive Security Appliance (ASA) Software and Secure Firewall Threat Defense (FTD) Software has been exploited in the wild. The high-severity flaw, tracked as CVE-2026-20349 (CVSS score: 8.6), is a case of insufficient error checking when processing HTTP requests that could allow an unauthenticated, remote attacker to trigger",
+      "source": "thehackernews.com"
     },
     {
       "title": "Cisco Patches Firewall Zero-Day Exploited for DoS Attacks",
@@ -15,20 +64,6 @@
       "date": "2026-08-12T05:10:47Z",
       "description": "CVE-2026-20349 can be exploited remotely without authentication against Secure Firewall ASA and FTD devices. The post Cisco Patches Firewall Zero-Day Exploited for DoS Attacks appeared first on SecurityWeek.",
       "source": "securityweek.com"
-    },
-    {
-      "title": "Microsoft Outlook Vulnerability Allows Attackers to Execute Malicious Code Remotely",
-      "link": "https://cybersecuritynews.com/microsoft-outlook-rce-vulnerability-2/",
-      "date": "2026-08-12T03:40:32Z",
-      "description": "Microsoft has disclosed a new remote code execution flaw in Outlook, tracked as CVE-2026-70329, as part of its August 2026 Patch Tuesday rollout. The vulnerability stems from an integer overflow or wraparound weakness in Microsoft Office Outlook, and it carries a CVSS v3.1 base score of 8.8, placing it in the High severity band. Microsoft’s […] The post Microsoft Outlook Vulnerability Allows…",
-      "source": "cybersecuritynews.com"
-    },
-    {
-      "title": "Windows AFD.sys 0-Day Actively Exploited by Lazarus Hackers to Deploy FudModule Rootkit",
-      "link": "https://cybersecuritynews.com/windows-afd-sys-zero-day-exploited/",
-      "date": "2026-08-12T03:23:37Z",
-      "description": "North Korea’s Lazarus group has been caught exploiting a Windows kernel 0-day vulnerability to deploy an upgraded version of its notorious FudModule rootkit, according to new research from Check Point Research. The flaw, now tracked as CVE-2026-68820, lives inside AFD.sys, the Ancillary Function Driver that manages network sockets deep within the Windows kernel. Microsoft patched […] The post…",
-      "source": "cybersecuritynews.com"
     },
     {
       "title": "Google says Chrome cuts 7 billion unwanted Android notifications a day to fight abuse",
@@ -80,81 +115,11 @@
       "source": "bleepingcomputer.com"
     },
     {
-      "title": "Kimwolf v7 Android Botnet Makes HTTP/2 DDoS Traffic Look Like Legitimate Browsing",
-      "link": "https://thehackernews.com/2026/08/kimwolf-v7-android-botnet-makes-http2.html",
-      "date": "2026-08-11T19:36:37Z",
-      "description": "Cybersecurity researchers have discovered a new version of the Kimwolf/AISURU Android and Internet of Things (IoT) botnet that comes with significant improvements to improve its operational resilience and conduct distributed denial-of-service (DDoS) attacks. The new version, tracked as Kimwolf v7, was discovered by Palo Alto Networks Unit 42 in February 2026. \"Kimwolf v7 adds an HTTP/2-based",
-      "source": "thehackernews.com"
-    },
-    {
-      "title": "Zoom Annotation Flaws Could Let a Meeting Participant Hijack Another Attendee's Client",
-      "link": "https://thehackernews.com/2026/08/zoom-annotation-flaws-could-let-meeting.html",
-      "date": "2026-08-11T19:08:47Z",
-      "description": "Anyone sharing their screen on a Zoom call could have taken over the computers of everyone watching, and anyone watching could have taken over the presenter's. The flaw sat in the annotation tool, the feature that lets participants draw and type on a shared screen, and it asked nothing of the victim beyond being in the meeting. No click, no download, no prompt, and nothing on screen to show it",
-      "source": "thehackernews.com"
-    },
-    {
-      "title": "August 2026 Patch Tuesday: Microsoft Fixes 421 CVEs, One Exploited Zero-Day",
-      "link": "https://www.securityweek.com/august-2026-patch-tuesday-microsoft-fixes-421-cves-one-exploited-zero-day/",
-      "date": "2026-08-11T18:46:07Z",
-      "description": "A use-after-free in the afd.sys Windows kernel-mode driver has been exploited to gain SYSTEM privileges. The post August 2026 Patch Tuesday: Microsoft Fixes 421 CVEs, One Exploited Zero-Day appeared first on SecurityWeek.",
-      "source": "securityweek.com"
-    },
-    {
-      "title": "Sandworm-Linked UAC-0145 Uses Fake Job Interviews to Push VPN That Can Run Commands",
-      "link": "https://thehackernews.com/2026/08/sandworm-linked-uac-0145-uses-fake-job.html",
-      "date": "2026-08-11T18:36:47Z",
-      "description": "The Computer Emergency Response Team of Ukraine (CERT-UA) has disclosed details of a new social engineering campaign orchestrated by Russian nation-state threat actors targeting IT workers in the country by masquerading as recruiters to trick them into installing malware. CERT-UA pinned the activity on a threat cluster it tracks as UAC-0145, which is a subgroup within Sandworm (aka APT44,",
-      "source": "thehackernews.com"
-    },
-    {
       "title": "Delta probes Wi-Fi deauth attack on flight carrying DEF CON attendees",
       "link": "https://www.bleepingcomputer.com/news/security/delta-probes-wi-fi-deauth-attack-on-flight-carrying-def-con-attendees/",
       "date": "2026-08-11T18:34:23Z",
       "description": "Delta Air Lines is investigating an unauthorized Wi-Fi network that appeared aboard a flight from Las Vegas to Atlanta carrying passengers who had attended the DEF CON hacker convention. [...]",
       "source": "bleepingcomputer.com"
-    },
-    {
-      "title": "Microsoft Patch Tuesday Update August 2026 – 394 Vulnerabilities Fixed, Including 3 Zero-Days",
-      "link": "https://cybersecuritynews.com/microsoft-patch-tuesday-update-august-2026/",
-      "date": "2026-08-11T17:49:40Z",
-      "description": "Microsoft has released its August 2026 Patch Tuesday security updates, addressing a massive 394 vulnerabilities across Windows, Microsoft Office, SharePoint Server, Azure services, .NET, PowerShell, Visual Studio Code, and other enterprise products. The security release, published on August 11, 2026, also includes fixes for three zero-day vulnerabilities, making prompt patching a critical…",
-      "source": "cybersecuritynews.com"
-    },
-    {
-      "title": "DEF CON Attendees Allegedly Jammed Plane Wi-Fi and Broadcast Fake ‘Delta WiFi Fast’ Network",
-      "link": "https://cybersecuritynews.com/def-con-attendees-plane-wi-fi/",
-      "date": "2026-08-11T17:24:05Z",
-      "description": "A Delta Air Lines flight carrying passengers home from the world’s largest hacking conference became the center of a rapidly unfolding cybersecurity scare on Monday, after crew members reported that someone onboard had jammed the aircraft’s official Wi-Fi and stood up a convincing fake network designed to phish fellow travelers. The incident, which unfolded on […] The post DEF CON Attendees…",
-      "source": "cybersecuritynews.com"
-    },
-    {
-      "title": "Adobe Urges Immediate Patching of Critical ColdFusion, Campaign Classic Flaws",
-      "link": "https://www.securityweek.com/adobe-urges-immediate-patching-of-critical-coldfusion-campaign-classic-flaws/",
-      "date": "2026-08-11T16:50:19Z",
-      "description": "The security defects could be exploited for arbitrary code execution and denial-of-service. The post Adobe Urges Immediate Patching of Critical ColdFusion, Campaign Classic Flaws appeared first on SecurityWeek.",
-      "source": "securityweek.com"
-    },
-    {
-      "title": "Researchers Disclose AI-Assisted SharePoint Exploit Chain Reaching Unauthenticated RCE",
-      "link": "https://thehackernews.com/2026/08/researchers-disclose-ai-assisted.html",
-      "date": "2026-08-11T16:47:44Z",
-      "description": "Security researchers found a way to enter Microsoft SharePoint servers as any user, including an administrator, with no valid account. A significant part of the work that found it was done through an AI agent. The flaw, tracked as CVE-2026-55040 (CVSS 9.1), affects SharePoint Server Subscription Edition, SharePoint Server 2019, and SharePoint Server 2016. Microsoft's",
-      "source": "thehackernews.com"
-    },
-    {
-      "title": "Zoom Patches Zero-Click Code Execution Vulnerability",
-      "link": "https://www.securityweek.com/zoom-patches-zero-click-code-execution-vulnerability/",
-      "date": "2026-08-11T15:49:53Z",
-      "description": "Impacting Zoom annotation, the bug could be exploited by a meeting participant to execute code on another participant’s machine. The post Zoom Patches Zero-Click Code Execution Vulnerability appeared first on SecurityWeek.",
-      "source": "securityweek.com"
-    },
-    {
-      "title": "The AI Governance Gap Is a Leadership Problem: Waiting Won’t Close It",
-      "link": "https://www.securityweek.com/the-ai-governance-gap-is-a-leadership-problem-waiting-wont-close-it/",
-      "date": "2026-08-11T15:00:00Z",
-      "description": "Organizations are rushing to implement AI without fully grasping where its legal protections begin and end. The post The AI Governance Gap Is a Leadership Problem: Waiting Won’t Close It appeared first on SecurityWeek.",
-      "source": "securityweek.com"
     },
     {
       "title": "ZDI-CAN-33217: Microsoft",

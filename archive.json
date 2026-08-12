@@ -1,8 +1,88 @@
 {
-  "last_updated": "2026-08-12T07:06:25Z",
+  "last_updated": "2026-08-12T09:00:16Z",
   "retention_days": 90,
-  "count": 3550,
+  "count": 3558,
   "items": [
+    {
+      "id": "712b550b99ede19bec3d107f06baf355f04ddb8c",
+      "title": "Fresh Windows Zero-Day Exploited in North Korean Cyberattacks",
+      "link": "https://www.securityweek.com/fresh-windows-zero-day-exploited-in-north-korean-cyberattacks/",
+      "date": "2026-08-12T08:45:53Z",
+      "description": "The bug allowed attackers to gain full control of the victims’ systems and deploy the ForestTiger backdoor. The post Fresh Windows Zero-Day Exploited in North Korean Cyberattacks appeared first on SecurityWeek.",
+      "source": "securityweek.com",
+      "first_seen": "2026-08-12T09:00:16Z",
+      "last_seen": "2026-08-12T09:00:16Z"
+    },
+    {
+      "id": "81334dd95340809652299acdfba790475945f639",
+      "title": "Ivanti EPM Update Patches Remotely Exploitable Flaws",
+      "link": "https://www.securityweek.com/ivanti-epm-update-patches-remotely-exploitable-flaws/",
+      "date": "2026-08-12T08:14:46Z",
+      "description": "The vulnerabilities could be exploited to leak credentials for external SQL connections or crash an agent service. The post Ivanti EPM Update Patches Remotely Exploitable Flaws appeared first on SecurityWeek.",
+      "source": "securityweek.com",
+      "first_seen": "2026-08-12T09:00:16Z",
+      "last_seen": "2026-08-12T09:00:16Z"
+    },
+    {
+      "id": "16346e5538343db05fda74d0827ca6573c6f5bbf",
+      "title": "Malicious LiteLLM Releases Tied to Trivy Hack May Have Exposed 2,100+ Organizations",
+      "link": "https://thehackernews.com/2026/08/malicious-litellm-releases-tied-to.html",
+      "date": "2026-08-12T08:04:52Z",
+      "description": "Two malicious LiteLLM releases sat on PyPI for about 40 minutes in March carrying credential-stealing code capable of harvesting cloud keys, SSH keys, Kubernetes tokens, database passwords, and other secrets from systems that installed them. Threat intelligence firm CloudSEK now says a dataset it obtained, built from roughly 434,000 files the attackers captured, maps potential exposure to more",
+      "source": "thehackernews.com",
+      "first_seen": "2026-08-12T09:00:16Z",
+      "last_seen": "2026-08-12T09:00:16Z"
+    },
+    {
+      "id": "97f1cce4a28ffbd188988cb804b08dbd98f9d25e",
+      "title": "ICS Patch Tuesday: Vulnerabilities Fixed by Siemens, Schneider, Phoenix Contact",
+      "link": "https://www.securityweek.com/ics-patch-tuesday-vulnerabilities-fixed-by-siemens-schneider-phoenix-contact-2/",
+      "date": "2026-08-12T07:51:55Z",
+      "description": "CISA has also published several advisories describing vulnerabilities in ICS and other OT products. The post ICS Patch Tuesday: Vulnerabilities Fixed by Siemens, Schneider, Phoenix Contact appeared first on SecurityWeek.",
+      "source": "securityweek.com",
+      "first_seen": "2026-08-12T09:00:16Z",
+      "last_seen": "2026-08-12T09:00:16Z"
+    },
+    {
+      "id": "b149935f2525fd01b3ff1eb9dc32d074cea8951b",
+      "title": "SAP Commerce Cloud Flaw Could Let Unauthenticated Attackers Execute Arbitrary Code",
+      "link": "https://thehackernews.com/2026/08/sap-commerce-cloud-flaw-could-let.html",
+      "date": "2026-08-12T07:31:40Z",
+      "description": "SAP has released patches to address a maximum-severity security flaw impacting Commerce Cloud (Data Hub Adapter) that could result in arbitrary code execution. The vulnerability, assigned the CVE identifier CVE-2026-58231, is rated 10.0 on the CVSS scoring system. It has been described as a case of insufficient authorization checks and input validation. \"SAP Commerce Cloud allows an",
+      "source": "thehackernews.com",
+      "first_seen": "2026-08-12T09:00:16Z",
+      "last_seen": "2026-08-12T09:00:16Z"
+    },
+    {
+      "id": "13412f9d0a94ef7aab05f1b784f103b31a433844",
+      "title": "SonicWall Patches Critical Vulnerabilities in Discontinued GMS Platform",
+      "link": "https://www.securityweek.com/sonicwall-patches-critical-vulnerabilities-in-discontinued-gms-platform/",
+      "date": "2026-08-12T07:31:11Z",
+      "description": "The security defects could allow unauthenticated attackers to execute arbitrary code remotely and read sensitive data. The post SonicWall Patches Critical Vulnerabilities in Discontinued GMS Platform appeared first on SecurityWeek.",
+      "source": "securityweek.com",
+      "first_seen": "2026-08-12T09:00:16Z",
+      "last_seen": "2026-08-12T09:00:16Z"
+    },
+    {
+      "id": "8fb5179107676f6f61fb71e341f4883234aaac4d",
+      "title": "ShieldBreak Zero-Day PoC Claims Microsoft Defender Patch Bypass With SYSTEM Access",
+      "link": "https://thehackernews.com/2026/08/shieldbreak-zero-day-poc-claims.html",
+      "date": "2026-08-12T06:41:38Z",
+      "description": "The security researcher going by the name Chaotic Eclipse (aka INFINITE NIGHTMARE, MSNightmare, and Nightmare-Eclipse) has released a proof-of-concept (PoC) for a new Microsoft zero-day called ShieldBreak. The vulnerability, rooted in Microsoft Defender for Windows, demonstrates a patch bypass for CVE-2026-50656 (CVSS score: 7.8), otherwise known as RoguePlanet. RoguePlanet has been described",
+      "source": "thehackernews.com",
+      "first_seen": "2026-08-12T09:00:16Z",
+      "last_seen": "2026-08-12T09:00:16Z"
+    },
+    {
+      "id": "496f8b853a8ed5fb5feb1245cfb2f904bb652853",
+      "title": "Cisco ASA and FTD Flaw Exploited in the Wild Can Trigger Remote DoS",
+      "link": "https://thehackernews.com/2026/08/cisco-asa-and-ftd-flaw-exploited-in.html",
+      "date": "2026-08-12T06:15:58Z",
+      "description": "Cisco has warned that a new vulnerability impacting Secure Firewall Adaptive Security Appliance (ASA) Software and Secure Firewall Threat Defense (FTD) Software has been exploited in the wild. The high-severity flaw, tracked as CVE-2026-20349 (CVSS score: 8.6), is a case of insufficient error checking when processing HTTP requests that could allow an unauthenticated, remote attacker to trigger",
+      "source": "thehackernews.com",
+      "first_seen": "2026-08-12T09:00:16Z",
+      "last_seen": "2026-08-12T09:00:16Z"
+    },
     {
       "id": "3a055822f5de69fcdf33863dbbd148cc823518aa",
       "title": "Microsoft SharePoint Server Vulnerability Allows Attackers to Inject and Execute Malicious Code Remotely",
@@ -21,7 +101,7 @@
       "description": "CVE-2026-20349 can be exploited remotely without authentication against Secure Firewall ASA and FTD devices. The post Cisco Patches Firewall Zero-Day Exploited for DoS Attacks appeared first on SecurityWeek.",
       "source": "securityweek.com",
       "first_seen": "2026-08-12T05:22:49Z",
-      "last_seen": "2026-08-12T07:06:25Z"
+      "last_seen": "2026-08-12T09:00:16Z"
     },
     {
       "id": "0f508687ce0e278719d815a0e09f123f37a7b7bb",
@@ -51,7 +131,7 @@
       "description": "Google says Chrome's anti-abuse systems reduced unwanted notifications on Android by more than 7 billion per day during the first quarter of 2026. [...]",
       "source": "bleepingcomputer.com",
       "first_seen": "2026-08-12T03:23:25Z",
-      "last_seen": "2026-08-12T07:06:25Z"
+      "last_seen": "2026-08-12T09:00:16Z"
     },
     {
       "id": "b9b4541c294d7a6dd12d92a6cf82de17f5ea85f6",
@@ -61,7 +141,7 @@
       "description": "The DeadLock ransomware operation is using a decentralized infrastructure that relies on blockchain-backed services to protect its communication with victims and data-leak activity. [...]",
       "source": "bleepingcomputer.com",
       "first_seen": "2026-08-11T22:30:38Z",
-      "last_seen": "2026-08-12T07:06:25Z"
+      "last_seen": "2026-08-12T09:00:16Z"
     },
     {
       "id": "02b0e547f6d673bf4e8aa56aa81f9c996730ddaa",
@@ -71,7 +151,7 @@
       "description": "Security experts say prioritization should be the main focus for the August updates, not the massive CVE volume.",
       "source": "darkreading.com",
       "first_seen": "2026-08-11T22:30:38Z",
-      "last_seen": "2026-08-12T07:06:25Z"
+      "last_seen": "2026-08-12T09:00:16Z"
     },
     {
       "id": "e1c831dd8b5f85d35f40c0a2ee1a6921f1b9b33b",
@@ -81,7 +161,7 @@
       "description": "The ransomware-as-a-service operation is finding success against critical infrastructure targets with leaked Conti code and old flaws in firewalls and VPN appliances.",
       "source": "darkreading.com",
       "first_seen": "2026-08-11T22:30:38Z",
-      "last_seen": "2026-08-12T07:06:25Z"
+      "last_seen": "2026-08-12T09:00:16Z"
     },
     {
       "id": "e8e631e9bf7049cb6b49fd9cc9b84b500e82ffaa",
@@ -91,7 +171,7 @@
       "description": "Hackers associated with the Russian threat group Sandworm have been targeting system administrators and IT professionals through fake job offers since at least May. [...]",
       "source": "bleepingcomputer.com",
       "first_seen": "2026-08-11T21:34:32Z",
-      "last_seen": "2026-08-12T07:06:25Z"
+      "last_seen": "2026-08-12T09:00:16Z"
     },
     {
       "id": "7f18333ab6b1d079fc8ff6fcbb505828cfcf335e",
@@ -101,7 +181,7 @@
       "description": "Microsoft released its monthly security updates on Tuesday, and one of the flaws it closed is already being used in attacks. The bug sits in a core Windows kernel driver that handles network socket operations. An attacker with code already running on a machine can use it to escalate to SYSTEM. That patch goes out first. The flaw is tracked as CVE-2026-68820 (CVSS score: 7.0) and is the only",
       "source": "thehackernews.com",
       "first_seen": "2026-08-11T21:34:32Z",
-      "last_seen": "2026-08-12T07:06:25Z"
+      "last_seen": "2026-08-12T09:00:16Z"
     },
     {
       "id": "9202676389f3f95d004bf5a0517bc482a79726dc",
@@ -111,7 +191,7 @@
       "description": "Cisco is warning that a high-severity denial-of-service vulnerability in Secure Firewall ASA and Threat Defense (FTD) software is being actively exploited in attacks to remotely crash affected devices. [...]",
       "source": "bleepingcomputer.com",
       "first_seen": "2026-08-11T19:53:44Z",
-      "last_seen": "2026-08-12T07:06:25Z"
+      "last_seen": "2026-08-12T09:00:16Z"
     },
     {
       "id": "6832d608ddbba330a30600199f0f0f45ed38cbf9",
@@ -161,7 +241,7 @@
       "description": "Delta Air Lines is investigating an unauthorized Wi-Fi network that appeared aboard a flight from Las Vegas to Atlanta carrying passengers who had attended the DEF CON hacker convention. [...]",
       "source": "bleepingcomputer.com",
       "first_seen": "2026-08-11T18:45:02Z",
-      "last_seen": "2026-08-12T07:06:25Z"
+      "last_seen": "2026-08-12T09:00:16Z"
     },
     {
       "id": "7ba3d4141b9deb8bc0c638ac7e3668c74eb9af9b",
@@ -771,7 +851,7 @@
       "description": "A CVSS score 7.2 AV:N/AC:L/PR:H/UI:N/S:U/C:H/I:H/A:H severity vulnerability discovered by 'Yazhi Wang of TrendAI Research' was reported to the affected vendor on: 2026-08-11, 0 days ago. The vendor is given until 2026-12-09 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
       "source": "zerodayinitiative.com",
       "first_seen": "2026-08-11T17:48:15Z",
-      "last_seen": "2026-08-12T07:06:25Z"
+      "last_seen": "2026-08-12T09:00:16Z"
     },
     {
       "id": "bf6ade14803cf37b11248d79e5d516321239bcc5",
@@ -781,7 +861,7 @@
       "description": "A CVSS score 7.8 AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H severity vulnerability discovered by 'PlatinumLab: @cbwang505/@kaijieguigui/@carmen_cqq' was reported to the affected vendor on: 2026-08-11, 0 days ago. The vendor is given until 2026-12-09 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
       "source": "zerodayinitiative.com",
       "first_seen": "2026-08-11T17:48:15Z",
-      "last_seen": "2026-08-12T07:06:25Z"
+      "last_seen": "2026-08-12T09:00:16Z"
     },
     {
       "id": "db72deb8255334ad14b0b27ead319aff6d426a0d",
@@ -801,7 +881,7 @@
       "description": "New research shows how attackers can use security alerts and blocked events to manipulate and hijack AI agents.",
       "source": "darkreading.com",
       "first_seen": "2026-08-10T22:25:44Z",
-      "last_seen": "2026-08-12T07:06:25Z"
+      "last_seen": "2026-08-12T09:00:16Z"
     },
     {
       "id": "5a3fe4a125deafe79e7af297c356559af06b4d07",
@@ -811,7 +891,7 @@
       "description": "Attacks targeting water systems just keep flowing across a dozen states, against ill-secured, Internet-exposed PLCs.",
       "source": "darkreading.com",
       "first_seen": "2026-08-10T22:25:44Z",
-      "last_seen": "2026-08-12T07:06:25Z"
+      "last_seen": "2026-08-12T09:00:16Z"
     },
     {
       "id": "01ca68bb85262bcf3b3ef80e773202cf752cea59",
@@ -831,7 +911,7 @@
       "description": "The maximum-severity vulnerability, which still has no CVE, allows malicious, remote administrator access to the business-analytics platform and its downstream users.",
       "source": "darkreading.com",
       "first_seen": "2026-08-10T21:31:07Z",
-      "last_seen": "2026-08-12T07:06:25Z"
+      "last_seen": "2026-08-12T09:00:16Z"
     },
     {
       "id": "453dc391a0d0ab933fb8c264d05f2174f658585a",
@@ -1841,7 +1921,7 @@
       "description": "A CVSS score 7.2 AV:N/AC:L/PR:N/UI:N/S:C/C:L/I:L/A:N severity vulnerability discovered by 'Niels Pfau (Mantodea Security GmbH)' was reported to the affected vendor on: 2026-08-07, 1 days ago. The vendor is given until 2026-12-05 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
       "source": "zerodayinitiative.com",
       "first_seen": "2026-08-08T05:34:36Z",
-      "last_seen": "2026-08-12T07:06:25Z"
+      "last_seen": "2026-08-12T09:00:16Z"
     },
     {
       "id": "add38d4a43b7cb9b046f508b8302c443033873ea",
@@ -1851,7 +1931,7 @@
       "description": "A CVSS score 9.8 AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H severity vulnerability discovered by 'Ben Koo (@kiddo_pwn)' was reported to the affected vendor on: 2026-08-07, 1 days ago. The vendor is given until 2026-12-05 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
       "source": "zerodayinitiative.com",
       "first_seen": "2026-08-08T05:34:36Z",
-      "last_seen": "2026-08-12T07:06:25Z"
+      "last_seen": "2026-08-12T09:00:16Z"
     },
     {
       "id": "ad2fc7747dbf6c289e47f5842263a1ac9bf8768d",
@@ -1861,7 +1941,7 @@
       "description": "A CVSS score 7.8 AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H severity vulnerability discovered by 'Anonymous' was reported to the affected vendor on: 2026-08-07, 1 days ago. The vendor is given until 2026-12-05 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
       "source": "zerodayinitiative.com",
       "first_seen": "2026-08-08T05:34:36Z",
-      "last_seen": "2026-08-12T07:06:25Z"
+      "last_seen": "2026-08-12T09:00:16Z"
     },
     {
       "id": "5a8ecaba98c8a9b325557a91ea5f7a960e9b9e07",
@@ -35461,7 +35541,7 @@
       "description": "2.5 million people were affected, in a breach that could spell more trouble down the line.",
       "source": "threatpost.com",
       "first_seen": "2026-08-08T14:21:59Z",
-      "last_seen": "2026-08-12T07:06:25Z"
+      "last_seen": "2026-08-12T09:00:16Z"
     },
     {
       "id": "4140c7a34b0ba94ad2e6b0cae9f59b0cb9bfffea",
@@ -35471,7 +35551,7 @@
       "description": "Researchers uncover a watering hole attack likely carried out by APT TA423, which attempts to plant the ScanBox JavaScript-based reconnaissance tool.",
       "source": "threatpost.com",
       "first_seen": "2026-08-08T14:21:59Z",
-      "last_seen": "2026-08-12T07:06:25Z"
+      "last_seen": "2026-08-12T09:00:16Z"
     },
     {
       "id": "9359ee40a641a4b565080313045f1d7e7fe6552b",
@@ -35481,7 +35561,7 @@
       "description": "Over 130 companies tangled in sprawling phishing campaign that spoofed a multi-factor authentication system.",
       "source": "threatpost.com",
       "first_seen": "2026-08-08T14:21:59Z",
-      "last_seen": "2026-08-12T07:06:25Z"
+      "last_seen": "2026-08-12T09:00:16Z"
     },
     {
       "id": "b4ccef0737cd4050d65241bf754072030b6b5e6a",
@@ -35491,7 +35571,7 @@
       "description": "Lockbit is by far this summer’s most prolific ransomware group, trailed by two offshoots of the Conti group.",
       "source": "threatpost.com",
       "first_seen": "2026-08-08T14:21:59Z",
-      "last_seen": "2026-08-12T07:06:25Z"
+      "last_seen": "2026-08-12T09:00:16Z"
     },
     {
       "id": "12ee113fc8fce91f6d7fb28deab2b1ad20061ec7",
@@ -35501,7 +35581,7 @@
       "description": "Tens of thousands of cameras have failed to patch a critical, 11-month-old CVE, leaving thousands of organizations exposed.",
       "source": "threatpost.com",
       "first_seen": "2026-08-08T14:21:59Z",
-      "last_seen": "2026-08-12T07:06:25Z"
+      "last_seen": "2026-08-12T09:00:16Z"
     }
   ]
 }
