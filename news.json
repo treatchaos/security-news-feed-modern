@@ -1,34 +1,76 @@
 {
-  "last_updated": "2026-08-13T09:01:46Z",
+  "last_updated": "2026-08-13T10:51:52Z",
   "count": 35,
   "items": [
+    {
+      "title": "Fortinet Patches Authentication Flaws in FortiWeb and FortiManager",
+      "link": "https://www.securityweek.com/fortinet-patches-authentication-flaws-in-fortiweb-and-fortimanager/",
+      "date": "2026-08-13T10:40:57Z",
+      "description": "The vulnerabilities could allow attackers to log in with random usernames and passwords or impersonate any FortiGate appliance. The post Fortinet Patches Authentication Flaws in FortiWeb and FortiManager appeared first on SecurityWeek.",
+      "source": "securityweek.com"
+    },
+    {
+      "title": "Kimwolf v7 Botnet Uses Chrome Browser Fingerprints to Hide HTTP/2 DDoS Attacks",
+      "link": "https://cybersecuritynews.com/kimwolf-v7-uses-chrome-browser/",
+      "date": "2026-08-13T10:37:21Z",
+      "description": "Kimwolf v7 is raising the stakes for attacks launched from everyday Android TV boxes and set-top devices. The latest version can make disruptive web traffic look more like a real visitor browsing a site, making defensive filtering harder at a critical moment. The botnet has been active under related names since 2024, moving from Linux […] The post Kimwolf v7 Botnet Uses Chrome Browser…",
+      "source": "cybersecuritynews.com"
+    },
+    {
+      "title": "40 Minute LiteLLM Hack Exposes Cloud Keys and CI/CD Secrets From 2,488 Companies",
+      "link": "https://cybersecuritynews.com/40-minute-litellm-hack/",
+      "date": "2026-08-13T10:32:21Z",
+      "description": "A supply-chain breach involving LiteLLM has widened from a compromised software release into an exposure event affecting thousands of corporate build environments. The incident shows how one poisoned dependency can reach far beyond its original project, placing cloud access and deployment credentials within reach of attackers. The attack path reportedly started with a compromise of […] The post…",
+      "source": "cybersecuritynews.com"
+    },
+    {
+      "title": "Wireshark 4.6.8 Released With Patch for 28 Vulnerabilities That Lead to Crashes",
+      "link": "https://cybersecuritynews.com/wireshark-4-6-8-released/",
+      "date": "2026-08-13T10:07:22Z",
+      "description": "The Wireshark Foundation has officially rolled out Wireshark 4.6.8, a security update that patches 28 distinct vulnerabilities capable of triggering application crashes across the network protocol analyzer. As the world’s most widely used tool for network troubleshooting, protocol analysis, software development, and education, Wireshark is a staple for security operations centers (SOCs) and…",
+      "source": "cybersecuritynews.com"
+    },
+    {
+      "title": "'Jewelbug' APT Balances State Espionage &amp; Cryptocurrency Theft",
+      "link": "https://www.darkreading.com/threat-intelligence/jewelbug-apt-state-espionage-cryptocurrency-theft",
+      "date": "2026-08-13T10:00:00Z",
+      "description": "Researchers discovered hackers-for-hire performing cyber espionage and financially motivated heists from the same Web panel.",
+      "source": "darkreading.com"
+    },
+    {
+      "title": "White House Mobilizes Security Firms for Operations Against Foreign Cybercrime Gangs",
+      "link": "https://www.securityweek.com/white-house-mobilizes-security-firms-for-operations-against-foreign-cybercrime-gangs/",
+      "date": "2026-08-13T09:53:04Z",
+      "description": "Contracts may require a $1 million bond, which will be forfeited if a company fails to comply with operational requirements. The post White House Mobilizes Security Firms for Operations Against Foreign Cybercrime Gangs appeared first on SecurityWeek.",
+      "source": "securityweek.com"
+    },
+    {
+      "title": "Blacklight Toolkit Finds Codex, Claude Code, and Cursor Artifacts Exposing Tokens and Session Data",
+      "link": "https://cybersecuritynews.com/blacklight-toolkit/",
+      "date": "2026-08-13T09:46:21Z",
+      "description": "SpecterOps has released Blacklight, an open-source toolkit that identifies local artifacts from AI coding agents like Codex, Claude Code, Cursor, and Antigravity CLI, which can expose authentication data, session history, project details, and connected services. AI agents are increasingly used to write code, troubleshoot problems, run commands, inspect repositories, and interact with cloud…",
+      "source": "cybersecuritynews.com"
+    },
+    {
+      "title": "Phantom Stealer Hides Inside PNG Files, Then Steals Your Passwords, Cookies and Crypto",
+      "link": "https://cybersecuritynews.com/phantom-stealer-inside-png/",
+      "date": "2026-08-13T09:08:52Z",
+      "description": "Phantom Stealer is taking a familiar computer file and turning it into a hiding place. The credential-stealing malware can conceal its next stage in PNG resources, then quietly collect passwords, browser cookies, cryptocurrency wallet material and other valuable data from Windows systems. The threat has appeared in campaigns aimed at users in several countries. Its […] The post Phantom Stealer…",
+      "source": "cybersecuritynews.com"
+    },
+    {
+      "title": "Critical VMware vCenter Vulnerability in Attackers’ Crosshairs",
+      "link": "https://www.securityweek.com/critical-vmware-vcenter-vulnerability-in-attackers-crosshairs/",
+      "date": "2026-08-13T09:06:40Z",
+      "description": "Tracked as CVE-2026–59310, the directory traversal bug allows remote attackers to execute arbitrary code. The post Critical VMware vCenter Vulnerability in Attackers’ Crosshairs appeared first on SecurityWeek.",
+      "source": "securityweek.com"
+    },
     {
       "title": "Nightmare Eclipse Drops Windows Zero-Day Exploit ‘ShieldBreak’",
       "link": "https://www.securityweek.com/nightmare-eclipse-drops-windows-zero-day-exploit-shieldbreak/",
       "date": "2026-08-13T08:38:03Z",
       "description": "Dropped on Patch Tuesday, the exploit allows any user to spawn a shell with System privileges. The post Nightmare Eclipse Drops Windows Zero-Day Exploit ‘ShieldBreak’ appeared first on SecurityWeek.",
       "source": "securityweek.com"
-    },
-    {
-      "title": "Akira Ransomware Uses Windows Safe Mode to Shut Down EDR Before Launching Encryptor",
-      "link": "https://cybersecuritynews.com/akira-uses-windows-safe-mode/",
-      "date": "2026-08-13T08:17:04Z",
-      "description": "Akira ransomware has added a new way to weaken Windows security before it tries to lock files. In a recent intrusion, an affiliate rebooted a compromised system into Safe Mode with Networking, leaving the device connected while most third-party protections stayed offline. The operation began with a credential-spraying attack against an exposed SonicWall SSL VPN […] The post Akira Ransomware Uses…",
-      "source": "cybersecuritynews.com"
-    },
-    {
-      "title": "Trump Signs Memo Authorizing Private Firms for Cyber Operations Against Foreign Criminals",
-      "link": "https://cybersecuritynews.com/trump-memos-private-firms-cyber/",
-      "date": "2026-08-13T08:14:53Z",
-      "description": "President Donald Trump has signed a presidential memorandum that creates a pathway for companies to take part in government-led cyber operations against foreign criminal groups. The policy targets cyber-enabled transnational criminal organizations, or CE-TCOs, accused of committing online crimes that harm Americans and businesses. The memorandum directs the National Coordination Center, or NCC,…",
-      "source": "cybersecuritynews.com"
-    },
-    {
-      "title": "Critical Adobe Commerce Vulnerabilities Allows Hackers to Execute Arbitrary Code",
-      "link": "https://cybersecuritynews.com/adobe-commerce-vulnerabilities/",
-      "date": "2026-08-13T07:41:52Z",
-      "description": "Adobe has released an urgent security update for Adobe Commerce and Magento Open Source, fixing several vulnerabilities that could allow attackers to bypass security controls, gain higher privileges, and execute arbitrary code. The most serious issue is CVE-2026-71362, an incorrect authorization vulnerability rated 9.1 out of 10 under the CVSS scoring system. The flaw could […] The post Critical…",
-      "source": "cybersecuritynews.com"
     },
     {
       "title": "Belgium's eID Authentication Opens Citizen Accounts to RCE",
@@ -43,20 +85,6 @@
       "date": "2026-08-13T06:09:48Z",
       "description": "Threat actors have begun to exploit a newly disclosed Microsoft SharePoint vulnerability following the release of a proof-of-concept (PoC) code. The vulnerability in question is CVE-2026-55040 (CVSS score: 9.1), which refers to a critical security feature bypass that stems from weak authentication. It was patched by Microsoft as part of its July 2026 Patch Tuesday updates. \"The authentication",
       "source": "thehackernews.com"
-    },
-    {
-      "title": "Cisco Firewall 0-Day Vulnerability Exploited in the Wild to Trigger DoS Condition",
-      "link": "https://cybersecuritynews.com/cisco-firewall-0-day-vulnerability/",
-      "date": "2026-08-13T04:36:14Z",
-      "description": "Security teams managing Cisco edge infrastructure face a high-priority patching deadline after Cisco confirmed active exploitation of a newly disclosed zero-day in its firewall VPN stack. Tracked as CVE-2026-20349, the flaw affects the Remote Access SSL VPN service in Cisco Secure Firewall Adaptive Security Appliance (ASA) Software and Cisco Secure Firewall Threat Defense (FTD) Software […] The…",
-      "source": "cybersecuritynews.com"
-    },
-    {
-      "title": "Critical WordPress RCE Vulnerability Allows Authors to Execute Code via Malicious PNG File",
-      "link": "https://cybersecuritynews.com/wordpress-imagick-rce-vulnerability/",
-      "date": "2026-08-13T02:36:06Z",
-      "description": "WordPress has released version 7.0.4, a security-focused update that closes a remote code execution vulnerability affecting sites that process images with the Imagick extension and Ghostscript. The WordPress security team is urging site owners to update immediately, either through the Dashboard’s Updates screen or by downloading the release directly from WordPress.org, since sites with automatic…",
-      "source": "cybersecuritynews.com"
     },
     {
       "title": "\"City-Forum\" data-theft attacks target Salesforce, ServiceNow portals",
@@ -133,34 +161,6 @@
       "link": "https://www.darkreading.com/cyberattacks-data-breaches/ransomware-hits-colombian-justice-ministry-presidential-transition",
       "date": "2026-08-12T14:00:00Z",
       "description": "Attackers continue to target critical infrastructure and government-linked organizations in the country, mirroring the increased activity across Latin America.",
-      "source": "darkreading.com"
-    },
-    {
-      "title": "Mindgard Raises $30 Million to Protect AI Systems",
-      "link": "https://www.securityweek.com/mindgard-raises-30-million-to-protect-ai-systems/",
-      "date": "2026-08-12T13:24:00Z",
-      "description": "The cybersecurity startup will use the fresh investment to scale its product, engineering, sales, and marketing teams. The post Mindgard Raises $30 Million to Protect AI Systems appeared first on SecurityWeek.",
-      "source": "securityweek.com"
-    },
-    {
-      "title": "WhatsApp Unveils New Scam Alert Feature",
-      "link": "https://www.securityweek.com/whatsapp-unveils-new-scam-alert-feature/",
-      "date": "2026-08-12T13:00:00Z",
-      "description": "Signal has also made a security announcement: an automatic key verification feature to complement its safety number system. The post WhatsApp Unveils New Scam Alert Feature appeared first on SecurityWeek.",
-      "source": "securityweek.com"
-    },
-    {
-      "title": "Stealthy ‘City-Forum’ Attacks Target Salesforce and ServiceNow With Custom Toolset",
-      "link": "https://www.securityweek.com/stealthy-city-forum-attacks-target-salesforce-and-servicenow-with-custom-toolset/",
-      "date": "2026-08-12T13:00:00Z",
-      "description": "Researchers observed the novel campaign exploiting unauthenticated guest access to quietly enumerate and exfiltrate exposed data from both platforms. The post Stealthy ‘City-Forum’ Attacks Target Salesforce and ServiceNow With Custom Toolset appeared first on SecurityWeek.",
-      "source": "securityweek.com"
-    },
-    {
-      "title": "Walmart Leaders Transform Security Operations Without Going Bananas",
-      "link": "https://www.darkreading.com/cybersecurity-operations/walmart-leaders-transform-security-operations-without-going-bananas",
-      "date": "2026-08-12T12:41:03Z",
-      "description": "The big-box giant has scaled its defenses by encouraging trust and innovation. Good communications, transparency, and team spirit are key factors.",
       "source": "darkreading.com"
     },
     {
