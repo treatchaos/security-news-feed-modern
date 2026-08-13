@@ -1,7 +1,47 @@
 {
   "date": "2026-08-13",
-  "count": 4,
+  "count": 8,
   "items": [
+    {
+      "id": "27770fde60e6b10bdef6434f48edec3a7251580e",
+      "title": "Nightmare Eclipse Drops Windows Zero-Day Exploit ‘ShieldBreak’",
+      "link": "https://www.securityweek.com/nightmare-eclipse-drops-windows-zero-day-exploit-shieldbreak/",
+      "date": "2026-08-13T08:38:03Z",
+      "description": "Dropped on Patch Tuesday, the exploit allows any user to spawn a shell with System privileges. The post Nightmare Eclipse Drops Windows Zero-Day Exploit ‘ShieldBreak’ appeared first on SecurityWeek.",
+      "source": "securityweek.com",
+      "first_seen": "2026-08-13T09:01:46Z",
+      "last_seen": "2026-08-13T09:01:46Z"
+    },
+    {
+      "id": "99b10ef1f4117235bf2269534f7c790a8fdc7812",
+      "title": "Akira Ransomware Uses Windows Safe Mode to Shut Down EDR Before Launching Encryptor",
+      "link": "https://cybersecuritynews.com/akira-uses-windows-safe-mode/",
+      "date": "2026-08-13T08:17:04Z",
+      "description": "Akira ransomware has added a new way to weaken Windows security before it tries to lock files. In a recent intrusion, an affiliate rebooted a compromised system into Safe Mode with Networking, leaving the device connected while most third-party protections stayed offline. The operation began with a credential-spraying attack against an exposed SonicWall SSL VPN […] The post Akira Ransomware Uses…",
+      "source": "cybersecuritynews.com",
+      "first_seen": "2026-08-13T09:01:46Z",
+      "last_seen": "2026-08-13T09:01:46Z"
+    },
+    {
+      "id": "b54a0a35870373c6dc75f146b6720e43d08b0765",
+      "title": "Trump Signs Memo Authorizing Private Firms for Cyber Operations Against Foreign Criminals",
+      "link": "https://cybersecuritynews.com/trump-memos-private-firms-cyber/",
+      "date": "2026-08-13T08:14:53Z",
+      "description": "President Donald Trump has signed a presidential memorandum that creates a pathway for companies to take part in government-led cyber operations against foreign criminal groups. The policy targets cyber-enabled transnational criminal organizations, or CE-TCOs, accused of committing online crimes that harm Americans and businesses. The memorandum directs the National Coordination Center, or NCC,…",
+      "source": "cybersecuritynews.com",
+      "first_seen": "2026-08-13T09:01:46Z",
+      "last_seen": "2026-08-13T09:01:46Z"
+    },
+    {
+      "id": "c64d6fc432e0fcde36e2aeb40aae46902ae23ee0",
+      "title": "Critical Adobe Commerce Vulnerabilities Allows Hackers to Execute Arbitrary Code",
+      "link": "https://cybersecuritynews.com/adobe-commerce-vulnerabilities/",
+      "date": "2026-08-13T07:41:52Z",
+      "description": "Adobe has released an urgent security update for Adobe Commerce and Magento Open Source, fixing several vulnerabilities that could allow attackers to bypass security controls, gain higher privileges, and execute arbitrary code. The most serious issue is CVE-2026-71362, an incorrect authorization vulnerability rated 9.1 out of 10 under the CVSS scoring system. The flaw could […] The post Critical…",
+      "source": "cybersecuritynews.com",
+      "first_seen": "2026-08-13T09:01:46Z",
+      "last_seen": "2026-08-13T09:01:46Z"
+    },
     {
       "id": "de44715209a927c72e5900a834cb30590859e8ac",
       "title": "Belgium's eID Authentication Opens Citizen Accounts to RCE",
@@ -10,7 +50,7 @@
       "description": "The trust framework underlying Belgium's electronic ID system was fully compromised by severe vulnerabilities in a key browser extension, showcasing bigger problems with extensions in general.",
       "source": "darkreading.com",
       "first_seen": "2026-08-13T07:10:29Z",
-      "last_seen": "2026-08-13T07:10:29Z"
+      "last_seen": "2026-08-13T09:01:46Z"
     },
     {
       "id": "324eddbb3a4330da778fa05caeda89caf44e6bec",
@@ -20,7 +60,7 @@
       "description": "Threat actors have begun to exploit a newly disclosed Microsoft SharePoint vulnerability following the release of a proof-of-concept (PoC) code. The vulnerability in question is CVE-2026-55040 (CVSS score: 9.1), which refers to a critical security feature bypass that stems from weak authentication. It was patched by Microsoft as part of its July 2026 Patch Tuesday updates. \"The authentication",
       "source": "thehackernews.com",
       "first_seen": "2026-08-13T07:10:29Z",
-      "last_seen": "2026-08-13T07:10:29Z"
+      "last_seen": "2026-08-13T09:01:46Z"
     },
     {
       "id": "38d7e577e682ddcfbaca447d83ceec5ecd0950ef",
@@ -30,7 +70,7 @@
       "description": "Security teams managing Cisco edge infrastructure face a high-priority patching deadline after Cisco confirmed active exploitation of a newly disclosed zero-day in its firewall VPN stack. Tracked as CVE-2026-20349, the flaw affects the Remote Access SSL VPN service in Cisco Secure Firewall Adaptive Security Appliance (ASA) Software and Cisco Secure Firewall Threat Defense (FTD) Software […] The…",
       "source": "cybersecuritynews.com",
       "first_seen": "2026-08-13T05:38:09Z",
-      "last_seen": "2026-08-13T07:10:29Z"
+      "last_seen": "2026-08-13T09:01:46Z"
     },
     {
       "id": "6451402681af2de49f5e513cbdd5e9c4d121b532",
@@ -40,7 +80,7 @@
       "description": "WordPress has released version 7.0.4, a security-focused update that closes a remote code execution vulnerability affecting sites that process images with the Imagick extension and Ghostscript. The WordPress security team is urging site owners to update immediately, either through the Dashboard’s Updates screen or by downloading the release directly from WordPress.org, since sites with automatic…",
       "source": "cybersecuritynews.com",
       "first_seen": "2026-08-13T05:38:09Z",
-      "last_seen": "2026-08-13T07:10:29Z"
+      "last_seen": "2026-08-13T09:01:46Z"
     }
   ]
 }
