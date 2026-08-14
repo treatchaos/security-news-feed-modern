@@ -1,7 +1,77 @@
 {
   "date": "2026-08-14",
-  "count": 26,
+  "count": 33,
   "items": [
+    {
+      "id": "782409413df602e8094e1891ac8b795c8ba563c8",
+      "title": "The Modern Attack Chain: Rethinking Google Workspace Security in the Age of AI",
+      "link": "https://www.bleepingcomputer.com/news/security/the-modern-attack-chain-rethinking-google-workspace-security-in-the-age-of-ai/",
+      "date": "2026-08-14T14:00:10Z",
+      "description": "Google Workspace attacks do not always begin with phishing. Stolen OAuth tokens can provide another path into Gmail, Drive, and connected systems. Material Security explains why organizations need defenses that cover the entire Workspace attack chain. [...]",
+      "source": "bleepingcomputer.com",
+      "first_seen": "2026-08-14T14:07:49Z",
+      "last_seen": "2026-08-14T14:07:49Z"
+    },
+    {
+      "id": "f42271747b22ecfa1a62787c864a75be4e9bc385",
+      "title": "What Boards Need to Know About Tech Risk",
+      "link": "https://www.darkreading.com/cyber-risk/what-boards-must-know-tech-risk",
+      "date": "2026-08-14T14:00:00Z",
+      "description": "Why do so many boards underestimate technology risk until it becomes a crisis?",
+      "source": "darkreading.com",
+      "first_seen": "2026-08-14T14:07:49Z",
+      "last_seen": "2026-08-14T14:07:49Z"
+    },
+    {
+      "id": "9f7b2c6ca2aed3d6ad270744827788374125c89e",
+      "title": "Multiple TP-Link Vulnerabilities Allow Attackers to Bypass Authentication and Escalate Privileges",
+      "link": "https://cybersecuritynews.com/multiple-tp-link-bypass-authentication-vulnerabilities/",
+      "date": "2026-08-14T13:54:56Z",
+      "description": "TP-Link has disclosed multiple high-severity vulnerabilities affecting ISP-managed Aginet networking products, including mesh systems, routers, PON devices, and xDSL modems. The flaws could allow attackers with network access to bypass authentication, escalate privileges, steal sensitive information, read device files, and execute operating system commands. The security advisory, last updated on…",
+      "source": "cybersecuritynews.com",
+      "first_seen": "2026-08-14T14:07:49Z",
+      "last_seen": "2026-08-14T14:07:49Z"
+    },
+    {
+      "id": "f747f77112684cc80202883b1737b7f61be6fb88",
+      "title": "Max severity SAP Commerce Cloud flaw now targeted in attacks",
+      "link": "https://www.bleepingcomputer.com/news/security/max-severity-sap-commerce-cloud-flaw-now-targeted-in-attacks/",
+      "date": "2026-08-14T13:45:18Z",
+      "description": "A maximum-severity SAP Commerce Cloud remote code execution vulnerability patched three days ago is already being targeted in attacks, according to threat intelligence company Defused. [...]",
+      "source": "bleepingcomputer.com",
+      "first_seen": "2026-08-14T14:07:49Z",
+      "last_seen": "2026-08-14T14:07:49Z"
+    },
+    {
+      "id": "82737119c2c488c7c5252fbb82d65b021f140db0",
+      "title": "Bring Your Own EDR Attack Turns SentinelOne Into PPL-Protected Trojan Horse to Shield Malware",
+      "link": "https://cybersecuritynews.com/bring-your-own-edr-attack/",
+      "date": "2026-08-14T13:36:51Z",
+      "description": "A “Bring Your Own EDR” attack abuses trusted SentinelOne components to turn endpoint protection into a powerful malware shield. The research was presented at DEF CON 34 in Las Vegas, and SentinelOne fixed the reported issue in Agent version 26.1.1. Endpoint detection and response tools operate with deep visibility and high privileges because they must […] The post Bring Your Own EDR Attack Turns…",
+      "source": "cybersecuritynews.com",
+      "first_seen": "2026-08-14T14:07:49Z",
+      "last_seen": "2026-08-14T14:07:49Z"
+    },
+    {
+      "id": "5176e5bf709f0efd29c6c71bb61f1335630a6c50",
+      "title": "Citrix NetScaler Heap Overflow Flaw Lets Remote Attackers Execute Code as Root – PoC Released",
+      "link": "https://cybersecuritynews.com/citrix-netscaler-heap-overflow/",
+      "date": "2026-08-14T13:32:45Z",
+      "description": "A working proof-of-concept (PoC) exploit demonstrating how a pre-authentication heap overflow in Citrix NetScaler ADC and NetScaler Gateway can be turned into unauthenticated root-level remote code execution (RCE). The vulnerability was originally addressed in Cloud Software Group’s June 30 security bulletin CTX696604, where Citrix described CVE-2026-8452 as a memory overflow that could result…",
+      "source": "cybersecuritynews.com",
+      "first_seen": "2026-08-14T14:07:49Z",
+      "last_seen": "2026-08-14T14:07:49Z"
+    },
+    {
+      "id": "d2a7edd2b45da80760a48fbadcfb80e12e1570cf",
+      "title": "AI Agents Don’t Stop When Malware Fails, They Write Another Tool and Keep Attacking",
+      "link": "https://cybersecuritynews.com/ai-agents/",
+      "date": "2026-08-14T12:44:03Z",
+      "description": "AI agents are changing the shape of cyberattacks. Instead of relying on a fixed piece of malware, an agent can test an approach, see it fail, write a replacement tool, and continue toward the same goal. Recent incidents show that this is no longer only a theoretical risk. Agents linked to advanced AI models reached […] The post AI Agents Don’t Stop When Malware Fails, They Write Another Tool and…",
+      "source": "cybersecuritynews.com",
+      "first_seen": "2026-08-14T14:07:49Z",
+      "last_seen": "2026-08-14T14:07:49Z"
+    },
     {
       "id": "5f043a6a9419b070d2d9a2e9e1defcea944cf885",
       "title": "Dysphoria Botnet Turns Compromised Routers and Cameras Into DDoS Bots and C2 Relay Nodes",
@@ -10,7 +80,7 @@
       "description": "Dysphoria has turned a large number of everyday internet-connected devices into a potential attack network. The botnet is linked to roughly 296,000 compromised devices, placing routers, cameras, gateways, and other connected equipment at risk of being used against targets chosen by its operators. The scale matters because these devices often sit quietly at homes and […] The post Dysphoria Botnet…",
       "source": "cybersecuritynews.com",
       "first_seen": "2026-08-14T12:39:22Z",
-      "last_seen": "2026-08-14T12:39:22Z"
+      "last_seen": "2026-08-14T14:07:49Z"
     },
     {
       "id": "4fa555a02b7344c924589a956f5280246c9966af",
@@ -20,7 +90,7 @@
       "description": "The $1 billion deal aims to converge data security and identity into a single control plane for agents, with privileged access redefined around business context rather than static roles.",
       "source": "darkreading.com",
       "first_seen": "2026-08-14T12:39:22Z",
-      "last_seen": "2026-08-14T12:39:22Z"
+      "last_seen": "2026-08-14T14:07:49Z"
     },
     {
       "id": "609cb8c3f0022ef2d3fdf4e1e0157dc0270fa5a9",
@@ -30,7 +100,7 @@
       "description": "Noteworthy stories that might have slipped under the radar: government AI platform deal sparks outrage, North Korean IT worker breaches federal agency, DEF CON attendee blamed for Delta flight disruption. The post In Other News: Rapid7 Layoffs, Hacking a Boeing 737, Refrigeration System Vulnerabilities appeared first on SecurityWeek.",
       "source": "securityweek.com",
       "first_seen": "2026-08-14T12:39:22Z",
-      "last_seen": "2026-08-14T12:39:22Z"
+      "last_seen": "2026-08-14T14:07:49Z"
     },
     {
       "id": "66f424b2d0f9bd960141d77280de8f5a61edeb34",
@@ -50,7 +120,7 @@
       "description": "Oil giant Shell has confirmed it is investigating a potential security incident after the Clop ransomware gang claimed it stole 89GB of data. [...]",
       "source": "bleepingcomputer.com",
       "first_seen": "2026-08-14T12:39:22Z",
-      "last_seen": "2026-08-14T12:39:22Z"
+      "last_seen": "2026-08-14T14:07:49Z"
     },
     {
       "id": "4102f69202671fce1e5b3140d88f513f6d15d403",
@@ -60,7 +130,7 @@
       "description": "Over 95% of the affected companies were exposed before the malicious LiteLLM packages were published. The post Trivy, Not LiteLLM Behind the 2,500 Org Compromise appeared first on SecurityWeek.",
       "source": "securityweek.com",
       "first_seen": "2026-08-14T11:35:59Z",
-      "last_seen": "2026-08-14T12:39:22Z"
+      "last_seen": "2026-08-14T14:07:49Z"
     },
     {
       "id": "9b13e1f28d791d0f0a3149d8077989353a68937d",
@@ -80,7 +150,7 @@
       "description": "Google Cloud outlines its roadmap to full post-quantum cryptography readiness, with key milestones targeted for 2027 and 2028. The post Google Cloud Sets Out Post-Quantum Roadmap With 2029 Readiness Goal appeared first on SecurityWeek.",
       "source": "securityweek.com",
       "first_seen": "2026-08-14T11:35:59Z",
-      "last_seen": "2026-08-14T12:39:22Z"
+      "last_seen": "2026-08-14T14:07:49Z"
     },
     {
       "id": "75a2a6649a671d1021438afb87042d317c56e562",
@@ -90,7 +160,7 @@
       "description": "The ShinyHunters extortion group stole personal information from 1.6 million RingCentral accounts after hacking the company in July, according to the data breach notification service Have I Been Pwned. [...]",
       "source": "bleepingcomputer.com",
       "first_seen": "2026-08-14T11:35:59Z",
-      "last_seen": "2026-08-14T12:39:22Z"
+      "last_seen": "2026-08-14T14:07:49Z"
     },
     {
       "id": "b3aa07bd4c4d4ec97f6f3d15d452936c5a6d3fbb",
@@ -100,7 +170,7 @@
       "description": "The hackers published the allegedly stolen information, including names, addresses, email addresses, and phone numbers. The post 1.6 Million Likely Impacted by RingCentral Data Breach appeared first on SecurityWeek.",
       "source": "securityweek.com",
       "first_seen": "2026-08-14T10:47:40Z",
-      "last_seen": "2026-08-14T12:39:22Z"
+      "last_seen": "2026-08-14T14:07:49Z"
     },
     {
       "id": "8812233626525b789854c0a9cadfa0d9da0c9cbb",
@@ -120,7 +190,7 @@
       "description": "The root cause of the incident is believed to be a compromised AWS access key that was exposed in publicly available JavaScript build artifacts. The post Over 1,000 Charities Hit by Beacon CRM Data Breach appeared first on SecurityWeek.",
       "source": "securityweek.com",
       "first_seen": "2026-08-14T09:53:29Z",
-      "last_seen": "2026-08-14T12:39:22Z"
+      "last_seen": "2026-08-14T14:07:49Z"
     },
     {
       "id": "e60d1e3d66655f8ee3bf12c8ba739ba821928b71",
@@ -150,7 +220,7 @@
       "description": "A former data analyst contractor for Brightly Software has been sentenced to two years in prison for targeting his employer in a $2.5 million extortion scheme. [...]",
       "source": "bleepingcomputer.com",
       "first_seen": "2026-08-14T08:57:10Z",
-      "last_seen": "2026-08-14T12:39:22Z"
+      "last_seen": "2026-08-14T14:07:49Z"
     },
     {
       "id": "a06704d8704adaae05d51632ca8d22b97bda37de",
