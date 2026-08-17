@@ -1,7 +1,27 @@
 {
   "date": "2026-08-17",
-  "count": 12,
+  "count": 17,
   "items": [
+    {
+      "id": "5b5ad8b9f83d3bd8ac9904fb78d40d5ee388b1fa",
+      "title": "French tax authority data breach affects 678,000 individuals",
+      "link": "https://www.bleepingcomputer.com/news/security/french-tax-authority-data-breach-affects-678-000-individuals/",
+      "date": "2026-08-17T10:09:48Z",
+      "description": "The French Ministry of the Economy and Finance has disclosed a data breach after an attacker accessed the General Directorate of Public Finances (DGFiP) systems and stole data belonging to 678,000 individuals. [...]",
+      "source": "bleepingcomputer.com",
+      "first_seen": "2026-08-17T10:20:54Z",
+      "last_seen": "2026-08-17T10:20:54Z"
+    },
+    {
+      "id": "1ac2c2cb372139b0d567aa52607a8fb70390c8a7",
+      "title": "40,000 Impacted by SafePal Data Breach",
+      "link": "https://www.securityweek.com/40000-impacted-by-safepal-data-breach/",
+      "date": "2026-08-17T09:37:06Z",
+      "description": "Hackers exploited a vulnerability in the order-tracking function of a plugin to access SafePal customer information. The post 40,000 Impacted by SafePal Data Breach appeared first on SecurityWeek.",
+      "source": "securityweek.com",
+      "first_seen": "2026-08-17T10:20:54Z",
+      "last_seen": "2026-08-17T10:20:54Z"
+    },
     {
       "id": "dcf9212f8feaf654a7650ec977ee99fac4465502",
       "title": "Microsoft working on Defender patch for ShieldBreak zero-day",
@@ -10,7 +30,17 @@
       "description": "Microsoft is working on a security patch for the \"ShieldBreak\" zero-day vulnerability disclosed last week by security researcher \"Nightmare Eclipse\" and now tracked as CVE-2026-69414. [...]",
       "source": "bleepingcomputer.com",
       "first_seen": "2026-08-17T09:29:26Z",
-      "last_seen": "2026-08-17T09:29:26Z"
+      "last_seen": "2026-08-17T10:20:54Z"
+    },
+    {
+      "id": "61386fc303f7502e6d575b59487756be443191c6",
+      "title": "HoneyMyte CoolClient Backdoor Uses Signed Kernel Rootkit to Hide Processes, Files and C2 Traffic",
+      "link": "https://cybersecuritynews.com/honeymyte-coolclient-backdoor/",
+      "date": "2026-08-17T08:55:57Z",
+      "description": "HoneyMyte has upgraded its CoolClient backdoor with a kernel-level rootkit for Windows. The change makes routine investigation much harder for defenders. It gives intruders tools designed to survive ordinary security checks. The activity targeted organizations in Pakistan, Mongolia, Myanmar and Russia, including government entities. In Myanmar, attackers first used PlugX, then installed…",
+      "source": "cybersecuritynews.com",
+      "first_seen": "2026-08-17T10:20:54Z",
+      "last_seen": "2026-08-17T10:20:54Z"
     },
     {
       "id": "594fd8e6bdb4992e05d1d8368e91125f1acc237b",
@@ -20,7 +50,27 @@
       "description": "Threat actors gained root access to the vulnerable systems and deployed a Monero miner. The post Recent macOS Screen Sharing Vulnerability Exploited in Attacks appeared first on SecurityWeek.",
       "source": "securityweek.com",
       "first_seen": "2026-08-17T09:29:26Z",
-      "last_seen": "2026-08-17T09:29:26Z"
+      "last_seen": "2026-08-17T10:20:54Z"
+    },
+    {
+      "id": "e5d57a8a4ab01deb797a5391b83c642e55f43ee6",
+      "title": "GeoServer’s Unauthenticated SQL injection Vulnerability Enables RCE Attacks",
+      "link": "https://cybersecuritynews.com/geoservers-unauthenticated-sql-injection-vulnerability/",
+      "date": "2026-08-17T08:36:08Z",
+      "description": "GeoServer administrators should urgently update affected systems after researchers disclosed an unauthenticated SQL injection flaw in the jsonArrayContains filter function. The issue can allow attackers to manipulate database queries via publicly accessible OGC WMS and WFS services and, under dangerous PostgreSQL privilege configurations, potentially execute commands on the database host.…",
+      "source": "cybersecuritynews.com",
+      "first_seen": "2026-08-17T10:20:54Z",
+      "last_seen": "2026-08-17T10:20:54Z"
+    },
+    {
+      "id": "b2e6a9a462f78c984b1b51b91876c5789ad8ced8",
+      "title": "Z.ai Unveils GLM-5.3 with Major Enhancements for Coding and Cybersecurity",
+      "link": "https://cybersecuritynews.com/glm-5-3-major-enhancements/",
+      "date": "2026-08-17T08:35:01Z",
+      "description": "Z.ai has released GLM-5.3, a new AI model built to handle complex coding, long-running agent tasks, and cybersecurity analysis. The company says the model uses the same base model as GLM-5.2, with improvements coming entirely from larger-scale post-training. The release focuses on training AI agents in realistic task environments rather than short coding exercises. These […] The post Z.ai…",
+      "source": "cybersecuritynews.com",
+      "first_seen": "2026-08-17T10:20:54Z",
+      "last_seen": "2026-08-17T10:20:54Z"
     },
     {
       "id": "927bf94c9b15bdbde42394268558ee4154a106f3",
@@ -30,7 +80,7 @@
       "description": "The vulnerability tracked as CVE-2026-58231 can be exploited to execute arbitrary code and compromise internal components. The post Critical SAP Commerce Cloud Vulnerability Exploited 3 Days After Disclosure appeared first on SecurityWeek.",
       "source": "securityweek.com",
       "first_seen": "2026-08-17T08:30:15Z",
-      "last_seen": "2026-08-17T09:29:26Z"
+      "last_seen": "2026-08-17T10:20:54Z"
     },
     {
       "id": "60bf4c9ba037e354eeec67cbad0179d932c34bb5",
@@ -40,7 +90,7 @@
       "description": "A criminal AI service called MessiahGPT is being marketed on BreachForums as an uncensored platform for creating ransomware, phishing kits, stealers, crypters, rootkits, and social-engineering content. Trellix researchers describe it as part of a growing underground market that turns offensive AI capabilities into a cheap subscription service. MessiahGPT is advertised as a model built without…",
       "source": "cybersecuritynews.com",
       "first_seen": "2026-08-17T08:30:15Z",
-      "last_seen": "2026-08-17T08:30:15Z"
+      "last_seen": "2026-08-17T10:20:54Z"
     },
     {
       "id": "9986e31ba88a9549208a751c92429a25bf62a592",
@@ -50,7 +100,7 @@
       "description": "Fake job interviews are again being used to breach cryptocurrency teams. In a documented case, a convincing Web3 recruitment process led a Windows user to install malware that stole private keys, browser data, and other sensitive information. The operation began with a recruiter contact on LinkedIn, followed by Calendly interviews and a technical assessment presented […] The post Fake Web3…",
       "source": "cybersecuritynews.com",
       "first_seen": "2026-08-17T08:30:15Z",
-      "last_seen": "2026-08-17T08:30:15Z"
+      "last_seen": "2026-08-17T10:20:54Z"
     },
     {
       "id": "ae3e63dfd1ed660a1afc4b3af874367340da87a2",
@@ -60,7 +110,7 @@
       "description": "A threat actor is claiming the exfiltration of millions of records from McDonald’s, TCS, Vodafone, and other large organizations. The post Fortune 500 Companies Hit in Azure Data Theft Campaign appeared first on SecurityWeek.",
       "source": "securityweek.com",
       "first_seen": "2026-08-17T07:42:32Z",
-      "last_seen": "2026-08-17T09:29:26Z"
+      "last_seen": "2026-08-17T10:20:54Z"
     },
     {
       "id": "e85b1e3db342c4e4ca59cf404919c60fbdb9401c",
@@ -120,7 +170,7 @@
       "description": "Cryptocurrency hardware wallet provider SafePal is warning of a data breach affecting about 39,798 customers after a flaw was exploited to steal customer order information, and a threat actor is now claiming to be selling the stolen data. [...]",
       "source": "bleepingcomputer.com",
       "first_seen": "2026-08-17T00:36:30Z",
-      "last_seen": "2026-08-17T09:29:26Z"
+      "last_seen": "2026-08-17T10:20:54Z"
     }
   ]
 }
