@@ -1,7 +1,14 @@
 {
-  "last_updated": "2026-08-17T12:20:32Z",
-  "count": 35,
+  "last_updated": "2026-08-17T13:31:33Z",
+  "count": 30,
   "items": [
+    {
+      "title": "Windows Server 2022 reaches end of mainstream support in 60 days",
+      "link": "https://www.bleepingcomputer.com/news/microsoft/windows-server-2022-reaches-end-of-mainstream-support-in-60-days/",
+      "date": "2026-08-17T12:33:11Z",
+      "description": "Microsoft has reminded IT administrators that Windows Server 2022 is rapidly approaching its mainstream end date of October 2026, when it will switch to extended support. [...]",
+      "source": "bleepingcomputer.com"
+    },
     {
       "title": "Irregular Details How a Naming Error Let AI Models Attack a Real Company",
       "link": "https://www.securityweek.com/irregular-details-how-a-naming-error-let-ai-models-attack-a-real-company/",
@@ -10,18 +17,11 @@
       "source": "securityweek.com"
     },
     {
-      "title": "Threema Secure Messaging Service Hit by Massive DDoS Attack",
-      "link": "https://cybersecuritynews.com/threema-hit-by-massive-ddos-attack/",
-      "date": "2026-08-17T11:49:33Z",
-      "description": "Threema, a privacy-focused secure messaging service, was hit by a series of large-scale distributed denial-of-service (DDoS attacks) that temporarily disrupted access for users. The incidents affected the platform on Tuesday evening and continued intermittently through Wednesday morning before normal operations were restored. According to Threema, the service was unavailable between 7:30 p.m.…",
-      "source": "cybersecuritynews.com"
-    },
-    {
-      "title": "Microsoft SCCM Vulnerability Chained to Execute Malicious Code Remotely",
-      "link": "https://cybersecuritynews.com/microsoft-sccm-vulnerability/",
-      "date": "2026-08-17T11:26:12Z",
-      "description": "Security researchers have disclosed a serious attack chain affecting Microsoft System Center Configuration Manager, commonly known as SCCM or Configuration Manager. The flaws could allow an attacker to execute malicious code remotely on an SCCM primary site server, potentially taking control of an organization’s managed Windows environment. The attack is especially concerning because a standard…",
-      "source": "cybersecuritynews.com"
+      "title": "How MCP Servers Can Expose Enterprise Secrets",
+      "link": "https://thehackernews.com/2026/08/how-mcp-servers-can-expose-enterprise.html",
+      "date": "2026-08-17T11:58:00Z",
+      "description": "MCP servers can expose enterprise secrets through plaintext configuration files, over-permissioned access and prompt injection, often before security teams even know the server is running. As more organizations adopt AI agents into their systems, that exposure can silently become a major gap in MCP server security. The Model Context Protocol (MCP) allows AI agents to reach the tools and data,",
+      "source": "thehackernews.com"
     },
     {
       "title": "Philips and GE investigating Clop ransomware data theft claims",
@@ -31,18 +31,18 @@
       "source": "bleepingcomputer.com"
     },
     {
-      "title": "Roundcube 1.6.18 and 1.7.3 Released With Fix for RCE and SSRF Vulnerabilities",
-      "link": "https://cybersecuritynews.com/roundcube-1-6-18-and-1-7-3-released-with-fix/",
-      "date": "2026-08-17T11:24:35Z",
-      "description": "Roundcube has released versions 1.6.18 and 1.7.3 to address eleven security vulnerabilities affecting its webmail platform. The updates fix a remote code execution flaw, server-side request forgery bypasses, injection vulnerabilities, and stored cross-site scripting issues. Administrators using Roundcube 1.6.x or 1.7.x should update as soon as possible. The most serious issue is a remote code…",
-      "source": "cybersecuritynews.com"
-    },
-    {
       "title": "Conflicting Test Goals Pushed Claude Agents to Deploy Self-Replicating Malware",
       "link": "https://www.securityweek.com/conflicting-test-goals-pushed-claude-agents-to-deploy-self-replicating-malware/",
       "date": "2026-08-17T11:09:57Z",
       "description": "Anthropic has been conducting tests to identify issues in how AI agents interact with each other. The post Conflicting Test Goals Pushed Claude Agents to Deploy Self-Replicating Malware appeared first on SecurityWeek.",
       "source": "securityweek.com"
+    },
+    {
+      "title": "Unisoc VoLTE Video Call Exploit Chain Can Give Attackers Full Android Kernel Access",
+      "link": "https://thehackernews.com/2026/08/unisoc-volte-video-call-exploit-chain.html",
+      "date": "2026-08-17T10:52:34Z",
+      "description": "Security researchers at SSD Secure Disclosure have published a two-stage exploit chain that achieves full Android kernel access on devices running Unisoc modem firmware through a VoLTE video call, with no fix from the chipset maker. The advisory, published August 17, 2026, is the second stage of a chain that began in March 2026, when SSD disclosed remote code execution in the",
+      "source": "thehackernews.com"
     },
     {
       "title": "French tax authority data breach affects 678,000 individuals",
@@ -73,25 +73,11 @@
       "source": "bleepingcomputer.com"
     },
     {
-      "title": "HoneyMyte CoolClient Backdoor Uses Signed Kernel Rootkit to Hide Processes, Files and C2 Traffic",
-      "link": "https://cybersecuritynews.com/honeymyte-coolclient-backdoor/",
-      "date": "2026-08-17T08:55:57Z",
-      "description": "HoneyMyte has upgraded its CoolClient backdoor with a kernel-level rootkit for Windows. The change makes routine investigation much harder for defenders. It gives intruders tools designed to survive ordinary security checks. The activity targeted organizations in Pakistan, Mongolia, Myanmar and Russia, including government entities. In Myanmar, attackers first used PlugX, then installed…",
-      "source": "cybersecuritynews.com"
-    },
-    {
       "title": "Recent macOS Screen Sharing Vulnerability Exploited in Attacks",
       "link": "https://www.securityweek.com/recent-macos-screen-sharing-vulnerability-exploited-in-attacks/",
       "date": "2026-08-17T08:47:38Z",
       "description": "Threat actors gained root access to the vulnerable systems and deployed a Monero miner. The post Recent macOS Screen Sharing Vulnerability Exploited in Attacks appeared first on SecurityWeek.",
       "source": "securityweek.com"
-    },
-    {
-      "title": "GeoServer’s Unauthenticated SQL injection Vulnerability Enables RCE Attacks",
-      "link": "https://cybersecuritynews.com/geoservers-unauthenticated-sql-injection-vulnerability/",
-      "date": "2026-08-17T08:36:08Z",
-      "description": "GeoServer administrators should urgently update affected systems after researchers disclosed an unauthenticated SQL injection flaw in the jsonArrayContains filter function. The issue can allow attackers to manipulate database queries via publicly accessible OGC WMS and WFS services and, under dangerous PostgreSQL privilege configurations, potentially execute commands on the database host.…",
-      "source": "cybersecuritynews.com"
     },
     {
       "title": "Critical SAP Commerce Cloud Vulnerability Exploited 3 Days After Disclosure",
@@ -115,24 +101,10 @@
       "source": "bleepingcomputer.com"
     },
     {
-      "title": "Anthropic confirms Claude is down in major outage affecting multiple services",
-      "link": "https://www.bleepingcomputer.com/news/artificial-intelligence/anthropic-confirms-claude-is-down-in-major-outage-affecting-multiple-services/",
-      "date": "2026-08-16T22:28:57Z",
-      "description": "Claude is experiencing a major outage, with users reporting login problems and degraded performance across several Anthropic services. [...]",
-      "source": "bleepingcomputer.com"
-    },
-    {
       "title": "SAP Commerce Cloud CVE-2026-58231 Targeted in Exploitation Attempts Days After Patch",
       "link": "https://thehackernews.com/2026/08/sap-commerce-cloud-cve-2026-58231.html",
       "date": "2026-08-15T08:38:46Z",
       "description": "A maximum-severity security vulnerability impacting SAP Commerce Cloud is witnessing active exploitation efforts. The vulnerability, tracked as CVE-2026-58231, is rated 10.0 on the CVSS scoring system. It relates to an instance of insufficient authorization checks and input validation. \"SAP Commerce Cloud allows an unauthenticated attacker to abuse a default authentication client and submit",
-      "source": "thehackernews.com"
-    },
-    {
-      "title": "Apple macOS Screen Sharing Flaw Exploited on Internet-Exposed Macs to Install Monero Miner",
-      "link": "https://thehackernews.com/2026/08/apple-macos-screen-sharing-flaw.html",
-      "date": "2026-08-15T07:24:04Z",
-      "description": "A recently patched security flaw in Apple macOS has come under active exploitation in the wild to deploy a cryptocurrency miner, the Netherlands National Cyber Security Centre (NCSC) has warned. The vulnerability in question is CVE-2026-65400 (CVSS score: 9.8), a critical authentication issue impacting the Screen Sharing component that could allow an attacker already on the network to",
       "source": "thehackernews.com"
     },
     {
@@ -141,13 +113,6 @@
       "date": "2026-08-14T19:24:18Z",
       "description": "In this video interview, Standard Chartered's group CISO shares insights on transitioning from technical roles to strategic leadership, the importance of business-savvy security executives, and how AI is reshaping both defensive capabilities and adversarial tactics in banking.",
       "source": "darkreading.com"
-    },
-    {
-      "title": "Hackers Spend Nearly $7 Million on Expired Domains to Redirect Traffic to Scams and Malware",
-      "link": "https://thehackernews.com/2026/08/hackers-spend-nearly-7-million-on.html",
-      "date": "2026-08-14T18:48:46Z",
-      "description": "Threat actors are acquiring expired domains to inherit website traffic and reputation to redirect victims to scams and malware on a large scale. DNS threat intelligence firm Infoblox has given the name dropcatch domains to those that get a second chance, where an expired domain becomes available for registration and is then snapped up by another party. During the first half of 2026, 50,400",
-      "source": "thehackernews.com"
     },
     {
       "title": "Amid AI-Driven Bug-Hunt Tsunami, NIST Looks to … AI",
