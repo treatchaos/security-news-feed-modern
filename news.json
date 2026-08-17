@@ -1,7 +1,35 @@
 {
-  "last_updated": "2026-08-17T13:31:33Z",
-  "count": 30,
+  "last_updated": "2026-08-17T14:17:02Z",
+  "count": 35,
   "items": [
+    {
+      "title": "Certighost and the Privilege Hiding in Your Certificate Authority",
+      "link": "https://www.bleepingcomputer.com/news/security/certighost-and-the-privilege-hiding-in-your-certificate-authority/",
+      "date": "2026-08-17T14:00:10Z",
+      "description": "CVE-2026-54121 lets a standard domain user turn your Enterprise CA into a Domain Controller. The patch is the easy part. The lesson is standing privilege, implicit trust, and treating PKI as the Tier 0 identity infrastructure it has always been. [...]",
+      "source": "bleepingcomputer.com"
+    },
+    {
+      "title": "680,000 Impacted by French Tax Authority Data Breach",
+      "link": "https://www.securityweek.com/680000-impacted-by-french-tax-authority-data-breach/",
+      "date": "2026-08-17T13:53:55Z",
+      "description": "Hackers used compromised credentials to access enterprise and personal tax-related data. The post 680,000 Impacted by French Tax Authority Data Breach appeared first on SecurityWeek.",
+      "source": "securityweek.com"
+    },
+    {
+      "title": "Top 10 Best Software-Defined Perimeter (SDP) Solutions in 2026",
+      "link": "https://cybersecuritynews.com/best-software-defined-perimeter-solutions/",
+      "date": "2026-08-17T13:27:28Z",
+      "description": "A software-defined perimeter makes your infrastructure invisible: resources accept no unauthenticated connections, so attackers cannot scan, probe, or exploit what they cannot see. Zscaler leads at enterprise scale, Appgate remains the purest SDP implementation of the original architecture, and Twingate is the fastest path for teams replacing a VPN this quarter. Here are the ten […] The post Top…",
+      "source": "cybersecuritynews.com"
+    },
+    {
+      "title": "⚡ Weekly Recap: VMware Exploits, Windows 0-Day, MCP Attacks, Browser Hijacks and More",
+      "link": "https://thehackernews.com/2026/08/weekly-recap-vmware-exploits-windows-0.html",
+      "date": "2026-08-17T13:23:51Z",
+      "description": "The expensive attacks are not always the clever ones. This week had plenty of proof. Exposed services got hit, old bugs found fresh use, browser sessions became attack paths, and supply-chain problems kept spreading farther than the original compromise. A lot of it came down to access that was already there and defenses that assumed nobody would look too closely. So, nothing magical. Just a",
+      "source": "thehackernews.com"
+    },
     {
       "title": "Windows Server 2022 reaches end of mainstream support in 60 days",
       "link": "https://www.bleepingcomputer.com/news/microsoft/windows-server-2022-reaches-end-of-mainstream-support-in-60-days/",
@@ -24,11 +52,32 @@
       "source": "thehackernews.com"
     },
     {
+      "title": "Threema Secure Messaging Service Hit by Massive DDoS Attack",
+      "link": "https://cybersecuritynews.com/threema-hit-by-massive-ddos-attack/",
+      "date": "2026-08-17T11:49:33Z",
+      "description": "Threema, a privacy-focused secure messaging service, was hit by a series of large-scale distributed denial-of-service (DDoS attacks) that temporarily disrupted access for users. The incidents affected the platform on Tuesday evening and continued intermittently through Wednesday morning before normal operations were restored. According to Threema, the service was unavailable between 7:30 p.m.…",
+      "source": "cybersecuritynews.com"
+    },
+    {
+      "title": "Microsoft SCCM Vulnerability Chained to Execute Malicious Code Remotely",
+      "link": "https://cybersecuritynews.com/microsoft-sccm-vulnerability/",
+      "date": "2026-08-17T11:26:12Z",
+      "description": "Security researchers have disclosed a serious attack chain affecting Microsoft System Center Configuration Manager, commonly known as SCCM or Configuration Manager. The flaws could allow an attacker to execute malicious code remotely on an SCCM primary site server, potentially taking control of an organization’s managed Windows environment. The attack is especially concerning because a standard…",
+      "source": "cybersecuritynews.com"
+    },
+    {
       "title": "Philips and GE investigating Clop ransomware data theft claims",
       "link": "https://www.bleepingcomputer.com/news/security/philips-and-ge-investigating-clop-ransomware-data-theft-claims/",
       "date": "2026-08-17T11:25:02Z",
       "description": "Tech giants General Electric (GE) and Philips have also confirmed they're investigating claims that the Clop ransomware gang breached their systems and stole data. [...]",
       "source": "bleepingcomputer.com"
+    },
+    {
+      "title": "Roundcube 1.6.18 and 1.7.3 Released With Fix for RCE and SSRF Vulnerabilities",
+      "link": "https://cybersecuritynews.com/roundcube-1-6-18-and-1-7-3-released-with-fix/",
+      "date": "2026-08-17T11:24:35Z",
+      "description": "Roundcube has released versions 1.6.18 and 1.7.3 to address eleven security vulnerabilities affecting its webmail platform. The updates fix a remote code execution flaw, server-side request forgery bypasses, injection vulnerabilities, and stored cross-site scripting issues. Administrators using Roundcube 1.6.x or 1.7.x should update as soon as possible. The most serious issue is a remote code…",
+      "source": "cybersecuritynews.com"
     },
     {
       "title": "Conflicting Test Goals Pushed Claude Agents to Deploy Self-Replicating Malware",
@@ -73,6 +122,13 @@
       "source": "bleepingcomputer.com"
     },
     {
+      "title": "HoneyMyte CoolClient Backdoor Uses Signed Kernel Rootkit to Hide Processes, Files and C2 Traffic",
+      "link": "https://cybersecuritynews.com/honeymyte-coolclient-backdoor/",
+      "date": "2026-08-17T08:55:57Z",
+      "description": "HoneyMyte has upgraded its CoolClient backdoor with a kernel-level rootkit for Windows. The change makes routine investigation much harder for defenders. It gives intruders tools designed to survive ordinary security checks. The activity targeted organizations in Pakistan, Mongolia, Myanmar and Russia, including government entities. In Myanmar, attackers first used PlugX, then installed…",
+      "source": "cybersecuritynews.com"
+    },
+    {
       "title": "Recent macOS Screen Sharing Vulnerability Exploited in Attacks",
       "link": "https://www.securityweek.com/recent-macos-screen-sharing-vulnerability-exploited-in-attacks/",
       "date": "2026-08-17T08:47:38Z",
@@ -80,31 +136,10 @@
       "source": "securityweek.com"
     },
     {
-      "title": "Critical SAP Commerce Cloud Vulnerability Exploited 3 Days After Disclosure",
-      "link": "https://www.securityweek.com/critical-sap-commerce-cloud-vulnerability-exploited-3-days-after-disclosure/",
-      "date": "2026-08-17T08:13:07Z",
-      "description": "The vulnerability tracked as CVE-2026-58231 can be exploited to execute arbitrary code and compromise internal components. The post Critical SAP Commerce Cloud Vulnerability Exploited 3 Days After Disclosure appeared first on SecurityWeek.",
-      "source": "securityweek.com"
-    },
-    {
       "title": "Suspected China-Nexus Actor Exploits VMware vCenter Flaw, Deploys Babuk-Derived Ransomware",
       "link": "https://thehackernews.com/2026/08/suspected-china-nexus-actor-exploits.html",
       "date": "2026-08-17T07:36:19Z",
       "description": "Cybersecurity researchers have attributed the exploitation of a newly patched security flaw in Broadcom VMware vCenter to a suspected China-nexus advanced persistent threat (APT). The attacks involve the exploitation of CVE-2026-59310 (CVSS score: 9.8), a severe directory-traversal vulnerability in the VMware vCenter server that could be weaponized by a malicious actor to execute arbitrary code",
-      "source": "thehackernews.com"
-    },
-    {
-      "title": "SafePal data breach impacts 39,798 customers, stolen info for sale",
-      "link": "https://www.bleepingcomputer.com/news/security/safepal-data-breach-impacts-39-798-customers-stolen-info-for-sale/",
-      "date": "2026-08-16T23:47:06Z",
-      "description": "Cryptocurrency hardware wallet provider SafePal is warning of a data breach affecting about 39,798 customers after a flaw was exploited to steal customer order information, and a threat actor is now claiming to be selling the stolen data. [...]",
-      "source": "bleepingcomputer.com"
-    },
-    {
-      "title": "SAP Commerce Cloud CVE-2026-58231 Targeted in Exploitation Attempts Days After Patch",
-      "link": "https://thehackernews.com/2026/08/sap-commerce-cloud-cve-2026-58231.html",
-      "date": "2026-08-15T08:38:46Z",
-      "description": "A maximum-severity security vulnerability impacting SAP Commerce Cloud is witnessing active exploitation efforts. The vulnerability, tracked as CVE-2026-58231, is rated 10.0 on the CVSS scoring system. It relates to an instance of insufficient authorization checks and input validation. \"SAP Commerce Cloud allows an unauthenticated attacker to abuse a default authentication client and submit",
       "source": "thehackernews.com"
     },
     {
