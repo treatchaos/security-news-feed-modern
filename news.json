@@ -1,7 +1,49 @@
 {
-  "last_updated": "2026-08-18T17:17:36Z",
-  "count": 25,
+  "last_updated": "2026-08-18T18:20:47Z",
+  "count": 35,
   "items": [
+    {
+      "title": "CISA Warns Medusa Ransomware Hackers Steal Data, Kill Security Tools, and Encrypt Entire Networks",
+      "link": "https://cybersecuritynews.com/medusa-ransomware/",
+      "date": "2026-08-18T17:47:28Z",
+      "description": "The Cybersecurity and Infrastructure Security Agency (CISA), the Federal Bureau of Investigation (FBI), and the U.S. Department of Health and Human Services (HHS) have jointly released an updated security advisory warning that Medusa ransomware threat actors are actively infiltrating enterprise environments, disabling security tools, exfiltrating sensitive files, and encrypting entire networks.…",
+      "source": "cybersecuritynews.com"
+    },
+    {
+      "title": "Clop created custom web shell for Windchill data theft attacks",
+      "link": "https://www.bleepingcomputer.com/news/security/clop-created-custom-web-shell-for-windchill-data-theft-attacks/",
+      "date": "2026-08-18T17:29:51Z",
+      "description": "A custom Java web shell likely linked to the Clop ransomware gang was designed specifically for PTC Windchill and FlexPLM servers, with built-in features to decrypt credentials, enumerate file repositories, and steal files. [...]",
+      "source": "bleepingcomputer.com"
+    },
+    {
+      "title": "French Tax Authority Data Breach Exposes 600,000+ Users’ Personal Tax-Related Data",
+      "link": "https://cybersecuritynews.com/french-tax-authority-data-breach/",
+      "date": "2026-08-18T17:00:44Z",
+      "description": "France’s tax authority has confirmed a data breach affecting approximately 678,000 individuals and businesses after threat actors gained unauthorized access to internal information systems. The incident involved stolen or impersonated credentials belonging to a Directorate General of Public Finances (DGFiP) employee and an authorized third party. The breach was disclosed in a press release…",
+      "source": "cybersecuritynews.com"
+    },
+    {
+      "title": "Critical MLflow SSRF Vulnerability Exploited by Hackers in the Wild",
+      "link": "https://cybersecuritynews.com/mlflow-ssrf-vulnerability/",
+      "date": "2026-08-18T16:52:33Z",
+      "description": "Threat actors are actively exploiting a critical, unauthenticated server-side request forgery (SSRF) vulnerability in MLflow, the popular open-source platform widely used by data engineering and machine learning teams to track experiments, package code, and deploy models. Tracked as CVE-2026-64849 with a critical CVSS 3.1 score of 9.3, the flaw impacts all MLflow versions prior to […] The post…",
+      "source": "cybersecuritynews.com"
+    },
+    {
+      "title": "Hackers Hijack Thousands of WordPress Sites to Use as C2 Servers for StopAndProtect Malware",
+      "link": "https://cybersecuritynews.com/wordpress-sites-stopandprotect-malware/",
+      "date": "2026-08-18T16:47:24Z",
+      "description": "A newly uncovered malware operation dubbed StopAndProtect is transforming thousands of hacked WordPress websites into a sprawling criminal command-and-control (C2) infrastructure. The campaign blends double-extortion ransomware with covert data theft, quietly harvesting sensitive corporate documents, system screenshots, user credentials, and active communication logs from compromised machines…",
+      "source": "cybersecuritynews.com"
+    },
+    {
+      "title": "Microsoft 365 Search Outage Disrupts SharePoint, OneDrive, and Outlook Users Worldwide",
+      "link": "https://cybersecuritynews.com/microsoft-365-search-outage/",
+      "date": "2026-08-18T16:26:40Z",
+      "description": "Microsoft is actively managing a service disruption that has left a subset of enterprise users unable to search for content across SharePoint Online, OneDrive, Outlook on the web, and Outlook desktop. The incident, tracked in administrative portals under reference MO1456424, was confirmed after users reported unresponsive and failing search queries beginning Monday, August 17, 2026. […] The post…",
+      "source": "cybersecuritynews.com"
+    },
     {
       "title": "Webinar Today: Rethinking Cyber Defense for AI-Speed Attacks",
       "link": "https://www.securityweek.com/webinar-today-rethinking-cyber-defense-for-ai-speed-attacks/",
@@ -115,13 +157,6 @@
       "source": "thehackernews.com"
     },
     {
-      "title": "Microsoft starts removing WMIC tool used by cybercriminals",
-      "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-removes-wmic-lolbin-tool-in-windows-11-beta-builds/",
-      "date": "2026-08-18T08:12:08Z",
-      "description": "Microsoft announced that it removed the Windows Management Instrumentation Command-line (WMIC) tool from Windows 11 24H2 and 25H2, as well as from Windows 11 beta builds released this week. [...]",
-      "source": "bleepingcomputer.com"
-    },
-    {
       "title": "Video Call Exploit Chains Two Flaws in Unisoc Modems",
       "link": "https://www.darkreading.com/mobile-security/video-call-exploit-chains-two-flaws-unisoc-modems",
       "date": "2026-08-17T21:37:23Z",
@@ -136,10 +171,10 @@
       "source": "darkreading.com"
     },
     {
-      "title": "Adam Shostack Talks Hugging Face Breach &amp; PHANTOM-B",
+      "title": "Hugging Face Breach Raises Big Questions About AI Security Controls",
       "link": "https://www.darkreading.com/vulnerabilities-threats/adam-shostack-talks-hugging-face-phantom-b",
       "date": "2026-08-17T19:22:56Z",
-      "description": "The security expert talks with the Dark Reading News Desk about why he \"blown away\" by OpenAI's revelations regarding the Hugging Face attack, and also discussed his new threat model for LLMs.",
+      "description": "Adam Shostack, president of Shostack & Associates and an affiliate professor at the University of Washington, talks with the Dark Reading News Desk about why he was \"blown away\" by OpenAI's revelations regarding the Hugging Face attack.",
       "source": "darkreading.com"
     },
     {
@@ -176,6 +211,41 @@
       "date": "2026-08-12T05:00:00Z",
       "description": "A CVSS score 8.0 AV:A/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H severity vulnerability discovered by 'Li Peikai' was reported to the affected vendor on: 2026-08-12, 6 days ago. The vendor is given until 2026-12-10 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
       "source": "zerodayinitiative.com"
+    },
+    {
+      "title": "Student Loan Breach Exposes 2.5M Records",
+      "link": "https://threatpost.com/student-loan-breach-exposes-2-5m-records/180492/",
+      "date": "2022-08-31T12:57:48Z",
+      "description": "2.5 million people were affected, in a breach that could spell more trouble down the line.",
+      "source": "threatpost.com"
+    },
+    {
+      "title": "Watering Hole Attacks Push ScanBox Keylogger",
+      "link": "https://threatpost.com/watering-hole-attacks-push-scanbox-keylogger/180490/",
+      "date": "2022-08-30T16:00:43Z",
+      "description": "Researchers uncover a watering hole attack likely carried out by APT TA423, which attempts to plant the ScanBox JavaScript-based reconnaissance tool.",
+      "source": "threatpost.com"
+    },
+    {
+      "title": "Tentacles of ‘0ktapus’ Threat Group Victimize 130 Firms",
+      "link": "https://threatpost.com/0ktapus-victimize-130-firms/180487/",
+      "date": "2022-08-29T14:56:19Z",
+      "description": "Over 130 companies tangled in sprawling phishing campaign that spoofed a multi-factor authentication system.",
+      "source": "threatpost.com"
+    },
+    {
+      "title": "Ransomware Attacks are on the Rise",
+      "link": "https://threatpost.com/ransomware-attacks-are-on-the-rise/180481/",
+      "date": "2022-08-26T16:44:27Z",
+      "description": "Lockbit is by far this summer’s most prolific ransomware group, trailed by two offshoots of the Conti group.",
+      "source": "threatpost.com"
+    },
+    {
+      "title": "Cybercriminals Are Selling Access to Chinese Surveillance Cameras",
+      "link": "https://threatpost.com/cybercriminals-are-selling-access-to-chinese-surveillance-cameras/180478/",
+      "date": "2022-08-25T18:47:15Z",
+      "description": "Tens of thousands of cameras have failed to patch a critical, 11-month-old CVE, leaving thousands of organizations exposed.",
+      "source": "threatpost.com"
     }
   ]
 }
