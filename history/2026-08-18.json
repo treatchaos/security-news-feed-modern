@@ -1,7 +1,47 @@
 {
   "date": "2026-08-18",
-  "count": 8,
+  "count": 14,
   "items": [
+    {
+      "id": "63d69c8e14834f5f46561d0a9424710ed3830abc",
+      "title": "Heights Finance Data Breach Impacts at Least 1.2 Million Individuals",
+      "link": "https://www.securityweek.com/heights-finance-data-breach-impacts-at-least-1-2-million-individuals/",
+      "date": "2026-08-18T09:18:34Z",
+      "description": "Hackers stole names, addresses, phone numbers, Social Security numbers, and financial information from a third-party platform. The post Heights Finance Data Breach Impacts at Least 1.2 Million Individuals appeared first on SecurityWeek.",
+      "source": "securityweek.com",
+      "first_seen": "2026-08-18T09:21:39Z",
+      "last_seen": "2026-08-18T09:21:39Z"
+    },
+    {
+      "id": "5af6631fbc3de9c5e1b7a0acd697aea6eae9397e",
+      "title": "SafePal Hardware Wallet Maker Says Flaw Exposed Data of Nearly 40,000 Customers",
+      "link": "https://thehackernews.com/2026/08/safepal-hardware-wallet-maker-says-flaw.html",
+      "date": "2026-08-18T09:10:45Z",
+      "description": "SafePal has disclosed that an authorization flaw in an order-tracking plug-in exposed the names, email addresses, shipping addresses, phone numbers, and purchase details of approximately 39,798 customers. The hardware wallet maker said all affected customers were notified individually by email on August 16 from security@safepal.com, with the subject line \"[Important] Your SafePal Order",
+      "source": "thehackernews.com",
+      "first_seen": "2026-08-18T09:21:39Z",
+      "last_seen": "2026-08-18T09:21:39Z"
+    },
+    {
+      "id": "7d705c8d6a090e84f08d9934156a2b1bc7c42edf",
+      "title": "GitLab Patches Critical Code Injection Vulnerability",
+      "link": "https://www.securityweek.com/gitlab-patches-critical-code-injection-vulnerability/",
+      "date": "2026-08-18T08:51:07Z",
+      "description": "The security defect allows unauthenticated attackers to modify or delete user data and public projects. The post GitLab Patches Critical Code Injection Vulnerability appeared first on SecurityWeek.",
+      "source": "securityweek.com",
+      "first_seen": "2026-08-18T09:21:39Z",
+      "last_seen": "2026-08-18T09:21:39Z"
+    },
+    {
+      "id": "7b01f7574dc7476f3707b2f3b4f85b9c29376cff",
+      "title": "Critical WordPress Plugin Vulnerability Exposes 600,000 Sites to File Upload Attacks",
+      "link": "https://cybersecuritynews.com/wordpress-forminator-plugin-vulnerability/",
+      "date": "2026-08-18T08:48:33Z",
+      "description": "A critical security flaw in the Forminator Forms WordPress plugin could allow unauthenticated attackers to upload malicious PHP files, potentially enabling them to take full control of vulnerable websites. The issue, tracked as CVE-2026-15748, affects Forminator Forms versions 1.56.1 and earlier and carries a CVSS severity score of 9.8. Forminator Forms is a widely used […] The post Critical…",
+      "source": "cybersecuritynews.com",
+      "first_seen": "2026-08-18T09:21:39Z",
+      "last_seen": "2026-08-18T09:21:39Z"
+    },
     {
       "id": "973d6b9cf3b1e4036d96c574b595eec22f327a2f",
       "title": "Microsoft starts removing WMIC tool used by cybercriminals",
@@ -10,7 +50,27 @@
       "description": "Microsoft announced that it removed the Windows Management Instrumentation Command-line (WMIC) tool from Windows 11 24H2 and 25H2, as well as from Windows 11 beta builds released this week. [...]",
       "source": "bleepingcomputer.com",
       "first_seen": "2026-08-18T08:22:39Z",
-      "last_seen": "2026-08-18T08:22:39Z"
+      "last_seen": "2026-08-18T09:21:39Z"
+    },
+    {
+      "id": "deda692814b53aa0c0c215ce7df8db5fd44f3a03",
+      "title": "VMware Syslog Path Traversal Becomes Root RCE, Persistent SSH Access and ESXi Ransomware",
+      "link": "https://cybersecuritynews.com/vmware-syslog-path-traversal/",
+      "date": "2026-08-18T08:02:41Z",
+      "description": "A fast-moving campaign is turning a VMware vCenter flaw into a route to full control of virtual infrastructure. Attackers are abusing CVE-2026-59310, a critical path traversal bug in the Syslog Server, to run commands as root without a normal login. The activity moved from disclosure to widespread exploitation in days. QUIRSO mapped 361 affected IP […] The post VMware Syslog Path Traversal…",
+      "source": "cybersecuritynews.com",
+      "first_seen": "2026-08-18T09:21:39Z",
+      "last_seen": "2026-08-18T09:21:39Z"
+    },
+    {
+      "id": "b35345c48713ab3add2edecbc94ea36156d9baf3",
+      "title": "Critical GitLab GraphQL Vulnerability Allow Attackers to Delete Public Projects",
+      "link": "https://cybersecuritynews.com/gitlab-graphql-vulnerability/",
+      "date": "2026-08-18T07:37:44Z",
+      "description": "GitLab has released urgent security updates to fix a critical GraphQL vulnerability that could allow unauthenticated attackers to modify or delete public projects and user data remotely. The issue, tracked as CVE-2026-19478, affects GitLab Community Edition and Enterprise Edition installations across several supported release branches. The vulnerability was addressed in GitLab versions 19.2.4,…",
+      "source": "cybersecuritynews.com",
+      "first_seen": "2026-08-18T09:21:39Z",
+      "last_seen": "2026-08-18T09:21:39Z"
     },
     {
       "id": "2e24e0b88651c414563422551e3af0fc41824d9a",
@@ -20,7 +80,7 @@
       "description": "Microsoft has introduced a redesigned File Explorer context menu for Windows 11 Insiders, promising faster right-click performance, less clutter, and new controls over built-in commands and third-party app extensions. The update is part of Microsoft’s wider effort to improve File Explorer’s responsiveness, stability, and day-to-day usability. File Explorer is central to everyday Windows…",
       "source": "cybersecuritynews.com",
       "first_seen": "2026-08-18T07:29:02Z",
-      "last_seen": "2026-08-18T07:29:02Z"
+      "last_seen": "2026-08-18T09:21:39Z"
     },
     {
       "id": "ba51e697e28d5549009ce34924378b38f40d713a",
@@ -30,7 +90,7 @@
       "description": "The bugs could be exploited to crash Safari, corrupt memory, leak sensitive data, escape the sandbox, and exfiltrate data. The post Dozens of WebKit Vulnerabilities Patched With Fresh macOS, iOS Security Updates appeared first on SecurityWeek.",
       "source": "securityweek.com",
       "first_seen": "2026-08-18T07:29:02Z",
-      "last_seen": "2026-08-18T08:22:39Z"
+      "last_seen": "2026-08-18T09:21:39Z"
     },
     {
       "id": "c23d18e0e8fa32397e35d5c8334c504f088ec526",
@@ -40,7 +100,7 @@
       "description": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Monday added a critical flaw impacting Ray to its Known Exploited Vulnerabilities (KEV) catalog, citing evidence of active exploitation. Ray is an open-source, Python-native distributed computing framework designed to scale artificial intelligence and machine learning workloads. As of writing, the GitHub project has more than",
       "source": "thehackernews.com",
       "first_seen": "2026-08-18T07:29:02Z",
-      "last_seen": "2026-08-18T08:22:39Z"
+      "last_seen": "2026-08-18T09:21:39Z"
     },
     {
       "id": "cdb9e0ac323b98af0bf063bc25f0654368470042",
@@ -50,7 +110,7 @@
       "description": "Network sandboxing detonates unknown files and URLs in an isolated environment to see what they actually do catching malware that has never been seen before and therefore has no signature. Palo Alto WildFire leads on scale and integration, VMRay leads on evasion-resistant analysis depth, and Joe Security remains the analyst’s tool of choice for deep […] The post Top 10 Best Network Sandboxing…",
       "source": "cybersecuritynews.com",
       "first_seen": "2026-08-18T07:29:02Z",
-      "last_seen": "2026-08-18T07:29:02Z"
+      "last_seen": "2026-08-18T09:21:39Z"
     },
     {
       "id": "41ffad29a26c56ec07b4335db141f61febb9e3d2",
