@@ -1,7 +1,47 @@
 {
   "date": "2026-08-18",
-  "count": 16,
+  "count": 20,
   "items": [
+    {
+      "id": "b381f816e996610aae0a85585987b252eea6e9b9",
+      "title": "CISA Warns of Ray-Project Ray Code Injection Vulnerability Exploited in Attacks",
+      "link": "https://cybersecuritynews.com/ray-project-ray-code-injection/",
+      "date": "2026-08-18T11:06:28Z",
+      "description": "CISA has added a critical Ray-Project Ray vulnerability, tracked as CVE-2025-62593, to its Known Exploited Vulnerabilities catalog after confirming exploitation in the wild. The flaw can allow remote code execution on systems where vulnerable Ray development environments are running. Ray is an open-source distributed computing framework widely used by Python developers and AI teams for […] The…",
+      "source": "cybersecuritynews.com",
+      "first_seen": "2026-08-18T11:15:12Z",
+      "last_seen": "2026-08-18T11:15:12Z"
+    },
+    {
+      "id": "83606f9e6c978db8ee6826afc0104a91ce188925",
+      "title": "Shadow hVNC Gives Attackers Remote Desktop Control Without Moving the Victim’s Mouse",
+      "link": "https://cybersecuritynews.com/shadow-hvnc-gives-attackers/",
+      "date": "2026-08-18T10:55:12Z",
+      "description": "Shadow hVNC is a remote access tool built to operate where victims cannot see it. Instead of taking over the visible desktop, it can create a separate Windows workspace and give criminals a live view of activity inside it. The malware steals browser cookies, saved passwords, financial data, and session tokens, then uses them to […] The post Shadow hVNC Gives Attackers Remote Desktop Control…",
+      "source": "cybersecuritynews.com",
+      "first_seen": "2026-08-18T11:15:12Z",
+      "last_seen": "2026-08-18T11:15:12Z"
+    },
+    {
+      "id": "4eea0937e80c96141e1a3e24e969fc165d15d1f3",
+      "title": "300,000 WordPress Sites Potentially Exposed to Hacking Due to Form Plugin Flaw",
+      "link": "https://www.securityweek.com/300000-wordpress-sites-potentially-exposed-to-hacking-due-to-form-plugin-flaw/",
+      "date": "2026-08-18T10:48:23Z",
+      "description": "Tracked as CVE-2026-15748, the arbitrary file upload bug allows unauthenticated attackers to upload executable files. The post 300,000 WordPress Sites Potentially Exposed to Hacking Due to Form Plugin Flaw appeared first on SecurityWeek.",
+      "source": "securityweek.com",
+      "first_seen": "2026-08-18T11:15:12Z",
+      "last_seen": "2026-08-18T11:15:12Z"
+    },
+    {
+      "id": "46d0bf18270a97c435142b8a1b12f4c06d4391f8",
+      "title": "CISA: Windows Task Host flaw now exploited by ransomware gangs",
+      "link": "https://www.bleepingcomputer.com/news/security/cisa-windows-task-host-flaw-now-exploited-by-ransomware-gangs/",
+      "date": "2026-08-18T10:32:16Z",
+      "description": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) has confirmed that ransomware gangs are also exploiting a high-severity Windows Task Host vulnerability that was flagged as actively exploited in April. [...]",
+      "source": "bleepingcomputer.com",
+      "first_seen": "2026-08-18T11:15:12Z",
+      "last_seen": "2026-08-18T11:15:12Z"
+    },
     {
       "id": "e432651f888d5dcc654ab287b1e94eac5277fcb2",
       "title": "Microsoft confirms outage affecting search in Microsoft 365 apps",
@@ -10,7 +50,7 @@
       "description": "Microsoft says some users are experiencing issues searching in Microsoft 365 apps, including Outlook on the web, Outlook desktop, SharePoint Online, and OneDrive. [...]",
       "source": "bleepingcomputer.com",
       "first_seen": "2026-08-18T10:17:07Z",
-      "last_seen": "2026-08-18T10:17:07Z"
+      "last_seen": "2026-08-18T11:15:12Z"
     },
     {
       "id": "63d69c8e14834f5f46561d0a9424710ed3830abc",
@@ -20,7 +60,7 @@
       "description": "Hackers stole names, addresses, phone numbers, Social Security numbers, and financial information from a third-party platform. The post Heights Finance Data Breach Impacts at Least 1.2 Million Individuals appeared first on SecurityWeek.",
       "source": "securityweek.com",
       "first_seen": "2026-08-18T09:21:39Z",
-      "last_seen": "2026-08-18T10:17:07Z"
+      "last_seen": "2026-08-18T11:15:12Z"
     },
     {
       "id": "5af6631fbc3de9c5e1b7a0acd697aea6eae9397e",
@@ -30,7 +70,7 @@
       "description": "SafePal has disclosed that an authorization flaw in an order-tracking plug-in exposed the names, email addresses, shipping addresses, phone numbers, and purchase details of approximately 39,798 customers. The hardware wallet maker said all affected customers were notified individually by email on August 16 from security@safepal.com, with the subject line \"[Important] Your SafePal Order",
       "source": "thehackernews.com",
       "first_seen": "2026-08-18T09:21:39Z",
-      "last_seen": "2026-08-18T10:17:07Z"
+      "last_seen": "2026-08-18T11:15:12Z"
     },
     {
       "id": "7d705c8d6a090e84f08d9934156a2b1bc7c42edf",
@@ -40,7 +80,7 @@
       "description": "The security defect allows unauthenticated attackers to modify or delete user data and public projects. The post GitLab Patches Critical Code Injection Vulnerability appeared first on SecurityWeek.",
       "source": "securityweek.com",
       "first_seen": "2026-08-18T09:21:39Z",
-      "last_seen": "2026-08-18T10:17:07Z"
+      "last_seen": "2026-08-18T11:15:12Z"
     },
     {
       "id": "7b01f7574dc7476f3707b2f3b4f85b9c29376cff",
@@ -50,7 +90,7 @@
       "description": "A critical security flaw in the Forminator Forms WordPress plugin could allow unauthenticated attackers to upload malicious PHP files, potentially enabling them to take full control of vulnerable websites. The issue, tracked as CVE-2026-15748, affects Forminator Forms versions 1.56.1 and earlier and carries a CVSS severity score of 9.8. Forminator Forms is a widely used […] The post Critical…",
       "source": "cybersecuritynews.com",
       "first_seen": "2026-08-18T09:21:39Z",
-      "last_seen": "2026-08-18T10:17:07Z"
+      "last_seen": "2026-08-18T11:15:12Z"
     },
     {
       "id": "973d6b9cf3b1e4036d96c574b595eec22f327a2f",
@@ -60,7 +100,7 @@
       "description": "Microsoft announced that it removed the Windows Management Instrumentation Command-line (WMIC) tool from Windows 11 24H2 and 25H2, as well as from Windows 11 beta builds released this week. [...]",
       "source": "bleepingcomputer.com",
       "first_seen": "2026-08-18T08:22:39Z",
-      "last_seen": "2026-08-18T10:17:07Z"
+      "last_seen": "2026-08-18T11:15:12Z"
     },
     {
       "id": "deda692814b53aa0c0c215ce7df8db5fd44f3a03",
@@ -80,7 +120,7 @@
       "description": "A fast-moving campaign is turning a VMware vCenter flaw into a route to full control of virtual infrastructure. Attackers are abusing CVE-2026-59310, a critical path traversal bug in the Syslog Server, to run commands as root without a normal login. The activity moved from disclosure to widespread exploitation in days. QUIRSO mapped 361 affected IP […] The post VMware vCenter Attackers Drop JSP…",
       "source": "cybersecuritynews.com",
       "first_seen": "2026-08-18T10:17:07Z",
-      "last_seen": "2026-08-18T10:17:07Z"
+      "last_seen": "2026-08-18T11:15:12Z"
     },
     {
       "id": "b35345c48713ab3add2edecbc94ea36156d9baf3",
@@ -90,7 +130,7 @@
       "description": "GitLab has released urgent security updates to fix a critical GraphQL vulnerability that could allow unauthenticated attackers to modify or delete public projects and user data remotely. The issue, tracked as CVE-2026-19478, affects GitLab Community Edition and Enterprise Edition installations across several supported release branches. The vulnerability was addressed in GitLab versions 19.2.4,…",
       "source": "cybersecuritynews.com",
       "first_seen": "2026-08-18T09:21:39Z",
-      "last_seen": "2026-08-18T10:17:07Z"
+      "last_seen": "2026-08-18T11:15:12Z"
     },
     {
       "id": "2e24e0b88651c414563422551e3af0fc41824d9a",
@@ -110,7 +150,7 @@
       "description": "The bugs could be exploited to crash Safari, corrupt memory, leak sensitive data, escape the sandbox, and exfiltrate data. The post Dozens of WebKit Vulnerabilities Patched With Fresh macOS, iOS Security Updates appeared first on SecurityWeek.",
       "source": "securityweek.com",
       "first_seen": "2026-08-18T07:29:02Z",
-      "last_seen": "2026-08-18T10:17:07Z"
+      "last_seen": "2026-08-18T11:15:12Z"
     },
     {
       "id": "c23d18e0e8fa32397e35d5c8334c504f088ec526",
@@ -120,7 +160,7 @@
       "description": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Monday added a critical flaw impacting Ray to its Known Exploited Vulnerabilities (KEV) catalog, citing evidence of active exploitation. Ray is an open-source, Python-native distributed computing framework designed to scale artificial intelligence and machine learning workloads. As of writing, the GitHub project has more than",
       "source": "thehackernews.com",
       "first_seen": "2026-08-18T07:29:02Z",
-      "last_seen": "2026-08-18T10:17:07Z"
+      "last_seen": "2026-08-18T11:15:12Z"
     },
     {
       "id": "cdb9e0ac323b98af0bf063bc25f0654368470042",
