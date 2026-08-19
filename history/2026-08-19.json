@@ -1,7 +1,57 @@
 {
   "date": "2026-08-19",
-  "count": 7,
+  "count": 12,
   "items": [
+    {
+      "id": "7cdbaac62f7d0eaea009813f742f1e5a661a6899",
+      "title": "943 Patches Rolled Out With Oracle’s August 2026 Security Update",
+      "link": "https://www.securityweek.com/943-patches-rolled-out-with-oracles-august-2026-security-update/",
+      "date": "2026-08-19T09:14:51Z",
+      "description": "The fixes resolve over 1,000 vulnerabilities across two dozen products, including over 460 remotely exploitable bugs. The post 943 Patches Rolled Out With Oracle’s August 2026 Security Update appeared first on SecurityWeek.",
+      "source": "securityweek.com",
+      "first_seen": "2026-08-19T09:22:28Z",
+      "last_seen": "2026-08-19T09:22:28Z"
+    },
+    {
+      "id": "1f41e46b1c00a4a323a41ff9a777fc5f48c0a1f7",
+      "title": "Windows 11 24H2 Home and Pro reach end of support in 2 months",
+      "link": "https://www.bleepingcomputer.com/news/microsoft/windows-11-24h2-home-and-pro-reach-end-of-support-in-2-months/",
+      "date": "2026-08-19T09:10:20Z",
+      "description": "Microsoft has reminded customers that systems running Home and Pro editions of Windows 11 24H2 will stop receiving updates in two months. [...]",
+      "source": "bleepingcomputer.com",
+      "first_seen": "2026-08-19T09:22:28Z",
+      "last_seen": "2026-08-19T09:22:28Z"
+    },
+    {
+      "id": "e93491917cc78d2ec1473c1071f6e63facae9f9b",
+      "title": "CISA Warns of VMware vCenter Path Traversal Vulnerability Actively Exploited in Attacks",
+      "link": "https://cybersecuritynews.com/vmware-vcenter-path-traversal-vulnerability-exploited/",
+      "date": "2026-08-19T09:09:45Z",
+      "description": "The U.S. Cybersecurity and Infrastructure Security Agency has added a critical Broadcom VMware vCenter vulnerability, tracked as CVE-2026-59310, to its Known Exploited Vulnerabilities catalog after evidence showed active exploitation in attacks. The flaw affects VMware vCenter and is classified as a path traversal vulnerability under CWE-22. According to CISA, an attacker with network access to…",
+      "source": "cybersecuritynews.com",
+      "first_seen": "2026-08-19T09:22:28Z",
+      "last_seen": "2026-08-19T09:22:28Z"
+    },
+    {
+      "id": "4ed7b32ae08b236cb41803386430d79a5f329fb3",
+      "title": "Google Fixes Two Critical Chrome Flaws in WebGL and Dawn — Update Your Browser",
+      "link": "https://cybersecuritynews.com/google-fixes-two-chrome-flaws-in-webgl-and-dawn/",
+      "date": "2026-08-19T09:06:19Z",
+      "description": "Google has released a new Chrome Stable channel update that fixes two critical security vulnerabilities affecting graphics-related components. Users should update their browsers as soon as the release becomes available for their device. The update moves Chrome to version 151.0.7922.169/.170 on Windows and macOS, while Linux users receive version 151.0.7922.169. Google said the rollout will […]…",
+      "source": "cybersecuritynews.com",
+      "first_seen": "2026-08-19T09:22:28Z",
+      "last_seen": "2026-08-19T09:22:28Z"
+    },
+    {
+      "id": "fc3ae9834202918195e5bc02b3fad348496e69dc",
+      "title": "Critical Cursor 0-day Vulnerability Enables Arbitrary Code Execution Attacks",
+      "link": "https://cybersecuritynews.com/cursor-0-day-vulnerability/",
+      "date": "2026-08-19T08:45:14Z",
+      "description": "A binary planting vulnerability in the Cursor IDE that lets a malicious git.exe file, placed at the root of a repository, run automatically the moment a developer opens that project on Windows. The attack requires no prompt injection, no agent, no AI model in the loop, and no prior access to the victim machine. Mindgard […] The post Critical Cursor 0-day Vulnerability Enables Arbitrary Code…",
+      "source": "cybersecuritynews.com",
+      "first_seen": "2026-08-19T09:22:28Z",
+      "last_seen": "2026-08-19T09:22:28Z"
+    },
     {
       "id": "7918bd9530101c8424fcd0ef3cb5b458ee7fa15b",
       "title": "Chrome, Firefox Updates Patch Dozens of Vulnerabilities",
@@ -10,7 +60,7 @@
       "description": "The bugs could lead to code execution, privilege escalation, sandbox escape, and information disclosure. The post Chrome, Firefox Updates Patch Dozens of Vulnerabilities appeared first on SecurityWeek.",
       "source": "securityweek.com",
       "first_seen": "2026-08-19T08:23:32Z",
-      "last_seen": "2026-08-19T08:23:32Z"
+      "last_seen": "2026-08-19T09:22:28Z"
     },
     {
       "id": "bc2ab26f9f60eb239de58a0cef34eeabbebfd2d2",
@@ -20,7 +70,7 @@
       "description": "The FBI said Tuesday that the Medusa ransomware gang has breached more than 500 critical infrastructure organizations in the United States since June 2021. [...]",
       "source": "bleepingcomputer.com",
       "first_seen": "2026-08-19T08:23:32Z",
-      "last_seen": "2026-08-19T08:23:32Z"
+      "last_seen": "2026-08-19T09:22:28Z"
     },
     {
       "id": "696cb9ee637bd5abdb7e6ba50c2784ac3e13badb",
@@ -30,7 +80,7 @@
       "description": "The data breach was initially believed to affect roughly 350,000 people, but the HHS breach tracker shows a far bigger impact. The post CareCloud Data Breach Impact Grows to 3.7 Million Individuals appeared first on SecurityWeek.",
       "source": "securityweek.com",
       "first_seen": "2026-08-19T07:29:14Z",
-      "last_seen": "2026-08-19T08:23:32Z"
+      "last_seen": "2026-08-19T09:22:28Z"
     },
     {
       "id": "3b0b26f8822968ac5010deeae36ad75b30786d25",
@@ -40,7 +90,7 @@
       "description": "Cl0p, also tracked as Cl0P, has returned with a campaign aimed at PTC Windchill servers, putting engineering files, passwords, and company records at risk. The financially motivated group is exploiting a critical remote-code-execution flaw, CVE-2026-12569, to gain access and install a custom web shell designed specifically for the product. Windchill helps manufacturers manage product designs […]…",
       "source": "cybersecuritynews.com",
       "first_seen": "2026-08-19T06:24:30Z",
-      "last_seen": "2026-08-19T08:23:32Z"
+      "last_seen": "2026-08-19T09:22:28Z"
     },
     {
       "id": "1abf9495f69f61125461732ecaa4934c1bf48280",
@@ -50,7 +100,7 @@
       "description": "A critical vulnerability in Microsoft Copilot Personal, tracked as CVE-2026-24301 and nicknamed CoSnitch, lets attackers silently siphon sensitive data from a victim’s connected accounts with nothing more than a single click on a malicious link. The flaw discovered by Varonis Threat Labs has already been patched by Microsoft as of August 18, 2026, but the […] The post Critical Microsoft Copilot…",
       "source": "cybersecuritynews.com",
       "first_seen": "2026-08-19T03:37:04Z",
-      "last_seen": "2026-08-19T08:23:32Z"
+      "last_seen": "2026-08-19T09:22:28Z"
     },
     {
       "id": "628fa32ed147ac4d94cb89cd24ef49fb1bb47ea8",
@@ -70,7 +120,7 @@
       "description": "In the first purported \"near-autonomous\" attack on a nation-state, a Chinese-language operator used a complex AI framework to target and compromise government agencies, likely in Taiwan.",
       "source": "darkreading.com",
       "first_seen": "2026-08-19T02:11:10Z",
-      "last_seen": "2026-08-19T08:23:32Z"
+      "last_seen": "2026-08-19T09:22:28Z"
     }
   ]
 }
