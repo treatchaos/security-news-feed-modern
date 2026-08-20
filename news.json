@@ -1,7 +1,35 @@
 {
-  "last_updated": "2026-08-20T09:22:41Z",
+  "last_updated": "2026-08-20T10:18:59Z",
   "count": 35,
   "items": [
+    {
+      "title": "New Manic Android malware can exfiltrate data through nearby devices",
+      "link": "https://www.bleepingcomputer.com/news/security/new-manic-android-malware-can-exfiltrate-data-through-nearby-devices/",
+      "date": "2026-08-20T10:02:02Z",
+      "description": "A new Android malware named Manic targeting users in multiple European countries has a fallback data exfiltration mechanism that uses nearby infected devices. [...]",
+      "source": "bleepingcomputer.com"
+    },
+    {
+      "title": "CyberPanel Pre-Auth RCE Chain Lets Attackers Gain Server Shell via AI Scanner Flaws",
+      "link": "https://cybersecuritynews.com/cyberpanel-pre-auth-rce-chain-gain-server-shell/",
+      "date": "2026-08-20T09:58:59Z",
+      "description": "Security researchers have disclosed a critical pre-authentication RCE chain in CyberPanel that could let attackers gain a shell on vulnerable hosting servers without valid credentials. The attack combines weaknesses in the platform’s AI Scanner functionality with stored cross-site scripting and abuse of cron jobs. The issue affects CyberPanel versions earlier than 2.4.4. CyberPanel is a […] The…",
+      "source": "cybersecuritynews.com"
+    },
+    {
+      "title": "Critical Zimbra RCE flaw now actively exploited in attacks",
+      "link": "https://www.bleepingcomputer.com/news/security/critical-zimbra-rce-flaw-now-actively-exploited-in-attacks/",
+      "date": "2026-08-20T09:46:54Z",
+      "description": "CERT Polska, the Polish Computer Emergency Response Team (CERT), warned that attackers have begun exploiting a critical vulnerability in Zimbra Collaboration Suite (ZCS). [...]",
+      "source": "bleepingcomputer.com"
+    },
+    {
+      "title": "New “Zombie Card” Flaw Lets Expired Visa Cards Make Contactless Payments",
+      "link": "https://cybersecuritynews.com/zombie-card-flaw-expired-cards/",
+      "date": "2026-08-20T09:27:51Z",
+      "description": "Security researchers have demonstrated that an expired credit card is not as dead as most cardholders believe. A new study from the University of Massachusetts Amherst, presented at the 35th USENIX Security Symposium, reveals a practical NFC relay attack dubbed “Zombie Card” that revives expired Visa contactless cards, allowing them to complete real purchases at […] The post New “Zombie Card”…",
+      "source": "cybersecuritynews.com"
+    },
     {
       "title": "15 Malicious Firefox Extensions Abuse Cloudflare Workers to Exfiltrate Crypto Wallet Secrets",
       "link": "https://cybersecuritynews.com/malicious-firefox-extensions-2/",
@@ -52,25 +80,11 @@
       "source": "bleepingcomputer.com"
     },
     {
-      "title": "Critical Zimbra RCE Vulnerability Actively Exploited in the Wild",
-      "link": "https://cybersecuritynews.com/zimbra-rce-vulnerability-exploited/",
-      "date": "2026-08-20T06:34:27Z",
-      "description": "CERT Polska has warned that threat actors are actively exploiting a critical remote code execution vulnerability in Zimbra Collaboration Suite. Tracked as CVE-2026-73570, the flaw allows unauthenticated attackers to run arbitrary operating system commands as the zimbra user on affected servers. The issue is an OS command injection vulnerability in Zimbra’s SNMP monitoring functionality. It […]…",
-      "source": "cybersecuritynews.com"
-    },
-    {
       "title": "Elementor Pro Flaw Could Let Unauthenticated Attackers Upload PHP and Execute Code",
       "link": "https://thehackernews.com/2026/08/elementor-pro-flaw-could-let.html",
       "date": "2026-08-20T06:04:34Z",
       "description": "Cybersecurity researchers have disclosed details of a critical flaw in the Elementor Pro WordPress plugin that, if successfully exploited, could lead to remote code execution. The vulnerability, tracked as CVE-2026-32475, carries a CVSS score of 9.0 out of 10.0. It has been described as a case of unrestricted upload of a file with a dangerous type. \"The flaw lives in the Forms module's File",
       "source": "thehackernews.com"
-    },
-    {
-      "title": "Airlock Digital Completes Independent IRAP Assessment at the PROTECTED Level",
-      "link": "https://cybersecuritynews.com/airlock-digital-completes-independent-irap-assessment-at-the-protected-level/",
-      "date": "2026-08-20T04:42:40Z",
-      "description": "Adelaide, Australia, August 19th, 2026, CyberNewswire Independent assessment provides Australian organisations with additional evidence when evaluating application control for sensitive, government, defence and critical infrastructure environments. Airlock Digital, a global provider of application control and allowlisting solutions, today announced that it has completed an independent…",
-      "source": "cybersecuritynews.com"
     },
     {
       "title": "OpenAI confirms ChatGPT is down as logins and signups fail",
@@ -87,25 +101,11 @@
       "source": "bleepingcomputer.com"
     },
     {
-      "title": "Sakura Internet hack exposes data of up to 1.36 million accounts",
-      "link": "https://www.bleepingcomputer.com/news/security/sakura-internet-hack-exposes-data-of-up-to-136-million-accounts/",
-      "date": "2026-08-19T20:53:38Z",
-      "description": "Japanese cloud and data center service provider Sakura Internet disclosed that hackers accessed its sales management system, where customer contract and membership information is stored. [...]",
-      "source": "bleepingcomputer.com"
-    },
-    {
       "title": "No-Filter 'Kriminal' AI Platform Raises Cybercrime Concerns",
       "link": "https://www.darkreading.com/application-security/no-filter-kriminal-ai-platform-cybercrime-concerns",
       "date": "2026-08-19T20:32:09Z",
       "description": "The AI company officially forbids illicit use, while offering guardrail-free social engineering, offensive cybercrime, and OSINT scanning to anyone with a bit of cryptocurrency.",
       "source": "darkreading.com"
-    },
-    {
-      "title": "Healthtech firm CareCloud data breach impacts 3.7 million patients",
-      "link": "https://www.bleepingcomputer.com/news/security/healthtech-firm-carecloud-data-breach-impacts-37-million-patients/",
-      "date": "2026-08-19T20:07:12Z",
-      "description": "U.S. healthcare IT company CareCloud disclosed that the data breach incident it suffered earlier this year has impacted more than 3.7 million individuals. [...]",
-      "source": "bleepingcomputer.com"
     },
     {
       "title": "Cloudflare Workers Spectre Attack Leaks JWT From Co-Located Worker at 12 Bits/Second",

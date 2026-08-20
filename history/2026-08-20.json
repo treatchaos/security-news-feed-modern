@@ -1,7 +1,47 @@
 {
   "date": "2026-08-20",
-  "count": 16,
+  "count": 20,
   "items": [
+    {
+      "id": "9ac025db30ccd29f903521e1835632badbd9e86c",
+      "title": "New Manic Android malware can exfiltrate data through nearby devices",
+      "link": "https://www.bleepingcomputer.com/news/security/new-manic-android-malware-can-exfiltrate-data-through-nearby-devices/",
+      "date": "2026-08-20T10:02:02Z",
+      "description": "A new Android malware named Manic targeting users in multiple European countries has a fallback data exfiltration mechanism that uses nearby infected devices. [...]",
+      "source": "bleepingcomputer.com",
+      "first_seen": "2026-08-20T10:18:59Z",
+      "last_seen": "2026-08-20T10:18:59Z"
+    },
+    {
+      "id": "01fcec4b21df5f28c670ce03cecba4d3d4b52655",
+      "title": "CyberPanel Pre-Auth RCE Chain Lets Attackers Gain Server Shell via AI Scanner Flaws",
+      "link": "https://cybersecuritynews.com/cyberpanel-pre-auth-rce-chain-gain-server-shell/",
+      "date": "2026-08-20T09:58:59Z",
+      "description": "Security researchers have disclosed a critical pre-authentication RCE chain in CyberPanel that could let attackers gain a shell on vulnerable hosting servers without valid credentials. The attack combines weaknesses in the platform’s AI Scanner functionality with stored cross-site scripting and abuse of cron jobs. The issue affects CyberPanel versions earlier than 2.4.4. CyberPanel is a […] The…",
+      "source": "cybersecuritynews.com",
+      "first_seen": "2026-08-20T10:18:59Z",
+      "last_seen": "2026-08-20T10:18:59Z"
+    },
+    {
+      "id": "e582acf5a97f10e677fa4fe588ee620055679951",
+      "title": "Critical Zimbra RCE flaw now actively exploited in attacks",
+      "link": "https://www.bleepingcomputer.com/news/security/critical-zimbra-rce-flaw-now-actively-exploited-in-attacks/",
+      "date": "2026-08-20T09:46:54Z",
+      "description": "CERT Polska, the Polish Computer Emergency Response Team (CERT), warned that attackers have begun exploiting a critical vulnerability in Zimbra Collaboration Suite (ZCS). [...]",
+      "source": "bleepingcomputer.com",
+      "first_seen": "2026-08-20T10:18:59Z",
+      "last_seen": "2026-08-20T10:18:59Z"
+    },
+    {
+      "id": "c55da3239651927fe7830f027df1e2404192d00c",
+      "title": "New “Zombie Card” Flaw Lets Expired Visa Cards Make Contactless Payments",
+      "link": "https://cybersecuritynews.com/zombie-card-flaw-expired-cards/",
+      "date": "2026-08-20T09:27:51Z",
+      "description": "Security researchers have demonstrated that an expired credit card is not as dead as most cardholders believe. A new study from the University of Massachusetts Amherst, presented at the 35th USENIX Security Symposium, reveals a practical NFC relay attack dubbed “Zombie Card” that revives expired Visa contactless cards, allowing them to complete real purchases at […] The post New “Zombie Card”…",
+      "source": "cybersecuritynews.com",
+      "first_seen": "2026-08-20T10:18:59Z",
+      "last_seen": "2026-08-20T10:18:59Z"
+    },
     {
       "id": "6bc4f1023b1e76f07e5aa4cb8aa8c17423354345",
       "title": "15 Malicious Firefox Extensions Abuse Cloudflare Workers to Exfiltrate Crypto Wallet Secrets",
@@ -10,7 +50,7 @@
       "description": "Firefox users are facing a coordinated campaign of malicious add-ons that masquerade as cryptocurrency wallets, themes, and simple browser tools. The extensions can trick victims into disclosing recovery phrases, private keys, login details, and clipboard data, placing digital assets and online accounts at immediate risk. Active since at least March 2026, the operation spans 77 […] The post 15…",
       "source": "cybersecuritynews.com",
       "first_seen": "2026-08-20T09:22:41Z",
-      "last_seen": "2026-08-20T09:22:41Z"
+      "last_seen": "2026-08-20T10:18:59Z"
     },
     {
       "id": "0bc12928c01e2b1a76a5139e726a1725b16d3e62",
@@ -20,7 +60,7 @@
       "description": "Remote, unauthenticated attackers could exploit the critical-severity flaw without user interaction. The post Exploitation Expected for Critical Authentication Bypass Patched in Citrix NetScaler appeared first on SecurityWeek.",
       "source": "securityweek.com",
       "first_seen": "2026-08-20T09:22:41Z",
-      "last_seen": "2026-08-20T09:22:41Z"
+      "last_seen": "2026-08-20T10:18:59Z"
     },
     {
       "id": "90555b9702d78f10487780c163f79bc5c0b96c67",
@@ -30,7 +70,7 @@
       "description": "Splunk has released security updates for 17 vulnerabilities affecting several apps and add-ons, including Splunk MCP Server, Splunk AI Toolkit, and Splunk Connect for Kafka. The most severe issue, tracked as CVE-2026-76404, is a critical remote code execution vulnerability with a CVSS score of 9.1. The advisory, published on August 19, 2026, also covers Cisco […] The post Splunk Patches Critical…",
       "source": "cybersecuritynews.com",
       "first_seen": "2026-08-20T08:24:20Z",
-      "last_seen": "2026-08-20T09:22:41Z"
+      "last_seen": "2026-08-20T10:18:59Z"
     },
     {
       "id": "6924c12056114008f70233396baf6ee84a8b839f",
@@ -40,7 +80,7 @@
       "description": "CVE-2026-19478 can be exploited without authentication to modify or delete public projects and user data. The post Critical GitLab Flaw Exploited Shortly After Disclosure appeared first on SecurityWeek.",
       "source": "securityweek.com",
       "first_seen": "2026-08-20T08:24:20Z",
-      "last_seen": "2026-08-20T09:22:41Z"
+      "last_seen": "2026-08-20T10:18:59Z"
     },
     {
       "id": "38233d3f4b692bc324d53f11d09f1a27e65af978",
@@ -50,7 +90,7 @@
       "description": "A cybersecurity advisory with technical details and recommendations has been written by the NSA, CISA and other agencies. The post Hackers Using AI to Target Siemens PLCs in Critical US Sectors appeared first on SecurityWeek.",
       "source": "securityweek.com",
       "first_seen": "2026-08-20T07:32:14Z",
-      "last_seen": "2026-08-20T09:22:41Z"
+      "last_seen": "2026-08-20T10:18:59Z"
     },
     {
       "id": "fdbe90ddbad81c3f7b23d14d76e90063ca6d9a7a",
@@ -60,7 +100,7 @@
       "description": "Security researchers have used Anthropic’s Claude AI to uncover serious flaws in Security Assertion Markup Language (SAML) implementations that could allow attackers to bypass authentication and take over user accounts. The findings highlight the persistent security risks created by XML signature processing, inconsistent parser behavior, and custom SAML code. A researcher at Oblique Security…",
       "source": "cybersecuritynews.com",
       "first_seen": "2026-08-20T08:24:20Z",
-      "last_seen": "2026-08-20T09:22:41Z"
+      "last_seen": "2026-08-20T10:18:59Z"
     },
     {
       "id": "0b9c44f4ebab6b23c78bc51d83aa349920b43f26",
@@ -70,7 +110,7 @@
       "description": "Microsoft is investigating a potential issue with the August 2026 updates that may prevent some games from launching or cause them to crash on affected Windows 11 systems. [...]",
       "source": "bleepingcomputer.com",
       "first_seen": "2026-08-20T07:32:14Z",
-      "last_seen": "2026-08-20T09:22:41Z"
+      "last_seen": "2026-08-20T10:18:59Z"
     },
     {
       "id": "cd9a74d54fc04ecbc0879dd5546563493dd2eaed",
@@ -90,7 +130,7 @@
       "description": "Cybersecurity researchers have disclosed details of a critical flaw in the Elementor Pro WordPress plugin that, if successfully exploited, could lead to remote code execution. The vulnerability, tracked as CVE-2026-32475, carries a CVSS score of 9.0 out of 10.0. It has been described as a case of unrestricted upload of a file with a dangerous type. \"The flaw lives in the Forms module's File",
       "source": "thehackernews.com",
       "first_seen": "2026-08-20T06:25:36Z",
-      "last_seen": "2026-08-20T09:22:41Z"
+      "last_seen": "2026-08-20T10:18:59Z"
     },
     {
       "id": "dd62df67ac41a2c21303e0cdca53cec17dbf04ad",
@@ -140,7 +180,7 @@
       "description": "ChatGPT is experiencing a major outage, and users are unable to sign in, create accounts, or load chats, including previous conversations. [...]",
       "source": "bleepingcomputer.com",
       "first_seen": "2026-08-20T00:36:03Z",
-      "last_seen": "2026-08-20T09:22:41Z"
+      "last_seen": "2026-08-20T10:18:59Z"
     },
     {
       "id": "f3b36d57978579452386ee4f3e82fc4bb7f3fde3",
@@ -150,7 +190,7 @@
       "description": "A CVSS score 3.3 AV:L/AC:L/PR:N/UI:R/S:U/C:L/I:N/A:N severity vulnerability discovered by 'Anonymous' was reported to the affected vendor on: 2026-08-19, 0 days ago. The vendor is given until 2026-12-17 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
       "source": "zerodayinitiative.com",
       "first_seen": "2026-08-20T00:36:03Z",
-      "last_seen": "2026-08-20T09:22:41Z"
+      "last_seen": "2026-08-20T10:18:59Z"
     },
     {
       "id": "439bbf25ef83f105d5bbf016d4cd03eeabf02636",
@@ -160,7 +200,7 @@
       "description": "A CVSS score 3.3 AV:L/AC:L/PR:N/UI:R/S:U/C:L/I:N/A:N severity vulnerability discovered by 'Anonymous' was reported to the affected vendor on: 2026-08-19, 0 days ago. The vendor is given until 2026-12-17 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
       "source": "zerodayinitiative.com",
       "first_seen": "2026-08-20T00:36:03Z",
-      "last_seen": "2026-08-20T09:22:41Z"
+      "last_seen": "2026-08-20T10:18:59Z"
     }
   ]
 }
