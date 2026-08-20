@@ -1,13 +1,55 @@
 {
-  "last_updated": "2026-08-20T13:37:56Z",
+  "last_updated": "2026-08-20T14:24:24Z",
   "count": 35,
   "items": [
+    {
+      "title": "How MSPs can catch phishing attacks email filters miss",
+      "link": "https://www.bleepingcomputer.com/news/security/how-msps-can-catch-phishing-attacks-email-filters-miss/",
+      "date": "2026-08-20T14:01:11Z",
+      "description": "AI is making phishing attacks more personalized, convincing, and difficult for traditional email filters to detect. Kaseya explains how MSPs can monitor identity, email, and endpoint activity to detect and contain attacks that make it past the inbox. [...]",
+      "source": "bleepingcomputer.com"
+    },
+    {
+      "title": "ToxicPanda Android Malware Can Steal Banking PINs and Gain Shell Access to Phones",
+      "link": "https://cybersecuritynews.com/toxicpanda-android-malware/",
+      "date": "2026-08-20T13:55:54Z",
+      "description": "A new version of the ToxicPanda Android banking trojan is widening the danger for mobile users. The malware can steal banking PINs, imitate trusted screens, and take deeper control of infected phones through a feature intended for developers. ToxicPanda 2.0 arrives with a far broader set of targets and remote commands than earlier versions. It […] The post ToxicPanda Android Malware Can Steal…",
+      "source": "cybersecuritynews.com"
+    },
+    {
+      "title": "Isolated-vm Flaw Lets Sandboxed JavaScript Escape to Host for Potential RCE",
+      "link": "https://thehackernews.com/2026/08/isolated-vm-flaw-lets-sandboxed.html",
+      "date": "2026-08-20T13:48:24Z",
+      "description": "Cybersecurity researchers have disclosed a critical security flaw in isolated-vm, a popular open-source sandbox with more than 2,900 stars and 190 forks on GitHub, that could allow attackers to escape the confines of the isolated environment. The vulnerability (\"GHSA-864f-rcv7-6rh4\"), which has yet to be assigned a CVE identifier, impacts all versions of the library before and including 7.0.0.",
+      "source": "thehackernews.com"
+    },
+    {
+      "title": "Hackers Use Fake CAPTCHA to Install Malware That Kills 145 Security Processes",
+      "link": "https://cybersecuritynews.com/hackers-use-fake-captcha/",
+      "date": "2026-08-20T13:39:22Z",
+      "description": "Hackers are using fake CAPTCHA pages to push a malware loader that can shut down security software before a follow-on payload runs. The campaign combines compromised WordPress websites, a familiar browser verification prompt, and a Windows command that victims are persuaded to execute themselves. The operation uses ErrTraffic, a malware delivery service that creates ClickFix […] The post Hackers…",
+      "source": "cybersecuritynews.com"
+    },
+    {
+      "title": "Critical NetScaler Flaw Can Bypass Authentication on Certain Gateway and AAA Servers",
+      "link": "https://thehackernews.com/2026/08/critical-netscaler-flaw-can-bypass.html",
+      "date": "2026-08-20T13:35:13Z",
+      "description": "Citrix has released updates to address two security flaws impacting NetScaler ADC and NetScaler Gateway deployments, including a critical-severity authentication bypass vulnerability. According to the cloud computing and virtualization technology company, the issues affect customer-managed NetScaler ADC and NetScaler Gateway, including certain FIPS and NDcPP builds, as well as SecurAccess",
+      "source": "thehackernews.com"
+    },
     {
       "title": "'Grandoreiro' Malware Resurfaces With Mexico Campaign",
       "link": "https://www.darkreading.com/cyberattacks-data-breaches/grandoreiro-resurfaces-mexico-campaign",
       "date": "2026-08-20T13:30:00Z",
       "description": "The banking Trojan, post-law enforcement takedown, is sprucing itself up with features that make detection and analysis harder.",
       "source": "darkreading.com"
+    },
+    {
+      "title": "Attackers Exploit Zimbra SNMP Flaw for Unauthenticated Remote Code Execution",
+      "link": "https://thehackernews.com/2026/08/attackers-exploit-zimbra-snmp-flaw-for.html",
+      "date": "2026-08-20T13:24:28Z",
+      "description": "A now-patched security flaw impacting Zimbra Collaboration (ZCS) has come under active exploitation in the wild, according to the Polish Computer Emergency Response Team (CERT Polska). The vulnerability in question is CVE-2026-73570 (CVSS score: 8.9), which refers to a case of command injection that can lead to remote code execution. \"A remote code execution vulnerability exists in Zimbra",
+      "source": "thehackernews.com"
     },
     {
       "title": "New Android Malware Steals Banking PINs and Relays Data Through Someone Else’s Infected Phones",
@@ -52,13 +94,6 @@
       "source": "bleepingcomputer.com"
     },
     {
-      "title": "Hackers Weaponize OpenClaw AI Agents to Push Malware and Steal Crypto Wallets",
-      "link": "https://cybersecuritynews.com/openclaw-ai-agents/",
-      "date": "2026-08-20T12:06:52Z",
-      "description": "Cybercriminals are turning AI agents into a new route for malware delivery. A campaign targeting OpenClaw, an open-source platform that lets AI agents interact with files, messaging apps, and terminal commands, used poisoned marketplace packages to place data-stealing malware on victim devices. The campaign, known as ClawHavoc, targeted OpenClaw’s ClawHub skill registry with malicious packages…",
-      "source": "cybersecuritynews.com"
-    },
-    {
       "title": "MLflow Vulnerability Exploited for Cloud Credential Theft",
       "link": "https://www.securityweek.com/mlflow-vulnerability-exploited-for-cloud-credential-theft/",
       "date": "2026-08-20T12:05:55Z",
@@ -73,13 +108,6 @@
       "source": "thehackernews.com"
     },
     {
-      "title": "Cisco External Entity Injection Vulnerability Allows Attackers to Read Sensitive Data",
-      "link": "https://cybersecuritynews.com/cisco-external-entity-injection-vulnerability/",
-      "date": "2026-08-20T11:59:43Z",
-      "description": "Cisco has released security updates for a high-severity XML External Entity injection vulnerability in Cisco BroadWorks that could allow unauthenticated remote attackers to read sensitive configuration data and files from affected systems. Tracked as CVE-2026-20320, the issue carries a CVSS score of 7.5 and affects several components of the BroadWorks platform. The vulnerability, identified in…",
-      "source": "cybersecuritynews.com"
-    },
-    {
       "title": "Cisco Patches Critical Crosswork, Secure Workload Vulnerabilities",
       "link": "https://www.securityweek.com/cisco-patches-critical-crosswork-secure-workload-vulnerabilities/",
       "date": "2026-08-20T11:46:04Z",
@@ -91,20 +119,6 @@
       "link": "https://thehackernews.com/2026/08/why-shady-ai-is-securitys-next-big.html",
       "date": "2026-08-20T11:45:00Z",
       "description": "In March 2026, an internal AI agent at Meta triggered a “Sev 1” incident after sensitive company and user data was exposed to employees who weren’t authorized to access it. The incident began when a Meta employee posted a technical question on an internal forum. An engineer used an approved AI agent to analyze it, but the agent posted its response publicly without approval. The employee",
-      "source": "thehackernews.com"
-    },
-    {
-      "title": "CDN Tsunami Attack Abuses HTTP/3 Translation for Up to 350x DoS Amplification",
-      "link": "https://thehackernews.com/2026/08/cdn-tsunami-attack-abuses-http3.html",
-      "date": "2026-08-20T11:39:35Z",
-      "description": "Cybersecurity researchers have disclosed two denial-of-service (DoS) attacks that exploit how major content delivery networks (CDNs) convert client-facing HTTP/3 traffic into HTTP/1.1 requests to the websites they front, amplifying a low-bandwidth request stream by up to 350x against the origin server. The attacks, collectively named \"CDN Tsunami,\" were evaluated against Alibaba, Baidu,",
-      "source": "thehackernews.com"
-    },
-    {
-      "title": "Manic Android Malware Exfiltrates Data From Offline Phones via Nearby Infected Devices",
-      "link": "https://thehackernews.com/2026/08/manic-android-malware-exfiltrates-data.html",
-      "date": "2026-08-20T11:26:08Z",
-      "description": "A new Android threat codenamed Manic has been observed actively targeting Ukrainian banks, government and identity services, and messaging applications, as well as Russian and European financial institutions, global fintech and cryptocurrency services, and military-focused communications. \"Manic sits at the intersection of Android banking malware and mobile spyware, combining financial-fraud",
       "source": "thehackernews.com"
     },
     {
@@ -122,13 +136,6 @@
       "source": "bleepingcomputer.com"
     },
     {
-      "title": "NASA AIT-GUI Flaws Could Let Unauthenticated Attackers Issue Spacecraft Commands",
-      "link": "https://thehackernews.com/2026/08/nasa-ait-gui-flaws-could-let.html",
-      "date": "2026-08-20T11:05:11Z",
-      "description": "Security researchers at Cycode have disclosed a chain of flaws in AIT-GUI, the browser-based operator console for NASA/JPL's open-source AMMOS Instrument Toolkit, that allow an unauthenticated attacker to issue arbitrary commands to the software's spacecraft and instrument command bus. The chain, tracked as GHSA-p9r8-2q67-fp86 and rated 9.4 on the CVSS v3.1 scoring system, impacts AIT-GUI",
-      "source": "thehackernews.com"
-    },
-    {
       "title": "New Manic Android malware can exfiltrate data through nearby devices",
       "link": "https://www.bleepingcomputer.com/news/security/new-manic-android-malware-can-exfiltrate-data-through-nearby-devices/",
       "date": "2026-08-20T10:02:02Z",
@@ -140,13 +147,6 @@
       "link": "https://www.bleepingcomputer.com/news/security/critical-zimbra-rce-flaw-now-actively-exploited-in-attacks/",
       "date": "2026-08-20T09:46:54Z",
       "description": "CERT Polska, the Polish Computer Emergency Response Team (CERT), warned that attackers have begun exploiting a critical vulnerability in Zimbra Collaboration Suite (ZCS). [...]",
-      "source": "bleepingcomputer.com"
-    },
-    {
-      "title": "Microsoft says August Windows updates may cause gaming issues",
-      "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-august-windows-updates-may-cause-gaming-issues-reboots/",
-      "date": "2026-08-20T06:51:03Z",
-      "description": "Microsoft is investigating a potential issue with the August 2026 updates that may prevent some games from launching or cause them to crash on affected Windows 11 systems. [...]",
       "source": "bleepingcomputer.com"
     },
     {
