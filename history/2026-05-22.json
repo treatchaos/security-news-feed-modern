@@ -1,6 +1,6 @@
 {
   "date": "2026-05-22",
-  "count": 37,
+  "count": 28,
   "items": [
     {
       "id": "c5349c5030c2d766dda7a8c5b4645a40063c894d",
@@ -230,96 +230,6 @@
       "description": "Ransomware and vendor breaches persist, but the 2026 Data Breach Investigations Report (DBIR) highlights how evolving social engineering tactics make the sector more vulnerable.",
       "source": "darkreading.com",
       "first_seen": "2026-05-22T16:13:56Z",
-      "last_seen": "2026-05-26T19:53:46Z"
-    },
-    {
-      "id": "d56fcaaa8bcf24e53663da7817c9c2854d1dfe6f",
-      "title": "Drupal: Critical SQL injection flaw now targeted in attacks",
-      "link": "https://www.bleepingcomputer.com/news/security/drupal-critical-sql-injection-flaw-now-targeted-in-attacks/",
-      "date": "2026-05-22T13:14:40Z",
-      "description": "Drupal is warning that hackers are attempting to exploit a \"highly critical\" SQL injection vulnerability announced earlier this week. [...]",
-      "source": "bleepingcomputer.com",
-      "first_seen": "2026-05-22T13:22:23Z",
-      "last_seen": "2026-05-23T20:00:50Z"
-    },
-    {
-      "id": "c0babd46c5171d1509ff6273657e469575a220f5",
-      "title": "Why Chargebacks are Just One Piece of the Fraud Puzzle",
-      "link": "https://www.bleepingcomputer.com/news/security/why-chargebacks-are-just-one-piece-of-the-fraud-puzzle/",
-      "date": "2026-05-22T13:09:18Z",
-      "description": "Fraud losses don't stop at chargebacks. False declines, account takeovers, and abuse also damage revenue and trust. IPQS breaks down why fraud teams need broader visibility into risk and customer impact. [...]",
-      "source": "bleepingcomputer.com",
-      "first_seen": "2026-05-22T13:22:23Z",
-      "last_seen": "2026-05-23T14:27:34Z"
-    },
-    {
-      "id": "dc3acd3684b8138181a70a005c1eb13c89a628a5",
-      "title": "Hackers Hide Malware Payloads Inside Nested macOS-Like Folders to Evade Scanning",
-      "link": "https://cybersecuritynews.com/hackers-hide-malware-payloads-inside/",
-      "date": "2026-05-22T12:54:31Z",
-      "description": "Hackers are quietly hiding Windows malware inside nested folders that imitate macOS system paths, making dangerous payloads look like harmless archives to the untrained eye. By burying their tools several layers deep, they aim to slip past automated scanning and casual inspection during routine email use. The result is a stealthy infection chain that starts […] The post Hackers Hide Malware…",
-      "source": "cybersecuritynews.com",
-      "first_seen": "2026-05-22T13:22:23Z",
-      "last_seen": "2026-05-22T16:13:56Z"
-    },
-    {
-      "id": "ca6c1b9ddfd5663b3e10fa481f180edbaf179cc7",
-      "title": "Canadian Man Arrested for Operating Kimwolf Botnet",
-      "link": "https://www.securityweek.com/canadian-man-arrested-for-operating-kimwolf-botnet/",
-      "date": "2026-05-22T12:11:03Z",
-      "description": "Jacob Butler, 23, has been arrested in Canada and US authorities are seeking his extradition on computer hacking charges. The post Canadian Man Arrested for Operating Kimwolf Botnet appeared first on SecurityWeek.",
-      "source": "securityweek.com",
-      "first_seen": "2026-05-22T13:22:23Z",
-      "last_seen": "2026-05-25T07:01:39Z"
-    },
-    {
-      "id": "5f905a338c94bbfe5b0ede230c5c18028bc7e260",
-      "title": "Ubiquiti patches three max severity UniFi OS vulnerabilities",
-      "link": "https://www.bleepingcomputer.com/news/security/ubiquiti-patches-three-max-severity-unifi-os-vulnerabilities/",
-      "date": "2026-05-22T12:00:42Z",
-      "description": "Ubiquiti has released security updates to patch three maximum severity vulnerabilities in UniFi OS that can be exploited by remote attackers without privileges. [...]",
-      "source": "bleepingcomputer.com",
-      "first_seen": "2026-05-22T13:22:23Z",
-      "last_seen": "2026-05-22T16:13:56Z"
-    },
-    {
-      "id": "d455a7ed98e197175d84600efbd25a3fd8a42c7d",
-      "title": "Megalodon GitHub Attack Targets 5,561 Repos with Malicious CI/CD Workflows",
-      "link": "https://thehackernews.com/2026/05/megalodon-github-attack-targets-5561.html",
-      "date": "2026-05-22T11:55:24Z",
-      "description": "Cybersecurity researchers have disclosed details of a new automated campaign called Megalodon that has pushed 5,718 malicious commits to 5,561 GitHub repositories within a six-hour window. \"Using throwaway accounts and forged author identities (build-bot, auto-ci, ci-bot, pipeline-bot), the attacker injected GitHub Actions workflows containing base64-encoded bash payloads that exfiltrate CI",
-      "source": "thehackernews.com",
-      "first_seen": "2026-05-22T13:22:23Z",
-      "last_seen": "2026-05-23T08:12:55Z"
-    },
-    {
-      "id": "ad1d98dd307998ca1c7cb001e062c40abbc1c99d",
-      "title": "Making Vulnerable Drivers Exploitable Without Hardware - The BYOVD Perspective",
-      "link": "https://thehackernews.com/2026/05/making-vulnerable-drivers-exploitable.html",
-      "date": "2026-05-22T11:38:12Z",
-      "description": "1 Introduction This article provides a technical analysis of how many Windows kernel mode drivers can be interacted with from user mode without the hardware they were developed for. This work was motivated by driver-oriented vulnerability research and the need to evaluate the exploitability of individual findings, which frequently affect code whose reachability is hardware-gated. The",
-      "source": "thehackernews.com",
-      "first_seen": "2026-05-22T13:22:23Z",
-      "last_seen": "2026-05-23T05:58:03Z"
-    },
-    {
-      "id": "d6bf240de20d613c31b4532ff4ada7b27fa0e3fd",
-      "title": "Splunk Patches Multiple Vulnerabilities that Enable DOS Attacks and Expose Sensitive Data",
-      "link": "https://cybersecuritynews.com/splunk-patches-multiple-vulnerabilities/",
-      "date": "2026-05-22T09:48:54Z",
-      "description": "Splunk has released security updates addressing multiple vulnerabilities across Splunk Enterprise, Splunk Cloud Platform, and the Splunk AI Toolkit that could lead to denial-of-service (DoS) conditions and exposure of sensitive data. The issues, disclosed on May 20, 2026, include three tracked vulnerabilities: CVE-2026-20238, CVE-2026-20239, and CVE-2026-20240. Splunk AI Toolkit Access Flaw…",
-      "source": "cybersecuritynews.com",
-      "first_seen": "2026-05-22T13:22:23Z",
-      "last_seen": "2026-05-22T13:22:23Z"
-    },
-    {
-      "id": "3270ef001824ebb40f924e2528e1df068fcd5911",
-      "title": "China's Webworm Uses Discord, Microsoft Graphs to Hack EU Governments",
-      "link": "https://www.darkreading.com/endpoint-security/chinas-webworm-discord-microsoft-graphs",
-      "date": "2026-05-22T07:01:00Z",
-      "description": "The advanced persistent threat group also relied on SOCKS proxies like SoftEther VPN, tunneling tools that act as a middleman between victim and attacker.",
-      "source": "darkreading.com",
-      "first_seen": "2026-05-22T13:22:23Z",
       "last_seen": "2026-05-26T19:53:46Z"
     },
     {
