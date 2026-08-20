@@ -1,13 +1,34 @@
 {
-  "last_updated": "2026-08-20T07:32:14Z",
-  "count": 30,
+  "last_updated": "2026-08-20T08:24:20Z",
+  "count": 35,
   "items": [
+    {
+      "title": "Splunk Patches Critical MCP Server RCE and 16 Other Security Flaws Across AI Toolkit, Kafka Apps",
+      "link": "https://cybersecuritynews.com/splunk-patches-security-flaws/",
+      "date": "2026-08-20T08:22:21Z",
+      "description": "Splunk has released security updates for 17 vulnerabilities affecting several apps and add-ons, including Splunk MCP Server, Splunk AI Toolkit, and Splunk Connect for Kafka. The most severe issue, tracked as CVE-2026-76404, is a critical remote code execution vulnerability with a CVSS score of 9.1. The advisory, published on August 19, 2026, also covers Cisco […] The post Splunk Patches Critical…",
+      "source": "cybersecuritynews.com"
+    },
+    {
+      "title": "Critical GitLab Flaw Exploited Shortly After Disclosure",
+      "link": "https://www.securityweek.com/critical-gitlab-flaw-exploited-shortly-after-disclosure/",
+      "date": "2026-08-20T07:48:24Z",
+      "description": "CVE-2026-19478 can be exploited without authentication to modify or delete public projects and user data. The post Critical GitLab Flaw Exploited Shortly After Disclosure appeared first on SecurityWeek.",
+      "source": "securityweek.com"
+    },
     {
       "title": "Hackers Using AI to Target Siemens PLCs in Critical US Sectors",
       "link": "https://www.securityweek.com/hackers-using-ai-to-target-siemens-plcs-in-critical-us-sectors/",
       "date": "2026-08-20T07:02:02Z",
       "description": "A cybersecurity advisory with technical details and recommendations has been written by the NSA, CISA and other agencies. The post Hackers Using AI to Target Siemens PLCs in Critical US Sectors appeared first on SecurityWeek.",
       "source": "securityweek.com"
+    },
+    {
+      "title": "Claude AI Finds SAML Security Flaws That Can Let Attackers Take Over Accounts",
+      "link": "https://cybersecuritynews.com/claude-ai-finds-saml-security-flaws/",
+      "date": "2026-08-20T06:51:49Z",
+      "description": "Security researchers have used Anthropic’s Claude AI to uncover serious flaws in Security Assertion Markup Language (SAML) implementations that could allow attackers to bypass authentication and take over user accounts. The findings highlight the persistent security risks created by XML signature processing, inconsistent parser behavior, and custom SAML code. A researcher at Oblique Security…",
+      "source": "cybersecuritynews.com"
     },
     {
       "title": "Microsoft says August Windows updates may cause gaming issues",
@@ -17,11 +38,32 @@
       "source": "bleepingcomputer.com"
     },
     {
+      "title": "Critical Zimbra RCE Vulnerability Actively Exploited in the Wild",
+      "link": "https://cybersecuritynews.com/zimbra-rce-vulnerability-exploited/",
+      "date": "2026-08-20T06:34:27Z",
+      "description": "CERT Polska has warned that threat actors are actively exploiting a critical remote code execution vulnerability in Zimbra Collaboration Suite. Tracked as CVE-2026-73570, the flaw allows unauthenticated attackers to run arbitrary operating system commands as the zimbra user on affected servers. The issue is an OS command injection vulnerability in Zimbra’s SNMP monitoring functionality. It […]…",
+      "source": "cybersecuritynews.com"
+    },
+    {
       "title": "Elementor Pro Flaw Could Let Unauthenticated Attackers Upload PHP and Execute Code",
       "link": "https://thehackernews.com/2026/08/elementor-pro-flaw-could-let.html",
       "date": "2026-08-20T06:04:34Z",
       "description": "Cybersecurity researchers have disclosed details of a critical flaw in the Elementor Pro WordPress plugin that, if successfully exploited, could lead to remote code execution. The vulnerability, tracked as CVE-2026-32475, carries a CVSS score of 9.0 out of 10.0. It has been described as a case of unrestricted upload of a file with a dangerous type. \"The flaw lives in the Forms module's File",
       "source": "thehackernews.com"
+    },
+    {
+      "title": "Airlock Digital Completes Independent IRAP Assessment at the PROTECTED Level",
+      "link": "https://cybersecuritynews.com/airlock-digital-completes-independent-irap-assessment-at-the-protected-level/",
+      "date": "2026-08-20T04:42:40Z",
+      "description": "Adelaide, Australia, August 19th, 2026, CyberNewswire Independent assessment provides Australian organisations with additional evidence when evaluating application control for sensitive, government, defence and critical infrastructure environments. Airlock Digital, a global provider of application control and allowlisting solutions, today announced that it has completed an independent…",
+      "source": "cybersecuritynews.com"
+    },
+    {
+      "title": "U.S. Agencies Warn of Hackers Actively Attacking Siemens S7 PLCs in Critical Facilities",
+      "link": "https://cybersecuritynews.com/hackers-attacking-siemens-s7-plcs/",
+      "date": "2026-08-20T04:11:55Z",
+      "description": "The NSA, CISA, FBI, Department of Energy, and EPA issued a joint cybersecurity advisory on August 19 warning that threat actors are actively targeting Siemens S7 Series programmable logic controllers (PLCs) across America’s critical infrastructure. The agencies describe this as a live, ongoing threat rather than a theoretical risk, with attackers using AI-generated exploitation scripts […] The…",
+      "source": "cybersecuritynews.com"
     },
     {
       "title": "OpenAI confirms ChatGPT is down as logins and signups fail",
@@ -112,13 +154,6 @@
       "link": "https://www.securityweek.com/us-charges-17-iranian-hackers-offers-10-million-rewards-for-5-of-them/",
       "date": "2026-08-19T11:30:33Z",
       "description": "The 17 members of the Mabna Institute targeted hundreds of universities and organizations in the US and abroad. The post US Charges 17 Iranian Hackers, Offers $10 Million Rewards for 5 of Them appeared first on SecurityWeek.",
-      "source": "securityweek.com"
-    },
-    {
-      "title": "Cl0p Ransomware Group Names Over 40 Victims of PTC Windchill Campaign",
-      "link": "https://www.securityweek.com/cl0p-ransomware-group-names-over-40-victims-of-ptc-windchill-campaign/",
-      "date": "2026-08-19T11:07:21Z",
-      "description": "The cybercrime gang has listed major companies such as Shell, Philips, Fiserv, Zebra, Mindray, and Largan Precision. The post Cl0p Ransomware Group Names Over 40 Victims of PTC Windchill Campaign appeared first on SecurityWeek.",
       "source": "securityweek.com"
     },
     {

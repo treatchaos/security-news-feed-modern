@@ -1,7 +1,27 @@
 {
   "date": "2026-08-20",
-  "count": 10,
+  "count": 14,
   "items": [
+    {
+      "id": "90555b9702d78f10487780c163f79bc5c0b96c67",
+      "title": "Splunk Patches Critical MCP Server RCE and 16 Other Security Flaws Across AI Toolkit, Kafka Apps",
+      "link": "https://cybersecuritynews.com/splunk-patches-security-flaws/",
+      "date": "2026-08-20T08:22:21Z",
+      "description": "Splunk has released security updates for 17 vulnerabilities affecting several apps and add-ons, including Splunk MCP Server, Splunk AI Toolkit, and Splunk Connect for Kafka. The most severe issue, tracked as CVE-2026-76404, is a critical remote code execution vulnerability with a CVSS score of 9.1. The advisory, published on August 19, 2026, also covers Cisco […] The post Splunk Patches Critical…",
+      "source": "cybersecuritynews.com",
+      "first_seen": "2026-08-20T08:24:20Z",
+      "last_seen": "2026-08-20T08:24:20Z"
+    },
+    {
+      "id": "6924c12056114008f70233396baf6ee84a8b839f",
+      "title": "Critical GitLab Flaw Exploited Shortly After Disclosure",
+      "link": "https://www.securityweek.com/critical-gitlab-flaw-exploited-shortly-after-disclosure/",
+      "date": "2026-08-20T07:48:24Z",
+      "description": "CVE-2026-19478 can be exploited without authentication to modify or delete public projects and user data. The post Critical GitLab Flaw Exploited Shortly After Disclosure appeared first on SecurityWeek.",
+      "source": "securityweek.com",
+      "first_seen": "2026-08-20T08:24:20Z",
+      "last_seen": "2026-08-20T08:24:20Z"
+    },
     {
       "id": "38233d3f4b692bc324d53f11d09f1a27e65af978",
       "title": "Hackers Using AI to Target Siemens PLCs in Critical US Sectors",
@@ -10,7 +30,17 @@
       "description": "A cybersecurity advisory with technical details and recommendations has been written by the NSA, CISA and other agencies. The post Hackers Using AI to Target Siemens PLCs in Critical US Sectors appeared first on SecurityWeek.",
       "source": "securityweek.com",
       "first_seen": "2026-08-20T07:32:14Z",
-      "last_seen": "2026-08-20T07:32:14Z"
+      "last_seen": "2026-08-20T08:24:20Z"
+    },
+    {
+      "id": "fdbe90ddbad81c3f7b23d14d76e90063ca6d9a7a",
+      "title": "Claude AI Finds SAML Security Flaws That Can Let Attackers Take Over Accounts",
+      "link": "https://cybersecuritynews.com/claude-ai-finds-saml-security-flaws/",
+      "date": "2026-08-20T06:51:49Z",
+      "description": "Security researchers have used Anthropic’s Claude AI to uncover serious flaws in Security Assertion Markup Language (SAML) implementations that could allow attackers to bypass authentication and take over user accounts. The findings highlight the persistent security risks created by XML signature processing, inconsistent parser behavior, and custom SAML code. A researcher at Oblique Security…",
+      "source": "cybersecuritynews.com",
+      "first_seen": "2026-08-20T08:24:20Z",
+      "last_seen": "2026-08-20T08:24:20Z"
     },
     {
       "id": "0b9c44f4ebab6b23c78bc51d83aa349920b43f26",
@@ -20,7 +50,17 @@
       "description": "Microsoft is investigating a potential issue with the August 2026 updates that may prevent some games from launching or cause them to crash on affected Windows 11 systems. [...]",
       "source": "bleepingcomputer.com",
       "first_seen": "2026-08-20T07:32:14Z",
-      "last_seen": "2026-08-20T07:32:14Z"
+      "last_seen": "2026-08-20T08:24:20Z"
+    },
+    {
+      "id": "cd9a74d54fc04ecbc0879dd5546563493dd2eaed",
+      "title": "Critical Zimbra RCE Vulnerability Actively Exploited in the Wild",
+      "link": "https://cybersecuritynews.com/zimbra-rce-vulnerability-exploited/",
+      "date": "2026-08-20T06:34:27Z",
+      "description": "CERT Polska has warned that threat actors are actively exploiting a critical remote code execution vulnerability in Zimbra Collaboration Suite. Tracked as CVE-2026-73570, the flaw allows unauthenticated attackers to run arbitrary operating system commands as the zimbra user on affected servers. The issue is an OS command injection vulnerability in Zimbra’s SNMP monitoring functionality. It […]…",
+      "source": "cybersecuritynews.com",
+      "first_seen": "2026-08-20T08:24:20Z",
+      "last_seen": "2026-08-20T08:24:20Z"
     },
     {
       "id": "52ca0839179aef5ea67c3f64eec6a04d59b8ae28",
@@ -30,7 +70,7 @@
       "description": "Cybersecurity researchers have disclosed details of a critical flaw in the Elementor Pro WordPress plugin that, if successfully exploited, could lead to remote code execution. The vulnerability, tracked as CVE-2026-32475, carries a CVSS score of 9.0 out of 10.0. It has been described as a case of unrestricted upload of a file with a dangerous type. \"The flaw lives in the Forms module's File",
       "source": "thehackernews.com",
       "first_seen": "2026-08-20T06:25:36Z",
-      "last_seen": "2026-08-20T07:32:14Z"
+      "last_seen": "2026-08-20T08:24:20Z"
     },
     {
       "id": "dd62df67ac41a2c21303e0cdca53cec17dbf04ad",
@@ -40,7 +80,7 @@
       "description": "Adelaide, Australia, August 19th, 2026, CyberNewswire Independent assessment provides Australian organisations with additional evidence when evaluating application control for sensitive, government, defence and critical infrastructure environments. Airlock Digital, a global provider of application control and allowlisting solutions, today announced that it has completed an independent…",
       "source": "cybersecuritynews.com",
       "first_seen": "2026-08-20T05:20:46Z",
-      "last_seen": "2026-08-20T05:20:46Z"
+      "last_seen": "2026-08-20T08:24:20Z"
     },
     {
       "id": "1dceb3ee3010e514acba2df9e354cfc6cae02df0",
@@ -50,7 +90,7 @@
       "description": "The NSA, CISA, FBI, Department of Energy, and EPA issued a joint cybersecurity advisory on August 19 warning that threat actors are actively targeting Siemens S7 Series programmable logic controllers (PLCs) across America’s critical infrastructure. The agencies describe this as a live, ongoing threat rather than a theoretical risk, with attackers using AI-generated exploitation scripts […] The…",
       "source": "cybersecuritynews.com",
       "first_seen": "2026-08-20T04:25:51Z",
-      "last_seen": "2026-08-20T05:20:46Z"
+      "last_seen": "2026-08-20T08:24:20Z"
     },
     {
       "id": "08d3c1eaa318be28cfeb36d9d1dd10e0f46e6310",
@@ -80,7 +120,7 @@
       "description": "ChatGPT is experiencing a major outage, and users are unable to sign in, create accounts, or load chats, including previous conversations. [...]",
       "source": "bleepingcomputer.com",
       "first_seen": "2026-08-20T00:36:03Z",
-      "last_seen": "2026-08-20T07:32:14Z"
+      "last_seen": "2026-08-20T08:24:20Z"
     },
     {
       "id": "f3b36d57978579452386ee4f3e82fc4bb7f3fde3",
@@ -90,7 +130,7 @@
       "description": "A CVSS score 3.3 AV:L/AC:L/PR:N/UI:R/S:U/C:L/I:N/A:N severity vulnerability discovered by 'Anonymous' was reported to the affected vendor on: 2026-08-19, 0 days ago. The vendor is given until 2026-12-17 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
       "source": "zerodayinitiative.com",
       "first_seen": "2026-08-20T00:36:03Z",
-      "last_seen": "2026-08-20T07:32:14Z"
+      "last_seen": "2026-08-20T08:24:20Z"
     },
     {
       "id": "439bbf25ef83f105d5bbf016d4cd03eeabf02636",
@@ -100,7 +140,7 @@
       "description": "A CVSS score 3.3 AV:L/AC:L/PR:N/UI:R/S:U/C:L/I:N/A:N severity vulnerability discovered by 'Anonymous' was reported to the affected vendor on: 2026-08-19, 0 days ago. The vendor is given until 2026-12-17 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
       "source": "zerodayinitiative.com",
       "first_seen": "2026-08-20T00:36:03Z",
-      "last_seen": "2026-08-20T07:32:14Z"
+      "last_seen": "2026-08-20T08:24:20Z"
     }
   ]
 }
