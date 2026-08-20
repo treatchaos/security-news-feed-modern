@@ -1,7 +1,87 @@
 {
   "date": "2026-08-20",
-  "count": 28,
+  "count": 36,
   "items": [
+    {
+      "id": "83c4fe3350df58ab7acb5c0a986017438c1b6a89",
+      "title": "Citrix urges admins to patch new NetScaler flaws as soon as possible",
+      "link": "https://www.bleepingcomputer.com/news/security/citrix-urges-admins-to-patch-new-netscaler-flaws-as-soon-as-possible/",
+      "date": "2026-08-20T12:14:38Z",
+      "description": "Citrix has warned customers to immediately secure their systems against two vulnerabilities affecting NetScaler Gateway secure remote access solutions and NetScaler ADC networking appliances. [...]",
+      "source": "bleepingcomputer.com",
+      "first_seen": "2026-08-20T12:24:17Z",
+      "last_seen": "2026-08-20T12:24:17Z"
+    },
+    {
+      "id": "e4f7c64117544823be9528f2b196f16bde6ddc48",
+      "title": "Hackers Weaponize OpenClaw AI Agents to Push Malware and Steal Crypto Wallets",
+      "link": "https://cybersecuritynews.com/openclaw-ai-agents/",
+      "date": "2026-08-20T12:06:52Z",
+      "description": "Cybercriminals are turning AI agents into a new route for malware delivery. A campaign targeting OpenClaw, an open-source platform that lets AI agents interact with files, messaging apps, and terminal commands, used poisoned marketplace packages to place data-stealing malware on victim devices. The campaign, known as ClawHavoc, targeted OpenClaw’s ClawHub skill registry with malicious packages…",
+      "source": "cybersecuritynews.com",
+      "first_seen": "2026-08-20T12:24:17Z",
+      "last_seen": "2026-08-20T12:24:17Z"
+    },
+    {
+      "id": "0d83fa199c165d4714521b20f819392c9f615b1b",
+      "title": "MLflow Vulnerability Exploited for Cloud Credential Theft",
+      "link": "https://www.securityweek.com/mlflow-vulnerability-exploited-for-cloud-credential-theft/",
+      "date": "2026-08-20T12:05:55Z",
+      "description": "The critical-severity flaw allows attackers to send HTTP requests to internal endpoints and extract sensitive information. The post MLflow Vulnerability Exploited for Cloud Credential Theft appeared first on SecurityWeek.",
+      "source": "securityweek.com",
+      "first_seen": "2026-08-20T12:24:17Z",
+      "last_seen": "2026-08-20T12:24:17Z"
+    },
+    {
+      "id": "0ceebd3cb4c30c50b4e89f1cb55b975dd36dc147",
+      "title": "Cisco External Entity Injection Vulnerability Allows Attackers to Read Sensitive Data",
+      "link": "https://cybersecuritynews.com/cisco-external-entity-injection-vulnerability/",
+      "date": "2026-08-20T11:59:43Z",
+      "description": "Cisco has released security updates for a high-severity XML External Entity injection vulnerability in Cisco BroadWorks that could allow unauthenticated remote attackers to read sensitive configuration data and files from affected systems. Tracked as CVE-2026-20320, the issue carries a CVSS score of 7.5 and affects several components of the BroadWorks platform. The vulnerability, identified in…",
+      "source": "cybersecuritynews.com",
+      "first_seen": "2026-08-20T12:24:17Z",
+      "last_seen": "2026-08-20T12:24:17Z"
+    },
+    {
+      "id": "f939f00fbe5b877e1645ee99b01833933f784b1f",
+      "title": "OpenAI Pauses AI Training Amid Concerns of New Model Potentially Discovering 0-Day Flaws",
+      "link": "https://cybersecuritynews.com/openai-pauses-ai-training/",
+      "date": "2026-08-20T11:57:08Z",
+      "description": "OpenAI has temporarily slowed frontier AI training after internal testing suggested that its upcoming Astra model may reach a critical cybersecurity capability threshold. The company said the decision followed a security incident involving Hugging Face models and growing evidence that advanced systems could identify and exploit software weaknesses with limited human guidance. The pause included…",
+      "source": "cybersecuritynews.com",
+      "first_seen": "2026-08-20T12:24:17Z",
+      "last_seen": "2026-08-20T12:24:17Z"
+    },
+    {
+      "id": "e69adacc80432d5c01b4c5ee72090220622d9bad",
+      "title": "Critical Red Hat Kubernetes SSRF Flaw Exposes Internal Services Across Managed Clusters",
+      "link": "https://cybersecuritynews.com/red-hat-kubernetes-ssrf-flaw/",
+      "date": "2026-08-20T11:50:22Z",
+      "description": "Red Hat has disclosed CVE-2026-66794, a high-severity Server-Side Request Forgery vulnerability affecting the cluster-proxy-addon component in Multicluster Engine for Kubernetes. The issue carries a CVSS v3.1 score of 9.3. It could allow unauthenticated remote attackers to reach otherwise inaccessible services running across managed Kubernetes clusters. The vulnerability exists in a user-facing…",
+      "source": "cybersecuritynews.com",
+      "first_seen": "2026-08-20T12:24:17Z",
+      "last_seen": "2026-08-20T12:24:17Z"
+    },
+    {
+      "id": "94883eb56c0bfbe5ddfadd917ae6e35fac6d3206",
+      "title": "Cisco Patches Critical Crosswork, Secure Workload Vulnerabilities",
+      "link": "https://www.securityweek.com/cisco-patches-critical-crosswork-secure-workload-vulnerabilities/",
+      "date": "2026-08-20T11:46:04Z",
+      "description": "The flaws could lead to remote code execution, authentication bypasses, and path traversal attacks. The post Cisco Patches Critical Crosswork, Secure Workload Vulnerabilities appeared first on SecurityWeek.",
+      "source": "securityweek.com",
+      "first_seen": "2026-08-20T12:24:17Z",
+      "last_seen": "2026-08-20T12:24:17Z"
+    },
+    {
+      "id": "9321ebf4722f7d7befe99e5a1eb23c20b4857f4b",
+      "title": "Hackers Hide Malware Code Inside English Words to Infect Windows Users",
+      "link": "https://cybersecuritynews.com/hackers-hide-malware-code/",
+      "date": "2026-08-20T11:39:53Z",
+      "description": "A new Windows malware campaign is hiding malicious code inside ordinary English words, making the payload look less suspicious during analysis. The technique is being used to deliver Amatera Stealer, an information-stealing threat that targets sensitive data stored on infected systems. The campaign relies on ClearFake, a long-running operation that compromises legitimate websites and places […]…",
+      "source": "cybersecuritynews.com",
+      "first_seen": "2026-08-20T12:24:17Z",
+      "last_seen": "2026-08-20T12:24:17Z"
+    },
     {
       "id": "afb9c3f2e59d5ca91f259ce696a8e7f25eab792d",
       "title": "AI-Assisted Tool Helped Secure Satellite Communication System After 2022 Russian Hacking",
@@ -10,7 +90,7 @@
       "description": "Atalanta's Argo product is now being used to prove the resilience of Viasat’s satellite communications network. The post AI-Assisted Tool Helped Secure Satellite Communication System After 2022 Russian Hacking appeared first on SecurityWeek.",
       "source": "securityweek.com",
       "first_seen": "2026-08-20T11:16:45Z",
-      "last_seen": "2026-08-20T11:16:45Z"
+      "last_seen": "2026-08-20T12:24:17Z"
     },
     {
       "id": "768e8e658205b6d363079bb86455389cb0618da5",
@@ -20,7 +100,7 @@
       "description": "The Cybersecurity and Infrastructure Security Agency (CISA) warned federal agencies that threat actors are now exploiting a critical vulnerability in the MLflow open-source AI engineering platform. [...]",
       "source": "bleepingcomputer.com",
       "first_seen": "2026-08-20T11:16:45Z",
-      "last_seen": "2026-08-20T11:16:45Z"
+      "last_seen": "2026-08-20T12:24:17Z"
     },
     {
       "id": "e56a40bc8a4dd09fe44a8b673561437d6cf32456",
@@ -30,7 +110,7 @@
       "description": "Security researchers at Cycode have disclosed a chain of flaws in AIT-GUI, the browser-based operator console for NASA/JPL's open-source AMMOS Instrument Toolkit, that allow an unauthenticated attacker to issue arbitrary commands to the software's spacecraft and instrument command bus. The chain, tracked as GHSA-p9r8-2q67-fp86 and rated 9.4 on the CVSS v3.1 scoring system, impacts AIT-GUI",
       "source": "thehackernews.com",
       "first_seen": "2026-08-20T11:16:45Z",
-      "last_seen": "2026-08-20T11:16:45Z"
+      "last_seen": "2026-08-20T12:24:17Z"
     },
     {
       "id": "3ae01071784998b77b9e5e0996d1848171f2a67b",
@@ -50,7 +130,7 @@
       "description": "Cybersecurity researchers have shed light on an updated version of ToxicPanda (aka TgToxic) that comes with \"significant enhancements,\" including a set of 167 remote commands and expands its targeting footprint globally. Zimperium zLabs, in a Wednesday report, said the Android malware also features a PIN harvesting workflow targeting more than 140 banking and cryptocurrency applications.",
       "source": "thehackernews.com",
       "first_seen": "2026-08-20T11:16:45Z",
-      "last_seen": "2026-08-20T11:16:45Z"
+      "last_seen": "2026-08-20T12:24:17Z"
     },
     {
       "id": "d08af25ba968108661d5391ca79df91ec1557b2f",
@@ -60,7 +140,7 @@
       "description": "The action taken by OpenAI comes in light of the Hugging Face incident and the discovery of the Astra model’s advanced capabilities. The post OpenAI Overhauls Model Security With Sandboxing, 30-Minute Alerts, and Training Pauses appeared first on SecurityWeek.",
       "source": "securityweek.com",
       "first_seen": "2026-08-20T11:16:45Z",
-      "last_seen": "2026-08-20T11:16:45Z"
+      "last_seen": "2026-08-20T12:24:17Z"
     },
     {
       "id": "9ac025db30ccd29f903521e1835632badbd9e86c",
@@ -70,7 +150,7 @@
       "description": "A new Android malware named Manic targeting users in multiple European countries has a fallback data exfiltration mechanism that uses nearby infected devices. [...]",
       "source": "bleepingcomputer.com",
       "first_seen": "2026-08-20T10:18:59Z",
-      "last_seen": "2026-08-20T11:16:45Z"
+      "last_seen": "2026-08-20T12:24:17Z"
     },
     {
       "id": "01fcec4b21df5f28c670ce03cecba4d3d4b52655",
@@ -90,7 +170,7 @@
       "description": "CERT Polska, the Polish Computer Emergency Response Team (CERT), warned that attackers have begun exploiting a critical vulnerability in Zimbra Collaboration Suite (ZCS). [...]",
       "source": "bleepingcomputer.com",
       "first_seen": "2026-08-20T10:18:59Z",
-      "last_seen": "2026-08-20T11:16:45Z"
+      "last_seen": "2026-08-20T12:24:17Z"
     },
     {
       "id": "c55da3239651927fe7830f027df1e2404192d00c",
@@ -120,7 +200,7 @@
       "description": "A set of 40 Mozilla Firefox extensions has been found to engage in cryptocurrency wallet theft by masquerading as OKX, Rabby Wallet, TronLink, and other Web3 products. According to the Socket Threat Research team, the extensions are part of a broader set of 77 browser add-ons that share source code and infrastructure overlaps. The campaign, dubbed Offside Wallet Theft Factory, is believed to",
       "source": "thehackernews.com",
       "first_seen": "2026-08-20T11:16:45Z",
-      "last_seen": "2026-08-20T11:16:45Z"
+      "last_seen": "2026-08-20T12:24:17Z"
     },
     {
       "id": "0bc12928c01e2b1a76a5139e726a1725b16d3e62",
@@ -130,7 +210,7 @@
       "description": "Remote, unauthenticated attackers could exploit the critical-severity flaw without user interaction. The post Exploitation Expected for Critical Authentication Bypass Patched in Citrix NetScaler appeared first on SecurityWeek.",
       "source": "securityweek.com",
       "first_seen": "2026-08-20T09:22:41Z",
-      "last_seen": "2026-08-20T11:16:45Z"
+      "last_seen": "2026-08-20T12:24:17Z"
     },
     {
       "id": "90555b9702d78f10487780c163f79bc5c0b96c67",
@@ -180,7 +260,7 @@
       "description": "Microsoft is investigating a potential issue with the August 2026 updates that may prevent some games from launching or cause them to crash on affected Windows 11 systems. [...]",
       "source": "bleepingcomputer.com",
       "first_seen": "2026-08-20T07:32:14Z",
-      "last_seen": "2026-08-20T11:16:45Z"
+      "last_seen": "2026-08-20T12:24:17Z"
     },
     {
       "id": "cd9a74d54fc04ecbc0879dd5546563493dd2eaed",
@@ -200,7 +280,7 @@
       "description": "Cybersecurity researchers have disclosed details of a critical flaw in the Elementor Pro WordPress plugin that, if successfully exploited, could lead to remote code execution. The vulnerability, tracked as CVE-2026-32475, carries a CVSS score of 9.0 out of 10.0. It has been described as a case of unrestricted upload of a file with a dangerous type. \"The flaw lives in the Forms module's File",
       "source": "thehackernews.com",
       "first_seen": "2026-08-20T06:25:36Z",
-      "last_seen": "2026-08-20T11:16:45Z"
+      "last_seen": "2026-08-20T12:24:17Z"
     },
     {
       "id": "dd62df67ac41a2c21303e0cdca53cec17dbf04ad",
@@ -260,7 +340,7 @@
       "description": "Katie Moussouris of Luta Security talks with the Dark Reading News Desk about how enterprises will now need to monitor risks posed by their own agents in the wake of the recent Hugging Face attack.",
       "source": "darkreading.com",
       "first_seen": "2026-08-20T11:16:45Z",
-      "last_seen": "2026-08-20T11:16:45Z"
+      "last_seen": "2026-08-20T12:24:17Z"
     },
     {
       "id": "f3b36d57978579452386ee4f3e82fc4bb7f3fde3",
@@ -270,7 +350,7 @@
       "description": "A CVSS score 3.3 AV:L/AC:L/PR:N/UI:R/S:U/C:L/I:N/A:N severity vulnerability discovered by 'Anonymous' was reported to the affected vendor on: 2026-08-19, 0 days ago. The vendor is given until 2026-12-17 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
       "source": "zerodayinitiative.com",
       "first_seen": "2026-08-20T00:36:03Z",
-      "last_seen": "2026-08-20T11:16:45Z"
+      "last_seen": "2026-08-20T12:24:17Z"
     },
     {
       "id": "439bbf25ef83f105d5bbf016d4cd03eeabf02636",
@@ -280,7 +360,7 @@
       "description": "A CVSS score 3.3 AV:L/AC:L/PR:N/UI:R/S:U/C:L/I:N/A:N severity vulnerability discovered by 'Anonymous' was reported to the affected vendor on: 2026-08-19, 0 days ago. The vendor is given until 2026-12-17 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
       "source": "zerodayinitiative.com",
       "first_seen": "2026-08-20T00:36:03Z",
-      "last_seen": "2026-08-20T11:16:45Z"
+      "last_seen": "2026-08-20T12:24:17Z"
     }
   ]
 }
