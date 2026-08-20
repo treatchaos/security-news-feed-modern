@@ -1,7 +1,21 @@
 {
-  "last_updated": "2026-08-20T15:23:03Z",
+  "last_updated": "2026-08-20T16:21:25Z",
   "count": 35,
   "items": [
+    {
+      "title": "Popular Rust Packages With 244M Downloads Compromised to Run Malware",
+      "link": "https://cybersecuritynews.com/rust-packages-malware/",
+      "date": "2026-08-20T16:15:06Z",
+      "description": "A major supply chain attack targeting the Rust ecosystem, in which two widely used crates, arrayref and append-only-vec, were hijacked to silently deliver malware the moment developers compiled their projects. Together, the two packages account for hundreds of millions of downloads, making this one of the largest Rust crate compromises ever recorded by download volume. […] The post Popular Rust…",
+      "source": "cybersecuritynews.com"
+    },
+    {
+      "title": "Critical NASA AIT-GUI Flaw Lets Unauthenticated Attackers Issue Spacecraft Commands",
+      "link": "https://cybersecuritynews.com/nasa-ait-gui-flaw/",
+      "date": "2026-08-20T15:24:09Z",
+      "description": "A critical security flaw in NASA/JPL’s open-source AMMOS Instrument Toolkit GUI (AIT-GUI) could let an unauthenticated attacker send live commands to spacecraft and scientific instruments, run arbitrary scripts, and execute command sequences without ever logging in. Security researcher Yuval Elbar of Cycode disclosed an issue rated 9.4 on the CVSS v3.1 scale on August 13, […] The post Critical…",
+      "source": "cybersecuritynews.com"
+    },
     {
       "title": "Pakistan's Transparent Tribe Refreshes Toolset for Afghan Cyberattacks",
       "link": "https://www.darkreading.com/cyberattacks-data-breaches/pakistan-transparent-tribe-afghan-cyberattacks",
@@ -22,6 +36,13 @@
       "date": "2026-08-20T14:39:48Z",
       "description": "A critical vulnerability in the Elementor Pro WordPress plugin could allow attackers to upload executable files for remote code execution on the server. [...]",
       "source": "bleepingcomputer.com"
+    },
+    {
+      "title": "New Cryptographic Context Injection Attack Could Let Web Pages Steal Grok Chat Data",
+      "link": "https://thehackernews.com/2026/08/new-cryptographic-context-injection.html",
+      "date": "2026-08-20T14:36:27Z",
+      "description": "Adversa AI has disclosed an attack technique that it says can cause xAI's Grok chatbot to send a user's name, approximate location, subscription tier, and the prompts from the ongoing conversation to an attacker-controlled server after the user asks it to summarize an ordinary web page. The AI security company, which has codenamed the technique \"Cryptographic Context Injection,\" said the",
+      "source": "thehackernews.com"
     },
     {
       "title": "Surveillance – Everything You Wanted to Know, But Were Afraid to Ask",
@@ -94,20 +115,6 @@
       "source": "securityweek.com"
     },
     {
-      "title": "Hackers Bypass Microsoft 365 MFA and Hijack Finance Mailbox to Steal Payments",
-      "link": "https://cybersecuritynews.com/hackers-bypass-microsoft-365-mfa/",
-      "date": "2026-08-20T12:54:55Z",
-      "description": "A single phishing email was enough to give attackers access to a finance employee’s Microsoft 365 account and redirect vendor payments. The incident shows how criminals can bypass multi-factor authentication without installing malware or breaking into a company device. The attackers used a targeted HR-themed message that claimed a paid-time-off request had been denied. The […] The post Hackers…",
-      "source": "cybersecuritynews.com"
-    },
-    {
-      "title": "Zyxel Patches Command Injection Flaw in 18 Access Points Allowing Root OS Command Execution",
-      "link": "https://cybersecuritynews.com/zyxel-patches-command-injection-flaw/",
-      "date": "2026-08-20T12:32:34Z",
-      "description": "Zyxel has released firmware updates for a high-severity command injection vulnerability, tracked as CVE-2026-6837, affecting 18 wireless access point models. The flaw exists in the export-cgi component and could allow an authenticated administrator to execute operating-system commands on vulnerable devices. The issue affects the PKCS#12 certificate export workflow. Security researcher Mina Nageh…",
-      "source": "cybersecuritynews.com"
-    },
-    {
       "title": "Atlassian, Splunk Patch Dozens of Critical, High-Severity Vulnerabilities",
       "link": "https://www.securityweek.com/atlassian-splunk-patch-dozens-of-critical-high-severity-vulnerabilities/",
       "date": "2026-08-20T12:24:53Z",
@@ -133,13 +140,6 @@
       "link": "https://thehackernews.com/2026/08/zombie-card-attack-can-revive-expired.html",
       "date": "2026-08-20T12:01:24Z",
       "description": "Researchers at the University of Massachusetts Amherst have demonstrated an attack that revives expired Visa contactless credit cards for real in-store purchases by rewriting the expiration date a point-of-sale (POS) terminal reads over near-field communication (NFC), without breaking any of the card's cryptography. The attack, which the researchers named \"Zombie Card,\" requires physical",
-      "source": "thehackernews.com"
-    },
-    {
-      "title": "Why \"Shady AI\" is Security's Next Big Governance Problem",
-      "link": "https://thehackernews.com/2026/08/why-shady-ai-is-securitys-next-big.html",
-      "date": "2026-08-20T11:45:00Z",
-      "description": "In March 2026, an internal AI agent at Meta triggered a “Sev 1” incident after sensitive company and user data was exposed to employees who weren’t authorized to access it. The incident began when a Meta employee posted a technical question on an internal forum. An engineer used an approved AI agent to analyze it, but the agent posted its response publicly without approval. The employee",
       "source": "thehackernews.com"
     },
     {
