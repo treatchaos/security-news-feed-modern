@@ -1,6 +1,6 @@
 {
   "date": "2026-05-22",
-  "count": 15,
+  "count": 6,
   "items": [
     {
       "id": "c5349c5030c2d766dda7a8c5b4645a40063c894d",
@@ -61,96 +61,6 @@
       "source": "cybersecuritynews.com",
       "first_seen": "2026-05-22T20:27:25Z",
       "last_seen": "2026-05-22T21:57:45Z"
-    },
-    {
-      "id": "31bdb82a223b73fdbbf9d89914e96e10b75241d9",
-      "title": "Ubiquiti Patches Critical UniFi OS Vulnerabilities Allowing Remote Privilege Escalation",
-      "link": "https://cybersecuritynews.com/unifi-os-vulnerabilities-privilege-escalation/",
-      "date": "2026-05-22T17:58:17Z",
-      "description": "Ubiquiti Networks has released urgent security updates to address a series of highly critical vulnerabilities affecting its UniFi OS platform. These severe flaws could allow unauthenticated, remote attackers to execute arbitrary code, escalate privileges, and severely compromise enterprise network infrastructure. In total, the hardware vendor patched five distinct security issues, three of which…",
-      "source": "cybersecuritynews.com",
-      "first_seen": "2026-05-22T18:27:28Z",
-      "last_seen": "2026-05-22T21:57:45Z"
-    },
-    {
-      "id": "61017629174850156a42e00435fcf709420e6d29",
-      "title": "First VPN Dismantled in Global Takedown Over Use by 25 Ransomware Groups",
-      "link": "https://thehackernews.com/2026/05/first-vpn-dismantled-in-global-takedown.html",
-      "date": "2026-05-22T17:35:02Z",
-      "description": "Authorities in Europe and North America have announced the dismantling of a criminal virtual private network (VPN) service used by criminal actors to obscure the origins of ransomware attacks, data theft, scanning, and denial-of-service attacks. The disruption of First VPN Service was led by France and the Netherlands, with several other nations supporting the investigation since December",
-      "source": "thehackernews.com",
-      "first_seen": "2026-05-22T18:27:28Z",
-      "last_seen": "2026-05-23T16:49:34Z"
-    },
-    {
-      "id": "00ec60dd670049724e128e5791bd8a2a27a5c725",
-      "title": "Netherlands seizes 800 servers of hosting firm enabling cyberattacks",
-      "link": "https://www.bleepingcomputer.com/news/security/netherlands-seizes-800-servers-of-hosting-firm-enabling-cyberattacks/",
-      "date": "2026-05-22T17:24:52Z",
-      "description": "Financial crime investigators in the Netherlands (FIOD) arrested two men and seized 800 servers linked to a web hosting company that enabled cyberattacks, interference operations, and disinformation campaigns. [...]",
-      "source": "bleepingcomputer.com",
-      "first_seen": "2026-05-22T18:27:28Z",
-      "last_seen": "2026-05-25T16:58:08Z"
-    },
-    {
-      "id": "163583aef5a629245e97633847254ad955c8ed45",
-      "title": "LiteSpeed cPanel Plugin 0-Day Exploited in the wild to Gain Server Root Access",
-      "link": "https://cybersecuritynews.com/litespeed-cpanel-plugin-0-day-exploited/",
-      "date": "2026-05-22T17:16:57Z",
-      "description": "LiteSpeed has disclosed and patched a critical 0‑day privilege escalation flaw in its user-end cPanel plugin that is already being actively exploited to gain root access on Linux hosting servers. The bug is tracked as CVE‑2026‑48172 and affects LiteSpeed cPanel user-end plugin versions from v2.3 up to, but not including, v2.4.5. 0‑Day in LiteSpeed cPanel […] The post LiteSpeed cPanel Plugin…",
-      "source": "cybersecuritynews.com",
-      "first_seen": "2026-05-22T18:27:28Z",
-      "last_seen": "2026-05-22T21:57:45Z"
-    },
-    {
-      "id": "7ce6decf970afb0af26411bc99dad585884f34ce",
-      "title": "Drupal Vulnerability in Hacker Crosshairs Shortly After Disclosure",
-      "link": "https://www.securityweek.com/drupal-vulnerability-in-hacker-crosshairs-shortly-after-disclosure/",
-      "date": "2026-05-22T17:15:26Z",
-      "description": "Drupal is warning users that it has already seen attempts to exploit CVE-2026-9082 and security firms are seeing attacks against thousands of websites. The post Drupal Vulnerability in Hacker Crosshairs Shortly After Disclosure appeared first on SecurityWeek.",
-      "source": "securityweek.com",
-      "first_seen": "2026-05-22T18:27:28Z",
-      "last_seen": "2026-05-25T07:01:39Z"
-    },
-    {
-      "id": "8421aa1d500abcc394b862ed9b8fcada91f45fe6",
-      "title": "CISA adds Langflow Origin Validation Flaw to Known Exploited Vulnerabilities Catalog",
-      "link": "https://cybersecuritynews.com/langflow-origin-validation-flaw-exploit/",
-      "date": "2026-05-22T16:37:14Z",
-      "description": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) has added a critical Langflow vulnerability, tracked as CVE-2025-34291, to its Known Exploited Vulnerabilities (KEV) Catalog, signaling active exploitation and urging organizations to remediate immediately. The flaw affects Langflow, a popular tool used for building and deploying AI-driven workflows. The issue stems from an origin…",
-      "source": "cybersecuritynews.com",
-      "first_seen": "2026-05-22T18:27:28Z",
-      "last_seen": "2026-05-22T21:57:45Z"
-    },
-    {
-      "id": "cc9e096c9ee18f6368d504d03cf2bd6b1ad4b4ff",
-      "title": "Deleted Google API Keys Continue Accessing Gemini, BigQuery, and Maps APIs",
-      "link": "https://cybersecuritynews.com/deleted-google-api-keys-continue-access/",
-      "date": "2026-05-22T16:34:49Z",
-      "description": "A newly disclosed issue with Google Cloud API keys reveals that deleted credentials may remain usable for up to 23 minutes, exposing projects to potential abuse even after revocation. The finding raises concerns about delayed credential invalidation across Google’s infrastructure, particularly for sensitive services such as Gemini, BigQuery, and Google Maps APIs. According to Aikido […] The post…",
-      "source": "cybersecuritynews.com",
-      "first_seen": "2026-05-22T18:27:28Z",
-      "last_seen": "2026-05-22T20:27:25Z"
-    },
-    {
-      "id": "c107e2d21a8db86a8ddcd8f0eb412bc580431356",
-      "title": "Ghostwriter Targets Ukraine Government Entities with Prometheus Phishing Malware",
-      "link": "https://thehackernews.com/2026/05/ghostwriter-targets-ukraine-government.html",
-      "date": "2026-05-22T16:20:32Z",
-      "description": "The Belarus-aligned threat actor known as Ghostwriter (aka UAC-0057 and UNC1151Ukraine's National Security and Defense Council) has been observed using lures related to Prometheus, a Ukrainian online learning platform, to target government organizations in the country. The activity, per the Computer Emergency Response Team of Ukraine (CERT-UA), involves sending phishing emails to government",
-      "source": "thehackernews.com",
-      "first_seen": "2026-05-22T18:27:28Z",
-      "last_seen": "2026-05-23T11:53:28Z"
-    },
-    {
-      "id": "a1147b8fbb1191a7f4ac81803fd22a9859fbe49d",
-      "title": "Akamai Joins Growing Chorus of Vendors Betting Big on Secure Enterprise Browsers",
-      "link": "https://www.darkreading.com/remote-workforce/akamai-growing-chorus-betting-on-secure-enterprise-browsers",
-      "date": "2026-05-22T15:43:50Z",
-      "description": "When Akamai announced its LayerX acquisition, the company joined a growing list of vendors adding secure enterprise browsers to their product portfolios.",
-      "source": "darkreading.com",
-      "first_seen": "2026-05-22T18:27:28Z",
-      "last_seen": "2026-05-27T08:59:51Z"
     }
   ]
 }
