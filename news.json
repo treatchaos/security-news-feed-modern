@@ -1,20 +1,13 @@
 {
-  "last_updated": "2026-08-20T16:21:25Z",
-  "count": 35,
+  "last_updated": "2026-08-20T17:18:40Z",
+  "count": 30,
   "items": [
     {
-      "title": "Popular Rust Packages With 244M Downloads Compromised to Run Malware",
-      "link": "https://cybersecuritynews.com/rust-packages-malware/",
-      "date": "2026-08-20T16:15:06Z",
-      "description": "A major supply chain attack targeting the Rust ecosystem, in which two widely used crates, arrayref and append-only-vec, were hijacked to silently deliver malware the moment developers compiled their projects. Together, the two packages account for hundreds of millions of downloads, making this one of the largest Rust crate compromises ever recorded by download volume. […] The post Popular Rust…",
-      "source": "cybersecuritynews.com"
-    },
-    {
-      "title": "Critical NASA AIT-GUI Flaw Lets Unauthenticated Attackers Issue Spacecraft Commands",
-      "link": "https://cybersecuritynews.com/nasa-ait-gui-flaw/",
-      "date": "2026-08-20T15:24:09Z",
-      "description": "A critical security flaw in NASA/JPL’s open-source AMMOS Instrument Toolkit GUI (AIT-GUI) could let an unauthenticated attacker send live commands to spacecraft and scientific instruments, run arbitrary scripts, and execute command sequences without ever logging in. Security researcher Yuval Elbar of Cycode disclosed an issue rated 9.4 on the CVSS v3.1 scale on August 13, […] The post Critical…",
-      "source": "cybersecuritynews.com"
+      "title": "AI-Generated Exploit Scripts Target Siemens S7 PLCs in U.S. Critical Infrastructure",
+      "link": "https://thehackernews.com/2026/08/ai-generated-exploit-scripts-target.html",
+      "date": "2026-08-20T16:59:44Z",
+      "description": "The U.S. government on Wednesday warned of an \"active threat\" targeting critical infrastructure organizations in the country using artificial intelligence (AI)-generated exploit scripts. The activity is targeting Siemens S7 SeriesProgrammable Logic Controllers (PLCs) to conduct reconnaissance and capability development using AI-generated scripts disguised as legitimate monitoring tools. That",
+      "source": "thehackernews.com"
     },
     {
       "title": "Pakistan's Transparent Tribe Refreshes Toolset for Afghan Cyberattacks",
@@ -59,25 +52,11 @@
       "source": "bleepingcomputer.com"
     },
     {
-      "title": "ToxicPanda Android Malware Can Steal Banking PINs and Gain Shell Access to Phones",
-      "link": "https://cybersecuritynews.com/toxicpanda-android-malware/",
-      "date": "2026-08-20T13:55:54Z",
-      "description": "A new version of the ToxicPanda Android banking trojan is widening the danger for mobile users. The malware can steal banking PINs, imitate trusted screens, and take deeper control of infected phones through a feature intended for developers. ToxicPanda 2.0 arrives with a far broader set of targets and remote commands than earlier versions. It […] The post ToxicPanda Android Malware Can Steal…",
-      "source": "cybersecuritynews.com"
-    },
-    {
       "title": "Isolated-vm Flaw Lets Sandboxed JavaScript Escape to Host for Potential RCE",
       "link": "https://thehackernews.com/2026/08/isolated-vm-flaw-lets-sandboxed.html",
       "date": "2026-08-20T13:48:24Z",
       "description": "Cybersecurity researchers have disclosed a critical security flaw in isolated-vm, a popular open-source sandbox with more than 2,900 stars and 190 forks on GitHub, that could allow attackers to escape the confines of the isolated environment. The vulnerability (\"GHSA-864f-rcv7-6rh4\"), which has yet to be assigned a CVE identifier, impacts all versions of the library before and including 7.0.0.",
       "source": "thehackernews.com"
-    },
-    {
-      "title": "Hackers Use Fake CAPTCHA to Install Malware That Kills 145 Security Processes",
-      "link": "https://cybersecuritynews.com/hackers-use-fake-captcha/",
-      "date": "2026-08-20T13:39:22Z",
-      "description": "Hackers are using fake CAPTCHA pages to push a malware loader that can shut down security software before a follow-on payload runs. The campaign combines compromised WordPress websites, a familiar browser verification prompt, and a Windows command that victims are persuaded to execute themselves. The operation uses ErrTraffic, a malware delivery service that creates ClickFix […] The post Hackers…",
-      "source": "cybersecuritynews.com"
     },
     {
       "title": "Critical NetScaler Flaw Can Bypass Authentication on Certain Gateway and AAA Servers",
@@ -99,13 +78,6 @@
       "date": "2026-08-20T13:24:28Z",
       "description": "A now-patched security flaw impacting Zimbra Collaboration (ZCS) has come under active exploitation in the wild, according to the Polish Computer Emergency Response Team (CERT Polska). The vulnerability in question is CVE-2026-73570 (CVSS score: 8.9), which refers to a case of command injection that can lead to remote code execution. \"A remote code execution vulnerability exists in Zimbra",
       "source": "thehackernews.com"
-    },
-    {
-      "title": "New Android Malware Steals Banking PINs and Relays Data Through Someone Else’s Infected Phones",
-      "link": "https://cybersecuritynews.com/manic-android-malware/",
-      "date": "2026-08-20T13:20:41Z",
-      "description": "A newly discovered Android malware family named Manic combines banking fraud with full-scale spyware, and it comes with a trick researchers rarely see in the wild: when an infected phone has no internet connection of its own, it can quietly borrow one from another infected device nearby. The malware was identified by ThreatFabric’s Mobile Threat […] The post New Android Malware Steals Banking…",
-      "source": "cybersecuritynews.com"
     },
     {
       "title": "Threat Actor Hacks 14,000 IP Cameras in Ukraine and Russia",
@@ -136,13 +108,6 @@
       "source": "securityweek.com"
     },
     {
-      "title": "Zombie Card Attack Can Revive Expired Visa Cards for Contactless Payments",
-      "link": "https://thehackernews.com/2026/08/zombie-card-attack-can-revive-expired.html",
-      "date": "2026-08-20T12:01:24Z",
-      "description": "Researchers at the University of Massachusetts Amherst have demonstrated an attack that revives expired Visa contactless credit cards for real in-store purchases by rewriting the expiration date a point-of-sale (POS) terminal reads over near-field communication (NFC), without breaking any of the card's cryptography. The attack, which the researchers named \"Zombie Card,\" requires physical",
-      "source": "thehackernews.com"
-    },
-    {
       "title": "CISA warns of hackers exploiting critical MLflow vulnerability",
       "link": "https://www.bleepingcomputer.com/news/security/cisa-warns-of-hackers-exploiting-critical-mlflow-vulnerability/",
       "date": "2026-08-20T11:06:14Z",
@@ -155,6 +120,20 @@
       "date": "2026-08-20T10:02:02Z",
       "description": "A new Android malware named Manic targeting users in multiple European countries has a fallback data exfiltration mechanism that uses nearby infected devices. [...]",
       "source": "bleepingcomputer.com"
+    },
+    {
+      "title": "ZDI-CAN-32454: Foxit",
+      "link": "http://www.zerodayinitiative.com/advisories/upcoming/",
+      "date": "2026-08-20T05:00:00Z",
+      "description": "A CVSS score 7.8 AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H severity vulnerability discovered by 'praydog & kmx00' was reported to the affected vendor on: 2026-08-20, 0 days ago. The vendor is given until 2026-12-18 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
+      "source": "zerodayinitiative.com"
+    },
+    {
+      "title": "ZDI-CAN-32452: Foxit",
+      "link": "http://www.zerodayinitiative.com/advisories/upcoming/",
+      "date": "2026-08-20T05:00:00Z",
+      "description": "A CVSS score 7.1 AV:A/AC:H/PR:N/UI:R/S:U/C:H/I:H/A:H severity vulnerability discovered by 'praydog & kmx00' was reported to the affected vendor on: 2026-08-20, 0 days ago. The vendor is given until 2026-12-18 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
+      "source": "zerodayinitiative.com"
     },
     {
       "title": "No-Filter 'Kriminal' AI Platform Raises Cybercrime Concerns",
@@ -193,20 +172,6 @@
     },
     {
       "title": "ZDI-CAN-32665: Foxit",
-      "link": "http://www.zerodayinitiative.com/advisories/upcoming/",
-      "date": "2026-08-19T05:00:00Z",
-      "description": "A CVSS score 3.3 AV:L/AC:L/PR:N/UI:R/S:U/C:L/I:N/A:N severity vulnerability discovered by 'Anonymous' was reported to the affected vendor on: 2026-08-19, 1 days ago. The vendor is given until 2026-12-17 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
-      "source": "zerodayinitiative.com"
-    },
-    {
-      "title": "ZDI-CAN-32754: Foxit",
-      "link": "http://www.zerodayinitiative.com/advisories/upcoming/",
-      "date": "2026-08-19T05:00:00Z",
-      "description": "A CVSS score 3.3 AV:L/AC:L/PR:N/UI:R/S:U/C:L/I:N/A:N severity vulnerability discovered by 'Anonymous' was reported to the affected vendor on: 2026-08-19, 1 days ago. The vendor is given until 2026-12-17 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
-      "source": "zerodayinitiative.com"
-    },
-    {
-      "title": "ZDI-CAN-32755: Foxit",
       "link": "http://www.zerodayinitiative.com/advisories/upcoming/",
       "date": "2026-08-19T05:00:00Z",
       "description": "A CVSS score 3.3 AV:L/AC:L/PR:N/UI:R/S:U/C:L/I:N/A:N severity vulnerability discovered by 'Anonymous' was reported to the affected vendor on: 2026-08-19, 1 days ago. The vendor is given until 2026-12-17 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
