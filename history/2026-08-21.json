@@ -1,7 +1,37 @@
 {
   "date": "2026-08-21",
-  "count": 1,
+  "count": 5,
   "items": [
+    {
+      "id": "af4de3f3096519ff7b5198f4ac23cac4059448b3",
+      "title": "Hackers Exploit TrueConf Servers to Push Malware Through Legitimate Video Conference Downloads",
+      "link": "https://cybersecuritynews.com/hackers-exploit-trueconf-servers/",
+      "date": "2026-08-21T06:21:10Z",
+      "description": "Kaspersky researchers investigating attacks on Russian organizations discovered that legitimate TrueConf video conferencing client installers were secretly bundled with PhantomCore malware, a tool associated with the Head Mare APT group. The malicious installers were distributed directly from a TrueConf server belonging to the victim organization, making the attack especially deceptive since…",
+      "source": "cybersecuritynews.com",
+      "first_seen": "2026-08-21T06:26:10Z",
+      "last_seen": "2026-08-21T06:26:10Z"
+    },
+    {
+      "id": "6f4583b89d02ffd799822aed10a60b8fae07fa4a",
+      "title": "Google Chrome 151 Chromoting Flaw Allows Attackers to  Execute Malicious Code Remotely",
+      "link": "https://cybersecuritynews.com/google-chrome-151-chromoting-flaw/",
+      "date": "2026-08-21T05:41:34Z",
+      "description": "Google has released Chrome 151 Stable, fixing seven security vulnerabilities, including a critical use-after-free flaw in Chromoting that could potentially allow remote code execution. The update is rolling out as version 151.0.7922.173/.174 for Windows and macOS, and version 151.0.7922.173 for Linux. The most severe issue is tracked as CVE-2026-76017 and affects Chromoting, the technology used…",
+      "source": "cybersecuritynews.com",
+      "first_seen": "2026-08-21T06:26:10Z",
+      "last_seen": "2026-08-21T06:26:10Z"
+    },
+    {
+      "id": "6da37586539f3d1b02129b648407ee48e3bf7af0",
+      "title": "China-Linked Spy Campaign Uses Five New Malware Families Against Central Asian Governments",
+      "link": "https://cybersecuritynews.com/china-linked-spy-campaign/",
+      "date": "2026-08-21T05:11:11Z",
+      "description": "Central Asian government bodies have been targeted in a cyberespionage operation using a compact but varied set of remote access tools. The activity, tracked as SilkParasite, relied on convincing government-themed documents and trusted Windows programs to quietly place malware on victims’ systems. The campaign appears designed for intelligence collection rather than widespread disruption. Its…",
+      "source": "cybersecuritynews.com",
+      "first_seen": "2026-08-21T06:26:10Z",
+      "last_seen": "2026-08-21T06:26:10Z"
+    },
     {
       "id": "3d0874b78cc2bf660bcc012eaf0a4dd0d2d3a65a",
       "title": "Microsoft Entra ID Remote Code Execution Vulnerability Exploited in the Wild",
@@ -10,7 +40,17 @@
       "description": "Microsoft has confirmed that a critical remote code execution flaw in Entra ID, its cloud-based identity and access management platform, has already been exploited in the wild. The vulnerability, tracked as CVE-2026-69836, was disclosed on August 20, 2026, and carries the maximum severity rating of Critical, underscoring just how dangerous this bug is for organizations […] The post Microsoft…",
       "source": "cybersecuritynews.com",
       "first_seen": "2026-08-21T03:41:07Z",
-      "last_seen": "2026-08-21T04:27:37Z"
+      "last_seen": "2026-08-21T06:26:10Z"
+    },
+    {
+      "id": "5fa2f66ac23ced555927bb83e9725646fba9f219",
+      "title": "ThreatsDay: Gogs 10.0 RCE, n8n Workflow-to-RCE, $10M Reward, GLM-5.3 AI Exploit, and More",
+      "link": "https://thehackernews.com/2026/08/threatsday-gogs-100-rce-n8n-workflow-to.html",
+      "date": "2026-08-20T17:23:48Z",
+      "description": "A lot of this week’s trouble starts with something trusted doing exactly what it was allowed to do. Signed drivers get turned against defenses. Legitimate apps help malware blend in. A weak header check opens a path to code execution. Elsewhere, exposed systems, old bugs, odd hiding tricks, and AI-assisted exploit research keep lowering the effort needed to cause damage. Nothing here needs",
+      "source": "thehackernews.com",
+      "first_seen": "2026-08-21T06:26:10Z",
+      "last_seen": "2026-08-21T06:26:10Z"
     }
   ]
 }

@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-08-21T05:22:36Z",
-  "count": 30,
+  "last_updated": "2026-08-21T06:26:10Z",
+  "count": 35,
   "items": [
     {
       "title": "Calling on Cyber Pros to Help Defend City Hall",
@@ -8,6 +8,34 @@
       "date": "2026-08-21T14:00:00Z",
       "description": "Government agencies with smaller budgets need support — and here's how you can help.",
       "source": "darkreading.com"
+    },
+    {
+      "title": "Hackers Exploit TrueConf Servers to Push Malware Through Legitimate Video Conference Downloads",
+      "link": "https://cybersecuritynews.com/hackers-exploit-trueconf-servers/",
+      "date": "2026-08-21T06:21:10Z",
+      "description": "Kaspersky researchers investigating attacks on Russian organizations discovered that legitimate TrueConf video conferencing client installers were secretly bundled with PhantomCore malware, a tool associated with the Head Mare APT group. The malicious installers were distributed directly from a TrueConf server belonging to the victim organization, making the attack especially deceptive since…",
+      "source": "cybersecuritynews.com"
+    },
+    {
+      "title": "Google Chrome 151 Chromoting Flaw Allows Attackers to  Execute Malicious Code Remotely",
+      "link": "https://cybersecuritynews.com/google-chrome-151-chromoting-flaw/",
+      "date": "2026-08-21T05:41:34Z",
+      "description": "Google has released Chrome 151 Stable, fixing seven security vulnerabilities, including a critical use-after-free flaw in Chromoting that could potentially allow remote code execution. The update is rolling out as version 151.0.7922.173/.174 for Windows and macOS, and version 151.0.7922.173 for Linux. The most severe issue is tracked as CVE-2026-76017 and affects Chromoting, the technology used…",
+      "source": "cybersecuritynews.com"
+    },
+    {
+      "title": "China-Linked Spy Campaign Uses Five New Malware Families Against Central Asian Governments",
+      "link": "https://cybersecuritynews.com/china-linked-spy-campaign/",
+      "date": "2026-08-21T05:11:11Z",
+      "description": "Central Asian government bodies have been targeted in a cyberespionage operation using a compact but varied set of remote access tools. The activity, tracked as SilkParasite, relied on convincing government-themed documents and trusted Windows programs to quietly place malware on victims’ systems. The campaign appears designed for intelligence collection rather than widespread disruption. Its…",
+      "source": "cybersecuritynews.com"
+    },
+    {
+      "title": "Microsoft Entra ID Remote Code Execution Vulnerability Exploited in the Wild",
+      "link": "https://cybersecuritynews.com/entra-id-rce-vulnerability-exploited/",
+      "date": "2026-08-21T03:38:36Z",
+      "description": "Microsoft has confirmed that a critical remote code execution flaw in Entra ID, its cloud-based identity and access management platform, has already been exploited in the wild. The vulnerability, tracked as CVE-2026-69836, was disclosed on August 20, 2026, and carries the maximum severity rating of Critical, underscoring just how dangerous this bug is for organizations […] The post Microsoft…",
+      "source": "cybersecuritynews.com"
     },
     {
       "title": "New CUSTODY Framework Constrains AI Agents Inside the Network",
@@ -59,11 +87,18 @@
       "source": "darkreading.com"
     },
     {
-      "title": "ThreatsDay: Gogs 10.0 RCE, n8n Workflow-to-RCE, $10M Reward, GLM-5.3 AI Exploit and More",
+      "title": "ThreatsDay: Gogs 10.0 RCE, n8n Workflow-to-RCE, $10M Reward, GLM-5.3 AI Exploit, and More",
       "link": "https://thehackernews.com/2026/08/threatsday-gogs-100-rce-n8n-workflow-to.html",
       "date": "2026-08-20T17:23:48Z",
       "description": "A lot of this week’s trouble starts with something trusted doing exactly what it was allowed to do. Signed drivers get turned against defenses. Legitimate apps help malware blend in. A weak header check opens a path to code execution. Elsewhere, exposed systems, old bugs, odd hiding tricks, and AI-assisted exploit research keep lowering the effort needed to cause damage. Nothing here needs",
       "source": "thehackernews.com"
+    },
+    {
+      "title": "CRLF-Powered Desync Lets Attackers Poison CDN Cache and Serve XSS to Live Users",
+      "link": "https://cybersecuritynews.com/crlf-powered-desync-attack/",
+      "date": "2026-08-20T17:04:18Z",
+      "description": "A limited CRLF injection flaw can be escalated into a severe HTTP desynchronization attack, poisoning CDN caches and delivering XSS payloads to users on legitimate websites. The attack, called CRLF-Powered Desync, begins when an application incorrectly handles encoded carriage return and line feed characters, commonly represented as %0d%0a. These characters mark new lines in HTTP messages. […]…",
+      "source": "cybersecuritynews.com"
     },
     {
       "title": "AI-Generated Exploit Scripts Target Siemens S7 PLCs in U.S. Critical Infrastructure",
