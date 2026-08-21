@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-08-20T23:15:39Z",
-  "count": 30,
+  "last_updated": "2026-08-21T02:16:48Z",
+  "count": 35,
   "items": [
     {
       "title": "Calling on Cyber Pros to Help Defend City Hall",
@@ -66,11 +66,46 @@
       "source": "thehackernews.com"
     },
     {
+      "title": "CRLF-Powered Desync Lets Attackers Poison CDN Cache and Serve XSS to Live Users",
+      "link": "https://cybersecuritynews.com/crlf-powered-desync-attack/",
+      "date": "2026-08-20T17:04:18Z",
+      "description": "A limited CRLF injection flaw can be escalated into a severe HTTP desynchronization attack, poisoning CDN caches and delivering XSS payloads to users on legitimate websites. The attack, called CRLF-Powered Desync, begins when an application incorrectly handles encoded carriage return and line feed characters, commonly represented as %0d%0a. These characters mark new lines in HTTP messages. […]…",
+      "source": "cybersecuritynews.com"
+    },
+    {
       "title": "AI-Generated Exploit Scripts Target Siemens S7 PLCs in U.S. Critical Infrastructure",
       "link": "https://thehackernews.com/2026/08/ai-generated-exploit-scripts-target.html",
       "date": "2026-08-20T16:59:44Z",
       "description": "The U.S. government on Wednesday warned of an \"active threat\" targeting critical infrastructure organizations in the country using artificial intelligence (AI)-generated exploit scripts. The activity is targeting Siemens S7 SeriesProgrammable Logic Controllers (PLCs) to conduct reconnaissance and capability development using AI-generated scripts disguised as legitimate monitoring tools. That",
       "source": "thehackernews.com"
+    },
+    {
+      "title": "AWS Shows How to Stop a Hijacked AI Agent From Reading Data the User Cannot Access",
+      "link": "https://cybersecuritynews.com/aws-ai-agent-data-access/",
+      "date": "2026-08-20T16:55:37Z",
+      "description": "Enterprises are racing to deploy AI agents that pull from databases, document repositories, SaaS platforms, and internal knowledge bases to automate workflows. But a quiet risk lurks beneath the convenience: most agents have no built-in awareness of who is actually asking the question, which means a compromised or manipulated agent could hand over data the […] The post AWS Shows How to Stop a…",
+      "source": "cybersecuritynews.com"
+    },
+    {
+      "title": "Microsoft Defender Driver Can Be Weaponized to Disable EDR and AV From Windows Kernel",
+      "link": "https://cybersecuritynews.com/defender-driver-can-be-weaponized/",
+      "date": "2026-08-20T16:39:41Z",
+      "description": "Microsoft Defender’s legitimate Boot-Time Removal (BTR.sys) driver can be repurposed to perform powerful kernel-level file and registry operations, potentially enabling attackers with administrative privileges to neutralize endpoint security protections. The Check Point research does not describe a conventional vulnerability or memory-corruption flaw; instead, it exposes how a trusted,…",
+      "source": "cybersecuritynews.com"
+    },
+    {
+      "title": "Popular Rust Packages With 244M Downloads Compromised to Run Malware",
+      "link": "https://cybersecuritynews.com/rust-packages-malware/",
+      "date": "2026-08-20T16:15:06Z",
+      "description": "A major supply chain attack targeting the Rust ecosystem, in which two widely used crates, arrayref and append-only-vec, were hijacked to silently deliver malware the moment developers compiled their projects. Together, the two packages account for hundreds of millions of downloads, making this one of the largest Rust crate compromises ever recorded by download volume. […] The post Popular Rust…",
+      "source": "cybersecuritynews.com"
+    },
+    {
+      "title": "Critical NASA AIT-GUI Flaw Lets Unauthenticated Attackers Issue Spacecraft Commands",
+      "link": "https://cybersecuritynews.com/nasa-ait-gui-flaw/",
+      "date": "2026-08-20T15:24:09Z",
+      "description": "A critical security flaw in NASA/JPL’s open-source AMMOS Instrument Toolkit GUI (AIT-GUI) could let an unauthenticated attacker send live commands to spacecraft and scientific instruments, run arbitrary scripts, and execute command sequences without ever logging in. Security researcher Yuval Elbar of Cycode disclosed an issue rated 9.4 on the CVSS v3.1 scale on August 13, […] The post Critical…",
+      "source": "cybersecuritynews.com"
     },
     {
       "title": "Hackers Target Zimbra Servers in Active Exploitation Campaign",
