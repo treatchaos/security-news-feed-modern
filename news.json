@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-21T12:23:32Z",
+  "last_updated": "2026-08-21T13:36:42Z",
   "count": 35,
   "items": [
     {
@@ -10,11 +10,60 @@
       "source": "darkreading.com"
     },
     {
-      "title": "Russian Hackers Abuse OAuth and WhatsApp Device Linking to Hijack High-Value Accounts",
-      "link": "https://cybersecuritynews.com/russian-hackers-abuse-oauth-whatsapp/",
-      "date": "2026-08-21T11:31:54Z",
-      "description": "Suspected Russian cyber-espionage groups are increasingly turning ordinary sign-in and device-linking features into tools for account takeover. Their latest campaigns do not depend on breaking passwords or exploiting a software flaw. Instead, they persuade targets to approve actions that appear legitimate. The activity has targeted people in academia, aerospace, defense, government, nonprofit…",
+      "title": "OpenAI Adds Controls That Should've Been There Already",
+      "link": "https://www.darkreading.com/application-security/openai-adds-controls-already",
+      "date": "2026-08-21T13:30:00Z",
+      "description": "The new AI security controls follow the Hugging Face incident last month, though many of these additions perhaps should have been in place prior to the frontier models escaping.",
+      "source": "darkreading.com"
+    },
+    {
+      "title": "Claude Opus 5 Routes Around Obfuscated Binaries Instead of Defeating the Protection",
+      "link": "https://cybersecuritynews.com/claude-opus-5-routes/",
+      "date": "2026-08-21T13:26:20Z",
+      "description": "Claude Opus 5 did not crack hardened binaries in a reverse-engineering experiment. Instead, it sought easier ways to recover hidden information, showing AI-assisted analysis can be capable yet unreliable. The test was not a malware outbreak. It used stripped AArch64 binaries containing hidden strings, then placed an autonomous coding agent in a sandbox with disassembly, […] The post Claude Opus…",
       "source": "cybersecuritynews.com"
+    },
+    {
+      "title": "Critical WordPress Plugin Vulnerability Exposes Sites to RCE Attacks",
+      "link": "https://cybersecuritynews.com/wordpress-plugin-vulnerability-exposes-3/",
+      "date": "2026-08-21T13:06:57Z",
+      "description": "A critical security flaw in the Elementor Pro WordPress plugin could allow unauthenticated attackers to upload malicious PHP files and execute code on vulnerable servers. Tracked as CVE-2026-32475, the vulnerability affects Elementor Pro versions up to and including 4.2.1 and is fixed in version 4.2.2. Elementor Pro is a premium extension for the Elementor page […] The post Critical WordPress…",
+      "source": "cybersecuritynews.com"
+    },
+    {
+      "title": "Critical GitLab Code Injection Vulnerability Actively Exploited in Attacks",
+      "link": "https://cybersecuritynews.com/gitlab-code-injection-vulnerability-exploited/",
+      "date": "2026-08-21T13:06:02Z",
+      "description": "GitLab administrators are being urged to patch immediately after security researchers observed attempts to exploit CVE-2026-19478, a critical unauthenticated code injection vulnerability affecting self-managed GitLab Community Edition and Enterprise Edition instances. The flaw, rated 9.4 out of 10, can allow remote attackers to modify or delete public projects and associated user data through…",
+      "source": "cybersecuritynews.com"
+    },
+    {
+      "title": "US Bank Investigating Data Breach Following LockBit Ransomware Claim",
+      "link": "https://cybersecuritynews.com/us-bank-investigating-data-breach-lockbit-claim/",
+      "date": "2026-08-21T13:01:06Z",
+      "description": "US Bank is investigating LockBit’s claims of a breach and data theft, with the ransomware group threatening to publish the alleged stolen files on September 3 unless an undisclosed ransom is paid. Lee Henderson, US Bank vice president of public affairs, confirmed that the company is aware of the claims. In a statement, Henderson said […] The post US Bank Investigating Data Breach Following…",
+      "source": "cybersecuritynews.com"
+    },
+    {
+      "title": "Critical N-able Passportal Flaw Lets Malicious Websites Steal Entire Password Vault and 2FA Codes",
+      "link": "https://cybersecuritynews.com/n-able-passportal-flaw/",
+      "date": "2026-08-21T13:00:14Z",
+      "description": "A critical vulnerability in N-able Passportal’s Chrome and Microsoft Edge browser extensions could allow a malicious website or embedded iframe to steal an organization’s entire password vault, including live two-factor authentication codes. Tracked as CVE-2026-15580, the issue received a CVSS v4.0 base score of 9.4 and affected Passportal extension version 3.49.5. N-able released version 3.49.6…",
+      "source": "cybersecuritynews.com"
+    },
+    {
+      "title": "Critical Isolated-vm Vulnerability Leads to RCE on Host",
+      "link": "https://www.securityweek.com/critical-isolated-vm-vulnerability-leads-to-rce-on-host/",
+      "date": "2026-08-21T12:26:07Z",
+      "description": "The type confusion bug can lead to V8 sandbox escape and control-flow hijacking of the host process. The post Critical Isolated-vm Vulnerability Leads to RCE on Host appeared first on SecurityWeek.",
+      "source": "securityweek.com"
+    },
+    {
+      "title": "CISA orders feds to patch actively exploited TrueConf Server flaws",
+      "link": "https://www.bleepingcomputer.com/news/security/cisa-orders-feds-to-patch-actively-exploited-trueconf-server-flaws/",
+      "date": "2026-08-21T12:25:33Z",
+      "description": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) ordered U.S. federal agencies to prioritize patching two actively exploited vulnerabilities in the TrueConf Server self-hosted communications platform. [...]",
+      "source": "bleepingcomputer.com"
     },
     {
       "title": "Wazuh and AI For Enhanced SOC Workflows",
@@ -38,13 +87,6 @@
       "source": "bleepingcomputer.com"
     },
     {
-      "title": "Hackers Use Fake Google Gemini Installer to Deploy Vidar Stealer and Steal Browser Credentials",
-      "link": "https://cybersecuritynews.com/fake-google-gemini-installer/",
-      "date": "2026-08-21T10:56:24Z",
-      "description": "Cybercriminals are abusing interest in generative AI to trick users into downloading malware. In a newly documented incident, a file posing as a Google Gemini installer delivered the Vidar information stealer, putting saved browser passwords and other sensitive data at risk. The attack did not begin with a phishing email. Instead, it relied on a […] The post Hackers Use Fake Google Gemini…",
-      "source": "cybersecuritynews.com"
-    },
-    {
       "title": "SickKids data breach exposes employee and job applicant info",
       "link": "https://www.bleepingcomputer.com/news/security/sickkids-data-breach-exposes-employee-and-job-applicant-info/",
       "date": "2026-08-21T10:10:42Z",
@@ -57,13 +99,6 @@
       "date": "2026-08-21T10:03:11Z",
       "description": "Cisco has published another round of security updates for Crosswork platforms and Secure Workload Software as part of a continued comprehensive internal security review. Four of the security vulnerabilities affect Crosswork Data Gateway, Crosswork Network Controller, and Crosswork Planning, regardless of the device configuration. A brief description of each of the flaws is below -",
       "source": "thehackernews.com"
-    },
-    {
-      "title": "Bandwidth-Sharing App Can Turn Employee Devices Into Gateways to Internal Networks",
-      "link": "https://cybersecuritynews.com/bandwidth-sharing-app/",
-      "date": "2026-08-21T09:32:45Z",
-      "description": "A bandwidth-sharing app installed by an employee can quietly turn a work device into a gateway for outside traffic. The software may not behave like traditional malware, yet it can expose a company’s internet connection and potentially place internal systems within reach of paying proxy users. The risk comes from Peer2Profit, an app that pays […] The post Bandwidth-Sharing App Can Turn Employee…",
-      "source": "cybersecuritynews.com"
     },
     {
       "title": "Rust Supply Chain Attack Linked to North Korean Hackers",
@@ -80,25 +115,11 @@
       "source": "securityweek.com"
     },
     {
-      "title": "Microsoft Rolls Out 22 Fresh Security Patches",
+      "title": "Microsoft Patches Exploited Entra ID Vulnerability",
       "link": "https://www.securityweek.com/microsoft-rolls-out-22-fresh-security-patches/",
       "date": "2026-08-21T08:12:19Z",
-      "description": "Most of the fixes resolve code execution, privilege escalation, and information disclosure vulnerabilities. The post Microsoft Rolls Out 22 Fresh Security Patches appeared first on SecurityWeek.",
+      "description": "A total of 22 patches were releaased, a majority for code execution, privilege escalation, and information disclosure vulnerabilities. The post Microsoft Patches Exploited Entra ID Vulnerability appeared first on SecurityWeek.",
       "source": "securityweek.com"
-    },
-    {
-      "title": "DOJ Charges 17 Iranian Hackers in IRGC-Linked Campaign That Stole 31.5TB of Research Data",
-      "link": "https://cybersecuritynews.com/doj-charges-17-iranian-hackers/",
-      "date": "2026-08-21T07:52:12Z",
-      "description": "The U.S. Department of Justice has unsealed a 14-count superseding indictment against 17 alleged members of the Iran-based Mabna Institute, accusing them of conducting a long-running cyber espionage campaign that stole at least 31.5TB of research data and intellectual property. According to the indictment, the operation began around 2013 and continued through at least December […] The post DOJ…",
-      "source": "cybersecuritynews.com"
-    },
-    {
-      "title": "OpenAI Offers Zero Data Retention for Frontier AI Models With Private Safety Processing",
-      "link": "https://cybersecuritynews.com/openai-zero-data-retention-for-frontier-models/",
-      "date": "2026-08-21T07:50:08Z",
-      "description": "OpenAI has announced Zero Data Retention for eligible API customers using its frontier AI models, alongside a new Private Safety Processing system designed to support safety monitoring without exposing customer prompts or responses to company personnel. Under the Zero Data Retention commitment, OpenAI does not retain customer prompts or model outputs after a request has […] The post OpenAI…",
-      "source": "cybersecuritynews.com"
     },
     {
       "title": "CISA Urges Immediate Patching of Exploited TrueConf Vulnerabilities",
@@ -155,27 +176,6 @@
       "date": "2026-08-20T17:39:24Z",
       "description": "The popular \"Passportal\" password manager, favored by MSPs and SMBs, remains risky even after its patch, thanks to its cloud-based design. Should these products stay away from the cloud entirely?",
       "source": "darkreading.com"
-    },
-    {
-      "title": "Money and Mindset: The Two Biggest Roadblocks to Cyber Policing",
-      "link": "https://www.darkreading.com/cybersecurity-operations/money-and-mindset-the-two-biggest-roadblocks-to-cyber-policing",
-      "date": "2026-08-20T17:32:51Z",
-      "description": "Law enforcement training is not keeping pace with the volume and rapid evolution of cybercrimes, though officers really only need to learn the basics, but focus and budgets hinder progress.",
-      "source": "darkreading.com"
-    },
-    {
-      "title": "Hackers Target Zimbra Servers in Active Exploitation Campaign",
-      "link": "https://www.securityweek.com/hackers-target-zimbra-servers-in-active-exploitation-campaign/",
-      "date": "2026-08-20T14:50:49Z",
-      "description": "Exploitation of the Zimbra Collaboration vulnerability CVE-2026-73570 has been observed by Poland’s CERT Polska. The post Hackers Target Zimbra Servers in Active Exploitation Campaign appeared first on SecurityWeek.",
-      "source": "securityweek.com"
-    },
-    {
-      "title": "Critical Elementor Pro bug exposes WordPress sites to RCE attacks",
-      "link": "https://www.bleepingcomputer.com/news/security/critical-elementor-pro-bug-exposes-wordpress-sites-to-rce-attacks/",
-      "date": "2026-08-20T14:39:48Z",
-      "description": "A critical vulnerability in the Elementor Pro WordPress plugin could allow attackers to upload executable files for remote code execution on the server. [...]",
-      "source": "bleepingcomputer.com"
     },
     {
       "title": "ZDI-CAN-32454: Foxit",
