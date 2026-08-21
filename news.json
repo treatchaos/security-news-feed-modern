@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-08-21T06:26:10Z",
-  "count": 35,
+  "last_updated": "2026-08-21T07:34:09Z",
+  "count": 30,
   "items": [
     {
       "title": "Calling on Cyber Pros to Help Defend City Hall",
@@ -10,32 +10,18 @@
       "source": "darkreading.com"
     },
     {
-      "title": "Hackers Exploit TrueConf Servers to Push Malware Through Legitimate Video Conference Downloads",
-      "link": "https://cybersecuritynews.com/hackers-exploit-trueconf-servers/",
-      "date": "2026-08-21T06:21:10Z",
-      "description": "Kaspersky researchers investigating attacks on Russian organizations discovered that legitimate TrueConf video conferencing client installers were secretly bundled with PhantomCore malware, a tool associated with the Head Mare APT group. The malicious installers were distributed directly from a TrueConf server belonging to the victim organization, making the attack especially deceptive since…",
-      "source": "cybersecuritynews.com"
+      "title": "CISA Urges Immediate Patching of Exploited TrueConf Vulnerabilities",
+      "link": "https://www.securityweek.com/cisa-urges-immediate-patching-of-exploited-trueconf-vulnerabilities/",
+      "date": "2026-08-21T07:25:50Z",
+      "description": "The Head Mare hacktivist group has been exploiting the bugs to deploy the PhantomCore malware. The post CISA Urges Immediate Patching of Exploited TrueConf Vulnerabilities appeared first on SecurityWeek.",
+      "source": "securityweek.com"
     },
     {
-      "title": "Google Chrome 151 Chromoting Flaw Allows Attackers to  Execute Malicious Code Remotely",
-      "link": "https://cybersecuritynews.com/google-chrome-151-chromoting-flaw/",
-      "date": "2026-08-21T05:41:34Z",
-      "description": "Google has released Chrome 151 Stable, fixing seven security vulnerabilities, including a critical use-after-free flaw in Chromoting that could potentially allow remote code execution. The update is rolling out as version 151.0.7922.173/.174 for Windows and macOS, and version 151.0.7922.173 for Linux. The most severe issue is tracked as CVE-2026-76017 and affects Chromoting, the technology used…",
-      "source": "cybersecuritynews.com"
-    },
-    {
-      "title": "China-Linked Spy Campaign Uses Five New Malware Families Against Central Asian Governments",
-      "link": "https://cybersecuritynews.com/china-linked-spy-campaign/",
-      "date": "2026-08-21T05:11:11Z",
-      "description": "Central Asian government bodies have been targeted in a cyberespionage operation using a compact but varied set of remote access tools. The activity, tracked as SilkParasite, relied on convincing government-themed documents and trusted Windows programs to quietly place malware on victims’ systems. The campaign appears designed for intelligence collection rather than widespread disruption. Its…",
-      "source": "cybersecuritynews.com"
-    },
-    {
-      "title": "Microsoft Entra ID Remote Code Execution Vulnerability Exploited in the Wild",
-      "link": "https://cybersecuritynews.com/entra-id-rce-vulnerability-exploited/",
-      "date": "2026-08-21T03:38:36Z",
-      "description": "Microsoft has confirmed that a critical remote code execution flaw in Entra ID, its cloud-based identity and access management platform, has already been exploited in the wild. The vulnerability, tracked as CVE-2026-69836, was disclosed on August 20, 2026, and carries the maximum severity rating of Critical, underscoring just how dangerous this bug is for organizations […] The post Microsoft…",
-      "source": "cybersecuritynews.com"
+      "title": "Microsoft Entra ID Flaw (CVSS 10.0) Exploited in Wild, Allows Remote Code Execution",
+      "link": "https://thehackernews.com/2026/08/microsoft-entra-id-flaw-cvss-100.html",
+      "date": "2026-08-21T06:06:11Z",
+      "description": "Microsoft on Thursday warned of a maximum-severity security flaw in Entra ID that it said has been exploited in the wild, but noted that no customer action is required. The vulnerability, tracked as CVE-2026-69836 (CVSS score: 10.0), is a case of remote code execution impacting the tech giant's cloud-based identity and access management service. It was previously called Azure Active Directory",
+      "source": "thehackernews.com"
     },
     {
       "title": "New CUSTODY Framework Constrains AI Agents Inside the Network",
@@ -94,13 +80,6 @@
       "source": "thehackernews.com"
     },
     {
-      "title": "CRLF-Powered Desync Lets Attackers Poison CDN Cache and Serve XSS to Live Users",
-      "link": "https://cybersecuritynews.com/crlf-powered-desync-attack/",
-      "date": "2026-08-20T17:04:18Z",
-      "description": "A limited CRLF injection flaw can be escalated into a severe HTTP desynchronization attack, poisoning CDN caches and delivering XSS payloads to users on legitimate websites. The attack, called CRLF-Powered Desync, begins when an application incorrectly handles encoded carriage return and line feed characters, commonly represented as %0d%0a. These characters mark new lines in HTTP messages. […]…",
-      "source": "cybersecuritynews.com"
-    },
-    {
       "title": "AI-Generated Exploit Scripts Target Siemens S7 PLCs in U.S. Critical Infrastructure",
       "link": "https://thehackernews.com/2026/08/ai-generated-exploit-scripts-target.html",
       "date": "2026-08-20T16:59:44Z",
@@ -120,13 +99,6 @@
       "date": "2026-08-20T14:39:48Z",
       "description": "A critical vulnerability in the Elementor Pro WordPress plugin could allow attackers to upload executable files for remote code execution on the server. [...]",
       "source": "bleepingcomputer.com"
-    },
-    {
-      "title": "New Cryptographic Context Injection Attack Could Let Web Pages Steal Grok Chat Data",
-      "link": "https://thehackernews.com/2026/08/new-cryptographic-context-injection.html",
-      "date": "2026-08-20T14:36:27Z",
-      "description": "Adversa AI has disclosed an attack technique that it says can cause xAI's Grok chatbot to send a user's name, approximate location, subscription tier, and the prompts from the ongoing conversation to an attacker-controlled server after the user asks it to summarize an ordinary web page. The AI security company, which has codenamed the technique \"Cryptographic Context Injection,\" said the",
-      "source": "thehackernews.com"
     },
     {
       "title": "Surveillance – Everything You Wanted to Know, But Were Afraid to Ask",
@@ -162,13 +134,6 @@
       "date": "2026-08-20T12:14:38Z",
       "description": "Citrix has warned customers to immediately secure their systems against two vulnerabilities affecting NetScaler Gateway secure remote access solutions and NetScaler ADC networking appliances. [...]",
       "source": "bleepingcomputer.com"
-    },
-    {
-      "title": "MLflow Vulnerability Exploited for Cloud Credential Theft",
-      "link": "https://www.securityweek.com/mlflow-vulnerability-exploited-for-cloud-credential-theft/",
-      "date": "2026-08-20T12:05:55Z",
-      "description": "The critical-severity flaw allows attackers to send HTTP requests to internal endpoints and extract sensitive information. The post MLflow Vulnerability Exploited for Cloud Credential Theft appeared first on SecurityWeek.",
-      "source": "securityweek.com"
     },
     {
       "title": "CISA warns of hackers exploiting critical MLflow vulnerability",
