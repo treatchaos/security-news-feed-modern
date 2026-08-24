@@ -1,6 +1,6 @@
 {
   "date": "2026-05-26",
-  "count": 45,
+  "count": 42,
   "items": [
     {
       "id": "9514235cabd0c3003ff6b01b8838e4849df89c71",
@@ -421,36 +421,6 @@
       "source": "bleepingcomputer.com",
       "first_seen": "2026-05-26T10:40:13Z",
       "last_seen": "2026-05-26T13:45:40Z"
-    },
-    {
-      "id": "5ecee0fefeb456eb85904c397e5eb08436d541d9",
-      "title": "KnowledgeDeliver LMS Flaw Exploited to Deploy Godzilla and Cobalt Strike",
-      "link": "https://thehackernews.com/2026/05/knowledgedeliver-lms-flaw-exploited-to.html",
-      "date": "2026-05-26T05:19:38Z",
-      "description": "A now-patched high-severity security flaw affecting Digital Knowledge KnowledgeDeliver, a Learning Management System (LMS) popular in Japan, was exploited as a zero-day to deliver the Godzilla web shell and ultimately facilitate the deployment of Cobalt Strike Beacon. The vulnerability, tracked as CVE-2026-5426 (CVSS score: 7.5), stems from the use of hard-coded ASP.NET machine keys, leading to",
-      "source": "thehackernews.com",
-      "first_seen": "2026-05-26T06:36:50Z",
-      "last_seen": "2026-05-26T10:40:13Z"
-    },
-    {
-      "id": "19859c33976bd129c9ace3b3178f4defd6ea6902",
-      "title": "New 7-Zip Vulnerabilities Let Attackers Execute Arbitrary Code and Compromise Systems",
-      "link": "https://cybersecuritynews.com/7-zip-vulnerabilities-code-execution/",
-      "date": "2026-05-26T04:05:03Z",
-      "description": "A critical heap buffer overflow vulnerability has been disclosed in 7-Zip version 26.00, enabling attackers to achieve arbitrary code execution via a vtable hijack by exploiting a defect in the tool’s NTFS archive handler. Tracked as CVE-2026-48095 and assigned advisory GHSL-2026-140, the flaw resides in the CInStream::GetCuSize() function inside NtfsHandler.cpp. The function computes the NTFS…",
-      "source": "cybersecuritynews.com",
-      "first_seen": "2026-05-26T06:36:50Z",
-      "last_seen": "2026-05-26T06:36:50Z"
-    },
-    {
-      "id": "67c26111a651f7551231db8fe5ef13b5cea179a0",
-      "title": "Anthropic’s Restricted Claude Mythos Moves Toward Public Release via Claude Code and Security",
-      "link": "https://cybersecuritynews.com/claude-mythos-moves-toward-public/",
-      "date": "2026-05-26T02:29:35Z",
-      "description": "Anthropic appears to be loosening its grip on Claude Mythos, the company’s most powerful and previously restricted AI model, with new signals pointing to a commercially versioned release under the name Mythos 1 (claude-mythos-1-preview), integrated directly into Claude Code and a revamped Claude Security dashboard targeting enterprise customers. Claude Mythos first surfaced in late March […] The…",
-      "source": "cybersecuritynews.com",
-      "first_seen": "2026-05-26T06:36:50Z",
-      "last_seen": "2026-05-26T06:36:50Z"
     }
   ]
 }
