@@ -1,6 +1,6 @@
 {
   "date": "2026-05-28",
-  "count": 25,
+  "count": 12,
   "items": [
     {
       "id": "b280fbae65c73e4d937b3e25640dfdc43d572c7d",
@@ -83,46 +83,6 @@
       "last_seen": "2026-05-29T05:04:26Z"
     },
     {
-      "id": "51715066748712e017589f564fd5dc91352ddd0c",
-      "title": "VaultJacking Attack Steals Entire Google Password Manager Vault With One Captured PIN",
-      "link": "https://cybersecuritynews.com/vaultjacking-attack-steals-entire-google-password-manager/",
-      "date": "2026-05-28T17:38:51Z",
-      "description": "A new phishing technique called VaultJacking has emerged, and it is raising serious alarms across the cybersecurity community. With just a single captured 6-digit PIN, an attacker can walk away with an entire Google Password Manager vault, including every saved password and passkey stored inside. This is not a theoretical risk, as it is a […] The post VaultJacking Attack Steals Entire Google…",
-      "source": "cybersecuritynews.com",
-      "first_seen": "2026-05-28T17:55:30Z",
-      "last_seen": "2026-05-29T05:04:26Z"
-    },
-    {
-      "id": "c45431a3afc294deee758570bfd3e60c0f8d0897",
-      "title": "AI-Generated npm Malware Accidentally Exposes Threat Actor’s Private GitHub Token",
-      "link": "https://cybersecuritynews.com/ai-generated-npm-malware/",
-      "date": "2026-05-28T17:37:11Z",
-      "description": "A new wave of AI-generated malware is hitting the open-source software ecosystem, and this time, the attacker made a critical mistake that gave researchers a rare inside look at their operation. A malicious package named “mouse5212-super-formatter” was discovered on the npm registry, acting as an infostealer designed to quietly steal files from any developer who […] The post AI-Generated npm…",
-      "source": "cybersecuritynews.com",
-      "first_seen": "2026-05-28T17:55:30Z",
-      "last_seen": "2026-05-29T00:01:16Z"
-    },
-    {
-      "id": "dcc96548aa40fd268fc0ff5db0e289e67327505c",
-      "title": "Claude Opus 4.8 Released With Ability to Work as an Experienced Engineer",
-      "link": "https://cybersecuritynews.com/claude-opus-4-8-released/",
-      "date": "2026-05-28T17:31:29Z",
-      "description": "Anthropic has launched Claude Opus 4.8, the latest iteration of its flagship AI model, bringing sharper judgment, improved self-awareness about its own progress, and significantly extended autonomous operation all at the same price as its predecessor, Opus 4.7. The headline upgrade for Opus 4.8 is its ability to work inside Claude Code like an experienced […] The post Claude Opus 4.8 Released…",
-      "source": "cybersecuritynews.com",
-      "first_seen": "2026-05-28T17:55:30Z",
-      "last_seen": "2026-05-29T00:01:16Z"
-    },
-    {
-      "id": "1d21bdd81df562ea6151ea0c094d8e6a0d4463ec",
-      "title": "Hackers exploit FortiClient EMS flaw to push infostealer malware",
-      "link": "https://www.bleepingcomputer.com/news/security/hackers-exploit-forticlient-ems-flaw-to-push-infostealer-malware/",
-      "date": "2026-05-28T17:25:43Z",
-      "description": "Hackers are exploiting an authentication bypass vulnerability (CVE-2026-35616) in FortiClient Enterprise Management Server (EMS) to deliver an undocumented credential stealer called EKZ. [...]",
-      "source": "bleepingcomputer.com",
-      "first_seen": "2026-05-28T17:55:30Z",
-      "last_seen": "2026-05-29T05:04:26Z"
-    },
-    {
       "id": "3f77e58a4fc5534ca273945eda3ebeb89193b2db",
       "title": "Critical Gogs RCE Vulnerability Lets Any Authenticated User Execute Arbitrary Code",
       "link": "https://thehackernews.com/2026/05/critical-gogs-rce-vulnerability-lets.html",
@@ -130,96 +90,6 @@
       "description": "A critical security vulnerability has been disclosed in Gogs, a popular open-source self-hosted Git service, that allows an authenticated user to execute arbitrary code under certain conditions. The security flaw, per Rapid7, is rated 9.4 on the CVSS scoring system. It does not have a CVE identifier. \"The vulnerability allows any authenticated user to achieve remote code execution (RCE) on",
       "source": "thehackernews.com",
       "first_seen": "2026-05-28T20:03:51Z",
-      "last_seen": "2026-05-29T12:39:53Z"
-    },
-    {
-      "id": "b148a9f07d663a912a07280eb853ef006faf33cc",
-      "title": "Geordie Raises $30 Million for AI Security and Governance Platform",
-      "link": "https://www.securityweek.com/geordie-raises-30-million-for-ai-security-and-governance-platform/",
-      "date": "2026-05-28T17:07:16Z",
-      "description": "The funding round was led by Balderton Capital, with additional support from Crosspoint Capital and previous investors General Catalyst and Ten Eleven Ventures. The post Geordie Raises $30 Million for AI Security and Governance Platform appeared first on SecurityWeek.",
-      "source": "securityweek.com",
-      "first_seen": "2026-05-28T17:55:30Z",
-      "last_seen": "2026-05-29T12:39:53Z"
-    },
-    {
-      "id": "d65d14560b95d99545e032dbcbcbce004778f232",
-      "title": "New Gogs 0-Day Vulnerability Lets Attackers Run Malicious Code on the Server Remotely",
-      "link": "https://cybersecuritynews.com/gogs-0-day-vulnerability/",
-      "date": "2026-05-28T17:06:23Z",
-      "description": "A critical zero-day vulnerability has been discovered in Gogs, one of the most widely deployed self-hosted Git platforms in the world, allowing any authenticated user to execute arbitrary commands on the underlying server with no patch available at the time of publication. Rapid7 Labs researcher Jonah Burgess (CryptoCat) identified the flaw, tracked as a CWE-88 […] The post New Gogs 0-Day…",
-      "source": "cybersecuritynews.com",
-      "first_seen": "2026-05-28T17:55:30Z",
-      "last_seen": "2026-05-28T17:55:30Z"
-    },
-    {
-      "id": "c2e2f7b64a51920f749b4d30f74808732e32e791",
-      "title": "Critical OpenVPN Connect for macOS Vulnerability Let Attackers Execute Arbitrary Commands",
-      "link": "https://cybersecuritynews.com/openvpn-connect-for-macos-vulnerability/",
-      "date": "2026-05-28T15:39:36Z",
-      "description": "A critical privilege escalation vulnerability has been discovered in OpenVPN Connect for macOS, enabling local attackers to execute arbitrary commands with elevated privileges through the application’s background service component. Tracked as CVE-2026-9560, the flaw affects all versions from 3.5.1 through 3.8.1 and has been assigned a CVSS 4.0 base score of 9.4 (Critical). The security […] The…",
-      "source": "cybersecuritynews.com",
-      "first_seen": "2026-05-28T17:55:30Z",
-      "last_seen": "2026-05-28T17:55:30Z"
-    },
-    {
-      "id": "5b0a39c461c86d1d57b74094d05d775617ce05ec",
-      "title": "Agentic AI Isn't Risky; the Way Orgs Deploy It Is",
-      "link": "https://www.darkreading.com/application-security/agentic-ai-risky",
-      "date": "2026-05-28T15:36:25Z",
-      "description": "AI agents aren't black boxes — they're models interacting with software tools. The risk lies in their overlap.",
-      "source": "darkreading.com",
-      "first_seen": "2026-05-28T17:55:30Z",
-      "last_seen": "2026-05-29T12:39:53Z"
-    },
-    {
-      "id": "432a2540de1e09d9dd48310233bd8292267fc37e",
-      "title": "Threat Actors Exploit Critical FortiClient EMS Flaw to Deploy Credential Stealer",
-      "link": "https://thehackernews.com/2026/05/threat-actors-exploit-critical.html",
-      "date": "2026-05-28T15:26:04Z",
-      "description": "Threat actors are continuing to exploit a critical, now-patched security flaw impacting FortiClient Endpoint Management Server (EMS) deployments to deliver credential-stealing malware. \"The campaign abused trusted endpoint management infrastructure to deliver malware across managed endpoints,\" Arctic Wolf said. \"Threat actors disguised the credential stealer payload as a Fortinet endpoint",
-      "source": "thehackernews.com",
-      "first_seen": "2026-05-28T17:55:30Z",
-      "last_seen": "2026-05-29T09:33:16Z"
-    },
-    {
-      "id": "6cc46471de5aeed68a010382e95ca1ada783f392",
-      "title": "Carnival Data Breach Exposed 6 Million People",
-      "link": "https://www.securityweek.com/carnival-data-breach-exposed-6-million-people/",
-      "date": "2026-05-28T14:45:28Z",
-      "description": "Data breach leaves nearly 6 million Carnival customers navigating identity theft risks. The post Carnival Data Breach Exposed 6 Million People appeared first on SecurityWeek.",
-      "source": "securityweek.com",
-      "first_seen": "2026-05-28T17:55:30Z",
-      "last_seen": "2026-05-29T12:39:53Z"
-    },
-    {
-      "id": "1c5b7c7e49df9fe282859e2af2be060ee9694a61",
-      "title": "BTMOB RAT Spreads Across Brazil, LatAm via MaaS Model",
-      "link": "https://www.darkreading.com/cyberattacks-data-breaches/btmob-rat-brazil-latam-maas-model",
-      "date": "2026-05-28T09:06:11Z",
-      "description": "An advanced remote access Trojan is propagating online. Notably, it's delivered via an operator licensing model and features a no-code malware-development interface.",
-      "source": "darkreading.com",
-      "first_seen": "2026-05-28T17:55:30Z",
-      "last_seen": "2026-05-29T09:33:16Z"
-    },
-    {
-      "id": "853a3c3485281d6e0558cb6452474c197be3fa86",
-      "title": "ZDI-CAN-31478: Microsoft",
-      "link": "http://www.zerodayinitiative.com/advisories/upcoming/",
-      "date": "2026-05-28T05:00:00Z",
-      "description": "A CVSS score 7.8 AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H severity vulnerability discovered by 'Richard Chen of TrendAI Research' was reported to the affected vendor on: 2026-05-28, 0 days ago. The vendor is given until 2026-09-25 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
-      "source": "zerodayinitiative.com",
-      "first_seen": "2026-05-28T17:55:30Z",
-      "last_seen": "2026-05-29T12:39:53Z"
-    },
-    {
-      "id": "d05a76386216e3026913f35dea553c53ba99863c",
-      "title": "ZDI-CAN-28625: Apache",
-      "link": "http://www.zerodayinitiative.com/advisories/upcoming/",
-      "date": "2026-05-28T05:00:00Z",
-      "description": "A CVSS score 6.5 AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N severity vulnerability discovered by 'pl4tyz' was reported to the affected vendor on: 2026-05-28, 0 days ago. The vendor is given until 2026-09-25 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
-      "source": "zerodayinitiative.com",
-      "first_seen": "2026-05-28T17:55:30Z",
       "last_seen": "2026-05-29T12:39:53Z"
     },
     {
