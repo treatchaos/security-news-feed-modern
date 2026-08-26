@@ -1,7 +1,47 @@
 {
   "date": "2026-08-26",
-  "count": 21,
+  "count": 26,
   "items": [
+    {
+      "id": "1db2ab5cfbd0def2a271248bf28d6438d67e7d2a",
+      "title": "Hackers now exploit critical Gitea flaw in code injection attacks",
+      "link": "https://www.bleepingcomputer.com/news/security/hackers-now-exploit-critical-gitea-flaw-in-code-injection-attacks/",
+      "date": "2026-08-26T11:07:48Z",
+      "description": "Attackers are now exploiting a critical-severity vulnerability in the Gitea self-hosted Git service, according to the U.S. Cybersecurity and Infrastructure Security Agency (CISA). [...]",
+      "source": "bleepingcomputer.com",
+      "first_seen": "2026-08-26T11:18:58Z",
+      "last_seen": "2026-08-26T11:18:58Z"
+    },
+    {
+      "id": "07c2e00ba404a0385f2bbf52816341895f87b239",
+      "title": "The MFA Identity Trap: When Authentication Creates a False Sense of Security",
+      "link": "https://www.securityweek.com/the-mfa-identity-trap-when-authentication-creates-a-false-sense-of-security/",
+      "date": "2026-08-26T11:00:00Z",
+      "description": "Organizations must distinguish identity verification, authentication and threat detection, or risk successfully authenticating the attackers they are trying to stop. The post The MFA Identity Trap: When Authentication Creates a False Sense of Security appeared first on SecurityWeek.",
+      "source": "securityweek.com",
+      "first_seen": "2026-08-26T11:18:58Z",
+      "last_seen": "2026-08-26T11:18:58Z"
+    },
+    {
+      "id": "29226b615482ffce9e87686a7c8a31535ce479c3",
+      "title": "Claude Opus 4.6 Bypasses Gym Booking Limit, Cancels Other Users' Reservations in Tests",
+      "link": "https://thehackernews.com/2026/08/claude-opus-46-bypasses-gym-booking.html",
+      "date": "2026-08-26T10:27:23Z",
+      "description": "Aikido Security has published research that recreates the Australian gym-booking incident in a synthetic environment, finding that Claude Opus 4.6, running on the OpenClaw agent harness, exploited a client-side-only booking restriction in 9 of 10 runs. The original incident was first reported by ABC News on August 10, based on chat logs and screenshots the user supplied. He had asked an",
+      "source": "thehackernews.com",
+      "first_seen": "2026-08-26T11:18:58Z",
+      "last_seen": "2026-08-26T11:18:58Z"
+    },
+    {
+      "id": "99433ffe288742402645f2e8a9f8dc3684e150cb",
+      "title": "Hackers Abuse Legitimate RMM Tools in 46-Country Phishing Campaign to Gain Remote Access",
+      "link": "https://cybersecuritynews.com/hackers-abuse-legitimate-rmm-tools-3/",
+      "date": "2026-08-26T10:23:29Z",
+      "description": "A phishing operation is abusing legitimate remote monitoring and management tools to give attackers direct control over victim systems. The campaign uses convincing document lures, rapidly changing hosting infrastructure, and signed software that can blend into normal IT activity. A phishing campaign is turning familiar support software into a direct route into corporate systems. Rather […] The…",
+      "source": "cybersecuritynews.com",
+      "first_seen": "2026-08-26T11:18:58Z",
+      "last_seen": "2026-08-26T11:18:58Z"
+    },
     {
       "id": "8ac46a3b872e16ee0cbd4b8859002c95a26bda4c",
       "title": "SonicWall NetExtender Vulnerabilities Allow an Attacker to Write Arbitrary Files as Root",
@@ -10,7 +50,7 @@
       "description": "SonicWall has disclosed two security vulnerabilities in its NetExtender Linux client, including a critical path traversal flaw that could allow an attacker to write arbitrary files with root privileges. The issues affect NetExtender Linux Client versions 10.3.5 and earlier; the fixed release is version 10.3.6 and later. Tracked as CVE-2026-66152, the more severe vulnerability received […] The…",
       "source": "cybersecuritynews.com",
       "first_seen": "2026-08-26T10:23:20Z",
-      "last_seen": "2026-08-26T10:23:20Z"
+      "last_seen": "2026-08-26T11:18:58Z"
     },
     {
       "id": "81bcd2a5b6dc158c99ac8b5a9a018271303245ae",
@@ -20,7 +60,7 @@
       "description": "Most of the flaws were discovered by Google using AI, but researchers are still discovering high-value Chrome vulnerabilities. The post Chrome 152 Patches Over 300 Vulnerabilities appeared first on SecurityWeek.",
       "source": "securityweek.com",
       "first_seen": "2026-08-26T10:23:20Z",
-      "last_seen": "2026-08-26T10:23:20Z"
+      "last_seen": "2026-08-26T11:18:58Z"
     },
     {
       "id": "e4271ea42fe3c67f14003b18f713d9824a681cb2",
@@ -30,7 +70,17 @@
       "description": "A critical vulnerability in the TranslatePress WordPress plugin could allow unauthenticated attackers to hijack administrator accounts and fully compromise affected websites. The flaw, tracked as CVE-2026-19632, affects TranslatePress versions up to 3.3.1 and has been fixed in version 3.3.2. TranslatePress is a multilingual WordPress plugin with more than 400,000 active installations. Wordfence…",
       "source": "cybersecuritynews.com",
       "first_seen": "2026-08-26T10:23:20Z",
-      "last_seen": "2026-08-26T10:23:20Z"
+      "last_seen": "2026-08-26T11:18:58Z"
+    },
+    {
+      "id": "0cbf90b232d1b7bf75991e986f2799620e18d6fc",
+      "title": "OpenAI Bans Russian ChatGPT Accounts Used to Run Influence Operation",
+      "link": "https://thehackernews.com/2026/08/openai-bans-russian-chatgpt-accounts.html",
+      "date": "2026-08-26T09:38:45Z",
+      "description": "OpenAI on Tuesday said it banned a cluster of Russian ChatGPT accounts that used VPNs to bypass access restrictions and run an influence operation, which relied on its artificial intelligence (AI) tool to generate social media posts and comments that were shared on Substack, Telegram, X, Facebook and LinkedIn. The accounts \"were being used to promote the International Burke Institute (IBI), a",
+      "source": "thehackernews.com",
+      "first_seen": "2026-08-26T11:18:58Z",
+      "last_seen": "2026-08-26T11:18:58Z"
     },
     {
       "id": "cf0d101f8637a30a5c98ab45aed7fc1884b74edb",
@@ -40,7 +90,7 @@
       "description": "Iran-linked operators are using a trusted developer tool to conceal a backdoor called Dindoor inside Windows environments. The malware uses the Deno JavaScript and TypeScript runtime to execute encoded code, helping its activity blend into legitimate software use. Dindoor has appeared as a later-stage payload in spearphishing intrusions. Researchers observed it at U.S. software and […] The post…",
       "source": "cybersecuritynews.com",
       "first_seen": "2026-08-26T09:29:41Z",
-      "last_seen": "2026-08-26T10:23:20Z"
+      "last_seen": "2026-08-26T11:18:58Z"
     },
     {
       "id": "39781b7c521f315912306edcc8aaecbd992e3c21",
@@ -50,7 +100,7 @@
       "description": "The international law enforcement operation focused on disrupting crime-as-a-service networks and supporting infrastructure behind groups like Black Axe.",
       "source": "darkreading.com",
       "first_seen": "2026-08-26T09:29:41Z",
-      "last_seen": "2026-08-26T10:23:20Z"
+      "last_seen": "2026-08-26T11:18:58Z"
     },
     {
       "id": "709a50b58ad10ff26d8c507660fbcebb7c36fc8b",
@@ -60,7 +110,7 @@
       "description": "Researchers tie the LinX Coders phishing-as-a-service toolkit to 9,332 compromise events across 94 countries, with 63.7% of victims in the United States and stolen session cookies accounting for more than half of all outcomes. A phishing-as-a-service (PhaaS) toolkit tracked as Mirage2FA has been linked to the potential compromise of 4,532 Microsoft 365 accounts in a […] The post Mirage2FA…",
       "source": "cybersecuritynews.com",
       "first_seen": "2026-08-26T08:29:54Z",
-      "last_seen": "2026-08-26T10:23:20Z"
+      "last_seen": "2026-08-26T11:18:58Z"
     },
     {
       "id": "2194a28563a758ca0a41cbc9bf07dba93dec5802",
@@ -70,7 +120,7 @@
       "description": "The West African nation launched financing, procurement, and infrastructure policies to boost its sovereign cloud initiative and increase domestic technical knowledge.",
       "source": "darkreading.com",
       "first_seen": "2026-08-26T08:29:54Z",
-      "last_seen": "2026-08-26T10:23:20Z"
+      "last_seen": "2026-08-26T11:18:58Z"
     },
     {
       "id": "e92fc9c22f552292f4e71bf7c460adaefbdd519b",
@@ -80,7 +130,7 @@
       "description": "An eight-month INTERPOL operation targeting West African organized crime groups has led to arrests of 58 people and the identification of 263 suspects. \"The operation, which brought together 22 countries from six continents, is a response to the escalating global threat posed by West African criminal networks – such as the Black Axe and other similar groups,\" INTERPOL said. \"These groups are",
       "source": "thehackernews.com",
       "first_seen": "2026-08-26T09:29:41Z",
-      "last_seen": "2026-08-26T10:23:20Z"
+      "last_seen": "2026-08-26T11:18:58Z"
     },
     {
       "id": "19064429b0c453a54598fdf4d28fdcabe86dea77",
@@ -110,7 +160,7 @@
       "description": "Nutex Health has informed the SEC that it recently detected unauthorized access and data exfiltration. The post Sensitive Information Exposed in Nutex Health Data Breach appeared first on SecurityWeek.",
       "source": "securityweek.com",
       "first_seen": "2026-08-26T08:29:54Z",
-      "last_seen": "2026-08-26T10:23:20Z"
+      "last_seen": "2026-08-26T11:18:58Z"
     },
     {
       "id": "b10d192b58aa89f0f2cd72d30e0ce8919826dc10",
@@ -130,7 +180,7 @@
       "description": "An independent malware researcher has documented a previously unreported Windows backdoor, dubbed SLEEPWALKER, that stays inert in memory until a specifically crafted network packet reaches the machine and then runs commands written in a 23-instruction language of its own design. The sample is an unsigned 64-bit Windows dynamic-link library (DLL) of 59,904 bytes, built to be side-loaded into&",
       "source": "thehackernews.com",
       "first_seen": "2026-08-26T09:29:41Z",
-      "last_seen": "2026-08-26T10:23:20Z"
+      "last_seen": "2026-08-26T11:18:58Z"
     },
     {
       "id": "5d898ebba2ff8264ab6274e590ef23b0cf0fbb2f",
@@ -150,7 +200,7 @@
       "description": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Tuesday warned of active exploitation efforts targeting a recently patched critical security flaw impacting Gitea. The vulnerability in question is CVE-2026-60004 (CVSS score: 9.8), a case of remote code execution that allows an attacker with ordinary write access to a repository to execute arbitrary shell commands as the",
       "source": "thehackernews.com",
       "first_seen": "2026-08-26T07:36:44Z",
-      "last_seen": "2026-08-26T10:23:20Z"
+      "last_seen": "2026-08-26T11:18:58Z"
     },
     {
       "id": "5f86344809c1b5a1e27c0a42d97b251643111a40",
@@ -180,7 +230,7 @@
       "description": "CVE-2026-60004 is a remote code execution vulnerability patched by Gitea developers in late July with the release of version 1.27.1. The post CISA Warns of Exploited Gitea Vulnerability appeared first on SecurityWeek.",
       "source": "securityweek.com",
       "first_seen": "2026-08-26T05:23:04Z",
-      "last_seen": "2026-08-26T10:23:20Z"
+      "last_seen": "2026-08-26T11:18:58Z"
     },
     {
       "id": "829e0e150980bb57697fc857c8349a614f8c93bc",
