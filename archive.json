@@ -1,8 +1,38 @@
 {
-  "last_updated": "2026-08-26T13:44:43Z",
+  "last_updated": "2026-08-26T14:34:48Z",
   "retention_days": 90,
-  "count": 3600,
+  "count": 3585,
   "items": [
+    {
+      "id": "f8cf5ebdf53f1e241306b59296b19ef3762ed93c",
+      "title": "FBI disrupts proxy network enabling Chinese espionage operations",
+      "link": "https://www.bleepingcomputer.com/news/security/fbi-disrupts-proxy-network-enabling-chinese-espionage-operations/",
+      "date": "2026-08-26T14:17:59Z",
+      "description": "The FBI has disrupted infrastructure associated with a technical \"quartermaster\" that provided reconnaissance, proxy management, and operational routing capabilities for Chinese cyber espionage activities. [...]",
+      "source": "bleepingcomputer.com",
+      "first_seen": "2026-08-26T14:34:48Z",
+      "last_seen": "2026-08-26T14:34:48Z"
+    },
+    {
+      "id": "823ba3c48769bb3ae371d759f179fe90575b0029",
+      "title": "Snowflake ends service-account passwords. Now comes the hard part",
+      "link": "https://www.bleepingcomputer.com/news/security/snowflake-ends-service-account-passwords-now-comes-the-hard-part/",
+      "date": "2026-08-26T14:01:11Z",
+      "description": "Snowflake is ending password authentication for legacy service accounts, forcing organizations to migrate them to passwordless methods. Token Security explains why the harder challenge is identifying what uses each account, who owns it, and how much access it still needs. [...]",
+      "source": "bleepingcomputer.com",
+      "first_seen": "2026-08-26T14:34:48Z",
+      "last_seen": "2026-08-26T14:34:48Z"
+    },
+    {
+      "id": "494df6f36bdf761268a89d68588073b80add9471",
+      "title": "NovaCookies Campaigns Abuse Genuine Docusign Notifications to Steal Microsoft 365 Sessions",
+      "link": "https://thehackernews.com/2026/08/novacookies-campaigns-abuse-genuine.html",
+      "date": "2026-08-26T13:44:31Z",
+      "description": "Cybersecurity researchers have disclosed details of a new adversary-in-the-middle (AitM) phishing toolkit called NovaCookies that's used as a proxy to redirect Microsoft 365 sign-ins, while capturing authenticated sessions in the process. In a report shared with The Hacker News ahead of publication, Island characterized the $320/month service as a subscription-based phishing platform that",
+      "source": "thehackernews.com",
+      "first_seen": "2026-08-26T14:34:48Z",
+      "last_seen": "2026-08-26T14:34:48Z"
+    },
     {
       "id": "85064113f7d230c25512f3854f6546972ff26792",
       "title": "Ubiquiti patches three max severity security vulnerabilities",
@@ -11,7 +41,17 @@
       "description": "Ubiquiti has released security patches for three new maximum-severity vulnerabilities that threat actors can exploit remotely without privileges. [...]",
       "source": "bleepingcomputer.com",
       "first_seen": "2026-08-26T13:44:43Z",
-      "last_seen": "2026-08-26T13:44:43Z"
+      "last_seen": "2026-08-26T14:34:48Z"
+    },
+    {
+      "id": "972ec46b444dc36c1dbbc472a40957d38efa88ad",
+      "title": "CISA Red Team Compromised Two Critical Infrastructure Orgs, One Detected Nothing",
+      "link": "https://thehackernews.com/2026/08/cisa-red-team-compromised-two-critical.html",
+      "date": "2026-08-26T13:07:02Z",
+      "description": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) has published the results of two red team assessments it conducted simultaneously against two critical infrastructure organizations, using what it described as similar tradecraft while recording sharply different defensive outcomes. Both organizations were fully compromised at the domain level, and in both, the red team also",
+      "source": "thehackernews.com",
+      "first_seen": "2026-08-26T14:34:48Z",
+      "last_seen": "2026-08-26T14:34:48Z"
     },
     {
       "id": "3f941db9669f56f6cfad94ada3fadc52f14136c7",
@@ -21,7 +61,7 @@
       "description": "Adobe and Nvidia each published several advisories, including ones that address critical vulnerabilities in their products. The post Adobe and Nvidia Patch Dozens of Vulnerabilities appeared first on SecurityWeek.",
       "source": "securityweek.com",
       "first_seen": "2026-08-26T13:44:43Z",
-      "last_seen": "2026-08-26T13:44:43Z"
+      "last_seen": "2026-08-26T14:34:48Z"
     },
     {
       "id": "9d6b45b3795831a082c9d9a93339f0c7508d7802",
@@ -31,7 +71,7 @@
       "description": "Microsoft has begun testing new privacy controls that will let Windows 11 users choose which desktop applications can access their camera, microphone, and precise location. [...]",
       "source": "bleepingcomputer.com",
       "first_seen": "2026-08-26T12:27:39Z",
-      "last_seen": "2026-08-26T13:44:43Z"
+      "last_seen": "2026-08-26T14:34:48Z"
     },
     {
       "id": "568a2d4b148faed24ed032621081b02030bcce56",
@@ -41,7 +81,7 @@
       "description": "The CERT Coordination Center (CERT/CC) has disclosed two unpatched vulnerabilities in Kaltura's HTML5 video player library that allow a remote, unauthenticated attacker to read arbitrary files from a server and execute code on it. The flaws, tracked as CVE-2026-19913 and CVE-2026-19912, both stem from the same unsafe deserialization in the mwEmbedLoader.php endpoint of the mwEmbed player",
       "source": "thehackernews.com",
       "first_seen": "2026-08-26T13:44:43Z",
-      "last_seen": "2026-08-26T13:44:43Z"
+      "last_seen": "2026-08-26T14:34:48Z"
     },
     {
       "id": "3a398fa2839570e5e8c27b22e5f2b0b4592c21b0",
@@ -51,7 +91,7 @@
       "description": "The SOC we've always known was built around a model that guarantees most of the alert queue will never receive analyst review. There's never time. In a traditional SOC, the typical progression follows a well-known pattern: an alert arrives; a detection engine assigns a severity score. The issue then waits for a human to decide if it should escalate to an investigation. Given the volume of",
       "source": "thehackernews.com",
       "first_seen": "2026-08-26T12:27:39Z",
-      "last_seen": "2026-08-26T13:44:43Z"
+      "last_seen": "2026-08-26T14:34:48Z"
     },
     {
       "id": "5b1eaa628fc746dec4ff2b6f3a77c9c5672e3091",
@@ -61,7 +101,7 @@
       "description": "The adversary-in-the-middle (AitM) phishing service lowers the barrier to entry for actors to create attacks and steal more than just user credentials.",
       "source": "darkreading.com",
       "first_seen": "2026-08-26T13:44:43Z",
-      "last_seen": "2026-08-26T13:44:43Z"
+      "last_seen": "2026-08-26T14:34:48Z"
     },
     {
       "id": "3e31f41f98203122519cd326570e47def2d3d1ec",
@@ -71,7 +111,7 @@
       "description": "The agency has released guidance on reducing internet exposure in the wake of the recent Iran-linked hacker attacks. The post CISA: Over 100 Internet-Exposed Water Systems Targeted in July Cyberattacks appeared first on SecurityWeek.",
       "source": "securityweek.com",
       "first_seen": "2026-08-26T12:27:39Z",
-      "last_seen": "2026-08-26T13:44:43Z"
+      "last_seen": "2026-08-26T14:34:48Z"
     },
     {
       "id": "1db2ab5cfbd0def2a271248bf28d6438d67e7d2a",
@@ -81,7 +121,7 @@
       "description": "Attackers are now exploiting a critical-severity vulnerability in the Gitea self-hosted Git service, according to the U.S. Cybersecurity and Infrastructure Security Agency (CISA). [...]",
       "source": "bleepingcomputer.com",
       "first_seen": "2026-08-26T11:18:58Z",
-      "last_seen": "2026-08-26T13:44:43Z"
+      "last_seen": "2026-08-26T14:34:48Z"
     },
     {
       "id": "07c2e00ba404a0385f2bbf52816341895f87b239",
@@ -91,7 +131,7 @@
       "description": "Organizations must distinguish identity verification, authentication and threat detection, or risk successfully authenticating the attackers they are trying to stop. The post The MFA Identity Trap: When Authentication Creates a False Sense of Security appeared first on SecurityWeek.",
       "source": "securityweek.com",
       "first_seen": "2026-08-26T11:18:58Z",
-      "last_seen": "2026-08-26T13:44:43Z"
+      "last_seen": "2026-08-26T14:34:48Z"
     },
     {
       "id": "29226b615482ffce9e87686a7c8a31535ce479c3",
@@ -101,7 +141,7 @@
       "description": "Aikido Security has published research that recreates the Australian gym-booking incident in a synthetic environment, finding that Claude Opus 4.6, running on the OpenClaw agent harness, exploited a client-side-only booking restriction in 9 of 10 runs. The original incident was first reported by ABC News on August 10, based on chat logs and screenshots the user supplied. He had asked an",
       "source": "thehackernews.com",
       "first_seen": "2026-08-26T11:18:58Z",
-      "last_seen": "2026-08-26T13:44:43Z"
+      "last_seen": "2026-08-26T14:34:48Z"
     },
     {
       "id": "99433ffe288742402645f2e8a9f8dc3684e150cb",
@@ -131,7 +171,7 @@
       "description": "Most of the flaws were discovered by Google using AI, but researchers are still discovering high-value Chrome vulnerabilities. The post Chrome 152 Patches Over 300 Vulnerabilities appeared first on SecurityWeek.",
       "source": "securityweek.com",
       "first_seen": "2026-08-26T10:23:20Z",
-      "last_seen": "2026-08-26T13:44:43Z"
+      "last_seen": "2026-08-26T14:34:48Z"
     },
     {
       "id": "e4271ea42fe3c67f14003b18f713d9824a681cb2",
@@ -171,7 +211,7 @@
       "description": "The international law enforcement operation focused on disrupting crime-as-a-service networks and supporting infrastructure behind groups like Black Axe.",
       "source": "darkreading.com",
       "first_seen": "2026-08-26T09:29:41Z",
-      "last_seen": "2026-08-26T13:44:43Z"
+      "last_seen": "2026-08-26T14:34:48Z"
     },
     {
       "id": "709a50b58ad10ff26d8c507660fbcebb7c36fc8b",
@@ -191,7 +231,7 @@
       "description": "The West African nation launched financing, procurement, and infrastructure policies to boost its sovereign cloud initiative and increase domestic technical knowledge.",
       "source": "darkreading.com",
       "first_seen": "2026-08-26T08:29:54Z",
-      "last_seen": "2026-08-26T13:44:43Z"
+      "last_seen": "2026-08-26T14:34:48Z"
     },
     {
       "id": "e92fc9c22f552292f4e71bf7c460adaefbdd519b",
@@ -231,7 +271,7 @@
       "description": "Nutex Health has informed the SEC that it recently detected unauthorized access and data exfiltration. The post Sensitive Information Exposed in Nutex Health Data Breach appeared first on SecurityWeek.",
       "source": "securityweek.com",
       "first_seen": "2026-08-26T08:29:54Z",
-      "last_seen": "2026-08-26T13:44:43Z"
+      "last_seen": "2026-08-26T14:34:48Z"
     },
     {
       "id": "b10d192b58aa89f0f2cd72d30e0ce8919826dc10",
@@ -361,7 +401,7 @@
       "description": "With some simple HTML that's invisible to users, attackers can manipulate AI-powered email summarizers into producing malicious information.",
       "source": "darkreading.com",
       "first_seen": "2026-08-25T21:17:11Z",
-      "last_seen": "2026-08-26T13:44:43Z"
+      "last_seen": "2026-08-26T14:34:48Z"
     },
     {
       "id": "a220ee06ed7d5a401de3314af7e544a5364ce9f0",
@@ -381,7 +421,7 @@
       "description": "Attackers can exploit a security bug in NVIDIA's tool to gain unauthenticated access to the local model server through the Ollama API, paving the way for persistent AI agent corruption.",
       "source": "darkreading.com",
       "first_seen": "2026-08-25T20:16:21Z",
-      "last_seen": "2026-08-26T13:44:43Z"
+      "last_seen": "2026-08-26T14:34:48Z"
     },
     {
       "id": "ea0bcc2d6b049641e9e235512e1c08d0c6ff1282",
@@ -821,7 +861,7 @@
       "description": "A CVSS score 7.8 AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H severity vulnerability discovered by 'Anonymous' was reported to the affected vendor on: 2026-08-25, 0 days ago. The vendor is given until 2026-12-23 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
       "source": "zerodayinitiative.com",
       "first_seen": "2026-08-25T18:23:13Z",
-      "last_seen": "2026-08-26T13:44:43Z"
+      "last_seen": "2026-08-26T14:34:48Z"
     },
     {
       "id": "4881e14fc0251756faf8f4c67bca4b75e9622e8d",
@@ -831,7 +871,7 @@
       "description": "A CVSS score 7.5 AV:L/AC:H/PR:H/UI:N/S:C/C:H/I:H/A:H severity vulnerability discovered by 'MICHAEL RANDRIANANTENAINA [https://elkamika.blogspot.com/]' was reported to the affected vendor on: 2026-08-25, 0 days ago. The vendor is given until 2026-12-23 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
       "source": "zerodayinitiative.com",
       "first_seen": "2026-08-25T19:22:40Z",
-      "last_seen": "2026-08-26T13:44:43Z"
+      "last_seen": "2026-08-26T14:34:48Z"
     },
     {
       "id": "53bf95d9c87885ea252ca60d4adcef5c6ab88311",
@@ -841,7 +881,7 @@
       "description": "A CVSS score 7.8 AV:L/AC:H/PR:L/UI:N/S:C/C:H/I:H/A:H severity vulnerability discovered by 'GangMin Kim' was reported to the affected vendor on: 2026-08-25, 0 days ago. The vendor is given until 2026-12-23 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
       "source": "zerodayinitiative.com",
       "first_seen": "2026-08-25T19:22:40Z",
-      "last_seen": "2026-08-26T13:44:43Z"
+      "last_seen": "2026-08-26T14:34:48Z"
     },
     {
       "id": "6e4eeb490641c2e70545afb457dae66f3671765f",
@@ -851,7 +891,7 @@
       "description": "A CVSS score 7.8 AV:L/AC:H/PR:L/UI:N/S:C/C:H/I:H/A:H severity vulnerability discovered by 'Nico Yip (@_cyeaa_)' was reported to the affected vendor on: 2026-08-25, 0 days ago. The vendor is given until 2026-12-23 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
       "source": "zerodayinitiative.com",
       "first_seen": "2026-08-25T20:16:21Z",
-      "last_seen": "2026-08-26T13:44:43Z"
+      "last_seen": "2026-08-26T14:34:48Z"
     },
     {
       "id": "e9d5ceefb91ce896a5b6465aa5d6f1813f326e57",
@@ -861,7 +901,7 @@
       "description": "A CVSS score 7.2 AV:N/AC:L/PR:H/UI:N/S:U/C:H/I:H/A:H severity vulnerability discovered by 'Rocco Calvi (@TecR0c) with TecSecurity' was reported to the affected vendor on: 2026-08-25, 0 days ago. The vendor is given until 2026-12-23 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
       "source": "zerodayinitiative.com",
       "first_seen": "2026-08-25T20:16:21Z",
-      "last_seen": "2026-08-26T13:44:43Z"
+      "last_seen": "2026-08-26T14:34:48Z"
     },
     {
       "id": "9b3fae08122a9c9bfbfb81d8bc596fa5a9e7a26d",
@@ -35704,196 +35744,6 @@
       "last_seen": "2026-05-29T12:39:53Z"
     },
     {
-      "id": "3646c4bc1cc22d37fe59bdf27a583c3bb2bc941d",
-      "title": "New Gogs zero-day flaw lets hackers get remote code execution",
-      "link": "https://www.bleepingcomputer.com/news/security/new-gogs-zero-day-flaw-lets-hackers-get-remote-code-execution/",
-      "date": "2026-05-28T14:25:43Z",
-      "description": "An unpatched zero-day vulnerability in the Gogs self-hosted Git service can allow attackers to gain remote code execution (RCE) on Internet-facing instances. [...]",
-      "source": "bleepingcomputer.com",
-      "first_seen": "2026-05-28T14:27:17Z",
-      "last_seen": "2026-05-29T00:01:16Z"
-    },
-    {
-      "id": "0a49000f85d3991ae733ebcb146659b175fd6600",
-      "title": "How SIEM helps MSPs reduce noise and stop threats faster",
-      "link": "https://www.bleepingcomputer.com/news/security/how-siem-helps-msps-reduce-noise-and-stop-threats-faster/",
-      "date": "2026-05-28T14:01:11Z",
-      "description": "MSPs don't lack security data. They struggle to separate real threats from alert noise. Kaseya explains how SIEM helps MSPs improve visibility, reduce fatigue, and respond faster. [...]",
-      "source": "bleepingcomputer.com",
-      "first_seen": "2026-05-28T14:27:17Z",
-      "last_seen": "2026-05-28T20:03:51Z"
-    },
-    {
-      "id": "1c1c93f2d03394c9b157e72b976106091a230643",
-      "title": "Microsoft Slams Public Zero-Day Disclosures Amid GitHub Researcher Account Removal",
-      "link": "https://thehackernews.com/2026/05/microsoft-slams-public-zero-day.html",
-      "date": "2026-05-28T13:53:52Z",
-      "description": "Microsoft has come out strongly in favor of Coordinated Vulnerability Disclosure (CVD), urging the research community to share their findings and give affected vendors an opportunity to better understand the impact and address them before they are publicly disclosed. The development comes after a researcher named Chaotic Eclipse (aka Nightmare-Eclipse) disclosed details of multiple zero-day",
-      "source": "thehackernews.com",
-      "first_seen": "2026-05-28T14:27:17Z",
-      "last_seen": "2026-05-29T09:33:16Z"
-    },
-    {
-      "id": "5a1a70848439923171bd1e1d2be14176316691db",
-      "title": "ThreatsDay Bulletin: Claude Security Plugin, Azure Priv-Esc, Kali365 MFA Bypass, FIFA Scams +15 More",
-      "link": "https://thehackernews.com/2026/05/threatsday-bulletin-claude-security.html",
-      "date": "2026-05-28T13:33:16Z",
-      "description": "Every time you think the industry has finally stopped doing some reckless, low-effort crap, somebody spins up a fresh box full of sketchy loaders, fake installers, recycled social-engineering bait, and enough exposed infrastructure to make you wonder if prod is just a public beta now - meanwhile some researcher casually drops a technique that turns a \"minor\" foothold into total account",
-      "source": "thehackernews.com",
-      "first_seen": "2026-05-28T14:27:17Z",
-      "last_seen": "2026-05-29T09:33:16Z"
-    },
-    {
-      "id": "49e6d1e121a9f0f573e18e742bc3a826c1e89c4e",
-      "title": "New BTMOB Android Malware Enables Full Device Takeover",
-      "link": "https://www.securityweek.com/new-btmob-android-malware-enables-full-device-takeover/",
-      "date": "2026-05-28T13:05:04Z",
-      "description": "Delivered via phishing lures, the malware combines financial theft with data exfiltration and remote access. The post New BTMOB Android Malware Enables Full Device Takeover appeared first on SecurityWeek.",
-      "source": "securityweek.com",
-      "first_seen": "2026-05-28T14:27:17Z",
-      "last_seen": "2026-05-29T09:33:16Z"
-    },
-    {
-      "id": "23ed126bfbb483d881bc66f03bc1ca7d6eb260d4",
-      "title": "Critical FortiClient EMS Vulnerability Exploited in Fresh Attacks",
-      "link": "https://www.securityweek.com/critical-forticlient-ems-vulnerability-exploited-in-fresh-attacks/",
-      "date": "2026-05-28T12:55:47Z",
-      "description": "Fortinet rolled out hotfixes for the security defect in April, warning that it had been exploited in the wild as a zero-day and urging immediate patching. The post Critical FortiClient EMS Vulnerability Exploited in Fresh Attacks appeared first on SecurityWeek.",
-      "source": "securityweek.com",
-      "first_seen": "2026-05-28T14:27:17Z",
-      "last_seen": "2026-05-29T09:33:16Z"
-    },
-    {
-      "id": "ba43c9f23d8b8797fa81609d24923764b3353466",
-      "title": "Romanian gets 5 years in prison for hacking Oregon govt network",
-      "link": "https://www.bleepingcomputer.com/news/security/romanian-gets-5-years-in-prison-for-hacking-oregon-govt-network/",
-      "date": "2026-05-28T12:43:29Z",
-      "description": "A Romanian national was sentenced this week to 56 months in federal prison for breaking into an Oregon state government computer network and fr cyberattacks targeting dozens of other U.S. victims. [...]",
-      "source": "bleepingcomputer.com",
-      "first_seen": "2026-05-28T14:27:17Z",
-      "last_seen": "2026-05-28T20:03:51Z"
-    },
-    {
-      "id": "c95e16bc6bebc7c4a57a098ecdb20175aba77b05",
-      "title": "IBM and Red Hat Commit $5 Billion to Secure Open Source Supply Chains Under “Project Lightwell”",
-      "link": "https://www.securityweek.com/ibm-and-red-hat-commit-5-billion-to-secure-open-source-supply-chains-under-project-lightwell/",
-      "date": "2026-05-28T12:41:45Z",
-      "description": "Project Lightwell is designed to fix vulnerabilities without breaking what is already in production. The post IBM and Red Hat Commit $5 Billion to Secure Open Source Supply Chains Under “Project Lightwell” appeared first on SecurityWeek.",
-      "source": "securityweek.com",
-      "first_seen": "2026-05-28T14:27:17Z",
-      "last_seen": "2026-05-28T17:55:30Z"
-    },
-    {
-      "id": "842b500922641280851d6b9a1ee21c31270a654f",
-      "title": "Focus on Cyber Insurance: How Quantifying Risk Is Reshaping Security",
-      "link": "https://www.darkreading.com/cyber-risk/focus-cyber-insurance-quantifying-risk-reshape-security",
-      "date": "2026-05-28T12:29:58Z",
-      "description": "In this latest installment of the Reporters' Notebook video series, we discuss how cyber insurance is forcing organizations to quantify risk, what's covered (and what's not), and why this could be the best thing to happen to cybersecurity.",
-      "source": "darkreading.com",
-      "first_seen": "2026-05-28T14:27:17Z",
-      "last_seen": "2026-05-29T12:39:53Z"
-    },
-    {
-      "id": "dd3dc63a921e296df79fda289c471a783b997c33",
-      "title": "Webinar: Why network incidents take too long to resolve",
-      "link": "https://www.bleepingcomputer.com/news/security/webinar-why-network-incidents-take-too-long-to-resolve/",
-      "date": "2026-05-28T12:20:28Z",
-      "description": "Many organizations can detect network issues quickly, but investigations and coordination often slow incident resolution. This webinar explores how automation and AI-assisted workflows can help IT teams reduce delays and improve response times. [...]",
-      "source": "bleepingcomputer.com",
-      "first_seen": "2026-05-28T14:27:17Z",
-      "last_seen": "2026-05-28T17:55:30Z"
-    },
-    {
-      "id": "7210fe937169249aadb28d841fa2794e8ac1a516",
-      "title": "Carnival Cruise Data Breach Exposes Millions of Customers’ Personal Information",
-      "link": "https://cybersecuritynews.com/carnival-cruise-data-breach/",
-      "date": "2026-05-28T12:00:28Z",
-      "description": "Carnival Corporation, the world’s largest cruise company and parent of Carnival Cruise Line, has begun notifying customers of a significant cybersecurity breach that exposed sensitive personal data after a threat actor successfully used social engineering to compromise an employee account. The company’s IT security team first detected unauthorized activity on April 14, 2026, after an […] The…",
-      "source": "cybersecuritynews.com",
-      "first_seen": "2026-05-28T14:27:17Z",
-      "last_seen": "2026-05-28T14:27:17Z"
-    },
-    {
-      "id": "9ab6faa64fe1cb082fc11838d7d68e38231317d1",
-      "title": "New Edamame Platform Aims to Catch AI Coding Agents Going Off the Rails",
-      "link": "https://www.securityweek.com/new-edamame-platform-aims-to-catch-ai-coding-agents-going-off-the-rails/",
-      "date": "2026-05-28T12:00:00Z",
-      "description": "France-based startup Edamame says its runtime verification platform uses host telemetry and AI analysis to detect coding-agent “intent drift,” secret theft and supply-chain attacks in real time. The post New Edamame Platform Aims to Catch AI Coding Agents Going Off the Rails appeared first on SecurityWeek.",
-      "source": "securityweek.com",
-      "first_seen": "2026-05-28T14:27:17Z",
-      "last_seen": "2026-05-28T14:27:17Z"
-    },
-    {
-      "id": "517b95f6126571b2bfbc3db746b997972ba0a713",
-      "title": "Hackers Use GHOSTYNETWORKS and OMEGATECH to Host JS Malware Infrastructure",
-      "link": "https://cybersecuritynews.com/hackers-use-ghostynetworks-and-omegatech/",
-      "date": "2026-05-28T11:58:39Z",
-      "description": "In March 2026, a wave of malicious spam emails began hitting inboxes across multiple countries and industries. Threat actors were quietly distributing a JavaScript-coded backdoor, targeting organizations in sectors as critical as energy, automotive, and government finance. The scale of the operation was wide, and the infrastructure behind it was carefully selected to stay under […] The post…",
-      "source": "cybersecuritynews.com",
-      "first_seen": "2026-05-28T14:27:17Z",
-      "last_seen": "2026-05-28T14:27:17Z"
-    },
-    {
-      "id": "1f285fd7b1d04d916bd7ad3e00084db4a81ec76b",
-      "title": "Gitea Container Vulnerability Exposes Private Container Images to Attackers",
-      "link": "https://cybersecuritynews.com/gitea-container-vulnerability/",
-      "date": "2026-05-28T11:31:04Z",
-      "description": "A critical security vulnerability in Gitea’s built-in container registry exposes private container images to unauthenticated attackers, raising significant concerns for organizations that rely on self-hosted Git and CI/CD environments. The flaw, tracked as CVE-2026-27771, allows remote attackers to access and download container images marked as private without requiring authentication, tokens,…",
-      "source": "cybersecuritynews.com",
-      "first_seen": "2026-05-28T14:27:17Z",
-      "last_seen": "2026-05-28T14:27:17Z"
-    },
-    {
-      "id": "d483d2a9616e989df0166b639f2539cfcf6a932a",
-      "title": "New AI Usage Report: Enterprise AI Risk Is Heavily Concentrated Among a Small Group of AI \"Power users\"",
-      "link": "https://thehackernews.com/2026/05/new-ai-usage-report-enterprise-ai-risk.html",
-      "date": "2026-05-28T11:30:00Z",
-      "description": "State of AI Usage Report 2026 (full report here) by LayerX Security reveals the extent of the enterprise AI visibility gap and why most organizations still don't understand where their AI exposure is actually coming from. The research shows that enterprise AI risk is not distributed evenly across users or platforms. Instead, it is heavily concentrated among a small group of AI power users and a",
-      "source": "thehackernews.com",
-      "first_seen": "2026-05-28T14:27:17Z",
-      "last_seen": "2026-05-29T05:04:26Z"
-    },
-    {
-      "id": "9298a0f180900d0ccb1ec9cf60fa7563ff827167",
-      "title": "Gitea Vulnerability Exposed 30,000 Deployments to Attacks",
-      "link": "https://www.securityweek.com/gitea-vulnerability-exposed-30000-deployments-to-attacks/",
-      "date": "2026-05-28T11:24:51Z",
-      "description": "The security flaw allowed attackers to pull private container images, exposing source code, credentials, and infrastructure. The post Gitea Vulnerability Exposed 30,000 Deployments to Attacks appeared first on SecurityWeek.",
-      "source": "securityweek.com",
-      "first_seen": "2026-05-28T14:27:17Z",
-      "last_seen": "2026-05-28T14:27:17Z"
-    },
-    {
-      "id": "667c27cc3f7a0cf2f47b63f13f3ade1395f10a41",
-      "title": "New PureLogs Variant Uses MsBuild.exe Process Hollowing to Evade Detection",
-      "link": "https://cybersecuritynews.com/new-purelogs-variant-uses-msbuild-exe-process-hollowing/",
-      "date": "2026-05-28T11:19:00Z",
-      "description": "A new and dangerous version of the PureLogs information-stealing malware has emerged, raising serious concerns across the cybersecurity community. This variant takes a more evasive approach than its predecessors, using a carefully crafted chain of stages to reach victims without triggering standard security tools. What makes it stand out is how it weaponizes trusted Windows […] The post New…",
-      "source": "cybersecuritynews.com",
-      "first_seen": "2026-05-28T14:27:17Z",
-      "last_seen": "2026-05-28T14:27:17Z"
-    },
-    {
-      "id": "854f5726acc27d97ab8205730338ba85ac06850a",
-      "title": "Critical Roundcube Webmail Vulnerability Let Attackers Inject SQL Queries",
-      "link": "https://cybersecuritynews.com/roundcube-webmail-sql-vulnerability/",
-      "date": "2026-05-28T11:15:43Z",
-      "description": "Roundcube Webmail users are being urged to apply urgent updates after developers patched multiple security flaws. Including a critical pre-authentication SQL injection vulnerability that could allow attackers to manipulate backend databases without logging in. The issues affect Roundcube versions 1.6. x and 1.7. x, which are widely used across enterprise and hosting environments. The…",
-      "source": "cybersecuritynews.com",
-      "first_seen": "2026-05-28T14:27:17Z",
-      "last_seen": "2026-05-28T14:27:17Z"
-    },
-    {
-      "id": "be09732841c5b82ec68c73a16a3559ecdce2b0c7",
-      "title": "Carnival Cruise confirms data breach affecting nearly 6 million people",
-      "link": "https://www.bleepingcomputer.com/news/security/carnival-cruise-confirms-data-breach-affecting-nearly-6-million-people/",
-      "date": "2026-05-28T10:49:27Z",
-      "description": "Carnival Corporation, the world's largest cruise line operator, has confirmed a data breach affecting nearly 6 million people claimed by the ShinyHunters extortion gang in April 2026. [...]",
-      "source": "bleepingcomputer.com",
-      "first_seen": "2026-05-28T14:27:17Z",
-      "last_seen": "2026-05-28T14:27:17Z"
-    },
-    {
       "id": "1c5b7c7e49df9fe282859e2af2be060ee9694a61",
       "title": "BTMOB RAT Spreads Across Brazil, LatAm via MaaS Model",
       "link": "https://www.darkreading.com/cyberattacks-data-breaches/btmob-rat-brazil-latam-maas-model",
@@ -35961,7 +35811,7 @@
       "description": "2.5 million people were affected, in a breach that could spell more trouble down the line.",
       "source": "threatpost.com",
       "first_seen": "2026-08-08T14:21:59Z",
-      "last_seen": "2026-08-26T13:44:43Z"
+      "last_seen": "2026-08-26T14:34:48Z"
     },
     {
       "id": "4140c7a34b0ba94ad2e6b0cae9f59b0cb9bfffea",
@@ -35971,7 +35821,7 @@
       "description": "Researchers uncover a watering hole attack likely carried out by APT TA423, which attempts to plant the ScanBox JavaScript-based reconnaissance tool.",
       "source": "threatpost.com",
       "first_seen": "2026-08-08T14:21:59Z",
-      "last_seen": "2026-08-26T13:44:43Z"
+      "last_seen": "2026-08-26T14:34:48Z"
     },
     {
       "id": "9359ee40a641a4b565080313045f1d7e7fe6552b",
@@ -35981,7 +35831,7 @@
       "description": "Over 130 companies tangled in sprawling phishing campaign that spoofed a multi-factor authentication system.",
       "source": "threatpost.com",
       "first_seen": "2026-08-08T14:21:59Z",
-      "last_seen": "2026-08-26T13:44:43Z"
+      "last_seen": "2026-08-26T14:34:48Z"
     },
     {
       "id": "b4ccef0737cd4050d65241bf754072030b6b5e6a",
@@ -35991,7 +35841,7 @@
       "description": "Lockbit is by far this summer’s most prolific ransomware group, trailed by two offshoots of the Conti group.",
       "source": "threatpost.com",
       "first_seen": "2026-08-08T14:21:59Z",
-      "last_seen": "2026-08-26T13:44:43Z"
+      "last_seen": "2026-08-26T14:34:48Z"
     },
     {
       "id": "12ee113fc8fce91f6d7fb28deab2b1ad20061ec7",
@@ -36001,7 +35851,7 @@
       "description": "Tens of thousands of cameras have failed to patch a critical, 11-month-old CVE, leaving thousands of organizations exposed.",
       "source": "threatpost.com",
       "first_seen": "2026-08-08T14:21:59Z",
-      "last_seen": "2026-08-26T13:44:43Z"
+      "last_seen": "2026-08-26T14:34:48Z"
     }
   ]
 }
