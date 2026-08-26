@@ -1,7 +1,27 @@
 {
   "date": "2026-08-26",
-  "count": 14,
+  "count": 18,
   "items": [
+    {
+      "id": "cf0d101f8637a30a5c98ab45aed7fc1884b74edb",
+      "title": "Iran-Linked Hackers Abuse Legitimate Developer Tool to Hide Dindoor Backdoor",
+      "link": "https://cybersecuritynews.com/iran-linked-hackers-abuse-developer-tool/",
+      "date": "2026-08-26T08:50:13Z",
+      "description": "Iran-linked operators are using a trusted developer tool to conceal a backdoor called Dindoor inside Windows environments. The malware uses the Deno JavaScript and TypeScript runtime to execute encoded code, helping its activity blend into legitimate software use. Dindoor has appeared as a later-stage payload in spearphishing intrusions. Researchers observed it at U.S. software and […] The post…",
+      "source": "cybersecuritynews.com",
+      "first_seen": "2026-08-26T09:29:41Z",
+      "last_seen": "2026-08-26T09:29:41Z"
+    },
+    {
+      "id": "39781b7c521f315912306edcc8aaecbd992e3c21",
+      "title": "Interpol's Jackal IV Disrupts West African Crime Infrastructure",
+      "link": "https://www.darkreading.com/threat-intelligence/interpols-jackal-iv-west-african-crime-infrastructure",
+      "date": "2026-08-26T08:30:00Z",
+      "description": "The international law enforcement operation focused on disrupting crime-as-a-service networks and supporting infrastructure behind groups like Black Axe.",
+      "source": "darkreading.com",
+      "first_seen": "2026-08-26T09:29:41Z",
+      "last_seen": "2026-08-26T09:29:41Z"
+    },
     {
       "id": "709a50b58ad10ff26d8c507660fbcebb7c36fc8b",
       "title": "Mirage2FA Phishing Kit Bypasses MFA to Hijack Microsoft 365 Sessions, Targeting 3,500+ Organizations",
@@ -10,7 +30,7 @@
       "description": "Researchers tie the LinX Coders phishing-as-a-service toolkit to 9,332 compromise events across 94 countries, with 63.7% of victims in the United States and stolen session cookies accounting for more than half of all outcomes. A phishing-as-a-service (PhaaS) toolkit tracked as Mirage2FA has been linked to the potential compromise of 4,532 Microsoft 365 accounts in a […] The post Mirage2FA…",
       "source": "cybersecuritynews.com",
       "first_seen": "2026-08-26T08:29:54Z",
-      "last_seen": "2026-08-26T08:29:54Z"
+      "last_seen": "2026-08-26T09:29:41Z"
     },
     {
       "id": "2194a28563a758ca0a41cbc9bf07dba93dec5802",
@@ -20,7 +40,17 @@
       "description": "The West African nation launched financing, procurement, and infrastructure policies to boost its sovereign cloud initiative and increase domestic technical knowledge.",
       "source": "darkreading.com",
       "first_seen": "2026-08-26T08:29:54Z",
-      "last_seen": "2026-08-26T08:29:54Z"
+      "last_seen": "2026-08-26T09:29:41Z"
+    },
+    {
+      "id": "e92fc9c22f552292f4e71bf7c460adaefbdd519b",
+      "title": "INTERPOL Operation Jackal IV Arrests 58, Identifies 263 in Global Cyber Fraud Crackdown",
+      "link": "https://thehackernews.com/2026/08/interpol-operation-jackal-iv-arrests-58.html",
+      "date": "2026-08-26T07:54:12Z",
+      "description": "An eight-month INTERPOL operation targeting West African organized crime groups has led to arrests of 58 people and the identification of 263 suspects. \"The operation, which brought together 22 countries from six continents, is a response to the escalating global threat posed by West African criminal networks – such as the Black Axe and other similar groups,\" INTERPOL said. \"These groups are",
+      "source": "thehackernews.com",
+      "first_seen": "2026-08-26T09:29:41Z",
+      "last_seen": "2026-08-26T09:29:41Z"
     },
     {
       "id": "19064429b0c453a54598fdf4d28fdcabe86dea77",
@@ -30,7 +60,7 @@
       "description": "Google has released Chrome 152 for Windows, macOS, and Linux, delivering 327 security fixes and improvements. The update addresses 10 critical vulnerabilities, making it an important security release for individual users and enterprise environments. Chrome 152 is rolling out as version 152.0.7977.64 for Linux and version 152.0.7977.64/.65 for Windows and macOS. Google said availability will […]…",
       "source": "cybersecuritynews.com",
       "first_seen": "2026-08-26T08:29:54Z",
-      "last_seen": "2026-08-26T08:29:54Z"
+      "last_seen": "2026-08-26T09:29:41Z"
     },
     {
       "id": "1a16d25ef064d681267d813e9677eb7365f3d925",
@@ -40,7 +70,7 @@
       "description": "A routine development mistake has exposed thousands of software repositories. Researchers found 28,000 publicly reachable .git repositories containing credentials, financial information and internal employee records that could give criminals a direct route into cloud accounts and business systems. This is not a malware campaign in the usual sense. The risk begins when a web server […] The post…",
       "source": "cybersecuritynews.com",
       "first_seen": "2026-08-26T08:29:54Z",
-      "last_seen": "2026-08-26T08:29:54Z"
+      "last_seen": "2026-08-26T09:29:41Z"
     },
     {
       "id": "4e2d4d958a4f5803c7aecd4324011436a9cadaef",
@@ -50,7 +80,7 @@
       "description": "Nutex Health has informed the SEC that it recently detected unauthorized access and data exfiltration. The post Sensitive Information Exposed in Nutex Health Data Breach appeared first on SecurityWeek.",
       "source": "securityweek.com",
       "first_seen": "2026-08-26T08:29:54Z",
-      "last_seen": "2026-08-26T08:29:54Z"
+      "last_seen": "2026-08-26T09:29:41Z"
     },
     {
       "id": "b10d192b58aa89f0f2cd72d30e0ce8919826dc10",
@@ -60,7 +90,17 @@
       "description": "A critical vulnerability in NVIDIA NemoClaw that could let attackers hijack an AI agent after a victim visits a malicious website. The issue, tracked as CVE-2026-65105, can expose the local Ollama model server used by NemoClaw and allow persistent poisoning of the AI model’s behavior. NemoClaw is NVIDIA’s tool for deploying the OpenClaw AI agent […] The post NVIDIA NemoClaw Flaw Lets Attackers…",
       "source": "cybersecuritynews.com",
       "first_seen": "2026-08-26T07:36:44Z",
-      "last_seen": "2026-08-26T08:29:54Z"
+      "last_seen": "2026-08-26T09:29:41Z"
+    },
+    {
+      "id": "c18dbdd91643b263fe7fc019c7a859bbd1f1a4df",
+      "title": "Newly SLEEPWALKER Backdoor Waits for One Crafted Packet, Then Runs Its Own Bytecode",
+      "link": "https://thehackernews.com/2026/08/newly-sleepwalker-backdoor-waits-for.html",
+      "date": "2026-08-26T07:12:55Z",
+      "description": "An independent malware researcher has documented a previously unreported Windows backdoor, dubbed SLEEPWALKER, that stays inert in memory until a specifically crafted network packet reaches the machine and then runs commands written in a 23-instruction language of its own design. The sample is an unsigned 64-bit Windows dynamic-link library (DLL) of 59,904 bytes, built to be side-loaded into&",
+      "source": "thehackernews.com",
+      "first_seen": "2026-08-26T09:29:41Z",
+      "last_seen": "2026-08-26T09:29:41Z"
     },
     {
       "id": "5d898ebba2ff8264ab6274e590ef23b0cf0fbb2f",
@@ -80,7 +120,7 @@
       "description": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Tuesday warned of active exploitation efforts targeting a recently patched critical security flaw impacting Gitea. The vulnerability in question is CVE-2026-60004 (CVSS score: 9.8), a case of remote code execution that allows an attacker with ordinary write access to a repository to execute arbitrary shell commands as the",
       "source": "thehackernews.com",
       "first_seen": "2026-08-26T07:36:44Z",
-      "last_seen": "2026-08-26T08:29:54Z"
+      "last_seen": "2026-08-26T09:29:41Z"
     },
     {
       "id": "5f86344809c1b5a1e27c0a42d97b251643111a40",
@@ -100,7 +140,7 @@
       "description": "Cybersecurity researchers have disclosed details of a phishing-as-a-service (PhaaS) platform built to strip Apple's Activation Lock from stolen devices, using rented AI voice agents that call theft victims posing as Apple Support and ask for their device passcode. SOCRadar Threat Research Unit (STRU) said the platform, which it tracks as AnonyMousKIT, is credit-metered and drives lures across",
       "source": "thehackernews.com",
       "first_seen": "2026-08-26T07:36:44Z",
-      "last_seen": "2026-08-26T08:29:54Z"
+      "last_seen": "2026-08-26T09:29:41Z"
     },
     {
       "id": "b6aa154698be1d2352da077b84f0dc9209a71daa",
@@ -110,7 +150,7 @@
       "description": "CVE-2026-60004 is a remote code execution vulnerability patched by Gitea developers in late July with the release of version 1.27.1. The post CISA Warns of Exploited Gitea Vulnerability appeared first on SecurityWeek.",
       "source": "securityweek.com",
       "first_seen": "2026-08-26T05:23:04Z",
-      "last_seen": "2026-08-26T08:29:54Z"
+      "last_seen": "2026-08-26T09:29:41Z"
     },
     {
       "id": "829e0e150980bb57697fc857c8349a614f8c93bc",
