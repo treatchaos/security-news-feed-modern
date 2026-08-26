@@ -1,7 +1,57 @@
 {
   "date": "2026-08-26",
-  "count": 4,
+  "count": 9,
   "items": [
+    {
+      "id": "b10d192b58aa89f0f2cd72d30e0ce8919826dc10",
+      "title": "NVIDIA NemoClaw Flaw Lets Attackers Hijack AI Agents With One Website Visit",
+      "link": "https://cybersecuritynews.com/nvidia-nemoclaw-flaw/",
+      "date": "2026-08-26T07:33:38Z",
+      "description": "A critical vulnerability in NVIDIA NemoClaw that could let attackers hijack an AI agent after a victim visits a malicious website. The issue, tracked as CVE-2026-65105, can expose the local Ollama model server used by NemoClaw and allow persistent poisoning of the AI model’s behavior. NemoClaw is NVIDIA’s tool for deploying the OpenClaw AI agent […] The post NVIDIA NemoClaw Flaw Lets Attackers…",
+      "source": "cybersecuritynews.com",
+      "first_seen": "2026-08-26T07:36:44Z",
+      "last_seen": "2026-08-26T07:36:44Z"
+    },
+    {
+      "id": "5d898ebba2ff8264ab6274e590ef23b0cf0fbb2f",
+      "title": "Two Microsoft SharePoint Flaws Can Be Chained to Hack Servers Without a Password",
+      "link": "https://cybersecuritynews.com/sharepoint-flaws-chained-to-hack-servers/",
+      "date": "2026-08-26T07:00:28Z",
+      "description": "Two serious Microsoft SharePoint Server vulnerabilities can be chained to let remote attackers take control of vulnerable servers without a password. The attack combines an authentication bypass tracked as 78 with a remote code execution flaw, CVE-2026-63520. CVE-2026-55040, rated 9.1 out of 10 under CVSS v3.1, affects SharePoint’s JSON Web Token, or JWT, authentication handler. […] The post Two…",
+      "source": "cybersecuritynews.com",
+      "first_seen": "2026-08-26T07:36:44Z",
+      "last_seen": "2026-08-26T07:36:44Z"
+    },
+    {
+      "id": "c7b4417ba0c6677b9e27f115c14ac21578fb0178",
+      "title": "Critical Gitea RCE Actively Exploited as Reported Attack Drops Miner-Like Payload",
+      "link": "https://thehackernews.com/2026/08/critical-gitea-rce-actively-exploited.html",
+      "date": "2026-08-26T06:27:07Z",
+      "description": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Tuesday warned of active exploitation efforts targeting a recently patched critical security flaw impacting Gitea. The vulnerability in question is CVE-2026-60004 (CVSS score: 9.8), a case of remote code execution that allows an attacker with ordinary write access to a repository to execute arbitrary shell commands as the",
+      "source": "thehackernews.com",
+      "first_seen": "2026-08-26T07:36:44Z",
+      "last_seen": "2026-08-26T07:36:44Z"
+    },
+    {
+      "id": "5f86344809c1b5a1e27c0a42d97b251643111a40",
+      "title": "New CoreRAT Malware Gives Core Werewolf Hackers Full Control of Compromised Systems",
+      "link": "https://cybersecuritynews.com/new-corerat-malware/",
+      "date": "2026-08-26T06:02:39Z",
+      "description": "A new remote access trojan called CoreRAT is giving the Core Werewolf threat group a way to take over infected Windows systems. The malware appeared in campaigns observed from June through July 2026, though evidence shows it has been active since at least March. Its arrival marks an expansion of the group’s toolkit. The attackers […] The post New CoreRAT Malware Gives Core Werewolf Hackers Full…",
+      "source": "cybersecuritynews.com",
+      "first_seen": "2026-08-26T07:36:44Z",
+      "last_seen": "2026-08-26T07:36:44Z"
+    },
+    {
+      "id": "ba51c4b4e0fd41f160b45107a072ea631d9f10a2",
+      "title": "Fake Apple Support AI Calls Target Stolen-Device Owners for Passcodes and 2FA Codes",
+      "link": "https://thehackernews.com/2026/08/fake-apple-support-ai-calls-target.html",
+      "date": "2026-08-26T05:47:28Z",
+      "description": "Cybersecurity researchers have disclosed details of a phishing-as-a-service (PhaaS) platform built to strip Apple's Activation Lock from stolen devices, using rented AI voice agents that call theft victims posing as Apple Support and ask for their device passcode. SOCRadar Threat Research Unit (STRU) said the platform, which it tracks as AnonyMousKIT, is credit-metered and drives lures across",
+      "source": "thehackernews.com",
+      "first_seen": "2026-08-26T07:36:44Z",
+      "last_seen": "2026-08-26T07:36:44Z"
+    },
     {
       "id": "b6aa154698be1d2352da077b84f0dc9209a71daa",
       "title": "CISA Warns of Exploited Gitea Vulnerability",
@@ -10,7 +60,7 @@
       "description": "CVE-2026-60004 is a remote code execution vulnerability patched by Gitea developers in late July with the release of version 1.27.1. The post CISA Warns of Exploited Gitea Vulnerability appeared first on SecurityWeek.",
       "source": "securityweek.com",
       "first_seen": "2026-08-26T05:23:04Z",
-      "last_seen": "2026-08-26T06:28:05Z"
+      "last_seen": "2026-08-26T07:36:44Z"
     },
     {
       "id": "829e0e150980bb57697fc857c8349a614f8c93bc",
@@ -20,7 +70,7 @@
       "description": "On August 25, 1991, a 21-year-old University of Helsinki student posted a modest note to the Usenet group comp.os.minix. “I’m doing a (free) operating system (just a hobby, won’t be big and professional like gnu) for 386(486) AT clones,” Linus Torvalds wrote, adding that the project had been brewing since April and was starting to […] The post Linux Turns 35 – Hobby Kernel Now Powers Cloud,…",
       "source": "cybersecuritynews.com",
       "first_seen": "2026-08-26T05:23:04Z",
-      "last_seen": "2026-08-26T05:23:04Z"
+      "last_seen": "2026-08-26T07:36:44Z"
     },
     {
       "id": "60bfdcb23277c475a753894d7085f43123523210",
@@ -30,7 +80,7 @@
       "description": "OpenSSL has issued a fresh security advisory disclosing seven vulnerabilities across its cryptographic library, ranging from a heap-corrupting write bug to memory-exhaustion flaws in its QUIC and DTLS implementations. The flaws affect widely deployed branches, including OpenSSL 4.0, 3.6, 3.5, 3.4, and 3.0, and, in some cases, the legacy 1.1.1 line, making patching a priority […] The post…",
       "source": "cybersecuritynews.com",
       "first_seen": "2026-08-26T05:23:04Z",
-      "last_seen": "2026-08-26T05:23:04Z"
+      "last_seen": "2026-08-26T07:36:44Z"
     },
     {
       "id": "8b44ab92fa6555e428cc4ffa3255e7d0e00bfabb",
