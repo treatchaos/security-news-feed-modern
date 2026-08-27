@@ -1,7 +1,21 @@
 {
-  "last_updated": "2026-08-26T21:26:47Z",
-  "count": 35,
+  "last_updated": "2026-08-27T02:23:23Z",
+  "count": 40,
   "items": [
+    {
+      "title": "Critical Avada WordPress theme flaw enables zero-click RCE",
+      "link": "https://www.bleepingcomputer.com/news/security/critical-avada-wordpress-theme-flaw-enables-zero-click-rce/",
+      "date": "2026-08-26T21:33:20Z",
+      "description": "A critical vulnerability chain in the popular Avada theme for WordPress can be exploited by an unauthenticated attacker to execute arbitrary PHP code on the server. [...]",
+      "source": "bleepingcomputer.com"
+    },
+    {
+      "title": "Dark Caracal Adds New Malware to Cyber Espionage Arsenal",
+      "link": "https://www.darkreading.com/cyberattacks-data-breaches/dark-caracal-adds-new-malware-cyber-espionage-arsenal",
+      "date": "2026-08-26T21:33:06Z",
+      "description": "GoCaracal is a new modular malware framework that broadens Dark Caracal's capabilities to steal data and maintain access to victims.",
+      "source": "darkreading.com"
+    },
     {
       "title": "Red Flags That Expose Fake North Korean IT Workers",
       "link": "https://www.darkreading.com/insider-threats/red-flags-expose-fake-north-korean-it-workers",
@@ -77,13 +91,6 @@
       "link": "https://www.bleepingcomputer.com/news/security/hackers-target-microsoft-sharepoint-rce-chain-with-poc-exploit/",
       "date": "2026-08-26T14:47:51Z",
       "description": "Attackers are now targeting a chain of two Microsoft SharePoint vulnerabilities that can allow them to execute arbitrary code on unpatched servers, according to threat intelligence company Defused. [...]",
-      "source": "bleepingcomputer.com"
-    },
-    {
-      "title": "FBI disrupts proxy network enabling Chinese espionage operations",
-      "link": "https://www.bleepingcomputer.com/news/security/fbi-disrupts-proxy-network-enabling-chinese-espionage-operations/",
-      "date": "2026-08-26T14:17:59Z",
-      "description": "The FBI has disrupted infrastructure associated with a technical \"quartermaster\" that provided reconnaissance, proxy management, and operational routing capabilities for Chinese cyber espionage activities. [...]",
       "source": "bleepingcomputer.com"
     },
     {
@@ -171,13 +178,6 @@
       "source": "darkreading.com"
     },
     {
-      "title": "Nigeria Looks to Sovereign Cloud for Cyber, National Security",
-      "link": "https://www.darkreading.com/cybersecurity-operations/nigeria-sovereign-cloud-cyber-national-security",
-      "date": "2026-08-26T08:00:00Z",
-      "description": "The West African nation launched financing, procurement, and infrastructure policies to boost its sovereign cloud initiative and increase domestic technical knowledge.",
-      "source": "darkreading.com"
-    },
-    {
       "title": "ZDI-CAN-32836: Adobe",
       "link": "http://www.zerodayinitiative.com/advisories/upcoming/",
       "date": "2026-08-25T05:00:00Z",
@@ -211,6 +211,41 @@
       "date": "2026-08-25T05:00:00Z",
       "description": "A CVSS score 7.2 AV:N/AC:L/PR:H/UI:N/S:U/C:H/I:H/A:H severity vulnerability discovered by 'Rocco Calvi (@TecR0c) with TecSecurity' was reported to the affected vendor on: 2026-08-25, 1 days ago. The vendor is given until 2026-12-23 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
       "source": "zerodayinitiative.com"
+    },
+    {
+      "title": "Linux Kernel Vulnerability CVE-2024-26582: Public PoC Reaches Root Shell",
+      "link": "https://securityonline.info/linux-kernel-cve-2024-26582-root-shell/",
+      "date": "2026-07-07T07:27:23Z",
+      "description": "A Linux kernel vulnerability (CVE-2024-26582) has a public PoC that turns a TLS use-after-free into a root shell. Details and exploit are out. Related Posts: NTLM Reflection Bypass CVE-2026-24294 Gets Public PoC Exploit Public Details Disclosed: MediaTek t7xx WWAN Flaw FreeBSD Privilege Escalation Flaw CVE-2026-49413 Hits the Linuxulator The post Linux Kernel Vulnerability CVE-2024-26582: Public…",
+      "source": "securityonline.info"
+    },
+    {
+      "title": "NTLM Reflection Bypass CVE-2026-24294 Gets Public PoC Exploit",
+      "link": "https://securityonline.info/ntlm-reflection-cve-2026-24294/",
+      "date": "2026-06-29T08:55:45Z",
+      "description": "Synacktiv publicly disclosed an NTLM reflection bypass, CVE-2026-24294, with PoC exploit code. It gives SYSTEM on Windows Server 2025. Patch now. Related Posts: Linux Kernel Vulnerability CVE-2024-26582: Public PoC Reaches Root Shell Public Details Disclosed: MediaTek t7xx WWAN Flaw FreeBSD Privilege Escalation Flaw CVE-2026-49413 Hits the Linuxulator The post NTLM Reflection Bypass…",
+      "source": "securityonline.info"
+    },
+    {
+      "title": "Public Details Disclosed: MediaTek t7xx WWAN Flaw",
+      "link": "https://securityonline.info/mediatek-t7xx-wwan-flaw/",
+      "date": "2026-06-24T04:07:40Z",
+      "description": "Public details disclose an out-of-bounds read flaw (CVE-2026-43495) in the Linux kernel. This MediaTek t7xx WWAN flaw requires immediate patching. Related Posts: Linux Kernel Vulnerability CVE-2024-26582: Public PoC Reaches Root Shell NTLM Reflection Bypass CVE-2026-24294 Gets Public PoC Exploit FreeBSD Privilege Escalation Flaw CVE-2026-49413 Hits the Linuxulator The post Public Details…",
+      "source": "securityonline.info"
+    },
+    {
+      "title": "FreeBSD Privilege Escalation Flaw CVE-2026-49413 Hits the Linuxulator",
+      "link": "https://securityonline.info/freebsd-privilege-escalation-cve-2026-49413/",
+      "date": "2026-06-15T04:19:09Z",
+      "description": "A FreeBSD privilege escalation flaw (CVE-2026-49413) in the Linuxulator lets local users get root. Public PoC exploit code makes patching urgent. Related Posts: Linux Kernel Vulnerability CVE-2024-26582: Public PoC Reaches Root Shell NTLM Reflection Bypass CVE-2026-24294 Gets Public PoC Exploit Public Details Disclosed: MediaTek t7xx WWAN Flaw The post FreeBSD Privilege Escalation Flaw…",
+      "source": "securityonline.info"
+    },
+    {
+      "title": "Redis DarkReplica Exploit: Full PoC Code and Technical Details Released",
+      "link": "https://securityonline.info/redis-darkreplica-exploit-cve-2026-23631/",
+      "date": "2026-06-08T08:06:42Z",
+      "description": "Full technical details and functional PoC code for the Redis DarkReplica exploit are out. Read our breakdown of this CVE-2026-23631 public disclosure. Related Posts: Linux Kernel Vulnerability CVE-2024-26582: Public PoC Reaches Root Shell NTLM Reflection Bypass CVE-2026-24294 Gets Public PoC Exploit Public Details Disclosed: MediaTek t7xx WWAN Flaw The post Redis DarkReplica Exploit: Full PoC…",
+      "source": "securityonline.info"
     },
     {
       "title": "Student Loan Breach Exposes 2.5M Records",
