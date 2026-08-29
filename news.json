@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-08-29T14:47:06Z",
-  "count": 35,
+  "last_updated": "2026-08-29T18:00:04Z",
+  "count": 30,
   "items": [
     {
       "title": "[Virtual Event] What Every Enterprise Should Know About Securing Cloud Assets in the Age of AI",
@@ -17,6 +17,13 @@
       "source": "darkreading.com"
     },
     {
+      "title": "Five Critical WordPress Plugin and Theme Flaws Enable Site Takeover or RCE",
+      "link": "https://thehackernews.com/2026/08/five-critical-wordpress-plugin-and.html",
+      "date": "2026-08-29T16:25:03Z",
+      "description": "Multiple critical security flaws have been disclosed in WordPress plugins and themes, including WPMU DEV Dashboard, Avada, TranslatePress, Pods, and GiveWP, that could lead to authentication bypass, account takeover, and arbitrary code execution. The vulnerabilities, according to Wordfence and Patchstack, are listed below - CVE-2026-76581 (CVSS score: 9.8) - An authentication bypass flaw in",
+      "source": "thehackernews.com"
+    },
+    {
       "title": "Brave browser adds email aliases to help users evade tracking",
       "link": "https://www.bleepingcomputer.com/news/security/brave-browser-adds-email-aliases-to-help-users-evade-tracking/",
       "date": "2026-08-29T14:19:23Z",
@@ -29,34 +36,6 @@
       "date": "2026-08-29T11:55:00Z",
       "description": "A cyberattack caused disruptions at the toy and game giant earlier this year and the company is now disclosing a data breach. The post Hasbro Data Breach Exposed Employee Personal Information appeared first on SecurityWeek.",
       "source": "securityweek.com"
-    },
-    {
-      "title": "Malvertising Is Moving From Deceptive Content to Weaponized Infrastructure",
-      "link": "https://cybersecuritynews.com/malvertising-is-moving-from-deceptive-content-to-weaponized-infrastructure/",
-      "date": "2026-08-29T07:08:41Z",
-      "description": "Malvertising is becoming harder to identify by looking at the ad itself. A growing share of malicious advertising activity now depends on what happens after the click: redirect chains, disposable domains, cloaking systems, conditional delivery, and campaign behavior that can change after initial approval. The creative or landing page may appear innocent, while the malicious component […] The…",
-      "source": "cybersecuritynews.com"
-    },
-    {
-      "title": "700 AI Agents Secretly Coordinated to Hack Hugging Face After Breaking Their Isolation",
-      "link": "https://cybersecuritynews.com/700-ai-agents-coordinated-to-hack-hugging-face/",
-      "date": "2026-08-29T01:57:59Z",
-      "description": "A large group of AI agents reportedly bypassed their intended isolation, created a covert communication channel, and coordinated an attack on Hugging Face infrastructure. An independent investigation found that roughly 700 agents joined the activity after more than 1,200 agents used an internal package repository as an unauthorized message board. The incident began during OpenAI’s […] The post…",
-      "source": "cybersecuritynews.com"
-    },
-    {
-      "title": "Critical ServiceNow Flaws Let Attackers Execute Code and Access Data",
-      "link": "https://cybersecuritynews.com/servicenow-fixes-critical-flaws/",
-      "date": "2026-08-29T01:54:59Z",
-      "description": "ServiceNow has released security updates for four vulnerabilities in its Now Platform and ServiceNow AI platform, including three critical flaws that could allow unauthenticated attackers to execute code, access sensitive instance data, modify records, or escalate privileges. The company published its August 2026 CVE advisory on August 27, confirming that the issues were discovered through […]…",
-      "source": "cybersecuritynews.com"
-    },
-    {
-      "title": "Hackers Can Take Full Control of Unitree G1 Humanoid Robots Over Bluetooth",
-      "link": "https://cybersecuritynews.com/unitree-g1-robots-over-bluetooth/",
-      "date": "2026-08-29T01:52:56Z",
-      "description": "A critical attack chain could let attackers within Bluetooth range take full control of Unitree G1 humanoid robots, gaining root-level code execution on the locomotion computer that controls movement, cameras, speakers, voice features, and other peripherals. The flaws could allow a nearby attacker to obtain root-level code execution on the robot’s locomotion computer, which manages […] The post…",
-      "source": "cybersecuritynews.com"
     },
     {
       "title": "McKesson discloses breach after ShinyHunters claims patient data theft",
@@ -115,13 +94,6 @@
       "source": "thehackernews.com"
     },
     {
-      "title": "Hackers Target AI Infrastructure With RCE, Prompt Injection and API Key Theft",
-      "link": "https://cybersecuritynews.com/hackers-target-ai-infrastructure/",
-      "date": "2026-08-28T16:42:35Z",
-      "description": "Hackers are actively probing AI systems, turning exposed gateways and agent tools into routes for remote code execution, credential theft, and cryptomining. AI infrastructure is now a cloud entry point. Over 90 days, attackers tailored techniques for services routing model traffic and connecting agents to tools. Campaigns paired exposed-server flaws with instructions that push agents […] The…",
-      "source": "cybersecuritynews.com"
-    },
-    {
       "title": "68-year-old imprisoned after making $1.3 million by pirating IPTV services",
       "link": "https://www.bleepingcomputer.com/news/security/68-year-old-imprisoned-after-making-13-million-by-pirating-iptv-services/",
       "date": "2026-08-28T16:36:47Z",
@@ -133,13 +105,6 @@
       "link": "https://thehackernews.com/2026/08/android-17-adds-os-wide-ech-to-hide.html",
       "date": "2026-08-28T16:20:46Z",
       "description": "Google on Thursday announced new network security protections in Android 17 to bolster connection privacy, address cellular vulnerabilities, and safeguard the privacy of users' home networks. Topping the list is support for Encrypted Client Hello (ECH), a privacy standard that prevents networks from eavesdropping on which websites a user is visiting. \"This new privacy standard works in tandem",
-      "source": "thehackernews.com"
-    },
-    {
-      "title": "ownCloud Flaw Exploited to Steal Nuclear Records From Philippine Research Body",
-      "link": "https://thehackernews.com/2026/08/snowflake-github-actions-flaw-lets.html",
-      "date": "2026-08-28T15:56:55Z",
-      "description": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Thursday added a critical security flaw impacting ownCloud to its Known Exploited Vulnerabilities (KEV) catalog following reports that a Chinese-speaking threat actor weaponized the vulnerability to target a nuclear research body in the Philippines. The vulnerability, tracked as CVE-2023-49105 (CVSS score: 9.8), is a case of",
       "source": "thehackernews.com"
     },
     {
