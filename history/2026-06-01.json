@@ -1,6 +1,6 @@
 {
   "date": "2026-06-01",
-  "count": 17,
+  "count": 5,
   "items": [
     {
       "id": "788b9dc23ca7149011a9d74268fa462f8845cd78",
@@ -50,126 +50,6 @@
       "description": "After a disgruntled security researcher published several zero-day exploits in recent weeks, Microsoft seemingly indicated criminal charges were in order.",
       "source": "darkreading.com",
       "first_seen": "2026-06-01T22:29:26Z",
-      "last_seen": "2026-06-02T18:30:17Z"
-    },
-    {
-      "id": "72be39154d1c47a98e9f4dd47456c3a609475aa0",
-      "title": "WP Maps Pro Vulnerability Exploited to Take Over WordPress Sites",
-      "link": "https://www.securityweek.com/wp-maps-pro-vulnerability-exploited-to-take-over-wordpress-sites/",
-      "date": "2026-06-01T18:19:23Z",
-      "description": "The security defect (CVE-2026-8732) allows unauthenticated attackers to create administrative accounts on the affected installations. The post WP Maps Pro Vulnerability Exploited to Take Over WordPress Sites appeared first on SecurityWeek.",
-      "source": "securityweek.com",
-      "first_seen": "2026-06-01T19:51:08Z",
-      "last_seen": "2026-06-02T10:01:17Z"
-    },
-    {
-      "id": "04be9fedb81e2de099beaea260aca8c70c3d0766",
-      "title": "Dashlane password manager users locked out by brute force attacks",
-      "link": "https://www.bleepingcomputer.com/news/security/dashlane-password-manager-users-locked-out-by-brute-force-attacks/",
-      "date": "2026-06-01T18:17:13Z",
-      "description": "Multiple Dashlane users have been locked out of their accounts following brute-force attacks that attempted logins from distant locations and unknown devices. [...]",
-      "source": "bleepingcomputer.com",
-      "first_seen": "2026-06-01T19:51:08Z",
-      "last_seen": "2026-06-02T10:01:17Z"
-    },
-    {
-      "id": "64ff74333d03d9da004cfc5d1f30a61e6d30d90a",
-      "title": "Dutch Police Dismantle Massive 17-Million-Device Botnet",
-      "link": "https://www.securityweek.com/dutch-police-dismantle-massive-17-million-device-botnet/",
-      "date": "2026-06-01T17:55:26Z",
-      "description": "Dutch authorities seized command-and-control servers tied to a botnet of infected computers, smartphones, and tablets that was allegedly used to power a residential proxy network and facilitate cybercrime. The post Dutch Police Dismantle Massive 17-Million-Device Botnet appeared first on SecurityWeek.",
-      "source": "securityweek.com",
-      "first_seen": "2026-06-01T19:51:08Z",
-      "last_seen": "2026-06-02T10:01:17Z"
-    },
-    {
-      "id": "3e6d7ca9938d635664233161f6181d9a5e52f2de",
-      "title": "Miasma Supply Chain Attack Compromises Red Hat npm Packages with Credential-Stealing Worm",
-      "link": "https://thehackernews.com/2026/06/miasma-supply-chain-attack-compromises.html",
-      "date": "2026-06-01T17:40:28Z",
-      "description": "A new Mini Shai-Hulud supply chain attack campaign, codenamed Miasma, has compromised @redhat-cloud-services packages to steal credentials and secrets from developer machines and deliver a self-propagating worm. \"This is effectively a Mini Shai-Hulud campaign: it uses the same core tactics of install-time execution, credential harvesting, CI/CD targeting, encrypted exfiltration, and potential",
-      "source": "thehackernews.com",
-      "first_seen": "2026-06-01T19:51:08Z",
-      "last_seen": "2026-06-02T18:30:17Z"
-    },
-    {
-      "id": "9593abb78765bb1e44a05df1dd1dc1b235dd761c",
-      "title": "IBM WebSphere Server Vulnerable to Remote Code Execution Attack Via Crafted Request",
-      "link": "https://cybersecuritynews.com/ibm-websphere-server-remote-code-execution/",
-      "date": "2026-06-01T17:09:10Z",
-      "description": "IBM has disclosed a critical security vulnerability in its WebSphere Application Server ecosystem that could allow attackers to execute arbitrary code through specially crafted HTTP requests. The flaw, tracked as CVE-2026-8633, affects environments that use the optional Web Server Plug-ins component, significantly elevating the risk for enterprise deployments that rely on WebSphere…",
-      "source": "cybersecuritynews.com",
-      "first_seen": "2026-06-01T19:51:08Z",
-      "last_seen": "2026-06-02T00:05:38Z"
-    },
-    {
-      "id": "8d645c67bf8638be7f2f30506c1e92e517b7cb75",
-      "title": "WordPress malware campaign hides payloads in Steam profiles",
-      "link": "https://www.bleepingcomputer.com/news/security/wordpress-malware-campaign-hides-payloads-in-steam-profiles/",
-      "date": "2026-06-01T17:04:16Z",
-      "description": "Nearly 2,000 WordPress websites were infected with malware that relies on Steam Community profile comments to hide command-and-control (C2) data. [...]",
-      "source": "bleepingcomputer.com",
-      "first_seen": "2026-06-01T19:51:08Z",
-      "last_seen": "2026-06-02T10:01:17Z"
-    },
-    {
-      "id": "366b1926f54c6efec037fd33c376a90415da1316",
-      "title": "Critical Magento Cache Plugin Vulnerability Enables Remote Code Execution Attacks",
-      "link": "https://cybersecuritynews.com/magento-cache-plugin-vulnerability/",
-      "date": "2026-06-01T17:03:51Z",
-      "description": "A critical security vulnerability has been discovered in a widely used Magento caching plugin that allows attackers to remotely execute malicious code with no login, configuration changes, or admin access required. Security researchers at Sansec uncovered an unauthenticated PHP object injection flaw in Mirasvit Cache Warmer, a full-page cache extension used by thousands of Magento and […] The…",
-      "source": "cybersecuritynews.com",
-      "first_seen": "2026-06-01T19:51:08Z",
-      "last_seen": "2026-06-02T00:05:38Z"
-    },
-    {
-      "id": "ea581ac462e5be0723d516b0e6febeb5e9741173",
-      "title": "Critical MCP Toolbox Vulnerability Impacts Enterprise Database onnectors",
-      "link": "https://cybersecuritynews.com/mcp-toolbox-vulnerability/",
-      "date": "2026-06-01T17:00:32Z",
-      "description": "A newly disclosed vulnerability, tracked as CVE-2026-9739, is raising security concerns across enterprise environments using MCP Toolbox, particularly those that rely on Server-Sent Events (SSE) for database connectivity. The flaw, currently awaiting NVD enrichment, allows attackers to exploit a DNS rebinding weakness that could lead to unauthorized access to backend systems. Security…",
-      "source": "cybersecuritynews.com",
-      "first_seen": "2026-06-01T19:51:08Z",
-      "last_seen": "2026-06-02T00:05:38Z"
-    },
-    {
-      "id": "3f6321253b40fa0c92e3e8b33ae9e2a4e88e30f3",
-      "title": "Android Banking Trojan OverlayPhantom Abuses Accessibility Service to Control Devices",
-      "link": "https://cybersecuritynews.com/android-banking-trojan-overlayphantom/",
-      "date": "2026-06-01T16:09:13Z",
-      "description": "A dangerous new Android banking trojan called OverlayPhantom has been quietly targeting users across ten countries, placing banking credentials, financial data, and cryptocurrency accounts at serious risk. The malware has been active since May 2025 and spreads through malicious links disguised as downloads from trusted, well-known applications. What makes OverlayPhantom particularly alarming is…",
-      "source": "cybersecuritynews.com",
-      "first_seen": "2026-06-01T19:51:08Z",
-      "last_seen": "2026-06-02T00:05:38Z"
-    },
-    {
-      "id": "ebb5f10983b0306f8c88c7a613023b5e2729f09c",
-      "title": "Microsoft Office for the Web and Teams Hit by File Access Outage",
-      "link": "https://cybersecuritynews.com/microsoft-office-teams-file-access/",
-      "date": "2026-06-01T16:07:30Z",
-      "description": "Microsoft experienced a service disruption affecting users’ ability to open files through Office for the Web and Microsoft Teams, with the company confirming resolution after investigating elevated error rates across its online productivity platform. The incident, tracked internally under MO1329446 in the Microsoft 365 Admin Center, began with widespread user reports of file-access failures…",
-      "source": "cybersecuritynews.com",
-      "first_seen": "2026-06-01T19:51:08Z",
-      "last_seen": "2026-06-02T00:05:38Z"
-    },
-    {
-      "id": "4b66cbf795f1ebf04b59c4c1e2398b9ca5f9124a",
-      "title": "Critical Windows Netlogon Vulnerability in Attackers’ Crosshairs",
-      "link": "https://www.securityweek.com/critical-windows-netlogon-vulnerability-in-attackers-crosshairs/",
-      "date": "2026-06-01T15:02:17Z",
-      "description": "Organizations are advised to patch CVE-2026-41089 as soon as possible, given its severity, the potential ongoing exploitation. The post Critical Windows Netlogon Vulnerability in Attackers’ Crosshairs appeared first on SecurityWeek.",
-      "source": "securityweek.com",
-      "first_seen": "2026-06-01T19:51:08Z",
-      "last_seen": "2026-06-02T05:21:39Z"
-    },
-    {
-      "id": "b1e610a7e655c913dfd59624305b8bf3abcd852a",
-      "title": "Patch Now: Another Palo Alto Auth Bypass Bug Under Active Exploit",
-      "link": "https://www.darkreading.com/threat-intelligence/patch-palo-alto-auth-bypass-bug-exploit",
-      "date": "2026-06-01T14:35:51Z",
-      "description": "Exploiting the PAN-OS GlobalProtect VPN vulnerability requires certain conditions, but adversaries have done so in two attack waves that started in mid-May.",
-      "source": "darkreading.com",
-      "first_seen": "2026-06-01T19:51:08Z",
       "last_seen": "2026-06-02T18:30:17Z"
     }
   ]
