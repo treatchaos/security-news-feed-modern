@@ -1,7 +1,7 @@
 {
-  "last_updated": "2026-09-02T11:50:39Z",
+  "last_updated": "2026-09-02T15:33:43Z",
   "retention_days": 90,
-  "count": 3566,
+  "count": 3570,
   "items": [
     {
       "id": "a126f4d9a984171fd8a56b418b8e6e6bad01015f",
@@ -24,6 +24,136 @@
       "last_seen": "2026-08-31T15:38:31Z"
     },
     {
+      "id": "bb0eb919e7ee617f1f87e77a1b64ad1eba6cd7d3",
+      "title": "Dropbox Says 5,000 Accounts Were Compromised Through Lenovo ID Authentication Flaw",
+      "link": "https://cybersecuritynews.com/dropbox-lenovo-id-flaw/",
+      "date": "2026-09-02T14:43:44Z",
+      "description": "Dropbox has disclosed that approximately 5,000 user accounts were compromised in August after attackers exploited a weakness involving its Lenovo ID sign-in integration. The incident highlights the security risks that can arise when cloud platforms trust third-party identity providers without requiring strong, account-level verification before granting access. According to notifications sent to…",
+      "source": "cybersecuritynews.com",
+      "first_seen": "2026-09-02T15:33:43Z",
+      "last_seen": "2026-09-02T15:33:43Z"
+    },
+    {
+      "id": "1feb8abdd25ac142a516bc575d0ecfaba9733f0b",
+      "title": "Russian Hacker Indicted for Using Excel Malware to Target 80,000 Freelancers With TVRAT and DarkVNC",
+      "link": "https://cybersecuritynews.com/russian-hacker-using-excel-malware/",
+      "date": "2026-09-02T14:22:18Z",
+      "description": "A Russian national has been indicted in the United States over an alleged malware operation that targeted roughly 80,000 freelance workers worldwide. Prosecutors say the campaign used fake accounts and booby-trapped Excel documents to turn ordinary work messages into a route for stealing data and taking control of computers. The case highlights how familiar office […] The post Russian Hacker…",
+      "source": "cybersecuritynews.com",
+      "first_seen": "2026-09-02T15:33:43Z",
+      "last_seen": "2026-09-02T15:33:43Z"
+    },
+    {
+      "id": "3b819775b7fe0ff2594db6d4da39d44d77542d83",
+      "title": "Malicious .git Configs Can Make Claude, Codex, Cursor, and Other AI Agents Run Attacker Code",
+      "link": "https://thehackernews.com/2026/09/malicious-git-configs-can-make-claude.html",
+      "date": "2026-09-02T14:06:59Z",
+      "description": "Manifold Security has disclosed eight security flaws across seven command-line AI coding agents in which a repository's own Git configuration names a command that the agent runs on the developer's machine, four of them still unpatched at publication. The command executes as the user, outside the agent's sandbox and without an approval prompt, and exploitation requires the repository to arrive",
+      "source": "thehackernews.com",
+      "first_seen": "2026-09-02T15:33:43Z",
+      "last_seen": "2026-09-02T15:33:43Z"
+    },
+    {
+      "id": "243959e027a919cf26ff7e0fb4f68cbcc2b54851",
+      "title": "Ransomware Hackers Use New TukTuk Malware to Steal Credentials and Disable Security Tools",
+      "link": "https://cybersecuritynews.com/new-tuktuk-malware/",
+      "date": "2026-09-02T14:05:53Z",
+      "description": "Ransomware operators are using a previously undocumented remote-control framework called TukTuk to steal credentials, watch compromised machines, and weaken protections. The discovery links the tool to activity associated with the Gentlemen ransomware operation and shows how one intrusion can combine access theft, surveillance, and defense evasion. Its recovery gives defenders an unusual view of…",
+      "source": "cybersecuritynews.com",
+      "first_seen": "2026-09-02T15:33:43Z",
+      "last_seen": "2026-09-02T15:33:43Z"
+    },
+    {
+      "id": "aed195cb646a5d7c6a24c90c0ebfb809b23006a3",
+      "title": "Ransomware protection for MSPs: A 6-point checklist for faster recovery",
+      "link": "https://www.bleepingcomputer.com/news/security/ransomware-protection-for-msps-a-6-point-checklist-for-faster-recovery/",
+      "date": "2026-09-02T14:02:12Z",
+      "description": "Ransomware resilience requires more than backups or endpoint detection alone. Acronis outlines six capabilities MSPs should test across client environments, from reducing exposure and detecting attacks to preserving recovery points and restoring operations quickly. [...]",
+      "source": "bleepingcomputer.com",
+      "first_seen": "2026-09-02T15:33:43Z",
+      "last_seen": "2026-09-02T15:33:43Z"
+    },
+    {
+      "id": "f4442d43b48570fe19d7fefc2be9f151609c95be",
+      "title": "Malicious Apache Modules Hijack Brazilian Government Site Traffic to Push Betting Pages",
+      "link": "https://thehackernews.com/2026/09/malicious-apache-modules-hijack.html",
+      "date": "2026-09-02T13:44:16Z",
+      "description": "A Chinese-speaking cybercrime cluster known as Gambling Goblin has been observed installing malicious Apache modules on compromised web servers run by Brazilian government and educational institutions, and using them to divert visitors to attacker-controlled pages promoting online gambling and sports betting. Check Point Research said it has tracked the campaign since mid-2025. The modules",
+      "source": "thehackernews.com",
+      "first_seen": "2026-09-02T15:33:43Z",
+      "last_seen": "2026-09-02T15:33:43Z"
+    },
+    {
+      "id": "1b39c8ac19b8fe99e57926c799fcbc80d11d5e94",
+      "title": "BREEZE COMET Hackers Use AI-Assisted Malware to Target Brazil Banks for Fraudulent Transfers",
+      "link": "https://cybersecuritynews.com/breeze-comet-hackers/",
+      "date": "2026-09-02T13:23:38Z",
+      "description": "Brazilian banks and payment companies are facing a more direct form of cybercrime. BREEZE COMET, a financially motivated group formerly tracked as UNC5669, targets the systems that move money instead of individual account holders. Its goal is to gain trusted access and submit fraudulent transfers through legitimate financial channels. The campaign has affected financial services, […] The post…",
+      "source": "cybersecuritynews.com",
+      "first_seen": "2026-09-02T15:33:43Z",
+      "last_seen": "2026-09-02T15:33:43Z"
+    },
+    {
+      "id": "15acf3259af135d50b1d3368b9746bdc28d12194",
+      "title": "BGP Hijack Delivers Malicious Virtualizor Update That Establishes Persistent Root Access",
+      "link": "https://thehackernews.com/2026/09/bgp-hijack-delivers-malicious.html",
+      "date": "2026-09-02T13:12:45Z",
+      "description": "Virtualizor said hackers used a Border Gateway Protocol (BGP) hijack to divert Softaculous traffic. The hackers then used the diverted update traffic to deliver a malicious Virtualizor package to some installations. A hosting-provider account separately said 5 of its 34 checked Virtualizor hypervisors sustained root-level compromise. The incident window ran from approximately August 28 at 20:57",
+      "source": "thehackernews.com",
+      "first_seen": "2026-09-02T15:33:43Z",
+      "last_seen": "2026-09-02T15:33:43Z"
+    },
+    {
+      "id": "603bc30cddcdb7aed93877787eddbd8e246142ce",
+      "title": "Cleo Harmony Flaw Lets Remote Attackers Escalate Privileges via JWT Refresh Token",
+      "link": "https://cybersecuritynews.com/cleo-harmony-vulnerability/",
+      "date": "2026-09-02T13:09:26Z",
+      "description": "A newly disclosed vulnerability in Cleo Harmony, a widely deployed managed file transfer and integration platform, is putting enterprise networks at risk after security researchers confirmed that remote attackers can escalate privileges by tampering with the software’s JWT refresh token mechanism. Tracked as CVE-2026-84115 and rated 8.3 (High) on the CVSS scale, the flaw affects […] The post…",
+      "source": "cybersecuritynews.com",
+      "first_seen": "2026-09-02T15:33:43Z",
+      "last_seen": "2026-09-02T15:33:43Z"
+    },
+    {
+      "id": "3b909b56b7cf11d211bf6e52e1d556bc4de5df4a",
+      "title": "Rockwell Automation Patches Over a Dozen Vulnerabilities Across Products",
+      "link": "https://www.securityweek.com/rockwell-automation-patches-over-a-dozen-vulnerabilities-across-products/",
+      "date": "2026-09-02T12:39:07Z",
+      "description": "The industrial giant has released advisories for its RSLinx Classic, ArmorStart, ControlFLASH, FactoryTalk, and other products. The post Rockwell Automation Patches Over a Dozen Vulnerabilities Across Products appeared first on SecurityWeek.",
+      "source": "securityweek.com",
+      "first_seen": "2026-09-02T15:33:43Z",
+      "last_seen": "2026-09-02T15:33:43Z"
+    },
+    {
+      "id": "0d68d9a9d9f35a97cbf249f55fa1c824c95d4e10",
+      "title": "Dropbox accounts breached through Lenovo email verification flaw",
+      "link": "https://www.bleepingcomputer.com/news/security/dropbox-accounts-breached-through-lenovo-email-verification-flaw/",
+      "date": "2026-09-02T12:30:22Z",
+      "description": "Dropbox is warning some users that an unauthorized party accessed their accounts by exploiting a flaw in Lenovo's email verification process to register fraudulent Lenovo IDs. [...]",
+      "source": "bleepingcomputer.com",
+      "first_seen": "2026-09-02T15:33:43Z",
+      "last_seen": "2026-09-02T15:33:43Z"
+    },
+    {
+      "id": "d614ed60bf4b0094c946549431f0cb296922a18d",
+      "title": "Meta Ads Push StreamRat Android Trojan That Can Gain Near-Complete Device Control",
+      "link": "https://thehackernews.com/2026/09/meta-ads-push-streamrat-android-trojan.html",
+      "date": "2026-09-02T12:22:02Z",
+      "description": "Cybersecurity researchers have disclosed details of a new Android banking trojan called StreamRat that was promoted to Spanish-speaking users through a fake television-streaming campaign on Meta and can give operators near-complete control of infected devices. ThreatFabric said the campaign's advertisement focused on Spain and reached an estimated 570,950 Meta accounts in the European Union",
+      "source": "thehackernews.com",
+      "first_seen": "2026-09-02T15:33:43Z",
+      "last_seen": "2026-09-02T15:33:43Z"
+    },
+    {
+      "id": "9039b8053cd9b99f3fcf706290ff1b1aaf9a2a2a",
+      "title": "Exploit Published for Fresh Cleo Harmony Vulnerability",
+      "link": "https://www.securityweek.com/exploit-published-for-fresh-cleo-harmony-vulnerability/",
+      "date": "2026-09-02T12:18:15Z",
+      "description": "The security defect allows remote attackers to bypass authentication through argument bearer manipulation. The post Exploit Published for Fresh Cleo Harmony Vulnerability appeared first on SecurityWeek.",
+      "source": "securityweek.com",
+      "first_seen": "2026-09-02T15:33:43Z",
+      "last_seen": "2026-09-02T15:33:43Z"
+    },
+    {
       "id": "f116709e0d899b2a31e0287b61741944ec7b8b9f",
       "title": "Anthropic Details Response to Security Incidents, Unveils Enterprise Safeguards",
       "link": "https://www.securityweek.com/anthropic-details-response-to-security-incidents-unveils-enterprise-safeguards/",
@@ -31,7 +161,7 @@
       "description": "Anthropic introduced Enterprise Frontier Safeguards (EFS), a system that combines zero data retention with automated monitoring for misuse. The post Anthropic Details Response to Security Incidents, Unveils Enterprise Safeguards appeared first on SecurityWeek.",
       "source": "securityweek.com",
       "first_seen": "2026-09-02T11:50:39Z",
-      "last_seen": "2026-09-02T11:50:39Z"
+      "last_seen": "2026-09-02T15:33:43Z"
     },
     {
       "id": "73725ecf8ba454b6a0b94cf546daa026f8eacc14",
@@ -51,7 +181,17 @@
       "description": "Using a technically valid TLS certificate for Softaculous’ domains, a threat actor diverted traffic to fake software updates. The post Malicious Virtualizor Update Served via BGP Hijacking appeared first on SecurityWeek.",
       "source": "securityweek.com",
       "first_seen": "2026-09-02T11:50:39Z",
-      "last_seen": "2026-09-02T11:50:39Z"
+      "last_seen": "2026-09-02T15:33:43Z"
+    },
+    {
+      "id": "fb54bf01e5df503f6d24bbf3e834942699d5594e",
+      "title": "How to Secure Enterprise AI: From Adoption to Incident Readiness",
+      "link": "https://thehackernews.com/2026/09/how-to-secure-enterprise-ai-from.html",
+      "date": "2026-09-02T11:30:00Z",
+      "description": "The debate about whether AI delivers business value is over. The challenge now is implementing it at scale and securely across every function while meeting board-level pressure to move fast. Organizations must focus on adopting AI at business speed without losing control of cyber risk. Download the full eBook here. The Business Reality In Sygnia’s 2026 CISO Survey Report, which",
+      "source": "thehackernews.com",
+      "first_seen": "2026-09-02T15:33:43Z",
+      "last_seen": "2026-09-02T15:33:43Z"
     },
     {
       "id": "c86f2d6a6296129872a89111c4d1da663ec073cd",
@@ -74,6 +214,16 @@
       "last_seen": "2026-09-02T11:50:39Z"
     },
     {
+      "id": "00b779d0ff93065a799f3b39bce62424af532449",
+      "title": "OpenAI’s Astra Crosses ‘Critical’ Cyber Threshold After Finding Zero-Days",
+      "link": "https://www.securityweek.com/openais-astra-becomes-first-model-to-cross-critical-cybersecurity-threshold/",
+      "date": "2026-09-02T10:38:13Z",
+      "description": "The designation applies when a model can independently find and exploit zero-day vulnerabilities across many well-defended systems. The post OpenAI’s Astra Crosses ‘Critical’ Cyber Threshold After Finding Zero-Days appeared first on SecurityWeek.",
+      "source": "securityweek.com",
+      "first_seen": "2026-09-02T15:33:43Z",
+      "last_seen": "2026-09-02T15:33:43Z"
+    },
+    {
       "id": "2574a1d8e5a09c7f1b96d0ca5dc791d01d1e1b6c",
       "title": "Microsoft Defender flags legitimate Google search links as malicious",
       "link": "https://www.bleepingcomputer.com/news/security/microsoft-defender-flags-legitimate-google-search-links-as-malicious/",
@@ -81,7 +231,7 @@
       "description": "Microsoft is investigating an issue causing the Defender for Office 365 security software to mistakenly block access to legitimate Google search links. [...]",
       "source": "bleepingcomputer.com",
       "first_seen": "2026-09-02T11:50:39Z",
-      "last_seen": "2026-09-02T11:50:39Z"
+      "last_seen": "2026-09-02T15:33:43Z"
     },
     {
       "id": "27cc4365fffef93c2f912afa35c15af148d0ad03",
@@ -141,7 +291,7 @@
       "description": "A California federal grand jury has indicted a Russian national for his role in a phishing campaign that infected thousands of freelancers with TVRAT and DarkVNC malware. [...]",
       "source": "bleepingcomputer.com",
       "first_seen": "2026-09-02T11:50:39Z",
-      "last_seen": "2026-09-02T11:50:39Z"
+      "last_seen": "2026-09-02T15:33:43Z"
     },
     {
       "id": "ed08c7d5e574589a1ce10bf566e57b08939078a9",
@@ -181,7 +331,7 @@
       "description": "International law enforcement agencies and private partners have seized Sality malware infrastructure in a joint action aiming to disrupt and take down the peer-to-peer (P2P) botnet. [...]",
       "source": "bleepingcomputer.com",
       "first_seen": "2026-09-02T11:50:39Z",
-      "last_seen": "2026-09-02T11:50:39Z"
+      "last_seen": "2026-09-02T15:33:43Z"
     },
     {
       "id": "3f9d82bc633022c424d4a7c263821f4a5cab0e4a",
@@ -228,10 +378,10 @@
       "title": "Old, Unpatched Flaws Give Attackers Access to Philippines Nuclear Agency",
       "link": "https://www.darkreading.com/cyberattacks-data-breaches/old-unpatched-flaws-attackers-philippines-nuclear-agency",
       "date": "2026-09-02T01:00:00Z",
-      "description": "Threat actors exploited commodity in ownCloud to gain initial access, resulting in stolen reactor databases, personnel records, and credential stores.",
+      "description": "Threat actors exploited commodity vulnerabilities in ownCloud to gain initial access, resulting in stolen reactor databases, personnel records, and credential stores.",
       "source": "darkreading.com",
       "first_seen": "2026-09-02T01:52:17Z",
-      "last_seen": "2026-09-02T11:50:39Z"
+      "last_seen": "2026-09-02T15:33:43Z"
     },
     {
       "id": "f515db462ffd9d57a31932e929a7aa5436f07529",
@@ -244,6 +394,16 @@
       "last_seen": "2026-09-02T11:50:39Z"
     },
     {
+      "id": "a5974dea53c13f6175384c096cac3996cea872a9",
+      "title": "Attackers Pounce on Critical Artifactory Bug Following Disclosure",
+      "link": "https://www.darkreading.com/application-security/attackers-pounce-critical-artifactory-flaw-disclosure",
+      "date": "2026-09-01T21:05:53Z",
+      "description": "CVE-2026-82329 is an authentication bypass flaw in JFrog's repository manager that enables bad actors to gain admin-level access on affected systems.",
+      "source": "darkreading.com",
+      "first_seen": "2026-09-02T15:33:43Z",
+      "last_seen": "2026-09-02T15:33:43Z"
+    },
+    {
       "id": "f8fee85766590ee186989f40672c94f99e115305",
       "title": "Stronger Security Drives Ransomware Groups to Recruit From Within",
       "link": "https://www.darkreading.com/cyber-risk/stronger-security-drives-ransomware-groups-to-recruit-from-within",
@@ -251,7 +411,7 @@
       "description": "Some security researchers have observed an uptick in insider-assisted ransomware attacks, but malicious insiders pose other threats that cost companies millions.",
       "source": "darkreading.com",
       "first_seen": "2026-09-01T21:34:38Z",
-      "last_seen": "2026-09-02T11:50:39Z"
+      "last_seen": "2026-09-02T15:33:43Z"
     },
     {
       "id": "7cacb11566839fc616a7ebf6a6eba65245341097",
@@ -274,6 +434,16 @@
       "last_seen": "2026-09-02T11:50:39Z"
     },
     {
+      "id": "83700779067fe6e8fe70ba6fe1ddf7bccf4aa3a1",
+      "title": "Critical Langflow Vulnerability Exploited as Attacks on AI Platform Rise",
+      "link": "https://www.darkreading.com/vulnerabilities-threats/critical-langflow-flaw-exploited-attacks-rise",
+      "date": "2026-09-01T20:48:52Z",
+      "description": "The attacks targeting CVE-2026-0768 are the latest threat against the low-code AI development platform, which is receiving more attention from adversaries this year.",
+      "source": "darkreading.com",
+      "first_seen": "2026-09-02T15:33:43Z",
+      "last_seen": "2026-09-02T15:33:43Z"
+    },
+    {
       "id": "97b44bcd330b49dd567e2451d627544f5d054c61",
       "title": "Palo Alto Networks Acquires AI Agent Platform Console",
       "link": "https://www.securityweek.com/palo-alto-networks-acquires-ai-agent-platform-console/",
@@ -291,7 +461,7 @@
       "description": "In one attack, threat actors stole an API key that ultimately led to the consumption of $600,000 in public AI model credits for the security nonprofit.",
       "source": "darkreading.com",
       "first_seen": "2026-09-01T21:34:38Z",
-      "last_seen": "2026-09-02T11:50:39Z"
+      "last_seen": "2026-09-02T15:33:43Z"
     },
     {
       "id": "48fdfd437cbf3daaee6fd5a0f67a9edddcc78fe1",
@@ -1441,7 +1611,7 @@
       "description": "A CVSS score 7.8 AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H severity vulnerability discovered by 'Nitesh Surana (niteshsurana.com) of TrendAI Research' was reported to the affected vendor on: 2026-08-28, 0 days ago. The vendor is given until 2026-12-26 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
       "source": "zerodayinitiative.com",
       "first_seen": "2026-08-29T02:35:07Z",
-      "last_seen": "2026-09-02T11:50:39Z"
+      "last_seen": "2026-09-02T15:33:43Z"
     },
     {
       "id": "d6ac20f029ad893b0955e17597f978fe2ab0f733",
@@ -1451,7 +1621,7 @@
       "description": "A CVSS score 7.8 AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H severity vulnerability discovered by 'YJK(@YJK0805) of ZUSO ART' was reported to the affected vendor on: 2026-08-28, 0 days ago. The vendor is given until 2026-12-26 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
       "source": "zerodayinitiative.com",
       "first_seen": "2026-08-29T02:35:07Z",
-      "last_seen": "2026-09-02T11:50:39Z"
+      "last_seen": "2026-09-02T15:33:43Z"
     },
     {
       "id": "1607cd33deacb6f506bb3400bea6cf865dd92b2a",
@@ -1461,7 +1631,7 @@
       "description": "A CVSS score 8.0 AV:A/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H severity vulnerability discovered by 'Flydragon @ TRAPA Security' was reported to the affected vendor on: 2026-08-28, 0 days ago. The vendor is given until 2026-12-26 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
       "source": "zerodayinitiative.com",
       "first_seen": "2026-08-29T02:35:07Z",
-      "last_seen": "2026-09-02T11:50:39Z"
+      "last_seen": "2026-09-02T15:33:43Z"
     },
     {
       "id": "31307eb108fc8d30667c5db418098ea0328f1289",
@@ -1471,7 +1641,7 @@
       "description": "A CVSS score 7.8 AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H severity vulnerability discovered by 'ub1cu0' was reported to the affected vendor on: 2026-08-28, 0 days ago. The vendor is given until 2026-12-26 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
       "source": "zerodayinitiative.com",
       "first_seen": "2026-08-29T02:35:07Z",
-      "last_seen": "2026-09-02T11:50:39Z"
+      "last_seen": "2026-09-02T15:33:43Z"
     },
     {
       "id": "15f97f67b84f5b774d34ee79686615c069266d90",
@@ -1481,7 +1651,7 @@
       "description": "A CVSS score 5.0 AV:N/AC:L/PR:L/UI:N/S:C/C:L/I:N/A:N severity vulnerability discovered by 'Connor Kastner (ret2c)' was reported to the affected vendor on: 2026-08-28, 0 days ago. The vendor is given until 2026-12-26 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
       "source": "zerodayinitiative.com",
       "first_seen": "2026-08-29T02:35:07Z",
-      "last_seen": "2026-09-02T11:50:39Z"
+      "last_seen": "2026-09-02T15:33:43Z"
     },
     {
       "id": "8419ebf4bed36762cf526004714eec2a3ff2f287",
@@ -35454,76 +35624,6 @@
       "last_seen": "2026-06-05T05:09:19Z"
     },
     {
-      "id": "b1cd729f906766a6872d60ebffce6c1833c59e13",
-      "title": "Weaponized ChatGPT Download Site Delivers Malware Via Sponsored Search Results",
-      "link": "https://cybersecuritynews.com/weaponized-chatgpt-download-site-delivers-malware/",
-      "date": "2026-06-04T13:46:12Z",
-      "description": "A new malvertising campaign is exploiting ChatGPT’s popularity by promoting a weaponized fake download site via sponsored search results, delivering malware to both Windows and macOS users. Security researchers from Evalian’s SOC team identified the operation, which leverages convincing OpenAI branding and search engine ads to lure users actively seeking legitimate AI tools. The campaign […] The…",
-      "source": "cybersecuritynews.com",
-      "first_seen": "2026-06-04T13:51:46Z",
-      "last_seen": "2026-06-04T16:42:13Z"
-    },
-    {
-      "id": "33c71f85dfd62877e5d1e24b3e599a61d3a5bd48",
-      "title": "Microsoft blames unexpected Windows driver updates on caching issue",
-      "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-blames-unexpected-windows-driver-updates-on-caching-issue/",
-      "date": "2026-06-04T13:41:42Z",
-      "description": "On Wednesday, Microsoft fixed an issue that caused some Windows devices to install driver updates without notice despite policies configured to prevent auto-updates. [...]",
-      "source": "bleepingcomputer.com",
-      "first_seen": "2026-06-04T13:51:46Z",
-      "last_seen": "2026-06-04T19:12:23Z"
-    },
-    {
-      "id": "dfdd160446a5f9297e5b0d1d06e078336ff47b2c",
-      "title": "Kali365 PhaaS Operation Expands Beyond Microsoft 365 to Target Okta and MAX Messenger",
-      "link": "https://cybersecuritynews.com/kali365-phaas-operation-expands-beyond-microsoft-365/",
-      "date": "2026-06-04T13:01:57Z",
-      "description": "A new and fast-growing phishing operation is making waves in the cybersecurity world, and it is moving far beyond its original targets. Kali365, a phishing-as-a-service (PhaaS) platform first spotted in April 2026, was initially built to steal Microsoft 365 login tokens by tricking users into authorizing fake device login requests. Now it has grown into […] The post Kali365 PhaaS Operation…",
-      "source": "cybersecuritynews.com",
-      "first_seen": "2026-06-04T13:51:46Z",
-      "last_seen": "2026-06-04T16:42:13Z"
-    },
-    {
-      "id": "d040ce8c7cd89cbbef20551bd04cb427f2748876",
-      "title": "Gemini Voice Assistant Hijacked via Messaging Notifications",
-      "link": "https://www.securityweek.com/gemini-voice-assistant-hijacked-via-messaging-notifications/",
-      "date": "2026-06-04T12:57:37Z",
-      "description": "Attackers could have triggered dangerous actions, including controlling smart home devices via Google Home and starting Zoom video calls. The post Gemini Voice Assistant Hijacked via Messaging Notifications appeared first on SecurityWeek.",
-      "source": "securityweek.com",
-      "first_seen": "2026-06-04T13:51:46Z",
-      "last_seen": "2026-06-05T05:09:19Z"
-    },
-    {
-      "id": "8436d682440ac595077daeb13f8e736758546f52",
-      "title": "Payouts King Ransomware Evades EDR With Obfuscation and Direct System Calls",
-      "link": "https://cybersecuritynews.com/payouts-king-ransomware-evades-edr/",
-      "date": "2026-06-04T12:51:47Z",
-      "description": "A new ransomware group known as Payouts King has quietly been building a reputation since it first appeared in April 2025. While it spent most of last year flying under the radar, early 2026 brought a noticeable spike in activity tied to former affiliates of the now-defunct BlackBasta operation. The group targets organizations through well-worn […] The post Payouts King Ransomware Evades EDR…",
-      "source": "cybersecuritynews.com",
-      "first_seen": "2026-06-04T13:51:46Z",
-      "last_seen": "2026-06-04T16:42:13Z"
-    },
-    {
-      "id": "a76a4f476b264301209f0e55f0bab62e27933f1f",
-      "title": "Police dismantles fake ID marketplace used by migrant smugglers",
-      "link": "https://www.bleepingcomputer.com/news/security/police-dismantles-fake-id-marketplace-used-by-migrant-smugglers/",
-      "date": "2026-06-04T12:29:12Z",
-      "description": "French and Spanish authorities took down an online marketplace selling fake identity documents to migrant smuggling rings operating within the European Union. [...]",
-      "source": "bleepingcomputer.com",
-      "first_seen": "2026-06-04T13:51:46Z",
-      "last_seen": "2026-06-04T16:42:13Z"
-    },
-    {
-      "id": "3bf9aa6d88259e50c7c970aa51f0b722fdb28db9",
-      "title": "China-Linked TA4922 Expands Phishing Attacks to UK, Germany, Italy, and South Africa",
-      "link": "https://thehackernews.com/2026/06/china-linked-ta4922-expands-phishing.html",
-      "date": "2026-06-04T12:22:25Z",
-      "description": "A new China-linked cybercrime group known as TA4922 has expanded its targeting focus to target European organizations in the U.K., Germany, Italy, and South Africa. These efforts have been complemented by a \"rapid operational tempo\" and a continually evolving malware arsenal comprising known families like ValleyRAT (aka Winos 4.0) and Atlas RAT (aka AtlasCross RAT), as well as previously",
-      "source": "thehackernews.com",
-      "first_seen": "2026-06-04T13:51:46Z",
-      "last_seen": "2026-06-04T16:42:13Z"
-    },
-    {
       "id": "4b920d17b501f08ec0c3e25be7899571fc736818",
       "title": "China-Linked TA4922 Expands Phishing Attacks to U.K., Germany, Italy, and South Africa",
       "link": "https://thehackernews.com/2026/06/china-linked-ta4922-expands-phishing.html",
@@ -35532,66 +35632,6 @@
       "source": "thehackernews.com",
       "first_seen": "2026-06-04T19:12:23Z",
       "last_seen": "2026-06-05T05:09:19Z"
-    },
-    {
-      "id": "d6db8a8e2d291acc97fdb8d56cddf37de84a02af",
-      "title": "Mirasvit Vulnerability Exploited to Execute Code on Magento Servers",
-      "link": "https://www.securityweek.com/mirasvit-vulnerability-exploited-to-execute-code-on-magento-servers/",
-      "date": "2026-06-04T12:10:02Z",
-      "description": "A flaw in the Full Page Cache Warmer extension can be exploited without authentication via serialized PHP object payloads. The post Mirasvit Vulnerability Exploited to Execute Code on Magento Servers appeared first on SecurityWeek.",
-      "source": "securityweek.com",
-      "first_seen": "2026-06-04T13:51:46Z",
-      "last_seen": "2026-06-05T05:09:19Z"
-    },
-    {
-      "id": "e78fe36e2e87369bcebd60ea32ea530f2cb75687",
-      "title": "Hackers Actively Exploiting WordPress Plugin Vulnerability to Inject Malicious PHP Code",
-      "link": "https://cybersecuritynews.com/wordpress-plugin-vulnerability-exploit/",
-      "date": "2026-06-04T12:01:36Z",
-      "description": "Hackers are actively exploiting a critical remote code execution (RCE) vulnerability in the Everest Forms Pro WordPress plugin, allowing unauthenticated attackers to inject and execute arbitrary PHP code on vulnerable websites. The flaw, tracked as CVE-2026-3300 with a CVSS score of 9.8, affects all versions up to 1.9.12 and has already been observed in widespread […] The post Hackers Actively…",
-      "source": "cybersecuritynews.com",
-      "first_seen": "2026-06-04T13:51:46Z",
-      "last_seen": "2026-06-04T13:51:46Z"
-    },
-    {
-      "id": "690de0fd4d577d319864d05e68ba239ec0cc650c",
-      "title": "Hackers Abusing Microsoft Teams and Google Drive to Deploy Remote Access Malware",
-      "link": "https://cybersecuritynews.com/microsoft-teams-and-google-drive-abused/",
-      "date": "2026-06-04T11:55:45Z",
-      "description": "Hackers are increasingly abusing trusted enterprise platforms such as Microsoft Teams and Google Drive to deploy stealthy remote access malware, with a newly observed campaign leveraging social engineering and cloud-based command-and-control to evade detection. In early April 2026, eSentire’s Threat Response Unit (TRU) identified a targeted intrusion against a legal sector organization in which…",
-      "source": "cybersecuritynews.com",
-      "first_seen": "2026-06-04T13:51:46Z",
-      "last_seen": "2026-06-04T13:51:46Z"
-    },
-    {
-      "id": "3b1a3fa29e1aa0d26570fdc0f8372b8b3bb4bb34",
-      "title": "Chinese Cybercrime Group in Spotlight for Record Campaign Pace",
-      "link": "https://www.securityweek.com/chinese-cybercrime-group-ta4922-in-spotlight-for-record-campaign-pace/",
-      "date": "2026-06-04T11:29:28Z",
-      "description": "Relying on social engineering, the hacking group engages in credential phishing, malware distribution, and fraud activities. The post Chinese Cybercrime Group in Spotlight for Record Campaign Pace appeared first on SecurityWeek.",
-      "source": "securityweek.com",
-      "first_seen": "2026-06-04T13:51:46Z",
-      "last_seen": "2026-06-04T13:51:46Z"
-    },
-    {
-      "id": "9a17757ed686797cf514a0435a394ecfc5c44bca",
-      "title": "FlutterShell Backdoor Spreads to macOS via Malicious Google and YouTube Ads",
-      "link": "https://thehackernews.com/2026/06/fluttershell-backdoor-spreads-to-macos.html",
-      "date": "2026-06-04T11:19:53Z",
-      "description": "Cybersecurity researchers have shed light on a macOS malvertising campaign codenamed Operation FlutterBridge that spreads a new backdoor called FlutterShell. According to Palo Alto Networks Unit 42, the campaign is said to be the next stage of a previously reported activity cluster dubbed JSCoreRunner (aka FileRipple) in late August 2025. The cybercrime group behind the two attack chains is",
-      "source": "thehackernews.com",
-      "first_seen": "2026-06-04T13:51:46Z",
-      "last_seen": "2026-06-04T16:42:13Z"
-    },
-    {
-      "id": "64d312db8ee31d139db75a354726e456c9942b00",
-      "title": "Cisco warns of critical Unified CM flaw with PoC exploit code",
-      "link": "https://www.bleepingcomputer.com/news/security/cisco-warns-of-critical-unified-cm-flaw-with-poc-exploit-code/",
-      "date": "2026-06-04T11:09:50Z",
-      "description": "Cisco has released security updates to patch a critical-severity Unified Communications Manager (Unified CM) flaw that allows attackers to gain root privileges. [...]",
-      "source": "bleepingcomputer.com",
-      "first_seen": "2026-06-04T13:51:46Z",
-      "last_seen": "2026-06-04T13:51:46Z"
     },
     {
       "id": "9f2641698150ad70e1155b2898439d0490da10b8",
@@ -35621,7 +35661,7 @@
       "description": "2.5 million people were affected, in a breach that could spell more trouble down the line.",
       "source": "threatpost.com",
       "first_seen": "2026-08-08T14:21:59Z",
-      "last_seen": "2026-09-02T11:50:39Z"
+      "last_seen": "2026-09-02T15:33:43Z"
     },
     {
       "id": "4140c7a34b0ba94ad2e6b0cae9f59b0cb9bfffea",
@@ -35631,7 +35671,7 @@
       "description": "Researchers uncover a watering hole attack likely carried out by APT TA423, which attempts to plant the ScanBox JavaScript-based reconnaissance tool.",
       "source": "threatpost.com",
       "first_seen": "2026-08-08T14:21:59Z",
-      "last_seen": "2026-09-02T11:50:39Z"
+      "last_seen": "2026-09-02T15:33:43Z"
     },
     {
       "id": "9359ee40a641a4b565080313045f1d7e7fe6552b",
@@ -35641,7 +35681,7 @@
       "description": "Over 130 companies tangled in sprawling phishing campaign that spoofed a multi-factor authentication system.",
       "source": "threatpost.com",
       "first_seen": "2026-08-08T14:21:59Z",
-      "last_seen": "2026-09-02T11:50:39Z"
+      "last_seen": "2026-09-02T15:33:43Z"
     },
     {
       "id": "b4ccef0737cd4050d65241bf754072030b6b5e6a",
@@ -35651,7 +35691,7 @@
       "description": "Lockbit is by far this summer’s most prolific ransomware group, trailed by two offshoots of the Conti group.",
       "source": "threatpost.com",
       "first_seen": "2026-08-08T14:21:59Z",
-      "last_seen": "2026-09-02T11:50:39Z"
+      "last_seen": "2026-09-02T15:33:43Z"
     },
     {
       "id": "12ee113fc8fce91f6d7fb28deab2b1ad20061ec7",
@@ -35661,7 +35701,7 @@
       "description": "Tens of thousands of cameras have failed to patch a critical, 11-month-old CVE, leaving thousands of organizations exposed.",
       "source": "threatpost.com",
       "first_seen": "2026-08-08T14:21:59Z",
-      "last_seen": "2026-09-02T11:50:39Z"
+      "last_seen": "2026-09-02T15:33:43Z"
     }
   ]
 }

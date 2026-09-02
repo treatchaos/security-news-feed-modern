@@ -1,7 +1,137 @@
 {
   "date": "2026-09-02",
-  "count": 21,
+  "count": 38,
   "items": [
+    {
+      "id": "bb0eb919e7ee617f1f87e77a1b64ad1eba6cd7d3",
+      "title": "Dropbox Says 5,000 Accounts Were Compromised Through Lenovo ID Authentication Flaw",
+      "link": "https://cybersecuritynews.com/dropbox-lenovo-id-flaw/",
+      "date": "2026-09-02T14:43:44Z",
+      "description": "Dropbox has disclosed that approximately 5,000 user accounts were compromised in August after attackers exploited a weakness involving its Lenovo ID sign-in integration. The incident highlights the security risks that can arise when cloud platforms trust third-party identity providers without requiring strong, account-level verification before granting access. According to notifications sent to…",
+      "source": "cybersecuritynews.com",
+      "first_seen": "2026-09-02T15:33:43Z",
+      "last_seen": "2026-09-02T15:33:43Z"
+    },
+    {
+      "id": "1feb8abdd25ac142a516bc575d0ecfaba9733f0b",
+      "title": "Russian Hacker Indicted for Using Excel Malware to Target 80,000 Freelancers With TVRAT and DarkVNC",
+      "link": "https://cybersecuritynews.com/russian-hacker-using-excel-malware/",
+      "date": "2026-09-02T14:22:18Z",
+      "description": "A Russian national has been indicted in the United States over an alleged malware operation that targeted roughly 80,000 freelance workers worldwide. Prosecutors say the campaign used fake accounts and booby-trapped Excel documents to turn ordinary work messages into a route for stealing data and taking control of computers. The case highlights how familiar office […] The post Russian Hacker…",
+      "source": "cybersecuritynews.com",
+      "first_seen": "2026-09-02T15:33:43Z",
+      "last_seen": "2026-09-02T15:33:43Z"
+    },
+    {
+      "id": "3b819775b7fe0ff2594db6d4da39d44d77542d83",
+      "title": "Malicious .git Configs Can Make Claude, Codex, Cursor, and Other AI Agents Run Attacker Code",
+      "link": "https://thehackernews.com/2026/09/malicious-git-configs-can-make-claude.html",
+      "date": "2026-09-02T14:06:59Z",
+      "description": "Manifold Security has disclosed eight security flaws across seven command-line AI coding agents in which a repository's own Git configuration names a command that the agent runs on the developer's machine, four of them still unpatched at publication. The command executes as the user, outside the agent's sandbox and without an approval prompt, and exploitation requires the repository to arrive",
+      "source": "thehackernews.com",
+      "first_seen": "2026-09-02T15:33:43Z",
+      "last_seen": "2026-09-02T15:33:43Z"
+    },
+    {
+      "id": "243959e027a919cf26ff7e0fb4f68cbcc2b54851",
+      "title": "Ransomware Hackers Use New TukTuk Malware to Steal Credentials and Disable Security Tools",
+      "link": "https://cybersecuritynews.com/new-tuktuk-malware/",
+      "date": "2026-09-02T14:05:53Z",
+      "description": "Ransomware operators are using a previously undocumented remote-control framework called TukTuk to steal credentials, watch compromised machines, and weaken protections. The discovery links the tool to activity associated with the Gentlemen ransomware operation and shows how one intrusion can combine access theft, surveillance, and defense evasion. Its recovery gives defenders an unusual view of…",
+      "source": "cybersecuritynews.com",
+      "first_seen": "2026-09-02T15:33:43Z",
+      "last_seen": "2026-09-02T15:33:43Z"
+    },
+    {
+      "id": "aed195cb646a5d7c6a24c90c0ebfb809b23006a3",
+      "title": "Ransomware protection for MSPs: A 6-point checklist for faster recovery",
+      "link": "https://www.bleepingcomputer.com/news/security/ransomware-protection-for-msps-a-6-point-checklist-for-faster-recovery/",
+      "date": "2026-09-02T14:02:12Z",
+      "description": "Ransomware resilience requires more than backups or endpoint detection alone. Acronis outlines six capabilities MSPs should test across client environments, from reducing exposure and detecting attacks to preserving recovery points and restoring operations quickly. [...]",
+      "source": "bleepingcomputer.com",
+      "first_seen": "2026-09-02T15:33:43Z",
+      "last_seen": "2026-09-02T15:33:43Z"
+    },
+    {
+      "id": "f4442d43b48570fe19d7fefc2be9f151609c95be",
+      "title": "Malicious Apache Modules Hijack Brazilian Government Site Traffic to Push Betting Pages",
+      "link": "https://thehackernews.com/2026/09/malicious-apache-modules-hijack.html",
+      "date": "2026-09-02T13:44:16Z",
+      "description": "A Chinese-speaking cybercrime cluster known as Gambling Goblin has been observed installing malicious Apache modules on compromised web servers run by Brazilian government and educational institutions, and using them to divert visitors to attacker-controlled pages promoting online gambling and sports betting. Check Point Research said it has tracked the campaign since mid-2025. The modules",
+      "source": "thehackernews.com",
+      "first_seen": "2026-09-02T15:33:43Z",
+      "last_seen": "2026-09-02T15:33:43Z"
+    },
+    {
+      "id": "1b39c8ac19b8fe99e57926c799fcbc80d11d5e94",
+      "title": "BREEZE COMET Hackers Use AI-Assisted Malware to Target Brazil Banks for Fraudulent Transfers",
+      "link": "https://cybersecuritynews.com/breeze-comet-hackers/",
+      "date": "2026-09-02T13:23:38Z",
+      "description": "Brazilian banks and payment companies are facing a more direct form of cybercrime. BREEZE COMET, a financially motivated group formerly tracked as UNC5669, targets the systems that move money instead of individual account holders. Its goal is to gain trusted access and submit fraudulent transfers through legitimate financial channels. The campaign has affected financial services, […] The post…",
+      "source": "cybersecuritynews.com",
+      "first_seen": "2026-09-02T15:33:43Z",
+      "last_seen": "2026-09-02T15:33:43Z"
+    },
+    {
+      "id": "15acf3259af135d50b1d3368b9746bdc28d12194",
+      "title": "BGP Hijack Delivers Malicious Virtualizor Update That Establishes Persistent Root Access",
+      "link": "https://thehackernews.com/2026/09/bgp-hijack-delivers-malicious.html",
+      "date": "2026-09-02T13:12:45Z",
+      "description": "Virtualizor said hackers used a Border Gateway Protocol (BGP) hijack to divert Softaculous traffic. The hackers then used the diverted update traffic to deliver a malicious Virtualizor package to some installations. A hosting-provider account separately said 5 of its 34 checked Virtualizor hypervisors sustained root-level compromise. The incident window ran from approximately August 28 at 20:57",
+      "source": "thehackernews.com",
+      "first_seen": "2026-09-02T15:33:43Z",
+      "last_seen": "2026-09-02T15:33:43Z"
+    },
+    {
+      "id": "603bc30cddcdb7aed93877787eddbd8e246142ce",
+      "title": "Cleo Harmony Flaw Lets Remote Attackers Escalate Privileges via JWT Refresh Token",
+      "link": "https://cybersecuritynews.com/cleo-harmony-vulnerability/",
+      "date": "2026-09-02T13:09:26Z",
+      "description": "A newly disclosed vulnerability in Cleo Harmony, a widely deployed managed file transfer and integration platform, is putting enterprise networks at risk after security researchers confirmed that remote attackers can escalate privileges by tampering with the software’s JWT refresh token mechanism. Tracked as CVE-2026-84115 and rated 8.3 (High) on the CVSS scale, the flaw affects […] The post…",
+      "source": "cybersecuritynews.com",
+      "first_seen": "2026-09-02T15:33:43Z",
+      "last_seen": "2026-09-02T15:33:43Z"
+    },
+    {
+      "id": "3b909b56b7cf11d211bf6e52e1d556bc4de5df4a",
+      "title": "Rockwell Automation Patches Over a Dozen Vulnerabilities Across Products",
+      "link": "https://www.securityweek.com/rockwell-automation-patches-over-a-dozen-vulnerabilities-across-products/",
+      "date": "2026-09-02T12:39:07Z",
+      "description": "The industrial giant has released advisories for its RSLinx Classic, ArmorStart, ControlFLASH, FactoryTalk, and other products. The post Rockwell Automation Patches Over a Dozen Vulnerabilities Across Products appeared first on SecurityWeek.",
+      "source": "securityweek.com",
+      "first_seen": "2026-09-02T15:33:43Z",
+      "last_seen": "2026-09-02T15:33:43Z"
+    },
+    {
+      "id": "0d68d9a9d9f35a97cbf249f55fa1c824c95d4e10",
+      "title": "Dropbox accounts breached through Lenovo email verification flaw",
+      "link": "https://www.bleepingcomputer.com/news/security/dropbox-accounts-breached-through-lenovo-email-verification-flaw/",
+      "date": "2026-09-02T12:30:22Z",
+      "description": "Dropbox is warning some users that an unauthorized party accessed their accounts by exploiting a flaw in Lenovo's email verification process to register fraudulent Lenovo IDs. [...]",
+      "source": "bleepingcomputer.com",
+      "first_seen": "2026-09-02T15:33:43Z",
+      "last_seen": "2026-09-02T15:33:43Z"
+    },
+    {
+      "id": "d614ed60bf4b0094c946549431f0cb296922a18d",
+      "title": "Meta Ads Push StreamRat Android Trojan That Can Gain Near-Complete Device Control",
+      "link": "https://thehackernews.com/2026/09/meta-ads-push-streamrat-android-trojan.html",
+      "date": "2026-09-02T12:22:02Z",
+      "description": "Cybersecurity researchers have disclosed details of a new Android banking trojan called StreamRat that was promoted to Spanish-speaking users through a fake television-streaming campaign on Meta and can give operators near-complete control of infected devices. ThreatFabric said the campaign's advertisement focused on Spain and reached an estimated 570,950 Meta accounts in the European Union",
+      "source": "thehackernews.com",
+      "first_seen": "2026-09-02T15:33:43Z",
+      "last_seen": "2026-09-02T15:33:43Z"
+    },
+    {
+      "id": "9039b8053cd9b99f3fcf706290ff1b1aaf9a2a2a",
+      "title": "Exploit Published for Fresh Cleo Harmony Vulnerability",
+      "link": "https://www.securityweek.com/exploit-published-for-fresh-cleo-harmony-vulnerability/",
+      "date": "2026-09-02T12:18:15Z",
+      "description": "The security defect allows remote attackers to bypass authentication through argument bearer manipulation. The post Exploit Published for Fresh Cleo Harmony Vulnerability appeared first on SecurityWeek.",
+      "source": "securityweek.com",
+      "first_seen": "2026-09-02T15:33:43Z",
+      "last_seen": "2026-09-02T15:33:43Z"
+    },
     {
       "id": "f116709e0d899b2a31e0287b61741944ec7b8b9f",
       "title": "Anthropic Details Response to Security Incidents, Unveils Enterprise Safeguards",
@@ -10,7 +140,7 @@
       "description": "Anthropic introduced Enterprise Frontier Safeguards (EFS), a system that combines zero data retention with automated monitoring for misuse. The post Anthropic Details Response to Security Incidents, Unveils Enterprise Safeguards appeared first on SecurityWeek.",
       "source": "securityweek.com",
       "first_seen": "2026-09-02T11:50:39Z",
-      "last_seen": "2026-09-02T11:50:39Z"
+      "last_seen": "2026-09-02T15:33:43Z"
     },
     {
       "id": "73725ecf8ba454b6a0b94cf546daa026f8eacc14",
@@ -30,7 +160,17 @@
       "description": "Using a technically valid TLS certificate for Softaculous’ domains, a threat actor diverted traffic to fake software updates. The post Malicious Virtualizor Update Served via BGP Hijacking appeared first on SecurityWeek.",
       "source": "securityweek.com",
       "first_seen": "2026-09-02T11:50:39Z",
-      "last_seen": "2026-09-02T11:50:39Z"
+      "last_seen": "2026-09-02T15:33:43Z"
+    },
+    {
+      "id": "fb54bf01e5df503f6d24bbf3e834942699d5594e",
+      "title": "How to Secure Enterprise AI: From Adoption to Incident Readiness",
+      "link": "https://thehackernews.com/2026/09/how-to-secure-enterprise-ai-from.html",
+      "date": "2026-09-02T11:30:00Z",
+      "description": "The debate about whether AI delivers business value is over. The challenge now is implementing it at scale and securely across every function while meeting board-level pressure to move fast. Organizations must focus on adopting AI at business speed without losing control of cyber risk. Download the full eBook here. The Business Reality In Sygnia’s 2026 CISO Survey Report, which",
+      "source": "thehackernews.com",
+      "first_seen": "2026-09-02T15:33:43Z",
+      "last_seen": "2026-09-02T15:33:43Z"
     },
     {
       "id": "c86f2d6a6296129872a89111c4d1da663ec073cd",
@@ -53,6 +193,16 @@
       "last_seen": "2026-09-02T11:50:39Z"
     },
     {
+      "id": "00b779d0ff93065a799f3b39bce62424af532449",
+      "title": "OpenAI’s Astra Crosses ‘Critical’ Cyber Threshold After Finding Zero-Days",
+      "link": "https://www.securityweek.com/openais-astra-becomes-first-model-to-cross-critical-cybersecurity-threshold/",
+      "date": "2026-09-02T10:38:13Z",
+      "description": "The designation applies when a model can independently find and exploit zero-day vulnerabilities across many well-defended systems. The post OpenAI’s Astra Crosses ‘Critical’ Cyber Threshold After Finding Zero-Days appeared first on SecurityWeek.",
+      "source": "securityweek.com",
+      "first_seen": "2026-09-02T15:33:43Z",
+      "last_seen": "2026-09-02T15:33:43Z"
+    },
+    {
       "id": "2574a1d8e5a09c7f1b96d0ca5dc791d01d1e1b6c",
       "title": "Microsoft Defender flags legitimate Google search links as malicious",
       "link": "https://www.bleepingcomputer.com/news/security/microsoft-defender-flags-legitimate-google-search-links-as-malicious/",
@@ -60,7 +210,7 @@
       "description": "Microsoft is investigating an issue causing the Defender for Office 365 security software to mistakenly block access to legitimate Google search links. [...]",
       "source": "bleepingcomputer.com",
       "first_seen": "2026-09-02T11:50:39Z",
-      "last_seen": "2026-09-02T11:50:39Z"
+      "last_seen": "2026-09-02T15:33:43Z"
     },
     {
       "id": "27cc4365fffef93c2f912afa35c15af148d0ad03",
@@ -120,7 +270,7 @@
       "description": "A California federal grand jury has indicted a Russian national for his role in a phishing campaign that infected thousands of freelancers with TVRAT and DarkVNC malware. [...]",
       "source": "bleepingcomputer.com",
       "first_seen": "2026-09-02T11:50:39Z",
-      "last_seen": "2026-09-02T11:50:39Z"
+      "last_seen": "2026-09-02T15:33:43Z"
     },
     {
       "id": "ed08c7d5e574589a1ce10bf566e57b08939078a9",
@@ -160,7 +310,7 @@
       "description": "International law enforcement agencies and private partners have seized Sality malware infrastructure in a joint action aiming to disrupt and take down the peer-to-peer (P2P) botnet. [...]",
       "source": "bleepingcomputer.com",
       "first_seen": "2026-09-02T11:50:39Z",
-      "last_seen": "2026-09-02T11:50:39Z"
+      "last_seen": "2026-09-02T15:33:43Z"
     },
     {
       "id": "3f9d82bc633022c424d4a7c263821f4a5cab0e4a",
@@ -207,10 +357,30 @@
       "title": "Old, Unpatched Flaws Give Attackers Access to Philippines Nuclear Agency",
       "link": "https://www.darkreading.com/cyberattacks-data-breaches/old-unpatched-flaws-attackers-philippines-nuclear-agency",
       "date": "2026-09-02T01:00:00Z",
-      "description": "Threat actors exploited commodity in ownCloud to gain initial access, resulting in stolen reactor databases, personnel records, and credential stores.",
+      "description": "Threat actors exploited commodity vulnerabilities in ownCloud to gain initial access, resulting in stolen reactor databases, personnel records, and credential stores.",
       "source": "darkreading.com",
       "first_seen": "2026-09-02T01:52:17Z",
-      "last_seen": "2026-09-02T11:50:39Z"
+      "last_seen": "2026-09-02T15:33:43Z"
+    },
+    {
+      "id": "a5974dea53c13f6175384c096cac3996cea872a9",
+      "title": "Attackers Pounce on Critical Artifactory Bug Following Disclosure",
+      "link": "https://www.darkreading.com/application-security/attackers-pounce-critical-artifactory-flaw-disclosure",
+      "date": "2026-09-01T21:05:53Z",
+      "description": "CVE-2026-82329 is an authentication bypass flaw in JFrog's repository manager that enables bad actors to gain admin-level access on affected systems.",
+      "source": "darkreading.com",
+      "first_seen": "2026-09-02T15:33:43Z",
+      "last_seen": "2026-09-02T15:33:43Z"
+    },
+    {
+      "id": "83700779067fe6e8fe70ba6fe1ddf7bccf4aa3a1",
+      "title": "Critical Langflow Vulnerability Exploited as Attacks on AI Platform Rise",
+      "link": "https://www.darkreading.com/vulnerabilities-threats/critical-langflow-flaw-exploited-attacks-rise",
+      "date": "2026-09-01T20:48:52Z",
+      "description": "The attacks targeting CVE-2026-0768 are the latest threat against the low-code AI development platform, which is receiving more attention from adversaries this year.",
+      "source": "darkreading.com",
+      "first_seen": "2026-09-02T15:33:43Z",
+      "last_seen": "2026-09-02T15:33:43Z"
     }
   ]
 }
