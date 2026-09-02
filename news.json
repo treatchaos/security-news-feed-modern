@@ -1,13 +1,139 @@
 {
-  "last_updated": "2026-09-02T06:35:58Z",
-  "count": 30,
+  "last_updated": "2026-09-02T11:50:39Z",
+  "count": 35,
   "items": [
     {
-      "title": "SonicWall Warns of Two SMA1000 Zero-Days Exploited in Attacks",
-      "link": "https://www.securityweek.com/sonicwall-warns-of-two-sma1000-zero-days-exploited-in-attacks/",
-      "date": "2026-09-02T05:04:52Z",
-      "description": "The vulnerabilities CVE-2026-83549 and CVE-2026-83548 can be chained for unauthenticated remote code execution. The post SonicWall Warns of Two SMA1000 Zero-Days Exploited in Attacks appeared first on SecurityWeek.",
+      "title": "Anthropic Details Response to Security Incidents, Unveils Enterprise Safeguards",
+      "link": "https://www.securityweek.com/anthropic-details-response-to-security-incidents-unveils-enterprise-safeguards/",
+      "date": "2026-09-02T11:48:31Z",
+      "description": "Anthropic introduced Enterprise Frontier Safeguards (EFS), a system that combines zero data retention with automated monitoring for misuse. The post Anthropic Details Response to Security Incidents, Unveils Enterprise Safeguards appeared first on SecurityWeek.",
       "source": "securityweek.com"
+    },
+    {
+      "title": "Hackers Exploit LiteLLM Admin API Flaw to Steal Secrets and Target AI Gateway Servers",
+      "link": "https://cybersecuritynews.com/hackers-exploit-litellm-admin-api-flaw/",
+      "date": "2026-09-02T11:44:12Z",
+      "description": "Attackers are actively probing LiteLLM AI gateway deployments for a known authorization flaw that can turn a low-privilege account into full administrative control. The issue, tracked as CVE-2026-35029, affects LiteLLM versions before 1.83.0 and allows authenticated users to access the sensitive /config/update endpoint without the required administrator role. LiteLLM acts as an AI gateway…",
+      "source": "cybersecuritynews.com"
+    },
+    {
+      "title": "Malicious Virtualizor Update Served via BGP Hijacking",
+      "link": "https://www.securityweek.com/malicious-virtualizor-update-served-via-bgp-hijacking/",
+      "date": "2026-09-02T11:31:36Z",
+      "description": "Using a technically valid TLS certificate for Softaculous’ domains, a threat actor diverted traffic to fake software updates. The post Malicious Virtualizor Update Served via BGP Hijacking appeared first on SecurityWeek.",
+      "source": "securityweek.com"
+    },
+    {
+      "title": "Attackers Exploit Two SonicWall SMA 1000 Zero-Days That May Form an Attack Chain",
+      "link": "https://thehackernews.com/2026/09/attackers-exploit-two-sonicwall-sma.html",
+      "date": "2026-09-02T10:53:49Z",
+      "description": "SonicWall has released security updates to address two security flaws impacting its Secure Mobile Access (SMA) 1000 series VPN appliances that have been exploited in zero-day attacks. The vulnerabilities, discovered internally by SonicWall's William Perry and Adam Babis, are listed below - CVE-2026-83548 (CVSS score: 10.0) - A pre-authentication SSRF vulnerability in the Appliance",
+      "source": "thehackernews.com"
+    },
+    {
+      "title": "OpenAI’s Astra Becomes First Model to Cross Critical Cybersecurity Threshold",
+      "link": "https://www.securityweek.com/openais-astra-becomes-first-model-to-cross-critical-cybersecurity-threshold/",
+      "date": "2026-09-02T10:38:13Z",
+      "description": "The designation applies when a model can independently find and exploit zero-day vulnerabilities across many well-defended systems. The post OpenAI’s Astra Becomes First Model to Cross Critical Cybersecurity Threshold appeared first on SecurityWeek.",
+      "source": "securityweek.com"
+    },
+    {
+      "title": "Microsoft Defender flags legitimate Google search links as malicious",
+      "link": "https://www.bleepingcomputer.com/news/security/microsoft-defender-flags-legitimate-google-search-links-as-malicious/",
+      "date": "2026-09-02T10:29:39Z",
+      "description": "Microsoft is investigating an issue causing the Defender for Office 365 security software to mistakenly block access to legitimate Google search links. [...]",
+      "source": "bleepingcomputer.com"
+    },
+    {
+      "title": "Hackers Pose as IT Support on Microsoft Teams to Take Remote Control of Windows PCs",
+      "link": "https://cybersecuritynews.com/hackers-pose-as-it-support-microsoft-teams/",
+      "date": "2026-09-02T10:00:55Z",
+      "description": "Cybercriminals are posing as IT technicians on Microsoft Teams and persuading employees to hand over control of their Windows computers. The campaign turns a familiar support conversation into a direct path for installing malware, leaving the intruder able to work on the victim’s device as if sitting in front of it. The attack begins through […] The post Hackers Pose as IT Support on Microsoft…",
+      "source": "cybersecuritynews.com"
+    },
+    {
+      "title": "Silver Fox-Linked Hackers Use Fake Software Installers to Disable Microsoft Defender and Compromise Windows Systems",
+      "link": "https://cybersecuritynews.com/silver-fox-linked-hackers/",
+      "date": "2026-09-02T09:28:52Z",
+      "description": "Silver Fox-linked hackers are using counterfeit software installers to break into Windows systems and weaken the protections meant to stop them. The campaign relies on convincing download pages that copy well-known software brands and offer a seemingly legitimate file. The operation has affected healthcare, manufacturing, gaming, technology, logistics, government, and education organizations.…",
+      "source": "cybersecuritynews.com"
+    },
+    {
+      "title": "GeoNetwork Fixes Unauthenticated RCE Chain Affecting Government Geoportal Backends",
+      "link": "https://thehackernews.com/2026/09/geonetwork-fixes-unauthenticated-rce.html",
+      "date": "2026-09-02T09:18:02Z",
+      "description": "Two vulnerabilities in GeoNetwork can be chained to achieve unauthenticated remote code execution (RCE) on the open-source geospatial metadata catalog, which sits behind many government and agency geoportals. The project shipped fixes in versions 4.4.12 and 4.2.17 on July 8, 2026, and published the vulnerability details on August 31. GeoNetwork originated at the United Nations Food and",
+      "source": "thehackernews.com"
+    },
+    {
+      "title": "Chrome and Firefox Updates Patch Dozens of Vulnerabilities",
+      "link": "https://www.securityweek.com/chrome-and-firefox-updates-patch-dozens-of-vulnerabilities/",
+      "date": "2026-09-02T09:12:29Z",
+      "description": "The browser refreshes fix multiple use-after-free, sandbox escape, and privilege escalation bugs. The post Chrome and Firefox Updates Patch Dozens of Vulnerabilities appeared first on SecurityWeek.",
+      "source": "securityweek.com"
+    },
+    {
+      "title": "Extradited Russian Hacker Faces Charges Over Excel Malware Campaign That Infected Thousands",
+      "link": "https://thehackernews.com/2026/09/extradited-russian-hacker-faces-charges.html",
+      "date": "2026-09-02T09:10:23Z",
+      "description": "The U.S. Department of Justice (DoJ) has charged a Russian national, extradited from Cyprus on August 28, with using roughly 255 fake accounts on a freelance platform to send malware-laced Excel attachments to about 80,000 of its users in 2016 and 2017. Searzhudin Tamirlanovich Aktulaev, 40, was arrested in Cyprus in May 2025, the U.S. Attorney's Office for the Northern District of California",
+      "source": "thehackernews.com"
+    },
+    {
+      "title": "US charges Russian for infecting 80,000 freelancers with malware",
+      "link": "https://www.bleepingcomputer.com/news/security/us-charges-russian-for-infecting-80-000-freelancers-with-malware/",
+      "date": "2026-09-02T09:06:48Z",
+      "description": "A California federal grand jury has indicted a Russian national for his role in a phishing campaign that infected thousands of freelancers with TVRAT and DarkVNC malware. [...]",
+      "source": "bleepingcomputer.com"
+    },
+    {
+      "title": "Critical SonicWall Remote Code Execution Vulnerabilities Actively Exploited in Attacks",
+      "link": "https://cybersecuritynews.com/sonicwall-remote-code-execution-vulnerabilities/",
+      "date": "2026-09-02T08:44:59Z",
+      "description": "SonicWall has warned that attackers are actively exploiting two critical vulnerabilities affecting SMA1000 Series secure mobile access appliances. The flaws could allow unauthenticated attackers to access sensitive functionality and enable administrators with authenticated access to execute arbitrary operating system commands. The company published advisory SNWLID-2026-0016 on September 1, 2026,…",
+      "source": "cybersecuritynews.com"
+    },
+    {
+      "title": "23-Year-Old Sality P2P Botnet Disrupted",
+      "link": "https://www.securityweek.com/23-year-old-sality-p2p-botnet-disrupted/",
+      "date": "2026-09-02T08:38:00Z",
+      "description": "The shutdown operation involved peer list manipulation and Sality payload URL takedown. The post 23-Year-Old Sality P2P Botnet Disrupted appeared first on SecurityWeek.",
+      "source": "securityweek.com"
+    },
+    {
+      "title": "Critical HPE Fabric Composer Flaws Let Unauthenticated Attackers Execute Code and Take Over Systems",
+      "link": "https://cybersecuritynews.com/hpe-fabric-composer-flaws/",
+      "date": "2026-09-02T08:35:59Z",
+      "description": "HPE has released security updates for HPE Networking Fabric Composer following the discovery of a large set of vulnerabilities that could allow unauthenticated attackers to gain administrator access, run arbitrary commands, and fully compromise affected systems. The flaws affect HPE Networking Fabric Composer version 7.3.3 and earlier. Fabric Composer is used to manage and automate […] The post…",
+      "source": "cybersecuritynews.com"
+    },
+    {
+      "title": "Sality botnet infrastructure dismantled in joint global takedown",
+      "link": "https://www.bleepingcomputer.com/news/security/sality-botnet-infrastructure-dismantled-in-joint-global-takedown/",
+      "date": "2026-09-02T08:00:43Z",
+      "description": "International law enforcement agencies and private partners have seized Sality malware infrastructure in a joint action aiming to disrupt and take down the peer-to-peer (P2P) botnet. [...]",
+      "source": "bleepingcomputer.com"
+    },
+    {
+      "title": "Researchers Use Claude to Port Pre-Auth RCE Exploit From One PLC Model to Another",
+      "link": "https://thehackernews.com/2026/09/researchers-use-claude-to-port-pre-auth.html",
+      "date": "2026-09-02T07:47:13Z",
+      "description": "Forescout Research - Vedere Labs said it used Anthropic's Claude to port a working pre-authentication remote code execution (RCE) exploit from one WAGO programmable logic controller (PLC) to another, executing attacker-supplied ARM shellcode on live hardware. The exploit targets CVE-2021-31886, a stack-based buffer overflow in the Nucleus FTP server's handling of the USER command",
+      "source": "thehackernews.com"
+    },
+    {
+      "title": "Attackers Exploit Critical Switchvox Flaw to Deploy Reverse Shells Without Credentials",
+      "link": "https://thehackernews.com/2026/09/attackers-exploit-critical-switchvox.html",
+      "date": "2026-09-02T07:08:50Z",
+      "description": "Threat actors are exploiting a severe security vulnerability in Sangoma Switchvox, an enterprise VoIP platform, that could allow unauthenticated remote code execution. The vulnerability in question is CVE-2026-9586 (CVSS score: 9.3), a critical unauthenticated SQL injection vulnerability in Sangoma Switchvox SMB Edition 8.3 (104997) that can allow attackers to remotely execute arbitrary code as",
+      "source": "thehackernews.com"
+    },
+    {
+      "title": "SonicWall warns of actively exploited SMA1000 zero-day flaws",
+      "link": "https://www.bleepingcomputer.com/news/security/sonicwall-warns-of-actively-exploited-sma1000-zero-day-flaws/",
+      "date": "2026-09-02T06:39:29Z",
+      "description": "SonicWall warned customers that threat actors are chaining two new SMA1000 zero-day vulnerabilities in remote code execution attacks. [...]",
+      "source": "bleepingcomputer.com"
     },
     {
       "title": "Old, Unpatched Flaws Give Attackers Access to Philippines Nuclear Agency",
@@ -45,102 +171,11 @@
       "source": "darkreading.com"
     },
     {
-      "title": "Palo Alto Networks Acquires AI Agent Platform Console",
-      "link": "https://www.securityweek.com/palo-alto-networks-acquires-ai-agent-platform-console/",
-      "date": "2026-09-01T20:29:42Z",
-      "description": "The cybersecurity giant announced the acquisition alongside quarterly results showing a 34% increase in revenue and strong growth in next-generation security ARR. The post Palo Alto Networks Acquires AI Agent Platform Console appeared first on SecurityWeek.",
-      "source": "securityweek.com"
-    },
-    {
       "title": "AI Model Evaluator METR Hit by Credential Theft, Probing",
       "link": "https://www.darkreading.com/identity-access-management-security/ai-model-evaluator-metr-credential-theft-probing",
       "date": "2026-09-01T20:13:09Z",
       "description": "In one attack, threat actors stole an API key that ultimately led to the consumption of $600,000 in public AI model credits for the security nonprofit.",
       "source": "darkreading.com"
-    },
-    {
-      "title": "Aesto Health says data breach affects over 9.5 million patients",
-      "link": "https://www.bleepingcomputer.com/news/security/aesto-health-says-data-breach-affects-over-95-million-patients/",
-      "date": "2026-09-01T19:28:17Z",
-      "description": "Aesto LLC, operating as Aesto Health, disclosed that a data breach discovered recently affects more than 9.5 million individuals. [...]",
-      "source": "bleepingcomputer.com"
-    },
-    {
-      "title": "Sevii Targets AI-Speed Attacks With Preemptive Autonomous Defense",
-      "link": "https://www.securityweek.com/sevii-targets-ai-speed-attacks-with-preemptive-autonomous-defense/",
-      "date": "2026-09-01T18:30:00Z",
-      "description": "Sevii has expanded its ADR platform with AI agents designed to investigate, contain, and remediate AI-driven attacks within minutes. The post Sevii Targets AI-Speed Attacks With Preemptive Autonomous Defense appeared first on SecurityWeek.",
-      "source": "securityweek.com"
-    },
-    {
-      "title": "Coast Guard Establishes Office of Maritime Cybersecurity Policy",
-      "link": "https://www.securityweek.com/coast-guard-establishes-office-of-maritime-cybersecurity-policy/",
-      "date": "2026-09-01T18:26:22Z",
-      "description": "The new office will serve as the central authority for cybersecurity policy covering US ports, vessels, and maritime facilities. The post Coast Guard Establishes Office of Maritime Cybersecurity Policy appeared first on SecurityWeek.",
-      "source": "securityweek.com"
-    },
-    {
-      "title": "Critical Langflow flaw exploited to steal OpenAI and AWS keys",
-      "link": "https://www.bleepingcomputer.com/news/security/critical-langflow-flaw-exploited-to-steal-openai-and-aws-keys/",
-      "date": "2026-09-01T17:54:22Z",
-      "description": "Threat actors are exploiting an unauthenticated remote code execution vulnerability (CVE-2026-0768) in Langflow, an open-source framework for building AI applications, to steal credentials, tokens, and keys. [...]",
-      "source": "bleepingcomputer.com"
-    },
-    {
-      "title": "Attackers Exploit Critical JFrog Artifactory Flaw to Mint Admin Tokens Days After Disclosure",
-      "link": "https://thehackernews.com/2026/09/attackers-exploit-critical-jfrog.html",
-      "date": "2026-09-01T17:53:11Z",
-      "description": "Threat actors are exploiting a newly patched critical security flaw impacting JFrog Artifactory merely days after public disclosure, according to watchTowr. The vulnerability in question is CVE-2026-82329 (CVSS score: 9.8), a case of authentication bypass that could lead to administrative access in Artifactory. \"JFrog Artifactory contains an authentication weakness that, under default",
-      "source": "thehackernews.com"
-    },
-    {
-      "title": "Breeze Comet Executes Hundreds of Fraudulent Transactions via Brazilian Payment Systems",
-      "link": "https://thehackernews.com/2026/09/breeze-comet-executes-hundreds-of.html",
-      "date": "2026-09-01T17:19:24Z",
-      "description": "Brazilian financial services, retail, and e-commerce organizations have become the target of a financially motivated threat actor dubbed Breeze Comet (formerly UNC5669) since 2024. Google Threat Intelligence Group (GTIG) and Mandiant teams described the threat actor as \"specializing in manipulating payment systems and banking software in Brazil to conduct fraudulent transfers.\" The adversary",
-      "source": "thehackernews.com"
-    },
-    {
-      "title": "Hackers push malicious Virtualizor update in BGP hijacking attack",
-      "link": "https://www.bleepingcomputer.com/news/security/hackers-push-malicious-virtualizor-update-in-bgp-hijacking-attack/",
-      "date": "2026-09-01T14:45:06Z",
-      "description": "Hackers delivered malicious updates to the Virtualizor VPS management software after hijacking BGP routing for its update infrastructure and redirecting update requests to malicious servers. [...]",
-      "source": "bleepingcomputer.com"
-    },
-    {
-      "title": "Novocure data breach affects more than 1,400 cancer patients",
-      "link": "https://www.bleepingcomputer.com/news/security/novocure-data-breach-affects-more-than-1-400-cancer-patients/",
-      "date": "2026-09-01T14:28:40Z",
-      "description": "Healthtech company Novocure says the data of an undisclosed number of employees and more than 1,400 U.S. cancer patients has been exposed in a mid-August cyberattack. [...]",
-      "source": "bleepingcomputer.com"
-    },
-    {
-      "title": "13 Malicious Packagist Packages Target Unpatched iPhones to Steal Crypto Wallet Seeds",
-      "link": "https://thehackernews.com/2026/09/13-malicious-packagist-packages-target.html",
-      "date": "2026-09-01T14:07:20Z",
-      "description": "Cybersecurity researchers have identified a set of 13 malicious Composer theme packages on Packagist that are designed to inject JavaScript into Vietnamese movie and comic streaming sites that install those libraries and initiate the deployment of spyware aimed at unpatched iOS devices. \"The injected code runs two operations against a site's visitors: a mobile ad-fraud and gambling-redirect",
-      "source": "thehackernews.com"
-    },
-    {
-      "title": "Iranian Hackers Pose as Recruiters to Deliver Cross-Platform RATs Through Coding Tests",
-      "link": "https://thehackernews.com/2026/09/iranian-hackers-pose-as-recruiters-to.html",
-      "date": "2026-09-01T13:08:58Z",
-      "description": "The Iranian Nimbus Manticore hacking group has been attributed to two previously undocumented malware families that highlight the continued evolution of its toolset and likely expand its targeting footprint to infect Linux and Apple macOS systems using cross-platform remote access trojans (RATs) developed using Node.js and JavaScript. Russian cybersecurity company Kaspersky is tracking the",
-      "source": "thehackernews.com"
-    },
-    {
-      "title": "Experiment: Porting a PLC Exploit With AI Takes Hours and Hundreds of Dollars",
-      "link": "https://www.securityweek.com/experiment-porting-a-plc-exploit-with-ai-takes-hours-and-hundreds-of-dollars/",
-      "date": "2026-09-01T12:37:15Z",
-      "description": "Forescout researchers used Claude AI to port a remote code execution exploit between WAGO PLC models. The post Experiment: Porting a PLC Exploit With AI Takes Hours and Hundreds of Dollars appeared first on SecurityWeek.",
-      "source": "securityweek.com"
-    },
-    {
-      "title": "Threat Actors Don’t Want Better Attacks. They Want Repeatable Ones",
-      "link": "https://thehackernews.com/2026/09/threat-actors-dont-want-better-attacks.html",
-      "date": "2026-09-01T11:30:00Z",
-      "description": "The most common way into a company last year was to ask. A web page tells the visitor to prove they are not a robot. While they read the instructions, it quietly places a command on their clipboard. Then it talks them through opening a terminal and pasting it in. The technique is called ClickFix, and it was the most common initial access method Microsoft’s team observed last year, accounting",
-      "source": "thehackernews.com"
     },
     {
       "title": "ZDI-CAN-33973: Docker",
