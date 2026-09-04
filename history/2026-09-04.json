@@ -1,7 +1,97 @@
 {
   "date": "2026-09-04",
-  "count": 15,
+  "count": 26,
   "items": [
+    {
+      "id": "94ac358ef3819d42f203007c513b0596f44ca0c7",
+      "title": "New Ted Backdoor Hides Inside Victims' Own HAProxy Builds to Intercept Web Traffic",
+      "link": "https://thehackernews.com/2026/09/new-ted-backdoor-hides-inside-victims.html",
+      "date": "2026-09-04T14:51:13Z",
+      "description": "A previously undocumented Linux toolkit has been found compiled directly into the trojanized HAProxy load balancers of two South Korean organizations, where it intercepted web traffic and served altered pages to selected visitors. The attackers named the implant ted in debug strings left in the binary. It is not a HAProxy vulnerability, and installing it requires code execution on the host and",
+      "source": "thehackernews.com",
+      "first_seen": "2026-09-04T15:23:15Z",
+      "last_seen": "2026-09-04T15:23:15Z"
+    },
+    {
+      "id": "d370e2d58520e6c702ec9f8d42ba58818daa8e05",
+      "title": "Microsoft says some users can’t open the Teams desktop client",
+      "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-says-some-users-cant-open-the-teams-desktop-client/",
+      "date": "2026-09-04T14:30:15Z",
+      "description": "Microsoft is working to resolve a known issue that causes delays or blocks some users from opening the Microsoft Teams desktop client on Windows systems. [...]",
+      "source": "bleepingcomputer.com",
+      "first_seen": "2026-09-04T15:23:15Z",
+      "last_seen": "2026-09-04T15:23:15Z"
+    },
+    {
+      "id": "67769c31ff81179d6cecb7eedebfbc22fd920c0c",
+      "title": "39 New Methods That Compromise Passkey Authentication",
+      "link": "https://www.bleepingcomputer.com/news/security/39-new-methods-that-compromise-passkey-authentication/",
+      "date": "2026-09-04T14:01:11Z",
+      "description": "Passkeys eliminate many password-based attacks, but researchers have documented 39 methods for compromising authentication built around them. Token explains how attackers can abuse authentication prompts, synced credentials, enrollment, recovery, and other trust boundaries without breaking FIDO2 cryptography. [...]",
+      "source": "bleepingcomputer.com",
+      "first_seen": "2026-09-04T15:23:15Z",
+      "last_seen": "2026-09-04T15:23:15Z"
+    },
+    {
+      "id": "80da49dff36986c4ec95a6cea35e7d52b56d254d",
+      "title": "Sangoma Switchvox Vulnerabilities Exploited in the Wild",
+      "link": "https://www.securityweek.com/sangoma-switchvox-vulnerabilities-exploited-in-the-wild/",
+      "date": "2026-09-04T13:23:12Z",
+      "description": "Tracked as CVE-2026-9586, the unauthenticated SQL injection flaw can be exploited remotely for arbitrary code execution. The post Sangoma Switchvox Vulnerabilities Exploited in the Wild appeared first on SecurityWeek.",
+      "source": "securityweek.com",
+      "first_seen": "2026-09-04T15:23:15Z",
+      "last_seen": "2026-09-04T15:23:15Z"
+    },
+    {
+      "id": "9c592ec3927e4364e1d1cdcedd049caec416f118",
+      "title": "New CrowdStrike 'FalconFlank' zero-day grants SYSTEM privileges",
+      "link": "https://www.bleepingcomputer.com/news/security/new-crowdstrike-falconflank-zero-day-grants-system-privileges/",
+      "date": "2026-09-04T13:22:01Z",
+      "description": "An anonymous security researcher who uses the \"Nightmare Eclipse\" handle released a CrowdStrike Falcon zero-day exploit named \"FalconFlank\" that lets attackers escalate privileges on up-to-date Windows systems. [...]",
+      "source": "bleepingcomputer.com",
+      "first_seen": "2026-09-04T15:23:15Z",
+      "last_seen": "2026-09-04T15:23:15Z"
+    },
+    {
+      "id": "276088599101a0983558486cd7ed3ecc3a4a1732",
+      "title": "AI Is Ending the Era of Hidden Vulnerabilities — Are Vendors Ready?",
+      "link": "https://www.darkreading.com/vulnerabilities-threats/ai-ending-era-hidden-vulnerabilities-are-vendors-ready",
+      "date": "2026-09-04T13:00:00Z",
+      "description": "A tidal wave of bug reports is overwhelming software vendors, exposing secure-by-design failures and creating disclosure bottlenecks.",
+      "source": "darkreading.com",
+      "first_seen": "2026-09-04T15:23:15Z",
+      "last_seen": "2026-09-04T15:23:15Z"
+    },
+    {
+      "id": "ade7709ddb0bbee221fe9696b46cbcaeec30255f",
+      "title": "Exchange Online outage causes email delays, 'Server busy' errors",
+      "link": "https://www.bleepingcomputer.com/news/microsoft/exchange-online-outage-causes-email-delays-server-busy-errors/",
+      "date": "2026-09-04T12:22:30Z",
+      "description": "Microsoft is working to resolve an ongoing Exchange Online outage that is delaying email sent to and received from external domains. [...]",
+      "source": "bleepingcomputer.com",
+      "first_seen": "2026-09-04T15:23:15Z",
+      "last_seen": "2026-09-04T15:23:15Z"
+    },
+    {
+      "id": "9db3a5ec3ab7245e26acf378a0889450d7e46ea8",
+      "title": "12-Year-Old PostgreSQL Vulnerability Enables Database, Server Takeover",
+      "link": "https://www.securityweek.com/12-year-old-postgresql-vulnerability-enables-database-server-takeover/",
+      "date": "2026-09-04T12:06:13Z",
+      "description": "Dubbed PostGREShell, CVE-2026-6471 turns low-level replication access into code execution, permanent superuser privileges and a persistent database backdoor. The post 12-Year-Old PostgreSQL Vulnerability Enables Database, Server Takeover appeared first on SecurityWeek.",
+      "source": "securityweek.com",
+      "first_seen": "2026-09-04T15:23:15Z",
+      "last_seen": "2026-09-04T15:23:15Z"
+    },
+    {
+      "id": "89ae27589bb17161ed9bf4e26ded5ebe7d8ce2b8",
+      "title": "Catch Raises $5 Million for AI Executive Assistant With Guardrails",
+      "link": "https://www.securityweek.com/catch-raises-5-million-for-ai-executive-assistant-with-guardrails/",
+      "date": "2026-09-04T11:55:17Z",
+      "description": "Catch promises the capabilities of a trusted executive assistant, with built-in controls governing what data and systems it can access. The post Catch Raises $5 Million for AI Executive Assistant With Guardrails appeared first on SecurityWeek.",
+      "source": "securityweek.com",
+      "first_seen": "2026-09-04T15:23:15Z",
+      "last_seen": "2026-09-04T15:23:15Z"
+    },
     {
       "id": "6c2f43fd561b3e45b96938fbf90afcf319c7ee27",
       "title": "Microsoft 365 Phishing Technique Uses Empty Envelope Sender to Evade Direct Send Blocking",
@@ -20,7 +110,7 @@
       "description": "Google has updated the Chrome browser to address an actively exploited high-severity zero-day flaw in the V8 engine and 11 other vulnerabilities. [...]",
       "source": "bleepingcomputer.com",
       "first_seen": "2026-09-04T11:52:24Z",
-      "last_seen": "2026-09-04T11:52:24Z"
+      "last_seen": "2026-09-04T15:23:15Z"
     },
     {
       "id": "9ff4adebcb362873af6472d2fd0cf13b544c82d1",
@@ -30,7 +120,7 @@
       "description": "The flaws could allow attackers with administrative access to a virtual machine to execute code on the host system. The post VMware Workstation and Fusion Updates Patch Critical Vulnerability appeared first on SecurityWeek.",
       "source": "securityweek.com",
       "first_seen": "2026-09-04T11:52:24Z",
-      "last_seen": "2026-09-04T11:52:24Z"
+      "last_seen": "2026-09-04T15:23:15Z"
     },
     {
       "id": "550ff5447cf59385120ae6102a621a22c59f958f",
@@ -50,7 +140,7 @@
       "description": "Google’s Chrome 152 security update resolves 12 vulnerabilities, including a high-severity type confusion flaw in the V8 engine. The post Google Patches 6th Chrome Zero-Day of 2026 appeared first on SecurityWeek.",
       "source": "securityweek.com",
       "first_seen": "2026-09-04T11:52:24Z",
-      "last_seen": "2026-09-04T11:52:24Z"
+      "last_seen": "2026-09-04T15:23:15Z"
     },
     {
       "id": "06417e994edda4455c6898c621b8120c1ec0000b",
@@ -70,7 +160,7 @@
       "description": "Threat actors are exploiting two critical security flaws in WordPress plugins Super Forms and Elementor Pro, according to findings from Wordfence. The vulnerabilities in question are - CVE-2026-14894 (CVSS score: 9.8) - A missing file type validation vulnerability in Super Forms – Drag & Drop Form Builder that allows unauthenticated attackers to upload files of any type, including",
       "source": "thehackernews.com",
       "first_seen": "2026-09-04T11:52:24Z",
-      "last_seen": "2026-09-04T11:52:24Z"
+      "last_seen": "2026-09-04T15:23:15Z"
     },
     {
       "id": "f33ceea4ccdb90bbf2ed00f9127dc4bab57e0c1d",
@@ -90,7 +180,7 @@
       "description": "Plex is urging users to update their instances to the latest version following the release of an update that patches multiple security flaws. The fixes are available in Plex Media Server 1.43.3 and Plex Desktop 1.115.0. The streaming media service did not elaborate on what those issues are, but said CVE identifiers have been requested for them. \"We recommend all server owners and Desktop users",
       "source": "thehackernews.com",
       "first_seen": "2026-09-04T11:52:24Z",
-      "last_seen": "2026-09-04T11:52:24Z"
+      "last_seen": "2026-09-04T15:23:15Z"
     },
     {
       "id": "79a17b16a0c72aac7af011e2bc028f9a90852a7e",
@@ -110,7 +200,7 @@
       "description": "Google on Thursday released security updates to patch 12 vulnerabilities, including one that has come under active exploitation in the wild. The high-severity vulnerability, tracked as CVE-2026-85046 (CVSS score: 8.8), has been described as a type confusion bug in V8, Chrome's JavaScript and WebAssembly engine. \"Type confusion in V8 in Google Chrome prior to 152.0.7977.82 allowed a remote",
       "source": "thehackernews.com",
       "first_seen": "2026-09-04T11:52:24Z",
-      "last_seen": "2026-09-04T11:52:24Z"
+      "last_seen": "2026-09-04T15:23:15Z"
     },
     {
       "id": "a710fe95549764ee29554556b5301d3b72873b1e",
@@ -120,7 +210,7 @@
       "description": "OpenAI on Thursday officially unveiled GPT‑6 Astra, which it described as the \"world's most intelligent and aligned model.\" The development comes days after the artificial intelligence (AI) company said the model had reached the \"Critical\" cybersecurity capability threshold under its Preparedness Framework. \"Astra is state-of-the-art on computer use, browsing, software engineering,",
       "source": "thehackernews.com",
       "first_seen": "2026-09-04T11:52:24Z",
-      "last_seen": "2026-09-04T11:52:24Z"
+      "last_seen": "2026-09-04T15:23:15Z"
     },
     {
       "id": "1d25cac450f69febf96cd9a725a4f5c457674e0c",
@@ -131,6 +221,26 @@
       "source": "cybersecuritynews.com",
       "first_seen": "2026-09-04T06:42:36Z",
       "last_seen": "2026-09-04T06:42:36Z"
+    },
+    {
+      "id": "71536979aedca320a31ad68cc1642fec2c177d27",
+      "title": "ZDI-CAN-30756: Microsoft",
+      "link": "http://www.zerodayinitiative.com/advisories/upcoming/",
+      "date": "2026-09-04T05:00:00Z",
+      "description": "A CVSS score 7.5 AV:N/AC:H/PR:N/UI:R/S:U/C:H/I:H/A:H severity vulnerability discovered by 'Kyeongmin Kim (@hareh4ru) of KAIST Hacking Lab' was reported to the affected vendor on: 2026-09-04, 0 days ago. The vendor is given until 2027-01-02 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
+      "source": "zerodayinitiative.com",
+      "first_seen": "2026-09-04T15:23:15Z",
+      "last_seen": "2026-09-04T15:23:15Z"
+    },
+    {
+      "id": "ab9e7754a85fa69a249a00c8633caf059b3e2df9",
+      "title": "ZDI-CAN-30923: Microsoft",
+      "link": "http://www.zerodayinitiative.com/advisories/upcoming/",
+      "date": "2026-09-04T05:00:00Z",
+      "description": "A CVSS score 3.1 AV:N/AC:H/PR:N/UI:R/S:U/C:L/I:N/A:N severity vulnerability discovered by 'Kyeongmin Kim (@hareh4ru) of KAIST Hacking Lab' was reported to the affected vendor on: 2026-09-04, 0 days ago. The vendor is given until 2027-01-02 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
+      "source": "zerodayinitiative.com",
+      "first_seen": "2026-09-04T15:23:15Z",
+      "last_seen": "2026-09-04T15:23:15Z"
     },
     {
       "id": "0187f602fd39171cbba37db71e53bda6e128e0af",

@@ -1,13 +1,69 @@
 {
-  "last_updated": "2026-09-04T11:52:24Z",
-  "count": 35,
+  "last_updated": "2026-09-04T15:23:15Z",
+  "count": 30,
   "items": [
     {
-      "title": "Microsoft 365 Phishing Technique Uses Empty Envelope Sender to Evade Direct Send Blocking",
-      "link": "https://cybersecuritynews.com/microsoft-365-phishing/",
-      "date": "2026-09-04T11:49:30Z",
-      "description": "Microsoft 365 users are facing a phishing technique built on a small change: attackers leave the SMTP envelope sender blank. The omission can let an unauthenticated message pass a Direct Send safeguard while showing employees an address that appears to belong to their own organization. The approach is not a Microsoft software flaw and does […] The post Microsoft 365 Phishing Technique Uses Empty…",
-      "source": "cybersecuritynews.com"
+      "title": "New Ted Backdoor Hides Inside Victims' Own HAProxy Builds to Intercept Web Traffic",
+      "link": "https://thehackernews.com/2026/09/new-ted-backdoor-hides-inside-victims.html",
+      "date": "2026-09-04T14:51:13Z",
+      "description": "A previously undocumented Linux toolkit has been found compiled directly into the trojanized HAProxy load balancers of two South Korean organizations, where it intercepted web traffic and served altered pages to selected visitors. The attackers named the implant ted in debug strings left in the binary. It is not a HAProxy vulnerability, and installing it requires code execution on the host and",
+      "source": "thehackernews.com"
+    },
+    {
+      "title": "Microsoft says some users can’t open the Teams desktop client",
+      "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-says-some-users-cant-open-the-teams-desktop-client/",
+      "date": "2026-09-04T14:30:15Z",
+      "description": "Microsoft is working to resolve a known issue that causes delays or blocks some users from opening the Microsoft Teams desktop client on Windows systems. [...]",
+      "source": "bleepingcomputer.com"
+    },
+    {
+      "title": "39 New Methods That Compromise Passkey Authentication",
+      "link": "https://www.bleepingcomputer.com/news/security/39-new-methods-that-compromise-passkey-authentication/",
+      "date": "2026-09-04T14:01:11Z",
+      "description": "Passkeys eliminate many password-based attacks, but researchers have documented 39 methods for compromising authentication built around them. Token explains how attackers can abuse authentication prompts, synced credentials, enrollment, recovery, and other trust boundaries without breaking FIDO2 cryptography. [...]",
+      "source": "bleepingcomputer.com"
+    },
+    {
+      "title": "Sangoma Switchvox Vulnerabilities Exploited in the Wild",
+      "link": "https://www.securityweek.com/sangoma-switchvox-vulnerabilities-exploited-in-the-wild/",
+      "date": "2026-09-04T13:23:12Z",
+      "description": "Tracked as CVE-2026-9586, the unauthenticated SQL injection flaw can be exploited remotely for arbitrary code execution. The post Sangoma Switchvox Vulnerabilities Exploited in the Wild appeared first on SecurityWeek.",
+      "source": "securityweek.com"
+    },
+    {
+      "title": "New CrowdStrike 'FalconFlank' zero-day grants SYSTEM privileges",
+      "link": "https://www.bleepingcomputer.com/news/security/new-crowdstrike-falconflank-zero-day-grants-system-privileges/",
+      "date": "2026-09-04T13:22:01Z",
+      "description": "An anonymous security researcher who uses the \"Nightmare Eclipse\" handle released a CrowdStrike Falcon zero-day exploit named \"FalconFlank\" that lets attackers escalate privileges on up-to-date Windows systems. [...]",
+      "source": "bleepingcomputer.com"
+    },
+    {
+      "title": "AI Is Ending the Era of Hidden Vulnerabilities — Are Vendors Ready?",
+      "link": "https://www.darkreading.com/vulnerabilities-threats/ai-ending-era-hidden-vulnerabilities-are-vendors-ready",
+      "date": "2026-09-04T13:00:00Z",
+      "description": "A tidal wave of bug reports is overwhelming software vendors, exposing secure-by-design failures and creating disclosure bottlenecks.",
+      "source": "darkreading.com"
+    },
+    {
+      "title": "Exchange Online outage causes email delays, 'Server busy' errors",
+      "link": "https://www.bleepingcomputer.com/news/microsoft/exchange-online-outage-causes-email-delays-server-busy-errors/",
+      "date": "2026-09-04T12:22:30Z",
+      "description": "Microsoft is working to resolve an ongoing Exchange Online outage that is delaying email sent to and received from external domains. [...]",
+      "source": "bleepingcomputer.com"
+    },
+    {
+      "title": "12-Year-Old PostgreSQL Vulnerability Enables Database, Server Takeover",
+      "link": "https://www.securityweek.com/12-year-old-postgresql-vulnerability-enables-database-server-takeover/",
+      "date": "2026-09-04T12:06:13Z",
+      "description": "Dubbed PostGREShell, CVE-2026-6471 turns low-level replication access into code execution, permanent superuser privileges and a persistent database backdoor. The post 12-Year-Old PostgreSQL Vulnerability Enables Database, Server Takeover appeared first on SecurityWeek.",
+      "source": "securityweek.com"
+    },
+    {
+      "title": "Catch Raises $5 Million for AI Executive Assistant With Guardrails",
+      "link": "https://www.securityweek.com/catch-raises-5-million-for-ai-executive-assistant-with-guardrails/",
+      "date": "2026-09-04T11:55:17Z",
+      "description": "Catch promises the capabilities of a trusted executive assistant, with built-in controls governing what data and systems it can access. The post Catch Raises $5 Million for AI Executive Assistant With Guardrails appeared first on SecurityWeek.",
+      "source": "securityweek.com"
     },
     {
       "title": "Google warns of new Chrome zero-day flaw exploited in attacks",
@@ -24,25 +80,11 @@
       "source": "securityweek.com"
     },
     {
-      "title": "Trezor Confirms ShipMonk Data Breach Exposed 67,000 Additional US Customers",
-      "link": "https://cybersecuritynews.com/trezor-confirms-shipmonk-data-breach/",
-      "date": "2026-09-04T11:37:44Z",
-      "description": "Hardware wallet maker Trezor has confirmed that a data breach at logistics partner ShipMonk is substantially larger than first reported, after older U.S. order records that should have been deleted remained in the leaked dataset. On September 4, 2026, Trezor said it was told two days earlier that the incident also included order data from […] The post Trezor Confirms ShipMonk Data Breach Exposed…",
-      "source": "cybersecuritynews.com"
-    },
-    {
       "title": "Google Patches 6th Chrome Zero-Day of 2026",
       "link": "https://www.securityweek.com/google-patches-6th-chrome-zero-day-of-2026/",
       "date": "2026-09-04T11:31:52Z",
       "description": "Google’s Chrome 152 security update resolves 12 vulnerabilities, including a high-severity type confusion flaw in the V8 engine. The post Google Patches 6th Chrome Zero-Day of 2026 appeared first on SecurityWeek.",
       "source": "securityweek.com"
-    },
-    {
-      "title": "Microsoft Teams to Add QR Code Protection in Teams Messaging",
-      "link": "https://cybersecuritynews.com/microsoft-teams-qr-code-protection/",
-      "date": "2026-09-04T10:40:42Z",
-      "description": "Microsoft Teams is preparing to introduce new QR code protection controls designed to reduce phishing and fraud risks in chats involving external users. The feature, currently listed as “In Development” on the Microsoft 365 roadmap, will automatically obscure images containing QR codes when they are sent in Teams messages by people outside an organization. Microsoft […] The post Microsoft Teams…",
-      "source": "cybersecuritynews.com"
     },
     {
       "title": "Over 440,000 Exploit Attempts Target Super Forms and Elementor Pro RCE Flaws",
@@ -52,25 +94,11 @@
       "source": "thehackernews.com"
     },
     {
-      "title": "14 Fake macOS Installers Linked to DPRK Campaign Deliver Credential-Stealing RAT",
-      "link": "https://cybersecuritynews.com/14-fake-macos-installers/",
-      "date": "2026-09-04T07:54:34Z",
-      "description": "Mac users are being targeted with 14 fake application installers that appear to offer familiar software but instead start a credential-stealing remote-access trojan. The files were distributed as macOS disk images and installer packages, giving attackers another route into systems used by developers and job seekers. The activity is tied to the long-running Contagious Interview […] The post 14…",
-      "source": "cybersecuritynews.com"
-    },
-    {
       "title": "Plex Urges Immediate Updates After Patching Multiple Undisclosed Security Flaws",
       "link": "https://thehackernews.com/2026/09/plex-urges-immediate-updates-after.html",
       "date": "2026-09-04T07:35:14Z",
       "description": "Plex is urging users to update their instances to the latest version following the release of an update that patches multiple security flaws. The fixes are available in Plex Media Server 1.43.3 and Plex Desktop 1.115.0. The streaming media service did not elaborate on what those issues are, but said CVE identifiers have been requested for them. \"We recommend all server owners and Desktop users",
       "source": "thehackernews.com"
-    },
-    {
-      "title": "Dahua Camera Backdoor Survives Password Changes and Factory Resets on Compromised Devices",
-      "link": "https://cybersecuritynews.com/dahua-camera-backdoor/",
-      "date": "2026-09-04T07:23:00Z",
-      "description": "A large campaign has compromised more than 14,000 internet-connected Dahua cameras, exposing how vulnerable surveillance equipment can become a gateway to video feeds and device settings. The operation ran for 35 days, and hit devices worldwide, with confirmed compromises centered in Ukraine and Russia. It shows how unattended devices can create durable, long-lasting hidden access […] The post…",
-      "source": "cybersecuritynews.com"
     },
     {
       "title": "Google Releases Chrome Update to Patch Actively Exploited V8 Zero-Day",
@@ -87,11 +115,18 @@
       "source": "thehackernews.com"
     },
     {
-      "title": "French hospital fined €500,000 after breach exposes data of 727,000",
-      "link": "https://www.bleepingcomputer.com/news/security/french-hospital-fined-500-000-after-breach-exposes-data-of-727-000/",
-      "date": "2026-09-03T22:01:37Z",
-      "description": "France's data protection authority (CNIL) has fined Hôpital privé de la Loire €500,000 ($580,000) for failing to adequately protect patients' and their relatives' data. [...]",
-      "source": "bleepingcomputer.com"
+      "title": "ZDI-CAN-30756: Microsoft",
+      "link": "http://www.zerodayinitiative.com/advisories/upcoming/",
+      "date": "2026-09-04T05:00:00Z",
+      "description": "A CVSS score 7.5 AV:N/AC:H/PR:N/UI:R/S:U/C:H/I:H/A:H severity vulnerability discovered by 'Kyeongmin Kim (@hareh4ru) of KAIST Hacking Lab' was reported to the affected vendor on: 2026-09-04, 0 days ago. The vendor is given until 2027-01-02 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
+      "source": "zerodayinitiative.com"
+    },
+    {
+      "title": "ZDI-CAN-30923: Microsoft",
+      "link": "http://www.zerodayinitiative.com/advisories/upcoming/",
+      "date": "2026-09-04T05:00:00Z",
+      "description": "A CVSS score 3.1 AV:N/AC:H/PR:N/UI:R/S:U/C:L/I:N/A:N severity vulnerability discovered by 'Kyeongmin Kim (@hareh4ru) of KAIST Hacking Lab' was reported to the affected vendor on: 2026-09-04, 0 days ago. The vendor is given until 2027-01-02 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
+      "source": "zerodayinitiative.com"
     },
     {
       "title": "Large Enterprises Targeted in Fake Merger &amp; Acquisition Scams",
@@ -101,13 +136,6 @@
       "source": "darkreading.com"
     },
     {
-      "title": "Coder's registry infrastructure compromised to push malicious modules",
-      "link": "https://www.bleepingcomputer.com/news/security/coders-registry-infrastructure-compromised-to-push-malicious-modules/",
-      "date": "2026-09-03T20:04:24Z",
-      "description": "Attackers compromised Coder's Cloudflare infrastructure and added unauthorized registry servers that delivered malicious Terraform modules containing credential-stealing code. [...]",
-      "source": "bleepingcomputer.com"
-    },
-    {
       "title": "What We Missed: Did ShinyHunters 'Breach' ReliaQuest?",
       "link": "https://www.darkreading.com/cybersecurity-operations/what-we-missed-did-shinyhunters-breach-reliaquest",
       "date": "2026-09-03T19:42:39Z",
@@ -115,53 +143,11 @@
       "source": "darkreading.com"
     },
     {
-      "title": "HPE patches critical ArubaOS-CX remote code execution flaw",
-      "link": "https://www.bleepingcomputer.com/news/security/hpe-patches-critical-arubaos-cx-remote-code-execution-flaw/",
-      "date": "2026-09-03T18:28:12Z",
-      "description": "Hewlett Packard Enterprise (HPE) has patched a critical vulnerability in the ArubaOS-CX network operating system that could lead to remote code execution. [...]",
-      "source": "bleepingcomputer.com"
-    },
-    {
-      "title": "ThreatsDay: CEO Phishing Kits, 5K Dropbox Account Hacks, OAuth Traps + 17 More Stories",
-      "link": "https://thehackernews.com/2026/09/threatsday-ceo-phishing-kits-5k-dropbox.html",
-      "date": "2026-09-03T18:02:47Z",
-      "description": "The worst part is how normal these attacks look. A call from IT. A shared file. A trusted app. A simple request to click “Allow.” Why break in when someone might open the door? That idea runs through this edition. Attackers use real tools, fake login pages, old account links, and software guides that point to unsafe downloads. One wrong letter in a web address can be enough. There is also",
-      "source": "thehackernews.com"
-    },
-    {
-      "title": "Manchester Airports Group Data on 8.8 Million People Leaked After Ransom Refusal",
-      "link": "https://www.securityweek.com/manchester-airports-group-data-on-8-8-million-people-leaked-after-ransom-refusal/",
-      "date": "2026-09-03T15:35:19Z",
-      "description": "Hacker group published roughly 550GB of data after MAG reportedly refused to pay a ransom demand; the group says it gained access via exposed admin keys. The post Manchester Airports Group Data on 8.8 Million People Leaked After Ransom Refusal appeared first on SecurityWeek.",
-      "source": "securityweek.com"
-    },
-    {
-      "title": "Microsoft: KB5120998 mouse reset bug affects only non-English PCs",
-      "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-kb5120998-mouse-reset-bug-affects-only-non-english-pcs/",
-      "date": "2026-09-03T15:22:33Z",
-      "description": "Microsoft says a known issue that reverts mouse settings after installing the KB5120998 August 2026 preview update affects only non-English Windows 11 systems. [...]",
-      "source": "bleepingcomputer.com"
-    },
-    {
-      "title": "Capsule Security Launches ‘AI Circuit Breaker’ to Stop Rogue Agents",
-      "link": "https://www.securityweek.com/capsule-security-launches-ai-circuit-breaker-to-stop-rogue-agents/",
-      "date": "2026-09-03T15:15:00Z",
-      "description": "New models, trained using NVIDIA Nemotron 3 Ultra, aim to catch rogue agent behavior before it executes, without the latency of large-model review. The post Capsule Security Launches ‘AI Circuit Breaker’ to Stop Rogue Agents appeared first on SecurityWeek.",
-      "source": "securityweek.com"
-    },
-    {
       "title": "AI 'Machine Speed' Cuts 2-Week Attack Down to 10 Hours",
       "link": "https://www.darkreading.com/cyberattacks-data-breaches/ai-machine-speed-2-week-attack-10-hours",
       "date": "2026-09-03T14:38:49Z",
       "description": "The incident demonstrates how frontier AI agents can dramatically compress an attack timeline and coordinate a large-scale breach, according to researchers.",
       "source": "darkreading.com"
-    },
-    {
-      "title": "HiddenLayer Raises $100 Million for AI Runtime Security",
-      "link": "https://www.securityweek.com/hiddenlayer-raises-100-million-for-ai-runtime-security/",
-      "date": "2026-09-03T12:17:30Z",
-      "description": "The Austin-based company will invest in agentic runtime security capabilities to secure AI coding agents. The post HiddenLayer Raises $100 Million for AI Runtime Security appeared first on SecurityWeek.",
-      "source": "securityweek.com"
     },
     {
       "title": "'Breeze Comet' Tears Into Brazilian &amp; Global Financial Systems",
@@ -190,27 +176,6 @@
       "date": "2026-09-03T05:00:00Z",
       "description": "A CVSS score 3.1 AV:N/AC:H/PR:N/UI:R/S:U/C:L/I:N/A:N severity vulnerability discovered by 'Len Sadowski (lytnc) and Oğuz Bektaş (_ozb_)' was reported to the affected vendor on: 2026-09-03, 1 days ago. The vendor is given until 2027-01-01 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
       "source": "zerodayinitiative.com"
-    },
-    {
-      "title": "ZDI-CAN-32257: Microsoft",
-      "link": "http://www.zerodayinitiative.com/advisories/upcoming/",
-      "date": "2026-09-03T05:00:00Z",
-      "description": "A CVSS score 3.3 AV:L/AC:L/PR:N/UI:R/S:U/C:L/I:N/A:N severity vulnerability discovered by 'Len Sadowski (lytnc) and Oğuz Bektaş (_ozb_)' was reported to the affected vendor on: 2026-09-03, 1 days ago. The vendor is given until 2027-01-01 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
-      "source": "zerodayinitiative.com"
-    },
-    {
-      "title": "ZDI-CAN-32263: Microsoft",
-      "link": "http://www.zerodayinitiative.com/advisories/upcoming/",
-      "date": "2026-09-03T05:00:00Z",
-      "description": "A CVSS score 3.3 AV:L/AC:L/PR:N/UI:R/S:U/C:L/I:N/A:N severity vulnerability discovered by 'Len Sadowski (lytnc) and Oğuz Bektaş (_ozb_)' was reported to the affected vendor on: 2026-09-03, 1 days ago. The vendor is given until 2027-01-01 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
-      "source": "zerodayinitiative.com"
-    },
-    {
-      "title": "AI's Vulnerability Surge May Be More Manageable Than First Feared",
-      "link": "https://www.darkreading.com/application-security/ai-vulnerability-surge-manageable-than-first-feared",
-      "date": "2026-09-02T21:14:06Z",
-      "description": "New research suggests the coming Vulnpocalypse may not be so overwhelming for enterprise security teams — if they have the right strategies.",
-      "source": "darkreading.com"
     },
     {
       "title": "Student Loan Breach Exposes 2.5M Records",
