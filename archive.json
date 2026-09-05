@@ -1,7 +1,7 @@
 {
-  "last_updated": "2026-09-05T14:10:33Z",
+  "last_updated": "2026-09-05T17:00:21Z",
   "retention_days": 90,
-  "count": 3596,
+  "count": 3598,
   "items": [
     {
       "id": "a126f4d9a984171fd8a56b418b8e6e6bad01015f",
@@ -24,6 +24,46 @@
       "last_seen": "2026-08-31T15:38:31Z"
     },
     {
+      "id": "9d718427a9c05e3f33b669da55ce20a05a42693f",
+      "title": "Attackers Breached JetBrains Cadence via Unpatched TeamCity, Extracting AWS Credentials",
+      "link": "https://thehackernews.com/2026/09/attackers-breached-jetbrains-cadence.html",
+      "date": "2026-09-05T16:52:33Z",
+      "description": "JetBrains is urging Cadence users to revoke and rotate all credentials following a security incident last month in which unidentified threat actors exploited a recently disclosed critical vulnerability in TeamCity to breach its own environment. \"Cadence users should immediately revoke or rotate all credentials and secrets that may have been used to run their Cadence executions,\" JetBrains said.",
+      "source": "thehackernews.com",
+      "first_seen": "2026-09-05T17:00:21Z",
+      "last_seen": "2026-09-05T17:00:21Z"
+    },
+    {
+      "id": "2cf34bee0cd8da49aa83f62dd121033f0e49f0de",
+      "title": "Critical VMware Workstation and Fusion Flaw Lets VM Admins Execute Host Code",
+      "link": "https://thehackernews.com/2026/09/critical-vmware-workstation-and-fusion.html",
+      "date": "2026-09-05T16:05:08Z",
+      "description": "Broadcom has released security updates for two security flaws impacting VMware Workstation and Fusion, including one critical bug that could result in arbitrary code execution under certain conditions. The vulnerability, tracked as CVE-2026-59346 (CVSS score: 9.3), is an integer-overflow vulnerability that a local attacker with elevated privileges can exploit to run arbitrary code. \"A",
+      "source": "thehackernews.com",
+      "first_seen": "2026-09-05T17:00:21Z",
+      "last_seen": "2026-09-05T17:00:21Z"
+    },
+    {
+      "id": "5c143787c193abec28711530959fcd5e34c15c1d",
+      "title": "Over 5,400 hacked sites serve ClickFix payloads stored on the blockchain",
+      "link": "https://www.bleepingcomputer.com/news/security/over-5-400-hacked-sites-serve-clickfix-payloads-stored-on-the-blockchain/",
+      "date": "2026-09-05T14:29:13Z",
+      "description": "A massive cybercriminal operation is leveraging thousands of compromised small-business websites to deliver ClickFix payloads stored in smart contracts on the BNB Smart Chain (BSC). [...]",
+      "source": "bleepingcomputer.com",
+      "first_seen": "2026-09-05T17:00:21Z",
+      "last_seen": "2026-09-05T17:00:21Z"
+    },
+    {
+      "id": "2dc2ce79bdcd31fb7f0a5b1007a68b72496eb9dd",
+      "title": "Trezor Says ShipMonk Breach Exposed 67,000 U.S. Customers' Data It Said Was Deleted",
+      "link": "https://thehackernews.com/2026/09/trezor-says-shipmonk-breach-exposed.html",
+      "date": "2026-09-05T14:17:02Z",
+      "description": "Hardware wallet manufacturer Trezor on Friday disclosed that another 67,000 customers from the U.S. have been impacted in a breach at its shipping provider ShipMonk. The exposed information includes customer names, email addresses, phone numbers, shipping addresses, and order numbers between November 2019 and August 2021. The breach does not affect the security of the company's hardware wallets",
+      "source": "thehackernews.com",
+      "first_seen": "2026-09-05T17:00:21Z",
+      "last_seen": "2026-09-05T17:00:21Z"
+    },
+    {
       "id": "fb5d93339a07f5905ec0153f436e53dab6edd398",
       "title": "Elementor Pro WordPress Plugin Vulnerability Exploited to Hack Sites",
       "link": "https://www.securityweek.com/elementor-pro-wordpress-plugin-vulnerability-exploited-to-hack-sites/",
@@ -31,7 +71,7 @@
       "description": "Tracked as CVE-2026-32475 (CVSS score of 9.8), the bug described as an arbitrary file upload issue in the function that handles form submissions. The post Elementor Pro WordPress Plugin Vulnerability Exploited to Hack Sites appeared first on SecurityWeek.",
       "source": "securityweek.com",
       "first_seen": "2026-09-05T14:10:33Z",
-      "last_seen": "2026-09-05T14:10:33Z"
+      "last_seen": "2026-09-05T17:00:21Z"
     },
     {
       "id": "6dbeca33e0ea40e59fcdae0447a8d68adc5ccf35",
@@ -41,7 +81,7 @@
       "description": "OpenAI admits it did not disclose an incident where autonomous AI agents hijacked a German wiki, created 18,000 posts, shared answers, and bypassed restrictions, saying it treated the activity as model \"misalignment\" rather than a security breach. [...]",
       "source": "bleepingcomputer.com",
       "first_seen": "2026-09-05T14:10:33Z",
-      "last_seen": "2026-09-05T14:10:33Z"
+      "last_seen": "2026-09-05T17:00:21Z"
     },
     {
       "id": "1c871d5113b602e8f74da9127081bd3c494f6315",
@@ -51,7 +91,7 @@
       "description": "Microsoft is investigating an ongoing issue causing some Windows users to face significant delays or outright failures when launching the Microsoft Teams desktop client. The company acknowledged the problem, tracked internally as TM1466820, and confirmed it remains unresolved as engineers continue digging through service logs to find a root cause. According to Microsoft’s incident notice, […]…",
       "source": "cybersecuritynews.com",
       "first_seen": "2026-09-05T11:01:18Z",
-      "last_seen": "2026-09-05T11:01:18Z"
+      "last_seen": "2026-09-05T17:00:21Z"
     },
     {
       "id": "51d6fbf6b6ff856dc9929037ff153e13afe1456d",
@@ -61,7 +101,7 @@
       "description": "A group of AI safety researchers says a fleet of autonomous agents that identified themselves as OpenAI systems left about 18,000 posts on a dormant 25-year-old German wiki between May and July 2026, using the site as a shared board to pool answers to a timed web task and pass around a way out of their sandbox. The activity was concentrated on DSEwiki, a German software developer wiki that runs",
       "source": "thehackernews.com",
       "first_seen": "2026-09-05T11:01:18Z",
-      "last_seen": "2026-09-05T14:10:33Z"
+      "last_seen": "2026-09-05T17:00:21Z"
     },
     {
       "id": "4f9fe9f0e39556b229377714b5cd7fcfc407408f",
@@ -71,7 +111,7 @@
       "description": "A human attacker armed with frontier artificial intelligence models breached an enterprise network and seized root credentials in under 10 hours, a timeline that would normally take human red teams roughly two weeks to complete, according to a new incident response report from Palo Alto Networks’ Unit 42. The threat actor told Unit 42 investigators […] The post AI Agents Breach Company Network…",
       "source": "cybersecuritynews.com",
       "first_seen": "2026-09-05T11:01:18Z",
-      "last_seen": "2026-09-05T11:01:18Z"
+      "last_seen": "2026-09-05T17:00:21Z"
     },
     {
       "id": "d67c59e98915fb9286bd6799b8d77afeb759af01",
@@ -81,7 +121,7 @@
       "description": "Threat actors are exploiting the newly disclosed PaperCut flaws to facilitate credential theft in attacks targeting the education sector in the U.S. and Europe. The Arctic Wolf Adversary Research Team said it observed attackers exploiting CVE-2026-81578 and CVE-2026-82078 – an authentication bypass and remote code execution chain – to conduct command execution and reconnaissance, as well as",
       "source": "thehackernews.com",
       "first_seen": "2026-09-05T11:01:18Z",
-      "last_seen": "2026-09-05T14:10:33Z"
+      "last_seen": "2026-09-05T17:00:21Z"
     },
     {
       "id": "435f3509dcddd0cffd7a82587665505e3b87ac64",
@@ -91,7 +131,7 @@
       "description": "Multiple lawsuits have been filed against identity verification company IDScan after hackers allegedly breached the service and offered to sell more than 153 million driver's licenses. [...]",
       "source": "bleepingcomputer.com",
       "first_seen": "2026-09-04T18:41:07Z",
-      "last_seen": "2026-09-05T14:10:33Z"
+      "last_seen": "2026-09-05T17:00:21Z"
     },
     {
       "id": "f4db91b23e34d2a0e66e02d8775c466efbd67488",
@@ -101,7 +141,7 @@
       "description": "Microsoft has introduced Project Zenith, a new developer-optimized Windows 11 experience built for a class of high-memory PCs capable of running large AI models directly on-device, marking a significant shift away from cloud-dependent AI development workflows. Announced as a follow-up to commitments made at Build 2026, Project Zenith targets developer-class hardware equipped with at least […]…",
       "source": "cybersecuritynews.com",
       "first_seen": "2026-09-04T18:41:07Z",
-      "last_seen": "2026-09-05T11:01:18Z"
+      "last_seen": "2026-09-05T17:00:21Z"
     },
     {
       "id": "672a91932104f40bdf2e76b58f9180f869f6ba0e",
@@ -111,7 +151,7 @@
       "description": "Noteworthy stories that might have slipped under the radar: Microsoft rolled out patches for cloud services, hackers compromised 5,000 Dropbox accounts, and Guardio is now valued at $1.1 billion. The post In Other News: Microsoft’s Cloud Patches, Hacked Dropbox Accounts, Guardio’s $1.1B Valuation appeared first on SecurityWeek.",
       "source": "securityweek.com",
       "first_seen": "2026-09-04T18:41:07Z",
-      "last_seen": "2026-09-05T14:10:33Z"
+      "last_seen": "2026-09-05T17:00:21Z"
     },
     {
       "id": "fd4c9ae2cb06a28a07bba54f08067bd89f25019a",
@@ -121,7 +161,7 @@
       "description": "Nearly two dozen issues, tracked collectively as CVE-2026-73749 (CVSS score of 9.8), were addressed with the updates. The post HPE Patches Critical RCE Vulnerabilities in AOS-CX appeared first on SecurityWeek.",
       "source": "securityweek.com",
       "first_seen": "2026-09-04T18:41:07Z",
-      "last_seen": "2026-09-05T14:10:33Z"
+      "last_seen": "2026-09-05T17:00:21Z"
     },
     {
       "id": "0ad82a5f831e01d32a5058b13d313869af555b36",
@@ -131,7 +171,7 @@
       "description": "The Daybreak initiative will provide subsidized AI cyber capabilities, training and technical assistance, though OpenAI has disclosed few details about costs and eligibility. The post OpenAI Pledges $1 Billion to Bring Frontier AI to Critical Infrastructure Defenders appeared first on SecurityWeek.",
       "source": "securityweek.com",
       "first_seen": "2026-09-04T18:41:07Z",
-      "last_seen": "2026-09-05T14:10:33Z"
+      "last_seen": "2026-09-05T17:00:21Z"
     },
     {
       "id": "0c63a04edccd9043f52105a00c7af08b169431fc",
@@ -141,7 +181,7 @@
       "description": "Frontier AI models have already demonstrated they can autonomously — and in some cases, inadvertently — conduct end-to-end compromises, but the situation will become more urgent very soon.",
       "source": "darkreading.com",
       "first_seen": "2026-09-04T18:41:07Z",
-      "last_seen": "2026-09-05T14:10:33Z"
+      "last_seen": "2026-09-05T17:00:21Z"
     },
     {
       "id": "14e84b0345437426077241681cb4e40d33e4cd6c",
@@ -161,7 +201,7 @@
       "description": "Attackers have begun targeting a critical-severity Citrix NetScaler auth bypass flaw (CVE-2026-19490) in the wild, according to vulnerability intelligence company Previdian. [...]",
       "source": "bleepingcomputer.com",
       "first_seen": "2026-09-04T18:41:07Z",
-      "last_seen": "2026-09-05T14:10:33Z"
+      "last_seen": "2026-09-05T17:00:21Z"
     },
     {
       "id": "5338e8403fc09aecaf2e7be9593cef0855c302c1",
@@ -191,7 +231,7 @@
       "description": "A financially motivated threat group known as Toy Ghouls has begun using two custom Windows backdoors that communicate through popular messaging and broker services. The tools give attackers a discreet way to run commands, collect system details, and maintain control over compromised devices. The campaign marks a change for the group, which had previously relied […] The post Hackers Use Popular…",
       "source": "cybersecuritynews.com",
       "first_seen": "2026-09-04T18:41:07Z",
-      "last_seen": "2026-09-05T11:01:18Z"
+      "last_seen": "2026-09-05T17:00:21Z"
     },
     {
       "id": "d370e2d58520e6c702ec9f8d42ba58818daa8e05",
@@ -201,7 +241,7 @@
       "description": "Microsoft is working to resolve a known issue that causes delays or blocks some users from opening the Microsoft Teams desktop client on Windows systems. [...]",
       "source": "bleepingcomputer.com",
       "first_seen": "2026-09-04T15:23:15Z",
-      "last_seen": "2026-09-05T14:10:33Z"
+      "last_seen": "2026-09-05T17:00:21Z"
     },
     {
       "id": "12ef3620cde73a89f78da34be549ff88116a30e4",
@@ -211,7 +251,7 @@
       "description": "NodeStealer has returned with a more invasive toolkit. The Python-based information stealer can now record keystrokes, watch copied text, and capture victims’ screens, turning an account-stealing infection into continuous surveillance. The change raises the stakes for people whose browsers hold work, banking, or social-media access. First tracked in 2023, NodeStealer initially focused on…",
       "source": "cybersecuritynews.com",
       "first_seen": "2026-09-04T18:41:07Z",
-      "last_seen": "2026-09-05T11:01:18Z"
+      "last_seen": "2026-09-05T17:00:21Z"
     },
     {
       "id": "c92ba8b2b748ae50efd62fa698611ed9d1255124",
@@ -241,7 +281,7 @@
       "description": "Tracked as CVE-2026-9586, the unauthenticated SQL injection flaw can be exploited remotely for arbitrary code execution. The post Sangoma Switchvox Vulnerabilities Exploited in the Wild appeared first on SecurityWeek.",
       "source": "securityweek.com",
       "first_seen": "2026-09-04T15:23:15Z",
-      "last_seen": "2026-09-05T14:10:33Z"
+      "last_seen": "2026-09-05T17:00:21Z"
     },
     {
       "id": "9c592ec3927e4364e1d1cdcedd049caec416f118",
@@ -271,7 +311,7 @@
       "description": "A tidal wave of bug reports is overwhelming software vendors, exposing secure-by-design failures and creating disclosure bottlenecks.",
       "source": "darkreading.com",
       "first_seen": "2026-09-04T15:23:15Z",
-      "last_seen": "2026-09-05T14:10:33Z"
+      "last_seen": "2026-09-05T17:00:21Z"
     },
     {
       "id": "ade7709ddb0bbee221fe9696b46cbcaeec30255f",
@@ -291,7 +331,7 @@
       "description": "As incidents of unintended harm caused by rogue AI agents mount, CISOs and insurance firms are figuring out how to handle the fallout.",
       "source": "darkreading.com",
       "first_seen": "2026-09-04T23:32:31Z",
-      "last_seen": "2026-09-05T14:10:33Z"
+      "last_seen": "2026-09-05T17:00:21Z"
     },
     {
       "id": "9db3a5ec3ab7245e26acf378a0889450d7e46ea8",
@@ -451,7 +491,7 @@
       "description": "A CVSS score 7.5 AV:N/AC:H/PR:N/UI:R/S:U/C:H/I:H/A:H severity vulnerability discovered by 'Kyeongmin Kim (@hareh4ru) of KAIST Hacking Lab' was reported to the affected vendor on: 2026-09-04, 0 days ago. The vendor is given until 2027-01-02 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
       "source": "zerodayinitiative.com",
       "first_seen": "2026-09-04T15:23:15Z",
-      "last_seen": "2026-09-05T14:10:33Z"
+      "last_seen": "2026-09-05T17:00:21Z"
     },
     {
       "id": "ab9e7754a85fa69a249a00c8633caf059b3e2df9",
@@ -461,7 +501,7 @@
       "description": "A CVSS score 3.1 AV:N/AC:H/PR:N/UI:R/S:U/C:L/I:N/A:N severity vulnerability discovered by 'Kyeongmin Kim (@hareh4ru) of KAIST Hacking Lab' was reported to the affected vendor on: 2026-09-04, 0 days ago. The vendor is given until 2027-01-02 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
       "source": "zerodayinitiative.com",
       "first_seen": "2026-09-04T15:23:15Z",
-      "last_seen": "2026-09-05T14:10:33Z"
+      "last_seen": "2026-09-05T17:00:21Z"
     },
     {
       "id": "1da67c2c62e307071ce844dce6b81b26f0265f8a",
@@ -471,7 +511,7 @@
       "description": "A CVSS score 4.3 AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:L/A:N severity vulnerability discovered by 'Hlib Yavorskyi' was reported to the affected vendor on: 2026-09-04, 0 days ago. The vendor is given until 2027-01-02 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
       "source": "zerodayinitiative.com",
       "first_seen": "2026-09-04T21:08:43Z",
-      "last_seen": "2026-09-05T14:10:33Z"
+      "last_seen": "2026-09-05T17:00:21Z"
     },
     {
       "id": "0187f602fd39171cbba37db71e53bda6e128e0af",
@@ -511,7 +551,7 @@
       "description": "Threat actors behind the \"Phantom Deal\" campaign are studying companies in extreme detail, aiming to dupe midlevel employees into initiating large financial transfers.",
       "source": "darkreading.com",
       "first_seen": "2026-09-03T21:29:48Z",
-      "last_seen": "2026-09-05T14:10:33Z"
+      "last_seen": "2026-09-05T17:00:21Z"
     },
     {
       "id": "36dbbb534bd28fb89ce8571e8a580b0bf688877e",
@@ -531,7 +571,7 @@
       "description": "In this video conversation, Dark Reading editors discuss some of the news they didn't get a chance to cover, from the latest antics of ShinyHunters to new research about the prevalence (or lack thereof) of AI-generated malware.",
       "source": "darkreading.com",
       "first_seen": "2026-09-03T21:29:48Z",
-      "last_seen": "2026-09-05T14:10:33Z"
+      "last_seen": "2026-09-05T17:00:21Z"
     },
     {
       "id": "1a69dbcafeb6f5af8f544655e24a61216161ae85",
@@ -931,7 +971,7 @@
       "description": "A CVSS score 4.9 AV:N/AC:L/PR:H/UI:N/S:U/C:H/I:N/A:N severity vulnerability discovered by 'Anonymous' was reported to the affected vendor on: 2026-09-03, 0 days ago. The vendor is given until 2027-01-01 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
       "source": "zerodayinitiative.com",
       "first_seen": "2026-09-03T21:29:48Z",
-      "last_seen": "2026-09-05T14:10:33Z"
+      "last_seen": "2026-09-05T17:00:21Z"
     },
     {
       "id": "eb8edb12696c7423369f1a599916a437e2ef9e7c",
@@ -941,7 +981,7 @@
       "description": "A CVSS score 7.8 AV:L/AC:H/PR:L/UI:N/S:C/C:H/I:H/A:H severity vulnerability discovered by 'caveeroo' was reported to the affected vendor on: 2026-09-03, 0 days ago. The vendor is given until 2027-01-01 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
       "source": "zerodayinitiative.com",
       "first_seen": "2026-09-03T21:29:48Z",
-      "last_seen": "2026-09-05T14:10:33Z"
+      "last_seen": "2026-09-05T17:00:21Z"
     },
     {
       "id": "ddb3c36c94ee7eebc8adba5121d0176745e99aed",
@@ -35894,26 +35934,6 @@
       "last_seen": "2026-06-08T03:31:49Z"
     },
     {
-      "id": "c107919a7fae5070f7bddcbd9a420a55b024902a",
-      "title": "C0XMO botnet spreads via DD-WRT router flaw, kills rival malware",
-      "link": "https://www.bleepingcomputer.com/news/security/c0xmo-botnet-spreads-via-dd-wrt-router-flaw-kills-rival-malware/",
-      "date": "2026-06-07T14:17:46Z",
-      "description": "A new variant of the Gafgyt botnet called C0XMO is targeting DD-WRT router firmware and can move to other device types with various CPU architectures. [...]",
-      "source": "bleepingcomputer.com",
-      "first_seen": "2026-06-07T15:17:48Z",
-      "last_seen": "2026-06-08T12:56:53Z"
-    },
-    {
-      "id": "90e3f33422ad7f6bf3c6212a4aaffe4727e093fc",
-      "title": "Silent Ransom Group targets law firms with fake IT support calls",
-      "link": "https://www.bleepingcomputer.com/news/security/silent-ransom-group-targets-law-firms-with-fake-it-support-calls/",
-      "date": "2026-06-07T14:09:19Z",
-      "description": "The Silent Ransom Group extortion gang is actively targeting U.S. law firms and professional services organizations in social engineering attacks that often lead to data theft within hours of initial contact, according to a new report by cybersecurity firm Mandiant. [...]",
-      "source": "bleepingcomputer.com",
-      "first_seen": "2026-06-07T15:17:48Z",
-      "last_seen": "2026-06-08T12:56:53Z"
-    },
-    {
       "id": "664df53292fd50e8b1e7bf61d1267fe95047525f",
       "title": "Student Loan Breach Exposes 2.5M Records",
       "link": "https://threatpost.com/student-loan-breach-exposes-2-5m-records/180492/",
@@ -35921,7 +35941,7 @@
       "description": "2.5 million people were affected, in a breach that could spell more trouble down the line.",
       "source": "threatpost.com",
       "first_seen": "2026-08-08T14:21:59Z",
-      "last_seen": "2026-09-05T14:10:33Z"
+      "last_seen": "2026-09-05T17:00:21Z"
     },
     {
       "id": "4140c7a34b0ba94ad2e6b0cae9f59b0cb9bfffea",
@@ -35931,7 +35951,7 @@
       "description": "Researchers uncover a watering hole attack likely carried out by APT TA423, which attempts to plant the ScanBox JavaScript-based reconnaissance tool.",
       "source": "threatpost.com",
       "first_seen": "2026-08-08T14:21:59Z",
-      "last_seen": "2026-09-05T14:10:33Z"
+      "last_seen": "2026-09-05T17:00:21Z"
     },
     {
       "id": "9359ee40a641a4b565080313045f1d7e7fe6552b",
@@ -35941,7 +35961,7 @@
       "description": "Over 130 companies tangled in sprawling phishing campaign that spoofed a multi-factor authentication system.",
       "source": "threatpost.com",
       "first_seen": "2026-08-08T14:21:59Z",
-      "last_seen": "2026-09-05T14:10:33Z"
+      "last_seen": "2026-09-05T17:00:21Z"
     },
     {
       "id": "b4ccef0737cd4050d65241bf754072030b6b5e6a",
@@ -35951,7 +35971,7 @@
       "description": "Lockbit is by far this summer’s most prolific ransomware group, trailed by two offshoots of the Conti group.",
       "source": "threatpost.com",
       "first_seen": "2026-08-08T14:21:59Z",
-      "last_seen": "2026-09-05T14:10:33Z"
+      "last_seen": "2026-09-05T17:00:21Z"
     },
     {
       "id": "12ee113fc8fce91f6d7fb28deab2b1ad20061ec7",
@@ -35961,7 +35981,7 @@
       "description": "Tens of thousands of cameras have failed to patch a critical, 11-month-old CVE, leaving thousands of organizations exposed.",
       "source": "threatpost.com",
       "first_seen": "2026-08-08T14:21:59Z",
-      "last_seen": "2026-09-05T14:10:33Z"
+      "last_seen": "2026-09-05T17:00:21Z"
     }
   ]
 }
