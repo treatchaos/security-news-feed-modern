@@ -1,13 +1,48 @@
 {
-  "last_updated": "2026-09-07T00:28:22Z",
-  "count": 30,
+  "last_updated": "2026-09-07T05:25:38Z",
+  "count": 35,
   "items": [
+    {
+      "title": "Weekly Cybersecurity Newsletter Bulletin – CrowdStrike Falcon, Chrome 0-Day, GPT-6 Astra, Dropbox Breach and 20+ Stories",
+      "link": "https://cybersecuritynews.com/weekly-cybersecurity-newsletter-bulletin-sept-2026/",
+      "date": "2026-09-07T02:53:00Z",
+      "description": "This edition of the weekly cybersecurity newsletter bulletin covers critical zero-day discoveries, nation-state router compromises, emerging autonomous AI attack vectors, and major cloud identity incidents. Below are detailed summaries of the top developments impacting enterprise defense and threat landscapes this week. CrowdStrike Falcon Sensor Privilege Escalation Claim A security researcher…",
+      "source": "cybersecuritynews.com"
+    },
+    {
+      "title": "ChatGPT Astra is now rolling out to $20 Plus subscription",
+      "link": "https://www.bleepingcomputer.com/news/artificial-intelligence/chatgpt-astra-is-now-rolling-out-to-20-plus-subscription/",
+      "date": "2026-09-07T01:15:43Z",
+      "description": "OpenAI is now rolling out ChatGPT Astra, its most powerful model to date, to those with a $20 Plus subscription, but there's no word on when free users will get access.. [...]",
+      "source": "bleepingcomputer.com"
+    },
     {
       "title": "Attackers conceal phishing lures using invisible Unicode characters",
       "link": "https://www.bleepingcomputer.com/news/security/attackers-conceal-phishing-lures-using-invisible-unicode-characters/",
       "date": "2026-09-06T14:23:46Z",
       "description": "Threat actors have adopted the ASCII smuggling technique in phishing campaigns, using invisible Unicode characters to evade email security filters. [...]",
       "source": "bleepingcomputer.com"
+    },
+    {
+      "title": "CrowdStrike Launches SafeMind – First Agentic Cybersecurity Solution Built for Defenders",
+      "link": "https://cybersecuritynews.com/crowdstrike-launches-safemind/",
+      "date": "2026-09-06T13:03:56Z",
+      "description": "CrowdStrike has unveiled SafeMind, a family of purpose-built security models and harnesses that the company is calling the first agentic system engineered specifically for cyber defenders. Announced at Fal.Con 2026 in Las Vegas, the launch marks a strategic pivot away from generic frontier AI models toward a dedicated offensive-defensive framework built to operate natively inside […] The post…",
+      "source": "cybersecuritynews.com"
+    },
+    {
+      "title": "ASUS Control Center Flaw Allows Attackers to Gain Full Admin Control of the System",
+      "link": "https://cybersecuritynews.com/asus-control-center-vulnerability/",
+      "date": "2026-09-06T10:57:47Z",
+      "description": "ASUS has issued an urgent security update for ASUS Control Center Enterprise (ACC) after researchers uncovered a maximum-severity vulnerability that lets remote attackers seize complete administrative control over the platform and every device it manages, without needing a password or any user interaction. Tracked as CVE-2026-75754, the flaw carries a CVSS 4.0 score of 10.0, […] The post ASUS…",
+      "source": "cybersecuritynews.com"
+    },
+    {
+      "title": "Hackers Exploiting MikroTik RouterOS Vulnerability in the Wild to Gain Complete Network Access",
+      "link": "https://cybersecuritynews.com/mikrotik-routeros-vulnerability/",
+      "date": "2026-09-06T10:25:15Z",
+      "description": "Attackers are actively exploiting an unauthenticated remote access flaw in MikroTik RouterOS, and network administrators worldwide are being urged to patch their devices immediately before compromise turns into a full network takeover. MikroTik confirmed on September 3, 2026, that it had discovered a serious security vulnerability affecting RouterOS and had already shipped fixes across every […]…",
+      "source": "cybersecuritynews.com"
     },
     {
       "title": "Attackers Hijack MikroTik Routers Through Internet-Exposed SSH Without Authentication",
@@ -22,6 +57,13 @@
       "date": "2026-09-06T08:34:20Z",
       "description": "Elastic Security Labs has documented four previously unreported programs associated with REVSTEALER, an emerging Windows information stealer, that remain on an infected machine after the stealer deletes itself. One of them switches off Windows Update and Microsoft Defender before running a cryptocurrency miner. The company named the four programs ProManager, WinUpdate, SoftManager, and",
       "source": "thehackernews.com"
+    },
+    {
+      "title": "10 Best ZTNA Solutions (Zero Trust Network Access) In 2026",
+      "link": "https://cybersecuritynews.com/best-ztna-solutions/",
+      "date": "2026-09-06T04:48:58Z",
+      "description": "Zero Trust Network Access (ZTNA) anchors 2026 cybersecurity amid remote, cloud, and hybrid booms. ZTNA solutions aren’t hype—they’re vital for data locks, compliance wins, and borderless teams. “Never trust, always verify”: ZTNA okays only vetted users/devices, location-blind. Shrink attack planes, block lateral creeps, master app gates. Market clutter and threat flux complicate picks. We rank…",
+      "source": "cybersecuritynews.com"
     },
     {
       "title": "Unpatched Magento and Adobe Commerce Zero-Day Exploited to Backdoor Online Stores",
@@ -101,13 +143,6 @@
       "source": "darkreading.com"
     },
     {
-      "title": "Critical Citrix NetScaler auth bypass now leveraged in attacks",
-      "link": "https://www.bleepingcomputer.com/news/security/hackers-target-critical-citrix-netscaler-auth-bypass-in-attacks/",
-      "date": "2026-09-04T15:25:59Z",
-      "description": "Attackers have begun targeting a critical-severity Citrix NetScaler auth bypass flaw (CVE-2026-19490) in the wild, according to vulnerability intelligence company Previdian. [...]",
-      "source": "bleepingcomputer.com"
-    },
-    {
       "title": "Sangoma Switchvox Vulnerabilities Exploited in the Wild",
       "link": "https://www.securityweek.com/sangoma-switchvox-vulnerabilities-exploited-in-the-wild/",
       "date": "2026-09-04T13:23:12Z",
@@ -132,21 +167,21 @@
       "title": "ZDI-CAN-30756: Microsoft",
       "link": "http://www.zerodayinitiative.com/advisories/upcoming/",
       "date": "2026-09-04T05:00:00Z",
-      "description": "A CVSS score 7.5 AV:N/AC:H/PR:N/UI:R/S:U/C:H/I:H/A:H severity vulnerability discovered by 'Kyeongmin Kim (@hareh4ru) of KAIST Hacking Lab' was reported to the affected vendor on: 2026-09-04, 2 days ago. The vendor is given until 2027-01-02 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
+      "description": "A CVSS score 7.5 AV:N/AC:H/PR:N/UI:R/S:U/C:H/I:H/A:H severity vulnerability discovered by 'Kyeongmin Kim (@hareh4ru) of KAIST Hacking Lab' was reported to the affected vendor on: 2026-09-04, 3 days ago. The vendor is given until 2027-01-02 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
       "source": "zerodayinitiative.com"
     },
     {
       "title": "ZDI-CAN-30923: Microsoft",
       "link": "http://www.zerodayinitiative.com/advisories/upcoming/",
       "date": "2026-09-04T05:00:00Z",
-      "description": "A CVSS score 3.1 AV:N/AC:H/PR:N/UI:R/S:U/C:L/I:N/A:N severity vulnerability discovered by 'Kyeongmin Kim (@hareh4ru) of KAIST Hacking Lab' was reported to the affected vendor on: 2026-09-04, 2 days ago. The vendor is given until 2027-01-02 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
+      "description": "A CVSS score 3.1 AV:N/AC:H/PR:N/UI:R/S:U/C:L/I:N/A:N severity vulnerability discovered by 'Kyeongmin Kim (@hareh4ru) of KAIST Hacking Lab' was reported to the affected vendor on: 2026-09-04, 3 days ago. The vendor is given until 2027-01-02 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
       "source": "zerodayinitiative.com"
     },
     {
       "title": "ZDI-CAN-31571: Microsoft",
       "link": "http://www.zerodayinitiative.com/advisories/upcoming/",
       "date": "2026-09-04T05:00:00Z",
-      "description": "A CVSS score 4.3 AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:L/A:N severity vulnerability discovered by 'Hlib Yavorskyi' was reported to the affected vendor on: 2026-09-04, 2 days ago. The vendor is given until 2027-01-02 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
+      "description": "A CVSS score 4.3 AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:L/A:N severity vulnerability discovered by 'Hlib Yavorskyi' was reported to the affected vendor on: 2026-09-04, 3 days ago. The vendor is given until 2027-01-02 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
       "source": "zerodayinitiative.com"
     },
     {
@@ -167,14 +202,14 @@
       "title": "ZDI-CAN-28931: AOMEI",
       "link": "http://www.zerodayinitiative.com/advisories/upcoming/",
       "date": "2026-09-03T05:00:00Z",
-      "description": "A CVSS score 4.9 AV:N/AC:L/PR:H/UI:N/S:U/C:H/I:N/A:N severity vulnerability discovered by 'Anonymous' was reported to the affected vendor on: 2026-09-03, 3 days ago. The vendor is given until 2027-01-01 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
+      "description": "A CVSS score 4.9 AV:N/AC:L/PR:H/UI:N/S:U/C:H/I:N/A:N severity vulnerability discovered by 'Anonymous' was reported to the affected vendor on: 2026-09-03, 4 days ago. The vendor is given until 2027-01-01 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
       "source": "zerodayinitiative.com"
     },
     {
       "title": "ZDI-CAN-32869: Linux",
       "link": "http://www.zerodayinitiative.com/advisories/upcoming/",
       "date": "2026-09-03T05:00:00Z",
-      "description": "A CVSS score 7.8 AV:L/AC:H/PR:L/UI:N/S:C/C:H/I:H/A:H severity vulnerability discovered by 'caveeroo' was reported to the affected vendor on: 2026-09-03, 3 days ago. The vendor is given until 2027-01-01 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
+      "description": "A CVSS score 7.8 AV:L/AC:H/PR:L/UI:N/S:C/C:H/I:H/A:H severity vulnerability discovered by 'caveeroo' was reported to the affected vendor on: 2026-09-03, 4 days ago. The vendor is given until 2027-01-01 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
       "source": "zerodayinitiative.com"
     },
     {
