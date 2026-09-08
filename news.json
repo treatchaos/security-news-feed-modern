@@ -1,20 +1,132 @@
 {
-  "last_updated": "2026-09-08T11:53:11Z",
+  "last_updated": "2026-09-08T15:36:58Z",
   "count": 35,
   "items": [
     {
-      "title": "FreeIPA Flaw Chain Lets Anonymous Clients Create Reusable Administrator Credentials",
-      "link": "https://thehackernews.com/2026/09/freeipa-flaw-chain-lets-anonymous.html",
-      "date": "2026-09-08T11:22:07Z",
-      "description": "A flaw in FreeIPA lets a client that has never logged in create a Kerberos identity of its own choosing in the directory and end up in the administrators group, Red Hat says. FreeIPA is the system that determines who may log in across a Linux domain and maintains all identities in a 389 Directory Server database accessed via LDAP. The attack needs a second flaw in that database software. The",
+      "title": "Dell Secure Connect Gateway Vulnerabilities Allow Hackers to Gain Unauthorized Access",
+      "link": "https://cybersecuritynews.com/dell-secure-connect-gateway-vulnerabilities/",
+      "date": "2026-09-08T15:22:46Z",
+      "description": "Dell has disclosed three critical vulnerabilities in its Secure Connect Gateway 5.0 platform that could allow attackers to gain unauthorized access, execute commands remotely, and obtain root-level control of affected systems. The flaws affect Dell Secure Connect Gateway 5.0 Appliance versions earlier than 5.36.00.16 and Secure Connect Gateway 5.0 Application versions earlier than 5.36.00.00.…",
+      "source": "cybersecuritynews.com"
+    },
+    {
+      "title": "August updates trigger 0xc0000409 errors on Windows Server 2016",
+      "link": "https://www.bleepingcomputer.com/news/microsoft/august-updates-trigger-0xc0000409-errors-on-windows-server-2016/",
+      "date": "2026-09-08T15:22:33Z",
+      "description": "Microsoft says the August 2026 security update may trigger 0xc0000409 errors on Windows Server 2016 systems where the Compatibility Appraiser diagnostic service is enabled. [...]",
+      "source": "bleepingcomputer.com"
+    },
+    {
+      "title": "Cylake Raises $245 Million Ahead of Cybersecurity Platform Beta",
+      "link": "https://www.securityweek.com/cylake-raises-245-million-ahead-of-cybersecurity-platform-beta/",
+      "date": "2026-09-08T15:21:01Z",
+      "description": "The startup founded by Palo Alto Networks’ Nir Zuk has raised $290 million to build an AI-native security platform for highly regulated organizations that cannot rely on the public cloud. The post Cylake Raises $245 Million Ahead of Cybersecurity Platform Beta appeared first on SecurityWeek.",
+      "source": "securityweek.com"
+    },
+    {
+      "title": "ChatGPT Sandbox Flaw Lets Attackers Steal Gmail Data Across Accounts via Hidden Channel",
+      "link": "https://cybersecuritynews.com/chatgpt-sandbox-gmail-data/",
+      "date": "2026-09-08T15:20:31Z",
+      "description": "A covert cross-account communication channel inside ChatGPT let an attacker hijack a victim’s session and silently exfiltrate data from connected apps like Gmail, all while the victim saw nothing unusual in their conversation. The vulnerability exploited ChatGPT’s code-execution containers, isolated sandboxes the assistant uses when a task requires running code or installing software packages.…",
+      "source": "cybersecuritynews.com"
+    },
+    {
+      "title": "SAP warns of maximum severity 'OVERPASS' kernel vulnerability",
+      "link": "https://www.bleepingcomputer.com/news/security/sap-warns-of-maximum-severity-overpass-kernel-vulnerability/",
+      "date": "2026-09-08T14:55:20Z",
+      "description": "SAP has addressed 20 vulnerabilities across multiple products in its September 2026 security updates, including a maximum-severity memory corruption flaw in the SAP Kernel code. [...]",
+      "source": "bleepingcomputer.com"
+    },
+    {
+      "title": "SAP Patches Critical Extended Passport Processing Vulnerability",
+      "link": "https://www.securityweek.com/sap-patches-critical-extended-passport-processing-vulnerability/",
+      "date": "2026-09-08T14:55:06Z",
+      "description": "Affecting the SAP kernel code, the flaw allows unauthenticated, remote attackers to run arbitrary commands, recover secrets, and modify data. The post SAP Patches Critical Extended Passport Processing Vulnerability appeared first on SecurityWeek.",
+      "source": "securityweek.com"
+    },
+    {
+      "title": "Liquid Hackers Return 3,400 Bitcoin Taken via Elements Bug, Still Holding $47M in BTC",
+      "link": "https://thehackernews.com/2026/09/liquid-hackers-return-3400-bitcoin.html",
+      "date": "2026-09-08T14:54:30Z",
+      "description": "Whoever took nearly 4,000 bitcoin from the Liquid Network on Sunday, September 6, returned 3,400 of it the next day, Bitcoin's public record shows. About 598.5 bitcoin has not come back. Liquid is a Bitcoin sidechain that holds real bitcoin to back a token called L-BTC. The network is still paused, so holders cannot turn that token back into bitcoin. The 3,400 bitcoin was sent to a&",
       "source": "thehackernews.com"
     },
     {
-      "title": "SAP Security Updates September 2026 – Critical Flaws Patched in SAP NetWeaver, Cloud and Extended Passport",
-      "link": "https://cybersecuritynews.com/sap-security-updates-september-2026/",
-      "date": "2026-09-08T11:19:03Z",
-      "description": "SAP has released its September 2026 Security Patch Day updates, delivering 19 new security notes and one update to a previously issued note. The patches address vulnerabilities across SAP NetWeaver, SAP Extended Passport Processing, SAP Cloud Application Programming Model, SAP S/4HANA, SAP Integration Suite, SAP Commerce Cloud, and other enterprise products. The most severe issue […] The post…",
+      "title": "OpenAI says GPT-6 Astra can find zero-days, but is also harder to monitor",
+      "link": "https://www.bleepingcomputer.com/news/artificial-intelligence/openai-says-gpt-6-astra-can-find-zero-days-but-is-also-harder-to-monitor/",
+      "date": "2026-09-08T14:40:32Z",
+      "description": "OpenAI confirmed that GPT-6 Astra is the first model it has broadly deployed to reach the \"Critical level\" for cybersecurity capabilities. [...]",
+      "source": "bleepingcomputer.com"
+    },
+    {
+      "title": "ChatGPT Flaw Let a Planted Prompt Send a Victim's Gmail Data to Another Account",
+      "link": "https://thehackernews.com/2026/09/chatgpt-flaw-let-planted-prompt-send.html",
+      "date": "2026-09-08T14:19:17Z",
+      "description": "Check Point Research said in a report published today that a single instruction planted in a ChatGPT conversation could cause ChatGPT to quietly work for an attacker while answering the user's question as usual. In the company's proof of concept, that hidden work read data from the user's connected Gmail account and passed it to a second ChatGPT account through a hidden channel",
+      "source": "thehackernews.com"
+    },
+    {
+      "title": "Reflectiz Launches Agentic Pentesting for Websites: Up to 10x Coverage vs Conventional Pentests",
+      "link": "https://cybersecuritynews.com/reflectiz-launches-agentic-pentesting-for-websites-up-to-10x-coverage-vs-conventional-pentests/",
+      "date": "2026-09-08T14:02:40Z",
+      "description": "Boston, MA, USA, September 8th, 2026, CyberNewswire Specialized team of AI agents that discover, attack, and validate web vulnerabilities, leveraging pre-existing site context to eliminate noise and speed remediation. Reflectiz, the continuous web exposure management company, today launched a multi-agent penetration testing platform for websites. Multiple specialized AI agents discover, attack,…",
       "source": "cybersecuritynews.com"
+    },
+    {
+      "title": "Autonomous AI Agents Compromise Thousands of Credentials in Under Six Hours",
+      "link": "https://thehackernews.com/2026/09/autonomous-ai-agents-compromise.html",
+      "date": "2026-09-08T13:48:16Z",
+      "description": "Threat actors are continuing to leverage artificial intelligence (AI) to streamline their operations, with one financially motivated hacking group employing an autonomous, multi-agent attack framework to carry out a large-scale credential harvesting campaign within six hours. Google Threat Intelligence Group (GTIG) said it has observed attackers with diverse motivations targeting proprietary AI",
+      "source": "thehackernews.com"
+    },
+    {
+      "title": "Adobe fixes critical Magento zero-day exploited to backdoor servers",
+      "link": "https://www.bleepingcomputer.com/news/security/adobe-fixes-critical-magento-zero-day-exploited-to-backdoor-servers/",
+      "date": "2026-09-08T13:34:47Z",
+      "description": "Adobe has released an emergency fix for CVE-2026-75650, an actively exploited max-severity zero-day vulnerability dubbed StyleSmuggler, that impacts multiple versions of Magento and Adobe Commerce. [...]",
+      "source": "bleepingcomputer.com"
+    },
+    {
+      "title": "Mars Security Launches Real-Time Intel-to-Detection Engine That Turns Live Threat Intelligence Into Backtested Detections in Minutes",
+      "link": "https://cybersecuritynews.com/mars-security-launches-real-time-intel-to-detection-engine-that-turns-live-threat-intelligence-into-backtested-detections-in-minutes/",
+      "date": "2026-09-08T13:20:42Z",
+      "description": "New York, NY, United States, September 8th, 2026, CyberNewswire Mars Security, the autonomous threat hunting and detection engineering platform founded by offensive security veterans, today announced Real-Time Intel-Based Detection, a capability that turns newly published threat intelligence into validated, ready-to-deploy detection rules within minutes of release. Built by former offensive…",
+      "source": "cybersecuritynews.com"
+    },
+    {
+      "title": "Party’s Over for Crypto Scammers Who Went on a Spending Spree After a $240 Million Bitcoin Theft",
+      "link": "https://www.securityweek.com/partys-over-for-crypto-scammers-who-went-on-a-spending-spree-after-a-240-million-bitcoin-theft/",
+      "date": "2026-09-08T13:00:00Z",
+      "description": "The scammers purchased fleets of sports cars, flew on private jets, hired security guards and rented mansions in Miami and the Hamptons. The post Party’s Over for Crypto Scammers Who Went on a Spending Spree After a $240 Million Bitcoin Theft appeared first on SecurityWeek.",
+      "source": "securityweek.com"
+    },
+    {
+      "title": "Claude Mythos AI Autonomously Executes Full Cyber Kill Chain Without Human Guidance",
+      "link": "https://cybersecuritynews.com/claude-mythos-ai/",
+      "date": "2026-09-08T12:50:47Z",
+      "description": "Claude Mythos is the first model reported to complete a cyber kill chain without step-by-step human direction. The finding does not describe malware or a confirmed victim breach. It is a controlled test, but shows how quickly autonomous attack capability is advancing. The concern is speed. The model found weaknesses, entered a defended enterprise network, […] The post Claude Mythos AI…",
+      "source": "cybersecuritynews.com"
+    },
+    {
+      "title": "Webinar: The forgotten Google Workspace access that can lead to a breach",
+      "link": "https://www.bleepingcomputer.com/news/security/webinar-the-forgotten-google-workspace-access-that-can-lead-to-a-breach/",
+      "date": "2026-09-08T12:40:48Z",
+      "description": "Third-party applications connected to Google Workspace can retain access long after their original purpose is forgotten. This webinar examines how overly permissive integrations contribute to breaches and which security controls can help fast-growing companies reduce their exposure. [...]",
+      "source": "bleepingcomputer.com"
+    },
+    {
+      "title": "WeChat Zero-Click Worm Took Over Accounts on iPhone and Android via Incoming Calls",
+      "link": "https://thehackernews.com/2026/09/wechat-zero-click-worm-took-over.html",
+      "date": "2026-09-08T11:54:29Z",
+      "description": "Researchers at the security firm Calif have built a worm that takes over a WeChat account via an incoming call and demonstrated it spreading among three test phones. The person being called does not have to answer or touch their phone for it to work, but the caller must already be one of their WeChat contacts. Calif reported the flaw to Tencent in July and says the company has since",
+      "source": "thehackernews.com"
+    },
+    {
+      "title": "What It Took to Reach 1 Billion Build Manifests",
+      "link": "https://thehackernews.com/2026/09/what-it-took-to-reach-1-billion-build.html",
+      "date": "2026-09-08T11:49:02Z",
+      "description": "In the last six months, Chainguard doubled its output from 500 million to more than 1 billion container build manifests. We also surpassed 3,000 unique container images and 675,000 image versions in our catalog. Those are the headline numbers, but I want to share what's actually behind them. The number itself is less interesting than the system that produced it, and why we had to fundamentally",
+      "source": "thehackernews.com"
     },
     {
       "title": "MikroTik Patches Critical Flaws Chained to Hack Routers",
@@ -28,118 +140,6 @@
       "link": "https://www.securityweek.com/mathspace-data-breach-exposes-over-1-million-people/",
       "date": "2026-09-08T10:47:36Z",
       "description": "Hackers stole the information of students, teachers, staff, and parents/guardians from a self-hosted Metabase instance. The post Mathspace Data Breach Exposes Over 1 Million People appeared first on SecurityWeek.",
-      "source": "securityweek.com"
-    },
-    {
-      "title": "N-able Patches Critical Zero-Day in N-central",
-      "link": "https://www.securityweek.com/n-able-patches-critical-zero-day-in-n-central/",
-      "date": "2026-09-08T10:37:58Z",
-      "description": "Administrators are advised to check their deployments for newly created user accounts they don’t recognize. The post N-able Patches Critical Zero-Day in N-central appeared first on SecurityWeek.",
-      "source": "securityweek.com"
-    },
-    {
-      "title": "U.S. Offers $10 Million Reward for Iranian IRGC Cyber Chief Linked to Critical Infrastructure Attacks",
-      "link": "https://cybersecuritynews.com/u-s-offers-10-million-reward-for-iranian-irgc-cyber-chief/",
-      "date": "2026-09-08T09:14:03Z",
-      "description": "The U.S. Department of State’s Rewards for Justice program has announced a reward of up to $10 million for information leading to the identification or whereabouts of Amir Yaryab, a senior figure in Iran’s Islamic Revolutionary Guard Corps Cyber-Electronic Command (IRGC-CEC). U.S. officials allege that Yaryab oversees the command’s Cyber Operations Command, managing cyber units […] The post U.S.…",
-      "source": "cybersecuritynews.com"
-    },
-    {
-      "title": "Adobe Patches Magento Zero-Day Exploited to Deploy Rust Backdoor and PHP Web Shell",
-      "link": "https://thehackernews.com/2026/09/adobe-patches-magento-zero-day.html",
-      "date": "2026-09-08T09:13:47Z",
-      "description": "Adobe on Monday released security patches to address a maximum-severity flaw impacting Adobe Commerce and Magento Open Source that has come under active exploitation in the wild. The vulnerability, now tracked as CVE-2026-75650 (CVSS score: 10.0), has been codenamed StyleSmuggler by Sansec, which discovered zero-day exploitation starting September 4, 2026. \"This update resolves a critical",
-      "source": "thehackernews.com"
-    },
-    {
-      "title": "Panzer Ransomware Targets Italian Manufacturers and Telecom Firms With ESXi-Ready RaaS",
-      "link": "https://cybersecuritynews.com/panzer-ransomware-targets/",
-      "date": "2026-09-08T09:10:50Z",
-      "description": "Panzer ransomware has entered Italy amid a sharp rise in attacks. The ransomware-as-a-service, or RaaS, operation surfaced on August 5 and listed a kitchen manufacturer in Treviso and a telecommunications engineering firm in Catanzaro among its alleged victims. The group advertises tools for Windows, Linux, FreeBSD, and VMware ESXi systems. An attack on a virtualization […] The post Panzer…",
-      "source": "cybersecuritynews.com"
-    },
-    {
-      "title": "AI Customer Service Bots Can Be Tricked Into Stealing Security Codes and Acting as Victims",
-      "link": "https://cybersecuritynews.com/ai-bots-tricked-into-stealing-security-codes/",
-      "date": "2026-09-08T08:50:11Z",
-      "description": "AI-powered customer service bots are being given more responsibility inside businesses, including access to customer profiles, billing data, support inboxes, account changes, and refund tools. The research showed that attackers may not need traditional vulnerability scanners or direct application exploitation. Instead, they can manipulate the data and messages an AI agent receives, causing it to…",
-      "source": "cybersecuritynews.com"
-    },
-    {
-      "title": "BengalSEO Poisons Bing Search Results to Deliver MayaBot and Tech Support Scams",
-      "link": "https://thehackernews.com/2026/09/bengalseo-poisons-bing-search-results.html",
-      "date": "2026-09-08T08:43:51Z",
-      "description": "Cybersecurity researchers have disclosed details of a sprawling search engine optimization (SEO) poisoning campaign that paves the way for malware deployment and tech support scams. The campaign, discovered by the DFIR Report in March 2026, has been codenamed BengalSEO. It has operated out of the Indian state of Rajasthan since at least 2015, driven by two IT service providers named WeConnect",
-      "source": "thehackernews.com"
-    },
-    {
-      "title": "BigBear 2.0 Evilginx2 Phishing Campaign Bypasses Microsoft 365 MFA With Session Cookie Theft",
-      "link": "https://cybersecuritynews.com/bigbear-2-0-evilginx2/",
-      "date": "2026-09-08T08:33:39Z",
-      "description": "BigBear 2.0 is a phishing operation designed to steal proof that a user has already passed multi-factor authentication. It targets Microsoft 365 accounts through convincing sign-in links, then takes over the logged-in browser session rather than attempting to break the authentication factor. The operation is a rebranded Evilginx2 phishing framework that targets Microsoft 365 accounts. […] The…",
-      "source": "cybersecuritynews.com"
-    },
-    {
-      "title": "220 million traveler records exposed in Vietnam-linked APIS leak",
-      "link": "https://www.bleepingcomputer.com/news/security/220-million-traveler-records-exposed-in-vietnam-linked-apis-leak/",
-      "date": "2026-09-08T07:35:50Z",
-      "description": "Exclusive: An exposed Advance Passenger Information System (APIS) database held 220 million passenger and crew records containing names, passport numbers, dates of birth, nationalities, and flight details spanning 2017 to 2026. Researchers accessed the Vietnam-linked system through a cloud-based path using default credentials. [...]",
-      "source": "bleepingcomputer.com"
-    },
-    {
-      "title": "Grindr to Pay £26 Million to Settle U.K. Claims Over HIV Status Data Sharing",
-      "link": "https://thehackernews.com/2026/09/grindr-to-pay-26-million-to-settle-uk.html",
-      "date": "2026-09-08T07:00:43Z",
-      "description": "Online dating app Grindr has opted to pay £26 million ($35.1 million) to settle a lawsuit in the U.K. over allegations that it shared users' personal information, including their HIV status, with third-parties. Grindr, which is the largest LGBTQ+ dating app, was sued in April 2024, accusing it of violating U.K. privacy laws by sharing sensitive data for commercial purposes such as advertising.",
-      "source": "thehackernews.com"
-    },
-    {
-      "title": "PEEP Turns Chrome and Edge Into Post-Compromise Backdoors for Host Command Execution",
-      "link": "https://thehackernews.com/2026/09/peep-turns-chrome-and-edge-into-post.html",
-      "date": "2026-09-07T18:12:09Z",
-      "description": "Cybersecurity researchers have disclosed details of a complex Chromium-based post-exploitation toolkit called PEEP that masquerades as a bookmarks extension for the web browser. \"Requiring prior administrative or code execution access, its installer injects the extension directly into Chrome/Edge profiles, bypassing Web Store checks and user prompts by forging Chromium's own Secure Preferences",
-      "source": "thehackernews.com"
-    },
-    {
-      "title": "Magento StyleSmuggler zero-day exploited to deploy Linux backdoor",
-      "link": "https://www.bleepingcomputer.com/news/security/magento-stylesmuggler-zero-day-exploited-to-deploy-linux-backdoor/",
-      "date": "2026-09-07T16:50:29Z",
-      "description": "A zero-day vulnerability dubbed \"StyleSmuggler\" affecting all versions of Magento and Adobe Commerce is being exploited in attacks to deploy a backdoor. [...]",
-      "source": "bleepingcomputer.com"
-    },
-    {
-      "title": "BigBear Microsoft 365 phishing service bypassed MFA at 258 organizations",
-      "link": "https://www.bleepingcomputer.com/news/security/bigbear-microsoft-365-phishing-service-bypassed-mfa-at-258-organizations/",
-      "date": "2026-09-07T15:39:51Z",
-      "description": "A phishing-as-a-service framework called BigBear 2.0 has been used to bypass multi-factor authentication at 258 organizations and steal more than 5,000 Microsoft 365 credentials. [...]",
-      "source": "bleepingcomputer.com"
-    },
-    {
-      "title": "Mathspace discloses data breach affecting over 1 million people",
-      "link": "https://www.bleepingcomputer.com/news/security/mathspace-discloses-data-breach-affecting-over-1-million-people/",
-      "date": "2026-09-07T13:05:11Z",
-      "description": "Online maths learning platform Mathspace disclosed over the weekend that attackers stole data from more than 1 million students, staff, and parents after breaching its Metabase internal reporting system. [...]",
-      "source": "bleepingcomputer.com"
-    },
-    {
-      "title": "Trezor data breach impact now reaches 81,000 customers",
-      "link": "https://www.bleepingcomputer.com/news/security/trezor-data-breach-impact-now-reaches-81-000-customers/",
-      "date": "2026-09-07T12:16:32Z",
-      "description": "Cryptocurrency hardware wallet maker Trezor says an August data breach at its shipping and logistics provider, ShipMonk, affects an additional 67,000 U.S. customers. [...]",
-      "source": "bleepingcomputer.com"
-    },
-    {
-      "title": "Nightmare Eclipse Drops CrowdStrike, Nvidia, Avast Zero-Day Exploits",
-      "link": "https://www.securityweek.com/nightmare-eclipse-drops-crowdstrike-nvidia-avast-zero-day-exploits/",
-      "date": "2026-09-07T12:15:57Z",
-      "description": "The proof-of-concept (PoC) exploits lead to privilege escalation, spawning a shell with System privileges. The post Nightmare Eclipse Drops CrowdStrike, Nvidia, Avast Zero-Day Exploits appeared first on SecurityWeek.",
-      "source": "securityweek.com"
-    },
-    {
-      "title": "North Korean Hackers Deploy New Linux Espionage Toolkit",
-      "link": "https://www.securityweek.com/north-korean-hackers-deploy-new-linux-espionage-toolkit/",
-      "date": "2026-09-07T12:12:08Z",
-      "description": "The stealthy toolkit embeds a backdoor in HAProxy and targets automotive and media organizations in South Korea for long-term surveillance. The post North Korean Hackers Deploy New Linux Espionage Toolkit appeared first on SecurityWeek.",
       "source": "securityweek.com"
     },
     {
