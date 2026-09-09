@@ -1,27 +1,90 @@
 {
-  "last_updated": "2026-09-09T05:31:16Z",
-  "count": 35,
+  "last_updated": "2026-09-09T10:20:12Z",
+  "count": 30,
   "items": [
     {
-      "title": "Chrome 153 Fixes 230 Vulnerabilities, Including One 0-Day Exploited in the Wild",
-      "link": "https://cybersecuritynews.com/chrome-153-released/",
-      "date": "2026-09-09T04:46:12Z",
-      "description": "Google has rolled out Chrome 153 to the stable channel for Windows, Mac, and Linux, shipping as version 153.0.8010.36 on Linux and 153.0.8010.36/.37 on Windows and Mac. The update will reach users over the coming days and weeks and includes 230 security fixes, one of the largest patch batches in recent Chrome release history. Actively […] The post Chrome 153 Fixes 230 Vulnerabilities, Including…",
-      "source": "cybersecuritynews.com"
+      "title": "Over 36,000 exposed Plex servers vulnerable to recent flaws",
+      "link": "https://www.bleepingcomputer.com/news/security/over-36-000-plex-servers-unpatched-against-recently-disclosed-flaws/",
+      "date": "2026-09-09T10:11:29Z",
+      "description": "Over 36,000 Plex Media servers exposed online remain unpatched against multiple security vulnerabilities and are vulnerable to attacks. [...]",
+      "source": "bleepingcomputer.com"
     },
     {
-      "title": "N-able N-central Pre-Auth RCE Flaw Exploited in the Wild",
-      "link": "https://thehackernews.com/2026/09/n-able-n-central-pre-auth-rce-flaw.html",
-      "date": "2026-09-09T04:27:51Z",
-      "description": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Tuesday added a maximum-severity security flaw impacting N-able N-central to its Known Exploited Vulnerabilities (KEV) catalog, requiring Federal Civilian Executive Branch (FCEB) agencies to apply the fixes by September 11, 2026. The vulnerability in question is CVE-2026-86218 (CVSS score: 10.0), which has been described as a",
+      "title": "This Key Will Self-Destruct: An Open Standard for Revocable API Keys",
+      "link": "https://www.securityweek.com/this-key-will-self-destruct-an-open-standard-for-revocable-api-keys/",
+      "date": "2026-09-09T10:00:00Z",
+      "description": "Every leaked credential should be dead, or dying, within sixty seconds of being found. Here's a proposal to make that the default. The post This Key Will Self-Destruct: An Open Standard for Revocable API Keys appeared first on SecurityWeek.",
+      "source": "securityweek.com"
+    },
+    {
+      "title": "New Phishing Attack Creates Malicious Pages Inside the Victim’s Browser",
+      "link": "https://www.securityweek.com/new-phishing-attack-creates-malicious-pages-inside-the-victims-browser/",
+      "date": "2026-09-09T10:00:00Z",
+      "description": "Attackers are using trusted Microsoft services and blob URLs to generate stealthy phishing pages that leave defenders with no static website to detect or block. The post New Phishing Attack Creates Malicious Pages Inside the Victim’s Browser appeared first on SecurityWeek.",
+      "source": "securityweek.com"
+    },
+    {
+      "title": "Chrome 153 Patches Seventh Zero-Day of 2026",
+      "link": "https://www.securityweek.com/chrome-153-patches-seventh-zero-day-of-2026/",
+      "date": "2026-09-09T09:45:00Z",
+      "description": "The Chrome update includes 230 security fixes, and users are advised to update their browsers as soon as possible. The post Chrome 153 Patches Seventh Zero-Day of 2026 appeared first on SecurityWeek.",
+      "source": "securityweek.com"
+    },
+    {
+      "title": "Chrome V8 Zero-Day Exploited in the Wild Enables Code Execution Inside Sandbox",
+      "link": "https://thehackernews.com/2026/09/chrome-v8-zero-day-exploited-in-wild.html",
+      "date": "2026-09-09T09:11:03Z",
+      "description": "Google on Thursday released updates to patch 230 security vulnerabilities, including one that has come under active exploitation in the wild. The medium-severity vulnerability, assigned the CVE identifier CVE-2026-87491 (CVSS score: N/A), has been described as an out-of-bounds bug in V8, Chrome's JavaScript and WebAssembly engine. \"Out-of-bounds write in V8 in Google Chrome prior to",
       "source": "thehackernews.com"
     },
     {
-      "title": "FortiSandbox Vulnerability Allows Attackers to Access Sensitive Information via Crafted HTTP Requests",
-      "link": "https://cybersecuritynews.com/fortisandbox-vulnerability-access-sensitive-data/",
-      "date": "2026-09-09T03:08:26Z",
-      "description": "Fortinet has disclosed a new high-severity vulnerability affecting its FortiSandbox platform, warning that unauthenticated attackers could exploit weaknesses in the product’s web interface to siphon off sensitive information without ever needing valid credentials. The flaw, tracked as CVE-2026-26084, stems from improper access control in the graphical user interface component that FortiSandbox,…",
-      "source": "cybersecuritynews.com"
+      "title": "Man gets 15 years for extorting women with AI-generated porn videos",
+      "link": "https://www.bleepingcomputer.com/news/security/man-gets-15-years-in-prison-for-cyberstalking-and-sextortion/",
+      "date": "2026-09-09T08:44:22Z",
+      "description": "An Ohio man was sentenced to 15 years in prison for multiple cybercrimes, including sextortion and cyberstalking of numerous victims using AI-generated sexually explicit content. [...]",
+      "source": "bleepingcomputer.com"
+    },
+    {
+      "title": "New cPanel Flaw Lets a Hosting Account With Mail Privileges Run Code as Root",
+      "link": "https://thehackernews.com/2026/09/new-cpanel-flaw-lets-hosting-account.html",
+      "date": "2026-09-09T08:19:32Z",
+      "description": "cPanel has patched a flaw that it says lets a single hosting account take control of an entire server. An authenticated account holder with mail-related privileges can create files of their choosing on the server through EmailTrack and, from there, run code as the root user. cPanel published the advisory on September 8 and says every supported version of cPanel and WHM is affected.",
+      "source": "thehackernews.com"
+    },
+    {
+      "title": "F5 BIG-IP APM Malware Injects a PHP Web Shell Into Memory, Evading Disk Scans",
+      "link": "https://thehackernews.com/2026/09/f5-big-ip-apm-malware-injects-php-web.html",
+      "date": "2026-09-09T07:36:49Z",
+      "description": "Malware linked to break-ins at F5 BIG-IP Access Policy Manager appliances hides a PHP web shell in memory instead of in a file on disk, Sophos said in an analysis published on September 7. When Apache loads any of the three appliances' own PHP scripts, the malware adds the web shell to the copy held in memory, so a check of the file on disk can come back clean. Those three scripts are",
+      "source": "thehackernews.com"
+    },
+    {
+      "title": "New Microsoft Defender 'ShieldCrash' zero-day grants SYSTEM access",
+      "link": "https://www.bleepingcomputer.com/news/security/new-microsoft-defender-shieldcrash-zero-day-grants-system-access/",
+      "date": "2026-09-09T07:30:15Z",
+      "description": "An anonymous security researcher known as Nightmare Eclipse has released a new Microsoft Defender zero-day exploit named \"ShieldCrash\" right after Microsoft rolled out its September 2026 Patch Tuesday security updates. [...]",
+      "source": "bleepingcomputer.com"
+    },
+    {
+      "title": "Researcher Drops New Microsoft Defender PoC Showing ShieldBreak Patch Can Be Bypassed",
+      "link": "https://thehackernews.com/2026/09/researcher-drops-new-microsoft-defender.html",
+      "date": "2026-09-09T06:47:27Z",
+      "description": "The security researcher known as Chaotic Eclipse has dropped a proof-of-concept (PoC) for yet another zero-day in Microsoft Defender. The vulnerability, codenamed ShieldCrash, is assessed to be a patch bypass for CVE-2026-69414 (CVSS score: 7.8), also called ShieldBreak, which the researcher reported last month. \"Microsoft has failed to properly patch ShieldBreak CVE-2026-69414,\" Chaotic",
+      "source": "thehackernews.com"
+    },
+    {
+      "title": "Google warns of new Chrome zero-day bug exploited in attacks",
+      "link": "https://www.bleepingcomputer.com/news/security/google-patches-seventh-chrome-zero-day-exploited-in-attacks-this-year/",
+      "date": "2026-09-09T06:25:48Z",
+      "description": "Google has patched 230 vulnerabilities on Tuesday, including another actively exploited Chrome zero-day bug, the seventh such vulnerability patched since the start of the year. [...]",
+      "source": "bleepingcomputer.com"
+    },
+    {
+      "title": "SAP Patches CVSS 10.0 Kernel Flaw Enabling Unauthenticated Remote Code Execution",
+      "link": "https://thehackernews.com/2026/09/sap-patches-cvss-100-kernel-flaw.html",
+      "date": "2026-09-09T06:25:45Z",
+      "description": "SAP has released security updates to address multiple vulnerabilities, including a maximum-severity flaw in SAP Extended Passport (EPP) Processing that could have a severe impact on the confidentiality, integrity, and availability of the application The vulnerability, tracked as CVE-2026-44756 (CVSS score: 10.0), has been described as a case of memory corruption. Discovered and reported by SAP",
+      "source": "thehackernews.com"
     },
     {
       "title": "Microsoft adds age-awareness APIs that can tell if users are children, teens, or adults",
@@ -52,39 +115,11 @@
       "source": "darkreading.com"
     },
     {
-      "title": "DoppelCart fraud network uses 119,000 fake shops to steal credit cards",
-      "link": "https://www.bleepingcomputer.com/news/security/doppelcart-fraud-network-uses-119-000-fake-shops-to-steal-credit-cards/",
-      "date": "2026-09-08T20:35:14Z",
-      "description": "A massive operation dubbed \"DoppelCart\" uses more than 119,000 domains to run a network of fake e-shops that steal payment card details. [...]",
-      "source": "bleepingcomputer.com"
-    },
-    {
-      "title": "The EU CRA's Real Question: What Shipped, and When Did You Know?",
-      "link": "https://www.bleepingcomputer.com/news/security/the-eu-cras-real-question-what-shipped-and-when-did-you-know/",
-      "date": "2026-09-08T20:24:16Z",
-      "description": "The EU Cyber Resilience Act's vulnerability reporting requirements take effect September 11, giving software vendors as little as 24 hours to report actively exploited flaws. ActiveState explains why knowing exactly what shipped and when vulnerabilities were discovered will be critical to meeting the new requirements. [...]",
-      "source": "bleepingcomputer.com"
-    },
-    {
-      "title": "Hackers breach F5 BIG-IP APM devices to deploy Linux rootkit",
-      "link": "https://www.bleepingcomputer.com/news/security/hackers-breach-f5-big-ip-apm-devices-to-deploy-linux-rootkit/",
-      "date": "2026-09-08T20:08:55Z",
-      "description": "A Linux rootkit targeting devices in F5 BIG-IP APM environments can intercept PHP file loading and inject a fileless web shell directly into memory, avoiding the need to write malicious code to disk. [...]",
-      "source": "bleepingcomputer.com"
-    },
-    {
       "title": "Microsoft Patches Record 974 Vulnerabilities, Including Two Exploited Zero-Days",
       "link": "https://www.securityweek.com/microsoft-patches-record-974-vulnerabilities-including-two-exploited-zero-days/",
       "date": "2026-09-08T19:20:06Z",
       "description": "The record-breaking September security update fixes two exploited privilege-escalation zero-days and 20 potentially wormable vulnerabilities. The post Microsoft Patches Record 974 Vulnerabilities, Including Two Exploited Zero-Days appeared first on SecurityWeek.",
       "source": "securityweek.com"
-    },
-    {
-      "title": "Microsoft releases Windows 10 KB5122878 extended security update",
-      "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-releases-windows-10-kb5122878-extended-security-update/",
-      "date": "2026-09-08T18:49:19Z",
-      "description": "Microsoft has released the Windows 10 KB5122878 extended security update, which includes this month's record-breaking September 2026 Patch Tuesday fixes, along with a few bug fixes. [...]",
-      "source": "bleepingcomputer.com"
     },
     {
       "title": "Adobe Patches Over 170 Vulnerabilities, Including Commerce Zero-Day",
@@ -94,81 +129,11 @@
       "source": "securityweek.com"
     },
     {
-      "title": "Phishing Powers 80% of Attacks on US Companies: How SOCs Can Detect It Early",
-      "link": "https://cybersecuritynews.com/phishing-powers-80-of-attacks-on-us-companies-how-socs-can-detect-it-early/",
-      "date": "2026-09-08T17:54:52Z",
-      "description": "Phishing remains one of the most effective ways for attackers to gain access to corporate environments. From 2013-2023, the FBI recorded 158,436 US victims of Business Email Compromise (BEC), with over $20 billion in reported losses. The FBI specifically warns that phishing is used to obtain corporate credentials and gain access to business networks. While security teams have invested heavily…",
-      "source": "cybersecuritynews.com"
-    },
-    {
-      "title": "Massive Microsoft Patch Tuesday September 2026 – 973 Vulnerabilities Fixed, Including 2 Zero-Days",
-      "link": "https://cybersecuritynews.com/microsoft-patch-tuesday-update-september-2026/",
-      "date": "2026-09-08T17:46:31Z",
-      "description": "Microsoft released its September 2026 Patch Tuesday security updates on September 8, addressing 973 vulnerabilities, including two zero-days already exploited in attacks. This massive patch follows the recent Microsoft update on artificial intelligence in vulnerability discovery, deploying a proprietary multi-model agentic scanning system across the Windows codebase. The release spans Windows,…",
-      "source": "cybersecuritynews.com"
-    },
-    {
       "title": "ClickFix Campaigns Abuse Legitimate Services for Persistent Access",
       "link": "https://www.darkreading.com/endpoint-security/clickfix-campaigns-legitimate-services-persistent-access",
       "date": "2026-09-08T17:25:37Z",
       "description": "Two separate attacks demonstrate how threat actors are finding new ways to compromise organizations by using the popular social engineering tactic.",
       "source": "darkreading.com"
-    },
-    {
-      "title": "FortiOS and FortiProxy ZTNA Validation Vulnerability Allows Attacker to Perform a Man-in-the-Middle Attack",
-      "link": "https://cybersecuritynews.com/fortios-and-fortiproxy-ztna-validation-vulnerability/",
-      "date": "2026-09-08T17:15:02Z",
-      "description": "Fortinet has disclosed a high-severity certificate validation flaw in the Agentless ZTNA portal of FortiOS and FortiProxy that could let an unauthenticated remote attacker intercept traffic flowing between the ZTNA portal and the backend destination website. Tracked as CVE-2026-84393 and documented under advisory FG-IR-26-174, the issue was published on September 8, 2026, and carries a […] The…",
-      "source": "cybersecuritynews.com"
-    },
-    {
-      "title": "The Hidden Instructions That Can Hijack AI Agents",
-      "link": "https://www.securityweek.com/the-hidden-instructions-that-can-hijack-ai-agents/",
-      "date": "2026-09-08T17:00:00Z",
-      "description": "Malicious prompts concealed in documents, metadata, emails, images and code can manipulate autonomous agents into taking dangerous actions. The post The Hidden Instructions That Can Hijack AI Agents appeared first on SecurityWeek.",
-      "source": "securityweek.com"
-    },
-    {
-      "title": "Hackers Return $263 Million Stolen From Liquid Network",
-      "link": "https://www.securityweek.com/hackers-return-263-million-stolen-from-liquid-network/",
-      "date": "2026-09-08T16:35:54Z",
-      "description": "Alleged ‘white-hat’ hackers drained $320 million from Liquid’s federation wallet, demanding a bug fix. The post Hackers Return $263 Million Stolen From Liquid Network appeared first on SecurityWeek.",
-      "source": "securityweek.com"
-    },
-    {
-      "title": "Slim Spider Steals Crypto Custody Secrets From Brazilian Financial Institution",
-      "link": "https://thehackernews.com/2026/09/slim-spider-steals-crypto-custody.html",
-      "date": "2026-09-08T16:20:23Z",
-      "description": "A previously undocumented financially motivated threat actor has been linked to attacks targeting Brazilian financial institutions since at least March 2026. Cybersecurity company CrowdStrike is tracking the Brazil-based activity cluster under the name Slim Spider. \"The adversary demonstrates deep operational knowledge of Brazilian financial infrastructure, including the instant payment",
-      "source": "thehackernews.com"
-    },
-    {
-      "title": "Cylake Raises $245 Million Ahead of Cybersecurity Platform Beta",
-      "link": "https://www.securityweek.com/cylake-raises-245-million-ahead-of-cybersecurity-platform-beta/",
-      "date": "2026-09-08T15:21:01Z",
-      "description": "The startup founded by Palo Alto Networks’ Nir Zuk has raised $290 million to build an AI-native security platform for highly regulated organizations that cannot rely on the public cloud. The post Cylake Raises $245 Million Ahead of Cybersecurity Platform Beta appeared first on SecurityWeek.",
-      "source": "securityweek.com"
-    },
-    {
-      "title": "Liquid Hackers Return 3,400 Bitcoin Taken via Elements Bug, Still Holding $47M in BTC",
-      "link": "https://thehackernews.com/2026/09/liquid-hackers-return-3400-bitcoin.html",
-      "date": "2026-09-08T14:54:30Z",
-      "description": "Whoever took nearly 4,000 bitcoin from the Liquid Network on Sunday, September 6, returned 3,400 of it the next day, Bitcoin's public record shows. About 598.5 bitcoin has not come back. Liquid is a Bitcoin sidechain that holds real bitcoin to back a token called L-BTC. The network is still paused, so holders cannot turn that token back into bitcoin. The 3,400 bitcoin was sent to a&",
-      "source": "thehackernews.com"
-    },
-    {
-      "title": "ChatGPT Flaw Let a Planted Prompt Send a Victim's Gmail Data to Another Account",
-      "link": "https://thehackernews.com/2026/09/chatgpt-flaw-let-planted-prompt-send.html",
-      "date": "2026-09-08T14:19:17Z",
-      "description": "Check Point Research said in a report published today that a single instruction planted in a ChatGPT conversation could cause ChatGPT to quietly work for an attacker while answering the user's question as usual. In the company's proof of concept, that hidden work read data from the user's connected Gmail account and passed it to a second ChatGPT account through a hidden channel",
-      "source": "thehackernews.com"
-    },
-    {
-      "title": "Autonomous AI Agents Compromise Thousands of Credentials in Under Six Hours",
-      "link": "https://thehackernews.com/2026/09/autonomous-ai-agents-compromise.html",
-      "date": "2026-09-08T13:48:16Z",
-      "description": "Threat actors are continuing to leverage artificial intelligence (AI) to streamline their operations, with one financially motivated hacking group employing an autonomous, multi-agent attack framework to carry out a large-scale credential harvesting campaign within six hours. Google Threat Intelligence Group (GTIG) said it has observed attackers with diverse motivations targeting proprietary AI",
-      "source": "thehackernews.com"
     },
     {
       "title": "Companies Have 6 Months to Prepare for Automated Attacks",
