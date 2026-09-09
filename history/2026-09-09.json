@@ -1,7 +1,107 @@
 {
   "date": "2026-09-09",
-  "count": 16,
+  "count": 28,
   "items": [
+    {
+      "id": "0a7f7565eb1e8bc906afcca8082d55e757df8a6d",
+      "title": "Fortinet Patches Critical Vulnerabilities in FortiMonitorOnSight, Chrome Extension",
+      "link": "https://www.securityweek.com/fortinet-patches-critical-vulnerabilities-in-fortimonitoronsight-chrome-extension/",
+      "date": "2026-09-09T14:33:52Z",
+      "description": "The critical, unauthenticated bugs allow attackers to bypass authentication and proxy a user’s browser traffic. The post Fortinet Patches Critical Vulnerabilities in FortiMonitorOnSight, Chrome Extension appeared first on SecurityWeek.",
+      "source": "securityweek.com",
+      "first_seen": "2026-09-09T14:53:36Z",
+      "last_seen": "2026-09-09T14:53:36Z"
+    },
+    {
+      "id": "0f576e3ff32f3281f048c3148802d9534c6ba2ca",
+      "title": "Infostealer Logs Expose Replayable AI Tokens That Can Bypass MFA",
+      "link": "https://thehackernews.com/2026/09/infostealer-logs-expose-replayable-ai.html",
+      "date": "2026-09-09T14:23:55Z",
+      "description": "Cybercriminals are hijacking artificial intelligence (AI) user accounts via information stealer logs to create \"stolen keys\" that grant illicit access to tools from model providers like Google, Anthropic, and others. Information stealers like Lumma Stealer or Vidar are equipped to harvest a wide range of data from compromised systems. This can include credential, session tokens, and API",
+      "source": "thehackernews.com",
+      "first_seen": "2026-09-09T14:53:36Z",
+      "last_seen": "2026-09-09T14:53:36Z"
+    },
+    {
+      "id": "2d44a22b2d0523292cd421347c8903d766868351",
+      "title": "MFA's Weakest Link: Account Recovery Is the New Attack Path",
+      "link": "https://www.bleepingcomputer.com/news/security/mfas-weakest-link-account-recovery-is-the-new-attack-path/",
+      "date": "2026-09-09T14:01:11Z",
+      "description": "MFA makes account takeover harder, but attackers are increasingly targeting the recovery processes used to reset passwords and authentication methods. Specops explains why stronger identity verification at the service desk is critical to preventing social engineering attacks from turning account recovery into account takeover. [...]",
+      "source": "bleepingcomputer.com",
+      "first_seen": "2026-09-09T14:53:36Z",
+      "last_seen": "2026-09-09T14:53:36Z"
+    },
+    {
+      "id": "afcf25ddbda1f0488265241fb8656aa4053d2a08",
+      "title": "US Agencies Warn China Is Systematically Extracting Frontier AI Capabilities",
+      "link": "https://www.securityweek.com/us-agencies-warn-china-is-systematically-extracting-frontier-ai-capabilities/",
+      "date": "2026-09-09T12:32:13Z",
+      "description": "Distillation is an ‘attack’ against an AI model designed to capture outputs, understand reasoning processes, and subsequently train a different model. The post US Agencies Warn China Is Systematically Extracting Frontier AI Capabilities appeared first on SecurityWeek.",
+      "source": "securityweek.com",
+      "first_seen": "2026-09-09T14:53:36Z",
+      "last_seen": "2026-09-09T14:53:36Z"
+    },
+    {
+      "id": "cebb49f4b1c68409325b0d41a76923ceea09da29",
+      "title": "Meta Launches Personal AI Agent, Muse, Emphasizes Safety and Privacy",
+      "link": "https://www.securityweek.com/meta-launches-personal-ai-agent-muse-emphasizes-safety-and-privacy/",
+      "date": "2026-09-09T12:00:00Z",
+      "description": "Muse runs on a dedicated, secure virtual machine that houses both the agent and the user’s data. The post Meta Launches Personal AI Agent, Muse, Emphasizes Safety and Privacy appeared first on SecurityWeek.",
+      "source": "securityweek.com",
+      "first_seen": "2026-09-09T14:53:36Z",
+      "last_seen": "2026-09-09T14:53:36Z"
+    },
+    {
+      "id": "ae8349585a04e7e9060e76db4c6eac07381037b1",
+      "title": "Webinar: Learn How to Answer “Are We Exposed?” Faster After a New CVE",
+      "link": "https://thehackernews.com/2026/09/webinar-learn-how-to-answer-are-we.html",
+      "date": "2026-09-09T11:57:36Z",
+      "description": "A major vulnerability is disclosed. The alert lands immediately. Then comes the harder question: Are we actually exposed? For many security teams, answering that means jumping between vulnerability scanners, endpoint tools, cloud inventories, SBOMs, repositories, and application data to build enough context to act. As AI accelerates vulnerability discovery and research, that delay matters more",
+      "source": "thehackernews.com",
+      "first_seen": "2026-09-09T14:53:36Z",
+      "last_seen": "2026-09-09T14:53:36Z"
+    },
+    {
+      "id": "ea512ac7adea243df98f2f3cbdedb2ae240a019f",
+      "title": "DeepSeek Harness Flaw Let AI Agents Disable Their Own File Sandbox Without Approval",
+      "link": "https://thehackernews.com/2026/09/deepseek-harness-flaw-let-ai-agents.html",
+      "date": "2026-09-09T11:17:07Z",
+      "description": "A flaw in DeepSeek Harness, DeepSeek's open-source tool for running AI coding agents on a developer's machine, let a sandboxed agent turn off its own sandbox with a single command. The tool runs an agent's commands inside an operating-system sandbox, so that an agent working on untrusted files cannot write outside its workspace. The agent could remove that limit by calling the tool's own web",
+      "source": "thehackernews.com",
+      "first_seen": "2026-09-09T14:53:36Z",
+      "last_seen": "2026-09-09T14:53:36Z"
+    },
+    {
+      "id": "2e3c4b4f67778895d707da3ca9b6f26648f806f0",
+      "title": "ICS Patch Tuesday: Schneider Electric, Siemens Fix Critical Flaws",
+      "link": "https://www.securityweek.com/ics-patch-tuesday-schneider-electric-siemens-fix-critical-flaws/",
+      "date": "2026-09-09T10:49:30Z",
+      "description": "AVEVA and Rockwell Automation also released patches for vulnerabilities affecting industrial control system products. The post ICS Patch Tuesday: Schneider Electric, Siemens Fix Critical Flaws appeared first on SecurityWeek.",
+      "source": "securityweek.com",
+      "first_seen": "2026-09-09T14:53:36Z",
+      "last_seen": "2026-09-09T14:53:36Z"
+    },
+    {
+      "id": "38662511dca6f9dd12124da8b638b0d558b2c4de",
+      "title": "Alby Hub Critical Flaw Could Let Attackers Take Over Internet-Exposed Bitcoin Wallets",
+      "link": "https://thehackernews.com/2026/09/alby-hub-critical-flaw-could-let.html",
+      "date": "2026-09-09T10:43:04Z",
+      "description": "Bitcoin wallet company Alby has warned of a critical flaw in Alby Hub that could have let an attacker take over a wallet and send its funds, but only where the owner had made the Hub reachable from the internet. Alby Hub is a self-hosted Lightning wallet, meaning the owner runs it on their own computer or server, and it holds their bitcoin. The flaw affects versions v1.7.0 through",
+      "source": "thehackernews.com",
+      "first_seen": "2026-09-09T14:53:36Z",
+      "last_seen": "2026-09-09T14:53:36Z"
+    },
+    {
+      "id": "65b121f9aff24919ca6cc0976c587843e075bd00",
+      "title": "Ivanti Patches Critical Flaws Across Enterprise Security Products",
+      "link": "https://www.securityweek.com/ivanti-patches-critical-flaws-across-enterprise-security-products/",
+      "date": "2026-09-09T10:28:34Z",
+      "description": "Six critical vulnerabilities in Neurons for ITSM could enable remote code execution, while Sentry and EPMM received patches for authentication bypass flaws. The post Ivanti Patches Critical Flaws Across Enterprise Security Products appeared first on SecurityWeek.",
+      "source": "securityweek.com",
+      "first_seen": "2026-09-09T14:53:36Z",
+      "last_seen": "2026-09-09T14:53:36Z"
+    },
     {
       "id": "6d3c34c28db1bf13275289eb95f9a341c819d7b0",
       "title": "Over 36,000 exposed Plex servers vulnerable to recent flaws",
@@ -10,7 +110,7 @@
       "description": "Over 36,000 Plex Media servers exposed online remain unpatched against multiple security vulnerabilities and are vulnerable to attacks. [...]",
       "source": "bleepingcomputer.com",
       "first_seen": "2026-09-09T10:20:12Z",
-      "last_seen": "2026-09-09T10:20:12Z"
+      "last_seen": "2026-09-09T14:53:36Z"
     },
     {
       "id": "d6d283b2cdcb54a139f18a823ed6319fadcbcbd1",
@@ -43,6 +143,16 @@
       "last_seen": "2026-09-09T10:20:12Z"
     },
     {
+      "id": "f8c0cdce1dd8e0facb2b40f3d6ce04ba03871121",
+      "title": "U.S. Agencies Accuse China AI Firms of Distilling Claude, GPT, Gemini, and Grok",
+      "link": "https://thehackernews.com/2026/09/us-agencies-accuse-china-ai-firms-of.html",
+      "date": "2026-09-09T09:32:26Z",
+      "description": "U.S. cybersecurity and intelligence agencies have accused China-based artificial intelligence (AI) companies of conducting \"systematic extraction\" of proprietary functionalities and capabilities of American frontier models through distillation attacks. The activity has been described as occurring at an industrial-scale and one that forms the \"core\" of their AI development strategy, according to",
+      "source": "thehackernews.com",
+      "first_seen": "2026-09-09T14:53:36Z",
+      "last_seen": "2026-09-09T14:53:36Z"
+    },
+    {
       "id": "aa9e62a68c57a1565907cd2a71951dcd22e09a21",
       "title": "Chrome V8 Zero-Day Exploited in the Wild Enables Code Execution Inside Sandbox",
       "link": "https://thehackernews.com/2026/09/chrome-v8-zero-day-exploited-in-wild.html",
@@ -60,7 +170,7 @@
       "description": "An Ohio man was sentenced to 15 years in prison for multiple cybercrimes, including sextortion and cyberstalking of numerous victims using AI-generated sexually explicit content. [...]",
       "source": "bleepingcomputer.com",
       "first_seen": "2026-09-09T10:20:12Z",
-      "last_seen": "2026-09-09T10:20:12Z"
+      "last_seen": "2026-09-09T14:53:36Z"
     },
     {
       "id": "2bd575f88f944e59a494e147635591bb3264d17a",
@@ -90,7 +200,7 @@
       "description": "An anonymous security researcher known as Nightmare Eclipse has released a new Microsoft Defender zero-day exploit named \"ShieldCrash\" right after Microsoft rolled out its September 2026 Patch Tuesday security updates. [...]",
       "source": "bleepingcomputer.com",
       "first_seen": "2026-09-09T10:20:12Z",
-      "last_seen": "2026-09-09T10:20:12Z"
+      "last_seen": "2026-09-09T14:53:36Z"
     },
     {
       "id": "15306259b7abac834de44f35bb3b0a00d8d7e030",
@@ -110,7 +220,7 @@
       "description": "Google has patched 230 vulnerabilities on Tuesday, including another actively exploited Chrome zero-day bug, the seventh such vulnerability patched since the start of the year. [...]",
       "source": "bleepingcomputer.com",
       "first_seen": "2026-09-09T10:20:12Z",
-      "last_seen": "2026-09-09T10:20:12Z"
+      "last_seen": "2026-09-09T14:53:36Z"
     },
     {
       "id": "a56221f5e53ba3b61b5c51146addec99afa93485",
@@ -161,6 +271,16 @@
       "source": "bleepingcomputer.com",
       "first_seen": "2026-09-09T05:31:16Z",
       "last_seen": "2026-09-09T10:20:12Z"
+    },
+    {
+      "id": "85ce04ab114e596431aaac093baa33b2a3692a0e",
+      "title": "Cybercriminals Hack Brazilian Government Servers to Host Phishing Sites",
+      "link": "https://www.darkreading.com/threat-intelligence/cybercriminals-hack-brazilian-government-servers-host-phishing-sites",
+      "date": "2026-09-08T12:00:00Z",
+      "description": "A Chinese-language group is compromising government and education sites to create a reverse-proxy network with gambling-themed sites.",
+      "source": "darkreading.com",
+      "first_seen": "2026-09-09T14:53:36Z",
+      "last_seen": "2026-09-09T14:53:36Z"
     }
   ]
 }
