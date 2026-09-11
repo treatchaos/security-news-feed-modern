@@ -1,13 +1,76 @@
 {
-  "last_updated": "2026-09-11T14:40:45Z",
+  "last_updated": "2026-09-11T17:58:55Z",
   "count": 35,
   "items": [
+    {
+      "title": "Passkey-themed phishing attacks lead to Microsoft 365 data theft",
+      "link": "https://www.bleepingcomputer.com/news/security/passkey-themed-phishing-attacks-lead-to-microsoft-365-data-theft/",
+      "date": "2026-09-11T17:26:50Z",
+      "description": "Microsoft says threat actors linked to ShinyHunters, Helix, and other extortion gangs are using passkey and single sign-on-themed social engineering attacks to compromise corporate Microsoft accounts and steal data from Microsoft 365 services. [...]",
+      "source": "bleepingcomputer.com"
+    },
+    {
+      "title": "Phishing Research Challenges Conventional Security Awareness Testing",
+      "link": "https://www.securityweek.com/phishing-research-challenges-conventional-security-awareness-testing/",
+      "date": "2026-09-11T17:23:36Z",
+      "description": "Analysis of 2.47 million simulated attacks shows why organizations should measure credential leaks and reporting, not just clicks. The post Phishing Research Challenges Conventional Security Awareness Testing appeared first on SecurityWeek.",
+      "source": "securityweek.com"
+    },
+    {
+      "title": "AI Governance Can't Wait",
+      "link": "https://www.darkreading.com/cyber-risk/ai-governance-cannot-wait",
+      "date": "2026-09-11T17:10:56Z",
+      "description": "Adversaries can manipulate AI defensive reasoning to silently compromise target networks.",
+      "source": "darkreading.com"
+    },
+    {
+      "title": "GitLab CVSS 10 File-Read Flaw Draws In-the-Wild Probes After Disclosure",
+      "link": "https://thehackernews.com/2026/09/gitlab-cvss-10-file-read-flaw-draws-in.html",
+      "date": "2026-09-11T16:30:18Z",
+      "description": "GitLab has released patches to address multiple flaws, including a maximum-severity security vulnerability that has witnessed in-the-wild probes within hours of public disclosure. The vulnerability in question is CVE-2026-85706 (CVSS score: 10.0), a path traversal issue in the repository commits API that could allow an unauthenticated user to read arbitrary files from the GitLab server under",
+      "source": "thehackernews.com"
+    },
+    {
+      "title": "Artifactory flaws chained in attacks deploying backdoor malware",
+      "link": "https://www.bleepingcomputer.com/news/security/artifactory-flaws-chained-in-attacks-deploying-backdoor-malware/",
+      "date": "2026-09-11T16:29:44Z",
+      "description": "Threat actors are exploiting critical and high-severity vulnerabilities in JFrog Artifactory to bypass authentication, gain administrative privileges, and deploy a Rust backdoor on vulnerable self-hosted servers. [...]",
+      "source": "bleepingcomputer.com"
+    },
+    {
+      "title": "Anthropic Says Seven China-Based AI Labs Ran Industrial-Scale Claude Distillation Attacks",
+      "link": "https://thehackernews.com/2026/09/anthropic-says-seven-china-based-ai.html",
+      "date": "2026-09-11T16:15:29Z",
+      "description": "Anthropic on Thursday said it identified and disrupted industrial-scale illicit distillation attacks against Claude from seven labs based in China, including Alibaba, Moonshot, DeepSeek, Z.ai (aka Zhipu), and MiniMax. Knowledge distillation by itself is a legitimate training method. It refers to a machine learning technique where a large, powerful AI model assumes the role of a \"teacher\" to",
+      "source": "thehackernews.com"
+    },
+    {
+      "title": "GitLab Vulnerability Exploited One Day After Disclosure",
+      "link": "https://www.securityweek.com/gitlab-vulnerability-exploited-one-day-after-disclosure/",
+      "date": "2026-09-11T16:11:08Z",
+      "description": "The critical-severity path traversal flaw allows unauthenticated attackers to read arbitrary files from the GitLab server. The post GitLab Vulnerability Exploited One Day After Disclosure appeared first on SecurityWeek.",
+      "source": "securityweek.com"
+    },
+    {
+      "title": "Papercut AI Swarm Attack Heralds Changes for Cyber Kill Chain",
+      "link": "https://www.darkreading.com/cyberattacks-data-breaches/papercut-ai-swarm-attack-cyber-kill-chain",
+      "date": "2026-09-11T15:48:27Z",
+      "description": "From creating lab environments for staging and testing agentic attacks to reconnaissance to lateral movement and exfiltration, the most innovative attackers are widely incorporating AI.",
+      "source": "darkreading.com"
+    },
     {
       "title": "Russia-Aligned Hackers Use GuardBreaker Prompt Injection to Disrupt AI Malware Analysis",
       "link": "https://cybersecuritynews.com/hackers-guardbreaker-prompt-injection/",
       "date": "2026-09-11T14:32:13Z",
       "description": "Russia-aligned operators are testing a new way to make artificial intelligence overlook malicious code. The technique, called GuardBreaker, hides a safety-sensitive request inside an otherwise ordinary script comment, hoping that an AI code scanner refuses to continue its work. The activity was observed during an early-stage intrusion against a target in Ukraine. The VBScript was […] The post…",
       "source": "cybersecuritynews.com"
+    },
+    {
+      "title": "Claude Used to Automate Exploitation and Data Theft Across Multiple Victims",
+      "link": "https://thehackernews.com/2026/09/claude-used-to-automate-exploitation.html",
+      "date": "2026-09-11T14:29:47Z",
+      "description": "Anthropic has warned that cybercriminals and state-sponsored hackers alike are using its Claude models for cyber attacks, weapons design, propaganda, and mass surveillance between December 2025 and August 2026. The threat actors, which the artificial intelligence (AI) company has branded Generative Threat Groups (GTGs), span state-sponsored groups, financially motivated criminals, commercial",
+      "source": "thehackernews.com"
     },
     {
       "title": "In Other News: InjectEave Attack, SIM Swapper Sentenced, Glasswing Findings Review",
@@ -22,6 +85,13 @@
       "date": "2026-09-11T14:17:53Z",
       "description": "KATARU is a newly observed IoT malware strain that can turn poorly secured devices into DDoS attack nodes. The sample was captured after an attacker used repeated Telnet password guesses against a honeypot, then downloaded an ARM payload. It shows how old entry points still give attackers a foothold. The malware resembles the Mirai botnet […] The post New KATARU IoT Malware Packs Linux Privilege…",
       "source": "cybersecuritynews.com"
+    },
+    {
+      "title": "Russian State-Sponsored Hackers Use Claude to Rebuild Malware After Detection",
+      "link": "https://thehackernews.com/2026/09/russian-state-sponsored-hackers-use.html",
+      "date": "2026-09-11T14:10:20Z",
+      "description": "Anthropic on Thursday revealed it disrupted a campaign mounted by a Russian state-sponsored threat actor that abused Claude for developing an AI-assisted workflow to get ahead of the detection curve. The operation has been attributed to a cyber espionage group it calls GTG-20006 (where \"GTG\" stands for Generative Threat Group), which aligns with broader reporting linking the cluster to Midnight",
+      "source": "thehackernews.com"
     },
     {
       "title": "How Threat Actors Are Turning Trusted AI Platforms Into an Attack Surface",
@@ -80,67 +150,11 @@
       "source": "bleepingcomputer.com"
     },
     {
-      "title": "Check Point Patches Critical VPN Vulnerabilities",
-      "link": "https://www.securityweek.com/check-point-patches-critical-vpn-vulnerabilities/",
-      "date": "2026-09-11T11:10:02Z",
-      "description": "Tracked as CVE-2026-85102 and CVE-2026-85103, the flaws could be exploited for remote code execution. The post Check Point Patches Critical VPN Vulnerabilities appeared first on SecurityWeek.",
-      "source": "securityweek.com"
-    },
-    {
-      "title": "Kiteworks Acquires Bonfy.AI to Fill the AI Gap in Data Governance",
-      "link": "https://www.securityweek.com/kiteworks-acquires-bonfy-ai-to-fill-the-ai-gap-in-data-governance/",
-      "date": "2026-09-11T10:56:16Z",
-      "description": "Financials have not been disclosed, but the estimated cost is in the tens of millions of dollars. The post Kiteworks Acquires Bonfy.AI to Fill the AI Gap in Data Governance appeared first on SecurityWeek.",
-      "source": "securityweek.com"
-    },
-    {
       "title": "Microsoft fixes Teams, Outlook launch failures on ARM Windows PCs",
       "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-teams-outlook-launch-failures-on-arm-windows-pcs/",
       "date": "2026-09-11T09:39:37Z",
       "description": "Microsoft has fixed a bug that prevented Teams and Outlook from launching on ARM-based Windows devices after installing updates released since the August 2026 Patch Tuesday. [...]",
       "source": "bleepingcomputer.com"
-    },
-    {
-      "title": "Trezor: 347,000 users targeted in phishing attacks after Brevo breach",
-      "link": "https://www.bleepingcomputer.com/news/security/trezor-347-000-users-targeted-in-phishing-attacks-after-brevo-breach/",
-      "date": "2026-09-11T07:55:15Z",
-      "description": "Trezor has revealed that phishing attacks against its customers earlier this week targeted 347,000 email addresses and affected 2,500 users who clicked an embedded malicious link. [...]",
-      "source": "bleepingcomputer.com"
-    },
-    {
-      "title": "Attackers Chain JFrog Artifactory Flaws to Gain Admin Control and Plant Backdoors",
-      "link": "https://thehackernews.com/2026/09/attackers-chain-jfrog-artifactory-flaws.html",
-      "date": "2026-09-11T07:31:05Z",
-      "description": "Attackers have chained two flaws in JFrog Artifactory, the repository that software build pipelines pull from, to take administrator control of self-hosted servers and plant backdoors, cloud security company Wiz said in a report. Wiz saw the attacks between August 15 and September 8. JFrog had fixed both flaws before then, so only servers that had not been updated were open to them.",
-      "source": "thehackernews.com"
-    },
-    {
-      "title": "China-Linked UNC3569 Exploited Sogou Input Method Flaw to Deploy GRAYRABBIT Backdoor",
-      "link": "https://thehackernews.com/2026/09/china-linked-unc3569-exploited-sogou.html",
-      "date": "2026-09-11T07:14:09Z",
-      "description": "A China-linked hacking group exploited a flaw in Sogou Input Method, one of the most widely used tools for typing Chinese characters on Windows, to install a backdoor on victims' computers, security company Gen Digital said in research published Thursday. The attack started with a crafted link and ended with the attacker able to do anything the logged-in user could do. Tencent, which owns",
-      "source": "thehackernews.com"
-    },
-    {
-      "title": "Conti ransomware gang member sentenced to 4 years in prison",
-      "link": "https://www.bleepingcomputer.com/news/security/conti-ransomware-gang-member-sentenced-to-four-years-in-prison/",
-      "date": "2026-09-11T06:48:37Z",
-      "description": "A Ukrainian national has been sentenced to four years in prison for his role in Conti ransomware attacks between 2021 and 2022. [...]",
-      "source": "bleepingcomputer.com"
-    },
-    {
-      "title": "PaperCut Replaces Emergency Patches With Fixes for Two Actively Exploited Flaws",
-      "link": "https://thehackernews.com/2026/09/papercut-replaces-emergency-patches.html",
-      "date": "2026-09-11T06:46:18Z",
-      "description": "PaperCut on Thursday released a new security maintenance release that replaces all previously published emergency patches that were pushed to address two security flaws that have come under active exploitation. The software development company said PaperCut NG/MF versions 26.0.5, 25.0.13 and 24.1.10 are now available for customers to download. \"These are Regular Maintenance Releases (MR) that",
-      "source": "thehackernews.com"
-    },
-    {
-      "title": "Cisco FMC Flaws Exploited to Steal Credentials and Deploy Qilin Ransomware",
-      "link": "https://thehackernews.com/2026/09/cisco-fmc-flaws-exploited-to-steal.html",
-      "date": "2026-09-11T06:19:59Z",
-      "description": "Cisco has revealed that three distinct threat clusters linked to ransomware and state-sponsored attacks have been exploiting two recently patched Secure Firewall Management Center (FMC) vulnerabilities. The attacks leverage CVE-2026-20079 (CVSS score: 10.0), an authentication bypass vulnerability in the web interface of FMC software that could allow an unauthenticated, remote attacker to bypass",
-      "source": "thehackernews.com"
     },
     {
       "title": "Indonesia Hit by Android Banking App-Cloning Campaign",
@@ -161,13 +175,6 @@
       "link": "https://www.darkreading.com/vulnerabilities-threats/nightmare-eclipse-strikes-again-shieldcrash-windows-exploit",
       "date": "2026-09-10T15:29:12Z",
       "description": "The disgruntled researcher continued their vendetta against Microsoft by publishing yet another zero-day exploit for Windows Defender.",
-      "source": "darkreading.com"
-    },
-    {
-      "title": "EU Cyber Resilience Act to Enforce New Reporting Requirements",
-      "link": "https://www.darkreading.com/cybersecurity-operations/eu-cyber-resilience-act-reporting-requirements",
-      "date": "2026-09-10T07:00:00Z",
-      "description": "Starting Friday, European organizations will have just 24 hours to notify the EU government any time they discover serious product security incidents.",
       "source": "darkreading.com"
     },
     {
@@ -204,13 +211,6 @@
       "date": "2026-09-10T05:00:00Z",
       "description": "A CVSS score 9.8 AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H severity vulnerability discovered by 'Charbel (dwbruijn)' was reported to the affected vendor on: 2026-09-10, 1 days ago. The vendor is given until 2027-01-08 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
       "source": "zerodayinitiative.com"
-    },
-    {
-      "title": "Mythos Vulnerability Firehose Hits a Human Bottleneck",
-      "link": "https://www.darkreading.com/application-security/mythos-vulnerability-firehose-hits-human-bottleneck",
-      "date": "2026-09-09T21:19:55Z",
-      "description": "An analysis of Project Glasswing findings shows only a fraction of the bugs it has discovered have reached disclosure, and an even smaller number have been fixed.",
-      "source": "darkreading.com"
     },
     {
       "title": "Student Loan Breach Exposes 2.5M Records",
