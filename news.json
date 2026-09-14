@@ -1,13 +1,76 @@
 {
-  "last_updated": "2026-09-14T15:23:24Z",
-  "count": 35,
+  "last_updated": "2026-09-14T20:01:21Z",
+  "count": 30,
   "items": [
     {
-      "title": "AWS Systems Manager Agent Vulnerability Allows Attackers to Bypass Port-Forwarding Restrictions",
-      "link": "https://cybersecuritynews.com/aws-systems-manager-agent-vulnerability/",
-      "date": "2026-09-14T15:14:39Z",
-      "description": "A critical vulnerability in the AWS Systems Manager Agent could let authenticated attackers bypass remote-host port-forwarding restrictions and access sensitive link-local services, including the Amazon EC2 Instance Metadata Service. The flaw, tracked as CVE-2026-89049, affects Amazon SSM Agent versions earlier than 3.3.4851.0 and has been fixed in version 3.3.4851.0. AWS Systems Manager Agent…",
-      "source": "cybersecuritynews.com"
+      "title": "Homebrew 7.0.0 gets built-in GUI, better security controls",
+      "link": "https://www.bleepingcomputer.com/news/security/homebrew-700-gets-built-in-gui-better-security-controls/",
+      "date": "2026-09-14T19:51:04Z",
+      "description": "Homebrew package manager version 7.0.0 has been released with a built-in vulnerability scanner, stronger security controls, and the full release of its native BrewUI graphical interface. [...]",
+      "source": "bleepingcomputer.com"
+    },
+    {
+      "title": "Twitch extension with 30K installs exposes users’ OAuth tokens",
+      "link": "https://www.bleepingcomputer.com/news/security/twitch-extension-with-30k-installs-exposes-users-oauth-tokens/",
+      "date": "2026-09-14T19:03:51Z",
+      "description": "A browser extension called Twitch Enhanced Viewer | JeetBot, available in the official Chrome and Firefox stores, sends users' Twitch OAuth session tokens to a commercial bot service. [...]",
+      "source": "bleepingcomputer.com"
+    },
+    {
+      "title": "Hackers hijack HBO Max Reddit account to push malware in ClickFix ads",
+      "link": "https://www.bleepingcomputer.com/news/security/hackers-hijack-hbo-max-reddit-account-to-push-malware-in-clickfix-ads/",
+      "date": "2026-09-14T18:34:16Z",
+      "description": "Hackers compromised HBO Max's official Reddit account and used it to push malicious ads that launched ClickFix attacks to infect Windows and macOS devices with information-stealing malware. [...]",
+      "source": "bleepingcomputer.com"
+    },
+    {
+      "title": "New DDRop Attack Breaks Intel TDX and AMD SEV-SNP Confidential Computing",
+      "link": "https://thehackernews.com/2026/09/new-ddrop-attack-breaks-intel-tdx-and.html",
+      "date": "2026-09-14T18:02:13Z",
+      "description": "Researchers have disclosed a new hardware attack, called DDRop, that breaks the memory protection in Intel and AMD confidential computing by silently dropping writes to a server's memory, so the processor keeps reading old encrypted data as if it were current. The attack requires an attacker who already controls the server's software and can briefly access the machine to insert a small circuit",
+      "source": "thehackernews.com"
+    },
+    {
+      "title": "3BB Attacker Used MeshCentral Backdoor for Root Access, Targeted Subscriber Credentials",
+      "link": "https://thehackernews.com/2026/09/3bb-attacker-used-meshcentral-backdoor.html",
+      "date": "2026-09-14T18:01:49Z",
+      "description": "An attacker was operating inside the network of 3BB, one of Thailand's largest broadband providers, and maintained remote control of internal machines using a legitimate management tool called MeshCentral, threat intelligence firm Hunt.io said. The company uncovered the intrusion by examining a server the attacker had left open on the internet, which held the attacker's own tools and a list of",
+      "source": "thehackernews.com"
+    },
+    {
+      "title": "Telegram Desktop Flaw Lets Hidden JavaScript Exfiltrate Messages From HTML Exports",
+      "link": "https://thehackernews.com/2026/09/telegram-desktop-flaw-lets-hidden.html",
+      "date": "2026-09-14T17:58:16Z",
+      "description": "A flaw in Telegram Desktop let a bot's message plant hidden JavaScript inside chats that users exported to HTML files, security researchers at ExPatch said in a writeup published on September 12. In Telegram, the message looked ordinary, with a link button, and the script ran only when someone opened the export file in a web browser. It could then copy every message in that file to",
+      "source": "thehackernews.com"
+    },
+    {
+      "title": "Red Heron Exploits Gitea RCE to Compromise 13 Organizations Across Six Countries",
+      "link": "https://thehackernews.com/2026/09/red-heron-exploits-gitea-rce-to.html",
+      "date": "2026-09-14T16:56:30Z",
+      "description": "A suspected Chinese threat actor tracked as Red Heron has been attributed to the rapid exploitation of a recently disclosed security vulnerability in Gitea to compromise internet-facing instances as part of a multi-national campaign. \"Red Heron scanned 1,386 Gitea instances across seven countries and maintained a separate dataset of 477 Taiwan-based systems,\" Acronis Threat Research Unit (TRU)",
+      "source": "thehackernews.com"
+    },
+    {
+      "title": "Anthropic CEO: Time to Shift From Improving to Controlling AI",
+      "link": "https://www.darkreading.com/cyber-risk/anthropic-ceo-shift-from-improving-to-controlling-ai",
+      "date": "2026-09-14T16:41:10Z",
+      "description": "Dario Amodei says it's time to slow the pace of frontier AI improvements so that security and risk prevention efforts can catch up. What does this mean for enterprises?",
+      "source": "darkreading.com"
+    },
+    {
+      "title": "Hackers target exposed Vite dev servers to steal AWS, Azure secrets",
+      "link": "https://www.bleepingcomputer.com/news/security/hackers-target-exposed-vite-dev-servers-to-steal-aws-azure-secrets/",
+      "date": "2026-09-14T16:15:58Z",
+      "description": "A mass-scanning campaign targeting internet-exposed Vite development servers is attempting to steal cloud credentials and configurations from AWS and Azure deployments. [...]",
+      "source": "bleepingcomputer.com"
+    },
+    {
+      "title": "WordPress Adds Automated Plugin Reviews to Block High-Risk Updates Before Distribution",
+      "link": "https://thehackernews.com/2026/09/wordpress-adds-automated-plugin-reviews.html",
+      "date": "2026-09-14T16:00:04Z",
+      "description": "WordPress has announced it's launching an automated security review for every release of a plugin before it's distributed through the WordPress.org update API so as to analyze it for potential security issues and ensure there are no risks involved. \"New plugins are reviewed before they enter the directory, but updates ship continuously after that,\" David Perez, WordPress Official Plugin",
+      "source": "thehackernews.com"
     },
     {
       "title": "Beijing Hits Back at Anthropic CEO’s Call to Curb China’s AI Development",
@@ -24,39 +87,11 @@
       "source": "bleepingcomputer.com"
     },
     {
-      "title": "Malicious Twitch Extension Exposes OAuth Tokens of 30,000 Chrome and Firefox Users",
-      "link": "https://cybersecuritynews.com/malicious-twitch-extension/",
-      "date": "2026-09-14T13:50:00Z",
-      "description": "A browser extension promoted as a Twitch viewing helper has been found sending live account tokens through servers controlled by its operator. The add-on, called “Twitch Enhanced Viewer | JeetBot,” was available to Chrome and Firefox users and advertised conveniences such as ad blocking, higher-quality playback, region-unlocked streams, and automatic channel-point collection. The risk sits […]…",
-      "source": "cybersecuritynews.com"
-    },
-    {
-      "title": "WhatsApp’s New Restricted Chat Feature Locks Conversation on Your Primary Phone",
-      "link": "https://cybersecuritynews.com/whatsapps-new-restricted-chat-feature/",
-      "date": "2026-09-14T13:40:09Z",
-      "description": "WhatsApp is developing a new privacy control called Restricted Chat that will keep selected conversations accessible only from a user’s primary mobile phone. The feature is designed to prevent protected chats from syncing to WhatsApp Web, desktop sessions, and secondary phones linked to the same account. WhatsApp identified the capability in Android beta version 2.26.36.5. […] The post…",
-      "source": "cybersecuritynews.com"
-    },
-    {
-      "title": "Cyclops Blink Evolves Into x86-64 Linux Implant With Packet Sniffing and Internal Network Scanning",
-      "link": "https://cybersecuritynews.com/cyclops-blink-evolves/",
-      "date": "2026-09-14T13:33:25Z",
-      "description": "Cyclops Blink has returned in a form that gives attackers a deeper view inside corporate networks. The malware was found on compromised Cisco Firewall Management Center devices, where it can maintain remote access, inspect traffic, and map systems behind the network edge. The activity is concerning because management appliances occupy trusted positions. Recent reporting that […] The post Cyclops…",
-      "source": "cybersecuritynews.com"
-    },
-    {
       "title": "New Warnings About the Risks of AI to Humanity Revive a Long-Running Debate",
       "link": "https://www.securityweek.com/new-warnings-about-the-risks-of-ai-to-humanity-revive-a-long-running-debate/",
       "date": "2026-09-14T13:31:15Z",
       "description": "Concerns over the potential risks of the technology are rising as new AI models become more powerful, heightening both the potential for misuse by people with criminal aims. The post New Warnings About the Risks of AI to Humanity Revive a Long-Running Debate appeared first on SecurityWeek.",
       "source": "securityweek.com"
-    },
-    {
-      "title": "New ZcopyReaper Linux Kernel Vulnerability Enables Privilege Escalation Attacks",
-      "link": "https://cybersecuritynews.com/zcopyreaper-linux-kernel-vulnerability/",
-      "date": "2026-09-14T13:29:59Z",
-      "description": "A new Linux kernel vulnerability dubbed ZcopyReaper allows an unprivileged local attacker to escalate privileges and potentially gain root-level control. Tracked as CVE-2026-43502, the flaw was demonstrated through an exploit called ZcopyReaper by security researchers at NebuSec. This vulnerability affects the Reliable Datagram Sockets (RDS) zero-copy send path and has existed in the kernel…",
-      "source": "cybersecuritynews.com"
     },
     {
       "title": "Personal, Financial Info Exposed in Revolut Data Breach",
@@ -73,74 +108,11 @@
       "source": "securityweek.com"
     },
     {
-      "title": "Webinar: How malicious OAuth apps can lead to Google Workspace breaches",
-      "link": "https://www.bleepingcomputer.com/news/security/webinar-how-malicious-oauth-apps-can-lead-to-google-workspace-breaches/",
-      "date": "2026-09-14T12:15:23Z",
-      "description": "Attackers can combine social engineering with malicious OAuth applications to gain access to Google Workspace data without relying solely on stolen passwords. This webinar examines two attacks to show how these breaches unfold and which security controls can help stop them. [...]",
-      "source": "bleepingcomputer.com"
-    },
-    {
-      "title": "AI Changed the Exposure Problem. Validation Needs to Change With It.",
-      "link": "https://thehackernews.com/2026/09/ai-changed-exposure-problem-validation.html",
-      "date": "2026-09-14T11:58:00Z",
-      "description": "There's a lot of noise around AI and cybersecurity right now. What’s actually important is far simpler, if often lost in the hubbub. Vulnerability discovery is getting faster and happening at a much greater scale, while defenders still have to work out which findings actually deserve their action. In the first half of 2026, a whopping 35,853 CVEs were published, roughly 49% more than in the",
-      "source": "thehackernews.com"
-    },
-    {
       "title": "Chinese Hackers Exploit Critical Tencent Software Flaw for One-Click Code Execution",
       "link": "https://www.securityweek.com/chinese-hackers-exploit-critical-tencent-software-flaw-for-one-click-code-execution/",
       "date": "2026-09-14T11:51:29Z",
       "description": "The Chinese-language input method editor for Windows can allow attackers to execute arbitrary code remotely. The post Chinese Hackers Exploit Critical Tencent Software Flaw for One-Click Code Execution appeared first on SecurityWeek.",
       "source": "securityweek.com"
-    },
-    {
-      "title": "Microsoft: September updates cause RDS failures on Windows Server",
-      "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-september-updates-cause-rds-failures-on-windows-server/",
-      "date": "2026-09-14T09:50:25Z",
-      "description": "Microsoft has confirmed reports that the September 2026 security updates cause Remote Desktop Services (RDS) failures on Windows Server systems. [...]",
-      "source": "bleepingcomputer.com"
-    },
-    {
-      "title": "Revolut discloses data breach exposing financial info, passports",
-      "link": "https://www.bleepingcomputer.com/news/security/revolut-discloses-data-breach-exposing-financial-info-passports/",
-      "date": "2026-09-14T08:48:24Z",
-      "description": "Fintech company Revolut has disclosed a data breach after sharing data from an undisclosed number of customers with a threat actor impersonating a government agency. [...]",
-      "source": "bleepingcomputer.com"
-    },
-    {
-      "title": "Microsoft: September updates break audio on some Windows PCs",
-      "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-september-updates-break-audio-on-some-windows-pcs/",
-      "date": "2026-09-14T08:08:16Z",
-      "description": "Microsoft has confirmed that USB audio devices may fail on some Windows systems after installing the KB5124008and KB5124012 September 2026 security updates. [...]",
-      "source": "bleepingcomputer.com"
-    },
-    {
-      "title": "Malicious Twitch Browser Extension Leaks OAuth Tokens From Nearly 31,000 Users",
-      "link": "https://thehackernews.com/2026/09/malicious-twitch-browser-extension.html",
-      "date": "2026-09-14T07:24:39Z",
-      "description": "A malicious cross-store Twitch browser extension has leaked OAuth tokens associated with nearly 31,000 users to proxy servers operated by a Russian commercial bot service. The extension, named \"Twitch Enhanced Viewer | JeetBot,\" lists HISHIMIRO/jeetbot.cc as its developer and has the following identifiers on the Google Chrome Web Store and Mozilla Firefox Add-Ons store - Chrome -",
-      "source": "thehackernews.com"
-    },
-    {
-      "title": "Attackers Use Passkey Phishing to Hijack Microsoft Cloud Accounts and Exfiltrate Data",
-      "link": "https://thehackernews.com/2026/09/attackers-use-passkey-phishing-to.html",
-      "date": "2026-09-13T10:11:48Z",
-      "description": "Microsoft has disclosed details of two campaigns in which threat actors are abusing third-party email delivery infrastructure to blast financial fraud scam messages and using passkey-themed social engineering to breach cloud environments. The first campaign, per the tech giant, involved sending over a million scam emails between August 3 and 5, 2026, by masquerading as chief executive officers",
-      "source": "thehackernews.com"
-    },
-    {
-      "title": "CISA Adds 5 Actively Exploited Artifactory, ScreenConnect, and RouterOS Flaws to KEV",
-      "link": "https://thehackernews.com/2026/09/cisa-adds-5-actively-exploited.html",
-      "date": "2026-09-12T15:54:45Z",
-      "description": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) has added five security flaws impacting JFrog Artifactory, ConnectWise ScreenConnect, and MikroTik RouterOS to its Known Exploited Vulnerabilities (KEV) catalog, following reports of active exploitation in the wild. Details of the vulnerabilities are as follows - CVE-2026-42016 (CVSS score: 8.1) - An incorrect authorization",
-      "source": "thehackernews.com"
-    },
-    {
-      "title": "When the Whole Company Adopts AI: What It Does to Your SOC",
-      "link": "https://thehackernews.com/2026/09/when-whole-company-adopts-ai-what-it.html",
-      "date": "2026-09-12T10:24:44Z",
-      "description": "Over the past year, we watched a new class of alert appear in enterprise security operations centers and grow faster than anything else in the stream: alerts that were triggered by AI tools and agents. Not attacks against AI, but the ordinary, everyday footprint of an organization using it, from developers running coding agents and non-technical staff signing consumer AI tools into corporate",
-      "source": "thehackernews.com"
     },
     {
       "title": "Threat Actor Generates 1M Personalized Fraud Emails in 3 Days",
@@ -168,13 +140,6 @@
       "link": "https://www.darkreading.com/cyber-risk/ai-scamming-humans",
       "date": "2026-09-11T18:14:06Z",
       "description": "Fred Heiding of Menlo Park Intelligence talks with the Dark Reading News Desk about his research on frontier models, and their ability to influence human behavior and create emotional dependency.",
-      "source": "darkreading.com"
-    },
-    {
-      "title": "AI Governance Can't Wait",
-      "link": "https://www.darkreading.com/cyber-risk/ai-governance-cannot-wait",
-      "date": "2026-09-11T17:10:56Z",
-      "description": "Adversaries can manipulate AI defensive reasoning to silently compromise target networks.",
       "source": "darkreading.com"
     },
     {

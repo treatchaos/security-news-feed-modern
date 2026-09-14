@@ -1,7 +1,107 @@
 {
   "date": "2026-09-14",
-  "count": 23,
+  "count": 33,
   "items": [
+    {
+      "id": "7fdd2382f289a6d63756392af3e67ac3cb06a8b4",
+      "title": "Homebrew 7.0.0 gets built-in GUI, better security controls",
+      "link": "https://www.bleepingcomputer.com/news/security/homebrew-700-gets-built-in-gui-better-security-controls/",
+      "date": "2026-09-14T19:51:04Z",
+      "description": "Homebrew package manager version 7.0.0 has been released with a built-in vulnerability scanner, stronger security controls, and the full release of its native BrewUI graphical interface. [...]",
+      "source": "bleepingcomputer.com",
+      "first_seen": "2026-09-14T20:01:21Z",
+      "last_seen": "2026-09-14T20:01:21Z"
+    },
+    {
+      "id": "17c6c0032024ce037ebc12f0689bbd30315f9981",
+      "title": "Twitch extension with 30K installs exposes users’ OAuth tokens",
+      "link": "https://www.bleepingcomputer.com/news/security/twitch-extension-with-30k-installs-exposes-users-oauth-tokens/",
+      "date": "2026-09-14T19:03:51Z",
+      "description": "A browser extension called Twitch Enhanced Viewer | JeetBot, available in the official Chrome and Firefox stores, sends users' Twitch OAuth session tokens to a commercial bot service. [...]",
+      "source": "bleepingcomputer.com",
+      "first_seen": "2026-09-14T20:01:21Z",
+      "last_seen": "2026-09-14T20:01:21Z"
+    },
+    {
+      "id": "6809fea3b979848cf938e73174b48f914f3c0afa",
+      "title": "Hackers hijack HBO Max Reddit account to push malware in ClickFix ads",
+      "link": "https://www.bleepingcomputer.com/news/security/hackers-hijack-hbo-max-reddit-account-to-push-malware-in-clickfix-ads/",
+      "date": "2026-09-14T18:34:16Z",
+      "description": "Hackers compromised HBO Max's official Reddit account and used it to push malicious ads that launched ClickFix attacks to infect Windows and macOS devices with information-stealing malware. [...]",
+      "source": "bleepingcomputer.com",
+      "first_seen": "2026-09-14T20:01:21Z",
+      "last_seen": "2026-09-14T20:01:21Z"
+    },
+    {
+      "id": "26fe0b2fc613d364c9709d490b302827d0089bd5",
+      "title": "New DDRop Attack Breaks Intel TDX and AMD SEV-SNP Confidential Computing",
+      "link": "https://thehackernews.com/2026/09/new-ddrop-attack-breaks-intel-tdx-and.html",
+      "date": "2026-09-14T18:02:13Z",
+      "description": "Researchers have disclosed a new hardware attack, called DDRop, that breaks the memory protection in Intel and AMD confidential computing by silently dropping writes to a server's memory, so the processor keeps reading old encrypted data as if it were current. The attack requires an attacker who already controls the server's software and can briefly access the machine to insert a small circuit",
+      "source": "thehackernews.com",
+      "first_seen": "2026-09-14T20:01:21Z",
+      "last_seen": "2026-09-14T20:01:21Z"
+    },
+    {
+      "id": "72652e65b28ce3d7a5ab64b2482981da9a67d74c",
+      "title": "3BB Attacker Used MeshCentral Backdoor for Root Access, Targeted Subscriber Credentials",
+      "link": "https://thehackernews.com/2026/09/3bb-attacker-used-meshcentral-backdoor.html",
+      "date": "2026-09-14T18:01:49Z",
+      "description": "An attacker was operating inside the network of 3BB, one of Thailand's largest broadband providers, and maintained remote control of internal machines using a legitimate management tool called MeshCentral, threat intelligence firm Hunt.io said. The company uncovered the intrusion by examining a server the attacker had left open on the internet, which held the attacker's own tools and a list of",
+      "source": "thehackernews.com",
+      "first_seen": "2026-09-14T20:01:21Z",
+      "last_seen": "2026-09-14T20:01:21Z"
+    },
+    {
+      "id": "af6c44a15d503386be771dafc8fe1226881b0828",
+      "title": "Telegram Desktop Flaw Lets Hidden JavaScript Exfiltrate Messages From HTML Exports",
+      "link": "https://thehackernews.com/2026/09/telegram-desktop-flaw-lets-hidden.html",
+      "date": "2026-09-14T17:58:16Z",
+      "description": "A flaw in Telegram Desktop let a bot's message plant hidden JavaScript inside chats that users exported to HTML files, security researchers at ExPatch said in a writeup published on September 12. In Telegram, the message looked ordinary, with a link button, and the script ran only when someone opened the export file in a web browser. It could then copy every message in that file to",
+      "source": "thehackernews.com",
+      "first_seen": "2026-09-14T20:01:21Z",
+      "last_seen": "2026-09-14T20:01:21Z"
+    },
+    {
+      "id": "17a72c0aaf172cf6017ebdeaa9e240ea9ea7ab92",
+      "title": "Red Heron Exploits Gitea RCE to Compromise 13 Organizations Across Six Countries",
+      "link": "https://thehackernews.com/2026/09/red-heron-exploits-gitea-rce-to.html",
+      "date": "2026-09-14T16:56:30Z",
+      "description": "A suspected Chinese threat actor tracked as Red Heron has been attributed to the rapid exploitation of a recently disclosed security vulnerability in Gitea to compromise internet-facing instances as part of a multi-national campaign. \"Red Heron scanned 1,386 Gitea instances across seven countries and maintained a separate dataset of 477 Taiwan-based systems,\" Acronis Threat Research Unit (TRU)",
+      "source": "thehackernews.com",
+      "first_seen": "2026-09-14T20:01:21Z",
+      "last_seen": "2026-09-14T20:01:21Z"
+    },
+    {
+      "id": "260b051a80c46362269d66dc20aa13a6765ac6c8",
+      "title": "Anthropic CEO: Time to Shift From Improving to Controlling AI",
+      "link": "https://www.darkreading.com/cyber-risk/anthropic-ceo-shift-from-improving-to-controlling-ai",
+      "date": "2026-09-14T16:41:10Z",
+      "description": "Dario Amodei says it's time to slow the pace of frontier AI improvements so that security and risk prevention efforts can catch up. What does this mean for enterprises?",
+      "source": "darkreading.com",
+      "first_seen": "2026-09-14T20:01:21Z",
+      "last_seen": "2026-09-14T20:01:21Z"
+    },
+    {
+      "id": "b96ab72e8e86988250937a7d04457fc967193b5d",
+      "title": "Hackers target exposed Vite dev servers to steal AWS, Azure secrets",
+      "link": "https://www.bleepingcomputer.com/news/security/hackers-target-exposed-vite-dev-servers-to-steal-aws-azure-secrets/",
+      "date": "2026-09-14T16:15:58Z",
+      "description": "A mass-scanning campaign targeting internet-exposed Vite development servers is attempting to steal cloud credentials and configurations from AWS and Azure deployments. [...]",
+      "source": "bleepingcomputer.com",
+      "first_seen": "2026-09-14T20:01:21Z",
+      "last_seen": "2026-09-14T20:01:21Z"
+    },
+    {
+      "id": "6dc2789d1d80950dc938d7115e4a714e0411ede7",
+      "title": "WordPress Adds Automated Plugin Reviews to Block High-Risk Updates Before Distribution",
+      "link": "https://thehackernews.com/2026/09/wordpress-adds-automated-plugin-reviews.html",
+      "date": "2026-09-14T16:00:04Z",
+      "description": "WordPress has announced it's launching an automated security review for every release of a plugin before it's distributed through the WordPress.org update API so as to analyze it for potential security issues and ensure there are no risks involved. \"New plugins are reviewed before they enter the directory, but updates ship continuously after that,\" David Perez, WordPress Official Plugin",
+      "source": "thehackernews.com",
+      "first_seen": "2026-09-14T20:01:21Z",
+      "last_seen": "2026-09-14T20:01:21Z"
+    },
     {
       "id": "b73c90aa64a7a99de03ef31fa1e9755130ddbe81",
       "title": "AWS Systems Manager Agent Vulnerability Allows Attackers to Bypass Port-Forwarding Restrictions",
@@ -20,7 +120,7 @@
       "description": "China’s Ministry of Foreign Affairs responded to a question about Amodei’s essay by saying that all parties should work together on AI. The post Beijing Hits Back at Anthropic CEO’s Call to Curb China’s AI Development appeared first on SecurityWeek.",
       "source": "securityweek.com",
       "first_seen": "2026-09-14T15:23:24Z",
-      "last_seen": "2026-09-14T15:23:24Z"
+      "last_seen": "2026-09-14T20:01:21Z"
     },
     {
       "id": "17e82a1b83631ecdd8bf2ca201f546157e0f81af",
@@ -30,7 +130,7 @@
       "description": "Patch automation can help IT teams keep pace with growing update volumes, but deploying faster also means bad updates can spread faster. Action1 explains how update rings, predefined success criteria, and human oversight can make automated patching faster without sacrificing control. [...]",
       "source": "bleepingcomputer.com",
       "first_seen": "2026-09-14T15:23:24Z",
-      "last_seen": "2026-09-14T15:23:24Z"
+      "last_seen": "2026-09-14T20:01:21Z"
     },
     {
       "id": "c71ab272780e37604eaacce9ee5f0d9340bd2476",
@@ -70,7 +170,7 @@
       "description": "Concerns over the potential risks of the technology are rising as new AI models become more powerful, heightening both the potential for misuse by people with criminal aims. The post New Warnings About the Risks of AI to Humanity Revive a Long-Running Debate appeared first on SecurityWeek.",
       "source": "securityweek.com",
       "first_seen": "2026-09-14T15:23:24Z",
-      "last_seen": "2026-09-14T15:23:24Z"
+      "last_seen": "2026-09-14T20:01:21Z"
     },
     {
       "id": "a78c4edc0f88d633fc0503ec52e2c5d7ffe65c23",
@@ -90,7 +190,7 @@
       "description": "The company unintentionally disclosed users’ information to a third party impersonating a government agency. The post Personal, Financial Info Exposed in Revolut Data Breach appeared first on SecurityWeek.",
       "source": "securityweek.com",
       "first_seen": "2026-09-14T15:23:24Z",
-      "last_seen": "2026-09-14T15:23:24Z"
+      "last_seen": "2026-09-14T20:01:21Z"
     },
     {
       "id": "c767efd71a989f01a788e01da80329e28c2323f7",
@@ -100,7 +200,7 @@
       "description": "As researchers warn that misaligned AI could threaten human survival, even beneficial systems may erode the critical thinking that defines our humanity. The post The Race to Control AI and Protect What Makes Us Human appeared first on SecurityWeek.",
       "source": "securityweek.com",
       "first_seen": "2026-09-14T15:23:24Z",
-      "last_seen": "2026-09-14T15:23:24Z"
+      "last_seen": "2026-09-14T20:01:21Z"
     },
     {
       "id": "5aa8e5956d19c275f2be2301b15e46be76ca4df1",
@@ -130,7 +230,7 @@
       "description": "The Chinese-language input method editor for Windows can allow attackers to execute arbitrary code remotely. The post Chinese Hackers Exploit Critical Tencent Software Flaw for One-Click Code Execution appeared first on SecurityWeek.",
       "source": "securityweek.com",
       "first_seen": "2026-09-14T15:23:24Z",
-      "last_seen": "2026-09-14T15:23:24Z"
+      "last_seen": "2026-09-14T20:01:21Z"
     },
     {
       "id": "6a212b14e3f261cdc995da5f2b77c0fc313de1a4",
@@ -230,7 +330,7 @@
       "description": "The Dubai-based threat detection startup uses artificial intelligence tools to scan billions of IP addresses to find exposed assets, leaked data, and zero-day vulnerabilities.",
       "source": "darkreading.com",
       "first_seen": "2026-09-14T15:23:24Z",
-      "last_seen": "2026-09-14T15:23:24Z"
+      "last_seen": "2026-09-14T20:01:21Z"
     }
   ]
 }
