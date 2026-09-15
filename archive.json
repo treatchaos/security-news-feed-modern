@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-15T02:20:28Z",
+  "last_updated": "2026-09-15T08:07:29Z",
   "retention_days": 90,
   "count": 3522,
   "items": [
@@ -24,6 +24,46 @@
       "last_seen": "2026-08-31T15:38:31Z"
     },
     {
+      "id": "090f4bb6cc92f8eb96226e4f4829680c7bfadd98",
+      "title": "Cisco patches Secure Email Gateway zero-day exploited in attacks",
+      "link": "https://www.bleepingcomputer.com/news/security/new-cisco-secure-email-zero-day-exploited-to-execute-commands-as-root/",
+      "date": "2026-09-15T07:31:09Z",
+      "description": "Cisco warned customers to patch a critical Secure Email Gateway zero-day security flaw that threat actors have been exploiting in attacks. [...]",
+      "source": "bleepingcomputer.com",
+      "first_seen": "2026-09-15T08:07:29Z",
+      "last_seen": "2026-09-15T08:07:29Z"
+    },
+    {
+      "id": "2d7b777c81239e09f75048eaef493bf0aa13b5d0",
+      "title": "Cisco Secure Email Gateway Flaw Exploited in the Wild, Enables Root Command Execution",
+      "link": "https://thehackernews.com/2026/09/cisco-secure-email-gateway-flaw.html",
+      "date": "2026-09-15T06:11:11Z",
+      "description": "Cisco has warned that a new critical vulnerability impacting AsyncOS Software for Cisco Secure Email Gateway has come under active exploitation in the wild. The vulnerability, tracked as CVE-2026-76461, carries a CVSS score of 9.8 out of a maximum of 10.0. It has been described as a case of insufficient validation in the email parsing logic that could allow an unauthenticated, remote attacker",
+      "source": "thehackernews.com",
+      "first_seen": "2026-09-15T08:07:29Z",
+      "last_seen": "2026-09-15T08:07:29Z"
+    },
+    {
+      "id": "4b8281c7537c374c98d342db7b69a63fecc4db04",
+      "title": "China-Linked Hackers Exploit Chrome-Windows Zero-Day Chain to Deploy GRIMWEDGE",
+      "link": "https://thehackernews.com/2026/09/china-linked-hackers-exploit-chrome.html",
+      "date": "2026-09-15T05:31:05Z",
+      "description": "A Chinese threat actor has been attributed to a spear-phishing campaign that exploits recently patched security flaws in Google Chrome and Microsoft Windows to deliver a malicious JavaScript backdoor called GRIMWEDGE. Volexity, which is tracking the threat cluster under the moniker UTA0560, said the activity targeted multiple non-governmental organizations (NGOs) on September 1, 2026. \"The",
+      "source": "thehackernews.com",
+      "first_seen": "2026-09-15T08:07:29Z",
+      "last_seen": "2026-09-15T08:07:29Z"
+    },
+    {
+      "id": "771332dd5f45f42a70ce829af83787b605644732",
+      "title": "Root RCE Zero-Day in Cisco Secure Email Gateway Under Active Exploitation",
+      "link": "https://www.securityweek.com/root-rce-zero-day-in-cisco-secure-email-gateway-under-active-exploitation/",
+      "date": "2026-09-15T05:18:51Z",
+      "description": "An unauthenticated attacker can exploit CVE-2026-76461 to execute arbitrary commands on the underlying OS with root privileges. The post Root RCE Zero-Day in Cisco Secure Email Gateway Under Active Exploitation appeared first on SecurityWeek.",
+      "source": "securityweek.com",
+      "first_seen": "2026-09-15T08:07:29Z",
+      "last_seen": "2026-09-15T08:07:29Z"
+    },
+    {
       "id": "ddbf53e4b5eb413013bd6d5a959f8239ce3eae76",
       "title": "'Sandworm' Chains Cisco Vulnerabilities to Deploy Cyclops Blink",
       "link": "https://www.darkreading.com/cyberattacks-data-breaches/sandworm-chains-cisco-vulnerabilities-cyclops-blink",
@@ -31,7 +71,7 @@
       "description": "The notorious Russian threat group is spreading an upgraded version of the botnet malware, which the FBI disrupted in 2022.",
       "source": "darkreading.com",
       "first_seen": "2026-09-14T23:34:59Z",
-      "last_seen": "2026-09-15T02:20:28Z"
+      "last_seen": "2026-09-15T08:07:29Z"
     },
     {
       "id": "782eedf219ebd8e121d8f4db9e4da3f01e05b75f",
@@ -41,7 +81,7 @@
       "description": "Microsoft has released emergency out-of-band Windows updates to fix Remote Desktop Services failures caused by this month's security updates, along with Hyper-V and USB audio problems on some Windows versions. [...]",
       "source": "bleepingcomputer.com",
       "first_seen": "2026-09-14T23:34:59Z",
-      "last_seen": "2026-09-15T02:20:28Z"
+      "last_seen": "2026-09-15T08:07:29Z"
     },
     {
       "id": "01dd5407041968147655a24beff8c849e98ec2c2",
@@ -51,7 +91,7 @@
       "description": "Japan's Digital Agency has discovered a data breach that may have exposed around 246,000 record rows containing personal information of government employees. [...]",
       "source": "bleepingcomputer.com",
       "first_seen": "2026-09-14T23:34:59Z",
-      "last_seen": "2026-09-15T02:20:28Z"
+      "last_seen": "2026-09-15T08:07:29Z"
     },
     {
       "id": "1dc330b3aaa55f81e2da3759f07eb1ce8e84e3ad",
@@ -61,7 +101,7 @@
       "description": "CVE-2026-85706 is a path traversal vulnerability with a 10 out of 10 CVSS score, affecting both GitLab Community Edition and Enterprise Edition instances.",
       "source": "darkreading.com",
       "first_seen": "2026-09-14T23:34:59Z",
-      "last_seen": "2026-09-15T02:20:28Z"
+      "last_seen": "2026-09-15T08:07:29Z"
     },
     {
       "id": "7fdd2382f289a6d63756392af3e67ac3cb06a8b4",
@@ -71,7 +111,7 @@
       "description": "Homebrew package manager version 7.0.0 has been released with a built-in vulnerability scanner, stronger security controls, and the full release of its native BrewUI graphical interface. [...]",
       "source": "bleepingcomputer.com",
       "first_seen": "2026-09-14T20:01:21Z",
-      "last_seen": "2026-09-15T02:20:28Z"
+      "last_seen": "2026-09-15T08:07:29Z"
     },
     {
       "id": "17c6c0032024ce037ebc12f0689bbd30315f9981",
@@ -81,7 +121,7 @@
       "description": "A browser extension called Twitch Enhanced Viewer | JeetBot, available in the official Chrome and Firefox stores, sends users' Twitch OAuth session tokens to a commercial bot service. [...]",
       "source": "bleepingcomputer.com",
       "first_seen": "2026-09-14T20:01:21Z",
-      "last_seen": "2026-09-15T02:20:28Z"
+      "last_seen": "2026-09-15T08:07:29Z"
     },
     {
       "id": "6809fea3b979848cf938e73174b48f914f3c0afa",
@@ -101,7 +141,7 @@
       "description": "Researchers have disclosed a new hardware attack, called DDRop, that breaks the memory protection in Intel and AMD confidential computing by silently dropping writes to a server's memory, so the processor keeps reading old encrypted data as if it were current. The attack requires an attacker who already controls the server's software and can briefly access the machine to insert a small circuit",
       "source": "thehackernews.com",
       "first_seen": "2026-09-14T20:01:21Z",
-      "last_seen": "2026-09-15T02:20:28Z"
+      "last_seen": "2026-09-15T08:07:29Z"
     },
     {
       "id": "72652e65b28ce3d7a5ab64b2482981da9a67d74c",
@@ -111,7 +151,7 @@
       "description": "An attacker was operating inside the network of 3BB, one of Thailand's largest broadband providers, and maintained remote control of internal machines using a legitimate management tool called MeshCentral, threat intelligence firm Hunt.io said. The company uncovered the intrusion by examining a server the attacker had left open on the internet, which held the attacker's own tools and a list of",
       "source": "thehackernews.com",
       "first_seen": "2026-09-14T20:01:21Z",
-      "last_seen": "2026-09-15T02:20:28Z"
+      "last_seen": "2026-09-15T08:07:29Z"
     },
     {
       "id": "af6c44a15d503386be771dafc8fe1226881b0828",
@@ -121,7 +161,7 @@
       "description": "A flaw in Telegram Desktop let a bot's message plant hidden JavaScript inside chats that users exported to HTML files, security researchers at ExPatch said in a writeup published on September 12. In Telegram, the message looked ordinary, with a link button, and the script ran only when someone opened the export file in a web browser. It could then copy every message in that file to",
       "source": "thehackernews.com",
       "first_seen": "2026-09-14T20:01:21Z",
-      "last_seen": "2026-09-15T02:20:28Z"
+      "last_seen": "2026-09-15T08:07:29Z"
     },
     {
       "id": "d262b5b4607d4ce4ea0e2c4092ddf330bde9ed39",
@@ -171,7 +211,7 @@
       "description": "Dario Amodei says it's time to slow the pace of frontier AI improvements so that security and risk prevention efforts can catch up. What does this mean for enterprises?",
       "source": "darkreading.com",
       "first_seen": "2026-09-14T20:01:21Z",
-      "last_seen": "2026-09-15T02:20:28Z"
+      "last_seen": "2026-09-15T08:07:29Z"
     },
     {
       "id": "9325c246b89114114cfd74a45d649b32d60d4083",
@@ -231,7 +271,7 @@
       "description": "China’s Ministry of Foreign Affairs responded to a question about Amodei’s essay by saying that all parties should work together on AI. The post Beijing Hits Back at Anthropic CEO’s Call to Curb China’s AI Development appeared first on SecurityWeek.",
       "source": "securityweek.com",
       "first_seen": "2026-09-14T15:23:24Z",
-      "last_seen": "2026-09-15T02:20:28Z"
+      "last_seen": "2026-09-15T08:07:29Z"
     },
     {
       "id": "17e82a1b83631ecdd8bf2ca201f546157e0f81af",
@@ -281,7 +321,7 @@
       "description": "Concerns over the potential risks of the technology are rising as new AI models become more powerful, heightening both the potential for misuse by people with criminal aims. The post New Warnings About the Risks of AI to Humanity Revive a Long-Running Debate appeared first on SecurityWeek.",
       "source": "securityweek.com",
       "first_seen": "2026-09-14T15:23:24Z",
-      "last_seen": "2026-09-15T02:20:28Z"
+      "last_seen": "2026-09-15T08:07:29Z"
     },
     {
       "id": "a78c4edc0f88d633fc0503ec52e2c5d7ffe65c23",
@@ -301,7 +341,7 @@
       "description": "The company unintentionally disclosed users’ information to a third party impersonating a government agency. The post Personal, Financial Info Exposed in Revolut Data Breach appeared first on SecurityWeek.",
       "source": "securityweek.com",
       "first_seen": "2026-09-14T15:23:24Z",
-      "last_seen": "2026-09-15T02:20:28Z"
+      "last_seen": "2026-09-15T08:07:29Z"
     },
     {
       "id": "c767efd71a989f01a788e01da80329e28c2323f7",
@@ -311,7 +351,7 @@
       "description": "As researchers warn that misaligned AI could threaten human survival, even beneficial systems may erode the critical thinking that defines our humanity. The post The Race to Control AI and Protect What Makes Us Human appeared first on SecurityWeek.",
       "source": "securityweek.com",
       "first_seen": "2026-09-14T15:23:24Z",
-      "last_seen": "2026-09-15T02:20:28Z"
+      "last_seen": "2026-09-15T08:07:29Z"
     },
     {
       "id": "5aa8e5956d19c275f2be2301b15e46be76ca4df1",
@@ -621,7 +661,7 @@
       "description": "Cybercriminals behind malicious email campaigns no longer have to compromise volume for credibility, or vice versa, thanks to AI.",
       "source": "darkreading.com",
       "first_seen": "2026-09-11T20:26:43Z",
-      "last_seen": "2026-09-15T02:20:28Z"
+      "last_seen": "2026-09-15T08:07:29Z"
     },
     {
       "id": "9704b37fdd73210c912409d2cf4963a65f1c572d",
@@ -641,7 +681,7 @@
       "description": "A new joint government advisory signals a regulatory shift, pressing organizations to adopt more transparent breach notification and incident response protocols.",
       "source": "darkreading.com",
       "first_seen": "2026-09-11T20:26:43Z",
-      "last_seen": "2026-09-15T02:20:28Z"
+      "last_seen": "2026-09-15T08:07:29Z"
     },
     {
       "id": "d784168b3d0632d9e3cc21b3d59d2b5f1e59bc96",
@@ -1051,7 +1091,7 @@
       "description": "A CVSS score 8.1 AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H severity vulnerability discovered by 'Connor Kastner (ret2c)' was reported to the affected vendor on: 2026-09-11, 0 days ago. The vendor is given until 2027-01-09 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
       "source": "zerodayinitiative.com",
       "first_seen": "2026-09-11T20:26:43Z",
-      "last_seen": "2026-09-15T02:20:28Z"
+      "last_seen": "2026-09-15T08:07:29Z"
     },
     {
       "id": "64df082aba16180f2dfe53fec69d622efb4bab43",
@@ -1061,7 +1101,7 @@
       "description": "A CVSS score 7.8 AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H severity vulnerability discovered by 'Aaron Luo and Ziv Chang of VicOne LAB R7' was reported to the affected vendor on: 2026-09-11, 0 days ago. The vendor is given until 2027-01-09 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
       "source": "zerodayinitiative.com",
       "first_seen": "2026-09-11T20:26:43Z",
-      "last_seen": "2026-09-15T02:20:28Z"
+      "last_seen": "2026-09-15T08:07:29Z"
     },
     {
       "id": "d7b71e70680a7727cd6741f6011f96081018255f",
@@ -1071,7 +1111,7 @@
       "description": "A CVSS score 7.8 AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H severity vulnerability discovered by 'Aaron Luo of VicOne LAB R7' was reported to the affected vendor on: 2026-09-11, 0 days ago. The vendor is given until 2027-01-09 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
       "source": "zerodayinitiative.com",
       "first_seen": "2026-09-11T20:26:43Z",
-      "last_seen": "2026-09-15T02:20:28Z"
+      "last_seen": "2026-09-15T08:07:29Z"
     },
     {
       "id": "6588928db3d63638af73038b81abaebb24838a00",
@@ -1081,7 +1121,7 @@
       "description": "A CVSS score 7.8 AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H severity vulnerability discovered by 'Aaron Luo and Ziv Chang of VicOne LAB R7' was reported to the affected vendor on: 2026-09-11, 0 days ago. The vendor is given until 2027-01-09 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
       "source": "zerodayinitiative.com",
       "first_seen": "2026-09-11T20:26:43Z",
-      "last_seen": "2026-09-15T02:20:28Z"
+      "last_seen": "2026-09-15T08:07:29Z"
     },
     {
       "id": "605b6b10cc2c6e1774bf9f03e99e1870b29dab7b",
@@ -1561,7 +1601,7 @@
       "description": "A CVSS score 6.7 AV:L/AC:H/PR:L/UI:R/S:U/C:H/I:H/A:H severity vulnerability discovered by 'Anonymous' was reported to the affected vendor on: 2026-09-10, 0 days ago. The vendor is given until 2027-01-08 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
       "source": "zerodayinitiative.com",
       "first_seen": "2026-09-10T19:20:09Z",
-      "last_seen": "2026-09-15T02:20:28Z"
+      "last_seen": "2026-09-15T08:07:29Z"
     },
     {
       "id": "f679c24e7a55181f119c44a185d921918fd457b2",
@@ -35134,46 +35174,6 @@
       "last_seen": "2026-06-18T17:54:21Z"
     },
     {
-      "id": "26a0e638d8e29a0598f3046fb5561f13dfe2c238",
-      "title": "UNC3753 Uses Screen-Sharing Sessions and RMM Tools to Exfiltrate Sensitive Legal Data",
-      "link": "https://cybersecuritynews.com/unc3753-uses-screen-sharing-sessions-and-rmm-tools/",
-      "date": "2026-06-17T01:43:49Z",
-      "description": "A sophisticated cybercriminal group has been quietly targeting law firms and professional services organizations across the United States since the beginning of 2026. The campaign is financially motivated and relies heavily on deception rather than technical exploits. Victims are manipulated into handing over access to their own systems, and by the time they realize what […] The post UNC3753…",
-      "source": "cybersecuritynews.com",
-      "first_seen": "2026-06-17T05:59:17Z",
-      "last_seen": "2026-06-17T05:59:17Z"
-    },
-    {
-      "id": "0dbc3b00eb27beaea19d97959b6490198161c00a",
-      "title": "New OnionDrop Loader Campaign Uses gainmsg C2 to Deliver LegionLoader Payloads",
-      "link": "https://cybersecuritynews.com/new-oniondrop-loader-campaign-uses-gainmsg-c2/",
-      "date": "2026-06-17T01:35:54Z",
-      "description": "A newly identified loader campaign is raising serious concerns across the cybersecurity community. Threat researchers have uncovered an active operation using a sophisticated multi-stage loader called OnionDrop, which is being used to deliver harmful payloads, including the well-known LegionLoader, to a broad range of victims at scale. OnionDrop has been quietly operating since at least […] The…",
-      "source": "cybersecuritynews.com",
-      "first_seen": "2026-06-17T05:59:17Z",
-      "last_seen": "2026-06-17T05:59:17Z"
-    },
-    {
-      "id": "0857cd201342ab425bb564dca59bafb24fc99383",
-      "title": "ClickFix Campaign Uses EtherHiding and GULoader to Infect Windows Users via Fake CAPTCHA",
-      "link": "https://cybersecuritynews.com/clickfix-campaign-uses-etherhiding-and-guloader/",
-      "date": "2026-06-17T01:22:20Z",
-      "description": "A new cyberattack campaign is targeting Windows users through fake CAPTCHA pages, combining three techniques to slip past standard security defenses without raising alarms. The campaign, first observed in April 2026, begins on a compromised European small-business website and ends with an attempt to load GULoader, a memory-based malware downloader, onto a victim’s machine. What […] The post…",
-      "source": "cybersecuritynews.com",
-      "first_seen": "2026-06-17T05:59:17Z",
-      "last_seen": "2026-06-17T05:59:17Z"
-    },
-    {
-      "id": "8951761db589d1500c206f7ebd1bc2acd641abbd",
-      "title": "Ghostwriter Hackers Abuse Gmail Admin-Themed Emails to Steal Credentials and 2FA Codes",
-      "link": "https://cybersecuritynews.com/ghostwriter-hackers-abuse-gmail-admin-themed-emails/",
-      "date": "2026-06-17T00:08:51Z",
-      "description": "A state-linked hacker group known as Ghostwriter has launched a wave of targeted phishing attacks aimed at Gmail users, disguising malicious emails as official security alerts from Google. The campaign is designed to trick recipients into handing over their login credentials and two-factor authentication codes, effectively bypassing one of the most trusted layers of account […] The post…",
-      "source": "cybersecuritynews.com",
-      "first_seen": "2026-06-17T05:59:17Z",
-      "last_seen": "2026-06-17T05:59:17Z"
-    },
-    {
       "id": "664df53292fd50e8b1e7bf61d1267fe95047525f",
       "title": "Student Loan Breach Exposes 2.5M Records",
       "link": "https://threatpost.com/student-loan-breach-exposes-2-5m-records/180492/",
@@ -35181,7 +35181,7 @@
       "description": "2.5 million people were affected, in a breach that could spell more trouble down the line.",
       "source": "threatpost.com",
       "first_seen": "2026-08-08T14:21:59Z",
-      "last_seen": "2026-09-15T02:20:28Z"
+      "last_seen": "2026-09-15T08:07:29Z"
     },
     {
       "id": "4140c7a34b0ba94ad2e6b0cae9f59b0cb9bfffea",
@@ -35191,7 +35191,7 @@
       "description": "Researchers uncover a watering hole attack likely carried out by APT TA423, which attempts to plant the ScanBox JavaScript-based reconnaissance tool.",
       "source": "threatpost.com",
       "first_seen": "2026-08-08T14:21:59Z",
-      "last_seen": "2026-09-15T02:20:28Z"
+      "last_seen": "2026-09-15T08:07:29Z"
     },
     {
       "id": "9359ee40a641a4b565080313045f1d7e7fe6552b",
@@ -35201,7 +35201,7 @@
       "description": "Over 130 companies tangled in sprawling phishing campaign that spoofed a multi-factor authentication system.",
       "source": "threatpost.com",
       "first_seen": "2026-08-08T14:21:59Z",
-      "last_seen": "2026-09-15T02:20:28Z"
+      "last_seen": "2026-09-15T08:07:29Z"
     },
     {
       "id": "b4ccef0737cd4050d65241bf754072030b6b5e6a",
@@ -35211,7 +35211,7 @@
       "description": "Lockbit is by far this summer’s most prolific ransomware group, trailed by two offshoots of the Conti group.",
       "source": "threatpost.com",
       "first_seen": "2026-08-08T14:21:59Z",
-      "last_seen": "2026-09-15T02:20:28Z"
+      "last_seen": "2026-09-15T08:07:29Z"
     },
     {
       "id": "12ee113fc8fce91f6d7fb28deab2b1ad20061ec7",
@@ -35221,7 +35221,7 @@
       "description": "Tens of thousands of cameras have failed to patch a critical, 11-month-old CVE, leaving thousands of organizations exposed.",
       "source": "threatpost.com",
       "first_seen": "2026-08-08T14:21:59Z",
-      "last_seen": "2026-09-15T02:20:28Z"
+      "last_seen": "2026-09-15T08:07:29Z"
     }
   ]
 }
