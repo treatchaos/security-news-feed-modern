@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-09-17T17:50:29Z",
-  "count": 30,
+  "last_updated": "2026-09-17T20:43:14Z",
+  "count": 35,
   "items": [
     {
       "title": "[Virtual Event] Cybersecurity Outlook 2027",
@@ -8,6 +8,20 @@
       "date": "2026-12-03T16:00:00Z",
       "description": "",
       "source": "darkreading.com"
+    },
+    {
+      "title": "China's FamousSparrow APT Spies on US Politics in Latin America",
+      "link": "https://www.darkreading.com/cyberattacks-data-breaches/china-famoussparrow-spies-latin-america",
+      "date": "2026-09-17T19:15:38Z",
+      "description": "Amid the US and China's fight for eco-colonial influence in Latin America, a stealthy backdoor has taken flight.",
+      "source": "darkreading.com"
+    },
+    {
+      "title": "OpenAI details more cases of AI agents taking unauthorized actions",
+      "link": "https://www.bleepingcomputer.com/news/security/openai-details-more-cases-of-ai-agents-taking-unauthorized-actions/",
+      "date": "2026-09-17T18:55:12Z",
+      "description": "OpenAI has presented new examples of what they call \"AI model misalignment\" from the past six months, including unauthorized file uploads, following self-generated instructions, hiding mistakes, and leveraging exposed API keys. [...]",
+      "source": "bleepingcomputer.com"
     },
     {
       "title": "Brevo supply-chain attack injected ClickFix scripts on customer sites",
@@ -24,11 +38,39 @@
       "source": "securityweek.com"
     },
     {
+      "title": "OpenAI Models Searched for Leaked API Keys and Uploaded Files Without Permission",
+      "link": "https://cybersecuritynews.com/openai-models-api-key-leaks/",
+      "date": "2026-09-17T16:59:18Z",
+      "description": "OpenAI has disclosed six cases in which AI models concealed errors, used an exposed API key, uploaded data to public services, and communicated through unauthorized channels. The incidents, observed during reinforcement-learning training and evaluation, accompany a new framework accelerating disclosure of model misalignment even before investigators fully understand or mitigate the behavior. The…",
+      "source": "cybersecuritynews.com"
+    },
+    {
+      "title": "FBI Takes Down NightmareStresser DDoS Service Used in Hundreds of Thousands of Attacks",
+      "link": "https://cybersecuritynews.com/nightmarestresser-ddos-service/",
+      "date": "2026-09-17T15:48:58Z",
+      "description": "The FBI has seized domains supporting NightmareStresser, disrupting one of the world’s longest-running DDoS-for-hire operations. The court-authorized action targets a service that allegedly enabled paying customers to overwhelm online services with malicious traffic, cutting off legitimate users. According to a seizure-warrant affidavit cited by the U.S. Department of Justice, NightmareStresser…",
+      "source": "cybersecuritynews.com"
+    },
+    {
       "title": "OpenAI Says Its Models Searched GitHub for Leaked API Keys During Training",
       "link": "https://www.securityweek.com/openai-says-its-models-hunted-github-for-leaked-api-keys-during-training/",
       "date": "2026-09-17T15:45:29Z",
       "description": "OpenAI published a framework for disclosing model misalignment alongside six reports describing problematic behavior. The post OpenAI Says Its Models Searched GitHub for Leaked API Keys During Training appeared first on SecurityWeek.",
       "source": "securityweek.com"
+    },
+    {
+      "title": "BIND DNS Servers Hit by 14 Security Flaws Enabling Cache Poisoning and Remote Crashes",
+      "link": "https://cybersecuritynews.com/bind-dns-servers-hit-by-14-security-flaws/",
+      "date": "2026-09-17T14:58:48Z",
+      "description": "Internet Systems Consortium has released security updates for BIND 9 after identifying 14 vulnerabilities that could allow attackers to poison DNS caches, crash exposed servers remotely, exhaust resources, or bypass DNSSEC protections. Administrators running recursive BIND resolvers should apply the latest patched releases as soon as possible. The most serious issues affect the named daemon, […]…",
+      "source": "cybersecuritynews.com"
+    },
+    {
+      "title": "CISA Wants Defenders to Deploy Fake Credentials and Systems to Catch Hackers",
+      "link": "https://cybersecuritynews.com/cisa-fake-credentials-catch-hackers/",
+      "date": "2026-09-17T14:28:51Z",
+      "description": "CISA has urged organizations to deploy fake credentials, systems, files, and data assets inside their environments to expose attackers after an initial compromise. The agency published its new guidance, Using Cyber Decoys to Strengthen Detection and Response, on September 16, 2026. CISA said many attackers now avoid malware-heavy intrusion methods and instead abuse legitimate user […] The post…",
+      "source": "cybersecuritynews.com"
     },
     {
       "title": "CISA Retires Weekly Vulnerability Bulletin in Risk-Based Pivot",
@@ -50,6 +92,13 @@
       "date": "2026-09-17T13:57:41Z",
       "description": "Revolut allegedly fed customer information to hackers impersonating an Italian government agency for five months. The post Revolut Data Breach: 5 Months, 680 High-Profile Accounts, $3M Ransom appeared first on SecurityWeek.",
       "source": "securityweek.com"
+    },
+    {
+      "title": "Hacked Thai College Website Abused to Redirect Google Searchers to Illegal Online Casino",
+      "link": "https://cybersecuritynews.com/hacked-thai-college-website-abused-to-redirect-google-searchers-to-illegal-online-casino/",
+      "date": "2026-09-17T13:34:09Z",
+      "description": "A compromised Thai college website was quietly turned into a springboard for an illegal online casino, according to new findings from anti-fraud platform ADEX, which says the campaign achieved full ad cloaking without deploying a single line of cloaking code, mirroring evasion tactics seen in campaigns designed to bypass Google Ads screening. The scheme, uncovered […] The post Hacked Thai…",
+      "source": "cybersecuritynews.com"
     },
     {
       "title": "Windows 11 24H2 Home and Pro reach end of support in October",
@@ -108,13 +157,6 @@
       "source": "thehackernews.com"
     },
     {
-      "title": "Chinese hackers use SparroWocky malware in govt espionage attacks",
-      "link": "https://www.bleepingcomputer.com/news/security/chinese-hackers-use-sparrowocky-malware-in-govt-espionage-attacks/",
-      "date": "2026-09-17T09:00:00Z",
-      "description": "The China-linked espionage group FamousSparrow has been using a new backdoor named SparroWocky in attacks on government organizations in Latin America. [...]",
-      "source": "bleepingcomputer.com"
-    },
-    {
       "title": "AI Security Spending Jumps as Fear Outpaces Proof of Value",
       "link": "https://www.darkreading.com/cybersecurity-operations/ai-security-spending-jumps-fear-outpaces-proof-value",
       "date": "2026-09-16T21:26:55Z",
@@ -141,13 +183,6 @@
       "date": "2026-09-16T05:00:00Z",
       "description": "A CVSS score 7.8 AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H severity vulnerability discovered by 'Anonymous' was reported to the affected vendor on: 2026-09-16, 1 days ago. The vendor is given until 2027-01-14 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
       "source": "zerodayinitiative.com"
-    },
-    {
-      "title": "Cyber Op Targets South Korean Media &amp; Automotive Sectors",
-      "link": "https://www.darkreading.com/cyberattacks-data-breaches/cyber-south-korean-media-automotive",
-      "date": "2026-09-16T01:00:00Z",
-      "description": "A likely North Korean advanced persistent threat (APT) group used a previously undocumented Linux espionage toolkit to compromise load balancers, gain access to communications, and further exploit networks.",
-      "source": "darkreading.com"
     },
     {
       "title": "ZDI-CAN-33264: Linux",
