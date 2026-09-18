@@ -1,7 +1,7 @@
 {
-  "last_updated": "2026-09-18T16:47:40Z",
+  "last_updated": "2026-09-18T19:17:23Z",
   "retention_days": 90,
-  "count": 3549,
+  "count": 3556,
   "items": [
     {
       "id": "67e06cf13e3c120958db05325eb3a662b3a98e65",
@@ -11,7 +11,7 @@
       "description": "",
       "source": "darkreading.com",
       "first_seen": "2026-09-17T17:50:29Z",
-      "last_seen": "2026-09-18T16:47:40Z"
+      "last_seen": "2026-09-18T19:17:23Z"
     },
     {
       "id": "a126f4d9a984171fd8a56b418b8e6e6bad01015f",
@@ -34,6 +34,26 @@
       "last_seen": "2026-08-31T15:38:31Z"
     },
     {
+      "id": "0ea1c51afa4db51e59fa4f39b3950722f0f8e623",
+      "title": "MFA Won't Save You From OAuth Consent Abuse",
+      "link": "https://www.darkreading.com/vulnerabilities-threats/mfa-oauth-consent-abuse",
+      "date": "2026-09-18T18:15:20Z",
+      "description": "MFA is essential, but it cannot replace OAuth governance, least-privilege scopes, consent monitoring, and rapid revocation.",
+      "source": "darkreading.com",
+      "first_seen": "2026-09-18T19:17:23Z",
+      "last_seen": "2026-09-18T19:17:23Z"
+    },
+    {
+      "id": "b2a1fbc9e39d21eb5a72c3c6bc64384996437003",
+      "title": "New WordPress Click2Shell Flaw Forces Theme Installs, Can Chain to Code Execution",
+      "link": "https://thehackernews.com/2026/09/new-wordpress-click2shell-flaw-forces.html",
+      "date": "2026-09-18T16:56:19Z",
+      "description": "WordPress today released patches to fix a new set of vulnerabilities in its core software, one of which could allow a crafted web link, opened by a logged-in administrator, to install a theme from the official WordPress.org directory without anyone clicking Install. The security firm pwn.ai, whose researchers reported the flaw, calls the attack chain Click2Shell. On its own the flaw only",
+      "source": "thehackernews.com",
+      "first_seen": "2026-09-18T19:17:23Z",
+      "last_seen": "2026-09-18T19:17:23Z"
+    },
+    {
       "id": "fe51542c5814073707a295df62622369fd6b781a",
       "title": "Gyazo server flaw exploited to steal 23.6 million user records",
       "link": "https://www.bleepingcomputer.com/news/security/gyazo-server-flaw-exploited-to-steal-236-million-user-records/",
@@ -41,7 +61,7 @@
       "description": "The Gyazo image-sharing platform has confirmed it suffered a data breach after hackers exploited a server vulnerability that allowed them to steal 23.6 million user records. [...]",
       "source": "bleepingcomputer.com",
       "first_seen": "2026-09-18T16:47:40Z",
-      "last_seen": "2026-09-18T16:47:40Z"
+      "last_seen": "2026-09-18T19:17:23Z"
     },
     {
       "id": "80f419cfe4c21fac419a0ba9f962a08275eaec96",
@@ -51,7 +71,7 @@
       "description": "The Pakistan-aligned threat group tracked as Transparent Tribe (aka APT36 and Earth Karkaddan) has been attributed to a fresh set of cyber attacks targeting government and defense entities in India and Afghanistan. The attacks, per Zscaler ThreatLabz, involve the use of previously undocumented tools called RUSTYSHADE, RUSTYMOVE, PSNATCH, and BASHNATCH. The activity has been codenamed Operation",
       "source": "thehackernews.com",
       "first_seen": "2026-09-18T16:47:40Z",
-      "last_seen": "2026-09-18T16:47:40Z"
+      "last_seen": "2026-09-18T19:17:23Z"
     },
     {
       "id": "4b01f399679ebf81a899a2e30a9602ef22b7bdd0",
@@ -61,7 +81,7 @@
       "description": "An ongoing malware campaign uses SEO-optimized GitHub repositories to impersonate well-known software firms to push a previously undocumented information stealer called Rapuncel. [...]",
       "source": "bleepingcomputer.com",
       "first_seen": "2026-09-18T16:47:40Z",
-      "last_seen": "2026-09-18T16:47:40Z"
+      "last_seen": "2026-09-18T19:17:23Z"
     },
     {
       "id": "6c8727880c2925c5386b425fd625846832877dc1",
@@ -71,7 +91,17 @@
       "description": "Noteworthy stories that might have slipped under the radar: Mandiant's 2026 AI risk report, PhantomRaven malware used by bug bounty hunter, WordPress plugin bug exploited. The post In Other News: Ransomware Developer Sentenced, Plugin4Shell AI Attack, Critical SAP Flaw appeared first on SecurityWeek.",
       "source": "securityweek.com",
       "first_seen": "2026-09-18T16:47:40Z",
-      "last_seen": "2026-09-18T16:47:40Z"
+      "last_seen": "2026-09-18T19:17:23Z"
+    },
+    {
+      "id": "65fa5fc3bb73d0bd7a1f646d6bd6b143e83914d3",
+      "title": "Critical Microsoft Azure AI Foundry Vulnerability Allows Attackers to Escalate Privileges",
+      "link": "https://cybersecuritynews.com/microsoft-azure-ai-foundry-vulnerability/",
+      "date": "2026-09-18T14:14:16Z",
+      "description": "Microsoft has patched a maximum-severity security flaw in Azure AI Foundry, its enterprise platform for building and managing generative AI applications and agents, that could have allowed an unauthenticated attacker to escalate privileges over the network without any user interaction. Tracked as CVE-2026-85889, the vulnerability carries the highest possible CVSS score of 10.0, placing it […]…",
+      "source": "cybersecuritynews.com",
+      "first_seen": "2026-09-18T19:17:23Z",
+      "last_seen": "2026-09-18T19:17:23Z"
     },
     {
       "id": "9b42c934c5281fe211d600c47ac3ed7d68a963fa",
@@ -81,7 +111,17 @@
       "description": "Microsoft 365 makes sharing files easy, but access can remain long after its original purpose has ended, leaving organizations with little visibility into who can still reach sensitive data. tenfold Software explains how centralized access governance and owner-driven reviews can help identify and remove unnecessary access. [...]",
       "source": "bleepingcomputer.com",
       "first_seen": "2026-09-18T16:47:40Z",
-      "last_seen": "2026-09-18T16:47:40Z"
+      "last_seen": "2026-09-18T19:17:23Z"
+    },
+    {
+      "id": "cfd94ee0e36cf9c40cf5dd21fcb53c7fcf463819",
+      "title": "Feral Wolf Ransomware Attacks Exploit Atlassian Confluence and Misconfigured 1C Systems",
+      "link": "https://cybersecuritynews.com/feral-wolf-ransomware/",
+      "date": "2026-09-18T13:59:26Z",
+      "description": "Feral Wolf is using exposed business software and weak server settings to reach corporate networks, then locking files with ransomware. The campaign shows how one overlooked internet-facing system can become the starting point for a much larger incident. The group targeted Russian organizations in retail, construction, manufacturing, and information technology from May through August 2026. […]…",
+      "source": "cybersecuritynews.com",
+      "first_seen": "2026-09-18T19:17:23Z",
+      "last_seen": "2026-09-18T19:17:23Z"
     },
     {
       "id": "ee8cdb72ed887c83c3fd742f0eba2de6708eaac8",
@@ -91,7 +131,37 @@
       "description": "Microsoft Teams will soon let administrators tweak the list of file extensions commonly associated with security threats to meet their company's security requirements. [...]",
       "source": "bleepingcomputer.com",
       "first_seen": "2026-09-18T16:47:40Z",
-      "last_seen": "2026-09-18T16:47:40Z"
+      "last_seen": "2026-09-18T19:17:23Z"
+    },
+    {
+      "id": "8b740c989984444a81863af592b66261f5935c40",
+      "title": "New SETTRA Ransomware Uses MeshAgent RMM and BYOVD to Encrypt Windows Systems",
+      "link": "https://cybersecuritynews.com/new-settra-ransomware/",
+      "date": "2026-09-18T13:44:33Z",
+      "description": "Settra ransomware is emerging as a serious threat to Windows networks after investigators linked it to two recent intrusions involving remote-management software and recovery-blocking actions. The operation encrypts files, leaves victims with ransom notes, and tries to make both investigation and restoration more difficult. Public reporting indicates that the people behind Settra have gained…",
+      "source": "cybersecuritynews.com",
+      "first_seen": "2026-09-18T19:17:23Z",
+      "last_seen": "2026-09-18T19:17:23Z"
+    },
+    {
+      "id": "4df7af934206883b63c5aeed6925d961b0b77e2e",
+      "title": "AI Agents Now Run Ransomware Attacks End-to-End Without Human Operators",
+      "link": "https://cybersecuritynews.com/ai-agents-3/",
+      "date": "2026-09-18T13:24:09Z",
+      "description": "Ransomware attacks are entering a new phase. Researchers have documented a campaign in which an AI agent planned, executed, and escalated an extortion operation without evidence that a human approved its actions. The operation, tracked as JADEPUFFER, used an exposed AI workflow server to steal credentials, reach databases, encrypt records, and demand payment. It later […] The post AI Agents Now…",
+      "source": "cybersecuritynews.com",
+      "first_seen": "2026-09-18T19:17:23Z",
+      "last_seen": "2026-09-18T19:17:23Z"
+    },
+    {
+      "id": "6e574952743bddc86f28422822c92ab0353a4de3",
+      "title": "Linux Kernel Hit by Four Privilege Escalation Flaws Enabling Root Access",
+      "link": "https://cybersecuritynews.com/linux-kernel-privilege-escalation-flaws/",
+      "date": "2026-09-18T13:13:23Z",
+      "description": "Four newly disclosed Linux kernel vulnerabilities could allow local attackers to corrupt kernel memory and escalate privileges to root on affected systems. The flaws, named DirtyAH6, TUNderflow, PPPoEject, and DiagSpill, affect long-standing networking code and have now received upstream fixes. The vulnerabilities are tracked as CVE-2026-80844, CVE-2026-81000, CVE-2026-68121, and CVE-2026-74469.…",
+      "source": "cybersecuritynews.com",
+      "first_seen": "2026-09-18T19:17:23Z",
+      "last_seen": "2026-09-18T19:17:23Z"
     },
     {
       "id": "04e8b95d64ba22ab4c0a7ae49d9e708e71fd8d74",
@@ -101,7 +171,7 @@
       "description": "Fast-growing companies face countless recommendations for securing Google Workspace, but not every control provides the same value. This webinar examines real-world breaches to explore which security controls matter most, which may be overrated, and where lean security teams should focus their resources. [...]",
       "source": "bleepingcomputer.com",
       "first_seen": "2026-09-18T16:47:40Z",
-      "last_seen": "2026-09-18T16:47:40Z"
+      "last_seen": "2026-09-18T19:17:23Z"
     },
     {
       "id": "5684813f28bb1b5da9251ec2fb1c72c07767cf1a",
@@ -111,7 +181,7 @@
       "description": "Microsoft has released fixes for a maximum-severity security flaw in Azure AI Foundry that could be exploited to achieve privilege escalation. No customer action is required. The vulnerability, tracked as CVE-2026-85889, carries a CVSS score of 10.0. \"Missing authentication for critical function in Azure AI Foundry allows an unauthorized attacker to elevate privileges over a network,\"",
       "source": "thehackernews.com",
       "first_seen": "2026-09-18T16:47:40Z",
-      "last_seen": "2026-09-18T16:47:40Z"
+      "last_seen": "2026-09-18T19:17:23Z"
     },
     {
       "id": "6f83c5effe8fd978a98946acf41950f291b540f7",
@@ -121,7 +191,7 @@
       "description": "Hacktron researchers earned a bug bounty after demonstrating access to OpenAI employee accounts. The post AI-Built Exploit and Sign-In Flaw Opened Path to Internal OpenAI Code appeared first on SecurityWeek.",
       "source": "securityweek.com",
       "first_seen": "2026-09-18T16:47:40Z",
-      "last_seen": "2026-09-18T16:47:40Z"
+      "last_seen": "2026-09-18T19:17:23Z"
     },
     {
       "id": "c5e760127c28b5188cfc8c7f00d58fac1cd0ac63",
@@ -151,7 +221,7 @@
       "description": "Gyazo maker Helpfeel said the attacker exploited a vulnerability in its image upload server to gain unauthorized access. The post 23 Million User Records Compromised in Gyazo Data Breach appeared first on SecurityWeek.",
       "source": "securityweek.com",
       "first_seen": "2026-09-18T12:27:47Z",
-      "last_seen": "2026-09-18T16:47:40Z"
+      "last_seen": "2026-09-18T19:17:23Z"
     },
     {
       "id": "5037fb373f69ec79365a861431a16d4ea008a55f",
@@ -171,7 +241,7 @@
       "description": "In July 2025, someone registered a domain that used to belong to a content delivery network. The CDN had been wound down years earlier, and the domain it served assets from was allowed to expire. What it had not lost were its callers. Thousands of websites, code repositories, and documentation pages still carry hard-coded references to hostnames beneath it. The new owner holds",
       "source": "thehackernews.com",
       "first_seen": "2026-09-18T16:47:40Z",
-      "last_seen": "2026-09-18T16:47:40Z"
+      "last_seen": "2026-09-18T19:17:23Z"
     },
     {
       "id": "825efe1a7b2cb6a633c5f39dd012fac5ce8f5c80",
@@ -181,7 +251,7 @@
       "description": "A flaw in four widely used AI coding agents lets someone who controls a plugin's code repository swap the plugin an agent installs for a malicious one, even when the agent locked that plugin to a specific reviewed version, security firm Air Security said on Thursday. The firm said Anthropic has patched the flaw in Claude Code 2.1.179 and OpenAI in Codex 0.146.0, that GitHub Copilot has no",
       "source": "thehackernews.com",
       "first_seen": "2026-09-18T16:47:40Z",
-      "last_seen": "2026-09-18T16:47:40Z"
+      "last_seen": "2026-09-18T19:17:23Z"
     },
     {
       "id": "e0be2b5ae20d4917fa1ab5f9dd9ee8115e463e49",
@@ -191,7 +261,7 @@
       "description": "Microsoft fixed vulnerabilities across Azure and AI-branded products, with privilege escalation flaws accounting for the majority. The post Microsoft Patches 18 Vulnerabilities in AI, Cloud Products appeared first on SecurityWeek.",
       "source": "securityweek.com",
       "first_seen": "2026-09-18T12:27:47Z",
-      "last_seen": "2026-09-18T16:47:40Z"
+      "last_seen": "2026-09-18T19:17:23Z"
     },
     {
       "id": "32ce0e19ca5fd36b900fb1ef5860ee325baaa5e6",
@@ -221,7 +291,7 @@
       "description": "Active since at least 2022, NightmareStresser was one of the longest-running DDoS-for-hire services in the world. The post NightmareStresser DDoS Service Disrupted in International Operation appeared first on SecurityWeek.",
       "source": "securityweek.com",
       "first_seen": "2026-09-18T12:27:47Z",
-      "last_seen": "2026-09-18T16:47:40Z"
+      "last_seen": "2026-09-18T19:17:23Z"
     },
     {
       "id": "9352d10d23428f9398ca48a7b2db77cd685583a8",
@@ -331,7 +401,7 @@
       "description": "AI-driven cyberattacks used to be exotic. Soon, it'll be odd if threat actors aren't using agents to do all of their bidding.",
       "source": "darkreading.com",
       "first_seen": "2026-09-18T07:42:36Z",
-      "last_seen": "2026-09-18T16:47:40Z"
+      "last_seen": "2026-09-18T19:17:23Z"
     },
     {
       "id": "b5c6c71fa31be8b31a9849644f412f9647c752d5",
@@ -351,7 +421,7 @@
       "description": "A CVSS score 7.8 AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H severity vulnerability discovered by 'Landon Peng (Lunbun LLC)' was reported to the affected vendor on: 2026-09-18, 0 days ago. The vendor is given until 2027-01-16 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
       "source": "zerodayinitiative.com",
       "first_seen": "2026-09-18T16:47:40Z",
-      "last_seen": "2026-09-18T16:47:40Z"
+      "last_seen": "2026-09-18T19:17:23Z"
     },
     {
       "id": "7e3d31035cc546b45e3c0f3fb237e4670c0f1dbf",
@@ -361,7 +431,7 @@
       "description": "A CVSS score 7.4 AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:H/A:H severity vulnerability discovered by 'Nicolas Chatelain' was reported to the affected vendor on: 2026-09-18, 0 days ago. The vendor is given until 2027-01-16 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
       "source": "zerodayinitiative.com",
       "first_seen": "2026-09-18T16:47:40Z",
-      "last_seen": "2026-09-18T16:47:40Z"
+      "last_seen": "2026-09-18T19:17:23Z"
     },
     {
       "id": "900060d77fb703677946cc07e987d24bef870eed",
@@ -371,7 +441,7 @@
       "description": "A CVSS score 5.9 AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:N/A:N severity vulnerability discovered by 'Nicolas Chatelain' was reported to the affected vendor on: 2026-09-18, 0 days ago. The vendor is given until 2027-01-16 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
       "source": "zerodayinitiative.com",
       "first_seen": "2026-09-18T16:47:40Z",
-      "last_seen": "2026-09-18T16:47:40Z"
+      "last_seen": "2026-09-18T19:17:23Z"
     },
     {
       "id": "0ffa30c0e80f11945186bde5fc934f91350200c0",
@@ -381,7 +451,17 @@
       "description": "A CVSS score 6.5 AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N severity vulnerability discovered by 'Nicolas Chatelain' was reported to the affected vendor on: 2026-09-18, 0 days ago. The vendor is given until 2027-01-16 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
       "source": "zerodayinitiative.com",
       "first_seen": "2026-09-18T16:47:40Z",
-      "last_seen": "2026-09-18T16:47:40Z"
+      "last_seen": "2026-09-18T19:17:23Z"
+    },
+    {
+      "id": "f3062f2503b020b922d1217c03074bf4648f5fc6",
+      "title": "ZDI-CAN-33844: Medixant",
+      "link": "http://www.zerodayinitiative.com/advisories/upcoming/",
+      "date": "2026-09-18T05:00:00Z",
+      "description": "A CVSS score 7.8 AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H severity vulnerability discovered by 'ub1cu0' was reported to the affected vendor on: 2026-09-18, 0 days ago. The vendor is given until 2027-01-16 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
+      "source": "zerodayinitiative.com",
+      "first_seen": "2026-09-18T19:17:23Z",
+      "last_seen": "2026-09-18T19:17:23Z"
     },
     {
       "id": "ec0b9aea5ea6c5dfb6be976db7eb45dd2a9b5076",
@@ -421,7 +501,7 @@
       "description": "The move is consistent with the agency's advice on the need for organizations to prioritize the vulnerabilities that actually matter.",
       "source": "darkreading.com",
       "first_seen": "2026-09-17T23:14:16Z",
-      "last_seen": "2026-09-18T16:47:40Z"
+      "last_seen": "2026-09-18T19:17:23Z"
     },
     {
       "id": "2d382a6359895f5eea51f76c2ca4db35bff7eb9c",
@@ -431,7 +511,7 @@
       "description": "Amid the US and China's fight for eco-colonial influence in Latin America, a stealthy backdoor has taken flight.",
       "source": "darkreading.com",
       "first_seen": "2026-09-17T20:43:14Z",
-      "last_seen": "2026-09-18T16:47:40Z"
+      "last_seen": "2026-09-18T19:17:23Z"
     },
     {
       "id": "1b67792d6ec0f3e4e1b9f7f023e467756f553bb8",
@@ -35424,16 +35504,6 @@
       "last_seen": "2026-06-22T06:20:06Z"
     },
     {
-      "id": "318a034ef29b67a756cb3e6f6724f7df79664934",
-      "title": "CyberSentinel AI with 33 Security Tools, Including Nmap, SQLMap, ZAP, and uses Claude, GPT",
-      "link": "https://cybersecuritynews.com/cybersentinel-ai-with-33-security-tools/",
-      "date": "2026-06-20T16:27:48Z",
-      "description": "A new open-source cybersecurity platform called CyberSentinel AI v3.0 has emerged as a significant development in autonomous security tooling, combining 33 real-world penetration testing and threat intelligence tools with a provider-agnostic AI engine that supports Claude, GPT-4o, OpenRouter, and fully offline local inference via Ollama. Unlike conventional AI security assistants that just…",
-      "source": "cybersecuritynews.com",
-      "first_seen": "2026-06-20T18:04:45Z",
-      "last_seen": "2026-06-22T06:20:06Z"
-    },
-    {
       "id": "249aebae5594a30782ac6882f3c3e1d201edf94a",
       "title": "Novo Nordisk Breach Highlights Software Development Pipeline Risk",
       "link": "https://www.darkreading.com/cyber-risk/novo-nordisk-breach-exposes-dev-pipeline-risk",
@@ -35451,7 +35521,7 @@
       "description": "2.5 million people were affected, in a breach that could spell more trouble down the line.",
       "source": "threatpost.com",
       "first_seen": "2026-08-08T14:21:59Z",
-      "last_seen": "2026-09-18T16:47:40Z"
+      "last_seen": "2026-09-18T19:17:23Z"
     },
     {
       "id": "4140c7a34b0ba94ad2e6b0cae9f59b0cb9bfffea",
@@ -35461,7 +35531,7 @@
       "description": "Researchers uncover a watering hole attack likely carried out by APT TA423, which attempts to plant the ScanBox JavaScript-based reconnaissance tool.",
       "source": "threatpost.com",
       "first_seen": "2026-08-08T14:21:59Z",
-      "last_seen": "2026-09-18T16:47:40Z"
+      "last_seen": "2026-09-18T19:17:23Z"
     },
     {
       "id": "9359ee40a641a4b565080313045f1d7e7fe6552b",
@@ -35471,7 +35541,7 @@
       "description": "Over 130 companies tangled in sprawling phishing campaign that spoofed a multi-factor authentication system.",
       "source": "threatpost.com",
       "first_seen": "2026-08-08T14:21:59Z",
-      "last_seen": "2026-09-18T16:47:40Z"
+      "last_seen": "2026-09-18T19:17:23Z"
     },
     {
       "id": "b4ccef0737cd4050d65241bf754072030b6b5e6a",
@@ -35481,7 +35551,7 @@
       "description": "Lockbit is by far this summer’s most prolific ransomware group, trailed by two offshoots of the Conti group.",
       "source": "threatpost.com",
       "first_seen": "2026-08-08T14:21:59Z",
-      "last_seen": "2026-09-18T16:47:40Z"
+      "last_seen": "2026-09-18T19:17:23Z"
     },
     {
       "id": "12ee113fc8fce91f6d7fb28deab2b1ad20061ec7",
@@ -35491,7 +35561,7 @@
       "description": "Tens of thousands of cameras have failed to patch a critical, 11-month-old CVE, leaving thousands of organizations exposed.",
       "source": "threatpost.com",
       "first_seen": "2026-08-08T14:21:59Z",
-      "last_seen": "2026-09-18T16:47:40Z"
+      "last_seen": "2026-09-18T19:17:23Z"
     }
   ]
 }

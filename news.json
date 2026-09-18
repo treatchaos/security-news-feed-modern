@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-09-18T16:47:40Z",
-  "count": 30,
+  "last_updated": "2026-09-18T19:17:23Z",
+  "count": 35,
   "items": [
     {
       "title": "[Virtual Event] Cybersecurity Outlook 2027",
@@ -8,6 +8,20 @@
       "date": "2026-12-03T16:00:00Z",
       "description": "",
       "source": "darkreading.com"
+    },
+    {
+      "title": "MFA Won't Save You From OAuth Consent Abuse",
+      "link": "https://www.darkreading.com/vulnerabilities-threats/mfa-oauth-consent-abuse",
+      "date": "2026-09-18T18:15:20Z",
+      "description": "MFA is essential, but it cannot replace OAuth governance, least-privilege scopes, consent monitoring, and rapid revocation.",
+      "source": "darkreading.com"
+    },
+    {
+      "title": "New WordPress Click2Shell Flaw Forces Theme Installs, Can Chain to Code Execution",
+      "link": "https://thehackernews.com/2026/09/new-wordpress-click2shell-flaw-forces.html",
+      "date": "2026-09-18T16:56:19Z",
+      "description": "WordPress today released patches to fix a new set of vulnerabilities in its core software, one of which could allow a crafted web link, opened by a logged-in administrator, to install a theme from the official WordPress.org directory without anyone clicking Install. The security firm pwn.ai, whose researchers reported the flaw, calls the attack chain Click2Shell. On its own the flaw only",
+      "source": "thehackernews.com"
     },
     {
       "title": "Gyazo server flaw exploited to steal 23.6 million user records",
@@ -38,6 +52,13 @@
       "source": "securityweek.com"
     },
     {
+      "title": "Critical Microsoft Azure AI Foundry Vulnerability Allows Attackers to Escalate Privileges",
+      "link": "https://cybersecuritynews.com/microsoft-azure-ai-foundry-vulnerability/",
+      "date": "2026-09-18T14:14:16Z",
+      "description": "Microsoft has patched a maximum-severity security flaw in Azure AI Foundry, its enterprise platform for building and managing generative AI applications and agents, that could have allowed an unauthenticated attacker to escalate privileges over the network without any user interaction. Tracked as CVE-2026-85889, the vulnerability carries the highest possible CVSS score of 10.0, placing it […]…",
+      "source": "cybersecuritynews.com"
+    },
+    {
       "title": "Secure enterprise sharing with access reviews for Microsoft 365",
       "link": "https://www.bleepingcomputer.com/news/security/secure-enterprise-sharing-with-access-reviews-for-microsoft-365/",
       "date": "2026-09-18T14:00:10Z",
@@ -45,11 +66,39 @@
       "source": "bleepingcomputer.com"
     },
     {
+      "title": "Feral Wolf Ransomware Attacks Exploit Atlassian Confluence and Misconfigured 1C Systems",
+      "link": "https://cybersecuritynews.com/feral-wolf-ransomware/",
+      "date": "2026-09-18T13:59:26Z",
+      "description": "Feral Wolf is using exposed business software and weak server settings to reach corporate networks, then locking files with ransomware. The campaign shows how one overlooked internet-facing system can become the starting point for a much larger incident. The group targeted Russian organizations in retail, construction, manufacturing, and information technology from May through August 2026. […]…",
+      "source": "cybersecuritynews.com"
+    },
+    {
       "title": "Microsoft Teams will let admins block custom file extensions",
       "link": "https://www.bleepingcomputer.com/news/security/microsoft-teams-will-let-admins-block-custom-file-extensions/",
       "date": "2026-09-18T13:58:40Z",
       "description": "Microsoft Teams will soon let administrators tweak the list of file extensions commonly associated with security threats to meet their company's security requirements. [...]",
       "source": "bleepingcomputer.com"
+    },
+    {
+      "title": "New SETTRA Ransomware Uses MeshAgent RMM and BYOVD to Encrypt Windows Systems",
+      "link": "https://cybersecuritynews.com/new-settra-ransomware/",
+      "date": "2026-09-18T13:44:33Z",
+      "description": "Settra ransomware is emerging as a serious threat to Windows networks after investigators linked it to two recent intrusions involving remote-management software and recovery-blocking actions. The operation encrypts files, leaves victims with ransom notes, and tries to make both investigation and restoration more difficult. Public reporting indicates that the people behind Settra have gained…",
+      "source": "cybersecuritynews.com"
+    },
+    {
+      "title": "AI Agents Now Run Ransomware Attacks End-to-End Without Human Operators",
+      "link": "https://cybersecuritynews.com/ai-agents-3/",
+      "date": "2026-09-18T13:24:09Z",
+      "description": "Ransomware attacks are entering a new phase. Researchers have documented a campaign in which an AI agent planned, executed, and escalated an extortion operation without evidence that a human approved its actions. The operation, tracked as JADEPUFFER, used an exposed AI workflow server to steal credentials, reach databases, encrypt records, and demand payment. It later […] The post AI Agents Now…",
+      "source": "cybersecuritynews.com"
+    },
+    {
+      "title": "Linux Kernel Hit by Four Privilege Escalation Flaws Enabling Root Access",
+      "link": "https://cybersecuritynews.com/linux-kernel-privilege-escalation-flaws/",
+      "date": "2026-09-18T13:13:23Z",
+      "description": "Four newly disclosed Linux kernel vulnerabilities could allow local attackers to corrupt kernel memory and escalate privileges to root on affected systems. The flaws, named DirtyAH6, TUNderflow, PPPoEject, and DiagSpill, affect long-standing networking code and have now received upstream fixes. The vulnerabilities are tracked as CVE-2026-80844, CVE-2026-81000, CVE-2026-68121, and CVE-2026-74469.…",
+      "source": "cybersecuritynews.com"
     },
     {
       "title": "Webinar: Which Google Workspace security controls actually matter?",
@@ -101,13 +150,6 @@
       "source": "securityweek.com"
     },
     {
-      "title": "WeaselBiscuit Stealer Spreads via 13 npm Packages to Harvest Chrome Extension Storage",
-      "link": "https://thehackernews.com/2026/09/weaselbiscuit-stealer-spreads-via-13.html",
-      "date": "2026-09-18T10:40:06Z",
-      "description": "Cybersecurity researchers have discovered a cluster of 13 npm packages that have been found to deliver a previously undocumented JavaScript stealer codenamed WeaselBiscuit. The new malware family, per OpenSourceMalware, exhibits functional overlaps with two malware strains associated with the Democratic People's Republic of Korea's (DPRK) Contagious Interview campaign: BeaverTail and",
-      "source": "thehackernews.com"
-    },
-    {
       "title": "NightmareStresser DDoS Service Disrupted in International Operation",
       "link": "https://www.securityweek.com/nightmarestresser-ddos-service-disrupted-in-international-operation/",
       "date": "2026-09-18T10:12:33Z",
@@ -150,6 +192,13 @@
       "source": "zerodayinitiative.com"
     },
     {
+      "title": "ZDI-CAN-33844: Medixant",
+      "link": "http://www.zerodayinitiative.com/advisories/upcoming/",
+      "date": "2026-09-18T05:00:00Z",
+      "description": "A CVSS score 7.8 AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H severity vulnerability discovered by 'ub1cu0' was reported to the affected vendor on: 2026-09-18, 0 days ago. The vendor is given until 2027-01-16 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
+      "source": "zerodayinitiative.com"
+    },
+    {
       "title": "CISA Ditches Weekly Vulnerability Roundups for Risk-Based Focus",
       "link": "https://www.darkreading.com/cyber-risk/cisa-ditches-weekly-vuln-roundups-risk-based-focus",
       "date": "2026-09-17T21:23:50Z",
@@ -161,20 +210,6 @@
       "link": "https://www.darkreading.com/cyberattacks-data-breaches/china-famoussparrow-spies-latin-america",
       "date": "2026-09-17T19:15:38Z",
       "description": "Amid the US and China's fight for eco-colonial influence in Latin America, a stealthy backdoor has taken flight.",
-      "source": "darkreading.com"
-    },
-    {
-      "title": "ZDI-CAN-34401: Apple",
-      "link": "http://www.zerodayinitiative.com/advisories/upcoming/",
-      "date": "2026-09-17T05:00:00Z",
-      "description": "A CVSS score 8.8 AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H severity vulnerability discovered by 'Hossein Lotfi (@hosselot) of TrendAI Zero Day Initiative' was reported to the affected vendor on: 2026-09-17, 1 days ago. The vendor is given until 2027-01-15 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
-      "source": "zerodayinitiative.com"
-    },
-    {
-      "title": "AI Security Spending Jumps as Fear Outpaces Proof of Value",
-      "link": "https://www.darkreading.com/cybersecurity-operations/ai-security-spending-jumps-fear-outpaces-proof-value",
-      "date": "2026-09-16T21:26:55Z",
-      "description": "CISOs are not waiting for AI to prove its cybersecurity value before investing in the technology. Is it the right move?",
       "source": "darkreading.com"
     },
     {
