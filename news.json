@@ -1,12 +1,26 @@
 {
-  "last_updated": "2026-09-18T19:17:23Z",
-  "count": 35,
+  "last_updated": "2026-09-18T22:02:08Z",
+  "count": 30,
   "items": [
     {
-      "title": "[Virtual Event] Cybersecurity Outlook 2027",
-      "link": "https://www.darkreading.com/events/virtual-event-cybersecurity-outlook-2027",
-      "date": "2026-12-03T16:00:00Z",
-      "description": "",
+      "title": "Vectra AI Launches Ascent to Help Address New Era of AI-Driven Attacks",
+      "link": "https://www.darkreading.com/cyberattacks-data-breaches/vectra-ai-launches-ascent-new-era-ai-driven-attacks",
+      "date": "2026-09-18T20:24:51Z",
+      "description": "The new program expands Vectra AI's partner strategy as increasingly complex security environments and the growing use of AI create demand for broader AI expertise, services, and security outcomes.",
+      "source": "darkreading.com"
+    },
+    {
+      "title": "Cisco Zero-Day Highlights API Endpoint Authentication Issues",
+      "link": "https://www.darkreading.com/vulnerabilities-threats/cisco-zero-day-api-endpoint-authentication-issues",
+      "date": "2026-09-18T19:26:47Z",
+      "description": "The authentication bypass flaw CVE-2026-76460 impacts Cisco's Identity Services Engine (ISE) and received a maximum 10 out of 10 CVSS score.",
+      "source": "darkreading.com"
+    },
+    {
+      "title": "EY Survey Finds Autonomous AI Implementation Outpaces Oversight",
+      "link": "https://www.darkreading.com/cyberattacks-data-breaches/ey-survey-autonomous-ai-implementation-outpaces-oversight",
+      "date": "2026-09-18T19:23:48Z",
+      "description": "A new survey of senior AI execs shows that while organizations are rapidly deploying AI and autonomous systems, their process and controls are not keeping pace.",
       "source": "darkreading.com"
     },
     {
@@ -15,6 +29,13 @@
       "date": "2026-09-18T18:15:20Z",
       "description": "MFA is essential, but it cannot replace OAuth governance, least-privilege scopes, consent monitoring, and rapid revocation.",
       "source": "darkreading.com"
+    },
+    {
+      "title": "Public Exploits Released for Four Linux Kernel Flaws That Enable Local Root",
+      "link": "https://thehackernews.com/2026/09/public-exploits-released-for-four-linux.html",
+      "date": "2026-09-18T18:02:24Z",
+      "description": "A security researcher has released working exploit code for four Linux kernel flaws that each let a local user gain root, the highest level of access on a machine. Kernel maintainers have fixed all four over the past few weeks, so a system running an up-to-date kernel is not affected. But the exploit code is now public, and any machine still running an older kernel should be updated. The flaws",
+      "source": "thehackernews.com"
     },
     {
       "title": "New WordPress Click2Shell Flaw Forces Theme Installs, Can Chain to Code Execution",
@@ -52,13 +73,6 @@
       "source": "securityweek.com"
     },
     {
-      "title": "Critical Microsoft Azure AI Foundry Vulnerability Allows Attackers to Escalate Privileges",
-      "link": "https://cybersecuritynews.com/microsoft-azure-ai-foundry-vulnerability/",
-      "date": "2026-09-18T14:14:16Z",
-      "description": "Microsoft has patched a maximum-severity security flaw in Azure AI Foundry, its enterprise platform for building and managing generative AI applications and agents, that could have allowed an unauthenticated attacker to escalate privileges over the network without any user interaction. Tracked as CVE-2026-85889, the vulnerability carries the highest possible CVSS score of 10.0, placing it […]…",
-      "source": "cybersecuritynews.com"
-    },
-    {
       "title": "Secure enterprise sharing with access reviews for Microsoft 365",
       "link": "https://www.bleepingcomputer.com/news/security/secure-enterprise-sharing-with-access-reviews-for-microsoft-365/",
       "date": "2026-09-18T14:00:10Z",
@@ -66,39 +80,11 @@
       "source": "bleepingcomputer.com"
     },
     {
-      "title": "Feral Wolf Ransomware Attacks Exploit Atlassian Confluence and Misconfigured 1C Systems",
-      "link": "https://cybersecuritynews.com/feral-wolf-ransomware/",
-      "date": "2026-09-18T13:59:26Z",
-      "description": "Feral Wolf is using exposed business software and weak server settings to reach corporate networks, then locking files with ransomware. The campaign shows how one overlooked internet-facing system can become the starting point for a much larger incident. The group targeted Russian organizations in retail, construction, manufacturing, and information technology from May through August 2026. […]…",
-      "source": "cybersecuritynews.com"
-    },
-    {
       "title": "Microsoft Teams will let admins block custom file extensions",
       "link": "https://www.bleepingcomputer.com/news/security/microsoft-teams-will-let-admins-block-custom-file-extensions/",
       "date": "2026-09-18T13:58:40Z",
       "description": "Microsoft Teams will soon let administrators tweak the list of file extensions commonly associated with security threats to meet their company's security requirements. [...]",
       "source": "bleepingcomputer.com"
-    },
-    {
-      "title": "New SETTRA Ransomware Uses MeshAgent RMM and BYOVD to Encrypt Windows Systems",
-      "link": "https://cybersecuritynews.com/new-settra-ransomware/",
-      "date": "2026-09-18T13:44:33Z",
-      "description": "Settra ransomware is emerging as a serious threat to Windows networks after investigators linked it to two recent intrusions involving remote-management software and recovery-blocking actions. The operation encrypts files, leaves victims with ransom notes, and tries to make both investigation and restoration more difficult. Public reporting indicates that the people behind Settra have gained…",
-      "source": "cybersecuritynews.com"
-    },
-    {
-      "title": "AI Agents Now Run Ransomware Attacks End-to-End Without Human Operators",
-      "link": "https://cybersecuritynews.com/ai-agents-3/",
-      "date": "2026-09-18T13:24:09Z",
-      "description": "Ransomware attacks are entering a new phase. Researchers have documented a campaign in which an AI agent planned, executed, and escalated an extortion operation without evidence that a human approved its actions. The operation, tracked as JADEPUFFER, used an exposed AI workflow server to steal credentials, reach databases, encrypt records, and demand payment. It later […] The post AI Agents Now…",
-      "source": "cybersecuritynews.com"
-    },
-    {
-      "title": "Linux Kernel Hit by Four Privilege Escalation Flaws Enabling Root Access",
-      "link": "https://cybersecuritynews.com/linux-kernel-privilege-escalation-flaws/",
-      "date": "2026-09-18T13:13:23Z",
-      "description": "Four newly disclosed Linux kernel vulnerabilities could allow local attackers to corrupt kernel memory and escalate privileges to root on affected systems. The flaws, named DirtyAH6, TUNderflow, PPPoEject, and DiagSpill, affect long-standing networking code and have now received upstream fixes. The vulnerabilities are tracked as CVE-2026-80844, CVE-2026-81000, CVE-2026-68121, and CVE-2026-74469.…",
-      "source": "cybersecuritynews.com"
     },
     {
       "title": "Webinar: Which Google Workspace security controls actually matter?",
@@ -133,13 +119,6 @@
       "link": "https://thehackernews.com/2026/09/an-abandoned-cdn-domain-was-re.html",
       "date": "2026-09-18T11:01:16Z",
       "description": "In July 2025, someone registered a domain that used to belong to a content delivery network. The CDN had been wound down years earlier, and the domain it served assets from was allowed to expire. What it had not lost were its callers. Thousands of websites, code repositories, and documentation pages still carry hard-coded references to hostnames beneath it. The new owner holds",
-      "source": "thehackernews.com"
-    },
-    {
-      "title": "Plugin4Shell Lets Repository Owners Swap Pinned Plugin Code Across Four AI Coding Agents",
-      "link": "https://thehackernews.com/2026/09/plugin4shell-lets-repository-owners.html",
-      "date": "2026-09-18T11:01:01Z",
-      "description": "A flaw in four widely used AI coding agents lets someone who controls a plugin's code repository swap the plugin an agent installs for a malicious one, even when the agent locked that plugin to a specific reviewed version, security firm Air Security said on Thursday. The firm said Anthropic has patched the flaw in Claude Code 2.1.179 and OpenAI in Codex 0.146.0, that GitHub Copilot has no",
       "source": "thehackernews.com"
     },
     {
@@ -197,20 +176,6 @@
       "date": "2026-09-18T05:00:00Z",
       "description": "A CVSS score 7.8 AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H severity vulnerability discovered by 'ub1cu0' was reported to the affected vendor on: 2026-09-18, 0 days ago. The vendor is given until 2027-01-16 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
       "source": "zerodayinitiative.com"
-    },
-    {
-      "title": "CISA Ditches Weekly Vulnerability Roundups for Risk-Based Focus",
-      "link": "https://www.darkreading.com/cyber-risk/cisa-ditches-weekly-vuln-roundups-risk-based-focus",
-      "date": "2026-09-17T21:23:50Z",
-      "description": "The move is consistent with the agency's advice on the need for organizations to prioritize the vulnerabilities that actually matter.",
-      "source": "darkreading.com"
-    },
-    {
-      "title": "China's FamousSparrow APT Spies on US Politics in Latin America",
-      "link": "https://www.darkreading.com/cyberattacks-data-breaches/china-famoussparrow-spies-latin-america",
-      "date": "2026-09-17T19:15:38Z",
-      "description": "Amid the US and China's fight for eco-colonial influence in Latin America, a stealthy backdoor has taken flight.",
-      "source": "darkreading.com"
     },
     {
       "title": "Student Loan Breach Exposes 2.5M Records",
