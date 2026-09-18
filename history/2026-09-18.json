@@ -1,7 +1,97 @@
 {
   "date": "2026-09-18",
-  "count": 27,
+  "count": 42,
   "items": [
+    {
+      "id": "fe51542c5814073707a295df62622369fd6b781a",
+      "title": "Gyazo server flaw exploited to steal 23.6 million user records",
+      "link": "https://www.bleepingcomputer.com/news/security/gyazo-server-flaw-exploited-to-steal-236-million-user-records/",
+      "date": "2026-09-18T16:00:38Z",
+      "description": "The Gyazo image-sharing platform has confirmed it suffered a data breach after hackers exploited a server vulnerability that allowed them to steal 23.6 million user records. [...]",
+      "source": "bleepingcomputer.com",
+      "first_seen": "2026-09-18T16:47:40Z",
+      "last_seen": "2026-09-18T16:47:40Z"
+    },
+    {
+      "id": "80f419cfe4c21fac419a0ba9f962a08275eaec96",
+      "title": "Transparent Tribe Deploys New Rust Backdoor Using Private GitHub Repositories for C2",
+      "link": "https://thehackernews.com/2026/09/transparent-tribe-deploys-new-rust.html",
+      "date": "2026-09-18T15:24:16Z",
+      "description": "The Pakistan-aligned threat group tracked as Transparent Tribe (aka APT36 and Earth Karkaddan) has been attributed to a fresh set of cyber attacks targeting government and defense entities in India and Afghanistan. The attacks, per Zscaler ThreatLabz, involve the use of previously undocumented tools called RUSTYSHADE, RUSTYMOVE, PSNATCH, and BASHNATCH. The activity has been codenamed Operation",
+      "source": "thehackernews.com",
+      "first_seen": "2026-09-18T16:47:40Z",
+      "last_seen": "2026-09-18T16:47:40Z"
+    },
+    {
+      "id": "4b01f399679ebf81a899a2e30a9602ef22b7bdd0",
+      "title": "Fake LastPass Authenticator GitHub repos push new Rapuncel infostealer",
+      "link": "https://www.bleepingcomputer.com/news/security/fake-lastpass-authenticator-github-repos-push-new-rapuncel-infostealer/",
+      "date": "2026-09-18T15:19:06Z",
+      "description": "An ongoing malware campaign uses SEO-optimized GitHub repositories to impersonate well-known software firms to push a previously undocumented information stealer called Rapuncel. [...]",
+      "source": "bleepingcomputer.com",
+      "first_seen": "2026-09-18T16:47:40Z",
+      "last_seen": "2026-09-18T16:47:40Z"
+    },
+    {
+      "id": "6c8727880c2925c5386b425fd625846832877dc1",
+      "title": "In Other News: Ransomware Developer Sentenced, Plugin4Shell AI Attack, Critical SAP Flaw",
+      "link": "https://www.securityweek.com/in-other-news-ransomware-developer-sentenced-plugin4shell-ai-attack-critical-sap-flaw/",
+      "date": "2026-09-18T14:25:00Z",
+      "description": "Noteworthy stories that might have slipped under the radar: Mandiant's 2026 AI risk report, PhantomRaven malware used by bug bounty hunter, WordPress plugin bug exploited. The post In Other News: Ransomware Developer Sentenced, Plugin4Shell AI Attack, Critical SAP Flaw appeared first on SecurityWeek.",
+      "source": "securityweek.com",
+      "first_seen": "2026-09-18T16:47:40Z",
+      "last_seen": "2026-09-18T16:47:40Z"
+    },
+    {
+      "id": "9b42c934c5281fe211d600c47ac3ed7d68a963fa",
+      "title": "Secure enterprise sharing with access reviews for Microsoft 365",
+      "link": "https://www.bleepingcomputer.com/news/security/secure-enterprise-sharing-with-access-reviews-for-microsoft-365/",
+      "date": "2026-09-18T14:00:10Z",
+      "description": "Microsoft 365 makes sharing files easy, but access can remain long after its original purpose has ended, leaving organizations with little visibility into who can still reach sensitive data. tenfold Software explains how centralized access governance and owner-driven reviews can help identify and remove unnecessary access. [...]",
+      "source": "bleepingcomputer.com",
+      "first_seen": "2026-09-18T16:47:40Z",
+      "last_seen": "2026-09-18T16:47:40Z"
+    },
+    {
+      "id": "ee8cdb72ed887c83c3fd742f0eba2de6708eaac8",
+      "title": "Microsoft Teams will let admins block custom file extensions",
+      "link": "https://www.bleepingcomputer.com/news/security/microsoft-teams-will-let-admins-block-custom-file-extensions/",
+      "date": "2026-09-18T13:58:40Z",
+      "description": "Microsoft Teams will soon let administrators tweak the list of file extensions commonly associated with security threats to meet their company's security requirements. [...]",
+      "source": "bleepingcomputer.com",
+      "first_seen": "2026-09-18T16:47:40Z",
+      "last_seen": "2026-09-18T16:47:40Z"
+    },
+    {
+      "id": "04e8b95d64ba22ab4c0a7ae49d9e708e71fd8d74",
+      "title": "Webinar: Which Google Workspace security controls actually matter?",
+      "link": "https://www.bleepingcomputer.com/news/security/webinar-which-google-workspace-security-controls-actually-matter/",
+      "date": "2026-09-18T13:10:19Z",
+      "description": "Fast-growing companies face countless recommendations for securing Google Workspace, but not every control provides the same value. This webinar examines real-world breaches to explore which security controls matter most, which may be overrated, and where lean security teams should focus their resources. [...]",
+      "source": "bleepingcomputer.com",
+      "first_seen": "2026-09-18T16:47:40Z",
+      "last_seen": "2026-09-18T16:47:40Z"
+    },
+    {
+      "id": "5684813f28bb1b5da9251ec2fb1c72c07767cf1a",
+      "title": "Microsoft Patches CVSS 10.0 Azure AI Foundry Flaw Enabling Unauthorized Privilege Escalation",
+      "link": "https://thehackernews.com/2026/09/microsoft-patches-cvss-100-azure-ai.html",
+      "date": "2026-09-18T12:47:04Z",
+      "description": "Microsoft has released fixes for a maximum-severity security flaw in Azure AI Foundry that could be exploited to achieve privilege escalation. No customer action is required. The vulnerability, tracked as CVE-2026-85889, carries a CVSS score of 10.0. \"Missing authentication for critical function in Azure AI Foundry allows an unauthorized attacker to elevate privileges over a network,\"",
+      "source": "thehackernews.com",
+      "first_seen": "2026-09-18T16:47:40Z",
+      "last_seen": "2026-09-18T16:47:40Z"
+    },
+    {
+      "id": "6f83c5effe8fd978a98946acf41950f291b540f7",
+      "title": "AI-Built Exploit and Sign-In Flaw Opened Path to Internal OpenAI Code",
+      "link": "https://www.securityweek.com/ai-built-exploit-and-sign-in-flaw-opened-path-to-internal-openai-code/",
+      "date": "2026-09-18T12:45:24Z",
+      "description": "Hacktron researchers earned a bug bounty after demonstrating access to OpenAI employee accounts. The post AI-Built Exploit and Sign-In Flaw Opened Path to Internal OpenAI Code appeared first on SecurityWeek.",
+      "source": "securityweek.com",
+      "first_seen": "2026-09-18T16:47:40Z",
+      "last_seen": "2026-09-18T16:47:40Z"
+    },
     {
       "id": "c5e760127c28b5188cfc8c7f00d58fac1cd0ac63",
       "title": "Microsoft fixes bug behind ‘Defender Antivirus is turned off’ alerts",
@@ -30,7 +120,7 @@
       "description": "Gyazo maker Helpfeel said the attacker exploited a vulnerability in its image upload server to gain unauthorized access. The post 23 Million User Records Compromised in Gyazo Data Breach appeared first on SecurityWeek.",
       "source": "securityweek.com",
       "first_seen": "2026-09-18T12:27:47Z",
-      "last_seen": "2026-09-18T12:27:47Z"
+      "last_seen": "2026-09-18T16:47:40Z"
     },
     {
       "id": "5037fb373f69ec79365a861431a16d4ea008a55f",
@@ -43,6 +133,26 @@
       "last_seen": "2026-09-18T12:27:47Z"
     },
     {
+      "id": "2d3b5bd7f55553070a80b40c37645948ada863b8",
+      "title": "An Abandoned CDN Domain Was Re-Registered. Thousands of Sites Still Call It.",
+      "link": "https://thehackernews.com/2026/09/an-abandoned-cdn-domain-was-re.html",
+      "date": "2026-09-18T11:01:16Z",
+      "description": "In July 2025, someone registered a domain that used to belong to a content delivery network. The CDN had been wound down years earlier, and the domain it served assets from was allowed to expire. What it had not lost were its callers. Thousands of websites, code repositories, and documentation pages still carry hard-coded references to hostnames beneath it. The new owner holds",
+      "source": "thehackernews.com",
+      "first_seen": "2026-09-18T16:47:40Z",
+      "last_seen": "2026-09-18T16:47:40Z"
+    },
+    {
+      "id": "825efe1a7b2cb6a633c5f39dd012fac5ce8f5c80",
+      "title": "Plugin4Shell Lets Repository Owners Swap Pinned Plugin Code Across Four AI Coding Agents",
+      "link": "https://thehackernews.com/2026/09/plugin4shell-lets-repository-owners.html",
+      "date": "2026-09-18T11:01:01Z",
+      "description": "A flaw in four widely used AI coding agents lets someone who controls a plugin's code repository swap the plugin an agent installs for a malicious one, even when the agent locked that plugin to a specific reviewed version, security firm Air Security said on Thursday. The firm said Anthropic has patched the flaw in Claude Code 2.1.179 and OpenAI in Codex 0.146.0, that GitHub Copilot has no",
+      "source": "thehackernews.com",
+      "first_seen": "2026-09-18T16:47:40Z",
+      "last_seen": "2026-09-18T16:47:40Z"
+    },
+    {
       "id": "e0be2b5ae20d4917fa1ab5f9dd9ee8115e463e49",
       "title": "Microsoft Patches 18 Vulnerabilities in AI, Cloud Products",
       "link": "https://www.securityweek.com/microsoft-patches-18-vulnerabilities-in-ai-cloud-products/",
@@ -50,7 +160,7 @@
       "description": "Microsoft fixed vulnerabilities across Azure and AI-branded products, with privilege escalation flaws accounting for the majority. The post Microsoft Patches 18 Vulnerabilities in AI, Cloud Products appeared first on SecurityWeek.",
       "source": "securityweek.com",
       "first_seen": "2026-09-18T12:27:47Z",
-      "last_seen": "2026-09-18T12:27:47Z"
+      "last_seen": "2026-09-18T16:47:40Z"
     },
     {
       "id": "32ce0e19ca5fd36b900fb1ef5860ee325baaa5e6",
@@ -70,7 +180,7 @@
       "description": "Cybersecurity researchers have discovered a cluster of 13 npm packages that have been found to deliver a previously undocumented JavaScript stealer codenamed WeaselBiscuit. The new malware family, per OpenSourceMalware, exhibits functional overlaps with two malware strains associated with the Democratic People's Republic of Korea's (DPRK) Contagious Interview campaign: BeaverTail and",
       "source": "thehackernews.com",
       "first_seen": "2026-09-18T12:27:47Z",
-      "last_seen": "2026-09-18T12:27:47Z"
+      "last_seen": "2026-09-18T16:47:40Z"
     },
     {
       "id": "e3691085d46d1f38446119a1a06edc392667105a",
@@ -80,7 +190,7 @@
       "description": "Active since at least 2022, NightmareStresser was one of the longest-running DDoS-for-hire services in the world. The post NightmareStresser DDoS Service Disrupted in International Operation appeared first on SecurityWeek.",
       "source": "securityweek.com",
       "first_seen": "2026-09-18T12:27:47Z",
-      "last_seen": "2026-09-18T12:27:47Z"
+      "last_seen": "2026-09-18T16:47:40Z"
     },
     {
       "id": "9352d10d23428f9398ca48a7b2db77cd685583a8",
@@ -190,7 +300,7 @@
       "description": "AI-driven cyberattacks used to be exotic. Soon, it'll be odd if threat actors aren't using agents to do all of their bidding.",
       "source": "darkreading.com",
       "first_seen": "2026-09-18T07:42:36Z",
-      "last_seen": "2026-09-18T12:27:47Z"
+      "last_seen": "2026-09-18T16:47:40Z"
     },
     {
       "id": "b5c6c71fa31be8b31a9849644f412f9647c752d5",
@@ -201,6 +311,46 @@
       "source": "thehackernews.com",
       "first_seen": "2026-09-18T07:42:36Z",
       "last_seen": "2026-09-18T12:27:47Z"
+    },
+    {
+      "id": "0eb481c61de64c650d1dcc3cbcf7ed6ad4d3c534",
+      "title": "ZDI-CAN-31049: RARLAB",
+      "link": "http://www.zerodayinitiative.com/advisories/upcoming/",
+      "date": "2026-09-18T05:00:00Z",
+      "description": "A CVSS score 7.8 AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H severity vulnerability discovered by 'Landon Peng (Lunbun LLC)' was reported to the affected vendor on: 2026-09-18, 0 days ago. The vendor is given until 2027-01-16 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
+      "source": "zerodayinitiative.com",
+      "first_seen": "2026-09-18T16:47:40Z",
+      "last_seen": "2026-09-18T16:47:40Z"
+    },
+    {
+      "id": "7e3d31035cc546b45e3c0f3fb237e4670c0f1dbf",
+      "title": "ZDI-CAN-29161: MailEnable",
+      "link": "http://www.zerodayinitiative.com/advisories/upcoming/",
+      "date": "2026-09-18T05:00:00Z",
+      "description": "A CVSS score 7.4 AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:H/A:H severity vulnerability discovered by 'Nicolas Chatelain' was reported to the affected vendor on: 2026-09-18, 0 days ago. The vendor is given until 2027-01-16 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
+      "source": "zerodayinitiative.com",
+      "first_seen": "2026-09-18T16:47:40Z",
+      "last_seen": "2026-09-18T16:47:40Z"
+    },
+    {
+      "id": "900060d77fb703677946cc07e987d24bef870eed",
+      "title": "ZDI-CAN-34478: MailEnable",
+      "link": "http://www.zerodayinitiative.com/advisories/upcoming/",
+      "date": "2026-09-18T05:00:00Z",
+      "description": "A CVSS score 5.9 AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:N/A:N severity vulnerability discovered by 'Nicolas Chatelain' was reported to the affected vendor on: 2026-09-18, 0 days ago. The vendor is given until 2027-01-16 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
+      "source": "zerodayinitiative.com",
+      "first_seen": "2026-09-18T16:47:40Z",
+      "last_seen": "2026-09-18T16:47:40Z"
+    },
+    {
+      "id": "0ffa30c0e80f11945186bde5fc934f91350200c0",
+      "title": "ZDI-CAN-29137: MailEnable",
+      "link": "http://www.zerodayinitiative.com/advisories/upcoming/",
+      "date": "2026-09-18T05:00:00Z",
+      "description": "A CVSS score 6.5 AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N severity vulnerability discovered by 'Nicolas Chatelain' was reported to the affected vendor on: 2026-09-18, 0 days ago. The vendor is given until 2027-01-16 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
+      "source": "zerodayinitiative.com",
+      "first_seen": "2026-09-18T16:47:40Z",
+      "last_seen": "2026-09-18T16:47:40Z"
     },
     {
       "id": "ec0b9aea5ea6c5dfb6be976db7eb45dd2a9b5076",
@@ -270,7 +420,7 @@
       "description": "A CVSS score 8.8 AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H severity vulnerability discovered by 'Hossein Lotfi (@hosselot) of TrendAI Zero Day Initiative' was reported to the affected vendor on: 2026-09-17, 1 days ago. The vendor is given until 2027-01-15 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
       "source": "zerodayinitiative.com",
       "first_seen": "2026-09-18T07:42:36Z",
-      "last_seen": "2026-09-18T12:27:47Z"
+      "last_seen": "2026-09-18T16:47:40Z"
     }
   ]
 }
