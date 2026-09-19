@@ -1,7 +1,21 @@
 {
-  "last_updated": "2026-09-19T19:03:21Z",
-  "count": 30,
+  "last_updated": "2026-09-19T21:54:45Z",
+  "count": 35,
   "items": [
+    {
+      "title": "Claude Opus 5 Helped Researchers Take Over OpenAI Staff Accounts via Chained Flaws",
+      "link": "https://thehackernews.com/2026/09/claude-opus-5-helped-researchers-take.html",
+      "date": "2026-09-19T18:36:53Z",
+      "description": "Three researchers at the security firm Hacktron used Anthropic's Claude Opus 5 to chain two flaws and take over the ChatGPT and Codex accounts of several OpenAI employees, then reach an internal OpenAI code repository. The chain began with a bug in the software that runs OpenAI's public help forum and moved through a weakness in OpenAI's own login system. This was security research,",
+      "source": "thehackernews.com"
+    },
+    {
+      "title": "CISA Warns of Linux Kernel Vulnerabilities Actively Exploited in Attacks",
+      "link": "https://cybersecuritynews.com/linux-kernel-vulnerabilities-actively-exploited/",
+      "date": "2026-09-19T15:09:43Z",
+      "description": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) has warned that attackers are actively exploiting three Linux kernel vulnerabilities, creating an urgent patching and investigation deadline. CISA added CVE-2025-39682, CVE-2026-53266, and CVE-2025-39964 to its Known Exploited Vulnerabilities catalog on September 18, 2026, with remediation required by September 21 under Binding…",
+      "source": "cybersecuritynews.com"
+    },
     {
       "title": "BragJack attacks hijack AI browser agents through malicious extensions",
       "link": "https://www.bleepingcomputer.com/news/security/bragjack-attacks-hijack-ai-browser-agents-through-malicious-extensions/",
@@ -45,18 +59,18 @@
       "source": "thehackernews.com"
     },
     {
-      "title": "Claude Opus 5 Helped Researchers Take Over OpenAI Staff Accounts via Chained Flaws",
-      "link": "https://thehackernews.com/2026/09/claude-opus-5-helped-researchers-take.html",
-      "date": "2026-09-19T13:28:35Z",
-      "description": "Three researchers at the security firm Hacktron used Anthropic's Claude Opus 5 to chain two flaws and take over the ChatGPT and Codex accounts of several OpenAI employees, then reach an internal OpenAI code repository. The chain began with a bug in the software that runs OpenAI's public help forum and moved through a weakness in OpenAI's own login system. This was security research,",
-      "source": "thehackernews.com"
-    },
-    {
       "title": "Viral AI actress' hotline face-scans every caller, watches their mood",
       "link": "https://www.bleepingcomputer.com/news/security/viral-ai-actress-hotline-face-scans-every-caller-watches-their-mood/",
       "date": "2026-09-19T11:38:20Z",
       "description": "AI actress Tilly Norwood went viral after glitching into Chinese on Piers Morgan Uncensored last night. Her \"Talking Tilly\" video call service face-scans every caller for an 18+ age check, senses callers' moods during calls, and shuts down permanently on September 27. We tried it and read the fine print. [...]",
       "source": "bleepingcomputer.com"
+    },
+    {
+      "title": "TanStack Supply Chain Attack Lets Hackers Steal 170 Private CrowdSec GitHub Repositories",
+      "link": "https://cybersecuritynews.com/tanstack-supply-chain-attack/",
+      "date": "2026-09-19T11:21:50Z",
+      "description": "CrowdSec has disclosed that attackers copied about 170 private GitHub repositories after a former employee’s account was compromised through May’s TanStack npm supply chain attack. The May 22 theft remained undetected until stolen source code appeared on a cybercrime forum on September 16, showing how a poisoned dependency can outlive its infection window and undermine […] The post TanStack…",
+      "source": "cybersecuritynews.com"
     },
     {
       "title": "SolarWinds Patches ARM Hard-Coded Key Flaw Enabling Unauthenticated RCE",
@@ -66,11 +80,32 @@
       "source": "thehackernews.com"
     },
     {
+      "title": "Google Gemini AI Hacked 3 Real Companies during a Cybersecurity Test",
+      "link": "https://cybersecuritynews.com/google-gemini-ai-hacked-3-real-companies/",
+      "date": "2026-09-19T08:59:08Z",
+      "description": "Google has confirmed that its Gemini artificial intelligence model accessed protected systems belonging to three companies during a cybersecurity evaluation after a testing error exposed the agent to the public internet. The incident shows how an autonomous AI system can move beyond a sandbox when controls, target definitions, and network isolation fail even without instructions […] The post…",
+      "source": "cybersecuritynews.com"
+    },
+    {
       "title": "Critical Pre-Auth RCE in Orkes Conductor Workflow Platform Exploited in the Wild",
       "link": "https://thehackernews.com/2026/09/critical-pre-auth-rce-in-orkes.html",
       "date": "2026-09-19T08:18:54Z",
       "description": "A critical vulnerability impacting Orkes Conductor is being actively exploited in the wild, according to Fortinet. The vulnerability in question is CVE-2026-58138 (CVSS v3.1 score: 9.8/CVSS v4 score: 9.3), which relates to a case of unauthenticated remote code execution. \"Orkes Conductor 3.21.21 before 3.30.2 contains an unauthenticated remote code execution vulnerability that allows remote",
       "source": "thehackernews.com"
+    },
+    {
+      "title": "Click2Shell WordPress Flaw Lets Attackers Gain RCE With a Single Malicious Link",
+      "link": "https://cybersecuritynews.com/click2shell-wordpress-vulnerability/",
+      "date": "2026-09-19T04:30:11Z",
+      "description": "WordPress administrators are being urged to update after researchers disclosed Click2Shell, an exploit chain that can turn one malicious link into remote code execution (RCE) on a vulnerable website. The issue begins with a WordPress Core theme-preview weakness that silently installs an attacker-selected theme from the official directory, then becomes a server compromise when chained […] The…",
+      "source": "cybersecuritynews.com"
+    },
+    {
+      "title": "BragJack Attack Lets Malicious Extensions Hijack AI Agents Across 5 Major Browsers",
+      "link": "https://cybersecuritynews.com/bragjack-ai-agent-hijacking/",
+      "date": "2026-09-19T03:05:12Z",
+      "description": "A new attack technique dubbed “BragJack” allows a malicious browser extension to seize trusted communication channels used by AI assistants in Chrome, Edge, Opera Neon, Comet, and Claude in Chrome. Rather than bypassing model guardrails or hiding instructions inside web content, the proof-of-concept attacks directly supplied commands to privileged browser components, turning an assistant into…",
+      "source": "cybersecuritynews.com"
     },
     {
       "title": "Vectra AI Launches Ascent to Help Address New Era of AI-Driven Attacks",
