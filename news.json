@@ -1,7 +1,98 @@
 {
-  "last_updated": "2026-09-22T05:35:08Z",
-  "count": 30,
+  "last_updated": "2026-09-22T10:31:56Z",
+  "count": 35,
   "items": [
+    {
+      "title": "WordPress Patches ‘Click2Shell’ Vulnerability",
+      "link": "https://www.securityweek.com/wordpress-patches-click2shell-vulnerability/",
+      "date": "2026-09-22T10:22:27Z",
+      "description": "The bug lets attackers automatically install and preview themes and could lead to remote code execution. The post WordPress Patches ‘Click2Shell’ Vulnerability appeared first on SecurityWeek.",
+      "source": "securityweek.com"
+    },
+    {
+      "title": "Context Bombs Trick Autonomous Qwen AI Agents Into Stopping Cyberattacks",
+      "link": "https://cybersecuritynews.com/context-bombs/",
+      "date": "2026-09-22T10:21:44Z",
+      "description": "A hidden “context bomb” prompt in a cloud decoy can disrupt AI agents and force Qwen3.8-27B to stop simulated attacks. The technique worked against both the original and modified “abliterated” versions. Context bombs are defensive strings placed in vulnerable resources, like AWS Secrets Manager. When an AI agent scans the environment and encounters this embedded […] The post Context Bombs Trick…",
+      "source": "cybersecuritynews.com"
+    },
+    {
+      "title": "GHAPPIER Supply Chain Attack Compromises 65 GitHub Repositories and Poisons npm Package",
+      "link": "https://cybersecuritynews.com/ghappier-supply-chain-attack/",
+      "date": "2026-09-22T10:21:22Z",
+      "description": "A newly uncovered software supply chain attack has shown how quickly a trusted developer account can become a delivery route for malware. The operation, tracked as GHAPPIER, reached 65 GitHub repositories, infecting 73 files across 22 accounts. It involved a legitimate npm package that distributed a malicious loader to users. Attackers used access to a […] The post GHAPPIER Supply Chain Attack…",
+      "source": "cybersecuritynews.com"
+    },
+    {
+      "title": "New Windows Defender zero-day blocks Microsoft antivirus updates",
+      "link": "https://www.bleepingcomputer.com/news/security/new-windows-defender-zero-day-blocks-microsoft-antivirus-updates/",
+      "date": "2026-09-22T09:55:11Z",
+      "description": "Over the weekend, security researcher Abdelhamid Naceri (also known as Nightmare Eclipse) released another Microsoft Defender zero-day exploit that blocks antivirus updates. [...]",
+      "source": "bleepingcomputer.com"
+    },
+    {
+      "title": "Hackers Exploit WordPress Flaws to Steal 18,566 Government Records and Plaintext Passwords",
+      "link": "https://cybersecuritynews.com/wordpress-flaws/",
+      "date": "2026-09-22T09:51:53Z",
+      "description": "A suspected Chinese-speaking threat actor has used WordPress vulnerabilities to break into at least 49 organizations across 29 countries. The campaign exposed how a compromised website can become a launchpad for database theft, credential abuse, and wider network intrusion. The attackers exploited the wp2shell chain, tracked as CVE-2026-63030 and CVE-2026-60137, against vulnerable WordPress…",
+      "source": "cybersecuritynews.com"
+    },
+    {
+      "title": "Windows COM Flaw Lets Attackers Gain SYSTEM Privileges With a Malicious DLL",
+      "link": "https://cybersecuritynews.com/windows-com-system-privilege-escalation/",
+      "date": "2026-09-22T09:45:30Z",
+      "description": "A newly detailed Windows privilege escalation flaw tracked as CVE-2026-66804 allowed a standard, low-privileged user to plant a malicious DLL and execute arbitrary code with full NT AUTHORITY\\SYSTEM privileges, exploiting a lingering weakness in how Windows handles Component Object Model (COM) registrations. The bug, patched by Microsoft in its August Patch Tuesday, was reported by […] The post…",
+      "source": "cybersecuritynews.com"
+    },
+    {
+      "title": "CISA orders feds to patch Zyxel flaw exploited for data theft",
+      "link": "https://www.bleepingcomputer.com/news/security/cisa-orders-feds-to-patch-actively-exploited-zyxel-flaw-by-thursday/",
+      "date": "2026-09-22T08:53:09Z",
+      "description": "​Attackers are now actively exploiting a high-severity vulnerability in Zyxel GS1900 series switches, according to the U.S. Cybersecurity and Infrastructure Security Agency (CISA). [...]",
+      "source": "bleepingcomputer.com"
+    },
+    {
+      "title": "D-Link Router Hit by CVSS 10.0 Flaw Exploitable Remotely Without Authentication",
+      "link": "https://cybersecuritynews.com/d-link-router-hit-by-cvss-10-0-flaw/",
+      "date": "2026-09-22T08:47:17Z",
+      "description": "D-Link Systems has disclosed that it is investigating a critical security vulnerability in its DIR-822A router, tracked as CVE-2026-86296. The flaw has received the maximum CVSS severity score of 10.0. It may allow remote attackers to compromise vulnerable devices without authentication or user interaction. The issue affects the udhcpcd component in the reported DIR-822A firmware […] The post…",
+      "source": "cybersecuritynews.com"
+    },
+    {
+      "title": "Japan Dismantles First North Korean Laptop Farm as US and Allies Detail Wider Scheme",
+      "link": "https://www.securityweek.com/japan-dismantles-first-north-korean-laptop-farm-as-us-and-allies-detail-wider-scheme/",
+      "date": "2026-09-22T08:37:06Z",
+      "description": "The US, Japan, Germany and Australia have published a joint report detailing the scope of North Korea’s WaterPlum campaign. The post Japan Dismantles First North Korean Laptop Farm as US and Allies Detail Wider Scheme appeared first on SecurityWeek.",
+      "source": "securityweek.com"
+    },
+    {
+      "title": "SideCopy Broadens India Targeting to Academia With ReverseRAT Spear-Phishing",
+      "link": "https://thehackernews.com/2026/09/sidecopy-broadens-india-targeting-to.html",
+      "date": "2026-09-22T07:52:03Z",
+      "description": "The threat actor known as SideCopy has been observed using spear-phishing lures to target academic institutions in India, expanding their strategic focus beyond government entities. \"SideCopy campaign operations typically initiate through spear-phishing campaigns that leverage the abuse of mshta.exe to execute malicious scripts and circumvent standard security protocols,\" Trellix researchers",
+      "source": "thehackernews.com"
+    },
+    {
+      "title": "One Hidden Meta Muse Setting Could Let Attackers Turn the AI Assistant Into a Backdoor",
+      "link": "https://thehackernews.com/2026/09/one-hidden-meta-muse-setting-could-let.html",
+      "date": "2026-09-22T06:33:57Z",
+      "description": "Malware already running on a Mac can quietly take over Meta's Muse assistant and use the broad access its owner granted the app, security researcher Patrick Wardle has shown in a proof-of-concept released on September 21. It works by changing a hidden setting so that when the user taps the microphone and dictates a prompt, the words go to the attacker instead of Meta. The flaw is in",
+      "source": "thehackernews.com"
+    },
+    {
+      "title": "WordPress Comment2Shell Flaw Can Turn Anonymous Comment XSS Into RCE via Admin Session",
+      "link": "https://thehackernews.com/2026/09/wordpress-comment2shell-flaw-can-turn.html",
+      "date": "2026-09-22T06:03:14Z",
+      "description": "A new flaw in WordPress core let an anonymous visitor leave a comment that planted a hidden script on the page. If a logged-in administrator later opened that page, the script could run code on the site's server. WordPress fixed the flaw, tracked as CVE-2026-93485 and dubbed \"Comment2Shell,\" on September 17 in version 7.1.1 and told site owners to update right away. The",
+      "source": "thehackernews.com"
+    },
+    {
+      "title": "Zyxel and Veeam Flaws Under Active Exploitation With Command and SYSTEM Access",
+      "link": "https://thehackernews.com/2026/09/zyxel-and-veeam-flaws-under-active.html",
+      "date": "2026-09-22T05:31:59Z",
+      "description": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Monday added a now-patched security flaw impacting Zyxel GS1900 series switches to its Known Exploited Vulnerabilities (KEV) catalog, citing evidence of active exploitation. The vulnerability, tracked as CVE-2026-7273 (CVSS score: 8.8), is a stack-based buffer overflow vulnerability that could result in arbitrary operating",
+      "source": "thehackernews.com"
+    },
     {
       "title": "US Proposes AI Incident Alert System in Talks With China, Bessent Says",
       "link": "https://www.securityweek.com/us-proposes-ai-incident-alert-system-in-talks-with-china-bessent-says/",
@@ -52,13 +143,6 @@
       "source": "bleepingcomputer.com"
     },
     {
-      "title": "Microsoft to retire Microsoft 365 Companion apps in December",
-      "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-to-retire-microsoft-365-companion-apps-in-december/",
-      "date": "2026-09-21T17:54:49Z",
-      "description": "Microsoft will retire the Calendar, People, and Files Microsoft 365 companion apps on December 16 and has asked admins to remove them from managed devices. [...]",
-      "source": "bleepingcomputer.com"
-    },
-    {
       "title": "Fake LastPass Authenticator Installer Abuses Microsoft-Signed Driver to Kill Antivirus and EDR",
       "link": "https://thehackernews.com/2026/09/fake-lastpass-authenticator-installer.html",
       "date": "2026-09-21T17:31:01Z",
@@ -73,20 +157,6 @@
       "source": "securityweek.com"
     },
     {
-      "title": "Contagious Interview Campaign Compromises 30,000 Devices, Steals $10.71M in Crypto",
-      "link": "https://thehackernews.com/2026/09/contagious-interview-campaign.html",
-      "date": "2026-09-21T17:19:00Z",
-      "description": "The North Korean threat actors behind the Contagious Interview campaign have compromised at least 30,000 devices located in more than 100 countries and siphoned funds or account credentials from over 7,000 cryptocurrency wallets, according to a new joint cybersecurity advisory. The primary targets of the campaign are individual web designers, engineers, and specialists in cryptocurrency,",
-      "source": "thehackernews.com"
-    },
-    {
-      "title": "Google Fined €403 Million Over GDPR Violations Tied to Location Data",
-      "link": "https://thehackernews.com/2026/09/google-fined-403-million-over-gdpr.html",
-      "date": "2026-09-21T16:57:31Z",
-      "description": "Google has been fined €403 million for breaking the EU's data protection law, the GDPR, in the way three of its features handled people's location data from May 2018 to February 2020. Ireland's Data Protection Commission (DPC), Google's lead regulator in the EU, also ordered the company to make its processing comply with the law within 6 months. The DPC has not said publicly which",
-      "source": "thehackernews.com"
-    },
-    {
       "title": "Fake LastPass Installers Push Kernel-Level EDR Killer, ‘Rapuncel’ Stealer",
       "link": "https://www.securityweek.com/fake-lastpass-installers-push-kernel-level-edr-killer-rapuncel-stealer/",
       "date": "2026-09-21T15:46:58Z",
@@ -94,46 +164,11 @@
       "source": "securityweek.com"
     },
     {
-      "title": "Google fined €403 million over location data privacy violations",
-      "link": "https://www.bleepingcomputer.com/news/security/google-fined-403-million-over-location-data-privacy-violations/",
-      "date": "2026-09-21T15:41:22Z",
-      "description": "Ireland's Data Protection Commission (DPC) has fined Google €403 million ($463M) for multiple GDPR violations related to processing users' location data. [...]",
-      "source": "bleepingcomputer.com"
-    },
-    {
       "title": "Rogue Behavior: OpenAI Reveals More Model Misalignment Incidents",
       "link": "https://www.darkreading.com/cyber-risk/rogue-behavior-openai-more-model-misalignment-incidents",
       "date": "2026-09-21T14:47:19Z",
       "description": "The AI giant disclosed six examples of concerning model activity and published a new framework for investigating and disclosing such incidents.",
       "source": "darkreading.com"
-    },
-    {
-      "title": "CISO Conversations: Noopur Davis – The Accidental Global CISO at Comcast",
-      "link": "https://www.securityweek.com/ciso-conversations-noopur-davis-the-accidental-global-ciso-at-comcast/",
-      "date": "2026-09-21T14:30:00Z",
-      "description": "Noopur Davis never planned a career in cybersecurity. She was a developer at Intergraph, and for many years that was all she wanted to be. The post CISO Conversations: Noopur Davis – The Accidental Global CISO at Comcast appeared first on SecurityWeek.",
-      "source": "securityweek.com"
-    },
-    {
-      "title": "⚡ Weekly Recap: Cisco 0-Day, AI Agent RCE, ClickFix Attacks, ClickFix Surge, and Browser Hijacks",
-      "link": "https://thehackernews.com/2026/09/weekly-recap-cisco-0-day-ai-agent-rce.html",
-      "date": "2026-09-21T14:24:13Z",
-      "description": "A browser. A plugin. A package. A login screen. Normal stuff. That is basically the problem this week. The trouble keeps showing up inside things people already trust: code that takes a bad turn, old payloads coming back, exposed systems, weak checks, fake fixes, and attack paths that look almost too easy. Even the research side is getting messy, with more findings, more automation, and not",
-      "source": "thehackernews.com"
-    },
-    {
-      "title": "TASK#STOMP PowerShell Backdoor Steals Documents, Wi-Fi Passwords, and Clipboard Data",
-      "link": "https://thehackernews.com/2026/09/taskstomp-powershell-backdoor-steals.html",
-      "date": "2026-09-21T14:15:40Z",
-      "description": "Cybersecurity researchers have disclosed details of a new campaign dubbed TASK#STOMP that delivers a PowerShell backdoor designed to harvest sensitive data from compromised hosts. The backdoor \"automatically harvests and exfiltrates business documents, watches the filesystem for new files in real time, steals Wi-Fi passwords and clipboard contents, takes screenshots, and accepts arbitrary",
-      "source": "thehackernews.com"
-    },
-    {
-      "title": "Dragos Completes NetRise and runZero Acquisitions Following Accenture Deal",
-      "link": "https://www.securityweek.com/dragos-completes-netrise-and-runzero-acquisitions-following-accenture-deal/",
-      "date": "2026-09-21T14:00:13Z",
-      "description": "The transaction is part of the $4.1 billion deal in which Accenture acquired a majority stake in Dragos in an OT cybersecurity push. The post Dragos Completes NetRise and runZero Acquisitions Following Accenture Deal appeared first on SecurityWeek.",
-      "source": "securityweek.com"
     },
     {
       "title": "Vectra AI Launches Ascent to Help Address New Era of AI-Driven Attacks",

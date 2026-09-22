@@ -1,7 +1,137 @@
 {
   "date": "2026-09-22",
-  "count": 2,
+  "count": 15,
   "items": [
+    {
+      "id": "c13338c8ba737f995e81f51b74466b4dba0243e8",
+      "title": "WordPress Patches ‘Click2Shell’ Vulnerability",
+      "link": "https://www.securityweek.com/wordpress-patches-click2shell-vulnerability/",
+      "date": "2026-09-22T10:22:27Z",
+      "description": "The bug lets attackers automatically install and preview themes and could lead to remote code execution. The post WordPress Patches ‘Click2Shell’ Vulnerability appeared first on SecurityWeek.",
+      "source": "securityweek.com",
+      "first_seen": "2026-09-22T10:31:56Z",
+      "last_seen": "2026-09-22T10:31:56Z"
+    },
+    {
+      "id": "5d13e22c16d9ce0a2dda83a2c3aa0d70a0673869",
+      "title": "Context Bombs Trick Autonomous Qwen AI Agents Into Stopping Cyberattacks",
+      "link": "https://cybersecuritynews.com/context-bombs/",
+      "date": "2026-09-22T10:21:44Z",
+      "description": "A hidden “context bomb” prompt in a cloud decoy can disrupt AI agents and force Qwen3.8-27B to stop simulated attacks. The technique worked against both the original and modified “abliterated” versions. Context bombs are defensive strings placed in vulnerable resources, like AWS Secrets Manager. When an AI agent scans the environment and encounters this embedded […] The post Context Bombs Trick…",
+      "source": "cybersecuritynews.com",
+      "first_seen": "2026-09-22T10:31:56Z",
+      "last_seen": "2026-09-22T10:31:56Z"
+    },
+    {
+      "id": "0948c3456d379d7191dd80fc727b483ec76f3cb7",
+      "title": "GHAPPIER Supply Chain Attack Compromises 65 GitHub Repositories and Poisons npm Package",
+      "link": "https://cybersecuritynews.com/ghappier-supply-chain-attack/",
+      "date": "2026-09-22T10:21:22Z",
+      "description": "A newly uncovered software supply chain attack has shown how quickly a trusted developer account can become a delivery route for malware. The operation, tracked as GHAPPIER, reached 65 GitHub repositories, infecting 73 files across 22 accounts. It involved a legitimate npm package that distributed a malicious loader to users. Attackers used access to a […] The post GHAPPIER Supply Chain Attack…",
+      "source": "cybersecuritynews.com",
+      "first_seen": "2026-09-22T10:31:56Z",
+      "last_seen": "2026-09-22T10:31:56Z"
+    },
+    {
+      "id": "f2352b8526f4ce049baffe7822e1648a59b7e7c3",
+      "title": "New Windows Defender zero-day blocks Microsoft antivirus updates",
+      "link": "https://www.bleepingcomputer.com/news/security/new-windows-defender-zero-day-blocks-microsoft-antivirus-updates/",
+      "date": "2026-09-22T09:55:11Z",
+      "description": "Over the weekend, security researcher Abdelhamid Naceri (also known as Nightmare Eclipse) released another Microsoft Defender zero-day exploit that blocks antivirus updates. [...]",
+      "source": "bleepingcomputer.com",
+      "first_seen": "2026-09-22T10:31:56Z",
+      "last_seen": "2026-09-22T10:31:56Z"
+    },
+    {
+      "id": "1a9ac67a10faed271a71415b62568b6367bf1752",
+      "title": "Hackers Exploit WordPress Flaws to Steal 18,566 Government Records and Plaintext Passwords",
+      "link": "https://cybersecuritynews.com/wordpress-flaws/",
+      "date": "2026-09-22T09:51:53Z",
+      "description": "A suspected Chinese-speaking threat actor has used WordPress vulnerabilities to break into at least 49 organizations across 29 countries. The campaign exposed how a compromised website can become a launchpad for database theft, credential abuse, and wider network intrusion. The attackers exploited the wp2shell chain, tracked as CVE-2026-63030 and CVE-2026-60137, against vulnerable WordPress…",
+      "source": "cybersecuritynews.com",
+      "first_seen": "2026-09-22T10:31:56Z",
+      "last_seen": "2026-09-22T10:31:56Z"
+    },
+    {
+      "id": "6e9dda85a37d2ed186d07b0b727a075bcc95938d",
+      "title": "Windows COM Flaw Lets Attackers Gain SYSTEM Privileges With a Malicious DLL",
+      "link": "https://cybersecuritynews.com/windows-com-system-privilege-escalation/",
+      "date": "2026-09-22T09:45:30Z",
+      "description": "A newly detailed Windows privilege escalation flaw tracked as CVE-2026-66804 allowed a standard, low-privileged user to plant a malicious DLL and execute arbitrary code with full NT AUTHORITY\\SYSTEM privileges, exploiting a lingering weakness in how Windows handles Component Object Model (COM) registrations. The bug, patched by Microsoft in its August Patch Tuesday, was reported by […] The post…",
+      "source": "cybersecuritynews.com",
+      "first_seen": "2026-09-22T10:31:56Z",
+      "last_seen": "2026-09-22T10:31:56Z"
+    },
+    {
+      "id": "26f2c2607e5f70e9604c67c220d5a2fd86cab182",
+      "title": "CISA orders feds to patch Zyxel flaw exploited for data theft",
+      "link": "https://www.bleepingcomputer.com/news/security/cisa-orders-feds-to-patch-actively-exploited-zyxel-flaw-by-thursday/",
+      "date": "2026-09-22T08:53:09Z",
+      "description": "​Attackers are now actively exploiting a high-severity vulnerability in Zyxel GS1900 series switches, according to the U.S. Cybersecurity and Infrastructure Security Agency (CISA). [...]",
+      "source": "bleepingcomputer.com",
+      "first_seen": "2026-09-22T10:31:56Z",
+      "last_seen": "2026-09-22T10:31:56Z"
+    },
+    {
+      "id": "3a54463f180fdb8ab34d9005aa743503135d6846",
+      "title": "D-Link Router Hit by CVSS 10.0 Flaw Exploitable Remotely Without Authentication",
+      "link": "https://cybersecuritynews.com/d-link-router-hit-by-cvss-10-0-flaw/",
+      "date": "2026-09-22T08:47:17Z",
+      "description": "D-Link Systems has disclosed that it is investigating a critical security vulnerability in its DIR-822A router, tracked as CVE-2026-86296. The flaw has received the maximum CVSS severity score of 10.0. It may allow remote attackers to compromise vulnerable devices without authentication or user interaction. The issue affects the udhcpcd component in the reported DIR-822A firmware […] The post…",
+      "source": "cybersecuritynews.com",
+      "first_seen": "2026-09-22T10:31:56Z",
+      "last_seen": "2026-09-22T10:31:56Z"
+    },
+    {
+      "id": "c07c4313dfd154c3ef806c2778fc3f5b3b4f7953",
+      "title": "Japan Dismantles First North Korean Laptop Farm as US and Allies Detail Wider Scheme",
+      "link": "https://www.securityweek.com/japan-dismantles-first-north-korean-laptop-farm-as-us-and-allies-detail-wider-scheme/",
+      "date": "2026-09-22T08:37:06Z",
+      "description": "The US, Japan, Germany and Australia have published a joint report detailing the scope of North Korea’s WaterPlum campaign. The post Japan Dismantles First North Korean Laptop Farm as US and Allies Detail Wider Scheme appeared first on SecurityWeek.",
+      "source": "securityweek.com",
+      "first_seen": "2026-09-22T10:31:56Z",
+      "last_seen": "2026-09-22T10:31:56Z"
+    },
+    {
+      "id": "290ea3d205ea1666dd73fb92bf36d11b0f12f3e2",
+      "title": "SideCopy Broadens India Targeting to Academia With ReverseRAT Spear-Phishing",
+      "link": "https://thehackernews.com/2026/09/sidecopy-broadens-india-targeting-to.html",
+      "date": "2026-09-22T07:52:03Z",
+      "description": "The threat actor known as SideCopy has been observed using spear-phishing lures to target academic institutions in India, expanding their strategic focus beyond government entities. \"SideCopy campaign operations typically initiate through spear-phishing campaigns that leverage the abuse of mshta.exe to execute malicious scripts and circumvent standard security protocols,\" Trellix researchers",
+      "source": "thehackernews.com",
+      "first_seen": "2026-09-22T10:31:56Z",
+      "last_seen": "2026-09-22T10:31:56Z"
+    },
+    {
+      "id": "f3532e2020ee6afac5f86ac9b33e4828e28f3d45",
+      "title": "One Hidden Meta Muse Setting Could Let Attackers Turn the AI Assistant Into a Backdoor",
+      "link": "https://thehackernews.com/2026/09/one-hidden-meta-muse-setting-could-let.html",
+      "date": "2026-09-22T06:33:57Z",
+      "description": "Malware already running on a Mac can quietly take over Meta's Muse assistant and use the broad access its owner granted the app, security researcher Patrick Wardle has shown in a proof-of-concept released on September 21. It works by changing a hidden setting so that when the user taps the microphone and dictates a prompt, the words go to the attacker instead of Meta. The flaw is in",
+      "source": "thehackernews.com",
+      "first_seen": "2026-09-22T10:31:56Z",
+      "last_seen": "2026-09-22T10:31:56Z"
+    },
+    {
+      "id": "7abc73ad57ac0194991602984a653a74bc5f4956",
+      "title": "WordPress Comment2Shell Flaw Can Turn Anonymous Comment XSS Into RCE via Admin Session",
+      "link": "https://thehackernews.com/2026/09/wordpress-comment2shell-flaw-can-turn.html",
+      "date": "2026-09-22T06:03:14Z",
+      "description": "A new flaw in WordPress core let an anonymous visitor leave a comment that planted a hidden script on the page. If a logged-in administrator later opened that page, the script could run code on the site's server. WordPress fixed the flaw, tracked as CVE-2026-93485 and dubbed \"Comment2Shell,\" on September 17 in version 7.1.1 and told site owners to update right away. The",
+      "source": "thehackernews.com",
+      "first_seen": "2026-09-22T10:31:56Z",
+      "last_seen": "2026-09-22T10:31:56Z"
+    },
+    {
+      "id": "e82f4f11a7c034b20b783bcdc5a71a187f1d021f",
+      "title": "Zyxel and Veeam Flaws Under Active Exploitation With Command and SYSTEM Access",
+      "link": "https://thehackernews.com/2026/09/zyxel-and-veeam-flaws-under-active.html",
+      "date": "2026-09-22T05:31:59Z",
+      "description": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Monday added a now-patched security flaw impacting Zyxel GS1900 series switches to its Known Exploited Vulnerabilities (KEV) catalog, citing evidence of active exploitation. The vulnerability, tracked as CVE-2026-7273 (CVSS score: 8.8), is a stack-based buffer overflow vulnerability that could result in arbitrary operating",
+      "source": "thehackernews.com",
+      "first_seen": "2026-09-22T10:31:56Z",
+      "last_seen": "2026-09-22T10:31:56Z"
+    },
     {
       "id": "c1ab9416067325584cc24dfa0188cc612168ce07",
       "title": "US Proposes AI Incident Alert System in Talks With China, Bessent Says",
@@ -10,7 +140,7 @@
       "description": "Trump has resisted calls to slow down AI development, saying that would help China catch up to U.S. companies. The post US Proposes AI Incident Alert System in Talks With China, Bessent Says appeared first on SecurityWeek.",
       "source": "securityweek.com",
       "first_seen": "2026-09-22T05:35:08Z",
-      "last_seen": "2026-09-22T05:35:08Z"
+      "last_seen": "2026-09-22T10:31:56Z"
     },
     {
       "id": "62cebbdac10131876c0f9c13f2f6a80f34272d01",
@@ -20,7 +150,7 @@
       "description": "Unbounded consumption is an issue that OWASP currently ranks sixth in its Top 10 for LLM Applications, and it could be an extremely costly one.",
       "source": "darkreading.com",
       "first_seen": "2026-09-22T00:22:20Z",
-      "last_seen": "2026-09-22T05:35:08Z"
+      "last_seen": "2026-09-22T10:31:56Z"
     }
   ]
 }
