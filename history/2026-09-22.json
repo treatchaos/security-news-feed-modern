@@ -1,7 +1,57 @@
 {
   "date": "2026-09-22",
-  "count": 47,
+  "count": 52,
   "items": [
+    {
+      "id": "54edf82223de0ff8f6f4e5ff17b7a04a6f1d65b4",
+      "title": "Rogue external MFA providers can steal passwords during logins",
+      "link": "https://www.bleepingcomputer.com/news/security/rogue-external-mfa-providers-can-steal-passwords-during-logins/",
+      "date": "2026-09-22T21:45:45Z",
+      "description": "Security researchers developed an attack that lets hackers with privileged access register a rogue external MFA provider that steals users' passwords during legitimate login attempts. [...]",
+      "source": "bleepingcomputer.com",
+      "first_seen": "2026-09-22T22:29:59Z",
+      "last_seen": "2026-09-22T22:29:59Z"
+    },
+    {
+      "id": "979185bfa93c1dda91327ffc8f7730632bf29e22",
+      "title": "Sweden fines Miljödata $183,000 over breach affecting 2.2 million",
+      "link": "https://www.bleepingcomputer.com/news/security/sweden-fines-milj-data-183-000-over-breach-affecting-22-million/",
+      "date": "2026-09-22T21:40:37Z",
+      "description": "Sweden's data privacy regulator, IMY, has imposed a $183,000 (SEK 1.8 million) fine on IT systems provider Miljödata for inadequate security measures leading to a breach in August 2025 affecting 2.2 million people. [...]",
+      "source": "bleepingcomputer.com",
+      "first_seen": "2026-09-22T22:29:59Z",
+      "last_seen": "2026-09-22T22:29:59Z"
+    },
+    {
+      "id": "b568828937d4be0f6a61175295614324603be69d",
+      "title": "Relays Are Masking Chinese Access to Frontier AI Models in the US",
+      "link": "https://www.darkreading.com/cyber-risk/relays-masking-chinese-access-frontier-ai-models",
+      "date": "2026-09-22T21:12:37Z",
+      "description": "More than 80,000 AI relay servers are helping users in China mask their identities while they access cutting-edge large language models (LLMs), probably to clone them.",
+      "source": "darkreading.com",
+      "first_seen": "2026-09-22T22:29:59Z",
+      "last_seen": "2026-09-22T22:29:59Z"
+    },
+    {
+      "id": "2cedf955e899e0c4dceeaec79cd5f6a8a9cdd40e",
+      "title": "Chinese hackers exploit WordPress, Zyxel flaws to steal govt data",
+      "link": "https://www.bleepingcomputer.com/news/security/chinese-hackers-exploit-multiple-technologies-to-steal-govt-data/",
+      "date": "2026-09-22T20:35:24Z",
+      "description": "A Chinese-speaking threat actor has been exploiting vulnerabilities in ZyXEL GS1900 Smart Managed Switches and WordPress to steal sensitive data from 996 devices and more than 18,500 records stored in backend databases. [...]",
+      "source": "bleepingcomputer.com",
+      "first_seen": "2026-09-22T22:29:59Z",
+      "last_seen": "2026-09-22T22:29:59Z"
+    },
+    {
+      "id": "9bf0e9bc9a0b8cc5d18d899010056d538218e692",
+      "title": "Microsoft Disrupts EvilTokens Device Code Phishing Service",
+      "link": "https://www.darkreading.com/identity-access-management-security/microsoft-disrupts-eviltokens-device-code-phishing-service",
+      "date": "2026-09-22T20:02:02Z",
+      "description": "Microsoft seized 50 websites and disabled more than 150 domains as part of a coordinated disruption effort against a phishing-as-a-service platform targeting Microsoft 365 accounts.",
+      "source": "darkreading.com",
+      "first_seen": "2026-09-22T22:29:59Z",
+      "last_seen": "2026-09-22T22:29:59Z"
+    },
     {
       "id": "aaff320d437ba035b9b94cc64042ca486f5e71e9",
       "title": "ShinyHunters claims FBI hack, data theft in PeopleSoft zero-day breach",
@@ -10,7 +60,7 @@
       "description": "The ShinyHunters extortion gang claims it breached FBI systems using a new Oracle PeopleSoft zero-day vulnerability, gaining access to internal services and stealing sensitive data on employees and job applicants. [...]",
       "source": "bleepingcomputer.com",
       "first_seen": "2026-09-22T19:21:42Z",
-      "last_seen": "2026-09-22T19:21:42Z"
+      "last_seen": "2026-09-22T22:29:59Z"
     },
     {
       "id": "df5a100cb0e129fd166f697ef3f5c21a49542587",
@@ -20,7 +70,7 @@
       "description": "Attackers exploited a previously unknown flaw in Check Point's Security Management Server in a handful of targeted attacks on July 23, the company said. The flaw, CVE-2026-93616, allows an attacker who can access the server's web service to run scripts on it without logging in. Check Point released a fix on September 22 for the server that controls firewall policies for the Check Point",
       "source": "thehackernews.com",
       "first_seen": "2026-09-22T19:21:42Z",
-      "last_seen": "2026-09-22T19:21:42Z"
+      "last_seen": "2026-09-22T22:29:59Z"
     },
     {
       "id": "bd15a6a5ba5dcc28f1d46c7fa8a484b01d6343da",
@@ -30,7 +80,7 @@
       "description": "A new Windows malware named ClosedQuorum uses Google Gemini, DeepSeek, Qwen, and Mistral AI models to autonomously determine the actions to take during post-compromise stages of an attack. [...]",
       "source": "bleepingcomputer.com",
       "first_seen": "2026-09-22T19:21:42Z",
-      "last_seen": "2026-09-22T19:21:42Z"
+      "last_seen": "2026-09-22T22:29:59Z"
     },
     {
       "id": "27caa3ca1bf4f110655290be94a70eb4779678d7",
@@ -40,7 +90,7 @@
       "description": "WordPress has fixed a critical flaw in its core software that lets an attacker with no account make a site load a PHP file from outside its theme folders. On some servers, that can go further, allowing the attacker to run their own code. The fix shipped on September 22 in WordPress 7.1.2, with fixes for every branch the project still supports, back to 4.7, and WordPress is telling site owners",
       "source": "thehackernews.com",
       "first_seen": "2026-09-22T19:21:42Z",
-      "last_seen": "2026-09-22T19:21:42Z"
+      "last_seen": "2026-09-22T22:29:59Z"
     },
     {
       "id": "cdd3c585869514d287b40c188bbe441e6c18d9ec",
@@ -50,7 +100,7 @@
       "description": "Cybersecurity researchers have disclosed details of a malicious npm package named \"tw-pkgprobe-7731\" that masquerades as a security tool targeting developers integrating Twilio into their applications, while stealthily attempting to harvest sensitive data. The package, named \"tw-pkgprobe-7731,\" was first uploaded to the npm registry in mid-August 2026 by an npm account named \"twdepprobe7731.\"",
       "source": "thehackernews.com",
       "first_seen": "2026-09-22T19:21:42Z",
-      "last_seen": "2026-09-22T19:21:42Z"
+      "last_seen": "2026-09-22T22:29:59Z"
     },
     {
       "id": "84547f914ed3e65630820e5d48534ccd71045ef2",
@@ -60,7 +110,7 @@
       "description": "The attackers used a compromised BigCommerce application key held by Ribon to access customer data. The post BigCommerce Data Stolen via Ribon Apps Hack appeared first on SecurityWeek.",
       "source": "securityweek.com",
       "first_seen": "2026-09-22T19:21:42Z",
-      "last_seen": "2026-09-22T19:21:42Z"
+      "last_seen": "2026-09-22T22:29:59Z"
     },
     {
       "id": "6cc8631877415c94712828cd3f03277aab71bf23",
@@ -70,7 +120,7 @@
       "description": "Threat actors stole 170 private repositories using an OAuth token stolen from a former employee's computer through the TanStack npm supply chain attack.",
       "source": "darkreading.com",
       "first_seen": "2026-09-22T19:21:42Z",
-      "last_seen": "2026-09-22T19:21:42Z"
+      "last_seen": "2026-09-22T22:29:59Z"
     },
     {
       "id": "c3c222f688a89a4eaa3ef60b072a3689264e4f4b",
@@ -90,7 +140,7 @@
       "description": "Check Point has warned customers that attackers are exploiting a critical zero-day vulnerability in its Security Management infrastructure. Tracked as CVE-2026-93616, the flaw carries a CVSS score of 9.8 and enables an unauthenticated remote attacker to upload and execute arbitrary scripts on an exposed Management Server. Check Point says it has identified a handful of […] The post Check Point…",
       "source": "cybersecuritynews.com",
       "first_seen": "2026-09-22T19:21:42Z",
-      "last_seen": "2026-09-22T19:21:42Z"
+      "last_seen": "2026-09-22T22:29:59Z"
     },
     {
       "id": "3fd57389efcb50d584a21eaa66b69c304192e669",
@@ -100,7 +150,7 @@
       "description": "As more reports of misalignment incidents underscore AI risks, large AI labs, regular businesses, and even nations are searching for better ways to keep control and be secure.",
       "source": "darkreading.com",
       "first_seen": "2026-09-22T19:21:42Z",
-      "last_seen": "2026-09-22T19:21:42Z"
+      "last_seen": "2026-09-22T22:29:59Z"
     },
     {
       "id": "d2024a729d9465421dc1fc7faf34d3cc7c749645",
@@ -110,7 +160,7 @@
       "description": "Microsoft on Tuesday announced the takedown of the EvilTokens device code phishing service that it said used artificial intelligence (AI) \"at every step of the attack chain.\" The action, carried out with authorization from the U.S. District Court for the Eastern District of Virginia, involved the efforts of Health-ISAC, alongside Cloudflare, Coinbase, OpenAI, Railway, SpyCloud, The Shadowserver",
       "source": "thehackernews.com",
       "first_seen": "2026-09-22T19:21:42Z",
-      "last_seen": "2026-09-22T19:21:42Z"
+      "last_seen": "2026-09-22T22:29:59Z"
     },
     {
       "id": "49719f4c821467ed870349b47199cab57d14e324",
@@ -120,7 +170,7 @@
       "description": "Silver Spring, Maryland, USA, September 22nd, 2026, CyberNewswire Aembit, the identity and access management (IAM) company for AI agents, today announced support for Cross App Access (XAA), an open protocol introduced by Okta that lets a user’s existing enterprise identity authorize access to downstream applications without a separate consent step for each connection. Launching this […] The post…",
       "source": "cybersecuritynews.com",
       "first_seen": "2026-09-22T19:21:42Z",
-      "last_seen": "2026-09-22T19:21:42Z"
+      "last_seen": "2026-09-22T22:29:59Z"
     },
     {
       "id": "e4a00de5210673ce18062945d573579e2c1d38d8",
@@ -130,7 +180,7 @@
       "description": "A suspicious IP, unfamiliar domain, or file hash can trigger an investigation in seconds. Understanding what that indicator means can take much longer. An IOC rarely tells the full story. Analysts may need to determine what threat it is associated with, which malware or infrastructure is involved, whether it has appeared in other attacks, and […] The post Scaling SOC Capabilities: How Threat…",
       "source": "cybersecuritynews.com",
       "first_seen": "2026-09-22T19:21:42Z",
-      "last_seen": "2026-09-22T19:21:42Z"
+      "last_seen": "2026-09-22T22:29:59Z"
     },
     {
       "id": "3ea29765e61980b0378976b09cda01e320c5ef00",
@@ -140,7 +190,7 @@
       "description": "A critical vulnerability in Bifrost, an open-source AI gateway that routes requests to more than 20 LLM providers, allows an unauthenticated attacker to run arbitrary commands on the gateway server with a single HTTP request. The flaw, tracked as CVE-2026-90898 (CVSS score: 9.8), affects all versions of the Bifrost HTTP transport before 2.1.0 when management authentication is",
       "source": "thehackernews.com",
       "first_seen": "2026-09-22T19:21:42Z",
-      "last_seen": "2026-09-22T19:21:42Z"
+      "last_seen": "2026-09-22T22:29:59Z"
     },
     {
       "id": "f470950c010c25db04020d3543bbeb055160a248",
@@ -160,7 +210,7 @@
       "description": "A financially motivated operator has been running three open-source AI tools against many online retailers, mostly without supervision. The results are shocking: over 600,000 credit card records have been stolen, scripts to gather card information have been placed on dozens of checkout pages, and in at least two cases, the operator’s cleanup routine completely wiped […] The post Autonomous AI…",
       "source": "cybersecuritynews.com",
       "first_seen": "2026-09-22T19:21:42Z",
-      "last_seen": "2026-09-22T19:21:42Z"
+      "last_seen": "2026-09-22T22:29:59Z"
     },
     {
       "id": "2d43c331d84e96f0d6e07608ef96ab5fb7a0d7fe",
@@ -170,7 +220,7 @@
       "description": "Cisco Talos has released CAIRN, an open-source toolkit designed to hunt, classify, and track AI-integrated malware by examining the digital markers developers leave behind. The Cognitive Artifact Intelligence Research Network searches for prompt templates, provider endpoints, API-key prefixes, jailbreak terms, and orchestration logic without downloading or executing binaries. The launch also…",
       "source": "cybersecuritynews.com",
       "first_seen": "2026-09-22T19:21:42Z",
-      "last_seen": "2026-09-22T19:21:42Z"
+      "last_seen": "2026-09-22T22:29:59Z"
     },
     {
       "id": "cc54d6e8b1ffc7614a3fd5f1aaa86e5ff8fe60ab",
@@ -190,7 +240,7 @@
       "description": "The data security company received the new investment from Goldman Sachs Alternatives, extending its Series G funding round. The post Cyera Raises $400 Million at $12+ Billion Valuation appeared first on SecurityWeek.",
       "source": "securityweek.com",
       "first_seen": "2026-09-22T15:14:15Z",
-      "last_seen": "2026-09-22T19:21:42Z"
+      "last_seen": "2026-09-22T22:29:59Z"
     },
     {
       "id": "fde8a71dc8c298addfa0e1b7e87e9e83f33f1dbd",
@@ -200,7 +250,7 @@
       "description": "Abdelhamid Naceri, a former Microsoft Germany employee, is the exploit leaker Nightmare Eclipse, aka Chaotic Eclipse. The post Nightmare Eclipse Drops New Microsoft Defender Exploit After Revealing Identity appeared first on SecurityWeek.",
       "source": "securityweek.com",
       "first_seen": "2026-09-22T15:14:15Z",
-      "last_seen": "2026-09-22T19:21:42Z"
+      "last_seen": "2026-09-22T22:29:59Z"
     },
     {
       "id": "1620acbb8d04be25fcf54a22e64724883498bb3a",
@@ -250,7 +300,7 @@
       "description": "Forescout’s new network segmentation research shows that OT and medical devices often share network segments with other enterprise assets. The post Only 13% of OT Network Segments Are Fully Isolated: Analysis appeared first on SecurityWeek.",
       "source": "securityweek.com",
       "first_seen": "2026-09-22T15:14:15Z",
-      "last_seen": "2026-09-22T19:21:42Z"
+      "last_seen": "2026-09-22T22:29:59Z"
     },
     {
       "id": "e54298f0961c786d6138d0e940acf3ab30919740",
@@ -260,7 +310,7 @@
       "description": "Industrial companies are increasing cybersecurity investment as connected operations, AI adoption, and IT/OT convergence expand operational risk.",
       "source": "darkreading.com",
       "first_seen": "2026-09-22T15:14:15Z",
-      "last_seen": "2026-09-22T19:21:42Z"
+      "last_seen": "2026-09-22T22:29:59Z"
     },
     {
       "id": "5181aef14d2d69c356ab00dbf512088cdc8b4171",
@@ -270,7 +320,7 @@
       "description": "A Chinese threat actor has exploited the bug to exfiltrate sensitive information from nearly 1,000 ZyXEL switches. The post Recent ZyXEL Switch Vulnerability Exploited by Chinese Hackers appeared first on SecurityWeek.",
       "source": "securityweek.com",
       "first_seen": "2026-09-22T15:14:15Z",
-      "last_seen": "2026-09-22T19:21:42Z"
+      "last_seen": "2026-09-22T22:29:59Z"
     },
     {
       "id": "3986c28a244a7dcf3fa9831666c1d324cdb12544",
