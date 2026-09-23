@@ -1,7 +1,67 @@
 {
   "date": "2026-09-23",
-  "count": 44,
+  "count": 50,
   "items": [
+    {
+      "id": "7d316694da157c1a70ca31331645f0f2edcef6f6",
+      "title": "Check Point warns of hackers exploiting Security Gateway VPN RCE flaw",
+      "link": "https://www.bleepingcomputer.com/news/security/check-point-warns-of-hackers-exploiting-security-gateway-vpn-rce-flaw/",
+      "date": "2026-09-23T19:53:54Z",
+      "description": "Cybersecurity company Check Point has confirmed active exploitation of CVE-2026-85102, a pre-authentication remote code execution (RCE) vulnerability in the VPN certificate-handling functionality of its Security Gateway product. [...]",
+      "source": "bleepingcomputer.com",
+      "first_seen": "2026-09-23T20:48:50Z",
+      "last_seen": "2026-09-23T20:48:50Z"
+    },
+    {
+      "id": "f6c91f5f3152402bb71d10eb7a4c3d7cf2a9a9ab",
+      "title": "IonQ Targets Quantum Error-Correction Bottleneck With Single-CPU DecoderIonQ Says Sin",
+      "link": "https://www.securityweek.com/ionq-targets-quantum-error-correction-bottleneck-with-single-cpu-decoderionq-says-sin/",
+      "date": "2026-09-23T19:32:49Z",
+      "description": "IonQ’s new single processor quantum error decoder minimizes the classical computing overhead in quantum error correction. The post IonQ Targets Quantum Error-Correction Bottleneck With Single-CPU DecoderIonQ Says Sin appeared first on SecurityWeek.",
+      "source": "securityweek.com",
+      "first_seen": "2026-09-23T20:48:50Z",
+      "last_seen": "2026-09-23T20:48:50Z"
+    },
+    {
+      "id": "54fdb1ab9bfaab7ef08226df4bcdec7dd701771d",
+      "title": "Hackers start exploiting critical WordPress flaw for code execution",
+      "link": "https://www.bleepingcomputer.com/news/security/hackers-start-exploiting-critical-wordpress-flaw-for-code-execution/",
+      "date": "2026-09-23T18:31:22Z",
+      "description": "Threat actors have moved from probing WordPress sites vulnerable to CVE-2026-87902 to exploiting the flaw to write files to disk that execute shell commands when accessed. [...]",
+      "source": "bleepingcomputer.com",
+      "first_seen": "2026-09-23T20:48:50Z",
+      "last_seen": "2026-09-23T20:48:50Z"
+    },
+    {
+      "id": "a0b144b22b37301467a2f71060f77f434514b310",
+      "title": "Attackers Use Malicious Terraform Providers to Deliver Go Malware via HashiCorp Registry",
+      "link": "https://thehackernews.com/2026/09/attackers-use-malicious-terraform.html",
+      "date": "2026-09-23T18:06:30Z",
+      "description": "Cybersecurity researchers have disclosed Go-based malware distributed via two Go Modules and two Terraform providers, marking the first time threat actors are using the centralized repository hosted by HashiCorp as a distribution vector for malicious payloads. According to Aikido, the list of Terraform providers and Go modules is below - gocommunity-io/dockerd (222 downloads) kreuzwenker/",
+      "source": "thehackernews.com",
+      "first_seen": "2026-09-23T20:48:50Z",
+      "last_seen": "2026-09-23T20:48:50Z"
+    },
+    {
+      "id": "683602590dd8792bab47a4388109e253fc652946",
+      "title": "Worries About an AI Internet Takeover Gain New Urgency Among Doomsday Scenarios",
+      "link": "https://www.securityweek.com/worries-about-an-ai-internet-takeover-gain-new-urgency-among-doomsday-scenarios/",
+      "date": "2026-09-23T18:05:58Z",
+      "description": "The idea that AI could break away and work toward its own agenda is looking increasingly plausible to researchers and experts. The post Worries About an AI Internet Takeover Gain New Urgency Among Doomsday Scenarios appeared first on SecurityWeek.",
+      "source": "securityweek.com",
+      "first_seen": "2026-09-23T20:48:50Z",
+      "last_seen": "2026-09-23T20:48:50Z"
+    },
+    {
+      "id": "2d38cac48934ead2781c0c4038f7835234278db9",
+      "title": "A Leaked GitLab Issue Email Address Lets Anyone Push Code and Run CI Jobs as You",
+      "link": "https://thehackernews.com/2026/09/a-leaked-gitlab-issue-email-address.html",
+      "date": "2026-09-23T16:53:10Z",
+      "description": "The private email address GitLab gives you for filing issues by email is a credential. Anyone who gets it can email a patch that GitLab commits in your name, to any branch you can push to, including main, and can start CI/CD jobs that run as you. GitLab shows each user this address behind a button labeled \"Email work item to this project.\" Mail sent to it opens an issue in that project, authored",
+      "source": "thehackernews.com",
+      "first_seen": "2026-09-23T20:48:50Z",
+      "last_seen": "2026-09-23T20:48:50Z"
+    },
     {
       "id": "e2c59bc30b0d4b5eefb7c63b2708d4a954712d8c",
       "title": "Malicious AI agents steal 600K credit cards, infect 100+ sites with skimmers",
@@ -10,7 +70,7 @@
       "description": "A financially motivated threat actor is using open-source AI agent frameworks to attack hundreds of online retailers at scale, stealing more than 600,000 credit card records. [...]",
       "source": "bleepingcomputer.com",
       "first_seen": "2026-09-23T17:33:26Z",
-      "last_seen": "2026-09-23T17:33:26Z"
+      "last_seen": "2026-09-23T20:48:50Z"
     },
     {
       "id": "df124033043fa5462a1a2a66ee588ff2d50faeaa",
@@ -20,7 +80,7 @@
       "description": "Two MikroTik RouterOS SSH vulnerabilities chained together let attackers take full administrative control of Internet-exposed routers without a password, SSH key, or completed authentication. The chain, which CERT Polska calls MikroTrick, combines an SSH state-machine flaw (CVE-2026-67279) with an argument-injection bug in the RouterOS login process (CVE-2026-86060). Attack logs date to at",
       "source": "thehackernews.com",
       "first_seen": "2026-09-23T17:33:26Z",
-      "last_seen": "2026-09-23T17:33:26Z"
+      "last_seen": "2026-09-23T20:48:50Z"
     },
     {
       "id": "ad38258cae50dd76f55ca2aa666ff37e4a382ab0",
@@ -30,7 +90,7 @@
       "description": "The United Arab Emirates and Kingdom of Saudi Arabia together absorbed 50% of all cyberattacks recorded across the Gulf region in the first half of 2026.",
       "source": "darkreading.com",
       "first_seen": "2026-09-23T12:25:28Z",
-      "last_seen": "2026-09-23T17:33:26Z"
+      "last_seen": "2026-09-23T20:48:50Z"
     },
     {
       "id": "5be1c60dd3023716cc9fe81609ef53327a6c3539",
@@ -40,7 +100,7 @@
       "description": "GitLab’s “Email work item to this project” feature can become a repository-compromise primitive when its private address is exposed, according to research published by Aikido Security researcher Joe Leon on September 23, 2026. The address contains a long-lived glimt- incoming-email token that GitLab says does not expire and must remain secret. GitLab documentation confirms that […] The post…",
       "source": "cybersecuritynews.com",
       "first_seen": "2026-09-23T17:33:26Z",
-      "last_seen": "2026-09-23T17:33:26Z"
+      "last_seen": "2026-09-23T20:48:50Z"
     },
     {
       "id": "eff7f68f5f092f225d07143deb36cb6984cb2be5",
@@ -50,7 +110,7 @@
       "description": "The difficult part of phishing detection for a security team often begins after the initial alert. A suspicious URL may look clean at first glance, leaving the analyst with a familiar question: Is this a false positive, or is there something hidden behind the link? Attackers are increasingly building phishing campaigns that change what happens […] The post The Visibility Gap in Phishing…",
       "source": "cybersecuritynews.com",
       "first_seen": "2026-09-23T17:33:26Z",
-      "last_seen": "2026-09-23T17:33:26Z"
+      "last_seen": "2026-09-23T20:48:50Z"
     },
     {
       "id": "9c5e74111b3399a73df16f6de21dfa84b1c91269",
@@ -60,7 +120,7 @@
       "description": "Outerlimit has emerged from stealth with $16 million in pre-seed funding to develop a decentralized security and authorization layer for autonomous AI agents. Announced on September 22, 2026, the round was backed by AlbionVC, Evolution Equity Partners, and Crane Venture Partners, making it one of cybersecurity’s largest pre-seed raises, according to the company. The London- […] The post…",
       "source": "cybersecuritynews.com",
       "first_seen": "2026-09-23T17:33:26Z",
-      "last_seen": "2026-09-23T17:33:26Z"
+      "last_seen": "2026-09-23T20:48:50Z"
     },
     {
       "id": "3cb27c4954a5bc4afbebc96447dad9e8703be71f",
@@ -70,7 +130,7 @@
       "description": "cPanel has patched three newly disclosed security vulnerabilities that threaten tenant isolation on shared-hosting servers, including a permissions flaw that exposes other users’ calendars and contacts. The September 22, 2026, security release addresses CVE-2026-68490 alongside a root privilege-escalation bug and a WP Toolkit cross-account database vulnerability, making immediate updates…",
       "source": "cybersecuritynews.com",
       "first_seen": "2026-09-23T17:33:26Z",
-      "last_seen": "2026-09-23T17:33:26Z"
+      "last_seen": "2026-09-23T20:48:50Z"
     },
     {
       "id": "c8a0cc4d0c4304b29fca811084b7ed432d4679af",
@@ -80,7 +140,7 @@
       "description": "Threat actors are poisoning ChatGPT, Gemini, and Google AI Overview answers by seeding the Web with malicious links and data and then optimizing the content.",
       "source": "darkreading.com",
       "first_seen": "2026-09-23T17:33:26Z",
-      "last_seen": "2026-09-23T17:33:26Z"
+      "last_seen": "2026-09-23T20:48:50Z"
     },
     {
       "id": "a883dec82716620f4fbf4f11bca29d1fa0d49582",
@@ -90,7 +150,7 @@
       "description": "IBM has released security fixes for Financial Transaction Manager for Red Hat OpenShift after identifying multiple vulnerabilities that could enable remote code execution, unauthorized payment actions, credential theft, data exposure, and service disruption. The most severe flaws carry CVSS scores of up to 9.9 and affect FTM versions 4.0.6.0 through 4.0.10.0. Financial Transaction Manager is […]…",
       "source": "cybersecuritynews.com",
       "first_seen": "2026-09-23T17:33:26Z",
-      "last_seen": "2026-09-23T17:33:26Z"
+      "last_seen": "2026-09-23T20:48:50Z"
     },
     {
       "id": "df25ab925d2c3b297655f2a4be58cfc022978ba2",
@@ -100,7 +160,7 @@
       "description": "Attackers are increasingly targeting the management systems used to control enterprise infrastructure, with several critical vulnerabilities actively exploited before or shortly after vendors disclosed them. [...]",
       "source": "bleepingcomputer.com",
       "first_seen": "2026-09-23T17:33:26Z",
-      "last_seen": "2026-09-23T17:33:26Z"
+      "last_seen": "2026-09-23T20:48:50Z"
     },
     {
       "id": "924cb7b3856837d8e884d56da5caaa534e18a229",
@@ -110,7 +170,7 @@
       "description": "A Windows malware called CLOSEDQUORUM is built to take orders from a vote of up to four AI models instead of an attacker's server, Cisco Talos said on September 22. The models can choose to steal Windows credentials, saved browser passwords, and crypto wallet data. Talos has not seen this setup work from start to finish, and the public version of the malware does not work as it is.",
       "source": "thehackernews.com",
       "first_seen": "2026-09-23T17:33:26Z",
-      "last_seen": "2026-09-23T17:33:26Z"
+      "last_seen": "2026-09-23T20:48:50Z"
     },
     {
       "id": "aeef069898cdd6fec1827e27bf274c4eee53bdaf",
@@ -120,7 +180,7 @@
       "description": "A Kubernetes user with limited permissions can potentially gain control of an entire Google Cloud organization by exploiting the authority granted to Google Kubernetes Config Connector. Varonis explains how this confused deputy problem can turn a single Kubernetes YAML file into a path to organization-wide privilege escalation. [...]",
       "source": "bleepingcomputer.com",
       "first_seen": "2026-09-23T17:33:26Z",
-      "last_seen": "2026-09-23T17:33:26Z"
+      "last_seen": "2026-09-23T20:48:50Z"
     },
     {
       "id": "0fc332347af3aabba389691a6d0cf915d3ed4e80",
@@ -130,7 +190,7 @@
       "description": "Unknown threat actors have managed to compromise two legitimate MemTensor packages across the npm and Python Package Index (PyPI) repositories to push a platform-specific Go-based implant dubbed sckit designed for Windows, Linux, and macOS. According to reports from Aikido, SafeDep, Socket, and StepSecurity, the libraries in question below - @memtensor/memos-cloud-openclaw-plugin versions",
       "source": "thehackernews.com",
       "first_seen": "2026-09-23T17:33:26Z",
-      "last_seen": "2026-09-23T17:33:26Z"
+      "last_seen": "2026-09-23T20:48:50Z"
     },
     {
       "id": "173902e3fcb64683a5799f227634130d0e062a22",
@@ -150,7 +210,7 @@
       "description": "Only 21% of industrial security leaders report a complete OT asset inventory, even as 88% call their programs mature. The post Honeywell: OT Security Teams Embrace AI, but Autonomy Still Rare appeared first on SecurityWeek.",
       "source": "securityweek.com",
       "first_seen": "2026-09-23T12:25:28Z",
-      "last_seen": "2026-09-23T17:33:26Z"
+      "last_seen": "2026-09-23T20:48:50Z"
     },
     {
       "id": "b641f47a86f1ff7923e91893ff6b7fe662946abf",
@@ -190,7 +250,7 @@
       "description": "The nine critical security defects could be exploited for arbitrary code execution and privilege escalation. The post Adobe Patches Critical Flaws in Connect, AEM Forms appeared first on SecurityWeek.",
       "source": "securityweek.com",
       "first_seen": "2026-09-23T12:25:28Z",
-      "last_seen": "2026-09-23T17:33:26Z"
+      "last_seen": "2026-09-23T20:48:50Z"
     },
     {
       "id": "8535deb95a791fda8fa7b7fb4323e5c8ac5c39b0",
@@ -200,7 +260,7 @@
       "description": "The cybercrime platform leveraged AI at every step of the attack chain, including writing social engineering messages and deciding targets. The post AI-Powered Phishing Platform EvilTokens Disrupted by Microsoft appeared first on SecurityWeek.",
       "source": "securityweek.com",
       "first_seen": "2026-09-23T12:25:28Z",
-      "last_seen": "2026-09-23T17:33:26Z"
+      "last_seen": "2026-09-23T20:48:50Z"
     },
     {
       "id": "3ff955fdcfcc03e4c19cb9d3fd8424776b0a00fe",
@@ -380,7 +440,7 @@
       "description": "Cybersecurity and brand reputation are inextricably linked. Security and marketing leaders who establish regular touchpoints, develop joint crisis communications plans, and translate security risks into their brand impact position their organizations to significantly outperform those treating security as an operational IT concern.",
       "source": "darkreading.com",
       "first_seen": "2026-09-23T12:25:28Z",
-      "last_seen": "2026-09-23T17:33:26Z"
+      "last_seen": "2026-09-23T20:48:50Z"
     },
     {
       "id": "91a48124330648657a7d525ab95212db9d5c5b30",
@@ -400,7 +460,7 @@
       "description": "A CVSS score 5.5 AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N severity vulnerability discovered by 'Victor Riis Allingham' was reported to the affected vendor on: 2026-09-22, 1 days ago. The vendor is given until 2027-01-20 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
       "source": "zerodayinitiative.com",
       "first_seen": "2026-09-23T06:55:33Z",
-      "last_seen": "2026-09-23T17:33:26Z"
+      "last_seen": "2026-09-23T20:48:50Z"
     },
     {
       "id": "38c98fd63c6e9cdea4e094cfb7e0fa5fc4392c55",
@@ -410,7 +470,7 @@
       "description": "A CVSS score 9.0 AV:N/AC:H/PR:N/UI:N/S:C/C:H/I:H/A:H severity vulnerability discovered by 'msh1307' was reported to the affected vendor on: 2026-09-22, 1 days ago. The vendor is given until 2027-01-20 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
       "source": "zerodayinitiative.com",
       "first_seen": "2026-09-23T06:55:33Z",
-      "last_seen": "2026-09-23T17:33:26Z"
+      "last_seen": "2026-09-23T20:48:50Z"
     },
     {
       "id": "980e43c7be6d62799f1321754e533fb6089f9454",
@@ -420,7 +480,7 @@
       "description": "A CVSS score 5.5 AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N severity vulnerability discovered by 'Ryota Shiga(@Ga_ryo_) of GMO Flatt Security' was reported to the affected vendor on: 2026-09-22, 1 days ago. The vendor is given until 2027-01-20 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
       "source": "zerodayinitiative.com",
       "first_seen": "2026-09-23T06:55:33Z",
-      "last_seen": "2026-09-23T17:33:26Z"
+      "last_seen": "2026-09-23T20:48:50Z"
     },
     {
       "id": "b05aa2b4eb4cbb60f676be145c8f74975e586cc2",
@@ -430,7 +490,7 @@
       "description": "A CVSS score 8.4 AV:L/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H severity vulnerability discovered by 'Anonymous' was reported to the affected vendor on: 2026-09-22, 1 days ago. The vendor is given until 2027-01-20 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
       "source": "zerodayinitiative.com",
       "first_seen": "2026-09-23T06:55:33Z",
-      "last_seen": "2026-09-23T17:33:26Z"
+      "last_seen": "2026-09-23T20:48:50Z"
     },
     {
       "id": "9b2bb91ffc6dcb9532d1adb6a9c635e77f6e5673",
@@ -440,7 +500,7 @@
       "description": "A CVSS score 7.4 AV:L/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H severity vulnerability discovered by 'Anonymous' was reported to the affected vendor on: 2026-09-22, 1 days ago. The vendor is given until 2027-01-20 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
       "source": "zerodayinitiative.com",
       "first_seen": "2026-09-23T06:55:33Z",
-      "last_seen": "2026-09-23T17:33:26Z"
+      "last_seen": "2026-09-23T20:48:50Z"
     }
   ]
 }

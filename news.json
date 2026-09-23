@@ -1,7 +1,49 @@
 {
-  "last_updated": "2026-09-23T17:33:26Z",
+  "last_updated": "2026-09-23T20:48:50Z",
   "count": 35,
   "items": [
+    {
+      "title": "Check Point warns of hackers exploiting Security Gateway VPN RCE flaw",
+      "link": "https://www.bleepingcomputer.com/news/security/check-point-warns-of-hackers-exploiting-security-gateway-vpn-rce-flaw/",
+      "date": "2026-09-23T19:53:54Z",
+      "description": "Cybersecurity company Check Point has confirmed active exploitation of CVE-2026-85102, a pre-authentication remote code execution (RCE) vulnerability in the VPN certificate-handling functionality of its Security Gateway product. [...]",
+      "source": "bleepingcomputer.com"
+    },
+    {
+      "title": "IonQ Targets Quantum Error-Correction Bottleneck With Single-CPU DecoderIonQ Says Sin",
+      "link": "https://www.securityweek.com/ionq-targets-quantum-error-correction-bottleneck-with-single-cpu-decoderionq-says-sin/",
+      "date": "2026-09-23T19:32:49Z",
+      "description": "IonQ’s new single processor quantum error decoder minimizes the classical computing overhead in quantum error correction. The post IonQ Targets Quantum Error-Correction Bottleneck With Single-CPU DecoderIonQ Says Sin appeared first on SecurityWeek.",
+      "source": "securityweek.com"
+    },
+    {
+      "title": "Hackers start exploiting critical WordPress flaw for code execution",
+      "link": "https://www.bleepingcomputer.com/news/security/hackers-start-exploiting-critical-wordpress-flaw-for-code-execution/",
+      "date": "2026-09-23T18:31:22Z",
+      "description": "Threat actors have moved from probing WordPress sites vulnerable to CVE-2026-87902 to exploiting the flaw to write files to disk that execute shell commands when accessed. [...]",
+      "source": "bleepingcomputer.com"
+    },
+    {
+      "title": "Attackers Use Malicious Terraform Providers to Deliver Go Malware via HashiCorp Registry",
+      "link": "https://thehackernews.com/2026/09/attackers-use-malicious-terraform.html",
+      "date": "2026-09-23T18:06:30Z",
+      "description": "Cybersecurity researchers have disclosed Go-based malware distributed via two Go Modules and two Terraform providers, marking the first time threat actors are using the centralized repository hosted by HashiCorp as a distribution vector for malicious payloads. According to Aikido, the list of Terraform providers and Go modules is below - gocommunity-io/dockerd (222 downloads) kreuzwenker/",
+      "source": "thehackernews.com"
+    },
+    {
+      "title": "Worries About an AI Internet Takeover Gain New Urgency Among Doomsday Scenarios",
+      "link": "https://www.securityweek.com/worries-about-an-ai-internet-takeover-gain-new-urgency-among-doomsday-scenarios/",
+      "date": "2026-09-23T18:05:58Z",
+      "description": "The idea that AI could break away and work toward its own agenda is looking increasingly plausible to researchers and experts. The post Worries About an AI Internet Takeover Gain New Urgency Among Doomsday Scenarios appeared first on SecurityWeek.",
+      "source": "securityweek.com"
+    },
+    {
+      "title": "A Leaked GitLab Issue Email Address Lets Anyone Push Code and Run CI Jobs as You",
+      "link": "https://thehackernews.com/2026/09/a-leaked-gitlab-issue-email-address.html",
+      "date": "2026-09-23T16:53:10Z",
+      "description": "The private email address GitLab gives you for filing issues by email is a credential. Anyone who gets it can email a patch that GitLab commits in your name, to any branch you can push to, including main, and can start CI/CD jobs that run as you. GitLab shows each user this address behind a button labeled \"Email work item to this project.\" Mail sent to it opens an issue in that project, authored",
+      "source": "thehackernews.com"
+    },
     {
       "title": "Malicious AI agents steal 600K credit cards, infect 100+ sites with skimmers",
       "link": "https://www.bleepingcomputer.com/news/security/malicious-ai-agents-steal-600k-credit-cards-infect-100-plus-sites-with-skimmers/",
@@ -94,32 +136,11 @@
       "source": "thehackernews.com"
     },
     {
-      "title": "Arista patches actively exploited VeloCloud Orchestrator zero-day",
-      "link": "https://www.bleepingcomputer.com/news/security/arista-patches-actively-exploited-velocloud-orchestrator-zero-day/",
-      "date": "2026-09-23T12:29:53Z",
-      "description": "Arista Networks has released security patches for a zero-day flaw that is being actively exploited and affects VeloCloud Orchestrator (VCO) On-Prem deployments. [...]",
-      "source": "bleepingcomputer.com"
-    },
-    {
       "title": "Honeywell: OT Security Teams Embrace AI, but Autonomy Still Rare",
       "link": "https://www.securityweek.com/honeywell-ot-security-teams-embrace-ai-but-autonomy-still-rare/",
       "date": "2026-09-23T12:17:28Z",
       "description": "Only 21% of industrial security leaders report a complete OT asset inventory, even as 88% call their programs mature. The post Honeywell: OT Security Teams Embrace AI, but Autonomy Still Rare appeared first on SecurityWeek.",
       "source": "securityweek.com"
-    },
-    {
-      "title": "New cPanel Flaw Lets a Hosting Account Run Code as Root, Take Full Server Control",
-      "link": "https://thehackernews.com/2026/09/new-cpanel-flaw-lets-hosting-account_0272795595.html",
-      "date": "2026-09-23T12:16:00Z",
-      "description": "A flaw in cPanel's CalDAV and CardDAV service lets anyone with a cPanel hosting account run code as root and take \"full control of the server,\" the company said on September 22. A second bug in the WP Toolkit plugin, used to install and manage WordPress sites, allows an account holder to change databases that belong to other accounts. cPanel has released fixed versions for both,",
-      "source": "thehackernews.com"
-    },
-    {
-      "title": "545 Hackers Tested It First. Now XRanges for AI Scores Your Security Agent",
-      "link": "https://thehackernews.com/2026/09/545-hackers-tested-it-first-now-xranges.html",
-      "date": "2026-09-23T11:47:19Z",
-      "description": "Autonomous security agents are getting good at finding bugs. Nobody has a good way to measure how good. Point one at a realistic target and what comes back is a report the agent wrote about itself: confident prose, a list of findings, and no way to tell which of them happened. Someone with a security background then sits down and checks every claim against the target. Which findings are real,",
-      "source": "thehackernews.com"
     },
     {
       "title": "Adobe Patches Critical Flaws in Connect, AEM Forms",
@@ -133,27 +154,6 @@
       "link": "https://www.securityweek.com/ai-powered-phishing-platform-eviltokens-disrupted-by-microsoft/",
       "date": "2026-09-23T11:23:30Z",
       "description": "The cybercrime platform leveraged AI at every step of the attack chain, including writing social engineering messages and deciding targets. The post AI-Powered Phishing Platform EvilTokens Disrupted by Microsoft appeared first on SecurityWeek.",
-      "source": "securityweek.com"
-    },
-    {
-      "title": "Microsoft: September Windows updates break Always On VPN connections",
-      "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-september-2026-windows-updates-break-always-on-vpn-connections/",
-      "date": "2026-09-23T11:18:13Z",
-      "description": "Microsoft warned that the September 2026 security updates may also break Always On VPN connections on some Windows 11 systems. [...]",
-      "source": "bleepingcomputer.com"
-    },
-    {
-      "title": "Chrome 154 Patches 108 Vulnerabilities",
-      "link": "https://www.securityweek.com/chrome-154-patches-108-vulnerabilities/",
-      "date": "2026-09-23T10:36:07Z",
-      "description": "The browser update resolves several critical-severity memory safety and memory corruption flaws. The post Chrome 154 Patches 108 Vulnerabilities appeared first on SecurityWeek.",
-      "source": "securityweek.com"
-    },
-    {
-      "title": "A Look at AI Doomsday Scenarios That Researchers Say Could Put Humanity at Risk",
-      "link": "https://www.securityweek.com/a-look-at-ai-doomsday-scenarios-that-researchers-say-could-put-humanity-at-risk/",
-      "date": "2026-09-23T10:20:36Z",
-      "description": "Debates over the plausibility of these doomsday scenarios have heated up since several executives endorsed slowing the technology’s development for safety reasons. The post A Look at AI Doomsday Scenarios That Researchers Say Could Put Humanity at Risk appeared first on SecurityWeek.",
       "source": "securityweek.com"
     },
     {
