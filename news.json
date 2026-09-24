@@ -1,7 +1,42 @@
 {
-  "last_updated": "2026-09-24T02:06:03Z",
-  "count": 30,
+  "last_updated": "2026-09-24T07:55:31Z",
+  "count": 35,
   "items": [
+    {
+      "title": "Roundcube Webmail SQL Injection Vulnerability Exploited in the Wild",
+      "link": "https://cybersecuritynews.com/roundcube-webmail-vulnerability-exploited/",
+      "date": "2026-09-24T07:37:03Z",
+      "description": "A critical security issue affecting Roundcube Webmail is now being exploited in the wild, prompting administrators to update exposed installations urgently. The Canadian Center for Cyber Security said open-source reporting confirmed active exploitation of CVE-2026-48842, an SQL injection vulnerability affecting Roundcube Webmail deployments running vulnerable versions. Roundcube published…",
+      "source": "cybersecuritynews.com"
+    },
+    {
+      "title": "Hackers Exploit Critical Check Point VPN Flaws to Gain Remote Access Without Login",
+      "link": "https://cybersecuritynews.com/hackers-exploit-critical-check-point-vpn-flaws/",
+      "date": "2026-09-24T07:35:19Z",
+      "description": "Check Point has warned that attackers are actively exploiting two critical vulnerabilities in its VPN and management products, allowing unauthenticated remote access and possible remote code execution. Both flaws carry a CVSS severity score of 9.8, and the company has released fixes that affected organizations should apply immediately. The first issue, tracked as CVE-2026-85102, affects […] The…",
+      "source": "cybersecuritynews.com"
+    },
+    {
+      "title": "Malicious Firefox Extension Disguised as PDF Tool Steals Google Account Sessions",
+      "link": "https://cybersecuritynews.com/malicious-firefox-extension/",
+      "date": "2026-09-24T07:15:03Z",
+      "description": "A Firefox add-on posing as a tool for opening protected PDF documents can quietly turn a signed-in browser into a route to Google account theft. It waits until installation to obtain the instructions that make it dangerous, leaving little suspicious code for store reviewers. The extension appeared in the Firefox Add-ons store on September 3, […] The post Malicious Firefox Extension Disguised as…",
+      "source": "cybersecuritynews.com"
+    },
+    {
+      "title": "Critical WordPress Vulnerability Exploited Immediately After Disclosure",
+      "link": "https://www.securityweek.com/critical-wordpress-vulnerability-exploited-immediately-after-disclosure/",
+      "date": "2026-09-24T07:12:26Z",
+      "description": "Tracked as CVE-2026-87902, the path traversal flaw allows remote, unauthenticated attackers to execute arbitrary code. The post Critical WordPress Vulnerability Exploited Immediately After Disclosure appeared first on SecurityWeek.",
+      "source": "securityweek.com"
+    },
+    {
+      "title": "Apache Tomcat Update Fixes WebSocket and HTTP/2 Flaws Affecting Server Security",
+      "link": "https://cybersecuritynews.com/apache-tomcat-update/",
+      "date": "2026-09-24T04:04:20Z",
+      "description": "Apache Software Foundation has released Tomcat 11.0.26 to address 12 security vulnerabilities spanning WebSocket, HTTP/2, AJP, authentication, and TLS certificate validation. The flaws, disclosed September 23, 2026, include four rated Important, three Moderate, and five Low, giving administrators a broad but urgent patching task across internet-facing Java application servers. Most existing…",
+      "source": "cybersecuritynews.com"
+    },
     {
       "title": "Placeholder domain used in dev docs now serves ClickFix attacks",
       "link": "https://www.bleepingcomputer.com/news/security/placeholder-domain-used-in-dev-docs-now-serves-clickfix-attacks/",
@@ -38,10 +73,10 @@
       "source": "bleepingcomputer.com"
     },
     {
-      "title": "IonQ Targets Quantum Error-Correction Bottleneck With Single-CPU DecoderIonQ Says Sin",
+      "title": "IonQ Targets Quantum Error-Correction Bottleneck With Single-CPU Decoder",
       "link": "https://www.securityweek.com/ionq-targets-quantum-error-correction-bottleneck-with-single-cpu-decoderionq-says-sin/",
       "date": "2026-09-23T19:32:49Z",
-      "description": "IonQ’s new single processor quantum error decoder minimizes the classical computing overhead in quantum error correction. The post IonQ Targets Quantum Error-Correction Bottleneck With Single-CPU DecoderIonQ Says Sin appeared first on SecurityWeek.",
+      "description": "IonQ’s new single processor quantum error decoder minimizes the classical computing overhead in quantum error correction. The post IonQ Targets Quantum Error-Correction Bottleneck With Single-CPU Decoder appeared first on SecurityWeek.",
       "source": "securityweek.com"
     },
     {
@@ -94,6 +129,13 @@
       "source": "darkreading.com"
     },
     {
+      "title": "GitLab Email Feature Vulnerability Lets Attackers Push Code Into Private Repositories",
+      "link": "https://cybersecuritynews.com/gitlab-email-private-repository-flaw/",
+      "date": "2026-09-23T15:40:39Z",
+      "description": "GitLab’s “Email work item to this project” feature can become a repository-compromise primitive when its private address is exposed, according to research published by Aikido Security researcher Joe Leon on September 23, 2026. The address contains a long-lived glimt- incoming-email token that GitLab says does not expire and must remain secret. GitLab documentation confirms that […] The post…",
+      "source": "cybersecuritynews.com"
+    },
+    {
       "title": "Attackers Manipulate AI Chatbots in Mass Disinformation, Phishing Campaign",
       "link": "https://www.darkreading.com/threat-intelligence/attackers-manipulate-ai-chatbots-mass-disinformation-phishing-campaign",
       "date": "2026-09-23T14:47:09Z",
@@ -129,13 +171,6 @@
       "source": "securityweek.com"
     },
     {
-      "title": "AI-Powered Phishing Platform EvilTokens Disrupted by Microsoft",
-      "link": "https://www.securityweek.com/ai-powered-phishing-platform-eviltokens-disrupted-by-microsoft/",
-      "date": "2026-09-23T11:23:30Z",
-      "description": "The cybercrime platform leveraged AI at every step of the attack chain, including writing social engineering messages and deciding targets. The post AI-Powered Phishing Platform EvilTokens Disrupted by Microsoft appeared first on SecurityWeek.",
-      "source": "securityweek.com"
-    },
-    {
       "title": "Relays Are Masking Chinese Access to Frontier AI Models in the US",
       "link": "https://www.darkreading.com/cyber-risk/relays-masking-chinese-access-frontier-ai-models",
       "date": "2026-09-22T21:12:37Z",
@@ -146,35 +181,35 @@
       "title": "ZDI-CAN-33068: Deciso",
       "link": "http://www.zerodayinitiative.com/advisories/upcoming/",
       "date": "2026-09-22T05:00:00Z",
-      "description": "A CVSS score 5.5 AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N severity vulnerability discovered by 'Victor Riis Allingham' was reported to the affected vendor on: 2026-09-22, 1 days ago. The vendor is given until 2027-01-20 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
+      "description": "A CVSS score 5.5 AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N severity vulnerability discovered by 'Victor Riis Allingham' was reported to the affected vendor on: 2026-09-22, 2 days ago. The vendor is given until 2027-01-20 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
       "source": "zerodayinitiative.com"
     },
     {
       "title": "ZDI-CAN-33273: Linux",
       "link": "http://www.zerodayinitiative.com/advisories/upcoming/",
       "date": "2026-09-22T05:00:00Z",
-      "description": "A CVSS score 9.0 AV:N/AC:H/PR:N/UI:N/S:C/C:H/I:H/A:H severity vulnerability discovered by 'msh1307' was reported to the affected vendor on: 2026-09-22, 1 days ago. The vendor is given until 2027-01-20 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
+      "description": "A CVSS score 9.0 AV:N/AC:H/PR:N/UI:N/S:C/C:H/I:H/A:H severity vulnerability discovered by 'msh1307' was reported to the affected vendor on: 2026-09-22, 2 days ago. The vendor is given until 2027-01-20 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
       "source": "zerodayinitiative.com"
     },
     {
       "title": "ZDI-CAN-34447: ABRT",
       "link": "http://www.zerodayinitiative.com/advisories/upcoming/",
       "date": "2026-09-22T05:00:00Z",
-      "description": "A CVSS score 5.5 AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N severity vulnerability discovered by 'Ryota Shiga(@Ga_ryo_) of GMO Flatt Security' was reported to the affected vendor on: 2026-09-22, 1 days ago. The vendor is given until 2027-01-20 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
+      "description": "A CVSS score 5.5 AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N severity vulnerability discovered by 'Ryota Shiga(@Ga_ryo_) of GMO Flatt Security' was reported to the affected vendor on: 2026-09-22, 2 days ago. The vendor is given until 2027-01-20 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
       "source": "zerodayinitiative.com"
     },
     {
       "title": "ZDI-CAN-32370: Academy Software Foundation",
       "link": "http://www.zerodayinitiative.com/advisories/upcoming/",
       "date": "2026-09-22T05:00:00Z",
-      "description": "A CVSS score 8.4 AV:L/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H severity vulnerability discovered by 'Anonymous' was reported to the affected vendor on: 2026-09-22, 1 days ago. The vendor is given until 2027-01-20 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
+      "description": "A CVSS score 8.4 AV:L/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H severity vulnerability discovered by 'Anonymous' was reported to the affected vendor on: 2026-09-22, 2 days ago. The vendor is given until 2027-01-20 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
       "source": "zerodayinitiative.com"
     },
     {
       "title": "ZDI-CAN-32377: Academy Software Foundation",
       "link": "http://www.zerodayinitiative.com/advisories/upcoming/",
       "date": "2026-09-22T05:00:00Z",
-      "description": "A CVSS score 7.4 AV:L/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H severity vulnerability discovered by 'Anonymous' was reported to the affected vendor on: 2026-09-22, 1 days ago. The vendor is given until 2027-01-20 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
+      "description": "A CVSS score 7.4 AV:L/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H severity vulnerability discovered by 'Anonymous' was reported to the affected vendor on: 2026-09-22, 2 days ago. The vendor is given until 2027-01-20 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
       "source": "zerodayinitiative.com"
     },
     {
