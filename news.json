@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-09-25T22:56:06Z",
-  "count": 30,
+  "last_updated": "2026-09-26T01:03:29Z",
+  "count": 35,
   "items": [
     {
       "title": "Kiteworks urges 6-hour server shutdown over potential zero-day attacks",
@@ -29,6 +29,20 @@
       "date": "2026-09-25T18:13:33Z",
       "description": "A cross-site request forgery (CSRF) vulnerability in the Elementor plugin for WordPress could allow an unauthenticated attacker to create administrator accounts. [...]",
       "source": "bleepingcomputer.com"
+    },
+    {
+      "title": "OnePlus 15 Flaws Let Zero-Permission Apps Gain Root Access Through OxygenOS Services",
+      "link": "https://cybersecuritynews.com/oneplus-15-flaws-zero-permission-apps/",
+      "date": "2026-09-25T18:02:16Z",
+      "description": "Two flaws in the latest OxygenOS build could let malicious Android apps run code with root privileges on OnePlus devices, including the OnePlus 15, by exploiting accessible privileged services. The vulnerabilities are significant because Android permission prompts normally act as a barrier between untrusted apps and sensitive device functions. A user may reasonably assume that […] The post…",
+      "source": "cybersecuritynews.com"
+    },
+    {
+      "title": "14-Year-Old Linux Kernel Flaw Lets Local Users Gain Root Access and Escape Containers",
+      "link": "https://cybersecuritynews.com/14-year-old-linux-kernel-flaw/",
+      "date": "2026-09-25T17:56:35Z",
+      "description": "A 14-year-old Linux kernel vulnerability can let a local attacker escalate to root privileges and, in a proof-of-concept environment, escape a Docker container to compromise the underlying host. The flaw in Linux’s AF_ALG userspace cryptographic interface stems from unsafe concurrent writes to the same socket used for operations like AES encryption and decryption. Because an […] The post…",
+      "source": "cybersecuritynews.com"
     },
     {
       "title": "What We Missed: Google Gemini Joins the AI Escape Party",
@@ -73,11 +87,32 @@
       "source": "thehackernews.com"
     },
     {
+      "title": "Hackers Used a Samsung Flaw to Build a Cryptominer Inside Victim Systems",
+      "link": "https://cybersecuritynews.com/samsung-flaw/",
+      "date": "2026-09-25T14:34:58Z",
+      "description": "Attackers broke into a Windows system through a known flaw in Samsung’s MagicINFO software, then built a cryptocurrency miner on the compromised machine. Rather than arriving as a finished program, the miner was assembled there, leaving an unusual activity trail. The case began in early September 2026 with an alert tied to MagicINFO Premium, software […] The post Hackers Used a Samsung Flaw to…",
+      "source": "cybersecuritynews.com"
+    },
+    {
+      "title": "Researchers Found a Botnet That Uses an AI Agent to Operate Inside Compromised Servers",
+      "link": "https://cybersecuritynews.com/botnet-uses-ai-agent/",
+      "date": "2026-09-25T14:17:54Z",
+      "description": "CARBONATO is a botnet that turns Docker servers into footholds for attackers. It places an AI agent inside compromised systems, letting operators send tasks through Telegram and receive results. The campaign begins with Docker services carelessly exposed to the internet without authentication. Once inside, CARBONATO launches a privileged container, gains access to the host, establishes […] The…",
+      "source": "cybersecuritynews.com"
+    },
+    {
       "title": "North Korea Suspected in $351 Million Bitget Crypto Heist",
       "link": "https://www.securityweek.com/north-korea-suspected-in-351-million-bitget-crypto-heist/",
       "date": "2026-09-25T14:16:18Z",
       "description": "Bitget’s security systems caught the unauthorized transfers on September 24, and some wallet addresses linked to the attacker have been frozen. The post North Korea Suspected in $351 Million Bitget Crypto Heist appeared first on SecurityWeek.",
       "source": "securityweek.com"
+    },
+    {
+      "title": "Sauron Loader Malware Uses DLL Side-Loading and In-Memory Decryption to Evade Detection",
+      "link": "https://cybersecuritynews.com/sauron-loader-malware/",
+      "date": "2026-09-25T13:47:28Z",
+      "description": "Sauron Loader has surfaced in attacks on German organizations, giving intruders a way to deliver more malware. The new tool need not be the first thing a victim encounters. In the cases examined, it arrived at the end of attack chains built around deception rather than a newly disclosed software flaw. Some victims faced ClickFix […] The post Sauron Loader Malware Uses DLL Side-Loading and…",
+      "source": "cybersecuritynews.com"
     },
     {
       "title": "PamStealer macOS Malware Adds Live C2 Payload Decryption and Multi-Layer Persistence",
