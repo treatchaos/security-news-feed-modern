@@ -1,20 +1,34 @@
 {
-  "last_updated": "2026-09-26T06:48:55Z",
-  "count": 35,
+  "last_updated": "2026-09-26T11:56:11Z",
+  "count": 30,
   "items": [
     {
-      "title": "OpenAI’s AI Agents Tried Hacking 4 Websites Without Being Prompted",
-      "link": "https://cybersecuritynews.com/openais-ai-agents-tried-hacking-4-websites/",
-      "date": "2026-09-26T04:36:57Z",
-      "description": "OpenAI’s autonomous AI agents attempted to hack four government, university, and public-data systems while carrying out routine information-gathering tasks, according to researchers and government officials. The agents were not instructed to conduct cyberattacks; when normal retrieval methods failed, they allegedly escalated to vulnerability probing, access-control bypasses, and other intrusive…",
-      "source": "cybersecuritynews.com"
+      "title": "OpenAI Says Its Models Engaged With US Government Websites in New Model Misbehavior Disclosure",
+      "link": "https://www.securityweek.com/openai-says-its-models-engaged-with-us-government-websites-in-new-model-misbehavior-disclosure/",
+      "date": "2026-09-26T10:15:41Z",
+      "description": "OpenAI’s CEO said there is an “extensive and ongoing review related to our agents’ use of internet access during training and evaluation.” The post OpenAI Says Its Models Engaged With US Government Websites in New Model Misbehavior Disclosure appeared first on SecurityWeek.",
+      "source": "securityweek.com"
     },
     {
-      "title": "16-Year-Old Researcher Finds Microsoft Auth Vulnerability that Exposes 17.3 Trillion Stored Records",
-      "link": "https://cybersecuritynews.com/microsoft-auth-vulnerability-expose-records/",
-      "date": "2026-09-26T03:55:43Z",
-      "description": "A 16-year-old security researcher known as Faav uncovered an authentication flaw in Microsoft’s internal Titan analytics service that potentially exposed an estimated 17.3 trillion database rows. The vulnerability allowed forged administrator access and unauthorized SQL queries without Microsoft credentials. However, Faav emphasized that the potential impact was hypothetical. The researcher…",
-      "source": "cybersecuritynews.com"
+      "title": "Elementor CSRF Flaw Lets Attackers Take Over Sites After Admin Clicks Crafted Link",
+      "link": "https://thehackernews.com/2026/09/elementor-csrf-flaw-lets-attackers-take.html",
+      "date": "2026-09-26T09:55:22Z",
+      "description": "Details have emerged about a high-severity security flaw in the Elementor Website Builder WordPress plugin that could be exploited by an unauthenticated attacker to create rogue administrator accounts and take control of a site. The cross-site request forgery (CSRF) vulnerability, which has yet to be assigned a CVE identifier, carries a CVSS score of 8.8 out of 10.0. It only affects versions",
+      "source": "thehackernews.com"
+    },
+    {
+      "title": "SharePoint RCE and MikroTik RouterOS Flaws Actively Exploited in the Wild",
+      "link": "https://thehackernews.com/2026/09/sharepoint-rce-and-mikrotik-routeros.html",
+      "date": "2026-09-26T08:49:53Z",
+      "description": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Friday added two security flaws impacting Microsoft SharePoint and Mikrotik RouterOS to its Known Exploited Vulnerabilities (KEV) catalog, citing evidence of active exploitation. The vulnerabilities in question are as follows - CVE-2026-65660 (CVSS score: 8.8) - A code injection vulnerability in Microsoft Office SharePoint",
+      "source": "thehackernews.com"
+    },
+    {
+      "title": "Kiteworks Urges Customers to Shut Down Systems for 9 Hours Over Possible Cyber Attack",
+      "link": "https://thehackernews.com/2026/09/kiteworks-urges-customers-to-shut-down.html",
+      "date": "2026-09-26T07:48:33Z",
+      "description": "Kiteworks (formerly Accellion) is urging customers to shut down their systems as a precautionary measure for nine hours over the weekend after it received threat intelligence about an imminent cyber attack. \"Kiteworks received credible threat intelligence from federal intelligence authorities indicating that a threat actor may attempt to target some Kiteworks systems,\" said Frank Balonis, Chief",
+      "source": "thehackernews.com"
     },
     {
       "title": "Kiteworks urges 6-hour server shutdown over potential zero-day attacks",
@@ -43,20 +57,6 @@
       "date": "2026-09-25T18:13:33Z",
       "description": "A cross-site request forgery (CSRF) vulnerability in the Elementor plugin for WordPress could allow an unauthenticated attacker to create administrator accounts. [...]",
       "source": "bleepingcomputer.com"
-    },
-    {
-      "title": "OnePlus 15 Flaws Let Zero-Permission Apps Gain Root Access Through OxygenOS Services",
-      "link": "https://cybersecuritynews.com/oneplus-15-flaws-zero-permission-apps/",
-      "date": "2026-09-25T18:02:16Z",
-      "description": "Two flaws in the latest OxygenOS build could let malicious Android apps run code with root privileges on OnePlus devices, including the OnePlus 15, by exploiting accessible privileged services. The vulnerabilities are significant because Android permission prompts normally act as a barrier between untrusted apps and sensitive device functions. A user may reasonably assume that […] The post…",
-      "source": "cybersecuritynews.com"
-    },
-    {
-      "title": "14-Year-Old Linux Kernel Flaw Lets Local Users Gain Root Access and Escape Containers",
-      "link": "https://cybersecuritynews.com/14-year-old-linux-kernel-flaw/",
-      "date": "2026-09-25T17:56:35Z",
-      "description": "A 14-year-old Linux kernel vulnerability can let a local attacker escalate to root privileges and, in a proof-of-concept environment, escape a Docker container to compromise the underlying host. The flaw in Linux’s AF_ALG userspace cryptographic interface stems from unsafe concurrent writes to the same socket used for operations like AES encryption and decryption. Because an […] The post…",
-      "source": "cybersecuritynews.com"
     },
     {
       "title": "What We Missed: Google Gemini Joins the AI Escape Party",
@@ -101,13 +101,6 @@
       "source": "thehackernews.com"
     },
     {
-      "title": "Hackers Used a Samsung Flaw to Build a Cryptominer Inside Victim Systems",
-      "link": "https://cybersecuritynews.com/samsung-flaw/",
-      "date": "2026-09-25T14:34:58Z",
-      "description": "Attackers broke into a Windows system through a known flaw in Samsung’s MagicINFO software, then built a cryptocurrency miner on the compromised machine. Rather than arriving as a finished program, the miner was assembled there, leaving an unusual activity trail. The case began in early September 2026 with an alert tied to MagicINFO Premium, software […] The post Hackers Used a Samsung Flaw to…",
-      "source": "cybersecuritynews.com"
-    },
-    {
       "title": "North Korea Suspected in $351 Million Bitget Crypto Heist",
       "link": "https://www.securityweek.com/north-korea-suspected-in-351-million-bitget-crypto-heist/",
       "date": "2026-09-25T14:16:18Z",
@@ -134,34 +127,6 @@
       "date": "2026-09-25T12:16:27Z",
       "description": "Ardit Kutleshi created and operated Rydox, which allowed miscreants to trade PII and cybercrime tools and services. The post Kosovar Owner of Rydox Marketplace Pleads Guilty in US Court appeared first on SecurityWeek.",
       "source": "securityweek.com"
-    },
-    {
-      "title": "The SOC Doesn't Need to Start Over with Every Alert",
-      "link": "https://thehackernews.com/2026/09/the-soc-doesnt-need-to-start-over-with.html",
-      "date": "2026-09-25T11:30:00Z",
-      "description": "Security leaders keep debating whether AI will produce an entirely new class of cyberattack. The nearer change is quieter and already visible: AI has made a failed attack cheap to retry. The routine version looks like this. An attacker lands on a low-privilege cloud account, and the first try at privilege escalation goes nowhere. That dead end used to cost hours of documentation reading,",
-      "source": "thehackernews.com"
-    },
-    {
-      "title": "Windows, Linux, Android File Notification Systems Leak User Activity",
-      "link": "https://www.securityweek.com/windows-linux-android-file-notification-systems-leak-user-activity/",
-      "date": "2026-09-25T10:53:32Z",
-      "description": "Researchers show that file-change notification systems can leak keystroke timing, browsing activity, and WhatsApp media events. The post Windows, Linux, Android File Notification Systems Leak User Activity appeared first on SecurityWeek.",
-      "source": "securityweek.com"
-    },
-    {
-      "title": "Bitget Says Suspected North Korean Hackers Stole $351.6M After Backend Compromise",
-      "link": "https://thehackernews.com/2026/09/bitget-says-suspected-north-korean.html",
-      "date": "2026-09-25T10:35:55Z",
-      "description": "Cryptocurrency exchange Bitget said suspected North Korean threat actors have stolen $351.6 million from its hot and warm wallets. \"At 18:31 UTC on September 24, 2026, Bitget's security systems identified unauthorized transfers involving a limited number of hot wallets,\" BitGet said in a post shared on X. \"Bitget's cold wallets and the overwhelming majority of platform assets remain",
-      "source": "thehackernews.com"
-    },
-    {
-      "title": "Roundcube Pre-Auth SQL Injection Flaw Actively Exploited in the Wild",
-      "link": "https://thehackernews.com/2026/09/roundcube-pre-auth-sql-injection-flaw.html",
-      "date": "2026-09-25T10:14:02Z",
-      "description": "The Canadian Centre for Cyber Security has warned that a now-patched Roundcube Webmail vulnerability is being actively exploited in the wild. The vulnerability in question is CVE-2026-48842 (CVSS score: 8.1), a pre-authentication SQL injection in the virtuser_query plugin of Roundcube Webmail versions 1.6.x before 1.6.16 and 1.7.x before 1.7.1. The issue stems from a preg_replace() backslash",
-      "source": "thehackernews.com"
     },
     {
       "title": "Russia's Hybrid Cyber-Physical War in Europe Heats Up",
