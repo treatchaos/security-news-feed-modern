@@ -1,27 +1,97 @@
 {
-  "last_updated": "2026-09-30T13:08:45Z",
-  "count": 35,
+  "last_updated": "2026-09-30T18:41:16Z",
+  "count": 30,
   "items": [
+    {
+      "title": "Over 543,000 valid credentials exposed in public GitHub repositories",
+      "link": "https://www.bleepingcomputer.com/news/security/over-543-000-valid-credentials-exposed-in-public-github-repositories/",
+      "date": "2026-09-30T18:08:34Z",
+      "description": "More than 543,000 credentials exposed in public GitHub repositories were still valid in July despite the platform's security measures to prevent accidental leaks of sensitive data. [...]",
+      "source": "bleepingcomputer.com"
+    },
+    {
+      "title": "Attackers Exploit Zimbra Flaw to Deploy Web Shells and Harvest Authentication Secrets",
+      "link": "https://thehackernews.com/2026/09/attackers-exploit-zimbra-flaw-to-deploy.html",
+      "date": "2026-09-30T16:46:29Z",
+      "description": "Threat actors have weaponized a now-patched security flaw in Zimbra Collaboration Suite (ZCS) to deploy web shells and access mailbox data, according to findings from the Microsoft Security Research team. The attack exploits CVE-2026-73570 (CVSS score: 8.9), an unauthenticated operating system command injection flaw that can lead to remote code execution when Simple Network Management Protocol",
+      "source": "thehackernews.com"
+    },
+    {
+      "title": "Attackers Abuse MSP360 to Deploy ScreenConnect in Dual-RMM Phishing Attacks",
+      "link": "https://thehackernews.com/2026/09/attackers-abuse-msp360-to-deploy.html",
+      "date": "2026-09-30T16:32:59Z",
+      "description": "Microsoft has warned of phishing campaigns distributing an installer for the MSP360 Remote Monitoring and Management (RMM) software under the guise of meeting invitations, PDF-themed lures, software update prompts, and other social-engineering content. \"Once executed, the legitimate MSP360 installer, distributed under a deceptive file name established remote management access on affected",
+      "source": "thehackernews.com"
+    },
+    {
+      "title": "CISA warns of critical pre-auth RCE flaw in MikroTik RouterOS",
+      "link": "https://www.bleepingcomputer.com/news/security/cisa-warns-of-critical-pre-auth-rce-flaw-in-mikrotik-routeros/",
+      "date": "2026-09-30T15:49:29Z",
+      "description": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) is warning of a new critical vulnerability in MikroTik RouterOS that could lead to remote code execution or cause a denial-of-service condition. [...]",
+      "source": "bleepingcomputer.com"
+    },
+    {
+      "title": "Cisco Warns of Attackers Exploiting Critical Authentication Bypass in SD-WAN Manager",
+      "link": "https://thehackernews.com/2026/09/cisco-warns-of-attackers-exploiting.html",
+      "date": "2026-09-30T15:24:54Z",
+      "description": "Attackers are exploiting a new critical zero-day flaw in Cisco Catalyst SD-WAN Manager, the system companies use to manage their Cisco SD-WAN networks, Cisco said in an advisory on September 30. The flaw, CVE-2026-76504, could allow a remote attacker with no login access to use the Manager's API as the admin user. Fixed releases are available, and there is no workaround. It carries a",
+      "source": "thehackernews.com"
+    },
+    {
+      "title": "Russia's Star Blizzard Ditches ClickFix to Widen Phishing Net",
+      "link": "https://www.darkreading.com/threat-intelligence/russia-star-blizzard-apt-ditches-clickfix-widen-phishing-net",
+      "date": "2026-09-30T15:02:25Z",
+      "description": "The APT actor is using a new tactic, dubbed \"RedFlick,\" against Ukrainian-linked targets such as NGOs, think tanks, and journalists to deploy its CosmicPulse backdoor.",
+      "source": "darkreading.com"
+    },
+    {
+      "title": "Attackers Abuse ChatGPT Custom GPTs to Deliver RAT via ClickFix Lures",
+      "link": "https://thehackernews.com/2026/09/attackers-abuse-chatgpt-custom-gpts-to.html",
+      "date": "2026-09-30T15:00:15Z",
+      "description": "Threat actors are abusing ChatGPT Custom GPTs to disguise them as legitimate product offerings and direct unsuspecting victims to malicious sites that employ ClickFix lures to deliver malware. Huntress, which observed the activity in late September 2026, said it marks the abuse of yet another feature in trusted artificial intelligence (AI) platforms. Prior campaigns have weaponized shared",
+      "source": "thehackernews.com"
+    },
+    {
+      "title": "Cisco warns of new SD-WAN zero-day exploited in attacks",
+      "link": "https://www.bleepingcomputer.com/news/security/cisco-warns-of-new-sd-wan-authentication-bypass-zero-day-exploited-in-attacks/",
+      "date": "2026-09-30T14:46:40Z",
+      "description": "Cisco released security updates to address a critical zero-day in the Catalyst SD-WAN Manager (tracked as CVE-2026-76504) that attackers are actively exploiting to escalate to admin privileges. [...]",
+      "source": "bleepingcomputer.com"
+    },
+    {
+      "title": "Google: AI Is Changing the Pace and Profile of Vulnerability Discovery",
+      "link": "https://www.securityweek.com/google-ai-is-changing-the-pace-and-profile-of-vulnerability-discovery/",
+      "date": "2026-09-30T14:05:58Z",
+      "description": "Google’s analysis found that AI-discovered vulnerabilities are more likely to enable remote code execution. The post Google: AI Is Changing the Pace and Profile of Vulnerability Discovery appeared first on SecurityWeek.",
+      "source": "securityweek.com"
+    },
+    {
+      "title": "AI's Third Wave: Coworkers Break the Security Model That Worked for Agents",
+      "link": "https://www.bleepingcomputer.com/news/security/ais-third-wave-coworkers-break-the-security-model-that-worked-for-agents/",
+      "date": "2026-09-30T14:01:11Z",
+      "description": "Persistent AI coworkers may operate continuously with standing access, creating identity risks that existing security models were not designed to handle. Token Security explains why these agents need their own identities, owners, scoped permissions, and lifecycle controls. [...]",
+      "source": "bleepingcomputer.com"
+    },
+    {
+      "title": "Microsoft to block Entra ID script injection attacks starting October",
+      "link": "https://www.bleepingcomputer.com/news/security/microsoft-to-block-entra-id-script-injection-attacks-starting-october/",
+      "date": "2026-09-30T13:37:15Z",
+      "description": "Microsoft has reminded customers that the Entra ID authentication system will get better protection against external script injection attacks starting next month. [...]",
+      "source": "bleepingcomputer.com"
+    },
+    {
+      "title": "WatchGuard Patches Critical Fireware OS Code Injection Vulnerability",
+      "link": "https://www.securityweek.com/watchguard-patches-critical-fireware-os-code-injection-vulnerability/",
+      "date": "2026-09-30T13:16:56Z",
+      "description": "WatchGuard has rolled out patches for 15 code execution, DoS, authorization, and path traversal bugs in Fireware OS. The post WatchGuard Patches Critical Fireware OS Code Injection Vulnerability appeared first on SecurityWeek.",
+      "source": "securityweek.com"
+    },
     {
       "title": "Government, Finance Orgs Targeted in Weeks-Long NetScaler Zero-Day Attacks",
       "link": "https://www.securityweek.com/government-finance-orgs-targeted-in-weeks-long-netscaler-zero-day-attacks/",
       "date": "2026-09-30T12:48:20Z",
       "description": "Several security firms have confirmed seeing exploitation of the NetScaler vulnerabilities CVE-2026-88771 and CVE-2026-88772. The post Government, Finance Orgs Targeted in Weeks-Long NetScaler Zero-Day Attacks appeared first on SecurityWeek.",
       "source": "securityweek.com"
-    },
-    {
-      "title": "Hackers Broke Into Microsoft 365 Through Forgotten Accounts Nobody Was Watching",
-      "link": "https://cybersecuritynews.com/hackers-broke-into-microsoft-365/",
-      "date": "2026-09-30T12:46:18Z",
-      "description": "Hackers have breached Microsoft 365 environments by targeting accounts that were still active but unmonitored. An old password and missing sign-in protections gave intruders a route into email, files, and cloud applications. The campaign focused heavily on organisations in Chile, including a large retailer and financial institutions. Rather than repeatedly guessing passwords for one person, […]…",
-      "source": "cybersecuritynews.com"
-    },
-    {
-      "title": "TeamViewer urges users to patch severe flaws “as soon as possible”",
-      "link": "https://www.bleepingcomputer.com/news/security/teamviewer-urges-users-to-patch-severe-flaws-as-soon-as-possible/",
-      "date": "2026-09-30T12:25:10Z",
-      "description": "Remote access software company TeamViewer warned customers on Tuesday to immediately patch a set of high-severity vulnerabilities affecting its client and host software. [...]",
-      "source": "bleepingcomputer.com"
     },
     {
       "title": "Chrome, Firefox Updates Patch Over 100 Vulnerabilities",
@@ -38,88 +108,11 @@
       "source": "thehackernews.com"
     },
     {
-      "title": "AI Coding Agents Exposed 13,000 Internal Images, Including Billing Records, on GitHub",
-      "link": "https://thehackernews.com/2026/09/ai-coding-agents-exposed-13000-internal.html",
-      "date": "2026-09-30T11:30:00Z",
-      "description": "AI coding agents asked to share screenshots of code changes for review have put internal company images in public GitHub repositories, security company Glow said. Its researchers found more than 13,000 internal images from developers at over 300 organizations, including customer billing records and screens of features not yet released. In most cases, they sat under developers' personal accounts",
-      "source": "thehackernews.com"
-    },
-    {
       "title": "Anthropic Flags AI Agent Liability Risks as OpenAI Faces Hacking Lawsuit",
       "link": "https://www.securityweek.com/anthropic-flags-ai-agent-liability-risks-as-openai-faces-hacking-lawsuit/",
       "date": "2026-09-30T11:19:00Z",
       "description": "Attacks by autonomous AI agents are moving out of the lab and into the courtroom, raising unsettled questions about who is liable for what agents do. The post Anthropic Flags AI Agent Liability Risks as OpenAI Faces Hacking Lawsuit appeared first on SecurityWeek.",
       "source": "securityweek.com"
-    },
-    {
-      "title": "FBI’s Operation Blackout Dismantles Scammers Operating Overseas Targeting Americans",
-      "link": "https://cybersecuritynews.com/fbis-operation-blackout-dismantles-scammers/",
-      "date": "2026-09-30T11:15:39Z",
-      "description": "The FBI has dismantled overseas scam compounds accused of stealing Americans’ savings through cryptocurrency investment fraud, romance schemes, impersonation scams, and other cyber-enabled operations. Under Operation Blackout, authorities have seized or restrained roughly $17 billion, arrested hundreds of suspects and freed thousands of trafficked workers forced to conduct fraud from…",
-      "source": "cybersecuritynews.com"
-    },
-    {
-      "title": "Hackers Turn One Compromised Account Into Access to Azure DevOps and Kubernetes",
-      "link": "https://cybersecuritynews.com/hackers-turn-one-compromised-account/",
-      "date": "2026-09-30T11:15:34Z",
-      "description": "A single compromised account can open the door to an entire cloud estate. A recent investigation shows how an attacker used one compromised identity to move from password recovery into Azure DevOps, development pipelines, and Kubernetes resources. The incident did not rely on a software flaw or custom malware. Instead, the intruder abused trusted services […] The post Hackers Turn One…",
-      "source": "cybersecuritynews.com"
-    },
-    {
-      "title": "Bitget hacked via zero-day in third-party security products",
-      "link": "https://www.bleepingcomputer.com/news/security/bitget-hacked-via-zero-day-in-third-party-security-products/",
-      "date": "2026-09-30T11:11:46Z",
-      "description": "Cryptocurrency exchange Bitget revealed today that attackers who stole $387.5 million last week breached its systems after exploiting a zero-day flaw in third-party security products. [...]",
-      "source": "bleepingcomputer.com"
-    },
-    {
-      "title": "Russian APT Star Blizzard Uses ‘RedFlick’ Infection Chain in Recent Attacks",
-      "link": "https://www.securityweek.com/russian-apt-star-blizzard-uses-redflick-infection-chain-in-recent-attacks/",
-      "date": "2026-09-30T10:59:30Z",
-      "description": "The state-sponsored group has launched larger-scale phishing campaigns to deploy the CosmicPulse backdoor. The post Russian APT Star Blizzard Uses ‘RedFlick’ Infection Chain in Recent Attacks appeared first on SecurityWeek.",
-      "source": "securityweek.com"
-    },
-    {
-      "title": "Security Teams Can Now Monitor Claude Chats, Files and AI Agent Activity",
-      "link": "https://cybersecuritynews.com/security-teams-can-monitor-claude-activity/",
-      "date": "2026-09-30T10:46:10Z",
-      "description": "The Claude Compliance API gives security teams visibility into employee and AI-agent activity, integrating Claude data with existing monitoring, DLP, identity, eDiscovery, SIEM, and security workflows. The change addresses a growing enterprise security challenge: generative AI tools are increasingly used for research, software development, document processing, and automated workflows, but they…",
-      "source": "cybersecuritynews.com"
-    },
-    {
-      "title": "US-Focused CSuite Phishing Steals Microsoft 365 Sessions and Deploys RMM Tools for Remote Access",
-      "link": "https://thehackernews.com/2026/09/us-focused-csuite-phishing-steals.html",
-      "date": "2026-09-30T10:45:00Z",
-      "description": "ANY.RUN researchers traced a US-focused CSuite phishing campaign across 351 sandbox analyses, with 51% of submissions coming from the United States. Technology, manufacturing, government, and consulting organizations showed the highest exposure. By combining Microsoft 365 session theft with remote-access tool deployment, CSuite can turn a phishing incident into broader account compromise, fraud",
-      "source": "thehackernews.com"
-    },
-    {
-      "title": "ShinyHunters Defiant After FBI Calls on Members to Come Forward",
-      "link": "https://www.securityweek.com/shinyhunters-defiant-after-fbi-calls-on-members-to-come-forward/",
-      "date": "2026-09-30T10:20:02Z",
-      "description": "In the wake of a suspected leader’s arrest, ShinyHunters says it never intended to publish data stolen from the FBI. The post ShinyHunters Defiant After FBI Calls on Members to Come Forward appeared first on SecurityWeek.",
-      "source": "securityweek.com"
-    },
-    {
-      "title": "RSA Launches Agent ID Platform to Secure AI Agents and MCP Servers",
-      "link": "https://cybersecuritynews.com/rsa-agent-id/",
-      "date": "2026-09-30T09:49:50Z",
-      "description": "RSA has announced RSA Agent ID, a new identity security platform that helps regulated organizations discover, secure, and govern AI agents. The launch targets financial services, government agencies, critical infrastructure operators, and other organizations that need to control what AI agents can access and prove who authorized sensitive actions. The platform addresses a growing problem […] The…",
-      "source": "cybersecuritynews.com"
-    },
-    {
-      "title": "Attackers Exploit NetScaler Flaw for Root Access, Deploy WHIPSHOT and SLAPSHOT",
-      "link": "https://thehackernews.com/2026/09/attackers-exploit-netscaler-flaw-for.html",
-      "date": "2026-09-30T08:24:35Z",
-      "description": "Unknown threat actors have been observed exploiting a newly patched security flaw in Citrix NetScaler ADC and NetScaler Gateway appliances to target organizations in North America and Europe. The activity, observed by Mandiant Consulting and Google Threat Intelligence Group (GTIG) in September 2026, has targeted government, financial services, technology, education, and legal and professional",
-      "source": "thehackernews.com"
-    },
-    {
-      "title": "OpenSSL Fixes High-Severity DTLS Flaw That Can Leak Heap Memory Unencrypted",
-      "link": "https://thehackernews.com/2026/09/openssl-fixes-high-severity-dtls-flaw.html",
-      "date": "2026-09-30T08:09:28Z",
-      "description": "A High-severity OpenSSL flaw can leak heap memory to the other side of a DTLS connection or crash the program, OpenSSL said on September 29 as it released fixes. DTLS, the TLS variant used for UDP traffic, resends a handshake message if no reply arrives before the timer expires. The leak or crash can happen when such a resend starts while a larger handshake message is stuck part-way",
-      "source": "thehackernews.com"
     },
     {
       "title": "South Africa Seeks Help After Cyberattack Targets Air Traffic Control",
@@ -129,25 +122,11 @@
       "source": "darkreading.com"
     },
     {
-      "title": "Microsoft is rolling out Linux container support to WSL",
-      "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-is-rolling-out-linux-container-support-to-wsl/",
-      "date": "2026-09-30T00:40:57Z",
-      "description": "Microsoft is taking Windows Subsystem for Linux beyond just running Linux distributions, as WSL Containers is now generally available. [...]",
-      "source": "bleepingcomputer.com"
-    },
-    {
       "title": "Apple Zero-Day Vulnerability Weaponized in Targeted Attacks",
       "link": "https://www.darkreading.com/cyberattacks-data-breaches/apple-zero-day-vulnerability-weaponized-targeted-attacks",
       "date": "2026-09-29T21:31:29Z",
       "description": "Attackers are exploiting CVE-2026-86950, an out-of-bounds write flaw, in an extremely sophisticated fashion, according to Apple.",
       "source": "darkreading.com"
-    },
-    {
-      "title": "Signal adds encypted local backup support to iOS, desktop apps",
-      "link": "https://www.bleepingcomputer.com/news/security/signal-adds-encypted-local-backup-support-to-ios-desktop-apps/",
-      "date": "2026-09-29T21:30:08Z",
-      "description": "Signal, the secure messaging app, released version 8.30, completing the rollout of its secure backups feature across all supported operating systems (Android, iOS, Linux, macOS, and Windows). [...]",
-      "source": "bleepingcomputer.com"
     },
     {
       "title": "Unsloth Studio Flaw Turns Routine Model Inspection Into Code Execution",
@@ -157,24 +136,10 @@
       "source": "darkreading.com"
     },
     {
-      "title": "Custom ChatGPTs push ClickFix attacks to deploy RAT malware",
-      "link": "https://www.bleepingcomputer.com/news/security/custom-chatgpts-push-clickfix-attacks-to-deploy-rat-malware/",
-      "date": "2026-09-29T20:59:39Z",
-      "description": "Custom variants of OpenAI's ChatGPT promoted in sponsored Google results are directing unsuspecting users to malicious sites that use ClickFix attacks to deliver malware. [...]",
-      "source": "bleepingcomputer.com"
-    },
-    {
       "title": "Cloudflare Announces Public Certificate Authority for the Post-Quantum Web",
       "link": "https://www.darkreading.com/cloud-security/cloudflare-announces-public-certificate-authority-post-quantum-web",
       "date": "2026-09-29T17:02:16Z",
       "description": "Automated certificates for everyone, built for today, and hardened for the era of quantum computing.",
-      "source": "darkreading.com"
-    },
-    {
-      "title": "'NeedyMantis' Provides Long-Term Access to Compromised Networks",
-      "link": "https://www.darkreading.com/threat-intelligence/needymantis-long-term-access-compromised-networks",
-      "date": "2026-09-29T15:12:39Z",
-      "description": "Microsoft observed a China-based actor using a previously unidentified malware framework in targeted intrusions against telcos, universities, medical, and government-related organizations.",
       "source": "darkreading.com"
     },
     {

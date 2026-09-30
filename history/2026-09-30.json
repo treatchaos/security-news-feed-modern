@@ -1,7 +1,127 @@
 {
   "date": "2026-09-30",
-  "count": 23,
+  "count": 35,
   "items": [
+    {
+      "id": "77709735026ff83f70e68da64eb869f2f0e1c9ab",
+      "title": "Over 543,000 valid credentials exposed in public GitHub repositories",
+      "link": "https://www.bleepingcomputer.com/news/security/over-543-000-valid-credentials-exposed-in-public-github-repositories/",
+      "date": "2026-09-30T18:08:34Z",
+      "description": "More than 543,000 credentials exposed in public GitHub repositories were still valid in July despite the platform's security measures to prevent accidental leaks of sensitive data. [...]",
+      "source": "bleepingcomputer.com",
+      "first_seen": "2026-09-30T18:41:16Z",
+      "last_seen": "2026-09-30T18:41:16Z"
+    },
+    {
+      "id": "6fe9c5771856e04ee1ecdd84aaad156850bff389",
+      "title": "Attackers Exploit Zimbra Flaw to Deploy Web Shells and Harvest Authentication Secrets",
+      "link": "https://thehackernews.com/2026/09/attackers-exploit-zimbra-flaw-to-deploy.html",
+      "date": "2026-09-30T16:46:29Z",
+      "description": "Threat actors have weaponized a now-patched security flaw in Zimbra Collaboration Suite (ZCS) to deploy web shells and access mailbox data, according to findings from the Microsoft Security Research team. The attack exploits CVE-2026-73570 (CVSS score: 8.9), an unauthenticated operating system command injection flaw that can lead to remote code execution when Simple Network Management Protocol",
+      "source": "thehackernews.com",
+      "first_seen": "2026-09-30T18:41:16Z",
+      "last_seen": "2026-09-30T18:41:16Z"
+    },
+    {
+      "id": "50693b7c7e92f5b2adb10c035f64a07f2375d32e",
+      "title": "Attackers Abuse MSP360 to Deploy ScreenConnect in Dual-RMM Phishing Attacks",
+      "link": "https://thehackernews.com/2026/09/attackers-abuse-msp360-to-deploy.html",
+      "date": "2026-09-30T16:32:59Z",
+      "description": "Microsoft has warned of phishing campaigns distributing an installer for the MSP360 Remote Monitoring and Management (RMM) software under the guise of meeting invitations, PDF-themed lures, software update prompts, and other social-engineering content. \"Once executed, the legitimate MSP360 installer, distributed under a deceptive file name established remote management access on affected",
+      "source": "thehackernews.com",
+      "first_seen": "2026-09-30T18:41:16Z",
+      "last_seen": "2026-09-30T18:41:16Z"
+    },
+    {
+      "id": "4e9e2ada1e0dcea31609031cbed491ba505310ef",
+      "title": "CISA warns of critical pre-auth RCE flaw in MikroTik RouterOS",
+      "link": "https://www.bleepingcomputer.com/news/security/cisa-warns-of-critical-pre-auth-rce-flaw-in-mikrotik-routeros/",
+      "date": "2026-09-30T15:49:29Z",
+      "description": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) is warning of a new critical vulnerability in MikroTik RouterOS that could lead to remote code execution or cause a denial-of-service condition. [...]",
+      "source": "bleepingcomputer.com",
+      "first_seen": "2026-09-30T18:41:16Z",
+      "last_seen": "2026-09-30T18:41:16Z"
+    },
+    {
+      "id": "6383541675686b68c20574267bedb28284eacc40",
+      "title": "Cisco Warns of Attackers Exploiting Critical Authentication Bypass in SD-WAN Manager",
+      "link": "https://thehackernews.com/2026/09/cisco-warns-of-attackers-exploiting.html",
+      "date": "2026-09-30T15:24:54Z",
+      "description": "Attackers are exploiting a new critical zero-day flaw in Cisco Catalyst SD-WAN Manager, the system companies use to manage their Cisco SD-WAN networks, Cisco said in an advisory on September 30. The flaw, CVE-2026-76504, could allow a remote attacker with no login access to use the Manager's API as the admin user. Fixed releases are available, and there is no workaround. It carries a",
+      "source": "thehackernews.com",
+      "first_seen": "2026-09-30T18:41:16Z",
+      "last_seen": "2026-09-30T18:41:16Z"
+    },
+    {
+      "id": "5315e0a5ac65ee57bc64dc55837bb81d04ddc303",
+      "title": "Russia's Star Blizzard Ditches ClickFix to Widen Phishing Net",
+      "link": "https://www.darkreading.com/threat-intelligence/russia-star-blizzard-apt-ditches-clickfix-widen-phishing-net",
+      "date": "2026-09-30T15:02:25Z",
+      "description": "The APT actor is using a new tactic, dubbed \"RedFlick,\" against Ukrainian-linked targets such as NGOs, think tanks, and journalists to deploy its CosmicPulse backdoor.",
+      "source": "darkreading.com",
+      "first_seen": "2026-09-30T18:41:16Z",
+      "last_seen": "2026-09-30T18:41:16Z"
+    },
+    {
+      "id": "1ea2d2aca9d568b53c05f1789f3d1e1b033e93a9",
+      "title": "Attackers Abuse ChatGPT Custom GPTs to Deliver RAT via ClickFix Lures",
+      "link": "https://thehackernews.com/2026/09/attackers-abuse-chatgpt-custom-gpts-to.html",
+      "date": "2026-09-30T15:00:15Z",
+      "description": "Threat actors are abusing ChatGPT Custom GPTs to disguise them as legitimate product offerings and direct unsuspecting victims to malicious sites that employ ClickFix lures to deliver malware. Huntress, which observed the activity in late September 2026, said it marks the abuse of yet another feature in trusted artificial intelligence (AI) platforms. Prior campaigns have weaponized shared",
+      "source": "thehackernews.com",
+      "first_seen": "2026-09-30T18:41:16Z",
+      "last_seen": "2026-09-30T18:41:16Z"
+    },
+    {
+      "id": "b8635e03da6bcbcd20523ad71b540b0b79c539af",
+      "title": "Cisco warns of new SD-WAN zero-day exploited in attacks",
+      "link": "https://www.bleepingcomputer.com/news/security/cisco-warns-of-new-sd-wan-authentication-bypass-zero-day-exploited-in-attacks/",
+      "date": "2026-09-30T14:46:40Z",
+      "description": "Cisco released security updates to address a critical zero-day in the Catalyst SD-WAN Manager (tracked as CVE-2026-76504) that attackers are actively exploiting to escalate to admin privileges. [...]",
+      "source": "bleepingcomputer.com",
+      "first_seen": "2026-09-30T18:41:16Z",
+      "last_seen": "2026-09-30T18:41:16Z"
+    },
+    {
+      "id": "dd608f89286ced5b936df8d23ec902a0b2a4eadd",
+      "title": "Google: AI Is Changing the Pace and Profile of Vulnerability Discovery",
+      "link": "https://www.securityweek.com/google-ai-is-changing-the-pace-and-profile-of-vulnerability-discovery/",
+      "date": "2026-09-30T14:05:58Z",
+      "description": "Google’s analysis found that AI-discovered vulnerabilities are more likely to enable remote code execution. The post Google: AI Is Changing the Pace and Profile of Vulnerability Discovery appeared first on SecurityWeek.",
+      "source": "securityweek.com",
+      "first_seen": "2026-09-30T18:41:16Z",
+      "last_seen": "2026-09-30T18:41:16Z"
+    },
+    {
+      "id": "18b384ad10d9afa7f2247182cd41ba920d372253",
+      "title": "AI's Third Wave: Coworkers Break the Security Model That Worked for Agents",
+      "link": "https://www.bleepingcomputer.com/news/security/ais-third-wave-coworkers-break-the-security-model-that-worked-for-agents/",
+      "date": "2026-09-30T14:01:11Z",
+      "description": "Persistent AI coworkers may operate continuously with standing access, creating identity risks that existing security models were not designed to handle. Token Security explains why these agents need their own identities, owners, scoped permissions, and lifecycle controls. [...]",
+      "source": "bleepingcomputer.com",
+      "first_seen": "2026-09-30T18:41:16Z",
+      "last_seen": "2026-09-30T18:41:16Z"
+    },
+    {
+      "id": "3b6c6afa186b1c410ec00ddb2c61cb3c9348b945",
+      "title": "Microsoft to block Entra ID script injection attacks starting October",
+      "link": "https://www.bleepingcomputer.com/news/security/microsoft-to-block-entra-id-script-injection-attacks-starting-october/",
+      "date": "2026-09-30T13:37:15Z",
+      "description": "Microsoft has reminded customers that the Entra ID authentication system will get better protection against external script injection attacks starting next month. [...]",
+      "source": "bleepingcomputer.com",
+      "first_seen": "2026-09-30T18:41:16Z",
+      "last_seen": "2026-09-30T18:41:16Z"
+    },
+    {
+      "id": "94f37acfe06d25e5017454a206b600334c382b49",
+      "title": "WatchGuard Patches Critical Fireware OS Code Injection Vulnerability",
+      "link": "https://www.securityweek.com/watchguard-patches-critical-fireware-os-code-injection-vulnerability/",
+      "date": "2026-09-30T13:16:56Z",
+      "description": "WatchGuard has rolled out patches for 15 code execution, DoS, authorization, and path traversal bugs in Fireware OS. The post WatchGuard Patches Critical Fireware OS Code Injection Vulnerability appeared first on SecurityWeek.",
+      "source": "securityweek.com",
+      "first_seen": "2026-09-30T18:41:16Z",
+      "last_seen": "2026-09-30T18:41:16Z"
+    },
     {
       "id": "e4e6a3bf55aee836beecb29395f3002306755a2a",
       "title": "Government, Finance Orgs Targeted in Weeks-Long NetScaler Zero-Day Attacks",
@@ -10,7 +130,7 @@
       "description": "Several security firms have confirmed seeing exploitation of the NetScaler vulnerabilities CVE-2026-88771 and CVE-2026-88772. The post Government, Finance Orgs Targeted in Weeks-Long NetScaler Zero-Day Attacks appeared first on SecurityWeek.",
       "source": "securityweek.com",
       "first_seen": "2026-09-30T13:08:45Z",
-      "last_seen": "2026-09-30T13:08:45Z"
+      "last_seen": "2026-09-30T18:41:16Z"
     },
     {
       "id": "2312520a6b0a59aa5c77d6ed120434cb6647fbc2",
@@ -40,7 +160,7 @@
       "description": "Some of the flaws could allow remote attackers to execute arbitrary code or escape the browser sandbox. The post Chrome, Firefox Updates Patch Over 100 Vulnerabilities appeared first on SecurityWeek.",
       "source": "securityweek.com",
       "first_seen": "2026-09-30T13:08:45Z",
-      "last_seen": "2026-09-30T13:08:45Z"
+      "last_seen": "2026-09-30T18:41:16Z"
     },
     {
       "id": "dacdadcb699100a9c20323e16ccaf19ca3ce5f55",
@@ -50,7 +170,7 @@
       "description": "Given that the browser is where business apps are accessed and used, it makes sense that attacks are happening there too. Most breaches today begin in a browser session. Often, they never leave it, with the entire attack chain from initial access to exfiltration playing out in the browser. Here are the six most dangerous techniques that should be on every security team's radar in 2026. 1.",
       "source": "thehackernews.com",
       "first_seen": "2026-09-30T13:08:45Z",
-      "last_seen": "2026-09-30T13:08:45Z"
+      "last_seen": "2026-09-30T18:41:16Z"
     },
     {
       "id": "40dbf8a1fdd64a04cbe5f5311188c6e0b77557b2",
@@ -70,7 +190,7 @@
       "description": "Attacks by autonomous AI agents are moving out of the lab and into the courtroom, raising unsettled questions about who is liable for what agents do. The post Anthropic Flags AI Agent Liability Risks as OpenAI Faces Hacking Lawsuit appeared first on SecurityWeek.",
       "source": "securityweek.com",
       "first_seen": "2026-09-30T13:08:45Z",
-      "last_seen": "2026-09-30T13:08:45Z"
+      "last_seen": "2026-09-30T18:41:16Z"
     },
     {
       "id": "49b93df27136eaa29d8a8daf7d7aecfac6d9f595",
@@ -180,7 +300,7 @@
       "description": "As aviation infrastructure suffers more cyberattacks, air traffic systems are the latest target, with a ransomware toolkit installed on at least one operational network.",
       "source": "darkreading.com",
       "first_seen": "2026-09-30T13:08:45Z",
-      "last_seen": "2026-09-30T13:08:45Z"
+      "last_seen": "2026-09-30T18:41:16Z"
     },
     {
       "id": "46ef2d5084ee4dd7f171e4e334cb145e3bf694df",
@@ -210,7 +330,7 @@
       "description": "Attackers are exploiting CVE-2026-86950, an out-of-bounds write flaw, in an extremely sophisticated fashion, according to Apple.",
       "source": "darkreading.com",
       "first_seen": "2026-09-30T00:51:40Z",
-      "last_seen": "2026-09-30T13:08:45Z"
+      "last_seen": "2026-09-30T18:41:16Z"
     },
     {
       "id": "c79a53706f9572f4be41a358d69fd4250104aa9e",
@@ -230,7 +350,7 @@
       "description": "A patched Unsloth Studio vulnerability allows malicious AI models to execute arbitrary Python code during inspection, via the trust_remote_code setting.",
       "source": "darkreading.com",
       "first_seen": "2026-09-30T00:51:40Z",
-      "last_seen": "2026-09-30T13:08:45Z"
+      "last_seen": "2026-09-30T18:41:16Z"
     }
   ]
 }
