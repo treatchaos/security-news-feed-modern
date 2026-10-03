@@ -1,7 +1,35 @@
 {
-  "last_updated": "2026-10-03T01:32:35Z",
+  "last_updated": "2026-10-03T07:15:03Z",
   "count": 35,
   "items": [
+    {
+      "title": "Critical GitLab AI Gateway Vulnerability Enables Remote Code Execution Attacks",
+      "link": "https://cybersecuritynews.com/gitlab-ai-gateway-vulnerability/",
+      "date": "2026-10-03T04:11:34Z",
+      "description": "GitLab has released urgent security updates for a critical AI Gateway vulnerability that could allow authenticated attackers to execute commands remotely. Tracked as CVE-2026-90970, the flaw carries a CVSS score of 9.9 and affects self-hosted deployments used to support GitLab Duo AI features. The company released AI Gateway versions 19.2.4, 19.3.2, and 19.4.1 to address […] The post Critical…",
+      "source": "cybersecuritynews.com"
+    },
+    {
+      "title": "Critical Dell Container Storage Flaws Let Unauthenticated Attackers Gain Full Administrative Control",
+      "link": "https://cybersecuritynews.com/critical-dell-container-storage-flaws/",
+      "date": "2026-10-03T03:52:58Z",
+      "description": "Dell has released security update DSA-2026-448 to address multiple critical vulnerabilities in its Container Storage Modules, including flaws that could allow unauthenticated remote attackers to take full administrative control of affected storage environments. Organizations using vulnerable Dell CSM deployments should upgrade immediately, as Dell stated that no workarounds or mitigations are…",
+      "source": "cybersecuritynews.com"
+    },
+    {
+      "title": "Citrix NetScaler Keeps Rebooting Following the 0-Day Patch",
+      "link": "https://cybersecuritynews.com/citrix-netscaler-0-day-patch/",
+      "date": "2026-10-03T02:41:43Z",
+      "description": "Citrix NetScaler customers are reporting repeated appliance reboots after installing build 14.1-73.37, the emergency update released for two zero-day flaws under active attack. The failures appear linked to crafted SAML authentication traffic that crashes the nsaaad service. Citrix says its engineering and support teams are tracking a newly seen SAML issue and plan to release […] The post Citrix…",
+      "source": "cybersecuritynews.com"
+    },
+    {
+      "title": "Debian has Patched 1,313 Flaws in Massive Update Leading to DoS and Privilege Escalation Attacks",
+      "link": "https://cybersecuritynews.com/debian-1313-security-flaws/",
+      "date": "2026-10-03T02:23:53Z",
+      "description": "Debian has released a major Linux kernel security update covering 1,313 CVE entries, addressing flaws that could allow privilege escalation, denial of service, and information leaks. The fixes are available for Debian’s stable release, Trixie, in Linux source package version 6.12.111-1. Security team member Salvatore Bonaccorso published advisory DSA-6528-1 on September 29, 2026. Debian…",
+      "source": "cybersecuritynews.com"
+    },
     {
       "title": "RemoteThreat Bets Security Teams Need to Test What Happens After Defenses Fail",
       "link": "https://www.darkreading.com/cybersecurity-operations/remotethreat-bets-security-teams-need-to-test-what-happens-after-defenses-fail",
@@ -108,39 +136,11 @@
       "source": "bleepingcomputer.com"
     },
     {
-      "title": "Hackers Poison Trusted Software Updates to Steal Developer and Cloud Credentials",
-      "link": "https://cybersecuritynews.com/hackers-poison-trusted-software-updates/",
-      "date": "2026-10-02T13:43:28Z",
-      "description": "Hackers are turning trusted software updates into a route for stealing developer and cloud credentials. Recent supply chain incidents show how a single altered package, build action, or publishing token can place malware inside routine development workflows. The risk is not limited to one product or programming community. After obtaining a maintainer token or access […] The post Hackers Poison…",
-      "source": "cybersecuritynews.com"
-    },
-    {
       "title": "macOS Users Targeted by Fake Zoom Installer Carrying CloudSyncD Backdoor",
       "link": "https://www.securityweek.com/macos-users-targeted-by-fake-zoom-installer-carrying-cloudsyncd-backdoor/",
       "date": "2026-10-02T13:15:00Z",
       "description": "The dropper “carries a complete universal Mach-O inside itself, roughly 756 KB in the development build, and extracts it at runtime. The post macOS Users Targeted by Fake Zoom Installer Carrying CloudSyncD Backdoor appeared first on SecurityWeek.",
       "source": "securityweek.com"
-    },
-    {
-      "title": "Critical Red Hat Satellite Flaw Could Enable Root Password Theft and Code Execution Attacks",
-      "link": "https://cybersecuritynews.com/red-hat-satellite-vulnerability/",
-      "date": "2026-10-02T13:14:51Z",
-      "description": "Red Hat has fixed a high-impact vulnerability in Red Hat Satellite that could allow a low-privileged authenticated user to access sensitive host information, including root passwords. Under unsafe configurations, the flaw could also escalate to arbitrary command execution as the Foreman service account. Tracked as CVE-2026-96659, the issue affects the Foreman component used by Red […] The post…",
-      "source": "cybersecuritynews.com"
-    },
-    {
-      "title": "Multiple Cpanel/WHM Vulnerabilities Allow Arbitrary Command Execution On Server",
-      "link": "https://cybersecuritynews.com/multiple-cpanel-whm-vulnerabilities/",
-      "date": "2026-10-02T13:10:34Z",
-      "description": "Multiple security flaws in cPanel & WHM could let attackers run malicious scripts in an administrator’s browser session or execute arbitrary commands as root. The vulnerabilities were disclosed on September 29, 2026, and affect all supported cPanel & WHM versions before the vendor’s patched releases. Administrators should update immediately, as a successful attack against the […] The post…",
-      "source": "cybersecuritynews.com"
-    },
-    {
-      "title": "OpenClaw Launches Free Open-source Enterprise Agent Platform for AI Agents",
-      "link": "https://cybersecuritynews.com/openclaw-free-enterprise-platform/",
-      "date": "2026-10-02T13:00:07Z",
-      "description": "OpenClaw has launched OpenClaw Enterprise (OCE), a free, open-source platform that helps organizations run persistent AI agents with stronger security and central oversight. Announced on September 29, 2026, the project targets businesses that want agents to handle ongoing work without giving them unchecked access to sensitive systems. The platform remains under development ahead of its […] The…",
-      "source": "cybersecuritynews.com"
     },
     {
       "title": "OpenAI Parts Ways With Three Safety Researchers Over Sensitive Information Mishandling",
@@ -181,35 +181,35 @@
       "title": "ZDI-CAN-33268: Adobe",
       "link": "http://www.zerodayinitiative.com/advisories/upcoming/",
       "date": "2026-10-02T05:00:00Z",
-      "description": "A CVSS score 7.8 AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H severity vulnerability discovered by 'NURIHAN KIM (HanTul)' was reported to the affected vendor on: 2026-10-02, 0 days ago. The vendor is given until 2027-01-30 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
+      "description": "A CVSS score 7.8 AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H severity vulnerability discovered by 'NURIHAN KIM (HanTul)' was reported to the affected vendor on: 2026-10-02, 1 days ago. The vendor is given until 2027-01-30 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
       "source": "zerodayinitiative.com"
     },
     {
       "title": "ZDI-CAN-33218: LiteLLM",
       "link": "http://www.zerodayinitiative.com/advisories/upcoming/",
       "date": "2026-10-02T05:00:00Z",
-      "description": "A CVSS score 4.3 AV:N/AC:L/PR:L/UI:N/S:U/C:L/I:N/A:N severity vulnerability discovered by 'Anonymous' was reported to the affected vendor on: 2026-10-02, 0 days ago. The vendor is given until 2027-01-30 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
+      "description": "A CVSS score 4.3 AV:N/AC:L/PR:L/UI:N/S:U/C:L/I:N/A:N severity vulnerability discovered by 'Anonymous' was reported to the affected vendor on: 2026-10-02, 1 days ago. The vendor is given until 2027-01-30 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
       "source": "zerodayinitiative.com"
     },
     {
       "title": "ZDI-CAN-34578: LiteLLM",
       "link": "http://www.zerodayinitiative.com/advisories/upcoming/",
       "date": "2026-10-02T05:00:00Z",
-      "description": "A CVSS score 8.8 AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H severity vulnerability discovered by 's3zer0' was reported to the affected vendor on: 2026-10-02, 0 days ago. The vendor is given until 2027-01-30 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
+      "description": "A CVSS score 8.8 AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H severity vulnerability discovered by 's3zer0' was reported to the affected vendor on: 2026-10-02, 1 days ago. The vendor is given until 2027-01-30 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
       "source": "zerodayinitiative.com"
     },
     {
       "title": "ZDI-CAN-32552: Hugging Face",
       "link": "http://www.zerodayinitiative.com/advisories/upcoming/",
       "date": "2026-10-02T05:00:00Z",
-      "description": "A CVSS score 7.8 AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H severity vulnerability discovered by 'Ziyu Lin (Nanyang Technological University)' was reported to the affected vendor on: 2026-10-02, 0 days ago. The vendor is given until 2027-01-30 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
+      "description": "A CVSS score 7.8 AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H severity vulnerability discovered by 'Ziyu Lin (Nanyang Technological University)' was reported to the affected vendor on: 2026-10-02, 1 days ago. The vendor is given until 2027-01-30 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
       "source": "zerodayinitiative.com"
     },
     {
       "title": "ZDI-CAN-34302: LiteLLM",
       "link": "http://www.zerodayinitiative.com/advisories/upcoming/",
       "date": "2026-10-02T05:00:00Z",
-      "description": "A CVSS score 8.8 AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H severity vulnerability discovered by 'Anonymous' was reported to the affected vendor on: 2026-10-02, 0 days ago. The vendor is given until 2027-01-30 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
+      "description": "A CVSS score 8.8 AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H severity vulnerability discovered by 'Anonymous' was reported to the affected vendor on: 2026-10-02, 1 days ago. The vendor is given until 2027-01-30 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
       "source": "zerodayinitiative.com"
     },
     {
