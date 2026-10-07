@@ -1,7 +1,98 @@
 {
-  "last_updated": "2026-10-07T14:52:48Z",
-  "count": 30,
+  "last_updated": "2026-10-07T20:17:57Z",
+  "count": 35,
   "items": [
+    {
+      "title": "OpenAI Agent Escape Causes Wikimedia Service Outage",
+      "link": "https://www.darkreading.com/cyberattacks-data-breaches/openai-agent-escape-causes-wikimedia-service-outage",
+      "date": "2026-10-07T19:34:08Z",
+      "description": "Autonomous agents also tried to abuse other websites and services hosted by the foundation, using them as proxies for unauthorized activities.",
+      "source": "darkreading.com"
+    },
+    {
+      "title": "Attackers Hijack .gh, .sl, and .as Registries to Obtain Certificates for Google Domains",
+      "link": "https://thehackernews.com/2026/10/attackers-hijack-gh-sl-and-as.html",
+      "date": "2026-10-07T18:48:17Z",
+      "description": "Attackers compromised three country-code top-level domains (ccTLDs) and obtained unauthorized HTTPS certificates for several Google domains, Google said on October 6. Google's own systems were not breached, but any domain ending in .gh (Ghana), .sl (Sierra Leone) or .as (American Samoa) was put at risk. With such a certificate, an attacker could pose as the real site over an encrypted",
+      "source": "thehackernews.com"
+    },
+    {
+      "title": "Eight Malicious npm Packages Downloaded 40,767 Times Deliver Overlord RAT and Stealer",
+      "link": "https://thehackernews.com/2026/10/eight-malicious-npm-packages-downloaded.html",
+      "date": "2026-10-07T17:43:20Z",
+      "description": "Cybersecurity researchers have disclosed details of a long-running npm supply chain malware campaign that pushes information stealers and remote access trojans (RAT) to compromised hosts. The campaign has been codenamed MALFEX by CloudSEK and Checkmarx. The activity is assessed to be the work of a lone threat actor who appears to have published 12 packages since August 2023, eight of which have",
+      "source": "thehackernews.com"
+    },
+    {
+      "title": "Discord Users’ Data Exposed in Security Bot Double Counter Security Breach",
+      "link": "https://cybersecuritynews.com/discord-users-data-exposed/",
+      "date": "2026-10-07T17:40:39Z",
+      "description": "Double Counter, a Discord security bot, has disclosed a breach that exposed user data after an attacker broke into its cloud systems on October 4, 2026. Attackers copied about 12 GB of database records, and the stolen bot token was used to post unwanted invitations across roughly 50 large Discord servers. According to Double Counter’s […] The post Discord Users’ Data Exposed in Security Bot…",
+      "source": "cybersecuritynews.com"
+    },
+    {
+      "title": "Alert Overload, Tool Sprawl and Evasive Phishing: The 5 Bottlenecks Slowing Down US SOCs",
+      "link": "https://cybersecuritynews.com/alert-overload-tool-sprawl-and-evasive-phishing-the-5-bottlenecks-slowing-down-us-socs/",
+      "date": "2026-10-07T17:19:28Z",
+      "description": "US security operations centers are not short on security products. They are short on time, people and context. Current industry research suggests the biggest obstacles to fast detection and containment are operational: too many alerts, too much manual triage, investigations split across disconnected tools, and phishing campaigns built to slip past standard checks. A new […] The post Alert…",
+      "source": "cybersecuritynews.com"
+    },
+    {
+      "title": "SonicWall Patches CVSS 10.0 Pre-Authentication SSRF Flaw in SMA1000 Appliances",
+      "link": "https://thehackernews.com/2026/10/sonicwall-patches-cvss-100-pre.html",
+      "date": "2026-10-07T16:17:44Z",
+      "description": "SonicWall has released hotfixes for four flaws in its SMA1000 appliances, the gateways that give remote workers access to a company's network and applications. The most serious could allow an attacker without a login to send requests through the appliance and reach internal functions. SonicWall rates it 10.0 on the CVSS scale and says it has no evidence that any of the four flaws is being",
+      "source": "thehackernews.com"
+    },
+    {
+      "title": "Microsoft Outlook to block MSIX attachments starting November",
+      "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-outlook-to-block-msix-attachments-used-in-attacks/",
+      "date": "2026-10-07T15:44:22Z",
+      "description": "Microsoft announced that it will add .msix and .msixbundle attachments to the list of blocked attachments in Outlook Web and the new Outlook Windows client starting next month. [...]",
+      "source": "bleepingcomputer.com"
+    },
+    {
+      "title": "Hackers Hijack .gh, .sl and .as Registry to Obtain Unauthorized HTTPS Certificates",
+      "link": "https://cybersecuritynews.com/hackers-hijack-domain-registry/",
+      "date": "2026-10-07T15:39:41Z",
+      "description": "Hackers compromised the .gh, .sl and .as country-code domain registries and used their access to obtain unauthorized HTTPS certificates for Google and other organizations. Chrome blocked the identified certificates automatically, while Google worked with certificate authorities to revoke those covering its properties. In its October 6 disclosure, Google said it learned of the attacks the […] The…",
+      "source": "cybersecuritynews.com"
+    },
+    {
+      "title": "Unpatched Critical LMCache Flaw Lets Unauthenticated Attackers Run Code Remotely",
+      "link": "https://thehackernews.com/2026/10/unpatched-critical-lmcache-flaw-lets.html",
+      "date": "2026-10-07T15:34:53Z",
+      "description": "A critical vulnerability in LMCache, open-source software that speeds up large language model (LLM) servers such as vLLM, lets an attacker run code on the cache server without logging in, and no fixed version is available. The flaw is in LMCache's multiprocess mode, where the cache runs as a standalone server that LLM workers reach over the ZeroMQ messaging library. A single network",
+      "source": "thehackernews.com"
+    },
+    {
+      "title": "PoeLLM Malware Infects 3,400+ Servers to Expand Crypto Mining Botnet",
+      "link": "https://thehackernews.com/2026/10/poellm-malware-infects-3400-servers-to.html",
+      "date": "2026-10-07T15:33:51Z",
+      "description": "Cybersecurity researchers are calling attention to a new malware family that has been observed targeting exposed artificial intelligence (AI) and large language model (LLM) infrastructure with an aim to deploy cryptocurrency miners and further expand the scale of the botnet. The financially motivated campaign, dubbed Canto Incognito, has been found to install cryptocurrency miners, including",
+      "source": "thehackernews.com"
+    },
+    {
+      "title": "CrowdStrike, AWS, and NVIDIA Expand Global Cybersecurity Startup Accelerator",
+      "link": "https://cybersecuritynews.com/crowdstrike-cybersecurity-accelerator/",
+      "date": "2026-10-07T15:10:14Z",
+      "description": "CrowdStrike announced its fourth annual Cybersecurity Startup Accelerator on October 6, 2026, expanding its collaboration with Amazon Web Services and NVIDIA. The global initiative will help early-stage companies develop agentic cybersecurity products through technical mentorship, business development, and broader access to enterprise security ecosystems. Applications are open worldwide until…",
+      "source": "cybersecuritynews.com"
+    },
+    {
+      "title": "PoeLLM malware infects exposed AI servers in cryptomining attacks",
+      "link": "https://www.bleepingcomputer.com/news/security/poellm-malware-infects-exposed-ai-servers-in-cryptomining-attacks/",
+      "date": "2026-10-07T15:04:08Z",
+      "description": "A cryptomining campaign targeting exposed AI services is using PoeLLM malware to turn compromised servers into scanners and exploit launchpads. [...]",
+      "source": "bleepingcomputer.com"
+    },
+    {
+      "title": "CyberXero Combines Claude Code, PentAGI and Cobalt Strike in AI-Augmented Cyberattacks",
+      "link": "https://cybersecuritynews.com/cyberxero-combines-claude-code/",
+      "date": "2026-10-07T14:45:00Z",
+      "description": "CyberXero has emerged as an initial access broker that combines familiar hacking tools with artificial intelligence to run large-scale intrusions. The Russian-speaking operator targeted WordPress and e-commerce sites worldwide while separately probing Ukrainian energy and utility organizations. The campaign came to light after an open directory exposed more than 90,000 files, including scripts,…",
+      "source": "cybersecuritynews.com"
+    },
     {
       "title": "Georgia Power, Alabama Power Data Breach Hits 400,000 Accounts",
       "link": "https://www.securityweek.com/georgia-power-alabama-power-data-breach-hits-400000-accounts/",
@@ -45,34 +136,6 @@
       "source": "securityweek.com"
     },
     {
-      "title": "The Sixth Voice of the CISO Data Shows Cyber Risk Has Moved Inside the Workflow",
-      "link": "https://thehackernews.com/2026/10/the-sixth-voice-of-ciso-data-shows.html",
-      "date": "2026-10-07T11:57:05Z",
-      "description": "The 2026 findings are not just a year-over-year shift. They mark the latest point in a five-year arc where resilience, AI governance, human risk, and board scrutiny are converging inside the systems where work actually happens. For years, the enterprise cybersecurity story has been told as a straight line of escalation: more attacks, more data loss, more pressure, and more urgency. That",
-      "source": "thehackernews.com"
-    },
-    {
-      "title": "FBI Warns FortiBleed Remains Active After Amassing 86,644 Fortinet Device Credentials",
-      "link": "https://thehackernews.com/2026/10/fbi-warns-fortibleed-remains-active.html",
-      "date": "2026-10-07T11:56:56Z",
-      "description": "The U.S. Federal Bureau of Investigation (FBI) and Secret Service (USSS) on Tuesday warned that the FortiBleed credential harvesting campaign remains an active threat aimed at internet-facing Fortinet FortiGate firewalls and secure socket layer (SSL) virtual private network (VPN) gateways. \"The campaign exploits reused or leaked credentials and legacy SHA-256 password storage, enabling threat",
-      "source": "thehackernews.com"
-    },
-    {
-      "title": "Atlassian Data Center Flaw Draws Exploitation Attempts Within Two Hours of Public Details",
-      "link": "https://thehackernews.com/2026/10/atlassian-data-center-flaw-draws.html",
-      "date": "2026-10-07T11:49:26Z",
-      "description": "Threat actors have begun to exploit a newly disclosed critical security flaw impacting Atlassian Data Center products that could allow access to sensitive files under certain conditions. The arbitrary file access flaw, tracked as CVE-2026-21589 (CVSS score: 9.3) affects multiple products, including Bitbucket Data Center, Confluence Data Center, Jira Service Management Data Center, Jira Software",
-      "source": "thehackernews.com"
-    },
-    {
-      "title": "What Is Agentic Pentesting? What It Proves, and Where It Stops.",
-      "link": "https://thehackernews.com/2026/10/what-is-agentic-pentesting-what-it.html",
-      "date": "2026-10-07T11:42:24Z",
-      "description": "If you’re evaluating an agentic pentesting solution right now, you’ve probably heard the same pitch more than once: point it at a target, and it discovers, validates, and exploits attack paths autonomously, the way a real attacker would. That promise is worth taking seriously. It’s also worth pressure testing, and three questions do the heavy lifting. What can the assessment actually",
-      "source": "thehackernews.com"
-    },
-    {
       "title": "SonicWall warns of max severity SSRF flaw in SMA1000 gateways",
       "link": "https://www.bleepingcomputer.com/news/security/sonicwall-warns-of-max-severity-ssrf-flaw-in-sma1000-gateways/",
       "date": "2026-10-07T11:37:07Z",
@@ -87,25 +150,11 @@
       "source": "securityweek.com"
     },
     {
-      "title": "Musician sent to prison for $10 million streaming fraud using AI bots",
-      "link": "https://www.bleepingcomputer.com/news/security/musician-gets-18-months-in-prison-for-10-million-streaming-fraud-using-ai-bots/",
-      "date": "2026-10-07T10:35:15Z",
-      "description": "A North Carolina musician was sentenced to 18 months in prison for collecting more than $10 million in royalties from Spotify, Apple Music, Amazon Music, and YouTube Music in a massive streaming royalty fraud scheme. [...]",
-      "source": "bleepingcomputer.com"
-    },
-    {
-      "title": "Advantest confirms personal information stolen in ransomware attack",
-      "link": "https://www.bleepingcomputer.com/news/security/advantest-confirms-personal-information-stolen-in-ransomware-attack/",
-      "date": "2026-10-07T10:27:52Z",
-      "description": "Advantest Corporation is notifying affected individuals that a ransomware attack earlier this year exposed their personally identifiable data. [...]",
-      "source": "bleepingcomputer.com"
-    },
-    {
-      "title": "Anthropic Expands Claude Access for Vetted Cyber Teams as Glasswing Finds 129,000 Flaws",
-      "link": "https://thehackernews.com/2026/10/anthropic-expands-claude-access-for.html",
-      "date": "2026-10-07T08:07:38Z",
-      "description": "Anthropic on Tuesday said it's expanding a program that allows vetted cybersecurity professionals to test its advanced artificial intelligence (AI) models with reduced safeguards and blocking classifiers, as the company claimed its Project Glasswing initiative uncovered at least 129,000 verified software vulnerabilities between April and July 2026. The company said it also found an additional",
-      "source": "thehackernews.com"
+      "title": "ZDI-CAN-32347: MindsDB",
+      "link": "http://www.zerodayinitiative.com/advisories/upcoming/",
+      "date": "2026-10-07T05:00:00Z",
+      "description": "A CVSS score 9.8 AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H severity vulnerability discovered by 'Habibullo Izzatilloyev' was reported to the affected vendor on: 2026-10-07, 0 days ago. The vendor is given until 2027-02-04 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
+      "source": "zerodayinitiative.com"
     },
     {
       "title": "ClickFix Attacks Evolve to Better Hide Malicious Payloads",
@@ -118,7 +167,7 @@
       "title": "Critical Healthcare Systems Aren't Quantum-Ready",
       "link": "https://www.darkreading.com/iot/exposed-healthcare-systems-quantum-ready",
       "date": "2026-10-06T20:30:27Z",
-      "description": "A study of 2.5 million devices across 50 healthcare organization suggests the sector has a long way to go in getting ready for the post-quantum cryptography era.",
+      "description": "A study of 2.5 million devices across 50 healthcare organizations suggests the sector has a long way to go in getting ready for the post-quantum cryptography era.",
       "source": "darkreading.com"
     },
     {
@@ -133,13 +182,6 @@
       "link": "https://www.darkreading.com/cybersecurity-operations/ai-reshaping-ciso-budgets-security-teams",
       "date": "2026-10-06T17:15:24Z",
       "description": "In this video interview, Nick Kakolowski, senior director for CISO research at IANS, talks AI: budgets, ROI, and changes inside security teams.",
-      "source": "darkreading.com"
-    },
-    {
-      "title": "'BigDiskBuster' Leaves Microsoft Defender Running While Blocking Updates",
-      "link": "https://www.darkreading.com/application-security/bigdiskbuster-microsoft-defender-running-blocking-updates",
-      "date": "2026-10-06T16:59:24Z",
-      "description": "Not quite an EDR-killer, but the proof-of-concept cyber technique creates a silent virus detection gap while service runs normally, no exploit required.",
       "source": "darkreading.com"
     },
     {
@@ -168,13 +210,6 @@
       "link": "http://www.zerodayinitiative.com/advisories/upcoming/",
       "date": "2026-10-02T05:00:00Z",
       "description": "A CVSS score 4.3 AV:N/AC:L/PR:L/UI:N/S:U/C:L/I:N/A:N severity vulnerability discovered by 'Anonymous' was reported to the affected vendor on: 2026-10-02, 5 days ago. The vendor is given until 2027-01-30 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
-      "source": "zerodayinitiative.com"
-    },
-    {
-      "title": "ZDI-CAN-34578: LiteLLM",
-      "link": "http://www.zerodayinitiative.com/advisories/upcoming/",
-      "date": "2026-10-02T05:00:00Z",
-      "description": "A CVSS score 8.8 AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H severity vulnerability discovered by 's3zer0' was reported to the affected vendor on: 2026-10-02, 5 days ago. The vendor is given until 2027-01-30 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
       "source": "zerodayinitiative.com"
     },
     {
