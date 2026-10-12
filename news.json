@@ -1,104 +1,118 @@
 {
-  "last_updated": "2026-10-12T06:43:59Z",
-  "count": 35,
+  "last_updated": "2026-10-12T16:16:33Z",
+  "count": 30,
   "items": [
     {
-      "title": "NVIDIA DCGM Exporter Bug Exposes GPU Servers to Resource Exhaustion Attacks",
-      "link": "https://cybersecuritynews.com/nvidia-dcgm-exporter-bug-exposes/",
-      "date": "2026-10-12T04:52:16Z",
-      "description": "NVIDIA patched high-severity flaw CVE-2026-47483 in DCGM Exporter that allows unauthenticated remote attackers to exhaust server resources, crash GPU monitoring, and disrupt AI workloads. DCGM Exporter is a common monitoring tool for GPU servers and Kubernetes clusters. It reads details such as GPU model, temperature, memory use, power draw, errors, and workload activity, then serves […] The…",
-      "source": "cybersecuritynews.com"
-    },
-    {
-      "title": "Admin Password “123456” Led to 8.8 Million Danish CPR Data Breach",
-      "link": "https://cybersecuritynews.com/admin-password-danish-data-breach/",
-      "date": "2026-10-12T04:42:30Z",
-      "description": "A weak administrator password is linked to a major Danish data breach that exposed information tied to about 8.8 million national identification numbers. At least three accounts at Pays, an IT company on the island of Funen, reportedly used “123456”, including an administrator account. The case shows how poor security at a company with trusted […] The post Admin Password “123456” Led to 8.8…",
-      "source": "cybersecuritynews.com"
-    },
-    {
-      "title": "KFC Named in Gentlemen Ransomware Group’s Latest Breach Claim",
-      "link": "https://cybersecuritynews.com/gentlemen-ransomware-kfc-breach/",
-      "date": "2026-10-12T03:21:04Z",
-      "description": "The Gentlemen ransomware group has allegedly claimed to have breached KFC, with a listing observed on October 10, 2026. The supplied alert identifies the target as United States KFC and places it in the hospitality sector. The claim remains unverified, and the available material does not establish a confirmed compromise of KFC’s U.S. systems. A […] The post KFC Named in Gentlemen Ransomware…",
-      "source": "cybersecuritynews.com"
-    },
-    {
-      "title": "Nippon Columbia malware incident exposes 8.6 million karaoke fan records",
-      "link": "https://www.bleepingcomputer.com/news/security/nippon-columbia-malware-incident-exposes-86-million-karaoke-fan-records/",
-      "date": "2026-10-11T14:23:46Z",
-      "description": "Daiichi Kosho, a major Japanese entertainment system maker, disclosed that a malware infection at its contractor, Nippon Columbia, exposed more than 8.7 million customer and employee records. [...]",
+      "title": "Cyberattack shuts down refrigerators at French supermarkets",
+      "link": "https://www.bleepingcomputer.com/news/security/cyberattack-shuts-down-refrigerators-at-french-supermarkets/",
+      "date": "2026-10-12T15:23:34Z",
+      "description": "Attackers remotely defrosted refrigerators at multiple French supermarket chains overnight in a cyberattack that reportedly targeted Danfoss refrigeration controllers. [...]",
       "source": "bleepingcomputer.com"
     },
     {
-      "title": "Claude Exploited SQL Injection Flaws to Execute Commands on Real Servers",
-      "link": "https://cybersecuritynews.com/claude-exploited-software-flaws/",
-      "date": "2026-10-11T13:02:21Z",
-      "description": "Anthropic has revealed that Claude models exploited software flaws, ran commands on real servers, submitted live forms, and bypassed web limits during internal tests. The company said the events caused little harm, but they show why AI agents with internet access need limits, clear scope, and monitoring. Anthropic’s review of model transcripts began in July […] The post Claude Exploited SQL…",
-      "source": "cybersecuritynews.com"
-    },
-    {
-      "title": "P7 DarkSword iOS Exploit Kit Adds Crypto Wallet Data Theft and Remote Commands",
-      "link": "https://thehackernews.com/2026/10/p7-darksword-ios-exploit-kit-adds.html",
-      "date": "2026-10-11T04:24:34Z",
-      "description": "Cybersecurity researchers have disclosed details of a previously unseen variant of the DarkSword iOS exploit kit called P7 DarkSword. \"Compared with the variants we usually observe, P7 reduces its on-device footprint, adds on-device keychain and crypto-wallet theft, and adds two way C2 communication with the attacker's infrastructure,\" iVerify said in a new report published Thursday. The name",
-      "source": "thehackernews.com"
-    },
-    {
-      "title": "The Best Protected Website Builder in 2027: Which Platform Keeps Your Site Truly Safe [Ranked & Scored]",
-      "link": "https://cybersecuritynews.com/best-protected-website-builder/",
-      "date": "2026-10-11T03:35:31Z",
-      "description": "A website builder’s biggest security feature is invisible: everything you never have to patch. Hosted platforms took the jobs that get self-managed sites hacked — core updates, TLS renewal, server hardening — and made them the vendor’s problem, which is why the real 2027 question isn’t “builder or not” but which builder’s security program deserves […] The post The Best Protected Website Builder…",
-      "source": "cybersecuritynews.com"
-    },
-    {
-      "title": "Cyber exec arrested in case allegedly tied to ShinyHunters hackers",
-      "link": "https://www.bleepingcomputer.com/news/security/cyber-exec-arrested-in-case-allegedly-tied-to-shinyhunters-hackers/",
-      "date": "2026-10-10T15:07:54Z",
-      "description": "Canadian cybersecurity executive Edward Dubrovsky has been arrested in Pennsylvania in connection with alleged extortion activity that multiple reports have linked to the FBI's ongoing crackdown on the ShinyHunters hacking group. [...]",
-      "source": "bleepingcomputer.com"
-    },
-    {
-      "title": "ARTEX AI, Claude agents used in cyberattacks on South Korean banks",
-      "link": "https://www.bleepingcomputer.com/news/security/hacker-used-artex-ai-and-claude-agents-to-target-south-korean-banks/",
-      "date": "2026-10-10T14:16:17Z",
-      "description": "The cyberattacks that shook the South Korean financial sector earlier this month were launched by a Chinese hacker using the ARTEX AI penetration testing suite and Claude agents. [...]",
-      "source": "bleepingcomputer.com"
-    },
-    {
-      "title": "Criminal IP Introduces AITEM as the Next Evolution of Attack Surface Management",
-      "link": "https://www.bleepingcomputer.com/news/security/criminal-ip-introduces-aitem-as-the-next-evolution-of-attack-surface-management/",
-      "date": "2026-10-10T12:30:39Z",
-      "description": "Traditional attack surface management helps organizations discover exposed assets, but visibility alone is not enough to address threats. Criminal IP introduces AITEM, an AI-powered approach that connects exposure discovery with investigation, risk prioritization, and response. [...]",
-      "source": "bleepingcomputer.com"
-    },
-    {
-      "title": "Insider Cyber Extortion Plot Against Industrial Firm Lands Engineer in Prison",
-      "link": "https://www.securityweek.com/insider-cyber-extortion-plot-against-industrial-firm-lands-engineer-in-prison/",
-      "date": "2026-10-10T11:00:00Z",
-      "description": "The former core infrastructure engineer deleted admin accounts, reset hundreds of passwords, and demanded 20 bitcoin to spare the company’s servers. The post Insider Cyber Extortion Plot Against Industrial Firm Lands Engineer in Prison appeared first on SecurityWeek.",
+      "title": "IonQ to Acquire Zero Trust Firm Elisity for Up to $1.3 Billion",
+      "link": "https://www.securityweek.com/ionq-to-acquire-zero-trust-firm-elisity-for-up-to-1-3-billion/",
+      "date": "2026-10-12T14:25:00Z",
+      "description": "The all-stock deal brings Elisity’s least-privilege access technology into IonQ’s security portfolio. The post IonQ to Acquire Zero Trust Firm Elisity for Up to $1.3 Billion appeared first on SecurityWeek.",
       "source": "securityweek.com"
     },
     {
-      "title": "The Third-Party Agent Problem: Why Security Built for AI You Chose Misses the Agents You Didn't",
-      "link": "https://thehackernews.com/2026/10/the-third-party-agent-problem-why.html",
-      "date": "2026-10-10T11:00:00Z",
-      "description": "In environments studied for the 2026 State of Agent Security Report, roughly 1,280 third-party products now embed AI. About 282 of them sit behind single sign-on. The other thousand are invisible to identity infrastructure by default, not because anyone hid them, but because an identity stack can only govern what authenticates through it, and most agents never do. That gap is the clearest",
-      "source": "thehackernews.com"
+      "title": "Inside AvisLoader: A Windows Malware Loader Built to Resist Disruption",
+      "link": "https://www.bleepingcomputer.com/news/security/inside-avisloader-a-windows-malware-loader-built-to-resist-disruption/",
+      "date": "2026-10-12T14:00:10Z",
+      "description": "A new Windows malware loader called AvisLoader uses encrypted peer-to-peer communications to make command-and-control infrastructure harder to disrupt. Varonis researchers explain how the malware uses ClickFix delivery, shortcut-based persistence, and remote command execution capabilities. [...]",
+      "source": "bleepingcomputer.com"
     },
     {
-      "title": "Anthropic Cuts Live Internet Access for Internal AI Tests After Claude Exploits Injection Flaws",
-      "link": "https://thehackernews.com/2026/10/anthropic-cuts-live-internet-access-for.html",
-      "date": "2026-10-10T09:18:45Z",
-      "description": "Anthropic on Friday said it's cutting off live internet access for all its internal evaluations following the discovery of new incidents in which its artificial intelligence (AI) models exhibited misaligned behavior and targeted real websites. The AI company said it identified four broad categories of unintended model actions during evaluations and internal use of Claude - Claude Mythos",
-      "source": "thehackernews.com"
+      "title": "Retail giant Ahold Delhaize takes systems offline after cyberattack",
+      "link": "https://www.bleepingcomputer.com/news/security/retail-giant-ahold-delhaize-takes-systems-offline-after-cyberattack/",
+      "date": "2026-10-12T13:51:07Z",
+      "description": "Retail giant Ahold Delhaize, one of the world's largest food retail chains, confirmed today that it had to take some systems offline in response to a \"cybersecurity incident\" affecting its network. [...]",
+      "source": "bleepingcomputer.com"
     },
     {
-      "title": "OpenAI Fires 3 Safety Researchers in Dispute Over AI Risks",
-      "link": "https://www.securityweek.com/openai-fires-3-safety-researchers-in-dispute-over-ai-risks/",
-      "date": "2026-10-09T21:07:46Z",
-      "description": "The ChatGPT maker said the researchers \"violated clear policies on handling sensitive information.” The post OpenAI Fires 3 Safety Researchers in Dispute Over AI Risks appeared first on SecurityWeek.",
+      "title": "Bricksforge WordPress Plugin Vulnerability Exploited in the Wild",
+      "link": "https://www.securityweek.com/bricksforge-wordpress-plugin-vulnerability-exploited-in-the-wild/",
+      "date": "2026-10-12T13:14:37Z",
+      "description": "The vulnerability tracked as CVE-2026-85097 can allow threat actors to take control of the targeted WordPress websites. The post Bricksforge WordPress Plugin Vulnerability Exploited in the Wild appeared first on SecurityWeek.",
       "source": "securityweek.com"
+    },
+    {
+      "title": "GitLab warns of max severity code execution vulnerability",
+      "link": "https://www.bleepingcomputer.com/news/security/gitlab-warns-of-max-severity-rce-flaw-in-regex-compiler-engine/",
+      "date": "2026-10-12T13:09:09Z",
+      "description": "GitLab warned users today to immediately patch a maximum-severity vulnerability in the CI/CD Regular Expression Compiler that could let remote attackers run arbitrary code on targeted instances. [...]",
+      "source": "bleepingcomputer.com"
+    },
+    {
+      "title": "Passing the Baton: Dark Reading Names New Editor-in-Chief",
+      "link": "https://www.darkreading.com/cyber-risk/passing-baton-dark-reading-new-editor-in-chief",
+      "date": "2026-10-12T12:30:58Z",
+      "description": "Fahmida Y Rashid will keep the momentum going as she leads Dark Reading.",
+      "source": "darkreading.com"
+    },
+    {
+      "title": "Canonical Websites Disrupted in Second DDoS Attack This Year",
+      "link": "https://www.securityweek.com/canonical-websites-disrupted-in-second-ddos-attack-this-year/",
+      "date": "2026-10-12T11:58:39Z",
+      "description": "The outage hit the main Ubuntu and Canonical websites, including the Ubuntu blog and developer portal. The post Canonical Websites Disrupted in Second DDoS Attack This Year appeared first on SecurityWeek.",
+      "source": "securityweek.com"
+    },
+    {
+      "title": "Microsoft: Windows 11 23H2 reaches end of support in 30 days",
+      "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-windows-11-23h2-reaches-end-of-support-in-30-days/",
+      "date": "2026-10-12T11:58:33Z",
+      "description": "Microsoft has reminded customers that systems running Windows 11 23H2 Enterprise, Education, and IoT Enterprise editions will stop receiving security updates next month. [...]",
+      "source": "bleepingcomputer.com"
+    },
+    {
+      "title": "Bring Your Own Agent: Your Employees' Assistants Are Already Logged In",
+      "link": "https://thehackernews.com/2026/10/bring-your-own-agent-your-employees.html",
+      "date": "2026-10-12T11:55:00Z",
+      "description": "The personal AI agents rollout is going about as smoothly as expected: Amazon now blocks Meta's Muse because it doesn't identify itself as a bot while browsing; Instinct keeps raising privacy concerns; and the horror stories from pretty much every personal AI agent keep piling up. Regardless, the tech world is mesmerized by the capabilities and potential of these services. Less than a year",
+      "source": "thehackernews.com"
+    },
+    {
+      "title": "Mastermind of 15,000-Mule Cybercrime Laundering Network Pleads Guilty in US",
+      "link": "https://www.securityweek.com/mastermind-of-15000-mule-cybercrime-laundering-network-pleads-guilty-in-us/",
+      "date": "2026-10-12T11:24:50Z",
+      "description": "Oleg Korniev was a leader of YMCO, a sophisticated network of money mules that helped hackers move funds outside the US. The post Mastermind of 15,000-Mule Cybercrime Laundering Network Pleads Guilty in US appeared first on SecurityWeek.",
+      "source": "securityweek.com"
+    },
+    {
+      "title": "Ledger Finds Unauthorized Hardware Implant in CryptoBilis-Sold Wallet Amid Fund Theft Reports",
+      "link": "https://thehackernews.com/2026/10/ledger-finds-unauthorized-hardware.html",
+      "date": "2026-10-12T11:21:48Z",
+      "description": "Cryptocurrency hardware maker Ledger has temporarily paused sales of its products via CryptoBilis following reports of stolen funds linked to devices sold by the reseller. On Friday, the company said it was investigating reports of loss of funds from users in Southeast Asia who had purchased products from CryptoBilis. The incident is said to have resulted in losses totaling more than $86",
+      "source": "thehackernews.com"
+    },
+    {
+      "title": "iRhythm Data Breach Impacts at Least 360,000 People",
+      "link": "https://www.securityweek.com/irhythm-data-breach-impacts-over-360000-people/",
+      "date": "2026-10-12T11:05:43Z",
+      "description": "Hackers stole patients’ personal information, including names, addresses, email addresses, dates of birth, and phone numbers. The post iRhythm Data Breach Impacts at Least 360,000 People appeared first on SecurityWeek.",
+      "source": "securityweek.com"
+    },
+    {
+      "title": "Critical SonicWall SMA 1000 Flaw Targeted in 135 Exploitation Attempts After Patch",
+      "link": "https://thehackernews.com/2026/10/critical-sonicwall-sma-1000-flaw.html",
+      "date": "2026-10-12T10:36:56Z",
+      "description": "Threat actors have been observed exploiting a recently disclosed critical security flaw in SonicWall Secure Mobile Access (SMA) 1000 appliances within days of public disclosure. The vulnerability, tracked as CVE-2026-102255 (CVSS score: 10.0), is a case of pre-authenticated server-side request forgery (SSRF) that could allow a remote attacker \"to direct the appliance to issue requests on their",
+      "source": "thehackernews.com"
+    },
+    {
+      "title": "Attackers Exploit CVSS 10.0 Bricksforge WordPress Flaw Enabling Unauthenticated RCE",
+      "link": "https://thehackernews.com/2026/10/attackers-exploit-cvss-100-bricksforge.html",
+      "date": "2026-10-12T09:02:14Z",
+      "description": "A maximum-severity security flaw impacting the Bricksforge plugin for WordPress has come under active exploitation in the wild, according to Patchstack. The critical vulnerability in question is CVE-2026-85097 (CVSS score: 10.0), which allows unauthenticated attackers to upload and execute arbitrary PHP code on vulnerable WordPress websites, resulting in remote code execution (RCE). The",
+      "source": "thehackernews.com"
+    },
+    {
+      "title": "CyberXero Uses Claude Code in Campaign That Stole Over 628,000 Ukrainian Records",
+      "link": "https://thehackernews.com/2026/10/cyberxero-uses-claude-code-in-campaign.html",
+      "date": "2026-10-12T07:26:12Z",
+      "description": "Cybersecurity researchers have disclosed details of a two-pronged artificial intelligence (AI)-augmented initial access campaign targeting WordPress sites, e-commerce platforms, and critical infrastructure entities in Ukraine. The activity, which brings together commodity offensive tools like Cobalt Strike with an AI orchestration layer powered by Anthropic's Claude Code, has been attributed",
+      "source": "thehackernews.com"
     },
     {
       "title": "ASOS Breach Reveals the Risks in Customer-Facing SaaS",
@@ -108,32 +122,11 @@
       "source": "darkreading.com"
     },
     {
-      "title": "Hackers abuse Google Ads, Bing redirects to push Claude ClickFix attacks",
-      "link": "https://www.bleepingcomputer.com/news/security/hackers-abuse-google-ads-bing-redirects-to-push-claude-clickfix-attacks/",
-      "date": "2026-10-09T20:31:37Z",
-      "description": "Hackers are abusing legitimate Bing search-result redirects as click URLs in Google search ads to direct users to fake Claude installers that deliver ClickFix attacks. [...]",
-      "source": "bleepingcomputer.com"
-    },
-    {
       "title": "AI Scramble Drives Cybersecurity M&amp;A Boom",
       "link": "https://www.darkreading.com/cybersecurity-analytics/ai-scramble-cybersecurity-ma-boom",
       "date": "2026-10-09T19:26:26Z",
       "description": "Welcome to another gangbuster year for strategic M&A activity in cyber, with 117 deals announced in the latest quarter. What's different: Many of the buyers are not your typical cybersecurity firms.",
       "source": "darkreading.com"
-    },
-    {
-      "title": "Credential-Stealing GitHub Actions Workflows Planted in Tens of Thousands of Repositories",
-      "link": "https://thehackernews.com/2026/10/credential-stealing-github-actions.html",
-      "date": "2026-10-09T19:14:28Z",
-      "description": "Cybersecurity researchers have disclosed details of an ongoing credential-theft campaign that has compromised two high-profile open-source maintainer accounts to push a malicious workflow into over 340 repositories. \"Using the account of Takashi Kitao, author of the 18,400-star game engine pyxel, the attacker pushed a malicious workflow to 27 repositories starting at 13:20 UTC,\" StepSecurity",
-      "source": "thehackernews.com"
-    },
-    {
-      "title": "FBI Arrests Another ShinyHunters Suspect Reportedly Involved in Its Jobs Portal Hack",
-      "link": "https://thehackernews.com/2026/10/fbi-arrests-another-shinyhunters.html",
-      "date": "2026-10-09T17:45:26Z",
-      "description": "The FBI has arrested another suspected co-conspirator of ShinyHunters, FBI Director Kash Patel said on October 9 in a post on X. ShinyHunters is the extortion group that said in September it had breached the FBI's jobs portal and stolen sensitive data on almost all FBI agents and job applicants. The FBI has not named the suspect, and no charges have been made public. The",
-      "source": "thehackernews.com"
     },
     {
       "title": "What We Missed: FBI Strikes Back at ShinyHunters",
@@ -148,34 +141,6 @@
       "date": "2026-10-09T16:25:05Z",
       "description": "Those closest to executives must match their security postures because the weakest link in a family can become the entry point for attacks.",
       "source": "darkreading.com"
-    },
-    {
-      "title": "Social Engineering AI Agents: The New BEC for 2026",
-      "link": "https://www.darkreading.com/cybersecurity-operations/social-engineering-ai-agents-bec-2026",
-      "date": "2026-10-09T13:00:00Z",
-      "description": "As AI agents gain authority over business systems, attackers can manipulate them like business email compromise (BEC) victims.",
-      "source": "darkreading.com"
-    },
-    {
-      "title": "In Other News: AI Used in Korean Bank Breaches, Poem-Guided Botnet, Empire Admin Gets 40 Years",
-      "link": "https://www.securityweek.com/in-other-news-ai-used-in-korean-bank-breaches-poem-guided-botnet-empire-admin-gets-40-years/",
-      "date": "2026-10-09T12:03:50Z",
-      "description": "Noteworthy stories that might have slipped under the radar: Tensorlake npm SDK compromised, Empire Market co-founder gets 40 years, exposed NVIDIA GPU monitors leak telemetry. The post In Other News: AI Used in Korean Bank Breaches, Poem-Guided Botnet, Empire Admin Gets 40 Years appeared first on SecurityWeek.",
-      "source": "securityweek.com"
-    },
-    {
-      "title": "Google Domains Impacted by Recent ccTLD Hijacks",
-      "link": "https://www.securityweek.com/google-domains-impacted-by-recent-cctld-domain-hijacks/",
-      "date": "2026-10-09T11:43:14Z",
-      "description": "Hackers hijacked the .gh, .sl, and .as ccTLDs and obtained HTTPS certificates for several Google domains. The post Google Domains Impacted by Recent ccTLD Hijacks appeared first on SecurityWeek.",
-      "source": "securityweek.com"
-    },
-    {
-      "title": "Unpatched AhsayCBS Vulnerabilities Exploited in the Wild",
-      "link": "https://www.securityweek.com/unpatched-ahsaycbs-vulnerabilities-exploited-in-the-wild/",
-      "date": "2026-10-09T10:23:42Z",
-      "description": "The flaws, CVE-2026-105133 and CVE-2026-105134, allow attackers to bypass authentication and inject OS commands. The post Unpatched AhsayCBS Vulnerabilities Exploited in the Wild appeared first on SecurityWeek.",
-      "source": "securityweek.com"
     },
     {
       "title": "ZDI-CAN-33446: Microsoft",
