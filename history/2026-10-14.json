@@ -1,7 +1,127 @@
 {
   "date": "2026-10-14",
-  "count": 29,
+  "count": 43,
   "items": [
+    {
+      "id": "b25d0011d5646e25d245814e9709f404fad6e58f",
+      "title": "Multiple NGINX Flaws Let Remote Attackers Crash Servers and Execute Malicious Code",
+      "link": "https://cybersecuritynews.com/multiple-nginx-vulnerabilities/",
+      "date": "2026-10-14T18:19:03Z",
+      "description": "F5 has disclosed three serious security flaws in NGINX Plus and NGINX Open Source that can let remote, unauthenticated attackers crash worker processes by sending crafted HTTP requests. In certain setups, the memory errors could also allow code execution, although F5 says that outcome requires Address Space Layout Randomization, known as ASLR, to be disabled […] The post Multiple NGINX Flaws Let…",
+      "source": "cybersecuritynews.com",
+      "first_seen": "2026-10-14T19:01:50Z",
+      "last_seen": "2026-10-14T19:01:50Z"
+    },
+    {
+      "id": "c0559316c6a35444f593a5af25455bdd95c1e274",
+      "title": "Ledger asks sellers across Asia to halt sales after supply-chain attack",
+      "link": "https://www.bleepingcomputer.com/news/security/ledger-asks-sellers-across-asia-to-halt-sales-after-supply-chain-attack/",
+      "date": "2026-10-14T17:46:50Z",
+      "description": "Ledger has asked resellers and distributors of its wallets in Indonesia, Singapore, Thailand, the Philippines, Vietnam, Malaysia, and Hong Kong to suspend device sales and remove products from shelves while it investigates device tampering. [...]",
+      "source": "bleepingcomputer.com",
+      "first_seen": "2026-10-14T19:01:50Z",
+      "last_seen": "2026-10-14T19:01:50Z"
+    },
+    {
+      "id": "bdb321c57bd1a527820716f826ab2a4bf6a3cad7",
+      "title": "Cisco patches new Secure Email Gateway zero-day exploited in attacks",
+      "link": "https://www.bleepingcomputer.com/news/security/cisco-patches-actively-exploited-secure-email-gateway-zero-day/",
+      "date": "2026-10-14T17:29:14Z",
+      "description": "Cisco has patched another actively exploited zero-day flaw in its Secure Email Gateway (SEG) that lets remote unauthenticated attackers execute commands with root privileges. [...]",
+      "source": "bleepingcomputer.com",
+      "first_seen": "2026-10-14T19:01:50Z",
+      "last_seen": "2026-10-14T19:01:50Z"
+    },
+    {
+      "id": "203fb12a77974bec8e272063429a4eb2746c2f4c",
+      "title": "24 Security Vulnerabilities Patched in curl Used Across 30 Billion Installations",
+      "link": "https://cybersecuritynews.com/curl-security-update-24-vulnerabilities/",
+      "date": "2026-10-14T16:46:52Z",
+      "description": "The curl project released curl 8.23.0 on October 14, 2026, announcing 24 security fixes affecting the widely used data transfer tool and its underlying library, libcurl. The vulnerabilities include credential leaks, authentication errors, command injection, and flaws that can disrupt applications. The release also removes SMB and SMBS protocol support, making compatibility checks important…",
+      "source": "cybersecuritynews.com",
+      "first_seen": "2026-10-14T19:01:50Z",
+      "last_seen": "2026-10-14T19:01:50Z"
+    },
+    {
+      "id": "9707477798469c3c3122dc0c330e7d580960f1ee",
+      "title": "U.S. Shuts Down Over 40 Laptop Farms, Charges 14 in North Korean IT Worker Fraud",
+      "link": "https://thehackernews.com/2026/10/us-shuts-down-over-40-laptop-farms.html",
+      "date": "2026-10-14T16:34:31Z",
+      "description": "The U.S. Department of Justice (DoJ) on Tuesday charged 14 people and seized about 187 computers as part of its ongoing efforts to disrupt North Korea's fraudulent remote IT worker (ITW) scheme. The indictment charges a mix of U.S. citizens and Chinese nationals for their roles in an IT worker conspiracy affecting more than 70 U.S. companies, charging them with wire fraud conspiracy, money",
+      "source": "thehackernews.com",
+      "first_seen": "2026-10-14T19:01:50Z",
+      "last_seen": "2026-10-14T19:01:50Z"
+    },
+    {
+      "id": "800e2ee459df4336c75e4466189b27b019c541cc",
+      "title": "How MSSPs Can Cut Tier 1 Bottlenecks Eating into Profit Margins",
+      "link": "https://cybersecuritynews.com/how-mssps-can-cut-tier-1-bottlenecks-eating-into-profit-margins/",
+      "date": "2026-10-14T16:29:10Z",
+      "description": "As MSSPs take on more clients, alert volumes grow fast. Analyst capacity usually doesn’t. That gap shows up in triage and response first. Teams spend too much time checking IOCs, switching between tools, rebuilding context, and escalating cases that could have been closed earlier. Across thousands of investigations, those extra minutes turn into slower response, more […] The post How MSSPs Can…",
+      "source": "cybersecuritynews.com",
+      "first_seen": "2026-10-14T19:01:50Z",
+      "last_seen": "2026-10-14T19:01:50Z"
+    },
+    {
+      "id": "dba1862f823af1a10669c5f66e0b382fcc042b89",
+      "title": "AI Agents Navigate Unfamiliar OT Systems and Move Equipment in Minutes, Booz Allen Finds",
+      "link": "https://www.securityweek.com/ai-agents-navigate-unfamiliar-ot-systems-and-move-equipment-in-minutes-booz-allen-finds/",
+      "date": "2026-10-14T16:00:00Z",
+      "description": "In Booz Allen’s isolated OT lab, AI models met every objective across eight scenarios and reached an industrial control network from a perimeter compromise in just over 16 minutes. The post AI Agents Navigate Unfamiliar OT Systems and Move Equipment in Minutes, Booz Allen Finds appeared first on SecurityWeek.",
+      "source": "securityweek.com",
+      "first_seen": "2026-10-14T19:01:50Z",
+      "last_seen": "2026-10-14T19:01:50Z"
+    },
+    {
+      "id": "bd7bc6aee155318a6cd3aa4bb4e9912e6d42f9e1",
+      "title": "Microsoft’s Recent Windows Updates Break Remote Desktop Services With Error “0xC000000D”",
+      "link": "https://cybersecuritynews.com/microsoft-recent-update-remote-desktop/",
+      "date": "2026-10-14T15:51:38Z",
+      "description": "Microsoft has confirmed a Windows 11 Remote Desktop issue that can prevent non-admin users from connecting to remote computers with Administrator protection enabled. The problem follows the September 22, 2026, non-security preview update, KB5124010, or later updates. It mainly affects company-managed computers used as Remote Desktop hosts. Failed connections may return error 0xC000000D and…",
+      "source": "cybersecuritynews.com",
+      "first_seen": "2026-10-14T19:01:50Z",
+      "last_seen": "2026-10-14T19:01:50Z"
+    },
+    {
+      "id": "06176443a623922465f2a9876bdc4ff8a76735af",
+      "title": "ICS Patch Tuesday: Siemens Issues 17 Advisories, Rockwell Fixes ArmorBlock Takeover Flaw",
+      "link": "https://www.securityweek.com/ics-patch-tuesday-siemens-issues-17-advisories-rockwell-fixes-armorblock-takeover-flaw/",
+      "date": "2026-10-14T15:15:15Z",
+      "description": "ABB previously published an advisory warning about possible probing of a dynovaPRO vulnerability. The post ICS Patch Tuesday: Siemens Issues 17 Advisories, Rockwell Fixes ArmorBlock Takeover Flaw appeared first on SecurityWeek.",
+      "source": "securityweek.com",
+      "first_seen": "2026-10-14T19:01:50Z",
+      "last_seen": "2026-10-14T19:01:50Z"
+    },
+    {
+      "id": "5a4fbb3bc4f31cefd7127d2f94489c0f85640582",
+      "title": "Microsoft fixes VPN issues caused by September Windows updates",
+      "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-vpn-issues-caused-by-september-windows-updates/",
+      "date": "2026-10-14T14:27:01Z",
+      "description": "Microsoft has resolved a known issue that caused Always On VPN connection issues after installing the September 2026 Windows 11 security updates. [...]",
+      "source": "bleepingcomputer.com",
+      "first_seen": "2026-10-14T19:01:50Z",
+      "last_seen": "2026-10-14T19:01:50Z"
+    },
+    {
+      "id": "90577b316e65f72a4fc78f1893c9f542da492ed7",
+      "title": "Harmonic Security Raises $50 Million for Workforce AI Protection",
+      "link": "https://www.securityweek.com/harmonic-security-raises-50-million-for-workforce-ai-protection/",
+      "date": "2026-10-14T14:09:51Z",
+      "description": "The cybersecurity startup plans to expand engineering and go-to-market teams in the US and UK. The post Harmonic Security Raises $50 Million for Workforce AI Protection appeared first on SecurityWeek.",
+      "source": "securityweek.com",
+      "first_seen": "2026-10-14T19:01:50Z",
+      "last_seen": "2026-10-14T19:01:50Z"
+    },
+    {
+      "id": "2945f8117cecc8ad6ecea7ee7639904024d55be2",
+      "title": "Hackers Use Fake WatchGuard VPN Download Site to Steal Login Credentials",
+      "link": "https://cybersecuritynews.com/fake-watchguard-vpn/",
+      "date": "2026-10-14T14:08:23Z",
+      "description": "Hackers used a fake WatchGuard VPN download website to steal login details before offering visitors the real, digitally signed VPN installer. The attack collected a VPN server address, username, and password through a browser pop-up, leaving victims exposed without installing a malicious client. The campaign shows how a normal software search can lead to credential […] The post Hackers Use Fake…",
+      "source": "cybersecuritynews.com",
+      "first_seen": "2026-10-14T19:01:50Z",
+      "last_seen": "2026-10-14T19:01:50Z"
+    },
     {
       "id": "1fd22d2be1926cb430ae6a34edb5159d143894ba",
       "title": "The Blind Spots of Agentic Pentesting and How to Close Them",
@@ -10,7 +130,7 @@
       "description": "AI-powered penetration testing can uncover complex attack paths, but safety restrictions and network limitations leave many assets and vulnerabilities untested. Picus Security explains how combining agentic pentesting with exposure validation and breach simulation can help close these gaps. [...]",
       "source": "bleepingcomputer.com",
       "first_seen": "2026-10-14T14:09:40Z",
-      "last_seen": "2026-10-14T14:09:40Z"
+      "last_seen": "2026-10-14T19:01:50Z"
     },
     {
       "id": "9aefc47dfedd91a82781aa43ee2ab0f3f72e8ef3",
@@ -20,7 +140,7 @@
       "description": "This summit is laser-focused on the next generation of Zero Trust and Identity security, moving beyond theory to deliver actionable strategies. The post Virtual Event Today: Zero Trust Strategies Summit appeared first on SecurityWeek.",
       "source": "securityweek.com",
       "first_seen": "2026-10-14T14:09:40Z",
-      "last_seen": "2026-10-14T14:09:40Z"
+      "last_seen": "2026-10-14T19:01:50Z"
     },
     {
       "id": "41772bd2cd6fea73484d6a511fe17ff8fddd4cd7",
@@ -30,7 +150,7 @@
       "description": "A massive cybercriminal ecosystem facilitating more than a billion malicious messages targeting over 75,000 organizations across 150 countries has been disrupted by law enforcement agencies and partners worldwide. [...]",
       "source": "bleepingcomputer.com",
       "first_seen": "2026-10-14T14:09:40Z",
-      "last_seen": "2026-10-14T14:09:40Z"
+      "last_seen": "2026-10-14T19:01:50Z"
     },
     {
       "id": "fe9dd5993b872ae24eb29832a01af75057d3408c",
@@ -40,7 +160,7 @@
       "description": "Backed by a federal court order, Microsoft and Health-ISAC seized domains powering YAM Store, CoGUI, and Iron Man. The post Microsoft Disrupts Chinese-Language Phishing Market Behind 1B+ Messages appeared first on SecurityWeek.",
       "source": "securityweek.com",
       "first_seen": "2026-10-14T14:09:40Z",
-      "last_seen": "2026-10-14T14:09:40Z"
+      "last_seen": "2026-10-14T19:01:50Z"
     },
     {
       "id": "729fd6f96268ece1a11ed8334b07a66b603116ff",
@@ -50,7 +170,7 @@
       "description": "The AI-enabled operation used spoofed emails, fake government documents, and the creation of a local organization to target schools in Peru and Ecuador, among other efforts.",
       "source": "darkreading.com",
       "first_seen": "2026-10-14T14:09:40Z",
-      "last_seen": "2026-10-14T14:09:40Z"
+      "last_seen": "2026-10-14T19:01:50Z"
     },
     {
       "id": "32b2452850a37f22f7ec00b2695889bee95a5f05",
@@ -70,7 +190,7 @@
       "description": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Tuesday urged organizations to take steps to immediately update their Ivanti Connect Secure (ICS) appliances and deployments to the latest version following the disclosure of an actively exploited vulnerability. The security flaw, tracked as CVE-2026-104935 (CVSS score: 8.6), is a case of authentication bypass impacting ICS",
       "source": "thehackernews.com",
       "first_seen": "2026-10-14T14:09:40Z",
-      "last_seen": "2026-10-14T14:09:40Z"
+      "last_seen": "2026-10-14T19:01:50Z"
     },
     {
       "id": "005ce18455699c76cba775b469a1e2fc0201fcb6",
@@ -80,7 +200,7 @@
       "description": "A flaw in how curl handles HTTP/2 uploads lets a malicious server receiving an upload corrupt the client's memory, and the researcher who reported it turned that into code execution on the uploading machine. The curl project fixed it on October 14 in curl 8.23.0. Taking over a client needs exact knowledge of its build and memory layout, and curl expects a real attack to end in a crash",
       "source": "thehackernews.com",
       "first_seen": "2026-10-14T14:09:40Z",
-      "last_seen": "2026-10-14T14:09:40Z"
+      "last_seen": "2026-10-14T19:01:50Z"
     },
     {
       "id": "addcfa1535baa428cc2824ef408a1e3bc457c691",
@@ -90,7 +210,7 @@
       "description": "Cloned voices and synthetic video calls now show up in payment fraud, help desk resets, and access requests. A structured drill shows security teams exactly where verification breaks down, while nothing is at stake. The call comes in at 4:40 on a Friday. It's the CFO, or it sounds exactly like her, asking the controller to push a supplier payment out before the weekend because a deal closes",
       "source": "thehackernews.com",
       "first_seen": "2026-10-14T14:09:40Z",
-      "last_seen": "2026-10-14T14:09:40Z"
+      "last_seen": "2026-10-14T19:01:50Z"
     },
     {
       "id": "d03e386425dc5e2381be1352391d7c98f1d49697",
@@ -110,7 +230,7 @@
       "description": "A team at security firm XBOW chained three then-unknown Google Chrome bugs into a single attack that runs code on a Windows computer when the user only loads a web page, the company said. Its researchers built the attack in six days by directing AI agents running OpenAI's publicly available GPT-5.6 Sol model. Google has since confirmed all three bugs, fixed them, and paid XBOW its top $",
       "source": "thehackernews.com",
       "first_seen": "2026-10-14T14:09:40Z",
-      "last_seen": "2026-10-14T14:09:40Z"
+      "last_seen": "2026-10-14T19:01:50Z"
     },
     {
       "id": "e3d1bb266d64a67403d6bdbbbfb8d2b341db9843",
@@ -240,7 +360,7 @@
       "description": "Organizations are reporting that employees face threats to their families, stalking, physical violence, and abduction. But these alarming claims are hard to verify.",
       "source": "darkreading.com",
       "first_seen": "2026-10-14T08:08:56Z",
-      "last_seen": "2026-10-14T14:09:40Z"
+      "last_seen": "2026-10-14T19:01:50Z"
     },
     {
       "id": "f9dd7bf5873070ba9af47918a890bf91db4813bf",
@@ -250,7 +370,27 @@
       "description": "A CVSS score 6.5 AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N severity vulnerability discovered by 'Anonymous' was reported to the affected vendor on: 2026-10-14, 0 days ago. The vendor is given until 2027-02-11 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
       "source": "zerodayinitiative.com",
       "first_seen": "2026-10-14T14:09:40Z",
-      "last_seen": "2026-10-14T14:09:40Z"
+      "last_seen": "2026-10-14T19:01:50Z"
+    },
+    {
+      "id": "822a4b7bf148b4129b6eb7244b7856e39bba5efa",
+      "title": "ZDI-CAN-33522: Microsoft",
+      "link": "http://www.zerodayinitiative.com/advisories/upcoming/",
+      "date": "2026-10-14T05:00:00Z",
+      "description": "A CVSS score 7.7 AV:L/AC:H/PR:N/UI:R/S:C/C:H/I:H/A:H severity vulnerability discovered by 'Lucas Miller of TrendAI Research' was reported to the affected vendor on: 2026-10-14, 0 days ago. The vendor is given until 2027-02-11 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
+      "source": "zerodayinitiative.com",
+      "first_seen": "2026-10-14T19:01:50Z",
+      "last_seen": "2026-10-14T19:01:50Z"
+    },
+    {
+      "id": "a759586c1e1f6c5f9360bada77c22b8ea102a4cb",
+      "title": "ZDI-CAN-31758: NVIDIA",
+      "link": "http://www.zerodayinitiative.com/advisories/upcoming/",
+      "date": "2026-10-14T05:00:00Z",
+      "description": "A CVSS score 7.8 AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H severity vulnerability discovered by 'YJK(@YJK0805) of ZUSO ART' was reported to the affected vendor on: 2026-10-14, 0 days ago. The vendor is given until 2027-02-11 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
+      "source": "zerodayinitiative.com",
+      "first_seen": "2026-10-14T19:01:50Z",
+      "last_seen": "2026-10-14T19:01:50Z"
     },
     {
       "id": "6b53a8070dd39b93f4ad40bdb64d48c600d03c0f",
