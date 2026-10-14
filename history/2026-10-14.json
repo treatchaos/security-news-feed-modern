@@ -1,7 +1,147 @@
 {
   "date": "2026-10-14",
-  "count": 14,
+  "count": 29,
   "items": [
+    {
+      "id": "1fd22d2be1926cb430ae6a34edb5159d143894ba",
+      "title": "The Blind Spots of Agentic Pentesting and How to Close Them",
+      "link": "https://www.bleepingcomputer.com/news/security/the-blind-spots-of-agentic-pentesting-and-how-to-close-them/",
+      "date": "2026-10-14T14:00:10Z",
+      "description": "AI-powered penetration testing can uncover complex attack paths, but safety restrictions and network limitations leave many assets and vulnerabilities untested. Picus Security explains how combining agentic pentesting with exposure validation and breach simulation can help close these gaps. [...]",
+      "source": "bleepingcomputer.com",
+      "first_seen": "2026-10-14T14:09:40Z",
+      "last_seen": "2026-10-14T14:09:40Z"
+    },
+    {
+      "id": "9aefc47dfedd91a82781aa43ee2ab0f3f72e8ef3",
+      "title": "Virtual Event Today: Zero Trust Strategies Summit",
+      "link": "https://www.securityweek.com/virtual-event-today-zero-trust-strategies-summit-2/",
+      "date": "2026-10-14T13:56:36Z",
+      "description": "This summit is laser-focused on the next generation of Zero Trust and Identity security, moving beyond theory to deliver actionable strategies. The post Virtual Event Today: Zero Trust Strategies Summit appeared first on SecurityWeek.",
+      "source": "securityweek.com",
+      "first_seen": "2026-10-14T14:09:40Z",
+      "last_seen": "2026-10-14T14:09:40Z"
+    },
+    {
+      "id": "41772bd2cd6fea73484d6a511fe17ff8fddd4cd7",
+      "title": "Global takedown hits network behind 1 billion phishing messages",
+      "link": "https://www.bleepingcomputer.com/news/security/global-takedown-hits-network-behind-1-billion-phishing-messages/",
+      "date": "2026-10-14T13:12:52Z",
+      "description": "A massive cybercriminal ecosystem facilitating more than a billion malicious messages targeting over 75,000 organizations across 150 countries has been disrupted by law enforcement agencies and partners worldwide. [...]",
+      "source": "bleepingcomputer.com",
+      "first_seen": "2026-10-14T14:09:40Z",
+      "last_seen": "2026-10-14T14:09:40Z"
+    },
+    {
+      "id": "fe9dd5993b872ae24eb29832a01af75057d3408c",
+      "title": "Microsoft Disrupts Chinese-Language Phishing Market Behind 1B+ Messages",
+      "link": "https://www.securityweek.com/microsoft-disrupts-chinese-language-phishing-market-behind-1b-messages/",
+      "date": "2026-10-14T13:00:00Z",
+      "description": "Backed by a federal court order, Microsoft and Health-ISAC seized domains powering YAM Store, CoGUI, and Iron Man. The post Microsoft Disrupts Chinese-Language Phishing Market Behind 1B+ Messages appeared first on SecurityWeek.",
+      "source": "securityweek.com",
+      "first_seen": "2026-10-14T14:09:40Z",
+      "last_seen": "2026-10-14T14:09:40Z"
+    },
+    {
+      "id": "729fd6f96268ece1a11ed8334b07a66b603116ff",
+      "title": "Russian Influence Operation Widely Targeting Latin America",
+      "link": "https://www.darkreading.com/cyberattacks-data-breaches/russian-influence-operation-targeting-latin-america",
+      "date": "2026-10-14T13:00:00Z",
+      "description": "The AI-enabled operation used spoofed emails, fake government documents, and the creation of a local organization to target schools in Peru and Ecuador, among other efforts.",
+      "source": "darkreading.com",
+      "first_seen": "2026-10-14T14:09:40Z",
+      "last_seen": "2026-10-14T14:09:40Z"
+    },
+    {
+      "id": "32b2452850a37f22f7ec00b2695889bee95a5f05",
+      "title": "CISA warns admins to immediately fix Ivanti flaw exploited as zero-day",
+      "link": "https://www.bleepingcomputer.com/news/security/cisa-warns-admins-to-immediately-fix-ivanti-flaw-exploited-as-zero-day/",
+      "date": "2026-10-14T12:58:07Z",
+      "description": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) urged security teams to immediately patch an Ivanti Connect Secure (ICS) flaw exploited in zero-day attacks since at least October 1st. [...]",
+      "source": "bleepingcomputer.com",
+      "first_seen": "2026-10-14T14:09:40Z",
+      "last_seen": "2026-10-14T14:09:40Z"
+    },
+    {
+      "id": "fd8cfcddec6d12fbbebafd63e4f04f3efba52700",
+      "title": "CISA Urges Immediate Ivanti Connect Secure Updates as Honeypots Log 105 Exploit Attempts",
+      "link": "https://thehackernews.com/2026/10/cisa-urges-immediate-ivanti-connect.html",
+      "date": "2026-10-14T12:30:42Z",
+      "description": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Tuesday urged organizations to take steps to immediately update their Ivanti Connect Secure (ICS) appliances and deployments to the latest version following the disclosure of an actively exploited vulnerability. The security flaw, tracked as CVE-2026-104935 (CVSS score: 8.6), is a case of authentication bypass impacting ICS",
+      "source": "thehackernews.com",
+      "first_seen": "2026-10-14T14:09:40Z",
+      "last_seen": "2026-10-14T14:09:40Z"
+    },
+    {
+      "id": "005ce18455699c76cba775b469a1e2fc0201fcb6",
+      "title": "curl Patches HTTP/2 Upload Flaw After PoC Demonstrates Client-Side Code Execution",
+      "link": "https://thehackernews.com/2026/10/curl-patches-http2-upload-flaw-after.html",
+      "date": "2026-10-14T12:13:36Z",
+      "description": "A flaw in how curl handles HTTP/2 uploads lets a malicious server receiving an upload corrupt the client's memory, and the researcher who reported it turned that into code execution on the uploading machine. The curl project fixed it on October 14 in curl 8.23.0. Taking over a client needs exact knowledge of its build and memory layout, and curl expects a real attack to end in a crash",
+      "source": "thehackernews.com",
+      "first_seen": "2026-10-14T14:09:40Z",
+      "last_seen": "2026-10-14T14:09:40Z"
+    },
+    {
+      "id": "addcfa1535baa428cc2824ef408a1e3bc457c691",
+      "title": "How to Run a Deepfake Readiness Drill Before a Cloned Voice Calls Your Team",
+      "link": "https://thehackernews.com/2026/10/how-to-run-deepfake-readiness-drill.html",
+      "date": "2026-10-14T11:50:00Z",
+      "description": "Cloned voices and synthetic video calls now show up in payment fraud, help desk resets, and access requests. A structured drill shows security teams exactly where verification breaks down, while nothing is at stake. The call comes in at 4:40 on a Friday. It's the CFO, or it sounds exactly like her, asking the controller to push a supplier payment out before the weekend because a deal closes",
+      "source": "thehackernews.com",
+      "first_seen": "2026-10-14T14:09:40Z",
+      "last_seen": "2026-10-14T14:09:40Z"
+    },
+    {
+      "id": "d03e386425dc5e2381be1352391d7c98f1d49697",
+      "title": "Hirudo Android malware replaces banking apps to evade security checks",
+      "link": "https://www.bleepingcomputer.com/news/security/hirudo-android-malware-replaces-banking-apps-to-evade-security-checks/",
+      "date": "2026-10-14T11:41:20Z",
+      "description": "A new Android malware called Hirudo steals bank account credentials by replacing legitimate banking apps with modified versions that disable security checks. [...]",
+      "source": "bleepingcomputer.com",
+      "first_seen": "2026-10-14T14:09:40Z",
+      "last_seen": "2026-10-14T14:09:40Z"
+    },
+    {
+      "id": "52607e4e055ee5c9cfd8382c43a7855404a2e424",
+      "title": "Researchers Used a Public OpenAI Model to Build a $250,000 Chrome Full-Chain Exploit in Six Days",
+      "link": "https://thehackernews.com/2026/10/researchers-used-public-openai-model-to.html",
+      "date": "2026-10-14T11:19:02Z",
+      "description": "A team at security firm XBOW chained three then-unknown Google Chrome bugs into a single attack that runs code on a Windows computer when the user only loads a web page, the company said. Its researchers built the attack in six days by directing AI agents running OpenAI's publicly available GPT-5.6 Sol model. Google has since confirmed all three bugs, fixed them, and paid XBOW its top $",
+      "source": "thehackernews.com",
+      "first_seen": "2026-10-14T14:09:40Z",
+      "last_seen": "2026-10-14T14:09:40Z"
+    },
+    {
+      "id": "e3d1bb266d64a67403d6bdbbbfb8d2b341db9843",
+      "title": "Hirudo Android Trojan Uses Patched Banking Apps to Bypass Their Built-In Security Checks",
+      "link": "https://thehackernews.com/2026/10/hirudo-android-trojan-uses-patched.html",
+      "date": "2026-10-14T11:08:22Z",
+      "description": "Cybersecurity researchers have disclosed details of a new Android banking trojan called Hirudo that works by replacing legitimate banking apps with purpose-built patched versions designed to bypass security checks from inside the app itself, marking a new escalation in financial fraud. Dutch mobile security company ThreatFabric said it identified replacements for eight Indonesian banking",
+      "source": "thehackernews.com",
+      "first_seen": "2026-10-14T14:09:40Z",
+      "last_seen": "2026-10-14T14:09:40Z"
+    },
+    {
+      "id": "4ec1ea132402f40241a65c04fa0faa9cbef4cd8d",
+      "title": "US Arrests Two in Crackdown on North Korean IT Worker Laptop Farms",
+      "link": "https://www.securityweek.com/us-arrests-two-in-crackdown-on-north-korean-it-worker-laptop-farms/",
+      "date": "2026-10-14T10:55:21Z",
+      "description": "Investigators stormed 40 locations in Texas and seized 187 laptops used by North Korean IT workers to hide their location. The post US Arrests Two in Crackdown on North Korean IT Worker Laptop Farms appeared first on SecurityWeek.",
+      "source": "securityweek.com",
+      "first_seen": "2026-10-14T14:09:40Z",
+      "last_seen": "2026-10-14T14:09:40Z"
+    },
+    {
+      "id": "8ad9a29cf2d1564304fb70f38431e9d30f84e5b7",
+      "title": "Microsoft: Recent Windows updates may trigger Remote Desktop failures",
+      "link": "https://www.bleepingcomputer.com/news/security/microsoft-recent-windows-updates-may-trigger-remote-desktop-failures/",
+      "date": "2026-10-14T10:48:09Z",
+      "description": "Microsoft has confirmed that non-admin users may be unable to connect to devices via Remote Desktop after installing recent Windows updates if the \"Administrator protection\" security feature is enabled. [...]",
+      "source": "bleepingcomputer.com",
+      "first_seen": "2026-10-14T14:09:40Z",
+      "last_seen": "2026-10-14T14:09:40Z"
+    },
     {
       "id": "c394c833c28b487b0faa5d62f905aee3c385c4b2",
       "title": "Multiple Google Chrome Flaws Could Enable Memory Corruption and Code Execution Attacks",
@@ -30,7 +170,7 @@
       "description": "Mozilla has introduced Firefox Enterprise for organizations with strict compliance, governance, and security requirements. The post Chrome, Firefox Updates Patch 114 Flaws as Mozilla Unveils Firefox Enterprise appeared first on SecurityWeek.",
       "source": "securityweek.com",
       "first_seen": "2026-10-14T08:08:56Z",
-      "last_seen": "2026-10-14T08:08:56Z"
+      "last_seen": "2026-10-14T14:09:40Z"
     },
     {
       "id": "ade66c7aa94f886184aed007b3a9d6d14739ca23",
@@ -40,7 +180,7 @@
       "description": "Critical-severity flaws could lead to authentication bypass, code execution, and sensitive authentication information leaks. The post Citrix, Fortinet, Ivanti Patch 29 Vulnerabilities Across Their Products appeared first on SecurityWeek.",
       "source": "securityweek.com",
       "first_seen": "2026-10-14T08:08:56Z",
-      "last_seen": "2026-10-14T08:08:56Z"
+      "last_seen": "2026-10-14T14:09:40Z"
     },
     {
       "id": "2b4e224af08405f49c3a65d84914c3b82b55d616",
@@ -100,7 +240,17 @@
       "description": "Organizations are reporting that employees face threats to their families, stalking, physical violence, and abduction. But these alarming claims are hard to verify.",
       "source": "darkreading.com",
       "first_seen": "2026-10-14T08:08:56Z",
-      "last_seen": "2026-10-14T08:08:56Z"
+      "last_seen": "2026-10-14T14:09:40Z"
+    },
+    {
+      "id": "f9dd7bf5873070ba9af47918a890bf91db4813bf",
+      "title": "ZDI-CAN-32462: Samba",
+      "link": "http://www.zerodayinitiative.com/advisories/upcoming/",
+      "date": "2026-10-14T05:00:00Z",
+      "description": "A CVSS score 6.5 AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N severity vulnerability discovered by 'Anonymous' was reported to the affected vendor on: 2026-10-14, 0 days ago. The vendor is given until 2027-02-11 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
+      "source": "zerodayinitiative.com",
+      "first_seen": "2026-10-14T14:09:40Z",
+      "last_seen": "2026-10-14T14:09:40Z"
     },
     {
       "id": "6b53a8070dd39b93f4ad40bdb64d48c600d03c0f",
