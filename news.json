@@ -1,7 +1,42 @@
 {
-  "last_updated": "2026-10-14T19:01:50Z",
+  "last_updated": "2026-10-14T22:49:04Z",
   "count": 35,
   "items": [
+    {
+      "title": "Ivanti ICS Zero-Day Attacks Highlight Vendor Patching Hurdles",
+      "link": "https://www.darkreading.com/vulnerabilities-threats/ivanti-ics-zero-day-attacks-vendor-patching",
+      "date": "2026-10-14T21:20:13Z",
+      "description": "CVE-2026-104935, a high-severity authentication bypass + RCE vulnerability, was only partially discovered and patched in July, leaving an opening for threat actors to capitalize on.",
+      "source": "darkreading.com"
+    },
+    {
+      "title": "Yam Store: The Phishing Network Behind a Billion Messages",
+      "link": "https://www.darkreading.com/cyberattacks-data-breaches/yam-store-phishing-network-behind-billion-messages",
+      "date": "2026-10-14T20:57:16Z",
+      "description": "A sprawling cybercrime marketplace supplied cloud infrastructure and phishing kits that helped fuel more than 1 billion phishing messages worldwide.",
+      "source": "darkreading.com"
+    },
+    {
+      "title": "Anthropic 'SneakPeek' Flaw Is a Silent Zero-Click Threat",
+      "link": "https://www.darkreading.com/threat-intelligence/new-anthropic-sneakpeek-silent-zero-click-threat",
+      "date": "2026-10-14T20:09:42Z",
+      "description": "A bug in Claude Code Desktop's preview pane can allow adversaries to quietly steal credentials from developers, including SSH private keys, AWS credentials, and Claude 0Auth tokens.",
+      "source": "darkreading.com"
+    },
+    {
+      "title": "FBI raids DPRK IT worker laptop farms in Texas, US nationals arrested",
+      "link": "https://www.bleepingcomputer.com/news/security/fbi-raids-dprk-it-worker-laptop-farms-in-texas-us-nationals-arrested/",
+      "date": "2026-10-14T19:41:43Z",
+      "description": "The U.S. Department of Justice (DoJ) has disrupted the Famous Chollima threat group's operations by arresting two suspects, charging 14 individuals, and seizing nearly 187 laptops used in North Korean remote IT worker schemes. [...]",
+      "source": "bleepingcomputer.com"
+    },
+    {
+      "title": "Cisco Warns of Active Attacks Exploiting New Critical Secure Email Gateway Vulnerability",
+      "link": "https://thehackernews.com/2026/10/cisco-warns-of-active-attacks.html",
+      "date": "2026-10-14T18:38:56Z",
+      "description": "Attackers are exploiting a critical flaw in Cisco Secure Email Gateway that lets a sender with no login write files to the appliance's operating system, Cisco said in an advisory on Wednesday. The attacker sends an email with a crafted attachment through the gateway and, if it succeeds, could then run commands as root. The appliance filters an organization's email for spam, malware,",
+      "source": "thehackernews.com"
+    },
     {
       "title": "Multiple NGINX Flaws Let Remote Attackers Crash Servers and Execute Malicious Code",
       "link": "https://cybersecuritynews.com/multiple-nginx-vulnerabilities/",
@@ -17,11 +52,25 @@
       "source": "bleepingcomputer.com"
     },
     {
+      "title": "Hackers Backdoor Nextcloud Servers Through Critical Flaw in Collabora’s Built-in CODE App",
+      "link": "https://thehackernews.com/2026/10/hackers-backdoor-nextcloud-servers.html",
+      "date": "2026-10-14T17:38:31Z",
+      "description": "Attackers exploited a flaw in an optional Nextcloud app, Collabora Online - Built-in CODE Server, to plant web shells on Nextcloud servers. Three administrators reported the issue on GitHub, with the first logged attack on September 10. A web shell is a small file that executes any command an attacker sends via a web request, with the rights of the web server account. The flaw",
+      "source": "thehackernews.com"
+    },
+    {
       "title": "Cisco patches new Secure Email Gateway zero-day exploited in attacks",
       "link": "https://www.bleepingcomputer.com/news/security/cisco-patches-actively-exploited-secure-email-gateway-zero-day/",
       "date": "2026-10-14T17:29:14Z",
       "description": "Cisco has patched another actively exploited zero-day flaw in its Secure Email Gateway (SEG) that lets remote unauthenticated attackers execute commands with root privileges. [...]",
       "source": "bleepingcomputer.com"
+    },
+    {
+      "title": "Microsoft Disrupts 3 Phishing Kits Linked to Over 1 Billion Scam Messages",
+      "link": "https://thehackernews.com/2026/10/microsoft-disrupts-3-phishing-kits.html",
+      "date": "2026-10-14T17:09:15Z",
+      "description": "Microsoft and Health-ISAC, along with the Japan Cybercrime Control Center (JC3) and a coalition of private sector companies, such as Resecurity, Cloudflare, Oracle, Proofpoint, and TRM Labs, announced the disruption of three phishing kits, CoGUI (aka NX or FA), Haozi (aka Phoenix), and Iron Man System. \"Since January 2026, the threat actors behind these kits have been responsible for",
+      "source": "thehackernews.com"
     },
     {
       "title": "24 Security Vulnerabilities Patched in curl Used Across 30 Billion Installations",
@@ -101,13 +150,6 @@
       "source": "securityweek.com"
     },
     {
-      "title": "Global takedown hits network behind 1 billion phishing messages",
-      "link": "https://www.bleepingcomputer.com/news/security/global-takedown-hits-network-behind-1-billion-phishing-messages/",
-      "date": "2026-10-14T13:12:52Z",
-      "description": "A massive cybercriminal ecosystem facilitating more than a billion malicious messages targeting over 75,000 organizations across 150 countries has been disrupted by law enforcement agencies and partners worldwide. [...]",
-      "source": "bleepingcomputer.com"
-    },
-    {
       "title": "Microsoft Disrupts Chinese-Language Phishing Market Behind 1B+ Messages",
       "link": "https://www.securityweek.com/microsoft-disrupts-chinese-language-phishing-market-behind-1b-messages/",
       "date": "2026-10-14T13:00:00Z",
@@ -126,27 +168,6 @@
       "link": "https://thehackernews.com/2026/10/cisa-urges-immediate-ivanti-connect.html",
       "date": "2026-10-14T12:30:42Z",
       "description": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Tuesday urged organizations to take steps to immediately update their Ivanti Connect Secure (ICS) appliances and deployments to the latest version following the disclosure of an actively exploited vulnerability. The security flaw, tracked as CVE-2026-104935 (CVSS score: 8.6), is a case of authentication bypass impacting ICS",
-      "source": "thehackernews.com"
-    },
-    {
-      "title": "curl Patches HTTP/2 Upload Flaw After PoC Demonstrates Client-Side Code Execution",
-      "link": "https://thehackernews.com/2026/10/curl-patches-http2-upload-flaw-after.html",
-      "date": "2026-10-14T12:13:36Z",
-      "description": "A flaw in how curl handles HTTP/2 uploads lets a malicious server receiving an upload corrupt the client's memory, and the researcher who reported it turned that into code execution on the uploading machine. The curl project fixed it on October 14 in curl 8.23.0. Taking over a client needs exact knowledge of its build and memory layout, and curl expects a real attack to end in a crash",
-      "source": "thehackernews.com"
-    },
-    {
-      "title": "How to Run a Deepfake Readiness Drill Before a Cloned Voice Calls Your Team",
-      "link": "https://thehackernews.com/2026/10/how-to-run-deepfake-readiness-drill.html",
-      "date": "2026-10-14T11:50:00Z",
-      "description": "Cloned voices and synthetic video calls now show up in payment fraud, help desk resets, and access requests. A structured drill shows security teams exactly where verification breaks down, while nothing is at stake. The call comes in at 4:40 on a Friday. It's the CFO, or it sounds exactly like her, asking the controller to push a supplier payment out before the weekend because a deal closes",
-      "source": "thehackernews.com"
-    },
-    {
-      "title": "Researchers Used a Public OpenAI Model to Build a $250,000 Chrome Full-Chain Exploit in Six Days",
-      "link": "https://thehackernews.com/2026/10/researchers-used-public-openai-model-to.html",
-      "date": "2026-10-14T11:19:02Z",
-      "description": "A team at security firm XBOW chained three then-unknown Google Chrome bugs into a single attack that runs code on a Windows computer when the user only loads a web page, the company said. Its researchers built the attack in six days by directing AI agents running OpenAI's publicly available GPT-5.6 Sol model. Google has since confirmed all three bugs, fixed them, and paid XBOW its top $",
       "source": "thehackernews.com"
     },
     {
@@ -176,27 +197,6 @@
       "date": "2026-10-14T05:00:00Z",
       "description": "A CVSS score 7.8 AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H severity vulnerability discovered by 'YJK(@YJK0805) of ZUSO ART' was reported to the affected vendor on: 2026-10-14, 0 days ago. The vendor is given until 2027-02-11 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
       "source": "zerodayinitiative.com"
-    },
-    {
-      "title": "Zero-Days Lurk in Microsoft's Overgrown October Patch Tuesday",
-      "link": "https://www.darkreading.com/vulnerabilities-threats/zero-days-microsoft-october-patch-tuesday",
-      "date": "2026-10-13T22:29:57Z",
-      "description": "The scary surprises in the largest security update ever include security bypasses and unauthenticated RCEs.",
-      "source": "darkreading.com"
-    },
-    {
-      "title": "North Korea Phishes Ukrainians for War Intel",
-      "link": "https://www.darkreading.com/cyberattacks-data-breaches/north-korea-phishes-ukrainians-war-intel",
-      "date": "2026-10-13T21:24:45Z",
-      "description": "The Democratic People's Republic of Korea (DPRK) is trying to get insight into its own war effort in Ukraine, through simple reply-baiting phishing attacks.",
-      "source": "darkreading.com"
-    },
-    {
-      "title": "Anthropic Finds Ingredients for Future AI Worms",
-      "link": "https://www.darkreading.com/perimeter/anthropic-ingredients-future-ai-worms",
-      "date": "2026-10-13T20:35:23Z",
-      "description": "Anthropic's latest study combined IoT and network tests to explore AI self-replication, which researchers said would be \"challenging\" to shut down.",
-      "source": "darkreading.com"
     },
     {
       "title": "ZDI-CAN-33446: Microsoft",
