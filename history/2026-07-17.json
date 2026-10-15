@@ -1,6 +1,6 @@
 {
   "date": "2026-07-17",
-  "count": 15,
+  "count": 5,
   "items": [
     {
       "id": "7b70195013a75cfbac6827476c429fa5201bcfc5",
@@ -51,106 +51,6 @@
       "source": "darkreading.com",
       "first_seen": "2026-07-17T20:46:16Z",
       "last_seen": "2026-07-20T20:59:42Z"
-    },
-    {
-      "id": "9f9f68007afe73fcd541e44c11672085c6496a18",
-      "title": "Seven Malicious Vite npm Packages Use Blockchain C2 to Deliver a RAT",
-      "link": "https://thehackernews.com/2026/07/seven-malicious-vite-npm-packages-use.html",
-      "date": "2026-07-17T18:54:51Z",
-      "description": "Cybersecurity researchers have discovered a cluster of seven malicious npm packages targeting the Vite frontend tooling ecosystem as part of a software supply chain attack. The malicious package campaign, codenamed ViteVenom by Checkmarx, marks an expansion of ChainVeil, which was observed using an \"unprecedented\" four-tier blockchain-based command-and-control (C2) infrastructure spanning Tron,",
-      "source": "thehackernews.com",
-      "first_seen": "2026-07-17T19:57:21Z",
-      "last_seen": "2026-07-19T20:01:21Z"
-    },
-    {
-      "id": "70cf234d3d78e12d20a7d29035babe61784cd1e5",
-      "title": "OpenSSL “HollowByte” Vulnerability Lets Hackers Crash Servers With Just 11 Bytes",
-      "link": "https://cybersecuritynews.com/openssl-hollowbyte-vulnerability/",
-      "date": "2026-07-17T18:21:11Z",
-      "description": "A newly disclosed vulnerability in OpenSSL, dubbed “HollowByte,” allows a remote, unauthenticated attacker to trigger a denial-of-service (DoS) condition using a malicious payload as small as 11 bytes. Discovered by the Okta Red Team, the flaw exploits how OpenSSL pre-allocates memory during the TLS handshake, forcing servers to reserve massive memory chunks before any authentication […] The…",
-      "source": "cybersecuritynews.com",
-      "first_seen": "2026-07-17T19:57:21Z",
-      "last_seen": "2026-07-19T01:29:41Z"
-    },
-    {
-      "id": "38f4e5d486a38a214d509770c59585fad51f9320",
-      "title": "HollowByte DDoS flaw bloats OpenSSL server memory with 11-byte payload",
-      "link": "https://www.bleepingcomputer.com/news/security/hollowbyte-ddos-flaw-bloats-openssl-server-memory-with-11-byte-payload/",
-      "date": "2026-07-17T17:56:21Z",
-      "description": "A vulnerability dubbed HollowByte allows unauthenticated attackers to trigger a denial-of-service (DoS) condition on OpenSSL servers with a malicious payload of just 11 bytes. [...]",
-      "source": "bleepingcomputer.com",
-      "first_seen": "2026-07-17T18:02:34Z",
-      "last_seen": "2026-07-18T18:44:29Z"
-    },
-    {
-      "id": "0998c8ace13ac438180f448a60e1adffc5ca377b",
-      "title": "Ransomware Attack on Coca-Cola-Owned Fairlife Halts Production Across the United States",
-      "link": "https://cybersecuritynews.com/coca-cola-owned-fairlife-cyberattack/",
-      "date": "2026-07-17T17:53:52Z",
-      "description": "Coca-Cola has reported a ransomware attack affecting its dairy subsidiary, Fairlife, resulting in a temporary shutdown of production operations across the United States. This incident was disclosed in a Form 8-K filing submitted to the U.S. Securities and Exchange Commission on July 16, 2026. The filing confirmed that unauthorized access was gained to parts of […] The post Ransomware Attack on…",
-      "source": "cybersecuritynews.com",
-      "first_seen": "2026-07-17T18:02:34Z",
-      "last_seen": "2026-07-18T16:42:59Z"
-    },
-    {
-      "id": "ab887bc89968fafa4083e9e52608efd34a9f9462",
-      "title": "EY Data Breach – Hackers Gain Access to IT Support System and Download Documents",
-      "link": "https://cybersecuritynews.com/ey-data-breach/",
-      "date": "2026-07-17T17:28:40Z",
-      "description": "Ernst & Young LLP (EY) is notifying clients that an unauthorized third party breached a support ticket platform used by its IT staff, downloading documents containing client tax data during a roughly two-week window this spring. The Big Four accounting and consulting giant filed breach notifications with the California Attorney General’s office on July 15, […] The post EY Data Breach – Hackers…",
-      "source": "cybersecuritynews.com",
-      "first_seen": "2026-07-17T18:02:34Z",
-      "last_seen": "2026-07-18T10:08:40Z"
-    },
-    {
-      "id": "e9d0fc686bd4d9e35998b2cc44ac030830a110b4",
-      "title": "New NadMesh Botnet Hunts Exposed AI Services for Cloud Keys and Kubernetes Tokens",
-      "link": "https://thehackernews.com/2026/07/new-nadmesh-botnet-hunts-exposed-ai.html",
-      "date": "2026-07-17T17:12:23Z",
-      "description": "A Go botnet called NadMesh turned up in early July hunting exposed AI services, and the operator's own dashboard claims 3,811 unique AWS keys. A Shodan harvester keeps the scan queue stocked with ComfyUI, Ollama, n8n, Open WebUI, Langflow, and Gradio: the image generators, local model runners, and workflow builders that teams stand up fast and firewall late. The intel feed behind that counter",
-      "source": "thehackernews.com",
-      "first_seen": "2026-07-17T18:02:34Z",
-      "last_seen": "2026-07-19T12:52:14Z"
-    },
-    {
-      "id": "4beb81b13cd1d429f60f48f6c8112a3fa3bf0106",
-      "title": "PentestCode – New AI Agent That Automates Penetration Testing with 18 Specialized Tools",
-      "link": "https://cybersecuritynews.com/pentestcode-ai-agent/",
-      "date": "2026-07-17T17:00:08Z",
-      "description": "A new open-source tool is bringing autonomous AI agents into offensive security workflows. PentestCode, a hard fork of OpenCode rebuilt specifically for penetration testing, runs security tools, analyzes their output, and makes tactical decisions all from a terminal interface, with minimal human intervention required. The tool’s core pitch is methodology automation. A tester can input […] The…",
-      "source": "cybersecuritynews.com",
-      "first_seen": "2026-07-17T18:02:34Z",
-      "last_seen": "2026-07-18T08:41:51Z"
-    },
-    {
-      "id": "542080581a56b5476fed0f66488aaf5a0ca23a6f",
-      "title": "The Real AI Threat Is Blind Trust",
-      "link": "https://www.darkreading.com/application-security/real-ai-threat-blind-trust",
-      "date": "2026-07-17T16:43:13Z",
-      "description": "AI models left to both interpret and execute commands eliminate critical cybersecurity oversight.",
-      "source": "darkreading.com",
-      "first_seen": "2026-07-17T18:02:34Z",
-      "last_seen": "2026-07-20T19:23:41Z"
-    },
-    {
-      "id": "a3d042cb7e6051c5ad477f864b7754a463f1c1aa",
-      "title": "GoldenEyeDog Subgroup Linked to DigiCert Breach and Code-Signing Certificate Theft",
-      "link": "https://thehackernews.com/2026/07/goldeneyedog-subgroup-linked-to.html",
-      "date": "2026-07-17T16:39:16Z",
-      "description": "Cybersecurity researchers have attributed the April 2026 DigiCert security incident to a threat activity cluster dubbed CylindricalCanine. Expel, which shared technical details of the event, described the threat actor as a sub-group of GoldenEyeDog (aka APT-Q-27, Dragon Breath, and Miuuti Group), a Chinese cybercrime group known for its targeting of the gambling and gaming sectors using",
-      "source": "thehackernews.com",
-      "first_seen": "2026-07-17T18:02:34Z",
-      "last_seen": "2026-07-19T12:52:14Z"
-    },
-    {
-      "id": "206ee6afa67fd40378a73e28045055f15c17d942",
-      "title": "Gold Eagle Clearinghouse Targets Security Gap, but How Is Unclear",
-      "link": "https://www.darkreading.com/vulnerabilities-threats/gold-eagle-clearinghouse-targets-security-gap",
-      "date": "2026-07-17T13:00:00Z",
-      "description": "The White House launched Gold Eagle to coordinate vulnerability response in a new AI world, but multiple questions linger over how it's being implemented.",
-      "source": "darkreading.com",
-      "first_seen": "2026-07-17T18:02:34Z",
-      "last_seen": "2026-07-20T17:19:15Z"
     }
   ]
 }
