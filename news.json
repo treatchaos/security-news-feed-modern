@@ -1,7 +1,49 @@
 {
-  "last_updated": "2026-10-15T01:04:24Z",
-  "count": 30,
+  "last_updated": "2026-10-15T06:41:02Z",
+  "count": 35,
   "items": [
+    {
+      "title": "Cisco Warns of Exploited Secure Email Gateway Vulnerability",
+      "link": "https://www.securityweek.com/cisco-warns-of-exploited-secure-email-gateway-vulnerability/",
+      "date": "2026-10-15T06:34:15Z",
+      "description": "Unauthenticated, remote attackers could write arbitrary files to the operating system and execute commands with root privileges. The post Cisco Warns of Exploited Secure Email Gateway Vulnerability appeared first on SecurityWeek.",
+      "source": "securityweek.com"
+    },
+    {
+      "title": "Palo Alto Networks Patches PAN-OS Authenticated RCE Flaw Amid Active Exploitation",
+      "link": "https://thehackernews.com/2026/10/palo-alto-networks-patches-pan-os.html",
+      "date": "2026-10-15T06:17:58Z",
+      "description": "Palo Alto Networks on Wednesday issued security updates for a high-severity flaw in PAN-OS software that has come under active exploitation. The vulnerability, tracked as CVE-2026-0322 (CVSS score: 8.6), is a case of remote code execution in the management interface. \"A remote code execution (RCE) vulnerability in the management interface of Palo Alto Networks PAN-OS software enables an",
+      "source": "thehackernews.com"
+    },
+    {
+      "title": "Fake Chrome App on Google Play Evades Detection and Reaches 100,000+ Downloads",
+      "link": "https://cybersecuritynews.com/fake-chrome-app/",
+      "date": "2026-10-15T06:03:34Z",
+      "description": "A fake Google Chrome app appeared on Google Play with a screenshot showing more than 100,000 downloads, raising fresh concerns about app checks and paid search results. The listing copied Chrome’s name, icon, and description, but its developer was Hizbartech rather than Google LLC. The app reportedly appeared above the real browser as a sponsored […] The post Fake Chrome App on Google Play…",
+      "source": "cybersecuritynews.com"
+    },
+    {
+      "title": "Multiple Active Directory Vulnerabilities Let Attackers Bypass Security Feature Remotely",
+      "link": "https://cybersecuritynews.com/multiple-active-directory-vulnerabilities/",
+      "date": "2026-10-15T03:51:31Z",
+      "description": "Microsoft has disclosed three Active Directory vulnerabilities that could let a remote attacker bypass a key security feature in Windows domain environments. The issues are tracked as CVE-2026-69982, CVE-2026-96252, and CVE-2026-108131, and administrators should review Microsoft’s Security Update Guide entries and deploy the available fixes as soon as possible. Active Directory is the central…",
+      "source": "cybersecuritynews.com"
+    },
+    {
+      "title": "Hackers Exploit Palo Alto PAN-OS 0-day Flaw to Gain Root Code Execution on Firewalls",
+      "link": "https://cybersecuritynews.com/pan-os-0-day-vulnerability/",
+      "date": "2026-10-15T03:42:50Z",
+      "description": "Hackers are exploiting a high-severity flaw in Palo Alto Networks PAN-OS that allows authenticated attackers to run code with root privileges on affected firewalls. Tracked as CVE-2026-0322, the vulnerability affects the management interface, with the company confirming “very limited exploitation” and urging customers to apply fixes as soon as possible. Palo Alto Networks published its […] The…",
+      "source": "cybersecuritynews.com"
+    },
+    {
+      "title": "Cisco Secure Email Gateway 0-Day Vulnerability Actively Exploited in Attacks",
+      "link": "https://cybersecuritynews.com/cisco-secure-email-gateway-0-day-vulnerability/",
+      "date": "2026-10-15T03:06:04Z",
+      "description": "Cisco has warned that attackers are actively exploiting a critical zero-day vulnerability in Cisco Secure Email Gateway that can give them root access to affected appliances. Tracked as CVE-2026-76519, the flaw carries a CVSS score of 9.8 and allows attacks through specially crafted email attachments without requiring a login. Cisco published its advisory on October […] The post Cisco Secure…",
+      "source": "cybersecuritynews.com"
+    },
     {
       "title": "Palo Alto Networks warns of PAN-OS RCE flaw exploited in attacks",
       "link": "https://www.bleepingcomputer.com/news/security/palo-alto-networks-warns-of-pan-os-rce-flaw-exploited-in-attacks/",
@@ -45,6 +87,13 @@
       "source": "thehackernews.com"
     },
     {
+      "title": "Multiple NGINX Flaws Let Remote Attackers Crash Servers and Execute Malicious Code",
+      "link": "https://cybersecuritynews.com/multiple-nginx-vulnerabilities/",
+      "date": "2026-10-14T18:19:03Z",
+      "description": "F5 has disclosed three serious security flaws in NGINX Plus and NGINX Open Source that can let remote, unauthenticated attackers crash worker processes by sending crafted HTTP requests. In certain setups, the memory errors could also allow code execution, although F5 says that outcome requires Address Space Layout Randomization, known as ASLR, to be disabled […] The post Multiple NGINX Flaws Let…",
+      "source": "cybersecuritynews.com"
+    },
+    {
       "title": "Ledger asks sellers across Asia to halt sales after supply-chain attack",
       "link": "https://www.bleepingcomputer.com/news/security/ledger-asks-sellers-across-asia-to-halt-sales-after-supply-chain-attack/",
       "date": "2026-10-14T17:46:50Z",
@@ -76,7 +125,7 @@
       "title": "U.S. Shuts Down Over 40 Laptop Farms, Charges 14 in North Korean IT Worker Fraud",
       "link": "https://thehackernews.com/2026/10/us-shuts-down-over-40-laptop-farms.html",
       "date": "2026-10-14T16:34:31Z",
-      "description": "The U.S. Department of Justice (DoJ) on Tuesday charged 14 people and seized about 187 computers as part of its ongoing efforts to disrupt North Korea's fraudulent remote IT worker (ITW) scheme. The indictment charges a mix of U.S. citizens and Chinese nationals for their roles in an IT worker conspiracy affecting more than 70 U.S. companies, charging them with wire fraud conspiracy, money",
+      "description": "The U.S. Department of Justice (DoJ) on Tuesday charged 14 people and seized about 187 computers and KVM devices as part of its ongoing efforts to disrupt North Korea's fraudulent remote IT worker (ITW) scheme. The indictment charges a mix of U.S. citizens and Chinese nationals for their roles in an IT worker conspiracy affecting more than 70 U.S. companies, charging them with wire fraud",
       "source": "thehackernews.com"
     },
     {
@@ -115,25 +164,11 @@
       "source": "securityweek.com"
     },
     {
-      "title": "Microsoft Disrupts Chinese-Language Phishing Market Behind 1B+ Messages",
-      "link": "https://www.securityweek.com/microsoft-disrupts-chinese-language-phishing-market-behind-1b-messages/",
-      "date": "2026-10-14T13:00:00Z",
-      "description": "Backed by a federal court order, Microsoft and Health-ISAC seized domains powering YAM Store, CoGUI, and Iron Man. The post Microsoft Disrupts Chinese-Language Phishing Market Behind 1B+ Messages appeared first on SecurityWeek.",
-      "source": "securityweek.com"
-    },
-    {
       "title": "Russian Influence Operation Widely Targeting Latin America",
       "link": "https://www.darkreading.com/cyberattacks-data-breaches/russian-influence-operation-targeting-latin-america",
       "date": "2026-10-14T13:00:00Z",
       "description": "The AI-enabled operation used spoofed emails, fake government documents, and the creation of a local organization to target schools in Peru and Ecuador, among other efforts.",
       "source": "darkreading.com"
-    },
-    {
-      "title": "CISA Urges Immediate Ivanti Connect Secure Updates as Honeypots Log 105 Exploit Attempts",
-      "link": "https://thehackernews.com/2026/10/cisa-urges-immediate-ivanti-connect.html",
-      "date": "2026-10-14T12:30:42Z",
-      "description": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Tuesday urged organizations to take steps to immediately update their Ivanti Connect Secure (ICS) appliances and deployments to the latest version following the disclosure of an actively exploited vulnerability. The security flaw, tracked as CVE-2026-104935 (CVSS score: 8.6), is a case of authentication bypass impacting ICS",
-      "source": "thehackernews.com"
     },
     {
       "title": "Ransomware Gangs Embrace Physical Threats, Family Stalking?",
@@ -146,35 +181,35 @@
       "title": "ZDI-CAN-32462: Samba",
       "link": "http://www.zerodayinitiative.com/advisories/upcoming/",
       "date": "2026-10-14T05:00:00Z",
-      "description": "A CVSS score 6.5 AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N severity vulnerability discovered by 'Anonymous' was reported to the affected vendor on: 2026-10-14, 0 days ago. The vendor is given until 2027-02-11 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
+      "description": "A CVSS score 6.5 AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N severity vulnerability discovered by 'Anonymous' was reported to the affected vendor on: 2026-10-14, 1 days ago. The vendor is given until 2027-02-11 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
       "source": "zerodayinitiative.com"
     },
     {
       "title": "ZDI-CAN-33522: Microsoft",
       "link": "http://www.zerodayinitiative.com/advisories/upcoming/",
       "date": "2026-10-14T05:00:00Z",
-      "description": "A CVSS score 7.7 AV:L/AC:H/PR:N/UI:R/S:C/C:H/I:H/A:H severity vulnerability discovered by 'Lucas Miller of TrendAI Research' was reported to the affected vendor on: 2026-10-14, 0 days ago. The vendor is given until 2027-02-11 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
+      "description": "A CVSS score 7.7 AV:L/AC:H/PR:N/UI:R/S:C/C:H/I:H/A:H severity vulnerability discovered by 'Lucas Miller of TrendAI Research' was reported to the affected vendor on: 2026-10-14, 1 days ago. The vendor is given until 2027-02-11 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
       "source": "zerodayinitiative.com"
     },
     {
       "title": "ZDI-CAN-31758: NVIDIA",
       "link": "http://www.zerodayinitiative.com/advisories/upcoming/",
       "date": "2026-10-14T05:00:00Z",
-      "description": "A CVSS score 7.8 AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H severity vulnerability discovered by 'YJK(@YJK0805) of ZUSO ART' was reported to the affected vendor on: 2026-10-14, 0 days ago. The vendor is given until 2027-02-11 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
+      "description": "A CVSS score 7.8 AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H severity vulnerability discovered by 'YJK(@YJK0805) of ZUSO ART' was reported to the affected vendor on: 2026-10-14, 1 days ago. The vendor is given until 2027-02-11 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
       "source": "zerodayinitiative.com"
     },
     {
       "title": "ZDI-CAN-33446: Microsoft",
       "link": "http://www.zerodayinitiative.com/advisories/upcoming/",
       "date": "2026-10-09T05:00:00Z",
-      "description": "A CVSS score 8.6 AV:L/AC:L/PR:N/UI:R/S:C/C:H/I:H/A:H severity vulnerability discovered by 'Lucas Miller of TrendAI Research' was reported to the affected vendor on: 2026-10-09, 5 days ago. The vendor is given until 2027-02-06 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
+      "description": "A CVSS score 8.6 AV:L/AC:L/PR:N/UI:R/S:C/C:H/I:H/A:H severity vulnerability discovered by 'Lucas Miller of TrendAI Research' was reported to the affected vendor on: 2026-10-09, 6 days ago. The vendor is given until 2027-02-06 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
       "source": "zerodayinitiative.com"
     },
     {
       "title": "ZDI-CAN-33830: Microsoft",
       "link": "http://www.zerodayinitiative.com/advisories/upcoming/",
       "date": "2026-10-09T05:00:00Z",
-      "description": "A CVSS score 8.6 AV:L/AC:L/PR:N/UI:R/S:C/C:H/I:H/A:H severity vulnerability discovered by 'Lucas Miller of TrendAI Research' was reported to the affected vendor on: 2026-10-09, 5 days ago. The vendor is given until 2027-02-06 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
+      "description": "A CVSS score 8.6 AV:L/AC:L/PR:N/UI:R/S:C/C:H/I:H/A:H severity vulnerability discovered by 'Lucas Miller of TrendAI Research' was reported to the affected vendor on: 2026-10-09, 6 days ago. The vendor is given until 2027-02-06 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
       "source": "zerodayinitiative.com"
     },
     {
