@@ -1,7 +1,87 @@
 {
   "date": "2026-10-16",
-  "count": 29,
+  "count": 37,
   "items": [
+    {
+      "id": "75450a47d22b1ded790b3864bdef4d40f72c56e7",
+      "title": "Critical BlockStrap flaw lets hackers run code on Magento servers",
+      "link": "https://www.bleepingcomputer.com/news/security/critical-blockstrap-flaw-lets-hackers-run-code-on-magento-servers/",
+      "date": "2026-10-16T20:00:59Z",
+      "description": "Researchers warn that hackers could soon exploit a maximum-severity vulnerability (CVE-2026-103849) affecting Magento and Adobe Commerce, potentially allowing them to execute arbitrary PHP code on store servers. [...]",
+      "source": "bleepingcomputer.com",
+      "first_seen": "2026-10-16T20:13:03Z",
+      "last_seen": "2026-10-16T20:13:03Z"
+    },
+    {
+      "id": "2a267b894c313f18b1acb8ff8ea48c9cd165c4e1",
+      "title": "Fake Claude, ChatGPT Attacks Surge, Putting Developers at Risk",
+      "link": "https://www.darkreading.com/application-security/fake-claude-chatgpt-attacks-developers-risk",
+      "date": "2026-10-16T19:49:30Z",
+      "description": "Campaigns that impersonate popular AI brands are on the rise, and they typically use ClickFix-like tactics to target unsuspecting enterprise employees.",
+      "source": "darkreading.com",
+      "first_seen": "2026-10-16T20:13:03Z",
+      "last_seen": "2026-10-16T20:13:03Z"
+    },
+    {
+      "id": "e4774d14d9ade45ea92fab23c4b813dffae4cb8c",
+      "title": "Biomemory Launches DNA Shield, First Commercial Product Built on Its Molecular IT Platform",
+      "link": "https://www.darkreading.com/data-privacy/biomemory-launches-dna-shield",
+      "date": "2026-10-16T19:22:12Z",
+      "description": "The launch follows the acquisition of catalog's assets and the appointment of Laurent Guengant as CEO earlier this year.",
+      "source": "darkreading.com",
+      "first_seen": "2026-10-16T20:13:03Z",
+      "last_seen": "2026-10-16T20:13:03Z"
+    },
+    {
+      "id": "301c80854a95a7b29915f16d58dd78f076b52a20",
+      "title": "Enterprise AI Enters Risk Management Phase as Security Concerns Rise",
+      "link": "https://www.darkreading.com/cyber-risk/enterprise-ai-risk-management-phase-security-concerns-rise",
+      "date": "2026-10-16T19:13:59Z",
+      "description": "Companies are increasingly discovering that the challenge with AI is no longer adoption, but execution.",
+      "source": "darkreading.com",
+      "first_seen": "2026-10-16T20:13:03Z",
+      "last_seen": "2026-10-16T20:13:03Z"
+    },
+    {
+      "id": "40c1b5e4cc79d7ad8f31809233f41b1a629217ea",
+      "title": "AI Takes Control of Robotic Arm in 16 Minutes Flat",
+      "link": "https://www.darkreading.com/ics-ot-security/ai-takes-control-robotic-arm-16-minutes",
+      "date": "2026-10-16T18:37:50Z",
+      "description": "Most OT devices at utilities, factories, and elsewhere have been deployed for a decade or more, but operators need to get agile and deploy new cyber defenses.",
+      "source": "darkreading.com",
+      "first_seen": "2026-10-16T20:13:03Z",
+      "last_seen": "2026-10-16T20:13:03Z"
+    },
+    {
+      "id": "bf67848d404d100667ff758cc84e2cb93c210f04",
+      "title": "Researchers Demonstrate OpenBSD Root Exploit Chaining 37-Year-Old Shared-Memory Bug",
+      "link": "https://thehackernews.com/2026/10/researchers-demonstrate-openbsd-root.html",
+      "date": "2026-10-16T17:48:45Z",
+      "description": "A local privilege escalation exploit published today gains root on OpenBSD 7.9 by chaining a roughly 37-year-old integer overflow with a separate kernel flaw, bypassing OpenBSD's KARL kernel-address randomization and its SMAP and SMEP hardware protections. Security firm Calif, which found and reported the flaws, published a detailed writeup and full proof-of-concept code after OpenBSD shipped",
+      "source": "thehackernews.com",
+      "first_seen": "2026-10-16T20:13:03Z",
+      "last_seen": "2026-10-16T20:13:03Z"
+    },
+    {
+      "id": "bf77883621d83a86dfb8d38394f7d57db5c61408",
+      "title": "Targeted ads installed Candiru spyware in zero-click attacks",
+      "link": "https://www.bleepingcomputer.com/news/security/zero-click-attacks-used-targeted-ads-to-deliver-candiru-spyware/",
+      "date": "2026-10-16T17:20:03Z",
+      "description": "Candiru spyware was delivered to devices at Al Jazeera Media Network via targeted online advertisements in a zero-click attack that required only rendering the malicious ads on the victim's device. [...]",
+      "source": "bleepingcomputer.com",
+      "first_seen": "2026-10-16T20:13:03Z",
+      "last_seen": "2026-10-16T20:13:03Z"
+    },
+    {
+      "id": "88757816d24544e5ccde7abad7c9ce98c3439b3e",
+      "title": "Attackers Tampered with AOMEI Backupper's Update Servers for Minutes to Deliver a Backdoor",
+      "link": "https://thehackernews.com/2026/10/attackers-tampered-with-aomei.html",
+      "date": "2026-10-16T16:43:39Z",
+      "description": "Attackers repeatedly changed the files that AOMEI Backupper fetches from the vendor's own update servers, in windows of five to ten minutes at a time between May and July 2026, so that any copy of the Windows backup program that checked for an update during one of those windows would download and run a backdoor. Google Threat Intelligence Group, Mandiant, and ManageEngine's Threat Analysis",
+      "source": "thehackernews.com",
+      "first_seen": "2026-10-16T20:13:03Z",
+      "last_seen": "2026-10-16T20:13:03Z"
+    },
     {
       "id": "b9561c76bb74146d9a118a91d8ba1cec04621be5",
       "title": "UAT-11985 Uses Fake Event Invites to Target Taiwan Research Affiliates With Google AitM Phishing",
@@ -10,7 +90,7 @@
       "description": "Cybersecurity researchers have disclosed details of an advanced persistent threat (APT) spear-phishing campaign that has targeted individuals affiliated with Taiwan research organizations to direct victims to an adversary-in-the-middle (AitM) phishing framework designed to harvest their Google account credentials and multi-factor authentication (MFA) codes. The activity is being tracked by",
       "source": "thehackernews.com",
       "first_seen": "2026-10-16T17:03:05Z",
-      "last_seen": "2026-10-16T17:03:05Z"
+      "last_seen": "2026-10-16T20:13:03Z"
     },
     {
       "id": "ad153f432167023446fdb961e05387084c77e54a",
@@ -20,7 +100,7 @@
       "description": "Hackers are using a newly identified platform called ROMULUS to deliver malware through ClickFix traps, combining hidden PowerShell scripts, altered software installers, and encrypted archives. The platform supports separate infection paths, including one that installs LegionLoader and another that abuses a legitimate Stardock program to load malicious code. The findings show how a single…",
       "source": "cybersecuritynews.com",
       "first_seen": "2026-10-16T17:03:05Z",
-      "last_seen": "2026-10-16T17:03:05Z"
+      "last_seen": "2026-10-16T20:13:03Z"
     },
     {
       "id": "91616b0193970a593774d627fd0c47fd9b9aeb14",
@@ -30,7 +110,7 @@
       "description": "Noteworthy stories that might have slipped under the radar: BofA adds 1,000 patching contractors, KGB RAT pairs data theft with jump scares, and Langflow flaw under attack. The post In Other News: ICS-Sniper Attack, Hacking XWorm Malware Operators, $250k Chrome Exploit appeared first on SecurityWeek.",
       "source": "securityweek.com",
       "first_seen": "2026-10-16T17:03:05Z",
-      "last_seen": "2026-10-16T17:03:05Z"
+      "last_seen": "2026-10-16T20:13:03Z"
     },
     {
       "id": "8335707662a20b76ef0d35dc02d4d40c6b8d5058",
@@ -40,7 +120,7 @@
       "description": "A newly analyzed Android remote-access Trojan called YuanKong can watch and control a victim’s phone, capture passwords and payment PINs, and send stolen information to operators. Rather than relying on access to text messages or contact lists, it uses Android’s Accessibility features and screen controls to observe what people do inside apps, including banking and […] The post New YuanKong…",
       "source": "cybersecuritynews.com",
       "first_seen": "2026-10-16T17:03:05Z",
-      "last_seen": "2026-10-16T17:03:05Z"
+      "last_seen": "2026-10-16T20:13:03Z"
     },
     {
       "id": "f038af8d1d59eee9a5b1c264a2b0781f41d8ce75",
@@ -50,7 +130,7 @@
       "description": "OpenAI has disclosed seven new incidents in which its artificial intelligence (AI) models exhibited misaligned behavior, including one case where its research model, after not having funds on an Ethereum test network, spent test cryptocurrency from a third-party's wallet without authorization to complete a coding task. The incident, the AI company said, involved an internal research model part",
       "source": "thehackernews.com",
       "first_seen": "2026-10-16T17:03:05Z",
-      "last_seen": "2026-10-16T17:03:05Z"
+      "last_seen": "2026-10-16T20:13:03Z"
     },
     {
       "id": "114f058baa961ce9039fd8bf39c0f608e3c9bdf9",
@@ -60,7 +140,7 @@
       "description": "A proof-of-concept exploit that gains root access on OpenBSD by chaining two kernel flaws. The main bug dates back about 37 years to the original BSD source code. According to Security researchers at Calif, the flaw survived because a shared memory attachment counter named shm_nattch used a signed 16-bit value. OpenBSD fixed both issues before […] The post 37-Year-Old Kernel Flaw Exploited to…",
       "source": "cybersecuritynews.com",
       "first_seen": "2026-10-16T17:03:05Z",
-      "last_seen": "2026-10-16T17:03:05Z"
+      "last_seen": "2026-10-16T20:13:03Z"
     },
     {
       "id": "2cc7ec984d8ddaccdf8e0d7266ef9664167b07b9",
@@ -70,7 +150,7 @@
       "description": "The shocking arrest of a well-known ransomware negotiator reveals the critical need for vendor program oversight.",
       "source": "darkreading.com",
       "first_seen": "2026-10-16T17:03:05Z",
-      "last_seen": "2026-10-16T17:03:05Z"
+      "last_seen": "2026-10-16T20:13:03Z"
     },
     {
       "id": "66bd7f85674ca763cce3638a517a40568f9af817",
@@ -80,7 +160,7 @@
       "description": "Employees using personal ChatGPT accounts at work can expose sensitive company data, even when their organization provides an approved Enterprise workspace. NordLayer explains how IT teams can investigate unauthorized AI use and block sensitive information before it reaches personal accounts. [...]",
       "source": "bleepingcomputer.com",
       "first_seen": "2026-10-16T17:03:05Z",
-      "last_seen": "2026-10-16T17:03:05Z"
+      "last_seen": "2026-10-16T20:13:03Z"
     },
     {
       "id": "5393194e52f34c20633a2056194ee90e8d3d80ee",
@@ -90,7 +170,7 @@
       "description": "A campaign against government organizations and state-linked infrastructure used AI-assisted scripts to steal credentials, maintain access to Linux servers and seek sensitive data, according to new research. The attackers altered users’ shell startup files to intercept the sudo command, then copied entered passwords to a file while passing them to the real command. This let […] The post Hackers…",
       "source": "cybersecuritynews.com",
       "first_seen": "2026-10-16T17:03:05Z",
-      "last_seen": "2026-10-16T17:03:05Z"
+      "last_seen": "2026-10-16T20:13:03Z"
     },
     {
       "id": "19df2281699fc8c9f424dbd590b12cf437f25bda",
@@ -110,7 +190,7 @@
       "description": "Hackers have abused more than 20,000 Cloudflare Pages domains over six months to spread fake Microsoft security alerts and steer users toward scam call centers. The campaign uses Help Traffic Distribution System, or Help TDS, to route visitors from compromised websites, malicious ads, social media, and spam into tech support scams. The pages claim that […] The post Hackers Abuse 20,000…",
       "source": "cybersecuritynews.com",
       "first_seen": "2026-10-16T12:49:15Z",
-      "last_seen": "2026-10-16T17:03:05Z"
+      "last_seen": "2026-10-16T20:13:03Z"
     },
     {
       "id": "9a2e9e2911ad66db09a11e4ce0e8b9df83ddd15a",
@@ -140,7 +220,7 @@
       "description": "Burger King Japan, the Japanese subsidiary of global fast-food giant Burger King, disclosed a major data breach after attackers accessed a server containing 11.18 million customer records. [...]",
       "source": "bleepingcomputer.com",
       "first_seen": "2026-10-16T12:49:15Z",
-      "last_seen": "2026-10-16T17:03:05Z"
+      "last_seen": "2026-10-16T20:13:03Z"
     },
     {
       "id": "81050cd82f2a0c063b0bb5874e3f61fe17dbe82c",
@@ -150,7 +230,7 @@
       "description": "A cyber incident affecting contractor BAE Systems has knocked out the Bankruptcy Noticing Center, halting notices nationwide for a week. The post BAE Systems Security Incident Stalls Notices From US Bankruptcy Courts appeared first on SecurityWeek.",
       "source": "securityweek.com",
       "first_seen": "2026-10-16T12:49:15Z",
-      "last_seen": "2026-10-16T17:03:05Z"
+      "last_seen": "2026-10-16T20:13:03Z"
     },
     {
       "id": "8e174600c3bf85b14f16fa8857f6060666a19ede",
@@ -160,7 +240,7 @@
       "description": "In the space of a month, a new category of AI model went from nonexistent to everywhere. TypeSafe AI released Jev on September 15 and called it a System One model, a nod to Kahneman's fast, intuitive thinking. OpenAI announced its own Decisions API at DevDay and opened a public beta on October 6. Cribl published cribl-decision, an open LoRA adapter you can run locally. Others, like Laya, are",
       "source": "thehackernews.com",
       "first_seen": "2026-10-16T12:49:15Z",
-      "last_seen": "2026-10-16T17:03:05Z"
+      "last_seen": "2026-10-16T20:13:03Z"
     },
     {
       "id": "e0432f205dc0b3f7a947afb71d495f36672e158b",
@@ -180,7 +260,7 @@
       "description": "Armory Castle exploited CVE-2026-102764 for initial access, deployed custom tools, and deleted logs and artifacts. The post Chinese APT Exploited BeyondTrust Vulnerability as Zero-Day appeared first on SecurityWeek.",
       "source": "securityweek.com",
       "first_seen": "2026-10-16T12:49:15Z",
-      "last_seen": "2026-10-16T17:03:05Z"
+      "last_seen": "2026-10-16T20:13:03Z"
     },
     {
       "id": "6ee71de875c9a764673786332ec2bea3787da14c",
@@ -190,7 +270,7 @@
       "description": "Left without funds for a coding task, an OpenAI model spent test crypto from a stranger’s wallet and left it out of its report. The post OpenAI Models Hacked Data Portals, Raided a Crypto Wallet to Finish Tasks appeared first on SecurityWeek.",
       "source": "securityweek.com",
       "first_seen": "2026-10-16T12:49:15Z",
-      "last_seen": "2026-10-16T17:03:05Z"
+      "last_seen": "2026-10-16T20:13:03Z"
     },
     {
       "id": "eb15d8fa2bba37bc1493df9da5cf68e512a10b57",
@@ -210,7 +290,7 @@
       "description": "Successful exploitation of some of these issues could lead to remote code execution and full device takeover. The post F5, Juniper Networks Patch Critical Vulnerabilities appeared first on SecurityWeek.",
       "source": "securityweek.com",
       "first_seen": "2026-10-16T12:49:15Z",
-      "last_seen": "2026-10-16T17:03:05Z"
+      "last_seen": "2026-10-16T20:13:03Z"
     },
     {
       "id": "09ac93644c62eb70396ee5209321c99b974749fc",
@@ -220,7 +300,7 @@
       "description": "Microsoft says some users may have trouble turning on Smart App Control after installing this month's KB5127648 Windows 11 security update. [...]",
       "source": "bleepingcomputer.com",
       "first_seen": "2026-10-16T12:49:15Z",
-      "last_seen": "2026-10-16T17:03:05Z"
+      "last_seen": "2026-10-16T20:13:03Z"
     },
     {
       "id": "b8aede3d0dcbd6a3bc56986d67246c4d37849098",
