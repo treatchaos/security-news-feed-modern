@@ -1,7 +1,21 @@
 {
-  "last_updated": "2026-10-19T00:35:12Z",
-  "count": 30,
+  "last_updated": "2026-10-19T05:27:33Z",
+  "count": 35,
   "items": [
+    {
+      "title": "Hackers Exploiting Plex Vulnerabilities in the Wild to Deploy Cryptominer Malware",
+      "link": "https://cybersecuritynews.com/plex-vulnerabilities-exploited-in-wild/",
+      "date": "2026-10-19T04:14:01Z",
+      "description": "Hackers are exploiting flaws in Plex Media Server to install cryptocurrency mining malware, with a researcher recording successful attacks against a honeypot on October 17, 2026. The activity follows the release of Plex2Shell, a public exploit that chains four vulnerabilities to run code without logging in. Later observations also revealed proxy software running alongside the […] The post…",
+      "source": "cybersecuritynews.com"
+    },
+    {
+      "title": "Microsoft Confirms October Windows Updates Can Break Exchange Server Email Services",
+      "link": "https://cybersecuritynews.com/october-updates-break-exchange-server/",
+      "date": "2026-10-19T03:39:03Z",
+      "description": "Microsoft has confirmed that Windows Server security updates released on October 13, 2026, can disrupt Exchange Server email services, blocking webmail access and leaving messages undelivered. The issue affects some on-premises systems running Exchange Server 2016, Exchange Server 2019, and Exchange Server Subscription Edition. Microsoft has published a workaround and advises administrators not…",
+      "source": "cybersecuritynews.com"
+    },
     {
       "title": "Hackers exploit SiteGuard WAF flaw to run commands as admins",
       "link": "https://www.bleepingcomputer.com/news/security/hackers-exploit-siteguard-waf-flaw-to-run-commands-as-system-root/",
@@ -22,6 +36,20 @@
       "date": "2026-10-18T08:23:02Z",
       "description": "ConnectWise on Saturday said it has disabled seven ConnectWise application identities as it continues its investigation into an incident in which unknown threat actors obtained unauthorized access to the application identities and compromised Microsoft 365 tenants. The disabled identities are listed below - ConnectWise Cloud Backup - 506e08f9-6e9a-4da4-942b-a099a03644ae ConnectWise",
       "source": "thehackernews.com"
+    },
+    {
+      "title": "OpenCode Security Breach Exposes Third-Party API Keys of its Console Users",
+      "link": "https://cybersecuritynews.com/opencode-security-breach/",
+      "date": "2026-10-18T04:20:16Z",
+      "description": "OpenCode has disclosed a security breach affecting 1.4% of its Console users, warning that third-party API keys saved in affected workspaces may have been exposed. In an October 17 statement, the company linked the incident to a large-scale distillation attack and said it was working with Anthropic, OpenAI, and Google to address it. The affected […] The post OpenCode Security Breach Exposes…",
+      "source": "cybersecuritynews.com"
+    },
+    {
+      "title": "Claude AI Solves 25-Year NSA Cryptography Mystery in Just 30 Minutes",
+      "link": "https://cybersecuritynews.com/claude-ai-cryptography-mystery/",
+      "date": "2026-10-17T16:59:29Z",
+      "description": "Anthropic says an internal Claude research model has traced the origins of five NSA-supplied elliptic curve seeds in under 30 minutes, answering a cryptography question that remained open for roughly 25 years. The finding explains how important public security parameters were chosen, rather than exposing secret keys or breaking encryption. In a report published October […] The post Claude AI…",
+      "source": "cybersecuritynews.com"
     },
     {
       "title": "Hackers breach Microsoft 365 tenants via ConnectWise supply-chain attack",
@@ -50,6 +78,13 @@
       "date": "2026-10-17T11:00:00Z",
       "description": "Israeli company Discover-Tech’s ads allow threat actors to fingerprint and track devices at scale and infect selected targets. The post Israeli Ad Firm Doubled as Candiru’s Zero-Click Spyware Delivery Channel appeared first on SecurityWeek.",
       "source": "securityweek.com"
+    },
+    {
+      "title": "Hackers used Compromised ConnectWise Backup Credentials to Hack 173 Microsoft 365 Accounts",
+      "link": "https://cybersecuritynews.com/connectwise-credentials-microsoft-365-accounts/",
+      "date": "2026-10-17T10:52:09Z",
+      "description": "Hackers used a stolen ConnectWise Cloud Backup credential to sign in to 173 Microsoft 365 partner and customer tenants, giving them access through a trusted backup application. The incident shows how one leaked vendor secret can create risk across many organizations when a multitenant app already has wide permissions. The affected product is ConnectWise Cloud […] The post Hackers used…",
+      "source": "cybersecuritynews.com"
     },
     {
       "title": "Hackers Use Compromised ConnectWise Credential to Sign In to 173 Microsoft 365 Tenants",
@@ -146,35 +181,35 @@
       "title": "ZDI-CAN-32462: Samba",
       "link": "http://www.zerodayinitiative.com/advisories/upcoming/",
       "date": "2026-10-14T05:00:00Z",
-      "description": "A CVSS score 6.5 AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N severity vulnerability discovered by 'Anonymous' was reported to the affected vendor on: 2026-10-14, 4 days ago. The vendor is given until 2027-02-11 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
+      "description": "A CVSS score 6.5 AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N severity vulnerability discovered by 'Anonymous' was reported to the affected vendor on: 2026-10-14, 5 days ago. The vendor is given until 2027-02-11 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
       "source": "zerodayinitiative.com"
     },
     {
       "title": "ZDI-CAN-33522: Microsoft",
       "link": "http://www.zerodayinitiative.com/advisories/upcoming/",
       "date": "2026-10-14T05:00:00Z",
-      "description": "A CVSS score 7.7 AV:L/AC:H/PR:N/UI:R/S:C/C:H/I:H/A:H severity vulnerability discovered by 'Lucas Miller of TrendAI Research' was reported to the affected vendor on: 2026-10-14, 4 days ago. The vendor is given until 2027-02-11 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
+      "description": "A CVSS score 7.7 AV:L/AC:H/PR:N/UI:R/S:C/C:H/I:H/A:H severity vulnerability discovered by 'Lucas Miller of TrendAI Research' was reported to the affected vendor on: 2026-10-14, 5 days ago. The vendor is given until 2027-02-11 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
       "source": "zerodayinitiative.com"
     },
     {
       "title": "ZDI-CAN-31758: NVIDIA",
       "link": "http://www.zerodayinitiative.com/advisories/upcoming/",
       "date": "2026-10-14T05:00:00Z",
-      "description": "A CVSS score 7.8 AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H severity vulnerability discovered by 'YJK(@YJK0805) of ZUSO ART' was reported to the affected vendor on: 2026-10-14, 4 days ago. The vendor is given until 2027-02-11 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
+      "description": "A CVSS score 7.8 AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H severity vulnerability discovered by 'YJK(@YJK0805) of ZUSO ART' was reported to the affected vendor on: 2026-10-14, 5 days ago. The vendor is given until 2027-02-11 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
       "source": "zerodayinitiative.com"
     },
     {
       "title": "ZDI-CAN-33446: Microsoft",
       "link": "http://www.zerodayinitiative.com/advisories/upcoming/",
       "date": "2026-10-09T05:00:00Z",
-      "description": "A CVSS score 8.6 AV:L/AC:L/PR:N/UI:R/S:C/C:H/I:H/A:H severity vulnerability discovered by 'Lucas Miller of TrendAI Research' was reported to the affected vendor on: 2026-10-09, 9 days ago. The vendor is given until 2027-02-06 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
+      "description": "A CVSS score 8.6 AV:L/AC:L/PR:N/UI:R/S:C/C:H/I:H/A:H severity vulnerability discovered by 'Lucas Miller of TrendAI Research' was reported to the affected vendor on: 2026-10-09, 10 days ago. The vendor is given until 2027-02-06 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
       "source": "zerodayinitiative.com"
     },
     {
       "title": "ZDI-CAN-33830: Microsoft",
       "link": "http://www.zerodayinitiative.com/advisories/upcoming/",
       "date": "2026-10-09T05:00:00Z",
-      "description": "A CVSS score 8.6 AV:L/AC:L/PR:N/UI:R/S:C/C:H/I:H/A:H severity vulnerability discovered by 'Lucas Miller of TrendAI Research' was reported to the affected vendor on: 2026-10-09, 9 days ago. The vendor is given until 2027-02-06 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
+      "description": "A CVSS score 8.6 AV:L/AC:L/PR:N/UI:R/S:C/C:H/I:H/A:H severity vulnerability discovered by 'Lucas Miller of TrendAI Research' was reported to the affected vendor on: 2026-10-09, 10 days ago. The vendor is given until 2027-02-06 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
       "source": "zerodayinitiative.com"
     },
     {
