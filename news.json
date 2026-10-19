@@ -1,7 +1,56 @@
 {
-  "last_updated": "2026-10-19T05:27:33Z",
+  "last_updated": "2026-10-19T11:30:11Z",
   "count": 35,
   "items": [
+    {
+      "title": "Exploited Fortinet Bug Linked to Stealthy FortiGate Implant in Telecom Hack",
+      "link": "https://www.securityweek.com/exploited-fortinet-bug-linked-to-stealthy-fortigate-implant-in-telecom-hack/",
+      "date": "2026-10-19T11:13:23Z",
+      "description": "The persistent, stealthy FortiGate implant was deployed against a telecommunications organization. The post Exploited Fortinet Bug Linked to Stealthy FortiGate Implant in Telecom Hack appeared first on SecurityWeek.",
+      "source": "securityweek.com"
+    },
+    {
+      "title": "MITRE ATT&CK v20 Catalogs AI Abuse, MFA Bypass, Water Utility Attacks",
+      "link": "https://www.securityweek.com/mitre-attck-v20-catalogs-ai-abuse-mfa-bypass-water-utility-attacks/",
+      "date": "2026-10-19T09:37:04Z",
+      "description": "Defenders get 15 new detection strategies, six for Enterprise and nine for ICS, backed by 38 analytics. The post MITRE ATT&CK v20 Catalogs AI Abuse, MFA Bypass, Water Utility Attacks appeared first on SecurityWeek.",
+      "source": "securityweek.com"
+    },
+    {
+      "title": "Microsoft: October Windows Server updates break Exchange sign-in, mail flow",
+      "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-october-windows-server-updates-cause-exchange-issues/",
+      "date": "2026-10-19T08:58:41Z",
+      "description": "Microsoft has confirmed that this month's Windows Server security updates are causing OWA sign-in and mail delivery issues on some Exchange Server systems. [...]",
+      "source": "bleepingcomputer.com"
+    },
+    {
+      "title": "Anthropic Acquires Confidential AI Startup Opaque Systems",
+      "link": "https://www.securityweek.com/anthropic-acquires-confidential-ai-startup-opaque-systems/",
+      "date": "2026-10-19T07:45:25Z",
+      "description": "Opaque Systems has developed technology that lets AI systems use sensitive data while keeping it protected by the underlying hardware. The post Anthropic Acquires Confidential AI Startup Opaque Systems appeared first on SecurityWeek.",
+      "source": "securityweek.com"
+    },
+    {
+      "title": "Unpatched Broadcom Wi-Fi Flaw Lets Attackers in Range Run Code as Root on Routers",
+      "link": "https://thehackernews.com/2026/10/unpatched-broadcom-wi-fi-flaw-lets.html",
+      "date": "2026-10-19T06:29:44Z",
+      "description": "A flaw in Broadcom's Wi-Fi setup software lets an attacker within radio range run code as root on Broadcom-based routers, without the network password or any pairing step, security researcher Quentin Kaiser disclosed on October 16. He showed the attack working against home gateways supplied by three Belgian internet providers, in one case reading the Wi-Fi password off the device",
+      "source": "thehackernews.com"
+    },
+    {
+      "title": "OpenCode Console Breach May Have Exposed OpenAI, Anthropic, and Google API Keys",
+      "link": "https://thehackernews.com/2026/10/opencode-console-breach-may-have.html",
+      "date": "2026-10-19T06:07:08Z",
+      "description": "An intruder reached a legacy system at OpenCode on the night of October 16 and may have exposed the third-party AI provider keys that users had saved in OpenCode Console, the company said. Console is OpenCode's optional hosted service: a workspace saves its own OpenAI, Anthropic, or Google key there, and Console uses that key to call the provider so team members can use the models without",
+      "source": "thehackernews.com"
+    },
+    {
+      "title": "Google Unveils New Android AI Protections to Block Scam Calls, Phishing Links and OTP Theft",
+      "link": "https://cybersecuritynews.com/google-unveils-new-android-ai-protections/",
+      "date": "2026-10-19T06:04:18Z",
+      "description": "Google has announced a new set of Android security protections designed to stop mobile scams across calls, text messages, chat apps, web links, and account verification codes. The update comes as criminals increasingly use spoofed phone numbers, fake bank alerts, phishing pages, remote screen sharing, and AI-generated voices to trick users into giving up money […] The post Google Unveils New…",
+      "source": "cybersecuritynews.com"
+    },
     {
       "title": "Hackers Exploiting Plex Vulnerabilities in the Wild to Deploy Cryptominer Malware",
       "link": "https://cybersecuritynews.com/plex-vulnerabilities-exploited-in-wild/",
@@ -80,13 +129,6 @@
       "source": "securityweek.com"
     },
     {
-      "title": "Hackers used Compromised ConnectWise Backup Credentials to Hack 173 Microsoft 365 Accounts",
-      "link": "https://cybersecuritynews.com/connectwise-credentials-microsoft-365-accounts/",
-      "date": "2026-10-17T10:52:09Z",
-      "description": "Hackers used a stolen ConnectWise Cloud Backup credential to sign in to 173 Microsoft 365 partner and customer tenants, giving them access through a trusted backup application. The incident shows how one leaked vendor secret can create risk across many organizations when a multitenant app already has wide permissions. The affected product is ConnectWise Cloud […] The post Hackers used…",
-      "source": "cybersecuritynews.com"
-    },
-    {
       "title": "Hackers Use Compromised ConnectWise Credential to Sign In to 173 Microsoft 365 Tenants",
       "link": "https://thehackernews.com/2026/10/hackers-use-compromised-connectwise.html",
       "date": "2026-10-17T06:16:46Z",
@@ -134,48 +176,6 @@
       "date": "2026-10-16T18:37:50Z",
       "description": "Most OT devices at utilities, factories, and elsewhere have been deployed for a decade or more, but operators need to get agile and deploy new cyber defenses.",
       "source": "darkreading.com"
-    },
-    {
-      "title": "Researchers Demonstrate OpenBSD Root Exploit Chaining 37-Year-Old Shared-Memory Bug",
-      "link": "https://thehackernews.com/2026/10/researchers-demonstrate-openbsd-root.html",
-      "date": "2026-10-16T17:48:45Z",
-      "description": "A local privilege escalation exploit published today gains root on OpenBSD 7.9 by chaining a roughly 37-year-old integer overflow with a separate kernel flaw, bypassing OpenBSD's KARL kernel-address randomization and its SMAP and SMEP hardware protections.Security firm Calif, which found and reported the flaws, published a detailed writeup and full proof-of-concept code after OpenBSD shipped",
-      "source": "thehackernews.com"
-    },
-    {
-      "title": "Targeted ads installed Candiru spyware in zero-click attacks",
-      "link": "https://www.bleepingcomputer.com/news/security/zero-click-attacks-used-targeted-ads-to-deliver-candiru-spyware/",
-      "date": "2026-10-16T17:20:03Z",
-      "description": "Candiru spyware was delivered to devices at Al Jazeera Media Network via targeted online advertisements in a zero-click attack that required only rendering the malicious ads on the victim's device. [...]",
-      "source": "bleepingcomputer.com"
-    },
-    {
-      "title": "Attackers Tampered with AOMEI Backupper's Update Servers for Minutes to Deliver a Backdoor",
-      "link": "https://thehackernews.com/2026/10/attackers-tampered-with-aomei.html",
-      "date": "2026-10-16T16:43:39Z",
-      "description": "Attackers repeatedly changed the files that AOMEI Backupper fetches from the vendor's own update servers, in windows of five to ten minutes at a time between May and July 2026, so that any copy of the Windows backup program that checked for an update during one of those windows would download and run a backdoor. Google Threat Intelligence Group, Mandiant, and ManageEngine's Threat Analysis",
-      "source": "thehackernews.com"
-    },
-    {
-      "title": "In Other News: ICS-Sniper Attack, Hacking XWorm Malware Operators, $250k Chrome Exploit",
-      "link": "https://www.securityweek.com/in-other-news-ics-sniper-attack-hacking-xworm-malware-operators-250k-chrome-exploit/",
-      "date": "2026-10-16T14:09:51Z",
-      "description": "Noteworthy stories that might have slipped under the radar: BofA adds 1,000 patching contractors, KGB RAT pairs data theft with jump scares, and Langflow flaw under attack. The post In Other News: ICS-Sniper Attack, Hacking XWorm Malware Operators, $250k Chrome Exploit appeared first on SecurityWeek.",
-      "source": "securityweek.com"
-    },
-    {
-      "title": "BAE Systems Security Incident Stalls Notices From US Bankruptcy Courts",
-      "link": "https://www.securityweek.com/bae-systems-security-incident-stalls-notices-from-us-bankruptcy-courts/",
-      "date": "2026-10-16T11:46:40Z",
-      "description": "A cyber incident affecting contractor BAE Systems has knocked out the Bankruptcy Noticing Center, halting notices nationwide for a week. The post BAE Systems Security Incident Stalls Notices From US Bankruptcy Courts appeared first on SecurityWeek.",
-      "source": "securityweek.com"
-    },
-    {
-      "title": "Chinese APT Exploited BeyondTrust Vulnerability as Zero-Day",
-      "link": "https://www.securityweek.com/chinese-apt-exploited-beyondtrust-vulnerability-as-zero-day/",
-      "date": "2026-10-16T10:53:22Z",
-      "description": "Armory Castle exploited CVE-2026-102764 for initial access, deployed custom tools, and deleted logs and artifacts. The post Chinese APT Exploited BeyondTrust Vulnerability as Zero-Day appeared first on SecurityWeek.",
-      "source": "securityweek.com"
     },
     {
       "title": "ZDI-CAN-32462: Samba",
