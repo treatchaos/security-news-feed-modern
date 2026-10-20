@@ -1,7 +1,87 @@
 {
   "date": "2026-10-20",
-  "count": 39,
+  "count": 47,
   "items": [
+    {
+      "id": "0443f684da5dbd5116b1572e82a20b331d45d31c",
+      "title": "Zeabur shutting down after second security breach in two months",
+      "link": "https://www.bleepingcomputer.com/news/security/zeabur-shutting-down-after-second-security-breach-in-two-months/",
+      "date": "2026-10-20T19:33:02Z",
+      "description": "Development platform Zeabur has disclosed details of a cybersecurity incident in which an attacker used leaked internal credentials stored in plaintext to compromise its infrastructure and steal over 3.2 million environment variable records and information for 321,810 accounts. [...]",
+      "source": "bleepingcomputer.com",
+      "first_seen": "2026-10-20T19:43:07Z",
+      "last_seen": "2026-10-20T19:43:07Z"
+    },
+    {
+      "id": "52d5726522f1a2089fbb2d8cf2cce4478d025ffb",
+      "title": "Ex-OpenAI Engineer Held Over Secret Recorder, Saudi Ties",
+      "link": "https://www.darkreading.com/insider-threats/ex-openai-engineer-secret-recorder-saudi-ties",
+      "date": "2026-10-20T19:16:49Z",
+      "description": "A judge ordered that Abdulrahman Alfozan be detained after he was arrested earlier this month for allegedly bugging an OpenAI conference room.",
+      "source": "darkreading.com",
+      "first_seen": "2026-10-20T19:43:07Z",
+      "last_seen": "2026-10-20T19:43:07Z"
+    },
+    {
+      "id": "de28164706dcf84d39713091bde2a0abf28b62bf",
+      "title": "OpenAI says GPT-6.1 Sol is dramatically better at migrating legacy code",
+      "link": "https://www.bleepingcomputer.com/news/artificial-intelligence/openai-says-gpt-61-sol-is-dramatically-better-at-migrating-legacy-code/",
+      "date": "2026-10-20T18:11:03Z",
+      "description": "OpenAI confirmed that its newer models are much better at writing and migrating software in older programming languages. [...]",
+      "source": "bleepingcomputer.com",
+      "first_seen": "2026-10-20T19:43:07Z",
+      "last_seen": "2026-10-20T19:43:07Z"
+    },
+    {
+      "id": "9ce1369abbe656ee55aef06e922e65a3ae229019",
+      "title": "Eight eMudhra CA Keys Compromised, Triggering Emergency Fixes Across Browsers and Software",
+      "link": "https://thehackernews.com/2026/10/eight-emudhra-ca-keys-compromised.html",
+      "date": "2026-10-20T17:09:53Z",
+      "description": "The private keys of eight eMudhra intermediate certificate authority (CA) certificates are compromised, Mozilla and Google's Chrome Root Program confirms on October 20. An intermediate CA signs the certificates that websites present, so anyone holding one of these keys could issue a certificate for any website that a browser would accept. A researcher reported the",
+      "source": "thehackernews.com",
+      "first_seen": "2026-10-20T19:43:07Z",
+      "last_seen": "2026-10-20T19:43:07Z"
+    },
+    {
+      "id": "6bbc37b314b60425b9a580581a700a70928dab83",
+      "title": "US Agencies Detail Incident Response Practices for Rogue AI Agents",
+      "link": "https://www.securityweek.com/us-agencies-detail-incident-response-practices-for-rogue-ai-agents/",
+      "date": "2026-10-20T15:45:00Z",
+      "description": "NIST, CISA and NSA share ten voluntary practices for preparing for, detecting, responding to, recovering from, and reporting rogue AI agent incidents. The post US Agencies Detail Incident Response Practices for Rogue AI Agents appeared first on SecurityWeek.",
+      "source": "securityweek.com",
+      "first_seen": "2026-10-20T19:43:07Z",
+      "last_seen": "2026-10-20T19:43:07Z"
+    },
+    {
+      "id": "e0de7822a54303edae294fb0987897aaa8319811",
+      "title": "Critical FortiSIEM Flaw Gets Public Exploit PoC for Unauthenticated Remote Code Execution",
+      "link": "https://thehackernews.com/2026/10/critical-fortisiem-flaw-gets-public.html",
+      "date": "2026-10-20T15:38:52Z",
+      "description": "Cybersecurity researchers have released a proof-of-concept (PoC) exploit for a recently patched critical security flaw impacting Fortinet FortiSIEM that could result in arbitrary code execution. The vulnerability, tracked as CVE-2026-106173 (CVSS score: 9.4), is a critical path traversal flaw that could allow an unauthenticated attacker to execute unauthorized code or commands via specially",
+      "source": "thehackernews.com",
+      "first_seen": "2026-10-20T19:43:07Z",
+      "last_seen": "2026-10-20T19:43:07Z"
+    },
+    {
+      "id": "02f066472dc228c3ac5839b8038533254ffe213e",
+      "title": "Close Identity Gaps in Software Development Before Unleashing AI",
+      "link": "https://www.darkreading.com/application-security/close-identity-gaps-sdlc-before-ai",
+      "date": "2026-10-20T15:35:45Z",
+      "description": "Artificial Intelligence is complicating security in the software development lifecycle, but a Dark Reading roundtable found collaboration, better identity visibility, and reduced testing costs offer CISOs a way ahead.",
+      "source": "darkreading.com",
+      "first_seen": "2026-10-20T19:43:07Z",
+      "last_seen": "2026-10-20T19:43:07Z"
+    },
+    {
+      "id": "a701812f5daa4e1ee5fff9f9cdb9c54e2f18f247",
+      "title": "Qilin and INC Ransomware Groups Exploit Palo Alto Networks Flaw to Bypass MFA",
+      "link": "https://thehackernews.com/2026/10/qilin-and-inc-ransomware-groups-exploit.html",
+      "date": "2026-10-20T15:32:27Z",
+      "description": "Palo Alto Networks has disclosed that it's continuing to observe exploitation of a now-patched security flaw impacting PAN-OS and Prisma Access by ransomware actors. The activity relates to CVE-2026-0257 (CVSS score: 7.8), an authentication bypass flaw that could be exploited by bad actors to set up unauthorized VPN connections. It was patched by Palo Alto Networks in May 2026 and was",
+      "source": "thehackernews.com",
+      "first_seen": "2026-10-20T19:43:07Z",
+      "last_seen": "2026-10-20T19:43:07Z"
+    },
     {
       "id": "a795c4b1da8ceb224db604309a79fb66699ea80f",
       "title": "FBI Suspects Cybersecurity Executive Helped ShinyHunters Run Extortion Website",
@@ -20,7 +100,7 @@
       "description": "A Chinese-speaking attacker has compromised hundreds of websites across the globe, looting from big fish like John Deere, SharkNinja, and engine manufacturer Cummins.",
       "source": "darkreading.com",
       "first_seen": "2026-10-20T15:26:53Z",
-      "last_seen": "2026-10-20T15:26:53Z"
+      "last_seen": "2026-10-20T19:43:07Z"
     },
     {
       "id": "bb7883d23ea818a4e159e314c7b8db94d5b8e09d",
@@ -40,7 +120,7 @@
       "description": "The U.S. Department of Homeland Security (DHS) is ordering federal civilian agencies to stop using DeepSeek products and remove them from government systems. [...]",
       "source": "bleepingcomputer.com",
       "first_seen": "2026-10-20T15:26:53Z",
-      "last_seen": "2026-10-20T15:26:53Z"
+      "last_seen": "2026-10-20T19:43:07Z"
     },
     {
       "id": "64039960c61b26dd5a845356ebc5641ee71fbec7",
@@ -50,7 +130,7 @@
       "description": "A Chinese-speaking criminal pointed autonomous AI agents at company websites and let them break in with almost no help, and a security researcher watched it happen because the operators left their control panels open on the internet. The agents tried more than 1,200 sites and reached websites belonging to more than 100 companies, including farm-equipment maker Deere, appliance company",
       "source": "thehackernews.com",
       "first_seen": "2026-10-20T15:26:53Z",
-      "last_seen": "2026-10-20T15:26:53Z"
+      "last_seen": "2026-10-20T19:43:07Z"
     },
     {
       "id": "2c957613e69ffa9f4c11c2afd33d7f9e7c4ddec1",
@@ -70,7 +150,7 @@
       "description": "Across multiple short compromise windows, users were served a downloader for the ShinyRoad modular backdoor framework. The post AOMEI Backupper Compromised in Short-Burst Supply Chain Campaign appeared first on SecurityWeek.",
       "source": "securityweek.com",
       "first_seen": "2026-10-20T15:26:53Z",
-      "last_seen": "2026-10-20T15:26:53Z"
+      "last_seen": "2026-10-20T19:43:07Z"
     },
     {
       "id": "8c130e6202d407da9b091f61cdaea56184c14258",
@@ -80,7 +160,7 @@
       "description": "CJIS v6.1 requires agencies to maintain strong authentication, account security, and audit controls while demonstrating ongoing compliance. Specops outlines five practical priorities covering MFA, account management, passwords, logging, and audit readiness. [...]",
       "source": "bleepingcomputer.com",
       "first_seen": "2026-10-20T15:26:53Z",
-      "last_seen": "2026-10-20T15:26:53Z"
+      "last_seen": "2026-10-20T19:43:07Z"
     },
     {
       "id": "a0423828d56977502f43d804e38ee47c0d4a600e",
@@ -90,7 +170,7 @@
       "description": "Where your developers sit on the AI adoption scale has a real impact on how you are addressing security risk. The post The Key to AI Software Security Isn’t Speed, It’s Maturity appeared first on SecurityWeek.",
       "source": "securityweek.com",
       "first_seen": "2026-10-20T15:26:53Z",
-      "last_seen": "2026-10-20T15:26:53Z"
+      "last_seen": "2026-10-20T19:43:07Z"
     },
     {
       "id": "a0c2f66ebe204fae265e12c4e4204a336172c891",
@@ -110,7 +190,7 @@
       "description": "A Nigerian national was sentenced to eight years in prison for his involvement in a series of spearphishing attacks targeting US tax preparation businesses since 2019. [...]",
       "source": "bleepingcomputer.com",
       "first_seen": "2026-10-20T15:26:53Z",
-      "last_seen": "2026-10-20T15:26:53Z"
+      "last_seen": "2026-10-20T19:43:07Z"
     },
     {
       "id": "53b8163dfedd44357ca2a03a9bd318e4e1668c2d",
@@ -130,7 +210,7 @@
       "description": "The company has restored many websites and apps in Europe and expects e-commerce brands in the US to be restored in days. The post Ahold Delhaize Restoring Services Disrupted by Cyberattack appeared first on SecurityWeek.",
       "source": "securityweek.com",
       "first_seen": "2026-10-20T15:26:53Z",
-      "last_seen": "2026-10-20T15:26:53Z"
+      "last_seen": "2026-10-20T19:43:07Z"
     },
     {
       "id": "1149968623225e496d8eb3d1e617f2bb66857c76",
@@ -140,7 +220,7 @@
       "description": "The iPhone of Vladan Đokić, rector of the University of Belgrade and a prominent supporter of Serbia's student protest movement, was infected with NSO Group's Pegasus spyware in 2026, the Citizen Lab said on October 19. The finding came six days before Serbia's October 25 snap parliamentary election. The infection used a zero-click exploit, meaning Đokić did not have to tap a link or",
       "source": "thehackernews.com",
       "first_seen": "2026-10-20T15:26:53Z",
-      "last_seen": "2026-10-20T15:26:53Z"
+      "last_seen": "2026-10-20T19:43:07Z"
     },
     {
       "id": "ae2e9d6365c8aa61e5aaad0edb88f5d430ff8067",
@@ -150,7 +230,7 @@
       "description": "At least three threat actors have been abusing Cairn for persistent access and financial theft. The post AI Platform Cairn Abused to Hack Over 100 Organizations appeared first on SecurityWeek.",
       "source": "securityweek.com",
       "first_seen": "2026-10-20T15:26:53Z",
-      "last_seen": "2026-10-20T15:26:53Z"
+      "last_seen": "2026-10-20T19:43:07Z"
     },
     {
       "id": "3afd31fbd43d70b6f18fd394f6c129c96e071300",
@@ -370,7 +450,7 @@
       "description": "A CVSS score 8.8 AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H severity vulnerability discovered by 'Antonio GIordano' was reported to the affected vendor on: 2026-10-19, 0 days ago. The vendor is given until 2027-02-16 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
       "source": "zerodayinitiative.com",
       "first_seen": "2026-10-20T00:47:36Z",
-      "last_seen": "2026-10-20T15:26:53Z"
+      "last_seen": "2026-10-20T19:43:07Z"
     },
     {
       "id": "70a4cf7c22a3dfa8ac6a939d2688730c15c83ae8",
@@ -380,7 +460,7 @@
       "description": "A CVSS score 7.8 AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H severity vulnerability discovered by 'Christo Erasmus and Matt Bouffe of MWR CyberSec' was reported to the affected vendor on: 2026-10-19, 0 days ago. The vendor is given until 2027-02-16 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
       "source": "zerodayinitiative.com",
       "first_seen": "2026-10-20T00:47:36Z",
-      "last_seen": "2026-10-20T15:26:53Z"
+      "last_seen": "2026-10-20T19:43:07Z"
     },
     {
       "id": "b56d1be84421f537c3076b00325870ef11401a81",
@@ -390,7 +470,7 @@
       "description": "A CVSS score 7.8 AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H severity vulnerability discovered by 'Mantas Sabeckis @otterly' was reported to the affected vendor on: 2026-10-19, 0 days ago. The vendor is given until 2027-02-16 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
       "source": "zerodayinitiative.com",
       "first_seen": "2026-10-20T00:47:36Z",
-      "last_seen": "2026-10-20T15:26:53Z"
+      "last_seen": "2026-10-20T19:43:07Z"
     }
   ]
 }

@@ -1,6 +1,6 @@
 {
   "date": "2026-07-22",
-  "count": 25,
+  "count": 9,
   "items": [
     {
       "id": "7fe8ff2eba93a7e09a6b5c87def7b24a38cd22d2",
@@ -83,96 +83,6 @@
       "last_seen": "2026-07-23T01:47:24Z"
     },
     {
-      "id": "4ec8b8086267215ef6a3cfe2c02aaafe98b5edd0",
-      "title": "ASUS Patches Critical Router Vulnerability Enabling Remote Command Execution",
-      "link": "https://cybersecuritynews.com/asus-patches-router-vulnerability/",
-      "date": "2026-07-22T17:30:05Z",
-      "description": "ASUS has released critical security updates to address a high-severity router vulnerability that could allow remote attackers to execute arbitrary commands on affected devices. The flaw, tracked as CVE-2026-13385, impacts multiple ASUS router firmware branches, including the widely deployed 3.0.0.4_386, 3.0.0.4_388, and 3.0.0.6_102 series. According to the ASUS Product Security Advisory, the…",
-      "source": "cybersecuritynews.com",
-      "first_seen": "2026-07-22T18:00:51Z",
-      "last_seen": "2026-07-23T01:47:24Z"
-    },
-    {
-      "id": "bbce17776d6460c0fbcc1a6ce1cf8be16286de94",
-      "title": "A Hidden Line of Website Text Can Turn AWS Kiro Into a Remote Code Execution Tool",
-      "link": "https://cybersecuritynews.com/aws-kiro-remote-code-execution/",
-      "date": "2026-07-22T17:28:27Z",
-      "description": "A recently disclosed vulnerability in AWS Kiro, an AI-powered Integrated Development Environment (IDE), reveals how a hidden line of text on a webpage can be exploited for remote code execution on a developer’s machine, bypassing the platform’s security model. Kiro operates on a “human-in-the-loop” principle, requiring user approval for potentially dangerous actions like executing shell […] The…",
-      "source": "cybersecuritynews.com",
-      "first_seen": "2026-07-22T18:00:51Z",
-      "last_seen": "2026-07-23T01:47:24Z"
-    },
-    {
-      "id": "54aa7c3bcfa612b929a9c81fd63be6c13136f4ab",
-      "title": "Public PoC Released for Windows NT OS Kernel Privilege Escalation Vulnerability",
-      "link": "https://cybersecuritynews.com/poc-windows-nt-os-kernel/",
-      "date": "2026-07-22T17:16:37Z",
-      "description": "Public proof-of-concept (PoC) exploit code was released for CVE-2026-42980, a local privilege escalation vulnerability in the Windows NT OS Kernel. This vulnerability occurs due to an integer underflow in kernel-mode code. CVE-2026-42980 is an elevation-of-privilege flaw in the Windows NT OS Kernel caused by an integer underflow (wraparound) condition in a kernel code path. This […] The post…",
-      "source": "cybersecuritynews.com",
-      "first_seen": "2026-07-22T18:00:51Z",
-      "last_seen": "2026-07-23T01:47:24Z"
-    },
-    {
-      "id": "72e01d147f1445225d8deac936179a1ad889a919",
-      "title": "Hackers Let Victims Complete MFA Then Steal the Entire Microsoft 365 Session",
-      "link": "https://cybersecuritynews.com/hackers-let-victims-complete-mfa/",
-      "date": "2026-07-22T17:16:11Z",
-      "description": "Multi-factor authentication is meant to stop stolen-password attacks. A newly documented phishing technique instead persuades users to approve a real Microsoft sign-in, allowing attackers to take over the resulting Microsoft 365 session without directly stealing credentials. The campaign abuses the OAuth device-code flow, a feature intended for devices such as smart TVs and meeting-room systems…",
-      "source": "cybersecuritynews.com",
-      "first_seen": "2026-07-22T18:00:51Z",
-      "last_seen": "2026-07-22T18:00:51Z"
-    },
-    {
-      "id": "e7e8bdc9b7cd2eecb23bf06a2f51b46c6d2380bd",
-      "title": "Kali365 Phishing Kit Abuses Microsoft Device Codes to Hijack Microsoft 365 Accounts",
-      "link": "https://cybersecuritynews.com/kali365-phishing-kit-microsoft-device-codes/",
-      "date": "2026-07-22T17:11:41Z",
-      "description": "A phishing kit known as Kali365 is targeting U.S. organizations through device code phishing attacks that abuse Microsoft’s legitimate authentication process to hijack Microsoft 365 accounts. Unlike conventional phishing campaigns that direct targets to counterfeit login portals, Kali365 sends victims to a real Microsoft Device Login page. Victims are persuaded to enter an attacker-provided…",
-      "source": "cybersecuritynews.com",
-      "first_seen": "2026-07-22T18:00:51Z",
-      "last_seen": "2026-07-22T18:00:51Z"
-    },
-    {
-      "id": "2b41e5fbeed1059f707fca8a5b82af354b5367ae",
-      "title": "Swiss rail giant Stadler rejects $12.3M ransom demand after cyberattack",
-      "link": "https://www.bleepingcomputer.com/news/security/swiss-rail-giant-stadler-rejects-123m-ransom-demand-after-cyberattack/",
-      "date": "2026-07-22T16:59:17Z",
-      "description": "Swiss rail vehicle manufacturer Stadler Rail says the Everest ransomware gang demanded about $12.3 million after breaching a data exchange platform shared with one of its suppliers. [...]",
-      "source": "bleepingcomputer.com",
-      "first_seen": "2026-07-22T18:00:51Z",
-      "last_seen": "2026-07-23T08:09:48Z"
-    },
-    {
-      "id": "401791d28413e4dc9676e17ae80bcdeedec8be65",
-      "title": "When AI Attacks: OpenAI Models Autonomously Hack Hugging Face",
-      "link": "https://www.darkreading.com/cyber-risk/openai-models-autonomously-hack-hugging-face",
-      "date": "2026-07-22T15:53:47Z",
-      "description": "Advanced LLMs escaped their sandboxes while attempting to achieve a non-malicious benchmark test objective.",
-      "source": "darkreading.com",
-      "first_seen": "2026-07-22T16:13:17Z",
-      "last_seen": "2026-07-23T08:09:48Z"
-    },
-    {
-      "id": "fc8ed64ef164431b03b620b6374439eb5e0e34fc",
-      "title": "How enterprise GenAI can amplify ransomware risk — and how to contain it",
-      "link": "https://www.bleepingcomputer.com/news/security/how-enterprise-genai-can-amplify-ransomware-risk-and-how-to-contain-it/",
-      "date": "2026-07-22T15:30:00Z",
-      "description": "Enterprise AI can accelerate ransomware attacks when AI assistants and agents inherit excessive permissions or compromised identities. Acronis explains how identity controls, governance, and least-privilege access help reduce AI-enabled ransomware risk while supporting secure AI adoption. [...]",
-      "source": "bleepingcomputer.com",
-      "first_seen": "2026-07-22T16:13:17Z",
-      "last_seen": "2026-07-23T08:09:48Z"
-    },
-    {
-      "id": "57de1d00b3dede9047e4d2ab0ad3c9864a40eca1",
-      "title": "Suno, Paidwork Data Breaches Affect Tens of Millions of Accounts",
-      "link": "https://www.securityweek.com/suno-paidwork-data-breaches-affect-tens-of-millions-of-accounts/",
-      "date": "2026-07-22T15:02:11Z",
-      "description": "Hackers leaked names, email addresses, phone numbers, passwords, and financial information stolen from the two platforms. The post Suno, Paidwork Data Breaches Affect Tens of Millions of Accounts appeared first on SecurityWeek.",
-      "source": "securityweek.com",
-      "first_seen": "2026-07-22T16:13:17Z",
-      "last_seen": "2026-07-23T12:23:09Z"
-    },
-    {
       "id": "0fa786e6c69530e63e19d0c9d01ed94e6def8567",
       "title": "Adobe Acrobat Extension Flaw Let Malicious Sites Read WhatsApp Web Data",
       "link": "https://thehackernews.com/2026/07/adobe-acrobat-extension-flaw-let.html",
@@ -181,76 +91,6 @@
       "source": "thehackernews.com",
       "first_seen": "2026-07-22T20:05:42Z",
       "last_seen": "2026-07-23T10:59:02Z"
-    },
-    {
-      "id": "8715c18aa92bd99ca046b92a14ea6b46f5aac7d0",
-      "title": "Palo Alto Networks to Acquire Observability Platform Provider Embrace",
-      "link": "https://www.securityweek.com/palo-alto-networks-to-acquire-observability-platform-provider-embrace/",
-      "date": "2026-07-22T14:58:53Z",
-      "description": "Acquisition follows January's Chronosphere deal, deepening Palo Alto Networks' push beyond core security into observability. The post Palo Alto Networks to Acquire Observability Platform Provider Embrace appeared first on SecurityWeek.",
-      "source": "securityweek.com",
-      "first_seen": "2026-07-22T16:13:17Z",
-      "last_seen": "2026-07-23T08:09:48Z"
-    },
-    {
-      "id": "3b4fe40b5007cecc62db0ade808993c84d280400",
-      "title": "ZDI-CAN-32133: Microsoft",
-      "link": "http://www.zerodayinitiative.com/advisories/upcoming/",
-      "date": "2026-07-22T05:00:00Z",
-      "description": "A CVSS score 7.8 AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H severity vulnerability discovered by 'Juan Pablo Lopez Yacubian' was reported to the affected vendor on: 2026-07-22, 0 days ago. The vendor is given until 2026-11-19 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
-      "source": "zerodayinitiative.com",
-      "first_seen": "2026-07-22T18:00:51Z",
-      "last_seen": "2026-07-23T20:07:09Z"
-    },
-    {
-      "id": "3737d6b1317b6b17e874388248ad9f22c419bbc3",
-      "title": "ZDI-CAN-30360: Docker",
-      "link": "http://www.zerodayinitiative.com/advisories/upcoming/",
-      "date": "2026-07-22T05:00:00Z",
-      "description": "A CVSS score 7.5 AV:L/AC:H/PR:L/UI:R/S:C/C:H/I:H/A:H severity vulnerability discovered by 'Osori' was reported to the affected vendor on: 2026-07-22, 0 days ago. The vendor is given until 2026-11-19 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
-      "source": "zerodayinitiative.com",
-      "first_seen": "2026-07-22T18:00:51Z",
-      "last_seen": "2026-07-23T20:07:09Z"
-    },
-    {
-      "id": "0baae2e5d3f32c8957c688e936e8fb14f3efee35",
-      "title": "ZDI-CAN-32737: Senstar",
-      "link": "http://www.zerodayinitiative.com/advisories/upcoming/",
-      "date": "2026-07-22T05:00:00Z",
-      "description": "A CVSS score 7.1 AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:L/A:H severity vulnerability discovered by 'Minh Giang (@itscysamu) of TrendAI Zero Day Initiative' was reported to the affected vendor on: 2026-07-22, 0 days ago. The vendor is given until 2026-11-19 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
-      "source": "zerodayinitiative.com",
-      "first_seen": "2026-07-22T18:00:51Z",
-      "last_seen": "2026-07-23T18:06:53Z"
-    },
-    {
-      "id": "234e7d6fe7dd2ee070418ad2c420a50620812bdc",
-      "title": "ZDI-CAN-31821: Autodesk",
-      "link": "http://www.zerodayinitiative.com/advisories/upcoming/",
-      "date": "2026-07-22T05:00:00Z",
-      "description": "A CVSS score 7.8 AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H severity vulnerability discovered by 'Liang Zhu' was reported to the affected vendor on: 2026-07-22, 0 days ago. The vendor is given until 2026-11-19 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
-      "source": "zerodayinitiative.com",
-      "first_seen": "2026-07-22T18:00:51Z",
-      "last_seen": "2026-07-23T18:06:53Z"
-    },
-    {
-      "id": "63d77c8b0c75246d084c861a657360d943bac1f6",
-      "title": "ZDI-CAN-31613: Adobe",
-      "link": "http://www.zerodayinitiative.com/advisories/upcoming/",
-      "date": "2026-07-22T05:00:00Z",
-      "description": "A CVSS score 7.8 AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H severity vulnerability discovered by 'Mark Vincent Yason (markyason.github.io)' was reported to the affected vendor on: 2026-07-22, 0 days ago. The vendor is given until 2026-11-19 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
-      "source": "zerodayinitiative.com",
-      "first_seen": "2026-07-22T18:00:51Z",
-      "last_seen": "2026-07-23T18:06:53Z"
-    },
-    {
-      "id": "7d184e1d9c7cffeb6e04f9428544a422523b9c66",
-      "title": "Ransomware Is Accelerating, but It's Not Because of AI",
-      "link": "https://www.darkreading.com/cyberattacks-data-breaches/ransomware-is-accelerating-not-ai",
-      "date": "2026-07-21T21:48:05Z",
-      "description": "Researchers pointed to fragmentation of the ransomware ecosystem, the emergence of new attackers, and expansion of attacks on less defended organizations.",
-      "source": "darkreading.com",
-      "first_seen": "2026-07-22T18:00:51Z",
-      "last_seen": "2026-07-22T23:54:14Z"
     }
   ]
 }
