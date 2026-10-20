@@ -1,7 +1,21 @@
 {
-  "last_updated": "2026-10-20T19:43:07Z",
-  "count": 30,
+  "last_updated": "2026-10-20T22:47:42Z",
+  "count": 35,
   "items": [
+    {
+      "title": "Tech Giants Block eMudhra Certificates Tied to 8 Compromised Keys",
+      "link": "https://www.darkreading.com/cyber-risk/tech-giants-emudhra-certificates-compromised-keys",
+      "date": "2026-10-20T21:45:47Z",
+      "description": "Google, Mozilla, Apple, the Go project and others moved swiftly to block the affected certificates from the Indian CA, though it's unclear how the keys were compromised.",
+      "source": "darkreading.com"
+    },
+    {
+      "title": "PHP warns admins of two critical flaws, emergency patches coming tomorrow",
+      "link": "https://www.bleepingcomputer.com/news/security/php-warns-admins-of-two-critical-flaws-emergency-patches-coming-tomorrow/",
+      "date": "2026-10-20T20:56:43Z",
+      "description": "The PHP security team is warning administrators to prepare for emergency security updates tomorrow to address two critical vulnerabilities, as information about the flaws has reportedly leaked ahead of their scheduled disclosure. [...]",
+      "source": "bleepingcomputer.com"
+    },
     {
       "title": "Zeabur shutting down after second security breach in two months",
       "link": "https://www.bleepingcomputer.com/news/security/zeabur-shutting-down-after-second-security-breach-in-two-months/",
@@ -10,11 +24,18 @@
       "source": "bleepingcomputer.com"
     },
     {
-      "title": "Ex-OpenAI Engineer Held Over Secret Recorder, Saudi Ties",
+      "title": "Ex-OpenAI Engineer Detained After Planting Secret Recorder at HQ",
       "link": "https://www.darkreading.com/insider-threats/ex-openai-engineer-secret-recorder-saudi-ties",
       "date": "2026-10-20T19:16:49Z",
-      "description": "A judge ordered that Abdulrahman Alfozan be detained after he was arrested earlier this month for allegedly bugging an OpenAI conference room.",
+      "description": "The perp, who has Saudi ties, was arrested for allegedly bugging an OpenAI conference room, highlighting a preventable insider threat vector.",
       "source": "darkreading.com"
+    },
+    {
+      "title": "eMudhra Certificate Authority Compromise Triggers Emergency Action Across Browsers",
+      "link": "https://cybersecuritynews.com/emudhra-security-compromise/",
+      "date": "2026-10-20T18:14:55Z",
+      "description": "The private keys behind eight eMudhra intermediate certificate authority certificates have been compromised, prompting emergency blocks across major browsers and software platforms. The affected certificates chain to roots trusted by Mozilla, Microsoft, Apple, and Chrome, placing clients that still accept them at risk of trusting forged certificates. However, the public disclosures reviewed do…",
+      "source": "cybersecuritynews.com"
     },
     {
       "title": "OpenAI says GPT-6.1 Sol is dramatically better at migrating legacy code",
@@ -24,11 +45,25 @@
       "source": "bleepingcomputer.com"
     },
     {
+      "title": "Google Cloud Outage Knocks UK Banks, Websites and Court Systems Offline",
+      "link": "https://cybersecuritynews.com/google-cloud-outage/",
+      "date": "2026-10-20T17:17:56Z",
+      "description": "A Google Cloud outage disrupted UK banks, business websites and court video links on Tuesday, October 20, after a power event hit its London infrastructure. Google later said most affected services had recovered, although a small number of customers still faced problems. The incident began around 07:08 BST in europe-west2, Google’s London cloud region. Google […] The post Google Cloud Outage…",
+      "source": "cybersecuritynews.com"
+    },
+    {
       "title": "Eight eMudhra CA Keys Compromised, Triggering Emergency Fixes Across Browsers and Software",
       "link": "https://thehackernews.com/2026/10/eight-emudhra-ca-keys-compromised.html",
       "date": "2026-10-20T17:09:53Z",
       "description": "The private keys of eight eMudhra intermediate certificate authority (CA) certificates are compromised, Mozilla and Google's Chrome Root Program confirms on October 20. An intermediate CA signs the certificates that websites present, so anyone holding one of these keys could issue a certificate for any website that a browser would accept. A researcher reported the",
       "source": "thehackernews.com"
+    },
+    {
+      "title": "3 Ways Threat Intelligence Makes Life Easier for American SOC Analysts",
+      "link": "https://cybersecuritynews.com/3-ways-threat-intelligence-makes-life-easier-for-american-soc-analysts/",
+      "date": "2026-10-20T16:26:48Z",
+      "description": "October is Cybersecurity Awareness Month, a good time to rethink how SOC analysts detect and investigate threats, draw conclusions from the first three quarters of 2026, and see how exactly your daily workflows could be improved. One important takeaway is that visibility into your company’s internal environment alone isn’t enough to ensure effective enterprise security […] The post 3 Ways Threat…",
+      "source": "cybersecuritynews.com"
     },
     {
       "title": "US Agencies Detail Incident Response Practices for Rogue AI Agents",
@@ -59,11 +94,25 @@
       "source": "thehackernews.com"
     },
     {
+      "title": "FBI Suspects Cybersecurity Executive Helped ShinyHunters Run Extortion Website",
+      "link": "https://cybersecuritynews.com/fbi-suspects-cybersecurity-executive-shinyhunters/",
+      "date": "2026-10-20T15:09:27Z",
+      "description": "Federal investigators suspect an executive at a United States consulting firm helped ShinyHunters operate a website used to pressure hacked companies into paying ransom demands. The allegation raises questions about whether trusted ransomware advisers crossed from helping victims into supporting the criminals demanding payment for stolen data. The suspected website operator has not been publicly…",
+      "source": "cybersecuritynews.com"
+    },
+    {
       "title": "Hackers Abuse AI Pen-Test Tool Cairn to Automate Massive Attack Spree",
       "link": "https://www.darkreading.com/cyberattacks-data-breaches/hackers-abuse-ai-pen-test-tool-cairn",
       "date": "2026-10-20T14:36:05Z",
       "description": "A Chinese-speaking attacker has compromised hundreds of websites across the globe, looting from big fish like John Deere, SharkNinja, and engine manufacturer Cummins.",
       "source": "darkreading.com"
+    },
+    {
+      "title": "Hackers Exploit Open Banking Services to Test Stolen Credentials Without Paying a Cent",
+      "link": "https://cybersecuritynews.com/hackers-exploit-open-banking-services/",
+      "date": "2026-10-20T14:22:04Z",
+      "description": "Criminals have found a way to use open banking as a low-cost checking service for stolen bank and card details. In a campaign described by Group-IB, fraudsters abused a spend-management platform’s account-linking process to check whether credentials worked and whether linked accounts held funds. The platform did not lose money through stolen funds, but it […] The post Hackers Exploit Open…",
+      "source": "cybersecuritynews.com"
     },
     {
       "title": "DHS bans DeepSeek products across US federal civilian agencies",
@@ -101,13 +150,6 @@
       "source": "securityweek.com"
     },
     {
-      "title": "Hacker gets 8 years for stealing $3.3 million from taxpayers",
-      "link": "https://www.bleepingcomputer.com/news/security/hacker-gets-8-years-for-stealing-33-million-from-taxpayers/",
-      "date": "2026-10-20T13:18:36Z",
-      "description": "A Nigerian national was sentenced to eight years in prison for his involvement in a series of spearphishing attacks targeting US tax preparation businesses since 2019. [...]",
-      "source": "bleepingcomputer.com"
-    },
-    {
       "title": "Ahold Delhaize Restoring Services Disrupted by Cyberattack",
       "link": "https://www.securityweek.com/ahold-delhaize-restoring-services-disrupted-by-cyberattack/",
       "date": "2026-10-20T13:02:18Z",
@@ -133,13 +175,6 @@
       "link": "https://www.darkreading.com/threat-intelligence/microsoft-tech-support-scam-operation",
       "date": "2026-10-19T21:13:41Z",
       "description": "A large-scale scam operation impersonating Microsoft uses a malicious traffic distribution system (TDS) run by a Russian organization and abuses thousands of Cloudflare links.",
-      "source": "darkreading.com"
-    },
-    {
-      "title": "'AdFection' Turns Ad Impressions Into Zero-Click Spyware Delivery",
-      "link": "https://www.darkreading.com/data-privacy/adfection-online-ads-spyware-delivery",
-      "date": "2026-10-19T19:55:01Z",
-      "description": "Spyware vendors are exploiting targeted ad bidding in the digital ecosystem to identify and track individuals and organizations of interest.",
       "source": "darkreading.com"
     },
     {
