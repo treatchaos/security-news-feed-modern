@@ -1,20 +1,125 @@
 {
-  "last_updated": "2026-10-21T06:44:46Z",
+  "last_updated": "2026-10-21T12:32:56Z",
   "count": 35,
   "items": [
     {
-      "title": "SBI Confirms Data Breach – 3000+ Customer Records Exposed on Dark Web",
-      "link": "https://cybersecuritynews.com/sbi-confirms-data-breach/",
-      "date": "2026-10-21T06:16:07Z",
-      "description": "State Bank of India (SBI) has disclosed a data loss incident after a preliminary review identified 3,897 customer records containing personal information on the dark web. The bank reported the findings in an October 21, 2026, stock exchange filing, while saying investigators still needed to establish the data’s authenticity, completeness, and source. The disclosure confirms […] The post SBI…",
+      "title": "Rust 1.100 Introduces Cargo Security Cooldowns to Prevent Malicious Dependency Attacks",
+      "link": "https://cybersecuritynews.com/rust-1-100-introduces-cargo-security/",
+      "date": "2026-10-21T12:28:12Z",
+      "description": "Rust 1.100 will introduce optional security cooldowns in Cargo, giving developers a way to delay newly published dependencies before they enter projects. Scheduled for November 12, 2026, the release aims to give security teams and package maintainers time to spot malicious updates before automated builds pull them in. The feature is available in beta but […] The post Rust 1.100 Introduces Cargo…",
       "source": "cybersecuritynews.com"
     },
     {
-      "title": "Meta Muse AI Privacy Flaw Exposes Confidential Business Data Through Shared Chat Links",
-      "link": "https://cybersecuritynews.com/meta-muse-ai-privacy-flaw/",
-      "date": "2026-10-21T06:15:30Z",
-      "description": "Meta has paused Muse AI’s conversation sharing feature after a privacy flaw exposed confidential business records and personal details through discoverable chat links. The problem affected pages users chose to share, not every private Muse conversation. Anyone who found an affected link could open its contents without signing in. The exposure came from how Muse […] The post Meta Muse AI Privacy…",
+      "title": "Microsoft PowerToys adds CursorHide, Button Lock mouse tools",
+      "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-powertoys-adds-cursorhide-button-lock-mouse-tools/",
+      "date": "2026-10-21T12:20:34Z",
+      "description": "Microsoft has released PowerToys 0.102, with two new mouse utilities, new command-line tools, and Command Palette improvements. [...]",
+      "source": "bleepingcomputer.com"
+    },
+    {
+      "title": "Cloudflare Detects Early Exploitation Attempts Targeting Two Leaked PHP Vulnerabilities",
+      "link": "https://cybersecuritynews.com/php-early-exploitation-attempts/",
+      "date": "2026-10-21T11:56:41Z",
+      "description": "Cloudflare says it is seeing early attempts to exploit two critical PHP vulnerabilities whose details surfaced before the PHP security team’s planned release. The company has deployed an initial set of Web Application Firewall (WAF) rules to block known exploit patterns. Cloudflare says the rules are available to all customers, including those on free plans, […] The post Cloudflare Detects Early…",
       "source": "cybersecuritynews.com"
+    },
+    {
+      "title": "Hackers Use Claude AI to Plan Ransomware Attacks, Then Accidentally Expose Their Secrets",
+      "link": "https://cybersecuritynews.com/hackers-use-claude-ai/",
+      "date": "2026-10-21T11:49:02Z",
+      "description": "Ransomware operators used commercial AI tools to help plan intrusions, manage victim information and prepare extortion, according to a new investigation. But the systems they relied on also kept detailed records of their work. A publicly accessible server exposed AI chat sessions, stolen credentials, campaign notes and source code, giving researchers a view into the […] The post Hackers Use…",
+      "source": "cybersecuritynews.com"
+    },
+    {
+      "title": "Massive Oracle Security Update – 1295 Flaws Patched, Including Critical E-Business Suite Vulnerability",
+      "link": "https://cybersecuritynews.com/massive-oracle-security-update/",
+      "date": "2026-10-21T11:26:20Z",
+      "description": "Oracle has released its October 2026 Critical Patch Update, delivering 1,295 new security patches across its software portfolio. Published on October 20. The update includes a maximum-severity Oracle E-Business Suite vulnerability that allows attackers without login credentials to take over an affected Workflow component through network access. The headline figure reflects security patches…",
+      "source": "cybersecuritynews.com"
+    },
+    {
+      "title": "Browsers Block eMudhra Intermediate CAs Over Recoverable Private Keys",
+      "link": "https://www.securityweek.com/browsers-block-emudhra-intermediate-cas-over-recoverable-private-keys/",
+      "date": "2026-10-21T11:22:05Z",
+      "description": "The private keys associated with eight certificates were compromised, and root programs and trust stores are blocking them. The post Browsers Block eMudhra Intermediate CAs Over Recoverable Private Keys appeared first on SecurityWeek.",
+      "source": "securityweek.com"
+    },
+    {
+      "title": "Fortinet FortiSIEM RCE Vulnerability Gets Public Exploit That Requires No Login",
+      "link": "https://cybersecuritynews.com/fortinet-fortisiem-rce-vulnerability/",
+      "date": "2026-10-21T11:09:38Z",
+      "description": "A public proof-of-concept exploit has been released for CVE-2026-106173, a critical vulnerability in Fortinet FortiSIEM that can let a remote attacker write files and run code without logging in. The flaw affects FortiSIEM 7.5.0. Fortinet released a fix in version 7.5.1, while version 7.6 is not affected, according to published reporting on the advisory. Fortinet […] The post Fortinet FortiSIEM…",
+      "source": "cybersecuritynews.com"
+    },
+    {
+      "title": "China Defends DeepSeek After US Ban of Its AI From Government Systems",
+      "link": "https://www.securityweek.com/china-defends-deepseek-after-us-ban-of-its-ai-from-government-systems/",
+      "date": "2026-10-21T10:54:49Z",
+      "description": "The DHS said agencies should remove DeepSeek products as well as third-party products and services developed using DeepSeek from their IT systems. The post China Defends DeepSeek After US Ban of Its AI From Government Systems appeared first on SecurityWeek.",
+      "source": "securityweek.com"
+    },
+    {
+      "title": "PHP2Shell: What Actually Protects You Before the 14:00 UTC PHP RCE Patch, and What Doesn't",
+      "link": "https://thehackernews.com/2026/10/php2shell-what-actually-protects-you.html",
+      "date": "2026-10-21T10:36:53Z",
+      "description": "You cannot fully block the two critical PHP flaws called PHP2Shell before today's fix, and the one setting being passed around as a workaround is not enough on its own, the security firm that suggested it now says. PHP will release the fix at 14:00 UTC on October 21 for two flaws it rates 9.2 out of 10, and has given no workaround of its own. Until you can install it, what lowers your",
+      "source": "thehackernews.com"
+    },
+    {
+      "title": "The Harness Is the Hard Part of Agentic Pentesting",
+      "link": "https://thehackernews.com/2026/10/the-harness-is-hard-part-of-agentic.html",
+      "date": "2026-10-21T10:32:40Z",
+      "description": "An AppSec team can point an AI agent running on a general-purpose model at its own web apps with little setup. Sure, the model writes the attacks. But everything that makes those attacks safe to run against production and worth acting on afterward lives in the harness around the model. The harness is where the engineering in AI pentesting sits. The Hugging Face intrusion OpenAI disclosed in July",
+      "source": "thehackernews.com"
+    },
+    {
+      "title": "Attackers Hijacked Over 300 Tor Exit Relays to Intercept SSH Connections",
+      "link": "https://thehackernews.com/2026/10/attackers-hijacked-over-300-tor-exit.html",
+      "date": "2026-10-21T10:30:27Z",
+      "description": "Attackers took control of more than 300 Tor exit relays in early October and used them to redirect SSH connections to servers that stole login passwords, a researcher found. Exit relays are the last hop in a Tor circuit, where traffic leaves the network for its destination. Only a password login to an SSH server made through Tor between October 1 and 5, after accepting the interception",
+      "source": "thehackernews.com"
+    },
+    {
+      "title": "Microsoft says October updates didn’t actually fix VPN issues",
+      "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-didnt-actually-fix-vpn-issues-caused-by-windows-updates/",
+      "date": "2026-10-21T10:14:53Z",
+      "description": "Microsoft says it mistakenly flagged a bug causing Always On VPN connection issues as fixed in the October 2026 Windows 11 cumulative updates. [...]",
+      "source": "bleepingcomputer.com"
+    },
+    {
+      "title": "Chinese AI Model Writes More Hackable Code When Told It’s for US Contractor",
+      "link": "https://www.securityweek.com/chinese-ai-model-writes-more-hackable-code-when-told-its-for-us-contractor/",
+      "date": "2026-10-21T10:03:24Z",
+      "description": "Tasked with writing an application for a US defense contractor, the model made the code 19% more likely to be hackable. The post Chinese AI Model Writes More Hackable Code When Told It’s for US Contractor appeared first on SecurityWeek.",
+      "source": "securityweek.com"
+    },
+    {
+      "title": "PHP2Shell: Two Unpatched Critical PHP RCE Flaws (CVSS 9.2) Trigger Emergency Security Alert",
+      "link": "https://thehackernews.com/2026/10/php2shell-two-unpatched-critical-php.html",
+      "date": "2026-10-21T09:05:17Z",
+      "description": "This story is developing and was written before PHP's scheduled 14:00 UTC release on October 21. Once the release is out, the affected and fixed versions below are confirmed by the official advisory. PHP will ship an out-of-cycle security release at 14:00 UTC today, October 21, for two critical vulnerabilities that its security team has rated 9.2 on the CVSS v4.0 scale but has not described.",
+      "source": "thehackernews.com"
+    },
+    {
+      "title": "Attackers Abuse UpdraftCentral Keys to Plant Backdoors on WordPress Sites",
+      "link": "https://thehackernews.com/2026/10/attackers-abuse-updraftcentral-keys-to.html",
+      "date": "2026-10-21T09:01:12Z",
+      "description": "Unknown threat actors breached TeamUpdraft's website and potentially gained unauthorized access to customers' connection keys for UpdraftCentral, UpdraftVault, and UpdraftClone, using them to backdoor WordPress sites. TeamUpdraft is the developer behind UpdraftPlus, a popular WordPress backup plugin with over four million active installations. The vendor also offers UpdraftCentral, a remote",
+      "source": "thehackernews.com"
+    },
+    {
+      "title": "CISA: SafePay ransomware hit over 600 critical infrastructure orgs",
+      "link": "https://www.bleepingcomputer.com/news/security/cisa-and-fbi-safepay-ransomware-has-hit-over-600-critical-infrastructure-organizations/",
+      "date": "2026-10-21T08:36:24Z",
+      "description": "The Cybersecurity and Infrastructure Security Agency (CISA) says the SafePay ransomware gang has breached over 600 critical infrastructure organizations worldwide since 2024. [...]",
+      "source": "bleepingcomputer.com"
+    },
+    {
+      "title": "PHP2Shell: Mass Exploitation Looms for Leaked Critical PHP Flaws",
+      "link": "https://www.securityweek.com/php2shell-mass-exploitation-looms-for-leaked-critical-php-flaws/",
+      "date": "2026-10-21T07:02:06Z",
+      "description": "Tracked as CVE-2026-109618 and CVE-2026-109619, the bugs could potentially lead to unauthenticated remote code execution. The post PHP2Shell: Mass Exploitation Looms for Leaked Critical PHP Flaws appeared first on SecurityWeek.",
+      "source": "securityweek.com"
     },
     {
       "title": "Hijacked Developer Account Used to Plant Stealer in OVHcloud CLI",
@@ -22,41 +127,6 @@
       "date": "2026-10-21T06:02:27Z",
       "description": "Researchers say the developer’s account was compromised in March with a GlassWorm-linked loader. The post Hijacked Developer Account Used to Plant Stealer in OVHcloud CLI appeared first on SecurityWeek.",
       "source": "securityweek.com"
-    },
-    {
-      "title": "Now ChatGPT Chrome Extension Can See and Analyze the Content in Open Tabs",
-      "link": "https://cybersecuritynews.com/chatgpt-chrome-extension-analyze-content/",
-      "date": "2026-10-21T05:48:00Z",
-      "description": "OpenAI has expanded its ChatGPT Chrome extension so the assistant can read information across open tabs and carry out browser tasks. The update moves ChatGPT beyond answering questions about a single page, adding tools for comparing content, filling forms, sending messages, and organizing tabs. The announcement appeared on October 16 in India. OpenAI says the […] The post Now ChatGPT Chrome…",
-      "source": "cybersecuritynews.com"
-    },
-    {
-      "title": "WordPress Backup Plugin Developer Hacked to Inject Malicious Code on Installed Sites",
-      "link": "https://cybersecuritynews.com/wordpress-plugin-developer-hacked/",
-      "date": "2026-10-21T05:01:41Z",
-      "description": "TeamUpdraft, the developer behind the UpdraftPlus WordPress backup plugin, has disclosed a website breach that exposed remote management keys. Attackers used those keys to install malicious plugins on connected WordPress sites, turning a trusted management feature into a route for running harmful code. The company identified unauthorized access to teamupdraft.com during October 17–18, 2026.…",
-      "source": "cybersecuritynews.com"
-    },
-    {
-      "title": "PHP2Shell: Two Unpatched Critical PHP RCE Flaws (CVSS 9.2) Trigger Emergency Security Alert",
-      "link": "https://thehackernews.com/2026/10/php2shell-two-unpatched-critical-php.html",
-      "date": "2026-10-21T04:57:50Z",
-      "description": "PHP will ship an out-of-cycle security release at 14:00 UTC today, October 21, for two critical vulnerabilities that its security team has rated 9.2 on the CVSS v4.0 scale but has not described. Security researchers at watchTowr say the two flaws allow remote code execution. Only the four supported PHP branches, 8.2 through 8.5, can receive the fix, and no exploitation has been reported so far.",
-      "source": "thehackernews.com"
-    },
-    {
-      "title": "Accenture, Dragos, SANS Launch $10M Initiative to Defend Small US Utilities",
-      "link": "https://www.securityweek.com/accenture-dragos-sans-launch-10m-initiative-to-defend-small-us-utilities/",
-      "date": "2026-10-21T04:22:11Z",
-      "description": "The first phase will cover up to 500 utilities, which will get free security tools, equipment, deployment help and training. The post Accenture, Dragos, SANS Launch $10M Initiative to Defend Small US Utilities appeared first on SecurityWeek.",
-      "source": "securityweek.com"
-    },
-    {
-      "title": "PHP Warns of Two Critical 9.2 Security Vulnerabilities, Urges Users to Prepare for Patches",
-      "link": "https://cybersecuritynews.com/php-to-issue-emergency-patch/",
-      "date": "2026-10-21T03:32:29Z",
-      "description": "The PHP security team has warned users about two critical vulnerabilities and urged administrators to prepare for an upcoming security release. Both flaws carry a CVSS v4.0 score of 9.2. Updates are scheduled for Wednesday, October 21, 2026, at 14:00 UTC, giving website owners and hosting providers a short window to prepare. In its official […] The post PHP Warns of Two Critical 9.2 Security…",
-      "source": "cybersecuritynews.com"
     },
     {
       "title": "Stolen UpdraftCentral keys used to backdoor WordPress sites",
@@ -80,53 +150,11 @@
       "source": "darkreading.com"
     },
     {
-      "title": "PHP warns admins of two critical flaws, emergency patches coming tomorrow",
-      "link": "https://www.bleepingcomputer.com/news/security/php-warns-admins-of-two-critical-flaws-emergency-patches-coming-tomorrow/",
-      "date": "2026-10-20T20:56:43Z",
-      "description": "The PHP security team is warning administrators to prepare for emergency security updates tomorrow to address two critical vulnerabilities, as information about the flaws has reportedly leaked ahead of their scheduled disclosure. [...]",
-      "source": "bleepingcomputer.com"
-    },
-    {
-      "title": "Zeabur shutting down after second security breach in two months",
-      "link": "https://www.bleepingcomputer.com/news/security/zeabur-shutting-down-after-second-security-breach-in-two-months/",
-      "date": "2026-10-20T19:33:02Z",
-      "description": "Development platform Zeabur has disclosed details of a cybersecurity incident in which an attacker used leaked internal credentials stored in plaintext to compromise its infrastructure and steal over 3.2 million environment variable records and information for 321,810 accounts. [...]",
-      "source": "bleepingcomputer.com"
-    },
-    {
       "title": "Ex-OpenAI Engineer Detained After Planting Secret Recorder at HQ",
       "link": "https://www.darkreading.com/insider-threats/ex-openai-engineer-secret-recorder-saudi-ties",
       "date": "2026-10-20T19:16:49Z",
       "description": "The perp, who has Saudi ties, was arrested for allegedly bugging an OpenAI conference room, highlighting a preventable insider threat vector.",
       "source": "darkreading.com"
-    },
-    {
-      "title": "OpenAI says GPT-6.1 Sol is dramatically better at migrating legacy code",
-      "link": "https://www.bleepingcomputer.com/news/artificial-intelligence/openai-says-gpt-61-sol-is-dramatically-better-at-migrating-legacy-code/",
-      "date": "2026-10-20T18:11:03Z",
-      "description": "OpenAI confirmed that its newer models are much better at writing and migrating software in older programming languages. [...]",
-      "source": "bleepingcomputer.com"
-    },
-    {
-      "title": "Eight eMudhra CA Keys Compromised, Triggering Emergency Fixes Across Browsers and Software",
-      "link": "https://thehackernews.com/2026/10/eight-emudhra-ca-keys-compromised.html",
-      "date": "2026-10-20T17:09:53Z",
-      "description": "The private keys of eight eMudhra intermediate certificate authority (CA) certificates are compromised, Mozilla and Google's Chrome Root Program confirms on October 20. An intermediate CA signs the certificates that websites present, so anyone holding one of these keys could issue a certificate for any website that a browser would accept. A researcher reported the",
-      "source": "thehackernews.com"
-    },
-    {
-      "title": "US Agencies Detail Incident Response Practices for Rogue AI Agents",
-      "link": "https://www.securityweek.com/us-agencies-detail-incident-response-practices-for-rogue-ai-agents/",
-      "date": "2026-10-20T15:45:00Z",
-      "description": "NIST, CISA and NSA share ten voluntary practices for preparing for, detecting, responding to, recovering from, and reporting rogue AI agent incidents. The post US Agencies Detail Incident Response Practices for Rogue AI Agents appeared first on SecurityWeek.",
-      "source": "securityweek.com"
-    },
-    {
-      "title": "Critical FortiSIEM Flaw Gets Public Exploit PoC for Unauthenticated Remote Code Execution",
-      "link": "https://thehackernews.com/2026/10/critical-fortisiem-flaw-gets-public.html",
-      "date": "2026-10-20T15:38:52Z",
-      "description": "Cybersecurity researchers have released a proof-of-concept (PoC) exploit for a recently patched critical security flaw impacting Fortinet FortiSIEM that could result in arbitrary code execution. The vulnerability, tracked as CVE-2026-106173 (CVSS score: 9.4), is a critical path traversal flaw that could allow an unauthenticated attacker to execute unauthorized code or commands via specially",
-      "source": "thehackernews.com"
     },
     {
       "title": "Close Identity Gaps in Software Development Before Unleashing AI",
@@ -136,39 +164,11 @@
       "source": "darkreading.com"
     },
     {
-      "title": "Qilin and INC Ransomware Groups Exploit Palo Alto Networks Flaw to Bypass MFA",
-      "link": "https://thehackernews.com/2026/10/qilin-and-inc-ransomware-groups-exploit.html",
-      "date": "2026-10-20T15:32:27Z",
-      "description": "Palo Alto Networks has disclosed that it's continuing to observe exploitation of a now-patched security flaw impacting PAN-OS and Prisma Access by ransomware actors. The activity relates to CVE-2026-0257 (CVSS score: 7.8), an authentication bypass flaw that could be exploited by bad actors to set up unauthorized VPN connections. It was patched by Palo Alto Networks in May 2026 and was",
-      "source": "thehackernews.com"
-    },
-    {
       "title": "Hackers Abuse AI Pen-Test Tool Cairn to Automate Massive Attack Spree",
       "link": "https://www.darkreading.com/cyberattacks-data-breaches/hackers-abuse-ai-pen-test-tool-cairn",
       "date": "2026-10-20T14:36:05Z",
       "description": "A Chinese-speaking attacker has compromised hundreds of websites across the globe, looting from big fish like John Deere, SharkNinja, and engine manufacturer Cummins.",
       "source": "darkreading.com"
-    },
-    {
-      "title": "Hackers Use Autonomous AI Agents to Breach Company Websites, Target Over 1,200 Sites",
-      "link": "https://thehackernews.com/2026/10/hackers-use-autonomous-ai-agents-to.html",
-      "date": "2026-10-20T14:07:17Z",
-      "description": "A Chinese-speaking criminal pointed autonomous AI agents at company websites and let them break in with almost no help, and a security researcher watched it happen because the operators left their control panels open on the internet. The agents tried more than 1,200 sites and reached websites belonging to more than 100 companies, including farm-equipment maker Deere, appliance company",
-      "source": "thehackernews.com"
-    },
-    {
-      "title": "AOMEI Backupper Compromised in Short-Burst Supply Chain Campaign",
-      "link": "https://www.securityweek.com/aomei-backupper-compromised-in-short-burst-supply-chain-campaign/",
-      "date": "2026-10-20T13:51:01Z",
-      "description": "Across multiple short compromise windows, users were served a downloader for the ShinyRoad modular backdoor framework. The post AOMEI Backupper Compromised in Short-Burst Supply Chain Campaign appeared first on SecurityWeek.",
-      "source": "securityweek.com"
-    },
-    {
-      "title": "The Key to AI Software Security Isn’t Speed, It’s Maturity",
-      "link": "https://www.securityweek.com/the-key-to-ai-software-security-isnt-speed-its-maturity/",
-      "date": "2026-10-20T13:34:23Z",
-      "description": "Where your developers sit on the AI adoption scale has a real impact on how you are addressing security risk. The post The Key to AI Software Security Isn’t Speed, It’s Maturity appeared first on SecurityWeek.",
-      "source": "securityweek.com"
     },
     {
       "title": "Researchers Infiltrate Microsoft Tech Support Scam Operation",
