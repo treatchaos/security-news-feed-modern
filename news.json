@@ -1,7 +1,49 @@
 {
-  "last_updated": "2026-10-23T01:04:32Z",
-  "count": 30,
+  "last_updated": "2026-10-23T06:41:55Z",
+  "count": 35,
   "items": [
+    {
+      "title": "Oracle Issues Emergency Java Update for Critical 9.1 HTTPS Trust Vulnerability",
+      "link": "https://cybersecuritynews.com/emergency-java-update/",
+      "date": "2026-10-23T06:01:47Z",
+      "description": "Oracle has released an emergency Java security update to address CVE-2026-91403, a critical vulnerability affecting how Java applications trust digital certificates. Published on October 21, 2026, the alert assigns the flaw a CVSS 3.1 score of 9.1 and covers Oracle Java SE and GraalVM. The update blocks affected intermediate certificate authority certificates linked to eMudhra. […] The post…",
+      "source": "cybersecuritynews.com"
+    },
+    {
+      "title": "PwC Data Breach Claim – Everest Ransomware Group Claims to Have Stolen 590 GB of Data",
+      "link": "https://cybersecuritynews.com/pwc-data-breach-claim/",
+      "date": "2026-10-23T05:12:54Z",
+      "description": "The Everest ransomware group claims to have stolen 590.69 GB of data from PwC, the global professional services firm. This alleged data theft includes human resources records, training materials, and internal documents. However, the claims are unverified, and PwC has not yet responded. The group’s listing was reported on October 22, 2026. Hackmanac’s public alert […] The post PwC Data Breach…",
+      "source": "cybersecuritynews.com"
+    },
+    {
+      "title": "Critical Cisco Expressway Vulnerability Enables Remote Code Execution Attacks",
+      "link": "https://cybersecuritynews.com/critical-cisco-expressway-vulnerability/",
+      "date": "2026-10-23T04:47:50Z",
+      "description": "Cisco has released security updates for a critical Cisco Expressway vulnerability that could let remote attackers run operating system commands as root. Tracked as CVE-2026-76466, the flaw carries a CVSS score of 9.8 and affects vulnerable Expressway devices configured in a cluster. Cisco published its advisory on October 21, 2026. The issue affects Cisco Expressway […] The post Critical Cisco…",
+      "source": "cybersecuritynews.com"
+    },
+    {
+      "title": "Splunk Fixes 24 Security Flaws, Including Four Critical Vulnerabilities in Enterprise and SOAR",
+      "link": "https://cybersecuritynews.com/splunk-fixes-24-security-flaws/",
+      "date": "2026-10-23T03:41:41Z",
+      "description": "Splunk has released security updates for 24 vulnerabilities in Splunk Enterprise and Splunk SOAR, including four critical flaws with CVSS scores from 9.3 to 9.9. Splunk published the fixes on October 21, 2026, across three advisories covering access control, input handling, exposed files, remote code execution, denial of service, and weak authorization checks. The Splunk […] The post Splunk…",
+      "source": "cybersecuritynews.com"
+    },
+    {
+      "title": "State Bank of India Suffers a Customer PII Data Leak",
+      "link": "https://www.darkreading.com/cyberattacks-data-breaches/state-bank-india-customer-pii-data-leak",
+      "date": "2026-10-23T03:30:00Z",
+      "description": "Relatively small data breaches in India can turn quite serious, thanks to a sophisticated underground market for trading PII.",
+      "source": "darkreading.com"
+    },
+    {
+      "title": "Quest Diagnostics Hacked – Attackers Accessed the System to Order Tests and View Results",
+      "link": "https://cybersecuritynews.com/quest-diagnostics-hacked/",
+      "date": "2026-10-23T03:29:20Z",
+      "description": "Quest Diagnostics has disclosed a cyberattack involving unauthorized access to its Quanum LSM system, which healthcare clients use to order laboratory tests and view results. The company discovered the incident on October 21, 2026, and suspended access to the platform while investigating whether patient records were exposed. The affected service, Quanum Lab Services Manager, supports […] The…",
+      "source": "cybersecuritynews.com"
+    },
     {
       "title": "Railway warns devs to rotate secrets after potential breach",
       "link": "https://www.bleepingcomputer.com/news/security/railway-warns-devs-to-rotate-secrets-after-potential-breach/",
@@ -139,42 +181,35 @@
       "title": "ZDI-CAN-36560: Apple",
       "link": "http://www.zerodayinitiative.com/advisories/upcoming/",
       "date": "2026-10-22T05:00:00Z",
-      "description": "A CVSS score 8.8 AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H severity vulnerability discovered by 'Hossein Lotfi (@hosselot) of TrendAI Zero Day Initiative' was reported to the affected vendor on: 2026-10-22, 0 days ago. The vendor is given until 2027-02-19 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
+      "description": "A CVSS score 8.8 AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H severity vulnerability discovered by 'Hossein Lotfi (@hosselot) of TrendAI Zero Day Initiative' was reported to the affected vendor on: 2026-10-22, 1 days ago. The vendor is given until 2027-02-19 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
       "source": "zerodayinitiative.com"
-    },
-    {
-      "title": "TiDB Breach Exposes Flawed Cloud Security Assumptions",
-      "link": "https://www.darkreading.com/cloud-security/tidb-breach-flawed-cloud-security",
-      "date": "2026-10-21T21:15:39Z",
-      "description": "Cloud providers may be storing sensitive customer data, without either party knowing it. But when a provider is breached, the data comes home to roost.",
-      "source": "darkreading.com"
     },
     {
       "title": "ZDI-CAN-33882: FreeBSD",
       "link": "http://www.zerodayinitiative.com/advisories/upcoming/",
       "date": "2026-10-21T05:00:00Z",
-      "description": "A CVSS score 8.8 AV:L/AC:L/PR:L/UI:N/S:C/C:H/I:H/A:H severity vulnerability discovered by 'Anonymous' was reported to the affected vendor on: 2026-10-21, 1 days ago. The vendor is given until 2027-02-18 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
+      "description": "A CVSS score 8.8 AV:L/AC:L/PR:L/UI:N/S:C/C:H/I:H/A:H severity vulnerability discovered by 'Anonymous' was reported to the affected vendor on: 2026-10-21, 2 days ago. The vendor is given until 2027-02-18 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
       "source": "zerodayinitiative.com"
     },
     {
       "title": "ZDI-CAN-34495: Clam AntiVirus",
       "link": "http://www.zerodayinitiative.com/advisories/upcoming/",
       "date": "2026-10-21T05:00:00Z",
-      "description": "A CVSS score 7.8 AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H severity vulnerability discovered by 'Alex Williams from Pellera Technologies' was reported to the affected vendor on: 2026-10-21, 1 days ago. The vendor is given until 2027-02-18 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
+      "description": "A CVSS score 7.8 AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H severity vulnerability discovered by 'Alex Williams from Pellera Technologies' was reported to the affected vendor on: 2026-10-21, 2 days ago. The vendor is given until 2027-02-18 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
       "source": "zerodayinitiative.com"
     },
     {
       "title": "ZDI-CAN-34068: Linux",
       "link": "http://www.zerodayinitiative.com/advisories/upcoming/",
       "date": "2026-10-21T05:00:00Z",
-      "description": "A CVSS score 8.8 AV:L/AC:L/PR:L/UI:N/S:C/C:H/I:H/A:H severity vulnerability discovered by 'Leonardo Mazzorana, z0v3r1n' was reported to the affected vendor on: 2026-10-21, 1 days ago. The vendor is given until 2027-02-18 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
+      "description": "A CVSS score 8.8 AV:L/AC:L/PR:L/UI:N/S:C/C:H/I:H/A:H severity vulnerability discovered by 'Leonardo Mazzorana, z0v3r1n' was reported to the affected vendor on: 2026-10-21, 2 days ago. The vendor is given until 2027-02-18 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
       "source": "zerodayinitiative.com"
     },
     {
       "title": "ZDI-CAN-33759: X.Org",
       "link": "http://www.zerodayinitiative.com/advisories/upcoming/",
       "date": "2026-10-21T05:00:00Z",
-      "description": "A CVSS score 7.0 AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H severity vulnerability discovered by 'Anonymous' was reported to the affected vendor on: 2026-10-21, 1 days ago. The vendor is given until 2027-02-18 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
+      "description": "A CVSS score 7.0 AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H severity vulnerability discovered by 'Anonymous' was reported to the affected vendor on: 2026-10-21, 2 days ago. The vendor is given until 2027-02-18 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
       "source": "zerodayinitiative.com"
     },
     {
