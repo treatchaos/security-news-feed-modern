@@ -1,7 +1,7 @@
 {
-  "last_updated": "2026-10-23T06:41:55Z",
+  "last_updated": "2026-10-23T12:15:14Z",
   "retention_days": 90,
-  "count": 3366,
+  "count": 3379,
   "items": [
     {
       "id": "67e06cf13e3c120958db05325eb3a662b3a98e65",
@@ -22,6 +22,166 @@
       "source": "darkreading.com",
       "first_seen": "2026-08-29T02:35:07Z",
       "last_seen": "2026-08-31T21:12:11Z"
+    },
+    {
+      "id": "9fa54ab4c5f2b77a0c2fff25d748171a7c56cb2f",
+      "title": "AI Agents as Insider Threats: Inside Microsoft's Bet on a Unified Security Stack",
+      "link": "https://www.darkreading.com/cybersecurity-operations/ai-agents-insider-threats-inside-microsoft-unified-security-stack",
+      "date": "2026-10-23T11:38:28Z",
+      "description": "Microsoft's Project Perception adds Guardian Agents to monitor and contain anomalous AI agents, but experts warn that policing unpredictable agents with other agents may multiply — not contain — the risk.",
+      "source": "darkreading.com",
+      "first_seen": "2026-10-23T12:15:14Z",
+      "last_seen": "2026-10-23T12:15:14Z"
+    },
+    {
+      "id": "98b490014e63d15c02715d2a682c9b074cd7f891",
+      "title": "URGENT - PHP Warns of Another Unpatched RCE Two Days After Emergency PHP2Shell Patches",
+      "link": "https://thehackernews.com/2026/10/urgent-php-warns-of-another-unpatched.html",
+      "date": "2026-10-23T11:25:43Z",
+      "description": "PHP has warned of another way an attacker could run code on a web server, two days after it shipped emergency fixes for the critical PHP2Shell flaws. The new issue, assigned CVE-2026-115560, affects only web applications configured in an unusual way, and PHP considers it an unlikely risk. The project is not issuing an emergency fix for it. Instead, it recommends turning off a feature called",
+      "source": "thehackernews.com",
+      "first_seen": "2026-10-23T12:15:14Z",
+      "last_seen": "2026-10-23T12:15:14Z"
+    },
+    {
+      "id": "3c8ce8ebde31c1e15b4422667fc85b8ac5ecfab0",
+      "title": "Hackers Use New BlackX Bootkit to Bypass Windows Secure Boot on Fully Patched Systems",
+      "link": "https://cybersecuritynews.com/hackers-use-new-blackx-bootkit/",
+      "date": "2026-10-23T11:23:35Z",
+      "description": "A new UEFI bootkit called BlackX has been used in cyberespionage attacks against diplomatic organizations in Tajikistan, Uzbekistan, and Turkmenistan. The malware targets Secure Boot, a feature designed to help stop untrusted software from running before Windows starts. Researchers say the infected computers had received Windows updates, but a key Secure Boot protection had not […] The post…",
+      "source": "cybersecuritynews.com",
+      "first_seen": "2026-10-23T12:15:14Z",
+      "last_seen": "2026-10-23T12:15:14Z"
+    },
+    {
+      "id": "53ca68e7da884e5a9ebc2f9898795a71013e8b4e",
+      "title": "Russian-Linked Hackers Used New Mesh Network Backdoor in Destructive Ukraine Attack",
+      "link": "https://thehackernews.com/2026/10/russian-linked-hackers-used-new-mesh.html",
+      "date": "2026-10-23T11:11:23Z",
+      "description": "The Russian state-sponsored hacking group Sandworm teamed up with another threat actor to carry out a destructive wiping attack targeting a Ukrainian logistics company last year. According to ESET, the attack involved UAC-0099 (aka Earth Sirrush) obtaining initial access to the target on July 16, 2025, via a spear-phishing email bearing a malware-laced attachment that led to the deployment of",
+      "source": "thehackernews.com",
+      "first_seen": "2026-10-23T12:15:14Z",
+      "last_seen": "2026-10-23T12:15:14Z"
+    },
+    {
+      "id": "05d439c334576bfceacf83e558d06ee451cd18de",
+      "title": "China APT Uses AI Pentest Tool Artex in ConnectWise Attacks",
+      "link": "https://www.securityweek.com/china-apt-uses-ai-pentest-tool-artex-in-connectwise-attacks/",
+      "date": "2026-10-23T10:31:16Z",
+      "description": "The state-sponsored hackers targeted hundreds of organizations and gained privileged access to some environments. The post China APT Uses AI Pentest Tool Artex in ConnectWise Attacks appeared first on SecurityWeek.",
+      "source": "securityweek.com",
+      "first_seen": "2026-10-23T12:15:14Z",
+      "last_seen": "2026-10-23T12:15:14Z"
+    },
+    {
+      "id": "5cb60fccdfd56dd0f64eadd9c15ca3a4fdcccedd",
+      "title": "Attackers Exploit Third VeloCloud Orchestrator Zero-Day in Four Months",
+      "link": "https://www.securityweek.com/attackers-exploit-third-velocloud-orchestrator-zero-day-in-four-months/",
+      "date": "2026-10-23T09:58:34Z",
+      "description": "The critical-severity SQL injection flaw allows attackers to access privileged internal functionality and gain operator privileges. The post Attackers Exploit Third VeloCloud Orchestrator Zero-Day in Four Months appeared first on SecurityWeek.",
+      "source": "securityweek.com",
+      "first_seen": "2026-10-23T12:15:14Z",
+      "last_seen": "2026-10-23T12:15:14Z"
+    },
+    {
+      "id": "2cc472a8d75b4af6caa2049831a246b2a4b58b9d",
+      "title": "Critical Flaw in Python’s Popular Pillow Image Library Allows Code Execution via a Crafted Image",
+      "link": "https://thehackernews.com/2026/10/critical-flaw-in-pythons-popular-pillow.html",
+      "date": "2026-10-23T09:36:00Z",
+      "description": "Pillow, the most widely used image library for Python, can be made to run operating system commands on a server by specifying the name of a file it is told to open. The flaw, CVE-2026-112900, is in the way Pillow handles EPS images, which it opens by passing the file's name to Ghostscript, a separate program it runs to turn the image into pixels, without checking the name first.",
+      "source": "thehackernews.com",
+      "first_seen": "2026-10-23T12:15:14Z",
+      "last_seen": "2026-10-23T12:15:14Z"
+    },
+    {
+      "id": "be826b9ea411ac461df3463fa14f3fd9e0fb4a7e",
+      "title": "SBI Notifies Customers Impacted by the Recent Cyber Incident",
+      "link": "https://cybersecuritynews.com/sbi-notifies-customers-with-cyber-incident/",
+      "date": "2026-10-23T09:20:41Z",
+      "description": "State Bank of India (SBI) has individually notified customers whose information was identified in a recent cyber incident, sending alerts through email and WhatsApp. In its latest advisory on October 23, the bank said customer account balances and funds remain safe while investigators examine the suspected exposure of personal information found on the dark web. […] The post SBI Notifies…",
+      "source": "cybersecuritynews.com",
+      "first_seen": "2026-10-23T12:15:14Z",
+      "last_seen": "2026-10-23T12:15:14Z"
+    },
+    {
+      "id": "f5be0914780a44a5c3ce6e60049a76c41f6a4dfc",
+      "title": "Researchers Demonstrate Node2Shell RCE Exploit on Node.js Build Using Crafted Brotli Data",
+      "link": "https://thehackernews.com/2026/10/researchers-demonstrate-node2shell-rce.html",
+      "date": "2026-10-23T08:40:43Z",
+      "description": "Malicious Brotli data can make an application on an official build of Node.js run attacker-supplied code, security researchers at Imperva have demonstrated. Their \"Node2Shell\" proof of concept ran code on the official Node.js 24.22.0 image for Linux arm64, with no debugger or custom build, by feeding crafted data to the bundled Brotli decoder (CVE-2026-111497). Node.js disclosed the flaw",
+      "source": "thehackernews.com",
+      "first_seen": "2026-10-23T12:15:14Z",
+      "last_seen": "2026-10-23T12:15:14Z"
+    },
+    {
+      "id": "d35e346eec89d7dd3c7fd1c71c983f31c96aab7c",
+      "title": "Critical x402 SDK Flaw Could Let Malicious APIs Drain AI Agents’ Token Balances",
+      "link": "https://thehackernews.com/2026/10/critical-x402-sdk-flaw-could-let.html",
+      "date": "2026-10-23T08:35:45Z",
+      "description": "AI agents paying for API calls with the x402 SDKs could sign a payment for their full balance of a supported token if a malicious API asked for it, security firm V12 said on October 22. The cause was the SDKs' default client, which set no spending limit until releases on August 18 added one. The risk was limited to agents who automatically signed payments and whose apps set",
+      "source": "thehackernews.com",
+      "first_seen": "2026-10-23T12:15:14Z",
+      "last_seen": "2026-10-23T12:15:14Z"
+    },
+    {
+      "id": "8d9dd0ee20e288fd0c8810ac0c0ded4f26bcfac3",
+      "title": "11 Million Impacted by Capcom Data Breach",
+      "link": "https://www.securityweek.com/11-million-impacted-by-capcom-data-breach/",
+      "date": "2026-10-23T08:34:14Z",
+      "description": "The hackers stole 11 million email addresses from CAPCOM ID and changed the login passwords for 196 accounts. The post 11 Million Impacted by Capcom Data Breach appeared first on SecurityWeek.",
+      "source": "securityweek.com",
+      "first_seen": "2026-10-23T12:15:14Z",
+      "last_seen": "2026-10-23T12:15:14Z"
+    },
+    {
+      "id": "aa7875807a6ec33a4659cb1291b25f38c144aabf",
+      "title": "Quest Diagnostics Reports Cyber Breach Affecting ‘Certain Patient Records’",
+      "link": "https://www.securityweek.com/quest-diagnostics-reports-cyber-breach-affecting-certain-patient-records/",
+      "date": "2026-10-23T08:25:06Z",
+      "description": "In a regulatory filing, Quest Diagnostics reported unauthorized access to its Quanum Lab Services Manager, a platform where certain clients can place test orders. The post Quest Diagnostics Reports Cyber Breach Affecting ‘Certain Patient Records’ appeared first on SecurityWeek.",
+      "source": "securityweek.com",
+      "first_seen": "2026-10-23T12:15:14Z",
+      "last_seen": "2026-10-23T12:15:14Z"
+    },
+    {
+      "id": "b827cd4d5a5ac46bf08526fe290ac52a622c4eb7",
+      "title": "Top 10 Best Email Encryption Services in 2026 [Ranked & Scored]",
+      "link": "https://cybersecuritynews.com/best-email-encryption-services/",
+      "date": "2026-10-23T08:22:52Z",
+      "description": "Email encryption has a usability paradox: the strongest cryptography loses to the recipient who gives up at the portal login and asks for the file “some other way.” The 2026 winners solve for both ends sender-side automation (policies, DLP triggers, one-click protect) and recipient experiences that don’t require a manual. We scored ten services on […] The post Top 10 Best Email Encryption…",
+      "source": "cybersecuritynews.com",
+      "first_seen": "2026-10-23T12:15:14Z",
+      "last_seen": "2026-10-23T12:15:14Z"
+    },
+    {
+      "id": "303f551a068430c9fd421409436ed61869badf9a",
+      "title": "Top 9 Best Managed File Transfer (MFT) Solutions in 2026 [Ranked & Scored]",
+      "link": "https://cybersecuritynews.com/best-managed-file-transfer/",
+      "date": "2026-10-23T08:16:37Z",
+      "description": "No category has been breached more publicly this decade than managed file transfer mass-exploitation campaigns against MFT products turned quiet integration plumbing into board-level risk, and the 2023–2024 waves rewrote the buying criteria. In 2026 you evaluate an MFT vendor’s security engineering exposure architecture, patch velocity, hardening posture before its scheduler. Our sheet listed…",
+      "source": "cybersecuritynews.com",
+      "first_seen": "2026-10-23T12:15:14Z",
+      "last_seen": "2026-10-23T12:15:14Z"
+    },
+    {
+      "id": "ebdf8e256475c87b39fe7ebde748b139c327396f",
+      "title": "LiteLLM Compromised in Fresh Supply Chain Attack",
+      "link": "https://www.securityweek.com/litellm-compromised-in-fresh-supply-chain-attack/",
+      "date": "2026-10-23T08:10:46Z",
+      "description": "Hackers used compromised GitHub CLI OAuth tokens to push and approve malicious packages on PyPI and Docker. The post LiteLLM Compromised in Fresh Supply Chain Attack appeared first on SecurityWeek.",
+      "source": "securityweek.com",
+      "first_seen": "2026-10-23T12:15:14Z",
+      "last_seen": "2026-10-23T12:15:14Z"
+    },
+    {
+      "id": "31f36e78afd4aa995743025e069a55e444b97f75",
+      "title": "Hackers Exploit Critical Citrix NetScaler RCE Flaw to Deploy Web Shells and Malware",
+      "link": "https://cybersecuritynews.com/citrix-netscaler-rce-flaw/",
+      "date": "2026-10-23T07:50:58Z",
+      "description": "A critical vulnerability in Citrix NetScaler ADC and NetScaler Gateway is being exploited to run commands on exposed appliances, install web shells and deliver malware. Tracked as CVE-2026-88771, the flaw allows an unauthenticated attacker to execute commands remotely. Citrix disclosed it on September 27, 2026, and confirmed exploitation of appliances that had not been protected […] The post…",
+      "source": "cybersecuritynews.com",
+      "first_seen": "2026-10-23T12:15:14Z",
+      "last_seen": "2026-10-23T12:15:14Z"
     },
     {
       "id": "7eb20392f83804d613d8128e93474caa9a4b640a",
@@ -71,7 +231,7 @@
       "description": "Relatively small data breaches in India can turn quite serious, thanks to a sophisticated underground market for trading PII.",
       "source": "darkreading.com",
       "first_seen": "2026-10-23T06:41:55Z",
-      "last_seen": "2026-10-23T06:41:55Z"
+      "last_seen": "2026-10-23T12:15:14Z"
     },
     {
       "id": "741dcc9e869a8efc724c89aba01a82514a61aa9d",
@@ -91,7 +251,7 @@
       "description": "Cloud platform Railway published an urgent warning to users after detecting suspicious activity on its systems that store customer environment variables earlier this week. [...]",
       "source": "bleepingcomputer.com",
       "first_seen": "2026-10-22T22:01:19Z",
-      "last_seen": "2026-10-23T06:41:55Z"
+      "last_seen": "2026-10-23T12:15:14Z"
     },
     {
       "id": "cb39e1e45e340152dac6b050140ac076b9289b0b",
@@ -101,7 +261,7 @@
       "description": "The China-linked actor used an AI-enabled penetration-testing tool to automate and accelerate its attack on more than 2,200 tenants.",
       "source": "darkreading.com",
       "first_seen": "2026-10-23T01:04:32Z",
-      "last_seen": "2026-10-23T06:41:55Z"
+      "last_seen": "2026-10-23T12:15:14Z"
     },
     {
       "id": "eb5380aeb77c28757ab48cc83c6357bcfa18d7b5",
@@ -111,7 +271,7 @@
       "description": "In this video, Dark Reading editors discuss some of the news they didn't get a chance to cover, from busting up North Korea's stateside infrastructure in \"Operation Lonestar Justice\" to Staples' gift card bonanza.",
       "source": "darkreading.com",
       "first_seen": "2026-10-22T22:01:19Z",
-      "last_seen": "2026-10-23T06:41:55Z"
+      "last_seen": "2026-10-23T12:15:14Z"
     },
     {
       "id": "f97a6e342e961b99c70aa8d125ff073eddfe24b5",
@@ -121,7 +281,7 @@
       "description": "Japanese gaming giant Capcom has confirmed that hackers breached its membership service, CAPCOM ID, exposing more than 11.7 million customer email addresses and associated information. [...]",
       "source": "bleepingcomputer.com",
       "first_seen": "2026-10-22T22:01:19Z",
-      "last_seen": "2026-10-23T06:41:55Z"
+      "last_seen": "2026-10-23T12:15:14Z"
     },
     {
       "id": "e42e58cdbe315cf735bfb091850a900cfb64fd7a",
@@ -131,7 +291,7 @@
       "description": "Des centaines de magasins ont subi des pertes se chiffrant en millions d'euros parce qu'ils avaient fait appel à des tiers pour gérer le micrologiciel OT obsolète qui pilotait leurs systèmes de climatisation.",
       "source": "darkreading.com",
       "first_seen": "2026-10-22T22:01:19Z",
-      "last_seen": "2026-10-23T06:41:55Z"
+      "last_seen": "2026-10-23T12:15:14Z"
     },
     {
       "id": "bf6f2e2b8c05d6fc60458ca3f92303c3781a8fa7",
@@ -141,7 +301,7 @@
       "description": "Hackers compromised the LiteLLM project's PyPI package and published malicious Docker images with a payload that steals credentials, secrets, and environment variables. [...]",
       "source": "bleepingcomputer.com",
       "first_seen": "2026-10-22T22:01:19Z",
-      "last_seen": "2026-10-23T06:41:55Z"
+      "last_seen": "2026-10-23T12:15:14Z"
     },
     {
       "id": "eb8a7d2d6d72e9d0ed9f3194c9fb2d2746bacda5",
@@ -181,7 +341,7 @@
       "description": "Arista Networks released security updates to patch an actively exploited zero-day vulnerability affecting VeloCloud Orchestrator (VCO) On-Prem deployments. [...]",
       "source": "bleepingcomputer.com",
       "first_seen": "2026-10-22T18:56:58Z",
-      "last_seen": "2026-10-23T06:41:55Z"
+      "last_seen": "2026-10-23T12:15:14Z"
     },
     {
       "id": "90581c940cb4276bd0e6f62679b67cb4a0f0fb66",
@@ -221,7 +381,7 @@
       "description": "Microsoft says IT admins can re-enable the retired Exchange Web Services (EWS) API in Exchange Online to fix EWS apps that have stopped working. [...]",
       "source": "bleepingcomputer.com",
       "first_seen": "2026-10-22T18:56:58Z",
-      "last_seen": "2026-10-23T06:41:55Z"
+      "last_seen": "2026-10-23T12:15:14Z"
     },
     {
       "id": "c4d6a8c38c02a6b7e3d5982596ca96495875497f",
@@ -561,7 +721,7 @@
       "description": "A CVSS score 8.8 AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H severity vulnerability discovered by 'Hossein Lotfi (@hosselot) of TrendAI Zero Day Initiative' was reported to the affected vendor on: 2026-10-22, 0 days ago. The vendor is given until 2027-02-19 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
       "source": "zerodayinitiative.com",
       "first_seen": "2026-10-22T22:01:19Z",
-      "last_seen": "2026-10-23T06:41:55Z"
+      "last_seen": "2026-10-23T12:15:14Z"
     },
     {
       "id": "3ef81162f63d00165f857f1caaab32762eb40168",
@@ -1141,7 +1301,7 @@
       "description": "A CVSS score 8.8 AV:L/AC:L/PR:L/UI:N/S:C/C:H/I:H/A:H severity vulnerability discovered by 'Anonymous' was reported to the affected vendor on: 2026-10-21, 0 days ago. The vendor is given until 2027-02-18 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
       "source": "zerodayinitiative.com",
       "first_seen": "2026-10-21T23:55:28Z",
-      "last_seen": "2026-10-23T06:41:55Z"
+      "last_seen": "2026-10-23T12:15:14Z"
     },
     {
       "id": "2759b0c0822c042ce59dda22f4da9abe40fe092b",
@@ -1151,7 +1311,7 @@
       "description": "A CVSS score 7.8 AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H severity vulnerability discovered by 'Alex Williams from Pellera Technologies' was reported to the affected vendor on: 2026-10-21, 0 days ago. The vendor is given until 2027-02-18 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
       "source": "zerodayinitiative.com",
       "first_seen": "2026-10-21T23:55:28Z",
-      "last_seen": "2026-10-23T06:41:55Z"
+      "last_seen": "2026-10-23T12:15:14Z"
     },
     {
       "id": "100592a380efba5bcb36efaf751d3f8f46641321",
@@ -1161,7 +1321,7 @@
       "description": "A CVSS score 8.8 AV:L/AC:L/PR:L/UI:N/S:C/C:H/I:H/A:H severity vulnerability discovered by 'Leonardo Mazzorana, z0v3r1n' was reported to the affected vendor on: 2026-10-21, 0 days ago. The vendor is given until 2027-02-18 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
       "source": "zerodayinitiative.com",
       "first_seen": "2026-10-21T23:55:28Z",
-      "last_seen": "2026-10-23T06:41:55Z"
+      "last_seen": "2026-10-23T12:15:14Z"
     },
     {
       "id": "b5319bc605fb157221f5d3adb3a69a8387bcd8da",
@@ -1171,7 +1331,7 @@
       "description": "A CVSS score 7.0 AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H severity vulnerability discovered by 'Anonymous' was reported to the affected vendor on: 2026-10-21, 0 days ago. The vendor is given until 2027-02-18 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
       "source": "zerodayinitiative.com",
       "first_seen": "2026-10-21T23:55:28Z",
-      "last_seen": "2026-10-23T06:41:55Z"
+      "last_seen": "2026-10-23T12:15:14Z"
     },
     {
       "id": "9f5d1fd3795f5951a969d43978d1d8a70cd008dc",
@@ -33554,36 +33714,6 @@
       "last_seen": "2026-07-25T18:51:17Z"
     },
     {
-      "id": "af635a06f53e2383703b9d2984daf7dd3a49425e",
-      "title": "OpenAI confirms ChatGPT is down worldwide",
-      "link": "https://www.bleepingcomputer.com/news/artificial-intelligence/openai-confirms-chatgpt-is-down-worldwide/",
-      "date": "2026-07-25T09:31:09Z",
-      "description": "ChatGPT, the famous artificial intelligence chatbot that allows users to converse with various personalities and topics, has connectivity issues worldwide. [...]",
-      "source": "bleepingcomputer.com",
-      "first_seen": "2026-07-25T11:02:50Z",
-      "last_seen": "2026-07-27T12:49:21Z"
-    },
-    {
-      "id": "1a5eab7c279c889e1bd5ef7f08a2dd9d37611942",
-      "title": "Researcher Publishes GitLab RCE PoC Letting Authenticated Users Run Commands as Git",
-      "link": "https://thehackernews.com/2026/07/researcher-publishes-gitlab-rce-poc.html",
-      "date": "2026-07-25T08:34:15Z",
-      "description": "Security researcher Yuhang Wu at depthfirst has published a working proof-of-concept (PoC) exploit that executes commands as git on an unpatched self-managed GitLab 18.11.3 server. An ordinary authenticated user triggers it by committing two crafted Jupyter notebooks and requesting their diff. The chain needs no administrator rights, continuous integration (CI) runner access, victim interaction",
-      "source": "thehackernews.com",
-      "first_seen": "2026-07-25T09:26:29Z",
-      "last_seen": "2026-07-27T09:27:35Z"
-    },
-    {
-      "id": "e894b733250de0d88cea1fbf6abd2d886093d12a",
-      "title": "Rockwell Patches Code Execution Flaws in Arena Simulation Software",
-      "link": "https://www.securityweek.com/rockwell-patches-code-execution-flaws-in-arena-simulation-software/",
-      "date": "2026-07-25T08:30:00Z",
-      "description": "A researcher has explained how an attacker could exploit these vulnerabilities to target industrial organizations. The post Rockwell Patches Code Execution Flaws in Arena Simulation Software appeared first on SecurityWeek.",
-      "source": "securityweek.com",
-      "first_seen": "2026-07-25T09:26:29Z",
-      "last_seen": "2026-07-27T09:27:35Z"
-    },
-    {
       "id": "659bccff4c980b95b7a85ae23b107fa0744cab49",
       "title": "Linux Kernel Vulnerability CVE-2024-26582: Public PoC Reaches Root Shell",
       "link": "https://securityonline.info/linux-kernel-cve-2024-26582-root-shell/",
@@ -33621,7 +33751,7 @@
       "description": "2.5 million people were affected, in a breach that could spell more trouble down the line.",
       "source": "threatpost.com",
       "first_seen": "2026-08-08T14:21:59Z",
-      "last_seen": "2026-10-23T06:41:55Z"
+      "last_seen": "2026-10-23T12:15:14Z"
     },
     {
       "id": "4140c7a34b0ba94ad2e6b0cae9f59b0cb9bfffea",
@@ -33631,7 +33761,7 @@
       "description": "Researchers uncover a watering hole attack likely carried out by APT TA423, which attempts to plant the ScanBox JavaScript-based reconnaissance tool.",
       "source": "threatpost.com",
       "first_seen": "2026-08-08T14:21:59Z",
-      "last_seen": "2026-10-23T06:41:55Z"
+      "last_seen": "2026-10-23T12:15:14Z"
     },
     {
       "id": "9359ee40a641a4b565080313045f1d7e7fe6552b",
@@ -33641,7 +33771,7 @@
       "description": "Over 130 companies tangled in sprawling phishing campaign that spoofed a multi-factor authentication system.",
       "source": "threatpost.com",
       "first_seen": "2026-08-08T14:21:59Z",
-      "last_seen": "2026-10-23T06:41:55Z"
+      "last_seen": "2026-10-23T12:15:14Z"
     },
     {
       "id": "b4ccef0737cd4050d65241bf754072030b6b5e6a",
@@ -33651,7 +33781,7 @@
       "description": "Lockbit is by far this summer’s most prolific ransomware group, trailed by two offshoots of the Conti group.",
       "source": "threatpost.com",
       "first_seen": "2026-08-08T14:21:59Z",
-      "last_seen": "2026-10-23T06:41:55Z"
+      "last_seen": "2026-10-23T12:15:14Z"
     },
     {
       "id": "12ee113fc8fce91f6d7fb28deab2b1ad20061ec7",
@@ -33661,7 +33791,7 @@
       "description": "Tens of thousands of cameras have failed to patch a critical, 11-month-old CVE, leaving thousands of organizations exposed.",
       "source": "threatpost.com",
       "first_seen": "2026-08-08T14:21:59Z",
-      "last_seen": "2026-10-23T06:41:55Z"
+      "last_seen": "2026-10-23T12:15:14Z"
     }
   ]
 }

@@ -1,33 +1,117 @@
 {
-  "last_updated": "2026-10-23T06:41:55Z",
+  "last_updated": "2026-10-23T12:15:14Z",
   "count": 35,
   "items": [
     {
-      "title": "Oracle Issues Emergency Java Update for Critical 9.1 HTTPS Trust Vulnerability",
-      "link": "https://cybersecuritynews.com/emergency-java-update/",
-      "date": "2026-10-23T06:01:47Z",
-      "description": "Oracle has released an emergency Java security update to address CVE-2026-91403, a critical vulnerability affecting how Java applications trust digital certificates. Published on October 21, 2026, the alert assigns the flaw a CVSS 3.1 score of 9.1 and covers Oracle Java SE and GraalVM. The update blocks affected intermediate certificate authority certificates linked to eMudhra. […] The post…",
+      "title": "AI Agents as Insider Threats: Inside Microsoft's Bet on a Unified Security Stack",
+      "link": "https://www.darkreading.com/cybersecurity-operations/ai-agents-insider-threats-inside-microsoft-unified-security-stack",
+      "date": "2026-10-23T11:38:28Z",
+      "description": "Microsoft's Project Perception adds Guardian Agents to monitor and contain anomalous AI agents, but experts warn that policing unpredictable agents with other agents may multiply — not contain — the risk.",
+      "source": "darkreading.com"
+    },
+    {
+      "title": "URGENT - PHP Warns of Another Unpatched RCE Two Days After Emergency PHP2Shell Patches",
+      "link": "https://thehackernews.com/2026/10/urgent-php-warns-of-another-unpatched.html",
+      "date": "2026-10-23T11:25:43Z",
+      "description": "PHP has warned of another way an attacker could run code on a web server, two days after it shipped emergency fixes for the critical PHP2Shell flaws. The new issue, assigned CVE-2026-115560, affects only web applications configured in an unusual way, and PHP considers it an unlikely risk. The project is not issuing an emergency fix for it. Instead, it recommends turning off a feature called",
+      "source": "thehackernews.com"
+    },
+    {
+      "title": "Hackers Use New BlackX Bootkit to Bypass Windows Secure Boot on Fully Patched Systems",
+      "link": "https://cybersecuritynews.com/hackers-use-new-blackx-bootkit/",
+      "date": "2026-10-23T11:23:35Z",
+      "description": "A new UEFI bootkit called BlackX has been used in cyberespionage attacks against diplomatic organizations in Tajikistan, Uzbekistan, and Turkmenistan. The malware targets Secure Boot, a feature designed to help stop untrusted software from running before Windows starts. Researchers say the infected computers had received Windows updates, but a key Secure Boot protection had not […] The post…",
       "source": "cybersecuritynews.com"
     },
     {
-      "title": "PwC Data Breach Claim – Everest Ransomware Group Claims to Have Stolen 590 GB of Data",
-      "link": "https://cybersecuritynews.com/pwc-data-breach-claim/",
-      "date": "2026-10-23T05:12:54Z",
-      "description": "The Everest ransomware group claims to have stolen 590.69 GB of data from PwC, the global professional services firm. This alleged data theft includes human resources records, training materials, and internal documents. However, the claims are unverified, and PwC has not yet responded. The group’s listing was reported on October 22, 2026. Hackmanac’s public alert […] The post PwC Data Breach…",
+      "title": "Russian-Linked Hackers Used New Mesh Network Backdoor in Destructive Ukraine Attack",
+      "link": "https://thehackernews.com/2026/10/russian-linked-hackers-used-new-mesh.html",
+      "date": "2026-10-23T11:11:23Z",
+      "description": "The Russian state-sponsored hacking group Sandworm teamed up with another threat actor to carry out a destructive wiping attack targeting a Ukrainian logistics company last year. According to ESET, the attack involved UAC-0099 (aka Earth Sirrush) obtaining initial access to the target on July 16, 2025, via a spear-phishing email bearing a malware-laced attachment that led to the deployment of",
+      "source": "thehackernews.com"
+    },
+    {
+      "title": "China APT Uses AI Pentest Tool Artex in ConnectWise Attacks",
+      "link": "https://www.securityweek.com/china-apt-uses-ai-pentest-tool-artex-in-connectwise-attacks/",
+      "date": "2026-10-23T10:31:16Z",
+      "description": "The state-sponsored hackers targeted hundreds of organizations and gained privileged access to some environments. The post China APT Uses AI Pentest Tool Artex in ConnectWise Attacks appeared first on SecurityWeek.",
+      "source": "securityweek.com"
+    },
+    {
+      "title": "Attackers Exploit Third VeloCloud Orchestrator Zero-Day in Four Months",
+      "link": "https://www.securityweek.com/attackers-exploit-third-velocloud-orchestrator-zero-day-in-four-months/",
+      "date": "2026-10-23T09:58:34Z",
+      "description": "The critical-severity SQL injection flaw allows attackers to access privileged internal functionality and gain operator privileges. The post Attackers Exploit Third VeloCloud Orchestrator Zero-Day in Four Months appeared first on SecurityWeek.",
+      "source": "securityweek.com"
+    },
+    {
+      "title": "Critical Flaw in Python’s Popular Pillow Image Library Allows Code Execution via a Crafted Image",
+      "link": "https://thehackernews.com/2026/10/critical-flaw-in-pythons-popular-pillow.html",
+      "date": "2026-10-23T09:36:00Z",
+      "description": "Pillow, the most widely used image library for Python, can be made to run operating system commands on a server by specifying the name of a file it is told to open. The flaw, CVE-2026-112900, is in the way Pillow handles EPS images, which it opens by passing the file's name to Ghostscript, a separate program it runs to turn the image into pixels, without checking the name first.",
+      "source": "thehackernews.com"
+    },
+    {
+      "title": "SBI Notifies Customers Impacted by the Recent Cyber Incident",
+      "link": "https://cybersecuritynews.com/sbi-notifies-customers-with-cyber-incident/",
+      "date": "2026-10-23T09:20:41Z",
+      "description": "State Bank of India (SBI) has individually notified customers whose information was identified in a recent cyber incident, sending alerts through email and WhatsApp. In its latest advisory on October 23, the bank said customer account balances and funds remain safe while investigators examine the suspected exposure of personal information found on the dark web. […] The post SBI Notifies…",
       "source": "cybersecuritynews.com"
     },
     {
-      "title": "Critical Cisco Expressway Vulnerability Enables Remote Code Execution Attacks",
-      "link": "https://cybersecuritynews.com/critical-cisco-expressway-vulnerability/",
-      "date": "2026-10-23T04:47:50Z",
-      "description": "Cisco has released security updates for a critical Cisco Expressway vulnerability that could let remote attackers run operating system commands as root. Tracked as CVE-2026-76466, the flaw carries a CVSS score of 9.8 and affects vulnerable Expressway devices configured in a cluster. Cisco published its advisory on October 21, 2026. The issue affects Cisco Expressway […] The post Critical Cisco…",
+      "title": "Researchers Demonstrate Node2Shell RCE Exploit on Node.js Build Using Crafted Brotli Data",
+      "link": "https://thehackernews.com/2026/10/researchers-demonstrate-node2shell-rce.html",
+      "date": "2026-10-23T08:40:43Z",
+      "description": "Malicious Brotli data can make an application on an official build of Node.js run attacker-supplied code, security researchers at Imperva have demonstrated. Their \"Node2Shell\" proof of concept ran code on the official Node.js 24.22.0 image for Linux arm64, with no debugger or custom build, by feeding crafted data to the bundled Brotli decoder (CVE-2026-111497). Node.js disclosed the flaw",
+      "source": "thehackernews.com"
+    },
+    {
+      "title": "Critical x402 SDK Flaw Could Let Malicious APIs Drain AI Agents’ Token Balances",
+      "link": "https://thehackernews.com/2026/10/critical-x402-sdk-flaw-could-let.html",
+      "date": "2026-10-23T08:35:45Z",
+      "description": "AI agents paying for API calls with the x402 SDKs could sign a payment for their full balance of a supported token if a malicious API asked for it, security firm V12 said on October 22. The cause was the SDKs' default client, which set no spending limit until releases on August 18 added one. The risk was limited to agents who automatically signed payments and whose apps set",
+      "source": "thehackernews.com"
+    },
+    {
+      "title": "11 Million Impacted by Capcom Data Breach",
+      "link": "https://www.securityweek.com/11-million-impacted-by-capcom-data-breach/",
+      "date": "2026-10-23T08:34:14Z",
+      "description": "The hackers stole 11 million email addresses from CAPCOM ID and changed the login passwords for 196 accounts. The post 11 Million Impacted by Capcom Data Breach appeared first on SecurityWeek.",
+      "source": "securityweek.com"
+    },
+    {
+      "title": "Quest Diagnostics Reports Cyber Breach Affecting ‘Certain Patient Records’",
+      "link": "https://www.securityweek.com/quest-diagnostics-reports-cyber-breach-affecting-certain-patient-records/",
+      "date": "2026-10-23T08:25:06Z",
+      "description": "In a regulatory filing, Quest Diagnostics reported unauthorized access to its Quanum Lab Services Manager, a platform where certain clients can place test orders. The post Quest Diagnostics Reports Cyber Breach Affecting ‘Certain Patient Records’ appeared first on SecurityWeek.",
+      "source": "securityweek.com"
+    },
+    {
+      "title": "Top 10 Best Email Encryption Services in 2026 [Ranked & Scored]",
+      "link": "https://cybersecuritynews.com/best-email-encryption-services/",
+      "date": "2026-10-23T08:22:52Z",
+      "description": "Email encryption has a usability paradox: the strongest cryptography loses to the recipient who gives up at the portal login and asks for the file “some other way.” The 2026 winners solve for both ends sender-side automation (policies, DLP triggers, one-click protect) and recipient experiences that don’t require a manual. We scored ten services on […] The post Top 10 Best Email Encryption…",
       "source": "cybersecuritynews.com"
     },
     {
-      "title": "Splunk Fixes 24 Security Flaws, Including Four Critical Vulnerabilities in Enterprise and SOAR",
-      "link": "https://cybersecuritynews.com/splunk-fixes-24-security-flaws/",
-      "date": "2026-10-23T03:41:41Z",
-      "description": "Splunk has released security updates for 24 vulnerabilities in Splunk Enterprise and Splunk SOAR, including four critical flaws with CVSS scores from 9.3 to 9.9. Splunk published the fixes on October 21, 2026, across three advisories covering access control, input handling, exposed files, remote code execution, denial of service, and weak authorization checks. The Splunk […] The post Splunk…",
+      "title": "Top 9 Best Managed File Transfer (MFT) Solutions in 2026 [Ranked & Scored]",
+      "link": "https://cybersecuritynews.com/best-managed-file-transfer/",
+      "date": "2026-10-23T08:16:37Z",
+      "description": "No category has been breached more publicly this decade than managed file transfer mass-exploitation campaigns against MFT products turned quiet integration plumbing into board-level risk, and the 2023–2024 waves rewrote the buying criteria. In 2026 you evaluate an MFT vendor’s security engineering exposure architecture, patch velocity, hardening posture before its scheduler. Our sheet listed…",
+      "source": "cybersecuritynews.com"
+    },
+    {
+      "title": "LiteLLM Compromised in Fresh Supply Chain Attack",
+      "link": "https://www.securityweek.com/litellm-compromised-in-fresh-supply-chain-attack/",
+      "date": "2026-10-23T08:10:46Z",
+      "description": "Hackers used compromised GitHub CLI OAuth tokens to push and approve malicious packages on PyPI and Docker. The post LiteLLM Compromised in Fresh Supply Chain Attack appeared first on SecurityWeek.",
+      "source": "securityweek.com"
+    },
+    {
+      "title": "Hackers Exploit Critical Citrix NetScaler RCE Flaw to Deploy Web Shells and Malware",
+      "link": "https://cybersecuritynews.com/citrix-netscaler-rce-flaw/",
+      "date": "2026-10-23T07:50:58Z",
+      "description": "A critical vulnerability in Citrix NetScaler ADC and NetScaler Gateway is being exploited to run commands on exposed appliances, install web shells and deliver malware. Tracked as CVE-2026-88771, the flaw allows an unauthenticated attacker to execute commands remotely. Citrix disclosed it on September 27, 2026, and confirmed exploitation of appliances that had not been protected […] The post…",
       "source": "cybersecuritynews.com"
     },
     {
@@ -36,13 +120,6 @@
       "date": "2026-10-23T03:30:00Z",
       "description": "Relatively small data breaches in India can turn quite serious, thanks to a sophisticated underground market for trading PII.",
       "source": "darkreading.com"
-    },
-    {
-      "title": "Quest Diagnostics Hacked – Attackers Accessed the System to Order Tests and View Results",
-      "link": "https://cybersecuritynews.com/quest-diagnostics-hacked/",
-      "date": "2026-10-23T03:29:20Z",
-      "description": "Quest Diagnostics has disclosed a cyberattack involving unauthorized access to its Quanum LSM system, which healthcare clients use to order laboratory tests and view results. The company discovered the incident on October 21, 2026, and suspended access to the platform while investigating whether patient records were exposed. The affected service, Quanum Lab Services Manager, supports […] The…",
-      "source": "cybersecuritynews.com"
     },
     {
       "title": "Railway warns devs to rotate secrets after potential breach",
@@ -87,34 +164,6 @@
       "source": "bleepingcomputer.com"
     },
     {
-      "title": "The AI Agent Nobody Owns: Watch Expert Webinar On Your Newest Insider Threat",
-      "link": "https://thehackernews.com/2026/10/the-ai-agent-nobody-owns-watch-expert.html",
-      "date": "2026-10-22T19:05:35Z",
-      "description": "Right now, there is probably an AI agent running on a laptop somewhere in your network. It stores API keys and database passwords, can access your internal systems, and works without anyone watching. Nobody reviewed its access. Nobody owns it. If an employee had that much reach with that little oversight, you would call it an insider risk. So why do we still call the agent a productivity tool?",
-      "source": "thehackernews.com"
-    },
-    {
-      "title": "Arista Warns of Critical VeloCloud SQL Injection Zero-Day Exploited in Attacks",
-      "link": "https://thehackernews.com/2026/10/arista-warns-of-critical-velocloud-sql.html",
-      "date": "2026-10-22T19:05:17Z",
-      "description": "Attackers are exploiting a zero-day SQL injection flaw in Arista's VeloCloud Orchestrator (VCO), the central management system for VeloCloud SD-WAN networks, the company said in an advisory on October 22. The flaw lets anyone who can log in to the orchestrator, even with a read-only customer account, gain operator privileges, the top level of control over it. For",
-      "source": "thehackernews.com"
-    },
-    {
-      "title": "eMudhra to Exit Global SSL/TLS Business After 8 Intermediate CA Keys Found Easily Guessable",
-      "link": "https://thehackernews.com/2026/10/emudhra-to-exit-global-ssltls-business.html",
-      "date": "2026-10-22T18:12:43Z",
-      "description": "eMudhra, an Indian certificate authority (CA), will withdraw from its global SSL/TLS certificate business, its board decided on Thursday. The decision came five days after a researcher reported recovering the private keys of eight of its intermediate CA certificates. eMudhra said it will replace affected customers' certificates with free ones from partners, though its",
-      "source": "thehackernews.com"
-    },
-    {
-      "title": "ThreatsDay: AI Secrets Leak, PingCAP Source Theft, Signal Hang-Up Flaw, Laravel Auth Bypass + 21 More",
-      "link": "https://thehackernews.com/2026/10/threatsday-ai-secrets-leak-pingcap.html",
-      "date": "2026-10-22T17:45:44Z",
-      "description": "This week has already been rough for cybersecurity. Critical PHP and GitLab RCE flaws, serious Linux security bugs, compromised eMudhra certificates, a Node.js RCE flaw, a hacked LiteLLM release, and hundreds of hijacked Tor relays. That's a lot to deal with in just a few days. And the week isn't even over yet. But those big headlines are only half the story. Stolen passwords, exposed",
-      "source": "thehackernews.com"
-    },
-    {
       "title": "Arista patches new VeloCloud Orchestrator zero-day exploited in attacks",
       "link": "https://www.bleepingcomputer.com/news/security/arista-patches-new-velocloud-orchestrator-zero-day-exploited-in-attacks/",
       "date": "2026-10-22T17:18:22Z",
@@ -122,60 +171,11 @@
       "source": "bleepingcomputer.com"
     },
     {
-      "title": "Two CVSS 9.0 Linux KSMBD RCE Flaws Disclosed on Public Mailing Lists Before Kernel Fixes",
-      "link": "https://thehackernews.com/2026/10/two-cvss-90-linux-ksmbd-rce-flaws.html",
-      "date": "2026-10-22T17:01:53Z",
-      "description": "Linux servers running KSMBD, the kernel's built-in SMB server, are exposed to two publicly reported remote code execution flaws rated 9.0 by Trend Micro's Zero Day Initiative, with no fix yet in the mainline kernel. One of them, ZDI-CAN-33774, can be triggered before any network authentication. The other, ZDI-CAN-33549, requires the SMB Direct transport and an RDMA-capable network",
-      "source": "thehackernews.com"
-    },
-    {
       "title": "Microsoft shares how to fix broken Exchange Online EWS apps",
       "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-shares-how-to-fix-broken-exchange-online-ews-apps/",
       "date": "2026-10-22T15:49:32Z",
       "description": "Microsoft says IT admins can re-enable the retired Exchange Web Services (EWS) API in Exchange Online to fix EWS apps that have stopped working. [...]",
       "source": "bleepingcomputer.com"
-    },
-    {
-      "title": "Hacker Conversations: Corey Thuen and the Evil Bit",
-      "link": "https://www.securityweek.com/hacker-conversations-corey-thuen-and-the-evil-bit/",
-      "date": "2026-10-22T14:31:34Z",
-      "description": "Corey Thuen hires hackers for what he calls ‘the evil bit’ — an adversarial streak he believes is either there or it isn’t. The post Hacker Conversations: Corey Thuen and the Evil Bit appeared first on SecurityWeek.",
-      "source": "securityweek.com"
-    },
-    {
-      "title": "Indurex Raises $8 Million to Expand Industrial Cybersecurity Platform",
-      "link": "https://www.securityweek.com/indurex-raises-8-million-to-expand-industrial-cybersecurity-platform/",
-      "date": "2026-10-22T13:00:00Z",
-      "description": "The Amsterdam-based company plans to use the funding for research and development and commercial expansion in Europe and the Middle East. The post Indurex Raises $8 Million to Expand Industrial Cybersecurity Platform appeared first on SecurityWeek.",
-      "source": "securityweek.com"
-    },
-    {
-      "title": "Signal Vulnerability Lets Malicious Callers Block Hang-Ups",
-      "link": "https://www.securityweek.com/signal-vulnerability-lets-malicious-callers-block-hang-ups/",
-      "date": "2026-10-22T12:34:31Z",
-      "description": "Affecting the open source calling library RingRTC, the bug prevented calls from ending properly. The post Signal Vulnerability Lets Malicious Callers Block Hang-Ups appeared first on SecurityWeek.",
-      "source": "securityweek.com"
-    },
-    {
-      "title": "Tech and Security Companies Respond to PHP2Shell Vulnerabilities",
-      "link": "https://www.securityweek.com/tech-and-security-companies-respond-to-php2shell-vulnerabilities/",
-      "date": "2026-10-22T12:20:23Z",
-      "description": "Vendors are checking their products for PHP2Shell, security firms are shipping detections, and governments are urging immediate patching. The post Tech and Security Companies Respond to PHP2Shell Vulnerabilities appeared first on SecurityWeek.",
-      "source": "securityweek.com"
-    },
-    {
-      "title": "Splunk, SolarWinds Release Fresh Security Updates",
-      "link": "https://www.securityweek.com/splunk-solarwinds-release-fresh-security-updates/",
-      "date": "2026-10-22T10:45:24Z",
-      "description": "Patched vulnerabilities could allow attackers to execute code, elevate privileges, and leak sensitive information. The post Splunk, SolarWinds Release Fresh Security Updates appeared first on SecurityWeek.",
-      "source": "securityweek.com"
-    },
-    {
-      "title": "UAE Transitions 50% of Gov't Services to Agentic AI",
-      "link": "https://www.darkreading.com/cybersecurity-operations/uae-transitions-50-government-services-agentic-ai",
-      "date": "2026-10-22T05:00:00Z",
-      "description": "The United Arab Emirates says it's creating a foundation of security and safety as it transforms its public service footprint.",
-      "source": "darkreading.com"
     },
     {
       "title": "ZDI-CAN-36560: Apple",
