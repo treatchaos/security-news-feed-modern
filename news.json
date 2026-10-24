@@ -1,7 +1,35 @@
 {
-  "last_updated": "2026-10-24T07:42:45Z",
+  "last_updated": "2026-10-24T12:18:58Z",
   "count": 35,
   "items": [
+    {
+      "title": "Brotli Decoder Flaw Behind Node.js RCE Also Affects Bun, Python and Other Widely Used Software",
+      "link": "https://thehackernews.com/2026/10/brotli-decoder-flaw-behind-nodejs-rce.html",
+      "date": "2026-10-24T11:09:29Z",
+      "description": "A memory-corruption flaw in Google's Brotli decoder sits in many programs that unpack Brotli-compressed data, among them Bun, the Python Brotli and brotlicffi packages, and Envoy proxies set up to decompress Brotli. Tracked as CVE-2026-111497, the flaw allows crafted compressed data to overwrite past the end of a buffer and corrupt a program's memory, potentially",
+      "source": "thehackernews.com"
+    },
+    {
+      "title": "Leaked LiteLLM Master Key Let Attackers Steal GitHub Tokens and Hijack Release Pipeline",
+      "link": "https://thehackernews.com/2026/10/leaked-litellm-master-key-let-attackers.html",
+      "date": "2026-10-24T11:03:33Z",
+      "description": "LiteLLM on Friday revealed that an Agent Platform master key accidentally published to a public GitHub repository in late May 2026 ultimately allowed the threat actor to push a malicious version of the popular Python package. \"On May 27, 2026, a configuration file was committed to the public LiteLLM-Labs/lite-harness repository which inadvertently contained the master key to a deployment of",
+      "source": "thehackernews.com"
+    },
+    {
+      "title": "Google Says Gmail and Photos Data Shared With AI Search Could Be Used for Targeted Ads",
+      "link": "https://thehackernews.com/2026/10/google-says-gmail-and-photos-data.html",
+      "date": "2026-10-24T10:36:33Z",
+      "description": "Google has updated its privacy policy to spell out that using personalized artificial intelligence (AI) features in Search or Gemini could allow the company to serve targeted ads to users based on their activity on other connected Google services. \"You may choose to allow certain Google services, including services like Search or Gemini Apps, to access data from other Google services you use,",
+      "source": "thehackernews.com"
+    },
+    {
+      "title": "Researchers Push Over 2 Million Updates to Remotely Disable Popcorn Time Updater That Could Fuel a Botnet",
+      "link": "https://thehackernews.com/2026/10/researchers-push-over-2-million-updates.html",
+      "date": "2026-10-24T09:04:24Z",
+      "description": "Between November 2025 and March 2026, the Dutch security firm Eye Security pushed more than 2 million updates to computers it did not own to switch off a background updater that it said could have allowed an outsider to take over the machine. The updater belongs to Time4Popcorn, an abandoned copy of Popcorn Time, a free app that streamed pirated films and TV over BitTorrent. Popcorn Time was",
+      "source": "thehackernews.com"
+    },
     {
       "title": "Anthropic’s Claude Mythos 5 AI Agent Tried to Inject Malicious Code and Trick Real Developers",
       "link": "https://cybersecuritynews.com/claude-mythos-5-inject-malicious-code/",
@@ -59,27 +87,6 @@
       "source": "bleepingcomputer.com"
     },
     {
-      "title": "BlackX UEFI Bootkit Bypasses Secure Boot on Patched Windows Systems Missing Revocations",
-      "link": "https://thehackernews.com/2026/10/blackx-uefi-bootkit-bypasses-secure.html",
-      "date": "2026-10-23T18:50:13Z",
-      "description": "Diplomatic organizations in Central Asia have been targeted by a sophisticated new Unified Extensible Firmware Interface (UEFI) bootkit called BlackX. The activity, which singled out diplomatic entities in Tajikistan, Uzbekistan, and Turkmenistan in early 2026, is suspected to be orchestrated by a China-linked state-sponsored hacking group known as APT41, Kaspersky said in a technical report",
-      "source": "thehackernews.com"
-    },
-    {
-      "title": "Ruby Fixes Three Regex Engine Bugs Responsible for Four Critical GitLab RCE Flaws",
-      "link": "https://thehackernews.com/2026/10/ruby-fixes-three-regex-engine-bugs.html",
-      "date": "2026-10-23T17:54:08Z",
-      "description": "Ruby has released versions 4.0.9, 3.4.12, and 3.3.13 to fix three bugs in Onigmo, the regular expression engine built into the language. The bugs lie behind four critical security flaws that GitLab patched over the past month. GitLab found that a specially crafted pattern could corrupt memory while Ruby compiles it, potentially leading to code execution on its own servers. Ruby says any",
-      "source": "thehackernews.com"
-    },
-    {
-      "title": "Exposed Infrastructure Reveals How Ransomware Affiliates Used AI Agents to Execute Intrusions",
-      "link": "https://thehackernews.com/2026/10/exposed-infrastructure-reveals-how.html",
-      "date": "2026-10-23T17:50:47Z",
-      "description": "Cybersecurity researchers have discovered an artificial intelligence (AI)-driven intrusion ecosystem run by affiliates of the INC and The Gentlemen ransomware groups. Central to the operation is an \"Autonomous Red Team Kill Chain Framework\" referred to as Phantom. The threat actor is assessed to be Russian-speaking and functions both as an intrusion and data-extortion operator, as well as an",
-      "source": "thehackernews.com"
-    },
-    {
       "title": "AI Tools Are Generating Massive Attacks for Little Cost",
       "link": "https://www.darkreading.com/cybersecurity-operations/ai-tools-massive-attacks-little-cost",
       "date": "2026-10-23T17:26:59Z",
@@ -134,13 +141,6 @@
       "date": "2026-10-23T14:00:00Z",
       "description": "The region is demonstrating what happens when exploits accelerate but assurance does not.",
       "source": "darkreading.com"
-    },
-    {
-      "title": "Hackers Breach Enterprise Firewalls and VPNs, Exposing Over 70,000 Credentials",
-      "link": "https://thehackernews.com/2026/10/hackers-breach-enterprise-firewalls-and.html",
-      "date": "2026-10-23T13:50:56Z",
-      "description": "Cybersecurity researchers have disclosed details of a large-scale campaign that has targeted exposed network edge devices such as Fortinet FortiGate and Palo Alto Networks GlobalProtect firewalls. \"Artifacts from this investigation also indicate that operators in this campaign have obtained access to numerous organizations worldwide, and have attempted to further compromise some victims,",
-      "source": "thehackernews.com"
     },
     {
       "title": "Cyber Insurance's New Reality: Underwriting Isn't Enough",
