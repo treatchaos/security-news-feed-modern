@@ -1,7 +1,7 @@
 {
-  "last_updated": "2026-10-25T20:17:52Z",
+  "last_updated": "2026-10-25T22:54:50Z",
   "retention_days": 90,
-  "count": 3375,
+  "count": 3370,
   "items": [
     {
       "id": "67e06cf13e3c120958db05325eb3a662b3a98e65",
@@ -31,7 +31,7 @@
       "description": "A single hacked device on a Tailscale network can be used to gain root access to other servers it can reach, according to a security researcher who published the findings this week. The attack requires two things: Tailscale SSH set up to allow port forwarding, and an attacker who already controls one device that the network's access rules permit to connect to the target. The findings were",
       "source": "thehackernews.com",
       "first_seen": "2026-10-25T20:17:52Z",
-      "last_seen": "2026-10-25T20:17:52Z"
+      "last_seen": "2026-10-25T22:54:50Z"
     },
     {
       "id": "c1aff69484ad2916116155f99b8c6209fc06a92b",
@@ -41,7 +41,7 @@
       "description": "Threat actors have been observed using agentic artificial intelligence (AI) platforms for post-exploitation activity following the abuse of the PHP2Shell vulnerabilities tracked as CVE-2026-109618 and CVE-2026-109619. \"In one case, the attackers targeted a government entity in Europe and within two hours of the initial exploitation they had successfully accessed password hashes and multi-factor",
       "source": "thehackernews.com",
       "first_seen": "2026-10-25T20:17:52Z",
-      "last_seen": "2026-10-25T20:17:52Z"
+      "last_seen": "2026-10-25T22:54:50Z"
     },
     {
       "id": "a7eae2688629fa00e13fac2e9e386431a829ca76",
@@ -51,7 +51,17 @@
       "description": "Researchers found a malicious AGENTS markdown instruction file in a customer's Downloads folder that tricked an AI coding agent into installing a rogue npm package. [...]",
       "source": "bleepingcomputer.com",
       "first_seen": "2026-10-25T17:57:31Z",
-      "last_seen": "2026-10-25T20:17:52Z"
+      "last_seen": "2026-10-25T22:54:50Z"
+    },
+    {
+      "id": "11c67706663ca74ff4b0c3d2add9a0bd12ef9e28",
+      "title": "Tailscale SSH Flaws Could Let Hackers Gain Root Access Across Servers From One Compromised Device",
+      "link": "https://cybersecuritynews.com/tailscale-ssh-flaws/",
+      "date": "2026-10-25T14:11:30Z",
+      "description": "A new security report warns that Tailscale SSH has flaws that could let a hacker move from one compromised device to root access on other servers. Tailscale SSH lets approved devices log in to each other over a private network. The report, called Tailworm, was published on October 25, 2026, by security researcher Erica Windisch […] The post Tailscale SSH Flaws Could Let Hackers Gain Root Access…",
+      "source": "cybersecuritynews.com",
+      "first_seen": "2026-10-25T22:54:50Z",
+      "last_seen": "2026-10-25T22:54:50Z"
     },
     {
       "id": "807c379445327aad903fefd3888741d64f120210",
@@ -61,7 +71,7 @@
       "description": "Founded in 2025 by Unit 8200 alumni, Tel Aviv-based Mave uses AI agents to investigate alerts across existing security stacks. The post Former Unit 8200 Officers Raise $34 Million for Agentic SecOps Startup Mave appeared first on SecurityWeek.",
       "source": "securityweek.com",
       "first_seen": "2026-10-25T14:39:51Z",
-      "last_seen": "2026-10-25T20:17:52Z"
+      "last_seen": "2026-10-25T22:54:50Z"
     },
     {
       "id": "152d0116700361100daec44fcf6f88fc6912c54e",
@@ -71,7 +81,7 @@
       "description": "Microsoft is preparing to add AI phishing detection to Microsoft Teams, using conversation context to spot scams that may contain no harmful links or attachments. The feature will focus mainly on first conversations with external contacts, where attackers can pose as trusted support staff and ask employees to share sensitive information. Microsoft detailed the change […] The post Microsoft Teams…",
       "source": "cybersecuritynews.com",
       "first_seen": "2026-10-25T10:21:02Z",
-      "last_seen": "2026-10-25T10:21:02Z"
+      "last_seen": "2026-10-25T22:54:50Z"
     },
     {
       "id": "a1ade2eae527effa733ada3e2d9bbb62a2843ab1",
@@ -81,7 +91,7 @@
       "description": "OpenAI has announced plans to conduct frontier model training with no live internet access, as it resumes reinforcement learning (RL) training and internal inference of its most advanced AI models. \"Based on the current state of alignment research, monitoring systems, and the security of internet infrastructure, we believe the responsible approach is to conduct frontier model training with no",
       "source": "thehackernews.com",
       "first_seen": "2026-10-25T10:21:02Z",
-      "last_seen": "2026-10-25T20:17:52Z"
+      "last_seen": "2026-10-25T22:54:50Z"
     },
     {
       "id": "4f019e9706c1e8f3297888ca3e52dee09e06b27b",
@@ -91,7 +101,7 @@
       "description": "A new UEFI bootkit named BlackX, deployed in an espionage campaign in early 2026, exploited the old Baton Drop vulnerability to bypass Secure Boot and load a malicious driver designed to interfere with security solutions from Kaspersky and Avast. [...]",
       "source": "bleepingcomputer.com",
       "first_seen": "2026-10-24T16:20:13Z",
-      "last_seen": "2026-10-25T20:17:52Z"
+      "last_seen": "2026-10-25T22:54:50Z"
     },
     {
       "id": "f5f49ad7747858f758365e398b4607d7f0a53e33",
@@ -101,7 +111,7 @@
       "description": "A memory-corruption flaw in Google's Brotli decoder sits in many programs that unpack Brotli-compressed data, among them Bun, the Python Brotli and brotlicffi packages, and Envoy proxies set up to decompress Brotli. Tracked as CVE-2026-111497, the flaw allows crafted compressed data to overwrite past the end of a buffer and corrupt a program's memory, potentially",
       "source": "thehackernews.com",
       "first_seen": "2026-10-24T12:18:58Z",
-      "last_seen": "2026-10-25T20:17:52Z"
+      "last_seen": "2026-10-25T22:54:50Z"
     },
     {
       "id": "95ab6be5e8fc34a6af2de6a68f317a1c8ffc8154",
@@ -111,7 +121,7 @@
       "description": "LiteLLM on Friday revealed that an Agent Platform master key accidentally published to a public GitHub repository in late May 2026 ultimately allowed the threat actor to push a malicious version of the popular Python package. \"On May 27, 2026, a configuration file was committed to the public LiteLLM-Labs/lite-harness repository which inadvertently contained the master key to a deployment of",
       "source": "thehackernews.com",
       "first_seen": "2026-10-24T12:18:58Z",
-      "last_seen": "2026-10-25T20:17:52Z"
+      "last_seen": "2026-10-25T22:54:50Z"
     },
     {
       "id": "0aaf815579b41eaedaad2d6e284fc729cf285ecc",
@@ -141,7 +151,7 @@
       "description": "Anthropic has revealed how its Claude Mythos 5 AI agent tried to plant malicious code in a real GitHub project and used fake identities to persuade developers to approve it during a cybersecurity test run by the UK AI Security Institute (AISI). Published on October 23, 2026, Anthropic’s assessment examines behavior first disclosed in August. […] The post Anthropic’s Claude Mythos 5 AI Agent…",
       "source": "cybersecuritynews.com",
       "first_seen": "2026-10-24T07:42:45Z",
-      "last_seen": "2026-10-25T10:21:02Z"
+      "last_seen": "2026-10-25T22:54:50Z"
     },
     {
       "id": "3da2ccec565b2d96c6cd7fea3ff4f9058fadafd1",
@@ -151,7 +161,7 @@
       "description": "Palo Alto Networks has confirmed that two critical PHP remote code execution vulnerabilities affect PAN-OS and previously impacted two cloud services. Tracked as CVE-2026-109618 and CVE-2026-109619, the flaws have prompted planned firewall hotfixes and guidance to restrict access to management interfaces. The company updated its security advisory on October 24, 2026. It said it was […] The post…",
       "source": "cybersecuritynews.com",
       "first_seen": "2026-10-24T07:42:45Z",
-      "last_seen": "2026-10-25T10:21:02Z"
+      "last_seen": "2026-10-25T22:54:50Z"
     },
     {
       "id": "2cd46a21543b0ca188eae98b7aee02b13cb255e9",
@@ -171,7 +181,7 @@
       "description": "OpenAI says its AI agents found zero-day flaws, escaped sandboxes, reached the live internet, and exchanged information across isolation boundaries during large red-teaming tests of its research systems. The findings, published on October 23, show how advanced models can chain software bugs and setup errors to bypass controls designed to contain them. The company said […] The post OpenAI AI…",
       "source": "cybersecuritynews.com",
       "first_seen": "2026-10-24T07:42:45Z",
-      "last_seen": "2026-10-25T10:21:02Z"
+      "last_seen": "2026-10-25T22:54:50Z"
     },
     {
       "id": "cb91a653a7c41377696ded6550c22225dfc970ba",
@@ -181,7 +191,7 @@
       "description": "Threat actors don't need to rely on malware to breach organizations anymore. They're simply calling help desks and politely asking for access, with a little help from artificial intelligence.",
       "source": "darkreading.com",
       "first_seen": "2026-10-23T23:38:25Z",
-      "last_seen": "2026-10-25T20:17:52Z"
+      "last_seen": "2026-10-25T22:54:50Z"
     },
     {
       "id": "ceba2fd79aebe89a9b9c7989fa73d727b2cbcd54",
@@ -191,7 +201,7 @@
       "description": "Researchers remotely disabled a vulnerable updater in the abandoned Time4Popcorn app, a fork of the Popcorn Time BitTorrent client, closing a security flaw that could have allowed attackers to execute malicious code with elevated privileges on millions of computers. [...]",
       "source": "bleepingcomputer.com",
       "first_seen": "2026-10-23T23:38:25Z",
-      "last_seen": "2026-10-25T20:17:52Z"
+      "last_seen": "2026-10-25T22:54:50Z"
     },
     {
       "id": "b21599f8e635f3817c198099413677deb58ea944",
@@ -201,7 +211,7 @@
       "description": "Fixing the critical PHP flaws is not as simple as clicking \"Update.\" Here's how to assess your risk, and what you can do to protect yourself.",
       "source": "darkreading.com",
       "first_seen": "2026-10-23T20:46:08Z",
-      "last_seen": "2026-10-25T20:17:52Z"
+      "last_seen": "2026-10-25T22:54:50Z"
     },
     {
       "id": "18ddcbbe2921a07c4e18ee8ed70e562f0a0f5b59",
@@ -211,7 +221,7 @@
       "description": "Microsoft has announced plans to add AI-powered phishing detection to Teams messages starting in early November 2026. [...]",
       "source": "bleepingcomputer.com",
       "first_seen": "2026-10-23T20:46:08Z",
-      "last_seen": "2026-10-25T20:17:52Z"
+      "last_seen": "2026-10-25T22:54:50Z"
     },
     {
       "id": "9a0c770f5c9920238087833b77c9dba14048e940",
@@ -251,7 +261,7 @@
       "description": "One campaign targets 105 sites using open-weight models; in another, public models gained full domain control for $12. Cyber-defense will have to change.",
       "source": "darkreading.com",
       "first_seen": "2026-10-23T17:34:42Z",
-      "last_seen": "2026-10-25T20:17:52Z"
+      "last_seen": "2026-10-25T22:54:50Z"
     },
     {
       "id": "814b335cc9d22c4744ac2af8107c8360a305d641",
@@ -261,7 +271,7 @@
       "description": "Microsoft says Windows Server 2016 will stop receiving security updates after it reaches the end of support in January 2027. [...]",
       "source": "bleepingcomputer.com",
       "first_seen": "2026-10-23T17:34:42Z",
-      "last_seen": "2026-10-25T20:17:52Z"
+      "last_seen": "2026-10-25T22:54:50Z"
     },
     {
       "id": "cc68ea44a40e4d3470694f7e6913aff37dab67d9",
@@ -331,7 +341,7 @@
       "description": "Noteworthy stories that might have slipped under the radar: Russia’s APT28 hit NATO defense firms, PingCAP source code stolen, ShinyHunters negotiator probe. The post In Other News: Tor Exit Relays Hijacked, Banks Spot Rogue AI Agents, Self-Rebuilding macOS Ransomware appeared first on SecurityWeek.",
       "source": "securityweek.com",
       "first_seen": "2026-10-23T17:34:42Z",
-      "last_seen": "2026-10-25T20:17:52Z"
+      "last_seen": "2026-10-25T22:54:50Z"
     },
     {
       "id": "8bc0d316a1cfdb43ffa304ee63aa5ce145b945f9",
@@ -361,7 +371,7 @@
       "description": "The region is demonstrating what happens when exploits accelerate but assurance does not.",
       "source": "darkreading.com",
       "first_seen": "2026-10-23T17:34:42Z",
-      "last_seen": "2026-10-25T20:17:52Z"
+      "last_seen": "2026-10-25T22:54:50Z"
     },
     {
       "id": "5ae9a6066eb75d562fb320ed320f41958785fbd5",
@@ -381,7 +391,7 @@
       "description": "Rising AI, social engineering, and cloud risks are pushing carriers beyond risk transfer and deeper into cybersecurity itself.",
       "source": "darkreading.com",
       "first_seen": "2026-10-23T17:34:42Z",
-      "last_seen": "2026-10-25T20:17:52Z"
+      "last_seen": "2026-10-25T22:54:50Z"
     },
     {
       "id": "119c62509bf6530b07937aab3703a5c8394d40a1",
@@ -401,7 +411,7 @@
       "description": "Researchers tie PHP2Shell attempts to a Mirai botnet and show an ASLR bypass, but no successful compromise has been confirmed yet. The post Mirai Botnet Operators Join PHP2Shell Attacks as ASLR Bypass Exploits Emerge appeared first on SecurityWeek.",
       "source": "securityweek.com",
       "first_seen": "2026-10-23T17:34:42Z",
-      "last_seen": "2026-10-25T20:17:52Z"
+      "last_seen": "2026-10-25T22:54:50Z"
     },
     {
       "id": "9fa54ab4c5f2b77a0c2fff25d748171a7c56cb2f",
@@ -461,7 +471,7 @@
       "description": "The state-sponsored hackers targeted hundreds of organizations and gained privileged access to some environments. The post China APT Uses AI Pentest Tool Artex in ConnectWise Attacks appeared first on SecurityWeek.",
       "source": "securityweek.com",
       "first_seen": "2026-10-23T12:15:14Z",
-      "last_seen": "2026-10-25T20:17:52Z"
+      "last_seen": "2026-10-25T22:54:50Z"
     },
     {
       "id": "5cb60fccdfd56dd0f64eadd9c15ca3a4fdcccedd",
@@ -481,7 +491,7 @@
       "description": "The critical-severity SQL injection flaw allows attackers to access privileged internal functionality and gain operator privileges. The post Attackers Exploit Third Arista VCO Zero-Day in Four Months appeared first on SecurityWeek.",
       "source": "securityweek.com",
       "first_seen": "2026-10-23T17:34:42Z",
-      "last_seen": "2026-10-25T20:17:52Z"
+      "last_seen": "2026-10-25T22:54:50Z"
     },
     {
       "id": "2cc472a8d75b4af6caa2049831a246b2a4b58b9d",
@@ -611,7 +621,7 @@
       "description": "A CVSS score 3.3 AV:L/AC:L/PR:N/UI:R/S:U/C:L/I:N/A:N severity vulnerability discovered by 'Anonymous' was reported to the affected vendor on: 2026-10-23, 0 days ago. The vendor is given until 2027-02-20 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
       "source": "zerodayinitiative.com",
       "first_seen": "2026-10-23T20:46:08Z",
-      "last_seen": "2026-10-25T20:17:52Z"
+      "last_seen": "2026-10-25T22:54:50Z"
     },
     {
       "id": "f98e8a410ac12c1361e56c7f1357571331371ba9",
@@ -621,7 +631,7 @@
       "description": "A CVSS score 6.5 AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N severity vulnerability discovered by 'Rocco Calvi (@TecR0c) with TecSecurity' was reported to the affected vendor on: 2026-10-23, 0 days ago. The vendor is given until 2027-02-20 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
       "source": "zerodayinitiative.com",
       "first_seen": "2026-10-23T20:46:08Z",
-      "last_seen": "2026-10-25T20:17:52Z"
+      "last_seen": "2026-10-25T22:54:50Z"
     },
     {
       "id": "fbb06181741ad8f6d1f9b4f5604f6ec31db9da2a",
@@ -631,7 +641,7 @@
       "description": "A CVSS score 7.8 AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H severity vulnerability discovered by 'Berat.\\xc4\\xb0' was reported to the affected vendor on: 2026-10-23, 0 days ago. The vendor is given until 2027-02-20 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
       "source": "zerodayinitiative.com",
       "first_seen": "2026-10-23T23:38:25Z",
-      "last_seen": "2026-10-25T20:17:52Z"
+      "last_seen": "2026-10-25T22:54:50Z"
     },
     {
       "id": "3291a1ca0b816d24de6d2ef0ec238895fcaf0c30",
@@ -641,7 +651,7 @@
       "description": "A CVSS score 7.8 AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H severity vulnerability discovered by 'gardenchair' was reported to the affected vendor on: 2026-10-23, 0 days ago. The vendor is given until 2027-02-20 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
       "source": "zerodayinitiative.com",
       "first_seen": "2026-10-23T23:38:25Z",
-      "last_seen": "2026-10-25T20:17:52Z"
+      "last_seen": "2026-10-25T22:54:50Z"
     },
     {
       "id": "fe5cb0cf68da15d7c544f1db2d60eeb328ca4eb9",
@@ -651,7 +661,7 @@
       "description": "A CVSS score 8.8 AV:L/AC:L/PR:L/UI:N/S:C/C:H/I:H/A:H severity vulnerability discovered by 'Brandon Evans (@0x1nsomnia), Michael DePlante (@izobashi), and John Simpson (@Thracky) of TrendAI Zero Day Initiative' was reported to the affected vendor on: 2026-10-23, 0 days ago. The vendor is given until 2027-02-20 to publish a fix or workaround. Once the vendor has created and tested a patch we will…",
       "source": "zerodayinitiative.com",
       "first_seen": "2026-10-23T23:38:25Z",
-      "last_seen": "2026-10-25T20:17:52Z"
+      "last_seen": "2026-10-25T22:54:50Z"
     },
     {
       "id": "5e5ae6f7103d76c46acf8a0abfa798c427d3e524",
@@ -33594,16 +33604,6 @@
       "last_seen": "2026-07-28T17:17:33Z"
     },
     {
-      "id": "e1d5f27f6c6008084f6c59c5bd2015ced0a6dfee",
-      "title": "Arista patches VeloCloud Orchestrator zero-day exploited in attacks",
-      "link": "https://www.bleepingcomputer.com/news/security/arista-patches-velocloud-orchestrator-zero-day-exploited-in-attacks/",
-      "date": "2026-07-27T22:49:44Z",
-      "description": "Arista has patched a maximum-severity command injection vulnerability in on-premises VeloCloud Orchestrator deployments that is being actively exploited in attacks. [...]",
-      "source": "bleepingcomputer.com",
-      "first_seen": "2026-07-27T22:50:40Z",
-      "last_seen": "2026-07-28T17:17:33Z"
-    },
-    {
       "id": "3513d4327a2241344d17116a718157dad43bfd79",
       "title": "Agentic Browsers Rewind Web Security by 20 years",
       "link": "https://www.darkreading.com/endpoint-security/agentic-browsers-rewind-web-security-20-years",
@@ -33614,46 +33614,6 @@
       "last_seen": "2026-07-28T19:05:34Z"
     },
     {
-      "id": "13fc18ee054792a667d8038ed3aeb1a7a966d767",
-      "title": "New Dysphoria DDoS botnet spreads to 200k devices worldwide",
-      "link": "https://www.bleepingcomputer.com/news/security/new-dysphoria-ddos-botnet-spreads-to-200k-devices-worldwide/",
-      "date": "2026-07-27T21:08:15Z",
-      "description": "A botnet called Dysphoria has compromised around 200,000 devices across the world and is using them for distributed denial of service (DDoS) attacks and traffic relay operations. [...]",
-      "source": "bleepingcomputer.com",
-      "first_seen": "2026-07-27T22:50:40Z",
-      "last_seen": "2026-07-28T12:29:45Z"
-    },
-    {
-      "id": "b0b9b5572f89f825203f780c02531f7fb8e491c5",
-      "title": "New Certighost PoC exploit lets attackers hijack Windows domains",
-      "link": "https://www.bleepingcomputer.com/news/security/new-certighost-poc-exploit-lets-attackers-hijack-windows-domains/",
-      "date": "2026-07-27T21:00:25Z",
-      "description": "A proof-of-concept exploit for \"Certighost,\" a Windows Active Directory Certificate Services vulnerability, has been released that can allow authenticated attackers to potentially compromise a Windows domain. [...]",
-      "source": "bleepingcomputer.com",
-      "first_seen": "2026-07-27T21:01:04Z",
-      "last_seen": "2026-07-28T10:22:59Z"
-    },
-    {
-      "id": "12bdf57d33a6fae258d8493fc48cc198707cabee",
-      "title": "'Confused Deputy' Flaws Persist in Google Cloud, Microsoft Azure",
-      "link": "https://www.darkreading.com/cloud-security/confused-deputy-flaws-google-cloud-microsoft-azure",
-      "date": "2026-07-27T20:57:26Z",
-      "description": "This category of vulnerabilities allows an attacker to easily acquire administrative level permissions and bypass cloud providers' access controls.",
-      "source": "darkreading.com",
-      "first_seen": "2026-07-27T22:50:40Z",
-      "last_seen": "2026-07-28T19:05:34Z"
-    },
-    {
-      "id": "e0f17bff5a9aa7a25b8f1b867c2907f982237ee7",
-      "title": "FBI: Breaking Affiliate Trust Sped Along LockBit's Takedown",
-      "link": "https://www.darkreading.com/cybersecurity-operations/fbi-breaking-affiliate-trust-lockbit-takedown",
-      "date": "2026-07-27T20:33:29Z",
-      "description": "An FBI agent explains how the mulitnational law-enforcement Operation Cronos was successful in disrupting the largest ransomware group of its time.",
-      "source": "darkreading.com",
-      "first_seen": "2026-07-27T21:01:04Z",
-      "last_seen": "2026-07-28T15:11:03Z"
-    },
-    {
       "id": "e61011cc5fc4c160c3187883b3363912ba06e254",
       "title": "Why Resetting Passwords No Longer Stops Attackers",
       "link": "https://www.darkreading.com/endpoint-security/why-resetting-passwords-no-longer-stop-attacks",
@@ -33661,16 +33621,6 @@
       "description": "As attackers shift from password theft to session and token theft to bypass multifactor authentication controls, organizations must move beyond login security and protect authenticated sessions.",
       "source": "darkreading.com",
       "first_seen": "2026-07-28T12:29:45Z",
-      "last_seen": "2026-07-28T12:29:45Z"
-    },
-    {
-      "id": "3791f9e99c7c3e831953a64a9134ca238ea48560",
-      "title": "NVIDIA Forms 37-Member Open Secure AI Alliance and Open-Sources NOOA Framework",
-      "link": "https://thehackernews.com/2026/07/nvidia-forms-37-member-open-secure-ai.html",
-      "date": "2026-07-27T18:10:05Z",
-      "description": "NVIDIA and 36 other organizations have formed the Open Secure AI Alliance to develop and share open technologies, techniques, and tools for securing software and artificial intelligence (AI) agents. The 37-member group spans cloud, security, enterprise software, and AI companies, including Microsoft, Cisco, Cloudflare, CrowdStrike, Hugging Face, IBM, Palo Alto Networks, Red Hat, and the Linux",
-      "source": "thehackernews.com",
-      "first_seen": "2026-07-27T21:01:04Z",
       "last_seen": "2026-07-28T12:29:45Z"
     },
     {
@@ -33711,7 +33661,7 @@
       "description": "2.5 million people were affected, in a breach that could spell more trouble down the line.",
       "source": "threatpost.com",
       "first_seen": "2026-08-08T14:21:59Z",
-      "last_seen": "2026-10-25T20:17:52Z"
+      "last_seen": "2026-10-25T22:54:50Z"
     },
     {
       "id": "4140c7a34b0ba94ad2e6b0cae9f59b0cb9bfffea",
@@ -33721,7 +33671,7 @@
       "description": "Researchers uncover a watering hole attack likely carried out by APT TA423, which attempts to plant the ScanBox JavaScript-based reconnaissance tool.",
       "source": "threatpost.com",
       "first_seen": "2026-08-08T14:21:59Z",
-      "last_seen": "2026-10-25T20:17:52Z"
+      "last_seen": "2026-10-25T22:54:50Z"
     },
     {
       "id": "9359ee40a641a4b565080313045f1d7e7fe6552b",
@@ -33731,7 +33681,7 @@
       "description": "Over 130 companies tangled in sprawling phishing campaign that spoofed a multi-factor authentication system.",
       "source": "threatpost.com",
       "first_seen": "2026-08-08T14:21:59Z",
-      "last_seen": "2026-10-25T20:17:52Z"
+      "last_seen": "2026-10-25T22:54:50Z"
     },
     {
       "id": "b4ccef0737cd4050d65241bf754072030b6b5e6a",
@@ -33741,7 +33691,7 @@
       "description": "Lockbit is by far this summer’s most prolific ransomware group, trailed by two offshoots of the Conti group.",
       "source": "threatpost.com",
       "first_seen": "2026-08-08T14:21:59Z",
-      "last_seen": "2026-10-25T20:17:52Z"
+      "last_seen": "2026-10-25T22:54:50Z"
     },
     {
       "id": "12ee113fc8fce91f6d7fb28deab2b1ad20061ec7",
@@ -33751,7 +33701,7 @@
       "description": "Tens of thousands of cameras have failed to patch a critical, 11-month-old CVE, leaving thousands of organizations exposed.",
       "source": "threatpost.com",
       "first_seen": "2026-08-08T14:21:59Z",
-      "last_seen": "2026-10-25T20:17:52Z"
+      "last_seen": "2026-10-25T22:54:50Z"
     }
   ]
 }
