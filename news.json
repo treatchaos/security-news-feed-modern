@@ -1,7 +1,14 @@
 {
-  "last_updated": "2026-10-26T00:50:53Z",
-  "count": 30,
+  "last_updated": "2026-10-26T05:34:12Z",
+  "count": 35,
   "items": [
+    {
+      "title": "Hacker Exploits Critical PHP2Shell Flaws to Win $2,000 Bitcoin Challenge, Releases PoC",
+      "link": "https://cybersecuritynews.com/php2shell-flaws-exploited/",
+      "date": "2026-10-26T03:41:52Z",
+      "description": "A security researcher known online as killa has won a public Bitcoin challenge by using two critical PHP flaws to reach a test server. The winning run took 19.28 hours. The prize pot was 0.02511679 BTC, worth $2,021.22 at the time of the win on October 25, 2026, at 15:47 UTC. The researcher then published […] The post Hacker Exploits Critical PHP2Shell Flaws to Win $2,000 Bitcoin Challenge,…",
+      "source": "cybersecuritynews.com"
+    },
     {
       "title": "Unpatched Tailscale SSH Flaws Could Let a Hacked Device Reach Root on Other Servers",
       "link": "https://thehackernews.com/2026/10/unpatched-tailscale-ssh-flaws-could-let.html",
@@ -10,10 +17,10 @@
       "source": "thehackernews.com"
     },
     {
-      "title": "PHP2Shell Exploitation Hits Government Entity Amid Global Scanning and Signs of AI-Assisted Hacking",
+      "title": "PHP2Shell Exploitation Attempts Continue Amid Suspected N. Korea Global Scanning Activity",
       "link": "https://thehackernews.com/2026/10/php2shell-exploitation-hits-government.html",
       "date": "2026-10-25T17:19:46Z",
-      "description": "Threat actors have been observed using agentic artificial intelligence (AI) platforms for post-exploitation activity following the abuse of the PHP2Shell vulnerabilities tracked as CVE-2026-109618 and CVE-2026-109619. \"In one case, the attackers targeted a government entity in Europe and within two hours of the initial exploitation they had successfully accessed password hashes and multi-factor",
+      "description": "In an update, Palo Alto Networks Unit 42 said it's retracting its earlier assessment that the post-compromise activity targeting the European government agency involved the exploitation of the PHP2Shell flaws. \"What researchers saw was an attack against a European government agency executed in the context of a vulnerable PHP application,\" a spokesperson for the company told The Hacker News via",
       "source": "thehackernews.com"
     },
     {
@@ -24,11 +31,25 @@
       "source": "bleepingcomputer.com"
     },
     {
+      "title": "Tailscale SSH Flaws Could Let Hackers Gain Root Access Across Servers From One Compromised Device",
+      "link": "https://cybersecuritynews.com/tailscale-ssh-flaws/",
+      "date": "2026-10-25T14:11:30Z",
+      "description": "A new security report warns that Tailscale SSH has flaws that could let a hacker move from one compromised device to root access on other servers. Tailscale SSH lets approved devices log in to each other over a private network. The report, called Tailworm, was published on October 25, 2026, by security researcher Erica Windisch […] The post Tailscale SSH Flaws Could Let Hackers Gain Root Access…",
+      "source": "cybersecuritynews.com"
+    },
+    {
       "title": "Former Unit 8200 Officers Raise $34 Million for Agentic SecOps Startup Mave",
       "link": "https://www.securityweek.com/former-unit-8200-officers-raise-34-million-for-agentic-secops-startup-mave/",
       "date": "2026-10-25T11:00:00Z",
       "description": "Founded in 2025 by Unit 8200 alumni, Tel Aviv-based Mave uses AI agents to investigate alerts across existing security stacks. The post Former Unit 8200 Officers Raise $34 Million for Agentic SecOps Startup Mave appeared first on SecurityWeek.",
       "source": "securityweek.com"
+    },
+    {
+      "title": "Microsoft Teams to Use AI for Detecting Phishing Attacks Using Teams Conversations",
+      "link": "https://cybersecuritynews.com/microsoft-teams-ai-detection/",
+      "date": "2026-10-25T06:55:23Z",
+      "description": "Microsoft is preparing to add AI phishing detection to Microsoft Teams, using conversation context to spot scams that may contain no harmful links or attachments. The feature will focus mainly on first conversations with external contacts, where attackers can pose as trusted support staff and ask employees to share sensitive information. Microsoft detailed the change […] The post Microsoft Teams…",
+      "source": "cybersecuritynews.com"
     },
     {
       "title": "OpenAI AI Agents Demonstrate VM Escapes and Secret Cross-Sandbox Communication",
@@ -57,6 +78,20 @@
       "date": "2026-10-24T11:03:33Z",
       "description": "LiteLLM on Friday revealed that an Agent Platform master key accidentally published to a public GitHub repository in late May 2026 ultimately allowed the threat actor to push a malicious version of the popular Python package. \"On May 27, 2026, a configuration file was committed to the public LiteLLM-Labs/lite-harness repository which inadvertently contained the master key to a deployment of",
       "source": "thehackernews.com"
+    },
+    {
+      "title": "Anthropic’s Claude Mythos 5 AI Agent Tried to Inject Malicious Code and Trick Real Developers",
+      "link": "https://cybersecuritynews.com/claude-mythos-5-inject-malicious-code/",
+      "date": "2026-10-24T07:09:35Z",
+      "description": "Anthropic has revealed how its Claude Mythos 5 AI agent tried to plant malicious code in a real GitHub project and used fake identities to persuade developers to approve it during a cybersecurity test run by the UK AI Security Institute (AISI). Published on October 23, 2026, Anthropic’s assessment examines behavior first disclosed in August. […] The post Anthropic’s Claude Mythos 5 AI Agent…",
+      "source": "cybersecuritynews.com"
+    },
+    {
+      "title": "Palo Alto Confirms PHP RCE Vulnerabilities Impact PAN-OS and Multiple Network Products",
+      "link": "https://cybersecuritynews.com/palo-alto-confirms-php-rce-vulnerabilities/",
+      "date": "2026-10-24T06:41:29Z",
+      "description": "Palo Alto Networks has confirmed that two critical PHP remote code execution vulnerabilities affect PAN-OS and previously impacted two cloud services. Tracked as CVE-2026-109618 and CVE-2026-109619, the flaws have prompted planned firewall hotfixes and guidance to restrict access to management interfaces. The company updated its security advisory on October 24, 2026. It said it was […] The post…",
+      "source": "cybersecuritynews.com"
     },
     {
       "title": "Trust Is Not What It Seems — And Fraudsters Are Counting on It",
@@ -146,35 +181,35 @@
       "title": "ZDI-CAN-34171: Adobe",
       "link": "http://www.zerodayinitiative.com/advisories/upcoming/",
       "date": "2026-10-23T05:00:00Z",
-      "description": "A CVSS score 3.3 AV:L/AC:L/PR:N/UI:R/S:U/C:L/I:N/A:N severity vulnerability discovered by 'Anonymous' was reported to the affected vendor on: 2026-10-23, 2 days ago. The vendor is given until 2027-02-20 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
+      "description": "A CVSS score 3.3 AV:L/AC:L/PR:N/UI:R/S:U/C:L/I:N/A:N severity vulnerability discovered by 'Anonymous' was reported to the affected vendor on: 2026-10-23, 3 days ago. The vendor is given until 2027-02-20 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
       "source": "zerodayinitiative.com"
     },
     {
       "title": "ZDI-CAN-29891: Siemens",
       "link": "http://www.zerodayinitiative.com/advisories/upcoming/",
       "date": "2026-10-23T05:00:00Z",
-      "description": "A CVSS score 6.5 AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N severity vulnerability discovered by 'Rocco Calvi (@TecR0c) with TecSecurity' was reported to the affected vendor on: 2026-10-23, 2 days ago. The vendor is given until 2027-02-20 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
+      "description": "A CVSS score 6.5 AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N severity vulnerability discovered by 'Rocco Calvi (@TecR0c) with TecSecurity' was reported to the affected vendor on: 2026-10-23, 3 days ago. The vendor is given until 2027-02-20 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
       "source": "zerodayinitiative.com"
     },
     {
       "title": "ZDI-CAN-32726: Siemens",
       "link": "http://www.zerodayinitiative.com/advisories/upcoming/",
       "date": "2026-10-23T05:00:00Z",
-      "description": "A CVSS score 7.8 AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H severity vulnerability discovered by 'Berat.\\xc4\\xb0' was reported to the affected vendor on: 2026-10-23, 2 days ago. The vendor is given until 2027-02-20 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
+      "description": "A CVSS score 7.8 AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H severity vulnerability discovered by 'Berat.\\xc4\\xb0' was reported to the affected vendor on: 2026-10-23, 3 days ago. The vendor is given until 2027-02-20 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
       "source": "zerodayinitiative.com"
     },
     {
       "title": "ZDI-CAN-29632: Siemens",
       "link": "http://www.zerodayinitiative.com/advisories/upcoming/",
       "date": "2026-10-23T05:00:00Z",
-      "description": "A CVSS score 7.8 AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H severity vulnerability discovered by 'gardenchair' was reported to the affected vendor on: 2026-10-23, 2 days ago. The vendor is given until 2027-02-20 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
+      "description": "A CVSS score 7.8 AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H severity vulnerability discovered by 'gardenchair' was reported to the affected vendor on: 2026-10-23, 3 days ago. The vendor is given until 2027-02-20 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
       "source": "zerodayinitiative.com"
     },
     {
       "title": "ZDI-CAN-36541: NVIDIA",
       "link": "http://www.zerodayinitiative.com/advisories/upcoming/",
       "date": "2026-10-23T05:00:00Z",
-      "description": "A CVSS score 8.8 AV:L/AC:L/PR:L/UI:N/S:C/C:H/I:H/A:H severity vulnerability discovered by 'Brandon Evans (@0x1nsomnia), Michael DePlante (@izobashi), and John Simpson (@Thracky) of TrendAI Zero Day Initiative' was reported to the affected vendor on: 2026-10-23, 2 days ago. The vendor is given until 2027-02-20 to publish a fix or workaround. Once the vendor has created and tested a patch we will…",
+      "description": "A CVSS score 8.8 AV:L/AC:L/PR:L/UI:N/S:C/C:H/I:H/A:H severity vulnerability discovered by 'Brandon Evans (@0x1nsomnia), Michael DePlante (@izobashi), and John Simpson (@Thracky) of TrendAI Zero Day Initiative' was reported to the affected vendor on: 2026-10-23, 3 days ago. The vendor is given until 2027-02-20 to publish a fix or workaround. Once the vendor has created and tested a patch we will…",
       "source": "zerodayinitiative.com"
     },
     {
