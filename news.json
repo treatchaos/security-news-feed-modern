@@ -1,62 +1,132 @@
 {
-  "last_updated": "2026-10-27T06:59:49Z",
+  "last_updated": "2026-10-27T13:00:17Z",
   "count": 35,
   "items": [
     {
-      "title": "Hackers Hijack Microsoft 365 Accounts at 79 Organizations Using Stolen Login Tokens",
-      "link": "https://cybersecuritynews.com/microsoft-365-accounts/",
-      "date": "2026-10-27T06:57:45Z",
-      "description": "Hackers compromised Microsoft 365 accounts at 79 organizations by reusing stolen login tokens, recording at least 497 successful sign-ins between July 14 and September 22, 2026. The ten-week campaign also generated more than 200,000 failed login attempts across monitored customer environments. The attackers targeted authenticated sessions rather than relying on password guessing. Similar to…",
-      "source": "cybersecuritynews.com"
-    },
-    {
-      "title": "Attackers Hijack Dahua IP Cameras in Ukraine Using P2P Access and Auth Weaknesses",
-      "link": "https://thehackernews.com/2026/10/attackers-hijack-dahua-ip-cameras-in.html",
-      "date": "2026-10-27T06:34:47Z",
-      "description": "The Computer Emergency Response Team of Ukraine (CERT-UA) has issued an alert warning of unauthorized remote access to video surveillance systems manufactured by Dahua. \"Cases of compromising IP cameras and DVRs with access to the video stream, changing the device configuration and creating third-party accounts have been recorded,\" the State Special Communications Service of Ukraine (SSSCIP)",
+      "title": "Microsoft Authenticator Flaw Let Permissionless Android Apps Steal Work Account Tokens",
+      "link": "https://thehackernews.com/2026/10/microsoft-authenticator-flaw-let.html",
+      "date": "2026-10-27T12:09:50Z",
+      "description": "Microsoft has fixed a flaw in its Authenticator app for Android that let a malicious app with no permissions pose as a trusted Microsoft app, such as Teams, and collect sign-in tokens for a victim's work account. Microsoft tracks the flaw as CVE-2026-80097 and fixed it in Authenticator for Android version 6.2606.4246, so anyone using the app should update. In the researchers' tests,",
       "source": "thehackernews.com"
     },
     {
-      "title": "Hackers Use AI Agents to Target Over 2,250 Microsoft 365 Tenants Through ConnectWise",
-      "link": "https://cybersecuritynews.com/hackers-use-ai-agents/",
-      "date": "2026-10-27T06:11:26Z",
-      "description": "Hackers used AI agents and stolen ConnectWise application credentials to attempt access to more than 2,250 Microsoft 365 tenants, according to Microsoft’s technical investigation report. Microsoft attributed the campaign to Storm-0940, a China-state-aligned group, and said its ARTEX framework accelerated reconnaissance, authentication attempts, and cloud persistence. The targeting count does not…",
-      "source": "cybersecuritynews.com"
-    },
-    {
-      "title": "OpenAI Codex Breaks USB Encryption in Minutes, Exposing Hardcoded Keys and Security Flaws",
-      "link": "https://cybersecuritynews.com/openai-codex-breaks-usb-encryption-in-minutes/",
-      "date": "2026-10-27T05:40:35Z",
-      "description": "OpenAI Codex helped researcher Xusheng Li uncover flaws in four USB protection products, including hardcoded encryption keys and hidden accounts that allowed files to be decrypted without the owner’s password. In one test, Codex identified the main weakness in seven minutes. The findings expose failures in how these products handle secrets, rather than a breakthrough […] The post OpenAI Codex…",
-      "source": "cybersecuritynews.com"
-    },
-    {
-      "title": "Researcher Gains Root Access to Samsung Smart TV, Uncovers Extensive User Tracking",
-      "link": "https://cybersecuritynews.com/researcher-root-samsung-smart-tv/",
-      "date": "2026-10-27T05:25:17Z",
-      "description": "A cybersecurity researcher says he gained root access to a 2025 Samsung Smart TV and found software built to track far more than the picture on the screen. Known online as log4j, he started after the set kept showing ads that seemed oddly specific to his household. He says the Tizen firmware was AES-encrypted, so […] The post Researcher Gains Root Access to Samsung Smart TV, Uncovers Extensive…",
-      "source": "cybersecuritynews.com"
-    },
-    {
-      "title": "Hackers Abuse Claude’s Official Website and Google Ads to Spread Malware",
-      "link": "https://cybersecuritynews.com/claudes-official-website/",
-      "date": "2026-10-27T04:40:22Z",
-      "description": "Cybercriminals found a simple way to make a fake download page look trustworthy. Instead of registering a lookalike domain, they placed their lure on claude.ai, the official website of Anthropic, the company behind the Claude AI assistant. The fake page carried Claude branding and offered what looked like easy steps to install a desktop app. […] The post Hackers Abuse Claude’s Official Website…",
-      "source": "cybersecuritynews.com"
-    },
-    {
-      "title": "CISA Confirms Active Exploitation of Two PHP2Shell Flaws Enabling Remote Code Execution",
-      "link": "https://thehackernews.com/2026/10/cisa-confirms-active-exploitation-of.html",
-      "date": "2026-10-27T04:37:59Z",
-      "description": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Monday confirmed active exploitation of the recently patched PHP2Shell flaws by adding them to its Known Exploited Vulnerabilities (KEV) catalog. The PHP vulnerabilities, both rated 9.2 on the CVSS scoring system, facilitate unauthenticated remote code execution on affected deployments - CVE-2026-109618 - An out-of-memory",
-      "source": "thehackernews.com"
-    },
-    {
-      "title": "Cybersecurity Issue Forces a Major New Mexico Hospital to Divert Patients and Close Clinics",
-      "link": "https://www.securityweek.com/cybersecurity-issue-forces-a-major-new-mexico-hospital-to-divert-patients-and-close-clinics/",
-      "date": "2026-10-27T01:30:00Z",
-      "description": "The University of New Mexico Health System told people not to show up at its main hospital in Albuquerque and canceled appointments at more than 30 clinics. The post Cybersecurity Issue Forces a Major New Mexico Hospital to Divert Patients and Close Clinics appeared first on SecurityWeek.",
+      "title": "Unexplained DreamHost Incident Prompts Email, FTP Password Resets",
+      "link": "https://www.securityweek.com/unexplained-dreamhost-incident-prompts-email-ftp-password-resets/",
+      "date": "2026-10-27T12:02:06Z",
+      "description": "The company says it reacted to an issue affecting some of its systems, including DreamHost webmail. The post Unexplained DreamHost Incident Prompts Email, FTP Password Resets appeared first on SecurityWeek.",
       "source": "securityweek.com"
+    },
+    {
+      "title": "iOS, macOS 27.2 Patch 286 Bugs; Fix for Exploited Flaw Backported to iOS 18",
+      "link": "https://www.securityweek.com/ios-macos-27-2-patch-286-bugs-fix-for-exploited-flaw-backported-to-ios-18/",
+      "date": "2026-10-27T11:49:57Z",
+      "description": "Apple patched 286 vulnerabilities in iOS and macOS 27.2 and brought the fix for an exploited CoreGraphics zero-day to older iPhones. The post iOS, macOS 27.2 Patch 286 Bugs; Fix for Exploited Flaw Backported to iOS 18 appeared first on SecurityWeek.",
+      "source": "securityweek.com"
+    },
+    {
+      "title": "Keystone to Destroy 18,835 Hardware Wallets After Hackers Steal Device Verification Key",
+      "link": "https://thehackernews.com/2026/10/keystone-to-destroy-18835-hardware.html",
+      "date": "2026-10-27T11:46:00Z",
+      "description": "An attacker who gained access to Keystone's website obtained the key that its hardware wallets use to prove they are genuine, the company said in a statement on October 26. Someone with that key could build counterfeit devices that pass the online check owners use to verify a Keystone. A buyer who trusted a counterfeit could have their crypto stolen, but the incident did not involve",
+      "source": "thehackernews.com"
+    },
+    {
+      "title": "Critical HashiCorp Consul Kubernetes Flaw Allows Attackers to Gain Elevated Privileges",
+      "link": "https://cybersecuritynews.com/hashicorp-consul-kubernetes-vulnerability/",
+      "date": "2026-10-27T11:37:34Z",
+      "description": "HashiCorp has released fixes for a Consul-k8s authorization bypass that could allow an attacker to gain elevated Consul privileges from another Kubernetes namespace. Tracked as CVE-2026-110720, the flaw affects deployments using automated system access control list management. HashiCorp disclosed the issue on October 26, 2026, and identified Consul-k8s 2.1.0 and 1.8.18 as patched releases. The…",
+      "source": "cybersecuritynews.com"
+    },
+    {
+      "title": "AI-Generated Fake Login Pages Are Making Account Takeovers Easier",
+      "link": "https://thehackernews.com/2026/10/ai-generated-fake-login-pages-are.html",
+      "date": "2026-10-27T11:32:46Z",
+      "description": "Fake login pages are nothing new, but generative AI is making them easier to build and more convincing. Attackers can recreate familiar login screens, impersonate trusted brands and tailor phishing attempts to specific employees or organizations. Some fake login pages go beyond stealing passwords. They can also capture MFA codes or hijack authenticated sessions, allowing attackers to gain",
+      "source": "thehackernews.com"
+    },
+    {
+      "title": "Lazarus Abuses South Korean Security Software to Deploy Malware Using Post-Quantum Encryption",
+      "link": "https://thehackernews.com/2026/10/lazarus-abuses-south-korean-security.html",
+      "date": "2026-10-27T11:32:31Z",
+      "description": "The North Korea-linked Lazarus Group has been attributed to a cyber espionage campaign dubbed Operation FlashHole targeting at least three organizations in South Korea spanning the construction, software, and wire-communication equipment manufacturing sectors. According to Russian cybersecurity company Kaspersky, the campaign has been active since at least July 2025. It's assessed to pick up",
+      "source": "thehackernews.com"
+    },
+    {
+      "title": "Apple iOS 27.2 Released With Fixes for 163 Vulnerabilities, Including Fix for Critical WebKit RCE",
+      "link": "https://cybersecuritynews.com/apple-ios-27-2-released/",
+      "date": "2026-10-27T11:15:19Z",
+      "description": "Apple released iOS 27.2 and iPadOS 27.2 on October 26, 2026, with fixes for 163 security flaws. The update covers iPhone 11 and later and a wide set of iPad models. The most serious issues sit in WebKit, the engine behind Safari and most in-app browsers on Apple devices. Apple says malicious web content could […] The post Apple iOS 27.2 Released With Fixes for 163 Vulnerabilities, Including Fix…",
+      "source": "cybersecuritynews.com"
+    },
+    {
+      "title": "Hackers Hijack AI Pentesting Agents to Install Backdoors and Steal API Keys",
+      "link": "https://cybersecuritynews.com/ai-pentesting-agents/",
+      "date": "2026-10-27T10:57:16Z",
+      "description": "Hackers are now targeting the AI tools that security teams use to test their own networks. A new investigation describes automated campaigns that break into exposed panels for Cairn, a platform that gives AI agents goals and lets them work on their own. Once inside, the attackers push new tasks into those agents. These tasks […] The post Hackers Hijack AI Pentesting Agents to Install Backdoors…",
+      "source": "cybersecuritynews.com"
+    },
+    {
+      "title": "Risks Spelled Out for Anthropic Investors Include Possible Harms From Runaway AI",
+      "link": "https://www.securityweek.com/risks-spelled-out-for-anthropic-investors-include-possible-harms-from-runaway-ai/",
+      "date": "2026-10-27T10:44:20Z",
+      "description": "Anthropic presents its own initial public offering as a step toward mitigating the risks it believes AI poses. The post Risks Spelled Out for Anthropic Investors Include Possible Harms From Runaway AI appeared first on SecurityWeek.",
+      "source": "securityweek.com"
+    },
+    {
+      "title": "Apple backports CoreGraphics zero-day patches to older iPhones",
+      "link": "https://www.bleepingcomputer.com/news/apple/apple-backports-coregraphics-zero-day-patches-to-older-iphones/",
+      "date": "2026-10-27T10:36:12Z",
+      "description": "​Apple has backported security patches released last month to older iPhones and iPads, addressing a zero-day bug exploited in \"extremely sophisticated\" targeted attacks on iOS devices. [...]",
+      "source": "bleepingcomputer.com"
+    },
+    {
+      "title": "This is Fine: What NetScaler Zero-Days Tell Us About the New Normal",
+      "link": "https://www.securityweek.com/this-is-fine-what-netscaler-zero-days-tell-us-about-the-new-normal/",
+      "date": "2026-10-27T10:02:24Z",
+      "description": "Keep your patch management pipelines primed in case another round of Citrix NetScaler patches get released soon. The post This is Fine: What NetScaler Zero-Days Tell Us About the New Normal appeared first on SecurityWeek.",
+      "source": "securityweek.com"
+    },
+    {
+      "title": "Dead Popcorn Time Updater Put Millions of Computers at Risk of Takeover",
+      "link": "https://www.securityweek.com/dead-popcorn-time-updater-put-millions-of-computers-at-risk-of-takeover/",
+      "date": "2026-10-27T09:44:50Z",
+      "description": "Running at system boot, it periodically polled the update domain to execute any code served, with full privileges. The post Dead Popcorn Time Updater Put Millions of Computers at Risk of Takeover appeared first on SecurityWeek.",
+      "source": "securityweek.com"
+    },
+    {
+      "title": "Apple Released Patches for Exploited CoreGraphics 0-day Vulnerability for Older iPhones",
+      "link": "https://cybersecuritynews.com/apple-fix-for-coregraphics-0-day-flaw/",
+      "date": "2026-10-27T09:44:36Z",
+      "description": "Apple released iOS 18.7.11 and iPadOS 18.7.11 to patch a CoreGraphics zero-day vulnerability that attackers may have used in targeted attacks. Released on October 26, 2026, the updates bring security fixes to older devices, including the iPhone XS, iPhone XS Max, iPhone XR, and seventh-generation iPad, according to Apple’s security releases page. Tracked as CVE-2026-86950, […] The post Apple…",
+      "source": "cybersecuritynews.com"
+    },
+    {
+      "title": "Australia Gets Into Amadey Malware Backend, Cuts Off Access to 180,000 Infected Computers",
+      "link": "https://thehackernews.com/2026/10/australia-gets-into-amadey-malware.html",
+      "date": "2026-10-27T09:33:06Z",
+      "description": "A criminal using the Amadey malware can no longer access or steal data from 180,000 infected computers around the world, including some in Australia, the Australian Signals Directorate (ASD) says. The agency's operators gained access to the criminal's operation's backend and cut it off from those computers. \"The next steps that we took were to disconnect that Amadey controller from all those",
+      "source": "thehackernews.com"
+    },
+    {
+      "title": "Energy giant ENGIE discloses data breach affecting customers",
+      "link": "https://www.bleepingcomputer.com/news/security/energy-giant-engie-discloses-data-breach-affecting-customers/",
+      "date": "2026-10-27T09:25:50Z",
+      "description": "French energy giant ENGIE, one of the world's largest power and natural gas providers, confirmed that attackers stole customer data after breaching a marketing platform used by business partners. [...]",
+      "source": "bleepingcomputer.com"
+    },
+    {
+      "title": "Hacker Uses AI to Breach 90 South Korean Organizations and Steal 8.2 Million Records",
+      "link": "https://cybersecuritynews.com/hacker-uses-ai-to-breach-organizations/",
+      "date": "2026-10-27T09:05:42Z",
+      "description": "South Korean police have arrested a 32-year-old man accused of leading an AI-assisted hacking operation that stole personal records and internal files from about 90 organizations, totaling 8.2 million records. Targets included hospitals, private academies, golf courses, universities, and large companies’ affiliates. Investigators said the group used stolen data to pressure victims into paying…",
+      "source": "cybersecuritynews.com"
+    },
+    {
+      "title": "CISA confirms PHP2Shell vulnerabilities now exploited in attacks",
+      "link": "https://www.bleepingcomputer.com/news/security/cisa-confirms-php2shell-vulnerabilities-now-exploited-in-attacks/",
+      "date": "2026-10-27T08:20:54Z",
+      "description": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) has added the PHP2Shell vulnerabilities to its catalog of actively exploited security flaws and ordered federal agencies to patch their systems by Thursday. [...]",
+      "source": "bleepingcomputer.com"
     },
     {
       "title": "So Many AI Security Benchmarks, But None Tell the Whole Story",
@@ -94,81 +164,11 @@
       "source": "darkreading.com"
     },
     {
-      "title": "OpenAI launches GPT-6.1 Terra with 3x faster AI agents, 50% lower pricing",
-      "link": "https://www.bleepingcomputer.com/news/artificial-intelligence/openai-launches-gpt-61-terra-with-3x-faster-ai-agents-50-percent-lower-pricing/",
-      "date": "2026-10-26T20:46:49Z",
-      "description": "OpenAI has launched GPT-6.1 Terra, a new model focused on computer use, visual reasoning, coding, and everyday work, while costing significantly less than its larger models. [...]",
-      "source": "bleepingcomputer.com"
-    },
-    {
-      "title": "Anthropic Files for Potentially the Biggest IPO Ever as CEO Warns of Risk to Humanity From AI",
-      "link": "https://www.securityweek.com/anthropic-files-for-potentially-the-biggest-ipo-ever-as-ceo-warns-of-risk-to-humanity-from-ai/",
-      "date": "2026-10-26T20:20:56Z",
-      "description": "A string of hacking incidents by rogue AI agents also has raised fears the technology will slip free of human control to carry out harmful, life-threatening tasks. The post Anthropic Files for Potentially the Biggest IPO Ever as CEO Warns of Risk to Humanity From AI appeared first on SecurityWeek.",
-      "source": "securityweek.com"
-    },
-    {
-      "title": "DreamHost forces password resets in ongoing \"incident\"",
-      "link": "https://www.bleepingcomputer.com/news/security/dreamhost-forces-email-ftp-sftp-password-resets-in-ongoing-incident/",
-      "date": "2026-10-26T19:26:20Z",
-      "description": "DreamHost has forced password resets for email and FTP/SFTP users following an incident that disrupted connections to the File Manager interface. [...]",
-      "source": "bleepingcomputer.com"
-    },
-    {
-      "title": "Hackers Infect 953 Online Stores With Scanner-Evading JavaScript, Mostly on Magento",
-      "link": "https://thehackernews.com/2026/10/hackers-infect-953-online-stores-with.html",
-      "date": "2026-10-26T18:12:22Z",
-      "description": "An unknown threat actor has infected 953 online stores, most of them running Magento, as part of a long-running campaign active since July 2025. According to Dutch e-commerce security company Sansec, the activity is designed to add a small piece of code to the store's pages that, when visited by unsuspecting users, serves malicious JavaScript loader code through Magento CMS blocks. \"When you",
-      "source": "thehackernews.com"
-    },
-    {
       "title": "'Gheist' Weaponizes GitHub Tokens to Steal Cloud Secrets",
       "link": "https://www.darkreading.com/cyberattacks-data-breaches/gheist-stolen-github-tokens-cloud-secrets",
       "date": "2026-10-26T18:01:40Z",
       "description": "An ongoing supply chain attack is harvesting credentials and sensitive data from thousands of developer repositories.",
       "source": "darkreading.com"
-    },
-    {
-      "title": "PHP Issues Second Windows Security Update in Five Days to Fix Brotli Code Execution Flaw",
-      "link": "https://thehackernews.com/2026/10/php-issues-second-windows-security.html",
-      "date": "2026-10-26T17:45:57Z",
-      "description": "PHP has rebuilt its official Windows packages for PHP 8.2 through 8.5 to fix CVE-2026-111497, a flaw in the Brotli compression library that the packages include. The flaw can let an attacker corrupt memory and potentially run code. PHP says the flaw can be reached through the cURL extension when the extension decompresses HTTP responses automatically. cURL leaves that off by default, but",
-      "source": "thehackernews.com"
-    },
-    {
-      "title": "Critical 'HTTP2Shell' Brotli vulnerability triggers emergency patches",
-      "link": "https://www.bleepingcomputer.com/news/security/critical-http2shell-brotli-vulnerability-triggers-emergency-patches/",
-      "date": "2026-10-26T16:27:57Z",
-      "description": "A critical flaw dubbed 'HTTP2Shell' in Brotli, the C decoder library built into Node.js, could allow attackers to corrupt memory and access sensitive data. [...]",
-      "source": "bleepingcomputer.com"
-    },
-    {
-      "title": "Attackers Use Microsoft Teams IT Support Scams to Deploy Malware and Ransomware",
-      "link": "https://thehackernews.com/2026/10/attackers-use-microsoft-teams-it.html",
-      "date": "2026-10-26T15:52:40Z",
-      "description": "Cybersecurity researchers are calling attention to what they say is a \"recurring social engineering pattern\" across hundreds of cases in which threat actors use Microsoft Teams' external chat creation feature to conduct impersonation scams or to deliver malware. \"A consistent pattern of attacker behavior has emerged across these incidents: the use of the same throwaway tenants, the same 'IT",
-      "source": "thehackernews.com"
-    },
-    {
-      "title": "Industrial Vendors Check Products for PHP2Shell Vulnerabilities",
-      "link": "https://www.securityweek.com/industrial-vendors-check-products-for-php2shell-vulnerabilities/",
-      "date": "2026-10-26T14:52:14Z",
-      "description": "Siemens, Schneider Electric, ABB and others have confirmed that some of their products are affected by the PHP2Shell vulnerabilities. The post Industrial Vendors Check Products for PHP2Shell Vulnerabilities appeared first on SecurityWeek.",
-      "source": "securityweek.com"
-    },
-    {
-      "title": "Genesys Hack Exposes Customer Data From Internal Systems",
-      "link": "https://www.securityweek.com/genesys-hack-exposes-customer-data-from-internal-systems/",
-      "date": "2026-10-26T14:40:48Z",
-      "description": "The Genesys Cloud, Genesys Engage, and Genesys Engage Cloud platforms were not affected. The post Genesys Hack Exposes Customer Data From Internal Systems appeared first on SecurityWeek.",
-      "source": "securityweek.com"
-    },
-    {
-      "title": "Stolen AI Reasoning Could Help China Build Cheaper Rivals",
-      "link": "https://www.securityweek.com/stolen-ai-reasoning-could-help-china-build-cheaper-rivals/",
-      "date": "2026-10-26T14:30:09Z",
-      "description": "Xint says a flaw in OpenAI’s compaction process let researchers move reasoning traces between models, potentially making it cheaper to distill a rival AI. The post Stolen AI Reasoning Could Help China Build Cheaper Rivals appeared first on SecurityWeek.",
-      "source": "securityweek.com"
     },
     {
       "title": "10 Software Security Practices Built for the Next 250 Years",
