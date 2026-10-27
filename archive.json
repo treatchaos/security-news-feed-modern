@@ -1,7 +1,7 @@
 {
-  "last_updated": "2026-10-27T01:42:01Z",
+  "last_updated": "2026-10-27T06:59:49Z",
   "retention_days": 90,
-  "count": 3346,
+  "count": 3352,
   "items": [
     {
       "id": "67e06cf13e3c120958db05325eb3a662b3a98e65",
@@ -24,6 +24,76 @@
       "last_seen": "2026-08-31T21:12:11Z"
     },
     {
+      "id": "776965191fcb7bb1f0a621665ecefaca5a0e2034",
+      "title": "Hackers Hijack Microsoft 365 Accounts at 79 Organizations Using Stolen Login Tokens",
+      "link": "https://cybersecuritynews.com/microsoft-365-accounts/",
+      "date": "2026-10-27T06:57:45Z",
+      "description": "Hackers compromised Microsoft 365 accounts at 79 organizations by reusing stolen login tokens, recording at least 497 successful sign-ins between July 14 and September 22, 2026. The ten-week campaign also generated more than 200,000 failed login attempts across monitored customer environments. The attackers targeted authenticated sessions rather than relying on password guessing. Similar to…",
+      "source": "cybersecuritynews.com",
+      "first_seen": "2026-10-27T06:59:49Z",
+      "last_seen": "2026-10-27T06:59:49Z"
+    },
+    {
+      "id": "b14f854f1122811eff20639f07d067a76a979e0c",
+      "title": "Attackers Hijack Dahua IP Cameras in Ukraine Using P2P Access and Auth Weaknesses",
+      "link": "https://thehackernews.com/2026/10/attackers-hijack-dahua-ip-cameras-in.html",
+      "date": "2026-10-27T06:34:47Z",
+      "description": "The Computer Emergency Response Team of Ukraine (CERT-UA) has issued an alert warning of unauthorized remote access to video surveillance systems manufactured by Dahua. \"Cases of compromising IP cameras and DVRs with access to the video stream, changing the device configuration and creating third-party accounts have been recorded,\" the State Special Communications Service of Ukraine (SSSCIP)",
+      "source": "thehackernews.com",
+      "first_seen": "2026-10-27T06:59:49Z",
+      "last_seen": "2026-10-27T06:59:49Z"
+    },
+    {
+      "id": "75b8cb0020a29bebfb98f19aab3d38ac57d00a2a",
+      "title": "Hackers Use AI Agents to Target Over 2,250 Microsoft 365 Tenants Through ConnectWise",
+      "link": "https://cybersecuritynews.com/hackers-use-ai-agents/",
+      "date": "2026-10-27T06:11:26Z",
+      "description": "Hackers used AI agents and stolen ConnectWise application credentials to attempt access to more than 2,250 Microsoft 365 tenants, according to Microsoft’s technical investigation report. Microsoft attributed the campaign to Storm-0940, a China-state-aligned group, and said its ARTEX framework accelerated reconnaissance, authentication attempts, and cloud persistence. The targeting count does not…",
+      "source": "cybersecuritynews.com",
+      "first_seen": "2026-10-27T06:59:49Z",
+      "last_seen": "2026-10-27T06:59:49Z"
+    },
+    {
+      "id": "dc072929208789c4080c4df5351ec7e8db480e3a",
+      "title": "OpenAI Codex Breaks USB Encryption in Minutes, Exposing Hardcoded Keys and Security Flaws",
+      "link": "https://cybersecuritynews.com/openai-codex-breaks-usb-encryption-in-minutes/",
+      "date": "2026-10-27T05:40:35Z",
+      "description": "OpenAI Codex helped researcher Xusheng Li uncover flaws in four USB protection products, including hardcoded encryption keys and hidden accounts that allowed files to be decrypted without the owner’s password. In one test, Codex identified the main weakness in seven minutes. The findings expose failures in how these products handle secrets, rather than a breakthrough […] The post OpenAI Codex…",
+      "source": "cybersecuritynews.com",
+      "first_seen": "2026-10-27T06:59:49Z",
+      "last_seen": "2026-10-27T06:59:49Z"
+    },
+    {
+      "id": "fe4c8ca5d17e7ed852d06405556ab91b1cb3d2fd",
+      "title": "Researcher Gains Root Access to Samsung Smart TV, Uncovers Extensive User Tracking",
+      "link": "https://cybersecuritynews.com/researcher-root-samsung-smart-tv/",
+      "date": "2026-10-27T05:25:17Z",
+      "description": "A cybersecurity researcher says he gained root access to a 2025 Samsung Smart TV and found software built to track far more than the picture on the screen. Known online as log4j, he started after the set kept showing ads that seemed oddly specific to his household. He says the Tizen firmware was AES-encrypted, so […] The post Researcher Gains Root Access to Samsung Smart TV, Uncovers Extensive…",
+      "source": "cybersecuritynews.com",
+      "first_seen": "2026-10-27T06:59:49Z",
+      "last_seen": "2026-10-27T06:59:49Z"
+    },
+    {
+      "id": "42c162d14c601504963e1050acf0326c2757988a",
+      "title": "Hackers Abuse Claude’s Official Website and Google Ads to Spread Malware",
+      "link": "https://cybersecuritynews.com/claudes-official-website/",
+      "date": "2026-10-27T04:40:22Z",
+      "description": "Cybercriminals found a simple way to make a fake download page look trustworthy. Instead of registering a lookalike domain, they placed their lure on claude.ai, the official website of Anthropic, the company behind the Claude AI assistant. The fake page carried Claude branding and offered what looked like easy steps to install a desktop app. […] The post Hackers Abuse Claude’s Official Website…",
+      "source": "cybersecuritynews.com",
+      "first_seen": "2026-10-27T06:59:49Z",
+      "last_seen": "2026-10-27T06:59:49Z"
+    },
+    {
+      "id": "7962f966dc9b6a4e264fbce6297c216908cc9826",
+      "title": "CISA Confirms Active Exploitation of Two PHP2Shell Flaws Enabling Remote Code Execution",
+      "link": "https://thehackernews.com/2026/10/cisa-confirms-active-exploitation-of.html",
+      "date": "2026-10-27T04:37:59Z",
+      "description": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Monday confirmed active exploitation of the recently patched PHP2Shell flaws by adding them to its Known Exploited Vulnerabilities (KEV) catalog. The PHP vulnerabilities, both rated 9.2 on the CVSS scoring system, facilitate unauthenticated remote code execution on affected deployments - CVE-2026-109618 - An out-of-memory",
+      "source": "thehackernews.com",
+      "first_seen": "2026-10-27T06:59:49Z",
+      "last_seen": "2026-10-27T06:59:49Z"
+    },
+    {
       "id": "7a631c0a4d3724f20b3b6fc9582f16374da6002f",
       "title": "Cybersecurity Issue Forces a Major New Mexico Hospital to Divert Patients and Close Clinics",
       "link": "https://www.securityweek.com/cybersecurity-issue-forces-a-major-new-mexico-hospital-to-divert-patients-and-close-clinics/",
@@ -31,7 +101,7 @@
       "description": "The University of New Mexico Health System told people not to show up at its main hospital in Albuquerque and canceled appointments at more than 30 clinics. The post Cybersecurity Issue Forces a Major New Mexico Hospital to Divert Patients and Close Clinics appeared first on SecurityWeek.",
       "source": "securityweek.com",
       "first_seen": "2026-10-27T01:42:01Z",
-      "last_seen": "2026-10-27T01:42:01Z"
+      "last_seen": "2026-10-27T06:59:49Z"
     },
     {
       "id": "3a5b1691e999b43257e4ab38b2a3659f9d9a5f00",
@@ -51,7 +121,7 @@
       "description": "Measuring AI model security gets complex fast — a growing patchwork of benchmarks targets different variables in the equation, but none replace testing against your own code and workflows.",
       "source": "darkreading.com",
       "first_seen": "2026-10-27T01:42:01Z",
-      "last_seen": "2026-10-27T01:42:01Z"
+      "last_seen": "2026-10-27T06:59:49Z"
     },
     {
       "id": "6f46aa57df03d3e734b22f8938de1f156e4744b7",
@@ -61,7 +131,7 @@
       "description": "The University of Copenhagen in Denmark confirmed that hackers accessed one of its test environments containing personal data belonging to 525,000 people. [...]",
       "source": "bleepingcomputer.com",
       "first_seen": "2026-10-27T01:42:01Z",
-      "last_seen": "2026-10-27T01:42:01Z"
+      "last_seen": "2026-10-27T06:59:49Z"
     },
     {
       "id": "0d67a75c791ac5c3503d3605b709058f9e038eba",
@@ -71,7 +141,7 @@
       "description": "Nvidia security executive Mark Weatherford says CISOs must help business leaders weigh AI's pros and cons, and ensure those deploying it own the risks.",
       "source": "darkreading.com",
       "first_seen": "2026-10-26T22:03:19Z",
-      "last_seen": "2026-10-27T01:42:01Z"
+      "last_seen": "2026-10-27T06:59:49Z"
     },
     {
       "id": "85dad18cf964bf64790749337cad67020a0f5f2e",
@@ -81,7 +151,7 @@
       "description": "South Korean police identified seven suspects linked to a cybercrime operation that breached more than 90 organizations in the country, with ARTEX AI pentesting framework used in most of the attacks. [...]",
       "source": "bleepingcomputer.com",
       "first_seen": "2026-10-26T22:03:19Z",
-      "last_seen": "2026-10-27T01:42:01Z"
+      "last_seen": "2026-10-27T06:59:49Z"
     },
     {
       "id": "66b35167196b5f0afb8982ee33f29c611658d37c",
@@ -91,7 +161,7 @@
       "description": "A new AI agent prompt injection technique exploits how coding assistants consume local instruction files, blurring the line between text documents and executable actions.",
       "source": "darkreading.com",
       "first_seen": "2026-10-26T22:03:19Z",
-      "last_seen": "2026-10-27T01:42:01Z"
+      "last_seen": "2026-10-27T06:59:49Z"
     },
     {
       "id": "a35a3ae29ae179c818cf6b749edb86a7bfefe774",
@@ -101,7 +171,7 @@
       "description": "OpenAI has launched GPT-6.1 Terra, a new model focused on computer use, visual reasoning, coding, and everyday work, while costing significantly less than its larger models. [...]",
       "source": "bleepingcomputer.com",
       "first_seen": "2026-10-26T22:03:19Z",
-      "last_seen": "2026-10-27T01:42:01Z"
+      "last_seen": "2026-10-27T06:59:49Z"
     },
     {
       "id": "56a06dbe660ad80c4680c18e8b57aa26b71dad7b",
@@ -121,7 +191,7 @@
       "description": "A string of hacking incidents by rogue AI agents also has raised fears the technology will slip free of human control to carry out harmful, life-threatening tasks. The post Anthropic Files for Potentially the Biggest IPO Ever as CEO Warns of Risk to Humanity From AI appeared first on SecurityWeek.",
       "source": "securityweek.com",
       "first_seen": "2026-10-26T22:03:19Z",
-      "last_seen": "2026-10-27T01:42:01Z"
+      "last_seen": "2026-10-27T06:59:49Z"
     },
     {
       "id": "f615cdac698db16bb58eea3bdf632cefa9df1c48",
@@ -131,7 +201,7 @@
       "description": "DreamHost has forced password resets for email and FTP/SFTP users following an incident that disrupted connections to the File Manager interface. [...]",
       "source": "bleepingcomputer.com",
       "first_seen": "2026-10-26T22:03:19Z",
-      "last_seen": "2026-10-27T01:42:01Z"
+      "last_seen": "2026-10-27T06:59:49Z"
     },
     {
       "id": "e1cceca7277b8d45e1da6e091aebf503a5013f2e",
@@ -141,7 +211,7 @@
       "description": "An unknown threat actor has infected 953 online stores, most of them running Magento, as part of a long-running campaign active since July 2025. According to Dutch e-commerce security company Sansec, the activity is designed to add a small piece of code to the store's pages that, when visited by unsuspecting users, serves malicious JavaScript loader code through Magento CMS blocks. \"When you",
       "source": "thehackernews.com",
       "first_seen": "2026-10-26T22:03:19Z",
-      "last_seen": "2026-10-27T01:42:01Z"
+      "last_seen": "2026-10-27T06:59:49Z"
     },
     {
       "id": "91b59236cac2693d76b276455072543e94d3c54b",
@@ -151,7 +221,7 @@
       "description": "An ongoing supply chain attack is harvesting credentials and sensitive data from thousands of developer repositories.",
       "source": "darkreading.com",
       "first_seen": "2026-10-26T22:03:19Z",
-      "last_seen": "2026-10-27T01:42:01Z"
+      "last_seen": "2026-10-27T06:59:49Z"
     },
     {
       "id": "f80a52a7912d25478bd178fa8b91ca085aefbc36",
@@ -161,7 +231,7 @@
       "description": "PHP has rebuilt its official Windows packages for PHP 8.2 through 8.5 to fix CVE-2026-111497, a flaw in the Brotli compression library that the packages include. The flaw can let an attacker corrupt memory and potentially run code. PHP says the flaw can be reached through the cURL extension when the extension decompresses HTTP responses automatically. cURL leaves that off by default, but",
       "source": "thehackernews.com",
       "first_seen": "2026-10-26T22:03:19Z",
-      "last_seen": "2026-10-27T01:42:01Z"
+      "last_seen": "2026-10-27T06:59:49Z"
     },
     {
       "id": "f7a1d4fbae85f586e27d2fe72e0f81912faf3ff9",
@@ -191,7 +261,7 @@
       "description": "A critical flaw dubbed 'HTTP2Shell' in Brotli, the C decoder library built into Node.js, could allow attackers to corrupt memory and access sensitive data. [...]",
       "source": "bleepingcomputer.com",
       "first_seen": "2026-10-26T17:51:00Z",
-      "last_seen": "2026-10-27T01:42:01Z"
+      "last_seen": "2026-10-27T06:59:49Z"
     },
     {
       "id": "cf05f36327f776402e5cda68bdf0c753d694e5e7",
@@ -231,7 +301,7 @@
       "description": "Cybersecurity researchers are calling attention to what they say is a \"recurring social engineering pattern\" across hundreds of cases in which threat actors use Microsoft Teams' external chat creation feature to conduct impersonation scams or to deliver malware. \"A consistent pattern of attacker behavior has emerged across these incidents: the use of the same throwaway tenants, the same 'IT",
       "source": "thehackernews.com",
       "first_seen": "2026-10-26T22:03:19Z",
-      "last_seen": "2026-10-27T01:42:01Z"
+      "last_seen": "2026-10-27T06:59:49Z"
     },
     {
       "id": "32cb2c1c8cd1722afc31e106fab45ed1ff26f824",
@@ -251,7 +321,7 @@
       "description": "Siemens, Schneider Electric, ABB and others have confirmed that some of their products are affected by the PHP2Shell vulnerabilities. The post Industrial Vendors Check Products for PHP2Shell Vulnerabilities appeared first on SecurityWeek.",
       "source": "securityweek.com",
       "first_seen": "2026-10-26T17:51:00Z",
-      "last_seen": "2026-10-27T01:42:01Z"
+      "last_seen": "2026-10-27T06:59:49Z"
     },
     {
       "id": "ea83f8fcfcf6a027119533ffa41d8a4c147665cd",
@@ -261,7 +331,7 @@
       "description": "The Genesys Cloud, Genesys Engage, and Genesys Engage Cloud platforms were not affected. The post Genesys Hack Exposes Customer Data From Internal Systems appeared first on SecurityWeek.",
       "source": "securityweek.com",
       "first_seen": "2026-10-26T17:51:00Z",
-      "last_seen": "2026-10-27T01:42:01Z"
+      "last_seen": "2026-10-27T06:59:49Z"
     },
     {
       "id": "d8b0426548ee852adb21374e66785e0118e413f6",
@@ -271,7 +341,7 @@
       "description": "Xint says a flaw in OpenAI’s compaction process let researchers move reasoning traces between models, potentially making it cheaper to distill a rival AI. The post Stolen AI Reasoning Could Help China Build Cheaper Rivals appeared first on SecurityWeek.",
       "source": "securityweek.com",
       "first_seen": "2026-10-26T17:51:00Z",
-      "last_seen": "2026-10-27T01:42:01Z"
+      "last_seen": "2026-10-27T06:59:49Z"
     },
     {
       "id": "7283c6981d0705bf88bedfb73eabb690bce28dee",
@@ -301,7 +371,7 @@
       "description": "This Cybersecurity Awareness Month's theme, \"Securing the Next 250,\" asks us to look beyond vulnerabilities and consider what will make our digital systems resilient for generations.",
       "source": "darkreading.com",
       "first_seen": "2026-10-26T17:51:00Z",
-      "last_seen": "2026-10-27T01:42:01Z"
+      "last_seen": "2026-10-27T06:59:49Z"
     },
     {
       "id": "0adbcc5bf16c121c85e935677537c1edce35ebe2",
@@ -441,7 +511,7 @@
       "description": "A CVSS score 7.8 AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H severity vulnerability discovered by 'Mirae' was reported to the affected vendor on: 2026-10-26, 0 days ago. The vendor is given until 2027-02-23 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
       "source": "zerodayinitiative.com",
       "first_seen": "2026-10-26T17:51:00Z",
-      "last_seen": "2026-10-27T01:42:01Z"
+      "last_seen": "2026-10-27T06:59:49Z"
     },
     {
       "id": "cda2711e35ebdce227933808ab12f805d989aed4",
@@ -1071,7 +1141,7 @@
       "description": "A CVSS score 3.3 AV:L/AC:L/PR:N/UI:R/S:U/C:L/I:N/A:N severity vulnerability discovered by 'Anonymous' was reported to the affected vendor on: 2026-10-23, 0 days ago. The vendor is given until 2027-02-20 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
       "source": "zerodayinitiative.com",
       "first_seen": "2026-10-23T20:46:08Z",
-      "last_seen": "2026-10-27T01:42:01Z"
+      "last_seen": "2026-10-27T06:59:49Z"
     },
     {
       "id": "f98e8a410ac12c1361e56c7f1357571331371ba9",
@@ -1081,7 +1151,7 @@
       "description": "A CVSS score 6.5 AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N severity vulnerability discovered by 'Rocco Calvi (@TecR0c) with TecSecurity' was reported to the affected vendor on: 2026-10-23, 0 days ago. The vendor is given until 2027-02-20 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
       "source": "zerodayinitiative.com",
       "first_seen": "2026-10-23T20:46:08Z",
-      "last_seen": "2026-10-27T01:42:01Z"
+      "last_seen": "2026-10-27T06:59:49Z"
     },
     {
       "id": "fbb06181741ad8f6d1f9b4f5604f6ec31db9da2a",
@@ -1091,7 +1161,7 @@
       "description": "A CVSS score 7.8 AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H severity vulnerability discovered by 'Berat.\\xc4\\xb0' was reported to the affected vendor on: 2026-10-23, 0 days ago. The vendor is given until 2027-02-20 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
       "source": "zerodayinitiative.com",
       "first_seen": "2026-10-23T23:38:25Z",
-      "last_seen": "2026-10-27T01:42:01Z"
+      "last_seen": "2026-10-27T06:59:49Z"
     },
     {
       "id": "3291a1ca0b816d24de6d2ef0ec238895fcaf0c30",
@@ -1101,7 +1171,7 @@
       "description": "A CVSS score 7.8 AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H severity vulnerability discovered by 'gardenchair' was reported to the affected vendor on: 2026-10-23, 0 days ago. The vendor is given until 2027-02-20 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
       "source": "zerodayinitiative.com",
       "first_seen": "2026-10-23T23:38:25Z",
-      "last_seen": "2026-10-27T01:42:01Z"
+      "last_seen": "2026-10-27T06:59:49Z"
     },
     {
       "id": "fe5cb0cf68da15d7c544f1db2d60eeb328ca4eb9",
@@ -33374,16 +33444,6 @@
       "last_seen": "2026-08-01T05:16:52Z"
     },
     {
-      "id": "6265760b544eeee05bcf01c30f8d0939606ecc8a",
-      "title": "Two Compromised joyfill npm Packages Run RAT When Imported Into Node.js",
-      "link": "https://thehackernews.com/2026/07/two-compromised-joyfill-npm-packages.html",
-      "date": "2026-07-29T04:20:57Z",
-      "description": "Beta release versions of two npm packages in the @joyfill namespace have been compromised to deliver a remote access trojan (RAT) associated with the DEV#POPPER malware family. The list of affected packages is as follows - @joyfill/layouts@0.1.2-2773.beta.0 @joyfill/components@4.0.0-rc24-2773-beta.4 The two packages \"contain an import-time JavaScript implant that resolves encrypted code",
-      "source": "thehackernews.com",
-      "first_seen": "2026-07-29T04:58:23Z",
-      "last_seen": "2026-07-29T10:28:36Z"
-    },
-    {
       "id": "659bccff4c980b95b7a85ae23b107fa0744cab49",
       "title": "Linux Kernel Vulnerability CVE-2024-26582: Public PoC Reaches Root Shell",
       "link": "https://securityonline.info/linux-kernel-cve-2024-26582-root-shell/",
@@ -33421,7 +33481,7 @@
       "description": "2.5 million people were affected, in a breach that could spell more trouble down the line.",
       "source": "threatpost.com",
       "first_seen": "2026-08-08T14:21:59Z",
-      "last_seen": "2026-10-27T01:42:01Z"
+      "last_seen": "2026-10-27T06:59:49Z"
     },
     {
       "id": "4140c7a34b0ba94ad2e6b0cae9f59b0cb9bfffea",
@@ -33431,7 +33491,7 @@
       "description": "Researchers uncover a watering hole attack likely carried out by APT TA423, which attempts to plant the ScanBox JavaScript-based reconnaissance tool.",
       "source": "threatpost.com",
       "first_seen": "2026-08-08T14:21:59Z",
-      "last_seen": "2026-10-27T01:42:01Z"
+      "last_seen": "2026-10-27T06:59:49Z"
     },
     {
       "id": "9359ee40a641a4b565080313045f1d7e7fe6552b",
@@ -33441,7 +33501,7 @@
       "description": "Over 130 companies tangled in sprawling phishing campaign that spoofed a multi-factor authentication system.",
       "source": "threatpost.com",
       "first_seen": "2026-08-08T14:21:59Z",
-      "last_seen": "2026-10-27T01:42:01Z"
+      "last_seen": "2026-10-27T06:59:49Z"
     },
     {
       "id": "b4ccef0737cd4050d65241bf754072030b6b5e6a",
@@ -33451,7 +33511,7 @@
       "description": "Lockbit is by far this summer’s most prolific ransomware group, trailed by two offshoots of the Conti group.",
       "source": "threatpost.com",
       "first_seen": "2026-08-08T14:21:59Z",
-      "last_seen": "2026-10-27T01:42:01Z"
+      "last_seen": "2026-10-27T06:59:49Z"
     },
     {
       "id": "12ee113fc8fce91f6d7fb28deab2b1ad20061ec7",
@@ -33461,7 +33521,7 @@
       "description": "Tens of thousands of cameras have failed to patch a critical, 11-month-old CVE, leaving thousands of organizations exposed.",
       "source": "threatpost.com",
       "first_seen": "2026-08-08T14:21:59Z",
-      "last_seen": "2026-10-27T01:42:01Z"
+      "last_seen": "2026-10-27T06:59:49Z"
     }
   ]
 }

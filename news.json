@@ -1,20 +1,62 @@
 {
-  "last_updated": "2026-10-27T01:42:01Z",
+  "last_updated": "2026-10-27T06:59:49Z",
   "count": 35,
   "items": [
+    {
+      "title": "Hackers Hijack Microsoft 365 Accounts at 79 Organizations Using Stolen Login Tokens",
+      "link": "https://cybersecuritynews.com/microsoft-365-accounts/",
+      "date": "2026-10-27T06:57:45Z",
+      "description": "Hackers compromised Microsoft 365 accounts at 79 organizations by reusing stolen login tokens, recording at least 497 successful sign-ins between July 14 and September 22, 2026. The ten-week campaign also generated more than 200,000 failed login attempts across monitored customer environments. The attackers targeted authenticated sessions rather than relying on password guessing. Similar to…",
+      "source": "cybersecuritynews.com"
+    },
+    {
+      "title": "Attackers Hijack Dahua IP Cameras in Ukraine Using P2P Access and Auth Weaknesses",
+      "link": "https://thehackernews.com/2026/10/attackers-hijack-dahua-ip-cameras-in.html",
+      "date": "2026-10-27T06:34:47Z",
+      "description": "The Computer Emergency Response Team of Ukraine (CERT-UA) has issued an alert warning of unauthorized remote access to video surveillance systems manufactured by Dahua. \"Cases of compromising IP cameras and DVRs with access to the video stream, changing the device configuration and creating third-party accounts have been recorded,\" the State Special Communications Service of Ukraine (SSSCIP)",
+      "source": "thehackernews.com"
+    },
+    {
+      "title": "Hackers Use AI Agents to Target Over 2,250 Microsoft 365 Tenants Through ConnectWise",
+      "link": "https://cybersecuritynews.com/hackers-use-ai-agents/",
+      "date": "2026-10-27T06:11:26Z",
+      "description": "Hackers used AI agents and stolen ConnectWise application credentials to attempt access to more than 2,250 Microsoft 365 tenants, according to Microsoft’s technical investigation report. Microsoft attributed the campaign to Storm-0940, a China-state-aligned group, and said its ARTEX framework accelerated reconnaissance, authentication attempts, and cloud persistence. The targeting count does not…",
+      "source": "cybersecuritynews.com"
+    },
+    {
+      "title": "OpenAI Codex Breaks USB Encryption in Minutes, Exposing Hardcoded Keys and Security Flaws",
+      "link": "https://cybersecuritynews.com/openai-codex-breaks-usb-encryption-in-minutes/",
+      "date": "2026-10-27T05:40:35Z",
+      "description": "OpenAI Codex helped researcher Xusheng Li uncover flaws in four USB protection products, including hardcoded encryption keys and hidden accounts that allowed files to be decrypted without the owner’s password. In one test, Codex identified the main weakness in seven minutes. The findings expose failures in how these products handle secrets, rather than a breakthrough […] The post OpenAI Codex…",
+      "source": "cybersecuritynews.com"
+    },
+    {
+      "title": "Researcher Gains Root Access to Samsung Smart TV, Uncovers Extensive User Tracking",
+      "link": "https://cybersecuritynews.com/researcher-root-samsung-smart-tv/",
+      "date": "2026-10-27T05:25:17Z",
+      "description": "A cybersecurity researcher says he gained root access to a 2025 Samsung Smart TV and found software built to track far more than the picture on the screen. Known online as log4j, he started after the set kept showing ads that seemed oddly specific to his household. He says the Tizen firmware was AES-encrypted, so […] The post Researcher Gains Root Access to Samsung Smart TV, Uncovers Extensive…",
+      "source": "cybersecuritynews.com"
+    },
+    {
+      "title": "Hackers Abuse Claude’s Official Website and Google Ads to Spread Malware",
+      "link": "https://cybersecuritynews.com/claudes-official-website/",
+      "date": "2026-10-27T04:40:22Z",
+      "description": "Cybercriminals found a simple way to make a fake download page look trustworthy. Instead of registering a lookalike domain, they placed their lure on claude.ai, the official website of Anthropic, the company behind the Claude AI assistant. The fake page carried Claude branding and offered what looked like easy steps to install a desktop app. […] The post Hackers Abuse Claude’s Official Website…",
+      "source": "cybersecuritynews.com"
+    },
+    {
+      "title": "CISA Confirms Active Exploitation of Two PHP2Shell Flaws Enabling Remote Code Execution",
+      "link": "https://thehackernews.com/2026/10/cisa-confirms-active-exploitation-of.html",
+      "date": "2026-10-27T04:37:59Z",
+      "description": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Monday confirmed active exploitation of the recently patched PHP2Shell flaws by adding them to its Known Exploited Vulnerabilities (KEV) catalog. The PHP vulnerabilities, both rated 9.2 on the CVSS scoring system, facilitate unauthenticated remote code execution on affected deployments - CVE-2026-109618 - An out-of-memory",
+      "source": "thehackernews.com"
+    },
     {
       "title": "Cybersecurity Issue Forces a Major New Mexico Hospital to Divert Patients and Close Clinics",
       "link": "https://www.securityweek.com/cybersecurity-issue-forces-a-major-new-mexico-hospital-to-divert-patients-and-close-clinics/",
       "date": "2026-10-27T01:30:00Z",
       "description": "The University of New Mexico Health System told people not to show up at its main hospital in Albuquerque and canceled appointments at more than 30 clinics. The post Cybersecurity Issue Forces a Major New Mexico Hospital to Divert Patients and Close Clinics appeared first on SecurityWeek.",
       "source": "securityweek.com"
-    },
-    {
-      "title": "Hackers Use VLC Media Player and VMware Tools to Load Malware Through DLL Side-Loading",
-      "link": "https://cybersecuritynews.com/vlc-media-player-and-vmware-tools/",
-      "date": "2026-10-27T01:13:13Z",
-      "description": "Hackers are using legitimate VLC Media Player and VMware components to load malware onto Windows systems, hiding harmful code behind familiar software. The activity forms part of three malware campaigns targeting users in Brazil and Portugal through fake legal notices, financial documents, and invoice download pages. The attacks combine phishing, hidden scripts, and trusted programs […] The post…",
-      "source": "cybersecuritynews.com"
     },
     {
       "title": "So Many AI Security Benchmarks, But None Tell the Whole Story",
@@ -59,13 +101,6 @@
       "source": "bleepingcomputer.com"
     },
     {
-      "title": "Hackers Weaponize Public PHP2Shell Exploit Code to Target Universities and Business Websites",
-      "link": "https://cybersecuritynews.com/public-php2shell-exploit-code/",
-      "date": "2026-10-26T20:29:21Z",
-      "description": "Hackers are now using public exploit code to break into websites that run PHP, and universities and business sites are among the main targets. The bugs behind this wave are two critical flaws in the PHP engine, tracked as CVE-2026-109618 and CVE-2026-109619 and nicknamed PHP2Shell. Both carry a CVSS v4.0 score of 9.2 and can […] The post Hackers Weaponize Public PHP2Shell Exploit Code to Target…",
-      "source": "cybersecuritynews.com"
-    },
-    {
       "title": "Anthropic Files for Potentially the Biggest IPO Ever as CEO Warns of Risk to Humanity From AI",
       "link": "https://www.securityweek.com/anthropic-files-for-potentially-the-biggest-ipo-ever-as-ceo-warns-of-risk-to-humanity-from-ai/",
       "date": "2026-10-26T20:20:56Z",
@@ -101,32 +136,11 @@
       "source": "thehackernews.com"
     },
     {
-      "title": "Microsoft Investigation Teams Issue Affecting Users in the United States",
-      "link": "https://cybersecuritynews.com/microsoft-investigation-teams-issue/",
-      "date": "2026-10-26T17:15:22Z",
-      "description": "Microsoft has restored Microsoft Teams service after investigating an issue affecting some users in the United States on October 26, 2026. The company tracked the disruption under incident TM1526111 and said automatic scaling efforts had returned the service to healthy levels. The recovery update changes the picture from Microsoft’s initial notice, which described a potential […] The post…",
-      "source": "cybersecuritynews.com"
-    },
-    {
-      "title": "Hackers Can Hijack OpenAI Codex and Claude Code Using Malicious Files in Downloads Folder",
-      "link": "https://cybersecuritynews.com/codex-and-claude-code-hijack/",
-      "date": "2026-10-26T16:35:45Z",
-      "description": "A plain text file placed in the Downloads folder can trick AI coding agents into changing their settings, installing malware, or exposing login tokens. Forever Security discovered the risk after stopping an agent on a real customer’s computer from installing a known malicious npm package. The company later reproduced separate attack paths against OpenAI Codex […] The post Hackers Can Hijack…",
-      "source": "cybersecuritynews.com"
-    },
-    {
       "title": "Critical 'HTTP2Shell' Brotli vulnerability triggers emergency patches",
       "link": "https://www.bleepingcomputer.com/news/security/critical-http2shell-brotli-vulnerability-triggers-emergency-patches/",
       "date": "2026-10-26T16:27:57Z",
       "description": "A critical flaw dubbed 'HTTP2Shell' in Brotli, the C decoder library built into Node.js, could allow attackers to corrupt memory and access sensitive data. [...]",
       "source": "bleepingcomputer.com"
-    },
-    {
-      "title": "OpenBSD 8.0 Released With Major Security Hardening and Post-Quantum SSH Support",
-      "link": "https://cybersecuritynews.com/openbsd-8-0-released/",
-      "date": "2026-10-26T15:59:50Z",
-      "description": "OpenBSD 8.0 has been released with security fixes across its kernel, network services, firewall, and update tools, alongside experimental post-quantum SSH signature support. Released on October 20, 2026, the project’s 61st release includes OpenSSH 10.6 and LibreSSL 4.4.0, bringing stronger checks for untrusted data and changes to secure connection handling. The official release notes detail […]…",
-      "source": "cybersecuritynews.com"
     },
     {
       "title": "Attackers Use Microsoft Teams IT Support Scams to Deploy Malware and Ransomware",
@@ -157,13 +171,6 @@
       "source": "securityweek.com"
     },
     {
-      "title": "⚡ Weekly Recap: This2Shell, That2Shell, Everything's an RCE? Rogue AI, Supply Chain Chaos and More",
-      "link": "https://thehackernews.com/2026/10/weekly-recap-this2shell-that2shell.html",
-      "date": "2026-10-26T14:06:13Z",
-      "description": "This2Shell, That2Shell, Everything2Shell. That's pretty much how the last week went. Critical bugs that let attackers run code remotely are showing up everywhere. Hackers are scanning for targets, some flaws are already being used in attacks, and security teams have more urgent patches than they can keep up with. And that's not even the full story. A leaked key led to a software supply-chain",
-      "source": "thehackernews.com"
-    },
-    {
       "title": "10 Software Security Practices Built for the Next 250 Years",
       "link": "https://www.darkreading.com/cyberattacks-data-breaches/10-software-security-practices-built-250-years",
       "date": "2026-10-26T14:00:00Z",
@@ -171,45 +178,38 @@
       "source": "darkreading.com"
     },
     {
-      "title": "Two Critical Wasmtime Flaws Could Let Malicious WebAssembly Modules Escape Sandboxes",
-      "link": "https://thehackernews.com/2026/10/two-critical-wasmtime-flaws-could-let.html",
-      "date": "2026-10-26T11:52:41Z",
-      "description": "Two critical flaws in Wasmtime, a WebAssembly runtime that can be built into other software, could allow a malicious WebAssembly module to escape the sandbox intended to contain it, the project's maintainers say. An attacker would first need a vulnerable Wasmtime build to compile a module they control, and one of the flaws affects only ARM64 systems. Fixed versions were released on",
-      "source": "thehackernews.com"
-    },
-    {
       "title": "ZDI-CAN-34791: Open Asset Importer Library",
       "link": "http://www.zerodayinitiative.com/advisories/upcoming/",
       "date": "2026-10-26T05:00:00Z",
-      "description": "A CVSS score 7.8 AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H severity vulnerability discovered by 'Mirae' was reported to the affected vendor on: 2026-10-26, 0 days ago. The vendor is given until 2027-02-23 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
+      "description": "A CVSS score 7.8 AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H severity vulnerability discovered by 'Mirae' was reported to the affected vendor on: 2026-10-26, 1 days ago. The vendor is given until 2027-02-23 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
       "source": "zerodayinitiative.com"
     },
     {
       "title": "ZDI-CAN-34171: Adobe",
       "link": "http://www.zerodayinitiative.com/advisories/upcoming/",
       "date": "2026-10-23T05:00:00Z",
-      "description": "A CVSS score 3.3 AV:L/AC:L/PR:N/UI:R/S:U/C:L/I:N/A:N severity vulnerability discovered by 'Anonymous' was reported to the affected vendor on: 2026-10-23, 3 days ago. The vendor is given until 2027-02-20 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
+      "description": "A CVSS score 3.3 AV:L/AC:L/PR:N/UI:R/S:U/C:L/I:N/A:N severity vulnerability discovered by 'Anonymous' was reported to the affected vendor on: 2026-10-23, 4 days ago. The vendor is given until 2027-02-20 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
       "source": "zerodayinitiative.com"
     },
     {
       "title": "ZDI-CAN-29891: Siemens",
       "link": "http://www.zerodayinitiative.com/advisories/upcoming/",
       "date": "2026-10-23T05:00:00Z",
-      "description": "A CVSS score 6.5 AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N severity vulnerability discovered by 'Rocco Calvi (@TecR0c) with TecSecurity' was reported to the affected vendor on: 2026-10-23, 3 days ago. The vendor is given until 2027-02-20 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
+      "description": "A CVSS score 6.5 AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N severity vulnerability discovered by 'Rocco Calvi (@TecR0c) with TecSecurity' was reported to the affected vendor on: 2026-10-23, 4 days ago. The vendor is given until 2027-02-20 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
       "source": "zerodayinitiative.com"
     },
     {
       "title": "ZDI-CAN-32726: Siemens",
       "link": "http://www.zerodayinitiative.com/advisories/upcoming/",
       "date": "2026-10-23T05:00:00Z",
-      "description": "A CVSS score 7.8 AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H severity vulnerability discovered by 'Berat.\\xc4\\xb0' was reported to the affected vendor on: 2026-10-23, 3 days ago. The vendor is given until 2027-02-20 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
+      "description": "A CVSS score 7.8 AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H severity vulnerability discovered by 'Berat.\\xc4\\xb0' was reported to the affected vendor on: 2026-10-23, 4 days ago. The vendor is given until 2027-02-20 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
       "source": "zerodayinitiative.com"
     },
     {
       "title": "ZDI-CAN-29632: Siemens",
       "link": "http://www.zerodayinitiative.com/advisories/upcoming/",
       "date": "2026-10-23T05:00:00Z",
-      "description": "A CVSS score 7.8 AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H severity vulnerability discovered by 'gardenchair' was reported to the affected vendor on: 2026-10-23, 3 days ago. The vendor is given until 2027-02-20 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
+      "description": "A CVSS score 7.8 AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H severity vulnerability discovered by 'gardenchair' was reported to the affected vendor on: 2026-10-23, 4 days ago. The vendor is given until 2027-02-20 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
       "source": "zerodayinitiative.com"
     },
     {
