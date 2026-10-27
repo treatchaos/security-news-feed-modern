@@ -1,7 +1,117 @@
 {
   "date": "2026-10-27",
-  "count": 29,
+  "count": 40,
   "items": [
+    {
+      "id": "91a61f3bcb263e1f000a6d6862fdd19fe9f8c0b2",
+      "title": "Microsoft releases Windows OOB updates to distrust eMudhra certificates",
+      "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-releases-windows-oob-updates-to-distrust-emudhra-certificates/",
+      "date": "2026-10-27T18:20:28Z",
+      "description": "Microsoft has released out-of-band (OOB) Windows updates to remove trust in certificates tied to compromised eMudhra certificate authority keys, protecting systems that do not receive automatic certificate trust updates. [...]",
+      "source": "bleepingcomputer.com",
+      "first_seen": "2026-10-27T18:35:52Z",
+      "last_seen": "2026-10-27T18:35:52Z"
+    },
+    {
+      "id": "5108710db80de8c0648f5194a013a544ea8c8777",
+      "title": "Beware the Slasher: AI Could Kill Off Cybersecurity Pros' Skills",
+      "link": "https://www.darkreading.com/cybersecurity-operations/ai-kill-off-cybersecurity-pros-skills",
+      "date": "2026-10-27T17:43:07Z",
+      "description": "Nathan Hamiel outlines potential SecOps horror in the AI midst, as core technical capabilities go the way of reading an atlas or remembering phone numbers.",
+      "source": "darkreading.com",
+      "first_seen": "2026-10-27T18:35:52Z",
+      "last_seen": "2026-10-27T18:35:52Z"
+    },
+    {
+      "id": "9718587923a5ee5327de22b3ede6b1ce202e37d7",
+      "title": "'Aokigahara' Stealer Targets 'Developer Keyrings' &amp; AI Assistants",
+      "link": "https://www.darkreading.com/endpoint-security/aokigahara-stealer-developer-keyrings-ai-assistants",
+      "date": "2026-10-27T16:47:20Z",
+      "description": "The malware's focus on AI tools expands the traditional infostealer playbook to expose a forest of AI sessions, sensitive business data, and developer infrastructure from a single compromised endpoint.",
+      "source": "darkreading.com",
+      "first_seen": "2026-10-27T18:35:52Z",
+      "last_seen": "2026-10-27T18:35:52Z"
+    },
+    {
+      "id": "bfe41e7ebb346a6e7692264ad440de2a5e78d4f7",
+      "title": "Warp discloses breach exposing AI agent logs, user telemetry data",
+      "link": "https://www.bleepingcomputer.com/news/security/warp-discloses-breach-exposing-ai-agent-logs-user-telemetry-data/",
+      "date": "2026-10-27T16:15:39Z",
+      "description": "Agent decision logs and telemetry data belonging to Warp agentic development environment users were exposed in an attack on a third-party vendor in the project's infrastructure. [...]",
+      "source": "bleepingcomputer.com",
+      "first_seen": "2026-10-27T18:35:52Z",
+      "last_seen": "2026-10-27T18:35:52Z"
+    },
+    {
+      "id": "a0b4a8f6f08b785c0dd5012cef51064e44422534",
+      "title": "Tailscale Rushes Patches After Uncoordinated Disclosure of ‘Tailworm’ Flaws",
+      "link": "https://www.securityweek.com/tailscale-rushes-patches-after-uncoordinated-disclosure-of-tailworm-flaws/",
+      "date": "2026-10-27T15:26:12Z",
+      "description": "Tailscale is preparing a patch for Tailscale SSH flaws whose details went public over the weekend, before any fixes had been released. The post Tailscale Rushes Patches After Uncoordinated Disclosure of ‘Tailworm’ Flaws appeared first on SecurityWeek.",
+      "source": "securityweek.com",
+      "first_seen": "2026-10-27T18:35:52Z",
+      "last_seen": "2026-10-27T18:35:52Z"
+    },
+    {
+      "id": "2bf4cd9efcdd68d9011537210955fe2f1980531e",
+      "title": "Tailscale warns of SSH flaws allowing root privilege escalation",
+      "link": "https://www.bleepingcomputer.com/news/security/tailscale-warns-of-serious-ssh-flaws-allowing-root-privilege-escalation/",
+      "date": "2026-10-27T14:09:46Z",
+      "description": "The Tailscale security team is working to patch almost a dozen security vulnerabilities that could be exploited to steal credentials, crash servers, gain root privileges, and more. [...]",
+      "source": "bleepingcomputer.com",
+      "first_seen": "2026-10-27T18:35:52Z",
+      "last_seen": "2026-10-27T18:35:52Z"
+    },
+    {
+      "id": "f789217358624b2e9fa49dd081c81ac224b0a588",
+      "title": "The Huntress Tragic Quadrant: Ranking Threats Hitting Businesses Hardest",
+      "link": "https://www.bleepingcomputer.com/news/security/the-huntress-tragic-quadrant-ranking-threats-hitting-businesses-hardest/",
+      "date": "2026-10-27T14:01:11Z",
+      "description": "Attackers are increasingly abusing legitimate IT tools, Microsoft 365 sessions, and everyday workflows to compromise businesses without triggering traditional defenses. Huntress Labs ranks the threats hitting organizations hardest, highlighting which attack techniques deserve immediate attention and which remain emerging risks. [...]",
+      "source": "bleepingcomputer.com",
+      "first_seen": "2026-10-27T18:35:52Z",
+      "last_seen": "2026-10-27T18:35:52Z"
+    },
+    {
+      "id": "60a29b8835cec5be86acc776433a40ec1badd368",
+      "title": "GoAhead TLS Flaws Allow Revoked Client Certificates and Enable Session Decryption",
+      "link": "https://thehackernews.com/2026/10/goahead-tls-flaws-allow-revoked-client.html",
+      "date": "2026-10-27T13:59:48Z",
+      "description": "The GoAhead embedded web server loaded a certificate revocation list into its default TLS backend but never turned revocation checking on, so a revoked client certificate could still pass login on affected setups. The flaw is in builds that use the OpenSSL backend with mutual-TLS, where the server checks a client certificate and vice versa, and a revocation list is configured to block revoked",
+      "source": "thehackernews.com",
+      "first_seen": "2026-10-27T18:35:52Z",
+      "last_seen": "2026-10-27T18:35:52Z"
+    },
+    {
+      "id": "9010cded95fdcf396060946a909cba1f0ea4206a",
+      "title": "Apple Backports Fix for Exploited CoreGraphics Flaw to Older iPhones and iPads",
+      "link": "https://thehackernews.com/2026/10/apple-backports-fix-for-exploited.html",
+      "date": "2026-10-27T13:59:09Z",
+      "description": "Apple on Monday backported fixes for a high-severity security flaw that was exploited in real-world cyber attacks to older devices. The vulnerability, tracked as CVE-2026-86950 (CVSS score: 8.8), is an out-of-bounds write affecting CoreGraphics that could result in arbitrary code execution when processing a maliciously crafted file. Patches for the flaw were released last month by Apple in",
+      "source": "thehackernews.com",
+      "first_seen": "2026-10-27T18:35:52Z",
+      "last_seen": "2026-10-27T18:35:52Z"
+    },
+    {
+      "id": "2b07c4acfc0b9e7f3aa3085b62d0051a08f63450",
+      "title": "Vendor Key Leak Puts Data of 238,000 Denver Health Plan Members at Risk",
+      "link": "https://www.securityweek.com/vendor-key-leak-puts-data-of-238000-denver-health-plan-members-at-risk/",
+      "date": "2026-10-27T13:30:28Z",
+      "description": "A leaked SquareML access key could have been used to access a database containing personal and health information. The post Vendor Key Leak Puts Data of 238,000 Denver Health Plan Members at Risk appeared first on SecurityWeek.",
+      "source": "securityweek.com",
+      "first_seen": "2026-10-27T18:35:52Z",
+      "last_seen": "2026-10-27T18:35:52Z"
+    },
+    {
+      "id": "53e2195ee23cf6e9dcc7b734fd68972575dce750",
+      "title": "HPE Patches Dozens of Critical Flaws in Networking Products",
+      "link": "https://www.securityweek.com/hpe-patches-dozens-of-critical-flaws-in-networking-products/",
+      "date": "2026-10-27T13:13:58Z",
+      "description": "Eight max-severity security defects could lead to remote code execution and authentication bypass. The post HPE Patches Dozens of Critical Flaws in Networking Products appeared first on SecurityWeek.",
+      "source": "securityweek.com",
+      "first_seen": "2026-10-27T18:35:52Z",
+      "last_seen": "2026-10-27T18:35:52Z"
+    },
     {
       "id": "dbd9e4157b7325b1005a577a19485c59b4e2f591",
       "title": "Microsoft Authenticator Flaw Let Permissionless Android Apps Steal Work Account Tokens",
@@ -10,7 +120,7 @@
       "description": "Microsoft has fixed a flaw in its Authenticator app for Android that let a malicious app with no permissions pose as a trusted Microsoft app, such as Teams, and collect sign-in tokens for a victim's work account. Microsoft tracks the flaw as CVE-2026-80097 and fixed it in Authenticator for Android version 6.2606.4246, so anyone using the app should update. In the researchers' tests,",
       "source": "thehackernews.com",
       "first_seen": "2026-10-27T13:00:17Z",
-      "last_seen": "2026-10-27T13:00:17Z"
+      "last_seen": "2026-10-27T18:35:52Z"
     },
     {
       "id": "20169f3aa0d9c5f5116514e307efa8e26e6d0f11",
@@ -20,7 +130,7 @@
       "description": "The company says it reacted to an issue affecting some of its systems, including DreamHost webmail. The post Unexplained DreamHost Incident Prompts Email, FTP Password Resets appeared first on SecurityWeek.",
       "source": "securityweek.com",
       "first_seen": "2026-10-27T13:00:17Z",
-      "last_seen": "2026-10-27T13:00:17Z"
+      "last_seen": "2026-10-27T18:35:52Z"
     },
     {
       "id": "fa912d9391c87424551cb9e8a0fc274d1cb18289",
@@ -30,7 +140,7 @@
       "description": "Apple patched 286 vulnerabilities in iOS and macOS 27.2 and brought the fix for an exploited CoreGraphics zero-day to older iPhones. The post iOS, macOS 27.2 Patch 286 Bugs; Fix for Exploited Flaw Backported to iOS 18 appeared first on SecurityWeek.",
       "source": "securityweek.com",
       "first_seen": "2026-10-27T13:00:17Z",
-      "last_seen": "2026-10-27T13:00:17Z"
+      "last_seen": "2026-10-27T18:35:52Z"
     },
     {
       "id": "e1e73385f9a3ec585f9dae4c35d7597aef682b48",
@@ -40,7 +150,7 @@
       "description": "An attacker who gained access to Keystone's website obtained the key that its hardware wallets use to prove they are genuine, the company said in a statement on October 26. Someone with that key could build counterfeit devices that pass the online check owners use to verify a Keystone. A buyer who trusted a counterfeit could have their crypto stolen, but the incident did not involve",
       "source": "thehackernews.com",
       "first_seen": "2026-10-27T13:00:17Z",
-      "last_seen": "2026-10-27T13:00:17Z"
+      "last_seen": "2026-10-27T18:35:52Z"
     },
     {
       "id": "603aead4ea8cfd932e5175b975465442d9011c42",
@@ -60,7 +170,7 @@
       "description": "Fake login pages are nothing new, but generative AI is making them easier to build and more convincing. Attackers can recreate familiar login screens, impersonate trusted brands and tailor phishing attempts to specific employees or organizations. Some fake login pages go beyond stealing passwords. They can also capture MFA codes or hijack authenticated sessions, allowing attackers to gain",
       "source": "thehackernews.com",
       "first_seen": "2026-10-27T13:00:17Z",
-      "last_seen": "2026-10-27T13:00:17Z"
+      "last_seen": "2026-10-27T18:35:52Z"
     },
     {
       "id": "09ef53c30bac5cea54a8da3fecbf1ffb9f59a772",
@@ -110,7 +220,7 @@
       "description": "​Apple has backported security patches released last month to older iPhones and iPads, addressing a zero-day bug exploited in \"extremely sophisticated\" targeted attacks on iOS devices. [...]",
       "source": "bleepingcomputer.com",
       "first_seen": "2026-10-27T13:00:17Z",
-      "last_seen": "2026-10-27T13:00:17Z"
+      "last_seen": "2026-10-27T18:35:52Z"
     },
     {
       "id": "1e035b2baf53ae0d355850ea94629bd607622837",
@@ -277,10 +387,10 @@
       "title": "So Many AI Security Benchmarks, But None Tell the Whole Story",
       "link": "https://www.darkreading.com/cybersecurity-analytics/benchmarking-security-of-ai-models-poses-challenges",
       "date": "2026-10-27T00:26:50Z",
-      "description": "Measuring AI model security gets complex fast — a growing patchwork of benchmarks targets different variables in the equation, but none replace testing against your own code and workflows.",
+      "description": "Measuring AI model security gets complex, fast, thanks to a growing patchwork of benchmarks targeting different variables in the equation. But none replace testing against your own code and workflows.",
       "source": "darkreading.com",
       "first_seen": "2026-10-27T01:42:01Z",
-      "last_seen": "2026-10-27T13:00:17Z"
+      "last_seen": "2026-10-27T18:35:52Z"
     },
     {
       "id": "6f46aa57df03d3e734b22f8938de1f156e4744b7",
