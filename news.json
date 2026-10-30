@@ -1,7 +1,28 @@
 {
-  "last_updated": "2026-10-30T16:21:56Z",
-  "count": 30,
+  "last_updated": "2026-10-30T21:13:35Z",
+  "count": 35,
   "items": [
+    {
+      "title": "Linux kernel exploit enables remote root attacks on MPTCP servers",
+      "link": "https://www.bleepingcomputer.com/news/security/linux-kernel-exploit-enables-remote-root-attacks-on-mptcp-servers/",
+      "date": "2026-10-30T21:09:46Z",
+      "description": "Security researchers at Anthropic have developed an exploit for a critical Linux kernel vulnerability that allows unauthenticated attackers to remotely execute commands as root on servers running Multipath TCP (MPTCP) listeners. [...]",
+      "source": "bleepingcomputer.com"
+    },
+    {
+      "title": "Devs Hit by Trojanized Claude Code Extension for Cursor",
+      "link": "https://www.darkreading.com/cyberattacks-data-breaches/devs-trojanized-claude-code-extension-cursor",
+      "date": "2026-10-30T20:05:58Z",
+      "description": "Two serious security issues hit Cursor on the same day, highlighting the risks for AI-powered integrated development environments (IDEs).",
+      "source": "darkreading.com"
+    },
+    {
+      "title": "Chinese Hackers Use AI-Powered ARTEX to Target Over 200 Organizations Worldwide",
+      "link": "https://thehackernews.com/2026/10/chinese-hackers-use-ai-powered-artex-to.html",
+      "date": "2026-10-30T16:58:44Z",
+      "description": "Chinese state-sponsored threat actors have been observed using a Go-based artificial intelligence (AI)-powered penetration testing framework called ARTEX in attacks aimed at high-value targets simultaneously. The activity has been attributed by CrowdStrike to a China-based \"targeted intrusion adversary\" it tracks under the moniker Vapor Panda (previously VexatiousTemper). First identified in",
+      "source": "thehackernews.com"
+    },
     {
       "title": "Trezor warns of suspected crypto-theft implant in hardware wallet",
       "link": "https://www.bleepingcomputer.com/news/security/trezor-warns-of-suspected-crypto-theft-implant-in-hardware-wallet/",
@@ -15,6 +36,13 @@
       "date": "2026-10-30T15:39:54Z",
       "description": "I ricercatori non riescono a spiegare del tutto perché le minacce informatiche in Italia siano così diverse rispetto a quelle di qualsiasi altro Paese.",
       "source": "darkreading.com"
+    },
+    {
+      "title": "TeamViewer Flaw Lets Remote Computers Attack Users Who Connect to Control Them",
+      "link": "https://thehackernews.com/2026/10/teamviewer-flaw-lets-remote-computers.html",
+      "date": "2026-10-30T15:17:28Z",
+      "description": "TeamViewer has fixed a flaw that lets the machine being controlled in a remote session attack the computer that connected to control it. In a TeamViewer session, the computer that connects and takes control is the viewer, and the machine it controls is the host. A malicious or compromised host can exploit the flaw to crash the viewer's TeamViewer and, depending on the platform, may also run",
+      "source": "thehackernews.com"
     },
     {
       "title": "North Korean Hackers Steal Developer Credentials to Inject Malware Into GitHub and Software Packages",
@@ -80,6 +108,13 @@
       "source": "darkreading.com"
     },
     {
+      "title": "WordPress RCE Flaw Draws Nearly 63,000 Attack Attempts in Just 24 Hours",
+      "link": "https://thehackernews.com/2026/10/wordpress-rce-flaw-draws-nearly-63000.html",
+      "date": "2026-10-30T14:08:14Z",
+      "description": "Threat actors have been observed attempting to exploit a high-severity security flaw in WordPress Core shortly after patches were released. The vulnerability, which does not have a CVE identifier, relates to a case of remote code execution impacting WordPress Core versions 4.7 through 7.1.3. It carries a CVSS score of 8.1 on the CVSS scoring system. Patches for the flaw were released on October",
+      "source": "thehackernews.com"
+    },
+    {
       "title": "SS7 and Diameter Attacks: How Signaling Flaws Expose Your Phone",
       "link": "https://www.bleepingcomputer.com/news/security/ss7-and-diameter-attacks-how-signaling-flaws-expose-your-phone/",
       "date": "2026-10-30T14:00:10Z",
@@ -129,27 +164,6 @@
       "source": "thehackernews.com"
     },
     {
-      "title": "Microsoft finally fixes VPN issues caused by September updates",
-      "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-finally-fixes-vpn-issues-caused-by-september-updates/",
-      "date": "2026-10-30T11:20:26Z",
-      "description": "Microsoft has resolved Always On VPN connection failures triggered after installing the September 2026 Windows 11 security updates. [...]",
-      "source": "bleepingcomputer.com"
-    },
-    {
-      "title": "Syrian Hacker Behind Fake Tweet That Triggered $136 Billion Market Drop Gets 42 Months in Prison",
-      "link": "https://thehackernews.com/2026/10/syrian-hacker-behind-fake-tweet-that.html",
-      "date": "2026-10-30T10:40:45Z",
-      "description": "Ahmad Umar Agha, a Syrian Electronic Army hacker known online as \"Th3Pr0,\" has been sentenced by a U.S. federal court to 42 months in prison for his role in a hacking conspiracy that targeted Western news outlets. The conspiracy was organized and led by members of former Syrian President Bashar al-Assad's inner circle, including the commander of Syria's General Intelligence",
-      "source": "thehackernews.com"
-    },
-    {
-      "title": "Official Claude Code Extension on Cursor Marketplace Trojanized with Persistent SSH Backdoor",
-      "link": "https://thehackernews.com/2026/10/official-claude-code-vs-code-extension.html",
-      "date": "2026-10-30T08:55:47Z",
-      "description": "Cybersecurity researchers have disclosed that a trojanized version of Anthropic's official Claude Code extension was distributed through the Cursor Marketplace as a legitimate update, attempting to install a persistent SSH backdoor on affected systems. The malicious update, version 2.1.313, was distributed under the extension's legitimate publisher identity, prompting Cursor to temporarily shut",
-      "source": "thehackernews.com"
-    },
-    {
       "title": "As Russia's Cyberwar Evolves, Belarus Steps Forward",
       "link": "https://www.darkreading.com/physical-security/russia-cyber-war-belarus-steps-forward",
       "date": "2026-10-30T08:00:00Z",
@@ -157,24 +171,10 @@
       "source": "darkreading.com"
     },
     {
-      "title": "Hackers Actively Exploit Highly Critical Drupal Commerce Core Authorization Bypass Flaw",
-      "link": "https://thehackernews.com/2026/10/hackers-actively-exploit-highly.html",
-      "date": "2026-10-30T07:45:30Z",
-      "description": "Drupal has warned that threat actors are exploiting a \"highly critical\" security flaw in its Commerce Core component. The vulnerability, tracked as CVE-2026-118539 (CVSS score: N/A), is a case of missing authorization affecting Commerce Core versions from 0.0.0 to 2.41 and from 3.0.0 to 3.3.13. \"This module enables you to sell goods and services to customers through an included shopping cart",
-      "source": "thehackernews.com"
-    },
-    {
       "title": "Anthropic-Themed Phishing Emails Bypass Top Security Tools",
       "link": "https://www.darkreading.com/cyberattacks-data-breaches/anthropic-phishing-emails-bypass-security-tools",
       "date": "2026-10-29T21:21:56Z",
       "description": "Obvious phishing emails with numerous red flags are somehow getting past some of the industry-leading secure email gateway (SEG) products.",
-      "source": "darkreading.com"
-    },
-    {
-      "title": "Rethinking Cybersecurity Awareness in the AI Era",
-      "link": "https://www.darkreading.com/cyber-risk/rethinking-cybersecurity-awareness-ai-era",
-      "date": "2026-10-29T20:15:37Z",
-      "description": "This installment of the Reporters' Notebook video series discusses some of the trends and topics from Cybersecurity Awareness Month, from using AI for better training to educating next-generation workforces on modern risks and emerging threats.",
       "source": "darkreading.com"
     },
     {
@@ -211,6 +211,41 @@
       "date": "2026-10-29T05:00:00Z",
       "description": "A CVSS score 7.8 AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H severity vulnerability discovered by 'Anonymous' was reported to the affected vendor on: 2026-10-29, 1 days ago. The vendor is given until 2027-02-26 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
       "source": "zerodayinitiative.com"
+    },
+    {
+      "title": "Student Loan Breach Exposes 2.5M Records",
+      "link": "https://threatpost.com/student-loan-breach-exposes-2-5m-records/180492/",
+      "date": "2022-08-31T12:57:48Z",
+      "description": "2.5 million people were affected, in a breach that could spell more trouble down the line.",
+      "source": "threatpost.com"
+    },
+    {
+      "title": "Watering Hole Attacks Push ScanBox Keylogger",
+      "link": "https://threatpost.com/watering-hole-attacks-push-scanbox-keylogger/180490/",
+      "date": "2022-08-30T16:00:43Z",
+      "description": "Researchers uncover a watering hole attack likely carried out by APT TA423, which attempts to plant the ScanBox JavaScript-based reconnaissance tool.",
+      "source": "threatpost.com"
+    },
+    {
+      "title": "Tentacles of ‘0ktapus’ Threat Group Victimize 130 Firms",
+      "link": "https://threatpost.com/0ktapus-victimize-130-firms/180487/",
+      "date": "2022-08-29T14:56:19Z",
+      "description": "Over 130 companies tangled in sprawling phishing campaign that spoofed a multi-factor authentication system.",
+      "source": "threatpost.com"
+    },
+    {
+      "title": "Ransomware Attacks are on the Rise",
+      "link": "https://threatpost.com/ransomware-attacks-are-on-the-rise/180481/",
+      "date": "2022-08-26T16:44:27Z",
+      "description": "Lockbit is by far this summer’s most prolific ransomware group, trailed by two offshoots of the Conti group.",
+      "source": "threatpost.com"
+    },
+    {
+      "title": "Cybercriminals Are Selling Access to Chinese Surveillance Cameras",
+      "link": "https://threatpost.com/cybercriminals-are-selling-access-to-chinese-surveillance-cameras/180478/",
+      "date": "2022-08-25T18:47:15Z",
+      "description": "Tens of thousands of cameras have failed to patch a critical, 11-month-old CVE, leaving thousands of organizations exposed.",
+      "source": "threatpost.com"
     }
   ]
 }
