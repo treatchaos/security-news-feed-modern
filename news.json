@@ -1,7 +1,84 @@
 {
-  "last_updated": "2026-10-30T02:15:39Z",
-  "count": 30,
+  "last_updated": "2026-10-30T09:15:25Z",
+  "count": 35,
   "items": [
+    {
+      "title": "Unauthorized OpenAI Codex and Claude Code Relays Disable AI Sandboxes and Redirect Enterprise Data",
+      "link": "https://cybersecuritynews.com/unauthorized-openai-codex/",
+      "date": "2026-10-30T08:50:24Z",
+      "description": "A grey market relay service is quietly installing the real OpenAI Codex and Anthropic Claude Code tools on company computers. It then changes their settings so that every prompt, file and login token goes through servers the service controls. The service has been active since at least early 2026 and has touched about a dozen […] The post Unauthorized OpenAI Codex and Claude Code Relays Disable…",
+      "source": "cybersecuritynews.com"
+    },
+    {
+      "title": "TeamViewer Flaw Could Let Malicious Hosts Take Over Support Technicians’ Machines",
+      "link": "https://www.securityweek.com/teamviewer-flaw-could-let-malicious-hosts-take-over-support-technicians-machines/",
+      "date": "2026-10-30T08:44:49Z",
+      "description": "An integer overflow tracked as CVE-2026-111585 could be used to execute arbitrary code on the viewer’s system. The post TeamViewer Flaw Could Let Malicious Hosts Take Over Support Technicians’ Machines appeared first on SecurityWeek.",
+      "source": "securityweek.com"
+    },
+    {
+      "title": "CISA Warns of GitLab Integer Overflow Vulnerability Exploited in Attacks",
+      "link": "https://cybersecuritynews.com/gitlab-integer-overflow-vulnerability-exploited/",
+      "date": "2026-10-30T08:28:50Z",
+      "description": "The Cybersecurity and Infrastructure Security Agency has warned that attackers are exploiting CVE-2026-97229. This GitLab vulnerability could allow code execution without logging in. CISA added the flaw to its Known Exploited Vulnerabilities catalog on October 29, 2026, confirming evidence of active exploitation and raising the urgency for organizations running affected GitLab servers. The…",
+      "source": "cybersecuritynews.com"
+    },
+    {
+      "title": "Ivanti Connect Secure 0-Days Exploited in the Wild to Gain Unauthenticated Root Access",
+      "link": "https://cybersecuritynews.com/ivanti-connect-secure-zero-days-exploited/",
+      "date": "2026-10-30T08:26:39Z",
+      "description": "Attackers are chaining zero-day flaws in Ivanti Connect Secure VPN appliances to gain unauthenticated root access, exposing stored credentials and sensitive Active Directory data. Ivanti confirmed attacks against a limited number of customers and released additional fixes on October 29, 2026, following its initial October patches. Volexity tracked UTA0576 activity to October 3 and, during […]…",
+      "source": "cybersecuritynews.com"
+    },
+    {
+      "title": "Microsoft Fixes Remote Desktop Connection Failures Following Recent Updates",
+      "link": "https://cybersecuritynews.com/microsoft-fixes-remote-desktop-connection-failures/",
+      "date": "2026-10-30T08:24:09Z",
+      "description": "Microsoft resolved a Windows 11 issue that blocked non-admin users from connecting via Remote Desktop when Administrator protection was enabled, releasing fixes on October 28, 2026, for connection failures with error 0xC000000D. The bug appeared after the September 22 non-security preview update, KB5124010, or later updates. Affected users could see the message, “The token that […] The post…",
+      "source": "cybersecuritynews.com"
+    },
+    {
+      "title": "Researcher Uses Claude AI to Extract Internal Anthropic Binary and Recover Google Cloud Token",
+      "link": "https://cybersecuritynews.com/researcher-uses-claude-ai/",
+      "date": "2026-10-30T08:16:27Z",
+      "description": "A security researcher got Claude AI to hand over an internal Anthropic program and a memory dump that held pieces of a working Google Cloud token. The findings were published on October 29, 2026. They show how a helpful chatbot can expose the systems that run it. The work started with a plain question about […] The post Researcher Uses Claude AI to Extract Internal Anthropic Binary and Recover…",
+      "source": "cybersecuritynews.com"
+    },
+    {
+      "title": "$6 Billion Binance Hack Bears Hallmarks of North Korea’s TraderTraitor",
+      "link": "https://www.securityweek.com/6-billion-binance-hack-bears-hallmarks-of-north-koreas-tradertraitor/",
+      "date": "2026-10-30T08:16:26Z",
+      "description": "Blockchain analysts link the record crypto theft to North Korean hackers, as Binance probes a possibly compromised engineer laptop. The post $6 Billion Binance Hack Bears Hallmarks of North Korea’s TraderTraitor appeared first on SecurityWeek.",
+      "source": "securityweek.com"
+    },
+    {
+      "title": "As Russia's Cyberwar Evolves, Belarus Steps Forward",
+      "link": "https://www.darkreading.com/physical-security/russia-cyber-war-belarus-steps-forward",
+      "date": "2026-10-30T08:00:00Z",
+      "description": "The \"FrostyNeighbor\" advanced persistent threat (APT) launched a destructive attack in Ukraine and is raising concerns about deeper alignment with Russian cyber objectives.",
+      "source": "darkreading.com"
+    },
+    {
+      "title": "Hackers Actively Exploit Highly Critical Drupal Commerce Core Authorization Bypass Flaw",
+      "link": "https://thehackernews.com/2026/10/hackers-actively-exploit-highly.html",
+      "date": "2026-10-30T07:45:30Z",
+      "description": "Drupal has warned that threat actors are exploiting a \"highly critical\" security flaw in its Commerce Core component. The vulnerability, tracked as CVE-2026-118539 (CVSS score: N/A), is a case of missing authorization affecting Commerce Core versions from 0.0.0 to 2.41 and from 3.0.0 to 3.3.13. \"This module enables you to sell goods and services to customers through an included shopping cart",
+      "source": "thehackernews.com"
+    },
+    {
+      "title": "CISA Adds Actively Exploited GitLab RCE and Cisco Firewall DoS Flaws to KEV",
+      "link": "https://thehackernews.com/2026/10/cisa-adds-actively-exploited-gitlab-rce.html",
+      "date": "2026-10-30T07:27:05Z",
+      "description": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Thursday added two security flaws impacting Cisco and GitLab software to its Known Exploited Vulnerabilities (KEV), citing evidence of active exploitation. The vulnerabilities are listed below - CVE-2026-97229 (CVSS score: 10.0) - An integer overflow or wraparound vulnerability in GitLab Community Edition and Enterprise",
+      "source": "thehackernews.com"
+    },
+    {
+      "title": "Binance Suffers Security Breach Affecting $6.3 Billion in Assets, Nearly $3 Billion Frozen",
+      "link": "https://thehackernews.com/2026/10/binance-suffers-security-breach.html",
+      "date": "2026-10-30T04:14:59Z",
+      "description": "Cryptocurrency giant Binance said on Thursday that a \"security incident\" on its platform has impacted about $6.3 billion worth of assets. The world's biggest cryptocurrency exchange said nearly $3 billion of those assets have been frozen on-chain so far. Tether and Circle said they have frozen more than 1.567 billion USDT and 800 million USDC related to the incident, respectively. The",
+      "source": "thehackernews.com"
+    },
     {
       "title": "OpenAI doubles ChatGPT Pro usage limits after backlash over planned 50% cut",
       "link": "https://www.bleepingcomputer.com/news/artificial-intelligence/openai-doubles-chatgpt-pro-usage-limits-after-backlash-over-planned-50-percent-cut/",
@@ -87,13 +164,6 @@
       "source": "darkreading.com"
     },
     {
-      "title": "Fake ChatGPT and Claude Apps Abuse Signed Executables to Deploy Crypto Miners",
-      "link": "https://thehackernews.com/2026/10/fake-chatgpt-and-claude-apps-abuse.html",
-      "date": "2026-10-29T15:20:29Z",
-      "description": "Threat actors are delivering malicious loaders and cryptocurrency miners under the guise of artificial intelligence (AI) desktop applications for Anthropic Claude and OpenAI ChatGPT as part of a campaign dubbed Yoba. The activity involves creating fake GitHub projects that claim to be desktop applications like GPT-5.6 Sol, GPT-6 Astra, and Claude Opus, only to deliver a malware family called",
-      "source": "thehackernews.com"
-    },
-    {
       "title": "Google Touts Powerful Cybersecurity Capabilities in Gemini 4 Carbon Model",
       "link": "https://www.securityweek.com/google-says-gemini-4-carbon-leads-in-finding-exploiting-and-fixing-vulnerabilities/",
       "date": "2026-10-29T15:01:00Z",
@@ -108,73 +178,38 @@
       "source": "securityweek.com"
     },
     {
-      "title": "Cisco Open Sources Quarry to Catch AI Agent Attacks Hidden in Harmless Steps",
-      "link": "https://www.securityweek.com/cisco-open-sources-quarry-to-catch-ai-agent-attacks-hidden-in-harmless-steps/",
-      "date": "2026-10-29T14:18:03Z",
-      "description": "Cisco open sourced Project Quarry, a rule language for detecting AI agent attacks that only emerge across sequences of benign actions. The post Cisco Open Sources Quarry to Catch AI Agent Attacks Hidden in Harmless Steps appeared first on SecurityWeek.",
-      "source": "securityweek.com"
-    },
-    {
-      "title": "Adobe, Veeam, Juniper Networks Patch Critical Vulnerabilities",
-      "link": "https://www.securityweek.com/adobe-veeam-juniper-networks-patch-critical-vulnerabilities/",
-      "date": "2026-10-29T13:42:52Z",
-      "description": "The flaws could lead to arbitrary code execution, authorization bypasses, and privilege escalation. The post Adobe, Veeam, Juniper Networks Patch Critical Vulnerabilities appeared first on SecurityWeek.",
-      "source": "securityweek.com"
-    },
-    {
-      "title": "Google's Gemini 4 Carbon Leads Benchmarks for Finding, Exploiting, and Patching Vulnerabilities",
-      "link": "https://thehackernews.com/2026/10/googles-gemini-4-carbon-leads.html",
-      "date": "2026-10-29T13:42:40Z",
-      "description": "Google on Wednesday took the wraps off Gemini 4 Carbon, its latest frontier model with state-of-the-art cybersecurity and long-horizon capabilities. \"It shows significant gains across coding and agentic tasks as well as across key capabilities critical for cybersecurity defense, landing a firm lead in SEC-bench Pro (88.2%) for finding vulnerabilities, ExploitGym (54.8%) for exploitation, and",
-      "source": "thehackernews.com"
-    },
-    {
-      "title": "Webinar: How to Build AI Threat Readiness Into Your Security Operations",
-      "link": "https://thehackernews.com/2026/08/learn-how-to-build-security-operations.html",
-      "date": "2026-10-29T11:39:41Z",
-      "description": "Security teams have spent years trying to detect threats faster. AI is changing the harder part: how much time defenders have left to act. Advanced AI models can now help attackers discover vulnerabilities, generate exploit code, and move through weaknesses faster than traditional security processes were built to handle. The challenge is no longer just finding another vulnerability or",
-      "source": "thehackernews.com"
-    },
-    {
-      "title": "Shadowy AI Relay Disables OpenAI Codex, Claude Code Sandboxes",
-      "link": "https://www.darkreading.com/threat-intelligence/ai-relay-service-openai-codex-claude-code-sandboxes",
-      "date": "2026-10-29T10:00:00Z",
-      "description": "The enigmatic service is providing popular AI coding tools to mainland China and other regions where OpenAI and Anthropic products are not officially for sale — but with key security features turned off.",
-      "source": "darkreading.com"
-    },
-    {
       "title": "ZDI-CAN-34288: Adobe",
       "link": "http://www.zerodayinitiative.com/advisories/upcoming/",
       "date": "2026-10-29T05:00:00Z",
-      "description": "A CVSS score 3.3 AV:L/AC:L/PR:N/UI:R/S:U/C:L/I:N/A:N severity vulnerability discovered by 'Chris Anastasio @mufinnnnnnn' was reported to the affected vendor on: 2026-10-29, 0 days ago. The vendor is given until 2027-02-26 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
+      "description": "A CVSS score 3.3 AV:L/AC:L/PR:N/UI:R/S:U/C:L/I:N/A:N severity vulnerability discovered by 'Chris Anastasio @mufinnnnnnn' was reported to the affected vendor on: 2026-10-29, 1 days ago. The vendor is given until 2027-02-26 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
       "source": "zerodayinitiative.com"
     },
     {
       "title": "ZDI-CAN-34666: Adobe",
       "link": "http://www.zerodayinitiative.com/advisories/upcoming/",
       "date": "2026-10-29T05:00:00Z",
-      "description": "A CVSS score 3.3 AV:L/AC:L/PR:N/UI:R/S:U/C:L/I:N/A:N severity vulnerability discovered by 'Anonymous' was reported to the affected vendor on: 2026-10-29, 0 days ago. The vendor is given until 2027-02-26 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
+      "description": "A CVSS score 3.3 AV:L/AC:L/PR:N/UI:R/S:U/C:L/I:N/A:N severity vulnerability discovered by 'Anonymous' was reported to the affected vendor on: 2026-10-29, 1 days ago. The vendor is given until 2027-02-26 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
       "source": "zerodayinitiative.com"
     },
     {
       "title": "ZDI-CAN-34267: Adobe",
       "link": "http://www.zerodayinitiative.com/advisories/upcoming/",
       "date": "2026-10-29T05:00:00Z",
-      "description": "A CVSS score 3.3 AV:L/AC:L/PR:N/UI:R/S:U/C:L/I:N/A:N severity vulnerability discovered by 'Chris Anastasio @mufinnnnnnn' was reported to the affected vendor on: 2026-10-29, 0 days ago. The vendor is given until 2027-02-26 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
+      "description": "A CVSS score 3.3 AV:L/AC:L/PR:N/UI:R/S:U/C:L/I:N/A:N severity vulnerability discovered by 'Chris Anastasio @mufinnnnnnn' was reported to the affected vendor on: 2026-10-29, 1 days ago. The vendor is given until 2027-02-26 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
       "source": "zerodayinitiative.com"
     },
     {
       "title": "ZDI-CAN-33536: Adobe",
       "link": "http://www.zerodayinitiative.com/advisories/upcoming/",
       "date": "2026-10-29T05:00:00Z",
-      "description": "A CVSS score 7.8 AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H severity vulnerability discovered by 'NURIHAN KIM (HanTul)' was reported to the affected vendor on: 2026-10-29, 0 days ago. The vendor is given until 2027-02-26 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
+      "description": "A CVSS score 7.8 AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H severity vulnerability discovered by 'NURIHAN KIM (HanTul)' was reported to the affected vendor on: 2026-10-29, 1 days ago. The vendor is given until 2027-02-26 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
       "source": "zerodayinitiative.com"
     },
     {
       "title": "ZDI-CAN-34709: Adobe",
       "link": "http://www.zerodayinitiative.com/advisories/upcoming/",
       "date": "2026-10-29T05:00:00Z",
-      "description": "A CVSS score 7.8 AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H severity vulnerability discovered by 'Anonymous' was reported to the affected vendor on: 2026-10-29, 0 days ago. The vendor is given until 2027-02-26 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
+      "description": "A CVSS score 7.8 AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H severity vulnerability discovered by 'Anonymous' was reported to the affected vendor on: 2026-10-29, 1 days ago. The vendor is given until 2027-02-26 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
       "source": "zerodayinitiative.com"
     },
     {
