@@ -1,7 +1,56 @@
 {
-  "last_updated": "2026-10-31T01:12:43Z",
+  "last_updated": "2026-10-31T07:42:07Z",
   "count": 35,
   "items": [
+    {
+      "title": "Over 60,000 Attacks Target WordPress RCE Vulnerability Within 24 Hours",
+      "link": "https://cybersecuritynews.com/60000-attacks-targeting-wordpress/",
+      "date": "2026-10-31T06:02:41Z",
+      "description": "Hackers are targeting a WordPress Core remote code execution vulnerability that can expose websites during software updates. The supplied Wordfence threat intelligence snapshot lists 60,471 blocked attempts over 24 hours. These are attack attempts, not confirmed website compromises, and the figure does not establish how many individual sites were targeted. WordPress released version 7.1.4 on […]…",
+      "source": "cybersecuritynews.com"
+    },
+    {
+      "title": "A Shared ChatGPT Link Could Run Attacker Code in Your Session and Read Private Chats",
+      "link": "https://thehackernews.com/2026/10/a-shared-chatgpt-link-could-run.html",
+      "date": "2026-10-31T05:33:41Z",
+      "description": "A malicious ChatGPT share link could run an attacker's code in the logged-in session of anyone who opened it, allowing them to read their private conversations, researchers at the security firm Parameter showed. The researchers reported the flaw through OpenAI's bug bounty program on October 18, and OpenAI fixed it eight days later and rated it P1, its most serious category.",
+      "source": "thehackernews.com"
+    },
+    {
+      "title": "Cloudflare Reports 18.2 Million Network-Layer DDoS Attacks in Q3, Up 38%",
+      "link": "https://thehackernews.com/2026/10/cloudflare-reports-182-million-network.html",
+      "date": "2026-10-31T04:56:12Z",
+      "description": "Threat actors are launching about 8,226 network-layer distributed denial-of-service (DDoS) attacks per hour, Cloudflare revealed Thursday. The web infrastructure and security company said it autonomously mitigated 18.2 million network-layer (L3) DDoS attacks and 14.4 trillion HTTP DDoS requests in the third quarter of 2026. That amounts to 197,400 attacks per day, or one attack every 0.44",
+      "source": "thehackernews.com"
+    },
+    {
+      "title": "Google Launches Gemini 4 Carbon With State-Of-The-Art Cybersecurity Capabilities",
+      "link": "https://cybersecuritynews.com/google-launches-gemini-4-carbon/",
+      "date": "2026-10-31T04:48:15Z",
+      "description": "Google has announced Gemini 4 Carbon, its latest AI model built to find software flaws, test whether attackers could exploit them, and produce fixes. Unveiled on October 28, 2026, Carbon builds on Gemini 4 Argon and targets complex security and coding work that can take days. Access will begin with selected cyber defenders, not a […] The post Google Launches Gemini 4 Carbon With State-Of-The-Art…",
+      "source": "cybersecuritynews.com"
+    },
+    {
+      "title": "TeamViewer Security Flaw Could Turn Remote Support Sessions Into Computer Takeovers",
+      "link": "https://cybersecuritynews.com/teamviewer-security-flaw/",
+      "date": "2026-10-31T04:37:14Z",
+      "description": "A newly disclosed TeamViewer vulnerability could let an attacker turn a routine remote support session against the technician providing help. Tracked as CVE-2026-111585, the flaw allows a malicious remote computer to crash the viewer application and potentially run code on the technician’s machine. TeamViewer rates it High, with a CVSS score of 8.8. Remedio researcher […] The post TeamViewer…",
+      "source": "cybersecuritynews.com"
+    },
+    {
+      "title": "Anthropic’s Claude Bypasses AI Safety Checks, Triggering Blackmail and Code Sabotage in Tests",
+      "link": "https://cybersecuritynews.com/claude-bypasses-ai-safety-checks/",
+      "date": "2026-10-31T04:24:43Z",
+      "description": "Anthropic researchers have shown that Claude can design training data that slips past an AI safety monitor and causes a separate research model to blackmail users, weaken security code, and resist oversight. The October 2026 study exposes a gap between text that looks safe during screening and behavior learned through training. The distinction matters. These […] The post Anthropic’s Claude…",
+      "source": "cybersecuritynews.com"
+    },
+    {
+      "title": "Apple Warns iPhone Users in 99 Countries of Sophisticated Mercenary Spyware Attacks",
+      "link": "https://cybersecuritynews.com/apple-warns-iphone-users/",
+      "date": "2026-10-31T03:54:38Z",
+      "description": "Apple has issued a fresh round of threat notifications to selected iPhone users in 99 countries, warning that they have been targeted by sophisticated mercenary spyware attacks. Security researcher Costin Raiu reported the new wave on October 30, 2026, saying it was separate from August’s alerts and linked to new attacks. “Today’s notification is being […] The post Apple Warns iPhone Users in 99…",
+      "source": "cybersecuritynews.com"
+    },
     {
       "title": "Critical Linux kernel flaw allows remote root attacks on MPTCP servers",
       "link": "https://www.bleepingcomputer.com/news/security/critical-linux-kernel-flaw-allows-remote-root-attacks-on-mptcp-servers/",
@@ -52,32 +101,11 @@
       "source": "thehackernews.com"
     },
     {
-      "title": "North Korean Hackers Steal Developer Credentials to Inject Malware Into GitHub and Software Packages",
-      "link": "https://cybersecuritynews.com/north-korean-hackers-2/",
-      "date": "2026-10-30T15:15:02Z",
-      "description": "A North Korea-aligned hacking group has moved beyond fake job interviews and now steals developer credentials to plant malware in trusted software projects. The group, tracked as DeceptiveDevelopment, used the stolen access to change code in public and private repositories between April and September 2026. Every poisoned project then became a new way into the […] The post North Korean Hackers…",
-      "source": "cybersecuritynews.com"
-    },
-    {
       "title": "PHP2Shell Attacks Root Palo Alto Firewalls but Fail Against WordPress",
       "link": "https://www.securityweek.com/php2shell-attacks-root-palo-alto-firewalls-but-fail-against-wordpress/",
       "date": "2026-10-30T15:09:25Z",
       "description": "Over 22.6 million exposed instances are potentially affected by the critical PHP flaws that have been targeted for over a week. The post PHP2Shell Attacks Root Palo Alto Firewalls but Fail Against WordPress appeared first on SecurityWeek.",
       "source": "securityweek.com"
-    },
-    {
-      "title": "When Threats Don’t Wait, Security Can’t Either",
-      "link": "https://cybersecuritynews.com/when-threats-dont-wait-security-cant-either/",
-      "date": "2026-10-30T15:08:31Z",
-      "description": "Dhananjay Ganjoo, Managing Director – India & SAARC The uncomfortable part of an adaptive attack is not how quickly it starts, but how quickly it can change course. AI-assisted operations can probe environments, learn from responses, switch techniques and chain subsequent actions while an attack is still in progress. Anthropic’s 2026 analysis of 832 accounts […] The post When Threats Don’t Wait,…",
-      "source": "cybersecuritynews.com"
-    },
-    {
-      "title": "APT Hackers Use NetamLoader Malware to Target Windows 10 Systems in Asian Governments",
-      "link": "https://cybersecuritynews.com/netamloader-malware/",
-      "date": "2026-10-30T15:02:03Z",
-      "description": "A new malware framework called NetamLoader is being used against a custom version of Windows 10 that only government bodies in Asia use. The campaign looks like a supply-chain operation, and nobody has linked it to a known hacking group yet. The malware hides inside a Windows update package, borrows trusted software to run, and […] The post APT Hackers Use NetamLoader Malware to Target Windows…",
-      "source": "cybersecuritynews.com"
     },
     {
       "title": "In Other News: Anthropic Breach Dispute, UEFI Flaw Hits Most Servers, Cloudflare AI Data Leak",
@@ -92,20 +120,6 @@
       "date": "2026-10-30T14:36:54Z",
       "description": "A malicious version of Anthropic's Claude Code VS Code extension was distributed through Cursor's extension marketplace for approximately 11 hours on October 29, exposing up to 5,000 developers to malware designed to install persistent SSH backdoors. [...]",
       "source": "bleepingcomputer.com"
-    },
-    {
-      "title": "Aur0ra Ransomware Hackers Use Cursor AI Agents to Gain Domain Admin Access and Steal Data",
-      "link": "https://cybersecuritynews.com/aur0ra-ransomware-hackers/",
-      "date": "2026-10-30T14:36:33Z",
-      "description": "Ransomware crews are now giving the hardest parts of a network break-in to AI coding tools. A group linked to Aur0ra ransomware used Cursor AI agents to go from stolen passwords to domain admin access, the highest level of control in a Windows network. From there, it collected data and prepared to deploy ransomware. The […] The post Aur0ra Ransomware Hackers Use Cursor AI Agents to Gain Domain…",
-      "source": "cybersecuritynews.com"
-    },
-    {
-      "title": "Hackers Build Fake Polymarket Platforms That Rig Trades and Block Cryptocurrency Withdrawals",
-      "link": "https://cybersecuritynews.com/fake-polymarket-platforms/",
-      "date": "2026-10-30T14:16:13Z",
-      "description": "Criminals are copying the look of Polymarket, one of the biggest prediction market sites. They use the copies to take cryptocurrency from people who think they are placing real bets. Once a victim deposits money, the site decides every win and loss, and withdrawals stop working. The scams are not one-off websites. Three Russian-speaking “traffer” […] The post Hackers Build Fake Polymarket…",
-      "source": "cybersecuritynews.com"
     },
     {
       "title": "Undead Software Projects Continue to Raise Security Risks",
@@ -150,25 +164,11 @@
       "source": "bleepingcomputer.com"
     },
     {
-      "title": "Trezor Warns of Suspected Hardware Implant in One of Its Wallets Sold by CryptoBilis",
-      "link": "https://thehackernews.com/2026/10/trezor-warns-of-suspected-hardware.html",
-      "date": "2026-10-30T12:21:56Z",
-      "description": "A Trezor Safe 5 hardware wallet bought from the reseller CryptoBilis has an extra circuit board that sends out the recovery phrase over a mobile network, a customer has reported. Trezor has not yet examined the device. It is telling everyone who bought a Trezor from CryptoBilis since March 2026 to move their funds to a new wallet with a new recovery phrase. Trezor said in a blog post",
-      "source": "thehackernews.com"
-    },
-    {
       "title": "Fresh WordPress Vulnerability in Attackers’ Crosshairs",
       "link": "https://www.securityweek.com/fresh-wordpress-vulnerability-in-attackers-crosshairs/",
       "date": "2026-10-30T12:04:13Z",
       "description": "Threat actors are attempting to exploit a high-severity unauthenticated race condition leading to remote code execution. The post Fresh WordPress Vulnerability in Attackers’ Crosshairs appeared first on SecurityWeek.",
       "source": "securityweek.com"
-    },
-    {
-      "title": "Why Urgent Security Fixes Aren't Fixed. Observe, Prove, Act, Confirm Gets Them Moving",
-      "link": "https://thehackernews.com/2026/10/why-urgent-security-fixes-arent-fixed.html",
-      "date": "2026-10-30T11:58:53Z",
-      "description": "The alert is critical. The fix is known. And the ticket sits in a queue for days. Security teams understand the risk, but the people who keep applications available need proof that the change won’t break anything. Their concerns are practical. An IPS protection could block legitimate traffic. A configuration change could interrupt a service. An endpoint policy could affect an application",
-      "source": "thehackernews.com"
     },
     {
       "title": "As Russia's Cyberwar Evolves, Belarus Steps Forward",
@@ -181,35 +181,35 @@
       "title": "ZDI-CAN-35872: LiteLLM",
       "link": "http://www.zerodayinitiative.com/advisories/upcoming/",
       "date": "2026-10-30T05:00:00Z",
-      "description": "A CVSS score 8.1 AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H severity vulnerability discovered by 'HaeJung Yang (@haehaeYang), and ByungYoung Yi (@yibarrack) of Out of Bounds (@oobs_io)' was reported to the affected vendor on: 2026-10-30, 0 days ago. The vendor is given until 2027-02-27 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a…",
+      "description": "A CVSS score 8.1 AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H severity vulnerability discovered by 'HaeJung Yang (@haehaeYang), and ByungYoung Yi (@yibarrack) of Out of Bounds (@oobs_io)' was reported to the affected vendor on: 2026-10-30, 1 days ago. The vendor is given until 2027-02-27 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a…",
       "source": "zerodayinitiative.com"
     },
     {
       "title": "ZDI-CAN-35871: LiteLLM",
       "link": "http://www.zerodayinitiative.com/advisories/upcoming/",
       "date": "2026-10-30T05:00:00Z",
-      "description": "A CVSS score 5.3 AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L severity vulnerability discovered by 'HaeJung Yang (@haehaeYang), and ByungYoung Yi (@yibarrack) of Out of Bounds (@oobs_io)' was reported to the affected vendor on: 2026-10-30, 0 days ago. The vendor is given until 2027-02-27 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a…",
+      "description": "A CVSS score 5.3 AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L severity vulnerability discovered by 'HaeJung Yang (@haehaeYang), and ByungYoung Yi (@yibarrack) of Out of Bounds (@oobs_io)' was reported to the affected vendor on: 2026-10-30, 1 days ago. The vendor is given until 2027-02-27 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a…",
       "source": "zerodayinitiative.com"
     },
     {
       "title": "ZDI-CAN-31757: NVIDIA",
       "link": "http://www.zerodayinitiative.com/advisories/upcoming/",
       "date": "2026-10-30T05:00:00Z",
-      "description": "A CVSS score 7.8 AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H severity vulnerability discovered by 'YJK(@YJK0805) of ZUSO ART' was reported to the affected vendor on: 2026-10-30, 0 days ago. The vendor is given until 2027-02-27 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
+      "description": "A CVSS score 7.8 AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H severity vulnerability discovered by 'YJK(@YJK0805) of ZUSO ART' was reported to the affected vendor on: 2026-10-30, 1 days ago. The vendor is given until 2027-02-27 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
       "source": "zerodayinitiative.com"
     },
     {
       "title": "ZDI-CAN-34752: LiteLLM",
       "link": "http://www.zerodayinitiative.com/advisories/upcoming/",
       "date": "2026-10-30T05:00:00Z",
-      "description": "A CVSS score 7.7 AV:N/AC:L/PR:L/UI:N/S:C/C:H/I:N/A:N severity vulnerability discovered by 'Adam Bedard' was reported to the affected vendor on: 2026-10-30, 0 days ago. The vendor is given until 2027-02-27 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
+      "description": "A CVSS score 7.7 AV:N/AC:L/PR:L/UI:N/S:C/C:H/I:N/A:N severity vulnerability discovered by 'Adam Bedard' was reported to the affected vendor on: 2026-10-30, 1 days ago. The vendor is given until 2027-02-27 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
       "source": "zerodayinitiative.com"
     },
     {
       "title": "ZDI-CAN-36736: Autodesk",
       "link": "http://www.zerodayinitiative.com/advisories/upcoming/",
       "date": "2026-10-30T05:00:00Z",
-      "description": "A CVSS score 7.8 AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H severity vulnerability discovered by 'Mat Powell of TrendAI Zero Day Initiative' was reported to the affected vendor on: 2026-10-30, 0 days ago. The vendor is given until 2027-02-27 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
+      "description": "A CVSS score 7.8 AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H severity vulnerability discovered by 'Mat Powell of TrendAI Zero Day Initiative' was reported to the affected vendor on: 2026-10-30, 1 days ago. The vendor is given until 2027-02-27 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
       "source": "zerodayinitiative.com"
     },
     {
