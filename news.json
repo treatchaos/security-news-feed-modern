@@ -1,13 +1,97 @@
 {
-  "last_updated": "2026-11-05T15:54:23Z",
+  "last_updated": "2026-11-05T21:40:33Z",
   "count": 35,
   "items": [
     {
-      "title": "Closing the Identity Gap at the Service Desk",
-      "link": "https://www.bleepingcomputer.com/news/security/closing-the-identity-gap-at-the-service-desk/",
-      "date": "2026-11-05T15:00:10Z",
-      "description": "Attackers target IT service desks to bypass MFA by impersonating employees and convincing staff to reset passwords or register new authentication devices. Specops Software explains why traditional identity verification methods are no longer sufficient and how organizations can secure account recovery against social engineering risks. [...]",
+      "title": "Fake OpenAI, SpaceX events used to steal Microsoft, Google accounts",
+      "link": "https://www.bleepingcomputer.com/news/security/fake-openai-spacex-events-used-to-steal-microsoft-google-accounts/",
+      "date": "2026-11-05T21:30:30Z",
+      "description": "Hackers are using fake OpenAI, SpaceX, and Anthropic event invitations to lure employees into phishing attacks, using two different phishing-as-a-service platforms to steal Microsoft and Google account credentials and authentication sessions. [...]",
       "source": "bleepingcomputer.com"
+    },
+    {
+      "title": "What We Missed: Knicks Phishing Test Goes Out of Bounds",
+      "link": "https://www.darkreading.com/cyber-risk/what-we-missed-knicks-phishing-test-out-of-bounds",
+      "date": "2026-11-05T21:00:47Z",
+      "description": "In this video conversation, Dark Reading editors discuss some of the news they didn't get a chance to cover, from an ill-conceived phishing simulation to a hacktivist attack on a US government agency.",
+      "source": "darkreading.com"
+    },
+    {
+      "title": "Nearly 1.5 million exposed secrets targeted in new revocation program",
+      "link": "https://www.bleepingcomputer.com/news/security/truffle-security-launches-program-to-revoke-14-million-live-secrets/",
+      "date": "2026-11-05T20:15:08Z",
+      "description": "Truffle Security has launched the Secrets Revocation Program, a free initiative that helps API key issuers revoke 1.4 million publicly exposed secrets that remain valid. [...]",
+      "source": "bleepingcomputer.com"
+    },
+    {
+      "title": "APT29's Watering Holes Target Thousands of Mobile Users",
+      "link": "https://www.darkreading.com/mobile-security/apt29-watering-holes-target-mobile-users",
+      "date": "2026-11-05T20:05:39Z",
+      "description": "After compromising websites, the Russian state-sponsored threat group is fingerprinting victims, then harvesting information from the interesting ones.",
+      "source": "darkreading.com"
+    },
+    {
+      "title": "OpenAI’s GPT-6 Astra silently obstructed safety research tasks",
+      "link": "https://www.bleepingcomputer.com/news/security/openais-gpt-6-astra-silently-obstructed-safety-research-tasks/",
+      "date": "2026-11-05T19:24:26Z",
+      "description": "OpenAI has disclosed another AI alignment incident where GPT-6 Astra was found to sometimes quietly withhold help on safety research. [...]",
+      "source": "bleepingcomputer.com"
+    },
+    {
+      "title": "OpenSSH flaw lets attackers log into password-disabled Linux accounts",
+      "link": "https://www.bleepingcomputer.com/news/security/openssh-flaw-lets-attackers-log-into-password-disabled-linux-accounts/",
+      "date": "2026-11-05T17:45:29Z",
+      "description": "A newly disclosed OpenSSH vulnerability dubbed \"*sshole\" allows attackers to log in to certain Alpine Linux and other musl-based Linux accounts that are configured to block password authentication, simply by entering an oversized password. [...]",
+      "source": "bleepingcomputer.com"
+    },
+    {
+      "title": "AI Agents Got Root on Linux via 948 Kernel Flaws in OpenAI Research",
+      "link": "https://www.securityweek.com/ai-agents-got-root-on-linux-via-948-kernel-flaws-in-openai-research/",
+      "date": "2026-11-05T17:32:37Z",
+      "description": "An unreleased OpenAI cyber model found and exploited 948 distinct Linux kernel privilege escalation bugs for about $1.2 million. The post AI Agents Got Root on Linux via 948 Kernel Flaws in OpenAI Research appeared first on SecurityWeek.",
+      "source": "securityweek.com"
+    },
+    {
+      "title": "OpenMatter Network Positions Decentralized Computing as an Alternative to Data Centers for AI",
+      "link": "https://cybersecuritynews.com/openmatter-network-positions-decentralized-computing-as-an-alternative-to-data-centers-for-ai/",
+      "date": "2026-11-05T16:56:19Z",
+      "description": "Melbourne, Florida, November 5th, 2026, CyberNewswire OpenMatter Network, a pioneer in decentralized infrastructure for agentic artificial intelligence, is positioning its decentralized computing platform as an alternative to massive, centralized data center development amid growing public opposition to new facilities. The company says its approach can support continued AI adoption by enabling…",
+      "source": "cybersecuritynews.com"
+    },
+    {
+      "title": "SecurityDataPipeline.com Launches as a New Educational Resource for the AI Era",
+      "link": "https://www.darkreading.com/cybersecurity-operations/securitydatapipeline-com-launches-as-a-new-educational-resource-for-the-ai-era",
+      "date": "2026-11-05T16:48:36Z",
+      "description": "The ungated resource explains how security data pipelines reduce SIEM ingestion costs, preserve detection coverage, and prepare the data layer for AI-driven security operations.",
+      "source": "darkreading.com"
+    },
+    {
+      "title": "OpenSSH Issues Emergency Fix for Flaw Letting Long Passwords Bypass SSH Auth on Alpine Linux",
+      "link": "https://thehackernews.com/2026/11/openssh-issues-emergency-fix-for-flaw.html",
+      "date": "2026-11-05T16:42:46Z",
+      "description": "Attackers can log in to accounts that have no password, such as SSH key-only accounts, on some Alpine Linux servers running the standard openssh-server package. They need network access to the server, an account name, and a password between 257 and 1,024 bytes long. OpenSSH, which rates the flaw critical, released version 10.6p2 today to block it. Alpine has published fixed packages for every",
+      "source": "thehackernews.com"
+    },
+    {
+      "title": "Researchers Bypass ChatGPT Lockdown Mode to Exfiltrate Chats Without User Interaction",
+      "link": "https://thehackernews.com/2026/11/researchers-bypass-chatgpt-lockdown.html",
+      "date": "2026-11-05T16:42:32Z",
+      "description": "Cybersecurity researchers have disclosed details of a now-patched vulnerability that could be exploited to bypass Lockdown Mode protections in OpenAI ChatGPT. Lockdown Mode was introduced by the artificial intelligence (AI) company in June 2026 as an optional setting to minimize data exfiltration risks arising from prompt injections. \"The flaw could enable silent chat data theft, phishing,",
+      "source": "thehackernews.com"
+    },
+    {
+      "title": "Hackers backdoor Linux servers using trojanized CWP web server",
+      "link": "https://www.bleepingcomputer.com/news/security/hackers-backdoor-linux-servers-using-trojanized-cwp-web-server/",
+      "date": "2026-11-05T16:24:26Z",
+      "description": "A new Linux malware called CWPdoor is being distributed through a trojanized version of cwpsrv, the web server behind the Control Web Panel (CWP) management interface. [...]",
+      "source": "bleepingcomputer.com"
+    },
+    {
+      "title": "GhostMap Android Flaw Can Trap Phones in Endless Reboot Loops Without Opening an App",
+      "link": "https://cybersecuritynews.com/ghostmap-android-vulnerability/",
+      "date": "2026-11-05T16:11:01Z",
+      "description": "A new Android bug named GhostMap can leave a phone stuck in a crash loop after a user installs a single crafted app. The app does not need to be opened, asks for no permissions, and contains no code. Researchers at Bitdefender Labs published the findings on November 5, 2026. They have not seen the […] The post GhostMap Android Flaw Can Trap Phones in Endless Reboot Loops Without Opening an App…",
+      "source": "cybersecuritynews.com"
     },
     {
       "title": "Hackers Turn Popular Chinese Keyboard Software Into a Backdoor for Cyberespionage Attacks",
@@ -38,25 +122,11 @@
       "source": "cybersecuritynews.com"
     },
     {
-      "title": "Researchers Discover White House Network IP Available for Rent Through 28 Proxy Services",
-      "link": "https://cybersecuritynews.com/white-house-network-ip-for-rent/",
-      "date": "2026-11-05T13:31:43Z",
-      "description": "Researchers at Layer3 Intel found that 28 residential proxy services rent addresses on the White House network. Anyone with a few dollars could send web traffic through them. The activity ran from October 5 to November 3, 2026. The team spotted the activity while browsing its new Residential Proxy Observatory, a tool that shows proxy […] The post Researchers Discover White House Network IP…",
-      "source": "cybersecuritynews.com"
-    },
-    {
       "title": "Bank Phishing Sites Show Fake ‘Suspended’ Pages to Evade Takedowns",
       "link": "https://www.securityweek.com/bank-phishing-sites-show-fake-suspended-pages-to-evade-takedowns/",
       "date": "2026-11-05T13:22:12Z",
       "description": "More than 200 sites were seen serving phishing content to first-time visitors but not to those who revisit. The post Bank Phishing Sites Show Fake ‘Suspended’ Pages to Evade Takedowns appeared first on SecurityWeek.",
       "source": "securityweek.com"
-    },
-    {
-      "title": "ARTEX Hackers Expose Their Own Servers, Revealing AI Tools Behind South Korean Bank Breaches",
-      "link": "https://cybersecuritynews.com/artex-hackers/",
-      "date": "2026-11-05T13:11:17Z",
-      "description": "A hacker’s own mistake has given researchers a rare look at how AI tools were used to break into South Korean financial firms. The operator left several servers open to the public, and the exposed files showed which AI models, scripts and proxies powered the campaign. Between late September and early October 2026, seven South […] The post ARTEX Hackers Expose Their Own Servers, Revealing AI…",
-      "source": "cybersecuritynews.com"
     },
     {
       "title": "Cyberattack Hits French Blood Bank Site but No Blood Products Are Compromised",
@@ -94,34 +164,6 @@
       "source": "securityweek.com"
     },
     {
-      "title": "CISO Conversations: Ryan Davis – The Unknown Is Where Security Meets Reality",
-      "link": "https://www.securityweek.com/ciso-conversations-ryan-davis-the-unknown-is-where-security-meets-reality/",
-      "date": "2026-11-05T11:00:00Z",
-      "description": "Ryan Davis went from hacking his school’s network to running security at New Charter Technologies. What worries him now is shadow AI. The post CISO Conversations: Ryan Davis – The Unknown Is Where Security Meets Reality appeared first on SecurityWeek.",
-      "source": "securityweek.com"
-    },
-    {
-      "title": "5 Active Cyber Threats That Put US Enterprises at Risk in October 2026",
-      "link": "https://thehackernews.com/2026/11/5-active-cyber-threats-that-put-us.html",
-      "date": "2026-11-05T10:06:19Z",
-      "description": "October 2026 brought another wave of cyber threats targeting US businesses, with attackers exploiting trusted platforms, legitimate authentication processes, and everyday business workflows. For enterprises, these campaigns raise the stakes beyond individual security incidents, increasing the risk of financial losses, data breaches, and costly operational disruption. Below, we examine five",
-      "source": "thehackernews.com"
-    },
-    {
-      "title": "GhostMap Android flaw lets malicious app trigger persistent boot loop",
-      "link": "https://www.bleepingcomputer.com/news/security/ghostmap-android-flaw-lets-malicious-app-trigger-persistent-boot-loop/",
-      "date": "2026-11-05T09:18:29Z",
-      "description": "Attackers can force Android devices into a continuous boot loop using a specially crafted app that requires no permissions and only needs to be installed. [...]",
-      "source": "bleepingcomputer.com"
-    },
-    {
-      "title": "Apple to Start Scanning Publicly Shared iCloud Photos and Files for Harmful Content",
-      "link": "https://thehackernews.com/2026/11/apple-to-start-scanning-publicly-shared.html",
-      "date": "2026-11-05T09:13:28Z",
-      "description": "Apple has revealed that it plans to start checking public iCloud links for harmful content starting with iOS 27.3, iPadOS 27.3, macOS 27.3, and visionOS 27.3. The change specifically applies to scenarios where users share iCloud content, such as photos in iCloud Photos or files in iCloud Drive, by sharing a link and making it accessible to \"Anyone with the link.\" When users choose this option,",
-      "source": "thehackernews.com"
-    },
-    {
       "title": "Critical Rails Bug Threatens to Derail Vulnerable Servers",
       "link": "https://www.darkreading.com/application-security/critical-rails-bug-derail-vulnerable-servers",
       "date": "2026-11-04T21:48:18Z",
@@ -129,38 +171,10 @@
       "source": "darkreading.com"
     },
     {
-      "title": "Vercel rolls out new protection against stolen session cookie attacks",
-      "link": "https://www.bleepingcomputer.com/news/security/vercel-rolls-out-new-protection-against-stolen-session-cookie-attacks/",
-      "date": "2026-11-04T21:31:18Z",
-      "description": "Vercel is gradually rolling out Device Bound Session Credentials (DBSC) on its platform as a key defense against information stealer malware. [...]",
-      "source": "bleepingcomputer.com"
-    },
-    {
-      "title": "Zyxel fixes zero-day exploited to hack nearly 1,000 network switches",
-      "link": "https://www.bleepingcomputer.com/news/security/zyxel-fixes-zero-day-exploited-to-hack-nearly-1-000-network-switches/",
-      "date": "2026-11-04T20:58:19Z",
-      "description": "Zyxel has patched a zero-day vulnerability in its GS1900 series network switches that hackers exploited to compromise nearly 1,000 devices worldwide and steal configuration files and credentials. [...]",
-      "source": "bleepingcomputer.com"
-    },
-    {
-      "title": "DreamHost confirms data breach exposed FTP logins and webmail sessions",
-      "link": "https://www.bleepingcomputer.com/news/security/dreamhost-confirms-data-breach-exposed-ftp-logins-and-webmail-sessions/",
-      "date": "2026-11-04T19:05:19Z",
-      "description": "DreamHost is warning of a data breach after attackers gained access to its File Manager platform for two months and stole customers' FTP/SFTP usernames and passwords. [...]",
-      "source": "bleepingcomputer.com"
-    },
-    {
       "title": "Google, Partners Disrupt 1.3 Million-Device-Strong XCPE Botnet",
       "link": "https://www.darkreading.com/endpoint-security/google-13-million-device-strong-xcpe-botnet",
       "date": "2026-11-04T16:24:08Z",
       "description": "Google alleges that Android device manufacturer Videostrong ran the operation, which infected set-top boxes and IoT devices with a backdoor to create infrastructure for criminal activity.",
-      "source": "darkreading.com"
-    },
-    {
-      "title": "Incidents Move Too Fast for Pen &amp; Paper",
-      "link": "https://www.darkreading.com/cybersecurity-operations/incidents-move-fast-pen-paper",
-      "date": "2026-11-04T14:17:00Z",
-      "description": "Organizations may not be ready for completely autonomous communication processes, but there are places where automating information updates would alleviate pressure.",
       "source": "darkreading.com"
     },
     {
@@ -190,20 +204,6 @@
       "date": "2026-11-04T06:00:00Z",
       "description": "A CVSS score 8.8 AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H severity vulnerability discovered by 'Leo Vu of TrendAI Research' was reported to the affected vendor on: 2026-11-04, 1 days ago. The vendor is given until 2027-03-04 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
       "source": "zerodayinitiative.com"
-    },
-    {
-      "title": "Philippine Migrant Worker Data Likely Leaked in 69GB Government Breach",
-      "link": "https://www.darkreading.com/cyberattacks-data-breaches/philippine-migrant-worker-data-69gb-government-breach",
-      "date": "2026-11-04T02:00:00Z",
-      "description": "An unknown operator appears to have exfiltrated SQL Server backups from the Philippine Overseas Employment Administration in under a half hour.",
-      "source": "darkreading.com"
-    },
-    {
-      "title": "Phishing-Resistant Isn't Enough; Yubico Takes Aim at Identity-Verification Gap",
-      "link": "https://www.darkreading.com/identity-access-management-security/beyond-phishing-resistant-yubico-identity-verification-gap",
-      "date": "2026-11-04T01:05:40Z",
-      "description": "The new YubiID service bridges identity verification with credential enrollment and recovery across existing identity platforms, closing a phishing-resistant authentication gap. Plus: post-quantum YubiKey beta.",
-      "source": "darkreading.com"
     },
     {
       "title": "ZDI-CAN-35872: LiteLLM",
