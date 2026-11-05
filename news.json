@@ -1,7 +1,56 @@
 {
-  "last_updated": "2026-11-05T00:36:35Z",
-  "count": 30,
+  "last_updated": "2026-11-05T07:31:06Z",
+  "count": 35,
   "items": [
+    {
+      "title": "Critical Citrix XenServer Vulnerability Could Let Hackers Take Over Virtualization Hosts Without Authentication",
+      "link": "https://cybersecuritynews.com/critical-citrix-xenserver-vulnerability/",
+      "date": "2026-11-05T07:24:28Z",
+      "description": "Citrix has disclosed a critical XenServer vulnerability that could let an unauthenticated attacker compromise virtualization hosts and supporting appliances. Tracked as CVE-2026-98432, the flaw requires access to the management network, an important limit when assessing which systems are exposed. The November 3 security bulletin covers XenServer 8.4 and XenServer 9, alongside affected Workload…",
+      "source": "cybersecuritynews.com"
+    },
+    {
+      "title": "Top 10 Best Security Data Lake Platforms in 2026 [Ranked & Scored]",
+      "link": "https://cybersecuritynews.com/top-10-best-security-data-lake-platforms-in-2026-ranked-scored/",
+      "date": "2026-11-05T07:19:17Z",
+      "description": "The security data lake movement is a jailbreak: telemetry escaping SIEM-priced storage into open formats on cheap object storage, with detection and query engines brought to the data. The 2026 field mixes general data clouds hosting security workloads, purpose-built security lakes, and SIEM vendors racing to rebuild atop lake economics before the exodus empties them. […] The post Top 10 Best…",
+      "source": "cybersecuritynews.com"
+    },
+    {
+      "title": "Apple to Scan for Every Photo and File Shared Through a Public iCloud Link for Harmful Content",
+      "link": "https://cybersecuritynews.com/apple-to-scan-for-every-photo-and-file/",
+      "date": "2026-11-05T07:18:40Z",
+      "description": "Apple will begin checking photos and files shared through public iCloud links for harmful content with version 27.3 or later of iOS, iPadOS, macOS, and visionOS. The policy covers items shared using “Anyone with the Link,” including photos stored in iCloud Photos and files held in iCloud Drive. Apple outlined the change in a support […] The post Apple to Scan for Every Photo and File Shared…",
+      "source": "cybersecuritynews.com"
+    },
+    {
+      "title": "Top 10 Best Security Log Management Tools in 2026 [Ranked & Scored]",
+      "link": "https://cybersecuritynews.com/best-security-log-management/",
+      "date": "2026-11-05T07:14:43Z",
+      "description": "Security logging has become a commodities market with three prices: the cost to move a log, to store it, and to ask it a question. The 2026 winners optimize different legs pipeline brokers slashing transit volume, hot-architecture engines making every byte queryable, cloud giants bundling retention into estates. This ranking scores ten tools on economics, […] The post Top 10 Best Security Log…",
+      "source": "cybersecuritynews.com"
+    },
+    {
+      "title": "Top 10 Best Threat Hunting Services in 2026 [Ranked & Scored]",
+      "link": "https://cybersecuritynews.com/best-threat-hunting-services/",
+      "date": "2026-11-05T07:02:34Z",
+      "description": "Detection engineering catches what you anticipated; threat hunting catches what you didn’t. The craft is hypothesis-driven “if an actor used this tradecraft here, what residue would exist?” and the services market sells it in two shapes: platform-native hunting across a vendor’s own telemetry ocean, and estate-attached hunting through MDR relationships. One jurisdictional note is handled […] The…",
+      "source": "cybersecuritynews.com"
+    },
+    {
+      "title": "Hackers Exploit Patched Apple Flaw to Deliver Info-Stealing Malware, CISA Says",
+      "link": "https://thehackernews.com/2026/11/hackers-exploit-patched-apple-flaw-to.html",
+      "date": "2026-11-05T05:17:04Z",
+      "description": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Wednesday added a medium-severity security flaw impacting multiple Apple operating systems to its Known Exploited Vulnerabilities (KEV) catalog, following reports of active exploitation. The vulnerability in question is CVE-2024-27834 (CVSS score: 5.5), a case of improper authentication that could allow an attacker with",
+      "source": "thehackernews.com"
+    },
+    {
+      "title": "OpenAI AI Pipeline Generates 948 Linux Root Escalation Exploits in 30-Hour Run",
+      "link": "https://thehackernews.com/2026/11/openai-ai-pipeline-generates-948-linux.html",
+      "date": "2026-11-05T04:31:16Z",
+      "description": "OpenAI on Wednesday detailed a pipeline that employed an upcoming cyber-focused artificial intelligence (AI) model to validate and patch 948 local privilege escalation vulnerabilities in Linux for $1.2 million in API costs. \"Our prototype identified and analyzed 2,308 candidate Linux kernel findings, dynamically reproduced 1,724 vulnerabilities, and produced 948 local privilege escalation (LPE)",
+      "source": "thehackernews.com"
+    },
     {
       "title": "Critical Rails Bug Threatens to Derail Vulnerable Servers",
       "link": "https://www.darkreading.com/application-security/critical-rails-bug-derail-vulnerable-servers",
@@ -80,13 +129,6 @@
       "source": "securityweek.com"
     },
     {
-      "title": "APT29-Linked Hackers Hijack Web Analytics Script to Deliver iOS and Android Exploits",
-      "link": "https://thehackernews.com/2026/11/apt29-linked-hackers-hijack-web.html",
-      "date": "2026-11-04T14:27:52Z",
-      "description": "The Russia-linked threat actor known as APT29 is said to be behind a large-scale watering hole campaign targeting iOS and Android users through compromised websites, fake domains, and a supply chain attack involving a Ukrainian web analytics service called Plerdy SEO Tracker. \"The injected JavaScript code collects browser and device attributes,\" Sekoia researchers Amaury-Jacques Garçon and",
-      "source": "thehackernews.com"
-    },
-    {
       "title": "Barracuda ESG Authentication Bypass Flaw Opens Path to Root",
       "link": "https://www.securityweek.com/barracuda-email-security-gateway-authentication-bypass-opens-path-to-root/",
       "date": "2026-11-04T14:24:54Z",
@@ -122,11 +164,32 @@
       "source": "securityweek.com"
     },
     {
-      "title": "Critical Rails Flaw Lets Attackers Write Server Files via Crafted ImageMagick Uploads",
-      "link": "https://thehackernews.com/2026/11/critical-rails-flaw-lets-attackers.html",
-      "date": "2026-11-04T12:07:04Z",
-      "description": "A critical flaw in Ruby on Rails could allow an unauthenticated attacker to write arbitrary files on an app's server by uploading a crafted file if the app processes uploads using ImageMagick. The Rails project disclosed the flaw in an advisory and fixed it in versions 8.1.4.1 and 8.0.5.2. The flaw is in Active Storage, the part of Rails that handles file uploads. Some apps store",
-      "source": "thehackernews.com"
+      "title": "ZDI-CAN-36787: Autodesk",
+      "link": "http://www.zerodayinitiative.com/advisories/upcoming/",
+      "date": "2026-11-04T06:00:00Z",
+      "description": "A CVSS score 7.8 AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H severity vulnerability discovered by 'Mat Powell of TrendAI Zero Day Initiative' was reported to the affected vendor on: 2026-11-04, 1 days ago. The vendor is given until 2027-03-04 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
+      "source": "zerodayinitiative.com"
+    },
+    {
+      "title": "ZDI-CAN-36704: LG",
+      "link": "http://www.zerodayinitiative.com/advisories/upcoming/",
+      "date": "2026-11-04T06:00:00Z",
+      "description": "A CVSS score 9.8 AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H severity vulnerability discovered by 'Minh Giang (@itscysamu) of TrendAI Zero Day Initiative' was reported to the affected vendor on: 2026-11-04, 1 days ago. The vendor is given until 2027-03-04 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
+      "source": "zerodayinitiative.com"
+    },
+    {
+      "title": "ZDI-CAN-36712: GraphQL",
+      "link": "http://www.zerodayinitiative.com/advisories/upcoming/",
+      "date": "2026-11-04T06:00:00Z",
+      "description": "A CVSS score 7.5 AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:H/A:N severity vulnerability discovered by 'Leo Vu of TrendAI Research' was reported to the affected vendor on: 2026-11-04, 1 days ago. The vendor is given until 2027-03-04 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
+      "source": "zerodayinitiative.com"
+    },
+    {
+      "title": "ZDI-CAN-36713: nadesiko3",
+      "link": "http://www.zerodayinitiative.com/advisories/upcoming/",
+      "date": "2026-11-04T06:00:00Z",
+      "description": "A CVSS score 8.8 AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H severity vulnerability discovered by 'Leo Vu of TrendAI Research' was reported to the affected vendor on: 2026-11-04, 1 days ago. The vendor is given until 2027-03-04 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
+      "source": "zerodayinitiative.com"
     },
     {
       "title": "Philippine Migrant Worker Data Likely Leaked in 69GB Government Breach",
@@ -146,35 +209,7 @@
       "title": "ZDI-CAN-35872: LiteLLM",
       "link": "http://www.zerodayinitiative.com/advisories/upcoming/",
       "date": "2026-10-30T05:00:00Z",
-      "description": "A CVSS score 8.1 AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H severity vulnerability discovered by 'HaeJung Yang (@haehaeYang), and ByungYoung Yi (@yibarrack) of Out of Bounds (@oobs_io)' was reported to the affected vendor on: 2026-10-30, 5 days ago. The vendor is given until 2027-02-27 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a…",
-      "source": "zerodayinitiative.com"
-    },
-    {
-      "title": "ZDI-CAN-35871: LiteLLM",
-      "link": "http://www.zerodayinitiative.com/advisories/upcoming/",
-      "date": "2026-10-30T05:00:00Z",
-      "description": "A CVSS score 5.3 AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L severity vulnerability discovered by 'HaeJung Yang (@haehaeYang), and ByungYoung Yi (@yibarrack) of Out of Bounds (@oobs_io)' was reported to the affected vendor on: 2026-10-30, 5 days ago. The vendor is given until 2027-02-27 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a…",
-      "source": "zerodayinitiative.com"
-    },
-    {
-      "title": "ZDI-CAN-31757: NVIDIA",
-      "link": "http://www.zerodayinitiative.com/advisories/upcoming/",
-      "date": "2026-10-30T05:00:00Z",
-      "description": "A CVSS score 7.8 AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H severity vulnerability discovered by 'YJK(@YJK0805) of ZUSO ART' was reported to the affected vendor on: 2026-10-30, 5 days ago. The vendor is given until 2027-02-27 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
-      "source": "zerodayinitiative.com"
-    },
-    {
-      "title": "ZDI-CAN-34752: LiteLLM",
-      "link": "http://www.zerodayinitiative.com/advisories/upcoming/",
-      "date": "2026-10-30T05:00:00Z",
-      "description": "A CVSS score 7.7 AV:N/AC:L/PR:L/UI:N/S:C/C:H/I:N/A:N severity vulnerability discovered by 'Adam Bedard' was reported to the affected vendor on: 2026-10-30, 5 days ago. The vendor is given until 2027-02-27 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
-      "source": "zerodayinitiative.com"
-    },
-    {
-      "title": "ZDI-CAN-36736: Autodesk",
-      "link": "http://www.zerodayinitiative.com/advisories/upcoming/",
-      "date": "2026-10-30T05:00:00Z",
-      "description": "A CVSS score 7.8 AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H severity vulnerability discovered by 'Mat Powell of TrendAI Zero Day Initiative' was reported to the affected vendor on: 2026-10-30, 5 days ago. The vendor is given until 2027-02-27 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
+      "description": "A CVSS score 8.1 AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H severity vulnerability discovered by 'HaeJung Yang (@haehaeYang), and ByungYoung Yi (@yibarrack) of Out of Bounds (@oobs_io)' was reported to the affected vendor on: 2026-10-30, 6 days ago. The vendor is given until 2027-02-27 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a…",
       "source": "zerodayinitiative.com"
     },
     {
