@@ -1,20 +1,34 @@
 {
-  "last_updated": "2026-11-04T19:01:24Z",
-  "count": 35,
+  "last_updated": "2026-11-05T00:36:35Z",
+  "count": 30,
   "items": [
     {
-      "title": "SkyW4lker Phishing Campaign Expands, Threatening US Enterprises with Microsoft 365 Account Takeovers",
-      "link": "https://cybersecuritynews.com/skyw4lker-phishing-campaign-expands-threatening-us-enterprises-with-microsoft-365-account-takeovers/",
-      "date": "2026-11-04T18:43:01Z",
-      "description": "A phishing kit called SkyW4lker (also branded SkyW4lker x365 Sentinel) is quietly taking over Microsoft 365 accounts without ever stealing a password. Instead of cracking logins or breaking MFA, it tricks employees into approving a legitimate Microsoft device-code sign-in, handing attackers a valid session to corporate mailboxes, documents, and connected apps. The kit has been […] The post…",
-      "source": "cybersecuritynews.com"
+      "title": "Critical Rails Bug Threatens to Derail Vulnerable Servers",
+      "link": "https://www.darkreading.com/application-security/critical-rails-bug-derail-vulnerable-servers",
+      "date": "2026-11-04T21:48:18Z",
+      "description": "An attacker could write arbitrary files and read sensitive files via images uploaded to the Rails Active Storage ImageMagick integration, possibly positioning a threat actor for lateral movement.",
+      "source": "darkreading.com"
     },
     {
-      "title": "6 Challenges SOC Leaders Should Turn into Priorities in 2027",
-      "link": "https://cybersecuritynews.com/6-challenges-soc-leaders-should-turn-into-priorities-in-2027/",
-      "date": "2026-11-04T18:07:24Z",
-      "description": "Security teams face mounting pressure to keep pace with increasingly complex threats while working within tight budgets and persistent staffing constraints. As attack techniques evolve and alert volumes rise, maintaining effective detection and investigation capabilities becomes increasingly demanding. In 2027, threat intelligence will play a growing role in helping SOC and MSSP teams recognize…",
-      "source": "cybersecuritynews.com"
+      "title": "Vercel rolls out new protection against stolen session cookie attacks",
+      "link": "https://www.bleepingcomputer.com/news/security/vercel-rolls-out-new-protection-against-stolen-session-cookie-attacks/",
+      "date": "2026-11-04T21:31:18Z",
+      "description": "Vercel is gradually rolling out Device Bound Session Credentials (DBSC) on its platform as a key defense against information stealer malware. [...]",
+      "source": "bleepingcomputer.com"
+    },
+    {
+      "title": "Zyxel fixes zero-day exploited to hack nearly 1,000 network switches",
+      "link": "https://www.bleepingcomputer.com/news/security/zyxel-fixes-zero-day-exploited-to-hack-nearly-1-000-network-switches/",
+      "date": "2026-11-04T20:58:19Z",
+      "description": "Zyxel has patched a zero-day vulnerability in its GS1900 series network switches that hackers exploited to compromise nearly 1,000 devices worldwide and steal configuration files and credentials. [...]",
+      "source": "bleepingcomputer.com"
+    },
+    {
+      "title": "DreamHost confirms data breach exposed FTP logins and webmail sessions",
+      "link": "https://www.bleepingcomputer.com/news/security/dreamhost-confirms-data-breach-exposed-ftp-logins-and-webmail-sessions/",
+      "date": "2026-11-04T19:05:19Z",
+      "description": "DreamHost is warning of a data breach after attackers gained access to its File Manager platform for two months and stole customers' FTP/SFTP usernames and passwords. [...]",
+      "source": "bleepingcomputer.com"
     },
     {
       "title": "Cyberattack disrupts blood storage refrigeration systems in France",
@@ -22,13 +36,6 @@
       "date": "2026-11-04T18:02:56Z",
       "description": "France's national blood service has confirmed that a cyberattack targeting a refrigeration equipment provider raised temperature and defrost settings at three of its facilities, threatening stored blood products. [...]",
       "source": "bleepingcomputer.com"
-    },
-    {
-      "title": "Critical Ruby on Rails Flaw Could Let Hackers Steal Server Secrets Through Malicious Image Uploads",
-      "link": "https://cybersecuritynews.com/critical-ruby-on-rails-flaw/",
-      "date": "2026-11-04T17:01:17Z",
-      "description": "A critical flaw in Ruby on Rails Active Storage lets an unauthenticated user upload a crafted image and make the server write files. If uploads use the Disk service, the same upload can make the server read files too. The Rails team rated the bug Critical, with a CVSS score of 9.8, and published the […] The post Critical Ruby on Rails Flaw Could Let Hackers Steal Server Secrets Through Malicious…",
-      "source": "cybersecuritynews.com"
     },
     {
       "title": "Debian and Ubuntu APT Flaw Lets MitM Attackers Swap Verified Packages and Run Code as Root",
@@ -52,13 +59,6 @@
       "source": "bleepingcomputer.com"
     },
     {
-      "title": "Debian and Ubuntu APT Flaw Lets Hackers Hijack Software Updates and Execute Code as Root",
-      "link": "https://cybersecuritynews.com/debian-apt-flaw-lets-hackers-hijack-updates/",
-      "date": "2026-11-04T16:36:54Z",
-      "description": "A newly disclosed bug in APT, the package manager behind Debian and Ubuntu, can let a network spy swap a trusted software package for a bad one. The flaw is tracked as CVE-2026-109518 and can end in code running with root rights, the highest level of control on a Linux system. Debian announced the issue […] The post Debian and Ubuntu APT Flaw Lets Hackers Hijack Software Updates and Execute Code…",
-      "source": "cybersecuritynews.com"
-    },
-    {
       "title": "Google, Partners Disrupt 1.3 Million-Device-Strong XCPE Botnet",
       "link": "https://www.darkreading.com/endpoint-security/google-13-million-device-strong-xcpe-botnet",
       "date": "2026-11-04T16:24:08Z",
@@ -71,27 +71,6 @@
       "date": "2026-11-04T16:06:43Z",
       "description": "Cybersecurity researchers have disclosed details of an OpenAI Codex jailbreak bundle that's designed to modify an artificial intelligence (AI) agent's trusted instructions to insert advertisements for a third-party AI gateway. The phenomenon has been codenamed prompt adware by Check Point Research. Called Haiou (meaning Seagull in Chinese), the jailbreak modifies OpenAI Codex's configuration",
       "source": "thehackernews.com"
-    },
-    {
-      "title": "mSecure password manager hack prompts password reset warnings",
-      "link": "https://www.bleepingcomputer.com/news/security/msecure-password-manager-hack-prompts-password-reset-warnings/",
-      "date": "2026-11-04T16:00:18Z",
-      "description": "mSeven Software is warning current and former mSecure password manager customers to change passwords, reset two-factor authentication, and remove passkeys following a cyberattack that reportedly exposed an encrypted customer database. [...]",
-      "source": "bleepingcomputer.com"
-    },
-    {
-      "title": "Google Calendar phishing campaign hijacks sessions, bypasses MFA",
-      "link": "https://www.bleepingcomputer.com/news/security/google-calendar-phishing-campaign-hijacks-sessions-bypasses-mfa/",
-      "date": "2026-11-04T15:00:10Z",
-      "description": "A phishing campaign used Google Calendar invites, trusted redirects, and fake login pages to hijack corporate Google sessions and bypass MFA protections. Material Security examines how Operation CloudFire tracked the attacks, blocked malicious messages, and helped take down nearly 900 domains used by the attackers. [...]",
-      "source": "bleepingcomputer.com"
-    },
-    {
-      "title": "SonicWall warns of unpatched flaws in end-of-life GMS software",
-      "link": "https://www.bleepingcomputer.com/news/security/sonicwall-warns-of-unpatched-flaws-in-end-of-life-gms-software/",
-      "date": "2026-11-04T14:42:25Z",
-      "description": "SonicWall warned customers of two security flaws affecting end-of-life Global Management System (GMS) systems that will not be patched. [...]",
-      "source": "bleepingcomputer.com"
     },
     {
       "title": "Sysdig Adds Runtime Security and Governance for AI Agents",
@@ -120,13 +99,6 @@
       "date": "2026-11-04T14:17:00Z",
       "description": "Organizations may not be ready for completely autonomous communication processes, but there are places where automating information updates would alleviate pressure.",
       "source": "darkreading.com"
-    },
-    {
-      "title": "Gorbag Hackers Exploit WinRAR Vulnerability to Steal Credentials From Ukrainian Government Agencies",
-      "link": "https://cybersecuritynews.com/gorbag-hackers-exploit-winrar-vulnerability/",
-      "date": "2026-11-04T14:09:36Z",
-      "description": "Russia-aligned hackers tracked as Gorbag are exploiting a WinRAR vulnerability to steal browser credentials, VPN configurations, and sensitive documents from Ukrainian organizations. Active since at least February 2025, the group targets government agencies, law enforcement bodies, justice institutions, local administrations near the front line, and defense organizations. The campaign favors…",
-      "source": "cybersecuritynews.com"
     },
     {
       "title": "Agentic Data Security Firm Sentra Raises $150 Million",
@@ -168,13 +140,6 @@
       "link": "https://www.darkreading.com/identity-access-management-security/beyond-phishing-resistant-yubico-identity-verification-gap",
       "date": "2026-11-04T01:05:40Z",
       "description": "The new YubiID service bridges identity verification with credential enrollment and recovery across existing identity platforms, closing a phishing-resistant authentication gap. Plus: post-quantum YubiKey beta.",
-      "source": "darkreading.com"
-    },
-    {
-      "title": "Fresh European Fridge Attacks Put Cold-Chain Security in Focus",
-      "link": "https://www.darkreading.com/ics-ot-security/fresh-european-fridge-attacks-cold-chain-security",
-      "date": "2026-11-03T22:16:49Z",
-      "description": "Beyond food storage, the same combination of Internet connectivity, remote access, and inadequate security practices can put temperature-controlled infrastructure across other critical sectors at risk.",
       "source": "darkreading.com"
     },
     {
