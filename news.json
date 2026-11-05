@@ -1,54 +1,124 @@
 {
-  "last_updated": "2026-11-05T07:31:06Z",
+  "last_updated": "2026-11-05T15:54:23Z",
   "count": 35,
   "items": [
     {
-      "title": "Critical Citrix XenServer Vulnerability Could Let Hackers Take Over Virtualization Hosts Without Authentication",
-      "link": "https://cybersecuritynews.com/critical-citrix-xenserver-vulnerability/",
-      "date": "2026-11-05T07:24:28Z",
-      "description": "Citrix has disclosed a critical XenServer vulnerability that could let an unauthenticated attacker compromise virtualization hosts and supporting appliances. Tracked as CVE-2026-98432, the flaw requires access to the management network, an important limit when assessing which systems are exposed. The November 3 security bulletin covers XenServer 8.4 and XenServer 9, alongside affected Workload…",
+      "title": "Closing the Identity Gap at the Service Desk",
+      "link": "https://www.bleepingcomputer.com/news/security/closing-the-identity-gap-at-the-service-desk/",
+      "date": "2026-11-05T15:00:10Z",
+      "description": "Attackers target IT service desks to bypass MFA by impersonating employees and convincing staff to reset passwords or register new authentication devices. Specops Software explains why traditional identity verification methods are no longer sufficient and how organizations can secure account recovery against social engineering risks. [...]",
+      "source": "bleepingcomputer.com"
+    },
+    {
+      "title": "Hackers Turn Popular Chinese Keyboard Software Into a Backdoor for Cyberespionage Attacks",
+      "link": "https://cybersecuritynews.com/chinese-keyboard-software/",
+      "date": "2026-11-05T14:59:57Z",
+      "description": "A China-aligned hacking group is abusing Sogou Input Method, one of the most popular Chinese typing tools, to secretly install a backdoor called DarkVigil on Windows computers. The group is tracked as SlippyNunchucks. Since July 1, 2026, it has used the keyboard software to reach users in Hong Kong, Thailand, Japan, Vietnam, Sri Lanka and […] The post Hackers Turn Popular Chinese Keyboard…",
       "source": "cybersecuritynews.com"
     },
     {
-      "title": "Top 10 Best Security Data Lake Platforms in 2026 [Ranked & Scored]",
-      "link": "https://cybersecuritynews.com/top-10-best-security-data-lake-platforms-in-2026-ranked-scored/",
-      "date": "2026-11-05T07:19:17Z",
-      "description": "The security data lake movement is a jailbreak: telemetry escaping SIEM-priced storage into open formats on cheap object storage, with detection and query engines brought to the data. The 2026 field mixes general data clouds hosting security workloads, purpose-built security lakes, and SIEM vendors racing to rebuild atop lake economics before the exodus empties them. […] The post Top 10 Best…",
+      "title": "OpenSSH Flaw Could Let Attackers Bypass Password Authentication on Alpine Linux Servers",
+      "link": "https://cybersecuritynews.com/openssh-flaw-bypass-password-authentication/",
+      "date": "2026-11-05T14:58:40Z",
+      "description": "A critical OpenSSH flaw could let remote attackers bypass password authentication on affected Alpine Linux servers, including accounts intended for key-only access. OpenSSH released Portable 10.6p2 on November 5, 2026, to block the issue, which affects Linux systems using musl libc without PAM authentication. Research published on sshhole.com by Özgün Kültekin of Wakefield explains how […] The…",
       "source": "cybersecuritynews.com"
     },
     {
-      "title": "Apple to Scan for Every Photo and File Shared Through a Public iCloud Link for Harmful Content",
-      "link": "https://cybersecuritynews.com/apple-to-scan-for-every-photo-and-file/",
-      "date": "2026-11-05T07:18:40Z",
-      "description": "Apple will begin checking photos and files shared through public iCloud links for harmful content with version 27.3 or later of iOS, iPadOS, macOS, and visionOS. The policy covers items shared using “Anyone with the Link,” including photos stored in iCloud Photos and files held in iCloud Drive. Apple outlined the change in a support […] The post Apple to Scan for Every Photo and File Shared…",
+      "title": "ThreatsDay: Apache OFBiz RCE, DreamHost Breach, DeFi Site Hijacks + 17 More Stories",
+      "link": "https://thehackernews.com/2026/11/threatsday-apache-ofbiz-rce-dreamhost.html",
+      "date": "2026-11-05T14:41:10Z",
+      "description": "How much damage can someone do without breaking much? Quite a lot, it seems. A stolen login can open doors across several systems. A trusted setting can be used to lock people out. Even a simple file copy can reach places it shouldn't. And while new tools are helping find security holes faster, some important systems are still taking months, sometimes over a year, to get patched. Not exactly a",
+      "source": "thehackernews.com"
+    },
+    {
+      "title": "HYFLOCK Ransomware Encrypts Only First 4KB of Larger Files, Leaves Parts of Victims’ Files Accessible",
+      "link": "https://cybersecuritynews.com/hyflock-ransomware/",
+      "date": "2026-11-05T14:08:01Z",
+      "description": "HYFLOCK ransomware has an encryption weakness that leaves parts of larger files readable, giving affected organizations a limited chance to recover data without paying attackers. In the October 17 build, the malware encrypted only the first 4,096 bytes of larger files examined during testing, leaving content beyond that section accessible. The finding does not mean […] The post HYFLOCK…",
       "source": "cybersecuritynews.com"
     },
     {
-      "title": "Top 10 Best Security Log Management Tools in 2026 [Ranked & Scored]",
-      "link": "https://cybersecuritynews.com/best-security-log-management/",
-      "date": "2026-11-05T07:14:43Z",
-      "description": "Security logging has become a commodities market with three prices: the cost to move a log, to store it, and to ask it a question. The 2026 winners optimize different legs pipeline brokers slashing transit volume, hot-architecture engines making every byte queryable, cloud giants bundling retention into estates. This ranking scores ten tools on economics, […] The post Top 10 Best Security Log…",
+      "title": "Researchers Discover White House Network IP Available for Rent Through 28 Proxy Services",
+      "link": "https://cybersecuritynews.com/white-house-network-ip-for-rent/",
+      "date": "2026-11-05T13:31:43Z",
+      "description": "Researchers at Layer3 Intel found that 28 residential proxy services rent addresses on the White House network. Anyone with a few dollars could send web traffic through them. The activity ran from October 5 to November 3, 2026. The team spotted the activity while browsing its new Residential Proxy Observatory, a tool that shows proxy […] The post Researchers Discover White House Network IP…",
       "source": "cybersecuritynews.com"
     },
     {
-      "title": "Top 10 Best Threat Hunting Services in 2026 [Ranked & Scored]",
-      "link": "https://cybersecuritynews.com/best-threat-hunting-services/",
-      "date": "2026-11-05T07:02:34Z",
-      "description": "Detection engineering catches what you anticipated; threat hunting catches what you didn’t. The craft is hypothesis-driven “if an actor used this tradecraft here, what residue would exist?” and the services market sells it in two shapes: platform-native hunting across a vendor’s own telemetry ocean, and estate-attached hunting through MDR relationships. One jurisdictional note is handled […] The…",
+      "title": "Bank Phishing Sites Show Fake ‘Suspended’ Pages to Evade Takedowns",
+      "link": "https://www.securityweek.com/bank-phishing-sites-show-fake-suspended-pages-to-evade-takedowns/",
+      "date": "2026-11-05T13:22:12Z",
+      "description": "More than 200 sites were seen serving phishing content to first-time visitors but not to those who revisit. The post Bank Phishing Sites Show Fake ‘Suspended’ Pages to Evade Takedowns appeared first on SecurityWeek.",
+      "source": "securityweek.com"
+    },
+    {
+      "title": "ARTEX Hackers Expose Their Own Servers, Revealing AI Tools Behind South Korean Bank Breaches",
+      "link": "https://cybersecuritynews.com/artex-hackers/",
+      "date": "2026-11-05T13:11:17Z",
+      "description": "A hacker’s own mistake has given researchers a rare look at how AI tools were used to break into South Korean financial firms. The operator left several servers open to the public, and the exposed files showed which AI models, scripts and proxies powered the campaign. Between late September and early October 2026, seven South […] The post ARTEX Hackers Expose Their Own Servers, Revealing AI…",
       "source": "cybersecuritynews.com"
     },
     {
-      "title": "Hackers Exploit Patched Apple Flaw to Deliver Info-Stealing Malware, CISA Says",
-      "link": "https://thehackernews.com/2026/11/hackers-exploit-patched-apple-flaw-to.html",
-      "date": "2026-11-05T05:17:04Z",
-      "description": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Wednesday added a medium-severity security flaw impacting multiple Apple operating systems to its Known Exploited Vulnerabilities (KEV) catalog, following reports of active exploitation. The vulnerability in question is CVE-2024-27834 (CVSS score: 5.5), a case of improper authentication that could allow an attacker with",
+      "title": "Cyberattack Hits French Blood Bank Site but No Blood Products Are Compromised",
+      "link": "https://www.securityweek.com/cyberattack-hits-french-blood-bank-site-but-no-blood-products-are-compromised/",
+      "date": "2026-11-05T12:58:32Z",
+      "description": "The incident comes after supermarkets in a number of European countries reported this week that their fridges and freezers warmed up after they were remotely hacked. The post Cyberattack Hits French Blood Bank Site but No Blood Products Are Compromised appeared first on SecurityWeek.",
+      "source": "securityweek.com"
+    },
+    {
+      "title": "Cisco, WatchGuard Release Patches; SonicWall Won’t Fix GMS Flaws",
+      "link": "https://www.securityweek.com/cisco-watchguard-release-patches-sonicwall-wont-fix-gms-flaws/",
+      "date": "2026-11-05T12:33:49Z",
+      "description": "Cisco patched an RCE in UCS Central Software; WatchGuard fixed authentication and MitM flaws. The post Cisco, WatchGuard Release Patches; SonicWall Won’t Fix GMS Flaws appeared first on SecurityWeek.",
+      "source": "securityweek.com"
+    },
+    {
+      "title": "Is Your Exposure Management Platform Leaving You Exposed? Five Tests to Find Out",
+      "link": "https://thehackernews.com/2026/11/is-your-exposure-management-platform.html",
+      "date": "2026-11-05T12:25:00Z",
+      "description": "A critical finding can move through several security tools and still leave the organization exposed. The vulnerability has a severity score, and a ticket has reached the queue. Progress then depends on information the finding may lack: who owns the system, whether attackers can reach it, what protection exists, and how a change could affect the business. Each missing detail creates",
       "source": "thehackernews.com"
     },
     {
       "title": "OpenAI AI Pipeline Generates 948 Linux Root Escalation Exploits in 30-Hour Run",
       "link": "https://thehackernews.com/2026/11/openai-ai-pipeline-generates-948-linux.html",
-      "date": "2026-11-05T04:31:16Z",
+      "date": "2026-11-05T12:08:54Z",
       "description": "OpenAI on Wednesday detailed a pipeline that employed an upcoming cyber-focused artificial intelligence (AI) model to validate and patch 948 local privilege escalation vulnerabilities in Linux for $1.2 million in API costs. \"Our prototype identified and analyzed 2,308 candidate Linux kernel findings, dynamically reproduced 1,724 vulnerabilities, and produced 948 local privilege escalation (LPE)",
+      "source": "thehackernews.com"
+    },
+    {
+      "title": "The Agent Smith Dilemma: Governing Agentic Identities",
+      "link": "https://www.securityweek.com/the-agent-smith-dilemma-governing-agentic-identities/",
+      "date": "2026-11-05T11:15:00Z",
+      "description": "Every autonomous AI agent deployed across your enterprise today is a new proxy identity operating inside your perimeter. The post The Agent Smith Dilemma: Governing Agentic Identities appeared first on SecurityWeek.",
+      "source": "securityweek.com"
+    },
+    {
+      "title": "CISO Conversations: Ryan Davis – The Unknown Is Where Security Meets Reality",
+      "link": "https://www.securityweek.com/ciso-conversations-ryan-davis-the-unknown-is-where-security-meets-reality/",
+      "date": "2026-11-05T11:00:00Z",
+      "description": "Ryan Davis went from hacking his school’s network to running security at New Charter Technologies. What worries him now is shadow AI. The post CISO Conversations: Ryan Davis – The Unknown Is Where Security Meets Reality appeared first on SecurityWeek.",
+      "source": "securityweek.com"
+    },
+    {
+      "title": "5 Active Cyber Threats That Put US Enterprises at Risk in October 2026",
+      "link": "https://thehackernews.com/2026/11/5-active-cyber-threats-that-put-us.html",
+      "date": "2026-11-05T10:06:19Z",
+      "description": "October 2026 brought another wave of cyber threats targeting US businesses, with attackers exploiting trusted platforms, legitimate authentication processes, and everyday business workflows. For enterprises, these campaigns raise the stakes beyond individual security incidents, increasing the risk of financial losses, data breaches, and costly operational disruption. Below, we examine five",
+      "source": "thehackernews.com"
+    },
+    {
+      "title": "GhostMap Android flaw lets malicious app trigger persistent boot loop",
+      "link": "https://www.bleepingcomputer.com/news/security/ghostmap-android-flaw-lets-malicious-app-trigger-persistent-boot-loop/",
+      "date": "2026-11-05T09:18:29Z",
+      "description": "Attackers can force Android devices into a continuous boot loop using a specially crafted app that requires no permissions and only needs to be installed. [...]",
+      "source": "bleepingcomputer.com"
+    },
+    {
+      "title": "Apple to Start Scanning Publicly Shared iCloud Photos and Files for Harmful Content",
+      "link": "https://thehackernews.com/2026/11/apple-to-start-scanning-publicly-shared.html",
+      "date": "2026-11-05T09:13:28Z",
+      "description": "Apple has revealed that it plans to start checking public iCloud links for harmful content starting with iOS 27.3, iPadOS 27.3, macOS 27.3, and visionOS 27.3. The change specifically applies to scenarios where users share iCloud content, such as photos in iCloud Photos or files in iCloud Drive, by sharing a link and making it accessible to \"Anyone with the link.\" When users choose this option,",
       "source": "thehackernews.com"
     },
     {
@@ -80,34 +150,6 @@
       "source": "bleepingcomputer.com"
     },
     {
-      "title": "Cyberattack disrupts blood storage refrigeration systems in France",
-      "link": "https://www.bleepingcomputer.com/news/security/cyberattack-disrupts-blood-storage-refrigeration-systems-in-france/",
-      "date": "2026-11-04T18:02:56Z",
-      "description": "France's national blood service has confirmed that a cyberattack targeting a refrigeration equipment provider raised temperature and defrost settings at three of its facilities, threatening stored blood products. [...]",
-      "source": "bleepingcomputer.com"
-    },
-    {
-      "title": "Debian and Ubuntu APT Flaw Lets MitM Attackers Swap Verified Packages and Run Code as Root",
-      "link": "https://thehackernews.com/2026/11/debian-and-ubuntu-apt-flaw-lets-mitm.html",
-      "date": "2026-11-04T17:00:46Z",
-      "description": "A flaw in APT, the package manager for Debian and Ubuntu, allows an attacker who can modify package downloads to swap a checked package for their own. The attacker's code then runs as root, according to advisories that Debian, Ubuntu, and APT's developers published on November 4. The attack needs APT to retry failed downloads, which it does by default from Debian 12 and",
-      "source": "thehackernews.com"
-    },
-    {
-      "title": "SonicWall Won't Patch EoL GMS Flaws That Could Expose Files, Alter Database Records",
-      "link": "https://thehackernews.com/2026/11/sonicwall-wont-patch-eol-gms-flaws-that.html",
-      "date": "2026-11-04T17:00:38Z",
-      "description": "SonicWall has warned of two vulnerabilities impacting end-of-life Global Management System (GMS) systems that it said will not be patched. Details of the security flaws, which affect SonicWall GMS 9.5.2 and earlier versions, are below - CVE-2026-109593 (CVSS score: 9.1) - An unauthenticated file read vulnerability that could allow an attacker with network access to read internal GMS files,",
-      "source": "thehackernews.com"
-    },
-    {
-      "title": "NIKKE PC game launcher hacked to spread remote access, data-stealing malware",
-      "link": "https://www.bleepingcomputer.com/news/security/nikke-pc-game-launcher-hacked-to-spread-remote-access-data-stealing-malware/",
-      "date": "2026-11-04T16:58:46Z",
-      "description": "The developers of Goddess of Victory: NIKKE have confirmed that hackers tampered with the game's PC launcher scripts in a supply-chain attack, distributing malware capable of stealing credentials and cryptocurrency wallet data. [...]",
-      "source": "bleepingcomputer.com"
-    },
-    {
       "title": "Google, Partners Disrupt 1.3 Million-Device-Strong XCPE Botnet",
       "link": "https://www.darkreading.com/endpoint-security/google-13-million-device-strong-xcpe-botnet",
       "date": "2026-11-04T16:24:08Z",
@@ -115,53 +157,11 @@
       "source": "darkreading.com"
     },
     {
-      "title": "Researchers Uncover Prompt Adware Hidden in OpenAI Codex Jailbreak Toolkit",
-      "link": "https://thehackernews.com/2026/11/researchers-uncover-prompt-adware.html",
-      "date": "2026-11-04T16:06:43Z",
-      "description": "Cybersecurity researchers have disclosed details of an OpenAI Codex jailbreak bundle that's designed to modify an artificial intelligence (AI) agent's trusted instructions to insert advertisements for a third-party AI gateway. The phenomenon has been codenamed prompt adware by Check Point Research. Called Haiou (meaning Seagull in Chinese), the jailbreak modifies OpenAI Codex's configuration",
-      "source": "thehackernews.com"
-    },
-    {
-      "title": "Sysdig Adds Runtime Security and Governance for AI Agents",
-      "link": "https://www.securityweek.com/sysdig-adds-runtime-security-and-governance-for-ai-agents/",
-      "date": "2026-11-04T14:34:44Z",
-      "description": "Sysdig’s platform uses runtime visibility to track AI agent actions and block risky behavior before it reaches production systems. The post Sysdig Adds Runtime Security and Governance for AI Agents appeared first on SecurityWeek.",
-      "source": "securityweek.com"
-    },
-    {
-      "title": "Barracuda ESG Authentication Bypass Flaw Opens Path to Root",
-      "link": "https://www.securityweek.com/barracuda-email-security-gateway-authentication-bypass-opens-path-to-root/",
-      "date": "2026-11-04T14:24:54Z",
-      "description": "An authentication bypass and a command injection flaw can be chained for root access on Barracuda’s Email Security Gateway appliances. The post Barracuda ESG Authentication Bypass Flaw Opens Path to Root appeared first on SecurityWeek.",
-      "source": "securityweek.com"
-    },
-    {
       "title": "Incidents Move Too Fast for Pen &amp; Paper",
       "link": "https://www.darkreading.com/cybersecurity-operations/incidents-move-fast-pen-paper",
       "date": "2026-11-04T14:17:00Z",
       "description": "Organizations may not be ready for completely autonomous communication processes, but there are places where automating information updates would alleviate pressure.",
       "source": "darkreading.com"
-    },
-    {
-      "title": "Agentic Data Security Firm Sentra Raises $150 Million",
-      "link": "https://www.securityweek.com/agentic-data-security-firm-sentra-raises-150-million/",
-      "date": "2026-11-04T14:09:20Z",
-      "description": "The company will invest in agentic data security capabilities and expand its go-to-market organization. The post Agentic Data Security Firm Sentra Raises $150 Million appeared first on SecurityWeek.",
-      "source": "securityweek.com"
-    },
-    {
-      "title": "AI-Linked Breaches Mount as WorkOS, Northflank, Trigger.dev Disclose Hacks",
-      "link": "https://www.securityweek.com/ai-linked-breaches-mount-as-workos-northflank-trigger-dev-disclose-hacks/",
-      "date": "2026-11-04T12:43:20Z",
-      "description": "Hackers have been harvesting AI access tokens and have been using AI-assisted offensive tools to automate attacks. The post AI-Linked Breaches Mount as WorkOS, Northflank, Trigger.dev Disclose Hacks appeared first on SecurityWeek.",
-      "source": "securityweek.com"
-    },
-    {
-      "title": "Canadian Extradited to US Over Cryptomining Hacks on University Supercomputers",
-      "link": "https://www.securityweek.com/canadian-extradited-to-us-over-cryptomining-hacks-on-university-supercomputers/",
-      "date": "2026-11-04T12:27:58Z",
-      "description": "A federal grand jury indicted two Canadian men for hijacking university supercomputers to secretly mine Electroneum cryptocurrency. The post Canadian Extradited to US Over Cryptomining Hacks on University Supercomputers appeared first on SecurityWeek.",
-      "source": "securityweek.com"
     },
     {
       "title": "ZDI-CAN-36787: Autodesk",
