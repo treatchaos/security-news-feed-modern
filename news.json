@@ -1,7 +1,35 @@
 {
-  "last_updated": "2026-11-07T07:58:02Z",
+  "last_updated": "2026-11-07T14:37:30Z",
   "count": 35,
   "items": [
+    {
+      "title": "CTM360 Exposes Fake Gift Card Scams Exploiting Trusted Brands",
+      "link": "https://www.bleepingcomputer.com/news/security/ctm360-exposes-fake-gift-card-scams-exploiting-trusted-brands/",
+      "date": "2026-11-07T14:10:19Z",
+      "description": "Scammers are impersonating major brands and celebrities to lure consumers into fake gift card giveaways that collect personal information and trigger unwanted subscriptions. CTM360 reveals how these campaigns use deceptive verification steps and affiliate networks to generate revenue without delivering the promised rewards. [...]",
+      "source": "bleepingcomputer.com"
+    },
+    {
+      "title": "SonicWall Warns of Potential In-the-Wild Exploitation of SSLVPN Flaw That Bypasses MFA",
+      "link": "https://cybersecuritynews.com/sonicos-sslvpn-vulnerability-exploited/",
+      "date": "2026-11-07T12:59:02Z",
+      "description": "SonicWall has warned customers to patch a SonicOS SSLVPN vulnerability that could let attackers bypass SAML authentication and its multi-factor authentication checks. Tracked as CVE-2026-19868, the flaw carries a CVSS score of 7.1. The company has investigated a report indicating potential exploitation and strongly urges customers to upgrade promptly. The issue affects SSLVPN only when […] The…",
+      "source": "cybersecuritynews.com"
+    },
+    {
+      "title": "SonicWall Patches Exploited SonicOS Vulnerability That Weakens VPN Logins",
+      "link": "https://www.securityweek.com/sonicwall-patches-exploited-sonicos-bug-that-weakens-vpn-logins/",
+      "date": "2026-11-07T10:16:23Z",
+      "description": "CVE-2026-19868 can let attackers holding credentials for a different login method get past SAML checks, including SAML-enforced MFA. The post SonicWall Patches Exploited SonicOS Vulnerability That Weakens VPN Logins appeared first on SecurityWeek.",
+      "source": "securityweek.com"
+    },
+    {
+      "title": "Claude Code’s “Yes, and Don’t Ask Again” Option Can Leak Passwords and API Keys to GitHub",
+      "link": "https://cybersecuritynews.com/claude-codes-yes-and-dont-ask-again/",
+      "date": "2026-11-07T08:20:25Z",
+      "description": "Claude Code’s “Yes, and don’t ask again” option can save passwords and API keys inside project settings that later reach public GitHub repositories. Apiiro researchers found 2,539 distinct secrets across 1,994 public repositories, showing how a routine approval can turn private credentials into public data. The research identified 63 affected organizations, mostly software companies. Exposed […]…",
+      "source": "cybersecuritynews.com"
+    },
     {
       "title": "Claude Code's “Don't Ask Again” File Exposes Passwords and Keys in 1,122 Public Copies on GitHub",
       "link": "https://thehackernews.com/2026/11/claude-codes-dont-ask-again-file.html",
@@ -73,13 +101,6 @@
       "source": "darkreading.com"
     },
     {
-      "title": "QNAP says hackers breaching NAS devices in Plex2Shell attacks",
-      "link": "https://www.bleepingcomputer.com/news/security/qnap-says-hackers-breaching-nas-devices-in-plex2shell-attacks/",
-      "date": "2026-11-06T17:04:23Z",
-      "description": "QNAP urges users to update Plex Media Server to the latest version available in the QNAP App Center, as hackers are exploiting the Plex2Shell vulnerability chain. [...]",
-      "source": "bleepingcomputer.com"
-    },
-    {
       "title": "Installing the Fix for an Exploited WordPress Flaw Can Expose Some Sites One Last Time",
       "link": "https://thehackernews.com/2026/11/installing-fix-for-exploited-wordpress.html",
       "date": "2026-11-06T16:08:38Z",
@@ -115,20 +136,6 @@
       "source": "securityweek.com"
     },
     {
-      "title": "Microsoft Warns Fake Game Downloads Are Secretly Monetizing Windows PCs",
-      "link": "https://cybersecuritynews.com/microsoft-warns-fake-game-downloads/",
-      "date": "2026-11-06T14:38:43Z",
-      "description": "Fake game downloads and cracked software installers are turning Windows PCs into money-making tools for campaign operators. Microsoft has warned that deceptive installation packages quietly deliver software that shares internet bandwidth, runs distributed-computing workloads, or installs unwanted utilities, often without users understanding what they have agreed to install. The campaign targets…",
-      "source": "cybersecuritynews.com"
-    },
-    {
-      "title": "Anthropic’s Claude Code Reportedly Leaks User Email Addresses Through HTTP User-Agent Headers",
-      "link": "https://cybersecuritynews.com/claude-code-leaks-user-email/",
-      "date": "2026-11-06T14:37:40Z",
-      "description": "Anthropic’s Claude Code is facing privacy concerns after a user reported that the AI coding tool sent their email address to third-party websites through HTTP User-Agent headers during web searches, without permission. The report raises questions about how coding agents handle personal data while carrying out routine tasks. GitHub user taylor-edwards filed issue #107757 on […] The post…",
-      "source": "cybersecuritynews.com"
-    },
-    {
       "title": "DigiCert Data Breach Impacts Business Customer Information",
       "link": "https://www.securityweek.com/digicert-data-breach-impacts-business-customer-information/",
       "date": "2026-11-06T14:00:07Z",
@@ -147,13 +154,6 @@
       "link": "https://www.securityweek.com/openai-says-new-gpt-6-cyber-model-hunts-flaws-without-crossing-the-line/",
       "date": "2026-11-06T13:19:52Z",
       "description": "Rated Critical for cybersecurity, OpenAI’s new model beats GPT-5.6 Cyber at exploitation while staying in scope more reliably. The post OpenAI Says New GPT-6 Cyber Model Hunts Flaws Without Crossing the Line appeared first on SecurityWeek.",
-      "source": "securityweek.com"
-    },
-    {
-      "title": "US Agencies Urge Organizations to Harden Refrigeration Controllers",
-      "link": "https://www.securityweek.com/us-agencies-urge-organizations-to-harden-refrigeration-controllers/",
-      "date": "2026-11-06T13:02:26Z",
-      "description": "The recommendations come amid attacks targeting fridges and freezers in supermarkets and blood banks in Europe. The post US Agencies Urge Organizations to Harden Refrigeration Controllers appeared first on SecurityWeek.",
       "source": "securityweek.com"
     },
     {

@@ -1,7 +1,47 @@
 {
   "date": "2026-11-07",
-  "count": 5,
+  "count": 9,
   "items": [
+    {
+      "id": "3866ddde82cae0610ed007514d298aaef85e91d4",
+      "title": "CTM360 Exposes Fake Gift Card Scams Exploiting Trusted Brands",
+      "link": "https://www.bleepingcomputer.com/news/security/ctm360-exposes-fake-gift-card-scams-exploiting-trusted-brands/",
+      "date": "2026-11-07T14:10:19Z",
+      "description": "Scammers are impersonating major brands and celebrities to lure consumers into fake gift card giveaways that collect personal information and trigger unwanted subscriptions. CTM360 reveals how these campaigns use deceptive verification steps and affiliate networks to generate revenue without delivering the promised rewards. [...]",
+      "source": "bleepingcomputer.com",
+      "first_seen": "2026-11-07T14:37:30Z",
+      "last_seen": "2026-11-07T14:37:30Z"
+    },
+    {
+      "id": "0eadb236ef8d8a76c37cdab1ceb84534dfc3a225",
+      "title": "SonicWall Warns of Potential In-the-Wild Exploitation of SSLVPN Flaw That Bypasses MFA",
+      "link": "https://cybersecuritynews.com/sonicos-sslvpn-vulnerability-exploited/",
+      "date": "2026-11-07T12:59:02Z",
+      "description": "SonicWall has warned customers to patch a SonicOS SSLVPN vulnerability that could let attackers bypass SAML authentication and its multi-factor authentication checks. Tracked as CVE-2026-19868, the flaw carries a CVSS score of 7.1. The company has investigated a report indicating potential exploitation and strongly urges customers to upgrade promptly. The issue affects SSLVPN only when […] The…",
+      "source": "cybersecuritynews.com",
+      "first_seen": "2026-11-07T14:37:30Z",
+      "last_seen": "2026-11-07T14:37:30Z"
+    },
+    {
+      "id": "d2eaccbc2f59bc340b1d1d0b90ece57b597f3102",
+      "title": "SonicWall Patches Exploited SonicOS Vulnerability That Weakens VPN Logins",
+      "link": "https://www.securityweek.com/sonicwall-patches-exploited-sonicos-bug-that-weakens-vpn-logins/",
+      "date": "2026-11-07T10:16:23Z",
+      "description": "CVE-2026-19868 can let attackers holding credentials for a different login method get past SAML checks, including SAML-enforced MFA. The post SonicWall Patches Exploited SonicOS Vulnerability That Weakens VPN Logins appeared first on SecurityWeek.",
+      "source": "securityweek.com",
+      "first_seen": "2026-11-07T14:37:30Z",
+      "last_seen": "2026-11-07T14:37:30Z"
+    },
+    {
+      "id": "57c75a91386bf1e02e9b4e3344376ef4129e304e",
+      "title": "Claude Code’s “Yes, and Don’t Ask Again” Option Can Leak Passwords and API Keys to GitHub",
+      "link": "https://cybersecuritynews.com/claude-codes-yes-and-dont-ask-again/",
+      "date": "2026-11-07T08:20:25Z",
+      "description": "Claude Code’s “Yes, and don’t ask again” option can save passwords and API keys inside project settings that later reach public GitHub repositories. Apiiro researchers found 2,539 distinct secrets across 1,994 public repositories, showing how a routine approval can turn private credentials into public data. The research identified 63 affected organizations, mostly software companies. Exposed […]…",
+      "source": "cybersecuritynews.com",
+      "first_seen": "2026-11-07T14:37:30Z",
+      "last_seen": "2026-11-07T14:37:30Z"
+    },
     {
       "id": "c10872ec68a11ff1c3bf69912bbb83bd3034f230",
       "title": "Claude Code's “Don't Ask Again” File Exposes Passwords and Keys in 1,122 Public Copies on GitHub",
@@ -10,7 +50,7 @@
       "description": "Passwords and API keys that developers typed into commands they approved in Claude Code are sitting in public GitHub repositories, where anyone can read them. When a user selects \"Yes, and don't ask again,\" Anthropic's AI coding assistant can save the command, word-for-word, including the secret, in a project settings file. Software security company Apiiro said yesterday that 1,122 public",
       "source": "thehackernews.com",
       "first_seen": "2026-11-07T07:58:02Z",
-      "last_seen": "2026-11-07T07:58:02Z"
+      "last_seen": "2026-11-07T14:37:30Z"
     },
     {
       "id": "8a5624603fd38b5c195eab00adcad3be02f23268",
@@ -20,7 +60,7 @@
       "description": "WorkOS says an ARTEX AI security agent escaped a researcher’s test environment and accessed customer information through an exposed internal tool. In its November 6, 2026 update, the company attributed the incident to unintended activity during cybersecurity benchmark testing, rather than a person acting with malicious intent. The researcher came forward after WorkOS published its […] The post…",
       "source": "cybersecuritynews.com",
       "first_seen": "2026-11-07T07:58:02Z",
-      "last_seen": "2026-11-07T07:58:02Z"
+      "last_seen": "2026-11-07T14:37:30Z"
     },
     {
       "id": "7b53ea71819c379b61db7f070c1d5ac64f158d1b",
@@ -30,7 +70,7 @@
       "description": "Toronto, Canada, November 6th, 2026, CyberNewswire Free, read-only scanner helps organizations find Linux servers and container images exposed to two actively exploited vulnerabilities in PHP and Node.js Insignary, a global open-source security company, today released insignary-chk, a free tool that checks for PHP2Shell and Node2Shell, two recently disclosed runtime vulnerabilities affecting PHP…",
       "source": "cybersecuritynews.com",
       "first_seen": "2026-11-07T07:58:02Z",
-      "last_seen": "2026-11-07T07:58:02Z"
+      "last_seen": "2026-11-07T14:37:30Z"
     },
     {
       "id": "3876123d56acf1094ecb3457da49ce6a215194c3",
@@ -40,7 +80,7 @@
       "description": "SonicWall has released security updates to fix seven vulnerabilities in SonicOS firewalls, including an SSL-VPN authentication bypass flaw exploited in attacks. [...]",
       "source": "bleepingcomputer.com",
       "first_seen": "2026-11-07T01:25:40Z",
-      "last_seen": "2026-11-07T07:58:02Z"
+      "last_seen": "2026-11-07T14:37:30Z"
     },
     {
       "id": "592368c1aa2351ca66a006c05bdf2ffddcd27a59",
@@ -50,7 +90,7 @@
       "description": "WorkOS says an AI-powered hacking agent that breached its internal sales application and accessed customer information was operated by a security researcher who claims the tool escaped its testing environment and unintentionally attacked the company. [...]",
       "source": "bleepingcomputer.com",
       "first_seen": "2026-11-07T01:25:40Z",
-      "last_seen": "2026-11-07T07:58:02Z"
+      "last_seen": "2026-11-07T14:37:30Z"
     }
   ]
 }
