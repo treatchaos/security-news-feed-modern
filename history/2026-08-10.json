@@ -1,6 +1,6 @@
 {
   "date": "2026-08-10",
-  "count": 14,
+  "count": 5,
   "items": [
     {
       "id": "db72deb8255334ad14b0b27ead319aff6d426a0d",
@@ -51,96 +51,6 @@
       "source": "darkreading.com",
       "first_seen": "2026-08-10T21:31:07Z",
       "last_seen": "2026-08-12T12:42:28Z"
-    },
-    {
-      "id": "453dc391a0d0ab933fb8c264d05f2174f658585a",
-      "title": "OpenAI releases ChatGPT 5.6 Cyber, but it's only for approved users",
-      "link": "https://www.bleepingcomputer.com/news/security/openai-releases-chatgpt-56-cyber-but-its-only-for-approved-users/",
-      "date": "2026-08-10T19:24:40Z",
-      "description": "OpenAI has developed a new model called \"GPT 5.6 Cyber,\" designed for vulnerability research, penetration testing, incident response, and remediation. [...]",
-      "source": "bleepingcomputer.com",
-      "first_seen": "2026-08-10T19:46:50Z",
-      "last_seen": "2026-08-11T11:36:29Z"
-    },
-    {
-      "id": "3a6fa3daabfc6ee5eeeedaf5515b74bb1c6978f8",
-      "title": "The Patch Gap: Why Defenders Need to Think in Chains, Not Checklists",
-      "link": "https://www.darkreading.com/cybersecurity-operations/patch-gap-defenders-chains-not-checklists",
-      "date": "2026-08-10T17:56:34Z",
-      "description": "It's time to turn from CVSS-backed patching to choke-point patching focused on breaking chains to critical assets.",
-      "source": "darkreading.com",
-      "first_seen": "2026-08-10T18:41:06Z",
-      "last_seen": "2026-08-11T20:33:03Z"
-    },
-    {
-      "id": "dcba1b76437b434384f727104509df5120be1481",
-      "title": "New StormEncryptor ransomware used by former Medusa affiliate",
-      "link": "https://www.bleepingcomputer.com/news/security/new-stormencryptor-ransomware-used-by-former-medusa-affiliate/",
-      "date": "2026-08-10T17:42:00Z",
-      "description": "A financially motivated threat actor previously associated with the Medusa ransomware operation is now deploying a new ransomware strain called StormEncryptor. [...]",
-      "source": "bleepingcomputer.com",
-      "first_seen": "2026-08-10T17:43:15Z",
-      "last_seen": "2026-08-11T10:40:55Z"
-    },
-    {
-      "id": "4eee7c2fcead824c10fcf2dd6b1331e9e89dd7e1",
-      "title": "Gunra Ransomware Exploits Fortinet VPN Flaws to Bypass MFA and Steal Enterprise Data",
-      "link": "https://cybersecuritynews.com/gunra-ransomware-exploits-fortinet-vpn-flaws/",
-      "date": "2026-08-10T17:24:00Z",
-      "description": "A joint cybersecurity advisory from the FBI, CISA, the Department of Defense Cyber Crime Center, the NSA, the U.S. Secret Service, and South Korea’s National Police Agency has exposed a dangerous new wave of attacks by the Gunra ransomware group, which is actively exploiting known Fortinet VPN vulnerabilities to bypass multi-factor authentication and exfiltrate sensitive […] The post Gunra…",
-      "source": "cybersecuritynews.com",
-      "first_seen": "2026-08-10T17:43:15Z",
-      "last_seen": "2026-08-10T22:25:44Z"
-    },
-    {
-      "id": "2f8574c690bb043f2099ab9a604571686c62462f",
-      "title": "Coruna, DarkSword iOS Exploits Proliferate Globally",
-      "link": "https://www.darkreading.com/vulnerabilities-threats/coruna-darksword-ios-exploits-proliferate-globally",
-      "date": "2026-08-10T17:09:20Z",
-      "description": "Sophisticated iPhone exploit chains previously limited to nation-states are spreading far and wide to organized cybercrime groups.",
-      "source": "darkreading.com",
-      "first_seen": "2026-08-10T17:43:15Z",
-      "last_seen": "2026-08-11T20:33:03Z"
-    },
-    {
-      "id": "b840556d5e419e0ce6c8c0bdb85f3a7abb3c326d",
-      "title": "China-Linked Hackers Deploy New StormEncryptor Ransomware, Likely via N-central Flaw",
-      "link": "https://thehackernews.com/2026/08/china-linked-hackers-deploy-new.html",
-      "date": "2026-08-10T16:38:37Z",
-      "description": "Microsoft has disclosed that Storm-1175, a financially motivated threat actor linked to China, has deployed a previously undocumented ransomware strain called StormEncryptor. The use of StormEncryptor marks a shift from the adversary's previous use of Medusa ransomware, the Microsoft Threat Intelligence Team said. \"StormEncryptor is written in C++ and appends the file name extension .encrypted",
-      "source": "thehackernews.com",
-      "first_seen": "2026-08-10T18:41:06Z",
-      "last_seen": "2026-08-11T10:40:55Z"
-    },
-    {
-      "id": "7ff077ba38b4097fdaefac84b1c8ad990d4a270d",
-      "title": "HP ThinPro TPM Disk Encryption Flaw Lets Attackers Extract LUKS Keys",
-      "link": "https://cybersecuritynews.com/hp-thinpro-tpm-disk-encryption-flaw/",
-      "date": "2026-08-10T16:26:46Z",
-      "description": "A security researcher has disclosed a boot-chain weakness in HP ThinPro 8 and 9 that could allow attackers with physical access to a thin client to extract its LUKS disk-encryption key. The issue affects HP thin clients in which LUKS2 protects the operating system’s encrypted root partition, and the decryption key is sealed inside the […] The post HP ThinPro TPM Disk Encryption Flaw Lets…",
-      "source": "cybersecuritynews.com",
-      "first_seen": "2026-08-10T17:43:15Z",
-      "last_seen": "2026-08-10T22:25:44Z"
-    },
-    {
-      "id": "dd4794706ddc9d7052a4422ee0a99e632d20b293",
-      "title": "Pass-the-Passkey Attacks Expose Windows 11 and Microsoft Entra ID, Bypassing MFA",
-      "link": "https://cybersecuritynews.com/pass-the-passkey-attacks/",
-      "date": "2026-08-10T16:24:29Z",
-      "description": "A new “Pass-the-Passkey” family of attack techniques demonstrates how systemic implementation flaws surrounding WebAuthn can undermine passkey security even when cryptographic private keys remain securely stored inside hardware tokens or trusted enclaves. SpecterOps research highlights three core vulnerabilities across the WebAuthn ecosystem and over 20 distinct attack techniques impacting…",
-      "source": "cybersecuritynews.com",
-      "first_seen": "2026-08-10T17:43:15Z",
-      "last_seen": "2026-08-10T22:25:44Z"
-    },
-    {
-      "id": "6a6a90ab729e37bcc3ffabddcdc3e7fe54fc1aa1",
-      "title": "Claude Code Shifts Agent Security From Repeated Human Approval to Auto Mode",
-      "link": "https://cybersecuritynews.com/claude-code-shifts-agent-security/",
-      "date": "2026-08-10T16:17:57Z",
-      "description": "Anthropic is changing how Claude Code handles risky commands, moving away from constant human approval prompts and toward an automated safety classifier called auto mode. Starting August 14, 2026, auto mode will become the default setting for new sessions on Claude Code’s Pro, Max, and Team plans, marking a major shift in how AI coding […] The post Claude Code Shifts Agent Security From Repeated…",
-      "source": "cybersecuritynews.com",
-      "first_seen": "2026-08-10T17:43:15Z",
-      "last_seen": "2026-08-10T22:25:44Z"
     }
   ]
 }
