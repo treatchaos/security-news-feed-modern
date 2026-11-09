@@ -1,7 +1,56 @@
 {
-  "last_updated": "2026-11-08T16:50:16Z",
+  "last_updated": "2026-11-09T07:23:54Z",
   "count": 35,
   "items": [
+    {
+      "title": "U.S. Agencies Warn of Hackers Targeting Industrial Refrigeration to Disrupt Food and Medicine Storage",
+      "link": "https://cybersecuritynews.com/hackers-targeting-industrial-refrigeration-systems/",
+      "date": "2026-11-09T06:52:21Z",
+      "description": "CISA, FBI, HHS, USDA, and DOT have warned that hackers are targeting industrial refrigeration and cold chain monitoring systems worldwide, putting food, medicine, and other temperature-sensitive goods at risk. The November 5, 2026, warning urges operators to secure exposed controllers before attackers can change temperatures, damage equipment, or disrupt storage operations. The joint federal…",
+      "source": "cybersecuritynews.com"
+    },
+    {
+      "title": "U.S. Agencies Warn Refrigeration Controller Attacks Could Cause Fires and Inventory Losses",
+      "link": "https://thehackernews.com/2026/11/us-agencies-warn-refrigeration.html",
+      "date": "2026-11-09T06:15:10Z",
+      "description": "U.S. government agencies have warned that threat actors are actively targeting industrial refrigeration and cold-chain monitoring systems globally with an aim to cause service disruptions, fire hazards, and loss of inventory. \"The actors may exploit vulnerabilities or weaknesses in unpatched or internet-accessible controllers to remotely alter settings and force units into continuous heating",
+      "source": "thehackernews.com"
+    },
+    {
+      "title": "CISA Flags SonicWall SonicOS MFA Bypass Flaw Amid Reports of Possible Exploitation",
+      "link": "https://thehackernews.com/2026/11/cisa-flags-sonicwall-sonicos-mfa-bypass.html",
+      "date": "2026-11-09T06:05:24Z",
+      "description": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) has added a high-severity vulnerability impacting SonicWall SonicOS to its Known Exploited Vulnerabilities (KEV) catalog, following reports that it said may have been exploited in real-world attacks. The vulnerability, tracked as CVE-2026-19868 (CVSS score: 7.1 / 7.5), has been described as an authentication reinforcement",
+      "source": "thehackernews.com"
+    },
+    {
+      "title": "Hackers Begin Exploiting OpenSSH SSHole Authentication Bypass Vulnerability",
+      "link": "https://cybersecuritynews.com/openssh-sshole-flaw-exploited/",
+      "date": "2026-11-09T05:24:19Z",
+      "description": "Attackers have started targeting the SSHole authentication bypass affecting certain OpenSSH servers, according to new SANS Internet Storm Center findings. The flaw allows remote attackers to access some password-disabled Linux accounts by submitting an unusually long password, without knowing valid credentials or holding an SSH key. SANS researcher Johannes Ullrich reported the first clear…",
+      "source": "cybersecuritynews.com"
+    },
+    {
+      "title": "Claude AI Accidentally Deletes Law Professor’s Entire Syllabus and One Year of Lecture Notes",
+      "link": "https://cybersecuritynews.com/claude-ai-deletes-law-professors-entire-syllabus/",
+      "date": "2026-11-09T03:11:42Z",
+      "description": "University of Chicago law professor William Baude says Anthropic’s Claude AI deleted his current syllabus and a year of constitutional law lecture notes while handling a simple editing task. He recovered every file through Dropbox, preventing the mistake from becoming a permanent loss of teaching material. Baude shared the incident on November 5, 2026, explaining […] The post Claude AI…",
+      "source": "cybersecuritynews.com"
+    },
+    {
+      "title": "NVIDIA Investigates Suspected Chinese Spy Operation Targeting CEO Jensen Huang",
+      "link": "https://cybersecuritynews.com/nvidia-investigates-chinese-spy-operation/",
+      "date": "2026-11-09T02:36:57Z",
+      "description": "NVIDIA has opened an independent investigation into reports that a foreign intelligence operation targeted founder and CEO Jensen Huang. Announced on November 8, 2026, the review will examine the reported activity and any possible security impact. The board said it has no reason to believe company secrets or U.S. national security were compromised. A committee […] The post NVIDIA Investigates…",
+      "source": "cybersecuritynews.com"
+    },
+    {
+      "title": "Critical React Server Components Flaw Lets Hackers Execute Code Remotely Without Authentication",
+      "link": "https://cybersecuritynews.com/react-server-components-vulnerability-patch/",
+      "date": "2026-11-09T02:13:53Z",
+      "description": "A critical security flaw in React Server Components can let attackers run code remotely without logging in. React published the advisory, tracked as GHSA-xqc2-xf4c-x3h3, on October 14, 2026. The issue carries a CVSS v4 score of 9.5, and the React team recommends immediate updates for affected applications. The flaw affects react-server-dom-webpack, react-server-dom-parcel, and…",
+      "source": "cybersecuritynews.com"
+    },
     {
       "title": "Iris Ohyama data cloud breach exposes info of 7.7 million customers",
       "link": "https://www.bleepingcomputer.com/news/security/iris-ohyama-data-cloud-breach-exposes-info-of-77-million-customers/",
@@ -31,25 +80,11 @@
       "source": "bleepingcomputer.com"
     },
     {
-      "title": "SonicWall Warns of Potential In-the-Wild Exploitation of SSLVPN Flaw That Bypasses MFA",
-      "link": "https://cybersecuritynews.com/sonicos-sslvpn-vulnerability-exploited/",
-      "date": "2026-11-07T12:59:02Z",
-      "description": "SonicWall has warned customers to patch a SonicOS SSLVPN vulnerability that could let attackers bypass SAML authentication and its multi-factor authentication checks. Tracked as CVE-2026-19868, the flaw carries a CVSS score of 7.1. The company has investigated a report indicating potential exploitation and strongly urges customers to upgrade promptly. The issue affects SSLVPN only when […] The…",
-      "source": "cybersecuritynews.com"
-    },
-    {
       "title": "SonicWall Patches Exploited SonicOS Vulnerability That Weakens VPN Logins",
       "link": "https://www.securityweek.com/sonicwall-patches-exploited-sonicos-bug-that-weakens-vpn-logins/",
       "date": "2026-11-07T10:16:23Z",
       "description": "CVE-2026-19868 can let attackers holding credentials for a different login method get past SAML checks, including SAML-enforced MFA. The post SonicWall Patches Exploited SonicOS Vulnerability That Weakens VPN Logins appeared first on SecurityWeek.",
       "source": "securityweek.com"
-    },
-    {
-      "title": "Claude Code’s “Yes, and Don’t Ask Again” Option Can Leak Passwords and API Keys to GitHub",
-      "link": "https://cybersecuritynews.com/claude-codes-yes-and-dont-ask-again/",
-      "date": "2026-11-07T08:20:25Z",
-      "description": "Claude Code’s “Yes, and don’t ask again” option can save passwords and API keys inside project settings that later reach public GitHub repositories. Apiiro researchers found 2,539 distinct secrets across 1,994 public repositories, showing how a routine approval can turn private credentials into public data. The research identified 63 affected organizations, mostly software companies. Exposed […]…",
-      "source": "cybersecuritynews.com"
     },
     {
       "title": "Claude Code's “Don't Ask Again” File Exposes Passwords and Keys in 1,122 Public Copies on GitHub",
@@ -62,50 +97,36 @@
       "title": "ZDI-CAN-33751: AzeoTech",
       "link": "http://www.zerodayinitiative.com/advisories/upcoming/",
       "date": "2026-11-07T06:00:00Z",
-      "description": "A CVSS score 7.8 AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H severity vulnerability discovered by 'kimiya' was reported to the affected vendor on: 2026-11-07, 1 days ago. The vendor is given until 2027-03-07 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
+      "description": "A CVSS score 7.8 AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H severity vulnerability discovered by 'kimiya' was reported to the affected vendor on: 2026-11-07, 2 days ago. The vendor is given until 2027-03-07 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
       "source": "zerodayinitiative.com"
     },
     {
       "title": "ZDI-CAN-33752: AzeoTech",
       "link": "http://www.zerodayinitiative.com/advisories/upcoming/",
       "date": "2026-11-07T06:00:00Z",
-      "description": "A CVSS score 7.8 AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H severity vulnerability discovered by 'kimiya' was reported to the affected vendor on: 2026-11-07, 1 days ago. The vendor is given until 2027-03-07 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
+      "description": "A CVSS score 7.8 AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H severity vulnerability discovered by 'kimiya' was reported to the affected vendor on: 2026-11-07, 2 days ago. The vendor is given until 2027-03-07 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
       "source": "zerodayinitiative.com"
     },
     {
       "title": "ZDI-CAN-34742: MariaDB",
       "link": "http://www.zerodayinitiative.com/advisories/upcoming/",
       "date": "2026-11-07T06:00:00Z",
-      "description": "A CVSS score 8.8 AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H severity vulnerability discovered by 'Connor Kastner (ret2c)' was reported to the affected vendor on: 2026-11-07, 1 days ago. The vendor is given until 2027-03-07 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
+      "description": "A CVSS score 8.8 AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H severity vulnerability discovered by 'Connor Kastner (ret2c)' was reported to the affected vendor on: 2026-11-07, 2 days ago. The vendor is given until 2027-03-07 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
       "source": "zerodayinitiative.com"
     },
     {
       "title": "ZDI-CAN-33193: MariaDB",
       "link": "http://www.zerodayinitiative.com/advisories/upcoming/",
       "date": "2026-11-07T06:00:00Z",
-      "description": "A CVSS score 8.8 AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H severity vulnerability discovered by 'JINU KIM (@uz56764)' was reported to the affected vendor on: 2026-11-07, 1 days ago. The vendor is given until 2027-03-07 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
+      "description": "A CVSS score 8.8 AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H severity vulnerability discovered by 'JINU KIM (@uz56764)' was reported to the affected vendor on: 2026-11-07, 2 days ago. The vendor is given until 2027-03-07 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
       "source": "zerodayinitiative.com"
     },
     {
       "title": "ZDI-CAN-33781: MariaDB",
       "link": "http://www.zerodayinitiative.com/advisories/upcoming/",
       "date": "2026-11-07T06:00:00Z",
-      "description": "A CVSS score 7.1 AV:N/AC:L/PR:L/UI:N/S:U/C:L/I:N/A:H severity vulnerability discovered by 'Tran Viet Hoang' was reported to the affected vendor on: 2026-11-07, 1 days ago. The vendor is given until 2027-03-07 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
+      "description": "A CVSS score 7.1 AV:N/AC:L/PR:L/UI:N/S:U/C:L/I:N/A:H severity vulnerability discovered by 'Tran Viet Hoang' was reported to the affected vendor on: 2026-11-07, 2 days ago. The vendor is given until 2027-03-07 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
       "source": "zerodayinitiative.com"
-    },
-    {
-      "title": "ARTEX AI Agent Escapes Research Sandbox and Accesses WorkOS Customer Records",
-      "link": "https://cybersecuritynews.com/workos-customer-records-exposed/",
-      "date": "2026-11-07T02:30:21Z",
-      "description": "WorkOS says an ARTEX AI security agent escaped a researcher’s test environment and accessed customer information through an exposed internal tool. In its November 6, 2026 update, the company attributed the incident to unintended activity during cybersecurity benchmark testing, rather than a person acting with malicious intent. The researcher came forward after WorkOS published its […] The post…",
-      "source": "cybersecuritynews.com"
-    },
-    {
-      "title": "Insignary Releases Free Insignary-Chk Tool to Detect PHP2Shell and Node2Shell Exposure",
-      "link": "https://cybersecuritynews.com/insignary-releases-free-insignary-chk-tool-to-detect-php2shell-and-node2shell-exposure/",
-      "date": "2026-11-07T02:06:17Z",
-      "description": "Toronto, Canada, November 6th, 2026, CyberNewswire Free, read-only scanner helps organizations find Linux servers and container images exposed to two actively exploited vulnerabilities in PHP and Node.js Insignary, a global open-source security company, today released insignary-chk, a free tool that checks for PHP2Shell and Node2Shell, two recently disclosed runtime vulnerabilities affecting PHP…",
-      "source": "cybersecuritynews.com"
     },
     {
       "title": "SonicWall warns of new SSL-VPN MFA bypass flaw exploited in attacks",
@@ -157,20 +178,6 @@
       "source": "thehackernews.com"
     },
     {
-      "title": "New Dark Project Ransomware Group Offers Hackers 80% Commission to Expand Cyberattacks",
-      "link": "https://cybersecuritynews.com/new-dark-project-ransomware-group/",
-      "date": "2026-11-06T15:03:03Z",
-      "description": "A ransomware group called Dark Project is recruiting criminal partners with an offer of 80% of proceeds from successful attacks, pairing generous commissions with a platform for managing extortion. First observed in June 2026, the financially motivated operation combines data theft, file encryption, and public leak threats to pressure organizations into paying. The group’s published […] The post…",
-      "source": "cybersecuritynews.com"
-    },
-    {
-      "title": "OpenAI Launches GPT-6 Cyber After AI Helps Find 81 Firefox Flaws, 948 Linux Exploits",
-      "link": "https://thehackernews.com/2026/11/openai-launches-gpt-6-cyber-after-ai.html",
-      "date": "2026-11-06T14:58:32Z",
-      "description": "OpenAI on Thursday unveiled GPT‑6 Cyber, which it described as a major step forward in security research that brings together stronger cybersecurity capabilities with a step-change improvement in model alignment. The new model is \"more capable at finding and fixing vulnerabilities, and far more reliable staying within the boundaries researchers set,\" OpenAI said. It has classified the model as",
-      "source": "thehackernews.com"
-    },
-    {
       "title": "In Other News: Trezor Implant, LLMJacking Bills Hit $1M, SAP Flaws Weaponized Within Days",
       "link": "https://www.securityweek.com/in-other-news-trezor-implant-llmjacking-bills-hit-1m-sap-flaws-weaponized-within-days/",
       "date": "2026-11-06T14:40:09Z",
@@ -190,13 +197,6 @@
       "date": "2026-11-06T14:00:00Z",
       "description": "Europe's supermarket freezer hacks show how security issues can cascade across an industry, disrupting supply chains at scale.",
       "source": "darkreading.com"
-    },
-    {
-      "title": "Microsoft Paint RCE Fix Now Available, but Windows Update Won't Deliver It",
-      "link": "https://thehackernews.com/2026/11/microsoft-paint-rce-fix-now-available.html",
-      "date": "2026-11-06T12:06:43Z",
-      "description": "A fix for CVE-2026-83844, a remote code execution flaw in Windows Paint, is now in the Microsoft Store. Paint gets this fix only through a Store update, not through Windows updates. The fixed build, 11.2609.401.0, was the newest Paint build in all ten countries The Hacker News checked today. The flaw is an out-of-bounds read that could let an attacker run code over a network. Microsoft rates",
-      "source": "thehackernews.com"
     },
     {
       "title": "UK Warns Its Critical Infrastructure Faces Grave Risk",
