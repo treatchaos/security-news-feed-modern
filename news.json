@@ -1,104 +1,146 @@
 {
-  "last_updated": "2026-11-11T09:59:21Z",
+  "last_updated": "2026-11-11T17:42:30Z",
   "count": 35,
   "items": [
     {
-      "title": "China-Linked Hackers Use Fake Chrome Certificate Warnings to Infect Victims With Sparrow Backdoor",
-      "link": "https://cybersecuritynews.com/fake-chrome-certificate/",
-      "date": "2026-11-11T09:24:07Z",
-      "description": "China-linked hackers are turning trusted websites into malware delivery points by displaying fake Google Chrome certificate warnings. The pages urge selected visitors to install a certificate repair utility, but the download instead installs a backdoor that gives attackers remote access to Windows computers. The campaign, tracked as SilentDelivery, targets high-profile organizations mainly…",
+      "title": "Ubuntu 26.10 Adds New Security Protection to curl, Blocking Revoked SSL Certificates",
+      "link": "https://cybersecuritynews.com/ubuntu-26-10-adds-protection-to-curl/",
+      "date": "2026-11-11T17:18:40Z",
+      "description": "Ubuntu 26.10 Stonking Stingray adds certificate revocation checks to curl, helping the command-line tool reject HTTPS connections that use revoked certificates. Announced on November 10, the change brings upki support into Ubuntu’s curl package. It marks an initial step toward browser-grade certificate checks across the operating system. The protection closes a gap in how applications […] The…",
       "source": "cybersecuritynews.com"
     },
     {
-      "title": "Microsoft fixes Exchange sign-ins broken by Windows Server updates",
-      "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-exchange-sign-ins-broken-by-october-windows-server-updates/",
-      "date": "2026-11-11T09:07:27Z",
-      "description": "Microsoft has fixed Outlook sign-in and mail delivery issues on Exchange Server systems after installing the October 2026 Windows Server security updates. [...]",
+      "title": "Hackers Could Abuse Microsoft Entra AI Agents to Hijack Enterprise Accounts Without Stealing Passwords",
+      "link": "https://cybersecuritynews.com/hackers-could-abuse-microsoft-entra-ai-agents/",
+      "date": "2026-11-11T17:17:04Z",
+      "description": "Researchers have shown that attackers can take over parts of a Microsoft 365 environment by tricking one person into approving a fake AI agent. No password is stolen and no login screen is faked. The technique is called BluePhishing. It targets Microsoft Entra Agent ID, the system that gives AI agents their own identities inside […] The post Hackers Could Abuse Microsoft Entra AI Agents to…",
+      "source": "cybersecuritynews.com"
+    },
+    {
+      "title": "AI Hacking Frameworks Like ARTEX, PentAGI, and Agent Zero Found Running on Internet-Accessible Servers",
+      "link": "https://cybersecuritynews.com/ai-hacking-frameworks/",
+      "date": "2026-11-11T17:07:39Z",
+      "description": "AI-powered hacking and penetration-testing frameworks are running on internet-accessible servers, with some management consoles left open without authentication. A November 7, 2026, Shodan snapshot recorded 1,428 services matching the ARTEX family, 419 matching PentAGI, and 173 matching Agent Zero, showing how widely these tools have spread. These platforms connect language models to security…",
+      "source": "cybersecuritynews.com"
+    },
+    {
+      "title": "Today: CISO Forum Virtual Summit 2026 Day 2 – Join Cybersecurity Leaders Online",
+      "link": "https://www.securityweek.com/today-ciso-forum-virtual-summit-2026-join-global-cybersecurity-leaders/",
+      "date": "2026-11-11T16:29:42Z",
+      "description": "Designed for cybersecurity leaders, this immersive two-day virtual event is your premier destination to discuss, share, and learn innovative risk management and defense strategies defining the modern enterprise. The post Today: CISO Forum Virtual Summit 2026 Day 2 – Join Cybersecurity Leaders Online appeared first on SecurityWeek.",
+      "source": "securityweek.com"
+    },
+    {
+      "title": "Maersk confirms data breach as WhiteArmor ransomware demands $5 million",
+      "link": "https://www.bleepingcomputer.com/news/security/maersk-confirms-data-breach-as-whitearmor-ransomware-demands-5-million/",
+      "date": "2026-11-11T16:24:18Z",
+      "description": "Maersk announced that a threat actor gained unauthorized access to a local legacy system inherited through an earlier acquisition and extracted data from it. [...]",
       "source": "bleepingcomputer.com"
     },
     {
-      "title": "Threat Actors Exploit Openwave, Cisco BroadWorks Vulnerabilities",
-      "link": "https://www.securityweek.com/threat-actors-exploit-openwave-cisco-broadworks-vulnerabilities/",
-      "date": "2026-11-11T09:01:07Z",
-      "description": "The flaws, CVE-2026-111793 and CVE-2026-20320, let attackers leak sensitive information, including configuration data. The post Threat Actors Exploit Openwave, Cisco BroadWorks Vulnerabilities appeared first on SecurityWeek.",
-      "source": "securityweek.com"
-    },
-    {
-      "title": "Chipmaker Patch Tuesday: Over 200 Vulnerabilities Addressed by Intel, AMD",
-      "link": "https://www.securityweek.com/chipmaker-patch-tuesday-over-200-vulnerabilities-addressed-by-intel-amd/",
-      "date": "2026-11-11T08:42:44Z",
-      "description": "Intel and AMD disclose more than 200 vulnerabilities, including critical flaws in Intel TDX software and numerous AMD graphics bugs. The post Chipmaker Patch Tuesday: Over 200 Vulnerabilities Addressed by Intel, AMD appeared first on SecurityWeek.",
-      "source": "securityweek.com"
-    },
-    {
-      "title": "Microsoft Patches 1,259 Flaws, Including Exploited Outlook Bug That May Expose NTLMv2 Hashes",
-      "link": "https://thehackernews.com/2026/11/microsoft-patches-1259-flaws-including.html",
-      "date": "2026-11-11T08:17:53Z",
-      "description": "Microsoft on Tuesday released patches for a total of 1,259 vulnerabilities spanning its software portfolio, the second consecutive month where the patch volume has exceeded 1,000 flaws. These cover 726 flaws in Windows, 174 in Office, 61 in Developer Tools, 59 in SQL Server, 53 in Developer Tools, and 27 in SharePoint Server. The patches also include 165 non-Microsoft-issued CVE identifiers.",
+      "title": "Critical Zoom Workplace Flaw Could Allow Unauthenticated Remote Privilege Escalation",
+      "link": "https://thehackernews.com/2026/11/critical-zoom-workplace-flaw-could.html",
+      "date": "2026-11-11T16:12:46Z",
+      "description": "Zoom has released software updates to address two security flaws impacting Zoom Workplace for Windows, including a critical bug that could result in privilege escalation on affected systems. The vulnerabilities are listed below - CVE-2026-108186 (CVSS score: 9.6) - An improper input validation vulnerability that could allow an unauthenticated user to conduct an escalation of privilege via",
       "source": "thehackernews.com"
     },
     {
-      "title": "Recently Patched Barracuda Vulnerabilities Exploited in Attacks",
-      "link": "https://www.securityweek.com/recently-patched-barracuda-vulnerabilities-exploited-in-attacks/",
-      "date": "2026-11-11T07:53:51Z",
-      "description": "The security defects could allow attackers to bypass authorization and gain root access to devices. The post Recently Patched Barracuda Vulnerabilities Exploited in Attacks appeared first on SecurityWeek.",
+      "title": "Hackers Could Exploit MCP Server Supply Chain Weaknesses to Steal API Keys and Administrator Credentials",
+      "link": "https://cybersecuritynews.com/hackers-could-exploit-mcp-server/",
+      "date": "2026-11-11T16:07:18Z",
+      "description": "Security teams that run AI coding assistants may be exposing their most powerful credentials without knowing it. A new study shows that Model Context Protocol (MCP) servers can quietly change their own code after they are set up. If an attacker poisons just one package in that chain, they could steal API keys and administrator […] The post Hackers Could Exploit MCP Server Supply Chain Weaknesses…",
+      "source": "cybersecuritynews.com"
+    },
+    {
+      "title": "Critical Xen Orchestra Flaws Exploited in Attacks",
+      "link": "https://www.securityweek.com/critical-xen-orchestra-flaws-exploited-in-attacks/",
+      "date": "2026-11-11T15:42:47Z",
+      "description": "A critical authentication bypass allows attackers to execute arbitrary code as admin and take over XCP-ng nodes. The post Critical Xen Orchestra Flaws Exploited in Attacks appeared first on SecurityWeek.",
       "source": "securityweek.com"
     },
     {
-      "title": "Railway Says Stolen Customer AI Keys Led to $740,000 in Estimated Unauthorized Usage Charges",
-      "link": "https://thehackernews.com/2026/11/railway-says-stolen-customer-ai-keys.html",
-      "date": "2026-11-11T07:49:04Z",
-      "description": "AI provider keys that customers stored on Railway were stolen in an October breach and used to commit an estimated $740,000 in unauthorized spending, the platform-as-a-service provider said yesterday. It has promised to pay those charges itself when an AI provider will not refund them. The company builds and runs apps for its customers and stores their secrets, such as API keys and database",
+      "title": "AntiFox AI Pentesting Platform Linked to Attacks That Accessed AWS Production Secrets",
+      "link": "https://thehackernews.com/2026/11/antifox-ai-pentesting-platform-linked.html",
+      "date": "2026-11-11T15:34:27Z",
+      "description": "Cybersecurity researchers have disclosed details of a campaign in which an emerging agentic penetration testing platform called AntiFox has been used to steal Amazon Web Services (AWS) credentials and pivot laterally into compromised environments. \"In several recently observed intrusions, Alibaba Cloud systems hosting AntiFox interfaces were associated with confirmed malicious actions against",
       "source": "thehackernews.com"
     },
     {
-      "title": "Top 10 Best Security Policy Management Tools in 2026 [Ranked & Scored]",
-      "link": "https://cybersecuritynews.com/best-security-policy-management/",
-      "date": "2026-11-11T07:36:35Z",
-      "description": "“Security policy management” is one shelf holding two different products: network security policy management (NSPM) firewall rulebases, segmentation intent, change automation and written-policy lifecycle the documents people sign and auditors demand. Our roster spans both, so this countdown declares the lane on every entry and ranks within the honest frame: rulebase engines first by estate […]…",
+      "title": "Criminal IP Launches New TI Feed App on Splunkbase for Automated Threat Detection",
+      "link": "https://cybersecuritynews.com/criminal-ip-ti-feed-app-splunkbase/",
+      "date": "2026-11-11T15:17:20Z",
+      "description": "Torrance, USA, November 11th, 2026, CyberNewswire Criminal IP, the AI-powered threat intelligence and attack surface management platform developed by AI SPERA, has launched the Criminal IP TI Feed app for Splunk. Available through Splunkbase, the app automatically correlates Criminal IP threat intelligence with firewall traffic logs collected in Splunk. The integration enables security teams to…",
       "source": "cybersecuritynews.com"
     },
     {
-      "title": "Top 10 Best Audit Management Software in 2026 [Ranked & Scored]",
-      "link": "https://cybersecuritynews.com/best-audit-management-software/",
-      "date": "2026-11-11T07:35:03Z",
-      "description": "Audit management software is graded by a brutal metric: the spreadsheet-reversion point the moment auditors flee the platform back to Excel. The 2026 rankings reward fieldwork ergonomics, evidence automation that pulls control tests from systems rather than people, and the committee-pack mile where most tools quietly fail. AuditBoard takes 1; ServiceNow and Workiva complete the […] The post Top…",
-      "source": "cybersecuritynews.com"
+      "title": "Hackers use AntiFox AI agents in AWS credential-theft attacks",
+      "link": "https://www.bleepingcomputer.com/news/security/hackers-use-antifox-ai-agents-in-aws-credential-theft-attacks/",
+      "date": "2026-11-11T15:12:59Z",
+      "description": "Attackers are using Alibaba Cloud to host self-managed instances of AntiFox, an open-source agentic penetration testing platform, to target web services and AWS environments. [...]",
+      "source": "bleepingcomputer.com"
     },
     {
-      "title": "Top 10 Best Security Ratings Services in 2026 [Ranked & Scored]",
-      "link": "https://cybersecuritynews.com/best-security-ratings-services/",
-      "date": "2026-11-11T07:33:10Z",
-      "description": "Security ratings grade organizations from the attacker’s side of the fence exposed services, patch cadence, breach signals and the grades now move real money: insurance pricing, vendor gates, board narratives. Two honesty notes shape this countdown: NormShield is Black Kite’s former name (one company, counted once), and Mastercard announced RiskRecon’s wind-down, making it a migration […] The…",
-      "source": "cybersecuritynews.com"
+      "title": "eBPF Rootkits: Why Underground Actors Are Taking Notice",
+      "link": "https://www.bleepingcomputer.com/news/security/ebpf-rootkits-why-underground-actors-are-taking-notice/",
+      "date": "2026-11-11T15:01:11Z",
+      "description": "Linux eBPF rootkits can hide malicious activity and evade traditional detection methods without loading kernel modules. Flare reveals how these techniques are spreading through underground forums, where threat actors are sharing rootkit source code, tutorials, and exploits targeting Linux systems. [...]",
+      "source": "bleepingcomputer.com"
     },
     {
-      "title": "Top 10 Best Third-Party / Vendor Risk Management (TPRM) Tools in 2026 [Ranked & Scored]",
-      "link": "https://cybersecuritynews.com/best-tprm-tools/",
-      "date": "2026-11-11T07:31:25Z",
-      "description": "Your security perimeter now includes every vendor with an API key, and TPRM tooling decides whether that truth lives in a spreadsheet or a signal. The 2026 rankings reward platforms that fuse the two lenses outside-in ratings for continuous truth, questionnaires for control depth and automate the reassessment triggers between them. OneTrust takes #1; SecurityScorecard […] The post Top 10 Best…",
-      "source": "cybersecuritynews.com"
-    },
-    {
-      "title": "Microsoft Researchers Show AI Agents Can Be Backdoored by Editing Fewer Than 10 Neurons",
-      "link": "https://thehackernews.com/2026/11/microsoft-researchers-show-ai-agents.html",
-      "date": "2026-11-11T07:21:05Z",
-      "description": "An AI model can be given a hidden backdoor by editing fewer than 10 of its rarely used neurons, without retraining the model, Microsoft researchers have shown. When a chosen trigger appears, the model outputs an attacker's command, which an agent using that model would run with the agent's own permissions. The attacker must be able to change the model's weights. The team tested the method on",
+      "title": "Hackers Target Qlik Sense Servers With Reverse Shells, Stage ActiveMQ and Veeam Exploits",
+      "link": "https://thehackernews.com/2026/11/hackers-target-qlik-sense-servers-with.html",
+      "date": "2026-11-11T14:01:00Z",
+      "description": "Threat actors have been observed targeting Qlik Sense servers to unsuccessfully deliver PowerShell reverse shell commands against multiple environments in October 2026. Cynet's CyOps and Research teams said they identified the suspicious activity in October 2026 against several E.U.-based customers within a narrow window of just over three minutes. The activity has been found to share some",
       "source": "thehackernews.com"
     },
     {
-      "title": "Bluetooth, AirPlay Pairing Vulnerabilities Patched Across Apple Platforms",
-      "link": "https://www.securityweek.com/bluetooth-airplay-pairing-vulnerabilities-patched-across-apple-platforms/",
-      "date": "2026-11-11T07:00:17Z",
-      "description": "Apple has patched Bluetooth and AirPlay pairing flaws, iMessage vulnerabilities, and an exploited Brotli bug across its platforms. The post Bluetooth, AirPlay Pairing Vulnerabilities Patched Across Apple Platforms appeared first on SecurityWeek.",
+      "title": "Asus, Zoom Release Security Patches",
+      "link": "https://www.securityweek.com/asus-zoom-release-security-patches/",
+      "date": "2026-11-11T13:58:38Z",
+      "description": "Attackers could exploit them for command execution, memory overwrites, and privilege escalation. The post Asus, Zoom Release Security Patches appeared first on SecurityWeek.",
       "source": "securityweek.com"
     },
     {
-      "title": "Cisco BroadWorks and Openwave Flaws Actively Exploited Despite Available Patches",
-      "link": "https://thehackernews.com/2026/11/cisco-broadworks-and-openwave-flaws.html",
-      "date": "2026-11-11T06:04:02Z",
-      "description": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) Tuesday added two security flaws impacting Cisco BroadWorks and Openwave Messaging Webtop Media Transcoder to its Known Exploited Vulnerabilities (KEV) catalog, citing evidence of active exploitation. Details of the vulnerabilities are below - CVE-2026-20320 (CVSS score: 7.5) - An improper restriction of XML external entity",
+      "title": "Citrix, Ivanti Patch Critical and High-Severity Vulnerabilities",
+      "link": "https://www.securityweek.com/citrix-ivanti-patch-critical-and-high-severity-vulnerabilities/",
+      "date": "2026-11-11T13:37:19Z",
+      "description": "Attackers could exploit the bugs to tamper with certificate entries, achieve remote code execution, and compromise hosts. The post Citrix, Ivanti Patch Critical and High-Severity Vulnerabilities appeared first on SecurityWeek.",
+      "source": "securityweek.com"
+    },
+    {
+      "title": "N-able releases security hotfixes for zero-day vulnerabilities",
+      "link": "https://www.bleepingcomputer.com/news/security/n-able-releases-security-hotfixes-for-zero-day-vulnerabilities/",
+      "date": "2026-11-11T12:32:27Z",
+      "description": "N-able released hotfixes to address zero-day bugs affecting its N-central remote monitoring and management (RMM) platform, which were publicly disclosed over the weekend and forced it to take vulnerable hosted environments offline. [...]",
+      "source": "bleepingcomputer.com"
+    },
+    {
+      "title": "Finite State Raises $27 Million to Secure Software and Firmware in Connected Devices",
+      "link": "https://www.securityweek.com/finite-state-raises-27-million-to-secure-software-and-firmware-in-connected-devices/",
+      "date": "2026-11-11T12:24:33Z",
+      "description": "The Series C round will fund international expansion and more autonomous features for the firm’s device security platform. The post Finite State Raises $27 Million to Secure Software and Firmware in Connected Devices appeared first on SecurityWeek.",
+      "source": "securityweek.com"
+    },
+    {
+      "title": "Over 35,000 Grok-Built Apps Exposed Online, Some Leaking Confidential Data and Passwords",
+      "link": "https://thehackernews.com/2026/11/over-35000-grok-built-apps-exposed.html",
+      "date": "2026-11-11T12:19:40Z",
+      "description": "Of the 37,571 Grok-built apps that security company Claroc found online, 35,578 were open to anyone without a sign-in, the researchers said yesterday. They included 24 apps built by staff at the social network X and at SpaceXSI, the company that makes the Grok AI assistant. Most of the open apps were games, landing pages, and calculators, but about 1 in 10 contained internal business or",
       "source": "thehackernews.com"
+    },
+    {
+      "title": "We Built An Agent That Broke All of Our Security Rules. Here's What We Learned.",
+      "link": "https://thehackernews.com/2026/11/we-built-agent-that-broke-all-of-our.html",
+      "date": "2026-11-11T12:01:59Z",
+      "description": "We tell customers three things about securing AI agents: they need their own identities, access that fits the job they’re given, and traceability that’s separate from any human’s. That was true for us at Token as well. Then, we built an agent that broke all three by default. This helped us think through how such agents should be defended. When a browser agent acts inside a user’s authenticated",
+      "source": "thehackernews.com"
+    },
+    {
+      "title": "Microsoft fixes audio issues caused by September security updates",
+      "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-usb-audio-issues-caused-by-september-security-updates/",
+      "date": "2026-11-11T11:18:36Z",
+      "description": "Microsoft says the November 2026 cumulative updates resolve USB audio issues plaguing Windows users who have installed security updates released since September. [...]",
+      "source": "bleepingcomputer.com"
     },
     {
       "title": "November Patch Tuesday: An Overflowing Cornucopia of CVEs",
@@ -108,25 +150,11 @@
       "source": "darkreading.com"
     },
     {
-      "title": "Railway breach leads to $740,000 in fraudulent AI charges",
-      "link": "https://www.bleepingcomputer.com/news/apple/railway-breach-leads-to-740-000-in-fraudulent-ai-charges/",
-      "date": "2026-11-10T22:20:19Z",
-      "description": "Cloud hosting provider Railway says hackers exploited vulnerabilities in its infrastructure to steal customer authentication secrets and generate approximately $740,000 in fraudulent AI usage, potentially exposing credentials for up to 100,000 workspaces. [...]",
-      "source": "bleepingcomputer.com"
-    },
-    {
       "title": "Artex: The AI Pen-Test Tool Hackers Turned Into a Weapon",
       "link": "https://www.darkreading.com/cyberattacks-data-breaches/artex-ai-pen-test-tool-hackers-weapon",
       "date": "2026-11-10T21:01:14Z",
       "description": "Forks of the open source Artex framework, along with 45 similar pen-testing tools, remain capable of executing credential attacks and cloud breaches at machine speed across multiple industries.",
       "source": "darkreading.com"
-    },
-    {
-      "title": "Japanese furniture giant Nitori says hackers stole 37.6M customer records",
-      "link": "https://www.bleepingcomputer.com/news/security/japanese-furniture-giant-nitori-says-hackers-stole-376m-customer-records/",
-      "date": "2026-11-10T20:54:55Z",
-      "description": "Nitori, a major Japanese furniture and home accessories retailer, discovered that an attacker accessed a system on its network and may have stolen 37.62 million customer records. [...]",
-      "source": "bleepingcomputer.com"
     },
     {
       "title": "F-Secure Identifies 26 Ways AI Can Harm Consumers, and Where to Stop Them",
@@ -148,34 +176,6 @@
       "date": "2026-11-10T20:18:43Z",
       "description": "Cloud Range's free 28-question OT Cyber Readiness Assessment helps organizations identify gaps in operational technology (OT) incident response.",
       "source": "darkreading.com"
-    },
-    {
-      "title": "Microsoft releases Windows 10 KB5131096 extended security update",
-      "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-releases-windows-10-kb5131096-extended-security-update/",
-      "date": "2026-11-10T20:04:36Z",
-      "description": "Microsoft released the Windows 10 KB5131096 extended security update, which includes this month's November 2026 Patch Tuesday fixes and a few bug fixes and changes. [...]",
-      "source": "bleepingcomputer.com"
-    },
-    {
-      "title": "Hackers exploit trusted AWS access to breach multiple cloud environments",
-      "link": "https://www.bleepingcomputer.com/news/security/hackers-exploit-trusted-aws-access-to-breach-multiple-cloud-environments/",
-      "date": "2026-11-10T19:31:11Z",
-      "description": "A threat actor used compromised identity and access management (IAM) credentials for a Qubole big data platform's AWS account to access and exfiltrate data from multiple customers' AWS environments. [...]",
-      "source": "bleepingcomputer.com"
-    },
-    {
-      "title": "Git Patches Flaw That Lets Malicious Repositories Execute Code During Recursive Clones",
-      "link": "https://thehackernews.com/2026/11/git-patches-flaw-that-lets-malicious.html",
-      "date": "2026-11-10T19:23:10Z",
-      "description": "A flaw in Git can let a malicious repository run an attacker's code on a computer that clones it recursively, together with its submodules. The Git project fixed it this week in Git 2.56.1, with matching fixes for the 2.50 through 2.55 series in 2.50.2, 2.51.3, 2.52.1, 2.53.1, 2.54.1 and 2.55.1. The flaw, tracked as CVE-2026-111760, is an integer truncation in how Git handles its index. An",
-      "source": "thehackernews.com"
-    },
-    {
-      "title": "Exploited Outlook Zero-Day Among 1,094 Flaws Patched by Microsoft",
-      "link": "https://www.securityweek.com/exploited-outlook-zero-day-among-1094-flaws-patched-by-microsoft/",
-      "date": "2026-11-10T19:19:46Z",
-      "description": "CVE-2026-124194 is the Outlook zero-day for which Microsoft says it’s aware of active exploitation. The post Exploited Outlook Zero-Day Among 1,094 Flaws Patched by Microsoft appeared first on SecurityWeek.",
-      "source": "securityweek.com"
     },
     {
       "title": "ZDI-CAN-33928: Microsoft",
