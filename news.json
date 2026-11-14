@@ -1,7 +1,49 @@
 {
-  "last_updated": "2026-11-14T07:09:16Z",
+  "last_updated": "2026-11-14T14:36:45Z",
   "count": 35,
   "items": [
+    {
+      "title": "Attackers Exploit UnrealIRCd Flaw That Enables Server-Level Command Injection",
+      "link": "https://thehackernews.com/2026/11/attackers-exploit-unrealircd-flaw-that.html",
+      "date": "2026-11-14T12:38:35Z",
+      "description": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Friday added a high-severity security flaw impacting UnrealIRCd, an open-source Internet Relay Chat (IRC) server, to its Known Exploited Vulnerabilities (KEV) catalog, following reports of active exploitation. The vulnerability, tracked as CVE-2026-114713 (CVSS score: 8.6), is a case of improper neutralization of delimiters",
+      "source": "thehackernews.com"
+    },
+    {
+      "title": "FBI Reveals How Hackers Use ARTEX AI Agents to Gain Privileged Access in Under Three Hours",
+      "link": "https://cybersecuritynews.com/fbi-reveals-hackers-artex-ai-usage/",
+      "date": "2026-11-14T11:21:17Z",
+      "description": "The FBI has warned that hackers are using ARTEX AI agents to automate network attacks, with some intrusions reaching privileged access in under three hours. Its November 13, 2026, FLASH alert describes how attackers combine stolen credentials, exposed applications, and cloud permissions to shorten the gap between discovery and compromise. ARTEX is an open-source security […] The post FBI Reveals…",
+      "source": "cybersecuritynews.com"
+    },
+    {
+      "title": "Apple Reveals How Secure Exclaves Shield Camera and Microphone Data",
+      "link": "https://www.securityweek.com/apple-reveals-how-secure-exclaves-shield-camera-and-microphone-data/",
+      "date": "2026-11-14T11:00:00Z",
+      "description": "The tech giant has detailed the architecture designed to isolate ambient sensor data from the main OS on HomeView and new iPhones. The post Apple Reveals How Secure Exclaves Shield Camera and Microphone Data appeared first on SecurityWeek.",
+      "source": "securityweek.com"
+    },
+    {
+      "title": "Microsoft Warns of Active Password Stealing Attack Exploiting the Microsoft 365 Service Disruption",
+      "link": "https://cybersecuritynews.com/active-password-stealing-attack-microsoft-365/",
+      "date": "2026-11-14T10:57:32Z",
+      "description": "Microsoft has warned of an active phishing campaign using the November 12 Microsoft 365 service disruption to lure users into opening fake email recovery links. The messages copy Microsoft service health notices and cite the real Exchange Online incident EX1550543, making the requests appear linked to an ongoing business problem. Microsoft Threat Intelligence detected emails […] The post…",
+      "source": "cybersecuritynews.com"
+    },
+    {
+      "title": "Cursor Reveals How a Leaked Fireworks AI Key Led to a Backdoored Claude Code Extension",
+      "link": "https://cybersecuritynews.com/cursor-data-breach/",
+      "date": "2026-11-14T09:09:31Z",
+      "description": "Cursor has traced its October security breach to an access key exposed by Fireworks AI. The attacker used that key to steal historical coding agent records, find more credentials, and eventually place backdoored Claude Code extensions in Cursor’s marketplace cache. Its November 13 update connects the vendor exposure to the malicious packages discovered on October […] The post Cursor Reveals How…",
+      "source": "cybersecuritynews.com"
+    },
+    {
+      "title": "No Signs of Hacking in FAA Ground Stop as FBI Reportedly Probes Software Update",
+      "link": "https://www.securityweek.com/no-signs-of-hacking-in-faa-ground-stop-as-fbi-reportedly-probes-software-update/",
+      "date": "2026-11-14T08:40:22Z",
+      "description": "Officials say there is no evidence of a cyberattack behind the nationwide FAA outage, which may have been caused by a software update. The post No Signs of Hacking in FAA Ground Stop as FBI Reportedly Probes Software Update appeared first on SecurityWeek.",
+      "source": "securityweek.com"
+    },
     {
       "title": "CISA Warns of Check Point 0-Day Vulnerability Exploited to Gain Root Access",
       "link": "https://cybersecuritynews.com/check-point-0-day-vulnerability/",
@@ -66,13 +108,6 @@
       "source": "thehackernews.com"
     },
     {
-      "title": "New TypoPrompting Attacks Turn Mistyped AI Website Addresses Into Malware Installation Traps",
-      "link": "https://cybersecuritynews.com/new-typoprompting-attacks/",
-      "date": "2026-11-13T15:24:38Z",
-      "description": "A simple typing mistake can now cost you more than a failed page load. Researchers have found that mistyped addresses of popular AI tools lead to fake verification pages, hidden commands and malware installers. The technique is called TypoPrompting. The research traced 186 lookalike domains across 27 AI brands, including Claude, ChatGPT, DeepSeek, Perplexity, Midjourney, […] The post New…",
-      "source": "cybersecuritynews.com"
-    },
-    {
       "title": "In Other News: New CISA Director Nominee, Connected Car Hacking, Baker Tilly Data Breach",
       "link": "https://www.securityweek.com/in-other-news-new-cisa-director-nominee-connected-car-hacking-baker-tilly-data-breach/",
       "date": "2026-11-13T15:20:00Z",
@@ -80,25 +115,11 @@
       "source": "securityweek.com"
     },
     {
-      "title": "Hackers Use SANSAR Linux Malware to Hide Crypto Mining by Faking 0% GPU Usage",
-      "link": "https://cybersecuritynews.com/hackers-use-sansar-linux-malware/",
-      "date": "2026-11-13T15:09:45Z",
-      "description": "Hackers are hiding cryptocurrency mining on Linux GPU servers by changing the readings administrators use to spot heavy workloads. The toolkit combines a Rust-based controller called SANSAR, a kernel rootkit, and a modified NVIDIA monitoring library that reports 0% GPU utilization while mining continues in the background. The intrusion reached three Linux GPU hosts through […] The post Hackers…",
-      "source": "cybersecuritynews.com"
-    },
-    {
       "title": "How one AI agent exposed five critical enterprise security gaps",
       "link": "https://www.bleepingcomputer.com/news/security/how-one-ai-agent-exposed-five-critical-enterprise-security-gaps/",
       "date": "2026-11-13T15:01:11Z",
       "description": "An AI agent built to automate invoice processing could be manipulated into changing vendor bank details through a malicious email, without triggering traditional security alerts. Token Security examines five critical AI agent security gaps and shares practical guidance from industry security leaders on preventing them. [...]",
       "source": "bleepingcomputer.com"
-    },
-    {
-      "title": "Hackers Use 2,700 Passwords to Break Into Microsoft SQL Servers and Deploy Remote Access Malware",
-      "link": "https://cybersecuritynews.com/break-into-microsoft-sql-servers/",
-      "date": "2026-11-13T14:54:56Z",
-      "description": "A new campaign is guessing its way into internet-facing Microsoft SQL Server systems. The attackers use a list of more than 2,700 passwords and then install a cryptocurrency miner and a remote access trojan (RAT) on the hacked machines. The campaign has been running since at least early October 2026. Database servers hold valuable data, […] The post Hackers Use 2,700 Passwords to Break Into…",
-      "source": "cybersecuritynews.com"
     },
     {
       "title": "FBI Says North Korean Hackers Stole Over $400 Million in Crypto Using Deepfake Video Calls",
@@ -129,32 +150,11 @@
       "source": "darkreading.com"
     },
     {
-      "title": "Apify Confirms Customer Data Accessed in Cyberattack",
-      "link": "https://www.securityweek.com/apify-confirms-customer-data-accessed-in-cyberattack/",
-      "date": "2026-11-13T12:41:01Z",
-      "description": "The web scraping company says an intruder accessed customer accounts and obtained personal information or stored data. The post Apify Confirms Customer Data Accessed in Cyberattack appeared first on SecurityWeek.",
-      "source": "securityweek.com"
-    },
-    {
       "title": "Microsoft says November security updates cause printing issues",
       "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-says-november-security-updates-cause-printing-issues/",
       "date": "2026-11-13T12:27:40Z",
       "description": "Microsoft warned customers earlier this week that the November 2026 security updates may break printing for documents with complex formatting. [...]",
       "source": "bleepingcomputer.com"
-    },
-    {
-      "title": "SilentAir Hackers Intercept Calls, SMS From Inside Mobile Networks",
-      "link": "https://www.securityweek.com/silentair-hackers-intercept-calls-sms-from-inside-mobile-networks/",
-      "date": "2026-11-13T12:20:28Z",
-      "description": "Enea says SilentAir hijacked mobile network nodes to intercept calls and messages, with Taiwanese subscribers the primary targets. The post SilentAir Hackers Intercept Calls, SMS From Inside Mobile Networks appeared first on SecurityWeek.",
-      "source": "securityweek.com"
-    },
-    {
-      "title": "When an AI Agent Goes Wrong, Can You Stop It?",
-      "link": "https://thehackernews.com/2026/11/when-ai-agent-goes-wrong-can-you-stop-it.html",
-      "date": "2026-11-13T11:52:31Z",
-      "description": "Suppose an AI agent is asked to sort support tickets and look up account details. A ticket contains instructions that lead the agent to export records to an unfamiliar destination. The agent can make the request because its identity has access to the records and its connected tools allow the action. That kind of scenario raises a response question: what does “stop the agent” actually mean? A",
-      "source": "thehackernews.com"
     },
     {
       "title": "ZDI-CAN-35257: e2fsprogs",
