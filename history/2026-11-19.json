@@ -1,7 +1,167 @@
 {
   "date": "2026-11-19",
-  "count": 22,
+  "count": 39,
   "items": [
+    {
+      "id": "b62dc3ad7e5d57b5d06910df984d3ecdd7f8babe",
+      "title": "Transport for London breach exposes 265,000 Oyster card users' data",
+      "link": "https://www.bleepingcomputer.com/news/security/transport-for-london-breach-exposes-265-000-oyster-card-users-data/",
+      "date": "2026-11-19T18:20:01Z",
+      "description": "Transport for London (TfL) has announced that around 265,000 Oyster photocard customers may have had their account details exposed in a data breach. [...]",
+      "source": "bleepingcomputer.com",
+      "first_seen": "2026-11-19T19:14:32Z",
+      "last_seen": "2026-11-19T19:14:32Z"
+    },
+    {
+      "id": "0e89231e39aeb837d5d2edce2b0a5c0a5b11f7ff",
+      "title": "phpAfterShell Explained: How Hackers Could Turn a PHP Session Flaw Into Code Execution",
+      "link": "https://thehackernews.com/2026/11/phpaftershell-explained-how-hackers.html",
+      "date": "2026-11-19T16:59:56Z",
+      "description": "PHP's default file-based session storage can be made to return objects an attacker chose, by cutting off a session write at the right moment. When combined with a second weakness, such as a suitable gadget chain in the app, those objects can allow the attacker to run code on the server. Today's PHP releases fix the flaw, called phpAfterShell. The flaw is tracked as CVE-2026-126714 and rated",
+      "source": "thehackernews.com",
+      "first_seen": "2026-11-19T19:14:32Z",
+      "last_seen": "2026-11-19T19:14:32Z"
+    },
+    {
+      "id": "e76dca6b32d29e0231859468373634b4306a7ef2",
+      "title": "PHP security updates fix 18 flaws, including critical RCE bugs",
+      "link": "https://www.bleepingcomputer.com/news/security/php-security-updates-fix-18-flaws-including-critical-rce-bugs/",
+      "date": "2026-11-19T16:28:23Z",
+      "description": "The PHP development team released security updates addressing 18 vulnerabilities, including critical flaws that could allow unauthenticated attackers to remotely execute code on vulnerable servers. [...]",
+      "source": "bleepingcomputer.com",
+      "first_seen": "2026-11-19T19:14:32Z",
+      "last_seen": "2026-11-19T19:14:32Z"
+    },
+    {
+      "id": "ead43f4f6d402449cb6ca799ee0249eb3dbf1a72",
+      "title": "PHP Patches Seven Critical RCE Vulnerabilities",
+      "link": "https://www.securityweek.com/php-patches-seven-critical-rce-vulnerabilities/",
+      "date": "2026-11-19T15:54:20Z",
+      "description": "Successful exploitation could allow attackers to crash the worker process and execute code with the PHP worker’s privileges. The post PHP Patches Seven Critical RCE Vulnerabilities appeared first on SecurityWeek.",
+      "source": "securityweek.com",
+      "first_seen": "2026-11-19T19:14:32Z",
+      "last_seen": "2026-11-19T19:14:32Z"
+    },
+    {
+      "id": "dd3e52ba66c851230fcd6f1a97b48e460473a473",
+      "title": "PHP Fixes 7 Critical Flaws, Including Bugs That Could Allow Remote Code Execution",
+      "link": "https://thehackernews.com/2026/11/php-fixes-7-critical-flaws-including.html",
+      "date": "2026-11-19T15:18:07Z",
+      "description": "The PHP Foundation has released security updates to address multiple critical security flaws that could be exploited to achieve remote code execution on affected deployments, including CVE-2026-115560. The release of the patch follows an advance notice in which the project maintainers alerted users to multiple critical vulnerabilities affecting all supported PHP versions under specific",
+      "source": "thehackernews.com",
+      "first_seen": "2026-11-19T19:14:32Z",
+      "last_seen": "2026-11-19T19:14:32Z"
+    },
+    {
+      "id": "2c9cb6ad55ab1026c5d5b7eaf6204fefdefaa093",
+      "title": "Critical VMware vCenter Flaw (CVSS 9.8) Lets Network Attackers Bypass Authentication",
+      "link": "https://thehackernews.com/2026/11/critical-vmware-vcenter-flaw-cvss-98.html",
+      "date": "2026-11-19T15:11:06Z",
+      "description": "A critical flaw in VMware vCenter lets an attacker with network access bypass authentication and gain unauthorized access to the system, Broadcom, which owns VMware, said in an advisory published today. Fixed versions are out for all supported branches, and the company lists no workaround. vCenter is the central console for managing an organization's ESX hosts and virtual machines. The",
+      "source": "thehackernews.com",
+      "first_seen": "2026-11-19T19:14:32Z",
+      "last_seen": "2026-11-19T19:14:32Z"
+    },
+    {
+      "id": "28e0acd7b4047108ebda1b09399592431a007eba",
+      "title": "Five warning signs of ransomware breach before encryption or data theft",
+      "link": "https://www.bleepingcomputer.com/news/security/five-warning-signs-of-ransomware-breach-before-encryption-or-data-theft/",
+      "date": "2026-11-19T15:00:10Z",
+      "description": "Ransomware attacks often involve credential theft, lateral movement, and attempts to disable security controls long before encryption begins. Acronis examines five warning signs that can help defenders detect intrusions earlier, contain malicious activity, and protect critical systems and backups. [...]",
+      "source": "bleepingcomputer.com",
+      "first_seen": "2026-11-19T19:14:32Z",
+      "last_seen": "2026-11-19T19:14:32Z"
+    },
+    {
+      "id": "dde1f10d5a0aba03cc3b73e73a946b9bea5f08d2",
+      "title": "Critical NGINX ‘NGINX2Root’ bugs let attackers hijack servers",
+      "link": "https://www.bleepingcomputer.com/news/security/critical-nginx-nginx2root-bugs-let-attackers-hijack-servers/",
+      "date": "2026-11-19T14:57:24Z",
+      "description": "Two critical NGINX vulnerabilities dubbed \"nginx2root\" allow unauthenticated attackers to execute code remotely on vulnerable web servers, with researchers demonstrating how the flaws can be chained with a Linux kernel bug to gain root access. [...]",
+      "source": "bleepingcomputer.com",
+      "first_seen": "2026-11-19T19:14:32Z",
+      "last_seen": "2026-11-19T19:14:32Z"
+    },
+    {
+      "id": "97589b229a9631bac4ab3b1bf458ede27c28cbac",
+      "title": "Drupal Patches Critical Installer Flaw That Could Give Unauthenticated Attackers Control of Sites",
+      "link": "https://thehackernews.com/2026/11/drupal-patches-critical-installer-flaw.html",
+      "date": "2026-11-19T14:33:06Z",
+      "description": "Under specific conditions, a critical vulnerability in Drupal core can allow an attacker without login credentials to use the built-in installer to attempt to reinstall a site. That can lead to a site takeover or remote code execution, and the project rates the vulnerable configurations as uncommon. Fixed releases for all supported branches shipped yesterday. The Drupal Security Team disclosed",
+      "source": "thehackernews.com",
+      "first_seen": "2026-11-19T19:14:32Z",
+      "last_seen": "2026-11-19T19:14:32Z"
+    },
+    {
+      "id": "d137375f3167dbe1fefbcae431137d6546746271",
+      "title": "Nvidia Responds to Gentlemen Ransomware Claim",
+      "link": "https://www.securityweek.com/nvidia-responds-to-gentlemen-ransomware-claim/",
+      "date": "2026-11-19T14:17:32Z",
+      "description": "Nvidia says it has found no indication that its systems were compromised after the Gentlemen ransomware group listed the company as a victim. The post Nvidia Responds to Gentlemen Ransomware Claim appeared first on SecurityWeek.",
+      "source": "securityweek.com",
+      "first_seen": "2026-11-19T19:14:32Z",
+      "last_seen": "2026-11-19T19:14:32Z"
+    },
+    {
+      "id": "d6cc0c0fb5ebdb83f329455759af04be93a05d83",
+      "title": "Why Holiday Security Can't Wait for Black Friday",
+      "link": "https://www.darkreading.com/cybersecurity-operations/why-holiday-security-cant-wait-black-friday",
+      "date": "2026-11-19T14:00:00Z",
+      "description": "Bot-driven fraud and holiday social engineering attacks stretch across many weeks, straining security teams and small businesses alike.",
+      "source": "darkreading.com",
+      "first_seen": "2026-11-19T19:14:32Z",
+      "last_seen": "2026-11-19T19:14:32Z"
+    },
+    {
+      "id": "93f35981b4f4235ba8a46aa18ab7a706223f07a1",
+      "title": "Hackers Exploit Cisco Expressway Vulnerability Soon After PoC Release",
+      "link": "https://www.securityweek.com/hackers-exploit-cisco-expressway-vulnerability-soon-after-poc-release/",
+      "date": "2026-11-19T13:12:20Z",
+      "description": "Attackers hacked clustered Cisco Expressway devices at a Russian organization and prepared tooling for lateral movement. The post Hackers Exploit Cisco Expressway Vulnerability Soon After PoC Release appeared first on SecurityWeek.",
+      "source": "securityweek.com",
+      "first_seen": "2026-11-19T19:14:32Z",
+      "last_seen": "2026-11-19T19:14:32Z"
+    },
+    {
+      "id": "375890b1ae8025ffeb42c8d7b371184f844798c8",
+      "title": "Drupal patches critical RCE flaw, warns exploits may surface quickly",
+      "link": "https://www.bleepingcomputer.com/news/security/drupal-patches-critical-rce-flaw-warns-exploits-may-surface-quickly/",
+      "date": "2026-11-19T13:08:08Z",
+      "description": "The Drupal Security Team has patched a critical remote code execution vulnerability that can let attackers take over vulnerable sites. [...]",
+      "source": "bleepingcomputer.com",
+      "first_seen": "2026-11-19T19:14:32Z",
+      "last_seen": "2026-11-19T19:14:32Z"
+    },
+    {
+      "id": "ef3091db9b785b84e8d1a5aa7482db7cbd817283",
+      "title": "StepSecurity Secures $20 Million to Expand Supply Chain Protection",
+      "link": "https://www.securityweek.com/stepsecurity-secures-20-million-to-expand-supply-chain-protection/",
+      "date": "2026-11-19T12:23:34Z",
+      "description": "The company will use the funds to accelerate the development and distribution of its security platform. The post StepSecurity Secures $20 Million to Expand Supply Chain Protection appeared first on SecurityWeek.",
+      "source": "securityweek.com",
+      "first_seen": "2026-11-19T19:14:32Z",
+      "last_seen": "2026-11-19T19:14:32Z"
+    },
+    {
+      "id": "0e4b6e1f5aa097b421f41d4dac7640db93a3567d",
+      "title": "Critical Apache Roller, Axis Vulnerabilities Exploited in Attacks",
+      "link": "https://www.securityweek.com/critical-apache-roller-axis-vulnerabilities-exploited-in-attacks/",
+      "date": "2026-11-19T12:13:24Z",
+      "description": "Attackers are targeting Confluence Data Center through an Axis flaw and Apache is warning of attacks against Roller. The post Critical Apache Roller, Axis Vulnerabilities Exploited in Attacks appeared first on SecurityWeek.",
+      "source": "securityweek.com",
+      "first_seen": "2026-11-19T19:14:32Z",
+      "last_seen": "2026-11-19T19:14:32Z"
+    },
+    {
+      "id": "11c69ea6d2323aeb45a34ab1fa34dae846ff75f5",
+      "title": "Everything Is a Web Application, Including Your Firewall",
+      "link": "https://thehackernews.com/2026/11/everything-is-web-application-including.html",
+      "date": "2026-11-19T11:52:23Z",
+      "description": "One of the early targets of PHP2Shell exploitation was the firewall. On October 28, Palo Alto Networks confirmed that attackers were exploiting the two PHP vulnerabilities, CVE-2026-109618 and CVE-2026-109619, against PAN-OS management interfaces exposed to the internet. Both flaws let anyone execute code on the web server without authentication. The disclosure itself went a little wrong.",
+      "source": "thehackernews.com",
+      "first_seen": "2026-11-19T19:14:32Z",
+      "last_seen": "2026-11-19T19:14:32Z"
+    },
     {
       "id": "310e6ac1337175723bd12f35a6fe9bcba5c0a537",
       "title": "N-able Confirms Server Breach, Disables Mail Assure and SpamExperts Management Access",
@@ -150,7 +310,7 @@
       "description": "Nigeria faced more than double the cyber threats of the previous year, with Angola and Kenya also in the top-5 most attacked countries globally.",
       "source": "darkreading.com",
       "first_seen": "2026-11-19T10:53:16Z",
-      "last_seen": "2026-11-19T10:53:16Z"
+      "last_seen": "2026-11-19T19:14:32Z"
     },
     {
       "id": "d78ae6750977b00f7bf517fb8dcce7509499d6f9",
@@ -161,6 +321,16 @@
       "source": "securityweek.com",
       "first_seen": "2026-11-19T10:53:16Z",
       "last_seen": "2026-11-19T10:53:16Z"
+    },
+    {
+      "id": "3c5e0945bca696907f192f7f82eb887032c9edd0",
+      "title": "ZDI-CAN-34784: Progress Software",
+      "link": "http://www.zerodayinitiative.com/advisories/upcoming/",
+      "date": "2026-11-19T06:00:00Z",
+      "description": "A CVSS score 5.3 AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N severity vulnerability discovered by 'Tagoletta(Tağmaç)' was reported to the affected vendor on: 2026-11-19, 0 days ago. The vendor is given until 2027-03-19 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
+      "source": "zerodayinitiative.com",
+      "first_seen": "2026-11-19T19:14:32Z",
+      "last_seen": "2026-11-19T19:14:32Z"
     },
     {
       "id": "b37398688af3c3b536476d9c11cecdfc052314ac",
@@ -197,10 +367,10 @@
       "title": "Russia's Cold Relic APT Turns One Cloud Breach Into Another",
       "link": "https://www.darkreading.com/cyberattacks-data-breaches/cold-relic-turns-one-cloud-breach-into-another",
       "date": "2026-11-18T21:59:46Z",
-      "description": "The Russia-linked threat group is using data stolen from one victim to target others via convincing impersonations and social engineering attacks.",
+      "description": "The state-sponsored threat group is using data stolen from one victim to target others via convincing impersonations and social engineering attacks.",
       "source": "darkreading.com",
       "first_seen": "2026-11-19T02:14:03Z",
-      "last_seen": "2026-11-19T10:53:16Z"
+      "last_seen": "2026-11-19T19:14:32Z"
     },
     {
       "id": "d457453c7fff49c116a624cda7d787e524f9288b",
@@ -210,7 +380,7 @@
       "description": "A CVSS score 7.8 AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H severity vulnerability discovered by 'Mat Powell of TrendAI Zero Day Initiative' was reported to the affected vendor on: 2026-11-18, 0 days ago. The vendor is given until 2027-03-18 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
       "source": "zerodayinitiative.com",
       "first_seen": "2026-11-19T02:14:03Z",
-      "last_seen": "2026-11-19T10:53:16Z"
+      "last_seen": "2026-11-19T19:14:32Z"
     },
     {
       "id": "b20f80af992912c461583d0bc80ca021635cc395",
@@ -220,7 +390,7 @@
       "description": "A CVSS score 9.8 AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H severity vulnerability discovered by '5ud0' was reported to the affected vendor on: 2026-11-18, 0 days ago. The vendor is given until 2027-03-18 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
       "source": "zerodayinitiative.com",
       "first_seen": "2026-11-19T02:14:03Z",
-      "last_seen": "2026-11-19T10:53:16Z"
+      "last_seen": "2026-11-19T19:14:32Z"
     }
   ]
 }

@@ -1,153 +1,139 @@
 {
-  "last_updated": "2026-11-19T10:53:16Z",
-  "count": 35,
+  "last_updated": "2026-11-19T19:14:32Z",
+  "count": 30,
   "items": [
     {
-      "title": "N-able Confirms Server Breach, Disables Mail Assure and SpamExperts Management Access",
-      "link": "https://cybersecuritynews.com/n-able-confirms-server-breach/",
-      "date": "2026-11-19T10:44:04Z",
-      "description": "N-able confirmed unauthorized access to one server in its Mail Assure and SpamExperts Hosted Cloud environment and disabled management access across the Americas, Europe, and Asia-Pacific. The company said inbound and outbound email filtering continued to operate normally while it investigated the breach. Customers could still send and receive email, but administrators lost access to […] The…",
-      "source": "cybersecuritynews.com"
-    },
-    {
-      "title": "Splunk Patches Nearly 140 Flaws Across Three Core Products",
-      "link": "https://www.securityweek.com/splunk-patches-nearly-140-flaws-across-three-core-products/",
-      "date": "2026-11-19T10:41:05Z",
-      "description": "The security updates resolve critical and high-severity issues leading to authentication bypass, remote code execution, and privilege escalation. The post Splunk Patches Nearly 140 Flaws Across Three Core Products appeared first on SecurityWeek.",
-      "source": "securityweek.com"
-    },
-    {
-      "title": "Microsoft confirms app installation, launch issues after hotpatch",
-      "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-confirms-app-installation-launch-issues-after-hotpatch/",
-      "date": "2026-11-19T10:35:05Z",
-      "description": "Microsoft has shared a workaround for installation and launch issues affecting Office and third-party applications after installing this month's Windows 11 hotpatch. [...]",
+      "title": "Transport for London breach exposes 265,000 Oyster card users' data",
+      "link": "https://www.bleepingcomputer.com/news/security/transport-for-london-breach-exposes-265-000-oyster-card-users-data/",
+      "date": "2026-11-19T18:20:01Z",
+      "description": "Transport for London (TfL) has announced that around 265,000 Oyster photocard customers may have had their account details exposed in a data breach. [...]",
       "source": "bleepingcomputer.com"
     },
     {
-      "title": "F5 Patches Critical NGINX2Root Flaws as PoC Exploits Go Public",
-      "link": "https://www.securityweek.com/f5-patches-critical-nginx2root-flaws-as-poc-exploits-go-public/",
-      "date": "2026-11-19T10:26:51Z",
-      "description": "The five NGINX2Root vulnerabilities could allow remote, unauthenticated attackers to execute arbitrary code. The post F5 Patches Critical NGINX2Root Flaws as PoC Exploits Go Public appeared first on SecurityWeek.",
-      "source": "securityweek.com"
-    },
-    {
-      "title": "Ubiquiti Warns of Critical UniFi Access Flaws Enabling Root Code Execution Attacks",
-      "link": "https://cybersecuritynews.com/ubiquiti-warns-critical-unifi-access-flaws/",
-      "date": "2026-11-19T10:26:01Z",
-      "description": "Ubiquiti has disclosed seven vulnerabilities in its UniFi Access Application, including a critical flaw that could let an attacker with limited permissions run code as root on the host device. Security Advisory Bulletin 073, dated November 18, 2026, lists version 4.3.22 and earlier as affected. Ubiquiti advises administrators to update to UniFi Access Application 4.3.24 […] The post Ubiquiti…",
-      "source": "cybersecuritynews.com"
-    },
-    {
-      "title": "Hackers Target European Commission with ARTEX AI Tool in Major Cyberattack",
-      "link": "https://cybersecuritynews.com/european-commission-cyberattack/",
-      "date": "2026-11-19T09:53:35Z",
-      "description": "A cyberattack on the European Commission disrupted staff services for more than 10 days, leaving some employees unable to submit timesheets, request leave, or enter salary information. The EU’s cybersecurity service, CERT-EU, found that hackers used an AI tool called ARTEX, POLITICO reported on November 19, 2026. Most affected applications are back online, but investigators […] The post Hackers…",
-      "source": "cybersecuritynews.com"
-    },
-    {
-      "title": "Hackers Breach N-able Cloud Server, Disrupting Email Security Management Across 3 Regions",
-      "link": "https://thehackernews.com/2026/11/n-able-confirms-hackers-accessed-cloud.html",
-      "date": "2026-11-19T09:31:26Z",
-      "description": "N-able on Wednesday disclosed that unknown threat actors gained unauthorized access to one of the servers in the Mail Assure and Spam Experts Hosted Cloud, causing it to disable management interfaces and APIs. \"We have taken steps to mitigate the threat and are continuing to harden our services to reduce the risk of recurrence,\" N-able said. \"The investigation is ongoing, but at this time we",
+      "title": "phpAfterShell Explained: How Hackers Could Turn a PHP Session Flaw Into Code Execution",
+      "link": "https://thehackernews.com/2026/11/phpaftershell-explained-how-hackers.html",
+      "date": "2026-11-19T16:59:56Z",
+      "description": "PHP's default file-based session storage can be made to return objects an attacker chose, by cutting off a session write at the right moment. When combined with a second weakness, such as a suitable gadget chain in the app, those objects can allow the attacker to run code on the server. Today's PHP releases fix the flaw, called phpAfterShell. The flaw is tracked as CVE-2026-126714 and rated",
       "source": "thehackernews.com"
     },
     {
-      "title": "NVIDIA investigating Gentlemen ransomware breach claims",
-      "link": "https://www.bleepingcomputer.com/news/security/nvidia-investigating-gentlemen-ransomware-breach-claims/",
-      "date": "2026-11-19T09:23:21Z",
-      "description": "NVIDIA is investigating claims of a security breach after the Gentlemen ransomware group has added the company to its dark web data leak site. [...]",
+      "title": "PHP security updates fix 18 flaws, including critical RCE bugs",
+      "link": "https://www.bleepingcomputer.com/news/security/php-security-updates-fix-18-flaws-including-critical-rce-bugs/",
+      "date": "2026-11-19T16:28:23Z",
+      "description": "The PHP development team released security updates addressing 18 vulnerabilities, including critical flaws that could allow unauthenticated attackers to remotely execute code on vulnerable servers. [...]",
       "source": "bleepingcomputer.com"
     },
     {
-      "title": "Java4Shell Exploitation Attempts Begin as Vendors Rush Out Advisories",
-      "link": "https://www.securityweek.com/java4shell-exploitation-attempts-begin-as-vendors-rush-out-advisories/",
-      "date": "2026-11-19T09:10:58Z",
-      "description": "GreyNoise, WatchTowr and Cloudflare report probing and exploit attempts, while Cisco, Elastic, Red Hat and Siemens detail impact. The post Java4Shell Exploitation Attempts Begin as Vendors Rush Out Advisories appeared first on SecurityWeek.",
+      "title": "PHP Patches Seven Critical RCE Vulnerabilities",
+      "link": "https://www.securityweek.com/php-patches-seven-critical-rce-vulnerabilities/",
+      "date": "2026-11-19T15:54:20Z",
+      "description": "Successful exploitation could allow attackers to crash the worker process and execute code with the PHP worker’s privileges. The post PHP Patches Seven Critical RCE Vulnerabilities appeared first on SecurityWeek.",
       "source": "securityweek.com"
     },
     {
-      "title": "Hackers Deploy Overlord RAT That Survives Windows Resets and Crashes Systems When Terminated",
-      "link": "https://cybersecuritynews.com/hackers-deploy-overlord-rat/",
-      "date": "2026-11-19T08:51:32Z",
-      "description": "A financially motivated hacking group is deploying Overlord RAT, a Windows remote access trojan that can return after a victim uses “Reset this PC.” The malware can also trigger a blue screen if a user or security tool forcibly ends its process. The two features turn familiar recovery steps into risks: killing the process can […] The post Hackers Deploy Overlord RAT That Survives Windows Resets…",
-      "source": "cybersecuritynews.com"
-    },
-    {
-      "title": "Ruby Releases Fixes for 7 Regex and String Flaws, Warns 5 Have Proof-of-Concept RCE",
-      "link": "https://thehackernews.com/2026/11/ruby-releases-fixes-for-7-regex-and.html",
-      "date": "2026-11-19T08:42:11Z",
-      "description": "Ruby contains seven memory-safety flaws in its regular expression engine and its string case-conversion code. For five of them, its maintainers say, proof-of-concept exploits, or PoCs, have shown that crafted input can run code on the machine. \"We are aware of PoCs that prove some of them can be used to trigger remote code execution,\" the maintainers said. The project released fixed versions",
+      "title": "PHP Fixes 7 Critical Flaws, Including Bugs That Could Allow Remote Code Execution",
+      "link": "https://thehackernews.com/2026/11/php-fixes-7-critical-flaws-including.html",
+      "date": "2026-11-19T15:18:07Z",
+      "description": "The PHP Foundation has released security updates to address multiple critical security flaws that could be exploited to achieve remote code execution on affected deployments, including CVE-2026-115560. The release of the patch follows an advance notice in which the project maintainers alerted users to multiple critical vulnerabilities affecting all supported PHP versions under specific",
       "source": "thehackernews.com"
     },
     {
-      "title": "ruby2ßhell: Critical One-Byte Heap Overflow in Ruby Could Allow RCE Attacks",
-      "link": "https://cybersecuritynews.com/ruby2shell-rce/",
-      "date": "2026-11-19T08:41:39Z",
-      "description": "Ruby has patched a critical memory corruption flaw that can allow remote code execution (RCE) on vulnerable servers. Tracked as GHSA-34m4-m9fh-gqp5 and named ruby2ßhell by Veria Labs, the flaw affects Ruby’s string case conversion code. Researchers report that attackers can reach the vulnerable code over the network without logging in to applications running Ruby on […] The post ruby2ßhell:…",
-      "source": "cybersecuritynews.com"
-    },
-    {
-      "title": "Researcher Demonstrates Database RCE Exploits Affecting PostgreSQL, MySQL and Oracle",
-      "link": "https://thehackernews.com/2026/11/researcher-demonstrates-database-rce.html",
-      "date": "2026-11-19T08:14:00Z",
-      "description": "Low-privilege database accounts that cannot read a single application table can still be used to run code on the database server itself, a researcher has shown, by reaching memory-corruption bugs in the engine code behind ordinary SQL. The exploits, published yesterday, are the researcher's proofs of concept against PostgreSQL, MySQL and ClickHouse, plus a separate Oracle chain that needs no",
+      "title": "Critical VMware vCenter Flaw (CVSS 9.8) Lets Network Attackers Bypass Authentication",
+      "link": "https://thehackernews.com/2026/11/critical-vmware-vcenter-flaw-cvss-98.html",
+      "date": "2026-11-19T15:11:06Z",
+      "description": "A critical flaw in VMware vCenter lets an attacker with network access bypass authentication and gain unauthorized access to the system, Broadcom, which owns VMware, said in an advisory published today. Fixed versions are out for all supported branches, and the company lists no workaround. vCenter is the central console for managing an organization's ESX hosts and virtual machines. The",
       "source": "thehackernews.com"
     },
     {
-      "title": "CISA Warns of 4 Exploited Flaws Linked to Ransomware, Cryptomining, and LLMjacking Attacks",
-      "link": "https://thehackernews.com/2026/11/cisa-warns-of-4-exploited-flaws-linked.html",
-      "date": "2026-11-19T08:00:00Z",
-      "description": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Wednesday added four vulnerabilities impacting Synology DiskStation Manager (DSM), BerriAI LiteLLM, Apache Axis, and Vanderbilt University Research Electronic Data Capture (REDCap) to its Known Exploited Vulnerabilities (KEV) catalog, citing evidence of active exploitation. The vulnerabilities are listed below -",
+      "title": "Five warning signs of ransomware breach before encryption or data theft",
+      "link": "https://www.bleepingcomputer.com/news/security/five-warning-signs-of-ransomware-breach-before-encryption-or-data-theft/",
+      "date": "2026-11-19T15:00:10Z",
+      "description": "Ransomware attacks often involve credential theft, lateral movement, and attempts to disable security controls long before encryption begins. Acronis examines five warning signs that can help defenders detect intrusions earlier, contain malicious activity, and protect critical systems and backups. [...]",
+      "source": "bleepingcomputer.com"
+    },
+    {
+      "title": "Critical NGINX ‘NGINX2Root’ bugs let attackers hijack servers",
+      "link": "https://www.bleepingcomputer.com/news/security/critical-nginx-nginx2root-bugs-let-attackers-hijack-servers/",
+      "date": "2026-11-19T14:57:24Z",
+      "description": "Two critical NGINX vulnerabilities dubbed \"nginx2root\" allow unauthenticated attackers to execute code remotely on vulnerable web servers, with researchers demonstrating how the flaws can be chained with a Linux kernel bug to gain root access. [...]",
+      "source": "bleepingcomputer.com"
+    },
+    {
+      "title": "Drupal Patches Critical Installer Flaw That Could Give Unauthenticated Attackers Control of Sites",
+      "link": "https://thehackernews.com/2026/11/drupal-patches-critical-installer-flaw.html",
+      "date": "2026-11-19T14:33:06Z",
+      "description": "Under specific conditions, a critical vulnerability in Drupal core can allow an attacker without login credentials to use the built-in installer to attempt to reinstall a site. That can lead to a site takeover or remote code execution, and the project rates the vulnerable configurations as uncommon. Fixed releases for all supported branches shipped yesterday. The Drupal Security Team disclosed",
+      "source": "thehackernews.com"
+    },
+    {
+      "title": "Nvidia Responds to Gentlemen Ransomware Claim",
+      "link": "https://www.securityweek.com/nvidia-responds-to-gentlemen-ransomware-claim/",
+      "date": "2026-11-19T14:17:32Z",
+      "description": "Nvidia says it has found no indication that its systems were compromised after the Gentlemen ransomware group listed the company as a victim. The post Nvidia Responds to Gentlemen Ransomware Claim appeared first on SecurityWeek.",
+      "source": "securityweek.com"
+    },
+    {
+      "title": "Why Holiday Security Can't Wait for Black Friday",
+      "link": "https://www.darkreading.com/cybersecurity-operations/why-holiday-security-cant-wait-black-friday",
+      "date": "2026-11-19T14:00:00Z",
+      "description": "Bot-driven fraud and holiday social engineering attacks stretch across many weeks, straining security teams and small businesses alike.",
+      "source": "darkreading.com"
+    },
+    {
+      "title": "Hackers Exploit Cisco Expressway Vulnerability Soon After PoC Release",
+      "link": "https://www.securityweek.com/hackers-exploit-cisco-expressway-vulnerability-soon-after-poc-release/",
+      "date": "2026-11-19T13:12:20Z",
+      "description": "Attackers hacked clustered Cisco Expressway devices at a Russian organization and prepared tooling for lateral movement. The post Hackers Exploit Cisco Expressway Vulnerability Soon After PoC Release appeared first on SecurityWeek.",
+      "source": "securityweek.com"
+    },
+    {
+      "title": "Drupal patches critical RCE flaw, warns exploits may surface quickly",
+      "link": "https://www.bleepingcomputer.com/news/security/drupal-patches-critical-rce-flaw-warns-exploits-may-surface-quickly/",
+      "date": "2026-11-19T13:08:08Z",
+      "description": "The Drupal Security Team has patched a critical remote code execution vulnerability that can let attackers take over vulnerable sites. [...]",
+      "source": "bleepingcomputer.com"
+    },
+    {
+      "title": "StepSecurity Secures $20 Million to Expand Supply Chain Protection",
+      "link": "https://www.securityweek.com/stepsecurity-secures-20-million-to-expand-supply-chain-protection/",
+      "date": "2026-11-19T12:23:34Z",
+      "description": "The company will use the funds to accelerate the development and distribution of its security platform. The post StepSecurity Secures $20 Million to Expand Supply Chain Protection appeared first on SecurityWeek.",
+      "source": "securityweek.com"
+    },
+    {
+      "title": "Critical Apache Roller, Axis Vulnerabilities Exploited in Attacks",
+      "link": "https://www.securityweek.com/critical-apache-roller-axis-vulnerabilities-exploited-in-attacks/",
+      "date": "2026-11-19T12:13:24Z",
+      "description": "Attackers are targeting Confluence Data Center through an Axis flaw and Apache is warning of attacks against Roller. The post Critical Apache Roller, Axis Vulnerabilities Exploited in Attacks appeared first on SecurityWeek.",
+      "source": "securityweek.com"
+    },
+    {
+      "title": "Everything Is a Web Application, Including Your Firewall",
+      "link": "https://thehackernews.com/2026/11/everything-is-web-application-including.html",
+      "date": "2026-11-19T11:52:23Z",
+      "description": "One of the early targets of PHP2Shell exploitation was the firewall. On October 28, Palo Alto Networks confirmed that attackers were exploiting the two PHP vulnerabilities, CVE-2026-109618 and CVE-2026-109619, against PAN-OS management interfaces exposed to the internet. Both flaws let anyone execute code on the web server without authentication. The disclosure itself went a little wrong.",
       "source": "thehackernews.com"
     },
     {
       "title": "Africa Retakes Top Spot as Most Attacked Region, Led by Nigeria Surge",
       "link": "https://www.darkreading.com/threat-intelligence/africa-top-spot-most-attacked-region-nigeria-surge",
       "date": "2026-11-19T08:00:00Z",
-      "description": "Nigeria faced more than double the cyber threats of the previous year, with Angola and Kenya also in the top-5 most attacked countries globally.",
+      "description": "Nigeria faced more than double the cyber threats of the previous year, with Angola and Kenya also in the top 5 most-attacked countries globally.",
       "source": "darkreading.com"
     },
     {
-      "title": "PHP Readies Critical Security Updates to Patch Another RCE Flaw",
-      "link": "https://www.securityweek.com/php-readies-critical-security-updates-to-patch-another-rce-flaw/",
-      "date": "2026-11-19T07:45:17Z",
-      "description": "Affecting the session upload progress, CVE-2026-115560 was publicly disclosed two days after PHP2Shell patches landed. The post PHP Readies Critical Security Updates to Patch Another RCE Flaw appeared first on SecurityWeek.",
-      "source": "securityweek.com"
-    },
-    {
-      "title": "PHP Warns of Critical Security Flaws Affecting All Supported Versions, Fixes Coming November 19",
-      "link": "https://thehackernews.com/2026/11/php-warns-of-critical-security-flaws.html",
-      "date": "2026-11-19T04:33:46Z",
-      "description": "The maintainers of the PHP programming language on Wednesday issued an advisory announcing an upcoming security release that addresses critical flaws. The release is scheduled for November 19, 2026, between 2 and 2:30 p.m. UTC. \"These releases are part of PHP's regular four-week release cycle and will address security vulnerabilities affecting all supported PHP versions,\" the maintainers said.",
-      "source": "thehackernews.com"
-    },
-    {
-      "title": "Palo Alto Networks to Buy AI Startup Applied Compute for $4.5 Billion",
-      "link": "https://www.securityweek.com/palo-alto-networks-to-buy-ai-startup-applied-compute-for-4-5-billion/",
-      "date": "2026-11-19T03:25:23Z",
-      "description": "The all-stock deal will give the cybersecurity company a platform for fine-tuning and running open-weight AI models in public and sovereign clouds. The post Palo Alto Networks to Buy AI Startup Applied Compute for $4.5 Billion appeared first on SecurityWeek.",
-      "source": "securityweek.com"
-    },
-    {
-      "title": "Ukraine, FBI arrest ransomware gang members tied to $40M in ransoms",
-      "link": "https://www.bleepingcomputer.com/news/security/ukraine-fbi-arrest-ransomware-gang-members-tied-to-40m-in-ransoms/",
-      "date": "2026-11-18T23:08:33Z",
-      "description": "Ukrainian authorities, working with the FBI, have arrested four suspected members of an international ransomware organization linked to more than $40.5 million in ransom payments from at least 28 companies worldwide. [...]",
-      "source": "bleepingcomputer.com"
+      "title": "ZDI-CAN-34784: Progress Software",
+      "link": "http://www.zerodayinitiative.com/advisories/upcoming/",
+      "date": "2026-11-19T06:00:00Z",
+      "description": "A CVSS score 5.3 AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N severity vulnerability discovered by 'Tagoletta(Tağmaç)' was reported to the affected vendor on: 2026-11-19, 0 days ago. The vendor is given until 2027-03-19 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
+      "source": "zerodayinitiative.com"
     },
     {
       "title": "Russia's Cold Relic APT Turns One Cloud Breach Into Another",
       "link": "https://www.darkreading.com/cyberattacks-data-breaches/cold-relic-turns-one-cloud-breach-into-another",
       "date": "2026-11-18T21:59:46Z",
-      "description": "The Russia-linked threat group is using data stolen from one victim to target others via convincing impersonations and social engineering attacks.",
+      "description": "The state-sponsored threat group is using data stolen from one victim to target others via convincing impersonations and social engineering attacks.",
       "source": "darkreading.com"
-    },
-    {
-      "title": "Coinbase blocks $4.7 million in transfers to Elon Musk deepfake scam",
-      "link": "https://www.bleepingcomputer.com/news/security/coinbase-blocks-47-million-in-transfers-to-elon-musk-deepfake-scam/",
-      "date": "2026-11-18T20:49:32Z",
-      "description": "Coinbase says it blocked $4.7 million in cryptocurrency transfers to scammers promoting a fake giveaway using an AI-generated deepfake of Elon Musk during a Tesla livestream that attracted more than 500,000 viewers. [...]",
-      "source": "bleepingcomputer.com"
     },
     {
       "title": "Strike Graph Launches Integration AI to Automate Continuous Compliance Evidence Using Any Existing Tool",
@@ -161,20 +147,6 @@
       "link": "https://www.darkreading.com/threat-intelligence/attackiq-research-reveals-iranian-cyber-groups",
       "date": "2026-11-18T20:38:42Z",
       "description": "Analysis of 20 Iranian state-sponsored threat groups details how espionage, ransomware, and hacktivism intersect in state-backed cyber campaigns.",
-      "source": "darkreading.com"
-    },
-    {
-      "title": "Data breach impacts 40 Irish credit unions in reported IT provider hack",
-      "link": "https://www.bleepingcomputer.com/news/security/data-breach-impacts-40-irish-credit-unions-in-reported-it-provider-hack/",
-      "date": "2026-11-18T19:39:33Z",
-      "description": "A reported cyberattack on Wellington IT has exposed sensitive information belonging to members of 50 credit unions, the majority of which are located in Ireland. [...]",
-      "source": "bleepingcomputer.com"
-    },
-    {
-      "title": "Java4Shell Flaw Threatens Global Enterprises, Java Application Ecosystem",
-      "link": "https://www.darkreading.com/vulnerabilities-threats/java4shell-flaw-threatens-global-java-application-ecosystem",
-      "date": "2026-11-18T16:54:52Z",
-      "description": "Discovered using AI, the memory corruption vulnerability affects the OpenJDK runtime and could allow unauthenticated attackers to take over systems.",
       "source": "darkreading.com"
     },
     {
@@ -203,13 +175,6 @@
       "link": "http://www.zerodayinitiative.com/advisories/upcoming/",
       "date": "2026-11-13T06:00:00Z",
       "description": "A CVSS score 8.0 AV:N/AC:H/PR:N/UI:R/S:C/C:H/I:N/A:H severity vulnerability discovered by 'parkjunhyun' was reported to the affected vendor on: 2026-11-13, 6 days ago. The vendor is given until 2027-03-13 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
-      "source": "zerodayinitiative.com"
-    },
-    {
-      "title": "ZDI-CAN-36376: Oracle",
-      "link": "http://www.zerodayinitiative.com/advisories/upcoming/",
-      "date": "2026-11-13T06:00:00Z",
-      "description": "A CVSS score 9.8 AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H severity vulnerability discovered by 'Anonymous' was reported to the affected vendor on: 2026-11-13, 6 days ago. The vendor is given until 2027-03-13 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
       "source": "zerodayinitiative.com"
     },
     {
