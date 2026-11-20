@@ -1,7 +1,107 @@
 {
   "date": "2026-11-20",
-  "count": 13,
+  "count": 23,
   "items": [
+    {
+      "id": "81cb7bb697835128b219a81733a9fc11068b2c9f",
+      "title": "N-able Blames Service Disruption on Cyberattack",
+      "link": "https://www.securityweek.com/n-able-blames-service-disruption-on-cyberattack/",
+      "date": "2026-11-20T09:08:35Z",
+      "description": "The incident affected Mail Assure and SpamExperts Hosted Cloud and could have led to credential theft. The post N-able Blames Service Disruption on Cyberattack appeared first on SecurityWeek.",
+      "source": "securityweek.com",
+      "first_seen": "2026-11-20T09:22:40Z",
+      "last_seen": "2026-11-20T09:22:40Z"
+    },
+    {
+      "id": "bc4231309acab6ba829e35f6481131fe9d97e1f5",
+      "title": "Hackers Actively Scan LiteLLM AI Servers for Critical Flaws Enabling RCE Attacks",
+      "link": "https://cybersecuritynews.com/litellm-ai-servers/",
+      "date": "2026-11-20T08:25:28Z",
+      "description": "Attackers are now scanning the internet for exposed LiteLLM servers. They want to chain two flaws that give them remote code execution (RCE) without a login. The scans target a test endpoint in the LiteLLM AI gateway and abuse a weak spot in the Starlette web framework that it relies on. LiteLLM sits between apps […] The post Hackers Actively Scan LiteLLM AI Servers for Critical Flaws Enabling…",
+      "source": "cybersecuritynews.com",
+      "first_seen": "2026-11-20T09:22:40Z",
+      "last_seen": "2026-11-20T09:22:40Z"
+    },
+    {
+      "id": "7f4ffc43e9b46ee9ebc7bc70fa8996f560cddc12",
+      "title": "JPMorgan, Visa, Mastercard Cite Third-Party Incidents Amid Data Leak",
+      "link": "https://www.securityweek.com/jpmorgan-visa-mastercard-cite-third-party-incidents-amid-data-leak/",
+      "date": "2026-11-20T07:35:46Z",
+      "description": "The companies point to third-party providers after the N0n extortion group leaked data allegedly tied to their customers. The post JPMorgan, Visa, Mastercard Cite Third-Party Incidents Amid Data Leak appeared first on SecurityWeek.",
+      "source": "securityweek.com",
+      "first_seen": "2026-11-20T09:22:40Z",
+      "last_seen": "2026-11-20T09:22:40Z"
+    },
+    {
+      "id": "c7cb34ffafcb88c78192978e6092bdada9832920",
+      "title": "ROMULUS ClickFix Attacks Deliver RAT That Can Spy on Users and Control PCs",
+      "link": "https://thehackernews.com/2026/11/romulus-clickfix-attacks-deliver-rat.html",
+      "date": "2026-11-20T07:11:39Z",
+      "description": "Threat actors have been observed using the ROMULUS ClickFix malware delivery platform to deliver a previously undocumented remote access trojan (RAT) that shares similarities with CNCMachineRMS. \"ROMULUS likely operates as a delivery service, distributing CNCMachineRMS and Legion Loader through separate chains while retaining ClickFix and signed binary sideloading techniques,\" Blackpoint",
+      "source": "thehackernews.com",
+      "first_seen": "2026-11-20T09:22:40Z",
+      "last_seen": "2026-11-20T09:22:40Z"
+    },
+    {
+      "id": "8d338bebbda1e384a3225182001f1b263190602a",
+      "title": "Hackers Use AI-Assisted PowerShell Toolkit With 41 Modules to Target African Stock Exchange",
+      "link": "https://cybersecuritynews.com/ai-assisted-powershell/",
+      "date": "2026-11-20T07:00:15Z",
+      "description": "Hackers ran 41 PowerShell modules on a compromised server at a major African stock exchange in just three minutes and 12 seconds. The toolkit searched for passwords, cloud keys, and database credentials, then tested whether it could access the exchange’s investment application programming interface (API) and a securities depository gateway. The exchange was not named, […] The post Hackers Use…",
+      "source": "cybersecuritynews.com",
+      "first_seen": "2026-11-20T09:22:40Z",
+      "last_seen": "2026-11-20T09:22:40Z"
+    },
+    {
+      "id": "d85517e32fd73f32882ed6abfeca98764ef5ec67",
+      "title": "Wireshark 4.6.10 Released With Patch for 39 Security Vulnerabilities",
+      "link": "https://cybersecuritynews.com/wireshark-4-6-10-released/",
+      "date": "2026-11-20T06:58:34Z",
+      "description": "Wireshark 4.6.10 has been released with fixes for 39 security vulnerabilities affecting protocol dissectors, capture file parsers, the dissection engine, and audio codecs. The update addresses crashes, processing loops, memory leaks, and a heap disclosure issue that could affect systems used for network troubleshooting and security analysis. The official release notes list security advisories…",
+      "source": "cybersecuritynews.com",
+      "first_seen": "2026-11-20T09:22:40Z",
+      "last_seen": "2026-11-20T09:22:40Z"
+    },
+    {
+      "id": "0ed6cd6ab6e4414638b46b14bc7305971396a6d8",
+      "title": "China-Linked Hackers Exploit Critical VMware vCenter Zero-Day to Gain Admin Access and Steal Data",
+      "link": "https://thehackernews.com/2026/11/china-linked-hackers-exploit-critical.html",
+      "date": "2026-11-20T06:33:31Z",
+      "description": "The suspected China-nexus cyber espionage group known as Armory Castle (formerly UNC5221) has been attributed to the zero-day exploitation of a critical security flaw in VMware vCenter Server in early September 2026. The vulnerability, tracked as CVE-2026-123890 (CVSS score: 9.8), is a case of authentication bypass in the VMware Directory Service that could be exploited to gain unauthorized",
+      "source": "thehackernews.com",
+      "first_seen": "2026-11-20T09:22:40Z",
+      "last_seen": "2026-11-20T09:22:40Z"
+    },
+    {
+      "id": "cc1b1f806e0bf11bb51bd0ff5369d7d2910b59b5",
+      "title": "Hackers Leak Customer Data Linked to Visa, Mastercard and JPMorgan After Third-Party Cyberattacks",
+      "link": "https://cybersecuritynews.com/visa-mastercard-jpmorgan-data-breach/",
+      "date": "2026-11-20T06:02:03Z",
+      "description": "Hackers published customer data linked to Visa, Mastercard and JPMorgan Chase on Thursday, November 19, after cyberattacks on third-party service providers. All three companies said their own networks were not breached. Visa said no card numbers were affected, Mastercard said the leak involved a limited group of cardholders in a benefits program, and JPMorgan said […] The post Hackers Leak…",
+      "source": "cybersecuritynews.com",
+      "first_seen": "2026-11-20T09:22:40Z",
+      "last_seen": "2026-11-20T09:22:40Z"
+    },
+    {
+      "id": "82551ec0e8162c1cfc11e50ba72b04c6883965dc",
+      "title": "Drupal Fixes Critical RCE Flaw That Could Let Unauthenticated Hackers Take Over Websites",
+      "link": "https://cybersecuritynews.com/drupal-fixes-critical-rce-flaw/",
+      "date": "2026-11-20T05:52:19Z",
+      "description": "Drupal released security updates on November 18 to fix a critical flaw that could let attackers take over vulnerable websites without logging in. The bug, tracked as CVE-2026-132165, affects the installer included with Drupal core. Under specific conditions, an attacker could use it to attempt to reinstall an existing site, leading to a takeover or […] The post Drupal Fixes Critical RCE Flaw…",
+      "source": "cybersecuritynews.com",
+      "first_seen": "2026-11-20T09:22:40Z",
+      "last_seen": "2026-11-20T09:22:40Z"
+    },
+    {
+      "id": "f0316729ee26b5fc3d519eabd7a8c9cd87f79329",
+      "title": "New Unpatched Windows 0-Day FastUnlock Lets Someone Holding a Locked PC Run Programs on It",
+      "link": "https://thehackernews.com/2026/11/new-unpatched-windows-0-day-fastunlock.html",
+      "date": "2026-11-20T05:30:01Z",
+      "description": "A newly disclosed unpatched zero-day technique called FastUnlock lets someone with physical access to a locked Windows computer start programs without signing in. Whoever uses it gets only a limited account, not administrator control of the machine. The method was posted yesterday by a researcher who uses the handles MSNightmare and Nightmare Eclipse, and the endpoint-security firm ThreatLocker",
+      "source": "thehackernews.com",
+      "first_seen": "2026-11-20T09:22:40Z",
+      "last_seen": "2026-11-20T09:22:40Z"
+    },
     {
       "id": "45dbaf388c40bbfbd41a1c134c8d8151d9f988d1",
       "title": "VMware patches vCenter zero-day exploited in attacks since September",
@@ -10,7 +110,7 @@
       "description": "Broadcom has released security updates to fix a critical VMware vCenter Server authentication bypass vulnerability that Chinese-linked hackers have exploited in zero-day attacks since September 2026. [...]",
       "source": "bleepingcomputer.com",
       "first_seen": "2026-11-20T01:30:20Z",
-      "last_seen": "2026-11-20T01:30:20Z"
+      "last_seen": "2026-11-20T09:22:40Z"
     },
     {
       "id": "1625aaa5cfb7e66eb9845f670dbfc1c01b5b768a",
@@ -20,7 +120,7 @@
       "description": "Companies deploying AI agents have the illusion of control, but several incidents demonstrate that businesses need to be ready to enforce directions.",
       "source": "darkreading.com",
       "first_seen": "2026-11-20T01:30:20Z",
-      "last_seen": "2026-11-20T01:30:20Z"
+      "last_seen": "2026-11-20T09:22:40Z"
     },
     {
       "id": "5cc24a8d97220301d48cc83bd2ea5cd783294761",
@@ -30,7 +130,7 @@
       "description": "SBC Medical Group has warned in a filing with the U.S. Securities and Exchange Commission (SEC) that two cybersecurity incidents exposed sensitive customer and employee information, including personal data belonging to 1.6 million people. [...]",
       "source": "bleepingcomputer.com",
       "first_seen": "2026-11-20T01:30:20Z",
-      "last_seen": "2026-11-20T01:30:20Z"
+      "last_seen": "2026-11-20T09:22:40Z"
     },
     {
       "id": "d7ae81b81723ea9df3cd905758ecdf5403b32b0d",
@@ -40,7 +140,7 @@
       "description": "ASUS released Control Center Express v1.7.29 to fix three critical vulnerabilities that could let remote attackers gain administrative control of the management console and the devices it manages. [...]",
       "source": "bleepingcomputer.com",
       "first_seen": "2026-11-20T01:30:20Z",
-      "last_seen": "2026-11-20T01:30:20Z"
+      "last_seen": "2026-11-20T09:22:40Z"
     },
     {
       "id": "ab1fe8107b7666896c3e9e1f8403f9cdbb02d4b8",
@@ -50,7 +150,7 @@
       "description": "No specific link has been drawn between the two incidents, though they certainly sing the same notes.",
       "source": "darkreading.com",
       "first_seen": "2026-11-20T01:30:20Z",
-      "last_seen": "2026-11-20T01:30:20Z"
+      "last_seen": "2026-11-20T09:22:40Z"
     },
     {
       "id": "2c0e5edb442116b20e77dac99e5f7d028da1fa4f",
@@ -60,7 +160,7 @@
       "description": "November's monthly security release patches seven critical PHP flaws that should be addressed ASAP, though experts say exploitability varies and depends heavily on configuration.",
       "source": "darkreading.com",
       "first_seen": "2026-11-20T01:30:20Z",
-      "last_seen": "2026-11-20T01:30:20Z"
+      "last_seen": "2026-11-20T09:22:40Z"
     },
     {
       "id": "30a4dbcb7166c623b46c17ca129396cccd77052c",
@@ -70,7 +170,7 @@
       "description": "This installment of the Reporters' Notebook video series examines the fallout from recent high-severity flaw disclosures, exploring how fears of AI-assisted exploits trigger widespread panic, operational disruptions, and growing warning fatigue.",
       "source": "darkreading.com",
       "first_seen": "2026-11-20T01:30:20Z",
-      "last_seen": "2026-11-20T01:30:20Z"
+      "last_seen": "2026-11-20T09:22:40Z"
     },
     {
       "id": "7fcd9bf3823949c0df69ca62abe4174c8f041f70",
@@ -80,7 +180,7 @@
       "description": "Google says a China-linked espionage group exploited a critical VMware vCenter authentication bypass before Broadcom released a patch. The post Newly Patched VMware vCenter Flaw Exploited as Zero-Day by Chinese APT appeared first on SecurityWeek.",
       "source": "securityweek.com",
       "first_seen": "2026-11-20T01:30:20Z",
-      "last_seen": "2026-11-20T01:30:20Z"
+      "last_seen": "2026-11-20T09:22:40Z"
     },
     {
       "id": "eb8e543f9ee8184a98ab58d7057a6d6cb721d927",
@@ -90,7 +190,7 @@
       "description": "The easiest way to fool someone is to give them something they already expect. A job offer. A message about a service outage. A familiar app. Nothing looks strange at first. And that's the problem. This week's stories show how ordinary things are being used to steal data, spread malware, and get people to hand over access. There's another shift worth watching. AI is making some attacks easier",
       "source": "thehackernews.com",
       "first_seen": "2026-11-20T01:30:20Z",
-      "last_seen": "2026-11-20T01:30:20Z"
+      "last_seen": "2026-11-20T09:22:40Z"
     },
     {
       "id": "fc42c796819ed36716c77e33410e1112cf6b8368",
@@ -100,7 +200,7 @@
       "description": "A CVSS score 8.8 AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H severity vulnerability discovered by 'Rocco Calvi (@TecR0c) with TecSecurity' was reported to the affected vendor on: 2026-11-19, 0 days ago. The vendor is given until 2027-03-19 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
       "source": "zerodayinitiative.com",
       "first_seen": "2026-11-20T01:30:20Z",
-      "last_seen": "2026-11-20T01:30:20Z"
+      "last_seen": "2026-11-20T09:22:40Z"
     },
     {
       "id": "579ab89fcfd62d4d0217585b4d348ed7d6cf0edc",
@@ -110,7 +210,7 @@
       "description": "A CVSS score 7.8 AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H severity vulnerability discovered by 'Bobby Gould (@bobbygould5) of TrendAI Zero Day Initiative' was reported to the affected vendor on: 2026-11-19, 0 days ago. The vendor is given until 2027-03-19 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
       "source": "zerodayinitiative.com",
       "first_seen": "2026-11-20T01:30:20Z",
-      "last_seen": "2026-11-20T01:30:20Z"
+      "last_seen": "2026-11-20T09:22:40Z"
     },
     {
       "id": "ce7a2199f59e645cc7d243901ca46b15e41c1eb4",
@@ -120,7 +220,7 @@
       "description": "A CVSS score 7.8 AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H severity vulnerability discovered by 'zKltch' was reported to the affected vendor on: 2026-11-19, 0 days ago. The vendor is given until 2027-03-19 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
       "source": "zerodayinitiative.com",
       "first_seen": "2026-11-20T01:30:20Z",
-      "last_seen": "2026-11-20T01:30:20Z"
+      "last_seen": "2026-11-20T09:22:40Z"
     },
     {
       "id": "86584ed4390ac656627962f6ca06e838649e2e5d",
@@ -130,7 +230,7 @@
       "description": "A CVSS score 7.5 AV:N/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H severity vulnerability discovered by 'Bobby Gould (@bobbygould5) of TrendAI Zero Day Initiative' was reported to the affected vendor on: 2026-11-19, 0 days ago. The vendor is given until 2027-03-19 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
       "source": "zerodayinitiative.com",
       "first_seen": "2026-11-20T01:30:20Z",
-      "last_seen": "2026-11-20T01:30:20Z"
+      "last_seen": "2026-11-20T09:22:40Z"
     }
   ]
 }

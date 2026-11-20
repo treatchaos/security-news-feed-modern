@@ -1,7 +1,77 @@
 {
-  "last_updated": "2026-11-20T01:30:20Z",
-  "count": 30,
+  "last_updated": "2026-11-20T09:22:40Z",
+  "count": 35,
   "items": [
+    {
+      "title": "N-able Blames Service Disruption on Cyberattack",
+      "link": "https://www.securityweek.com/n-able-blames-service-disruption-on-cyberattack/",
+      "date": "2026-11-20T09:08:35Z",
+      "description": "The incident affected Mail Assure and SpamExperts Hosted Cloud and could have led to credential theft. The post N-able Blames Service Disruption on Cyberattack appeared first on SecurityWeek.",
+      "source": "securityweek.com"
+    },
+    {
+      "title": "Hackers Actively Scan LiteLLM AI Servers for Critical Flaws Enabling RCE Attacks",
+      "link": "https://cybersecuritynews.com/litellm-ai-servers/",
+      "date": "2026-11-20T08:25:28Z",
+      "description": "Attackers are now scanning the internet for exposed LiteLLM servers. They want to chain two flaws that give them remote code execution (RCE) without a login. The scans target a test endpoint in the LiteLLM AI gateway and abuse a weak spot in the Starlette web framework that it relies on. LiteLLM sits between apps […] The post Hackers Actively Scan LiteLLM AI Servers for Critical Flaws Enabling…",
+      "source": "cybersecuritynews.com"
+    },
+    {
+      "title": "JPMorgan, Visa, Mastercard Cite Third-Party Incidents Amid Data Leak",
+      "link": "https://www.securityweek.com/jpmorgan-visa-mastercard-cite-third-party-incidents-amid-data-leak/",
+      "date": "2026-11-20T07:35:46Z",
+      "description": "The companies point to third-party providers after the N0n extortion group leaked data allegedly tied to their customers. The post JPMorgan, Visa, Mastercard Cite Third-Party Incidents Amid Data Leak appeared first on SecurityWeek.",
+      "source": "securityweek.com"
+    },
+    {
+      "title": "ROMULUS ClickFix Attacks Deliver RAT That Can Spy on Users and Control PCs",
+      "link": "https://thehackernews.com/2026/11/romulus-clickfix-attacks-deliver-rat.html",
+      "date": "2026-11-20T07:11:39Z",
+      "description": "Threat actors have been observed using the ROMULUS ClickFix malware delivery platform to deliver a previously undocumented remote access trojan (RAT) that shares similarities with CNCMachineRMS. \"ROMULUS likely operates as a delivery service, distributing CNCMachineRMS and Legion Loader through separate chains while retaining ClickFix and signed binary sideloading techniques,\" Blackpoint",
+      "source": "thehackernews.com"
+    },
+    {
+      "title": "Hackers Use AI-Assisted PowerShell Toolkit With 41 Modules to Target African Stock Exchange",
+      "link": "https://cybersecuritynews.com/ai-assisted-powershell/",
+      "date": "2026-11-20T07:00:15Z",
+      "description": "Hackers ran 41 PowerShell modules on a compromised server at a major African stock exchange in just three minutes and 12 seconds. The toolkit searched for passwords, cloud keys, and database credentials, then tested whether it could access the exchange’s investment application programming interface (API) and a securities depository gateway. The exchange was not named, […] The post Hackers Use…",
+      "source": "cybersecuritynews.com"
+    },
+    {
+      "title": "Wireshark 4.6.10 Released With Patch for 39 Security Vulnerabilities",
+      "link": "https://cybersecuritynews.com/wireshark-4-6-10-released/",
+      "date": "2026-11-20T06:58:34Z",
+      "description": "Wireshark 4.6.10 has been released with fixes for 39 security vulnerabilities affecting protocol dissectors, capture file parsers, the dissection engine, and audio codecs. The update addresses crashes, processing loops, memory leaks, and a heap disclosure issue that could affect systems used for network troubleshooting and security analysis. The official release notes list security advisories…",
+      "source": "cybersecuritynews.com"
+    },
+    {
+      "title": "China-Linked Hackers Exploit Critical VMware vCenter Zero-Day to Gain Admin Access and Steal Data",
+      "link": "https://thehackernews.com/2026/11/china-linked-hackers-exploit-critical.html",
+      "date": "2026-11-20T06:33:31Z",
+      "description": "The suspected China-nexus cyber espionage group known as Armory Castle (formerly UNC5221) has been attributed to the zero-day exploitation of a critical security flaw in VMware vCenter Server in early September 2026. The vulnerability, tracked as CVE-2026-123890 (CVSS score: 9.8), is a case of authentication bypass in the VMware Directory Service that could be exploited to gain unauthorized",
+      "source": "thehackernews.com"
+    },
+    {
+      "title": "Hackers Leak Customer Data Linked to Visa, Mastercard and JPMorgan After Third-Party Cyberattacks",
+      "link": "https://cybersecuritynews.com/visa-mastercard-jpmorgan-data-breach/",
+      "date": "2026-11-20T06:02:03Z",
+      "description": "Hackers published customer data linked to Visa, Mastercard and JPMorgan Chase on Thursday, November 19, after cyberattacks on third-party service providers. All three companies said their own networks were not breached. Visa said no card numbers were affected, Mastercard said the leak involved a limited group of cardholders in a benefits program, and JPMorgan said […] The post Hackers Leak…",
+      "source": "cybersecuritynews.com"
+    },
+    {
+      "title": "Drupal Fixes Critical RCE Flaw That Could Let Unauthenticated Hackers Take Over Websites",
+      "link": "https://cybersecuritynews.com/drupal-fixes-critical-rce-flaw/",
+      "date": "2026-11-20T05:52:19Z",
+      "description": "Drupal released security updates on November 18 to fix a critical flaw that could let attackers take over vulnerable websites without logging in. The bug, tracked as CVE-2026-132165, affects the installer included with Drupal core. Under specific conditions, an attacker could use it to attempt to reinstall an existing site, leading to a takeover or […] The post Drupal Fixes Critical RCE Flaw…",
+      "source": "cybersecuritynews.com"
+    },
+    {
+      "title": "New Unpatched Windows 0-Day FastUnlock Lets Someone Holding a Locked PC Run Programs on It",
+      "link": "https://thehackernews.com/2026/11/new-unpatched-windows-0-day-fastunlock.html",
+      "date": "2026-11-20T05:30:01Z",
+      "description": "A newly disclosed unpatched zero-day technique called FastUnlock lets someone with physical access to a locked Windows computer start programs without signing in. Whoever uses it gets only a limited account, not administrator control of the machine. The method was posted yesterday by a researcher who uses the handles MSNightmare and Nightmare Eclipse, and the endpoint-security firm ThreatLocker",
+      "source": "thehackernews.com"
+    },
     {
       "title": "VMware patches vCenter zero-day exploited in attacks since September",
       "link": "https://www.bleepingcomputer.com/news/security/vmware-patches-vcenter-zero-day-exploited-in-attacks-since-september/",
@@ -94,27 +164,6 @@
       "source": "securityweek.com"
     },
     {
-      "title": "PHP Fixes 7 Critical Flaws, Including Bugs That Could Allow Remote Code Execution",
-      "link": "https://thehackernews.com/2026/11/php-fixes-7-critical-flaws-including.html",
-      "date": "2026-11-19T15:18:07Z",
-      "description": "The PHP Foundation has released security updates to address multiple critical security flaws that could be exploited to achieve remote code execution on affected deployments, including CVE-2026-115560. The release of the patch follows an advance notice in which the project maintainers alerted users to multiple critical vulnerabilities affecting all supported PHP versions under specific",
-      "source": "thehackernews.com"
-    },
-    {
-      "title": "Critical VMware vCenter Flaw (CVSS 9.8) Lets Network Attackers Bypass Authentication",
-      "link": "https://thehackernews.com/2026/11/critical-vmware-vcenter-flaw-cvss-98.html",
-      "date": "2026-11-19T15:11:06Z",
-      "description": "A critical flaw in VMware vCenter lets an attacker with network access bypass authentication and gain unauthorized access to the system, Broadcom, which owns VMware, said in an advisory published today. Fixed versions are out for all supported branches, and the company lists no workaround. vCenter is the central console for managing an organization's ESX hosts and virtual machines. The",
-      "source": "thehackernews.com"
-    },
-    {
-      "title": "Drupal Patches Critical Installer Flaw That Could Give Unauthenticated Attackers Control of Sites",
-      "link": "https://thehackernews.com/2026/11/drupal-patches-critical-installer-flaw.html",
-      "date": "2026-11-19T14:33:06Z",
-      "description": "Under specific conditions, a critical vulnerability in Drupal core can allow an attacker without login credentials to use the built-in installer to attempt to reinstall a site. That can lead to a site takeover or remote code execution, and the project rates the vulnerable configurations as uncommon. Fixed releases for all supported branches shipped yesterday. The Drupal Security Team disclosed",
-      "source": "thehackernews.com"
-    },
-    {
       "title": "Nvidia Responds to Gentlemen Ransomware Claim",
       "link": "https://www.securityweek.com/nvidia-responds-to-gentlemen-ransomware-claim/",
       "date": "2026-11-19T14:17:32Z",
@@ -129,52 +178,38 @@
       "source": "darkreading.com"
     },
     {
-      "title": "Hackers Exploit Cisco Expressway Vulnerability Soon After PoC Release",
-      "link": "https://www.securityweek.com/hackers-exploit-cisco-expressway-vulnerability-soon-after-poc-release/",
-      "date": "2026-11-19T13:12:20Z",
-      "description": "Attackers hacked clustered Cisco Expressway devices at a Russian organization and prepared tooling for lateral movement. The post Hackers Exploit Cisco Expressway Vulnerability Soon After PoC Release appeared first on SecurityWeek.",
-      "source": "securityweek.com"
-    },
-    {
-      "title": "StepSecurity Secures $20 Million to Expand Supply Chain Protection",
-      "link": "https://www.securityweek.com/stepsecurity-secures-20-million-to-expand-supply-chain-protection/",
-      "date": "2026-11-19T12:23:34Z",
-      "description": "The company will use the funds to accelerate the development and distribution of its security platform. The post StepSecurity Secures $20 Million to Expand Supply Chain Protection appeared first on SecurityWeek.",
-      "source": "securityweek.com"
-    },
-    {
       "title": "ZDI-CAN-34784: Progress Software",
       "link": "http://www.zerodayinitiative.com/advisories/upcoming/",
       "date": "2026-11-19T06:00:00Z",
-      "description": "A CVSS score 5.3 AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N severity vulnerability discovered by 'Tagoletta(Tağmaç)' was reported to the affected vendor on: 2026-11-19, 0 days ago. The vendor is given until 2027-03-19 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
+      "description": "A CVSS score 5.3 AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N severity vulnerability discovered by 'Tagoletta(Tağmaç)' was reported to the affected vendor on: 2026-11-19, 1 days ago. The vendor is given until 2027-03-19 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
       "source": "zerodayinitiative.com"
     },
     {
       "title": "ZDI-CAN-29572: Apache",
       "link": "http://www.zerodayinitiative.com/advisories/upcoming/",
       "date": "2026-11-19T06:00:00Z",
-      "description": "A CVSS score 8.8 AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H severity vulnerability discovered by 'Rocco Calvi (@TecR0c) with TecSecurity' was reported to the affected vendor on: 2026-11-19, 0 days ago. The vendor is given until 2027-03-19 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
+      "description": "A CVSS score 8.8 AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H severity vulnerability discovered by 'Rocco Calvi (@TecR0c) with TecSecurity' was reported to the affected vendor on: 2026-11-19, 1 days ago. The vendor is given until 2027-03-19 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
       "source": "zerodayinitiative.com"
     },
     {
       "title": "ZDI-CAN-36918: LG",
       "link": "http://www.zerodayinitiative.com/advisories/upcoming/",
       "date": "2026-11-19T06:00:00Z",
-      "description": "A CVSS score 7.8 AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H severity vulnerability discovered by 'Bobby Gould (@bobbygould5) of TrendAI Zero Day Initiative' was reported to the affected vendor on: 2026-11-19, 0 days ago. The vendor is given until 2027-03-19 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
+      "description": "A CVSS score 7.8 AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H severity vulnerability discovered by 'Bobby Gould (@bobbygould5) of TrendAI Zero Day Initiative' was reported to the affected vendor on: 2026-11-19, 1 days ago. The vendor is given until 2027-03-19 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
       "source": "zerodayinitiative.com"
     },
     {
       "title": "ZDI-CAN-32429: Delta Electronics",
       "link": "http://www.zerodayinitiative.com/advisories/upcoming/",
       "date": "2026-11-19T06:00:00Z",
-      "description": "A CVSS score 7.8 AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H severity vulnerability discovered by 'zKltch' was reported to the affected vendor on: 2026-11-19, 0 days ago. The vendor is given until 2027-03-19 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
+      "description": "A CVSS score 7.8 AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H severity vulnerability discovered by 'zKltch' was reported to the affected vendor on: 2026-11-19, 1 days ago. The vendor is given until 2027-03-19 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
       "source": "zerodayinitiative.com"
     },
     {
       "title": "ZDI-CAN-37510: Oracle",
       "link": "http://www.zerodayinitiative.com/advisories/upcoming/",
       "date": "2026-11-19T06:00:00Z",
-      "description": "A CVSS score 7.5 AV:N/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H severity vulnerability discovered by 'Bobby Gould (@bobbygould5) of TrendAI Zero Day Initiative' was reported to the affected vendor on: 2026-11-19, 0 days ago. The vendor is given until 2027-03-19 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
+      "description": "A CVSS score 7.5 AV:N/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H severity vulnerability discovered by 'Bobby Gould (@bobbygould5) of TrendAI Zero Day Initiative' was reported to the affected vendor on: 2026-11-19, 1 days ago. The vendor is given until 2027-03-19 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
       "source": "zerodayinitiative.com"
     },
     {
