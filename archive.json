@@ -1,7 +1,7 @@
 {
-  "last_updated": "2026-11-22T01:46:01Z",
+  "last_updated": "2026-11-22T09:00:04Z",
   "retention_days": 90,
-  "count": 3230,
+  "count": 3235,
   "items": [
     {
       "id": "67e06cf13e3c120958db05325eb3a662b3a98e65",
@@ -14,6 +14,56 @@
       "last_seen": "2026-09-18T19:17:23Z"
     },
     {
+      "id": "46ea22620accc9c4bd9d4a1d74b75642b160cf16",
+      "title": "OpenRouter Drops 3 Providers After Researchers Catch Months of Prompt Theft at AI Hosting Firms",
+      "link": "https://thehackernews.com/2026/11/openrouter-drops-3-providers-after.html",
+      "date": "2026-11-22T05:06:55Z",
+      "description": "Attackers stole data from inside three AI inference providers for months, and none of the three knew until researchers told them, the industrial cybersecurity company Dragos said this week. Some of the stolen requests were flagged as Zero Data Retention, the setting that is supposed to mean a prompt is never stored. OpenRouter, a gateway that routes customers' AI requests to a pool of",
+      "source": "thehackernews.com",
+      "first_seen": "2026-11-22T09:00:04Z",
+      "last_seen": "2026-11-22T09:00:04Z"
+    },
+    {
+      "id": "6a0dec1a448e126f0d0c42f94d1de3d802e73cf0",
+      "title": "Researchers Demonstrate Ghostscript Sandbox-Escape RCE via Crafted File Uploads in Popular Apps",
+      "link": "https://thehackernews.com/2026/11/researchers-demonstrate-ghostscript.html",
+      "date": "2026-11-22T05:03:41Z",
+      "description": "A now-patched flaw in Ghostscript allows a crafted file to escape the program's security sandbox and run commands on the server that processes it. Ghostscript is the interpreter that many Linux servers use to convert uploaded PDFs, PostScript files, and images into other formats, often without the application calling it directly. Security firm pwn.ai showed this week that ordinary upload,",
+      "source": "thehackernews.com",
+      "first_seen": "2026-11-22T09:00:04Z",
+      "last_seen": "2026-11-22T09:00:04Z"
+    },
+    {
+      "id": "a41281d257406755d5eb5c6a41432d7da12ea4e9",
+      "title": "OpenRouter Users’ Private AI Chats Possibly Exposed Via Compromised Third-Party Providers",
+      "link": "https://cybersecuritynews.com/openrouter-ai-chat-leaks/",
+      "date": "2026-11-22T03:58:45Z",
+      "description": "OpenRouter has removed three AI hosting providers and revoked Zero Data Retention eligibility for 125 endpoints after researchers found evidence that some providers had been compromised or had failed to follow their data policies. In its November 22 incident notice, OpenRouter said it notified all potentially affected customers. The findings did not show a breach […] The post OpenRouter Users’…",
+      "source": "cybersecuritynews.com",
+      "first_seen": "2026-11-22T09:00:04Z",
+      "last_seen": "2026-11-22T09:00:04Z"
+    },
+    {
+      "id": "8d05f53fc89e20a004ec3588dc5dd799f992b066",
+      "title": "Hackers Could Execute Commands on WordPress, Email and Print Servers Through Upload2Shell Flaw",
+      "link": "https://cybersecuritynews.com/upload2shell-flaw/",
+      "date": "2026-11-22T02:43:08Z",
+      "description": "A flaw in Ghostscript let researchers run commands on WordPress, Roundcube webmail, and Linux print servers through routine file processing. The vulnerability, dubbed Upload2Shell and tracked as CVE-2026-125396, affects upstream Ghostscript releases before 10.08.0. It sits in the software’s Type 1 font loader, but the affected servers did not need to expose Ghostscript directly. Their […] The…",
+      "source": "cybersecuritynews.com",
+      "first_seen": "2026-11-22T09:00:04Z",
+      "last_seen": "2026-11-22T09:00:04Z"
+    },
+    {
+      "id": "67dc27d4d1d7c9b3789b569119842ea74eed6c2d",
+      "title": "Hackers Exploit Microsoft Entra Connect Health Flaw to Access Admin Emails and Organization Data",
+      "link": "https://cybersecuritynews.com/microsoft-entra-connect-health-flaw/",
+      "date": "2026-11-22T02:03:18Z",
+      "description": "Attackers exploited a flaw in Microsoft Entra Connect Health to read administrator and technical contact email addresses, along with configuration data from affected organizations. A Microsoft customer notice shared on Reddit describes read-only access to those records, not access to inboxes or email messages. Microsoft fixed the flaw in its cloud service on November 19, […] The post Hackers…",
+      "source": "cybersecuritynews.com",
+      "first_seen": "2026-11-22T09:00:04Z",
+      "last_seen": "2026-11-22T09:00:04Z"
+    },
+    {
       "id": "cec14b5d09a92b5df57b68070542cdde2c371dc1",
       "title": "FBI Investigating Apparent Hack of Its Key National Criminal Justice Database, AP Source Says",
       "link": "https://www.securityweek.com/fbi-investigating-apparent-hack-of-its-key-national-criminal-justice-database-ap-source-says/",
@@ -21,7 +71,7 @@
       "description": "The FBI is investigating an apparent hack of a national law enforcement database that it maintains. The post FBI Investigating Apparent Hack of Its Key National Criminal Justice Database, AP Source Says appeared first on SecurityWeek.",
       "source": "securityweek.com",
       "first_seen": "2026-11-22T01:46:01Z",
-      "last_seen": "2026-11-22T01:46:01Z"
+      "last_seen": "2026-11-22T09:00:04Z"
     },
     {
       "id": "688ea8dbd2c4f3eb1ed1a2d6f00a3c474105d728",
@@ -31,7 +81,7 @@
       "description": "Rackspace warned customers that hackers breached its Rackspace Spot cloud platform using compromised credentials, allowing them to deploy unauthorized workloads and access Kubernetes secrets in customer clusters. [...]",
       "source": "bleepingcomputer.com",
       "first_seen": "2026-11-22T01:46:01Z",
-      "last_seen": "2026-11-22T01:46:01Z"
+      "last_seen": "2026-11-22T09:00:04Z"
     },
     {
       "id": "0e9ab3edcd0e1d460dcb0fbebe75b69e285ded9e",
@@ -41,7 +91,17 @@
       "description": "Microsoft is warning organizations that it suffered a data breach after attackers exploited a vulnerability in its Entra Connect Health service to gain unauthorized access to administrator email addresses and tenant configuration information. [...]",
       "source": "bleepingcomputer.com",
       "first_seen": "2026-11-21T21:17:46Z",
-      "last_seen": "2026-11-22T01:46:01Z"
+      "last_seen": "2026-11-22T09:00:04Z"
+    },
+    {
+      "id": "09e2725542ef60983701ecd0f344046150bab327",
+      "title": "MCP Server Security: How to Stop Rogue AI Agents",
+      "link": "https://cybersecuritynews.com/mcp-server-security/",
+      "date": "2026-11-21T17:24:13Z",
+      "description": "The Model Context Protocol (MCP) lets AI applications connect to external tools, APIs, and business data through a standardized interface. But every MCP server adds another entry point that attackers can target. MCP server security is becoming an important concern as organizations give AI agents access to increasingly sensitive systems. DataDome reported in October 2025 […] The post MCP Server…",
+      "source": "cybersecuritynews.com",
+      "first_seen": "2026-11-22T09:00:04Z",
+      "last_seen": "2026-11-22T09:00:04Z"
     },
     {
       "id": "c72eea58aec2c81978929743886235258827f466",
@@ -61,7 +121,7 @@
       "description": "The BADBOX malware found in a broad range of generic Android TV boxes has returned to large-scale ad-fraud operations following last year's disruptions. [...]",
       "source": "bleepingcomputer.com",
       "first_seen": "2026-11-21T21:17:46Z",
-      "last_seen": "2026-11-22T01:46:01Z"
+      "last_seen": "2026-11-22T09:00:04Z"
     },
     {
       "id": "b394bddf1d8174dc66087fcbf36c077c2af42802",
@@ -71,7 +131,7 @@
       "description": "FBI systems have reportedly been breached for the second time in two months, this time targeting the agency's National Crime Information Center (NCIC), which is used to share information between local, state, and federal law enforcement agencies. [...]",
       "source": "bleepingcomputer.com",
       "first_seen": "2026-11-21T15:45:14Z",
-      "last_seen": "2026-11-22T01:46:01Z"
+      "last_seen": "2026-11-22T09:00:04Z"
     },
     {
       "id": "99b90d78bc53424a3ee0faa9bc6c8c479027d86b",
@@ -81,7 +141,7 @@
       "description": "CrowdStrike is in talks to acquire Zscaler in a deal that could rank among the largest in cybersecurity history. Bloomberg first reported the discussions on Friday, November 20, citing two people familiar with the matter who said talks were ongoing. The discussions could still end without an agreement. Neither company has announced a deal or […] The post CrowdStrike in Talks to Acquire Zscaler…",
       "source": "cybersecuritynews.com",
       "first_seen": "2026-11-21T15:45:14Z",
-      "last_seen": "2026-11-22T01:46:01Z"
+      "last_seen": "2026-11-22T09:00:04Z"
     },
     {
       "id": "ae9ddf0b8f65c7302c90a122b03a00ada2de8580",
@@ -91,7 +151,7 @@
       "description": "White House says the battle-tested cyber leader will drive an America First cyber strategy. The post President Trump Taps Kirsten Davies as National Cyber Director appeared first on SecurityWeek.",
       "source": "securityweek.com",
       "first_seen": "2026-11-22T01:46:01Z",
-      "last_seen": "2026-11-22T01:46:01Z"
+      "last_seen": "2026-11-22T09:00:04Z"
     },
     {
       "id": "54677f7495c49ad124b2d4d2e316223a6d4b9827",
@@ -101,7 +161,7 @@
       "description": "A threat actor used autonomous Cairn AI agents to discover and exploit a critical MONAI Label vulnerability. The post Amazon: China-Linked Hackers’ AI Agents Exploited Medical Software Zero-Day appeared first on SecurityWeek.",
       "source": "securityweek.com",
       "first_seen": "2026-11-21T15:45:14Z",
-      "last_seen": "2026-11-22T01:46:01Z"
+      "last_seen": "2026-11-22T09:00:04Z"
     },
     {
       "id": "60fef4a460933fca08a632e677340aec06e66049",
@@ -111,7 +171,7 @@
       "description": "A malicious webpage could extract a Meta Muse user's private conversations and stored memories from the assistant without triggering any approval prompt, researchers have shown. The same attack could be extended to reach the credentials Muse stores for the user's connected accounts. The work was a laboratory demonstration, not an attack on real users, and it stayed inside the individual user's",
       "source": "thehackernews.com",
       "first_seen": "2026-11-21T15:45:14Z",
-      "last_seen": "2026-11-22T01:46:01Z"
+      "last_seen": "2026-11-22T09:00:04Z"
     },
     {
       "id": "33a9ce3231c88b06e0c5cdccacf59635f7ee91cc",
@@ -121,7 +181,7 @@
       "description": "A malicious OpenPGP key with an unusually long user ID can trigger a critical memory bug in GPGME, the standard library that programs use to work with GnuPG. The GnuPG project warned yesterday that the flaw could be used to steal data from affected applications and has released fixed versions. The bug, tracked as CVE-2026-129975, affects all software that uses GPGME before version 2.3.0,",
       "source": "thehackernews.com",
       "first_seen": "2026-11-21T15:45:14Z",
-      "last_seen": "2026-11-22T01:46:01Z"
+      "last_seen": "2026-11-22T09:00:04Z"
     },
     {
       "id": "97d0321d697d669e25dea8ae0ff54cba76eb7885",
@@ -131,7 +191,7 @@
       "description": "Suspected China-linked hackers used autonomous AI agents to find a previously unknown flaw in MONAI Label, an open-source medical imaging server, and gain root access to a university server, Amazon Threat Intelligence said this week. The flaw allows an attacker with no account to write files outside the server's storage folder, and it affects MONAI Label 0.8.5 and earlier in the default setup,",
       "source": "thehackernews.com",
       "first_seen": "2026-11-21T15:45:14Z",
-      "last_seen": "2026-11-22T01:46:01Z"
+      "last_seen": "2026-11-22T09:00:04Z"
     },
     {
       "id": "a571f5d878a98fb616f779460c66ce83b1f5e6a1",
@@ -191,7 +251,7 @@
       "description": "During the last wave of major VMware vCenter security updates, a China-nexus threat group likely already had its next zero-day up its sleeve.",
       "source": "darkreading.com",
       "first_seen": "2026-11-21T00:27:43Z",
-      "last_seen": "2026-11-22T01:46:01Z"
+      "last_seen": "2026-11-22T09:00:04Z"
     },
     {
       "id": "d13b5336f3e00a9605f6aade7f7d1fe06351b8ef",
@@ -201,7 +261,7 @@
       "description": "Bell Canada has confirmed that an \"agentic\" threat actor breached its systems on November 17, 2026, and stole enterprise customer data, including information from a system used to order and provision telecommunications circuits. [...]",
       "source": "bleepingcomputer.com",
       "first_seen": "2026-11-21T00:27:43Z",
-      "last_seen": "2026-11-22T01:46:01Z"
+      "last_seen": "2026-11-22T09:00:04Z"
     },
     {
       "id": "0bd260bca98daf4d8193ff4a88eb044636bc653f",
@@ -211,7 +271,7 @@
       "description": "From talking cloud security to using AI, cyber leaders are finding that clear, disciplined communication is now a front-line defense capability across the enterprise.",
       "source": "darkreading.com",
       "first_seen": "2026-11-21T00:27:43Z",
-      "last_seen": "2026-11-22T01:46:01Z"
+      "last_seen": "2026-11-22T09:00:04Z"
     },
     {
       "id": "59c6d49c756234b57483e1d18c4d3205c3e923f5",
@@ -241,7 +301,7 @@
       "description": "In this video, Dark Reading editors discuss some of the news they didn't get a chance to cover, from Jensen Huang's resignation from Nvidia to Microsoft's recent cloud outage.",
       "source": "darkreading.com",
       "first_seen": "2026-11-21T00:27:43Z",
-      "last_seen": "2026-11-22T01:46:01Z"
+      "last_seen": "2026-11-22T09:00:04Z"
     },
     {
       "id": "11a50c067958e88df97ca9268528de4c10db1fb5",
@@ -281,7 +341,7 @@
       "description": "Tracked as CVE-2026-23871, the vulnerability was found by WhatsApp’s security team, and it may have been used to make scam messages more credible. The post WhatsApp Fixes Flaw Uncovered While Disrupting Scam Campaign appeared first on SecurityWeek.",
       "source": "securityweek.com",
       "first_seen": "2026-11-20T18:06:05Z",
-      "last_seen": "2026-11-22T01:46:01Z"
+      "last_seen": "2026-11-22T09:00:04Z"
     },
     {
       "id": "a7f743393d936eeb22e61c75fb0c53cb1bb4b4ef",
@@ -311,7 +371,7 @@
       "description": "Noteworthy stories that might have slipped under the radar: EU adds NoName057(16) to cyber sanctions list, malware targets CACs left in personal computers, Gemini agents targeted Epoch AI. The post In Other News: Norwegian Energy Firm Cyberattacks, Supercomputer Hack, New Nightmare Eclipse Exploit appeared first on SecurityWeek.",
       "source": "securityweek.com",
       "first_seen": "2026-11-20T18:06:05Z",
-      "last_seen": "2026-11-22T01:46:01Z"
+      "last_seen": "2026-11-22T09:00:04Z"
     },
     {
       "id": "c26f1ad5f2220631b18b3dde3a8b3eabfc825c07",
@@ -491,7 +551,7 @@
       "description": "A CVSS score 8.8 AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H severity vulnerability discovered by 'Connor Kastner (ret2c)' was reported to the affected vendor on: 2026-11-20, 0 days ago. The vendor is given until 2027-03-20 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
       "source": "zerodayinitiative.com",
       "first_seen": "2026-11-21T00:27:43Z",
-      "last_seen": "2026-11-22T01:46:01Z"
+      "last_seen": "2026-11-22T09:00:04Z"
     },
     {
       "id": "400b7ef503a0c9c3b343bc952aa04fc7b2c4e269",
@@ -501,7 +561,7 @@
       "description": "A CVSS score 7.8 AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H severity vulnerability discovered by 'ub1cu0' was reported to the affected vendor on: 2026-11-20, 0 days ago. The vendor is given until 2027-03-20 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
       "source": "zerodayinitiative.com",
       "first_seen": "2026-11-21T00:27:43Z",
-      "last_seen": "2026-11-22T01:46:01Z"
+      "last_seen": "2026-11-22T09:00:04Z"
     },
     {
       "id": "e6c8ffb3c88ecbad4c535c18bf19a6f9b54c102e",
@@ -511,7 +571,7 @@
       "description": "A CVSS score 8.8 AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H severity vulnerability discovered by 'Anonymous' was reported to the affected vendor on: 2026-11-20, 0 days ago. The vendor is given until 2027-03-20 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
       "source": "zerodayinitiative.com",
       "first_seen": "2026-11-21T00:27:43Z",
-      "last_seen": "2026-11-22T01:46:01Z"
+      "last_seen": "2026-11-22T09:00:04Z"
     },
     {
       "id": "9d8a205e5f352d7233275a3121f6fac86ce761da",
@@ -521,7 +581,7 @@
       "description": "A CVSS score 7.8 AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H severity vulnerability discovered by 'anfu' was reported to the affected vendor on: 2026-11-20, 0 days ago. The vendor is given until 2027-03-20 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
       "source": "zerodayinitiative.com",
       "first_seen": "2026-11-21T00:27:43Z",
-      "last_seen": "2026-11-22T01:46:01Z"
+      "last_seen": "2026-11-22T09:00:04Z"
     },
     {
       "id": "696c72693ee04c67f4410770de46b5bb4b8fbcfe",
@@ -531,7 +591,7 @@
       "description": "A CVSS score 7.8 AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H severity vulnerability discovered by 'anfu' was reported to the affected vendor on: 2026-11-20, 0 days ago. The vendor is given until 2027-03-20 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
       "source": "zerodayinitiative.com",
       "first_seen": "2026-11-21T00:27:43Z",
-      "last_seen": "2026-11-22T01:46:01Z"
+      "last_seen": "2026-11-22T09:00:04Z"
     },
     {
       "id": "82551ec0e8162c1cfc11e50ba72b04c6883965dc",
@@ -571,7 +631,7 @@
       "description": "Companies deploying AI agents have the illusion of control, but several incidents demonstrate that businesses need to be ready to enforce directions.",
       "source": "darkreading.com",
       "first_seen": "2026-11-20T01:30:20Z",
-      "last_seen": "2026-11-22T01:46:01Z"
+      "last_seen": "2026-11-22T09:00:04Z"
     },
     {
       "id": "5cc24a8d97220301d48cc83bd2ea5cd783294761",
@@ -611,7 +671,7 @@
       "description": "No specific link has been drawn between the two incidents, though they certainly sing the same notes.",
       "source": "darkreading.com",
       "first_seen": "2026-11-21T00:27:43Z",
-      "last_seen": "2026-11-22T01:46:01Z"
+      "last_seen": "2026-11-22T09:00:04Z"
     },
     {
       "id": "2c0e5edb442116b20e77dac99e5f7d028da1fa4f",
@@ -32214,16 +32274,6 @@
       "last_seen": "2026-08-24T11:17:24Z"
     },
     {
-      "id": "06eceb2719faf5e931528a20acaada09f98c8911",
-      "title": "Anthropic Expands Mythos 5 Access to More Defenders, Unveils $35M Open Source Fund",
-      "link": "https://www.securityweek.com/anthropic-expands-mythos-5-access-to-more-defenders-unveils-35m-open-source-fund/",
-      "date": "2026-08-24T07:18:58Z",
-      "description": "Claude Security, currently in public beta for Claude Enterprise customers, now runs codebase scans on Mythos 5. The post Anthropic Expands Mythos 5 Access to More Defenders, Unveils $35M Open Source Fund appeared first on SecurityWeek.",
-      "source": "securityweek.com",
-      "first_seen": "2026-08-24T07:49:20Z",
-      "last_seen": "2026-08-24T10:27:08Z"
-    },
-    {
       "id": "659bccff4c980b95b7a85ae23b107fa0744cab49",
       "title": "Linux Kernel Vulnerability CVE-2024-26582: Public PoC Reaches Root Shell",
       "link": "https://securityonline.info/linux-kernel-cve-2024-26582-root-shell/",
@@ -32261,7 +32311,7 @@
       "description": "2.5 million people were affected, in a breach that could spell more trouble down the line.",
       "source": "threatpost.com",
       "first_seen": "2026-11-06T21:51:30Z",
-      "last_seen": "2026-11-22T01:46:01Z"
+      "last_seen": "2026-11-22T09:00:04Z"
     },
     {
       "id": "4140c7a34b0ba94ad2e6b0cae9f59b0cb9bfffea",
@@ -32271,7 +32321,7 @@
       "description": "Researchers uncover a watering hole attack likely carried out by APT TA423, which attempts to plant the ScanBox JavaScript-based reconnaissance tool.",
       "source": "threatpost.com",
       "first_seen": "2026-11-06T21:51:30Z",
-      "last_seen": "2026-11-22T01:46:01Z"
+      "last_seen": "2026-11-22T09:00:04Z"
     },
     {
       "id": "9359ee40a641a4b565080313045f1d7e7fe6552b",
@@ -32281,7 +32331,7 @@
       "description": "Over 130 companies tangled in sprawling phishing campaign that spoofed a multi-factor authentication system.",
       "source": "threatpost.com",
       "first_seen": "2026-11-06T21:51:30Z",
-      "last_seen": "2026-11-22T01:46:01Z"
+      "last_seen": "2026-11-22T09:00:04Z"
     },
     {
       "id": "b4ccef0737cd4050d65241bf754072030b6b5e6a",
@@ -32291,7 +32341,7 @@
       "description": "Lockbit is by far this summer’s most prolific ransomware group, trailed by two offshoots of the Conti group.",
       "source": "threatpost.com",
       "first_seen": "2026-11-06T21:51:30Z",
-      "last_seen": "2026-11-22T01:46:01Z"
+      "last_seen": "2026-11-22T09:00:04Z"
     },
     {
       "id": "12ee113fc8fce91f6d7fb28deab2b1ad20061ec7",
@@ -32301,7 +32351,7 @@
       "description": "Tens of thousands of cameras have failed to patch a critical, 11-month-old CVE, leaving thousands of organizations exposed.",
       "source": "threatpost.com",
       "first_seen": "2026-11-06T21:51:30Z",
-      "last_seen": "2026-11-22T01:46:01Z"
+      "last_seen": "2026-11-22T09:00:04Z"
     }
   ]
 }

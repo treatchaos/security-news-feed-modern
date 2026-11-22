@@ -1,7 +1,42 @@
 {
-  "last_updated": "2026-11-22T01:46:01Z",
+  "last_updated": "2026-11-22T09:00:04Z",
   "count": 35,
   "items": [
+    {
+      "title": "OpenRouter Drops 3 Providers After Researchers Catch Months of Prompt Theft at AI Hosting Firms",
+      "link": "https://thehackernews.com/2026/11/openrouter-drops-3-providers-after.html",
+      "date": "2026-11-22T05:06:55Z",
+      "description": "Attackers stole data from inside three AI inference providers for months, and none of the three knew until researchers told them, the industrial cybersecurity company Dragos said this week. Some of the stolen requests were flagged as Zero Data Retention, the setting that is supposed to mean a prompt is never stored. OpenRouter, a gateway that routes customers' AI requests to a pool of",
+      "source": "thehackernews.com"
+    },
+    {
+      "title": "Researchers Demonstrate Ghostscript Sandbox-Escape RCE via Crafted File Uploads in Popular Apps",
+      "link": "https://thehackernews.com/2026/11/researchers-demonstrate-ghostscript.html",
+      "date": "2026-11-22T05:03:41Z",
+      "description": "A now-patched flaw in Ghostscript allows a crafted file to escape the program's security sandbox and run commands on the server that processes it. Ghostscript is the interpreter that many Linux servers use to convert uploaded PDFs, PostScript files, and images into other formats, often without the application calling it directly. Security firm pwn.ai showed this week that ordinary upload,",
+      "source": "thehackernews.com"
+    },
+    {
+      "title": "OpenRouter Users’ Private AI Chats Possibly Exposed Via Compromised Third-Party Providers",
+      "link": "https://cybersecuritynews.com/openrouter-ai-chat-leaks/",
+      "date": "2026-11-22T03:58:45Z",
+      "description": "OpenRouter has removed three AI hosting providers and revoked Zero Data Retention eligibility for 125 endpoints after researchers found evidence that some providers had been compromised or had failed to follow their data policies. In its November 22 incident notice, OpenRouter said it notified all potentially affected customers. The findings did not show a breach […] The post OpenRouter Users’…",
+      "source": "cybersecuritynews.com"
+    },
+    {
+      "title": "Hackers Could Execute Commands on WordPress, Email and Print Servers Through Upload2Shell Flaw",
+      "link": "https://cybersecuritynews.com/upload2shell-flaw/",
+      "date": "2026-11-22T02:43:08Z",
+      "description": "A flaw in Ghostscript let researchers run commands on WordPress, Roundcube webmail, and Linux print servers through routine file processing. The vulnerability, dubbed Upload2Shell and tracked as CVE-2026-125396, affects upstream Ghostscript releases before 10.08.0. It sits in the software’s Type 1 font loader, but the affected servers did not need to expose Ghostscript directly. Their […] The…",
+      "source": "cybersecuritynews.com"
+    },
+    {
+      "title": "Hackers Exploit Microsoft Entra Connect Health Flaw to Access Admin Emails and Organization Data",
+      "link": "https://cybersecuritynews.com/microsoft-entra-connect-health-flaw/",
+      "date": "2026-11-22T02:03:18Z",
+      "description": "Attackers exploited a flaw in Microsoft Entra Connect Health to read administrator and technical contact email addresses, along with configuration data from affected organizations. A Microsoft customer notice shared on Reddit describes read-only access to those records, not access to inboxes or email messages. Microsoft fixed the flaw in its cloud service on November 19, […] The post Hackers…",
+      "source": "cybersecuritynews.com"
+    },
     {
       "title": "FBI Investigating Apparent Hack of Its Key National Criminal Justice Database, AP Source Says",
       "link": "https://www.securityweek.com/fbi-investigating-apparent-hack-of-its-key-national-criminal-justice-database-ap-source-says/",
@@ -22,6 +57,13 @@
       "date": "2026-11-21T18:01:58Z",
       "description": "Microsoft is warning organizations that it suffered a data breach after attackers exploited a vulnerability in its Entra Connect Health service to gain unauthorized access to administrator email addresses and tenant configuration information. [...]",
       "source": "bleepingcomputer.com"
+    },
+    {
+      "title": "MCP Server Security: How to Stop Rogue AI Agents",
+      "link": "https://cybersecuritynews.com/mcp-server-security/",
+      "date": "2026-11-21T17:24:13Z",
+      "description": "The Model Context Protocol (MCP) lets AI applications connect to external tools, APIs, and business data through a standardized interface. But every MCP server adds another entry point that attackers can target. MCP server security is becoming an important concern as organizations give AI agents access to increasingly sensitive systems. DataDome reported in October 2025 […] The post MCP Server…",
+      "source": "cybersecuritynews.com"
     },
     {
       "title": "BADBOX botnet returns with record-breaking 40 billion daily ad requests",
@@ -80,41 +122,6 @@
       "source": "thehackernews.com"
     },
     {
-      "title": "Signal Blocks AI Agents From Reading Private Chats via Screenshots on Android and iOS",
-      "link": "https://thehackernews.com/2026/11/signal-blocks-ai-agents-from-reading.html",
-      "date": "2026-11-21T08:49:20Z",
-      "description": "Signal has announced that it will restrict screenshots by default to stop artificial intelligence (AI) agents from reading private chats on Android and iOS devices, but conceded that the protection is \"incomplete.\" The feature applies to agentic systems built into iOS 27 and on Android versions where the encrypted messaging platform can detect an AI assistant attempting to read the Signal",
-      "source": "thehackernews.com"
-    },
-    {
-      "title": "Hackers Exploit Critical VMware, Cisco, and Apache Flaws as Espionage Attacks Emerge",
-      "link": "https://thehackernews.com/2026/11/hackers-exploit-critical-vmware-cisco.html",
-      "date": "2026-11-21T08:49:13Z",
-      "description": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Friday added four flaws impacting Apache Roller, Cisco Expressway, SAP NetWeaver, and Broadcom VMware vCenter to its Known Exploited Vulnerabilities (KEV), citing evidence of active exploitation. The vulnerabilities are listed below - CVE-2026-129448 (CVSS score: 9.8) - A deserialization of untrusted data vulnerability in",
-      "source": "thehackernews.com"
-    },
-    {
-      "title": "6 Critical F5 BIG-IP Vulnerabilities Could Let Hackers Disrupt Websites and Execute Malicious Code",
-      "link": "https://cybersecuritynews.com/critical-f5-big-ip-vulnerabilities/",
-      "date": "2026-11-21T03:13:03Z",
-      "description": "F5 released emergency fixes for six critical BIG-IP vulnerabilities that could let remote attackers take websites and other services offline without logging in. The flaws affect specific traffic-handling configurations. An attacker who can reach a vulnerable service could crash the BIG-IP process that handles client traffic. F5 also warned that attackers may be able to […] The post 6 Critical F5…",
-      "source": "cybersecuritynews.com"
-    },
-    {
-      "title": "WhatsApp Android Flaws Could Let Hackers Delete Users’ Files and Expose IP Addresses",
-      "link": "https://cybersecuritynews.com/whatsapp-android-flaws/",
-      "date": "2026-11-21T02:36:55Z",
-      "description": "WhatsApp’s November 2026 security update describes three flaws that could let attackers delete files stored by WhatsApp on Android, expose a user’s IP address, or bypass a security check for Meta AI’s Private Processing service. Of the three, only the IP exposure flaw was flagged for possible abuse. The advisory says it may have been […] The post WhatsApp Android Flaws Could Let Hackers Delete…",
-      "source": "cybersecuritynews.com"
-    },
-    {
-      "title": "14 Best Enterprise Risk Management Tools 2027",
-      "link": "https://cybersecuritynews.com/enterprise-risk-management-tools/",
-      "date": "2026-11-21T01:26:39Z",
-      "description": "Enterprise Risk Management (ERM) tools empower organizations to identify, assess, and mitigate risks amid 2026’s complex, threat-laden business landscape. Evolving rapidly, these platforms harness AI, machine learning, and automation for real-time insights, process streamlining, and holistic coverage of operational, financial, compliance, and cybersecurity risks. Top ERM solutions prioritize…",
-      "source": "cybersecuritynews.com"
-    },
-    {
       "title": "China's 'Armory Castle' Lays Siege to VMware vCenter Zero-Day",
       "link": "https://www.darkreading.com/cyberattacks-data-breaches/china-armory-castle-vmware-vcenter-zero-day",
       "date": "2026-11-20T21:03:27Z",
@@ -143,13 +150,6 @@
       "source": "darkreading.com"
     },
     {
-      "title": "Microsoft Investigates Attachment Upload Failures in New Outlook",
-      "link": "https://cybersecuritynews.com/microsoft-attachment-upload-failures/",
-      "date": "2026-11-20T17:01:31Z",
-      "description": "Microsoft is investigating reports that some Microsoft 365 users cannot upload email attachments in New Outlook. In a November 20 service update, the company said attachment uploads still work in Outlook on the web and classic Outlook. Microsoft is tracking the issue in the Microsoft 365 admin center under EX1561765. New Outlook Attachment Issue The […] The post Microsoft Investigates Attachment…",
-      "source": "cybersecuritynews.com"
-    },
-    {
       "title": "WhatsApp Fixes Flaw Uncovered While Disrupting Scam Campaign",
       "link": "https://www.securityweek.com/whatsapp-fixes-flaw-uncovered-while-disrupting-scam-campaign/",
       "date": "2026-11-20T16:01:02Z",
@@ -167,35 +167,35 @@
       "title": "ZDI-CAN-34721: VMware",
       "link": "http://www.zerodayinitiative.com/advisories/upcoming/",
       "date": "2026-11-20T06:00:00Z",
-      "description": "A CVSS score 8.8 AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H severity vulnerability discovered by 'Connor Kastner (ret2c)' was reported to the affected vendor on: 2026-11-20, 1 days ago. The vendor is given until 2027-03-20 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
+      "description": "A CVSS score 8.8 AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H severity vulnerability discovered by 'Connor Kastner (ret2c)' was reported to the affected vendor on: 2026-11-20, 2 days ago. The vendor is given until 2027-03-20 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
       "source": "zerodayinitiative.com"
     },
     {
       "title": "ZDI-CAN-34275: Autodesk",
       "link": "http://www.zerodayinitiative.com/advisories/upcoming/",
       "date": "2026-11-20T06:00:00Z",
-      "description": "A CVSS score 7.8 AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H severity vulnerability discovered by 'ub1cu0' was reported to the affected vendor on: 2026-11-20, 1 days ago. The vendor is given until 2027-03-20 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
+      "description": "A CVSS score 7.8 AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H severity vulnerability discovered by 'ub1cu0' was reported to the affected vendor on: 2026-11-20, 2 days ago. The vendor is given until 2027-03-20 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
       "source": "zerodayinitiative.com"
     },
     {
       "title": "ZDI-CAN-33763: Quest",
       "link": "http://www.zerodayinitiative.com/advisories/upcoming/",
       "date": "2026-11-20T06:00:00Z",
-      "description": "A CVSS score 8.8 AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H severity vulnerability discovered by 'Anonymous' was reported to the affected vendor on: 2026-11-20, 1 days ago. The vendor is given until 2027-03-20 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
+      "description": "A CVSS score 8.8 AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H severity vulnerability discovered by 'Anonymous' was reported to the affected vendor on: 2026-11-20, 2 days ago. The vendor is given until 2027-03-20 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
       "source": "zerodayinitiative.com"
     },
     {
       "title": "ZDI-CAN-36318: Trimble",
       "link": "http://www.zerodayinitiative.com/advisories/upcoming/",
       "date": "2026-11-20T06:00:00Z",
-      "description": "A CVSS score 7.8 AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H severity vulnerability discovered by 'anfu' was reported to the affected vendor on: 2026-11-20, 1 days ago. The vendor is given until 2027-03-20 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
+      "description": "A CVSS score 7.8 AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H severity vulnerability discovered by 'anfu' was reported to the affected vendor on: 2026-11-20, 2 days ago. The vendor is given until 2027-03-20 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
       "source": "zerodayinitiative.com"
     },
     {
       "title": "ZDI-CAN-36437: Trimble",
       "link": "http://www.zerodayinitiative.com/advisories/upcoming/",
       "date": "2026-11-20T06:00:00Z",
-      "description": "A CVSS score 7.8 AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H severity vulnerability discovered by 'anfu' was reported to the affected vendor on: 2026-11-20, 1 days ago. The vendor is given until 2027-03-20 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
+      "description": "A CVSS score 7.8 AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H severity vulnerability discovered by 'anfu' was reported to the affected vendor on: 2026-11-20, 2 days ago. The vendor is given until 2027-03-20 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
       "source": "zerodayinitiative.com"
     },
     {

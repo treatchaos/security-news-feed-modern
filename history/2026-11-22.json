@@ -1,7 +1,57 @@
 {
   "date": "2026-11-22",
-  "count": 3,
+  "count": 9,
   "items": [
+    {
+      "id": "46ea22620accc9c4bd9d4a1d74b75642b160cf16",
+      "title": "OpenRouter Drops 3 Providers After Researchers Catch Months of Prompt Theft at AI Hosting Firms",
+      "link": "https://thehackernews.com/2026/11/openrouter-drops-3-providers-after.html",
+      "date": "2026-11-22T05:06:55Z",
+      "description": "Attackers stole data from inside three AI inference providers for months, and none of the three knew until researchers told them, the industrial cybersecurity company Dragos said this week. Some of the stolen requests were flagged as Zero Data Retention, the setting that is supposed to mean a prompt is never stored. OpenRouter, a gateway that routes customers' AI requests to a pool of",
+      "source": "thehackernews.com",
+      "first_seen": "2026-11-22T09:00:04Z",
+      "last_seen": "2026-11-22T09:00:04Z"
+    },
+    {
+      "id": "6a0dec1a448e126f0d0c42f94d1de3d802e73cf0",
+      "title": "Researchers Demonstrate Ghostscript Sandbox-Escape RCE via Crafted File Uploads in Popular Apps",
+      "link": "https://thehackernews.com/2026/11/researchers-demonstrate-ghostscript.html",
+      "date": "2026-11-22T05:03:41Z",
+      "description": "A now-patched flaw in Ghostscript allows a crafted file to escape the program's security sandbox and run commands on the server that processes it. Ghostscript is the interpreter that many Linux servers use to convert uploaded PDFs, PostScript files, and images into other formats, often without the application calling it directly. Security firm pwn.ai showed this week that ordinary upload,",
+      "source": "thehackernews.com",
+      "first_seen": "2026-11-22T09:00:04Z",
+      "last_seen": "2026-11-22T09:00:04Z"
+    },
+    {
+      "id": "a41281d257406755d5eb5c6a41432d7da12ea4e9",
+      "title": "OpenRouter Users’ Private AI Chats Possibly Exposed Via Compromised Third-Party Providers",
+      "link": "https://cybersecuritynews.com/openrouter-ai-chat-leaks/",
+      "date": "2026-11-22T03:58:45Z",
+      "description": "OpenRouter has removed three AI hosting providers and revoked Zero Data Retention eligibility for 125 endpoints after researchers found evidence that some providers had been compromised or had failed to follow their data policies. In its November 22 incident notice, OpenRouter said it notified all potentially affected customers. The findings did not show a breach […] The post OpenRouter Users’…",
+      "source": "cybersecuritynews.com",
+      "first_seen": "2026-11-22T09:00:04Z",
+      "last_seen": "2026-11-22T09:00:04Z"
+    },
+    {
+      "id": "8d05f53fc89e20a004ec3588dc5dd799f992b066",
+      "title": "Hackers Could Execute Commands on WordPress, Email and Print Servers Through Upload2Shell Flaw",
+      "link": "https://cybersecuritynews.com/upload2shell-flaw/",
+      "date": "2026-11-22T02:43:08Z",
+      "description": "A flaw in Ghostscript let researchers run commands on WordPress, Roundcube webmail, and Linux print servers through routine file processing. The vulnerability, dubbed Upload2Shell and tracked as CVE-2026-125396, affects upstream Ghostscript releases before 10.08.0. It sits in the software’s Type 1 font loader, but the affected servers did not need to expose Ghostscript directly. Their […] The…",
+      "source": "cybersecuritynews.com",
+      "first_seen": "2026-11-22T09:00:04Z",
+      "last_seen": "2026-11-22T09:00:04Z"
+    },
+    {
+      "id": "67dc27d4d1d7c9b3789b569119842ea74eed6c2d",
+      "title": "Hackers Exploit Microsoft Entra Connect Health Flaw to Access Admin Emails and Organization Data",
+      "link": "https://cybersecuritynews.com/microsoft-entra-connect-health-flaw/",
+      "date": "2026-11-22T02:03:18Z",
+      "description": "Attackers exploited a flaw in Microsoft Entra Connect Health to read administrator and technical contact email addresses, along with configuration data from affected organizations. A Microsoft customer notice shared on Reddit describes read-only access to those records, not access to inboxes or email messages. Microsoft fixed the flaw in its cloud service on November 19, […] The post Hackers…",
+      "source": "cybersecuritynews.com",
+      "first_seen": "2026-11-22T09:00:04Z",
+      "last_seen": "2026-11-22T09:00:04Z"
+    },
     {
       "id": "cec14b5d09a92b5df57b68070542cdde2c371dc1",
       "title": "FBI Investigating Apparent Hack of Its Key National Criminal Justice Database, AP Source Says",
@@ -10,7 +60,7 @@
       "description": "The FBI is investigating an apparent hack of a national law enforcement database that it maintains. The post FBI Investigating Apparent Hack of Its Key National Criminal Justice Database, AP Source Says appeared first on SecurityWeek.",
       "source": "securityweek.com",
       "first_seen": "2026-11-22T01:46:01Z",
-      "last_seen": "2026-11-22T01:46:01Z"
+      "last_seen": "2026-11-22T09:00:04Z"
     },
     {
       "id": "688ea8dbd2c4f3eb1ed1a2d6f00a3c474105d728",
@@ -20,7 +70,17 @@
       "description": "Rackspace warned customers that hackers breached its Rackspace Spot cloud platform using compromised credentials, allowing them to deploy unauthorized workloads and access Kubernetes secrets in customer clusters. [...]",
       "source": "bleepingcomputer.com",
       "first_seen": "2026-11-22T01:46:01Z",
-      "last_seen": "2026-11-22T01:46:01Z"
+      "last_seen": "2026-11-22T09:00:04Z"
+    },
+    {
+      "id": "09e2725542ef60983701ecd0f344046150bab327",
+      "title": "MCP Server Security: How to Stop Rogue AI Agents",
+      "link": "https://cybersecuritynews.com/mcp-server-security/",
+      "date": "2026-11-21T17:24:13Z",
+      "description": "The Model Context Protocol (MCP) lets AI applications connect to external tools, APIs, and business data through a standardized interface. But every MCP server adds another entry point that attackers can target. MCP server security is becoming an important concern as organizations give AI agents access to increasingly sensitive systems. DataDome reported in October 2025 […] The post MCP Server…",
+      "source": "cybersecuritynews.com",
+      "first_seen": "2026-11-22T09:00:04Z",
+      "last_seen": "2026-11-22T09:00:04Z"
     },
     {
       "id": "ae9ddf0b8f65c7302c90a122b03a00ada2de8580",
@@ -30,7 +90,7 @@
       "description": "White House says the battle-tested cyber leader will drive an America First cyber strategy. The post President Trump Taps Kirsten Davies as National Cyber Director appeared first on SecurityWeek.",
       "source": "securityweek.com",
       "first_seen": "2026-11-22T01:46:01Z",
-      "last_seen": "2026-11-22T01:46:01Z"
+      "last_seen": "2026-11-22T09:00:04Z"
     }
   ]
 }
