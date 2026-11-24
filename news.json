@@ -1,7 +1,84 @@
 {
-  "last_updated": "2026-11-24T01:21:10Z",
-  "count": 30,
+  "last_updated": "2026-11-24T11:46:23Z",
+  "count": 35,
   "items": [
+    {
+      "title": "Hackers Continue EvilTokens Phishing After Microsoft Takedown to Hijack Microsoft 365 Accounts",
+      "link": "https://cybersecuritynews.com/eviltokens-phishing/",
+      "date": "2026-11-24T11:36:09Z",
+      "description": "Hackers are still running EvilTokens phishing campaigns to take over Microsoft 365 accounts, even though Microsoft shut the service down on September 22, 2026. London’s Metropolitan Police had arrested two men in connection with the kit eleven days earlier. New phishing hosts kept appearing through October and November anyway. EvilTokens is a phishing-as-a-service kit that […] The post Hackers…",
+      "source": "cybersecuritynews.com"
+    },
+    {
+      "title": "Hackers Bypass Alpine Linux SSH Authentication Using Just a 257-Byte Password",
+      "link": "https://cybersecuritynews.com/hackers-bypass-alpine-linux-ssh-authentication/",
+      "date": "2026-11-24T11:25:20Z",
+      "description": "A flaw in OpenSSH lets remote attackers sign in to certain Alpine Linux accounts without knowing a valid password or holding an SSH key. The vulnerability, tracked as CVE-2026-123158 and known as SSHole, affects unpatched servers that use the musl C library, run without Pluggable Authentication Modules (PAM), and allow SSH password logins. OpenSSH released […] The post Hackers Bypass Alpine…",
+      "source": "cybersecuritynews.com"
+    },
+    {
+      "title": "Hackers Bypass MFA Through Phone Scams to Access Microsoft 365, OneDrive and SharePoint Data",
+      "link": "https://cybersecuritynews.com/bypass-mfa-through-phone-scams/",
+      "date": "2026-11-24T10:48:04Z",
+      "description": "Cybercriminals posing as corporate IT support are calling employees and tricking them into handing over access to Microsoft 365 accounts, even when multifactor authentication (MFA) is enabled. The attackers have used compromised accounts to steal email and files from OneDrive and SharePoint, then contacted employees through Microsoft Teams or email to demand payment. The calls […] The post…",
+      "source": "cybersecuritynews.com"
+    },
+    {
+      "title": "Microsoft Fixes Azure API Management Classic Flaw as Actor Targets Customer Secrets",
+      "link": "https://thehackernews.com/2026/11/microsoft-fixes-azure-api-management.html",
+      "date": "2026-11-24T10:44:49Z",
+      "description": "Norway's National Security Authority (NSM) has disclosed that it became aware of a security vulnerability in Microsoft's Azure API Management (APIM) that has affected multiple businesses in the country, including energy companies Equinor and Skagerak Energi. \"An unknown actor has been actively looking for access tokens, secrets, and named values ​​in APIM,\" NSM said. \"It is still uncertain how",
+      "source": "thehackernews.com"
+    },
+    {
+      "title": "Elecbrakes Bluetooth Vulnerabilities Expose Trailers to Forced Braking",
+      "link": "https://www.securityweek.com/elecbrakes-bluetooth-vulnerabilities-expose-trailers-to-forced-braking/",
+      "date": "2026-11-24T10:44:44Z",
+      "description": "Critical Bluetooth flaws in Elecbrakes controllers could let nearby attackers force trailer braking, potentially causing accidents. The post Elecbrakes Bluetooth Vulnerabilities Expose Trailers to Forced Braking appeared first on SecurityWeek.",
+      "source": "securityweek.com"
+    },
+    {
+      "title": "Peninsula Energy Halts Trading After Cyber Incident Hits US Uranium Mine",
+      "link": "https://www.securityweek.com/peninsula-energy-halts-trading-after-cyber-incident-hits-us-uranium-mine/",
+      "date": "2026-11-24T10:35:04Z",
+      "description": "The company told the ASX that a cybersecurity incident at its Wyoming uranium project would temporarily affect operations. The post Peninsula Energy Halts Trading After Cyber Incident Hits US Uranium Mine appeared first on SecurityWeek.",
+      "source": "securityweek.com"
+    },
+    {
+      "title": "CISA Warns of VMware vCenter, SAP NetWeaver, Cisco Expressway, and Apache Roller Flaws Exploited in Attacks",
+      "link": "https://cybersecuritynews.com/cisa-warns-vmware-sap-cisco-apache-roller-flaws-exploited/",
+      "date": "2026-11-24T10:00:33Z",
+      "description": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) added four vulnerabilities affecting VMware vCenter, SAP NetWeaver, Cisco Expressway, and Apache Roller to its Known Exploited Vulnerabilities (KEV) Catalog on November 20, 2026. In its November 20 alert, the agency confirmed all four flaws were exploited and gave federal civilian agencies until November 23 to patch […] The post…",
+      "source": "cybersecuritynews.com"
+    },
+    {
+      "title": "Critical Google Chrome Flaw Could Let Hackers Execute Malicious Code Outside Browser Sandbox",
+      "link": "https://cybersecuritynews.com/critical-google-chrome-flaw/",
+      "date": "2026-11-24T09:37:46Z",
+      "description": "Google released a desktop Chrome security update on November 23, 2026, to fix CVE-2026-134401. This critical flaw could let a remote attacker run malicious code outside the browser sandbox. The Stable update covers Windows, macOS, and Linux. It contains one security fix, and Google says the rollout will take place over the coming days and […] The post Critical Google Chrome Flaw Could Let…",
+      "source": "cybersecuritynews.com"
+    },
+    {
+      "title": "WHMCS SQL Injection Could Expose Customer Data and Admin Password Hashes without Login",
+      "link": "https://thehackernews.com/2026/11/whmcs-sql-injection-flaw-could-expose.html",
+      "date": "2026-11-24T08:34:20Z",
+      "description": "A flaw in WHMCS's shopping cart, the billing and automation platform many web hosting companies use to run their businesses, could allow anyone on the internet to retrieve customer records and administrator password hashes from an installation's database. No login is needed. The company disclosed the SQL injection yesterday along with two other flaws that need a logged-in client, and released",
+      "source": "thehackernews.com"
+    },
+    {
+      "title": "OpenAI and Cisco Unveil AI-Assisted Linux Security Tool to Block Exploits Before Patching",
+      "link": "https://thehackernews.com/2026/11/openai-and-cisco-unveil-ai-assisted.html",
+      "date": "2026-11-24T06:02:57Z",
+      "description": "OpenAI and Cisco have teamed up to launch Shirudo (meaning \"shield\" in Japanese), an open-source Linux runtime that allows artificial intelligence (AI) agents to defend systems without downtime. \"It lets agents write dynamic eBPF controls to shield systems from exploits, giving defenders more time to test and roll out patches,\" OpenAI said in a post on X. The AI upstart called the initiative a",
+      "source": "thehackernews.com"
+    },
+    {
+      "title": "Hackers Exploit N-able MailAssure Flaw While AI Agents Exploit MONAI Label Zero-Day",
+      "link": "https://thehackernews.com/2026/11/hackers-exploit-n-able-mailassure-flaw.html",
+      "date": "2026-11-24T06:02:45Z",
+      "description": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Monday added two flaws impacting N-able MailAssure and MONAI Label to its Known Exploited Vulnerabilities (KEV) catalog, citing evidence of active exploitation. The critical vulnerabilities are listed below - CVE-2026-134624 (CVSS score: 9.3) - A server-side request forgery (SSRF) vulnerability in N-able MailAssure's LDAP",
+      "source": "thehackernews.com"
+    },
     {
       "title": "Industrial Serial Gateways Broadcast That They're Insecure",
       "link": "https://www.darkreading.com/ics-ot-security/industrial-serial-gateways-broadcast-insecure",
@@ -87,17 +164,10 @@
       "source": "securityweek.com"
     },
     {
-      "title": "⚡ Weekly Recap: VMware 0-Day, Java4Shell, NGINX2Root, Ruby2Shell, and a Whole Lot of Shell Trouble",
-      "link": "https://thehackernews.com/2026/11/weekly-recap-vmware-0-day-java4shell.html",
-      "date": "2026-11-23T15:10:48Z",
-      "description": "A stolen key. A trusted message. A routine update. None of these looks like the start of a major security problem. That's partly why they work. Attackers don't always need to break down a door. Sometimes they just use one that's already open. This week's stories show how quickly a small opening can turn into a much bigger mess. One breach helps attackers reach another target. Tools people rely",
-      "source": "thehackernews.com"
-    },
-    {
-      "title": "N-able Patches Critical Flaw Disclosed After Mail Assure Cyberattack",
+      "title": "N-able Patches Critical Flaw Discovered After Mail Assure Cyberattack",
       "link": "https://www.securityweek.com/n-able-patches-critical-flaw-disclosed-after-mail-assure-cyberattack/",
       "date": "2026-11-23T15:06:49Z",
-      "description": "The company has restored access to the affected services and continues to monitor the affected environments. The post N-able Patches Critical Flaw Disclosed After Mail Assure Cyberattack appeared first on SecurityWeek.",
+      "description": "The company has restored access to the affected services and continues to monitor the affected environments. The post N-able Patches Critical Flaw Discovered After Mail Assure Cyberattack appeared first on SecurityWeek.",
       "source": "securityweek.com"
     },
     {
@@ -108,73 +178,38 @@
       "source": "securityweek.com"
     },
     {
-      "title": "GL.iNet Routers, KVMs Compromised via Remote Management Service Flaw",
-      "link": "https://www.securityweek.com/gl-inet-routers-kvms-compromised-via-remote-management-service-flaw/",
-      "date": "2026-11-23T13:26:22Z",
-      "description": "Attackers abused a flaw in the GoodCloud remote management service to push malware to devices, and cleaning them requires new firmware. The post GL.iNet Routers, KVMs Compromised via Remote Management Service Flaw appeared first on SecurityWeek.",
-      "source": "securityweek.com"
-    },
-    {
-      "title": "Critical binary-parser Flaw Enables JavaScript Injection via Malicious Parser Definitions",
-      "link": "https://thehackernews.com/2026/11/critical-binary-parser-flaw-enables.html",
-      "date": "2026-11-23T13:22:20Z",
-      "description": "A critical security flaw has been disclosed in the popular binary-parser library that could allow an attacker who controls parser definitions to execute arbitrary code. The vulnerability, tracked as CVE-2026-134814 (CVSS score: 9.2 / 8.1), is a case of code injection impacting binary-parser versions prior to 2.3.1. \"Binary-parser before 2.3.1 contains a code injection vulnerability that allows",
-      "source": "thehackernews.com"
-    },
-    {
-      "title": "Hackers Exploit Critical ScreenConnect Flaw to Hijack MSP Technician PCs Without Warning",
-      "link": "https://thehackernews.com/2026/11/hackers-exploit-critical-screenconnect.html",
-      "date": "2026-11-23T12:41:04Z",
-      "description": "Threat actors are exploiting a now-patched security flaw in ConnectWise ScreenConnect to target managed service provider (MSP) servers. The activity revolves around CVE-2026-84869 (CVSS score: 9.9), a critical ScreenConnect client flaw that allows a guest to transfer and execute a malicious payload on a connecting technician's host. \"On November 12, 2026, we observed one managed service",
-      "source": "thehackernews.com"
-    },
-    {
-      "title": "N-able Discloses Critical Mail Assure Vulnerability Found During Breach Investigation",
-      "link": "https://thehackernews.com/2026/11/n-able-discloses-critical-mail-assure.html",
-      "date": "2026-11-23T12:28:09Z",
-      "description": "N-able yesterday disclosed a critical flaw it found while investigating the breach of its Mail Assure and SpamExperts Hosted Cloud, an email filtering service it runs for managed service providers. The bug, tracked as CVE-2026-134624, is a server-side request forgery (SSRF) flaw. It allowed a user with high-level API access to open connections to internal systems of the user's choosing on the",
-      "source": "thehackernews.com"
-    },
-    {
-      "title": "AI Inference Providers Failed to Detect Hacking and Prompt Theft, Says Dragos",
-      "link": "https://www.securityweek.com/ai-inference-providers-failed-to-detect-hacking-and-prompt-theft-says-dragos/",
-      "date": "2026-11-23T12:16:20Z",
-      "description": "Dragos uncovered undetected intrusions at three AI inference providers using nearly two million prompts sent to AI services. The post AI Inference Providers Failed to Detect Hacking and Prompt Theft, Says Dragos appeared first on SecurityWeek.",
-      "source": "securityweek.com"
-    },
-    {
       "title": "ZDI-CAN-34721: VMware",
       "link": "http://www.zerodayinitiative.com/advisories/upcoming/",
       "date": "2026-11-20T06:00:00Z",
-      "description": "A CVSS score 8.8 AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H severity vulnerability discovered by 'Connor Kastner (ret2c)' was reported to the affected vendor on: 2026-11-20, 3 days ago. The vendor is given until 2027-03-20 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
+      "description": "A CVSS score 8.8 AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H severity vulnerability discovered by 'Connor Kastner (ret2c)' was reported to the affected vendor on: 2026-11-20, 4 days ago. The vendor is given until 2027-03-20 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
       "source": "zerodayinitiative.com"
     },
     {
       "title": "ZDI-CAN-34275: Autodesk",
       "link": "http://www.zerodayinitiative.com/advisories/upcoming/",
       "date": "2026-11-20T06:00:00Z",
-      "description": "A CVSS score 7.8 AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H severity vulnerability discovered by 'ub1cu0' was reported to the affected vendor on: 2026-11-20, 3 days ago. The vendor is given until 2027-03-20 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
+      "description": "A CVSS score 7.8 AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H severity vulnerability discovered by 'ub1cu0' was reported to the affected vendor on: 2026-11-20, 4 days ago. The vendor is given until 2027-03-20 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
       "source": "zerodayinitiative.com"
     },
     {
       "title": "ZDI-CAN-33763: Quest",
       "link": "http://www.zerodayinitiative.com/advisories/upcoming/",
       "date": "2026-11-20T06:00:00Z",
-      "description": "A CVSS score 8.8 AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H severity vulnerability discovered by 'Anonymous' was reported to the affected vendor on: 2026-11-20, 3 days ago. The vendor is given until 2027-03-20 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
+      "description": "A CVSS score 8.8 AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H severity vulnerability discovered by 'Anonymous' was reported to the affected vendor on: 2026-11-20, 4 days ago. The vendor is given until 2027-03-20 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
       "source": "zerodayinitiative.com"
     },
     {
       "title": "ZDI-CAN-36318: Trimble",
       "link": "http://www.zerodayinitiative.com/advisories/upcoming/",
       "date": "2026-11-20T06:00:00Z",
-      "description": "A CVSS score 7.8 AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H severity vulnerability discovered by 'anfu' was reported to the affected vendor on: 2026-11-20, 3 days ago. The vendor is given until 2027-03-20 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
+      "description": "A CVSS score 7.8 AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H severity vulnerability discovered by 'anfu' was reported to the affected vendor on: 2026-11-20, 4 days ago. The vendor is given until 2027-03-20 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
       "source": "zerodayinitiative.com"
     },
     {
       "title": "ZDI-CAN-36437: Trimble",
       "link": "http://www.zerodayinitiative.com/advisories/upcoming/",
       "date": "2026-11-20T06:00:00Z",
-      "description": "A CVSS score 7.8 AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H severity vulnerability discovered by 'anfu' was reported to the affected vendor on: 2026-11-20, 3 days ago. The vendor is given until 2027-03-20 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
+      "description": "A CVSS score 7.8 AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H severity vulnerability discovered by 'anfu' was reported to the affected vendor on: 2026-11-20, 4 days ago. The vendor is given until 2027-03-20 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.",
       "source": "zerodayinitiative.com"
     },
     {
