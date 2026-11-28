@@ -1,7 +1,47 @@
 {
   "date": "2026-11-28",
-  "count": 1,
+  "count": 7,
   "items": [
+    {
+      "id": "5047f78b103004bf0ba1a2500d094f13943cb137",
+      "title": "Critical Erlang/OTP Flaw Could Let Hackers Impersonate TLS Servers and Intercept Encrypted Traffic",
+      "link": "https://cybersecuritynews.com/critical-erlang-otp-flaw/",
+      "date": "2026-11-28T10:09:43Z",
+      "description": "A critical Erlang/OTP flaw, CVE-2026-124286 (CVSS 9.1), disclosed on November 24, 2026, allows attackers to impersonate trusted servers and intercept or modify TLS-protected traffic. The flaw affects TLS 1.2 clients, even those with server identity verification enabled, but does not impact TLS 1.3 connections. During the TLS handshake, clients use server certificates to verify the […] The post…",
+      "source": "cybersecuritynews.com",
+      "first_seen": "2026-11-28T11:03:42Z",
+      "last_seen": "2026-11-28T11:03:42Z"
+    },
+    {
+      "id": "bf3cf6c8812db87d5c0f725b548798ebb0068c93",
+      "title": "Kenya eCitizen Data Breach – Hackers Reportedly Leak Identity Records of 32 Million Kenyans",
+      "link": "https://cybersecuritynews.com/kenya-ecitizen-data-breach/",
+      "date": "2026-11-28T09:14:31Z",
+      "description": "Hackers have reportedly begun publishing identity records from Kenya’s eCitizen platform on the dark web. Nation’s review of the leaked eCitizen files found that the attackers had accessed data on 32,128,394 Kenyans. The figure reflects the reported scale of access. It does not mean every record has been published, and Kenyan authorities have not confirmed […] The post Kenya eCitizen Data Breach…",
+      "source": "cybersecuritynews.com",
+      "first_seen": "2026-11-28T11:03:42Z",
+      "last_seen": "2026-11-28T11:03:42Z"
+    },
+    {
+      "id": "acb5e78fd28ec72809e0228c5ee6f98892eda305",
+      "title": "pCloud Password Manager Hit by Cyber Attack Involving Email Address Exposure and Login Attempts",
+      "link": "https://thehackernews.com/2026/11/pcloud-password-manager-hit-by-cyber.html",
+      "date": "2026-11-28T08:08:11Z",
+      "description": "Cross-platform password manager pCloud Pass has confirmed it was targeted by a cyber attack after users reported seeing unknown devices being connected to their accounts. \"A cyber attack targeting pCloud Pass occurred, which was promptly contained by the pCloud team,\" the Swiss company said in response to a number of posts on Reddit. \"Unfortunately, a small number of pCloud Pass user email",
+      "source": "thehackernews.com",
+      "first_seen": "2026-11-28T11:03:42Z",
+      "last_seen": "2026-11-28T11:03:42Z"
+    },
+    {
+      "id": "df3e04fe497782a37d2ac3eb64944c81656691b0",
+      "title": "Telegram Warns iPhone Users Are Being Hacked on a Massive Scale; Just Visiting a Website Could Be Enough",
+      "link": "https://cybersecuritynews.com/iphone-users-are-being-hacked/",
+      "date": "2026-11-28T04:48:49Z",
+      "description": "Telegram is sending security alerts to iPhone users running older versions of iOS, CEO Pavel Durov said on November 27. In a post on X, Durov said iPhone users were being hacked “on a massive scale” and warned that opening a website could be enough to break into a vulnerable device. The alert tells users […] The post Telegram Warns iPhone Users Are Being Hacked on a Massive Scale; Just Visiting…",
+      "source": "cybersecuritynews.com",
+      "first_seen": "2026-11-28T11:03:42Z",
+      "last_seen": "2026-11-28T11:03:42Z"
+    },
     {
       "id": "0ef8a7653f076c7d2174c78af7d07236fbebd78c",
       "title": "pCloud confirms password manager hack after suspicious login alerts",
@@ -10,7 +50,27 @@
       "description": "The pCloud Pass password manager suffered a cyberattack, with users reporting that unknown devices had connected to their accounts even with two-factor authentication (2FA) enabled. [...]",
       "source": "bleepingcomputer.com",
       "first_seen": "2026-11-28T02:20:41Z",
-      "last_seen": "2026-11-28T02:20:41Z"
+      "last_seen": "2026-11-28T11:03:42Z"
+    },
+    {
+      "id": "bc80a0cbead1fea7413fb6b73388ad84b899b301",
+      "title": "Hackers Set Freezer Controls to 100°C, Then Lock Technicians Out of the System",
+      "link": "https://cybersecuritynews.com/freezer-control-cyberattack/",
+      "date": "2026-11-27T14:52:38Z",
+      "description": "Hackers changed a freezer chamber’s temperature setting to 100°C at Salamerija Alpija, a meat processing plant in Tolmin, Slovenia. When a service technician tried to sign in to the cooling control system, his access was blocked. Instead of the controls, his screen showed a photo of Italian minister Matteo Salvini with a caption that translates […] The post Hackers Set Freezer Controls to 100°C,…",
+      "source": "cybersecuritynews.com",
+      "first_seen": "2026-11-28T11:03:42Z",
+      "last_seen": "2026-11-28T11:03:42Z"
+    },
+    {
+      "id": "0ebb26bf9e88ff403b25434220df7220efbba475",
+      "title": "12-Year-Old NFS2ROOT Linux Flaw Let Hackers Take Full Control of Servers Without a Password",
+      "link": "https://cybersecuritynews.com/nfs2root-linux-vulnerability/",
+      "date": "2026-11-27T14:48:39Z",
+      "description": "A critical Linux kernel flaw called NFS2ROOT could let an attacker take full control of an unpatched Network File System (NFS) server without logging in. The vulnerability, tracked as CVE-2026-99362, affects the Linux kernel’s NFS server when NFSv4.1 or NFSv4.2 is enabled and an attacker can reach TCP port 2049. The affected code dates back […] The post 12-Year-Old NFS2ROOT Linux Flaw Let…",
+      "source": "cybersecuritynews.com",
+      "first_seen": "2026-11-28T11:03:42Z",
+      "last_seen": "2026-11-28T11:03:42Z"
     }
   ]
 }
